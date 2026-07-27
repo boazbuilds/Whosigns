@@ -1,0 +1,21 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+.vercel/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — nooit committen
+.env
+.env.*
+!.env.example
+
+# Lokale data en tijdelijke bestanden
+data/tmp/
+*.log
+.DS_Store
