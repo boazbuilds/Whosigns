@@ -9,13 +9,18 @@ Nog geen code — de eerste adapter komt in Fase 1 (zie `../ROADMAP.md`).
 pipeline/
   adapters/
     afm_register.py   # Fase 0: seed + wekelijkse snapshot kantorenregister
-    digimv.py         # Fase 1: zorgsector (jaarverantwoordingzorg.nl)
-    tenderned.py      # Fase 3: aanbestedingen accountantsdiensten
+    digimv.py         # Fase 1: zorgsector (jaarverantwoordingzorg.nl) — alleen
+                      #   gestructureerde velden; de zes velden uit docs/visie.md
+    transparantie.py  # Fase 3: OOB-cliëntlijsten uit transparantieverslagen
     duo.py            # Fase 4: onderwijs
-    transparantie.py  # Fase 4: OOB-cliëntlijsten uit transparantieverslagen
-  extractie/          # Claude API-extractie van pdf-verklaringen → JSON
-  signalen/           # afgeleide signalen berekenen (relatieduur, roulatie, …)
+    tenderned.py      # Fase 4: aanbestedingen accountantsdiensten
+  extractie/          # Fase 4: Claude API-extractie van pdf-verklaringen → JSON
+  signalen/           # Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
+
+Het MVP (Fase 0–3) draait **zonder AI-extractie**: alleen wat gestructureerd in de
+bron zit. Records waar de kantoornaam enkel in een pdf staat, worden gemarkeerd en
+geparkeerd tot Fase 4.
 
 ## Spelregels (gelden voor elke adapter)
 
@@ -36,4 +41,5 @@ pipeline/
 ## Draaien (vanaf Fase 0-afronding)
 
 Via GitHub Actions: wekelijks schema + handmatige trigger. Secrets die de workflow nodig
-heeft: `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `ANTHROPIC_API_KEY` (pas vanaf Fase 1).
+heeft: `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`; `ANTHROPIC_API_KEY` pas vanaf Fase 4
+(AI-extractie zit niet in het MVP).

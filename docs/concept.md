@@ -8,6 +8,10 @@
 >
 > Aanvullingen en verbetervoorstellen uit de brainstorm staan in `docs/brainstorm-2026-07.md`.
 > Openstaande keuzes staan in `docs/beslissingen.md`.
+>
+> **Let op:** `docs/visie.md` (juli 2026) scherpt de MVP-scope aan — zes velden,
+> relatiegraaf, geen AI/honoraria/switch-scores in het MVP — en is leidend waar dit
+> document ervan afwijkt.
 
 ## 1. Wat we bouwen
 
