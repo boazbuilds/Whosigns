@@ -37,8 +37,12 @@ kan met de README het project begrijpen en draaien.
 - [ ] Supabase-project aanmaken (EU-regio, beslissing #3) en de migration draaien
 - [ ] Next.js-app (App Router) in `/web`, deploy naar Vercel ("hello world" met
       huisstijl-aanzet en badge "Demo · gedeeltelijke data")
-- [ ] AFM-vergunningenregister ophalen → seed van `kantoren` (regulier/OOB) + eerste
-      vulling `kantoor_alias`; script in `/pipeline`, herdraaibaar
+- [x] AFM-vergunningenregister ophalen via de officiële XML-export →
+      `pipeline/adapters/afm_register.py` + `pipeline/seed/kantoren.csv`
+      (233 kantoren, 6 met OOB-vergunning; hersnapshot = script draaien en committen,
+      de git-diff is het mutatielog)
+- [ ] Seed naar Supabase upserten zodra het project er is; `kantoor_alias` vullen
+      zodra de eerste DigiMV-namen binnenkomen
 - [ ] GitHub Action-skelet: pipeline handmatig triggerbaar + wekelijks schema 🆕
 - [ ] README aangevuld met setup-stappen (Supabase-keys, Vercel, pipeline draaien)
 
