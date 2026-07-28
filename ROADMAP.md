@@ -48,23 +48,28 @@ het AFM-register, en de pipeline draait groen in GitHub Actions.
 ## Fase 1 — Zorgdata: de relatiegraaf vullen
 
 **Doel:** Organisatie ↔ Accountant ↔ Opdracht ↔ Jaar voor de zorgsector, boekjaren
-2018–2024. **Alleen gestructureerde velden — geen pdf/AI-extractie (dat is Fase 4).**
+2018–2024. Zonder LLM: gestructureerde velden + deterministische tekstmatch.
+
+*Kolominspectie 2023 is gedaan (zie `pipeline/adapters/digimv.md`): KvK-nummer, soort
+en vorm van de verklaring (oordeel), honoraria (gesplitst) en zelfs de vraag "bent u
+van accountant gewisseld?" zitten gestructureerd in de dataset — de kantoornaam níét;
+die staat in de verklaring-pdf's in het DigiMV-archief.*
 
 - [ ] Datasets Zorg/Jeugd per boekjaar downloaden (.ods, jaarverantwoordingzorg.nl) en
-      ruw opslaan in Supabase Storage (bron bewaren vóór verwerking — de financials en
-      honoraria die we nú niet laden, blijven zo beschikbaar voor later)
-- [ ] Kolominspectie per jaargang, vastleggen in `pipeline/adapters/digimv.md`: in welke
-      jaren zit de kantoornaam gestructureerd in de dataset, hoe heten de velden
-- [ ] Adapter `pipeline/adapters/digimv.py`: de zes velden → kernmodel, idempotent
-      (organisatie mét KvK-nummer, kantoor via aliastabel, opdrachttype, boekjaar,
-      sector, bron)
+      ruw opslaan in Supabase Storage (bron bewaren vóór verwerking)
+- [x] Kolominspectie boekjaar 2023 → `pipeline/adapters/digimv.md`
+- [ ] Kolominspectie overige jaargangen (2018–2022, 2024) — veldnamen verschillen per jaar
+- [ ] Adapter `pipeline/adapters/digimv.py`: de zes velden → kernmodel, idempotent;
+      oordeel, honoraria en wisselvlag zitten gestructureerd in de bron en worden
+      meegeladen (tonen in de UI blijft beperkt tot de zes velden — visie)
+- [ ] Kantoornaam: verklaring-pdf's uit het DigiMV-archief ophalen (ruw opslaan) en de
+      kantoornaam vinden via **tekstmatch tegen de AFM-lijst/aliastabel** — pdftotext +
+      stringmatching, géén LLM; geen match → `review_queue`; LLM-vangnet pas in Fase 4
 - [ ] Naamnormalisatie: exact op `kantoor_alias`, fuzzy naar `review_queue`, nooit stil
-      mergen (gewone tekstmatching — hier is geen AI voor nodig)
+      mergen
 - [ ] **Mijlpaal A: eerste 1.000 organisaties** in de database — de klik-test-dataset
 - [ ] **Mijlpaal B: volledige zorgsector** voor de jaren waar de bron het toelaat
 - [ ] Steekproefcontrole: 25 organisaties handmatig naleggen tegen de bron
-- [ ] Organisaties waar de kantoornaam alléén in de pdf-verklaring staat: markeren en
-      parkeren voor Fase 4 (niet nu oplossen)
 
 **Klaar wanneer:** duizenden opdrachten in de database met herkomst per feit, en de
 import is met één actie opnieuw te draaien zonder duplicaten.
@@ -81,8 +86,9 @@ en de test of dat écht gebeurt.
       MVP), cliëntentabel, sectorverdeling, "cliënt sinds"
 - [ ] Organisatieprofiel `/organisatie/[kvk]`: huidige accountant, historie per boekjaar,
       vorige accountant, bronvermelding per feit
-- [ ] Wisselingen `/wisselingen`: uit de historie afgeleide wisselingen (`v_wisselingen`),
-      chronologisch, filterbaar op sector/jaar/kantoor — feiten, geen voorspellingen
+- [ ] Wisselingen `/wisselingen`: uit de historie afgeleide wisselingen (`v_wisselingen`)
+      plus de zelfgerapporteerde wisselvlag uit DigiMV, chronologisch, filterbaar op
+      sector/jaar/kantoor — feiten, geen voorspellingen
 - [ ] **Harde eis (visie): elke pagina minimaal 5 interessante vervolgklikken; elke naam
       klikbaar; geen doodlopende pagina's**
 - [ ] Nette lege-staten, bronlabel per feit, badge "Demo · gedeeltelijke data"

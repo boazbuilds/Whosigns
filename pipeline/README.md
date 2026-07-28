@@ -18,9 +18,11 @@ pipeline/
   signalen/           # Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
 
-Het MVP (Fase 0–3) draait **zonder AI-extractie**: alleen wat gestructureerd in de
-bron zit. Records waar de kantoornaam enkel in een pdf staat, worden gemarkeerd en
-geparkeerd tot Fase 4.
+Het MVP (Fase 0–3) draait **zonder AI-extractie**. De kantoornaam staat in de
+zorgsector alleen in de verklaring-pdf's (zie `adapters/digimv.md`); die halen we
+eruit met pdftotext + stringmatch tegen de AFM-lijst/aliastabel — deterministisch,
+geen LLM. Alleen onmatchbare gevallen wachten in de `review_queue` op het
+LLM-vangnet van Fase 4.
 
 ## Spelregels (gelden voor elke adapter)
 
