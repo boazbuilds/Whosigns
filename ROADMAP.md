@@ -16,7 +16,7 @@ het schema houdt er wel plek voor (kolommen blijven leeg tot een latere fase).
 
 | Fase | Naam | Resultaat | Status |
 |------|------|-----------|--------|
-| 0 | Fundament | Repo, schema, Supabase, AFM-kantorenseed, lege site live | 🔨 gestart |
+| 0 | Fundament | Repo, schema, Supabase, AFM-kantorenseed, lege site live | 🔨 bijna klaar (site nog) |
 | 1 | Zorgdata | Relatiegraaf gevuld: eerste 1.000 → volledige zorgsector | ⬜ |
 | 2 | Klik-machine | Vier doorklikbare pagina's + klik-test met echte gebruikers | ⬜ |
 | 3 | Lancering & OOB | Publiek live: volledige zorg + beursfondsen/banken/verzekeraars | ⬜ |
@@ -34,22 +34,26 @@ kan met de README het project begrijpen en draaien.
 - [x] SQL-schema als migration (`supabase/migrations/`): de relatiegraaf
       (organisaties ↔ kantoren ↔ opdrachten ↔ boekjaren) + bronnen, signalen,
       review-queue, views (relatieduur, wisselingen, marktaandeel) en Row Level Security
-- [ ] **Bij de opdrachtgever:** Supabase-project aanmaken en het schema draaien —
-      stappenplan in `docs/setup-supabase.md` (incl. de twee GitHub Secrets)
+- [x] Supabase-project aanmaken en het schema draaien; GitHub Secrets
+      `SUPABASE_URL`/`SUPABASE_SERVICE_ROLE_KEY` toegevoegd — zie `docs/setup-supabase.md`
+      (beslissing #3, regio: opdrachtgever koos opnieuw bij het aanmaken, niet
+      hier vastgelegd — bevestigen welke regio het uiteindelijk is geworden)
 - [x] Wegschrijfroute naar Supabase klaar: `pipeline/supabase_client.py`
       (PostgREST, stdlib-only) + `pipeline/laad_kantoren.py` (idempotente upsert
       van kantoren en aliassen)
 - [x] GitHub Action `.github/workflows/pipeline.yml`: wekelijks + handmatig;
       ververst de seed, commit mutaties als log, schrijft naar de database zodra
       de secrets er zijn (en slaat die stap netjes over zolang dat niet zo is)
+      — **eerste succesvolle run bevestigd 29-7-2026**
 - [ ] Next.js-app (App Router) in `/web`, deploy naar Vercel ("hello world" met
       huisstijl-aanzet en badge "Demo · gedeeltelijke data")
 - [x] AFM-vergunningenregister ophalen via de officiële XML-export →
       `pipeline/adapters/afm_register.py` + `pipeline/seed/kantoren.csv`
       (233 kantoren, 6 met OOB-vergunning; hersnapshot = script draaien en committen,
       de git-diff is het mutatielog)
-- [ ] Seed naar Supabase upserten zodra het project er is; `kantoor_alias` vullen
-      zodra de eerste DigiMV-namen binnenkomen
+- [x] Seed naar Supabase upserten: `pipeline/laad_kantoren.py`, draait nu groen
+      in productie — 233 kantoren + aliassen staan in de database
+      `kantoor_alias` verder vullen zodra de eerste DigiMV-namen binnenkomen (Fase 1)
 - [ ] README aangevuld met de Vercel-stappen (Supabase staat in
       `docs/setup-supabase.md`)
 
