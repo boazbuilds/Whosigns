@@ -1,14 +1,20 @@
-"""DigiMV-adapter: van organisatienaam naar een opdracht-rij in het kernmodel.
+"""DigiMV-adapter: van organisatie naar een opdracht-rij in het kernmodel.
 
 Combineert de eerder gebouwde bouwstenen:
     digimv_archief  -> zoeken in het archief, document ophalen
     kantoor_match   -> kantoornaam herkennen tegen de AFM-lijst
     verklaring      -> pdf -> soort, oordeel, continuïteitsonzekerheid
 
-Deze module doet één organisatie tegelijk (`verwerk_organisatie`) — dat maakt
-hem bruikbaar voor zowel een kleine handmatige lijst (zie `laad_proefdata.py`,
-Fase 1 opstart) als de latere bulkverwerking vanuit de volledige dataset
-(Fase 1, dekkingsstrategie in `digimv.md`).
+Doet één organisatie-boekjaar tegelijk (`verwerk_organisatie`) — bruikbaar voor
+zowel een kleine handmatige lijst (`laad_proefdata.py`) als de latere
+bulkverwerking vanuit de volledige dataset (dekkingsstrategie in `digimv.md`).
+
+**Matchen gebeurt op KvK-nummer, niet op naam+plaats.** Naam en plaats wisselen
+namelijk per boekjaar in de bron: HagaZiekenhuis staat in boekjaar 2023 als
+"Stichting HagaZiekenhuis" te 's-Gravenhage, maar in 2020 als
+"HagaZiekenhuis (Stichting)" te DEN HAAG. Het KvK-nummer (27268552) is over
+alle jaren gelijk en is dus de enige betrouwbare sleutel. De naam dient
+alleen als zoekterm om de kandidatenlijst klein te houden.
 
 Alleen een controleverklaring met een herkend kantoor levert een resultaat op.
 Samenstellings-/beoordelingsverklaringen en onherkende kantoren geven None —
@@ -26,52 +32,66 @@ from verklaring import analyseer, pdf_naar_tekst  # noqa: E402
 
 CACHE = Path(__file__).resolve().parents[1] / ".cache"
 
+# Het archief houdt een voortschrijdend venster van zeven boekjaren aan
+# (huidig jaar min 1 t/m min 7); oudere jaren geven HTTP 500. Zie digimv.md.
+OUDSTE_BOEKJAAR = 2019
+
 
 def verwerk_organisatie(
-    naam_fragment: str, plaats: str, boekjaar: int, kantoor_index: dict
+    zoekterm: str, kvk_nummer: str, boekjaar: int, kantoor_index: dict
 ) -> dict | None:
-    """Zoekt de organisatie in het archief, analyseert haar controleverklaring.
+    """Zoekt de organisatie op KvK-nummer en analyseert haar controleverklaring.
 
-    Geeft bij succes:
-        {kvk_nummer, naam, plaats, boekjaar, oordeel,
-         continuiteitsonzekerheid, kantoor: {...}, bron_url}
-    of None met een reden (afgedrukt, niet teruggegeven — dit is bewust een
-    kleine, leesbare functie; wie de reden geautomatiseerd nodig heeft
-    (review_queue) kan `analyseer()` rechtstreeks aanroepen).
+    `zoekterm` beperkt alleen de kandidatenlijst; `kvk_nummer` bepaalt welke
+    kandidaat we nemen. Zo blijft het werken als de bron de naam of plaats
+    tussen boekjaren anders schrijft.
     """
-    resultaten = digimv_archief.zoek(organisatie=naam_fragment, plaats=plaats, boekjaar=boekjaar)
-    treffers = [r for r in resultaten if plaats.lower() in (r.get("town") or "").lower()]
+    resultaten = digimv_archief.zoek(organisatie=zoekterm, boekjaar=boekjaar)
+    treffers = [
+        r for r in resultaten
+        if (r.get("externalOrganizationId") or "").strip() == kvk_nummer
+    ]
     if not treffers:
-        print(f"  geen archiefresultaat voor '{naam_fragment}' in {plaats}")
+        print(f"  {boekjaar}: geen organisatie met KvK {kvk_nummer} gevonden")
         return None
 
     organisatie = treffers[0]
     documenten = digimv_archief.verklaringen(organisatie)
     if not documenten:
-        print(f"  geen verklaring-document voor {organisatie['name']}")
+        print(f"  {boekjaar}: geen verklaring gedeponeerd")
         return None
 
     CACHE.mkdir(exist_ok=True)
-    doc = documenten[0]
-    pdf_pad = CACHE / f"{boekjaar}_{organisatie['externalOrganizationId']}_{doc['id']}.pdf"
-    if not pdf_pad.exists():
-        pdf_pad.write_bytes(digimv_archief.haal_document(doc, boekjaar))
+    laatste_reden = None
+    # Meerdere kandidaat-documenten: een losse verklaring lukt meestal direct,
+    # een verzameldocument soms pas als de losse ontbreekt of onleesbaar is.
+    for doc in documenten:
+        pdf_pad = CACHE / f"{boekjaar}_{kvk_nummer}_{doc['id']}.pdf"
+        if not pdf_pad.exists():
+            try:
+                pdf_pad.write_bytes(digimv_archief.haal_document(doc, boekjaar))
+            except Exception as fout:  # noqa: BLE001 — bron mag falen, volgende proberen
+                laatste_reden = f"download mislukt: {fout}"
+                continue
 
-    resultaat = analyseer(pdf_naar_tekst(str(pdf_pad)), kantoor_index)
-    if resultaat["soort"] != "controle":
-        print(f"  {organisatie['name']}: geen controleverklaring ({resultaat['soort']})")
-        return None
-    if not resultaat["kantoor"]:
-        print(f"  {organisatie['name']}: kantoor niet herkend ({resultaat['reden']})")
-        return None
+        resultaat = analyseer(pdf_naar_tekst(str(pdf_pad)), kantoor_index)
+        if resultaat["soort"] != "controle":
+            laatste_reden = f"geen controleverklaring ({resultaat['soort']})"
+            continue
+        if not resultaat["kantoor"]:
+            laatste_reden = resultaat["reden"]
+            continue
 
-    return {
-        "kvk_nummer": organisatie["externalOrganizationId"],
-        "naam": organisatie["name"],
-        "plaats": organisatie["town"],
-        "boekjaar": boekjaar,
-        "oordeel": resultaat["oordeel"],
-        "continuiteitsonzekerheid": bool(resultaat["continuiteitsonzekerheid"]),
-        "kantoor": resultaat["kantoor"],
-        "bron_bestand": doc["fileName"],
-    }
+        return {
+            "kvk_nummer": kvk_nummer,
+            "naam": organisatie["name"],
+            "plaats": organisatie["town"],
+            "boekjaar": boekjaar,
+            "oordeel": resultaat["oordeel"],
+            "continuiteitsonzekerheid": bool(resultaat["continuiteitsonzekerheid"]),
+            "kantoor": resultaat["kantoor"],
+            "bron_bestand": doc["fileName"],
+        }
+
+    print(f"  {boekjaar}: {laatste_reden}")
+    return None
