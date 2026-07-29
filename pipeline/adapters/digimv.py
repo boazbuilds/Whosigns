@@ -38,15 +38,22 @@ OUDSTE_BOEKJAAR = 2019
 
 
 def verwerk_organisatie(
-    zoekterm: str, kvk_nummer: str, boekjaar: int, kantoor_index: dict
+    zoekterm: str,
+    kvk_nummer: str,
+    boekjaar: int,
+    kantoor_index: dict,
+    plaats: str = "",
 ) -> dict | None:
     """Zoekt de organisatie op KvK-nummer en analyseert haar controleverklaring.
 
-    `zoekterm` beperkt alleen de kandidatenlijst; `kvk_nummer` bepaalt welke
-    kandidaat we nemen. Zo blijft het werken als de bron de naam of plaats
-    tussen boekjaren anders schrijft.
+    `zoekterm` en `plaats` beperken alleen de kandidatenlijst; `kvk_nummer`
+    bepaalt welke kandidaat we nemen. Zo blijft het werken als de bron de naam of
+    plaats tussen boekjaren anders schrijft. Zoeken op alleen `plaats` is de
+    terugvaloptie als de naam in de bron te veel afwijkt.
     """
-    resultaten = digimv_archief.zoek(organisatie=zoekterm, boekjaar=boekjaar)
+    resultaten = digimv_archief.zoek(
+        organisatie=zoekterm, plaats=plaats, boekjaar=boekjaar
+    )
     treffers = [
         r for r in resultaten
         if (r.get("externalOrganizationId") or "").strip() == kvk_nummer

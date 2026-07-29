@@ -82,14 +82,30 @@ def alle_documenten(organisatie: dict) -> list[dict]:
 
 
 def verklaringen(organisatie: dict) -> list[dict]:
-    """Documenten die een accountantsverklaring (kunnen) bevatten.
+    """Documenten die een accountantsverklaring (kunnen) bevatten, beste eerst.
 
-    Naast het losse type telt ook het verzameldocument mee: dat bundelt
-    jaarrekening, bestuursverslag en verklaring in één pdf.
+    De volgorde is belangrijk, want het documenttype in de bron is een keuze van
+    de indiener en klopt lang niet altijd:
+
+    1. **Accountantsverklaring** — bedoeld als de verklaring zelf, maar in de
+       praktijk uploadt een deel van de organisaties hier de *aanbiedingsbrief*
+       van de accountant. Die noemt geen oordeel en soms zelfs geen kantoor.
+    2. **Verzameldocument** — bundelt jaarrekening, bestuursverslag en verklaring.
+    3. **Jaarrekening** — bevat de verklaring vrijwel altijd als laatste hoofdstuk.
+       Dit is het vangnet voor geval 1: bij "Stichting LuciVer" (boekjaar 2023)
+       stond onder Accountantsverklaring alleen een aanbiedingsbrief en zat de
+       controleverklaring in de jaarrekening-pdf.
+
+    De aanroeper (`digimv.verwerk_organisatie`) loopt deze lijst af tot er één een
+    controleverklaring mét herkend kantoor oplevert. Jaarrekeningen staan achteraan
+    omdat ze fors groter zijn — we halen ze alleen op als het moet.
     """
-    return [
-        doc
-        for doc in alle_documenten(organisatie)
-        if doc.get("type", "").startswith("Accountantsverklaring")
-        or doc.get("type") == "Verzameldocument"
+    documenten = alle_documenten(organisatie)
+
+    def van_type(*typen: str) -> list[dict]:
+        return [d for d in documenten if d.get("type", "") in typen]
+
+    accountantsverklaring = [
+        d for d in documenten if d.get("type", "").startswith("Accountantsverklaring")
     ]
+    return accountantsverklaring + van_type("Verzameldocument") + van_type("Jaarrekening")
