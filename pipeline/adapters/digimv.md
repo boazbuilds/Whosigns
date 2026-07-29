@@ -284,6 +284,65 @@ Dezelfde les als eerder, nu op schaal: de AFM-naam en de tekennaam verschillen.
 > lager, en dat komt vooral doordat die populatie andere dingen bevat dan wij
 > zoeken. Meet dus per categorie, niet op het totaal.
 
+## Jaargangen 2019–2024 verkend (29-7-2026) — de eigen jaarlijst valt af
+
+Onderzocht of elk boekjaar zijn eigen doelpopulatie kan krijgen in plaats van de
+lijst van 2023 te hergebruiken. Dat zou het gat dichten van organisaties die in
+een ouder jaar bestonden en in 2023 niet meer. **Conclusie: dat gaat niet, en de
+kortere weg via `--lijst-uit 2023` blijft de beste optie.**
+
+### Vindplaatsen (alle gecontroleerd, HTTP 200)
+
+| Boekjaar | Bestand | Formaat |
+|---|---|---|
+| 2024 | `digimv2024-openbaar-20260129-multipletables-part-1..4.ods` | 4 delen, modern |
+| 2023 | `DigiMV2023_MultipleTables_20241001_0927.ods` | modern |
+| 2022 | `DigiMV2022_20240527_ODS_MultipleTables.zip` | zip (deflate), modern |
+| 2021 | `DigiMV2021_tot-en-met_20230121_ODS_MeerdereTabellen.zip` | zip, **oud formaat** |
+| 2020 | `DigiMV2020_tot-en-met_20230121_ODS_MeerdereTabellen.zip` | zip, **oud formaat** |
+| 2019 | `DigiMV2019_20210816_ODS_1.zip` + `_2.zip` | zip (**Deflate64**), **oud formaat** |
+
+**Boekjaar 2019 gebruikt Deflate64.** Python's `zipfile` weigert dat
+("compression method is not supported"); het externe `unzip` kan het wel. Vandaar
+dat `download()` uitpakt via een subprocess.
+
+### Waarom de eigen jaarlijst afvalt
+
+**2019 (en waarschijnlijk 2020–2021) hebben een ander exportformaat.** Sheets
+heten `x9conc_total_*`, veldnamen zijn `c_kvk`, `c_naam`, `ConcernCode` — geen
+`q...`-conventie. Er zit een datadictionary in (`x9conc_total_0`, 3.747 rijen),
+maar die bevat **nul** treffers op "verkl", "accountant", "zorgsoort" of
+"rechtsvorm". Dat bestand is concernbreed financieel; de accountantsverklaring
+zit er niet in. Zonder dat veld is er geen doelpopulatie te bepalen.
+
+**2022 heeft wél het moderne formaat maar een dunnere vulling.** Het veld
+`bestandAccountantsVerklaringSoort_N` (per document) ontbreekt; alleen de
+vraagvariant `qAccVerklSoort` is er, en die is door 1.901 van de 8.982 rijen
+beantwoord. Resultaat: **289 organisaties met een controleverklaring, tegen 1.140
+voor 2023.** Die lijst gebruiken zou de dekking van 2022 dus juist verslechteren.
+
+### Wat de verkenning wél opleverde
+
+**Een bug: de vergelijking was hoofdlettergevoelig.** 2023 schrijft
+`controleverklaring` in het documentveld en `Controleverklaring` in het
+vraagveld. We lazen alleen het eerste, en misten daarmee 130 organisaties die
+alleen het tweede hadden ingevuld. De doelpopulatie van boekjaar 2023 gaat van
+**1.010 naar 1.140**.
+
+**Kolommen worden nu op naam opgezocht, niet op positie.** Dat moest, want
+dezelfde velden staan per jaargang elders: `qRechtsvormKvk` zit in 2023 op
+`RowData_09[224]` en in 2022 op `RowData_11[176]`. De tabel met vaste posities is
+vervangen door `VELDPATRONEN`, dat de koprij van elke sheet leest. Boekjaar 2023
+reproduceert daarmee exact dezelfde uitkomst.
+
+### Wat er nog te halen valt
+
+Voor 2019–2021 zou het tweede bestand (`_2.zip`) of een van de andere sheets de
+verklaring-velden alsnog kunnen bevatten; alleen deel 1 van 2019 is bekeken. Dat
+is de enige resterende route naar volledige historische dekking, en die is
+gebonden aan de klok: boekjaar 2019 verdwijnt bij de eerstvolgende jaarwisseling
+uit het archief.
+
 ## Open punten
 
 - [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`

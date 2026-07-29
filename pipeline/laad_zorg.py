@@ -172,9 +172,9 @@ def main() -> int:
         organisaties = digimv_dataset.lees_csv(lijst_pad)
     else:
         print(f"dataset boekjaar {lijst_boekjaar} ophalen...", flush=True)
-        ods = digimv_dataset.download(lijst_boekjaar, CACHE)
+        ods_paden = digimv_dataset.download(lijst_boekjaar, CACHE)
         print("doelpopulatie bepalen (dit duurt een paar minuten)...", flush=True)
-        organisaties = digimv_dataset.doelpopulatie(ods, lijst_boekjaar)
+        organisaties = digimv_dataset.doelpopulatie(ods_paden, lijst_boekjaar)
         digimv_dataset.schrijf_csv(organisaties, lijst_pad)
 
     herkomst = (
