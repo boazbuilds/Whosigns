@@ -68,8 +68,8 @@ def main() -> int:
     lijst_pad = CACHE / f"doelpopulatie_{boekjaar}.csv"
     if not lijst_pad.exists():
         print(f"dataset boekjaar {boekjaar} ophalen en ontleden...", flush=True)
-        ods = digimv_dataset.download(boekjaar, CACHE)
-        organisaties = digimv_dataset.doelpopulatie(ods, boekjaar)
+        ods_paden = digimv_dataset.download(boekjaar, CACHE)
+        organisaties = digimv_dataset.doelpopulatie(ods_paden, boekjaar)
         digimv_dataset.schrijf_csv(organisaties, lijst_pad)
     rijen = digimv_dataset.lees_csv(lijst_pad)
     if "subsector" not in (rijen[0] if rijen else {}):

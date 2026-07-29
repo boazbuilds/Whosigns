@@ -25,7 +25,7 @@ hebben.
 """
 
 import csv
-import io
+import subprocess
 import urllib.request
 import xml.etree.ElementTree as ET
 import zipfile
@@ -37,46 +37,61 @@ NS_TEXT = "{urn:oasis:names:tc:opendocument:xmlns:text:1.0}"
 
 KOPPEN = {"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"}
 
-# Downloadadres per boekjaar. De vindplaatsen staan in digimv.md; nieuwe
-# jaargangen hier toevoegen zodra ze verschijnen.
-DATASET_URL = {
-    2023: (
-        "https://www.jaarverantwoordingzorg.nl/site/binaries/site-content/"
-        "collections/documents/2024/10/08/definitieve-dataset-2023/"
-        "DigiMV2023_MultipleTables_20241001_0927.ods"
-    ),
+_BASIS = (
+    "https://www.jaarverantwoordingzorg.nl/site/binaries/site-content/"
+    "collections/documents"
+)
+
+# Downloadadressen per boekjaar; een jaargang kan uit meerdere bestanden bestaan.
+# `.zip` wordt uitgepakt met het externe `unzip`, want boekjaar 2019 gebruikt
+# Deflate64 en dat kan Python's zipfile niet.
+#
+# 2019 t/m 2021 staan hier bewust NIET: die gebruiken een ouder exportformaat
+# (sheets `x9conc_total_*`, veldnamen `c_kvk`/`c_naam`) en de datadictionary van
+# 2019 bevat géén accountantsverklaring-velden. Daar is de doelpopulatie dus niet
+# uit te halen; gebruik voor die jaren `--lijst-uit`. Zie digimv.md.
+DATASET_URL: dict[int, list[str]] = {
+    2024: [
+        f"{_BASIS}/2026/03/23/dataset-2024---deel-{deel}/"
+        f"digimv2024-openbaar-20260129-multipletables-part-{deel}.ods"
+        for deel in (1, 2, 3, 4)
+    ],
+    2023: [
+        f"{_BASIS}/2024/10/08/definitieve-dataset-2023/"
+        f"DigiMV2023_MultipleTables_20241001_0927.ods"
+    ],
+    2022: [
+        f"{_BASIS}/2024/05/28/definitieve-dataset-2022/"
+        f"DigiMV2022_20240527_ODS_MultipleTables.zip"
+    ],
 }
 
-# Kolomposities per sheet (boekjaar 2023). Veldnamen wisselen per jaargang;
-# controleer ze bij een nieuwe jaargang met `kolomkoppen()`.
-#
-# `Code` is de sleutel die de sheets aan elkaar knoopt. De vragenlijst is over
-# meerdere RowData-sheets uitgesmeerd omdat een sheet maximaal 256 kolommen heeft.
-KOLOM = {
-    2023: {
-        "RowData_01": {
-            "code": 0,
-            "kvk": 2,            # ExternalOrganizationId
-            "kvk_reserve": 21,   # qNawKvk
-            "naam": 23,          # qNawNaam
-            "naam_reserve": 22,  # qNawNaamLrza
-            "plaats": 28,        # qNawPlaatsLrza
-            # qAGBzorgsoortOrg_1 t/m _101; we nemen de eerste die gevuld is.
-            "zorgsoort_eerste": 34,
-            "zorgsoort_laatste": 234,
-            "zorgsoort_stap": 2,
-        },
-        "RowData_09": {"rechtsvorm": 224},          # qRechtsvormKvk
-        "RowData_11": {"omzet": 25},                # qBatenZorg_0
-        "RowData_13": {                             # honoraria, art. 2:382a BW
-            "honorarium_controle": 12,              # acc_jr_contr_..._0
-            "honorarium_overig": 14,                # acc_ov_contr_..._0
-            "honorarium_fiscaal": 16,               # acc_fisc_adv_..._0
-            "honorarium_nietcontrole": 18,          # acc_niet_contr_..._0
-        },
-        "RowData_15": {"wisselvlag": 132},          # qAccountantWissel_qAccVerklVorm
-    },
+# Kolommen worden op náám opgezocht in de koprij, niet op positie. Dat moet, want
+# dezelfde velden staan per jaargang op andere sheets en andere plekken:
+# qRechtsvormKvk zit in 2023 op RowData_09[224] en in 2022 op RowData_11[176].
+# Eerste patroon dat past wint, dus de volgorde is een voorkeursvolgorde.
+VELDPATRONEN: dict[str, tuple[str, ...]] = {
+    "kvk": ("externalorganizationid", "qnawkvk", "c_kvk"),
+    "naam": ("qnawnaam", "qnawnaamlrza", "c_naam", "name"),
+    "plaats": ("qnawplaatslrza", "qnawplaats", "c_plaats", "town"),
+    "rechtsvorm": ("qrechtsvormkvk",),
+    "omzet": ("qbatenzorg_0",),
+    "honorarium_controle": ("acc_jr_contr",),
+    "honorarium_overig": ("acc_ov_contr",),
+    "honorarium_fiscaal": ("acc_fisc_adv",),
+    "honorarium_nietcontrole": ("acc_niet_contr",),
+    "wisselvlag": ("qaccountantwissel",),
 }
+
+# Het soort verklaring heeft per jaargang een andere veldnaam: 2023 heeft het
+# per document (`bestandAccountantsVerklaringSoort_N`), 2022 als losse vraag
+# (`qAccVerklSoort_qAccVerklSoort`). Beide patronen meenemen; alle kolommen die
+# passen worden gelezen, want een organisatie kan meerdere verklaringen hebben.
+VERKLARINGSOORT_PATRONEN = ("bestandaccountantsverklaringsoort", "qaccverklsoort")
+
+# Zorgsoort staat in tientallen kolommen (qAGBzorgsoortOrg_1 t/m _101); we nemen
+# de eerste die gevuld is.
+ZORGSOORT_PATROON = "qagbzorgsoortorg_"
 
 # De dataset kent 61 AGB-zorgsoorten. Te fijnmazig om op te navigeren (en de staart
 # is lang: 30 waarden komen minder dan 20 keer voor), dus teruggebracht tot negen
@@ -142,12 +157,6 @@ _groep("Publieke en ondersteunende zorg", [
     "Diverse Samenwerkingsverbanden", "Overige Instellingen",
 ])
 
-# In RowData_19 staan de verklaringen in blokken van zeven kolommen; de vierde
-# kolom van elk blok is de soort. Het aantal blokken varieert per organisatie.
-SOORT_EERSTE_KOLOM = 3
-SOORT_STAP = 7
-MAX_VERKLARINGEN = 36
-
 
 def _celtekst(cel) -> str:
     waarde = cel.get(f"{NS_OFFICE}value")
@@ -189,21 +198,42 @@ def rijen(ods_pad: Path, sheets: set[str] | None = None):
                 el.clear()
 
 
-def download(boekjaar: int, doelmap: Path) -> Path:
-    """Haalt de dataset op (en bewaart hem, zodat een herstart niets herhaalt)."""
+def download(boekjaar: int, doelmap: Path) -> list[Path]:
+    """Haalt alle bestanden van een jaargang op en geeft de .ods-paden terug.
+
+    Bewaart wat al is opgehaald, zodat een herstart niets herhaalt. Een `.zip`
+    wordt uitgepakt met het externe `unzip`: boekjaar 2019 gebruikt Deflate64 en
+    Python's zipfile weigert dat ("compression method is not supported").
+    """
     if boekjaar not in DATASET_URL:
         raise ValueError(
-            f"geen download-adres bekend voor boekjaar {boekjaar}; "
-            f"zie pipeline/adapters/digimv.md voor de vindplaatsen"
+            f"geen download-adres bekend voor boekjaar {boekjaar}. "
+            f"Bekend: {sorted(DATASET_URL)}. Voor oudere jaargangen: gebruik "
+            f"--lijst-uit; zie pipeline/adapters/digimv.md."
         )
     doelmap.mkdir(parents=True, exist_ok=True)
-    pad = doelmap / f"digimv{boekjaar}.ods"
-    if pad.exists() and pad.stat().st_size > 1_000_000:
-        return pad
-    verzoek = urllib.request.Request(DATASET_URL[boekjaar], headers=KOPPEN)
-    with urllib.request.urlopen(verzoek, timeout=300) as antwoord:
-        pad.write_bytes(antwoord.read())
-    return pad
+    paden = []
+
+    for nummer, url in enumerate(DATASET_URL[boekjaar], start=1):
+        is_zip = url.lower().endswith(".zip")
+        pad = doelmap / f"digimv{boekjaar}_{nummer}{'.zip' if is_zip else '.ods'}"
+        if not (pad.exists() and pad.stat().st_size > 1_000_000):
+            verzoek = urllib.request.Request(url, headers=KOPPEN)
+            with urllib.request.urlopen(verzoek, timeout=600) as antwoord:
+                pad.write_bytes(antwoord.read())
+        if not is_zip:
+            paden.append(pad)
+            continue
+
+        uitpakmap = doelmap / f"digimv{boekjaar}_{nummer}_uit"
+        if not any(uitpakmap.glob("*.ods")):
+            uitpakmap.mkdir(exist_ok=True)
+            subprocess.run(
+                ["unzip", "-o", "-q", str(pad), "-d", str(uitpakmap)], check=True
+            )
+        paden.extend(sorted(uitpakmap.glob("*.ods")))
+
+    return paden
 
 
 def kolomkoppen(ods_pad: Path) -> dict[str, list[str]]:
@@ -230,76 +260,105 @@ def _bedrag(waarde: str) -> str:
     return "" if getal == 0 else f"{getal:.0f}"
 
 
-def doelpopulatie(ods_pad: Path, boekjaar: int) -> list[dict]:
+def _zoek_kolommen(cellen: list[str]) -> dict:
+    """Bepaalt uit een koprij welke kolom welk veld is.
+
+    Op naam, niet op positie: dezelfde velden staan per jaargang op andere plekken.
+    """
+    laag = [k.strip().lower() for k in cellen]
+    gevonden: dict = {"velden": {}, "zorgsoort": [], "verklaringsoort": []}
+
+    for veld, patronen in VELDPATRONEN.items():
+        for patroon in patronen:
+            treffer = next(
+                (i for i, k in enumerate(laag) if k.startswith(patroon)), None
+            )
+            if treffer is not None:
+                gevonden["velden"][veld] = treffer
+                break
+
+    gevonden["zorgsoort"] = [
+        i for i, k in enumerate(laag) if k.startswith(ZORGSOORT_PATROON)
+    ]
+    gevonden["verklaringsoort"] = [
+        i
+        for i, k in enumerate(laag)
+        if any(k.startswith(p) for p in VERKLARINGSOORT_PATRONEN)
+    ]
+    return gevonden
+
+
+def doelpopulatie(ods_paden: list[Path] | Path, boekjaar: int) -> list[dict]:
     """Organisaties met minstens één controleverklaring, plus de extra velden.
 
-    Eén doorloop over het bestand. `Code` koppelt de sheets aan elkaar:
-    RowData_01 identificatie + zorgsoort, _09 rechtsvorm, _11 omzet,
-    _13 honoraria, _15 wisselvlag, _19 de soorten verklaring.
+    Eén doorloop per bestand. De eerste kolom (`Code`, in oudere jaargangen
+    `ConcernCode`) koppelt de sheets aan elkaar; welke kolom welk veld is wordt
+    per sheet uit de koprij bepaald, niet uit een tabel met posities.
 
     Wat de bron niet levert blijft leeg — nooit geschat, nooit afgeleid.
     """
-    if boekjaar not in KOLOM:
-        raise ValueError(
-            f"kolomposities voor boekjaar {boekjaar} onbekend — draai eerst "
-            f"kolomkoppen() en vul KOLOM aan (veldnamen wisselen per jaargang)"
-        )
-    kolommen = KOLOM[boekjaar]
-    kolom = kolommen["RowData_01"]
-    organisaties: dict[str, dict] = {}
+    paden = [ods_paden] if isinstance(ods_paden, Path) else list(ods_paden)
+    identiteit: dict[str, dict] = {}
     extra: dict[str, dict] = {}
     met_controle: set[str] = set()
 
-    sheets = set(kolommen) | {"RowData_19"}
-    for sheet, rijnr, cellen in rijen(ods_pad, sheets):
-        if rijnr == 1:
-            continue
+    for pad in paden:
+        kolommen: dict = {"velden": {}, "zorgsoort": [], "verklaringsoort": []}
+        for _sheet, rijnr, cellen in rijen(pad):
+            if rijnr == 1:
+                kolommen = _zoek_kolommen(cellen)
+                continue
 
-        def cel(index: int) -> str:
-            return cellen[index].strip() if index < len(cellen) else ""
+            def cel(index: int) -> str:
+                return cellen[index].strip() if index < len(cellen) else ""
 
-        code = cel(0)
+            code = cel(0)
+            if not code:
+                continue
+            velden = kolommen["velden"]
 
-        if sheet == "RowData_01":
-            zorgsoort = ""
-            for index in range(
-                kolom["zorgsoort_eerste"],
-                kolom["zorgsoort_laatste"] + 1,
-                kolom["zorgsoort_stap"],
+            if "kvk" in velden and "naam" in velden:
+                kvk = cel(velden["kvk"])
+                naam = cel(velden["naam"])
+                if kvk and naam:
+                    zorgsoort = next(
+                        (cel(i) for i in kolommen["zorgsoort"] if cel(i)), ""
+                    )
+                    identiteit[code] = {
+                        "kvk_nummer": kvk,
+                        "naam": naam,
+                        "plaats": cel(velden.get("plaats", -1)) if "plaats" in velden else "",
+                        "subsector": SUBSECTOR.get(zorgsoort, ""),
+                    }
+
+            # Kleine letters vergelijken: 2023 schrijft "controleverklaring",
+            # 2022 "Controleverklaring".
+            if any(
+                cel(i).lower() == "controleverklaring"
+                for i in kolommen["verklaringsoort"]
             ):
-                if cel(index):
-                    zorgsoort = cel(index)
-                    break
-            organisaties[code] = {
-                "kvk_nummer": cel(kolom["kvk"]) or cel(kolom["kvk_reserve"]),
-                "naam": cel(kolom["naam"]) or cel(kolom["naam_reserve"]),
-                "plaats": cel(kolom["plaats"]),
-                "subsector": SUBSECTOR.get(zorgsoort, ""),
-            }
-        elif sheet == "RowData_19":
-            for blok in range(MAX_VERKLARINGEN):
-                if cel(SOORT_EERSTE_KOLOM + SOORT_STAP * blok) == "controleverklaring":
-                    met_controle.add(code)
-                    break
-        else:
-            velden = extra.setdefault(code, {})
-            for naam, index in kolommen[sheet].items():
-                if naam == "wisselvlag":
+                met_controle.add(code)
+
+            for naam_veld, index in velden.items():
+                if naam_veld in ("kvk", "naam", "plaats"):
+                    continue
+                doel = extra.setdefault(code, {})
+                if naam_veld == "wisselvlag":
                     waarde = cel(index).lower()
                     if waarde in ("ja", "nee"):
-                        velden["wissel_gerapporteerd"] = waarde == "ja"
-                elif naam == "rechtsvorm":
+                        doel["wissel_gerapporteerd"] = waarde == "ja"
+                elif naam_veld == "rechtsvorm":
                     if cel(index):
-                        velden["rechtsvorm"] = cel(index)
+                        doel["rechtsvorm"] = cel(index)
                 else:
                     bedrag = _bedrag(cel(index))
                     if bedrag:
-                        velden[naam] = bedrag
+                        doel[naam_veld] = bedrag
 
     uit = []
     for code in met_controle:
-        org = organisaties.get(code)
-        if org and org["kvk_nummer"] and org["naam"]:
+        org = identiteit.get(code)
+        if org:
             uit.append({**org, **extra.get(code, {}), "boekjaar": boekjaar})
     return sorted(uit, key=lambda o: o["naam"])
 
