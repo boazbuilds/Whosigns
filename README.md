@@ -30,7 +30,7 @@ is het antwoord: *even op WhoSigns kijken.*
 | `docs/beslissingen.md` | Beslislog: open keuzes met aanbeveling + genomen besluiten |
 | `supabase/migrations/` | Databaseschema (Postgres), draait straks op Supabase |
 | `pipeline/` | Python-importscripts per bron (adapters) — Fase 1 e.v. |
-| `web/` | Next.js-website (komt in Fase 0/2) |
+| `web/` | De website (Next.js) — zie `web/README.md` voor draaien en deployen |
 
 ## MVP in één zin
 

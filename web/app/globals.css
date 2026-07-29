@@ -1,0 +1,345 @@
+/* WhoSigns — opmaak
+ *
+ * Bewust één bestand met gewone CSS en Nederlandse klassenamen, geen framework.
+ * Reden: de pagina's zijn dichte tabellen (Transfermarkt-achtig), daar heb je
+ * weinig voor nodig, en zo blijft het leesbaar voor wie geen developer is.
+ * Guardrail uit docs/concept.md §9: geen afhankelijkheden zonder noodzaak.
+ */
+
+:root {
+  --inkt: #16191d;
+  --inkt-zacht: #5c6570;
+  --lijn: #e3e6ea;
+  --lijn-sterk: #c9ced6;
+  --vlak: #f7f8fa;
+  --wit: #ffffff;
+  --link: #12507e;
+  --accent: #0b6b52;
+  --waarschuwing: #9a4b06;
+  --waarschuwing-vlak: #fdf3e7;
+  --breedte: 62rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--vlak);
+  color: var(--inkt);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  margin: 0;
+}
+h1 {
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--inkt-zacht);
+}
+h3 {
+  font-size: 1rem;
+}
+
+/* ------------------------------------------------------------ raamwerk */
+
+.omhulsel {
+  max-width: var(--breedte);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.kop {
+  background: var(--wit);
+  border-bottom: 1px solid var(--lijn);
+}
+.kop-binnen {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  padding-block: 0.7rem;
+}
+.merk {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--inkt);
+  letter-spacing: -0.01em;
+}
+.merk:hover {
+  text-decoration: none;
+}
+.kop-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: auto;
+  font-size: 0.9rem;
+}
+
+.zoekbalk {
+  display: flex;
+  gap: 0.4rem;
+  flex: 1 1 16rem;
+  min-width: 12rem;
+}
+.zoekbalk input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--lijn-sterk);
+  border-radius: 4px;
+  font: inherit;
+  font-size: 0.9rem;
+  background: var(--wit);
+  color: inherit;
+}
+.zoekbalk input:focus {
+  outline: 2px solid var(--link);
+  outline-offset: -1px;
+}
+.zoekbalk button {
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--link);
+  border-radius: 4px;
+  background: var(--link);
+  color: var(--wit);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+main {
+  padding-block: 1.5rem 3rem;
+}
+
+.voet {
+  border-top: 1px solid var(--lijn);
+  background: var(--wit);
+  color: var(--inkt-zacht);
+  font-size: 0.83rem;
+  padding-block: 1.25rem 2rem;
+}
+.voet p {
+  margin: 0.35rem 0;
+}
+
+/* ------------------------------------------------------------ bouwstenen */
+
+.kaart {
+  background: var(--wit);
+  border: 1px solid var(--lijn);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1.1rem;
+}
+.kaart > h2 {
+  margin-bottom: 0.7rem;
+}
+
+.paginakop {
+  background: var(--wit);
+  border: 1px solid var(--lijn);
+  border-radius: 6px;
+  padding: 1.1rem 1.1rem 0.9rem;
+  margin-bottom: 1.1rem;
+}
+.paginakop h1 {
+  margin-bottom: 0.3rem;
+}
+.metaregel {
+  color: var(--inkt-zacht);
+  font-size: 0.88rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.6rem;
+}
+.metaregel > span:not(:last-child)::after {
+  content: "·";
+  margin-left: 0.6rem;
+  color: var(--lijn-sterk);
+}
+
+.samenvatting {
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--lijn);
+  font-size: 1.02rem;
+}
+.samenvatting strong {
+  font-weight: 650;
+}
+
+/* ------------------------------------------------------------ tabellen */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+caption {
+  text-align: left;
+  color: var(--inkt-zacht);
+  font-size: 0.85rem;
+  padding-bottom: 0.5rem;
+}
+th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--inkt-zacht);
+  border-bottom: 1px solid var(--lijn-sterk);
+  padding: 0.35rem 0.5rem;
+  white-space: nowrap;
+}
+td {
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid var(--lijn);
+  vertical-align: top;
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}
+tbody tr:hover {
+  background: var(--vlak);
+}
+.jaar {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  width: 1%;
+  color: var(--inkt-zacht);
+}
+.getal {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+.tabel-omhulsel {
+  overflow-x: auto;
+}
+
+/* Rij waarin van accountant is gewisseld. */
+tr.wissel td {
+  background: var(--waarschuwing-vlak);
+}
+tr.wissel:hover td {
+  background: #f9ead9;
+}
+
+/* ------------------------------------------------------------ labels */
+
+.label {
+  display: inline-block;
+  font-size: 0.74rem;
+  line-height: 1.5;
+  padding: 0 0.4rem;
+  border-radius: 3px;
+  border: 1px solid var(--lijn-sterk);
+  color: var(--inkt-zacht);
+  background: var(--vlak);
+  white-space: nowrap;
+}
+.label-let-op {
+  border-color: #e6c9a3;
+  background: var(--waarschuwing-vlak);
+  color: var(--waarschuwing);
+  font-weight: 600;
+}
+.label-oob {
+  border-color: #bcd9cf;
+  background: #eef7f3;
+  color: var(--accent);
+}
+.label-demo {
+  border-color: #d6cdb0;
+  background: #fbf7e8;
+  color: #7a6410;
+}
+
+.zacht {
+  color: var(--inkt-zacht);
+}
+.klein {
+  font-size: 0.85rem;
+}
+
+/* ------------------------------------------------------------ doorklikken */
+
+/* De harde UI-regel uit docs/visie.md: elke pagina minimaal 5 vervolgklikken. */
+.doorklik {
+  background: var(--wit);
+  border: 1px solid var(--lijn);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+}
+.doorklik ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.1rem 1.25rem;
+}
+.doorklik li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--lijn);
+}
+.doorklik li::before {
+  content: "→";
+  color: var(--inkt-zacht);
+  margin-right: 0.45rem;
+}
+
+.kolommen {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  gap: 1.1rem;
+  align-items: start;
+}
+.kolommen > .kaart {
+  margin-bottom: 0;
+}
+
+.leeg {
+  color: var(--inkt-zacht);
+  font-style: italic;
+}
+
+.foutvlak {
+  border: 1px solid #e6c9a3;
+  background: var(--waarschuwing-vlak);
+  color: var(--waarschuwing);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1.1rem;
+}
+.foutvlak code {
+  font-size: 0.85em;
+  word-break: break-all;
+}
