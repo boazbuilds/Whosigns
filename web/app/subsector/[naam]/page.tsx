@@ -13,6 +13,7 @@ import {
   organisatiePad,
   sectorPad,
   slug,
+  WETTELIJKE_CONTROLE,
 } from "@/lib/paden";
 import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
 
@@ -59,6 +60,11 @@ export default async function Subsectorpagina({ params }: Params) {
   // groepeert op sector. Daarom hier optellen over de opdrachten van deze
   // organisaties. Bij enkele honderden is dat te overzien; wordt het een vaste
   // pagina met duizenden organisaties, dan hoort er een view tegenover te staan.
+  //
+  // Wél op dezelfde manier filteren als die views doen: alleen wettelijke
+  // controles. Een verklaring bij een WNT- of productieverantwoording is een
+  // andere opdracht, en meetellen zou dit percentage laten afwijken van het
+  // marktaandeel op de sectorpagina.
   const perKantoor = new Map<
     string,
     { naam: string; afm: string | null; aantal: number; jaren: Set<number> }
@@ -70,6 +76,7 @@ export default async function Subsectorpagina({ params }: Params) {
     for (const opdracht of opdrachten) {
       const kantoor = opdracht.kantoren;
       if (!kantoor) continue;
+      if (opdracht.type_opdracht !== WETTELIJKE_CONTROLE) continue;
       const rij = perKantoor.get(kantoor.naam) ?? {
         naam: kantoor.naam,
         afm: kantoor.afm_nummer,
@@ -114,9 +121,9 @@ export default async function Subsectorpagina({ params }: Params) {
               <thead>
                 <tr>
                   <th>Kantoor</th>
-                  <th className="getal">Opdrachten</th>
+                  <th className="getal">Controles</th>
                   <th className="getal">Aandeel</th>
-                  <th>Boekjaren</th>
+                  <th className="getal">Boekjaren</th>
                 </tr>
               </thead>
               <tbody>
