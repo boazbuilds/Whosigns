@@ -119,14 +119,56 @@ Wat we onderweg leerden:
 4. Zelfgerapporteerde wisselvlag is een tweede bron voor de wisselingenpagina, naast
    het afgeleide `v_wisselingen`.
 
+## Dekkingsstrategie (uitgezocht 29-7-2026) — dataset als bronlijst, archief als naslag
+
+Eerst geprobeerd: losse letters als organisatiefragment in de archiefzoekfunctie
+(`organization=a`, `organization=e`, …). Dat werkt technisch — geen harde cap,
+`q` geeft 49 treffers, `e` geeft 5.636, dus het is een echte substring-zoekfunctie
+— maar is **onbetrouwbaar als dekkingsstrategie**: je weet nooit zeker of de
+letters samen de hele populatie dekken, en het genereert enorme overlappende
+resultaten om te dedupliceren.
+
+**Betere aanpak, want er ligt al een complete brontabel:** de dataset zelf
+(`digimv2023.ods`, RowData-sheets) bevat naast het KvK-nummer óók de officiële
+organisatienaam:
+
+| Veld | Betekenis |
+|---|---|
+| `qNawNaam` | Naam van de organisatie (mogelijk aangepast) |
+| `qNawNaamLrza` | Naam van de organisatie (zoals geregistreerd) |
+| `qNawPlaatsLrza` | Plaatsnaam |
+
+Dat is de **officiële, complete lijst van 6.132 organisaties** die voor boekjaar
+2023 een jaarverantwoording deden — precies de doelpopulatie, zonder giswerk.
+
+**Adapter-strategie (Fase 1-bouw):**
+1. Parse de RowData-sheets → per organisatie: KvK-nummer, naam, plaats, en de
+   gestructureerde velden uit §"Belangrijkste velden" hierboven (oordeel,
+   honoraria, wisselvlag) — dit vult meteen de zes MVP-velden op organisatieniveau.
+2. Per organisatie: zoek in het archief op naam + plaats
+   (`digimv_archief.zoek(organisatie=naam, plaats=plaats, boekjaar=2023)`),
+   match het resultaat op **KvK-nummer** (`externalOrganizationId`) ter controle —
+   nooit blind het eerste resultaat pakken.
+3. Haal de verklaring-pdf op (`digimv_archief.verklaringen(...)`), analyseer met
+   `verklaring.analyseer(...)` → kantoor + oordeel + continuïteit.
+4. Bewaar het ruwe pdf in Storage vóór verwerking (principe 1); sla nooit alleen
+   het extractieresultaat op.
+
+Dit is trager dan losse letterzoekopdrachten (6.132 gerichte zoekopdrachten in
+plaats van ~10 brede), maar wél gegarandeerd volledig en met ingebouwde controle.
+Draait straks als achtergrondtaak (GitHub Actions), niet interactief.
+
 ## Open punten
 
-- [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af)
-- [ ] Join-logica RowData-sheets bevestigen
+- [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`
+      e.d. checken of dat per jaargang hetzelfde heet)
+- [ ] Join-logica RowData-sheets bevestigen (hoe organisatie- en documentvelden
+      per rij samenhangen over de meerdere sheets)
 - [ ] Volledige waardenlijsten `qAccVerklSoort`/`qAccVerklVorm` uit de data
 - [x] Archief-API uitgezocht en vastgelegd in `digimv_archief.py`
-- [ ] Volledige organisatielijst per boekjaar ophalen: de zoek-API vereist een
-      fragment, dus we hebben een dekkende strategie nodig (alfabet- of
-      plaatsgewijs zoeken, daarna dedupliceren op KvK-nummer)
+- [x] Dekkingsstrategie bepaald: dataset als bronlijst (zie boven), niet
+      letter-enumeratie
 - [ ] Verzameldocumenten (144 in 2023) apart testen: de verklaring zit daar in een
       groter pdf, wat de trefkans kan drukken
+- [ ] Snelheid/tempo van 6.132 archiefzoekopdrachten inschatten en een
+      redelijke pauze tussen requests vastleggen (vriendelijk voor de bron)
