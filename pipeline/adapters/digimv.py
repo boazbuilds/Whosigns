@@ -71,7 +71,8 @@ def verwerk_organisatie(
     CACHE.mkdir(exist_ok=True)
     laatste_reden = None
     # Meerdere kandidaat-documenten: een losse verklaring lukt meestal direct,
-    # een verzameldocument soms pas als de losse ontbreekt of onleesbaar is.
+    # een verzameldocument of de jaarrekening soms pas als de losse ontbreekt of
+    # onleesbaar is (zie digimv_archief.verklaringen voor de volgorde).
     for doc in documenten:
         pdf_pad = CACHE / f"{boekjaar}_{kvk_nummer}_{doc['id']}.pdf"
         if not pdf_pad.exists():
@@ -84,6 +85,16 @@ def verwerk_organisatie(
         resultaat = analyseer(pdf_naar_tekst(str(pdf_pad)), kantoor_index)
         if resultaat["soort"] != "controle":
             laatste_reden = f"geen controleverklaring ({resultaat['soort']})"
+            # Zegt het dáárvoor bedoelde document ondubbelzinnig dat het een
+            # samenstelling of beoordeling is, dan is dat het antwoord. Dan hoeven
+            # we de jaarrekening niet ook nog op te halen — die is vaak tientallen
+            # MB's en gaat over dezelfde opdracht. Alleen bij een onleesbare of
+            # nietszeggende pdf (soort None, bijv. een aanbiedingsbrief of een scan)
+            # heeft doorzoeken zin.
+            if resultaat["soort"] is not None and doc.get("type", "").startswith(
+                "Accountantsverklaring"
+            ):
+                break
             continue
         if not resultaat["kantoor"]:
             laatste_reden = resultaat["reden"]
