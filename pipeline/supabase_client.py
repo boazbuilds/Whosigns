@@ -90,6 +90,19 @@ class Supabase:
         )
         return antwoord[0]
 
+    def bijwerken(self, tabel: str, filter: str, velden: dict) -> None:
+        """Werkt bestaande rijen bij zonder ze opnieuw te hoeven opbouwen.
+
+        Nodig omdat een upsert op `opdrachten` alle verplichte kolommen mee wil
+        (kantoor_id, bron_id). Als je alleen een paar velden wil aanvullen op een
+        rij die er al staat, is dat een update en geen upsert.
+
+        `filter` is een PostgREST-filter, bijv. "organisatie_id=eq.42&boekjaar=eq.2023".
+        """
+        if not velden:
+            return
+        self._verzoek("PATCH", f"{tabel}?{filter}", velden, {"Prefer": "return=minimal"})
+
     def selecteer(self, tabel: str, query: str = "select=*") -> list:
         return self._verzoek("GET", f"{tabel}?{query}")
 
