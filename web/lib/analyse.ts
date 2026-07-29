@@ -71,6 +71,10 @@ export type Clientregel = {
   jaren: number[];
   laatsteBoekjaar: number;
   oordeelLaatste: string | null;
+  /** Opdrachttype van het laatste boekjaar. Nodig omdat een kantoor naast
+   *  jaarrekeningcontroles ook WNT- of productieverantwoordingen kan doen; die
+   *  ongemerkt als cliënt tonen suggereert meer dan er staat. */
+  typeLaatste: string;
 };
 
 /** Eén regel per cliënt in plaats van één regel per cliëntjaar. */
@@ -87,6 +91,7 @@ export function clientenVanKantoor(
       if (opdracht.boekjaar > bestaand.laatsteBoekjaar) {
         bestaand.laatsteBoekjaar = opdracht.boekjaar;
         bestaand.oordeelLaatste = opdracht.oordeel;
+        bestaand.typeLaatste = opdracht.type_opdracht;
       }
     } else {
       perOrganisatie.set(org.id, {
@@ -98,6 +103,7 @@ export function clientenVanKantoor(
         jaren: [opdracht.boekjaar],
         laatsteBoekjaar: opdracht.boekjaar,
         oordeelLaatste: opdracht.oordeel,
+        typeLaatste: opdracht.type_opdracht,
       });
     }
   }

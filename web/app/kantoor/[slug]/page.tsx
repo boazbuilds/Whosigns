@@ -15,6 +15,7 @@ import {
   jarenReeks,
   kantoorPad,
   nummerUitSlug,
+  OPDRACHT_LABEL,
   organisatiePad,
   sectorPad,
 } from "@/lib/paden";
@@ -174,6 +175,7 @@ export default async function Kantoorpagina({ params }: Params) {
                 <tr>
                   <th>Organisatie</th>
                   <th>Plaats</th>
+                  <th>Opdracht</th>
                   <th>Boekjaren</th>
                   <th className="getal">Duur</th>
                   <th>Laatste oordeel</th>
@@ -193,6 +195,9 @@ export default async function Kantoorpagina({ params }: Params) {
                       </Link>
                     </td>
                     <td className="zacht">{client.gemeente ?? "—"}</td>
+                    <td className="zacht klein">
+                      {OPDRACHT_LABEL[client.typeLaatste] ?? client.typeLaatste}
+                    </td>
                     <td className="jaar">{jarenReeks(client.jaren)}</td>
                     <td className="getal zacht">{aantalJaren(client.jaren.length)}</td>
                     <td>

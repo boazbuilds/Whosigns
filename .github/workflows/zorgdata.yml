@@ -33,6 +33,11 @@ on:
         description: "Verwerk er hoogstens N per boekjaar (0 = alles)"
         required: false
         default: "0"
+      herlaad:
+        description: "Bestaande opdrachten opnieuw beoordelen en vervangen (kost alle downloads opnieuw)"
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   laden:
@@ -76,7 +81,8 @@ jobs:
               --boekjaar "$jaar" \
               --lijst-uit "${{ inputs.lijst_uit }}" \
               --vanaf "${{ inputs.vanaf }}" \
-              --aantal "${{ inputs.aantal }}"
+              --aantal "${{ inputs.aantal }}" \
+              ${{ inputs.herlaad == true && '--herlaad' || '' }}
             echo "::endgroup::"
             # Pdf's van het afgeronde jaar opruimen: de schijf van een runner is
             # 14 GB en zes jaargangen passen daar niet in.

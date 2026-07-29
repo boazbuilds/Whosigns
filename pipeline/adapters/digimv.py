@@ -111,6 +111,7 @@ def verwerk_organisatie(
             "naam": organisatie["name"],
             "plaats": organisatie["town"],
             "boekjaar": boekjaar,
+            "opdrachttype": resultaat["opdrachttype"],
             "oordeel": resultaat["oordeel"],
             "continuiteitsonzekerheid": bool(resultaat["continuiteitsonzekerheid"]),
             "kantoor": resultaat["kantoor"],
