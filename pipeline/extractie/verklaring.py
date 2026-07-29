@@ -39,12 +39,28 @@ SOORT_KENMERKEN = [
     ("samenstelling", ("samenstellingsverklaring", "standaard 4410", "samengesteld")),
 ]
 
+# Bezittelijke vorm, want dat is de kop van de oordeelparagraaf ("Ons oordeel met
+# beperking", "Onze oordeelonthouding") en niet iets dat je in een beschouwing
+# tegenkomt. Losse termen als "oordeelonthouding" of "oordeel met beperking"
+# stonden ook in bestuursverslagen die het over de sector in het algemeen hadden —
+# dat leverde twee onterechte oordeelonthoudingen op in de proefrit van boekjaar
+# 2023 (Jeugdbescherming Brabant en Veilig Thuis Oost-Brabant, allebei in de zin
+# "een hausse van verklaringen met beperking of oordeelonthoudingen").
 OORDEEL_KENMERKEN = [
-    ("afkeurend", ("afkeurend oordeel",)),
-    ("oordeelonthouding", ("oordeelonthouding", "geen oordeel tot uitdrukking")),
-    ("beperking", ("oordeel met beperking", "verklaring met beperking")),
-    ("goedkeurend", ("goedkeurend oordeel", "getrouw beeld", "naar ons oordeel")),
+    ("afkeurend", ("ons afkeurend oordeel",)),
+    ("oordeelonthouding", ("onze oordeelonthouding", "wij geven geen oordeel")),
+    ("beperking", ("ons oordeel met beperking",)),
+    ("goedkeurend", ("naar ons oordeel", "ons oordeel")),
 ]
+
+# Ook geprobeerd en verworpen: het oordeel alleen zoeken in het stuk tekst vanaf de
+# kop "controleverklaring van de onafhankelijke accountant". Klinkt logischer, maar
+# die kop komt in een jaarrekening meerdere keren voor (inhoudsopgave, de
+# verwijzing "de verklaring is opgenomen op pagina 69", en de verklaring zelf).
+# Welke je ook kiest, je landt regelmatig ná de oordeelparagraaf: bij
+# HagaZiekenhuis 2023 begon het venster middenin de fraudeparagraaf, waardoor een
+# echt oordeel met beperking als goedkeurend uit de bus kwam. 38 oordelen sloegen
+# op die manier de verkeerde kant op. De kopvorm hierboven doet het werk al.
 
 CONTINUITEIT_KENMERKEN = (
     "materiele onzekerheid over de continuiteit",
@@ -66,6 +82,8 @@ def _eerste_treffer(genormaliseerd: str, kenmerken: list[tuple]) -> str | None:
         if any(woord in genormaliseerd for woord in sleutelwoorden):
             return label
     return None
+
+
 
 
 def analyseer(tekst: str, index: dict) -> dict:
