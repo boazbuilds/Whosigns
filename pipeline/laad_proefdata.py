@@ -27,12 +27,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 
-from digimv import OUDSTE_BOEKJAAR, verwerk_organisatie  # noqa: E402
+from digimv import NIEUWSTE_BOEKJAAR, OUDSTE_BOEKJAAR, verwerk_organisatie  # noqa: E402
 from kantoor_match import bouw_index, laad_kantoren  # noqa: E402
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
 
 # Nieuwste eerst, zodat een afgebroken run altijd de meest actuele jaren heeft.
-BOEKJAREN = list(range(2024, OUDSTE_BOEKJAAR - 1, -1))
+BOEKJAREN = list(range(NIEUWSTE_BOEKJAAR, OUDSTE_BOEKJAAR - 1, -1))
 BRON_URL = "https://digimv13.desan.nl/archive/search"
 
 # (zoekterm om de kandidatenlijst te beperken, KvK-nummer als echte sleutel)

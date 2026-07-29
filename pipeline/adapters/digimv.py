@@ -34,7 +34,13 @@ CACHE = Path(__file__).resolve().parents[1] / ".cache"
 
 # Het archief houdt een voortschrijdend venster van zeven boekjaren aan
 # (huidig jaar min 1 t/m min 7); oudere jaren geven HTTP 500. Zie digimv.md.
+#
+# Nagemeten op 29-7-2026: boekjaar 2018 geeft HTTP 500 (weg), 2025 is er wél al —
+# 52 van de 55 organisaties met "ziekenhuis" in de naam hadden toen een verklaring
+# gedeponeerd. Deponeren moest vóór 1 juni 2026, dus 2025 is grotendeels compleet.
+# Beide grenzen elk jaar opnieuw controleren; ze schuiven mee.
 OUDSTE_BOEKJAAR = 2019
+NIEUWSTE_BOEKJAAR = 2025
 
 
 def verwerk_organisatie(
