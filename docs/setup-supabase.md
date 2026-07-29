@@ -43,6 +43,25 @@ Op supabase.com → New project:
    `20260729210000_extra_velden.sql` en `20260730000000_kantoren_zonder_wta.sql`.
    Ze zijn zo geschreven dat opnieuw draaien geen kwaad kan.
 
+### Of: migraties door GitHub laten draaien (aanrader, één keer instellen)
+
+Zodra dit eenmaal staat, hoef je nooit meer SQL te kopiëren — ook niet bij volgende
+wijzigingen. De workflow **Migraties draaien** past zelf toe wat er nog niet op de
+database staat, en houdt in een tabel `schema_migraties` bij wat al gedaan is.
+
+1. In Supabase: **Project Settings → Database → Connection string → Session pooler**.
+   Neem die URI (níet "Direct connection": die werkt alleen over IPv6 en een
+   GitHub-runner heeft dat niet) en vul je databasewachtwoord in op de plek van
+   `[YOUR-PASSWORD]`.
+2. In GitHub: **Settings → Secrets and variables → Actions → New repository secret**,
+   naam `SUPABASE_DB_URL`, waarde die URI.
+3. **Actions → Migraties draaien → Run workflow.** Laat `overslaan` staan op het
+   init-script als je dat al met de hand hebt gedraaid; dat wordt dan alleen
+   geregistreerd. Met `droogloop` aan zie je eerst wat er zou gebeuren.
+
+De drie migraties zijn getest tegen een schone PostgreSQL 16: ze draaien in deze
+volgorde door, en de laatste kan zonder bezwaar twee keer.
+
 Bij een foutmelding: kopieer die en plak hem in een Claude Code-sessie; dan zoek ik
 het uit.
 

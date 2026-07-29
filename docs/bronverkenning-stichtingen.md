@@ -324,14 +324,13 @@ Van Ree (18) en BDO (13) daarachter — een heel andere markt dan de zorg.
 
 ## Voorwaarden en guardrails
 
-- **CBF-data is geen open data.** Het CBF stelt voorwaarden aan hergebruik: correcte
-  bronvermelding verplicht, en paspoortteksten, logo's, afbeeldingen, financiële cijfers,
-  datasets en API zijn niet vrij herbruikbaar ("Algemene Voorwaarden Gebruik CBF-data",
-  contact data@cbf.nl). Wat wij willen vastleggen — welk kantoor de verklaring tekende —
-  is een feit uit het jaarverslag van de stichting zelf, een openbaar stuk; het CBF is
-  daarbij de vindplaats. Dat onderscheid is verdedigbaar, maar het is een keuze en geen
-  gegeven: **nieuw punt 7 in `docs/beslissingen.md`**, met als advies vooraf even met
-  data@cbf.nl te overleggen. Neem in geen geval CBF-paspoortteksten of -cijfers over.
+- **CBF-data is geen open data, maar we mogen het gebruiken.** De opdrachtgever meldt op
+  30-7-2026 dat er toestemming is (beslissing 7 in `docs/beslissingen.md`). De
+  voorwaarden blijven wel gelden: **correcte bronvermelding** — dat is de rij in `bronnen`
+  met `bron_type = 'cbf'` plus de bronvermelding per feit op de site — en **geen
+  paspoortteksten, logo's, afbeeldingen, financiële cijfers of datasets van het CBF
+  overnemen**. Wat wij vastleggen is welk kantoor de verklaring tekende, en dat is een
+  feit uit het jaarverslag van de stichting zelf; het CBF is de vindplaats.
 - **ANBI-bestand:** vrij te gebruiken, bronvermelding niet verplicht (Belastingdienst
   open data). Geen enkel bezwaar.
 - **AVG onveranderd:** alleen kantoornamen, nooit de tekenend accountant. In deze sector
@@ -383,7 +382,8 @@ lader gooit de pdf's na het lezen weg, tenzij je `--bewaar-pdf` meegeeft).
 
 ## Open punten
 
-- [ ] Overleg met data@cbf.nl over gebruik van register-API en jaarverslagen (beslissing 7)
+- [x] Toestemming voor gebruik van het CBF-register en de jaarverslagen (beslissing 7,
+      30-7-2026); bronvermelding en "geen CBF-teksten/cijfers overnemen" blijven staan
 - [ ] Boekjaren 2021 en 2023 meemeten in de dekkingsmeting (nu overgeslagen)
 - [ ] Vaststellen of het CBF-archief echt een voortschrijdend venster is, of 2018 gewoon
       het eerste jaar van de regeling was
