@@ -158,6 +158,23 @@ Dit is trager dan losse letterzoekopdrachten (6.132 gerichte zoekopdrachten in
 plaats van ~10 brede), maar wél gegarandeerd volledig en met ingebouwde controle.
 Draait straks als achtergrondtaak (GitHub Actions), niet interactief.
 
+## Eerste 13 organisaties geladen (29-7-2026) — proefdata voor Fase 2
+
+Met `laad_proefdata.py` (handmatige lijst van 13 bekende ziekenhuizen, geen
+bulk) is de hele keten voor het eerst end-to-end getest: archief zoeken →
+verklaring downloaden → kantoor + oordeel herkennen → wegschrijven naar
+Supabase. **13/13 gematcht**, waaronder één oordeel *met beperking*
+(HagaZiekenhuis) — nuttig voor de latere UI-test, niet alleen goedkeurende
+oordelen.
+
+**Les: plaatsnamen in het archief zijn de officiële/statutaire naam, niet de
+spreektaalvariant.** "HagaZiekenhuis" + "Den Haag" gaf geen resultaat; de
+archiefwaarde is `'s-Gravenhage`. Bij de latere bulk-adapter (die plaats
+gebruikt om gelijknamige organisaties te onderscheiden) hier rekening mee
+houden — de dataset zelf (`qNawPlaatsLrza`) gebruikt vermoedelijk dezelfde
+officiële schrijfwijze, dus dat zou vanzelf moeten kloppen; bij een
+handmatige lijst moet je het weten.
+
 ## Open punten
 
 - [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`
