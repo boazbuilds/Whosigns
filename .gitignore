@@ -17,5 +17,6 @@ venv/
 
 # Lokale data en tijdelijke bestanden
 data/tmp/
+pipeline/.cache/
 *.log
 .DS_Store

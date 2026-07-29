@@ -66,11 +66,16 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
 - [ ] Adapter `pipeline/adapters/digimv.py`: de zes velden → kernmodel, idempotent;
       oordeel, honoraria en wisselvlag zitten gestructureerd in de bron en worden
       meegeladen (tonen in de UI blijft beperkt tot de zes velden — visie)
-- [ ] Kantoornaam: verklaring-pdf's uit het DigiMV-archief ophalen (ruw opslaan) en de
-      kantoornaam vinden via **tekstmatch tegen de AFM-lijst/aliastabel** — pdftotext +
-      stringmatching, géén LLM; geen match → `review_queue`; LLM-vangnet pas in Fase 4
-- [ ] Naamnormalisatie: exact op `kantoor_alias`, fuzzy naar `review_queue`, nooit stil
-      mergen
+- [x] Kantoornaam-route bewezen: archief-API uitgezocht (`digimv_archief.py`),
+      pdftotext + stringmatch tegen AFM-lijst/aliastabel (`kantoor_match.py`,
+      `verklaring.py`), meetbaar via `valideer_extractie.py` —
+      **12/12 ziekenhuizen (100%), 26/27 gemengd (96%), nul valse matches**;
+      oordeel en continuïteitsonzekerheid komen uit dezelfde tekst
+- [x] Aliastabel gestart (`pipeline/seed/kantoor_alias.csv`) — zonder aliassen bleef
+      de trefkans op 85% steken (Ernst & Young LLP → EY B.V., handelsnamen)
+- [ ] Bulk draaien: dekkende organisatielijst per boekjaar ophalen (zoek-API vereist
+      een fragment), pdf's ruw opslaan, resultaten naar het kernmodel
+- [ ] Restgevallen (gescande pdf's, kantoornaam alleen in logo) naar `review_queue`
 - [ ] **Mijlpaal A: eerste 1.000 organisaties** in de database — de klik-test-dataset
 - [ ] **Mijlpaal B: volledige zorgsector** voor de jaren waar de bron het toelaat
 - [ ] Steekproefcontrole: 25 organisaties handmatig naleggen tegen de bron
