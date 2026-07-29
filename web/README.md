@@ -57,11 +57,18 @@ Eenmalig: vercel.com → New Project → repo `Whosigns` importeren.
 
 | Instelling | Waarde |
 |---|---|
-| Framework Preset | Next.js |
 | Root Directory | `web` |
 | Environment Variables | de twee hierboven |
+| Framework Preset | staat vast in `vercel.json`, hoef je niet te kiezen |
 
 Daarna is elke push naar `main` automatisch live.
+
+**Waarom `vercel.json`?** Staat het Framework Preset in het dashboard per ongeluk
+op "Other", dan zoekt Vercel na de build naar een map `public` en faalt de deploy
+met *"No Output Directory named public found"* — terwijl de build zelf gewoon
+slaagde. Next.js schrijft naar `.next`, niet naar `public`. Door `framework` in
+`vercel.json` te zetten wint de repo van de dropdown en kan die verwarring niet
+meer ontstaan.
 
 ## Nog niet vindbaar in Google
 
