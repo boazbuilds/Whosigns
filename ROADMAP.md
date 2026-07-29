@@ -16,7 +16,7 @@ het schema houdt er wel plek voor (kolommen blijven leeg tot een latere fase).
 
 | Fase | Naam | Resultaat | Status |
 |------|------|-----------|--------|
-| 0 | Fundament | Repo, schema, Supabase, AFM-kantorenseed, lege site live | 🔨 bijna klaar (site nog) |
+| 0 | Fundament | Repo, schema, Supabase, AFM-kantorenseed, site live | 🔨 bijna klaar (alleen de Vercel-deploy nog) |
 | 1 | Zorgdata | Relatiegraaf gevuld: eerste 1.000 → volledige zorgsector | ⬜ |
 | 2 | Klik-machine | Vier doorklikbare pagina's + klik-test met echte gebruikers | ⬜ |
 | 3 | Lancering & OOB | Publiek live: volledige zorg + beursfondsen/banken/verzekeraars | ⬜ |
@@ -45,8 +45,11 @@ kan met de README het project begrijpen en draaien.
       ververst de seed, commit mutaties als log, schrijft naar de database zodra
       de secrets er zijn (en slaat die stap netjes over zolang dat niet zo is)
       — **eerste succesvolle run bevestigd 29-7-2026**
-- [ ] Next.js-app (App Router) in `/web`, deploy naar Vercel ("hello world" met
-      huisstijl-aanzet en badge "Demo · gedeeltelijke data")
+- [x] Next.js-app (App Router) in `/web` — geen "hello world" geworden maar meteen
+      de vier doorklikbare pagina­soorten op de echte proefdata, mét badge
+      "Demo · gedeeltelijke data" en `robots: noindex` tot beslissing #2.
+      Zie `web/README.md`. **Deploy naar Vercel: handmatige stap van de
+      opdrachtgever** (Root Directory `web`, twee omgevingsvariabelen)
 - [x] AFM-vergunningenregister ophalen via de officiële XML-export →
       `pipeline/adapters/afm_register.py` + `pipeline/seed/kantoren.csv`
       (233 kantoren, 6 met OOB-vergunning; hersnapshot = script draaien en committen,
@@ -54,11 +57,12 @@ kan met de README het project begrijpen en draaien.
 - [x] Seed naar Supabase upserten: `pipeline/laad_kantoren.py`, draait nu groen
       in productie — 233 kantoren + aliassen staan in de database
       `kantoor_alias` verder vullen zodra de eerste DigiMV-namen binnenkomen (Fase 1)
-- [ ] README aangevuld met de Vercel-stappen (Supabase staat in
+- [x] README aangevuld met de Vercel-stappen (`web/README.md`; Supabase staat in
       `docs/setup-supabase.md`)
 
 **Klaar wanneer:** de site staat live (leeg maar netjes), `kantoren` is gevuld vanuit
 het AFM-register, en de pipeline draait groen in GitHub Actions.
+*Stand: alles klaar behalve de Vercel-deploy zelf — die is een handmatige stap.*
 
 ## Fase 1 — Zorgdata: de relatiegraaf vullen
 
@@ -114,19 +118,27 @@ import is met één actie opnieuw te draaien zonder duplicaten.
 **Doel:** de vier pagina's, gebouwd rond de zes velden, die klikken als Wikipedia —
 en de test of dat écht gebeurt.
 
-- [ ] Home/zoek: één zoekbalk (organisatie én kantoor), teasers "recente wisselingen"
+*Eerste versie van de vier pagina's staat er al (gebouwd op de proefdata, zodat er
+iets te beoordelen viel vóór de bulk-run). Wat hieronder nog openstaat is verfijning
+en de test zelf.*
+
+- [x] Home/zoek: één zoekbalk (organisatie én kantoor), teasers "recente wisselingen"
       en "grootste kantoren in de zorg"
-- [ ] Kantoorprofiel `/kantoor/[slug]`: metric cards (aantal controles, gemiddelde
-      relatieduur, netto cliëntgroei, actieve sectoren — géén honorarium-card in het
-      MVP), cliëntentabel, sectorverdeling, "cliënt sinds"
-- [ ] Organisatieprofiel `/organisatie/[kvk]`: huidige accountant, historie per boekjaar,
-      vorige accountant, bronvermelding per feit
-- [ ] Wisselingen `/wisselingen`: uit de historie afgeleide wisselingen (`v_wisselingen`)
-      plus de zelfgerapporteerde wisselvlag uit DigiMV, chronologisch, filterbaar op
-      sector/jaar/kantoor — feiten, geen voorspellingen
-- [ ] **Harde eis (visie): elke pagina minimaal 5 interessante vervolgklikken; elke naam
-      klikbaar; geen doodlopende pagina's**
-- [ ] Nette lege-staten, bronlabel per feit, badge "Demo · gedeeltelijke data"
+- [x] Kantoorprofiel `/kantoor/[slug]`: cliëntentabel met relatieduur, gewonnen en
+      verloren opdrachten (mét "naar wie"), concurrenten
+      — [ ] nog: metric cards, sectorverdeling zodra er meer dan één sector is
+- [x] Organisatieprofiel `/organisatie/[kvk]`: huidige accountant, historie per boekjaar,
+      relatiegeschiedenis per periode, bronvermelding per feit
+- [x] Wisselingen `/wisselingen`: uit de historie afgeleide wisselingen (`v_wisselingen`),
+      gegroepeerd per boekjaar
+      — [ ] nog: de zelfgerapporteerde wisselvlag uit DigiMV ernaast, en filters op
+      sector/jaar/kantoor (nu nog niet nodig bij 4 wisselingen)
+- [x] **Harde eis (visie): elke pagina minimaal 5 interessante vervolgklikken; elke naam
+      klikbaar; geen doodlopende pagina's** — het onderdeel `<Doorklik>` waarschuwt
+      tijdens ontwikkelen als een pagina eronder zakt; ook de 404 heeft doorklikken
+- [x] Nette lege-staten, bronlabel per feit, badge "Demo · gedeeltelijke data"
+- [ ] Sectorpagina uitbreiden zodra er meer dan één sector in de database zit
+- [ ] Opmaak/huisstijl (nu bewust sober: eerst inhoud beoordelen, dan pas mooi)
 - [ ] **Klik-test:** 5–10 mensen uit de doelgroep zonder uitleg laten rondkijken.
       Meten: zoeken ze spontaan een naam op, doorklikdiepte (doel ≥ 5 pagina's/sessie),
       komen ze later uit zichzelf terug? Notities in `docs/validatie/`
