@@ -119,6 +119,23 @@ def zoek_met_terugval(organisatie: dict, boekjaar: int, kantoor_index: dict):
     )
 
 
+def _gevuld(organisatie: dict, toewijzing: dict[str, str]) -> dict:
+    """Alleen de velden die de bron werkelijk heeft geleverd.
+
+    Lege waarden worden niet meegestuurd, zodat een upsert nooit een bestaande
+    waarde met leegte overschrijft. Een boolean `False` is wél een waarde.
+    """
+    uit = {}
+    for kolom, bronveld in toewijzing.items():
+        waarde = organisatie.get(bronveld)
+        if waarde is None or waarde == "":
+            continue
+        if isinstance(waarde, str) and waarde.lower() in ("true", "false"):
+            waarde = waarde.lower() == "true"
+        uit[kolom] = waarde
+    return uit
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--boekjaar", type=int, default=2023)
@@ -258,27 +275,52 @@ def main() -> int:
                 kantoor_id = kantoor_id_per_nummer.get(kantoor["afm_nummer"])
                 if kantoor_id is None:
                     continue
-                org_rij = db.upsert_met_id(
-                    "organisaties",
-                    {
-                        "kvk_nummer": kvk,
-                        "naam": resultaat["naam"],
-                        "sector": "zorg",
-                        "gemeente": resultaat["plaats"],
-                    },
-                    "kvk_nummer",
+
+                org_velden = {
+                    "kvk_nummer": kvk,
+                    "naam": resultaat["naam"],
+                    "sector": "zorg",
+                    "gemeente": resultaat["plaats"],
+                }
+                # Subsector en rechtsvorm veranderen praktisch nooit, dus die mogen
+                # bij elk boekjaar mee.
+                org_velden.update(
+                    _gevuld(organisatie, {"subsector": "subsector",
+                                          "rechtsvorm": "rechtsvorm"})
                 )
+                # Omzet is een jaarcijfer maar staat op de organisatie, dus alleen
+                # zetten bij het boekjaar waar de dataset ook over gaat — anders
+                # hang je het cijfer van 2023 aan een rij over 2019.
+                if boekjaar == lijst_boekjaar:
+                    org_velden.update(_gevuld(organisatie, {"omzet_eur": "omzet"}))
+
+                org_rij = db.upsert_met_id("organisaties", org_velden, "kvk_nummer")
+
+                opdracht_velden = {
+                    "organisatie_id": org_rij["id"],
+                    "kantoor_id": kantoor_id,
+                    "boekjaar": boekjaar,
+                    "type_opdracht": "wettelijke_controle",
+                    "oordeel": resultaat["oordeel"],
+                    "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
+                    "bron_id": bron_id,
+                }
+                # Honoraria en de zelfgerapporteerde wisselvlag zijn cijfers over
+                # één specifiek boekjaar. Ze komen uit de dataset van
+                # `lijst_boekjaar`, dus ze horen alleen bij dát boekjaar.
+                if boekjaar == lijst_boekjaar:
+                    opdracht_velden.update(
+                        _gevuld(organisatie, {
+                            "honorarium_controle_eur": "honorarium_controle",
+                            "honorarium_overig_eur": "honorarium_overig",
+                            "honorarium_fiscaal_eur": "honorarium_fiscaal",
+                            "honorarium_nietcontrole_eur": "honorarium_nietcontrole",
+                            "wissel_gerapporteerd": "wissel_gerapporteerd",
+                        })
+                    )
                 db.upsert_met_id(
                     "opdrachten",
-                    {
-                        "organisatie_id": org_rij["id"],
-                        "kantoor_id": kantoor_id,
-                        "boekjaar": boekjaar,
-                        "type_opdracht": "wettelijke_controle",
-                        "oordeel": resultaat["oordeel"],
-                        "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
-                        "bron_id": bron_id,
-                    },
+                    opdracht_velden,
                     "organisatie_id,boekjaar,type_opdracht",
                 )
 

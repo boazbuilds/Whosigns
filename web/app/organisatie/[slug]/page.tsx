@@ -6,6 +6,7 @@ import {
   organisatieOpKvk,
   organisatiesInGemeente,
   organisatiesInSector,
+  organisatiesInSubsector,
   wisselingen,
 } from "@/lib/db";
 import { periodes, wisseljaren } from "@/lib/analyse";
@@ -17,6 +18,7 @@ import {
   OPDRACHT_LABEL,
   organisatiePad,
   sectorPad,
+  subsectorPad,
 } from "@/lib/paden";
 import { Doorklik, Foutmelding, Leeg, Oordeel } from "@/components/onderdelen";
 
@@ -54,9 +56,16 @@ export default async function Organisatiepagina({ params }: Params) {
   const huidige = reeksen[0];
   const alleJaren = opdrachten.map((o) => o.boekjaar);
 
+  // Organisaties uit dezelfde subsector zijn interessanter om naar door te klikken
+  // dan willekeurige zorgorganisaties: een ziekenhuis naast een tandartspraktijk
+  // zegt niets. Alleen als de subsector ontbreekt vallen we terug op de sector.
   const [plaatsgenoten, sectorgenoten, wisselingenZelfdeJaar] = await Promise.all([
     org.gemeente ? organisatiesInGemeente(org.gemeente) : Promise.resolve([]),
-    org.sector ? organisatiesInSector(org.sector, 30) : Promise.resolve([]),
+    org.subsector
+      ? organisatiesInSubsector(org.subsector, 30)
+      : org.sector
+        ? organisatiesInSector(org.sector, 30)
+        : Promise.resolve([]),
     wissels.size
       ? wisselingen({ boekjaar: Math.max(...wissels), limiet: 20 })
       : Promise.resolve([]),
@@ -73,7 +82,11 @@ export default async function Organisatiepagina({ params }: Params) {
         <p className="metaregel">
           <span>KvK {org.kvk_nummer ?? "onbekend"}</span>
           {org.gemeente ? <span>{org.gemeente}</span> : null}
-          {org.sector ? (
+          {org.subsector ? (
+            <span>
+              <Link href={subsectorPad(org.subsector)}>{org.subsector}</Link>
+            </span>
+          ) : org.sector ? (
             <span>
               <Link href={sectorPad(org.sector)}>{org.sector}</Link>
             </span>
@@ -201,6 +214,14 @@ export default async function Organisatiepagina({ params }: Params) {
             naar: kantoorPad({ afm_nummer: reeks.afmNummer, naam: reeks.kantoorNaam }),
             tekst: `${reeks.kantoorNaam}: andere cliënten`,
           })),
+          ...(org.subsector
+            ? [
+                {
+                  naar: subsectorPad(org.subsector),
+                  tekst: `Accountants in de ${org.subsector.toLowerCase()}`,
+                },
+              ]
+            : []),
           ...(org.sector
             ? [
                 {

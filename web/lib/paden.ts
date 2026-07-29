@@ -37,6 +37,12 @@ export function sectorPad(sector: string): string {
   return `/sector/${slug(sector)}`;
 }
 
+/** Subsectoren hebben spaties en koppeltekens, dus de slug is niet omkeerbaar;
+ *  de pagina zoekt de echte waarde op via de lijst uit de database. */
+export function subsectorPad(subsector: string): string {
+  return `/subsector/${slug(subsector)}`;
+}
+
 // ---------------------------------------------------------------- weergave
 
 /** Kort label voor het oordeel; `null` bij een leeg oordeel. */

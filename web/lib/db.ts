@@ -77,6 +77,7 @@ export type Organisatie = {
   kvk_nummer: string | null;
   naam: string;
   sector: string | null;
+  subsector: string | null;
   gemeente: string | null;
 };
 
@@ -134,7 +135,10 @@ export type Marktaandeel = {
   marktaandeel_pct: number;
 };
 
-const ORG_VELDEN = "id,kvk_nummer,naam,sector,gemeente";
+// Honoraria, omzet en de zelfgerapporteerde wisselvlag staan wél in de database
+// maar worden hier bewust niet opgevraagd: het MVP toont de zes velden uit
+// docs/visie.md. Wie ze wil gebruiken, voegt ze hier toe — niet eerder.
+const ORG_VELDEN = "id,kvk_nummer,naam,sector,subsector,gemeente";
 const KANTOOR_VELDEN = "id,afm_nummer,naam,oob_vergunning,website";
 
 // ---------------------------------------------------------------- opzoeken
@@ -190,6 +194,34 @@ export function organisatiesInSector(sector: string, limiet = 200) {
     `organisaties?sector=eq.${encodeURIComponent(sector)}` +
       `&select=${ORG_VELDEN}&order=naam.asc&limit=${limiet}`,
   );
+}
+
+export function organisatiesInSubsector(subsector: string, limiet = 400) {
+  return haal<Organisatie>(
+    `organisaties?subsector=eq.${encodeURIComponent(subsector)}` +
+      `&select=${ORG_VELDEN}&order=naam.asc&limit=${limiet}`,
+  );
+}
+
+/**
+ * Subsectoren met hun aantal organisaties, grootste eerst.
+ *
+ * PostgREST kan niet groeperen zonder view, dus we halen alleen de kolom op en
+ * tellen hier. Bij enkele duizenden organisaties is dat één klein verzoek; wordt
+ * het meer, dan hoort hier een view tegenover te staan.
+ */
+export async function subsectoren(): Promise<{ naam: string; aantal: number }[]> {
+  const rijen = await haal<{ subsector: string | null }>(
+    "organisaties?select=subsector&subsector=not.is.null&limit=10000",
+  );
+  const perSubsector = new Map<string, number>();
+  for (const rij of rijen) {
+    if (!rij.subsector) continue;
+    perSubsector.set(rij.subsector, (perSubsector.get(rij.subsector) ?? 0) + 1);
+  }
+  return [...perSubsector.entries()]
+    .map(([naam, aantal]) => ({ naam, aantal }))
+    .sort((a, b) => b.aantal - a.aantal);
 }
 
 export function organisatiesInGemeente(gemeente: string, limiet = 20) {
