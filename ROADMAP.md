@@ -80,8 +80,13 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
       oordeel en continuïteitsonzekerheid komen uit dezelfde tekst
 - [x] Aliastabel gestart (`pipeline/seed/kantoor_alias.csv`) — zonder aliassen bleef
       de trefkans op 85% steken (Ernst & Young LLP → EY B.V., handelsnamen)
-- [ ] Bulk draaien: dekkende organisatielijst per boekjaar ophalen (zoek-API vereist
-      een fragment), pdf's ruw opslaan, resultaten naar het kernmodel
+- [x] Dekkingsstrategie bepaald: de dataset zelf (`qNawNaam`/`qNawPlaatsLrza` in
+      de RowData-sheets) is de officiële, complete lijst van 6.132 organisaties —
+      geen letter-enumeratie in het archief nodig, wél per organisatie gericht
+      zoeken op naam+plaats met KvK-nummer als controle (zie `digimv.md`)
+- [ ] Adapter `pipeline/adapters/digimv.py` bouwen: dataset parsen → per org
+      archiefzoekopdracht → verklaring ophalen en analyseren → naar Supabase;
+      pdf's ruw opslaan vóór verwerking
 - [ ] Restgevallen (gescande pdf's, kantoornaam alleen in logo) naar `review_queue`
 - [ ] **Mijlpaal A: eerste 1.000 organisaties** in de database — de klik-test-dataset
 - [ ] **Mijlpaal B: volledige zorgsector** voor de jaren waar de bron het toelaat

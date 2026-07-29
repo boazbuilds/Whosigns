@@ -24,8 +24,10 @@ class SupabaseFout(RuntimeError):
 
 class Supabase:
     def __init__(self, url: str | None = None, sleutel: str | None = None):
-        self.url = (url or os.environ.get("SUPABASE_URL", "")).rstrip("/")
-        self.sleutel = sleutel or os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+        # .strip(): een secret die via copy-paste is aangemaakt bevat vaak een
+        # onzichtbaar regeleinde, wat urllib laat crashen met InvalidURL.
+        self.url = (url or os.environ.get("SUPABASE_URL", "")).strip().rstrip("/")
+        self.sleutel = (sleutel or os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")).strip()
         if not self.url or not self.sleutel:
             raise SupabaseFout(
                 "SUPABASE_URL en SUPABASE_SERVICE_ROLE_KEY ontbreken. "
