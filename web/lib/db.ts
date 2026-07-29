@@ -45,6 +45,25 @@ async function haalEen<T>(pad: string): Promise<T | null> {
 }
 
 /**
+ * PostgREST levert er nooit meer dan duizend per verzoek, ook niet met
+ * `limit=10000` erin. Dat faalt stíl: je krijgt de eerste duizend en niets wijst
+ * erop dat er meer was. Deze functie haalt ze allemaal, in pagina's.
+ *
+ * Gebruik dit overal waar het antwoord kan doorgroeien met de dataset. Een
+ * afgekapte lijst geeft geen foutmelding maar een verkeerd getal, en dat is erger.
+ */
+const PAGINA = 1000;
+
+async function haalAlles<T>(pad: string): Promise<T[]> {
+  const alles: T[] = [];
+  for (;;) {
+    const pagina = await haal<T>(`${pad}&limit=${PAGINA}&offset=${alles.length}`);
+    alles.push(...pagina);
+    if (pagina.length < PAGINA) return alles;
+  }
+}
+
+/**
  * Alleen tellen, zonder de rijen op te halen. PostgREST zet het totaal in de
  * `content-range`-header (`0-0/74`) als je om `count=exact` vraagt.
  */
@@ -185,7 +204,7 @@ export function opdrachtenVanOrganisatie(organisatieId: number) {
 
 /** Alle cliëntjaren van één kantoor, nieuwste eerst. */
 export function opdrachtenVanKantoor(kantoorId: number) {
-  return haal<OpdrachtMetOrganisatie>(
+  return haalAlles<OpdrachtMetOrganisatie>(
     `opdrachten?kantoor_id=eq.${kantoorId}` +
       `&select=boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
       `continuiteitsonzekerheid,organisaties(${ORG_VELDEN})` +
@@ -202,11 +221,18 @@ export function organisatiesInSector(sector: string, limiet = 200) {
   );
 }
 
-export function organisatiesInSubsector(subsector: string, limiet = 400) {
-  return haal<Organisatie>(
+/**
+ * Organisaties in een subsector. Zonder `limiet` komen ze állemaal — nodig voor de
+ * subsectorpagina, die er marktaandeel over berekent en dus niet mag afkappen.
+ * Met `limiet` blijft het één verzoek; genoeg voor een handvol doorklikken.
+ */
+export function organisatiesInSubsector(subsector: string, limiet?: number) {
+  const basis =
     `organisaties?subsector=eq.${encodeURIComponent(subsector)}` +
-      `&select=${ORG_VELDEN}&order=naam.asc&limit=${limiet}`,
-  );
+    `&select=${ORG_VELDEN}&order=naam.asc`;
+  return limiet
+    ? haal<Organisatie>(`${basis}&limit=${limiet}`)
+    : haalAlles<Organisatie>(basis);
 }
 
 /**
@@ -217,8 +243,8 @@ export function organisatiesInSubsector(subsector: string, limiet = 400) {
  * het meer, dan hoort hier een view tegenover te staan.
  */
 export async function subsectoren(): Promise<{ naam: string; aantal: number }[]> {
-  const rijen = await haal<{ subsector: string | null }>(
-    "organisaties?select=subsector&subsector=not.is.null&limit=10000",
+  const rijen = await haalAlles<{ subsector: string | null }>(
+    "organisaties?select=subsector&subsector=not.is.null",
   );
   const perSubsector = new Map<string, number>();
   for (const rij of rijen) {

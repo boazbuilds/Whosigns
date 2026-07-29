@@ -95,7 +95,7 @@ def main() -> int:
     # en hoort hier niet gemaakt te worden.
     id_per_kvk = {
         rij["kvk_nummer"]: rij["id"]
-        for rij in db.selecteer("organisaties", "select=id,kvk_nummer&limit=20000")
+        for rij in db.selecteer_alles("organisaties", "select=id,kvk_nummer")
         if rij.get("kvk_nummer")
     }
     print(f"{len(id_per_kvk)} organisaties in de database", flush=True)

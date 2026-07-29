@@ -118,6 +118,28 @@ class Supabase:
     def selecteer(self, tabel: str, query: str = "select=*") -> list:
         return self._verzoek("GET", f"{tabel}?{query}")
 
+    # PostgREST levert er nooit meer dan duizend per verzoek, ook niet met
+    # limit=20000 erin. Dat faalt stil: je krijgt gewoon de eerste duizend en
+    # niets wijst erop dat er meer was.
+    PAGINA = 1000
+
+    def selecteer_alles(self, tabel: str, query: str = "select=*") -> list:
+        """Alle rijen, in pagina's van duizend.
+
+        Gebruik dit overal waar het antwoord kan doorgroeien. Stil de eerste
+        duizend krijgen is hier gevaarlijk: `laad_zorg` bepaalt er de lijst
+        'al geladen' mee en zou anders werk overdoen, en `vul_extra_velden` zou
+        stoppen met bijvullen zonder dat iemand het merkt.
+        """
+        alles: list = []
+        while True:
+            pagina = self._verzoek(
+                "GET", f"{tabel}?{query}&limit={self.PAGINA}&offset={len(alles)}"
+            )
+            alles.extend(pagina)
+            if len(pagina) < self.PAGINA:
+                return alles
+
     def telling(self, tabel: str) -> int:
         rijen = self._verzoek("GET", f"{tabel}?select=id")
         return len(rijen)

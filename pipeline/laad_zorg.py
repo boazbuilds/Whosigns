@@ -205,7 +205,10 @@ def main() -> int:
         if not kantoor_id_per_nummer:
             print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")
             return 1
-        bestaand = db.selecteer(
+        # selecteer_alles, niet selecteer: bij meer dan duizend opdrachten in een
+        # boekjaar zou de lijst stil worden afgekapt en haalden we pdf's opnieuw op
+        # voor organisaties die we al hadden.
+        bestaand = db.selecteer_alles(
             "opdrachten",
             f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}",
         )
