@@ -34,13 +34,24 @@ kan met de README het project begrijpen en draaien.
 - [x] SQL-schema als migration (`supabase/migrations/`): de relatiegraaf
       (organisaties ↔ kantoren ↔ opdrachten ↔ boekjaren) + bronnen, signalen,
       review-queue, views (relatieduur, wisselingen, marktaandeel) en Row Level Security
-- [ ] Supabase-project aanmaken (EU-regio, beslissing #3) en de migration draaien
+- [ ] **Bij de opdrachtgever:** Supabase-project aanmaken en het schema draaien —
+      stappenplan in `docs/setup-supabase.md` (incl. de twee GitHub Secrets)
+- [x] Wegschrijfroute naar Supabase klaar: `pipeline/supabase_client.py`
+      (PostgREST, stdlib-only) + `pipeline/laad_kantoren.py` (idempotente upsert
+      van kantoren en aliassen)
+- [x] GitHub Action `.github/workflows/pipeline.yml`: wekelijks + handmatig;
+      ververst de seed, commit mutaties als log, schrijft naar de database zodra
+      de secrets er zijn (en slaat die stap netjes over zolang dat niet zo is)
 - [ ] Next.js-app (App Router) in `/web`, deploy naar Vercel ("hello world" met
       huisstijl-aanzet en badge "Demo · gedeeltelijke data")
-- [ ] AFM-vergunningenregister ophalen → seed van `kantoren` (regulier/OOB) + eerste
-      vulling `kantoor_alias`; script in `/pipeline`, herdraaibaar
-- [ ] GitHub Action-skelet: pipeline handmatig triggerbaar + wekelijks schema 🆕
-- [ ] README aangevuld met setup-stappen (Supabase-keys, Vercel, pipeline draaien)
+- [x] AFM-vergunningenregister ophalen via de officiële XML-export →
+      `pipeline/adapters/afm_register.py` + `pipeline/seed/kantoren.csv`
+      (233 kantoren, 6 met OOB-vergunning; hersnapshot = script draaien en committen,
+      de git-diff is het mutatielog)
+- [ ] Seed naar Supabase upserten zodra het project er is; `kantoor_alias` vullen
+      zodra de eerste DigiMV-namen binnenkomen
+- [ ] README aangevuld met de Vercel-stappen (Supabase staat in
+      `docs/setup-supabase.md`)
 
 **Klaar wanneer:** de site staat live (leeg maar netjes), `kantoren` is gevuld vanuit
 het AFM-register, en de pipeline draait groen in GitHub Actions.
@@ -62,11 +73,16 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
 - [ ] Adapter `pipeline/adapters/digimv.py`: de zes velden → kernmodel, idempotent;
       oordeel, honoraria en wisselvlag zitten gestructureerd in de bron en worden
       meegeladen (tonen in de UI blijft beperkt tot de zes velden — visie)
-- [ ] Kantoornaam: verklaring-pdf's uit het DigiMV-archief ophalen (ruw opslaan) en de
-      kantoornaam vinden via **tekstmatch tegen de AFM-lijst/aliastabel** — pdftotext +
-      stringmatching, géén LLM; geen match → `review_queue`; LLM-vangnet pas in Fase 4
-- [ ] Naamnormalisatie: exact op `kantoor_alias`, fuzzy naar `review_queue`, nooit stil
-      mergen
+- [x] Kantoornaam-route bewezen: archief-API uitgezocht (`digimv_archief.py`),
+      pdftotext + stringmatch tegen AFM-lijst/aliastabel (`kantoor_match.py`,
+      `verklaring.py`), meetbaar via `valideer_extractie.py` —
+      **12/12 ziekenhuizen (100%), 26/27 gemengd (96%), nul valse matches**;
+      oordeel en continuïteitsonzekerheid komen uit dezelfde tekst
+- [x] Aliastabel gestart (`pipeline/seed/kantoor_alias.csv`) — zonder aliassen bleef
+      de trefkans op 85% steken (Ernst & Young LLP → EY B.V., handelsnamen)
+- [ ] Bulk draaien: dekkende organisatielijst per boekjaar ophalen (zoek-API vereist
+      een fragment), pdf's ruw opslaan, resultaten naar het kernmodel
+- [ ] Restgevallen (gescande pdf's, kantoornaam alleen in logo) naar `review_queue`
 - [ ] **Mijlpaal A: eerste 1.000 organisaties** in de database — de klik-test-dataset
 - [ ] **Mijlpaal B: volledige zorgsector** voor de jaren waar de bron het toelaat
 - [ ] Steekproefcontrole: 25 organisaties handmatig naleggen tegen de bron

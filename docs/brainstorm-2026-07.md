@@ -171,3 +171,32 @@ Definitieve keuze (incl. domeincheck) ligt bij de opdrachtgever → `docs/beslis
 5. **Nieuwsbrief** vanaf Fase 3 (was backlog); **records/ranglijsten** hoog op de backlog.
 6. **Fase 5 "Validatie & eerste omzet"** toegevoegd met meetbare beslismomenten.
 7. Naamadvies: **WhoSigns** (beslissing bij opdrachtgever).
+
+## 11. Veelgestelde vraag: "Graydon/Creditsafe heeft toch al alles over bedrijven?"
+
+Terechte vraag (juli 2026, gesteld door de opdrachtgever). Kredietinformatiebureaus —
+Creditsafe (dat Graydon overnam), Altares Dun & Bradstreet, Company.info — hebben
+inderdaad enorm veel bedrijfsdata: jaarrekeningen uit KvK-deponeringen, kredietscores,
+betaalgedrag, bestuurders, concernstructuren. Maar hun **kernobject is het bedrijf**;
+het onze is de **auditrelatie**. Dat verschil zit diep:
+
+1. **De accountant is bij hen geen veld, maar een voetnoot.** De kantoornaam staat in
+   de gedeponeerde pdf die zij doorverkopen, maar is niet als doorzoekbaar,
+   historisch gegeven ontsloten. Vragen die bij ons de kern zijn, kun je daar niet
+   stellen: *geef alle cliënten van BDO in de zorg · wie wisselde er in 2024 van
+   accountant · hoe lang zit EY al bij organisatie X · welk marktaandeel heeft
+   kantoor Y bij corporaties · wie nadert de verplichte OOB-roulatie.*
+2. **Een kantoor is bij hen geen entiteit.** Er bestaat geen "profiel van
+   accountantskantoor X met portefeuille, sectorspreiding en verloop". Bij ons is dat
+   de helft van het product.
+3. **Ander verdienmodel, andere ervaring.** Zij verkopen rapporten per bedrijf achter
+   een betaalmuur; wij zijn vrij bladerbaar over de héle markt (Transfermarkt-model)
+   en verdienen aan werk-tools bovenop de graaf.
+4. **Onze MVP-bronnen zitten niet in hun pijplijn.** DigiMV (zorg), DUO (onderwijs) en
+   OOB-transparantieverslagen zijn geen KvK-deponeringen; juist in het (semi)publieke
+   domein — waar wij beginnen — hebben zij weinig.
+5. **Eerlijk is eerlijk:** met hun documentenarchief zóúden ze dit kunnen bouwen. De
+   verdediging is snelheid, historie-diepte (die koop je niet in, die bouw je op),
+   nichefocus en later de tweezijdige laag (geclaimde profielen, uitvragen). En:
+   zo'n partij is eerder een potentiële afnemer of overnemer van onze dataset dan een
+   directe concurrent — wat de exit-waarde van de historie alleen maar onderstreept.

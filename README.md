@@ -24,6 +24,7 @@ is het antwoord: *even op WhoSigns kijken.*
 |---|---|
 | `docs/visie.md` | De productvisie — **leidend** bij twijfel; begin hier |
 | `ROADMAP.md` | Het bouwplan: fases, taken, beslismomenten |
+| `docs/setup-supabase.md` | Stap voor stap de database opzetten (zonder developer-kennis) |
 | `docs/concept.md` | Volledige context: domeinkennis, bronnen, guardrails |
 | `docs/brainstorm-2026-07.md` | Analyse "waarom Transfermarkt werkt" + verbetervoorstellen |
 | `docs/beslissingen.md` | Beslislog: open keuzes met aanbeveling + genomen besluiten |

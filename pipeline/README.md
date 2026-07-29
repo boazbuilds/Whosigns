@@ -8,21 +8,30 @@ Nog geen code — de eerste adapter komt in Fase 1 (zie `../ROADMAP.md`).
 ```
 pipeline/
   adapters/
-    afm_register.py   # Fase 0: seed + wekelijkse snapshot kantorenregister
-    digimv.py         # Fase 1: zorgsector (jaarverantwoordingzorg.nl) — alleen
-                      #   gestructureerde velden; de zes velden uit docs/visie.md
-    transparantie.py  # Fase 3: OOB-cliëntlijsten uit transparantieverslagen
-    duo.py            # Fase 4: onderwijs
-    tenderned.py      # Fase 4: aanbestedingen accountantsdiensten
-  extractie/          # Fase 4: Claude API-extractie van pdf-verklaringen → JSON
-  signalen/           # Fase 4: afgeleide signalen (relatieduur, roulatie, …)
+    afm_register.py    ✅ AFM-kantorenregister → seed/kantoren.csv
+    digimv_archief.py  ✅ client voor de archief-API (zoeken + document ophalen)
+    digimv.py          ⬜ Fase 1: zorgdataset (.ods) → kernmodel
+    transparantie.py   ⬜ Fase 3: OOB-cliëntlijsten
+    duo.py             ⬜ Fase 4: onderwijs
+    tenderned.py       ⬜ Fase 4: aanbestedingen accountantsdiensten
+  extractie/
+    kantoor_match.py   ✅ kantoornaam herkennen via AFM-lijst + aliassen
+    verklaring.py      ✅ pdf → soort verklaring, oordeel, continuïteit, kantoor
+  seed/
+    kantoren.csv       ✅ 233 vergunninghouders (6 met OOB-vergunning)
+    kantoor_alias.csv  ✅ handelsnamen en oude namen na fusie/rebranding
+  valideer_extractie.py ✅ meet de trefkans van de kantoorextractie
+  signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
 
 Het MVP (Fase 0–3) draait **zonder AI-extractie**. De kantoornaam staat in de
-zorgsector alleen in de verklaring-pdf's (zie `adapters/digimv.md`); die halen we
-eruit met pdftotext + stringmatch tegen de AFM-lijst/aliastabel — deterministisch,
-geen LLM. Alleen onmatchbare gevallen wachten in de `review_queue` op het
-LLM-vangnet van Fase 4.
+zorgsector alleen in de verklaring-pdf's; die halen we eruit met `pdftotext` +
+stringmatch tegen de AFM-lijst/aliastabel. Gemeten trefkans op controleverklaringen:
+**96–100%, zonder valse matches** (zie `adapters/digimv.md`). Onmatchbare gevallen
+— gescande pdf's, kantoornaam alleen in een logo — wachten in de `review_queue` op
+het LLM-vangnet van Fase 4.
+
+Vereist buiten Python: `pdftotext` (pakket `poppler-utils`).
 
 ## Spelregels (gelden voor elke adapter)
 
