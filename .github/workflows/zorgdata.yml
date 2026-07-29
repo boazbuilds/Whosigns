@@ -12,8 +12,12 @@ name: Zorgdata laden
 on:
   workflow_dispatch:
     inputs:
-      boekjaar:
-        description: "Boekjaar (2023 is uitgezocht; andere jaargangen vragen eerst een kolominspectie)"
+      boekjaren:
+        description: "Boekjaren, nieuwste eerst, komma's ertussen"
+        required: true
+        default: "2024,2023,2022,2021,2020,2019"
+      lijst_uit:
+        description: "Boekjaar waar de organisatielijst uit komt (2023 is uitgezocht)"
         required: true
         default: "2023"
       vanaf:
@@ -21,7 +25,7 @@ on:
         required: false
         default: "0"
       aantal:
-        description: "Verwerk er hoogstens N (0 = alles)"
+        description: "Verwerk er hoogstens N per boekjaar (0 = alles)"
         required: false
         default: "0"
 
@@ -43,26 +47,41 @@ jobs:
 
       # De dataset (~16 MB) en de afgeleide doelpopulatie hoeven maar één keer
       # opgehaald en berekend te worden; dat scheelt de bron werk en ons minuten.
-      - name: Dataset uit de cache halen
+      # Alleen de dataset en de daaruit afgeleide organisatielijst bewaren — niet de
+      # pdf's. Eén jaargang verkeert al ~3 GB en die horen niet in een cache.
+      - name: Organisatielijst uit de cache halen
         uses: actions/cache@v4
         with:
-          path: pipeline/.cache
-          key: digimv-${{ inputs.boekjaar }}
+          path: |
+            pipeline/.cache/digimv*.ods
+            pipeline/.cache/doelpopulatie_*.csv
+          key: digimv-lijst-${{ inputs.lijst_uit }}
 
       - name: Zorgdata laden
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
-          python3 pipeline/laad_zorg.py \
-            --boekjaar "${{ inputs.boekjaar }}" \
-            --vanaf "${{ inputs.vanaf }}" \
-            --aantal "${{ inputs.aantal }}"
+          # Boekjaar voor boekjaar, nieuwste eerst: loopt de job tegen de tijdslimiet
+          # aan, dan zijn de meest actuele jaren in elk geval binnen. Elk boekjaar
+          # is idempotent, dus opnieuw draaien pikt op waar het gebleven was.
+          for jaar in $(echo "${{ inputs.boekjaren }}" | tr ',' ' '); do
+            echo "::group::boekjaar $jaar"
+            python3 pipeline/laad_zorg.py \
+              --boekjaar "$jaar" \
+              --lijst-uit "${{ inputs.lijst_uit }}" \
+              --vanaf "${{ inputs.vanaf }}" \
+              --aantal "${{ inputs.aantal }}"
+            echo "::endgroup::"
+            # Pdf's van het afgeronde jaar opruimen: de schijf van een runner is
+            # 14 GB en zes jaargangen passen daar niet in.
+            rm -f pipeline/.cache/*.pdf
+          done
 
-      - name: Rapport bewaren
+      - name: Rapporten bewaren
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: resultaat-${{ inputs.boekjaar }}
+          name: resultaten
           path: pipeline/.cache/resultaat_*.csv
           if-no-files-found: ignore
