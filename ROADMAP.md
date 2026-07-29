@@ -74,13 +74,19 @@ en vorm van de verklaring (oordeel), honoraria (gesplitst) en zelfs de vraag "be
 van accountant gewisseld?" zitten gestructureerd in de dataset — de kantoornaam níét;
 die staat in de verklaring-pdf's in het DigiMV-archief.*
 
-- [ ] Datasets Zorg/Jeugd per boekjaar downloaden (.ods, jaarverantwoordingzorg.nl) en
-      ruw opslaan in Supabase Storage (bron bewaren vóór verwerking)
+- [x] Dataset boekjaar 2023 downloaden en streamend lezen →
+      `pipeline/adapters/digimv_dataset.py` (content.xml is 300 MB, dus iterparse)
 - [x] Kolominspectie boekjaar 2023 → `pipeline/adapters/digimv.md`
-- [ ] Kolominspectie overige jaargangen (2018–2022, 2024) — veldnamen verschillen per jaar
-- [ ] Adapter `pipeline/adapters/digimv.py`: de zes velden → kernmodel, idempotent;
-      oordeel, honoraria en wisselvlag zitten gestructureerd in de bron en worden
-      meegeladen (tonen in de UI blijft beperkt tot de zes velden — visie)
+- [ ] Kolominspectie overige jaargangen (2019–2022, 2024) — veldnamen verschillen per
+      jaar; download-adressen staan in `digimv.md`, `KOLOM` in `digimv_dataset.py`
+      aanvullen. Boekjaar 2025 heeft nog geen gepubliceerde dataset
+- [ ] Datasets ruw opslaan in Supabase Storage (bron bewaren vóór verwerking) —
+      zie ook beslissing #8 hieronder over pdf's
+- [x] **Doelpopulatie-filter gevonden — dit halveert Fase 1 meer dan eens.**
+      `bestandAccountantsVerklaringSoort_N` zegt vooraf wie een controleverklaring
+      heeft: van de 6.131 organisaties (bj. 2023) zijn dat er **1.010**; 422 hebben
+      een samenstellings-, 345 een beoordelingsverklaring en 4.389 deponeerden niets.
+      Alleen die 1.010 hoeven het archief in — ±35.000 verzoeken minder
 - [x] Kantoornaam-route bewezen: archief-API uitgezocht (`digimv_archief.py`),
       pdftotext + stringmatch tegen AFM-lijst/aliastabel (`kantoor_match.py`,
       `verklaring.py`), meetbaar via `valideer_extractie.py` —
@@ -101,14 +107,33 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
 - [x] Matchen op KvK-nummer i.p.v. naam+plaats (naam en plaats wisselen per
       boekjaar in de bron); documenten ook uit `locations[]` halen; venster
       van het archief vastgelegd (2019+, ouder geeft HTTP 500) — zie `digimv.md`
-- [ ] Bulk-run over de volledige 6.132-organisatielijst (dataset-gedreven,
-      i.p.v. de handmatige proefdata-lijst)
-- [ ] Ruwe pdf's in Supabase Storage opslaan vóór verwerking (principe 1) —
-      in de proefdata-run nog alleen lokaal gecachet, niet in Storage
+- [x] Bulk-lader gebouwd: `pipeline/laad_zorg.py` + workflow `zorgdata.yml`.
+      Hervatbaar (al geladen organisatie-boekjaren worden overgeslagen), op te
+      knippen met `--vanaf`/`--aantal`, en met `--droogloop` te draaien zonder
+      database. Vier organisaties tegelijk: ~1 seconde per organisatie in plaats
+      van 7,5 — dat maakt het verschil tussen een kwartier en twee uur per jaargang
+- [ ] **Bulk-run boekjaar 2023 naar de database** (proefrit gedaan, zie hieronder)
+- [ ] Bulk-run overige boekjaren, ná de kolominspectie per jaargang
+- [ ] Ruwe pdf's opslaan — **beslissing #8: alleen de tekst + vingerafdruk**, en
+      het hele pdf enkel bij gevallen die misgingen. Eén jaargang van één sector
+      verkeert al ±3 GB aan pdf's; Supabase gratis geeft 1 GB
 - [ ] Restgevallen (gescande pdf's, kantoornaam alleen in logo) naar `review_queue`
-- [ ] **Mijlpaal A: eerste 1.000 organisaties** in de database — de klik-test-dataset
+- [ ] **Mijlpaal A: eerste 1.000 organisaties** in de database — de klik-test-dataset.
+      Ligt binnen handbereik: de doelpopulatie van boekjaar 2023 is er precies 1.010
 - [ ] **Mijlpaal B: volledige zorgsector** voor de jaren waar de bron het toelaat
 - [ ] Steekproefcontrole: 25 organisaties handmatig naleggen tegen de bron
+
+**Wat de proefrit over boekjaar 2023 leerde** (droogloop, zie `digimv.md`):
+
+- Trefkans ligt rond **43%** over de volle doelpopulatie — véél lager dan de 96% op
+  ziekenhuizen, en dat klopt: kleine zorg-BV's hebben vaak geen jaarrekeningcontrole
+  maar een WNT- of productieverantwoording, meestal van een kantoor zónder
+  Wta-vergunning. Dat wij daar niets vastleggen is de guardrail die werkt.
+- Wat we wél missen en willen hebben: **gescande verklaringen** in de jaarrekeningen
+  van grote instellingen (UMCG, Bernhoven, Lentis). Vraagt OCR → Fase 4.
+- **Aliassen blijven de grootste winst per uur werk.** Drie erbij deze ronde, gevonden
+  door handtekeningblokken te lezen: Alfa Accountants → *aaff Audit en Assurance B.V.*,
+  Moore-DRV, en Qconcepts → *Q-Concepts Accountancy B.V.*
 
 **Klaar wanneer:** duizenden opdrachten in de database met herkomst per feit, en de
 import is met één actie opnieuw te draaien zonder duplicaten.
