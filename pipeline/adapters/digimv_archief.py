@@ -65,6 +65,22 @@ def haal_document(document: dict, boekjaar: int) -> bytes:
     return data
 
 
+def alle_documenten(organisatie: dict) -> list[dict]:
+    """Alle documenten van een organisatie, waar ze ook hangen.
+
+    Let op: documenten staan niet altijd op het topniveau. Bij een deel van de
+    organisaties (en systematisch in sommige boekjaren, o.a. 2022) hangen ze
+    onder `locations[].documents` — per vestiging. Wie alleen naar het
+    topniveau kijkt, ziet die organisaties ten onrechte als "geen stukken
+    gedeponeerd". Ook `desaveuElements` kan documenten bevatten.
+    """
+    documenten = list(organisatie.get("documents") or [])
+    for groep in ("locations", "desaveuElements"):
+        for onderdeel in organisatie.get(groep) or []:
+            documenten.extend(onderdeel.get("documents") or [])
+    return documenten
+
+
 def verklaringen(organisatie: dict) -> list[dict]:
     """Documenten die een accountantsverklaring (kunnen) bevatten.
 
@@ -73,7 +89,7 @@ def verklaringen(organisatie: dict) -> list[dict]:
     """
     return [
         doc
-        for doc in (organisatie.get("documents") or [])
+        for doc in alle_documenten(organisatie)
         if doc.get("type", "").startswith("Accountantsverklaring")
         or doc.get("type") == "Verzameldocument"
     ]

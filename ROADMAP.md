@@ -90,9 +90,13 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
       zoeken op naam+plaats met KvK-nummer als controle (zie `digimv.md`)
 - [x] Adapter `pipeline/adapters/digimv.py` gebouwd (archiefzoekopdracht →
       verklaring ophalen en analyseren → structuur klaar voor Supabase) en
-      **end-to-end bewezen**: `pipeline/laad_proefdata.py` laadt 13 bekende
-      ziekenhuizen (13/13 gematcht, incl. één oordeel met beperking) — eigen
-      workflow `proefdata.yml`, vooruitlopend op de volledige bulk-run
+      **end-to-end bewezen over meerdere boekjaren**:
+      `pipeline/laad_proefdata.py` laadt 13 bekende ziekenhuizen × boekjaren
+      2019–2024 (~70 opdrachten), met **4 echte accountantswisselingen** en
+      één oordeel met beperking — eigen workflow `proefdata.yml`
+- [x] Matchen op KvK-nummer i.p.v. naam+plaats (naam en plaats wisselen per
+      boekjaar in de bron); documenten ook uit `locations[]` halen; venster
+      van het archief vastgelegd (2019+, ouder geeft HTTP 500) — zie `digimv.md`
 - [ ] Bulk-run over de volledige 6.132-organisatielijst (dataset-gedreven,
       i.p.v. de handmatige proefdata-lijst)
 - [ ] Ruwe pdf's in Supabase Storage opslaan vóór verwerking (principe 1) —

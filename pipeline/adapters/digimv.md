@@ -158,22 +158,66 @@ Dit is trager dan losse letterzoekopdrachten (6.132 gerichte zoekopdrachten in
 plaats van ~10 brede), maar wél gegarandeerd volledig en met ingebouwde controle.
 Draait straks als achtergrondtaak (GitHub Actions), niet interactief.
 
+## Meerdere boekjaren: drie valkuilen (uitgezocht 29-7-2026)
+
+Bij het uitbreiden van de proefdata naar 2018–2024 bleken er drie dingen mis
+te gaan die bij één boekjaar onzichtbaar blijven. Alle drie opgelost.
+
+**1. Het archief houdt een voortschrijdend venster van zeven boekjaren.**
+De frontend genereert zijn jarenlijst als "huidig jaar − 1 t/m − 7"; oudere
+jaren geven **HTTP 500**. Stand juli 2026: 2019 t/m 2025 beschikbaar,
+**2018 bestaat niet meer**. Vastgelegd als `OUDSTE_BOEKJAAR` in `digimv.py`.
+
+> **Strategisch gevolg:** de bron zelf gooit elk jaar het oudste boekjaar weg.
+> Wat wij niet oogsten vóór de jaarwisseling, is daarna nergens meer gratis te
+> halen. Dat versterkt de moat uit `docs/brainstorm-2026-07.md` ("de historie
+> is de moat") aanzienlijk: het historische bestand is niet alleen duur om in
+> te halen, het is op termijn **onmogelijk** in te halen. Argument om de
+> volledige historie-oogst niet te lang uit te stellen.
+
+**2. Documenten hangen niet altijd op het topniveau.** Bij een deel van de
+organisaties — systematisch in boekjaar 2022 — staan de stukken onder
+`locations[].documents` (per vestiging) in plaats van `documents[]`. Wie
+alleen naar het topniveau kijkt, ziet die organisaties ten onrechte als "geen
+stukken gedeponeerd". Opgelost met `alle_documenten()` in `digimv_archief.py`,
+dat ook `desaveuElements` meeneemt.
+
+**3. Naam én plaats wisselen per boekjaar; het KvK-nummer niet.** Voorbeelden:
+
+| Boekjaar | Naam | Plaats |
+|---|---|---|
+| 2023–2024 | Stichting HagaZiekenhuis | 's-Gravenhage |
+| 2019–2021 | HagaZiekenhuis (Stichting) | DEN HAAG |
+
+Matchen op naam+plaats breekt dus zodra je meerdere jaren wilt. **KvK-nummer
+is de enige stabiele sleutel** (hier 27268552 in alle jaren); de naam dient
+alleen nog als zoekterm om de kandidatenlijst klein te houden. Dit geldt net
+zo goed voor de latere bulk-run — en het is dubbel belangrijk bij het
+groeperen van resultaten: op naam groeperen splitst één organisatie in tweeën
+en **verbergt daarmee precies de wisselingen die we willen tonen**.
+
 ## Eerste 13 organisaties geladen (29-7-2026) — proefdata voor Fase 2
 
 Met `laad_proefdata.py` (handmatige lijst van 13 bekende ziekenhuizen, geen
-bulk) is de hele keten voor het eerst end-to-end getest: archief zoeken →
-verklaring downloaden → kantoor + oordeel herkennen → wegschrijven naar
-Supabase. **13/13 gematcht**, waaronder één oordeel *met beperking*
-(HagaZiekenhuis) — nuttig voor de latere UI-test, niet alleen goedkeurende
-oordelen.
+bulk) is de hele keten end-to-end getest: archief zoeken → verklaring
+downloaden → kantoor + oordeel herkennen → wegschrijven naar Supabase.
 
-**Les: plaatsnamen in het archief zijn de officiële/statutaire naam, niet de
-spreektaalvariant.** "HagaZiekenhuis" + "Den Haag" gaf geen resultaat; de
-archiefwaarde is `'s-Gravenhage`. Bij de latere bulk-adapter (die plaats
-gebruikt om gelijknamige organisaties te onderscheiden) hier rekening mee
-houden — de dataset zelf (`qNawPlaatsLrza`) gebruikt vermoedelijk dezelfde
-officiële schrijfwijze, dus dat zou vanzelf moeten kloppen; bij een
-handmatige lijst moet je het weten.
+Resultaat over boekjaren 2019–2024: **13 organisaties, ~70 opdrachten**,
+en daarin **4 echte accountantswisselingen**:
+
+| Organisatie | Wisseling |
+|---|---|
+| Stichting Catharina Ziekenhuis | EY → PwC (vanaf boekjaar 2023) |
+| Stichting Laurentius Ziekenhuis Roermond | Deloitte → EY (vanaf 2021) |
+| Stichting Ziekenhuis Gelderse Vallei | Deloitte → PwC (vanaf 2022) |
+| Rode Kruis Ziekenhuis B.V. | Deloitte → BDO (vanaf 2023) |
+
+Daarnaast één oordeel *met beperking* (HagaZiekenhuis, boekjaar 2023) tussen
+verder goedkeurende oordelen — nuttige variatie voor de UI-test.
+
+Niet elk organisatie-boekjaar levert een rij op: sommige jaren ontbreekt de
+deponering of is de verklaring een gescande pdf. Dat is verwacht gedrag en
+zichtbaar in de uitvoer, niet stil weggelaten.
 
 ## Open punten
 
