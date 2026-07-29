@@ -1,11 +1,21 @@
-"""Zet de AFM-kantorenlijst en de aliassen in Supabase.
+"""Zet de kantorenlijsten en de aliassen in Supabase.
+
+Twee lijsten, één tabel:
+
+- `seed/kantoren.csv` — de Wta-vergunninghouders uit het AFM-register
+  (`wta_vergunning = true`).
+- `seed/kantoren_overig.csv` — kantoren zónder Wta-vergunning die wél
+  controleverklaringen tekenen bij organisaties zonder controleplicht
+  (`wta_vergunning = false`). Zonder deze rijen mist WhoSigns bijna een derde van
+  de goededoelensector; zie docs/bronverkenning-stichtingen.md.
 
 Draaien:
     python3 pipeline/laad_kantoren.py            # ververst eerst bij de AFM
     python3 pipeline/laad_kantoren.py --offline  # gebruikt alleen de seed-bestanden
 
-Idempotent: upsert op `afm_nummer` (kantoren) en `alias` (kantoor_alias), dus twee
-keer draaien geeft hetzelfde resultaat zonder duplicaten.
+Idempotent: upsert op `sleutel` (kantoren) en `alias` (kantoor_alias), dus twee keer
+draaien geeft hetzelfde resultaat zonder duplicaten. `sleutel` is het AFM-nummer, of
+"overig_…" voor een kantoor zonder vergunning.
 
 Herkomst per feit: er komt één rij in `bronnen` met bron_type 'afm_register' en de
 registerlink, waar de kantoorrijen aan hangen.
@@ -19,7 +29,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 
 import afm_register  # noqa: E402
-from kantoor_match import laad_aliassen, laad_kantoren  # noqa: E402
+from kantoor_match import (  # noqa: E402
+    laad_aliassen,
+    laad_kantoren,
+    laad_overige_kantoren,
+)
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
 
 REGISTER_URL = (
@@ -39,8 +53,12 @@ def main(offline: bool = False) -> int:
             print(f"  ophalen mislukt ({fout}); ik gebruik de bestaande seed")
 
     kantoren = laad_kantoren()
+    overige = laad_overige_kantoren()
     aliassen = laad_aliassen()
-    print(f"seed: {len(kantoren)} kantoren, {len(aliassen)} aliassen")
+    print(
+        f"seed: {len(kantoren)} AFM-kantoren, {len(overige)} kantoren zonder "
+        f"Wta-vergunning, {len(aliassen)} aliassen"
+    )
 
     try:
         db = Supabase()
@@ -61,22 +79,47 @@ def main(offline: bool = False) -> int:
         "kantoren",
         [
             {
+                "sleutel": k["afm_nummer"],
                 "afm_nummer": k["afm_nummer"],
                 "naam": k["naam"],
+                "wta_vergunning": True,
                 "oob_vergunning": k["oob_vergunning"] == "ja",
                 "actief": k["status"] == "Verleend",
                 "website": k["website"] or None,
+                "toelichting": "AFM-vergunningenregister accountantsorganisaties",
             }
             for k in kantoren
         ],
-        "afm_nummer",
+        "sleutel",
     )
-    print(f"kantoren weggeschreven: {len(kantoren)}")
+    print(f"AFM-kantoren weggeschreven: {len(kantoren)}")
+
+    if overige:
+        db.upsert(
+            "kantoren",
+            [
+                {
+                    "sleutel": k["sleutel"],
+                    "afm_nummer": None,
+                    "naam": k["naam"],
+                    "wta_vergunning": False,
+                    "oob_vergunning": False,
+                    "actief": True,
+                    "website": k.get("website") or None,
+                    "kvk_nummer": k.get("kvk_nummer") or None,
+                    "toelichting": k.get("toelichting") or None,
+                }
+                for k in overige
+            ],
+            "sleutel",
+        )
+        print(f"kantoren zonder Wta-vergunning weggeschreven: {len(overige)}")
 
     # kantoor_alias verwijst naar kantoren.id, dus eerst de nummers ophalen.
     id_per_nummer = {
         rij["afm_nummer"]: rij["id"]
         for rij in db.selecteer("kantoren", "select=id,afm_nummer")
+        if rij.get("afm_nummer")
     }
     alias_rijen = [
         {"alias": a["alias"], "kantoor_id": id_per_nummer[a["afm_nummer"]]}
@@ -87,7 +130,10 @@ def main(offline: bool = False) -> int:
     print(f"aliassen weggeschreven: {len(alias_rijen)}")
 
     aantal_oob = sum(1 for k in kantoren if k["oob_vergunning"] == "ja")
-    print(f"\nklaar — {len(kantoren)} kantoren in de database, {aantal_oob} met OOB-vergunning")
+    print(
+        f"\nklaar — {len(kantoren) + len(overige)} kantoren in de database "
+        f"({aantal_oob} met OOB-vergunning, {len(overige)} zonder Wta-vergunning)"
+    )
     return 0
 
 

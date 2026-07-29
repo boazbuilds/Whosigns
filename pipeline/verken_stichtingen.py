@@ -5,6 +5,7 @@ Draaien vanuit de repo-root:
     python3 pipeline/verken_stichtingen.py dekking 2024      # is er een jaarverslag?
     python3 pipeline/verken_stichtingen.py extractie 2024 40 # komt het kantoor eruit?
     python3 pipeline/verken_stichtingen.py koppeling         # CBF ↔ ANBI op RSIN
+    python3 pipeline/verken_stichtingen.py oogst 2024        # welke kantoren missen we?
 
 Dit is het zusje van `valideer_extractie.py` (dat hetzelfde doet voor de zorg): een
 herhaalbare meting die de cijfers in `docs/bronverkenning-stichtingen.md` reproduceert.
@@ -19,7 +20,9 @@ bronverkenning voor wat dat voor het datamodel betekent.
 """
 
 import collections
+import csv
 import sys
+import tempfile
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -142,6 +145,97 @@ def extractie(boekjaar: int, maximum: int) -> int:
     return 0
 
 
+def oogst(boekjaar: int, maximum: int = 0) -> int:
+    """Welke kantoornamen tekenen deze verklaringen die wij nog niet kennen?
+
+    Loopt de hele categorie D/E langs, en verzamelt bij elke misser de
+    kantoorkandidaten uit de tekst. De uitvoer (gesorteerd op hoe vaak een naam
+    voorkomt, met bij elke naam een voorbeeldorganisatie) is de bewijsbasis voor
+    `seed/kantoren_overig.csv`. Nakijken met de hand blijft nodig: het patroon vist
+    ook wel eens een kostenpost of een commissie op.
+
+    Slaat de pdf's niet op — 295 jaarverslagen is ruim een gigabyte.
+    """
+    index = bouw_index(laad_kantoren())
+    organisaties = [
+        o for o in cbf.organisaties() if o["categorie"] in cbf.CATEGORIE_MET_CONTROLE
+    ]
+    if maximum:
+        organisaties = _steekproef(organisaties, maximum)
+    print(f"{len(organisaties)} goede doelen in categorie D/E, boekjaar {boekjaar}")
+    print("(pdf's worden niet bewaard)\n", flush=True)
+
+    def meet(organisatie: dict) -> dict:
+        try:
+            inhoud = cbf.jaarverslag(organisatie["naam"], boekjaar)
+        except Exception as fout:  # noqa: BLE001 — bron mag falen, oogst gaat door
+            return {"naam": organisatie["naam"], "status": f"downloadfout: {fout}"}
+        if inhoud is None:
+            return {"naam": organisatie["naam"], "status": "geen jaarverslag"}
+        pad = Path(tempfile.mkstemp(suffix=".pdf")[1])
+        try:
+            pad.write_bytes(inhoud)
+            resultaat = analyseer(pdf_naar_tekst(str(pad)), index)
+        finally:
+            pad.unlink(missing_ok=True)
+        return {
+            "naam": organisatie["naam"],
+            "status": "ok",
+            "soort": resultaat.get("soort"),
+            "kantoor": (resultaat.get("kantoor") or {}).get("naam"),
+            "wta_kenmerk": resultaat.get("wta_kenmerk"),
+            "kandidaten": resultaat.get("kandidaten") or [],
+        }
+
+    with ThreadPoolExecutor(max_workers=WERKERS) as pool:
+        uitkomsten = []
+        for teller, rij in enumerate(pool.map(meet, organisaties), start=1):
+            uitkomsten.append(rij)
+            if teller % 25 == 0:
+                gevonden = sum(1 for r in uitkomsten if r.get("kantoor"))
+                print(f"--- {teller}/{len(organisaties)} | {gevonden} met kantoor ---",
+                      flush=True)
+
+    controles = [r for r in uitkomsten if r.get("soort") == "controle"]
+    met_kantoor = [r for r in controles if r.get("kantoor")]
+    kandidaten: collections.Counter = collections.Counter()
+    voorbeeld: dict[str, str] = {}
+    for rij in controles:
+        if rij.get("kantoor"):
+            continue
+        for naam in rij["kandidaten"]:
+            kandidaten[naam] += 1
+            voorbeeld.setdefault(naam, rij["naam"])
+
+    print(f"\njaarverslagen gelezen:        {sum(1 for r in uitkomsten if r['status'] == 'ok')}")
+    print(f"controleverklaringen:        {len(controles)}")
+    print(f"— kantoor herleid:           {len(met_kantoor)}")
+    print(f"— kantoor onbekend:          {len(controles) - len(met_kantoor)}")
+
+    # Zegt de Wta-verwijzing iets? Kruistabel als de aanname klopt dat een
+    # wettelijke controle naar de Wta verwijst en een vrijwillige naar de ViO.
+    kruis: collections.Counter = collections.Counter()
+    for rij in controles:
+        kruis[(bool(rij.get("kantoor")), bool(rij.get("wta_kenmerk")))] += 1
+    print("\nkantoor herleid × verklaring verwijst naar de Wta:")
+    for (heeft_kantoor, wta), aantal in sorted(kruis.items()):
+        print(f"  kantoor {'ja ' if heeft_kantoor else 'nee'} | Wta "
+              f"{'ja ' if wta else 'nee'} | {aantal:3d}")
+
+    uitvoer = CACHE / f"kantoorkandidaten_{boekjaar}.csv"
+    CACHE.mkdir(exist_ok=True)
+    with uitvoer.open("w", newline="", encoding="utf-8") as f:
+        schrijver = csv.writer(f)
+        schrijver.writerow(["kandidaat", "aantal", "voorbeeldorganisatie", "boekjaar"])
+        for naam, aantal in kandidaten.most_common():
+            schrijver.writerow([naam, aantal, voorbeeld[naam], boekjaar])
+    print(f"\nkandidaat-kantoornamen bij de missers ({len(kandidaten)} verschillende):")
+    for naam, aantal in kandidaten.most_common(25):
+        print(f"  {aantal:3d}× {naam}   (bijv. {voorbeeld[naam]})")
+    print(f"\nvolledige lijst: {uitvoer}")
+    return 0
+
+
 def koppeling() -> int:
     """Hebben de erkende goede doelen een ANBI-beschikking (en dus een website)?"""
     print("ANBI-bestand downloaden…")
@@ -172,5 +266,7 @@ if __name__ == "__main__":
         raise SystemExit(dekking(jaar))
     if modus == "extractie":
         raise SystemExit(extractie(jaar, int(sys.argv[3]) if len(sys.argv) > 3 else 40))
+    if modus == "oogst":
+        raise SystemExit(oogst(jaar, int(sys.argv[3]) if len(sys.argv) > 3 else 0))
     print(__doc__)
     raise SystemExit(1)

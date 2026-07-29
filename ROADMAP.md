@@ -243,11 +243,12 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
 2. KvK XBRL-parser (SBR Assurance, middelgroot) + pdf-batch voor gekochte
    KvK-jaarrekeningen — ontsluit het bedrijfsleven op naam ("data on demand")
 3. Verticals: ANBI's/CBF-goede doelen, woningcorporaties, gemeenten/provincies/
-   waterschappen, pensioenfondsen, fondsen — route voor stichtingen/NGO's is
-   uitgezocht en gemeten in `docs/bronverkenning-stichtingen.md`: begin met de 295
-   CBF-erkende goede doelen in categorie D/E (adapters `cbf.py` + `anbi.py` staan
-   klaar), en houd rekening met vrijwillige controles door kantoren zonder
-   Wta-vergunning (beslissing 8)
+   waterschappen, pensioenfondsen, fondsen. **Stichtingen/NGO's zijn klaar om te
+   laden**: route uitgezocht en gemeten in `docs/bronverkenning-stichtingen.md`,
+   pipeline in `laad_stichtingen.py`, workflow *Stichtingendata laden*. Boekjaar 2024
+   levert 213 opdrachten op 295 organisaties (88% van de controleverklaringen).
+   Zodra de zorgsector af is: workflow starten met boekjaren 2019–2025. Kantoren
+   zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8)
 4. Switch-scores / voorspelmodellen — uitdrukkelijk pas ná validatie (visie: "nog niet")
 5. Honoraria tonen + fee-benchmark (kolommen liggen klaar; art. 2:382a BW, DigiMV, DUO)
 6. Supabase Auth + geclaimde kantoorprofielen (badge "neemt cliënten aan"; datagedreven

@@ -38,6 +38,10 @@ Op supabase.com → New project:
 4. Je hoort "Success. No rows returned" te zien. Links onder **Table Editor**
    staan nu de tabellen: `organisaties`, `kantoren`, `opdrachten`, `bronnen`,
    `signalen`, `review_queue` en de rest.
+5. Herhaal stap 1–3 voor élk volgend bestand in `supabase/migrations/`, op
+   naam gesorteerd (het nummer vooraan is de datum, dus oudste eerst):
+   `20260729210000_extra_velden.sql` en `20260730000000_kantoren_zonder_wta.sql`.
+   Ze zijn zo geschreven dat opnieuw draaien geen kwaad kan.
 
 Bij een foutmelding: kopieer die en plak hem in een Claude Code-sessie; dan zoek ik
 het uit.

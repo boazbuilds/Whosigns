@@ -145,6 +145,75 @@ CONTINUITEIT_KENMERKEN = (
     "material uncertainty related to going concern",
 )
 
+# Verwijst de verklaring naar de Wta? Bij een wettelijke controle hoort de
+# onafhankelijkheidsparagraaf naar de Wet toezicht accountantsorganisaties te
+# verwijzen; bij een vrijwillige controle staat daar de ViO. Het is een
+# aanwijzing, geen bewijs — daarom een apart veld en geen conclusie.
+WTA_KENMERKEN = (
+    "wet toezicht accountantsorganisaties",
+    "wta",
+    "verordening eu nr 537 2014",
+)
+
+# Namen die op een accountantskantoor lijken. Bedoeld om kandidaten aan te dragen
+# voor de review-queue en voor het uitbreiden van de kantorenlijst — nooit om
+# automatisch een kantoor vast te stellen: dat blijft een match tegen een lijst.
+_KANDIDAAT = re.compile(
+    r"([A-Z][A-Za-z&'’\.\- ]{2,45}?\s?"
+    r"(?:Accountants?|Audit|Assurance|Registeraccountants|Accountancy)"
+    r"(?:\s(?:&|en)\s[A-Z][A-Za-z]+)?"
+    r"(?:\s(?:B\.?V\.?|N\.?V\.?|LLP))?)"
+)
+# Wat het patroon óók opvist: commissies, wetteksten en kostenposten uit de
+# jaarrekening ("Bestuurskosten Accountants", "De Auditcommissie", "Verordening
+# Gedrags- en Beroepsregels Accountants").
+_KANDIDAAT_RUIS = re.compile(
+    r"auditcommissie|audit commissie|auditcomite|standards on auditing|"
+    r"beroepsregels|verordening|nba|code of ethics|raad van|\blid\b|commissie|"
+    r"kosten|lonen|salaris|vergoeding|bespreking|rapportage|verslag|overleg|"
+    r"international standards|dutch standards|final audit|internal audit|"
+    r"chartered|expenses|allowance|advice|opdrachten|verricht|"
+    r"algemene voorwaarden|gedeponeerd",
+    re.I,
+)
+
+
+def kantoorkandidaten(tekst: str) -> list[str]:
+    """Namen uit de tekst die op een accountantskantoor lijken, meest genoemd eerst.
+
+    Gebruikt door de review-queue (welk kantoor stond er dan wél?) en door
+    `verken_stichtingen.py oogst`, dat hiermee de kantorenlijst buiten het
+    AFM-register opbouwt.
+    """
+    telling: dict[str, int] = {}
+    for treffer in _KANDIDAAT.finditer(tekst):
+        naam = re.sub(r"\s+", " ", treffer.group(1)).strip(" .-&")
+        if len(naam) < 6 or _KANDIDAAT_RUIS.search(naam):
+            continue
+        # Losse beroepsaanduidingen zonder eigennaam zeggen niets.
+        if normaliseer(naam) in {
+            "accountants", "accountant", "audit", "assurance", "accountancy",
+            "registeraccountants", "audit assurance",
+        }:
+            continue
+        telling[naam] = telling.get(naam, 0) + 1
+
+    # Dezelfde naam komt vaak in twee lengtes voorbij ("Op alle door Kaap Hoorn
+    # Audit & Assurance B.V." naast "Kaap Hoorn Audit & Assurance B.V."). Houd de
+    # kortste vorm en tel de langere daarbij op.
+    namen = sorted(telling, key=len)
+    beknopt: dict[str, int] = {}
+    for naam in sorted(telling, key=lambda n: -len(n)):
+        korter = next(
+            (k for k in namen if k != naam and normaliseer(naam).endswith(normaliseer(k))),
+            None,
+        )
+        if korter:
+            telling[korter] += telling[naam]
+        else:
+            beknopt[naam] = telling[naam]
+    return sorted(beknopt, key=lambda n: (-telling[n], n))
+
 
 def pdf_naar_tekst(pad: str) -> str:
     """Lege string als de pdf geen tekstlaag heeft (gescand)."""
@@ -187,6 +256,8 @@ def analyseer(tekst: str, index: dict) -> dict:
             "oordeel": None,
             "continuiteitsonzekerheid": None,
             "kantoor": None,
+            "kandidaten": [],
+            "wta_kenmerk": None,
             "reden": "geen tekstlaag (gescande pdf)",
         }
 
@@ -209,5 +280,11 @@ def analyseer(tekst: str, index: dict) -> dict:
             woord in genormaliseerd for woord in CONTINUITEIT_KENMERKEN
         ),
         "kantoor": treffer["kantoor"] if treffer else None,
+        # Aanwijzing dat het om een wettelijke controle gaat; de aanroeper beslist
+        # wat hij ermee doet (zie laad_stichtingen.py).
+        "wta_kenmerk": _eerste_treffer(genormaliseerd, [("wta", WTA_KENMERKEN)]) == "wta",
+        # Wat er dan wél in de tekst stond. Alleen gevuld als er geen match is,
+        # zodat de review-queue een aanknopingspunt heeft.
+        "kandidaten": [] if treffer else kantoorkandidaten(tekst)[:5],
         "reden": None if treffer else "kantoornaam niet gevonden in de tekst",
     }

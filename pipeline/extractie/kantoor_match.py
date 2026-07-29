@@ -1,15 +1,26 @@
 """Kantoornaam uit de tekst van een accountantsverklaring halen.
 
-Deterministisch, zonder LLM: de AFM-lijst (pipeline/seed/kantoren.csv) is een
-gesloten verzameling van ~233 vergunninghouders, dus we zoeken die namen op in de
-tekst in plaats van een naam te "raden".
+Deterministisch, zonder LLM: we zoeken namen uit een lijst op in de tekst in plaats
+van een naam te "raden". Die lijst bestaat uit twee delen:
+
+- `seed/kantoren.csv` — de ~233 Wta-vergunninghouders uit het AFM-register. Bij een
+  **wettelijke** controle kan het kantoor niets anders zijn dan een van deze.
+- `seed/kantoren_overig.csv` — kantoren **zonder** Wta-vergunning die wél
+  controleverklaringen tekenen. Dat mag: zonder wettelijke controleplicht is er geen
+  vergunning nodig. In de goededoelensector doet bijna een derde van de verklaringen
+  dat (zie `docs/bronverkenning-stichtingen.md`). Zonder dit tweede deel mist
+  WhoSigns die opdrachten volledig.
+
+Elk kantoor in de index heeft daarom `wta_vergunning`: True/False. De aanroeper
+gebruikt dat om het opdrachttype te bepalen — een vrijwillige controle is een ander
+product dan een wettelijke en mag niet in dezelfde marktaandelen belanden.
 
 Werkwijze:
 1. Normaliseer tekst en kantoornamen (kleine letters, leestekens weg, spaties samen).
 2. Bouw per kantoor zoeksleutels: de volledige naam en de kernnaam zonder rechtsvorm
    ("Deloitte Accountants B.V." -> "deloitte accountants").
-3. Zoek alle sleutels in de tekst; de langste match wint (zo verslaat
-   "van ree accountants" een losse match op "accountants").
+3. Zoek alle sleutels als héle woorden in de tekst; de langste match wint (zo
+   verslaat "van ree accountants" een losse match op "accountants").
 
 Geen match, of een match die te kort/te generiek is -> None, zodat de aanroeper het
 geval in de review_queue kan zetten. Nooit stil gokken.
@@ -24,6 +35,7 @@ import unicodedata
 from pathlib import Path
 
 SEED_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren.csv"
+OVERIG_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren_overig.csv"
 ALIAS_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoor_alias.csv"
 
 # Rechtsvormen en ruis die we van namen afhalen om de kernnaam te krijgen.
@@ -61,8 +73,32 @@ def kernnaam(naam: str) -> str:
 
 
 def laad_kantoren(pad: Path = SEED_PAD) -> list[dict]:
+    """De AFM-vergunninghouders. `sleutel` = AFM-nummer, `wta_vergunning` = True."""
     with pad.open(encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        kantoren = list(csv.DictReader(f))
+    for kantoor in kantoren:
+        kantoor["sleutel"] = kantoor["afm_nummer"]
+        kantoor["wta_vergunning"] = True
+    return kantoren
+
+
+def laad_overige_kantoren(pad: Path = OVERIG_PAD) -> list[dict]:
+    """Kantoren zónder Wta-vergunning die controleverklaringen tekenen.
+
+    Bijgehouden met bewijs: elke rij noemt bij welke organisatie en welk boekjaar de
+    naam is aangetroffen (`gevonden_bij`). Opgebouwd met
+    `verken_stichtingen.py oogst`, altijd met de hand nagekeken — een naam die uit
+    een pdf komt rollen is een kandidaat, geen kantoor.
+    """
+    if not pad.exists():
+        return []
+    with pad.open(encoding="utf-8") as f:
+        kantoren = list(csv.DictReader(f))
+    for kantoor in kantoren:
+        kantoor["afm_nummer"] = None
+        kantoor["wta_vergunning"] = False
+        kantoor.setdefault("oob_vergunning", "nee")
+    return kantoren
 
 
 def laad_aliassen(pad: Path = ALIAS_PAD) -> list[dict]:
@@ -73,24 +109,48 @@ def laad_aliassen(pad: Path = ALIAS_PAD) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def _rangschik(kantoor: dict) -> tuple:
+    """Sorteervoorkeur bij een botsende zoeksleutel: vergunninghouder eerst."""
+    return (not kantoor["wta_vergunning"], kantoor.get("sleutel") or "zzz")
+
+
+def _alias_varianten(kantoor: dict) -> list[str]:
+    """Schrijfwijzen uit de kolom `alias` (puntkomma's ertussen), indien aanwezig."""
+    return [deel.strip() for deel in (kantoor.get("alias") or "").split(";") if deel.strip()]
+
+
 def bouw_index(
-    kantoren: list[dict], aliassen: list[dict] | None = None
+    kantoren: list[dict],
+    aliassen: list[dict] | None = None,
+    overige: list[dict] | None = None,
 ) -> dict[str, dict]:
-    """Zoeksleutel -> kantoor. Langere sleutels winnen bij het matchen."""
+    """Zoeksleutel -> kantoor. Langere sleutels winnen bij het matchen.
+
+    `overige` zijn de kantoren zonder Wta-vergunning; laat het weg om alleen op het
+    AFM-register te matchen (bijvoorbeeld bij een bron waar per definitie een
+    wettelijke controle ligt). `None` betekent: lees `seed/kantoren_overig.csv`.
+    """
     index: dict[str, dict] = {}
 
     def voeg_toe(sleutel: str, kantoor: dict) -> None:
         if len(sleutel) < MIN_SLEUTELLENGTE or sleutel in TE_GENERIEK:
             return
-        # Bij een botsing wint het kantoor met het laagste AFM-nummer (oudste
-        # vergunning); botsingen zijn zeldzaam en horen in de review-queue thuis.
+        # Bij een botsing wint de vergunninghouder, en daarbinnen het laagste
+        # AFM-nummer (oudste vergunning). Botsingen zijn zeldzaam en horen in de
+        # review-queue thuis; een kantoor zonder vergunning mag er nooit een mét
+        # vergunning verdringen.
         bestaand = index.get(sleutel)
-        if bestaand is None or kantoor["afm_nummer"] < bestaand["afm_nummer"]:
+        if bestaand is None or _rangschik(kantoor) < _rangschik(bestaand):
             index[sleutel] = kantoor
 
-    for kantoor in kantoren:
-        for sleutel in {normaliseer(kantoor["naam"]), kernnaam(kantoor["naam"])}:
-            voeg_toe(sleutel, kantoor)
+    alle = list(kantoren) + (
+        laad_overige_kantoren() if overige is None else list(overige)
+    )
+    for kantoor in alle:
+        namen = {kantoor["naam"], *_alias_varianten(kantoor)}
+        for naam in namen:
+            for sleutel in {normaliseer(naam), kernnaam(naam)}:
+                voeg_toe(sleutel, kantoor)
 
     op_nummer = {k["afm_nummer"]: k for k in kantoren}
     for rij in laad_aliassen() if aliassen is None else aliassen:

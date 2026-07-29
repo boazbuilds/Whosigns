@@ -13,6 +13,8 @@ pipeline/
                        ⬜ dataset-gedreven bulk-run (Fase 1, zie digimv.md)
     cbf.py             ✅ register-API erkende goede doelen + jaarverslag-pdf's
     anbi.py            ✅ ANBI-bestand Belastingdienst als populatielijst
+    anbi_publicatie.py ✅ terugval: jaarstuk op de eigen site van een stichting
+    stichtingen.py     ✅ goed doel → opdracht (cbf + terugval + kantoor_match)
     transparantie.py   ⬜ Fase 3: OOB-cliëntlijsten
     duo.py             ⬜ Fase 4: onderwijs
     tenderned.py       ⬜ Fase 4: aanbestedingen accountantsdiensten
@@ -20,11 +22,14 @@ pipeline/
     kantoor_match.py   ✅ kantoornaam herkennen via AFM-lijst + aliassen
     verklaring.py      ✅ pdf → soort verklaring, oordeel, continuïteit, kantoor
   seed/
-    kantoren.csv       ✅ 233 vergunninghouders (6 met OOB-vergunning)
+    kantoren.csv       ✅ 233 Wta-vergunninghouders (6 met OOB-vergunning)
+    kantoren_overig.csv ✅ kantoren zónder Wta-vergunning die controleverklaringen
+                          tekenen bij organisaties zonder controleplicht
     kantoor_alias.csv  ✅ handelsnamen en oude namen na fusie/rebranding
   supabase_client.py   ✅ PostgREST-client (upsert, upsert_met_id, invoegen, selecteer)
-  laad_kantoren.py     ✅ kantoren + aliassen → Supabase
+  laad_kantoren.py     ✅ beide kantorenlijsten + aliassen → Supabase
   laad_proefdata.py    ✅ 13 bekende ziekenhuizen → Supabase (proefdata voor Fase 2)
+  laad_stichtingen.py  ✅ CBF-erkende goede doelen → Supabase (workflow "Stichtingendata")
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking + extractie)
   signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
