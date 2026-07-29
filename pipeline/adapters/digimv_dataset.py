@@ -47,18 +47,100 @@ DATASET_URL = {
     ),
 }
 
-# Kolomposities in RowData_01 (boekjaar 2023). Veldnamen wisselen per jaargang;
+# Kolomposities per sheet (boekjaar 2023). Veldnamen wisselen per jaargang;
 # controleer ze bij een nieuwe jaargang met `kolomkoppen()`.
+#
+# `Code` is de sleutel die de sheets aan elkaar knoopt. De vragenlijst is over
+# meerdere RowData-sheets uitgesmeerd omdat een sheet maximaal 256 kolommen heeft.
 KOLOM = {
     2023: {
-        "code": 0,
-        "kvk": 2,          # ExternalOrganizationId
-        "kvk_reserve": 21,  # qNawKvk
-        "naam": 23,        # qNawNaam
-        "naam_reserve": 22,  # qNawNaamLrza
-        "plaats": 28,      # qNawPlaatsLrza
+        "RowData_01": {
+            "code": 0,
+            "kvk": 2,            # ExternalOrganizationId
+            "kvk_reserve": 21,   # qNawKvk
+            "naam": 23,          # qNawNaam
+            "naam_reserve": 22,  # qNawNaamLrza
+            "plaats": 28,        # qNawPlaatsLrza
+            # qAGBzorgsoortOrg_1 t/m _101; we nemen de eerste die gevuld is.
+            "zorgsoort_eerste": 34,
+            "zorgsoort_laatste": 234,
+            "zorgsoort_stap": 2,
+        },
+        "RowData_09": {"rechtsvorm": 224},          # qRechtsvormKvk
+        "RowData_11": {"omzet": 25},                # qBatenZorg_0
+        "RowData_13": {                             # honoraria, art. 2:382a BW
+            "honorarium_controle": 12,              # acc_jr_contr_..._0
+            "honorarium_overig": 14,                # acc_ov_contr_..._0
+            "honorarium_fiscaal": 16,               # acc_fisc_adv_..._0
+            "honorarium_nietcontrole": 18,          # acc_niet_contr_..._0
+        },
+        "RowData_15": {"wisselvlag": 132},          # qAccountantWissel_qAccVerklVorm
     },
 }
+
+# De dataset kent 61 AGB-zorgsoorten. Te fijnmazig om op te navigeren (en de staart
+# is lang: 30 waarden komen minder dan 20 keer voor), dus teruggebracht tot negen
+# groepen. Bewust een expliciete tabel en geen trefwoordregels: dit is data die op
+# de site komt, dus het moet na te lopen zijn wat waar landt.
+#
+# Wat hier niet in staat, krijgt geen subsector — niet "Overig". Liever leeg dan
+# een verzamelbak die suggereert dat we het weten.
+SUBSECTOR: dict[str, str] = {}
+
+
+def _groep(naam: str, soorten: list[str]) -> None:
+    for soort in soorten:
+        SUBSECTOR[soort] = naam
+
+
+_groep("Ziekenhuizen en klinieken", [
+    "Ziekenhuizen", "Zelfstandige Behandelcentra", "Medisch Specialisten",
+    "Radiotherapeutische Centra", "Dialyse Centra", "Klinisch-Genetische Centra",
+    "Audiologische Centra", "Instellingen voor Revalidatiedagbehandeling",
+    "Overige Artsen",
+])
+_groep("Ouderenzorg", [
+    "WLZ Gecombineerd", "Verzorgingshuizen", "Gecombineerde Verpleeginrichtingen",
+    "Koepels en Beheerstichtingen WLZ", "Instellingen voor Dagverpleging voor Ouderen",
+    "Beheerstichtingen Verzorgingstehuizen",
+    "Verpleeginrichtingen voor Somatische Ziekten",
+    "Verpleeginrichtingen voor Psycho-Geriatrische Patienten",
+])
+_groep("Thuiszorg en wijkverpleging", [
+    "Thuiszorginstellingen", "Kraamzorg",
+    "ZZP-ers in wijkverpleging/ PGB aanbieders / Beheerstichtingen",
+])
+_groep("Geestelijke gezondheidszorg", [
+    "Psychologische Zorgverleners", "RIBW", "GGZ Instellingen (PUK/PAAZ)", "RIAGG",
+    "Instellingen voor Psychiatrische Deeltijdbehandeling",
+    "Consultatiebureaus voor Alcohol en Drugs",
+])
+_groep("Gehandicaptenzorg", [
+    "Instellingen voor Verstandelijk Gehandicapten", "Gezinsvervangende Tehuizen",
+    "Instellingen voor Auditief Gehandicapten", "Beheerstichtingen Dagverblijven",
+])
+_groep("Jeugd- en pedagogische zorg", [
+    "Sociaal Pedagogische Diensten", "Kinderdagverblijven",
+])
+_groep("Eerstelijns- en paramedische zorg", [
+    "Huisartsen", "Fysiotherapeuten", "Logopedisten", "Podotherapeuten",
+    "Verloskundigen", "Ergotherapeuten", "Dietisten", "Oefentherapeuten",
+    "Pedicuren", "Schoonheidspecialisten", "Gezondheidscentra", "Bedrijfsartsen",
+    "Dienstenstructuren (ANW-Diensten)",
+    "Overige therapeuten en Complementair en Aanvullende zorg",
+])
+_groep("Tandheelkundige zorg", [
+    "Tandartsen", "Tandheelkundige Centra", "Mondhygienisten",
+    "Tandtechnici / Tandprothetici",
+    "Tandarts - Specialisten (Dento-Maxillaire Orthopedie)",
+    "Tandarts - Specialisten (Mondziekten en Kaakchirurgie)",
+])
+_groep("Publieke en ondersteunende zorg", [
+    "GGD", "Ambulancediensten", "Trombosediensten", "Leveranciers Hulpmiddelen",
+    "Laboratoria(Huisartsenlab./Gemeensch.Lab/Gemeensch Apoth+Lab",
+    "Declaranten/Servicebureaus/Zorgverzekeraars", "Rechtspersonen",
+    "Diverse Samenwerkingsverbanden", "Overige Instellingen",
+])
 
 # In RowData_19 staan de verklaringen in blokken van zeven kolommen; de vierde
 # kolom van elk blok is de soort. Het aantal blokken varieert per organisatie.
@@ -133,52 +215,109 @@ def kolomkoppen(ods_pad: Path) -> dict[str, list[str]]:
     return koppen
 
 
-def doelpopulatie(ods_pad: Path, boekjaar: int) -> list[dict]:
-    """Organisaties met minstens één controleverklaring: KvK, naam, plaats.
+def _bedrag(waarde: str) -> str:
+    """Bedragen: alleen echte getallen, en 0 telt als 'niet opgegeven'.
 
-    Eén doorloop over het bestand; RowData_01 levert de identificatie,
-    RowData_19 de soorten verklaring. `Code` koppelt de twee.
+    De bron zet bij een groot deel van de organisaties nullen in de
+    honorariumvelden. Dat betekent niet dat er geen accountantskosten waren, maar
+    dat de vraag niet is ingevuld. Een nul opslaan zou een onwaarheid zijn.
+    """
+    schoon = waarde.replace(".", "").replace(",", ".").strip()
+    try:
+        getal = float(schoon)
+    except ValueError:
+        return ""
+    return "" if getal == 0 else f"{getal:.0f}"
+
+
+def doelpopulatie(ods_pad: Path, boekjaar: int) -> list[dict]:
+    """Organisaties met minstens één controleverklaring, plus de extra velden.
+
+    Eén doorloop over het bestand. `Code` koppelt de sheets aan elkaar:
+    RowData_01 identificatie + zorgsoort, _09 rechtsvorm, _11 omzet,
+    _13 honoraria, _15 wisselvlag, _19 de soorten verklaring.
+
+    Wat de bron niet levert blijft leeg — nooit geschat, nooit afgeleid.
     """
     if boekjaar not in KOLOM:
         raise ValueError(
             f"kolomposities voor boekjaar {boekjaar} onbekend — draai eerst "
             f"kolomkoppen() en vul KOLOM aan (veldnamen wisselen per jaargang)"
         )
-    kolom = KOLOM[boekjaar]
+    kolommen = KOLOM[boekjaar]
+    kolom = kolommen["RowData_01"]
     organisaties: dict[str, dict] = {}
+    extra: dict[str, dict] = {}
     met_controle: set[str] = set()
 
-    for sheet, rijnr, cellen in rijen(ods_pad, {"RowData_01", "RowData_19"}):
+    sheets = set(kolommen) | {"RowData_19"}
+    for sheet, rijnr, cellen in rijen(ods_pad, sheets):
         if rijnr == 1:
             continue
 
         def cel(index: int) -> str:
             return cellen[index].strip() if index < len(cellen) else ""
 
+        code = cel(0)
+
         if sheet == "RowData_01":
-            code = cel(kolom["code"])
+            zorgsoort = ""
+            for index in range(
+                kolom["zorgsoort_eerste"],
+                kolom["zorgsoort_laatste"] + 1,
+                kolom["zorgsoort_stap"],
+            ):
+                if cel(index):
+                    zorgsoort = cel(index)
+                    break
             organisaties[code] = {
                 "kvk_nummer": cel(kolom["kvk"]) or cel(kolom["kvk_reserve"]),
                 "naam": cel(kolom["naam"]) or cel(kolom["naam_reserve"]),
                 "plaats": cel(kolom["plaats"]),
+                "subsector": SUBSECTOR.get(zorgsoort, ""),
             }
-        else:
+        elif sheet == "RowData_19":
             for blok in range(MAX_VERKLARINGEN):
                 if cel(SOORT_EERSTE_KOLOM + SOORT_STAP * blok) == "controleverklaring":
-                    met_controle.add(cel(0))
+                    met_controle.add(code)
                     break
+        else:
+            velden = extra.setdefault(code, {})
+            for naam, index in kolommen[sheet].items():
+                if naam == "wisselvlag":
+                    waarde = cel(index).lower()
+                    if waarde in ("ja", "nee"):
+                        velden["wissel_gerapporteerd"] = waarde == "ja"
+                elif naam == "rechtsvorm":
+                    if cel(index):
+                        velden["rechtsvorm"] = cel(index)
+                else:
+                    bedrag = _bedrag(cel(index))
+                    if bedrag:
+                        velden[naam] = bedrag
 
     uit = []
     for code in met_controle:
         org = organisaties.get(code)
         if org and org["kvk_nummer"] and org["naam"]:
-            uit.append({**org, "boekjaar": boekjaar})
+            uit.append({**org, **extra.get(code, {}), "boekjaar": boekjaar})
     return sorted(uit, key=lambda o: o["naam"])
+
+
+# Kolommen van de doelpopulatie-csv. Vast in deze volgorde, zodat een oud
+# cachebestand herkenbaar is aan de kop.
+CSV_VELDEN = [
+    "kvk_nummer", "naam", "plaats", "boekjaar", "subsector", "rechtsvorm",
+    "omzet", "wissel_gerapporteerd", "honorarium_controle", "honorarium_overig",
+    "honorarium_fiscaal", "honorarium_nietcontrole",
+]
 
 
 def schrijf_csv(organisaties: list[dict], pad: Path) -> None:
     with pad.open("w", newline="", encoding="utf-8") as f:
-        schrijver = csv.DictWriter(f, fieldnames=["kvk_nummer", "naam", "plaats", "boekjaar"])
+        schrijver = csv.DictWriter(
+            f, fieldnames=CSV_VELDEN, extrasaction="ignore", restval=""
+        )
         schrijver.writeheader()
         schrijver.writerows(organisaties)
 

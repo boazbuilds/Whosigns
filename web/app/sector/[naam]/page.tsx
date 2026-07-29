@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { marktaandeel, organisatiesInSector, wisselingen } from "@/lib/db";
-import { kantoorPad, organisatiePad } from "@/lib/paden";
+import {
+  marktaandeel,
+  organisatiesInSector,
+  subsectoren,
+  wisselingen,
+} from "@/lib/db";
+import { kantoorPad, organisatiePad, subsectorPad } from "@/lib/paden";
 import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ naam: string }> };
@@ -46,6 +51,7 @@ export default async function Sectorpagina({ params }: Params) {
   const sectorWisselingen = (await wisselingen({ limiet: 100 })).filter((w) =>
     organisaties.some((o) => o.id === w.organisatie_id),
   );
+  const subsectorlijst = await subsectoren().catch(() => []);
 
   // Kruistabel: kantoren als rijen, boekjaren als kolommen. Zo zie je in één
   // oogopslag wie er over de jaren wint en wie krimpt.
@@ -123,6 +129,32 @@ export default async function Sectorpagina({ params }: Params) {
         )}
       </section>
 
+      {subsectorlijst.length > 0 ? (
+        <section className="kaart">
+          <h2>Subsectoren</h2>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Subsector</th>
+                  <th className="getal">Organisaties</th>
+                </tr>
+              </thead>
+              <tbody>
+                {subsectorlijst.map((rij) => (
+                  <tr key={rij.naam}>
+                    <td>
+                      <Link href={subsectorPad(rij.naam)}>{rij.naam}</Link>
+                    </td>
+                    <td className="getal">{rij.aantal}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ) : null}
+
       <div className="kolommen">
         <section className="kaart">
           <h2>Wisselingen in deze sector</h2>
@@ -173,6 +205,11 @@ export default async function Sectorpagina({ params }: Params) {
 
       <Doorklik
         items={[
+          ...subsectorlijst.slice(0, 3).map((rij) => ({
+            naar: subsectorPad(rij.naam),
+            tekst: rij.naam,
+            toelichting: `${rij.aantal} organisaties`,
+          })),
           ...kantoorrijen.slice(0, 3).map(([id, rij]) => ({
             naar: kantoorPad({ afm_nummer: rij.afm, naam: rij.naam }),
             tekst: rij.naam,
