@@ -19,6 +19,7 @@ Opties:
     --droogloop     niets naar de database schrijven; alleen een CSV-rapport.
                     Werkt zonder Supabase-sleutels.
     --kantoor TEKST toon aan het eind alleen de cliënten van dit kantoor
+    --werkers N     hoeveel organisaties tegelijk ophalen (standaard 4)
 
 Hervatten is veilig: organisatie-boekjaren die al een opdracht in de database
 hebben, worden overgeslagen. Wat niets opleverde (geen deponering, gescande pdf)
@@ -36,6 +37,7 @@ import csv
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -115,6 +117,7 @@ def main() -> int:
     parser.add_argument("--aantal", type=int, default=0)
     parser.add_argument("--droogloop", action="store_true")
     parser.add_argument("--kantoor", default="")
+    parser.add_argument("--werkers", type=int, default=4)
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
 
@@ -178,65 +181,74 @@ def main() -> int:
     per_kantoor: dict[str, int] = {}
     begin = time.time()
 
-    for teller, organisatie in enumerate(werklijst, start=1):
-        kvk = organisatie["kvk_nummer"]
-        if kvk in al_geladen:
-            continue
-        if teller % 25 == 0:
-            verstreken = time.time() - begin
-            print(
-                f"--- {teller}/{len(werklijst)} | {gevonden} gevonden | "
-                f"{mislukt} zonder kantoor | {verstreken/60:.1f} min ---",
-                flush=True,
-            )
+    te_doen = [o for o in werklijst if o["kvk_nummer"] not in al_geladen]
 
+    def haal_op(organisatie: dict):
+        """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel."""
         try:
-            resultaat = zoek_met_terugval(organisatie, boekjaar, kantoor_index)
+            return organisatie, zoek_met_terugval(organisatie, boekjaar, kantoor_index)
         except Exception as fout:  # noqa: BLE001 — bron mag falen, run gaat door
             print(f"  {organisatie['naam'][:50]}: fout {fout}", flush=True)
-            mislukt += 1
-            continue
+            return organisatie, None
 
-        if not resultaat:
-            mislukt += 1
-            continue
+    # Ophalen gebeurt parallel, wegschrijven blijft in deze ene draad: dat scheelt
+    # sloten rond de csv en de database, en schrijven is toch niet de bottleneck.
+    # De pauze per download (digimv_archief.PAUZE_SECONDEN) blijft per werker
+    # gelden, dus meer werkers verhogen het tempo maar niet grenzeloos — met vier
+    # werkers blijft het verzoektempo in de orde van een paar per seconde.
+    with ThreadPoolExecutor(max_workers=argumenten.werkers) as pool:
+        for teller, (organisatie, resultaat) in enumerate(
+            pool.map(haal_op, te_doen), start=1
+        ):
+            if teller % 25 == 0:
+                verstreken = time.time() - begin
+                print(
+                    f"--- {teller}/{len(te_doen)} | {gevonden} gevonden | "
+                    f"{mislukt} zonder kantoor | {verstreken/60:.1f} min ---",
+                    flush=True,
+                )
 
-        kantoor = resultaat["kantoor"]
-        gevonden += 1
-        per_kantoor[kantoor["naam"]] = per_kantoor.get(kantoor["naam"], 0) + 1
-        schrijver.writerow([
-            kvk, resultaat["naam"], resultaat["plaats"], boekjaar,
-            kantoor["naam"], kantoor["afm_nummer"], resultaat["oordeel"],
-        ])
-        rapport.flush()
-
-        if db is not None:
-            kantoor_id = kantoor_id_per_nummer.get(kantoor["afm_nummer"])
-            if kantoor_id is None:
+            if not resultaat:
+                mislukt += 1
                 continue
-            org_rij = db.upsert_met_id(
-                "organisaties",
-                {
-                    "kvk_nummer": kvk,
-                    "naam": resultaat["naam"],
-                    "sector": "zorg",
-                    "gemeente": resultaat["plaats"],
-                },
-                "kvk_nummer",
-            )
-            db.upsert_met_id(
-                "opdrachten",
-                {
-                    "organisatie_id": org_rij["id"],
-                    "kantoor_id": kantoor_id,
-                    "boekjaar": boekjaar,
-                    "type_opdracht": "wettelijke_controle",
-                    "oordeel": resultaat["oordeel"],
-                    "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
-                    "bron_id": bron_id,
-                },
-                "organisatie_id,boekjaar,type_opdracht",
-            )
+
+            kvk = organisatie["kvk_nummer"]
+            kantoor = resultaat["kantoor"]
+            gevonden += 1
+            per_kantoor[kantoor["naam"]] = per_kantoor.get(kantoor["naam"], 0) + 1
+            schrijver.writerow([
+                kvk, resultaat["naam"], resultaat["plaats"], boekjaar,
+                kantoor["naam"], kantoor["afm_nummer"], resultaat["oordeel"],
+            ])
+            rapport.flush()
+
+            if db is not None:
+                kantoor_id = kantoor_id_per_nummer.get(kantoor["afm_nummer"])
+                if kantoor_id is None:
+                    continue
+                org_rij = db.upsert_met_id(
+                    "organisaties",
+                    {
+                        "kvk_nummer": kvk,
+                        "naam": resultaat["naam"],
+                        "sector": "zorg",
+                        "gemeente": resultaat["plaats"],
+                    },
+                    "kvk_nummer",
+                )
+                db.upsert_met_id(
+                    "opdrachten",
+                    {
+                        "organisatie_id": org_rij["id"],
+                        "kantoor_id": kantoor_id,
+                        "boekjaar": boekjaar,
+                        "type_opdracht": "wettelijke_controle",
+                        "oordeel": resultaat["oordeel"],
+                        "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
+                        "bron_id": bron_id,
+                    },
+                    "organisatie_id,boekjaar,type_opdracht",
+                )
 
     rapport.close()
     print(f"\n=== boekjaar {boekjaar}: {gevonden} opdrachten, "
