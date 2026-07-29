@@ -83,6 +83,17 @@ jobs:
             rm -f pipeline/.cache/*.pdf
           done
 
+      # De lader slaat organisatie-boekjaren over die al een opdracht hebben — goed
+      # voor hervatten, maar daardoor raken nieuwe kolommen nooit gevuld zodra een
+      # boekjaar eenmaal geladen is. Deze stap vult ze bij vanuit de dataset. Er
+      # komt geen archief aan te pas, dus het kost seconden.
+      - name: Extra velden bijvullen
+        if: always()
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 pipeline/vul_extra_velden.py --boekjaar "${{ inputs.lijst_uit }}"
+
       - name: Rapporten bewaren
         if: always()
         uses: actions/upload-artifact@v4
