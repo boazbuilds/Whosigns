@@ -48,23 +48,34 @@ De pipeline moet gegevens kunnen wegschrijven. Dat doet hij vanuit GitHub, met
 sleutels die als *secret* zijn opgeslagen — zo staan ze nergens in de code en hoeft
 niemand ze door te sturen.
 
-In Supabase: **Project Settings → API**. Je hebt twee waarden nodig:
+In Supabase: zoekbalk → **API Keys**. Sinds medio 2026 heten de sleutels daar anders
+dan vroeger, maar het principe is hetzelfde:
 
-- **Project URL** — ziet eruit als `https://xxxx.supabase.co`
-- **service_role key** — de lange geheime sleutel (níét de anon key)
+| Nieuwe naam (huidig scherm) | Oude naam ("Legacy" tabblad) | Wat het is |
+|---|---|---|
+| Publishable key | anon key | mag openbaar, komt later in Vercel voor de website |
+| **Secret key** | **service_role key** | **geheim — deze heb je nu nodig** |
+
+Je hebt twee waarden nodig:
+
+- **Project URL** — staat bovenaan de project-Overview (huisje-icoon), ziet eruit
+  als `https://xxxx.supabase.co`
+- **Secret key** — bij API Keys → sectie "Secret keys" → oog-icoontje om te tonen →
+  kopieer-icoontje
 
 In GitHub: ga naar de repo → **Settings → Secrets and variables → Actions →
-New repository secret**, en maak er twee aan:
+New repository secret**, en maak er twee aan (de namen hieronder zijn wat onze
+code verwacht — die blijven zo, ook al noemt Supabase het zelf anders):
 
 | Name | Secret |
 |---|---|
 | `SUPABASE_URL` | de Project URL |
-| `SUPABASE_SERVICE_ROLE_KEY` | de service_role key |
+| `SUPABASE_SERVICE_ROLE_KEY` | de Secret key |
 
-> De **service_role key** omzeilt alle beveiliging en hoort alleen in GitHub
-> Secrets — nooit in de repo, een chat of de website.
-> De **anon key** is juist bedoeld om openbaar te zijn; die komt later in Vercel te
-> staan voor de website.
+> De **Secret / service_role key** omzeilt alle beveiliging en hoort alleen in
+> GitHub Secrets — nooit in de repo, een chat of de website.
+> De **Publishable / anon key** is juist bedoeld om openbaar te zijn; die komt
+> later in Vercel te staan voor de website.
 
 ## Stap 4 — Controleren of het werkt
 
