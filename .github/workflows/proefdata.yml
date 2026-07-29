@@ -1,0 +1,28 @@
+name: Proefdata laden
+
+# Handmatig, eenmalig te draaien: laadt een klein, herkenbaar rijtje
+# zorginstellingen (zie pipeline/laad_proefdata.py) zodat er iets echts te
+# bekijken is zodra de website er is. Losse workflow, niet de wekelijkse
+# Pipeline — dit is geen terugkerende taak.
+on:
+  workflow_dispatch:
+
+jobs:
+  laden:
+    name: Ziekenhuizen laden
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: poppler-utils installeren (voor pdftotext)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Proefdata laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 pipeline/laad_proefdata.py

@@ -78,6 +78,18 @@ class Supabase:
         )
         return antwoord[0]
 
+    def upsert_met_id(self, tabel: str, rij: dict, conflict_kolom: str) -> dict:
+        """Upsert van één rij, geeft de rij terug inclusief id — nodig om er
+        meteen een andere tabel aan te kunnen koppelen (bijv. organisatie_id op
+        een opdracht)."""
+        antwoord = self._verzoek(
+            "POST",
+            f"{tabel}?on_conflict={urllib.parse.quote(conflict_kolom)}",
+            [rij],
+            {"Prefer": "resolution=merge-duplicates,return=representation"},
+        )
+        return antwoord[0]
+
     def selecteer(self, tabel: str, query: str = "select=*") -> list:
         return self._verzoek("GET", f"{tabel}?{query}")
 

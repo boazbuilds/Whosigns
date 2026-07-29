@@ -88,9 +88,15 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
       de RowData-sheets) is de officiële, complete lijst van 6.132 organisaties —
       geen letter-enumeratie in het archief nodig, wél per organisatie gericht
       zoeken op naam+plaats met KvK-nummer als controle (zie `digimv.md`)
-- [ ] Adapter `pipeline/adapters/digimv.py` bouwen: dataset parsen → per org
-      archiefzoekopdracht → verklaring ophalen en analyseren → naar Supabase;
-      pdf's ruw opslaan vóór verwerking
+- [x] Adapter `pipeline/adapters/digimv.py` gebouwd (archiefzoekopdracht →
+      verklaring ophalen en analyseren → structuur klaar voor Supabase) en
+      **end-to-end bewezen**: `pipeline/laad_proefdata.py` laadt 13 bekende
+      ziekenhuizen (13/13 gematcht, incl. één oordeel met beperking) — eigen
+      workflow `proefdata.yml`, vooruitlopend op de volledige bulk-run
+- [ ] Bulk-run over de volledige 6.132-organisatielijst (dataset-gedreven,
+      i.p.v. de handmatige proefdata-lijst)
+- [ ] Ruwe pdf's in Supabase Storage opslaan vóór verwerking (principe 1) —
+      in de proefdata-run nog alleen lokaal gecachet, niet in Storage
 - [ ] Restgevallen (gescande pdf's, kantoornaam alleen in logo) naar `review_queue`
 - [ ] **Mijlpaal A: eerste 1.000 organisaties** in de database — de klik-test-dataset
 - [ ] **Mijlpaal B: volledige zorgsector** voor de jaren waar de bron het toelaat

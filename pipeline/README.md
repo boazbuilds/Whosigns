@@ -1,16 +1,16 @@
 # Pipeline
 
 Python-scripts die openbare bronnen ophalen en naar het kernmodel in Supabase schrijven.
-Nog geen code — de eerste adapter komt in Fase 1 (zie `../ROADMAP.md`).
 
-## Geplande structuur
+## Structuur
 
 ```
 pipeline/
   adapters/
     afm_register.py    ✅ AFM-kantorenregister → seed/kantoren.csv
     digimv_archief.py  ✅ client voor de archief-API (zoeken + document ophalen)
-    digimv.py          ⬜ Fase 1: zorgdataset (.ods) → kernmodel
+    digimv.py          ✅ organisatie → opdracht (archief + kantoor_match + verklaring)
+                       ⬜ dataset-gedreven bulk-run (Fase 1, zie digimv.md)
     transparantie.py   ⬜ Fase 3: OOB-cliëntlijsten
     duo.py             ⬜ Fase 4: onderwijs
     tenderned.py       ⬜ Fase 4: aanbestedingen accountantsdiensten
@@ -20,6 +20,9 @@ pipeline/
   seed/
     kantoren.csv       ✅ 233 vergunninghouders (6 met OOB-vergunning)
     kantoor_alias.csv  ✅ handelsnamen en oude namen na fusie/rebranding
+  supabase_client.py   ✅ PostgREST-client (upsert, upsert_met_id, invoegen, selecteer)
+  laad_kantoren.py     ✅ kantoren + aliassen → Supabase
+  laad_proefdata.py    ✅ 13 bekende ziekenhuizen → Supabase (proefdata voor Fase 2)
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie
   signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
