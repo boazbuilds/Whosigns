@@ -6,6 +6,11 @@ name: Zorgdata laden
 # ±1.010 van de 6.131 in boekjaar 2023), waarna alleen voor díé organisaties het
 # archief wordt geraadpleegd. Zie pipeline/adapters/digimv.md.
 #
+# Standaard alle zeven boekjaren die het archief aanhoudt (2019 t/m 2025; ouder
+# geeft HTTP 500). Ook 2025, waarvoor nog geen dataset is gepubliceerd: dankzij
+# lijst_uit hebben we die niet nodig — het archief is per jaar op KvK-nummer te
+# bevragen en dat nummer verandert niet.
+#
 # Hervatten is veilig: organisatie-boekjaren die al een opdracht hebben, worden
 # overgeslagen. Loopt een run tegen de tijdslimiet aan, start dan een volgende
 # met dezelfde invoer — of knip hem op met "vanaf" en "aantal".
@@ -15,7 +20,7 @@ on:
       boekjaren:
         description: "Boekjaren, nieuwste eerst, komma's ertussen"
         required: true
-        default: "2024,2023,2022,2021,2020,2019"
+        default: "2025,2024,2023,2022,2021,2020,2019"
       lijst_uit:
         description: "Boekjaar waar de organisatielijst uit komt (2023 is uitgezocht)"
         required: true

@@ -79,7 +79,10 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
 - [x] Kolominspectie boekjaar 2023 → `pipeline/adapters/digimv.md`
 - [ ] Kolominspectie overige jaargangen (2019–2022, 2024) — veldnamen verschillen per
       jaar; download-adressen staan in `digimv.md`, `KOLOM` in `digimv_dataset.py`
-      aanvullen. Boekjaar 2025 heeft nog geen gepubliceerde dataset
+      aanvullen. Boekjaar 2025 heeft nog geen gepubliceerde dataset.
+      **Niet blokkerend:** met `--lijst-uit 2023` laadt de bulk-lader álle boekjaren
+      2019–2025 op de lijst van 2023. Deze taak gaat alleen nog over de organisaties
+      die in 2023 géén controle hadden maar in een ander jaar wél
 - [ ] Datasets ruw opslaan in Supabase Storage (bron bewaren vóór verwerking) —
       zie ook beslissing #8 hieronder over pdf's
 - [x] **Doelpopulatie-filter gevonden — dit halveert Fase 1 meer dan eens.**
