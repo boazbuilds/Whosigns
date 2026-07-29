@@ -204,9 +204,6 @@ export default async function Kantoorpagina({ params }: Params) {
             </table>
           </div>
         )}
-        <p className="klein zacht" style={{ marginBottom: 0 }}>
-          Alleen opdrachten die in de database staan — nog niet de volledige markt.
-        </p>
       </section>
 
       <Doorklik
@@ -223,7 +220,6 @@ export default async function Kantoorpagina({ params }: Params) {
           })),
           { naar: sectorPad("zorg"), tekst: "Marktaandelen in de zorg" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/bron", tekst: "Waar komt deze data vandaan?" },
         ]}
       />
     </>

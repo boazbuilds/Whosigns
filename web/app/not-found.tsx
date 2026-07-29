@@ -18,8 +18,7 @@ export default async function NietGevonden() {
       <div className="paginakop">
         <h1>Deze pagina bestaat niet</h1>
         <p className="zacht" style={{ margin: "0.4rem 0 0", maxWidth: "42rem" }}>
-          Mogelijk staat deze organisatie of dit kantoor nog niet in de database. Dit is
-          een demo met een proefselectie zorginstellingen; de volledige zorgsector volgt.
+          Mogelijk staat deze organisatie of dit kantoor nog niet in de database.
         </p>
       </div>
 
@@ -33,7 +32,6 @@ export default async function NietGevonden() {
           })),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
           { naar: sectorPad("zorg"), tekst: "Sector zorg" },
-          { naar: "/bron", tekst: "Over de data" },
           { naar: "/", tekst: "Naar het overzicht" },
         ]}
       />

@@ -63,12 +63,7 @@ export default async function Zoekpagina({ searchParams }: Props) {
 
       {totaal === 0 ? (
         <section className="kaart">
-          <Leeg
-            tekst={
-              `Niets gevonden voor "${term}". De database bevat nu een proefselectie ` +
-              `zorginstellingen en alle bij de AFM geregistreerde accountantskantoren.`
-            }
-          />
+          <Leeg tekst={`Niets gevonden voor "${term}".`} />
         </section>
       ) : null}
 

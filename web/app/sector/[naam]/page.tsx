@@ -75,7 +75,6 @@ export default async function Sectorpagina({ params }: Params) {
       <div className="paginakop">
         <h1>Sector {sector}</h1>
         <p className="metaregel">
-          <span className="label label-demo">Demo · gedeeltelijke data</span>
           <span>{organisaties.length} organisaties</span>
           <span>{kantoorrijen.length} accountantskantoren</span>
           <span>{sectorWisselingen.length} wisselingen</span>
@@ -122,9 +121,6 @@ export default async function Sectorpagina({ params }: Params) {
             </table>
           </div>
         )}
-        <p className="klein zacht" style={{ marginBottom: 0 }}>
-          Aantal wettelijke controles binnen deze sector, voor zover in de database.
-        </p>
       </section>
 
       <div className="kolommen">
@@ -188,7 +184,7 @@ export default async function Sectorpagina({ params }: Params) {
             toelichting: org.gemeente ?? undefined,
           })),
           { naar: "/wisselingen", tekst: "Alle wisselingen, alle sectoren" },
-          { naar: "/bron", tekst: "Waar komt deze data vandaan?" },
+          { naar: "/", tekst: "Alle organisaties" },
         ]}
       />
     </>
