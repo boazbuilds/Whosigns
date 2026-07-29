@@ -34,19 +34,32 @@ CACHE = Path(__file__).resolve().parents[1] / ".cache"
 
 # Het archief houdt een voortschrijdend venster van zeven boekjaren aan
 # (huidig jaar min 1 t/m min 7); oudere jaren geven HTTP 500. Zie digimv.md.
+#
+# Nagemeten op 29-7-2026: boekjaar 2018 geeft HTTP 500 (weg), 2025 is er wél al —
+# 52 van de 55 organisaties met "ziekenhuis" in de naam hadden toen een verklaring
+# gedeponeerd. Deponeren moest vóór 1 juni 2026, dus 2025 is grotendeels compleet.
+# Beide grenzen elk jaar opnieuw controleren; ze schuiven mee.
 OUDSTE_BOEKJAAR = 2019
+NIEUWSTE_BOEKJAAR = 2025
 
 
 def verwerk_organisatie(
-    zoekterm: str, kvk_nummer: str, boekjaar: int, kantoor_index: dict
+    zoekterm: str,
+    kvk_nummer: str,
+    boekjaar: int,
+    kantoor_index: dict,
+    plaats: str = "",
 ) -> dict | None:
     """Zoekt de organisatie op KvK-nummer en analyseert haar controleverklaring.
 
-    `zoekterm` beperkt alleen de kandidatenlijst; `kvk_nummer` bepaalt welke
-    kandidaat we nemen. Zo blijft het werken als de bron de naam of plaats
-    tussen boekjaren anders schrijft.
+    `zoekterm` en `plaats` beperken alleen de kandidatenlijst; `kvk_nummer`
+    bepaalt welke kandidaat we nemen. Zo blijft het werken als de bron de naam of
+    plaats tussen boekjaren anders schrijft. Zoeken op alleen `plaats` is de
+    terugvaloptie als de naam in de bron te veel afwijkt.
     """
-    resultaten = digimv_archief.zoek(organisatie=zoekterm, boekjaar=boekjaar)
+    resultaten = digimv_archief.zoek(
+        organisatie=zoekterm, plaats=plaats, boekjaar=boekjaar
+    )
     treffers = [
         r for r in resultaten
         if (r.get("externalOrganizationId") or "").strip() == kvk_nummer
@@ -64,7 +77,8 @@ def verwerk_organisatie(
     CACHE.mkdir(exist_ok=True)
     laatste_reden = None
     # Meerdere kandidaat-documenten: een losse verklaring lukt meestal direct,
-    # een verzameldocument soms pas als de losse ontbreekt of onleesbaar is.
+    # een verzameldocument of de jaarrekening soms pas als de losse ontbreekt of
+    # onleesbaar is (zie digimv_archief.verklaringen voor de volgorde).
     for doc in documenten:
         pdf_pad = CACHE / f"{boekjaar}_{kvk_nummer}_{doc['id']}.pdf"
         if not pdf_pad.exists():
@@ -77,6 +91,16 @@ def verwerk_organisatie(
         resultaat = analyseer(pdf_naar_tekst(str(pdf_pad)), kantoor_index)
         if resultaat["soort"] != "controle":
             laatste_reden = f"geen controleverklaring ({resultaat['soort']})"
+            # Zegt het dáárvoor bedoelde document ondubbelzinnig dat het een
+            # samenstelling of beoordeling is, dan is dat het antwoord. Dan hoeven
+            # we de jaarrekening niet ook nog op te halen — die is vaak tientallen
+            # MB's en gaat over dezelfde opdracht. Alleen bij een onleesbare of
+            # nietszeggende pdf (soort None, bijv. een aanbiedingsbrief of een scan)
+            # heeft doorzoeken zin.
+            if resultaat["soort"] is not None and doc.get("type", "").startswith(
+                "Accountantsverklaring"
+            ):
+                break
             continue
         if not resultaat["kantoor"]:
             laatste_reden = resultaat["reden"]

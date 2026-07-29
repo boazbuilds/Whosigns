@@ -40,7 +40,6 @@ export default async function Wisselingenpagina() {
           historie — niet uit een aankondiging.
         </p>
         <p className="metaregel" style={{ marginTop: "0.7rem" }}>
-          <span className="label label-demo">Demo · gedeeltelijke data</span>
           <span>{rijen.length} wisselingen</span>
           <span>{jaren.length} boekjaren</span>
         </p>

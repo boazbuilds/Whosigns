@@ -25,13 +25,7 @@ export default async function Startpagina() {
       <>
         <div className="paginakop">
           <h1>Wie controleert wie?</h1>
-          <p className="zacht" style={{ margin: "0.4rem 0 0", maxWidth: "44rem" }}>
-            WhoSigns legt de assurance-markt vast als relatiegraaf: welke accountant
-            controleert welke organisatie, in welk boekjaar, en wanneer er is
-            gewisseld. Alles uit openbare bronnen, met de bron erbij.
-          </p>
-          <p className="metaregel" style={{ marginTop: "0.7rem" }}>
-            <span className="label label-demo">Demo · gedeeltelijke data</span>
+          <p className="metaregel" style={{ marginTop: "0.5rem" }}>
             <span>{organisaties.length} organisaties</span>
             <span>{aantalOpdrachten} opdrachten</span>
             <span>boekjaren 2019–{boekjaar}</span>
@@ -156,7 +150,6 @@ export default async function Startpagina() {
               tekst: rij.kantoor!.naam,
               toelichting: `${aantalControles(rij.aantal_controles)} in ${boekjaar}`,
             })),
-            { naar: "/bron", tekst: "Waar komt deze data vandaan?" },
           ]}
         />
       </>

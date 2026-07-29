@@ -167,9 +167,6 @@ export default async function Organisatiepagina({ params }: Params) {
             </table>
           </div>
         )}
-        <p className="klein zacht" style={{ marginBottom: 0 }}>
-          Wij leggen alleen het kantoor vast, nooit de naam van de tekenend accountant.
-        </p>
       </section>
 
       {reeksen.length > 1 ? (
@@ -234,7 +231,6 @@ export default async function Organisatiepagina({ params }: Params) {
               tekst: genoot.naam,
               toelichting: genoot.gemeente ?? undefined,
             })),
-          { naar: "/bron", tekst: "Hoe is dit vastgesteld?" },
         ]}
       />
     </>

@@ -42,30 +42,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="kop-menu" aria-label="Hoofdmenu">
               <Link href="/wisselingen">Wisselingen</Link>
               <Link href="/sector/zorg">Zorg</Link>
-              <Link href="/bron">Over de data</Link>
             </nav>
           </div>
         </header>
 
         <main className="omhulsel">{children}</main>
-
-        <footer className="voet">
-          <div className="omhulsel">
-            <p>
-              <strong>WhoSigns</strong> — de assurance-markt als relatiegraaf:
-              organisatie ↔ accountant ↔ opdracht ↔ jaar.
-            </p>
-            <p>
-              Bronnen: gedeponeerde jaarverantwoordingen (DigiMV /
-              Jaarverantwoording Zorg) en het vergunningenregister van de AFM.
-              Zie <Link href="/bron">Over de data</Link>.
-            </p>
-            <p>
-              Wij leggen uitsluitend <strong>accountantsorganisaties</strong> vast,
-              nooit namen van individuele accountants of andere natuurlijke personen.
-            </p>
-          </div>
-        </footer>
       </body>
     </html>
   );

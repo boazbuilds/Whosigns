@@ -137,17 +137,6 @@ main {
   padding-block: 1.5rem 3rem;
 }
 
-.voet {
-  border-top: 1px solid var(--lijn);
-  background: var(--wit);
-  color: var(--inkt-zacht);
-  font-size: 0.83rem;
-  padding-block: 1.25rem 2rem;
-}
-.voet p {
-  margin: 0.35rem 0;
-}
-
 /* ------------------------------------------------------------ bouwstenen */
 
 .kaart {
@@ -276,12 +265,6 @@ tr.wissel:hover td {
   background: #eef7f3;
   color: var(--accent);
 }
-.label-demo {
-  border-color: #d6cdb0;
-  background: #fbf7e8;
-  color: #7a6410;
-}
-
 .zacht {
   color: var(--inkt-zacht);
 }

@@ -219,6 +219,71 @@ Niet elk organisatie-boekjaar levert een rij op: sommige jaren ontbreekt de
 deponering of is de verklaring een gescande pdf. Dat is verwacht gedrag en
 zichtbaar in de uitvoer, niet stil weggelaten.
 
+## Bulk-run boekjaar 2023 (29-7-2026) — wat de dataset wél en niet oplost
+
+Vastgelegd in `adapters/digimv_dataset.py` (dataset lezen) en `laad_zorg.py`
+(bulk-lader). Vier dingen bleken anders dan gedacht.
+
+**1. De dataset snijdt het werk met 84% terug.** Het veld
+`bestandAccountantsVerklaringSoort_N` zegt per organisatie wat voor verklaring er
+is gedeponeerd. Boekjaar 2023:
+
+| | Aantal |
+|---|---|
+| Organisaties in de dataset | 6.131 |
+| — met een **controleverklaring** | **1.010** |
+| — met een samenstellingsverklaring | 422 |
+| — met een beoordelingsverklaring | 345 |
+| — helemaal niets gedeponeerd | 4.389 |
+
+Alleen die 1.010 hoeven het archief in. Alle 1.010 hebben een KvK-nummer.
+
+**2. `bestandInstellingAccountantsVerklaring_N` is NIET het kantoor.** De naam
+suggereert het wel, maar het veld bevat de zórginstelling waar de verklaring over
+gaat — 1.625 van de 1.743 gevulde rijen zeggen letterlijk "(de organisatie als
+geheel)". De kantoornaam staat nergens in de dataset; het pdf-spoor blijft nodig.
+
+**3. Het documenttype in het archief is een keuze van de indiener en klopt vaak
+niet.** Bij "Stichting LuciVer" stond onder *Accountantsverklaring* alleen de
+**aanbiedingsbrief** van de accountant, en zat de echte controleverklaring in de
+jaarrekening-pdf ernaast. `digimv_archief.verklaringen()` levert de kandidaten
+daarom in volgorde van betrouwbaarheid: Accountantsverklaring → Verzameldocument
+→ **Jaarrekening** (die laatste als vangnet, en achteraan omdat hij fors groter is).
+
+**4. Een zoekterm moet één wóórd zijn.** Het archief zoekt op deelstring, dus twee
+woorden aan elkaar plakken breekt zodra er iets tussen staat: "Admiraal De Ruyter
+Ziekenhuis" bevat wel `Admiraal` maar niet `Admiraal Ziekenhuis`. `zoekfragment()`
+kiest daarom het langste níét-generieke woord. Lukt dat niet, dan is er een
+terugval op zoeken via de plaatsnaam — met altijd het KvK-nummer als eindcontrole.
+
+### Aliassen die deze run opleverde
+
+Dezelfde les als eerder, nu op schaal: de AFM-naam en de tekennaam verschillen.
+
+| Tekent als | AFM-register | Nummer |
+|---|---|---|
+| Alfa Accountants B.V. | **aaff Audit en Assurance B.V.** (Nijkerk) | 13000259 |
+| Moore-DRV | Moore DRV Audit B.V. | 13020116 |
+| Qconcepts | **Q-Concepts Accountancy B.V.** | 13000773 |
+
+### Wat nog steeds niet lukt, en waarom dat grotendeels klopt
+
+- **Gescande verklaringen.** Bij grote instellingen (UMCG, Bernhoven, Lentis) staat
+  in de jaarrekening-pdf keurig "de controleverklaring is opgenomen op pagina X",
+  maar die pagina's zijn ingescand: de tekstlaag bevat alleen het kopje. Vraagt OCR
+  of het LLM-vangnet (Fase 4).
+- **Kleine zorg-BV's hebben vaak geen jaarrekeningcontrole.** Wat er ligt is een
+  controleverklaring bij een *WNT-verantwoording* of een *financiële
+  productieverantwoording* — een andere opdracht, vaak van een kantoor zonder
+  Wta-vergunning (Cijferhuis Audit, De ZorgAccountants, DVE, G&P, FB Assurance:
+  geen van alle in het AFM-register). Dat wij daar niets vastleggen is correct
+  gedrag, geen gemiste kans.
+
+> **Let op bij het interpreteren van de trefkans.** De 96% uit de meting hierboven
+> gold voor jaarrekening-controleverklaringen. Over de volle doelpopulatie ligt hij
+> lager, en dat komt vooral doordat die populatie andere dingen bevat dan wij
+> zoeken. Meet dus per categorie, niet op het totaal.
+
 ## Open punten
 
 - [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`
