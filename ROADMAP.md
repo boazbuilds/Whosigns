@@ -34,7 +34,14 @@ kan met de README het project begrijpen en draaien.
 - [x] SQL-schema als migration (`supabase/migrations/`): de relatiegraaf
       (organisaties ↔ kantoren ↔ opdrachten ↔ boekjaren) + bronnen, signalen,
       review-queue, views (relatieduur, wisselingen, marktaandeel) en Row Level Security
-- [ ] Supabase-project aanmaken (EU-regio, beslissing #3) en de migration draaien
+- [ ] **Bij de opdrachtgever:** Supabase-project aanmaken en het schema draaien —
+      stappenplan in `docs/setup-supabase.md` (incl. de twee GitHub Secrets)
+- [x] Wegschrijfroute naar Supabase klaar: `pipeline/supabase_client.py`
+      (PostgREST, stdlib-only) + `pipeline/laad_kantoren.py` (idempotente upsert
+      van kantoren en aliassen)
+- [x] GitHub Action `.github/workflows/pipeline.yml`: wekelijks + handmatig;
+      ververst de seed, commit mutaties als log, schrijft naar de database zodra
+      de secrets er zijn (en slaat die stap netjes over zolang dat niet zo is)
 - [ ] Next.js-app (App Router) in `/web`, deploy naar Vercel ("hello world" met
       huisstijl-aanzet en badge "Demo · gedeeltelijke data")
 - [x] AFM-vergunningenregister ophalen via de officiële XML-export →
@@ -43,8 +50,8 @@ kan met de README het project begrijpen en draaien.
       de git-diff is het mutatielog)
 - [ ] Seed naar Supabase upserten zodra het project er is; `kantoor_alias` vullen
       zodra de eerste DigiMV-namen binnenkomen
-- [ ] GitHub Action-skelet: pipeline handmatig triggerbaar + wekelijks schema 🆕
-- [ ] README aangevuld met setup-stappen (Supabase-keys, Vercel, pipeline draaien)
+- [ ] README aangevuld met de Vercel-stappen (Supabase staat in
+      `docs/setup-supabase.md`)
 
 **Klaar wanneer:** de site staat live (leeg maar netjes), `kantoren` is gevuld vanuit
 het AFM-register, en de pipeline draait groen in GitHub Actions.

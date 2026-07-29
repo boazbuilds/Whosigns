@@ -1,0 +1,57 @@
+name: Pipeline
+
+# Wekelijks (maandagochtend) en met de hand te starten via het tabblad Actions.
+# Wekelijks omdat mutaties in het AFM-register het vroegste wisselsignaal zijn:
+# een kantoor dat zijn vergunning inlevert, moet zijn hele portefeuille overdragen.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      alleen_seed:
+        description: "Alleen de seed-bestanden verversen, niets naar de database schrijven"
+        type: boolean
+        default: false
+
+jobs:
+  kantoren:
+    name: AFM-kantorenregister bijwerken
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Register ophalen en seed verversen
+        run: python3 pipeline/adapters/afm_register.py
+
+      - name: Wijzigingen in het register vastleggen
+        # De git-historie van kantoren.csv is ons mutatielog: een kantoor dat
+        # verdwijnt of bijkomt, is zichtbaar als diff.
+        run: |
+          if git diff --quiet -- pipeline/seed/kantoren.csv; then
+            echo "geen mutaties in het AFM-register"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add pipeline/seed/kantoren.csv
+            git commit -m "AFM-register: wekelijkse snapshot"
+            git push
+          fi
+
+      - name: Naar de database schrijven
+        if: ${{ inputs.alleen_seed != true }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::notice::Supabase-secrets ontbreken nog — zie docs/setup-supabase.md."
+            echo "De seed is bijgewerkt; de databasestap wordt overgeslagen."
+            exit 0
+          fi
+          python3 pipeline/laad_kantoren.py --offline
