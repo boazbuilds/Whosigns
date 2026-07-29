@@ -9,7 +9,13 @@ Werkwijze (de dekkingsstrategie uit adapters/digimv.md):
 
 Draaien:
     python3 pipeline/laad_zorg.py --boekjaar 2023
+    python3 pipeline/laad_zorg.py --boekjaar 2024 --lijst-uit 2023
     python3 pipeline/laad_zorg.py --boekjaar 2023 --droogloop --kantoor qconcepts
+
+**Eén boekjaar is bijna niets waard.** Zonder een tweede jaar is er geen enkele
+wisseling te zien, geen relatieduur en geen verloop in marktaandeel — precies
+waar dit platform om draait. Draai dus 2019 t/m 2025, met `--lijst-uit 2023`
+zolang de andere jaargangen van de dataset nog niet zijn uitgezocht.
 
 Opties:
     --boekjaar N    welk boekjaar (standaard 2023)
@@ -20,6 +26,9 @@ Opties:
                     Werkt zonder Supabase-sleutels.
     --kantoor TEKST toon aan het eind alleen de cliënten van dit kantoor
     --werkers N     hoeveel organisaties tegelijk ophalen (standaard 4)
+    --lijst-uit N   gebruik de organisatielijst van boekjaar N in plaats van die
+                    van het gescande jaar. Zo laad je 2019 t/m 2025 met de lijst
+                    van 2023, zonder elke jaargang van de dataset te ontleden
 
 Hervatten is veilig: organisatie-boekjaren die al een opdracht in de database
 hebben, worden overgeslagen. Wat niets opleverde (geen deponering, gescande pdf)
@@ -118,19 +127,42 @@ def main() -> int:
     parser.add_argument("--droogloop", action="store_true")
     parser.add_argument("--kantoor", default="")
     parser.add_argument("--werkers", type=int, default=4)
+    parser.add_argument("--lijst-uit", type=int, default=0, dest="lijst_uit")
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
 
-    print(f"dataset boekjaar {boekjaar} ophalen...", flush=True)
-    ods = digimv_dataset.download(boekjaar, CACHE)
-    lijst_pad = CACHE / f"doelpopulatie_{boekjaar}.csv"
+    # Welk boekjaar levert de lijst organisaties? Standaard hetzelfde jaar dat we
+    # scannen. Maar de dataset is per jaargang anders opgebouwd (andere veldnamen,
+    # soms opgesplitst in vier bestanden) en voor boekjaar 2025 bestaat hij nog
+    # niet. Met --lijst-uit hergebruik je de lijst van een jaar dat al uitgezocht
+    # is: het archief kun je namelijk per boekjaar op KvK-nummer bevragen, en dat
+    # nummer verandert niet. Zo krijgen we meerdere boekjaren zónder eerst elke
+    # jaargang van de dataset te hoeven ontleden.
+    #
+    # Prijs van die kortere weg: organisaties die in het lijstjaar geen controle
+    # hadden maar in het gescande jaar wél, missen we. Voor de relatiegraaf is dat
+    # een kleine groep, en meerdere boekjaren zijn veel meer waard — zonder
+    # tweede jaar is er geen enkele wisseling te zien.
+    lijst_boekjaar = argumenten.lijst_uit or boekjaar
+
+    lijst_pad = CACHE / f"doelpopulatie_{lijst_boekjaar}.csv"
     if lijst_pad.exists():
         organisaties = digimv_dataset.lees_csv(lijst_pad)
     else:
+        print(f"dataset boekjaar {lijst_boekjaar} ophalen...", flush=True)
+        ods = digimv_dataset.download(lijst_boekjaar, CACHE)
         print("doelpopulatie bepalen (dit duurt een paar minuten)...", flush=True)
-        organisaties = digimv_dataset.doelpopulatie(ods, boekjaar)
+        organisaties = digimv_dataset.doelpopulatie(ods, lijst_boekjaar)
         digimv_dataset.schrijf_csv(organisaties, lijst_pad)
-    print(f"{len(organisaties)} organisaties met een controleverklaring\n", flush=True)
+
+    herkomst = (
+        "" if lijst_boekjaar == boekjaar else f" (lijst uit boekjaar {lijst_boekjaar})"
+    )
+    print(
+        f"{len(organisaties)} organisaties met een controleverklaring{herkomst}; "
+        f"scan van boekjaar {boekjaar}\n",
+        flush=True,
+    )
 
     kantoor_index = bouw_index(laad_kantoren())
 
