@@ -103,6 +103,18 @@ class Supabase:
             return
         self._verzoek("PATCH", f"{tabel}?{filter}", velden, {"Prefer": "return=minimal"})
 
+    def verwijderen(self, tabel: str, filter: str) -> None:
+        """Verwijdert rijen die aan het PostgREST-filter voldoen.
+
+        Alleen bedoeld om een eerdere uitkomst van deze pipeline te vervangen als
+        de extractie is verbeterd — bijvoorbeeld wanneer het opdrachttype anders
+        blijkt te zijn en dus onder een andere unieke sleutel valt. Zonder filter
+        weigert PostgREST de opdracht, wat hier precies de bedoeling is.
+        """
+        if not filter:
+            raise SupabaseFout("verwijderen zonder filter is niet toegestaan")
+        self._verzoek("DELETE", f"{tabel}?{filter}", None, {"Prefer": "return=minimal"})
+
     def selecteer(self, tabel: str, query: str = "select=*") -> list:
         return self._verzoek("GET", f"{tabel}?{query}")
 

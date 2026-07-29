@@ -29,6 +29,10 @@ Opties:
     --lijst-uit N   gebruik de organisatielijst van boekjaar N in plaats van die
                     van het gescande jaar. Zo laad je 2019 t/m 2025 met de lijst
                     van 2023, zonder elke jaargang van de dataset te ontleden
+    --herlaad       verwerk ook organisaties die al een opdracht hebben, en vervang
+                    die opdracht. Nodig als de extractie is verbeterd: normaal
+                    slaat de lader bestaande rijen over en blijft een oude
+                    beoordeling staan. Kost wél opnieuw alle downloads
 
 Hervatten is veilig: organisatie-boekjaren die al een opdracht in de database
 hebben, worden overgeslagen. Wat niets opleverde (geen deponering, gescande pdf)
@@ -145,6 +149,7 @@ def main() -> int:
     parser.add_argument("--kantoor", default="")
     parser.add_argument("--werkers", type=int, default=4)
     parser.add_argument("--lijst-uit", type=int, default=0, dest="lijst_uit")
+    parser.add_argument("--herlaad", action="store_true")
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
 
@@ -204,10 +209,12 @@ def main() -> int:
             "opdrachten",
             f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}",
         )
-        al_geladen = {
-            (rij.get("organisaties") or {}).get("kvk_nummer")
-            for rij in bestaand
-        } - {None}
+        al_geladen = set() if argumenten.herlaad else (
+            {
+                (rij.get("organisaties") or {}).get("kvk_nummer")
+                for rij in bestaand
+            } - {None}
+        )
         bron = db.invoegen(
             "bronnen",
             {"bron_type": "digimv", "url": BRON_URL, "betrouwbaarheid": "publiek"},
@@ -296,11 +303,25 @@ def main() -> int:
 
                 org_rij = db.upsert_met_id("organisaties", org_velden, "kvk_nummer")
 
+                # Opdrachttype vastgesteld uit de verklaring, niet aangenomen. Een
+                # controleverklaring bij een WNT- of productieverantwoording is geen
+                # wettelijke jaarrekeningcontrole en hoort dus niet mee te tellen in
+                # marktaandelen. Lukt het niet vast te stellen, dan zeggen we dat
+                # ("controle_onbepaald") in plaats van het zwaarste type te gokken.
+                type_opdracht = resultaat["opdrachttype"] or "controle_onbepaald"
+                if argumenten.herlaad:
+                    # Het type maakt deel uit van de unieke sleutel, dus een
+                    # gecorrigeerd type zou een tweede rij opleveren naast de oude.
+                    # Vandaar eerst opruimen wat deze pipeline er eerder zette.
+                    db.verwijderen(
+                        "opdrachten",
+                        f"organisatie_id=eq.{org_rij['id']}&boekjaar=eq.{boekjaar}",
+                    )
                 opdracht_velden = {
                     "organisatie_id": org_rij["id"],
                     "kantoor_id": kantoor_id,
                     "boekjaar": boekjaar,
-                    "type_opdracht": "wettelijke_controle",
+                    "type_opdracht": type_opdracht,
                     "oordeel": resultaat["oordeel"],
                     "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
                     "bron_id": bron_id,

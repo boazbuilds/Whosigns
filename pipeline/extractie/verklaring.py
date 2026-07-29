@@ -62,6 +62,49 @@ OORDEEL_KENMERKEN = [
 # echt oordeel met beperking als goedkeurend uit de bus kwam. 38 oordelen sloegen
 # op die manier de verkeerde kant op. De kopvorm hierboven doet het werk al.
 
+# Waar gáát de controle over? "Controleverklaring van de onafhankelijke accountant"
+# staat óók boven een verklaring bij een WNT-verantwoording of een financiële
+# productieverantwoording, en dat zijn andere opdrachten dan de controle van de
+# jaarrekening. Zonder dit onderscheid boeken we die als wettelijke controle en
+# tellen ze mee in marktaandelen waar ze niet horen.
+#
+# Gemeten op de 686 geladen rijen van boekjaar 2023: 622 noemen de jaarrekening,
+# 34 alleen WNT, 26 alleen productieverantwoording, 4 geen enkel kenmerk. Dus
+# ongeveer één op de elf was verkeerd getypeerd.
+#
+# Let op de volgorde: een verzameldocument noemt vaak zowel de jaarrekening als de
+# WNT-verantwoording. De jaarrekening is dan het zwaarste voorwerp en die wint.
+VOORWERP_KENMERKEN = [
+    (
+        "wettelijke_controle",
+        (
+            "in de jaarverslaggeving opgenomen jaarrekening",
+            "controle van de jaarrekening",
+            "verklaring over de jaarrekening",
+        ),
+    ),
+    (
+        "wnt_verantwoording",
+        (
+            "wnt verantwoording",
+            "verantwoordingsmodel wnt",
+            "controleverklaring wnt",
+            "wnt gegevens",
+            "bezoldiging topfunctionarissen",
+        ),
+    ),
+    (
+        "productieverantwoording",
+        (
+            "financiele productieverantwoording",
+            "productieverantwoording",
+            "nacalculatie",
+            "gerealiseerde productie",
+        ),
+    ),
+    ("subsidieverklaring", ("subsidieverantwoording", "verantwoording subsidie")),
+]
+
 CONTINUITEIT_KENMERKEN = (
     "materiele onzekerheid over de continuiteit",
     "onzekerheid van materieel belang omtrent de continuiteit",
@@ -108,6 +151,14 @@ def analyseer(tekst: str, index: dict) -> dict:
     treffer = zoek_kantoor(tekst, index)
     return {
         "soort": soort,
+        # Waar de controle over gaat. None betekent: het is wél een
+        # controleverklaring, maar we hebben niet kunnen vaststellen waarover —
+        # dan is "wettelijke controle" een aanname en geen bevinding.
+        "opdrachttype": (
+            _eerste_treffer(genormaliseerd, VOORWERP_KENMERKEN)
+            if soort == "controle"
+            else None
+        ),
         "oordeel": _eerste_treffer(genormaliseerd, OORDEEL_KENMERKEN)
         if soort == "controle"
         else None,

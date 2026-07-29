@@ -61,11 +61,21 @@ export function oordeelOpvallend(oordeel: string | null): boolean {
 export const OPDRACHT_LABEL: Record<string, string> = {
   wettelijke_controle: "wettelijke controle",
   vrijwillige_controle: "vrijwillige controle",
+  // Vastgesteld uit de verklaring: een controleverklaring bij een WNT- of
+  // productieverantwoording is een andere opdracht dan de jaarrekeningcontrole.
+  wnt_verantwoording: "controle WNT-verantwoording",
+  productieverantwoording: "controle productieverantwoording",
+  subsidieverklaring: "subsidieverklaring",
+  controle_onbepaald: "controle, voorwerp onbekend",
   beoordeling: "beoordelingsopdracht",
   samenstelling: "samenstellingsopdracht",
   subsidie: "subsidieverklaring",
   isae: "ISAE-opdracht",
 };
+
+/** Alleen dit type is een wettelijke controle van de jaarrekening. De views in
+ *  SQL filteren hier ook op, zodat marktaandelen kloppen. */
+export const WETTELIJKE_CONTROLE = "wettelijke_controle";
 
 export function jarenReeks(jaren: number[]): string {
   if (!jaren.length) return "—";
