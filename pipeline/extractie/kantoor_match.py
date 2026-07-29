@@ -105,15 +105,33 @@ def bouw_index(
     return index
 
 
+def _tel_hele_woorden(sleutel: str, tekst: str) -> int:
+    """Hoe vaak staat de sleutel als hele woorden in de tekst?
+
+    Waarom niet gewoon `sleutel in tekst`: de sleutel van 'Audit Pro B.V.' is
+    'audit pro' en dat zit letterlijk in 'audit procedures' — de standaardzin in
+    elk Engelstalig accountantsrapport. Zo tekende Audit Pro B.V. in de meting
+    van 29-7-2026 drie Engelstalige jaarverslagen van goede doelen die het
+    kantoor nooit heeft gezien; 'accura' (Accura B.V.) deed hetzelfde in
+    'accuraat'. Vier valse matches op negentien in één steekproef van veertig.
+    Een gemiste match kost een rij in de review-queue, een valse match zet een
+    verzonnen relatie in de database — dus hier telt alleen een hele-woord-match.
+    """
+    return len(re.findall(rf"(?<![a-z0-9]){re.escape(sleutel)}(?![a-z0-9])", tekst))
+
+
 def zoek_kantoor(tekst: str, index: dict[str, dict]) -> dict | None:
     """Geeft {'kantoor': ..., 'sleutel': ..., 'aantal': n} of None."""
     genormaliseerd = normaliseer(tekst)
     if not genormaliseerd:
         return None
     treffers = [
-        (sleutel, kantoor, genormaliseerd.count(sleutel))
+        (sleutel, kantoor, aantal)
         for sleutel, kantoor in index.items()
+        # De substringtest is alleen een goedkope voorselectie; de telling met
+        # woordgrenzen hieronder bepaalt of het echt een treffer is.
         if sleutel in genormaliseerd
+        and (aantal := _tel_hele_woorden(sleutel, genormaliseerd))
     ]
     if not treffers:
         return None

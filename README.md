@@ -26,6 +26,7 @@ is het antwoord: *even op WhoSigns kijken.*
 | `ROADMAP.md` | Het bouwplan: fases, taken, beslismomenten |
 | `docs/setup-supabase.md` | Stap voor stap de database opzetten (zonder developer-kennis) |
 | `docs/concept.md` | Volledige context: domeinkennis, bronnen, guardrails |
+| `docs/bronverkenning-stichtingen.md` | Stichtingen/NGO's: welke routes er zijn en wat ze meten (CBF, ANBI, verticals) |
 | `docs/brainstorm-2026-07.md` | Analyse "waarom Transfermarkt werkt" + verbetervoorstellen |
 | `docs/beslissingen.md` | Beslislog: open keuzes met aanbeveling + genomen besluiten |
 | `supabase/migrations/` | Databaseschema (Postgres), draait straks op Supabase |

@@ -21,11 +21,17 @@ accountant staat wel in de tekst, maar wordt niet gezocht, niet teruggegeven en
 niet gelogd.
 """
 
+import re
 import subprocess
 
 from kantoor_match import normaliseer
 
 # Volgorde telt: een controleverklaring noemt vaak óók 'samengesteld'.
+#
+# Engelse varianten staan erbij omdat internationaal werkende stichtingen hun
+# jaarverslag in het Engels publiceren: in de steekproef van 40 goede doelen
+# (29-7-2026) waren dat 6 van de 38 leesbare verslagen — allemaal Nederlandse
+# controles onder de COS, alleen in een andere taal opgeschreven.
 SOORT_KENMERKEN = [
     (
         "controle",
@@ -33,10 +39,21 @@ SOORT_KENMERKEN = [
             "controleverklaring van de onafhankelijke accountant",
             "naar ons oordeel",
             "ons oordeel",
+            "independent auditor s report",
+            "audit of the financial statements",
+            "in our opinion",
         ),
     ),
-    ("beoordeling", ("beoordelingsverklaring", "standaard 2400")),
-    ("samenstelling", ("samenstellingsverklaring", "standaard 4410", "samengesteld")),
+    ("beoordeling", ("beoordelingsverklaring", "standaard 2400", "review report")),
+    (
+        "samenstelling",
+        (
+            "samenstellingsverklaring",
+            "standaard 4410",
+            "samengesteld",
+            "compilation report",
+        ),
+    ),
 ]
 
 # Bezittelijke vorm, want dat is de kop van de oordeelparagraaf ("Ons oordeel met
@@ -46,11 +63,26 @@ SOORT_KENMERKEN = [
 # dat leverde twee onterechte oordeelonthoudingen op in de proefrit van boekjaar
 # 2023 (Jeugdbescherming Brabant en Veilig Thuis Oost-Brabant, allebei in de zin
 # "een hausse van verklaringen met beperking of oordeelonthoudingen").
+#
+# De Engelse termen kunnen niet met een gewone substringtest: 'qualified opinion'
+# zit letterlijk in 'unqualified opinion', en dat is precies het omgekeerde
+# oordeel. `_eerste_treffer` eist daarom een woordgrens vóór het kenmerk.
 OORDEEL_KENMERKEN = [
-    ("afkeurend", ("ons afkeurend oordeel",)),
-    ("oordeelonthouding", ("onze oordeelonthouding", "wij geven geen oordeel")),
-    ("beperking", ("ons oordeel met beperking",)),
-    ("goedkeurend", ("naar ons oordeel", "ons oordeel")),
+    ("afkeurend", ("ons afkeurend oordeel", "adverse opinion")),
+    (
+        "oordeelonthouding",
+        (
+            "onze oordeelonthouding",
+            "wij geven geen oordeel",
+            "disclaimer of opinion",
+            "we do not express an opinion",
+        ),
+    ),
+    ("beperking", ("ons oordeel met beperking", "qualified opinion")),
+    (
+        "goedkeurend",
+        ("naar ons oordeel", "ons oordeel", "unqualified opinion", "in our opinion"),
+    ),
 ]
 
 # Ook geprobeerd en verworpen: het oordeel alleen zoeken in het stuk tekst vanaf de
@@ -81,6 +113,7 @@ VOORWERP_KENMERKEN = [
             "in de jaarverslaggeving opgenomen jaarrekening",
             "controle van de jaarrekening",
             "verklaring over de jaarrekening",
+            "audit of the financial statements",
         ),
     ),
     (
@@ -109,6 +142,7 @@ CONTINUITEIT_KENMERKEN = (
     "materiele onzekerheid over de continuiteit",
     "onzekerheid van materieel belang omtrent de continuiteit",
     "gerede twijfel over de continuiteit",
+    "material uncertainty related to going concern",
 )
 
 
@@ -121,8 +155,17 @@ def pdf_naar_tekst(pad: str) -> str:
 
 
 def _eerste_treffer(genormaliseerd: str, kenmerken: list[tuple]) -> str | None:
+    """Eerste label waarvan een kenmerk als woord in de tekst staat.
+
+    Woordgrens alléén aan de voorkant: dat vangt 'unqualified opinion' weg bij
+    het zoeken naar 'qualified opinion', terwijl meervouden aan de achterkant
+    ('productieverantwoordingen', 'nacalculaties') blijven meetellen.
+    """
     for label, sleutelwoorden in kenmerken:
-        if any(woord in genormaliseerd for woord in sleutelwoorden):
+        if any(
+            re.search(rf"(?<![a-z0-9]){re.escape(woord)}", genormaliseerd)
+            for woord in sleutelwoorden
+        ):
             return label
     return None
 

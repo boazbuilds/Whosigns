@@ -11,6 +11,8 @@ pipeline/
     digimv_archief.py  ✅ client voor de archief-API (zoeken + document ophalen)
     digimv.py          ✅ organisatie → opdracht (archief + kantoor_match + verklaring)
                        ⬜ dataset-gedreven bulk-run (Fase 1, zie digimv.md)
+    cbf.py             ✅ register-API erkende goede doelen + jaarverslag-pdf's
+    anbi.py            ✅ ANBI-bestand Belastingdienst als populatielijst
     transparantie.py   ⬜ Fase 3: OOB-cliëntlijsten
     duo.py             ⬜ Fase 4: onderwijs
     tenderned.py       ⬜ Fase 4: aanbestedingen accountantsdiensten
@@ -23,7 +25,8 @@ pipeline/
   supabase_client.py   ✅ PostgREST-client (upsert, upsert_met_id, invoegen, selecteer)
   laad_kantoren.py     ✅ kantoren + aliassen → Supabase
   laad_proefdata.py    ✅ 13 bekende ziekenhuizen → Supabase (proefdata voor Fase 2)
-  valideer_extractie.py ✅ meet de trefkans van de kantoorextractie
+  valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
+  verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking + extractie)
   signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
 
@@ -33,6 +36,11 @@ stringmatch tegen de AFM-lijst/aliastabel. Gemeten trefkans op controleverklarin
 **96–100%, zonder valse matches** (zie `adapters/digimv.md`). Onmatchbare gevallen
 — gescande pdf's, kantoornaam alleen in een logo — wachten in de `review_queue` op
 het LLM-vangnet van Fase 4.
+
+Buiten de zorg ligt die trefkans structureel lager, en dat is geen tekortkoming van de
+extractie: bij goede doelen tekent bijna een derde van de verklaringen een kantoor
+zónder Wta-vergunning (vrijwillige controle, dus terecht niet in het AFM-register).
+Zie `docs/bronverkenning-stichtingen.md`.
 
 Vereist buiten Python: `pdftotext` (pakket `poppler-utils`).
 
