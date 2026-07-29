@@ -46,6 +46,11 @@ OPDRACHT_JAARVELDEN = {
     "honorarium_fiscaal": "honorarium_fiscaal_eur",
     "honorarium_nietcontrole": "honorarium_nietcontrole_eur",
     "wissel_gerapporteerd": "wissel_gerapporteerd",
+    # Het oordeel zoals de bron het meldt, náást het oordeel dat wij uit de
+    # gedeponeerde verklaring lezen. 97% van de tijd zijn ze het eens; de rest is
+    # review-werk (v_oordeel_afwijking).
+    "oordeel_gerapporteerd": "oordeel_gerapporteerd",
+    "verklaring_datum": "verklaring_datum",
 }
 
 

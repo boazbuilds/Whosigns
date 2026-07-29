@@ -3,14 +3,39 @@
 import Link from "next/link";
 import { OORDEEL_LABEL, oordeelOpvallend } from "@/lib/paden";
 
-/** Het oordeel als label; niet-goedkeurend krijgt nadruk. */
-export function Oordeel({ waarde }: { waarde: string | null }) {
-  if (!waarde) return <span className="zacht">—</span>;
-  const tekst = OORDEEL_LABEL[waarde] ?? waarde;
+/**
+ * Het oordeel als label; niet-goedkeurend krijgt nadruk.
+ *
+ * `waarde` komt uit de gedeponeerde verklaring zelf en gaat voor. `gerapporteerd`
+ * is wat de organisatie in de jaardataset heeft opgegeven en dient als vangnet:
+ * bij een ingescande pdf zonder tekstlaag is dat het enige dat er is. Zo'n
+ * oordeel wordt gemarkeerd als opgave, want het is niet uit het ondertekende
+ * stuk gelezen.
+ */
+export function Oordeel({
+  waarde,
+  gerapporteerd = null,
+}: {
+  waarde: string | null;
+  gerapporteerd?: string | null;
+}) {
+  const oordeel = waarde ?? gerapporteerd;
+  if (!oordeel) return <span className="zacht">—</span>;
+  const tekst = OORDEEL_LABEL[oordeel] ?? oordeel;
   return (
-    <span className={oordeelOpvallend(waarde) ? "label label-let-op" : "label"}>
-      {tekst}
-    </span>
+    <>
+      <span className={oordeelOpvallend(oordeel) ? "label label-let-op" : "label"}>
+        {tekst}
+      </span>
+      {waarde === null ? (
+        <>
+          {" "}
+          <span className="zacht klein" title="Opgave van de organisatie zelf; de verklaring was niet machinaal leesbaar">
+            (opgave)
+          </span>
+        </>
+      ) : null}
+    </>
   );
 }
 

@@ -100,6 +100,10 @@ export type OpdrachtMetKantoor = {
   boekjaar: number;
   type_opdracht: string;
   oordeel: string | null;
+  /** Het oordeel zoals de bron het meldt. `oordeel` komt uit de gedeponeerde
+   *  verklaring zelf en gaat voor; dit veld vult het gat wanneer de pdf een scan
+   *  zonder tekstlaag was. */
+  oordeel_gerapporteerd: string | null;
   continuiteitsonzekerheid: boolean | null;
   kantoren: Kantoor | null;
   bronnen: Bron | null;
@@ -109,6 +113,7 @@ export type OpdrachtMetOrganisatie = {
   boekjaar: number;
   type_opdracht: string;
   oordeel: string | null;
+  oordeel_gerapporteerd: string | null;
   continuiteitsonzekerheid: boolean | null;
   organisaties: Organisatie | null;
 };
@@ -171,7 +176,8 @@ export function kantorenOpId(ids: number[]) {
 export function opdrachtenVanOrganisatie(organisatieId: number) {
   return haal<OpdrachtMetKantoor>(
     `opdrachten?organisatie_id=eq.${organisatieId}` +
-      `&select=boekjaar,type_opdracht,oordeel,continuiteitsonzekerheid,` +
+      `&select=boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
+      `continuiteitsonzekerheid,` +
       `kantoren(${KANTOOR_VELDEN}),bronnen(url,bron_type,opgehaald_op)` +
       `&order=boekjaar.desc`,
   );
@@ -181,8 +187,8 @@ export function opdrachtenVanOrganisatie(organisatieId: number) {
 export function opdrachtenVanKantoor(kantoorId: number) {
   return haal<OpdrachtMetOrganisatie>(
     `opdrachten?kantoor_id=eq.${kantoorId}` +
-      `&select=boekjaar,type_opdracht,oordeel,continuiteitsonzekerheid,` +
-      `organisaties(${ORG_VELDEN})` +
+      `&select=boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
+      `continuiteitsonzekerheid,organisaties(${ORG_VELDEN})` +
       `&order=boekjaar.desc`,
   );
 }

@@ -337,6 +337,8 @@ def main() -> int:
                             "honorarium_fiscaal_eur": "honorarium_fiscaal",
                             "honorarium_nietcontrole_eur": "honorarium_nietcontrole",
                             "wissel_gerapporteerd": "wissel_gerapporteerd",
+                            "oordeel_gerapporteerd": "oordeel_gerapporteerd",
+                            "verklaring_datum": "verklaring_datum",
                         })
                     )
                 db.upsert_met_id(
