@@ -601,6 +601,33 @@ De cron loopt vanaf het moment dat de workflow op `main` staat. Wil je hem stil 
 tot de zorgsector af is (dat blijft het advies uit de visie): Actions →
 *Stichtingenlus* → ⋯ → *Disable workflow*. Handmatig starten blijft dan werken.
 
+### Wat de eerste echte ronde leerde (30-7-2026)
+
+Ronde 1 draaide 6 blokken D/E over boekjaar 2024 in 7 minuten en deed precies wat hij
+moest doen: **194 organisaties overgeslagen** omdat die al in Supabase stonden, en van de
+rest 4 nieuwe opdrachten en 49 review-gevallen. Die 194 zijn de eerdere handmatige runs;
+de gerichte skip werkt dus, en "4 opdrachten" is 4 bovenop 194 en geen mislukking. Wat er
+overblijft na de makkelijke gevallen is vooral review — logisch, want de organisaties met
+een bekend kantoor zaten er al in.
+
+Twee dingen gingen wél mis, en beide zijn hersteld:
+
+**De PR-stap liet de hele ronde falen.** `gh pr create` gaf *"GitHub Actions is not
+permitted to create or approve pull requests"* — een repo-instelling, niet een fout in de
+code. Het gevolg was erger dan het gemis van de PR: een gefaalde stap slaat alles wat
+erna komt over, dus de **website werd niet ververst** terwijl de data al in Supabase stond.
+De stap is nu `continue-on-error` met een nette melding, en *Website verversen* draait op
+`!cancelled()`. Het logboek is bijzaak, de levering is de hoofdzaak.
+
+Wil je die PR's wél automatisch: Settings → Actions → General → Workflow permissions →
+*Allow GitHub Actions to create and approve pull requests*. Zonder die vlag blijft de lus
+gewoon werken; je opent de PR op `data/stichtingenlus` dan met de hand.
+
+**De rapporten kwamen niet in het artifact.** `pipeline/.cache` begint met een punt, en
+upload-artifact slaat verborgen bestanden sinds v4.4 over — "No files were found" terwijl
+alle drie de rapporten er stonden. `include-hidden-files: true` erbij, dezelfde regel die
+`stichtingendata.yml` en `zorgdata.yml` al hadden.
+
 Lokaal, zonder database:
 
 ```

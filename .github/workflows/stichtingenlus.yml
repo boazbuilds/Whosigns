@@ -201,8 +201,16 @@ jobs:
 
       # Eén PR die meegroeit: bestaat hij al, dan werken we alleen de beschrijving
       # bij met de stand van nu. Draft, want dit is een logboek en geen verzoek.
+      # Deze stap mag de ronde niet laten mislukken. De eerste echte ronde liep hier
+      # stuk op "GitHub Actions is not permitted to create or approve pull requests"
+      # — een repo-instelling (Settings -> Actions -> General -> Workflow permissions).
+      # Gevolg was erger dan het gemis van de PR: een gefaalde stap slaat alles wat
+      # erna komt over, dus de website werd niet ververst terwijl de data al in
+      # Supabase stond en de werkvoorraad al gepusht was. Het logboek is bijzaak, de
+      # levering is de hoofdzaak, dus hier nooit meer rood op.
       - name: Pull request bijhouden
         if: ${{ steps.push.outputs.gepusht == 'ja' }}
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -228,12 +236,20 @@ jobs:
           NUMMER=$(gh pr list --head "$BRANCH" --state open --json number \
             --jq '.[0].number // empty')
           if [ -z "$NUMMER" ]; then
-            gh pr create --draft --base "$HOOFDBRANCH" \
+            if ! gh pr create --draft --base "$HOOFDBRANCH" \
               --head "$BRANCH" \
               --title "Stichtingenlus: goede doelen laden, ronde voor ronde" \
-              --body-file /tmp/pr-body.md
+              --body-file /tmp/pr-body.md 2> /tmp/pr-fout.txt; then
+              cat /tmp/pr-fout.txt
+              if grep -q "not permitted to create or approve pull requests" /tmp/pr-fout.txt; then
+                echo "::notice::Actions mag geen PR aanmaken. Zet dat aan bij Settings -> Actions -> General -> Workflow permissions, of open de PR met de hand: de ronde staat al op $BRANCH."
+              else
+                echo "::warning::PR aanmaken mislukt; de ronde zelf is geslaagd en staat op $BRANCH."
+              fi
+            fi
           else
-            gh pr edit "$NUMMER" --body-file /tmp/pr-body.md
+            gh pr edit "$NUMMER" --body-file /tmp/pr-body.md \
+              || echo "::warning::PR #$NUMMER bijwerken mislukt; de ronde staat wel op $BRANCH."
             echo "::notice::PR #$NUMMER bijgewerkt."
           fi
 
@@ -241,8 +257,11 @@ jobs:
       # zonder dit stapje op te staan. Met een deploy hook staat het er meteen.
       # Aanmaken: Vercel -> Project -> Settings -> Git -> Deploy Hooks, en de URL
       # als secret VERCEL_DEPLOY_HOOK in deze repo zetten.
+      # `!cancelled()` en niet de standaard: zonder dat wordt deze stap overgeslagen
+      # zodra iets ervóór faalt, en dan staat de nieuwe data wel in Supabase maar niet
+      # op de site. Precies wat er in ronde 1 gebeurde.
       - name: Website verversen
-        if: ${{ steps.ronde.outputs.blokken != '0' && inputs.droogloop != true }}
+        if: ${{ !cancelled() && steps.ronde.outputs.blokken != '0' && inputs.droogloop != true }}
         env:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: |
@@ -264,6 +283,11 @@ jobs:
             pipeline/.cache/lus_ronde.md
             pipeline/.cache/lus_*.json
           if-no-files-found: ignore
+          # `.cache` begint met een punt en upload-artifact slaat verborgen bestanden
+          # sinds v4.4 over. Ronde 1 meldde "No files were found with the provided
+          # path" terwijl alle drie de rapporten er stonden. Zelfde regel als in
+          # stichtingendata.yml en zorgdata.yml.
+          include-hidden-files: true
 
       - name: Klaar?
         if: ${{ steps.ronde.outputs.afgerond == 'true' }}
