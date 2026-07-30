@@ -84,8 +84,15 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: poppler-utils installeren (voor pdftotext)
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      # tesseract met Nederlands is de terugval voor gescande jaarverslagen. Bij de
+      # goede doelen is dat de grootste categorie die overblijft: 33 van de 262 in
+      # categorie A/B, 11 in C en 9 in D/E per jaargang. Zonder deze pakketten draait
+      # alles als voorheen — geen tekstlaag, geen opdracht — dus een ronde valt er
+      # niet over om, hij levert dan alleen minder op.
+      - name: poppler-utils en tesseract installeren
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-nld
 
       # De databranch is het geheugen van de lus. Bestaat hij al, dan gaan we daar
       # verder en halen we main erbij; bestaat hij nog niet, dan begint hij op main.

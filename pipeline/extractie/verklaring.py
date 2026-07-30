@@ -294,6 +294,25 @@ OCR_MAX_PAGINAS = 20
 OCR_DPI = 300
 
 
+def _eerste_ocr_pagina(pad: str, max_paginas: int) -> int | None:
+    """Vanaf welke pagina er ge-OCR'd moet worden, of None als dat niet te bepalen is.
+
+    Alleen een paginatelling ophalen met pdfinfo; dat kost milliseconden, terwijl een
+    pagina renderen op 300 dpi tienden van seconden tot seconden kost.
+    """
+    try:
+        uitvoer = subprocess.run(
+            ["pdfinfo", pad], capture_output=True, text=True, check=True
+        ).stdout
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return None
+    treffer = re.search(r"^Pages:\s+(\d+)", uitvoer, re.MULTILINE)
+    if not treffer:
+        return None
+    paginas = int(treffer.group(1))
+    return max(1, paginas - max_paginas + 1)
+
+
 def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
     """Tekst uit een gescande pdf, via pdftoppm + tesseract.
 
@@ -309,16 +328,23 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
     die omvalt op een ontbrekend hulpprogramma.
     """
     with tempfile.TemporaryDirectory() as tijdelijk:
+        # Bij een lang document alleen de laatste pagina's renderen: daar staat de
+        # verklaring. Het bereik vóóraf bepalen en niet achteraf weggooien, want
+        # pdftoppm rendert op 300 dpi en dat is het dure deel. Een jaarverslag van een
+        # goed doel is 50 tot 120 pagina's — alles renderen om er twintig te houden
+        # kost daar minuten in plaats van seconden. Lukt pdfinfo niet, dan rendert hij
+        # alles en snijden we na afloop; dat is de oude weg en die werkt ook.
+        eerste = _eerste_ocr_pagina(pad, max_paginas)
+        bereik = ["-f", str(eerste), "-l", str(eerste + max_paginas - 1)] if eerste else []
         try:
             subprocess.run(
-                ["pdftoppm", "-r", str(OCR_DPI), "-png", pad, f"{tijdelijk}/p"],
+                ["pdftoppm", "-r", str(OCR_DPI), "-png", *bereik, pad, f"{tijdelijk}/p"],
                 check=True,
                 capture_output=True,
             )
         except (subprocess.CalledProcessError, FileNotFoundError):
             return ""
         paginas = sorted(Path(tijdelijk).glob("p*.png"))
-        # Bij een lang document de laatste pagina's: daar staat de verklaring.
         if len(paginas) > max_paginas:
             paginas = paginas[-max_paginas:]
         stukken = []

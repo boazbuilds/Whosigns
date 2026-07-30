@@ -212,6 +212,7 @@ def main() -> int:
         )
 
     telling: dict[str, int] = {}
+    via_ocr: dict[str, int] = {}
     per_kantoor: dict[str, int] = {}
     # Kandidaat-namen uit de review-gevallen, geteld. Dit is de oogst waarmee
     # seed/kantoren_overig.csv en kantoor_alias.csv groeien: een naam die vijf keer
@@ -240,6 +241,11 @@ def main() -> int:
         ):
             status = resultaat["status"]
             telling[status] = telling.get(status, 0) + 1
+            # Hoe vaak er OCR aan te pas kwam, apart bijhouden. Dat is geen bijzaak
+            # maar een kwaliteitssignaal over de bron: een verslag dat alleen als scan
+            # bestaat, is een verslag dat niemand kan doorzoeken.
+            if resultaat.get("via_ocr"):
+                via_ocr[status] = via_ocr.get(status, 0) + 1
             if teller % 25 == 0:
                 print(
                     f"--- {teller}/{len(te_doen)} | "
@@ -340,6 +346,13 @@ def main() -> int:
     print(f"\n=== boekjaar {boekjaar} ({(time.time()-begin)/60:.0f} min) ===")
     for status, aantal in sorted(telling.items(), key=lambda p: -p[1]):
         print(f"  {status:14s} {aantal:4d}")
+    if via_ocr:
+        totaal = sum(via_ocr.values())
+        details = ", ".join(
+            f"{aantal}× {status}"
+            for status, aantal in sorted(via_ocr.items(), key=lambda p: -p[1])
+        )
+        print(f"\nOCR was nodig bij {totaal} gescande verslagen: {details}")
     print("\nKantoren in deze run:")
     for naam, aantal in sorted(per_kantoor.items(), key=lambda p: -p[1])[:25]:
         print(f"  {aantal:4d}  {naam}")
@@ -361,6 +374,7 @@ def main() -> int:
                     "overgeslagen": len(werklijst) - len(te_doen),
                     "minuten": round((time.time() - begin) / 60, 1),
                     "telling": telling,
+                    "via_ocr": via_ocr,
                     "per_kantoor": per_kantoor,
                     "onbekende_kantoren": onbekend,
                 },

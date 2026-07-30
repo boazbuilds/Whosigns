@@ -34,7 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "extractie"))
 import anbi_publicatie  # noqa: E402
 import cbf  # noqa: E402
 from kantoor_match import normaliseer  # noqa: E402
-from verklaring import analyseer, pdf_naar_tekst  # noqa: E402
+from verklaring import analyseer, tekst_uit_pdf  # noqa: E402
 
 CACHE = Path(__file__).resolve().parents[1] / ".cache"
 
@@ -156,9 +156,16 @@ def verwerk_organisatie(
             pad.write_bytes(inhoud)
 
     if pad.exists():
-        tekst = pdf_naar_tekst(str(pad))
+        # tekst_uit_pdf en niet pdf_naar_tekst: bij een gescand verslag zonder
+        # tekstlaag volgt OCR. Dat is hier de grootste categorie die overblijft —
+        # 33 van de 262 in categorie A/B, 11 in C, 9 in D/E per jaargang. Let op de
+        # volgorde: eerst lezen, dán de pdf weggooien, want OCR heeft het bestand
+        # nodig.
+        tekst, via_ocr = tekst_uit_pdf(str(pad))
         if not bewaar_pdf:
             pad.unlink(missing_ok=True)
+        if via_ocr:
+            basis["via_ocr"] = True
         if len(tekst.strip()) < 50:
             tekstloos = True
         else:
@@ -181,9 +188,11 @@ def verwerk_organisatie(
             else:
                 eigen_pad = _bestandsnaam(naam, boekjaar, "_eigen")
                 eigen_pad.write_bytes(inhoud)
-                tekst = pdf_naar_tekst(str(eigen_pad))
+                tekst, via_ocr = tekst_uit_pdf(str(eigen_pad))
                 if not bewaar_pdf:
                     eigen_pad.unlink(missing_ok=True)
+                if via_ocr:
+                    basis["via_ocr"] = True
             if not bevat_boekjaar(tekst, boekjaar):
                 basis["reden"] = (
                     f"stuk op de eigen site gaat niet over boekjaar {boekjaar}"
