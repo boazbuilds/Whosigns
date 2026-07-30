@@ -110,3 +110,6 @@ jobs:
           name: resultaten
           path: pipeline/.cache/resultaat_*.csv
           if-no-files-found: ignore
+          # `.cache` is een verborgen map en die slaat upload-artifact sinds v4.4
+          # standaard over — zonder deze regel komt er geen rapport uit de run.
+          include-hidden-files: true

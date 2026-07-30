@@ -116,3 +116,8 @@ jobs:
           name: resultaten-stichtingen
           path: pipeline/.cache/resultaat_stichtingen_*.csv
           if-no-files-found: ignore
+          # Zonder deze regel wordt er niets bewaard: upload-artifact slaat sinds
+          # v4.4 verborgen bestanden over, en `.cache` begint met een punt. De run
+          # van 30-7-2026 meldde "No files were found with the provided path"
+          # terwijl de rapporten er gewoon stonden.
+          include-hidden-files: true
