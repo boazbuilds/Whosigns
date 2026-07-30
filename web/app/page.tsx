@@ -193,6 +193,10 @@ export default async function Startpagina() {
           items={[
             { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
             {
+              naar: "/bevindingen",
+              tekst: "Waar was het oordeel niet goedkeurend?",
+            },
+            {
               naar: "/organisaties",
               tekst: "Alle organisaties op naam",
               toelichting: `${organisatieTotaal} in de database`,

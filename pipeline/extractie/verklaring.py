@@ -138,6 +138,61 @@ VOORWERP_KENMERKEN = [
     ("subsidieverklaring", ("subsidieverantwoording", "verantwoording subsidie")),
 ]
 
+# Waar gáát een beperking over? Zonder dat erbij is "oordeel met beperking" naast de
+# naam van een ziekenhuis een aanklacht, en dat is het meestal niet.
+#
+# Gemeten op 26 opgehaalde verklaringen met een beperking (30-7-2026): 23 gaan over
+# WNT-aangelegenheden bij intragroepdetachering — de accountant kan de WNT-gegevens
+# van binnen een groep gedetacheerde topfunctionarissen niet vaststellen. Dat is een
+# beperking in de te verstrekken informatie, geen bevinding over de jaarrekening.
+# Slechts 2 waren inhoudelijk (een niet te waarderen vordering; een productiegeschil),
+# 1 had geen vindbare grond.
+#
+# Dat verklaart ook de sprong in de cijfers: 0,8% niet-goedkeurend in boekjaar 2022
+# tegen 10,5% in 2023. Dat is geen verslechtering van de zorg maar een golf van
+# WNT-beperkingen. Een site die dat verschil niet toont, laat de lezer de verkeerde
+# conclusie trekken.
+GROND_WNT = ("wnt", "anticumulatie", "normering topinkomens")
+
+# De bron zegt de grond meestal zelf, in deze bewoording.
+GROND_UITLEG = "beperking in ons oordeel heeft betrekking op"
+
+# De kop van de basisparagraaf. Let op: die staat er meerdere keren, want de
+# oordeelzin verwíjst ernaar ("uitgezonderd de aangelegenheid beschreven in de
+# paragraaf de basis voor ons oordeel met beperking geeft de jaarrekening..."). Wie de
+# eerste treffer pakt, leest de oordeelzin en niet de grond — dezelfde valkuil als bij
+# het venster hierboven. Aan het vervolg is het onderscheid te maken.
+GROND_KOP = "de basis voor ons oordeel met beperking"
+GROND_KOP_VERWIJZING = (
+    "geeft",
+    "zijn wij",
+    "een getrouw beeld",
+    "met de jaarrekening",
+    "is voldoende",
+    "naar ons oordeel",
+)
+
+
+def _grond_beperking(genormaliseerd: str) -> str | None:
+    """"wnt", "inhoudelijk", of None als de grond niet te vinden is.
+
+    None is een echte uitkomst en geen fout: dan weten we het niet, en dat hoort de
+    site ook te zeggen in plaats van "inhoudelijk" te gokken.
+    """
+    grond = None
+    if (i := genormaliseerd.find(GROND_UITLEG)) != -1:
+        grond = genormaliseerd[i + len(GROND_UITLEG) : i + len(GROND_UITLEG) + 240]
+    else:
+        for treffer in re.finditer(re.escape(GROND_KOP), genormaliseerd):
+            vervolg = genormaliseerd[treffer.end() : treffer.end() + 240].strip()
+            if not vervolg.startswith(GROND_KOP_VERWIJZING):
+                grond = vervolg
+                break
+    if grond is None:
+        return None
+    return "wnt" if any(woord in grond[:200] for woord in GROND_WNT) else "inhoudelijk"
+
+
 CONTINUITEIT_KENMERKEN = (
     "materiele onzekerheid over de continuiteit",
     "onzekerheid van materieel belang omtrent de continuiteit",
@@ -262,6 +317,9 @@ def analyseer(tekst: str, index: dict) -> dict:
         }
 
     soort = _eerste_treffer(genormaliseerd, SOORT_KENMERKEN)
+    oordeel = (
+        _eerste_treffer(genormaliseerd, OORDEEL_KENMERKEN) if soort == "controle" else None
+    )
     treffer = zoek_kantoor(tekst, index)
     # Een naam die niet op een ondertekeningsplek staat, is geen vastgesteld kantoor.
     # Hij gaat wél als suggestie mee naar de review-queue: iemand die het stuk erbij
@@ -279,9 +337,12 @@ def analyseer(tekst: str, index: dict) -> dict:
             if soort == "controle"
             else None
         ),
-        "oordeel": _eerste_treffer(genormaliseerd, OORDEEL_KENMERKEN)
-        if soort == "controle"
-        else None,
+        "oordeel": oordeel,
+        # Alleen zinvol bij een beperking; bij een goedkeurend oordeel is er niets
+        # om te verklaren.
+        "grond_beperking": (
+            _grond_beperking(genormaliseerd) if oordeel == "beperking" else None
+        ),
         "continuiteitsonzekerheid": any(
             woord in genormaliseerd for woord in CONTINUITEIT_KENMERKEN
         ),

@@ -50,6 +50,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <nav className="kop-menu" aria-label="Hoofdmenu">
               <Link href="/organisaties">Organisaties</Link>
               <Link href="/wisselingen">Wisselingen</Link>
+              <Link href="/bevindingen">Oordelen</Link>
               {sectorlijst.map((sector) => (
                 <Link key={sector.naam} href={sectorPad(sector.naam)}>
                   {sector.naam.charAt(0).toUpperCase() + sector.naam.slice(1)}
