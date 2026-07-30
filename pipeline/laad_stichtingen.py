@@ -30,6 +30,8 @@ Opties:
     --aantal N         verwerk er hoogstens N
     --rapport-json P   schrijf de tellingen als JSON naar P (voor `lus.py`)
     --terugval         zoek bij een leeg CBF-bestand ook op de eigen website
+    --geen-ocr         gescande verslagen niet door OCR halen. Zinnig bij categorie
+                       A/B, waar een scan meestal betekent dat er geen verklaring ís
                        (ANBI-publicatieplicht); kost extra verzoeken
     --droogloop        niets naar de database schrijven, alleen een CSV-rapport
     --werkers N        hoeveel organisaties tegelijk ophalen (standaard 4)
@@ -100,6 +102,7 @@ def main() -> int:
     parser.add_argument("--aantal", type=int, default=0)
     parser.add_argument("--rapport-json", default="", dest="rapport_json")
     parser.add_argument("--terugval", action="store_true")
+    parser.add_argument("--geen-ocr", action="store_true", dest="geen_ocr")
     parser.add_argument("--droogloop", action="store_true")
     parser.add_argument("--werkers", type=int, default=4)
     parser.add_argument("--herlaad", action="store_true")
@@ -230,6 +233,7 @@ def main() -> int:
                 website=websites.get(organisatie["naam"], ""),
                 bewaar_pdf=argumenten.bewaar_pdf,
                 soorten=soorten,
+                ocr=not argumenten.geen_ocr,
             )
         except Exception as fout:  # noqa: BLE001 — bron mag falen, run gaat door
             print(f"  {organisatie['naam'][:50]}: fout {fout}", flush=True)
