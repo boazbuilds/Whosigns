@@ -31,6 +31,7 @@ is het antwoord: *even op WhoSigns kijken.*
 | `docs/beslissingen.md` | Beslislog: open keuzes met aanbeveling + genomen besluiten |
 | `supabase/migrations/` | Databaseschema (Postgres), draait straks op Supabase |
 | `pipeline/` | Python-importscripts per bron (adapters) — Fase 1 e.v. |
+| `pipeline/lus.py` | Een sector in rondes laden in plaats van in één bulk-run; werkvoorraad in `pipeline/werkvoorraad/` |
 | `web/` | De website (Next.js) — zie `web/README.md` voor draaien en deployen |
 
 ## MVP in één zin
