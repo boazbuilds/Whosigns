@@ -43,11 +43,6 @@ on:
         description: "Stop met een nieuw blok na zoveel minuten"
         required: false
         default: "45"
-      herplan:
-        description: "Werkvoorraad opnieuw opbouwen uit het CBF-register"
-        type: boolean
-        required: false
-        default: false
       droogloop:
         description: "Niets naar de database schrijven; alleen meten"
         type: boolean
@@ -115,14 +110,15 @@ jobs:
             git checkout -B "$BRANCH"
           fi
 
-      - name: Werkvoorraad opbouwen
-        if: ${{ inputs.herplan == true }}
-        run: python3 pipeline/lus.py plan
-
-      # Zonder werkvoorraad valt er niets te doen; die bouwen we dan alsnog op.
-      - name: Werkvoorraad aanwezig?
+      # Elke ronde plannen, en dat is de enige manier waarop een nieuwe populatie de
+      # lopende lus bereikt. De code bepaalt welke blokken er zijn, de databranch wat
+      # er al gedaan is: `plan` leest het bestand van deze branch, laat elke uitkomst
+      # staan en voegt alleen toe wat POPULATIES nu wél en het bestand nog niet heeft.
+      # Zonder dit zou een populatie die op main wordt toegevoegd nooit meelopen —
+      # bij het samenvoegen hierboven wint de werkvoorraad van de databranch.
+      - name: Werkvoorraad bijwerken
         run: |
-          test -f pipeline/werkvoorraad/stichtingen.json || python3 pipeline/lus.py plan
+          python3 pipeline/lus.py plan
           python3 pipeline/lus.py stand
 
       # De kantorenlijsten moeten in de database staan vóór er opdrachten aan hangen,

@@ -405,11 +405,14 @@ relaties wisselt per jaar.
 - **Vriendelijk oogsten:** `cbf.py` pauzeert tussen requests; de bulk-run hoort in
   GitHub Actions, niet interactief.
 
-## Nog twee stukken laaghangend fruit (gemeten 30-7-2026)
+## Laaghangend fruit dat er nog naast lag (gemeten 30-7-2026)
 
-De route stond klaar voor categorie D/E met een actieve erkenning. Twee populaties zaten
-er nog naast, op precies dezelfde URL en met precies dezelfde extractie — dus zonder een
-regel nieuwe techniek. Beide zijn gemeten met `laad_stichtingen.py --droogloop`:
+De route stond klaar voor categorie D/E met een actieve erkenning. Daarnaast lagen nog
+drie populaties en één extra route, allemaal op dezelfde URL en met dezelfde extractie —
+dus zonder een regel nieuwe techniek. Alles hieronder is gemeten met
+`laad_stichtingen.py --droogloop`, niet geschat.
+
+Samen brengt dit de lus van 484 naar **alle 826 vermeldingen in het CBF-register**.
 
 ### Categorie C: wél de controles, niet de samenstellingen
 
@@ -435,17 +438,62 @@ trefkans van D/E maar het is echte, meetellende data (beslissing 9).
 
 ### Ingetrokken erkenningen
 
-112 organisaties staan in het register met een ingetrokken erkenning, 32 daarvan in
-categorie C/D/E. Hun jaarverslagen staan er soms nog. Boekjaar 2024, de 14 uit D/E:
+112 organisaties staan in het register met een ingetrokken erkenning, 110 daarvan met een
+categorie. Hun jaarverslagen staan er soms nog. Boekjaar 2024, de 14 uit D/E:
 2 opdrachten, 1 review, 1 zonder verklaring, **10 zonder verslag** — logisch, want wie de
 erkenning verliest verdwijnt ook uit de nieuwe jaargangen. De oudere boekjaren zijn hier
-het interessante deel. Eén blok, een halve minuut per jaargang, dus het mag mee; de
+het interessante deel. Drie blokken, een halve minuut per stuk, dus het mag mee; de
 opbrengst is een paar tientallen rijen en het verlies van een erkenning is zelf een
 signaal dat later nog uitgewerkt moet worden.
 
+### Categorie A/B: de staart, en dat is precies wat het is
+
+262 organisaties met baten onder €200k. Norm 8.1.3 vraagt daar een samenstellings-
+verklaring of zelfs alleen een kascommissie. Boekjaar 2024, met `--soorten controle`:
+
+| 262 organisaties | aantal |
+|---|---|
+| **opdracht** | **2** |
+| review | 5 |
+| jaarverslag zonder controleverklaring | 201 |
+| gescand, geen tekstlaag | 33 |
+| geen verslag | 21 |
+
+Twee rijen op 262 verzoeken, dus over zeven boekjaren zo'n vijftien organisaties. Dat is
+geen jachtterrein maar een nalezing — en het is er wel één die klopt: tussen die kleine
+stichtingen zit er af en toe een die zich vrijwillig laat controleren, en die hoort er net
+zo goed bij. Het kost 1,4 minuut per jaargang, dus het loopt achteraan mee.
+
+Wat hier bewust **niet** gebeurt: de terugval naar de eigen website aanzetten. Bij 201 van
+de 262 heeft het CBF-bestand geen controleverklaring, en dat is hier geen halve levering
+maar het antwoord — zo'n stichting laat niet controleren. De terugval zou dan 250
+websites afgaan om te vinden wat er niet is.
+
+### De terugval naar de eigen website: aan voor D/E, C en de ingetrokken erkenningen
+
+`--terugval` was gebouwd maar stond uit, gemeten op vijf organisaties (1 van de 5). Nu
+gemeten op een heel blok van 50 organisaties uit categorie D/E, boekjaar 2024 — hetzelfde
+blok met en zonder:
+
+| blok de-2024-01 (50 organisaties) | opdracht | review | rest | tijd |
+|---|---|---|---|---|
+| zonder terugval | 28 | 10 | 12 | 0,4 min |
+| **met terugval** | **29** | 10 | 11 | 1,7 min |
+
+Eén organisatie erbij per vijftig, tegen vier keer de tijd. In verhouding weinig; in
+absolute zin een paar minuten per blok en over de hele sector enkele tientallen goede
+doelen die er anders niet in hadden gestaan. Daarom staat de terugval nu **aan** voor D/E
+en C, en juist ook voor de ingetrokken erkenningen: daar is het CBF-bestand er vaak niet
+meer (10 van de 14) en is de eigen site alles wat er nog is.
+
+Let op de grens: hij helpt vooral waar het CBF-bestand alléén het bestuursverslag bevat —
+dan staat de jaarrekening mét verklaring wél op de eigen site. Het boekjaar wordt daarbij
+altijd in de tekst gecontroleerd (`stichtingen.bevat_boekjaar()`), want anders boek je de
+accountant van 2023 op boekjaar 2024.
+
 ## Zo laad je de sector: de lus
 
-Niet één bulk-run van 77 blokken, maar een terugkerende ronde die er steeds een paar doet.
+Niet één bulk-run van 133 blokken, maar een terugkerende ronde die er steeds een paar doet.
 `pipeline/lus.py` houdt de werkvoorraad bij in `pipeline/werkvoorraad/stichtingen.json`,
 en de workflow *Stichtingenlus* draait vier keer per dag een ronde:
 
@@ -456,10 +504,27 @@ en de workflow *Stichtingenlus* draait vier keer per dag een ronde:
 4. de website verversen (Vercel deploy hook) zodat het er meteen op staat
 ```
 
-De werkvoorraad is 77 blokken: 42 voor categorie D/E (6 blokken × 7 boekjaren), 28 voor
-categorie C, en 7 voor de ingetrokken erkenningen. Eén ronde is standaard zes blokken en
-dus precies één jaargang D/E. Op vier rondes per dag is de hele sector in ongeveer drie
-dagen binnen, met dertien leesmomenten onderweg.
+De werkvoorraad is **133 blokken** over vier populaties, elk × 7 boekjaren:
+
+| Populatie | organisaties | blokken | terugval | opbrengst per jaargang (bj. 2024) |
+|---|---|---|---|---|
+| categorie D/E, actief | 295 | 42 | ja | 194 opdrachten, 47 review |
+| categorie C, actief | 157 | 28 | ja | 20 opdrachten, 11 review |
+| ingetrokken erkenning (A–E) | 110 | 21 | ja | 2 opdrachten (gemeten op de 14 uit D/E) |
+| categorie A/B, actief | 262 | 42 | nee | 2 opdrachten, 5 review |
+
+Eén ronde is standaard zes blokken en dus precies één jaargang D/E. Op vier rondes per dag
+is de hele sector in ongeveer **vijf dagen** binnen, met een leesmoment per ronde.
+
+**Een nieuwe populatie toevoegen = één regel in `POPULATIES` in `pipeline/lus.py`.** De lus
+draait `lus.py plan` aan het begin van elke ronde, en dat is bewust: de code zegt welke
+blokken er zijn, de databranch wat er al gedaan is. `plan` laat elke uitkomst staan en
+voegt alleen toe wat er nog niet was. Zonder die stap zou een populatie die je op `main`
+toevoegt nooit meelopen, want bij het samenvoegen wint de werkvoorraad van de databranch.
+Om dezelfde reden verversen bestaande blokken hun omschrijving (categorieën, soorten,
+terugval) uit de code — anders staat er iets in `POPULATIES` dat niet gebeurt. Eén grens:
+een blok dat al `klaar` is wordt niet opnieuw gedraaid. Wil je een afgeronde populatie met
+nieuwe instellingen overdoen, geef hem dan een nieuwe `sleutel`.
 
 De volgorde is niet willekeurig: eerst D/E, en daarbinnen **boekjaar 2024 en dan 2023**.
 Pas als twee opeenvolgende jaargangen binnen zijn, kan de site een accountantswisseling
@@ -501,11 +566,18 @@ kapot: de lader kijkt per organisatie-boekjaar in de database of het er al staat
 
 Verwachting over 2019–2025: de drie gemeten jaargangen D/E leverden samen **518
 opdrachten** (194 + 176 + 148). Met de lagere dekking van 2019–2021, het nog halfvolle
-2025, plus categorie C en de ingetrokken erkenningen komt de hele reeks neer op in de orde
-van **1.100 opdrachtrijen** — genoeg voor een sectorpagina, marktaandelen en een
+2025, plus categorie C (±20 per jaargang), de ingetrokken erkenningen, categorie A/B
+(±2 per jaargang) en de terugval (±1 per blok) komt de hele reeks neer op in de orde van
+**1.200 opdrachtrijen** — genoeg voor een sectorpagina, marktaandelen en een
 wisselingenoverzicht met enkele tientallen wisselingen. Reken op ±2 GB aan downloads,
 verspreid over de rondes (de lader gooit de pdf's na het lezen weg, tenzij je
 `--bewaar-pdf` meegeeft).
+
+Die orde van grootte is een optelsom van gemeten jaargangen en niet van geschatte; de
+onzekerheid zit in 2019–2021, waar de dekking van het CBF-archief lager is en waar de
+terugval juist méér kan opleveren omdat er meer gaten zijn. `lus.py stand` houdt de
+werkelijke opbrengst per boekjaar bij, dus na een paar rondes hoeft er niets meer geschat
+te worden.
 
 De oudere workflow *Stichtingendata laden* blijft staan voor een gerichte handmatige run
 (één boekjaar, een eigen categorie, of met `--terugval`). De lus is de standaardweg.
@@ -516,11 +588,12 @@ De oudere workflow *Stichtingendata laden* blijft staan voor een gerichte handma
    verbreding, en dat blijft het advies — de lus verandert daar niets aan, die staat nu
    alleen klaar en kan zonder toezicht doorlopen.
 2. **Dan de lus aanzetten.** Hij begint bij categorie D/E, boekjaar 2024 en 2023, en
-   werkt vanzelf door naar categorie C en de ingetrokken erkenningen. Elke ronde is
-   klein genoeg om na te lopen; na twee rondes staan de eerste wisselingen op de site.
+   werkt vanzelf door naar categorie C, de ingetrokken erkenningen en ten slotte de
+   staart A/B. Elke ronde is klein genoeg om na te lopen; na twee rondes staan de
+   eerste wisselingen op de site.
 3. **Daarna pas verbreden** naar de verticals uit route 3 (woningcorporaties eerst).
-   Categorie A/B is geen verbreding maar ruis: onder €200k baten is er geen verklaring
-   om te vinden.
+   Binnen het CBF-register valt er dan niets meer te halen: de lus dekt alle 826
+   vermeldingen.
 4. **De review-queue leeghalen** hoort bij het werk: elke onbekende kantoornaam die
    erin belandt, komt met kandidaat-namen uit de tekst en kan met één regel in
    `seed/kantoren_overig.csv` (of `kantoor_alias.csv`) worden afgehandeld. Zo wordt de

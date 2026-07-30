@@ -10,8 +10,722 @@
     2019
   ],
   "bron": "cbf",
-  "gepland_op": "2026-07-30 07:42",
+  "gepland_op": "2026-07-30 08:03",
   "taken": [
+    {
+      "aantal": 50,
+      "boekjaar": 2019,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2019-01",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 0
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2019,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2019-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 50
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2019,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2019-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2019,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2019-04",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 150
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2019,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2019-05",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 200
+    },
+    {
+      "aantal": 12,
+      "boekjaar": 2019,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2019-06",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 250
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2020,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2020-01",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 0
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2020,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2020-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 50
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2020,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2020-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2020,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2020-04",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 150
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2020,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2020-05",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 200
+    },
+    {
+      "aantal": 12,
+      "boekjaar": 2020,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2020-06",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 250
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2021,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2021-01",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 0
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2021,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2021-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 50
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2021,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2021-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2021,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2021-04",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 150
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2021,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2021-05",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 200
+    },
+    {
+      "aantal": 12,
+      "boekjaar": 2021,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2021-06",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 250
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2022,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2022-01",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 0
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2022,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2022-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 50
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2022,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2022-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2022,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2022-04",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 150
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2022,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2022-05",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 200
+    },
+    {
+      "aantal": 12,
+      "boekjaar": 2022,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2022-06",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 250
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2023,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2023-01",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 0
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2023,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2023-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 50
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2023,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2023-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2023,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2023-04",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 150
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2023,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2023-05",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 200
+    },
+    {
+      "aantal": 12,
+      "boekjaar": 2023,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2023-06",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 250
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2024,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2024-01",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 0
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2024,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2024-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 50
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2024,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2024-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2024,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2024-04",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 150
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2024,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2024-05",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 200
+    },
+    {
+      "aantal": 12,
+      "boekjaar": 2024,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2024-06",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 250
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2025,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2025-01",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 0
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2025,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2025-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 50
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2025,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2025-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2025,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2025-04",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 150
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2025,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2025-05",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 200
+    },
+    {
+      "aantal": 12,
+      "boekjaar": 2025,
+      "categorieen": "A,B",
+      "erkenning": "actief",
+      "gedraaid_op": null,
+      "id": "ab-2025-06",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "categorie A/B, actieve erkenning",
+      "prioriteit": 40,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": false,
+      "vanaf": 250
+    },
     {
       "aantal": 50,
       "boekjaar": 2019,
@@ -26,6 +740,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -42,6 +757,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -58,6 +774,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -74,6 +791,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -90,6 +808,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -106,6 +825,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -122,6 +842,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -138,6 +859,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -154,6 +876,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -170,6 +893,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -186,6 +910,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -202,6 +927,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -218,6 +944,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -234,6 +961,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -250,6 +978,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -266,6 +995,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -282,6 +1012,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -298,6 +1029,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -314,6 +1046,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -330,6 +1063,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -346,6 +1080,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -362,6 +1097,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -378,6 +1114,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -394,6 +1131,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -410,6 +1148,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -426,6 +1165,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -442,6 +1182,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -458,6 +1199,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -474,6 +1216,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -490,6 +1233,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -506,6 +1250,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -522,6 +1267,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -538,6 +1284,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 200
     },
     {
@@ -554,6 +1301,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 250
     },
     {
@@ -570,6 +1318,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -586,6 +1335,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -602,6 +1352,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -618,6 +1369,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -634,6 +1386,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 200
     },
     {
@@ -650,6 +1403,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 250
     },
     {
@@ -666,6 +1420,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -682,6 +1437,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -698,6 +1454,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -714,6 +1471,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -730,6 +1488,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 200
     },
     {
@@ -746,6 +1505,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 250
     },
     {
@@ -762,6 +1522,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -778,6 +1539,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -794,6 +1556,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -810,6 +1573,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -826,6 +1590,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 200
     },
     {
@@ -842,6 +1607,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 250
     },
     {
@@ -858,6 +1624,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -874,6 +1641,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -890,6 +1658,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -906,6 +1675,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -922,6 +1692,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 200
     },
     {
@@ -938,6 +1709,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 250
     },
     {
@@ -954,6 +1726,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -970,6 +1743,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -986,6 +1760,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -1002,6 +1777,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -1018,6 +1794,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 200
     },
     {
@@ -1034,6 +1811,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 250
     },
     {
@@ -1050,6 +1828,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
@@ -1066,6 +1845,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 50
     },
     {
@@ -1082,6 +1862,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 100
     },
     {
@@ -1098,6 +1879,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 150
     },
     {
@@ -1114,6 +1896,7 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 200
     },
     {
@@ -1130,119 +1913,365 @@
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 250
     },
     {
-      "aantal": 32,
+      "aantal": 50,
       "boekjaar": 2019,
-      "categorieen": "C,D,E",
+      "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
       "gedraaid_op": null,
       "id": "ingetrokken-2019-01",
       "minuten": null,
       "pogingen": 0,
-      "populatie": "ingetrokken erkenning (C/D/E)",
+      "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
-      "aantal": 32,
+      "aantal": 50,
+      "boekjaar": 2019,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2019-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 50
+    },
+    {
+      "aantal": 11,
+      "boekjaar": 2019,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2019-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
       "boekjaar": 2020,
-      "categorieen": "C,D,E",
+      "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
       "gedraaid_op": null,
       "id": "ingetrokken-2020-01",
       "minuten": null,
       "pogingen": 0,
-      "populatie": "ingetrokken erkenning (C/D/E)",
+      "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
-      "aantal": 32,
+      "aantal": 50,
+      "boekjaar": 2020,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2020-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 50
+    },
+    {
+      "aantal": 11,
+      "boekjaar": 2020,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2020-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
       "boekjaar": 2021,
-      "categorieen": "C,D,E",
+      "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
       "gedraaid_op": null,
       "id": "ingetrokken-2021-01",
       "minuten": null,
       "pogingen": 0,
-      "populatie": "ingetrokken erkenning (C/D/E)",
+      "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
-      "aantal": 32,
+      "aantal": 50,
+      "boekjaar": 2021,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2021-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 50
+    },
+    {
+      "aantal": 11,
+      "boekjaar": 2021,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2021-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
       "boekjaar": 2022,
-      "categorieen": "C,D,E",
+      "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
       "gedraaid_op": null,
       "id": "ingetrokken-2022-01",
       "minuten": null,
       "pogingen": 0,
-      "populatie": "ingetrokken erkenning (C/D/E)",
+      "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
-      "aantal": 32,
+      "aantal": 50,
+      "boekjaar": 2022,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2022-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 50
+    },
+    {
+      "aantal": 11,
+      "boekjaar": 2022,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2022-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
       "boekjaar": 2023,
-      "categorieen": "C,D,E",
+      "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
       "gedraaid_op": null,
       "id": "ingetrokken-2023-01",
       "minuten": null,
       "pogingen": 0,
-      "populatie": "ingetrokken erkenning (C/D/E)",
+      "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
-      "aantal": 32,
+      "aantal": 50,
+      "boekjaar": 2023,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2023-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 50
+    },
+    {
+      "aantal": 11,
+      "boekjaar": 2023,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2023-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
       "boekjaar": 2024,
-      "categorieen": "C,D,E",
+      "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
       "gedraaid_op": null,
       "id": "ingetrokken-2024-01",
       "minuten": null,
       "pogingen": 0,
-      "populatie": "ingetrokken erkenning (C/D/E)",
+      "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
     },
     {
-      "aantal": 32,
+      "aantal": 50,
+      "boekjaar": 2024,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2024-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 50
+    },
+    {
+      "aantal": 11,
+      "boekjaar": 2024,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2024-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 100
+    },
+    {
+      "aantal": 50,
       "boekjaar": 2025,
-      "categorieen": "C,D,E",
+      "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
       "gedraaid_op": null,
       "id": "ingetrokken-2025-01",
       "minuten": null,
       "pogingen": 0,
-      "populatie": "ingetrokken erkenning (C/D/E)",
+      "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
       "status": "open",
       "telling": {},
+      "terugval": true,
       "vanaf": 0
+    },
+    {
+      "aantal": 50,
+      "boekjaar": 2025,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2025-02",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 50
+    },
+    {
+      "aantal": 11,
+      "boekjaar": 2025,
+      "categorieen": "A,B,C,D,E",
+      "erkenning": "ingetrokken",
+      "gedraaid_op": null,
+      "id": "ingetrokken-2025-03",
+      "minuten": null,
+      "pogingen": 0,
+      "populatie": "ingetrokken erkenning (alle categorieën)",
+      "prioriteit": 30,
+      "soorten": "controle",
+      "status": "open",
+      "telling": {},
+      "terugval": true,
+      "vanaf": 100
     }
   ]
 }
