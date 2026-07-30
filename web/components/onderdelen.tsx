@@ -84,6 +84,33 @@ export function Doorklik({
   );
 }
 
+/**
+ * De staart van een lange lijst, achter één klik.
+ *
+ * Een tabel van honderden regels is op een telefoon geen lijst meer maar een muur:
+ * je scrolt eindeloos langs iets waar je niet om vroeg, en de rest van de pagina
+ * raakt onbereikbaar. De eerste regels staan open, de staart zit hierin.
+ *
+ * Bewust `<details>` en geen uitklap-knop in JavaScript: het werkt zonder, het is
+ * met toetsenbord te openen, en de links blijven in de HTML staan — zoekmachines
+ * en Ctrl-F vinden ze dus alsnog. Dat laatste is precies waarom we de staart
+ * inklappen en niet weglaten.
+ */
+export function Inklapbaar({
+  samenvatting,
+  children,
+}: {
+  samenvatting: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <details className="inklapbaar">
+      <summary>{samenvatting}</summary>
+      {children}
+    </details>
+  );
+}
+
 /** Nette melding als de database niet bereikbaar is of leeg blijkt. */
 export function Foutmelding({ fout }: { fout: unknown }) {
   const tekst = fout instanceof Error ? fout.message : String(fout);

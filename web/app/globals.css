@@ -272,6 +272,70 @@ tr.wissel:hover td {
   font-size: 0.85rem;
 }
 
+/* ------------------------------------------------------- inklapbare staart */
+
+/* De staart van een lange lijst; zie components/onderdelen.tsx. */
+.inklapbaar {
+  border-top: 1px solid var(--lijn);
+  margin-top: 0.2rem;
+}
+.inklapbaar > summary {
+  cursor: pointer;
+  padding: 0.55rem 0;
+  color: var(--link);
+  font-size: 0.9rem;
+  /* Eigen driehoekje in plaats van de standaard van de browser, zodat het er in
+     Safari en Chrome hetzelfde uitziet. */
+  list-style: none;
+}
+.inklapbaar > summary::-webkit-details-marker {
+  display: none;
+}
+.inklapbaar > summary::before {
+  content: "▸";
+  color: var(--inkt-zacht);
+  margin-right: 0.45rem;
+}
+.inklapbaar[open] > summary::before {
+  content: "▾";
+}
+.inklapbaar > summary:hover {
+  text-decoration: underline;
+}
+.inklapbaar > summary:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------- letterbalk A–Z */
+
+.letterbalk {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.35rem;
+  margin: 0.8rem 0 0;
+}
+.letterbalk a {
+  min-width: 1.75rem;
+  padding: 0.2rem 0.35rem;
+  border: 1px solid var(--lijn);
+  border-radius: 4px;
+  background: var(--wit);
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.letterbalk a:hover {
+  border-color: var(--lijn-sterk);
+  background: var(--vlak);
+}
+
+/* Zodat een letter niet onder de vaste kopbalk landt na een sprong. */
+.kaart[id] {
+  scroll-margin-top: 1rem;
+}
+
 /* ------------------------------------------------------------ doorklikken */
 
 /* De harde UI-regel uit docs/visie.md: elke pagina minimaal 5 vervolgklikken. */

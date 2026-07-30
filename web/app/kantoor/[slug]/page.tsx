@@ -19,9 +19,17 @@ import {
   organisatiePad,
   sectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg, Oordeel } from "@/components/onderdelen";
+import { Doorklik, Foutmelding, Inklapbaar, Leeg, Oordeel } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
+
+/**
+ * Zoveel cliënten staan open; de staart zit achter een klik. Een groot kantoor
+ * heeft er honderden, en die stonden allemaal uitgeschreven onder de pagina.
+ * De lijst is op laatste boekjaar gesorteerd, dus wat openstaat is het meest
+ * actuele deel.
+ */
+const CLIENTEN_OPEN = 25;
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
@@ -60,6 +68,44 @@ export default async function Kantoorpagina({ params }: Params) {
   const concurrenten = boekjaar
     ? (await actieveKantoren(boekjaar)).filter((r) => r.kantoor_id !== kantoor.id)
     : [];
+
+  // Eén keer opbouwen, twee keer gebruiken: het actuele deel open, de rest
+  // ingeklapt. De kop is hetzelfde element in beide tabellen.
+  const clientkop = (
+    <thead>
+      <tr>
+        <th>Organisatie</th>
+        <th>Plaats</th>
+        <th>Opdracht</th>
+        <th>Boekjaren</th>
+        <th className="getal">Duur</th>
+        <th>Laatste oordeel</th>
+      </tr>
+    </thead>
+  );
+  const clientrijen = clienten.map((client) => (
+    <tr key={client.organisatieId}>
+      <td>
+        <Link
+          href={organisatiePad({
+            kvk_nummer: client.kvkNummer,
+            naam: client.naam,
+          })}
+        >
+          {client.naam}
+        </Link>
+      </td>
+      <td className="zacht">{client.gemeente ?? "—"}</td>
+      <td className="zacht klein">
+        {OPDRACHT_LABEL[client.typeLaatste] ?? client.typeLaatste}
+      </td>
+      <td className="jaar">{jarenReeks(client.jaren)}</td>
+      <td className="getal zacht">{aantalJaren(client.jaren.length)}</td>
+      <td>
+        <Oordeel waarde={client.oordeelLaatste} />
+      </td>
+    </tr>
+  ));
 
   return (
     <>
@@ -169,45 +215,26 @@ export default async function Kantoorpagina({ params }: Params) {
         {clienten.length === 0 ? (
           <Leeg tekst="Nog geen cliënten van dit kantoor in de database." />
         ) : (
-          <div className="tabel-omhulsel">
-            <table>
-              <thead>
-                <tr>
-                  <th>Organisatie</th>
-                  <th>Plaats</th>
-                  <th>Opdracht</th>
-                  <th>Boekjaren</th>
-                  <th className="getal">Duur</th>
-                  <th>Laatste oordeel</th>
-                </tr>
-              </thead>
-              <tbody>
-                {clienten.map((client) => (
-                  <tr key={client.organisatieId}>
-                    <td>
-                      <Link
-                        href={organisatiePad({
-                          kvk_nummer: client.kvkNummer,
-                          naam: client.naam,
-                        })}
-                      >
-                        {client.naam}
-                      </Link>
-                    </td>
-                    <td className="zacht">{client.gemeente ?? "—"}</td>
-                    <td className="zacht klein">
-                      {OPDRACHT_LABEL[client.typeLaatste] ?? client.typeLaatste}
-                    </td>
-                    <td className="jaar">{jarenReeks(client.jaren)}</td>
-                    <td className="getal zacht">{aantalJaren(client.jaren.length)}</td>
-                    <td>
-                      <Oordeel waarde={client.oordeelLaatste} />
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <>
+            <div className="tabel-omhulsel">
+              <table>
+                {clientkop}
+                <tbody>{clientrijen.slice(0, CLIENTEN_OPEN)}</tbody>
+              </table>
+            </div>
+            {clientrijen.length > CLIENTEN_OPEN ? (
+              <Inklapbaar
+                samenvatting={`Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten uit eerdere boekjaren`}
+              >
+                <div className="tabel-omhulsel">
+                  <table>
+                    {clientkop}
+                    <tbody>{clientrijen.slice(CLIENTEN_OPEN)}</tbody>
+                  </table>
+                </div>
+              </Inklapbaar>
+            ) : null}
+          </>
         )}
       </section>
 

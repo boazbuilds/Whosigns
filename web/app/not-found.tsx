@@ -11,7 +11,7 @@ export const metadata: Metadata = { title: "Niet gevonden" };
  * weggaat.
  */
 export default async function NietGevonden() {
-  const organisaties = await alleOrganisaties().catch(() => []);
+  const organisaties = await alleOrganisaties(4).catch(() => []);
 
   return (
     <>

@@ -17,7 +17,9 @@ export default async function Wisselingenpagina() {
   try {
     const boekjaar = await nieuwsteBoekjaar();
     [rijen, kantoren] = await Promise.all([
-      wisselingen({ limiet: 200 }),
+      // Zonder limiet: deze pagina heet "alle wisselingen" en de kop noemt het
+      // aantal. Met een vaste grens van 200 stond daar "200" zodra er meer waren.
+      wisselingen(),
       boekjaar ? actieveKantoren(boekjaar) : Promise.resolve([]),
     ]);
   } catch (fout) {
@@ -123,7 +125,7 @@ export default async function Wisselingenpagina() {
             toelichting: "gewonnen en verloren opdrachten",
           })),
           { naar: sectorPad("zorg"), tekst: "Marktaandelen in de zorg" },
-          { naar: "/", tekst: "Alle organisaties" },
+          { naar: "/organisaties", tekst: "Alle organisaties" },
         ]}
       />
     </>
