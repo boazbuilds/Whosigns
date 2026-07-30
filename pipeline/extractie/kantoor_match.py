@@ -210,8 +210,14 @@ _GEEN_ONDERTEKENING = (
     "lid van de raad", "was a member", "was lid", "partner bij", "voormalig",
     "hold ourselves", "curriculum", "nevenfuncties", "loopbaan",
     "accountant bij", "werkzaam bij", "rooster van aftreden", "bestuurslid",
-    "penningmeester", "secretaris", "hoofdfunctie", "works at",
+    "penningmeester", "secretaris", "hoofdfunctie", "works at", "moderamen",
 )
+
+# "… vaktechniek bij Baker Tilly Netherlands N.V.", "… partner at Deloitte": het woord
+# vlak vóór de naam verraadt een werkgever in plaats van een ondertekenaar. Let op:
+# "van" hoort hier NIET bij — "de controleverklaring van Kaap Hoorn Audit & Assurance
+# B.V." is juist een echte ondertekening.
+_WERKGEVER = re.compile(r"\b(?:bij|at)\s*$")
 
 # Vanaf welke score noemen we een naam de ondertekenaar? De onderbouwing hierboven
 # levert 4 (datum ervoor), 3 (oordeelparagraaf ervoor) of 2 (ondertekeningsformule) op;
@@ -230,14 +236,26 @@ def _contextscore(tekst: str, positie: int, lengte: int) -> int:
     rondom = tekst[max(0, positie - 120):positie + lengte + 220]
 
     score = 0
+    # Krap venster: een ondertekening is "plaats, datum <kantoornaam>" en die staan
+    # tegen elkaar aan. Met 160 tekens leende een datum uit de KPMG-stempel zijn
+    # geloofwaardigheid uit aan een naam die er verderop toevallig achter stond.
     datums = list(_DATUM.finditer(voor))
-    if datums and len(voor) - datums[-1].end() <= 160:
+    if datums and len(voor) - datums[-1].end() <= 60:
         score += 4
+    # Andersom komt ook voor: "Kaap Hoorn Audit & Assurance B.V. Rotterdam, 3 mei 2025"
+    # — eerst het kantoor, dan plaats en datum.
+    elif (datum_na := _DATUM.search(tekst[positie + lengte:positie + lengte + 60])):
+        score += 3 if datum_na.start() < 40 else 0
     if any(woord in ruim_voor for woord in _OORDEEL_DAVOOR):
         score += 3
     if any(woord in rondom for woord in _ONDERTEKENING):
         score += 2
     if any(woord in voor for woord in _GEEN_ONDERTEKENING):
+        score -= 4
+    # "... bureau vaktechniek bij Baker Tilly Netherlands N.V." — een accountant
+    # ondertekent nooit met "bij" ervoor; dat is altijd iemands werkgever. Deze ene
+    # regel vangt wat de zinnenlijst hierboven per geval moet bijhouden.
+    if _WERKGEVER.search(voor):
         score -= 4
     return score
 
