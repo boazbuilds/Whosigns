@@ -169,11 +169,22 @@ def main() -> int:
         # `in.(…)` op ten hoogste een blok is één verzoek van vijftig rijen.
         kvks = [o["kvknummer"] for o in werklijst if o.get("kvknummer")]
         if kvks and not argumenten.herlaad:
-            bestaand = db.selecteer_alles(
-                "opdrachten",
-                f"select=organisaties!inner(kvk_nummer)&boekjaar=eq.{boekjaar}"
-                f"&organisaties.kvk_nummer=in.({','.join(kvks)})",
-            )
+            try:
+                bestaand = db.selecteer_alles(
+                    "opdrachten",
+                    f"select=organisaties!inner(kvk_nummer)&boekjaar=eq.{boekjaar}"
+                    f"&organisaties.kvk_nummer=in.({','.join(kvks)})",
+                )
+            except SupabaseFout as fout:
+                # Filteren op een kolom van een gekoppelde tabel vraagt om `!inner`
+                # en een PostgREST dat dat aankan. Struikelt hij erover, dan is de
+                # brede vraag nog altijd goed — alleen duurder. Dit mag een lus die
+                # onbeheerd draait niet op zijn eerste blok laten stranden.
+                print(f"  gerichte vraag mislukt ({fout}); alle opdrachten opvragen")
+                bestaand = db.selecteer_alles(
+                    "opdrachten",
+                    f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}",
+                )
             al_geladen = {
                 (r.get("organisaties") or {}).get("kvk_nummer") for r in bestaand
             } - {None}
