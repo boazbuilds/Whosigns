@@ -6,6 +6,7 @@ Draaien vanuit de repo-root:
     python3 pipeline/verken_stichtingen.py extractie 2024 40 # komt het kantoor eruit?
     python3 pipeline/verken_stichtingen.py koppeling         # CBF ↔ ANBI op RSIN
     python3 pipeline/verken_stichtingen.py oogst 2024        # welke kantoren missen we?
+    python3 pipeline/verken_stichtingen.py wisselingen 2023 2024   # wie wisselde?
 
 Dit is het zusje van `valideer_extractie.py` (dat hetzelfde doet voor de zorg): een
 herhaalbare meting die de cijfers in `docs/bronverkenning-stichtingen.md` reproduceert.
@@ -236,6 +237,47 @@ def oogst(boekjaar: int, maximum: int = 0) -> int:
     return 0
 
 
+def wisselingen(eerste: int, tweede: int) -> int:
+    """Wie wisselde van accountant tussen twee boekjaren? Uit de droogloop-rapporten.
+
+    De database heeft hiervoor `v_wisselingen`, maar dat werkt pas ná het laden. Deze
+    modus vergelijkt de CSV-rapporten van twee droogloop-runs, zodat je vóór het
+    laden al ziet of de sector oplevert wat we ervan verwachten — en of een
+    "wisseling" niet gewoon een extractiefout is.
+
+        python3 pipeline/laad_stichtingen.py --boekjaar 2023 --droogloop
+        python3 pipeline/laad_stichtingen.py --boekjaar 2024 --droogloop
+        python3 pipeline/verken_stichtingen.py wisselingen 2023 2024
+    """
+    def lees(boekjaar: int) -> dict[str, dict]:
+        pad = CACHE / f"resultaat_stichtingen_{boekjaar}.csv"
+        if not pad.exists():
+            raise SystemExit(f"geen rapport voor {boekjaar}: draai eerst de droogloop ({pad})")
+        with pad.open(encoding="utf-8") as f:
+            # Bij hervatten wordt aangevuld; de laatste regel per organisatie telt.
+            return {r["naam"]: r for r in csv.DictReader(f)}
+
+    oud, nieuw = lees(eerste), lees(tweede)
+    beide = [n for n in nieuw if n in oud]
+    met_kantoor = [
+        n for n in beide if oud[n]["kantoor"] and nieuw[n]["kantoor"]
+    ]
+    gewisseld = [n for n in met_kantoor if oud[n]["kantoor"] != nieuw[n]["kantoor"]]
+
+    print(f"organisaties in beide rapporten:        {len(beide)}")
+    print(f"met een kantoor in beide boekjaren:     {len(met_kantoor)}")
+    print(f"**ander kantoor in {tweede} dan in {eerste}: {len(gewisseld)}**\n")
+    for naam in sorted(gewisseld):
+        print(
+            f"  {naam[:34]:36} {oud[naam]['kantoor'][:30]:32} → "
+            f"{nieuw[naam]['kantoor'][:30]}"
+        )
+    if met_kantoor:
+        deel = 100 * len(gewisseld) / len(met_kantoor)
+        print(f"\nwisselpercentage: {deel:.1f}% van de vergelijkbare relaties")
+    return 0
+
+
 def koppeling() -> int:
     """Hebben de erkende goede doelen een ANBI-beschikking (en dus een website)?"""
     print("ANBI-bestand downloaden…")
@@ -261,6 +303,8 @@ if __name__ == "__main__":
     modus = sys.argv[1] if len(sys.argv) > 1 else "dekking"
     if modus == "koppeling":
         raise SystemExit(koppeling())
+    if modus == "wisselingen":
+        raise SystemExit(wisselingen(int(sys.argv[2]), int(sys.argv[3])))
     jaar = int(sys.argv[2]) if len(sys.argv) > 2 else 2024
     if modus == "dekking":
         raise SystemExit(dekking(jaar))
