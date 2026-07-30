@@ -46,6 +46,13 @@ def _bestandsnaam(sleutel: str, boekjaar: int, achtervoegsel: str = "") -> Path:
 
 def _opdrachttype(resultaat: dict) -> str:
     """Vaststellen in plaats van aannemen; zie de moduletoelichting."""
+    soort = resultaat.get("soort")
+    if soort != "controle":
+        # Een beoordeling (Standaard 2400) of samenstelling is een ander soort
+        # opdracht, geen jaarrekeningcontrole. Het type is dus wat er staat — de
+        # views in supabase/migrations/ tellen alleen de twee controlevormen mee,
+        # en web/lib/paden.ts kent deze labels al.
+        return soort
     kantoor = resultaat["kantoor"]
     if not kantoor.get("wta_vergunning"):
         # Zonder vergunning mág het geen wettelijke controle zijn.
@@ -79,15 +86,25 @@ def bevat_boekjaar(tekst: str, boekjaar: int) -> bool:
     )
 
 
-def _uit_tekst(tekst: str, kantoor_index: dict, vindplaats: str) -> dict | None:
+def _uit_tekst(
+    tekst: str,
+    kantoor_index: dict,
+    vindplaats: str,
+    soorten: tuple[str, ...] = ("controle",),
+) -> dict | None:
     resultaat = analyseer(tekst, kantoor_index)
-    if resultaat["soort"] != "controle":
+    if resultaat["soort"] not in soorten:
         return None
     return {
         "soort": resultaat["soort"],
         "opdrachttype": _opdrachttype(resultaat) if resultaat["kantoor"] else None,
         "voorwerp": resultaat["opdrachttype"],
         "oordeel": resultaat["oordeel"],
+        # Waar een beperking over gaat (wnt | inhoudelijk | None). In de zorg bleek
+        # dat het verschil tussen een golf WNT-formaliteiten en een echte bevinding
+        # over de jaarrekening; hier is het net zo belangrijk, want "oordeel met
+        # beperking" naast de naam van een goed doel leest als een aanklacht.
+        "grond_beperking": resultaat["grond_beperking"],
         "continuiteitsonzekerheid": bool(resultaat["continuiteitsonzekerheid"]),
         "kantoor": resultaat["kantoor"],
         "kandidaten": resultaat["kandidaten"],
@@ -102,15 +119,22 @@ def verwerk_organisatie(
     terugval: bool = False,
     website: str = "",
     bewaar_pdf: bool = True,
+    soorten: tuple[str, ...] = ("controle",),
 ) -> dict:
     """Eén goed doel, één boekjaar. Geeft altijd een dict met `status`.
 
     `status`:
       - `opdracht`      kantoor herleid; `kantoor`, `oordeel` enz. zijn gevuld
-      - `review`        controleverklaring gevonden, kantoor onbekend (met `kandidaten`)
-      - `geen_controle` wel een verslag, maar geen controleverklaring erin
+      - `review`        gezochte verklaring gevonden, kantoor onbekend (met `kandidaten`)
+      - `geen_controle` wel een verslag, maar niet de gezochte verklaring erin
       - `geen_verslag`  niets te vinden bij het CBF, en ook niet op de eigen site
       - `onleesbaar`    pdf zonder tekstlaag (gescand)
+
+    `soorten` zijn de verklaringsoorten die een opdracht-rij mogen worden. Voor
+    categorie D/E is dat `controle`; voor categorie C ook `beoordeling`, want daar
+    eist de Erkenningsregeling geen controle. Wat er niet in staat, levert bewust
+    niets op: een samenstellingsverklaring per ongeluk als controle boeken is
+    precies het soort stille aanname dat dit project niet doet.
 
     `terugval=True` zoekt bij een leeg of onbruikbaar CBF-bestand ook op de eigen
     website van de organisatie (`website`, uit het ANBI-bestand). Dat kost extra
@@ -138,12 +162,14 @@ def verwerk_organisatie(
         if len(tekst.strip()) < 50:
             tekstloos = True
         else:
-            gevonden = _uit_tekst(tekst, kantoor_index, cbf.jaarverslag_url(naam, boekjaar))
+            gevonden = _uit_tekst(
+                tekst, kantoor_index, cbf.jaarverslag_url(naam, boekjaar), soorten
+            )
             if gevonden and gevonden["kantoor"]:
                 return {**basis, "status": "opdracht", **gevonden}
             if gevonden:
                 return {**basis, "status": "review", **gevonden}
-            basis["reden"] = "jaarverslag zonder controleverklaring"
+            basis["reden"] = f"jaarverslag zonder {'/'.join(soorten)}verklaring"
 
     if terugval and website:
         for document in anbi_publicatie.zoek_documenten(website, boekjaar):
@@ -163,7 +189,7 @@ def verwerk_organisatie(
                     f"stuk op de eigen site gaat niet over boekjaar {boekjaar}"
                 )
                 continue
-            gevonden = _uit_tekst(tekst, kantoor_index, document["url"])
+            gevonden = _uit_tekst(tekst, kantoor_index, document["url"], soorten)
             if gevonden and gevonden["kantoor"]:
                 return {**basis, "status": "opdracht", **gevonden}
             if gevonden:

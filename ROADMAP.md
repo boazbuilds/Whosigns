@@ -244,12 +244,20 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
    KvK-jaarrekeningen — ontsluit het bedrijfsleven op naam ("data on demand")
 3. Verticals: ANBI's/CBF-goede doelen, woningcorporaties, gemeenten/provincies/
    waterschappen, pensioenfondsen, fondsen. **Stichtingen/NGO's zijn klaar om te
-   laden**: route uitgezocht en gemeten in `docs/bronverkenning-stichtingen.md`,
-   pipeline in `laad_stichtingen.py`, workflow *Stichtingendata laden*. Gemeten:
-   194 opdrachten in boekjaar 2024, 176 in 2023, 148 in 2022 (81% van de
-   controleverklaringen) — met 16 accountantswisselingen over die drie jaargangen.
-   Zodra de zorgsector af is: workflow starten met boekjaren 2019–2025. Kantoren
-   zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8)
+   laden, en het laden loopt nu als een lus**: route uitgezocht en gemeten in
+   `docs/bronverkenning-stichtingen.md`, pipeline in `laad_stichtingen.py`,
+   werkvoorraad en rondes in `pipeline/lus.py`, workflow *Stichtingenlus*
+   (vier rondes per dag; per ronde één commit op `data/stichtingenlus` en een
+   ververste website). Gemeten: 194 opdrachten in boekjaar 2024, 176 in 2023,
+   148 in 2022 (81% van de controleverklaringen) — met 16 accountantswisselingen
+   over die drie jaargangen. Daar zijn 30-7-2026 twee populaties bij gekomen die
+   op dezelfde route meeliften: **categorie C, alleen de controles** (20 opdrachten
+   per jaargang, 64% trefkans — de samenstellingen bewust niet, want die kosten 62
+   review-rijen en tellen niet mee in de marktaandelen; beslissing 9) en de
+   **ingetrokken erkenningen** (32 organisaties, een paar tientallen rijen).
+   Werkvoorraad: 77 blokken, in de orde van 1.100 opdrachtrijen, ±3 dagen.
+   Zodra de zorgsector af is: cron aanzetten. Kantoren zonder Wta-vergunning staan
+   in `seed/kantoren_overig.csv` (beslissing 8)
 4. Switch-scores / voorspelmodellen — uitdrukkelijk pas ná validatie (visie: "nog niet")
 5. Honoraria tonen + fee-benchmark (kolommen liggen klaar; art. 2:382a BW, DigiMV, DUO)
 6. Supabase Auth + geclaimde kantoorprofielen (badge "neemt cliënten aan"; datagedreven

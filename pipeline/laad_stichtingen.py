@@ -21,10 +21,14 @@ bron aanhoudt).
 Opties:
     --boekjaar N       welk boekjaar (= verslagjaar in de CBF-URL)
     --categorieen L    CBF-omvangcategorieën, komma's ertussen (standaard D,E:
-                       daar is een controleverklaring een harde norm; C levert
-                       beoordelingsverklaringen en dus geen opdrachtrijen)
+                       daar is een controleverklaring een harde norm)
+    --soorten L        welke verklaringsoorten een opdracht-rij mogen worden
+                       (standaard `controle`; voor categorie C ook `beoordeling`)
+    --erkenning W      actief (standaard), ingetrokken of alle. Ingetrokken
+                       erkenningen hebben nog jaarverslagen bij het CBF staan
     --vanaf N          sla de eerste N organisaties over (voor het opknippen)
     --aantal N         verwerk er hoogstens N
+    --rapport-json P   schrijf de tellingen als JSON naar P (voor `lus.py`)
     --terugval         zoek bij een leeg CBF-bestand ook op de eigen website
                        (ANBI-publicatieplicht); kost extra verzoeken
     --droogloop        niets naar de database schrijven, alleen een CSV-rapport
@@ -36,6 +40,10 @@ Opties:
 Idempotent: upsert op (organisatie_id, boekjaar, type_opdracht). Hervatten is
 veilig — organisatie-boekjaren die al een opdracht hebben, worden overgeslagen.
 
+`--vanaf`/`--aantal` snijden in een lijst met een vaste volgorde (`cbf.selecteer`
+sorteert op KvK-nummer), zodat blok 3 volgende week nog dezelfde organisaties
+betekent. Daar leunt `lus.py` op.
+
 Opdrachttype: standaard `vrijwillige_controle`, want bij een goed doel komt de
 controleplicht uit de Erkenningsregeling en niet uit Titel 9 BW. Zie
 `adapters/stichtingen.py` voor de onderbouwing.
@@ -43,6 +51,7 @@ controleplicht uit de Erkenningsregeling en niet uit Titel 9 BW. Zie
 
 import argparse
 import csv
+import json
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -83,8 +92,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--boekjaar", type=int, default=2024)
     parser.add_argument("--categorieen", default=",".join(cbf.CATEGORIE_MET_CONTROLE))
+    parser.add_argument("--soorten", default="controle")
+    parser.add_argument(
+        "--erkenning", default="actief", choices=("actief", "ingetrokken", "alle")
+    )
     parser.add_argument("--vanaf", type=int, default=0)
     parser.add_argument("--aantal", type=int, default=0)
+    parser.add_argument("--rapport-json", default="", dest="rapport_json")
     parser.add_argument("--terugval", action="store_true")
     parser.add_argument("--droogloop", action="store_true")
     parser.add_argument("--werkers", type=int, default=4)
@@ -101,18 +115,33 @@ def main() -> int:
         return 1
 
     categorieen = [c.strip().upper() for c in argumenten.categorieen.split(",") if c.strip()]
-    print(f"CBF-register ophalen (categorieën {', '.join(categorieen)})…", flush=True)
-    alle = cbf.organisaties()
-    organisaties = [o for o in alle if o["categorie"] in categorieen]
+    soorten = tuple(s.strip() for s in argumenten.soorten.split(",") if s.strip())
     print(
-        f"{len(alle)} organisaties met een actieve erkenning, "
-        f"{len(organisaties)} in de gekozen categorieën; boekjaar {boekjaar}",
+        f"CBF-register ophalen (categorieën {', '.join(categorieen)}, "
+        f"erkenning {argumenten.erkenning}, soorten {', '.join(soorten)})…",
+        flush=True,
+    )
+    organisaties = cbf.selecteer(categorieen, argumenten.erkenning)
+    print(
+        f"{len(organisaties)} organisaties in de doelpopulatie; boekjaar {boekjaar}",
         flush=True,
     )
     if not organisaties:
         return 1
 
-    websites = _websites(organisaties) if argumenten.terugval else {}
+    werklijst = organisaties[argumenten.vanaf:]
+    if argumenten.aantal:
+        werklijst = werklijst[: argumenten.aantal]
+    if not werklijst:
+        print(f"blok begint voorbij het einde van de lijst ({argumenten.vanaf})")
+        return 1
+    print(
+        f"blok: organisatie {argumenten.vanaf + 1} t/m "
+        f"{argumenten.vanaf + len(werklijst)} van {len(organisaties)}",
+        flush=True,
+    )
+
+    websites = _websites(werklijst) if argumenten.terugval else {}
     kantoor_index = bouw_index(laad_kantoren())
 
     db = None
@@ -133,26 +162,31 @@ def main() -> int:
         if not kantoor_id_per_sleutel:
             print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")
             return 1
-        # selecteer_alles, niet selecteer: hiermee wordt "al geladen" bepaald, en een
-        # stil afgekapte lijst laat de lader werk overdoen dat al gedaan was.
-        bestaand = db.selecteer_alles(
-            "opdrachten", f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}"
-        )
-        al_geladen = (
-            set()
-            if argumenten.herlaad
-            else {(r.get("organisaties") or {}).get("kvk_nummer") for r in bestaand} - {None}
-        )
+        # "Al geladen" alleen vragen voor de KvK-nummers van dít blok. Zonder dat
+        # filter komen alle opdrachten van een boekjaar mee — inclusief de duizenden
+        # zorgrijen die er niets mee te maken hebben. `selecteer_alles` pagineert dus
+        # door tabellen heen waar we niets aan hebben, elke ronde opnieuw. Een
+        # `in.(…)` op ten hoogste een blok is één verzoek van vijftig rijen.
+        kvks = [o["kvknummer"] for o in werklijst if o.get("kvknummer")]
+        if kvks and not argumenten.herlaad:
+            bestaand = db.selecteer_alles(
+                "opdrachten",
+                f"select=organisaties!inner(kvk_nummer)&boekjaar=eq.{boekjaar}"
+                f"&organisaties.kvk_nummer=in.({','.join(kvks)})",
+            )
+            al_geladen = {
+                (r.get("organisaties") or {}).get("kvk_nummer") for r in bestaand
+            } - {None}
         bron = db.invoegen(
             "bronnen",
             {"bron_type": "cbf", "url": cbf.REGISTER_URL, "betrouwbaarheid": "publiek"},
         )
         bron_id = bron["id"]
-        print(f"bron {bron_id}; {len(al_geladen)} organisaties al geladen", flush=True)
+        print(
+            f"bron {bron_id}; {len(al_geladen)} van {len(werklijst)} al geladen",
+            flush=True,
+        )
 
-    werklijst = organisaties[argumenten.vanaf:]
-    if argumenten.aantal:
-        werklijst = werklijst[: argumenten.aantal]
     te_doen = [o for o in werklijst if (o.get("kvknummer") or "") not in al_geladen]
 
     CACHE.mkdir(exist_ok=True)
@@ -162,11 +196,16 @@ def main() -> int:
     if rapport.tell() == 0:
         schrijver.writerow(
             ["kvk", "naam", "categorie", "sector", "boekjaar", "status",
-             "kantoor", "wta", "opdrachttype", "oordeel", "vindplaats"]
+             "kantoor", "wta", "opdrachttype", "oordeel", "grond_beperking",
+             "vindplaats"]
         )
 
     telling: dict[str, int] = {}
     per_kantoor: dict[str, int] = {}
+    # Kandidaat-namen uit de review-gevallen, geteld. Dit is de oogst waarmee
+    # seed/kantoren_overig.csv en kantoor_alias.csv groeien: een naam die vijf keer
+    # langskomt is bijna altijd een echt kantoor dat we nog niet kennen.
+    onbekend: dict[str, int] = {}
     begin = time.time()
 
     def haal_op(organisatie: dict):
@@ -178,6 +217,7 @@ def main() -> int:
                 terugval=argumenten.terugval,
                 website=websites.get(organisatie["naam"], ""),
                 bewaar_pdf=argumenten.bewaar_pdf,
+                soorten=soorten,
             )
         except Exception as fout:  # noqa: BLE001 — bron mag falen, run gaat door
             print(f"  {organisatie['naam'][:50]}: fout {fout}", flush=True)
@@ -206,12 +246,16 @@ def main() -> int:
                 kantoor.get("naam", ""),
                 "" if not kantoor else ("ja" if kantoor["wta_vergunning"] else "nee"),
                 resultaat.get("opdrachttype", ""), resultaat.get("oordeel", ""),
+                resultaat.get("grond_beperking", "") or "",
                 resultaat.get("vindplaats", resultaat.get("reden", "")),
             ])
             rapport.flush()
 
             if status == "opdracht":
                 per_kantoor[kantoor["naam"]] = per_kantoor.get(kantoor["naam"], 0) + 1
+            elif status == "review":
+                for kandidaat in resultaat.get("kandidaten", [])[:3]:
+                    onbekend[kandidaat] = onbekend.get(kandidaat, 0) + 1
 
             if db is None or not kvk:
                 continue
@@ -253,6 +297,7 @@ def main() -> int:
                         "boekjaar": boekjaar,
                         "type_opdracht": resultaat["opdrachttype"],
                         "oordeel": resultaat["oordeel"],
+                        "grond_beperking": resultaat["grond_beperking"],
                         "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
                         "bron_id": bron_id,
                     },
@@ -272,6 +317,7 @@ def main() -> int:
                             "organisatie": organisatie["naam"],
                             "kvk_nummer": kvk,
                             "boekjaar": boekjaar,
+                            "soort": resultaat.get("soort"),
                             "vindplaats": resultaat.get("vindplaats"),
                             "kandidaten": resultaat.get("kandidaten", []),
                             "oordeel": resultaat.get("oordeel"),
@@ -287,6 +333,34 @@ def main() -> int:
     for naam, aantal in sorted(per_kantoor.items(), key=lambda p: -p[1])[:25]:
         print(f"  {aantal:4d}  {naam}")
     print(f"\nRapport: {rapport_pad}")
+
+    if argumenten.rapport_json:
+        # Voor `lus.py`: dezelfde uitkomst, maar zonder stdout te hoeven lezen.
+        # `overgeslagen` staat erbij omdat een blok dat al geladen was geen
+        # mislukking is maar een geslaagde no-op.
+        Path(argumenten.rapport_json).write_text(
+            json.dumps(
+                {
+                    "boekjaar": boekjaar,
+                    "categorieen": categorieen,
+                    "soorten": list(soorten),
+                    "erkenning": argumenten.erkenning,
+                    "vanaf": argumenten.vanaf,
+                    "in_blok": len(werklijst),
+                    "overgeslagen": len(werklijst) - len(te_doen),
+                    "minuten": round((time.time() - begin) / 60, 1),
+                    "telling": telling,
+                    "per_kantoor": per_kantoor,
+                    "onbekende_kantoren": onbekend,
+                },
+                ensure_ascii=False,
+                indent=2,
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        print(f"JSON-rapport: {argumenten.rapport_json}")
     return 0
 
 
