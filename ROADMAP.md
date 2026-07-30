@@ -249,7 +249,12 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
    194 opdrachten in boekjaar 2024, 176 in 2023, 148 in 2022 (81% van de
    controleverklaringen) — met 16 accountantswisselingen over die drie jaargangen.
    Zodra de zorgsector af is: workflow starten met boekjaren 2019–2025. Kantoren
-   zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8)
+   zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8).
+   **Woningcorporaties zijn nu de goedkoopste vertical die er is** 🆕: de dVi-open data
+   van de Autoriteit woningcorporaties heeft een kolom `Accountant` per corporatie, mét
+   KvK-nummer, boekjaren 2015–2024 en licentie CC-0 — geen archief, geen pdf's, geen OCR.
+   Naar schatting 3.000 opdrachtrijen uit één xlsx per jaargang. Zie
+   `docs/bestaande-databases.md`; adapter nog te bouwen (`adapters/aw_dvi.py`)
 4. Switch-scores / voorspelmodellen — uitdrukkelijk pas ná validatie (visie: "nog niet")
 5. Honoraria tonen + fee-benchmark (kolommen liggen klaar; art. 2:382a BW, DigiMV, DUO)
 6. Supabase Auth + geclaimde kantoorprofielen (badge "neemt cliënten aan"; datagedreven
