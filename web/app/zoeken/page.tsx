@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { alleOrganisaties, zoekKantoren, zoekOrganisaties } from "@/lib/db";
-import { kantoorPad, organisatiePad, sectorPad } from "@/lib/paden";
+import {
+  aantalKantoren,
+  aantalOrganisaties,
+  kantoorPad,
+  organisatiePad,
+  sectorPad,
+} from "@/lib/paden";
 import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
 
 export const metadata: Metadata = { title: "Zoeken" };
@@ -38,10 +44,10 @@ export default async function Zoekpagina({ searchParams }: Props) {
     );
   }
 
-  let organisaties;
-  let kantoren;
+  let orgTreffers;
+  let kantoorTreffers;
   try {
-    [organisaties, kantoren] = await Promise.all([
+    [orgTreffers, kantoorTreffers] = await Promise.all([
       zoekOrganisaties(term),
       zoekKantoren(term),
     ]);
@@ -49,16 +55,28 @@ export default async function Zoekpagina({ searchParams }: Props) {
     return <Foutmelding fout={fout} />;
   }
 
-  const totaal = organisaties.length + kantoren.length;
+  // De lijsten zijn afgekapt (er passen er geen 300 op een pagina), de aantallen
+  // in de kop zijn dat niet: die komen uit een echte telling. Staat er meer dan er
+  // te zien is, dan zegt de pagina dat erbij in plaats van het te verzwijgen.
+  const organisaties = orgTreffers.rijen;
+  const kantoren = kantoorTreffers.rijen;
+  const totaal = orgTreffers.totaal + kantoorTreffers.totaal;
+  const afgekapt = orgTreffers.afgekapt || kantoorTreffers.afgekapt;
 
   return (
     <>
       <div className="paginakop">
         <h1>&ldquo;{term}&rdquo;</h1>
         <p className="metaregel">
-          <span>{organisaties.length} organisaties</span>
-          <span>{kantoren.length} accountantskantoren</span>
+          <span>{aantalOrganisaties(orgTreffers.totaal)}</span>
+          <span>{aantalKantoren(kantoorTreffers.totaal)}</span>
         </p>
+        {afgekapt ? (
+          <p className="zacht klein" style={{ margin: "0.4rem 0 0" }}>
+            Hieronder staan de eerste {organisaties.length + kantoren.length}; maak de
+            zoekterm specifieker om de rest te zien.
+          </p>
+        ) : null}
       </div>
 
       {totaal === 0 ? (
@@ -147,8 +165,18 @@ export default async function Zoekpagina({ searchParams }: Props) {
             tekst: kantoor.naam,
             toelichting: "cliënten en wisselingen",
           })),
+          // De sectoren van de treffers zelf, en anders niets: een zoekopdracht met
+          // één treffer kwam op drie vervolgklikken uit, en de regel uit
+          // docs/visie.md is minimaal vijf. Vandaar ook de twee vaste ingangen.
+          ...[...new Set(organisaties.map((o) => o.sector).filter(Boolean))].map(
+            (sector) => ({
+              naar: sectorPad(sector as string),
+              tekst: `Sector ${sector}: marktaandelen`,
+            }),
+          ),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: sectorPad("zorg"), tekst: "Sector zorg" },
+          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
+          { naar: "/", tekst: "Naar het overzicht" },
         ]}
       />
     </>

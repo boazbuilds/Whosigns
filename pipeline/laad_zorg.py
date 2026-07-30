@@ -192,7 +192,7 @@ def main() -> int:
             return 1
         kantoor_id_per_nummer = {
             rij["afm_nummer"]: rij["id"]
-            for rij in db.selecteer("kantoren", "select=id,afm_nummer")
+            for rij in db.selecteer_alles("kantoren", "select=id,afm_nummer")
         }
         if not kantoor_id_per_nummer:
             print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")

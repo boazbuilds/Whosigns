@@ -9,6 +9,8 @@ import {
 } from "@/lib/db";
 import {
   aantalControles,
+  aantalOpdrachten,
+  aantalOrganisaties,
   kantoorPad,
   organisatiePad,
   sectorPad,
@@ -28,8 +30,8 @@ export default async function Startpagina() {
   try {
     const boekjaar = (await nieuwsteBoekjaar()) ?? new Date().getFullYear() - 1;
     const [
-      aantalOrganisaties,
-      aantalOpdrachten,
+      organisatieTotaal,
+      opdrachtTotaal,
       laatsteWisselingen,
       kantoren,
       sectorlijst,
@@ -72,8 +74,8 @@ export default async function Startpagina() {
         <div className="paginakop">
           <h1>Wie controleert wie?</h1>
           <p className="metaregel" style={{ marginTop: "0.5rem" }}>
-            <span>{aantalOrganisaties} organisaties</span>
-            <span>{aantalOpdrachten} opdrachten</span>
+            <span>{aantalOrganisaties(organisatieTotaal)}</span>
+            <span>{aantalOpdrachten(opdrachtTotaal)}</span>
             <span>boekjaren 2019–{boekjaar}</span>
           </p>
         </div>
@@ -181,7 +183,7 @@ export default async function Startpagina() {
           )}
           <p className="klein" style={{ marginBottom: 0 }}>
             <Link href="/organisaties">
-              Alle {aantalOrganisaties} organisaties op naam →
+              Alle {organisatieTotaal} organisaties op naam →
             </Link>
           </p>
         </section>
@@ -193,7 +195,7 @@ export default async function Startpagina() {
             {
               naar: "/organisaties",
               tekst: "Alle organisaties op naam",
-              toelichting: `${aantalOrganisaties} in de database`,
+              toelichting: `${organisatieTotaal} in de database`,
             },
             // Alle sectoren die er zijn, niet alleen de zorg: de goede doelen
             // hadden anders geen ingang vanaf de voorpagina.

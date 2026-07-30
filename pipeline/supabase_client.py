@@ -115,9 +115,6 @@ class Supabase:
             raise SupabaseFout("verwijderen zonder filter is niet toegestaan")
         self._verzoek("DELETE", f"{tabel}?{filter}", None, {"Prefer": "return=minimal"})
 
-    def selecteer(self, tabel: str, query: str = "select=*") -> list:
-        return self._verzoek("GET", f"{tabel}?{query}")
-
     # PostgREST levert er nooit meer dan duizend per verzoek, ook niet met
     # limit=20000 erin. Dat faalt stil: je krijgt gewoon de eerste duizend en
     # niets wijst erop dat er meer was.
@@ -126,10 +123,16 @@ class Supabase:
     def selecteer_alles(self, tabel: str, query: str = "select=*") -> list:
         """Alle rijen, in pagina's van duizend.
 
-        Gebruik dit overal waar het antwoord kan doorgroeien. Stil de eerste
-        duizend krijgen is hier gevaarlijk: `laad_zorg` bepaalt er de lijst
-        'al geladen' mee en zou anders werk overdoen, en `vul_extra_velden` zou
-        stoppen met bijvullen zonder dat iemand het merkt.
+        De enige leesmethode die deze klasse aanbiedt, en dat is opzet. Er stond
+        hiernaast een `selecteer()` die één verzoek deed, en die kapte dus stil af op
+        duizend rijen — met vier aanroepen die er een volledige verzameling uit
+        wilden halen (de kantorenindex in drie laders, en de lijst 'al geladen' in
+        laad_stichtingen). Zolang de tabellen klein waren viel dat niet op. Zonder
+        die methode kan de fout niet terugkomen.
+
+        Er stond ook een `telling()` die `select=id` ophaalde en de rijen télde;
+        die gaf 1000 terug bij 5081 opdrachten. Wie een aantal wil, vraagt
+        PostgREST om `Prefer: count=exact` — zoals `tel()` in web/lib/db.ts doet.
         """
         alles: list = []
         while True:
@@ -139,7 +142,3 @@ class Supabase:
             alles.extend(pagina)
             if len(pagina) < self.PAGINA:
                 return alles
-
-    def telling(self, tabel: str) -> int:
-        rijen = self._verzoek("GET", f"{tabel}?select=id")
-        return len(rijen)

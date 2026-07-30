@@ -92,3 +92,30 @@ export function aantalJaren(n: number): string {
 export function aantalControles(n: number): string {
   return `${n} ${n === 1 ? "controle" : "controles"}`;
 }
+
+// Meervoud voor de aantallen in de kopregels. Zonder dit stond er "1 organisaties"
+// op elke zoekopdracht met één treffer, en dat is precies waar iemand het eerst
+// naar kijkt.
+export function aantalOrganisaties(n: number): string {
+  return `${n} ${n === 1 ? "organisatie" : "organisaties"}`;
+}
+
+export function aantalKantoren(n: number): string {
+  return `${n} ${n === 1 ? "accountantskantoor" : "accountantskantoren"}`;
+}
+
+export function aantalWisselingen(n: number): string {
+  return `${n} ${n === 1 ? "wisseling" : "wisselingen"}`;
+}
+
+export function aantalOpdrachten(n: number): string {
+  return `${n} ${n === 1 ? "opdracht" : "opdrachten"}`;
+}
+
+export function aantalPlaatsen(n: number): string {
+  return `${n} ${n === 1 ? "plaats" : "plaatsen"}`;
+}
+
+export function aantalClienten(n: number): string {
+  return `${n} ${n === 1 ? "cliënt" : "cliënten"}`;
+}

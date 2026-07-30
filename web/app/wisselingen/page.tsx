@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { actieveKantoren, nieuwsteBoekjaar, wisselingen } from "@/lib/db";
-import { kantoorPad, organisatiePad, sectorPad } from "@/lib/paden";
+import {
+  aantalJaren,
+  aantalWisselingen,
+  kantoorPad,
+  organisatiePad,
+  sectorPad,
+} from "@/lib/paden";
 import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
 
 export const metadata: Metadata = {
@@ -42,8 +48,8 @@ export default async function Wisselingenpagina() {
           historie — niet uit een aankondiging.
         </p>
         <p className="metaregel" style={{ marginTop: "0.7rem" }}>
-          <span>{rijen.length} wisselingen</span>
-          <span>{jaren.length} boekjaren</span>
+          <span>{aantalWisselingen(rijen.length)}</span>
+          <span>{aantalJaren(jaren.length)}</span>
         </p>
       </div>
 
@@ -124,8 +130,14 @@ export default async function Wisselingenpagina() {
             tekst: rij.kantoor!.naam,
             toelichting: "gewonnen en verloren opdrachten",
           })),
-          { naar: sectorPad("zorg"), tekst: "Marktaandelen in de zorg" },
-          { naar: "/organisaties", tekst: "Alle organisaties" },
+          // De sectoren waarin er daadwerkelijk gewisseld is; niet "zorg" vast.
+          ...[...new Set(rijen.map((w) => w.organisatie?.sector).filter(Boolean))].map(
+            (sector) => ({
+              naar: sectorPad(sector as string),
+              tekst: `Marktaandelen in de sector ${sector}`,
+            }),
+          ),
+          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>

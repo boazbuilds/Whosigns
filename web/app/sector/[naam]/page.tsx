@@ -8,7 +8,15 @@ import {
   subsectoren,
   wisselingen,
 } from "@/lib/db";
-import { kantoorPad, organisatiePad, slug, subsectorPad } from "@/lib/paden";
+import {
+  aantalKantoren,
+  aantalOrganisaties,
+  aantalWisselingen,
+  kantoorPad,
+  organisatiePad,
+  slug,
+  subsectorPad,
+} from "@/lib/paden";
 import { Doorklik, Foutmelding, Inklapbaar, Leeg } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ naam: string }> };
@@ -107,9 +115,9 @@ export default async function Sectorpagina({ params }: Params) {
       <div className="paginakop">
         <h1>Sector {sector}</h1>
         <p className="metaregel">
-          <span>{organisaties.length} organisaties</span>
-          <span>{kantoorrijen.length} accountantskantoren</span>
-          <span>{sectorWisselingen.length} wisselingen</span>
+          <span>{aantalOrganisaties(organisaties.length)}</span>
+          <span>{aantalKantoren(kantoorrijen.length)}</span>
+          <span>{aantalWisselingen(sectorWisselingen.length)}</span>
         </p>
       </div>
 

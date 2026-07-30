@@ -12,6 +12,7 @@ import { clientenVanKantoor } from "@/lib/analyse";
 import {
   aantalControles,
   aantalJaren,
+  aantalOpdrachten,
   jarenReeks,
   kantoorPad,
   nummerUitSlug,
@@ -57,7 +58,10 @@ export default async function Kantoorpagina({ params }: Params) {
 
   const [opdrachten, mutaties, boekjaar] = await Promise.all([
     opdrachtenVanKantoor(kantoor.id),
-    wisselingen({ kantoorId: kantoor.id, limiet: 50 }),
+    // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
+    // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
+    // precies 50, dus het was de grens die dat getal bepaalde en niet de data.
+    wisselingen({ kantoorId: kantoor.id }),
     nieuwsteBoekjaar(),
   ]);
 
@@ -68,6 +72,15 @@ export default async function Kantoorpagina({ params }: Params) {
   const concurrenten = boekjaar
     ? (await actieveKantoren(boekjaar)).filter((r) => r.kantoor_id !== kantoor.id)
     : [];
+
+  // In welke sectoren dit kantoor werkt, grootste eerst.
+  const perSector = new Map<string, number>();
+  for (const client of clienten) {
+    if (client.sector) perSector.set(client.sector, (perSector.get(client.sector) ?? 0) + 1);
+  }
+  const eigenSectoren = [...perSector.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .map(([sector]) => sector);
 
   // Eén keer opbouwen, twee keer gebruiken: het actuele deel open, de rest
   // ingeklapt. De kop is hetzelfde element in beide tabellen.
@@ -129,10 +142,11 @@ export default async function Kantoorpagina({ params }: Params) {
           ) : null}
         </p>
         <p className="samenvatting">
-          <strong>{clienten.length}</strong> cliënten in de database
+          <strong>{clienten.length}</strong>{" "}
+          {clienten.length === 1 ? "cliënt" : "cliënten"} in de database
           <span className="zacht">
             {" "}
-            — {opdrachten.length} opdrachten over {jarenReeks(alleJaren)}
+            — {aantalOpdrachten(opdrachten.length)} over {jarenReeks(alleJaren)}
             {gewonnen.length || verloren.length
               ? `, ${gewonnen.length} gewonnen en ${verloren.length} verloren`
               : ""}
@@ -250,8 +264,15 @@ export default async function Kantoorpagina({ params }: Params) {
             tekst: rij.kantoor!.naam,
             toelichting: `concurrent, ${aantalControles(rij.aantal_controles)}`,
           })),
-          { naar: sectorPad("zorg"), tekst: "Marktaandelen in de zorg" },
+          // De sectoren waarin dít kantoor werkt, uit zijn eigen cliënten. Hier
+          // stond "Marktaandelen in de zorg" vast, ook voor een kantoor dat
+          // hoofdzakelijk goede doelen controleert.
+          ...eigenSectoren.map((sector) => ({
+            naar: sectorPad(sector),
+            tekst: `Marktaandelen in de sector ${sector}`,
+          })),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
+          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>

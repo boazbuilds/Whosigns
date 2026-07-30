@@ -118,7 +118,7 @@ def main(offline: bool = False) -> int:
     # kantoor_alias verwijst naar kantoren.id, dus eerst de nummers ophalen.
     id_per_nummer = {
         rij["afm_nummer"]: rij["id"]
-        for rij in db.selecteer("kantoren", "select=id,afm_nummer")
+        for rij in db.selecteer_alles("kantoren", "select=id,afm_nummer")
         if rij.get("afm_nummer")
     }
     alias_rijen = [

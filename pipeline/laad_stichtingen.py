@@ -127,13 +127,15 @@ def main() -> int:
             return 1
         kantoor_id_per_sleutel = {
             rij["sleutel"]: rij["id"]
-            for rij in db.selecteer("kantoren", "select=id,sleutel")
+            for rij in db.selecteer_alles("kantoren", "select=id,sleutel")
             if rij.get("sleutel")
         }
         if not kantoor_id_per_sleutel:
             print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")
             return 1
-        bestaand = db.selecteer(
+        # selecteer_alles, niet selecteer: hiermee wordt "al geladen" bepaald, en een
+        # stil afgekapte lijst laat de lader werk overdoen dat al gedaan was.
+        bestaand = db.selecteer_alles(
             "opdrachten", f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}"
         )
         al_geladen = (

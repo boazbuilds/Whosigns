@@ -9,6 +9,9 @@ import {
 } from "@/lib/db";
 import {
   aantalControles,
+  aantalKantoren,
+  aantalOrganisaties,
+  aantalWisselingen,
   kantoorPad,
   organisatiePad,
   sectorPad,
@@ -117,10 +120,10 @@ export default async function Subsectorpagina({ params }: Params) {
               <Link href={sectorPad(sector)}>{sector}</Link>
             </span>
           ) : null}
-          <span>{organisaties.length} organisaties</span>
-          <span>{kantoren.length} accountantskantoren</span>
+          <span>{aantalOrganisaties(organisaties.length)}</span>
+          <span>{aantalKantoren(kantoren.length)}</span>
           {subsectorWisselingen.length ? (
-            <span>{subsectorWisselingen.length} wisselingen</span>
+            <span>{aantalWisselingen(subsectorWisselingen.length)}</span>
           ) : null}
         </p>
       </div>

@@ -66,27 +66,52 @@ async function haalAlles<T>(pad: string): Promise<T[]> {
 /**
  * Alleen tellen, zonder de rijen op te halen. PostgREST zet het totaal in de
  * `content-range`-header (`0-0/74`) als je om `count=exact` vraagt.
+ *
+ * `select=*` en niet `select=id`: views hebben geen id-kolom (`v_wisselingen`
+ * bijvoorbeeld niet), en dan gaf PostgREST een fout die hier stil een 0 werd.
+ * Eén rij ophalen is de prijs; het totaal komt uit de header.
  */
 export async function tel(tabel: string, filter = ""): Promise<number> {
-  if (!BASIS || !SLEUTEL) return 0;
-  const antwoord = await fetch(
-    `${BASIS}/rest/v1/${tabel}?select=id&limit=1${filter ? `&${filter}` : ""}`,
-    {
-      headers: {
-        apikey: SLEUTEL,
-        Authorization: `Bearer ${SLEUTEL}`,
-        Prefer: "count=exact",
-      },
-      next: { revalidate: VERVERS_SECONDEN },
+  if (!BASIS || !SLEUTEL) {
+    throw new DatabaseFout("Supabase-instellingen ontbreken; zie web/.env.local.");
+  }
+  const pad = `${tabel}?select=*&limit=1${filter ? `&${filter}` : ""}`;
+  const antwoord = await fetch(`${BASIS}/rest/v1/${pad}`, {
+    headers: {
+      apikey: SLEUTEL,
+      Authorization: `Bearer ${SLEUTEL}`,
+      Prefer: "count=exact",
     },
-  );
-  if (!antwoord.ok) return 0;
+    next: { revalidate: VERVERS_SECONDEN },
+  });
+  // Niet stil een 0 teruggeven: een mislukte telling die als "0" op de pagina
+  // belandt is precies het soort fout dat niemand opmerkt.
+  if (!antwoord.ok) {
+    throw new DatabaseFout(
+      `Supabase gaf ${antwoord.status} op /${pad}: ${await antwoord.text()}`,
+    );
+  }
   return Number(antwoord.headers.get("content-range")?.split("/")[1] ?? 0);
 }
 
-/** PostgREST-lijstfilter: `id=in.(1,2,3)`. Lege lijst = geen verzoek doen. */
-function inLijst(waarden: (number | string)[]): string {
-  return `(${[...new Set(waarden)].join(",")})`;
+/**
+ * Rijen opzoeken op id, in stukken.
+ *
+ * Twee grenzen tegelijk: PostgREST levert nooit meer dan duizend rijen per
+ * verzoek, en een URL met duizenden nummers erin wordt door de server geweigerd
+ * (414). Bij 218 wisselingen valt dat nog mee, maar de lijst groeit met de
+ * dataset en beide fouten komen zonder waarschuwing.
+ */
+const PER_OPZOEKVERZOEK = 200;
+
+async function haalOpId<T>(tabel: string, velden: string, ids: number[]): Promise<T[]> {
+  const unieke = [...new Set(ids)];
+  const uit: T[] = [];
+  for (let i = 0; i < unieke.length; i += PER_OPZOEKVERZOEK) {
+    const stuk = unieke.slice(i, i + PER_OPZOEKVERZOEK);
+    uit.push(...(await haal<T>(`${tabel}?id=in.(${stuk.join(",")})&select=${velden}`)));
+  }
+  return uit;
 }
 
 // ---------------------------------------------------------------- types
@@ -180,13 +205,11 @@ export function kantoorOpAfm(afm: string) {
 }
 
 export function organisatiesOpId(ids: number[]) {
-  if (!ids.length) return Promise.resolve([]);
-  return haal<Organisatie>(`organisaties?id=in.${inLijst(ids)}&select=${ORG_VELDEN}`);
+  return haalOpId<Organisatie>("organisaties", ORG_VELDEN, ids);
 }
 
 export function kantorenOpId(ids: number[]) {
-  if (!ids.length) return Promise.resolve([]);
-  return haal<Kantoor>(`kantoren?id=in.${inLijst(ids)}&select=${KANTOOR_VELDEN}`);
+  return haalOpId<Kantoor>("kantoren", KANTOOR_VELDEN, ids);
 }
 
 // ---------------------------------------------------------------- opdrachten
@@ -307,20 +330,42 @@ export function alleOrganisaties(limiet?: number) {
     : haalAlles<Organisatie>(basis);
 }
 
-export function zoekOrganisaties(term: string, limiet = 40) {
-  const patroon = `*${term.replace(/[*,()]/g, " ").trim()}*`;
-  return haal<Organisatie>(
-    `organisaties?naam=ilike.${encodeURIComponent(patroon)}` +
-      `&select=${ORG_VELDEN}&order=naam.asc&limit=${limiet}`,
-  );
+/**
+ * Zoekresultaat mét het echte totaal.
+ *
+ * Waarom niet gewoon een lijst: een zoekopdracht op "stichting" levert honderden
+ * treffers en er passen er maar een handvol op een pagina. Zolang de pagina
+ * `rijen.length` als aantal toonde, stond er "40 organisaties" terwijl het er 300
+ * waren — een afgekapte lijst die zich voordeed als het antwoord. Het totaal komt
+ * nu uit een aparte telling, en `afgekapt` zegt of er meer is dan er staat.
+ */
+export type Zoekresultaat<T> = { rijen: T[]; totaal: number; afgekapt: boolean };
+
+/** Sterretjes en komma's zijn PostgREST-syntaxis in een `ilike`-patroon. */
+function zoekpatroon(term: string): string {
+  return `*${term.replace(/[*,()]/g, " ").trim()}*`;
 }
 
-export function zoekKantoren(term: string, limiet = 40) {
-  const patroon = `*${term.replace(/[*,()]/g, " ").trim()}*`;
-  return haal<Kantoor>(
-    `kantoren?naam=ilike.${encodeURIComponent(patroon)}` +
-      `&select=${KANTOOR_VELDEN}&order=naam.asc&limit=${limiet}`,
-  );
+async function zoek<T>(
+  tabel: string,
+  velden: string,
+  term: string,
+  limiet: number,
+): Promise<Zoekresultaat<T>> {
+  const filter = `naam=ilike.${encodeURIComponent(zoekpatroon(term))}`;
+  const [rijen, totaal] = await Promise.all([
+    haal<T>(`${tabel}?${filter}&select=${velden}&order=naam.asc&limit=${limiet}`),
+    tel(tabel, filter),
+  ]);
+  return { rijen, totaal, afgekapt: totaal > rijen.length };
+}
+
+export function zoekOrganisaties(term: string, limiet = 50) {
+  return zoek<Organisatie>("organisaties", ORG_VELDEN, term, limiet);
+}
+
+export function zoekKantoren(term: string, limiet = 50) {
+  return zoek<Kantoor>("kantoren", KANTOOR_VELDEN, term, limiet);
 }
 
 // ---------------------------------------------------------------- afgeleiden
@@ -421,7 +466,7 @@ export async function marktaandeel(sector: string, boekjaar?: number) {
   ];
   if (boekjaar) filters.push(`boekjaar=eq.${boekjaar}`);
 
-  const rijen = await haal<Marktaandeel>(`v_marktaandeel?${filters.join("&")}`);
+  const rijen = await haalAlles<Marktaandeel>(`v_marktaandeel?${filters.join("&")}`);
   const kantoren = await kantorenOpId(rijen.map((r) => r.kantoor_id));
   const kantoorPerId = new Map(kantoren.map((k) => [k.id, k]));
   return rijen.map((r) => ({ ...r, kantoor: kantoorPerId.get(r.kantoor_id) ?? null }));

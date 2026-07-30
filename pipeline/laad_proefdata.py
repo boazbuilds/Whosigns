@@ -63,7 +63,7 @@ def main() -> int:
     kantoor_index = bouw_index(laad_kantoren())
     kantoor_id_per_nummer = {
         rij["afm_nummer"]: rij["id"]
-        for rij in db.selecteer("kantoren", "select=id,afm_nummer")
+        for rij in db.selecteer_alles("kantoren", "select=id,afm_nummer")
     }
     if not kantoor_id_per_nummer:
         print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")
