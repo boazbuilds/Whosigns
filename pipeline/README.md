@@ -27,7 +27,12 @@ pipeline/
     kantoren_overig.csv ✅ kantoren zónder Wta-vergunning die controleverklaringen
                           tekenen bij organisaties zonder controleplicht
     kantoor_alias.csv  ✅ handelsnamen en oude namen na fusie/rebranding
+  werkvoorraad/
+    stichtingen.json   ✅ de 133 blokken van de goededoelensector en wat ze opleverden;
+                          de git-diff van dit bestand is het voortgangslog
   supabase_client.py   ✅ PostgREST-client (upsert, upsert_met_id, invoegen, selecteer)
+  lus.py               ✅ laadt een sector in rondes van een paar blokken in plaats van
+                          in één bulk-run (plan | stand | draai) — workflow "Stichtingenlus"
   laad_kantoren.py     ✅ beide kantorenlijsten + aliassen → Supabase
   laad_proefdata.py    ✅ 13 bekende ziekenhuizen → Supabase (proefdata voor Fase 2)
   laad_stichtingen.py  ✅ CBF-erkende goede doelen → Supabase (workflow "Stichtingendata")
@@ -35,7 +40,7 @@ pipeline/
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)
-  test_kantoor_match.py ✅ 11 gevallen uit echte verslagen; zonder netwerk te draaien
+  test_kantoor_match.py ✅ 12 gevallen uit echte verslagen; zonder netwerk te draaien
   signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
 
@@ -69,8 +74,27 @@ Vereist buiten Python: `pdftotext` (pakket `poppler-utils`).
 5. **AVG.** Geen namen van natuurlijke personen opslaan — ook niet in ruwe
    extractie-output of logs.
 
+6. **In rondes, niet in één hoop.** Een sector laden is uren werk waar één slechte pdf
+   een hele run kan laten struikelen, en aan het eind heb je één grote uitkomst die
+   niemand nog nakijkt. `lus.py` knipt het in blokken van 50 organisaties met de
+   voortgang in de repo: elke ronde levert iets op dat te lezen is vóór de volgende
+   begint, en hervatten is de normale gang van zaken in plaats van een noodgreep.
+
 ## Draaien (vanaf Fase 0-afronding)
 
 Via GitHub Actions: wekelijks schema + handmatige trigger. Secrets die de workflow nodig
 heeft: `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`; `ANTHROPIC_API_KEY` pas vanaf Fase 4
-(AI-extractie zit niet in het MVP).
+(AI-extractie zit niet in het MVP). Optioneel `VERCEL_DEPLOY_HOOK`: dan ververst de
+website meteen na een ronde in plaats van binnen het uur (ISR).
+
+De goededoelensector loopt via de lus:
+
+```
+python3 pipeline/lus.py plan       # werkvoorraad opbouwen uit het CBF-register
+python3 pipeline/lus.py stand      # wat is klaar, wat staat open
+python3 pipeline/lus.py draai      # de volgende zes blokken
+```
+
+In GitHub Actions doet de workflow *Stichtingenlus* dat vier keer per dag, met de
+werkvoorraad als commit op `data/stichtingenlus` en één PR die meegroeit. Een droogloop
+(`--droogloop`) meet zonder te schrijven en laat de werkvoorraad met opzet ongemoeid.

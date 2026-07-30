@@ -244,11 +244,29 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
    KvK-jaarrekeningen — ontsluit het bedrijfsleven op naam ("data on demand")
 3. Verticals: ANBI's/CBF-goede doelen, woningcorporaties, gemeenten/provincies/
    waterschappen, pensioenfondsen, fondsen. **Stichtingen/NGO's zijn klaar om te
-   laden**: route uitgezocht en gemeten in `docs/bronverkenning-stichtingen.md`,
-   pipeline in `laad_stichtingen.py`, workflow *Stichtingendata laden*. Gemeten:
-   194 opdrachten in boekjaar 2024, 176 in 2023, 148 in 2022 (81% van de
-   controleverklaringen) — met 16 accountantswisselingen over die drie jaargangen.
-   Zodra de zorgsector af is: workflow starten met boekjaren 2019–2025. Kantoren
+   laden, en het laden loopt nu als een lus**: route uitgezocht en gemeten in
+   `docs/bronverkenning-stichtingen.md`, pipeline in `laad_stichtingen.py`,
+   werkvoorraad en rondes in `pipeline/lus.py`, workflow *Stichtingenlus*
+   (vier rondes per dag; per ronde één commit op `data/stichtingenlus` en een
+   ververste website). Gemeten: 194 opdrachten in boekjaar 2024, 176 in 2023,
+   148 in 2022 (81% van de controleverklaringen) — met 16 accountantswisselingen
+   over die drie jaargangen. Daar zijn 30-7-2026 drie populaties en één extra route
+   bij gekomen die op dezelfde URL en extractie meeliften: **categorie C, alleen de
+   controles** (20 opdrachten per jaargang, 64% trefkans — de samenstellingen bewust
+   niet, want die kosten 62 review-rijen en tellen niet mee in de marktaandelen;
+   beslissing 9), de **ingetrokken erkenningen** (110 organisaties), **categorie
+   A/B** (262 organisaties, 2 opdrachten per jaargang: een nalezing, geen
+   jachtterrein) en de **terugval naar de eigen website**, nu op een heel blok
+   gemeten in plaats van op vijf organisaties (28 → 29 opdrachten per 50, tegen vier
+   keer de tijd; aan voor D/E, C en de ingetrokken erkenningen, uit voor A/B).
+   Daarmee dekt de lus **alle 826 vermeldingen in het CBF-register**.
+   Werkvoorraad: 133 blokken, in de orde van 1.200 opdrachtrijen, ±5 dagen.
+   Een populatie toevoegen is één regel in `POPULATIES`; de lus plant elke ronde
+   opnieuw, dus dat loopt vanzelf mee.
+   **Let op: de cron staat aan zodra dit op `main` staat.** Het advies blijft
+   eerst de zorgsector afmaken (visie: één sector compleet vóór verbreding); wil
+   je wachten, zet de workflow dan uit via Actions → *Stichtingenlus* → ⋯ →
+   *Disable workflow*, of draai hem handmatig met `workflow_dispatch`. Kantoren
    zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8).
    **Woningcorporaties zijn nu de goedkoopste vertical die er is** 🆕: de dVi-open data
    van de Autoriteit woningcorporaties heeft een kolom `Accountant` per corporatie, mét

@@ -1,0 +1,271 @@
+name: Stichtingenlus
+
+# De goededoelensector in rondes de database in, in plaats van in één bulk-run.
+#
+# Elke ronde doet hetzelfde kleine kunstje:
+#
+#   1. het volgende blok van 50 organisaties bij het CBF zoeken
+#   2. de gevonden opdrachten in Supabase zetten (idempotent)
+#   3. de voortgang als commit op de databranch zetten, met een PR die meeleest
+#   4. de website verversen zodat het er meteen op staat
+#
+# Wat er per ronde gebeurt, staat in pipeline/werkvoorraad/stichtingen.json — en de
+# git-diff van dat bestand is het voortgangslog. Zie pipeline/lus.py en
+# docs/bronverkenning-stichtingen.md.
+#
+# **Waarom één databranch en geen branch per ronde.** De werkvoorraad is het geheugen
+# van de lus: welke blokken zijn al gedaan. Zou elke ronde vanaf `main` beginnen, dan
+# is dat geheugen weg tot de PR van de vorige ronde is gemerged — en zeven rondes
+# tegelijk open zouden elkaars werkvoorraad overschrijven. De lus draait daarom op één
+# branch die hij zelf bijhoudt en die vóór elke ronde `main` binnenhaalt. Eén PR die
+# meegroeit, met per ronde een commit.
+#
+# (De data zélf gaat naar Supabase en staat dus los van het mergen van die PR. Blijft
+# de PR een week open, dan staat de data er al; de PR is het logboek en het
+# leesmoment, niet de levering.)
+
+on:
+  schedule:
+    # Vier rondes per dag, op een oneven minuut zodat het niet samenvalt met de
+    # piek op het uur. Eén ronde is standaard zes blokken = één jaargang D/E.
+    #
+    # Dit begint te lopen zodra de workflow op main staat. Stil houden tot de
+    # zorgsector af is? Actions -> Stichtingenlus -> ... -> Disable workflow;
+    # handmatig starten blijft dan werken.
+    - cron: "7 5,11,17,23 * * *"
+  workflow_dispatch:
+    inputs:
+      taken:
+        description: "Hoeveel blokken deze ronde (6 = één jaargang categorie D/E)"
+        required: false
+        default: "6"
+      tijdbudget:
+        description: "Stop met een nieuw blok na zoveel minuten"
+        required: false
+        default: "45"
+      droogloop:
+        description: "Niets naar de database schrijven; alleen meten"
+        type: boolean
+        required: false
+        default: false
+      branch:
+        description: "Databranch waarop de lus zijn voortgang bijhoudt"
+        required: false
+        default: "data/stichtingenlus"
+
+# Twee rondes tegelijk zouden hetzelfde blok pakken en op dezelfde branch pushen.
+# Niet afbreken maar netjes achter elkaar: een halve ronde is werk dat al in de
+# database staat en dan niet in de werkvoorraad terechtkomt.
+concurrency:
+  group: stichtingenlus
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ronde:
+    name: Eén ronde
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      BRANCH: ${{ inputs.branch || 'data/stichtingenlus' }}
+      TAKEN: ${{ inputs.taken || '6' }}
+      TIJDBUDGET: ${{ inputs.tijdbudget || '45' }}
+      # Bij een cron-run is de event-payload karig; vandaar de terugval.
+      HOOFDBRANCH: ${{ github.event.repository.default_branch || 'main' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: poppler-utils installeren (voor pdftotext)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      # De databranch is het geheugen van de lus. Bestaat hij al, dan gaan we daar
+      # verder en halen we main erbij; bestaat hij nog niet, dan begint hij op main.
+      - name: Databranch klaarzetten
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$BRANCH"
+            git checkout -B "$BRANCH" "origin/$BRANCH"
+            # main erbij, zodat de lus op de nieuwste pipeline draait. Botst de
+            # werkvoorraad, dan wint die van deze branch: dit is het geheugen van de
+            # lus en de versie op main is per definitie ouder.
+            git fetch origin "$HOOFDBRANCH"
+            if ! git merge --no-edit "origin/$HOOFDBRANCH"; then
+              git checkout --ours pipeline/werkvoorraad/stichtingen.json
+              git add pipeline/werkvoorraad/stichtingen.json
+              git -c core.editor=true merge --continue
+            fi
+          else
+            echo "::notice::Databranch $BRANCH bestaat nog niet; begint op main."
+            git checkout -B "$BRANCH"
+          fi
+
+      # Elke ronde plannen, en dat is de enige manier waarop een nieuwe populatie de
+      # lopende lus bereikt. De code bepaalt welke blokken er zijn, de databranch wat
+      # er al gedaan is: `plan` leest het bestand van deze branch, laat elke uitkomst
+      # staan en voegt alleen toe wat POPULATIES nu wél en het bestand nog niet heeft.
+      # Zonder dit zou een populatie die op main wordt toegevoegd nooit meelopen —
+      # bij het samenvoegen hierboven wint de werkvoorraad van de databranch.
+      - name: Werkvoorraad bijwerken
+        run: |
+          python3 pipeline/lus.py plan
+          python3 pipeline/lus.py stand
+
+      # De kantorenlijsten moeten in de database staan vóór er opdrachten aan hangen,
+      # inclusief de kantoren zonder Wta-vergunning: anders belandt bijna een derde
+      # van deze sector onnodig in de review-queue.
+      - name: Kantorenlijsten bijwerken
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::notice::Supabase-secrets ontbreken nog — zie docs/setup-supabase.md."
+            exit 0
+          fi
+          python3 pipeline/laad_kantoren.py --offline
+
+      - name: Ronde draaien
+        id: ronde
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          # Zonder secrets zou elk blok stuklopen op de database en als "mislukt" in
+          # de werkvoorraad komen — drie keer, want dan is de poging verbruikt. Dan
+          # liever meten zonder te schrijven.
+          DROOG=""
+          if [ "${{ inputs.droogloop }}" = "true" ] || [ -z "$SUPABASE_URL" ]; then
+            DROOG="--droogloop"
+            echo "::notice::Droogloop: er wordt niets naar de database geschreven."
+          fi
+          # Een blok dat omvalt mag de ronde niet ongedaan maken: wat de blokken
+          # vóór hem in de database hebben gezet, moet in de werkvoorraad landen.
+          # Dus hier niet afbreken; de stap "Ronde geslaagd?" hieronder zet de job
+          # rood, ná het vastleggen en pushen.
+          set +e
+          python3 pipeline/lus.py draai \
+            --taken "$TAKEN" --tijdbudget "$TIJDBUDGET" $DROOG
+          CODE=$?
+          set -e
+          python3 - "$CODE" <<'PY' >> "$GITHUB_OUTPUT"
+          import json, pathlib, sys
+          ronde = json.loads(pathlib.Path("pipeline/.cache/lus_ronde.json").read_text())
+          print(f"titel={ronde['titel'] if ronde['blokken'] else 'geen blokken gedraaid'}")
+          print(f"blokken={len(ronde['blokken'])}")
+          print(f"open_blokken={ronde.get('open_blokken', 0)}")
+          print(f"afgerond={str(ronde.get('afgerond', False)).lower()}")
+          print(f"code={sys.argv[1]}")
+          PY
+
+      - name: Voortgang vastleggen en pushen
+        id: push
+        if: ${{ steps.ronde.outputs.blokken != '0' }}
+        run: |
+          git add pipeline/werkvoorraad/stichtingen.json
+          if git diff --cached --quiet; then
+            echo "Werkvoorraad ongewijzigd; niets te committen."
+            echo "gepusht=nee" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "${{ steps.ronde.outputs.titel }}" \
+            -m "$(cat pipeline/.cache/lus_ronde.md)"
+          # Netwerkfouten zijn de enige reden dat dit hier misgaat; even wachten en
+          # opnieuw. Vier pogingen met verdubbelende pauze.
+          for poging in 1 2 3 4; do
+            if git push -u origin "$BRANCH"; then
+              echo "gepusht=ja" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "push mislukt (poging $poging); opnieuw over $((2 ** poging))s"
+            sleep $((2 ** poging))
+          done
+          exit 1
+
+      # Eén PR die meegroeit: bestaat hij al, dan werken we alleen de beschrijving
+      # bij met de stand van nu. Draft, want dit is een logboek en geen verzoek.
+      - name: Pull request bijhouden
+        if: ${{ steps.push.outputs.gepusht == 'ja' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "De **Stichtingenlus** laadt de CBF-erkende goede doelen in rondes"
+            echo "van zes blokken naar Supabase. Deze PR is het logboek: elke ronde"
+            echo "is één commit op \`$BRANCH\`, met de werkvoorraad als diff."
+            echo
+            echo "De data staat na elke ronde al in de database en op de site —"
+            echo "mergen van deze PR is het bijwerken van het logboek, geen levering."
+            echo
+            echo "## Laatste ronde"
+            echo
+            cat pipeline/.cache/lus_ronde.md
+            echo
+            echo "## Stand van de werkvoorraad"
+            echo
+            echo '```'
+            python3 pipeline/lus.py stand
+            echo '```'
+          } > /tmp/pr-body.md
+
+          NUMMER=$(gh pr list --head "$BRANCH" --state open --json number \
+            --jq '.[0].number // empty')
+          if [ -z "$NUMMER" ]; then
+            gh pr create --draft --base "$HOOFDBRANCH" \
+              --head "$BRANCH" \
+              --title "Stichtingenlus: goede doelen laden, ronde voor ronde" \
+              --body-file /tmp/pr-body.md
+          else
+            gh pr edit "$NUMMER" --body-file /tmp/pr-body.md
+            echo "::notice::PR #$NUMMER bijgewerkt."
+          fi
+
+      # De site leest Supabase met ISR (een uur), dus nieuwe rijen komen er ook
+      # zonder dit stapje op te staan. Met een deploy hook staat het er meteen.
+      # Aanmaken: Vercel -> Project -> Settings -> Git -> Deploy Hooks, en de URL
+      # als secret VERCEL_DEPLOY_HOOK in deze repo zetten.
+      - name: Website verversen
+        if: ${{ steps.ronde.outputs.blokken != '0' && inputs.droogloop != true }}
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::notice::Geen VERCEL_DEPLOY_HOOK; de site ververst zichzelf binnen een uur."
+            exit 0
+          fi
+          code=$(curl -s -o /tmp/hook.txt -w '%{http_code}' -X POST "$HOOK")
+          echo "deploy hook gaf HTTP $code"
+          test "$code" -lt 400
+
+      - name: Rapporten bewaren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stichtingenlus-${{ github.run_number }}
+          path: |
+            pipeline/.cache/resultaat_stichtingen_*.csv
+            pipeline/.cache/lus_ronde.md
+            pipeline/.cache/lus_*.json
+          if-no-files-found: ignore
+
+      - name: Klaar?
+        if: ${{ steps.ronde.outputs.afgerond == 'true' }}
+        run: |
+          echo '::notice::De werkvoorraad is af. Zet de cron uit, of draai lus.py plan opnieuw voor een nieuwe jaargang.'
+
+      # Pas hier rood worden: de voortgang van deze ronde staat inmiddels vast.
+      - name: Ronde geslaagd?
+        if: ${{ steps.ronde.outputs.code != '0' }}
+        run: |
+          echo "::error::Een of meer blokken zijn mislukt (lus.py gaf ${{ steps.ronde.outputs.code }}). Ze staan als 'mislukt' in de werkvoorraad en komen volgende ronde terug."
+          exit 1

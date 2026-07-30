@@ -23,6 +23,8 @@ niet gelogd.
 
 import re
 import subprocess
+import tempfile
+from pathlib import Path
 
 from kantoor_match import normaliseer
 
@@ -276,6 +278,74 @@ def pdf_naar_tekst(pad: str) -> str:
         ["pdftotext", "-q", pad, "-"], capture_output=True, text=True
     )
     return resultaat.stdout
+
+
+# Tekstlaag onder deze lengte betekent: hier valt niets te lezen. Zelfde grens als
+# `analyseer` gebruikt om "gescande pdf" te melden.
+TEKST_ONDERGRENS = 50
+
+# Een verklaring is kort en staat in een jaarrekening áchteraan. Meer pagina's dan
+# dit renderen kost minuten zonder dat de kans op een treffer stijgt; bij een langer
+# document nemen we daarom de laatste pagina's.
+OCR_MAX_PAGINAS = 20
+
+# 300 dpi is de goedkoopste stand waarop tesseract een ondertekening leest. Bij 200
+# viel de kantoornaam weg, bij 400 werd het alleen langzamer.
+OCR_DPI = 300
+
+
+def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
+    """Tekst uit een gescande pdf, via pdftoppm + tesseract.
+
+    Waarom dit bestaat: van de 333 zorgorganisaties in de doelpopulatie zonder
+    opdracht is ongeveer driekwart een scan zonder tekstlaag. Kleine aanbieders
+    printen, ondertekenen en scannen. Zonder OCR zijn die onzichtbaar, terwijl er
+    ziekenhuizen en ouderenzorg tussen zitten — Ab-Hulp Twente WLZ leverde na OCR
+    een volledige rij op (controle, goedkeurend, SMK Audit B.V.).
+
+    Duurt seconden tot een minuut per document, dus alleen aanroepen als de tekstlaag
+    leeg is. Ontbreekt tesseract, dan komt er een lege string terug en gedraagt de
+    pipeline zich als voorheen: geen tekstlaag, geen opdracht. Liever dat dan een run
+    die omvalt op een ontbrekend hulpprogramma.
+    """
+    with tempfile.TemporaryDirectory() as tijdelijk:
+        try:
+            subprocess.run(
+                ["pdftoppm", "-r", str(OCR_DPI), "-png", pad, f"{tijdelijk}/p"],
+                check=True,
+                capture_output=True,
+            )
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            return ""
+        paginas = sorted(Path(tijdelijk).glob("p*.png"))
+        # Bij een lang document de laatste pagina's: daar staat de verklaring.
+        if len(paginas) > max_paginas:
+            paginas = paginas[-max_paginas:]
+        stukken = []
+        for pagina in paginas:
+            try:
+                resultaat = subprocess.run(
+                    ["tesseract", str(pagina), "-", "-l", "nld", "--psm", "3"],
+                    capture_output=True,
+                    text=True,
+                )
+            except FileNotFoundError:
+                return ""
+            stukken.append(resultaat.stdout)
+        return "\n".join(stukken)
+
+
+def tekst_uit_pdf(pad: str) -> tuple[str, bool]:
+    """De tekst én of daar OCR voor nodig was.
+
+    Eén ingang voor alle aanroepers, zodat niemand vergeet dat een gescande pdf nog
+    een tweede kans verdient. De boolean gaat mee zodat een lader kan tellen hoe vaak
+    OCR nodig was — dat is een kwaliteitssignaal over de bron, geen bijzaak.
+    """
+    tekst = pdf_naar_tekst(pad)
+    if len(tekst.strip()) >= TEKST_ONDERGRENS:
+        return tekst, False
+    return ocr_naar_tekst(pad), True
 
 
 def _eerste_treffer(genormaliseerd: str, kenmerken: list[tuple]) -> str | None:

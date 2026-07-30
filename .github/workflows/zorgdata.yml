@@ -52,8 +52,14 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: poppler-utils en unzip installeren
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils unzip
+      # tesseract met Nederlands is de terugval voor gescande pdf's. Ongeveer
+      # driekwart van de organisaties die géén opdracht opleverden, blijkt een scan
+      # zonder tekstlaag te zijn — kleine aanbieders printen, ondertekenen en scannen.
+      # Zonder deze pakketten draait alles als voorheen: geen tekstlaag, geen opdracht.
+      - name: poppler-utils, unzip en tesseract installeren
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils unzip tesseract-ocr tesseract-ocr-nld
 
       # De dataset (~16 MB) en de afgeleide doelpopulatie hoeven maar één keer
       # opgehaald en berekend te worden; dat scheelt de bron werk en ons minuten.

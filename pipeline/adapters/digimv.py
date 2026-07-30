@@ -28,7 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "extractie"))
 
 import digimv_archief  # noqa: E402
-from verklaring import analyseer, pdf_naar_tekst  # noqa: E402
+from verklaring import analyseer, tekst_uit_pdf  # noqa: E402
 
 CACHE = Path(__file__).resolve().parents[1] / ".cache"
 
@@ -88,7 +88,12 @@ def verwerk_organisatie(
                 laatste_reden = f"download mislukt: {fout}"
                 continue
 
-        resultaat = analyseer(pdf_naar_tekst(str(pdf_pad)), kantoor_index)
+        # tekst_uit_pdf valt terug op OCR als er geen tekstlaag is. Kleine
+        # zorgaanbieders printen, ondertekenen en scannen; zonder die terugval blijft
+        # ongeveer driekwart van de organisaties zonder opdracht onzichtbaar.
+        tekst, via_ocr = tekst_uit_pdf(str(pdf_pad))
+        resultaat = analyseer(tekst, kantoor_index)
+        resultaat["via_ocr"] = via_ocr
         if resultaat["soort"] != "controle":
             laatste_reden = f"geen controleverklaring ({resultaat['soort']})"
             # Zegt het dáárvoor bedoelde document ondubbelzinnig dat het een
@@ -113,6 +118,12 @@ def verwerk_organisatie(
             "boekjaar": boekjaar,
             "opdrachttype": resultaat["opdrachttype"],
             "oordeel": resultaat["oordeel"],
+            # Deze twee horen erbij omdat de lader ze wegschrijft. Ze stonden er
+            # niet in toen `grond_beperking` aan `analyseer` werd toegevoegd, en
+            # `laad_zorg` leest die sleutel buiten elke try: de eerstvolgende run
+            # zou zijn omgevallen op een KeyError bij de eerste treffer.
+            "grond_beperking": resultaat["grond_beperking"],
+            "via_ocr": resultaat["via_ocr"],
             "continuiteitsonzekerheid": bool(resultaat["continuiteitsonzekerheid"]),
             "kantoor": resultaat["kantoor"],
             "bron_bestand": doc["fileName"],
