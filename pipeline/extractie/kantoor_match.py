@@ -201,11 +201,16 @@ _OORDEEL_DAVOOR = (
     "controleverklaring van de onafhankelijke accountant",
     "independent auditor s report",
 )
-# Zinnen waarin een kantoornaam juist níét de ondertekenaar is.
+# Zinnen waarin een kantoornaam juist níét de ondertekenaar is. Meestal een
+# bestuurslid met een dagbaan: "drs J.M. van Lieshout RA, secretaris, accountant bij
+# Koeleman accountants & belastingadviseurs" stond in het rooster van aftreden van
+# Kerk in Actie en leverde een wisseling op die nooit heeft plaatsgevonden.
 _GEEN_ONDERTEKENING = (
     "board of directors", "raad van commissarissen", "raad van toezicht",
     "lid van de raad", "was a member", "was lid", "partner bij", "voormalig",
     "hold ourselves", "curriculum", "nevenfuncties", "loopbaan",
+    "accountant bij", "werkzaam bij", "rooster van aftreden", "bestuurslid",
+    "penningmeester", "secretaris", "hoofdfunctie", "works at",
 )
 
 # Vanaf welke score noemen we een naam de ondertekenaar? De onderbouwing hierboven
@@ -217,7 +222,11 @@ DREMPEL_ONDERTEKENING = 2
 def _contextscore(tekst: str, positie: int, lengte: int) -> int:
     """Hoe waarschijnlijk is het dat de naam op deze plek de ondertekenaar is?"""
     voor = tekst[max(0, positie - 220):positie]
-    ruim_voor = tekst[max(0, positie - 1400):positie]
+    # Kort venster voor de oordeelparagraaf: de ondertekening volgt daar vlak op. Met
+    # 1.400 tekens keek het te ruim — in een jaarverslag van honderd pagina's staat
+    # "ons oordeel" ergens altijd wel, en zo haalde de werkgever van een bestuurslid
+    # de drempel.
+    ruim_voor = tekst[max(0, positie - 500):positie]
     rondom = tekst[max(0, positie - 120):positie + lengte + 220]
 
     score = 0
