@@ -52,6 +52,39 @@ BDO 65, Deloitte 35, Q-Concepts 24, PwC 20, Verstegen 19, EY 17, Forvis Mazars 1
 KPMG 11, Share Impact 9. In 2024 is BDO nog groter (51 van de 272) en Deloitte gehalveerd
 (20) — er is dus beweging in te zien.
 
+### Gebouwd en gemeten (30-7-2026)
+
+`adapters/aw_dvi.py` + `laad_corporaties.py` + workflow *Corporatiedata laden*. Droogloop
+op drie jaargangen:
+
+| Boekjaar | Corporaties | Opdracht | Review |
+|---|---|---|---|
+| 2024 | 272 | **271** | 1 |
+| 2022 | 277 | **275** | 2 |
+| 2015 | 349 | **335** | 14 |
+
+Wat overblijft zijn typefouten in de bron ("Deloitte Acocuntants B.V.", "BakerTillyBerk",
+"Verstegen accountants en advisuers") en historische namen ("Mazars Paardekoper Hoffman
+N.V.", "Accountantskantoor Foederer B.V."). Die gaan naar de review-queue met de opgegeven
+naam erbij — één regel werk per geval.
+
+En dit is wat de sector meteen laat zien, 2015 tegen 2024:
+
+| Kantoor | 2015 | 2024 | |
+|---|---|---|---|
+| Deloitte | 94 | 29 | −65 |
+| EY | 62 | 19 | −43 |
+| BDO | 98 | 66 | −32 |
+| PwC | 42 | 22 | −20 |
+| Q-Concepts | 1 | **31** | +30 |
+| Verstegen | 12 | **36** | +24 |
+| Forvis Mazars | 0 | 23 | +23 |
+| Share Impact | 0 | 12 | +12 |
+
+De Big 4 zijn in tien jaar uit deze sector weggelopen (of weggestuurd) en gespecialiseerde
+kantoren hebben het overgenomen. Dat is precies het soort feit waarvoor dit product
+bestaat — en het staat gratis online.
+
 Twee dingen om rekening mee te houden, allebei bekend terrein:
 
 1. **De schrijfwijze is een zooitje.** In één jaargang komt BDO voor als "BDO Audit &
