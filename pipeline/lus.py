@@ -32,8 +32,8 @@ het product, dus dat wil je in ronde twee hebben en niet in ronde twintig.
 **Waarom in blokken en niet in één keer.** Niet omdat het lang duurt: het CBF
 levert een hele jaargang in twee en een halve minuut. Wel omdat elke ronde iets
 oplevert dat een mens kan nalopen vóór de volgende begint — welke kantoren kwamen
-langs, welke namen kennen we nog niet, klopt het aantal. Eén run van 77 blokken
-geeft aan het eind één grote hoop met dezelfde fout er 77 keer in.
+langs, welke namen kennen we nog niet, klopt het aantal. Eén run van 133 blokken
+geeft aan het eind één grote hoop met dezelfde fout er 133 keer in.
 
 Geen dependencies buiten de standaardbibliotheek.
 """
@@ -79,7 +79,12 @@ BOEKJAREN = (2024, 2023, 2025, 2022, 2021, 2020, 2019)
 # Dan vult de review-queue zich met werk dat niemand doet, en wat je erin vindt is
 # geen jaarrekeningcontrole en telt dus niet mee in de marktaandelen. Wie het toch
 # wil, kan het met de lader (`--soorten beoordeling,samenstelling`); de lus plant
-# het niet. Categorie A/B (< €200k baten) om dezelfde reden niet.
+# het niet. In categorie A/B geldt hetzelfde, en daar nog sterker.
+#
+# Samen dekken deze vier populaties alle 826 vermeldingen in het CBF-register: de
+# 714 met een actieve erkenning en de 112 ingetrokken. Binnen deze bron valt er dus
+# niets meer bij te plannen — een volgende sector is een nieuwe bron (route 3 in de
+# bronverkenning: woningcorporaties eerst).
 POPULATIES = (
     {
         # 295 organisaties, 194 opdrachten en 47 review in boekjaar 2024 (80%).
@@ -89,6 +94,7 @@ POPULATIES = (
         "categorieen": ["D", "E"],
         "erkenning": "actief",
         "soorten": ["controle"],
+        "terugval": True,
         "prioriteit": 10,
     },
     {
@@ -100,23 +106,66 @@ POPULATIES = (
         "categorieen": ["C"],
         "erkenning": "actief",
         "soorten": ["controle"],
+        "terugval": True,
         "prioriteit": 20,
     },
     {
-        # 32 organisaties die de erkenning kwijt zijn; in boekjaar 2024 leverde dat
-        # 2 opdrachten op en 10× "geen verslag" — logisch, want wie de erkenning
-        # verliest verdwijnt ook uit de nieuwe jaargangen. De oudere boekjaren zijn
-        # hier het interessante deel, en één blok kost een halve minuut.
+        # 110 organisaties die de erkenning kwijt zijn. Van de 14 uit D/E leverde
+        # boekjaar 2024 2 opdrachten op en 10× "geen verslag" — logisch, want wie de
+        # erkenning verliest verdwijnt ook uit de nieuwe jaargangen. De oudere
+        # boekjaren zijn hier het interessante deel, en het is een halve minuut
+        # per blok.
         "sleutel": "ingetrokken",
-        "naam": "ingetrokken erkenning (C/D/E)",
-        "categorieen": ["C", "D", "E"],
+        "naam": "ingetrokken erkenning (alle categorieën)",
+        "categorieen": ["A", "B", "C", "D", "E"],
         "erkenning": "ingetrokken",
         "soorten": ["controle"],
+        # Juist hier: bij een ingetrokken erkenning is het CBF-bestand er vaak niet
+        # meer (10 van de 14 in boekjaar 2024), en dan is de eigen site alles wat
+        # er nog is.
+        "terugval": True,
         "prioriteit": 30,
+    },
+    {
+        # De staart: 262 organisaties met baten onder €200k. Gemeten op boekjaar
+        # 2024 levert dit **2 opdrachten en 5 review-gevallen** op — 201 verslagen
+        # hebben geen controleverklaring en 33 zijn gescand. Dat is dus geen
+        # jachtterrein maar een nalezing: ergens tussen die kleine stichtingen zit
+        # er één die zich vrijwillig laat controleren, en die hoort er net zo goed
+        # bij. Het kost 1,4 minuut per jaargang, dus het mag achteraan meelopen.
+        #
+        # Bewust wél `controle` en niets anders: in A/B is de norm een
+        # samenstellingsverklaring of zelfs een kascommissie, en die massaal
+        # binnenhalen zou de review-queue vullen met balansposten (zie de opmerking
+        # bovenaan en beslissing 9).
+        #
+        # En bewust **zonder terugval**, terwijl die er bij de andere drie aan staat:
+        # 201 van de 262 CBF-bestanden hebben geen controleverklaring, en dat is hier
+        # geen halve levering maar het antwoord — zo'n stichting laat niet
+        # controleren. De terugval zou dus 250 websites afgaan om te vinden wat er
+        # niet is.
+        "sleutel": "ab",
+        "naam": "categorie A/B, actieve erkenning",
+        "categorieen": ["A", "B"],
+        "erkenning": "actief",
+        "soorten": ["controle"],
+        "terugval": False,
+        "prioriteit": 40,
     },
 )
 
 MAX_POGINGEN = 3
+
+# Wat er bij het herplannen van een bestaand blok bewaard blijft: alles wat een
+# gedraaide ronde heeft vastgesteld. De rest van het blok komt uit POPULATIES.
+#
+# Let op de grens hiervan: een blok dat al `klaar` is, wordt niet opnieuw gedraaid,
+# ook niet als je zijn omschrijving verandert. Wil je een afgeronde populatie met
+# nieuwe instellingen overdoen, geef hem dan een nieuwe `sleutel` (dan zijn het
+# nieuwe blokken) of zet de status van die blokken terug op `open`.
+UITKOMST_VELDEN = (
+    "status", "pogingen", "gedraaid_op", "minuten", "telling", "overgeslagen",
+)
 
 
 # ---------------------------------------------------------------- werkvoorraad
@@ -187,28 +236,36 @@ def plan(blokgrootte: int) -> int:
                 range(0, len(organisaties), blokgrootte), start=1
             ):
                 taak_id = f"{populatie['sleutel']}-{boekjaar}-{nummer:02d}"
-                taken.append(
-                    bestaand.get(taak_id)
-                    or {
-                        "id": taak_id,
-                        "prioriteit": populatie["prioriteit"],
-                        "populatie": populatie["naam"],
-                        "boekjaar": boekjaar,
-                        # Als tekst en niet als lijst: precies wat de lader op de
-                        # opdrachtregel wil, en het houdt de werkvoorraad leesbaar
-                        # (een lijst van twee kost in JSON vier regels).
-                        "categorieen": ",".join(populatie["categorieen"]),
-                        "erkenning": populatie["erkenning"],
-                        "soorten": ",".join(populatie["soorten"]),
-                        "vanaf": vanaf,
-                        "aantal": min(blokgrootte, len(organisaties) - vanaf),
-                        "status": "open",
-                        "pogingen": 0,
-                        "gedraaid_op": None,
-                        "minuten": None,
-                        "telling": {},
-                    }
-                )
+                taak = {
+                    "id": taak_id,
+                    "prioriteit": populatie["prioriteit"],
+                    "populatie": populatie["naam"],
+                    "boekjaar": boekjaar,
+                    # Als tekst en niet als lijst: precies wat de lader op de
+                    # opdrachtregel wil, en het houdt de werkvoorraad leesbaar
+                    # (een lijst van twee kost in JSON vier regels).
+                    "categorieen": ",".join(populatie["categorieen"]),
+                    "erkenning": populatie["erkenning"],
+                    "soorten": ",".join(populatie["soorten"]),
+                    "terugval": populatie.get("terugval", False),
+                    "vanaf": vanaf,
+                    "aantal": min(blokgrootte, len(organisaties) - vanaf),
+                    "status": "open",
+                    "pogingen": 0,
+                    "gedraaid_op": None,
+                    "minuten": None,
+                    "telling": {},
+                }
+                # Bestaat het blok al, dan houden we de **uitkomst** en niet de
+                # omschrijving. De code zegt wat een blok is, de werkvoorraad wat er
+                # met dat blok gebeurd is. Zou je het hele oude blok overnemen, dan
+                # bereikt een wijziging in POPULATIES (een categorie erbij, terugval
+                # aan) de blokken nooit die al gepland waren — en dan staat er iets
+                # in de code dat niet gebeurt.
+                oud = bestaand.get(taak_id)
+                if oud:
+                    taak.update({v: oud[v] for v in UITKOMST_VELDEN if v in oud})
+                taken.append(taak)
 
     behouden = {taak["id"] for taak in taken}
     verdwenen = [
@@ -222,18 +279,30 @@ def plan(blokgrootte: int) -> int:
         print(f"{len(verdwenen)} gedraaide blokken vallen buiten het plan; behouden")
         taken.extend(verdwenen)
 
+    taken = sorted(taken, key=lambda t: t["id"])
+    nieuw = behouden - set(bestaand)
+    weggevallen = set(bestaand) - {taak["id"] for taak in taken}
+    veranderd = bool(nieuw or weggevallen) or voorraad.get("blokgrootte") != blokgrootte
+
     voorraad.update(
         {
             "bron": "cbf",
             "blokgrootte": blokgrootte,
-            "gepland_op": _nu(),
             "boekjaren": list(BOEKJAREN),
-            "taken": sorted(taken, key=lambda t: t["id"]),
+            "taken": taken,
         }
     )
+    # `gepland_op` alleen bijwerken als het plan écht anders is. Dit commando draait
+    # aan het begin van elke ronde — zo bereikt een nieuwe populatie uit POPULATIES
+    # de lopende lus — en zonder deze voorwaarde zou dat elke ronde één regel ruis
+    # in de diff geven bij een plan dat niet is veranderd.
+    if veranderd or not voorraad.get("gepland_op"):
+        voorraad["gepland_op"] = _nu()
+
     schrijf(voorraad)
-    nieuw = len(behouden - set(bestaand))
-    print(f"\n{len(voorraad['taken'])} blokken in de werkvoorraad ({nieuw} nieuw)")
+    print(f"\n{len(taken)} blokken in de werkvoorraad ({len(nieuw)} nieuw)")
+    if weggevallen:
+        print(f"{len(weggevallen)} nog niet gedraaide blokken vallen buiten het plan")
     print(f"Werkvoorraad: {WERKVOORRAAD.relative_to(HIER.parent)}")
     return 0
 
@@ -310,6 +379,8 @@ def _draai_blok(taak: dict, droogloop: bool, werkers: int) -> dict | None:
         "--werkers", str(werkers),
         "--rapport-json", str(rapport),
     ]
+    if taak.get("terugval"):
+        opdracht.append("--terugval")
     if droogloop:
         opdracht.append("--droogloop")
 

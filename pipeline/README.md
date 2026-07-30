@@ -27,7 +27,7 @@ pipeline/
                           tekenen bij organisaties zonder controleplicht
     kantoor_alias.csv  ✅ handelsnamen en oude namen na fusie/rebranding
   werkvoorraad/
-    stichtingen.json   ✅ de 77 blokken van de goededoelensector en wat ze opleverden;
+    stichtingen.json   ✅ de 133 blokken van de goededoelensector en wat ze opleverden;
                           de git-diff van dit bestand is het voortgangslog
   supabase_client.py   ✅ PostgREST-client (upsert, upsert_met_id, invoegen, selecteer)
   lus.py               ✅ laadt een sector in rondes van een paar blokken in plaats van
