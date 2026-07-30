@@ -263,6 +263,12 @@ def analyseer(tekst: str, index: dict) -> dict:
 
     soort = _eerste_treffer(genormaliseerd, SOORT_KENMERKEN)
     treffer = zoek_kantoor(tekst, index)
+    # Een naam die niet op een ondertekeningsplek staat, is geen vastgesteld kantoor.
+    # Hij gaat wél als suggestie mee naar de review-queue: iemand die het stuk erbij
+    # pakt, is er in tien seconden uit.
+    zwakke_treffer = treffer["kantoor"]["naam"] if treffer and treffer["zwak"] else None
+    if zwakke_treffer:
+        treffer = None
     return {
         "soort": soort,
         # Waar de controle over gaat. None betekent: het is wél een
@@ -284,7 +290,20 @@ def analyseer(tekst: str, index: dict) -> dict:
         # wat hij ermee doet (zie laad_stichtingen.py).
         "wta_kenmerk": _eerste_treffer(genormaliseerd, [("wta", WTA_KENMERKEN)]) == "wta",
         # Wat er dan wél in de tekst stond. Alleen gevuld als er geen match is,
-        # zodat de review-queue een aanknopingspunt heeft.
-        "kandidaten": [] if treffer else kantoorkandidaten(tekst)[:5],
-        "reden": None if treffer else "kantoornaam niet gevonden in de tekst",
+        # zodat de review-queue een aanknopingspunt heeft. Een naam die alleen buiten
+        # de ondertekening voorkwam, staat vooraan — dat is de sterkste aanwijzing.
+        "kandidaten": (
+            []
+            if treffer
+            else ([zwakke_treffer] if zwakke_treffer else []) + kantoorkandidaten(tekst)[:5]
+        ),
+        "reden": (
+            None
+            if treffer
+            else (
+                f"'{zwakke_treffer}' staat in de tekst, maar niet als ondertekenaar"
+                if zwakke_treffer
+                else "kantoornaam niet gevonden in de tekst"
+            )
+        ),
     }

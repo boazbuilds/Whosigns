@@ -165,6 +165,74 @@ def bouw_index(
     return index
 
 
+# ---------- staat de naam waar een ondertekening staat? ----------
+#
+# Een kantoornaam in een jaarverslag hoeft niet de ondertekenaar te zijn. Twee echte
+# gevallen uit de meting van 30-7-2026 (goede doelen, boekjaar 2023/2024):
+#
+#   Oxfam Novib  "we hold ourselves accountable to the people we work with"
+#                -> matchte Accountable B.V. (een bestaand kantoor)
+#   Oxfam Novib  "...board of directors of Mazars Holding N.V. and Mazars
+#                Accountants N.V." -> stond in de biografie van een bestuurslid
+#
+# Beide leverden een opdracht op die niet bestaat, en samen zelfs een "wisseling" van
+# Accountable naar Forvis Mazars die nooit heeft plaatsgevonden. Hele woorden eisen
+# helpt hier niet: `accountable` is een gewoon Engels woord én een kantoornaam, en een
+# kantoornaam in een cv staat er echt.
+#
+# Daarom weegt nu ook de plek mee. Een ondertekening ziet er zo uit:
+#   "Amstelveen, 3 juni 2024   KPMG Accountants N.V."
+#   "...basis voor ons oordeel.  Forvis Mazars Accountants N.V., statutair gevestigd te…"
+#   "Rotterdam, 22 mei 2024  PricewaterhouseCoopers Accountants N.V.  origineel getekend…"
+# — plaats en datum ervoor, of de oordeelparagraaf kort ervoor, of een
+# ondertekeningsformule eromheen.
+_DATUM = re.compile(
+    r"\b\d{1,2} (?:januari|februari|maart|april|mei|juni|juli|augustus|september|"
+    r"oktober|november|december|january|february|march|may|june|july|august|"
+    r"october) (?:19|20)\d\d\b"
+)
+_ONDERTEKENING = (
+    "origineel getekend", "was getekend", "getekend door", "statutair gevestigd",
+    "was signed", "signed by", "namens deze",
+)
+_OORDEEL_DAVOOR = (
+    "basis voor ons oordeel", "voor ons oordeel", "ons oordeel",
+    "basis for our opinion", "in our opinion",
+    "controleverklaring van de onafhankelijke accountant",
+    "independent auditor s report",
+)
+# Zinnen waarin een kantoornaam juist níét de ondertekenaar is.
+_GEEN_ONDERTEKENING = (
+    "board of directors", "raad van commissarissen", "raad van toezicht",
+    "lid van de raad", "was a member", "was lid", "partner bij", "voormalig",
+    "hold ourselves", "curriculum", "nevenfuncties", "loopbaan",
+)
+
+# Vanaf welke score noemen we een naam de ondertekenaar? De onderbouwing hierboven
+# levert 4 (datum ervoor), 3 (oordeelparagraaf ervoor) of 2 (ondertekeningsformule) op;
+# een naam in een cv of kernwaarde haalt niets.
+DREMPEL_ONDERTEKENING = 2
+
+
+def _contextscore(tekst: str, positie: int, lengte: int) -> int:
+    """Hoe waarschijnlijk is het dat de naam op deze plek de ondertekenaar is?"""
+    voor = tekst[max(0, positie - 220):positie]
+    ruim_voor = tekst[max(0, positie - 1400):positie]
+    rondom = tekst[max(0, positie - 120):positie + lengte + 220]
+
+    score = 0
+    datums = list(_DATUM.finditer(voor))
+    if datums and len(voor) - datums[-1].end() <= 160:
+        score += 4
+    if any(woord in ruim_voor for woord in _OORDEEL_DAVOOR):
+        score += 3
+    if any(woord in rondom for woord in _ONDERTEKENING):
+        score += 2
+    if any(woord in voor for woord in _GEEN_ONDERTEKENING):
+        score -= 4
+    return score
+
+
 def _tel_hele_woorden(sleutel: str, tekst: str) -> int:
     """Hoe vaak staat de sleutel als hele woorden in de tekst?
 
@@ -181,20 +249,51 @@ def _tel_hele_woorden(sleutel: str, tekst: str) -> int:
 
 
 def zoek_kantoor(tekst: str, index: dict[str, dict]) -> dict | None:
-    """Geeft {'kantoor': ..., 'sleutel': ..., 'aantal': n} of None."""
+    """Geeft {'kantoor', 'sleutel', 'aantal', 'context', 'zwak'} of None.
+
+    `context` is de hoogste ondertekeningsscore die de naam in deze tekst haalt en
+    `zwak` zegt of die onder `DREMPEL_ONDERTEKENING` blijft. Een zwakke treffer is
+    géén vastgestelde opdracht: de naam stáát er, maar niet op de plek waar een
+    accountant zijn verklaring ondertekent. De aanroeper hoort die naar de
+    review-queue te sturen in plaats van hem als feit te boeken.
+    """
     genormaliseerd = normaliseer(tekst)
     if not genormaliseerd:
         return None
-    treffers = [
-        (sleutel, kantoor, aantal)
-        for sleutel, kantoor in index.items()
-        # De substringtest is alleen een goedkope voorselectie; de telling met
-        # woordgrenzen hieronder bepaalt of het echt een treffer is.
-        if sleutel in genormaliseerd
-        and (aantal := _tel_hele_woorden(sleutel, genormaliseerd))
-    ]
+
+    treffers = []
+    for sleutel, kantoor in index.items():
+        # De substringtest is alleen een goedkope voorselectie; hele woorden en de
+        # plek in de tekst bepalen of het echt een treffer is.
+        if sleutel not in genormaliseerd:
+            continue
+        posities = [
+            m.start()
+            for m in re.finditer(
+                rf"(?<![a-z0-9]){re.escape(sleutel)}(?![a-z0-9])", genormaliseerd
+            )
+        ]
+        if not posities:
+            continue
+        beste = max(
+            _contextscore(genormaliseerd, positie, len(sleutel)) for positie in posities
+        )
+        treffers.append((sleutel, kantoor, len(posities), beste))
+
     if not treffers:
         return None
-    # Langste sleutel wint; bij gelijke lengte het vaakst voorkomende.
-    sleutel, kantoor, aantal = max(treffers, key=lambda t: (len(t[0]), t[2]))
-    return {"kantoor": kantoor, "sleutel": sleutel, "aantal": aantal}
+
+    # Eerst de naam die als ondertekenaar staat; daarna de langste sleutel en het
+    # vaakst voorkomende. Zonder die eerste sortering wint een lange naam uit een
+    # biografie van de korte naam onder de verklaring.
+    ondertekenaars = [t for t in treffers if t[3] >= DREMPEL_ONDERTEKENING]
+    sleutel, kantoor, aantal, context = max(
+        ondertekenaars or treffers, key=lambda t: (t[3] > 0, len(t[0]), t[2])
+    )
+    return {
+        "kantoor": kantoor,
+        "sleutel": sleutel,
+        "aantal": aantal,
+        "context": context,
+        "zwak": context < DREMPEL_ONDERTEKENING,
+    }
