@@ -49,12 +49,14 @@ export default async function Subsectorpagina({ params }: Params) {
   let organisaties;
   try {
     subsector = await vindSubsector(decodeURIComponent(naam));
-    if (!subsector) notFound();
-    organisaties = await organisatiesInSubsector(subsector);
+    organisaties = subsector ? await organisatiesInSubsector(subsector) : [];
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
-  if (organisaties.length === 0) notFound();
+  // Buiten de try: notFound() werkt met een uitzondering die Next zelf opvangt.
+  // Binnen de try slokte onze eigen catch die op, en kreeg de bezoeker bij een
+  // onbekende subsector een foutmelding met http-status 200 in plaats van een 404.
+  if (!subsector || organisaties.length === 0) notFound();
 
   // Marktaandeel binnen een subsector kan niet uit v_marktaandeel komen: die view
   // groepeert op sector. Daarom hier optellen over de opdrachten van deze
@@ -91,18 +93,30 @@ export default async function Subsectorpagina({ params }: Params) {
   const kantoren = [...perKantoor.values()].sort((a, b) => b.aantal - a.aantal);
   const totaal = kantoren.reduce((som, k) => som + k.aantal, 0);
 
-  const subsectorWisselingen = (await wisselingen({ limiet: 200 })).filter((w) =>
-    organisaties.some((o) => o.id === w.organisatie_id),
+  const organisatieIds = new Set(organisaties.map((o) => o.id));
+  const subsectorWisselingen = (await wisselingen()).filter((w) =>
+    organisatieIds.has(w.organisatie_id),
   );
+
+  // Onder welke sector deze subsector valt, uit de organisaties zelf. Hier stond
+  // "zorg" hardgecodeerd; sinds er ook goede doelen in de database staan beweerde
+  // deze pagina dat "Natuur en milieu" een zorgsubsector is.
+  const perSector = new Map<string, number>();
+  for (const org of organisaties) {
+    if (org.sector) perSector.set(org.sector, (perSector.get(org.sector) ?? 0) + 1);
+  }
+  const sector = [...perSector.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? null;
 
   return (
     <>
       <div className="paginakop">
         <h1>{subsector}</h1>
         <p className="metaregel">
-          <span>
-            <Link href={sectorPad("zorg")}>zorg</Link>
-          </span>
+          {sector ? (
+            <span>
+              <Link href={sectorPad(sector)}>{sector}</Link>
+            </span>
+          ) : null}
           <span>{organisaties.length} organisaties</span>
           <span>{kantoren.length} accountantskantoren</span>
           {subsectorWisselingen.length ? (
@@ -183,8 +197,12 @@ export default async function Subsectorpagina({ params }: Params) {
             tekst: org.naam,
             toelichting: org.gemeente ?? undefined,
           })),
-          { naar: sectorPad("zorg"), tekst: "Alle subsectoren in de zorg" },
+          {
+            naar: sector ? sectorPad(sector) : "",
+            tekst: sector ? `Alle subsectoren in ${sector}` : "",
+          },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
+          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>

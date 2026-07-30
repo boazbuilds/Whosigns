@@ -40,6 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Link>
             <Zoekbalk />
             <nav className="kop-menu" aria-label="Hoofdmenu">
+              <Link href="/organisaties">Organisaties</Link>
               <Link href="/wisselingen">Wisselingen</Link>
               <Link href="/sector/zorg">Zorg</Link>
             </nav>

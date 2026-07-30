@@ -214,11 +214,22 @@ export function opdrachtenVanKantoor(kantoorId: number) {
 
 // ---------------------------------------------------------------- lijsten
 
-export function organisatiesInSector(sector: string, limiet = 200) {
-  return haal<Organisatie>(
+/**
+ * Organisaties in een sector. Zonder `limiet` komen ze állemaal.
+ *
+ * Dat moet ook: de sectorpagina toont het aantal, filtert de wisselingen op deze
+ * lijst en berekent er marktaandeel over. Met de oude vaste grens van 200 stond er
+ * "200 organisaties" zodra er meer waren, en verdwenen de wisselingen van
+ * organisatie 201 en verder uit het overzicht — zonder enig teken dat er iets
+ * miste. Dezelfde stille afkapping als de duizend-rijen-grens hierboven.
+ */
+export function organisatiesInSector(sector: string, limiet?: number) {
+  const basis =
     `organisaties?sector=eq.${encodeURIComponent(sector)}` +
-      `&select=${ORG_VELDEN}&order=naam.asc&limit=${limiet}`,
-  );
+    `&select=${ORG_VELDEN}&order=naam.asc`;
+  return limiet
+    ? haal<Organisatie>(`${basis}&limit=${limiet}`)
+    : haalAlles<Organisatie>(basis);
 }
 
 /**
@@ -233,6 +244,27 @@ export function organisatiesInSubsector(subsector: string, limiet?: number) {
   return limiet
     ? haal<Organisatie>(`${basis}&limit=${limiet}`)
     : haalAlles<Organisatie>(basis);
+}
+
+/**
+ * Sectoren met hun aantal organisaties, grootste eerst.
+ *
+ * Nodig omdat een sectornaam niet meer uit zijn URL te herleiden is: "goede doelen"
+ * wordt `goede-doelen`, en terugvertalen naar een spatie is gokwerk. De sectorpagina
+ * zoekt de echte waarde hier op, net als de subsectorpagina doet.
+ */
+export async function sectoren(): Promise<{ naam: string; aantal: number }[]> {
+  const rijen = await haalAlles<{ sector: string | null }>(
+    "organisaties?select=sector&sector=not.is.null",
+  );
+  const perSector = new Map<string, number>();
+  for (const rij of rijen) {
+    if (!rij.sector) continue;
+    perSector.set(rij.sector, (perSector.get(rij.sector) ?? 0) + 1);
+  }
+  return [...perSector.entries()]
+    .map(([naam, aantal]) => ({ naam, aantal }))
+    .sort((a, b) => b.aantal - a.aantal);
 }
 
 /**
@@ -263,10 +295,16 @@ export function organisatiesInGemeente(gemeente: string, limiet = 20) {
   );
 }
 
-export function alleOrganisaties(limiet = 200) {
-  return haal<Organisatie>(
-    `organisaties?select=${ORG_VELDEN}&order=naam.asc&limit=${limiet}`,
-  );
+/**
+ * Alle organisaties, alfabetisch. Zonder `limiet` komen ze állemaal — dat is wat
+ * /organisaties nodig heeft. Geef wél een limiet mee waar een handvol genoeg is
+ * (een paar doorklikken); dat blijft één klein verzoek.
+ */
+export function alleOrganisaties(limiet?: number) {
+  const basis = `organisaties?select=${ORG_VELDEN}&order=naam.asc`;
+  return limiet
+    ? haal<Organisatie>(`${basis}&limit=${limiet}`)
+    : haalAlles<Organisatie>(basis);
 }
 
 export function zoekOrganisaties(term: string, limiet = 40) {
@@ -299,6 +337,9 @@ export async function wisselingen(opties: {
   organisatieId?: number;
   /** Wisselingen naar én van dit kantoor: gewonnen en verloren cliënten. */
   kantoorId?: number;
+  /** Zonder limiet komen ze állemaal. Geef er alleen een mee waar een kort
+   *  lijstje bedoeld is, zoals de acht op de voorpagina — een limiet die als
+   *  "alle" wordt gepresenteerd geeft een verkeerd getal zodra de database groeit. */
   limiet?: number;
 } = {}): Promise<WisselingVolledig[]> {
   const filters = ["select=*", "order=boekjaar_wissel.desc"];
@@ -309,9 +350,11 @@ export async function wisselingen(opties: {
       `or=(van_kantoor_id.eq.${opties.kantoorId},naar_kantoor_id.eq.${opties.kantoorId})`,
     );
   }
-  filters.push(`limit=${opties.limiet ?? 100}`);
 
-  const rijen = await haal<Wisseling>(`v_wisselingen?${filters.join("&")}`);
+  const pad = `v_wisselingen?${filters.join("&")}`;
+  const rijen = opties.limiet
+    ? await haal<Wisseling>(`${pad}&limit=${opties.limiet}`)
+    : await haalAlles<Wisseling>(pad);
   if (!rijen.length) return [];
 
   const [organisaties, kantoren] = await Promise.all([
@@ -337,17 +380,36 @@ export async function nieuwsteBoekjaar(): Promise<number | null> {
   return rij?.boekjaar ?? null;
 }
 
-/** Kantoren die daadwerkelijk opdrachten hebben, met hun aantal in één boekjaar. */
+/**
+ * Kantoren die daadwerkelijk opdrachten hebben, met hun aantal in één boekjaar —
+ * over alle sectoren samen.
+ *
+ * Dat optellen moet hier gebeuren: `v_marktaandeel` groepeert óók op sector, dus
+ * een kantoor dat zowel zorginstellingen als goede doelen controleert staat er
+ * twee keer in, elk met een deel van het aantal. Ongeteld gaf dat op de
+ * voorpagina twee regels "BDO Audit & Assurance" met 61 en 8 controles.
+ */
 export async function actieveKantoren(boekjaar: number) {
-  const rijen = await haal<{ kantoor_id: number; aantal_controles: number }>(
-    `v_marktaandeel?select=kantoor_id,aantal_controles&boekjaar=eq.${boekjaar}` +
-      `&order=aantal_controles.desc`,
+  const rijen = await haalAlles<{ kantoor_id: number; aantal_controles: number }>(
+    `v_marktaandeel?select=kantoor_id,aantal_controles&boekjaar=eq.${boekjaar}`,
   );
-  const kantoren = await kantorenOpId(rijen.map((r) => r.kantoor_id));
+  const perKantoor = new Map<number, number>();
+  for (const rij of rijen) {
+    perKantoor.set(
+      rij.kantoor_id,
+      (perKantoor.get(rij.kantoor_id) ?? 0) + rij.aantal_controles,
+    );
+  }
+  const kantoren = await kantorenOpId([...perKantoor.keys()]);
   const kantoorPerId = new Map(kantoren.map((k) => [k.id, k]));
-  return rijen
-    .map((r) => ({ ...r, kantoor: kantoorPerId.get(r.kantoor_id) ?? null }))
-    .filter((r) => r.kantoor !== null);
+  return [...perKantoor.entries()]
+    .map(([kantoor_id, aantal_controles]) => ({
+      kantoor_id,
+      aantal_controles,
+      kantoor: kantoorPerId.get(kantoor_id) ?? null,
+    }))
+    .filter((r) => r.kantoor !== null)
+    .sort((a, b) => b.aantal_controles - a.aantal_controles);
 }
 
 /** Marktaandeel per kantoor, met de kantoornamen erbij. */

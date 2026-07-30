@@ -13,7 +13,7 @@ export default async function Zoekpagina({ searchParams }: Props) {
   const term = (q ?? "").trim();
 
   if (term.length < 2) {
-    const organisaties = await alleOrganisaties().catch(() => []);
+    const organisaties = await alleOrganisaties(4).catch(() => []);
     return (
       <>
         <div className="paginakop">

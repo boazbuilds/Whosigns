@@ -1,32 +1,78 @@
 import Link from "next/link";
 import {
   actieveKantoren,
-  alleOrganisaties,
   nieuwsteBoekjaar,
+  sectoren,
+  subsectoren,
   tel,
   wisselingen,
 } from "@/lib/db";
-import { aantalControles, kantoorPad, organisatiePad, sectorPad } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
+import {
+  aantalControles,
+  kantoorPad,
+  organisatiePad,
+  sectorPad,
+  subsectorPad,
+} from "@/lib/paden";
+import { Doorklik, Foutmelding, Inklapbaar, Leeg } from "@/components/onderdelen";
+
+/**
+ * Zoveel kantoren staan open; de staart zit achter een klik. Tien is genoeg om te
+ * zien wie de markt maakt — de kantoren met één of twee controles zijn een
+ * naslaglijst, geen voorpagina.
+ */
+const KANTOREN_OPEN = 10;
 
 export default async function Startpagina() {
   let inhoud;
   try {
     const boekjaar = (await nieuwsteBoekjaar()) ?? new Date().getFullYear() - 1;
-    const [organisaties, laatsteWisselingen, kantoren, aantalOpdrachten] =
-      await Promise.all([
-        alleOrganisaties(),
-        wisselingen({ limiet: 8 }),
-        actieveKantoren(boekjaar),
-        tel("opdrachten"),
-      ]);
+    const [
+      aantalOrganisaties,
+      aantalOpdrachten,
+      laatsteWisselingen,
+      kantoren,
+      sectorlijst,
+      subsectorlijst,
+    ] = await Promise.all([
+      // Tellen in de database, niet de rijen ophalen en die tellen: dat laatste
+      // gaf "200 organisaties" omdat de lijst op 200 was afgekapt.
+      tel("organisaties"),
+      tel("opdrachten"),
+      wisselingen({ limiet: 8 }),
+      actieveKantoren(boekjaar),
+      sectoren().catch(() => []),
+      subsectoren().catch(() => []),
+    ]);
+
+    // Eén keer opbouwen, twee keer gebruiken: de eerste tien open, de rest
+    // ingeklapt. De kop is hetzelfde element in beide tabellen.
+    const kantoorkop = (
+      <thead>
+        <tr>
+          <th>Kantoor</th>
+          <th className="getal">Controles</th>
+        </tr>
+      </thead>
+    );
+    const kantoorrijen = kantoren.map((rij) => (
+      <tr key={rij.kantoor_id}>
+        <td>
+          <Link href={kantoorPad(rij.kantoor!)}>{rij.kantoor!.naam}</Link>
+          {rij.kantoor!.oob_vergunning ? (
+            <> <span className="label label-oob">OOB</span></>
+          ) : null}
+        </td>
+        <td className="getal">{rij.aantal_controles}</td>
+      </tr>
+    ));
 
     inhoud = (
       <>
         <div className="paginakop">
           <h1>Wie controleert wie?</h1>
           <p className="metaregel" style={{ marginTop: "0.5rem" }}>
-            <span>{organisaties.length} organisaties</span>
+            <span>{aantalOrganisaties} organisaties</span>
             <span>{aantalOpdrachten} opdrachten</span>
             <span>boekjaren 2019–{boekjaar}</span>
           </p>
@@ -80,27 +126,22 @@ export default async function Startpagina() {
             {kantoren.length === 0 ? (
               <Leeg tekst="Nog geen opdrachten in dit boekjaar." />
             ) : (
-              <table>
-                <thead>
-                  <tr>
-                    <th>Kantoor</th>
-                    <th className="getal">Controles</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {kantoren.map((rij) => (
-                    <tr key={rij.kantoor_id}>
-                      <td>
-                        <Link href={kantoorPad(rij.kantoor!)}>{rij.kantoor!.naam}</Link>
-                        {rij.kantoor!.oob_vergunning ? (
-                          <> <span className="label label-oob">OOB</span></>
-                        ) : null}
-                      </td>
-                      <td className="getal">{rij.aantal_controles}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <>
+                <table>
+                  {kantoorkop}
+                  <tbody>{kantoorrijen.slice(0, KANTOREN_OPEN)}</tbody>
+                </table>
+                {kantoorrijen.length > KANTOREN_OPEN ? (
+                  <Inklapbaar
+                    samenvatting={`Nog ${kantoorrijen.length - KANTOREN_OPEN} kantoren met minder controles`}
+                  >
+                    <table>
+                      {kantoorkop}
+                      <tbody>{kantoorrijen.slice(KANTOREN_OPEN)}</tbody>
+                    </table>
+                  </Inklapbaar>
+                ) : null}
+              </>
             )}
             <p className="klein" style={{ marginBottom: 0 }}>
               <Link href={sectorPad("zorg")}>Marktaandeel in de zorg →</Link>
@@ -108,43 +149,59 @@ export default async function Startpagina() {
           </section>
         </div>
 
+        {/* De alfabetische lijst van álle organisaties stond hier eerst helemaal
+            uitgeschreven. Dat is een naslagwerk en geen voorpagina; hij heeft nu
+            zijn eigen adres. Wat hier blijft staan is de ingang: kies een
+            subsector, of ga naar de volledige lijst. */}
         <section className="kaart">
-          <h2>Alle organisaties</h2>
-          <div className="tabel-omhulsel">
-            <table>
-              <thead>
-                <tr>
-                  <th>Organisatie</th>
-                  <th>Plaats</th>
-                  <th>Sector</th>
-                </tr>
-              </thead>
-              <tbody>
-                {organisaties.map((org) => (
-                  <tr key={org.id}>
-                    <td>
-                      <Link href={organisatiePad(org)}>{org.naam}</Link>
-                    </td>
-                    <td className="zacht">{org.gemeente ?? "—"}</td>
-                    <td>
-                      {org.sector ? (
-                        <Link href={sectorPad(org.sector)}>{org.sector}</Link>
-                      ) : (
-                        "—"
-                      )}
-                    </td>
+          <h2>Organisaties</h2>
+          {subsectorlijst.length === 0 ? (
+            <Leeg tekst="De subsectoren worden nog bijgewerkt." />
+          ) : (
+            <div className="tabel-omhulsel">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Subsector</th>
+                    <th className="getal">Organisaties</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                </thead>
+                <tbody>
+                  {subsectorlijst.map((rij) => (
+                    <tr key={rij.naam}>
+                      <td>
+                        <Link href={subsectorPad(rij.naam)}>{rij.naam}</Link>
+                      </td>
+                      <td className="getal">{rij.aantal}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+          <p className="klein" style={{ marginBottom: 0 }}>
+            <Link href="/organisaties">
+              Alle {aantalOrganisaties} organisaties op naam →
+            </Link>
+          </p>
         </section>
 
         <Doorklik
           titel="Beginnen met klikken"
           items={[
             { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-            { naar: sectorPad("zorg"), tekst: "Sector zorg: marktaandelen" },
+            {
+              naar: "/organisaties",
+              tekst: "Alle organisaties op naam",
+              toelichting: `${aantalOrganisaties} in de database`,
+            },
+            // Alle sectoren die er zijn, niet alleen de zorg: de goede doelen
+            // hadden anders geen ingang vanaf de voorpagina.
+            ...sectorlijst.map((s) => ({
+              naar: sectorPad(s.naam),
+              tekst: `Sector ${s.naam}: marktaandelen`,
+              toelichting: `${s.aantal} organisaties`,
+            })),
             ...kantoren.slice(0, 3).map((rij) => ({
               naar: kantoorPad(rij.kantoor!),
               tekst: rij.kantoor!.naam,

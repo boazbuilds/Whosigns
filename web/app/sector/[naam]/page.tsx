@@ -4,26 +4,36 @@ import { notFound } from "next/navigation";
 import {
   marktaandeel,
   organisatiesInSector,
+  sectoren,
   subsectoren,
   wisselingen,
 } from "@/lib/db";
-import { kantoorPad, organisatiePad, subsectorPad } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
+import { kantoorPad, organisatiePad, slug, subsectorPad } from "@/lib/paden";
+import { Doorklik, Foutmelding, Inklapbaar, Leeg } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ naam: string }> };
 
+/** Zoveel organisaties staan open in de zijkolom; de rest zit achter een klik. */
+const ORGANISATIES_OPEN = 15;
+
 /**
- * Sectoren zijn nu nog enkele woorden ("zorg"), dus de URL-slug is gelijk aan de
- * waarde in de database. Komen er sectoren met spaties of leestekens bij, dan
- * hoort hier een echte vertaaltabel slug → sectorwaarde.
+ * De echte sectorwaarde bij een slug.
+ *
+ * Dit stond hier eerst als `slug.toLowerCase()`, met de aantekening dat het zou
+ * breken zodra er een sector met een spatie bij kwam. Dat gebeurde: "goede doelen"
+ * werd `goede-doelen` en die pagina gaf een 404, terwijl elke organisatiepagina van
+ * een goed doel er wél naar linkte. Nu zoeken we de waarde op in de lijst die de
+ * database kent — dezelfde aanpak als op de subsectorpagina.
  */
-function sectorUitSlug(slug: string): string {
-  return decodeURIComponent(slug).toLowerCase();
+async function vindSector(naamSlug: string): Promise<string | null> {
+  const lijst = await sectoren();
+  return lijst.find((s) => slug(s.naam) === naamSlug)?.naam ?? null;
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { naam } = await params;
-  const sector = sectorUitSlug(naam);
+  const sector = await vindSector(decodeURIComponent(naam)).catch(() => null);
+  if (!sector) return { title: "Sector niet gevonden" };
   return {
     title: `Accountants in de sector ${sector}`,
     description:
@@ -34,22 +44,29 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
 export default async function Sectorpagina({ params }: Params) {
   const { naam } = await params;
-  const sector = sectorUitSlug(naam);
 
+  let sector: string | null;
   let organisaties;
   let aandelen;
   try {
-    [organisaties, aandelen] = await Promise.all([
-      organisatiesInSector(sector),
-      marktaandeel(sector),
-    ]);
+    sector = await vindSector(decodeURIComponent(naam));
+    [organisaties, aandelen] = sector
+      ? await Promise.all([organisatiesInSector(sector), marktaandeel(sector)])
+      : [[], []];
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
-  if (organisaties.length === 0) notFound();
+  // Buiten de try: notFound() werkt met een uitzondering die Next zelf opvangt.
+  // Binnen de try zou onze eigen catch die opslokken en kreeg de bezoeker een
+  // foutmelding met http-status 200 in plaats van een nette 404.
+  if (!sector || organisaties.length === 0) notFound();
 
-  const sectorWisselingen = (await wisselingen({ limiet: 100 })).filter((w) =>
-    organisaties.some((o) => o.id === w.organisatie_id),
+  // Alle wisselingen ophalen en hier filteren: v_wisselingen kent geen sector, en
+  // met een limiet vooraf vielen de wisselingen van deze sector buiten beeld zodra
+  // een andere sector de nieuwste regels vulde.
+  const organisatieIds = new Set(organisaties.map((o) => o.id));
+  const sectorWisselingen = (await wisselingen()).filter((w) =>
+    organisatieIds.has(w.organisatie_id),
   );
   const subsectorlijst = await subsectoren().catch(() => []);
 
@@ -75,6 +92,15 @@ export default async function Sectorpagina({ params }: Params) {
   const kantoorrijen = [...perKantoor.entries()].sort(
     (a, b) => b[1].totaal - a[1].totaal,
   );
+
+  const organisatierijen = organisaties.map((org) => (
+    <tr key={org.id}>
+      <td>
+        <Link href={organisatiePad(org)}>{org.naam}</Link>
+      </td>
+      <td className="zacht klein">{org.gemeente ?? "—"}</td>
+    </tr>
+  ));
 
   return (
     <>
@@ -189,17 +215,20 @@ export default async function Sectorpagina({ params }: Params) {
         <section className="kaart">
           <h2>Organisaties</h2>
           <table>
-            <tbody>
-              {organisaties.map((org) => (
-                <tr key={org.id}>
-                  <td>
-                    <Link href={organisatiePad(org)}>{org.naam}</Link>
-                  </td>
-                  <td className="zacht klein">{org.gemeente ?? "—"}</td>
-                </tr>
-              ))}
-            </tbody>
+            <tbody>{organisatierijen.slice(0, ORGANISATIES_OPEN)}</tbody>
           </table>
+          {organisatierijen.length > ORGANISATIES_OPEN ? (
+            <Inklapbaar
+              samenvatting={`Nog ${organisatierijen.length - ORGANISATIES_OPEN} organisaties`}
+            >
+              <table>
+                <tbody>{organisatierijen.slice(ORGANISATIES_OPEN)}</tbody>
+              </table>
+            </Inklapbaar>
+          ) : null}
+          <p className="klein" style={{ marginBottom: 0 }}>
+            <Link href="/organisaties">Alle organisaties, alle sectoren →</Link>
+          </p>
         </section>
       </div>
 
@@ -221,7 +250,7 @@ export default async function Sectorpagina({ params }: Params) {
             toelichting: org.gemeente ?? undefined,
           })),
           { naar: "/wisselingen", tekst: "Alle wisselingen, alle sectoren" },
-          { naar: "/", tekst: "Alle organisaties" },
+          { naar: "/organisaties", tekst: "Alle organisaties" },
         ]}
       />
     </>
