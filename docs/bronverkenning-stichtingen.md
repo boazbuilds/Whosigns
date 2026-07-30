@@ -491,6 +491,65 @@ dan staat de jaarrekening mét verklaring wél op de eigen site. Het boekjaar wo
 altijd in de tekst gecontroleerd (`stichtingen.bevat_boekjaar()`), want anders boek je de
 accountant van 2023 op boekjaar 2024.
 
+### OCR voor gescande verslagen: aan bij D/E en C, uit bij A/B
+
+`tekst_uit_pdf()` uit de zorgroute leest een pdf zonder tekstlaag alsnog, via
+pdftoppm + tesseract. De goededoelenroute riep dat niet aan, terwijl "gescand, geen
+tekstlaag" per jaargang de grootste categorie is die overblijft: 33 van de 262 in A/B,
+11 in C, 9 in D/E.
+
+Of dat de moeite is, hangt af van wie de scan maakte — en dat verschilt zo sterk per
+categorie dat het een instelling per populatie is geworden. **Alle negen gescande
+D/E-verslagen van boekjaar 2024 door OCR:**
+
+| Organisatie | tijd | soort | kantoor |
+|---|---|---|---|
+| Friendship Sports Centre | 47s | controle | JAN© Accountants en Adviseurs → **opdracht** |
+| Open Doors | 54s | controle | Schuiteman Audit & Assurance → **opdracht** |
+| Friese Milieufederatie | 57s | controle | onbekend → review |
+| The Bridge | 226s | controle | onbekend → review |
+| Kracht in NL | 755s | samenstelling | — (telt niet mee) |
+| Blijdschap Voor De Dieren | 37s | samenstelling | Tamek Accountants (telt niet mee) |
+| KNGF Geleidehonden | 77s | — | — |
+| voordekunst | 128s | — | — |
+| Feyenoord Foundation | 6s | — | — |
+
+Met `--soorten controle`, wat de lus doet: **2 opdrachten en 2 review per jaargang**, dus
+over zeven boekjaren zo'n vijftien rijen. Dezelfde orde als categorie A/B, en om dezelfde
+reden de moeite: het zijn organisaties als Open Doors, geen marginale gevallen.
+
+Bij **A/B** is het precies omgekeerd. Van vier nagekeken gescande A/B-verslagen had er
+drie géén verklaring en de vierde een samenstelling zonder herleidbaar kantoor. Wie
+print, ondertekent en scant is daar juist de stichting die zich niet laat controleren, en
+dan bewijst OCR alleen dat het stuk leeg is — 33 documenten per jaargang om te bevestigen
+wat de basiskans al zei (201 van de 262 zonder controle). Daar staat OCR dus uit
+(`"ocr": False`). Steekproef van vier, dus dat is een richting; de code zegt waarom.
+
+Twee dingen die deze meting opleverde en die in de code staan:
+
+**Eén document kan een ronde opeten.** Kracht in NL kostte 755 seconden tegen een mediaan
+van 57 — een scan op zeer hoge resolutie — en leverde niets bruikbaars. Daarom een
+tijdbudget per document (`OCR_TIJDBUDGET`). Bij overschrijding komt er een lege string
+terug en niet de helft van de pagina's: de verklaring staat áchteraan, dus een halve
+lezing mist juist het deel waar het om gaat en zou "geen verklaring" melden terwijl die
+er wel is.
+
+**Een krappe tijdgrens is gevaarlijker dan geen.** Met eerst 60 seconden per pagina gaf
+een verslag van twee pagina's, dat los in 5 seconden 1.874 tekens oplevert, plotseling
+nul tekens: onder gelijktijdige belasting liepen de pagina's over de grens en werden ze
+overgeslagen. Een leesbaar verslag werd zo stil `onleesbaar`. De grenzen staan nu ruim
+(600s per document, 120s per pagina) en vangen alleen het pathologische geval; ze mogen
+nooit data weggooien omdat de machine het even druk heeft.
+
+Ook goedkoper gemaakt: `ocr_naar_tekst` rendert nu alleen de pagina's die het ook leest.
+Het rendert op 300 dpi en gooide daarna alles behalve de laatste twintig weg — bij een
+jaarverslag van 120 pagina's honderd pagina's renderwerk voor niets. `pdfinfo` geeft de
+paginatelling in milliseconden. Bewezen gelijk: hetzelfde document geeft oud en nieuw
+exact dezelfde 15.210 tekens.
+
+`tesseract-ocr` en `tesseract-ocr-nld` staan in de workflows. Ontbreken ze, dan draait
+alles als voorheen — geen tekstlaag, geen opdracht — dus een ronde valt er niet over om.
+
 ## Zo laad je de sector: de lus
 
 Niet één bulk-run van 133 blokken, maar een terugkerende ronde die er steeds een paar doet.
@@ -506,12 +565,12 @@ en de workflow *Stichtingenlus* draait vier keer per dag een ronde:
 
 De werkvoorraad is **133 blokken** over vier populaties, elk × 7 boekjaren:
 
-| Populatie | organisaties | blokken | terugval | opbrengst per jaargang (bj. 2024) |
-|---|---|---|---|---|
-| categorie D/E, actief | 295 | 42 | ja | 194 opdrachten, 47 review |
-| categorie C, actief | 157 | 28 | ja | 20 opdrachten, 11 review |
-| ingetrokken erkenning (A–E) | 110 | 21 | ja | 2 opdrachten (gemeten op de 14 uit D/E) |
-| categorie A/B, actief | 262 | 42 | nee | 2 opdrachten, 5 review |
+| Populatie | organisaties | blokken | terugval | OCR | opbrengst per jaargang (bj. 2024) |
+|---|---|---|---|---|---|
+| categorie D/E, actief | 295 | 42 | ja | ja | 194 opdrachten, 47 review (+2/+2 uit OCR) |
+| categorie C, actief | 157 | 28 | ja | ja | 20 opdrachten, 11 review |
+| ingetrokken erkenning (A–E) | 110 | 21 | ja | ja | 2 opdrachten (gemeten op de 14 uit D/E) |
+| categorie A/B, actief | 262 | 42 | nee | nee | 2 opdrachten, 5 review |
 
 Eén ronde is standaard zes blokken en dus precies één jaargang D/E. Op vier rondes per dag
 is de hele sector in ongeveer **vijf dagen** binnen, met een leesmoment per ronde.

@@ -24,6 +24,7 @@ niet gelogd.
 import re
 import subprocess
 import tempfile
+import time
 from pathlib import Path
 
 from kantoor_match import normaliseer
@@ -293,6 +294,28 @@ OCR_MAX_PAGINAS = 20
 # viel de kantoornaam weg, bij 400 werd het alleen langzamer.
 OCR_DPI = 300
 
+# Tijdbudget voor het OCR'en van één document, en per pagina. Waarom dit er is: bij de
+# goede doelen kwam "Kracht in NL" uit op 755 seconden voor twintig pagina's — een scan
+# op zeer hoge resolutie, waar tesseract per pagina veertig keer langer over doet dan
+# normaal (gewoonlijk 2 à 3 seconden). De opbrengst was een samenstellingsverklaring
+# zonder kantoor, dus niets. Eén zo'n document eet een kwart van het tijdbudget van een
+# ronde op, en de lus draait zes blokken in drie kwartier.
+#
+# Bij overschrijding geven we een lege string terug en niet de helft van de pagina's:
+# de verklaring staat áchteraan, dus een halve lezing mist juist het deel waar het om
+# gaat en zou "geen verklaring" melden terwijl die er wel is. Liever `onleesbaar`, wat
+# eerlijk is en precies het gedrag van vóór de OCR-terugval.
+# Ruim gekozen, en dat is met opzet. De geslaagde lezingen kostten 47 tot 128 seconden;
+# de limiet moet alleen het pathologische geval afvangen, niet een langzame ronde. Onder
+# druk telt dat dubbel: de lus draait vier werkers naast elkaar, dus per pagina kan het
+# een veelvoud van de 2 à 3 seconden worden die het los kost. Met een krappe grens
+# (eerst 60s per pagina) leverde een document van twee pagina's dat normaal in 5 seconden
+# 1.874 tekens geeft, plotseling nul tekens — een leesbaar verslag dat stil `onleesbaar`
+# werd. Een limiet die data weggooit als de machine het even druk heeft is erger dan
+# geen limiet.
+OCR_TIJDBUDGET = 600
+OCR_TIJD_PER_PAGINA = 120
+
 
 def _eerste_ocr_pagina(pad: str, max_paginas: int) -> int | None:
     """Vanaf welke pagina er ge-OCR'd moet worden, of None als dat niet te bepalen is.
@@ -336,25 +359,41 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
         # alles en snijden we na afloop; dat is de oude weg en die werkt ook.
         eerste = _eerste_ocr_pagina(pad, max_paginas)
         bereik = ["-f", str(eerste), "-l", str(eerste + max_paginas - 1)] if eerste else []
+        begin = time.monotonic()
         try:
             subprocess.run(
                 ["pdftoppm", "-r", str(OCR_DPI), "-png", *bereik, pad, f"{tijdelijk}/p"],
                 check=True,
                 capture_output=True,
+                timeout=OCR_TIJDBUDGET,
             )
-        except (subprocess.CalledProcessError, FileNotFoundError):
+        except (
+            subprocess.CalledProcessError,
+            subprocess.TimeoutExpired,
+            FileNotFoundError,
+        ):
             return ""
         paginas = sorted(Path(tijdelijk).glob("p*.png"))
         if len(paginas) > max_paginas:
             paginas = paginas[-max_paginas:]
         stukken = []
         for pagina in paginas:
+            if time.monotonic() - begin > OCR_TIJDBUDGET:
+                # Zie OCR_TIJDBUDGET: halverwege stoppen zou de verklaring achteraan
+                # missen en dat als "geen verklaring" rapporteren. Dan liever niets.
+                return ""
             try:
                 resultaat = subprocess.run(
                     ["tesseract", str(pagina), "-", "-l", "nld", "--psm", "3"],
                     capture_output=True,
                     text=True,
+                    timeout=OCR_TIJD_PER_PAGINA,
                 )
+            except subprocess.TimeoutExpired:
+                # Niet deze pagina overslaan en doorgaan: dan lever je een lezing
+                # zonder de pagina waar de verklaring op staat, en dat komt eruit als
+                # "geen verklaring". Stilte is hier gevaarlijker dan opgeven.
+                return ""
             except FileNotFoundError:
                 return ""
             stukken.append(resultaat.stdout)
