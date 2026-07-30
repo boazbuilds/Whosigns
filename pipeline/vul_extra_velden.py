@@ -70,19 +70,7 @@ def main() -> int:
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
 
-    lijst_pad = CACHE / f"doelpopulatie_{boekjaar}.csv"
-    if not lijst_pad.exists():
-        print(f"dataset boekjaar {boekjaar} ophalen en ontleden...", flush=True)
-        ods_paden = digimv_dataset.download(boekjaar, CACHE)
-        organisaties = digimv_dataset.doelpopulatie(ods_paden, boekjaar)
-        digimv_dataset.schrijf_csv(organisaties, lijst_pad)
-    rijen = digimv_dataset.lees_csv(lijst_pad)
-    if "subsector" not in (rijen[0] if rijen else {}):
-        print(
-            f"{lijst_pad} komt uit een oudere versie en heeft de extra velden niet. "
-            f"Verwijder het bestand en draai opnieuw."
-        )
-        return 1
+    rijen = digimv_dataset.doelpopulatie_uit_cache(boekjaar, CACHE)
     print(f"{len(rijen)} organisaties in de doelpopulatie van {boekjaar}\n", flush=True)
 
     try:

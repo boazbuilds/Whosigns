@@ -421,3 +421,38 @@ def schrijf_csv(organisaties: list[dict], pad: Path) -> None:
 def lees_csv(pad: Path) -> list[dict]:
     with pad.open(encoding="utf-8") as f:
         return list(csv.DictReader(f))
+
+
+def doelpopulatie_uit_cache(boekjaar: int, cache: Path) -> list[dict]:
+    """De doelpopulatie, uit de cache of anders opnieuw bepaald.
+
+    Beide laders gebruiken dit. Zonder gemeenschappelijk punt liep het mis: een
+    cachebestand uit een oudere versie van deze code mist nieuwe kolommen, en dan
+    hoort het opnieuw gemaakt te worden — niet gebruikt en niet als fout gemeld.
+
+    Dat is precies wat een run van 2u22m liet sneuvelen. `vul_extra_velden` gaf
+    "verwijder het bestand en draai opnieuw" en stopte met exit 1, wat nutteloos
+    advies is aan een job die niemand bekijkt. `laad_zorg` controleerde helemaal
+    niet en gebruikte de oude lijst stil, waardoor de nieuwe velden ook tijdens het
+    laden nooit werden weggeschreven.
+
+    De koprij is de versiecontrole: wijkt die af van CSV_VELDEN, dan is het
+    bestand van vóór een wijziging en gooien we het weg.
+    """
+    pad = cache / f"doelpopulatie_{boekjaar}.csv"
+    if pad.exists():
+        with pad.open(encoding="utf-8") as f:
+            kop = next(csv.reader(f), [])
+        if kop == CSV_VELDEN:
+            return lees_csv(pad)
+        print(
+            f"{pad.name} komt uit een oudere versie ({len(kop)} kolommen in plaats "
+            f"van {len(CSV_VELDEN)}); opnieuw bepalen.",
+            flush=True,
+        )
+        pad.unlink()
+
+    print(f"dataset boekjaar {boekjaar} ophalen en ontleden...", flush=True)
+    organisaties = doelpopulatie(download(boekjaar, cache), boekjaar)
+    schrijf_csv(organisaties, pad)
+    return lees_csv(pad)

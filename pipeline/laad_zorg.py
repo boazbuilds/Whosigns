@@ -167,15 +167,7 @@ def main() -> int:
     # tweede jaar is er geen enkele wisseling te zien.
     lijst_boekjaar = argumenten.lijst_uit or boekjaar
 
-    lijst_pad = CACHE / f"doelpopulatie_{lijst_boekjaar}.csv"
-    if lijst_pad.exists():
-        organisaties = digimv_dataset.lees_csv(lijst_pad)
-    else:
-        print(f"dataset boekjaar {lijst_boekjaar} ophalen...", flush=True)
-        ods_paden = digimv_dataset.download(lijst_boekjaar, CACHE)
-        print("doelpopulatie bepalen (dit duurt een paar minuten)...", flush=True)
-        organisaties = digimv_dataset.doelpopulatie(ods_paden, lijst_boekjaar)
-        digimv_dataset.schrijf_csv(organisaties, lijst_pad)
+    organisaties = digimv_dataset.doelpopulatie_uit_cache(lijst_boekjaar, CACHE)
 
     herkomst = (
         "" if lijst_boekjaar == boekjaar else f" (lijst uit boekjaar {lijst_boekjaar})"
