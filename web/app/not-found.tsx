@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { alleOrganisaties } from "@/lib/db";
+import { alleOrganisaties, sectoren } from "@/lib/db";
 import { organisatiePad, sectorPad } from "@/lib/paden";
 import { Doorklik } from "@/components/onderdelen";
 
@@ -11,7 +11,10 @@ export const metadata: Metadata = { title: "Niet gevonden" };
  * weggaat.
  */
 export default async function NietGevonden() {
-  const organisaties = await alleOrganisaties(4).catch(() => []);
+  const [organisaties, sectorlijst] = await Promise.all([
+    alleOrganisaties(4).catch(() => []),
+    sectoren().catch(() => []),
+  ]);
 
   return (
     <>
@@ -31,7 +34,12 @@ export default async function NietGevonden() {
             toelichting: org.gemeente ?? undefined,
           })),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: sectorPad("zorg"), tekst: "Sector zorg" },
+          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
+          ...sectorlijst.map((sector) => ({
+            naar: sectorPad(sector.naam),
+            tekst: `Sector ${sector.naam}`,
+            toelichting: `${sector.aantal} organisaties`,
+          })),
           { naar: "/", tekst: "Naar het overzicht" },
         ]}
       />

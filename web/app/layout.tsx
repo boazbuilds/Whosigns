@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { sectoren } from "@/lib/db";
+import { sectorPad } from "@/lib/paden";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -29,7 +31,13 @@ function Zoekbalk() {
   );
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  // Het menu noemt de sectoren die er écht zijn. Hier stond "Zorg" hardgecodeerd,
+  // waardoor de goede doelen nergens in de navigatie voorkwamen. Faalt de database,
+  // dan vervallen alleen deze links — de rest van het menu blijft staan, want een
+  // stukgelopen menu maakt élke pagina onbruikbaar.
+  const sectorlijst = await sectoren().catch(() => []);
+
   return (
     <html lang="nl">
       <body>
@@ -42,7 +50,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="kop-menu" aria-label="Hoofdmenu">
               <Link href="/organisaties">Organisaties</Link>
               <Link href="/wisselingen">Wisselingen</Link>
-              <Link href="/sector/zorg">Zorg</Link>
+              {sectorlijst.map((sector) => (
+                <Link key={sector.naam} href={sectorPad(sector.naam)}>
+                  {sector.naam.charAt(0).toUpperCase() + sector.naam.slice(1)}
+                </Link>
+              ))}
             </nav>
           </div>
         </header>

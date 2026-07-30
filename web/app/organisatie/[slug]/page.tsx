@@ -7,7 +7,7 @@ import {
   organisatiesInGemeente,
   organisatiesInSector,
   organisatiesInSubsector,
-  wisselingen,
+  tel,
 } from "@/lib/db";
 import { periodes, wisseljaren } from "@/lib/analyse";
 import {
@@ -59,7 +59,15 @@ export default async function Organisatiepagina({ params }: Params) {
   // Organisaties uit dezelfde subsector zijn interessanter om naar door te klikken
   // dan willekeurige zorgorganisaties: een ziekenhuis naast een tandartspraktijk
   // zegt niets. Alleen als de subsector ontbreekt vallen we terug op de sector.
-  const [plaatsgenoten, sectorgenoten, wisselingenZelfdeJaar] = await Promise.all([
+  // De limieten van 20 en 30 mogen hier: dit zijn bewust kleine steekproeven voor
+  // een paar doorklikken (`.slice(0, 2)` en `.slice(0, 3)` hieronder), en er wordt
+  // nergens een aantal uit afgeleid.
+  //
+  // Voor het aantal wisselingen in hetzelfde boekjaar geldt dat niet: dat getal
+  // stáát op de pagina. Daarom een echte telling in plaats van de lengte van een
+  // afgekapte lijst — met limiet 20 stond er "20 in de database" zodra een boekjaar
+  // er meer had, en dat hebben ze allemaal.
+  const [plaatsgenoten, sectorgenoten, aantalZelfdeJaar] = await Promise.all([
     org.gemeente ? organisatiesInGemeente(org.gemeente) : Promise.resolve([]),
     org.subsector
       ? organisatiesInSubsector(org.subsector, 30)
@@ -67,8 +75,8 @@ export default async function Organisatiepagina({ params }: Params) {
         ? organisatiesInSector(org.sector, 30)
         : Promise.resolve([]),
     wissels.size
-      ? wisselingen({ boekjaar: Math.max(...wissels), limiet: 20 })
-      : Promise.resolve([]),
+      ? tel("v_wisselingen", `boekjaar_wissel=eq.${Math.max(...wissels)}`)
+      : Promise.resolve(0),
   ]);
 
   const anderePlaatsgenoten = plaatsgenoten.filter((o) => o.id !== org.id);
@@ -238,7 +246,7 @@ export default async function Organisatiepagina({ params }: Params) {
                 {
                   naar: "/wisselingen",
                   tekst: `Wie wisselde er nog meer in ${laatsteWisseljaar}?`,
-                  toelichting: `${wisselingenZelfdeJaar.length} in de database`,
+                  toelichting: `${aantalZelfdeJaar} in de database`,
                 },
               ]
             : [{ naar: "/wisselingen", tekst: "Alle accountantswisselingen" }]),

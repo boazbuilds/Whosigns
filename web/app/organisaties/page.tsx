@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { alleOrganisaties } from "@/lib/db";
-import { organisatiePad, sectorPad, subsectorPad } from "@/lib/paden";
+import {
+  aantalOrganisaties,
+  aantalPlaatsen,
+  organisatiePad,
+  sectorPad,
+  subsectorPad,
+} from "@/lib/paden";
 import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
 
 export const metadata: Metadata = {
@@ -49,8 +55,8 @@ export default async function Organisatieoverzicht() {
       <div className="paginakop">
         <h1>Alle organisaties</h1>
         <p className="metaregel">
-          <span>{organisaties.length} organisaties</span>
-          <span>{plaatsen.size} plaatsen</span>
+          <span>{aantalOrganisaties(organisaties.length)}</span>
+          <span>{aantalPlaatsen(plaatsen.size)}</span>
         </p>
         {letters.length > 1 ? (
           <p className="letterbalk" aria-label="Spring naar een letter">
@@ -117,7 +123,13 @@ export default async function Organisatieoverzicht() {
             toelichting: org.gemeente ?? undefined,
           })),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: sectorPad("zorg"), tekst: "Sector zorg: marktaandelen" },
+          // De sectoren die in deze lijst voorkomen; niet "zorg" hardgecodeerd.
+          ...[...new Set(organisaties.map((o) => o.sector).filter(Boolean))].map(
+            (sector) => ({
+              naar: sectorPad(sector as string),
+              tekst: `Sector ${sector}: marktaandelen`,
+            }),
+          ),
           { naar: "/", tekst: "Naar het overzicht" },
         ]}
       />
