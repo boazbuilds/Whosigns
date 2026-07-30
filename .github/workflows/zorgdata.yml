@@ -65,7 +65,10 @@ jobs:
           path: |
             pipeline/.cache/digimv*.ods
             pipeline/.cache/doelpopulatie_*.csv
-          key: digimv-lijst-${{ inputs.lijst_uit }}
+          # v2 in de sleutel: bij een wijziging in de kolommen van de
+          # organisatielijst moet de cache niet de oude versie terugzetten. Dat
+          # gebeurde wél, en liet een run van 2u22m sneuvelen op de laatste stap.
+          key: digimv-lijst-v2-${{ inputs.lijst_uit }}
 
       - name: Zorgdata laden
         env:
