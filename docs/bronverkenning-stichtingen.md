@@ -473,6 +473,10 @@ Actions -> "Stichtingenlus" -> Run workflow      # of gewoon wachten op de cron
    droogloop   uit    (aan = meten zonder iets te schrijven)
 ```
 
+De cron loopt vanaf het moment dat de workflow op `main` staat. Wil je hem stil houden
+tot de zorgsector af is (dat blijft het advies uit de visie): Actions →
+*Stichtingenlus* → ⋯ → *Disable workflow*. Handmatig starten blijft dan werken.
+
 Lokaal, zonder database:
 
 ```

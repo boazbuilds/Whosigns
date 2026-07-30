@@ -28,6 +28,10 @@ on:
   schedule:
     # Vier rondes per dag, op een oneven minuut zodat het niet samenvalt met de
     # piek op het uur. Eén ronde is standaard zes blokken = één jaargang D/E.
+    #
+    # Dit begint te lopen zodra de workflow op main staat. Stil houden tot de
+    # zorgsector af is? Actions -> Stichtingenlus -> ... -> Disable workflow;
+    # handmatig starten blijft dan werken.
     - cron: "7 5,11,17,23 * * *"
   workflow_dispatch:
     inputs:

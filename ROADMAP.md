@@ -256,8 +256,11 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
    review-rijen en tellen niet mee in de marktaandelen; beslissing 9) en de
    **ingetrokken erkenningen** (32 organisaties, een paar tientallen rijen).
    Werkvoorraad: 77 blokken, in de orde van 1.100 opdrachtrijen, ±3 dagen.
-   Zodra de zorgsector af is: cron aanzetten. Kantoren zonder Wta-vergunning staan
-   in `seed/kantoren_overig.csv` (beslissing 8)
+   **Let op: de cron staat aan zodra dit op `main` staat.** Het advies blijft
+   eerst de zorgsector afmaken (visie: één sector compleet vóór verbreding); wil
+   je wachten, zet de workflow dan uit via Actions → *Stichtingenlus* → ⋯ →
+   *Disable workflow*, of draai hem handmatig met `workflow_dispatch`. Kantoren
+   zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8)
 4. Switch-scores / voorspelmodellen — uitdrukkelijk pas ná validatie (visie: "nog niet")
 5. Honoraria tonen + fee-benchmark (kolommen liggen klaar; art. 2:382a BW, DigiMV, DUO)
 6. Supabase Auth + geclaimde kantoorprofielen (badge "neemt cliënten aan"; datagedreven
