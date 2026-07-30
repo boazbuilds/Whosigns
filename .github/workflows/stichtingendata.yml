@@ -1,0 +1,118 @@
+name: Stichtingendata laden
+
+# De goededoelensector in bulk (backlog-item 3, route uit
+# docs/bronverkenning-stichtingen.md). Handmatig starten per set boekjaren.
+#
+# Het CBF-register bepaalt de doelpopulatie: 714 erkende goede doelen, waarvan 295 in
+# categorie D/E — daar is een controleverklaring een harde norm (8.1.3 van de
+# Erkenningsregeling). Het jaarverslag staat op een af te leiden URL bij het CBF, dus
+# er is geen zoekfunctie of naam-matching nodig; het KvK-nummer komt uit het register.
+#
+# Gemeten op boekjaar 2024 (hele categorie D/E): 278 van de 295 jaarverslagen
+# gelezen, 241 controleverklaringen, 156 kantoren herleid. De rest is grotendeels
+# vrijwillige controle door kantoren buiten het AFM-register — die staan in
+# seed/kantoren_overig.csv en groeien aan via de review-queue.
+#
+# Standaard 2019 t/m 2025: ouder houdt het CBF niet meer aan (12 treffers in 2018
+# tegen 514 in 2019), en 2025 is nog aan het vullen.
+#
+# Hervatten is veilig: organisatie-boekjaren die al een opdracht hebben, worden
+# overgeslagen. Loopt een run tegen de tijdslimiet aan, start dan een volgende met
+# dezelfde invoer — of knip hem op met "vanaf" en "aantal".
+on:
+  workflow_dispatch:
+    inputs:
+      boekjaren:
+        description: "Boekjaren, nieuwste eerst, komma's ertussen"
+        required: true
+        default: "2025,2024,2023,2022,2021,2020,2019"
+      categorieen:
+        description: "CBF-omvangcategorieën (D,E = controleverklaring verplicht)"
+        required: true
+        default: "D,E"
+      terugval:
+        description: "Ook op de eigen website zoeken als het CBF niets heeft (langzamer)"
+        type: boolean
+        required: false
+        default: false
+      vanaf:
+        description: "Sla de eerste N organisaties over (voor opknippen)"
+        required: false
+        default: "0"
+      aantal:
+        description: "Verwerk er hoogstens N per boekjaar (0 = alles)"
+        required: false
+        default: "0"
+      herlaad:
+        description: "Bestaande opdrachten opnieuw beoordelen en vervangen"
+        type: boolean
+        required: false
+        default: false
+      droogloop:
+        description: "Niets naar de database schrijven; alleen het CSV-rapport"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  laden:
+    name: Goede doelen laden
+    runs-on: ubuntu-latest
+    # Ruim binnen de zes uur die GitHub een job gunt; de rest doet een tweede run.
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: poppler-utils installeren (voor pdftotext)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      # De kantorenlijst moet in de database staan vóór er opdrachten aan hangen —
+      # inclusief de kantoren zonder Wta-vergunning uit seed/kantoren_overig.csv,
+      # want anders belandt een derde van deze sector in de review-queue.
+      - name: Kantorenlijsten bijwerken
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::notice::Supabase-secrets ontbreken nog — zie docs/setup-supabase.md."
+            exit 0
+          fi
+          python3 pipeline/laad_kantoren.py --offline
+
+      - name: Stichtingendata laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          # Boekjaar voor boekjaar, nieuwste eerst: loopt de job tegen de tijdslimiet
+          # aan, dan zijn de meest actuele jaren in elk geval binnen. Elk boekjaar is
+          # idempotent, dus opnieuw draaien pikt op waar het gebleven was.
+          for jaar in $(echo "${{ inputs.boekjaren }}" | tr ',' ' '); do
+            echo "::group::boekjaar $jaar"
+            python3 pipeline/laad_stichtingen.py \
+              --boekjaar "$jaar" \
+              --categorieen "${{ inputs.categorieen }}" \
+              --vanaf "${{ inputs.vanaf }}" \
+              --aantal "${{ inputs.aantal }}" \
+              ${{ inputs.terugval == true && '--terugval' || '' }} \
+              ${{ inputs.herlaad == true && '--herlaad' || '' }} \
+              ${{ inputs.droogloop == true && '--droogloop' || '' }}
+            echo "::endgroup::"
+            # De lader gooit pdf's na het lezen weg (geen --bewaar-pdf), maar een
+            # afgebroken run kan er hebben laten staan: 295 jaarverslagen is ruim 1 GB
+            # en de schijf van een runner is 14 GB.
+            rm -f pipeline/.cache/*.pdf
+          done
+
+      - name: Rapporten bewaren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultaten-stichtingen
+          path: pipeline/.cache/resultaat_stichtingen_*.csv
+          if-no-files-found: ignore

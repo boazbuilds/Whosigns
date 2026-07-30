@@ -1,0 +1,100 @@
+name: Migraties draaien
+
+# Zet de bestanden uit supabase/migrations/ op de database — zodat je geen SQL meer
+# hoeft te kopiëren naar de SQL Editor.
+#
+# Hoe het bijhoudt wat al gedraaid is: de eerste run maakt de tabel
+# `schema_migraties` aan en zet daar bij elk toegepast bestand een regel in. Elke
+# volgende run doet alleen de bestanden die daar nog niet in staan, op naam
+# gesorteerd (het nummer vooraan is de datum, dus oudste eerst). Twee keer draaien
+# verandert dus niets.
+#
+# Eenmalig nodig: het secret SUPABASE_DB_URL — de verbindingsreeks van de database.
+# In Supabase: Project Settings -> Database -> Connection string -> **Session pooler**
+# (niet "Direct connection": die is IPv6-only en een GitHub-runner heeft geen IPv6).
+# Kopieer de URI en vul je databasewachtwoord in op de plek van [YOUR-PASSWORD].
+# Daarna in GitHub: Settings -> Secrets and variables -> Actions -> New repository
+# secret, naam SUPABASE_DB_URL.
+#
+# Wat je al met de hand hebt gedraaid, hoort in "overslaan": die bestanden worden
+# alleen geregistreerd, niet uitgevoerd. Standaard staat daar het init-script in —
+# dat is het enige bestand dat niet herhaalbaar is (het maakt tabellen aan zonder
+# "if not exists") en op een bestaand project dus zou vastlopen.
+on:
+  workflow_dispatch:
+    inputs:
+      overslaan:
+        description: "Bestanden die al gedraaid zijn: alleen registreren, niet uitvoeren"
+        required: false
+        default: "20260727000000_init.sql"
+      droogloop:
+        description: "Alleen tonen wat er zou gebeuren"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  migreren:
+    name: Migraties toepassen
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: psql klaarzetten
+        run: |
+          if ! command -v psql > /dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client
+          fi
+          psql --version
+
+      - name: Migraties toepassen
+        env:
+          PGURL: ${{ secrets.SUPABASE_DB_URL }}
+          OVERSLAAN: ${{ inputs.overslaan }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          set -euo pipefail
+          if [ -z "${PGURL:-}" ]; then
+            echo "::error::Secret SUPABASE_DB_URL ontbreekt. Zie de toelichting boven in dit workflow-bestand."
+            exit 1
+          fi
+
+          run_sql() { psql "$PGURL" -v ON_ERROR_STOP=1 -q "$@"; }
+
+          run_sql -c "create table if not exists schema_migraties (
+                        bestand    text primary key,
+                        gedraaid_op timestamptz not null default now()
+                      );"
+
+          # Handmatig gedraaide bestanden registreren zonder ze uit te voeren.
+          for naam in $(echo "${OVERSLAAN:-}" | tr ',' ' '); do
+            [ -n "$naam" ] || continue
+            echo "registreren zonder uitvoeren: $naam"
+            if [ "$DROOGLOOP" != "true" ]; then
+              run_sql -c "insert into schema_migraties (bestand) values ('$naam')
+                          on conflict (bestand) do nothing;"
+            fi
+          done
+
+          gedraaid=$(run_sql -At -c "select bestand from schema_migraties;")
+
+          for pad in $(ls supabase/migrations/*.sql | sort); do
+            naam=$(basename "$pad")
+            if echo "$gedraaid" | grep -qxF "$naam"; then
+              echo "overslaan (al gedraaid): $naam"
+              continue
+            fi
+            if [ "$DROOGLOOP" = "true" ]; then
+              echo "zou draaien: $naam"
+              continue
+            fi
+            echo "::group::draaien: $naam"
+            # Eén transactie per bestand: bij een fout blijft de database heel en
+            # wordt het bestand niet als gedraaid geregistreerd.
+            psql "$PGURL" -v ON_ERROR_STOP=1 --single-transaction -f "$pad"
+            run_sql -c "insert into schema_migraties (bestand) values ('$naam');"
+            echo "::endgroup::"
+          done
+
+          echo "stand van de database:"
+          run_sql -c "select bestand, gedraaid_op from schema_migraties order by bestand;"

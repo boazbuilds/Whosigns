@@ -1,15 +1,26 @@
 """Kantoornaam uit de tekst van een accountantsverklaring halen.
 
-Deterministisch, zonder LLM: de AFM-lijst (pipeline/seed/kantoren.csv) is een
-gesloten verzameling van ~233 vergunninghouders, dus we zoeken die namen op in de
-tekst in plaats van een naam te "raden".
+Deterministisch, zonder LLM: we zoeken namen uit een lijst op in de tekst in plaats
+van een naam te "raden". Die lijst bestaat uit twee delen:
+
+- `seed/kantoren.csv` — de ~233 Wta-vergunninghouders uit het AFM-register. Bij een
+  **wettelijke** controle kan het kantoor niets anders zijn dan een van deze.
+- `seed/kantoren_overig.csv` — kantoren **zonder** Wta-vergunning die wél
+  controleverklaringen tekenen. Dat mag: zonder wettelijke controleplicht is er geen
+  vergunning nodig. In de goededoelensector doet bijna een derde van de verklaringen
+  dat (zie `docs/bronverkenning-stichtingen.md`). Zonder dit tweede deel mist
+  WhoSigns die opdrachten volledig.
+
+Elk kantoor in de index heeft daarom `wta_vergunning`: True/False. De aanroeper
+gebruikt dat om het opdrachttype te bepalen — een vrijwillige controle is een ander
+product dan een wettelijke en mag niet in dezelfde marktaandelen belanden.
 
 Werkwijze:
 1. Normaliseer tekst en kantoornamen (kleine letters, leestekens weg, spaties samen).
 2. Bouw per kantoor zoeksleutels: de volledige naam en de kernnaam zonder rechtsvorm
    ("Deloitte Accountants B.V." -> "deloitte accountants").
-3. Zoek alle sleutels in de tekst; de langste match wint (zo verslaat
-   "van ree accountants" een losse match op "accountants").
+3. Zoek alle sleutels als héle woorden in de tekst; de langste match wint (zo
+   verslaat "van ree accountants" een losse match op "accountants").
 
 Geen match, of een match die te kort/te generiek is -> None, zodat de aanroeper het
 geval in de review_queue kan zetten. Nooit stil gokken.
@@ -24,6 +35,7 @@ import unicodedata
 from pathlib import Path
 
 SEED_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren.csv"
+OVERIG_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren_overig.csv"
 ALIAS_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoor_alias.csv"
 
 # Rechtsvormen en ruis die we van namen afhalen om de kernnaam te krijgen.
@@ -61,8 +73,32 @@ def kernnaam(naam: str) -> str:
 
 
 def laad_kantoren(pad: Path = SEED_PAD) -> list[dict]:
+    """De AFM-vergunninghouders. `sleutel` = AFM-nummer, `wta_vergunning` = True."""
     with pad.open(encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        kantoren = list(csv.DictReader(f))
+    for kantoor in kantoren:
+        kantoor["sleutel"] = kantoor["afm_nummer"]
+        kantoor["wta_vergunning"] = True
+    return kantoren
+
+
+def laad_overige_kantoren(pad: Path = OVERIG_PAD) -> list[dict]:
+    """Kantoren zónder Wta-vergunning die controleverklaringen tekenen.
+
+    Bijgehouden met bewijs: elke rij noemt bij welke organisatie en welk boekjaar de
+    naam is aangetroffen (`gevonden_bij`). Opgebouwd met
+    `verken_stichtingen.py oogst`, altijd met de hand nagekeken — een naam die uit
+    een pdf komt rollen is een kandidaat, geen kantoor.
+    """
+    if not pad.exists():
+        return []
+    with pad.open(encoding="utf-8") as f:
+        kantoren = list(csv.DictReader(f))
+    for kantoor in kantoren:
+        kantoor["afm_nummer"] = None
+        kantoor["wta_vergunning"] = False
+        kantoor.setdefault("oob_vergunning", "nee")
+    return kantoren
 
 
 def laad_aliassen(pad: Path = ALIAS_PAD) -> list[dict]:
@@ -73,24 +109,48 @@ def laad_aliassen(pad: Path = ALIAS_PAD) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def _rangschik(kantoor: dict) -> tuple:
+    """Sorteervoorkeur bij een botsende zoeksleutel: vergunninghouder eerst."""
+    return (not kantoor["wta_vergunning"], kantoor.get("sleutel") or "zzz")
+
+
+def _alias_varianten(kantoor: dict) -> list[str]:
+    """Schrijfwijzen uit de kolom `alias` (puntkomma's ertussen), indien aanwezig."""
+    return [deel.strip() for deel in (kantoor.get("alias") or "").split(";") if deel.strip()]
+
+
 def bouw_index(
-    kantoren: list[dict], aliassen: list[dict] | None = None
+    kantoren: list[dict],
+    aliassen: list[dict] | None = None,
+    overige: list[dict] | None = None,
 ) -> dict[str, dict]:
-    """Zoeksleutel -> kantoor. Langere sleutels winnen bij het matchen."""
+    """Zoeksleutel -> kantoor. Langere sleutels winnen bij het matchen.
+
+    `overige` zijn de kantoren zonder Wta-vergunning; laat het weg om alleen op het
+    AFM-register te matchen (bijvoorbeeld bij een bron waar per definitie een
+    wettelijke controle ligt). `None` betekent: lees `seed/kantoren_overig.csv`.
+    """
     index: dict[str, dict] = {}
 
     def voeg_toe(sleutel: str, kantoor: dict) -> None:
         if len(sleutel) < MIN_SLEUTELLENGTE or sleutel in TE_GENERIEK:
             return
-        # Bij een botsing wint het kantoor met het laagste AFM-nummer (oudste
-        # vergunning); botsingen zijn zeldzaam en horen in de review-queue thuis.
+        # Bij een botsing wint de vergunninghouder, en daarbinnen het laagste
+        # AFM-nummer (oudste vergunning). Botsingen zijn zeldzaam en horen in de
+        # review-queue thuis; een kantoor zonder vergunning mag er nooit een mét
+        # vergunning verdringen.
         bestaand = index.get(sleutel)
-        if bestaand is None or kantoor["afm_nummer"] < bestaand["afm_nummer"]:
+        if bestaand is None or _rangschik(kantoor) < _rangschik(bestaand):
             index[sleutel] = kantoor
 
-    for kantoor in kantoren:
-        for sleutel in {normaliseer(kantoor["naam"]), kernnaam(kantoor["naam"])}:
-            voeg_toe(sleutel, kantoor)
+    alle = list(kantoren) + (
+        laad_overige_kantoren() if overige is None else list(overige)
+    )
+    for kantoor in alle:
+        namen = {kantoor["naam"], *_alias_varianten(kantoor)}
+        for naam in namen:
+            for sleutel in {normaliseer(naam), kernnaam(naam)}:
+                voeg_toe(sleutel, kantoor)
 
     op_nummer = {k["afm_nummer"]: k for k in kantoren}
     for rij in laad_aliassen() if aliassen is None else aliassen:
@@ -105,18 +165,162 @@ def bouw_index(
     return index
 
 
+# ---------- staat de naam waar een ondertekening staat? ----------
+#
+# Een kantoornaam in een jaarverslag hoeft niet de ondertekenaar te zijn. Twee echte
+# gevallen uit de meting van 30-7-2026 (goede doelen, boekjaar 2023/2024):
+#
+#   Oxfam Novib  "we hold ourselves accountable to the people we work with"
+#                -> matchte Accountable B.V. (een bestaand kantoor)
+#   Oxfam Novib  "...board of directors of Mazars Holding N.V. and Mazars
+#                Accountants N.V." -> stond in de biografie van een bestuurslid
+#
+# Beide leverden een opdracht op die niet bestaat, en samen zelfs een "wisseling" van
+# Accountable naar Forvis Mazars die nooit heeft plaatsgevonden. Hele woorden eisen
+# helpt hier niet: `accountable` is een gewoon Engels woord én een kantoornaam, en een
+# kantoornaam in een cv staat er echt.
+#
+# Daarom weegt nu ook de plek mee. Een ondertekening ziet er zo uit:
+#   "Amstelveen, 3 juni 2024   KPMG Accountants N.V."
+#   "...basis voor ons oordeel.  Forvis Mazars Accountants N.V., statutair gevestigd te…"
+#   "Rotterdam, 22 mei 2024  PricewaterhouseCoopers Accountants N.V.  origineel getekend…"
+# — plaats en datum ervoor, of de oordeelparagraaf kort ervoor, of een
+# ondertekeningsformule eromheen.
+_DATUM = re.compile(
+    r"\b\d{1,2} (?:januari|februari|maart|april|mei|juni|juli|augustus|september|"
+    r"oktober|november|december|january|february|march|may|june|july|august|"
+    r"october) (?:19|20)\d\d\b"
+)
+_ONDERTEKENING = (
+    "origineel getekend", "was getekend", "getekend door", "statutair gevestigd",
+    "was signed", "signed by", "namens deze",
+)
+_OORDEEL_DAVOOR = (
+    "basis voor ons oordeel", "voor ons oordeel", "ons oordeel",
+    "basis for our opinion", "in our opinion",
+    "controleverklaring van de onafhankelijke accountant",
+    "independent auditor s report",
+)
+# Zinnen waarin een kantoornaam juist níét de ondertekenaar is. Meestal een
+# bestuurslid met een dagbaan: "drs J.M. van Lieshout RA, secretaris, accountant bij
+# Koeleman accountants & belastingadviseurs" stond in het rooster van aftreden van
+# Kerk in Actie en leverde een wisseling op die nooit heeft plaatsgevonden.
+_GEEN_ONDERTEKENING = (
+    "board of directors", "raad van commissarissen", "raad van toezicht",
+    "lid van de raad", "was a member", "was lid", "partner bij", "voormalig",
+    "hold ourselves", "curriculum", "nevenfuncties", "loopbaan",
+    "accountant bij", "werkzaam bij", "rooster van aftreden", "bestuurslid",
+    "penningmeester", "secretaris", "hoofdfunctie", "works at", "moderamen",
+)
+
+# "… vaktechniek bij Baker Tilly Netherlands N.V.", "… partner at Deloitte": het woord
+# vlak vóór de naam verraadt een werkgever in plaats van een ondertekenaar. Let op:
+# "van" hoort hier NIET bij — "de controleverklaring van Kaap Hoorn Audit & Assurance
+# B.V." is juist een echte ondertekening.
+_WERKGEVER = re.compile(r"\b(?:bij|at)\s*$")
+
+# Vanaf welke score noemen we een naam de ondertekenaar? De onderbouwing hierboven
+# levert 4 (datum ervoor), 3 (oordeelparagraaf ervoor) of 2 (ondertekeningsformule) op;
+# een naam in een cv of kernwaarde haalt niets.
+DREMPEL_ONDERTEKENING = 2
+
+
+def _contextscore(tekst: str, positie: int, lengte: int) -> int:
+    """Hoe waarschijnlijk is het dat de naam op deze plek de ondertekenaar is?"""
+    voor = tekst[max(0, positie - 220):positie]
+    # Kort venster voor de oordeelparagraaf: de ondertekening volgt daar vlak op. Met
+    # 1.400 tekens keek het te ruim — in een jaarverslag van honderd pagina's staat
+    # "ons oordeel" ergens altijd wel, en zo haalde de werkgever van een bestuurslid
+    # de drempel.
+    ruim_voor = tekst[max(0, positie - 500):positie]
+    rondom = tekst[max(0, positie - 120):positie + lengte + 220]
+
+    score = 0
+    # Krap venster: een ondertekening is "plaats, datum <kantoornaam>" en die staan
+    # tegen elkaar aan. Met 160 tekens leende een datum uit de KPMG-stempel zijn
+    # geloofwaardigheid uit aan een naam die er verderop toevallig achter stond.
+    datums = list(_DATUM.finditer(voor))
+    if datums and len(voor) - datums[-1].end() <= 60:
+        score += 4
+    # Andersom komt ook voor: "Kaap Hoorn Audit & Assurance B.V. Rotterdam, 3 mei 2025"
+    # — eerst het kantoor, dan plaats en datum.
+    elif (datum_na := _DATUM.search(tekst[positie + lengte:positie + lengte + 60])):
+        score += 3 if datum_na.start() < 40 else 0
+    if any(woord in ruim_voor for woord in _OORDEEL_DAVOOR):
+        score += 3
+    if any(woord in rondom for woord in _ONDERTEKENING):
+        score += 2
+    if any(woord in voor for woord in _GEEN_ONDERTEKENING):
+        score -= 4
+    # "... bureau vaktechniek bij Baker Tilly Netherlands N.V." — een accountant
+    # ondertekent nooit met "bij" ervoor; dat is altijd iemands werkgever. Deze ene
+    # regel vangt wat de zinnenlijst hierboven per geval moet bijhouden.
+    if _WERKGEVER.search(voor):
+        score -= 4
+    return score
+
+
+def _tel_hele_woorden(sleutel: str, tekst: str) -> int:
+    """Hoe vaak staat de sleutel als hele woorden in de tekst?
+
+    Waarom niet gewoon `sleutel in tekst`: de sleutel van 'Audit Pro B.V.' is
+    'audit pro' en dat zit letterlijk in 'audit procedures' — de standaardzin in
+    elk Engelstalig accountantsrapport. Zo tekende Audit Pro B.V. in de meting
+    van 29-7-2026 drie Engelstalige jaarverslagen van goede doelen die het
+    kantoor nooit heeft gezien; 'accura' (Accura B.V.) deed hetzelfde in
+    'accuraat'. Vier valse matches op negentien in één steekproef van veertig.
+    Een gemiste match kost een rij in de review-queue, een valse match zet een
+    verzonnen relatie in de database — dus hier telt alleen een hele-woord-match.
+    """
+    return len(re.findall(rf"(?<![a-z0-9]){re.escape(sleutel)}(?![a-z0-9])", tekst))
+
+
 def zoek_kantoor(tekst: str, index: dict[str, dict]) -> dict | None:
-    """Geeft {'kantoor': ..., 'sleutel': ..., 'aantal': n} of None."""
+    """Geeft {'kantoor', 'sleutel', 'aantal', 'context', 'zwak'} of None.
+
+    `context` is de hoogste ondertekeningsscore die de naam in deze tekst haalt en
+    `zwak` zegt of die onder `DREMPEL_ONDERTEKENING` blijft. Een zwakke treffer is
+    géén vastgestelde opdracht: de naam stáát er, maar niet op de plek waar een
+    accountant zijn verklaring ondertekent. De aanroeper hoort die naar de
+    review-queue te sturen in plaats van hem als feit te boeken.
+    """
     genormaliseerd = normaliseer(tekst)
     if not genormaliseerd:
         return None
-    treffers = [
-        (sleutel, kantoor, genormaliseerd.count(sleutel))
-        for sleutel, kantoor in index.items()
-        if sleutel in genormaliseerd
-    ]
+
+    treffers = []
+    for sleutel, kantoor in index.items():
+        # De substringtest is alleen een goedkope voorselectie; hele woorden en de
+        # plek in de tekst bepalen of het echt een treffer is.
+        if sleutel not in genormaliseerd:
+            continue
+        posities = [
+            m.start()
+            for m in re.finditer(
+                rf"(?<![a-z0-9]){re.escape(sleutel)}(?![a-z0-9])", genormaliseerd
+            )
+        ]
+        if not posities:
+            continue
+        beste = max(
+            _contextscore(genormaliseerd, positie, len(sleutel)) for positie in posities
+        )
+        treffers.append((sleutel, kantoor, len(posities), beste))
+
     if not treffers:
         return None
-    # Langste sleutel wint; bij gelijke lengte het vaakst voorkomende.
-    sleutel, kantoor, aantal = max(treffers, key=lambda t: (len(t[0]), t[2]))
-    return {"kantoor": kantoor, "sleutel": sleutel, "aantal": aantal}
+
+    # Eerst de naam die als ondertekenaar staat; daarna de langste sleutel en het
+    # vaakst voorkomende. Zonder die eerste sortering wint een lange naam uit een
+    # biografie van de korte naam onder de verklaring.
+    ondertekenaars = [t for t in treffers if t[3] >= DREMPEL_ONDERTEKENING]
+    sleutel, kantoor, aantal, context = max(
+        ondertekenaars or treffers, key=lambda t: (t[3] > 0, len(t[0]), t[2])
+    )
+    return {
+        "kantoor": kantoor,
+        "sleutel": sleutel,
+        "aantal": aantal,
+        "context": context,
+        "zwak": context < DREMPEL_ONDERTEKENING,
+    }

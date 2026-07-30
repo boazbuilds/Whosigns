@@ -21,11 +21,17 @@ accountant staat wel in de tekst, maar wordt niet gezocht, niet teruggegeven en
 niet gelogd.
 """
 
+import re
 import subprocess
 
 from kantoor_match import normaliseer
 
 # Volgorde telt: een controleverklaring noemt vaak óók 'samengesteld'.
+#
+# Engelse varianten staan erbij omdat internationaal werkende stichtingen hun
+# jaarverslag in het Engels publiceren: in de steekproef van 40 goede doelen
+# (29-7-2026) waren dat 6 van de 38 leesbare verslagen — allemaal Nederlandse
+# controles onder de COS, alleen in een andere taal opgeschreven.
 SOORT_KENMERKEN = [
     (
         "controle",
@@ -33,10 +39,21 @@ SOORT_KENMERKEN = [
             "controleverklaring van de onafhankelijke accountant",
             "naar ons oordeel",
             "ons oordeel",
+            "independent auditor s report",
+            "audit of the financial statements",
+            "in our opinion",
         ),
     ),
-    ("beoordeling", ("beoordelingsverklaring", "standaard 2400")),
-    ("samenstelling", ("samenstellingsverklaring", "standaard 4410", "samengesteld")),
+    ("beoordeling", ("beoordelingsverklaring", "standaard 2400", "review report")),
+    (
+        "samenstelling",
+        (
+            "samenstellingsverklaring",
+            "standaard 4410",
+            "samengesteld",
+            "compilation report",
+        ),
+    ),
 ]
 
 # Bezittelijke vorm, want dat is de kop van de oordeelparagraaf ("Ons oordeel met
@@ -46,11 +63,26 @@ SOORT_KENMERKEN = [
 # dat leverde twee onterechte oordeelonthoudingen op in de proefrit van boekjaar
 # 2023 (Jeugdbescherming Brabant en Veilig Thuis Oost-Brabant, allebei in de zin
 # "een hausse van verklaringen met beperking of oordeelonthoudingen").
+#
+# De Engelse termen kunnen niet met een gewone substringtest: 'qualified opinion'
+# zit letterlijk in 'unqualified opinion', en dat is precies het omgekeerde
+# oordeel. `_eerste_treffer` eist daarom een woordgrens vóór het kenmerk.
 OORDEEL_KENMERKEN = [
-    ("afkeurend", ("ons afkeurend oordeel",)),
-    ("oordeelonthouding", ("onze oordeelonthouding", "wij geven geen oordeel")),
-    ("beperking", ("ons oordeel met beperking",)),
-    ("goedkeurend", ("naar ons oordeel", "ons oordeel")),
+    ("afkeurend", ("ons afkeurend oordeel", "adverse opinion")),
+    (
+        "oordeelonthouding",
+        (
+            "onze oordeelonthouding",
+            "wij geven geen oordeel",
+            "disclaimer of opinion",
+            "we do not express an opinion",
+        ),
+    ),
+    ("beperking", ("ons oordeel met beperking", "qualified opinion")),
+    (
+        "goedkeurend",
+        ("naar ons oordeel", "ons oordeel", "unqualified opinion", "in our opinion"),
+    ),
 ]
 
 # Ook geprobeerd en verworpen: het oordeel alleen zoeken in het stuk tekst vanaf de
@@ -81,6 +113,7 @@ VOORWERP_KENMERKEN = [
             "in de jaarverslaggeving opgenomen jaarrekening",
             "controle van de jaarrekening",
             "verklaring over de jaarrekening",
+            "audit of the financial statements",
         ),
     ),
     (
@@ -109,7 +142,77 @@ CONTINUITEIT_KENMERKEN = (
     "materiele onzekerheid over de continuiteit",
     "onzekerheid van materieel belang omtrent de continuiteit",
     "gerede twijfel over de continuiteit",
+    "material uncertainty related to going concern",
 )
+
+# Verwijst de verklaring naar de Wta? Bij een wettelijke controle hoort de
+# onafhankelijkheidsparagraaf naar de Wet toezicht accountantsorganisaties te
+# verwijzen; bij een vrijwillige controle staat daar de ViO. Het is een
+# aanwijzing, geen bewijs — daarom een apart veld en geen conclusie.
+WTA_KENMERKEN = (
+    "wet toezicht accountantsorganisaties",
+    "wta",
+    "verordening eu nr 537 2014",
+)
+
+# Namen die op een accountantskantoor lijken. Bedoeld om kandidaten aan te dragen
+# voor de review-queue en voor het uitbreiden van de kantorenlijst — nooit om
+# automatisch een kantoor vast te stellen: dat blijft een match tegen een lijst.
+_KANDIDAAT = re.compile(
+    r"([A-Z][A-Za-z&'’\.\- ]{2,45}?\s?"
+    r"(?:Accountants?|Audit|Assurance|Registeraccountants|Accountancy)"
+    r"(?:\s(?:&|en)\s[A-Z][A-Za-z]+)?"
+    r"(?:\s(?:B\.?V\.?|N\.?V\.?|LLP))?)"
+)
+# Wat het patroon óók opvist: commissies, wetteksten en kostenposten uit de
+# jaarrekening ("Bestuurskosten Accountants", "De Auditcommissie", "Verordening
+# Gedrags- en Beroepsregels Accountants").
+_KANDIDAAT_RUIS = re.compile(
+    r"auditcommissie|audit commissie|auditcomite|standards on auditing|"
+    r"beroepsregels|verordening|nba|code of ethics|raad van|\blid\b|commissie|"
+    r"kosten|lonen|salaris|vergoeding|bespreking|rapportage|verslag|overleg|"
+    r"international standards|dutch standards|final audit|internal audit|"
+    r"chartered|expenses|allowance|advice|opdrachten|verricht|"
+    r"algemene voorwaarden|gedeponeerd",
+    re.I,
+)
+
+
+def kantoorkandidaten(tekst: str) -> list[str]:
+    """Namen uit de tekst die op een accountantskantoor lijken, meest genoemd eerst.
+
+    Gebruikt door de review-queue (welk kantoor stond er dan wél?) en door
+    `verken_stichtingen.py oogst`, dat hiermee de kantorenlijst buiten het
+    AFM-register opbouwt.
+    """
+    telling: dict[str, int] = {}
+    for treffer in _KANDIDAAT.finditer(tekst):
+        naam = re.sub(r"\s+", " ", treffer.group(1)).strip(" .-&")
+        if len(naam) < 6 or _KANDIDAAT_RUIS.search(naam):
+            continue
+        # Losse beroepsaanduidingen zonder eigennaam zeggen niets.
+        if normaliseer(naam) in {
+            "accountants", "accountant", "audit", "assurance", "accountancy",
+            "registeraccountants", "audit assurance",
+        }:
+            continue
+        telling[naam] = telling.get(naam, 0) + 1
+
+    # Dezelfde naam komt vaak in twee lengtes voorbij ("Op alle door Kaap Hoorn
+    # Audit & Assurance B.V." naast "Kaap Hoorn Audit & Assurance B.V."). Houd de
+    # kortste vorm en tel de langere daarbij op.
+    namen = sorted(telling, key=len)
+    beknopt: dict[str, int] = {}
+    for naam in sorted(telling, key=lambda n: -len(n)):
+        korter = next(
+            (k for k in namen if k != naam and normaliseer(naam).endswith(normaliseer(k))),
+            None,
+        )
+        if korter:
+            telling[korter] += telling[naam]
+        else:
+            beknopt[naam] = telling[naam]
+    return sorted(beknopt, key=lambda n: (-telling[n], n))
 
 
 def pdf_naar_tekst(pad: str) -> str:
@@ -121,8 +224,17 @@ def pdf_naar_tekst(pad: str) -> str:
 
 
 def _eerste_treffer(genormaliseerd: str, kenmerken: list[tuple]) -> str | None:
+    """Eerste label waarvan een kenmerk als woord in de tekst staat.
+
+    Woordgrens alléén aan de voorkant: dat vangt 'unqualified opinion' weg bij
+    het zoeken naar 'qualified opinion', terwijl meervouden aan de achterkant
+    ('productieverantwoordingen', 'nacalculaties') blijven meetellen.
+    """
     for label, sleutelwoorden in kenmerken:
-        if any(woord in genormaliseerd for woord in sleutelwoorden):
+        if any(
+            re.search(rf"(?<![a-z0-9]){re.escape(woord)}", genormaliseerd)
+            for woord in sleutelwoorden
+        ):
             return label
     return None
 
@@ -144,11 +256,19 @@ def analyseer(tekst: str, index: dict) -> dict:
             "oordeel": None,
             "continuiteitsonzekerheid": None,
             "kantoor": None,
+            "kandidaten": [],
+            "wta_kenmerk": None,
             "reden": "geen tekstlaag (gescande pdf)",
         }
 
     soort = _eerste_treffer(genormaliseerd, SOORT_KENMERKEN)
     treffer = zoek_kantoor(tekst, index)
+    # Een naam die niet op een ondertekeningsplek staat, is geen vastgesteld kantoor.
+    # Hij gaat wél als suggestie mee naar de review-queue: iemand die het stuk erbij
+    # pakt, is er in tien seconden uit.
+    zwakke_treffer = treffer["kantoor"]["naam"] if treffer and treffer["zwak"] else None
+    if zwakke_treffer:
+        treffer = None
     return {
         "soort": soort,
         # Waar de controle over gaat. None betekent: het is wél een
@@ -166,5 +286,24 @@ def analyseer(tekst: str, index: dict) -> dict:
             woord in genormaliseerd for woord in CONTINUITEIT_KENMERKEN
         ),
         "kantoor": treffer["kantoor"] if treffer else None,
-        "reden": None if treffer else "kantoornaam niet gevonden in de tekst",
+        # Aanwijzing dat het om een wettelijke controle gaat; de aanroeper beslist
+        # wat hij ermee doet (zie laad_stichtingen.py).
+        "wta_kenmerk": _eerste_treffer(genormaliseerd, [("wta", WTA_KENMERKEN)]) == "wta",
+        # Wat er dan wél in de tekst stond. Alleen gevuld als er geen match is,
+        # zodat de review-queue een aanknopingspunt heeft. Een naam die alleen buiten
+        # de ondertekening voorkwam, staat vooraan — dat is de sterkste aanwijzing.
+        "kandidaten": (
+            []
+            if treffer
+            else ([zwakke_treffer] if zwakke_treffer else []) + kantoorkandidaten(tekst)[:5]
+        ),
+        "reden": (
+            None
+            if treffer
+            else (
+                f"'{zwakke_treffer}' staat in de tekst, maar niet als ondertekenaar"
+                if zwakke_treffer
+                else "kantoornaam niet gevonden in de tekst"
+            )
+        ),
     }
