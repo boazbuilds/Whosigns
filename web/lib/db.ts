@@ -162,6 +162,26 @@ export type OpdrachtMetOrganisatie = {
   organisaties: Organisatie | null;
 };
 
+/**
+ * Een opdracht waar de accountant iets bijzonders meldde: een niet-goedkeurend
+ * oordeel, of een paragraaf over continuïteit.
+ *
+ * `grond_beperking` hoort er onlosmakelijk bij. Van 26 nagelopen verklaringen met een
+ * beperking gingen er 23 over WNT-aangelegenheden bij intragroepdetachering — de
+ * accountant kan de WNT-gegevens van gedetacheerde topfunctionarissen niet
+ * vaststellen. Dat is iets anders dan een bevinding over de jaarrekening, en zonder
+ * die grond leest een bezoeker in "oordeel met beperking" iets wat er niet staat.
+ */
+export type Bevinding = {
+  boekjaar: number;
+  type_opdracht: string;
+  oordeel: string | null;
+  grond_beperking: string | null;
+  continuiteitsonzekerheid: boolean | null;
+  organisaties: Organisatie | null;
+  kantoren: Kantoor | null;
+};
+
 export type Wisseling = {
   organisatie_id: number;
   van_kantoor_id: number;
@@ -210,6 +230,43 @@ export function organisatiesOpId(ids: number[]) {
 
 export function kantorenOpId(ids: number[]) {
   return haalOpId<Kantoor>("kantoren", KANTOOR_VELDEN, ids);
+}
+
+// ---------------------------------------------------------------- bevindingen
+
+/**
+ * Alles waar de accountant iets bijzonders meldde: elk niet-goedkeurend oordeel en
+ * elke continuïteitsparagraaf. Nieuwste boekjaar eerst.
+ *
+ * Rechtstreeks op `opdrachten` en niet op de view `v_beperkingen`, zodat de namen van
+ * organisatie en kantoor er via de foreign keys bij komen — een view heeft die niet en
+ * zou twee extra verzoeken kosten.
+ */
+export async function bevindingen(): Promise<Bevinding[]> {
+  const pad = (grond: string) =>
+    "opdrachten?or=(oordeel.in.(beperking,oordeelonthouding,afkeurend)," +
+    "continuiteitsonzekerheid.is.true)" +
+    `&select=boekjaar,type_opdracht,oordeel,${grond}continuiteitsonzekerheid,` +
+    `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_VELDEN})` +
+    "&order=boekjaar.desc";
+  try {
+    return await haalAlles<Bevinding>(pad("grond_beperking,"));
+  } catch (fout) {
+    // `grond_beperking` bestaat pas na migratie 20260730100000. Zolang die niet is
+    // gedraaid werkt de pagina zonder die kolom en zegt hij zelf dat de grond nog
+    // niet is vastgesteld — beter dan een pagina die vanuit het menu doodloopt.
+    //
+    // Alleen déze fout wordt opgevangen, op naam. Al het andere gaat door naar
+    // boven: een catch die alles opslokt is hoe je een verkeerd getal onzichtbaar
+    // maakt, en daar zijn we net een commit lang vanaf gekomen.
+    if (
+      !(fout instanceof DatabaseFout) ||
+      !fout.message.includes("grond_beperking")
+    ) {
+      throw fout;
+    }
+    return await haalAlles<Bevinding>(pad(""));
+  }
 }
 
 // ---------------------------------------------------------------- opdrachten

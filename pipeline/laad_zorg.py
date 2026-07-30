@@ -327,6 +327,11 @@ def main() -> int:
                     "boekjaar": boekjaar,
                     "type_opdracht": type_opdracht,
                     "oordeel": resultaat["oordeel"],
+                    # Waar de beperking over gaat. Zonder dit veld staat er straks
+                    # "oordeel met beperking" naast de naam van een ziekenhuis
+                    # zonder dat erbij staat dat het in ~88% van de gevallen om
+                    # WNT-intragroepdetachering gaat en niet om de jaarrekening.
+                    "grond_beperking": resultaat["grond_beperking"],
                     "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
                     "bron_id": bron_id,
                 }
