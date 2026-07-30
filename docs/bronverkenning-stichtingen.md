@@ -9,12 +9,13 @@
 geeft de complete lijst erkende goede doelen mét KvK-nummer, RSIN, sector en
 omvangcategorie; het CBF host de bijbehorende jaarverslagen zelf op een voorspelbare
 URL, zeven boekjaren diep. De bestaande extractieketen (pdftotext + stringmatch) werkt
-daar op: over de hele categorie D/E van boekjaar 2024 levert dat **213 opdrachten op 241
-controleverklaringen (88%)**, en de pipeline om het te laden staat klaar als workflow
-*Stichtingendata laden*.
+daar op: over de hele categorie D/E levert dat **194 opdrachten op 241
+controleverklaringen (81%)** in boekjaar 2024, 176 in 2023 en 148 in 2022 — en meteen
+**16 accountantswisselingen** over die drie jaargangen. De pipeline om het te laden staat
+klaar als workflow *Stichtingendata laden*.
 
 Eén ontdekking verandert wel iets aan het model: **in deze sector is de controle vaak
-vrijwillig.** Van die 213 opdrachten komen 48 van kantoren zonder Wta-vergunning —
+vrijwillig.** Van die 194 opdrachten komen 45 van kantoren zonder Wta-vergunning —
 legitiem, want zonder wettelijke controleplicht mag dat, en WITh Accountants is er in
 z'n eentje het grootste kantoor van de sector mee. De AFM-lijst als gesloten matchset is
 een uitstekend filter voor de zorg, maar structureel te smal voor stichtingen; er staat
@@ -231,6 +232,47 @@ het AFM-register als *Maatschap Dubois & Co Registeraccountants* en tekent 4 van
 verslagen in de steekproef. Alias toegevoegd. Netto effect van fix 1–3 samen: van 9
 correcte matches naar **19 correcte matches**, en de 4 valse matches weg.
 
+**4. Een kantoornaam in een jaarverslag is niet per se de ondertekenaar.** Dit kwam pas
+boven water door de wisselingen na te lopen — en het was de ernstigste van de vier, want
+een verzonnen wisseling is precies wat dit product níét mag doen. Drie varianten, alle
+drie uit echte verslagen:
+
+| Wat er stond | Waar het uit kwam | Wat wij eruit maakten |
+|---|---|---|
+| "we hold ourselves **accountable** to the people we work with" | kernwaarden van Oxfam Novib | Accountable B.V. (een bestaand kantoor) |
+| "…board of directors of Mazars Holding N.V. and **Mazars Accountants N.V.**" | biografie van een bestuurslid | Forvis Mazars |
+| "J.W. Stam MSc RA, senior manager bureau vaktechniek **bij Baker Tilly Netherlands N.V.**" | rooster van aftreden, Kerk in Actie | Baker Tilly |
+
+Samen leverden ze onder meer een wisseling Accountable → Forvis Mazars op die nooit heeft
+plaatsgevonden, en een flipflop KPMG → Koeleman → KPMG bij Kerk in Actie. Hele woorden
+eisen helpt hier niet: `accountable` is een gewoon Engels woord én een kantoornaam, en een
+kantoornaam in een cv staat er echt.
+
+`zoek_kantoor` weegt daarom nu de **plek** mee. Een ondertekening ziet er zo uit:
+plaats en datum ervoor ("Amstelveen, 3 juni 2024 KPMG Accountants N.V."), of de
+oordeelparagraaf kort ervoor, of plaats en datum er direct achter, of een
+ondertekeningsformule eromheen ("origineel getekend", "statutair gevestigd", "w.g."). Wat
+die drempel niet haalt, is een **zwakke treffer**: de naam gaat als suggestie naar de
+review-queue in plaats van als feit de database in. Twee vuistregels bleken het meeste
+werk te doen — een krap datumvenster (60 tekens; een ondertekening staat tegen de datum
+aan) en de constatering dat "bij" of "at" pal vóór een kantoornaam altijd een werkgever
+verraadt, nooit een ondertekenaar.
+
+Wat het kostte en opbracht, op dezelfde 241 controleverklaringen van boekjaar 2024:
+
+| | opdrachten | review |
+|---|---|---|
+| zonder positiecontrole | 213 | 28 |
+| met positiecontrole | **194** | 47 |
+
+Negentien "opdrachten" waren dus namen die ergens in het verslag stonden. Ze zijn niet
+verdwenen maar verplaatst: ze wachten in de review-queue op iemand die het stuk erbij
+pakt. En de wisselingen 2023 → 2024 gingen van 18 naar 8 — die tien waren geen wisseling.
+
+De elf gevallen die dit alles vastleggen staan in `pipeline/test_kantoor_match.py`
+(vijf die moeten matchen, zes die dat juist niet mogen). Draait zonder netwerk:
+`python3 pipeline/test_kantoor_match.py`.
+
 ## De kantorenlijst: het AFM-register is niet genoeg (opgelost)
 
 De oogst over de **hele** categorie D/E van boekjaar 2024 (`verken_stichtingen.py oogst
@@ -274,25 +316,48 @@ Spelregels die daarbij horen:
 
 ### Wat de volledige run oplevert
 
-`laad_stichtingen.py --boekjaar 2024 --droogloop` over dezelfde 295 organisaties, met de
-uitgebreide kantorenlijst en de nieuwe aliassen (29-7-2026, twee minuten):
+`laad_stichtingen.py --droogloop` over de 295 organisaties van categorie D/E, drie
+boekjaren, met de uitgebreide kantorenlijst, de nieuwe aliassen en de positiecontrole
+uit de volgende paragraaf (30-7-2026, ±2 minuten per jaargang):
 
-| Status | Aantal | Wat het is |
+| Status | 2024 | 2023 | 2022 | Wat het is |
+|---|---|---|---|---|
+| **opdracht** | **194** | **176** | **148** | kantoor herleid; gaat de database in |
+| review | 47 | 57 | 55 | controleverklaring, kantoor onbekend → review-queue |
+| geen_controle | 28 | 34 | 41 | wél een verslag, geen controleverklaring erin |
+| geen_verslag | 17 | 21 | 39 | niets bij het CBF voor dit boekjaar |
+| onleesbaar | 9 | 7 | 12 | gescande pdf zonder tekstlaag |
+| **trefkans op controleverklaringen** | **81%** | 76% | 73% | opdracht ÷ (opdracht + review) |
+
+Van de 194 opdrachten in 2024 komen **45 van kantoren zonder Wta-vergunning** (23%) —
+precies het stuk markt dat met alleen het AFM-register onzichtbaar was (dat leverde
+156 opdrachten op). In 2023 en 2022 is die verhouding hetzelfde: 45 van 176 en 41 van 148.
+
+Verdeling in 2024: 183 `vrijwillige_controle` tegen 11 `wettelijke_controle` (die laatste
+hebben een Wta-verwijzing in de tekst), en 186 goedkeurende oordelen tegen 5 met
+beperking. Over de drie jaren zit er ook één oordeelonthouding tussen. De kantorenmix
+wordt geleid door WITh (41) en Dubois & Co (30), met Van Ree (18) en BDO (13) daarachter;
+PwC staat op 7 en de andere Big 4 lager. Een heel andere markt dan de zorg.
+
+Grootste sectoren in 2024: internationale hulp en mensenrechten (61), welzijn (43),
+natuur en milieu (27), gezondheid (26).
+
+### En wat het product ermee kan: de wisselingen
+
+`verken_stichtingen.py wisselingen 2023 2024` vergelijkt twee droogloop-rapporten, zodat
+je vóór het laden al ziet of de sector oplevert waar het om gaat:
+
+| | 2022 → 2023 | 2023 → 2024 |
 |---|---|---|
-| **opdracht** | **213** | kantoor herleid; gaat de database in |
-| review | 28 | controleverklaring, kantoor onbekend → review-queue met kandidaat-namen |
-| geen_controle | 27 | wél een verslag, geen controleverklaring erin |
-| geen_verslag | 18 | niets bij het CBF voor dit boekjaar |
-| onleesbaar | 9 | gescande pdf zonder tekstlaag |
+| Relaties met een kantoor in beide jaren | 133 | 160 |
+| **Wisselingen** | **8** | **8** |
+| Wisselpercentage | 6,0% | 5,0% |
 
-Op de 241 controleverklaringen is dat **213 herleid = 88%**, tegen 156 = 65% met alleen
-het AFM-register. Van die 213 opdrachten komen **48 van kantoren zonder Wta-vergunning**
-(22%) — precies het stuk markt dat eerder onzichtbaar was.
-
-Verdeling die daaruit rolt: 199 `vrijwillige_controle` tegen 14 `wettelijke_controle`
-(die laatste hebben een Wta-verwijzing in de tekst), en 201 goedkeurende oordelen tegen
-5 met beperking. De kantorenmix wordt geleid door WITh (42) en Dubois & Co (30), met
-Van Ree (18) en BDO (13) daarachter — een heel andere markt dan de zorg.
+Een paar uit die lijst: Hartstichting KPMG → Forvis Mazars, Rode Kruis PwC → KPMG, Hivos
+Deloitte → BDO, Natuurmonumenten BDO → Forvis Mazars, KiKa WITh → BDO, Voedselbanken
+Nederland Van Oers → Stolwijk Kelderman. Dat is precies het materiaal voor de
+wisselingenpagina, en het bevestigt de orde van grootte: ongeveer één op de twintig
+relaties wisselt per jaar.
 
 ## Gevolgen voor het datamodel
 
@@ -360,11 +425,12 @@ python3 pipeline/laad_stichtingen.py --boekjaar 2024 --droogloop
 python3 pipeline/verken_stichtingen.py oogst 2024      # welke kantoren kennen we nog niet?
 ```
 
-Verwachting voor de volle run over 2019–2025: boekjaar 2024 leverde 213 opdrachten op
-295 organisaties; met de lagere dekking van de oudere jaren komt dat neer op in de orde
-van **1.200–1.300 opdrachtrijen** — genoeg voor een sectorpagina, marktaandelen en een
-wisselingenoverzicht in deze sector. Reken op een paar uur en ±1 GB aan downloads (de
-lader gooit de pdf's na het lezen weg, tenzij je `--bewaar-pdf` meegeeft).
+Verwachting voor de volle run over 2019–2025: de drie gemeten jaargangen leverden samen
+**518 opdrachten** (194 + 176 + 148). Met de lagere dekking van 2019–2021 en het nog
+halfvolle 2025 komt de hele reeks neer op in de orde van **1.000 opdrachtrijen** —
+genoeg voor een sectorpagina, marktaandelen en een wisselingenoverzicht met enkele
+tientallen wisselingen. Reken op een paar uur en ±2 GB aan downloads (de lader gooit de
+pdf's na het lezen weg, tenzij je `--bewaar-pdf` meegeeft).
 
 ## Aanbevolen volgorde
 

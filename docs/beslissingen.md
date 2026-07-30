@@ -24,4 +24,5 @@ blijven hier staan (ook als ze later worden teruggedraaid — dan met nieuwe reg
 | juli 2026 | MVP verscherpt tot de zes-velden-relatiegraaf (organisatie, accountant, opdrachttype, jaar, sector, bron); geen AI-extractie, honoraria of switch-scores in het MVP-pad | Zie `docs/visie.md` — leidend document |
 | juli 2026 | MVP-volgorde: zorg → klik-machine → lancering + OOB → verdieping (AI/signalen/onderwijs) → omzet | Zie `ROADMAP.md` |
 | 30-7-2026 | CBF-register en CBF-jaarverslagen mogen als bron worden gebruikt (toestemming aanwezig) | Keuze 7. Voorwaarden blijven: bronvermelding, en geen CBF-teksten/cijfers overnemen |
-| 30-7-2026 | Vrijwillige controles en kantoren zonder Wta-vergunning horen erbij, met eigen opdrachttype | Keuze 8. Anders mist WhoSigns 22% van de goededoelensector |
+| 30-7-2026 | Vrijwillige controles en kantoren zonder Wta-vergunning horen erbij, met eigen opdrachttype | Keuze 8. Anders mist WhoSigns 23% van de goededoelensector |
+| 30-7-2026 | Een kantoornaam geldt alleen als hij op een ondertekeningsplek staat; twijfel gaat naar de review-queue | Kostte 19 van de 213 "opdrachten" in boekjaar 2024 en tien van de achttien "wisselingen" — die bestonden niet. Zie `docs/bronverkenning-stichtingen.md` en `pipeline/test_kantoor_match.py` |

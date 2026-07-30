@@ -31,7 +31,9 @@ pipeline/
   laad_proefdata.py    ✅ 13 bekende ziekenhuizen → Supabase (proefdata voor Fase 2)
   laad_stichtingen.py  ✅ CBF-erkende goede doelen → Supabase (workflow "Stichtingendata")
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
-  verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking + extractie)
+  verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
+                          oogst van onbekende kantoren, wisselingen tussen twee jaren)
+  test_kantoor_match.py ✅ 11 gevallen uit echte verslagen; zonder netwerk te draaien
   signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
 

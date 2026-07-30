@@ -245,8 +245,9 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
 3. Verticals: ANBI's/CBF-goede doelen, woningcorporaties, gemeenten/provincies/
    waterschappen, pensioenfondsen, fondsen. **Stichtingen/NGO's zijn klaar om te
    laden**: route uitgezocht en gemeten in `docs/bronverkenning-stichtingen.md`,
-   pipeline in `laad_stichtingen.py`, workflow *Stichtingendata laden*. Boekjaar 2024
-   levert 213 opdrachten op 295 organisaties (88% van de controleverklaringen).
+   pipeline in `laad_stichtingen.py`, workflow *Stichtingendata laden*. Gemeten:
+   194 opdrachten in boekjaar 2024, 176 in 2023, 148 in 2022 (81% van de
+   controleverklaringen) — met 16 accountantswisselingen over die drie jaargangen.
    Zodra de zorgsector af is: workflow starten met boekjaren 2019–2025. Kantoren
    zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8)
 4. Switch-scores / voorspelmodellen — uitdrukkelijk pas ná validatie (visie: "nog niet")
