@@ -46,6 +46,11 @@ OPDRACHT_JAARVELDEN = {
     "honorarium_fiscaal": "honorarium_fiscaal_eur",
     "honorarium_nietcontrole": "honorarium_nietcontrole_eur",
     "wissel_gerapporteerd": "wissel_gerapporteerd",
+    # Het oordeel zoals de bron het meldt, náást het oordeel dat wij uit de
+    # gedeponeerde verklaring lezen. 97% van de tijd zijn ze het eens; de rest is
+    # review-werk (v_oordeel_afwijking).
+    "oordeel_gerapporteerd": "oordeel_gerapporteerd",
+    "verklaring_datum": "verklaring_datum",
 }
 
 
@@ -90,7 +95,7 @@ def main() -> int:
     # en hoort hier niet gemaakt te worden.
     id_per_kvk = {
         rij["kvk_nummer"]: rij["id"]
-        for rij in db.selecteer("organisaties", "select=id,kvk_nummer&limit=20000")
+        for rij in db.selecteer_alles("organisaties", "select=id,kvk_nummer")
         if rij.get("kvk_nummer")
     }
     print(f"{len(id_per_kvk)} organisaties in de database", flush=True)

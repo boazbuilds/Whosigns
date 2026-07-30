@@ -156,7 +156,10 @@ export default async function Organisatiepagina({ params }: Params) {
                       {OPDRACHT_LABEL[opdracht.type_opdracht] ?? opdracht.type_opdracht}
                     </td>
                     <td>
-                      <Oordeel waarde={opdracht.oordeel} />
+                      <Oordeel
+                        waarde={opdracht.oordeel}
+                        gerapporteerd={opdracht.oordeel_gerapporteerd}
+                      />
                       {opdracht.continuiteitsonzekerheid ? (
                         <> <span className="label label-let-op">continuïteit</span></>
                       ) : null}

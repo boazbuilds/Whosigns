@@ -81,6 +81,23 @@ VELDPATRONEN: dict[str, tuple[str, ...]] = {
     "honorarium_fiscaal": ("acc_fisc_adv",),
     "honorarium_nietcontrole": ("acc_niet_contr",),
     "wisselvlag": ("qaccountantwissel",),
+    # `qNawSBIcodesLrza` bewust niet meegenomen: 1.122 van de 1.140 organisaties
+    # hebben daar letterlijk "(Geen geregistreerde SBI-codes beschikbaar)" staan.
+    # Achttien echte codes is geen kolom waard.
+    # Oordeel én datum per gedeponeerd document. Bewust NIET qAccVerklVorm: dat is
+    # het vragenlijstveld en dat wordt verkeerd ingevuld (46 oordeelonthoudingen
+    # tegen 8 in het documentveld, terwijl onze pdf-extractie er 5 vond).
+    "oordeel_gerapporteerd": ("bestandaccverklsoortcontroleverkl",),
+    "verklaring_datum": ("bestanddatumaccountantsverklaring",),
+}
+
+# Hoe de bron het oordeel schrijft -> onze woordenlijst (gelijk aan de check in
+# supabase/migrations/20260727000000_init.sql).
+OORDEEL_UIT_BRON = {
+    "goedkeurende controleverklaring": "goedkeurend",
+    "controleverklaring met beperking": "beperking",
+    "controleverklaring met oordeelonthouding": "oordeelonthouding",
+    "afkeurende controleverklaring": "afkeurend",
 }
 
 # Het soort verklaring heeft per jaargang een andere veldnaam: 2023 heeft het
@@ -260,6 +277,17 @@ def _bedrag(waarde: str) -> str:
     return "" if getal == 0 else f"{getal:.0f}"
 
 
+def _datum(waarde: str) -> str:
+    """'29-07-2024' -> '2024-07-29'. Iets anders dan dd-mm-jjjj wordt genegeerd."""
+    delen = waarde.strip().split("-")
+    if len(delen) != 3 or not all(d.isdigit() for d in delen):
+        return ""
+    dag, maand, jaar = delen
+    if len(jaar) != 4 or not (1 <= int(maand) <= 12) or not (1 <= int(dag) <= 31):
+        return ""
+    return f"{jaar}-{maand.zfill(2)}-{dag.zfill(2)}"
+
+
 def _zoek_kolommen(cellen: list[str]) -> dict:
     """Bepaalt uit een koprij welke kolom welk veld is.
 
@@ -350,6 +378,14 @@ def doelpopulatie(ods_paden: list[Path] | Path, boekjaar: int) -> list[dict]:
                 elif naam_veld == "rechtsvorm":
                     if cel(index):
                         doel["rechtsvorm"] = cel(index)
+                elif naam_veld == "oordeel_gerapporteerd":
+                    oordeel = OORDEEL_UIT_BRON.get(cel(index).lower())
+                    if oordeel:
+                        doel["oordeel_gerapporteerd"] = oordeel
+                elif naam_veld == "verklaring_datum":
+                    datum = _datum(cel(index))
+                    if datum:
+                        doel["verklaring_datum"] = datum
                 else:
                     bedrag = _bedrag(cel(index))
                     if bedrag:
@@ -367,7 +403,8 @@ def doelpopulatie(ods_paden: list[Path] | Path, boekjaar: int) -> list[dict]:
 # cachebestand herkenbaar is aan de kop.
 CSV_VELDEN = [
     "kvk_nummer", "naam", "plaats", "boekjaar", "subsector", "rechtsvorm",
-    "omzet", "wissel_gerapporteerd", "honorarium_controle", "honorarium_overig",
+    "omzet", "wissel_gerapporteerd", "oordeel_gerapporteerd",
+    "verklaring_datum", "honorarium_controle", "honorarium_overig",
     "honorarium_fiscaal", "honorarium_nietcontrole",
 ]
 

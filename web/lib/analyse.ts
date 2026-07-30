@@ -90,7 +90,7 @@ export function clientenVanKantoor(
       bestaand.jaren.push(opdracht.boekjaar);
       if (opdracht.boekjaar > bestaand.laatsteBoekjaar) {
         bestaand.laatsteBoekjaar = opdracht.boekjaar;
-        bestaand.oordeelLaatste = opdracht.oordeel;
+        bestaand.oordeelLaatste = opdracht.oordeel ?? opdracht.oordeel_gerapporteerd;
         bestaand.typeLaatste = opdracht.type_opdracht;
       }
     } else {
@@ -102,7 +102,7 @@ export function clientenVanKantoor(
         sector: org.sector,
         jaren: [opdracht.boekjaar],
         laatsteBoekjaar: opdracht.boekjaar,
-        oordeelLaatste: opdracht.oordeel,
+        oordeelLaatste: opdracht.oordeel ?? opdracht.oordeel_gerapporteerd,
         typeLaatste: opdracht.type_opdracht,
       });
     }
