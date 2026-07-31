@@ -400,15 +400,24 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
         return "\n".join(stukken)
 
 
-def tekst_uit_pdf(pad: str) -> tuple[str, bool]:
+def tekst_uit_pdf(pad: str, ocr: bool = True) -> tuple[str, bool]:
     """De tekst én of daar OCR voor nodig was.
 
     Eén ingang voor alle aanroepers, zodat niemand vergeet dat een gescande pdf nog
     een tweede kans verdient. De boolean gaat mee zodat een lader kan tellen hoe vaak
     OCR nodig was — dat is een kwaliteitssignaal over de bron, geen bijzaak.
+
+    `ocr=False` slaat die tweede kans over. Bedoeld voor organisaties waar een
+    wettelijke controle niet kán spelen: OCR kost ruim twee minuten per document en
+    dat is weggegooid als het stuk toch een samenstellingsverklaring blijkt.
+    Gemeten op vijftien willekeurige zorgorganisaties zonder opdracht (31-7-2026):
+    nul rijen, mediaan 127 seconden, en negen van de vijftien hadden aantoonbaar
+    geen controleverklaring maar een samenstelling of beoordeling.
     """
     tekst = pdf_naar_tekst(pad)
     if len(tekst.strip()) >= TEKST_ONDERGRENS:
+        return tekst, False
+    if not ocr:
         return tekst, False
     return ocr_naar_tekst(pad), True
 
