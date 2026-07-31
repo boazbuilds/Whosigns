@@ -309,18 +309,32 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
     die omvalt op een ontbrekend hulpprogramma.
     """
     with tempfile.TemporaryDirectory() as tijdelijk:
+        # Eerst tellen, dan alléén het benodigde bereik renderen. Zonder -f/-l
+        # rendert pdftoppm elke pagina op 300 dpi en gooien we er daarna vijftig
+        # weg — bij een jaarrekening van zeventig pagina's kost dat minuten per
+        # document en dat maakte de run onbetaalbaar.
+        eerste, laatste = 1, max_paginas
+        try:
+            info = subprocess.run(["pdfinfo", pad], capture_output=True, text=True)
+            aantal = next((int(r.split(":")[1]) for r in info.stdout.splitlines()
+                           if r.startswith("Pages:")), 0)
+            # De verklaring staat achterin een jaarrekening.
+            if aantal > max_paginas:
+                eerste, laatste = aantal - max_paginas + 1, aantal
+            elif aantal:
+                eerste, laatste = 1, aantal
+        except (FileNotFoundError, ValueError, IndexError):
+            pass
         try:
             subprocess.run(
-                ["pdftoppm", "-r", str(OCR_DPI), "-png", pad, f"{tijdelijk}/p"],
+                ["pdftoppm", "-r", str(OCR_DPI), "-f", str(eerste), "-l", str(laatste),
+                 "-png", pad, f"{tijdelijk}/p"],
                 check=True,
                 capture_output=True,
             )
         except (subprocess.CalledProcessError, FileNotFoundError):
             return ""
         paginas = sorted(Path(tijdelijk).glob("p*.png"))
-        # Bij een lang document de laatste pagina's: daar staat de verklaring.
-        if len(paginas) > max_paginas:
-            paginas = paginas[-max_paginas:]
         stukken = []
         for pagina in paginas:
             try:
