@@ -34,7 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "extractie"))
 import anbi_publicatie  # noqa: E402
 import cbf  # noqa: E402
 from kantoor_match import normaliseer  # noqa: E402
-from verklaring import analyseer, pdf_naar_tekst  # noqa: E402
+from verklaring import analyseer, pdf_naar_tekst, tekst_uit_pdf  # noqa: E402
 
 CACHE = Path(__file__).resolve().parents[1] / ".cache"
 
@@ -112,6 +112,29 @@ def _uit_tekst(
     }
 
 
+def _lees_pdf(pad: str, ocr: bool) -> tuple[str, bool]:
+    """De tekst van een pdf, met OCR als tweede kans wanneer `ocr` aan staat.
+
+    Waarom dit een keuze per populatie is en niet altijd aan: het hangt af van wie het
+    verslag inscande. Gemeten op boekjaar 2024, de gescande verslagen (tekstlaag nul):
+
+      D/E  9 scans, en dat zijn Open Doors, KNGF Geleidehonden, Feyenoord Foundation,
+           voordekunst — organisaties van een omvang waarbij een controle hoort. OCR
+           haalt daar echte controleverklaringen uit, met kantoor en al.
+      A/B  33 scans, en bij vier daarvan nagekeken had er drie géén verklaring en de
+           vierde een samenstelling zonder herleidbaar kantoor. Wie print, ondertekent
+           en scant is daar juist de stichting die zich niet laat controleren. OCR
+           bewijst dan dat het stuk leeg is: een minuut rekenwerk per document om te
+           bevestigen wat de basiskans al zei (201 van de 262 zonder controle).
+
+    Dus aan waar een verklaring te verwachten is, uit waar de scan zelf het signaal is
+    dat er niets te vinden valt.
+    """
+    if ocr:
+        return tekst_uit_pdf(pad)
+    return pdf_naar_tekst(pad), False
+
+
 def verwerk_organisatie(
     organisatie: dict,
     boekjaar: int,
@@ -120,6 +143,7 @@ def verwerk_organisatie(
     website: str = "",
     bewaar_pdf: bool = True,
     soorten: tuple[str, ...] = ("controle",),
+    ocr: bool = True,
 ) -> dict:
     """Eén goed doel, één boekjaar. Geeft altijd een dict met `status`.
 
@@ -156,9 +180,13 @@ def verwerk_organisatie(
             pad.write_bytes(inhoud)
 
     if pad.exists():
-        tekst = pdf_naar_tekst(str(pad))
+        # Let op de volgorde: eerst lezen, dán de pdf weggooien, want OCR heeft het
+        # bestand nog nodig.
+        tekst, via_ocr = _lees_pdf(str(pad), ocr)
         if not bewaar_pdf:
             pad.unlink(missing_ok=True)
+        if via_ocr:
+            basis["via_ocr"] = True
         if len(tekst.strip()) < 50:
             tekstloos = True
         else:
@@ -181,9 +209,11 @@ def verwerk_organisatie(
             else:
                 eigen_pad = _bestandsnaam(naam, boekjaar, "_eigen")
                 eigen_pad.write_bytes(inhoud)
-                tekst = pdf_naar_tekst(str(eigen_pad))
+                tekst, via_ocr = _lees_pdf(str(eigen_pad), ocr)
                 if not bewaar_pdf:
                     eigen_pad.unlink(missing_ok=True)
+                if via_ocr:
+                    basis["via_ocr"] = True
             if not bevat_boekjaar(tekst, boekjaar):
                 basis["reden"] = (
                     f"stuk op de eigen site gaat niet over boekjaar {boekjaar}"

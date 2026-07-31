@@ -1,0 +1,89 @@
+name: Corporatiedata laden
+
+# Woningcorporaties in bulk — de goedkoopste vertical die we hebben.
+#
+# De Autoriteit woningcorporaties publiceert de verantwoordingsinformatie (dVi) als open
+# data (CC-0), en hoofdstuk 1 bevat per corporatie een kolom `Accountant` met KvK-nummer,
+# naam en gemeente ernaast. Eén xlsx per boekjaar: geen archief, geen pdf's, geen OCR.
+# Zie docs/bestaande-databases.md en pipeline/adapters/aw_dvi.py.
+#
+# Gemeten (30-7-2026, droogloop): boekjaar 2024 271 opdrachten en 1 review op 272
+# corporaties; 2022 275 en 2; 2015 335 en 14. Over 2014–2024 komt dat neer op ruim
+# 3.000 opdrachtrijen, met tien jaarovergangen om wisselingen uit te lezen.
+#
+# Let op: data.overheid.nl geeft geregeld minuten lang niets terug. De adapter probeert
+# het drie keer met een pauze; blijft het misgaan, dan slaat die jaargang over en meldt
+# de log dat. Opnieuw draaien pikt het op waar het gebleven was.
+on:
+  workflow_dispatch:
+    inputs:
+      boekjaren:
+        description: "Boekjaren, nieuwste eerst, komma's ertussen"
+        required: true
+        default: "2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014"
+      herlaad:
+        description: "Bestaande opdrachten opnieuw beoordelen en vervangen"
+        type: boolean
+        required: false
+        default: false
+      droogloop:
+        description: "Niets naar de database schrijven; alleen het CSV-rapport"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  laden:
+    name: Woningcorporaties laden
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Geen poppler nodig: deze bron heeft geen pdf's.
+
+      - name: Kantorenlijsten bijwerken
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::notice::Supabase-secrets ontbreken nog — zie docs/setup-supabase.md."
+            exit 0
+          fi
+          python3 pipeline/laad_kantoren.py --offline
+
+      - name: Corporatiedata laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          mislukt=""
+          for jaar in $(echo "${{ inputs.boekjaren }}" | tr ',' ' '); do
+            echo "::group::boekjaar $jaar"
+            # Eén trage jaargang mag de rest niet meesleuren; wat niet lukte staat
+            # aan het eind bij elkaar, zodat je het gericht opnieuw kunt starten.
+            python3 pipeline/laad_corporaties.py \
+              --boekjaar "$jaar" \
+              ${{ inputs.herlaad == true && '--herlaad' || '' }} \
+              ${{ inputs.droogloop == true && '--droogloop' || '' }} \
+              || mislukt="$mislukt $jaar"
+            echo "::endgroup::"
+          done
+          if [ -n "$mislukt" ]; then
+            echo "::warning::Deze boekjaren zijn niet geladen:$mislukt — start de workflow opnieuw met alleen die jaren."
+          fi
+
+      - name: Rapporten bewaren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultaten-corporaties
+          path: pipeline/.cache/resultaat_corporaties_*.csv
+          if-no-files-found: ignore
+          # `.cache` is een verborgen map; zonder deze regel bewaart upload-artifact niets.
+          include-hidden-files: true
