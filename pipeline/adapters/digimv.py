@@ -49,6 +49,7 @@ def verwerk_organisatie(
     boekjaar: int,
     kantoor_index: dict,
     plaats: str = "",
+    ocr: bool = True,
 ) -> dict | None:
     """Zoekt de organisatie op KvK-nummer en analyseert haar controleverklaring.
 
@@ -91,7 +92,7 @@ def verwerk_organisatie(
         # tekst_uit_pdf valt terug op OCR als er geen tekstlaag is. Kleine
         # zorgaanbieders printen, ondertekenen en scannen; zonder die terugval blijft
         # ongeveer driekwart van de organisaties zonder opdracht onzichtbaar.
-        tekst, via_ocr = tekst_uit_pdf(str(pdf_pad))
+        tekst, via_ocr = tekst_uit_pdf(str(pdf_pad), ocr=ocr)
         resultaat = analyseer(tekst, kantoor_index)
         resultaat["via_ocr"] = via_ocr
         if resultaat["soort"] != "controle":

@@ -101,6 +101,38 @@ def zoekfragment(naam: str) -> str:
     return max(kandidaten, key=len)
 
 
+# Rechtsvormen die geen jaarrekening deponeren en dus nooit controleplichtig zijn.
+ZONDER_CONTROLEPLICHT = ("Vennootschap onder firma", "Eenmanszaak", "Maatschap")
+
+# Onder deze omzet is een wettelijke controle praktisch uitgesloten: de grens van
+# titel 9 ligt een veelvoud hoger. Ruim onder de grens gekozen, want mislopen is
+# erger dan een paar keer voor niets OCR'en.
+OMZET_ONDERGRENS = 2_000_000
+
+
+def controle_plausibel(organisatie: dict) -> bool:
+    """Kan hier überhaupt een wettelijke controle spelen?
+
+    Alleen gebruikt om te beslissen of een gescande pdf door OCR mag. Dat kost ruim
+    twee minuten per document, en bij de kleinste zorgaanbieders levert het niets op.
+
+    Gemeten op vijftien willekeurige organisaties uit de 333 zonder opdracht
+    (31-7-2026): nul rijen, mediaan 127 seconden per stuk, en negen van de vijftien
+    hadden aantoonbaar geen controleverklaring maar een samenstelling of beoordeling.
+    Van de 101 met een bekende omzet zit de mediaan op EUR 675.000 en zitten er 95
+    onder de zes miljoen.
+
+    Dit filtert 190 van de 333 weg -- bijna twaalf uur rekentijd over zeven
+    boekjaren -- en houdt alle tien ziekenhuizen en twintig ggz-instellingen over.
+    """
+    ruw = (organisatie.get("omzet") or "").strip()
+    try:
+        return float(ruw) >= OMZET_ONDERGRENS
+    except ValueError:
+        # Geen omzet bekend: dan beslist de rechtsvorm.
+        return not organisatie.get("rechtsvorm", "").startswith(ZONDER_CONTROLEPLICHT)
+
+
 def zoek_met_terugval(organisatie: dict, boekjaar: int, kantoor_index: dict):
     """Probeer op naamfragment; lukt dat niet, dan op plaatsnaam.
 
@@ -108,8 +140,9 @@ def zoek_met_terugval(organisatie: dict, boekjaar: int, kantoor_index: dict):
     plaatsen wisselen per boekjaar, het KvK-nummer niet (zie adapters/digimv.py).
     """
     kvk = organisatie["kvk_nummer"]
+    ocr = controle_plausibel(organisatie)
     resultaat = verwerk_organisatie(
-        zoekfragment(organisatie["naam"]), kvk, boekjaar, kantoor_index
+        zoekfragment(organisatie["naam"]), kvk, boekjaar, kantoor_index, ocr=ocr
     )
     if resultaat or not organisatie.get("plaats"):
         return resultaat
@@ -119,7 +152,7 @@ def zoek_met_terugval(organisatie: dict, boekjaar: int, kantoor_index: dict):
     # Wél op plaats te vinden: nog een keer, nu met de plaats als ingang en een
     # lege naam — de plaatsnaam hoort in het plaats-veld, niet in het naam-veld.
     return verwerk_organisatie(
-        "", kvk, boekjaar, kantoor_index, plaats=organisatie["plaats"]
+        "", kvk, boekjaar, kantoor_index, plaats=organisatie["plaats"], ocr=ocr
     )
 
 
