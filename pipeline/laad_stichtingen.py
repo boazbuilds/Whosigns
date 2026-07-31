@@ -30,6 +30,8 @@ Opties:
     --aantal N         verwerk er hoogstens N
     --rapport-json P   schrijf de tellingen als JSON naar P (voor `lus.py`)
     --terugval         zoek bij een leeg CBF-bestand ook op de eigen website
+    --geen-ocr         gescande verslagen niet door OCR halen. Zinnig bij categorie
+                       A/B, waar een scan meestal betekent dat er geen verklaring ís
                        (ANBI-publicatieplicht); kost extra verzoeken
     --droogloop        niets naar de database schrijven, alleen een CSV-rapport
     --werkers N        hoeveel organisaties tegelijk ophalen (standaard 4)
@@ -100,6 +102,7 @@ def main() -> int:
     parser.add_argument("--aantal", type=int, default=0)
     parser.add_argument("--rapport-json", default="", dest="rapport_json")
     parser.add_argument("--terugval", action="store_true")
+    parser.add_argument("--geen-ocr", action="store_true", dest="geen_ocr")
     parser.add_argument("--droogloop", action="store_true")
     parser.add_argument("--werkers", type=int, default=4)
     parser.add_argument("--herlaad", action="store_true")
@@ -212,6 +215,7 @@ def main() -> int:
         )
 
     telling: dict[str, int] = {}
+    via_ocr: dict[str, int] = {}
     per_kantoor: dict[str, int] = {}
     # Kandidaat-namen uit de review-gevallen, geteld. Dit is de oogst waarmee
     # seed/kantoren_overig.csv en kantoor_alias.csv groeien: een naam die vijf keer
@@ -229,6 +233,7 @@ def main() -> int:
                 website=websites.get(organisatie["naam"], ""),
                 bewaar_pdf=argumenten.bewaar_pdf,
                 soorten=soorten,
+                ocr=not argumenten.geen_ocr,
             )
         except Exception as fout:  # noqa: BLE001 — bron mag falen, run gaat door
             print(f"  {organisatie['naam'][:50]}: fout {fout}", flush=True)
@@ -240,6 +245,11 @@ def main() -> int:
         ):
             status = resultaat["status"]
             telling[status] = telling.get(status, 0) + 1
+            # Hoe vaak er OCR aan te pas kwam, apart bijhouden. Dat is geen bijzaak
+            # maar een kwaliteitssignaal over de bron: een verslag dat alleen als scan
+            # bestaat, is een verslag dat niemand kan doorzoeken.
+            if resultaat.get("via_ocr"):
+                via_ocr[status] = via_ocr.get(status, 0) + 1
             if teller % 25 == 0:
                 print(
                     f"--- {teller}/{len(te_doen)} | "
@@ -340,6 +350,13 @@ def main() -> int:
     print(f"\n=== boekjaar {boekjaar} ({(time.time()-begin)/60:.0f} min) ===")
     for status, aantal in sorted(telling.items(), key=lambda p: -p[1]):
         print(f"  {status:14s} {aantal:4d}")
+    if via_ocr:
+        totaal = sum(via_ocr.values())
+        details = ", ".join(
+            f"{aantal}× {status}"
+            for status, aantal in sorted(via_ocr.items(), key=lambda p: -p[1])
+        )
+        print(f"\nOCR was nodig bij {totaal} gescande verslagen: {details}")
     print("\nKantoren in deze run:")
     for naam, aantal in sorted(per_kantoor.items(), key=lambda p: -p[1])[:25]:
         print(f"  {aantal:4d}  {naam}")
@@ -361,6 +378,7 @@ def main() -> int:
                     "overgeslagen": len(werklijst) - len(te_doen),
                     "minuten": round((time.time() - begin) / 60, 1),
                     "telling": telling,
+                    "via_ocr": via_ocr,
                     "per_kantoor": per_kantoor,
                     "onbekende_kantoren": onbekend,
                 },

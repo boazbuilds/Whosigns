@@ -150,6 +150,11 @@ POPULATIES = (
         "erkenning": "actief",
         "soorten": ["controle"],
         "terugval": False,
+        # En om dezelfde reden geen OCR: van vier nagekeken gescande A/B-verslagen had
+        # er drie géén verklaring en de vierde een samenstelling zonder kantoor. Bij
+        # 33 scans per jaargang is dat een half uur rekenwerk om te bevestigen wat de
+        # basiskans al zei. Bij D/E is het net omgekeerd — zie `_lees_pdf`.
+        "ocr": False,
         "prioriteit": 40,
     },
 )
@@ -248,6 +253,7 @@ def plan(blokgrootte: int) -> int:
                     "erkenning": populatie["erkenning"],
                     "soorten": ",".join(populatie["soorten"]),
                     "terugval": populatie.get("terugval", False),
+                    "ocr": populatie.get("ocr", True),
                     "vanaf": vanaf,
                     "aantal": min(blokgrootte, len(organisaties) - vanaf),
                     "status": "open",
@@ -381,6 +387,11 @@ def _draai_blok(taak: dict, droogloop: bool, werkers: int) -> dict | None:
     ]
     if taak.get("terugval"):
         opdracht.append("--terugval")
+    # Standaard aan, dus alleen de uitzondering hoeft op de opdrachtregel. Een taak uit
+    # een oudere werkvoorraad zonder deze sleutel krijgt daarmee OCR, en dat is de
+    # bedoeling: het is winst bij elke populatie behalve A/B.
+    if not taak.get("ocr", True):
+        opdracht.append("--geen-ocr")
     if droogloop:
         opdracht.append("--droogloop")
 

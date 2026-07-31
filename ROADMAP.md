@@ -259,6 +259,10 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
    jachtterrein) en de **terugval naar de eigen website**, nu op een heel blok
    gemeten in plaats van op vijf organisaties (28 → 29 opdrachten per 50, tegen vier
    keer de tijd; aan voor D/E, C en de ingetrokken erkenningen, uit voor A/B).
+   Daarna is ook de **OCR-terugval** uit de zorgroute aangesloten, met dezelfde
+   populatie-per-populatie afweging: alle 9 gescande D/E-verslagen van 2024 gemeten
+   levert 2 opdrachten en 2 review, terwijl bij A/B 3 van de 4 scans géén verklaring
+   bevat — daar bewijst OCR alleen dat het stuk leeg is, dus staat hij uit.
    Daarmee dekt de lus **alle 826 vermeldingen in het CBF-register**.
    Werkvoorraad: 133 blokken, in de orde van 1.200 opdrachtrijen, ±5 dagen.
    Een populatie toevoegen is één regel in `POPULATIES`; de lus plant elke ronde
