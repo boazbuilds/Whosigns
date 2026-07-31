@@ -67,8 +67,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: poppler-utils installeren (voor pdftotext)
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      # Zie stichtingenlus.yml: tesseract is de terugval voor gescande jaarverslagen.
+      - name: poppler-utils en tesseract installeren
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-nld
 
       # De kantorenlijst moet in de database staan vóór er opdrachten aan hangen —
       # inclusief de kantoren zonder Wta-vergunning uit seed/kantoren_overig.csv,

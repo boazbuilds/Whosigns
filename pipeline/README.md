@@ -15,6 +15,7 @@ pipeline/
     anbi.py            ✅ ANBI-bestand Belastingdienst als populatielijst
     anbi_publicatie.py ✅ terugval: jaarstuk op de eigen site van een stichting
     stichtingen.py     ✅ goed doel → opdracht (cbf + terugval + kantoor_match)
+    aw_dvi.py          ✅ woningcorporaties: dVi-open data, accountant als veld
     transparantie.py   ⬜ Fase 3: OOB-cliëntlijsten
     duo.py             ⬜ Fase 4: onderwijs
     tenderned.py       ⬜ Fase 4: aanbestedingen accountantsdiensten
@@ -35,10 +36,11 @@ pipeline/
   laad_kantoren.py     ✅ beide kantorenlijsten + aliassen → Supabase
   laad_proefdata.py    ✅ 13 bekende ziekenhuizen → Supabase (proefdata voor Fase 2)
   laad_stichtingen.py  ✅ CBF-erkende goede doelen → Supabase (workflow "Stichtingendata")
+  laad_corporaties.py  ✅ woningcorporaties → Supabase (workflow "Corporatiedata")
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)
-  test_kantoor_match.py ✅ 11 gevallen uit echte verslagen; zonder netwerk te draaien
+  test_kantoor_match.py ✅ 12 gevallen uit echte verslagen; zonder netwerk te draaien
   signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
 
