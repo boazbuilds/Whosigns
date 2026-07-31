@@ -27,6 +27,7 @@ is het antwoord: *even op WhoSigns kijken.*
 | `docs/setup-supabase.md` | Stap voor stap de database opzetten (zonder developer-kennis) |
 | `docs/concept.md` | Volledige context: domeinkennis, bronnen, guardrails |
 | `docs/bronverkenning-stichtingen.md` | Stichtingen/NGO's: welke routes er zijn en wat ze meten (CBF, ANBI, verticals) |
+| `docs/bestaande-databases.md` | "Bestaat de database al?" — dVi-corporaties (accountant staat er als veld in!), BZK-gemeenten, AFM-totalen, Audit Analytics, ESAP vanaf 2028 |
 | `docs/brainstorm-2026-07.md` | Analyse "waarom Transfermarkt werkt" + verbetervoorstellen |
 | `docs/beslissingen.md` | Beslislog: open keuzes met aanbeveling + genomen besluiten |
 | `supabase/migrations/` | Databaseschema (Postgres), draait straks op Supabase |

@@ -39,10 +39,20 @@ GEVALLEN = [
         "Kaap Hoorn Audit & Assurance B.V.",
     ),
     (
-        "tekennaam via de aliastabel (Opkikker 2024)",
+        "kantoor onder zijn huidige registernaam (Opkikker 2024)",
         "in de interne beheersing Hilversum, 27 juni 2025 M&K Audit B.V. "
         "w.g. J.P.L. van der Moer RA",
-        "M & K Hilversum B.V.",
+        "M & K Audit B.V.",
+    ),
+    (
+        # Het AFM-register kent 13000196 sinds juli 2026 als M & K Audit B.V.; de
+        # verklaring over boekjaar 2023 is nog getekend onder de oude naam. Zulke
+        # naamswijzigingen zijn precies waarvoor de aliastabel bestaat — en ze komen
+        # aan het licht doordat de wekelijkse AFM-snapshot in git wordt vastgelegd.
+        "naam van vóór de naamswijziging, via de aliastabel (Opkikker 2023)",
+        "in de interne beheersing Hilversum, 31 mei 2024 M & K Hilversum B.V. "
+        "was getekend J.P.L. van der Moer RA",
+        "M & K Audit B.V.",
     ),
     (
         "kantoor zonder Wta-vergunning (100WEEKS 2024)",

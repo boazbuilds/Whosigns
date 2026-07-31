@@ -271,7 +271,14 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
    eerst de zorgsector afmaken (visie: één sector compleet vóór verbreding); wil
    je wachten, zet de workflow dan uit via Actions → *Stichtingenlus* → ⋯ →
    *Disable workflow*, of draai hem handmatig met `workflow_dispatch`. Kantoren
-   zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8)
+   zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8).
+   **Woningcorporaties zijn nu de goedkoopste vertical die er is** 🆕: de dVi-open data
+   van de Autoriteit woningcorporaties heeft een kolom `Accountant` per corporatie, mét
+   KvK-nummer, boekjaren 2015–2024 en licentie CC-0 — geen archief, geen pdf's, geen OCR.
+   Ruim 3.000 opdrachtrijen uit één xlsx per jaargang. **Gebouwd en gemeten**:
+   `adapters/aw_dvi.py`, `laad_corporaties.py`, workflow *Corporatiedata laden* —
+   boekjaar 2024 levert 271 opdrachten op 272 corporaties (1 review). Zie
+   `docs/bestaande-databases.md`
 4. Switch-scores / voorspelmodellen — uitdrukkelijk pas ná validatie (visie: "nog niet")
 5. Honoraria tonen + fee-benchmark (kolommen liggen klaar; art. 2:382a BW, DigiMV, DUO)
 6. Supabase Auth + geclaimde kantoorprofielen (badge "neemt cliënten aan"; datagedreven
