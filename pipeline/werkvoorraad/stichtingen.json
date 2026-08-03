@@ -103,7 +103,7 @@
       "vanaf": 200
     },
     {
-      "aantal": 12,
+      "aantal": 13,
       "boekjaar": 2019,
       "categorieen": "A,B",
       "erkenning": "actief",
@@ -211,7 +211,7 @@
       "vanaf": 200
     },
     {
-      "aantal": 12,
+      "aantal": 13,
       "boekjaar": 2020,
       "categorieen": "A,B",
       "erkenning": "actief",
@@ -319,7 +319,7 @@
       "vanaf": 200
     },
     {
-      "aantal": 12,
+      "aantal": 13,
       "boekjaar": 2021,
       "categorieen": "A,B",
       "erkenning": "actief",
@@ -427,7 +427,7 @@
       "vanaf": 200
     },
     {
-      "aantal": 12,
+      "aantal": 13,
       "boekjaar": 2022,
       "categorieen": "A,B",
       "erkenning": "actief",
@@ -535,7 +535,7 @@
       "vanaf": 200
     },
     {
-      "aantal": 12,
+      "aantal": 13,
       "boekjaar": 2023,
       "categorieen": "A,B",
       "erkenning": "actief",
@@ -557,16 +557,23 @@
       "boekjaar": 2024,
       "categorieen": "A,B",
       "erkenning": "actief",
-      "gedraaid_op": null,
+      "gedraaid_op": "2026-08-03 09:15",
       "id": "ab-2024-01",
-      "minuten": null,
+      "minuten": 0.3,
       "ocr": false,
-      "pogingen": 0,
+      "overgeslagen": 0,
+      "pogingen": 1,
       "populatie": "categorie A/B, actieve erkenning",
       "prioriteit": 40,
       "soorten": "controle",
-      "status": "open",
-      "telling": {},
+      "status": "klaar",
+      "telling": {
+        "geen_controle": 42,
+        "geen_verslag": 2,
+        "onleesbaar": 4,
+        "opdracht": 1,
+        "review": 1
+      },
       "terugval": false,
       "vanaf": 0
     },
@@ -643,7 +650,7 @@
       "vanaf": 200
     },
     {
-      "aantal": 12,
+      "aantal": 13,
       "boekjaar": 2024,
       "categorieen": "A,B",
       "erkenning": "actief",
@@ -751,7 +758,7 @@
       "vanaf": 200
     },
     {
-      "aantal": 12,
+      "aantal": 13,
       "boekjaar": 2025,
       "categorieen": "A,B",
       "erkenning": "actief",
@@ -2456,16 +2463,23 @@
       "boekjaar": 2019,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
-      "gedraaid_op": null,
+      "gedraaid_op": "2026-08-03 09:04",
       "id": "ingetrokken-2019-01",
-      "minuten": null,
+      "minuten": 12.2,
       "ocr": true,
-      "pogingen": 0,
+      "overgeslagen": 0,
+      "pogingen": 1,
       "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
-      "status": "open",
-      "telling": {},
+      "status": "klaar",
+      "telling": {
+        "fout": 3,
+        "geen_controle": 9,
+        "geen_verslag": 35,
+        "opdracht": 1,
+        "review": 2
+      },
       "terugval": true,
       "vanaf": 0
     },
@@ -2474,34 +2488,42 @@
       "boekjaar": 2019,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
-      "gedraaid_op": null,
+      "gedraaid_op": "2026-08-03 09:13",
       "id": "ingetrokken-2019-02",
-      "minuten": null,
+      "minuten": 8.6,
       "ocr": true,
-      "pogingen": 0,
+      "overgeslagen": 0,
+      "pogingen": 1,
       "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
-      "status": "open",
-      "telling": {},
+      "status": "klaar",
+      "telling": {
+        "fout": 1,
+        "geen_controle": 6,
+        "geen_verslag": 43
+      },
       "terugval": true,
       "vanaf": 50
     },
     {
-      "aantal": 11,
+      "aantal": 10,
       "boekjaar": 2019,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
-      "gedraaid_op": null,
+      "gedraaid_op": "2026-08-03 09:14",
       "id": "ingetrokken-2019-03",
-      "minuten": null,
+      "minuten": 1.3,
       "ocr": true,
-      "pogingen": 0,
+      "overgeslagen": 0,
+      "pogingen": 1,
       "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
-      "status": "open",
-      "telling": {},
+      "status": "klaar",
+      "telling": {
+        "geen_verslag": 10
+      },
       "terugval": true,
       "vanaf": 100
     },
@@ -2535,34 +2557,42 @@
       "boekjaar": 2020,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
-      "gedraaid_op": null,
+      "gedraaid_op": "2026-08-03 08:50",
       "id": "ingetrokken-2020-02",
-      "minuten": null,
+      "minuten": 7.6,
       "ocr": true,
-      "pogingen": 0,
+      "overgeslagen": 0,
+      "pogingen": 1,
       "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
-      "status": "open",
-      "telling": {},
+      "status": "klaar",
+      "telling": {
+        "fout": 1,
+        "geen_controle": 7,
+        "geen_verslag": 42
+      },
       "terugval": true,
       "vanaf": 50
     },
     {
-      "aantal": 11,
+      "aantal": 10,
       "boekjaar": 2020,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
-      "gedraaid_op": null,
+      "gedraaid_op": "2026-08-03 08:52",
       "id": "ingetrokken-2020-03",
-      "minuten": null,
+      "minuten": 1.4,
       "ocr": true,
-      "pogingen": 0,
+      "overgeslagen": 0,
+      "pogingen": 1,
       "populatie": "ingetrokken erkenning (alle categorieën)",
       "prioriteit": 30,
       "soorten": "controle",
-      "status": "open",
-      "telling": {},
+      "status": "klaar",
+      "telling": {
+        "geen_verslag": 10
+      },
       "terugval": true,
       "vanaf": 100
     },
@@ -2615,7 +2645,7 @@
       "vanaf": 50
     },
     {
-      "aantal": 11,
+      "aantal": 10,
       "boekjaar": 2021,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
@@ -2685,7 +2715,7 @@
       "vanaf": 50
     },
     {
-      "aantal": 11,
+      "aantal": 10,
       "boekjaar": 2022,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
@@ -2754,7 +2784,7 @@
       "vanaf": 50
     },
     {
-      "aantal": 11,
+      "aantal": 10,
       "boekjaar": 2023,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
@@ -2823,7 +2853,7 @@
       "vanaf": 50
     },
     {
-      "aantal": 11,
+      "aantal": 10,
       "boekjaar": 2024,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
@@ -2891,7 +2921,7 @@
       "vanaf": 50
     },
     {
-      "aantal": 11,
+      "aantal": 10,
       "boekjaar": 2025,
       "categorieen": "A,B,C,D,E",
       "erkenning": "ingetrokken",
