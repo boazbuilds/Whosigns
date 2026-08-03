@@ -43,6 +43,62 @@ OUDSTE_BOEKJAAR = 2019
 NIEUWSTE_BOEKJAAR = 2025
 
 
+def schoon_naam(naam: str) -> str:
+    """Organisatienaam zoals het archief hem levert, maar zonder de rommel.
+
+    Het archief geeft namen soms met losse spaties ("Amarant ") en één keer zelfs
+    dubbel achter elkaar: "Woon & Zorgcentrum HerfstzonWoon & Zorgcentrum
+    Herfstzon (Stichting)" (KvK 41032279, nagemeten 3-8-2026). Witruimte wordt
+    samengevouwen; begint de rest van de naam met exact de kop ervoor (minstens
+    acht tekens, tegen toeval), dan vervalt die kop en blijft de volledige
+    variant met rechtsvorm over.
+    """
+    naam = " ".join(naam.split())
+    for i in range(8, len(naam) - 7):
+        if naam[i:].startswith(naam[:i]):
+            return naam[i:]
+    return naam
+
+
+# Tussenwoorden die in een plaatsnaam klein blijven: Alphen aan den Rijn,
+# Bergen op Zoom, Capelle aan den IJssel.
+_PLAATS_KLEIN = {"aan", "bij", "de", "den", "der", "en", "het", "in", "op", "ter", "van"}
+
+
+def _kapitaal(deel: str) -> str:
+    if deel in ("'s", "'t"):
+        return deel  # 's-Gravenhage, 't Zand
+    if deel.startswith("ij"):
+        return "IJ" + deel[2:]  # IJsselstein, niet Ijsselstein
+    return deel[:1].upper() + deel[1:]
+
+
+def schoon_plaats(plaats: str) -> str:
+    """Plaatsnaam met normale hoofdletters in plaats van de KAPITALEN uit het archief.
+
+    Het archief schrijft plaatsen in oudere boekjaren volledig in hoofdletters
+    ("GOOR", "DEN HAAG", "CAPELLE AAN DEN IJSSEL") en in nieuwere gewoon
+    ("Goor"). Alleen een naam die geheel in kapitalen staat wordt omgezet — wat
+    al goed is, blijft onaangeraakt. Zonder dit stonden 394 van de ruim 1.100
+    gemeenten in kapitalen op de site, en vond `gemeente=eq.` de organisaties
+    in "GOOR" niet bij die in "Goor".
+    """
+    plaats = " ".join(plaats.split())
+    if not plaats.isupper():
+        return plaats
+    woorden = []
+    for i, woord in enumerate(plaats.lower().split(" ")):
+        if i > 0 and woord in _PLAATS_KLEIN:
+            woorden.append(woord)
+            continue
+        delen = woord.split("-")
+        # "S-HERTOGENBOSCH" komt zonder apostrof binnen; die hoort er wel.
+        if delen[0] == "s" and len(delen) > 1:
+            delen[0] = "'s"
+        woorden.append("-".join(_kapitaal(d) for d in delen))
+    return " ".join(woorden)
+
+
 def verwerk_organisatie(
     zoekterm: str,
     kvk_nummer: str,
@@ -121,8 +177,8 @@ def verwerk_organisatie(
 
         return {
             "kvk_nummer": kvk_nummer,
-            "naam": organisatie["name"],
-            "plaats": organisatie["town"],
+            "naam": schoon_naam(organisatie["name"]),
+            "plaats": schoon_plaats(organisatie["town"]),
             "boekjaar": boekjaar,
             "opdrachttype": resultaat["opdrachttype"],
             "oordeel": resultaat["oordeel"],
