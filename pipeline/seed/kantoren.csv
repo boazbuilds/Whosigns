@@ -173,7 +173,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020082,Denote Assurance B.V.,Besloten Vennootschap,Eindhoven,nee,2017-12-21,http://www.denote.nu,Verleend
 13020095,RA12 Registeraccountants B.V.,Besloten Vennootschap,Veenendaal,nee,2018-04-26,,Verleend
 13020099,Van Hoesel/de Blaey Accountancy B.V.,Besloten Vennootschap,Sliedrecht,nee,2018-07-02,http://www.hoesel.nl,Verleend
-13020100,Keystone Accountants B.V.,Besloten Vennootschap,Druten,nee,2018-08-14,http://www.keystoneaccountants.nl,Verleend
+13020100,Keystone Audit B.V.,Besloten Vennootschap,Druten,nee,2018-08-14,http://www.keystoneaccountants.nl,Verleend
 13020102,Berkenrode Audit B.V.,Besloten Vennootschap,Haarlem,nee,2018-10-04,,Verleend
 13020108,Signature Audit + Advisory B.V.,Besloten Vennootschap,Spijkenisse,nee,2019-04-16,,Verleend
 13020109,Beuk Audit B.V.,Besloten Vennootschap,Velsen-Zuid,nee,2018-12-20,,Verleend
@@ -197,7 +197,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020156,Moos Accountants B.V.,Besloten Vennootschap,Diemen,nee,2022-11-17,,Verleend
 13020164,SV-Audit B.V.,Besloten Vennootschap,Simonshaven,nee,2024-02-02,https://sv-audit.nl,Verleend
 13020166,De Audit Boetiek B.V.,Besloten Vennootschap,'s-Hertogenbosch,nee,2023-11-22,,Verleend
-13020169,IAC Audit & Assurance B.V.,Besloten Vennootschap,'s-Gravenhage,nee,2024-02-02,https://iac-audit.com,Verleend
+13020169,IAC Audit & Assurance B.V.,Besloten Vennootschap,Rijswijk,nee,2024-02-02,https://iac-audit.com,Verleend
 13020177,Just Audit B.V.,Besloten Vennootschap,Hoofddorp,nee,2024-04-15,https://justaudit.nl,Verleend
 13020183,Elevate Audit Partners B.V.,Besloten Vennootschap,Amsterdam,nee,2024-06-27,https://elevateaudit.com,Verleend
 13020184,Masters in Audit & Assurance B.V.,Besloten Vennootschap,'s-Hertogenbosch,nee,2024-05-30,www.miaa.nl,Verleend
@@ -215,7 +215,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020201,Assurance First Audit B.V.,Besloten Vennootschap,Hoofddorp,nee,2025-06-30,https://assurancefirst.nl,Verleend
 13020203,Audit Claro B.V.,Besloten Vennootschap,Zeddam,nee,2025-08-05,,Verleend
 13020204,WAG & Partners B.V.,Besloten Vennootschap,Capelle aan den IJssel,nee,2025-07-01,https://www.wag-partners.nl,Verleend
-13020205,Valid+ B.V.,Besloten Vennootschap,'s-Gravenhage,nee,2025-08-20,https://www.validplusaudit.nl,Verleend
+13020205,Valid+ B.V.,Besloten Vennootschap,Rijswijk,nee,2025-08-20,https://www.validplusaudit.nl,Verleend
 13020206,WSH Accountants Audit B.V.,Besloten Vennootschap,Hoofddorp,nee,2025-08-06,https://wshaudit.nl,Verleend
 13020209,Accura B.V.,Besloten Vennootschap,Dirksland,nee,2025-08-28,https://www.accura.nl,Verleend
 13020210,Nexum Accountants B.V.,Besloten Vennootschap,Roermond,nee,2025-09-09,https://www.nexumaccountants.nl,Verleend
@@ -226,9 +226,9 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020218,Prime Auditing & Assurance B.V.,Besloten Vennootschap,Rotterdam,nee,2026-06-29,,Verleend
 13020221,Statements Assurance & Advisory B.V.,Besloten Vennootschap,'s-Gravenhage,nee,2026-01-23,https://www.statements.nl,Verleend
 13020222,NBM Assurance B.V.,Besloten Vennootschap,Diemen,nee,2026-01-08,https://www.nbm-finance.nl,Verleend
-13020223,4impact Audit B.V.,Besloten Vennootschap,Rotterdam,nee,2026-04-09,,Verleend
+13020223,4impact Audit B.V.,Besloten Vennootschap,Capelle aan den IJssel,nee,2026-04-09,,Verleend
 13020224,Strik en Van der Weide Accountants B.V.,Besloten Vennootschap,Zwolle,nee,2026-03-16,,Verleend
 13020225,STUDIOAMS B.V.,Besloten Vennootschap,Amsterdam,nee,2026-05-05,,Verleend
 13020227,AccountantZijn B.V.,Besloten Vennootschap,Amersfoort,nee,2026-07-16,https://www.accountantzijn.nl,Verleend
-13020228,CROP accountants & adviseurs,Besloten Vennootschap,Amersfoort,nee,2026-05-19,,Verleend
+13020228,CROP accountants & adviseurs B.V.,Besloten Vennootschap,Amersfoort,nee,2026-05-19,,Verleend
 13020231,SRL Audit & Assurance B.V.,Besloten Vennootschap,Middelharnis,nee,2026-07-23,,Verleend
