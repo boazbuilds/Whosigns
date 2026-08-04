@@ -1,23 +1,47 @@
 /* WhoSigns — opmaak
  *
  * Bewust één bestand met gewone CSS en Nederlandse klassenamen, geen framework.
- * Reden: de pagina's zijn dichte tabellen (Transfermarkt-achtig), daar heb je
- * weinig voor nodig, en zo blijft het leesbaar voor wie geen developer is.
- * Guardrail uit docs/concept.md §9: geen afhankelijkheden zonder noodzaak.
+ * Reden: de pagina's zijn dichte tabellen, daar heb je weinig voor nodig, en zo
+ * blijft het leesbaar voor wie geen developer is. Guardrail uit docs/concept.md
+ * §9: geen afhankelijkheden zonder noodzaak.
+ *
+ * De vorm is die van een gedrukt jaarboek: inkt op papier, haarlijnen als
+ * scheiding, geen zwevende kaarten met schaduw, geen ronde hoeken. Dat is een
+ * keuze tégen de standaardvorm van dashboards — een register hoort eruit te
+ * zien als een register. Praktisch betekent het: rechte randen, één haarlijn
+ * per scheiding, cijfers in tabelstand, en kleur alleen waar hij iets betekent.
+ *
+ * Opbouw: tokens · raamwerk · titelkop · rubrieken · bouwstenen · tabellen ·
+ * wapens · ranglijsten · tegels · labels · doorklikken · responsief.
  */
 
 :root {
-  --inkt: #16191d;
-  --inkt-zacht: #5c6570;
-  --lijn: #e3e6ea;
-  --lijn-sterk: #c9ced6;
-  --vlak: #f7f8fa;
-  --wit: #ffffff;
-  --link: #12507e;
-  --accent: #0b6b52;
-  --waarschuwing: #9a4b06;
-  --waarschuwing-vlak: #fdf3e7;
-  --breedte: 62rem;
+  /* Papier en inkt */
+  --papier: #f2eee4;
+  --papier-diep: #e7e1d3;
+  --vel: #fbf9f4;
+  --inkt: #191510;
+  --inkt-zacht: #5f574a;
+  --inkt-flauw: #8b8272;
+
+  /* Lijnen: haarlijn, en een zwaardere voor koppen en scheidingen */
+  --lijn: #ddd5c5;
+  --lijn-sterk: #b6ab94;
+
+  /* Rood van de handtekening: het enige accent, en dus zeldzaam */
+  --rood: #a32b18;
+  --rood-flauw: #f2e2dd;
+  --groen: #1f5c3d;
+  --waarschuwing: #8a4b12;
+  --waarschuwing-vlak: #f7ecd9;
+  --waarschuwing-lijn: #ddc49b;
+
+  --breedte: 76rem;
+
+  /* Letters: zie app/layout.tsx voor waarom deze twee. */
+  --serif: var(--letter-serif), "Iowan Old Style", Palatino, Georgia, serif;
+  --tekst: var(--letter-tekst), ui-sans-serif, system-ui, "Segoe UI", Roboto,
+    Arial, sans-serif;
 }
 
 * {
@@ -26,45 +50,72 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  background: var(--vlak);
+  background: var(--papier);
   color: var(--inkt);
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--tekst);
   /* In rem, niet px: wie in de browser een grotere standaardletter instelt,
      krijgt die dan ook hier — met 15px schaalden alleen de koppen mee. */
   font-size: 0.9375rem;
-  line-height: 1.55;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  /* Tabelcijfers overal: in een register horen kolommen getallen uit te lijnen. */
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
 }
 
+/* Links dragen geen streep. Op een register is bijna alles een link; ze
+   allemaal onderstrepen maakt van een tabel een gordijn. Ze zijn te herkennen
+   aan de inkt en verraden zich bij het zweven — behalve in lopende tekst,
+   waar een link tússen woorden staat en dus wél een streep verdient. */
 a {
-  color: var(--link);
+  color: var(--inkt);
   text-decoration: none;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
 }
 a:hover {
+  color: var(--rood);
   text-decoration: underline;
+  text-decoration-color: var(--rood);
+}
+.samenvatting a,
+.colofon-binnen p a,
+main > p a {
+  text-decoration: underline;
+  text-decoration-color: var(--lijn-sterk);
 }
 
 h1,
 h2,
 h3 {
-  line-height: 1.25;
   margin: 0;
 }
 h1 {
-  font-size: 1.6rem;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
 }
+/* Rubriekkop: kleinkapitaal met een haarlijn die doorloopt tot de rand — de
+   streep onder een kopje in een gedrukte tabel. */
 h2 {
-  font-size: 1.05rem;
-  letter-spacing: 0.02em;
+  font-family: var(--tekst);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--inkt-zacht);
+  line-height: 1.4;
 }
 h3 {
   font-size: 1rem;
+  font-weight: 600;
 }
 
 /* ------------------------------------------------------------ raamwerk */
@@ -72,117 +123,390 @@ h3 {
 .omhulsel {
   max-width: var(--breedte);
   margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.kop {
-  background: var(--wit);
-  border-bottom: 1px solid var(--lijn);
-}
-.kop-binnen {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.75rem 1.25rem;
-  padding-block: 0.7rem;
-}
-.merk {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--inkt);
-  letter-spacing: -0.01em;
-}
-.merk:hover {
-  text-decoration: none;
-}
-.kop-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-left: auto;
-  font-size: 0.9rem;
-}
-
-.zoekbalk {
-  display: flex;
-  gap: 0.4rem;
-  flex: 1 1 16rem;
-  min-width: 12rem;
-}
-.zoekbalk input {
-  flex: 1;
-  min-width: 0;
-  padding: 0.45rem 0.6rem;
-  border: 1px solid var(--lijn-sterk);
-  border-radius: 4px;
-  font: inherit;
-  font-size: 0.9rem;
-  background: var(--wit);
-  color: inherit;
-}
-.zoekbalk input:focus {
-  outline: 2px solid var(--link);
-  outline-offset: -1px;
-}
-.zoekbalk button {
-  padding: 0.45rem 0.9rem;
-  border: 1px solid var(--link);
-  border-radius: 4px;
-  background: var(--link);
-  color: var(--wit);
-  font: inherit;
-  font-size: 0.9rem;
-  cursor: pointer;
+  padding: 0 1.25rem;
 }
 
 main {
   padding-block: 1.5rem 3rem;
 }
 
+/* ------------------------------------------------------------ titelkop */
+
+.titelkop {
+  background: var(--papier);
+  border-bottom: 1px solid var(--lijn);
+}
+.titelkop-binnen {
+  padding-block: 1.4rem 1rem;
+}
+.merk {
+  display: inline-block;
+  font-family: var(--serif);
+  font-size: 2.6rem;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  color: var(--inkt);
+  text-decoration: none;
+}
+.merk:hover {
+  color: var(--inkt);
+}
+.merk em {
+  font-style: italic;
+  color: var(--rood);
+}
+.ondertitel {
+  margin: 0.35rem 0 0;
+  font-size: 0.86rem;
+  letter-spacing: 0.02em;
+  color: var(--inkt-zacht);
+}
+/* Datumregel: dunne bovenlijn en kleinkapitaal, zoals de regel onder de kop
+   van een krant. */
+.datumregel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem 0.9rem;
+  margin: 0.7rem 0 0;
+  padding-top: 0.45rem;
+  border-top: 1px solid var(--lijn);
+  font-size: 0.7rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--inkt-flauw);
+}
+.datumregel > span:not(:last-child)::after {
+  content: "·";
+  margin-left: 0.9rem;
+  color: var(--lijn-sterk);
+}
+
+/* ------------------------------------------------------------ rubrieken */
+
+/* De balk met rubrieken blijft plakken; de titelkop erboven scrollt weg. */
+.rubrieken {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--inkt);
+  color: var(--papier);
+}
+.rubrieken-binnen {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem 1.5rem;
+}
+
+.hoofdmenu-balk {
+  min-width: 0;
+}
+.hoofdmenu {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.hoofdmenu > li {
+  position: relative;
+}
+.hoofdmenu > li > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.62rem 0.95rem;
+  color: var(--papier);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+}
+.hoofdmenu > li:first-child > a {
+  padding-left: 0;
+}
+.hoofdmenu > li > a:hover,
+.hoofdmenu > li:focus-within > a {
+  color: var(--papier);
+  border-bottom-color: var(--rood);
+}
+.hoofdmenu > li.heeft-uitklap > a::after {
+  content: "▾";
+  font-size: 0.6rem;
+  color: var(--inkt-flauw);
+}
+
+.uitklap {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 16rem;
+  background: var(--vel);
+  color: var(--inkt);
+  border: 1px solid var(--lijn-sterk);
+  border-top: 2px solid var(--rood);
+  padding: 0.2rem 0;
+  list-style: none;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.1s ease, visibility 0.1s;
+}
+.hoofdmenu > li:hover > .uitklap,
+.hoofdmenu > li:focus-within > .uitklap {
+  opacity: 1;
+  visibility: visible;
+}
+.uitklap a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.4rem 0.9rem;
+  color: var(--inkt);
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+.uitklap a:hover {
+  background: var(--papier-diep);
+  color: var(--rood);
+}
+.uitklap .telling {
+  color: var(--inkt-flauw);
+  font-size: 0.78rem;
+}
+.uitklap hr {
+  border: none;
+  border-top: 1px solid var(--lijn);
+  margin: 0.25rem 0;
+}
+
+/* Zoekregel in de donkere rubriekenbalk: één onderlijn, geen doosje. */
+.zoekbalk {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1 1 12rem;
+  min-width: 8rem;
+  margin-left: auto;
+}
+.zoekbalk input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.3rem 0.1rem;
+  border: none;
+  border-bottom: 1px solid rgba(242, 238, 228, 0.35);
+  border-radius: 0;
+  font: inherit;
+  font-size: 0.85rem;
+  background: transparent;
+  color: var(--papier);
+}
+.zoekbalk input::placeholder {
+  color: rgba(242, 238, 228, 0.5);
+}
+.zoekbalk input:focus {
+  outline: none;
+  border-bottom-color: var(--rood);
+}
+.zoekbalk button {
+  padding: 0.25rem 0.7rem;
+  border: 1px solid rgba(242, 238, 228, 0.4);
+  border-radius: 0;
+  background: transparent;
+  color: var(--papier);
+  font: inherit;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.zoekbalk button:hover {
+  background: var(--rood);
+  border-color: var(--rood);
+}
+
+/* ------------------------------------------------------------ kruimels */
+
+.kruimels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--inkt-flauw);
+  margin-bottom: 0.9rem;
+}
+.kruimels a {
+  color: var(--inkt-zacht);
+  text-decoration: none;
+}
+.kruimels a:hover {
+  color: var(--rood);
+}
+.kruimels span:not(:last-child)::after {
+  content: "/";
+  margin-left: 0.35rem;
+  color: var(--lijn-sterk);
+}
+
 /* ------------------------------------------------------------ bouwstenen */
 
+/* Een vel papier: haarlijn eromheen, rechte hoeken, geen schaduw. */
 .kaart {
-  background: var(--wit);
+  background: var(--vel);
   border: 1px solid var(--lijn);
-  border-radius: 6px;
-  padding: 1rem 1.1rem;
+  padding: 0.95rem 1.1rem 1.1rem;
   margin-bottom: 1.1rem;
 }
-.kaart > h2 {
-  margin-bottom: 0.7rem;
+/* De rubriekkop met een lijn die doorloopt tot de rechterrand. */
+.kaart > h2,
+.kaartkop {
+  display: flex;
+  align-items: baseline;
+  /* Afbreken toegestaan: de verwijzing rechts ("Hele ranglijst →") mag niet
+     breken en duwde daarmee op een telefoon de hele pagina open. */
+  flex-wrap: wrap;
+  gap: 0.15rem 0.9rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--lijn-sterk);
+}
+.kaart > h2::after {
+  content: "";
+  flex: 1;
+}
+.kaartkop h2 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex: 0 0 auto;
+}
+.kaartkop::after {
+  content: "";
+  flex: 1;
+}
+.kaartkop > :last-child {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .paginakop {
-  background: var(--wit);
-  border: 1px solid var(--lijn);
-  border-radius: 6px;
-  padding: 1.1rem 1.1rem 0.9rem;
-  margin-bottom: 1.1rem;
+  border-bottom: 2px solid var(--inkt);
+  padding-bottom: 1rem;
+  margin-bottom: 1.3rem;
 }
 .paginakop h1 {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
+/* Kop met een wapen ernaast (kantoorpagina). */
+.paginakop-met-wapen {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+}
+.paginakop-met-wapen > div {
+  min-width: 0;
+  flex: 1;
+}
+
 .metaregel {
   color: var(--inkt-zacht);
-  font-size: 0.88rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.15rem 0.6rem;
+  gap: 0.15rem 0.7rem;
+  margin: 0;
 }
 .metaregel > span:not(:last-child)::after {
   content: "·";
-  margin-left: 0.6rem;
+  margin-left: 0.7rem;
   color: var(--lijn-sterk);
 }
 
 .samenvatting {
-  margin-top: 0.85rem;
-  padding-top: 0.85rem;
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
   border-top: 1px solid var(--lijn);
-  font-size: 1.02rem;
+  font-size: 1.05rem;
 }
 .samenvatting strong {
-  font-weight: 650;
+  font-weight: 600;
+}
+
+/* Feitenlijstje op een profielpagina: label boven, waarde eronder. */
+.feiten {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.9rem 1.4rem;
+  margin: 0;
+}
+.feiten > div {
+  min-width: 0;
+}
+.feiten dt {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--inkt-flauw);
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+.feiten dd {
+  margin: 0;
+  font-size: 0.95rem;
+  overflow-wrap: anywhere;
+}
+
+/* Kerncijfers: grote schreefletters met een kleinkapitaal onderschrift,
+   gescheiden door verticale haarlijnen — een cijferreeks uit een jaarboek. */
+.kerncijfers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  border-top: 1px solid var(--lijn);
+}
+.kerncijfer {
+  flex: 1 1 7rem;
+  min-width: 6.5rem;
+  padding: 0.6rem 1rem 0.2rem 0;
+  margin-right: 1rem;
+  border-right: 1px solid var(--lijn);
+  color: inherit;
+  text-decoration: none;
+}
+.kerncijfer:last-child {
+  border-right: none;
+}
+.kerncijfer .waarde {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.9rem;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+.kerncijfer .naam {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--inkt-flauw);
+}
+a.kerncijfer:hover {
+  color: var(--rood);
+}
+a.kerncijfer:hover .naam {
+  color: var(--rood);
 }
 
 /* ------------------------------------------------------------ tabellen */
@@ -190,112 +514,342 @@ main {
 table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.92rem;
+  font-size: 0.88rem;
 }
 caption {
   text-align: left;
   color: var(--inkt-zacht);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   padding-bottom: 0.5rem;
 }
 th {
   text-align: left;
   font-weight: 600;
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
+  font-size: 0.66rem;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
-  color: var(--inkt-zacht);
-  border-bottom: 1px solid var(--lijn-sterk);
-  padding: 0.35rem 0.5rem;
+  color: var(--inkt-flauw);
+  border-bottom: 1px solid var(--inkt);
+  padding: 0.3rem 0.55rem 0.3rem 0;
   white-space: nowrap;
 }
 td {
-  padding: 0.45rem 0.5rem;
+  padding: 0.38rem 0.55rem 0.38rem 0;
   border-bottom: 1px solid var(--lijn);
-  vertical-align: top;
+  vertical-align: baseline;
+}
+th:last-child,
+td:last-child {
+  padding-right: 0;
 }
 tbody tr:last-child td {
   border-bottom: none;
 }
 tbody tr:hover {
-  background: var(--vlak);
+  background: var(--papier-diep);
 }
 .jaar {
-  font-variant-numeric: tabular-nums;
   white-space: nowrap;
   width: 1%;
   color: var(--inkt-zacht);
 }
 .getal {
-  font-variant-numeric: tabular-nums;
   text-align: right;
   white-space: nowrap;
 }
 .tabel-omhulsel {
   overflow-x: auto;
 }
-
-/* Rij waarin van accountant is gewisseld. */
-tr.wissel td {
-  background: var(--waarschuwing-vlak);
+/* Naam plus wapen in één cel.
+   De bodembreedte is er voor smalle schermen: zonder die grens perste de
+   browser "Verstegen" tot één letter per regel om de tabel binnen 390px te
+   wringen. Nu houdt de kolom zijn breedte en schuift de tabel in zijn eigen
+   kader (.tabel-omhulsel) mee — zoals het bij een ranglijst hoort. */
+.naamcel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 10rem;
 }
-tr.wissel:hover td {
-  background: #f9ead9;
+.naamcel > a {
+  min-width: 0;
+  overflow-wrap: break-word;
+  text-decoration: none;
+}
+.naamcel > a:hover {
+  text-decoration: underline;
+}
+
+/* Rij waarin van accountant is gewisseld: een rood streepje in de kantlijn,
+   geen gekleurd vlak. Kleur over een hele rij maakt een tabel onleesbaar. */
+tr.wissel td:first-child {
+  box-shadow: inset 3px 0 0 var(--rood);
+  padding-left: 0.5rem;
 }
 
 /* Rij met een inhoudelijke beperking (grond = jaarrekening) op /bevindingen.
-   Eigen kleur: oranje betekent op de rest van de site "gewisseld", en dezelfde
-   kleur voor twee betekenissen leert de lezer het verkeerde. */
-tr.bevinding td {
-  background: #fdecec;
+   Eigen markering: het streepje uit de kantlijn is hier zwart, want rood
+   betekent op de rest van de site "gewisseld". */
+tr.bevinding td:first-child {
+  box-shadow: inset 3px 0 0 var(--inkt);
+  padding-left: 0.5rem;
 }
-tr.bevinding:hover td {
-  background: #f9dcdc;
+
+/* ------------------------------------------------------------ wapens */
+
+/* Het schildje van een kantoor; zie lib/wapen.ts voor de kleuren. Vierkant met
+   een minieme afronding: een gedrukt stempel, geen app-pictogram. */
+.wapen {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border-radius: 2px;
+  color: var(--vel);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  /* Géén text-transform: het monogram staat al in de juiste schrijfwijze en
+     "PwC" hoort geen "PWC" te worden. */
+  overflow: hidden;
+}
+.wapen-s {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.58rem;
+}
+.wapen-m {
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.74rem;
+}
+.wapen-l {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.02rem;
+}
+.wapen-xl {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.3rem;
+  border-radius: 3px;
+}
+
+/* ------------------------------------------------------------ ranglijst */
+
+/* Het nummer voor een rij: een schreefcijfer in de kantlijn, geen gekleurde
+   schijf. De top drie krijgt rood — verder niets. */
+.rang {
+  display: inline-block;
+  min-width: 1.4rem;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  line-height: 1;
+  color: var(--inkt-flauw);
+  text-align: right;
+}
+.rang-1,
+.rang-2,
+.rang-3 {
+  color: var(--rood);
+}
+td.rangcel {
+  width: 1%;
+  padding-right: 0.6rem;
+  white-space: nowrap;
+}
+
+/* Marktaandeelbalk: een rechte inktbalk, geen pilletje. */
+.balk {
+  display: block;
+  flex: 1;
+  height: 8px;
+  background: var(--papier-diep);
+  border: 1px solid var(--lijn);
+  overflow: hidden;
+  min-width: 3rem;
+}
+.balk > span {
+  display: block;
+  height: 100%;
+  background: var(--inkt);
+}
+.balkcel {
+  width: 30%;
+  min-width: 5rem;
+}
+.balkregel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.balkregel .pct {
+  font-size: 0.78rem;
+  color: var(--inkt-zacht);
+  min-width: 2.7rem;
+  text-align: right;
+}
+
+/* ------------------------------------------------------------ kop van de lijst */
+
+/* De top drie, als de kop van een gedrukte ranglijst: rangcijfer in de
+   kantlijn, naam, en het aantal rechts. Gescheiden door haarlijnen. */
+.podium {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0 1.75rem;
+}
+.podiumplek {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--lijn);
+  color: inherit;
+  text-decoration: none;
+}
+.podiumplek:hover {
+  color: var(--rood);
+}
+.podiumplek::before {
+  content: "";
+  align-self: stretch;
+  width: 3px;
+  background: var(--lijn-sterk);
+}
+.podiumplek.plek-1::before {
+  background: var(--rood);
+}
+.podiumplek.plek-2::before {
+  background: var(--inkt);
+}
+.podiumplek.plek-3::before {
+  background: var(--inkt-flauw);
+}
+.podiumplek .naam {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.25;
+  overflow-wrap: break-word;
+}
+.podiumplek .onder {
+  color: var(--inkt-zacht);
+  font-size: 0.76rem;
+}
+.podiumplek .groot {
+  margin-left: auto;
+  font-family: var(--serif);
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+/* ------------------------------------------------------------ tegels */
+
+/* Ingangen naar een sector: geen zwevende kaarten maar vakken met een
+   haarlijn ertussen, als de rubrieken in een inhoudsopgave. */
+.tegels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--lijn);
+}
+.tegel {
+  display: block;
+  padding: 0.9rem 1.25rem 1rem 0;
+  margin-right: 1.25rem;
+  border-bottom: 1px solid var(--lijn);
+  border-right: 1px solid var(--lijn);
+  color: inherit;
+  text-decoration: none;
+}
+.tegel:hover {
+  background: var(--papier-diep);
+}
+/* De laatste tegel raakt de rand van het vel; daar zou zijn kolomlijn een
+   dubbele streep maken met de rand zelf. */
+.tegel:last-child {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.tegel .tegelnaam {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.15;
+  margin-bottom: 0.25rem;
+}
+.tegel:hover .tegelnaam {
+  color: var(--rood);
+}
+.tegel .tegelmeta {
+  display: block;
+  color: var(--inkt-zacht);
+  font-size: 0.83rem;
+  line-height: 1.45;
+}
+/* Rijtje wapens onderin een sectortegel: wie is hier de baas. */
+.tegelwapens {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.7rem;
 }
 
 /* ------------------------------------------------------------ labels */
 
 .label {
   display: inline-block;
-  font-size: 0.78rem;
-  line-height: 1.5;
+  font-size: 0.66rem;
+  line-height: 1.6;
   padding: 0 0.4rem;
-  border-radius: 3px;
   border: 1px solid var(--lijn-sterk);
   color: var(--inkt-zacht);
-  background: var(--vlak);
+  background: transparent;
   white-space: nowrap;
-}
-.label-let-op {
-  border-color: #e6c9a3;
-  background: var(--waarschuwing-vlak);
-  color: var(--waarschuwing);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   font-weight: 600;
 }
+.label-let-op {
+  border-color: var(--rood);
+  background: var(--rood-flauw);
+  color: var(--rood);
+}
 .label-oob {
-  border-color: #bcd9cf;
-  background: #eef7f3;
-  color: var(--accent);
+  border-color: var(--inkt);
+  color: var(--inkt);
 }
 .zacht {
   color: var(--inkt-zacht);
 }
 .klein {
-  font-size: 0.85rem;
+  font-size: 0.83rem;
+}
+
+/* Winst/verlies, zoals een transfersaldo. */
+.saldo {
+  font-weight: 600;
+}
+.saldo-plus {
+  color: var(--groen);
+}
+.saldo-min {
+  color: var(--rood);
 }
 
 /* ------------------------------------------------------- inklapbare staart */
 
-/* De staart van een lange lijst; zie components/onderdelen.tsx. */
 .inklapbaar {
   border-top: 1px solid var(--lijn);
   margin-top: 0.2rem;
 }
 .inklapbaar > summary {
   cursor: pointer;
-  padding: 0.55rem 0;
-  color: var(--link);
-  font-size: 0.9rem;
+  padding: 0.5rem 0;
+  color: var(--inkt-zacht);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
   /* Eigen driehoekje in plaats van de standaard van de browser, zodat het er in
      Safari en Chrome hetzelfde uitziet. */
   list-style: none;
@@ -304,18 +858,19 @@ tr.bevinding:hover td {
   display: none;
 }
 .inklapbaar > summary::before {
-  content: "▸";
-  color: var(--inkt-zacht);
-  margin-right: 0.45rem;
+  content: "+";
+  color: var(--rood);
+  margin-right: 0.5rem;
+  font-weight: 600;
 }
 .inklapbaar[open] > summary::before {
-  content: "▾";
+  content: "–";
 }
 .inklapbaar > summary:hover {
-  text-decoration: underline;
+  color: var(--rood);
 }
 .inklapbaar > summary:focus-visible {
-  outline: 2px solid var(--link);
+  outline: 2px solid var(--rood);
   outline-offset: 2px;
 }
 
@@ -324,70 +879,118 @@ tr.bevinding:hover td {
 .letterbalk {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.15rem 0.35rem;
-  margin: 0.8rem 0 0;
+  gap: 0;
+  margin: 0.9rem 0 0;
+  border: 1px solid var(--lijn);
 }
 .letterbalk a {
-  min-width: 1.75rem;
+  min-width: 1.9rem;
   padding: 0.2rem 0.35rem;
-  border: 1px solid var(--lijn);
-  border-radius: 4px;
-  background: var(--wit);
+  border-right: 1px solid var(--lijn);
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-decoration: none;
 }
+.letterbalk a:last-child {
+  border-right: none;
+}
 .letterbalk a:hover {
-  border-color: var(--lijn-sterk);
-  background: var(--vlak);
+  background: var(--inkt);
+  color: var(--papier);
 }
 
-/* Ademruimte boven een kaart waar een letterlink naartoe springt. */
+/* Zodat een letter niet onder de rubriekenbalk landt na een sprong. */
 .kaart[id] {
-  scroll-margin-top: 1rem;
+  scroll-margin-top: 3.5rem;
+}
+
+/* --------------------------------------------------------------- keuzebalk */
+
+/* Rij knoppen om een boekjaar te kiezen: aaneengesloten vakjes, als de
+   jaartallenrand van een register. */
+.keuzebalk {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-bottom: 1rem;
+  border: 1px solid var(--lijn-sterk);
+  width: fit-content;
+  max-width: 100%;
+}
+.keuzebalk a {
+  padding: 0.3rem 0.8rem;
+  border-right: 1px solid var(--lijn-sterk);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--inkt-zacht);
+  text-decoration: none;
+}
+.keuzebalk a:last-child {
+  border-right: none;
+}
+.keuzebalk a:hover {
+  background: var(--papier-diep);
+  color: var(--rood);
+}
+.keuzebalk a.actief {
+  background: var(--inkt);
+  color: var(--papier);
 }
 
 /* ------------------------------------------------------------ doorklikken */
 
 /* De harde UI-regel uit docs/visie.md: elke pagina minimaal 5 vervolgklikken. */
 .doorklik {
-  background: var(--wit);
-  border: 1px solid var(--lijn);
-  border-radius: 6px;
-  padding: 1rem 1.1rem;
+  border-top: 2px solid var(--inkt);
+  padding-top: 0.9rem;
+}
+.doorklik > h2 {
+  border: none;
+  padding: 0;
+  margin-bottom: 0.6rem;
 }
 .doorklik ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
-  gap: 0.1rem 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0 1.75rem;
 }
 .doorklik li {
-  padding: 0.3rem 0;
+  padding: 0.32rem 0;
   border-bottom: 1px solid var(--lijn);
+  font-size: 0.88rem;
 }
 .doorklik li::before {
   content: "→";
-  color: var(--inkt-zacht);
+  color: var(--lijn-sterk);
   margin-right: 0.45rem;
 }
 
 .kolommen {
   display: grid;
-  /* min(19rem, 100%): een kale 19rem is een harde ondergrens en gaf op
-     schermen smaller dan ~336px een horizontale scrollbalk over de hele pagina. */
-  grid-template-columns: repeat(auto-fit, minmax(min(19rem, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
   gap: 1.1rem;
   align-items: start;
+  margin-bottom: 1.1rem;
 }
 .kolommen > .kaart {
   margin-bottom: 0;
-  /* Zonder dit mag een gridkaart nooit smaller dan zijn breedste tabelregel
-     (min-width van een grid-item is "auto") — dan schuift op een telefoon de
-     hele pagina opzij in plaats van dat de tabel ín de kaart scrolt. */
+  min-width: 0;
+}
+/* Twee kolommen waarvan de eerste breder is (hoofdinhoud naast zijkolom). */
+.kolommen-breed-smal {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 1.1rem;
+  align-items: start;
+  margin-bottom: 1.1rem;
+}
+.kolommen-breed-smal > .kaart {
+  margin-bottom: 0;
   min-width: 0;
 }
 
@@ -397,10 +1000,10 @@ tr.bevinding:hover td {
 }
 
 .foutvlak {
-  border: 1px solid #e6c9a3;
-  background: var(--waarschuwing-vlak);
-  color: var(--waarschuwing);
-  border-radius: 6px;
+  border: 1px solid var(--rood);
+  border-left-width: 3px;
+  background: var(--rood-flauw);
+  color: var(--rood);
   padding: 1rem 1.1rem;
   margin-bottom: 1.1rem;
 }
@@ -409,19 +1012,98 @@ tr.bevinding:hover td {
   word-break: break-all;
 }
 
-/* ------------------------------------------------------------ afdrukken */
+/* ------------------------------------------------------------- colofon */
 
-@media print {
-  .kop-menu,
-  .zoekbalk,
-  .doorklik {
-    display: none;
+.colofon {
+  border-top: 1px solid var(--lijn-sterk);
+  background: var(--papier);
+  color: var(--inkt-zacht);
+  font-size: 0.82rem;
+  padding-block: 1.4rem 2.5rem;
+}
+.colofon-binnen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem 3rem;
+  align-items: flex-start;
+}
+.colofon-binnen > div {
+  flex: 1 1 22rem;
+  max-width: 34rem;
+}
+.colofon p {
+  margin: 0 0 0.4rem;
+}
+.colofon-titel {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  color: var(--inkt);
+}
+.colofon nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-left: auto;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.colofon nav a {
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------ responsief */
+
+@media (max-width: 62rem) {
+  .kolommen-breed-smal {
+    grid-template-columns: minmax(0, 1fr);
   }
-  /* Browsers laten achtergronden weg op papier; de rand houdt het signaal. */
-  tr.wissel td {
-    border-left: 3px solid var(--waarschuwing);
+}
+
+@media (max-width: 52rem) {
+  .rubrieken-binnen {
+    flex-wrap: wrap;
+    padding-block: 0.35rem;
   }
-  tr.bevinding td {
-    border-left: 3px solid #b23b3b;
+  /* Menu op een eigen regel en afbrekend in plaats van scrollend: een
+     scrollende balk zou de uitklapper afknippen. */
+  .hoofdmenu-balk {
+    order: 1;
+    flex-basis: 100%;
+  }
+  .zoekbalk {
+    order: 2;
+    flex-basis: 100%;
+    margin-left: 0;
+    padding-bottom: 0.35rem;
+  }
+  /* Een uitklapper die half buiten beeld valt is onbruikbaar; op smalle
+     schermen rechts uitlijnen zodat hij binnen het venster blijft. */
+  .hoofdmenu > li:last-child .uitklap {
+    left: auto;
+    right: 0;
+  }
+  .merk {
+    font-size: 2.1rem;
+  }
+  h1 {
+    font-size: 1.85rem;
+  }
+  .tegel {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .kerncijfer {
+    flex-basis: 45%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition: none !important;
   }
 }

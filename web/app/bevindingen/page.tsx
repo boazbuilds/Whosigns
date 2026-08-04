@@ -8,7 +8,14 @@ import {
   sectorPad,
   subsectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg, Oordeel } from "@/components/onderdelen";
+import {
+  Doorklik,
+  Foutmelding,
+  Kerncijfer,
+  Kruimels,
+  Leeg,
+  Oordeel,
+} from "@/components/onderdelen";
 
 export const metadata: Metadata = {
   title: "Niet-goedkeurende oordelen en continuïteit",
@@ -47,18 +54,22 @@ export default async function Bevindingenpagina() {
 
   return (
     <>
+      <Kruimels paden={[{ naar: "/", tekst: "Start" }, { tekst: "Oordelen" }]} />
+
       <div className="paginakop">
         <h1>Waar was het oordeel niet goedkeurend?</h1>
-        <p className="zacht" style={{ margin: "0.4rem 0 0", maxWidth: "44rem" }}>
+        <p className="zacht klein" style={{ margin: "0.4rem 0 0", maxWidth: "44rem" }}>
           Elk oordeel met beperking, elke oordeelonthouding en elk afkeurend oordeel
           dat we in een gedeponeerde verklaring lazen — plus elke verklaring met een
           paragraaf over continuïteit.
         </p>
-        <p className="metaregel" style={{ marginTop: "0.7rem" }}>
-          <span>{nietGoedkeurend.length} niet-goedkeurende oordelen</span>
-          <span>{continuiteit.length} keer continuïteit genoemd</span>
-          <span>{jaren.length} boekjaren</span>
-        </p>
+        <div className="kerncijfers">
+          <Kerncijfer waarde={nietGoedkeurend.length} naam="niet-goedkeurend" />
+          <Kerncijfer waarde={continuiteit.length} naam="continuïteit genoemd" />
+          <Kerncijfer waarde={wnt.length} naam="grond: WNT" />
+          <Kerncijfer waarde={inhoudelijk.length} naam="inhoudelijk" />
+          <Kerncijfer waarde={jaren.length} naam="boekjaren" />
+        </div>
       </div>
 
       {/* Zonder deze uitleg leest een bezoeker in "oordeel met beperking" iets wat er
