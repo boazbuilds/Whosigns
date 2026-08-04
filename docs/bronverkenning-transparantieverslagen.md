@@ -36,7 +36,14 @@ van elke lijst:
 | Forvis Mazars 2023/2024 | 76 | branchekopjes tussen de namen |
 | PwC 2024/2025 | 122 | apart bijlagen-pdf; voetnoten dwars door de lijst |
 
-Totaal 748 cliëntregels. PwC's bijlage was niet vindbaar via de site
+Totaal 748 cliëntregels. **Tweede ronde (4-8-2026):** acht oudere jaargangen
+toegevoegd en gemeten — Deloitte 2019/2020 t/m 2023/2024 (125, 125, 129, 129
+en 124 namen; de oudere jaren dragen de kop "PIEs audited"), EY 2022/2023
+(138), KPMG 2023/2024 (117) en PwC 2021/2022 (140, bijlagen-pdf met de
+Nederlandse kop "Lijst van organisaties van openbaar belang", die over twee
+regels gebroken kan zijn). Samen 1.675 cliëntregels over vijftien verslagen.
+Nog toe te voegen langs hetzelfde recept: BDO t/m 2022, EY 2023/2024, KPMG
+t/m 2022/2023, Mazars 2024/2025 en oudere jaren, PwC 2022/2023 en 2023/2024. PwC's bijlage was niet vindbaar via de site
 (scriptpagina); de link staat als URI-annotatie ín het hoofdverslag-pdf en is
 daar uitgelezen.
 

@@ -85,7 +85,8 @@ _RUIS = re.compile(
     r"statutory audit|wettelijke controle|alphabetical order|"
     r"list of|lijst van|appendix|bijlage|annexes|public.interest|"
     r"openbaar belang|pie clients|our partners|signed an audit|"
-    r"started work|fiscal year|financial year|following",
+    r"started work|fiscal year|financial year|following|"
+    r"accountantsorganisatie|niet zijnde",
     re.I,
 )
 
@@ -97,7 +98,8 @@ _VERVOLG = re.compile(r"^(?:\(|[a-z])")
 # Wat nooit bij een naam hoort, ook al begint het met een kleine letter: het
 # slotblok ("www.deloitte.com."), en de voetnoten van kwaliteitsindicatoren.
 _GEEN_VERVOLG = re.compile(
-    r"www\.|http|kpi|percentage|reporting|survey|practice note|document|^the\b", re.I
+    r"www\.|http|kpi|percentage|reporting|survey|practice note|document|^the\b|"
+    r"stelsel|kwaliteitsbeheersing|governance|indicatoren|handreiking|ontleend", re.I
 )
 
 
@@ -121,9 +123,16 @@ def namen_uit_verslag(tekst: str, kop: str) -> tuple[list[str], list[str]]:
     """
     regels = tekst.split("\n")
     kop_norm = normaliseer(kop)
-    starts = [
-        i for i, regel in enumerate(regels) if kop_norm and kop_norm in normaliseer(regel)
-    ]
+    starts = []
+    for i, regel in enumerate(regels):
+        if not kop_norm:
+            continue
+        if kop_norm in normaliseer(regel):
+            starts.append(i)
+        elif i + 1 < len(regels) and kop_norm in normaliseer(f"{regel} {regels[i + 1]}"):
+            # De kop kan over twee regels gebroken zijn: PwC 2021/2022 zet
+            # "Lijst van organisaties van" en "openbaar belang" onder elkaar.
+            starts.append(i + 1)
     if not starts:
         return [], [f"sectiekop niet gevonden: {kop}"]
 
@@ -147,8 +156,10 @@ def _lees_vanaf(regels: list[str], start: int) -> tuple[list[str], list[str]]:
         genormaliseerd = normaliseer(ruw)
         if _RUIS.search(ruw):
             # Een vólgende bijlage betekent: einde van de lijst.
+            # Spatie verplicht tussen "bijlage" en de letter: het losse woord
+            # "Bijlagen" in een zijbalk is geen volgende bijlage.
             if re.search(
-                r"appendix\s*[2-9]|bijlage\s*[b-z]\b|network organisations|"
+                r"appendix\s*[2-9]|bijlage\s+[b-z]\b|network organisations|"
                 r"audit quality indicators",
                 ruw,
                 re.I,
@@ -164,7 +175,13 @@ def _lees_vanaf(regels: list[str], start: int) -> tuple[list[str], list[str]]:
             # voetnoten van de kwaliteitsindicatoren dwars door de lijst heen,
             # dus proza betekent hier "overslaan", niet "stoppen": erna komen
             # gewoon weer cliënten.
-            if len(ruw) > 60 or len(f"{namen[-1]} {ruw}") > 90 or _GEEN_VERVOLG.search(ruw):
+            if (
+                len(ruw) > 60
+                or len(f"{namen[-1]} {ruw}") > 90
+                or _GEEN_VERVOLG.search(ruw)
+                or _EIGEN_NETWERK.search(ruw)
+                or _RUIS.search(ruw)
+            ):
                 wacht = None
                 continue
             namen[-1] = f"{namen[-1]} {ruw}"
@@ -190,11 +207,19 @@ def _lees_vanaf(regels: list[str], start: int) -> tuple[list[str], list[str]]:
             afgekeurd.append(ruw)
             leeg_op_rij += 1
             # Lang niets naamachtigs meer: de lijst is voorbij en we lezen
-            # inmiddels gewone verslagtekst.
-            if leeg_op_rij >= 10:
+            # inmiddels gewone verslagtekst. Vóór de eerste naam is het geduld
+            # groter: tussen de kop en de lijst staat bij PwC een volle
+            # zijbalk-inhoudsopgave.
+            if leeg_op_rij >= (10 if namen else 40):
                 break
             continue
         if len(genormaliseerd) < 4 or len(ruw) > 90:
+            afgekeurd.append(ruw)
+            continue
+        # Een regel geheel in kleine letters is nooit een cliëntnaam, wel een
+        # stukje voetnoot uit een smalle kolom ("verzekeringsmaatschappijen
+        # (niet" — afgebroken midden in "niet zijnde", dus per regel onherkenbaar).
+        if ruw.islower():
             afgekeurd.append(ruw)
             continue
         leeg_op_rij = 0
