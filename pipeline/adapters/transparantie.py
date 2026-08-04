@@ -52,13 +52,16 @@ KOPPEN = {"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"}
 # het droogloop-rapport) dan een halve naam opslaan.
 _NAAM_TOKEN = re.compile(
     r"\b(?:B\.?V\.?|N\.?V\.?|SE|U\.?A\.?|plc|Ltd|S\.?A\.?|SICAV|"
-    r"Stichting|Co[öo]peratie(?:ve)?|Onderlinge|Vereniging|"
+    r"Stichting|Co[öo]peratie(?:ve)?|Onderlinge|Vereniging|Organisatie|"
     r"Woningstichting|Woningbouwvereniging|Woonstichting|Wonen|"
     r"Bank|\w*verzekering\w*|Waarborgmaatschappij|Assurantie\w*|"
     r"Pensioenfonds|Fonds|Fund|Beleggingsfonds|"
     r"Holding|Groep|Group|Insurance|Finance|Financing|Treasury|Capital)\b",
     re.I,
 )
+# "Organisatie" alleen in het enkelvoud: het meervoud ("organisaties van
+# openbaar belang") is proza, het enkelvoud een naamsbestanddeel
+# ("Nederlandse organisatie voor wetenschappelijk onderzoek (NWO)").
 
 # Namen van het eigen netwerk zijn geen cliënten. De lijsten lopen in het pdf
 # soms door in een overzicht van member firms (BDO Duitsland, KPMG Oostenrijk);
@@ -85,7 +88,8 @@ _RUIS = re.compile(
     r"statutory audit|wettelijke controle|alphabetical order|"
     r"list of|lijst van|appendix|bijlage|annexes|public.interest|"
     r"openbaar belang|pie clients|our partners|signed an audit|"
-    r"started work|fiscal year|financial year|following",
+    r"started work|fiscal year|financial year|following|"
+    r"accountantsorganisatie|niet zijnde",
     re.I,
 )
 
@@ -97,7 +101,33 @@ _VERVOLG = re.compile(r"^(?:\(|[a-z])")
 # Wat nooit bij een naam hoort, ook al begint het met een kleine letter: het
 # slotblok ("www.deloitte.com."), en de voetnoten van kwaliteitsindicatoren.
 _GEEN_VERVOLG = re.compile(
-    r"www\.|http|kpi|percentage|reporting|survey|practice note|document|^the\b", re.I
+    r"www\.|http|kpi|percentage|reporting|survey|practice note|document|^the\b|"
+    r"stelsel|kwaliteitsbeheersing|governance|indicatoren|handreiking|ontleend|"
+    r"\bmanagement\b", re.I
+)
+
+# Een naam die eindigt op een los voorzetsel of lidwoord is nog niet af — de
+# rest staat op de regel eronder ("Nederlandse Financierings-Maatschappij
+# voor" + "Ontwikkelingslanden N.V."). "Onderlinge" idem: dat woord bungelt
+# alleen aan een regeleinde wanneer de naam daar is afgebroken ("Stad Holland
+# Zorgverzekeraar Onderlinge" + "Waarborgmaatschappij U.A.").
+_EINDIGT_OPEN = re.compile(
+    r"\b(?:voor|van|de|het|der|den|ten|ter|en|in|op|te|tot|aan|bij|"
+    r"of|for|and|the|onderlinge)$",
+    re.I,
+)
+
+# Een soortnaam plus rechtsvorm en verder niets ("Zorgverzekeraar U.A.",
+# "Waarborgmaatschappij U.A.") is geen organisatie maar de staart van een
+# afgebroken naam waarvan de eerste helft al als eigen regel is gelezen.
+# Zo'n staart is niet betrouwbaar alsnog aan die eerste helft te plakken —
+# de alfabetische volgorde van de lijsten bleek daarvoor te grillig (EY zet
+# kolommen om en om in de tekststroom, Deloitte sorteert "O.W.M." vóór
+# "Opel") — dus: afkeuren, nooit als losse organisatie opslaan.
+_LOSSE_STAART = re.compile(
+    r"^(?:Waarborgmaatschappij|Zorgverzekeraar|\w*[Vv]erzekering\w*|"
+    r"Assurantie\w*|Maatschappij|Pensioenfonds|Beleggingsfonds)"
+    r" (?:U\.?A\.?|B\.?V\.?|N\.?V\.?|B\.?A\.?|S\.?E\.?)$"
 )
 
 
@@ -108,6 +138,8 @@ def _schoon(regel: str) -> str:
     # "B BMW Finance N.V." -> "BMW Finance N.V.". Eén losse hoofdletter
     # gevolgd door een naam die met een hoofdletter of "(" begint.
     regel = re.sub(r"^[A-Z] (?=[A-Z(])", "", regel)
+    # Voetnootverwijzing achter de naam ("Stichting Vestia**") hoort er niet bij.
+    regel = re.sub(r"\s*\*+$", "", regel)
     return re.sub(r"\s+", " ", regel)
 
 
@@ -121,9 +153,16 @@ def namen_uit_verslag(tekst: str, kop: str) -> tuple[list[str], list[str]]:
     """
     regels = tekst.split("\n")
     kop_norm = normaliseer(kop)
-    starts = [
-        i for i, regel in enumerate(regels) if kop_norm and kop_norm in normaliseer(regel)
-    ]
+    starts = []
+    for i, regel in enumerate(regels):
+        if not kop_norm:
+            continue
+        if kop_norm in normaliseer(regel):
+            starts.append(i)
+        elif i + 1 < len(regels) and kop_norm in normaliseer(f"{regel} {regels[i + 1]}"):
+            # De kop kan over twee regels gebroken zijn: PwC 2021/2022 zet
+            # "Lijst van organisaties van" en "openbaar belang" onder elkaar.
+            starts.append(i + 1)
     if not starts:
         return [], [f"sectiekop niet gevonden: {kop}"]
 
@@ -137,18 +176,33 @@ def namen_uit_verslag(tekst: str, kop: str) -> tuple[list[str], list[str]]:
 
 def _lees_vanaf(regels: list[str], start: int) -> tuple[list[str], list[str]]:
     namen: list[str] = []
+    nrs: list[int] = []  # regelnummer van de (laatste) regel van elke naam
     afgekeurd: list[str] = []
     leeg_op_rij = 0
     wacht: str | None = None  # mogelijk de eerste helft van een afgebroken naam
-    for regel in regels[start + 1 :]:
+    wacht_nr = -9
+    # Een écht vervolg van een afgebroken naam staat op de regel pál onder de
+    # eerste helft. Elk gemeten lijmgeval (voetnoten, zijbalkfragmenten als
+    # "regulatory framework") stond juist ná een witregel of tussenliggende
+    # rommel — daarom plakken alle samenvoegregels hieronder uitsluitend
+    # aaneengesloten regels aan elkaar.
+    for nr, regel in enumerate(regels[start + 1 :]):
         ruw = _schoon(regel)
         if not ruw or ruw == "X" or re.fullmatch(r"\d{1,3}", ruw) or re.fullmatch(r"[A-Z]", ruw):
+            continue
+        if ruw.startswith("*"):
+            # Voetnootregels dragen hun markering voorop ("** Stichting Vestia
+            # has been split ...") — nooit een naam, ook al staat er een
+            # organisatiewoord in.
+            afgekeurd.append(ruw)
             continue
         genormaliseerd = normaliseer(ruw)
         if _RUIS.search(ruw):
             # Een vólgende bijlage betekent: einde van de lijst.
+            # Spatie verplicht tussen "bijlage" en de letter: het losse woord
+            # "Bijlagen" in een zijbalk is geen volgende bijlage.
             if re.search(
-                r"appendix\s*[2-9]|bijlage\s*[b-z]\b|network organisations|"
+                r"appendix\s*[2-9]|bijlage\s+[b-z]\b|network organisations|"
                 r"audit quality indicators",
                 ruw,
                 re.I,
@@ -158,17 +212,41 @@ def _lees_vanaf(regels: list[str], start: int) -> tuple[list[str], list[str]]:
         if _CATEGORIE.fullmatch(ruw):
             wacht = None
             continue
-        if _VERVOLG.match(ruw) and namen:
+        sluit_op_naam = bool(namen) and nr == nrs[-1] + 1
+        sluit_op_wacht = wacht is not None and nr == wacht_nr + 1
+        if _VERVOLG.match(ruw) and (namen or wacht):
             # Vervolg van een afgebroken naam ("de Detailhandel", "(Europe) N.V.").
             # Een lánge kleine-letterregel is proza — bij PwC staan de
             # voetnoten van de kwaliteitsindicatoren dwars door de lijst heen,
             # dus proza betekent hier "overslaan", niet "stoppen": erna komen
-            # gewoon weer cliënten.
-            if len(ruw) > 60 or len(f"{namen[-1]} {ruw}") > 90 or _GEEN_VERVOLG.search(ruw):
+            # gewoon weer cliënten. De 40 is gemeten: het langste echte
+            # vervolg is 30 tekens, de kortste voetnootregel 54.
+            if len(ruw) > 40 or _GEEN_VERVOLG.search(ruw) or _EIGEN_NETWERK.search(ruw):
                 wacht = None
                 continue
-            namen[-1] = f"{namen[-1]} {ruw}"
-            leeg_op_rij = 0
+            if sluit_op_wacht:
+                # Tweede regel van een naam die nog geen organisatiewoord
+                # had; samen alsnog compleet ("Nederlandse organisatie voor
+                # wetenschappelijk" + "onderzoek (NWO)") of verder wachten.
+                if afgekeurd and afgekeurd[-1] == wacht:
+                    afgekeurd.pop()
+                wacht = f"{wacht} {ruw}"
+                wacht_nr = nr
+                if _NAAM_TOKEN.search(wacht) and not wacht.islower() and len(wacht) <= 90:
+                    namen.append(wacht)
+                    nrs.append(nr)
+                    wacht = None
+                    leeg_op_rij = 0
+                else:
+                    afgekeurd.append(wacht)
+                continue
+            if sluit_op_naam and len(f"{namen[-1]} {ruw}") <= 90:
+                namen[-1] = f"{namen[-1]} {ruw}"
+                nrs[-1] = nr
+                leeg_op_rij = 0
+                continue
+            # Kleine-letterregel los van elke naam: zijbalk- of voetnootfragment.
+            wacht = None
             continue
         if _EIGEN_NETWERK.search(ruw):
             # Overzicht van member firms bereikt: einde van de cliëntenlijst.
@@ -178,35 +256,82 @@ def _lees_vanaf(regels: list[str], start: int) -> tuple[list[str], list[str]]:
                 break
             continue
         if not _NAAM_TOKEN.search(ruw):
+            # Eindigt de naam erbóven open, dan is dit de rest ervan:
+            # "Stichting Bedrijfstakpensioenfonds voor de" + "Bouwnijverheid".
+            if (
+                sluit_op_naam
+                and _EINDIGT_OPEN.search(namen[-1])
+                and ruw[:1].isupper()
+                and len(f"{namen[-1]} {ruw}") <= 90
+            ):
+                namen[-1] = f"{namen[-1]} {ruw}"
+                nrs[-1] = nr
+                leeg_op_rij = 0
+                continue
             # Kan de eerste helft van een afgebroken naam zijn (EY breekt
             # "DAS Nederlandse Rechtsbijstand / Verzekeringmaatschappij N.V."
             # over twee regels). Kort en met een hoofdletter: even vasthouden;
-            # begint de vólgende regel met een organisatiewoord, dan horen ze
-            # bij elkaar.
+            # sluit de vólgende regel erop aan met een organisatiewoord, dan
+            # horen ze bij elkaar.
             if len(ruw) <= 45 and ruw[:1].isupper() and len(ruw.split()) <= 5:
                 wacht = ruw
+                wacht_nr = nr
             else:
                 wacht = None
             afgekeurd.append(ruw)
             leeg_op_rij += 1
             # Lang niets naamachtigs meer: de lijst is voorbij en we lezen
-            # inmiddels gewone verslagtekst.
-            if leeg_op_rij >= 10:
+            # inmiddels gewone verslagtekst. De 25 is gemeten: een
+            # paginawissel middenin PwC's Nederlandstalige lijst kost 13
+            # tellende regels (zijbalk-inhoudsopgave plus intro en voetnoot,
+            # elke pagina opnieuw); het échte lijsteinde wordt vooral door de
+            # markeringen hierboven en de member-firm-rem gevangen. Vóór de
+            # eerste naam is het geduld groter: tussen de kop en de lijst
+            # staat bij PwC een volle zijbalk-inhoudsopgave.
+            if leeg_op_rij >= (25 if namen else 40):
                 break
             continue
         if len(genormaliseerd) < 4 or len(ruw) > 90:
+            # Eén losse rechtsvorm ("U.A.") pal onder een naam is de
+            # afgebroken staart van die naam, geen eigen regel waard
+            # (PwC 2023/2024: "Onderlinge Verzekeringsmaatschappij Univé
+            # Samen" met "U.A." op de regel eronder).
+            if sluit_op_naam and len(genormaliseerd) < 4 and len(f"{namen[-1]} {ruw}") <= 90:
+                namen[-1] = f"{namen[-1]} {ruw}"
+                nrs[-1] = nr
+                leeg_op_rij = 0
+            else:
+                afgekeurd.append(ruw)
+            continue
+        # Een regel geheel in kleine letters is nooit een cliëntnaam, wel een
+        # stukje voetnoot uit een smalle kolom ("verzekeringsmaatschappijen
+        # (niet" — afgebroken midden in "niet zijnde", dus per regel onherkenbaar).
+        if ruw.islower():
             afgekeurd.append(ruw)
             continue
         leeg_op_rij = 0
-        if wacht and _NAAM_TOKEN.match(ruw.split()[0] if ruw.split() else ""):
+        eerste_woord = ruw.split()[0] if ruw.split() else ""
+        if sluit_op_wacht and (_NAAM_TOKEN.match(eerste_woord) or _EINDIGT_OPEN.search(wacht)):
             samengevoegd = f"{wacht} {ruw}"
             if len(samengevoegd) <= 90:
                 afgekeurd = [a for a in afgekeurd if a != wacht]
                 namen.append(samengevoegd)
+                nrs.append(nr)
                 wacht = None
                 continue
+        if sluit_op_naam and _EINDIGT_OPEN.search(namen[-1]) and len(f"{namen[-1]} {ruw}") <= 90:
+            # "Stad Holland Zorgverzekeraar Onderlinge" + "Waarborgmaatschappij
+            # U.A.": de vorige naam eindigt open, dus dit is de rest ervan.
+            namen[-1] = f"{namen[-1]} {ruw}"
+            nrs[-1] = nr
+            wacht = None
+            continue
         wacht = None
+        if _LOSSE_STAART.match(ruw):
+            afgekeurd.append(ruw)
+            continue
         namen.append(ruw)
+        nrs.append(nr)
 
     # Dezelfde naam kan twee keer in een verslag staan (kolomovergangen).
     uniek: list[str] = []

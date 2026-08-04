@@ -31,14 +31,37 @@ van elke lijst:
 | BDO 2024 | 88 | losse "X" vóór elke naam (twee kolommen) |
 | BDO 2023 | 86 | zelfde opbouw als 2024 |
 | Deloitte 2024/2025 | 125 | lijst loopt over in disclaimerblok |
-| EY 2024/2025 | 135 | lange namen breken af over twee regels |
+| EY 2024/2025 | 137 | lange namen breken af over twee regels |
 | KPMG 2024/2025 | 116 | in het integrated report van 276 pagina's |
 | Forvis Mazars 2023/2024 | 76 | branchekopjes tussen de namen |
-| PwC 2024/2025 | 122 | apart bijlagen-pdf; voetnoten dwars door de lijst |
+| PwC 2024/2025 | 120 | apart bijlagen-pdf; voetnoten dwars door de lijst |
 
-Totaal 748 cliëntregels. PwC's bijlage was niet vindbaar via de site
+**Tweede ronde (4-8-2026):** acht oudere jaargangen
+toegevoegd en gemeten — Deloitte 2019/2020 t/m 2023/2024 (125, 125, 129, 129
+en 124 namen; de oudere jaren dragen de kop "PIEs audited"), EY 2022/2023
+(140), KPMG 2023/2024 (117) en PwC 2021/2022 (138, bijlagen-pdf met de
+Nederlandse kop "Lijst van organisaties van openbaar belang", die over twee
+regels gebroken kan zijn). PwC's bijlage was niet vindbaar via de site
 (scriptpagina); de link staat als URI-annotatie ín het hoofdverslag-pdf en is
-daar uitgelezen.
+daar uitgelezen. **Derde ronde (4-8-2026):** BDO 2022 (83), Forvis Mazars
+2024/2025 (78) en — via het geraden pad `jaarbericht{jaar}` — PwC 2022/2023
+(161) en 2023/2024 (161). Samen 2.258 cliëntregels over negentien verslagen.
+Nog toe te voegen langs hetzelfde recept: BDO t/m 2021, EY 2023/2024 (url
+nog niet gevonden), KPMG t/m 2022/2023, Mazars oudere jaren, PwC t/m
+2020/2021.
+
+Bij de derde ronde zijn de leesregels aangescherpt na een handmatige
+staartcontrole: samenvoegen van afgebroken namen mag alleen nog tussen
+regels die pál op elkaar aansluiten (elk lijmgeval bleek juist ná een
+witregel of zijbalkfragment te komen), voetnootregels met sterretjes worden
+afgekeurd, een naam die op een los voorzetsel eindigt krijgt de regel
+eronder erbij ("Stichting Bedrijfstakpensioenfonds voor de" +
+"Bouwnijverheid") en een losse soortnaam-met-rechtsvorm ("Zorgverzekeraar
+U.A.") wordt nooit meer als eigen organisatie bewaard. De twaalf gevallen
+staan in `pipeline/test_transparantie.py`; de migratie
+`20260804090000_transparantie_reset.sql` wist de rijen die de oude
+leesregels hadden vervuild, waarna één run van de workflow alles schoon
+terugzet.
 
 ## Twee ontwerpkeuzes
 

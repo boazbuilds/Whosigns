@@ -83,6 +83,106 @@ GEVALLEN = [
         "Brand New Day Bank N.V.\n",
         ["Cogas Holding N.V.", "Brand New Day Bank N.V."],
     ),
+    (
+        "zijbalkfragmenten na de lijst plakken nergens aan vast (PwC 2023/2024)",
+        "List of public interest entities",
+        "List of public interest entities\n"
+        "Woonstichting ‘thuis\n"
+        "Yapi Kredi Bank Nederland N.V.\n"
+        "\n"
+        "Reporting criteria of the key performance indicators\n"
+        "Our system of quality\n"
+        "management\n"
+        "Our governance\n"
+        "Legislative and\n"
+        "regulatory framework\n"
+        "firms that belong to\n"
+        "member firms\n",
+        ["Woonstichting ‘thuis", "Yapi Kredi Bank Nederland N.V."],
+    ),
+    (
+        "voetnootregels en voetnootsterretjes (PwC 2022/2023)",
+        "List of public interest entities",
+        "List of public interest entities\n"
+        "Stichting Thuisvester\n"
+        "Stichting Vestia**\n"
+        "Stichting Wonen Zuid\n"
+        "*\tCompanies established in the Netherlands listed on an EU regulated market, banks\n"
+        "** Stichting Vestia has been split into three legal entities after 1 January 2023.\n",
+        ["Stichting Thuisvester", "Stichting Vestia", "Stichting Wonen Zuid"],
+    ),
+    (
+        "EY: naam zonder rechtsvorm over twee regels, buurnamen blijven los",
+        "List of PIE audit clients",
+        "Appendix 1: List of PIE audit clients\n"
+        "Stichting Parteon\n"
+        "Stichting Pensioenfonds ING\n"
+        "\n"
+        "Nederlandse organisatie voor wetenschappelijk\n"
+        "onderzoek (NWO)\n"
+        "\n"
+        "Stichting Pensioenfonds Medisch Specialisten\n",
+        [
+            "Stichting Parteon",
+            "Stichting Pensioenfonds ING",
+            "Nederlandse organisatie voor wetenschappelijk onderzoek (NWO)",
+            "Stichting Pensioenfonds Medisch Specialisten",
+        ],
+    ),
+    (
+        "EY: eerste helft eindigt op een voorzetsel, tweede helft met hoofdletter",
+        "List of PIE audit clients",
+        "Appendix 1: List of PIE audit clients\n"
+        "ING Groep N.V.\n"
+        "Nederlandse Financierings-Maatschappij voor\n"
+        "Ontwikkelingslanden N.V.\n"
+        "NIBC Bank N.V.\n",
+        [
+            "ING Groep N.V.",
+            "Nederlandse Financierings-Maatschappij voor Ontwikkelingslanden N.V.",
+            "NIBC Bank N.V.",
+        ],
+    ),
+    (
+        "EY: kolommen om en om in de tekststroom — losse namen blijven los",
+        "List of PIE audit clients",
+        "Appendix 1: List of PIE audit clients\n"
+        "Ease2pay N.V.\n"
+        "Airbus SE\n"
+        "Enexis Holding N.V.\n"
+        "Akelius Residential Property Financing B.V.\n",
+        [
+            "Ease2pay N.V.",
+            "Airbus SE",
+            "Enexis Holding N.V.",
+            "Akelius Residential Property Financing B.V.",
+        ],
+    ),
+    (
+        "PwC: afgebroken staarten — aanplakken waar het kan, afkeuren waar het moet",
+        "List of public interest entities",
+        "List of public interest entities\n"
+        "Onderlinge Verzekeringsmaatschappij Univé Samen\n"
+        "U.A.\n"
+        "Onderlinge Waarborgmaatschappij DSW\n"
+        "Zorgverzekeraar U.A.\n"
+        "Optimix Investment Funds N.V.\n"
+        "Sinopel 2019 B.V.\n"
+        "Stad Holland Zorgverzekeraar Onderlinge\n"
+        "Waarborgmaatschappij U.A.\n"
+        "STG Global Finance B.V.\n",
+        # "Zorgverzekeraar U.A." is niet betrouwbaar aan DSW te plakken (de
+        # volgorde van de lijsten is te grillig om op te leunen): de staart
+        # wordt afgekeurd en DSW blijft — herkenbaar maar afgekort — staan.
+        [
+            "Onderlinge Verzekeringsmaatschappij Univé Samen U.A.",
+            "Onderlinge Waarborgmaatschappij DSW",
+            "Optimix Investment Funds N.V.",
+            "Sinopel 2019 B.V.",
+            "Stad Holland Zorgverzekeraar Onderlinge Waarborgmaatschappij U.A.",
+            "STG Global Finance B.V.",
+        ],
+    ),
 ]
 
 
