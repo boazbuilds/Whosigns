@@ -61,21 +61,29 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # Invoer via de omgeving en niet rechtstreeks in het script: zo kan een
+          # invoerwaarde nooit als shell-opdracht worden uitgevoerd.
+          BOEKJAREN: ${{ inputs.boekjaren }}
+          HERLAAD: ${{ inputs.herlaad }}
+          DROOGLOOP: ${{ inputs.droogloop }}
         run: |
           mislukt=""
-          for jaar in $(echo "${{ inputs.boekjaren }}" | tr ',' ' '); do
+          for jaar in $(echo "$BOEKJAREN" | tr ',' ' '); do
             echo "::group::boekjaar $jaar"
             # Eén trage jaargang mag de rest niet meesleuren; wat niet lukte staat
             # aan het eind bij elkaar, zodat je het gericht opnieuw kunt starten.
             python3 pipeline/laad_corporaties.py \
               --boekjaar "$jaar" \
-              ${{ inputs.herlaad == true && '--herlaad' || '' }} \
-              ${{ inputs.droogloop == true && '--droogloop' || '' }} \
+              $([ "$HERLAAD" = "true" ] && echo --herlaad) \
+              $([ "$DROOGLOOP" = "true" ] && echo --droogloop) \
               || mislukt="$mislukt $jaar"
             echo "::endgroup::"
           done
           if [ -n "$mislukt" ]; then
-            echo "::warning::Deze boekjaren zijn niet geladen:$mislukt — start de workflow opnieuw met alleen die jaren."
+            # Rood, niet alleen een waarschuwing: een run waarin élk jaar faalde
+            # (bijv. secrets vergeten of de bron plat) eindigde anders gewoon groen.
+            echo "::error::Deze boekjaren zijn niet geladen:$mislukt — start de workflow opnieuw met alleen die jaren."
+            exit 1
           fi
 
       - name: Rapporten bewaren

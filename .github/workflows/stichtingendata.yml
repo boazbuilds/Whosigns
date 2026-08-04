@@ -54,6 +54,13 @@ on:
         required: false
         default: false
 
+# Zelfde groep als de stichtingenlus: dit script schrijft dezelfde tabellen en
+# dezelfde review-queue. Een handmatige run wacht dus netjes tot de lusronde
+# klaar is in plaats van er dwars doorheen te schrijven.
+concurrency:
+  group: stichtingenlus
+  cancel-in-progress: false
+
 jobs:
   laden:
     name: Goede doelen laden
@@ -91,20 +98,29 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # Invoer via de omgeving: een invoerwaarde kan dan nooit als
+          # shell-opdracht worden uitgevoerd.
+          BOEKJAREN: ${{ inputs.boekjaren }}
+          CATEGORIEEN: ${{ inputs.categorieen }}
+          VANAF: ${{ inputs.vanaf }}
+          AANTAL: ${{ inputs.aantal }}
+          TERUGVAL: ${{ inputs.terugval }}
+          HERLAAD: ${{ inputs.herlaad }}
+          DROOGLOOP: ${{ inputs.droogloop }}
         run: |
           # Boekjaar voor boekjaar, nieuwste eerst: loopt de job tegen de tijdslimiet
           # aan, dan zijn de meest actuele jaren in elk geval binnen. Elk boekjaar is
           # idempotent, dus opnieuw draaien pikt op waar het gebleven was.
-          for jaar in $(echo "${{ inputs.boekjaren }}" | tr ',' ' '); do
+          for jaar in $(echo "$BOEKJAREN" | tr ',' ' '); do
             echo "::group::boekjaar $jaar"
             python3 pipeline/laad_stichtingen.py \
               --boekjaar "$jaar" \
-              --categorieen "${{ inputs.categorieen }}" \
-              --vanaf "${{ inputs.vanaf }}" \
-              --aantal "${{ inputs.aantal }}" \
-              ${{ inputs.terugval == true && '--terugval' || '' }} \
-              ${{ inputs.herlaad == true && '--herlaad' || '' }} \
-              ${{ inputs.droogloop == true && '--droogloop' || '' }}
+              --categorieen "$CATEGORIEEN" \
+              --vanaf "$VANAF" \
+              --aantal "$AANTAL" \
+              $([ "$TERUGVAL" = "true" ] && echo --terugval) \
+              $([ "$HERLAAD" = "true" ] && echo --herlaad) \
+              $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
             echo "::endgroup::"
             # De lader gooit pdf's na het lezen weg (geen --bewaar-pdf), maar een
             # afgebroken run kan er hebben laten staan: 295 jaarverslagen is ruim 1 GB

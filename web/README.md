@@ -13,8 +13,10 @@ relatiegraaf in Supabase. Fase 0 (site live) en de basis voor Fase 2
 | `/kantoor/<afm>-<naam>` | Kantoor | Cliënten, gewonnen en verloren opdrachten, concurrenten |
 | `/sector/<sector>` | Sector | Kruistabel controles per kantoor per boekjaar, wisselingen |
 | `/wisselingen` | Wisselingen | Alle wisselingen, gegroepeerd per boekjaar |
+| `/organisaties` | Alle organisaties | Alfabetisch register met plaats en subsector |
+| `/bevindingen` | Oordelen | Niet-goedkeurende oordelen en continuïteit, met de grond |
+| `/subsector/[naam]` | Subsector | Kantoren en organisaties binnen één subsector |
 | `/zoeken?q=` | Zoeken | Organisaties én kantoren |
-| `/bron` | Over de data | Herkomst, methode, en wat wij bewust niet vastleggen |
 
 **URL-vorm:** het nummer vooraan is de sleutel (KvK, resp. AFM-nummer), de naam
 erachter is voor de lezer en voor Google. Zo blijft een link werken als de bron de

@@ -175,11 +175,19 @@ def dataset_url(boekjaar: int) -> str:
                 continue
             if "veldnamen" in naam or "model" in naam:  # datadictionary, geen data
                 continue
-            if re.search(r"hoofdstuk 1|h1|hfd1", naam) or "t/m" in naam:
-                kandidaten.append(url)
+            # Woordgrens verplicht: het label van dVi2019-H4 op data.overheid.nl
+            # luidt (fout) "dVi2019 hoofdstuk 14", en zonder \b matchte
+            # "hoofdstuk 1" dáárin — waarna de run hoofdstuk 4 (Treasury) las
+            # en boekjaar 2019 omviel op "geen blad met een accountant-kolom".
+            if re.search(r"hoofdstuk 1\b|h1\b|hfd1\b", naam):
+                kandidaten.append((0, url))
+            elif "t/m" in naam:
+                # De gebundelde bestanden ("hfd1 t/m hfd5", jaargang 2024) zijn
+                # de terugvaloptie; een los hoofdstuk 1 gaat altijd voor.
+                kandidaten.append((1, url))
     if not kandidaten:
         raise LookupError(f"geen dVi-hoofdstuk 1 gevonden voor boekjaar {boekjaar}")
-    return kandidaten[0]
+    return min(kandidaten)[1]
 
 
 def _bladen(inhoud: bytes):

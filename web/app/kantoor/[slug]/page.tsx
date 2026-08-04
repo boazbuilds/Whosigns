@@ -4,10 +4,12 @@ import { notFound } from "next/navigation";
 import {
   actieveKantoren,
   kantoorOpAfm,
+  kantoorOpId,
   nieuwsteBoekjaar,
   opdrachtenVanKantoor,
   wisselingen,
 } from "@/lib/db";
+import type { Kantoor, OpdrachtMetOrganisatie, WisselingVolledig } from "@/lib/db";
 import { clientenVanKantoor } from "@/lib/analyse";
 import {
   aantalControles,
@@ -24,6 +26,13 @@ import { Doorklik, Foutmelding, Inklapbaar, Leeg, Oordeel } from "@/components/o
 
 type Params = { params: Promise<{ slug: string }> };
 
+/** `k<id>` vooraan de slug = kantoor zonder AFM-nummer (zie paden.ts). */
+function vindKantoor(slugdeel: string) {
+  const sleutel = nummerUitSlug(slugdeel);
+  const viaId = /^k(\d+)$/.exec(sleutel);
+  return viaId ? kantoorOpId(Number(viaId[1])) : kantoorOpAfm(sleutel);
+}
+
 /**
  * Zoveel cliënten staan open; de staart zit achter een klik. Een groot kantoor
  * heeft er honderden, en die stonden allemaal uitgeschreven onder de pagina.
@@ -34,7 +43,7 @@ const CLIENTEN_OPEN = 25;
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
-  const kantoor = await kantoorOpAfm(nummerUitSlug(slug)).catch(() => null);
+  const kantoor = await vindKantoor(slug).catch(() => null);
   if (!kantoor) return { title: "Kantoor niet gevonden" };
   return {
     title: `${kantoor.naam}: welke organisaties controleert dit kantoor?`,
@@ -46,32 +55,40 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
 export default async function Kantoorpagina({ params }: Params) {
   const { slug } = await params;
-  const afm = nummerUitSlug(slug);
 
-  let kantoor;
+  // Alle databasewerk binnen één try: een hapering ná de eerste vraag gaf
+  // eerst een kale Next-500 in plaats van onze eigen foutmelding.
+  let kantoor: Kantoor | null = null;
+  let opdrachten: OpdrachtMetOrganisatie[] = [];
+  let mutaties: WisselingVolledig[] = [];
+  let concurrenten: Awaited<ReturnType<typeof actieveKantoren>> = [];
   try {
-    kantoor = await kantoorOpAfm(afm);
+    kantoor = await vindKantoor(slug);
+    if (kantoor) {
+      const dit = kantoor;
+      const [opdrachtenUit, mutatiesUit, boekjaar] = await Promise.all([
+        opdrachtenVanKantoor(dit.id),
+        // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
+        // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
+        // precies 50, dus het was de grens die dat getal bepaalde en niet de data.
+        wisselingen({ kantoorId: dit.id }),
+        nieuwsteBoekjaar(),
+      ]);
+      opdrachten = opdrachtenUit;
+      mutaties = mutatiesUit;
+      concurrenten = boekjaar
+        ? (await actieveKantoren(boekjaar)).filter((r) => r.kantoor_id !== dit.id)
+        : [];
+    }
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
   if (!kantoor) notFound();
 
-  const [opdrachten, mutaties, boekjaar] = await Promise.all([
-    opdrachtenVanKantoor(kantoor.id),
-    // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
-    // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
-    // precies 50, dus het was de grens die dat getal bepaalde en niet de data.
-    wisselingen({ kantoorId: kantoor.id }),
-    nieuwsteBoekjaar(),
-  ]);
-
   const clienten = clientenVanKantoor(opdrachten);
   const gewonnen = mutaties.filter((m) => m.naar_kantoor_id === kantoor.id);
   const verloren = mutaties.filter((m) => m.van_kantoor_id === kantoor.id);
   const alleJaren = opdrachten.map((o) => o.boekjaar);
-  const concurrenten = boekjaar
-    ? (await actieveKantoren(boekjaar)).filter((r) => r.kantoor_id !== kantoor.id)
-    : [];
 
   // In welke sectoren dit kantoor werkt, grootste eerst.
   const perSector = new Map<string, number>();
@@ -101,6 +118,7 @@ export default async function Kantoorpagina({ params }: Params) {
       <td>
         <Link
           href={organisatiePad({
+            id: client.organisatieId,
             kvk_nummer: client.kvkNummer,
             naam: client.naam,
           })}
@@ -115,7 +133,10 @@ export default async function Kantoorpagina({ params }: Params) {
       <td className="jaar">{jarenReeks(client.jaren)}</td>
       <td className="getal zacht">{aantalJaren(client.jaren.length)}</td>
       <td>
-        <Oordeel waarde={client.oordeelLaatste} />
+        <Oordeel
+          waarde={client.oordeelLaatste}
+          gerapporteerd={client.oordeelOpgaveLaatste}
+        />
       </td>
     </tr>
   ));
@@ -160,10 +181,11 @@ export default async function Kantoorpagina({ params }: Params) {
           {gewonnen.length === 0 ? (
             <Leeg tekst="Geen gewonnen opdrachten in deze periode." />
           ) : (
+            <div className="tabel-omhulsel">
             <table>
               <tbody>
                 {gewonnen.map((m) => (
-                  <tr key={`w${m.organisatie_id}-${m.boekjaar_wissel}`}>
+                  <tr key={`w${m.organisatie_id}-${m.boekjaar_wissel}-${m.van_kantoor_id}`}>
                     <td className="jaar">{m.boekjaar_wissel}</td>
                     <td>
                       {m.organisatie ? (
@@ -186,6 +208,7 @@ export default async function Kantoorpagina({ params }: Params) {
                 ))}
               </tbody>
             </table>
+            </div>
           )}
         </section>
 
@@ -194,10 +217,11 @@ export default async function Kantoorpagina({ params }: Params) {
           {verloren.length === 0 ? (
             <Leeg tekst="Geen verloren opdrachten in deze periode." />
           ) : (
+            <div className="tabel-omhulsel">
             <table>
               <tbody>
                 {verloren.map((m) => (
-                  <tr key={`v${m.organisatie_id}-${m.boekjaar_wissel}`}>
+                  <tr key={`v${m.organisatie_id}-${m.boekjaar_wissel}-${m.naar_kantoor_id}`}>
                     <td className="jaar">{m.boekjaar_wissel}</td>
                     <td>
                       {m.organisatie ? (
@@ -220,6 +244,7 @@ export default async function Kantoorpagina({ params }: Params) {
                 ))}
               </tbody>
             </table>
+            </div>
           )}
         </section>
       </div>
@@ -255,7 +280,11 @@ export default async function Kantoorpagina({ params }: Params) {
       <Doorklik
         items={[
           ...clienten.slice(0, 3).map((client) => ({
-            naar: organisatiePad({ kvk_nummer: client.kvkNummer, naam: client.naam }),
+            naar: organisatiePad({
+              id: client.organisatieId,
+              kvk_nummer: client.kvkNummer,
+              naam: client.naam,
+            }),
             tekst: client.naam,
             toelichting: `cliënt ${jarenReeks(client.jaren)}`,
           })),

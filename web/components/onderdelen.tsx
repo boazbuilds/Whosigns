@@ -60,7 +60,16 @@ export function Doorklik({
   titel?: string;
   items: Doorklikje[];
 }) {
-  const zichtbaar = items.filter((item) => item.naar);
+  // Dubbelen eruit (zelfde link én tekst): de relatiegeschiedenis A→B→A leverde
+  // hetzelfde kantoor twee keer aan, en dat gaf twee identieke regels met
+  // botsende React-sleutels.
+  const zichtbaar = [
+    ...new Map(
+      items
+        .filter((item) => item.naar)
+        .map((item) => [`${item.naar}|${item.tekst}`, item] as const),
+    ).values(),
+  ];
   if (process.env.NODE_ENV !== "production" && zichtbaar.length < 5) {
     console.warn(
       `[visie] Deze pagina heeft ${zichtbaar.length} vervolgklikken; de regel is minimaal 5.`,

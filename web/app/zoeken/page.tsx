@@ -12,11 +12,12 @@ import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
 
 export const metadata: Metadata = { title: "Zoeken" };
 
-type Props = { searchParams: Promise<{ q?: string }> };
+type Props = { searchParams: Promise<{ q?: string | string[] }> };
 
 export default async function Zoekpagina({ searchParams }: Props) {
   const { q } = await searchParams;
-  const term = (q ?? "").trim();
+  // Bij `?q=a&q=b` levert Next een array; zonder deze regel crashte .trim().
+  const term = (Array.isArray(q) ? q[0] : (q ?? "")).trim();
 
   if (term.length < 2) {
     const organisaties = await alleOrganisaties(4).catch(() => []);
@@ -137,7 +138,7 @@ export default async function Zoekpagina({ searchParams }: Props) {
                     <td>
                       <Link href={kantoorPad(kantoor)}>{kantoor.naam}</Link>
                     </td>
-                    <td className="jaar">{kantoor.afm_nummer ?? "—"}</td>
+                    <td className="getal zacht">{kantoor.afm_nummer ?? "—"}</td>
                     <td>
                       {kantoor.oob_vergunning ? (
                         <span className="label label-oob">OOB</span>

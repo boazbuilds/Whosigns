@@ -73,7 +73,9 @@ export default async function Wisselingenpagina() {
                 </thead>
                 <tbody>
                   {perJaar.get(jaar)!.map((w) => (
-                    <tr key={`${w.organisatie_id}-${jaar}`}>
+                    <tr
+                      key={`${w.organisatie_id}-${jaar}-${w.van_kantoor_id}-${w.naar_kantoor_id}`}
+                    >
                       <td>
                         {w.organisatie ? (
                           <Link href={organisatiePad(w.organisatie)}>

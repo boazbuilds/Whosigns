@@ -25,7 +25,15 @@ export const metadata: Metadata = {
  * maar dan staat een naam niet waar de bron hem sorteert en is hij twee keer zoek.
  */
 function beginletter(naam: string): string {
-  const eerste = naam.trim().charAt(0).toUpperCase();
+  // NFKD + accenten weg: "École" hoort onder de E (waar de database hem ook
+  // sorteert), niet bij "Overig". De Ĳ-ligatuur wordt zo I.
+  const eerste = naam
+    .trim()
+    .charAt(0)
+    .normalize("NFKD")
+    .replace(/[̀-ͯ]/g, "")
+    .charAt(0)
+    .toUpperCase();
   return eerste >= "A" && eerste <= "Z" ? eerste : "#";
 }
 
@@ -58,14 +66,15 @@ export default async function Organisatieoverzicht() {
           <span>{aantalOrganisaties(organisaties.length)}</span>
           <span>{aantalPlaatsen(plaatsen.size)}</span>
         </p>
+        {/* Een nav en geen p: op een alinea negeren schermlezers het label. */}
         {letters.length > 1 ? (
-          <p className="letterbalk" aria-label="Spring naar een letter">
+          <nav className="letterbalk" aria-label="Spring naar een letter">
             {letters.map((letter) => (
               <Link key={letter} href={`#${letter === "#" ? "overig" : letter}`}>
                 {letter}
               </Link>
             ))}
-          </p>
+          </nav>
         ) : null}
       </div>
 
