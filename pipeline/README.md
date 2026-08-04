@@ -10,7 +10,7 @@ pipeline/
     afm_register.py    ✅ AFM-kantorenregister → seed/kantoren.csv
     digimv_archief.py  ✅ client voor de archief-API (zoeken + document ophalen)
     digimv.py          ✅ organisatie → opdracht (archief + kantoor_match + verklaring)
-                       ⬜ dataset-gedreven bulk-run (Fase 1, zie digimv.md)
+    digimv_dataset.py  ✅ jaardataset (.ods) → doelpopulatie met controleverklaring
     cbf.py             ✅ register-API erkende goede doelen + jaarverslag-pdf's
     anbi.py            ✅ ANBI-bestand Belastingdienst als populatielijst
     anbi_publicatie.py ✅ terugval: jaarstuk op de eigen site van een stichting
@@ -34,13 +34,15 @@ pipeline/
   lus.py               ✅ laadt een sector in rondes van een paar blokken in plaats van
                           in één bulk-run (plan | stand | draai) — workflow "Stichtingenlus"
   laad_kantoren.py     ✅ beide kantorenlijsten + aliassen → Supabase
-  laad_proefdata.py    ✅ 13 bekende ziekenhuizen → Supabase (proefdata voor Fase 2)
+  laad_zorg.py         ✅ zorgsector in bulk → Supabase (workflow "Zorgdata";
+                          verving de vroegere laad_proefdata.py met 13 ziekenhuizen)
   laad_stichtingen.py  ✅ CBF-erkende goede doelen → Supabase (workflow "Stichtingendata")
   laad_corporaties.py  ✅ woningcorporaties → Supabase (workflow "Corporatiedata")
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)
   test_kantoor_match.py ✅ 12 gevallen uit echte verslagen; zonder netwerk te draaien
+  test_digimv.py       ✅ naam- en plaatsschoonmaak; beide draaien in de workflow "Checks"
   signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
 ```
 
@@ -56,7 +58,9 @@ extractie: bij goede doelen tekent bijna een derde van de verklaringen een kanto
 zónder Wta-vergunning (vrijwillige controle, dus terecht niet in het AFM-register).
 Zie `docs/bronverkenning-stichtingen.md`.
 
-Vereist buiten Python: `pdftotext` (pakket `poppler-utils`).
+Vereist buiten Python: `pdftotext` en `pdftoppm` (pakket `poppler-utils`), en voor
+gescande verklaringen `tesseract-ocr` + `tesseract-ocr-nld`; de zorgroute heeft ook
+`unzip` nodig (Deflate64-zip van de jaardataset). De workflows installeren dit zelf.
 
 ## Spelregels (gelden voor elke adapter)
 

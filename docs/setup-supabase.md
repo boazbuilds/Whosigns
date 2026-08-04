@@ -39,9 +39,10 @@ Op supabase.com → New project:
    staan nu de tabellen: `organisaties`, `kantoren`, `opdrachten`, `bronnen`,
    `signalen`, `review_queue` en de rest.
 5. Herhaal stap 1–3 voor élk volgend bestand in `supabase/migrations/`, op
-   naam gesorteerd (het nummer vooraan is de datum, dus oudste eerst):
-   `20260729210000_extra_velden.sql` en `20260730000000_kantoren_zonder_wta.sql`.
-   Ze zijn zo geschreven dat opnieuw draaien geen kwaad kan.
+   naam gesorteerd (het nummer vooraan is de datum, dus oudste eerst). Sla er
+   geen over: de website vraagt kolommen op die pas in latere migraties bestaan
+   (zoals `oordeel_gerapporteerd`) en toont anders een foutmelding. Op het
+   init-script na kan elk bestand zonder bezwaar twee keer draaien.
 
 ### Of: migraties door GitHub laten draaien (aanrader, één keer instellen)
 
@@ -59,8 +60,8 @@ database staat, en houdt in een tabel `schema_migraties` bij wat al gedaan is.
    init-script als je dat al met de hand hebt gedraaid; dat wordt dan alleen
    geregistreerd. Met `droogloop` aan zie je eerst wat er zou gebeuren.
 
-De drie migraties zijn getest tegen een schone PostgreSQL 16: ze draaien in deze
-volgorde door, en de laatste kan zonder bezwaar twee keer.
+De migraties zijn getest tegen een schone PostgreSQL 16: ze draaien op naam
+gesorteerd door, en op het init-script na kan elk bestand zonder bezwaar twee keer.
 
 Bij een foutmelding: kopieer die en plak hem in een Claude Code-sessie; dan zoek ik
 het uit.

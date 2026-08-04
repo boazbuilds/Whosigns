@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   organisatiesInSubsector,
-  opdrachtenVanOrganisatie,
+  opdrachtenVanOrganisaties,
   subsectoren,
   wisselingen,
 } from "@/lib/db";
@@ -12,11 +12,12 @@ import {
   aantalKantoren,
   aantalOrganisaties,
   aantalWisselingen,
+  CONTROLE_TYPES,
   kantoorPad,
   organisatiePad,
   sectorPad,
   slug,
-  WETTELIJKE_CONTROLE,
+  veiligGedecodeerd,
 } from "@/lib/paden";
 import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
 
@@ -35,7 +36,7 @@ async function vindSubsector(naamSlug: string): Promise<string | null> {
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { naam } = await params;
-  const subsector = await vindSubsector(decodeURIComponent(naam)).catch(() => null);
+  const subsector = await vindSubsector(veiligGedecodeerd(naam)).catch(() => null);
   if (!subsector) return { title: "Subsector niet gevonden" };
   return {
     title: `Accountants in de ${subsector.toLowerCase()}`,
@@ -48,11 +49,22 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function Subsectorpagina({ params }: Params) {
   const { naam } = await params;
 
-  let subsector: string | null;
+  let subsector: string | null = null;
   let organisaties;
+  let subsectorOpdrachten;
+  let subsectorWisselingen;
   try {
-    subsector = await vindSubsector(decodeURIComponent(naam));
+    subsector = await vindSubsector(veiligGedecodeerd(naam));
     organisaties = subsector ? await organisatiesInSubsector(subsector) : [];
+    // Alle organisaties, in een handvol gebundelde verzoeken. Hier stond een
+    // stille afkapping op de eerste 250 (alfabetisch): de kop meldde het echte
+    // aantal, maar de kantorentabel en de aandelen gingen over A tot ergens
+    // halverwege — en niets op de pagina zei dat.
+    subsectorOpdrachten = await opdrachtenVanOrganisaties(organisaties.map((o) => o.id));
+    const organisatieIds = new Set(organisaties.map((o) => o.id));
+    subsectorWisselingen = (await wisselingen()).filter((w) =>
+      organisatieIds.has(w.organisatie_id),
+    );
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
@@ -63,43 +75,32 @@ export default async function Subsectorpagina({ params }: Params) {
 
   // Marktaandeel binnen een subsector kan niet uit v_marktaandeel komen: die view
   // groepeert op sector. Daarom hier optellen over de opdrachten van deze
-  // organisaties. Bij enkele honderden is dat te overzien; wordt het een vaste
-  // pagina met duizenden organisaties, dan hoort er een view tegenover te staan.
-  //
-  // Wél op dezelfde manier filteren als die views doen: alleen wettelijke
-  // controles. Een verklaring bij een WNT- of productieverantwoording is een
-  // andere opdracht, en meetellen zou dit percentage laten afwijken van het
-  // marktaandeel op de sectorpagina.
+  // organisaties — met dezélfde typeset als die views (wettelijke én vrijwillige
+  // controles, migratie 20260730000000). Met alleen wettelijke sprak deze tabel
+  // de sectorpagina tegen: ruim duizend vrijwillige controles telden daar wél
+  // mee en hier niet. Gegroepeerd op kantoor-id, niet op naam: twee kantoren
+  // kunnen dezelfde naam dragen (doorstart na fusie).
   const perKantoor = new Map<
-    string,
-    { naam: string; afm: string | null; aantal: number; jaren: Set<number> }
+    number,
+    { id: number; naam: string; afm: string | null; aantal: number; jaren: Set<number> }
   >();
-  const opdrachtenPerOrg = await Promise.all(
-    organisaties.slice(0, 250).map((org) => opdrachtenVanOrganisatie(org.id)),
-  );
-  for (const opdrachten of opdrachtenPerOrg) {
-    for (const opdracht of opdrachten) {
-      const kantoor = opdracht.kantoren;
-      if (!kantoor) continue;
-      if (opdracht.type_opdracht !== WETTELIJKE_CONTROLE) continue;
-      const rij = perKantoor.get(kantoor.naam) ?? {
-        naam: kantoor.naam,
-        afm: kantoor.afm_nummer,
-        aantal: 0,
-        jaren: new Set<number>(),
-      };
-      rij.aantal += 1;
-      rij.jaren.add(opdracht.boekjaar);
-      perKantoor.set(kantoor.naam, rij);
-    }
+  for (const opdracht of subsectorOpdrachten) {
+    const kantoor = opdracht.kantoren;
+    if (!kantoor) continue;
+    if (!CONTROLE_TYPES.includes(opdracht.type_opdracht)) continue;
+    const rij = perKantoor.get(kantoor.id) ?? {
+      id: kantoor.id,
+      naam: kantoor.naam,
+      afm: kantoor.afm_nummer,
+      aantal: 0,
+      jaren: new Set<number>(),
+    };
+    rij.aantal += 1;
+    rij.jaren.add(opdracht.boekjaar);
+    perKantoor.set(kantoor.id, rij);
   }
   const kantoren = [...perKantoor.values()].sort((a, b) => b.aantal - a.aantal);
   const totaal = kantoren.reduce((som, k) => som + k.aantal, 0);
-
-  const organisatieIds = new Set(organisaties.map((o) => o.id));
-  const subsectorWisselingen = (await wisselingen()).filter((w) =>
-    organisatieIds.has(w.organisatie_id),
-  );
 
   // Onder welke sector deze subsector valt, uit de organisaties zelf. Hier stond
   // "zorg" hardgecodeerd; sinds er ook goede doelen in de database staan beweerde
@@ -145,9 +146,11 @@ export default async function Subsectorpagina({ params }: Params) {
               </thead>
               <tbody>
                 {kantoren.map((rij) => (
-                  <tr key={rij.naam}>
+                  <tr key={rij.id}>
                     <td>
-                      <Link href={kantoorPad({ afm_nummer: rij.afm, naam: rij.naam })}>
+                      <Link
+                        href={kantoorPad({ id: rij.id, afm_nummer: rij.afm, naam: rij.naam })}
+                      >
                         {rij.naam}
                       </Link>
                     </td>
@@ -155,7 +158,7 @@ export default async function Subsectorpagina({ params }: Params) {
                     <td className="getal">
                       {totaal ? `${Math.round((100 * rij.aantal) / totaal)}%` : "—"}
                     </td>
-                    <td className="jaar">{rij.jaren.size}</td>
+                    <td className="getal">{rij.jaren.size}</td>
                   </tr>
                 ))}
               </tbody>
@@ -191,7 +194,7 @@ export default async function Subsectorpagina({ params }: Params) {
       <Doorklik
         items={[
           ...kantoren.slice(0, 3).map((rij) => ({
-            naar: kantoorPad({ afm_nummer: rij.afm, naam: rij.naam }),
+            naar: kantoorPad({ id: rij.id, afm_nummer: rij.afm, naam: rij.naam }),
             tekst: rij.naam,
             toelichting: `${aantalControles(rij.aantal)} in deze subsector`,
           })),

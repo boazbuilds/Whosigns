@@ -90,6 +90,15 @@ class Supabase:
         )
         return antwoord[0]
 
+    def bestaat(self, tabel: str, filter: str) -> bool:
+        """Is er minstens één rij die aan het PostgREST-filter voldoet?
+
+        Voor "sla over als dit er al staat"-checks, zoals de review-queue: die
+        heeft geen unieke sleutel, dus zonder deze check zette elke herstart van
+        een blok dezelfde beoordelingsgevallen er opnieuw in.
+        """
+        return bool(self._verzoek("GET", f"{tabel}?select=id&limit=1&{filter}"))
+
     def bijwerken(self, tabel: str, filter: str, velden: dict) -> None:
         """Werkt bestaande rijen bij zonder ze opnieuw te hoeven opbouwen.
 
@@ -134,6 +143,11 @@ class Supabase:
         die gaf 1000 terug bij 5081 opdrachten. Wie een aantal wil, vraagt
         PostgREST om `Prefer: count=exact` — zoals `tel()` in web/lib/db.ts doet.
         """
+        # Vaste volgorde, anders is de paginering een gok: zonder ORDER BY mag
+        # Postgres elke pagina anders sorteren, en dan kan een rij stil dubbel
+        # of juist helemaal niet binnenkomen. Elke tabel hier heeft een id.
+        if "order=" not in query:
+            query = f"{query}&order=id.asc"
         alles: list = []
         while True:
             pagina = self._verzoek(

@@ -5,9 +5,9 @@ Combineert de eerder gebouwde bouwstenen:
     kantoor_match   -> kantoornaam herkennen tegen de AFM-lijst
     verklaring      -> pdf -> soort, oordeel, continuïteitsonzekerheid
 
-Doet één organisatie-boekjaar tegelijk (`verwerk_organisatie`) — bruikbaar voor
-zowel een kleine handmatige lijst (`laad_proefdata.py`) als de latere
-bulkverwerking vanuit de volledige dataset (dekkingsstrategie in `digimv.md`).
+Doet één organisatie-boekjaar tegelijk (`verwerk_organisatie`); `laad_zorg.py`
+roept dit aan voor de bulkverwerking vanuit de volledige dataset
+(dekkingsstrategie in `digimv.md`).
 
 **Matchen gebeurt op KvK-nummer, niet op naam+plaats.** Naam en plaats wisselen
 namelijk per boekjaar in de bron: HagaZiekenhuis staat in boekjaar 2023 als
@@ -21,6 +21,7 @@ Samenstellings-/beoordelingsverklaringen en onherkende kantoren geven None —
 de aanroeper beslist wat daarmee gebeurt (overslaan, of naar review_queue).
 """
 
+import re
 import sys
 from pathlib import Path
 
@@ -41,6 +42,68 @@ CACHE = Path(__file__).resolve().parents[1] / ".cache"
 # Beide grenzen elk jaar opnieuw controleren; ze schuiven mee.
 OUDSTE_BOEKJAAR = 2019
 NIEUWSTE_BOEKJAAR = 2025
+
+
+def schoon_naam(naam: str) -> str:
+    """Organisatienaam zoals het archief hem levert, maar zonder de rommel.
+
+    Het archief geeft namen soms met losse spaties ("Amarant ") en één keer zelfs
+    dubbel achter elkaar: "Woon & Zorgcentrum HerfstzonWoon & Zorgcentrum
+    Herfstzon (Stichting)" (KvK 41032279, nagemeten 3-8-2026). Witruimte wordt
+    samengevouwen. De dubbeling vervalt alleen als de rest van de naam exact de
+    kop is, of de kop plus een "(…)"-toevoeging zoals de rechtsvorm. Alleen
+    "begint de rest met de kop" was niet genoeg: een echte naam als "Hand in
+    Hand in Nederland" begint ook met zijn eigen kop ("Hand in ") en werd dan
+    ten onrechte ingekort.
+    """
+    naam = " ".join(naam.split())
+    for i in range(8, len(naam) - 7):
+        kop, rest = naam[:i], naam[i:]
+        if not rest.startswith(kop):
+            continue
+        staart = rest[len(kop):]
+        if staart == "" or re.fullmatch(r" ?\(.*\)", staart):
+            return rest
+    return naam
+
+
+# Tussenwoorden die in een plaatsnaam klein blijven: Alphen aan den Rijn,
+# Bergen op Zoom, Capelle aan den IJssel.
+_PLAATS_KLEIN = {"aan", "bij", "de", "den", "der", "en", "het", "in", "op", "ter", "van"}
+
+
+def _kapitaal(deel: str) -> str:
+    if deel in ("'s", "'t"):
+        return deel  # 's-Gravenhage, 't Zand
+    if deel.startswith("ij"):
+        return "IJ" + deel[2:]  # IJsselstein, niet Ijsselstein
+    return deel[:1].upper() + deel[1:]
+
+
+def schoon_plaats(plaats: str) -> str:
+    """Plaatsnaam met normale hoofdletters in plaats van de KAPITALEN uit het archief.
+
+    Het archief schrijft plaatsen in oudere boekjaren volledig in hoofdletters
+    ("GOOR", "DEN HAAG", "CAPELLE AAN DEN IJSSEL") en in nieuwere gewoon
+    ("Goor"). Alleen een naam die geheel in kapitalen staat wordt omgezet — wat
+    al goed is, blijft onaangeraakt. Zonder dit stonden 394 van de ruim 1.100
+    gemeenten in kapitalen op de site, en vond `gemeente=eq.` de organisaties
+    in "GOOR" niet bij die in "Goor".
+    """
+    plaats = " ".join(plaats.split())
+    if not plaats.isupper():
+        return plaats
+    woorden = []
+    for i, woord in enumerate(plaats.lower().split(" ")):
+        if i > 0 and woord in _PLAATS_KLEIN:
+            woorden.append(woord)
+            continue
+        delen = woord.split("-")
+        # "S-HERTOGENBOSCH" komt zonder apostrof binnen; die hoort er wel.
+        if delen[0] == "s" and len(delen) > 1:
+            delen[0] = "'s"
+        woorden.append("-".join(_kapitaal(d) for d in delen))
+    return " ".join(woorden)
 
 
 def verwerk_organisatie(
@@ -121,8 +184,8 @@ def verwerk_organisatie(
 
         return {
             "kvk_nummer": kvk_nummer,
-            "naam": organisatie["name"],
-            "plaats": organisatie["town"],
+            "naam": schoon_naam(organisatie["name"]),
+            "plaats": schoon_plaats(organisatie["town"]),
             "boekjaar": boekjaar,
             "opdrachttype": resultaat["opdrachttype"],
             "oordeel": resultaat["oordeel"],

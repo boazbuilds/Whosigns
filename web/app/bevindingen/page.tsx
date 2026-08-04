@@ -121,7 +121,9 @@ export default async function Bevindingenpagina() {
                     <tr
                       key={`${rij.organisaties?.id}-${jaar}-${rij.type_opdracht}`}
                       className={
-                        rij.grond_beperking === "inhoudelijk" ? "wissel" : undefined
+                        // Eigen klasse: oranje betekent elders "gewisseld" en
+                        // dezelfde kleur voor twee betekenissen leest verkeerd.
+                        rij.grond_beperking === "inhoudelijk" ? "bevinding" : undefined
                       }
                     >
                       <td>

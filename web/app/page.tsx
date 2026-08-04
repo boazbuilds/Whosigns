@@ -2,6 +2,7 @@ import Link from "next/link";
 import {
   actieveKantoren,
   nieuwsteBoekjaar,
+  oudsteBoekjaar,
   sectoren,
   subsectoren,
   tel,
@@ -36,6 +37,7 @@ export default async function Startpagina() {
       kantoren,
       sectorlijst,
       subsectorlijst,
+      eersteBoekjaar,
     ] = await Promise.all([
       // Tellen in de database, niet de rijen ophalen en die tellen: dat laatste
       // gaf "200 organisaties" omdat de lijst op 200 was afgekapt.
@@ -43,8 +45,12 @@ export default async function Startpagina() {
       tel("opdrachten"),
       wisselingen({ limiet: 8 }),
       actieveKantoren(boekjaar),
-      sectoren().catch(() => []),
-      subsectoren().catch(() => []),
+      // Geen .catch(() => []) meer: een databasestoring werd zo "De subsectoren
+      // worden nog bijgewerkt" — een storing verkleed als normale toestand. De
+      // try om dit hele blok toont dan gewoon de foutmelding.
+      sectoren(),
+      subsectoren(),
+      oudsteBoekjaar(),
     ]);
 
     // Eén keer opbouwen, twee keer gebruiken: de eerste tien open, de rest
@@ -76,7 +82,13 @@ export default async function Startpagina() {
           <p className="metaregel" style={{ marginTop: "0.5rem" }}>
             <span>{aantalOrganisaties(organisatieTotaal)}</span>
             <span>{aantalOpdrachten(opdrachtTotaal)}</span>
-            <span>boekjaren 2019–{boekjaar}</span>
+            {eersteBoekjaar ? (
+              <span>
+                {eersteBoekjaar === boekjaar
+                  ? `boekjaar ${boekjaar}`
+                  : `boekjaren ${eersteBoekjaar}–${boekjaar}`}
+              </span>
+            ) : null}
           </p>
         </div>
 
@@ -86,10 +98,13 @@ export default async function Startpagina() {
             {laatsteWisselingen.length === 0 ? (
               <Leeg tekst="Nog geen wisselingen in de database." />
             ) : (
+              <div className="tabel-omhulsel">
               <table>
                 <tbody>
                   {laatsteWisselingen.map((w) => (
-                    <tr key={`${w.organisatie_id}-${w.boekjaar_wissel}`}>
+                    <tr
+                      key={`${w.organisatie_id}-${w.boekjaar_wissel}-${w.van_kantoor_id}-${w.naar_kantoor_id}`}
+                    >
                       <td className="jaar">{w.boekjaar_wissel}</td>
                       <td>
                         {w.organisatie ? (
@@ -117,6 +132,7 @@ export default async function Startpagina() {
                   ))}
                 </tbody>
               </table>
+              </div>
             )}
             <p className="klein" style={{ marginBottom: 0 }}>
               <Link href="/wisselingen">Alle wisselingen →</Link>
@@ -129,18 +145,22 @@ export default async function Startpagina() {
               <Leeg tekst="Nog geen opdrachten in dit boekjaar." />
             ) : (
               <>
-                <table>
-                  {kantoorkop}
-                  <tbody>{kantoorrijen.slice(0, KANTOREN_OPEN)}</tbody>
-                </table>
+                <div className="tabel-omhulsel">
+                  <table>
+                    {kantoorkop}
+                    <tbody>{kantoorrijen.slice(0, KANTOREN_OPEN)}</tbody>
+                  </table>
+                </div>
                 {kantoorrijen.length > KANTOREN_OPEN ? (
                   <Inklapbaar
                     samenvatting={`Nog ${kantoorrijen.length - KANTOREN_OPEN} kantoren met minder controles`}
                   >
-                    <table>
-                      {kantoorkop}
-                      <tbody>{kantoorrijen.slice(KANTOREN_OPEN)}</tbody>
-                    </table>
+                    <div className="tabel-omhulsel">
+                      <table>
+                        {kantoorkop}
+                        <tbody>{kantoorrijen.slice(KANTOREN_OPEN)}</tbody>
+                      </table>
+                    </div>
                   </Inklapbaar>
                 ) : null}
               </>
@@ -183,7 +203,7 @@ export default async function Startpagina() {
           )}
           <p className="klein" style={{ marginBottom: 0 }}>
             <Link href="/organisaties">
-              Alle {organisatieTotaal} organisaties op naam →
+              Alle {organisatieTotaal.toLocaleString("nl-NL")} organisaties op naam →
             </Link>
           </p>
         </section>
@@ -199,7 +219,7 @@ export default async function Startpagina() {
             {
               naar: "/organisaties",
               tekst: "Alle organisaties op naam",
-              toelichting: `${organisatieTotaal} in de database`,
+              toelichting: `${organisatieTotaal.toLocaleString("nl-NL")} in de database`,
             },
             // Alle sectoren die er zijn, niet alleen de zorg: de goede doelen
             // hadden anders geen ingang vanaf de voorpagina.

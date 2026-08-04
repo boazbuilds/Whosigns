@@ -66,6 +66,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 import anbi  # noqa: E402
 import cbf  # noqa: E402
 import stichtingen  # noqa: E402
+from digimv import schoon_plaats  # noqa: E402
 from kantoor_match import bouw_index, laad_kantoren  # noqa: E402
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
 
@@ -290,7 +291,7 @@ def main() -> int:
                         "rechtsvorm": "stichting",
                         "sector": SECTOR,
                         "subsector": cbf.primaire_sector(organisatie),
-                        "gemeente": (organisatie.get("plaats_statutair") or "").title() or None,
+                        "gemeente": schoon_plaats(organisatie.get("plaats_statutair") or "") or None,
                         "grootteklasse": f"CBF-categorie {organisatie['categorie']}",
                     },
                     "kvk_nummer",
@@ -329,6 +330,17 @@ def main() -> int:
                 # staat in geen van beide lijsten. De kandidaat-namen uit de tekst
                 # gaan mee zodat iemand het in één oogopslag kan afhandelen —
                 # en zo groeit seed/kantoren_overig.csv met bewijs.
+                #
+                # Eerst kijken of dit geval al openstaat: een review-organisatie
+                # krijgt geen opdracht-rij en valt dus buiten `al_geladen`, zodat
+                # elke herstart van een blok (en elke luspoging) hetzelfde geval
+                # anders opnieuw in de wachtrij zette.
+                if db.bestaat(
+                    "review_queue",
+                    "soort=eq.naam_match&status=eq.open"
+                    f"&payload->>kvk_nummer=eq.{kvk}&payload->>boekjaar=eq.{boekjaar}",
+                ):
+                    continue
                 db.invoegen(
                     "review_queue",
                     {

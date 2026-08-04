@@ -90,6 +90,9 @@ def tekst_uit_html(inhoud: bytes) -> str:
 def _links(inhoud: bytes, basis: str) -> list[tuple[str, str]]:
     uit = []
     for href, tekst in _LINK.findall(inhoud.decode("utf-8", "replace")):
+        # HTML schrijft & in een adres als &amp; — zonder unescape klopte de
+        # opgevraagde URL niet meer zodra er een ?a=1&b=2 in zat.
+        href = html_module.unescape(href)
         if href.startswith(("mailto:", "tel:", "#", "javascript:")):
             continue
         volledig = urllib.parse.urljoin(basis, href.strip())

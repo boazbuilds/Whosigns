@@ -205,6 +205,17 @@ def main() -> int:
             else:
                 # Nooit stil gokken: de opgegeven naam past op geen enkel kantoor uit
                 # onze lijsten. Meestal een typefout of een historische naam.
+                #
+                # Maar niet nóg een keer: dit geval krijgt geen opdracht-rij en
+                # wordt bij elke herstart opnieuw verwerkt — zonder deze check
+                # groeide de wachtrij met hetzelfde geval per run.
+                if db.bestaat(
+                    "review_queue",
+                    "soort=eq.naam_match&status=eq.open"
+                    f"&payload->>kvk_nummer=eq.{rij['kvk_nummer']}"
+                    f"&payload->>boekjaar=eq.{boekjaar}",
+                ):
+                    continue
                 db.invoegen(
                     "review_queue",
                     {
