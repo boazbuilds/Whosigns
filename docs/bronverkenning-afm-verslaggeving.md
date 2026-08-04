@@ -39,6 +39,26 @@ De ESEF-leesregel die dit mogelijk maakt: inline-XBRL wikkelt spans dwars
 door woorden heen, dus bloktags worden regeleindes en alle overige tags
 verdwijnen geluidloos (`xhtml_naar_tekst`, met test).
 
+Daarna twee steekproeven door de volledige lader (droogloop):
+
+* **Boekjaar 2016 (pdf-tijdperk), 20 deponeringen**: 9 opdrachten, 9 review,
+  2 afgekeurd. De opdrachten kloppen stuk voor stuk met de geschiedenis —
+  Steinhoff → Deloitte met *oordeelonthouding*, Oranjewoud → PwC met
+  *beperking*, Ajax → Deloitte. Winst van de OCR-terugval: de gescande
+  deponering van Metro Finance leverde alsnog BDO met goedkeurend oordeel.
+  Elke review is verdedigbaar: buitenlandse accountants (Guernsey-fondsen),
+  of een verslag zonder verklaring — bij New Sources Energy was EY juist
+  opgestapt, dus "EY staat in de tekst maar niet als ondertekenaar" was
+  precies goed.
+* **Boekjaar 2024 (ESEF-tijdperk), 12 deponeringen**: 6 opdrachten, 4
+  review, 2 afgekeurd. Ebusco → EY met *oordeelonthouding* (klopt), NSI →
+  PwC, Envipco → BDO. De afgekeurde zijn scans waar ook OCR niets van
+  maakte.
+
+Geen enkele foute match in beide steekproeven; het bijzondere-oordelenveld
+(oordeelonthouding, beperking) komt hier vanzelf mee — iets dat de
+transparantieverslagen niet bieden.
+
 ## Drie keuzes
 
 1. **Batch per boekjaren.** Eén boekjaar is 1-3 GB aan documenten; alles

@@ -115,7 +115,22 @@ def main() -> int:
         f"gevonden: {uit_zip[:120]!r}",
     )
 
-    totaal = 6
+    # Organisatieherkenning: het register wisselt door de jaren van spelling
+    # ("ABN AMRO Bank N.V." én "ABN AMRO Bank NV") — dat mag nooit twee
+    # organisaties opleveren.
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
+    from laad_beursfondsen import orgsleutel  # noqa: E402
+
+    controleer(
+        "orgsleutel: spellingvarianten van de rechtsvorm vallen samen",
+        orgsleutel("ABN AMRO Bank NV") == orgsleutel("ABN AMRO Bank N.V.")
+        and orgsleutel("Heineken N.V.") == "heineken nv"
+        and orgsleutel("Aegon S.E.") == orgsleutel("Aegon SE")
+        and orgsleutel("Nieuwe Steen Investments") == "nieuwe steen investments",
+    )
+
+    totaal = 7
     print(f"\n{totaal - fouten}/{totaal} goed")
     return 1 if fouten else 0
 

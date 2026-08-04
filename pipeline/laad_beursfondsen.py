@@ -34,6 +34,7 @@ Drie keuzes die het gedrag bepalen:
 
 import argparse
 import csv
+import re
 import sys
 import time
 import urllib.parse
@@ -50,6 +51,16 @@ from kantoor_match import bouw_index, laad_kantoren, normaliseer  # noqa: E402
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
 
 CACHE = Path(__file__).resolve().parent / ".cache"
+
+# Het register wisselt door de jaren heen van spelling: "ABN AMRO Bank N.V."
+# én "ABN AMRO Bank NV". normaliseer() maakt daar "n v" respectievelijk "nv"
+# van, en dan lijken het twee organisaties. Voor het herkennen van
+# organisaties trekken we gespatieerde rechtsvormafkortingen daarom samen.
+_LOSSE_AFKORTING = re.compile(r"\b(n v|b v|u a|s a|s e|c v)\b")
+
+
+def orgsleutel(naam: str) -> str:
+    return _LOSSE_AFKORTING.sub(lambda m: m.group(1).replace(" ", ""), normaliseer(naam))
 
 
 def boekjaar_bereik(tekst: str) -> tuple[int, int]:
@@ -90,7 +101,7 @@ def main() -> int:
             if rij.get("sleutel")
         }
         for rij in db.selecteer_alles("organisaties", "select=id,naam,kvk_nummer"):
-            org_per_naam.setdefault(normaliseer(rij["naam"]), []).append(rij)
+            org_per_naam.setdefault(orgsleutel(rij["naam"]), []).append(rij)
         bron_id = db.invoegen(
             "bronnen",
             {
@@ -143,8 +154,12 @@ def main() -> int:
                 tekst = afm_verslaggeving.tekst_uit_document(tijdelijk)
                 # Alleen de tekst bewaren: de documenten zelf zijn samen
                 # tientallen gigabytes, de teksten een paar honderd megabyte.
+                # Een vrijwel lege uitkomst (scan waar ook OCR niets van
+                # maakte) niet cachen, zodat een latere run het opnieuw
+                # probeert in plaats van het lege resultaat te hergebruiken.
                 tijdelijk.unlink()
-                tekst_pad.write_text(tekst, encoding="utf-8")
+                if len(tekst) >= 200:
+                    tekst_pad.write_text(tekst, encoding="utf-8")
         except Exception as fout:  # noqa: BLE001 — één deponering mag falen
             return rij, {"status": "fout", "reden": str(fout)[:200]}
 
@@ -199,7 +214,7 @@ def main() -> int:
             if db is None or status not in ("opdracht", "review"):
                 continue
 
-            sleutel = normaliseer(rij["instelling"])
+            sleutel = orgsleutel(rij["instelling"])
             kandidaten = org_per_naam.get(sleutel, [])
             if len(kandidaten) > 1:
                 schrijver.writerow(

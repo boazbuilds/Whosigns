@@ -165,6 +165,9 @@ def tekst_uit_document(pad: Path) -> str:
     import sys
 
     sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "extractie"))
-    from verklaring import pdf_naar_tekst
+    from verklaring import tekst_uit_pdf
 
-    return pdf_naar_tekst(str(pad))
+    # Met OCR-terugval: 2 van de 20 deponeringen uit de steekproef van
+    # boekjaar 2016 bleken gescande pdf's zonder tekstlaag.
+    tekst, _ = tekst_uit_pdf(str(pad), ocr=True)
+    return tekst
