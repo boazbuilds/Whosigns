@@ -16,7 +16,7 @@ pipeline/
     anbi_publicatie.py ✅ terugval: jaarstuk op de eigen site van een stichting
     stichtingen.py     ✅ goed doel → opdracht (cbf + terugval + kantoor_match)
     aw_dvi.py          ✅ woningcorporaties: dVi-open data, accountant als veld
-    transparantie.py   ⬜ Fase 3: OOB-cliëntlijsten
+    transparantie.py   ✅ OOB-cliëntenlijsten uit transparantieverslagen (Fase 3)
     duo.py             ⬜ Fase 4: onderwijs
     tenderned.py       ⬜ Fase 4: aanbestedingen accountantsdiensten
   extractie/
@@ -38,6 +38,8 @@ pipeline/
                           verving de vroegere laad_proefdata.py met 13 ziekenhuizen)
   laad_stichtingen.py  ✅ CBF-erkende goede doelen → Supabase (workflow "Stichtingendata")
   laad_corporaties.py  ✅ woningcorporaties → Supabase (workflow "Corporatiedata")
+  laad_transparantie.py ✅ OOB-cliënten (ASML, ABN AMRO, …) → Supabase (workflow
+                          "Transparantiedata")
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)

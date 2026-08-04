@@ -1,0 +1,67 @@
+name: Transparantiedata laden
+
+# OOB-cliëntenlijsten uit de transparantieverslagen van de zes kantoren met
+# OOB-vergunning — de enige openbare vindplaats van de accountant van banken,
+# verzekeraars en beursfondsen (ASML, ABN AMRO, Adyen). Vindplaatsen en
+# leesregels: pipeline/seed/transparantieverslagen.csv en
+# pipeline/adapters/transparantie.py.
+#
+# Gemeten (4-8-2026, zeven verslagen): 662 cliëntnamen, waarvan een flink deel
+# al bekend is uit de dVi (corporaties zijn óók OOB) — bestaande rijen winnen,
+# dit vult alleen aan wat nergens anders staat.
+#
+# Zelden nodig: alleen draaien wanneer er nieuwe verslagen aan de seed-lijst
+# zijn toegevoegd (elk voorjaar/najaar één per kantoor).
+on:
+  workflow_dispatch:
+    inputs:
+      droogloop:
+        description: "Niets naar de database schrijven; alleen het CSV-rapport"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  laden:
+    name: OOB-cliëntenlijsten laden
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: poppler installeren (pdftotext)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Kantorenlijsten bijwerken
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] && [ "$DROOGLOOP" != "true" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          [ -z "$SUPABASE_URL" ] || python3 pipeline/laad_kantoren.py --offline
+
+      - name: Transparantieverslagen laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          python3 pipeline/laad_transparantie.py \
+            $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
+
+      - name: Rapport bewaren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultaten-transparantie
+          path: pipeline/.cache/resultaat_transparantie.csv
+          if-no-files-found: ignore
+          include-hidden-files: true

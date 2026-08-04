@@ -231,6 +231,11 @@ export function kantoorOpId(id: number) {
   return haalEen<Kantoor>(`kantoren?id=eq.${id}&select=${KANTOOR_VELDEN}`);
 }
 
+/** Voor organisaties zonder KvK-nummer (uit een transparantieverslag): `o<id>`. */
+export function organisatieOpId(id: number) {
+  return haalEen<Organisatie>(`organisaties?id=eq.${id}&select=${ORG_VELDEN}`);
+}
+
 export function organisatiesOpId(ids: number[]) {
   return haalOpId<Organisatie>("organisaties", ORG_VELDEN, ids);
 }

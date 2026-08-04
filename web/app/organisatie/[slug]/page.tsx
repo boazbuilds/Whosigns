@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   opdrachtenVanOrganisatie,
+  organisatieOpId,
   organisatieOpKvk,
   organisatiesInGemeente,
   organisatiesInSector,
@@ -24,9 +25,16 @@ import { Doorklik, Foutmelding, Leeg, Oordeel } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
 
+/** `o<id>` vooraan de slug = organisatie zonder KvK-nummer (zie paden.ts). */
+function vindOrganisatie(slugdeel: string) {
+  const sleutel = nummerUitSlug(slugdeel);
+  const viaId = /^o(\d+)$/.exec(sleutel);
+  return viaId ? organisatieOpId(Number(viaId[1])) : organisatieOpKvk(sleutel);
+}
+
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
-  const org = await organisatieOpKvk(nummerUitSlug(slug)).catch(() => null);
+  const org = await vindOrganisatie(slug).catch(() => null);
   if (!org) return { title: "Organisatie niet gevonden" };
   // De noordster uit docs/visie.md, letterlijk als paginatitel: wie dit googelt
   // hoort hier uit te komen.
@@ -40,7 +48,6 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
 export default async function Organisatiepagina({ params }: Params) {
   const { slug } = await params;
-  const kvk = nummerUitSlug(slug);
 
   // Alle databasewerk binnen één try: een hapering ná de eerste vraag gaf
   // eerst een kale Next-500 in plaats van onze eigen foutmelding.
@@ -52,7 +59,7 @@ export default async function Organisatiepagina({ params }: Params) {
   let reeksen: ReturnType<typeof periodes> = [];
   let wissels: ReturnType<typeof wisseljaren> = new Set();
   try {
-    org = await organisatieOpKvk(kvk);
+    org = await vindOrganisatie(slug);
     if (org) {
       opdrachten = await opdrachtenVanOrganisatie(org.id);
       reeksen = periodes(opdrachten);
