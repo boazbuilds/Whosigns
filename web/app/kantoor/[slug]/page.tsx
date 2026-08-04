@@ -2,36 +2,44 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
-  actieveKantoren,
   kantoorOpAfm,
   kantoorOpId,
+  kantoorRanglijst,
   nieuwsteBoekjaar,
   opdrachtenVanKantoor,
   wisselingen,
+  type Kantoor,
+  type WisselingVolledig,
 } from "@/lib/db";
-import type { Kantoor, OpdrachtMetOrganisatie, WisselingVolledig } from "@/lib/db";
 import { clientenVanKantoor } from "@/lib/analyse";
 import {
   aantalControles,
   aantalJaren,
   aantalOpdrachten,
+  datumNL,
+  hoofdletter,
   jarenReeks,
   kantoorPad,
-  nummerUitSlug,
   OPDRACHT_LABEL,
   organisatiePad,
   sectorPad,
+  sleutelUitSlug,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Inklapbaar, Leeg, Oordeel } from "@/components/onderdelen";
+import {
+  Aandeelbalk,
+  Doorklik,
+  Foutmelding,
+  Inklapbaar,
+  Kerncijfer,
+  KantoorLink,
+  KortKantoorLink,
+  Kruimels,
+  Leeg,
+  Oordeel,
+  Wapen,
+} from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
-
-/** `k<id>` vooraan de slug = kantoor zonder AFM-nummer (zie paden.ts). */
-function vindKantoor(slugdeel: string) {
-  const sleutel = nummerUitSlug(slugdeel);
-  const viaId = /^k(\d+)$/.exec(sleutel);
-  return viaId ? kantoorOpId(Number(viaId[1])) : kantoorOpAfm(sleutel);
-}
 
 /**
  * Zoveel cliënten staan open; de staart zit achter een klik. Een groot kantoor
@@ -40,6 +48,90 @@ function vindKantoor(slugdeel: string) {
  * actuele deel.
  */
 const CLIENTEN_OPEN = 25;
+
+/**
+ * Zoveel mutaties staan open per kolom. Zonder grens werd de pagina van PwC
+ * 19.000 pixels lang: 57 gewonnen en 115 verloren opdrachten, allemaal
+ * uitgeschreven, met de cliëntenlijst dáár nog onder.
+ */
+const MUTATIES_OPEN = 12;
+
+/**
+ * Kolom met gewonnen of verloren opdrachten: de nieuwste open, de rest achter
+ * één klik. Eén onderdeel voor beide richtingen, want ze verschillen alleen in
+ * de kop en in welk kantoor er aan de andere kant stond.
+ */
+function Mutatiekaart({
+  titel,
+  leegtekst,
+  richting,
+  mutaties,
+}: {
+  titel: string;
+  leegtekst: string;
+  richting: string;
+  mutaties: WisselingVolledig[];
+}) {
+  const regel = (m: WisselingVolledig, sleutel: string) => (
+    <tr key={sleutel}>
+      <td className="jaar">{m.boekjaar_wissel}</td>
+      <td>
+        {m.organisatie ? (
+          <Link href={organisatiePad(m.organisatie)}>{m.organisatie.naam}</Link>
+        ) : (
+          "onbekend"
+        )}
+        <div className="klein zacht">
+          {richting} <KortKantoorLink kantoor={richting === "gegaan naar" ? m.naar : m.van} />
+        </div>
+      </td>
+    </tr>
+  );
+
+  return (
+    <section className="kaart">
+      <div className="kaartkop">
+        <h2>{titel}</h2>
+        {mutaties.length > 0 ? (
+          <span className="klein zacht">{mutaties.length}</span>
+        ) : null}
+      </div>
+      {mutaties.length === 0 ? (
+        <Leeg tekst={leegtekst} />
+      ) : (
+        <>
+          <table>
+            <tbody>
+              {mutaties
+                .slice(0, MUTATIES_OPEN)
+                .map((m) => regel(m, `${m.organisatie_id}-${m.boekjaar_wissel}`))}
+            </tbody>
+          </table>
+          {mutaties.length > MUTATIES_OPEN ? (
+            <Inklapbaar
+              samenvatting={`Nog ${mutaties.length - MUTATIES_OPEN} uit eerdere boekjaren`}
+            >
+              <table>
+                <tbody>
+                  {mutaties
+                    .slice(MUTATIES_OPEN)
+                    .map((m) => regel(m, `r${m.organisatie_id}-${m.boekjaar_wissel}`))}
+                </tbody>
+              </table>
+            </Inklapbaar>
+          ) : null}
+        </>
+      )}
+    </section>
+  );
+}
+
+/** Kantoor bij een slug: op AFM-nummer, of op id wanneer het `k<id>` draagt. */
+async function vindKantoor(slug: string): Promise<Kantoor | null> {
+  const { nummer, id } = sleutelUitSlug(slug);
+  if (id !== null) return kantoorOpId(id);
+  return nummer ? kantoorOpAfm(nummer) : null;
+}
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
@@ -56,51 +148,47 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function Kantoorpagina({ params }: Params) {
   const { slug } = await params;
 
-  // Alle databasewerk binnen één try: een hapering ná de eerste vraag gaf
-  // eerst een kale Next-500 in plaats van onze eigen foutmelding.
-  let kantoor: Kantoor | null = null;
-  let opdrachten: OpdrachtMetOrganisatie[] = [];
-  let mutaties: WisselingVolledig[] = [];
-  let concurrenten: Awaited<ReturnType<typeof actieveKantoren>> = [];
+  let kantoor;
   try {
     kantoor = await vindKantoor(slug);
-    if (kantoor) {
-      const dit = kantoor;
-      const [opdrachtenUit, mutatiesUit, boekjaar] = await Promise.all([
-        opdrachtenVanKantoor(dit.id),
-        // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
-        // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
-        // precies 50, dus het was de grens die dat getal bepaalde en niet de data.
-        wisselingen({ kantoorId: dit.id }),
-        nieuwsteBoekjaar(),
-      ]);
-      opdrachten = opdrachtenUit;
-      mutaties = mutatiesUit;
-      concurrenten = boekjaar
-        ? (await actieveKantoren(boekjaar)).filter((r) => r.kantoor_id !== dit.id)
-        : [];
-    }
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
   if (!kantoor) notFound();
+
+  const [opdrachten, mutaties, boekjaar, ranglijst] = await Promise.all([
+    opdrachtenVanKantoor(kantoor.id),
+    // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
+    // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
+    // precies 50, dus het was de grens die dat getal bepaalde en niet de data.
+    wisselingen({ kantoorId: kantoor.id }),
+    nieuwsteBoekjaar(),
+    kantoorRanglijst().catch(() => []),
+  ]);
 
   const clienten = clientenVanKantoor(opdrachten);
   const gewonnen = mutaties.filter((m) => m.naar_kantoor_id === kantoor.id);
   const verloren = mutaties.filter((m) => m.van_kantoor_id === kantoor.id);
   const alleJaren = opdrachten.map((o) => o.boekjaar);
 
-  // In welke sectoren dit kantoor werkt, grootste eerst.
+  // Plaats in de eeuwige ranglijst, en wie er direct om dit kantoor heen staan.
+  const positie = ranglijst.findIndex((r) => r.kantoor.id === kantoor.id);
+  const eigenRij = positie >= 0 ? ranglijst[positie] : null;
+  const buren =
+    positie >= 0
+      ? ranglijst.slice(Math.max(0, positie - 1), positie + 3).filter((r) => r.kantoor.id !== kantoor.id)
+      : ranglijst.slice(0, 3);
+  const marktTotaal = ranglijst.reduce((som, rij) => som + rij.aantal_controles, 0);
+
+  // In welke sectoren dit kantoor werkt, grootste eerst. Uit de eigen cliënten
+  // en niet uit de ranglijst: zo klopt het ook als de view nog niet is bijgewerkt.
   const perSector = new Map<string, number>();
   for (const client of clienten) {
     if (client.sector) perSector.set(client.sector, (perSector.get(client.sector) ?? 0) + 1);
   }
-  const eigenSectoren = [...perSector.entries()]
-    .sort((a, b) => b[1] - a[1])
-    .map(([sector]) => sector);
+  const sectorrijen = [...perSector.entries()].sort((a, b) => b[1] - a[1]);
+  const eigenSectoren = sectorrijen.map(([sector]) => sector);
 
-  // Eén keer opbouwen, twee keer gebruiken: het actuele deel open, de rest
-  // ingeklapt. De kop is hetzelfde element in beide tabellen.
   const clientkop = (
     <thead>
       <tr>
@@ -118,139 +206,178 @@ export default async function Kantoorpagina({ params }: Params) {
       <td>
         <Link
           href={organisatiePad({
-            id: client.organisatieId,
             kvk_nummer: client.kvkNummer,
             naam: client.naam,
+            id: client.organisatieId,
           })}
         >
           {client.naam}
         </Link>
       </td>
-      <td className="zacht">{client.gemeente ?? "—"}</td>
+      <td className="zacht klein">{client.gemeente ?? "—"}</td>
       <td className="zacht klein">
         {OPDRACHT_LABEL[client.typeLaatste] ?? client.typeLaatste}
       </td>
       <td className="jaar">{jarenReeks(client.jaren)}</td>
       <td className="getal zacht">{aantalJaren(client.jaren.length)}</td>
       <td>
-        <Oordeel
-          waarde={client.oordeelLaatste}
-          gerapporteerd={client.oordeelOpgaveLaatste}
-        />
+        <Oordeel waarde={client.oordeelLaatste} />
       </td>
     </tr>
   ));
 
   return (
     <>
+      <Kruimels
+        paden={[
+          { naar: "/", tekst: "Start" },
+          { naar: "/kantoren", tekst: "Kantoren" },
+          { tekst: kantoor.naam },
+        ]}
+      />
+
       <div className="paginakop">
-        <h1>{kantoor.naam}</h1>
-        <p className="metaregel">
-          <span>AFM-nummer {kantoor.afm_nummer ?? "onbekend"}</span>
-          <span>
-            {kantoor.oob_vergunning ? (
-              <span className="label label-oob">OOB-vergunning</span>
-            ) : (
-              "reguliere Wta-vergunning"
-            )}
-          </span>
-          {kantoor.website ? (
-            <span>
-              <a href={kantoor.website} rel="noreferrer nofollow" target="_blank">
-                website
-              </a>
-            </span>
+        <div className="paginakop-met-wapen">
+          <Wapen naam={kantoor.naam} maat="xl" />
+          <div>
+            <h1>{kantoor.naam}</h1>
+            <p className="metaregel">
+              {positie >= 0 ? (
+                <span>
+                  <strong>#{positie + 1}</strong> in de ranglijst
+                </span>
+              ) : null}
+              <span>
+                {kantoor.oob_vergunning ? (
+                  <span className="label label-oob">OOB-vergunning</span>
+                ) : kantoor.afm_nummer ? (
+                  "reguliere Wta-vergunning"
+                ) : (
+                  "geen Wta-vergunning"
+                )}
+              </span>
+              {kantoor.plaats ? <span>{kantoor.plaats}</span> : null}
+              <span>{jarenReeks(alleJaren)}</span>
+            </p>
+          </div>
+        </div>
+
+        <div className="kerncijfers">
+          <Kerncijfer waarde={clienten.length} naam="cliënten" />
+          <Kerncijfer waarde={opdrachten.length} naam="opdrachten" />
+          <Kerncijfer waarde={gewonnen.length} naam="gewonnen" />
+          <Kerncijfer waarde={verloren.length} naam="verloren" />
+          <Kerncijfer
+            waarde={gewonnen.length - verloren.length > 0 ? `+${gewonnen.length - verloren.length}` : gewonnen.length - verloren.length}
+            naam="saldo"
+          />
+        </div>
+      </div>
+
+      <div className="kolommen-breed-smal">
+        <section className="kaart">
+          <h2>Waar dit kantoor werkt</h2>
+          {sectorrijen.length === 0 ? (
+            <Leeg tekst="Nog geen cliënten in de database." />
+          ) : (
+            <table>
+              <thead>
+                <tr>
+                  <th>Sector</th>
+                  <th className="getal">Cliënten</th>
+                  <th>Aandeel in eigen portefeuille</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sectorrijen.map(([sector, aantal]) => (
+                  <tr key={sector}>
+                    <td>
+                      <Link href={sectorPad(sector)}>{hoofdletter(sector)}</Link>
+                    </td>
+                    <td className="getal">{aantal}</td>
+                    <td className="balkcel">
+                      <Aandeelbalk deel={aantal} geheel={clienten.length} />
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
+          {eigenRij && marktTotaal > 0 ? (
+            <p className="klein zacht" style={{ marginBottom: 0 }}>
+              Samen {aantalControles(eigenRij.aantal_controles)} over alle boekjaren
+              — {((eigenRij.aantal_controles / marktTotaal) * 100).toFixed(1)}% van
+              alles wat in deze database staat.
+            </p>
           ) : null}
-        </p>
-        <p className="samenvatting">
-          <strong>{clienten.length}</strong>{" "}
-          {clienten.length === 1 ? "cliënt" : "cliënten"} in de database
-          <span className="zacht">
-            {" "}
-            — {aantalOpdrachten(opdrachten.length)} over {jarenReeks(alleJaren)}
-            {gewonnen.length || verloren.length
-              ? `, ${gewonnen.length} gewonnen en ${verloren.length} verloren`
-              : ""}
-          </span>
-        </p>
+        </section>
+
+        <section className="kaart">
+          <h2>Over dit kantoor</h2>
+          <dl className="feiten">
+            <div>
+              <dt>AFM-nummer</dt>
+              <dd>{kantoor.afm_nummer ?? "geen (geen Wta-vergunning)"}</dd>
+            </div>
+            <div>
+              <dt>Rechtsvorm</dt>
+              <dd>{kantoor.rechtsvorm ?? "—"}</dd>
+            </div>
+            <div>
+              <dt>Vestigingsplaats</dt>
+              <dd>{kantoor.plaats ?? "—"}</dd>
+            </div>
+            <div>
+              <dt>Vergunning sinds</dt>
+              <dd>{datumNL(kantoor.vergunning_sinds)}</dd>
+            </div>
+            <div>
+              <dt>OOB-vergunning</dt>
+              <dd>{kantoor.oob_vergunning ? "ja" : "nee"}</dd>
+            </div>
+            <div>
+              <dt>Website</dt>
+              <dd>
+                {kantoor.website ? (
+                  <a href={kantoor.website} rel="noreferrer nofollow" target="_blank">
+                    {kantoor.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}
+                  </a>
+                ) : (
+                  "—"
+                )}
+              </dd>
+            </div>
+          </dl>
+          <p className="klein zacht" style={{ marginBottom: 0, marginTop: "0.85rem" }}>
+            Gegevens uit het AFM-vergunningenregister. &ldquo;Vergunning sinds&rdquo;
+            is de datum waarop de AFM de vergunning verleende, niet de
+            oprichtingsdatum van het kantoor.
+          </p>
+        </section>
       </div>
 
       <div className="kolommen">
-        <section className="kaart">
-          <h2>Gewonnen opdrachten</h2>
-          {gewonnen.length === 0 ? (
-            <Leeg tekst="Geen gewonnen opdrachten in deze periode." />
-          ) : (
-            <div className="tabel-omhulsel">
-            <table>
-              <tbody>
-                {gewonnen.map((m) => (
-                  <tr key={`w${m.organisatie_id}-${m.boekjaar_wissel}-${m.van_kantoor_id}`}>
-                    <td className="jaar">{m.boekjaar_wissel}</td>
-                    <td>
-                      {m.organisatie ? (
-                        <Link href={organisatiePad(m.organisatie)}>
-                          {m.organisatie.naam}
-                        </Link>
-                      ) : (
-                        "onbekend"
-                      )}
-                      <div className="klein zacht">
-                        overgenomen van{" "}
-                        {m.van ? (
-                          <Link href={kantoorPad(m.van)}>{m.van.naam}</Link>
-                        ) : (
-                          "?"
-                        )}
-                      </div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            </div>
-          )}
-        </section>
-
-        <section className="kaart">
-          <h2>Verloren opdrachten</h2>
-          {verloren.length === 0 ? (
-            <Leeg tekst="Geen verloren opdrachten in deze periode." />
-          ) : (
-            <div className="tabel-omhulsel">
-            <table>
-              <tbody>
-                {verloren.map((m) => (
-                  <tr key={`v${m.organisatie_id}-${m.boekjaar_wissel}-${m.naar_kantoor_id}`}>
-                    <td className="jaar">{m.boekjaar_wissel}</td>
-                    <td>
-                      {m.organisatie ? (
-                        <Link href={organisatiePad(m.organisatie)}>
-                          {m.organisatie.naam}
-                        </Link>
-                      ) : (
-                        "onbekend"
-                      )}
-                      <div className="klein zacht">
-                        gegaan naar{" "}
-                        {m.naar ? (
-                          <Link href={kantoorPad(m.naar)}>{m.naar.naam}</Link>
-                        ) : (
-                          "?"
-                        )}
-                      </div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            </div>
-          )}
-        </section>
+        <Mutatiekaart
+          titel="Gewonnen opdrachten"
+          leegtekst="Geen gewonnen opdrachten in deze periode."
+          richting="overgenomen van"
+          mutaties={gewonnen}
+        />
+        <Mutatiekaart
+          titel="Verloren opdrachten"
+          leegtekst="Geen verloren opdrachten in deze periode."
+          richting="gegaan naar"
+          mutaties={verloren}
+        />
       </div>
 
       <section className="kaart">
-        <h2>Cliënten</h2>
+        <div className="kaartkop">
+          <h2>Cliënten</h2>
+          {boekjaar ? (
+            <Link href={`/kantoren?jaar=${boekjaar}`}>Ranglijst {boekjaar} →</Link>
+          ) : null}
+        </div>
         {clienten.length === 0 ? (
           <Leeg tekst="Nog geen cliënten van dit kantoor in de database." />
         ) : (
@@ -277,20 +404,45 @@ export default async function Kantoorpagina({ params }: Params) {
         )}
       </section>
 
+      {buren.length > 0 ? (
+        <section className="kaart">
+          <h2>Om dit kantoor heen in de ranglijst</h2>
+          <table>
+            <tbody>
+              {buren.map((rij) => (
+                <tr key={rij.kantoor.id}>
+                  <td>
+                    <KantoorLink
+                      naam={rij.kantoor.naam}
+                      naar={kantoorPad(rij.kantoor)}
+                      maat="m"
+                    />
+                  </td>
+                  <td className="zacht klein">
+                    {rij.kantoor.plaats ?? <span className="zacht">—</span>}
+                  </td>
+                  <td className="getal">{rij.aantal_controles}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+      ) : null}
+
       <Doorklik
         items={[
           ...clienten.slice(0, 3).map((client) => ({
             naar: organisatiePad({
-              id: client.organisatieId,
               kvk_nummer: client.kvkNummer,
               naam: client.naam,
+              id: client.organisatieId,
             }),
             tekst: client.naam,
             toelichting: `cliënt ${jarenReeks(client.jaren)}`,
           })),
-          ...concurrenten.slice(0, 3).map((rij) => ({
-            naar: kantoorPad(rij.kantoor!),
-            tekst: rij.kantoor!.naam,
+          ...buren.slice(0, 3).map((rij) => ({
+            naar: kantoorPad(rij.kantoor),
+            tekst: rij.kantoor.naam,
             toelichting: `concurrent, ${aantalControles(rij.aantal_controles)}`,
           })),
           // De sectoren waarin dít kantoor werkt, uit zijn eigen cliënten. Hier
@@ -300,8 +452,13 @@ export default async function Kantoorpagina({ params }: Params) {
             naar: sectorPad(sector),
             tekst: `Marktaandelen in de sector ${sector}`,
           })),
+          { naar: "/kantoren", tekst: "Ranglijst van alle kantoren" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
+          {
+            naar: "/organisaties",
+            tekst: "Alle organisaties op naam",
+            toelichting: aantalOpdrachten(opdrachten.length) + " bij dit kantoor",
+          },
         ]}
       />
     </>

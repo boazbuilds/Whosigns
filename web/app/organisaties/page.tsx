@@ -8,7 +8,7 @@ import {
   sectorPad,
   subsectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
+import { Doorklik, Foutmelding, Kruimels, Leeg } from "@/components/onderdelen";
 
 export const metadata: Metadata = {
   title: "Alle organisaties",
@@ -60,6 +60,8 @@ export default async function Organisatieoverzicht() {
 
   return (
     <>
+      <Kruimels paden={[{ naar: "/", tekst: "Start" }, { tekst: "Organisaties" }]} />
+
       <div className="paginakop">
         <h1>Alle organisaties</h1>
         <p className="metaregel">

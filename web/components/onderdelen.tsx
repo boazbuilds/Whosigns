@@ -1,7 +1,13 @@
 /** Gedeelde bouwstenen voor de pagina's. */
 
 import Link from "next/link";
-import { OORDEEL_LABEL, oordeelOpvallend } from "@/lib/paden";
+import {
+  kantoorPad,
+  kortKantoor,
+  OORDEEL_LABEL,
+  oordeelOpvallend,
+} from "@/lib/paden";
+import { wapenVoor } from "@/lib/wapen";
 
 /**
  * Het oordeel als label; niet-goedkeurend krijgt nadruk.
@@ -36,6 +42,212 @@ export function Oordeel({
         </>
       ) : null}
     </>
+  );
+}
+
+/**
+ * Het wapen van een kantoor: een monogram in de huiskleur.
+ *
+ * Geen echt bedrijfslogo — zie lib/wapen.ts voor waarom niet. Het schildje is
+ * puur decoratief naast een naam die er altijd bij staat, dus voor een
+ * schermlezer is het lucht: `aria-hidden`.
+ */
+export function Wapen({
+  naam,
+  maat = "m",
+}: {
+  naam: string;
+  maat?: "s" | "m" | "l" | "xl";
+}) {
+  const wapen = wapenVoor(naam);
+  return (
+    <span
+      className={`wapen wapen-${maat}`}
+      style={{ background: wapen.kleur, color: wapen.inkt }}
+      aria-hidden="true"
+    >
+      {wapen.monogram}
+    </span>
+  );
+}
+
+/**
+ * Kantoornaam met wapen ervoor, als link.
+ *
+ * De naam staat kort ("PricewaterhouseCoopers") omdat hij in ranglijsten
+ * anders over drie regels breekt; voluit staat hij in het `title`-attribuut en
+ * op de kantoorpagina zelf. Zet `voluit` waar de ruimte er wél is.
+ */
+export function KantoorLink({
+  naam,
+  naar,
+  maat = "s",
+  voluit = false,
+}: {
+  naam: string;
+  naar: string;
+  maat?: "s" | "m" | "l";
+  voluit?: boolean;
+}) {
+  const tonen = voluit ? naam : kortKantoor(naam);
+  return (
+    <span className="naamcel">
+      <Wapen naam={naam} maat={maat} />
+      <Link href={naar} title={tonen === naam ? undefined : naam}>
+        {tonen}
+      </Link>
+    </span>
+  );
+}
+
+/**
+ * Kantoornaam als losse link, kort weergegeven.
+ *
+ * Voor transferregels ("BDO → Stolwijk Kelderman"), waar twee kantoornamen op
+ * één regel moeten passen. `null` wordt een vraagteken: dat komt voor als een
+ * wisseling naar een kantoor verwijst dat niet meer in de database staat.
+ */
+export function KortKantoorLink({
+  kantoor,
+}: {
+  kantoor: { afm_nummer: string | null; naam: string; id?: number } | null;
+}) {
+  if (!kantoor) return <span className="zacht">?</span>;
+  const kort = kortKantoor(kantoor.naam);
+  return (
+    <Link
+      href={kantoorPad(kantoor)}
+      title={kort === kantoor.naam ? undefined : kantoor.naam}
+    >
+      {kort}
+    </Link>
+  );
+}
+
+/** Positienummer in een ranglijst; de top drie krijgt kleur. */
+export function Rang({ nummer }: { nummer: number }) {
+  const klasse = nummer <= 3 ? `rang rang-${nummer}` : "rang";
+  return <span className={klasse}>{nummer}</span>;
+}
+
+/**
+ * Marktaandeel als balk plus percentage.
+ *
+ * `deel` en `geheel` in plaats van een kant-en-klaar percentage: zo staat de
+ * berekening op één plek en kan er geen pagina zijn die 100% anders afrondt.
+ */
+export function Aandeelbalk({ deel, geheel }: { deel: number; geheel: number }) {
+  const pct = geheel > 0 ? (deel / geheel) * 100 : 0;
+  return (
+    <span className="balkregel">
+      <span className="balk" role="img" aria-label={`${pct.toFixed(1)} procent`}>
+        <span style={{ width: `${Math.max(pct, 1.5)}%` }} />
+      </span>
+      <span className="pct">{pct.toFixed(1)}%</span>
+    </span>
+  );
+}
+
+/** Waar je heen kunt: een grote knop met naam, toelichting en wapens. */
+export function Tegel({
+  naar,
+  naam,
+  meta,
+  wapens = [],
+}: {
+  naar: string;
+  naam: string;
+  meta?: string;
+  wapens?: string[];
+}) {
+  return (
+    <Link href={naar} className="tegel">
+      <span className="tegelnaam">{naam}</span>
+      {meta ? <span className="tegelmeta">{meta}</span> : null}
+      {wapens.length ? (
+        <span className="tegelwapens">
+          {wapens.map((kantoornaam) => (
+            <Wapen key={kantoornaam} naam={kantoornaam} maat="s" />
+          ))}
+        </span>
+      ) : null}
+    </Link>
+  );
+}
+
+/** Eén van de top drie, groot uitgelicht. */
+export function Podiumplek({
+  plek,
+  naar,
+  naam,
+  onder,
+  groot,
+}: {
+  plek: number;
+  naar: string;
+  naam: string;
+  onder: string;
+  groot: string;
+}) {
+  return (
+    <Link href={naar} className={`podiumplek plek-${plek}`} title={naam}>
+      <Wapen naam={naam} maat="l" />
+      <span style={{ minWidth: 0 }}>
+        <span className="naam">{kortKantoor(naam)}</span>
+        <br />
+        <span className="onder">{onder}</span>
+      </span>
+      <span className="groot">{groot}</span>
+    </Link>
+  );
+}
+
+/** Eén groot getal met een naam eronder; als `naar` is gegeven, aanklikbaar. */
+export function Kerncijfer({
+  waarde,
+  naam,
+  naar,
+}: {
+  waarde: string | number;
+  naam: string;
+  naar?: string;
+}) {
+  const binnen = (
+    <>
+      <span className="waarde">{waarde}</span>
+      <span className="naam">{naam}</span>
+    </>
+  );
+  return naar ? (
+    <Link href={naar} className="kerncijfer">
+      {binnen}
+    </Link>
+  ) : (
+    <div className="kerncijfer">{binnen}</div>
+  );
+}
+
+/** Het spoor terug naar boven: Start › Sectoren › Zorg. */
+export function Kruimels({
+  paden,
+}: {
+  paden: { naar?: string; tekst: string }[];
+}) {
+  return (
+    <nav className="kruimels" aria-label="Kruimelpad">
+      {paden.map((kruimel, i) => {
+        const laatste = i === paden.length - 1;
+        return (
+          <span key={kruimel.tekst + i}>
+            {kruimel.naar && !laatste ? (
+              <Link href={kruimel.naar}>{kruimel.tekst}</Link>
+            ) : (
+              kruimel.tekst
+            )}
+          </span>
+        );
+      })}
+    </nav>
   );
 }
 

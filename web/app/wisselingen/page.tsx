@@ -1,14 +1,23 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { actieveKantoren, nieuwsteBoekjaar, wisselingen } from "@/lib/db";
+import { kantoorRanglijst, wisselingen } from "@/lib/db";
+import { saldoPerKantoor } from "@/lib/analyse";
 import {
   aantalJaren,
   aantalWisselingen,
+  hoofdletter,
   kantoorPad,
   organisatiePad,
   sectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
+import {
+  Doorklik,
+  Foutmelding,
+  KantoorLink,
+  Kerncijfer,
+  Kruimels,
+  Leeg,
+} from "@/components/onderdelen";
 
 export const metadata: Metadata = {
   title: "Accountantswisselingen",
@@ -19,14 +28,13 @@ export const metadata: Metadata = {
 
 export default async function Wisselingenpagina() {
   let rijen;
-  let kantoren;
+  let ranglijst;
   try {
-    const boekjaar = await nieuwsteBoekjaar();
-    [rijen, kantoren] = await Promise.all([
+    [rijen, ranglijst] = await Promise.all([
       // Zonder limiet: deze pagina heet "alle wisselingen" en de kop noemt het
       // aantal. Met een vaste grens van 200 stond daar "200" zodra er meer waren.
       wisselingen(),
-      boekjaar ? actieveKantoren(boekjaar) : Promise.resolve([]),
+      kantoorRanglijst().catch(() => []),
     ]);
   } catch (fout) {
     return <Foutmelding fout={fout} />;
@@ -37,21 +45,54 @@ export default async function Wisselingenpagina() {
     perJaar.set(rij.boekjaar_wissel, [...(perJaar.get(rij.boekjaar_wissel) ?? []), rij]);
   }
   const jaren = [...perJaar.keys()].sort((a, b) => b - a);
+  const drukste = jaren.length
+    ? jaren.reduce((a, b) => (perJaar.get(b)!.length > perJaar.get(a)!.length ? b : a))
+    : null;
+  const saldi = saldoPerKantoor(rijen);
+  const winnaar = saldi[0];
+  const verliezer = saldi[saldi.length - 1];
 
   return (
     <>
+      <Kruimels paden={[{ naar: "/", tekst: "Start" }, { tekst: "Wisselingen" }]} />
+
       <div className="paginakop">
         <h1>Accountantswisselingen</h1>
-        <p className="zacht" style={{ margin: "0.4rem 0 0", maxWidth: "44rem" }}>
+        <p className="zacht klein" style={{ margin: "0.4rem 0 0", maxWidth: "44rem" }}>
           Een wisseling is een boekjaar waarin een organisatie de controle door een
           ánder kantoor liet uitvoeren dan het boekjaar ervoor. Afgeleid uit de
           historie — niet uit een aankondiging.
         </p>
-        <p className="metaregel" style={{ marginTop: "0.7rem" }}>
-          <span>{aantalWisselingen(rijen.length)}</span>
-          <span>{aantalJaren(jaren.length)}</span>
-        </p>
+        <div className="kerncijfers">
+          <Kerncijfer waarde={rijen.length} naam="wisselingen" />
+          <Kerncijfer waarde={jaren.length} naam="boekjaren" />
+          {drukste ? (
+            <Kerncijfer
+              waarde={drukste}
+              naam={`drukste jaar (${perJaar.get(drukste)!.length})`}
+            />
+          ) : null}
+          {winnaar && winnaar.saldo > 0 ? (
+            <Kerncijfer waarde={`+${winnaar.saldo}`} naam={`beste saldo: ${winnaar.naam}`} />
+          ) : null}
+          {verliezer && verliezer.saldo < 0 ? (
+            <Kerncijfer
+              waarde={String(verliezer.saldo)}
+              naam={`slechtste saldo: ${verliezer.naam}`}
+            />
+          ) : null}
+        </div>
       </div>
+
+      {jaren.length > 1 ? (
+        <nav className="keuzebalk" aria-label="Spring naar een boekjaar">
+          {jaren.map((jaar) => (
+            <Link key={jaar} href={`#jaar-${jaar}`}>
+              {jaar} <span className="zacht">({perJaar.get(jaar)!.length})</span>
+            </Link>
+          ))}
+        </nav>
+      ) : null}
 
       {rijen.length === 0 ? (
         <section className="kaart">
@@ -59,8 +100,13 @@ export default async function Wisselingenpagina() {
         </section>
       ) : (
         jaren.map((jaar) => (
-          <section className="kaart" key={jaar}>
-            <h2>Boekjaar {jaar}</h2>
+          <section className="kaart" key={jaar} id={`jaar-${jaar}`}>
+            <div className="kaartkop">
+              <h2>Boekjaar {jaar}</h2>
+              <span className="klein zacht">
+                {aantalWisselingen(perJaar.get(jaar)!.length)}
+              </span>
+            </div>
             <div className="tabel-omhulsel">
               <table>
                 <thead>
@@ -73,9 +119,7 @@ export default async function Wisselingenpagina() {
                 </thead>
                 <tbody>
                   {perJaar.get(jaar)!.map((w) => (
-                    <tr
-                      key={`${w.organisatie_id}-${jaar}-${w.van_kantoor_id}-${w.naar_kantoor_id}`}
-                    >
+                    <tr key={`${w.organisatie_id}-${jaar}`}>
                       <td>
                         {w.organisatie ? (
                           <Link href={organisatiePad(w.organisatie)}>
@@ -90,22 +134,22 @@ export default async function Wisselingenpagina() {
                       </td>
                       <td>
                         {w.van ? (
-                          <Link href={kantoorPad(w.van)}>{w.van.naam}</Link>
+                          <KantoorLink naam={w.van.naam} naar={kantoorPad(w.van)} />
                         ) : (
                           <span className="zacht">?</span>
                         )}
                       </td>
                       <td>
                         {w.naar ? (
-                          <Link href={kantoorPad(w.naar)}>{w.naar.naam}</Link>
+                          <KantoorLink naam={w.naar.naam} naar={kantoorPad(w.naar)} />
                         ) : (
                           <span className="zacht">?</span>
                         )}
                       </td>
-                      <td>
+                      <td className="klein">
                         {w.organisatie?.sector ? (
                           <Link href={sectorPad(w.organisatie.sector)}>
-                            {w.organisatie.sector}
+                            {hoofdletter(w.organisatie.sector)}
                           </Link>
                         ) : (
                           <span className="zacht">—</span>
@@ -127,9 +171,9 @@ export default async function Wisselingenpagina() {
             tekst: w.organisatie?.naam ?? "",
             toelichting: `wisselde in ${w.boekjaar_wissel}`,
           })),
-          ...kantoren.slice(0, 2).map((rij) => ({
-            naar: kantoorPad(rij.kantoor!),
-            tekst: rij.kantoor!.naam,
+          ...ranglijst.slice(0, 2).map((rij) => ({
+            naar: kantoorPad(rij.kantoor),
+            tekst: rij.kantoor.naam,
             toelichting: "gewonnen en verloren opdrachten",
           })),
           // De sectoren waarin er daadwerkelijk gewisseld is; niet "zorg" vast.
@@ -139,6 +183,11 @@ export default async function Wisselingenpagina() {
               tekst: `Marktaandelen in de sector ${sector}`,
             }),
           ),
+          {
+            naar: "/kantoren",
+            tekst: "Ranglijst van kantoren met stijgers en dalers",
+            toelichting: aantalJaren(jaren.length),
+          },
           { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />

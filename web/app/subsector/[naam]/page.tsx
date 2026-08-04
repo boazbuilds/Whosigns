@@ -19,7 +19,7 @@ import {
   slug,
   veiligGedecodeerd,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
+import { Doorklik, Foutmelding, Kruimels, Leeg } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ naam: string }> };
 
@@ -113,6 +113,14 @@ export default async function Subsectorpagina({ params }: Params) {
 
   return (
     <>
+      <Kruimels
+        paden={[
+          { naar: "/", tekst: "Start" },
+          { naar: "/sectoren", tekst: "Sectoren" },
+          { tekst: subsector },
+        ]}
+      />
+
       <div className="paginakop">
         <h1>{subsector}</h1>
         <p className="metaregel">

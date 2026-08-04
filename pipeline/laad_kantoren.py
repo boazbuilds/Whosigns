@@ -86,6 +86,12 @@ def main(offline: bool = False) -> int:
                 "oob_vergunning": k["oob_vergunning"] == "ja",
                 "actief": k["status"] == "Verleend",
                 "website": k["website"] or None,
+                # Profielvelden voor de kantoorpagina; stonden al in de seed maar
+                # bleven eerder liggen. vergunning_sinds is de datum waarop de AFM
+                # de vergunning verleende, niet de oprichtingsdatum.
+                "plaats": k.get("plaats") or None,
+                "rechtsvorm": k.get("rechtsvorm") or None,
+                "vergunning_sinds": k.get("vergunning_sinds") or None,
                 "toelichting": "AFM-vergunningenregister accountantsorganisaties",
             }
             for k in kantoren
@@ -107,6 +113,7 @@ def main(offline: bool = False) -> int:
                     "actief": True,
                     "website": k.get("website") or None,
                     "kvk_nummer": k.get("kvk_nummer") or None,
+                    "plaats": k.get("plaats") or None,
                     "toelichting": k.get("toelichting") or None,
                 }
                 for k in overige
