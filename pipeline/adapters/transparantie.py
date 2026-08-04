@@ -99,7 +99,8 @@ _VERVOLG = re.compile(r"^(?:\(|[a-z])")
 # slotblok ("www.deloitte.com."), en de voetnoten van kwaliteitsindicatoren.
 _GEEN_VERVOLG = re.compile(
     r"www\.|http|kpi|percentage|reporting|survey|practice note|document|^the\b|"
-    r"stelsel|kwaliteitsbeheersing|governance|indicatoren|handreiking|ontleend", re.I
+    r"stelsel|kwaliteitsbeheersing|governance|indicatoren|handreiking|ontleend|"
+    r"\bmanagement\b", re.I
 )
 
 
