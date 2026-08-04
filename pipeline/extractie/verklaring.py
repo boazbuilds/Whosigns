@@ -35,6 +35,13 @@ from kantoor_match import normaliseer
 # jaarverslag in het Engels publiceren: in de steekproef van 40 goede doelen
 # (29-7-2026) waren dat 6 van de 38 leesbare verslagen — allemaal Nederlandse
 # controles onder de COS, alleen in een andere taal opgeschreven.
+#
+# De kale termen "ons oordeel"/"naar ons oordeel" lijken te ruim — een
+# bestuursverslag kán "naar ons oordeel was het een goed jaar" zeggen en dan
+# telt een samenstellingsdossier als controle. Gemeten op 1.282 gecachte pdf's
+# (3-8-2026): dat gebeurt nul keer, terwijl het schrappen van die termen 22
+# échte controleverklaringen zou missen — oudere sjablonen (2019) en
+# productieverantwoordingen dragen de lange kop niet. Dus: laten staan.
 SOORT_KENMERKEN = [
     (
         "controle",
@@ -203,6 +210,64 @@ CONTINUITEIT_KENMERKEN = (
     "material uncertainty related to going concern",
 )
 
+# Een ontkenning vlak vóór een kenmerk keert de betekenis om. Het NBA-model sinds
+# 2022 zegt bij een gezonde organisatie letterlijk "wij hebben geen materiële
+# onzekerheid over de continuïteit geconstateerd" — met een domme substringtest
+# kreeg elke organisatie met díe standaardzin een continuïteitsvlag. Engels net zo:
+# "did not issue an adverse opinion" is het omgekeerde van een afkeurend oordeel.
+#
+# Het venster is bewust krap (32 tekens): de ontkenning staat in deze vormen pal
+# voor het kenmerk ("geen materiële onzekerheid…", "geen aanwijzingen dat een
+# materiële onzekerheid…", "not issue an adverse opinion"). Een ruimer venster
+# keek over een zinsgrens heen en schoot echte treffers af — "niet in staat is aan
+# haar verplichtingen te voldoen, waardoor gerede twijfel…" is juist wél een
+# continuïteitsonzekerheid, met een "niet" een eind ervoor.
+#
+# Nagemeten over 1.282 gecachte pdf's (3-8-2026): deze check haalt precies de
+# twee ontkende standaardzinnen weg (27 -> 25 vlaggen) en verandert verder niets.
+_ONTKENNING = re.compile(r"\b(?:geen|niet|zonder|no|not|without)\b")
+_ONTKENNING_VENSTER = 32
+
+
+def _treffer_zonder_ontkenning(genormaliseerd: str, woord: str) -> bool:
+    """Staat het kenmerk ergens in de tekst zónder ontkenning er vlak voor?"""
+    for m in re.finditer(rf"(?<![a-z0-9]){re.escape(woord)}", genormaliseerd):
+        voor = genormaliseerd[max(0, m.start() - _ONTKENNING_VENSTER) : m.start()]
+        if not _ONTKENNING.search(voor):
+            return True
+    return False
+
+
+# Alleen de Engelse oordeeltermen zijn gevoelig voor zo'n ontkenning: die zijn
+# niet-bezittelijk, dus "adverse opinion" staat ook in "did not issue an adverse
+# opinion". De Nederlandse kenmerken dragen "ons/onze" in zich en komen in
+# ontkende vorm niet voor — die krijgen deze check bewust níét, want een "niet"
+# van een vorige zin zou anders een echte beperking naar goedkeurend degraderen.
+_ONTKENNING_GEVOELIG = {
+    "adverse opinion",
+    "qualified opinion",
+    "disclaimer of opinion",
+    "unqualified opinion",
+}
+
+
+def _oordeel(genormaliseerd: str) -> str | None:
+    for label, sleutelwoorden in OORDEEL_KENMERKEN:
+        for woord in sleutelwoorden:
+            if woord in _ONTKENNING_GEVOELIG:
+                if _treffer_zonder_ontkenning(genormaliseerd, woord):
+                    return label
+            elif re.search(rf"(?<![a-z0-9]){re.escape(woord)}", genormaliseerd):
+                return label
+    return None
+
+
+def _continuiteitsonzekerheid(genormaliseerd: str) -> bool:
+    return any(
+        _treffer_zonder_ontkenning(genormaliseerd, woord)
+        for woord in CONTINUITEIT_KENMERKEN
+    )
+
 # Verwijst de verklaring naar de Wta? Bij een wettelijke controle hoort de
 # onafhankelijkheidsparagraaf naar de Wet toezicht accountantsorganisaties te
 # verwijzen; bij een vrijwillige controle staat daar de ViO. Het is een
@@ -235,6 +300,18 @@ _KANDIDAAT_RUIS = re.compile(
     re.I,
 )
 
+# Persoonsnamen zijn nooit een kántoor. Een tekenend accountant staat in de tekst
+# als "J.P. van der Meulen RA" en het patroon hierboven viste "J.P. van der
+# Meulen RA Accountant" dan op als kandidaat — ruis in de review-queue, want een
+# persoon hoort niet in seed/kantoren_overig.csv. Initialen en beroepstitels
+# verraden een persoon. Rechtsvormafkortingen (B.V., N.V., V.O.F.) tellen niet
+# als initialen en worden eerst weggehaald. Prijs van deze keuze: een kantoor
+# dat écht "A. Jansen Accountants" heet, sneuvelt hier ook — dat is hooguit een
+# gemiste suggestie.
+_RECHTSVORM_AFKORTING = re.compile(r"\b(?:B\.?V\.?|N\.?V\.?|V\.?O\.?F\.?|C\.?V\.?|LLP)\b\.?")
+_INITIALEN = re.compile(r"\b[A-Z]\.")
+_TITEL = re.compile(r"\b(?:RA|AA|MSc|MBA|CPA|[Dd]rs|[Mm]r|[Ii]r|[Dd]r|[Pp]rof)\b")
+
 
 def kantoorkandidaten(tekst: str) -> list[str]:
     """Namen uit de tekst die op een accountantskantoor lijken, meest genoemd eerst.
@@ -247,6 +324,9 @@ def kantoorkandidaten(tekst: str) -> list[str]:
     for treffer in _KANDIDAAT.finditer(tekst):
         naam = re.sub(r"\s+", " ", treffer.group(1)).strip(" .-&")
         if len(naam) < 6 or _KANDIDAAT_RUIS.search(naam):
+            continue
+        zonder_rechtsvorm = _RECHTSVORM_AFKORTING.sub(" ", naam)
+        if _INITIALEN.search(zonder_rechtsvorm) or _TITEL.search(zonder_rechtsvorm):
             continue
         # Losse beroepsaanduidingen zonder eigennaam zeggen niets.
         if normaliseer(naam) in {
@@ -274,10 +354,24 @@ def kantoorkandidaten(tekst: str) -> list[str]:
 
 
 def pdf_naar_tekst(pad: str) -> str:
-    """Lege string als de pdf geen tekstlaag heeft (gescand)."""
-    resultaat = subprocess.run(
-        ["pdftotext", "-q", pad, "-"], capture_output=True, text=True
-    )
+    """Lege string als de pdf geen tekstlaag heeft (gescand).
+
+    Met tijdslimiet: één pathologische pdf mag geen werker (en daarmee de hele
+    ronde) eeuwig vasthouden. Bij overschrijding doen we alsof er geen tekstlaag
+    is — de OCR-route heeft zijn eigen budget. Ontbreekt pdftotext zelf, dan is
+    dat een kapotte omgeving en geen kapot document: hard falen, anders wordt
+    élke organisatie stilletjes "onleesbaar" en eindigt de run groen met niets.
+    """
+    try:
+        resultaat = subprocess.run(
+            ["pdftotext", "-q", pad, "-"], capture_output=True, text=True, timeout=120
+        )
+    except subprocess.TimeoutExpired:
+        return ""
+    except FileNotFoundError:
+        raise RuntimeError(
+            "pdftotext ontbreekt — installeer poppler-utils (zie de workflows)"
+        ) from None
     return resultaat.stdout
 
 
@@ -461,9 +555,7 @@ def analyseer(tekst: str, index: dict) -> dict:
         }
 
     soort = _eerste_treffer(genormaliseerd, SOORT_KENMERKEN)
-    oordeel = (
-        _eerste_treffer(genormaliseerd, OORDEEL_KENMERKEN) if soort == "controle" else None
-    )
+    oordeel = _oordeel(genormaliseerd) if soort == "controle" else None
     treffer = zoek_kantoor(tekst, index)
     # Een naam die niet op een ondertekeningsplek staat, is geen vastgesteld kantoor.
     # Hij gaat wél als suggestie mee naar de review-queue: iemand die het stuk erbij
@@ -487,9 +579,7 @@ def analyseer(tekst: str, index: dict) -> dict:
         "grond_beperking": (
             _grond_beperking(genormaliseerd) if oordeel == "beperking" else None
         ),
-        "continuiteitsonzekerheid": any(
-            woord in genormaliseerd for woord in CONTINUITEIT_KENMERKEN
-        ),
+        "continuiteitsonzekerheid": _continuiteitsonzekerheid(genormaliseerd),
         "kantoor": treffer["kantoor"] if treffer else None,
         # Aanwijzing dat het om een wettelijke controle gaat; de aanroeper beslist
         # wat hij ermee doet (zie laad_stichtingen.py).

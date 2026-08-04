@@ -33,6 +33,10 @@ NAAM_GEVALLEN = [
     # korte herhaling is toeval, geen dubbeling: blijft staan
     ("Tomtom", "Tomtom"),
     ("Zorg en Zorg B.V.", "Zorg en Zorg B.V."),
+    # begint met zijn eigen kop maar ís geen dubbeling: alleen inkorten als de
+    # rest exact de kop is, of de kop plus een (…)-toevoeging
+    ("Hand in Hand in Nederland", "Hand in Hand in Nederland"),
+    ("Huis in Huis in Huis", "Huis in Huis in Huis"),
     # al goed: blijft exact gelijk
     ("Stichting HagaZiekenhuis", "Stichting HagaZiekenhuis"),
 ]

@@ -25,6 +25,7 @@ hebben.
 """
 
 import csv
+import re
 import subprocess
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -175,13 +176,36 @@ _groep("Publieke en ondersteunende zorg", [
 ])
 
 
+def _paragraaftekst(p) -> str:
+    """Alle tekst van één alinea, inclusief wat in kind-elementen zit.
+
+    De oude variant nam alleen `p.text` en de staarten van kinderen mee. Tekst
+    die in een `<text:span>` staat (opmaak) viel daardoor stil weg, en de
+    ODS-notatie voor herhaalde spaties (`<text:s/>`) en tabs verdween — twee
+    woorden plakten dan zonder scheiding aan elkaar. Nagemeten op de volledige
+    jaargang 2023 (1.140 organisaties): identieke uitkomst, dus dit repareert
+    alleen de randgevallen die de oude weg stil verminkte.
+    """
+    delen = [p.text or ""]
+    for sub in p:
+        if sub.tag == f"{NS_TEXT}s":
+            delen.append(" " * int(sub.get(f"{NS_TEXT}c", 1)))
+        elif sub.tag == f"{NS_TEXT}tab":
+            delen.append("\t")
+        elif sub.tag == f"{NS_TEXT}line-break":
+            delen.append("\n")
+        else:
+            delen.append("".join(sub.itertext()))
+        delen.append(sub.tail or "")
+    return "".join(delen)
+
+
 def _celtekst(cel) -> str:
     waarde = cel.get(f"{NS_OFFICE}value")
     if waarde is not None:
         return waarde
     return "\n".join(
-        (p.text or "") + "".join(sub.tail or "" for sub in p)
-        for p in cel.iter(f"{NS_TEXT}p")
+        _paragraaftekst(p) for p in cel.iter(f"{NS_TEXT}p")
     ).strip()
 
 
@@ -268,8 +292,15 @@ def _bedrag(waarde: str) -> str:
     De bron zet bij een groot deel van de organisaties nullen in de
     honorariumvelden. Dat betekent niet dat er geen accountantskosten waren, maar
     dat de vraag niet is ingevuld. Een nul opslaan zou een onwaarheid zijn.
+
+    Twee puntconventies door elkaar: het machineattribuut (office:value) schrijft
+    "1234.5" met een decimale punt, de weergavetekst "1.234.567" met punten als
+    duizendtallen. Eén punt met één of twee cijfers erachter lezen we als
+    decimaal — anders werd 1234.5 stilletjes 12345.
     """
-    schoon = waarde.replace(".", "").replace(",", ".").strip()
+    schoon = waarde.strip()
+    if not re.fullmatch(r"\d+\.\d{1,2}", schoon):
+        schoon = schoon.replace(".", "").replace(",", ".")
     try:
         getal = float(schoon)
     except ValueError:

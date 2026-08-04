@@ -21,6 +21,7 @@ Samenstellings-/beoordelingsverklaringen en onherkende kantoren geven None —
 de aanroeper beslist wat daarmee gebeurt (overslaan, of naar review_queue).
 """
 
+import re
 import sys
 from pathlib import Path
 
@@ -49,14 +50,20 @@ def schoon_naam(naam: str) -> str:
     Het archief geeft namen soms met losse spaties ("Amarant ") en één keer zelfs
     dubbel achter elkaar: "Woon & Zorgcentrum HerfstzonWoon & Zorgcentrum
     Herfstzon (Stichting)" (KvK 41032279, nagemeten 3-8-2026). Witruimte wordt
-    samengevouwen; begint de rest van de naam met exact de kop ervoor (minstens
-    acht tekens, tegen toeval), dan vervalt die kop en blijft de volledige
-    variant met rechtsvorm over.
+    samengevouwen. De dubbeling vervalt alleen als de rest van de naam exact de
+    kop is, of de kop plus een "(…)"-toevoeging zoals de rechtsvorm. Alleen
+    "begint de rest met de kop" was niet genoeg: een echte naam als "Hand in
+    Hand in Nederland" begint ook met zijn eigen kop ("Hand in ") en werd dan
+    ten onrechte ingekort.
     """
     naam = " ".join(naam.split())
     for i in range(8, len(naam) - 7):
-        if naam[i:].startswith(naam[:i]):
-            return naam[i:]
+        kop, rest = naam[:i], naam[i:]
+        if not rest.startswith(kop):
+            continue
+        staart = rest[len(kop):]
+        if staart == "" or re.fullmatch(r" ?\(.*\)", staart):
+            return rest
     return naam
 
 

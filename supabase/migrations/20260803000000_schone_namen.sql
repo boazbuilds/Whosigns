@@ -21,11 +21,14 @@ update organisaties
  where gemeente is not null
    and gemeente <> btrim(regexp_replace(gemeente, '\s+', ' ', 'g'));
 
--- 2. Dubbel geplakte naam: begint de rest van de naam met exact de kop ervoor
---    (minstens acht tekens, tegen toeval), dan vervalt die kop.
+-- 2. Dubbel geplakte naam: de hele naam is kop + kop + eventueel een
+--    "(…)"-toevoeging zoals de rechtsvorm (kop minstens acht tekens, tegen
+--    toeval). Bewust zo strak: een echte naam als "Hand in Hand in Nederland"
+--    begint óók met zijn eigen kop, maar is geen dubbeling en blijft heel.
+--    Zelfde regel als schoon_naam in pipeline/adapters/digimv.py.
 update organisaties
-   set naam = regexp_replace(naam, '^(.{8,})\1', '\1')
- where naam ~ '^(.{8,})\1';
+   set naam = regexp_replace(naam, '^(.{8,})\1( ?\(.*\))?$', '\1\2')
+ where naam ~ '^(.{8,})\1( ?\(.*\))?$';
 
 -- 3. Gemeenten in KAPITALEN naar normale schrijfwijze. Zelfde regels als in
 --    adapters/digimv.py: tussenwoorden klein (Alphen aan den Rijn), de
@@ -73,3 +76,18 @@ update organisaties
    and gemeente <> ''
    and gemeente = upper(gemeente)
    and gemeente <> pg_temp.zet_plaats(gemeente);
+
+-- 4. Dubbele open beoordelingsgevallen opruimen. De wachtrij heeft geen unieke
+--    sleutel, en een review-organisatie krijgt geen opdracht-rij en valt dus
+--    buiten "al geladen" — elke herstart van een blok zette hetzelfde geval er
+--    daardoor opnieuw in. De laders controleren dat voortaan vóór het invoegen
+--    (supabase_client.bestaat); dit ruimt op wat er al dubbel staat, oudste
+--    blijft staan.
+delete from review_queue dubbel
+ using review_queue eerder
+ where dubbel.status = 'open'
+   and eerder.status = 'open'
+   and eerder.soort = dubbel.soort
+   and eerder.payload->>'kvk_nummer' = dubbel.payload->>'kvk_nummer'
+   and coalesce(eerder.payload->>'boekjaar', '') = coalesce(dubbel.payload->>'boekjaar', '')
+   and eerder.id < dubbel.id;

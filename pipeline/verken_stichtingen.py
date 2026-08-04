@@ -22,6 +22,7 @@ bronverkenning voor wat dat voor het datamodel betekent.
 
 import collections
 import csv
+import os
 import sys
 import tempfile
 import urllib.error
@@ -173,7 +174,11 @@ def oogst(boekjaar: int, maximum: int = 0) -> int:
             return {"naam": organisatie["naam"], "status": f"downloadfout: {fout}"}
         if inhoud is None:
             return {"naam": organisatie["naam"], "status": "geen jaarverslag"}
-        pad = Path(tempfile.mkstemp(suffix=".pdf")[1])
+        # mkstemp geeft ook een open bestandsdescriptor terug; die meteen sluiten,
+        # anders lekt er één per gedownload verslag (295 per oogst).
+        descriptor, tijdelijk = tempfile.mkstemp(suffix=".pdf")
+        os.close(descriptor)
+        pad = Path(tijdelijk)
         try:
             pad.write_bytes(inhoud)
             resultaat = analyseer(pdf_naar_tekst(str(pad)), index)

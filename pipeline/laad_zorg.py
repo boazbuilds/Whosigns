@@ -215,7 +215,7 @@ def main() -> int:
 
     db = None
     bron_id = None
-    kantoor_id_per_nummer: dict[str, int] = {}
+    kantoor_id_per_sleutel: dict[str, int] = {}
     al_geladen: set[str] = set()
     if not argumenten.droogloop:
         try:
@@ -223,11 +223,17 @@ def main() -> int:
         except SupabaseFout as fout:
             print(fout)
             return 1
-        kantoor_id_per_nummer = {
-            rij["afm_nummer"]: rij["id"]
-            for rij in db.selecteer_alles("kantoren", "select=id,afm_nummer")
+        # Op `sleutel`, niet op afm_nummer: kantoren zonder Wta-vergunning hebben
+        # afm_nummer NULL, en al die NULL's vielen in één dict-sleutel samen —
+        # een verklaring van WITh Accountants werd dan geboekt op welk ander
+        # vergunningloos kantoor toevallig als laatste binnenkwam. `sleutel` is
+        # voor iedereen gevuld en uniek (laad_kantoren.py).
+        kantoor_id_per_sleutel = {
+            rij["sleutel"]: rij["id"]
+            for rij in db.selecteer_alles("kantoren", "select=id,sleutel")
+            if rij.get("sleutel")
         }
-        if not kantoor_id_per_nummer:
+        if not kantoor_id_per_sleutel:
             print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")
             return 1
         # selecteer_alles, niet selecteer: bij meer dan duizend opdrachten in een
@@ -307,8 +313,17 @@ def main() -> int:
             rapport.flush()
 
             if db is not None:
-                kantoor_id = kantoor_id_per_nummer.get(kantoor["afm_nummer"])
+                kantoor_id = kantoor_id_per_sleutel.get(kantoor["sleutel"])
                 if kantoor_id is None:
+                    # Niet stil overslaan: dit betekent dat de seed-CSV nieuwer is
+                    # dan de database. De rij telt anders wel mee als "gevonden"
+                    # terwijl er niets is weggeschreven.
+                    print(
+                        f"  LET OP: kantoor '{kantoor['naam']}' "
+                        f"(sleutel {kantoor['sleutel']}) niet in de database — "
+                        f"draai eerst de Pipeline-workflow",
+                        flush=True,
+                    )
                     continue
 
                 org_velden = {

@@ -25,6 +25,7 @@ niet in staat, komt met de kandidaat-namen uit de tekst in de review-queue —
 nooit stil gokken.
 """
 
+import hashlib
 import sys
 from pathlib import Path
 
@@ -40,8 +41,13 @@ CACHE = Path(__file__).resolve().parents[1] / ".cache"
 
 
 def _bestandsnaam(sleutel: str, boekjaar: int, achtervoegsel: str = "") -> Path:
+    # Kappen op 60 tekens hield de bestandsnamen leesbaar, maar twee lange namen
+    # met dezelfde eerste 60 tekens deelden dan één cachebestand — en dan wordt
+    # organisatie B beoordeeld op het jaarverslag van organisatie A. De korte
+    # vingerafdruk van de vólledige naam maakt de naam alsnog uniek.
     veilig = "".join(c if c.isalnum() else "_" for c in sleutel)[:60]
-    return CACHE / f"cbf_{boekjaar}_{veilig}{achtervoegsel}.pdf"
+    vingerafdruk = hashlib.sha1(sleutel.encode()).hexdigest()[:8]
+    return CACHE / f"cbf_{boekjaar}_{veilig}_{vingerafdruk}{achtervoegsel}.pdf"
 
 
 def _opdrachttype(resultaat: dict) -> str:
