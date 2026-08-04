@@ -37,6 +37,7 @@ stil gokken.
 import argparse
 import csv
 import sys
+import urllib.parse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -133,10 +134,14 @@ def main() -> int:
             kandidaten = org_per_naam.get(sleutel, [])
             if len(kandidaten) > 1:
                 # Twee organisaties met dezelfde naam: een mens moet kiezen.
+                # De naam gaat een URL in en moet dus gecodeerd: spaties en
+                # aanhalingstekens ("Almelose Woningstichting ‘Beter Wonen’")
+                # lieten de allereerste run hierop omvallen.
                 if not db.bestaat(
                     "review_queue",
                     "soort=eq.naam_match&status=eq.open"
-                    f"&payload->>organisatie=eq.{naam}&payload->>boekjaar=eq.{boekjaar}",
+                    f"&payload->>organisatie=eq.{urllib.parse.quote(naam, safe='')}"
+                    f"&payload->>boekjaar=eq.{boekjaar}",
                 ):
                     db.invoegen(
                         "review_queue",
