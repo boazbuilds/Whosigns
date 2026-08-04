@@ -15,13 +15,21 @@ import {
   aantalJaren,
   jarenReeks,
   kantoorPad,
+  hoofdletter,
   nummerUitSlug,
   OPDRACHT_LABEL,
   organisatiePad,
   sectorPad,
   subsectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg, Oordeel } from "@/components/onderdelen";
+import {
+  Doorklik,
+  Foutmelding,
+  KantoorLink,
+  Kruimels,
+  Leeg,
+  Oordeel,
+} from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -101,6 +109,16 @@ export default async function Organisatiepagina({ params }: Params) {
 
   return (
     <>
+      <Kruimels
+        paden={[
+          { naar: "/", tekst: "Start" },
+          ...(org.sector
+            ? [{ naar: sectorPad(org.sector), tekst: hoofdletter(org.sector) }]
+            : [{ naar: "/organisaties", tekst: "Organisaties" }]),
+          { tekst: org.naam },
+        ]}
+      />
+
       <div className="paginakop">
         <h1>{org.naam}</h1>
         <p className="metaregel">

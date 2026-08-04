@@ -175,3 +175,63 @@ export function clientenVanKantoor(
       (a, b) => b.laatsteBoekjaar - a.laatsteBoekjaar || a.naam.localeCompare(b.naam),
     );
 }
+
+/** Wat een kantoor won en verloor in een periode; het saldo is de transfermarkt. */
+export type Saldorij = {
+  kantoorId: number;
+  naam: string;
+  afmNummer: string | null;
+  gewonnen: number;
+  verloren: number;
+  saldo: number;
+};
+
+/**
+ * Stijgers en dalers: per kantoor het aantal gewonnen min het aantal verloren
+ * cliënten, grootste saldo eerst.
+ *
+ * Alleen tellen wat er in de meegegeven wisselingen staat — filter die vooraf
+ * op boekjaar of sector. Kantoren zonder naam (uit de database gevallen) laten
+ * we weg in plaats van ze als "onbekend" op te tellen: een ranglijst met een
+ * naamloze koploper is erger dan een ranglijst met één regel minder.
+ */
+export function saldoPerKantoor(
+  wisselingen: {
+    van_kantoor_id: number;
+    naar_kantoor_id: number;
+    van: { naam: string; afm_nummer: string | null } | null;
+    naar: { naam: string; afm_nummer: string | null } | null;
+  }[],
+): Saldorij[] {
+  const perKantoor = new Map<number, Saldorij>();
+  const zorg = (
+    id: number,
+    kantoor: { naam: string; afm_nummer: string | null } | null,
+  ) => {
+    if (!kantoor) return null;
+    const bestaand = perKantoor.get(id);
+    if (bestaand) return bestaand;
+    const nieuw: Saldorij = {
+      kantoorId: id,
+      naam: kantoor.naam,
+      afmNummer: kantoor.afm_nummer,
+      gewonnen: 0,
+      verloren: 0,
+      saldo: 0,
+    };
+    perKantoor.set(id, nieuw);
+    return nieuw;
+  };
+
+  for (const wisseling of wisselingen) {
+    const naar = zorg(wisseling.naar_kantoor_id, wisseling.naar);
+    if (naar) naar.gewonnen += 1;
+    const van = zorg(wisseling.van_kantoor_id, wisseling.van);
+    if (van) van.verloren += 1;
+  }
+  for (const rij of perKantoor.values()) rij.saldo = rij.gewonnen - rij.verloren;
+
+  return [...perKantoor.values()].sort(
+    (a, b) => b.saldo - a.saldo || b.gewonnen - a.gewonnen || a.naam.localeCompare(b.naam, "nl"),
+  );
+}

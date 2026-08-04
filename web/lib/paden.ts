@@ -158,3 +158,96 @@ export function aantalPlaatsen(n: number): string {
 export function aantalClienten(n: number): string {
   return `${nl(n)} ${n === 1 ? "cliënt" : "cliënten"}`;
 }
+
+/**
+ * Eerste letter groot, maar afkortingen met rust laten.
+ *
+ * "zorg" wordt "Zorg"; "OOB" blijft "OOB". Zonder die uitzondering stond er
+ * "OOB" in de database en "Oob" in het menu.
+ */
+export function hoofdletter(tekst: string): string {
+  if (!tekst) return tekst;
+  if (tekst === tekst.toUpperCase()) return tekst;
+  return tekst.charAt(0).toUpperCase() + tekst.slice(1);
+}
+
+/**
+ * Wat een sector inhoudt, in één zin — voor de tegels en de sectorpagina.
+ *
+ * Sectornamen komen uit de pipeline (`sector` op de organisatie), dus dit is
+ * bewust een opzoeklijst met een terugval: een nieuwe sector verschijnt gewoon
+ * zonder zin, in plaats van de pagina te breken.
+ */
+export const SECTOR_UITLEG: Record<string, string> = {
+  zorg:
+    "Ziekenhuizen, ouderenzorg, ggz en gehandicaptenzorg — uit de jaarverantwoording " +
+    "die elke zorgaanbieder moet publiceren.",
+  OOB:
+    "Organisaties van openbaar belang: beursfondsen, banken en verzekeraars. " +
+    "Uit de transparantieverslagen van de OOB-kantoren en het AFM-register.",
+  woningcorporaties:
+    "Woningcorporaties, uit de verantwoordingsinformatie (dVi) die zij jaarlijks " +
+    "bij de Autoriteit woningcorporaties indienen.",
+  "goede doelen":
+    "Goede doelen met een CBF-erkenning, uit hun gepubliceerde jaarverslagen.",
+};
+
+/** Datum uit de database als "13 augustus 2007"; null blijft een streepje. */
+export function datumNL(waarde: string | null | undefined): string {
+  if (!waarde) return "—";
+  const datum = new Date(waarde);
+  if (Number.isNaN(datum.getTime())) return waarde;
+  return datum.toLocaleDateString("nl-NL", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+/**
+ * De sleutel uit een slug uit elkaar halen: is het een registernummer of een
+ * intern id? `k12` en `o12` betekenen "rij 12 in de tabel"; al het andere is
+ * een AFM- of KvK-nummer.
+ */
+export function sleutelUitSlug(waarde: string): { nummer: string; id: number | null } {
+  const nummer = nummerUitSlug(waarde);
+  const intern = /^[ko](\d+)$/.exec(nummer);
+  return { nummer, id: intern ? Number(intern[1]) : null };
+}
+
+/**
+ * Korte weergavenaam van een kantoor: "PricewaterhouseCoopers Accountants N.V."
+ * wordt "PricewaterhouseCoopers".
+ *
+ * Waarom: in een ranglijst staan tientallen namen onder elkaar, en de helft
+ * daarvan bestaat uit rechtsvorm en beroepsaanduiding. Voluit brak "Pricewater-
+ * houseCoopers" midden in het woord af over drie regels; kort past het op één.
+ * De volledige naam blijft in het `title`-attribuut en op de kantoorpagina zelf
+ * staan, dus er gaat niets verloren.
+ *
+ * Bewust van achteren strippen en alleen bekende sluitwoorden: zo blijft
+ * "Accountants voor de Gezondheidszorg" heel, want daar is "Accountants" de
+ * naam en niet het aanhangsel.
+ */
+const SLUITWOORDEN = new Set([
+  "bv", "b.v.", "nv", "n.v.", "llp", "ua", "u.a.", "ba", "b.a.", "se",
+  "accountants", "accountant", "registeraccountants", "registeraccountant",
+  "audit", "auditors", "assurance", "accountancy", "controle", "controlepraktijk",
+  "adviseurs", "adviseur", "advies", "belastingadviseurs", "fiscalisten",
+  "en", "&", "group", "groep", "nederland", "netherlands",
+]);
+
+export function kortKantoor(naam: string): string {
+  const opgeschoond = naam
+    .replace(/\s*\((?:netherlands|nederland)\)/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const woorden = opgeschoond.split(" ");
+  while (woorden.length > 1) {
+    const laatste = woorden[woorden.length - 1].toLowerCase().replace(/[,.]$/, "");
+    if (!SLUITWOORDEN.has(laatste) && !SLUITWOORDEN.has(`${laatste}.`)) break;
+    woorden.pop();
+  }
+  const kort = woorden.join(" ").replace(/[\s&,]+$/, "");
+  return kort || opgeschoond || naam;
+}

@@ -131,6 +131,15 @@ export type Kantoor = {
   naam: string;
   oob_vergunning: boolean;
   website: string | null;
+  /**
+   * Profielvelden uit het AFM-register; leeg voor kantoren zonder vergunning.
+   * Optioneel getypeerd omdat ze pas bestaan na migratie 20260804140000 — zie
+   * `metKantoorVelden` hieronder.
+   */
+  plaats?: string | null;
+  rechtsvorm?: string | null;
+  /** Datum waarop de AFM de vergunning verleende — niet de oprichtingsdatum. */
+  vergunning_sinds?: string | null;
 };
 
 export type Bron = {
@@ -210,7 +219,34 @@ export type Marktaandeel = {
 // maar worden hier bewust niet opgevraagd: het MVP toont de zes velden uit
 // docs/visie.md. Wie ze wil gebruiken, voegt ze hier toe — niet eerder.
 const ORG_VELDEN = "id,kvk_nummer,naam,sector,subsector,gemeente";
-const KANTOOR_VELDEN = "id,afm_nummer,naam,oob_vergunning,website";
+const KANTOOR_KERN = "id,afm_nummer,naam,oob_vergunning,website";
+const KANTOOR_PROFIEL = "plaats,rechtsvorm,vergunning_sinds";
+
+/**
+ * De profielvelden bestaan pas na migratie 20260804140000. Draait die nog niet,
+ * dan geeft PostgREST een fout op élke kantoorquery — en dat is zo'n beetje
+ * iedere pagina. Daarom: één keer proberen mét, en bij precies díe fout
+ * terugvallen op de kale set. De vlag blijft staan zolang het proces leeft, dus
+ * het kost hooguit één mislukt verzoek per serverinstantie.
+ *
+ * Alleen deze fout wordt opgevangen, op naam. Al het andere gaat door naar
+ * boven: een catch die alles opslokt is hoe je een leeg scherm onzichtbaar maakt.
+ */
+let profielBeschikbaar = true;
+
+async function metKantoorVelden<T>(bouw: (velden: string) => Promise<T>): Promise<T> {
+  if (!profielBeschikbaar) return bouw(KANTOOR_KERN);
+  try {
+    return await bouw(`${KANTOOR_KERN},${KANTOOR_PROFIEL}`);
+  } catch (fout) {
+    const mist =
+      fout instanceof DatabaseFout &&
+      KANTOOR_PROFIEL.split(",").some((veld) => fout.message.includes(veld));
+    if (!mist) throw fout;
+    profielBeschikbaar = false;
+    return bouw(KANTOOR_KERN);
+  }
+}
 
 // ---------------------------------------------------------------- opzoeken
 
@@ -221,14 +257,18 @@ export function organisatieOpKvk(kvk: string) {
 }
 
 export function kantoorOpAfm(afm: string) {
-  return haalEen<Kantoor>(
-    `kantoren?afm_nummer=eq.${encodeURIComponent(afm)}&select=${KANTOOR_VELDEN}`,
+  return metKantoorVelden((velden) =>
+    haalEen<Kantoor>(
+      `kantoren?afm_nummer=eq.${encodeURIComponent(afm)}&select=${velden}`,
+    ),
   );
 }
 
 /** Voor kantoren zonder AFM-nummer: hun URL draagt `k<id>` (zie paden.ts). */
 export function kantoorOpId(id: number) {
-  return haalEen<Kantoor>(`kantoren?id=eq.${id}&select=${KANTOOR_VELDEN}`);
+  return metKantoorVelden((velden) =>
+    haalEen<Kantoor>(`kantoren?id=eq.${id}&select=${velden}`),
+  );
 }
 
 /** Voor organisaties zonder KvK-nummer (uit een transparantieverslag): `o<id>`. */
@@ -241,7 +281,14 @@ export function organisatiesOpId(ids: number[]) {
 }
 
 export function kantorenOpId(ids: number[]) {
-  return haalOpId<Kantoor>("kantoren", KANTOOR_VELDEN, ids);
+  return metKantoorVelden((velden) => haalOpId<Kantoor>("kantoren", velden, ids));
+}
+
+/** Alle kantoren, alfabetisch — voor het kantorenoverzicht. */
+export function alleKantoren() {
+  return metKantoorVelden((velden) =>
+    haalAlles<Kantoor>(`kantoren?select=${velden}&order=naam.asc`),
+  );
 }
 
 // ---------------------------------------------------------------- bevindingen
@@ -259,7 +306,7 @@ export async function bevindingen(): Promise<Bevinding[]> {
     "opdrachten?or=(oordeel.in.(beperking,oordeelonthouding,afkeurend)," +
     "continuiteitsonzekerheid.is.true)" +
     `&select=boekjaar,type_opdracht,oordeel,${grond}continuiteitsonzekerheid,` +
-    `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_VELDEN})` +
+    `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
     "&order=boekjaar.desc,id.asc";
   try {
     return await haalAlles<Bevinding>(pad("grond_beperking,"));
@@ -289,7 +336,7 @@ export function opdrachtenVanOrganisatie(organisatieId: number) {
     `opdrachten?organisatie_id=eq.${organisatieId}` +
       `&select=boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
       `continuiteitsonzekerheid,` +
-      `kantoren(${KANTOOR_VELDEN}),bronnen(url,bron_type,betrouwbaarheid,opgehaald_op)` +
+      `kantoren(${KANTOOR_KERN}),bronnen(url,bron_type,betrouwbaarheid,opgehaald_op)` +
       `&order=boekjaar.desc`,
   );
 }
@@ -318,7 +365,7 @@ export async function opdrachtenVanOrganisaties(ids: number[]) {
     uit.push(
       ...(await haalAlles<OpdrachtMetOrganisatieId>(
         `opdrachten?organisatie_id=in.(${stuk.join(",")})` +
-          `&select=organisatie_id,boekjaar,type_opdracht,kantoren(${KANTOOR_VELDEN})` +
+          `&select=organisatie_id,boekjaar,type_opdracht,kantoren(${KANTOOR_KERN})` +
           `&order=id.asc`,
       )),
     );
@@ -469,7 +516,9 @@ export function zoekOrganisaties(term: string, limiet = 50) {
 }
 
 export function zoekKantoren(term: string, limiet = 50) {
-  return zoek<Kantoor>("kantoren", KANTOOR_VELDEN, term, limiet);
+  return metKantoorVelden((velden) =>
+    zoek<Kantoor>("kantoren", velden, term, limiet),
+  );
 }
 
 // ---------------------------------------------------------------- afgeleiden
@@ -589,4 +638,69 @@ export async function marktaandeel(sector: string, boekjaar?: number) {
   const kantoren = await kantorenOpId(rijen.map((r) => r.kantoor_id));
   const kantoorPerId = new Map(kantoren.map((k) => [k.id, k]));
   return rijen.map((r) => ({ ...r, kantoor: kantoorPerId.get(r.kantoor_id) ?? null }));
+}
+
+/** Eén rij van de kantorenranglijst: het kantoor, zijn totaal en per sector. */
+export type Ranglijstrij = {
+  kantoor: Kantoor;
+  aantal_controles: number;
+  /** Sectornaam -> aantal controles, grootste eerst. */
+  perSector: [string, number][];
+};
+
+/**
+ * De ranglijst van kantoren: wie controleert er het meest.
+ *
+ * Zonder `boekjaar` telt hij álle boekjaren op (de eeuwige ranglijst), met een
+ * boekjaar alleen dat jaar. Optellen moet hier gebeuren en niet in de view:
+ * `v_marktaandeel` groepeert óók op sector, dus een kantoor dat zowel
+ * zorginstellingen als goede doelen controleert staat er meerdere keren in.
+ */
+export async function kantoorRanglijst(boekjaar?: number): Promise<Ranglijstrij[]> {
+  const filter = boekjaar ? `&boekjaar=eq.${boekjaar}` : "";
+  const rijen = await haalAlles<Marktaandeel>(
+    `v_marktaandeel?select=boekjaar,sector,kantoor_id,aantal_controles${filter}`,
+  );
+
+  const totaal = new Map<number, number>();
+  const sectoren = new Map<number, Map<string, number>>();
+  for (const rij of rijen) {
+    totaal.set(rij.kantoor_id, (totaal.get(rij.kantoor_id) ?? 0) + rij.aantal_controles);
+    const sector = rij.sector ?? "onbekend";
+    const perSector = sectoren.get(rij.kantoor_id) ?? new Map<string, number>();
+    perSector.set(sector, (perSector.get(sector) ?? 0) + rij.aantal_controles);
+    sectoren.set(rij.kantoor_id, perSector);
+  }
+
+  const kantoren = await kantorenOpId([...totaal.keys()]);
+  const kantoorPerId = new Map(kantoren.map((k) => [k.id, k]));
+  return [...totaal.entries()]
+    .map(([id, aantal_controles]) => ({
+      kantoor: kantoorPerId.get(id) ?? null,
+      aantal_controles,
+      perSector: [...(sectoren.get(id) ?? new Map())].sort((a, b) => b[1] - a[1]) as [
+        string,
+        number,
+      ][],
+    }))
+    .filter((rij): rij is Ranglijstrij => rij.kantoor !== null)
+    .sort(
+      (a, b) =>
+        b.aantal_controles - a.aantal_controles ||
+        a.kantoor.naam.localeCompare(b.kantoor.naam, "nl"),
+    );
+}
+
+/**
+ * De boekjaren waarvoor er überhaupt controles zijn, nieuwste eerst.
+ *
+ * Voor de jaarkiezer boven een ranglijst. Uit `v_marktaandeel` en niet uit
+ * `opdrachten`, zodat de kiezer precies de jaren toont waar ook echt een
+ * ranglijst bij hoort.
+ */
+export async function boekjarenMetControles(): Promise<number[]> {
+  const rijen = await haalAlles<{ boekjaar: number }>(
+    "v_marktaandeel?select=boekjaar&order=boekjaar.desc",
+  );
+  return [...new Set(rijen.map((r) => r.boekjaar))].sort((a, b) => b - a);
 }

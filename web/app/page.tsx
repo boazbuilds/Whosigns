@@ -1,30 +1,42 @@
 import Link from "next/link";
 import {
-  actieveKantoren,
+  kantoorRanglijst,
   nieuwsteBoekjaar,
   oudsteBoekjaar,
   sectoren,
-  subsectoren,
   tel,
   wisselingen,
 } from "@/lib/db";
+import { saldoPerKantoor } from "@/lib/analyse";
 import {
   aantalControles,
   aantalOpdrachten,
   aantalOrganisaties,
+  hoofdletter,
   kantoorPad,
+  nl,
   organisatiePad,
+  SECTOR_UITLEG,
   sectorPad,
-  subsectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Inklapbaar, Leeg } from "@/components/onderdelen";
+import {
+  Aandeelbalk,
+  Doorklik,
+  Foutmelding,
+  KantoorLink,
+  Kerncijfer,
+  KortKantoorLink,
+  Leeg,
+  Podiumplek,
+  Rang,
+  Tegel,
+} from "@/components/onderdelen";
 
 /**
- * Zoveel kantoren staan open; de staart zit achter een klik. Tien is genoeg om te
- * zien wie de markt maakt — de kantoren met één of twee controles zijn een
- * naslaglijst, geen voorpagina.
+ * Zoveel kantoren staan in de ranglijst op de voorpagina. Tien is genoeg om te
+ * zien wie de markt maakt; de rest staat op /kantoren.
  */
-const KANTOREN_OPEN = 10;
+const KANTOREN_OP_VOORPAGINA = 10;
 
 export default async function Startpagina() {
   let inhoud;
@@ -34,77 +46,158 @@ export default async function Startpagina() {
       organisatieTotaal,
       opdrachtTotaal,
       laatsteWisselingen,
-      kantoren,
+      ranglijst,
+      ranglijstAlles,
       sectorlijst,
-      subsectorlijst,
-      eersteBoekjaar,
+      vroegste,
     ] = await Promise.all([
       // Tellen in de database, niet de rijen ophalen en die tellen: dat laatste
       // gaf "200 organisaties" omdat de lijst op 200 was afgekapt.
       tel("organisaties"),
       tel("opdrachten"),
-      wisselingen({ limiet: 8 }),
-      actieveKantoren(boekjaar),
-      // Geen .catch(() => []) meer: een databasestoring werd zo "De subsectoren
+      wisselingen({ limiet: 10 }),
+      kantoorRanglijst(boekjaar),
+      kantoorRanglijst(),
+      // Geen .catch(() => []) meer: een databasestoring werd zo "De sectoren
       // worden nog bijgewerkt" — een storing verkleed als normale toestand. De
       // try om dit hele blok toont dan gewoon de foutmelding.
       sectoren(),
-      subsectoren(),
       oudsteBoekjaar(),
     ]);
 
-    // Eén keer opbouwen, twee keer gebruiken: de eerste tien open, de rest
-    // ingeklapt. De kop is hetzelfde element in beide tabellen.
-    const kantoorkop = (
-      <thead>
-        <tr>
-          <th>Kantoor</th>
-          <th className="getal">Controles</th>
-        </tr>
-      </thead>
-    );
-    const kantoorrijen = kantoren.map((rij) => (
-      <tr key={rij.kantoor_id}>
-        <td>
-          <Link href={kantoorPad(rij.kantoor!)}>{rij.kantoor!.naam}</Link>
-          {rij.kantoor!.oob_vergunning ? (
-            <> <span className="label label-oob">OOB</span></>
-          ) : null}
-        </td>
-        <td className="getal">{rij.aantal_controles}</td>
-      </tr>
-    ));
+    const totaalDitJaar = ranglijst.reduce((som, rij) => som + rij.aantal_controles, 0);
+    const saldi = saldoPerKantoor(laatsteWisselingen);
+    const topWapens = new Map<string, string[]>();
+    for (const sector of sectorlijst) {
+      topWapens.set(
+        sector.naam,
+        ranglijstAlles
+          .map((rij) => ({
+            naam: rij.kantoor.naam,
+            aantal: rij.perSector.find(([s]) => s === sector.naam)?.[1] ?? 0,
+          }))
+          .filter((rij) => rij.aantal > 0)
+          .sort((a, b) => b.aantal - a.aantal)
+          .slice(0, 5)
+          .map((rij) => rij.naam),
+      );
+    }
 
     inhoud = (
       <>
         <div className="paginakop">
           <h1>Wie controleert wie?</h1>
-          <p className="metaregel" style={{ marginTop: "0.5rem" }}>
-            <span>{aantalOrganisaties(organisatieTotaal)}</span>
-            <span>{aantalOpdrachten(opdrachtTotaal)}</span>
-            {eersteBoekjaar ? (
-              <span>
-                {eersteBoekjaar === boekjaar
-                  ? `boekjaar ${boekjaar}`
-                  : `boekjaren ${eersteBoekjaar}–${boekjaar}`}
-              </span>
-            ) : null}
+          <p className="klein zacht" style={{ marginTop: "0.4rem", maxWidth: "44rem" }}>
+            De accountantsmarkt van Nederland als doorklikbaar naslagwerk: welk
+            kantoor tekent bij welke organisatie, in welk boekjaar, en wanneer er
+            werd gewisseld. Alles uit openbare bronnen, met de vindplaats erbij.
           </p>
+          <div className="kerncijfers">
+            <Kerncijfer
+              waarde={nl(organisatieTotaal)}
+              naam="organisaties"
+              naar="/organisaties"
+            />
+            <Kerncijfer waarde={nl(opdrachtTotaal)} naam="opdrachten" />
+            <Kerncijfer
+              waarde={nl(ranglijstAlles.length)}
+              naam="kantoren"
+              naar="/kantoren"
+            />
+            <Kerncijfer
+              waarde={sectorlijst.length}
+              naam="sectoren"
+              naar="/sectoren"
+            />
+            <Kerncijfer
+              waarde={vroegste ? `${vroegste}–${boekjaar}` : `t/m ${boekjaar}`}
+              naam="boekjaren"
+            />
+          </div>
         </div>
 
-        <div className="kolommen">
+        {ranglijst.length >= 3 ? (
           <section className="kaart">
-            <h2>Recente accountantswisselingen</h2>
+            <div className="kaartkop">
+              <h2>De grootste kantoren in boekjaar {boekjaar}</h2>
+              <Link href="/kantoren">Hele ranglijst →</Link>
+            </div>
+            <div className="podium">
+              {ranglijst.slice(0, 3).map((rij, i) => (
+                <Podiumplek
+                  key={rij.kantoor.id}
+                  plek={i + 1}
+                  naar={kantoorPad(rij.kantoor)}
+                  naam={rij.kantoor.naam}
+                  onder={`${((rij.aantal_controles / totaalDitJaar) * 100).toFixed(1)}% van de markt`}
+                  groot={String(rij.aantal_controles)}
+                />
+              ))}
+            </div>
+          </section>
+        ) : null}
+
+        <div className="kolommen-breed-smal">
+          <section className="kaart">
+            <div className="kaartkop">
+              <h2>Ranglijst {boekjaar}</h2>
+              <Link href={`/kantoren?jaar=${boekjaar}`}>Alle kantoren →</Link>
+            </div>
+            {ranglijst.length === 0 ? (
+              <Leeg tekst="Nog geen opdrachten in dit boekjaar." />
+            ) : (
+              <div className="tabel-omhulsel">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Kantoor</th>
+                      <th className="getal">Controles</th>
+                      <th>Aandeel</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {ranglijst.slice(0, KANTOREN_OP_VOORPAGINA).map((rij, i) => (
+                      <tr key={rij.kantoor.id}>
+                        <td className="rangcel">
+                          <Rang nummer={i + 1} />
+                        </td>
+                        <td>
+                          <KantoorLink
+                            naam={rij.kantoor.naam}
+                            naar={kantoorPad(rij.kantoor)}
+                            maat="m"
+                          />
+                        </td>
+                        <td className="getal">
+                          <strong>{rij.aantal_controles}</strong>
+                        </td>
+                        <td className="balkcel">
+                          <Aandeelbalk
+                            deel={rij.aantal_controles}
+                            geheel={totaalDitJaar}
+                          />
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </section>
+
+          <section className="kaart">
+            <div className="kaartkop">
+              <h2>Laatste transfers</h2>
+              <Link href="/wisselingen">Alle →</Link>
+            </div>
             {laatsteWisselingen.length === 0 ? (
               <Leeg tekst="Nog geen wisselingen in de database." />
             ) : (
-              <div className="tabel-omhulsel">
               <table>
                 <tbody>
                   {laatsteWisselingen.map((w) => (
-                    <tr
-                      key={`${w.organisatie_id}-${w.boekjaar_wissel}-${w.van_kantoor_id}-${w.naar_kantoor_id}`}
-                    >
+                    <tr key={`${w.organisatie_id}-${w.boekjaar_wissel}`}>
                       <td className="jaar">{w.boekjaar_wissel}</td>
                       <td>
                         {w.organisatie ? (
@@ -115,102 +208,57 @@ export default async function Startpagina() {
                           "onbekend"
                         )}
                         <div className="klein zacht">
-                          {w.van ? (
-                            <Link href={kantoorPad(w.van)}>{w.van.naam}</Link>
-                          ) : (
-                            "?"
-                          )}{" "}
-                          →{" "}
-                          {w.naar ? (
-                            <Link href={kantoorPad(w.naar)}>{w.naar.naam}</Link>
-                          ) : (
-                            "?"
-                          )}
+                          <KortKantoorLink kantoor={w.van} /> →{" "}
+                          <KortKantoorLink kantoor={w.naar} />
                         </div>
                       </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
-              </div>
             )}
-            <p className="klein" style={{ marginBottom: 0 }}>
-              <Link href="/wisselingen">Alle wisselingen →</Link>
-            </p>
-          </section>
-
-          <section className="kaart">
-            <h2>Accountantskantoren in {boekjaar}</h2>
-            {kantoren.length === 0 ? (
-              <Leeg tekst="Nog geen opdrachten in dit boekjaar." />
-            ) : (
-              <>
-                <div className="tabel-omhulsel">
-                  <table>
-                    {kantoorkop}
-                    <tbody>{kantoorrijen.slice(0, KANTOREN_OPEN)}</tbody>
-                  </table>
-                </div>
-                {kantoorrijen.length > KANTOREN_OPEN ? (
-                  <Inklapbaar
-                    samenvatting={`Nog ${kantoorrijen.length - KANTOREN_OPEN} kantoren met minder controles`}
-                  >
-                    <div className="tabel-omhulsel">
-                      <table>
-                        {kantoorkop}
-                        <tbody>{kantoorrijen.slice(KANTOREN_OPEN)}</tbody>
-                      </table>
-                    </div>
-                  </Inklapbaar>
-                ) : null}
-              </>
-            )}
-            <p className="klein" style={{ marginBottom: 0 }}>
-              <Link href={sectorPad("zorg")}>Marktaandeel in de zorg →</Link>
-            </p>
+            {saldi.length > 0 ? (
+              <p className="klein zacht" style={{ marginBottom: 0 }}>
+                Beste saldo in deze reeks:{" "}
+                <strong>{saldi[0].naam}</strong> ({saldi[0].saldo > 0 ? "+" : ""}
+                {saldi[0].saldo}).
+              </p>
+            ) : null}
           </section>
         </div>
 
-        {/* De alfabetische lijst van álle organisaties stond hier eerst helemaal
-            uitgeschreven. Dat is een naslagwerk en geen voorpagina; hij heeft nu
-            zijn eigen adres. Wat hier blijft staan is de ingang: kies een
-            subsector, of ga naar de volledige lijst. */}
         <section className="kaart">
-          <h2>Organisaties</h2>
-          {subsectorlijst.length === 0 ? (
-            <Leeg tekst="De subsectoren worden nog bijgewerkt." />
+          <div className="kaartkop">
+            <h2>Kies een sector</h2>
+            <Link href="/sectoren">Alle sectoren →</Link>
+          </div>
+          {sectorlijst.length === 0 ? (
+            <Leeg tekst="De sectoren worden nog bijgewerkt." />
           ) : (
-            <div className="tabel-omhulsel">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Subsector</th>
-                    <th className="getal">Organisaties</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {subsectorlijst.map((rij) => (
-                    <tr key={rij.naam}>
-                      <td>
-                        <Link href={subsectorPad(rij.naam)}>{rij.naam}</Link>
-                      </td>
-                      <td className="getal">{rij.aantal}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+            <div className="tegels">
+              {sectorlijst.map((sector) => (
+                <Tegel
+                  key={sector.naam}
+                  naar={sectorPad(sector.naam)}
+                  naam={hoofdletter(sector.naam)}
+                  meta={
+                    SECTOR_UITLEG[sector.naam] ?? aantalOrganisaties(sector.aantal)
+                  }
+                  wapens={topWapens.get(sector.naam) ?? []}
+                />
+              ))}
             </div>
           )}
-          <p className="klein" style={{ marginBottom: 0 }}>
-            <Link href="/organisaties">
-              Alle {organisatieTotaal.toLocaleString("nl-NL")} organisaties op naam →
-            </Link>
-          </p>
         </section>
 
         <Doorklik
           titel="Beginnen met klikken"
           items={[
+            {
+              naar: "/kantoren",
+              tekst: "Ranglijst van alle kantoren",
+              toelichting: `${ranglijstAlles.length} met controles`,
+            },
             { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
             {
               naar: "/bevindingen",
@@ -219,20 +267,23 @@ export default async function Startpagina() {
             {
               naar: "/organisaties",
               tekst: "Alle organisaties op naam",
-              toelichting: `${organisatieTotaal.toLocaleString("nl-NL")} in de database`,
+              toelichting: aantalOrganisaties(organisatieTotaal),
             },
-            // Alle sectoren die er zijn, niet alleen de zorg: de goede doelen
-            // hadden anders geen ingang vanaf de voorpagina.
             ...sectorlijst.map((s) => ({
               naar: sectorPad(s.naam),
               tekst: `Sector ${s.naam}: marktaandelen`,
-              toelichting: `${s.aantal} organisaties`,
+              toelichting: aantalOrganisaties(s.aantal),
             })),
-            ...kantoren.slice(0, 3).map((rij) => ({
-              naar: kantoorPad(rij.kantoor!),
-              tekst: rij.kantoor!.naam,
+            ...ranglijst.slice(0, 3).map((rij) => ({
+              naar: kantoorPad(rij.kantoor),
+              tekst: rij.kantoor.naam,
               toelichting: `${aantalControles(rij.aantal_controles)} in ${boekjaar}`,
             })),
+            {
+              naar: "/sectoren",
+              tekst: "Sectoren vergelijken",
+              toelichting: aantalOpdrachten(opdrachtTotaal),
+            },
           ]}
         />
       </>
