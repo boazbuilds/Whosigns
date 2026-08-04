@@ -6,9 +6,9 @@ name: Transparantiedata laden
 # leesregels: pipeline/seed/transparantieverslagen.csv en
 # pipeline/adapters/transparantie.py.
 #
-# Gemeten (4-8-2026, zeven verslagen): 662 cliëntnamen, waarvan een flink deel
-# al bekend is uit de dVi (corporaties zijn óók OOB) — bestaande rijen winnen,
-# dit vult alleen aan wat nergens anders staat.
+# Gemeten (4-8-2026, negentien verslagen): 2.258 cliëntregels, waarvan een
+# flink deel al bekend is uit de dVi (corporaties zijn óók OOB) — bestaande
+# rijen winnen, dit vult alleen aan wat nergens anders staat.
 #
 # Zelden nodig: alleen draaien wanneer er nieuwe verslagen aan de seed-lijst
 # zijn toegevoegd (elk voorjaar/najaar één per kantoor).
