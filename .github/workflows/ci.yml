@@ -28,6 +28,8 @@ jobs:
         run: python3 pipeline/test_transparantie.py
       - name: AFM-register verslaggeving lezen
         run: python3 pipeline/test_afm_verslaggeving.py
+      - name: Kantoorcliënten uit openbare jaarstukken
+        run: python3 pipeline/test_kantoorclienten.py
       - name: Alles compileert
         run: python3 -m compileall -q pipeline
 
