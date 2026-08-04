@@ -118,6 +118,7 @@ export default async function Kantoorpagina({ params }: Params) {
       <td>
         <Link
           href={organisatiePad({
+            id: client.organisatieId,
             kvk_nummer: client.kvkNummer,
             naam: client.naam,
           })}
@@ -279,7 +280,11 @@ export default async function Kantoorpagina({ params }: Params) {
       <Doorklik
         items={[
           ...clienten.slice(0, 3).map((client) => ({
-            naar: organisatiePad({ kvk_nummer: client.kvkNummer, naam: client.naam }),
+            naar: organisatiePad({
+              id: client.organisatieId,
+              kvk_nummer: client.kvkNummer,
+              naam: client.naam,
+            }),
             tekst: client.naam,
             toelichting: `cliënt ${jarenReeks(client.jaren)}`,
           })),

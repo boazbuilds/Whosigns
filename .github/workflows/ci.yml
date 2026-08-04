@@ -24,6 +24,8 @@ jobs:
         run: python3 pipeline/test_kantoor_match.py
       - name: Naam- en plaatsschoonmaak
         run: python3 pipeline/test_digimv.py
+      - name: OOB-cliëntenlijsten lezen
+        run: python3 pipeline/test_transparantie.py
       - name: Alles compileert
         run: python3 -m compileall -q pipeline
 

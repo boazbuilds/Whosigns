@@ -36,8 +36,14 @@ export function nummerUitSlug(waarde: string): string {
   return veiligGedecodeerd(waarde).split("-")[0];
 }
 
-export function organisatiePad(org: Pick<Organisatie, "kvk_nummer" | "naam">): string {
-  return `/organisatie/${org.kvk_nummer ?? ""}-${slug(org.naam)}`;
+/** Organisaties uit een transparantieverslag hebben geen KvK-nummer (het
+ *  verslag noemt alleen namen); die krijgen `o<id>` als sleutel — zelfde
+ *  oplossing als `k<id>` voor kantoren zonder AFM-nummer hieronder. */
+export function organisatiePad(
+  org: Pick<Organisatie, "kvk_nummer" | "naam"> & { id?: number },
+): string {
+  const sleutel = org.kvk_nummer ?? (org.id != null ? `o${org.id}` : "");
+  return `/organisatie/${sleutel}-${slug(org.naam)}`;
 }
 
 /** Kantoren zónder AFM-nummer (geen Wta-vergunning, zoals WITh Accountants)
