@@ -20,17 +20,36 @@ export function slug(naam: string): string {
     .slice(0, 60);
 }
 
+/** decodeURIComponent, maar zonder te crashen op een adres als `/sector/50%`.
+ *  Next levert params al gedecodeerd aan; een kapot percentteken hoort een
+ *  404 op te leveren, geen 500. */
+export function veiligGedecodeerd(waarde: string): string {
+  try {
+    return decodeURIComponent(waarde);
+  } catch {
+    return waarde;
+  }
+}
+
 /** Het nummer terug uit de URL halen: alles vóór het eerste koppelteken. */
 export function nummerUitSlug(waarde: string): string {
-  return decodeURIComponent(waarde).split("-")[0];
+  return veiligGedecodeerd(waarde).split("-")[0];
 }
 
 export function organisatiePad(org: Pick<Organisatie, "kvk_nummer" | "naam">): string {
   return `/organisatie/${org.kvk_nummer ?? ""}-${slug(org.naam)}`;
 }
 
-export function kantoorPad(kantoor: Pick<Kantoor, "afm_nummer" | "naam">): string {
-  return `/kantoor/${kantoor.afm_nummer ?? ""}-${slug(kantoor.naam)}`;
+/** Kantoren zónder AFM-nummer (geen Wta-vergunning, zoals WITh Accountants)
+ *  krijgen `k<id>` als sleutel in de URL. Met alleen het AFM-nummer was hun
+ *  adres `/kantoor/-with-accountants-b-v` en liep élke link naar zo'n kantoor
+ *  dood op een 404 — terwijl juist zij in de goededoelensector de meeste
+ *  verklaringen tekenen. */
+export function kantoorPad(
+  kantoor: Pick<Kantoor, "afm_nummer" | "naam"> & { id?: number },
+): string {
+  const sleutel = kantoor.afm_nummer ?? (kantoor.id != null ? `k${kantoor.id}` : "");
+  return `/kantoor/${sleutel}-${slug(kantoor.naam)}`;
 }
 
 export function sectorPad(sector: string): string {
@@ -73,9 +92,23 @@ export const OPDRACHT_LABEL: Record<string, string> = {
   isae: "ISAE-opdracht",
 };
 
-/** Alleen dit type is een wettelijke controle van de jaarrekening. De views in
- *  SQL filteren hier ook op, zodat marktaandelen kloppen. */
+/** Alleen dit type is een wettelijke controle van de jaarrekening. */
 export const WETTELIJKE_CONTROLE = "wettelijke_controle";
+
+/** De typen die de SQL-views meetellen in marktaandelen en wisselingen
+ *  (migratie 20260730000000: wettelijk én vrijwillig). Elke pagina die zelf
+ *  controles telt, hoort op déze set te filteren — de subsectorpagina telde
+ *  alleen wettelijke en sprak daarmee de sectorpagina tegen, een verschil van
+ *  ruim duizend vrijwillige controles. */
+export const CONTROLE_TYPES: readonly string[] = [
+  "wettelijke_controle",
+  "vrijwillige_controle",
+];
+
+/** Nederlandse notatie voor aantallen: 1.142 in plaats van 1142. */
+export function nl(n: number): string {
+  return n.toLocaleString("nl-NL");
+}
 
 export function jarenReeks(jaren: number[]): string {
   if (!jaren.length) return "—";
@@ -95,27 +128,27 @@ export function aantalControles(n: number): string {
 
 // Meervoud voor de aantallen in de kopregels. Zonder dit stond er "1 organisaties"
 // op elke zoekopdracht met één treffer, en dat is precies waar iemand het eerst
-// naar kijkt.
+// naar kijkt. Alles in Nederlandse notatie: "5.146 opdrachten", niet "5146".
 export function aantalOrganisaties(n: number): string {
-  return `${n} ${n === 1 ? "organisatie" : "organisaties"}`;
+  return `${nl(n)} ${n === 1 ? "organisatie" : "organisaties"}`;
 }
 
 export function aantalKantoren(n: number): string {
-  return `${n} ${n === 1 ? "accountantskantoor" : "accountantskantoren"}`;
+  return `${nl(n)} ${n === 1 ? "accountantskantoor" : "accountantskantoren"}`;
 }
 
 export function aantalWisselingen(n: number): string {
-  return `${n} ${n === 1 ? "wisseling" : "wisselingen"}`;
+  return `${nl(n)} ${n === 1 ? "wisseling" : "wisselingen"}`;
 }
 
 export function aantalOpdrachten(n: number): string {
-  return `${n} ${n === 1 ? "opdracht" : "opdrachten"}`;
+  return `${nl(n)} ${n === 1 ? "opdracht" : "opdrachten"}`;
 }
 
 export function aantalPlaatsen(n: number): string {
-  return `${n} ${n === 1 ? "plaats" : "plaatsen"}`;
+  return `${nl(n)} ${n === 1 ? "plaats" : "plaatsen"}`;
 }
 
 export function aantalClienten(n: number): string {
-  return `${n} ${n === 1 ? "cliënt" : "cliënten"}`;
+  return `${nl(n)} ${n === 1 ? "cliënt" : "cliënten"}`;
 }

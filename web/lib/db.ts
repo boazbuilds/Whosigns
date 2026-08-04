@@ -136,6 +136,8 @@ export type Kantoor = {
 export type Bron = {
   url: string | null;
   bron_type: string;
+  /** publiek | zelf_aangeleverd — de labelplicht uit docs/concept.md. */
+  betrouwbaarheid: string | null;
   opgehaald_op: string;
 };
 
@@ -224,6 +226,11 @@ export function kantoorOpAfm(afm: string) {
   );
 }
 
+/** Voor kantoren zonder AFM-nummer: hun URL draagt `k<id>` (zie paden.ts). */
+export function kantoorOpId(id: number) {
+  return haalEen<Kantoor>(`kantoren?id=eq.${id}&select=${KANTOOR_VELDEN}`);
+}
+
 export function organisatiesOpId(ids: number[]) {
   return haalOpId<Organisatie>("organisaties", ORG_VELDEN, ids);
 }
@@ -248,7 +255,7 @@ export async function bevindingen(): Promise<Bevinding[]> {
     "continuiteitsonzekerheid.is.true)" +
     `&select=boekjaar,type_opdracht,oordeel,${grond}continuiteitsonzekerheid,` +
     `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_VELDEN})` +
-    "&order=boekjaar.desc";
+    "&order=boekjaar.desc,id.asc";
   try {
     return await haalAlles<Bevinding>(pad("grond_beperking,"));
   } catch (fout) {
@@ -277,9 +284,41 @@ export function opdrachtenVanOrganisatie(organisatieId: number) {
     `opdrachten?organisatie_id=eq.${organisatieId}` +
       `&select=boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
       `continuiteitsonzekerheid,` +
-      `kantoren(${KANTOOR_VELDEN}),bronnen(url,bron_type,opgehaald_op)` +
+      `kantoren(${KANTOOR_VELDEN}),bronnen(url,bron_type,betrouwbaarheid,opgehaald_op)` +
       `&order=boekjaar.desc`,
   );
+}
+
+/** Opdrachten van een hele lijst organisaties, opgezocht in stukken.
+ *
+ * Voor de subsectorpagina: die rekende eerst per organisatie een los verzoek
+ * (250 verzoeken per paginaweergave) en kapte daarom stil af op de eerste 250
+ * organisaties — de kop zei "312 organisaties" terwijl de kantorentabel over
+ * een alfabetische deelverzameling ging. Nu een handvol verzoeken, zonder cap.
+ */
+export type OpdrachtMetOrganisatieId = {
+  organisatie_id: number;
+  boekjaar: number;
+  type_opdracht: string;
+  kantoren: Kantoor | null;
+};
+
+export async function opdrachtenVanOrganisaties(ids: number[]) {
+  const unieke = [...new Set(ids)];
+  const uit: OpdrachtMetOrganisatieId[] = [];
+  for (let i = 0; i < unieke.length; i += PER_OPZOEKVERZOEK) {
+    const stuk = unieke.slice(i, i + PER_OPZOEKVERZOEK);
+    // haalAlles, niet haal: tweehonderd organisaties met zeven boekjaren en
+    // meerdere opdrachttypen zijn zo meer dan duizend rijen.
+    uit.push(
+      ...(await haalAlles<OpdrachtMetOrganisatieId>(
+        `opdrachten?organisatie_id=in.(${stuk.join(",")})` +
+          `&select=organisatie_id,boekjaar,type_opdracht,kantoren(${KANTOOR_VELDEN})` +
+          `&order=id.asc`,
+      )),
+    );
+  }
+  return uit;
 }
 
 /** Alle cliëntjaren van één kantoor, nieuwste eerst. */
@@ -288,7 +327,7 @@ export function opdrachtenVanKantoor(kantoorId: number) {
     `opdrachten?kantoor_id=eq.${kantoorId}` +
       `&select=boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
       `continuiteitsonzekerheid,organisaties(${ORG_VELDEN})` +
-      `&order=boekjaar.desc`,
+      `&order=boekjaar.desc,id.asc`,
   );
 }
 
@@ -306,7 +345,7 @@ export function opdrachtenVanKantoor(kantoorId: number) {
 export function organisatiesInSector(sector: string, limiet?: number) {
   const basis =
     `organisaties?sector=eq.${encodeURIComponent(sector)}` +
-    `&select=${ORG_VELDEN}&order=naam.asc`;
+    `&select=${ORG_VELDEN}&order=naam.asc,id.asc`;
   return limiet
     ? haal<Organisatie>(`${basis}&limit=${limiet}`)
     : haalAlles<Organisatie>(basis);
@@ -320,7 +359,7 @@ export function organisatiesInSector(sector: string, limiet?: number) {
 export function organisatiesInSubsector(subsector: string, limiet?: number) {
   const basis =
     `organisaties?subsector=eq.${encodeURIComponent(subsector)}` +
-    `&select=${ORG_VELDEN}&order=naam.asc`;
+    `&select=${ORG_VELDEN}&order=naam.asc,id.asc`;
   return limiet
     ? haal<Organisatie>(`${basis}&limit=${limiet}`)
     : haalAlles<Organisatie>(basis);
@@ -335,7 +374,7 @@ export function organisatiesInSubsector(subsector: string, limiet?: number) {
  */
 export async function sectoren(): Promise<{ naam: string; aantal: number }[]> {
   const rijen = await haalAlles<{ sector: string | null }>(
-    "organisaties?select=sector&sector=not.is.null",
+    "organisaties?select=sector&sector=not.is.null&order=id.asc",
   );
   const perSector = new Map<string, number>();
   for (const rij of rijen) {
@@ -356,7 +395,7 @@ export async function sectoren(): Promise<{ naam: string; aantal: number }[]> {
  */
 export async function subsectoren(): Promise<{ naam: string; aantal: number }[]> {
   const rijen = await haalAlles<{ subsector: string | null }>(
-    "organisaties?select=subsector&subsector=not.is.null",
+    "organisaties?select=subsector&subsector=not.is.null&order=id.asc",
   );
   const perSubsector = new Map<string, number>();
   for (const rij of rijen) {
@@ -371,7 +410,7 @@ export async function subsectoren(): Promise<{ naam: string; aantal: number }[]>
 export function organisatiesInGemeente(gemeente: string, limiet = 20) {
   return haal<Organisatie>(
     `organisaties?gemeente=eq.${encodeURIComponent(gemeente)}` +
-      `&select=${ORG_VELDEN}&order=naam.asc&limit=${limiet}`,
+      `&select=${ORG_VELDEN}&order=naam.asc,id.asc&limit=${limiet}`,
   );
 }
 
@@ -381,7 +420,7 @@ export function organisatiesInGemeente(gemeente: string, limiet = 20) {
  * (een paar doorklikken); dat blijft één klein verzoek.
  */
 export function alleOrganisaties(limiet?: number) {
-  const basis = `organisaties?select=${ORG_VELDEN}&order=naam.asc`;
+  const basis = `organisaties?select=${ORG_VELDEN}&order=naam.asc,id.asc`;
   return limiet
     ? haal<Organisatie>(`${basis}&limit=${limiet}`)
     : haalAlles<Organisatie>(basis);
@@ -398,9 +437,12 @@ export function alleOrganisaties(limiet?: number) {
  */
 export type Zoekresultaat<T> = { rijen: T[]; totaal: number; afgekapt: boolean };
 
-/** Sterretjes en komma's zijn PostgREST-syntaxis in een `ilike`-patroon. */
+/** Sterretjes en komma's zijn PostgREST-syntaxis in een `ilike`-patroon. De
+ *  witruimte daarna samenvouwen, anders vond "Stichting X, locatie Y" — met
+ *  komma, precies zoals de naam in de database staat — zichzelf niet terug:
+ *  de komma werd een spatie en het patroon kreeg er twee naast elkaar. */
 function zoekpatroon(term: string): string {
-  return `*${term.replace(/[*,()]/g, " ").trim()}*`;
+  return `*${term.replace(/[*,()]/g, " ").replace(/\s+/g, " ").trim()}*`;
 }
 
 async function zoek<T>(
@@ -411,7 +453,7 @@ async function zoek<T>(
 ): Promise<Zoekresultaat<T>> {
   const filter = `naam=ilike.${encodeURIComponent(zoekpatroon(term))}`;
   const [rijen, totaal] = await Promise.all([
-    haal<T>(`${tabel}?${filter}&select=${velden}&order=naam.asc&limit=${limiet}`),
+    haal<T>(`${tabel}?${filter}&select=${velden}&order=naam.asc,id.asc&limit=${limiet}`),
     tel(tabel, filter),
   ]);
   return { rijen, totaal, afgekapt: totaal > rijen.length };
@@ -444,7 +486,13 @@ export async function wisselingen(opties: {
    *  "alle" wordt gepresenteerd geeft een verkeerd getal zodra de database groeit. */
   limiet?: number;
 } = {}): Promise<WisselingVolledig[]> {
-  const filters = ["select=*", "order=boekjaar_wissel.desc"];
+  const filters = [
+    "select=*",
+    // De view heeft geen id; zonder unieke staartsortering kan de paginering
+    // rijen overslaan of dubbel leveren zodra er tijdens het bladeren wordt
+    // geschreven.
+    "order=boekjaar_wissel.desc,organisatie_id.asc,van_kantoor_id.asc",
+  ];
   if (opties.boekjaar) filters.push(`boekjaar_wissel=eq.${opties.boekjaar}`);
   if (opties.organisatieId) filters.push(`organisatie_id=eq.${opties.organisatieId}`);
   if (opties.kantoorId) {
@@ -482,6 +530,15 @@ export async function nieuwsteBoekjaar(): Promise<number | null> {
   return rij?.boekjaar ?? null;
 }
 
+/** En het laagste — de voorpagina zei "2019–…" met een hardgecodeerde 2019,
+ *  wat stil fout wordt zodra er een ouder of juist geen enkel boekjaar is. */
+export async function oudsteBoekjaar(): Promise<number | null> {
+  const rij = await haalEen<{ boekjaar: number }>(
+    "opdrachten?select=boekjaar&order=boekjaar.asc&limit=1",
+  );
+  return rij?.boekjaar ?? null;
+}
+
 /**
  * Kantoren die daadwerkelijk opdrachten hebben, met hun aantal in één boekjaar —
  * over alle sectoren samen.
@@ -493,7 +550,7 @@ export async function nieuwsteBoekjaar(): Promise<number | null> {
  */
 export async function actieveKantoren(boekjaar: number) {
   const rijen = await haalAlles<{ kantoor_id: number; aantal_controles: number }>(
-    `v_marktaandeel?select=kantoor_id,aantal_controles&boekjaar=eq.${boekjaar}`,
+    `v_marktaandeel?select=kantoor_id,aantal_controles&boekjaar=eq.${boekjaar}&order=kantoor_id.asc`,
   );
   const perKantoor = new Map<number, number>();
   for (const rij of rijen) {
@@ -519,7 +576,7 @@ export async function marktaandeel(sector: string, boekjaar?: number) {
   const filters = [
     "select=*",
     `sector=eq.${encodeURIComponent(sector)}`,
-    "order=boekjaar.desc,aantal_controles.desc",
+    "order=boekjaar.desc,aantal_controles.desc,kantoor_id.asc",
   ];
   if (boekjaar) filters.push(`boekjaar=eq.${boekjaar}`);
 

@@ -34,7 +34,9 @@ body {
   color: var(--inkt);
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 15px;
+  /* In rem, niet px: wie in de browser een grotere standaardletter instelt,
+     krijgt die dan ook hier — met 15px schaalden alleen de koppen mee. */
+  font-size: 0.9375rem;
   line-height: 1.55;
 }
 
@@ -241,11 +243,21 @@ tr.wissel:hover td {
   background: #f9ead9;
 }
 
+/* Rij met een inhoudelijke beperking (grond = jaarrekening) op /bevindingen.
+   Eigen kleur: oranje betekent op de rest van de site "gewisseld", en dezelfde
+   kleur voor twee betekenissen leert de lezer het verkeerde. */
+tr.bevinding td {
+  background: #fdecec;
+}
+tr.bevinding:hover td {
+  background: #f9dcdc;
+}
+
 /* ------------------------------------------------------------ labels */
 
 .label {
   display: inline-block;
-  font-size: 0.74rem;
+  font-size: 0.78rem;
   line-height: 1.5;
   padding: 0 0.4rem;
   border-radius: 3px;
@@ -331,7 +343,7 @@ tr.wissel:hover td {
   background: var(--vlak);
 }
 
-/* Zodat een letter niet onder de vaste kopbalk landt na een sprong. */
+/* Ademruimte boven een kaart waar een letterlink naartoe springt. */
 .kaart[id] {
   scroll-margin-top: 1rem;
 }
@@ -350,7 +362,7 @@ tr.wissel:hover td {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
   gap: 0.1rem 1.25rem;
 }
 .doorklik li {
@@ -365,12 +377,18 @@ tr.wissel:hover td {
 
 .kolommen {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  /* min(19rem, 100%): een kale 19rem is een harde ondergrens en gaf op
+     schermen smaller dan ~336px een horizontale scrollbalk over de hele pagina. */
+  grid-template-columns: repeat(auto-fit, minmax(min(19rem, 100%), 1fr));
   gap: 1.1rem;
   align-items: start;
 }
 .kolommen > .kaart {
   margin-bottom: 0;
+  /* Zonder dit mag een gridkaart nooit smaller dan zijn breedste tabelregel
+     (min-width van een grid-item is "auto") — dan schuift op een telefoon de
+     hele pagina opzij in plaats van dat de tabel ín de kaart scrolt. */
+  min-width: 0;
 }
 
 .leeg {
@@ -389,4 +407,21 @@ tr.wissel:hover td {
 .foutvlak code {
   font-size: 0.85em;
   word-break: break-all;
+}
+
+/* ------------------------------------------------------------ afdrukken */
+
+@media print {
+  .kop-menu,
+  .zoekbalk,
+  .doorklik {
+    display: none;
+  }
+  /* Browsers laten achtergronden weg op papier; de rand houdt het signaal. */
+  tr.wissel td {
+    border-left: 3px solid var(--waarschuwing);
+  }
+  tr.bevinding td {
+    border-left: 3px solid #b23b3b;
+  }
 }

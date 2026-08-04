@@ -5,7 +5,6 @@ import {
   marktaandeel,
   organisatiesInSector,
   sectoren,
-  subsectoren,
   wisselingen,
 } from "@/lib/db";
 import {
@@ -16,6 +15,7 @@ import {
   organisatiePad,
   slug,
   subsectorPad,
+  veiligGedecodeerd,
 } from "@/lib/paden";
 import { Doorklik, Foutmelding, Inklapbaar, Leeg } from "@/components/onderdelen";
 
@@ -40,7 +40,7 @@ async function vindSector(naamSlug: string): Promise<string | null> {
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { naam } = await params;
-  const sector = await vindSector(decodeURIComponent(naam)).catch(() => null);
+  const sector = await vindSector(veiligGedecodeerd(naam)).catch(() => null);
   if (!sector) return { title: "Sector niet gevonden" };
   return {
     title: `Accountants in de sector ${sector}`,
@@ -53,14 +53,22 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function Sectorpagina({ params }: Params) {
   const { naam } = await params;
 
-  let sector: string | null;
+  let sector: string | null = null;
   let organisaties;
   let aandelen;
+  let sectorWisselingen;
   try {
-    sector = await vindSector(decodeURIComponent(naam));
+    sector = await vindSector(veiligGedecodeerd(naam));
     [organisaties, aandelen] = sector
       ? await Promise.all([organisatiesInSector(sector), marktaandeel(sector)])
       : [[], []];
+    // Alle wisselingen ophalen en hier filteren: v_wisselingen kent geen sector, en
+    // met een limiet vooraf vielen de wisselingen van deze sector buiten beeld zodra
+    // een andere sector de nieuwste regels vulde.
+    const organisatieIds = new Set(organisaties.map((o) => o.id));
+    sectorWisselingen = (await wisselingen()).filter((w) =>
+      organisatieIds.has(w.organisatie_id),
+    );
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
@@ -69,25 +77,36 @@ export default async function Sectorpagina({ params }: Params) {
   // foutmelding met http-status 200 in plaats van een nette 404.
   if (!sector || organisaties.length === 0) notFound();
 
-  // Alle wisselingen ophalen en hier filteren: v_wisselingen kent geen sector, en
-  // met een limiet vooraf vielen de wisselingen van deze sector buiten beeld zodra
-  // een andere sector de nieuwste regels vulde.
-  const organisatieIds = new Set(organisaties.map((o) => o.id));
-  const sectorWisselingen = (await wisselingen()).filter((w) =>
-    organisatieIds.has(w.organisatie_id),
-  );
-  const subsectorlijst = await subsectoren().catch(() => []);
+  // De subsectoren van déze sector, geteld uit de eigen organisaties. Hier werd
+  // eerst de wereldwijde subsectorenlijst getoond, dus op de zorgpagina stonden
+  // ook de subsectoren van de goede doelen — met aantallen van de hele database.
+  const perSubsector = new Map<string, number>();
+  for (const org of organisaties) {
+    if (org.subsector) {
+      perSubsector.set(org.subsector, (perSubsector.get(org.subsector) ?? 0) + 1);
+    }
+  }
+  const subsectorlijst = [...perSubsector.entries()]
+    .map(([naam2, aantal]) => ({ naam: naam2, aantal }))
+    .sort((a, b) => b.aantal - a.aantal);
 
   // Kruistabel: kantoren als rijen, boekjaren als kolommen. Zo zie je in één
   // oogopslag wie er over de jaren wint en wie krimpt.
   const boekjaren = [...new Set(aandelen.map((a) => a.boekjaar))].sort((a, b) => b - a);
   const perKantoor = new Map<
     number,
-    { naam: string; afm: string | null; cellen: Map<number, number>; totaal: number }
+    {
+      id: number;
+      naam: string;
+      afm: string | null;
+      cellen: Map<number, number>;
+      totaal: number;
+    }
   >();
   for (const rij of aandelen) {
     if (!rij.kantoor) continue;
     const bestaand = perKantoor.get(rij.kantoor_id) ?? {
+      id: rij.kantoor_id,
       naam: rij.kantoor.naam,
       afm: rij.kantoor.afm_nummer,
       cellen: new Map<number, number>(),
@@ -143,7 +162,9 @@ export default async function Sectorpagina({ params }: Params) {
                 {kantoorrijen.map(([id, rij]) => (
                   <tr key={id}>
                     <td>
-                      <Link href={kantoorPad({ afm_nummer: rij.afm, naam: rij.naam })}>
+                      <Link
+                        href={kantoorPad({ id: rij.id, afm_nummer: rij.afm, naam: rij.naam })}
+                      >
                         {rij.naam}
                       </Link>
                     </td>
@@ -195,10 +216,13 @@ export default async function Sectorpagina({ params }: Params) {
           {sectorWisselingen.length === 0 ? (
             <Leeg tekst="Geen wisselingen gevonden." />
           ) : (
+            <div className="tabel-omhulsel">
             <table>
               <tbody>
                 {sectorWisselingen.map((w) => (
-                  <tr key={`${w.organisatie_id}-${w.boekjaar_wissel}`}>
+                  <tr
+                    key={`${w.organisatie_id}-${w.boekjaar_wissel}-${w.van_kantoor_id}-${w.naar_kantoor_id}`}
+                  >
                     <td className="jaar">{w.boekjaar_wissel}</td>
                     <td>
                       {w.organisatie ? (
@@ -217,21 +241,26 @@ export default async function Sectorpagina({ params }: Params) {
                 ))}
               </tbody>
             </table>
+            </div>
           )}
         </section>
 
         <section className="kaart">
           <h2>Organisaties</h2>
-          <table>
-            <tbody>{organisatierijen.slice(0, ORGANISATIES_OPEN)}</tbody>
-          </table>
+          <div className="tabel-omhulsel">
+            <table>
+              <tbody>{organisatierijen.slice(0, ORGANISATIES_OPEN)}</tbody>
+            </table>
+          </div>
           {organisatierijen.length > ORGANISATIES_OPEN ? (
             <Inklapbaar
               samenvatting={`Nog ${organisatierijen.length - ORGANISATIES_OPEN} organisaties`}
             >
-              <table>
-                <tbody>{organisatierijen.slice(ORGANISATIES_OPEN)}</tbody>
-              </table>
+              <div className="tabel-omhulsel">
+                <table>
+                  <tbody>{organisatierijen.slice(ORGANISATIES_OPEN)}</tbody>
+                </table>
+              </div>
             </Inklapbaar>
           ) : null}
           <p className="klein" style={{ marginBottom: 0 }}>
@@ -248,7 +277,7 @@ export default async function Sectorpagina({ params }: Params) {
             toelichting: `${rij.aantal} organisaties`,
           })),
           ...kantoorrijen.slice(0, 3).map(([id, rij]) => ({
-            naar: kantoorPad({ afm_nummer: rij.afm, naam: rij.naam }),
+            naar: kantoorPad({ id, afm_nummer: rij.afm, naam: rij.naam }),
             tekst: rij.naam,
             toelichting: `${rij.totaal} controles in deze sector`,
           })),
