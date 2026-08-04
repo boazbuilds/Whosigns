@@ -704,3 +704,17 @@ export async function boekjarenMetControles(): Promise<number[]> {
   );
   return [...new Set(rijen.map((r) => r.boekjaar))].sort((a, b) => b - a);
 }
+
+/**
+ * Wanneer er voor het laatst iets is ingelezen.
+ *
+ * Voor de datumregel onder de titel ("Stand per 4 augustus 2026"). Elke
+ * laadrun schrijft een rij in `bronnen` met het moment van ophalen; de
+ * jongste daarvan is de leeftijd van de hele verzameling.
+ */
+export async function laatstBijgewerkt(): Promise<string | null> {
+  const rij = await haalEen<{ opgehaald_op: string }>(
+    "bronnen?select=opgehaald_op&order=opgehaald_op.desc&limit=1",
+  );
+  return rij?.opgehaald_op ?? null;
+}
