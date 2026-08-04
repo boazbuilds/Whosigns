@@ -80,18 +80,25 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # Invoer via de omgeving: een invoerwaarde kan dan nooit als
+          # shell-opdracht worden uitgevoerd.
+          BOEKJAREN: ${{ inputs.boekjaren }}
+          LIJST_UIT: ${{ inputs.lijst_uit }}
+          VANAF: ${{ inputs.vanaf }}
+          AANTAL: ${{ inputs.aantal }}
+          HERLAAD: ${{ inputs.herlaad }}
         run: |
           # Boekjaar voor boekjaar, nieuwste eerst: loopt de job tegen de tijdslimiet
           # aan, dan zijn de meest actuele jaren in elk geval binnen. Elk boekjaar
           # is idempotent, dus opnieuw draaien pikt op waar het gebleven was.
-          for jaar in $(echo "${{ inputs.boekjaren }}" | tr ',' ' '); do
+          for jaar in $(echo "$BOEKJAREN" | tr ',' ' '); do
             echo "::group::boekjaar $jaar"
             python3 pipeline/laad_zorg.py \
               --boekjaar "$jaar" \
-              --lijst-uit "${{ inputs.lijst_uit }}" \
-              --vanaf "${{ inputs.vanaf }}" \
-              --aantal "${{ inputs.aantal }}" \
-              ${{ inputs.herlaad == true && '--herlaad' || '' }}
+              --lijst-uit "$LIJST_UIT" \
+              --vanaf "$VANAF" \
+              --aantal "$AANTAL" \
+              $([ "$HERLAAD" = "true" ] && echo --herlaad)
             echo "::endgroup::"
             # Pdf's van het afgeronde jaar opruimen: de schijf van een runner is
             # 14 GB en zes jaargangen passen daar niet in.
@@ -107,7 +114,8 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: python3 pipeline/vul_extra_velden.py --boekjaar "${{ inputs.lijst_uit }}"
+          LIJST_UIT: ${{ inputs.lijst_uit }}
+        run: python3 pipeline/vul_extra_velden.py --boekjaar "$LIJST_UIT"
 
       - name: Rapporten bewaren
         if: always()

@@ -37,6 +37,7 @@ jobs:
   migreren:
     name: Migraties toepassen
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -65,10 +66,19 @@ jobs:
                         bestand    text primary key,
                         gedraaid_op timestamptz not null default now()
                       );"
+          # RLS aan, elke keer (idempotent): zonder dit was deze boekhoudtabel via
+          # PostgREST met de publieke sleutel te lezen én te beschrijven — wie een
+          # rij weghaalt, laat de volgende run een migratie dubbel uitvoeren.
+          run_sql -c "alter table schema_migraties enable row level security;"
 
           # Handmatig gedraaide bestanden registreren zonder ze uit te voeren.
           for naam in $(echo "${OVERSLAAN:-}" | tr ',' ' '); do
             [ -n "$naam" ] || continue
+            # De naam belandt in een SQL-tekst; alleen bestandsnaam-tekens toestaan.
+            if ! echo "$naam" | grep -Eq '^[A-Za-z0-9._-]+$'; then
+              echo "::error::Ongeldige bestandsnaam in 'overslaan': $naam"
+              exit 1
+            fi
             echo "registreren zonder uitvoeren: $naam"
             if [ "$DROOGLOOP" != "true" ]; then
               run_sql -c "insert into schema_migraties (bestand) values ('$naam')

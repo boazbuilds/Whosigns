@@ -5,9 +5,9 @@ Combineert de eerder gebouwde bouwstenen:
     kantoor_match   -> kantoornaam herkennen tegen de AFM-lijst
     verklaring      -> pdf -> soort, oordeel, continuïteitsonzekerheid
 
-Doet één organisatie-boekjaar tegelijk (`verwerk_organisatie`) — bruikbaar voor
-zowel een kleine handmatige lijst (`laad_proefdata.py`) als de latere
-bulkverwerking vanuit de volledige dataset (dekkingsstrategie in `digimv.md`).
+Doet één organisatie-boekjaar tegelijk (`verwerk_organisatie`); `laad_zorg.py`
+roept dit aan voor de bulkverwerking vanuit de volledige dataset
+(dekkingsstrategie in `digimv.md`).
 
 **Matchen gebeurt op KvK-nummer, niet op naam+plaats.** Naam en plaats wisselen
 namelijk per boekjaar in de bron: HagaZiekenhuis staat in boekjaar 2023 als

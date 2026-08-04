@@ -44,7 +44,7 @@ _BASIS = (
 )
 
 # Downloadadressen per boekjaar; een jaargang kan uit meerdere bestanden bestaan.
-# `.zip` wordt uitgepakt met het externe `unzip`, want boekjaar 2019 gebruikt
+# `.zip` wordt uitgepakt met het externe `unzip`, want boekjaar 2022 gebruikt
 # Deflate64 en dat kan Python's zipfile niet.
 #
 # 2019 t/m 2021 staan hier bewust NIET: die gebruiken een ouder exportformaat
@@ -243,7 +243,7 @@ def download(boekjaar: int, doelmap: Path) -> list[Path]:
     """Haalt alle bestanden van een jaargang op en geeft de .ods-paden terug.
 
     Bewaart wat al is opgehaald, zodat een herstart niets herhaalt. Een `.zip`
-    wordt uitgepakt met het externe `unzip`: boekjaar 2019 gebruikt Deflate64 en
+    wordt uitgepakt met het externe `unzip`: boekjaar 2022 gebruikt Deflate64 en
     Python's zipfile weigert dat ("compression method is not supported").
     """
     if boekjaar not in DATASET_URL:
