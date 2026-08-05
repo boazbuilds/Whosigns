@@ -194,7 +194,30 @@ _DATUM = re.compile(
 _ONDERTEKENING = (
     "origineel getekend", "was getekend", "getekend door", "statutair gevestigd",
     "was signed", "signed by", "namens deze",
+    # Digitale ondertekendiensten zetten hun eigen stempel in het handtekeningblok:
+    # "Miedema Accountants ValidSigned door drs. D. van der Bij RA RB op 29-03-2024".
+    # Die woorden staan nergens anders in een jaarverslag.
+    "validsigned", "ondertekend door", "digitaal ondertekend",
 )
+
+# Wie tekent er onder de kantoornaam? Een handtekeningblok is "kantoornaam, dan de
+# accountant met zijn titel": "CAS ZorgAccountants B.V. S.R. Snel AA", "Konings Maters
+# Accountants & Adviseurs W.M. Groothuis RA". Zonder deze regel haalden die twee de
+# drempel niet — er stond geen datum en geen ondertekeningsformule bij.
+#
+# De volgorde doet het werk. In de gevallen waarin een kantoornaam juist níét de
+# ondertekenaar is staat de titel er vóór: "drs J.M. van Lieshout RA, secretaris,
+# accountant bij Koeleman accountants" en "J.W. Stam MSc RA, senior manager bureau
+# vaktechniek bij Baker Tilly Netherlands N.V.". Daar volgt er niets meer ná de naam,
+# dus deze regel vuurt daar niet.
+_ONDERTEKENAAR_NA = re.compile(
+    r"^\s*(?:\w+\s+){0,4}?"          # "validsigned door", "w g", "drs" ertussen
+    r"(?:[a-z]\s){1,5}"              # initialen: "s r ", "w m ", "d "
+    r"(?:(?:van|de|der|den|ten|ter|op|in|het)\s+){0,3}"   # tussenvoegsels
+    r"[a-z][a-z'’]+\s+"              # achternaam
+    r"(?:ra|aa|rb)\b"                # de titel van de tekenend accountant
+)
+VENSTER_ONDERTEKENAAR = 70
 _OORDEEL_DAVOOR = (
     "basis voor ons oordeel", "voor ons oordeel", "ons oordeel",
     "basis for our opinion", "in our opinion",
@@ -249,6 +272,10 @@ def _contextscore(tekst: str, positie: int, lengte: int) -> int:
     if any(woord in ruim_voor for woord in _OORDEEL_DAVOOR):
         score += 3
     if any(woord in rondom for woord in _ONDERTEKENING):
+        score += 2
+    # Zie _ONDERTEKENAAR_NA: de tekenend accountant staat ná de kantoornaam, en in de
+    # gevallen waarin de naam niet de ondertekenaar is staat de titel er juist vóór.
+    if _ONDERTEKENAAR_NA.match(tekst[positie + lengte:][:VENSTER_ONDERTEKENAAR]):
         score += 2
     if any(woord in voor for woord in _GEEN_ONDERTEKENING):
         score -= 4
