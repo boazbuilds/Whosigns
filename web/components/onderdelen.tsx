@@ -6,8 +6,38 @@ import {
   kortKantoor,
   OORDEEL_LABEL,
   oordeelOpvallend,
+  OPDRACHT_LABEL,
+  SOORT_UITLEG,
+  SOORTGROEP,
 } from "@/lib/paden";
 import { wapenVoor } from "@/lib/wapen";
+
+/**
+ * Wat voor opdracht het was, als label.
+ *
+ * Drie tinten, omdat er drie soorten verschil te maken zijn. De wettelijke
+ * controle is negen van de tien opdrachten en dus de norm: die staat rustig.
+ * De vrijwillige controle is ook een volledige jaarrekeningcontrole, maar er
+ * was geen plicht — dat verschil is klein en het label dus bijna hetzelfde.
+ *
+ * De derde groep is de reden dat dit onderdeel bestaat: een verklaring bij een
+ * WNT-opgave, een productieverantwoording of een subsidieafrekening gaat NIET
+ * over de jaarrekening. Stond die als grijze tekst tussen de rest, dan las een
+ * bezoeker hem als "de accountant heeft de jaarrekening gecontroleerd". Die
+ * springt er nu uit.
+ */
+export function Soort({ type }: { type: string }) {
+  const groep = SOORTGROEP[type] ?? "onbekend";
+  const klasse =
+    groep === "anders" ? "label label-anders"
+    : groep === "onbekend" ? "label label-vaag"
+    : "label";
+  return (
+    <span className={klasse} title={SOORT_UITLEG[type] ?? undefined}>
+      {OPDRACHT_LABEL[type] ?? type}
+    </span>
+  );
+}
 
 /**
  * Het oordeel als label; niet-goedkeurend krijgt nadruk.

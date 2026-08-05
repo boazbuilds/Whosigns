@@ -1107,3 +1107,35 @@ td.rangcel {
     transition: none !important;
   }
 }
+
+/* Een opdracht die géén jaarrekeningcontrole is (WNT-opgave,
+   productieverantwoording, subsidieafrekening). Die mag niet wegvallen tussen
+   de wettelijke controles, want dan leest een bezoeker hem als hetzelfde
+   ding. Vandaar een gevulde ondergrond in plaats van alleen een lijntje —
+   zonder de rode kleur, die is voorbehouden aan een oordeel dat niet
+   goedkeurend is. */
+.label-anders {
+  border-color: var(--inkt-flauw);
+  background: var(--papier-diep);
+  color: var(--inkt);
+}
+
+/* Wél een verklaring aangetroffen, maar waarover die ging is niet vastgesteld.
+   Een streepjeslijn leest als "dit staat nog open". */
+.label-vaag {
+  border-style: dashed;
+  color: var(--inkt-flauw);
+}
+
+/* Uitsplitsing van de opdrachten naar soort, onder de kerncijfers. */
+.soortverdeling {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.5rem;
+  align-items: baseline;
+  margin: 0.6rem 0 0;
+}
+.soortverdeling .telling {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}

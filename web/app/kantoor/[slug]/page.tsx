@@ -14,6 +14,7 @@ import {
 } from "@/lib/db";
 import { clientenVanKantoor } from "@/lib/analyse";
 import {
+  OPDRACHT_LABEL,
   aantalControles,
   aantalJaren,
   aantalOpdrachten,
@@ -21,24 +22,12 @@ import {
   hoofdletter,
   jarenReeks,
   kantoorPad,
-  OPDRACHT_LABEL,
+  nl,
   organisatiePad,
   sectorPad,
   sleutelUitSlug,
 } from "@/lib/paden";
-import {
-  Aandeelbalk,
-  Doorklik,
-  Foutmelding,
-  Inklapbaar,
-  Kerncijfer,
-  KantoorLink,
-  KortKantoorLink,
-  Kruimels,
-  Leeg,
-  Oordeel,
-  Wapen,
-} from "@/components/onderdelen";
+import { Aandeelbalk, Doorklik, Foutmelding, Inklapbaar, KantoorLink, Kerncijfer, KortKantoorLink, Kruimels, Leeg, Oordeel, Soort, Wapen } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -169,6 +158,15 @@ export default async function Kantoorpagina({ params }: Params) {
   ]);
 
   const clienten = clientenVanKantoor(opdrachten);
+
+  // Tellen per soort opdracht, aflopend. Alleen tonen als er meer dan één
+  // soort is — bij een kantoor dat uitsluitend wettelijke controles doet
+  // voegt de regel niets toe.
+  const perSoort = new Map<string, number>();
+  for (const opdracht of opdrachten) {
+    perSoort.set(opdracht.type_opdracht, (perSoort.get(opdracht.type_opdracht) ?? 0) + 1);
+  }
+  const soorten = [...perSoort.entries()].sort((a, b) => b[1] - a[1]);
   const gewonnen = mutaties.filter((m) => m.naar_kantoor_id === kantoor.id);
   const verloren = mutaties.filter((m) => m.van_kantoor_id === kantoor.id);
   const alleJaren = opdrachten.map((o) => o.boekjaar);
@@ -218,7 +216,7 @@ export default async function Kantoorpagina({ params }: Params) {
       </td>
       <td className="zacht klein">{client.gemeente ?? "—"}</td>
       <td className="zacht klein">
-        {OPDRACHT_LABEL[client.typeLaatste] ?? client.typeLaatste}
+        <Soort type={client.typeLaatste} />
       </td>
       <td className="jaar">{jarenReeks(client.jaren)}</td>
       <td className="getal zacht">{aantalJaren(client.jaren.length)}</td>
@@ -274,6 +272,21 @@ export default async function Kantoorpagina({ params }: Params) {
             naam="saldo"
           />
         </div>
+
+        {/* Waaruit die opdrachten bestaan. Zonder deze regel zegt "1.242
+            opdrachten" niets over wát er gecontroleerd is: negen van de tien
+            zijn jaarrekeningcontroles, maar een verklaring bij een WNT-opgave
+            of een productieverantwoording telde er net zo hard in mee. */}
+        {soorten.length > 1 ? (
+          <p className="soortverdeling">
+            {soorten.map(([type, aantal]) => (
+              <span key={type}>
+                <span className="telling">{nl(aantal)}</span>{" "}
+                <Soort type={type} />
+              </span>
+            ))}
+          </p>
+        ) : null}
       </div>
 
       <div className="kolommen-breed-smal">

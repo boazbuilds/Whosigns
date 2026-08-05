@@ -99,6 +99,57 @@ export const OPDRACHT_LABEL: Record<string, string> = {
 };
 
 /** Alleen dit type is een wettelijke controle van de jaarrekening. */
+/**
+ * In welke groep een opdracht valt, voor de weergave.
+ *
+ * Dit onderscheid is de kern van wat WhoSigns laat zien, en het was op de
+ * pagina's niet te zien: het type stond er als grijze tekst, waardoor een
+ * controleverklaring bij een WNT-verantwoording er precies zo uitzag als een
+ * jaarrekeningcontrole. Dat zijn heel verschillende dingen.
+ *
+ *   wettelijk   De controle die de wet voorschrijft. Negen van de tien
+ *               opdrachten in de database. Dit is de norm, dus rustig gezet.
+ *   vrijwillig  Een volledige controle, maar de organisatie was er niet toe
+ *               verplicht. Telt mee in marktaandelen (zie CONTROLE_TYPES).
+ *   anders      GEEN jaarrekeningcontrole. Een verklaring bij een WNT-opgave,
+ *               een productieverantwoording of een subsidieafrekening gaat
+ *               over één onderwerp, niet over de jaarrekening. Die mag je
+ *               nooit lezen als "de accountant heeft de jaarrekening
+ *               gecontroleerd" — daarom springt deze groep eruit.
+ *   onbekend    Er stond een controleverklaring, maar waarover precies was
+ *               niet vast te stellen.
+ */
+export type Soortgroep = "wettelijk" | "vrijwillig" | "anders" | "onbekend";
+
+export const SOORTGROEP: Record<string, Soortgroep> = {
+  wettelijke_controle: "wettelijk",
+  vrijwillige_controle: "vrijwillig",
+  wnt_verantwoording: "anders",
+  productieverantwoording: "anders",
+  subsidieverklaring: "anders",
+  subsidie: "anders",
+  beoordeling: "anders",
+  samenstelling: "anders",
+  isae: "anders",
+  controle_onbepaald: "onbekend",
+};
+
+/** Korte uitleg per soort, voor de titel-tekst bij het label. */
+export const SOORT_UITLEG: Record<string, string> = {
+  wettelijke_controle:
+    "Controle van de jaarrekening die de wet voorschrijft.",
+  vrijwillige_controle:
+    "Volledige controle van de jaarrekening, terwijl de organisatie daartoe niet verplicht was.",
+  wnt_verantwoording:
+    "Verklaring bij de opgave van topinkomens (WNT) — niet bij de jaarrekening.",
+  productieverantwoording:
+    "Verklaring bij de productie- of omzetopgave aan een zorgverzekeraar of gemeente — niet bij de jaarrekening.",
+  subsidieverklaring:
+    "Verklaring bij de afrekening van een subsidie — niet bij de jaarrekening.",
+  controle_onbepaald:
+    "Er is een controleverklaring aangetroffen, maar waarover die precies gaat was niet vast te stellen.",
+};
+
 export const WETTELIJKE_CONTROLE = "wettelijke_controle";
 
 /** De typen die de SQL-views meetellen in marktaandelen en wisselingen
