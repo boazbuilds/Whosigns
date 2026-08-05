@@ -59,6 +59,18 @@ GEVALLEN = [
         "Amersfoort, 12 juni 2025 WITh Accountants B.V. was getekend",
         "WITh Accountants B.V.",
     ),
+    (
+        # Gevonden bij een telling over 1.728 gedownloade verklaringen: Grant
+        # Thornton is een groot kantoor en viel er stelselmatig uit, omdat de
+        # audittak zich pas ná de splitsing van 2025 Audit en Assurance noemt.
+        # Vergunning 13000524 loopt onafgebroken sinds 27-9-2007 en staat in beide
+        # namen op dezelfde vestiging in Alphen aan den Rijn.
+        "naam van vóór de splitsing van 2025, via de aliastabel (Present 2019)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Alphen aan den Rijn, 18 september 2020 "
+        "Grant Thornton Accountants en Adviseurs B.V.",
+        "Grant Thornton Audit en Assurance B.V.",
+    ),
     # ---------- mag NIET matchen: de naam staat er wel, maar tekent niet ----------
     (
         "werkgever van een bestuurslid (Kerk in Actie 2023)",
