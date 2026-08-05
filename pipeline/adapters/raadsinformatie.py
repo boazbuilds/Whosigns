@@ -48,6 +48,9 @@ import urllib.request
 
 API = "https://api.openraadsinformatie.nl/v1/elastic/_search"
 ZOEKZIN = "controleverklaring van de onafhankelijke accountant"
+# Bovengrens voor het boekjaar. Een jaarrekening over de toekomst bestaat niet;
+# staat er toch zo'n jaartal, dan is de regel verhaspeld.
+HUIDIG_JAAR = 2026
 KOPPEN = {
     "User-Agent": "WhoSigns/0.1 (open-data-import; contact via repo)",
     "Content-Type": "application/json",
@@ -66,7 +69,7 @@ VELDEN = [
 # "de jaarrekening 2018 van X te Y gecontroleerd" en dezelfde zin zonder plaats.
 # Het jaartal staat er altijd, want de verklaring gaat over één jaarrekening.
 _GECONTROLEERD = re.compile(
-    r"jaarrekening\s+(20\d\d)\s+van\s+(?:de\s+|het\s+)?"
+    r"jaarrekening\s+(20[0-2]\d)\s+van\s+(?:de\s+|het\s+)?"
     r"(.{3,120}?)"
     r"(?:\s+te\s+([A-Z][\w'’\- ]{2,40}?))?"
     r"\s+gecontroleerd",
@@ -193,6 +196,10 @@ def verklaringen_uit(tekst: str, bron: dict | None = None) -> list[dict]:
     ruw: list[dict] = []
     for treffer in _GECONTROLEERD.finditer(tekst):
         boekjaar = int(treffer.group(1))
+        # Een jaartal buiten dit bereik komt uit een verhaspelde regel, niet uit
+        # een verklaring. Gemeten op 4.000 documenten: één keer "2077".
+        if not (2000 <= boekjaar <= HUIDIG_JAAR):
+            continue
         organisatie = _schoon_organisatie(treffer.group(2) or "")
         plaats = _schoon_organisatie(treffer.group(3) or "") if treffer.group(3) else ""
         if len(organisatie) < 4 or _GEEN_ORGANISATIE.search(organisatie):

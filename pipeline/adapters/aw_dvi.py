@@ -368,6 +368,34 @@ def corporaties_uit_bestand(pad: Path, boekjaar: int, bron_url: str = "") -> lis
     return _lees(pad.read_bytes(), boekjaar, bron_url or f"bestand: {pad.name}")
 
 
+# Vanaf welk aandeel een KvK-kolom niet meer te vertrouwen is.
+#
+# In dVi2010, 2011 en 2012 staan de KvK-nummers als getal met te weinig
+# precisie in het bestand, waardoor het laatste cijfer is afgerond:
+#
+#     dVi2010  14614730   16024740   36003600
+#     dVi2013  14614733   16024737   36003604   <- de echte nummers
+#
+# Gemeten over alle jaargangen: in 2010 t/m 2012 eindigt 82-83% van de nummers
+# op een nul, in 2013 en 2014 twaalf procent — en dat laatste is gewoon toeval
+# (één op de tien getallen eindigt op nul). Boven de dertig procent is de kolom
+# dus stelselmatig afgerond en onbruikbaar als sleutel.
+#
+# Waarom dat erger is dan het lijkt: het KvK-nummer is de sleutel waarop
+# organisaties worden samengevoegd. Een afgerond nummer wijst naar niemand, dus
+# elke corporatie kwam er een tweede keer bij — 164 dubbele corporaties in één
+# lading. Vandaar dat zo'n kolom hier wordt geweigerd; de lader valt dan terug
+# op het corporatienummer, dat wél klopt.
+AFGEROND_DREMPEL = 0.30
+
+
+def kvk_kolom_is_afgerond(waarden: list[str]) -> bool:
+    schoon = [w for w in (str(x or "").strip() for x in waarden) if w]
+    if len(schoon) < 20:
+        return False
+    return sum(1 for w in schoon if w.endswith("0")) / len(schoon) > AFGEROND_DREMPEL
+
+
 def _lees(inhoud: bytes, boekjaar: int, bron_url: str) -> list[dict]:
     """Het eerste blad met een accountant-kolom uitlezen.
 
@@ -383,6 +411,13 @@ def _lees(inhoud: bytes, boekjaar: int, bron_url: str) -> list[dict]:
         kolommen = _kolommen(rijen[0])
         if not kolommen:
             continue
+        # Een afgeronde KvK-kolom is geen sleutel maar een valstrik; zie
+        # AFGEROND_DREMPEL. Dan doen we alsof de kolom er niet is, en vult de
+        # lader het nummer via het corporatienummer aan.
+        if "kvk_nummer" in kolommen and kvk_kolom_is_afgerond(
+            [rij.get(kolommen["kvk_nummer"], "") for rij in rijen[1:]]
+        ):
+            kolommen.pop("kvk_nummer")
         uit = []
         for rij in rijen[1:]:
             accountant_ruw = str(rij.get(kolommen["accountant"], "")).strip()
@@ -475,7 +510,11 @@ def brug_naar_kvk(cache: Path | None = None, jaren: range | None = None) -> dict
     `geen_kvk` — nooit stil geraden.
     """
     brug: dict[str, str] = {}
-    for boekjaar in jaren or range(EERSTE_JAAR_MET_KVK, LAATSTE_BUNDELJAAR + 1):
+    # Nieuwste jaargang eerst. Dat is geen smaak: 2013 heeft correcte
+    # KvK-nummers en 2010 t/m 2012 afgeronde, en die laatste worden door
+    # `_lees` al geweigerd — maar mocht er ooit een jaargang doorheen glippen,
+    # dan wint hier de nieuwste, en die is in deze bron steeds de betere.
+    for boekjaar in jaren or range(LAATSTE_BUNDELJAAR, EERSTE_JAAR_MET_KVK - 1, -1):
         try:
             rijen = corporaties(boekjaar, cache=cache)
         except Exception:  # noqa: BLE001 — één jaargang mag ontbreken

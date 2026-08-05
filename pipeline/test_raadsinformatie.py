@@ -89,6 +89,16 @@ controleer(
     "Flynth" in tweede_venster,
 )
 
+# --- een onmogelijk jaartal -------------------------------------------------
+controleer(
+    "een jaarrekening over 2077 bestaat niet",
+    ori.verklaringen_uit(
+        "Wij hebben de jaarrekening 2077 van Gemeente Nergenshuizen te Nergens "
+        "gecontroleerd."
+    )
+    == [],
+)
+
 # --- de aanhef hoort niet bij de naam ----------------------------------------
 uit = ori.verklaringen_uit(
     "Aan het algemeen bestuur van gemeenschappelijke regeling SSC DeSom "
@@ -132,6 +142,6 @@ controleer(
     ori._plat(["eerste", "tweede"]) == "eerste\ntweede" and ori._plat(None) == "",
 )
 
-totaal = 6 + len(PAREN) + 3
+totaal = 7 + len(PAREN) + 3
 print(f"\n{totaal - fouten}/{totaal} goed")
 raise SystemExit(1 if fouten else 0)
