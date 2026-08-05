@@ -20,7 +20,7 @@ on:
       boekjaren:
         description: "Boekjaren, nieuwste eerst, komma's ertussen"
         required: true
-        default: "2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014"
+        default: "2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007"
       herlaad:
         description: "Bestaande opdrachten opnieuw beoordelen en vervangen"
         type: boolean
@@ -36,7 +36,7 @@ jobs:
   laden:
     name: Woningcorporaties laden
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
