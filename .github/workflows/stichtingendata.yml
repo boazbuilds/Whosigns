@@ -27,9 +27,13 @@ on:
         required: true
         default: "2025,2024,2023,2022,2021,2020,2019"
       categorieen:
-        description: "CBF-omvangcategorieën (D,E = controleverklaring verplicht)"
+        description: "CBF-omvangcategorieën (D,E = controleverklaring, C = beoordeling)"
         required: true
-        default: "D,E"
+        default: "C,D,E"
+      soorten:
+        description: "Welke verklaringsoorten meetellen (C levert een beoordeling)"
+        required: true
+        default: "controle,beoordeling"
       terugval:
         description: "Ook op de eigen website zoeken als het CBF niets heeft (langzamer)"
         type: boolean
@@ -115,6 +119,7 @@ jobs:
             echo "::group::boekjaar $jaar"
             python3 pipeline/laad_stichtingen.py \
               --boekjaar "$jaar" \
+              --soorten "${{ inputs.soorten }}" \
               --categorieen "$CATEGORIEEN" \
               --vanaf "$VANAF" \
               --aantal "$AANTAL" \

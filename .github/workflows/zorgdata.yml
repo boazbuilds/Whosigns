@@ -25,6 +25,11 @@ on:
         description: "Boekjaar waar de organisatielijst uit komt (2023 is uitgezocht)"
         required: true
         default: "2023"
+      uit_archief:
+        description: "Lijst uit het archief zelf halen in plaats van uit de jaardataset (veel completer)"
+        type: boolean
+        required: false
+        default: true
       vanaf:
         description: "Sla de eerste N organisaties over (voor opknippen)"
         required: false
@@ -87,6 +92,7 @@ jobs:
           VANAF: ${{ inputs.vanaf }}
           AANTAL: ${{ inputs.aantal }}
           HERLAAD: ${{ inputs.herlaad }}
+          UIT_ARCHIEF: ${{ inputs.uit_archief }}
         run: |
           # Boekjaar voor boekjaar, nieuwste eerst: loopt de job tegen de tijdslimiet
           # aan, dan zijn de meest actuele jaren in elk geval binnen. Elk boekjaar
@@ -96,6 +102,7 @@ jobs:
             python3 pipeline/laad_zorg.py \
               --boekjaar "$jaar" \
               --lijst-uit "$LIJST_UIT" \
+              $([ "$UIT_ARCHIEF" = "true" ] && echo --uit-archief) \
               --vanaf "$VANAF" \
               --aantal "$AANTAL" \
               $([ "$HERLAAD" = "true" ] && echo --herlaad)
