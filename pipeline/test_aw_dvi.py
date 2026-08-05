@@ -105,6 +105,32 @@ controleer(
     aw_dvi._schoon_kvk("") == "" and aw_dvi._schoon_kvk("n.v.t.") == "",
 )
 
+# --- een KvK-kolom die stelselmatig is afgerond -----------------------------
+#
+# dVi2010 t/m 2012 slaan het KvK-nummer op als getal met te weinig precisie,
+# waardoor het laatste cijfer wegvalt: 14614733 wordt 14614730. Zo'n nummer
+# wijst naar niemand, dus elke corporatie kwam er een tweede keer bij — 164
+# dubbele corporaties in één lading, voordat dit werd gevangen.
+afgerond = [f"1461{n:03d}0" for n in range(100, 190)] + ["14614733", "16024737"]
+controleer(
+    "een kolom waarin bijna alles op nul eindigt wordt geweigerd",
+    aw_dvi.kvk_kolom_is_afgerond(afgerond),
+    f"aandeel: {sum(1 for w in afgerond if w.endswith('0')) / len(afgerond):.2f}",
+)
+
+# Twaalf procent op nul is toeval, geen afronding: dat is precies wat dVi2013
+# en dVi2014 laten zien en die kolommen moeten gewoon bruikbaar blijven.
+echt = [f"146147{n:02d}" for n in range(0, 100)]
+controleer(
+    "een normale kolom blijft bruikbaar",
+    not aw_dvi.kvk_kolom_is_afgerond(echt),
+    f"aandeel: {sum(1 for w in echt if w.endswith('0')) / len(echt):.2f}",
+)
+controleer(
+    "een handvol waarden is te weinig om over te oordelen",
+    not aw_dvi.kvk_kolom_is_afgerond(["10000000", "20000000", "30000000"]),
+)
+
 # --- de kantoornaam ---------------------------------------------------------
 #
 # De opgave is met de hand ingevuld. Deze schrijfwijzen komen letterlijk voor.
@@ -141,6 +167,6 @@ for onbekend in (
         f"gevonden: {gevonden!r}",
     )
 
-totaal = len(GEVALLEN) + 3 + 8
+totaal = len(GEVALLEN) + 3 + 8 + 3
 print(f"\n{totaal - fouten}/{totaal} goed")
 raise SystemExit(1 if fouten else 0)
