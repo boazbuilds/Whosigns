@@ -111,11 +111,54 @@ _GEEN_VERVOLG = re.compile(
 # voor" + "Ontwikkelingslanden N.V."). "Onderlinge" idem: dat woord bungelt
 # alleen aan een regeleinde wanneer de naam daar is afgebroken ("Stad Holland
 # Zorgverzekeraar Onderlinge" + "Waarborgmaatschappij U.A.").
+#
+# De tweede helft van het patroon staat er sinds het BDO-verslag over 2013,
+# dat de onderlingen afbreekt op het soortwoord ("Onderlinge Verzekering-
+# Maatschappij" + "'Noord Nederlandsche P&I Club' U.A."). Zonder de regel
+# belandt die tweede helft als eigen organisatie in de database.
+#
+# Waarom alleen regels die mét "Onderlinge" beginnen én op "maatschappij"
+# eindigen, en niet elk woord dat op "maatschappij" eindigt: een kale
+# "Schadeverzekeringsmaatschappij" is in de PwC- en EY-lijsten juist géén
+# afgebroken eerste helft maar een kolomrestant, en die aan de volgende
+# regel plakken vernielde daar telkens een naam die wél goed stond
+# ("National Academic Verzekeringsmaatschappij N.V."). Nagemeten over alle
+# 51 verslagen: met deze afbakening levert de regel alleen reparaties op.
 _EINDIGT_OPEN = re.compile(
     r"\b(?:voor|van|de|het|der|den|ten|ter|en|in|op|te|tot|aan|bij|"
-    r"of|for|and|the|onderlinge)$",
+    r"of|for|and|the|onderlinge)$"
+    r"|^Onderlinge[\w\s'’-]*maatschappij$",
     re.I,
 )
+
+# Proza dat door de naamfilter glipt omdat er toevallig "N.V." of
+# "insurance" in staat. Gemeten op de PwC-verslagen 2014/2015 en 2015/2016,
+# waar de inleidende zin boven de lijst over drie regels breekt:
+#
+#     "…audited by PricewaterhouseCoopers Accountants N.V. during the"
+#     "…listed on an EU regulated market, credit institutions and (re)insurance"
+#
+# Twee signalen die een organisatienaam nooit geeft: eindigen op een Engels
+# functiewoord, en een komma met een kleinletterwoord erachter. Nagemeten op
+# alle 5.476 namen uit de 51 verslagen: samen raken ze precies deze zinnen en
+# geen enkele echte naam ("Ons Huis, Woningstichting" houdt een hoofdletter
+# na de komma).
+#
+# Derde signaal: een rechtsvorm met twee kleinletterwoorden erachter. Daar
+# houdt de naam op en begint de zin ("... Holding PricewaterhouseCoopers
+# Nederland B.V. annual financial statements."). Namen die ná de rechtsvorm
+# doorlopen doen dat met een hoofdletter ("N.V. Bank voor de Nederlandse
+# Gemeenten"), dus die blijven buiten schot — en "Stichting Wooninc." ook,
+# want een punt op zich zegt niets.
+_PROZA = re.compile(
+    r"\b(?:the|at|as|and|of|during|with|by|from|that|which|our|their)$"
+    r"|,\s+[a-z]"
+    r"|\b(?:N\.V\.|B\.V\.|U\.A\.|B\.A\.|S\.E\.)\s+"
+    r"(?!in\s+(?:liquidatie|oprichting|vereffening)\b)[a-z]+\s+[a-z]+",
+)
+# De uitzondering in die laatste regel: "Blue Square Re N.V. in liquidatie"
+# staat zo in de PwC-lijst. Dat is geen zin maar een rechtstoestand, en die
+# hoort bij de naam zoals het kantoor hem opgeeft.
 
 # Een soortnaam plus rechtsvorm en verder niets ("Zorgverzekeraar U.A.",
 # "Waarborgmaatschappij U.A.") is geen organisatie maar de staart van een
@@ -131,9 +174,31 @@ _LOSSE_STAART = re.compile(
 )
 
 
+# Elk kantoor kiest een ander opsommingsteken, en het
+# teken hoort niet bij de naam. KPMG 2019/2020 gebruikt een kastlijntje
+# ("— ING Bank N.V."), BDO 2014 een Wingdings-pijltje dat als U+F03C uit de
+# pdf komt — een teken uit het private-use-gebied, dus zonder betekenis
+# buiten het lettertype waarin het gezet is.
+_BULLET = re.compile(r"^[•‣▪●·‒-―-]+\s*")
+
+
 def _schoon(regel: str) -> str:
     regel = regel.replace("\t", " ").replace("\x07", " ").strip()
-    regel = regel.lstrip("•").strip()
+    regel = _BULLET.sub("", regel).strip()
+    # Een geopend haakje dat niet meer sluit betekent dat de regel middenin
+    # een tussenzin is afgekapt ("CZ Zorgverzekeringen N.V. (previously
+    # OHRA"). De naam vóór het haakje is wél compleet, dus die houden we —
+    # de tussenzin zelf is toelichting en hoort sowieso niet in de naam.
+    #
+    # Tenzij het haakje zélf de naam opent en de regel middenin die naam
+    # breekt: "Mutual Insurance Association 'Munis' (Onderlinge" loopt door
+    # op de regel eronder ("Verzekeringsmaatschappij 'Munis') U.A."). Dat
+    # herken je eraan dat het stuk achter het haakje open eindigt; knippen
+    # zou de aanhechting weghalen en beide helften los opslaan.
+    if regel.count("(") > regel.count(")"):
+        staart = regel[regel.rindex("(") + 1 :].strip()
+        if not _EINDIGT_OPEN.search(staart):
+            regel = regel[: regel.rindex("(")].strip()
     # PwC plakt de lettermarkering aan de eerste naam van elke groep:
     # "B BMW Finance N.V." -> "BMW Finance N.V.". Eén losse hoofdletter
     # gevolgd door een naam die met een hoofdletter of "(" begint.
@@ -207,6 +272,26 @@ def _lees_vanaf(regels: list[str], start: int) -> tuple[list[str], list[str]]:
                 ruw,
                 re.I,
             ):
+                break
+            continue
+        if ruw.count(")") > ruw.count("("):
+            # Een sluithaakje zonder opening: dit is de tweede helft van een
+            # tussenzin waarvan de eerste helft hierboven al is afgeknipt
+            # ("Zorgverzekeringen N.V.)"). Nooit een naam op zichzelf.
+            afgekeurd.append(ruw)
+            wacht = None
+            continue
+        if _PROZA.search(ruw):
+            # Een zin, geen naam. Afkeuren en verder lezen: de lijst zelf
+            # begint vaak pál onder deze inleidende zinnen. Deze toets staat
+            # bewust ná _RUIS en _EIGEN_NETWERK: die twee bepalen waar de
+            # lijst ophoudt, en een zin die hier al werd weggevangen kon dat
+            # einde niet meer melden. Proza telt mee voor het geduld: staat
+            # er alleen nog lopende tekst, dan is de lijst voorbij.
+            afgekeurd.append(ruw)
+            wacht = None
+            leeg_op_rij += 1
+            if leeg_op_rij >= (25 if namen else 40):
                 break
             continue
         if _CATEGORIE.fullmatch(ruw):
