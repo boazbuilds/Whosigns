@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { IBM_Plex_Sans, Instrument_Serif } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { laatstBijgewerkt, sectoren, tel } from "@/lib/db";
 import { datumNL, hoofdletter, nl, sectorPad } from "@/lib/paden";
 import "./globals.css";
@@ -170,6 +171,14 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             </nav>
           </div>
         </footer>
+
+        {/* Bezoekersstatistiek van Vercel, de partij die de site toch al host.
+            Telt paginaweergaven, land en van welke pagina iemand kwam — zonder
+            cookies en zonder de bezoeker over sites heen te volgen, dus er
+            hoeft geen cookiemelding bij. Werkt pas als Web Analytics in het
+            Vercel-project aan staat; staat het uit, dan doet dit niets.
+            Weg willen? Deze regel en de import eruit. */}
+        <Analytics />
       </body>
     </html>
   );
