@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { after } from "next/server";
 import { alleOrganisaties, zoekKantoren, zoekOrganisaties } from "@/lib/db";
 import {
   aantalKantoren,
@@ -9,6 +10,7 @@ import {
   sectorPad,
 } from "@/lib/paden";
 import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
+import { legZoekopdrachtVast } from "@/lib/zoeklog";
 
 export const metadata: Metadata = { title: "Zoeken" };
 
@@ -63,6 +65,13 @@ export default async function Zoekpagina({ searchParams }: Props) {
   const kantoren = kantoorTreffers.rijen;
   const totaal = orgTreffers.totaal + kantoorTreffers.totaal;
   const afgekapt = orgTreffers.afgekapt || kantoorTreffers.afgekapt;
+
+  // Meeschrijven wát er gezocht is en hoeveel het opleverde. Nul treffers is
+  // het interessante geval: dan zoekt iemand een organisatie die er nog niet
+  // in staat, en dat is een aanwijzing welke bron er als volgende bij moet.
+  // Na de zoekopdracht, zodat het antwoord er al is; `after` laat het pas
+  // lopen als de pagina verstuurd is, dus de bezoeker wacht er niet op.
+  after(() => legZoekopdrachtVast(term, totaal));
 
   return (
     <>

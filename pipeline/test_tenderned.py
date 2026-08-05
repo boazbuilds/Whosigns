@@ -15,7 +15,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 
-from tenderned import gunningen_uit, schoon_opdrachtgever, zoek  # noqa: E402
+from tenderned import (  # noqa: E402
+    berichten_zonder_winnaar,
+    gunningen_uit,
+    gunningen_uit_xml,
+    schoon_opdrachtgever,
+    zoek,
+)
 
 # Zoals de API het echt teruggeeft.
 BERICHTEN = [
@@ -142,7 +148,73 @@ def main() -> int:
         f"opgevraagd: {opgevraagd}, berichten: {len(berichten)}",
     )
 
-    totaal = 8
+    # --- de XML-route voor berichten van vóór eForms ---
+    #
+    # De valkuil is <OFFICIALNAME>: die tag staat óók om de aanbesteder en om
+    # de rechtbank waar je bezwaar maakt. Alleen de naam binnen het
+    # contractor-omhulsel is de winnaar.
+    xml_nieuw = (
+        "<TED_EXPORT><OFFICIALNAME>Gemeente Baarn</OFFICIALNAME>"
+        '<AWARD_CONTRACT ITEM="1"><TITLE><P>Accountantsdiensten</P></TITLE>'
+        "<AWARDED_CONTRACT><DATE_CONCLUSION_CONTRACT>2019-12-01</DATE_CONCLUSION_CONTRACT>"
+        "<CONTRACTORS><CONTRACTOR><ADDRESS_CONTRACTOR>"
+        "<OFFICIALNAME>Verstegen accountants en adviseurs</OFFICIALNAME>"
+        "<TOWN>Dordrecht</TOWN></ADDRESS_CONTRACTOR></CONTRACTOR></CONTRACTORS>"
+        "</AWARDED_CONTRACT></AWARD_CONTRACT>"
+        "<COMPLEMENTARY_INFO><ADDRESS_REVIEW_BODY>"
+        "<OFFICIALNAME>Rechtbank Midden-Nederland</OFFICIALNAME>"
+        "</ADDRESS_REVIEW_BODY></COMPLEMENTARY_INFO></TED_EXPORT>"
+    )
+    regels = gunningen_uit_xml(xml_nieuw, "11581-2020", "Gemeente Baarn")
+    controleer(
+        "XML 2018-2023: alleen de contractor is de winnaar",
+        [r["winnaar"] for r in regels] == ["Verstegen accountants en adviseurs"]
+        and regels[0]["gunningsdatum"] == "2019-12-01"
+        and regels[0]["titel"] == "Accountantsdiensten",
+        f"gevonden: {regels}",
+    )
+
+    xml_oud = (
+        "<TED_EXPORT><OFFICIALNAME>Gemeente Vlaardingen</OFFICIALNAME>"
+        "<AWARD_OF_CONTRACT><CONTRACT_TITLE><P>Accountantsdiensten</P></CONTRACT_TITLE>"
+        "<CONTRACT_AWARD_DATE><DAY>15</DAY><MONTH>7</MONTH><YEAR>2016</YEAR>"
+        "</CONTRACT_AWARD_DATE><ECONOMIC_OPERATOR_NAME_ADDRESS><ORGANISATION>"
+        "<OFFICIALNAME>Deloitte Accountants BV</OFFICIALNAME></ORGANISATION>"
+        "</ECONOMIC_OPERATOR_NAME_ADDRESS></AWARD_OF_CONTRACT></TED_EXPORT>"
+    )
+    regels = gunningen_uit_xml(xml_oud, "274772-2016", "Gemeente Vlaardingen")
+    controleer(
+        "XML 2016-2017: losse dag/maand/jaar worden één datum",
+        [r["winnaar"] for r in regels] == ["Deloitte Accountants BV"]
+        and regels[0]["gunningsdatum"] == "2016-07-15",
+        f"gevonden: {regels}",
+    )
+
+    leeg = (
+        '<TED_EXPORT><AWARD_CONTRACT ITEM="1"><TITLE><P>Accountantsdiensten</P></TITLE>'
+        "<NO_AWARDED_CONTRACT><PROCUREMENT_DISCONTINUED/></NO_AWARDED_CONTRACT>"
+        "</AWARD_CONTRACT></TED_EXPORT>"
+    )
+    controleer(
+        "een ingetrokken aanbesteding levert geen gunning op",
+        gunningen_uit_xml(leeg, "1-2020", "Gemeente X") == [],
+        f"gevonden: {gunningen_uit_xml(leeg, '1-2020', 'Gemeente X')}",
+    )
+
+    controleer(
+        "alleen berichten zonder winnaar gaan de XML-route in",
+        berichten_zonder_winnaar(
+            [
+                {"publication-number": {"nld": ["a-2024"]}, "buyer-name": {"nld": ["Gemeente A"]},
+                 "winner-name": {"nld": ["KPMG Accountants N.V."]}},
+                {"publication-number": {"nld": ["b-2017"]}, "buyer-name": {"nld": ["Gemeente B"]}},
+            ]
+        )
+        == [("b-2017", "Gemeente B")],
+        f"gevonden: {berichten_zonder_winnaar([])}",
+    )
+
+    totaal = 12
     print(f"\n{totaal - fouten}/{totaal} goed")
     return 1 if fouten else 0
 

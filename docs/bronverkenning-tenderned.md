@@ -77,3 +77,60 @@ opeenvolgende boekjaren en weten dus nooit wanneer het besluit viel.
 - **Gezamenlijke aanbestedingen.** Eén gunning kan meerdere gemeenten dekken
   ("Gemeenten Deventer, Olst-Wijhe en Raalte"); de meegelifte gemeenten staan
   alleen in ongestructureerde tekst en worden nu niet apart vastgelegd.
+
+## De XML-route: 2016-2023 erbij (5-8-2026)
+
+Het zoekantwoord van de API draagt alleen een `winner-name` voor
+eForms-berichten, ruwweg vanaf december 2023. Dat leek een randgeval maar was
+het niet: het is precies de periode waarin de meeste gemeenten hun accountant
+hebben aanbesteed. Een gemeente besteedt eens in de vier tot acht jaar aan, dus
+met alleen 2024-2026 zie je hooguit een derde van de markt.
+
+De winnaar staat er wél in, maar dan in het XML-bericht zelf. Voor elk bericht
+zonder `winner-name` halen we dat bericht op — één verzoek, alleen voor wat
+anders niets zou opleveren.
+
+Twee schema's, allebei nodig:
+
+| Periode | Gunningsblok | Winnaar staat in | Datum |
+|---|---|---|---|
+| 2016-2017 | `AWARD_OF_CONTRACT` | `ECONOMIC_OPERATOR_NAME_ADDRESS` | losse `DAY`/`MONTH`/`YEAR` |
+| 2018-2023 | `AWARD_CONTRACT` | `AWARDED_CONTRACT` › `CONTRACTORS` › `CONTRACTOR` › `ADDRESS_CONTRACTOR` | `DATE_CONCLUSION_CONTRACT` |
+
+De valkuil is `<OFFICIALNAME>`: die tag staat óók om de aanbesteder zelf en om
+de rechtbank waar je bezwaar kunt maken. In het bericht van Gemeente
+Vlaardingen staat hij vier keer, en maar één ervan is het kantoor. Daarom
+knippen we eerst het gunningsblok uit en zoeken we daarbinnen alleen in het
+contractor-omhulsel. De naam van de aanbesteder komt niet uit de XML maar uit
+het zoekantwoord, waar hij netjes per taal is uitgesplitst.
+
+Opbrengst over 1-1-2016 t/m nu: **1.142 regels met een winnaar**, waarvan
+**725 gunningen** aan een herkend kantoor. Zonder de XML-route waren dat er
+412 respectievelijk 244.
+
+## Wat de afvallers leerden over de kantorenlijst
+
+Van de 470 winnaars die eerst geen kantoor bleken, was een flink deel wél een
+accountantskantoor — alleen onder een naam die de lijst niet kende. Dat is
+opgelost in de seeds, niet in de matcher:
+
+- **Aliassen** voor kantoren die al in het AFM-register staan onder een andere
+  naam: Baker Tilly Berk (nu Baker Tilly), Stolwijk Kelderman, Crowe Foederer,
+  Afier, Vallei Accountants, en de koepelnamen waaronder de grote vier
+  aanbestedingen winnen (Mazars N.V., Ernst & Young Nederland LLP,
+  PricewaterhouseCoopers B.V.).
+- **Drie kantoren buiten het register**, alle drie gespecialiseerd in
+  gemeenten: Astrium Overheidsaccountants (in 2022 opgegaan in Flynth Audit),
+  Ipa-Acon Assurance (onderdeel van ETL Nederland) en Hofsteenge Zeeman Groep.
+
+Wat bewust géén alias krijgt, en dus blijft afvallen:
+
+- **Kale merknamen** ("Deloitte", "Ernst & Young", "Baker Tilly"). Die als
+  zoeksleutel opnemen zou een eerder opgeloste fout terugbrengen: dezelfde
+  index leest ook jaarverslagen, en daar staat een kantoornaam net zo goed in
+  het cv van een commissaris. Kost acht gunningen, voorkomt een onbekend
+  aantal verzonnen opdrachten.
+- **Advies-, fiscale en consultancy-entiteiten** van dezelfde merken: KPMG
+  Advisory N.V., Deloitte Risk Advisory B.V., EY Belastingadviseurs B.V.,
+  PricewaterhouseCoopers Belastingadviseurs N.V. Die dragen hun functie in de
+  naam, winnen onder dezelfde CPV-familie, en doen geen wettelijke controle.

@@ -22,7 +22,7 @@ on:
         description: "Publicatiedatum vanaf (JJJJMMDD)"
         type: string
         required: false
-        default: "20231201"
+        default: "20160101"
       droogloop:
         description: "Niets naar de database schrijven; alleen het CSV-rapport"
         type: boolean
@@ -33,7 +33,7 @@ jobs:
   laden:
     name: Aanbestede accountantsdiensten laden
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
