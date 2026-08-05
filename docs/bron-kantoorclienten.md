@@ -75,3 +75,38 @@ Kolommen: `kantoor_sleutel` (AFM-nummer), `organisatie` (statutaire naam zoals
 in het document), `kvk_nummer` (alleen als het ín het document staat), `sector`,
 `boekjaar`, `type_opdracht` (`controle`, `vrijwillige_controle`, `beoordeling`
 of `samenstelling`), `url`, `vindplaats_toelichting`.
+
+## Nagemeten: Confinant Audit & Assurance (AFM 13020070)
+
+Eerste kantoor waarvoor deze bron is uitgeprobeerd, op verzoek. Uitkomst:
+**geen enkele cliënt bewijsbaar uit een openbare bron.** De seed blijft voor
+dit kantoor dus leeg — een regel zonder document zou precies de bewering zijn
+die deze bron níét wil bevatten.
+
+Wat is nagelopen (5-8-2026):
+
+| Vindplaats | Uitkomst |
+|---|---|
+| confinant.nl, alle pagina's en de drie pdf's | geen cliëntenlijst, geen referentiepagina |
+| AFM-vergunningenregister | Wta-vergunning sinds 8-5-2017, **geen OOB-vergunning** |
+| AFM-register financiële verslaggeving | geen enkele deponering met Confinant als accountant |
+| zoekmachines, op de firmanaam plus de vaste zinsnedes uit een controleverklaring | geen enkel jaarstuk |
+| jaarstukken van afzonderlijke, bij naam bekende cliënten | bestaan niet openbaar; alleen KvK-deponering of doorverkopers daarvan |
+
+Dat is geen toeval maar structuur. Zonder OOB-vergunning geldt de
+publicatieplicht van artikel 13 van EU-verordening 537/2014 niet, en Confinant
+richt zich blijkens de eigen site op private equity, venture capital, fintech,
+hospitality en vastgoed — vrijwel allemaal besloten vennootschappen zonder
+publicatieplicht buiten het Handelsregister om. Voor zulke kantoren is de
+openbare ruimte simpelweg leeg.
+
+Twee dingen die daarbij opvielen en die bij een volgende poging schelen:
+
+- **Delphias is geen cliënt maar een merk van Confinant zelf** — sinds 2023 de
+  samensteltak. Een naam die in een cliëntenlijstje opduikt hoeft dus niet
+  altijd een cliënt te zijn.
+- **Confinant is per 13 juli 2026 opgegaan in Qconcepts** (AFM 13000773); de
+  cliënten en opdrachten zijn daar ondergebracht. Voor de database blijft dat
+  twee kantoren: een verklaring over boekjaar 2025 of eerder draagt de naam
+  Confinant en hoort bij 13020070. Daarom staat er géén alias tussen beide —
+  die zou oude verklaringen aan het verkeerde kantoor toeschrijven.

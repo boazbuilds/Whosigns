@@ -183,6 +183,50 @@ GEVALLEN = [
             "STG Global Finance B.V.",
         ],
     ),
+    (
+        "KPMG/BDO: opsommingstekens horen niet bij de naam",
+        "Lijst van organisaties van openbaar belang",
+        "Lijst van organisaties van openbaar belang\n"
+        "— ING Bank N.V.\n"
+        "\uf03c Adagio CLO I B.V.\n"
+        "• Xeikon N.V.\n",
+        ["ING Bank N.V.", "Adagio CLO I B.V.", "Xeikon N.V."],
+    ),
+    (
+        "KPMG: een tussenzin die niet meer sluit hoort niet bij de naam",
+        "Lijst van organisaties van openbaar belang",
+        "Lijst van organisaties van openbaar belang\n"
+        "CZ Zorgverzekeringen N.V. (previously OHRA\n"
+        "Zorgverzekeringen N.V.)\n"
+        "Qiagen N.V.\n",
+        ["CZ Zorgverzekeringen N.V.", "Qiagen N.V."],
+    ),
+    (
+        "BDO: onderlingen afgebroken op het soortwoord worden weer heel",
+        "Lijst van organisaties van openbaar belang",
+        "Lijst van organisaties van openbaar belang\n"
+        "Onderlinge Waarborg Maatschappij\n"
+        "Achterhoek U.A.\n"
+        "Ctac N.V.\n",
+        ["Onderlinge Waarborg Maatschappij Achterhoek U.A.", "Ctac N.V."],
+    ),
+    (
+        "PwC: de inleidende zin boven de lijst is geen cliënt",
+        "List of public interest entities",
+        "List of public interest entities\n"
+        "Accountants N.V. \u200bduring the\n"
+        "Netherlands listed on an EU regulated market, credit institutions and (re)insurance\n"
+        "Akzo Nobel N.V.\n"
+        "Blue Square Re N.V. in liquidatie\n"
+        "Stichting Wooninc.\n",
+        # "in liquidatie" en "Wooninc." blijven staan: een rechtstoestand en
+        # een punt in de naam zijn geen proza.
+        [
+            "Akzo Nobel N.V.",
+            "Blue Square Re N.V. in liquidatie",
+            "Stichting Wooninc.",
+        ],
+    ),
 ]
 
 
