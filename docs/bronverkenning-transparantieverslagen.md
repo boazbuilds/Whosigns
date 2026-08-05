@@ -81,10 +81,43 @@ Organisaties die alleen hier voorkomen krijgen sector "OOB" en geen
 KvK-nummer (de verslagen noemen alleen namen); hun paginas dragen `o<id>` in
 het adres, zoals kantoren zonder AFM-nummer `k<id>` dragen.
 
+## Waar de archieven staan (nagelopen 5-8-2026)
+
+Alle zes kantoren houden hun oude verslagen online, maar elk op een eigen
+plek. Dit is de volledige kaart, zodat een volgende jaargang niet opnieuw
+gezocht hoeft te worden:
+
+| Kantoor | Archief | Reikt terug tot |
+|---|---|---|
+| BDO | `bdo.nl/nl-nl/over-bdo/kwaliteit` | 2013 |
+| Deloitte | `deloitte.com`, docs onder `audit-assurance` | 2019/2020 |
+| EY | `ey.com/nl_nl/jaarverslag/voorgaande-jaarverslagen` | 2007/2008 |
+| Forvis Mazars | `forvismazars.com/nl/nl/…/transparency-reports` | 2015/2016 |
+| KPMG | `kpmg.com/content/dam/kpmgsites/nl/pdf/over-ons/` en `corporatereporting.kpmg.nl` | 2019/2020 |
+| PwC | onderaan `pwc.nl/nl/onze-organisatie/transparantieverslag.html` | 2014/2015 |
+
+51 jaargangen staan nu in de seed, samen 5.462 cliëntregels, terug tot
+boekjaar 2012. Drie dingen die daarbij bleken:
+
+- **De sectiekop verschilt per jaar, niet alleen per kantoor.** EY noemt de
+  lijst "List of PIE audit clients" vanaf 2019/2020, "Public Interest
+  Entities" in de twee jaren ervoor en "…public interest entity audit
+  clients (OOBs)" nog eerder. KPMG wisselt tussen "Organisaties van openbaar
+  belang", "Public interest entity clients" en "List of Public Interest
+  Entity (PIE) clients". Daarom staat de kop per regel in de seed.
+- **PwC zet de lijst niet altijd in hetzelfde bestand.** T/m 2016/2017 staat
+  hij in het verslag zelf, vanaf 2021/2022 in een apart bijlagen-pdf. Voor
+  2017/2018 t/m 2019/2020 verwijst het verslag naar een bijlage die niet
+  meer op de site staat en ook niet als URI-annotatie in het pdf zit; die
+  drie jaargangen ontbreken daarom.
+- **BDO's verslag over 2021 is bij de uitgever zelf verdwenen.** De link op
+  de kwaliteitspagina (`go.bdo.nl/rs/275-PQU-395/…`) geeft 404, en het
+  getmedia-adres negeert de bestandsnaam: dat levert gewoon het
+  2022-verslag op. Boekjaar 2020 heeft voor BDO dus geen jaargang.
+
 ## Uitbreiden
 
 Nieuwe jaargang? Eén regel bij `seed/transparantieverslagen.csv` (kop van de
-lijstsectie meenemen) en de workflow draaien. Deloitte heeft een online
-archief terug tot 2015/2016; PwC's oudere bijlagen hangen als URI-annotatie
-in de verslagen zelf. Oudere jaargangen toevoegen = meer relatiegeschiedenis
-en wisselingen in het OOB-segment.
+lijstsectie meenemen) en de workflow draaien. Weet je de kop niet, laat dan
+de lader in droogloop élke bekende kop proberen en kijk welke de meeste
+namen oplevert — de echte lijst is altijd veruit de langste sectie.
