@@ -1,0 +1,80 @@
+name: Kantoorcliënten laden
+
+# Cliënten van één kantoor, uit losse openbare jaarstukken.
+#
+# Voor kantoren zonder OOB-vergunning bestaat er geen cliëntenlijst: die hoeven
+# geen transparantieverslag te publiceren, en hun cliënten deponeren hun
+# jaarrekening bij de Kamer van Koophandel — die voor dit project is
+# uitgesloten. Wat overblijft is per organisatie een openbaar jaarstuk zoeken
+# waarin de accountant met naam staat.
+#
+# De seed (pipeline/seed/kantoorclienten.csv) is een lijst BEWERINGEN. Deze
+# workflow haalt elk document erbij en controleert of het kantoor er echt in
+# staat vóór er iets naar de database gaat. Regels die niet standhouden komen
+# alleen in het rapport terecht — nooit in de database.
+#
+# Draai dit wanneer er regels aan de seed zijn toegevoegd. Draai eerst met
+# droogloop aan: dan zie je in het rapport wat er zou gebeuren.
+on:
+  workflow_dispatch:
+    inputs:
+      kantoor:
+        description: "Alleen dit AFM-nummer (leeg = alle regels in de seed)"
+        type: string
+        required: false
+        default: ""
+      droogloop:
+        description: "Niets naar de database schrijven; alleen het CSV-rapport"
+        type: boolean
+        required: false
+        default: true
+
+jobs:
+  laden:
+    name: Openbare jaarstukken nalopen
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # tesseract met Nederlands is de terugval voor gescande jaarrekeningen;
+      # bij kleinere organisaties is een scan eerder regel dan uitzondering.
+      - name: poppler en tesseract installeren
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-nld
+
+      - name: Kantorenlijsten bijwerken
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] && [ "$DROOGLOOP" != "true" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          [ -z "$SUPABASE_URL" ] || python3 pipeline/laad_kantoren.py --offline
+
+      - name: Jaarstukken nalopen en laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          python3 pipeline/laad_kantoorclienten.py \
+            --kantoor "${{ inputs.kantoor }}" \
+            $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
+
+      - name: Rapport bewaren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultaten-kantoorclienten
+          path: pipeline/.cache/resultaat_kantoorclienten.csv
+          if-no-files-found: ignore
+          include-hidden-files: true

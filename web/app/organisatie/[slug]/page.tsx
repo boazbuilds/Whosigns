@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  gunningenVanOrganisatie,
   opdrachtenVanOrganisatie,
   organisatieOpId,
   organisatieOpKvk,
@@ -15,6 +16,7 @@ import {
   aantalJaren,
   jarenReeks,
   kantoorPad,
+  datumNL,
   hoofdletter,
   nummerUitSlug,
   OPDRACHT_LABEL,
@@ -65,11 +67,15 @@ export default async function Organisatiepagina({ params }: Params) {
   let sectorgenoten: typeof plaatsgenoten = [];
   let aantalZelfdeJaar = 0;
   let reeksen: ReturnType<typeof periodes> = [];
+  let aanbestedingen: Awaited<ReturnType<typeof gunningenVanOrganisatie>> = [];
   let wissels: ReturnType<typeof wisseljaren> = new Set();
   try {
     org = await vindOrganisatie(slug);
     if (org) {
-      opdrachten = await opdrachtenVanOrganisatie(org.id);
+      [opdrachten, aanbestedingen] = await Promise.all([
+        opdrachtenVanOrganisatie(org.id),
+        gunningenVanOrganisatie(org.id),
+      ]);
       reeksen = periodes(opdrachten);
       wissels = wisseljaren(opdrachten);
 
@@ -238,6 +244,66 @@ export default async function Organisatiepagina({ params }: Params) {
           </div>
         )}
       </section>
+
+      {aanbestedingen.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Aanbestede accountantsdiensten</h2>
+            <span className="klein zacht">bron: TED</span>
+          </div>
+          {/* Een gunning is een benoeming vooraf, geen waargenomen controle.
+              Dat onderscheid staat hier expliciet, want anders leest een
+              bezoeker het als "hier is gecontroleerd". */}
+          <p className="klein zacht" style={{ marginTop: 0 }}>
+            De opdracht is Europees aanbesteed. Een gunning zegt wie er benoemd
+            is en wanneer — niet of de controle er kwam, en met welk oordeel.
+          </p>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gegund</th>
+                  <th>Kantoor</th>
+                  <th>Aanbesteding</th>
+                  <th>Bericht</th>
+                </tr>
+              </thead>
+              <tbody>
+                {aanbestedingen.map((gunning) => (
+                  <tr key={gunning.publicatienummer + (gunning.kantoren?.id ?? "")}>
+                    <td className="jaar">{datumNL(gunning.gunningsdatum)}</td>
+                    <td>
+                      {gunning.kantoren ? (
+                        <KantoorLink
+                          naam={gunning.kantoren.naam}
+                          naar={kantoorPad(gunning.kantoren)}
+                          voluit
+                        />
+                      ) : (
+                        <span className="zacht">onbekend</span>
+                      )}
+                    </td>
+                    <td className="klein zacht">{gunning.titel ?? "—"}</td>
+                    <td className="klein">
+                      {gunning.bronnen?.url ? (
+                        <a
+                          href={`https://ted.europa.eu/nl/notice/-/detail/${gunning.publicatienummer}`}
+                          rel="noreferrer nofollow"
+                          target="_blank"
+                        >
+                          {gunning.publicatienummer}
+                        </a>
+                      ) : (
+                        gunning.publicatienummer
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ) : null}
 
       {reeksen.length > 1 ? (
         <section className="kaart">
