@@ -13,25 +13,19 @@ import {
 } from "@/lib/db";
 import { periodes, wisseljaren } from "@/lib/analyse";
 import {
+  OPDRACHT_LABEL,
+  SOORTGROEP,
   aantalJaren,
-  jarenReeks,
-  kantoorPad,
   datumNL,
   hoofdletter,
+  jarenReeks,
+  kantoorPad,
   nummerUitSlug,
-  OPDRACHT_LABEL,
   organisatiePad,
   sectorPad,
   subsectorPad,
 } from "@/lib/paden";
-import {
-  Doorklik,
-  Foutmelding,
-  KantoorLink,
-  Kruimels,
-  Leeg,
-  Oordeel,
-} from "@/components/onderdelen";
+import { Doorklik, Foutmelding, KantoorLink, Kruimels, Leeg, Oordeel, Soort } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -201,8 +195,8 @@ export default async function Organisatiepagina({ params }: Params) {
                         <> <span className="label label-let-op">wisseling</span></>
                       ) : null}
                     </td>
-                    <td className="zacht">
-                      {OPDRACHT_LABEL[opdracht.type_opdracht] ?? opdracht.type_opdracht}
+                    <td>
+                      <Soort type={opdracht.type_opdracht} />
                     </td>
                     <td>
                       <Oordeel
@@ -243,6 +237,17 @@ export default async function Organisatiepagina({ params }: Params) {
             </table>
           </div>
         )}
+        {/* Alleen tonen als er ook echt zo'n opdracht tussen staat. De
+            waarschuwing is dan geen algemene disclaimer maar een uitleg bij
+            iets dat de bezoeker op deze pagina ziet staan. */}
+        {opdrachten.some((o) => SOORTGROEP[o.type_opdracht] === "anders") ? (
+          <p className="zacht klein" style={{ margin: "0.7rem 0 0", maxWidth: "44rem" }}>
+            Let op: niet elke verklaring hierboven gaat over de jaarrekening. Een
+            controle van een WNT-opgave, een productieverantwoording of een
+            subsidieafrekening betreft één onderwerp — daaruit volgt niets over
+            de jaarrekening als geheel.
+          </p>
+        ) : null}
       </section>
 
       {aanbestedingen.length > 0 ? (

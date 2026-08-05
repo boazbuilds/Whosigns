@@ -8,14 +8,7 @@ import {
   sectorPad,
   subsectorPad,
 } from "@/lib/paden";
-import {
-  Doorklik,
-  Foutmelding,
-  Kerncijfer,
-  Kruimels,
-  Leeg,
-  Oordeel,
-} from "@/components/onderdelen";
+import { Doorklik, Foutmelding, Kerncijfer, Kruimels, Leeg, Oordeel, Soort } from "@/components/onderdelen";
 
 export const metadata: Metadata = {
   title: "Niet-goedkeurende oordelen en continuïteit",
@@ -161,7 +154,7 @@ export default async function Bevindingenpagina() {
                         )}
                       </td>
                       <td className="zacht klein">
-                        {OPDRACHT_LABEL[rij.type_opdracht] ?? rij.type_opdracht}
+                        <Soort type={rij.type_opdracht} />
                       </td>
                       <td>
                         <Oordeel waarde={rij.oordeel} />
