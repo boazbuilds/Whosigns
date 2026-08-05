@@ -9,18 +9,27 @@ een kolom `Accountant`, met KvK-nummer, instellingsnaam en gemeente ernaast.
 
 Licentie **CC-0**: vrij te gebruiken, bronvermelding niet verplicht (we doen het wel).
 
-Gemeten op 30-7-2026:
+Gemeten op 5-8-2026, alle achttien jaargangen:
 
-| Jaargang | Corporaties | Accountant gevuld | Veldnaam |
+| Jaargang | Corporaties | Accountant gevuld | Vorm |
 |---|---|---|---|
-| dVi2015 | 349 | 349 (100%) | `CorpGeg_AccountantOrg_j1515` |
-| dVi2022 | 277 | 277 (100%) | `Accountant` |
-| dVi2024 | 272 | 272 (100%) | `Accountant` |
+| dVi2007 | 455 | 455 (100%) | ZIP, `Corp_H1_Algemeen_j07.xlsx` |
+| dVi2008 | 430 | 430 (100%) | idem, drie accountantkolommen |
+| dVi2009 | 418 | 418 (100%) | idem |
+| dVi2010 | 400 | 400 (100%) | idem, eerste jaar mét KvK-nummer |
+| dVi2011 | 389 | 389 (100%) | idem |
+| dVi2012 | 380 | 380 (100%) | idem |
+| dVi2013 | 378 | 378 (100%) | idem |
+| dVi2015 | 349 | 349 (100%) | los xlsx, `CorpGeg_AccountantOrg_j1515` |
+| dVi2022 | 277 | 277 (100%) | los xlsx, `Accountant` |
+| dVi2024 | 272 | 272 (100%) | los xlsx, `Accountant` |
 
-Jaargangen 2007 t/m 2024 staan online; vanaf 2014 zijn ze los per hoofdstuk en het
-makkelijkst te gebruiken. Zie `docs/bestaande-databases.md`.
+T/m 2013 staat een jaargang als één ZIP met ruim veertig bestanden; alleen
+`Corp_H1_Algemeen` heeft één regel per corporatie. Vanaf 2014 is hoofdstuk 1
+een los xlsx. Zie `docs/bestaande-databases.md`.
 
-Drie eigenaardigheden van de bron, alle drie hier opgelost:
+Zes eigenaardigheden van de bron, alle zes hier opgelost. De eerste drie gelden
+overal, de laatste drie alleen voor de jaargangen t/m 2013:
 
 1. **De veldnaam wisselt per jaargang** (zoals bij DigiMV). We zoeken de kolom daarom op
    patroon, niet op een vaste naam.
@@ -29,9 +38,16 @@ Drie eigenaardigheden van de bron, alle drie hier opgelost:
    blad waarvan de koprij een accountant-kolom heeft.
 3. **De schrijfwijze is zelfgerapporteerd en dus rommelig**: "BDO Audit & Assurance
    B.V.", "BDO Audit en Assurance BV", "BDO Audit&Assurace BV", "BDO Audit @ Assurance
-   B.V." en gewoon "BDO" — in één jaargang. `KORTE_NAMEN` hieronder vangt de losse
-   merknamen op. Die staan bewust *niet* in `seed/kantoor_alias.csv`: dat is de lijst
-   voor het herkennen van ondertekeningen in pdf's, en een losse "BDO" hoort daar niet in.
+   B.V." en gewoon "BDO" — in één jaargang. `KORTE_NAMEN` en `_MERKPATRONEN` hieronder
+   vangen de merknamen op. Die staan bewust *niet* in `seed/kantoor_alias.csv`: dat is
+   de lijst voor het herkennen van ondertekeningen in pdf's, en een losse "BDO" hoort
+   daar niet in.
+4. **dVi2008 heeft drie accountantkolommen**, waarvan de eerste de persóón is en niet
+   het kantoor. Zie `ACCOUNTANT_ORGANISATIE`.
+5. **Vóór 2010 staat er geen KvK-nummer in**, alleen het corporatienummer.
+   `brug_naar_kvk` vertaalt dat met de jaargangen die beide velden dragen.
+6. **De kolomnamen zijn de interne modelveldnamen** (`CorpGeg_StatNm_DB_j0707`) in
+   plaats van leesbare koppen. Zie `KOLOMPATRONEN`.
 
 Let op bij het opdrachttype: een woningcorporatie is op grond van de Woningwet
 controleplichtig, dus dit zijn **wettelijke controles** — anders dan bij de goede doelen.
@@ -64,20 +80,42 @@ BRON_URL = (
     "publicaties-cijfers-en-wetgeving-autoriteit-woningcorporaties/publicaties-en-data/open-data"
 )
 
-# De jaargangen die los per hoofdstuk staan en dus zonder gedoe te lezen zijn.
-OUDSTE_BOEKJAAR = 2014
+OUDSTE_BOEKJAAR = 2007
 NIEUWSTE_BOEKJAAR = 2024
+
+# T/m 2013 staat een jaargang als één ZIP met alle hoofdstukken erin; vanaf 2014
+# is hoofdstuk 1 een los xlsx. Beide bevatten hetzelfde: één regel per corporatie
+# met de accountantsorganisatie erbij.
+LAATSTE_BUNDELJAAR = 2013
 
 XLSX_NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
 
 # Kolommen die we nodig hebben, per patroon (de exacte naam wisselt per jaargang).
+#
+# De oude jaargangen gebruiken de veldnamen uit het dVi-model zelf en niet de
+# leesbare koppen van later: `CorpGeg_StatNm_DB_j0707` in plaats van
+# "Instellingsnaam", `CorpGeg_NmGemVest_DB_j0707` in plaats van "Gemeente",
+# `IdCorp_j07` in plaats van "L-nummer". Zonder die patronen bleef naam en
+# gemeente leeg — en omdat de lader dan het KvK-nummer als naam invult, staan er
+# nu 71 corporaties in de database die "24112244" heten.
 KOLOMPATRONEN = {
     "kvk_nummer": r"^kvk[_ ]?nummer$|kvk",
-    "naam": r"^instellingsnaam$|corporatienaam|naam.*instelling",
-    "gemeente": r"^gemeente$",
-    "instellingsnummer": r"^instellingsnummer$|^l-?nummer$",
+    "naam": r"^instellingsnaam$|corporatienaam|naam.*instelling|statnm",
+    "gemeente": r"^gemeente$|nmgemvest",
+    "instellingsnummer": r"^instellingsnummer$|^l-?nummer$|^idcorp",
     "accountant": r"accountant",
 }
+
+# Welke accountant-kolom je moet hebben als er meer dan één is.
+#
+# dVi2008 heeft er drie: `CorpGeg_AccountantNaam_j0808` (de persoon, "Drs. H.D.M.
+# Plomp RA"), `CorpGeg_AccountantOrg_j0808` (het kantoor) en
+# `CorpGeg_AccountantPlaats_j0808`. Op alfabetische kolomvolgorde wint de
+# persoonsnaam, en dan zou WhoSigns beweren dat "Drs. H.D.M. Plomp RA" een
+# accountantskantoor is. Vandaar: de organisatiekolom heeft voorrang, en een
+# kolom die overduidelijk de persoon of de vestigingsplaats is telt nooit mee.
+ACCOUNTANT_ORGANISATIE = re.compile(r"accountant\w*org|accountantsorganisatie", re.I)
+ACCOUNTANT_GEEN_ORGANISATIE = re.compile(r"accountant\w*(naam|plaats|nr|nummer)", re.I)
 
 # Woorden die in bijna elke kantoornaam staan en dus niets onderscheiden. Eraf halen
 # maakt "Verstegen Accountants & Belastingadviseurs" en "Verstegen accountants en
@@ -89,7 +127,36 @@ _RUISWOORDEN = {
     "netherlands", "group", "groep", "bv", "nv", "llp", "b", "v", "n", "maatschap",
     "coopers",  # "Pricewaterhouse Coopers" -> zelfde sleutel als PricewaterhouseCoopers
     "berk",     # "Baker Tilly Berk" was de naam tot 2018
+    # Schrijffouten in dezelfde ruiswoorden, geteld op de jaargangen 2007-2013:
+    # "Deloitte Accountans", "Deloitte Acocuntants", "BDO Audit & Assureance".
+    "accountans", "acocuntants", "accountantskantoor", "assureance", "acc",
+    "aa", "ra", "registeraccountant", "accontants",
 }
+
+# Merken die in de oude jaargangen onder een andere of verhaspelde naam staan.
+#
+# De opgave is met de hand ingevuld en dat is te zien: BDO heette tot 2010 "BDO
+# CampsObers" en komt in vijftien schrijfwijzen voor ("BDO Camps Obers", "BDO
+# ChampsObers", "B.D.O. CampsObers"), PricewaterhouseCoopers in acht ("Price
+# Waterhouse Coopers", "PricewatrerhouseCoopers", aan elkaar geplakt met
+# "Accountants"), en Deloitte staat er twee keer als "Deloiite".
+#
+# Dit is bewust een korte lijst van patronen en geen zoek-op-gelijkenis: elk
+# patroon noemt één merk dat maar één kantoor kan zijn. Wat er niet in staat
+# valt gewoon af en komt in de review-queue — kleine kantoren als "Du Roi",
+# "Westpark" en "Accountantskantoor E. Nikkels" horen daar thuis, want die
+# staan niet in het AFM-register en mogen niet geraden worden.
+_MERKPATRONEN: list[tuple[re.Pattern, str]] = [
+    (re.compile(r"ch?amps?\s*obers|\bbdo\b", re.I), "BDO Audit & Assurance B.V."),
+    (re.compile(r"price\s*wat\w*hous\w*\s*coopers", re.I),
+     "PricewaterhouseCoopers Accountants N.V."),
+    (re.compile(r"\bdelo[il]+t+e\b", re.I), "Deloitte Accountants B.V."),
+    # Alleen aan het begin: "Berk N.V." is het kantoor dat later Baker Tilly Berk
+    # werd, maar een naam als "Van den Berk & Partners" is dat niet.
+    (re.compile(r"^berk\b", re.I), "Baker Tilly (Netherlands) B.V."),
+    (re.compile(r"\bgibo\b", re.I), "Flynth Audit B.V."),
+    (re.compile(r"foederer", re.I), "Crowe Foederer Audit & Assurance B.V."),
+]
 
 # Merknamen die zonder verdere aanduiding maar één kantoor kunnen betekenen.
 KORTE_NAMEN = {
@@ -171,6 +238,12 @@ def dataset_url(boekjaar: int) -> str:
         for bron in pakket.get("resources", []):
             url = bron.get("url") or ""
             naam = (bron.get("name") or "").lower()
+            if boekjaar <= LAATSTE_BUNDELJAAR:
+                # Deze jaargangen staan als één ZIP met alle hoofdstukken; er is
+                # geen los hoofdstuk 1 om uit te kiezen.
+                if url.lower().endswith(".zip"):
+                    kandidaten.append((0, url))
+                continue
             if not url.lower().endswith((".xlsx", ".xls")):
                 continue
             if "veldnamen" in naam or "model" in naam:  # datadictionary, geen data
@@ -224,14 +297,38 @@ def _bladen(inhoud: bytes):
 def _kolommen(koprij: dict) -> dict[str, str] | None:
     """Kolomletters per gewenst veld, of None als dit blad geen accountant-kolom heeft."""
     gevonden: dict[str, str] = {}
+    voorkeur: str | None = None
     for letter, kop in koprij.items():
         kop_tekst = str(kop).strip()
+        if ACCOUNTANT_ORGANISATIE.search(kop_tekst):
+            voorkeur = voorkeur or letter
         for veld, patroon in KOLOMPATRONEN.items():
             if veld in gevonden:
                 continue
+            if veld == "accountant" and ACCOUNTANT_GEEN_ORGANISATIE.search(kop_tekst):
+                # De persoonsnaam of de vestigingsplaats van de accountant; nooit
+                # het kantoor. Zie de toelichting bij ACCOUNTANT_ORGANISATIE.
+                continue
             if re.search(patroon, kop_tekst, re.I):
                 gevonden[veld] = letter
+    if voorkeur:
+        gevonden["accountant"] = voorkeur
     return gevonden if "accountant" in gevonden else None
+
+
+def _schoon_kvk(waarde: str) -> str:
+    """KvK-nummer op één vaste vorm: acht cijfers, met voorloopnul.
+
+    De bron is hierin niet consequent: dVi2010 schrijft `1032035`, dVi2013
+    schrijft `01032035` voor dezelfde corporatie. Omdat het KvK-nummer de sleutel
+    is waarop organisaties worden samengevoegd, leverde dat twee rijen op voor
+    één corporatie — 66 van de 436 corporaties in de database staan er dubbel in.
+    Acht cijfers is de officiële lengte, dus daar trekken we alles naartoe.
+    """
+    cijfers = re.sub(r"\D", "", waarde or "")
+    if not cijfers:
+        return ""
+    return cijfers.zfill(8) if len(cijfers) <= 8 else cijfers
 
 
 def normaliseer_kantoornaam(waarde: str, afm: dict[str, str] | None = None) -> str:
@@ -247,6 +344,11 @@ def normaliseer_kantoornaam(waarde: str, afm: dict[str, str] | None = None) -> s
     vallen — waarna de lader hem in de review-queue zet. Nooit stil gokken.
     """
     schoon = re.sub(r"\s+", " ", (waarde or "").strip())
+    # Stap 0: een merk dat alleen onder een oude of verhaspelde naam voorkomt.
+    # Vóór de kernwoorden, want juist die verhaspeling maakt de sleutel onbruikbaar.
+    for patroon, kantoor in _MERKPATRONEN:
+        if patroon.search(schoon):
+            return kantoor
     sleutel = _kernwoorden(schoon)
     if not sleutel:
         return schoon
@@ -288,7 +390,9 @@ def _lees(inhoud: bytes, boekjaar: int, bron_url: str) -> list[dict]:
                 continue
             uit.append(
                 {
-                    "kvk_nummer": str(rij.get(kolommen.get("kvk_nummer", ""), "")).strip(),
+                    "kvk_nummer": _schoon_kvk(
+                        str(rij.get(kolommen.get("kvk_nummer", ""), ""))
+                    ),
                     "naam": str(rij.get(kolommen.get("naam", ""), "")).strip(),
                     "gemeente": str(rij.get(kolommen.get("gemeente", ""), "")).strip(),
                     "instellingsnummer": str(
@@ -305,17 +409,80 @@ def _lees(inhoud: bytes, boekjaar: int, bron_url: str) -> list[dict]:
     raise LookupError(f"geen blad met een accountant-kolom in dVi{boekjaar}")
 
 
+_H1_IN_ZIP = re.compile(r"Corp[_ ]?H1[_ ]", re.I)
+
+
+def hoofdstuk1_uit_zip(inhoud: bytes) -> bytes:
+    """Het hoofdstuk-1-bestand uit een gebundelde jaargang (2007 t/m 2013).
+
+    Zo'n ZIP bevat ruim veertig xlsx-bestanden — balans, huurontwikkeling,
+    bezit per gemeente. Alleen `Corp_H1_Algemeen_jNN.xlsx` heeft één regel per
+    corporatie met de accountantsorganisatie erbij.
+    """
+    with zipfile.ZipFile(io.BytesIO(inhoud)) as archief:
+        namen = [n for n in archief.namelist() if _H1_IN_ZIP.search(n)]
+        if not namen:
+            namen = [
+                n
+                for n in archief.namelist()
+                if n.lower().endswith(".xlsx") and "algemeen" in n.lower()
+            ]
+        if not namen:
+            raise LookupError("geen hoofdstuk-1-bestand in de ZIP")
+        return archief.read(sorted(namen)[0])
+
+
 def corporaties(boekjaar: int, cache: Path | None = None) -> list[dict]:
     """Alle corporaties van dit boekjaar met hun accountant, opgehaald bij de bron."""
     url = dataset_url(boekjaar)
+    bundel = boekjaar <= LAATSTE_BUNDELJAAR
     pad = None
     if cache is not None:
         cache.mkdir(exist_ok=True)
-        pad = cache / f"dvi{boekjaar}_h1.xlsx"
+        pad = cache / f"dvi{boekjaar}_h1.{'zip' if bundel else 'xlsx'}"
     if pad is not None and pad.exists():
         inhoud = pad.read_bytes()
     else:
-        inhoud = _haal(url)
+        inhoud = _haal(url, timeout=600)
         if pad is not None:
             pad.write_bytes(inhoud)
+    if bundel:
+        inhoud = hoofdstuk1_uit_zip(inhoud)
     return _lees(inhoud, boekjaar, url)
+
+
+# Boekjaren waarin de bron zelf een KvK-nummer meelevert. Vóór 2010 niet.
+EERSTE_JAAR_MET_KVK = 2010
+
+
+def brug_naar_kvk(cache: Path | None = None, jaren: range | None = None) -> dict[str, str]:
+    """Corporatienummer -> KvK-nummer, opgebouwd uit de jaargangen die beide hebben.
+
+    De jaargangen 2007 t/m 2009 noemen geen KvK-nummer, alleen het corporatienummer
+    (`IdCorp`, de L-nummers van de toezichthouder). Zonder KvK kan de lader een
+    corporatie niet aan een organisatie koppelen en zou een derde van de winst
+    hier wegvallen.
+
+    Het corporatienummer is wél stabiel: nagemeten op de zeven bundeljaargangen is
+    het in elke jaargang uniek, en het overleeft naamswijzigingen — L0013 heet in
+    2007 "Stichting Wonen 's-Hertogenbosch" en in 2013 "Stichting Zayaz", maar het
+    is dezelfde corporatie. Daarom bouwen we de vertaling uit de jaargangen die
+    beide velden dragen. Dekking, gemeten: 400 van de 455 corporaties in 2007
+    (88%), 400 van 430 in 2008 (93%) en 400 van 418 in 2009 (96%).
+
+    Wat niet in de brug zit is een corporatie die vóór 2010 is opgeheven of
+    gefuseerd. Die krijgt geen KvK-nummer en wordt door de lader gemeld als
+    `geen_kvk` — nooit stil geraden.
+    """
+    brug: dict[str, str] = {}
+    for boekjaar in jaren or range(EERSTE_JAAR_MET_KVK, LAATSTE_BUNDELJAAR + 1):
+        try:
+            rijen = corporaties(boekjaar, cache=cache)
+        except Exception:  # noqa: BLE001 — één jaargang mag ontbreken
+            continue
+        for rij in rijen:
+            nummer = (rij.get("instellingsnummer") or "").strip()
+            kvk = (rij.get("kvk_nummer") or "").strip()
+            if nummer and kvk:
+                brug.setdefault(nummer, kvk)
+    return brug

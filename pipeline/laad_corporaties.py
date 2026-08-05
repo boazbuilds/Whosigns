@@ -76,9 +76,8 @@ def main() -> int:
 
     if not (aw_dvi.OUDSTE_BOEKJAAR <= boekjaar <= aw_dvi.NIEUWSTE_BOEKJAAR):
         print(
-            f"boekjaar {boekjaar} valt buiten {aw_dvi.OUDSTE_BOEKJAAR}–"
-            f"{aw_dvi.NIEUWSTE_BOEKJAAR}; oudere jaargangen staan als één bundel online "
-            "en zijn nog niet uitgezocht"
+            f"boekjaar {boekjaar} valt buiten "
+            f"{aw_dvi.OUDSTE_BOEKJAAR}–{aw_dvi.NIEUWSTE_BOEKJAAR}"
         )
         return 1
 
@@ -93,6 +92,27 @@ def main() -> int:
         print("Tip: download het xlsx met de hand en geef het mee met --bestand.")
         return 1
     print(f"{len(rijen)} corporaties met een accountantsnaam", flush=True)
+
+    # De jaargangen vóór 2010 noemen geen KvK-nummer, alleen het corporatienummer.
+    # Zonder KvK kan een rij niet aan een organisatie worden gekoppeld, dus halen
+    # we de vertaling uit de jaargangen die beide velden dragen. Dat is geen
+    # gokwerk: het corporatienummer is de sleutel van de toezichthouder zelf.
+    if boekjaar < aw_dvi.EERSTE_JAAR_MET_KVK and not argumenten.bestand:
+        print("geen KvK-nummer in deze jaargang; brug opbouwen uit 2010-2013…", flush=True)
+        try:
+            brug = aw_dvi.brug_naar_kvk(cache=CACHE)
+        except Exception as fout:  # noqa: BLE001 — zonder brug alsnog droogdraaien
+            print(f"  brug mislukt: {type(fout).__name__}: {fout}")
+            brug = {}
+        gevuld = 0
+        for rij in rijen:
+            if not rij["kvk_nummer"]:
+                kvk = brug.get((rij.get("instellingsnummer") or "").strip(), "")
+                if kvk:
+                    rij["kvk_nummer"] = kvk
+                    gevuld += 1
+        print(f"  {gevuld} van de {len(rijen)} corporaties gekoppeld via het "
+              f"corporatienummer ({len(brug)} in de brug)", flush=True)
 
     index = bouw_index(laad_kantoren())
 
