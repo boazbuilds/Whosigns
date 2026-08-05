@@ -227,6 +227,46 @@ GEVALLEN = [
             "Stichting Wooninc.",
         ],
     ),
+    (
+        "Deloitte: streepje vast aan de naam, label erboven, zachte afbreekstreep",
+        "PIEs audited",
+        "PIEs audited\n"
+        "Merger between:\n"
+        "-Onderlinge Verzekeringsmaatschappij Midden Drenthe U.A.,\n"
+        "-Onderlinge Waarborgmaatschappij Univ\u00e9 Ruinen U.A.\n"
+        "Onderlinge Waarborgmaatschappij voor Instellingen in de "
+        "Gezondheids\u00ad zorg MediRisk B.A.\n",
+        # "Merger between:" is een kopje en mag niet aan de naam eronder
+        # geplakt worden; de zachte afbreekstreep is onzichtbaar maar zou
+        # "Gezondheids zorg" een andere organisatie maken dan "Gezondheidszorg".
+        [
+            "Onderlinge Verzekeringsmaatschappij Midden Drenthe U.A.",
+            "Onderlinge Waarborgmaatschappij Univ\u00e9 Ruinen U.A.",
+            "Onderlinge Waarborgmaatschappij voor Instellingen in de "
+            "Gezondheidszorg MediRisk B.A.",
+        ],
+    ),
+    (
+        "BDO: een naam die zelf tussen haakjes doorloopt blijft heel",
+        "Lijst van organisaties van openbaar belang",
+        "Lijst van organisaties van openbaar belang\n"
+        "Mutual Insurance Association Munis (Onderlinge\n"
+        "Verzekeringsmaatschappij Munis) U.A.\n"
+        "Ctac N.V.\n",
+        ["Mutual Insurance Association Munis (Onderlinge Verzekeringsmaatschappij Munis) U.A.",
+         "Ctac N.V."],
+    ),
+    (
+        "Deloitte: is de naam vóór het haakje al af, dan is de rest toelichting",
+        "PIEs audited",
+        "PIEs audited\n"
+        "Onderlinge Verzekeringsmaatschappij Univ\u00e9 Samen U.A. (voorheen Onderlinge\n"
+        "Verzekeringsmaatschappij Univ\u00e9 Noord-Holland U.A.)\n"
+        "Ctac N.V.\n",
+        # "U.A." sluit de naam af, dus hier wordt wél geknipt -- anders dan bij
+        # Munis hierboven, waar de naam vóór het haakje nog niet af was.
+        ["Onderlinge Verzekeringsmaatschappij Univ\u00e9 Samen U.A.", "Ctac N.V."],
+    ),
 ]
 
 

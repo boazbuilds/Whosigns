@@ -179,11 +179,23 @@ _LOSSE_STAART = re.compile(
 # ("— ING Bank N.V."), BDO 2014 een Wingdings-pijltje dat als U+F03C uit de
 # pdf komt — een teken uit het private-use-gebied, dus zonder betekenis
 # buiten het lettertype waarin het gezet is.
-_BULLET = re.compile(r"^[•‣▪●·‒-―-]+\s*")
+# Deloitte 2018/2019 gebruikt het gewone streepje, vast tegen de naam aan
+# ("-Onderlinge Waarborgmaatschappij Unive Ruinen U.A."), dus de spatie erna
+# is optioneel en het ASCII-streepje hoort er expliciet bij.
+_BULLET = re.compile("^[\u2022\u2023\u25aa\u25cf\xb7\u2012-\u2015\ue000-\uf8ff-]+\\s*")
+
+# Een zachte afbreekstreep (U+00AD) is onzichtbaar maar telt wel mee bij het
+# vergelijken van namen: "Gezondheids­zorg" en "Gezondheidszorg" zouden twee
+# organisaties worden. Hij stuurt alleen de regelafbreking in het pdf.
+_ZACHT_AFBREEK = re.compile("\xad\\s*")
+
+# Eindigt het stuk vóór het haakje al op een rechtsvorm, dan is die naam af.
+_SLUIT_AF = re.compile(r"(?:B\.?V\.?|N\.?V\.?|U\.?A\.?|B\.?A\.?|S\.?E\.?|LLP|Ltd|plc)$", re.I)
 
 
 def _schoon(regel: str) -> str:
     regel = regel.replace("\t", " ").replace("\x07", " ").strip()
+    regel = _ZACHT_AFBREEK.sub("", regel)
     regel = _BULLET.sub("", regel).strip()
     # Een geopend haakje dat niet meer sluit betekent dat de regel middenin
     # een tussenzin is afgekapt ("CZ Zorgverzekeringen N.V. (previously
@@ -195,16 +207,23 @@ def _schoon(regel: str) -> str:
     # op de regel eronder ("Verzekeringsmaatschappij 'Munis') U.A."). Dat
     # herken je eraan dat het stuk achter het haakje open eindigt; knippen
     # zou de aanhechting weghalen en beide helften los opslaan.
+    # Twee dingen moeten samenvallen wil er níét geknipt worden: het stuk
+    # achter het haakje eindigt open, én het stuk ervóór is zelf nog niet af.
+    # Dat tweede is nodig sinds Deloitte 2017/2018, waar "Onderlinge
+    # Verzekeringsmaatschappij Unive Samen U.A. (voorheen Onderlinge" wél een
+    # afgeronde naam vooraan heeft: daar is het haakje toelichting.
     if regel.count("(") > regel.count(")"):
-        staart = regel[regel.rindex("(") + 1 :].strip()
-        if not _EINDIGT_OPEN.search(staart):
-            regel = regel[: regel.rindex("(")].strip()
+        knip = regel.rindex("(")
+        kop, staart = regel[:knip].strip(), regel[knip + 1 :].strip()
+        if not _EINDIGT_OPEN.search(staart) or _SLUIT_AF.search(kop):
+            regel = kop
     # PwC plakt de lettermarkering aan de eerste naam van elke groep:
     # "B BMW Finance N.V." -> "BMW Finance N.V.". Eén losse hoofdletter
     # gevolgd door een naam die met een hoofdletter of "(" begint.
     regel = re.sub(r"^[A-Z] (?=[A-Z(])", "", regel)
     # Voetnootverwijzing achter de naam ("Stichting Vestia**") hoort er niet bij.
-    regel = re.sub(r"\s*\*+$", "", regel)
+    # ...en een komma aan het eind is een opsommingsteken, geen naamsdeel.
+    regel = re.sub(r"\s*[*,]+$", "", regel)
     return re.sub(r"\s+", " ", regel)
 
 
@@ -275,9 +294,30 @@ def _lees_vanaf(regels: list[str], start: int) -> tuple[list[str], list[str]]:
                 break
             continue
         if ruw.count(")") > ruw.count("("):
-            # Een sluithaakje zonder opening: dit is de tweede helft van een
-            # tussenzin waarvan de eerste helft hierboven al is afgeknipt
-            # ("Zorgverzekeringen N.V.)"). Nooit een naam op zichzelf.
+            # Een sluithaakje zonder opening is de tweede helft van iets. Staat
+            # de eerste helft pal erboven en hangt daar een haakje open, dan
+            # horen ze bij elkaar: "Mutual Insurance Association 'Munis'
+            # (Onderlinge" + "Verzekeringsmaatschappij 'Munis') U.A.".
+            if (
+                namen
+                and nr == nrs[-1] + 1
+                and namen[-1].count("(") > namen[-1].count(")")
+                and len(f"{namen[-1]} {ruw}") <= 110
+            ):
+                namen[-1] = f"{namen[-1]} {ruw}"
+                nrs[-1] = nr
+                leeg_op_rij = 0
+                wacht = None
+                continue
+            # Anders is de eerste helft al afgeknipt ("Zorgverzekeringen N.V.)")
+            # en is dit geen naam op zichzelf.
+            afgekeurd.append(ruw)
+            wacht = None
+            continue
+        if ruw.endswith(":"):
+            # Een label boven een groepje ("Merger between:"), nooit de eerste
+            # helft van een naam. Zonder deze rem plakt Deloitte 2018/2019 het
+            # kopje aan de fusiepartner eronder vast.
             afgekeurd.append(ruw)
             wacht = None
             continue

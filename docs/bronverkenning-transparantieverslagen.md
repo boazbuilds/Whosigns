@@ -90,13 +90,13 @@ gezocht hoeft te worden:
 | Kantoor | Archief | Reikt terug tot |
 |---|---|---|
 | BDO | `bdo.nl/nl-nl/over-bdo/kwaliteit` | 2013 |
-| Deloitte | `deloitte.com`, docs onder `audit-assurance` | 2019/2020 |
+| Deloitte | `deloitte.com`, docs onder `audit-assurance/2024/` | 2015/2016 |
 | EY | `ey.com/nl_nl/jaarverslag/voorgaande-jaarverslagen` | 2007/2008 |
 | Forvis Mazars | `forvismazars.com/nl/nl/…/transparency-reports` | 2015/2016 |
-| KPMG | `kpmg.com/content/dam/kpmgsites/nl/pdf/over-ons/` en `corporatereporting.kpmg.nl` | 2019/2020 |
+| KPMG | `kpmg.com/content/dam/kpmgsites/nl/pdf/over-ons/` en `corporatereporting.kpmg.nl` | 2015/2016, met een gat 2016/2017 t/m 2018/2019 |
 | PwC | onderaan `pwc.nl/nl/onze-organisatie/transparantieverslag.html` | 2014/2015 |
 
-51 jaargangen staan nu in de seed, samen 5.462 cliëntregels, terug tot
+56 jaargangen staan nu in de seed, samen 6.093 cliëntregels, terug tot
 boekjaar 2012. Drie dingen die daarbij bleken:
 
 - **De sectiekop verschilt per jaar, niet alleen per kantoor.** EY noemt de
@@ -110,6 +110,10 @@ boekjaar 2012. Drie dingen die daarbij bleken:
   2017/2018 t/m 2019/2020 verwijst het verslag naar een bijlage die niet
   meer op de site staat en ook niet als URI-annotatie in het pdf zit; die
   drie jaargangen ontbreken daarom.
+- **KPMG heeft geen archiefpagina.** De oude jaarverslagen staan op
+  `corporatereporting.kpmg.nl` achter een adres met een ondoorzichtige
+  project-id; alleen 2015/2016 was zo terug te vinden. De vier jaargangen
+  2016/2017 t/m 2018/2019 ontbreken daarom.
 - **BDO's verslag over 2021 is bij de uitgever zelf verdwenen.** De link op
   de kwaliteitspagina (`go.bdo.nl/rs/275-PQU-395/…`) geeft 404, en het
   getmedia-adres negeert de bestandsnaam: dat levert gewoon het
