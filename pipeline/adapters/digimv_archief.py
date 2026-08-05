@@ -109,3 +109,99 @@ def verklaringen(organisatie: dict) -> list[dict]:
         d for d in documenten if d.get("type", "").startswith("Accountantsverklaring")
     ]
     return accountantsverklaring + van_type("Verzameldocument") + van_type("Jaarrekening")
+
+
+# --- de hele populatie uit het archief zelf -------------------------------
+#
+# De jaardataset (.ods) bestaat alleen voor 2022 t/m 2024, en voor 2019 t/m 2021
+# mist hij de accountantsverklaring-velden helemaal. Voor die jaargangen leende
+# `laad_zorg.py` de organisatielijst van een ánder boekjaar, met als prijs: wie
+# in het lijstjaar geen controle had maar in het gescande jaar wél, viel weg.
+#
+# Dat blijkt de meerderheid te zijn. Het archief is namelijk zelf volledig
+# doorzoekbaar. Gemeten op 5-8-2026 door de zoekfunctie op elke letter a-z los
+# te bevragen en de uitkomsten samen te voegen:
+#
+#     boekjaar 2019   4.982 organisaties in het archief, 2.211 met een verklaring
+#     boekjaar 2020   5.021                              2.351
+#     boekjaar 2021   5.117                              2.471
+#     boekjaar 2025  14.206                              1.146  (nog niet iedereen
+#                                                                heeft gedeponeerd)
+#
+# Tegenover 513, 544, 580 en 640 opdrachten die er voor die jaren in de database
+# stonden. Elke organisatie draagt haar KvK-nummer, dus samenvoegen is exact.
+#
+# Waarom a-z volstaat: de zoekfunctie doet een deelstringvergelijking op de naam,
+# en elke Nederlandse organisatienaam bevat minstens één letter. De vereniging
+# van alle zesentwintig uitkomsten is dus de volledige lijst. Zesentwintig
+# verzoeken per boekjaar — verwaarloosbaar naast de duizenden pdf's erna.
+
+import csv  # noqa: E402
+import string  # noqa: E402
+from pathlib import Path  # noqa: E402
+
+VERKLARING_TYPE = "accountantsverklaring"
+ARCHIEF_VELDEN = ["kvk_nummer", "naam", "plaats", "boekjaar"]
+
+
+def alle_organisaties(boekjaar: int, pauze: float = PAUZE_SECONDEN) -> list[dict]:
+    """Elke organisatie met stukken in het archief van dit boekjaar.
+
+    Samengevoegd op KvK-nummer; organisaties zonder KvK-nummer vallen af, want
+    zonder sleutel is een organisatie niet te koppelen.
+    """
+    gezien: dict[str, dict] = {}
+    for letter in string.ascii_lowercase:
+        try:
+            treffers = zoek(organisatie=letter, boekjaar=boekjaar)
+        except Exception:  # noqa: BLE001 — één letter mag mislukken
+            continue
+        for organisatie in treffers:
+            kvk = str(organisatie.get("externalOrganizationId") or "").strip()
+            if kvk:
+                gezien.setdefault(kvk, organisatie)
+        time.sleep(pauze)
+    return list(gezien.values())
+
+
+def heeft_verklaring(organisatie: dict) -> bool:
+    return any(
+        VERKLARING_TYPE in (document.get("type") or "").lower()
+        for document in (organisatie.get("documents") or [])
+    )
+
+
+def doelpopulatie(boekjaar: int, cache: Path | None = None) -> list[dict]:
+    """Organisaties met een gedeponeerde accountantsverklaring, in de vorm die
+    `laad_zorg.py` verwacht (kvk_nummer, naam, plaats).
+
+    Welke sóórt verklaring het is — controle, beoordeling of samenstelling —
+    staat niet in het archief: alle drie vallen onder hetzelfde documenttype.
+    Dat blijkt pas uit de pdf, en dat is precies wat de lader er daarna uit
+    haalt. Hier filteren we dus ruimer dan de dataset deed; wat geen
+    controleverklaring blijkt, valt verderop af.
+    """
+    pad = cache / f"archiefpopulatie_{boekjaar}.csv" if cache else None
+    if pad is not None and pad.exists():
+        with pad.open(encoding="utf-8") as bestand:
+            rijen = list(csv.DictReader(bestand))
+        if rijen and list(rijen[0]) == ARCHIEF_VELDEN:
+            return rijen
+
+    rijen = [
+        {
+            "kvk_nummer": str(organisatie.get("externalOrganizationId") or "").strip(),
+            "naam": (organisatie.get("name") or "").strip(),
+            "plaats": (organisatie.get("town") or "").strip(),
+            "boekjaar": str(boekjaar),
+        }
+        for organisatie in alle_organisaties(boekjaar)
+        if heeft_verklaring(organisatie)
+    ]
+    if pad is not None:
+        pad.parent.mkdir(parents=True, exist_ok=True)
+        with pad.open("w", newline="", encoding="utf-8") as bestand:
+            schrijver = csv.DictWriter(bestand, fieldnames=ARCHIEF_VELDEN)
+            schrijver.writeheader()
+            schrijver.writerows(rijen)
+    return rijen

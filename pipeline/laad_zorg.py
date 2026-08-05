@@ -182,6 +182,13 @@ def main() -> int:
     parser.add_argument("--kantoor", default="")
     parser.add_argument("--werkers", type=int, default=4)
     parser.add_argument("--lijst-uit", type=int, default=0, dest="lijst_uit")
+    parser.add_argument(
+        "--uit-archief",
+        action="store_true",
+        dest="uit_archief",
+        help="bepaal de organisatielijst uit het archief zelf in plaats van uit "
+        "de jaardataset; nodig voor 2019-2021 en 2025",
+    )
     parser.add_argument("--herlaad", action="store_true")
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
@@ -200,13 +207,25 @@ def main() -> int:
     # tweede jaar is er geen enkele wisseling te zien.
     lijst_boekjaar = argumenten.lijst_uit or boekjaar
 
-    organisaties = digimv_dataset.doelpopulatie_uit_cache(lijst_boekjaar, CACHE)
-
-    herkomst = (
-        "" if lijst_boekjaar == boekjaar else f" (lijst uit boekjaar {lijst_boekjaar})"
-    )
+    if argumenten.uit_archief:
+        # Het archief zelf uitkammen in plaats van de jaardataset lezen. Voor
+        # 2019 t/m 2021 en 2025 is dat de enige volledige weg: de dataset
+        # bestaat daar niet of mist de verklaringvelden, en de lijst van een
+        # ánder jaar lenen laat juist de meerderheid liggen — gemeten 2.211
+        # organisaties met een verklaring in 2019 tegen 513 opdrachten die er
+        # met de geleende lijst uit kwamen.
+        organisaties = digimv_archief.doelpopulatie(boekjaar, cache=CACHE)
+        herkomst = " (lijst uit het archief zelf)"
+        soort = "een gedeponeerde verklaring"
+    else:
+        organisaties = digimv_dataset.doelpopulatie_uit_cache(lijst_boekjaar, CACHE)
+        herkomst = (
+            "" if lijst_boekjaar == boekjaar
+            else f" (lijst uit boekjaar {lijst_boekjaar})"
+        )
+        soort = "een controleverklaring"
     print(
-        f"{len(organisaties)} organisaties met een controleverklaring{herkomst}; "
+        f"{len(organisaties)} organisaties met {soort}{herkomst}; "
         f"scan van boekjaar {boekjaar}\n",
         flush=True,
     )

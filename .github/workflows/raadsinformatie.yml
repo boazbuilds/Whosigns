@@ -1,0 +1,72 @@
+name: Raadsinformatie laden
+
+# Controleverklaringen uit raadsstukken van gemeenten, provincies,
+# waterschappen en gemeenschappelijke regelingen.
+#
+# Open Raadsinformatie levert de volledige documenttekst mee in het
+# zoekantwoord, dus er worden geen pdf's gedownload en er komt geen
+# tekstherkenning aan te pas. Vindplaats en leesregels:
+# pipeline/adapters/raadsinformatie.py.
+#
+# Gemeten (5-8-2026, droogloop over de eerste 600 documenten): 173 controles
+# bij 68 organisaties, boekjaren 2010 t/m 2023. Meer dan tienduizend documenten
+# bevatten de zoekzin, dus een volledige run duurt lang — vandaar het ruime
+# tijdslot en de mogelijkheid om met --maximum op te knippen.
+#
+# Deze bron opent een populatie die tot nu toe ontbrak: gemeenschappelijke
+# regelingen, omgevingsdiensten, veiligheidsregio's en recreatieschappen.
+on:
+  workflow_dispatch:
+    inputs:
+      maximum:
+        description: "Hoogstens zoveel documenten lezen (opknippen bij een lange run)"
+        required: true
+        default: "25000"
+      droogloop:
+        description: "Niets naar de database schrijven; alleen het CSV-rapport"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  laden:
+    name: Controleverklaringen uit raadsstukken
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Kantorenlijsten bijwerken
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] && [ "$DROOGLOOP" != "true" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          [ -z "$SUPABASE_URL" ] || python3 pipeline/laad_kantoren.py --offline
+
+      - name: Raadsinformatie laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          python3 pipeline/laad_raadsinformatie.py \
+            --maximum "${{ inputs.maximum }}" \
+            $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
+
+      - name: Rapport bewaren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultaten-raadsinformatie
+          path: pipeline/.cache/resultaat_raadsinformatie.csv
+          if-no-files-found: ignore
+          include-hidden-files: true
