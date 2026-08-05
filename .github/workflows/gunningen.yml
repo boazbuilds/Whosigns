@@ -1,0 +1,73 @@
+name: Gunningen laden
+
+# Aanbestede accountantsdiensten uit TED (Tenders Electronic Daily).
+#
+# Gemeenten, provincies, waterschappen, veiligheidsregio's en onderwijsbesturen
+# besteden hun accountantscontrole Europees aan; de gunning noemt opdrachtgever,
+# kantoor en datum. Vindplaats en leesregels: pipeline/adapters/tenderned.py.
+#
+# Gemeten (4-8-2026): 403 gunningsberichten sinds 1-1-2024, waarvan 241 met een
+# winnaar die een accountantskantoor blijkt — over 233 opdrachtgevers, waarvan
+# 114 gemeenten. Berichten van vóór eForms (grofweg vóór december 2023) dragen
+# géén winnaarsveld: van 796 berichten over 2016-2023 hadden er 11 een winnaar.
+# Voor die oudere jaren is de jaarlijkse CSV-export van TED nodig; dat is nog
+# niet gebouwd.
+#
+# Draai dit een paar keer per jaar: er komen enkele tientallen gunningen per
+# kwartaal bij.
+on:
+  workflow_dispatch:
+    inputs:
+      vanaf:
+        description: "Publicatiedatum vanaf (JJJJMMDD)"
+        type: string
+        required: false
+        default: "20231201"
+      droogloop:
+        description: "Niets naar de database schrijven; alleen het CSV-rapport"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  laden:
+    name: Aanbestede accountantsdiensten laden
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Kantorenlijsten bijwerken
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] && [ "$DROOGLOOP" != "true" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          [ -z "$SUPABASE_URL" ] || python3 pipeline/laad_kantoren.py --offline
+
+      - name: Gunningen laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          python3 pipeline/laad_gunningen.py \
+            --vanaf "${{ inputs.vanaf }}" \
+            $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
+
+      - name: Rapport bewaren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultaten-gunningen
+          path: pipeline/.cache/resultaat_gunningen.csv
+          if-no-files-found: ignore
+          include-hidden-files: true

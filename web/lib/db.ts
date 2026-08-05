@@ -718,3 +718,53 @@ export async function laatstBijgewerkt(): Promise<string | null> {
   );
   return rij?.opgehaald_op ?? null;
 }
+
+// ---------------------------------------------------------------- gunningen
+
+/**
+ * Een aanbestede accountantsopdracht: welk kantoor is wanneer benoemd.
+ *
+ * Bewust géén opdracht. Een gunning is een benoeming vooraf, voor doorgaans
+ * vier jaar; of die controle er kwam en met welk oordeel staat er niet in.
+ * Zie de migratie 20260804180000 voor de volledige redenering.
+ */
+export type Gunning = {
+  gunningsdatum: string | null;
+  publicatienummer: string;
+  titel: string | null;
+  organisaties: Organisatie | null;
+  kantoren: Kantoor | null;
+  bronnen: Bron | null;
+};
+
+const GUNNING_VELDEN =
+  "gunningsdatum,publicatienummer,titel,bronnen(url,bron_type,betrouwbaarheid,opgehaald_op)";
+
+/**
+ * Gunningen ophalen. De tabel bestaat pas na migratie 20260804180000; zolang
+ * die niet is gedraaid geeft PostgREST een fout, en dan hoort een pagina
+ * gewoon zonder dit blok te verschijnen in plaats van om te vallen. Alleen
+ * díe fout wordt opgevangen, op naam.
+ */
+async function gunningen(filter: string): Promise<Gunning[]> {
+  try {
+    return await haalAlles<Gunning>(
+      `gunningen?${filter}&select=${GUNNING_VELDEN},` +
+        `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
+        `&order=gunningsdatum.desc,id.desc`,
+    );
+  } catch (fout) {
+    if (fout instanceof DatabaseFout && fout.message.includes("gunningen")) return [];
+    throw fout;
+  }
+}
+
+/** Aanbestedingen die deze organisatie heeft gegund, nieuwste eerst. */
+export function gunningenVanOrganisatie(organisatieId: number) {
+  return gunningen(`organisatie_id=eq.${organisatieId}`);
+}
+
+/** Aanbestedingen die dit kantoor heeft gewonnen, nieuwste eerst. */
+export function gunningenVanKantoor(kantoorId: number) {
+  return gunningen(`kantoor_id=eq.${kantoorId}`);
+}

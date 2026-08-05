@@ -190,6 +190,10 @@ export const SECTOR_UITLEG: Record<string, string> = {
     "bij de Autoriteit woningcorporaties indienen.",
   "goede doelen":
     "Goede doelen met een CBF-erkenning, uit hun gepubliceerde jaarverslagen.",
+  overheid:
+    "Gemeenten, provincies, waterschappen en veiligheidsregio's, uit Europees " +
+    "aanbestede accountantsdiensten (TED). Hier staat wie er benoemd is en " +
+    "wanneer — het oordeel bij de jaarrekening zit in deze bron niet.",
 };
 
 /** Datum uit de database als "13 augustus 2007"; null blijft een streepje. */

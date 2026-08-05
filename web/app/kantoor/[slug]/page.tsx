@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  gunningenVanKantoor,
   kantoorOpAfm,
   kantoorOpId,
   kantoorRanglijst,
@@ -156,7 +157,7 @@ export default async function Kantoorpagina({ params }: Params) {
   }
   if (!kantoor) notFound();
 
-  const [opdrachten, mutaties, boekjaar, ranglijst] = await Promise.all([
+  const [opdrachten, mutaties, boekjaar, ranglijst, aanbestedingen] = await Promise.all([
     opdrachtenVanKantoor(kantoor.id),
     // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
     // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
@@ -164,6 +165,7 @@ export default async function Kantoorpagina({ params }: Params) {
     wisselingen({ kantoorId: kantoor.id }),
     nieuwsteBoekjaar(),
     kantoorRanglijst().catch(() => []),
+    gunningenVanKantoor(kantoor.id),
   ]);
 
   const clienten = clientenVanKantoor(opdrachten);
@@ -426,6 +428,55 @@ export default async function Kantoorpagina({ params }: Params) {
               ))}
             </tbody>
           </table>
+        </section>
+      ) : null}
+
+      {aanbestedingen.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Gewonnen aanbestedingen</h2>
+            <span className="klein zacht">{aanbestedingen.length} · bron: TED</span>
+          </div>
+          <p className="klein zacht" style={{ marginTop: 0 }}>
+            Europees aanbestede opdrachten die dit kantoor won. Een gunning zegt
+            wie er benoemd is en wanneer — niet of de controle er kwam.
+          </p>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gegund</th>
+                  <th>Opdrachtgever</th>
+                  <th>Bericht</th>
+                </tr>
+              </thead>
+              <tbody>
+                {aanbestedingen.map((gunning) => (
+                  <tr key={gunning.publicatienummer + (gunning.organisaties?.id ?? "")}>
+                    <td className="jaar">{datumNL(gunning.gunningsdatum)}</td>
+                    <td>
+                      {gunning.organisaties ? (
+                        <Link href={organisatiePad(gunning.organisaties)}>
+                          {gunning.organisaties.naam}
+                        </Link>
+                      ) : (
+                        <span className="zacht">onbekend</span>
+                      )}
+                    </td>
+                    <td className="klein">
+                      <a
+                        href={`https://ted.europa.eu/nl/notice/-/detail/${gunning.publicatienummer}`}
+                        rel="noreferrer nofollow"
+                        target="_blank"
+                      >
+                        {gunning.publicatienummer}
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       ) : null}
 
