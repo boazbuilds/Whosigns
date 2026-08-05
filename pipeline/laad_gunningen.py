@@ -31,6 +31,7 @@ Drie keuzes die het gedrag bepalen:
 """
 
 import argparse
+import time
 import csv
 import sys
 from pathlib import Path
@@ -59,6 +60,11 @@ def main() -> int:
     parser.add_argument("--droogloop", action="store_true")
     parser.add_argument("--vanaf", default="20160101", help="publicatiedatum vanaf (JJJJMMDD)")
     parser.add_argument("--tot", default="", help="publicatiedatum tot en met (JJJJMMDD)")
+    parser.add_argument(
+        "--geen-xml",
+        action="store_true",
+        help="sla de XML-route voor oudere berichten over (sneller, veel minder data)",
+    )
     argumenten = parser.parse_args()
 
     print(f"TED raadplegen vanaf {argumenten.vanaf} ...", flush=True)
@@ -69,6 +75,29 @@ def main() -> int:
         return 1
     regels = tenderned.gunningen_uit(berichten)
     print(f"{len(berichten)} gunningsberichten, {len(regels)} regels met een winnaar", flush=True)
+
+    # Berichten van vóór eForms dragen geen winner-name in het zoekantwoord.
+    # Dat is niet een handjevol randgevallen maar de hele periode 2016-2023,
+    # waarin juist de meeste gemeenten hun accountant hebben aanbesteed. Voor
+    # die berichten halen we het XML-bericht op, waar de winnaar wél in staat.
+    # Eén verzoek per bericht, dus alleen voor wat anders niets zou opleveren.
+    open_staand = tenderned.berichten_zonder_winnaar(berichten)
+    if open_staand and not argumenten.geen_xml:
+        print(f"{len(open_staand)} berichten zonder winnaar in het zoekantwoord; "
+              f"XML erbij halen ...", flush=True)
+        mislukt = 0
+        for teller, (nummer, koper) in enumerate(open_staand, 1):
+            try:
+                xml = tenderned.bericht_xml(nummer)
+            except Exception:  # noqa: BLE001 — één bericht mag falen
+                mislukt += 1
+                continue
+            regels.extend(tenderned.gunningen_uit_xml(xml, nummer, koper))
+            if teller % 100 == 0:
+                print(f"  {teller}/{len(open_staand)} — {len(regels)} regels", flush=True)
+            time.sleep(0.2)
+        print(f"na de XML-route: {len(regels)} regels met een winnaar "
+              f"({mislukt} berichten onbereikbaar)", flush=True)
 
     # Het filter: alleen winnaars die een accountantskantoor blijken te zijn.
     # `overige` erbij, want een gemeente kan ook aan een kantoor zonder

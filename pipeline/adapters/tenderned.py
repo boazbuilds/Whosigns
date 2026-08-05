@@ -207,3 +207,126 @@ def schoon_opdrachtgever(naam: str) -> str:
             schoon = woord.capitalize() + schoon[len(woord) :]
             break
     return schoon or naam
+
+
+# --- Berichten van vóór eForms: de winnaar staat in de XML -------------------
+#
+# Het zoekantwoord heeft alleen een winner-name voor eForms-berichten (ruwweg
+# vanaf december 2023). Voor 2016 t/m 2023 blijft dat veld leeg, en dat is
+# precies de periode waarin de meeste gemeenten hun accountant hebben
+# aanbesteed. De winnaar staat er wél in, maar dan in het XML-bericht zelf.
+#
+# Gemeten op 5-8-2026: 788 gunningsberichten in de audit-familie tussen
+# 1-1-2016 en 30-11-2023, in twee verschillende schema's.
+#
+#     2016-2017  <AWARD_OF_CONTRACT> met <ECONOMIC_OPERATOR_NAME_ADDRESS>
+#                en de datum in losse <DAY>/<MONTH>/<YEAR>
+#     2018-2023  <AWARD_CONTRACT> met <AWARDED_CONTRACT><CONTRACTORS>
+#                <CONTRACTOR><ADDRESS_CONTRACTOR>, datum als <DATE_CONCLUSION_CONTRACT>
+#
+# Beide schema's gebruiken <OFFICIALNAME>, en dat is precies de valkuil: die tag
+# staat óók om de aanbesteder en om de rechtbank waar je bezwaar maakt. Alleen
+# de naam binnen het contractor-element telt, en daarom knippen we eerst het
+# gunningsblok uit en zoeken we daarbinnen alleen in het juiste omhulsel.
+
+_XML_BERICHT = "https://ted.europa.eu/en/notice/{}/xml"
+
+_BLOK_NIEUW = re.compile(r"<AWARD_CONTRACT\b.*?</AWARD_CONTRACT>", re.S)
+_BLOK_OUD = re.compile(r"<AWARD_OF_CONTRACT\b.*?</AWARD_OF_CONTRACT>", re.S)
+_CONTRACTOR = re.compile(r"<ADDRESS_CONTRACTOR\b.*?</ADDRESS_CONTRACTOR>", re.S)
+_OPERATOR = re.compile(
+    r"<ECONOMIC_OPERATOR_NAME_ADDRESS\b.*?</ECONOMIC_OPERATOR_NAME_ADDRESS>", re.S
+)
+_OFFICIEEL = re.compile(r"<OFFICIALNAME[^>]*>(.*?)</OFFICIALNAME>", re.S)
+_DATUM_NIEUW = re.compile(
+    r"<DATE_CONCLUSION_CONTRACT[^>]*>\s*(\d{4}-\d{2}-\d{2})", re.S
+)
+_DATUM_OUD = re.compile(
+    r"<CONTRACT_AWARD_DATE[^>]*>\s*<DAY>(\d{1,2})</DAY>\s*"
+    r"<MONTH>(\d{1,2})</MONTH>\s*<YEAR>(\d{4})</YEAR>",
+    re.S,
+)
+_TITEL = re.compile(r"<(?:CONTRACT_)?TITLE[^>]*>\s*<P>(.*?)</P>", re.S)
+
+
+def _tekst(ruw: str) -> str:
+    """Tags eruit, entiteiten terug, witruimte samengetrokken."""
+    kaal = re.sub(r"<[^>]+>", " ", ruw)
+    for entiteit, teken in (("&amp;", "&"), ("&quot;", '"'), ("&apos;", "'"),
+                            ("&lt;", "<"), ("&gt;", ">")):
+        kaal = kaal.replace(entiteit, teken)
+    return re.sub(r"\s+", " ", kaal).strip()
+
+
+def bericht_xml(nummer: str, haal=None) -> str:
+    if haal:
+        return haal(nummer)
+    verzoek = urllib.request.Request(
+        _XML_BERICHT.format(nummer),
+        headers={"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"},
+    )
+    with urllib.request.urlopen(verzoek, timeout=120) as antwoord:
+        return antwoord.read().decode("utf-8", "replace")
+
+
+def gunningen_uit_xml(xml: str, nummer: str, opdrachtgever: str) -> list[dict]:
+    """Gunningsregels uit het XML-bericht, voor beide TED-schema's.
+
+    De opdrachtgever komt uit het zoekantwoord meegereisd: die staat in het
+    zoekresultaat al netjes per taal uitgesplitst, terwijl hij in de XML tussen
+    dezelfde OFFICIALNAME-tags staat als de winnaar en de rechtbank.
+    """
+    regels: list[dict] = []
+    gezien: set[str] = set()
+    blokken = [(b, True) for b in _BLOK_NIEUW.findall(xml)]
+    blokken += [(b, False) for b in _BLOK_OUD.findall(xml)]
+    for blok, nieuw in blokken:
+        omhulsels = (_CONTRACTOR if nieuw else _OPERATOR).findall(blok)
+        if not omhulsels:
+            # Aanbesteding zonder gunning (ingetrokken of niets ontvangen).
+            continue
+        if nieuw:
+            treffer = _DATUM_NIEUW.search(blok)
+            datum = treffer.group(1) if treffer else None
+        else:
+            treffer = _DATUM_OUD.search(blok)
+            datum = (
+                f"{treffer.group(3)}-{int(treffer.group(2)):02d}-{int(treffer.group(1)):02d}"
+                if treffer
+                else None
+            )
+        titel_treffer = _TITEL.search(blok)
+        titel = _tekst(titel_treffer.group(1)) if titel_treffer else None
+        for omhulsel in omhulsels:
+            for ruwe_naam in _OFFICIEEL.findall(omhulsel):
+                winnaar = _tekst(ruwe_naam)
+                if not winnaar or _GEEN_NAAM.fullmatch(winnaar):
+                    continue
+                sleutel = winnaar.lower()
+                if sleutel in gezien:
+                    continue
+                gezien.add(sleutel)
+                regels.append(
+                    {
+                        "publicatienummer": nummer,
+                        "opdrachtgever": re.sub(r"\s+", " ", opdrachtgever).strip(),
+                        "winnaar": winnaar,
+                        "gunningsdatum": datum,
+                        "titel": (titel or "")[:300] or None,
+                        "url": f"https://ted.europa.eu/nl/notice/-/detail/{nummer}",
+                    }
+                )
+    return regels
+
+
+def berichten_zonder_winnaar(berichten: list[dict]) -> list[tuple[str, str]]:
+    """(publicatienummer, opdrachtgever) van berichten die de XML-route nodig hebben."""
+    open_staand = []
+    for bericht in berichten:
+        if _plat(bericht.get("winner-name")):
+            continue
+        nummer = _eerste(bericht.get("publication-number"))
+        koper = _eerste(bericht.get("buyer-name"))
+        if nummer and koper:
+            open_staand.append((nummer, koper))
+    return open_staand
