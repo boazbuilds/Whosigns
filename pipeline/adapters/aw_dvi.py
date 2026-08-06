@@ -396,6 +396,22 @@ def kvk_kolom_is_afgerond(waarden: list[str]) -> bool:
     return sum(1 for w in schoon if w.endswith("0")) / len(schoon) > AFGEROND_DREMPEL
 
 
+def brug_nodig(rijen: list[dict]) -> bool:
+    """Heeft deze jaargang de corporatienummer-brug nodig om te kunnen koppelen?
+
+    Ja als geen enkele rij een KvK-nummer draagt. Dat gebeurt op twee manieren: de
+    jaargangen 2007 t/m 2009 noemen het veld helemaal niet, en bij 2010 t/m 2012
+    weigert `kvk_kolom_is_afgerond` de kolom omdat de bron er afgeronde nummers
+    bewaart.
+
+    Bewust op de rijen en niet op het boekjaar. Op het boekjaar (< 2010) sloegen
+    2010, 2011 en 2012 de brug over terwijl hun kolom net geweigerd was: alle 1.169
+    rijen vielen om als `geen_kvk` en die drie jaargangen leverden nul opdrachten.
+    Weigert de bron ooit nog een kolom, dan zit die jaargang hier meteen goed.
+    """
+    return bool(rijen) and not any((rij.get("kvk_nummer") or "").strip() for rij in rijen)
+
+
 def _lees(inhoud: bytes, boekjaar: int, bron_url: str) -> list[dict]:
     """Het eerste blad met een accountant-kolom uitlezen.
 

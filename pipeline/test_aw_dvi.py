@@ -14,10 +14,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 import aw_dvi  # noqa: E402
 
 fouten = 0
+gedaan = 0
 
 
 def controleer(omschrijving: str, goed: bool, detail: str = "") -> None:
-    global fouten
+    global fouten, gedaan
+    gedaan += 1
     fouten += not goed
     print(f"{'✓' if goed else '✗'} {omschrijving}")
     if not goed and detail:
@@ -131,6 +133,31 @@ controleer(
     not aw_dvi.kvk_kolom_is_afgerond(["10000000", "20000000", "30000000"]),
 )
 
+# --- wanneer is de corporatienummer-brug nodig? -----------------------------
+#
+# De weigering hierboven had een staart die pas later opviel: de lader bouwde de
+# brug alleen voor boekjaren vóór 2010, dus 2010 t/m 2012 hielden een geweigerde
+# kolom én geen brug over. Alle 1.169 rijen vielen om als `geen_kvk` en die drie
+# jaargangen leverden nul opdrachten. Met de brug erbij: 369, 371 en 375.
+controleer(
+    "geen enkel KvK-nummer (2007-2009, of een geweigerde kolom): brug nodig",
+    aw_dvi.brug_nodig([
+        {"kvk_nummer": "", "instellingsnummer": "L0013"},
+        {"kvk_nummer": "", "instellingsnummer": "L0021"},
+    ]),
+)
+controleer(
+    "een jaargang met eigen KvK-nummers heeft de brug niet nodig",
+    not aw_dvi.brug_nodig([
+        {"kvk_nummer": "14614733", "instellingsnummer": "L0013"},
+        {"kvk_nummer": "", "instellingsnummer": "L0021"},
+    ]),
+)
+controleer(
+    "een lege jaargang vraagt niet om een brug",
+    not aw_dvi.brug_nodig([]),
+)
+
 # --- de kantoornaam ---------------------------------------------------------
 #
 # De opgave is met de hand ingevuld. Deze schrijfwijzen komen letterlijk voor.
@@ -167,6 +194,7 @@ for onbekend in (
         f"gevonden: {gevonden!r}",
     )
 
-totaal = len(GEVALLEN) + 3 + 8 + 3
-print(f"\n{totaal - fouten}/{totaal} goed")
+# Zelf tellen. Het totaal stond hier als een som met de hand bijgehouden, en die
+# liep achter: drie nieuwe controles erbij en er stond nog steeds 27/27.
+print(f"\n{gedaan - fouten}/{gedaan} goed")
 raise SystemExit(1 if fouten else 0)
