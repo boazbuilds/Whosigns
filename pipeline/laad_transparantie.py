@@ -47,7 +47,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 import transparantie  # noqa: E402
 from kantoor_match import normaliseer  # noqa: E402
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
-from verklaring import pdf_naar_tekst  # noqa: E402
 
 SEED = Path(__file__).resolve().parent / "seed" / "transparantieverslagen.csv"
 CACHE = Path(__file__).resolve().parent / ".cache"
@@ -99,8 +98,10 @@ def main() -> int:
             print(f"{naam_kort} {verslag['verslagperiode']}: download mislukt: {fout}")
             continue
 
+        # tekst_uit_verslag en niet pdf_naar_tekst: bij PwC 2017/2018 t/m
+        # 2019/2020 zit de cliëntenlijst als ingesloten bijlage ín het pdf.
         namen, afgekeurd = transparantie.namen_uit_verslag(
-            pdf_naar_tekst(str(pdf_pad)), verslag["kop"]
+            transparantie.tekst_uit_verslag(pdf_pad), verslag["kop"]
         )
         print(
             f"{naam_kort} {verslag['verslagperiode']} -> boekjaar {boekjaar}: "

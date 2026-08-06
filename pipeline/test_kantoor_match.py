@@ -109,6 +109,22 @@ GEVALLEN = [
         "Nijmegen, Konings Maters Accountants & Adviseurs W.M. Groothuis RA",
         "Konings & Meeuwissen, accountants en belastingadviseurs",
     ),
+    (
+        # Gemeenten en regelingen worden ook gecontroleerd door kantoren zonder
+        # Wta-vergunning (daar niet nodig) en door gemeentelijke diensten. Deze
+        # ondertekening komt letterlijk uit de raadsinformatie-oogst van 5-8-2026.
+        "kantoor buiten het AFM-register, briefpapier als context (ODR 2021)",
+        "verkregen controle-informatie voldoende en geschikt is als basis voor "
+        "ons oordeel. FSV Accountants + Adviseurs B.V. Hogeweg 43 Postbus 128 "
+        "5300 AC ZALTBOMMEL",
+        "FSV Accountants + Adviseurs B.V.",
+    ),
+    (
+        "gemeentelijke accountantsdienst, via de aliastabel (Dienst Metro 2013)",
+        "verenigbaar is met de jaarrekening. Amsterdam, 30 april 2014 "
+        "Auditdienst ACAM Origineel getekend door: H. Demirel RA",
+        "ACAM Accountancy en Advies",
+    ),
     # ---------- mag NIET matchen: de naam staat er wel, maar tekent niet ----------
     (
         # De keerzijde van de regel hierboven: ook in een cv kan er een accountant

@@ -34,7 +34,9 @@ anders uit het verslag overgenomen.
 """
 
 import re
+import subprocess
 import sys
+import tempfile
 import urllib.request
 from pathlib import Path
 
@@ -476,3 +478,36 @@ def haal_verslag(url: str, doel: Path) -> Path:
         with urllib.request.urlopen(verzoek, timeout=300) as antwoord:
             doel.write_bytes(antwoord.read())
     return doel
+
+
+def tekst_uit_verslag(pdf_pad: Path) -> str:
+    """De tekst van het verslag, inclusief die van ingesloten pdf-bijlagen.
+
+    PwC levert de cliëntenlijst van 2017/2018 t/m 2019/2020 niet als los
+    bestand en niet als link, maar als /EmbeddedFiles-bijlage ín het
+    hoofdverslag (pwc-transparantieverslag-bijlagen-…, te zien met
+    `pdfdetach -list`). Op de tekst van alleen het hoofdverslag vindt
+    `namen_uit_verslag` daar dan ook nul namen; met de bijlage erbij 138-145.
+    Losse URL's voor die bijlagen bestaan niet — 36 padvarianten gaven 404
+    (gemeten 5-8-2026).
+
+    Ontbreekt pdfdetach of heeft het pdf geen bijlagen, dan is de uitkomst
+    gewoon de hoofdtekst — precies het oude gedrag.
+    """
+    from verklaring import pdf_naar_tekst  # extractie staat op sys.path (boven)
+
+    stukken = [pdf_naar_tekst(str(pdf_pad))]
+    with tempfile.TemporaryDirectory() as tijdelijk:
+        try:
+            subprocess.run(
+                ["pdfdetach", "-saveall", "-o", tijdelijk, str(pdf_pad)],
+                check=True,
+                capture_output=True,
+                timeout=120,
+            )
+        except (subprocess.CalledProcessError, subprocess.TimeoutExpired,
+                FileNotFoundError):
+            return stukken[0]
+        for bijlage in sorted(Path(tijdelijk).glob("*.pdf")):
+            stukken.append(pdf_naar_tekst(str(bijlage)))
+    return "\n".join(deel for deel in stukken if deel)

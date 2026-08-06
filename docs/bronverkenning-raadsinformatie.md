@@ -89,3 +89,36 @@ woordvolgorde — zou de opbrengst verhogen, maar elke variant moet eerst gemete
 worden op vals-positieven. Wat nu afvalt staat in het rapport
 (`pipeline/.cache/resultaat_raadsinformatie.csv`), inclusief de organisaties
 waarvoor geen kantoor te vinden was.
+
+## De kantorenlijst was het grotere gat (gemeten 5-8-2026)
+
+Het restruimte-onderzoek mat over de volle oogst dat 795 gelezen paren verloren
+gingen: 624 zonder enig kantoor in het venster, 171 met een kantoornaam zonder
+ondertekeningsscore. Dat is vijf keer zoveel als er met extra zoekzinnen te
+halen valt (~4%). In die vensters staan echte tekenaars die de lijst niet
+kende — gemeenten en regelingen worden ook gecontroleerd door kantoren zonder
+Wta-vergunning (daar niet nodig) en door gemeentelijke diensten.
+
+Toegevoegd na verificatie per naam (registercontrole, briefpapier in de
+verklaringen zelf, en waar nodig extern bewijs):
+
+| naam | soort | bewijs |
+|---|---|---|
+| FSV Accountants + Adviseurs B.V. (Zaltbommel) | overig | briefpapier met adres onder de verklaringen, Rivierenland-cluster |
+| UNP accountants adviseurs B.V. (Breda) | overig | briefpapier Cosunpark 10 |
+| ACAM Accountancy en Advies / Auditdienst ACAM | gemeentelijke dienst | ondertekent Amsterdam, stadsdelen en diensten 2010-2013 |
+| Gemeentelijke Accountantsorganisatie Den Haag | gemeentelijke dienst | denhaag.nl; tekent de Haagse jaarrekeningen |
+| Zirkzee Audit B.V. (Oegstgeest) | overig | oude AFM-vermelding verwijderd; 99 vindplaatsen |
+| Koenen en Co Audit & Assurance (Maastricht) | overig | per 15-4-2024 opgegaan in Newtone; bewust geen alias naar 13000027 |
+| A12 Registeraccountants → RA12 (13020095) | alias | de verklaring legt zelf de merknaam-relatie uit, met KvK-nummer |
+| CROP registeraccountants → 13020228 | alias | briefpapier crop.nl, KvK 32166733, zelfde vestigingen |
+
+Hertoets op de 324 bewaarde verloren paren uit de meting: **128 krijgen nu wél
+een ondertekend kantoor** (CROP 33, FSV 31, ACAM 28, RA12 9, Koenen 9, Grant
+Thornton 8 — via de alias uit de zorg-hoek — UNP 5, GAD 3, EY 1, Bentacera 1).
+De voorbeelden kloppen geografisch: Koenen bij de Limburgse Omnibuzz, CROP bij
+Amersfoortse regelingen, ACAM bij Amsterdam.
+
+Niet toegevoegd: "Accountants voor de non-profit" (1 vindplaats, niet extern te
+verifiëren). De tussenzin-variant ("jaarrekening 2020 (inclusief erratum) van…",
++54 rijen in de meting) staat nog open en vraagt eigen tests.
