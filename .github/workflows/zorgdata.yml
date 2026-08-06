@@ -57,14 +57,15 @@ jobs:
         with:
           python-version: "3.11"
 
-      # tesseract met Nederlands is de terugval voor gescande pdf's. Ongeveer
-      # driekwart van de organisaties die géén opdracht opleverden, blijkt een scan
-      # zonder tekstlaag te zijn — kleine aanbieders printen, ondertekenen en scannen.
-      # Zonder deze pakketten draait alles als voorheen: geen tekstlaag, geen opdracht.
-      - name: poppler-utils, unzip en tesseract installeren
+      # Geen tesseract: OCR gebeurt bewust niet op een runner (WHOSIGNS_OCR=0
+      # hieronder). Zie docs/draaiboek-acties.md — het zware lezen draait buiten
+      # Actions om en komt via pipeline/oogst/ binnen. Zonder OCR gedraagt deze
+      # lader zich als vóór de OCR-terugval: een gescande pdf levert geen tekst en
+      # dus geen opdracht, netjes gemeld als onleesbaar.
+      - name: poppler-utils en unzip installeren
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils unzip tesseract-ocr tesseract-ocr-nld
+          sudo apt-get install -y -qq poppler-utils unzip
 
       # De dataset (~16 MB) en de afgeleide doelpopulatie hoeven maar één keer
       # opgehaald en berekend te worden; dat scheelt de bron werk en ons minuten.
@@ -83,6 +84,8 @@ jobs:
 
       - name: Zorgdata laden
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           # Invoer via de omgeving: een invoerwaarde kan dan nooit als
@@ -119,6 +122,8 @@ jobs:
       - name: Extra velden bijvullen
         if: always()
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           LIJST_UIT: ${{ inputs.lijst_uit }}

@@ -113,17 +113,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Zie stichtingenlus.yml: tesseract is de terugval voor gescande jaarverslagen.
-      - name: poppler-utils en tesseract installeren
+      # Geen tesseract: OCR draait niet op een runner (WHOSIGNS_OCR=0 hieronder).
+      # Zie docs/draaiboek-acties.md.
+      - name: poppler-utils installeren
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-nld
+          sudo apt-get install -y -qq poppler-utils
 
       # De kantorenlijst moet in de database staan vóór er opdrachten aan hangen —
       # inclusief de kantoren zonder Wta-vergunning uit seed/kantoren_overig.csv,
       # want anders belandt een derde van deze sector in de review-queue.
       - name: Kantorenlijsten bijwerken
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
@@ -135,6 +138,8 @@ jobs:
 
       - name: Stichtingendata laden
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           # Invoer via de omgeving: een invoerwaarde kan dan nooit als

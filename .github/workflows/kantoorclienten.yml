@@ -41,15 +41,17 @@ jobs:
         with:
           python-version: "3.11"
 
-      # tesseract met Nederlands is de terugval voor gescande jaarrekeningen;
-      # bij kleinere organisaties is een scan eerder regel dan uitzondering.
-      - name: poppler en tesseract installeren
+      # Geen tesseract: OCR draait niet op een runner (WHOSIGNS_OCR=0 hieronder).
+      # Zie docs/draaiboek-acties.md.
+      - name: poppler installeren
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-nld
+          sudo apt-get install -y -qq poppler-utils
 
       - name: Kantorenlijsten bijwerken
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           DROOGLOOP: ${{ inputs.droogloop }}
@@ -62,6 +64,8 @@ jobs:
 
       - name: Jaarstukken nalopen en laden
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           DROOGLOOP: ${{ inputs.droogloop }}
