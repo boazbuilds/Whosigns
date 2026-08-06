@@ -283,7 +283,16 @@ def main() -> int:
     rapport = rapport_pad.open("a", newline="", encoding="utf-8")
     schrijver = csv.writer(rapport)
     if rapport.tell() == 0:
-        schrijver.writerow(["kvk", "naam", "plaats", "boekjaar", "kantoor", "afm_nummer", "oordeel"])
+        # Alle velden die de database-schrijfstap hieronder gebruikt, zodat een
+        # rapport uit een droogloop later alsnog kan worden ingeladen met
+        # laad_zorg_rapport.py — het dure werk (downloaden, lezen, OCR) hoeft dan
+        # niet opnieuw. `kantoor_sleutel` is daarbij de koppelsleutel; zie de
+        # opmerking bij kantoor_id_per_sleutel waarom dat niet het afm_nummer is.
+        schrijver.writerow([
+            "kvk", "naam", "plaats", "boekjaar", "kantoor", "kantoor_sleutel",
+            "afm_nummer", "type_opdracht", "oordeel", "grond_beperking",
+            "continuiteitsonzekerheid",
+        ])
 
     gevonden = 0
     mislukt = 0
@@ -325,9 +334,29 @@ def main() -> int:
             kantoor = resultaat["kantoor"]
             gevonden += 1
             per_kantoor[kantoor["naam"]] = per_kantoor.get(kantoor["naam"], 0) + 1
+
+            # Opdrachttype vastgesteld uit de verklaring, niet aangenomen. Een
+            # controleverklaring bij een WNT- of productieverantwoording is geen
+            # wettelijke jaarrekeningcontrole en hoort dus niet mee te tellen in
+            # marktaandelen. Lukt het niet vast te stellen, dan zeggen we dat
+            # ("controle_onbepaald") in plaats van het zwaarste type te gokken.
+            type_opdracht = resultaat["opdrachttype"] or "controle_onbepaald"
+            # Sinds de kantorenlijst ook kantoren zonder Wta-vergunning kent
+            # (nodig buiten de zorg, zie docs/bronverkenning-stichtingen.md),
+            # kan hier een kantoor uitkomen dat geen wettelijke controles mág
+            # doen. Dan is het een vrijwillige controle bij een instelling
+            # zonder controleplicht — niet een wettelijke.
+            if type_opdracht == "wettelijke_controle" and not kantoor.get(
+                "wta_vergunning", True
+            ):
+                type_opdracht = "vrijwillige_controle"
+
             schrijver.writerow([
                 kvk, resultaat["naam"], resultaat["plaats"], boekjaar,
-                kantoor["naam"], kantoor["afm_nummer"], resultaat["oordeel"],
+                kantoor["naam"], kantoor["sleutel"], kantoor["afm_nummer"],
+                type_opdracht, resultaat["oordeel"],
+                resultaat["grond_beperking"] or "",
+                "ja" if resultaat["continuiteitsonzekerheid"] else "",
             ])
             rapport.flush()
 
@@ -365,21 +394,6 @@ def main() -> int:
 
                 org_rij = db.upsert_met_id("organisaties", org_velden, "kvk_nummer")
 
-                # Opdrachttype vastgesteld uit de verklaring, niet aangenomen. Een
-                # controleverklaring bij een WNT- of productieverantwoording is geen
-                # wettelijke jaarrekeningcontrole en hoort dus niet mee te tellen in
-                # marktaandelen. Lukt het niet vast te stellen, dan zeggen we dat
-                # ("controle_onbepaald") in plaats van het zwaarste type te gokken.
-                type_opdracht = resultaat["opdrachttype"] or "controle_onbepaald"
-                # Sinds de kantorenlijst ook kantoren zonder Wta-vergunning kent
-                # (nodig buiten de zorg, zie docs/bronverkenning-stichtingen.md),
-                # kan hier een kantoor uitkomen dat geen wettelijke controles mág
-                # doen. Dan is het een vrijwillige controle bij een instelling
-                # zonder controleplicht — niet een wettelijke.
-                if type_opdracht == "wettelijke_controle" and not kantoor.get(
-                    "wta_vergunning", True
-                ):
-                    type_opdracht = "vrijwillige_controle"
                 if argumenten.herlaad:
                     # Het type maakt deel uit van de unieke sleutel, dus een
                     # gecorrigeerd type zou een tweede rij opleveren naast de oude.

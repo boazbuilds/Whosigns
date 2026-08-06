@@ -343,6 +343,53 @@ is de enige resterende route naar volledige historische dekking, en die is
 gebonden aan de klok: boekjaar 2019 verdwijnt bij de eerstvolgende jaarwisseling
 uit het archief.
 
+## Steekproef archieflijst boekjaar 2019 (5-8-2026) — bijna de helft raak
+
+100 organisaties uit `digimv_archief.doelpopulatie(2019)`, met `--uit-archief`:
+**49 opdrachten, 51 zonder herleidbaar kantoor**, 40,5 minuten met vier werkers
+(±24 seconden per organisatie). Ter vergelijking: de route via de jaardataset gaf
+2 opdrachten op 12 organisaties. De archiefpopulatie is 2.211 (2019), 2.351
+(2020) en 2.471 (2021) — bij dit percentage ligt er ruwweg 7.000 opdrachten over
+zeven boekjaren, maar één Action-run van 5,5 uur doet er ongeveer 800. Opknippen
+met `vanaf`/`aantal` en meerdere keren draaien; het is idempotent.
+
+### Waarom die 51 misgingen — en wat dat opleverde
+
+De 1.728 pdf's die toen al in de cache stonden (boekjaren 2019–2025) opnieuw
+gelezen, alleen op de tekstlaag:
+
+| uitkomst | aantal |
+|---|---|
+| controle mét kantoor | 828 |
+| gescand, geen tekstlaag (OCR nodig) | 349 |
+| onleesbaar of nietszeggend (`soort=None`) | 198 |
+| controle zónder herkend kantoor | 160 |
+| samenstelling | 137 |
+| beoordeling | 56 |
+
+Die 160 leverden twee soorten vondsten op, allebei verwerkt:
+
+1. **Kantoren die de lijst niet kende.** Zeven kantoren die productie- en
+   WNT-verantwoordingen tekenen staan niet in het AFM-register — daar is geen
+   Wta-vergunning voor nodig — en staan nu in `seed/kantoren_overig.csv`:
+   FB Assurance, Monteba, AW Accountants, CAS ZorgAccountants, Hilgers, Miedema
+   en Hendriksen Accountants Controle. Drie kantoren tékenen onder een andere
+   naam dan waaronder ze in het register staan en kregen een alias: Grant
+   Thornton (splitsing 2025), Countus Audit (13000483) en Konings Maters
+   (fusie februari 2023, 13000504).
+2. **Ondertekeningen die de match niet als ondertekening zag.** Een
+   handtekeningblok zonder plaats en datum — "CAS ZorgAccountants B.V. S.R. Snel
+   AA", "Miedema Accountants ValidSigned door drs. D. van der Bij RA RB" — haalde
+   de drempel niet. `kantoor_match._ONDERTEKENAAR_NA` telt nu mee dat de tekenend
+   accountant ná de kantoornaam staat; in een cv staat zijn titel er juist vóór,
+   dus die gevallen blijven staan.
+
+Gemeten over dezelfde 1.728 pdf's: **828 → 865 met kantoor**, 160 → 123 zonder.
+46 pdf's kwamen er nieuw bij, **nul** verklaringen wisselden van kantoor, en in
+alle 46 stond precies één bekend kantoor in de tekst — er viel dus niets te
+verwarren. Ook de 800+ scans zijn hiermee niet geraakt: die vragen OCR en dat
+draait alleen in de Action.
+
 ## Open punten
 
 - [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`

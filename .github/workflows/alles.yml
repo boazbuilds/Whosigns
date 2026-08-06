@@ -1,0 +1,67 @@
+name: Alles verversen
+
+# Eén knop voor de hele dataverversing. Draait eerst de migraties en daarna elke
+# bron, van goedkoop naar duur, met de standaardinvoer van de afzonderlijke
+# workflows. Alles is idempotent — wat er al staat wordt overgeslagen — dus vaker
+# drukken kan geen kwaad. Zie docs/draaiboek-acties.md voor wanneer je wat drukt.
+#
+# Kosten, gemeten over de runs van 4/5-8-2026: migraties <1 min, zorgoogst ±2,
+# gunningen ±6, raadsinformatie ±8, stichtingen ±30 (na de eerste volledige
+# lading), corporaties ±26, transparantie ±30. Samen rond de anderhalf uur aan
+# Actions-minuten per druk op de knop.
+#
+# Niet hierin: "Zorgdata laden" (de inhaalslag loopt via de oogstroute, die hier
+# wél in zit als "Zorgoogst inladen") en "Beursfondsdata laden" (±3,5 uur;
+# hooguit maandelijks, met de hand).
+#
+# Valt een bron om, dan draaien de volgende gewoon door. Alleen als de migraties
+# falen stopt alles: dan kan het schema achterlopen en is stoppen veiliger dan
+# laden.
+
+on:
+  workflow_dispatch:
+
+# Twee keer drukken terwijl de eerste nog loopt: de tweede wacht netjes.
+concurrency:
+  group: verversen
+  cancel-in-progress: false
+
+jobs:
+  migraties:
+    uses: ./.github/workflows/migraties.yml
+    secrets: inherit
+
+  zorgoogst:
+    needs: migraties
+    uses: ./.github/workflows/zorgoogst.yml
+    secrets: inherit
+
+  gunningen:
+    needs: [migraties, zorgoogst]
+    if: ${{ needs.migraties.result == 'success' && !cancelled() }}
+    uses: ./.github/workflows/gunningen.yml
+    secrets: inherit
+
+  raadsinformatie:
+    needs: [migraties, gunningen]
+    if: ${{ needs.migraties.result == 'success' && !cancelled() }}
+    uses: ./.github/workflows/raadsinformatie.yml
+    secrets: inherit
+
+  stichtingen:
+    needs: [migraties, raadsinformatie]
+    if: ${{ needs.migraties.result == 'success' && !cancelled() }}
+    uses: ./.github/workflows/stichtingendata.yml
+    secrets: inherit
+
+  corporaties:
+    needs: [migraties, stichtingen]
+    if: ${{ needs.migraties.result == 'success' && !cancelled() }}
+    uses: ./.github/workflows/corporatiedata.yml
+    secrets: inherit
+
+  transparantie:
+    needs: [migraties, corporaties]
+    if: ${{ needs.migraties.result == 'success' && !cancelled() }}
+    uses: ./.github/workflows/transparantiedata.yml
+    secrets: inherit

@@ -28,6 +28,17 @@ on:
         type: boolean
         required: false
         default: false
+  # Zelfde invoer met dezelfde standaarden, voor "Alles verversen".
+  workflow_call:
+    inputs:
+      vanaf:
+        type: string
+        required: false
+        default: "20160101"
+      droogloop:
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   laden:

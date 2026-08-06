@@ -59,7 +59,65 @@ GEVALLEN = [
         "Amersfoort, 12 juni 2025 WITh Accountants B.V. was getekend",
         "WITh Accountants B.V.",
     ),
+    (
+        # Gevonden bij een telling over 1.728 gedownloade verklaringen: Grant
+        # Thornton is een groot kantoor en viel er stelselmatig uit, omdat de
+        # audittak zich pas ná de splitsing van 2025 Audit en Assurance noemt.
+        # Vergunning 13000524 loopt onafgebroken sinds 27-9-2007 en staat in beide
+        # namen op dezelfde vestiging in Alphen aan den Rijn.
+        "naam van vóór de splitsing van 2025, via de aliastabel (Present 2019)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Alphen aan den Rijn, 18 september 2020 "
+        "Grant Thornton Accountants en Adviseurs B.V.",
+        "Grant Thornton Audit en Assurance B.V.",
+    ),
+    (
+        # Zonder plaats en datum, zonder ondertekeningsformule — alleen de tekenend
+        # accountant ná de naam. Kwam voor bij 46 van de 1.728 verklaringen in de
+        # cache (5-8-2026) en viel daar allemaal weg.
+        "de tekenend accountant staat ná de kantoornaam (ASSortiMens 2023)",
+        "Met vriendelijke groet, CAS ZorgAccountants B.V. S.R. Snel AA",
+        "CAS ZorgAccountants B.V.",
+    ),
+    (
+        "een digitale ondertekendienst als handtekeningblok ('t Hummelhûs 2023)",
+        "weergeeft. Miedema Accountants ValidSigned door drs. D. van der Bij RA RB "
+        "op 29-03-2024",
+        "Miedema Accountants",
+    ),
+    (
+        # Ook nuttig als de datum onleesbaar uit de pdf komt: hier stond "25 maarl
+        # 2024" en dat is geen datum meer, dus de datumregel hielp niet.
+        "verhaspelde datum, maar de ondertekenaar staat er (Dubois 2023)",
+        "in de interne beheersing. Amsterdam, 25 maarl 2024 "
+        "Dubois & Co. Registeraccountants door M. Belkadi RA",
+        "Dubois & Co. Registeraccountants",
+    ),
+    (
+        # Tekennaam van vergunninghouder 13000483; de AFM kent hem als Countus
+        # Accountants + Adviseurs B.V., op hetzelfde adres in Zwolle.
+        "tekennaam van de auditpraktijk, via de aliastabel (Ibass 2023)",
+        "Zwolle, 14 maart 2024 Countus Audit B.V. ValidSigned door "
+        "drs. B.E.J. Seemann RA",
+        "Countus Accountants + Adviseurs B.V.",
+    ),
+    (
+        # Naam na de fusie van februari 2023; het AFM-register houdt 13000504 nog
+        # onder de naam van vóór die fusie.
+        "naam na een fusie, via de aliastabel (Onder de Bomen 2023)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Nijmegen, Konings Maters Accountants & Adviseurs W.M. Groothuis RA",
+        "Konings & Meeuwissen, accountants en belastingadviseurs",
+    ),
     # ---------- mag NIET matchen: de naam staat er wel, maar tekent niet ----------
+    (
+        # De keerzijde van de regel hierboven: ook in een cv kan er een accountant
+        # ná de kantoornaam staan. "werkzaam bij" moet dan zwaarder wegen.
+        "kantoornaam in een cv, mét een accountant erachter",
+        "de penningmeester is werkzaam bij Flynth Audit B.V. J. Jansen RA en heeft "
+        "die functie sinds 2019",
+        None,
+    ),
     (
         "werkgever van een bestuurslid (Kerk in Actie 2023)",
         "J.W. Stam MSc RA, senior manager bureau vaktechniek bij Baker Tilly "

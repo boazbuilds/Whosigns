@@ -93,12 +93,16 @@ def main() -> int:
         return 1
     print(f"{len(rijen)} corporaties met een accountantsnaam", flush=True)
 
-    # De jaargangen vóór 2010 noemen geen KvK-nummer, alleen het corporatienummer.
-    # Zonder KvK kan een rij niet aan een organisatie worden gekoppeld, dus halen
-    # we de vertaling uit de jaargangen die beide velden dragen. Dat is geen
-    # gokwerk: het corporatienummer is de sleutel van de toezichthouder zelf.
-    if boekjaar < aw_dvi.EERSTE_JAAR_MET_KVK and not argumenten.bestand:
-        print("geen KvK-nummer in deze jaargang; brug opbouwen uit 2010-2013…", flush=True)
+    # Zonder KvK kan een rij niet aan een organisatie worden gekoppeld, dus halen we
+    # de vertaling uit de jaargangen die beide velden wél correct dragen. Dat is geen
+    # gokwerk: het corporatienummer is de sleutel van de toezichthouder zelf. Zie
+    # aw_dvi.brug_nodig voor wanneer dat speelt en waarom het niet op boekjaar gaat.
+    if not argumenten.bestand and aw_dvi.brug_nodig(rijen):
+        print(
+            f"geen bruikbaar KvK-nummer in dVi{boekjaar}; brug opbouwen uit de "
+            f"jaargangen die het wél hebben…",
+            flush=True,
+        )
         try:
             brug = aw_dvi.brug_naar_kvk(cache=CACHE)
         except Exception as fout:  # noqa: BLE001 — zonder brug alsnog droogdraaien

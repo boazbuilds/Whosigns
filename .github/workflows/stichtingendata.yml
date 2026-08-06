@@ -57,6 +57,41 @@ on:
         type: boolean
         required: false
         default: false
+  # Zelfde invoer met dezelfde standaarden, voor "Alles verversen".
+  workflow_call:
+    inputs:
+      boekjaren:
+        type: string
+        required: false
+        default: "2025,2024,2023,2022,2021,2020,2019"
+      categorieen:
+        type: string
+        required: false
+        default: "C,D,E"
+      soorten:
+        type: string
+        required: false
+        default: "controle,beoordeling"
+      terugval:
+        type: boolean
+        required: false
+        default: false
+      vanaf:
+        type: string
+        required: false
+        default: "0"
+      aantal:
+        type: string
+        required: false
+        default: "0"
+      herlaad:
+        type: boolean
+        required: false
+        default: false
+      droogloop:
+        type: boolean
+        required: false
+        default: false
 
 # Zelfde groep als de stichtingenlus: dit script schrijft dezelfde tabellen en
 # dezelfde review-queue. Een handmatige run wacht dus netjes tot de lusronde
