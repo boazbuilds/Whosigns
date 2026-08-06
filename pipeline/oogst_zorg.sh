@@ -54,10 +54,14 @@ Claude-Session: https://claude.ai/code/session_01Rb6HsTuXQ7L6FFCgPSwN1y" || retu
   git push -q origin HEAD 2>/dev/null || echo "  (push mislukt, volgende blok opnieuw)"
 }
 
-# Hoeveel organisaties heeft dit boekjaar? De lader meldt het op zijn eerste regel.
-TOTAAL=$(python3 "$WORTEL/pipeline/laad_zorg.py" --boekjaar "$BOEKJAAR" \
-  --uit-archief --droogloop --aantal 0 --vanaf 999999 2>/dev/null |
-  head -1 | grep -oE '^[0-9]+' || echo 0)
+# Hoeveel organisaties heeft dit boekjaar? De lader meldt het op zijn eerste
+# regel; met --vanaf 999999 doet hij verder niets. Bewust zonder `head` in de
+# pijp: dat sluit de pijp vroeg, python krijgt SIGPIPE en met `pipefail` telt dat
+# als een mislukte pipeline — waarna de terugval een tweede regel toevoegde en
+# de test hieronder op "2211\n0" struikelde.
+PROBE=$(python3 "$WORTEL/pipeline/laad_zorg.py" --boekjaar "$BOEKJAAR" \
+  --uit-archief --droogloop --aantal 0 --vanaf 999999 2>/dev/null)
+TOTAAL=$(printf '%s\n' "$PROBE" | sed -n '1s/^\([0-9]\{1,\}\).*/\1/p')
 [ "${TOTAAL:-0}" -gt 0 ] || { echo "kon de omvang van boekjaar $BOEKJAAR niet bepalen"; exit 1; }
 echo "boekjaar $BOEKJAAR: $TOTAAL organisaties, blokken van $BLOK"
 
