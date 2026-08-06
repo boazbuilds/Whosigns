@@ -27,10 +27,40 @@ VERWERKT="$CACHE/verwerkt_${BOEKJAAR}.txt"
 mkdir -p "$CACHE" "$OOGST"
 
 # Terugzetten wat een vorige run al had: zo kost een herstart niets.
-[ -s "$OOGST/zorg_${BOEKJAAR}.csv" ] && [ ! -s "$RAPPORT" ] &&
-  cp "$OOGST/zorg_${BOEKJAAR}.csv" "$RAPPORT"
-[ -s "$OOGST/verwerkt_${BOEKJAAR}.txt" ] && [ ! -s "$VERWERKT" ] &&
+#
+# De repo-kopie is daarbij de baas, niet .cache. Een omgeving die opnieuw begint
+# zet .cache terug op een oudere momentopname, en die kan een rapport bevatten
+# uit een tijd dat het nog andere kolommen had. Zo'n bestand is niet leeg, dus
+# een simpele "alleen terugzetten als er niets staat" liet het staan — waarna de
+# lader er nieuwe rijen met een ándere kolomindeling achteraan schreef. Dat is
+# precies het soort stille schade dat dit project niet wil: het rapport gaat
+# regelrecht de database in.
+#
+# Vandaar twee controles. Wijkt de kopregel af, dan gaat het bestand opzij.
+# Heeft de repo-kopie meer rijen, dan heeft die de herstart overleefd en wint hij.
+herstel_rapport() {
+  local bewaard="$OOGST/zorg_${BOEKJAAR}.csv"
+  [ -s "$bewaard" ] || return 0
+  if [ -s "$RAPPORT" ]; then
+    if [ "$(head -1 "$RAPPORT")" != "$(head -1 "$bewaard")" ]; then
+      echo "  rapport in .cache heeft andere kolommen; opzij als ${RAPPORT}.oud"
+      mv "$RAPPORT" "${RAPPORT}.oud"
+    elif [ "$(wc -l < "$RAPPORT")" -ge "$(wc -l < "$bewaard")" ]; then
+      return 0
+    fi
+  fi
+  cp "$bewaard" "$RAPPORT"
+}
+herstel_rapport
+
+# Idem voor de lijst met bekeken organisaties: de langste wint. `wc -l` krijgt
+# hier bewust een bestaand bestand — een omleiding uit een bestand dat er niet is
+# faalt in bash vóór het commando draait, en dan helpt 2>/dev/null niet.
+regels() { [ -s "$1" ] && wc -l < "$1" || echo 0; }
+if [ -s "$OOGST/verwerkt_${BOEKJAAR}.txt" ] &&
+   [ "$(regels "$OOGST/verwerkt_${BOEKJAAR}.txt")" -gt "$(regels "$VERWERKT")" ]; then
   cp "$OOGST/verwerkt_${BOEKJAAR}.txt" "$VERWERKT"
+fi
 
 bewaar() {
   cp "$RAPPORT" "$OOGST/zorg_${BOEKJAAR}.csv" 2>/dev/null || return 0
