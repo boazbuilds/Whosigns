@@ -32,6 +32,18 @@ on:
         type: boolean
         required: false
         default: false
+  # Zelfde invoer met dezelfde standaarden, zodat "Alles verversen" deze workflow
+  # als eerste stap kan aanroepen.
+  workflow_call:
+    inputs:
+      overslaan:
+        type: string
+        required: false
+        default: "20260727000000_init.sql"
+      droogloop:
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   migreren:

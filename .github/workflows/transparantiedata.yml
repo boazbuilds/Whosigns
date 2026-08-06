@@ -20,6 +20,13 @@ on:
         type: boolean
         required: false
         default: false
+  # Zelfde invoer met dezelfde standaarden, voor "Alles verversen".
+  workflow_call:
+    inputs:
+      droogloop:
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   laden:

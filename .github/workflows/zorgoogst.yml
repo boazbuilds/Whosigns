@@ -1,0 +1,68 @@
+name: Zorgoogst inladen
+
+# Zet oogstrapporten uit pipeline/oogst/ in de database — de goedkope helft van
+# de zorgroute.
+#
+# Het dure deel van de zorgsector is het downloaden en lezen van de
+# verklaring-pdf's: ±24 seconden per organisatie, uren per boekjaar. Dat werk
+# hoeft niet op een GitHub-runner; het draait buiten Actions om
+# (laad_zorg.py --droogloop) en het resultaat staat als csv in pipeline/oogst/.
+# Deze workflow doet alleen het wegschrijven en kost daardoor een paar minuten
+# in plaats van vijfenhalf uur. Zie docs/draaiboek-acties.md.
+#
+# Staat er niets in pipeline/oogst/, dan doet de run niets en is hij alsnog
+# groen — zo kan hij zorgeloos in "Alles verversen" meedraaien.
+on:
+  workflow_dispatch:
+    inputs:
+      herlaad:
+        description: "Bestaande opdrachten van deze organisatie-boekjaren vervangen"
+        type: boolean
+        required: false
+        default: false
+  workflow_call:
+    inputs:
+      herlaad:
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  inladen:
+    name: Oogstrapporten wegschrijven
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Nieuwe kantoren uit de seed-CSV's moeten in de database staan vóórdat een
+      # rapport ernaar verwijst; anders meldt de lader ze als onbekend.
+      - name: Kantorenlijsten bijwerken
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/laad_kantoren.py --offline
+
+      - name: Oogst inladen
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          HERLAAD: ${{ inputs.herlaad }}
+        run: |
+          shopt -s nullglob
+          bestanden=(pipeline/oogst/*.csv)
+          if [ ${#bestanden[@]} -eq 0 ]; then
+            echo "geen oogstbestanden in pipeline/oogst/ — niets te doen"
+            exit 0
+          fi
+          python3 pipeline/laad_zorg_rapport.py "${bestanden[@]}" \
+            $([ "$HERLAAD" = "true" ] && echo --herlaad)
