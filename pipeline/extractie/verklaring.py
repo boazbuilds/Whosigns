@@ -21,6 +21,7 @@ accountant staat wel in de tekst, maar wordt niet gezocht, niet teruggegeven en
 niet gelogd.
 """
 
+import os
 import re
 import subprocess
 import tempfile
@@ -410,6 +411,23 @@ OCR_DPI = 300
 OCR_TIJDBUDGET = 600
 OCR_TIJD_PER_PAGINA = 120
 
+# Mag er in deze omgeving überhaupt ge-OCR'd worden?
+#
+# OCR is verreweg het duurste dat deze pipeline doet: tientallen seconden tot
+# minuten per document, tegen milliseconden voor een pdf mét tekstlaag. Op een
+# GitHub-runner betaal je dat in Actions-minuten, en die zijn schaars. Daarom
+# draait het zware lezen buiten Actions om (zie docs/draaiboek-acties.md): daar
+# oogsten we naar een csv, en de workflow schrijft alleen die csv weg.
+#
+# Zet WHOSIGNS_OCR op 0/nee/false om OCR uit te zetten. Wat er dan gebeurt is
+# precies het gedrag van vóór de OCR-terugval: een gescande pdf levert geen
+# tekst en dus geen opdracht, netjes gemeld als `onleesbaar`. Nooit een gok.
+def ocr_toegestaan() -> bool:
+    """Leest de omgevingsvariabele bij elke aanroep, zodat een test hem kan zetten."""
+    return os.environ.get("WHOSIGNS_OCR", "1").strip().lower() not in {
+        "0", "nee", "false", "off", "uit",
+    }
+
 
 def _eerste_ocr_pagina(pad: str, max_paginas: int) -> int | None:
     """Vanaf welke pagina er ge-OCR'd moet worden, of None als dat niet te bepalen is.
@@ -511,7 +529,9 @@ def tekst_uit_pdf(pad: str, ocr: bool = True) -> tuple[str, bool]:
     tekst = pdf_naar_tekst(pad)
     if len(tekst.strip()) >= TEKST_ONDERGRENS:
         return tekst, False
-    if not ocr:
+    # `ocr=False` is de keuze van de aanroeper, `ocr_toegestaan()` die van de
+    # omgeving. Beide moeten ja zeggen; zie de toelichting bij ocr_toegestaan.
+    if not ocr or not ocr_toegestaan():
         return tekst, False
     return ocr_naar_tekst(pad), True
 

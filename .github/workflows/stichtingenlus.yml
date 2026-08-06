@@ -84,15 +84,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      # tesseract met Nederlands is de terugval voor gescande jaarverslagen. Bij de
-      # goede doelen is dat de grootste categorie die overblijft: 33 van de 262 in
-      # categorie A/B, 11 in C en 9 in D/E per jaargang. Zonder deze pakketten draait
-      # alles als voorheen — geen tekstlaag, geen opdracht — dus een ronde valt er
-      # niet over om, hij levert dan alleen minder op.
-      - name: poppler-utils en tesseract installeren
+      # Geen tesseract: OCR draait niet op een runner (WHOSIGNS_OCR=0 hieronder).
+      # Bij de goede doelen kost dat wel iets — gescande jaarverslagen waren de
+      # grootste restcategorie (33 van de 262 in A/B, 11 in C, 9 in D/E per
+      # jaargang). Die worden voortaan buiten Actions geoogst; zie
+      # docs/draaiboek-acties.md. Een ronde valt er niet over om: zonder tekstlaag
+      # geen opdracht, precies als vóór de OCR-terugval.
+      - name: poppler-utils installeren
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-nld
+          sudo apt-get install -y -qq poppler-utils
 
       # De databranch is het geheugen van de lus. Bestaat hij al, dan gaan we daar
       # verder en halen we main erbij; bestaat hij nog niet, dan begint hij op main.
@@ -133,6 +134,8 @@ jobs:
       # van deze sector onnodig in de review-queue.
       - name: Kantorenlijsten bijwerken
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
@@ -145,6 +148,8 @@ jobs:
       - name: Ronde draaien
         id: ronde
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |

@@ -33,12 +33,20 @@ Opties:
                     die opdracht. Nodig als de extractie is verbeterd: normaal
                     slaat de lader bestaande rijen over en blijft een oude
                     beoordeling staan. Kost wél opnieuw alle downloads
+    --hervat        houd in .cache/verwerkt_<boekjaar>.txt bij welke organisaties
+                    al bekeken zijn — óók die niets opleverden — en sla die bij
+                    een volgende run over. Ruimt meteen hun pdf's op
 
-Hervatten is veilig: organisatie-boekjaren die al een opdracht in de database
-hebben, worden overgeslagen. Wat niets opleverde (geen deponering, gescande pdf)
-wordt bij een herstart wél opnieuw geprobeerd — dat is bewust, want zulke
-gevallen kunnen later alsnog gevuld raken. Wordt dat te duur, dan is een
-verwerkingslog-tabel de volgende stap.
+Hervatten is standaard half veilig: organisatie-boekjaren die al een opdracht in
+de database hebben worden overgeslagen, maar wat niets opleverde (geen
+deponering, gescande pdf) wordt opnieuw geprobeerd. Dat is bewust — zulke
+gevallen kunnen later alsnog gevuld raken zodra de extractie beter is.
+
+Voor een lange oogst is dat te duur: ruwweg de helft van de organisaties levert
+geen kantoor op, en bij 2.211 organisaties à ±37 seconden kost elke herstart
+uren aan werk dat al gedaan was. Daarvoor is `--hervat`. Wil je die gevallen
+later tóch opnieuw langs de verbeterde extractie halen, verwijder dan
+.cache/verwerkt_<boekjaar>.txt (of draai met --herlaad, dat negeert de lijst).
 
 Wees vriendelijk voor de bron: er zit een pauze tussen downloads
 (digimv_archief.PAUZE_SECONDEN) en de run hoort als achtergrondtaak te draaien,
@@ -190,6 +198,12 @@ def main() -> int:
         "de jaardataset; nodig voor 2019-2021 en 2025",
     )
     parser.add_argument("--herlaad", action="store_true")
+    parser.add_argument(
+        "--hervat",
+        action="store_true",
+        help="houd bij welke organisaties al bekeken zijn (ook die niets "
+        "opleverden) en sla die over; ruimt hun pdf's meteen op",
+    )
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
 
@@ -275,6 +289,23 @@ def main() -> int:
         bron_id = bron["id"]
         print(f"bron {bron_id}; {len(al_geladen)} organisaties al geladen\n", flush=True)
 
+    # Wie hebben we al bekeken, ongeacht de uitkomst?
+    #
+    # `al_geladen` hierboven komt uit de database en kent alleen de treffers. Bij
+    # de oogstroute (droogloop, buiten Actions om) is dat te weinig: ruwweg de
+    # helft van de organisaties levert geen kantoor op, en zonder deze lijst doet
+    # elke herstart dat halve werk opnieuw — bij 2.211 organisaties en ±37
+    # seconden per stuk is dat uren. Deze lijst groeit per verwerkte organisatie
+    # en overleeft dus ook een afgebroken run.
+    verwerkt_pad = CACHE / f"verwerkt_{boekjaar}.txt"
+    verwerkt: set[str] = set()
+    if argumenten.hervat and not argumenten.herlaad and verwerkt_pad.exists():
+        verwerkt = {
+            regel.strip() for regel in verwerkt_pad.read_text(encoding="utf-8").splitlines()
+            if regel.strip()
+        }
+        print(f"{len(verwerkt)} organisaties al bekeken in een eerdere run", flush=True)
+
     werklijst = organisaties[argumenten.vanaf:]
     if argumenten.aantal:
         werklijst = werklijst[: argumenten.aantal]
@@ -299,7 +330,11 @@ def main() -> int:
     per_kantoor: dict[str, int] = {}
     begin = time.time()
 
-    te_doen = [o for o in werklijst if o["kvk_nummer"] not in al_geladen]
+    te_doen = [
+        o for o in werklijst
+        if o["kvk_nummer"] not in al_geladen and o["kvk_nummer"] not in verwerkt
+    ]
+    verwerkt_log = verwerkt_pad.open("a", encoding="utf-8") if argumenten.hervat else None
 
     def haal_op(organisatie: dict):
         """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel."""
@@ -325,6 +360,17 @@ def main() -> int:
                     f"{mislukt} zonder kantoor | {verstreken/60:.1f} min ---",
                     flush=True,
                 )
+
+            # Vóór de uitkomst-afhandeling: ook een organisatie die niets
+            # opleverde is bekeken, en juist díé wil je niet nog eens doen.
+            if verwerkt_log is not None:
+                verwerkt_log.write(f"{organisatie['kvk_nummer']}\n")
+                verwerkt_log.flush()
+                # De pdf's van deze organisatie zijn nu dood gewicht: we komen
+                # hier niet meer terug. Eén jaargang is al gauw enkele GB's en de
+                # schijf van een runner is 14 GB.
+                for pdf in CACHE.glob(f"{boekjaar}_{organisatie['kvk_nummer']}_*.pdf"):
+                    pdf.unlink(missing_ok=True)
 
             if not resultaat:
                 mislukt += 1
@@ -438,6 +484,8 @@ def main() -> int:
                 )
 
     rapport.close()
+    if verwerkt_log is not None:
+        verwerkt_log.close()
     print(f"\n=== boekjaar {boekjaar}: {gevonden} opdrachten, "
           f"{mislukt} zonder herleidbaar kantoor "
           f"({(time.time()-begin)/60:.0f} min) ===\n")
