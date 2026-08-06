@@ -390,6 +390,30 @@ alle 46 stond precies één bekend kantoor in de tekst — er viel dus niets te
 verwarren. Ook de 800+ scans zijn hiermee niet geraakt: die vragen OCR en dat
 draait alleen in de Action.
 
+## OCR is de bodem van het tempo (gemeten 6-8-2026)
+
+De oogst van boekjaar 2019 loopt op vier kernen en die staan alle vier voortdurend
+op 100% in tesseract. Dat is de bottleneck, niet het netwerk en niet de bron.
+Gemeten per gescand document: 3 tot **393 seconden**, mediaan rond de 15. De
+aanname in `extractie/verklaring.py` was ~127 seconden; de staart is dus veel
+langer dan gedacht, en juist de duurste documenten leveren vaak niets op (de
+393-seconden-scan gaf `soort=None`).
+
+Halveren lijkt mogelijk maar is **niet doorgevoerd**. Op twaalf gescande
+zorgverklaringen gaf 200 dpi twaalf keer exact dezelfde uitkomst als 300 dpi —
+zelfde soort, zelfde opdrachttype, zelfde kantoornaam, inclusief de vier
+documenten waar écht een kantoor uit kwam (Flynth, EY, 2× Astrium) — in 52% van
+de tijd. Maar de opmerking bij `OCR_DPI` legt een eerdere meting vast waarin bij
+200 dpi de kantoornaam juist wegviel, vermoedelijk op de scans van goede doelen.
+
+Bij tegenstrijdig bewijs en een fout die *stil* is (een kantoornaam die net niet
+meer leesbaar is, zonder dat iets meldt dat er iets mist) blijft 300 dpi staan.
+Wie dit alsnog wil: meet op minstens vijftig scans uit **beide** sectoren, en
+vergelijk niet alleen of er een kantoor uitkomt maar of het hetzelfde kantoor is.
+Een adaptieve variant — eerst 200 dpi, en alleen bij "controle zonder kantoor"
+overdoen op 300 — vangt het risico af tegen een fractie van de kosten, maar raakt
+wel de best bewaakte code van dit project.
+
 ## Open punten
 
 - [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`
