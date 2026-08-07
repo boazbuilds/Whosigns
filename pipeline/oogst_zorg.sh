@@ -82,7 +82,25 @@ bewaar() {
   local rijen bekeken
   rijen=$(($(wc -l < "$RAPPORT") - 1))
   bekeken=$(wc -l < "$VERWERKT")
-  git commit -q -m "Zorgoogst ${BOEKJAAR}: ${rijen} opdrachten, ${bekeken} organisaties bekeken
+  # [skip ci] staat er met opzet in. Dit script commit na elk blok, dus elke paar
+  # minuten, en zolang er een pull request openstaat startte elk van die commits
+  # een volledige ronde: de extractietests én een npm-installatie met
+  # typecontrole. Op één ochtend zijn dat tientallen runs terwijl er geen regel
+  # code verandert — deze commits raken alleen pipeline/oogst/, en dat zijn
+  # meetresultaten. Actions-minuten zijn hier schaars.
+  #
+  # Waarom niet met paths-ignore in de workflow: dat werkt hier niet. Bij een
+  # pull_request-event kijkt paths-ignore naar álle bestanden die de pull request
+  # ten opzichte van de basisbranch wijzigt, niet naar de bestanden in deze ene
+  # push. Zodra er ook maar één codebestand in de pull request zit — en dat is
+  # altijd zo — slaat het filter nooit meer aan. Gemeten: met paths-ignore
+  # erin draaide CI gewoon door op een commit die alleen verwerkt_2019.txt
+  # aanraakte.
+  #
+  # [skip ci] werkt wél, want dat kijkt naar het bericht van de commit zelf. Het
+  # geldt alleen voor deze tussenstanden; elke commit met code erin draait
+  # gewoon door de tests heen.
+  git commit -q -m "Zorgoogst ${BOEKJAAR}: ${rijen} opdrachten, ${bekeken} organisaties bekeken [skip ci]
 
 Tussenstand van pipeline/oogst_zorg.sh. Het lezen van de verklaring-pdf's draait
 buiten GitHub Actions om; dit bestand gaat er via 'Zorgoogst inladen' in een paar

@@ -6,25 +6,23 @@ name: Checks
 # tot nu toe draaide niets ze automatisch, dus een regressie kon stil op main
 # belanden. De TypeScript-kant ving alleen Vercel, en pas bij het deployen.
 #
-# De tussenstanden van de oogst tellen niet mee als wijziging. Die map bevat
-# alleen meetresultaten — een csv met gevonden opdrachten en een lijst met
-# bekeken organisaties — en het oogstscript commit die elke paar minuten, want
-# anders gaat er werk verloren als de omgeving opnieuw begint. Elke commit
-# startte daardoor een volledige ronde tests én een npm-installatie met
-# typecontrole, terwijl er geen regel code veranderde. Op een ochtend zijn dat
-# tientallen runs, en Actions-minuten zijn hier schaars.
+# Hier heeft even een paths-ignore op pipeline/oogst/ gestaan, om te voorkomen
+# dat de tussenstanden van de oogst — die elke paar minuten worden gecommit —
+# telkens een volledige ronde starten. Dat werkt niet, en dat is gemeten: CI
+# draaide gewoon door op een commit die alleen verwerkt_2019.txt aanraakte.
 #
-# Verandert er naast die map ook maar één ander bestand, dan draait alles
-# gewoon: paths-ignore slaat een run alleen over als *alle* gewijzigde bestanden
-# eronder vallen.
+# De reden is dat paths-ignore bij een pull_request-event kijkt naar álle
+# bestanden die de pull request ten opzichte van de basisbranch wijzigt, en niet
+# naar de bestanden in die ene push. Zodra er één codebestand in de pull request
+# zit slaat het filter dus nooit meer aan.
+#
+# Wat wél werkt staat in pipeline/oogst_zorg.sh: dat script zet [skip ci] in het
+# bericht van zijn tussenstand-commits, en dat kijkt naar de commit zelf. Elke
+# commit met code erin draait gewoon door de tests heen.
 on:
   pull_request:
-    paths-ignore:
-      - "pipeline/oogst/**"
   push:
     branches: [main]
-    paths-ignore:
-      - "pipeline/oogst/**"
 
 jobs:
   extractietests:
