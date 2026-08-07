@@ -1,0 +1,623 @@
+# whosigns-ocr v1 grootte=1620332 dpi=300 paginas=20
+CLAESSEN ROELOFS
+
+Fiscale en Financiële Dienstverlening
+
+Dermatologenpraktijk Dr J.
+Overbeke B.V.
+
+gevestigd te Amsterdam
+
+Rapport inzake de
+Jaarrekening 2019
+
+CLAESSEN — _ROELOFS
+
+i Ì
+Fiscale en Financiële Dienstverlening
+
+Inhoudsopgave
+
+1. RAPPORT
+
+1.1 Samenstellingsverklaring
+
+1.2 Fiscale positie
+
+2. JAARREKENING
+
+21 Balans per 31 december 2019
+
+2.2 Winst-en-verliesrekening over 2019
+
+2.3 Grondslagen van waardering en resultaatbepaling
+2.4 Toelichting op de balans
+
+2.5 Toelichting op de winst-en-verliesrekening
+
+Pagina
+
+oo 4 UI
+
+10
+14
+
+CLAESSEN ” _-ROELOFS
+
+Fiscale en Financiele Dienstverlening
+
+Aan de directie van
+Dermatologenpraktijk Dr J. Overbeke B.V.
+Weteringschans 43
+
+1017 RW Amsterdam
+
+Amstelveen, 14 augustus 2020
+
+Geachte heer Overbeke,
+
+1.1 SAMENSTELLINGSVERKLARING
+
+In overeenstemming met uw opdracht hebben wij de jaarrekening 2019 samengesteld van Dermatologenpraktijk
+Dr J. Overbeke B.V. te Amsterdam bestaande uit de balans per 31 december 2019 en de winst-en-verliesrekening
+over 2019, met de daarbij horende toelichting.
+
+Voor het samenstellen van de jaarrekening hebben wij ons gebaseerd op de gegevens, zoals deze door de directie
+van Dermatologenpraktijk Dr J. Overbeke B.V. zijn verstrekt. De verantwoordelijkheid voor de juistheid en de
+volledigheid van die gegevens en voor de daarop gebaseerde jaarrekening berust bij de directie.
+
+Het is onze verantwoordelijkheid als belastingadviseur om uw opdracht uit te voeren in overeenstemming met
+Nederlands recht en met de uitgevaardigde gedrags- en beroepsregels van onze beroepsorganisatie (het Register
+Belastingadviseurs).
+
+Onze werkzaamheden bestonden hoofdzakelijk uit het verzamelen, het verwerken, het rubriceren en het
+samenvatten van financiële gegevens. Verder hebben wij de aanvaardbaarheid van de toegepaste grondslagen
+beoordeeld op basis van de door de directie verstrekte gegevens. De aard van deze werkzaamheden als
+belastingadviseur brengt met zich dat wij geen zekerheid omtrent de getrouwheid van de jaarrekening kunnen
+verstrekken.
+
+Op basis van de aan ons verstrekte gegevens hebben wij de jaarrekening samengesteld in
+overeenstemming met de van toepassing zijnde wet- en regelgeving.
+
+CLAESS E‚N | ROE LO FS Dermatologenpraktijk Dr J. Overbeke B.V. Amsterdam
+Fiscale en finans IK Fe Dienstverlening 2019
+1.2 FISCALE POSITIE
+Berekening belastbaar bedrag
+2019
+€
+Totaal van resultaat voor belastingen -1.706
+Niet aftrekbare bedragen
+Van aftrek uitgesloten boeten 50
+Basisbedra % €
+Gedeeltelijk aftrekbare bedragen E ’
+Relatiegeschenken 87 26,50 23
+Representatiekosten 1.282 26,50 339
+362
+-1.294
+Vrije teksten
+Corr. verschil commercieel en fiscaal 2018 -1.366
+Belastbaar bedrag -2.660
+Berekening vennootschapsbelasting
+Verliescompensatie
+Reeds gecom- Nog te com- Nog te com-
+Compensabel penseerd in _penseren be- Compensatie penseren ein-
+Jaar verlies __oudejaren gin boekjaar in jaar 2019 de boekjaar
+€ € € € €
+2011 35.778 35.778 - 35.778
+2012 49.654 49,654 - 49.654
+2014 37.172 37.172 37.172
+2015 40.120 40.120 40.120
+2017 16.716 16.716 16.716
+2018 22.548 22.548 22.548
+2019 2.660 2.660
+201.988
+
+204.648
+
+204.648
+
+
+CLAESS EN 4 RO E LO FS Dermatologenpraktijk Dr J. Overbeke B.V., Amsterdam
+
+k
+N
+
+Fiscale en Kinanciete Dienstverlening 2019
+
+Met vriendelijke groet,
+
+Claessen & Roelofs Fiscale en Financiële Dienstverlening B.V.
+
+laessen RB
+
+CLAESSEN —\_ROELOFS
+
+Fiscale en Financiële Dienstverlening
+
+2. JAARREKENING
+
+C LAESS E‚N /\ RO E LO FS Dermatologenpraktijk Dr J. Overbeke B.V, Amsterdam
+
+Fiscale en B na Acre Dienstverlening 2019
+2.1 BALANS PER 31 DECEMBER 2019
+(vóór resultaatverdeling)
+ACTIVA
+31-12-2019 31-12-2018
+€ € € €
+Vaste activa
+Materiële vaste activa 1
+Bedrijfsgebouwen en -terreinen 14.698 14.698
+Inventarissen 233 389
+Andere vaste bedrijfsmiddelen 2.845 4.187
+17.776 19,274
+Vlottende activa
+Vorderingen
+Rekening-courant directie 2 125.400 118.936
+Overige vorderingen en overlopende activa 3 255 206
+125.655 119.142
+Liquide middelen 4 615.433 623.204
+Totaal activazijde 758.864 761.620
+
+C LAESS E‚N Á p RO E LO FS Dermatologenpraktijk Dr J. Overbeke B.V, Amsterdam
+
+Fiscale en Financiële Dienstverlening 2019
+PASSIVA
+31-12-2019 31-12-2018
+€ € € €
+Eigen vermogen 5
+Gestort aandelenkapitaal 6 18.151 18.151
+Agioreserve 7 740.000 740.000
+Overige reserve 8 -515 29.157
+Resultaat boekjaar -1.706 -29.672
+755.930 757.636
+Kortlopende schulden
+Schulden ter zake van belastingen en pre- 9
+mies sociale verzekeringen 770 828
+Overige schulden en overlopende passiva 210 2.164 3.156
+2,934 3.984
+Totaal passivazijde 758.864 761.620
+
+CLAESS EN P 4 RO E LO FS Dermatologenpraktijk Dr J. Overbeke B.V., Amsterdam
+
+N 2019
+
+Fiscale en Hinanciele Dienstverlening
+
+2.2 WINST-EN-VERLIESREKENING OVER 2019
+
+2019 2018
+€ € € €
+Netto-omzet 11 59.191 43.241
+Lonen 12 36.037 36.036
+Sociale lasten 13 2.423 2.289
+Overige personeelsbeloningen 14 892 868
+Afschrijvingen materiële vaste activa 15 1.498 1.498
+Huisvestingskosten 16 4.967 4,147
+Exploitatie- en machinekosten 17 - 106
+Verkoopkosten 18 6.038 15.457
+Kantoorkosten 19 5.760 5.623
+Algemene kosten 20 4498 7.829
+Totaal van som der kosten _ 62.113 mn 73.853
+Totaal van bedrijfsresultaat -2.922 -30.612
+Andere rentebaten en soortgelijke
+opbrengsten 1.216 940
+Totaal van resultaat voor belastingen -1.706 -29.672
+Belastingen over de winst of het verlies nn E:
+Totaal van resultaat na belastingen -1.706 -29.672
+
+C LAESS EN d RO E LO FS Dermatologenpraktijk Dr J. Overbeke B.V. Amsterdam
+
+2019
+
+Fiscale en Financiele Dienstverlening
+
+2.3 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+INFORMATIE OVER DE RECHTSPERSOON
+
+Vestigingsadres en inschrijfnummer handelsregister
+
+Dermatologenpraktijk Dr J. Overbeke B.V. is feitelijk en statutair gevestigd op Weteringschans 43, 1017 RW te
+Amsterdam en is ingeschreven bij het handelsregister onder nummer 33181395,
+
+ALGEMENE TOELICHTING
+
+De belangrijkste activiteiten van de rechtspersoon
+
+De activiteiten van Dermatologenpraktijk Dr J. Overbeke B.V. bestaan voornamelijk uit: de uitoefening van een
+dermatologenpraktijk.
+
+De locatie van de feitelijke activiteiten
+
+Dermatologenpraktijk Dr J. Overbeke B.V. is feitelijk gevestigd op Weteringschans 43, 1017 RW te Amsterdam.
+
+ALGEMENE GRONDSLAGEN VOOR VERSLAGGEVING
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving voor micro- en kleine rechtspersonen, die uitgegeven zijn door de Raad voor
+de Jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de actuele
+waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de verkrijgingsprijs.
+
+GRONDSLAGEN
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de cumulatieve afschrijvingen
+en indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden gebaseerd op de
+geschatte economische levensduur en worden berekend op basis van een vast percentage van de verkrijgingsprijs,
+rekening houdend met een eventuele residuwaarde. Er wordt afgeschreven vanaf het moment van
+ingebruikneming.
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd
+tegen de geamortiseerde kostprijs. De reële waarde en geamortiseerde kostprijs zijn gelijk aan de nominale
+waarde. Noodzakelijk geachte voorzieningen voor het risico van oninbaarheid worden in mindering gebracht. Deze
+voorzieningen worden bepaald op basis van individuele beoordeling van de vorderingen.
+
+Liquide middelen
+
+De liquide middelen zijn gewaardeerd tegen de nominale waarde. Indien middelen niet ter vrije beschikking staan,
+dan wordt hiermee bij de waardering rekening gehouden.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+
+CLAESS EN d ROELO FS Dermatologenpraktijk Dr J. Overbeke B.V., Amsterdam
+
+2019
+
+Fiscale en Financiele Dienstverlening
+
+worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs.
+Daar waar geen sprake is van (dis)agio en transactiekosten is de geamortiseerde kostprijs gelijk aan de nominale
+waarde.
+
+Grondslagen voor de bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de netto-omzet en de kosten en andere lasten van het
+verslagjaar met inachtneming van de hiervoor vermelde waarderingsgrondslagen.
+
+Winsten zijn verantwoord in het jaar waarin de goederen zijn geleverd c.q. de diensten zijn verricht. Verliezen
+welke hun oorsprong vinden in het boekjaar zijn in aanmerking genomen zodra deze voorzienbaar zijn.
+
+Omzetverantwoording
+Onder netto-omzet wordt verstaan de opbrengst van de in het verslagjaar geleverde goederen en verleende
+
+diensten onder aftrek van kortingen en de over de omzet geheven belastingen.
+
+Opbrengsten voortvloeiend uit de verkoop van goederen worden verantwoord op het moment dat alle belangrijke
+rechten op economische voordelen alsmede alle belangrijke risico's zijn overgegaan op de koper. De kostprijs van
+deze goederen wordt aan dezelfde periode toegerekend.
+
+Bruto-bedrijfsresultaat
+
+De brutomarge bestaat uit het verschil tussen de netto-omzet en de kostprijs van de omzet, alsmede uit de overige
+bedrijfsopbrengsten.
+
+Afschrijvingen op materiële vaste activa
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages van de
+aanschaffingswaarde, op basis van de verwachte economische levensduur. Boekwinsten en -verliezen bij verkoop
+van materiële vaste activa zijn begrepen onder de afschrijvingen.
+
+Overige bedrijfskosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking hebben.
+Financiële baten en lasten
+
+De rentebaten en -lasten betreffen de op de verslagperiode betrekking hebbende rente-opbrengsten en -lasten
+van uitgegeven en ontvangen leningen.
+
+Over de vordering wordt 1% rente berekend.
+
+10
+
+C LAES S EN , RO E LO FS Dermatologenpraktijk Dr J. Overbeke B.V, Amsterdam
+Fiscale en finan: le De Dienstverlening 2019
+2.4 TOELICHTING OP DE BALANS
+ACTIVA
+Vaste activa
+1 Materiële vaste activa
+Bedrijfsgebou- Inventarissen Andere vaste Totaal
+wen en -terrei- bedrijfs-
+nen middelen
+€ € € €
+Stand per 1 januari 2019
+Verkrijgings- of vervaardigingsprijs 77.596 42.157 29.909 149.662
+Cumulatieve afschrijvingen -62.898 -41.768 -25.722 -130.388
+Boekwaarde per 1 januari 2019 14.698 389 4.187 19,274
+Mutaties
+Afschrijvingen -156 -1.342 -1.498
+Saldo mutaties OO 156 1342 1,498
+Stand per 31 december 2019
+Verkrijgings- of vervaardigingsprijs 71.596 42157 29.909 149,662
+Cumulatieve afschrijvingen -62.898 -41.924 -27.064 -131.886
+Boekwaarde per 31 december 2019 14,698 233 2.845 17.776
+Vlottende activa
+Vorderingen
+_ 31-12-2019 31-12-2018
+€ €
+2 Rekening-courant directie
+Rekening-courant J. Overbeke 125.400 118.936
+
+
+CLAESSEN ”\ _„ROELOFS
+
+Fiscale en Financiële Dienstverlening
+
+3 Overige vorderingen en overlopende activa
+
+Vooruitbetaalde kosten
+
+4 Liquide middelen
+
+ABN AMRO
+ING
+
+11
+
+Dermatologenpraktijk Dr J. Overbeke B.V., Amsterdam
+2019
+
+31-12-2019 31-12-2018
+€ €
+
+255 206
+
+31-12-2019 31-12-2018
+
+€ €
+22.926 30.602
+592.507 592.602
+615.433 623,204
+
+
+C LAESS EN RO E LO FS Dermatologenpraktijk Dr J. Overbeke B.V, Amsterdam
+
+Fiscale en nah re De Dienstverlening 2019
+PASSIVA
+5 Eigen vermogen
+In onderstaand overzicht is het verloop van het eigen vermogen weergegeven:
+Gestortaande- _Agioreserve Overige Resultaat Totaal
+lenkapitaal reserve boekjaar
+€ € € € €
+‚ ‚ 18.151 740.000 29.157 -29.672 757.636
+Stand per 1 januari 2019
+Mutatie uit resultaatverdeling - - - 29.672 29.672
+Resultaat boekjaar - - -1.706 -1.706
+Uit resultaatverdeling - - -29.672 - -29.672
+Stand per 31 december 2019 18.151 740.000 -515 -1.706 755.930
+_ 2019 2018
+€ €
+6 Aandelen
+Gestort en opgevraagd aandetenkapitaal
+Stand per 1 januarì
+90.756 90.756
+Mutaties
+Stand per 31 december 90.756 90.756
+Aandelen ongestort deel
+Stand per 1 januari
+-72.605 -72.605
+Mutaties - -
+Stand per 31 december -72.605 -72.605
+Gestort aandelenkapitaal 18.151 18.151
+2019 2018
+€ €
+7 Agioreserve
+Stand per 1 januari 740.000 740.000
+Mutaties - -
+Stand per 31 december 740.000 740.000
+
+12
+
+CLAESSEN
+
+Fiscate en Financiele Dye
+
+8 Overige reserve
+
+Stand per 1 januari
+Uit resultaatverdeling
+
+Stand per 31 december
+
+Onverdeeld resultaat
+
+Stand per 1 januari
+
+ROELOFS
+
+nstverlening
+
+Mutatie uit resultaatverdeling
+
+Resultaat boekjaar
+
+Stand per 31 december
+
+Kortlopende schulden
+
+Dermatologenpraktijk Dr J. Overbeke B.V., Amsterdam
+
+9 Schulden ter zake van belastingen en premies sociale verzekeringen
+
+Loonheffing
+
+10 Overige schulden en overlopende passiva
+
+Accountantskosten
+Vakantiegeld
+Bankkosten
+
+13
+
+2019
+
+2019 2018
+
+€ €
+
+29.157 45.873
+-29.672 -16.716
+515 29.157
+
+2019 2018
+
+€ €
+
+-29.672 16.716
+29.672 16.716
+-1.706 -29.672
+-1.706 -29.672
+31-12-2019 31-12-2018
+€ €
+770 828
+31-12-2019 31-12-2018
+€ €
+
+1.500 2.500
+
+664 636
+
+20
+
+2.164 3.156
+
+
+CLAESS EN ROELO FS Dermatologenpraktijk Dr J. Overbeke B.V., Amsterdam
+Fiscale en Financiele Dienstverlening 2019
+2.5 TOELICHTING OP DE WINST-EN-VERLIESREKENING
+2019 _ 2018
+€ €
+11 Netto-omzet
+Omzet 59.131 nm 43.241
+2019 _ 2018
+€ €
+12 Lonen
+Brutolonen 35.088 35.088
+Vakantiegeld gag 948
+36.037 36.036
+Gemiddeld aantal werknemers
+2019
+Aantal
+Gemiddeld aantal werknemers 1,00
+2018
+Aantal
+Gemiddeld aantal werknemers 1,00
+2019 2018
+€ €
+13 Sociale lasten
+Sociale lasten 2.423 2.289
+2019 2018
+€ €
+14 Overige personeelsbeloningen
+Ziekengeldverzekering 460 436
+Onbelaste vergoedingen 432 432
+892 868
+
+14
+
+
+C LAESS EN 9 RO E LO FS Dermatologenpraktijk Dr J. Overbeke B.V, Amsterdam
+
+Fiscale en financiele Dienstverlening 2019
+2019 2018
+€ €
+15 Afschrijvingen materiële vaste activa
+Inventarissen 156 156
+Andere vaste bedrijfsmiddelen 1.342 1.342
+1.498 1.498
+2019 2018
+€ €
+16 Huisvestingskosten
+Schoonmaakkosten 175 -
+Gas, water en elektra 2.292 1.757
+Assurantiepremie onroerende zaak 1.218 1.067
+Onroerende zaakbelasting 1.282 1.323
+4,967 4,147
+2019 2018
+€ €
+17 Exploitatie- en machinekosten
+Reparatie en onderhoud inventaris E. 106
+2019 2018
+€ €
+18 Verkoopkosten
+Bijscholingskosten 1.289 5,929
+Relatiegeschenken 87 -
+Representatiekosten 1.282 2.733
+Reis- en verblijfkosten 3.380 6.795
+6.038 15.457
+2019 _ 2018
+€ €
+19 Kantoorkosten
+Kantoorbenodigdheden 74 448
+Porti 28 36
+Telefoon- en faxkosten 821 1.508
+Kosten automatisering 4,837 3.631
+
+5.760 5.623
+
+15
+
+CLAESSEN —__ROELOFS
+
+Î
+Fiscale en Financiële Dienstverlening
+
+20 Algemene kosten
+
+Abonnementen en contributies
+
+Assurantiepremie
+
+Accountantskosten
+
+Advieskosten
+
+Bankkosten
+
+Boetes en verhogingen belastingen en premies sociale verzekeringen
+Overige algemene kosten
+
+Praktijkbehoeften
+
+Financiële baten en lasten
+
+Rente rekening-courant directie
+
+Rente rekening-courant J. Overbeke
+
+Amsterdam, 14 augustus 2020
+Dermatologenpraktijk Dr J. Overbeke B.V.
+
+J. Overbeke
+
+16
+
+Dermatologenpraktijk Dr J. Overbeke B.V., Amsterdam
+
+2019
+
+2019 2018
+€ €
+771 1.301
+367 354
+2.523 4,230
+- 485
+
+326 367
+50 100
+-40 -29
+201 1.021
+4498 7.829
+2019 2018
+€ €
+940
+
+1216
+
