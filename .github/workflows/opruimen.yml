@@ -1,0 +1,51 @@
+name: Verzonnen organisaties opruimen
+
+# Organisaties weghalen die nooit hebben bestaan.
+#
+# Waarvoor dit is: de zin waarmee raadsstukken werden gelezen liet de
+# organisatienaam soms over een kop heen lopen, zodat er een stuk zin als
+# organisatie in de database kwam ("Gemeente Den Haag Ons oordeel Wij hebben de
+# jaarrekening 2016 van de gemeente Den Haag"). Op de site ziet zo'n rij eruit
+# als een gewone controleopdracht, naast de échte gemeente.
+#
+# De leesregel is gerepareerd, maar dat haalt niets weg wat er al staat: de
+# laders voegen toe en werken bij, en verwijderen nooit. Vandaar deze knop.
+#
+# Draai hem eerst zoals hij staat: dan wordt er niets aangeraakt en krijg je de
+# lijst te zien in het logboek. Pas als die lijst klopt, opnieuw draaien met
+# "opruimen" aangevinkt. Zie pipeline/opruim_verzonnen_organisaties.py voor wat
+# er wel en niet als verzonnen telt — namen met alleen een jaartal worden
+# gemeld maar nooit automatisch weggehaald.
+on:
+  workflow_dispatch:
+    inputs:
+      opruimen:
+        description: "Ook echt weghalen (uit = alleen melden, er verandert niets)"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  opruimen:
+    name: Verzonnen organisaties
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Nalopen en zo nodig weghalen
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          OPRUIMEN: ${{ inputs.opruimen }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/opruim_verzonnen_organisaties.py \
+            $([ "$OPRUIMEN" = "true" ] && echo --opruimen)

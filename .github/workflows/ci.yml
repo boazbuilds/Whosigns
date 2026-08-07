@@ -20,24 +20,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Kantoormatch (echte gevallen uit jaarverslagen)
-        run: python3 pipeline/test_kantoor_match.py
-      - name: Naam- en plaatsschoonmaak
-        run: python3 pipeline/test_digimv.py
-      - name: OOB-cliëntenlijsten lezen
-        run: python3 pipeline/test_transparantie.py
-      - name: AFM-register verslaggeving lezen
-        run: python3 pipeline/test_afm_verslaggeving.py
-      - name: Kantoorcliënten uit openbare jaarstukken
-        run: python3 pipeline/test_kantoorclienten.py
-      - name: Gunningen uit TED lezen
-        run: python3 pipeline/test_tenderned.py
-      - name: dVi-leesregels
-        run: python3 pipeline/test_aw_dvi.py
-      - name: Raadsstukken lezen
-        run: python3 pipeline/test_raadsinformatie.py
-      - name: Verklaringen lezen en de OCR-schakelaar
-        run: python3 pipeline/test_verklaring.py
+      # Alles wat pipeline/test_*.py heet, gevonden in plaats van opgesomd.
+      #
+      # Hier stond een lijst met de testbestanden erin, en zo'n lijst loopt
+      # achter: een nieuw testbestand draaide dan niet mee zonder dat iets dat
+      # meldde. Dezelfde valkuil zat in twee testbestanden zelf, waar het totaal
+      # met de hand werd bijgehouden ("27/27" terwijl er 29 controles liepen).
+      # Een lijst die stil incompleet is, is erger dan geen lijst.
+      #
+      # Alle bestanden draaien, ook na een fout: één keer kijken laat dan zien
+      # wat er allemaal stuk is in plaats van alleen het eerste.
+      - name: Extractietests
+        run: |
+          mislukt=0
+          for test in pipeline/test_*.py; do
+            echo "::group::$test"
+            python3 "$test" || { mislukt=1; echo "::error::$test faalt"; }
+            echo "::endgroup::"
+          done
+          exit $mislukt
       - name: Alles compileert
         run: python3 -m compileall -q pipeline
 
