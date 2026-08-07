@@ -428,3 +428,38 @@ wel de best bewaakte code van dit project.
       groter pdf, wat de trefkans kan drukken
 - [ ] Snelheid/tempo van 6.132 archiefzoekopdrachten inschatten en een
       redelijke pauze tussen requests vastleggen (vriendelijk voor de bron)
+
+## Wat "bekeken" betekent, en waarom dat een keer opnieuw moet
+
+Gemeten op de oogst van boekjaar 2019 (7-8-2026, na 212 organisaties):
+
+    bekeken                    212
+    met opdracht                98   46%
+    zonder opdracht            114   54%
+
+Van die 114 zijn er 31 opnieuw onderzocht met de tekst die al in de cache stond.
+De uitkomst:
+
+    24   geen enkele bekende kantoornaam in de tekst
+     4   kantoornaam staat er wel, maar niet als ondertekenaar
+     3   zou nu WEL een kantoor opleveren
+
+Die laatste drie zijn het punt. Ze zijn gelezen voordat de regels van vandaag
+erin zaten (de ondertekenaar-na-de-naam, en de nieuwe aliassen), en ze staan in
+`verwerkt_<boekjaar>.txt` als bekeken. `--hervat` slaat ze dus voorgoed over.
+
+Dat is geen fout in de oogst maar wel een gat in de werkwijze: elke verbetering
+aan de leesregels maakt organisaties herleidbaar die eerder zijn afgevallen, en
+niets brengt die terug. Op deze steekproef is dat ongeveer één op de tien van de
+niet-gelukte gevallen.
+
+Wat daarvoor nodig is, en bewust nog niet gedaan omdat de oogst loopt: naast het
+kvk-nummer ook de reden in `verwerkt_<boekjaar>.txt` zetten (geen tekstlaag /
+geen verklaring / kantoor niet herkend). Dan kan een hertoets precies de
+categorie "kantoor niet herkend" opnieuw langslopen na een verbetering, zonder
+de hele jaargang over te doen. Let op: de pdf's worden na verwerking per
+organisatie opgeruimd, dus zo'n hertoets kost opnieuw downloaden.
+
+Niet doen: de niet-gelukte gevallen uit `verwerkt` weglaten zodat ze vanzelf
+terugkomen. Dan draait elke ronde ze opnieuw, inclusief de dure OCR, en komt de
+oogst nooit vooruit.
