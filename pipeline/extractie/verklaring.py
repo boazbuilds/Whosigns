@@ -448,6 +448,64 @@ def _eerste_ocr_pagina(pad: str, max_paginas: int) -> int | None:
     return max(1, paginas - max_paginas + 1)
 
 
+# Waar de uitkomst van een OCR-lezing bewaard blijft, naast de pdf zelf.
+#
+# Waarom dit er is: OCR is het enige dure onderdeel van de pipeline, en de oogst
+# draait in een omgeving die tussendoor opnieuw kan beginnen. Zonder bewaren
+# begon elke herstart weer bij nul — blok 110-120 van boekjaar 2019 haalde tien
+# keer op rij het einde niet, en gooide elke keer al het OCR-werk weg dat het tot
+# dan toe had gedaan. Mét bewaren kost een herstart alleen de documenten die nog
+# niet gelezen zijn, en kruipt de oogst vooruit ook als geen enkele poging het
+# blok in één keer afmaakt.
+#
+# De kopregel houdt bij waar de tekst vandaan komt. Verandert het bestand (een
+# nieuwe download onder dezelfde naam) of een OCR-instelling, dan telt de bewaarde
+# tekst niet meer mee en wordt er opnieuw gelezen. Zonder die regel zou een
+# verhoogde dpi of paginagrens stil genegeerd worden.
+OCR_BEWAAR_VERSIE = 1
+
+
+def _ocr_kop(pad: str, max_paginas: int) -> str | None:
+    try:
+        grootte = Path(pad).stat().st_size
+    except OSError:
+        return None
+    return (
+        f"# whosigns-ocr v{OCR_BEWAAR_VERSIE} grootte={grootte} "
+        f"dpi={OCR_DPI} paginas={max_paginas}"
+    )
+
+
+def _ocr_uit_bewaarplaats(pad: str, kop: str | None) -> str | None:
+    """De eerder gelezen tekst, of None als die er niet is of niet meer klopt."""
+    if kop is None:
+        return None
+    try:
+        bewaard = Path(pad + ".ocr.txt").read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return None
+    regel, scheiding, tekst = bewaard.partition("\n")
+    if not scheiding or regel != kop:
+        return None
+    return tekst
+
+
+def _bewaar_ocr(pad: str, kop: str | None, tekst: str) -> None:
+    """Bewaart alleen een geslaagde lezing.
+
+    Een lege uitkomst betekent "opgegeven" (tijdbudget op, tesseract ontbreekt) en
+    niet "hier staat niets". Die bewaren zou het document voorgoed als onleesbaar
+    wegzetten zonder dat het ooit nog een kans krijgt — precies de stille schade
+    die dit platform niet hoort te maken. Opgeven blijft dus herhaalbaar.
+    """
+    if kop is None or not tekst.strip():
+        return
+    try:
+        Path(pad + ".ocr.txt").write_text(kop + "\n" + tekst, encoding="utf-8")
+    except OSError:
+        pass  # geen schrijfrechten of schijf vol: dan gewoon elke keer opnieuw lezen
+
+
 def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
     """Tekst uit een gescande pdf, via pdftoppm + tesseract.
 
@@ -462,6 +520,10 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
     pipeline zich als voorheen: geen tekstlaag, geen opdracht. Liever dat dan een run
     die omvalt op een ontbrekend hulpprogramma.
     """
+    kop = _ocr_kop(pad, max_paginas)
+    eerder = _ocr_uit_bewaarplaats(pad, kop)
+    if eerder is not None:
+        return eerder
     with tempfile.TemporaryDirectory() as tijdelijk:
         # Bij een lang document alleen de laatste pagina's renderen: daar staat de
         # verklaring. Het bereik vóóraf bepalen en niet achteraf weggooien, want
@@ -509,7 +571,9 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
             except FileNotFoundError:
                 return ""
             stukken.append(resultaat.stdout)
-        return "\n".join(stukken)
+        tekst = "\n".join(stukken)
+        _bewaar_ocr(pad, kop, tekst)
+        return tekst
 
 
 def tekst_uit_pdf(pad: str, ocr: bool = True) -> tuple[str, bool]:

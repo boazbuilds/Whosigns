@@ -16,8 +16,19 @@
 set -uo pipefail
 
 BOEKJAAR="${1:-2019}"
-BLOK="${2:-100}"
+# Eén blok is één golf werkers, en dat is geen willekeurige keuze.
+#
+# De lader verdeelt een blok over de werkers en schrijft het rapport pas als het
+# hele blok klaar is. Eén document mag in het slechtste geval ruim twintig minuten
+# duren (zie OCR_TIJDBUDGET in extractie/verklaring.py: het renderen en het lezen
+# hebben elk hun eigen budget). Een blok van tien op vier werkers is dus drie
+# golven van elk maximaal twintig minuten, en dat haalt het uur dat deze omgeving
+# aan één stuk overeind blijft niet. Zo liep blok 110-120 van boekjaar 2019 tien
+# keer op rij vast: niet stuk, gewoon te groot voor de tijd die het kreeg.
+# Blokgrootte gelijk aan het aantal werkers maakt er één golf van, en dan staat de
+# tussenstand na hooguit één traag document in de repo.
 WERKERS="${3:-4}"
+BLOK="${2:-$WERKERS}"
 
 WORTEL="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CACHE="$WORTEL/pipeline/.cache"
@@ -95,7 +106,23 @@ TOTAAL=$(printf '%s\n' "$PROBE" | sed -n '1s/^\([0-9]\{1,\}\).*/\1/p')
 [ "${TOTAAL:-0}" -gt 0 ] || { echo "kon de omvang van boekjaar $BOEKJAAR niet bepalen"; exit 1; }
 echo "boekjaar $BOEKJAAR: $TOTAAL organisaties, blokken van $BLOK"
 
-for (( VANAF = 0; VANAF < TOTAAL; VANAF += BLOK )); do
+# Beginnen waar de vorige run gebleven was, in plaats van elke keer vanaf nul.
+#
+# `--hervat` slaat bekeken organisaties over, dus de blokken die al gedaan zijn
+# leveren niets op — maar ze kosten wel elk een volledige aanroep van de lader,
+# die daarvoor eerst de hele populatie van 2.211 inleest. Bij blokken van vier en
+# 110 bekeken zijn dat 28 lege aanroepen vóór het eerste echte werk, en dat loopt
+# op naarmate de oogst vordert.
+#
+# Naar bodenen afronden, nooit naar boven: dan kan er geen organisatie tussenuit
+# vallen. Staat er iets in de lijst dat níét in de eerste blokken zat, dan wordt
+# er hooguit een stuk overgedaan dat `--hervat` alsnog overslaat. Overslaan zou
+# betekenen dat een organisatie stilletjes nooit gelezen wordt, en dat is precies
+# wat hier niet mag gebeuren.
+BEGIN=$(( ($(regels "$VERWERKT") / BLOK) * BLOK ))
+[ "$BEGIN" -gt 0 ] && echo "$(regels "$VERWERKT") al bekeken; begin bij blok $BEGIN"
+
+for (( VANAF = BEGIN; VANAF < TOTAAL; VANAF += BLOK )); do
   echo "=== blok vanaf $VANAF/$TOTAAL ==="
   python3 "$WORTEL/pipeline/laad_zorg.py" \
     --boekjaar "$BOEKJAAR" --uit-archief --droogloop --hervat \
