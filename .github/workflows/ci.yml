@@ -5,10 +5,26 @@ name: Checks
 # precies de fouten die eerder verzonnen opdrachten en wisselingen opleverden;
 # tot nu toe draaide niets ze automatisch, dus een regressie kon stil op main
 # belanden. De TypeScript-kant ving alleen Vercel, en pas bij het deployen.
+#
+# De tussenstanden van de oogst tellen niet mee als wijziging. Die map bevat
+# alleen meetresultaten — een csv met gevonden opdrachten en een lijst met
+# bekeken organisaties — en het oogstscript commit die elke paar minuten, want
+# anders gaat er werk verloren als de omgeving opnieuw begint. Elke commit
+# startte daardoor een volledige ronde tests én een npm-installatie met
+# typecontrole, terwijl er geen regel code veranderde. Op een ochtend zijn dat
+# tientallen runs, en Actions-minuten zijn hier schaars.
+#
+# Verandert er naast die map ook maar één ander bestand, dan draait alles
+# gewoon: paths-ignore slaat een run alleen over als *alle* gewijzigde bestanden
+# eronder vallen.
 on:
   pull_request:
+    paths-ignore:
+      - "pipeline/oogst/**"
   push:
     branches: [main]
+    paths-ignore:
+      - "pipeline/oogst/**"
 
 jobs:
   extractietests:
