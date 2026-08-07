@@ -175,6 +175,43 @@ GEVALLEN = [
     ("Berk N.V.", "Baker Tilly (Netherlands) B.V."),
     ("GIBO Registeraccountants B.V.", "Flynth Audit B.V."),
     ("Ernst & Young Accountants LLP", "EY Accountants B.V."),
+    # Hieronder de schrijfwijzen die in de review-queue bleven hangen: 84 rijen
+    # over alle jaargangen, waarvan deze 56 aantoonbaar tikfouten waren van een
+    # kantoor dat gewoon in het register staat. Ze staan er allemaal letterlijk zo.
+    #
+    # De les eruit: een patroon dat de hele naam uitspelt overleeft de tikfout
+    # niet. Op "Coopers" viel elk van deze vijf om.
+    ("PricewaterhouseCooper Accountants N.V.", "PricewaterhouseCoopers Accountants N.V."),
+    ("PricewaterhouseCoupers Accountants N.V.", "PricewaterhouseCoopers Accountants N.V."),
+    ("PricewaterhoudseCoopers Accountants N.V.", "PricewaterhouseCoopers Accountants N.V."),
+    ("PriceWaterhouseCoorpers Accountants N.V.", "PricewaterhouseCoopers Accountants N.V."),
+    ("PricewaterhouseC oopers Accountants N.V.", "PricewaterhouseCoopers Accountants N.V."),
+    # De voornaam van Ernst & Young is op vijf manieren verhaspeld; "Young" niet
+    # één keer. Een losse "EY" en "E & Y" komen ook voor.
+    ("Enst&Young Accountants", "EY Accountants B.V."),
+    ("Enrst & Young Accountants LLP", "EY Accountants B.V."),
+    ("Erns & Young Accountants LLP", "EY Accountants B.V."),
+    ("Ersnt & Young", "EY Accountants B.V."),
+    ("Ernst & Young Accountant's LLP", "EY Accountants B.V."),
+    ("E & Y Accountants LLP", "EY Accountants B.V."),
+    ("EY AccountantsLLP", "EY Accountants B.V."),
+    ("KMPG Accountants N.V.", "KPMG Accountants N.V."),
+    # Aan elkaar geplakt; op een afsluitende woordgrens viel dit af.
+    ("BDOAudit & Assurance B.V.", "BDO Audit & Assurance B.V."),
+    ("BakerTillyBerk", "Baker Tilly (Netherlands) B.V."),
+    ("Baker Tily Berk", "Baker Tilly (Netherlands) B.V."),
+    ("Verstegen accountatns en adviseurs", "Verstegen accountants en adviseurs B.V."),
+    ("Verstegen Accountants & Adviseuers", "Verstegen accountants en adviseurs B.V."),
+    ("Verstegen accountants en advisuers", "Verstegen accountants en adviseurs B.V."),
+    # Naam van de vergunninghouder tot de rebranding. Het transparantieverslag
+    # over 2016 van het kantoor zelf zegt het met zoveel woorden: "De wettelijke
+    # controleactiviteiten zijn ondergebracht in Mazars Paardekooper Hoffman
+    # Accountants N.V.", statutair gevestigd te Rotterdam en vergunninghouder
+    # voor wettelijke controles inclusief OOB's. Het AFM-register kent precies
+    # één Rotterdamse OOB-vergunning op mazars.nl: 13000408.
+    ("Mazars Paardekooper Hoffman Accountants N.V.", "Forvis Mazars Accountants N.V."),
+    ("Mazars Paardekoper Hoffman N.V.", "Forvis Mazars Accountants N.V."),
+    ("Mazars Paardekooper en Hoffman NV", "Forvis Mazars Accountants N.V."),
 ]
 for ruw, verwacht in GEVALLEN:
     gevonden = aw_dvi.normaliseer_kantoornaam(ruw, afm={})
@@ -186,6 +223,15 @@ for onbekend in (
     "Accountantskantoor E. Nikkels AA",
     "Du Roi Accountants & Belastingadviseurs B.V.",
     "Van den Berk & Partners",
+    # Deze staan nog in de review-queue en dat hoort zo: geen van drieën staat in
+    # het AFM-register, en raden is hier erger dan wachten.
+    "Tjakkes Riethorst Nijssen",
+    "Westpark registeraccountants belastingadviseurs",
+    "Accon AVM",
+    # De naam van vóór de aansluiting bij Mazars (dVi2007). Zonder "Mazars"
+    # ernaast mag die niet op eigen houtje aan vergunning 13000408 worden
+    # gehangen — dat zou een toeschrijving zijn die nergens uit blijkt.
+    "Paardekooper en Hoffman NV",
 ):
     gevonden = aw_dvi.normaliseer_kantoornaam(onbekend, afm={})
     controleer(

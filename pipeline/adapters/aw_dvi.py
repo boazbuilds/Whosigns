@@ -146,16 +146,45 @@ _RUISWOORDEN = {
 # valt gewoon af en komt in de review-queue — kleine kantoren als "Du Roi",
 # "Westpark" en "Accountantskantoor E. Nikkels" horen daar thuis, want die
 # staan niet in het AFM-register en mogen niet geraden worden.
+# Waarom de patronen hieronder zo kort zijn: ze moeten de tíkfout overleven, en
+# een patroon dat de hele naam uitspelt doet dat niet. "PricewaterhouseCoopers"
+# stond er als Cooper, Coupers, Coorpers, waterhoudse en met een spatie midden in
+# het woord ("PricewaterhouseC oopers"); een patroon dat het hele woord eiste
+# viel op elk van die vijf om. Het onderscheidende deel is "Pricewa" — geen ander
+# accountantskantoor begint daarmee — en dat overleeft ze allemaal. Zelfde
+# redenering bij "Young" (alleen Ernst & Young), "Mazars" en "Verstegen".
 _MERKPATRONEN: list[tuple[re.Pattern, str]] = [
-    (re.compile(r"ch?amps?\s*obers|\bbdo\b", re.I), "BDO Audit & Assurance B.V."),
-    (re.compile(r"price\s*wat\w*hous\w*\s*coopers", re.I),
-     "PricewaterhouseCoopers Accountants N.V."),
+    # Zonder afsluitende woordgrens: "BDOAudit & Assurance B.V." staat er zo,
+    # aan elkaar geplakt, en viel daarop af.
+    (re.compile(r"ch?amps?\s*obers|\bbdo", re.I), "BDO Audit & Assurance B.V."),
+    (re.compile(r"price\s*wa", re.I), "PricewaterhouseCoopers Accountants N.V."),
     (re.compile(r"\bdelo[il]+t+e\b", re.I), "Deloitte Accountants B.V."),
+    # "Young" is genoeg: alleen Ernst & Young heet zo, en de voornaam staat er in
+    # vijf schrijfwijzen ("Enst&Young", "Enrst", "Erns", "Ernst & Young
+    # Accountant's"). "E & Y" en een losse "EY" horen er ook bij.
+    (re.compile(r"\byoung\b|\be\s*&\s*y\b|\bey\b", re.I), "EY Accountants B.V."),
+    (re.compile(r"\bk[mp]{2}g\b", re.I), "KPMG Accountants N.V."),
     # Alleen aan het begin: "Berk N.V." is het kantoor dat later Baker Tilly Berk
-    # werd, maar een naam als "Van den Berk & Partners" is dat niet.
-    (re.compile(r"^berk\b", re.I), "Baker Tilly (Netherlands) B.V."),
+    # werd, maar een naam als "Van den Berk & Partners" is dat niet. "BakerTilly"
+    # aan elkaar en "Baker Tily" met één l staan er allebei.
+    (re.compile(r"^berk\b|baker\s*til+y", re.I), "Baker Tilly (Netherlands) B.V."),
     (re.compile(r"\bgibo\b", re.I), "Flynth Audit B.V."),
     (re.compile(r"foederer", re.I), "Crowe Foederer Audit & Assurance B.V."),
+    (re.compile(r"\bverstegen\b", re.I), "Verstegen accountants en adviseurs B.V."),
+    # "Mazars Paardekooper Hoffman Accountants N.V." is dezelfde vergunninghouder
+    # als het huidige 13000408, en dat staat in een openbaar stuk van het kantoor
+    # zelf: het transparantieverslag over 2016 schrijft "De wettelijke
+    # controleactiviteiten zijn ondergebracht in Mazars Paardekooper Hoffman
+    # Accountants N.V.", statutair gevestigd te Rotterdam en vergunninghouder
+    # voor wettelijke controles inclusief OOB's. Het AFM-register kent precies
+    # één Rotterdamse OOB-vergunning op mazars.nl: 13000408, sinds 27-9-2007, nu
+    # onder de naam Forvis Mazars Accountants N.V. Hetzelfde stuk vermeldt dat
+    # Paardekooper & Hoffman zich in 2000 bij Mazars aansloot.
+    #
+    # Let op: "Paardekooper en Hoffman NV" zonder "Mazars" (dVi2007) valt hier
+    # bewust buiten. Dat is de naam van vóór de aansluiting en die mag niet op
+    # eigen houtje aan deze vergunning worden gehangen.
+    (re.compile(r"\bmazars\b", re.I), "Forvis Mazars Accountants N.V."),
 ]
 
 # Merknamen die zonder verdere aanduiding maar één kantoor kunnen betekenen.
