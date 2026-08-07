@@ -73,11 +73,48 @@ if [ -s "$OOGST/verwerkt_${BOEKJAAR}.txt" ] &&
   cp "$OOGST/verwerkt_${BOEKJAAR}.txt" "$VERWERKT"
 fi
 
+# De gelezen OCR-tekst hoort ook in de repo, en niet alleen in .cache.
+#
+# Waarom: .cache overleeft een herstart van het proces, maar niet een herstart
+# van de omgeving — die zet de hele map terug op een oudere momentopname. Op
+# 7-8-2026 gebeurde dat om 12:10: de pdf's stonden er nog (1.784), de gelezen
+# tekst was weg. En juist die tekst is het dure deel: een gescande verklaring
+# kost een minuut OCR, een pdf mét tekstlaag milliseconden.
+#
+# Gemeten: ongeveer een kwart van de organisaties heeft een scan, en de oogst
+# doet er 75 per uur. Elke rollback kostte dus zo'n twintig minuten leeswerk
+# opnieuw, en die komen ongeveer elk uur. Over de resterende 25 uur is dat een
+# derde van de tijd.
+#
+# De bestanden zijn klein (9 tot 18 kB tekst) en comprimeren goed, dus ze mogen
+# gewoon mee. Ze zijn bovendien meer dan een cache: met de tekst bewaard kan een
+# organisatie die nu geen kantoor oplevert later opnieuw worden nagekeken zonder
+# de pdf opnieuw op te halen en te lezen. Zie de aantekening over "bekeken"
+# betekent ook "nooit meer" in adapters/digimv.md.
+OCR_BEWAAR="$OOGST/ocr"
+mkdir -p "$OCR_BEWAAR"
+herstel_ocr() {
+  local aantal=0
+  for bewaard in "$OCR_BEWAAR"/*.ocr.txt; do
+    [ -e "$bewaard" ] || break
+    local doel="$CACHE/$(basename "$bewaard")"
+    [ -e "$doel" ] || { cp "$bewaard" "$doel" && aantal=$((aantal + 1)); }
+  done
+  [ "$aantal" -eq 0 ] || echo "  $aantal eerder gelezen documenten teruggezet in .cache"
+}
+herstel_ocr
+
 bewaar() {
   cp "$RAPPORT" "$OOGST/zorg_${BOEKJAAR}.csv" 2>/dev/null || return 0
   cp "$VERWERKT" "$OOGST/verwerkt_${BOEKJAAR}.txt" 2>/dev/null || true
+  # Nieuw gelezen tekst meenemen; -n overschrijft niets wat er al staat.
+  for gelezen in "$CACHE"/*.ocr.txt; do
+    [ -e "$gelezen" ] || break
+    cp -n "$gelezen" "$OCR_BEWAAR/" 2>/dev/null || true
+  done
   cd "$WORTEL" || return 0
-  git add "pipeline/oogst/zorg_${BOEKJAAR}.csv" "pipeline/oogst/verwerkt_${BOEKJAAR}.txt" 2>/dev/null
+  git add "pipeline/oogst/zorg_${BOEKJAAR}.csv" "pipeline/oogst/verwerkt_${BOEKJAAR}.txt" \
+          "pipeline/oogst/ocr" 2>/dev/null
   git diff --cached --quiet 2>/dev/null && return 0
   local rijen bekeken
   rijen=$(($(wc -l < "$RAPPORT") - 1))
