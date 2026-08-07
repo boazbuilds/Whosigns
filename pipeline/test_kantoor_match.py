@@ -170,9 +170,46 @@ GEVALLEN = [
 ]
 
 
+def vervallen_vergunning(index: dict) -> list[tuple[str, bool]]:
+    """Kantoren waarvan de vergunning is vervallen, en wat dat betekent.
+
+    Waarom dit apart getest wordt: `wta_vergunning` staat in de tegenwoordige
+    tijd en is voor deze kantoren onwaar — ze stáán niet meer in het register.
+    Maar een woningcorporatie is controleplichtig, en de lader leidt uit "geen
+    vergunning" af dat het geen wettelijke controle kán zijn. Zonder `wta_ooit`
+    kregen vijftien corporaties die accon avm liet controleren daardoor de
+    stempel "vrijwillige controle" — onjuist, en het leest als een misstand die
+    er nooit is geweest. Accon avm tekende bevoegd; de vergunning verviel pas
+    jaren later door de fusie met Flynth Audit.
+    """
+    uitkomsten = []
+    for naam, verwacht_ooit in [
+        # Vergunning vervallen door een juridische fusie: tekende destijds bevoegd.
+        ("Accon AVM", True),
+        ("Accon-AVM Controlepraktijk B.V.", True),
+        ("Astrium Overheidsaccountants B.V.", True),
+        # Nooit een vergunning gehad: hier is "geen wettelijke controle" juist wél
+        # het goede antwoord, en dat mag deze uitzondering niet stilletjes opheffen.
+        ("WITh Accountants B.V.", False),
+        ("FSV Accountants + Adviseurs B.V.", False),
+        ("ACAM Accountancy en Advies", False),
+    ]:
+        treffer = zoek_kantoor(f"Rotterdam, 1 juni 2026 {naam}", index)
+        kantoor = treffer["kantoor"] if treffer and not treffer["zwak"] else None
+        goed = kantoor is not None and bool(kantoor.get("wta_ooit")) == verwacht_ooit
+        # Een vervallen vergunning is nooit een huidige vergunning.
+        if kantoor is not None and kantoor["wta_vergunning"]:
+            goed = False
+        uitkomsten.append((f"vervallen vergunning: {naam!r} -> ooit={verwacht_ooit}", goed))
+    return uitkomsten
+
+
 def main() -> int:
     index = bouw_index(laad_kantoren())
     fouten = 0
+    for omschrijving, goed in vervallen_vergunning(index):
+        fouten += not goed
+        print(f"{'✓' if goed else '✗'} {omschrijving}")
     for omschrijving, tekst, verwacht in GEVALLEN:
         treffer = zoek_kantoor(tekst, index)
         # Een zwakke treffer is geen vastgesteld kantoor (die gaat naar de
@@ -188,7 +225,8 @@ def main() -> int:
             f"    verwacht: {verwacht}\n    gevonden: {gevonden}"
             + ("" if goed else f"\n    context:  {treffer['context'] if treffer else '-'}")
         )
-    print(f"\n{len(GEVALLEN) - fouten}/{len(GEVALLEN)} goed")
+    gedaan = len(GEVALLEN) + len(vervallen_vergunning(index))
+    print(f"\n{gedaan - fouten}/{gedaan} goed")
     return 1 if fouten else 0
 
 

@@ -98,6 +98,19 @@ def laad_overige_kantoren(pad: Path = OVERIG_PAD) -> list[dict]:
         kantoor["afm_nummer"] = None
         kantoor["wta_vergunning"] = False
         kantoor.setdefault("oob_vergunning", "nee")
+        # Had dit kantoor ooit wél een vergunning? De kolom `wta_vervallen` legt
+        # uit waarom die er niet meer is (fusie, teruggegeven) en dat verandert
+        # hoe een oude opdracht gelezen moet worden.
+        #
+        # Waarom dat uitmaakt: `wta_vergunning` staat in de tegenwoordige tijd en
+        # blijft dus onwaar — het kantoor stáát niet in het register. Maar een
+        # woningcorporatie is controleplichtig, en een lader die daaruit afleidt
+        # "geen vergunning, dus geen wettelijke controle" zet dan bij vijftien
+        # corporaties dat hun jaarrekening vrijwillig is gecontroleerd. Dat is
+        # niet waar én het leest als een misstand die er niet is. Accon avm
+        # tekende die controles bevoegd; de vergunning verviel pas jaren later
+        # door de fusie met Flynth Audit.
+        kantoor["wta_ooit"] = bool((kantoor.get("wta_vervallen") or "").strip())
     return kantoren
 
 

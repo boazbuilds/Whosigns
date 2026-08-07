@@ -114,7 +114,14 @@ def main(offline: bool = False) -> int:
                     "website": k.get("website") or None,
                     "kvk_nummer": k.get("kvk_nummer") or None,
                     "plaats": k.get("plaats") or None,
-                    "toelichting": k.get("toelichting") or None,
+                    # De reden dat een vergunning is vervallen hoort mee de
+                    # database in. Anders staat er op de site een kantoor zónder
+                    # vergunning onder een wettelijke controle, zonder dat er
+                    # ergens uit blijkt waarom dat klopt.
+                    "toelichting": " — ".join(
+                        deel for deel in (k.get("toelichting"), k.get("wta_vervallen"))
+                        if (deel or "").strip()
+                    ) or None,
                 }
                 for k in overige
             ],
