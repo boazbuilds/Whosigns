@@ -1,0 +1,912 @@
+# whosigns-ocr v1 grootte=5482471 dpi=300 paginas=20
+Stichting Verzorging St. Franciscus
+
+1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+8. Overige kortlopende schulden
+
+De specificatie is als volgt :
+
+Crediteuren
+
+Belastingen en premies sociale verzekeringen
+
+Schulden terzake pensioenen
+
+Nog te betalen salarissen
+
+Nog te betalen ontslagvergoeding
+
+Vakantiegeld
+
+Vakantiedagen en meeruren
+
+Eindejaarsuitkering
+
+Terugbetalingsverplichtingen zorgverzekeraars oude jaren
+Overige schulden
+
+Vooruit ontvangen bedragen:
+Voorschot subsidie SectorplanPlus
+
+Totaal overige kortlopende schulden
+
+2019 2018
+364.752 121.970
+61.402 68.474
+26.007 20.366
+39.540 48.415
+- 46.289
+127.440 110.920
+286.412 265.105
+20.650 16.520
+= 341
+105.278 105.576
+5.752 -
+1.037.233 803.976
+
+Toelichting:
+
+De toename van de post crediteuren per 31 december 2019 wordt met name veroorzaakt doordat eind 2019
+
+edane investeringen pas in 2020 betaald zijn.
+
+-17-
+
+(8) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+
+Stichting Verzorging St. Franciscus
+
+1.5 TOELICHTING OP DE BALANS
+9. Niet in de balans opgenomen regelingen
+
+Huur gebouw
+
+Het gebouw waarin het zorgcentrum is gevestigd, wordt gehuurd van Woonstichting Leystromen te Rijen.
+Hiervoor is een huurovereenkomst gesloten met een looptijd van 20 jaar. De huur is ingegaan op
+
+4 september 2009. Dit huurcontract kwalificeert zich niet als financial lease en is derhalve niet in de balans
+verwerkt. De kale huur bedraagt € 704.747 - per jaar. De huur wordt niet geïndexeerd.
+
+Tot 2011 werden de huisvestingskosten (afschrijving, rente en huur) integraal nagecalculeerd. Na een
+overgangsfase worden de huisvestingskosten vanaf 2018 geheel bekostigd uit de Normatieve Huisvestigings
+Component. Deze component is integraal opgenomen in de Wlz-tarieven voor intramurale zorg.
+
+Hierdoor bestaat niet langer zekerheid over de inkomsten en daarmee de dekking van de huisvestingslasten;
+er is sprake van een bezettingsrisico.
+
+Voor Wlz-instellingen bestaat het risico, dat door leegstand onvoldoende middelen beschikbaar komen
+
+om aan de huurverplichtingen te kunnen blijven voldoen. Echter doordat in de huurovereenkomst tussen
+Woonstichting Leystromen en Stichting Verzorging St. Franciscus is opgenomen dat de aan huurder in
+rekening te brengen huur nooit meer zal bedragen dan de normhuur die de Nederlandse Zorgautoriteit
+
+aan huurder vergoedt, zal het financieel risico voor Zorgcentrum St. Franciscus nihil ziijn.
+
+Onzekerheden opbrengstverantwoordings
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de
+gedeclareerde zorgprestaties en maatschappelijke ondersteuning kunnen correcties noodzakelijk zijn op de
+gedeclareerde productie. De effecten van eventuele materiële nacontroles zijn vooralsnog onzeker en daarom
+zijn er hiervoor geen verplichtingen opgenomen in de balans.
+
+(8) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+-18-
+
+Stichting Verzorging St. Franciscus
+
+1.6 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Materiële vaste
+Andere vaste bedrijfsactiva in
+
+bedrijfsmiddelen, uitvoering en
+Bedrijfs- technischeen _vooruitbetalingen
+gebouwen en Machines en administratieve op materiële vaste Totaal materiële
+terreinen installaties uitrusting activa vaste activa
+€ € € € €
+Stand per 1 januari 2019
+- aanschafwaarde 101.922 312.678 570.016 - 984.616
+- cumulatieve afschrijvingen 28.462 150.459 375.980 - 554.901
+Boekwaarde per 1 januari 2019 73.460 162.219 194.036 = 429.715
+Mutaties in het boekjaar
+- investeringen 152.601 4.013 210.847 82.129 449 590
+- herwaarderingen - - - -
+- afschrijvingen 20.451 17.454 98.196 - 136.101
+- terugname geheel afgeschreven activa
+aanschafwaarde - 20.614 245.216 - 265.830
+cumulatieve herwaarderingen - - - - -
+cumulatieve afschrijvingen - 20.614 245.216 - 265.830
+- desinvesteringen
+aanschafwaarde - - 7.869 - 7.869
+cumulatieve herwaarderingen - - - - -
+cumulatieve afschrijvingen - - 4.326 - 4.326
+per saldo - - 3.543 - 3.543
+Mutaties in boekwaarde (per saldo) 132.150 -13.441 109.108 82.129 309.946
+Stand per 34 december 2019
+- aanschafwaarde 254.523 296.077 527.778 82.129 1.160.507
+- cumulatieve herwaarderingen - - - - -
+= cumulatieve afschrijvingen 48.913 147.299 224.634 - 420.846
+Boekwaarde per 31 december 2019 205.610 148.778 303.144 82.129 139 661
+Afschrijvingspercentage 3,03% en 10% 5,0% div. %
+
+HLB) VAN DAAL
+
+19 GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+10. Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+De specificatie is als volgt : 2019 2018
+
+€ €
+Wettelijk budget voor aanvaardbare kosten Wiz-zorg 6.390.854 5.527.261
+Opbrengsten Zorgverzekeringswet (wijkverpleging) 256.043 293.707
+Opbrengsten Wmo (dagopvang) 15.138 17.568
+Opbrengsten Persoonsgebonden budget 2.743 2.584
+Overige zorgprestaties 5.993 4.884
+Totaal 6.670.771 5.846.004
+Toelichting:
+
+In het wettelijk budget voor aanvaardbare kosten WlIz-zorg is vanaf 2019 het kwaliteitsbudget opgenomen.
+Het kwaliteitsbudget 2019 bedraagt € 274.620,-. Het wettelijk budget nam tevens toe door de uitbreiding van
+het aantal intramurale cliënten en een verschuiving van cliënten zonder behandeling naar cliënten met
+
+behandeling.
+
+11. Subsidies
+
+De specificatie is als volgt : 2019 2018
+€ €
+
+Gemeente Gilze en Rijen (Activiteitensubsidie) 7.877 7.590
+
+Rijkssubsidies ministerie van VWS (opleidingsfonds) 19.265 25.617
+
+Rijkssubsidies ministerie van OCW (praktijkleren) 18.953 23.293
+
+Rijkssubsidies ministerie van Sociale Zaken (sectorfonds) 16.754 -
+
+Transitiemiddelen Midden-Brabant 25.147 -
+
+Totaal 87.996 56.500
+
+Toelichting:
+
+De Transitiemiddelen Midden-Brabant werden ontvangen voor het Project MBO-Zorginnovatienetwerk.
+
+12. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt : 2019 2018
+€ €
+
+Overige dienstverlening:
+
+Maaltijdverstrekking aan derden 202.230 188.541
+
+Restaurant De Vertoeverij 17.389 10.017
+
+Alarmering in de wijk 28.429 29.476
+
+Verzorgen wasgoed cliënten 22.049 20.114
+
+Overige opbrengsten:
+
+Technische dienst aanleunwoningen 15.459 16.076
+
+Schoonmaken algemene ruimten aanleunwoningen 9.302 8.885
+
+Vergoeding gebruik kapsalon 2.364 2.626
+
+Deeiname aan activiteiten door extramurale ouderen 4.035 2.965
+
+Opbrengst zorgpension/verhuur appartementen 14.186 23.718
+
+Totaal 315.443 302.418
+
+-20-
+
+(8) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+12. Overige bedrijfsopbrengsten (vervolg)
+
+Toelichting:
+
+Zorgcentrum St. Franciscus heeft een aantal verzorgingshuisappartementen ingericht afs zorgpension-
+appartementen. Hierin kunnen zelfstandig wonende ouderen met een zorgvraag tijdelijk verblijven.
+
+Zij betalen een vast bedrag voor maaltijden, ontspanning en het gebruiken en schoonmaken van het apparte-
+ment. De kosten van de verleende persoonlijke verzorging of verpleging worden gedeclareerd bij de
+zorgverzekeraar. In 2019 is het aantal beschikbare zorgpensionappartementen afgenomen, doordat drie
+zorgpensionappartementen in gebruik zijn genomen als reguliere zorgappartementen.
+
+-21- (8) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+
+13. Personeelskosten
+
+De specificatie is als volgt : 2019 2018
+€
+Lonen en salarissen 3.148.605 2.811.044
+Sociale lasten 538.260 443 680
+Pensioenpremies 248.888 219.509
+Andere personeelskosten 164.578 186.521
+Subtotaal 4.100.331 3.660.754
+Personeel niet in loondienst 350.664 198.964
+Totaal personeelskosten 4.450.995 3.859.718
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 82,06 73,95
+
+Toelichting:
+Lonen en salarissen
+
+De personeelsformatie in bewonersgebonden functies nam in 2019 met 7,75 fte toe. De lonen en salarissen
+stegen hierdoor met ruim € 272.000,-. De personeelsformatie in hotelmatige functies nam in 2019 af met
+0,75 fte. De lonen en salarissen daalden hierdoor met circa € 30.000,-. Het algemeen beheer nam toe
+
+met 1,11 fte, de loonkosten stegen hierdoor met circa € 63.000,
+
+De lonen en salarissen namen in 2019 ten opzichte van 2018 met ongeveer € 36.000,- af doordat er in 2019
+minder transitievergoedingen werden betaald dan in 2018. De eindejaarsuitkering nam met ruim € 54.000,-
+toe door de stijging van het uitkeringspercentage van 7,40% naar 8,33% en door uitbreiding van de
+personeelsformatie. De vergoeding voor onregelmatige diensten steeg met ongeveer € 14.000,-.
+
+Het ziekteverzuim daalde van 5,42% in 2018 naar 3,53% in 2019.
+
+Sociale lasten
+De saciale lasten stegen in 2019 met ruim € 94.000 ,-. Dit wordt veroorzaakt door een hogere loonsom en
+door stijging van de premies.
+
+Pensioenpremies
+
+De pensioenpremies namen in 2019 ten opzichte van 2018 met ruim € 29.000,- toe. Dit komt voornamelijk
+door de hogere loonsom in 2019. De premiepercentages voor het ouderdomspensioen waren in 2019 en
+2018 gelijk. De premie voor het arbeidsongeschiktheidspensioen daalde in 2019 met 0,1%.
+
+Andere personeelskosten
+
+De andere personeelskosten namen in 2019 af met circa € 22.000,-. Dit is met name toe te schrijven aan
+een daling van de opleidingskosten. In 2018 werd gestart met een intensieve communicatietraining voor alle
+medewerkers. Deze training werd in 2019 voortgezet door Waardigheid & Trots op locatie. De kosten van
+trainingen die in het kader van dit programma aan personeelsleden zijn gegeven, zijn niet bij Zorgcentrum
+St. Franciscus in rekening gebracht.
+
+-22- (8) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+
+LASTEN
+
+Toelichting (vervolg):
+
+Personeel niet in loondienst
+
+De kosten van personeel niet in loondienst namen in 2019 ten opzichte van 2018 met ruim € 151.000,- toe.
+Deze stijging wordt voor € 83.000,- veroorzaakt door het in 2019 meer inzetten van uitzendkrachten dan in
+2018 (door een tekort aan personeel in loondienst). De kosten van de kwaliteitsmedewerker namen met
+
+€ 24.000 - toe. Door extra inzet van (para)medisch personeel stegen de kosten in 2019 met 44.000,
+
+14. Afschrijvingen op vaste activa
+
+De specificatie is als volgt : 2019 2018
+€ €
+
+Afschrijvingen:
+
+- materiële vaste activa 136.101 133.271
+
+Totaal afschrijvingen 136.101 133.271
+
+15. Overige bedrijfskosten
+
+De specificatie is als volgt : 2019 2018
+€ €
+Voedingsmiddelen en hotelmatige kosten 410.967 345.685
+Algemene kosten 392.585 280.772
+Patiënt- en bewonersgebonden kosten 154.636 121.766
+Onderhoud en energiekosten:
+- Onderhoud 95.840 94.277
+- Energie 136.903 137.412
+Subtotaal 232.743 231.689
+Diverse baten voorgaande boekjaren:
+- Vrijval belastingen en verzekeringen -12.408 -12.625
+- Uitkering loonschade na ongeval medewerker - -5.299
+- Vrijval inrichtingskosten 2011 - -53.932
+- Vrijval voorziening nabetaling ORT - -10.017
+Subtotaal -12.408 -81 873
+Huur gebouwen 704.748 704.748
+Totaal overige bedrijfskosten 1.883.271 1.602.787
+Toelichting:
+
+Voedingsmiddelen en hotelmatige kosten
+
+De voedingsprijs per dag steeg met ruim 10%; van € 6,87 in 2018 naar € 7,59 in 2019. De totale
+voedingskosten stegen met ruim € 42.000,-. Er werden in 2019 ruim 3.500 warme maaltijden meer bereid
+dan in 2018.
+
+De hotelmatige kosten namen in 2019 ten opzichte van 2018 met € 23.000,- toe. Dit komt voornamelijk door
+een toename van de schoonmaak-, was- en overige huishoudelijke middelen. Ook de kosten van afvoer
+huisvuil, de externe wasserij en de dienstauto's namen toe.
+
+-23- (18) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+
+LASTEN
+
+Toelichting (vervolg):
+
+Algemene kosten
+
+De algemene kosten namen ten opzichte van 2018 per saldo met ruim € 110.000 ,- toe. Dit komt voornamelijk
+door de advieskosten voor herinrichting van de facilitaire dienst van Zorgcentrum St. Franciscus (€ 80.000,-)
+en door extra kosten van automatisering (€ 30.000,-).
+
+Patiënt- en bewonersgebonden kosten
+
+De patiënt- en bewonersgebonden kosten namen in 2019 ten opzichte van 2018 met circa € 33.000,- toe.
+De stijging wordt veroorzaakt door een toename van de kosten van incontinentiemateriaal en medische- en
+verzorgingsmiddelen met € 25.000,- en een toename van de uitgaven ten behoeve van ontspannings-
+activiteiten van de cliënten met € 8.000
+
+16. Financiële baten en lasten
+
+De specificatie is als volgt : 2019 2018
+€ €
+
+Rentebaten 5.857 5.368
+
+Totaal financiële baten en lasten 5.857 5.368
+
+Toelichting:
+
+De rentebaten zijn verkregen uit de rentevergoedingen op de banksaldi. Ondanks hogere banksaldí is er
+een lagere renteopbrengst gerealiseerd. De oorzaak hiervan is de zeer lage rentestand.
+
+-24- (18) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+
+17. Wet normering topinkomens (WNT)
+
+De Wet normering topinkomens (WNT) is van toepassing op Stichting Verzorging St. Franciscus. Het voor
+Stichting Verzorging St. Franciscus toepasselijke bezoldigingsmaximum is in 2019 € 130.000,-. Dit betreft het
+bezoldigingsmaximum voor zorg en jeugdhulp, klasse 2 (totaalscore 8 punten).
+Het WNT-maximum per persoon of per functie is berekend naar rato van de omvang en de duur van het
+dienstverband, waarbij voor de weergegeven toepasselijke berekening de omvang van het dienstverband
+
+nooit groter kan zijn dan 1,0 fte.
+
+Het WNT-maximum voor leden van de Raad van Toezicht bedraagt: voor de voorzitter 15% en voor de
+
+overige leden 10% van het bezoldigingsmaximum.
+
+Bezoldiging topfunctionarissen
+
+Leidinggevende topfunctionarissen met dienstbetrekking.
+
+bedragen x € 1
+
+Functiegegevens
+
+Aanvang en einde functievervulling in 2019
+Omvang dienstverband in fte
+Dienstbetrekking?
+
+Bezoldiging
+
+Beloning plus belastbare onkostenvergoedingen
+Beloningen betaalbaar op termijn
+
+Subtotaal
+
+Individueel toepasselijk bezoldigingsmaximum
+
+-/- Onverschuldigd betaald bedrag
+
+Totale bezoldiging
+
+Gegevens 2018
+
+Functiegegevens
+Aanvang en einde functievervulling in 2018
+Deeltijdfactor in fte
+Dienstbetrekking?
+
+Bezoldiging
+
+Beloning plus belastbare onkostenvergoedingen
+Beloningen betaalbaar op termijn
+
+Subtotaal
+
+Individueel toepasselijk bezoldigingsmaximum
+
+-/- Onverschuldigd betaald bedrag
+
+Totale bezoldiging
+
+Reden waarom de overschrijding is toegestaan
+
+Overige rapportageverplichtingen op grond van de WNT
+
+S.C. Kanters
+Bestuurder
+1-1/31-12
+1,0
+ja
+
+118.525
+11.475
+130.000
+
+130.000
+
+n.v.t.
+
+130.000
+
+Bestuurder
+1-1/31-12
+1,0
+
+ja
+
+100.016
+9.792
+109.608
+
+103.000
+
+n.v.t.
+
+109.808
+
+De overschrijding wordt veroorzaakt door
+een nabetaling van € 6.813,- over 2017.
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een dienst-
+betrekking, die in 2019 een bezoldiging boven het individueel toepasselijke drempelbedrag hebben ontvangen.
+
+(18) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+
+Toezichthoudende topfunctionarissen
+
+bedragen x € 1
+Functiegegevens
+Aanvang en einde functievervulling in 2019
+
+Bezoldiging
+Totale bezoldiging
+
+Individueel toepasselijk bezol!digingsmaximum
+-/- Onverschuldigd betaald bedrag
+Totale bezoldiging
+
+Gegevens 2018
+
+Functiegegevens
+
+Aanvang en einde functievervulling in 2018
+Bezoldiging
+
+Totale bezoldiging
+
+Individueel toepasselijk bezoldigingsmaximum
+
+bedragen x € 1
+Functiegegevens
+Aanvang en einde functievervulling in 2019
+
+Bezoldiging
+Totale bezoldiging
+
+Individueel toepasselijk bezoldigingsmaximum
+
+-/- Onverschuldigd betaald bedrag
+Totale bezoldiging
+
+Gegevens 2018
+
+Functiegegevens
+
+Aanvang en einde functievervulling in 2018
+Bezoldiging
+
+Totale bezoldiging
+
+Individueel toepasselijk bezoldigingsmaximum
+
+A.A.M. van
+
+H.H.M. van den Puijenbroek-
+Broek van der Heijden A.M.J.F. Swelsen
+Voorzitter Lid Lid
+1/1 - 31/12 1/1 - 31/12 1/1 - 31/12
+11.625 7.750 7.150
+19.500 13.000 13.000
+
+n.v.t. n.v.t. nvt.
+
+11.625 7.150 7.750
+Voorzitter Lid Lid
+1/1 - 31/12 1/1 - 31/12 1/1 - 31/12
+6.300 6.300 6.300
+10.300 10.300 10.300
+
+J.K. van Wijnen
+
+J.J.L. van Bommel
+
+Lid
+
+1/1 - 31/12
+7.750
+13.000
+
+n.v.t.
+7.750
+
+Lid
+1/1 - 31/12
+
+6.300
+10.300
+
+-26-
+
+Lid
+
+1/1 - 31/12
+7.750
+13.000
+
+nvt.
+
+7.150
+
+(8) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+
+18. Honoraria accountant 2019 2018
+€ €
+De honoraria van de accountant over 2019 zijn als volgt:
+1 Controle van de jaarrekening 17.763 13.396
+2 Overige controlewerkzaamheden
+(w.o. Regeling AO/IC, Nacalculatie, WNT en Kwaliteitsbudget) 12.657 2,157
+3 Fiscale advisering - -
+4 Niet controle-diensten 4.235 -
+Totaal honoraria accountant 34655 15.553
+-27- í HLB) VAN DAAL
+
+VOOR IDENTIFIC,
+
+
+Stichting Verzorging St. Franciscus
+
+1.8 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+De Raad van Bestuur van Stichting Verzorging St. Franciscus heeft de jaarrekening 2019 vastgesteld in
+de vergadering van 18 juni 2020.
+
+De Raad van Toezicht van Stichting Verzorging St. Franciscus heeft de jaarrekening 2019 goedgekeurd
+in de vergadering van 18 juni 2020.
+
+Resultaatbestemming
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 1.2.
+
+Gebeurtenissen na balansdatum
+
+Ten tijde van het opmaken van de jaarrekening heerst in Nederland en in de rest van de wereld het
+Coronavirus (COVID-19). Dit virus zal naar verwachting in 2020 leiden tot hogere personele en
+materiële kosten en een omzetdaling. De overheid en financiers hebben tijdelijke maatregelen ingesteld
+die ervoor zorgen dat de extra kosten en de omzetderving, die door de crisis ontstaan, in principe
+worden vergoed en dat de liquiditeitpositie van zorginstellingen gewaarborgd blijft. Om die reden zijn de
+in de jaarrekening gehanteerde grondslagen van waardering en resultaatbepaling dan ook gebaseerd
+op de veronderstelling van continuïteit.”
+
+-28- (8) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+1.8 VASTSTELLING EN GOEDKEURING
+
+Ondertekening door bestuurders en toezichthouders
+
+W.G.
+
+S.C. Kanters (RvB) 18-6-2020
+
+W.G.
+
+A A.M. van Puijenbroek-van der Heijden (RvT)
+18-6-2020
+
+W.G.
+
+J.K. van Wijnen (RvT) 18-6-2020
+
+-29-
+
+W.G.
+H.H.M. van den Broek (RvT) 18-6-2020
+W.G.
+A.M.J.F. Swelsen (RvT) 18-6-2020
+W.G.
+J.J.L. van Bommel (RvT) 18-6-2020
+
+(18) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+Stichting Verzorging St. Franciscus
+
+2. OVERIGE GEGEVENS
+
+- 30 -
+
+voor
+
+Stichting Verzorging St. Franciscus
+
+2 OVERIGE GEGEVENS
+2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is geen bepaling opgenomen omtrent de bestemming van het behaalde resultaat.
+
+2.2 Nevenvestigingen
+
+Stichting Verzorging St. Franciscus heeft geen nevenvestigingen.
+
+2.3 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina.
+
+-31- (18) van DAAL
+
+GEWAARMERKT VOOR IDENTIFICATIEDOELEINDEN
+
+HLB) VAN DAAL
+
+AUDIT
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan: het bestuur en de raad van toezicht van Stichting verzorging St. Franciscus
+
+A. Verklaring over de in de jaarverslag opgenomen jaarrekening 2019
+
+Ons oordeel
+Wij hebben de jaarrekening 2019 van Stichting Verzorging St.
+Franciscus te Gilze gecontroleerd.
+
+Naar ons oordeel geeft de jaarrekening een getrouw beeld van de grootte en de samenstelling
+van het vermogen van Stichting Verzorging St. Franciscus per 31 december 2019 en van het
+resultaat over 2019 in overeenstemming met Regeling verslaggeving WTZi, RJ 655
+Zorginstellingen, Titel 9 Boek 2 BW en de bepalingen van en krachtens de Wet normering
+bezoldiging topfunctionarissen publieke en semipublieke sector (WNT).
+
+De jaarrekening bestaat uit:
+
+1. de balans per 31 december 2019;
+
+2. de winst- en verliesrekening over 2019; en
+
+1. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen, waaronder de toelichtingen als vereist krachtens de
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT).
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de
+Nederlandse controlestandaarden vallen en het controleprotocol WNT. Onze
+verantwoordelijkheden op grond hiervan zijn beschreven in de sectie ‘Onze
+verantwoordelijkheden voor de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Verzorging St. Franciscus zoals vereist in de Wet toezicht
+accountantsorganisaties (Wta), de Verordening inzake de onafhankelijkheid van accountants bij
+assurance-opdrachten (ViO) en andere voor de opdracht relevante onafhankelijkheidsregels in
+Nederland. Verder hebben wij voldaan aan de Verordening gedrags- en beroepsregels
+accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis
+voor ons oordeel.
+
+Lage Ham 10, 5102 AC Dongen - Postbus 250, 5100 AG Dongen
+TEL: +31 (O)162 32 20 OO EMAIL: dongen@hlb-van-daal.nl www.hlb-van-daal.nl
+
+HLB Van Daal is a member of HLB International, the global advisory and accounting network
+
+88703. Uitsluitend HLB Van Daal Audit BV. geldt als opdrachtnemer. Op haar
+
+kelijkheid en een aanwijzing van de bevoegde rechter zijn opgenomen
+
+
+HLB) VAN DAAL
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met het Controleprotocol WNT 2019 hebben wij de anticumulatiebepaling,
+bedoeld in artikel 1.6a WNT en artikel 5, lid 1, sub j Uitvoeringsregeling WNT, niet
+gecontroleerd. Dit betekent dat wij niet hebben gecontroleerd of er wel of niet sprake is van een
+normoverschrijding door een leidinggevende topfunctionaris vanwege eventuele
+dienstbetrekkingen als leidinggevende topfunctionaris bij andere WNT-plichtige instellingen,
+alsmede of de in dit kader vereiste toelichting juist en volledig is.
+
+B. Verklaring over de in het jaarverslag opgenomen andere informatie
+
+Naast de jaarrekening en onze controleverklaring daarbij, omvat de jaarrekening andere
+informatie, die bestaat uit de overige gegevens.
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie:
+
+- met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+- alle informatie bevat die op grond van Titel 9 Boek 2 BW is vereist.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip,
+verkregen vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie
+materiële afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in Titel 9 Boek 2 BW en de
+Nederlandse Standaard 720. Deze werkzaamheden hebben niet dezelfde diepgang als onze
+controlewerkzaamheden bij de jaarrekening.
+
+Het bestuur is verantwoordelijk voor het opstellen van de andere informatie, waaronder de
+overige gegevens ín overeenstemming met Regeling verslaggeving WTZi, RJ 655
+Zorginstellingen, Titel 9 Boek 2 BW en de bepalingen van en krachtens de Wet normering
+bezoldiging topfunctionarissen publieke en semipublieke sector (WNT).
+
+C. Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening en de
+WNT-verantwoording
+
+Verantwoordelijkheden van het bestuur en de raad van toezicht voor de jaarrekening en
+de WNT-verantwoording
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met in Regeling verslaggeving WTZi, RJ 655 Zorginstellingen, Titel 9 Boek 2
+BW en de bepalingen van en krachtens de Wet normering bezoldiging topfunctionarissen
+publieke en semipublieke sector (WNT). In dit kader is het bestuur verantwoordelijk voor een
+zodanige interne beheersing die het bestuur noodzakelijk acht om het opmaken van de
+jaarrekening en het opstellen van de WNT-verantwoording mogelijk te maken zonder
+afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+HLB) VAN DAAL
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de organisatie in staat is om
+haar werkzaamheden in continuïteit voort te zetten. Op grond van genoemd
+verslaggevingsstelsel moet het bestuur de jaarrekening opmaken op basis van de
+continuïteitsveronderstelling, tenzij het bestuur het voornemen heeft om de organisatie te
+liquideren of de bedrijfsactiviteiten te beëindigen of als beëindiging het enige realistische
+alternatief is. Het bestuur moet gebeurtenissen en omstandigheden waardoor gerede twijfel zou
+kunnen bestaan of de onderneming haar bedrijfsactiviteiten in continuïteit kan voortzetten,
+toelichten in de jaarrekening.
+
+De raad van toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving en op het proces van de WNT-verantwoording van de organisatie.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening en de WNT-
+verantwoording
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht en de
+werkzaamheden die zijn beschreven in het controleprotocol WNT 2019 dat wij daarmee
+voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid en in
+overeenstemming met het controleprotocol WNT 2019 waardoor het mogelijk is dat wij tijdens
+onze controle niet alle materiële fouten en fraude ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien
+redelijkerwijs kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen
+zijn op de economische beslissingen die gebruikers op basis van deze jaarrekening en de
+WNT-verantwoording nemen. De materialiteit beïnvloedt de aard, timing en omvang van onze
+controlewerkzaamheden en de evaluatie van het effect van onderkende afwijkingen op ons
+oordeel.
+
+HLB) VAN DAAL
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar
+relevant professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, ethische voorschriften, de onafhankelijkheidseisen en de Beleidsregels
+toepassing WNT, inclusief het Controleprotocol WNT. Onze controle bestond onder andere uit:
+
+het identificeren en inschatten van de risico's dat de jaarrekening en WNT-
+
+verantwoording afwijkingen van materieel belang bevat als gevolg van fouten of fraude, het
+in reactie op deze risico's bepalen en uitvoeren van controlewerkzaamheden, mede in
+overeenstemming met de beschreven werkzaamheden in het controleprotocol WNT 2019,
+en het verkrijgen van controle-informatie die voldoende en geschikt is als basis voor ons
+oordeel. Bij fraude is het risico dat een afwijking van materieel belang niet ontdekt wordt
+groter dan bij fouten. Bij fraude kan sprake zijn van samenspanning, valsheid in geschrifte,
+het opzettelijk nalaten transacties vast te leggen, het opzettelijk verkeerd voorstellen van
+zaken of het doorbreken van de interne beheersing;
+
+het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als
+doel controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit van
+de interne beheersing van de organisatie;
+
+het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren van de redelijkheid van schattingen door het bestuur en de
+toelichtingen die daarover in de jaarrekening staan;
+
+het vaststellen dat de door het bestuur gehanteerde continuïteitsveronderstelling
+aanvaardbaar is. Tevens het op basis van de verkregen controle-informatie vaststellen of er
+gebeurtenissen en omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of de
+onderneming haar bedrijfsactiviteiten in continuïteit kan voortzetten. Als wij concluderen dat
+er een onzekerheid van materieel belang bestaat, zijn wij verplicht om aandacht in onze
+controleverklaring te vestigen op de relevante gerelateerde toelichtingen in de jaarrekening.
+Als de toelichtingen inadequaat zijn, moeten wij onze verklaring aanpassen. Onze
+conclusies zijn gebaseerd op de controle-informatie die verkregen is tot de datum van onze
+controleverklaring. Toekomstige gebeurtenissen of omstandigheden kunnen er echter toe
+leiden dat een onderneming haar continuïteit niet langer kan handhaven;
+
+het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de WNT-
+verantwoording en de daarin opgenomen toelichtingen;
+
+het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties
+en gebeurtenissen; en
+
+het evalueren of de WNT-verantwoording de onderliggende transacties en gebeurtenissen
+zonder materiële afwijkingen weergeeft.
+
+HLB} VAN DAAL
+
+Wij communiceren met de raad van toezicht onder andere over de geplande reikwijdte en timing
+van de controle en over de significante bevindingen die uit onze controle naar voren zijn
+gekomen, waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Dongen, 18 juni 2020
+
+HLB van Daal Audit B.V.
+
+w.g. P.W.M.H. Kosters
+Registeraccountant
