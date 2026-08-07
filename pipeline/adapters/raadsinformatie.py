@@ -65,12 +65,51 @@ VELDEN = [
     "last_discussed_at",
 ]
 
+# Woorden waarmee een nieuwe zin of een kop begint. Een organisatienaam loopt daar
+# nooit doorheen, dus de naam mag ze niet bevatten.
+#
+# Waarom dit er is: zonder deze rem sprong de naam over een kop heen. Een stuk van
+# de gemeente Den Haag zet "Ons oordeel" als kopje boven de verklaring, en de
+# regel ervóór noemt de jaarrekening al. De naam werd dan "Gemeente Den Haag Ons
+# oordeel Wij hebben de jaarrekening 2016 van de gemeente Den Haag" — een tweede,
+# verzonnen organisatie naast de echte, mét een accountant eronder. Gemeten op
+# 4.000 documenten (7-8-2026): 26 van de 2.335 namen waren zo opgerekt, en Den
+# Haag raakte er vijf echte jaren door kwijt, want de opgerekte match at de goede
+# zin op. Met de rem verdwijnen alle 26 en komen die vijf terug; geen enkele
+# schone naam valt weg.
+_HERSTART = r"\bjaarrekening\b|\bjaarstukken\b|\boordeel\b|\bwij\s+hebben\b|20[0-2]\d"
+
+# Wat er tussen "jaarrekening 2020" en "van" mag staan.
+#
+# Alleen een aanduiding van de reikwijdte: "(inclusief erratum)", "inclusief de
+# SISA bijlage (bijlage 7.1)", "en de daarbij behorende bijlagen". Bewust géén vrij
+# gat, en de tussenzin mag zelf het woord "van" niet bevatten. Dat is gemeten en
+# het was geen theorie: met een vrij gat sloeg de zoeker het échte "van" over en
+# haakte hij aan het "van" binnenín de naam. "Vereniging van Nederlandse
+# Gemeenten" werd dan "Nederlandse Gemeenten", "Regio Hart van Brabant" werd
+# "Brabant" en "Stichting Openbaar Onderwijs Land van Altena" werd "Altena" —
+# 113 gehalveerde namen op 4.000 documenten. Nederlandse organisatienamen zitten
+# vol "van", dus dit is geen randgeval.
+#
+# "opdracht" en "verantwoordelijk" horen er om dezelfde reden niet in: "is
+# opgesteld onder verantwoordelijkheid van het bestuur" en "in opdracht van het
+# GR-bestuur" zijn ándere zinnen, en die leverden "het bestuur" als organisatie.
+_AANVULLING = (
+    r"(?:"
+    r"\((?:(?!\bvan\b)[^()]){1,45}\)"
+    r"|(?:inclusief|incl\.|en\s+(?:de\s+)?daarbij\s+behorende)"
+    r"(?:(?!\bvan\b|opdracht|verantwoordelijk)[^.;:!?()]){0,45}"
+    r")"
+)
+
 # De standaardzin uit de controleverklaring. Twee schrijfwijzen komen voor:
 # "de jaarrekening 2018 van X te Y gecontroleerd" en dezelfde zin zonder plaats.
 # Het jaartal staat er altijd, want de verklaring gaat over één jaarrekening.
 _GECONTROLEERD = re.compile(
-    r"jaarrekening\s+(20[0-2]\d)\s+van\s+(?:de\s+|het\s+)?"
-    r"(.{3,120}?)"
+    r"jaarrekening\s+(20[0-2]\d)\s+"
+    r"(?:" + _AANVULLING + r"(?:\s+" + _AANVULLING + r")?\s+)?"
+    r"van\s+(?:de\s+|het\s+)?"
+    r"((?:(?!" + _HERSTART + r").){3,120}?)"
     r"(?:\s+te\s+([A-Z][\w'’\- ]{2,40}?))?"
     r"\s+gecontroleerd",
     re.I | re.S,

@@ -12,10 +12,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 import raadsinformatie as ori  # noqa: E402
 
 fouten = 0
+gedaan = 0
 
 
 def controleer(omschrijving: str, goed: bool, detail: str = "") -> None:
-    global fouten
+    global fouten, gedaan
+    gedaan += 1
     fouten += not goed
     print(f"{'✓' if goed else '✗'} {omschrijving}")
     if not goed and detail:
@@ -142,6 +144,100 @@ controleer(
     ori._plat(["eerste", "tweede"]) == "eerste\ntweede" and ori._plat(None) == "",
 )
 
-totaal = 7 + len(PAREN) + 3
-print(f"\n{totaal - fouten}/{totaal} goed")
+# --- de naam mag niet over een kop heen lopen --------------------------------
+#
+# Den Haag zet "Ons oordeel" als kopje boven de verklaring, en de regel ervóór
+# noemt de jaarrekening al. De naam liep dan door tot voorbij dat kopje en er
+# ontstond een tweede, verzonnen "organisatie" naast de echte — mét accountant.
+# Erger nog: die opgerekte match at de goede zin op, dus Den Haag raakte het jaar
+# helemaal kwijt. Op 4.000 documenten (7-8-2026) gebeurde dat 26 keer.
+DEN_HAAG = (
+    "JAARREKENING 2016 VAN DE GEMEENTE DEN HAAG\n"
+    "Controleverklaring van de onafhankelijke accountant\n"
+    "Ons oordeel\n"
+    "Wij hebben de jaarrekening 2016 van de gemeente Den Haag gecontroleerd.\n"
+)
+uit = ori.verklaringen_uit(DEN_HAAG)
+controleer(
+    "de naam stopt bij de kop, en de échte zin wordt alsnog gevonden",
+    len(uit) == 1 and uit[0]["organisatie"] == "Gemeente Den Haag"
+    and uit[0]["boekjaar"] == 2016,
+    f"gevonden: {[(v['organisatie'], v['boekjaar']) for v in uit]}",
+)
+
+# --- een tussenzin over de reikwijdte ----------------------------------------
+#
+# Deze drie schrijfwijzen staan letterlijk in de bron en vielen allemaal weg
+# omdat er iets tussen het jaartal en "van" stond.
+for omschrijving, zin, verwacht in [
+    (
+        "(inclusief erratum)",
+        "Wij hebben de jaarrekening 2020 (inclusief erratum) van de gemeente "
+        "Renkum gecontroleerd.",
+        "Gemeente Renkum",
+    ),
+    (
+        "inclusief de SISA bijlage",
+        "Wij hebben de jaarrekening 2016 inclusief de SISA bijlage (bijlage 7.1) "
+        "van de Gemeenschappelijke Regeling Veiligheidsregio Zeeland gecontroleerd.",
+        "Gemeenschappelijke Regeling Veiligheidsregio Zeeland",
+    ),
+    (
+        "en de daarbij behorende bijlagen",
+        "Wij hebben de jaarrekening 2014 en de daarbij behorende bijlagen van de "
+        "gemeente Eindhoven gecontroleerd.",
+        "Gemeente Eindhoven",
+    ),
+]:
+    uit = ori.verklaringen_uit(zin)
+    controleer(
+        f"tussenzin: {omschrijving}",
+        len(uit) == 1 and uit[0]["organisatie"] == verwacht,
+        f"gevonden: {[v['organisatie'] for v in uit]}",
+    )
+
+# --- en wat de tussenzin níét mag doen ---------------------------------------
+#
+# De keerzijde, en die is scherper dan hij lijkt: Nederlandse organisatienamen
+# zitten vol "van". Met een vrij gat tussen jaartal en "van" sloeg de zoeker het
+# échte "van" over en haakte hij aan het "van" binnenín de naam. Dat halveerde
+# 113 namen op 4.000 documenten: "Vereniging van Nederlandse Gemeenten" werd
+# "Nederlandse Gemeenten" en "Regio Hart van Brabant" werd "Brabant". Een naam
+# die stilletjes de helft mist is erger dan een naam die ontbreekt.
+for omschrijving, zin, verwacht in [
+    (
+        "een naam mét 'van' erin blijft heel",
+        "Wij hebben de jaarrekening 2021 van de Vereniging van Nederlandse "
+        "Gemeenten gecontroleerd.",
+        "Vereniging van Nederlandse Gemeenten",
+    ),
+    (
+        "ook als de naam midden in een 'van' zit",
+        "Wij hebben de jaarrekening 2022 van de Gemeenschappelijke Regeling Regio "
+        "Hart van Brabant gecontroleerd.",
+        "Gemeenschappelijke Regeling Regio Hart van Brabant",
+    ),
+]:
+    uit = ori.verklaringen_uit(zin)
+    controleer(
+        omschrijving,
+        len(uit) == 1 and uit[0]["organisatie"] == verwacht,
+        f"gevonden: {[v['organisatie'] for v in uit]}",
+    )
+
+# Een ándere zin over dezelfde jaarrekening is geen ondertekende verklaring. Met
+# een vrij gat leverden deze twee "het bestuur" en "GR-bestuur" op als
+# organisatie — allebei bestaan niet.
+for omschrijving, zin in [
+    ("opgesteld onder verantwoordelijkheid van het bestuur",
+     "De jaarrekening 2019 is opgesteld onder verantwoordelijkheid van het "
+     "bestuur en wordt door ons gecontroleerd."),
+    ("in opdracht van het GR-bestuur",
+     "De jaarrekening 2020 wordt net als in voorgaande jaren in opdracht van het "
+     "GR-bestuur gecontroleerd."),
+]:
+    uit = ori.verklaringen_uit(zin)
+    controleer(f"geen verklaring: {omschrijving}", uit == [], f"gevonden: {uit}")
+
+print(f"\n{gedaan - fouten}/{gedaan} goed")
 raise SystemExit(1 if fouten else 0)
