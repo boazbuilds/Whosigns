@@ -45,9 +45,26 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
 
 # Woorden die alleen in een zin voorkomen, nooit in een naam.
+#
+# "hierna" stond hier ook, en dat was fout. Het is geen zinsflard maar gewone
+# juridische schrijfwijze, en die staat middenin échte namen:
+#
+#     Gemeenschappelijke Regeling Gemeenschappelijke Vuilverwerking
+#         Dordrecht en Omstreken (hierna Gevudo)
+#     Gemeenschappelijke Regeling Delta (hierna: Delta)
+#     Onderdeel Bevolkingszorg van de Veiligheidsregio Zuid Limburg
+#         (hierna: Bevolkingszorg)
+#
+# Zes bestaande organisaties zouden erdoor zijn weggegooid, met hun hele
+# geschiedenis. Nagelopen vóór het script ooit heeft gedraaid, op het bewaarde
+# rapport van de raadsinformatie-oogst.
+#
+# De naam met twee van die haakjes eráchter — "Stichting Omnisscholen (hierna
+# 'de stichting') te Heinkenszand (hierna 'de jaarrekening')" — is wél rommel,
+# en die wordt nog steeds gevangen: daar staat "jaarrekening" in.
 ZINSFLARD = re.compile(
     r"\bwij\s+hebben\b|\bzij\s+hebben\b|\bons\s+oordeel\b|\boordeel\b|"
-    r"\bjaarrekening\b|\bjaarstukken\b|\bgecontroleerd\b|\bhierna\b",
+    r"\bjaarrekening\b|\bjaarstukken\b|\bgecontroleerd\b",
     re.I,
 )
 

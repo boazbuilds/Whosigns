@@ -41,6 +41,27 @@ for naam in [
 ]:
     controleer(f"stuk zin: {naam[:52]!r}", beoordeel(naam) == "zin", beoordeel(naam))
 
+# --- "(hierna: X)" is geen zinsflard maar een naam ---------------------------
+#
+# Dit stond hier bijna verkeerd in. "hierna" was eerst een reden om weg te
+# gooien, en dat is gewone juridische schrijfwijze die middenin échte namen
+# staat. Deze zes komen alle uit de raadsinformatie-oogst en bestaan gewoon; ze
+# zouden met hun hele geschiedenis zijn verdwenen. Gevonden door te kijken wat
+# het script zóu weggooien, vóór het ooit had gedraaid.
+for naam in [
+    "Gemeenschappelijke Regeling Gemeenschappelijke Vuilverwerking Dordrecht en Omstreken (hierna Gevudo)",
+    "Gemeenschappelijke Regeling Delta (hierna: Delta)",
+    "Gemeenschappelijke Regeling Op/maat (hierna: Op/maat)",
+    "Onderdeel Programmabureau van de Veiligheidsregio Zuid Limburg (hierna: Programmabureau)",
+    "Onderdeel Bevolkingszorg van de Veiligheidsregio Zuid Limburg (hierna: Bevolkingszorg)",
+    "Onderdeel Burgernet van de Veiligheidsregio Zuid Limburg (hierna: Burgernet)",
+]:
+    controleer(
+        f"'(hierna: …)' blijft staan: {naam[:46]!r}",
+        beoordeel(naam) == "goed",
+        beoordeel(naam),
+    )
+
 # --- echte namen, en die moeten met rust gelaten worden ----------------------
 #
 # Deze staan allemaal in de database. Eén verkeerde treffer hier haalt een echte
