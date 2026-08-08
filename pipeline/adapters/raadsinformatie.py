@@ -213,8 +213,39 @@ def matchsleutel(naam: str) -> str:
     Daarom voor déze bron een strengere sleutel: alleen letters en cijfers.
     Bij namen van deze lengte en soortelijkheid is de kans dat twee échte
     organisaties samenvallen verwaarloosbaar.
+
+    Twee dingen worden er vooraf afgehaald, allebei omdat ze niets over
+    identiteit zeggen. Ze zijn gemeten over de volle oogst (8-8-2026, 1.575
+    namen) en voegden daar 22 namen samen tot 14 organisaties, zonder één
+    verkeerde samenvoeging:
+
+    * een plaatsaanduiding achteraan — "Gemeenschappelijke Regeling Cocensus"
+      en "Gemeenschappelijke Regeling Cocensus, te Hoofddorp" zijn hetzelfde;
+    * een per ongeluk verdubbeld eerste woord — "Gemeente Gemeente De Ronde
+      Venen", "Stichting Stichting Openbaar Onderwijs Rijn- en Heuvelland".
+
+    Wat hier bewust NIET gebeurt is het wegstrepen van woorden als "gemeente",
+    "provincie" of "gemeenschappelijke regeling". Dat lijkt dezelfde soort
+    opschoning, maar die woorden zíjn de identiteit: zonder "gemeente" en
+    "provincie" vallen Gemeente Utrecht en Provincie Utrecht samen, en Gemeente
+    Groningen en Provincie Groningen ook. Beide zijn echte, verschillende
+    gecontroleerde partijen.
+
+    Wat er dan nog overblijft is tekstschade uit de pdf: "Gemeenschappeiijke
+    Regeling Senzer", "Omgevingsdienst Veluwe I]ssel", "GGD Gelderand-Zuid".
+    Daar is geen veilige regel voor te schrijven — één letter verschil is ook
+    precies wat EMCO-groep van Felua-groep onderscheidt — dus die blijven staan
+    als aparte organisatie. Zie docs/bronverkenning-raadsinformatie.md.
     """
-    return re.sub(r"[^a-z0-9]", "", _normaliseer_kaal(naam))
+    kaal = _normaliseer_kaal(naam)
+    # "… te Hoofddorp", "…, te Meerkerk", "… te gemeente De Wolden",
+    # "…, gevestigd te Roosendaal", "… statutair gevestigd te Rotterdam"
+    kaal = re.sub(
+        r"[,.\s]+(?:statutair\s+)?(?:gevestigd\s+)?te\s+[a-z'\-. ]+$", "", kaal
+    )
+    # "gemeente gemeente de ronde venen" -> "gemeente de ronde venen"
+    kaal = re.sub(r"^(\w+)\s+\1\b", r"\1", kaal)
+    return re.sub(r"[^a-z0-9]", "", kaal)
 
 
 def _normaliseer_kaal(tekst: str) -> str:

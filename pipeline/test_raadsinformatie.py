@@ -138,6 +138,79 @@ controleer(
     != ori.matchsleutel("Veiligheidsregio Flevoland"),
 )
 
+# --- de plaats hoort niet bij de identiteit ----------------------------------
+#
+# Gemeten over de volle oogst (8-8-2026, 1.970 namen): de standaardzin schrijft
+# de vestigingsplaats soms wél en soms niet achter de naam, en dan staat één
+# regeling twee keer in de database. Deze vier schrijfwijzen komen letterlijk uit
+# de bron. Samen met de verdubbelingen hieronder voegden ze 21 namen samen tot
+# 14 organisaties — zonder één verkeerde samenvoeging.
+for links, rechts in [
+    ("Gemeenschappelijke Regeling Cocensus",
+     "Gemeenschappelijke Regeling Cocensus, te Hoofddorp"),
+    ("Recreatieschap Hitland",
+     "Recreatieschap Hitland te Nieuwerkerk aan den IJssel"),
+    ("Stichting Openbaar Primair Onderwijs Wolderwijs",
+     "Stichting openbaar primair onderwijs Wolderwijs te gemeente De Wolden"),
+    ("Stichting Openbaar Basisonderwijs West-Brabant",
+     "Stichting Openbaar Basisonderwijs West-Brabant, gevestigd te Roosendaal"),
+]:
+    controleer(
+        f"plaats achteraan telt niet mee: {rechts[:44]!r}",
+        ori.matchsleutel(links) == ori.matchsleutel(rechts),
+        f"{ori.matchsleutel(links)!r} != {ori.matchsleutel(rechts)!r}",
+    )
+
+# Een per ongeluk verdubbeld eerste woord — komt uit de aanhef die aan de naam
+# vastplakt ("Aan het bestuur van Stichting …" gevolgd door "Stichting …").
+for links, rechts in [
+    ("Gemeente De Ronde Venen", "Gemeente Gemeente De Ronde Venen"),
+    ("Stichting Openbaar Onderwijs Rijn- en Heuvelland",
+     "Stichting Stichting Openbaar Onderwijs Rijn- en Heuvelland"),
+]:
+    controleer(
+        f"verdubbeld eerste woord: {rechts[:44]!r}",
+        ori.matchsleutel(links) == ori.matchsleutel(rechts),
+        f"{ori.matchsleutel(links)!r} != {ori.matchsleutel(rechts)!r}",
+    )
+
+# --- en wat de sleutel absoluut niet mag doen --------------------------------
+#
+# De verleiding is om ook "gemeente", "provincie" en "gemeenschappelijke
+# regeling" weg te strepen — het lijkt dezelfde soort opschoning. Dat is het
+# niet: die woorden zíjn de identiteit. Zonder die rem vielen bij de meting
+# Gemeente Utrecht en Provincie Utrecht samen, en Gemeente Groningen en
+# Provincie Groningen ook. Vier echte, verschillende gecontroleerde partijen.
+#
+# Hetzelfde geldt voor één letter verschil: dat is precies wat EMCO-groep van
+# Felua-groep onderscheidt. Daarom blijft tekstschade uit de pdf
+# ("Gemeenschappeiijke", "I]ssel", "Gelderand") een aparte organisatie — liever
+# een gesplitste geschiedenis dan twee samengevoegde regelingen.
+for omschrijving, links, rechts in [
+    ("gemeente is geen provincie", "Gemeente Utrecht", "Provincie Utrecht"),
+    ("gemeente is geen provincie", "Gemeente Groningen", "Provincie Groningen"),
+    ("één letter scheidt twee regelingen",
+     "Gemeenschappelijke Regeling EMCO-groep",
+     "Gemeenschappelijke Regeling Felua-groep"),
+    ("tekstschade wordt niet stilletjes samengevoegd",
+     "Gemeenschappelijke Regeling Senzer",
+     "Gemeenschappeiijke Regeling Senzer"),
+]:
+    controleer(
+        f"{omschrijving}: {links!r} != {rechts!r}",
+        ori.matchsleutel(links) != ori.matchsleutel(rechts),
+        f"beide -> {ori.matchsleutel(links)!r}",
+    )
+
+# En de plaatsregel mag geen naam aanvreten die toevallig zo eindigt.
+controleer(
+    "'Regio Twente' verliest zijn naam niet",
+    ori.matchsleutel("Regio Twente") == "regiotwente"
+    and ori.matchsleutel("Waterschap Aa en Maas") == "waterschapaaenmaas",
+    f"{ori.matchsleutel('Regio Twente')!r} / "
+    f"{ori.matchsleutel('Waterschap Aa en Maas')!r}",
+)
+
 # --- de tekst kan als lijst binnenkomen --------------------------------------
 controleer(
     "tekst per pagina wordt samengevoegd",
