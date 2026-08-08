@@ -213,6 +213,22 @@ _ONDERTEKENING = (
     "validsigned", "ondertekend door", "digitaal ondertekend",
 )
 
+# Bewust NIET toegevoegd: de onafhankelijkheidsparagraaf ("Ons zijn geen relaties
+# bekend tussen Deloitte Accountants B.V. en haar zuster- en/of
+# dochterondernemingen"). Dat lijkt een sterk signaal — een kantoor dat zijn eigen
+# onafhankelijkheid verklaart ís de tekenaar — en het is de grootste enkele
+# oorzaak onder de bijna-treffers (18 van de 63 in een steekproef van 4.000
+# raadsstukken).
+#
+# Maar gemeten levert het bijna niets op: mét de regel erbij kwam er over diezelfde
+# 4.000 documenten één rij bij, corpusbreed dus een stuk of vijf. De reden is dat
+# zo'n bijna-treffer meestal staat bij een organisatie die haar kantoor al via een
+# ándere vermelding in hetzelfde stuk kreeg. Nul toeschrijvingen klapten om, dus
+# de regel is niet gevaarlijk — hij is alleen de moeite niet waard, en elke extra
+# regel in de definitie van "ondertekening" is een extra manier om er later naast
+# te zitten. Zie docs/bronverkenning-raadsinformatie.md voor wat er dan wél nog
+# open ligt.
+
 # Wie tekent er onder de kantoornaam? Een handtekeningblok is "kantoornaam, dan de
 # accountant met zijn titel": "CAS ZorgAccountants B.V. S.R. Snel AA", "Konings Maters
 # Accountants & Adviseurs W.M. Groothuis RA". Zonder deze regel haalden die twee de
