@@ -8,10 +8,12 @@ name: Raadsinformatie laden
 # tekstherkenning aan te pas. Vindplaats en leesregels:
 # pipeline/adapters/raadsinformatie.py.
 #
-# Gemeten (5-8-2026, droogloop over de eerste 600 documenten): 173 controles
-# bij 68 organisaties, boekjaren 2010 t/m 2023. Meer dan tienduizend documenten
-# bevatten de zoekzin, dus een volledige run duurt lang — vandaar het ruime
-# tijdslot en de mogelijkheid om met --maximum op te knippen.
+# Gemeten (8-8-2026, droogloop over de vólledige bron — alle 21.339 documenten
+# die de zoekzin bevatten): 4.057 controleopdrachten bij 1.575 organisaties,
+# boekjaren 2010 t/m 2025, en geen enkele organisatie die over hetzelfde
+# boekjaar twee verschillende kantoren toegeschreven kreeg. Zo'n doorloop duurde
+# ongeveer een half uur — vandaar het ruime tijdslot en de mogelijkheid om met
+# --maximum op te knippen.
 #
 # Deze bron opent een populatie die tot nu toe ontbrak: gemeenschappelijke
 # regelingen, omgevingsdiensten, veiligheidsregio's en recreatieschappen.
