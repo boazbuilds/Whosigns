@@ -1,0 +1,957 @@
+# whosigns-ocr v1 grootte=1062908 dpi=300 paginas=20
+1.4 Financiële positie
+
+Ter analyse van de financiële positie van de onderneming dient de volgende opstelling, die is ontleend aan de
+balans per 31 december 2019 met de overeenkomstige cijfers per 31 december 2018. Opgemerkt dient te worden
+dat de omvang van balansposten in de loop van een jaar kan fluctueren en dat de waarde per balansdatum
+aanmerkelijk kan afwijken van een willekeurig andere in het verslagjaar gekozen datum.
+
+Financiële structuur
+x 1.000
+
+Activa
+
+Materiële vaste activa
+Vorderingen
+
+Liquide middelen
+
+Passiva
+
+Eigen vermogen
+Langlopende schulden
+Kortlopende schulden
+
+x 1.000
+Op korte termijn beschikbaar
+
+Vorderingen
+Liquide middelen
+
+Kortlopende schulden
+
+Liquiditeitssaldo = werkkapitaal
+
+Vastgelegd op lange termijn
+Materiële vaste activa
+
+Gefinancierd met op lange termijn beschikbare middelen
+Financiering
+
+Eigen vermogen
+Langlopende schulden
+
+Doevenkamp B.V.
+
+31-12-2019 31-12-2018
+€ % € %
+7 4,0 12 6,9
+124 70,4 147 85,0
+45 25,6 14 8,1
+176 100,0 173 100,0
+68 38,6 -231 -133,5
+- - 239 138,2
+108 61,4 165 95,3
+176 100,0 173 100,0
+31-12-2019 31-12-2018
+€ €
+124 147
+45 14
+169 161
+-108 -165
+61 -4
+7 12
+
+68
+68 -231
+- 239
+68 8
+
+
+1.5 Fiscale positie
+
+Fiscale eenheid
+
+Doevenkamp B.V. maakt deel uit van een fiscale eenheid voor de vennootschapsbelasting met J. Booij Beheer B.V.
+waarbij J. Booij Beheer B.V. wordt aangemerkt als belastingplichtige. Onderstaand wordt de
+vennootschapsbelasting berekend voor Doevenkamp B.V. alsof zij zelfstandig belastingplichtig zou zijn.
+
+Berekening belastbaar bedrag
+
+2019
+
+€
+
+Totaal van resultaat voor belastingen 2.726
+Niet aftrekbare bedragen 10.000
+
+Belastbaar bedrag 12.726
+
+Het positief belastbaar bedrag is verrekenbaar met de in het verleden geleden fiscale verliezen van de fiscale
+eenheid.
+
+Doevenkamp B.V. 8
+
+2 Jaarrekening
+
+2.1 Balans per 31 december 2019
+
+(na voorstel resultaatverdeling)
+
+Activa
+
+Vaste activa
+Materiële vaste activa
+Andere vaste bedrijfsmiddelen
+
+Vlottende activa
+Vorderingen
+
+Vorderingen op handelsdebiteuren
+Overige vorderingen en overlopende activa
+
+Liquide middelen
+
+Doevenkamp B.V.
+
+31-12-2019 31-12-2018
+€ €
+
+7.294 11.729
+119.023 126.135
+4.627 21.031
+123.650 147.166
+45.316 14.100
+176.260 172.995
+
+
+Passiva
+
+Eigen vermogen
+
+Gestort en opgevraagd aandelenkapitaal
+Agioreserve
+
+Overige reserves
+
+Langlopende schuiden
+Schulden aan groepsmaatschappijen
+
+Kortlopende schulden
+
+Schulden aan banken
+
+Schulden aan leveranciers en handelskredieten
+
+Schulden ter zake van belastingen en premies sociale verzekeringen
+Overige schulden en overlopende passiva
+
+Doevenkamp B.V.
+
+31-12-2019 31-12-2018
+€ €
+
+18.000 18.000
+304.040 7.800
+-253.589 -256.315
+68.451 -230.515
+
+- 238.756
+
+- 51.200
+
+7.857 10.862
+11.740 23.474
+88.212 79.218
+107.809 164.754
+176.260 172.995
+
+10
+
+2.2 Winst- en verliesrekening over 2019
+
+Netto-omzet
+
+Cliëntkosten
+
+Lonen
+
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+Afschrijvingen op immateriële, materiële vaste activa en vastgoedbeleggingen
+Huisvestingskosten
+Bedrijfskosten
+Verkoopkosten
+
+Kosten vervoermiddelen
+Kantoorkosten
+
+Algemene kosten
+
+Totaal van som der kosten
+
+Totaal van bedrijfsresultaat
+Rentelasten en soortgelijke kosten
+
+Totaal van resultaat voor belastingen
+Belastingen over de winst of het verlies
+
+Totaal van resultaat na belastingen
+
+Doevenkamp B.V.
+
+2019 2018
+€ €
+919.238 1.034.135
+29.243 55.937
+318.602 351.954
+76.236 70.848
+18.100 17.883
+66.320 53.792
+„2.930 438
+335.895 353.777
+594 1.580
+2.968 -2818
+1.471 4.764
+22.770 15.225
+31.316 18.769
+900.585 938.989
+18.653 95.146
+415.927 15.648
+2.726 79.498
+2.726 79.498
+
+11
+
+2.3 Kasstroomoverzicht over 2019
+
+Totaal van kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+Afschrijvingen
+
+Verandering in werkkapitaal:
+
+Afname (tbename) van handelsdebiteuren
+Afname (toename) van overige vorderingen
+Toename (afname) van overige schulden
+
+Totaal van kasstroom uit bedrijfsoperaties
+
+Betaalde interest
+
+Totaal van kasstroom uit operationele activiteiten
+
+Totaal van kasstroom uit investeringsactiviteiten
+Verwerving van materiële vaste activa
+Ontvangsten uit hoofde van vervreemding van materiële vaste activa
+
+Totaal van kasstroom uit investeringsactiviteiten
+
+Totaal van kasstroom uit financieringsactiviteiten
+Agio in boekjaar
+
+Ontvangsten uit hoofde van leningen
+
+Uitgaven ter aflossing van leningen
+
+Toename (afname) van de schulden aan kredietinstellingen
+
+Totaal van kasstroom uit financieringsactiviteiten
+
+Totaal van toename (afname) van geldmiddelen
+
+Verloop van toename (afname) van geldmiddelen
+Geldmiddelen aan het begin van de periode
+Toename (afname) van geldmiddelen
+
+Geldmiddelen aan het einde van de periode
+
+Doevenkamp B.V.
+
+2019 2018
+
+€ €
+18.653 95.146
+1.935 438
+7.142 -11.749
+16.404 -19.268
+-5.745 -65.766
+17.771 -96.783
+38.359 -1.199
+-15.927 -15.648
+22.432 -16.847
+- -9.667
+
+2.500 -
+2.500 -9.667
+296.240 -
+57.484 29.896
+-296.240 -
+-51.200 -6,050
+6.284 23.846
+31.216 -2.668
+2019 2018
+
+€ €
+14.100 16.768
+31.216 -2.668
+45.316 14.100
+
+
+24 Algemene toelichting
+
+Informatie over de rechtspersoon
+
+Vestigingsadres en inschrijfnummer handelsregister
+
+Doevenkamp B.V. is feitelijk en statutair gevestigd op Van Boekerenweg 1, 9501 GD te Stadskanaal en is
+ingeschreven bij het handelsregister onder nummer 04067831.
+
+Algemene toelichting
+
+De belangrijkste activiteiten van de rechtspersoon
+
+De activiteiten van Doevenkamp B.V. bestaan voornamelijk uit: Het geven van psychosociale therapie, Coachen en
+begeleiden bij opvoeden, relatie, wonen, werk, reïntegratie en overige processen, Logeeropvang en begeleid
+zelfstandig wonen en 24-uur begeleiding voor jongeren met psychiatrische problematiek.
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving, die uitgegeven zijn door de Raad voor de Jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de actuele
+waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de verkrijgingsprijs.
+
+Grondslagen
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur en
+bijzondere waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief de
+transactiekosten indien materieel. Indien geen sprake is van (dis)agio en transactiekosten is de geamortiseerde
+kostprijs gelijk aan de nominale waarde van de vorderingen. Vorderingen worden na eerste verwerking gewaardeerd
+tegen de geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de
+boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende
+schulden. Liquide middeten worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening
+houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale waarde.
+
+Grondslagen voor de bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten
+en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij zijn
+gerealiseerd.
+
+Omzetverantwoording
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde projectopbrengsten uit
+hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van over de omzet geheven
+belastingen.
+
+Pensioenlasten
+
+Doevenkamp B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord. De premies worden verantwoord als personeelskosten
+zodra deze verschuldigd zijn. Vooruitbetaatde premies worden opgenomen als overlopende activa indien dit tot een
+terugstorting leidt of tot een vermindering van toekomstige betalingen. Nog niet betaalde premies worden als
+verplichting op de balans opgenomen.
+
+Doevenkamp B.V. 13
+
+Afschrijvingen op materiële vaste activa
+
+Materiële vaste activa worden vanaf het moment van gereedheid voor ingebruikneming afgeschreven over de
+verwachte toekomstige gebruiksduur van het actief. Over terreinen en vastgoedbeleggingen wordt niet
+afgeschreven.
+
+Overige bedrijfskosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking hebben.
+
+Doevenkamp B.V.
+
+2.5 Toelichting op de balans
+Activa
+
+Vaste activa
+
+Materiële vaste activa
+
+De mutaties in de materiële vaste activa kunnen als volgt worden samengevat:
+
+Stand per 1 januari 2019
+Verkrijgings- of vervaardigingsprijs
+Afschrijvingen
+
+Boekwaarde per 1 januari 2019
+
+Mutaties boekjaar
+
+Afschrijvingen
+
+Desinvesteringen
+
+Afschrijvingen op desinvesteringen
+
+Stand per 31 december 2019
+Verkrijgings- of vervaardigingsprijs
+Afschrijvingen
+
+Boekwaarde per 31 december 2019
+
+Afschrijvingspercentages
+
+De opbrengst van de desinvestering heeft € 7.365 bedragen.
+bedrag is in mindering gebracht op de afschrijvingskosten.
+
+Vlottende activa
+
+Vorderingen
+
+Vorderingen op handelsdebiteuren
+Vorderingen op handelsdebiteuren
+Voorziening dubieuze vorderingen op handelsdebiteuren
+
+Voorziening dubieuze vorderingen op handelsdebiteuren
+Stand per 1 januari
+Toevoeging ten laste van het resultaat
+
+Stand per 31 december
+
+Doevenkamp B.V.
+
+Andere vaste
+bedrijfsmid-
+delen
+
+67.486
+-55.757
+
+11.729
+
+-1.935
+-18.225
+15.725
+
+-4.435
+
+49.261
+-41.967
+
+7.294
+
+20%
+
+Hierop is een boekwinst behaald van € 4.865. Dit
+
+31-12-2019 31-12-2018
+€ €
+
+121.338 126.135
+-2.315 -
+119.023 126.135
+2019 2018
+
+€ €
+
+- 12.654
+
+2315 -12.654
+2.315 -
+
+
+Overige vorderingen en overlopende activa
+Belastingen en premies sociale verzekeringen
+Overige vorderingen
+
+Belastingen en premies sociale verzekeringen
+Pensioenen
+
+Overige vorderingen
+Nog te ontvangen schadeuitkering Aegon
+Nog te factureren
+
+Liquide middelen
+
+Kas
+
+ING
+
+Rabobank
+
+Overlopende kruisposten
+
+Doevenkamp B.V.
+
+31-12-2019 31-12-2018
+€ €
+
+740 -
+
+3.887 21.031
+4.627 21.031
+
+740 -
+
+3.726 6.391
+
+161 14.640
+
+3.887 21.031
+31-12-2019 31-12-2018
+€ €
+
+1.086 150
+30.683 -
+13.547 13.700
+
+- 250
+
+45.316 14.100
+
+16
+
+Passiva
+
+Eigen vermogen
+
+Gestort en opgevraagd aandelenkapitaal
+
+Het maatschappelijk aandelenkapitaal! bestaat uit 900 gewone aandelen van € 100.
+Hiervan zijn geplaatst 180 aandelen.
+
+Gewone aan-
+delen
+€
+Stand per 1 januari 2019 18.000
+Mutaties boekjaar -
+Stand per 31 december 2019 “718.000
+2019 2018
+€ €
+Agioreserve
+Stand per 1 januari 7.800 7.800
+Agio in boekjaar 296.240 -
+Stand per 31 december 304.040 7.800
+Overige reserves
+Stand per 1 januari -256.315 -335.813
+Uit resultaatverdeling 2.726 79,498
+Stand per 31 december -253.589 -256.315
+
+Doevenkamp B.V. 17
+
+Langlopende schulden
+
+Schulden aan groepsmaatschappijen
+Rekening-courant J. Booij Beheer B.V.
+
+Rekening-courant J. Booij Beheer B.V.
+Stand per 1 januari
+Hoofdsom
+
+Saldo per 1 januari
+
+Mutaties boekjaar
+Verhoging
+Omzetting in Agio
+
+Saldo mutaties boekjaar
+
+Stand per 31 december
+Hoofdsom
+Cumulatieve aflossing
+
+Saldo per 31 december
+
+Rentepercentage
+
+31-12-2019 31-12-2018
+€ €
+
+- 238.756
+
+2019 2018
+
+€ €
+238.756 208.860
+238.756 208.860
+57.484 29.896
+-296.240 ei
+-238.756 29.896
+296.240 238.756
+-296.240 -
+- 238.756
+
+5% 5%
+
+Over de gemiddelde stand van de rekening-courant wordt 5% rente berekend (2018: 5%).
+
+Doevenkamp B.V.
+
+Kortlopende schulden
+
+Schulden aan banken
+Schulden aan banken
+
+Schulden aan leveranciers en handelskredieten
+Crediteuren
+
+Schulden ter zake van belastingen en premies sociale verzekeringen
+Loonheffing
+Pensioenen
+
+Overige schulden en overlopende passiva
+Reservering vakantiedagen
+
+Reservering vakantiegeld
+
+Nog te betalen boete Inspectie Gezondheidszorg
+Nettolonen
+
+Overige schulden
+
+Nog te betalen kosten
+
+Doevenkamp B.V.
+
+31-12-2019 31-12-2018
+€ €
+
+- 51.200
+
+7.857 10.862
+11.740 21.123
+- 2.351
+11.740 23.474
+31.327 44.822
+16.215 19.718
+10.000 -
+8.765 9.951
+21.905 3.949
+- 778
+88.212 79.218
+
+19
+
+Niet in de balans opgenomen rechten, verplichtingen en regelingen
+
+Informatieverschaffing over niet in de balans opgenomen verplichtingen
+
+De vennootschap heeft een huurcontract afgesloten voor het gebruik van verschillende panden.
+
+De hieruit voortvloeiende jaarlijkse verplichting bedraagt € 294.711, waarvan € 216.000 wordt doorbelast vanuit J.
+Booij Beheer B.V. wegens het gebruik van het onroerend goed te Nieuw Buinen en Stadskanaal.
+
+De vennootschap heeft een managementovereenkomst afgesloten met J. Booij Beheer B.V. Vanwege de verlaging
+van het gebruikelijk loon van mevrouw Booij in J. Booij Beheer B.V. is deze voor 2018 en 2019 voorlopig vastgesteld
+op nihil. De verplichting voor het komende boekjaar is nog afhankelijk van het standpunt vanuit de Belastingdienst
+inzake het gebruikelijk loon van mevrouw Booij.
+
+De Inspectie Gezondheidszorg en Jeugd is voornemens een dwangsom op te leggen met een maximum van
+€ 10.000 in verband met het niet conform wettelijke voorschriften deponeren van de Jaarverantwoording Zorg over
+het verslagjaar 2018.
+
+Niet in de balans opgenomen verplichtingen inzake aansprakelijkheidsstellingen
+Ten behoeve van de kredietverstrekker is door de vennootschap een compte-joint- en
+medeaansprakelijkheidsovereenkomst afgegeven.
+
+Dit betreft de kredieten verstrekt aan:
+
+- J. Booij Beheer B.V.
+
+- Doevenkamp B.V.
+
+De niet in de balans opgenomen verplichtingen inzake de fiscale eenheid
+
+De vennootschap maakt deel uit van een fiscale eenheid voor de vennootschapsbelasting en omzetbelasting,
+waarbij als belastingplichtige vennootschap is aangemerkt J. Booij Beheer BV, gevestigd te Assen. Uit dien hoofde
+is de vennootschap hoofdelijk aansprakelijk voor de vennootschapsbelasting en omzetbelasting die door
+voornoemde vennootschap dient te worden voldaan.
+
+Gebeurtenissen na balansdatum
+
+De verwachting is dat de gevolgen van het coronavirus COVID-19 een beperkte impact zal hebben op de continuïteit
+van de onderneming.
+
+Doevenkamp B.V. 20
+
+2.6 Toelichting op de winst- en verliesrekening
+
+Netto-omzet
+Omzet dienstverlening
+
+Cliëntkosten
+Inkoopwaarde van de omzet
+
+Lonen
+
+Brutolonen
+
+Ontvangen ziekengeld
+
+Mutatie reservering vakantiegeld
+
+Gemiddeld aantal werknemers (FTE)
+2019
+
+Gemiddeld aantal werknemers
+
+2018
+
+Gemiddeld aantal werknemers
+
+Sociale lasten
+Premies sociale verzekeringen
+
+Pensioenlasten
+Pensioenlasten
+
+Overige personeelskosten
+Reiskostenvergoeding woon-werk
+Ziekengeldverzekering
+Arbodienst
+
+Studie en opleidingskosten
+Overige personeelskosten
+
+Afschrijvingen materiële vaste activa
+Andere vaste bedrijfsmiddelen
+Boekwinst vervoermiddelen
+
+Doevenkamp B.V.
+
+2019 2018
+€ €
+919.238 1.034.135
+2019 2018
+€ €
+29.243 55.937
+390.640 406.899
+-88.758 -59.914
+16.720 4.969
+318.602 351.954
+Aantal
+13,70
+Aantal
+13,76
+2019 2018
+€ €
+76.236 70.848
+18.100 17.883
+29.762 34.373
+26.782 14.959
+3.007 3.360
+1.558 -
+5.211 1.100
+66.320 53.792
+1.935 438
+-4.865 -
+-2.930 438
+
+21
+
+Huisvestingskosten
+Betaalde huur intern
+Betaalde huur extern
+
+Gas, water en elektra
+Vaste lasten
+
+Onderhoud gebouwen
+Schoonmaakkosten
+Overige huisvestingskosten
+
+Bedrijfskosten
+Kleine aanschaf inventaris
+Kosten Maatschappelijk restaurant
+
+Verkoopkosten
+
+Dotatie voorziening dubieuze vorderingen op handelsdebiteuren
+Reclame- en advertentiekosten
+
+Afboeking dubieuze vorderingen op handelsdebiteuren
+
+Kosten vervoermiddelen
+Personenbus
+Boetes en bekeuringen
+
+Kantoorkosten
+Telefoon- en faxkosten
+Administratie
+
+Kosten automatisering
+Overige kantoorkosten
+Kantoorbenodigdheden
+Incassokosten
+
+Porti
+
+Algemene kosten
+Accountantskosten
+
+Naheffing belastingen
+Abonnementen en contributies
+Advieskosten
+
+Advocaatkosten
+
+Afboeking crediteuren
+Overige algemene kosten
+
+Doevenkamp B.V.
+
+2019 2018
+€ €
+216.000 216.000
+55.831 78.607
+41.873 40.526
+10.666 8.427
+7.506 6.476
+970 1.273
+3.049 2.468
+335.895 353.777
+594 -1.465
+
+- -115
+
+594 -1.580
+2.315 -12.654
+653 881
+
+- 8.955
+
+2.968 -2.818
+1.471 4.699
+
+- 65
+
+1.471 4.764
+11.321 10.582
+5.000 2.727
+2.939 -
+1.109 175
+981 874
+965 491
+455 376
+22.770 15.225
+13.931 2.948
+3.263 -
+1.134 1.053
+2.800 22.009
+
+- 73
+
+- -7.438
+10.188 124
+31.316 18.769
+
+22
+
+Rentelasten en soortgelijke kosten
+Rente schulden groepsmaatschappijen
+Betaalde bankrente
+
+Rente schulden groepsmaatschappijen
+Rente rekening-courant J. Booij Beheer B.V.
+
+Stadskanaal, 25 september 2020
+
+J. Booij
+Vertegenwoordigd door:
+J. Booij Beheer B.V.
+
+De directie
+
+Doevenkamp B.V.
+
+2019 2018
+€ €
+13.049 11.229
+2.878 4,419
+15.927 15.648
+13.049 11.229
+
+23
+
+Bijlagen
+
+1. Overzicht van materiële vaste activa
+
+Doevenkamp B.V.
+
+24
+
+Overzicht van materiële vaste activa
+
+Aanschafwaarde Afschaijvingen Boekwaarde
+Aanschaf. Desinves- vm Boek-
+datum 1-1-2019 _ Investeringen teringen 31-12-2019  _Perjaar 1-1-2019 2019 resultaat 1-1-2019 31-12-2019
+€ € € € % € € € € €
+Goodwill
+Goodwill 30-05-2005 61 284 - - 61.284 10-AW 61 284 = 61284 z - -
+61 234 - - 61 284 61.284 - 61.284 - - -
+Bedrijfsinventaris
+Software Account View Salo 14-12-2003 1046 - - 1046 33,33-AW 1.046 - 1046 - -
+Ptafonds en scheidingswanden 17-08-2004 2724 - - 2724 20-AW 2724 - 2724 - -
+Vloerbedekking 15-09-2004 3067 - - 3.067 20-AW 3067 - 3067 - -
+Brandbeveiligingssysteem 29-10-2004 4.766 - - 4 766 20-AW 4.766 - 4.766 - -
+Inrichting Emmen 26-01-2007 3641 - - 3,641 20-AW 3641 - 3641 . -
+Zitmaaijer nieuw 28-08-2007 3892 - - 3892 20-AW 3892 - 3892 - - -
+Inrichting Nieuw Buinen 01-09-2007 3798 - - 3.798 20-AW 3798 - 3.798 - E hd
+Fornuis Nieuw Buinen 22-12-2008 3700 - - 3.700 20-AW 3.700 - 3.700 - - -
+Aanpassing gebouw Boermarkeweg 01-04-2009 9783 - - 9783 20-AW 9783 - 9783 . - -
+Emmen
+Wasmachine en wasdroger 15-11-2011 856 - - 856 20-AW 856 - 856 - - .
+Wasmachine LG DD1411 29-03-2012 816 - - 816 20-AW 816 - 816 - - -
+Verduisteringsgordijnen 25-04-2012 1505 - - 1.505 20-AW 1505 - 1.505 . - -
+Wasmachine + koelvriescombinatie 28-02-2018 634 - - 64 20-AW 17 127 244 - 517 390
+Wasmachine, fornuis, koetvescomb. 17-40-2018 1015 Ee - 1015 20-AW 51 203 254 - 964 761
+Aanleg Wifi 18-10-2018 4070 - hd 4.070 20-AW 204 815 1018 - 3866 3.051
+Aanleg camera's 18-12-2018 3.948 - z 3948 20-AW 66 790 856 - 3882 3.092
+49 261 - - 49.261 40 032 1935 41967 . 9229 1294
+Vervoermiddelen
+Renault Trafic Komt: 18-07-2011 18.225 z 7365 - 20-AW 15725 z - 4.865 2500 -
+18.225 - 7365 - 15.725 - el 4865 2500 -
+128.770 B 7.365 110.545 117043 1935 4 B65 11729 7294
+eee an Ee ae
+
+Doevenkamp B.V. 25
+
+Colofon
+
+de Jong & Laan
+
+accountants belastingadviseurs
+Amerikaweg 8
+
+9407 TK Assen
+
+0592-31 40 28
+assen@jonglaan.nl
+www.jonglaan.nl
+
+dh
+
+De Jong & Laan Accountants B.V, gevestigd te Almelo, K.v.K. 06054458. Op al onze diensten en zijn onze van Deze S RA CPAAI
+voorwaarden zijn gedeponeerd bij de KvK Oost Nederland te Enschede onder nr 08153431, zijn in le zien op www.jonglaan.nl en worden op verzoek kosteloos toegezonden es à
+
