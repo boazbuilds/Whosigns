@@ -301,13 +301,31 @@ def verklaringen_uit(tekst: str, bron: dict | None = None) -> list[dict]:
         verklaring["venster"] = (max(0, verklaring["positie"] - 800), volgende)
 
     # Dezelfde organisatie en hetzelfde boekjaar twee keer in één document is
-    # een herhaling (bijlage plus samenvatting); één regel volstaat.
-    uit: list[dict] = []
-    gezien: set[tuple[str, int]] = set()
+    # een herhaling (bijlage plus samenvatting); één regel volstaat. Maar wélke
+    # van de twee je houdt maakt uit, en dat is niet vanzelfsprekend.
+    #
+    # Een raadsbundel noemt de jaarrekening vaak eerst in de aanbiedingsbrief en
+    # dan nog eens in de bijgevoegde verklaring zelf. Het venster van elke
+    # vermelding loopt tot aan de vólgende vermelding, dus het venster van die
+    # eerste eindigt precies waar de échte verklaring begint — vlák vóór het
+    # handtekeningblok. Wie simpelweg de eerste houdt, houdt dus de vermelding
+    # zónder handtekening over.
+    #
+    # Daarom de vermelding met het langste venster. Dat blijft veilig: elk
+    # venster is al begrensd door de eerstvolgende verklaring in het document,
+    # welke organisatie die ook betreft, dus een langer venster kan nooit de
+    # handtekening van de buurman opslokken.
+    beste: dict[tuple[str, int], dict] = {}
     for verklaring in ruw:
         sleutel = (verklaring["organisatie"].lower(), verklaring["boekjaar"])
-        if sleutel in gezien:
-            continue
-        gezien.add(sleutel)
-        uit.append(verklaring)
-    return uit
+        vorige = beste.get(sleutel)
+        if vorige is None or _vensterlengte(verklaring) > _vensterlengte(vorige):
+            # dict houdt de invoegvolgorde aan, dus vervangen laat de plaats
+            # van de eerste vermelding in het document intact.
+            beste[sleutel] = verklaring
+    return list(beste.values())
+
+
+def _vensterlengte(verklaring: dict) -> int:
+    begin, eind = verklaring["venster"]
+    return eind - begin

@@ -91,6 +91,35 @@ controleer(
     "Flynth" in tweede_venster,
 )
 
+# --- dezelfde verklaring twee keer in één bundel -----------------------------
+#
+# Een raadsbundel noemt de jaarrekening vaak eerst in de aanbiedingsbrief en dan
+# nog eens in de bijgevoegde verklaring zelf. Beide keren staat dezelfde zin, dus
+# het is één verklaring — maar wélke van de twee je houdt maakt uit. Het venster
+# van elke vermelding loopt tot aan de volgende, dus dat van de eerste eindigt
+# precies waar de échte verklaring begint: vlák vóór het handtekeningblok. Wie de
+# eerste houdt, houdt de vermelding zonder handtekening over.
+HERHALING = (
+    "Aanbiedingsbrief aan de raad\n"
+    "Wij hebben de jaarrekening 2019 van de gemeente Testdorp gecontroleerd.\n"
+    + "vulling " * 60
+    + "Bijlage 3: controleverklaring van de onafhankelijke accountant\n"
+    "Wij hebben de jaarrekening 2019 van de gemeente Testdorp gecontroleerd.\n"
+    + "vulling " * 120
+    + "Utrecht, 3 juni 2020 Deloitte Accountants B.V. was getekend\n"
+)
+uit = ori.verklaringen_uit(HERHALING)
+controleer(
+    "een herhaalde verklaring levert één regel op",
+    len(uit) == 1 and uit[0]["boekjaar"] == 2019,
+    f"gevonden: {[(v['organisatie'], v['boekjaar']) for v in uit]}",
+)
+controleer(
+    "en dat is de vermelding mét het handtekeningblok in het venster",
+    uit and "Deloitte" in HERHALING[uit[0]["venster"][0] : uit[0]["venster"][1]],
+    "het venster van de gekozen vermelding houdt op vóór de handtekening",
+)
+
 # --- een onmogelijk jaartal -------------------------------------------------
 controleer(
     "een jaarrekening over 2077 bestaat niet",
