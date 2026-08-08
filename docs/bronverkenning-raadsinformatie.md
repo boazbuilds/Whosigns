@@ -215,6 +215,43 @@ Beide keren zag de naam eruit als een alias en was hij het niet:
 Dat is ook de reden dat *Witlox VCS audit B.V.* (Breda) níét aan HLB Witlox Van
 den Boomen (Gemert) is gekoppeld: een gedeelde achternaam is geen bewijs.
 
+### Wat het opleverde
+
+Voor en na, over alle 21.339 documenten in één doorloop, zodat elk venster met
+beide kantorenlijsten is beoordeeld:
+
+    paren: oud 3.933, nieuw 4.057
+    ERBIJ 124 | WEG 0 | OMGEKLAPT 0
+
+Die laatste twee tellen zwaarder dan de eerste. Nul rijen verdwenen, en geen
+enkele organisatie kreeg over hetzelfde boekjaar ineens een ánder kantoor
+toegeschreven — dat is de fout die je met een ruimere kantorenlijst riskeert, en
+hij is uitgebleven.
+
+| kantoor | rijen erbij |
+|---|---|
+| EY Accountants B.V. | 29 |
+| BDO Audit & Assurance B.V. | 24 |
+| Wijs Accountants | 14 |
+| Horlings Accountants & Belastingadviseurs B.V. | 12 |
+| Kalnenek Accountants | 8 |
+| Ipa-Acon Assurance B.V. | 8 |
+| DRV Accountants & Adviseurs | 7 |
+| Davvero Accountants, RDR Accountants | 4 elk |
+| KroeseWevers Audit B.V., Ruitenburg Audit B.V. | 3 elk |
+| HD Accountants B.V., Pyxis Audit, Coöperatie ConFirm U.A. | 2 elk |
+| Kaap Hoorn, Schagen Lensen & van Krieken | 1 elk |
+
+**53 van de 124 rijen zijn EY en BDO** — twee kantoren die allang in het register
+staan en die niets anders mankeerde dan een verhaspeld leesteken. Dat is de
+nuchtere les van deze meting: de grootste winst zat niet in het opsporen van
+onbekende kantoren maar in het herkennen van bekende.
+
+Voor de volledigheid: de 3.933 hierboven is hóger dan de 3.784 uit de tabel
+bovenaan. Dat verschil komt van de verbeterde `matchsleutel` uit dezelfde ronde,
+die tussen beide metingen in ging. De 124 hierboven zijn dus zuiver de winst van
+de kantorenlijst, gemeten op één en dezelfde uitgangspositie.
+
 ## Uitbreiden
 
 De zoekzin is nu de Nederlandse standaardformulering. Een tweede zin die
