@@ -1,0 +1,1009 @@
+# whosigns-ocr v1 grootte=13683967 dpi=300 paginas=20
+Cond-ALL
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Accountantsrapport
+
+Kengetallen
+{in euro's)
+
+2019 2018
+Liquiditeit (current ratio)
+
+De liquiditeit van een onderneming wordt uitgedrukt in een verhoudingscijfer,
+waarbij de vlottende activa worden gedeeld door de kortlopende schulden.
+Dit cijfer geeft aan in welke mate op korte termijn aan de financiële
+verplichtingen kan worden voldaan zonder dat de continuïteit van de
+onderneming in gevaar wordt gebracht. In het algemeen wordt een norm van
+1,5 voldoende geacht. Er zijn echter overige factoren waarmede rekening
+dient te worden gehouden. Voorbeelden zijn de mate van winstgevendheid,
+de aard van de bedrijfsactiviteiten, de kwaliteit van de vlottende activa en de
+looptijd ten opzichte van de looptijd van de kortlopende schulden en de
+seizoensinvloeden.
+
+vlottende activa
+kortlopende schulden
+
+Solvabiliteit
+
+De solvabiliteit geeft aan in welke mate een onderneming op langere termijn
+in staat moet worden geacht haar verplichtingen jegens derden te kunnen
+voldoen. Indien het eigen vermogen wordt uitgedrukt in een verhouding tot
+het totale vermogen geldt dat de norm 33 1/3% (of meer) is. Indien het eigen
+vermogen wordt gesteld tegenover het vreemde vermogen, geldt dat de
+norm 50% (of hoger) is.
+
+eigen vermogen
+totaal vermogen
+
+x 100% 23,7% 35,0%
+
+eigen vermogen
+vreemd vermogen
+
+x 100% 31,1% 53,8%
+
+Netto werkkapitaal in procenten van het kort vreemd vermogen
+
+Onder het netto-werkkapitaal wordt verstaan het totaal van het eigen
+vermogen plus lang vreemd vermogen minus de vaste activa. Het toont
+hoeveel investeringsruimte aanwezig is of hoeveel lang vreemd vermogen
+beschikbaar is voor de financiering van de vlottende activa. Het werkkapitaal
+kan ook worden uitgedrukt als het saldo van de vlottende activa minus de
+vlottende schulden. Het werkkapitaal is uitgedrukt in procenten van het kort
+vreemd vermogen. Een positief getal geeft aan dat tegenover de direct
+opeisbare verplichtingen ten minste evenveel kortlopende activa staan.
+
+werkkapitaal
+
+kort vreemd vermogen x 100% 31,1% 53,8%
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 11 van 36
+
+Con4-Au
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Accountantsrapport
+
+Kengetallen
+{in euro's)
+2019 2018
+Interest coverage ratio
+De interest coverage ratio geeft aan in hoeverre het bedrijfsresultaat zekerheid
+biedt de te betalen rente aan het vreemde vermogen te voldoen. Indien de
+waarde 4 of hoger is, dan is dat een bevredigend niveau.
+
+bedrijfsresultaat
+rentelasten
+
+161,2 103,1
+
+Rentabiliteit na belastingen van het eigen vermogen
+
+Met dit kengetal kan de winstgevendheid van het geïnvesteerde eigen
+vermogen bepaald worden. Het kengetal komt tot stand door het
+nettoresultaat na belastingen te relateren aan het eigen vermogen.
+
+nettoresultaat na belastingen
+
+eigen vermogen 20,0% 36,7%
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 12 van 36
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Balans per 31 december 2019
+(na resultaatbestemming)
+
+ACTIEF
+
+Con4-ALL
+
+(in euro's)
+
+VLOTTENDE ACTIVA
+Vorderingen en overlopende activa
+
+Vorderingen op handelsdebiteuren
+Belastingen en sociale lasten
+Overlopende activa
+
+Liquide middelen
+
+(Samenstellingsverklaring afgegeven)
+
+31 december 2019
+
+188.984
+680
+219.105
+408.769
+153.418
+
+562.187
+
+31 december 2018
+
+79.742
+149.009
+228.751
+76.626
+
+305.377
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 13 van 36
+
+Con4-ALL
+
+PASSIEF
+(in euro's)
+31 december 2019 __ 31 december 2018
+Eigen vermogen
+Gestort en opgevraagd kapitaal Ì l
+Algemene reserve 133.441 106.804
+133.442 106.805
+Kortlopende schulden en overlopende
+passiva
+Groepsmaatschappijen 274.924 68.008
+Crediteuren 115.916 86.696
+Belastingen en sociale lasten 4,930 -
+Overige schulden 2.997 -
+Overlopende passiva 29.978 43.868
+428.745 198.572
+
+562.187 305.377
+
+Door de directie opgesteld op 13 mei 2020 te Emmen en ter vaststelling voor te leggen aan de algemene
+
+vergadering,
+Bosma Beheer B.V, vertegenwoordigd door: Roozeboom Beheer B.V. vertegenwoordigd door:
+N. Bosma, directeur L.A. Roozeboom-van Dorrestein, directeur
+
+/
+
+De raad van commissarissen heeft de jaarrekening 2019 goedgekeurd in de algemene vergadering
+d.d. 19 mei 2020,
+
+C.A. Bredie
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 14 van 36
+
+Con4-AuL
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Winst-en-verliesrekening 2019
+
+(in euro's)
+2019 2018
+
+Netto-omzet 1.705.759 1.661.518
+
+Kostprijs van de omzet -/-174.373 -/-132.472
+
+Brutomarge 1.531.386 1.529.046
+Salarissen en sociale lasten 644.353 657.675
+Afschrijvingskosten 23.100 24.226
+
+Overige bedrijfskosten 830.573 797.674
+
+Som der bedrijfskosten 1.498.026 1.479.575
+Bedrijfsresultaat 33.360 49,471
+Rentelasten en soortgelijke kosten -/-207 -/-480
+
+Financiële baten en lasten -/-207 -/-480
+Resultaat voor belasting 33.153 48.991
+Belastingen -/-6.516 -/-9.798
+Nettoresultaat na belastingen 26.637 39.193
+
+(Samenstellingsverklaring afgegeven)
+
+|
+|
+B-Poînt Klepel B.V. accountantsrapport 2019 pagina 15 van 36
+
+Con4-Au
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Algemene toelichting en grondslagen
+voor financiële verslaggeving
+
+Informatie over de rechtspersoon
+Naam
+B-Point Klepel B.V.
+
+Rechtsvorm
+Besloten vennootschap met beperkte aansprakelijkheid
+
+Zetel
+Emmen
+
+Registratienummer bij de Kamer van Koophandel
+61868612
+
+Classificatie op basis van de wettelijke groottecriteria
+
+Klein
+
+Bedrijfsactiviteiten
+
+De organisatie heeft als SBl-code 87901 en verricht met name activiteiten op het gebied van:
+De opvang van kinderen en jongeren met gedrag en/of psychische problematiek.
+
+Vestigingsadres
+
+Klepel 229
+7811 KS Emmen
+
+Groepsverhoudingen
+
+Algemeen
+
+Aan het hoofd van de groep staat Bosma Beheer B.V. en Roozeboom Beheer B.V. Beide vennootschappen
+zijn voor 50% vennoot in VOF B-Point Management. Deze vennootschap onder firma is 100% aandeelhouder
+van B-Point Holding B.V. welke 100% aandeelhouder is van B-Point Klepel B.V, B-Point Friesestraat B.V. en B-
+Point Julianastraat B.V.
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 16 van 36
+
+Con4ALL
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Algemene toelichting en grondslagen
+voor financiële verslaggeving
+
+Algemene grondslagen voor verslaggeving
+
+Algemeen
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi.
+Voor de uitvoering van de Wet Normering Topinkomens (WNT) heeft de instelling zich gehouden aan de wet-
+en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Activa en verplichtingen worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs
+of de actvele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats
+tegen de verkrijgingsprijs.
+
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten
+
+opzichte van het voorgaande jaar, met uitzondering van de toegepaste stelsel- en schattingswijzigingen
+zoals opgenomen in de desbetreffende paragrafen.
+
+Schattingswijzigingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt het bestuur zich
+verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de jaarrekening opgenomen
+bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste inzicht noodzakelijk is, is de
+aard van deze oordelen en schattingen inclusief de bijbehorende veronderstellingen opgenomen bij de
+toelichting op de desbetreffende jaarrekeningposten.
+
+Grondslagen voor de waardering van activa en passiva
+Activa en passiva
+
+Alle activa en passiva worden gewaardeerd tegen nominale waarde, tenzij anders vermeld.
+
+Vorderingen en overlopende activa
+
+De vorderingen op korte termijn worden gewaardeerd tegen de nominale waarde, zonodig onder aftrek
+van een voorziening uit hoofde van oninbaarheid. In de cijfermatige opstelling is een specificatie
+opgenomen van de vorderingen, die een looptijd van langer dan één jaar hebben.
+
+Liguide middelen
+
+De liguide middelen staan, voor zover niet anders vermeld, ter vrije beschikking van de onderneming en
+betreffen de direct opeisbare vorderingen op kredietinstellingen en kasmiddelen.
+
+Reserves
+
+Algemene reserve
+De algemene reserve betreft de in het verleden toegerekende winsten, welke ter vrije beschikking staan
+voor de Algemene Vergadering van Aandeelhouders.
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 17 van 36
+
+Con4-AL
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Algemene toelichting en grondslagen
+voor financiële verslaggeving
+
+Kortlopende schulden en overlopende passiva
+
+De kortlopende schulden en overlopende passiva betreffen schulden met een looptijd van ten hoogste één
+jaar en worden - voor zover niet anders vermeld - gewaardeerd tegen nominale waarde.
+
+Grondslagen voor de bepaling van het resultaat
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over de periode. De resultaten op transacties worden verantwoord in de periode
+waarin ze zijn gerealiseerd; verliezen kunnen al gerealiseerd worden zodra ze voorzienbaar zijn.
+
+Omzetverantwoording
+
+Omzet wordt verantwoord tegen de reële waarde van de ontvangen vergoeding of vordering onder aftrek
+van verleende kortingen en omzetbelastingen. De vennootschap verantwoordt de omzet op het moment
+dat de waarde van de vergoeding op betrouwbare wijze kan worden bepaald en het waarschijnlijk is dat
+de toekomstige economische voordelen naar de vennootschap zullen vloeien. De opbrengsten uit hoofde
+van levering van diensten worden verwerkt naar rato van de prestaties die op de verslagdatum zijn verricht.
+
+Netto-omzet
+
+Onder netto omzet wordt verstaan de aan derden in rekening gebrachte bedragen, exclusief
+omzetbelasting, voor geleverde goederen en diensten.
+
+Kostprijs van de omzet
+
+Onder kostprijs van de omzet wordt verstaan de aan de netto omzet direct toe te rekenen verbruikte
+grondstoffen alsmede kosten van fabricage tegen inkoopwaarde, dan wel bij handelsgoederen de directe
+inkoopwaarde. Tevens zijn, indien van toepassing, inbegrepen de afwaardering van voorraden tot lagere
+marktwaarde, alsmede getroffen voorzieningen voor incourante voorraden.
+
+Salarissen en sociale lasten
+
+Lonen, salarissen, sociale lasten en pensioenlasten worden op grond van de arbeidsvoorwaarden verwerkt
+in de winst-en-verliesrekening voor zover ze verschuldigd zijn aan werknemers.
+
+Afschrijvingskosten
+
+De afschrijvingskosten op vaste activa worden berekend door middel van vaste percentages van de
+aanschafwaarde, respectievelijk bestede kosten, gebaseerd op de verwachte economische levensduur,
+conform de grondslagen, welke zijn opgenomen onder de waarderingsgrondslagen.
+
+Overige bedrijfskosten
+
+De overige bedrijfskosten worden toegerekend aan de periode waarop ze betrekking hebben.
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 18 van 36
+
+Con4-Au
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Algemene toelichting en grondslagen
+voor financiële verslaggeving
+
+Rentelasten en soortgelijke kosten
+
+Rentelasten en soortgelijke kosten worden tijdsevenredig verwerkt, rekening houdend met de effectieve
+rentevoet.
+
+Belastingen
+
+Als belastingen over het resultaat wordt verantwoord de over het resultaat berekende
+vennootschapsbelasting op basis van het geldende tarief, rekening houdend met vrijgestelde
+winstbestanddelen, investerings- en overige faciliteiten.
+
+Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht wordt opgesteld volgens de indirecte methode.
+De geldmiddelen in het kasstroomoverzicht bestaan uit liquide middelen en vlottende effecten. De effecten
+kunnen worden beschouwd als zeer liquide beleggingen.
+
+Kasstromen in vreemde valuta worden omgerekend tegen een geschatte gemiddelde koers.
+Koersverschillen inzake geldmiddelen worden afzonderlijk in het kasstroomoverzicht getoond.
+
+Winstbelastingen, ontvangen interest en ontvangen dividenden worden opgenomen onder de
+operationele kasstroom. Betaalde interest en betaalde dividenden worden opgenomen onder de
+financieringskasstroom. Betaalde interest kan ook onder de operationele kasstroom worden opgenomen.
+
+De verkrijgingspriĳjs van verworven groepsmaatschappijen wordt opgenomen onder de
+investeringskasstroom, voor zover betaling in geldmiddelen heeft plaatsgevonden. Hierbij worden
+geldmiddelen aanwezig in deze groepsmaatschappijen afgetrokken van de aankoopprijs.
+
+Transacties waarbij geen ruil van geldmiddelen plaatsvindt, waaronder financiële leasing, worden niet in
+het kasstroomoverzicht opgenomen. De betaling van de leasetermijnen uit hoofde van het financiële
+leasecontract wordt voor het gedeelte dat betrekking heeft op de aflossing als een uitgave uit
+financieringsactiviteiten aangemerkt en voor het gedeelte dat betrekking heeft op de interest als een
+uitgave uit operationele activiteiten.
+
+(Samenstellingsverklaring afgegeven)
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 19 van 36
+
+Cond-AuL
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Toelichting op de balans
+
+(in euro's)
+
+VLOTTENDE ACTIVA
+Vorderingen en overlopende activa
+
+Recapitulatie van de vorderingen en overlopende activa 31-12-2019 31-12-2018
+Vorderingen op handelsdebiteuren 188.984 79.742
+Belastingen en sociale lasten 680 -
+Overlopende activa 219.105 149.009
+
+408.769 228.751
+
+Nadere specificatie van de vorderingen en overlopende activa
+Vorderingen op handelsdebiteuren
+Handelsdebiteuren 188.984 79.742
+
+Belastingen en sociale lasten
+Te vorderen pensioenpremies 680 -
+
+Overlopende activa
+
+Nog te ontvangen omzet 169.014 97.179
+Vooruitbetaalde huur 5.106 6.870
+Betaalde borg gehuurde panden 43.975 43.975
+Vooruitbetaalde reclamekosten 1.010 985
+
+219.105 149.009
+Liquide middelen 31-12-2019 31-12-2018
+Kas 7.000 5.959
+ING Bank N.V. 18.536 9.787
+ABN-AMRO rek. crt „386 846 1.966
+ABN depo „315 94.786 8.664
+ABN Spaar 752 32.250 50.250
+
+153.418 76.626
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 20 van 36
+
+Con4-Au.
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Toelichting op de balans
+
+(in euro's)
+PASSIVA
+
+Eigen vermogen
+
+Recapitulatie van het eigen vermogen 31-12-2019 31-12-2018
+Gestort en opgevraagd kapitaal l 1
+Algemene reserve 133.441 106.804
+
+133.442 106.805
+
+Nadere specificatie en verloop van het eigen vermogen
+
+Gestort en opgevraagd kapitaal 2019 2018
+Stand 1 januvari l 1
+Stand 31 december 1 1
+
+specificatie van het aandelenkapitaal
+
+Maatschappelijk kapitaal Geplaatst kapitaal
+Nominale Aantal Maden waaren Geen Waarde van
+geplaatst en geplaatst en volgestort 5
+waarde per aandelen per de plaatsing
+Sede Ean volgestort op volgestort op gedurende de dari
+31-12-2019 31-12-2018 periode g
+Gewone aandelen 0,01 100 100 100 - -
+100 100 100 - -
+Algemene reserve 2019 2018
+Stand 1 januari 106.804 106.804
+Nettoresultaat na belastingen 26.637 39.193
+Uit te keren dividend - -/-39.193
+Stand 31 december 133.441 106.804
+Resultaatbestemming
+Voorstel
+
+De directie heeft voorgesteld om de winst na belasting, ad € 26.637, toe te voegen aan de algemene
+reserve. Vooruitlopend op een daartoe strekkend besluit van de algemene vergadering is dit voorstel in de
+jaarrekening verwerkt.
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 21 van 36
+
+Con4-ALL
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Toelichting op de balans
+
+(in euro's)
+
+Kortlopende schulden en overlopende passiva
+
+Recapitulatie van de kortlopende schulden en overlopende passiva 31-12-2019 31-12-2018
+Groepsmaatschappijen 274.924 68.008
+Crediteuren 115.916 86.696
+Belastingen en sociale lasten 4,930 -
+Overige schulden 2.997 -
+Overlopende passiva 29.978 43.868
+
+428.745 198.572
+
+Nadere specificatie van de kortlopende schulden en overlopende passiva
+Groepsmaatschappijen
+R/C B-Point Holding BV 274.924 68.008
+
+Crediteuren
+Crediteuren 115.916 86.696
+
+Belastingen en sociale lasten
+Af te dragen loonheffing 4,930 -
+
+Overige schulden
+Reservering vakantiegeld 2.997 -
+
+Overlopende passiva
+
+Vooruitontvangen omzet 2.192 -
+Nog te betalen personeelskosten 21.366 25.449
+Nog te betalen huisvestingskosten - 11.499
+Nog te betalen algemene kosten 6.420 6.420
+Ontvangen borg verhuurde woning - „00
+
+29.978 43.868
+
+(Samenstellingsverklaring afgegeven)
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 22 van 36
+
+Con4-ALt
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Niet in de balans opgenomen
+verplichtingen
+
+Huurverplichtingen
+
+Door de vennootschap B-Point Klepel B.V. zijn de volgende huurverplichtinen aangegaan:
+Pand Klepel, jaarhuur €54.516, contract tot 1 maart 2023;
+
+Pand Wilhelminastraat, jaarhuur €25.200, contract tot 15 januari 2024;
+
+Pand Janssenstraat, jaarhuur €10.200, contract tot 31 maart 2020;
+
+Pand Baander, jaarhuur €187.008, contract tot 1 september 2022.
+
+Fiscale eenheid vennootschapsbelasting
+
+B-Point Klepel B.V. maakt onderdeel uit van de fiscale eenheid voor de vennootschapsbelasting met de
+moedermaatschappij B-Point Holding B.V. en de groepsmaatschappijen B-Point Friesestraat B.V. en B-Point
+Julianastraat B.V. ledere vennootschap is hoofdelijk aansprakelijk voor de schulden uit hoofde van de
+vennootschapsbelasting.
+
+(Samenstellingsverklaring afgegeven)
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 23 van 36
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Toelichting op de winst-en-
+verliesrekening
+
+(in euro's)
+
+Netto-omzet
+
+Opbrengsten WMO
+
+Opbrengsten Jeugdwet
+Opbrengsten Wlz
+
+Doorbelaste omzet Wlz naar locatie
+Opbrengsten PGB VG-ers
+Opbrengsten ambulant
+
+Kostprijs van de omzet
+Inkoop zorg, dagbesteding en activiteiten
+
+Salarissen en sociale lasten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Toelichting
+
+on4-Aut
+
+2019 2018
+903.144 1.061.019
+560.465 444.685
+238.216 -
+-/-160.832 -
+131.127 148.061
+33.639 1.753
+
+1.705.759 1.661.518
+
+174.373 132.472
+634.681 657.675
+7.002 -
+2.670 -
+644.353 657.675
+
+De individuele bezoldiging van de bestuurders en toezichthouders is opgenomen in een afzonderlijke bijlage
+bij deze jaarrekening, welke bijlage als een integraal onderdeel van deze jaarrekening wordt aangemerkt.
+
+Nadere specificatie van de lonen en salarissen, sociale lasten en pensioenlasten
+
+Lonen en salarissen
+Salaris direct zorgpersoneel
+
+Loonkosten direct zorgpersoneel niet in loondienst
+
+Reservering vakantiegeld
+
+Sociale lasten
+
+Bijdrage ziektekostenverzekering
+Sociale lasten
+
+Pensioenlasten
+Pensioenpremie
+
+35.034 -
+594.423 657.675
+5.224 -
+
+634.681 657.675
+
+504 -
+6.498 -
+
+7.002 -
+
+2.670 -
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 24 van 36
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Toelichting op de winst-en-
+verliesrekening
+
+(in euro's)
+
+Gemiddeld aantal werknemers
+Toelichting
+
+Con4-Au
+
+2019
+
+2018
+
+Het gemiddeld aantal werknemers bedroeg gedurende de gerapporteerde periode: 14 (vorige periode:
+10). De loonkosten hebben betrekking op het direct zorgpersoneel. De loonkosten van het management (3
+
+personen) is opgenomen onder managementkosten.
+
+Afschrijvingskosten
+Afschrijving op materiële vaste activa
+
+Nadere specificatie van de afschrijvingskosten
+Afschrijving op materiële vaste activa
+
+Afschrijvingskosten bedrijfsgebouwen en -terreinen
+Afschrijvingskosten inventaris
+Afschrijvingskosten transportmiddelen
+
+Overige bedrijfskosten
+
+Overige personeelskosten
+Huisvestingskosten
+Administratie- en advieskosten
+Kantoorkosten
+
+Autokosten
+
+Verkoopkosten
+
+Algemene kosten
+Managementkosten
+
+Nadere specificatie van de overige bedrijfskosten
+Overige personeelskosten
+
+Reiskosten W/W
+Opleidingen
+Kantinekosten
+
+Bedrijfs- / werkkleding
+Overige personeelskosten
+
+23.100 24.226
+1.769 2.973
+20.491 20.411
+840 842
+23.100 24.226
+28.377 25.748
+476.571 478.651
+32.750 21.127
+115.388 88.020
+19.046 17.410
+22.073 11.852
+6.015 26.324
+130.353 128.542
+830.573 797.674
+1.156 70
+11.524 11.755
+3.451 5.594
+6.613 -
+5.633 8.329
+28.377 25.748
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 25 van 36
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Toelichting op de winst-en-
+verliesrekening
+
+(in euro's)
+
+Huisvestingskosten
+
+Huur
+
+Energie
+
+Onderhoud gebouwen
+Plaatselijke lasten en heffingen
+Schoonmaakkosten
+
+Overige huisvestingskosten
+
+Administratie- en advieskosten
+
+Accountantskosten
+
+Advocaatkosten
+
+Notariskosten
+
+Vergoeding Raad van Commissarissen
+
+Kantoorkosten
+
+Kantoorbenodigdheden
+
+Telefoon internet en tv
+
+Drukwerk
+
+Kleine aanschaffingen kantoorinventaris
+Contributies, abonnementen, KvK
+Computerkosten
+
+Softwarekosten
+
+Porti
+
+Autokosten
+
+Km-vergoeding auto's
+Brandstofkosten auto's
+Onderhoudskosten auto's
+Motorrijtuvigenbelasting auto's
+Parkeergelden
+
+Cond-ALL
+
+2019 2018
+275.046 285.796
+63.985 78.790
+55.774 52.353
+16.615 20.454
+58.538 39.253
+6.613 2.005
+476.571 478.651
+19.352 16.750
+9,478 2.046
+s 726
+3.920 1.605
+
+32750 21127
+
+6.701 3.106
+32.304 24.452
+= 724
+7.484 19.561
+11.245 6.602
+42.061 18.903
+15.520 14.560
+73 112
+115.388 88.020
+6.877 6.499
+537 334
+8.004 7.317
+3.458 3.154
+170 106
+19.046 17.410
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 26 van 36
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Toelichting op de winst-en-
+verliesrekening
+
+(in euro's)
+
+Verkoopkosten
+
+Lunch- en dinerkosten
+Relatiegeschenken
+
+Reclame- en advertentiekosten
+Sponsoring
+
+Overige verkoopkosten
+
+Algemene kosten
+
+Bedrijfsverzekeringen
+Bankkosten
+Verdere algemene kosten
+
+Managementkosten
+
+Managementvergoeding VOF B-Point Management
+Kosten inhuur management
+
+Financiële baten en lasten
+Rentelasten en soortgelijke kosten
+Per saldo een last / last
+
+Nadere specificatie van de financiële baten en lasten
+Rentelasten en soortgelijke kosten
+
+Interestlasten bank/giro
+Interestlasten financiering
+Boetes fiscus
+
+Belastingen
+Belastingen over resultaat vit gewone bedrijfsuitoefening
+
+(Samenstellingsverklaring afgegeven)
+
+ond-ALL
+
+2019 2018
+1.460 758
+2.089 539
+
+17.808 9.879
+441 450
+
+275 226
+22.073 11.852
+16.212 12.923
+1.058 879
+-/-11.255 12.522
+6.015 26.324
+98.443 96.443
+31.910 32.099
+130.353 128.542
+-/-207 -/-480
+-/-207 -/-480
+
+Ì 16
+
+= 360
+
+206 104
+
+207 480
+6.516 9.798
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 27 van 36
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Kasstroomoverzicht
+
+(in euro's)
+
+Operationele activiteiten
+
+Nettoresultaat na belastingen
+Afschrijvingskosten
+
+Cashflow
+
+Mutatie kortlopende schulden en overlopende passive
+Mutatie vorderingen en overlopende activa
+
+Mutatie vlottende middelen
+Kasstroom uit operationele activiteiten
+
+Mutatie liquide middelen
+
+Beginstand liquide middelen
+Doorbelaste afschrijvingen
+
+Eindstand liquide middelen
+
+(Samenstellingsverklaring afgegeven)
+
+on4-ALt
+
+2019
+26.637
+23.100
+49.737
+230.173
+-/-180.018
+50.155
+99.892
+99.892
+76.626
+-/-23.100
+153.418
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 28 van 36
+
+Cond-Au,
+
+B-Point Klepel B.V.
+gevestigd te Emmen
+
+Overige gegevens
+
+Statutaire bepalingen inzake de bestemming van het resultaat
+
+Artikel 11.1 Winst en uitkeringen
+Lid 1
+De algemene vergadering is bevoegd tot bestemming van de winst die door de vaststelling van de
+
+jaarrekening is bepaald en tot vaststelling van uitkeringen, voor zover het eigen vermogen groter is dan de
+reserves die krachtens de wet of de statuten moeten worden aangehouden.
+
+Lid 2
+
+Een besluit dat strekt tot uitkering heeft geen gevolgen zolang het bestuur geen goedkeuring heeft
+verleend. Het bestuur weigert slechts de goedkeuring indien het weet of redelijkerwijs behoort te voorzien
+dat de vennootschap na de uitkering niet zal kunnen blijven voortgaan met het betalen van haar
+opeisbare schulden.
+
+Lid 3
+Bij de berekening van de winstverdeling tellen aandelen of certificaten daarvan, die de vennootschap in
+haar kapitaal houdt, niet mee.
+
+Bestuursverslag
+
+Op grond van Titel > Boek 2 van het Burgerlijk Wetboek (artikel 396, lid 7) is de vennootschap vrijgesteld van
+de verplichting tot het opstellen van een bestuursverslag. De directie heeft gebruik gemaakt van deze
+vrijstelling en derhalve ontbreekt een bestuursverslag.
+
+Deskundigenonderzoek
+
+Op grond van Titel > Boek 2 van het Burgerlijk Wetboek (artikel 396, lid 7) is de vennootschap vrijgesteld van
+de verplichting tot controle van de jaarrekening door een accountant. Op grond daarvan is geen
+opdracht tot accountantscontrole verstrekt en ontbreekt derhalve een controleverklaring.
+
+(Samenstellingsverklaring afgegeven)
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 29 van 36
+
+Con4-Au
+
+Bijlagen
+
+B-Point Klepel B.V. accountantsrapport 2019 pagina 30 van 36
