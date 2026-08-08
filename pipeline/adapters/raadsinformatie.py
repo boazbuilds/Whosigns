@@ -315,6 +315,16 @@ def verklaringen_uit(tekst: str, bron: dict | None = None) -> list[dict]:
     # venster is al begrensd door de eerstvolgende verklaring in het document,
     # welke organisatie die ook betreft, dus een langer venster kan nooit de
     # handtekening van de buurman opslokken.
+    #
+    # Eerlijk over de omvang: het geval staat in de tests (zonder deze regel valt
+    # de handtekening buiten het venster), maar corpusbreed is het níet
+    # doorgemeten. De meting stond op 3.000 van de 21.339 documenten — daar nul
+    # verschil, in beide richtingen — toen hij is afgebroken omdat hij processor
+    # wegnam van de zorgoogst, en dáár kost dat blijvend gegevens: het
+    # OCR-tijdbudget is kloktijd, dus een document dat door drukte niet op tijd
+    # gelezen wordt, gaat als "bekeken" de lijst in en komt niet terug. De regel
+    # is dus goed onderbouwd en aantoonbaar onschadelijk op het gemeten deel,
+    # maar de opbrengst over de volle bron is onbekend.
     beste: dict[tuple[str, int], dict] = {}
     for verklaring in ruw:
         sleutel = (verklaring["organisatie"].lower(), verklaring["boekjaar"])
