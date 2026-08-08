@@ -125,6 +125,86 @@ GEVALLEN = [
         "Auditdienst ACAM Origineel getekend door: H. Demirel RA",
         "ACAM Accountancy en Advies",
     ),
+    # ---------- tekstschade uit de pdf: de ampersand verhaspelt ----------
+    #
+    # Gevonden bij een telling over alle 21.339 raadsstukken (8-8-2026). De grootste
+    # oorzaak van weggevallen kantoren is niet een onbekende naam maar één verhaspeld
+    # teken: de "&" in het handtekeningblok komt er als "£t", "Et", "S" of "yK" uit.
+    # Daardoor viel juist bij de twee grootste kantoren de verklaring weg.
+    (
+        "BDO met een verhaspelde ampersand (gemeente Delft 2015)",
+        "in overeenstemming met het Besluit begroting en verantwoording provincies "
+        "en gemeenten. Utrecht, 29 juni 2016 BDO Audit £t Assurance B.V. "
+        "namens deze, w.g. drs. R.H.",
+        "BDO Audit & Assurance B.V.",
+    ),
+    (
+        "EY met een verhaspelde ampersand (Omgevingsdienst 2018)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Eindhoven, 2 juli 2019 Ernst S Young Accountants LLP "
+        "EY Building a better working world",
+        "EY Accountants B.V.",
+    ),
+    (
+        # Hier is het de Y die als V wordt gelezen.
+        "EY met een V in plaats van een Y",
+        "in de interne beheersing. Arnhem, 4 juni 2015 Ernst & Voung Accountants LLP",
+        "EY Accountants B.V.",
+    ),
+    (
+        "hoofdletter I gelezen als kleine l (GR ReinUnie 2014)",
+        "verenigbaar is met de jaarrekening. Verklaring Haarlem, 9 april 2015 "
+        "Reg.nr. : 1000006/215/343/2316 lpa-Acon Assurance B.V. "
+        "Was getekend : mr. drs. J.C. Olij RA",
+        "Ipa-Acon Assurance B.V.",
+    ),
+    (
+        "naam aan elkaar geplakt, met een stempelrest ervoor (Westfries Archief 2014)",
+        "voor zover wij dat kunnen beoordelen, verenigbaar is met de jaarrekening. "
+        "Zwaag, 3 april 2015 DTG KAAPHOORN Audit & Assurance B.V. W.g. S.A. Dekker RA",
+        "Kaap Hoorn Audit & Assurance B.V.",
+    ),
+    # ---------- kantoren die vandaag geen Wta-vergunning (meer) hebben ----------
+    #
+    # Het AFM-register is een momentopname van vandaag, maar WhoSigns legt de markt
+    # vanaf 2010 vast. Een kantoor dat in 2019 tekende en daarna fuseerde staat er
+    # niet meer in, en dan valt elke verklaring die het ooit tekende weg. Bij
+    # gemeenten, regelingen en schoolbesturen mag een kantoor zonder Wta-vergunning
+    # ook gewoon tekenen. Elk van deze namen is nagelopen op het handtekeningblok in
+    # de verklaring zelf: plaats, datum en de naam van de tekenend accountant.
+    (
+        "onderwijskantoor, opgegaan in Crowe Foederer (Lek en Linge 2019)",
+        "significante tekortkomingen in de interne beheersing. Eindhoven, 11 juni 2020 "
+        "Wijs Accountants Was getekend: M.M.P.G. van Os MSc RA",
+        "Wijs Accountants",
+    ),
+    (
+        "Amsterdams kantoor buiten het register (Spaarnesant 2019)",
+        "significante tekortkomingen in de interne beheersing. Amsterdam, 16 juni 2020 "
+        "Horlings Accountants & Belastingadviseurs B.V. De heer C. Rabe Registeraccountant",
+        "Horlings Accountants & Belastingadviseurs B.V.",
+    ),
+    (
+        # Bewust géén alias naar Moore DRV Audit B.V.: die vergunning (13020116)
+        # loopt pas vanaf 10-9-2019 en deze verklaring is van mei 2019, dus het is
+        # niet dezelfde vergunninghouder onder een nieuwe naam.
+        "DRV vóór de vergunning van Moore DRV (Papendrecht & Sliedrecht 2018)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Middelburg, 29 mei 2019 DRV Accountants & Adviseurs w.g. drs. J.J. Driessen RA",
+        "DRV Accountants & Adviseurs",
+    ),
+    (
+        "kantoor genoemd naar de tekenend partner (Historisch Goud 2024)",
+        "significante tekortkomingen in de interne beheersing. Landgraaf, 30 april 2025 "
+        "Kalnenek Accountants Origineel getekend door drs. E.E.T.M. Kalnenek RA Partner",
+        "Kalnenek Accountants",
+    ),
+    (
+        "tekennaam van een vergunninghouder in dezelfde plaats (Erfgoedcentrum 2025)",
+        "in de interne beheersing. Doetinchem, 13 maart 2026 "
+        "Confirm Audit & Assurance R. Hulshof RA",
+        "Coöperatie ConFirm U.A.",
+    ),
     # ---------- mag NIET matchen: de naam staat er wel, maar tekent niet ----------
     (
         # De keerzijde van de regel hierboven: ook in een cv kan er een accountant

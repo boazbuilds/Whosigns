@@ -122,7 +122,98 @@ Baker Tilly, met postbus en vestigingsplaats eronder. Soms staat dat blok ónder
 een echte verklaring (dan is het een gemiste opdracht), soms op een begeleidende
 brief bij een boardletter (dan is het terecht geen opdracht). Zonder dat
 onderscheid levert de regel valse opdrachten op, en dat is een duurdere fout dan
-een ontbrekende rij. Plafond: 160 rijen.
+een ontbrekende rij. Plafond: 160 rijen. Hetzelfde geldt voor HLB Witlox Van den
+Boomen: zes vensters, allemaal briefpapier (Gemert, Maastricht, hlb-wvdb.nl),
+geen enkele ondertekening. Daarom nog geen vermelding.
+
+## Waar de grote groep dan wél uit bestond (gemeten 8-8-2026)
+
+De rijen zonder kantoor zijn opnieuw doorgelopen, nu met de vraag: staat er in
+dat venster eigenlijk wel een kantoornaam?
+
+Let op het aantal: deze tweede lezing draaide mét de verbeterde `matchsleutel`
+hierboven, en die vangt herhalingen die eerst als aparte rij meetelden. Dezelfde
+groep telt daardoor 1.025 rijen in plaats van 1.640 — er is niets verdwenen, het
+waren dubbeltellingen van dezelfde organisatie onder twee schrijfwijzen.
+
+| | Rijen |
+|---|---|
+| geen enkele naam in het venster | 611 |
+| wél een naam die de lijst niet kende | 414 |
+
+De eerste helft valt niets aan te doen: daar houdt de verklaring op vóór het
+handtekeningblok, of het blok staat in een losse bijlage. De tweede helft is een
+kantorenlijst-gat, en dat gat had twee heel verschillende oorzaken.
+
+### Oorzaak 1: één verhaspeld teken
+
+Dit was de verrassing. De grootste enkele oorzaak is geen onbekend kantoor maar
+de **ampersand die uit de tekstherkenning valt**:
+
+> Utrecht, 29 juni 2016 **BDO Audit £t Assurance B.V.** namens deze, w.g. drs. R.H.
+>
+> Eindhoven, 2 juli 2019 **Ernst S Young Accountants LLP** EY Building a better working world
+
+Dezelfde `&` komt er ook uit als `Et`, `S`, `yK` of `Ä`, en bij EY wordt de Y
+soms een V ("Voung"). Juist bij de twee grootste kantoren van deze markt viel de
+verklaring daardoor weg. Verder in dezelfde familie: een hoofdletter I die een
+kleine l wordt ("lpa-Acon Assurance B.V.") en een naam die aan elkaar plakt met
+een stempelrest ervoor ("DTG KAAPHOORN Audit & Assurance B.V.").
+
+Opgelost met aliassen — exacte schrijfwijzen in `seed/kantoor_alias.csv`, geen
+fuzzy matching. Dat is bewust: een alias is een letterlijke tekst en kan dus niet
+per ongeluk iets anders raken, en de ondertekeningsscore blijft er gewoon
+overheen gaan. Wat **niet** is toegevoegd: de vijf verschillende verhaspelingen
+van Deloitte ("Dekntte", "Defcutte", "DetoIRe", "Oeloitte", "Dctaittc"). Die
+ontstaan doordat een waarmerkstempel over de naam heen is gedrukt, ze zijn alle
+vijf uniek, en samen leveren ze drie rijen op. Niet de moeite van vijf regels
+onderhoud waard.
+
+### Oorzaak 2: het register is een momentopname, de markt is een geschiedenis
+
+Het AFM-register bevat de kantoren die **vandaag** een Wta-vergunning hebben.
+WhoSigns legt de markt vanaf 2010 vast. Een kantoor dat in 2019 tekende en daarna
+fuseerde staat er niet meer in — en dan valt alles weg wat het ooit tekende. Bij
+gemeenten, regelingen en schoolbesturen mag een kantoor zonder Wta-vergunning
+trouwens gewoon tekenen, dus "niet in het register" zegt op zichzelf niets over
+de bevoegdheid.
+
+Toegevoegd aan `seed/kantoren_overig.csv`, elk nagelopen op het handtekeningblok
+in de verklaring zelf — plaats, datum én de naam van de tekenend accountant:
+
+| kantoor | plaats | tekent als |
+|---|---|---|
+| Wijs Accountants | Eindhoven | M.M.P.G. van Os MSc RA |
+| Horlings Accountants & Belastingadviseurs B.V. | Amsterdam | C. Rabe RA |
+| DRV Accountants & Adviseurs | Middelburg | drs. J.J. Driessen RA |
+| Kalnenek Accountants | Landgraaf | drs. E.E.T.M. Kalnenek RA |
+| Ruitenburg Audit B.V. | Den Haag | drs. M.J.E.E.S. Dunsbergen RA |
+| Pyxis Audit | Almere | R.J.J. Fennis RA RE |
+| KroeseWevers Audit B.V. | Enschede | drs. E.W.J. Roelofs RA |
+| RDR Accountants | Rotterdam | W.J. Houwerzijl RA |
+| HD Accountants B.V. | Emmen | J.H. Keuter RA |
+| Davvero Accountants | Aalsmeer | drs. C. Mekke RA |
+| Schagen Lensen & van Krieken Accountants | Rotterdam | drs. S.A. Ouwersloot RA |
+
+En één alias: **Confirm Audit & Assurance** → Coöperatie ConFirm U.A. (13020039),
+dezelfde vestigingsplaats Doetinchem en geen tweede ConFirm in het register.
+
+### Twee keer bijna misgegaan
+
+Beide keren zag de naam eruit als een alias en was hij het niet:
+
+* **Schagen Lensen & van Krieken** tekent met drs. S.A. Ouwersloot RA, en het
+  register kent *Ouwersloot Kerkhoven Audit B.V.* Dat lijkt rond — maar dat
+  kantoor is gevestigd in de plaats **Schagen**, en zijn vergunning loopt pas
+  vanaf 6-4-2020 terwijl de verklaring van 2014 is. Eén accountant die later voor
+  zichzelf begint is geen naamswijziging van zijn oude kantoor.
+* **DRV Accountants & Adviseurs** tekende in mei 2019; *Moore DRV Audit B.V.*
+  heeft vergunning 13020116 **sinds 10-9-2019**. Een vergunning die later begint
+  dan de verklaring kan niet dezelfde vergunninghouder zijn. Dus een eigen
+  vermelding, net als eerder bij Koenen en Co.
+
+Dat is ook de reden dat *Witlox VCS audit B.V.* (Breda) níét aan HLB Witlox Van
+den Boomen (Gemert) is gekoppeld: een gedeelde achternaam is geen bewijs.
 
 ## Uitbreiden
 
