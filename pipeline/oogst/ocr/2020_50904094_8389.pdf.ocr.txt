@@ -1,0 +1,100 @@
+# whosigns-ocr v1 grootte=77824 dpi=300 paginas=20
+Melkveehouderij A. en K. Kanis van der Kamp.
+
+Balans (EUR)
+
+v Balans
+Vaste activa
+p Materiële vaste activa
+b Financiële vaste activa
+v Vlottende activa
+b Vorderingen
+pb Liquide middelen
+Activa
+p Eigen vermogen
+pb Langlopende schulden
+p Kortlopende schulden
+
+Passiva
+
+Verslagjaar
+
+2020
+
+207.624
+160.423
+47.201
+-2.039
+7.986
+-10.025
+205.586
+-53.815
+258.761
+640
+
+205.586
+
+% balans
+
+101,0%
+78,0%
+23,0%
+-1,0%
+3,9%
+4,9%
+100,0%
+-26,2%
+125,9%
+0,3%
+
+100,0%
+
+Vorig jaar
+
+2019
+
+190.803
+143.602
+47.201
+26.122
+8.763
+17.359
+216.925
+-94 227
+285 641
+25.510
+
+216.925
+
+% balans
+
+88,0%
+66,2%
+21,8%
+12,0%
+4,0%
+8,0%
+100,0%
+-43,4%
+131,7%
+11,8%
+
+100,0%
+
+
+Winst- en verliesrekening (EUR)
+
+Verslagjaar Vorig jaar
+
+2020 % omzet 2019 % omzet
+v Exploitatie
+
+bp Opbrengsten 2698 100,0% 112.405 100,0%
+bh Toegerekende kosten 1.226 45,4% 58.106 51,7%
+Saldo sector(en) 1.472 54 6% 54 299 48,3%
+bp Overige opbrengsten 28.527 1.057,3% 718.833 70,1%
+p Niet-toegerekende kosten 42 568 1.577,8% 95635 85,1%
+Bedrijfsresultaat -12.568 -465,8% 37497 33,4%
+b Financiële baten en last… -6.084 -225,5% -1.534 -6,7%
+
+Resultaat na belasting -18.652 -691,3% 29 963 26,7%
