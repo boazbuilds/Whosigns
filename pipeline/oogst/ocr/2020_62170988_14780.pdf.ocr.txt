@@ -1,0 +1,842 @@
+# whosigns-ocr v1 grootte=3401046 dpi=300 paginas=20
+DB | De Bruijn & Co
+CC Accountants - Belastingadviseurs
+
+PRAKTIJK LA CROIX B.V.
+TE AMSTERDAM
+
+Rapport inzake jaarstukken 2020
+
+8 maart 2022
+
+Accountants - Belastingadviseurs
+
+y DB | De Bruijn & Co
+&C
+
+INHOUDSOPGAVE
+
+Pagina
+ACCOUNTANTSVERSLAG
+1 Samenstellingsverklaring van de accountant 2
+2 Fiscale positie 3
+JAARREKENING
+1 Balans per 31 december 2020 7
+2 Winst-en-verliesrekening over 2020 8
+3 Grondslagen voor waardering en resultaatbepaling ie)
+4 Toelichting op de balans per 31 december 2020 11
+5 Toelichting op de winst-en-verliesrekening over 2020 15
+1 Belangrijke gebeurtenissen na balansdatum
+
+y DB | De Bruijn & Co
+QC Accountants - Belastingadviseurs
+
+ACCOUNTANTSVERSLAG
+
+2nd Floor (Vistra)
+Herikerbergweg 88
+LOT CM Amsterdam
+
+y PB 'DeBruiĳn&Co ami”
+&C
+
+Accountants - Belastingadviseurs
+
+Fel: +31 (20) - 5 789 800
+www.debruijnenco.nl
+IBAN: NL30 ABNA 0981 1097 21
+
+BIC: ABNANL2A
+KvK: 34256803
+BTW: NL8170.19.984B01
+
+Aan de directie van
+Praktijk la Croix B.V.
+Vondelstraat 100
+
+1054 GP AMSTERDAM
+
+Amsterdam, 8 maart 2022
+
+Geachte directie,
+
+Hierbij brengen wij verslag uit over het boekjaar 2020 met betrekking tot uw besloten vennootschap.
+
+1 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+
+De jaarrekening van Praktijk la Croix B.V. te Amsterdam is door ons samengesteld op basis van de van u
+gekregen informatie. Deze jaarrekening bestaat uit de balans per 31 december 2020 en de winst-en-
+verliesrekening over 2020 met de daarbij horende toelichting. In deze toelichting is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, “Samenstellingsopdrachten”. Op grond van deze standaard wordt
+van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in
+overeenstemming met Titel 9 Boek 2 van het Burgerlijk Wetboek (BW). Wij hebben daarbij onze
+deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan. Als slotstuk van onze werkzaamheden hebben wij door het lezen van de jaarrekening
+globaal nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis van Praktijk la Croix
+B.V. Wij hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een
+oordeel te geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (/GBA). U en andere gebruikers
+van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte
+gegevens.
+
+Op alle dienstverlening door of namens De Bruijn en Co B.V. zijn jegens eenieder exclusief’ toepasselijk de algemene voorwaarden
+van De Bruijn en Co B‚V. ledere aansprakelijkheid van De Bruijn en Co B.V, is beperkt tot het bedrag dat in het desbetreffende geval
+krachtens de (beroeps)aansprakelijkheidsverzekering wordt uitbetaald.
+
+Accountants - Belastingadviseurs
+
+y DB | De Bruijn & Co
+&C
+
+Praktijk la Croix B.V.
+Amsterdam
+
+2 FISCALE POSITIE
+
+2.1 Berekening belastbaar bedrag 2020
+
+Het belastbaar bedrag voor de vennootschapsbelasting over 2020 is als volgt berekend:
+
+2020
+€
+Resultaat voor belastingen 38.121
+Fiscale verschillen:
+Niet aftrekbare kosten 689
+Fiscaal resultaat 2020 38.810
+Compensabele verliezen -38.810
+Belastbaar bedrag 2020 -
+Over het belastbare bedrag is geen vennootschapsbelasting verschuldigd.
+2.2 Specificatie niet aftrekbaar deel van de kosten
+Niet
+aftrekbaar
+Basisbedrag deel
+% € €
+Representatiekosten 26,5 % 46 12
+Boetes 100,0 % 677 677
+689
+
+
+Accountants - Belastingadviseurs
+
+y DB | De Bruijn & Co
+&C
+
+Praktijk la Croix B.V.
+Amsterdam
+
+2.3 Te verrekenen verliezen
+
+Per 31 december 2020 bedraagt de omvang van de nog te verrekenen verliezen € 54.608.
+
+De verliezen kunnen binnen een termijn van 6 jaar worden verrekend met toekomstige winsten. Verliezen
+uit het jaar 2020 kunnen over een periode van 6 jaar worden verrekend.
+
+Voor deze compensabele verliezen is een latente belastingvordering opgenomen die is gewaardeerd tegen
+het nominale belastingtarief van 16,5%.
+
+2.3.1 Compensabele verliezen
+
+Compensabele
+Compensabele aanspraak per
+aanspraak per Compensatie 31 december
+
+1 januari 2020 in 2020 2020
+
+€ € €
+
+2015 17.805 -17.805 -
+2016 23.204 -21.005 2.199
+2018 2.838 - 2.838
+2019 49.571 - 49.571
+93.418 -38.810 54.608
+
+2.4 Overige punten
+
+De aanslagen zijn definitief geregeld tot en met het aangiftejaar 2018.
+
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+Hoogachtend,
+De Bruijn & Co B.V.
+
+TIR Deel
+
+R.C.M. Kaats AA
+Accountant Administratieconsulent
+
+
+y DB | De Bruijn & Co
+&C
+
+Accountants - Belastingadviseurs
+
+JAARREKENING
+
+y DB | De Bruijn & Co
+&C Accountants - Belastingadviseurs
+
+Praktijk la Croix B.V.
+Amsterdam
+
+Pagina 7 behorende bij
+rapport d.d.08-03-2022
+
+1 BALANS PER 31 DECEMBER 2020
+(na resultaatbestemming)
+
+31 december 2020
+
+31 december 2019
+
+€ €
+ACTIVA
+
+VASTE ACTIVA
+
+Immateriële vaste activa (1)
+Goodwill 37.500
+
+Materiële vaste activa (2)
+
+Verbouwingen -
+Inventaris 44
+
+44
+
+Financiële vaste activa (3)
+
+Overige vorderingen 9.000
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+Debiteuren 48.927
+Overige vorderingen en overlopende
+activa 1.319
+
+50.246
+Liquide middelen (4) 11.144
+
+107.934
+
+€ €
+46.500
+3.009
+1.678
+4.687
+18.000
+22.443
+2.804
+25.247
+11
+94.445
+
+Samenstellingsverklaring afgegeven
+
+y DB | De Bruijn & Co
+&C Accountants - Belastingadviseurs
+
+Pagina 7 behorende bij
+rapport d.d.08-03-2022
+
+31 december 2020 31 december 2019
+€ € € €
+PASSIVA
+EIGEN VERMOGEN (5)
+Geplaatst kapitaal 120 120
+Agio 56.796 56.796
+Overige reserves -40.862 -69.983
+16.054 -13.067
+KORTLOPENDE SCHULDEN (6)
+Schulden aan kredietinstellingen - 49.819
+Schulden aan leveranciers en
+handelskredieten 11.144 25.154
+Schulden aan groepsmaatschappijen 20.732 7.940
+Loonheffing 37.704 15.155
+Overige schulden en overlopende
+passiva 22.300 9.444
+91.880 107.512
+107.934 94.445
+
+Samenstellingsverklaring afgegeven -7-
+
+DB |
+EE:
+
+Praktijk la Croix B.V.
+Amsterdam
+
+De Bruijn & Co
+
+Accountants - Belastingadviseurs
+
+Pagina 8 behorende bij
+rapport d.d.08-03-2022
+
+2 WINST-EN-VERLIESREKENING OVER 2020
+
+Netto-omzet (7)
+Overige bedrijfsopbrengsten
+
+Kosten
+
+Kosten van uitbesteed werk en andere
+externe kosten
+
+Personeelskosten (8)
+Afschrijvingen (9)
+Huisvestingskosten (10)
+Kantoorkosten (11)
+Verkoopkosten (12)
+Algemene kosten (13)
+
+Bedrijfsresultaat
+
+Financiële baten en lasten (14)
+Resultaat voor belastingen
+
+Belastingen (15)
+
+Resultaat na belastingen
+
+2020 2019
+€ € € €
+385.559 387.455
+- 617
+9.378 24.875
+263.682 306.517
+13.643 21.801
+37.917 32.290
+12.073 11.382
+23 2.640
+7.265 30.518
+343.981 430.023
+41.578 -41.951
+-3.457 -10.111
+38.121 -52.062
+-9.000 5.000
+29.121 -47.062
+
+Samenstellingsverklaring afgegeven
+
+Accountants - Belastingadviseurs
+
+y DB ' De Bruijn & Co
+&C
+
+Praktijk la Croix B.V. Pagina 9 behorende bij
+Amsterdam rapport d.d.08-03-2022
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van Praktijk la Croix B.V. (geregistreerd onder KvK-nummer 62170988), feitelijk gevestigd
+Vondelstraat 100, 1054 GP te Amsterdam, bestaan voornamelijk uit:
+
+- orthopedagogische ondersteuning, remedial teaching en dyslexie behandeling, alsmede het bieden van
+psychologische en pedagogische begeleiding aan jongeren.
+
+Continuïteit
+De onderneming heeft op 31 december 2020 een vermogen van € 16.054. Op dit moment is het onmogelijk
+om in te schatten wat het effect van de uitbraak van het coronavirus zal hebben op Praktijk La Croix B.V.
+
+De aandeelhouder heef bevestigd de intentie te hebben om de onderneming voort te zetten voor een
+periode van ten minste 12 maanden na rapportdatum.
+
+Groepsverhoudingen
+
+De vennootschap maakt deel uit van een groep, waarvan Laura van Vuuren Holding B.V. te Hilversum aan
+het hoofd staat.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel Boek 2 BW.
+Alsmede worden de stellige uitspraken van de Richtlijnen voor de Jaarverslaggeving, uitgegeven door de
+Raad van Jaarverslaggeving, toegepast. In de balans en winst- en verliesrekening zijn referenties
+opgenomen waarmee wordt verwezen naar de toelichting.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Algemeen
+
+Voor zover niet anders vermeld worden de activa en passiva gewaardeerd tegen nominale waarde.
+Tenzij anders vermeld zijn alle overige vorderingen en schulden als kortlopende vorderingen en schulden
+opgenomen.
+
+Immateriële vaste activa
+
+De immateriële vaste activa bestaat uit goodwill, deze is verworven/ontstaan middels ‘business
+combination’. De immateriële vaste activa wordt in dit geval gewaardeerd tegen de verkrijgingsprijs, welke
+gelijk wordt gesteld aan de reële waarde, respectievelijk actuele waarde, op verkrijgingsmoment.
+Afschrijving
+Actief
+%
+
+Goodwill 10
+
+Samenstellingsverklaring afgegeven -9-
+
+y DB | De Bruijn & Co
+&C Accountants - Belastingadviseurs
+
+Praktijk la Croix B.V. Pagina 10 behorende bij
+Amsterdam rapport d.d.08-03-2022
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en terreinen worden gewaardeerd tegen verkrijgingsprijs plus bijkomende kosten of
+vervaardigingsprijs onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur. Op terreinen wordt niet afgeschreven. Er wordt rekening gehouden met de bijzondere
+waardeverminderingen die op balansdatum worden verwacht. Voor de vaststelling of voor een materieel
+vast actief sprake is van een bijzondere waardevermindering wordt verwezen naar de desbetreffende
+paragraaf.
+
+Afschrijving
+Actief
+%
+Verbouwingen 20
+Inventaris 20
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs. De reële waarde en geamortiseerde kostprijs zijn
+gewoonlijk gelijk aan de nominale waarde. Noodzakelijk geachte voorzieningen voor het risico van
+oninbaarheid worden in mindering gebracht. Deze voorzieningen worden bepaald op basis van individuele
+beoordeling van de vorderingen.
+
+De overlopende activa worden gewaardeerd tegen verkrijgingsprijs. De verkrijgingsprijs is gelijk aan de
+nominale waarde.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas en banktegoeden. Rekening-courant schulden bij banken zijn opgenomen
+onder schulden aan kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd
+tegen de nominale waarde.
+
+Kortlopende schulden
+
+De schulden worden bij eerste verwerking gewaardeerd tegen de reële waarde en vervolgens gewaardeerd
+tegen de geamortiseerde kostprijs. De reële waarde en de geamortiseerde kostprijs zijn gelijk aan de
+nominale waarde van de schuld.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+De grondslagen voor resultaatbepaling worden uiteengezet onder de Toelichting op de winst- en
+verliesrekening (5).
+
+Samenstellingsverklaring afgegeven -10-
+
+Accountants - Belastingadviseurs
+
+y DB | De Bruijn & Co
+&C
+
+Praktijk la Croix B.V. Pagina 11 behorende bij
+Amsterdam rapport d.d.08-03-2022
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2020
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Immateriële vaste activa
+
+Goodwill
+
+€
+Boekwaarde per 1 januari 2020
+Verkrijgingsprijs 90.000
+Cumulatieve afschrijvingen en overige waardeverminderingen -43.500
+
+46.500
+Mutaties
+Afschrijvingen -9.000
+Boekwaarde per 31 december 2020
+Verkrijgingsprijs 90.000
+Cumulatieve afschrijvingen en overige waardeverminderingen -52.500
+
+37.500
+2. Materiële vaste activa
+
+Ver-
+bouwingen Inventaris Totaal
+€ € €
+Boekwaarde per 1 januari 2020
+Aanschaffingswaarde 28.207 35.796 64.003
+Cumulatieve afschrijvingen -25.197 -34.119 -59.316
+3.010 1.677 4.687
+
+Mutaties
+Afschrijvingen -3.010 -1.633 -4,643
+Boekwaarde per 31 december 2020
+Aanschaffingswaarde 28.207 35.796 64.003
+Cumulatieve afschrijvingen -28.207 -35.752 -63.959
+Boekwaarde per 31 december 2020 - 44 44
+
+Samenstellingsverklaring afgegeven -11-
+
+y DB | De Bruijn & Co
+
+Praktijk la Croix B.V.
+Amsterdam
+
+Belastingadviseurs
+
+Pagina 12 behorende bij
+rapport d.d.08-03-2022
+
+3. Financiële vaste activa
+
+Overige vorderingen
+
+Latente belastingvordering
+
+VLOTTENDE ACTIVA
+
+Debiteuren
+
+Debiteuren
+
+Overige vorderingen en overlopende activa
+
+Overlopende activa
+
+Nog te factureren omzet
+Vooruitbetaalde kosten
+
+4. Liquide middelen
+
+ABN AMRO Bank N.V. #195
+ABN AMRO Bank N.V. #441
+
+De liquide middelen staan ter vrije beschikking.
+
+31 12 2020 31 12 2019
+€ €
+
+9.000 18.000
+48.927 22.443
+
+- 660
+
+1.319 2.144
+
+1.319 2.804
+
+11.144 -
+
+- 11
+
+11.144 11
+
+Samenstellingsverklaring afgegeven
+
+10e
+
+y DB De Bruijn & Co
+&C Accountants - Belastingadviseurs
+
+Praktijk la Croix B.V. Pagina 13 behorende bij
+Amsterdam rapport d.d.08-03-2022
+PASSIVA
+
+5. EIGEN VERMOGEN
+
+31 12 2020 31 12 2019
+€ €
+
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 120 gewone aandelen nominaal € 1,00 120 120
+
+Het maatschappelijk kapitaal bedraagt € 120.
+
+De aandelen worden gehouden door:
+- LIVV B.V., Amsterdam
+
+Het verloop van de posten behorende tot het eigen vermogen gedurende het verslagjaar 2020 is als volgt:
+
+Stand per Resultaat Stand per
+
+01-01-2020 boekjaar 31-12-2020
+€ € €
+Geplaatst kapitaal 120 - 120
+Agio 56.796 - 56.796
+Overige reserves -69.983 29.121 -40.862
+-13.067 29.121 16.054
+
+Samenstellingsverklaring afgegeven -13-
+
+y DB | De Bruijn & Co
+SC Accountants - Belastingadviseurs
+
+Praktijk la Croix B.V.
+Amsterdam
+
+Pagina 14 behorende bij
+rapport d.d.08-03-2022
+
+6. KORTLOPENDE SCHULDEN
+
+Schulden aan kredietinstellingen
+
+ABN AMRO Bank N.V. #195
+
+Het kredietlimiet bedraagt € 30.000.
+Over de schuld wordt 6,25% rente berekend.
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Schulden aan groepsmaatschappijen
+LIVV B.V.
+
+Over de schulden wordt geen rente berekend.
+
+Overige belastingen en premies sociale verzekeringen
+Loonheffing
+
+Overige schulden en overlopende passiva
+Overlopende passiva
+
+Vakantiegeld
+Mollie betalingen
+Overlopende passiva
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+31 12 2020 31 12 2019
+€ €
+
+- 49.819
+
+11.144 25.154
+20.732 7.940
+37.704 15.155
+
+4.659 6.351
+
+1.611 273
+
+16.030 2.820
+22.300 9.444
+
+Door tot de groep behorende vennootschappen zijn meerjarige financiële verplichtingen aangegaan tot en
+
+met 1 mei 2023 terzake van huur van bedrijfsruimte (€ 98.000 per jaar).
+
+Samenstellingsverklaring afgegeven -14-
+
+Accountants - Belastingadviseurs
+
+y DB | De Bruijn & Co
+&C
+
+Praktijk la Croix B.V. Pagina 15 behorende bij
+Amsterdam rapport d.d.08-03-2022
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2020
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Opbrengstverantwoording
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde
+prestaties, gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te
+verrichten diensten.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Overige bedrijfskosten
+
+Hieronder zijn opgenomen alle niet hiervoor genoemde kosten.
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+De rentebaten en -lasten betreffen de op de verslagperiode betrekking hebbende rente-opbrengsten en -
+lasten van uitgegeven en ontvangen leningen.
+
+Tevens zijn de bankkosten en overige rentes hieronder opgenomen.
+Belastingen
+
+De belastingen worden berekend op basis van het resultaat uit gewone bedrijfsuitoefening, rekening
+houdend met fiscale faciliteiten.
+
+Samenstellingsverklaring afgegeven -15-
+
+Accountants - Belastingadviseurs
+
+y DB | De Bruijn & Co
+&C
+
+Praktijk la Croix B.V.
+Amsterdam
+
+Pagina 16 behorende bij
+rapport d.d.08-03-2022
+
+7. Netto-omzet
+
+Omzet onderzoek
+
+Omzet remedial teaching
+
+Omzet basis GGZ
+
+Omzet begeleiding
+JW-Gemeente-Raamovereenkomst
+JW-Zorginstelling (onderaanneming)-Maatwerktraject
+JW-Zorginstelling (onderaanneming)-EED
+Particulier-Particulier-Maatwerktraject
+
+Omzet overig
+
+8. Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Overige personeelskosten
+
+Lonen en salarissen
+
+Bruto lonen
+Vakantiegeld
+
+Doorbelaste personeelskosten
+
+Overige personeelskosten
+
+Reiskostenvergoedingen
+Opleidingskosten
+
+Overige personeelskosten
+Ziekteverzuimverzekering
+
+ontvangen ziekengeld
+
+Personeelsleden
+
+2020 2019
+€ c
+: 12.950
+- 6.128
+- 203.805
+- 138.156
+226.378 -
+1.650 :
+43.470 -
+114.061 -
+- 796
+385.559 361.835
+209.466 258.856
+38.319 42.001
+15.897 5.660
+263.682 306.517
+194.298 222.346
+15.168 16.510
+209.466 238.856
+- 20.000
+209.466 258.856
+7.034 8.964
+2.000 -
+1.346 659
+5.517 6.035
+15.897 15.658
+: -9.998
+15.897 5.660
+
+Gedurende het jaar 2020 waren 8 werknemers in dienst op basis van een volledig dienstverband (2019: 8).
+
+Samenstellingsverklaring afgegeven -16-
+
+Accountants - Belastingadviseurs
+
+Yy DB | De Bruijn & Co
+&C
+
+Praktijk la Croix B.V. Pagina 17 behorende bij
+Amsterdam rapport d.d.08-03-2022
+2020 2019
+€ €
+
+9. Afschrijvingen
+Immateriële vaste activa 9.000 9.000
+Materiële vaste activa 4.643 12.801
+
+13.643 21.801
+
+Overige bedrijfskosten
+
+10. Huisvestingskosten
+
+Huur onroerende zaak 24.010 25.058
+Gas water licht 11.301 4.237
+Overige huisvestingskosten 2.606 2.995
+37.917 32.290
+37.917 32.290
+
+11. Kantoorkosten
+
+Kantoorbehoeften - 793
+Automatiseringskosten 2.912 3.051
+Contributies en abonnementen 9.156 7.508
+Overige kantoorkosten 5 30
+12.073 11.382
+12. Verkoopkosten
+Reclame- en advertentiekosten - 2.586
+Representatiekosten 46 2
+Overige verkoopkosten -23 52
+23 2.640
+13. Algemene kosten
+Administratie- en accountantskosten 4.320 22.943
+Advieskosten 1.210 4.691
+Verzekeringen 1.617 2.537
+Overige algemene kosten 118 347
+7.265 30.518
+14. Financiële baten en lasten
+Rentelasten en soortgelijke kosten -3.457 -10.111
+15. Belastingen
+Vennootschapsbelasting 9.000 -
+Mutatie voorziening belastingen - -5.000
+9.000 -5.000
+
+Samenstellingsverklaring afgegeven -17-
+
+y DB \ De Bruijn & Co
+&C Accountants - Belastingadviseurs
+
+Praktijk la Croix B.V. te Amsterdam
+
+OVERIGE TOELICHTING
+
+1 Belangrijke gebeurtenissen na balansdatum
+
+Op 8 maart 2022 heeft het bestuur aangemerkt dat er geen gebeurtenissen na balansdatum zijn
+voorgekomen. Op dit moment is het onmogelijk om in te schatten wat het effect van de uitbraak van het
+coronavirus zal hebben op Praktijk la Croix B.V.
+
+Samenstellingsverklaring afgegeven -18-
