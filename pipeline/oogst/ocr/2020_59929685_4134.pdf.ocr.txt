@@ -1,0 +1,961 @@
+# whosigns-ocr v1 grootte=4954229 dpi=300 paginas=20
+Inhoudsopgave
+
+1
+
+11
+12
+13
+14
+
+2.1
+2.2
+2.3
+2.4
+25
+2.6
+2.6.1
+2.6.2
+2.6.3
+2.7
+2.71
+2.7.2
+2.7.3
+2.8
+2.8.1
+2.8.2
+2.8.3
+2.8.4
+2.8.5
+
+3
+
+Algemeen
+
+Kengetallen
+Grafieken
+Resultaatvergelijking
+Resultaatanalyse
+
+Jaarrekening
+
+Balans per 31-12-2020
+Winst-en-verliesrekening
+Grondslagen van de jaarrekening
+Resultaatverdeling
+Fiscale winstberekening
+Toelichting balans activa
+Materiële vaste activa
+Vorderingen
+Liquide middelen
+Toelichting balans passiva
+Ondernemingsvermogen
+Langlopende schulden
+Kortlopende schulden
+Toelichting winst-en-verliesrekening
+Opbrengsten
+Personeelskosten
+Afschrijvingen
+Overige bedrijfskosten
+
+Financiële baten en lasten
+
+Afschrijvingsstaat
+
+Pagina
+
+DA U Ln
+
+\O oo Al A
+
+IB!
+12
+12
+12
+13
+14
+14
+14
+14
+16
+16
+16
+16
+17
+18
+
+19
+
+pagina: 1
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+1 Algemeen
+Deze jaarrekening is op fiscale cijfers gebaseerd.
+
+De vennootschap onder firma NAAR HUUS TOE V.o.f. heeft de volgende handelsnamen: NAAR HUUS TOE V.o.f..
+De vennootschap onder firma is ingeschreven bij de Kamer van Koophandel onder dossiernummer 53215486.
+
+1.1 Kengetallen
+
+Solvabiliteit
+De solvabiliteit geeft de mate aan waarin de onderneming in staat is op lange termijn aan haar verplichtingen te voldoen.
+De solvabiliteitspositie geeft de situatie per einde boekjaar weer. Er is dus sprake van een momentopname.
+
+31-12-2020 31-12-2019
+Verhouding eigen vermogen / totaal vermogen 0,59 0,54
+Verhouding eigen vermogen / vreemd vermogen 1,44 1,18
+Verhouding vreemd vermogen / totaal vermogen 0,41 0,46
+
+Liquiditeit
+De liquiditeit geeft de mate aan waarin de onderneming in staat is op korte termijn aan haar verplichtingen te voldoen. De
+liquiditeitspositie geeft de situatie per einde boekjaar weer. Er is dus sprake van een momentopname.
+
+31-12-2020 31-12-2019
+Quick ratio
+Vlottende activa - voorraden / kortlopende schulden 21,19 14,64
+Current ratio
+Vlottende activa / kortlopende schulden 21,19 14,64
+
+Acid-test ratio
+Effecten + liquide middelen / kortlopende schulden 16,52 11,77
+
+pagina: 2
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+Omzet en rentabiliteit
+De rentabiliteit geeft het rendement aan dat de onderneming in het boekjaar heeft behaald.
+
+2020 2019
+Omzetontwikkeling
+Indexcijfer (2019 = 100%) 77,24 100,00
+Nettowinstmarge
+Resultaat / netto-omzet 0,47 0,51
+Rentabiliteit totaal vermogen
+Bedrijfsresultaat / totaal vermogen 0,26 0,37
+Rentabiliteit eigen vermogen
+Resultaat /eigen vermogen 0,41 0,65
+Rentabiliteit vreemd vermogen
+Rentelasten / vreemd vermogen 0,04 0,04
+Rentedekkingsratio
+Saldo winstberekening / rentelasten 15,83 21,20
+Personeel
+
+2020 2019
+Loonontwikkeling
+Indexcijfer (2019 = 100) 77,16 100,00
+
+Personeelskosten per € 100,- omzet 23,99 24,02
+
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+pagina: 3
+
+KvK-nummer: 53215486
+
+1.2 Grafieken
+
+Verloop activa
+
+€ 400.000
+
+€ 300.000
+
+€ 200.000
+
+€ 100.000 - 3 - _
+
+€
+
+Balanstotalen
+
+MNM Eind 2020 € 400.000
+
+Verloop passiva
+
+} Eind 2019
+
+€ 300.000
+
+€ 100.000 +
+
+WN Eind 2020
+Eind 2019
+
+€ Os
+
+Ratio's
+
+j___MM eind 2020
+| 27 Eind 2019
+
+HEM 2020
+
+j WM Eine 2020
+| #5 Eind 2019
+Ï
+|
+Í
+[
+€ 100.000 Hmm 2020 40 %
+‚2019 |
+€ 80.000
+| 20%
+€ 60.000 | Í
+€ 40.000 4 4
+€ 20.000 |
+|
+co i
+|
+€ -20,000 1
+
+
+Jaarrekening 2020 van NAAR HUUS TOE Vof.
+
+pagina: 4
+KvK-nummer: 53215486
+
+Kosten t.o.v. omzet
+
+100 % - , BE 2020
+| zoa 2019
+
+Specificatie personeelskosten
+
+€ 80.000
+
+HN zo20
+ze 2019
+
+€ 60.000
+
+€ 40.000 J—
+
+€ 20.000
+
+Opbrengsten en winst
+
+€ 500.000
+
+€ 200.000 fn
+
+€
+
+
+pagina: 5
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+1.3 Resultaatvergelijking
+
+2020 2019
+€ % € %
+Opbrengsten
+Netto-omzet 320.647 100,00% 415.120 100,00%
+320.647 100,00% 415.120 100,00%
+Brutomarge 320.647 100,00% 415.120 100,00%
+Personeelskosten
+Lonen en salarissen 70.508 21,99% 69.984 16,86%
+Sociale lasten 13.589 4,24% 12.388 2,98%
+Pensioenlasten 5.231 1,63% 5.212 1,26%
+Overige personeelskosten 12.802 3,99% 13.067 3,15%
+Ontvangen uitkeringen en
+loonsubsidies -25.197 -1,86% -949 -0,23%
+-76.933 -23,99% -99.702 -24,02%
+Afschrijvingen
+Afschrijving op bedrijfsgebouwen die
+in eigen gebruik zijn 3.886 1,21% 3.886 0,94%
+Overige materiële vaste activa 9.035 2,82% 6.045 1,46%
+-12.921 -4,03% -9,931 -2,39%
+Overige bedrijfskosten
+Auto- en transportkosten 191 0,06% 260 0,06%
+Huisvestingskosten 7.103 2,22% 9,884 2,38%
+Onderhoudskosten overige materiële
+vaste activa 1.313 0,41% 5.542 1,34%
+Verkoopkosten 1.152 0,36% 1.658 0,40%
+Overige kosten 59.996 18,71% 64.991 15,66%
+-69.755 -21,75% -82.335 -19,83%
+Financiële baten en lasten
+Opbrengsten van overige vorderingen 0 0,00% 65 0,02%
+Opbrengsten van banktegoeden 8 0,00% 1 0,00%
+Kosten van schulden, andere
+rentelasten en soortgelijke kosten -9,578 -2,99% -10.118 -2,44%
+-9,570 -2,98% -10.052 -2,42%
+
+Saldo winstberekening 151.468 47,24% 213.100 51,33%
+
+
+pagina: 6
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+1.4 Resultaatanalyse
+
+Het resultaat over 2020 is ten opzichte van 2019 gedaald met € 61.632. De ontwikkeling van het resultaat over 2020 ten
+opzichte van 2019 kan als volgt worden weergegeven:
+
+€ €
+
+Het resultaat is gunstig beïnvloed door:
+Stijging van:
+Ontvangen uitkeringen en loonsubsidies 24.248
+Opbrengsten van banktegoeden 7
+
+24.255
+Daling van:
+Overige personeelskosten 265
+Auto- en transportkosten 69
+Huisvestingskosten 2.781
+Onderhoudskosten overige materiële vaste activa 4.229
+Verkoopkosten 506
+Overige kosten 4.995
+Kosten van schulden, andere rentelasten en soortgelijke kosten 540
+
+13.385
+Het resultaat is ongunstig beïnvloed door:
+Stijging van:
+Lonen en salarissen 524
+Sociale lasten 1.201
+Pensioenlasten 19
+Afschrijving overige materiële vaste activa 2.990
+
+-4,734
+
+Daling van:
+Netto-omzet 94.473
+Opbrengsten van overige vorderingen 65
+
+-94.538
+
+Daling resultaat 61.632
+
+
+pagina: 7
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+2 Jaarrekening
+
+2.1 Balans per 31-12-2020
+
+na resultaatbestemming
+
+Activa 31-12-2020 31-12-2019
+Materiële vaste activa
+Bedrijfsgebouwen en terreinen 331.780 298.166
+Overige materiële vaste activa 45.413 54.448
+
+377.193 352.614
+Vorderingen
+Vorderingen op handelsdebiteuren 51.973 48.805
+Overige vorderingen 3.200 0
+
+55.173 48.805
+
+Liquide middelen 195.085 200.348
+Totaal activa € 627.451 € 601 „167
+Passiva 31-12-2020 31-12-2019
+
+Eigen vermogen
+Ondernemingsvermogen exclusief fiscale
+
+reserves 370.651 325.757
+370.651 325.757
+Langlopende schulden
+Schulden aan kredietinstellingen 244.990 258.994
+244.990 258.994
+Kortlopende schulden
+Schulden aan leveranciers en handelskredieten 863 9.465
+Loonheffingen 1.282 1.803
+Overige kortlopende schulden 9.665 5.748
+11.810 17.016
+
+Totaal passiva € 627.451 € 601.767
+
+pagina: 8
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE Vof.
+
+2.2 Winst-en-verliesrekening
+
+2020 2019
+Opbrengsten
+Netto-omzet 320.647 415.120
+320.647 415.120
+Brutomarge T 320.647 415.120
+Personeelskosten
+Lonen en salarissen 70.508 69.984
+Sociale lasten 13.589 12.388
+Pensioenlasten 5.231 5.212
+Overige personeelskosten 12.802 13.067
+Ontvangen uitkeringen en loonsubsidies -25.197 -949
+OO 16933 -99.702
+Afschrijvingen
+Afschrijving op bedrijfsgebouwen die in eigen
+gebruik zijn 3.886 3.886
+Overige materiële vaste activa 9.035 6.045
+-12.921 -9.931
+Overige bedrijfskosten
+Auto- en transportkosten 191 260
+Huisvestingskosten 7.103 9.884
+Onderhoudskosten overige materiële vaste activa 1.313 5.542
+Verkoopkosten 1.152 1.658
+Overige kosten 59.996 64.991
+-69.755 -82.335
+Financiële baten en lasten
+Opbrengsten van overige vorderingen 0 65
+Opbrengsten van banktegoeden 8 1
+Kosten van schulden, andere rentelasten en
+soortgelijke kosten -9.578 -10.118
+-9.570 -10.052
+
+Saldo winstberekening 151.468 213.100
+
+pagina: 9
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o,f.
+
+2.3 Grondslagen van de jaarrekening
+
+ALGEMENE GRONDSLAGEN
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld in overeenstemming met in Nederland algemeen aanvaarde grondslagen voor financiële
+verslaggeving.
+
+De jaarrekening is opgemaakt op basis van historische kostprijs. De waardering van activa en passiva geschiedt, voor
+zover niet anders is vermeld, tegen nominale waarde.
+
+Winsten worden toegerekend aan de periode waarin ze zijn gerealiseerd. Verliezen worden verantwoord in het jaar waarin
+ze voorzienbaar zijn.
+
+Algemene resultaatbepaling
+
+Het resultaat wordt bepaald als het verschil tussen de netto-omzet en de kosten en andere lasten van het verslagjaar met
+inachtneming van de hiervoor vermelde waarderingsgrondslagen.
+
+Winsten zijn verantwoord in het jaar waarin de goederen zijn geleverd c.q. de diensten zijn verricht. Verliezen welke hun
+oorsprong vinden in het boekjaar zijn in aanmerking genomen zodra deze voorzienbaar zijn.
+
+GRONDSLAGEN VOOR DE BALANSWAARDERING ACTIVA
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de cumulatieve afschrijvingen en
+indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden gebaseerd op de geschatte
+economische levensduur en worden berekend op basis van een vast percentage van de verkrijgingsprijs, rekening houdend
+met een eventuele residuwaarde. Er wordt afgeschreven vanaf het moment van ingebruikneming. Op terreinen wordt niet
+afgeschreven.
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde. Noodzakelijk geachte voorzieningen
+voor het risico van oninbaarheid worden in mindering gebracht op de vorderingen.
+
+Liquide middelen
+
+De liquide middelen zijn gewaardeerd tegen de nominale waarde. Indien middelen niet ter vrije beschikking staan, dan
+wordt hiermee bij de waardering rekening gehouden.
+
+GRONDSLAGEN VOOR DE BALANSWAARDERING PASSIVA
+
+Langlopende schulden
+
+De langlopende schulden betreffen leningen met een looptijd van langer dan één jaar. Het gedeelte van de leningen dat
+wordt afgelost in het komende boekjaar, is opgenomen onder de kortlopende schulden.
+
+Kortlopende schulden
+
+De kortlopende schulden betreffen de schulden met een looptijd korter dan één jaar. Deze worden bij eerste verwerking
+opgenomen tegen reële waarde.
+
+pagina: 10
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE Vof.
+
+GRONDSLAGEN VOOR DE RESULTAATBEPALING
+
+Omzetverantwoording
+
+Onder netto-omzet wordt verstaan de opbrengst van de in het verslagjaar geleverde goederen en verleende diensten onder
+aftrek van kortingen en de over de omzet geheven belastingen.
+
+Opbrengsten voortvloeiend uit de verkoop van goederen worden verantwoord op het moment dat alle belangrijke rechten
+op economische voordelen alsmede alle belangrijke risico's zijn overgegaan op de koper. De kostprijs van deze goederen
+wordt aan dezelfde periode toegerekend.
+
+Opbrengsten van diensten worden opgenomen naar rato van de mate waarin de diensten zijn verricht, gebaseerd op de tot
+balansdatum in het kader van de dienstverlening gemaakte kosten in verhouding tot de geschatte kosten van de totaal te
+verrichten dienstverlening. De kostprijs van deze diensten wordt aan dezelfde periode toegerekend.
+
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+pagina: 11
+KvK-nummer: 53215486
+
+2.4 Resultaatverdeling
+
+Het resultaat wordt als volgt verdeeld:
+
+Aandeel in de
+
+Aandeel in de
+
+Naam restantwinst totaalwinst
+P.A.J.W.M. Huijbrechts 50,00% 50,00%
+A.D. Pols 50,00% 50,00%
+Vergoeding voor Overige Verdeling restant
+
+Naam arbeid vergoedingen winst Totaal
+P.A.J.W.M. Huijbrechts 0 0 75.134 75.134
+A.D. Pols 0 0 75.734 75.734
+0 0 151.468 151.468
+
+2.5 Fiscale winstberekening
+Totaal privé- Fiscale winst-
+Naam Beginvermogen onttrekkingen Privéstortingen Eindvermogen berekening
+
+P.A.J.W.M.
+
+Huijbrechts 175.584 53.287 0 198.031 75.734
+A.D. Pols 150.173 53.287 0 172.620 75.734
+325.757 106.574 0 370.651 151.468
+
+Totaal
+
+
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+pagina: 12
+KvK-nummer: 53215486
+
+2.6 Toelichting balans activa
+
+2.6.1 Materiële vaste activa
+
+Bedrijfsgebouwen in eigen gebruik waarop wordt afgeschreven
+
+Omschrijving Bodemwaarde Kosten aanschaf
+Pand Bredestraat Noord 36-A
+
+Herveld 200.000 280.000
+Aankoopkosten 0 7.277
+1/3 deel warmtepomp 0 15.381
+Tuinperceel - grond 37.500 37.500
+
+Overige materiële vaste activa
+
+Omschrijving Kosten aanschaf
+Tuinmeubelset 1.004
+Huurdersinvesteringen 44.276
+Vaatwasser 849
+Marmoleum vloer bovenverdieping 5.808
+Traplift 8.594
+6x Zorgmeubel - fauteuils 7.788
+
+Restwaarde
+
+200.000
+0
+
+0
+37.500
+
+Restwaarde
+
+oo oo os os ©
+
+31-12-2020 31-12-2019
+276.760 278.380
+5.456 6.184
+12.064 13.602
+37.500 0
+331.780 298.166
+31-12-2020 31-12-2019
+0 0
+
+28.719 33.146
+
+390 560
+
+4.067 5.228
+6.015 7.734
+6.222 7.780
+45.413 54.448
+
+Ten laste van het resultaat van het boekjaar, zichtbaar in de … [betreffende jaarrekeningpost] in de winst- en
+
+verliesrekening is een bijzondere waardevermindering gebracht van € 0.
+
+De bedrijfsgebouwen en - terreinen dienen als zekerheid voor de hypothecaire lening zoals die is verstrekt door X bank.
+
+Zie hiervoor ook 'Meerjarige financiële verplichtingen! in de toelichting.
+
+2.6.2 Vorderingen
+
+Vorderingen op handelsdebiteuren
+
+Omschrijving
+
+Debiteuren
+
+Overige vorderingen
+Omschrijving
+Terug te vorderen teveel uitbetaalde zorgbonussen
+
+Algemeen
+
+Alle vorderingen hebben een resterende looptijd korter dan een jaar, tenzij anders vermeld.
+
+Handelsdebiteuren
+
+Nominale
+waarde
+
+51.973
+
+31-12-2020 31-12-2019
+51.973 48.805
+51.973 48.805
+
+31-12-2020 31-12-2019
+
+3.200 0
+3.200 0
+
+Onder de handelsdebiteuren zijn vorderingen opgenomen tot een bedrag van € 0 met een (verwachte)
+
+resterende looptijd langer dan een jaar.
+
+pagina: 13
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+2.6.3 Liquide middelen
+
+Omschrijving 31-12-2020 31-12-2019
+Kas 1.017 808
+Rabobank, NL23 RABO 0329 1340 27 20.600 31.229
+Rabobank, NL69 RABO 1339 5964 58 173.468 168.311
+
+195.085 200.348
+
+pagina: 14
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+2.7 Toelichting balans passiva
+
+2.7.1 Ondernemingsvermogen
+
+Ondernemingsvermogen exclusief fiscale reserves
+
+Omschrijving 31-12-2020 31-12-2019
+Mevrouw P.A.J.W.M. Huijbrechts 198.031 175.584
+Mevrouw A.D. Pols 172.620 150.173
+
+370.651 325.757
+
+2.7.2 Langlopende schulden
+
+Schulden aan kredietinstellingen
+
+Omschrijving 31-12-2020 31-12-2019
+Rabobank, hypotheek 244.990 258.994
+244.990 258.994
+
+Aflossingsverplichtingen binnen 12 maanden na afloop van het boekjaar zijn niet begrepen in de hierboven genoemde
+bedragen maar opgenomen onder de kortlopende schulden. Alle leningen zijn afgesloten in euro's. Van het totaalbedrag
+aan langlopende schulden heeft een bedrag van € 0 (2019: € 0) een resterende looptijd van langer dan 5 jaren.
+
+2.7.3 Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+
+Omschrijving 31-12-2020 31-12-2019
+Crediteuren 863 9.465
+863 9,465
+
+Loonheffingen
+Omschrijving 31-12-2020 31-12-2019
+Loonheffingen 1.282 1.803
+1.282 1.803
+
+Overige kortlopende schulden
+
+Omschrijving 31-12-2020 31-12-2019
+Reservering vakantiegeldverplichting 3.177 2.614
+Reservering 13e maand 515 404
+Nettolonen 0 585
+Pensioenpremies 449 1.101
+Administratiekosten 1.016 956
+Rente en kosten bank 28 88
+Taxi december 4,480 0
+
+9.665 5.748
+
+pagina: 15
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+De kortlopende schulden hebben een resterende looptijd van korter dan een jaar. In de kortlopende schulden is begrepen
+de aflossingsverplichting hypothecaire lening aan X bank voor de komende 12 maanden.
+
+Het over het boekjaar aan de houders van gewone aandelen uit te keren dividend is verantwoord als kortlopende
+verplichting in de balans.
+
+pagina: 16
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+2.8 Toelichting winst-en-verliesrekening
+
+2.8.1 Opbrengsten
+Netto-omzet 2020 2019
+Omzet dagopvang 320.647 415.120
+320.647 415.120
+2.8.2 Personeelskosten
+Lonen en salarissen 2020 2019
+Brutolonen 69.946 70.465
+Mutatie reservering vakantiegeldverplichting/eindjaarsuitkering 562 -481
+70.508 69.984
+Sociale lasten 2020 2019
+Premies werknemersverzekeringen 8.915 7.532
+Bijdrage zorgverzekeringswet 4.674 4.856
+13.589 12.388
+Pensioenlasten 2020 2019
+Pensioenlasten 5.231 5,212
+5.231 5.212
+Overige personeelskosten 2020 2019
+Reiskostenvergoeding 300 2.029
+Ziekengeldverzekering 2.657 4.059
+Overige personeelskosten 388 2.208
+13e maand 5.457 4.771
+WKR vrije ruimte 4.000 0
+12.802 13.067
+Ontvangen uitkeringen en subsidies 2020 2019
+Ontvangen subsidie praktijkleren 0 949
+Loonkostensubsidie NOW 17.997 0
+Zorgbonus VWS 7.200 0
+25.197 949
+2.8.3 Afschrijvingen
+Afschrijving op bedrijfsgebouwen die in eigen gebruik zijn 2020 2019
+Pand Bredestraat Noord 36-A Herveld 3.886 3.886
+
+3.886 3.886
+
+Jaarrekening 2020 van NAAR HUUS TOE V.o,f.
+
+KvK-nummer:
+
+pagina: 17
+53215486
+
+Overige materiële vaste activa
+
+Inventaris
+
+2.8.4 Overige bedrijfskosten
+
+Auto- en transportkosten
+Kilometervergoeding
+
+Huisvestingskosten
+Huur
+
+Gas, water en electra
+Onderhoud gebouwen
+Schoonmaakkosten
+
+Vaste lasten
+
+Onderhoudskosten overige materiële vaste activa
+Inventariskosten
+Kleine aanschaffingen
+
+Verkoopkosten
+Reclame- en advertentiekosten
+Relatiegeschenken
+
+Kantinekosten
+
+Overige kosten
+
+Administratiekosten
+
+Salarisaministratie
+
+Overige advieskosten
+Bedrijfsverzekeringen
+
+Voedsel, drank en genotmiddelen cliënten
+Reis- en verblijfkosten cliënten (taxivervoer)
+Contributies en abonnementen
+Portokosten
+
+Telefoonkosten
+
+Overige algemene kosten
+Kantoorbenodigdheden
+Bezigheidsmateriaal
+
+EHBO
+
+2020 2019
+9,035 6.045
+9.035 6.045
+
+2020 2019
+
+191 260
+191 260
+2020 2019
+250 250
+
+1.497 1.729
+3.047 5.848
+1.510 1.041
+
+799 1.016
+7.103 9.884
+
+2020 2019
+
+1.120 5.538
+193 4
+1.313 5.542
+2020 2019
+422 50
+577 1.183
+153 425
+
+1.152 1.658
+
+2020 2019
+1.718 1.658
+1.863 1.718
+3.380 910
+
+689 621
+7.678 8.830
+40.726 46.411
+835 794
+
+0 1
+1.230 1.435
+146 19
+1.013 1.290
+157 1.304
+561 0
+59.996 64.991
+
+pagina: 18
+KvK-nummer: 53215486
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+2.8.5 Financiële baten en lasten
+
+Opbrengsten van banktegoeden 2020 2019
+Rente banken 8 1
+
+8 1
+Kosten van schulden, andere rentelasten en soortgelijke kosten 2020 2019
+Rente lening Rabobank 9,244 9.729
+Rente en kosten bank 334 389
+
+9.578 10.118
+
+Jaarrekening 2020 van NAAR HUUS TOE V.o.f.
+
+pagina: 19
+KvK-nummer: 53215486
+
+3 Afschrijvingsstaat
+
+Omschrijving Datum
+Materiële vaste activa
+
+Overige materiële vaste activa
+
+Tuinmeubelset 02-04-2013
+Huurdersinvesteringen 31-12-2017
+Vaatwasser 20-04-2018
+Marmoleum vloer bovenverdieping 09-07-2019
+Traplift 11-07-2019
+6x Zorgmeubel - fauteuils 23-12-2019
+Bedrijfsgebouwen in eigen gebruik waarop wordt afgeschreven
+Pand Bredestraat Noord 36-A Herveld 28-06-2018
+Aankoopkosten 28-06-2018
+1/3 deel warmtepomp 08-11-2018
+
+Tuinperceel - grond 15-10-2020
+
+Kosten aanschaf
+
+1,004
+44.276
+849
+5.808
+8.594
+7.788
+
+280.000
+7.277
+15.381
+37.500
+
+Afschrijvingen
+tot 01-01-2020
+
+1.004
+11.130
+289
+580
+860
+
+1,620
+1.093
+1.779
+
+Afschrijvingen
+2020
+
+4,427
+
+170
+1,161
+1,719
+1.558
+
+1.620
+728
+1.538
+
+Afschrijvingen
+t/m 31-12-2020
+
+1.004
+15.557
+459
+1.741
+2.579
+1.566
+
+3.240
+1.821
+3.317
+
+Boekwaarde per
+31-12-2020 Restwaarde
+0 0
+28.719 0
+390 0
+4.067 0
+6.015 0
+6.222 0
+276.760 200.000
+5.456 0
+12.064 0
+37.500 37.500
