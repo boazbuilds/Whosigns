@@ -1,0 +1,873 @@
+# whosigns-ocr v1 grootte=863431 dpi=300 paginas=20
+1.4 Financiële positie
+
+Ter analyse van de financiële positie van de onderneming dient de volgende opstelling, die is ontleend aan de
+balans per 31 december 2020 met de overeenkomstige cijfers per 31 december 2019. Opgemerkt dient te worden
+dat de omvang van balansposten in de loop van een jaar kan fluctueren en dat de waarde per balansdatum
+aanmerkelijk kan afwijken van een willekeurig andere in het verslagjaar gekozen datum.
+
+Financiële structuur
+x 1.000
+
+Activa
+
+Materiële vaste activa
+Voorraden
+Vorderingen
+
+Liquide middelen
+
+Passiva
+Eigen vermogen
+Kortlopende schulden
+
+x 1.000
+
+Op korte termijn beschikbaar
+Vorderingen
+Liquide middelen
+
+Kortlopende schulden
+
+Liquiditeitssaldo
+Voorraden
+
+Werkkapitaal
+
+Vastgelegd op lange termijn
+Materiële vaste activa
+
+Gefinancierd met op lange termijn beschikbare middelen
+
+Financiering
+
+Eigen vermogen
+
+AGNO
+
+31-12-2020 31-12-2019
+
+€ % € %
+12 4,5 11 6,1
+2 0,8 2 1,1
+77 28,9 60 33,4
+175 65,8 107 59,4
+266 100,0 180 100,0
+143 53,8 108 60,0
+123 46,2 72 40,0
+266 100,0 180 100,0
+31-12-2020 31-12-2019
+
+€ €
+
+77 60
+
+175 107
+
+252 167
+
+-123 -72
+
+129 95
+
+2 2
+
+131 97
+
+12 11
+
+143 108
+
+143 108
+
+
+2 Jaarrekening
+
+2.1 Balans per 31 december 2020
+
+Activa
+
+Vaste activa
+
+Materiële vaste activa
+Bedrijfsgebouwen en -terreinen
+Andere vaste bedrijfsmiddelen
+
+Vlottende activa
+Voorraden
+
+Vorderingen
+Debiteuren
+
+Overige vorderingen
+Overlopende activa
+
+Liquide middelen
+
+AGNO
+
+31-12-2020 31-12-2019
+€ €
+
+2.682 .
+9.562 10.776
+12,244 10.776
+2,000 2.000
+6.958 3.946
+12.465 5.000
+57.950 50.723
+71.373 59.669
+174,643 107.327
+266.260 179.772
+
+
+31-12-2020 31-12-2019
+
+€ €
+Passiva
+Eigen vermogen
+Kapitaal E.G.M. Meijer-Ruiter 70.745 51.457
+Kapitaal N.A.M. Boom 72.493 56.314
+143.238. 107.771
+Kortlopende schulden
+Crediteuren 5.919 5.036
+Belastingen en premies sociale verzekeringen 22.186. 17.566
+Overige schulden en overlopende passiva 94.917 49.399
+123.022 72.001
+266.260 179.772
+
+AGNO 8
+
+2.2 Winst- en verliesrekening over 2020
+
+2020 2019
+
+€ €
+
+Netto-omzet 704.909 529.800
+Personeelskosten 331.284 255.423
+Afschrijvingen op materiële vaste activa 4.062 3.318
+Huisvestingskosten 56.289 41.342
+Verkoopkosten 3.699 5.281
+Kantoorkosten 16.554 15.848
+Algemene kosten 29.034 25.280
+Som der bedrijfslasten 440.922 346.492
+Bedrijfsresultaat 263.987 183.308
+Rentelasten en soortgelijke kosten -509 -595
+Resultaat uit gewone bedrijfsuitoefening 263.478 182.713
+
+AGNO 9
+
+2.3 Algemene toelichting
+
+Informatie over de onderneming
+Vestigingsadres en inschrijfnummer handelsregister
+
+AGNO is feitelijk gevestigd op Hassinkweg 13, 7556 BV te Hengelo en is ingeschreven bij het handelsregister onder
+nummer 08124035.
+
+Algemene toelichting
+
+Informatieverschaffing over continuïteit
+
+De gebeurtenissen rondom het coronavirus COVID-19 hebben geen nadelig effect op de activiteiten van AGNO en
+haar financiële situatie. Op basis van de huidige omstandigheden zien wij op dit moment geen reden om aan de
+positieve continuiteitsveronderstelling te twijfelen. Wij zijn daarom van mening dat de in de jaarrekening
+gehanteerde grondslagen voor waardering en resultaatbepaling gebaseerd dienen te worden op de veronderstelling
+van continuïteit van de onderneming.
+
+Algemene grondslagen voor verslaggeving
+De standaarden op basis waarvan de jaarrekening is opgesteld
+De jaarrekening is opgesteld volgens algemeen aanvaarde grondslagen voor de verslaglegging.
+
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van historische kosten,
+tenzij anders vermeld.
+
+Grondslagen
+
+Materiële vaste activa
+
+Materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct toerekenbare
+kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur en bijzondere
+waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie. Vorderingen
+worden na eerste verwerking gewaardeerd tegen de geamortiseerde kostprijs. Indien geen sprake is van (dis)agio
+en transactiekosten is de geamortiseerde kostprijs gelijk aan de nominale waarde van de vorderingen. Als de
+ontvangst van de vordering is uitgesteld op grond van een verlengde overeengekomen betalingstermijn wordt de
+reêle waarde bepaald aan de hand van de contante waarde van de verwachte ontvangsten en worden er op basis
+van de effectieve rente rente-inkomsten ten gunste van de winst- en verliesrekening gebracht. Voorzieningen
+wegens oninbaarheid worden in mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende
+schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening
+houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale waarde.
+
+De bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten
+en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij zijn
+gerealiseerd.
+
+Omzetverantwoording
+Netto-omzet omvat de opbrengsten uit levering van diensten naar rato van de mate waarin diensten zijn verricht,
+onder aftrek van kortingen en dergelijke.
+
+AGNO 10
+
+2.4 Toelichting op de balans
+Activa
+
+Vaste activa
+Materiële vaste activa
+
+De mutaties in de materiële vaste activa kunnen als volgt worden samengevat:
+
+Bedrijfsge- Andere vaste Totaal
+bouwen en - _ bedrijfsmid-
+terreinen delen
+€ € €
+Stand per 1 januari 2020
+Aanschafwaarde - 61.704 61.704
+Afschrijvingen - -50.928 -50.928
+Boekwaarde per 1 januari 2020 - 10.776 10.776
+Mutaties boekjaar
+Investeringen 2.800 2.730 5.530
+Afschrijvingen -118 -3.944 -4,062
+2.682 -1.214 1.468
+Stand per 31 december 2020
+Aanschafwaarde 2.800 64.434 67.234
+Afschrijvingen -118 -54.872 -54.990
+Boekwaarde per 31 december 2020 2.682 9.562 12.244
+
+De saldi in de kolom Bedrijfsgebouwen en -terreinen betreffen huurdersinvesteringen in de bedrijfspanden.
+
+AGNO 1
+
+Vlottende activa
+
+Voorraden
+
+Testmateriaal
+
+Vorderingen
+
+Debiteuren
+Debiteuren
+
+Overige vorderingen
+Overige vorderingen
+
+Overige vorderingen
+Waarborgsom pand Deventer
+Waarborgsom pand Hengelo
+Nog te ontvangen bedragen
+
+Overlopende activa
+Nog te factureren omzet
+
+Liquide middelen
+
+Rabobank, nr. NL72 RABO 3463 8118 20
+Rabobank, nr. NL38 RABO 0147 3427 59
+Rabobank, nr. NL58 RABO 3662 7524 76
+
+AGNO
+
+31-12-2020 31-12-2019
+€ €
+
+2.000 2.000
+6.958 3.946
+12,465 5.000
+6.826 +
+5.000 5.000
+639 -
+12.465 5.000
+57.950 50.723
+85.204 34.637
+65.495 71.693
+23.944 997
+174.643 107.327
+
+12
+
+Passiva
+
+Eigen vermogen
+
+In onderstaand overzicht is het verloop van het bedrijfsvermogen weergegeven.
+
+Kapitaal Kapitaal Totaal
+
+EGM. N.A.M. Boom
+
+Meijer-Ruiter
+
+€ € €
+
+Stand per 1 januari 2020 51.457 56.314 107.771
+Aandeel in resultaat boekjaar 49.745 49.733 99.478
+Arbeidsvergoeding 85.000 79.000 164.000
+Privé-opnamen -115.457 -112.554 -228.011
+Stand per 31 december 2020 70.745 72.493 143.238
+
+De arbeidsvergoeding is de beloning voor de werkzaamheden die de vennoten verrichten als leidinggevend
+zorgverlener. Dit wordt eerst van het resultaat afgehaald. Vervolgens wordt de winst ad € 99.746, evenredig
+
+verdeeld door de vennoten,
+
+AGNO
+
+13
+
+Kortlopende schulden
+
+Crediteuren
+Crediteuren
+
+Belastingen en premies sociale verzekeringen
+Loonheffing
+
+Overige schulden en overlopende passiva
+Vakantiegeld en vakantiedagen
+
+Nettolonen
+
+Studiekosten 2021
+
+Accountantskosten
+
+Subsidie 'Pittige Jaren!
+
+31-12-2020 31-12-2019
+€ €
+
+5.919 5.036
+22.186 17.566
+43.419 22.965
+26.274 22.571
+16.525 -
+4.762 3.863
+3.937 -
+94.917 49.399
+
+Niet in de balans opgenomen rechten, verplichtingen en regelingen
+
+Informatieverschaffing over niet in de balans opgenomen verplichtingen
+
+Maatschap AGNO heeft een huurcontract afgelosten voor de huur van het pand aan de Hassinkweg 13 te Hengelo.
+
+De hieruit voortvloeiende jaarlijkse verplichting bedraagt circa € 20.454.
+
+Maatschap AGNO heeft een huurcontract afgelosten voor de huur van het pand aan de Bergsingel 81 te Deventer.
+
+De hieruit voortvloeiende jaarlijkse verplichting bedraagt circa € 27.648.
+
+AGNO
+
+14
+
+2.5 Toelichting op de winst- en verliesrekening
+
+2020 2019
+€ €
+Netto-omzet
+Omzet IJsselland 378.729 303.023
+Omzet Twente 283.296 202.422
+Omzet Midden IJssel 26.222 8.426
+Omzet overig 16.662 15.929
+704.909 529.800
+Personeelskosten
+Lonen en salarissen 238.780 189.987
+Sociale lasten en pensioenlasten 51.060 35.677
+Overige personeelskosten 41.444 29.759
+331.284 255.423
+Lonen en salarissen
+Brutolonen 231.389 185.396
+Brutolonen: Besteding SET 31.350 -
+Mutatie vakantiedagen 4.973 2.181
+Mutatie vakantiegeld 4.244 1.111
+Ziekengeld 387 1.299
+272.343 189.987
+Subsidie ‘Pittige jaren! (75% besteed) -11.813 .
+Subsidie SET (gedeelte personeelskosten, totale subsidie € 50.000) -21.750 -
+238.780 189.987
+Gemiddeld aantal werknemers
+2020
+Aantal
+Gemiddeld aantal werknemers 4,93
+2019
+Aantal
+Gemiddeld aantal werknemers 3,68
+2020 2019
+€ €
+Sociale lasten en pensioenlasten
+Premies sociale verzekeringen 51.060 35.677
+Overige personeelskosten
+Diensten door derden 11.640 6.058
+Studie- en opleidingskosten 11.547 4.636
+Ziekengeldverzekering 5.773 7.686
+Reiskostenvergoeding woon-werk 4.367 4.774
+Vergoeding binnen WKR 4.000 -
+Overige personeelskosten 2.988 5.017
+Kantinekosten 760 754
+Arbodienst 363 -
+Overige kostenvergoedingen 6 834
+41.444 29.759
+
+AGNO 15
+
+Afschrijvingen op materiële vaste activa
+Afschrijvingen materiële vaste activa
+
+Afschrijvingen materiële vaste activa
+Bedrijfsgebouwen en -terreinen
+Andere vaste bedrijfsmiddelen
+
+Huisvestingskosten
+Betaalde huur locatie Deventer
+Betaalde huur locatie Hengelo
+Schoonmaakkosten
+Onderhoud gebouwen
+
+Vaste lasten
+
+Kleine aanschaffingen
+Verhuiskosten
+
+Verkoopkosten
+Testmaterialen
+
+Reis en verblijfskosten
+Representatiekosten
+
+Kantoorkosten
+
+Project SET soft-/nardware
+Kosten automatisering
+Kantoorbenodigdheden
+Vakliteratuur
+
+Telefoon- en faxkosten
+Porti
+
+Subsidie SET (gedeelte soft-/hardware, totale subsidie € 50.000)
+
+Algemene kosten
+Abonnementen en contributies.
+Accountantskosten
+
+Bijzondere dienstverlening
+Overige algemene kosten
+
+2020 2019
+€ €
+4.062 3.318
+118 -
+3.944 3.318
+4.062 3.318
+27.418 15.326
+15.575 13.671
+5.657 4.633
+2.876 -
+2.843 2.442
+1.920 2.366
+- 2.904
+56.289 41.342
+3.125 5.044
+467 196
+107 A1
+3.699 5.281
+26.241 -
+11.417 10.781
+3.957 1.642
+1.735 993
+1.368 2.295
+86 137
+44.804 15.848
+-28.250 -
+16.554 15.848
+11.642 12.433
+8.306 7.759
+8.000 4.360
+1.086 728
+29.034 25.280
+
+16
+
+Rentelasten en soortgelijke kosten
+Betaalde bankrente
+
+Hengelo, 30 april 2021
+
+E.G.M. Meijer-Ruiter, N.A.M. Boom,
+maat. maat.
+
+AGNO
+
+2020 2019
+€ €
+509 595
+
+17
+
+Bijlagen
+
+1. Specificatie kapitaal E.G.M. Meijer-Ruiter
+2. Specificatie kapitaal N.A.M. Boom
+3. Overzicht materiële vaste activa
+
+AGNO
+
+18
+
+Specificatie kapitaal E.G.M.
+
+Stand per 1 januari
+Resultaat boekjaar
+
+Rente geïnvesteerd vermogen
+Aandeel in de overwinst
+
+Arbeidsvergoeding
+Privé-opnamen
+
+Stand per 31 december
+
+AGNO
+
+Meijer-Ruiter
+
+2020 2019
+€ € € €
+51.457 47.993
+-128 -58
+49.873 46.422
+49.745 46.364
+85.000 48.000
+-115.457 -90.900
+70.745 51.457
+
+19
+
+Specificatie kapitaal N.A.M. Boom
+
+Stand per 1 januari
+Resultaat boekjaar
+
+Rente geïnvesteerd vermogen
+Aandeel in de overwinst
+
+Arbeidsvergoeding
+Privé-opnamen
+
+Stand per 31 december
+
+AGNO
+
+2020 2019
+€ € € €
+56.314 60.214
+140 -72
+49.873 46.422
+49.733 46.350
+79.000 42.000
+112.554 -92.250
+72.493 56.314
+
+20
+
+3. Overzicht van materiële vaste activa
+
+Goodwill
+Goodwill
+
+Bedrijfsgebouwen
+Eiken vloer naturel pand Hassinkweg
+
+Kantoorinventaris
+Autitoys 1
+
+Autitoys 2
+
+GEST complete set.
+ATAG-K complete set
+BADS-NL complete set
+TEA-Ch-NL
+
+ADOS Test kit
+
+Module boekhouding
+SON 5,5-17
+
+CELF
+
+Ontwerp website
+
+PC Dell
+
+Printer
+
+Prosoftware
+
+WISC
+
+1DAT
+
+ANT
+
+WCST
+
+WAIS III
+
+NEPSY-Il
+WPPSI-III-NL
+
+PC kantoor Enschede
+Laptop
+
+3DM Basisset, Buttonbox &
+Lichtsensor
+NEPSY-II-NL & WISC-II-NL
+Dell laptops
+BADS-C-NL
+BADS-C-NL, WPPSI-III-NL
+Tablets
+
+Pearson
+
+Boom 3DM
+
+Pearson 2
+
+Boom 3DM Dyscal.
+Laptop en PC
+Prosoftware - module ROM
+Zorgadmin module JW
+HP ProBook 470
+
+HP ProBook 450
+Vloerbedekking
+Computer
+
+AGNO
+
+Aanschafwaarde
+Aanschaf- Desinves-
+datum 1-1-2020 Investeringen teringen 31-12-2020
+€ € € €
+
+31-12-2013 8.988 - - 8.988 €
+8.988 - - 8.988
+31-08-2020 - 2.800 - 2.800
+- 2.800 - 2.800
+08-02-2008 908 - - 908
+16-02-2008 787 - - 787
+20-02-2008 516 - - 516
+25-02-2008 645 - - 645
+29-02-2008 1.065 - - 1.065
+29-04-2008 655 - - 655
+21-05-2008 1.946 - - 1.946
+22-09-2008 1.184 - - 1.184
+08-04-2009 1.118 - - 1.118
+09-04-2009 1.198 - - 1.198
+01-05-2009 1.190 - - 1.190
+01-05-2009 1.665 - - 1.665
+01-05-2009 696 - - 696
+01-05-2009 758 - - 758
+26-06-2009 1.150 - - 1.150
+23-07-2009 538 - - 538
+17-09-2009 2.152 - - 2.152
+24-09-2009 458 - - 458
+26-11-2009 1.696 - - 1.696
+03-12-2009 1.011 - - 1.011
+08-12-2009 2.083 - - 2.083
+08-03-2010 598 - - 598
+18-03-2010 786 - - 786
+21-04-2010 1.005 - - 1.005
+19-11-2010 3.016 - - 3.016
+17-12-2010 1.802 - - 1.802
+26-04-2011 1.078 - - 1.078
+15-09-2011 3.101 - - 3.101
+09-05-2013 1.263 - - 1.263
+20-06-2013 1.904 - - 1.904
+05-09-2013 549 - - 549
+06-11-2013 1.460 - - 1.460
+21-11-2013 658 - - 658
+11-02-2014 1.423 - - 1.423
+09-05-2014 599 - - 599
+03-06-2015 495 - - 495
+03-08-2015 729 - - 729
+14-09-2015 679 - - 679
+23-10-2015 1.580 - - 1.580
+31-03-2016 734 - - 734
+
+21
+
+Afschrijvingen Boekwaarde
+t/m t/m Boek-
+Per jaar 1-1-2020 2020 31-12-2020 resultaat 1-1-2020 31-12-2020
+% € € € € € €
+
+19,8-VAST 8.988 - 8.988 - - -
+8.988 - 8.988 - - -
+
+10-AW - 117 117 - - 2.683
+
+- 117 117 - - 2.683
+20-AW 908 908 - - -
+20-AW 787 787 - - -
+20-AW 516 - 516 - - -
+20-AW 645 - 645 - - -
+20-AW 1.065 - 1.065 - - -
+20-AW 655 - 655 - - -
+20-AW 1.946 - 1.946 - - -
+20-AW 1.184 - 1.184 - - -
+20-AW 1.118 - 1.118 - - -
+20-AW 1.198 - 1.198 - -
+20-AW 1.190 - 1.190 - - -
+20-AW 1.665 - 1.665 - -
+20-AW 696 - 696 - - -
+20-AW 758 - 758 - -
+20-AW 1.150 - 1.150 - - -
+20-AW 538 - 538 - - -
+20-AW 2.152 - 2.152 - - -
+20-AW 458 - 458 - - -
+20-AW 1.696 - 1.696 - - -
+20-AW 1.011 - 1.011 - - -
+20-AW 2.083 - 2.083 - - -
+20-AW 598 - 598 - - -
+20-AW 786 - 786 - - -
+20-AW 1.005 - 1.005 - - -
+20-AW 3.016 - 3.016 - - -
+20-AW 1.802 - 1.802 - - -
+20-AW 1.078 - 1.078 - - -
+20-AW 3.101 - 3.101 - - -
+20-AW 1.263 - 1.263 - - -
+20-AW 1.904 - 1.904 - - -
+20-AW 549 - 549 - - -
+20-AW 1.460 - 1.460 - - -
+20-AW 658 - 658 - - -
+20-AW 1.423 - 1.423 - - -
+20-AW 599 - 599 - - -
+20-AW 454 41 495 - 41 -
+20-AW 645 84 729 - 84 -
+20-AW 590 89 679 - 89 -
+20-AW 1.343 237 1.580 - 237 -
+
+20-AW 564 147 711 - 170 23
+
+AGNO
+
+22
+
+3. Overzicht van materiële vaste activa
+
+Kast Ikea
+Kantoorkasten
+HP ProBook
+WISC-V
+
+HP ProBook 640
+HP Probook 640
+Laptop
+
+HP ProBook 450
+MacBook Pro
+ProBook 470
+ProBook 450
+Meubilair vestiging Deventer
+Hogrefe IDS
+Bureaustoel Mesh
+
+AGNO
+
+Aanschafwaarde
+Aanschaf- Desinves-
+
+datum 1-1-2020 Investeringen teringen 31-12-2020
+
+€ € € €
+12-01-2017 462 - - 462
+16-01-2017 478 - - 478
+16-02-2017 1.132 - - 1.132
+21-12-2017 4.000 - - 4.000
+12-02-2018 895 - - 895
+12-03-2018 895 - - 895
+12-03-2018 1.193 - - 1.193
+23-07-2018 725 - - 725
+06-06-2019 2.134 - - 2.134
+17-07-2019 1.029 - - 1.029
+27-09-2019 883 - - 883
+30-11-2019 1.000 - - 1.000
+10-02-2020 - 1.815 - 1.815
+01-10-2020 - 915 - 915
+61.704 2.730 - 64.434
+70.692 5.530 - 76.222
+
+23
+
+Afschrijvingen Boekwaarde
+tm tm Boek-
+Per jaar 1-1-2020 2020 31-12-2020 resultaat 1-1-2020 31-12-2020
+% € € € € € €
+
+20-AW 279 93 372 - 183 90
+20-AW 288 96 384 - 190 94
+20-AW 662 227 889 - 470 243
+20-AW 1.667 800 2.467 - 2.333 1.533
+20-AW 344 179 523 - 551 372
+20-AW 329 179 508 - 566 387
+20-AW 438 239 677 - 755 516
+20-AW 218 145 363 - 507 362
+20-AW 249 427 676 - 1.885 1.458
+20-AW 104 206 310 - 925 719
+20-AW 59 177 236 - 824 647
+20-AW 34 200 234 - 966 766
+20-AW - 333 333 - - 1.482
+20-AW - 46 46 - - 869
+50.928 3.945 54873 - 10.776 9.561
+
+59.916 4.062 63.978 - 10.776 12.244
+
+AGNO
+
+24
+
+Colofon
+
+de Jong & Laan
+
+accountants belastingadviseurs
+Eektestraat 8
+
+7575 AP Oldenzaal
+
+0541-51 24 85
+oldenzaal @ jonglaan.nl
+www.jonglaan.nl
+
+De Jong & Laan Accountants BV. gevestigd te Almelo. Kv K_ 06054458. Op al onze
+
+en
+
+zijn onze
+
+van
+
+eze alg
+
+voorwaarden zijn gedeponeerd bij de KvK Oost Nederland te Enschede onder nr 08153431, zijn In te zien op www jonglaan.nl en worden € op op verzoek kosteloos toegezonden
+
+SRA &
