@@ -1,0 +1,1028 @@
+# whosigns-ocr v1 grootte=1075316 dpi=300 paginas=20
+Stichting Reumazorg Zuid-West Nederland
+
+5.1 JAARREKENING
+
+5.1.1 BALANS PER 31 DECEMBER 2020
+(na resultaatbestemming})
+
+ACTIVA
+
+Vlottende activa
+
+Voorraden
+
+Onderhanden werk DBC-zorgproducten
+Debiteuren en overige vorderingen
+Liquide middelen
+
+Totaal vlottende activa
+
+Totaal activa
+
+PASSIVA
+
+Eigen vermogen
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Kortlopende schulden (ten hoogste 1 jaar)
+Overige kortlopende schulden
+
+Totaal kortlopende schulden (ten hoogste 1 jaar)
+
+Totaal passiva
+
+Ref. 31-12-2020 31-12-2019
+1 312.471 662.182
+2 612.115 272.239
+3 2.366.051 3.714.592
+4 948.462 313.974
+4.239.099 4.962.987
+4.239.099 4.962.987
+Ref. 31-12-2020 31-12-2019
+€ €
+
+5
+1.281.343 1.272.772
+1.281.343 1.272.772
+6 2.957.756 3.690.215
+2.957.756 3.690.215
+4.239.099 4.962.987
+
+Pagina 4 van 20
+
+Gewaarmerkt voor identificatiedosleinder:
+Visser & Visser Audit en Assurance B.V.
+
+22 APR. 2021
+
+Stichting Reumazorg Zuid-West Nederland
+
+5.1.2 RESULTATENREKENING OVER 2020
+
+Totaal
+Ref. 2020 2019
+€ €
+Opbrengsten zorgprestaties 8 19.521,677 20.717.200
+Kostprijs opbrengsten zorgprestaties 9 -12.414.561 -14.227.935
+Overige bedrijfsopbrengsten 10 205.222 527.481
+Som der bedrijfsopbrengsten 7.312.338 7.016.746
+BEDRIJFSLASTEN:
+Personeelskosten 11 2292818 1.893.787
+Honorariumkosten vrijgevestigde medisch specialisten 12 2.076.265 2.182.983
+Overige bedrijfskosten 13 2.921.747 2.887.130
+Som der bedrijfslasten 7.290.830 6.963.900
+BEDRIJFSRESULTAAT 21.508 52.846
+Financiële baten en lasten 14 „12.937 4.243
+RESULTAAT BOEKJAAR 8.571 48.603
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2020 2019
+€ €
+Toevoeging/(onttrekking):
+Algemene / overige reserves 8.571 48.603
+8.571 48.603
+
+Gewaarmerkt voor identiticate:: „eige:
+Visser & Visser Audit en Assurance B.V,
+
+Pagina 5 van 20
+
+22 APR. 2021
+
+Stichting Reumazorg Zuid-West Nederland
+
+5.1.3 KASSTROOMOVERZICHT OVER 2020
+
+Ref. 2020 2019
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 21.508 52.846
+Veranderingen in werkkapitaal:
+- voorraden 1 349.711 -514.911
+- mutatie onderhanden werk uit hoofde van DBC's /
+DBC-zorgproducten 2 -339,876 -218.457
+- vorderingen 3 1.348.541 854.715
+= kortlopende schulden (excl. schulden aan banken,
+behoudens rekening courant-krediet) 6 -732.459 -519,447
+625.917 -398.100
+Kasstroom uit bedrijfsoperaties 647.425 -345.254
+Ontvangen interest 14 1.588 16.909
+Betaalde interest 14 -14.525 -21.152
+-12.937 4,243
+Totaal kasstroom uit operationele activiteiten 634.488 -349.497
+Totaal kasstroom uit financieringsactiviteiten 0 0
+Mutatie geldmiddelen 634.488 -349 497
+Stand geldmiddelen per 1 januari 3/4 313.974 663.471
+Stand geldmiddelen per 31 december 3/4 948.462 313.974
+Mutatie geldmiddelen 634.488 -349,497
+
+Gewaarmerkt voor ioentificauet:” er
+Visser & Visser Audit en Assurance B.V.
+
+22 APR. 2021
+
+Pagina 6 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.1 Algemeen
+
+Algemene gegevens en groepsverhoudingen
+
+Stichting Reumazorg Zuid-West Nederland is statutair gevestigd te Goes, op de van Hertumweg 17, en is
+geregistreerd onder KvK-nummer 53735587.
+
+De belangrijkste activiteiten zijn het leveren van medisch specialistische reumatologische zorg en het verrichten
+van alle verdere handelingen, die met het vorenstaande in de ruimste zin verband houden of daartoe
+bevorderlijk zijn.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2020, dat is geëindigd op balansdatum 31 december 2020.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi, de Richtlijnen voor de
+Jaarverslaggeving RJ 655, Titel 9 BW2 en de bepalingen van en krachtens de Wet normering bezoldiging
+topfunctionarissen publieke en semipublieke sector (WNT).
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd
+op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Contínuîteitsveronderstelling
+
+Stichting Reumazorg Zuid-West Nederland heeft haar jaarrekening opgesteld uitgaande van continuïteit van
+haar activiteiten. Het afgelopen boekjaar 2020 is afgesloten met een positief resultaat. De stichting beschikt
+tevens over een positief eigen vermogen en heeft geen aflossingsverplichtingen uit hoofde van financiering.
+Gezien de aard van de dienstverlening en de wijze van financiering van de geleverde zorg heeft de coronacrisis
+naar verwachting slechts een beperkt negatief effect op de opbrengsten van de stichting. Op basis van de
+huidige situatie en verwachtingen is de inschatting van het bestuur dat de stichting zijn activiteiten kan
+continueren. Om die reden is de jaarrekening dan ook opgesteld op basis van continuïteit van de activiteiten.
+
+Vergelijkende cijfers
+De cijfers van 2020 zijn, waar nodig, geherrubriceerd om vergelijkbaarheid met 2019 mogelijk te maken.
+
+Foutherstel
+
+in de jaarrekening 2019 is, na het vaststellen van deze jaarrekening, een zodanige onjuistheid gebleken, die in
+de vergelijkende cijfers is aangepast. Het effect van de correcties op het resultaat en eigen vermogen is
+
+€ 182.967.
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde waarde
+van activa en verplichtingen, en van baten en lasten, De daadwerkelijke uitkomsten kunnen afwijken van deze
+schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend beoordeeld. Herzieningen
+van schattingen worden opgenomen in de periode waarin de schatting wordt herzien en in toekomstige perioden
+waarvoor de herziening gevolgen heeft.
+
+Verbonden rechtspersonen
+Zorginstelling Stichting Reumazorg Zuid-West Nederland is transacties met verbonden partijen aangegaan die
+onder normale marktvoorwaarden hebben plaatsgevonden.
+
+Hierbij gaat het om de volgende transacties met ZeeBra Reumatologie BV (KvK: 62314696):
+* Inhuur van medisch specialisten
+
+Gewaarmerkt voor identmicaveans
+Visser & Visser Audit en Assurance B.V,
+
+22 APR, 2021
+
+Pagina 7 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+5.1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden tegen nominale waarde opgenomen, tenzij anders vermeld in de verdere
+grondslagen.
+
+Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de jaarrekening
+genummerd.
+
+Een actief wordt in de balans opgenomen wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar Stichting Reumazorg Zuid-West Nederland zullen toevloeien en de waarde daarvan betrouwbaar
+kan worden vastgesteld.
+
+Een verplichting wordt in de balans opgenomen wanneer het waarschijnlijk is dat de afwikkeling daarvan
+gepaard zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de omvang van
+het bedrag daarvan betrouwbaar kan worden vastgesteld.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans, als een transactie met betrekking tot het
+actief of de verplichting niet leidt tot een belangrijke verandering in de economische realiteit met betrekking tot
+het actief of de verplichting.
+
+Een actief of verplichting wordt niet tanger in de balans opgenomen als een transactie ertoe leidt dat alle of
+nagenoeg alle rechten op economische en alle of nagenoeg alle risico's met betrekking tot het actief of de
+verplichting aan een derde zijn overgedragen. Verder wordt een actief of een verplichting niet meer in de balans
+opgenomen vanaf het tijdstip dat niet meer wordt voldaan aan de voorwaarden van waarschijnlijkheid van de
+toekomstige economische voordelen en of betrouwbaarheid van de bepaling van de waarde.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van Stichting Reumazorg Zuid-
+West Nederland.
+
+Financiële instrumenten
+
+Financiële instrumenten omvatten handels- en overige vorderingen, geldmiddelen, leningen en overige
+financieringsverplichtingen, handelsschulden en overige te betalen posten en afgeleide financiële instrumenten
+(derivaten).
+
+Financiële instrumenten, inclusief de van de basiscontracten gescheiden afgeleide financiële instrumenten,
+worden bij de eerste opname verwerkt tegen reële waarde, waarbij (dis)agio en de direct toerekenbare
+transactiekosten in de eerste opname worden meegenomen. Indien instrumenten niet zijn gewaardeerd tegen
+reële waarde met verwerking van waardeveranderingen in de resultatenrekening, maken eventuele direct
+toerekenbare transactiekosten deel uit van de eerste waardering.
+
+In contracten besloten financiële instrumenten die niet worden gescheiden van het basiscontract, worden
+verwerkt in overeenstemming met het basiscontract.
+
+Na de eerste opname (tegen reële waarde) worden financiële instrumenten op de hierna beschreven manier
+gewaardeerd.
+
+Verstrekte leningen en overige vorderingen
+Verstrekte leningen en overige vorderingen worden gewaardeerd tegen geamortiseerde kostprijs op basis van
+de effectieverentemethode, verminderd met bijzondere waardeverminderingsverliezen.
+
+Langlopende en kortlopende schulden en overige financiële verplichtingen
+
+Langlopende en kortlopende schulden en overige financiële verplichtingen worden na eerste opname
+gewaardeerd tegen geamortiseerde kostprijs op basis van de effectieverentemethode.
+
+De aflossingsverplichtingen voor het komend jaar van de langlopende schulden worden opgenomen onder
+kortlopende schulden.
+
+Onderhanden werk uit hoofde van DBC's / DBC-zorgproducten
+
+Het onderhanden werk uit hoofde van DBC's / DBC-zorgproducten wordt gewaardeerd tegen de
+opbrengstwaarde of de vervaardigingsprijs, zijnde de afgeleide verkoopwaarde van de reeds bestede
+verrichtingen. De productie van het onderhanden werk is bepaald door de openstaande verrichtingen te
+koppelen aan de DBC's / DBC-zorgproducten die ultimo boekjaar openstonden. Op het onderhanden werk
+worden de voorschotten die ontvangen zijn van verzekeraars in mindering gebracht.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reêle waarde, inclusief transactiekosten. (Door toepassing van
+de effectieve rentemethode worden transactiekosten als onderdeel van de amortisatie in de winst- en
+verliesrekening verwerkt). De vervolgwaardering van vorderingen is tegen geamortiseerde kostprijs (indien geen
+sprake van agio/disagio of transactiekosten dan geamortiseerde kostprijs gelijk aan nominale waarde). Een
+voorziening wordt getroffen op de vorderingen op grond van verwachte oninbaarheid.
+
+Gewaarmerkt VOOr VET auB. » .
+Visser & Visser Audit en Assurance B.V.
+
+22 APR. 2021
+
+Pagina 8 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan
+twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden, Liquide middelen worden gewaardeerd tegen de nominale waarde.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één
+jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar, De schulden worden bij
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs (nominale waarde). De aflossingsverplichtingen voor het komend jaar van de langlopende schulden
+worden opgenomen onder kortlopende schulden.
+
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald ais het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming
+van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het economisch
+potentieel, samenhangend met een vermeerdering van een actief of een vermindering van een verlichting, heeft
+plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten worden verwerkt wanneer
+een vermindering van het economisch potentieel, samenhangend met een vermindering van een actief of een
+vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden
+vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking genomen
+in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de
+verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag
+van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding
+waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald
+en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening
+te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden
+gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Het is niet uitgesloten dat bij materiële controles door verzekeraars afwijkingen van beleidsregels of
+contractvoorwaarden worden geconstateerd, die leiden tot verrekeningen van reeds geleverde en gefactureerde
+zorg. De raad van bestuur heeft de mogelijke effecten van deze ontwikkelingen voor de omzetverantwaording
+naar beste weten geschat en verwerkt in deze jaarrekening 2020, maar wijst op de mogelijkheid dat de
+genoemde risico's in 2021 of latere jaren tot nagekomen financiële effecten zullen leiden.
+
+Personele kosten
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+Gewaarmerkt voor gerticaten Pu men
+Visser & Visser Audit en Assurarice B.V
+
+22 APR. 2021
+
+Pagina 9 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+Pensioenen
+
+Stichting Reumazorg Zuid-West Nederland heeft voor haar werknemers een toegezegde bijdrageregeling.
+Hiervoor in aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen
+dat is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft
+opgebouwd bij Stichting Reumazarg Zuid-West Nederland. De verplichtingen, die voortvloeien uit deze rechten
+van haar personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. Stichting Reumazorg
+Zuid-West Nederland betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft
+door de werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad
+van het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit
+toelaat. Per 1 januari 2015 gelden nieuwe regels voor pensioenfondsen. Daarbij behoort ook een nieuwe
+berekening van de dekkings-graad. De 'nieuwe' dekkingsgraad is het gemiddelde van de laatste twaalf
+dekkingsgraden. Door een gemiddelde te gebruiken, zal de dekkingsgraad nu minder sterk schommelen. In
+januari 2021 bedroeg de dekkingsgraad 92,2%. Het vereiste niveau van de dekkingsgraad is 125%. Het
+pensioenfonds verwacht volgens het herstelplan binnen 12 jaar hieraan te kunnen voldoen en voorziet geen
+noodzaak voor de aangesloten instellingen om extra stortingen te verrichten of om bijzondere
+premieverhogingen door te voeren. Stichting Reumazorg Zuid-West Nederland heeft geen verplichting tot het
+voldoen van aanvullende bijdragen in geval van een tekort bij het pensioenfonds, anders dan het effect van
+hogere toekomstige premies. Stichting Reumazorg Zuid-West Nederland heeft daarom alleen de verschuldigde
+premies tot en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en aan
+derden en groepsmaatschappijen betaalde (te betalen) interest. Tevens is hieronder opgenomen het aandeel
+van de stichting in het resultaat van de op nettovermogenswaarde gewaardeerde deelnemingen danwel
+ontvangen dividenden van deelnemingen waarin geen invloed van betekenis op het zakelijke en financiële beleid
+wordt uitgeoefend en waardeveranderingen van financiële vaste activa en effecten.
+
+5.1.4.4 Grondslagen voor de opstelting van het kasstroomoverzicht
+Het kasstroomoverzicht is opgesteld op basis van de indirecte methode.
+Betalingen welke voortvloeien uit langlopende leningen worden voor het gedeelte dat betrekking heeft op de
+
+rente opgenomen onder de kasstroom uit operationele activiteiten en voor het gedeelte dat betrekking heeft op
+de aflossing als kasstroom uit financieringsactiviteiten.
+
+Gewaarmerkt voor identificatiedosleinden
+Visser & Visser Audit en Assurance B.V
+
+22 APR. 2021
+
+Pagina 10 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+5.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+1. Voorraden
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+
+€ €
+Vaoruitbetaald op medische middelen 312.471 662.182
+Totaal voorraden 312.471 662.182
+
+2. Onderhanden werk uit hoofde van DBC's / DBC-zorgproducten
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+
+€ €
+Onderhanden werk DBC's / DBC-zorgproducten gereguleerd segment 1.625.365 1.403.239
+Af: ontvangen voorschotten -1.013.250 -1.131.000
+Totaal onderhanden werk 612.115 272.239
+Toelichting:
+
+Per 31-12-2020 is geen voorziening opgenomen inzake de waardering van de onderhanden werken.
+Verder zijn er geen onzekerheden die samenhangen met de waardering van het onderhanden werk.
+
+3. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+€ €
+
+Vorderingen op debiteuren 1.135.631 1.192.397
+
+Nog te factureren omzet DBC's / DBC-zorgproducten 1.078.200 2.076.499
+
+Overige vorderingen:
+
+Rekening-courant Inocare DieZo BV 0 210.000
+
+Nog te ontvangen bedragen:
+
+Omzetbelasting 33.340 172.582
+
+Overige overlopende activa:
+
+Overlopende activa 118.880 63.114
+
+Totaal debiteuren en overige vorderingen 2.366.051 3.714.592
+
+Toelichting:
+
+De voorziening die in aftrek op de vorderingen is gebracht, bedraagt € 100.000 (2019: € 293.750).
+
+Als gevolg van de nog lopende definitieve afhandeling van de overschrijding van het oorspronkelijke budget van de
+zorgverzekeraars, zijn door het management schattingen en veronderstellingen gemaakt op de gerapporteerde waarde ‘Nog te
+factureren omzet DBC's / DBC-zorgproducten'. De effecten van eventuele wijzigingen op deze schattingen en veronderstellingen
+zijn vooralsnog onzeker en kunnen een materieel effect hebben. Het effect hiervan wordt als gering ingeschat
+
+Ten behoeve van kortlopende schulden aan kredietinstellingen en langlopende schulden aan banken zijn alle huidige en
+toekomstige rechten van de vorderingen verpand.
+
+4. Liquide middelen
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+
+€ €
+Bankrekeningen 948.462 313.974
+Totaal liquide middelen 948.462 313.974
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+22 APR, 2021
+
+Pagina 11 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+PASSIVA
+
+5. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Algemene en overige reserves
+
+Het verloop is als volgt weer te geven:
+Overige reserves:
+
+Overige (vrije) reserves
+
+Totaal algemene en overige reserves
+
+31-dec-20 31-dec-19
+
+€ €
+
+1.281.343 1.272.772
+
+1.281.343 1.272.772
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-20 bestemming mutaties 31-dec-20
+€ € € €
+1.272.772 8.571 0 1.281.343
+1.272.772 8.571 0 1.281.343
+
+Pagina 12 van 20
+
+Bwa Ht VOOr (aentmtcatiedoeleinden
+Visser & Visser Audit en Assurance B.V
+
+22 APR. 2024
+
+Stichting Reumazorg Zuid-West Nederland
+
+6. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Crediteuren
+Loonheffing
+Pensioenen
+
+Nog te ontvangen overige inkoopfacturen
+Nog te ontvangen inkoopfacturen Ziekenhuizen
+Nog te betalen bedragen
+
+Vooruitontvangen bedragen projecten
+
+Vakantiegeld
+Vakantie-uren
+Reservering PLB-uren
+Reservering TvT-uren
+Reservering CFU-uren
+Overige schulden
+IZZ-Premies
+
+Totaal overige kortlopende schulden
+
+31-dec-20 31-dec-19
+€ €
+1.018.069 2.074.361
+28.000 0
+1.414 0
+329.035 287.420
+200.000 200.000
+496.597 496.597
+418.239 229.716
+64.570 53.855
+52.347 36.590
+167.411 129.850
+21.203 33.482
+9,402 0
+149.771 147.271
+1.698 1.073
+2.957.756 3.690.215
+
+7. Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+Kredietfaciliteit Rabobank:
+
+Door de Coöperatieve Rabobank U.A. gevestigd te Amsterdam is een rekening-courantkrediet verstrekt van € 750.000, Met
+ingang van 30 juni 2020 wordt de kredietlimiet halfjaarlijks verlaagd met een bedrag van € 125.000. Het rentepercentage is het
+gemiddelde van het 1-maands Euribor-tarief verhoogd met een opslag van 3,65%. Als zekerheid is het 1ste pandrecht gevestigd
+
+op:
+- alle huidige en toekomstige inventaris;
+
+- alle huidige en toekomstige rechten/ vorderingen al dan niet voortvloeiende uit huidige en toekomstige rechtsverhoudingen uit
+
+hoofde van het bedrijf op beroep van de stichting.
+
+Verder is door vier reumatologen van Stichting Reumazorg Zuid-West Nederland een persoonlijke borgtocht afgegeven voor
+
+€ 187.500,
+
+Dienstverleningsovereenkomst:
+
+Met Inocare DieZo BV zijn dienstverleningsovereenkomsten afgesloten, zoals vermeld in paragraaf 5.1.4.1. Algemeen.
+Het jaarlijks bedrag van deze aangegane verplichtingen bedraagt € 2.562.000. De resterende looptijd van de
+
+dienstverleningsovereenkomsten bedraagt 4 jaar.
+
+Onzekerheden kostprijs DBC- zorgproducten (verrichtingen):
+
+Als gevalg van achterstallige facturatie door verschillende leveranciers, inzake verrichtingen DBC-zorgproducten, zijn door het
+management schattingen en veronderstellingen gemaakt op de gerapporteerde waarde ‘kostprijs van DBC-zorgpraducten
+(verrichtingen)' en de 'Nag te ontvangen inkoopfacturen Ziekenhuizen’, De effecten van eventuele wijzigingen op deze schattingen
+
+en veronderstellingen zijn vooralsnog onzeker.
+
+Pagina 13 van 20
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V
+
+22 APR. 2021
+
+Stichting Reumazorg Zuid-West Nederland
+
+51.10 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+8. Opbrengsten zorgprestaties
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+Opbrengsten zorgverzekeringswet 19.521.677 20,717.200
+Totaal 19.521.677 20.717.200
+
+9. Kostprijs opbrengsten zorgprestaties
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+Kostprijs opbrengsten zorgverzekeringswet 12,414.561 14.227.935
+Totaal 12.414.561 14.227 935
+
+10. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2020 2019
+Overige bedrijfsopbrengsten 302.300 4.048.146
+Af: kosten van overige bedrijfsopbrengsten -187.078 -520.665
+Totaal 205.222 527.481
+LASTEN
+
+11. Personeelskosten
+
+De specificatie is als volgt: 2020 2019
+€ €
+Lonen en salarissen 1.500.337 1.248,315
+Sociale lasten 220.747 203.346
+Pensioenpremies 107.378 98.993
+Andere personeelskosten: 464.356 343.133
+Subtotaal 2.292.818 1.893.787
+Totaal personeelskosten 2.292 818 1.893.787
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+Reumatologen 0,4 0,0
+Medisch secretaresse 12,7 12,7
+Medisch assistent verpleegkundige 2,8 3,0
+Verpleegkundige 9,6 8,7
+Overige 4,5 4,6
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 30 29
+Aantal personeelsleden dat buiten Nederland werkzaam is 0 0
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+22 APR. 2021
+
+Pagina 14 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+12, Honorariumkosten vrijgevestigde medisch specialisten
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+Honorarium reumatologen 2.076.265 2.182.983
+Totaal 2.076.265 2.182.983
+Toelichting:
+
+Zie voor een nadere toelichting op de bezoldiging aan de Raad van Bestuur en Raad van Toezicht, referentie 15.
+
+13. Overige bedrijfskosten
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+Algemene kosten 1.377.641 1.478.643
+Huisvestingskosten 1.521.860 1.390.106
+Verkoopkosten 21.964 17.367
+Kantoorkosten 282 1.014
+Subtotaal 1.544.106 1.408.487
+Totaal overige bedrijfskosten 2.921.747 2.887.130
+
+14. Financiële baten en lasten
+
+De specificatie is afs volgt: 2020 2019
+
+€ €
+Overige rentebaten 0 0)
+Rente rekening-courant Inocare DieZo BV 1.588 16.909
+Subtotaal financiële baten 1.588 16.909
+Overige financiële lasten -14,525 21.152
+Subtotaal financiële lasten -14.525 -21.152
+Totaal financiële baten en lasten -12,937 4.243
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V,
+
+Pagina 15 van 20 Y] À APR. 2021
+
+Stichting Reumazorg Zuid-West Nederland
+
+15. WNT-VERANTWOORDING 2020 Stichting Reumazorg Zuid-West Nederland
+Per 1 januari 2013 is da Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT) ingegaan. Deze verantwoording is opgesteld op basis van de
+volgende op Stichting Reumazorg Zuid-West Nederland van toepassing zijnde regelgeving: zorg- en jeugdhulp
+
+Het bezoldigingsmaximum in 2020 voor Stichting Reumazorg Zuid-West Nederland is € 163.000. Dit geldt naar rato van de duur en/of omvang van het dienstverband. Voor
+topfunctionarissen zonder dienstbetrekking geldt met ingang van 1 januari 2018 voor de eerste 12 kalendermaanden een afwijkende normering, zowel voor de duur van de
+opdracht als voor het uurtarief.
+
+15.1 Bezoldiging topfunctionarissen
+15.1a Leidinggevende topfunctionarissen en gewezen topfunctionarissen met dienstbetrekking. Tevens leidinggevende fopfunctionarissen zonder dienstbetrekking vanaf de
+13° maand van de functievervulling.
+
+J.J. Veris- \ Dieren
+Groenendael
+Functiegegevens Voorzitter RvB Vice-voorzitter RvB
+Aanvang en einde functievervulling in 2020 1/1 - 31/12 1/1 - 31/12
+Omvang dienstverband (in fte) 0,4 0,4
+Gewezen topfunctionaris? nee nee,
+(Fictieve) dienstbetrekking? ja ja
+Individueel WNT. Ü 65.200 65.200
+Beloning 58.492 53.192
+
+Belastbare onkostenvergoedingen - -
+Beloningen betaalbaar op termijn - -
+Subtotaal 58.402 53.192
+
+-f- Onverschuldigd betaald bedrag - =
+
+Totaal bezoldiging 58.402 53.192
+Gegevens 2019
+
+[Aanvang en einde functievervulling in 2019 1/1 - 31/12 1/1 - 31/12
+Omvang dienstverband 2019 (In fte) 0,5 0,20
+Beloning 61.600,00 26.000,00
+
+Belastbare onkostenvergoedingen - -
+Beloningen betaalbaar op termijn - -
+Totaal bezoldiging 2019 61.600,00 26.000,00
+
+15.2b Toezichthoudende fopfunctionarissen
+
+Functiegegevens Voorzitter RvT Lid RvT Lid RvT
+Aanvang en einde functievervulling in 2020 1/1 - 31/12 1/1 - 31/12 1/1 - 31/12
+[Individueel WNT maximum 24.450 16.300 16.300
+Beloning 18.538 12.426 12.192
+Belastbare onkostenvergoedingen 323 73 252
+Beloningen betaalbaar op termijn - - 5
+Subtotaal 18.862 12.499 12.444
+
+-f- Onverschuldigd betaald bedrag - 5 =
+
+Totaal bezoldiging 18.862 12,499 12.444
+
+Gegevens 2019
+
+Aanvang en einde functievervulling in 2019 1/1 - 31/12 1/1 - 31/12 1/1 - 31/12
+Beloning 18.000 12.000 12.000)
+
+e onkostenvergoedingen 1.928 4T7 162)
+Beloningen betaalbaar op termijn - > J
+Totaal bezoldiging 2019 19.928 12.477 12.162)
+
+Gewaarmerkt voor identificatiecoeleinden
+Visser & Visser Audit en Assurance B.V
+Pagina 16 van 20
+
+22 APR. 2021
+
+Stichting Reumazorg Zuid-West Nederland
+
+16. Honoraria accountant 2020 2019
+De honoraria van de accountant over 2020 zijn als volgt: ° °
+Controle van de jaarrekening 26.500 26.000
+Totaal honoraria accountant 26.500 26.000
+
+17. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen en hun
+bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+De bezoldiging van de bestuurders en toezichthouders die in het kader van de WNT verantwoord worden, is opgenomen onder punt 15.
+
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Stichting Reumazorg Zuid-West Nederland heeft de jaarrekening 2020 opgemaakt en vastgesteld in de
+vergadering van 22-04-2021.
+
+De raad van toezicht van de Stichting Reumazorg Zuid-West Nederland heeft de jaarrekening 2020 goedgekeurd in de vergadering
+van 22-04-2021.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+Gebeurtenissen na balansdatum
+Er hebben geen belangrijke gebeurtenissen na balansdatum plaatsgevonden.
+
+Ondertekening door bestuurders en toezichthouders
+
+EED
+
+an Dieren” 22-4-2021
+van Bestuur
+
+22-4-2021
+
+22-4-2021 22-4-2021
+
+Lid Raad van Toezicht
+
+22-4-2021
+
+Gewaarmerkt voor identificätiedoeteinden
+Vlsser & Visser Audit en Assurance B.V
+
+22 APR, 2021
+
+Pagina 17 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+5.2 OVERIGE GEGEVENS
+
+Gewaarrrerkt voor identficatedoel ein en
+Visser & Visser Audit en Assurance B.V.
+
+22 APR. 2021
+
+Pagina 18 van 20
+
+Stichting Reumazorg Zuid-West Nederland
+
+5.2 OVERIGE GEGEVENS
+
+5.2.1 Statutaire regeling resultaatbestemming
+
+De in het boekjaar batige dan wel nadelige saldo's worden ten gunste of ten laste van de stichtingsreserve
+gebracht. Volgens artikel 28 van de statuten kan het stichtingsvermagen alleen worden besteed ten behoeve van
+een Nederlandse instelling zoals bedoeld in artikel 5b Algemene wet inzake rijksbelastingen of een daarvoor in de
+plaats gekomen bepaling, welke instelling eenzelfde bestuur heeft als de ontbonden Stichting en naar het oordeel
+van de Raad van Bestuur een soortgelijk doel heeft als de Stichting waarbij die instelling met toepassing van
+artikel 5 lid 1 onderdeel c van de Wet op de vennootschapsbelasting 1969 of een daarvoor in de plaats gekomen
+bepaling is vrijgesteld van vennootschapsbelasting. Ingeval er geen instellingen zijn die aan al deze voorwaarden
+voldoen, kiest de Raad van Bestuur een meest naastliggende instelling.
+
+5.2.3 Nevenvestigingen
+
+Stichting Reumazorg Zuid-West Nederland heeft nevenvestigingen in Oostburg, Roosendaal, Terneuzen,
+Vlissingen, Zierikzee, Axel, Lelystad, Urk, Lemmer en Emmeloord.
+
+5.2.4 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina.
+
+Gewaarmerkt voor identiticatwedseleinde:
+Visser & Visser Audit en Assurance B.V.
+
+Pagina 19 van 20
+
+22 APR. 2021
+
+Controleverklaring van de
+
+onafhankelijke accountant
+
+Gewaarmerkt voor identificatiedaeleinder
+Visser & Visser Audit en Assurance 5.V
+
+Pagina 20 van 20
+
+22 APR. 2021
+
+WuIssER&VISSER
+
+AUDIT EN ASSURANCE
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan: het bestuur en de raad van toezicht van Stichting Reumazorg Zuid-West Nederland
+
+A. Verklaring over de in het jaarverslag opgenomen jaarrekening 2020
+
+Ons oordeel
+
+Wij hebben de jaarrekening 2020 van Stichting Reumazorg Zuid-West Nederland te Goes gecontroleerd.
+
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening een getrouw beeld van de
+grootte en de samenstelling van het vermogen van Stichting Reumazorg Zuid-West Nederland per
+31 december 2020 en van het resultaat over 2020 in overeenstemming met de Regeling verslaggeving
+WTZi (RvW).
+
+De jaarrekening bestaat uit:
+
+A de enkelvoudige balans per 31 december 2020;
+
+A de enkelvoudige resultatenrekening over 2020;
+
+A de toelichting met een overzicht van de gehanteerde grondslagen voor financiële verslaggeving en
+andere toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de Nederlandse
+controlestandaarden en de Regeling Controleprotocol WNT 2020 vallen. Onze verantwoordelijkheden
+op grond hiervan zijn beschreven in de sectie 'Onze verantwoordelijkheden voor de controle van de
+jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Reumazorg Zuid-West Nederland zoals vereist in de Verordening
+inzake de onafhankelijkheid van accountants bij assurance-opdrachten (ViO) en andere voor de
+opdracht relevante onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de
+Verordening gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis voor ons
+oordeel.
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met de Regeling Controleprotocol WNT 2020 hebben wij de anticumulatiebepaling,
+bedoeld in artikel 1.6a WNT en artikel 5, eerste lid, onderdelen n en o, Uitvoeringsregeling WNT, niet
+gecontroleerd. Dit betekent dat wij niet hebben gecontroleerd of er wel of niet sprake is van een
+normoverschrijding door een leidinggevende topfunctionaris vanwege eventuele dienstbetrekkingen als
+leidinggevende topfunctionaris bij andere WNT-plichtige instellingen alsmede of de in dit kader vereiste
+toelichting juist en volledig is.
+
+B. Verklaring over de in het jaarverslag opgenomen andere informatie
+
+Naast de jaarrekening en onze controleverklaring daarbij, omvat het jaarverslag andere informatie, die
+bestaat uit:
+
+A de overige gegevens.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie:
+A met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+A alle informatie bevat die op grond van de RvW vereist is.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip, verkregen
+vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie materiële afwijkingen
+bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten van de RvW en de Nederlandse
+Standaard 720. Deze werkzaamheden hebben niet dezelfde diepgang als onze controlewerkzaamheden
+bij de jaarrekening.
+
+Het bestuur is verantwoordelijk voor het opstellen van de andere informatie, waaronder de overige
+gegevens in overeenstemming met de RvW.
+
+C, Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+Verantwoordelijkheden van het bestuur en de raad van toezicht voor de jaarrekening
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met de RvW. In dit kader is het bestuur verantwoordelijk voor een zodanige interne
+beheersing die het bestuur noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken
+zonder afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de stichting in staat is om haar
+werkzaamheden in continuïteit voort te zetten. Op grond van genoemd verslaggevingsstelsel moet het
+bestuur de jaarrekening opmaken op basis van de continuïteitsveronderstelling, tenzij het bestuur het
+voornemen heeft om de stichting te liquideren of de bedrijfsactiviteiten te beëindigen of als beëindiging
+het enige realistische alternatief is, Het bestuur moet gebeurtenissen en omstandigheden waardoor
+gerede twijfel zou kunnen bestaan of de onderneming haar bedrijfsactiviteiten in continuïteit kan
+voortzetten, toelichten in de jaarrekening.
+
+De raad van toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van financiële
+verslaggeving van de stichting.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat wij
+daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven oordeel.
+
+Onze controle ís uitgevoerd met een hoge mate maar geen absolute mate van zekerheid waardoor het
+mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien redelijkerwijs kan
+worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen zijn op de economische
+beslissingen die gebruikers op basis van deze jaarrekening nemen. De materialiteit beïnvloedt de aard,
+timing en omvang van onze controlewerkzaamheden en de evaluatie van het effect van onderkende
+afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, de Regeling Controleprotocol WNT 2020, ethische voorschriften en de
+onafhankelijkheidseisen. Onze controle bestond onder andere uit:
+
+A het identificeren en inschatten van de risico’s dat de jaarrekening afwijkingen van materieel belang
+bevat als gevolg van fouten of fraude, het in reactie op deze risico's bepalen en uitvoeren van
+controlewerkzaamheden en het verkrijgen van controle-informatie die voldoende en geschikt is afs
+basis voor ons oordeel. Bij fraude is het risico dat een afwijking van materieel belang niet ontdekt
+wordt groter dan bij fouten. Bij fraude kan sprake zijn van samenspanning, valsheid in geschrifte,
+het opzettelijk nalaten transacties vast te leggen, het opzettelijk verkeerd voorstellen van zaken of
+het doorbreken van de interne beheersing;
+
+A het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als doel
+controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit van de
+interne beheersing van de entiteit;
+
+A het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële verslaggeving en
+het evalueren van de redelijkheid van schattingen door het bestuur en de toelichtingen die daarover
+in de jaarrekening staan;
+
+A het vaststellen dat de door het bestuur gehanteerde continuïteitsveronderstelling aanvaardbaar is.
+Tevens het op basis van de verkregen controle-informatie vaststellen of er gebeurtenissen en
+omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of de onderneming haar
+bedrijfsactiviteiten in continuïteit kan voortzetten. Als wij concluderen dat er een onzekerheid van
+materieel belang bestaat, zijn wij verplicht om aandacht in onze controleverklaring te vestigen op
+de relevante gerelateerde toelichtingen in de jaarrekening. Als de toelichtingen inadequaat zijn,
+moeten wij onze verklaring aanpassen. Onze conclusies zijn gebaseerd op de controle-informatie
+die verkregen is tot de datum van onze controleverklaring. Toekomstige gebeurtenissen of
+omstandigheden kunnen er echter toe leiden dat een onderneming haar continuïteit niet langer kan
+handhaven;
+
+A hetevalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin opgenomen
+toelichtingen;
+
+A het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties en
+gebeurtenissen.
+
+Wij communiceren met de raad van toezicht onder andere over de geplande reikwijdte en timing van
+de controle en over de significante bevindingen die uit onze controle naar voren zijn gekomen,
+waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Barneveld, 22 april 2021
+
+Visser & Visser Audit en Assurance B.V.
+
+Was getekend.
+
+E.D. van den Brink RA
