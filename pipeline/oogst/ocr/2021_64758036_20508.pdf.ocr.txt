@@ -1,0 +1,741 @@
+# whosigns-ocr v1 grootte=8158057 dpi=300 paginas=20
+1. RAPPORT
+
+
+Stichting Oogkliniek Extra
+Geerstraat 22
+6411 NR HEERLEN
+
+Referentie: OO92-2021 Heerlen, 16 mei 2022
+Betreft: jaarrekening 2021
+
+Geachte Bestuur en Raad van Toezicht,
+
+Hiermede brengen wij u verslag uit van onze werkzaamheden omtrent de jaarrekening 2021 van uw
+onderneming.
+
+De balans per 31 december 2021, de winst- en verliesrekening over 2021 en de toelichting, welke tezamen
+de jaarrekening 2021 vormen, alsmede de overige gegevens zijn in dit rapport opgenomen.
+
+1.1 Samenstellingsverklaring
+
+De jaarrekening van Stichting Oogkliniek Extra te Maastricht is door ons samengesteld op basis van de van
+u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2021 en de winst- en
+verliesrekening over 2021 met de daarbij horende toelichting. In deze toelichting is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, “Samenstellingsopdrachten".
+
+Op grond van deze standaard wordt van ons verwacht dat wij u ondersteunen bij het opstellen en
+presenteren van de jaarrekening in overeenstemming met de in Nederland algemeen aanvaardbare
+grondslagen voor financiële verslaggeving. Wij hebben daarbij onze deskundigheid op het gebied van
+administratieve verwerking en financiële verslaggeving toegepast.
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het resultaat
+getrouw dient weer te geven in overeenstemming met de Regelgeving verslaggeving WTZi en de
+bepalingen van en krachtens de Wet normering bezondling topfunctionarissen publieke en semipublieke
+sector (WNT), alsmede voor het opstellen van het jaarverslag in overeenstemming met de in Nederland
+geldende RJ 655 Zorginstellingen.
+
+Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal nagegaan dat het
+beeld van de jaarrekening overeenkwam met onze kennis van Stichting Oogkliniek Extra.
+
+Wij hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een
+oordeel te geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers
+van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u
+verstrekte gegevens.
+
+Voor een nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de VGBA verwijzen
+wij u naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+Verklaring betreffende overige bij of krachtens de wet gestelde eisen
+
+Ingevolge artikel 2 Regeling verslaggeving WTZi juncto artikel 2:393 lid 5 onder e BW vermelden wij dat
+ons geen tekortkomingen zijn gebleken naar aanleiding van het onderzoek of de in artikel 2:392 lid 1 onder
+b tot en met h BW vereiste gegevens zijn toegevoegd.
+
+/ PA
+Ani
+
+aän uw opdracht te hebben voldaan. Tot het geven van nadere toelichting zijn wij
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+1.2 Algemeen
+
+Oprichting
+
+Blijkens de akte d.d. 15-12-2015 werd de besloten vennootschap met beperkte aansprakelijkheid Stichting
+Oogkliniek Extra per genoemde datum opgericht.
+
+De vennootschap is ingeschreven bij de Kamer van Koophandel onder dossiernummer 64758036.
+
+Doelstelling
+
+De doelstelling van Stichting Oogkliniek Extra wordt in artikel van de statuten als volgt omschreven:
+
+- Het leveren van verantwoorde medisch specialistische zorg op het gebied van oogzorg.
+
+Onder verantwoorde zorg wordt in dit verband verstaan diëntgerichte, veilige en betaalbare zorg die geleverd
+wordt via een doelmatige en transparante bedrijfsvoering.
+
+- Het verrichten van alle verdere handelingen, die met het vorenstaande in de ruimste zin verband houden
+
+of daartoe bevordelijk kunnen zijn.
+
+Bestuur
+
+De directie wordt gevoerd door:
+- Raad van Bestuur
+
+- Raad van Toezicht
+
+1.3 Resultaatvergelijking
+
+Ter analyse van het resultaat van de onderneming verstrekken wij u de onderstaande opstelling, welke is
+gebaseerd op de winst- en verliesrekening.
+
+2021 2020
+€ % € %
+Opbrengsten zorgprestaties 1.802.485 100,0% 1.656.827 100,0%
+Inkoopwaarde van de zorgprestaties 1.761.032 97,7% 1.632.935 98 6%
+Bruto bedrijfsresultaat 41.453 2,3% 23.892 1,4%
+Overige personeelskosten 22.500 1,3% 10.000 0,6%
+Algemene kosten 17.672 1,0% 13.693 0,8%
+Som der kosten 40.172 2,3% 23.693 1,4%
+Bedrijfsresultaat 1.281 0,0% 199 0,0%
+Rentelasten en soortgelijke kosten -198 0,0% -199 0,0%
+Som der financiële baten en lasten -198 0,0% -199 0,0%
+Resultaat 1.083 0,0% = 0,0%
+
+
+1.3 Resultaatvergelijking
+
+Stichting Oogkliniek Extra te Heerlen
+
+Het resultaat 2021 is ten opzichte van 2020 gestegen met € 1.083. De ontwikkeling van het resultaat 2021
+ten opzichte van 2020 kan als volgt worden weergegeven:
+
+Het resultaat is gunstig beïnvloed door:
+Stijging van:
+Opbrengsten zorgprestaties
+
+Daling van:
+Rentelasten en soortgelijke kosten
+
+Het resultaat is ongunstig beïnvloed door:
+
+Stijging van:
+
+Inkoopwaarde van de zorgprestaties
+Overige personeelskosten
+
+Algemene kosten
+
+Stijging resultaat
+
+145.658
+
+128.097
+12.500
+3.979
+
+145.659
+
+144.576
+
+1.083
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+1.4 Meerjarenoverzicht
+
+Ter analyse van het resultaat van de onderneming verstrekken wij u de onderstaande opstelling, welke is
+gebaseerd op de winst- en verliesrekening.
+
+2021 2020 2019 2018
+€ € € €
+Opbrengsten zorgprestaties 1.802.485 1.656.827 1.579.907 1.331.139
+Inkoopwaarde van de zorgprestaties 1.761.032 1.632.935 1.561.436 1,313:557
+Bruto bedrijfsresultaat 41.453 23.892 18.471 17.582
+Overige personeelskosten 22.500 10.000 10.000 10.000
+Algemene kosten 17.672 13.693 8.260 7.423
+Som der kosten 40.172 23.693 18.260 17.423
+Bedrijfsresultaat 1.281 199 211 159
+Rentelasten en soortgelijke kosten -198 -199 211 „159
+Som der financiële baten en lasten -198 -199 „214 -159
+Resultaat 1.083 5 5 =
+
+
+2. JAARREKENING
+
+
+2.1 Balans per 31 december 2021
+(Na resultaatbestemming)
+
+Stichting Oogkliniek Extra te Heerlen
+
+31 december 2021
+
+31 december 2020
+
+ACTIVA
+Vlottende activa
+
+Vorderingen
+Vorderingen inzake zorgprestaties
+
+Liquide middelen
+
+Totaal activazijde
+
+€ €
+315.610
+315.610
+
+315.610
+
+€ €
+281.758
+281.758
+
+145
+
+281.903
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+2.1 Balans per 31 december 2021
+(Na resultaatbestemming)
+
+31 december 2021 31 december 2020
+PASSIVA Ee € € €
+Stichtingskapitaal
+Reserves 1.084 1
+1.084 1
+Langlopende schulden
+Schuld aan gelieerde ondernemingen 312.026 277.626
+312.026 277.626
+Kortlopende schulden
+Handelscrediteuren 5 2.066
+Overlopende passiva 2.500 2.210
+2.500 4.276
+Totaal passivazijde 315.610 281.903
+
+{Oe
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+2.2 Winst-en verliesrekening over 2021
+
+2021 2020
+€ € € €
+
+Opbrengsten zorgprestaties 1.802.485 1.656.827
+Uitbesteed werk zorgkliniek 1.736:561 1.632.935
+Vergoeding medisch handelen 24.471 =
+
+1.761.032 1.632.935
+Bruto bedrijfsresultaat 41.453 23.892
+Bestuurdersvergoeding 22.500 10.000
+Algemene kosten 17.672 13.693
+Som der kosten 40.172 23.693
+Bedrijfsresultaat 1.281 199
+Rentelasten en soortgelijke kosten -198 -199
+Som der financiële baten en lasten -198 -199
+
+Resultaat 1.083 ra
+
+-il-
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+2.3 Kasstroomoverzicht over 2021
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2021 2020
+€ € € €
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 1.281 199
+Verandering in werkkapitaal:
+Vorderingen -33.852 -74.453
+Kortlopende schulden (excl. schulden
+aan kredietinstellingen) -1.776 -203.028
+
+-35.628 -277.481
+Kasstroom uit bedrijfsoperaties -34.347 -277.282
+Ontvangsten van afnemers 1.768.633 1.582.374
+Betalingen aan leveranciers en werknemers -1.802.980 -1.663.352
+Mutatie rekening-courantposities 5 -196.304
+Kasstroom uit bedrijfsoperaties - 5
+Rentelasten en soortgelijke kosten -198 -199
+
+-198 -199
+
+Kasstroom uit operationele activiteiten -34.545 -277.481
+Kasstroom uit financieringsactiviteiten
+Mutatie langlopende schulden 34.400 277.626
+Kasstroom uit financieringsactiviteiten 34.400 277.626
+Mutatie geldmiddelen -145 145
+Toelichting op de geldmiddelen
+Stand per 1 januari 145 -
+Mutatie geldmiddelen -145 145
+Stand per 31 december 5 145
+
+-12-
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+2.4 Toelichting op de jaarrekening
+
+ALGEMEEN
+
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW in overeenstemming met de
+Richtlijnen voor de Jaarverslaggeving voor de kleine rechtspersoon en de Wet Toelating zorginstellingen
+(WTZI). Zoals toegestaan in artikel 2:396 lid 6 BW zijn voor de waardering van activa en passiva en voor de
+bepaling van het resultaat de grondslagen voor de bepaling van de belastbare winst, bedoeld in hoofdstuk
+II van de Wet op de vennootschapsbelasting 1969, in aanmerking genomen.
+
+Onderneming
+Stichting Oogkliniek Extra, statutair gevestigd te Maastricht is ingeschreven bij de Kamer van Koophandel
+onder dossiernummer 64758036.
+
+Activiteiten
+
+De activiteiten van Stichting Oogkliniek Extra, statutair gevestigd te Maastricht, bestaan voornamelijk uit:
+Het leveren van verantwoorde medische specialistische zorg op het gebied van oogzorg.
+
+De feitelijke activiteiten worden uitgevoerd aan de Geerstraat 22 te Heerlen.
+
+Verbonden partijen
+
+Als verbonden partij worden alle rechtspersonen aangemerkt waarover overheersende zeggenschap,
+gezamenlijke zeggenschap of invloed van betekenis kan worden uitgeoefend. Ook rechtspersonen die
+overwegende zeggenschap kunnen uitoefenen worden aangemerkt als verbonden partij. Ook de statutaire
+directieleden, andere sleutelfunctionarissen in het management en nauwe verwanten zijn verbonden
+partijen. Transacties van betekenis met verbonden partijen worden toegelicht voor zover deze niet onder
+normale marktvoorwaarden zijn aangegaan. Hiervan wordt toegelicht de aard en de omvang van de
+transactie en andere informatie die nodig is voor het verschaffen van het inzicht.
+De volgende partijen zijn verbonden met de stichting:
+
+= Oogkliniek Parkstad B.V.
+
+Daarnaast heeft hezelfde bestuur ook zeggenschap bij ;
+
+= Stichting Oogkliniek Zuid Limburg
+
+= Oogkliniek Maastricht B.V.
+
+Het bestuur werd over 2020 gevoerd door K.H.M. van de Kar - Hendrickx.
+
+Op 31 december 2020 is Oogklieken Limburg B.V. voor 100% in bezit gekomen van Oogkliniek Maastricht
+B.V. en Oogkliniek Parkstad B.V.
+
+Transacties met verbonden partijen
+Vanuit de vennootschap hebben de volgende transacties met verbonden partijen plaatsgevonden:
+= inkoop van de zorgprestaties bij Oogkliniek Parkstad B.V. t.b.v. €1.736.561,-.
+
+Schattingen
+
+Om de grondslagen en regels voor het opstellen van de jaarrekening te kunnen toepassen, is het nodig dat
+het bestuur van de vennootschap zich over verschillende zaken een oordeel vormt, en schattingen maakt
+die essentieel kunnen zijn voor de in de jaarrekening opgenomen bedragen.
+
+Indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste inzicht noodzakelijk is, is de aard van
+deze oordelen en schattingen inclusief de bijbehorende veronderstellingen opgenomen bij de toelichting op
+de desbetreffende jaarrekeningposten.
+
+-13-
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+2.4 Toelichting op de jaarrekening
+GRONDSLAGEN VOOR DE BALANSWAARDERING
+
+Algemeen
+
+De waardering van activa en passiva vindt plaats op basis van historische kosten. Tenzij bij de
+desbetreffende grondslag voor de specifieke balanspost anders wordt vermeld, worden de activa en passiva
+opgenomen tegen nominale waarde.
+
+Vorderingen inzake zorgprestaties
+
+De kortlopende vorderingen betreffen de vorderingen met een looptijd korter dan één jaar. Deze worden bij
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs. De reële waarde en geamortiseerde kostprijs zijn gelijk aan de nominale waarde. Noodzakelijk
+geachte voorzieningen voor het risico van oninbaarheid worden in mindering gebracht. Noodzakelijk
+geachte voorzieningen voor het risico van oninbaarheid worden in mindering gebracht. Tevens wordt een
+voorziening voor plafondoverschrijding in mindering gebracht.
+
+Onderhanden zorgprestaties worden als opbrengsten en kosten verwerkt in de winst- en verliesrekening
+naar rato van de verrichte prestaties op balansdatum.
+
+Liquide middelen
+
+De liquide middelen worden gewaardeerd tegen nominale waarde en staan, voor zover niet anders
+vermeld, ter vrije beschikking van de onderneming. Het betreffen de direct opeisbare vorderingen op
+kredietinstellingen en kasmiddelen.
+
+Langlopende schulden
+
+Langlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Transactiekosten
+die direct zijn toe te rekenen aan de verwerving van de langlopende schulden worden in de waardering bij
+eerste verwerking opgenomen. Langlopende schulden worden na eerste verwerking gewaardeerd tegen
+geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening houdend met agio of disagio en onder
+aftrek van transactiekosten.
+
+Het verschil tussen de bepaalde boekwaarde en de uiteindelijke aflossingswaarde wordt op basis van de
+effectieve rente gedurende de geschatte looptijd van de langlopende schulden in de winst-en-
+verliesrekening als interestlast verwerkt.
+
+Kortlopende schulden
+
+De kortlopende schulden betreffen de schulden met een looptijd korter dan één jaar. Deze worden bij
+eerste verwerking opgenomen tegen reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs.
+
+Niet in de balans opgenomen rechten en verplichtingen
+
+De niet in de balans opgenomen rechten en verplichtingen zijn, tenzij anders vermeld, gewaardeerd tegen
+nominale waarde.
+
+-14-
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+2.4 Toelichting op de jaarrekening
+GRONDSLAGEN VOOR DE RESULTAATBEPALING
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar
+waarin zij zijn gerealiseerd.
+
+Het resultaat wordt tevens bepaald met inachtneming van de verwerking van ongerealiseerde
+waardeveranderingen van op reële waarde gewaardeerde vastgoedbeleggingen en de onder de vlottende
+activa opgenomen effecten.
+
+Opbrengsten zorgprestaties
+
+Onder opbrengsten zorgprestaties wordt verstaan de opbrengst van de in het verslagjaar geleverde
+goederen en verleende diensten.
+
+Opbrengsten van diensten worden opgenomen naar rato van de mate waarin de diensten zijn verricht. De
+kostprijs van deze diensten wordt aan dezelfde periode toegerekend.
+
+Inkoopwaarde van de zorg
+Onder de inkoopwaarde van de zorg wordt verstaan de inkoop van de zorg bij Oogkliniek Parkstad B.V.
+
+Bedrijfskosten
+De kosten worden toegerekend aan het verslagjaar waarop zij betrekking hebben.
+
+Financiële baten en lasten
+De financiële baten en -lasten betreffen de op de verslagperiode betrekking hebbende renteopbrengsten en
+-kosten van uitgegeven en ontvangen leningen en tegoeden.
+
+GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+
+Het kasstroomoverzicht wordt opgesteld volgens de indirecte methode.
+
+De geldmiddelen in het kasstroomoverzicht bestaan uit liquide middelen.
+
+Kasstromen in vreemde valuta worden omgerekend tegen een geschatte gemiddelde koers.
+
+Belastingen, rentebaten en soortgelijke opbrengsten, alsmede rentelasten en soortgelijke kosten, worden
+opgenomen onder de kasstroom uit operationele activiteiten.
+
+- 15 -
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+2.5 Toelichting op de balans
+ACTIVA
+
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+31-12-2021 31-12-2020
+
+€ €
+Vorderingen inzake zorgprestaties
+Gedeclareerde zorgprestaties 126.377 83.099
+Nog te factureren zorgprestaties - 86.626
+Onderhanden zorgprestaties 204.628 184.221
+Continuiteitsbijdrage -18.359 -72.188
+Meerkosten covid-19 2.964 je
+
+315.610 281.758
+
+Een voorziening voor oninbare debiteuren wordt niet noodzakelijk geacht.
+
+31-12-2021 31-12-2020
+€ €
+
+Liquide middelen
+Rekening courant bank 5 145
+
+- 16 -
+
+
+2.5 Toelichting op de balans
+PASSIVA
+
+Stichtingskapitaal
+
+Stichtingskapitaal
+
+Stand per 1 januari
+
+Uit voorstel resultaatbestemming
+Stand per 31 december
+
+LANGLOPENDE SCHULDEN
+
+Schuld aan gelieerde ondernemingen
+Schuld aan Oogkliniek Parkstad B.V.
+
+KORTLOPENDE SCHULDEN
+
+Handelscrediteuren
+Crediteuren
+
+Overlopende passiva
+Nog te betalen accountants- en advieskosten
+Nog te betalen advieskosten Raad van Toezicht
+
+Stichting Oogkliniek Extra te Heerlen
+
+2021 2020
+€ €
+1 1
+1.083 7
+1.084 1
+31-12-2021 31-12-2020
+€ €
+312.026 277.626
+31-12-2021 31-12-2020
+€ €
+T 2.066
+31-12-2021 31-12-2020
+€ €
+2.500 1.000
+s 1.210
+2.500 2.210
+
+ie
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+2.6 Toelichting op de winst- en verliesrekening
+
+Opbrengsten zorgprestaties
+Declaraties inzake zorgprestaties
+Omzet Dermatochalasis
+Continuiteitsbijdrage
+
+Mutatie onderhanden zorgprestaties
+
+Mutatie nog te factureren zorgprestaties
+
+2021 2020
+
+€ €
+1.839.307 1.503.562
+25:555 -
+3.842 59.932
+20.407 6.707
+-86.626 86.626
+1.802.485 1.656.827
+
+De opbrengsten zorgprestaties over 2021 is ten opzichte van het vorige boekjaar met 8,8% gestegen.
+
+Inkoopwaarde van de zorgprestaties
+
+Uitbesteed werk zorgkliniek
+
+Vergoeding medisch handelen
+Vergoeding Orthoptische Zorg
+Vergoeding medisch handelen
+
+Bestuursvergoeding
+Bestuursvergoeding
+
+Algemene kosten
+Accountants-en advieskosten
+Advieskosten Raad van Toezicht
+
+Financiële baten en lasten
+
+Rentelasten en soortgelijke kosten
+Rente schuld rekening courant
+
+Heerlen, 16 mei 2022
+Stichting Oogkliniek Extra
+
+W.G.
+Raad van Bestuur
+
+1.736.561 1;6832.935
+650 a
+23.821 5
+24.471 5
+22.500 10.000
+12.348 8.369
+5.324 5.324
+17.672 13.693
+198 199
+
+Raad van Toezicht
+
+- 18 -
+
+
+3. BIJLAGEN
+
+19e
+
+
+Stichting Oogkliniek Extra te Heerlen
+
+3.1 Wet Normering Topinkomens (WNT)
+
+Jr -
+
+
+WNT-VERANTWOORDING 2021 STICHTING OOGKLINIEK EXTRA
+
+Op 1 januari 2013 is de Wet normering topinkomens (WNT) in werking getreden. De WNT is van toepassing op Stichting Oogkliniek Extra
+
+Het voor Stichting Oogkliniek Extra toepasselijke bezoldigingsmaximum is in 2021 € 209.000,-.
+
+1 Bezoldii Functi :
+
+1a. Leidinggevende topfuncti i ‚ge
+
+topfunctionarissen met dienstbetrekking en leidinggevende
+
+topfunctionarissen zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+bedragen x € 1
+
+Functiegegevens
+
+K.H.M. Hendricks
+
+Bestuurder
+
+Aanvang5 en einde functievervulling in 2021
+
+01/01-31/12
+
+Deeltijdfactor in fteS
+
+0,1
+
+Gewezen topfunctionaris? 7
+
+nee
+
+(Fictieve) dienstbetrekking?
+
+nee
+
+Bezoldiging
+
+Beloning plus belastbare
+onkostenvergoedingen®
+
+22.500
+
+Beloningen betaalbaar op termijn®
+
+Subtotaal
+
+22.500
+
+Individueel toepasselijke
+bezoldigingsmaximum*e
+
+209.000
+
+-/- Onverschuldigd betaald bedrag**
+
+Totale bezoldiging
+
+22.500
+
+Reden waarom de overschrijding al dan niet
+is toegestaan
+
+Gegevens 20202
+
+Aanvang en einde functievervulling in 2020
+
+01/01-31/12
+
+Deeltijdfactor 2020 in fte 0,1
+
+Beloning plus belastbare 10.000,00
+
+onkostenvergoeding
+
+Beloningen betaalbaar op termijn 5
+
+Totale bezoldiging 2020 10.000,00
+
+1c. Toezichthoudende topfunctionarissen
+
+bedragen x € 1 G.J. Jager M‚L.M. Massaro
+Functiegegevens? Voorzitter Lid
+
+Aanvang en einde functievervulling in 2021
+
+01/01-31/12
+
+01/01-31/12
+
+Bezoldiging
+
+Bezoldiging 2.904 € 2.420
+Individueel toepasselijke bezoldigingsmaximum®
+
+-/- Onverschuldigd betaald bedrag
+
+Totale bezoldiging
+
+Reden waarom de overschrijding al dan niet is Niv. Nuv.t.
+toegestaan
+
+Gegevens 2020
+
+Aanvang en einde functievervulling in 2020 01/01-31/12 01/01-31/12
+Beloning plus belastbare onkostenvergoedingen 2.904 2.420
+Beloningen betaalbaar op termijn si
+
+Totale bezoldiging 2020 2.904 2.420
+
+3. Overige rapportageverplichtingen op grond van de WNT
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met dienstbetrekking die in 2021 een bezoldiging
+boven het individueel toepasselijke drempelbedrag hebben ontvangen.
+
