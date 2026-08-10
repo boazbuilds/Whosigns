@@ -1,0 +1,913 @@
+# whosigns-ocr v1 grootte=9365620 dpi=300 paginas=20
+VAN DER MEER
+
+Behoort bij accountantsrapport Fnloa 14
+
+2 WINST-EN-VERLIESREKENING OVER 2021
+
+2021 2020
+€ € € €
+
+Netto-omzet (8,9) 1.304.769 1.153.057
+Kostprijs van de omzet (10) 366.199 338.804
+Bruto marge 938.570 814.253
+Kosten
+Personeelskosten (11) 831.693 502.874
+Afschrijvingen immateriële vaste
+activa (12) 10.067 -
+Afschrijvingen materiële vaste
+activa (13) 18.069 14.330
+Huisvestingskosten (14) 31.171 13.524
+Kantoorkosten (15) 62.673 44.281
+Autokosten (16) 34.502 29.501
+Verkoopkosten (17) 58.012 10.754
+Algemene kosten (18) 76.022 63.891
+Incidentele implementatiekosten (19) 10.188 159.206
+
+1.132.397 838.361
+Bedrijfsresultaat -193.827 -24.108
+Financiële baten en lasten (20) 983 646
+Resultaat voor belastingen -192.844 -23.462
+Belastingen - -
+Resultaat na belastingen -192.844 -23.462
+
+Samenstellingsverklaring afgegeven
+
+Leev Basic B.V. Jaarrekening 2021
+
+VAN DER MEER
+
+Behoort bij accountantsrapport Pagina 15
+
+3 KASSTROOMOVERZICHT 2021
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2021
+
+€ €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat -193.827
+Aanpassingen voor:
+Afschrijvingen 27.783
+Veranderingen in het werkkapitaal:
+Mutatie vorderingen 9.106
+Mutatie kortlopende schulden (exclusief kortlopend deel van de
+langlopende schulden) -179.878
+Kasstroom uit bedrijfsoperaties -336.816
+Rentebaten 983
+Kasstroom uit operationele activiteiten -335.833
+Kasstroom uit investeringsactiviteiten
+Investeringen in immateriële vaste activa -99.698
+Investeringen in materiële vaste activa -11.052
+Herrubricering kosten software 89.999
+Desinvesteringen materiële vaste activa 14.103
+Kasstroom uit investeringsactiviteiten -6.648
+Kasstroom uit financieringsactiviteiten
+Mutatie wettelijke reserves 176.848
+Mutatie overige reserves -176.848
+Toename overige langlopende schulden 372.377
+Aflossing schulden aan kredietinstellingen -8.071
+Kasstroom uit financieringsactiviteiten 364.306
+
+21.825
+
+Leev Basic B. V. Jaarrekening 2021
+
+Behoort bij accountantsrapport
+
+Samenstelling geldmiddelen
+
+Geldmiddelen per 1 januari
+
+Mutatie liquide middelen
+
+Geldmiddelen per 31 december
+
+Leev Basic B.V.
+
+VAN DER MEER
+
+ee Accountantsi& Adviseurs.
+
+Pagina 16
+
+2021
+
+487
+21.825
+
+22.312
+
+Jaarrekening 2021
+
+VAN
+
+Behoort bij accountantsrapport Pagina 17
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+Algemeen
+
+Activiteiten
+
+De activiteiten van Leev Basic B.V. bestaan voornamelijk uit het aanbieden en begeleiden van
+zorgtrajecten voor jongeren en ouders middels grensverleggende sport- en outdooractiviteiten.
+
+Continuïteit
+
+Het eigen vermogen van Leev Basic B.V. bedraagt per 31 december 2021 € -204.425. De
+financiering hiervan vindt geheel plaats met kortlopende en langlopende schulden, waaronder door
+gebruik te maken van de uitstelregeling van de belastingdienst en handelscrediteuren. De
+continuïteit van de vennootschap hangt in hoge mate af van de bereidheid om deze financiering te
+continueren. De schuld aan de belastingdienst moet in 5 jaar terugbetaald worden. Er zijn in de
+voorgaande jaren investeringen in de organisatie en systemen verricht om de efficiency substantieel
+
+te verbeteren. De prognoses laten voor de komende jaren, rekening houdend met al afgesloten
+contracten, positieve resultaten en kasstromen zien.
+
+Ondanks de investeringen en reorganisatie bestaat er een onzekerheid van materieel belang op
+grond waarvan gerede twijfel zou kunnen bestaan over de continuïteit van het geheel van de
+werkzaamheden van Leev Basic B.V.
+
+Gezien bovenstaande uiteenzetting verwachten wij geen continuïteitsissue op deze grond voor de
+onderneming. Wij zijn dan ook van mening dat de waarderingsgrondslagen op basis van continuïteit
+kunnen worden gehandhaafd. De in de onderhavige jaarrekening gehanteerde grondslagen van
+waardering en resultaatbepaling zijn dan ook gebaseerd op de veronderstelling van continuïteit van
+de besloten vennootschap.
+
+Statutair adres en KvK
+
+Leev Basic B.V. (geregistreerd onder KvK-nummer 17261643) is feitelijk gevestigd op Postbus 68 te
+Roden en statutair gevestigd te Waalre.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding
+van Leev Basic B.V. zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de
+in de jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW
+vereiste inzicht noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de
+bijbehorende veronderstellingen opgenomen bij de toelichting op de desbetreffende
+jaarrekeningposten.
+
+Leev Basic B.V. Jaarrekening 2021
+
+MEER
+
+ountants-& Adviseurs
+
+Behoort bij accountantsrapport Pagina 18
+
+Foutherstel
+
+In het boekjaar 2020 is geïnvesteerd in CRM + Pardot software om te voldoen aan de eisen van
+opdrachtgevers inzake vastlegging van clientgegevens en voortgang van werkprocessen en
+trajecten. In het investeringsbedrag zijn ten onrechte kosten opgenomen die ten laste van het
+resultaat horen. De immateriële vaste activa is gecorrigeerd met € 89.999. Hiervan is 79.811
+gecorrigeerd op de opgenomen schulden en 10.188 in het boekjaar ten laste van het resultaat
+gebracht. Aangezien het hier geen materiele fout betreft, is de correctie in het boekjaar 2021
+doorgevoerd.
+
+Leev Basic B.V. Jaarrekening 2021
+
+KEN È ne KA
+
+Behoort bij accountantsrapport Pagina 19
+
+Algemene grondslagen voor de opstelling van de jaarrekening
+
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW. In deze jaarrekening is
+gebruik gemaakt van de door de wetgever geboden mogelijkheid in artikel 2:396 lid 6 BW om
+fiscale waarderingsgrondslagen te hanteren voor de waardering van activa en passiva en voor de
+bepaling van het resultaat.
+
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van
+historische kosten. Tenzij bij de desbetreffende grondslag voor de specifieke balanspost anders
+wordt vermeld, worden de activa en passiva gewaardeerd tegen nominale waarde.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden
+slechts opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke
+verliezen die hun oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen
+indien zij voor het opmaken van de jaarrekening bekend zijn geworden.
+
+Grondslagen voor de waardering van activa en passiva
+
+Algemeen
+
+De waardering van de balans geschiedt op basis van fiscale grondslagen.
+
+Immateriële vaste activa
+
+De immateriële vaste activa worden gewaardeerd tegen verkrijgingsprijs onder aftrek van
+afschrijvingen. Er wordt rekening gehouden met bijzondere waardeverminderingen. Dit is het geval
+als de boekwaarde van het actief (of van de kasstroomgenererende eenheid waartoe het actief
+behoort) hoger is dan de realiseerbare waarde ervan.
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs
+inclusief direct toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de
+verwachte toekomstige gebruiksduur en bijzondere waardeverminderingen.
+
+Vorderingen
+
+De vorderingen worden opgenomen tegen nominale waarde en voor zover nodig is op de
+vorderingen een voorziening wegens oninbaarheid in mindering gebracht.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan
+kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen
+nominale waarde.
+
+Leev Basic B.V. Jaarrekening 2021
+
+VAN DER
+
+eur
+
+Behoort bij accountantsrapport Pagina 20
+
+Kortlopende schulden
+
+Schulden worden gewaardeerd tegen de nominale waarde, tenzij anders is bepaald.
+
+Grondslagen voor de bepaling van het resultaat
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties
+en de kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in
+het jaar waarin zij zijn gerealiseerd.
+
+Kostprijs van de omzet
+
+De kostprijs van de omzet omvat de kostprijs van de geleverde diensten, bestaande uit de directe
+loonkosten en de overige directe en indirecte kosten die aan de diensten kunnen worden
+toegerekend.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij
+betrekking hebben.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve
+rentevoet van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt
+rekening gehouden met de verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+
+De vennootschapsbelasting wordt berekend tegen het geldende tarief over het fiscale resultaat van
+het boekjaar.
+
+Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+Leev Basic B. V. Jaarrekening 2021
+
+Behoort bij accountantsrapport
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Immateriële vaste activa
+
+Boekwaarde per 1 januari 2021
+Investeringen
+Afschrijvingen
+Herrubricering kosten software
+
+Boekwaarde per 31 december 2021
+
+Verkrijgingsprijs
+Cumulatieve afschrijvingen en overige waardeverminderingen
+
+Boekwaarde per 31 december 2021
+
+Betreft de ontwikkeling en implementatie van Salesforce CRM en Pardot software.
+
+Afschrijvingspercentages
+
+Kosten van ontwikkeling
+
+Leev Basic B.V.
+
+VA
+
+Pagina 21
+
+Kosten van
+antwikkelinc
+
+5
+
+177.216
+
+99.698
+-10.067
+-89.999
+
+176.848
+
+276.914
+-100.066
+
+176.848
+
+%
+11,11
+
+Jaarrekening 2021
+
+VAN DER MEER
+
+Behoort bij accountantsrapport Pagina 22
+
+2. Materiële vaste activa
+
+Vervoer-
+Inventaris middelen _ Totaal
+€ € €
+Boekwaarde per 1 januari 2021
+Aanschaffingswaarde 24.525 73.927 98.452
+Cumulatieve afschrijvingen en waardeverminderingen -9.194 -25247 -34.441
+
+15.331 48.680 64.011
+
+Mutaties
+
+Investeringen 11.052 - 11.052
+Desinvesteringen - _-18.980 -18.980
+Afschrijving desinvesteringen - 4.877 4.877
+Afschrijvingen -5.066 -12.650 -17.716
+
+5.986 -26.753 -20.767
+
+Boekwaarde per 31 december 2021
+
+Aanschaffingswaarde 35.577 54.947 90.524
+Cumulatieve afschrijvingen en waardeverminderingen -14.260 -33.020 -47.280
+Boekwaarde per 31 december 2021 21.317 21.927 43.244
+
+Afschrijvingspercentages
+%
+
+Inventaris 20
+Vervoermiddelen 20
+VLOTTENDE ACTIVA
+
+3. Vorderingen
+
+31-12-2021 31-12-2020
+€ €
+
+Handelsdebiteuren
+
+Debiteuren 6.431 23.669
+
+Leev Basic B. V. Jaarrekening 2021
+
+Behoort bij accountantsrapport
+
+Overige vorderingen en overlopende activa
+
+Overige vorderingen
+Overlopende activa
+
+Overige vorderingen
+
+Rekening-courant M.N.M. Verzellenberg
+Rekening-courant H. Settels
+Waarborgsommen huurverplichtingen
+
+Rekening-courant M.N.M. Verzellenberg
+
+Stand per 1 januari
+Opnamen en stortingen, per saldo
+Rente
+
+Stand per 31 december
+
+Over de vordering wordt 4,00% rente berekend.
+
+Rekening-courant H. Settels
+
+Stand per 1 januari
+Opnamen en stortingen, per saldo
+Rente
+
+Stand per 31 december
+
+Over de vordering wordt 4,00% rente berekend.
+
+Leev Basic B.V.
+
+VAN DER MEER
+Sé q
+
+31-12-2021 31-12-2020
+€ €
+77.915 81.845
+117.974 105.912
+195.889 187.757
+47.400 60.107
+29.218 20.441
+
+1.297 1.297
+77.915 81.845
+2021 2020
+€ €
+60.107 64.604
+-14.815 -6.942
+2.108 2.445
+47.400 60.107
+20.441 -
+7.802 20.207
+975 234
+29.218 20.441
+
+Jaarrekening 2021
+
+kele REEL ER
+
+Behoort bij accountantsrapport Pagina 2 24
+
+31-12-2021 31-12-2020
+
+€ €
+Overlopende activa
+Nog te factureren omzet 117.974 89.873
+vooruitbetaalde kosten automatisering - 2.500
+Voorschotten personeel - 2.078
+Certificeringskosten - 5.808
+vooruitbetaalde pensioenpremies - 5.653
+
+117.974 105.912
+
+4. Liquide middelen
+
+ING Bank N.V. 21.208 -
+Kas 1.104 487
+22.312 487
+
+Leev Basic B.V. Jaarrekening 2021
+
+Behoort bij accountantsrapport
+
+PASSIVA
+
+5. EIGEN VERMOGEN
+
+Geplaatst kapitaal
+
+Geplaatst en volgestort zijn
+180 gewone aandelen nominaal € 100,00
+
+Het maatschappelijk kapitaal bedraagt € 90.000.
+
+Wettelijke reserves
+
+Wettelijke reserve immateriële vaste activa
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+Dotatie wettelijke reserves
+
+Stand per 31 december
+
+VAN DER MEER
+Ë Urs
+
+Pagina 25
+31-12-2021 31-12-2020
+€ €
+18.000 18.000
+176.848 -
+2021 2020
+€ €
+-29.581 -6.119
+-192.844 -23.462
+-176.848 -
+-399.273 -29.581
+
+De directie stelt voor om het resultaat over 2021 ad negatief € 192.844 te verwerken in de overige
+
+reserves.
+
+Vooruitlopend op de vaststelling door de algemene vergadering is dit voorstel reeds in de
+
+jaarrekening opgenomen.
+
+Leev Basic B.V.
+
+Jaarrekening 2021
+
+VAN DER MEER
+Acte mantesAdiseu
+
+Behoort bij accountantsrapport Pagina 26
+
+KE
+
+6. LANGLOPENDE SCHULDEN
+
+31-12-2021 31-12-2020
+
+€ €
+Schulden aan kredietinstellingen
+Lease-verplichting Mercedes Vito 10.904 18.975
+
+2021 2020
+
+€ €
+Lease-verplichting Mercedes Vito
+Stand per 1 januari 18.975 22.806
+Aflossing -8.071 -3.831
+Langlopend deel per 31 december 10.904 18.975
+
+Deze financiering ad € 38.500 is verstrekt ter financiering van een Mercedes-Benz Vito. Aflossing
+vindt plaats over een periode van 5 jaar. Het rentepercentage bedraagt 6,93%. De maandelijkse
+aflossing bedraagt € 761. Het aantal resterende maandtermijnen bedraagt 15.
+
+In het boekjaar zijn de aflossingen en rentebetalingen 6 maanden opgeschort.
+
+Van het restant van de financiering per 31 december 2021 heeft een bedrag van € - een looptijd
+langer dan vijf jaar. Als zekerheid dient de Mercedes-Benz Vito.
+
+31-12-2021 31-12-2020
+ke €
+
+Overige schulden
+Uitgestelde belastingen 372.377 -
+
+In verband met het uitbreken van Covid-19 heeft de belastingdienst uitstel van betalingen verleend
+voor verschuldigde belastingen. De opgenomen schuld betreft de nog verschuldigde loonheffingen
+en kosten van september 2019 tot en met december 2021 . Bij het samenstellen van de
+jaarrekening is de verdeling kortlopend en langlopend nog niet bekend.
+
+Leev Basic B.V. Jaarrekening 2021
+
+Behoort bij accountantsrapport
+
+7. KORTLOPENDE SCHULDEN
+
+Schulden aan kredietinstellingen
+ING Bank N.V.
+
+Crediteuren
+
+Crediteuren
+Investeringscrediteuren
+
+Belastingen en premies sociale verzekeringen
+
+Vennootschapsbelasting
+Loonheffing
+Pensioenen
+
+Overige schulden en overlopende passiva
+
+Overlopende passiva
+
+Overlopende passiva
+
+Vakantiegeld
+Accountantskosten
+Nettoloon
+
+Terug te betalen zorgbonus
+Inhuur derden
+
+Overige schulden
+
+VAN DER nn
+
+ee Accountantsr&Advi
+Pagina 2 27
+31-12-2021 31-12-2020
+
+€ €
+
+- 3.729
+
+154.720 102.273
+
+3.328 72.499
+
+158.048 174.772
+
+- 5.133
+
+- 137.859
+
+354 195
+
+354 143.187
+
+107.466 124.058
+
+20.119 29.459
+
+7.500 4.300
+
+41.473 29.827
+
+37.200 37.200
+
+- 21.491
+
+1.174 1.781
+
+107.466 124.058
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+De vennootschap is meerjarige financiële verplichtingen voor onbepaalde aangegaan terzake van
+
+huur van bedrijfsruimte en opslagruimte.
+
+Leev Basic B.V.
+
+Jaarrekening 2021
+
+hAn Ï ns LEER
+
+Behoort bij accountantsrapport pagina 2 28
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2021
+
+8. Netto-omzet
+De netto-omzet is in 2021 ten opzichte van 2020 met 13,2% gestegen.
+
+2021 2020
+€ €
+
+9. Netto-omzet
+
+Opbrengsten coachingsprogramma's en trajecten 1.304.769 1.153.057
+10. Kostprijs van de omzet
+
+Inkoopwaarde van de omzet 366.199 338.804
+Eten en drinken 14.260 11.422
+Reis- en verblijfkosten 42.033 34.712
+Activiteiten 16.279 17.977
+Materiaal en kleding 9.906 12.765
+Overige kosten groepen 80 983
+Kosten van personeel 275.265 260.945
+Nagekomen kosten 2020 B2B Adventure B.V. 8.376 -
+
+366.199 338.804
+
+11. Personeelskosten
+
+Lonen en salarissen 563.858 390.367
+Sociale lasten 77.187 56.127
+Pensioenlasten 32.224 22.831
+Overige personeelskosten 157.824 33.549
+
+831.693 502.874
+
+Lonen en salarissen
+
+Bruto lonen 520.135 335.736
+Vakantietoeslag 45.830 58.392
+Ontvangen ziekengelduitkeringen -1.761 -3.761
+Ontvangen subsidies -346 -
+
+563.858 390.367
+
+Leev Basic B.V. Jaarrekening 2021
+
+Behoort bij accountantsrapport
+
+Sociale lasten
+
+Premies sociale verzekeringswetten
+Werkgeversdeel Ziektekostenverzekering
+
+Overige personeelskosten
+
+Reis- en verblijfkosten
+
+Kantinekosten
+
+Bedrijfskleding/wasserij
+Opleidingskosten
+
+Inhuur derden
+
+Management fee Bzias Participaties B.V.
+Overige personeelskosten
+
+Personeelsleden
+
+VAN DER MEER
+
+Pagina 29
+2021 2020
+
+€ €
+52.712 39.278
+25.075 16.849
+77.187 56.127
+2.601 2.397
+5.551 5.691
+3.557 1.483
+2.229 2.490
+128.053 15.628
+11.900 -
+3.933 5.860
+157.824 33.549
+
+Gedurende het jaar 2021 waren 13 werknemers in dienst op basis van een volledig dienstverband
+
+(2020: 11).
+
+Afschrijvingen
+12. Afschrijvingen immateriële vaste activa
+
+Kosten van ontwikkeling
+
+13. Afschrijvingen materiële vaste activa
+
+Inventaris
+Vervoermiddelen
+Boekresultaat
+
+Boekresultaat
+
+Boekresultaat verkoop vervoermiddelen, per saldo
+
+Overige bedrijfskosten
+14. Huisvestingskosten
+
+Huur onroerende zaak
+Overige huisvestingskosten
+
+Leev Basic B.V.
+
+10.067 -
+5.066 3.024
+12.650 11.306
+353 -
+18.069 14.330
+353 -
+25.766 13.390
+5.405 134
+31.171 13.524
+
+Jaarrekening 2021
+
+EEL WEE an
+
+Behoort bij accountantsrapport ‘Pagina: 30
+
+2021 2020
+
+€ €
+15. Kantoorkosten
+Kantoorbenodigdheden 708 876
+Drukwerk 282 2.362
+Onderhoud inventaris 1.583 1.371
+Automatiseringskosten 8.836 2.712
+Telecommunicatie 10.813 10.744
+Porti en overige verzendkosten 339 1.688
+Contributies en abonnementen 3.908 938
+Vakliteratuur 615 1.110
+Automatiseringskosten abonnement Salesforce 35.589 21.827
+Overige kantoorkosten - 653
+
+62.673 44.281
+
+16. Autokosten
+
+Brandstoffen 11.557 6.712
+Onderhoud 7.714 11.112
+Motorrijtuigenbelasting 5.951 5.075
+Kilometerdeclaratie 8.112 6.001
+Parkeerkosten 54 54
+Verkeersboetes 486 -
+Overige autokosten 628 547
+
+34.502 29.501
+
+17. Verkoopkosten
+
+Reclame- en advertentiekosten 3.907 744
+Representatiekosten 54 103
+Betalingskortingen - 6
+Kosten front office, De Kleine Regeltante 49.766 1.601
+Overige verkoopkosten 4.285 8.300
+
+58.012 10.754
+
+Leev Basic B.V. Jaarrekening 2021
+
+kn Er EE
+
+Behoort bij accountantsrapport Pagina 3 a
+
+2021 2020
+
+€ €
+18. Algemene kosten
+Accountantskosten 20.605 19.825
+Administratiekosten 24.035 14.315
+Advieskosten 8.981 593
+Verzekeringen 10.112 8.601
+ZILT Samenwerkingsverband 957 4,464
+Certificeringskosten 5.808 11.615
+Contributies en bijdragen 2.660 212
+Naheffing loonheffing 2.706 -
+Boetes 157 300
+Overige algemene kosten 1 3.966
+
+76.022 63.891
+
+De naheffing loonheffing betreft het aansluiten met het overzicht van de belastingdienst inzake
+uitstel van betaling in verband met Covid-19.
+De nagekomen kosten 2020 betreft de correctie op de immateriële vaste activa.
+
+19. Incidentele implementatiekosten
+
+Loonkosten personeel implementatie Salesforce CRM + Pardot - 92.379
+Kosten inhuur derden implementatie Salesforce CRM + Pardot - 48.767
+Kosten front office implementatie Salesforce CRM + Pardot - 18.060
+Nagekomen kosten 2020 implementatie Salesforce 10.188 -
+
+10.188 159.206
+
+20. Financiële baten en lasten
+
+Rentebaten en soortgelijke opbrengsten 3.083 2.679
+Rentelasten en soortgelijke kosten -2.100 -2.033
+983 646
+
+Rentebaten en soortgelijke opbrengsten
+
+Rente rekening-courant M.N.M. Verzellenberg 2.108 2.445
+Rente rekening-courant H. Settels 975 234
+3.083 2.679
+
+Leev Basic B. V. Jaarrekening 2021
+
+VAN DER MEER
+
+erAcdountants & Adviseurs en
+
+Behoort bij accountantsrapport Pagina 32
+2021 2020
+€ €
+Rentelasten en soortgelijke kosten
+Rente- en bankkosten -1.039 -1.298
+Rente financiering Leasing -1.061 -135
+-2.100 -2.033
+
+Ondertekening van de jaarrekening
+
+Roden, 23 december 2022
+
+Namens deze, Namens deze,
+Base Connect B.V. Bzias Participaties B.V.
+M.N.M. Verzellenberg H. Settels
+
+Leev Basic B.V. Jaarrekening 2021
+
+VAN DER MEER
+
+Accountants srAdviseurs
+
+Behoort bij accountantsrapport Pagina 33
+
+OVERIGE GEGEVENS
+
+Statutaire regeling winstbestemming
+
+Op grond van artikel 19 van de statuten staat het verlies ter beschikking van de algemene
+vergadering, met dien verstande dat reservering zal plaats hebben, tenzij de algemene vergadering
+anders besluit.
+
+Vrijstelling accountantscontrole
+
+Aangezien de besloten vennootschap valt binnen de door de wet, in artikel 2:396 lid 1 BW gestelde
+grenzen, is de vennootschap vrijgesteld van accountantscontrole. Om deze reden is aan de
+jaarrekening geen controleverklaring toegevoegd.
+
+Samenstellingsverklaring afgegeven
+
+Leev Basic B.V. Jaarrekening 2021
