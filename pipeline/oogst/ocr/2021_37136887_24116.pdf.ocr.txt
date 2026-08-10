@@ -1,0 +1,984 @@
+# whosigns-ocr v1 grootte=11382580 dpi=300 paginas=20
+Stichting Vrijwaard
+
+5.1.12 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+ACTIVA
+
+1. Materiële vaste activa
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+
+€ €
+Bedrijfsgebouwen en terreinen 66.983 101.964
+Machines en installaties 156.660 231.078
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 1.211.979 1.109.771
+Totaal materiële vaste activa 1.435.623 1.442.813
+Het verloop van de Materiële vaste activa is als volgt: 31-dec-21 31-dec-20
+
+€ €
+Boekwaarde per 1 januari 1.442.813 1.702.409
+Bij: investeringen 558.881 117.678
+Af: afschrijvingen 322.518 377.274
+Af: desinvesteringen 243.552 0
+Boekwaarde per 31 december 1.435.623 1.442.813
+
+1. Financiële vaste activa
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+
+€ €
+
+Vorderingen op groepsmaatschappijen 22.083 27.083
+
+Totaal financiële vaste activa 22.083 27.083
+
+31-dec-21 31-dec-20
+
+€ €
+
+Verstrekte leningen / verkregen effecten 50.000 50.000
+
+Ontvangen dividend / aflossing leningen -27.917 -22.917
+
+Boekwaarde per 31 december 22.083 27.083
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het mutatieoverzicht onder
+5.1.6. Stichting Huip Thuis Vrijwaard (SHTV) is in 2016 opgericht en wordt geconsolideerd in de jaarrekening van Stichting Vrijwaard. Aan
+SHTV is per 1 juni 2016 een lening verstrekt van € 50.000 tegen een jaarlijks rentepercentage van 4,40% met een jaarlijkse aflossing van €
+5.000.
+
+Pagina 32
+
+CI
+OMNYACC
+
+ACCOUNTANTS & ADVISEIRE
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Stichting Vrijwaard
+
+5.1.12 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+ACTIVA
+
+2. Voorraden
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Voorraden 0 0
+Totaal voorraden 0 e)
+3. Vorderingen uit hoofde van financieringstekort en schulden uit hoofde van financieringsoverschot Wiz
+2020 2021 totaal
+€ € €
+Saldo per 1 januari 316.356 0 316.356
+Financieringsverschil boekjaar 0 -369.757 -369.757
+Correcties voorgaande jaren 0 0 0
+Betalingen/ontvangsten -316.356 0 -316.356
+Subtotaal mutatie boekjaar -316.356 -369.757 -686.113
+Saldo per 31 december 0 -369.757 -369.757
+Stadium van vaststelling (per erkenning):
+Stichting Vrijwaard C c c a
+a= interne berekening
+b= overeenstemming met zorgverzekeraars
+c= definitieve vaststelling NZa
+31-dec-21 31-dec-20
+€ €
+Waarvan gepresenteerd als:
+- vorderingen uit hoofde van financieringstekort 316.356
+- schulden uit hoofde van financieringsoverschot -369.757 0
+-369.757 316.356
+Specificatie financieringsverschil in het boekjaar 31-dec-21 31-dec-20
+€ €
+Wettelijk budget voor aanvaardbare kosten Wiz-zorg (exclusief subsidies) 14.648.924 15.208.583
+Af: vergoedingen ter dekking van het wettelijk budget -15.018.681 -14.892.227
+Overproductie
+Totaal financieringsverschil -369.757 316.356
+
+Toelichting:
+
+Het budget voor aanvaardbare kosten 2021 komt uit op € 14.648.924,- waarvan € 1.460.317 - betrekking heeft op de kwaliteitsmiddelen
+
+verpleeghuiszorg. Het berekende budget blijft binnen de productieafspraak met het zorgkantoor.
+
+Pagina 33
+
+C
+OMNYACC
+
+ACCOUNTANTS 4 ADVISEURS
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Stichting Vrijwaard
+
+5.1.12 TOELICHTING OP DE ENKELVOUDIGE BALANS
+ACTIVA
+4. Debiteuren en overige vorderingen
+
+De specificatie is als volgt:
+
+Vorderingen op debiteuren
+
+Overige vorderingen:
+Overige vorderingen
+
+Gemeente Den Helder
+Zorgverzekeraars
+
+Vordering op groepsmaatschappijen
+Vooruitbetaalde bedragen
+
+Nog te ontvangen bedragen
+
+Totaal debiteuren en overige vorderingen
+
+31-dec-21 31-dec-20
+€ €
+
+128.381 -14.489
+1.003.406 18.266
+50.366 115.327
+13.718 253.419
+351 21.062
+138.650 192.125
+107.376 624.093
+1.442.247 1.209.803
+
+Toelichting:
+
+De voorziening oninbaar die in aftrek is genomen op de vorderingen bedraagt € 2.578 (2020: € 2.895 ,-).
+
+Stichting Vrijwaard verricht de administratieve diensten voor Stichting Hulp Thuis. Hiertoe ontvangt Stichting Vrijwaard een vergoeding voor
+de gemaakte kosten van 15% van de opbrengsten. De vergoeding 2021 ten bedrage van € 180.723
+
+(2020: € 170.546) is onder de vordering op de groepsmaatschappijen verwerkt.
+
+5, Liquide middelen
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+
+€ €
+Bankrekeningen 2.699.305 2.177.758
+Spaarrekeningen 616.183 617.735
+Kassen 801 0
+Totaal liquide middelen 3.316.289 2.795.493
+Toelichting:
+De liquide middelen zijn vrij beschikbaar.
+
+Pagina 34
+Saer:
+OMNYACC
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Stichting Vrijwaard
+
+51.12 TOELICHTING OP DE ENKELVOUDIGE BALANS
+PASSIVA
+
+6. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-21 31-dec-20
+€ €
+Kapitaal 45 45
+Bestemmingsfondsen 3.525.035 2.814.900
+Algemene en overige reserves 34.789 34.789
+Totaal eigen vermogen ‚559, 2.849.735
+Kapitaal
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2021 bestemming mutaties 31-dec-2021
+€ € € €
+Kapitaal 45 0 0 45
+Totaal kapitaal 45 [’) 0 45
+Bestemmingsfondsen
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2021 bestemming mutaties 31-dec-2021
+€ € € €
+Bestemmingsfonds aanvaardbare kosten 2.814.900 710.135 0 3.525.035
+Totaal bestemmingsfondsen 2.814.900 710.135 0 3.525.035
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2021 bestemming mutaties 31-dec-2021
+€ € € €
+Algemene reserve 34.789 0 0 34.789
+Totaal algemene en overige reserves 34.789 0 0 34.789
+Toelichting:
+Het resultaat 2021 is volledig toegevoegd aan het bestemmingsfonds aanvaardbare kosten.
+LV,
+hehe
+
+Pagina 35
+
+OMNYACC
+
+ACCOUNTANTS ADWiggijks
+
+Ter identificatie
+Omnyacc In Control B.V,
+
+Stichting Vrijwaard
+
+5.1.12 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+PASSIVA
+7. Voorzieningen
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+Het verloop is als volgt weer te geven: 1-jan-21 31-dec-21
+€ € € € €
+Voorziening uitgestelde beloningen 115.901 0 41.372 0 74.529
+Voorziening langdurig zieken 37.346 42.123 0 0 79.469
+Totaal voorzieningen 153.247 42.123 41.372 0 153.998
+
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+
+Kortlopend deel van de voorzieningen (< 1 jr.)
+Langlopend deel van de voorzieningen (> 1 jr.)
+Hiervan langlopend (> 5 jaar)
+
+31-dec-21
+
+79.469
+0
+74.529
+
+Toelichting per categorie voorziening:
+
+De voorziening uitgestelde beloningen betreft een jubileumvoorziening die gevormd is ter dekking van de toekomstige verplichtingen uit
+hoofde van jubileum uitkeringen. De hoogte van de voorziening wordt berekend op basis van salarisgegevens, indienstdatum van de
+medewerkers die op 31 december 2020 in dienst zijn, de blijfkans en geboortedatum . De voorziening langdurig zieken is gevormd ter
+
+dekking van de toekomstige verplichtingen voor salariskosten door langdurige ziekte.
+
+8. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Crediteuren
+
+Loonheffing en premie werknemersverzekeringen
+Schulden terzake pensioenen
+
+Nog te betalen salarissen
+
+Vakantiegeld
+
+Vakantiedagen
+
+Overige schulden
+
+Totaal overige kortlopende schulden
+
+31-dec-21 31-dec-20
+€ €
+
+702.659 950.887
+130.098 190.153
+26.154 48.537
+3.464 -27
+258.824 399.321
+453.852 541.266
+557.569 658.429
+2.132.618 2.788.566
+
+Toelichting:
+In de overige schulden zit tevens het terug te betalen bedrag inzake Covid-19 compensatievergoedingen.
+
+9. Financiële instrumenten
+
+Algemeen
+Voor de toelichting wordt verwezen naar de geconsolideerde jaarrekening onder 5.1.5, punt 9.
+
+Vorderingen op groepsmaatschappijen
+
+Stichting Vrijwaard heeft een lening verstrekt aan Stichting Hulp Thuis Vrijwaard. Het risico op deze lening wordt als gering ingeschat.
+
+Pagina 36
+
+OM
+
+Ca
+NYACC
+
+ATANTS & ADV
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Stichting Vrijwaard
+
+51.12 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+10. Niet in de balans opgenomen regelingen
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde zorgprestaties kunnen
+correcties noodzakelijk zijn op de gedeclareerde productie. De effecten van eventuele materiële nacontroles zijn vooralsnog onzeker en
+daarom zijn er hiervoor geen verplichtingen opgenomen in de balans.
+
+Verplichtingen uit hoofde van het macrobeheersinstrument
+
+Het macrobeheersinstrument kan door de minister van VWS ingezet worden om overschrijdingen van het macrokader zorg
+terug te vorderen bij instellingen voor medisch specialistische zorg en bij instellingen voor curatieve geestelijke gezondheidszorg.
+Het macrobeheersinstrument is uitgewerkt in de Aanwijzing macrobeheersmodel instellingen voor medisch specialistische zorg,
+respectievelijk Aanwijzing Macrobeheersinstrument curatieve geestelijke gezondheidszorg. Ook voor instellingen in andere
+sectoren kan een Aanwijzing Macrobeheersinstrument van toepassing zijn.
+
+Jaarlijks wordt door de Nederlandse Zorgautoriteit (NZa) ambtshalve een mbi-omzetplafond vastgesteld.
+
+Tevens wordt door de NZa jaarlijks een omzetplafond per instelling vastgesteld, welke afhankelijk is van de realisatie van het
+mbi-omzetplafond van alle instellingen gezamenlijk. Deze vaststelling vindt plaats nadat door de Minister van VWS de
+overschrijding van het mbi-omzetplafond uiterlijk vóór 1 december van het opvolgend jaar is gecommuniceerd.
+
+Bij het opstellen van de jaarrekening 2021 bestaat nog geen inzicht in realisatie van het mbi-omzetplafond over 2021.
+
+Stichting Vrijwaard is niet in staat een betrouwbare inschatting te maken van de uit het macrobeheersinstrument voortkomende
+verplichting en deze te kwantificeren. Als gevolg daarvan is deze verplichting niet tot uitdrukking gebracht in de balans van de
+stichting per 31 december 2021.
+
+Niet in de balans opgenomen verplichtingen
+
+Jaarlijkse huurlast
+Huur Bernhardplein 76 € 51.000
+Huur Golfstroom € 628.000
+Huur Westhoek € 280.000
+Huur Dyckzicht € 268.000
+Huur SOOS € 70.000
+Landhuis € 250.000
+
+CI
+OMNYACC
+
+ACGOUN TAN TS & ADVIZEIRS
+
+Pagina 37 Ter identificatie
+Omnyacc In Control AA
+
+Stichting Vrijwaard
+
+5.1.13 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Andere vaste Materiële vaste
+bedrijfs- bedrijfsactiva in
+middelen, uitvoering en Niet aan het
+Bedrijfs- technischeen vooruitbetalingen bedrijfsproces
+gebouwen en Machines en administratieve op materiële dienstbare
+terreinen installaties uitrusting vaste activa materiële activa Totaal
+€ € € € € €
+Stand per 1 januari 2021
+- aanschafwaarde 455.294 684.882 3.051.279 - - 4.191.455
+- cumulatieve herwaarderingen - - - - - -
+- cumulatieve afschrijvingen 353.330 453.804 1.941.508 - - 2.748.642
+Boekwaarde per 1 januari 2021 101.964 231.078 1.109.771 - - 1.442.813
+Mutaties in het boekjaar
+- investeringen 9,343 15.312 534.226 - - 558.881
+- herwaarderingen - - - - - -
+- afschrijvingen 11.497 17.431 293.591 - - 322.519
+- bijzondere waardeverminderingen - - - - - -
+- terugname geheel afgeschreven activa
+„aanschafwaarde - - - - - -
+„cumulatieve herwaarderingen - - - - - -
+„cumulatieve afschrijvingen - - ® & & ë
+- desinvesteringen
+aanschafwaarde 360.996 493.760 1.372.717 - - 2.227.472
+cumulatieve herwaarderingen - - - - - -
+cumulatieve afschrijvingen 328.169 421.461 1.234.290 - - 1.983.920
+per saldo 32.827 72.299 138.427 - - 243.552
+Mutaties in boekwaarde (per saldo) -34.981 -74.418 102.208 - - -7.190
+Stand per 31 december 2021
+- aanschafwaarde 103.641 206.434 2.212.788 - - 2.522.863
+- cumulatieve herwaarderingen - - - - - -
+- cumulatieve afschrijvingen 36.658 49.774 1.000.809 - - 1.087.241
+Boekwaarde per 31 december 2021 66.983 156.660 1.211.979 - - 1.435.623
+Afschrijvingspercentage 3,33% - 20% 6,25% 12,5% - 25% CI
+
+OMNYACC
+
+ACCOUNTANTS b ADVISEIRE
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Pagina 38
+
+Stichting Vrijwaard
+
+5.1.15 TOELICHTING OP DE RESULTATENREKENING
+
+BATEN
+
+10. Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2021 2020
+
+€ €
+Opbrengsten zorgverzekeringswet (exclusief subsidies) 603.976 1.060.969
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies) 14.648.924 15.208.583
+Opbrengsten Wmo 335.265 787.154
+Overige zorgprestaties 485.571 1.694.965
+Totaal 16.073.737 18.751.671
+Toelichting:
+
+Het budget voor aanvaardbare kosten 2021 bedraagt € 14.648.924 en is inclusief de kwaliteitsmiddelen
+
+verpleeghuiszorg van € 1.460.317 (€1.345.500 in 2020)
+
+COVID-19 : Onder overige zorgprestaties WLZ (€450.121,- (€989.696,- in 2020)) en WMO (€35.450,- (€145.199,- in 2020))
+zijn de continuiteitsbijdrage/omzetgarantie corona-compensatie verwerkt. De compensatie inzake de meerkosten
+(€59.191,- (€61.288,- in 2020)) van deze stromen zijn tevens onder de overige zorgprestaties verwerkt.
+
+De bedragen van de COVID-19 compensatie zijn nog niet definitief vastgesteld, zoals is toegelicht onder de
+continuiteitsveronderstelling, derhalve is er nog sprake van enige onzekerheid.
+
+11. Subsidies (exclusief Wmo en Jeugdwet)
+
+De specificatie is als volgt: 2021 2020
+
+€ €
+Rijkssubsidies vanwege het Ministerie van VWS 35.760 2.500
+Subsidies vanwege Provincies en gemeenten (exclusief Wmo en Jeugdzorg) 29.582 58.552
+Overige subsidies, waaronder loonkostensubsidies en EU-subsidies 8.021 46.873
+Totaal 73.363 107.925
+Toelichting:
+
+Rijkssubsidies betreft het stagefonds.
+
+Subsidies vanwege provincies en gemeenten bestaan uit de subsidie actief in de wijk.
+
+Sectorplan, praktijkleren, werken is leren en leren is werken en meer opleidingsgerelateerde subsidies staan onder
+overige subsidies,
+
+12. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2021 2020
+
+€ €
+Overige dienstverlening 257.678 531.361
+Overige opbrengsten 362.158 120.814
+Doorberekende kosten 246.554 87.124
+Totaal 866.390 739.299
+Toelichting:
+
+Overige dienstverlening betreffen opbrengst tafeltje dekje € 139.733 (2020: € 318.000) en overige zorgprestaties € 161.000 (2020: €
+161.000)
+
+Overige opbrengsten betreffen opbrengst restaurants € 11.053 (2020: € 59.000), opbrengst wasvoorziening € 87.628 (2020: € 92.000)
+
+Doorberekende kosten aan andere partijen.
+
+CJ
+OMNYACC
+
+ACCOUNTANTS E ADVISEURS
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Pagina 39
+
+Stichting Vrijwaard
+
+5.1.15 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+
+13. Personeelskosten
+
+De specificatie is als volgt: 2021 2020
+€ €
+Lonen en salarissen 7.320.260 8.999.356
+Sociale lasten 1.072.820 1.401.102
+Pensioenpremies 601.979 665.660
+Andere personeelskosten 375.537 223.919
+Subtotaal 9.370.596 11.290.037
+Personeel niet in loondienst 1.222.520 1.532.320
+Totaal personeelskosten 10.593.116 12.822,357
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 180 232
+Toelichting:
+Zorgbonus :
+
+Onder de Personeelskosten is in 2021 een bedrag vermeld ad € 182.039 inzake uitgekeerde zorgbonussen.
+
+Dit bedrag is inclusief € 60.750 inzake verschuldigde eindheffing. De vergoeding van deze bonus is onder dezelfde
+post opgenomen voor hetzelfde bedrag. Ultimo 2021 resteert een te verrekenen met Ministerie / nog uit te betalen
+zorgbonus 2021 van € 49.124
+
+Totaal ontvangen zorgbonus 2021 (a) 231.154
+Totaal uitgekeerde netto bonus plus belasting aan medewerkers in loondienst 2021 (b) 181.366
+Totaal uitgekeerde netto bonus en belasting aan derden in 2021 (c) 673
+Te verrekenen zorgbonus 2021 met Ministerie VWS (a - b - c) 48 451
+Of: Nog uit te betalen zorgbonus 2021 in 2022 (a -b - c) 673
+
+14. Afschrijvingen op materiële vaste activa
+
+De specificatie is als volgt: 2021 2020
+€ €
+
+Afschrijvingen:
+- materiële vaste activa 322.518 377.274
+Totaal afschrijvingen 322.518 377.274
+
+CI
+OMNYAC
+
+ACCOUNTANTS & ADVISEIJRS
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Pagina 40
+
+Stichting Vrijwaard
+
+51.15 TOELICHTING OP DE RESULTATENREKENING
+
+15. Overige bedrijfskosten
+
+De specificatie is als volgt: 2021 2020
+€ €
+Voedingsmiddelen en hotelmatige kosten 1.003.368 1.132.415
+Algemene kosten
+- Kosten van administratie en registratie 94.527 66.778
+- Kosten ICT 574.387 343.627
+- Communicatiekosten 140.210 183.711
+- Kosten algemeen beheer 872.859 494.659
+- Zakelijke lasten en verzekeringen 153.433 224.189
+- Andere algemene kosten 59.323 33.009
+1.894.739 1.345.973
+Patiënt- en bewonersgebonden kosten 299.092 545.693
+Onderhoud en energiekosten:
+- Onderhoud 155.842 104.668
+- Energiekosten gas 29.834 137.461
+- Energiekosten stroom 57.986 90.023
+- Energie transport en overig 16.546 23.173
+Subtotaal 260.208 355.325
+Huur en leasing 1.919.058 2.113.816
+Dotaties, onttrekkingen en vrijval voorzieningen 436 18
+Totaal overige bedrijfskosten 5.376.901 5.493.240
+Toelichting:
+
+Kosten algemeen beheer nemen enerzijds toe door de kosten die de Stichting maakt vanwege de fusie met Omring en
+anderzijds zijn hier Covid gerelateerde bestedingen in gerubriceerd.
+
+16. Rentebaten en soortgelijke opbrengsten
+
+De specificatie is als volgt: 2021 2020
+
+€ €
+Rentebaten 1.007 1.338
+Subtotaal financiële baten 1.007 1.338
+Rentelasten -11.827 0
+Subtotaal financiële lasten -11.827 0
+Totaal financiële baten en lasten -10.820 1.338
+
+17 Buitengewoon resultaat
+
+2021 2020
+
+€ €
+
+Buitengewone baten voorgaande jaren 0 0
+0 0
+
+0 0
+
+CJ
+OMNYACC
+
+ACCOUNTANTS & ADVISEijRE
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Pagina 41
+
+Stichting Vrijwaard
+
+5.1.15 TOELICHTING OP DE RESULTATENREKENING
+
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Stichting Vrijwaard heeft de jaarrekening 2021 vastgesteld in de vergadering van 28 maart 2022
+
+De raad van toezicht van de Stichting Vrijwaard heeft de jaarrekening 2021 goedgekeurd in de vergadering van 22 april 2022
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+Gebeurtenissen na balansdatum
+
+Er is geen sprake van gebeurtenissen na balansdatum die van zodanig belang zijn dat zij invloed hebben op de waarde van de
+bezittingen en schulden per 31 december 2021 en het resultaat 2021.
+
+Vrijwaard is, evenals elk ander bedrijf, geconfronteerd met de economische en maatschappelijke gevolgen van het
+Covid-19 virus. Het is een onzekere tijd waarvan de raad van bestuur momenteel niet kan inschatten hoe lang deze zal
+voortduren. Dat maakt het doen van een uitspraak over de eventuele gevolgen op langere termijn onmogelijk.
+
+Maatregelen zullen worden getroffen om de gevolgen te mitigeren. Omzet zo veel mogelijk overeind houden en personele
+inzet en kosten verlagen waar mogelijk in relatie tot de omzetontwikkeling. Ook zullen alle programma's en projecten worden
+beoordeeld alsmede de inzet van extern personeel.
+
+Tegelijkertijd wordt verwacht dat financiers, c.q. de overheid als vangnet daarachter, met daartoe passende regelgeving,
+
+in ieder geval zullen zorgen dat Vrijwaard geen omvangrijk negatief resultaat zal realiseren in 2022. ZN zorgkantoren en
+zorgverzekeraars èn VNG/gemeenten hebben aangegeven hierin bij te willen dragen.
+
+Het huidige pakket van maatregelen geeft de raad van bestuur vertrouwen in de toekomst van Vrijwaard.
+
+Ondertekening door bestuurders en toezichthouders
+
+Drs. A.J.J. Buwalda, Voorzitter Raad van Bestuur Drs. E.F. Kraanen, Lid Raad van Bestuur
+Dr. A.l.M.C. Wydoodt, Voorzitter Raad van Toezicht Drs. P. Littooij, Lid Raad van Toezicht
+
+Dr. Ir. J. Daams, Lid Raad van Toezicht Dr. A. op het Veld, Lid Raad van Toezicht
+P. van Klaveren, Lid Raad van Toezicht Drs. C.H.L.M van de Louw
+
+Co
+OMNYACC
+
+ACCOUNTANTS 5 ADVISEIRE
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Pagina 42
+
+Stichting Vrijwaard
+
+5.2 OVERIGE GEGEVENS
+
+ee)
+OINACG
+
+Ter identificatie
+Omnyacc In Control B.v.
+
+Pagina 43
+
+Stichting Vrijwaard
+
+5.2 OVERIGE GEGEVENS
+
+5.2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 24 en 25, dat het behaalde resultaat ter vrije beschikking staat van
+Stichting Vrijwaard.
+
+5.2.2 Nevenvestigingen
+
+Stichting Vrijwaard heeft geen nevenvestigingen.
+
+5.2.3 Controleverklaring
+
+De controleverklaring is opgenomen op de volgende pagina.
+
+CI
+OMNYACC
+
+. ACCOUNTANTS L ADVISEIRS
+Pagina 44 ‚
+Ter identificatie
+
+Omnyacc In Control B.V.
+
+OMNYACGC In Control
+
+CI
+OMNYACC
+
+ACCOUNTANTS & ADVISEURS
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+Aan het bestuur en de raad van toezicht van Stichting Vrijwaard
+A. Verklaring over de in het jaarverslag opgenomen jaarrekening 2021
+
+Ons oordeel
+Wij hebben de jaarrekening 2021 van Stichting Vrijwaard te Den Helder gecontroleerd.
+
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening een getrouw beeld van de
+grootte en de samenstelling van het vermogen van Stichting Vrijwaard per 31 december 2021 en
+van het resultaat over 2021 in overeenstemming met de Regeling verslaggeving WTZi.
+
+De jaarrekening bestaat uit:
+1. de geconsolideerde en enkelvoudige balans per 31 december 2021:
+2. de geconsolideerde en enkelvoudige winst-en-verliesrekening over 2021; en
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de
+Nederlandse controlestandaarden en de Regeling Controleprotocol WNT 2021 vallen. Onze
+verantwoordelijkheden op grond hiervan zijn beschreven in de sectie 'Onze
+verantwoordelijkheden voor de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Vrijwaard zoals vereist in de Verordening inzake de
+onafhankelijkheid van accountants bij assurance-opdrachten (ViO) en andere voor de opdracht
+relevante onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de Verordening
+gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis voor
+ons oordeel.
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+In overeenstemming met de Regeling Controleprotocol WNT 2021 hebben wij de
+anticumulatiebepaling, bedoeld in artikel 1.6a WNT en artikel 5, lid 1, sub n en o
+Uitvoeringsregeling WNT, niet gecontroleerd. Dit betekent dat wij niet hebben gecontroleerd of er
+wel of niet sprake is van een normoverschrijding door een leidinggevende topfunctionaris
+vanwege eventuele dienstbetrekkingen als leidinggevende topfunctionaris bij andere WNT-
+plichtige instellingen, alsmede of de in dit kader vereiste toelichting juist en volledig is.
+Verkeerstorenweg | = 1786 PN Den Helder « 0223 - 688600
+Balthasar Bekkerwei 90 = 8914 BE Leeuwarden = 058 - 8200900
+
+info@omnyaccincontrol.nl_» omnyacc.nl
+
+CI
+OMNYACC
+
+ACCOUNTANTS & ADVISEURS
+
+B. Verklaring over de in het jaarverslag opgenomen andere informatie
+
+Naast de jaarrekening en onze controleverklaring daarbij, omvat het jaarrapport andere
+informatie, die bestaat uit de overige gegevens en de bijlagen met de Verantwoording besteding
+Subsidieregeling bonus zorgprofessionals COVID-19 over de periode 1 maart 2020 tot 1
+september 2020 en de Verantwoording besteding Subsidieregeling bonus zorgprofessionals
+COVID-19 over de periode 1 oktober 2020 tot 15 juni 2021.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie:
+- met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+- alle informatie bevat die op grond van de Regeling verslaggeving WTZi vereist is.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip,
+verkregen vanuit de controle of anderszins, overwogen of de andere informatie materiële
+afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten van de de Regeling
+verslaggeving WTIZi en de Nederlandse Standaard 720. Deze werkzaamheden hebben niet
+dezelfde diepgang als onze controlewerkzaamheden bij de jaarrekening.
+
+Het bestuur is verantwoordelijk voor het opstellen van de andere informatie.
+
+C. Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+
+Verantwoordelijkheden van het bestuur en de raad van toezicht voor de jaarrekening
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met de Regeling verslaggeving WTZi. Daarnaast is het bestuur
+verantwoordelijk dat de jaarrekening in overeenstemming is met de bepalingen bij en krachtens
+de WNT. In dit kader is het bestuur verantwoordelijk voor een zodanige interne beheersing die
+het bestuur noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken zonder
+afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de stichting in staat is om haar
+werkzaamheden in continuiteit voort te zetten. Op grond van genoemd verslaggevingsstelsel
+moet het bestuur de jaarrekening opmaken op basis van de continuïteitsveronderstelling, tenzij
+het bestuur het voornemen heeft om de stichting te liquideren of de bedrijfsactiviteiten te
+beëindigen of als beëindiging het enige realistische alternatief is. Het bestuur moet
+gebeurtenissen en omstandigheden waardoor gerede twijfel zou kunnen bestaan of de stichting
+haar bedrijfsactiviteiten in continuïteit kan voortzetten, toelichten in de jaarrekening.
+
+De raad van toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving van de stichting.
+
+Pagina 46
+
+CI
+OMNYACC
+
+ACCOUNTANTS & ADVISEURS
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat wij
+daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven
+oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid
+waardoor het mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude
+ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien redelijkerwijs
+kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen zijn op de
+economische beslissingen die gebruikers op basis van deze jaarrekening nemen. De materialiteit
+beïnvloedt de aard, timing en omvang van onze controlewerkzaamheden en de evaluatie van het
+effect van onderkende afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, de Regeling Controleprotocol WNT 2021, ethische voorschriften en de
+onafhankelijkheidseisen. Onze controle bestond onder andere uit:
+
+-_het identificeren en inschatten van de risico's dat de jaarrekening afwijkingen van materieel
+belang bevat als gevolg van fouten of fraude, het in reactie op deze risico's bepalen en
+uitvoeren van controlewerkzaamheden en het verkrijgen van controle-informatie die
+voldoende en geschikt is als basis voor ons oordeel. Bij fraude is het risico dat een afwijking
+van materieel belang niet ontdekt wordt groter dan bij fouten. Bij fraude kan sprake zijn van
+samenspanning, valsheid in geschrifte, het opzettelijk nalaten transacties vast te leggen,
+het opzettelijk verkeerd voorstellen van zaken of het doorbreken van de interne beheersing;
+
+- het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als
+doel controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit van
+de interne beheersing van de stichting;
+
+- het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren van de redelijkheid van schattingen door het bestuur en de
+toelichtingen die daarover in de jaarrekening staan;
+
+- het vaststellen dat de door het bestuur gehanteerde continuïteitsveronderstelling
+aanvaardbaar is. Tevens het op basis van de verkregen controle-informatie vaststellen of
+er gebeurtenissen en omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of
+de stichting haar bedrijfsactiviteiten in continuïteit kan voortzetten. Als wij concluderen dat
+er een onzekerheid van materieel belang bestaat, zijn wij verplicht om aandacht in onze
+controleverklaring te vestigen op de relevante gerelateerde toelichtingen in de jaarrekening.
+
+Pagina 47
+
+CI
+OMNYACC
+
+ACCOUNTANTS & ADVISEURS
+
+Als de toelichtingen inadequaat zijn, moeten wij onze verklaring aanpassen. Onze
+conclusies zijn gebaseerd op de controle-informatie die verkregen is tot de datum van onze
+controleverklaring. Toekomstige gebeurtenissen of omstandigheden kunnen er echter toe
+leiden dat een onderneming haar continuïteit niet langer kan handhaven;
+
+- het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toelichtingen; en
+
+- het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties
+en gebeurtenissen.
+
+Wij communiceren met het bestuur en de raad van toezicht onder andere over de geplande
+reikwijdte en timing van de controle en over de significante bevindingen die uit onze controle naar
+voren zijn gekomen, waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Den Helder, 17 juni 2022
+
+Omnyacc In Control B.V. CD
+
+wa OMNYACC
+
+ACCOUNTANTS & ADViSEIjRS
+
+‚ Ter identificatie
+drs. M. Schintz-Privée RA Omnyacc In Control B.V.
+
+Pagina 48
+
+Stichting Vrijwaard
+
+5.3 BIJLAGEN
+
+u
+NE:
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Pagina 49
+
+Stichting Vrijwaard
+
+bijlage 5.3.1
+
+Verantwoording besteding Subsidieregeling bonus zorgprofessionals COVID-19 over de periode 1 maart 2020 tot 1 september 2020 (bonus 2020)
+Werknemers Derden Totaal
+
+Aantal Euro Aantal Euro Aantal Euro
+Totaal ontvangen Zorgbonus 2020 volgens verleningsbeschikking (a) 342 € 615.600,00 0 €0,00 342 € 615.600,00
+Aantal werk s dat in aanmerking komt voor bonus 2020 (b) 336 € 336.000,00 336 € 336.000,00
+Aantal derden dat in king komt voor bonus 2020 (c) 0 €0,00 0 €0,00
+En
+- Afgedragen of aangegeven verschuldigde eindheffing over de aan werk netto uitgekeerde bonus (max. € 800 per zorgprofessional) € 268.800,00 € 268.800,00
+- Afgedragen of aangegeven verschuldigde eindheffing over de aan derden netto uitgekeerde bonus (max. € 750 per zorgprofessional) € 0,00 € 0,00
+Totaal afgedragen of aangeg, verschuldigde eindheffing over de netto uitgekeerde bonus aan zorgproffesionals (d) € 268.800,00 €0,00 € 268.800,00
+Verschil verleningsbeschikking en feitelijke uitkeringen cq belastingheffing (a-b-c-d € 10.800,00 £0,00f € 10.800,00
+Verklaringen:
+- Verklaring: de bonus aan werknemers is aangewezen als eindheffingsbestanddeel (forfaitaire WKR)
+= Verklaring: voor de bonus aan derden is de ‘eindheffing aan anderen dan eigen vers’ toegepast (eindheffing publiekrechtelijke uitkeringen)
+Verantwoording besteding Subsidieregeling bonus zorgprofessionals COVID-19 over de periode 1 oktober 2020 tot 15 juni 2021 (bonus 2021)
+
+Werknemers Derden Totaal
+
+Aantal Euro Aantal Euro Aantal Euro
+Totaal gen Zorgb 2021 volgens verleningsbeschikking (a) 327 € 226.440,96 7 € 4.712,68 334 € 231.153,64
+Aantal werknemers dat in aanmerking komt voor bonus 2021 (b) 315 € 121.183,65 315 € 121.183,65
+Aantal derden dat in aanmerking komt voor bonus 2021 (c) 2 € 769,42 2 € 769,42
+- ë Afgedragen of aangegeven verschuldigde eindheffing over de aan werknemers netto uitgekeerde bonus (max. € 307,77 per zorgprofessional) € 60.173,00 € 60.173,00
+- Afgedragen of aangegeven verschuldigde eindheffing over de aan derden netto uitgekeerde bonus (max. € 288,53 per zorgprofessional) € 577,00 € 577,00
+Totaal afgedragen of aangeg verschuldigde eindheffing over de netto uitgekeerde bonus aan zorgproffesionals (d) € 60.173,00 € 577,00 € 60.750,00
+Verschil verleningsbeschikking en feitelijke uitkeringen cq belastingheffing (a-b-c-d €£45.084,31| € 3.366,26 € 48.450,57
+Verklaringen:
+- Verklaring: de bonus aan werknemers is aangewezen als eindheffingsbestanddeel (forfaitaire WKR)
+= Verklaring: voor de bonus aan derden is de ‘eindheffing aan anderen dan eigen werknemers’ toegepast (eindheffing publiekrechtelijke uitkeringen)
+
+Pagina 50
+
+ee,
+OMNYACC
+
+ACCOUNTANTS & AL
+
+ú
+
+Ter identificatie
+Omnyacc In Control B.V.
+
+Stichting SHTV
+
+bijlage 5.3.2
+Verantwoording besteding Subsidieregeling bonus zorgprofessionals COVID-19 over de periode 1 maart 2020 tot 1 september 2020 (bonus 2020)
+Werknemers Derden Totaal
+Aantal Euro Aantal Euro Aantal Euro
+
+Totaal ontvangen Zorgt 2020 volg verleningsbeschikking (a) 82 € 147.600,00 0 €0,00 B2 € 147.600,00
+Aantal werk s dat in king komt voor bonus 2020 (b) 81 € 81.000,00 81 € 81.000,00
+Aantal derden dat in aanmerking komt voor bonus 2020 (c) 0 € 0,00 0 € 0,00
+Bersingen
+
+- Afgedragen of aangegeven verschuldigde eindheffing over de aan werk s netto uitgekeerde bonus (max. € 800 per zorgprofessional) € 64.800,00 € 64.800,00
+- Afgedragen of aangegeven chuldigde eindheffing over de aan derden netto uitgekeerde bonus (max. € 750 per zorgpr: € 0,00 € 0,00
+Totaal afgedragen of aangeg verschuldigde eindheffing over de netto uitgekeerde bonus aan zorgproffesionals (d) € 64.800,00 €0,00 € 64.800,00
+Verschil verleningsbeschikking en feitelijke uitkeringen cq belastingheffing (a-b-c-d) € 1.800,00 €0,00 € 1.800,00
+Verklaringen:
+
+- Verklaring: de bonus aan werknemers is aang \ als eindheffingsbestanddeel (forfaitaire WKR)
+
+= Verklaring: voor de bonus aan derden is de ‘eindheffing aan anderen dan eigen werknemers’ toegepast (eindheffing publiekrechtelijke uitkeringen)
+
+Verantwoording besteding Subsidieregeling bonus zorgprofessionals COVID-19 over de periode 1 oktober 2020 tot 15 juni 2021 (bonus 2021)
+
+Werknemers Derden Totaal
+Aantal Euro Aantal Euro Aantal Euro
+
+Totaal ontvangen Zorgbonus 2021 volgens verleningsbeschikking (a) 87 € 60.245,76 0 € 0,00} 87 € 60.245,76
+Aantal werk s dat in king komt voor bonus 2021 (b) B4 € 32.315,64 84 € 32.315,64
+Aantal derden dat in aanmerking komt voor bonus 2021 (c) 0 € 0,00 0 €0,00
+Belastingen
+
+- Afgedragen of aangegeven verschuldigde eindheffing over de aan werk netto uitgekeerde bonus (max. € 307,77 per zorgprofessional) € 12.933,00 € 12.933,00
+- Afgedragen of aangegeven verschuldigde eindheffing over de aan derden netto uitgekeerde bonus (max. € 288,53 per zorgprofessional) € 0,00 € 0,00
+Totaal afgedragen of B verschuldigde eindheffing over de netto uitgekeerde bonus aan zorgproffesionals (d) € 12.933,00 € 0,00 € 12.933,00
+Verschil verleningsbeschikking en feitelijke uitkeringen cq belastingheffing (a-b-c-d €14.997,12 €0,00) € 14.997,12
+Verklaringen:
+
+- Verklaring: de bonus aan werknemers is aangewezen als eindheffingsbestanddeel (forfaitaire WKR)
+
+= Verklaring: voor de bonus aan derden is de ‘eindheffing aan anderen dan eigen werknemers’ toegepast (eindheffing publiekrechtelijke uitkeringen)
+
+Co
+OMNYACC
+
+ACCOUNTANTS hk ADVISEURS
+Ter identificatie
+
+Omnyacc In Control B.V.
+Pagina 51
