@@ -1,0 +1,853 @@
+# whosigns-ocr v1 grootte=1283799 dpi=300 paginas=20
+| Zorgbureau Daadkracht B.V.
+d(CC a NnCV Zoet
+ü RUVA dCCOUN Lq NC oetermeer
+
+gs Inhoudsopgave
+Pagina
+$ Accountantsrapport
+Opdracht 2
+Samenstellingsverklaring van de accountant 2
+Algemeen 4
+Fiscale positie 5
+ä Jaarrekening
+Balans per 31 december 2021 6
+Winst-en-verliesrekening over 2021 8
+dl Grondslagen van waardering en resultaatbepaling 9
+Toelichting op de balans 12
+Toelichting op de winst-en-verliesrekening 16
+dl TRUVA group.nl
+4 1
+
+TRUVA accountancy en
+
+TRUY#
+
+3 : EE ri pn
+Aan de directie van
+
+Zorgbureau Daadkracht B.V.
+
+Ter attentie van Sinem Nuralis - Baba
+
+Stephensonstraat 45
+
+2723 RM Zoetermeer
+
+Amsterdam, 29 juli 2022
+
+Geachte mevrouw Nuralis - Baba,
+
+Opdracht
+
+Ingevolge uw opdracht hebben wij de jaarrekening 2021 van Zorgbureau Daadkracht B.V. te Zoetermeer
+samengesteld.
+
+Het bestuur van de vennootschap is op grond van wettelijke bepalingen verantwoordelijk voor de jaarrekening.
+
+Samenstellingsverklaring van de accountant
+
+De jaarrekening van Zorgbureau Daadkracht B.V. te Zoetermeer is door ons samengesteld op basis van de van u
+gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2021 en de winst-en-verliesrekening
+over 2021 met de daarbij horende toelichting. In deze toelichting is onder andere een overzicht van de
+gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor accountants
+geldende Standaard 4410, 'Samenstellingsopdrachten'. Op grond van deze standaard wordt van ons verwacht dat
+wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in overeenstemming met de Regeling
+verslaggeving WTZi, de Richtlijnen voor de Jaarverslaggeving (RI) 655, Titel 9 BW2 en de bepalingen van en
+krachtens de Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT). Wij hebben
+daarbij onze deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle relevante
+informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor geldende
+regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid heeft voldaan. Als
+slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal nagegaan dat het beeld van
+de jaarrekening overeenkwam met onze kennis van Zorgbureau Daadkracht B.V.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers van deze
+jaarrekening mogen er dan ook van uitgaan dat wij de opdracht professioneel, vakbekwaam en zorgvuldig, integer
+en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte gegevens.
+
+Wij vestigen de aandacht op de tekst in de toelichting van de jaarrekening waarin uiteengezet is dat het bestuur
+van de vennootschap zich bewust is van het negatieve eigen vermorgen (als gevolg van geleden verliezen),
+waardoor blijkt dat het voortbestaan van de vennnootschap mogelijk onzeker is. Deze condities, samen met
+andere omstandigheden zoals uiteengezet in de toelichting, duiden op een bestaan van een onzekerheid van
+materieel belang op grond waarvan gerede twijfel zou kunnen bestaan over de continuïteitsveronderstelling van
+de vennootschap.
+
+In de toelichting op de jaarrekening heeft u toegelicht welke maatregelen u al genomen heeft en welke
+maatregelen u nog overweegt te nemen, waarbij ook is aangegeven van welke door de regering beschikbaar
+gestelde faciliteiten u gebruik verwacht te maken. Deze maatregelen zijn voor het bestuur reden om te vertrouwen
+op duurzame voortzetting van de activiteiten. Derhalve is de jaarrekening opgesteld op basis van de
+continuïteitsveronderstelling. Wij zijn het met u eens dat de jaarrekening in deze situatie op grond van de regels in
+tagstnpeap er gpeemaakt kan worden op grond van de continuiîteitsveronderstelling. Dat neemt niet
+
+Zorgbureau Daadkracht B.V.
+TRUVA accountancy En
+
+weg dat er onzekerheden blijven bestaan.
+
+TRUVA accountancy
+
+H. Tirpan RA
+
+EE Oe OO OO
+
+EE nn nn nm B
+
+TRU VA rou
+
+her Nie
+
+Na
+
+4e,
+
+
+RR RR RR RR nn Ln B
+
+mm a
+
+TRU VA accountan Cy TE emee
+
+Algemeen
+
+Juridische structuur
+
+Zorgbureau Daadkracht B.V. is gevestigd te Zoetermeer en houdt aldaar aan het adres Stephensonstraat 45
+kantoor. Alle aandelen worden gehouden door mevrouw S. Nuralis - Baba.
+
+Oprichting vennootschap
+
+Blijkens de akte dd. 14 maart 2014, verleden door mr. A.J. van der Bijl, notaris te Zoetermeer, werd de besloten
+vennootschap met beperkte aansprakelijkheid Zorgbureau Daadkracht B.V. per genoemde datum opgericht.
+
+Activiteiten
+
+De bedrijfsactiviteiten van de vennootschap bestaan in hoofdzaak uit het aanbieden van zorg waaronder
+begeleiding van de administratieve kant van zorg en zorg aanvragen, alsook het detacheren van zorgpersoneel
+voor zowel intra- als extramurale zorg.
+
+Vaststelling jaarrekening
+
+De Algemene Vergadering heeft de jaarrekening 2020 op 8 juni 2021 vastgesteld. Het nettoresultaat na belastingen
+over het boekjaar 2020 bedroeg € -51.905.
+
+TRUVA group.nl
+
+Zorgbureau Daadkracht B.V.
+€ f mA Zoetermeer
+NN J
+id | RUVA accountana,
+8 Fiscale positie
+Berekening belastbaar bedrag
+d 2021
+€
+4 Totaal van resultaat voor belastingen -3.335
+Á Gedeeltelijk aftrekbare bedragen 111
+Belastbaar bedrag -3,224
+Tot het geven van nadere toelichtingen, zijn wij gaarne bereid.
+Hoogachtend,
+zi TRUVA accountancy
+F. Dogru
+TRUVA group.nl
+u ee
+5
+
+
+nn Zorgbureau Daadkracht B.V.
+} deu U |L d HC \ Zoetermeer
+
+Balans per 31 december 2021
+{na voorstel resultaatverdeling)
+
+a Activa
+31-12-2021 31-12-2020
+€ € € €
+sl Vaste activa
+Materiële vaste activa 2.408 3.478
+d Vlottende activa
+Vorderingen 64.191 65.069
+: Liquide middelen 40.840 5.378
+107.439 73.925
+_ Á
+TRKUVA
+6
+
+nel IE nd __
+
+TRUVA accountancy
+
+Passiva
+
+Eigen vermogen
+Gestort en opgevraagd aandelenkapitaal
+Overige reserve
+
+Kortlopende schulden
+
+TRUVA group.nl
+
+Zorgbureau Daadkracht B.V.
+
+Zoetermeer
+
+31-12-2021 31-12-2020
+
+€ € € €
+500 500
+-117.596 „114.262
+
+-117.096 „113.762
+
+224.535 187.687
+
+107.439 73.925
+
+E TRUVA accountancy
+
+Winst-en-verliesrekening over 2021
+
+Brutomarge
+
+Kosten uitbesteed werk en andere externe
+kosten
+
+Lasten uit hoofde van personeelsbeloningen
+Afschrijvingen op immateriële, materiële vaste
+activa en vastgoedbeleggingen
+
+Overige bedrijfskosten
+
+Totaal van som der kosten
+Totaal van bedrijfsresultaat
+Financiële baten en lasten
+
+Totaal van resultaat voor belastingen
+
+Belastingen over de winst of het verlies
+
+Totaal van resultaat na belastingen
+
+TRUVA group.nl
+
+Zorgbureau Daadkracht B.V.
+
+Zoetermeer
+
+2021 2020
+
+€ € € €
+
+692.773 501.650
+3.338 800
+569.002 445.364
+1.070 1.032
+121.161 104.810
+
+694.571 552.106
+
+-1.798 -50.456
+
+-1.537 -1.449
+
+-3.335 „51.905
+
+-3.335 -51.905
+
+i TRUVA accountan Cy SO eere
+
+N TE — . x
+
+Grondslagen van waardering en resultaatbepaling
+
+Informatie over de onderneming
+
+Vestigingsadres en inschrijfnummer handelsregister
+
+Zorgbureau Daadkracht B.V. is feitelijk en statutair gevestigd op Stephensonstraat 45, 2723 RM te Zoetermeer en is
+ingeschreven bij het handelsregister onder nummer 60228512.
+
+Algemene toelichting
+
+De belangrijkste activiteiten van de rechtspersoon
+
+De bedrijfsactiviteiten van Zorgbureau Daadkracht B.V. bestaan in hoofdzaak uit het aanbieden van zorg
+waaronder begeleiding van de administratieve kant van zorg en zorg aanvragen, alsook het detacheren van
+zorgpersoneel voor zowel intra- als extramurale zorg.
+
+Informatieverschaffing over continuïteit
+Deze jaarrekening is opgesteld uitgaande van de continuiteitsveronderstelling.
+De ernstige onzekerheden omtrent de continuïteit van de organisatie
+
+Wij zijn ons bewust van het negatieve eigen vermorgen, waaruit blijkt dat het voortbestaan van de vennnootschap
+mogelijk onzeker kan zijn. Wij hebben hieronder een toelichting gegeven waaruit bljikt dat een duurzame
+voortzetting van de bedrijfsuitoefening niet onmogelijk is. Derhalve zijn de toegepaste grondslagen voor
+waardering en resultaatbepaling gebaseerd op de veronderstelling van continuïteit van de vennootschap. Wij
+verwachten dat de kasstroom over de komende boekjaren zich positief zal ontwikkelen als gevolg van de volgende
+maatregelen die wij inmiddels hebben getroffen en de plannen die we hebben gemaakt:
+
+1. Wij hebben de goedkeuring van de Gemeente Zoetermeer en leveren in 2022 nog steeds onze diensten via een
+
+onderaannemer.
+
+2. Voor 2023 gaan we ons wederom inschrijven en willen we zonder tussenkomst van een bureau de diensten
+zelfstandig leveren. Dit scheelt ons 6% commissie. De huidige diensten lopen via Carewise en zijn wij
+onderaannemer. Vanaf 2023 willen wij zelf een overeenkomst met de Gemeente Zoetermeer.
+
+3. Voor 2023 gaan we ons ook inschrijven bij de Gemeente Rijswijk en Rotterdam. Om zo onze activiteiten uit te
+breiden.
+
+4. In de gemeente Leidschendam-Voorburg zien wij een groei en deze groei zal in 2022 en 2023 nog doorzetten.
+5. Ten aanzien van de belastingschulden hebben wij een regeling getroffen met de Belastingdienst voor 5 jaar. Dit
+heeft een positieve invloed op onze kasstroom.
+
+6. De personeelskosten zullen ondanks de uitbreiding van de activiteiten minder hard stijgen aangezien wij
+personeel veel efficiënter gaan inplannen en rekening houden met reiskosten. We gaan personeel beter inzetten in
+de betreffende gemeente.
+
+7. Ten aanzien van de huurkosten zullen we 1 unit gaan inleveren waardoor deze kosten zullen daten en dit zal de
+kasstroom positief beinvloeden.
+
+Door de activiteiten uit te breiden en op de kosten te letten zal het resultaat en de kasstroom positief beïnvloed
+worden waardoor de continuïteit niet in gevaar zal zijn.
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi, de Richtlijnen voor de
+Jaarverslaggeving (RJ) 655, Titel 9 BW2 en de bepalingen van en krachtens de Wet normering bezoldiging
+topfunctionarissen publieke en semipublieke sector (WNT).
+
+LA passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de actuele
+TRU
+
+Indre erieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de verkrijgingsprijs.
+
+[RU VA accountan Cy TE emee
+
+Leases
+
+Operationele leases
+
+De vennootschap heeft leasecontracten waarbij een groot deel van de voor- en nadelen die aan de eigendom
+verbonden zijn, niet bij de vennootschap ligt. Deze leasecontracten worden verantwoord als operationele leasing.
+Leasebetalingen worden, rekening houdend met ontvangen vergoedingen van de lessor, op lineaire basis verwerkt
+in de winst-en-verliesrekening over de looptijd van het contract.
+
+Grondslagen
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur
+en bijzondere waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief de
+transactiekosten indien materieel. Indien geen sprake is van (dis)agio en transactiekosten is de geamortiseerde
+kostprijs gelijk aan de nominale waarde van de vorderingen. Vorderingen worden na eerste verwerking
+gewaardeerd tegen de geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering
+gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende
+schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening
+houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale waarde.
+
+Grondslagen voor de bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de netto-omzet en alle hiermee verbonden, aan het verslagjaar
+toe te rekenen kosten. De kosten worden bepaald met inachtneming van de hiervoor vermelde
+waarderingsgrondslagen.
+
+Winsten worden verantwoord in het jaar waarin de omzet is gerealiseerd. Verliezen worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn.
+De overige baten en lasten worden toegerekend aan de verslagperiode waarop deze betrekking hebben.
+
+Omzetverantwoording
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag
+van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding
+waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald
+en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening te
+voltooien op betrouwbare wijze kunnen worden bepaald.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+TRUVA group.nl
+
+10
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+:
+|
+|
+k
+
+| RU VA accountan Cy terme
+
+ie WO . E 2 Ze
+
+Lasten uit hoofde van personeelsbeloningen
+
+Lonen
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de resultatenrekening
+voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+Pensioenlasten
+
+Zorgbureau Daadkracht B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in
+aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is
+gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd
+bij Zorgbureau Daadkracht B.V. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn
+ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. Zorgbureau Daadkracht B.V. betaalt hiervoor
+premies waarvan de helft door de werkgever wordt betaald en de helft door de werknemer. De pensioenrechten
+worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het pensioenfonds (het vermogen van het
+pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat.
+
+Afschrijvingen op materiële vaste activa
+
+Materiële vaste activa worden vanaf het moment van gereedheid voor ingebruikneming afgeschreven over de
+verwachte toekomstige gebruiksduur van het actief. Over terreinen en vastgoedbeleggingen wordt niet
+afgeschreven.
+
+Indien een schattingswijziging plaatsvindt van de toekomstige gebruiksduur, dan worden de toekomstige
+afschrijvingen aangepast.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+Overige bedrijfskosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking hebben.
+
+Rentelasten en soortgelijke kosten
+
+Rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van de
+desbetreffende passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de verantwoorde
+
+transactiekosten op de ontvangen leningen.
+Belastingen over de winst of het verlies
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-verliesrekening,
+rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren en vrijgestelde
+winstbestanddelen en na bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met wijzigingen
+die optreden in de latente belastingvorderingen en latente belastingschulden uit hoofde van wijzigingen in het te
+hanteren belastingtarief.
+
+TRUVA group.nl
+
+11
+
+TRUVA accountan Cy
+
+Toelichting op de balans
+Activa
+
+Vaste activa
+
+Materiële vaste activa
+
+Inventarissen
+
+Materiële vaste activa
+
+Stand per 1 januari 2021
+
+Verkrijgings- of vervaardigingsprijs
+Cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2021
+
+Mutaties
+
+Afschrijvingen
+Saldo mutaties
+
+Stand per 31 december 2021
+
+Verkrijgings- of vervaardigingsprijs
+Cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2021
+
+Materiële vaste activa: Economische levensduur
+
+Gebruiksduur (in maanden)
+
+TRUVA group.nl
+
+Zorgbureau Daadkracht B.V.
+Zoetermeer
+
+31-12-2021 31-12-2020
+€ €
+
+2.408 3,478
+
+Inventarissen
+€
+
+5.347
+-1.869
+
+Andere vaste
+bedrijfsmiddel!
+en
+
+%
+
+20
+
+12
+
+TRU VA accountan Cy TO emee
+
+ar ee ZN oe EES en ee en ete een elf a Te
+
+Vlottende activa
+
+31-12-2021 31-12-2020
+€ €
+
+Vorderingen
+Vorderingen op handelsdebiteuren 5 1.907
+Overige vorderingen en overlopende activa 64.191 63.162
+64.191 65.069
+
+Vorderingen > 1 jaar
+
+Onder de vorderingen op zorgcliënten opgenomen tot een bedrag van € O met een resterende looptijd langer dan
+een jaar.
+
+Overige vorderingen en overlopende activa
+
+Nog te ontvangen omzet 60.606 58.251
+Waarborgsommen 3.585 3.585
+Huisvesting - 1.127
+Licentiekosten - 199
+64.191 63.162
+Liquide middelen
+Kas - 128
+ABN AMRO Bank N.V. 40.840 5.250
+40.840 5.378
+
+Opmerking over beperkte vrije beschikbaarheid liquide middelen
+
+De liquide middelen staan direct ter vrije beschikking van de vennootschap.
+
+TRUVA group.nl
+
+13
+
+TRU VA accountan Cy TT eme
+
+ed EE en en! EE nen En er a
+
+Passiva
+
+Eigen vermogen
+
+In onderstaand overzicht is het verloop van het eigen vermogen weergegeven:
+
+Gestort en op- Overige reser- Totaal
+
+gevraagd aan- ve
+_delenkapitaal E E
+€ € €
+Stand per 1 januari 2021 ia annae 1707
+Nog toe te wijzen - 1 1
+Uit resultaatverdeling - -3.335 -3.335
+Stand per 31 december 2021 500 -117.596 -117.096
+
+Gestort en opgevraagd aandelenkapitaal
+
+Het geplaatst kapitaal van Zorgbureau Daadkracht B.V. bedraagt € 500, verdeeld in 1000 gewone aandelen. Het
+gestort en opgevraagd kapitaal bedraagt € 500. Dit betreft 1000 gewone aandelen van nominaal € 0,50. Alle
+aandelen worden gehouden door mevrouw S. Nuralis-Baba.
+
+31-12-2021 31-12-2020
+
+€ €
+Kortlopende schulden
+Schulden aan leveranciers en handelskredieten 518 4.392
+Schulden aan participanten en aan maatschappijen waarin wordt deelgenomen 17.474 53.088
+Schulden ter zake van belastingen en premies sociale verzekeringen 144.570 83.721
+Overige schulden en overlopende passiva 61.973 46.486
+
+224.535 187.687
+
+Schulden aan leveranciers en handelskredieten
+Nominale waarde 518 4.392
+Schulden aan participanten en aan maatschappijen waarin wordt deelgenomen
+Schuld aan Rekening-courant directie 17.474 53.088
+
+Er is een schriftelijke overeenkomst tussen Zorgbureau Daadkracht B.V. en directie aanwezig. De overeengekomen
+rente is 3%. Omntrent aflossingen en zekerheden zijn geen afspraken gemaakt.
+De rente in boekjaar bedraagt € 3.334.
+
+_TRUVA group.nl
+
+14
+
+TRUVA accountancy en mtermeer
+
+ee ä= en è iede TE ae
+
+ET Ee nn el 4 ms ,
+
+31-12-2021 31-12-2020
+
+€ €
+
+Schulden ter zake van belastingen en premies sociale verzekeringen
+Loonheffing 138.535 74846
+Pensioenen 6.035 8.875
+144.570 83.721
+
+Overige schulden en overlopende passiva
+
+Netto lonen 30.021 30.353
+Vakantiegeldreserve 19.523 14.907
+Schuld aan zorgcliënt Temel 650 648
+Reservering accountantskosten 500 500
+Schuld aan zorgcliënt Teryaki 78 78
+Eindejaarsuitkering 8.162 -
+Verzekeringen 3.039 -
+61.973 46,486
+
+Niet in de balans opgenomen rechten, verplichtingen en regelingen
+
+informatieverschoffing over niet in de balans opgenomen verplichtingen
+
+Niet uit de balans blijkende verplichtingen zijn voorwaardelijke verplichtingen, niet verwerkte verplichtingen of
+meerjarige financiële verplichtingen die niet in de balans zijn opgenomen, maar wel onontbeerlijk zijn voor het
+inzicht dat de jaarrekening dient te bieden en derhalve opgenomen dienen te worden in de jaarrekening.
+Zorgbureau Daadkracht B.V. heeft (meerjarige) financiële verplichtingen die niet in de balans zijn opgenomen: de
+huurverplichting bedraagt 14.700 euro per jaar. De verplichting wordt steeds voortgezet voor aansluitende
+perioden van telkens 1 jaar.
+
+Resultaatverwerking
+
+De leiding van de vennootschap stelt voor het resultaat de volgende bestemming te geven:
+
+Het resultaat over 2021 ad € 3.335 (negatief) wordt geheel in mindering gebracht op de overige reserves.
+
+TRUVA group.nl
+
+15
+
+TRUVA accountancy eme
+
+Toelichting op de winst-en-verliesrekening
+
+2021 2020
+€ €
+Brutomarge
+Netto-omzet _ 692.773 501.102
+Overige bedrijfsopbrengsten - 548
+692.773 501.650
+Netto-omzet
+Zorgomzet 692.773 501.102
+Kosten uitbesteed werk en andere externe kosten
+Werk door derden 3.338 900
+Lasten uit hoofde van personeelsbeloningen
+Lonen 448.511 359.992
+Sociale lasten en pensioenlasten 98.187 67.395
+Overige personeelsbeloningen 22.304 17.977
+569.002 445,364
+Lonen
+Lonen en salarissen 399.868 328.569
+Uitbetaalde vakantiegeld 27.865 21.981
+Mutatie reservering eindejaarsuitkering 12.601 -
+Uitbetaalde eindejaarsuitkering 8.000 -
+Mutatie reservering vakantiegeld 177 5.529
+Uitbetaalde vakantiedagen - 3.913
+448.511 359.992
+_ Bezoldiging bestuurders
+Bezoldiging bestuurders 55.785 43.992
+Gemiddeld aantal werknemers
+2021
+Aantal —
+Gemiddeld aantal werknemers 16,83
+2020
+Aantal
+Gemiddeld aantal werknemers 14,30
+
+- TRUV, GrouD.n:
+
+16
+
+TRUVA accountancy
+
+Sociale lasten en pensioenlasten
+
+Inhoudingen sociale lasten
+Pensioen premies
+Ontvangen ziekengeld
+
+Overige personeelsbeloningen
+
+Reiskostenvergoeding woon-werk
+Arbodienst
+
+Overige personeelskosten
+Kantinekosten
+
+Noodmaatregel Overbrugging Werkgelegenheid (NOW)
+Schadeuitkeringen
+WTL
+
+Afschrijvingen op immateriële, materiële vaste activa en vastgoedbeleggingen
+
+Afschrijvingen materiële vaste activa
+
+Afschrijvingen materiële vaste activa
+
+Inventarissen
+
+Overige bedrijfskosten
+
+Huisvestingskosten
+Verkoopkosten
+Autokosten
+Algemene kosten
+
+Huisvestingskosten
+
+Betaalde huur
+Belastingen en overige vaste lasten
+Overige huisvestingskosten
+
+TRUVA group.
+
+Zorgbureau Daadkracht B.V.
+
+Zoetermeer
+
+2021 2020
+
+€ €
+87.306 72.211
+24.798 22.059
+-13.917 -26.875
+98.187 67.395
+21.198 13.734
+4.032 2.988
+3.612 -
+419 3.242
+29.261 19.964
+- -1.987
+
+-G41 -
+-6.016 -
+22.304 17.977
+1.070 1.032
+1.070 1.032
+13.670 11.880
+7.323 -141
+30 4.184
+100.138 88.887
+121.161 104.810
+13.646 11.810
+- 70
+
+24 .
+13.670 11.880
+
+17
+
+T RU VA accountan Cy TE eme
+
+te eee et Te ne eid me
+
+2021 2020
+€ €
+
+Verkoopkosten
+Kwaliteitsbevordering 1.567 4.598
+Reclame- en advertentiekosten 434 3.036
+Verlies op debiteuren 4.823 1.314
+Dotatie voorziening dubieuze vorderingen op handelsdebiteuren 499 -9.089
+7.323 „141
+
+Autokosten
+
+Huur 30 3.865
+Boetes en bekeuringen - 288
+Brandstofkosten - 31
+30 4,184
+
+Algemene kosten
+
+Advieskosten 55.786 43.992
+Abonnementen en contributies 10.215 2.801
+Assurantiepremie 9.825 9.460
+Telecommunicatie en internet 9.306 9.312
+Accountantskosten, andere niet-controlediensten 7.906 7.082
+Kantoorbenodigdheden 2.495 1.757
+Automatisering 2.131 5.843
+Accountantskosten, andere controleopdrachten 1.029 847
+Orukwerk 915 -
+Bankkosten 787 789
+Onderhoud inventaris 253 -
+Administratiekosten - 1.696
+Porti- en overige verzendkosten - 1.353
+Boetes en verhogingen belastingen en premies sociale verzekeringen - 693
+Kleine aanschaffingen - 2.972
+Betalingsverschillen „16 4
+Overige algemene kosten -494 286
+
+100.138 88.387
+
+Financiële baten en lasten
+
+Rentelasten en soortgelijke kosten -1.537 -1,449
+
+Rentelasten en soortgelijke kosten
+
+Rente rekening-courant directie 1.537 1.449
+
+_ TRUVA group.nl
+
+18
+
+Zorgbureau Daadkracht B.V.
+
+TRUVA accountancy one
+
+Zoetermeer, 29 juli 2022
+Zorgbureau Daadkracht B.V.
+
+5.
+
+_TRUVA group.nl
+en
+
+19
