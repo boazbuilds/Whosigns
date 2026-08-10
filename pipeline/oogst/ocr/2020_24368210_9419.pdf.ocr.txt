@@ -1,0 +1,757 @@
+# whosigns-ocr v1 grootte=5705101 dpi=300 paginas=20
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Grondslagen van waardering, resultaatbepaling en kasstroomoverzicht
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reële waarde, inclusief transactiekosten. (Door
+toepassing van de effectieve rentemethode worden transactiekosten als onderdeel vaan de
+amortisatie in de winst- en verliesrekening verwerkt.) De vervolgwaardering van vorderingen
+is tegen geamortiseerde kostprijs (indien geen sprake van agio/disagio of transactiekosten dan
+geamortiseerde kostprijs gelijk aan nominale waarde.)
+
+Schulden
+
+De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden
+worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+
+gewaardeerd tegen de geamortiseerde kostprijs (nominale waarde).
+
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Grondslagen van waardering, resultaatbepaling en kasstroomoverzicht
+
+Grondslagen van resultaatbepaling
+
+Algemeen
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar,
+
+met inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen. De baten en lasten
+worden toegerekend aan de periode waarop deze betrekking hebben, uitgaande van historische
+kosten. Verliezen worden verantwoord als deze voorzienbaar zijn; baten worden verantwoord
+als deze gerealiseerd zijn.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit
+boekjaar zijn geconstateerd, worden aan dit boekjaar toegerekend.
+
+Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering bezoldiging topfunctionarissen in de (semi)publieke
+sector ( WNT ) heeft de stichting zich gehouden aan de Beleidsregel toepassing WNT en deze als
+normenkader bij het opmaken van deze jaarrekening gehanteerd.
+
+Opbrengsten
+De opbrengsten uit dienstverlening worden verantwoord naar rato van de verrichte prestaties,
+
+gebaseerd op de verrichte diensten tot aan de balansdatum en in verhouding tot in totaal te
+
+verrichten dienst ( onder de voorwaarde dat het resultaat betrouwbaar kan worden geschat, dit
+
+indien aan de volgende voorwaarden is voldaan:
+
+a. het bedrag kan op betrouwbare wijze worden bepaald;
+
+b. waarschijnlijke economische voordelen;
+
+c. de mate waarin de dienstverlening op de balansdatum is verricht kan op betrouwbare wijze
+worden bepaald, en
+
+d. gemaakte kosten en kosten die nog moeten worden gemaakt, kunnen betrouw worden bepaald;
+
+als dat niet kan dan opbrengsten slechts verwerken tot het bedrag van de kosten van de
+
+dienstverlening).
+
+Bij de berekening van het wettelijk budget voor aanvaardbare kosten is geen rekening gehouden
+
+met de na-indexering. De met de opbrengsten samenhangende lasten worden toegerekend aan de
+
+periode waarin de baten zijn verantwoord.
+
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Grondslagen van waardering, resultaatbepaling en kasstroomoverzicht
+Grondslagen van resultaatbepaling
+
+Personele kosten
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de
+belastingautoriteit.
+
+Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+De geldmiddelen ín het kasstroomoverzicht bestaan uit de liquide middelen.
+Ontvangsten en uitgaven uit hoofde van interest zijn opgenomen onder de kasstroom uit
+operationele activiteiten.
+
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Mutatieoverzicht vaste activa
+
+Verloop vaste activa
+
+JGL - Advies
+
+Instrumen-
+Verbouwing tarium Inrichting Computers Fiets Totaal
+
+Stand 1 januari
+Aanschafwaarde 395.636 177.861 12.301 51.662 2.429 639.889
+Cumulatieve afschrijvingen -181,181 -163.869 -6.566 -28.821 -587 -381.024
+Boekwaarde 214.455 13.992 Dela 22.841 1.842 258.865
+Mutaties boekjaar
+Investeringen 0 15.464 604 4.289 0 20.357
+Afschrijvingen -78.858 -5,376 -1.872 -9.026 -486 -95.618
+Terugname geheel
+afgeschreven activa
+Aanschafwaarde 0 0 0 0 0 0
+Afschrijvingen 0 0 0 0 0 0
+Desinvesteringen
+Aanschafwaarde 0 0 0 0 0 0
+Afschrijvingen 0 0 0 0 0 0
+Per saldo 0 0 0 0 0 0
+Mutaties in de boekwaarde -78.858 10.088 -1.268 -4,737 0 -14.775
+Stand 31 december
+Aanschafwaarde 395.636 193.325 12.905 55951 2.429 660.246
+Cumulatieve afschrijvingen -260.039 „169.245 -8.438 -37.847 -1.073 -476.642
+Boekwaarde 135.597 24.080 4.467 18.104 1.356 183.604
+
+2020 2019
+Financiële vaste activa €
+ABN AMRO 24.92.05.394 14.050 14.150
+
+Bankrekening nummer 24.92.05.394 betreft een bankgarantie ten behoeve van de huurverplichting.
+
+Dit betreft een geblokkeerd tegoed.
+
+10
+
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de balans per 31 december 2020
+
+2020 2019
+5 Ë
+Voorraden
+Medische middelen 5,556 2.728
+Onderhandenwerk projecten uit hoofde van DBC's
+Omzet DBC's B-Segment 248.207 300.066
+Nog te factureren 11.636 0
+259.843 300.066
+Het onderhandenwerk ultimo het verslagjaar is benaderd aan de hand van
+de ultimo het verslagjaar nog openstaande DBC's.
+Debiteuren
+Infomedics 295.111 0
+Depot Famed 0 318.243
+295.111 318.243
+Overige vorderingen
+Beroepsverzekeringen 8.362 5.391
+Depot Infomedics 5.000 0
+Overige personeelskosten 0 2.140
+Computerkosten 1.867 0
+Contributies en vakliteratuur 82 84
+Vooruitbetaalde huur 4.959 0
+Te vorderen rente 0 Ì
+Wet tegemoetkomingen loondomein 651 0
+Bijdragen verbouwing 18.553 18.553
+Lening u/g 1.568 3.090
+Niet nagekomen afspraken 180 0
+Uitkering ziekengeld verzekering 0 742
+41.222 30.001
+
+11
+
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de balans per 31 december 2020
+
+2020 2019
+Le É
+Liquide middelen
+ABN AMRO 53.10.70.069 284.027 9,534
+ABN AMRO 52.01.75.433 26.482 90.000
+310.509 99,534
+
+Deze liquide middelen staan ter vrije beschikking van de Zorginstelling.
+
+12
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de balans per 31 december 2020
+
+Rekening-courant Dermatologe B.V.
+Het verloop van de rekening-courant verhouding kan als volgt worden weergegeven:
+
+Ë €
+Stand per 1 januari 57.407
+aflossing 57.500
+-03
+Bankovermakingen 69.174
+Voor Dermatologe betaalde kosten:
+- advieskosten 3.703
+- loonbelasting 1.878
+- netto lonen 5.347
+- autokosten 249
+- overige kosten 3032
+14.709
+-83.976
+Af: door Dermatologe ontvangen:
+- ziekengelduitkering 22.740
+- aflossing en rente lening u/g 1.594
+24.334
+-108.310
+Af: huur laser 2019 / 2020 83.825
+-24.485
+Bij: 5% rente 823
+Stand per 31 december -23.662
+
+Voor de rekening-courant verhouding zijn geen zekerheden gesteld.
+Aflossing dient te geschieden na vaststelling van de jaarrekening, doch heeft reeds op
+12 maart 2021 plaatsgevonden.
+
+13
+
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de balans per 31 december 2020
+
+2020 2019
+€ €
+
+Eigen vermogen
+Stand per 1 januari 557.110 587.875
+Bij: volgens voorstel resultaatbestemming -60.214 -30.765
+Stand per 31 december 496.896 557.110
+Langlopende schulden
+Lening o/g AMJA Holding B.V. 250.000 0
+
+Ter dekking van de lopende kosten is eind november 2020 een bedrag ter grootte van € 250.000 ter
+ter leen opgenomen van AMJA Holding B.V …
+Zekerheden zijn niet gesteld.
+
+Kortlopende schulden
+
+Aflossingsverplichtingen
+
+Lening o/g aflossingsverplichting 0 101.335
+Belastingschulden
+Loonbelasting 18.293 11.217
+
+14
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de balans per 31 december 2020
+
+Overige schulden
+
+Advieskosten
+Accountantskosten
+Continuïteitsbijdragen
+Reservering vakantiegeld
+Waarneming
+
+Kosten salarisadministratie
+Bestuursvergoedingen
+Achterwacht
+
+N.0.W.-bijdragen
+
+Medische materialen
+Advieskosten derden
+Investeringsverplichting
+Computerkosten
+
+Onderhoud inventaris en instrumentarium
+Pensioenpremies
+Rekening-courant Famed 11533
+Huur laser
+
+Overige te betalen kosten
+
+279.639
+
+Niet uit de balans blijkende verplichtingen
+
+2020
+
+18.710
+
+9.305
+59.459
+11.128
+
+1.778
+
+76.950
+39.723
+5.135
+1.676
+11.495
+41.039
+724
+1.460
+0
+
+0
+1.057
+
+JGL - Advies
+
+2019
+
+15.088
+8.990
+0
+11.820
+6.300
+1.191
+136.000
+45.000
+0
+2.787
+2.083
+0
+38255
+0
+
+0
+
+138
+28.740
+126
+
+296.518
+
+Zorginstelling De Terp heeft met ingang van 1 september 2017 een nieuwe huurverplichting
+
+voor een pand in Capelle aan den IJssel. Het vorige contract is opgezegd zonder boete.
+
+Deze verplichting loopt tot 1 september 2027 en kent een optionele verlenging van vijf jaar.
+
+De huur bedroeg gedurende het verslagjaar € 59.124 en wordt jaarlijks geïndexeerd.
+
+15
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de winst- en verliesrekening over 2020
+
+Opbrengsten Zvw-zorg
+Omzet DBC's B-Segment
+Mutatie onderhanden werk
+
+Overige honoraria
+Continuïteitsbijdrage
+
+Niet nagekomen afspraken
+Overige honoraria
+
+Personeelskosten
+
+Bruto lonen
+
+Sociale lasten
+Pensioenpremies
+Scholingskosten
+
+Kosten headhunter
+Overige personeelskosten
+
+Ziektegeld uitkering
+NOW
+
+Wet tegemoegkomingen loondomein
+
+Subsidies
+
+Gedurende het verslagjaar waren er negen werknemers in dienst van
+Zorginstelling De Terp. (vj. vijf ).
+
+2020
+
+L2l0 SF
+-40.223
+
+1.170.708
+
+34.676
+3.225
+
+37.901
+
+302.711
+53.979
+21.594
+
+871
+0
+27.436
+
+406.591
+
+52.876
+0
+
+651
+9,494
+
+343.570
+
+2019
+
+1.214.731
+-50,908
+
+1.163.823
+
+2.818
+314
+
+NEP
+
+260.103
+15.024
+15419
+
+910
+7.563
+36.099
+
+335.018
+
+4.734
+0
+
+0
+51.167
+
+279.117
+
+Allen zijn gedurende het verslagjaar in Nederland werkzaam geweest als dokters-assistente
+
+of dermatoloog.
+
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de winst- en verliesrekening over 2020
+
+2020 2019
+CE €
+Personeel niet in loondienst
+Bestuurdersvergoeding
+Drs. M.J.P. Schulten-Lukassen 60.000 60.000
+Dr. J.J. H. Schulten 18.000 18.000
+Managementvergoeding
+Drs. M.J.P. Schulten-Lukassen 38.000 38.000
+Mr. A.J.M. Schulten 12.000 12.000
+Dr. J.J. H. Schulten 0 0)
+Raad van Toezicht
+Drs. M.W.M. Heerschop 2.750 2.750
+130.750 130.750
+Afschrijvingen
+Verbouwing 78.858 78.858
+Instumentarium 5.376 5.108
+Inrichting 1.872 1.867
+Computers 9.026 8.938
+Fiets 486 486
+95.618 95.257
+Overige bedrijfskosten
+Kosten omzet 338.700 361.220
+Huisvestingskosten 76.664 73.083
+Administratiekosten 71.156 66.473
+Kantoorkosten 146.004 120.596
+Verkoopkosten 4,155 4.990
+Verzekeringen 17.875 15.387
+Scholingskosten 2778 8.243
+Overige algemene kosten 33.448 32-129
+696.775 682.121
+
+17
+
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de winst- en verliesrekening over 2020
+
+2020 2019
+€ Ld
+Kosten omzet
+Medische materialen 91.638 70.134
+Waarneming 92.250 98.550
+Achterwacht 68.950 120.062
+Kosten factoring 24.861 26.084
+Additionele diensten derden 5.916 17.650
+Doorberekende kosten laser 55.085 28.740
+338.700 361.220
+Huisvestingskosten
+Huur 55.407 44.493
+Gas, water en elektra 3.977 3.460
+Onderhoud en schoonmaakkosten 16.466 18.267
+Vaste lasten 814 774
+Overige huisvestingskosten 0 6
+Service kosten 0 6.083
+76.664 73.083
+Ontvangen bijdrage 0 0
+76.664 73.083
+Administratiekosten
+Advieskosten 27.527 23.027
+Advieskosten vj. 4,316 0)
+Kosten IHC 11.794 12.962
+Aeccountantskosten 13.215 10.980
+Advieskosten derden 4,129 4,273
+Kosten salarisadministratie 6.010 5.179
+Additionele advieskosten 10.165 9.843
+Overige advieskosten 0 209
+71.156 66.473
+
+18
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de winst- en verliesrekening over 2020
+
+Kantoorkosten
+Telefoonkosten
+
+Porti en verzendkosten
+Kantoorbenodigdheden
+Drukwerk en kopieerkosten
+Computerkosten
+
+Verkoopkosten
+Representatiekosten
+Reis- en verblijfskosten
+
+Verzekeringen
+Beroepsverzekeringen
+
+Scholingskosten
+Congreskosten
+
+Nascholing
+
+5.325
+3.871
+792
+ZAAT
+132.489
+
+146.004
+
+4,024
+131
+
+4155
+
+17.875
+
+17.875
+
+1.637
+1.136
+
+2.773
+
+JGL - Advies
+
+2019
+
+5.779
+1.394
+2.073
+3,202
+108.148
+
+120.596
+
+4,990
+
+4.990
+
+15.387
+
+15.387
+
+8.243
+
+8.243
+
+19
+
+JGL - Advies
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de winst- en verliesrekening over 2020
+
+2020 2019
+Le Ë
+Overige algemene kosten
+Kleine aanschaffingen 6.962 104
+Wachtkamerkosten 431 893
+Contributies en vakliteratuur 12.509 14,1 17
+Kantinekosten 1.477 1197
+Onderhoud instrumentarium en inventaris 9,247 10.377
+(Reinigen) Beroepskleding 609 747
+Accreditatie- / auditkosten 405 0
+Advertentiekosten / sponsoring 1.717 4.616
+Kosten fiets 91 78
+33.448 32.129
+Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten 72 119
+Rentelasten en soortgelijke kosten 2.182 9.166
+-2.110 -9,047
+Rentebaten en soortgelijke opbrengsten
+Rente lening u/g 72 117
+Bankrente 0 2
+72 119
+Rentelasten en soortgelijke kosten
+Bankkosten 578 494
+Rente factoring 19 50
+Rente lening o/g 762 3.461
+Rente rekening-courant Dermatologe B.V. 823 5.161
+2.182 9,166
+Buitengewone lasten
+Oninbare vordering 0 1.428
+
+20
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Toelichting op de winst- en verliesrekening over 2020
+
+Bezoldiging bestuurders en toezichthouders
+
+Werkzaam vanaf
+Thans nog werkzaam
+Zo nee: tot wanneer
+
+Aard overeenkomst
+
+Functie
+
+Beloning
+
+Drs. M.J.P. Dr. Mr. Drs.
+Schulten- Jl. AJM. M.W.M.
+Lukassen Schulten Schulten Heerschop
+15-10-2004 15-10-2004 01-01-2005 01-01-2007
+ja ja ja ja
+
+n.v.t. n.v.t. n.v.t. n.v.t.
+oprichtings oprichtings bestuurs bestuurs
+
+akte akte benoeming benoeming
+Bestuur & Bestuur Management Raad van
+Management Toezicht
+
+€ 98.000 € 18.000 € 12.000 € 2.750
+
+21
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+Vaststelling en goedkeuring jaarrekening
+
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van gichting Zorginstelling De Terp heeft dit financieel verslag goedgekeurd in
+haar vergadering van … 6.2. ag za tan 2021.
+Voor akkoord:
+
+€/1.J.H. Schulten
+
+22
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+23
+
+Zorginstelling De Terp, Capelle aan den IJssel
+
+24
+
+SRL
+
+ACCOUNTANTS & BELASTINGADVISEURS
+
+Langeweg 41 Weena 505 Kerkstraat 8a / Postbus 5790
+3245 KE Sommelsdijk 3013 AL Rotterdam 3290 AB Strijen
+WM 0187 - 486039 @®B 088 - 9360000 ® 078 - 6741388
+® www.srlaccountants.nl DA info@srlaccountants.nl
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE
+
+ACCOUNTANT
+
+Aan: Het bestuur van de Stichting ZBC De Terp
+
+Wij hebben de in dit verslag opgenomen jaarrekening 2020 van Zorginstelling De Terp gevestigd te
+Capelle aan den IJssel beoordeeld. Deze jaarrekening bestaat uit de balans per 31 december 2020 en
+de winst- en verliesrekening over 2020 met toelichting, waarin zijn opgenomen een overzicht van
+de gehanteerde grondslagen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur van de entiteit is verantwoordelijk voor het opmaken van de jaarrekening die het
+vermogen en het resultaat getrouw dient weer te geven. Het bestuur is tevens verantwoordelijk voor
+een zodanige interne beheersing als het bestuur noodzakelijk acht om het opmaken van de
+jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als gevolg van fraude of
+fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze
+beoordeling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht,
+waaronder de Nederlandse standaard 2400 “Opdrachten tot het beoordelen van financiële
+overzichten”. Dit vereist dat wij voldoen aan de voor ons geldende ethische voorschriften en dat wij
+onze beoordeling zodanig plannen en uitvoeren dat wij in staat zijn te concluderen dat ons niet is
+gebleken dat de jaarrekening afwijkingen van materieel belang bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte
+mate van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak uit het
+inwinnen van inlichtingen bij het management en overige functionarissen van de entiteit, het
+uitvoeren van cijferanalyses met betrekking tot de financiële gegevens alsmede het evalueren van
+de verkregen informatie.
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter
+dan die uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de
+Nederlandse controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+NBA Op al onze diensten en leveringen zijn onze algemene voorwaarden van toepassing.
+LL | Deze worden bij het aanvaarden van een opdracht aan de opdrachtgever verstrekt en zijn ook terug te vinden op onze website.
+
+Conclusie
+
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten
+concluderen dat de jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling van
+het vermogen van Zorginstelling De Terp per 31 december 2020 en van het resultaat over 2020 in
+overeenstemming met de regeling verslaggeving WTZi.
+
+ommelsdijk, 29 septembgs 2021
+
+A.G. Retèl AA
