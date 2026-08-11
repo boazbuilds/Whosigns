@@ -1,0 +1,859 @@
+# whosigns-ocr v1 grootte=6789908 dpi=300 paginas=20
+joek accountants
+
+3 FINANCIËLE POSITIE
+
+KENGETALLEN FINANCIËLE POSITIE
+
+Liquiditeit
+Uit de liquiditeit blijkt in hoeverre een onderneming aan haar financiële verplichtingen op korte
+
+termijn kan voldoen. Met behulp van onderstaande kengetallen kan een inzicht worden verkregen in
+de liquiditeitspositie van de onderneming.
+
+2021 2020 2019 2018 2017
+kengetal kengetal kengetal kengetal kengetal
+Current ratio (vlottende activa /
+kortlopende schulden) 0,88 1,07 1,63 1,33 1,80
+Quick ratio (vlottende activa minus
+voorraden / kortlopende schulden) 0,88 1,07 1,63 1,33 1,80
+
+Solvabiliteit
+
+Uit de solvabiliteit blijkt het weerstandsvermogen van een onderneming. Hoe hoog deze solvabiliteit
+moet zijn, hangt af van de aard van de onderneming. Hiervoor kunnen geen algemeen geldende
+normen worden gegeven. Met behulp van onderstaande kengetallen kan een inzicht worden
+verkregen in de solvabiliteit van de onderneming.
+
+2021 2020 2019 2018 2017
+% % % % %
+Solvabiliteitsratio I (eigen vermogen /
+totaal vermogen) 15 43 47 34 61
+Solvabiliteitsratio II (eigen vermogen /
+vreemd vermogen) 18 76 87 52 157
+
+Rentabiliteit
+
+De rentabiliteit van het eigen vermogen bestaat uit een rentevergoeding voor het gebruik van het
+eigen vermogen en een vergoeding voor het nemen van risico’s (ondernemersrisico). Met behulp van
+onderstaande kengetallen kan een inzicht worden verkregen in de rentabiliteit van het eigen
+vermogen in de onderneming.
+
+2021 2020 2019 2018 2017
+% % % % %
+Rentabiliteit eigen vermogen (resultaat na
+belasting / gemiddeld eigen vermogen) -34,4 8,9 100,3 -20,3 27,0
+
+joek accountants
+
+4 FISCALE POSITIE
+
+FISCALE EENHEID
+De fiscale eenheid betreft de vennootschappen AristoZorg Holding B.V.
+
+VERSCHULDIGDE VENNOOTSCHAPSBELASTING
+Het belastbaar bedrag is als volgt te berekenen:
+
+Berekening belastbaar bedrag
+
+Resultaat voor belastingen
+Fiscaal resultaat
+
+Fiscaal niet-aftrekbaar deel van de kosten
+Investeringsaftrek
+
+Belastbaar bedrag
+Verrekening met winst voorgaand jaar (carry back)
+
+Resteert voor voorwaartse verliesverrekening
+
+De verschuldigde vennootschapsbelasting is verwerkt in de rekening-co
+aandeelhouder/hoofd van de fiscale eenheid : AristoZorg Holding BV te
+
+VERREKENBARE VERLIEZEN
+
+en AristoZorg B.V. te Heiloo.
+
+2021
+€
+
+-118.594
+-118.594
+
+2.154
+-5.922
+
+-122.362
+15.940
+
+-106.422
+
+urant verhouding met de
+Heiloo.
+
+Fiscale verliezen zijn gedurende negen jaar compensabel met eventuele toekomstige fiscale winsten.
+
+De nog te verrekenen verliezen ultimo 2021 zijn hieronder opgenomen:
+
+Stand 31
+
+Stand 1 Verlies in december
+
+Voorwaarts verrekenbare verliezen januari 2021 boekjaar 2021
+€ € €
+
+2021 - 106.422 106.422
+Totaal verrekenbare verliezen - 106.422 106.422
+Verrekenbare vennootschapsbelasting
+Latente belastingvorderingen 15,00 % van 106.422 15.963
+Niet in de balans verwerkt -15.963
+
+Latente belastingvorderingen in balans
+
+De latente is evenals de accute vennootschapsbelasting verwerkt in rekening-courant met het hoofd
+
+van de fiscale eenheid.
+
+Wij vertrouwen erop hiermee aan uw opdracht te hebben voldaan. Tot het geven van nadere
+toelichting zijn wij steeds gaarne bereid.
+
+Hoogachtend,
+
+joek accountants + adviseurs
+
+E.Y. Kerkhoven AA
+
+JAARREKENING 2021
+
+AristoZorg B.V. te Heiloo
+
+5 BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+(na resultaatbestemming) 31 dec 2021 31 dec 2020
+€ € € €
+
+Vaste activa
+Immateriële vaste activa 64.940 -
+Materiële vaste activa 300.470 113.150
+Financiële vaste activa 249.061 219.615
+Vlottende activa
+Vorderingen
+Handelsdebiteuren 177.063 254.020
+Overige vorderingen 5.665 4.050
+Overlopende activa 379.027 82.998
+
+561.755 341.068
+Liquide middelen 420.371 112.143
+Totaal 1.596.597 785.976
+
+10 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+PASSIVA
+
+(na resultaatbestemming)
+
+Eigen vermogen
+Aandelenkapitaal
+Agio
+
+Overige reserves
+
+Langlopende schulden
+
+Kortlopende schulden
+
+Andere obligaties en onderhandse
+leningen
+
+Schulden aan banken
+
+Schulden aan leveranciers en
+handelskredieten
+
+Belastingen en premies sociale
+verzekeringen
+
+Schulden ter zake van pensioenen
+Overlopende passiva
+
+Totaal
+
+31 dec 2021 31 dec 2020
+€ € € €
+
+18.000 18.000
+46.282 46.282
+176.081 276.083
+
+240.363 340.365
+
+245.426 21.946
+88.800 -
+22.686 12.500
+246.395 46.880
+113.858 91.179
+41.877 -7.453
+597.192 280.559
+
+1.110.808 423.665
+
+1.596.597 785.976
+
+11
+
+Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+6 WINST- EN VERLIESREKENING OVER 2021
+
+2021 2020
+
+€ € € €
+Netto-omzet 5.617.302 3.252.299
+Overige bedrijfsopbrengsten 442.953 -
+Kosten uitbesteed werk en andere
+externe kosten -1.610.384 -662.866
+Brutomarge 4.449.871 2.589.433
+Personeelskosten 4.068.498 2.349.466
+Afschrijvingen en
+waardeverminderingen 67.741 26.100
+Overige bedrijfskosten
+Huisvestingskosten 93.338 48.787
+Verkoopkosten 8.240 2.802
+Auto- en transportkosten 14.432 2.602
+Kantoorkosten 175.450 59.762
+Algemene kosten 140.553 66.626
+Som der kosten 4.568.252 2.556.145
+Bedrijfsresultaat -118.381 33.288
+Financiële baten en lasten -213 „1,573
+Resultaat voor belastingen -118.594 31.715
+Belastingen 18.592 -2.775
+Resultaat na belastingen -100.002 28.940
+
+12 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+7 ALGEMENE TOELICHTING
+
+Naam rechtspersoon AristoZorg B.V.
+Rechtsvorm Besloten vennootschap
+Zetel rechtspersoon Heiloo
+Inschrijvingsnummer Kamer van Koophandel 54974011
+Basisgrondslagen Fiscaal
+
+Belangrijkste activiteiten
+
+De activiteiten van AristoZorg B.V., statutair gevestigd te Heiloo bestaan voornamelijk uit: het
+verlenen van thuiszorg en verpleeghuiszorg in gehuurde huizen.
+
+Locatie feitelijke activiteiten
+De onderneming verricht haar activiteiten vanuit de locatie in Heiloo.
+
+13 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+8 GRONDSLAGEN VOOR FINANCIËLE VERSLAGGEVING
+
+ALGEMEEN
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW
+met uitzondering van afdeling 6 ‘voorschriften omtrent de grondslagen van waardering en bepaling
+van het resultaat’. In plaats daarvan worden de grondslagen voor de bepaling van de belastbare
+winst als bedoeld in de Wet op de Vennootschapsbelasting toegepast. Verder zijn het Besluit fiscale
+waarderingsgrondslagen en de ‘Handreiking bij de toepassing van fiscale grondslagen voor kleine
+rechtspersonen’ van de Raad voor de Jaarverslaggeving van toepassing.
+
+Algemene grondslagen voor waardering activa en passiva
+
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van
+historische kosten, tenzij anders vermeld.
+
+Algemene grondslagen bepaling resultaat
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden
+slechts opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke
+verliezen die hun oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen
+indien zij voor het opmaken van de jaarrekening bekend zijn geworden.
+
+GRONDSLAGEN VOOR WAARDERING ACTIVA
+
+Immateriële vaste activa
+
+Op grond van art. 3.30 Wet inkomstenbelasting 2001 kunnen vanaf 1 januari 2007 de
+voortbrengingskosten van immateriële vaste activa in het kalenderjaar ineens ten laste van het
+resultaat worden gebracht.
+
+Immateriële vaste activa van voor 1 januari 2007 worden gewaardeerd op het bedrag van de bestede
+kosten, verminderd met de cumulatieve afschrijvingen en indien van toepassing met bijzondere
+waardeverminderingen. De jaarlijkse afschrijvingen bedragen een vast percentage van de bestede
+kosten, zoals nader in de toelichting op de balans is gespecificeerd.
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en terreinen worden gewaardeerd tegen aanschaffings- of voortbrengingskosten
+plus bijkomende kosten onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur. Op terreinen wordt niet afgeschreven. Er wordt rekening gehouden met de bijzondere
+waardeverminderingen die op balansdatum worden verwacht. Voor de vaststelling of voor een
+materieel vast actief sprake is van een bijzondere waardevermindering wordt verwezen naar de
+desbetreffende paragraaf.
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs
+inclusief direct toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte
+toekomstige gebruiksduur en bijzondere waardeverminderingen.
+
+Financiële vaste activa
+
+Deelnemingen worden gewaardeerd op kostprijs of lagere bedrijfswaarde. De vorderingen op en
+leningen aan deelnemingen, alsmede de overige vorderingen worden opgenomen tegen nominale
+waarde, onder aftrek van noodzakelijk geachte voorzieningen.
+
+Vorderingen
+
+Vorderingen worden opgenomen tegen nominale waarde, rekening houdend met eventuele
+verminderingen voor het risico van oninbaarheid. Deze verminderingen worden bepaald op basis van
+individuele beoordeling van de vorderingen. Voor zover niet anders is vermeld hebben de vorderingen
+een looptijd van korter dan 1 jaar.
+
+Liquide middelen
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan
+
+14 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen
+nominale waarde.
+
+GRONDSLAGEN VOOR WAARDERING PASSIVA
+
+Langlopende schulden
+Rentedragende leningen en schulden worden gewaardeerd tegen de nominale waarde.
+
+GRONDSLAGEN VOOR BEPALING RESULTAAT
+
+Netto-omzet
+
+Onder netto-omzet wordt verstaan de opbrengsten van de in het verslagjaar geleverde goederen en
+verleende diensten onder aftrek van kortingen en de over de omzet geheven belastingen.
+Opbrengsten voortvloeiend uit de verkoop van goederen worden verantwoord op het moment dat alle
+belangrijke rechten op economische voordelen alsmede alle belangrijke risico’s zijn overgegaan op de
+koper. De kostprijs van deze goederen wordt aan dezelfde periode toegerekend. Opbrengsten van
+diensten worden opgenomen naar rato van de mate waarin de diensten zijn verricht, gebaseerd op de
+tot dat moment in het kader van de dienstverlening gemaakte kosten in verhouding tot de geschatte
+kosten van de totaal te verrichten dienstverlening. De kostprijs van deze diensten wordt aan dezelfde
+periode toegerekend.
+
+Overige bedrijfskosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij
+betrekking hebben.
+
+Belastingen
+
+De vennootschapsbelasting wordt berekend tegen het geldende tarief over het resultaat van het
+boekjaar, waarbij rekening wordt gehouden met permanente verschillen tussen de winstberekening
+volgens de jaarrekening en de fiscale winstberekening, en waarbij actieve belastinglatenties (indien
+van toepassing) slechts worden gewaardeerd voor zover de realisatie daarvan waarschijnlijk is.
+
+15 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+9 TOELICHTING OP BALANS
+
+IMMATERIËLE VASTE ACTIVA
+31 dec 2021 31 dec 2020
+
+€ €
+Goodwill 64.940 -
+Totaal 64.940 -
+
+Onderstaand overzicht geeft het verloop van de immateriële vaste activa gedurende het boekjaar
+weer:
+
+Goodwill
+€
+Boekwaarde 1 januari 2021
+Verkrijgings- of vervaardigingsprijs -
+Mutaties 2021
+Investeringen 68.418
+Afschrijvingen -3.478
+64.940
+Boekwaarde 31 december 2021
+Verkrijgings- of vervaardigingsprijs 68.418
+Cumulatieve afschrijvingen en waardeverminderingen -3.478
+64.940
+Afschrijvingspercentage 10,0
+
+Toelichting
+Het betreft betaalde goodwill inzake de overname van de activiteiten te Den Helder. (Lyceumhof-Ten
+Anker)
+
+MATERIËLE VASTE ACTIVA
+31 dec 2021 31 dec 2020
+
+€ €
+Andere vaste bedrijfsmiddelen 300.470 113.150
+Totaal 300.470 113.150
+
+Onderstaand overzicht geeft het verloop van de materiële vaste activa gedurende het boekjaar weer:
+
+16 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+Andere
+vaste
+bedrijfs-
+middelen
+€
+Boekwaarde 1 januari 2021
+Verkrijgings- of vervaardigingsprijs 201.699
+Cumulatieve afschrijvingen en waardeverminderingen -88.549
+113.150
+Mutaties 2021
+Investeringen 251.583
+Afschrijvingen -64.263
+187.320
+Boekwaarde 31 december 2021
+Verkrijgings- of vervaardigingsprijs 404.654
+Cumulatieve afschrijvingen en waardeverminderingen -104.184
+300.470
+Afschrijvingspercentage van 6,3
+Afschrijvingspercentage tot 20,0
+
+FINANCIËLE VASTE ACTIVA
+31 dec 2021 31 dec 2020
+
+€ €
+Vorderingen op aandeelhouders en deelnemingen 249.061 219.615
+Totaal 249.061 219.615
+
+Onderstaand overzicht geeft het verloop van de financiële vaste activa gedurende het boekjaar weer:
+
+Vorderingen
+
+op aandeel-
+houders en
+deel-
+nemingen Totaal
+€ €
+Boekwaarde 1 januari 2021 219.615 219.615
+Mutaties 2021
+Investeringen 29.446 29.446
+29.446 29,446
+Boekwaarde 31 december 2021 249.061 249.061
+
+Toelichting
+Het betreft een rekening-courant vordering op de aandeelhouder.
+
+Er zijn vooralsnog geen aflossingsverplichtingen overeengekomen. Er wordt een jaarlijkse rente
+berekend welke is gebaseerd op de 12 maands Euribor met een opslag van 1,5% (2021: 1,001%;
+2020: 1,022%)
+
+17 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+VORDERINGEN
+
+Vorderingen op handelsdebiteuren, bruto
+Overige vorderingen
+
+Overlopende activa
+Vooruitbetaalde kosten
+Overige vorderingen
+
+Totaal
+
+LIQUIDE MIDDELEN
+
+Banktegoeden
+ABN AMRO Bank
+Rabobank
+
+Totaal
+
+18
+
+31 dec 2021 31 dec 2020
+€ €
+177.063 254.020
+
+5.665 4,050
+66.019 80.470
+313.008 2.528
+379.027 82.998
+561.755 341.068
+
+31 dec 2021 31 dec 2020
+€ €
+224.501 82.064
+195.870 30.079
+420.371 112.143
+
+Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+EIGEN VERMOGEN
+
+Aandelenkapitaal
+Agio
+Overige reserves
+
+Totaal
+
+31 dec 2021 31 dec 2020
+€ €
+18.000 18.000
+46.282 46.282
+176.081 276.083
+240.363 340.365
+
+Onderstaand overzicht geeft het verloop van het eigen vermogen gedurende het boekjaar weer:
+
+Aandelen- Overige
+kapitaal Agio reserves Totaal
+€ € € €
+
+Stand 1 januari 2021 18.000 46.282 276.083 340.365
+Mutaties 2021
+Resultaat boekjaar - - -100.002 -100.002
+
+= a -100.002 -100.002
+Stand 31 december 2021 18.000 46.282 176.081 240.363
+
+Aandelenkapitaal
+
+Het geplaatst kapitaal van de vennootschap bedraagt € 18.000, verdeeld in € 18.000 gewone
+
+aandelen. Het totaal aantal geplaatste aandelen is 18.000.
+
+Agio
+
+Het agio omvat de opbrengsten uit de uitgifte van aandelen voor zover deze hoger zijn dan het
+
+nominale bedrag van de aandelen.
+
+LANGLOPENDE SCHULDEN
+
+Schulden aan banken
+
+ABN AMRO Bank
+
+Rabobank
+
+Kortlopende aflossingsverplichtingen
+
+Overige schulden
+Langlopende schuld 'Vrijwaard'
+
+Totaal
+
+Toelichting
+
+31 dec 2021 31 dec 2020
+
+€ €
+
+57.810 4.438
+
+10.016 30.008
+
+z -12.500
+
+67.826 21.946
+
+177.600 5
+
+245.426 21.946
+
+Aflossingsverplichtingen binnen 12 maanden na afloop van het boekjaar zijn niet begrepen in de
+hierboven genoemde bedragen, maar opgenomen onder de kortlopende schulden.
+
+19
+
+Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+Looptijd < 1 Tussen 1 en Looptijd > 5
+
+Langlopende schuld jaar 5 jaar jaar Rente %Toelichting rente
+servicekosten € 153
+New 10 12.690 50.760 7.050 2,06 per maand
+Rabobank 9.996 10.016 - 4,35
+geen
+rentevergoeding
+Overnamesom 'Vrijwaard' 88.800 177.600 - - verschuldigd
+Totaal 111.486 238.376 7.050
+Looptijd
+
+De rentevoet van de langlopende schulden varieert tussen 2,06 % en 4,35 %. Van het totaalbedrag
+aan langlopende schulden heeft een bedrag van € 0 een resterende looptijd van langer dan 5 jaren.
+
+Verstrekte zekerheden
+Voor de lening van New 10 is een borgtocht afgegeven ad € 28.750 door mw. P.M. Okker-Klooster
+
+KORTLOPENDE SCHULDEN
+31 dec 2021 31 dec 2020
+
+€ €
+Andere obligaties en onderhandse leningen 88.800 -
+Schulden aan banken 22.686 12.500
+Schulden aan leveranciers en handelskredieten 246.395 46.880
+Belastingen en premies sociale verzekeringen
+Loonheffing- en premieschulden 113.858 91.179
+Schulden ter zake van pensioenen 41.877 -7.453
+Overlopende passiva
+Reservering vakantiedagen en -toeslagen, eindejaarsuitkering 404.840 131.650
+Nog te betalen salariskosten december - 17.149
+Nog te betalen werk derden - 6.880
+Subsidies 14.000 40.000
+Overige schulden en overlopende passiva 178.352 84.880
+
+597.192 280.559
+Totaal 1.110.808 423.665
+
+NIET IN DE BALANS OPGENOMEN VERPLICHTINGEN
+
+Fiscale eenheid
+De rechtspersoon maakt deel uit van een fiscale eenheid voor de vennootschapsbelasting en is uit
+dien hoofde hoofdelijk aansprakelijk voor de belastingschuld van de fiscale eenheid als geheel.
+
+Betalingen ter verkrijging van (gebruiks)rechten
+
+De vennootschap heeft huurverplichtingen uit hoofde van gebruikte kantoorruimte (Heiloo en
+Alkmaar) als ook de huur van 3 verpleeghuizen (Buitenzorg, Lyceumhof en Ten Anker) als ook
+Dagbesteding Parkzicht.
+
+De jaarlijkse huurverplichting in totaal bedraagt (op basis van huur december) rond € 846.000.
+
+Daarnaast is de jaarlijkse verplichting servicekosten rond € 139.000.
+
+De lasten zijn voor wat betreft de verpleeghuizen begrepen onder kosten uitbesteed werk en andere
+externe kosten.
+
+20 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+21 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+10 TOELICHTING OP WINST- EN VERLIESREKENING
+
+OMZET EN BRUTOMARGE
+
+2021 2020
+€ €
+
+Netto-omzet
+Opbrengsten zorgverlening boekjaar 5.733.627 3.225.910
+Nagekomen posten mbt zorgverlening voorgaande boekjaren -154.237 -104.756
+Compensatie omzetderving Corona - 76.639
+Vergoeding tbv extra kosten Corona 37.912 54.506
+
+5.617.302 3.252.299
+Overige bedrijfsopbrengsten
+Opbrengst kwaliteitsgelden 414.053 -
+Overige subsidie opbrengsten 28.900 -
+
+442.953 -
+
+Som der bedrijfsopbrengsten 6.060.255 3.252.299
+Kosten uitbesteed werk en andere externe kosten
+Werk derden 392.229 189.310
+Huur huizen 643.215 236.732
+Maaltijden 464.070 154.681
+Kosten tbv Corona 4.375 32.261
+Overige kosten huizen 106.495 49.882
+
+1.610.384 662.866
+Brutomarge (brutobedrijfsresultaat) 4.449.871 2.589.433
+
+Netto-omzet
+
+Vanaf 1 juli 2021 zijn 2 verpleeghuizen te Den Helder overgenomen. Dit heeft aldus geleid tot een
+substantiele omzetstijging. De omzet over het jaar 2021 van de 2 verpleeghuizen bedroeg rond
+
+€ 2.279.000 (periode i juli tot en met 31 december) Eveneens is dit uiteraard van soortgelijke
+invloed op overige bedrijfsopbrengsten, kosten uitbesteed werk en andere externe kosten alsook de
+personele bezetting.
+
+PERSONEELSKOSTEN
+
+2021 2020
+
+€ €
+
+Lonen en salarissen
+Bruto lonen 3.329.624 1.862.626
+Ontvangen ziekengeld -156.077 -66.504
+Opleidingssubsidie -144.915 -30.413
+
+3.028.632 1.765.709
+
+22 Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+Sociale lasten
+Berekende sociale lasten
+
+Pensioenlasten
+
+Andere personeelskosten
+Scholingskosten
+
+Reis- en verblijfskosten
+Bedrijfskleding
+
+Kantinekosten
+
+Premies ziekteverzuim medewerkers
+Overige personeelskosten
+
+Totaal
+
+AFSCHRIJVINGEN EN WAARDEVERMINDERINGEN
+
+Afschrijving op immateriële vaste activa
+
+Afschrijving op materiële vaste activa
+Kantoorinventaris
+Vervoersmiddelen
+
+Boekresultaat op materiële vaste activa
+Verkoop auto's aan medewerkers
+
+Totaal
+
+OVERIGE BEDRIJFSKOSTEN
+
+Huisvestingskosten
+Huur kantoor
+
+Gas, water en electra
+Overige huisvestingskosten
+
+Verkoopkosten
+Reklame- en advertentiekosten
+Representatiekosten
+
+23
+
+2021 2020
+€ €
+538.552 304.551
+281.095 132.375
+59.061 7.463
+42.435 28.037
+7.900 2.898
+= 5.465
+60.296 62.604
+50.527 40.364
+220.219 146.831
+4.068.498 2.349.466
+2021 2020
+€ €
+3.478 -
+58.983 28.642
+5.280 5.486
+64.263 34.128
+= -8.028
+67.741 26.100
+2021 2020
+€ €
+77.301 40.011
+16.037 3.015
+= 5.761
+93.338 48.787
+7.609 1.821
+631 981
+8.240 2.802
+
+Samenstellingsverklaring afgegeven
+
+AristoZorg B.V. te Heiloo
+
+2021 2020
+€ €
+Auto- en transportkosten 14.432 2.602
+Kantoorkosten
+Kantoorbenodigdheden 28.219 9.986
+Telefoon/Telecommunicatie 46.867 22.716
+Automatisering 100.364 27.060
+175.450 59.762
+Algemene kosten
+Accountants- en administratiekosten 16.063 21.817
+Adviseurs 54.414 6.667
+Contributies en abonnementen 33.760 25.686
+Bedrijfsverzekeringen 21.027 8.999
+Overige algemene kosten 15.289 3.457
+140.553 66.626
+Totaal 432.013 180.579
+FINANCIËLE BATEN EN LASTEN
+2021 2020
+€ €
+Rentebaten deelnemingen en aandeelhouders 2.241 1.352
+Rentelasten banken -2.454 -2.925
+Financiële baten en lasten (saldo) -213 -1.573
+BELASTINGEN
+2021 2020
+€ €
+Latente vennootschapsbelasting -15.963 -
+Vennootschapsbelasting huidig boekjaar -2.629 2.775
+Belastingen resultaat : -18.592 2.775
+
+24 Samenstellingsverklaring afgegeven
+
+AnstoZorg B.V, te Heiloo
+
+11 OVERIGE TOELICHTINGEN
+
+WERKNEMERS
+Het gemiddelde aantal werknemers gedurende het boekjaar bij AristoZorg B‚V, bedroeg:
+Gemiddeld aantal werknemers over periode 2021 2020
+fte fte
+Werkzaam binnen Nederland : 104,2 53,8
+
+Toelichting gemiddeld aantal werknemers
+Vanaf 1 jul 2021 zijn 2 verpleeghuizen te Den Helder overgenomen. (Lyceumhof en Ten Anker)
+
+De invloed op het aantat werkzame personen over 2021 is rond 47,5 FTE, (over de perlode 1 janvarf
+tot en met 31 december)
+
+RESULTAATBESTEMMEING
+
+Resultaatbestemming
+De algemene vergadering heeft de bestemming van het resultaat over het boekjaar 2020 vastgesteld
+conform het daartoe gedane voorstel,
+
+Voorstel resultaatbestemming
+De directie stelt aan de algemene vergadering voor het resultaat over het boekjaar 2021 ten bedrage
+van € -100.002 geheel ten taste van de overige reserves te brengen.
+
+ONDERTEKENING
+
+Heiloo, 12 mei 2022
+
+Naam Functie Rechtspersoon
+
+PM. Okker-Klooster Bestuurder AristoZorg Holding B.V.
+
+F.J.M, van Leeuwarden Commissaris
+AJ.M.G. Landman-Crol Commissaris
+&.}. Hogervorst Commissaris
+
+25 Samenstellingsverklaring afgegeven
