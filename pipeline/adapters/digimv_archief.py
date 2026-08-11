@@ -196,6 +196,31 @@ def doelpopulatie(boekjaar: int, cache: Path | None = None) -> list[dict]:
     Dat blijkt pas uit de pdf, en dat is precies wat de lader er daarna uit
     haalt. Hier filteren we dus ruimer dan de dataset deed; wat geen
     controleverklaring blijkt, valt verderop af.
+
+    Waarom er niet nóg ruimer wordt gefilterd
+    -----------------------------------------
+    De verleiding is om iedereen te lezen die íéts heeft gedeponeerd, want
+    `verklaringen()` pakt ook een jaarrekening op en daar staat de
+    controleverklaring vrijwel altijd in als laatste hoofdstuk. Dat is
+    nagemeten op boekjaar 2022 (11-8-2026, telling over alle zesentwintig
+    letterzoekopdrachten):
+
+        5.688  organisaties in het archief
+        2.028  met een document van het type accountantsverklaring  <- deze lijst
+        5.682  als een jaarrekening óók zou meetellen
+
+    Die 3.654 erbij zijn géén gemiste controles. De jaardataset zegt voor
+    boekjaar 2023 (zie de docstring van digimv_dataset.py) dat van 6.131
+    organisaties er 2.159 enige verklaring deponeerden en 4.389 helemaal niets
+    — en het aantal mét controleverklaring was 1.010. De 2.028 hierboven komt
+    dus ongeveer overeen met "enige verklaring", en de rest is de groep die
+    niets deponeerde en alleen een jaarrekening in het archief heeft staan.
+    Meestal een samenstelling of een beoordeling: onder de controlegrens.
+
+    Ruimer filteren kost dus ongeveer 3.654 extra pdf-downloads per boekjaar —
+    bij vierentwintig seconden per stuk zo'n vierentwintig uur kloktijd — voor
+    een restje. Niet doen zonder eerst een steekproef die het tegendeel laat
+    zien.
     """
     pad = cache / f"archiefpopulatie_{boekjaar}.csv" if cache else None
     if pad is not None and pad.exists():
