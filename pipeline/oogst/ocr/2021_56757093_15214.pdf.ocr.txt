@@ -1,0 +1,959 @@
+# whosigns-ocr v1 grootte=9373150 dpi=300 paginas=20
+ol
+H Geert Spieker Beheer B.V.
+a) Groningen
+
+2.4 Toelichting op de geconsolideerde jaarrekening
+
+Vergelijking met voorgaand jaar
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten opzichte
+van het voorgaande jaar.
+
+Leasing
+
+Financiële leasing
+
+De onderneming leaset een deel van het machinepark; hierbij heeft de onderneming grotendeels de voor- en
+nadelen verbonden aan de eigendom van deze activa. Deze activa worden geactiveerd in de balans bij
+aanvang van het leasecontract tegen de reële waarde van het actief of de lagere contante waarde van de
+minimale leasetermijnen. De te betalen leasetermijnen worden op annuïtaire wijze verdeeld in een aflossings-
+en een rentecomponent. De leaseverplichtingen worden exclusief de rentecomponent opgenomen onder de
+langlopende schulden. De rentecomponent wordt gedurende de looptijd van het contract verantwoord in de
+winst- en verliesrekening met een vast rentepercentage over de gemiddelde resterende aflossingscomponent.
+De relevante activa worden afgeschreven over de resterende gebruiksduur of, indien korter, de looptijd van
+het contract.
+
+Operationele leasing
+
+Bij de onderneming kunnen er leasecontracten bestaan waarbij een groot deel van de voor- en nadelen die aan
+de eigendom verbonden zijn, niet bij de onderneming ligt. Deze leasecontracten worden verantwoord als
+operationele leasing. Leasebetalingen worden, rekening houdend met ontvangen vergoedingen van de lessor,
+op lineaire basis verwerkt in de winst- en verliesrekening over de looptijd van het contract. Het leaseobject
+wordt niet geactiveerd.
+
+GRONDSLAGEN VOOR WAARDERING VAN ACTIVA EN PASSIVA
+
+Immateriële vaste activa
+
+De immateriële vaste activa worden gewaardeerd tegen verkrijgingsprijs onder aftrek van afschrijvingen. Er
+wordt rekening gehouden met bijzondere waardeverminderingen; dit is het geval als de boekwaarde van het
+actief (of van de kasstroom genererende eenheid waartoe het actief behoort) hoger is dan de realiseerbare
+waarde ervan.
+
+Goodwill
+Positieve goodwill voortkomend uit acquisities, wordt geactiveerd en lineair afgeschreven gedurende de
+verwachte economische gebruiksduur.
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en terreinen worden gewaardeerd tegen verkrijgingsprijs plus bijkomende kosten of
+vervaardigingsprijs onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur. Op terreinen wordt niet afgeschreven. Er wordt rekening gehouden met de bijzondere
+waardeverminderingen die op balansdatum worden verwacht. Voor de vaststelling of voor een materieel vast
+actief sprake is van een bijzondere waardevermindering wordt verwezen naar de desbetreffende toelichting.
+
+Beoordelingsverklaring afgegeven Pagina 13 van 32
+
+mm
+î Geert Spieker Beheer B.V.
+B Groningen
+
+2.4 Toelichting op de geconsolideerde jaarrekening
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Subsidies op investeringen worden in mindering gebracht op de verkrijgings- of vervaardigingsprijs van de
+activa waarop de subsidies betrekking hebben.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen de
+geamortiseerde kostprijs. Dit is meestal de nominale waarde. Voorzieningen wegens oninbaarheid worden in
+mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Langlopende schulden
+
+Langlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Transactiekosten die
+direct zijn toe te rekenen aan de verwerving van de langlopende schulden worden in de waardering bij eerste
+verwerking opgenomen. Langlopende schulden worden na eerste verwerking gewaardeerd tegen
+geamortiseerde kostprijs. De aflossingeverplichtingen voor het komend jaar van de langlopende schulden
+worden opgenomen onder kortlopende schulden.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen
+bedrag rekening houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale
+waarde.
+
+GRONDSLAGEN VOOR BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin
+zij zijn gerealiseerd.
+
+Het resultaat wordt tevens bepaald met inachtneming van de verwerking van ongerealiseerde
+waardeveranderingen van op reële waarde gewaardeerde vastgoedbeleggingen, de onder de vlottende activa
+opgenomen effecten en afgeleide financiële instrumenten die niet zijn aangemerkt als afdekkingsinstrument.
+
+Beoordelingsverklaring afgegeven Pagina 14 van 32
+
+nm
+Ë Geert Spieker Beheer B.V.
+| Groningen
+
+2.4 Toelichting op de geconsolideerde jaarrekening
+
+Opbrengstverantwoording
+
+Opbrengsten uit het verlenen van diensten worden in de resultatenrekening verwerkt wanneer het bedrag van
+de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding
+waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden
+bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de
+dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden
+gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Onder opbrengsten jeugdwet en opbrengsten wmo worden de baten verantwoord uit hoofde van geleverde
+prestaties op het gebied van verleende jeugdzorg respectievelijk wmo-prestaties. Als realisatiemoment geldt
+het moment waarop de betreffende prestaties zijn gerealiseerd en op grond van de geldende voorschriften of
+richtlijnen gedeclareerd kunnen worden bij de opdrachtgever. Tot de opbrengsten jeugdwet worden tevens
+gerekend mutaties in onderhanden zorgtrajecten met betrekking tot jeugdzorg.
+
+Overige bedrijfsopbrengsten
+
+De overige bedrijfsopbrengsten bestaan uit opbrengsten anders dan uit zorgprestaties en maatschappelijke
+ondersteuning en subsidies. De overige opbrengsten kunnen worden verdeeld in opbrengsten voor het leveren
+van goederen en opbrengsten voor het leveren van diensten.
+
+Kosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Personeelsbeloningen
+Periodiek betaalbare beloningen
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in de
+
+winst- en verliesrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de
+belastingautoriteit.
+
+Beoordelingsverklaring afgegeven Pagina 15 van 32
+
+ji L
+Ä Geert Spieker Beheer B.V.
+ä Groningen
+
+2.4 Toelichting op de geconsolideerde jaarrekening
+
+Pensioenen
+
+De onderneming heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord.
+
+Instelling Overstag Uitvoering B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor
+in aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is
+gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft
+opgebouwd bij Overstag Uitvoering B.V. De verplichtingen, die voortvloeien uit deze rechten van haar
+personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. Overstag Uitvoering B.V.
+betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft door de werknemer.
+De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het
+pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat.
+Voor pensioenfondsen geldt regelgeving met betrekking tot de vereiste dekkingsgraad. De
+beleidsdekkingsgraad is het gemiddelde van de laatste twaalf dekkingsgraden. De beleidsdekkingsgraad van
+december 2021 bedraagt 99,7 %. Dit is de gemiddelde actuele dekkingsgraad over de voorliggende 12
+maanden. Het vereiste niveau van de dekkingsgraad is 104,3 %. Het bestuur van PFZW heeft besloten om de
+pensioenpremie te verhogen in twee stappen: per 1 januari 2021 met 1,5 procentpunt en per Ì januari 2022
+met 0,8 procentpunt. De premie voor het arbeidsongeschiktheidspensioen blijft gelijk. Overstag Uitvoering
+B.V. heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een tekort bij het
+pensioenfonds, anders dan het effect van hogere toekomstige premies. Overstag Uitvoering B.V. heeft
+daarom alleen de verschuldigde premies tot en met het einde van het boekjaar in de jaarrekening
+verantwoord.
+
+Afschrijvingen op immateriële en materiële vaste activa
+
+Immateriële vaste activa inclusief goodwill en materiële vaste activa worden vanaf het moment dat het actief
+beschikbaar is voor het beoogde gebruik afgeschreven over de geschatte economische levensduur / verwachte
+toekomstige gebruiksduur van het actief. Over terreinen en vastgoedbeleggingen wordt niet afgeschreven.
+
+Indien een schattingswijziging plaatsvindt van de toekomstige gebruiksduur, dan worden de toekomstige
+afschrijvingen aangepast.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+
+Overheidssubsidies
+
+Exploitatiesubsidies worden als bate verantwoord in de winst- en verliesrekening in het jaar waarin de
+gesubsidieerde kosten zijn gemaakt of opbrengsten zijn gederfd, of wanneer een gesubsidieerd
+exploitatietekort zich heeft voorgedaan. De baten worden verantwoord als het waarschijnlijk is dat deze
+worden ontvangen.
+
+Subsidies met betrekking tot investeringen in materiële vaste activa worden in mindering gebracht op het
+desbetreffende actief en als onderdeel van de afschrijvingen verwerkt in de winst- en verliesrekening.
+
+Beoordelingsverklaring afgegeven Pagina 16 van 32
+
+nj
+Ë Geert Spieker Beheer B.V.
+Ei Groningen
+
+2.4 Toelichting op de geconsolideerde jaarrekening
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van
+de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de
+verantwoorde transactiekosten op de ontvangen leningen.
+
+Uitgangspunten Sociaal Domein
+
+Bij het bepalen van de Wmo-omzet en/of Jeugdwet-omzet heeft de instelling de grondslagen voor waardering
+en resultaatbepaling gevolgd zoals hiervoor opgenomen. In de praktijk kan het lang duren voordat de
+geleverde Wmo-zorg en jeugdhulp in een kalenderjaar definitief wordt afgerekend door de gemeenten.
+Hierdoor is er onzekerheid over het vergoeden van overproductie en kunnen gemeenten geleverde zorg ter
+discussie stellen, waardoor deze mogelijk niet wordt vergoed.
+
+De raad van bestuur heeft deze mogelijke effecten naar beste weten geschat en verwerkt in deze jaarrekening
+waar mogelijk en wijst op het resterende inherente risico terzake dat kan leiden tot nagekomen financiële
+effecten in 2022 of later.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst- en
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren
+(voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde winstbestanddelen en na
+bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met wijzigingen die optreden in de
+latente belastingvorderingen en latente belastingschulden uit hoofde van wijzigingen in het te hanteren
+belastingtarief.
+
+Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan
+de datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de
+jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de
+gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de
+jaarrekening.
+
+Waarderingsgrondslagen WNT
+Voor de uitvoering van de Wet normering Topinkomsten (WNT) heeft de instelling zich gehouden aan de wet-
+en regelgeving inzake de WNT, waaronder de instellingsspecifieke sectorale) regels.
+
+Beoordelingsverklaring afgegeven Pagina 17 van 32
+
+mn
+ï Geert Spieker Beheer B.V.
+m Groningen
+
+2.5 Toelichting op de geconsolideerde balans
+ACTIVA
+VASTE ACTIVA
+
+Immateriële vaste activa
+Het verloop van de immateriële vaste activa wordt als volgt weergegeven:
+
+_ Goodwill __
+€
+Aanschafwaarde 62.500
+Cumulatieve afschrijvingen -43.750
+Boekwaarde per | januari 18.750
+Afschrijvingen -6.250
+Mutaties 2021 -6.250
+Aanschaf waarde 62.500
+Cumulatieve afschrijvingen -50.000
+Boekwaarde per 31 december 12.500
+
+Afschrijvingspercentages:
+Goodwill 10 %
+
+Beoordelingsverklaring afgegeven Pagina 18 van 32
+
+Lj
+î Geert Spieker Beheer B.V.
+m Groningen
+
+2.5 Toelichting op de geconsolideerde balans
+
+Materiële vaste activa
+Het verloop van de materiële vaste activa wordt als volgt weergegeven:
+
+Bedrijfsgebou Inventaris Vervoermidde Totaal 2021
+
+wen en - len
+terreinen
+€ € € €
+
+Aanschaf waarde - 36.567 - 36.567
+Cumulatieve afschrijvingen - -25.575 - -25.575
+Boekwaarde per | januari - 10.992 - 10.992
+Investeringen 43.457 12.982 35.227 91.666
+Afschrijvingen -1.449 -6.248 -2.644 -10.341
+Mutaties 2021 42.008 6.734 32.583 81.325
+Aanschaf waarde 43.457 49.549 35.227 128.233
+Cumulatieve afschrijvingen -1.449 -31.823 -2.644 -35.916
+Boekwaarde per 31 december 42.008 17.726 32.583 92.317
+Afschrijvingspercentages:
+Bedrijfsgebouwen en -terreinen 10 %
+Inventaris 20 %
+Vervoermiddelen 10 %
+
+VLOTTENDE ACTIVA
+Vorderingen
+31-12-2021 31-12-2020
+€ €
+Debiteuren
+Saldo ultimo boekjaar 14.983 35.830
+Nog te ontvangen WMO-ZIN 27.130 43.419
+Nog te ontvangen JW-ZIN 24.037 24.258
+Vooruitontvangen bedrag 45.848 35.055
+Nog te ontvangen PGB 3.592 -
+115.590 138.562
+Voorziening oninbare debiteuren -14.082 -14.082
+101.508 124.480
+
+Beoordelingsverklaring afgegeven Pagina 19 van 32
+
+2.5 Toelichting op de geconsolideerde balans
+
+Belastingen en premies sociale verzekeringen
+Omzetbelasting
+
+Overige vorderingen
+Rekening courant directie
+Overige vorderingen
+Waarborgsom huurpand
+
+Overlopende activa
+
+Overige vooruitbetaalde kosten
+Vooruitbetaalde huur
+Vooruitbetaalde leasetermijn
+
+Liquide middelen
+
+ABN AMRO Bank N.V.
+ABN AMRO Bank N.V.
+Bankrekeningen
+
+Kassen
+
+Kruisposten
+
+In de liquide middelen zijn geen deposito's. De overige liquide middelen zijn vrij besteedbaar.
+
+Beoordelingsverklaring afgegeven
+
+Geert Spieker Beheer B.V.
+
+Groningen
+
+31-12-2021 31-12-2020
+€ €
+
+30 30
+
+54.846 52.737
+
+5.152 9.835
+
+9.315 -
+
+69.313 62.572
+
+31-12-2021 31-12-2020
+€ €
+
+2.476 4.876
+
+2.639 -
+
+1.238 -
+
+6.353 4.876
+
+10.634 -
+
+343.983 -
+
+- 331.714
+
+8.501 8.366
+
+3.140 2.800
+
+366.258 342.880
+
+Pagina 20 van 32
+
+oh
+EH Geert Spieker Beheer B.V.
+| Groningen
+
+2.5 Toelichting op de geconsolideerde balans
+
+PASSIVA
+EIGEN VERMOGEN
+2021 2020
+€ €
+Geplaatst aandelenkapitaal
+Stand per 31 december 18.000 18.000
+
+Het maatschappelijk kapitaal bedraagt € 90.000,--, verdeeld in 900 aandelen van nominaal € 100. Het
+gestort en opgevraagd kapitaal bedraagt € 18.000,
+
+Per eindbalans was het geplaatst kapitaal als volgt verdeeld:
+
+- 180 gewone aandelen (€ 18.000,--)
+
+Overige reserves
+
+Stand per | januari 390.073 255.270
+Uit voorstel resultaatbestemming 62.282 134.803
+Stand per 31 december 452.355 390.073
+
+Voorstel tot bestemming van het resultaat over het boekjaar 2021
+De directie stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2021 ten bedrage van
+€ 62.282 geheel ten gunste van de overige reserves te brengen en over 2021 geen dividend uit te keren.
+
+Dit voorstel is reeds in de jaarrekening verwerkt.
+
+Beoordelingsverklaring afgegeven Pagina 21 van 32
+
+ L
+Ë Geert Spieker Beheer B.V.
+Ei Groningen
+
+2.5 Toelichting op de geconsolideerde balans
+Het ingehouden deel van het resultaat over 2021 bedraagt € 62.282.
+
+Het aanpsrakelijke vermogen bestaat uit het groepsvermogen en de achtergestelde lening(en) die onder de
+langlopende schulden verwerkt zijn. Het aansprakelijk vermogen per 31 december 2021 bedraagt € 470.355,-
+(2020: € 408.073)
+
+Overzicht van het totaalresultaat van de instelling
+2021 2020
+€ €
+
+Geconsolideerd _netto-resultaat (na
+belastingen) tekomend aan de instelling 62.282 134.804
+
+Herwaardering materiële vaste activa = =
+Afwaardering/herwaardering financiële
+vaste activa
+
+af: gerealiseerde herwaardering ten laste
+van het eigen vermogen
+
+Totaal van de rechtstreekse mutaties in
+het eigen vermogen van de instelling als
+onderdeel van het groepsvermogen
+
+Totaalresultaat van de instelling 62.282 134.804
+
+LANGLOPENDE SCHULDEN
+
+31-12-2021 31-12-2020
+€ €
+
+Schulden aan kredietinstellingen
+Leaseverplichtingen 23.111 -
+
+Het deel van de schulden aan kredietinstellingen met een looptijd van langer dan 5 jaar is nihil
+
+Beoordelingsverklaring afgegeven Pagina 22 van 32
+
+nm
+Ë Geert Spieker Beheer B.V.
+Ei Groningen
+
+2.5 Toelichting op de geconsolideerde balans
+
+31-12-2021 31-12-2020
+
+€ €
+Leaseverplichtingen
+Leaseverplichting ABC Finance 23.111 -
+Het deel van de leaseverplichtingen met een looptijd van langer dan 5 jaar is nihil.
+
+2021 2020
+
+€ €
+Leaseverplichting ABC Finance
+Stand per | januari - -
+Opgenomen 33.880 -
+Aflossing -4.483 -
+Stand per 31 december 29.397 -
+Aflossingsverplichting komend boekjaar -6.286 -
+Langlopend deel per 31 december 23.111 -
+
+Dit betreft de leaseverplichting van Fiat Talento 2.9t met kenteken VJK-45-H, waarvan de boekwaarde per
+balansdatum € 32.583,-- bedraagt. De termijnbetaling bedraagt € 648,15 per maand, voor het laatst op 01-03-
+2026. Als extra zekerheid is gesteld het pandrecht op de Fiat Talento 2.9t met kenteken VJK-45-H.
+
+KORTLOPENDE SCHULDEN
+
+Aflossingsverplichtingen komend boekjaar
+Leaseverplichting 6.286 -
+
+31-12-2021 31-12-2020
+
+€ €
+Crediteuren
+Saldo ultimo boekjaar 20.262 37.030
+Nog te ontvangen facturen 4.965 2.993
+25.227 40.023
+Belastingen en premies sociale verzekeringen
+Vennootschapsbelasting 18.441 15.816
+Loonheffing 9.849 10.585
+Premies sociale verzekeringen 245 192
+Premies pensioen 47.174 46.067
+75.109 72.660
+
+Beoordelingsverklaring afgegeven Pagina 23 van 32
+
+oh
+Ë Geert Spieker Beheer B.V.
+ET Groningen
+
+2.5 Toelichting op de geconsolideerde balans
+
+31-12-2021 31-12-2020
+
+€ €
+Overige schulden
+Overige schulden 681 681
+Nog te betalen salarissen 1.484 -
+Reservering vakantietoeslag 16.374 17.006
+Reservering uit te betalen uren en ORT - 356
+Accountantskosten 13.420 14.858
+Incassokosten - 2.742
+Rente krediteuren - 640
+Kilometervergoedingen 848 912
+Schulden uit hoofde van subsidies 10.019 5.864
+Overige schulden 4.000 -
+
+46.826 43.059
+Overlopende passiva
+Uit te betalen aan cliënten 7165 765
+
+Financiële instrumenten
+Toelichting financiële instrumenten
+
+Algemeen
+
+De instelling maakt in de normale bedrijfsuitoefening gebruik van uiteenlopende financiële instrumenten die
+de instelling blootstellen aan markt- en/of kredietrisico’s. Deze betreffen financiële instrumenten die in de
+balans zijn opgenomen.
+
+De instelling handelt niet in financiële derivaten en heeft procedures en gedragslijnen om de omvang van het
+kredietrisico bij elke tegenpartij of markt te beperken. Bij het niet nakomen door een tegenpartij van aan de
+instellingen verschuldigde betalingen blijven eventuele daaruit voortvloeiende verliezen beperkt tot de
+marktwaarde van de desbetreffende instrumenten. De contractwaarde of fictieve hoofdsommen van de
+financiële instrumenten zijn slechts een indicatie van de mate waarin van dergelijke financiële instrumenten
+gebruik wordt gemaakt en niet van het bedrag van de krediet- of marktrisico’s.
+
+Kredietrisico
+De vorderingen uit hoofde van handelsdebiteuren betreffen het zorgkantoor, gemeenten enandere
+zorginstellingen. Het maximale bedrag aan kredietrisico bedraagt EUR 14.082.
+
+Renterisico en kasstroomrisico
+
+Er is geen sprake van een renterisico aangezien de instelling geen opgenomen en uitgegeven leningen zijn
+aangegaan. De instelling heeft derhalve als beleid om geen afgeleide financiële instrumenten te gebruiken om
+(tussentijdse) rentefluctuaties te beheersen.
+
+Beoordelingsverklaring afgegeven Pagina 24 van 32
+
+nn
+Ë Geert Spieker Beheer B.V.
+el Groningen
+
+2.5 Toelichting op de geconsolideerde balans
+
+Reële waarde.
+De reële waarde van de meeste in de balans verantwoorde financiële instrumenten, waaronder vorderingen,
+
+effecten, liquide middelen en kortlopende schulden, benadert de boekwaarde ervan.
+
+Niet in de balans opgenomen rechten en verplichtingen
+Voorwaardelijke verplichtingen en belangrijke financiële verplichtingen
+
+Huurverplichtingen
+
+Overstag Uitvoering B.V. heeft in 2021 een huurcontract afgesloten voor de huur van het pand op de locatie
+Helsingborgweg 3, O te Groningen De huurverplichting bedraagt € 28.030,-- per jaar. De huurverplichting is
+voor 10 jaar aangegaan met een opzegtermijn van | jaar. Na deze 10 jaar wordt deze huurovereenkomst
+voortgezet voor onbepaalde tijd,
+
+Fiscale eenheid omzetbelasting
+
+De ondernemingen maken deel uit van de fiscale eenheid voor de omzetbelasting tussen Geert Spieker Beheer
+B.V. en Overstag Zorg B.V. en Overstag Uitvoering B.V. Op grond daarvan zijn de ondernemingen
+hoofdelijk aansprakelijk voor de omzetbelasting van de fiscale eenheid als geheel.
+
+Operationele leaseverplichting
+
+De onderneming is op 10 mei 2019 een leaseverplichting aangegaan met voor de lease van een Nissan
+Qashqai met kenteken ZD-88-8V voor een periode van 36 maanden. De maandelijkse leaseverplichting
+bedraagt vanaf 1 januari 2022 € 778,94 (exclusief brandstofvoorschot en Omzetbelasting).
+
+VPB-plicht Jeugdzorg
+
+Op 13 december 2019 is in de Staatscourant het (aangepaste) beleidsbesluit subjectieve vrijstellingen ex
+artikel 5 Wet op de Vennootschapsbelasting (Wet Vpb) gepubliceerd. Dit besluit bevat verduidelijkingen
+voor _jeugdzorg- en _jeugdhulpinstellingen voor wat betreft de beoordeling van hun
+vennootschapsbelastingplicht en de mogelijkheden om een beroep te doen op de zogenoemde
+‘zorgvrijstelling’ ex artikel 5 lid 1, onderdeel c Wet Vpb. Per instelling moet worden getoetst of en in
+hoeverre een onderneming wordt gedreven en zo ja, of aan de wettelijke voorwaarden voor een subjectieve
+vrijstelling zoals de zorgvrijstelling ex. artikel 5, lid 1, onderdeel c wordt voldaan. Het gepubliceerde besluit
+bevat voor jeugdzorg- en jeugdhulpinstellingen relevante informatie voor de beoordeling van hun Vpb positie
+en meer in het bijzonder de mogelijkheden om een beroep te kunnen doen op een subjectieve (zorg-)
+vrijstelling.
+
+De instelling heeft een analyse gemaakt van de eventuele vennootschapsbelastingplicht en omdat zij wel een
+
+onderneming in fiscale zin drijft, besloten om wel rekening te houden met een eventuele belastingplicht in de
+jaarrekening.
+
+Beoordelingsverklaring afgegeven Pagina 25 van 32
+
+2.6 Toelichting op de geconsolideerde winst- en verliesrekening
+
+Geert Spieker Beheer B.V.
+
+Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+Omzetcompensatie en meerkosten Corona
+Opbrengsten uit onderaanneming
+Opbrengsten Wlz-zorg
+
+Opbrengsten JW-ZIN
+
+Opbrengsten WMO-ZIN
+
+De netto-omzet over 2021 is ten opzichte van het vorige boekjaar met 13,1% gedaald.
+
+Subsidies
+Rijkssubsidies vanwege het Ministerie van VWS, zorgbonussen
+Overige subsidies, waaronder loonkostensubsidies en EU-subsidies
+
+Overige bedrijfsopbrengsten
+
+Overige dienstverlening:
+Advisering
+
+Overige opbrengsten:
+Doorberekende kosten
+
+Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Groningen
+2021 2020
+
+€ €
+4.034 41.051
+4.382 29.816
+271.914 199.720
+282.288 464.091
+253.507 196.242
+816.125 930.920
+- 9.000
+5.304 1.000
+5.304 10.000
+- 850
+2.180 6.113
+2.180 6.963
+364.112 385.852
+44.410 53.722
+22.922 38.119
+46.750 57.201
+478.194 534.894
+
+Gemiddeld aantal werknemers:
+
+Gedurende het jaar 2021 waren gemiddeld 8,6 werknemers in dienst op basis van een fulltime dienstverband.
+
+In het jaar 2020 waren dit 10 werknemers.
+
+Lonen en salarissen
+Brutolonen en salarissen
+Dotatie reserve vakantietoeslag
+Reservering AT V/verlofdagen
+
+365.100 393.454
+-632 -3.005
+-356 -4.597
+
+364.112 385.852
+
+Beoordelingsverklaring afgegeven
+
+Pagina 26 van 32
+
+el Lj
+Û Geert Spieker Beheer B.V.
+m Groningen
+
+2.6 Toelichting op de geconsolideerde winst- en verliesrekening
+
+2021 2020
+€ €
+Sociale lasten
+Sociale lasten 44.410 53.722
+Pensioenlasten
+Pensioenpremie personeel 21.681 23.517
+WGA Hiaatverzekering 591 1.021
+WIA Bodem verzekering 325 581
+Pensioenlasten voorgaande jaren 325 13.000
+22.922 38.119
+Overige personeelskosten
+Werk derden 12.644 7.258
+Overige personeelskosten 34.106 49,943
+46.750 57.201
+Afschrijvingen
+Afschrijvingen immateriële vaste activa 6.250 6.250
+Afschrijvingen materiële vaste activa 10.341 4.126
+16.591 10.976
+Afschrijvingen immateriële vaste activa
+Goodwill 6.250 6.250
+Afschrijvingen materiële vaste activa
+Bedrijfsgebouwen en -terreinen 1.449 -
+Inventaris 6.248 4.726
+Vervoermiddelen 2.644 -
+10.341 4.726
+
+Beoordelingsverklaring afgegeven Pagina 27 van 32
+
+mn
+H Geert Spieker Beheer B.V.
+El Groningen
+
+2.6 Toelichting op de geconsolideerde winst- en verliesrekening
+
+2021 2020
+
+€ €
+Overige bedrijfskosten
+Voedingsmiddelen en hotelmatige kosten 25.818 26.963
+Algemene kosten 101.553 114.676
+Patiënt en bewonersgebonden kosten 7.749 8.573
+Onderhoud en energiekosten 20.414 13.823
+Huur en leasing 98.040 84.328
+Meerkosten Corona 4.156 12.442
+
+257.730 260.805
+Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten
+Rentebaten 1.755 5.316
+Rentelasten en soortgelijke kosten
+Rente financial lease 1.650 -
+Rentelasten 678 1.519
+
+2.328 1.519
+
+Belastingen
+Vennootschapsbelasting 8.239 10.202
+
+Beoordelingsverklaring afgegeven Pagina 28 van 32
+
+ne
+Ë m Geert Spieker Beheer B.V.
+
+Groningen
+
+2.6 Toelichting op de geconsolideerde winst- en verliesrekening
+
+Wet normering topinkomens
+
+De WNT is van toepassing bij de groep Geert Spieker Beheer B.V.
+
+Het bezoldigingsmaximum voor de directie voor 2021 is € 141.000, het WNT-maximum voor zorg en
+jeugdhulp klasse II. Dit geldt naar rato en duur en/of omvang van het dienstverband.
+
+la. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+dienstbetrekking vanaf de 13e maand van de functievervulling.
+
+Gegevens 2021
+
+bedragen x € 1 G.J. Spieker
+Functiegegevens EEEN directeur
+
+Aanvang en einde
+functievervulling in 2020 03/01 — SAAL2
+
+Omvang dienstverband (als 1
+deeltijdfactor in fte)
+
+Dienstbetrekking? ja
+Bezoldiging ;
+
+Beloning plus belastbare 104.031
+
+onkostenvergoedingen
+BeonmgernDetgalbear op 0
+n .
+
+Subtotaal 104.031
+
+Individueel toepasselijke
+
+bezoldigingsmaximum 141.000
+
+=7=Unverscnumomgo versa en
+nog niet terugontvangen N.v.t.
+had ps
+
+Bezoldiging 104.031
+
+Het bedrag van de
+overschrijding en de reden
+waarom de overschrijding al
+dan niet is toegestaan
+Toelichting op de vordering
+wegens onverschuldigde N.v.t.
+betaling
+
+Gegevens 2020
+
+he a oke
+
+N.v.t. N.v.t.
+
+Functiegegevens ij „directeur
+
+Aanvang en einde _
+functievervulling in 2019 O/ot — IL2
+
+Omvang dienstverband (als N
+deeltijdfactor in fte)
+
+Dienstbetrekking? ja
+
+Bezoldiging
+
+Beloning plus belastbare 00.438
+onkostenvergoedingen ze
+BETOTMGETT VETAAID dT UD 0
+
+termiin
+
+Subtotaal Í 90.438
+
+Individueel toepasselijke
+
+bezoldigingsmaximum 135.000
+
+Bezoldiging 90.438
+
+Beoordelingsverklaring afgegeven Pagina 29 van 32
+
+pp)
+Ë Geert Spieker Beheer B.V.
+ni Groningen
+
+2.6 Toelichting op de geconsolideerde winst- en verliesrekening
+Topfunctionarissen met een totale bezoldiging van € 1.700 of minder
+
+1d. Topfunctionarissen inclusief degenen die op grond van hun voormalige functie nog 4 jaar als
+topfunctionaris worden aangemerkt met een totale bezoldiging van € 1.700 of minder
+
+Gegevens 2021
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+H. Klaster Lid RvT
+H.H. Wusteveld Lid RvT
+
+Honorarium accountant
+
+2021 2020
+€ €
+
+De honoraria van de accountant over 2021 zijn als volgt:
+
+|. Beoordeling van de jaarrekening 2.372 750
+2. Overige controle-werkzaamheden (w.o. prod. verantw.) 2.023 2.500
+3. Fiscale advisering 628 454
+4, Niet-controlediensten 33.707 23.529
+Totaal honoraria accountant 38.730 27.233
+
+De in de tabel vermelde honoraria voor de beoordeling van de jaarrekening 2021 (2020) hebben betrekking
+op de totale honoraria voor het onderzoek van de jaarrekening 2021 (2020), ongeacht of de werkzaamheden
+al gedurende het boekjaar 2021 (2020) zijn verricht.
+
+2.7 Vaststelling en goedkeuring
+
+Vaststelling en goedkeuring jaarrekening
+
+De algemene vergadering heeft de jaarrekening vastgesteld in de vergadering van 11 mei 2022.
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling vermeld in de toelichting op de balans bij het
+
+Eigen Vermogen.
+
+Groningen, |l mei 2022
+
+G.f“Spieker
+
+Beoordelingsverklaring afgegeven Pagina 30 van 32
+
+3. Overige gegevens
+
+LL
+| Geert Spieker Beheer B.V.
+| Groningen
+
+3. Overige gegevens
+
+3.1 Statutaire regeling betreffende de bestemming van het resultaat
+
+Omtrent de bestemming van het resultaat is in artikel 20 van de statuten het volgende bepaald:
+
+1. De winst staat ter vrije beschikking van de algemene vergadering.
+
+2. De vennootschap kan aan de aandeelhouders en andere gerechtigden tot de voor uitkering vatbare winst
+slechts uitkeringen doen voor zover het eigen vermogen groter is dan het gestorte en opgevraagde deel van
+het kapitaal vermeerderd met de reserves die krachtens de we moeten worden aangehouden.
+
+3. Uitkering van winst geschiedt na de vaststelling van de jaarrekening waaruit blijkt dat zij geoorloofd is.
+
+4, Bij de berekening van de winstdeling tellen de aandelen die de vennootschap in haar eigen kapitaal houdt
+niet mede, tenzij deze aandelen belast zijn met een vruchtgebruik of pandrecht of daarvan certificaten zijn
+uitgegeven ten gevolge waarvan het winstrecht toekomt aan de vruchtgebruiker, de pandhouder of de houder
+van die certificaten.
+
+5. Certificaten die de vennootschap houdt of waarop de vennootschap een beperkt recht heeft op grond
+waarvan zij gerechtigd is tot de winstuitkering, tellen bij de berekening van de winstverdeling eveneens niet
+mee.
+
+6. De vennootschap mag tussentijds slechts uitkeringen doen, indien aan het vereiste van lid 2 is voldaan.
+
+3.2 Nevenvestigingen
+De onderneming heeft geen nevenvestigingen.
+
+Rapportdatum: 11 mei 2022
+
+Beoordelingsverklaring afgegeven Pagina 32 van 32
