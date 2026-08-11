@@ -358,6 +358,14 @@ def main() -> int:
             )
 
     print(f"\n{documenten} documenten gelezen")
+    if documenten >= argumenten.maximum:
+        # De bron telde 21.339 documenten (11-8-2026) bij een plafond van
+        # 25.000. Groeit hij daar ooit overheen, dan is deze regel het enige
+        # dat het verklapt — de lus stopt gewoon.
+        print(
+            f"LET OP: afgekapt op --maximum {argumenten.maximum}; "
+            "de bron bevat meer. Draai met een hoger maximum."
+        )
     print(f"Uitkomst: {dict(telling)}")
     if afgekeurd:
         print("\nNamen die geen organisatie bleken (top 10):")
