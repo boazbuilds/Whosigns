@@ -165,9 +165,25 @@ def alle_organisaties(boekjaar: int, pauze: float = PAUZE_SECONDEN) -> list[dict
 
 
 def heeft_verklaring(organisatie: dict) -> bool:
+    """Heeft deze organisatie een gedeponeerde accountantsverklaring?
+
+    Via `alle_documenten` en niet via `organisatie["documents"]`, om dezelfde
+    reden als daar beschreven: bij een deel van de organisaties hangen de
+    stukken onder `locations[].documents` in plaats van op het topniveau.
+
+    Dat dit filter dat níét deed was een stil lek. `verklaringen()` hieronder
+    keek al wél overal (regel 103), maar wie hier afvalt komt nooit bij die
+    functie langs: `doelpopulatie()` bepaalt met deze test wie er überhaupt
+    gelezen wordt. Een organisatie die haar verklaring onder een vestiging hangt
+    gold dus als "niets gedeponeerd" en werd overgeslagen — terwijl de lader
+    haar verklaring prima had kunnen lezen als ze op de lijst had gestaan.
+
+    De twee functies horen hetzelfde te zien; anders filtert de voorselectie
+    strenger dan de lezer die erachter staat.
+    """
     return any(
         VERKLARING_TYPE in (document.get("type") or "").lower()
-        for document in (organisatie.get("documents") or [])
+        for document in alle_documenten(organisatie)
     )
 
 
