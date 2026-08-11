@@ -1,0 +1,1189 @@
+# whosigns-ocr v1 grootte=6798746 dpi=300 paginas=20
+Audit & Assurance
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT (ref: MKI-220706-009)
+
+Aan: het bestuur en toezichthouders van FRONTO B.V.
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2021 van FRONTO B.V. te Roosendaal
+beoordeeld. De jaarrekening bestaat uit:
+
+1. de balans per 31 december 2021;
+
+2. de resultatenrekening over 2021; en
+
+3. detoelichting met een overzicht van de gehanteerde grondslagen voor financiële verslaggeving
+
+en andere toelichtingen.
+
+Verantwoordelijkheden van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het
+resultaat getrouw dient weer te geven in overeenstemming met de Regeling verslaggeving WTZi
+(RvW) en Titel 9 Boek 2 van het Burgerlijk Wetboek (BW). Het bestuur is tevens verantwoordelijk
+voor een zodanige interne beheersing als het noodzakelijk acht om het opmaken van de jaarrekening
+
+mogelijk te maken zonder afwijkingen van materieel belang als gevolg van fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze
+beoordeling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht,
+waaronder de Nederlandse Standaard 2400, ‘Opdrachten tot het beoordelen van financiële
+overzichten’. Dit vereist dat wij voldoen aan de voor ons geldende ethische voorschriften en dat wij
+onze beoordeling zodanig plannen en uitvoeren dat wij in staat zijn te concluderen dat wij geen
+
+reden hebben om te veronderstellen dat de jaarrekening afwijkingen van materieel belang bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een
+beperkte mate van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak
+uit het inwinnen van inlichtingen bij het management en overige functionarissen van de entiteit, het
+uitvoeren van cijferanalyses met betrekking tot de financiële gegevens, alsmede het evalueren van
+
+de verkregen informatie.
+
+Kantoor Breda www.witloxvcs.nl Kantoor Etten-Leur
+Fellenoordstraat 72 info@witloxves.nl Bredaseweg 131
+
+481 T) Breda IBAN: NL79 INGB 0680 5177 15 4872 LA Etten-Leur
+Postbus 3341 BIC: INGBNL2A Postbus 194
+
+4800 DH Breda BTW nr.: NL 8197.09.682.Bo1 4870 AD Etten-Leur
+Telefoon: 076 - 522 53 30 KvK Breda nr.: 20142682 Telefoon: 076 - 503 44 83
+
+
+VCS
+
+Audit & Assurance
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter
+dan die uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de
+
+Nederlandse controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Conclusie
+
+Op grond van onze beoordeling hebben wij geen reden om te veronderstellen dat de jaarrekening
+geen getrouw beeld geeft van de grootte en de samenstelling van het vermogen van FRONTO B.V.
+per 31 december 2021 en van het resultaat over 2021 in overeenstemming met de Regeling
+verslaggeving WTZi (RvW) en Titel 9 Boek 2 van het Burgerlijk Wetboek (BW).
+
+Ter vergelijking opgenomen informatie niet gecontroleerd of beoordeeld
+
+Op de jaarrekening 2020 is geen accountantscontrole toegepast, noch is daarop een
+beoordelingsopdracht uitgevoerd. Derhalve zijn de ter vergelijking opgenomen bedragen in de winst-
+en verliesrekening en de daaraan gerelateerde toelichtingen, evenals de ter vergelijking opgenomen
+bedragen in het mutatieoverzicht eigen vermogen en het kasstroomoverzicht niet gecontroleerd of
+
+beoordeeld.
+
+De WNT-aspecten vallen niet onder deze opdracht
+
+Conform artikel 1.7 lid 1 van de Wet normering bezoldiging topfunctionarissen publieke en
+semipublieke sector (WNT) bestaat er een controleplicht ten aanzien van de WNT-aspecten. Met
+betrekking tot de jaarrekening van FRONTO B.V. te Roosendaal wordt door ons een
+beoordelingsopdracht uitgevoerd. De WNT-aspecten vallen hier derhalve niet onder. Ten behoeve
+van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK) wordt hiervoor door ons een
+
+separate controleverklaring afgegeven.
+
+Breda, 8 juli 2022
+
+Witlox VCS audit B.V.
+
+Was getekend M. Kilingarslan RA, d.d. 8 juli 2022.
+
+ref: MKI-220706-009 2
+
+Fronto B.V.
+
+5.1 JAARREKENING
+
+Witlox VCS Accountants
+Voor identificatied sleinden.
+Ref.lkenmerk: MA-DO - oog
+Paraaf seinde AND
+
+Fronto B.V.
+
+5.1 JAARREKENING
+
+5.1.1 BALANS PER 31 DECEMBER 2021
+(na resultaatbestemming)
+
+Ref. 31-dec-21 31-dec-20
+€ €
+ACTIVA
+Vaste activa
+Materiële vaste activa 1 74.226 90.105
+Financiële vaste activa 2 19.525 19.525
+Totaal vaste activa 93.751 109.630
+Vlottende activa
+Debiteuren en overige vorderingen 3 182.316 172.336
+Liquide middelen 4 114.971 287.162
+Totaal vlottende activa 297.287 459.498
+Totaal activa 391.038 569.128
+Ref. 31-dec-21 31-dec-20
+€ €
+PASSIVA
+Eigen vermogen 9
+Aandelenkapitaal 100 100
+Algemene en overige reserves -2.781 261.493
+Totaal eigen vermogen -2.681 261.593
+Voorzieningen 6 77.600 73.200
+Kortlopende schulden (ten hoogste 1 jaar)
+Overige kortlopende schulden 4 316.119 234.335
+Totaal kortlopende schulden (ten hoogste 1 jaar) 316.119 234.335
+Totaal passiva 391.038 569.128
+
+Witlox VCS Accountants
+Voor identi ggslelgd | DO
+Ref Jkenmerk: MAES HER Nn) Ó
+
+Pagina 6 Paraaf sizin
+
+Fronto B.V.
+
+5.1.2 RESULTATENREKENING OVER 2021
+
+BEDRIJFSOPBRENGSTEN:
+
+Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke
+ondersteuning
+
+Som der bedrijfsopbrengsten
+
+BEDRIJFSLASTEN:
+
+Personeelskosten
+
+Afschrijvingen op materiële vaste activa
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+BEDRIJFSRESULTAAT
+
+Financiële baten en lasten
+RESULTAAT VOOR BELASTINGEN
+Belastingen
+
+RESULTAAT NA BELASTINGEN
+
+Pagina 7
+
+Ref. 2021 2020
+€ €
+
+KS) 891.728 981.929
+891.728 981.929
+
+10 912.210 675.417
+11 17.308 20.067
+12 190.297 183.874
+1.119.815 879.358
+-228.087 102.571
+
+13 -405 1.193
+-228.492 103.764
+
+14 -14.218 16.717
+-214.274 87.047
+
+wittox VCS Accountants
+
+(ie IO
+
+Voor identificaties
+Ref.Jkenmerk: „4
+A:
+
+Puruaj Seil
+
+
+Fronto B.V.
+
+5.1.3 KASSTROOMOVERZICHT OVER 2021
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+- afschrijvingen en overige waardeveranderingen
+- mutaties voorzieningen
+
+Veranderingen in werkkapitaal:
+
+- vorderingen
+
+- kortlopende schulden (excl. schulden aan banken)
+Kasstroom uit bedrijfsoperaties
+
+Ontvangen interest
+
+Betaalde interest
+
+Betaalde winstbelasting
+
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa
+
+Totaal kasstroom uit investeringsactiviteiten
+
+Kasstroom uit financieringsactiviteiten
+Dividenden
+
+Totaal kasstroom uit financieringsactiviteiten
+
+Mutatie geldmiddelen
+
+Stand geldmiddelen per 1 januari
+Stand geldmiddelen per 31 december
+Mutatie geldmiddelen
+
+Ref. 2021 2020
+€ € € €
+-228.087 102.571
+11 17.308 20.067
+6 4.400 36.700
+21.708 56.767
+3 -9.980 64.816
+7 81.784 111.052
+71.804 175.868
+-134.575 335.206
+13 0 1.505
+13 -405 -312
+14 14.218 -16.717
+13.813 -15.524
+-120.762 319.682
+1 -1.429 -20.417
+-1.429 -20.417
+5 -50.000 0
+-50.000 0
+-172.191 299.265
+287.162 -12.103
+114.971 287.162
+-172.191 299.265
+
+Toelichting:
+
+Het kasstroomoverzicht is opgesteld volgend de indirecte methode.
+
+Pagina 8
+
+Witlox VCS Accountants
+Voor idensificark goei
+Ref/kenmerk: MN rd
+
+Puris —-- dl
+
+
+Fronto B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.1 Algemeen
+
+Activiteiten
+
+Fronto B.V. is statutair gevestigd te Roosendaal, op het adres Bovendonk 5, en is geregistreerd onder KvK-
+nummer 63546434.
+
+De belangrijkste activiteiten zijn het voeren van een praktijk van psychotherapeuten en psychologen.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2021, dat is geëindigd op balansdatum 31 december 2021
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de de Regeling verslaggeving WTZi (RvW), de Richtlijnen
+voor de Jaarverslaggeving RJ 655, de bepalingen van en krachtens de Wet normering bezoldiging
+topfunctionarissen publieke en semipublieke sector (VNT) en Titel 9 BW2 met uitzondering van afdeling 6
+‘voorschriften omtrent de grondslagen van waardering en bepaling van het resultaat’. In plaats daarvan worden
+de grondslagen voor de bepaling van de belastbare winst als bedoeld in de Wet op de Vennootschapsbelasting
+toegepast. Verder zijn het Besluit fiscale waarderingsgrondslagen en de ‘Handreiking bij de toepassing van
+fiscale grondslagen voor kleine rechtspersonen! van de Raad voor de Jaarverslaggeving van toepassing.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd
+op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Continuïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Oordelen en schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde waarde
+van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen afwijken van deze
+schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend beoordeeld. Herzieningen
+van schattingen worden opgenomen in de periode waarin de schatting wordt herzien en in toekomstige perioden
+waarvoor de herziening gevolgen heeft.
+
+De volgende waarderingsgrondslagen zijn naar de mening van het management het meest kritisch voor het
+weergeven van de financiële positie, en vereisen een aantal schattingen en veronderstellingen.
+
+5.1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in de
+verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de
+jaarrekening genummerd.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van Fronto B.V.
+
+Materiële vaste activa
+Overige vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct toerekenbare
+kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur en bijzondere
+waardeverminderingen.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+* Bouwkundige voorzieningen : 10 %.
+* Bedrijfsinventaris : 20 %.
+
+Witlox VCS Accountants
+Voor identical O0 L
+Ref./kenmerk: Ms Ar Af jo ae
+
+Pagina 9 Paraaf ves.man.: … .
+
+Fronto B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Vorderingen
+De waardering van vorderingen is tegen nominale waarde. Een voorziening wordt getroffen op de vorderingen op
+grond van verwachte oninbaarheid.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan
+twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de nominale waarde.
+
+Liquide middelen die naar verwachting langer dan 12 maanden niet ter beschikking staan van de instelling,
+worden gerubriceerd als financiële vaste activa.
+
+Voorzieningen
+
+Algemeen
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum
+bestaan en die het gevolg zijn van een gebeurtenis uit het verleden, waarbij het waarschijnlijk is dat een
+uitstroom van middelen noodzakelijk is en waarvan de omvang op betrouwbare wijze is te schatten. De
+voorcieningen worden gewaardeerd tegen de beste schatting van de verwachte uitgaven die naar verwachting
+noodzakelijk zijn om de verplichting en verliezen af te wikkelen. De voorzieningen worden gewaardeerd tegen de
+nominale waarde.
+
+Wanneer verplichtingen naar verwachting door een derde zullen worden vergoed, wordt deze vergoeding als een
+actief in de balans opgenomen indien het waarschijnlijk is dat deze vergoeding zal worden ontvangen bij de
+afwikkeling van de verplichting.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één
+jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij
+opgenomen tegen de nominale waarde.
+
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming
+van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking genomen
+in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de verslagperiode
+waarop deze betrekking hebben.
+
+Baten en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit boekjaar
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de resultatenrekening verwerkt wanneer het bedrag van de
+opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk
+is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald en de reeds
+gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening te voltooien
+op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden
+gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Witlox
+
+Voor ie ntificat lend |
+n Ref./kenmerk: Keet SN hae
+Pagina 10 À fi
+
+Paraaf uco.man.:
+
+Fronto B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Personele kosten
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+Pensioenen
+
+Fronto B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking komende
+werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op het
+gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd bij Fronto B.V.
+De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht bij het
+bedrijfstakpensioenfonds Zorg en Welzijn. Fronto B.V. betaalt hiervoor premies waarvan de helft door de
+werkgever wordt betaald en de helft door de werknemer. De pensioenrechten worden jaarlijks geïndexeerd,
+indien en voor zover de dekkingsgraad van het pensioenfonds (het vermogen van het pensioenfonds gedeeld
+door haar financiële verplichtingen) dit toelaat. Voor pensioenfondsen geldt regelgeving met betrekking tot de
+vereiste dekkingsgraad. De beleidsdekkingsgraad is het gemiddelde van de laatste twaalf dekkingsgraden. In
+december 2021 bedroeg de beleidsdekkingsgraad 106,6%. Het vereiste niveau van de dekkingsgraad is
+101,6%. Het bestuur van PFZW heeft besloten om de pensioenpremie te verhogen in twee stappen: per 1
+januari 2021 met 1,5 procentpunt en per 1 januari 2022 met 0,8 procentpunt. De premie voor het
+arbeidsongeschiktheidspensioen blijft gelijk. Fronto B.V. heeft geen verplichting tot het voldoen van aanvullende
+bijdragen in geval van een tekort bij het pensioenfonds, anders dan het effect van hogere toekomstige premies.
+Fronto B.V. heeft daarom alleen de verschuldigde premies tot en met het einde van het boekjaar in de
+jaarrekening verantwoord.
+
+Financiële baten en lasten
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en aan
+derden en groepsmaatschappijen betaalde (te betalen) interest.
+
+Subsidies
+
+Subsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra er redelijke zekerheid
+bestaat dat zij zullen worden ontvangen en dat de besloten vennootschap zal voldoen aan de daaraan
+verbonden voorwaarden. Subsidies ter compensatie van door de besloten vennootschap gemaakte kosten
+worden systematisch als opbrengsten in de resultatenrekening opgenomen in dezelfde periode als die waarin de
+kosten worden gemaakt.
+
+Uitgangspunten Sociaal Domein
+
+Bij het bepalen van de Wmo-omzet en/of Jeugdwet-omzet heeft de besloten vennootschap de grondslagen voor
+waardering en resultaatbepaling gevolgd zoals hiervoor opgenomen. In de praktijk kan het lang duren voordat de
+geleverde Wmo-zorg en jeugdhulp in een kalenderjaar definitief wordt afgerekend door de gemeenten. Hierdoor
+is er onzekerheid over het vergoeden van overproductie en kunnen gemeenten geleverde zorg ter discussie
+stellen, waardoor deze mogelijk niet wordt vergoed.
+
+De raad van bestuur heeft deze mogelijke effecten naar beste weten geschat en verwerkt in deze jaarrekening
+waar mogelijk en wijst op het resterende inherente risico terzake dat kan leiden tot nagekomen financiële
+effecten in 2022 of later.
+
+Belastingen
+
+Belastingen omvatten de over de verslagperiode verschuldigde en verrekenbare winstbelastingen. De
+belastingen worden in de resultatenrekening opgenomen, behalve voor zover deze betrekking hebben op posten
+die rechtstreeks in het eigen vermogen worden opgenomen, in welk geval de belasting in het eigen vermogen
+wordt verwerkt , of op overnames.
+
+De over het boekjaar verschuldigde en verrekenbare belasting is de naar verwachting te betalen belasting over
+de belastbare winst over het boekjaar, berekend aan de hand van belastingtarieven die zijn vastgesteld op
+verslagdatum, dan wel waartoe materieel al op verslagdatum is besloten, en eventuele correcties op de over
+voorgaande jaren verschuldigde belasting.
+
+Witlox VCS Accountants
+i Voor identificati gege ob
+Fagina 11 Ref.lkenmerk: Ma) erde 000
+
+Paraaf &C£.MAN: ed
+
+Fronto B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht
+bestaan uit de liquide middelen en beleggingen die zonder beperkingen en zonder materieel risico van
+waardeverminderingen als gevolg van de transactie kunnen worden omgezet in geldmiddelen.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn opgenomen
+onder de kasstroom uit operationele activiteiten.
+
+5.1.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de
+datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de
+jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de gebruikers
+van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de jaarrekening.
+
+5.1.4.6 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de besloten vennootschap zich gehouden
+aan de wet- en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Witlox VCS Aa,
+Voor identificatieg lein en. ak 004
+Ref./kenmerk: WS
+
+Pagina 12 Paraaf Geenen: vS D
+
+Fronto B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+1. Materiële vaste activa
+
+31-dec-21 31-dec-20
+De specificatie is als volgt: € €
+Bouwkundige voorzieningen 59.884 70.235
+Bedrijfsinventaris 14.342 19.870
+Totaal materiële vaste activa 74.226 90.105
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven: 2021 2020
+€ €
+Boekwaarde per 1 januari 90.105 89.755
+Bij: investeringen 1.429 20.417
+Af: afschrijvingen 17.308 20.067
+Boekwaarde per 31 december 74.226 90.105
+Toelichting:
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 5.1.6.
+2. Financiële vaste activa
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Overige vorderingen 19.525 19.525
+Totaal financiële vaste activa 19.525 19.525
+Het verloop van de financiële vaste activa is als volgt: 2021 2020
+€ €
+Boekwaarde per 1 januari 19.525 19.525
+Mutaties waarborgsommen o) e)
+Boekwaarde per 31 december 19.525 19.525
+Toelichting:
+Voor een nadere specificatie van het verloop van de financiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 5.1.7.
+3. Debiteuren en overige vorderingen
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Vorderingen op debiteuren 80.238 15.295
+Nog te factureren omzet DBC's / DBC-zorgproducten 4.748 96.172
+Belastingen 9.221 5.611
+Vorderingen op groepsmaatschappijen 8.605 18.988
+Vooruitbetaalde bedragen 19.435 6.707
+Nog te ontvangen bedragen 60.069 29.563
+Totaal debiteuren en overige vorderingen 182.316 172.336
+
+Witlox VCS Accountants
+Voor iderrifarksgelef
+Ref.lkenmerk: . Ns. }
+
+PEES al 4
+ara.
+
+Pagina 13
+
+en.
+0}
+
+
+Fronto B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+4. Liquide middelen
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Bankrekeningen 114.743 286.934
+Kassen 228 228
+Totaal liguide middelen 114.971 287.162
+Toelichtina:
+De liquide middelen zijn vrij beschikbaar.
+PASSIVA
+5. Eigen vermogen
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-21 31-dec-20
+€ €
+Aandelenkapitaal 100 100
+Algemene en overige reserves -2.781 261.493
+Totaal eigen vermogen -2.681 261.593
+Aandelenkapitaal
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-21 bestemming mutaties 31-dec-21
+€ € € €
+Aandelenkapitaal 100 0 0 100
+Totaal kapitaal 100 e) e) 100
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-21 bestemming mutaties 31-dec-21
+€ € € €
+Algemene reserves 261.493 -214.274 -50.000 -2.781
+Totaal algemene en overige reserves 261.493 -214.274 -50.000 -2.781
+6. Voorzieningen
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+Het verloop is als volgt weer te geven: 1-jan-21 31-dec-21
+€ € € € €
+- pensioenpremies 73.200 4.400 0 0 77.600
+Totaal voorzieningen 73.200 4.400 0 0 77.600
+
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+
+Langlopend deel van de voorzieningen (> 1 jr.)
+
+31-dec-21
+
+77.600
+
+Toelichting per categorie voorziening:
+
+De voorziening pensioenpremies is opgenomen i.v.m. eventueel na te betalen pensioenpremies.
+
+Pagina 14
+
+Witlox VCS Accountanês
+
+Voor identifica
+Ref./kenmerk:
+
+Paraaf LEZE: es
+
+ee
+
+b-c0g
+
+
+Fronto B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+7. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+
+€ €
+Crediteuren 13.281 15.352
+Schulden terzake pensioenen 8.721 0
+Nog te betalen salarissen 564 0
+Nog te betalen accountantskosten (incl. stelpost) 3.500 3.500
+Schulden aan groepsmaatschappijen 6.499 ©)
+Nog te betalen bedragen 12.952 72.164
+Vakantiegeld 15.994 37.680
+Vakantiedagen / LFB uren 22.128 0)
+Nog te ontvangen facturen 172.480 105.639
+Totaal overige kortlopende schulden 316.119 234.335
+
+8. Niet in de balans opgenomen verplichtingen, activa en regelingen
+
+Huurverplichtingen
+
+Fronto B.V. huurt het pand aan de Sint Antoniusstraat 2 en 4c te Oosterhout per 1 november 2018 van Panis Beheer B.V. voor
+een periode van 1 jaar, met een aaneensluitende periode van 1 jaar, de hieruit voortvloeiende verplichting bedraagt ultimo 2021
+€3.964 per maand. Fronto B.V. huurt het pand aan de Blokweg 56, C en D te Zevenbergen per 1 maart 2017 van
+Beheermaatschappij Satelliet B.V. voor een penode van 5 jaar, met een aaneensluitende periode van 5 jaar de hieruit
+voortvloeiende verplichting bedraagt ultimo 2021 € 1.919 per maand.
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde zorgprestaties
+kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De effecten van eventuele materiële nacontroles zijn
+vooralsnog onzeker en daarom zijn er hiervoor geen verplichtingen opgenomen in de balans.
+
+Witlox VCS Accountants
+
+Voor idenvificatjedoeleigden ob -0)
+Ref./kenmerk: Mea 20 À Ì
+
+Paraaf Seutiseis aen
+Pagina 15
+
+2 et SUSE STAD
+( RU esn own fed
+n sd veniopr JOO
+
+SUDILNOIIY SIA XONIM
+
+9L euIÔed
+
+%0'0 %0'OL
+WT vL Tre vl 788'65
+00206 740 Lv %I'er
+96 79L 9lv' 19 OLS EOL
+648'G|- 840 G- LGE'OL-
+80E ZL „569 LGE'OL
+647 | 647 | 0
+G0L°06 04861 GET OL
+TBE EL ZLL'Op GLT'EE
+L6v EIL Z86'65 OLS EOL
+3 > >
+SlJe}ueAuI “Buruarzioon
+jeezo -sjfiipog ebipunymnog
+
+ebejuouredsburnluYIsy
+
+LZOz Jeqweoep LE Jed epieemHoog
+
+ueBuinfuuosje ealnzepnwno -
+epJeemjJeyIsuee -
+Lz0z Joqweoap je Jed puejs
+
+(opjes Jed) epieemxeog ui saneiny
+ueBuinliuyosje -
+ueBuliJejsenul -
+
+Jeefyeog Jey ui sangein in
+LZ0z Henuel | Jed epieemjeog
+ueBuinluyosje enespejnwno -
+
+epleemJeYISUEe -
+Lz0z Henuef | Jed puejs
+
+VAIL9V ALSVA ATAINALVIN LHIIZHAAOAILVLNN 9'L'S
+
+'\'a o}UO1J
+
+JL euiBed
+
+beer ryan {ODADd
+rete ze EE ed dd zyzowuoif fo
+ap AN outsuapr 1OOA
+
+Sum NOI SIA XONIM
+
+Goo- act
+
+erde melk GEg'6l 407 Jeqweoop LE Jed epieemHoog
+0 0 saneinin
+Seg '6l Geel LZ0g Henuel | Jed epieemjeog
+E) 3
+leejoL ueBuuepJon
+
+eBMSAO
+
+VAILIY ALSVA ATAIDNYNIJ LHIIZHIAORLLVLNN ZUS
+
+'A'g O}U014
+
+Fronto B.V.
+
+5.1.8 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+9. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2021 2020
+
+€ €
+Opbrengsten zorgverzekeringswet 61.605 0
+Opbrengsten Jeugdwet 785.839 687.605
+Opbrengsten uit onderaanneming 44.284 250.900
+Overige zorgprestaties 0 43.424
+Totaal 891.728 981.929
+LASTEN
+
+10. Personeelskosten
+
+De specificatie is als volgt: 2021 2020
+€ €
+Lonen en salarissen 496.049 419.065
+Sociale lasten 87.439 75.123
+Pensioenpremies / dotatie voorziening pensioenpremies 49.841 36.700
+Mutatie vakantiegeldverplichting / vakantiedagen 442 0
+Andere personeelskosten:
+Kantinekosten 302 2.184
+Studie- en opleidingskosten 41.591 9.987
+Ziekengeldverzekering 17.714 22.020
+Onbelaste vergoeding 25.698 36.542
+Kosten tlv. vrije ruimte werkkostenregeling 1.055 0
+Overige personeelskosten 9.210 -2.381
+af: ontvangen ziekengeld 0 -68.055
+Subtotaal 729.341 531.185
+Personeel niet in loondienst 182.869 144.232
+Totaal personeelskosten 912.210 675.417
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 10 9
+
+11. Afschrijvingen op materiële vaste activa
+
+De specificatie is als volgt: 2021 2020
+€ €
+
+Afschrijvingen:
+
+- materiële vaste activa 17.308 20.067
+
+Totaal afschrijvingen 17.308 20.067
+
+Witiox VCS Accountanis
+Voor identificatiedo
+
+Ref.lkenmerk: 5 gejob-o0g
+
+Pagina 18 Paraaf LEEMAN an 7
+
+
+Fronto B.V.
+
+5.1.8 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+12. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+Patiënt- en bewonersgebonden kosten
+
+Huisvestingskosten
+
+- Onderhoud
+
+- Energiekosten
+
+- Lasten onroerende zaak
+
+- Overige huisvestingskosten
+- Huur + servicekosten
+
+Exploitatie- en machinekosten
+
+- Reparatie en onderhoud inventaris
+- Huur inventaris
+
+- Kleine aanschaf inventaris
+
+Verkoopkosten
+
+- Reclame en advertentiekosten
+- Representatie en verteer
+
+- Reis- en verblijfkosten
+
+- Afboeking dubieuze debiteuren
+
+Kantoorkosten
+
+- Kantoorbenodigdheden
+
+- Porti
+
+- Communicatiekosten
+
+- Vakliteratuur
+
+- Automatiseringskosten zorgprocessen
+
+Algemene kosten
+
+- Abonnementen en contributies
+- Verzekering
+
+- Accountantskosten
+
+- Administratiekosten
+
+- Advies- en advocaatkosten
+- Overige algemene kosten
+
+Totaal overige bedrijfskosten
+13. Financiële baten en lasten
+De specificatie is als volgt:
+Rentebaten
+
+Subtotaal financiële baten
+
+Overige financiële lasten
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+14. Belastingen
+
+De specificatie is als volgt:
+
+Belastingen
+
+Totaal
+
+2021 2020
+
+€ €
+
+3.480 19.854
+
+7.667 3.601
+
+3.947 3.565
+
+1.103 854
+
+990 892
+
+78.763 78.327
+
+92.470 87.239
+
+0 35
+
+2.303 2.527
+
+1.481 5.344
+
+3.784 7.906
+
+2.811 6.116
+
+389 576
+
+98 0
+
+0 60
+
+3.298 6.752
+
+8.871 5.341
+
+0 630
+
+5.562 4.574
+
+758 87
+
+31.260 37.186
+
+46.451 47.818
+
+805 23
+
+5.641 1.918
+
+9.346 6.202
+
+0 2.866
+
+24.829 0)
+
+193 3.296
+
+40.814 14.305
+
+190.297 183.874
+
+2021 2020
+
+€ €
+
+0 1.505
+
+0 1.505
+
+-405 -312
+
+-405 -312
+
+-405 1.193
+
+2021 2020
+
+€ €
+
+-14.218 16.717
+
+-14.218 16.717
+
+P Witiox VCS Accountanis
+
+baga TE Voor identificatiedoeleinde
+
+Ref.lkenmerk: Ad.
+Paraaf eco man:
+
+
+Fronto B.V.
+
+5.1.9 WNT-verantwoording 2021 Fronto B.V.
+
+De WNT is van toepassing op Fronto B.V. Het voor Fronto B.V. toepasselijke bezoldigingsmaximum is in 2021 € 141.000 het WNT-maximum op basis
+van de Regeling bezoldigingsmaxima topfunctionarissen zorg en jeugdhulp, de totaalscore is 8 en de klasse is Il.
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder dienstbetrekking vanaf de 13e maand van de
+functievervulling.
+
+bedragen x€ 1
+Functiegegevens
+
+P.F. Steenkist
+Bestuurder
+
+E. de Roo
+Bestuurder
+
+Aanvang en einde functievervulling
+in 2021
+
+01/01 - 31/12
+
+01/01 - 31/12
+
+Omvang dienstverband (als
+
+deeltijdfactor in fte) aen ‚an
+Dienstbetrekking? Nee Nee
+Bezoldiging
+
+Beloning plus belastbare 28.391 28.301
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn le) 0
+Subtotaal 28.391 28.391
+Individueel toepasselijke 35.250 35.250
+bezoldigingsmaximum
+
++ Onverschuldigd betaald en nog Nvt. Nvt
+niet terugontvangen bedrag
+
+Bezoldiging 28.391 28.391
+Het bedrag van de overschrijding en
+
+de reden waarom de overschrijding Nvt. N.v.t. N.v.t N.v.t.
+al dan niet is toegestaan
+
+Toelichting op de vordering wegens Nvt. Nvt.
+onverschuldigde betaling
+
+Gegevens 2020
+
+bedragen x € 1 P.F. Steenkist E. de Roo
+Functiegegevens Bestuurder Bestuurder
+
+Aanvang en einde functievervulling
+in 2020
+
+01/01 - 31/12
+
+01/01 - 31/12
+
+Omvang dienstverband (als
+
+deeltijdfactor in fte) Ben 0,25
+Dienstbetrekking? Nee Nee
+Bezoldiging
+
+Beloning plus belastbare 27.845 27.845
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn 0 0
+Subtotaal 27.845 27.845
+Individueel toepasselijke 33.750 33.750
+bezoldigingsmaximum
+
+Bezoldiging 27.845 27.845
+
+Pagina 20
+
+Witlox VCS Accountants
+
+Voor identificat:
+
+Ref.lkenmerk: .
+Paraaf acc.mat
+
+Iers
+
+
+Fronto B.V.
+
+5.1.9 WNT-verantwoording 2021 Fronto B.V.
+
+1c. Toezichthoudende topfunctionarissen
+
+Functiegegevens
+
+DD a e
+Voorzitter
+
+Lid
+
+Aanvang en einde functievervulling
+in 2021
+
+01/01 - 31/12
+
+01/01 - 31/12
+
+Bezoldiging
+
+Bezoldiging 2.000 2.420
+Individueel toepasselijke 24.150 14.100
+bezoldigingsmaximum
+
++ Onverschuldigd betaald en nog Nvt. Nvt.
+
+niet terugontvangen bedrag
+
+Bezoldiging 2.000 2.420
+
+Het bedrag van de overschrijding en
+
+de reden waarom de overschrijding N.v.t. Nvt. N.v.t N.v.t.
+al dan niet is toegestaan
+
+Toelichting op de vordering wegens
+
+onverschuldigde betaling Nad, NL,
+Gegevens 2020
+
+bedragen x € 1 D.W. Hansen M.M.M. Heesmans
+Functiegegevens Voorzitter Lid
+
+Aanvang en einde functievervulling
+in 2020
+
+01/01 - 31/12
+
+01/01 - 31/12
+
+Bezoldiging
+Bezoldiging 1.000 1.000
+Individueel toepasselijke 20.250 13.500
+
+bezoldigingsmaximum
+
+Pagina 21
+
+Witlox VCS Accountants
+
+Voor identificatie
+
+Ref.lkenmerk: „MN
+
+Paraaf zeeman. …
+
+elei
+
+ei
+
+
+Fronto B.V.
+
+5.1.10 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Fronto B.V. heeft de jaarrekening 2021 opgemaakt en vastgesteld in de
+vergadering van … … … 2022.
+
+De raad van toezicht van de Fronto B.V. heeft de jaarrekening 2021 goedgekeurd in de vergadering
+van 2022.
+
+Ondertekening door bestuurders en toezichthouders
+
+2G1 Holding B.V. Steenkist & van Rees Vastgoed B.V.
+
+De heer E. de Roo De heer P.F. Steenkist
+
+De Raad van Toezicht
+
+D.W. Hanssen M.M.M. Heesmans
+
+Witlox VCS Accountants
+
+Voor deren een EN 00d
+
+Ref. Ikenmerk: y
+Paruuf acc.man. eN 5
+
+Pagina 22
