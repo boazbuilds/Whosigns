@@ -1,0 +1,958 @@
+# whosigns-ocr v1 grootte=1968332 dpi=300 paginas=20
+Raadthuys GGZ B.V.
+Elst
+
+Pensioenen
+
+Raadthuys GGZ B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over
+het boekjaar verschuldigde premie wordt als last verantwoord.
+
+Op de Nederlandse pensioenregelingen zijn de bepalingen van de Nederlandse Pensioenwet van toepassing
+en betaalt Raadthuys GGZ B.V. verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en
+verzekeringsmaatschappijen. De premies worden verantwoord als personeelskosten zodra deze
+verschuldigd zijn. Vooruitbetaalde premies worden opgenomen als overlopende activa indien dit tot een
+terugstorting leidt of tot een vermindering van toekomstige betalingen. Nog niet betaalde premies worden als
+verplichting op de balans opgenomen.
+
+Afschrijvingen
+
+Immateriële vaste activa inclusief goodwill en materiële vaste activa worden vanaf het moment dat een actief
+beschikbaar is voor het beoogde gebruik afgeschreven over de verwachte toekomstige gebruiksduur van het
+actief. Op bedrijfsterreinen en op materiële vaste bedrijfsactiva in uitvoering, alsmede vooruitbetalingen op
+materiële vaste activa wordt niet afgeschreven.
+
+Indien een schattingswijziging plaatsvindt van de toekomstige gebruiksduur, dan worden de toekomstige
+afschrijvingen aangepast.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+
+Financiële baten en lasten
+Rentebaten en rentelasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en
+aan derden en groepsmaatschappijen betaalde (te betalen) interest.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande
+boekjaren (voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde winstbestanddelen
+en na bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met wijzigingen die optreden in
+de latente belastingvorderingen en latente belastingschulden uit hoofde van wijzigingen in het te hanteren
+belastingtarief.
+
+Doorbelasting van vennootschapsbelasting aan de in de fiscale eenheid opgenomen vennootschappen vindt
+plaats als waren de deelnemingen zelfstandig belastingplichtig.
+
+Beoordelingsverklaring afgegeven -22-
+
+Raadthuys GGZ B.V.
+Elst
+
+TOELICHTING OP DE GECONSOLIDEERDE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+VASTE ACTIVA
+
+Materiële vaste activa
+
+Huurder- Vervoer-
+investering Apparatuur Inventaris middelen Totaal
+
+€ € € € €
+Boekwaarde per 1 januari 2021
+Aanschaffingswaarde 42.395 45.871 45.826 63.990 198.082
+Cumulatieve afschrijvingen en
+waardeverminderingen -13.708 -21.020 -19.208 -11.957 -65.893
+
+28.687 24.851 26.618 52.033 132.189
+Mutaties
+Investeringen 9.171 5.354 18.126 - 32.651
+Afschrijvingen -4.001 -8.385 -9.107 -11.598 -33.091
+
+5.170 -3.031 9.019 -11.598 -440
+
+Boekwaarde per 31 december 2021
+Aanschaffingswaarde 51.566 51.225 63.952 63.990 230.733
+Cumulatieve afschrijvingen en
+waardeverminderingen -17.709 -29.405 -28.315 -23.555 -98.984
+Boekwaarde per 31 december 2021 33.857 21.820 35.637 40.435 131.749
+
+Onder vervoermiddelen is een Tesla Model 3 verantwoord met een aanschafwaarde van € 63.348.
+
+Een gedeelte ad € 42.354 is geleased via financial lease. Er is een slotermijn verschuldigd van € 12.500.
+De eigendom van het object gaat over naar de huurder, nadat hij volledig aan zijn verplichtingen heeft
+voldaan. Het juridisch eigendom van de vervoermiddelen ligt bij de leasemaatschappij.
+
+Financiële vaste activa
+
+31-12-2021 31-12-2020
+€ €
+
+Overige vorderingen
+Waarborgsom 10.000 10.000
+
+Beoordelingsverklaring afgegeven -23-
+
+Raadthuys GGZ B.V.
+
+Elst
+VLOTTENDE ACTIVA
+31-12-2021 31-12-2020
+€ €
+
+Onderhanden projecten uit hoofde van zorgproducten
+Onderhanden projecten uit hoofde van zorgproducten - 26.086
+Onderhanden projecten uit hoofde van zorgproducten
+Onderhanden projecten - 340.714
+Ontvangen voorschotten - -96.706
+Voorziening overschrijding drempelbedragen zorgverlening - -217.922
+
+- 26.086
+Vorderingen
+Handelsdebiteuren
+Debiteuren 333.163 83.690
+Een voorziening voor vermoedelijke oninbaarheid wordt niet noodzakelijk geacht.
+Vorderingen op participanten en op maatschappijen waarin wordt
+deelgenomen
+Raadthuys Beheer B.V. - 116.214
+
+2021 2020
+€ €
+
+Raadthuys Beheer B.V.
+Stand per 1 januari - -45.004
+Mutatie boekjaar - 159.297
+
+- 114.293
+Rente - 1.921
+Stand per 31 december - 116.214
+
+Beoordelingsverklaring afgegeven -24-
+
+Raadthuys GGZ B.V.
+Elst
+
+Overige vorderingen en overlopende activa
+
+31-12-2021 31-12-2020
+
+€ €
+Overlopende activa
+Nog te factureren omzet - 1.156
+Subsidies 15.000 29.160
+Diversen 11.587 14.315
+26.587 44.631
+Vorderingen hebben betrekking op een periode korter dan 1 jaar.
+Liquide middelen
+ING Bank Zakelijke rekening 32.762 61.354
+ING Bank Zakelijke spaarrekening 99.994 109.998
+Gelden onderweg 1.041 -
+133.797 171.352
+
+Beoordelingsverklaring afgegeven -25-
+
+Raadthuys GGZ B.V.
+Elst
+
+PASSIVA
+
+GROEPSVERMOGEN
+
+Aandeel van rechtspersoon in het groepsvermogen
+
+Het geconsolideerd eigen vermogen wijkt af van het enkelvoudig eigen vermogen met € 3.930. Dit komt
+doordat er op geconsoldeerd niveau sprake is van een aandeel van derden in het groepsvermogen.
+
+LANGLOPENDE SCHULDEN
+
+31-12-2021 31-12-2020
+
+€ €
+Financieringen
+Financial lease 25.252 31.207
+
+2021 2020
+
+€ €
+Financial lease
+Stand per 1 januari 36.904 42.354
+Aflossing -5.697 -5.450
+Stand per 31 december 31.207 36.904.
+Aflossingsverplichting komend boekjaar -5.955 -5.697
+Langlopend deel per 31 december 25.252 31.207
+
+Deze financiering ad € 42.354 is verstrekt ter financiering van een bedrijfsauto. In het boekjaar 2024 is het
+leasecontract afgelopen. De gefinancierde auto is als zekerheid gesteld.
+
+KORTLOPENDE SCHULDEN
+
+31-12-2021 31-12-2020
+
+€ €
+Aflossingsverplichtingen langlopende schulden
+Financial lease 5.955 5.697
+Onderhanden projecten uit hoofde van zorgproducten
+Onderhanden projecten uit hoofde van zorgproducten
+Onderhanden projecten -188.652 -
+Ontvangen voorschotten 40.996 -
+Voorziening overschrijding drempelbedragen zorgverlening 270.967 -
+123.311 -
+
+De voorziening overschrijding drempetbedragen zorgverlening heeft betrekking op de periode vanaf 2017.
+
+Beoordelingsverklaring afgegeven -26 -
+
+Raadthuys GGZ B.V.
+Elst
+
+Schulden aan participanten en aan maatschappijen waarin wordt
+
+deelgenomen
+Raadthuys Beheer B.V.
+
+Raadthuys Beheer B.V,
+
+Stand per 1 januari
+Mutatie boekjaar
+
+Rente
+Stand per 31 december
+
+Over de schuld wordt 2,00% rente berekend.
+
+Belastingen en premies sociale verzekeringen
+
+Omzetbelasting
+Loonheffing
+Pensioenen
+
+Overlopende passiva
+
+Vakantiegeld
+Vakantiedagen
+Accountantskosten
+Subsidie
+
+Nettoloon
+
+Dividend
+
+Vooruit ontvangen huur
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+
+Fiscale eenheid
+
+31-12-2021 31-12-2020
+€ €
+54.353 =
+2021 2020
+€ €
+-116.214 -
+171.289 -
+55.075 -
+-722 -
+54.353 =
+31-12-2021 31-12-2020
+€ €
+1.603 -
+44.365 39.659
+51.449 1.290
+97.417 40.949
+25.734 18.622
+11.449 10.300
+26.000 26.000
+8.417 28.500
+- 5.259
+- 150.000
+2.250 -
+73.850 238.681
+
+De vennootschap maakt deel uit van de fiscale eenheid voor de vennootschapsbelasting en omzetbelasting
+van Raadthuys Beheer B.V; op grond daarvan is de vennootschap hoofdelijk aansprakelijk voor de
+
+belastingschuld van de fiscale eenheid als geheel.
+
+Beoordelingsverklaring afgegeven
+
+Raadthuys GGZ B.V.
+Elst
+
+Niet verwerkte rechten en verplichtingen
+
+Verplichtingen uit hoofde van het macrobeheersinstrument (MBI)
+
+Het macrobeheersinstrument (MBI) kan door de minister van VWS ingezet worden om overschrijdingen van
+het macrokader zorg terug te vorderen bij instellingen. De minister heeft voor verschillende subsectoren in de
+zorg een MBI ingesteld, waarvan het volgende omzetplafond voor 2021 relevant is voor Raadthuys GGZ
+BV:
+
+- MBI-omzetplafond geneeskunde geestelijke gezondheidszorg (TB/REG-21646-01)
+
+De minister van VWS zou uiterlijk vóór 1 december van het opvolgende jaar moeten beslissen over inzet van
+het MBI, als sprake is van een macro-overschrijding. In de afgelopen jaren is gebleken dat deze periode van
+elf maanden tekort is om de werkelijke realisatie vast te stellen, met als gevolg dat de realisatie voor
+meerdere voorgaande jaren nog niet is vastgesteld.
+
+Bij het opstellen van de jaarrekening 2021 heeft Raadthuys GGZ B.V. inzicht in de realisatie van het MBI-
+omzetplafond over 2021 en de nog niet afgewikkelde voorgaande jaren. De vennootschap is daarom in staat
+om een betrouwbare schatting te maken van de uit het macrobeheersinstrument voortkomende verplichting
+en deze te kwantificeren.
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+Door tot de groep behorende vennootschap zijn meerjarige financiële verplichtingen aangegaan terzake van
+huur van bedrijfsruimtes. De financiële verplichting voor 2022 bedraagt € 73.064. Er zijn geen
+huurverplichtingen met een looptijd langer dan 5 jaar.
+
+Beoordelingsverklaring afgegeven „28 -
+
+Raadthuys GGZ B.V.
+Elst
+
+TOELICHTING OP DE GECONSOLIDEERDE WINST-EN-VERLIESREKENING OVER 2021
+
+Opbrengsten
+
+Opbrengst jeugdwet
+
+Opbrengst Zvw-zorg
+
+Opbrengst overige zorgprestaties
+Voorziening opbrengst Zvw-zorg
+
+Subsidies
+
+Overige subsidies
+
+Kosten van uitbesteed werk en andere externe kosten
+
+Kosten uitbesteed werk
+
+Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Lonen en salarissen
+
+Bruto lonen
+Ontvangen ziekengeld- en zwangerschapsuitkeringen
+
+Sociale lasten
+Uitvoeringsinstelling
+
+Pensioenlasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Reiskosten
+
+Onkostenvergoedingen
+
+Werving & selectie
+
+Kantinekosten
+
+Verzuimverzekering
+
+Opleidingskosten
+
+Overige personeelskosten
+
+Subsidie zorginstituut Nederland (WMG)
+
+Beoordelingsverklaring afgegeven
+
+2021 2020
+
+€ €
+406.405 344.177
+893.920 773.128
+11.722 7.151
+-53.045 -36.769
+1.259.002 1.087.687
+80.065 5.000
+63.480 66.787
+562.511 456.634
+109.094 89.481
+71.651 15.531
+75.854 28.941
+819.110 590.587
+618.634 500.036
+-56.123 -43.402
+562.511 456.634
+109.094 89.481
+71.651 15.531
+6.720 8.112
+550 2.950
+5.178 5.931
+1.486 731
+25.086 19.659
+47.155 36.337
+14.754 1.573
+-25.075 -46.352
+75.854 28.941
+
+-29-
+
+Raadthuys GGZ B.V.
+Elst
+
+Bezoldiging van (voormalige) bestuurders en commissarissen
+
+Naam: Désirée A.M. Krol
+Functiegegevens: Directeur Zorg
+Bezoldiging: € 94.528
+
+Bezoldigingsmaximum: € 193.000
+Commissaris J.A.H. van Dijk heeft geen bezoldiging ontvangen.
+
+Personeelsleden
+
+Gedurende het jaar 2021 waren 11 werknemers in dienst op basis van een volledig dienstverband (2020: 9).
+
+Afschrijvingen materiële vaste activa
+
+Huurderinvestering
+Apparatuur
+Inventaris
+Vervoermiddelen
+
+Boekresultaat
+
+Overige bedrijfskosten
+
+Huisvestingskosten
+Exploitatiekosten
+Kantoorkosten
+Autokosten
+Verkoopkosten
+Algemene kosten
+Overige baten
+
+Huisvestingskosten
+
+Huur
+Belastingen en zakelijke lasten
+Schoonmaakkosten
+
+Doorbelaste huisvestingskosten
+
+Beoordelingsverklaring afgegeven
+
+- 30 -
+
+2021 2020
+
+€ €
+4.001 2.615
+8.385 6.071
+9.107 2.280
+11.598 11.598
+33.091 22.564
+- -64
+33.091 22.500
+63.533 45.113
+1.688 2.355
+54.440 45.664
+-4.349 -3.196
+807 4.068
+128.914 69.065
+- -4.000
+245.033 159.069
+67.438 50.859
+300 567
+4.795 2.237
+72.533 53.663
+-9.000 -8.550
+63.533 45.113
+
+
+Raadthuys GGZ B.V.
+Elst
+
+Exploitatiekosten
+
+Kleine aanschaffingen
+
+Kantoorkosten
+
+Kantoorbehoeften
+
+Drukwerk
+Automatiseringskosten
+Telefoon
+
+Porti
+
+Contributies en abonnementen
+Verzekering
+
+Autokosten
+
+Brandstoffen
+Boetes
+Overige autokosten
+
+Privégebruik
+
+Verkoopkosten
+
+Reclame- en advertentiekosten
+Representatiekosten
+
+Algemene kosten
+
+Aeccountantskosten
+Advieskosten
+
+Juridische kosten
+Loonadministratie
+Overige algemene kosten
+
+Overige baten
+TOGS
+
+Beoordelingsverklaring afgegeven
+
+„31 -
+
+2021 2020
+€ €
+
+1.688 2.355
+2.650 1.575
+271 309
+10.414 2.246
+9.050 8.903
+176 68
+25.871 26.468
+6.008 6.095
+54.440 45.664
+- 1.239
+66 143
+298 135
+364 1.517
+-4,713 -4.713
+-4,349 -3.196
+63 811
+744 3.257
+807 4.068
+54.993 40.224
+43.615 23.860
+27.838 -
+- 2,534
+2.468 2.447
+128.914 69.065
+- -4.000
+
+
+Raadthuys GGZ B.V.
+Elst
+
+Financiële baten en lasten
+
+Rentebaten en soortgelijke opbrengsten
+Rentelasten en soortgelijke kosten
+
+Rentebaten en soortgelijke opbrengsten
+
+Rente vordering
+
+Rentelasten en soortgelijke kosten
+
+Rente lease Tesla
+Rente- en bankkosten
+Rente belastingen
+
+Belastingen
+
+Vennootschapsbelasting
+
+Beoordelingsverklaring afgegeven
+
+-32-
+
+2021 2020
+
+€ €
+722 1.921
+-2.250 -2.301
+1.528 -380
+722 1.921
+-1.524 1.770
+-726 -489
+- -42
+-2.250 -2.301
+-11.067 -26.754
+
+
+Raadthuys GGZ B.V.
+Elst
+
+ENKELVOUDIGE BALANS PER 31 DECEMBER 2021
+(na resultaatbestemming)
+
+31 december 2021
+
+31 december 2020
+
+€ €
+
+ACTIVA
+
+VASTE ACTIVA
+
+Financiële vaste activa
+Deelnemingen in overige verbonden
+maatschappijen 278.641
+
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+Vorderingen op participanten en op
+maatschappijen waarin wordt
+
+deelgenomen -
+
+278.641
+
+Beoordelingsverklaring afgegeven -33-
+
+€
+
+€
+
+287.292
+
+116.214
+
+403.506
+
+PASSIVA
+
+EIGEN VERMOGEN
+
+Geplaatst kapitaal
+Overige reserves
+
+KORTLOPENDE SCHULDEN
+
+Schulden aan participanten en aan
+maatschappijen waarin wordt
+deelgenomen
+
+Overige schulden en overlopende
+passiva
+
+Beoordelingsverklaring afgegeven
+
+31 december 2021
+
+31 december 2020
+
+€ €
+18.000
+204.788
+222.788
+54.353
+1.500
+55.853
+278.641
+-34-
+
+234.006
+
+€ €
+18.000
+252.006
+151.500
+151.500
+403.506
+
+Raadthuys GGZ B.V.
+Elst
+
+ENKELVOUDIGE WINST-EN-VERLIESREKENING OVER 2021
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat voor belastingen
+Belastingen
+
+Resultaat deelnemingen
+Resultaat na belastingen
+
+Beoordelingsverklaring afgegeven
+
+2021
+
+2020
+
+- 35 -
+
+722
+
+722
+-11.067
+
+-10.345
+81.127
+
+70.782
+
+1.921
+
+1.921
+-26.754
+
+-24.833
+175.341
+
+150.508
+
+Raadthuys GGZ B.V.
+Elst
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE ENKELVOUDIGE JAARREKENING
+
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW. Hierbij is gebruik gemaakt van
+de in artikel 2:396 lid 6 BW geboden mogelijkheid de fiscale waarderingsgrondslagen te hanteren, zoals
+bedoeld in hoofdstuk Il van de Wet op de vennootschapsbelasting 1969.
+
+Voor de algemene grondslagen voor de opstelling van de jaarrekening, de grondslagen voor de waardering
+van activa en passiva en de bepaling van het resultaat, alsmede de toelichting op de onderscheidende activa
+en passiva en de resultaten wordt verwezen naar de toelichting op de geconsolideerde jaarrekening, voor
+zover hierna niets anders wordt vermeld.
+
+Financiële vaste activa
+
+Deelnemingen in groepsmaatschappijen waarin invloed van betekenis op het zakelijke en financiële beleid
+wordt uitgeoefend, worden gewaardeerd op de nettovermogenswaarde, doch niet lager dan nihil. Deze
+nettovermogenswaarde wordt berekend op basis van de grondslagen van Raadthuys GGZ B.V.
+
+Deelnemingen met een negatieve nettovermogenswaarde worden op nihil gewaardeerd. Wanneer de
+vennootschap geheel of ten dele instaat voor schulden van de desbetreffende deelneming, wordt een
+voorziening gevormd, primair ten laste van de vorderingen op deze deelneming en voor het overige onder de
+voorzieningen ter grootte van het resterende aandeel in de door de deelneming geleden verliezen, dan wel
+voor de verwachte betalingen door de vennootschap ten behoeve van deze deelnemingen.
+
+Beoordelingsverklaring afgegeven - 36 -
+
+Raadthuys GGZ B.V.
+Elst
+
+TOELICHTING OP DE ENKELVOUDIGE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+VASTE ACTIVA
+
+Financiële vaste activa
+
+Deelnemingen in overige verbonden maatschappijen
+
+Maatschap
+
+Maatschap
+
+Stand per 1 januari
+Stortingen en onttrekkingen
+Aandeel in het resultaat
+
+Stand per 31 december
+
+Vorderingen op participanten en op maatschappijen waarin wordt
+
+deelgenomen
+Raadthuys Beheer B.V.
+
+Raadthuys Beheer B.V,
+
+Stand per 1 januari
+Mutatie boekjaar
+
+Rente
+Stand per 31 december
+
+Beoordelingsverklaring afgegeven
+
+-37-
+
+31-12-2021 31-12-2020
+€ €
+278.641 287.292
+
+2021 2020
+€ €
+287.292 298.002
+-89.778 -186.051
+81.127 175.341
+278.641 287.292
+
+31-12-2021 31-12-2020
+
+€ €
+- 116.214
+
+2021 2020
+
+€ €
+- -45.004
+- 159.297
+= 114.293
+- 1.921
+- 116.214
+
+
+Raadthuys GGZ B.V.
+Eist
+
+PASSIVA
+
+EIGEN VERMOGEN
+
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 1.800 gewone aandelen nominaal € 10,00
+
+Het maatschappelijk kapitaal bedraagt € 90.000.
+
+Overige reserves
+
+Stand per 1 januari
+Resultaat boekjaar
+Dividend
+
+Stand per 31 december
+
+KORTLOPENDE SCHULDEN
+
+Schulden aan participanten en aan maatschappijen waarin wordt
+deelgenomen
+
+Raadthuys Beheer B.V.
+
+Raadthuys Beheer B. V.
+
+Stand per 1 januari
+Mutatie boekjaar
+
+Rente
+Stand per 31 december
+
+Over de schuld wordt 2,00% rente berekend.
+
+Beoordelingsverklaring afgegeven -38 -
+
+31-12-2021 31-12-2020
+€ €
+18.000 18.000
+2021 2020
+€ €
+234.006 233.498
+70.782 150.508
+-100.000 -150.000
+204.788 234.006
+31-12-2021 _ 31-12-2020
+€ €
+54.353 -
+2021 2020
+€ €
+116.214 .
+171.289 -
+55.075 .
+-722 -
+54.353 -
+
+
+Raadthuys GGZ B.V.
+Elst
+
+31-12-2021 31-12-2020
+
+€ €
+Overlopende passiva
+Accountantskosten 1.500 1.500
+Dividend - 150.000
+1.500 151.500
+
+NIET IN DE BALANS OPGENOMEN RECHTEN EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+Fiscale eenheid
+
+De vennootschap maakt deel uit van de fiscale eenheid voor de vennootschapsbelasting van Raadthuys
+GGZ B.V. Op grond daarvan is de vennootschap hoofdelijk aansprakelijk voor de belastingschuld van de
+fiscale eenheid als geheel.
+
+Maatschap
+
+De vennootschap participeert in een maatschap. De activiteiten van de maatschap worden (nagenoeg)
+geheel uitgeoefend uit naam van Raadthuys GGZ B.V. De vennootschap is aansprakelijk voor de
+overeenkomsten die zij is aangegaan en schulden die hieruit voortvloeien.
+
+Beoordelingsverklaring afgegeven „39 -
+
+Raadthuys GGZ B.V.
+Elst
+
+TOELICHTING OP DE ENKELVOUDIGE WINST-EN-VERLIESREKENING OVER 2021
+
+Personeelsleden
+Gedurende het jaar 2021 waren er geen werknemers in dienst op basis van een volledig dienstverband.
+
+2021 2020
+€ €
+
+Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten 722 1.921
+Rentebaten en soortgelijke opbrengsten
+Rente vordering 722 1.921
+Belastingen
+Vennootschapsbelasting -11.067 -26.754
+Resultaat deelnemingen
+Aandeel resultaat maatschap 81.127 175.341
+
+Beoordelingsverklaring afgegeven „40 -
+
+Raadthuys GGZ B.V.
+Elst
+
+Ondertekening van de jaarrekening
+
+Elst, 19 mei 2022
+
+Raadthuys Beheer B.V.
+Namens deze,
+
+D.A.M. Krol
+
+Ondertekening van de jaarrekening
+
+Elst, 19 mei 2022
+
+Directie voor akkoord
+
+D.A.M. Krol
+
+Beoordelingsverklaring afgegeven
+
+Raad van commissarissen voor akkoord
+
+J.A.H. van Dijk
+
+-41-
