@@ -1,0 +1,1135 @@
+# whosigns-ocr v1 grootte=9500199 dpi=300 paginas=20
+Stichting Woonzorgcentrum De Beyart
+
+5.1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht.
+
+Het kasstroomoverzicht is opgesteld op basis van de indirecte methode.
+
+5.1.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de datum van
+het opmaken van de jaarrekening worden verwerkt in de jaarrekening. Gebeurtenissen die geen nadere informatie geven
+over de feitelijke situatie per balansdatum worden niet in de jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang
+zijn voor de oordeelsvorming van de gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen
+ervan toegelicht in de jaarrekening.
+
+dh MEI 2022
+
+Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+5.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+1. Immateriële vaste activa
+
+De specificatie is als volgt:
+
+Immateriële vaste activa
+
+Totaal immateriële vaste activa
+
+Het verloop van de immateriële vaste activa is als volgt weer te geven:
+
+Boekwaarde per 1 januari
+Bij: investeringen
+Af: afschrijvingen
+
+Boekwaarde per 31 december
+
+2. Materiële vaste activa
+De specificatie is als volgt:
+Verbouwingen
+Instandhoudingen
+Inventaris
+Vervoermiddelen
+Automatisering
+
+Activa in uitvoering
+
+Totaal materiële vaste activa
+
+Het verloop van de materiële vaste activa is als volgt weer te geven:
+
+Boekwaarde per 1 januari
+
+Bij: investeringen
+
+Af: afschrijvingen
+
+Boekwaarde per 31 december
+
+Toelichting:
+
+31-dec-21 31-dec-20
+
+a) €
+11.803 0
+11.803 0
+
+2021 2020
+€ €
+
+0 0
+13.576 0
+
+1.773 0
+11.803 0
+
+31-dec-21 31-dec-20
+
+€ €
+196.856 262.474
+613.645 824.275
+715.446 881.935
+404 2.020
+106.870 125.582
+28.841 0
+
+1.662.062 2.096.287
+
+2021 2020
+Ee €
+
+2.096.287 2.144.309
+51.497 423.384
+485.722 471.407
+
+1.662.062 2.096.287
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+
+mutatieoverzicht onder 5.1.6.
+
+10
+
+24 MEI 2022
+
+Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+3. Voorraden
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+
+€ €
+Winkel 0 1.041
+Emballage 0 2.597
+Totaal voorraden 0 3.638
+
+Toelichting:
+Gezien de geringe voorraadwaarde en snelle omlooptijd wordt vanaf 2021 geen voorraadpositie meer bijgehouden.
+
+4, Vorderingen en overlopende activa
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Debiteuren 228.175 “340.141
+Debiteurenvoorziening -62.635 0)
+Totaal debiteuren 165.540 340.141
+Andere vorderingen
+- Vordering WMO-ATV 22.764 85.106
+- Nog te factureren omzet 0 102.929
+Vooruitbetaalde bedragen
+- Diverse vooruitbetaalde kosten 242.825 13.060
+- Project voorbouw/paviljoen 0 9.120
+Personeelsvorderingen
+- Fiets- en fitness-projecten 17.602 26.905
+- Voorschot salaris 300 0
+Overige vorderingen 200.789 232.808
+Totaal vorderingen en overlopende activa 649.820 810.069
+Toelichting:
+
+In de overige vorderingen is een bedrag van € 52.073 opgenomen dat betrekking heeft op de bij het UWV terug te vorderen
+transitievergoeding in relatie tot de voorziening langdurig zieken.
+
+24 MEI 2022
+
+Voor waarmerkingsdoeleinden
+11
+
+Stichting Woonzorgcentrum De Beyart
+
+5.Vorderingen uit hoofde van bekostiging
+
+De specificatie is als volgt:
+
+Vorderingen uit hoofde van financieringstekort
+
+Totaal vorderingen uit hoofde van bekostiging
+
+Specificatie vorderingen uit hoofde van financieringstekort:
+
+Saldo per 1 januari
+
+Financieringsverschil boekjaar
+
+Correcties voorgaande jaren
+Betalingen/ontvangsten voorgaande jaren
+COVID 19
+
+Sub-totaal mutatie boekjaar
+
+Saldo per 31 december
+
+Stadium van vaststelling (per erkenning):
+In het jaar 2021
+Per verslagdatum
+
+a= interne berekening
+b= overeenstemming met zorgverzekeraars
+c= definitieve vaststelling NZa
+
+Specificatie financieringsverschil in het boekjaar:
+
+Wettelijk budget aanvaardbare kosten
+Af: ontvangen voorschotten
+Betalingen/ontvangsten voorgaande jaren
+
+Totaal financieringsverschil
+
+6. Liquide middelen
+
+De specificatie is als volgt :
+
+Bankrekeningen
+Kassen
+
+Totaal liquide middelen
+
+31-dec-21 31-dec-20
+€ €
+186.951 305.709
+186.951 305.709
+2019 2020 2021
+€ € €
+0) 365.581 305.709
+365.581 -71.152 -98.288
+0 „166.810 0
+0 -198.771 -305.709
+376.861 285.238
+365.581 -59.872 -118.759
+365.581 305.709 186.951
+c c a
+c Ö a
+2021 2020
+€ €
+9.054.162 8.647.166
+9.458.159 8.917.090
+305.709 198.772
+98.288 71.152
+31-dec-21 31-dec-20
+€ €
+3.927.828 4.578.990
+2.864 6.885
+3.930.692 4.585.875
+£ AUDIT
+ERVICE
+LUS
+dd
+
+12
+
+Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+PASSIVA
+
+7. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Bestemmingsreserves
+Bestemmingsfondsen aanvaardbare kosten
+Algemene en overige reserves
+
+Totaal eigen vermogen
+
+Het verloop is als volgt weer te geven:
+
+Bestemmingsreserves
+- Generatieregeling
+- Giften ten gunste van welzijn bewoners
+
+Bestemmingsfondsen aanvaardbare kosten
+- Reserve aanvaardbare kosten
+
+Algemene en overige reserves
+- Algemene en overige reserves
+
+Totaal eigen vermogen
+
+8. Voorzieningen
+
+Het verloop is als volgt weer te geven:
+Overgangs- en garantieregeling (v/h PLB)
+Jubileumverplichtingen
+
+Langdurig zieken
+
+Langdurig zieken - transitievergoedingen
+
+Totaal voorzieningen
+
+Verdeling naar kort- en langlopend deel:
+
+Kortlopend deel van de voorzieningen (< 1 jr.)
+Langlopend deel van de voorzieningen (> 1 jr.)
+Langlopend deel van de voorzieningen (> 5 jr.)
+
+31-dec-21 31-dec-20
+€ €
+416.044 387.804
+2.653.368 3.382.768
+1.228.626 1.388.391
+4.298.038 5.158.963
+Saldo per Resultaat- Overige Saldo per
+1-1-2021 bestemming mutaties 31-12-2021
+€ € € €
+387.804 0 0 387.804
+0 28.240 0) 28.240
+3.382.768 -729.400 0 2.653.368
+1.388.391 -159.764 0 1.228.626
+5.158.963 -860.925 0 4.298.038
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+1-1-2021 31-12-2021
+€ € € € €
+39.190 0 0 3.470 35.720
+95.821 0 0 322 95.499
+625.626 73.298 574.018 0 124.906
+210.746 52.073 210.746 0 52.073
+971.383 125.371 784.764 3.792 308.198
+31-12-2021
+162.295
+87.968
+57.935
+308.198
+)auoIT
+ERVICE
+Abs
+ee
+13
+
+Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+9. Overige kortlopende schulden en overlopende passiva
+
+Het verloop is als volgt weer te geven: 31-dec-21 31-dec-20
+
+€ €
+Crediteuren 263.402 279.187
+Belastingen en sociale premies 151.923 159.207
+Schulden terzake pensioenen 34.659 32.932
+Nog te betalen salarissen 43.986 49.435
+Eindejaarsuitkering 35.135 33.667
+Vakantiegeld 264.313 260.241
+Vakantiedagen 486.236 485.932
+Transitievergoeding 80.000 116:179
+Terug te betalen zorgbonus . 87.728 88.477
+Overige schulden en overlopende passiva 387.710 165.973
+Totaal kortlopende schulden en overlopende passiva 1.835.092 1.671.230
+
+10. Niet in de balans opgenomen verplichtingen
+
+Huurverplichting:
+
+Stichting Woonzorgcentrum De Beyart (huurder) heeft m.i.v. 1-1-2021 een huurovereenkomst gesloten met Rosewood
+Healthcare Maastricht BV (verhuurder). De duur van de huurovereenkomst is 15 jaar, vermeerderd met de termijn waarin de
+transitie is voltooid. Behoudens een opzegging van huurder/verhuurder is er een 10 jaar verlenging en daarna telkens 5 jaar
+verlenging vastgelegd. Onder het gehuurde wordt verstaan 134 verzorgings/verpleegplekken en bijbehorende algemene
+ruimten ed., met een optie tot uitbreiding.
+
+De aanvangshuurprijs van het gehuurde bedraagt op huuringangsdatum op jaarbasis € 1.357.694, prijspeil 1 januari 2022.
+Ten tijde van transitie is er een jaarlijkse huurkorting van € 256.744.
+
+Onzekerheden opbrengstverantwoording:
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde
+zorgprestaties en maatschappelijke ondersteuning kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De
+effecten van eventuele materiële nacontroles zijn vooralsnog onzeker en daarom zijn er hiervoor geen verplichtingen
+opgenomen in de balans.
+
+24 MEI 2022
+
+Voor waarmerkingsdoeleinden
+14
+
+d NN 2022
+
+Voor waarmerkingsdoeleinden
+
+Sl
+
+2 “uepuoneBsjeejd yeoy zelu Âou eweuxinigeôuijbuuenejdo UEAEEM uejoeloud epuedoj ul veBULSISSAUI
+gemeg Buueonin ul eAnoV “pÔlzfimef zolu BuijejsJopuosen ezep SI wmjpepsuejeg Jed ‘sl [lylu epieemisel op Jep US ufiz vejjnz yinsge® ul yZ0Z-TL-LE BoJI9 JO} EAHIE epuejened
+op jep meewef Buijjeyssepuosen op sl (iglelH (ozog ui Bumiemden ezsiee) 6LOZ OWN Jed eanoe ezep ueA sepieemeog epueIejsel SP UEA Buinluyosje epjeuslen USS JO}
+jple[ HQ ‘uepeueg Jeeu pjerseBlig (uebuipnoypuejsu! US ueBuimnogsen) eAHoe ep UEA jep USS UEA INNpsueAa) SP SÌ xejdwoo jey UEA el}eA0US uewoueB1oon ep UEA BjoneB s1v
+
+:5uizyoljeoL
+%0'0Z %0'0Z %0'0Z %0T-OL %0'OZ %0'0Z ebejueosedsbuinl lys}
+<07’ L L78'87 048'90L 44 9714 GygeL9 958'96| Lgog Jeqwesep Le Jed epleemsOd
+g08'029'E 0) 184007 L66'S9 Z40'69'L G89'0EO'L S/S O7 ueBuinluyosje eanpe[nuind -
+OLE TEE'S L78'87 159608 G6e'99 EEL BUT OEE“ 7yI'L Oer 865 opJeemjeyIsuel -
+[zog Jeqwesep je Jed puejs
+GET ver L78'84 TL 8 919 L- 68799 |- 0eg'OL4- 6L9'G9- (opjes Jed) epseemxeog Ul SSHEININ
+0 e) 0 0 0 0 [e) opjes Jed
+0 0 0 0 0 0 0 ueBuinluyosje eAaljejnwno
+0 0 0 0 0 0 (e) epleemJeUIsUeE
+uebuuejsenuIsep -
+0 0 0 0 0 0 (o) ueBuinluyosje snanejnwno
+0 0 0 0 0 0 e) opleEEMJEUISUEE
+enne uvenelyosebje jaeyo oweuênIe) -
+Te1' 987 0 COL TE 991 GEL S/| Oe Old 6L9'S9 ueBuinfuyosje -
+Z6v LS L78'87 066'EL 0) 9998 0 0 uebuuejseAu! -
+1eelyeog jey ul solzejn in
+L87'960'Z 9) T8e' Gol order Ge6'L88 SLT vE8 vLv TI [zog Henuefl | Jed spleemjoog
+L8S'v8lE 0 640'02E GLE 79 Eel 760 S50'0c8 9G6'GEE ueBuinfuyosje eAanejnuind —
+€Z8'080'S 0 L99'S67 g6e'99 LS0'9/7'E Oee 7yI' Ll Oer 868 opleemJeUISUEE -
+„zog Henuel | Jod puejs
+Ei > Ei Ei Ei > >
+EAIJJE AJSEA Bumeoazin Buues uejeppiu SLejueAul ueB5uipnouy ueBuim
+ojeHozew uI EAIJ9Y =1Jewo}NY -19OAl9A -pue}sul -nog1eA
+jeejoL
+
+YALLOY ALSVA ATAIHALVIN LHOIZUZAOLLVLNIN 915
+
+Hekeg eq wnijueB1ozuooM BujYIIJS
+
+
+Stichting Woonzorgcentrum De Beyart
+
+5.1.7 TOELICHTING OP DE RESULTATENREKENING
+
+BATEN
+
+11. Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+De specificatie is als volgt:
+
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies)
+
+Correcties vorige jaren
+Totaal wettelijk budget voor aanvaardbare kosten WLZ-zorg
+
+Opbrengsten WMO
+Correcties vorige jaren (WMO)
+Overige zorgprestaties
+
+Totaal
+
+Toelichting:
+
+2021 2020
+
+€ €
+9.054.162 8.651.114
+0 „166.810
+9.054.162 8.484.304
+302.764 309.091
+
+0 -11.079
+419.899 470.838
+9.776.825 9.253.154
+
+De Beyart heeft een overproductie van €456.231 gerealiseerd. Omdat de nacalculatie 2021 nog niet definitief is beschikt
+door Nza is dit bij de totstandkoming van de jaarrekening 2021 nog niet verwerkt in het resultaat. Bij definitieve nacalculatie
+
+wordt het beschikte bedrag verwerkt in 2022.
+
+12. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt:
+
+Overige dienstverlening:
+
+Opbrengsten huur/vergoeding/pension
+Diverse opbrengsten
+
+Overige opbrengsten Paviljoen
+
+Totaal
+
+LASTEN
+
+13. Personeelskosten
+
+De specificatie is als volgt:
+
+Lonen en salarissen
+
+Sociale lasten
+
+Pensioenkosten
+
+Overige personeelskosten
+
+Compensatie COVID-19 personele kosten
+Sub-totaal
+
+Personeel niet in loondienst
+
+Totaal personeelskosten
+
+Gemiddeld aantal personeelsleden op basis van full-time eenheden
+
+16
+
+LKUDIT
+(_N VICE
+us
+
+24 MEI 2022
+
+2021 2020
+
+€ €
+814.904 929.368
+123.304 128.186
+0 439.741
+
+938.208 1.497.295
+2021 2020
+
+€ €
+5.698.098 6.681.474
+1.135.987 1.026.430
+502.783 503.280
+377.441 296.449
+„187.973 -217.668
+7.526.337 8.289.966
+401.099 485.662
+1.927.436 8.775.628
+153,55 151,15
+
+Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+Toelichting:
+
+In de personeelskosten is een bedrag van € -500.720 (2020: € 600.920) opgenomen dat betrekking heeft op de vrijval van
+de voorziening langdurig ziek alsook een bedrag van € 304 (2020: € 281.525) dat betrekking heeft op de toegenomen
+verplichting openstaande vakantiedagen. De kosten voor Personeel niet in loondienst bestaan uit de inhuur zorg,
+behandeldienst en ondersteunende diensten.
+
+14. Afschrijvingen vaste activa
+
+De specificatie is als volgt: 2021 2020
+€ €
+
+Afschrijvingen:
+
+- immateriële vaste activa 1.773 0
+
+- materiële vaste activa 485.722 471.488
+
+Totaal afschrijvingen 487.495 471.488
+
+15. Overige bedrijfskosten
+
+De specificatie is als volgt : 2021 2020
+
+€ €
+Voedingsmiddelen en hotelmatige kosten 563.725 542.475
+Algemene kosten 823.718 679.646
+Patiënt- en bewonersgebonden kosten 264.047 327.619
+Onderhoud en energiekosten 657.371 529.123
+Huur en leasing 1.082.437 618.320
+Doorbelasting onderhoud verhuurder -148.716 22.063
+Compensatie COVID-19 materiële kosten -97.267 „159.193
+Totaal bedrijfskosten 3.145.315 2.560.053
+
+16. Financiële baten en lasten
+
+De specificatie is als volgt : : 2021 2020
+
+€ €
+Financiële baten 0 0
+Financiële lasten 15.712 5.002
+Totaal financiële baten en lasten 15.712 5.002
+
+17. Honoraria accountant
+
+De honoraria van de accountant over 2021 zijn als volgt: 2021 2020
+€ €
+1. Controle van de jaarrekening 40.000 40.000
+2. Overige controlewerkzaamheden (w.o. Regeling AO/IC en Nacalculatie) 7.000 4.500
+Totaal honoraria accountant avoir 47.000 44.500
+ERVICE
+Toelichting: hae
+
+De totale honoraria van de accountant 2021 betreffen de werkelijke kosten met betrekking tot de controle van de
+jaarrekening 2021 en aanverwante verantwoordingen.
+17
+
+Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+18. WNT verantwoording 2021
+
+Raad van Bestuur / Directie
+
+penrage
+
+Functiegegevens*
+
+à ppertz
+
+Directeur - Bestuurder
+
+Aanvang* en einde functievervulling in
+2021
+
+01/01 — 31/12
+
+onverschuldigde betaling:*
+
+Omvang dienstverband (als 1,0
+deeltijdfactor in fte)”
+
+Dienstbetrekking?® ja
+Bezoldiging?
+
+Beloning plus belastbare € 141.693
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn € 12.666
+Suhtotaal € 154.359
+Individueel toepasselijke € 170.000
+bezoldigingsmaximum!®
+
+-/- Onverschuldigd betaald en nog niet Et
+terugontvangen bedrag! ni
+Bezoldiging € 154.359
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan N.v.t. Nvt.
+niet is toegestaan'?
+
+Toelichting op de vordering wegens Nvt
+
+Gegevens 2020:
+
+bedragen x € 1
+
+Functiegegevens?®
+
+A.L.M. Huppertz
+
+Directeur - Bestuurder
+
+Aanvang en einde functievervulling in
+2020
+
+01/01 — 31/12
+
+Omvang dienstverband (als 1,0
+deeltijdfactor in fte)?
+Dienstbetrekking?* ja
+Bezoldiging?
+Beloning plus belastbare € 128.512
+onkostenvergoedingen
+Beloningen betaalbaar op termijn € 11.696
+Subtotaal € 140.208
+Individueel toepasselijke € 163.000
+bezoldigingsmaximum®
+DIT
+Bezoldiging € 140.208 RUS
+
+18
+
+24 MEI 2022
+
+Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+Raad van Toezicht
+
+Gegevens 2021
+
+Gt U PE
+
+K.H.M. Donners H.G.M. Oude Hengel J.M.B.W. Evers
+
+bedragen Xx € 1
+
+À Functiegegevens? Voorzitter Lid Lid
+Aanvang en einde functievervulling in 2021 01/01 — 31/12 01/01 — 31/12 01/01 — 27/09
+Bezoldiging
+Bezoldiging? € 6.000 € 5.000 € 3.750
+Individueel t ijk
+al aen shire d € 25.500 € 17.000 € 17.000
+bezoldigingsmaximum?
+-/- Onverschuldigd bet: niet
+/- Onverschuldigd betaald en nog nie Nt, Nvt. NE
+terugontvangen bedrag®
+Bezoldiging € 6.000 € 5,000 € 3.750
+Het bedrag van de overschrijding en de
+reden waarom de overschrijding al dan niet N.v.t. N.v.t, N.v.t. N.v.t. N.v.t. N.v.t.
+is toegestaan®
+Toelichting op de vordering wegens N.v.t. N.v.t. N.v.t.
+onverschuldigde betaling?
+Gegevens 2020°
+bedrage Do e OD 2 eng 5 e
+_Functiegegevens” Voorzitter Lid Lid
+
+Aanvang en einde functievervulling in 2020
+
+01/01 — 31/12
+
+01/01 — 31/12
+
+01/01 — 31/12
+
+Bezoldiging
+
+Bezoldiging? € 6,000 € 5.000 € 5.000
+vi ï :
+
+enke dean € 24,450 € 16.300 € 16.300
+
+bezoldigingsmaximum’®
+
+AUDIT
+SERVICE
+PLUS
+
+24 MEI 2022
+
+19
+Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+‘Functiegegevens? Lid Lid Lid
+Aanvang en eïnde functievervulling in 2021 01/01 — 31/12 01/01 - 31/12 01/01 — 31/12
+Bezoldiging
+
+Bezoldiging® € 5.000 € 5,000 € 5,000
+Individueel toepasselijke € 17.000 € 17.000 € 17.000
+bezoldigingsmaximum*
+
+-/- Onverschuldigd betaald en nog niet Nvt. Nul. en
+terugont/angen bedrag®
+
+Bezoldiging € 5,000 € 5,000 € 5.000
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan niet Nvt. Nev.t. Nvt. Nvt. Nvt. N.v.t.
+is toegestaan®
+
+Toelichting op de vordering wegens N.v.t. Nvt. N.v.t.
+onverschuldigde betaling?
+
+Gegevens 2020°
+
+bedrage H D Ì Pa q
+Functiegegevens? Lid Lid Lid
+
+Aanvang en einde functievervulling in 2020
+
+01/01 — 31/12
+
+23/07 — 31/12
+
+23/07 — 31/12
+
+Bezoldiging
+Bezoldiging? € 5,000 € 2.017 € 2.917
+Individueel toepasselijke € 16.300 € 16.300 € 16.300
+
+bezoldigingsmaximum*
+
+Overige rapportageverplichtingen op grond van de WNT
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige
+individuele WNT-maximum hebben ontvangen. Er zijn geen o
+de WNT dienen te worden vermeld, of die in eerdere jaren op grond van
+
+moeten worden.
+
+19. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen en
+
+hun bestuurders en leidinggevende functionarissen.
+
+nslaguitkeringen
+
+funtionarissen die in 2021 een bezoldiging boven het
+betaald aan functionarissen die op grond van
+de WOPT of de WNT vermeld zijn of hadden
+
+Er hebben zich geen andere transacties met verbonden partijen voorgedaan dan met zakelijke grondslag.
+
+De bezoldiging van de bestuurders en toezichthouders is opgenomen onder punt 17.
+
+20. Resultaatbestemming
+
+In de statuten is bepaald dat een negatief resultaat WLZ en overige bedrijfsonderdelen De Beyart over 2021 te
+het Eigen Vermogen wordt gebracht. Het resultaat 2021 wordt verdeeld volgens de resultaatverd
+
+20
+
+Voor waarmerkingsdoeleinden
+
+UDIT
+ERVICE
+LUS
+
+2& MEI 2022
+
+n laste van
+Singin pavagraaf 5.1.2.
+
+Stichting Woonzorgcentrum De Beyart
+
+21. Gebeurtenissen na balansdatum
+
+Er zijn geen gebeurtenissen na balansdatum geweest die nadere informatie geven over de feitelijke situatie per balansdatum
+dan wel gebeurtenissen die van belang zijn voor de oordeelsvorming van de gebruikers van de jaarrekening.
+
+5.1.8 Ondertekening door bestuurders en toezichthouders
+
+De ondertekening volgt in het jaardocument waarin de controleverklaring van de extern accountant is opgenomen conform
+de Wet Maatschappelijke Verantwoording.
+
+Maastricht, 24 mei 2022
+
+Namens de Raad van Bestuur
+
+A.L.M. Huppertz
+
+Namens de Raad van Toezicht
+
+Mr. Drs. K.H.M. Donners RA, Voorzitter H.G.M. Oude Hengel, vice voorzitter
+Dr. J.F.B.M. Fiolet, lid RvT Dr. M.A.C.J. Potting, Lid RvT
+Mr. A.C.H. Hendriks, lid RvT Drs. P.C.A. Breuls, lid RvT
+
+AUDIT
+SERVICE
+PLUS
+
+,
+
+ve
+24 MEI 2022
+
+21 Voor waarmerkingsdoeleinden
+
+Stichting Woonzorgcentrum De Beyart
+
+5.2 OVERIGE GEGEVENS
+5.2.1 Vaststelling en goedkeuring jaarrekening
+
+De Raad van Bestuur van Stichting Woonzorgcentrum De Beyart heeft de jaarrekening 2021 vastgesteld in de vergadering
+van 24 mei 2022.
+
+De Raad van Toezicht van Stichting Woonzorgcentrum De Beyart heeft de jaarrekening 2021 vastgesteld in de vergadering
+van 24 mei 2022.
+
+5.2.2 Nevenvestigingen
+
+Stichting Woonzorgcentrum De Beyart heeft geen nevenvestigingen.
+
+5.2.3 Ondertekening door bestuurders en toezichthouders
+
+De ondertekening volgt in het jaardocument waarin de controleverklaring van de extern accountant is opgenomen conform
+de Wet Maatschappelijke Verantwoording.
+
+5.2.4 Controleverklaring
+
+De controleverklaring van de onafhankelijke accountant is opgenomen in het jaardocument 2021 conform de Wet
+Maatschappelijke Verantwoording op de volgende pagina.
+
+AUDIT
+service
+
+PLUS
+
+| d NE mx
+
+22 Voor waarmerkingsdoeleinden
+
+Controleverklaring van de
+
+onafhankelijke accountant
+
+UDIT
+ERVICE
+S
+
+24 MEL 2022
+
+Voor waarmerkingsdoeleinden
+
+23
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan: Raad van Bestuur en de Raad van Toezicht van Stichting Woonzorgcentrum De Beyart
+
+Verklaring over de in het jaarverslag opgenomen jaarrekening 2021
+
+Ons oordeel
+Wij hebben de jaarrekening 2021 van Stichting Woonzorgcentrum De
+Beyart te Maastricht gecontroleerd.
+
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening een getrouw beeld van
+de grootte en de samenstelling van het vermogen van Stichting Woonzorgcentrum De
+Beyart per 31 december 2021 en van het resultaat over 2021 in overeenstemming met
+Regeling verslaggeving WTZi (RvW).
+
+De jaarrekening bestaat uit:
+
+1. de balans per 31 december 2021;
+
+2. de resultatenrekening over 2021; en
+
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de
+Nederlandse controlestandaarden en het Controleprotocol Wet normering topinkomens 2021
+(WNT) vallen. Onze verantwoordelijkheden op grond hiervan zijn beschreven in de sectie
+‘Onze verantwoordelijkheden voor de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Woonzorgcentrum De Beyart zoals vereist in de Wet
+toezicht accountantsorganisaties (Wta), de Verordening inzake de onafhankelijkheid van
+accountants bij assurance-opdrachten (ViO) en andere voor de opdracht relevante
+onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de Verordening
+gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis
+
+voor ons oordeel.
+N
+
+Voor waarmerkingsdoeleinder
+
+AUDIT
+SERVICE
+PLUS
+
+| 2022
+
+Verlengde Velmolen 8 | 5406 NT Uden | T +31 (0)413 33 46 36
+Rijksweg Noord 45 | 6162 AB Geleen | T+31 (0)46 423 54 54
+www.auditserviceplus.nl | info@auditserviceplus.nl
+KvK nr. 51 36 89 94 | IBAN NL31 RABO 0158 5207 77 | BIC RABONL2U
+BTW nr. NL8232.47.909.B01
+
+
+Nj SERVICE
+
+J
+
+NE
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met het Controleprotocol WNT 2021 hebben wij de
+anticumulatiebepaling, bedoeld in artikel 1,.6a WNT en artikel 5, lid 1, onderdelen n en o
+Uitvoeringsregeling WNT, niet gecontroleerd. Dit betekent dat wij niet hebben gecontroleerd
+of er wel of geen sprake is van een normoverschrijding door een leidinggevende
+topfunctionaris vanwege eventuele dienstbetrekkingen als leidinggevende topfunctionaris bij
+andere WNT-plichtige instellingen, alsmede of de in dit kader vereiste toelichting juist en
+volledig is.
+
+Verklaring over de in het jaarverslag opgenomen andere informatie
+
+Het jaarverslag omvat andere informatie, naast de jaarrekening en onze controleverklaring
+daarbij, die bestaat uit:
+
+- de overige gegevens;
+-_de bijlage verantwoording besteding Subsidieregeling bonus zorgprofessionals COVID-
+19 over de periode 1 maart 2020 tot 1 september 2020.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie:
+
+-__met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+
+-_ Alle informatie bevat die op grond van de RvW en het verantwoordingsprotocol
+behorend bij de Subsidieregeling bonus zorgprofessionals COVID-19 versie 1 d.d. 29
+maart 2020 is vereist.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip,
+verkregen vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie
+materiële afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in de RvW, de Nederlandse
+Standaard 720 en het verantwoordingsprotocol behorend bij de Subsidieregeling bonus
+zorgprofessionals COVID-19 versie 1 d.d. 29 maart 2022. Deze werkzaamheden hebben niet
+dezelfde diepgang als onze controlewerkzaamheden bij de jaarrekening.
+
+De Raad van Bestuur is verantwoordelijk voor het opstellen van de andere informatie,
+waaronder de overige gegevens in overeenstemming met de RvW en het
+verantwoordingsprotocol behorend bij de Subsidieregeling bonus zorgprofessionals COVID-
+19 versie 1 d.d. 29 maart 2022.
+
+24 MEI 2022
+
+Voor waarmerkingsdoeleinden
+
+AUDIT
+
+SERVICE
+
+Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+
+Verantwoordelijkheden van de Raad van Bestuur en de Raad van Toezicht voor de
+jaarrekening
+
+De Raad van Bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de
+jaarrekening in overeenstemming met Regeling verslaggeving WTZi (RvW). In dit kader is de
+Raad van Bestuur verantwoordelijk voor een zodanige interne beheersing die de Raad van
+Bestuur noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken zonder
+afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet de Raad van Bestuur afwegen of de stichting in
+staat is om haar werkzaamheden in continuïteit voort te zetten. Op grond van genoemd
+verslaggevingsstelsel moet het bestuurde jaarrekening opmaken op basis van de
+continuïteitsveronderstelling, tenzij de Raad van Bestuur het voornemen heeft om de
+stichting te liquideren of de bedrijfsactiviteiten te beëindigen of als beëindiging het enige
+realistische alternatief is.
+
+De Raad van Bestuur moet gebeurtenissen en omstandigheden waardoor gerede twijfel zou
+kunnen bestaan of de stichting haar bedrijfsactiviteiten in continuïteit kan voortzetten,
+toelichten in de jaarrekening.
+
+De Raad van Toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving van de stichting.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat
+wij daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te
+geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid
+waardoor het mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude
+ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien
+redelijkerwijs kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen
+zijn op de economische beslissingen die gebruikers op basis van deze jaarrekening nemen.
+De materialiteit beïnvloedt de aard, timing en omvang van onze controlewerkzaamheden en
+de evaluatie van het effect van onderkende afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar
+relevant professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, het Controleprotocol WNT 2021, ethische voorschriften en de
+onafhankelijkheidseisen. Onze controle bestond onder andere uit:
+
+SERVICE
+) PLUS
+
+24 MEI 2022
+
+Voor waarmerkingsdoeleinden
+
+SERVICE
+
+- het identificeren en inschatten van de risico's dat de jaarrekening afwijkingen van
+materieel belang bevat als gevolg van fouten of fraude, het in reactie op deze risico's
+bepalen en uitvoeren van controlewerkzaamheden en het verkrijgen van controle-
+informatie die voldoende en geschikt is als basis voor ons oordeel. Bij fraude is het risico
+dat een afwijking van materieel belang niet ontdekt wordt groter dan bij fouten. Bij fraude
+kan sprake zijn van samenspanning, valsheid in geschrifte, het opzettelijk nalaten
+transacties vast te leggen, het opzettelijk verkeerd voorstellen van zaken of het doorbreken
+van de interne beheersing;
+
+- het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als
+doel controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit
+van de interne beheersing van de entiteit;
+
+- het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren van de redelijkheid van schattingen door de Raad van
+Bestuur en de toelichtingen die daarover in de jaarrekening staan;
+
+- het vaststellen dat de door de Raad van Bestuur gehanteerde continuïteitsveronderstelling
+aanvaardbaar is. Tevens het op basis van de verkregen controle-informatie vaststellen of
+er gebeurtenissen en omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of
+de stichting haar bedrijfsactiviteiten in continuïteit kan voortzetten. Als wij concluderen dat
+er een onzekerheid van materieel belang bestaat, zijn wij verplicht om aandacht in onze
+controleverklaring te vestigen op de relevante gerelateerde toelichtingen in de
+jaarrekening. Als de toelichtingen inadequaat zijn, moeten wij onze verklaring aanpassen.
+Onze conclusies zijn gebaseerd op de controle-informatie die verkregen is tot de datum
+van onze controleverklaring. Toekomstige gebeurtenissen of omstandigheden kunnen er
+echter toe leiden dat een stichting haar continuïteit niet langer kan handhaven;
+
+- het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toelichtingen; en
+
+- het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties
+en gebeurtenissen.
+
+Wij communiceren met de Raad van Toezicht onder andere over de geplande reikwijdte en
+timing van de controle en over de significante bevindingen die uit onze controle naar voren
+zijn gekomen, waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Geleen, 24 mei 2022
+
+Met vriendelijke groet, le R:
+Audit Service Plus B.V. Ea
+Namens deze, 1 h El 2022
+W.g.
+
+Voor waarmerkingsdoeleinden
+
+drs. D.J.H.L. Daemen RA
+
+8
+
+AUDIT
+SERVICE
+
+24 M
+
+Voor waarmerkingsdoeleinden
+
+ef (ueBuuexin oxfijezyoeeljgnd Buiyyeypuie) jsedabsoy
+
+' ‚sleweuxlem ueBie uep usJepue uee Buiyjeypule, ep sl UopJep UEE sNUOY SP JOOA :Buuepuen -
+
+el DIM
+
+' euleyeuo;) jeeppuejsegsbuiyjeypule sje uezemeduee sl sISWSUYIOM UBE SNUOG SP :Buuepuen -
+
+:ueBuueplen
+
+0082/48 3 00°000'2 > 0082/08 2 (p-9-q-e) BuiyjeyBunsejeg bo ueBuuexpn exfijepes vo Bunpyryosegsburuejen [IUIS1AA
+00°ZE0' lvl > 000842 3 00°Z2E'07L 3 (p) sjeuoissejordb1oz uee snuog
+epJeeyeBjin opeu ep 1eAo Buijjeypuie opBipinyosen uonobobuee Jo ueBbeupebje jeezoL
+
+00'0S2 > (reuoissejoudb10z Jed 06/3 xeuI) snuog
+
+epJeeyeBjin opeu uepJep uee op JeAo Buijeypuie epÔipinyossen uenebeBuee Jo uobeipeôsy -
+
+0O'ZLEOvL 3 (reuoissejoudB10z Jed 0083 Xew) snuog epieoHeBin
+
+opeu s1eweuJem uee op JeAo Buiyjeypule epBipinyos1on uenebeBuee jo uobeIpebJy -
+
+ueBunsejeg
+
+00°000'L > L 00°000'L 3 L (o) ozog snuog Joon zwoxy BurjJowuere UI Jep UopJop [ejuey
+00°000'LIZ 3 LLg 00‘000'LIZ 3 ELS (q) ozog snuog Joon Jwuox BurjJeWUeE UI Jep SlAWAUYLOM [PJUEY
+00°08/'Ovy 3 ei4Á 00'08/'8 3 ej 00°000'ZEer 3 Ovg (e) Bunpyryosegsbuiuejsen suebjoA 0Z0Z snuogb1oz uebueAZuO [eEJO]
+
+oIn3 [eruey ong [eruey ong jejuey
+jeejo uepled SJewWeuHleM
+
+(ozoz snuog) ozoz Jeqwejrdes | 30} 0Z0Z Heew | eporied ep 1eA0 61-AIAOD sIeUOISSSJOIdBIOZ snuog BuijeBererpisqns Buipejseg BuipiooMjuelen
+
+ozoz snuogB1oz BuipioomjueJen oBellg G°7's
+
+Hekeg eq wnizueoBb1ozuoom Buizyonjs
