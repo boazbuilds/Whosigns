@@ -240,8 +240,16 @@ def matchsleutel(naam: str) -> str:
     kaal = _normaliseer_kaal(naam)
     # "… te Hoofddorp", "…, te Meerkerk", "… te gemeente De Wolden",
     # "…, gevestigd te Roosendaal", "… statutair gevestigd te Rotterdam"
+    #
+    # De spatie vóór "te" mag ook ontbreken. In de pdf-tekst plakt de staart
+    # soms direct achter de afkorting tussen haakjes: "Waterschap Amstel, Gooi
+    # en Vecht (AGV)te Amsterdam", "… Crematoria Twente (OLCT)te Enschede".
+    # Zonder de ")" in dit tekenklasje bleven dat aparte organisaties naast de
+    # versie zonder plaatsnaam. Gemeten over de 1.770 overheidsorganisaties in
+    # de database (11-8-2026): twee namen erbij die samenvallen, allebei goed,
+    # geen enkele verkeerde samenvoeging.
     kaal = re.sub(
-        r"[,.\s]+(?:statutair\s+)?(?:gevestigd\s+)?te\s+[a-z'\-. ]+$", "", kaal
+        r"[,.\s)]+(?:statutair\s+)?(?:gevestigd\s+)?te\s+[a-z'\-. ]+$", "", kaal
     )
     # "gemeente gemeente de ronde venen" -> "gemeente de ronde venen"
     kaal = re.sub(r"^(\w+)\s+\1\b", r"\1", kaal)

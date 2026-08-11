@@ -183,6 +183,14 @@ for links, rechts in [
      "Stichting openbaar primair onderwijs Wolderwijs te gemeente De Wolden"),
     ("Stichting Openbaar Basisonderwijs West-Brabant",
      "Stichting Openbaar Basisonderwijs West-Brabant, gevestigd te Roosendaal"),
+    # En zonder spatie ervóór: de staart plakt in de pdf-tekst soms direct
+    # achter de afkorting tussen haakjes. Allebei letterlijk uit de database
+    # (organisaties 23962 en 25601), waar ze náást de versie zonder plaatsnaam
+    # stonden.
+    ("Gemeenschappelijke regeling Openbaar Lichaam Crematoria Twente (OLCT)",
+     "Gemeenschappelijke regeling Openbaar Lichaam Crematoria Twente (OLCT)te Enschede"),
+    ("Waterschap Amstel, Gooi en Vecht (AGV)",
+     "Waterschap Amstel, Gooi en Vecht (AGV)te Amsterdam"),
 ]:
     controleer(
         f"plaats achteraan telt niet mee: {rechts[:44]!r}",
