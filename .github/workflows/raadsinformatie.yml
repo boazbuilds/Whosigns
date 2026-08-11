@@ -29,6 +29,11 @@ on:
         type: boolean
         required: false
         default: false
+      vervang:
+        description: "Eerdere raadsinformatie-uitkomst vervangen door deze doorloop (na verbeterde leesregels)"
+        type: boolean
+        required: false
+        default: false
   # Zelfde invoer met dezelfde standaarden, voor "Alles verversen".
   workflow_call:
     inputs:
@@ -37,6 +42,10 @@ on:
         required: false
         default: "25000"
       droogloop:
+        type: boolean
+        required: false
+        default: false
+      vervang:
         type: boolean
         required: false
         default: false
@@ -70,10 +79,12 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           DROOGLOOP: ${{ inputs.droogloop }}
+          VERVANG: ${{ inputs.vervang }}
         run: |
           python3 pipeline/laad_raadsinformatie.py \
             --maximum "${{ inputs.maximum }}" \
-            $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
+            $([ "$DROOGLOOP" = "true" ] && echo --droogloop) \
+            $([ "$VERVANG" = "true" ] && echo --vervang)
 
       - name: Rapport bewaren
         if: always()

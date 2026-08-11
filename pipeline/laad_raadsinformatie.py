@@ -12,6 +12,7 @@ Vindplaats en leesregels: adapters/raadsinformatie.py.
 Draaien:
     python3 pipeline/laad_raadsinformatie.py --droogloop
     python3 pipeline/laad_raadsinformatie.py --maximum 5000
+    python3 pipeline/laad_raadsinformatie.py --vervang
 
 Drie keuzes die het gedrag bepalen:
 
@@ -38,6 +39,33 @@ krijgen sector "overheid" en geen KvK-nummer (de verklaring noemt dat niet), en
 worden op genormaliseerde naam herkend zodat dezelfde organisatie niet twee
 keer ontstaat — ook niet naast een organisatie die al uit de TED-gunningen
 kwam.
+
+Waarom `--vervang` bestaat
+--------------------------
+De naam-extractie is na de eerste volledige lading (6-8-2026, 3.940 opdrachten)
+vier keer verbeterd: de naam mag niet meer over een kop heen lopen, een
+herhaalde verklaring houdt de vermelding mét handtekeningblok, en de
+matchsleutel herkent de plaatsstaart nu ook zonder spatie. Elke verbetering
+levert schónere namen op — maar een blinde herdraai zet die schone namen als
+nieuwe organisaties naast de oude verhaspelde, want de upsert-sleutel is de
+organisatie en die matcht dan niet. Gemeten op 11-8-2026: er stonden ~195
+naamfragmenten te veel in sector overheid ("…Utrechtte Soest", "…('de
+vennootschap')" als organisatienaam).
+
+`--vervang` herleest daarom eerst de volledige bron met de huidige leesregels.
+Elke verklaring die opnieuw wordt gezien krijgt door de upsert
+(merge-duplicates) vanzelf het nieuwe bron_id; wat er ná de doorloop nog aan
+een oud raadsinformatie-bron_id hangt is dus precies wat alleen de oude
+leesregels zagen, en dát wordt gewist. Tot slot gaan de organisaties weg die
+daardoor nergens meer aan hangen — alleen die zonder KvK-nummer en zonder
+resterende opdrachten, gunningen of signalen, zodat een organisatie uit een
+register of met geschiedenis uit een andere bron nooit mee wordt gegrepen.
+
+Die volgorde — eerst laden, dan pas wissen — is bewust: crasht de run
+halverwege, dan is er niets verwijderd en draai je hem gewoon opnieuw. En is de
+doorloop afgekapt op --maximum, dan wordt er óók niets gewist, want wat niet
+herlezen is kan niet voor verouderd doorgaan. De bron is klein genoeg (21.339
+documenten, een half uur) om dit per run volledig te doen.
 
 Een decentrale overheid is op grond van de Gemeentewet (of de Waterschapswet,
 of de eigen gemeenschappelijke regeling) controleplichtig, dus dit zijn
@@ -99,7 +127,15 @@ def main() -> int:
         "--per-pagina", type=int, default=100, dest="per_pagina",
         help="documenten per verzoek aan de zoek-API",
     )
+    parser.add_argument(
+        "--vervang", action="store_true",
+        help="wis eerst de eerdere raadsinformatie-uitkomst en laad opnieuw "
+        "(zie de toelichting bovenin dit bestand)",
+    )
     argumenten = parser.parse_args()
+    if argumenten.vervang and argumenten.droogloop:
+        print("--vervang en --droogloop gaan niet samen: vervangen raakt de database.")
+        return 1
 
     index = bouw_index(laad_kantoren(), laad_aliassen(), laad_overige_kantoren())
 
@@ -108,6 +144,9 @@ def main() -> int:
     kantoor_id_per_sleutel: dict[str, int] = {}
     org_per_naam: dict[str, list[dict]] = {}
     org_per_streng: dict[str, list[dict]] = {}
+    kvk_per_id: dict[int, str | None] = {}
+    geraakt: set[int] = set()
+    oude_bronnen: list[int] = []
     if not argumenten.droogloop:
         try:
             db = Supabase()
@@ -123,6 +162,7 @@ def main() -> int:
             print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")
             return 1
         for rij in db.selecteer_alles("organisaties", "select=id,naam,kvk_nummer"):
+            kvk_per_id[rij["id"]] = rij.get("kvk_nummer")
             org_per_naam.setdefault(normaliseer(rij["naam"]), []).append(rij)
             # Tweede index op de strengere sleutel: zie matchsleutel() in de
             # adapter. Alleen gebruiken als hij naar precies één organisatie
@@ -130,6 +170,34 @@ def main() -> int:
             org_per_streng.setdefault(
                 raadsinformatie.matchsleutel(rij["naam"]), []
             ).append(rij)
+
+        if argumenten.vervang:
+            # Nog niets wissen — alleen onthouden wat er nu staat. De upsert
+            # werkt met resolution=merge-duplicates, dus elke verklaring die de
+            # verbeterde leesregels opnieuw opleveren krijgt vanzelf het nieuwe
+            # bron_id. Wat er ná de volledige doorloop nog aan een oud bron_id
+            # hangt, is dus precies de uitkomst die de oude leesregels te veel
+            # zagen — en pas dán wordt er gewist. Crasht de run halverwege, dan
+            # is er niets verwijderd en draai je hem gewoon opnieuw.
+            oude_bronnen = [
+                rij["id"]
+                for rij in db.selecteer_alles("bronnen", "select=id,bron_type")
+                if rij["bron_type"] == "raadsinformatie"
+            ]
+            for oude_bron in oude_bronnen:
+                geraakt.update(
+                    rij["organisatie_id"]
+                    for rij in db.selecteer_alles(
+                        "opdrachten",
+                        f"select=id,organisatie_id&bron_id=eq.{oude_bron}",
+                    )
+                )
+            print(
+                f"vervang: {len(oude_bronnen)} eerdere ladingen gevonden, "
+                f"{len(geraakt)} organisaties; opruiming volgt na de doorloop",
+                flush=True,
+            )
+
         bron = db.invoegen(
             "bronnen",
             {
@@ -245,6 +313,50 @@ def main() -> int:
             )
 
     rapport.close()
+
+    if db is not None and argumenten.vervang:
+        if documenten >= argumenten.maximum:
+            # De doorloop is afgekapt op --maximum, dus een deel van de bron is
+            # niet herlezen. Wat daar nog aan oude bron_id's hangt is dan geen
+            # verouderde uitkomst maar gewoon niet-bezocht werk. Niets wissen.
+            print(
+                f"vervang: doorloop afgekapt op {argumenten.maximum} documenten; "
+                "de oude uitkomst blijft staan. Draai zonder krappe --maximum."
+            )
+        else:
+            # Alles wat de verbeterde leesregels opnieuw zagen draagt nu het
+            # nieuwe bron_id (merge-duplicates). De rest is de oude uitkomst.
+            gewist = 0
+            for oude_bron in oude_bronnen:
+                rijen = db.selecteer_alles(
+                    "opdrachten", f"select=id&bron_id=eq.{oude_bron}"
+                )
+                if not rijen:
+                    continue
+                db.verwijderen("opdrachten", f"bron_id=eq.{oude_bron}")
+                gewist += len(rijen)
+            # Wezen: organisaties die alleen voor zo'n gewiste rij bestonden.
+            # Alleen zonder KvK-nummer (mét nummer komt ze uit een register) en
+            # zonder resterende opdrachten, gunningen of signalen.
+            met_rij: set[int] = set()
+            for tabel in ("opdrachten", "gunningen", "signalen"):
+                met_rij.update(
+                    rij["organisatie_id"]
+                    for rij in db.selecteer_alles(tabel, "select=organisatie_id")
+                )
+            wezen = [
+                organisatie_id
+                for organisatie_id in sorted(geraakt)
+                if organisatie_id not in met_rij
+                and not kvk_per_id.get(organisatie_id)
+            ]
+            for organisatie_id in wezen:
+                db.verwijderen("organisaties", f"id=eq.{organisatie_id}")
+            print(
+                f"vervang: {gewist} verouderde opdrachten gewist, "
+                f"{len(wezen)} organisaties zonder resterende rijen opgeruimd"
+            )
+
     print(f"\n{documenten} documenten gelezen")
     print(f"Uitkomst: {dict(telling)}")
     if afgekeurd:
