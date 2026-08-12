@@ -42,10 +42,20 @@ jobs:
     uses: ./.github/workflows/gunningen.yml
     secrets: inherit
 
+  # Als enige bron met "vervang" aan, en dat is precies wat de belofte hierboven
+  # waarmaakt. De organisaties uit raadsstukken hebben geen KvK-nummer, dus ze
+  # worden op naam herkend — en die naam komt uit de pdf-tekst. Verbetert de
+  # naam-extractie, dan levert een gewone upsert de schone naam als een níeuwe
+  # organisatie naast de oude verhaspelde op, en groeit de database bij elke druk
+  # op de knop. Met "vervang" wordt de bron in zijn geheel herlezen en verdwijnt
+  # wat alleen de oude leesregels zagen; de lader wist bovendien niets als de
+  # doorloop onvolledig was. Zie de toelichting in pipeline/laad_raadsinformatie.py.
   raadsinformatie:
     needs: [migraties, gunningen]
     if: ${{ needs.migraties.result == 'success' && !cancelled() }}
     uses: ./.github/workflows/raadsinformatie.yml
+    with:
+      vervang: true
     secrets: inherit
 
   stichtingen:

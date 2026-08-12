@@ -137,6 +137,26 @@ def _haal(lichaam: dict, timeout: int = 180) -> dict:
         return json.loads(antwoord.read().decode("utf-8"))
 
 
+def totaal_documenten(haal=None) -> int | None:
+    """Hoeveel documenten bevatten de zoekzin? `None` als de API het niet zegt.
+
+    Eén verzoek met `size: 0`, dus zonder de documenten zelf op te halen.
+    Bestaat om te kunnen controleren of een doorloop echt de hele bron heeft
+    gezien — zie de vervang-stand in laad_raadsinformatie.py. Gemeten
+    11-8-2026: 21.339, met relation "eq" (een exact getal, geen ondergrens).
+    """
+    antwoord = (haal or _haal)(
+        {
+            "query": {"match_phrase": {"text": ZOEKZIN}},
+            "size": 0,
+            "track_total_hits": True,
+        }
+    )
+    totaal = ((antwoord.get("hits") or {}).get("total") or {})
+    waarde = totaal.get("value")
+    return int(waarde) if isinstance(waarde, int) else None
+
+
 def documenten(per_pagina: int = 100, maximum: int = 25_000, haal=None):
     """Alle documenten met de zoekzin, in stukjes.
 

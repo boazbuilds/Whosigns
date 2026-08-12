@@ -62,10 +62,18 @@ resterende opdrachten, gunningen of signalen, zodat een organisatie uit een
 register of met geschiedenis uit een andere bron nooit mee wordt gegrepen.
 
 Die volgorde — eerst laden, dan pas wissen — is bewust: crasht de run
-halverwege, dan is er niets verwijderd en draai je hem gewoon opnieuw. En is de
-doorloop afgekapt op --maximum, dan wordt er óók niets gewist, want wat niet
-herlezen is kan niet voor verouderd doorgaan. De bron is klein genoeg (21.339
-documenten, een half uur) om dit per run volledig te doen.
+halverwege, dan is er niets verwijderd en draai je hem gewoon opnieuw. De bron
+is klein genoeg (21.339 documenten, een half uur) om dit per run volledig te
+doen.
+
+Er wordt alleen gewist als de doorloop aantoonbaar de héle bron heeft gezien.
+Dat is niet vanzelfsprekend: `documenten()` stopt zodra de zoek-API een lege
+pagina teruggeeft, en van buitenaf ziet een halve doorloop er dan precies zo uit
+als een hele. Een haperende API zou zo de oude uitkomst laten wissen terwijl de
+vervanger nooit is gelezen — het verschil tussen vervangen en kwijtraken.
+Daarom wordt het aantal gelezen documenten vergeleken met het totaal dat de bron
+zelf opgeeft (`totaal_documenten()`), en gaat er niets weg bij minder dan 95%,
+bij een afkapping op --maximum, of als dat totaal niet op te vragen is.
 
 Een decentrale overheid is op grond van de Gemeentewet (of de Waterschapswet,
 of de eigen gemeenschappelijke regeling) controleplichtig, dus dit zijn
@@ -315,13 +323,39 @@ def main() -> int:
     rapport.close()
 
     if db is not None and argumenten.vervang:
+        # Wissen mag alleen als de doorloop aantoonbaar de héle bron heeft
+        # gezien. Twee manieren waarop dat níét zo is:
+        #
+        # 1. afgekapt op --maximum;
+        # 2. de zoek-API gaf halverwege een lege pagina terug. `documenten()`
+        #    stopt dan gewoon — de lus eindigt op `if not treffers: return` —
+        #    en van buitenaf ziet een halve doorloop er precies zo uit als een
+        #    hele. Zonder deze controle zou een haperende API de oude uitkomst
+        #    laten wissen terwijl de vervanger nooit is gelezen. Dat is het
+        #    verschil tussen vervangen en kwijtraken, dus hier telt het
+        #    opgegeven totaal uit de bron zelf.
+        gemeld_totaal = None
+        try:
+            gemeld_totaal = raadsinformatie.totaal_documenten()
+        except Exception as fout:  # noqa: BLE001 — geen totaal is ook een antwoord
+            print(f"vervang: kon het brontotaal niet opvragen ({fout})")
+
+        ONDERGRENS = 0.95
         if documenten >= argumenten.maximum:
-            # De doorloop is afgekapt op --maximum, dus een deel van de bron is
-            # niet herlezen. Wat daar nog aan oude bron_id's hangt is dan geen
-            # verouderde uitkomst maar gewoon niet-bezocht werk. Niets wissen.
             print(
                 f"vervang: doorloop afgekapt op {argumenten.maximum} documenten; "
                 "de oude uitkomst blijft staan. Draai zonder krappe --maximum."
+            )
+        elif gemeld_totaal is None:
+            print(
+                "vervang: het brontotaal is onbekend, dus niet te controleren of "
+                "de hele bron gelezen is. De oude uitkomst blijft staan."
+            )
+        elif documenten < gemeld_totaal * ONDERGRENS:
+            print(
+                f"vervang: maar {documenten} van de {gemeld_totaal} documenten "
+                f"gelezen (minder dan {ONDERGRENS:.0%}); de doorloop is "
+                "onvolledig. De oude uitkomst blijft staan."
             )
         else:
             # Alles wat de verbeterde leesregels opnieuw zagen draagt nu het
