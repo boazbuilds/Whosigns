@@ -56,6 +56,41 @@ def lees_rapport(pad: Path) -> list[dict]:
         return [rij for rij in lezer if (rij.get("kvk") or "").strip()]
 
 
+def opdracht_uit_rapportrij(
+    rij: dict, organisatie_id: int, kantoor_id: int, bron_id: int
+) -> dict:
+    """Eén rapportregel als opdracht-rij voor de database.
+
+    Losse functie omdat hier de vertaling zit van "wat de oogst opschreef" naar
+    "wat de kolom toestaat", en dat is precies waar het misging.
+
+    **Een leeg veld is geen waarde maar een ontbrekende waarde.** De kolom
+    `oordeel` heeft een check-voorwaarde die alleen de vier echte oordelen
+    toestaat; een lege string valt daarbuiten, en omdat de lader per rij schrijft
+    laat één zo'n rij de hele lading omvallen. Dat gebeurde op 12-8-2026 bij de
+    eerste run over de oogstrapporten: negentien rijen zonder oordeel (13 in
+    2019, 6 in 2020, 5 in 2021 — verklaringen waarvan de OCR het oordeel niet
+    prijsgaf), en de run stopte bij de eerste ervan met HTTP 400. Van de ruim
+    duizend opdrachten kwamen er tachtig binnen. Null mag wél: een
+    check-voorwaarde laat null altijd door.
+
+    `continuiteitsonzekerheid` is bewust géén null bij leeg. De oogst schrijft
+    daar "ja" als de verklaring een paragraaf over materiële
+    continuïteitsonzekerheid bevat en anders niets; leeg betekent daar dus "die
+    paragraaf staat er niet", en dat is onwaar, niet onbekend.
+    """
+    return {
+        "organisatie_id": organisatie_id,
+        "kantoor_id": kantoor_id,
+        "boekjaar": int(rij["boekjaar"]),
+        "type_opdracht": rij["type_opdracht"],
+        "oordeel": (rij.get("oordeel") or "").strip() or None,
+        "grond_beperking": (rij.get("grond_beperking") or "").strip() or None,
+        "continuiteitsonzekerheid": rij.get("continuiteitsonzekerheid") == "ja",
+        "bron_id": bron_id,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("rapporten", nargs="+", help="een of meer resultaat-csv's")
@@ -152,16 +187,7 @@ def main() -> int:
             opgeruimd.add((org_rij["id"], boekjaar))
         db.upsert_met_id(
             "opdrachten",
-            {
-                "organisatie_id": org_rij["id"],
-                "kantoor_id": kantoor_id,
-                "boekjaar": boekjaar,
-                "type_opdracht": rij["type_opdracht"],
-                "oordeel": rij["oordeel"],
-                "grond_beperking": rij["grond_beperking"] or None,
-                "continuiteitsonzekerheid": rij["continuiteitsonzekerheid"] == "ja",
-                "bron_id": bron_id,
-            },
+            opdracht_uit_rapportrij(rij, org_rij["id"], kantoor_id, bron_id),
             "organisatie_id,boekjaar,type_opdracht",
         )
         geschreven += 1
