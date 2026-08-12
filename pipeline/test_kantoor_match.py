@@ -281,6 +281,26 @@ GEVALLEN = [
         "Kreston Van Herwijnen Accountants B.V.",
     ),
     (
+        # HLB is een netwerkmerk, geen kantoor. hlb.nl schrijft zelf dat de vijf
+        # Nederlandse HLB-kantoren "volledig autonoom" werken en zelfstandige
+        # rechtspersonen zijn. Twee daarvan hebben een Wta-vergunning (Den Hartog
+        # 13000106, Nannen 13000479) en Van Daal niet. Als het merk zwaarder zou
+        # gaan wegen dan de rest van de naam, kreeg Van Daal de opdrachten van
+        # Den Hartog toegeschreven — en dat is precies het soort verwisseling
+        # waar dit bestand voor bestaat.
+        "netwerkmerk verwisselt de kantoren niet (ThuisZorg 2019)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Dongen, 18 juni 2020 HLB van Daal Audit B.V. "
+        "w.g. P.W.M.H. Kosters Registeraccountant",
+        "HLB van Daal Audit B.V.",
+    ),
+    (
+        "hetzelfde merk, het ándere kantoor (HLB Den Hartog)",
+        "Rotterdam, 5 juni 2021 HLB Den Hartog Accountants & Consultants "
+        "w.g. A. Jansen RA",
+        "HLB Den Hartog Accountants & Consultants",
+    ),
+    (
         "een straatnaam die op een kantoornaam lijkt (Parallelweg)",
         "Weert, 3 juni 2021 Jacobs Accountants B.V. Parallelweg 12 6001 HM Weert",
         None,
