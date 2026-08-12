@@ -301,6 +301,29 @@ GEVALLEN = [
         "HLB Den Hartog Accountants & Consultants",
     ),
     (
+        # Hier is niet de ampersand maar de merknaam zelf verhaspeld: "Witlox"
+        # komt er als "Wilox", "vtlox" en "Witiex" uit, terwijl "VCS Accountants"
+        # heel blijft. Nagemeten over de hele OCR-cache (12-8-2026): "VCS" komt
+        # nooit zonder Witlox ervoor, en het register kent maar één VCS, dus de
+        # kortere sleutel kan niet naar een ander kantoor wijzen.
+        "de merknaam is verhaspeld, de rest niet (zorgoogst 2019)",
+        "Breda, 31 augustus 2020 Wilox VCS Accountants "
+        "Was getekend M. Kilingarslan RA",
+        "Witlox VCS audit B.V.",
+    ),
+    (
+        # De naam van het kantoor is hier half weggevallen ("Namens V r Net
+        # Accountants B.V."), maar het briefpapier erboven draagt hem voluit.
+        # Let op: "P. van der Net RA" eronder is de tekenend accountant en geen
+        # kantoor — precies het soort persoonsnaam waar de matcher niet in mag
+        # trappen.
+        "kantoor uit het briefpapier, persoonsnaam eronder (productieverantwoording 2020)",
+        "transacties en gebeurtenissen zonder materiële afwijkingen weergeeft. "
+        "Arnhem, 29 maart 2021 Namens Van der Net Accountants B.V. "
+        "P. van der Net RA",
+        "Van der Net Accountants B.V.",
+    ),
+    (
         "een straatnaam die op een kantoornaam lijkt (Parallelweg)",
         "Weert, 3 juni 2021 Jacobs Accountants B.V. Parallelweg 12 6001 HM Weert",
         None,
