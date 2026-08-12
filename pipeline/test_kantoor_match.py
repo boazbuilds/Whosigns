@@ -247,6 +247,21 @@ GEVALLEN = [
         "de administratie is accuraat en volledig bijgehouden gedurende het boekjaar",
         None,
     ),
+    (
+        # Bij het toevoegen van Parallel Accountants & Adviseurs (Arnhem, 11-8-2026)
+        # kwam de vraag op of "parallel" zou gaan matchen op de straatnaam
+        # Parallelweg, die op talloze briefpapieren staat — en hier zelfs mét
+        # plaats en datum ervoor, dus in een volwaardige ondertekeningscontext.
+        # Dat kan niet: de zoeksleutels van dat kantoor zijn "parallel accountants
+        # adviseurs" en "parallel accountants adviseurs b v", nooit het losse
+        # woord. Een latere afkorting van de sleutel zou dat stukmaken, en dan
+        # kreeg elk kantoor aan een Parallelweg de opdrachten van een ander
+        # kantoor toegeschreven. Jacobs staat in geen enkele seed, dus het juiste
+        # antwoord is "niets gevonden" — en vooral: niet Parallel.
+        "een straatnaam die op een kantoornaam lijkt (Parallelweg)",
+        "Weert, 3 juni 2021 Jacobs Accountants B.V. Parallelweg 12 6001 HM Weert",
+        None,
+    ),
 ]
 
 
