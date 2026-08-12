@@ -258,6 +258,29 @@ GEVALLEN = [
         # kreeg elk kantoor aan een Parallelweg de opdrachten van een ander
         # kantoor toegeschreven. Jacobs staat in geen enkele seed, dus het juiste
         # antwoord is "niets gevonden" — en vooral: niet Parallel.
+        # Een korte eennaam plus een rechtsvorm zónder punten. Het register
+        # schrijft "Joore N.V." (sleutel 'joore n v'), het handtekeningblok
+        # schrijft "Joore NV" (sleutel 'joore nv') — en de terugval op de
+        # kernnaam is hier 'joore', vijf letters, onder MIN_SLEUTELLENGTE. Bij
+        # elk ánder kantoor vangt de kernnaam dit verschil op; bij een naam van
+        # één kort woord valt het kantoor volledig weg. Gevonden in de zorgoogst
+        # van boekjaar 2020 (Actief Zorg B.V.).
+        "rechtsvorm zonder punten bij een korte eennaam, via de aliastabel (Actief Zorg 2020)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing, "
+        "Tilburg, 24 september 2021 Joore NV wg. D.E. van Boekel Msc. RA AA",
+        "Joore N.V.",
+    ),
+    (
+        # Dezelfde woorden in de andere volgorde. Het register kent 13000490 als
+        # Kreston Van Herwijnen Accountants B.V. te Tiel; het briefpapier van dat
+        # kantoor zet zijn eigen naam andersom.
+        "woordvolgorde omgedraaid, via de aliastabel (DIT Coaching 2019)",
+        "bij de financiële productieverantwoording op totaalniveau. Tiel, "
+        "3 juni 2020 VAN HERWIJNEN KRESTON ACCOUNTANTS B.V. "
+        "Stephensonstraat 19 4004 JA Tiel",
+        "Kreston Van Herwijnen Accountants B.V.",
+    ),
+    (
         "een straatnaam die op een kantoornaam lijkt (Parallelweg)",
         "Weert, 3 juni 2021 Jacobs Accountants B.V. Parallelweg 12 6001 HM Weert",
         None,
