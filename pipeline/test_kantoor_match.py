@@ -324,6 +324,35 @@ GEVALLEN = [
         "Van der Net Accountants B.V.",
     ),
     (
+        # Twee BDO's, en ze mogen niet op één hoop. De vergunning staat op BDO
+        # Audit & Assurance B.V. (13000311); BDO Accountants & Belastingadviseurs
+        # B.V. is een ándere rechtspersoon (statutair Eindhoven) die uitsluitend
+        # samenstellings- en beoordelingsverklaringen tekent. Ze samenvoegen zou
+        # dat werk als wettelijke controle laten lezen — en andersom zou de
+        # vergunninghouder werk toegeschreven krijgen dat hij niet deed.
+        "de niet-vergunninghoudende BDO-entiteit (samenstelling 2019)",
+        "met de door u verstrekte gegevens. Dordrecht, 20 juli 2020 "
+        "BDO Accountants namens deze, K. van Wijk RA RB",
+        "BDO Accountants & Belastingadviseurs B.V.",
+    ),
+    (
+        # Twee verschillende kantoren die allebei Dijksterhuis heten, in twee
+        # verschillende plaatsen. Ze delen alleen de familienaam; de zoeksleutels
+        # zijn "dijksterhuis accountants en advieskantoor" en "accountantskantoor
+        # dijksterhuis en uil" en houden ze uit elkaar. Zou een van beide ooit
+        # tot de kale familienaam worden ingekort, dan kregen ze elkaars werk.
+        "twee kantoren met dezelfde familienaam, ander kantoor (Breda)",
+        "Hoogachtend, Dijksterhuis Accountants- en Advieskantoor B.V. "
+        "Breda, 30 mei 2022",
+        "Dijksterhuis Accountants- en Advieskantoor B.V.",
+    ),
+    (
+        "dezelfde familienaam, het ándere kantoor (Groningen)",
+        "materiële afwijkingen weergeeft. Groningen, 19 juli 2021 "
+        "Accountantskantoor Dijksterhuis en Uil B.V. E.C. Maring RA",
+        "Accountantskantoor Dijksterhuis en Uil B.V.",
+    ),
+    (
         "een straatnaam die op een kantoornaam lijkt (Parallelweg)",
         "Weert, 3 juni 2021 Jacobs Accountants B.V. Parallelweg 12 6001 HM Weert",
         None,
