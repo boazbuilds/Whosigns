@@ -111,3 +111,27 @@ de bedoeling.
 2. De laders daarna, volgorde maakt niet uit.
 3. Nieuwe kantoren in de seed-CSV's komen automatisch mee: elke lader werkt
    eerst de kantorenlijst bij.
+
+## De site deployt niet meer ("Resource is limited")
+
+Meldt Vercel *"Resource is limited - try again in 24 hours (api-deployments-free-per-day)"*,
+dan is het dagtegoed van honderd deployments op — en dan deployt de échte site
+ook niet meer.
+
+De oorzaak is de zorgoogst, niet de site. Die draait buiten Actions om en commit
+per blok van twee organisaties, dus op een normale dag staan er meer dan honderd
+pushes op de oogstbranch. `ignoreCommand` in `web/vercel.json` zorgde er al voor
+dat er niets *gebouwd* wordt zolang `web/` niet verandert, maar Vercel maakt de
+deployment dan nog wel aan en die telt gewoon mee.
+
+Daarom staat er in `web/vercel.json` ook:
+
+    "git": { "deploymentEnabled": { "claude/audit-market-platform-vv9vbq": false } }
+
+Dat scheelt het aanmaken zelf. Prijs: op die branch komt geen preview-deployment
+meer, ook niet bij een pull request. Voor een branch die per dag honderden
+datacommits produceert is dat de juiste ruil — productie deployt vanaf `main` en
+dat blijft werken.
+
+**Komt er een nieuwe oogstbranch, zet hem hier dan ook in.** Anders is het
+tegoed binnen een dag weer op en lijkt het alsof de site stuk is.
