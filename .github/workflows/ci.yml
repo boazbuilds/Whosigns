@@ -5,6 +5,20 @@ name: Checks
 # precies de fouten die eerder verzonnen opdrachten en wisselingen opleverden;
 # tot nu toe draaide niets ze automatisch, dus een regressie kon stil op main
 # belanden. De TypeScript-kant ving alleen Vercel, en pas bij het deployen.
+#
+# Hier heeft even een paths-ignore op pipeline/oogst/ gestaan, om te voorkomen
+# dat de tussenstanden van de oogst — die elke paar minuten worden gecommit —
+# telkens een volledige ronde starten. Dat werkt niet, en dat is gemeten: CI
+# draaide gewoon door op een commit die alleen verwerkt_2019.txt aanraakte.
+#
+# De reden is dat paths-ignore bij een pull_request-event kijkt naar álle
+# bestanden die de pull request ten opzichte van de basisbranch wijzigt, en niet
+# naar de bestanden in die ene push. Zodra er één codebestand in de pull request
+# zit slaat het filter dus nooit meer aan.
+#
+# Wat wél werkt staat in pipeline/oogst_zorg.sh: dat script zet [skip ci] in het
+# bericht van zijn tussenstand-commits, en dat kijkt naar de commit zelf. Elke
+# commit met code erin draait gewoon door de tests heen.
 on:
   pull_request:
   push:
@@ -20,24 +34,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Kantoormatch (echte gevallen uit jaarverslagen)
-        run: python3 pipeline/test_kantoor_match.py
-      - name: Naam- en plaatsschoonmaak
-        run: python3 pipeline/test_digimv.py
-      - name: OOB-cliëntenlijsten lezen
-        run: python3 pipeline/test_transparantie.py
-      - name: AFM-register verslaggeving lezen
-        run: python3 pipeline/test_afm_verslaggeving.py
-      - name: Kantoorcliënten uit openbare jaarstukken
-        run: python3 pipeline/test_kantoorclienten.py
-      - name: Gunningen uit TED lezen
-        run: python3 pipeline/test_tenderned.py
-      - name: dVi-leesregels
-        run: python3 pipeline/test_aw_dvi.py
-      - name: Raadsstukken lezen
-        run: python3 pipeline/test_raadsinformatie.py
-      - name: Verklaringen lezen en de OCR-schakelaar
-        run: python3 pipeline/test_verklaring.py
+      # Alles wat pipeline/test_*.py heet, gevonden in plaats van opgesomd.
+      #
+      # Hier stond een lijst met de testbestanden erin, en zo'n lijst loopt
+      # achter: een nieuw testbestand draaide dan niet mee zonder dat iets dat
+      # meldde. Dezelfde valkuil zat in twee testbestanden zelf, waar het totaal
+      # met de hand werd bijgehouden ("27/27" terwijl er 29 controles liepen).
+      # Een lijst die stil incompleet is, is erger dan geen lijst.
+      #
+      # Alle bestanden draaien, ook na een fout: één keer kijken laat dan zien
+      # wat er allemaal stuk is in plaats van alleen het eerste.
+      - name: Extractietests
+        run: |
+          mislukt=0
+          for test in pipeline/test_*.py; do
+            echo "::group::$test"
+            python3 "$test" || { mislukt=1; echo "::error::$test faalt"; }
+            echo "::endgroup::"
+          done
+          exit $mislukt
       - name: Alles compileert
         run: python3 -m compileall -q pipeline
 

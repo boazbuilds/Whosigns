@@ -1,0 +1,714 @@
+# whosigns-ocr v1 grootte=710289 dpi=300 paginas=20
+
+
+
+De Opgroei Praktijk B.V.
+
+te Rotterdam
+
+Rapport inzake de jaarrekening 2019
+
+
+Inhoudsopgave
+
+Accountantsrapport
+Algemeen
+Samenstellingsverklaring van de accountant
+
+Jaarrekening
+
+Balans per 31 december 2019
+Winst-en-verliesrekening over 2019
+
+Grondslagen van waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2019
+Toelichting op de winst-en-verliesrekening over 2019
+
+Pagina
+
+ud
+
+eN
+a ND A
+
+
+4E
+
+www.bdo.nt Dr. Holtroplaan 15, 5652 XR Eindhoven
+Nederland
+
+T: +31 (0)40 269 82 22 BDO Accountants & Belastingadviseurs B.V.
+E: info@bdo.nt Postbus 229, 5600 AE Eindhoven
+
+Aan de Algemene Vergadering en directie van
+De Opgroei Praktijk B.V.
+
+Stieltjesstraat 20
+
+3071 JX Rotterdam
+
+Dordrecht, 20 juli 2020
+Ref: RA-1037214
+
+Geachte directie,
+
+Ingevolge uw opdracht hebben wij de bij dit rapport opgenomen jaarrekening over het boekjaar 2019
+van uw onderneming samengesteld. De jaarrekening is opgesteld onder verantwoordelijkheid van het
+bestuur van de entiteit. Het is onze verantwoordelijkheid een samenstellingsverklaring inzake de
+jaarrekening te verstrekken. De jaarrekening is met de overige gegevens opgenomen in de bij deze
+rapportage opgenomen jaarstukken.
+
+Statutaír gevestigd te Eindhoven en ingeschreven in het handelsregister onder nummer 17171188.
+
+BDO Accountants & Belastingadviseurs B.V. handelt tevens onder de namen BDO Accountants, BDO Belastingadviseurs, BDO Direct, BDO Global Outsourcing,
+BDO Intemational Tax Services, BDO IT Audit & Security, BDO Tax Consultants.
+
+BDO Accountants & Belastingadviseurs B.V, is lid van BDO Internationat Ltd, een rechtspersoon naar Engels recht met beperkte aanspraketijkheid,
+
+en maakt deel uit van het wereldwijde netwerk van juridisch zelfstandige grganisaties die onder de naam “BDO” optreden.
+
+BDO is de merknaam die wordt gebruikt ter aanduiding van het BDO netwerk en van elk van de BDO Member Firms.
+
+
+T: +31 (0)40 269 82 22 BDO Accountants & Belastingadviseurs B.V.
+
+E: info@bdo.nl Postbus 229, 5600 AE Eindhoven
+
+Pe www.bdo.nl Dr. Holtroplaan 15, 5652 XR Eindhoven
+Nederland
+
+Samenstellingsverklaring van de accountant
+
+Aan: De Algemene Vergadering en directie van De Opgroei Praktijk B.V.
+
+De jaarrekening van De Opgroei Praktijk B.V. te Rotterdam is door ons samengesteld op basis van de
+van u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2019 en de winst-
+en-verliesrekening over 2019 met de daarbij horende toelichting. In deze toelichting is onder andere
+een overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, 'Samenstellingsopdrachten'. Op grond van deze standaard wordt
+van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in over-
+eenstemming met Titel 9 Boek 2 van het in Nederland geldende Burgerlijk Wetboek (BW). Wij hebben
+daarbij onze deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving
+toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons
+alle relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de
+daarvoor geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze
+verantwoordelijkheid heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen van
+de jaarrekening globaal nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis
+van De Opgroei Praktijk B.V.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante
+ethische voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere
+gebruikers van deze jaarrekening mogen er dan ook vanuit gaan dat wij de opdracht professioneel,
+vakbekwaam en zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan
+met de door u verstrekte gegevens.
+
+Dordrecht, 20 juli 2020
+
+BDO Accountants
+namens deze,
+
+K /MeitWijk RA RB
+
+Statutair gevestigd te Eindhoven en ingeschreven in het handelsregisteronder nummer 17171188,
+
+BDO Accountants & Belastingadviseurs B.V. handelt tevens onder de namen BDO Accountants, BDO Belastingadviseurs, BDO Direct, BDO Gtlobat Outsourcing,
+BDO Intemational Tax Services, BDO IT Audit & Security, BDO Tax Consultants.
+
+BDO Accountants & Belastingadviseurs B.V, is lid van BDO International Ltd, een rechtspersoon naar Engels recht met beperkte aansprakelijkheid,
+
+en maakt deel uit van het wereldwijde netwerk van juridisch zelfstandige grganisaties die onder de naam “BDO” optreden.
+
+BDO is de merknaam die wordt gebruikt ter aanduiding van het BDO netwerk en van elk van de BDO Member Firms.
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Balans per 31 december 2019
+
+(na voorstel resultaatbestemming)
+
+ACTIVA
+
+Vlottende activa
+
+Voorraden
+Onderhanden werk
+
+Vorderingen
+
+Vorderingen op handelsdebiteuren
+Vorderingen op groepsmaatschappijen
+Belastingen en premies sociale
+verzekeringen
+
+Overige vorderingen en overlopende
+activa
+
+Liquide middelen
+
+Totaal
+
+2
+
+31-12-2019 31-12-2018
+€ € € €
+- 37.971
+132.869 4.052
+371.023 .
+7.513
+39.216 293.349
+543.108 304.914
+10.001 5.000
+553.109 347.885
+
+
+PASSIVA
+
+Eigen vermogen
+
+Geplaatst aandelenkapitaal
+Agioreserve
+
+Overige reserve
+
+Kortlopende schulden
+Schulden aan leveranciers en handels-
+kredieten
+Schulden aan groepsmaatschappijen
+Belastingen en premies sociale
+verzekeringen
+Overige schulden en overlopende
+passiva
+
+Totaal
+
+6
+7
+
+8
+
+31-12-2019 31-12-2018
+
+€ € € €
+18.000 18.000
+4.998 4.998
+142.935 81.367
+
+165.933 104.365
+7.190 19.721
+100.228 116.538
+57.627 42.402
+222.131 64.859
+
+387.176 243.520
+
+553.109 347.885
+
+Samenstellingsverklaring afgegeven
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Winst-en-verliesrekening over 2019
+
+2019 2018
+€ € € €
+Netto-omzet 1.645.122 1.417.576
+Inkoopwaarde van de omzet -19.072 -9.555
+Brutowinst 1.626.050 1.408.021
+Lonen 813.582 705.910
+Sociale lasten 126.038 96.148
+Pensioenlasten 65.062 51.418
+Overige bedrijfskosten 9 476.511 485.854
+Totaal van som der kosten 1.481.193 1.339.330
+Totaal van bedrijfsresultaat 144.857 68.691
+Rentelasten en soortgelijke kosten 10 -833 -4,024
+Totaal van resultaat voor belastingen 144.024 64.667
+Belastingen -36.322 -16.338
+
+Totaal van resultaat na belastingen 107.702 48.329
+
+6 Samenstellingsverklaring afgegeven
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Grondslagen van waardering en resultaatbepaling
+
+Informatie over de rechtspersoon
+
+Vestigingsadres en inschrijfnummer handelsregister
+
+De Opgroei Praktijk B.V. is feitelijk en statutair gevestigd op Stieltjesstraat 20, 3071 JX te Rotterdam
+en is ingeschreven bij het handelsregister onder nummer 54826608.
+
+Algemene toelichting
+
+De belangrijkste activiteiten van de rechtspersoon
+
+De vennootschap houdt zich specifiek bezig met het aanbieden en verzorgen van tweede-lijns
+geestelijke gezondheidszorg voor jeugd en gezin, zulks ondermeer maar niet beperkt tot geestelijke
+gezondheidszorg in de vorm van diagnostiek en behandeling voor jeugd en gezin.
+
+Informatieverschaffing over groepsverhoudingen
+
+De Opgroei Praktijk B.V. maakt deel uit van een groep met als hoofd VanKracht Holding B.V., gevestigd
+te Rotterdam. De financiële gegevens van De Opgroei Praktijk B.V. zijn opgenomen in de
+geconsolideerde jaarrekening van VanKracht Holding B.V., gevestigd te Rotterdam.
+
+Informatieverschaffing over schattingen
+
+Bij het opstellen van de jaarrekening dient de ondernemingsleiding, overeenkomstig algemeen
+geldende grondslagen, bepaalde schattingen en veronderstellingen te doen die medebepatend zijn voor
+de opgenomen bedragen. De feitelijke resultaten kunnen van deze schattingen afwijken. Bij de
+schattingen en waarderingen is geen rekening gehouden met de mogelijke effecten van het
+coronavirus.
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW.
+
+De algemene grondslag voor de waardering van de activa en passiva, alsmede voor de bepaling van het
+resultaat, ís de verkrijgingsprijs- of de vervaardigingsprijs. Voor zover niet anders vermeld, worden
+activa en passiva opgenomen voor de nominale waarde.
+
+Pensioenregelingen
+
+De vennootschap heeft voor haar werknemers een pensioenregeling getroffen waarbij de
+pensioenuitkeringen zijn gebaseerd op het middelloon. Deze pensioenregeling is ondergebracht bij het
+pensioenfonds Zorg & Welzijn. De over het boekjaar verschuldigde premies worden als kosten
+verantwoord. Voor per balansdatum nog niet betaalde premies wordt een voorziening opgenomen.
+Voor nog met ontvangen restituties wordt een vordering opgenomen. Aangezien deze vorderingen en
+verplichtingen een kortlopend karakter hebben, worden deze gewaardeerd tegen de nominale waarde.
+
+De risico's van loonontwikkeling, prijsindexatie, beleggingsrendement op het fondsvermogen zullen
+mogelijk leiden tot toekomstige aanpassingen in de jaarlijkse bijdragen aan het pensioenfonds.
+Pensioenfonds Zorg en Welzijn past voorwaardelijke indexatie toe. De genoemde risico's komen niet
+tot uitdrukking in een in de balans opgenomen voorziening. De dekkingsgraad van Pensioenfonds Zorg
+en Welzijn bedraagt op balansdatum 96,5% (2018: 101,3%) ten opzichte van het wettelijke minimum ad
+104,3%. De indexering van pensioenuitkeringen wordt jaarlijks beoordeeld. In geval van een tekort bij
+het bedrijfstakpensioenfonds heeft de vennootschap geen verplichting tot het voldoen van aanvullende
+bijdragen anders dan hogere toekomstige premies.
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Grondslagen
+
+Onderhanden werk
+
+Het onderhanden werk uit hoofde van DBC's wordt gewaardeerd tegen de opbrengstwaarde of de
+vervaardigingsprijs, zijnde de afgeleide verkoopwaarde van de reeds bestede verrichtingen. De
+productie van het onderhanden werk ís bepaald door de openstaande verrichtingen te koppelen aan de
+DBC's die ultimo boekjaar openstonden. Op het onderhanden werk worden de voorschotten die
+ontvangen zijn van verzekeraars in mindering gebracht.
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs. Deze is gelijk aan de nominale waarde onder aftrek
+van de noodzakelijk geachte voorzieningen voor het risico van oninbaarheid, tenzij anders vermeld.
+Deze voorzieningen worden bepaald op basis van individuele beoordeling van de vorderingen.
+
+Liquide middelen
+Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar.
+
+Grondslagen voor de bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de netto omzet en alle hiermee verbonden, aan het
+verslagjaar toe te rekenen kosten. De kosten worden bepaald met inachtneming van de hiervoor
+vermelde waarderingsgrondslagen.
+
+Winsten worden verantwoord in het jaar waarin de omzet is gerealiseerd. Verliezen worden in
+aanmerking genomen in het jaar waarin deze voorzienbaar zijn.
+
+De overige baten en lasten worden toegerekend aan de verslagperiode waarop deze betrekking
+hebben.
+
+Omzetverantwoording
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer
+het bedrag van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te
+ontvangen vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht
+betrouwbaar kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog
+moeten worden gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden
+bepaald. Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze
+kan worden bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de
+dienstverlening die worden gedekt door de opbrengsten. De met de opbrengsten samenhangende
+lasten worden toegerekend aan de periode waarin de baten zijn verantwoord.
+
+Jeugdzorg-GGZ
+
+Onder opbrengsten jeugdwet en opbrengsten wmo worden de baten verantwoord uit hoofde van
+geleverde prestaties op het gebied van verleende jeugdzorg respectievelijk wmo-prestaties. Als
+realisatiemoment geldt het moment waarop de betreffende prestaties zijn gerealiseerd en op grond
+van de geldende voorschriften of richtlijnen gedeclareerd kunnen worden bij de opdrachtgever. Tot de
+opbrengsten jeugdwet worden tevens gerekend mutaties in onderhanden zorgtrajecten met betrekking
+tot jeugdzorg.
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Omzetonzekerheid GGZ-zorgverzekeraars
+
+Onzekerheden omzetverantwoording ten gevolge van sectorontwikkelingen 2008-2019
+
+Bij het bepalen van de DBC-omzet 2019 heeft De Opgroei Praktijk B.V. de grondslagen voor waardering
+en resultaatbepaling gevolgd zoals opgenomen in deze interne jaarrekening, die zijn gebaseerd op de
+handreiking omzetbepaling curatieve GGz 2013.
+
+Met ingang van 2013 is voor de curatieve geestelijke gezondheidzorg prestatiebekostiging ingevoerd op
+basis van de DBC-systematiek. In de periode 2008 tot en met 2012 is reeds gebruik gemaakt van de DBC
+systematiek voor de incasso van het budget, maar vanaf 2013 zijn de DBC ook bepalend voor de omzet
+in de jaarrekening. De systematiek kent inherente beperkingen waardoor in de periode 2008 tot en met
+2012 geen goedkeurende verklaringen bij de DBC verantwoordingen konden worden verstrekt. Door de
+invoering van prestatiebekostiging in 2013 heeft dit ook geleid tot verklaringen met beperkingen bij de
+jaarrekeningen 2013 en 2014 van GGz instellingen, ook bij De Opgroei Praktijk B.V.
+
+Toelichting op onzekerheden en de wijze waarop hier mee om is gegaan door De Opgroei Praktijk B.V.
+Bij de omzetverantwoording is sprake van schattingsposten ten aanzien van ondermeer de toerekening
+aan boekjaren van uit de schadelastprognoses verwachte overproductie per verzekeraar per
+contractdeel (bGGZ en sGGZ) en de waardering van onderhanden werk.
+
+Het bestuur heeft de Zvw-omzet en daarbij behorende balansposten naar beste weten bepaald en
+daarbij rekening gehouden met belangrijke schattingsfactoren en bijzonderheden die landelijk een rol
+spelen en ook bij De Opgroei Praktijk B.V. van toepassing zijn. Voor De Opgroei Praktijk B.V. zijn ten
+tijde van het opstellen van de jaarrekening geen indicaties aanwezig dat de genoemde aspecten zullen
+leiden tot concrete materiele correcties.
+
+Vanuit de zorgverzekeraars hebben bij De Opgroei Praktijk B.V. geen materiële controles
+plaatsgevonden.
+
+Het bestuur onderkent wel risicos ten aanzien van de afwikkeling van het schadelastjaar 2019 in relatie
+tot budgetplafonds. Voor zover uit de analyse op contractniveau een verwachte overproductie blijkt, ís
+deze pro rata toegerekend aan het boekjaar 2019 voor zover de productie in 2019 is gerealiseerd.
+Indien van toepassing zal hievoor onder het onderhanden werk een voorziening opgenomen worden.
+
+Verder zijn binnen De Opgroei Praktijk B.V. de interne procedures bij facturering verder aangescherpt
+vanaf boekjaar 2013 en verder. De Opgroei Praktijk B.V. is van mening dat de uitgevoerde interne
+controle een adequate basis vormt voor de bepaling van de omzet. De correcties vanuit de
+zorgverzekeraars met betrekking tot oude jaren zijn in boekjaar 2018 en 2019 grotendeels
+afgewikkeld. Indien van toepassing zal daarnaast voor de resterende onzekerheden in het onderhanden
+werk ultimo 2019 een voorziening opgenomen worden. Verzekeraars behouden echter, ook na
+financiële afwikkeling, het recht op materiële controles tot vijf jaar na afloop van een bepaald
+contractjaar.
+
+Schadelastplafonds vanuit diverse contractafspraken
+
+De Opgroei Praktijk B.V. heeft contractafspraken gemaakt met de verschillende zorgverzekeraars die
+van invloed kunnen zijn op het totale schadelastplafond voor schadelastjaar 2018 en 2019. De plafonds
+verschillen per zorgverzekeraar en zijn afhankelijk van een aantal factoren (o.a. kostprijzen). Deze
+factoren worden door De Opgroei Praktijk B.V. in een prognosemodel opgenomen. Op basis van het
+prognosemodel is per zorgverzekeraar en per schadelastjaar de overproductie boven de plafonds
+gekwantificeerd in de jaarrekening en in mindering gebracht op de omzet.
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Afsluitend
+
+De bijzonderheden bij de hiervoor genoemde factoren versterken en mitigeren elkaar. Deze factoren
+worden in de handreiking omzetbepaling curatieve GGz 2013 en de hierboven opgenomen toelichting
+behandeld. De Opgroei Praktijk B.V. heeft de handreiking gevolgd en heeft in het verlengde daarvan
+aanvullende controles uitgewerkt; de in deze jaarrekening 2019 uitgewerkte en onderbouwde
+schattingen kunnen derhalve in de realisatie toch afwijken. De uiteindelijke uitkomsten zullen blijken
+uit de eindafrekeningen met de zorgverzekeraars en kunnen afwijken van de in deze jaarrekening
+opgenomen bedragen gebaseerd op de beste schatting.
+
+Inkoopwaarde van de omzet
+
+De inkoopwaarde van de omzet betreffen de variabele kosten die cliënt- of cursistgebonden zijn en
+daarmee direct aan de omzet gerelateerd zijn. Voorbeelden hiervan kosten inzake lesmateriaal,
+lunchtherapie, begeleidingskosten, reiskosten voor cliënten etc.
+
+De indirecte kosten zijn de kosten die betrekking hebben op personeel, informatiemanagement,
+organisatie, financiën, automatisering, administratie en huisvesting. Deze kosten zijn als salariskosten
+en overige bedrijfskosten in de jaarrekening gepresenteerd.
+
+Lonen
+
+Voor de uitvoering van de WNT heeft de instelling zich gehouden aan de Beleidsregels toepassing
+WNT. De instelling heeft de Beleidsregels toepassing WNT als normenkader bij het opmaken van deze
+jaarrekening gehanteerd.
+
+Financiële baten en lasten
+De financiële lasten betreffen aan derden en groepsmaatschappijen betaalde (te betalen) interest.
+
+Belastingen over de winst of het verlies
+
+De vennootschapsbelasting is berekend over het resultaat volgens de winst- en verliesrekening tegen
+het geldend tarief, rekening houdend met fiscale faciliteiten. Tevens wordt hieronder opgenomen de
+mutatie in de voorziening voor latente vennootschapsbelasting.
+
+10
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Toelichting op de balans per 31 december 2019
+
+Activa
+
+Vlottende activa
+
+Voorraden
+31-12-2019 31-12-2018
+€ €
+1 Onderhanden werk
+Onderhanden werk - 37.971
+
+Voor de geleverde zorgprestaties boven het afgesproken budgetplafond wordt indien van toepassing
+een voorziening getroffen.
+
+Vorderingen
+31-12-2019 31-12-2018
+
+€ €
+
+2 Belastingen en premies sociale verzekeringen
+Pensioenen - 7.513
+
+11
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Passiva
+
+3 Eigen vermogen
+
+In onderstaand overzicht is het verloop van het eigen vermogen weergegeven:
+
+Geplaatst Agioreserve Overige re- Totaal
+aandelenkapi serve
+taal
+€ € € €
+Stand per 1 januari 2019 18.000 4.998 81.367 104.365
+Uit resultaatverdeling - - 61.568 61.568
+
+Stand per 31 december 2019 18.000 4.998 142.935 165.933
+
+4 Geplaatst aandelenkapitaal
+
+Het geplaatst kapitaal bedraagt € 18.000 verdeeld in 18.000 aandelen van nominaal € 1. Het geplaatst
+kapitaal is gedurende dit boekjaar niet gewijzigd.
+
+5 Agioreserve
+
+De agioreserve is ontstaan door de omzetting van de rekening-courant verhouding met Levéo
+Specialisten B.V. in eigen vermogen.
+
+Kortlopende schulden
+
+31-12-2019 31-12-2018
+
+€ €
+6 Schulden aan groepsmaatschappijen
+
+Crediteuren groepsmaatschappijen 100.228 14.405
+Schuld aan Levéo Specialisten B.V. - 102.133
+100.228 116.538
+
+7 Belastingen en premies sociale verzekeringen
+Loonheffing 47.313 42.402
+Pensioenen 10.314 -
+57.627 42.402
+
+12
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+31-12-2019 31-12-2018
+
+€ €
+
+8 Overige schulden en overlopende passiva
+Onderhanden werk 115.668 -
+Vakantiegeld en vakantiedagen 51.029 41,141
+Dividend 46.134 -
+Nog te ontvangen facturen 8.647 17.000
+Te betalen salarissen 653 716
+Reservering bonussen - 5.942
+222.131 64.859
+
+Niet in de balans opgenomen rechten en verplichtingen
+
+Niet in de balans opgenomen verplichtingen inzake aansprakelijkheidsstellingen
+
+De groep beschikt over een kredietfaciliteit in rekening courant bij ABN AMRO Bank N.V. van
+€ 750.000. Daarnaast zijn er een tweetal hypothecaire leningen afgesloten met een hoofdsom van
+€ 920.000.
+
+De volgende zekerheden zijn gesteld:
+
+- Een bankhypotheek, 1e in rang, van € 750.000 plus 40% voor rente en kosten. Deze hypotheek wordt
+gevestigd op het registergoed Hoefstraat 214 te Tilburg;
+
+- Een bankhypotheek, 1e in rang, van € 430.000 plus 40% voor rente en kosten. Deze hypotheek wordt
+gevestigd op het registergoed Vrieseplein 15 te Dordrecht;
+
+- De gehele groep is hoofdelijk aansprakelijk voor de gestelde zekerheden;
+
+» Pandrecht op bedrijfsinventaris;
+
+- Pandrecht op voorraden;
+
+- Pandrecht op vorderingen door de ABN AMRO Bank N.V.
+
+De niet in de balans opgenomen verplichtingen inzake de fiscale eenheid
+
+De vennootschap maakt deel uit van een fiscale eenheid voor de vennootschapsbelasting en de
+omzetbelasting. Het hoofd van de fiscale eenheid is VanKracht Holding B.V. Op grond hiervan is de
+vennootschap aansprakelijk voor de schulden inzake vennootschapsbelasting en omzetbelasting van de
+groep als geheel.
+
+Niet in de balans opgenomen verplichtingen inzake betalingen ter verkrijging van
+(gebruiks)rechten
+
+Het jaarlijks bedrag van de aangegane huurverplichtingen van onroerende zaken is € 63.504. De totale
+verplichting bedraagt € 216.972.
+
+Het verloop kan als volgt worden weergegeven:
+<1 jaar: € 63.504
+
+1 jaar < > 5 jaar: € 154,468
+
+>5 jaar: € 0
+
+13
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Toelichting op de winst-en-verliesrekening over 2019
+
+Gemiddeld aantal werknemers
+2019
+
+Gemiddeld aantal werknemers
+2018
+
+Gemiddeld aantal werknemers
+
+9 Overige bedrijfskosten
+Overige personeelsbeloningen
+Huisvestingskosten
+Exploitatie- en machinekosten
+Verkoopkosten
+
+Autokosten
+
+Kantoorkosten
+
+Algemene kosten
+
+Algemene kosten
+
+Back office fee
+
+Management fee
+Accountantskosten
+
+Hardware en software
+Advieskosten
+Assurantiepremie
+
+Bankkosten
+
+Abonnementen en contributies
+
+14
+
+Aantal
+13,00
+
+Aantal
+11,00
+2019 2018
+€ €
+83.990 93.357
+85.305 106.232
+7.741 6.992
+11.522 7.251
+243 79
+7.048 8.098
+280.662 263.845
+476.511 485.854
+241.303 225.467
+22.568 18.304
+12.067 10.672
+2.523 4,454
+1.355 1.319
+520 384
+326 745
+- 2.500
+280.662 263.845
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+Per 1 januari 2013 is de Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector
+(WNT) ingegaan. De WNT is van toepassing op De Opgroeí Praktijk B.V. Op grond van de Regeling
+bezoldigingsmaxima topfunctionarissen zorg en jeugdhulp is het toegestaan dat, indien een instelling
+die zorg of jeugdhulp verleent organisatorisch is verbonden met een of meer andere rechtspersonen of
+instellingen die zorg of jeugdhulp verlenen, voor iedere rechtspersoon of instelling binnen de
+organisatie die zorg of jeugdhulp verleent een klasse-indeling mag worden toegepast die zou gelden
+indien alle tot die organisatie behorende, in de zorg of jeugdhulp werkzame rechtspersonen of
+instellingen, gezamenlijk als één rechtspersoon of instelling zouden worden aangemerkt. De
+zogenaamde ‘groepsklasse-indeling’. Tot de groep - waarvan Levéo Groep B.V. groepshoofd is -
+behoren Levéo Care B.V, Levéo Specialisten B.V. en De Opgroei Praktijk B.V. De op de
+groepsentiteiten toepasselijke klasse is vastgesteld op klasse IV. Het toepasselijke
+bezoldigingsmaximum bedraagt € 179.000,- Aangezien de feitelijk leidinggevende topfunctionarissen
+van De Opgroei Praktijk B.V. tevens fungeren als topfunctionaris bij de andere WNT-instellingen binnen
+de groep, is omwille van de transparantie gekozen voor één verantwoording in de geconsolideerde
+jaarrekening van Levéo Groep B.V. Voor de bezoldiging van de leidinggevende topfunctionarissen van
+De Opgroei Praktijk B.V. wordt derhalve verwezen naar de jaarrekening van Levéo Groep B.V.
+
+Financiële baten en lasten
+
+2019 2018
+€ €
+
+10 Rentelasten en soortgelijke kosten
+Rente schulden groepsmaatschappijen 833 4.024
+
+15
+
+
+De Opgroei Praktijk B.V. te Rotterdam
+
+Gebeurtenissen na Balansdatum
+
+Vooralsnog leidt de Coronacrisis nog niet tot hele grote nieuwe wijzigingen voor een marktpartij in het
+sociale domein zelf. De mogelijke financiële impact is nog niet exact te bepalen, maar we houden
+derhalve rekening met directe en indirecte effecten van de crisis op het totaal presteren van de groep.
+Als gevolg hiervan zal de groei in 2020 afhankelijk van de duur geheel of deels uitblijven, mogelijk
+zelfs kansen bieden en uiteindelijk hertstellen naar de in de begroting opgenomen lijn.
+
+Voorstel resultaatbestemming
+
+Tijdens de Algemene Vergadering waarop de jaarrekening zal worden vastgesteld, zal worden
+voorgesteld het resultaat na belastingen 2019 voor een bedrag ad € 46.134 uit te keren als dividend en
+het restant toe te voegen aan de Overige reserves.
+
+Het vorenstaande is reeds verwerkt in de jaarrekening 2019 van de vennootschap.
+
+Rotterdam,
+
+Vertegenwoordigd door:
+M.L. den Daas
+Directeur
+
+16
+

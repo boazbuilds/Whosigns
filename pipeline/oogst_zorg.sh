@@ -16,8 +16,19 @@
 set -uo pipefail
 
 BOEKJAAR="${1:-2019}"
-BLOK="${2:-100}"
+# Eén blok is één golf werkers, en dat is geen willekeurige keuze.
+#
+# De lader verdeelt een blok over de werkers en schrijft het rapport pas als het
+# hele blok klaar is. Eén document mag in het slechtste geval ruim twintig minuten
+# duren (zie OCR_TIJDBUDGET in extractie/verklaring.py: het renderen en het lezen
+# hebben elk hun eigen budget). Een blok van tien op vier werkers is dus drie
+# golven van elk maximaal twintig minuten, en dat haalt het uur dat deze omgeving
+# aan één stuk overeind blijft niet. Zo liep blok 110-120 van boekjaar 2019 tien
+# keer op rij vast: niet stuk, gewoon te groot voor de tijd die het kreeg.
+# Blokgrootte gelijk aan het aantal werkers maakt er één golf van, en dan staat de
+# tussenstand na hooguit één traag document in de repo.
 WERKERS="${3:-4}"
+BLOK="${2:-$WERKERS}"
 
 WORTEL="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CACHE="$WORTEL/pipeline/.cache"
@@ -27,21 +38,106 @@ VERWERKT="$CACHE/verwerkt_${BOEKJAAR}.txt"
 mkdir -p "$CACHE" "$OOGST"
 
 # Terugzetten wat een vorige run al had: zo kost een herstart niets.
-[ -s "$OOGST/zorg_${BOEKJAAR}.csv" ] && [ ! -s "$RAPPORT" ] &&
-  cp "$OOGST/zorg_${BOEKJAAR}.csv" "$RAPPORT"
-[ -s "$OOGST/verwerkt_${BOEKJAAR}.txt" ] && [ ! -s "$VERWERKT" ] &&
+#
+# De repo-kopie is daarbij de baas, niet .cache. Een omgeving die opnieuw begint
+# zet .cache terug op een oudere momentopname, en die kan een rapport bevatten
+# uit een tijd dat het nog andere kolommen had. Zo'n bestand is niet leeg, dus
+# een simpele "alleen terugzetten als er niets staat" liet het staan — waarna de
+# lader er nieuwe rijen met een ándere kolomindeling achteraan schreef. Dat is
+# precies het soort stille schade dat dit project niet wil: het rapport gaat
+# regelrecht de database in.
+#
+# Vandaar twee controles. Wijkt de kopregel af, dan gaat het bestand opzij.
+# Heeft de repo-kopie meer rijen, dan heeft die de herstart overleefd en wint hij.
+herstel_rapport() {
+  local bewaard="$OOGST/zorg_${BOEKJAAR}.csv"
+  [ -s "$bewaard" ] || return 0
+  if [ -s "$RAPPORT" ]; then
+    if [ "$(head -1 "$RAPPORT")" != "$(head -1 "$bewaard")" ]; then
+      echo "  rapport in .cache heeft andere kolommen; opzij als ${RAPPORT}.oud"
+      mv "$RAPPORT" "${RAPPORT}.oud"
+    elif [ "$(wc -l < "$RAPPORT")" -ge "$(wc -l < "$bewaard")" ]; then
+      return 0
+    fi
+  fi
+  cp "$bewaard" "$RAPPORT"
+}
+herstel_rapport
+
+# Idem voor de lijst met bekeken organisaties: de langste wint. `wc -l` krijgt
+# hier bewust een bestaand bestand — een omleiding uit een bestand dat er niet is
+# faalt in bash vóór het commando draait, en dan helpt 2>/dev/null niet.
+regels() { [ -s "$1" ] && wc -l < "$1" || echo 0; }
+if [ -s "$OOGST/verwerkt_${BOEKJAAR}.txt" ] &&
+   [ "$(regels "$OOGST/verwerkt_${BOEKJAAR}.txt")" -gt "$(regels "$VERWERKT")" ]; then
   cp "$OOGST/verwerkt_${BOEKJAAR}.txt" "$VERWERKT"
+fi
+
+# De gelezen OCR-tekst hoort ook in de repo, en niet alleen in .cache.
+#
+# Waarom: .cache overleeft een herstart van het proces, maar niet een herstart
+# van de omgeving — die zet de hele map terug op een oudere momentopname. Op
+# 7-8-2026 gebeurde dat om 12:10: de pdf's stonden er nog (1.784), de gelezen
+# tekst was weg. En juist die tekst is het dure deel: een gescande verklaring
+# kost een minuut OCR, een pdf mét tekstlaag milliseconden.
+#
+# Gemeten: ongeveer een kwart van de organisaties heeft een scan, en de oogst
+# doet er 75 per uur. Elke rollback kostte dus zo'n twintig minuten leeswerk
+# opnieuw, en die komen ongeveer elk uur. Over de resterende 25 uur is dat een
+# derde van de tijd.
+#
+# De bestanden zijn klein (9 tot 18 kB tekst) en comprimeren goed, dus ze mogen
+# gewoon mee. Ze zijn bovendien meer dan een cache: met de tekst bewaard kan een
+# organisatie die nu geen kantoor oplevert later opnieuw worden nagekeken zonder
+# de pdf opnieuw op te halen en te lezen. Zie de aantekening over "bekeken"
+# betekent ook "nooit meer" in adapters/digimv.md.
+OCR_BEWAAR="$OOGST/ocr"
+mkdir -p "$OCR_BEWAAR"
+herstel_ocr() {
+  local aantal=0
+  for bewaard in "$OCR_BEWAAR"/*.ocr.txt; do
+    [ -e "$bewaard" ] || break
+    local doel="$CACHE/$(basename "$bewaard")"
+    [ -e "$doel" ] || { cp "$bewaard" "$doel" && aantal=$((aantal + 1)); }
+  done
+  [ "$aantal" -eq 0 ] || echo "  $aantal eerder gelezen documenten teruggezet in .cache"
+}
+herstel_ocr
 
 bewaar() {
   cp "$RAPPORT" "$OOGST/zorg_${BOEKJAAR}.csv" 2>/dev/null || return 0
   cp "$VERWERKT" "$OOGST/verwerkt_${BOEKJAAR}.txt" 2>/dev/null || true
+  # Nieuw gelezen tekst meenemen; -n overschrijft niets wat er al staat.
+  for gelezen in "$CACHE"/*.ocr.txt; do
+    [ -e "$gelezen" ] || break
+    cp -n "$gelezen" "$OCR_BEWAAR/" 2>/dev/null || true
+  done
   cd "$WORTEL" || return 0
-  git add "pipeline/oogst/zorg_${BOEKJAAR}.csv" "pipeline/oogst/verwerkt_${BOEKJAAR}.txt" 2>/dev/null
+  git add "pipeline/oogst/zorg_${BOEKJAAR}.csv" "pipeline/oogst/verwerkt_${BOEKJAAR}.txt" \
+          "pipeline/oogst/ocr" 2>/dev/null
   git diff --cached --quiet 2>/dev/null && return 0
   local rijen bekeken
   rijen=$(($(wc -l < "$RAPPORT") - 1))
   bekeken=$(wc -l < "$VERWERKT")
-  git commit -q -m "Zorgoogst ${BOEKJAAR}: ${rijen} opdrachten, ${bekeken} organisaties bekeken
+  # [skip ci] staat er met opzet in. Dit script commit na elk blok, dus elke paar
+  # minuten, en zolang er een pull request openstaat startte elk van die commits
+  # een volledige ronde: de extractietests én een npm-installatie met
+  # typecontrole. Op één ochtend zijn dat tientallen runs terwijl er geen regel
+  # code verandert — deze commits raken alleen pipeline/oogst/, en dat zijn
+  # meetresultaten. Actions-minuten zijn hier schaars.
+  #
+  # Waarom niet met paths-ignore in de workflow: dat werkt hier niet. Bij een
+  # pull_request-event kijkt paths-ignore naar álle bestanden die de pull request
+  # ten opzichte van de basisbranch wijzigt, niet naar de bestanden in deze ene
+  # push. Zodra er ook maar één codebestand in de pull request zit — en dat is
+  # altijd zo — slaat het filter nooit meer aan. Gemeten: met paths-ignore
+  # erin draaide CI gewoon door op een commit die alleen verwerkt_2019.txt
+  # aanraakte.
+  #
+  # [skip ci] werkt wél, want dat kijkt naar het bericht van de commit zelf. Het
+  # geldt alleen voor deze tussenstanden; elke commit met code erin draait
+  # gewoon door de tests heen.
+  git commit -q -m "Zorgoogst ${BOEKJAAR}: ${rijen} opdrachten, ${bekeken} organisaties bekeken [skip ci]
 
 Tussenstand van pipeline/oogst_zorg.sh. Het lezen van de verklaring-pdf's draait
 buiten GitHub Actions om; dit bestand gaat er via 'Zorgoogst inladen' in een paar
@@ -65,7 +161,23 @@ TOTAAL=$(printf '%s\n' "$PROBE" | sed -n '1s/^\([0-9]\{1,\}\).*/\1/p')
 [ "${TOTAAL:-0}" -gt 0 ] || { echo "kon de omvang van boekjaar $BOEKJAAR niet bepalen"; exit 1; }
 echo "boekjaar $BOEKJAAR: $TOTAAL organisaties, blokken van $BLOK"
 
-for (( VANAF = 0; VANAF < TOTAAL; VANAF += BLOK )); do
+# Beginnen waar de vorige run gebleven was, in plaats van elke keer vanaf nul.
+#
+# `--hervat` slaat bekeken organisaties over, dus de blokken die al gedaan zijn
+# leveren niets op — maar ze kosten wel elk een volledige aanroep van de lader,
+# die daarvoor eerst de hele populatie van 2.211 inleest. Bij blokken van vier en
+# 110 bekeken zijn dat 28 lege aanroepen vóór het eerste echte werk, en dat loopt
+# op naarmate de oogst vordert.
+#
+# Naar bodenen afronden, nooit naar boven: dan kan er geen organisatie tussenuit
+# vallen. Staat er iets in de lijst dat níét in de eerste blokken zat, dan wordt
+# er hooguit een stuk overgedaan dat `--hervat` alsnog overslaat. Overslaan zou
+# betekenen dat een organisatie stilletjes nooit gelezen wordt, en dat is precies
+# wat hier niet mag gebeuren.
+BEGIN=$(( ($(regels "$VERWERKT") / BLOK) * BLOK ))
+[ "$BEGIN" -gt 0 ] && echo "$(regels "$VERWERKT") al bekeken; begin bij blok $BEGIN"
+
+for (( VANAF = BEGIN; VANAF < TOTAAL; VANAF += BLOK )); do
   echo "=== blok vanaf $VANAF/$TOTAAL ==="
   python3 "$WORTEL/pipeline/laad_zorg.py" \
     --boekjaar "$BOEKJAAR" --uit-archief --droogloop --hervat \

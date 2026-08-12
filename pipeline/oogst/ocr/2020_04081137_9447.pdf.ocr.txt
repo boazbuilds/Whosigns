@@ -1,0 +1,791 @@
+# whosigns-ocr v1 grootte=7149636 dpi=300 paginas=20
+mep.
+s audit
+
+audit only
+
+BETER THUIS WONEN HOLDING BV.
+
+7 ENKELVOUDIGE BALANS PER 31 DECEMBER 2020
+(na resultaatbestemming)
+
+31 december 2020 31 december 2019
+€ € € €
+
+ACTIEF
+
+Vaste activa
+Immateriële vaste activa (23)
+Goodwill 68.833 -
+
+Financiële vaste activa (24)
+Deelnemingen in groepsmaatschappijen 1.699.796 1.491.687
+Andere deelnemingen 94.873 94.265
+
+Vorderingen op participanten en
+maatschappijen waarin wordt deelgenomen 34.793 32.993
+
+Overige vorderingen - 15.000
+1.829.462 1.633.945
+
+Vlottende activa
+
+Debiteuren en overige vorderingen (25)
+
+Handelsdebiteuren - 11.825
+Vorderingen op groepsmaatschappijen 136.081 -
+
+Vorderingen op overige verbonden
+maatschappijen 5.612 -
+
+Omzetbelasting 8.044 1.834
+Te ontvangen aflossingen 15.000 60.000
+
+Nog te ontvangen en vooruit betaalde
+bedragen 338 810
+
+165.075 74.469
+
+Liquide middelen (26) 48.761 115.204
+
+2.112.131 1.823.618
+
+Controleverklaring afgegeven d.d. 28-09-2021 57
+
+MEP,
+2) Ateli
+
+audit only
+
+PASSIEF
+
+Eigen vermogen (27)
+
+Kapitaal
+Overige reserves
+
+Kortlopende schulden (28)
+
+Schulden aan leveranciers en
+handelskredieten
+
+Vennootschapsbelasting
+Loonheffing
+Pensioenen
+
+Nog te betalen en vooruit ontvangen
+bedragen
+
+31 december 2020 31 december 2019
+€ € € €
+18.000 18.000
+1.975.989 1.736.877
+1.993.989 1.754.877
+40.715 25.270
+578 4.738
+10.008 -
+- 21.730
+66.841 17.003
+118.142 68.741
+2.112.131 1.823.618
+
+Controleverklaring afgegeven d.d. 28-09-2021
+
+
+mep.
+saudit
+
+audit only
+
+BETER THUIS WONEN HOLDING B.V.
+
+8 ENKELVOUDIGE WINST-EN-VERLIESREKENING OVER 2020
+
+2020 2019
+€ € € €
+
+Overige bedrijfsopbrengsten (29) 77.837 82.775
+Kosten
+Lonen en salarissen (30) 264.584 -
+Pensioenlasten (31) -21.730 21.730
+Personeel niet in loondienst (32) -252,484 20.000
+Afschrijvingen immateriële vaste activa 1.167 -
+Kantoorkosten (34) - 289
+Algemene kosten (36) 52.927 52.599
+
+44.464 94.618
+Bedrijfsresultaat 33.373 -11.843
+Rentebaten en soortgelijke
+opbrengsten (37) 3.695 5.353
+Rentelasten en soortgelijke kosten __ (38) -667 -
+Financiële baten en lasten 3,028 5.353
+Resultaat voor belastingen 36.401 -6.490
+Belastingen (39) -6.006 1.298
+
+30.395 -5.192
+Resultaat deelnemingen (40) 208.717 407.984
+Resultaat na belastingen 239.112 402.792
+
+Controleverklaring afgegeven d.d. 28-09-2021 59
+
+
+Mep.
+s audit
+
+audit only
+
+BETER THUIS WONEN HOLDING B.V.
+
+9 ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE ENKELVOUDIGE JAARREKENING
+
+De geconsolideerde jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW
+en de stellige uitspraken van de Richtlijnen voor de jaarverslaggeving, die uitgegeven zijn door de Raad voor de
+Jaarverslaggeving.
+
+Voor de algemene grondslagen voor de opstelling van de jaarrekening, de grondslagen voor de waardering van activa en
+passiva en de bepaling van het resultaat, alsmede de toelichting op de onderscheidende activa en passiva en de
+resultaten wordt verwezen naar de toelichting op de geconsolideerde jaarrekening, voor zover hierna niets anders
+wordt vermeld.
+
+Financiële vaste activa
+
+Deelnemingen in groepsmaatschappijen waarin invloed van betekenis op het zakelijke en financiële beleid wordt
+uitgeoefend, worden gewaardeerd op de nettovermogenswaarde, doch niet lager dan nihil. Deze
+nettovermogenswaarde wordt berekend op basis van de grondslagen van Beter Thuis Wonen Holding B.V.
+Deelnemingen met een negatieve nettovermogenswaarde worden op nihil gewaardeerd. Wanneer de vennootschap
+geheel of ten dele instaat voor schulden van de desbetreffende deelneming, wordt een voorziening gevormd, primair
+ten laste van de vorderingen op deze deelneming en voor het overige onder de voorzieningen ter grootte van het
+resterende aandeel in de door de deelneming geleden verliezen, dan wel voor de verwachte betalingen door de
+vennootschap ten behoeve van deze deelnemingen.
+
+Controleverklaring afgegeven d.d. 28-09-2021 60
+
+Mep
+5 audit
+
+audit only
+
+BETER THUIS WONEN HOLDING B.V.
+
+10 TOELICHTING OP DE ENKELVOUDIGE BALANS PER 31 DECEMBER 2020
+
+ACTIVA
+
+VASTE ACTIVA
+
+23. Immateriële vaste activa
+
+Goodwill
+€
+
+Boekwaarde per 1 januari 2020 -
+Bij: investeringen 70.000
+Afschrijvingen -1.167
+Boekwaarde per 31 december 2020 68.833
+- aanschafwaarde 70.000
+- cumulatieve afschrijvingen -1.167
+Boekwaarde per 31 december 2020 68.833
+Afschrijvingspercentages
+
+%
+Goodwill 10
+
+De immateriële vaste activa hebben een geschatte economische levensduur van 10 jaar. Gedurende de economische
+levensduur worden de immateriële vaste activa naar tijdsgelang lineair afgeschreven. De afschrijvingen worden onder
+de post afschrijvingen immateriële vaste activa in de geconsolideerde winst-en-verliesrekening verantwoord. Er is geen
+actief dat van groot belang is voor de onderneming opgenomen onder de immateriële vaste activa.
+
+Controleverklaring afgegeven d.d. 28-09-2021
+
+Mep.
+s audit
+
+audit only
+
+BETER THUIS WONEN HOLDING B.V.
+
+24. Financiële vaste activa
+
+Deelnemingen in groepsmaatschappijen
+
+2020 2019
+€ €
+
+Beter Thuis Wonen Thuiszorg B.V.
+Stand per 1 januari 1.431.066 1.061.690
+Aandeel in het resultaat 192.723 369.376
+Stand per 31 december 1.623.789 1.431.066
+Beter Thuis Wonen Bemiddeling B.V.
+Stand per 1 januari 60.621 45.652
+Aandeel in het resultaat 15.386 14.969
+Stand per 31 december 76.007 60.621
+Beter Thuis Wonen Groningen B.V.
+Stand per 1 januari - -
+Waardeverminderingen - 158.152
+Terugname waardevermindering -28.936 -
+Aandeel in het resultaat 28.936 -158.152
+Stand per 31 december - -
+Beter Thuis Wonen Huishoudelijke Ondersteuning B.V.
+Stand per 1 januari - -
+Waardeverminderingen 21.818 =
+Terugname waardevermindering - -46.780
+Aandeel in het resultaat -21.818 46.780
+
+Stand per 31 december - -
+
+Controleverklaring afgegeven d.d. 28-09-2021 62
+
+M&pD,.
+e) ati
+
+audit only
+
+BETER THUIS WONEN HOLDING B.V.
+
+Andere deelnemingen
+
+2020 2019
+€ €
+
+De Wijkzorg Meppel B.V.
+Stand per 1 januari 1 1
+Waardeverminderingen 30.860 -24.798
+Aandeel in het resultaat -30.860 24.798
+Stand per 31 december 1 1
+Thuiszorg Multihulp B.V.
+Stand per 1 januari 94.263 70.624
+Aandeel in het resultaat 608 23.639
+Stand per 31 december 94.871 94.263
+Huis te Zeijen B.V,
+Stand per 1 januari 1 1
+Waardeverminderingen 3.903 -
+Aandeel in het resultaat. -3.903 -
+Stand per 31 december 1 1
+Vorderingen op participanten en maatschappijen waarin wordt deelgenomen
+Lening u/q Huis te Zeijen B.V.
+Stand per 1 januari 32.993 133.900
+Mutaties - 1.100
+
+32.993 135.000
+Rente 1.800 1.795
+Voorziening - -103.802
+Stand per 31 december 34.793 32.993
+
+Over het gemiddeld uitstaande saldo van de rekening-courant wordt 5,00% rente berekend.
+
+Controleverklaring afgegeven d.d. 28-09-2021 63 S
+
+MEP,
+&) At dei
+
+audit only
+
+BETER THUIS WONEN HOLDING BV,
+
+Overige vorderingen
+
+2020 2019
+
+€ €
+Lening AndersÒm ThuisBegeleiding B.V.
+Stand per 1 januari 75.000 -
+Verstrekte leningen - 75.000
+Aflossing -60.000 -
+Stand per 31 december 15.000 75.000
+Aflossingsverplichting 2021 -15.000 -60.000
+Langlopend deel per 31 december - 15.000
+VLOTTENDE ACTIVA
+25. Debiteuren en overige vorderingen
+
+31-12-2020 31-12-2019
+€ €
+
+Handelsdebiteuren
+Vorderingen op debiteuren - 11.825
+Vorderingen op groepsmaatschappijen
+Beter Thuis Wonen Thuiszorg B.V. 102.790 -
+Beter Thuis Wonen Bemiddeling B.V. 2.086 B
+Beter Thuis Wonen Groningen BN. 17.060 -
+Beter Thuis Wonen Huishoudelijke Ondersteuning BV. 14.145 -
+
+136.081 -
+Vorderingen op overige verbonden maatschappijen
+Wijkzorg Meppel BV. 1.152 -
+Thuiszorg Multihulp B.V. 4,460 -
+
+5.612
+
+Controleverklaring afgegeven d.d. 28-09-2021 64
+
+
+M&PD.
+2) Ae
+
+audit only
+
+BETER THUIS WONEN HOLDING BV,
+
+31-12-2020 31-12-2019
+€ €
+
+Overige belastingen en premies sociale verzekeringen
+Omzetbelasting 8,044 1.834
+Te ontvangen aflossingen
+Te ontvangen aflossingen 15.000 60.000
+Nog te ontvangen en vooruit betaalde bedragen
+Vordering nettolonen 338 =
+Överige vorderingen - 810
+
+338 810
+26. Liquide middelen
+Rabobank Rekening-courant (NL38 RABO 0349 6374 23) 48.761 115.204
+Controleverklaring afgegeven d.d. 28-09-2021 65
+
+
+MEP,
+a Stet
+
+audit only
+
+BETER THUIS WONEN HOLDING B.V,
+
+PASSIVA
+
+27. Eigen vermogen
+
+Kapitaal
+
+Geplaatst en volgestort zijn 18.000 gewone aandelen nominaal € 1,00
+
+De aandelen worden beheerd door de volgende aanheelhouders:
+- Berk Beheer en Ontwikkeling B.V, 50%
+- WE Ventures B.V, 50%
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+31-12-2020 31-12-2019
+
+€ €
+
+18.000 18.000
+2020 2019
+
+€ €
+1.736.877 1.334.086
+239.112 402.791
+1.975.989 1.736.877
+
+De directie stelt voor om de winst over 2020 bedraagt € 239.112 toe te voegen aan de overige reserves.
+
+Vooruitlopend op de vaststelling door de algemene vergadering is dit voorstel reeds in de jaarrekening verwerkt.
+
+Aansluiting op het vennootschappelijk vermogen
+
+Geconsolideerd eigen vermogen en resultaat: 1.015.374 783.077
+Beter Thuis Wonen Groningen BV. met negatief eigen vermogen 549.862 564.865
+Beter Thuis Wonen Huishoudelijke Ondersteuning B.V. met negatief eigen
+
+vermogen 428.753 406.935
+Enkelvoudig eigen vermogen 1.993.989 1.754.877
+Aansluiting op vennootschappelijk vermogen via resultaat
+
+Geconsolideerd resultaat 246.230 259.940
+Beter Thuis Wonen Groningen BV. met negatief eigen vermogen -28.936 148.863
+Beter Thuis Wonen Huishoudelijke Ondersteuning BV. met negatief eigen
+
+vermogen 21.818 -6.011
+Enkelvoudig resultaat 239.112 402.792
+Controleverklaring afgegeven d.d. 28-09-2021 66
+
+
+MEP.
+ei Ae
+
+audit only
+
+BETER THUIS WONEN HOLDING BV.
+
+28. Kortlopende schulden
+
+31-12-2020 31-12-2019
+
+€ €
+Schulden aan leveranciers en handelskredieten
+Crediteuren 40.715 25.270
+Vennootschapsbelasting
+Vennootschapsbelasting 2020 5.676 -
+Vennootschapsbelasting 2019 1.298 4.738
+Vennootschapsbelasting 2018 -6.036 -
+Vennootschapsbelasting oudere jaren -360 -
+578 4.738
+
+Overige belastingen en premies sociale verzekeringen
+Loonheffing 10.008 -
+Pensioenen - 21.730
+
+10.008 21.730
+Nog te betalen en vooruit ontvangen bedragen
+Mulderij en Partners, accountantskosten 37.625 17.000
+Reservering vakantiedagen 29.197 -
+Tussenrekeningen personeel 2 -
+Overige nog te betalen bedragen 17
+Diversen w.o. accountantskosten -
+
+66.841 17.003
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+Fiscale eenheid
+
+De vennootschap maakt deel uit van de fiscale eenheid voor de omzetbelasting van Beter Thuis Wonen Holding B.V. Op
+grond daarvan is de vennootschap hoofdelijk aansprakelijk voor de belastingschuld van de fiscale eenheid als geheel.
+
+Controleverklaring afgegeven d.d. 28-09-2021 67 EÁ
+
+M&P.
+Baudi
+
+audit oniy
+
+BETER THUIS WONEN HOLDING B.V.
+
+Meerjarige financiële verplichtingen
+Investeringsregelingen
+
+Bij desinvestering van activa waarvoor investeringsaftrek is genoten, bestaat een verplichte desinvesteringsbijtelling
+gedurende, in het algemeen, vijf jaar vanaf het moment van investering in de activa.
+
+Controleverklaring afgegeven d.d. 28-09-2021 68
+
+MEP,
+Bae
+
+audit only
+
+BETER THUIS WONEN HOLDING B.V.
+
+11 TOELICHTING OP DE ENKELVOUDIGE WINST-EN-VERLIESREKENING OVER 2020
+
+2020 2019
+
+€ €
+29. Overige bedrijfsopbrengsten
+Doorbelaste kosten 77.837 82.775
+Personeelskosten
+30. Lonen en salarissen
+Bruto lonen 231.189 -
+Mutatie reservering vakantiedagen en -geld 33.395 -
+
+264.584 -
+31. Pensioenlasten
+Pensioen premies -21.730 21.730
+32. Personeel niet in loondienst
+Doorberekende managementkosten -252.484 20.000
+33. Overige personeelskosten
+Reiskostenvergoeding 2.274 -
+Onkostenvergoeding 237 -
+
+2.511 =
+
+Doorbelaste overige personeelskosten -2.511 -
+
+Personeelsleden
+Gedurende het jaar 2020 waren 2 werknemers in dienst op basis van een volledig dienstverband (2019: geen personeel).
+
+Afschrijvingen op immateriële en materiële vaste activa
+Afschrijvingen immateriële vaste activa
+
+Goodwill 1.167 -
+
+Controleverklaring afgegeven d.d. 28-09-2021 69
+
+mep.
+audit
+
+audit oniy
+
+BETER THUIS WONEN HOLDING BV.
+
+Overige bedrijfskosten
+
+2020 2019
+€ €
+34. Kantoorkosten
+Kosten automatisering - 289
+35. Verkoopkosten
+Representatiekosten 241 -
+241 -
+Doorbelaste verkoopkosten -241 -
+36. Algemene kosten
+Accountantskosten 50.287 36.360
+Advieskosten 1.974 9.171
+Assurantiën 666 1.816
+Mutatie voorziening lening Huis te Zeijen B 5.251
+Overige algemene kosten - 1
+52.927 52.599
+Financiële baten en lasten
+37. Rentebaten en soortgelijke opbrengsten
+Ontvangen rente rekening-courant banken - 351
+Rente Belastingdienst - 122
+Rente vordering Beter Thuis Wonen Thuiszorg B.V. - 966
+Rente vordering Huis te Zeijen B.V. 1.800 1.795
+Rente vordering AndersOm ThuisBegeleiding B.V. 1.895 2.119
+3.695 5.353
+38. Rentelasten en soortgelijke kosten
+Rente & kosten rekening-courant banken 225 -
+Rente & kosten Belastingdienst 442 -
+667 -
+
+Controleverklaring afgegeven d.d. 28-09-2021 70
+
+Mep.
+zaudit
+
+audit only
+
+BETER THUIS WONEN HOLDING BV.
+
+39. Belastingen
+
+Vennootschapsbelasting
+Vennootschapsbelasting voorgaande jaren
+
+40. Resultaat deelnemingen
+
+Aandeel resultaat Beter Thuis Wonen Holding B.V.
+Aandeel resultaat Beter Thuis Wonen Thuiszorg BV.
+Aandeel resultaat Thuiszorg Multihulp BV
+
+2020 2019
+€ €
+
+-6.006 5
+- 1.298
+-6,006 1.298
+15.386 14.969
+192.723 369.376
+608 23.639
+208.717 407.984
+
+Controleverklaring afgegeven d.d. 28-09-2021
+
+
+Mm&p,
+s audit
+
+audit only
+
+BETER THUIS WONEN HOLDING B.V.
+
+12 OVERIGE TOELICHTING
+
+Belangrijke gebeurtenissen na balansdatum
+
+Het aandelenbelang in deelneming Beter Thuis Wonen Multihulp BV. is op 24 februari 2021 uitgebreid van 30% naar
+50%,
+
+Het aandelenbelang in deelneming Huis te Zijen BM. (50%) is op 13 september 2021 verkocht voor €14.156.
+
+Ondertekening van de jaarrekening
+
+Opmaak jaarrekening
+De geconsolideerde en enkelvoudige jaarrekening is aldus opgemaakt door het bestuur.
+
+Hoogeveen, 28 september 2021
+Beter Thuis Wonen Holding BV.
+Namens deze,
+
+E.A. Beekman
+
+Controleverklaring afgegeven d.d. 28-09-2021
+
+
+Map.
+a audit
+
+audit only
+
+BETER THUIS WONEN HOLDING BV.
+
+OVERIGE GEGEVENS
+
+1 Statutaire regeling winstbestemming
+
+Op grond van artikel 20 van de statuten staat de winst ter beschikking van de Algemene Vergadering.
+
+73
+
+MEP.
+Patio
+
+audit only
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE
+ACCOUNTANT
+
+Aan: de bestuur en toezichthouders van Beter Thuis Wonen Holding B.V.
+
+A. Verklaring over de in het jaarverslag opgenomen jaarrekening 2020
+
+Ons oordeel
+Wij hebben de jaarrekening 2020 van Beter Thuis Wonen Holding B.V. te Meppen gecontroleerd.
+
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening een getrouw beeld van de grootte en
+de samenstelling van het vermogen van Beter Thuis Wonen Holding B.V. per 31 december 2020 en van
+het resultaat over 2020 in overeenstemming met Titel 9 Boek 2 BW.
+
+De jaarrekening bestaat uit:
+
+|L. de geconsolideerde en enkelvoudige balans per 31 december 2020;
+
+2. de geconsolideerde en enkelvoudige winst- en verliesrekening over 2020; en
+
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële verslaggeving en
+andere toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de Nederlandse
+controlestandaarden vallen. Onze verantwoordelijkheden op grond hiervan zijn beschreven in de sectie
+‘Onze verantwoordelijkheden voor de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Beter Thuis Wonen Holding B.V. zoals vereist in de Wet toezicht
+accountantsorganisaties (Wta), de Verordening inzake de onafhankelijkheid van accountants bij
+assurance-opdrachten (ViO) en andere voor de opdracht relevante onafhankelijkheidsregels in Nederland.
+Verder hebben wij voldaan aan de Verordening gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis voor
+ons oordeel.
+
+B. Verklaring over de in het jaarverslag opgenomen andere informatie
+Naast de jaarrekening en onze controleverklaring daarbij, omvat het jaarverslag andere informatie, die
+bestaat uit:
+
+- het bestuursverslag;
+- de overige gegevens.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie:
+
+- met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+-_alle informatie bevat die op grond van Titel 9 Boek 2 BW is vereist.
+
+
+MEP.
+ati
+
+audit only
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip, verkregen
+vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie materiële afwijkingen
+bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in Titel 9 Boek 2 BW en de Nederlandse
+Standaard 720. Deze werkzaamheden hebben niet dezelfde diepgang als onze controlewerkzaamheden bij
+de jaarrekening. Het bestuur is verantwoordelijk voor het opstellen van het bestuursverslag en de overige
+gegevens in overeenstemming met Titel 9 Boek 2 BW.
+
+C. Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+Verantwoordelijkheden van het bestuur voor de jaarrekening
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met Titel 9 Boek 2 BW. In dit kader is het bestuur verantwoordelijk voor een zodanige
+interne beheersing die het bestuur noodzakelijk acht om het opmaken van de jaarrekening mogelijk te
+maken zonder afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de onderneming in staat is om haar
+werkzaamheden in continuïteit voort te zetten. Op grond van genoemd verslaggevingsstelsel moet het
+bestuur de jaarrekening opmaken op basis van de continuïteitsveronderstelling, tenzij het bestuur het
+voornemen heeft om de vennootschap te liquideren of de bedrijfsactiviteiten te beëindigen of als
+beëindiging het enige realistische alternatief is. Het bestuur moet gebeurtenissen en omstandigheden
+waardoor gerede twijfel zou kunnen bestaan of de onderneming haar bedrijfsactiviteiten in continuïteit
+kan voortzetten, toelichten in de jaarrekening.
+
+De raad van commissarissen is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving van de vennootschap.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat wij daarmee
+voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid waardoor het
+mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien redelijkerwijs kan
+worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen zijn op de economische
+beslissingen die gebruikers op basis van deze jaarrekening nemen. De materialiteit beïnvloedt de aard,
+timing en omvang van onze controlewerkzaamheden en de evaluatie van het effect van onderkende
+afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse controlestandaarden,
+ethische voorschriften en de onafhankelijkheidseisen. Onze controle bestond onder andere uit:
+
+- het identificeren en inschatten van de risico's dat de jaarrekening afwijkingen van materieel
+belang bevat als gevolg van fouten of fraude, het in reactie op deze risico's bepalen en uitvoeren van
+controlewerkzaamheden en het verkrijgen van controle-informatie die voldoende en geschikt is als
+basis voor ons oordeel. Bij fraude is het risico dat een afwijking van materieel belang niet ontdekt
+wordt groter dan bij fouten. Bij fraude kan sprake zijn van samenspanning, valsheid in geschrifte, het
+opzettelijk nalaten transacties vast te leggen, het opzettelijk verkeerd voorstellen van zaken of het
+doorbreken van de interne beheersing;
+
+
+M&
+Ee
+
+audit only
+
+-__het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als doel
+controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze werkzaamheden
+hebben niet als doel om een oordeel uit te spreken over de effectiviteit van de interne beheersing
+van de entiteit;
+
+= het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële verslaggeving en het
+evalueren van de redelijkheid van schattingen door het bestuur en de toelichtingen die daarover in de
+jaarrekening staan;
+
+= het vaststellen dat de door het bestuur gehanteerde continuïteitsveronderstelling aanvaardbaar is.
+Tevens het op basis van de verkregen controle-informatie vaststellen of er gebeurtenissen en
+omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of de onderneming haar
+bedrijfsactiviteiten in continuïteit kan voortzetten. Als wij concluderen dat er een onzekerheid van
+materieel belang bestaat, zijn wij verplicht om aandacht in onze controleverklaring te vestigen op de
+relevante gerelateerde toelichtingen in de jaarrekening. Als de toelichtingen inadequaat zijn, moeten
+wij onze verklaring aanpassen. Onze conclusies zijn gebaseerd op de controle-informatie die
+verkregen is tot de datum van onze controleverklaring. Toekomstige gebeurtenissen of
+omstandigheden kunnen er echter toe leiden dat een onderneming haar continuïteit niet langer kan
+handhaven;
+
+=_het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin opgenomen
+toelichtingen; en
+
+=_het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties en
+gebeurtenissen.
+
+Gegeven onze eindverantwoordelijkheid voor het oordeel zijn wij verantwoordelijk voor de aansturing
+van, het toezicht op en de uitvoering van de groepscontrole. In dit kader hebben wij de aard en omvang
+bepaald van de uit te voeren werkzaamheden voor de groepsonderdelen. Bepalend hierbij zijn de omvang
+en/of het risicoprofiel van de groepsonderdelen of de activiteiten. Op grond hiervan hebben wij de
+groepsonderdelen geselecteerd waarbij een controle of beoordeling van de volledige financiële informatie
+of specifieke posten noodzakelijk was.
+
+Wij communiceren met de raad van commissarissen onder andere over de geplande reikwijdte en timing
+van de controle en over de significante bevindingen die uit onze controle naar voren zijn gekomen,
+waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Wij bevestigen aan de raad van commissarissen dat wij de relevante ethische voorschriften over
+onafhankelijkheid hebben nageleefd. Wij communiceren ook met de met raad over alle relaties en andere
+
+zaken die redelijkerwijs onze onafhankelijkheid kunnen beïnvloeden en over de daarmee verband
+houdende maatregelen om onze onafhankelijkheid te waarborgen.
+
+Hoogeveen, 28-09-2021
+
+M&P Audit B.V.
+
+w.g. R. Bouwmeester RA
+

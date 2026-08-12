@@ -1,0 +1,1172 @@
+# whosigns-ocr v1 grootte=1038499 dpi=300 paginas=20
+Esila Thuiszorg B.V.
+
+5.1.1 BALANS PER 31 DECEMBER 2021
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Immateriële vaste activa
+Materiële vaste activa
+Financiële vaste activa
+Totaal vaste activa
+
+Vlottende activa
+
+Vorderingen uit hoofde van financieringstekort
+Debiteuren en overige vorderingen
+
+Liquide middelen
+
+Totaal vlottende activa
+
+Totaal activa
+
+PASSIVA
+
+Eigen vermogen
+
+Kapitaal
+
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Voorzieningen
+
+Langlopende schulden (nog voor meer
+dan een jaar)
+
+Kortlopende schulden (ten hoogste 1 jaar)
+Overige kortlopende schulden
+Totaal kortlopende schulden (ten hoogste 1 jaar)
+
+Totaal passiva
+
+Pagina 3
+
+Ref. 31-dec-21 31-dec-20
+€ €
+
+1 50.098 6.134
+50.098 6.134
+
+2 22.601 -
+
+3 292.237 325.999
+
+4 177.013 288.668
+491.851 614.667
+
+541.949 620.801
+Ref. 31-dec-21 31-dec-20
+€ €
+
+5
+
+2.000 2.000
+
+441.370 434.007
+
+443.370 436.007
+
+6 98.579 184.794
+98.579 184.794
+
+541.949 620.801
+
+
+Esila Thuiszorg B.V.
+
+5.1.2 RESULTATENREKENING OVER 2021
+
+Ref. 2021 2020
+€ €
+
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties (en maatschappelijke ondersteuning) 9 447.673 573.270
+Subsidies 10 114.235 29.380
+Overige bedrijfsopbrengsten - -
+Som der bedrijfsopbrengsten 561.908 602.650
+
+BEDRIJFSLASTEN:
+
+Personeelskosten 11 404.894 543.725
+Afschrijvingen op materiële vaste activa 12 2.466 13.652
+Bijzondere waardeverminderingen van vaste activa - -
+Overige bedrijfskosten 13 145.852 120.409
+Som der bedrijfslasten 553.212 677.786
+BEDRIJFSRESULTAAT 8.696 -75.136
+Financiële baten en lasten 14 442 1.726
+Belastingen over resultaat -1.775 11.392
+RESULTAAT BOEKJAAR 1.363 -62.018
+
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2021 2020
+Toevoeging/(onttrekking): ° $
+Algemene / overige reserves 7.363 -62.018
+7.363 -62.018
+
+Pagina 4
+
+
+Esila Thuiszorg B.V.
+
+5.1.3 KASSTROOMOVERZICHT OVER 2021
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+- afschrijvingen en overige waardeverminderingen
+- mutaties voorzieningen
+
+- boekresultaten afstoting vaste activa
+
+Veranderingen in werkkapitaal:
+
+- voorraden
+
+- vorderingen
+
+- kortlopende schulden (excl. schulden aan banken)
+
+Kasstroom uit bedrijfsoperaties
+
+Ontvangen interest
+Betaalde interest
+Betaalde belastingen
+Ontvangen dividenden
+
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa
+Desinvesteringen materiële vaste activa
+Investeringen in overige financiële vaste activa
+Desinvesteringen overige financiële vaste activa
+
+Totaal kasstroom uit investeringsactiviteiten
+
+Kasstroom uit financieringsactiviteiten
+Nieuw opgenomen leningen
+
+Aflossing langlopende schulden
+Kortlopend bankkrediet
+
+Totaal kasstroom uit financieringsactiviteiten
+
+Mutatie geldmiddelen
+
+Stand geldmiddelen per 1 januari
+Stand geldmiddeten per 31 december
+Mutatie geldmiddelen
+
+Ref. 2021 2020
+
+€ € € €
+
+8.696 -75.136
+12 2.466 3.353
+12 - 10.299
+
+2.466 13.652
+2/3 11.161 78.231
+6 -86.215 87.008
+
+-15.054 165.239
+
+-63.892 103.755
+14 1.311 1.726
+14 -869 s
+-1.775 11.392
+
+-1.333 13.118
+
+-65.225 116.873
+1 -46.430 -5.226
+- 49.653
+
+-46.430 44.427
+
+-111.655 161.300
+
+288.668 127.368
+
+177.013 288.668
+
+-111.655 161.300
+
+Toelichting:
+
+Pagina 5
+
+
+Esila Thuiszorg B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+5.1.4.1 Algemeen
+
+Activiteiten
+
+Zorginstelling Esila Thuiszorg B.V. is statutair (en feitelijk) gevestigd te Rotterdam, op het adres Nieuwe
+Binnenweg 507, en is geregistreerd onder KvK-nummer 62984594.
+
+De belangrijkste activiteiten bestaan uit de de levering van thuiszorg.
+
+Groepsverhoudingen
+Esila Thuiszorg B.V. maakt deel uit van een groep, waarvan Esila Holding te Rotterdam aan het hoofd
+staat.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2021, dat is geëindigd op balansdatum 31 december 2021
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi (RvW) en daarmee de
+Richtlijn voor de Jaarverslaggeving hoofdstuk 655 Zorginstellingen.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Continuiteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuiteitsveronderstelling.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar.
+
+Vergelijkende cijfers
+De cijfers voor 2020 zijn onttrokken uit de jaarrekening 2020.
+
+Oordelen en schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde
+waarde van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen
+afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend
+beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt
+herzien en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+Pagina 6
+
+Esila Thuiszorg B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.2 Grondslagen van waardering van activa en passiva
+
+Verbonden rechtspersonen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling en een
+natuurlijk persoon of entiteit die verbonden is met de instelling. Dit betreffen onder meer de relaties tussen de
+instelling en haar deelnemingen, de aandeelhouders, de bestuurders en de functionarissen op sleutelposities.
+Onder transacties wordt verstaan een overdracht van middelen, diensten of verplichtingen, ongeacht of er een
+bedrag in rekening is gebracht.
+
+De instelling heeft de volgende verbonden instellingen en vennootschappen:
+-Esila Holding B.V. (100% aandeelhouder), Rotterdam, Holding, eigen vermogen van € 438.746 ultimo
+2020 en een resultaat na belastingen van € 69.283 (negatief) over 2020.
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld
+in de verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht
+zijn in de jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar de onderneming zullen toevtoeien en het actief een kostprijs of een waarde heeft waarvan
+de omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de balans
+verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan
+gepaard zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de omvang
+van het bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden vastgesteld.
+Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan voldoen
+worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans opgenomen
+verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet leidt
+tot een belangrijke verandering in de economische realiteit met betrekking tot het actief of de verplichting.
+Dergelijke transacties geven evenmin aanleiding tot het verantwoorden van resultaten. Bij de beoordeling
+
+of er sprake is van een belangrijke verandering in de economische realiteit wordt uitgegaan van de
+economische voordelen en risico's die zich naar waarschijnlijk in de praktijk zullen voordoen, en niet op
+voordelen en risico's waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle
+of nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met betrekking tot
+
+het actief of de verplichting aan een derde zijn overgedragen. De resultaten van de transactie worden in
+dat geval direct in de winst-en-verliesrekening opgenomen, rekening houdend met eventuele voorzieningen
+die dienen te worden getroffen in samenhang met de transactie. Indien de weergave van de economische
+realiteit ertoe leidt dat het opnemen van activa waarvan de rechtspersoon niet het juridisch eigendom bezit,
+wordt dit feit vermeld.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van Esila Thuiszorg B.V.
+
+Materiële vaste activa
+De materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek
+van cumulatieve afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingstermijnen van materiële vaste activa zijn gebaseerd op de verwachte economische
+levensduur van het vast actief.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs
+volgens de lineaire methode op basis van de verwachte economische levensduur. Er wordt afgeschreven
+vanaf het moment van ingebruikneming. Op vaste activa in ontwikkeling en
+
+vooruitbetalingen op materiële vaste activa wordt niet afgeschreven.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+* Andere vaste bedrijfsmiddelen: 20%.
+
+Vaste activa - bijzondere waardeverminderingen
+
+Vaste activa met een lange levensduur worden beoordeeld op bijzondere waardeverminderingen wanneer
+
+wijzigingen of omstandigheden zich voordoen die doen vermoeden dat de boekwaarde van een actief niet
+
+terugverdiend zat worden. Als dergelijke indicaties aanwezig zijn, wordt de realiseerbare waarde van het
+Pagina 7
+
+Esila Thuiszorg B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+actief geschat. De realiseerbare waarde is de hoogste van de bedrijfswaarde en de opbrengstwaarde. De
+terugverdienmogelijkheid van activa die in gebruik zijn, wordt bepaald door de boekwaarde van een actief
+te vergelijken met de opbrengstwaarde of de bedrijfswaarde zijnde de geschatte contante waarde
+
+van de toekomstige netto kasstromen die het actief naar verwachting zal genereren.
+
+Wanneer de boekwaarde van een actief hoger is dan de geschatte contante waarde van de toekomstige
+kasstromen, worden bijzondere waardeverminderingen verantwoord voor het verschil tussen de
+boekwaarde en de realiseerbare waarde.
+
+Vervreemding van vaste activa
+Voor verkoop beschikbare activa worden gewaardeerd tegen boekwaarde of lagere opbrengstwaarde.
+
+Financiële instrumenten
+
+Financiële instrumenten omvatten handels- en overige vorderingen, geldmiddelen, leningen en overige
+financieringsverplichtingen, handelsschulden en overige te betalen posten en afgeleide financiële
+instrumenten (derivaten).
+
+Financiële instrumenten omvatten tevens in contracten besloten afgeleide financiële instrumenten
+(derivaten). Deze worden door de instelling gescheiden van het basiscontract en apart verantwoord indien
+de economische kenmerken en risico's van het basiscontract en het daarin besloten derivaat niet nauw
+verwant zijn, indien een apart instrument met dezelfde voorwaarden als het in het contract besloten
+derivaat aan de definitie van een derivaat zou voldoen en het gecombineerde instrument niet wordt
+gewaardeerd tegen reële waarde met verwerking van waardeveranderingen in de resultatenrekening.
+Financiële instrumenten, inclusief de van de basiscontracten gescheiden afgeleide financiële instrumenten,
+worden bij de eerste opname verwerkt tegen reële waarde, waarbij (dis}agio en de direct toerekenbare
+transactiekosten in de eerste opname worden meegenomen. Indien instrumenten niet zijn gewaardeerd
+tegen reële waarde met verwerking van waardeveranderingen in de resultatenrekening, maken eventuele
+direct toerekenbare transactiekosten deel uit van de eerste waardering.
+
+In contracten bestoten financiële instrumenten die niet worden gescheiden van het basiscontract, worden
+verwerkt in overeenstemming met het basiscontract.
+
+Voor de grondslagen van primaire financiële instrumenten wordt verwezen naar de behandeling per balanspost.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reêle waarde, inclusief transactiekosten. (Door toepassing
+van de effectieve rentemethode worden transactiekosten als onderdeel van de amortisatie in de winst-
+
+en verliesrekening verwerkt). De vervolgwaardering van vorderingen is tegen geamortiseerde kostprijs
+(indien geen sprake van agio/disagio of transactiekosten dan geamortiseerde kostprijs gelijk aan nominale
+waarde). Een voorziening wordt getroffen op de vorderingen op grond van verwachte oninbaarheid.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan
+twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan
+kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de nominale
+waarde.
+
+Liquide middelen die naar verwachting langer dan 12 maanden niet ter beschikking staan van de
+onderneming, worden gerubriceerd als financiële vaste activa.
+
+Eigen vermogen
+Binnen het eigen vermogen wordt onderscheid gemaakt tussen Kapitaal en Algemene en overige reserves.
+
+Kapitaal
+Onder kapitaal is opgenomen het bij oprichting van de vennootschap volgestort aandelenkapitaal.
+
+Algemene en overige reserves
+Onder Algemene en overige reserves is opgenomen dat deel van het eigen vermogen, waarover de bevoegde
+organen binnen de statutaire doelstellingen van de instelling vrij kunnen beschikken.
+
+Voorzieningen (algemeen)
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de
+balansdatum bestaan en die het gevolg zijn van een gebeurtenis uit het verleden, waarbij het waarschijnlijk
+is dat een uitstroom van middelen noodzakelijk is en waarvan de omvang op betrouwbare wijze is te
+schatten. De voorzieningen worden gewaardeerd tegen nominale waarde van de uitgaven die naar
+verwachting noodzakelijk zijn om de verplichting en verliezen af te wikkelen.
+
+Pagina 8
+
+Esila Thuiszorg B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Wanneer verplichtingen naar verwachting door een derde zullen worden vergoed, wordt deze vergoeding
+als een actief in de balans opgenomen indien het waarschijnlijk is dat deze vergoeding zal worden
+ontvangen bij de afwikkeling van de verplichting.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan
+één jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden
+worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen
+
+de geamortiseerde kostprijs. De aflossingsverplichtingen voor het komend jaar van de langlopende
+schulden worden opgenomen onder kortlopende schulden.
+
+Leasing
+
+De instelling kan financiële en operationele leasecontracten afsluiten. Een leaseovereenkomst waarbij de
+voor- en nadelen verbonden aan het eigendom van het leaseobject geheel of nagenoeg geheel door de lessee
+worden gedragen, wordt aangemerkt als een financiële lease. Alle andere leaseovereenkomsten classificeren
+als operationele leases. Bij de leaseclassificatie is de economische realiteit van de transactie bepalend en niet
+zozeer de juridische vorm. Classificatie van de lease vindt plaats op het tijdstip van het aangaan van de
+betreffende leaseovereenkomst.
+
+Operationele leases
+
+Als de instelling optreedt als lessee in een operationele lease, wordt het leaseobject niet geactiveerd.
+Vergoedingen die worden ontvangen als stimulering voor het afsluiten van een overeenkomst worden verwerkt al
+een vermindering van de leasekosten over de leaseperiode. Leasebetalingen en vergoedingen inzake operatione
+leases worden lineair over de leaseperiode ten laste respectievelijk ten gunste van de resultatenrekening
+gebracht, tenzij een andere toerekeningsystematiek meer representatief is voor het patroon van de met het
+leaseobject te verkrijgen voordelen.
+
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het
+
+economisch potentieel, samenhangend met een vermeerdering van een actief of een vermindering van een
+verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten
+worden verwerkt wanneer een vermindering van het economisch potentieel, samenhangend met een
+vermindering van een actief of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de
+omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend
+aan de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde fout in
+voorgaande boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het
+bedrag van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen
+vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar
+
+kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt
+om de dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden
+gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Overige bedrijfsopbrengsten
+De overige bedrijfsopbrengsten bestaan uit opbrengsten anders dan uit zorgprestaties en maatschappelijke
+ondersteuning en subsidies. De overige opbrengsten kunnen worden verdeeld in opbrengsten voor het leveren v:
+goederen en opbrengsten voor het leveren van diensten.
+
+Pagina 9
+
+Esila Thuiszorg B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Opbrengsten uit de verkoop van goederen worden verwerkt zodra alle belangrijke rechten en risico's met
+betrekking tot de eigendom van de goederen zijn overgedragen aan de koper.
+
+Opbrengsten uit het verlenen van diensten geschieden naar rato van de geleverde prestaties, gebaseerd op de
+verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Personele kosten
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de winst-en-verliesrekening verantwoord in de periode
+waarin de arbeidsprestatie wordt verricht en, voor zover nog niet uitbetaald, als verplichting op de balans
+opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt het meerdere
+opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling door het personeel of
+van verrekening met toekomstige betalingen door de instelling.
+
+Voor de beloningen met opbouw van rechten (sabbatical leave, gratificaties e.d. ) worden de verwachte
+lasten gedurende het dienstverband in aanmerking genomen. Een verwachte vergoeding ten gevolge van
+gratificaties worden verantwoord indien de verplichting tot betaling van die vergoeding is ontstaan op of
+vóór balansdatum en een betrouwbare schatting van de verplichtingen kan worden gemaakt. Toevoegingen
+aan en vrijval van verplichtingen worden ten laste respectievelijk ten gunste van de winst-en-
+verliesrekening gebracht.
+
+Indien een beloning wordt betaald, waarbij geen rechten worden opgebouwd (bijvoorbeeld doorbetaling in
+geval van ziekte of arbeidsongeschiktheid) worden de verwachte lasten verantwoord in de periode
+waarover deze beloning is verschuldigd. Voor op balansdatum bestaande verplichtingen tot het in de
+toekomst doorbetalen van beloningen (inclusief ontslagvergoedingen) aan personeelsleden die op
+batansdatum naar verwachting blijvend geheel of gedeeltelijk niet in staat zijn om werkzaamheden te
+verrichten door ziekte of arbeidsongeschiktheid wordt een voorziening opgenomen. De verantwoorde
+verplichting betreft de beste schatting van de bedragen die noodzakelijk zijn om de desbetreffende
+verplichting op balansdatum af te wikkelen. De beste schatting is gebaseerd op contractuele afspraken met
+personeelsleden (CAO en individuele arbeidsovereenkomsten). Toevoegingen aan en vrijval van
+verplichtingen worden ten laste respectievelijk ten gunste van de winst-en-verliesrekening gebracht.
+
+Pensioenen
+
+Esila Thuiszorg B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking
+komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op
+het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd bij Esila
+Thuiszorg B.V. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht bij
+bedrijfstakpensioenfonds Zorg en Welzijn. Esila Thuiszorg B.V. betaalt hiervoor premies waarvan de helft door
+werkgever wordt betaald en de helft door de werknemer. De pensioenrechten worden jaarlijks
+
+geïndexeerd, indien en voor zover de dekkingsgraad van het pensioenfonds (het vermogen van het
+pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat. Voor pensioenfondsen geldt regel-
+geving met betrekking tot de vereiste dekkingsgraad. De beleidsdekkingsgraad is het gemiddelde van de laatste
+twaalf dekkingsgraden. In maart 2022 bedroeg de beleidsdekkingsgraad 110,2%. Het vereiste niveau van de
+dekkingsgraad is 125%. Het bestuur van PFZW heeft besloten om de pensioenpremie te verhogen in twee
+stappen: per 1 januari 2021 met 1,5 procentpunt en per 1 januari 2022 met 0,8 procentpunt. De premie voor het
+arbeidsongeschiktheidspensioen blijft gelijk. Esila Thuiszorg B.V. heeft geen verplichting tot het voldoen van
+aanvullende bijdragen in geval van een tekort bij het pensioenfonds, anders dan het effect van hogere toekomstic
+premies. Esila Thuiszorg B.V. heeft daarom alleen de verschuldigde premies tot en met het einde van het
+boekjaar in de jaarrekening verantwoord.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en
+aan derden en groepsmaatschappijen betaalde (te betalen) interest. Tevens is hieronder opgenomen de
+waardeveranderingen van financiële vaste activa en effecten.
+
+Subsidies
+
+Subsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra er redelijke
+
+bestaat dat zij zullen worden ontvangen en dat de instelling zal voldoen aan de daaraan verbonden voorwaarden
+Subsidies ter compensatie van door de instelling gemaakte kosten worden systematisch als opbrengsten in de
+resultatenrekening opgenomen in dezelfde periode als die waarin de kosten worden gemaakt.
+
+Belastingen
+
+Belastingen omvatten de over de verslagperiode verschuldigde en verrekenbare winstbelastingen en latente
+
+belastingen. De belastingen worden in de resultatenrekening opgenomen, behalve voor zover deze betrekking
+
+hebben op posten die rechtstreeks in het eigen vermogen worden opgenomen, in welk geval de belasting in het
+Pagina 10
+
+Esila Thuiszorg B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+eigen vermogen wordt verwerkt , of op overnames.
+
+De over het boekjaar verschuldigde en verrekenbare belasting is de naar verwachting te betalen belasting over
+de belastbare winst over het boekjaar, berekend aan de hand van belastingtarieven die zijn vastgesteld op
+verslagdatum, dan wel waartoe materieel al op verslagdatum is besloten, en eventuele correcties op de over
+voorgaande jaren verschuldigde belasting.
+
+5.1.4.4 Grondslagen van segmentering
+In de jaarrekening is geen verdeling van de resultaten per operationeel segment verantwoord.
+
+5.1.4.5 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het
+kasstroomoverzicht bestaan uit de liquide middelen en beleggingen die zonder beperkingen en zonder
+materieel risico van waardeverminderingen als gevolg van de transactie kunnen worden omgezet in
+geldmiddelen.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn
+opgenomen onder de kasstroom uit operationele activiteiten. Betaalde dividenden zijn opgenomen onder de
+kasstroom uit financieringsactiviteiten.
+
+5.1.4.6 Grondslagen voor gebeurtenissen na balansdatum
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan
+de datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in
+de jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de
+gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de
+jaarrekening.
+
+5.1.4.7 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de
+wet- en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Pagina 11
+
+Estla Thuiszorg B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+1, Materiële vaste activa
+31-dec-21 31-dec-20
+De specificatie is als volgt: € €
+Bedrijfsgebouwen en terreinen = -
+Machines en installaties = -
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 50.098 6.134
+Materiële vaste bedrijfsactiva in uitvoering en vooruitbetalingen op materiële vaste activa = =
+Niet aan het bedrijfsproces dienstbare materiële activa = =
+Totaal materiële vaste activa 50.098 6.134
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven: 2021 2020
+€ €
+Boekwaarde per 1 januari 6.134 64.213
+Bij: investeringen 46.430 5.226
+Bij: herwaarderingen - -
+Af: afschrijvingen 2.466 3.353
+Af: bijzondere waardeverminderingen - -
+Bij: terugname bijzondere waardeverminderingen - =
+Af: terugname geheel afgeschreven activa - -
+Af: desinvesteringen - 59.952
+Boekwaarde per 31 december 50.098 6.134
+Toelichting:
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 5.1.6.
+2. Vorderingen uit hoofde van financieringstekort en schulden uit hoofde van financieringsoverschot WLZ
+t/m 2018 2019 2021 totaal
+€ € € €
+Saldo per 1 januari = = = -
+Financieringsverschil boekjaar = = 22.601 22.601
+Correcties voorgaande jaren - - - -
+Betalingen/ontvangsten - = -
+Subtotaal mutatie boekjaar - - 22.601 22.601
+Saldo per 31 december - - 22.601 22.601
+Stadium van vaststelling (per erkenning): a
+a= interne berekening
+b= overeenstemming met zorgverzekeraars
+c= definitieve vaststelling NZa
+31-dec-21 31-dec-20
+€ €
+Waarvan gepresenteerd als:
+- vorderingen uit hoofde van financieringstekort 22.601 =
+- schulden uit hoofde van financieringsoverschot = =
+22.601 -
+Specificatie financieringsverschil in het boekjaar 2021 2020
+€ €
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies) 53-052 =
+Af: vergoedingen ter dekking van het wettelijk budget 30.451 =
+22.601 =
+
+Totaal financieringsverschil
+
+Toelichting:
+
+Pagina 12
+
+
+Esila Thuiszorg B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+3. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Vorderingen op debiteuren 31.665 85.369
+Overige vorderingen:
+Vorderingen op participanten en maatschappijen waarin wordt deelgenomen 178.899 155.576
+Te vorderen vennootschapsbelasting 31.132 28.586
+Nog te factureren opbrengsten 50.175 56.124
+Vooruitbetaalde bedragen 212 344
+Nog te ontvangen bedragen 154 =
+Totaal debiteuren en overige vorderingen 292.237 325.999
+Toelichting:
+Op de vorderingen op debiteuren is geen voorziening voor oninbaarheid in mindering gebracht (2020 nihil).
+De vorderingen op participanten en maatschappijen waarin wordt deelgenomen heeft betrekking op de vordering op
+Esila Holding B.V. € 40.230 (2020 € ) en mevrouw A. Ozcan € 138.669 (2020 € 125.346). Op de vordering op mevrouw
+A. Ozcan is een rentevoet van 1,0% (2020 1,3%) van toepassing.
+4. Liquide middelen
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Bankrekeningen 176.648 288.218
+Kassen 365 450
+Totaal liquide middelen 177.013 288.668
+Toelichting:
+5. Eigen vermogen
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-21 31-dec-20
+€ €
+Kapitaal 2.000 2.000
+Algemene en overige reserves 441.370 434.007
+Totaal eigen vermogen 443.370 436.007
+Kapitaal
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2021 bestemming mutaties 31-dec-2021
+€ € € €
+Kapitaal 2.000 = = 2.000
+Totaal kapitaal 2.000 - - 2.000
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2021 bestemming mutaties 31-dec-2021
+€ € € €
+Overige reserves 434.007 7.363 = 441.370
+Totaal algemene en overige reserves 434.007 71.363 = 441.370
+
+Toelichting:
+
+Pagina 13
+
+
+Esila Thuiszorg B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+6. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+
+€ €
+Crediteuren 35.963 =
+Belastingen en premies sociale verzekeringen 9,108 14.964
+Vennootschapsbelasting . -
+Omzetbelasting 5.745 5.745
+Schulden terzake pensioenen 3.804 3.037
+Nog te betalen salarissen 13.460 21.439
+Reservering vakantiegeld 6.386 7.498
+Nog te betalen kosten 5.692 14.927
+Overige kortlopende schulden 18.421 117.184
+Totaal overige kortlopende schulden 98 579 184.794
+
+Toelichting:
+Onder de overige kortlopende schulden is € 117.075 ultimo 2020 verantwoord aan ontvangen subsidiegelden welke in
+2021 zijn besteed,
+
+7. Financíële instrumenten
+
+Algemeen
+
+De instelling maakt in de normale bedrijfsuitoefening gebruik van uiteenlopende financiële instrumenten die de instelling
+blootstellen aan markt- en/of kredietrisico's. Deze betreffen financiële instrumenten die in de balans zijn opgenomen.
+
+De instelling handelt niet in financiële derivaten en heeft procedures en gedragslijnen om de omvang van het kredietrisico bij
+elke tegenpartij of markt te beperken. Bij het niet nakomen door een tegenpartij van aan de instellingen verschuldigde
+betalingen blijven eventuele daaruit voortvloeiende verliezen beperkt tot de marktwaarde van de desbetreffende
+instrumenten. De contractwaarde of fictieve hoofdsommen van de financiële instrumenten zijn slechts een indicatie van de
+mate waarin van dergelijke financiële instrumenten gebruik wordt gemaakt en niet van het bedrag van de krediet- of
+marktrisico's.
+
+Kredietrisico
+De vorderingen uit hoofde van handelsdebiteuren zijn voornamelijk geconcentreerd bij Zorgverzekeraars, Zorgkantoor
+de Sociale Verzekeringsbank en particulieren. Het kredietrisico voor de vorderingen wordt als beperkt ingeschat.
+
+Renterisico en kasstroomrisico
+
+Het renterisico is beperkt tot eventuele veranderingen in de marktwaarde van opgenomen en uitgegeven leningen. Het risico
+wordt als zeer beperkt ingeschat gezien het kortlopende karakter van de leningen. De instelling heeft als beleid om geen
+afgeleide financiële instrumenten te gebruiken om (tussentijdse) rentefluctuaties te beheersen.
+
+Reële waarde
+
+De reêle waarde van de meeste in de balans verantwoorde financiële instrumenten, waaronder vorderingen, liquide middelen
+en kortlopende schulden, benadert de boekwaarde ervan.
+
+8. Niet ín de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+Toelichting:
+
+Huurverplichtingen
+
+Het jaarlijks bedrag van met derden aangegane huurverplichtingen van onroerende zaken bedraagt voor het komende
+jaar, uitgaande van de stand per 31 december 2021, van circa € 14.500
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde
+zorgprestaties kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De effecten van eventuele materiële
+nacontroles zijn vooralsnog onzeker en daarom zijn er hiervoor geen verplichtingen opgenomen in de balans.
+
+Pagina 14
+
+SL eubed
+
+BJSEA of AIEN
+
+- - %0Z - -
+86005 - ë 860'05 E -
+09/'GL 5 = O9/'GL Ee nl
+858 09 - - 85869 - -
+v96 Ev = = v96 er es
+99p'z “ e ove - _
+OE Oy = ne OEF Ip a -
+veL 9 E = velg = -
+v6E'EL 5 = VOE EL = je
+8zv 6l - - BEP 6L - =
+E4 Ei Ei > 3 E]
+BAIJSE ofgllejew EAIJIE 9JSBA Bunsnayn sagepjersuI ueuIel1ey
+leezo eJeqjsuoiÏp afglaoyew do eAeneIsIUIWPe ue SSUIUDeIN ue uemnoge®
+saaoudsjliupeg ueBurejegynsooA ue syIsIUYIS} -sjfupeg
+Jay UPE Join ue Buiseoapn ‘uajepp!w
+ul eAgoes)fijpag -sjfupeq
+
+SJSeA sJopuy
+
+ebezuegtedsbuinlinossy
+
+LZ0g Jeqweoep |E Jed epieemHsog
+
+uebuinfuuyosje eAaneinwno -
+uebuuepJeemusy sAsTernwno -
+SpPJEEMJEUISURE -
+
+LZ0z Jeqweaep jc Jed pueis
+
+(opjes Jed) epseemyeog ul senen
+
+opjes Jed
+
+ueBuInluyosje SAS eNwWNS
+
+ueBuuepJeemuey saanejnwno
+
+epieemjeyosuee
+uebuiejseanuIsop -
+
+usBuinluyosje sAenejnwno:
+ueBuuepJeemuey eAanepnwno:
+epJeEMJEUDSUEE:
+
+BANE UGA9 MDS DjE J9ayaD AweuDN IE -
+
+uebuiJepuiwIereapJeem zig sweuBnIe) -
+uebuuvepuiwisespJeem sJepuozlig -
+ueBuIAliuyosje -
+
+uebuuepJeemusy -
+
+ueBuuejsenuI -
+
+aeefjeog Fey UI sSHEINW
+
+L20z Henuel | Jed epieemseog
+
+uaBuialuuyosje eneneinwno -
+uebuuepieemey eAenejnwno -
+epJeemjeyosuee -
+
+Lz0z Wenuefl | Jed pueIs
+
+WALLIY ALSVA ITAINALVN LHOIZHIAOILLVLNN 9 LG
+
+"A'a BsozsinyL ejisa
+
+Esila Thuiszorg B.V.
+
+5.1.9 TOELICHTING OP DE RESULTATENREKENING
+
+BATEN
+9. Opbrengsten zorgprestaties (en maatschappelijke ondersteuning)
+2021 2020
+De specificatie is als volgt: € €
+Opbrengsten zorgverzekeringswet (exclusief subsidies) 144.466 10.344
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies) 136.313 91.024
+Opbrengsten Jeugdwet = -
+Opbrengsten Wmo 145.557 115.068
+Opbrengsten Ministerie van Veiligheid en Justitie (forensische zorg; exclusief subsidies) z ni
+Opbrengsten uit onderaanneming 21.337 356.834
+Overige zorgprestaties = -
+Totaal 447.673 573.270
+Toelichting:
+De opbrengsten zorgverzekeringswet hebben betrekking op de geleverde zorg Wijkverpleging.
+10. Subsidies
+De specificatie is als volgt: 2021 2020
+€ €
+Rijkssubsidies vanwege het Ministerie van VWS 14.343 21.500
+Overige Rijkssubsidies 99.892 7.880
+Totaal 114.235 29.380
+Toelichting:
+De Rijkssubsidies vanwege het Ministerie van VWS hebben betrekking op de subsidieregeling Bonus zorgprofessionals
+COVID-19 en het stagefonds. De overige Rijkssubsidies hebben betrekking op de Stimuleringsregeling E-Health Thuis
+COVID-19 2.0.
+LASTEN
+11. Personeelskosten
+De specificatie is als volgt: 2021 2020
+€ €
+Lonen en salarissen 233.771 262.719
+Sociale lasten 31.479 43.762
+Pensioenpremies 31.590 13.143
+Overige personeelskosten 25.756 49.951
+Subtotaal 322.596 369.575
+Personeel niet in loondienst 82.298 174.150
+Totaal personeelskosten 404.894 543.725
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+-Zorg 6 7
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 6 1
+Aantal personeelsleden dat buiten Nederland werkzaam is (e) 9)
+
+Toelichting:
+
+Onder de pensioenpremies is een nabetaling van € 20.108 opgenomen met betrekking de pensioenpremies uit 2016 en 2017.
+
+Pagina 16
+
+
+Esila Thuiszorg B.V.
+
+5.1.9 TOELICHTING OP DE RESULTATENREKENING
+
+LASTEN
+
+11. Personeelskosten (vervolg)
+
+Toelichting:
+
+Onder de overige personeelskosten is € 6.965 (2020 € 10.000) verantwoord met betrekking tot de uitbetaalde zorgbonussen. De
+
+verkregen subsidie van de zorgbonus is verantwoord onder de subsidieopbrengsten ter hoogte van € 9.072 (2020 € 21.500).
+
+Het verschil heeft betrekking op de afgedragen eindheffing werkkostenregeling en de uitbetaalde zorgbonussen aan personeel
+
+niet in loondienst.
+
+12. Afschrijvingen op materiële vaste activa
+
+De specificatie is als volgt: 2021 2020
+€ €
+Afschrijvingen:
+- materiële vaste activa 2.466 3.353
+Resultaat desinvestering materiële vaste activa = 10.299
+Totaal afschrijvingen 2.466 13.652
+Toelichting:
+13. Overige bedrijfskosten
+De specificatie is als volgt: 2021 2020
+€ €
+Voedingsmiddelen en hotelmatige kosten = =
+Kantoorkosten 16.005 12.514
+Algemene kosten 94.620 64.497
+Patiënt- en bewonersgebonden kosten 961 4.449
+Onderhoud en energiekosten 5.537 9.410
+Huur en leasing 16.653 16.706
+Vervoerskosten 12.076 12.833
+Dotaties en vrijval voorzieningen = -
+Totaal overige bedrijfskosten 145.852 120.409
+Toelichting:
+14. Financiële baten en lasten
+De specificatie is als volgt: 2021 2020
+€ €
+Rentebaten - -
+Ontvangen dividenden z z
+Financiële baten uit verhoudingen met overige verbonden maatschappijen 1.311 1.726
+Subtotaal financiële baten 1.311 1.726
+Rentelasten -869 -
+Overige financiële lasten - -
+Subtotaal financiële lasten -869 -
+Totaal financiële baten en lasten 442 1.726
+
+Toelichting:
+
+Pagina
+
+17
+
+
+Esila Thuiszorg B.V.
+
+5.1.10 TOELICHTING OP DE RESULTATENREKENING
+
+15. Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+WNT-VERANTWOORDING 2021 Esila Thuiszorg B.V.
+De WNT is van toepassing op Esila Thuiszorg B.V. Het voor Esila Thuiszorg B.V. toepasselijke bezoldigingsmaximum is in
+2021 € 116.000 (het bezoldigingsmaximum zorg en jeugdhulp, klasse |, totaalscore 7).
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder dienstbetrekking
+vanaf de 13e maand van de functievervulling inclusief degenen die op grond van hun voormalige functie nog 4 jaar als
+topfunctionaris worden aangemerkt
+
+Gegevens 2021
+
+bedragen x € 1 A. Ozcan-Altiparmak
+Bestuur
+
+Aanvang en einde functievervulling in 2021 1/1 - 31/12
+
+Omvang dienstverband (als deeltijdfactor in fte) 1,0
+
+Dienstbetrekking? Ja
+
+Bezoldiging
+
+Beloning plus belastbare 68.342
+
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn -
+Subtotaal 68. 342
+
+Individueel toepasselijke
+bezoldiginasmaximum 116.000
+-/- Onverschuldigd betaald en nog niet
+N.v.t.
+erugontvangen bedrag
+Bezoldiging 68,342
+
+Het bedrag van de overschrijding en de reden
+waarom de overschrijding al dan niet N.v.t.
+is toegestaan
+
+Toelichting op de vordering wegens onverschuidigde
+
+betaling
+
+N.v.t.
+
+Gegevens 2020
+
+Dedrage ‚ Ú d f Da
+Functie: evens Bestuur
+Aanvang en einde functievervulling in 2020 1/1 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0
+Dienstbetrekking? Ja
+
+Bezoldiging
+
+Beloning plus belastbare 68.059
+RER .
+
+Beloningen betaalbaar op termijn =
+
+Subtotaal 68.059
+
+Individueel toepasselijke 111.000
+zoldigingsmaximum _
+
+Bezoldiging 68.059
+
+Pagina 18
+
+Esila Thuiszorg B.V.
+
+5.1.10 TOELICHTING OP DE RESULTATENREKENING
+
+1c. Toezichthoudende topfunctionarissen
+
+Gegevens 2021
+bedragen x € 1
+
+| Functiegegevens
+
+L.O.C. Bijl
+Raad van Commissaris
+
+Aanvang en einde functievervulling in 2021
+
+1/1 - 31/12
+
+Bezoldiging
+
+Bezoldiging
+
+6,000
+
+Individueel toepasselijk bezoldigingsmaximum
+
+11.600
+
+-/- Onverschuldigd betaald en nog niet
+rugontvangen raa
+
+Bezoldiging
+
+6.000
+
+[Het bedrag van de overschrijding en de reden
+waarom de overschrijding al dan niet
+is toegestaan
+
+Toelichting op de vordering wegens onverschuldigde
+
+betaling
+
+Gegevens 2020
+
+bearage ® H
+Functiegegevens Raad van Commissaris
+Aanvang en einde functievervulling in 2020 1/1 - 31/12
+Bezoldiging
+
+Bezoldiging 5.500
+Individueel toepasselijk bezoldigingsmaximum 11.100
+
+1d. Topfunctionarissen inclusief degenen die op grond van hun voormalige functie nog 4 jaar als topfunctionaris worden
+
+aangemerkt met een bezoldiging van € 1.700 of minder
+
+Gegevens 2020
+Naam Topfunctionaris
+S.P.H, Lau
+
+Functie
+Raad van Commissaris
+
+De categorieën van de tabellen ib, te, 1f‚ 1q en 2 zijn niet van toepassing voor 2021.
+
+3. Overige rapportageverplichtingen op grond van de WNT
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met dienstbetrekking die in 2021
+een bezoldiging boven het individueel toepasselijke drempelbedrag hebben ontvangen.
+
+Pagina 19
+
+Esila Thuiszorg B.V.
+
+5.1.20 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Esila Thuiszorg B.V. heeft de jaarrekening 2021 opgemaakt en vastgesteld in de
+vergadering van 31 mei 2022.
+
+De Raad van Commissarissen van Esila Thuiszorg B.V. heeft de jaarrekening 2021 goedgekeurd in de
+vergadering van 31 mei 2022.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+Gebeurtenissen na balansdatum
+Er zijn geen gebeurtenissen na balansdatum die toegelicht dienen te worden in de jaarrekening 2021.
+
+Ondertekening door bestuurders en toezichthouders
+
+W.G. W.G.
+
+A. Ozcan-Altiparmak L.O.C. Bijl
+W.G.
+S.P.H. Lau
+
+Pagina 20
+
+Esila Thuiszorg B.V.
+
+5.2 OVERIGE GEGEVENS
+
+Esila Thuiszorg B.V.
+
+5.2 OVERIGE GEGEVENS
+5.2.1 Statutaire regeling resultaatbestemming
+In de statuten is bepaald dat het behaalde resultaat ter vrije beschikking staat van de
+
+aandeelhouders.
+
+5.2.2 Nevenvestigingen
+
+Esila Thuiszorg B.V. heeft geen nevenvestigingen.
+
+Pagina 22

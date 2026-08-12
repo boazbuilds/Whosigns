@@ -1,0 +1,936 @@
+# whosigns-ocr v1 grootte=7396904 dpi=300 paginas=20
+Jaarverslaggeving 2021
+CO-Opertatief Zorg B.V.
+
+Og
+
+©
+==
+Lel)
+De
+
+}e
+
+ter identificatie d.d.
+for identification purposes only
+
+03 JUN 2022 A
+
+
+Co-Operatief Zorg B.V.
+
+INHOUDSOPGAVE
+1 Jaarrekening 2021
+
+Samenstellingsverklaring van de accountant
+1.1 Balans per 31 december 2021
+1.2 Resultatenrekening over 2021
+1.3 Kasstroomoverzicht over 2021
+1.4 Grondslagen van waardering en resultaatbepaling
+1.5 Toelichting op de balans per 31 december 2021
+1.6 Mutatieoverzicht materiële vaste activa
+1.7 Toelichting op de resultatenrekening over 2021
+1.8 Vaststelling en goedkeuring
+2 Overige gegevens
+2.1 Statutaire regeling resultaatbestemming
+
+WNT-verantwoording 2021
+
+Pagina
+
+OND A
+
+11
+
+14
+
+15
+16
+
+ter identificatie d.d.
+
+for identification purposes only
+
+03 JUN 2022
+AA
+v4 JPA
+
+INTERNATIONAL
+
+
+Ä VAN NOORT GASSLER & CO a
+
+Accountants & adviseurs
+JPA
+
+INTERNATIONAL oog voor ondernemen
+
+Samenstellingsverklaring van de accountant
+
+Aan: het bestuur van Co-Operatief Zorg B.V.
+
+De jaarrekening van Co-Operatief Zorg B.V. statutair gevestigd te Apeldoorn is
+
+door ons samengesteld op basis van de van u gekregen informatie. De jaarrekening bestaat uit de
+balans per 31 december 2021 en de winst- en verliesrekening over de periode eindigend op
+
+31 december 2021 met de daarbij horende toelichting. In deze toelichting is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, ‘Samenstellingsopdrachten'. Op grond van deze standaard
+wordt van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in
+overeenstemming met algemeen aanvaardbare waarderingsgrondslagen. Wij hebben daarbij onze
+deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons
+alle relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de
+daarvoor geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze
+verantwoordelijkheid heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen
+
+van de jaarrekening globaal nagegaan dat het beeld van de jaarrekening overeenkwam met onze
+kennis van Co-Operatief Zorg B.V. Wij hebben geen controle- of beoordelingswerkzaamheden
+uitgevoerd die ons in staat stellen om een oordeel te geven of een conclusie te trekken met betrekking
+tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante
+ethische voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en
+andere gebruikers van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht
+professioneel, vakbekwaam en zorgvuldig, integer en objectief hebben uitgevoerd en dat wij
+vertrouwelijk omgaan met de door u verstrekte gegevens.
+
+Zaandam, 9 juni 2022
+
+Van Noort Gassler & Co Zaandam B.V.
+
+Marcel Reumann RA
+
+Co-Operatief Zorg B.V.
+
+1 JAARREKENING
+
+ter identificatie dad. |
+
+for identification purposes only
+
+09 JUN 2022
+Id er
+JPA
+
+
+Co-Operatief Zorg B.V.
+
+1 JAARREKENING
+
+1.1 BALANS PER 31 DECEMBER 2021
+
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+Financiële vaste activa
+Totaal vaste activa
+
+Vlottende activa
+Debiteuren en overige vorderingen
+Liquide middelen
+
+Totaal vlottende activa
+
+Totaal activa
+
+PASSIVA
+
+Eigen vermogen
+
+Kapitaal
+
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Kortlopende schulden (ten hoogste 1 jaar)
+
+Overige kortlopende schulden
+
+Totaal kortlopende schulden (ten hoogste 1 jaar)
+
+Totaal passiva
+
+Ref. 31-dec-21 31-dec-20
+€ €
+1a 59.732 79.468
+1b 8.000 9.400
+67.732 88.868
+2 129.828 49.709
+3 58.227 274.263
+188.055 323.972
+255.787 412.840
+Ref. 31-dec-21 31-dec-20
+€ €
+
+4
+18.000 18.000
+83.944 273.649
+101.944 291.649
+5 153.843 121.191
+153.843 121.191
+255.787 412.840
+
+ter identificatie d.d.
+for identification purposes only
+U 3 JUN 2022
+Pagina 4
+
+A JPA
+
+INTERNATIONAL
+
+
+Co-Operatief Zorg B.V.
+
+1.2 RESULTATENREKENING OVER 2021
+
+Ref. 2021 2020
+€ €
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke
+ondersteuning 6 1.449.509 1.014.882
+Som der bedrijfsopbrengsten 1.449.509 1.014.882
+BEDRIJFSLASTEN:
+Personeelskosten 7 603.175 537.328
+Afschrijvingen op immateriële en materiële vaste activa 8 19.736 14.640
+Overige bedrijfskosten 9 390.983 243.066
+Som der bedrijfslasten 1.013.894 795.034
+BEDRIJFSRESULTAAT 435.615 219.848
+Financiële baten en lasten 10 -568 -1.845
+RESULTAAT VOOR BELASTINGEN 435.047 218.003
+Belastingen 11 85.296 35.017
+RESULTAAT NA BELASTINGEN 349.751 182.986
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2021 2020
+Toevoeging/(onttrekking): $ $
+Algemene / overige reserves 349.751 182.986
+349.751 182.986
+ter identificatie d.d.
+for identification purposes only
+pagina 5 03 JUN 2022
+
+vd Kr
+
+INTERNATIONAL
+
+
+Co-Operatief Zorg B.V.
+
+1.3 KASSTROOMOVERZICHT
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+- afschrijvingen en overige waardeveranderingen
+
+Veranderingen in werkkapitaal:
+
+= vorderingen
+- kortlopende schulden (excl. schulden aan banken)
+
+Kasstroom uit bedrijfsoperaties
+
+Financiële baten en lasten
+Betaalde winstbelasting
+
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit financieringsactiviteiten
+Betaalbaar gesteld dividend
+Aflossing lening
+
+Totaal kasstroom uit financieringsactiviteiten
+
+Mutatie geldmiddelen
+
+Stand geldmiddelen per 1 januari
+Stand geldmiddelen per 31 december
+Mutatie geldmiddelen
+
+Ref. 2021
+€ €
+435.615
+1a 19.736
+19.736
+2 -80.119
+5 32.652
+-47.467
+407.884
+10 -568
+11 -85.296
+-85.864
+322.020
+4 -539.456
+1b 1.400
+-538.056
+-216.036
+3 274.263
+3 58.227
+-216.036
+ter identificatie d.d.
+for identification purposes only
+Pagina 6 09 JUN 2022
+
+ÁÀ
+A JAA
+
+INTE IENA UILIS AL
+
+
+Co-Operatief Zorg B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+1.4.1 Algemeen
+
+Activiteiten
+
+Co-Operatief Zorg B.V. is statutair gevestigd te Hinderlopen, op het adres Dijkweg 6, en is geregistreerd onder
+KvK-nummer 55293867. De feitelijke zorglocatie is gevestigd in Heerhugowaard, op het adres Deimoslaan 7
+De belangrijkste activiteiten zijn begeleid wonen en kamertraining binnen de jeugdzorg
+
+Groepsverhoudingen
+De vennootschap maakt deel uit van een groep, waarvan Kooijman Holding B.V. te Sudwest Fryslan aan het
+hoofd staat.
+
+Verslaggevingsperiode
+
+Deze jaarrekening heeft betrekking op het boekjaar 2021, dat is geëindigd op balansdatum 31 december 2021.
+
+Grondslagen voor het opstellen van de jaarrekening
+De jaarrekening is opgesteld in overeenstemming met de stellige uitspraken van de Richtlijnen voor de
+Jaarverslaggeving, uitgegeven door de Raad voor de Jaarverslaggeving, in het bijzonder Richtlijn voor de
+
+Jaarverslaggeving Hoofdstuk 655, Zorginstellingen.
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Contíinuiïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Activa en passiva
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs. Indien
+geen specifieke waarderingsgrondslag is vermeld, vindt waardering plaats tegen de geamortiseerde kostprijs.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans, als een transactie met betrekking tot het
+actief of de verplichting niet leidt tot een belangrijke verandering in de economische realiteit met betrekking tot
+het actief of de verplichting.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen als een transactie ertoe leidt dat alle of
+nagenoeg alle rechten op economische en alle of nagenoeg alle risico's met betrekking tot het actief of de
+verplichting aan een derde zijn overgedragen. Verder wordt een actief of een verplichting niet meer in de
+balans opgenomen vanaf het tijdstip dat niet meer wordt voldaan aan de voorwaarden van waarschijnlijkheid
+van de toekomstige economische voordelen en of betrouwbaarheid van de bepaling van de waarde.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is.
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de cumulatieve
+afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden
+gebaseerd op de geschatte economische levensduur en worden berekend op basis van een vast percentage
+van de verkrijgingsprijs, rekening houdend met een eventuele restwaarde. Er wordt afgeschreven vanaf het
+moment van ingebruikneming.
+
+Liquide middelen
+Liquide middelen bestaan uit banktegoeden met een looptijd korter dan twaalf maanden.
+
+Eigen vermogen
+
+Algemene en overige reserves
+
+Onder Algemene en overige reserves is opgenomen dat deel van het eigen vermogen, waarover de bevoegde
+organen binnen de statutaire doelstellingen van de instelling vrij kunnen beschikken.
+
+09 JUN 2022
+
+vd
+
+ter identificatie d.d.
+
+Pagina 7 for identification purposes only
+
+Â Á
+JPA
+
+INUTEMNA HON AL
+
+
+Co-Operatief Zorg B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+1.4.2 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de resultatenrekening opgenomen wanneer een vermeerdering van het economisch
+potentieel, samenhangend met een vermeerdering van een actief of een vermindering van een verlichting,
+heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten worden verwerkt
+wanneer een vermindering van het economisch potentieel, samenhangend met een vermindering van een
+actief of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan
+worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de
+verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde fout in voorgaande
+boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag
+van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding
+waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden
+bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de
+dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden
+gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Onder opbrengsten jeugdwet worden de baten verantwoord uit hoofde van geleverde prestaties op het gebied
+van verleende jeugdzorg. Als realisatiemoment geldt het moment waarop de betreffende prestaties zijn
+gerealiseerd en op grond van de geldende voorschriften of richtlijnen gedeclareerd kunnen worden bij de
+opdrachtgever. Tot de opbrengsten jeugdwet worden tevens gerekend mutaties in onderhanden zorgtrajecten
+met betrekking tot jeugdzorg.
+
+ter identificatie d.d.
+
+Pagina 8 for identification purposes only
+09 Ju
+JUN 2022 A
+4 AA
+JA
+
+INTENSMA TION AL
+
+
+Co-Operatief Zorg B.V.
+
+1.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+1a. Materiële vaste activa
+
+De specificatie is als volgt:
+Verbouwingen
+
+Inventaris
+
+Vervoersmiddelen
+
+Totaal materiële vaste activa
+
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven:
+
+Boekwaarde per 1 januari
+Bij: investeringen
+Af: afschrijvingen
+
+Boekwaarde per 31 december
+
+31-dec-21 31-dec-20
+€ €
+29.092 39.299
+5.404 6.483
+25.236 33.686
+59.732 79.468
+2021 2020
+
+€ €
+79.468 53.182
+0 40.926
+19.736 14.640
+59.732 79.468
+
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+
+mutatieoverzicht onder 1.6
+
+1b. Financiële vaste activa
+
+Het verloop van de financiële vaste activa is als volgt:
+Boekwaarde per 1 januari
+
+Aflossing
+
+Boekwaarde per 31 december
+
+2. Debiteuren en overige vorderingen
+De specificatie is als volgt:
+
+Vorderingen op debiteuren
+
+Vordering op Co-operatief Wonen B.V.
+Totaal debiteuren en overige vorderingen
+3. Liquide middelen
+
+De specificatie is als volgt:
+Bankrekeningen
+
+Kassen
+
+Totaal liquide middelen
+
+2021 2020
+
+€ €
+
+9.400 10.000
+-1.400 -600
+8.000 9.400
+31-dec-21 31-dec-20
+€ €
+
+129.828 29.735
+
+0 19.974
+
+129.828 49.709
+31-dec-21 31-dec-20
+€ €
+
+57.640 272.110
+587 2.153
+58.227 274.263
+
+Toelichting:
+De liquide middelen zijn vrij beschikbaar.
+
+Pagina 9
+
+ter identificatie d.d.
+
+for identification purposes only
+
+09 JUN 2022
+
+A
+LA
+
+INGE HEMA IGN AL
+
+
+Co-Operatief Zorg B.V.
+
+1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+4. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-21 31-dec-20
+€ €
+Kapitaal 18.000 18.000
+Algemene en overige reserves 83.944 273.649
+Totaal eigen vermogen 101.944 291.649
+Kapitaal
+Saldo per Saldo per
+Het verloop is als volgt weer te geven: 1-jan-21 mutaties 31-dec-21
+€ € €
+Kapitaal 18.000 0 18.000
+Totaal kapitaal 18.000 0 18.000
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-21 bestemming mutaties 31-dec-21
+Overige reserves:
+Algemene reserves 273.649 349.751 -539.456 83.944
+Totaal algemene en overige reserves 273.649 349.751 -539.456 83.944
+
+Toelichting:
+Overige mutaties op de algemene reserves betreft een dividenduitkering aan Kooijman Holding B.V. ad € 539.456 ten behoeve
+financiering pand voor onder andere dagbestedingsactiviteiten.
+
+5. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+
+€ €
+Crediteuren 3.623 1.538
+Loonbelasting en premies sociale verzekeringen 3.806 8.799
+Vennootschapsbelasting 107.443 28.258
+Pensioenpremies 13.110 4.357
+Rekening-courant aandeelhouder 0 46.218
+Overige schulden 25.861 32.021
+Totaal overige kortlopende schulden 153.843 121.191
+
+Niet in de balans opgenomen verplichtingen, activa en regelingen
+
+(Meerjarige) financiële verplichtingen
+
+De instelling heeft de volgende meerjarige verplichtingen uit hoofde van lopende leasecontracten, huur en overeenkomsten.
+
+betaalbaar betaalbaar betaalbaar Totaal
+
+binnen 1 jaar 1-5 jaar na 5 jaar €
+
+€ € € €
+
+Huur 26.400 132.000 105.600 264.000
+Totaal meerjarige verplichtingen 26.400 132.000 105.600 264.000
+
+ter identificatie d.d.
+
+for identification purposes only
+
+09 JUN 2022 A
+Á A
+/Ô JPA
+
+INEEN HONAL
+
+Pagina 10
+
+
+Co-Operatief Zorg B.V.
+
+1.6 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Stand per 1 januari 2021
+- aanschafwaarde
+- cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2021
+
+Mutaties in het boekjaar
+- investeringen
+- afschrijvingen
+
+Mutaties in boekwaarde (per saldo)
+
+Stand per 31 december 2021
+- aanschafwaarde
+- cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2021
+
+Afschrijvingspercentage
+
+5.1.8 MUTATIEOVERZICHT FINANCIELE VASTE ACTIVA
+
+Overige vorderingen
+
+Boekwaarde per 1 januari
+Aflossingen
+
+Boekwaarde per 31 december
+
+Verbouwingen Inventaris & Vervoers Totaal
+inrichting middelen
+€ € € €
+51.031 8.950 42.250 102.231
+11.732 2.467 8.564 22.763
+39.299 6.483 33.686 79.468
+0) 0) 0 0
+10.207 1.079 8.450 19.736
+-10.207 -1.079 -8.450 -19.736
+51.031 8.950 42.250 102.231
+21.939 3.546 17.014 42.499
+29.092 5.404 25.236 59.732
+20,0% 20,0% 20,0%
+2021 2020
+9.400 10.000
+-1.400 -600
+8.000 9.400
+identificatie d.d. |
+Pagina 11 ter identificatie d.d.
+
+for identification purposes only
+
+09 JUN 2022
+
+A
+
+JJ EN
+NI
+
+EEA TION AL
+
+Co-Operatief Zorg B.V.
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+6. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2021 2020
+
+€ €
+Opbrengsten Jeugdwet 1.319.546 1.050.637
+Opbrengsten WMO 22.031 5.081
+Opbrengsten Jeugdwet oude jaren 107.932 -45.857
+Overige zorgprestaties 0 5.021
+Totaal 1.449.509 1.014.882
+LASTEN
+
+7. Personeelskosten
+
+De specificatie is als volgt: 2021 2020
+€ €
+Lonen en salarissen 44.418 207.403
+Sociale lasten 12.217 5.775
+Pensioenpremies 10.178
+Overige personeelskosten 6.976 3.116
+Managementfee 135.500 0
+Personeel niet in loondienst 393.886 321.034
+Totaal personeelskosten 603.175 537.328
+Toelichting:
+
+Co-operatiefzorg heeft 1 werknemer in loondienst (1 FTE). Oveirge zorgprofessionals worden ingehuurd via een gespecialiseerd bureay
+
+8. Afschrijvingen op immateriële en materiële vaste activa
+
+De specificatie is als volgt: 2021 2020
+€ €
+
+Afschrijvingen:
+
+- materiële vaste activa 19.736 14.640
+
+Totaal afschrijvingen 19.736 14.640
+
+ter identificatie d.d.
+
+for identification purposes only
+
+09 JUN 2022
+
+Pagina 12
+
+
+Co-Operatief Zorg B.V.
+
+1.7 TOELICHTING OP DE RESULTATENREKENING
+
+9. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+Levensonderhoud client
+
+Overige bewonersgebonden kosten
+
+Opleidingskosten
+Huisvestingskosten
+Exploitatiekosten
+Kantoorkosten
+Vervoerskosten
+Representatiekosten
+Acccountantskosten
+Advieskosten
+Assuranties
+
+Overige algemene kosten
+
+Totaal overige bedrijfskosten
+
+10. Financiële baten en lasten
+De specificatie is als volgt:
+Rentebaten
+
+Subtotaal financiële baten
+Rentelasten
+
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+11. Belastingen
+
+De specificatie is als volgt:
+
+Vennootschapsbelasting
+
+Totaal
+
+Pagina 13
+
+2021 2020
+€ e
+40.929 89.575
+2.729 189
+7.719 185
+59.706 59.573
+152.935 363
+50.722 34.449
+21.731 11.508
+15.861 5.771
+6.929 15.991
+18.966 12.085
+11.580 12.378
+1.176 999
+390.983 243.066
+2021 2020
+€ €
+
+120 20
+120 20
+-688 -1.865
+-688 -1.865
+-568 -1.845
+2021 2020
+
+€ €
+85.296 35.017
+85.296 35.017
+
+ter identificatie d.d.
+
+for identification purposes only
+9
+Ô JUN 2022 k
+AL AA
+JPA
+
+INTERNATIONAL
+
+
+Co-Operatief Zorg B.V.
+
+1.8 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Co-Operatief Zorg heeft de jaarrekening 2021 opgemaakt
+
+De raad van toezicht van Co-Operatief Zorg heeft de jaarrekening 2021 goedgekeurd in de vergadering
+van 9 juni 2022.
+
+De Algemene Vergadering van Aandeelhouders heeft de jaarrekening 2021 op 9 juni vastgesteld
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 1.2.
+
+Gebeurtenissen na balansdatum
+
+Toelichting impact coronavirus
+
+De gehanteerde grondslagen voor waardering en resultaatbepaling zijn gebaseerd op de continuïteitsveronderstelling. Op basis van
+de momenteel beschikbare informatie, de inmiddels genomen maatregelen en bestaande liquiditeitsbuffer is bij het opmaken van deze
+jaarrekening de gehanteerde continuiteitsveronderstelling niet in gevaar.
+
+Ondertekening door bestuurders en toezichthouders
+
+Raad van bestuur
+
+A.E. Kooijman jun-22
+
+Raad van Commissafissen
+
+Pagina 14
+ter identificatie d.d.
+
+for identification purposes only
+
+09 JUN 2022
+
+A
+A DER
+
+INTERNATIUJNAL
+
+
+Co-Operatief Zorg B.V.
+
+2 OVERIGE GEGEVENS
+
+2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 23, dat het behaalde resultaat ter vrije beschikking staat van
+de Algemene Vergadering voor uitkering van dividend, reservering of zodanige andere doeleinden.
+
+Pagina 15
+
+ter identificatie d.d.
+
+for identification purposes only
+09 JUN 2022
+EN
+Ee OO
+
+JPA
+
+INTERNATIONAL
+
+
+Verantwoordingsmodel WNT 2021
+
+WNT-verantwoording 2021 Co-Operatief Zorg B.V.
+
+De WNT is van toepassing op Co-Operatief Zorg B.V. Het voor Co-Operatief Zorg B.V.
+toepasselijke bezoldigingsmaximum is in 2021 € 116.000. Bezoldingsmaximum Zorg-
+en jeugdhulp klasse I)
+
+Bezoldiging topfunctionarissen
+Leidinggevende topfunctionarissen zonder dienstbetrekking
+
+bedragen x € 1 A.E. Kooijman
+
+Functiegegevens? Bestuurder
+
+Kalenderjaar“ 2021
+Periode functievervulling in het
+
+kalenderiaar (aanvana — einde) [O1/01] — [01/12]
+Aantal kalendermaanden
+
+functievervulling in het kalenderjaar ®
+Individueel toepasselijke
+
+bezoldiainasmaximum
+
+Maximum uurtarief in het kalenderjaar” € 199
+
+12
+
+Bezoldiging (alle bedragen
+exclusief btw)
+Werkelijk uurtarief lager dan het
+
+maximum uurtarief?!® da
+Bezoldiging in de betreffende periode € 111.983
+
+Bezoldiging gehele periode € 111.983
+kalendermaand 1 t/m 12 **
+
+-/- Onverschuldigd betaald en nog niet
+terugontvangen bedraq'?
+Bezoldiging € 111.983
+
+N.v.t.
+
+1d. Topfunctionarissen met een totale bezoldiging van € 1.700 of minder
+
+Gegevens 2021
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+M. Groeneveld Commissaris
+
+ter identificatie d.st.
+
+for identification purpo-e= only
+
+09 JUN 2022
+
+A
+

@@ -98,6 +98,19 @@ def laad_overige_kantoren(pad: Path = OVERIG_PAD) -> list[dict]:
         kantoor["afm_nummer"] = None
         kantoor["wta_vergunning"] = False
         kantoor.setdefault("oob_vergunning", "nee")
+        # Had dit kantoor ooit wél een vergunning? De kolom `wta_vervallen` legt
+        # uit waarom die er niet meer is (fusie, teruggegeven) en dat verandert
+        # hoe een oude opdracht gelezen moet worden.
+        #
+        # Waarom dat uitmaakt: `wta_vergunning` staat in de tegenwoordige tijd en
+        # blijft dus onwaar — het kantoor stáát niet in het register. Maar een
+        # woningcorporatie is controleplichtig, en een lader die daaruit afleidt
+        # "geen vergunning, dus geen wettelijke controle" zet dan bij vijftien
+        # corporaties dat hun jaarrekening vrijwillig is gecontroleerd. Dat is
+        # niet waar én het leest als een misstand die er niet is. Accon avm
+        # tekende die controles bevoegd; de vergunning verviel pas jaren later
+        # door de fusie met Flynth Audit.
+        kantoor["wta_ooit"] = bool((kantoor.get("wta_vervallen") or "").strip())
     return kantoren
 
 
@@ -199,6 +212,22 @@ _ONDERTEKENING = (
     # Die woorden staan nergens anders in een jaarverslag.
     "validsigned", "ondertekend door", "digitaal ondertekend",
 )
+
+# Bewust NIET toegevoegd: de onafhankelijkheidsparagraaf ("Ons zijn geen relaties
+# bekend tussen Deloitte Accountants B.V. en haar zuster- en/of
+# dochterondernemingen"). Dat lijkt een sterk signaal — een kantoor dat zijn eigen
+# onafhankelijkheid verklaart ís de tekenaar — en het is de grootste enkele
+# oorzaak onder de bijna-treffers (18 van de 63 in een steekproef van 4.000
+# raadsstukken).
+#
+# Maar gemeten levert het bijna niets op: mét de regel erbij kwam er over diezelfde
+# 4.000 documenten één rij bij, corpusbreed dus een stuk of vijf. De reden is dat
+# zo'n bijna-treffer meestal staat bij een organisatie die haar kantoor al via een
+# ándere vermelding in hetzelfde stuk kreeg. Nul toeschrijvingen klapten om, dus
+# de regel is niet gevaarlijk — hij is alleen de moeite niet waard, en elke extra
+# regel in de definitie van "ondertekening" is een extra manier om er later naast
+# te zitten. Zie docs/bronverkenning-raadsinformatie.md voor wat er dan wél nog
+# open ligt.
 
 # Wie tekent er onder de kantoornaam? Een handtekeningblok is "kantoornaam, dan de
 # accountant met zijn titel": "CAS ZorgAccountants B.V. S.R. Snel AA", "Konings Maters

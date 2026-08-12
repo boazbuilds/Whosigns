@@ -1,0 +1,816 @@
+# whosigns-ocr v1 grootte=4963550 dpi=300 paginas=20
+TZM Thuiszorg Maasland te Rotterdam
+
+5 KENGETALLEN
+5.1 Omzet en rentabiliteit
+
+De rentabiliteit geeft het rendement aan dat de onderneming in het boekjaar heeft behaald.
+
+2021 2020
+Brutomarge
+Bruto-omzetresultaat/netto-omzet 85,15 95,22
+Nettowinstmarge
+Resultaat na belastingen/netto-omzet -6,71 26,31
+Rentabiliteit totaal vermogen
+Bedrijfsresultaat/totale vermogen -8,94 45,48
+Rentabiliteit eigen vermogen
+Resultaat na belastingen/eigen vermogen -14,87 57,45
+52 Personeel
+Gemiddeld aantal werknemers
+Uitgedrukt in FTE 28,00 21,00
+Gemiddelde loonkosten per werknemer —
+Loonkosten/aantal werknemers (in duizenden euro's) 28 22
+
+53 Liquiditeit
+
+De liquiditeit geeft de mate aan waarin de onderneming in staat is op korte termijn aan haar verplichtingen te
+voldoen. De liquiditeitspositie geeft de toestand op 31 december weer; er is dus sprake van een
+momentopname.
+
+2021 2020
+Current ratio
+Vlottende activa/kortlopende schulden 1435 1,81
+Quick ratio
+Vlottende activa - voorraden/kortlopende schulden 1:35 1,81
+Betalingstermijn debiteuren
+Debiteuren/netto-omzet x 365 dagen 51 31
+Betalingstermijn crediteuren
+Crediteuren/kostprijs van de omzet x 365 dagen 114 109
+
+
+TZM Thuiszorg Maasland te Rotterdam
+
+5.4 Solvabiliteit
+
+De solvabiliteit geeft de mate aan waarin de onderneming in staat is op langere termijn aan haar
+verplichtingen (rente en aflossing) te voldoen. De solvabiliteitspositie geeft de toestand op 31 december weer;
+er is dus sprake van een momentopname.
+
+2021 2020
+Solvabiliteit eerste niveau
+Eigen vermogen/balanstotaal 47,07 62,54
+Solvabiliteit tweede niveau
+Eigen vermogen/vreemd vermogen 88,92 166,98
+Solvabiliteit derde niveau
+Vreemd vermogen/balanstotaal 52,93 37,46
+
+
+TZM Thuiszorg Maasland te Rotterdam
+
+6 FISCALE POSITIE
+
+6.1 Berekening belastbaar bedrag 2021
+
+Het belastbaar bedrag voor de vennootschapsbelasting over 2021 is als volgt berekend:
+
+2021
+€
+
+Resultaat voor belastingen -111.417
+Fiscale verschillen:
+Niet aftrekbare kosten 3.141
+Investeringsaftrek -10.286
+
+-7.145
+Belastbaar bedrag 2021 -118.562
+
+Over het belastbare bedrag is geen vennootschapsbelasting verschuldigd.
+
+Per balansdatum bedraagt de verschuldigde vennootschapsbelasting € 143.451. De samenstelling van dit
+bedrag is als volgt:
+
+2021
+€
+Stand per 1 januari 173.092
+Vennootschapsbelasting 2021 -29.642
+143.450
+
+
+TZM Thuiszorg Maasland te Rotterdam
+
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+Hoogachtend,
+Mao Administratie B.V.
+
+
+JAARREKENING
+
+Balans per 31 december 2021
+Winst-en-verliesrekening over 2021
+
+Grondslagen voor waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2021
+Toelichting op de winst-en-verliesrekening over 2021
+Overige toelichtingen
+
+TZM Thuiszorg Maasland te Rotterdam
+
+1 BALANS PER 31 DECEMBER 2021
+
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+
+Verbouwing
+Inventaris
+Vervoermiddelen
+
+Financiële vaste activa
+
+Vlottende activa
+Vorderingen
+
+Liquide middelen
+
+31 december 2021
+
+31 december 2020
+
+€
+
+(ú)
+
+81.011
+86.847
+198.412
+
+(@)
+
+G)
+
+€
+
+366.270
+18.999
+
+772.560
+10.826
+
+1.168.655
+
+€ €
+
+81.501
+72.124
+149.830
+
+303.455
+
+66.245
+
+599.299
+
+41.233
+
+1.010.232
+
+Beoordelingsverklaring afgegeven
+
+31 december 2021
+
+31 december 2020
+
+€ je € €
+PASSIVA
+Eigen vermogen ()
+Geplaatst kapitaal 1.000 1.000
+Overige reserves 549.069 630.845
+550.069 631.845
+
+Langlopende schulden 6) 38.342 23.534
+Kortlopende schulden (6) 580.244 354.853
+
+1.168.655 1.010.232
+Beoordelingsverklaring afgegeven -1-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+2 WINST-EN-VERLIESREKENING OVER 2021
+
+Netto-omzet
+Kostprijs van de omzet
+
+Bruto-omzetresultaat
+Kosten
+
+Personeelskosten
+Afschrijvingen
+Overige bedrijfskosten
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat voor belastingen
+Belastingen
+
+Resultaat na belastingen
+
+(7)
+(8)
+(@)
+
+(10)
+
+2021 2020
+€ €
+
+1.218.919 1.379:823
+180.975 65.983
+1.037.944 1.313.840
+774.861 472.408
+68.379 41.862
+299.200 340.109
+1.142.440 854.379
+-104.496 459.461
+-6.921 3.085
+-111.417 462.546
+29.641 -99,545
+-81.776 363.001
+
+Beoordelingsverklaring afgegeven
+
+-12-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van TZM Thuiszorg Maasland (geregistreerd onder KvK-nummer 69553289), gevestigd te
+Rotterdam bestaan voornamelijk uit:
+- Thuiszorg, begeleiding, dagactivieiten en zorgverlening.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+TZM Thuiszorg Maasland is feitelijk en statutair gevestigd op Rösener Manzstraat 165 te Rotterdam en is
+ingeschreven bij het handelsregister onder nummer 69553289.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen die uitgegeven zijn door de Raad voor de
+jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze
+referenties wordt verwezen naar de toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken
+van de jaarrekening bekend zijn geworden.
+
+Leasing
+Financiële leasing
+
+De vennootschap leaset een deel van het wagenpark; hierbij heeft de vennootschap grotendeels de voor- en
+nadelen verbonden aan de eigendom van deze activa. Deze activa worden geactiveerd in de balans bij aanvang
+van het leasecontract tegen de reële waarde van het actief of de lagere contante waarde van de minimale
+leasetermijnen. De te betalen leasetermijnen worden op annuïtaire wijze verdeeld in een aflossings- en een
+rentecomponent. De leaseverplichtingen worden exclusief de rentecomponent opgenomen onder de
+langlopende schulden.
+
+De rentecomponent wordt gedurende de looptijd van het contract verantwoord in de winst-en-verliesrekening
+met een vast rentepercentage over de gemiddelde resterende aflossingscomponent. De relevante activa worden
+afgeschreven over de resterende gebruiksduur of, indien korter, de looptijd van het contract.
+
+Bijzondere posten
+
+Bijzondere posten zijn baten of lasten die voortvloeien uit gebeurtenissen of transacties die behoren tot het
+resultaat uit de normale, niet-incidentele bedrijfsactiviteiten, maar die omwille van de vergelijkbaarheid apart
+toegelicht worden op grond van de aard, omvang of het incidentele karakter van de post.
+
+Beoordelingsverklaring afgegeven -13-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Algemeen
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen aanschaffingswaarde of vervaardigingskosten
+verminderd met afschrijvingen bepaald op basis van de geschatte levensduur rekening houdend met een
+eventuele restwaarde. De afschrijvingen bedragen een vast percentage van de vervaardigingskosten.
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Afschrijving
+Actief
+
+%
+Verbouwing 10
+Inventaris 20
+Vervoermiddelen 20
+
+Financiële vaste activa
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen de
+geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de
+boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Langlopende schulden
+
+Langlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Transactiekosten die
+direct zijn toe te rekenen aan de verwerving van de langlopende schulden worden in de waardering bij eerste
+verwerking opgenomen. Langlopende schulden worden na eerste verwerking gewaardeerd tegen
+geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening houdend met agio of disagio en onder aftrek
+van transactiekosten.
+
+Het verschil tussen de bepaalde boekwaarde en de uiteindelijke aflossingswaarde wordt op basis van de
+effectieve rente gedurende de geschatte looptijd van de langlopende schulden in de winst-en-verliesrekening
+als interestlast verwerkt.
+
+Beoordelingsverklaring afgegeven -14-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden
+afgelost.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij
+zijn gerealiseerd.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Afschrijvingen
+
+Indien een schattingswijziging plaatsvindt van de toekomstige gebruiksduur, dan worden de toekomstige
+
+afschrijvingen aangepast.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+
+Beoordelingsverklaring afgegeven -15-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+1. Materiële vaste activa
+
+Boekwaarde per 1 januari 2021
+Investeringen
+Afschrijvingen
+
+Boekwaarde per 31 december 2021
+
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Boekwaarde per 31 december 2021
+
+Afschrijvingspercentages
+
+Verbouwing
+Inventaris
+Vervoermiddelen
+
+2. Financiële vaste activa
+
+Overige vorderingen
+
+Len Chefcars & ZGM,U Kay,Ritzky,adoria,Roos,Kombec
+Waarborgsommen
+
+VLOTTENDE ACTIVA
+
+Handelsdebiteuren
+
+Debiteuren
+
+Vervoer-
+Verbouwing Inventaris middelen Totaal
+
+€ € € €
+81.501 72124 149.830 303.455
+10.000 36.736 84.458 131.194
+-10.490 -22.013 -35.876 -68.379
+81.011 86.847 198412 366.270
+120.100 127.636 273.009 520.745
+-39.089 -40.789 -14.597 _-154.475
+81.011 86.847 198.412 366.270
+%
+10
+20
+20
+
+31-12-2021 31-12-2020
+
+€ €
+15.052 62.298
+3.947 3.947
+18.999 66.245
+169.391 116.806
+169.391 116.806
+
+Beoordelingsverklaring afgegeven -16-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+Vorderingen op participanten en op maatschappijen waarin wordt
+
+deelgenomen
+
+Rekening-courant directie
+
+Overlopende activa
+
+Nog te factureren omzet
+Huur
+
+3. Liquide middelen
+
+ABN AMRO Bank N.V.
+Bunq Bank
+
+ING Bank
+
+Triodos
+
+Kas
+
+31-12-2021 31-12-2020
+€ €
+473.329 381.381
+129.840 95.821
+
+= 5.291
+129.840 101.112
+3.342 -
+2.721 -
+
+- 32.233
+
+2.352 -
+2.411 9.000
+10.826 41.233
+
+Beoordelingsverklaring afgegeven
+
+zÍT=
+
+TZM Thuiszorg Maasland te Rotterdam
+
+PASSIVA
+
+4. Eigen vermogen
+
+Geplaatst kapitaal
+
+Geplaatst en volgestort zijn 100 gewone aandelen nominaal € 10,00
+
+De aandelen worden beheerd door de volgende aandeelhouders:
+
+-U. Kay Holding B.V. (100%)
+
+Overige reserves
+
+Stand per 1 januari
+
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+5. Langlopende schulden
+
+Financieringen
+
+Financieringen
+
+Lease ZP-119-V
+Lease KV-020-F
+Lease 8-ZSR-32 en Lease H-774-XP
+Lease NL-757-S
+
+31-12-2021 31-12-2020
+€ €
+1.000 1.000
+2021 2020
+€ €
+630.845 267.844
+630.845 267.844
+-81.776 363.001
+549.069 630.845
+549.069 630.845
+31-12-2021 31-12-2020
+€ É
+38.342 23.534
+19.910 -
+9.381 -
+9.051 21.887
+- 1.647
+38.342 23.534
+
+Beoordelingsverklaring afgegeven
+
+-18-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+Lease 8-
+ZSR-32 en
+Lease ZP- Lease K- Lease KV- Lease H-
+119-V 505-X 020-F 714-XP Totaal
+€ € € € €
+
+Stand per 1 januari 2021 753 5.170 - 38.190 44.113
+Opgenomen gelden 32.500 10.950 15.958 - 59.408
+Bijgeschreven rente 313 2.157 - 3.667 6.137
+Aflossing -3.068 -12.015 -381 -16.403 -31.867
+Aflossingsverplichting komend boekjaar -10.588 -6.262 -6.196 -16.403 -39.449
+Langlopend deel per 31 december 2021 19.910 - 9.381 9.051 38.342
+
+31-12-2021 31-12-2020
+
+€ €
+6. Kortlopende schulden
+Aflossingsverplichtingen langlopende schulden 41.586 27.864
+Schulden aan leveranciers en handelskredieten 56.692 19711
+Vennootschapsbelasting 143.451 173.092
+Overige belastingen en premies sociale verzekeringen 232.377 85.445
+Overlopende passiva 106.138 48.741
+580.244 354.853
+Aflossingsver plichtingen langlopende schulden
+Financieringen 41.586 27.864
+Schulden aan leveranciers en handelskredieten
+Crediteuren 56.692 19.711
+Vennootschapsbelasting
+Vennootschapsbelasting dit jaar -29.641 99.545
+Vennootschapsbelasting vorig boekjaar 99.545 713.547
+Vennootschapsbelasting oudere jaren 73.547 -
+143.451 173.092
+
+Beoordelingsverklaring afgegeven -19-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+Overige belastingen en premies sociale verzekeringen
+
+Loonheffing
+Pensioenen
+
+Overlopende passiva
+
+Vakantiegeld
+
+Lonen
+
+Nog te betalen kosten NOW
+Vooruitbetaalde kosten
+
+31-12-2021 31-12-2020
+€ €
+212.157 63.271
+
+20.220 22.174
+232.377 85.445
+53.013 46.747
+7.965 1.994
+44.722 -
+438 -
+106.138 48.741
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+Door tot de groep behorende vennootschappen zijn meerjarige financiële verplichtingen aangegaan tot en met
+
+2026 terzake van huur van bedrijfsruimte (€ 20.328,00 per jaar).
+
+Beoordelingsverklaring afgegeven -20 -
+
+TZM Thuiszorg Maasland te Rotterdam
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2021
+
+7. Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Lonen en salarissen
+
+Bruto lonen
+
+Sociale lasten
+
+Premies sociale verzekeringswetten
+
+Pensioenlasten
+
+Pensioenlasten
+
+Overige personeelskosten
+
+Personeel niet ín loondienst
+Reiskostenvergoedingen
+Onkostenvergoedingen
+Kantinekosten
+Opleidingskosten
+
+Subsidies
+
+Personeelsleden
+
+2021 2020
+
+€ €
+539.672 321.706
+103.641 106.328
+27.296 =
+104.252 44.374
+774.861 472.408
+539.672 321.706
+103.641 106.328
+27.296 -
+- 655
+42.565 51.314
+70.484 -
+- 10.684
+5.250 -
+-14.047 -18.279
+104.252 44.374
+
+Gedurende het jaar 2021 waren 28 werknemers in dienst op basis van een volledig dienstverband (2020: 21).
+
+8. Afschrijvingen
+
+Materiële vaste activa
+
+Afschrijvingen materiële vaste activa
+
+Verbouwing
+Inventaris
+Vervoermiddelen
+
+68.379 41.862
+10.490 9.889
+22.013 11.195
+35.876 20.778
+68.379 41.862
+
+Beoordelingsverklaring afgegeven
+
+sd -
+
+TZM Thuiszorg Maasland te Rotterdam
+
+2021 2020
+
+€ €
+9. Overige bedrijfskosten
+Huisvestingskosten 103.454 68.694
+Exploitatiekosten 9.070 17.071
+Kantoorkosten 17.303 43.882
+Autokosten 82.143 88.871
+Verkoopkosten 33.270 32.560
+Algemene kosten 63.149 51.197
+Overige buitengewone baten -9,189 37.834
+
+299.200 340.109
+Huisvestingskosten
+Huur onroerende zaak 80.865 59.158
+Gas water licht 132 3.472
+Onderhoud onroerende zaak 11.867 3.037
+Bewakingskosten 6.485 -
+Schoonmaak 4.105 3.027
+
+103.454 68.694
+Exploitatiekosten
+Kleine aanschaffingen 9.070 17.071
+Kantoorkosten
+Kantoorbenodigdheden 3.817 8.792
+Drukwerk 31 2.404
+Telefoon 551 3.704
+Contributies en abonnementen 12.904 10.240
+Administratiekosten - 18.742
+
+17.303 43.882
+Autokosten
+Brandstoffen 22.405 14.280
+Onderhoud 22.256 37.112
+Verzekering 19.954 19.019
+Motorrijtuigenbelasting 10.190 11.024
+Verkeersboetes 3.141 2.892
+Tol- veer- en parkeergelden 4,197 4.544
+82.143 88.871
+
+Verkoopkosten
+Reclame- en advertentiekosten 25.116 29.749
+Representatiekosten - 2.811
+transporteren 25.116 32.560
+
+Beoordelingsverklaring afgegeven -22-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+2021 2020
+€ €
+
+Transport 25.116 32.560
+Incassokosten 8.154 -
+
+33.270 32.560
+Algemene kosten
+Accountantskosten 26.339 937
+Advieskosten 27.266 30.352
+Juridische kosten 1.513 -
+Algemene verzekeringen 549 3.187
+Donaties en giften 3.550 450
+Automatisering 3.932 11.831
+
+63.149 51.197
+10. Financiële baten en lasten
+Rentelasten en soortgelijke kosten -6.921 3.085
+Rentelasten en soortgelijke kosten
+Afrondingsverschillen 9 8
+Rente langlopende schulden -10.649 -
+Rente rekening-courant 4.382 3.776
+Bankkosten -663 -699
+
+-6.921 3.085
+
+Beoordelingsverklaring afgegeven -23-
+
+TZM Thuiszorg Maasland te Rotterdam
+
+6 OVERIGE TOELICHTING
+
+Gebeurtenissen na balansdatum
+
+De gehanteerde grondslagen voor waardering en resultaatbepaling zijn gebaseerd op de
+continuïteitsveronderstelling van TZM Thuiszorg Maasland. Echter, als gevolg van de uitbraak van het
+coronavirus wereldwijd, zijn door de Nederlandse overheid ingrijpende maatregelen genomen om de
+verspreiding van dit virus onder controle te krijgen. Deze maatregelen en mogelijke maatregelen die nog
+volgen, hebben naar verwachting belangrijke financiële gevolgen voor ondernemingen in Nederland. Deze
+gevolgen zijn op dit moment nog niet te overzien. De door de Nederlandse overheid genomen maatregelen
+kunnen impact hebben op de ontwikkeling van de netto-omzet en daarmee de ontwikkeling van het resultaat
+van TZM Thuiszorg Maasland. Ook de financiële positie (liquiditeit en solvabiliteit) van TZM Thuiszorg
+Maasland kan daardoor onder druk komen te staan, met als gevolg mogelijke onzekerheid over de
+continuïteitsveronderstelling. Door de Nederlandse overheid is een breed pakket aan maatregelen
+aangekondigd ter ondersteuning van ondernemers. Op grond van de financiële positie van TZM Thuiszorg
+Maasland per balansdatum en de positieve invloed van de ondersteuningsmaatregelen door de overheid die de
+negatieve financiële gevolgen van de uitbraak van het coronavirus zullen beperken, acht het bestuur van TZM
+Thuiszorg Maasland een duurzame voortzetting van de bedrijfsuitoefening niet onmogelijk. De jaarrekening is
+dan ook opgemaakt uitgaande van de veronderstelling van continuïteit van de onderneming.
+
+Informatieverschaffing over COVID-19-effecten
+
+Sinds eind februari 2020 is de aanwezigheid van het COVID-19-virus in Nederland vastgesteld, met ernstige
+gevolgen voor de volksgezondheid. Thans zijn er vaccins voor dit virus beschikbaar en ingezet, echter de
+snelle verspreiding van het virus heeft geleid tot ingrijpende overheidsmaatregelen gericht op het ‘maximaal
+controleren’ van het virus. De macro-economische gevolgen in het algemeen, en de omvang van financiële
+gevolgen voor de vennootschap in het bijzonder (op langere termijn) zijn op dit moment niet in te schatten.
+Vooralsnog heeft de vennootschap geen negatieve financiële gevolgen ondervonden en maakt zij gebruik van
+de overheidsmaatregelen ter ondersteuning.
+
+Bestemming van het resultaat over het boekjaar 2020
+
+De jaarrekening 2020 is vastgesteld in de algemene vergadering gehouden op 2 november 2021. De algemene
+vergadering heeft de bestemming van het resultaat vastgesteld conform het daartoe gedane voorstel.
+Verwerking van het verlies 2021
+
+Overeenkomstig de wettelijke bepalingen is het verlies ad € 81.776 over 2021 in mindering gebracht op de
+overige reserves. Dit is reeds in de jaarrekening verwerkt.
+
+Beoordelingsverklaring afgegeven -24-

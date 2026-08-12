@@ -1,0 +1,640 @@
+# whosigns-ocr v1 grootte=4516813 dpi=300 paginas=20
+JAARRAPPORT 2019
+
+O3 Schoolpsychologie BV
+Evropaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+8602.11.514
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+JAARRAPPORT OVER HET BOEKJAAR 2019
+
+Inhoudsopgave
+
+1. _Samenstellingsverklaring
+
+2. Balans per 31 december 2019
+
+3. Verlies- en winstrekening 2019
+
+4. Toelichting op de jaarrekening
+
+9. Toelichting op de balans
+
+6. Specificatie kosten
+
+/. Specificatie vaste activa
+
+8. Fiscale berekeningen en specificaties
+
+9. Winstverdeling
+
+10. Specificatie rekening-courant
+
+blz.
+
+2en3
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+1. _SAMENSTELLINGSVERKLARING
+
+Opdracht
+
+Ingevolge uw opdracht hebben wij de in dit rapport opgenomen jaarrekening 2019
+samengesteld op basis van de door u verstrekte gegevens. De verantwoordelijkheid voor de
+juistheid en de volledigheid van die gegevens en voor de daarop gebaseerde jaarrekening
+berust bij de leiding van de onderneming. Het is onze verantwoordelijkheid een
+samenstellingverklaring inzake de jaarrekening te verstrekken.
+
+Werkzaamheden
+
+Onze werkzaamheden bestonden, overeenkomstig de in Nederland algemeen aanvaarde
+richtlijnen met betrekking tot samenstellingverklaringen, in hoofdzaak uit het verzamelen,
+verwerken, het rubriceren en het samenvatten van financiële gegevens. De aard en omvang
+van deze werkzaamheden brengen met zich mee dat deze niet kunnen resulteren in die
+zekerheid omtrent de getrouwheid van de jaarrekening welke aan een accountantsverklaring
+of aan een beoordelingsverklaring kan worden verleend.
+
+Bevestiging
+
+Op basis van de aan ons verstrekte gegevens hebben wij de jaarrekening samengesteld in
+overeenstemming met in Nederland algemeen aanvaarde grondslagen voor financiële
+verslaggeving en met de wettelijke bepalingen inzake de jaarrekening zoals opgenomen Titel
+9 Boek 2 BW.
+
+Alphen aan den Rijn, 16 juli 2020
+
+Het Kantoor
+
+M.C.A. Simons
+
+9282 JR2019 O3 Schoolpsychologie 1
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+2. BALANS PER 31 DECEMBER 2019
+
+in euro's
+
+ACTIVA 31-12-2019 1-1-2019
+
+VASTE ACTIVA
+
+Immateriële vaste activa
+
+Goodwill 18.000 20.000
+
+Materiële vaste activa
+
+Inventaris en inrichting 6419 8.213
+
+Transportmiddelen 21.106 27.894
+27:525 36.107
+
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+Debiteuren 46.771 30.341
+
+Overlopende activa en overige vorderingen 6.825 6.825
+53.596 37.166
+
+Liquide middelen
+
+NL75 RABO 0136 4326 97 18.610 10.709
+
+NL83 RABO 3663 8069 O1 300.823 250.000
+
+Kas 0) 0
+
+319,433 260.709
+TOTAAL 418.554 353.982
+
+9282 JR2019 O3 Schoolpsychologie
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+PASSIVA
+
+EIGEN VERMOGEN
+Geplaatst kapitaal
+Algemene reserve
+
+VOORZIENINGEN
+Voorziening reorganisatie
+Oudedagsvoorziening
+
+KORTLOPENDE SCHULDEN
+
+Crediteuren
+
+Loonheffingen
+
+Vennootschapsbelasating
+Rekening-courant aandeelhouders
+Overlopende passiva en overige schulden
+
+Afrondingsverschillen
+
+TOTAAL
+
+31-12-2019 1-1-2019
+2.000 2.000
+80.465 0
+82.465 2.000
+6796 13.583
+29.179 29179
+35.975 42.762
+0 782
+
+0 4.060
+18.875 0
+233.149 255.297
+48.090 49.081
+300.114 309.220
+418.554 353.982
+
+9282 JR2019 O3 Schoolpsychologie
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+3. VERLIES- EN WINSTREKENING 2019
+in euro's
+
+2019 2018
+NETTO OMZET
+Omzet Holland Rijnland EED 42.998 27.664
+Omzet Holland Rijnland BGGZ 6.652 2,595
+Omzet Midden Holland EED 18.274 33.123
+Omzet Midden Holland BGGZ 9,748 3.258
+Omzet Alphen aan den Rijn EED (e) 79.174
+Omzet Alphen aan den Rijn BGGZ 0 15.205
+Omzet Kaag en Braassem EED 0) 19.694
+Omzet Utrecht West EED 3.326 0
+Omzet Gol voor jeugd EED 274.806 128.831
+Omzet Gol voor jeugd BGGZ 15225 59.308
+Omzet overige/particulieren 56.981 54.526
+Totaal omzet 488.710 419.378
+Af: inkopen en uitbesteed werk 13.712 18.231
+Brutowinst/verlies 474.998 401.147
+KOSTEN
+Personeelskosten 275.183 200.158
+Huisvestingskosten 31-627 31.583
+Verkoopkosten 6.516 4.376
+Autokosten 9,418 8.315
+Afschrijvingen 12.643 11.510
+Algemene kosten 38.581 67.606
+
+373.968 323.549
+
+OVERIGE
+Rente- en financiëringsresultaat 435 438
+Diverse baten en lasten 1.255 3587
+
+1.690 4,025
+Bedrijfsresultaat voor belasting 99.340 735/3
+Vennootschapsbelasting 18.875 0)
+RESULTAAT NA BELASTING 80.465 18:9/9
+
+9282 JR2019 O3 Schoolpsychologie
+
+Ö3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+4. TOELICHTING OP DE ALGEMENE ZAKEN
+
+Personeel
+Op 31 december 2019 waren er dertien personen bij de onderneming in dienst.
+
+GRONDSLAGEN VOOR DE FINANCIELE VERSLAGGEVING
+
+Algemene waarderingsgrondslag
+
+De algemene grondslag voor de waardering van de activa en passiva, alsmede voor de
+bepaling van het resultaat, is de verkrijgings- of vervaardigingsprijs. Voor zover niet anders
+vermeld worden activa en passiva opgenomen voor de nominale waarde.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN DE BALANS
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op aanschafwaarde verminderd met
+lineair berekende afschrijvingen, gebaseerd op de verwachte economische levensduur.
+
+De afschrijvingen vinden tijdsevenredig plaats.
+
+Financiële vaste activa
+
+De deelneming wordt gewaardeerd tegen de nettovermogenswaarde. Bij een negatieve
+nettovermogenswaarde is de waardering nihil.
+
+Vorderingen
+
+De vorderingen worden opgenomen voor de nominale waarde, voor zover noodzakelijk
+onder aftrek van een voorziening voor het risico van oninbaarheid.
+
+De vorderingen hebben een verwachte looptijd van maximaal één jaar.
+
+Kortlopende schulden
+De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar.
+
+Langlopende schulden
+De langlopende schulden hebben een verwachte looptijd van meer dan één jaar.
+
+9282 JR2019 O3 Schoolpsychologie 5
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+5. TOELICHTING OP DE BALANS
+
+Overlopende activa en overige vorderingen
+
+Betaalde waarborgsommen 6.825
+Vooruitbetaalde kosten 0
+Te ontvangen rente 0)
+
+6.825
+
+Algemene reserve
+
+Saldo per 1 januari 2019 0
+Uit winstbestemming 2019 80.465
+Dividenduitkeringen 0)
+Mutaties waardering deelnemingen 0
+Saldo per 31 december 2019 80.465
+
+Voorziening reorganisatie
+Te verwachten kosten in verband met de te verwachten wijzigingen in de
+aanbesteding van jeugdzorg.
+
+Rekening-courant aandeelhouders
+
+Rekening-couvrant J.M.C. Clemens 120.404
+Rekening-courant J. Clemens 112.745
+233.149
+
+Vennootschapsbelasting
+
+Vennootschapsbelasting 2019 18.875
+Vennootschapsbelasting oude jaren 0
+18.875
+
+Overlopende passiva en overige schulden
+
+Te betalen opleidingskosten 20.152
+Te betalen administratiekosten, accountantskosten en advieskosten 10.000
+Reservering vakantiegeld 17.938
+Netfolonen 0)
+
+48.090
+
+9282 JR2019 O3 Schoolpsychologie
+
+
+O3 Schoolpsychologie BV
+Evropaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+6. SPECIFICATIE KOSTEN
+in euro's
+
+Personeelskosten
+
+Brutolonen en sociale lasten
+Pensioenpremies
+
+Onbelaste reiskostenvergoeding
+Diverse personeelskosten
+
+Huisvestingskosten
+
+Huur pand inclusief servicekosten
+Onderhoud inrichting
+Schoonmaakkosten
+Bewakingskosten
+
+Diverse huisvestingskosten
+
+Verkoopkosten
+Reclamekosten
+Representatiekosten
+Niet aftrekbare boetes
+Diverse verkoopkosten
+
+Autokosten
+Brandstofkosten
+48-TLR-9 Jasper
+62-HK-KV Jan
+Overige autokosten
+
+2019
+
+263.429
+3.154
+6.135
+2.465
+
+2018
+
+181.132
+6.938
+9.308
+2.780
+
+275.183
+
+200.158
+
+30.618
+281
+589
+
+72
+67
+
+28.430
+1.710
+613
+763
+
+67
+
+31.627
+
+31.583
+
+113
+5.334
+
+1.069
+
+134
+3.000
+
+1.242
+
+6.516
+
+4.376
+
+4,152
+1.334
+3.932
+
+3.041
+2.424
+2.055
+
+295
+
+9418
+
+8.315
+
+9282 JR2019 O3 Schoolpsychologie
+
+NIN
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+6. SPECIFICATIE KOSTEN (vervolg)
+
+in euro's
+2019 2018
+Algemene kosten
+Administratie- en advieskosten 4,005 2.169
+Reorganisatiekosten 0 0
+Contributies en heffingen 4.230 3.901
+Vakliteratuur 1.629 1.037
+Communicatiekosten 1.385 1.846
+Assurantiepremies 2.160 920
+Porti 1.052 1.034
+Kantoorbenodigdheden 6.543 3.988
+Opleiding/cursussen 0 28.590
+Software /trainingsmateriaal 17.482 24.017
+Diverse algemene kosten 95 110
+38.581 67.606
+Rente- en financiëringsresultaat
+Rente en kosten bank 424 428
+Diverse rente- en financiëringskosten 1 10
+435 438
+Diverse baten en lasten
+Oninbare omzet 14255 3.587
+1.255 3.587
+
+9282 JR2019 O3 Schoolpsychologie
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+7. SPECIFICATIE MATERIELE VASTE ACTIVA PER 31 DECEMBER 2019
+
+Begin Des-
+Omschrijving Datum Aanschaf balans Investering investering Afschrijving Eindbalans
+
+Inventaris
+Kast 26-2-2015 600 120 (0) 0 20% 120 0
+WISCIII testset 16-3-2015 750 150 0 0) 20% 150 0)
+Kantoormeubilair 28-9-2015 526 105 e) 0) 20% 105 0
+Asus computer 27-11-2015 758 152 (0) 0 20% 152 0
+Kantoormeubilair 25-1-2016 1.059 424 0 0 20% 212 212
+Asus laptop 3-2-2016 1.585 634 0 0) 20% 317 317
+Asus laptop 9-2-2016 839 336 0 (0) 20% 168 168
+Acer laptop 9-6-2016 799 320 e) 0 20% 160 160
+Asus laptop 23-8-2016 1.470 588 0 0 20% 294 294
+WAIS test 12-9-2016 2.187 875 0 0 20% 437 437
+Asus laptop 10-1-2017 173 464 [e) 0) 20% 155 309
+Acer laptop 31-3-2017 859 515 o) 0 20% 172 344
+Acer laptop 2-5-2017 864 518 (e) 0) 20% AS) 346
+Samsung Galaxy 31-7-2017 620 372 0) 0 20% 124 248
+Acer laptop 17-10-2017 895 537 0 0 20% 179 358
+Kantoormeubilair 4-6-2018 1852 1.082 0 0 20% 270 811
+Testpakketten 26-9-2018 1.278 1.022 0) 0 20% 256 767
+Lenovo laptop 11-1-2019 634 6) 634 0) 20% 127 507
+Asus laptop 30-8-2019 A3 0 18 0) 20% 195 618
+Samsung Galaxy S10 25-9-2019 654 0 654 (0) 20% 131 928
+
+19.275 8.213 2.061 0 3.855 6.419
+Transportmiddelen
+Ford Fiesta 48-TLR-9 29-7-2016 11.645 6.245 [e) 0) 20% 1.800 4,445
+Batavus praktijkfietsen _ 22-10-2016 1.198 479 0 0 20% 240 240
+E-bike Koga 11-8-2018 3.741 2.245 0) 0) 20% 748 1.496
+Toyota TS-394-D 31-12-2018 22.925 18.925 (0) 0 20% 4.000 14.925
+
+39.509 27.894 0 0 6.788 21.106
+Totaal 58.784 36.107 2.061 0 10.643 27.525
+
+9282 JR2019 O3 Schoolpsychologie 9
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+8.
+
+FISCALE BEREKENINGEN EN SPECIFICATIES
+in euro's
+
+Vermogensvergelijking/Berekening verschuldigde belasting
+
+Ondernemingsvermogen per 31 december 2019
+Ondernemingsvermogen per 1 januari 2019
+
+Mutatie deelneming
+
+Vermogenstoename
+
+Niet aftrekbare bedragen:
+Vennootschapsbelasting
+
+Geplaatst kapitaal
+Boetes
+
+Afschrijving goodwill
+Dividenduitkeringen
+
+Verrekenbare verliezen voorgaande jaren
+Belastbaar bedrag
+
+Verschuldigde vennootschapsbelasting 2019
+
+Fiscale positie per 31 december 2019
+
+Verschuldigde vennootschapsbelasting 2019
+Af: voorlopige aanslag vennootschapsbelasting 2019
+
+Nog te betalen
+
+Ti
+
+wvtKantoor
+
+inanciële Administratieve Dienstverlening
+
+82.465
+2.000
+
+80.465
+
+-18.875
+
+@ © @
+
+-18.875
+
+99.340
+
+99.340
+
+19,0% 18.875
+
+18.875
+
+18.875
+
+18.875
+
+9282 JR2019 O3 Schoolpsychologie
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+
+2408 GX ALPHEN AAN DEN RIJN HwtKantoor
+
+Financiële Administratieve Bienstverlening
+
+9. _WINSTVERDELING
+in euro's
+
+Blijkens de statuten staat het resultaat ter beschikking van de aandeelhouders.
+Besloten is om het resultaat ten gunste te brengen van de algemene reserve.
+
+Het resultaat is in de jaarrekening als volgt verwerkt:
+
+Resultaat na belasting 2019 80.465
+Dotatie algemene reserve 80.465
+0
+
+9282 JR2019 O3 Schoolpsychologie 1
+
+
+O3 Schoolpsychologie BV
+Europaplein 2
+2408 GX ALPHEN AAN DEN RIJN
+
+10. SPECIFICATIE R/C AANDEELHOUDERS
+
+J.M.C. CLEMENS
+Saldo 1 januari 2019
+
+Mutaties 2019
+
+Privé opnamen
+Privé stortingen
+Arbeidsvergoeding
+
+Rente rekening-courant
+
+Saldo 31 december 2019
+
+J. CLEMENS
+Saldo 1 janvari 2019
+
+Mutaties 2019
+
+Privé opnamen
+Privé stortingen
+Arbeidsvergoeding
+
+Rente rekening-courant
+
+Saldo 31 december 2019
+
+9282 JR2019 O3 Schoolpsychologie
+
+HwtKantoor
+Financiële Administratieve Dienstverlening
+-127.749
+13.345
+0
+-6.000
+7.345
+-120.404
+0
+-120.404
+-127.549
+38.614
+0
+-23.810
+14.804
+-112.,745
+0
+-112.,745
+

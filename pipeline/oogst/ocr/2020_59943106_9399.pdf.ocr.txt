@@ -1,0 +1,980 @@
+# whosigns-ocr v1 grootte=9097903 dpi=300 paginas=20
+Jaarverslaggeving 2020
+
+Stichting Revalidatiegeneeskunde Nederland
+
+Stichting Revalidatiegeneeskunde Nederland
+
+INHOUDSOPGAVE
+
+5.1 Jaarrekening 2020
+
+5.1.1 Balans per 31 december 2020
+
+5.1.2 _Resultatenrekening over 2020
+
+5.1.3 _Kasstroomoverzicht over 2020
+
+5.1.4 Grondslagen van waardering en resultaatbepaling
+9.1.5 Toelichting op de balans per 31 december 2020
+51.10 Toelichting op de resultatenrekening over 2020
+5.1.20 Vaststelling en goedkeuring
+
+5.2 Overige gegevens
+
+5.2.1 Statutaire regeling resultaatbestemming
+
+5.2.3 _Beoordelingsverklaring van de onafhankelijke accountant
+
+Pagina
+
+NAE WN
+
+hk
+
+15
+16
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1 JAARREKENING
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1 JAARREKENING
+
+5.1.1 BALANS PER 31 DECEMBER 2020
+(na resultaatbestemming)
+
+Ref. 31-dec-20 31-dec-19
+€ €
+ACTIVA
+Vlottende activa
+Onderhanden werk uit hoofde van DBC's / DBC-
+zorgproducten 5 1.080.860 788.909
+Debiteuren en overige vorderingen i 1.272.431 614.535
+Liquide middelen 9 294.592 735.614
+Totaal vlottende activa 2.647.883 2.139.058
+Totaal activa 2.647.883 2.139.058
+Ref. 31-dec-20 31-dec-19
+€ €
+PASSIVA
+Eigen vermogen 10
+Algemene en overige reserves 17.731 9.493
+Totaal eigen vermogen 175731 9.493
+Kortlopende schulden (ten hoogste 1 jaar)
+Overige kortlopende schulden 13 2.630.152 2.129.565
+Totaal kortlopende schulden (ten hoogste 1 jaar) 2.630.152 2.129.565
+Totaal passiva 2.647.883 2.139.058
+
+Pagina 1
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.2 RESULTATENREKENING OVER 2020
+
+Ref. 2020 2019
+€ €
+
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke
+ondersteuning 16 5.381.087 4.929.803
+Subsidies 17 39.037 -
+Som der bedrijfsopbrengsten 5.420.124 4.929.803
+BEDRIJFSLASTEN:
+Personeelskosten 19 695.041 592.760
+Overige bedrijfskosten 23 4.674.362 4.327.530
+Som der bedrijfslasten 5.369.403 4.920.290
+BEDRIJFSRESULTAAT 50.721 9.513
+Financiële baten en lasten 24 -42.483 -41.643
+RESULTAAT VOOR BELASTINGEN 8.238 -32.130
+Belastingen 25 - -
+RESULTAAT NA BELASTINGEN 8.238 -32.130
+
+Pagina 2
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.3 KASSTROOMOVERZICHT OVER 2020
+
+Ref. 2020 2019
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 50.721 9.513
+Veranderingen in werkkapitaal:
+- mutatie onderhanden zorgtrajecten 5 -291.951 114.779
+- vorderingen 7 -657.896 ' 15.872
+- kortlopende schulden (excl. schulden aan banken) 13 500.587 -135.838
+-449.260 -5.187
+Kasstroom uit bedrijfsoperaties -398.539 4.326
+Betaalde interest 23 -42.483 -41.643
+-42.483 -41.643
+Totaal kasstroom uit operationele activiteiten -441.022 -37.317
+Mutatie geldmiddelen -441.022 -37.317
+Stand geldmiddelen per 1 januari 9 735.614 772.931
+Stand geldmiddelen per 31 december 9 294.592 135.614
+Mutatie geldmiddelen -441.022 -37.317
+
+Pagina 3
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.1 Algemeen
+
+Vestigingsadres en inschrijfnummer handelsregister
+Stichting Revalidatiegeneeskunde Nederland is feitelijk en statutair gevestigd op Zonnebloemstraat 53,
+4461 PK te Goes en is ingeschreven bij het handelsregister onder nummer 59943106.
+
+Activiteiten
+
+De activiteiten van Stichting Revalidatiegeneeskunde Nederland ( KvK- nummer 59943106) bestaan
+voornamelijk uit een medisch behandelcentrum in organisatorisch verband die voorziet in de behoefte aan
+(medisch specialistische) patiëntenzorg in ( poli) kliniek en/ of dagbehandeling, door of vanwege meerdere
+(para) medici, in het 2e en/ of 3e of 4e zorgcompartiminet, waaronder revalidatiezorg.
+
+Groepsverhoudingen
+De stichting maakt deel uit van een groep, waarvan TopzorgGroep Holding B.V. te Goes aan het hoofd
+staat.
+
+De financiële gegevens van de stichting zijn opgenomen in de geconsolideerde jaarrekening van
+TopzorgGroep Holding B.V.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2020, dat is geëindigd op balansdatum 31 december
+2020.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi (RvW) en de
+Richtlijnen voor de Jaarverslaggeving RJ 655, Titel 9BW2 en de bepalingen van en krachtens de Wet
+normering bezoldiging topfunctionarissen publieke en semipublieke sector (V/NT).
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+De uitbraak van het Covid-19-virus heeft wereldwijd tot een van de grootste crises van de laatste decennia
+geleid. De (gedeeltelijke) lockdowns hebben er onder meer toe geleid dat de bedrijfsactiviteiten in vele
+sectoren zijn geraakt. Bij het opstellen van de jaarrekening (waaronder de onderbouwing van de
+continuïteitsveronderstelling) is de impact van Covid-19 op onze organisatie nadrukkelijk geanalyseerd en
+gewogen. Bij deze analyse is rekening gehouden met de beperkte impact van Covid-19 op de onderneming
+in 2020 en de verwachte beperkte impact op de onderneming in 2021 en verder. Van belang is dat bij de
+bepaling van de verwachte impact op de onderneming in 2021 en verder, en dus ook de verwachte
+ontwikkeling in resultaat en liquiditeit, inherent een onzekerheid blijft bestaan ten aanzien van de duur van
+het Covid-19-virus en de daaruit voortvloeiende impact op de economie als geheel en op onze organisatie.
+
+Continuiteitsveronderstelling
+De gehanteerde grondslagen voor waardering en resultaatbepaling zijn gebaseerd op
+continuïteitsveronderstelling van de stichting.
+
+De standaarden die eerder worden toegepast dan de uiterste ingangsdata volgens de nieuwe Richtlijnen
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten
+
+opzichte van het voorgaande jaar, met uitzondering van de toegepaste stelsel- en schattingswijzigingen
+
+zoals opgenomen in de desbetreffende paragrafen.
+
+De cijfers voor 2019 zijn, waar nodig, geherrubriceerd teneinde vergelijkbaarheid met 2020 mogelijk te
+maken.
+
+Financiële instrumenten
+Alle overige in de balans opgenomen financiële instrumenten zijn gewaardeerd tegen de
+(geamortiseerde) kostprijs.
+
+Pagina 4
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Oordelen en schattingen
+
+Bij de toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt het bestuur
+zich diverse oordelen en schattingen. De belangrijkste oordelen en schattingen inclusief de bijbehorende
+veronderstellingen betreffen:
+
+Overheidssubsidies
+
+Exploitatiesubsidies worden als bate verantwoord in de staat van baten en lasten In het jaar waarin de
+gesubsidieerde kosten zijn gemaakt of opbrengsten zijn gederfd, of wanneer een gesubsidieerd
+exploitatietekort zich heeft voorgedaan. De baten worden verantwoord als het waarschijnlijk is dat deze
+worden ontvangen. Subsidies met betrekking tot investeringen in materiële vaste activa worden in
+mindering gebracht op het desbetreffende actief en als onderdeel van de afschrijvingen verwerkt in de staat
+van baten en lasten.
+
+5.1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in
+de verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht
+zijn in de jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar de onderneming zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan
+de omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de balans
+verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Onderhanden werk uit hoofde van DBC's / DBC-zorgproducten (en DBBC's)
+
+Het onderhanden werk uit hoofde van DBC's / DBC- zorgproducten wordt gewaardeerd tegen de
+opbrengstwaarde of de vervaardigingsprijs, zijnde de afgeleide verkoopwaarde van de reeds bestede
+verrichtingen. De productie van het onderhanden werk is bepaald door de openstaande verrichtingen te
+koppelen aan de DBC's / DBC- zorgproducten die ultimo boekjaar openstonden. Op het onderhanden werk
+worden de voorschotten die ontvangen zijn van verzekeraars in mindering gebracht. Op het onderhanden
+werk is een voorziening voor mogelijke oninbaarheid in mindering gebracht.
+
+Vorderingen
+
+Vlottende vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs onder aftrek van noodzakelijk geachte voorzieningen. Deze
+voorzieningen worden bepaald op basis van individuele beoordeling van de vorderingen.
+
+Liquide middelen
+Liquide middelen bestaan uit banktegoeden met een looptijd korter dan 12 maanden. Liquide middelen
+worden gewaardeerd tegen de nominale waarde.
+
+Overige reserves
+Overige reserves zijn alle reserves, anders dan de wettelijke reserves en de statutaire reserves. Overige
+reserves zijn vrij uitkeerbaar aan de aandeelhouders.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan
+één jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden
+worden bij eerste verwerking opgenomen tegen reële waarde en vervolgens gewaardeerd tegen de
+geamortiseerde kostprijs.
+
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen. Baten en lasten worden
+toegerekend aan de periode waarop deze betrekking hebben, uitgaande van historische kosten. Verliezen
+worden verantwoord als deze voorzienbaar zijn; baten worden verantwoord als deze gerealiseerd zijn. Baten
+en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit boekjaar toegerekend.
+
+Pagina 5
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Opbrengsten
+
+De opbrengsten uit dienstverlening worden verantwoord naar rato van de verrichte prestaties, gebaseerd op
+de verrichte diensten tot aan de balansdatum en in verhouding tot in totaal te verrichten diensten. De met
+opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn verantwoord.
+
+Personele kosten
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit. De
+beloningen van het personeel worden als last in de winst- en- verliesrekening verantwoord in de periode
+waarin de arbeidsprestatie wordt verricht en, vaor zover nog niet uitbetaald, als verplichting op de balans
+opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt het meerdere
+opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling door het personeel of
+van verrekening met toekomstige betalingen door de instelling. Ook wordt maandelijks een deel van de
+loonkosten vanuit TopzorgGroep B.V. doorbelast aan Stichting Revalidatiegeneeskunde Nederland. Deze
+personeelsleden worden bij vennootschap TopzorgGroep B.V. verloond.
+
+Pensioenlasten
+
+Op de pensioenregelingen zijn de bepalingen van de Nederlandse Pensioenwet van toepassing en worden
+op verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen betaald door Stichting
+Revalidatiegeneeskunde Nederland De premies worden verantwoord als personeelskosten zodra deze
+verschuldigd zijn. Vooruitbetaalde premies worden opgenomen als overlopende activa indien dit tot een
+terug storting leidt of tot een vermindering van toekomstige betalingen. Nog niet betaalde premies worden
+als verplichting op de balans opgenomen. De dekkingsgraad van het betrokken bedrijfstakpensioenfonds
+bedraagt ultimo 2020 volgens opgave van het fonds 92,6%. Op basis van de uitvoeringsovereenkomsten
+heeft de vennootschap geen verplichting tot het voldoen van aanvullende bijdragen anders dan door hogere
+toekomstige premies.
+
+Subsidies
+
+In het boekjaar ontvangt de onderneming op voorschot- en eindafrekeningsbasis een tegemoetkoming in de
+loonkosten uit hoofde van de Tijdelijke Noodmaatregel Overbrugging voor Werkgelegenheid (NOW-
+regeling) . Deze exploitatiesubsidie ziet toe op de maanden maart, april en mei en wordt naar rato één derde
+per maand toegerekend. De subsidiebate wordt als afzonderlijke post onder de Overige opbrengsten
+verwerkt, indien en voor zover er redelijke zekerheid is dat de stichting aan de gestelde voorwaarden zal
+voldoen en de tegemoetkoming daadwerkelijk zal verkrijgen.
+
+Als het per balansdatum (of zoveel eerder) waarschijnlijk is dat een ontvangen voorschot uit hoofde van de
+
+NOW- regeling geheel of ten dele terugbetaald moet worden, neemt de stichting een verplichting op ter
+hoogte van het terug te betalen bedrag.
+
+Rentelasten en soortgelijke kosten
+
+Rentelasten en soortgelijke kosten worden tijdsevenredig verwerkt, rekening houdend met de effectieve
+rentevoet van de desbetreffende passiva. Bij de verwerking van de rentelasten wordt rekening gehouden
+met de verantwoorde transactiekosten op de ontvangen leningen.
+
+5.1.4.5 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide middelen.
+
+Ontvangsten en uitgaven uit hoofde van interest en winstbelasting zijn opgenomen onder de kasstroom uit
+operationele activiteiten.
+
+Overheidssubsidies
+Voor de uitvoering van de Wet normering bezoldiging topfunctionarissen in de (semi) publieke sector
+
+(WNT) heeft de stichting zich gehouden aan de beleidsregel toepassing WNT en deze als normenkader bij
+het opmaken van deze jaarrekening gehanteerd.
+
+Pagina 6
+
+Stichting Revalidati kunde Nederland
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+5, Onderhanden werk uit hoofde van DBC's / DBC-zorgproducten
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+€ €
+Onderhanden werk uit hoofde van DBC's / DBC-zorgproducten 1.401.840 1.232.245
+Af: voorziening onderhanden werk -320.980 -443.336
+Totaal onderhanden werk 1.080.860 788.909
+De specificatie per categorie DBC's / DBC-zorgproducten
+is als volgt weer te geven;
+Gerealiseer-
+Stroom DBC's / DBC-zorgproducten de kosten en Af: Af: Saldo per
+toegereken- verwerkte ontvangen 31-dec-20
+de winst verliezen voorschotten
+€ € € €
+Revalidatiegeneeskunde 1.167.340 -224,182 0 943.158
+Cardio 234.500 -96.798 0 137.702
+Totaal (onderhanden werk) 1.401.840 -320.980 9) 1.080.860
+Toelichting:
+De in het boekjaar in de resultatenrekening verwerkte opbrengsten uit onderhanden projecten bedragen
+EUR 291.951 (2019: EUR 114.779).
+7. Debiteuren en overige vorderingen
+De specificatie is als volgt: 31-dec-20 31-dec-19
+€ €
+Vorderingen op debiteuren 1.276.867 603.466
+Nog te factureren omzet DBC's / DBC-zorgproducten 0 167.668
+Voorziening dubieuze debiteuren -106.802 -253.729
+Belastingen 30.374 0
+Overige vorderingen 71.992 97.130
+Totaal debiteuren en overige vorderingen 1.272.431 614.535
+9. Liquide middelen
+De specificatie is als volgt:
+Bankrekeningen 294.592 735.614
+Totaal liquide middelen 294 592 735.614
+
+Toelichting:
+
+De liquide middelen worden gewaardeerd tegen nominale waarde. De per 31 december 2020 aanwezige liquide middelen staan
+
+de onderneming ter vrije beschikking.
+
+10. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Algemene en overige reserves
+Het verloop is als volgt weer te geven:
+
+Algemene reserves:
+Algemene overige reserves
+
+Totaal algemene en overige reserves
+
+Algemene en overige reserves
+
+Het verloop over 2019 is als volgt weer te geven:
+
+Algemene reserves:
+Algemene overige reserves
+
+Totaal algemene en overige reserves
+
+Stichting Revalidatiegeneeskunde Nederland
+
+31-dec-20 31-dec-19
+
+€ €
+
+17.731 9.493
+
+17.731 9493
+
+Saldo per Resultaat- Overige Saldo per
+1jan-20 bestemming mutaties 31-dec-20
+€ € € €
+
+9.493 8.238 0 17.731
+9.493 8.238 0 17.731
+Saldo per Resultaat- Overige Saldo per
+1-jan-19 best ing mutaties 31-dec-19
+€ € € €
+
+41.623 -32.130 0 9.493
+41.623 -32.130 0 9.493
+
+Pagina 7
+
+
+5.1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+13. Overige kortlopende schulden
+De specificatie ís als volgt:
+Crediteuren
+
+R/C Topzorggroep B.V.
+
+R/C Revalidatie Middelburg B.V.
+
+Nog te ontvangen facturen
+Belastingen
+
+Overige nog te betalen kosten
+
+Totaal overige kortlopende schulden
+
+Pagina 8
+
+31-dec-20 31-dec-19
+€ €
+
+63.493 13.595
+1.732.951 1.933.074
+484.325 50.982
+167.229 0
+
+0 85.839
+
+182.154 46.075
+2.630.152 2.129.565
+
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.10 TOELICHTING OP DE RESULTATENREKENING
+
+BATEN
+
+16. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2020 2019
+€ €
+
+Gefactureerde omzet DBC's / DBC-zorgproducten a-segment 5.089.136 5.044.582
+
+Mutatie onderhanden werk DBC's / DBC-zorgproducten A-segment. 291.951 -114.779
+
+Totaal 5.381.087 4.929.803
+
+17. Subsidies
+
+De specificatie is als volgt:
+
+Overige Rijkssubsidies 39.037 0
+
+Totaal 39.037 0
+
+LASTEN
+
+19, Personeelskosten
+
+De specificatie js als volgt:
+
+Lonen en salarissen 243.774 164.478
+
+Sociale lasten 41.552 18.381
+
+Pensioenpremies 10.049 0
+
+Andere personeelskosten:
+
+Doorbelaste loonkosten 399.666 403.410
+
+Subtotaal 695.041 586.269
+
+Personeel niet in loondienst 0 6.491
+
+Totaal personeelskosten 695.041 592.760
+
+Overige personeelskosten 21.645 10.161
+
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+
+Algemeen 3 2
+
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 3 2
+
+Aantal personeelsleden dat buiten Nederland werkzaam is 0 0
+
+Toelichting:
+
+De WNT is van toepassing op Stichting Revalidatiegeneeskunde Nederland. Het voor Stichting Revalidatiegeneeskunde
+
+Nederland toepasselijke bezoldigingsmaximum voor de zorg en jeugdhulp is in 2020 € 146.700 (2019: € 157.000 op basis van
+
+klasse III, totalscore 9 punten.
+
+Onder de lonen en salarissen is opgenomen een tegemoetkoming van loonkosten (lonen plus aanvullende lasten) uit hoofde van
+NOW 1.0. Deze tegemoetkoming is gebaseerd op een interne berekening.
+
+De specificatie is als volgt: 2020 2019
+Personeelskosten 707.245 592.760
+Tijdelijke Noodmaatregel Overbrugging voor Werkgelegenheid (NOW) -12.204 0
+Totaal personeelskosten 695.041 592.760
+23. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+Algemene kosten 324.759 113.229
+Doorbelaste kosten 4.349.603 4.214.301
+Totaal overige bedrijfskosten 324.759 113.229
+
+Pagina 9
+
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.10 TOELICHTING OP DE RESULTATENREKENING
+
+24. Financiële baten en lasten
+
+De specificatie is als volgt:
+
+Rentelasten
+
+Rente rekening-courant verhoudingen
+Overige financiële lasten
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+LASTEN
+
+27. Wet normering topinkomens (WNT)
+
+WNT-verantwoording 2020 Stichting Revalidatiegeneeskunde Nederland
+
+2020 2019
+5 ge
+41.707 41.643
+776 0
+42.483 41.643
+42.483 41,643
+
+De WNT is van toepassing op Stichting Revalidatiegeneeskunde Nederland (SRN). Het voor SRN toepasselijke
+
+bezoldigingsmaximum is in 2020 € 163.000.
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+dienstbetrekking vanaf de 13e maand van de functievervulling
+
+Functiegegevens”
+
+Voorzitter Raad van Bestuur
+
+Aanvang® en einde
+functievervulling in
+2020
+
+01/01-31/12
+
+Omvang
+dienstverband (als
+deeltijdfactor in fte)’
+
+0,9
+
+Dienstbetrekking?®
+
+Bezoldi W
+
+Beloning plus
+belastbare
+onkostenvergoedinge
+n
+
+63.273
+
+Beloningen
+jpetealbaar op
+termijn
+
+5.470
+
+Subtotaal
+
+68.743
+
+Individueel
+toepasselijke
+bezoldigingsmaximu
+
+m'°
+
+146.700
+
+-/- Onverschuldigd
+betaald en nog niet
+terugontvangen
+bedrag
+
+Bezoldiging
+
+68,743
+
+Het bedrag van de
+overschrijding en de
+reden waarom de
+overschrijding al dan
+niet is toegestaan“
+
+N.v.t
+
+[Toelichting op de
+vordering wegens
+onverschuldigde
+betaling*
+
+Pagina 10
+
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.10 TOELICHTING OP DE RESULTATENREKENING
+
+Gegevens 2019
+
+bedragen x € 1
+Functiegegevens”
+
+J. Varkevisser
+
+Voorzitter Raad van Bestuur
+
+I.J. van Loo
+
+Voorzitter Raad van Bestuur
+
+W.J. Veerhoek
+
+Voorzitter / Secretaris /
+Penningmeester
+
+Aanvang en einde
+functievervulling in
+2019
+
+30/09 - 31/12
+
+1/1 - 30/09
+
+1/1 - 30/09
+
+Omvang
+dienstverband (als
+
+deeltijdfactor in fte)” Oi
+
+Dienstbetrekking?® Nee
+
+Ja
+
+Ja
+
+Bezoldiging
+
+Beloning plus
+belastbare
+onkostenvergoedinge
+n
+
+3.388
+
+61.920
+
+61.920
+
+Beloningen
+betaalbaar op 5
+
+termijn
+
+Subtotaal 3.388
+
+61.920
+
+61.920
+
+Individueel 39.250
+
+117.750
+
+117.750
+
+Bezoldiging 3.388
+
+61.920
+
+61.920
+
+1c. Toezichthoudende topfunctionarissen
+
+bedragen x€ 1
+
+Functiegegevens
+
+S. Vegter
+
+Voorzitter Raad van Toezicht
+
+Aanvang en einde
+functievervulling in
+2020
+
+1/1—:31/E2:
+
+Bezoldiging
+
+Bezoldiging”
+
+10.743
+
+ffndividueel
+toepasselijke
+bezoldigingsmaximu
+mé
+
+24.450
+
+-/- Onverschuldigd
+betaald en nog niet
+terugontvangen
+bedrag”
+
+Bezoldiging
+
+Het bedrag van de
+overschrijding en de
+reden waarom de
+overschrijding al dan
+niet is toegestaan®
+
+Toelichting op de
+vordering wegens
+onverschuldigde
+betaling 7
+
+Gegevens 2019
+
+Functiegegevens® Voorzitter Raad van Toezicht
+
+Lid Raad van Toezicht
+
+Lid Raad van Toezicht
+
+Aanvang en einde
+functievervulling in
+2019
+
+30/09 - 31/12
+
+01/01 - 30/09
+
+01/01 - 30/09
+
+Bezoldiging
+
+Bezoldiging” 5
+
+ndividueel
+toepasselijke
+bezoldigingsmaximu
+m°
+
+5.888
+
+17.663
+
+17.663
+
+Pagina 11
+
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.10 TOELICHTING OP DE RESULTATENREKENING
+
+28. Honoraria accountant
+De honoraria van de accountant over 2020 zijn als volgt:
+
+1 Controle van de jaarrekening
+4 Niet-controlediensten
+
+Totaal honoraria accountant
+
+2020 2019
+€ €
+11.000 20.000
+37.777 23.568
+48.777 43.568
+
+Toelichting:
+
+De in de tabel vermelde honoraria voor de controle van de jaarrekening 2020 (2019) hebben betrekking op de totale honoraria
+
+voor het onderzoek van de jaarrekening 2020 (2019), ongeacht of de werkzaamheden al
+verricht.
+
+gedurende het boekjaar 2020 (2019) zijn
+
+Pagina 12
+
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.1.20 VASTSTELLING EN GOEDKEURING
+Resultaatbestemming
+
+De raad van bestuur van Stichting REE en ze Nederland heeft de jaarrekening 2020 opgemaakt en
+vastgesteld in de vergadering van 2. pike OH. 2021.
+
+De raad van toezicht van Stichting Revalidatiegeneeskunde Nederland heeft de jaarrekening 2020 goedgekeurd in
+de vergadering van … … … … … 2021.
+
+Ondertekening door bestuurders en toezichthouders
+
+W.G. W.G. en Lu
+
+J. Varkevisser 29 september 2021 S.J. de Vegter en 29 september 2021
+
+Pagina 13
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.2 OVERIGE GEGEVENS
+
+Pagina 14
+
+Stichting Revalidatiegeneeskunde Nederland
+
+5.2 OVERIGE GEGEVENS
+5.2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is geen bepaling opgenomen inzake de resultaatbestemming, derhalve is het verlies
+in mindering gebracht op het kapitaal van de stichting.
+
+Pagina 15
+
+OERS”
+
+audit .
+Ginnekenweg 145
+
+4818 JD Breda
+
+T +31 (0)76 513 69 00
+F +31 (0)76 513 69 01 01
+
+informatie@vanoers-audit.nl
+Postbus 2039, 4800 CA BREDA
+
+www.vanoers-audit.nl
+
+Aan het bestuur van
+
+Stichting Revalidatiegeneeskunde Nederland
+Zonnebloemstraat 53
+
+4461 PK Goes
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2020 van Stichting Revalidatiegeneeskunde
+Nederland te Goes beoordeeld.
+
+Deze jaarrekening bestaat uit:
+
+1. de balans per 31 december 2020;
+
+2. de staat van baten en lasten over 2020; en
+
+3. de toelichting, waarin zijn opgenomen een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het
+resultaat getrouw dient weer te geven in overeenstemming met Titel 9 Boek 2 van het Burgerlijk
+Wetboek (BW), de Richtlijnen voor de Jaarverslaggeving waaronder RJ655, de Regeling verslaggeving
+WTZi (RvW) en de bepalingen van en krachtens de Wet normering bezoldiging topfunctionarissen
+publieke en semipublieke sector (WNT). Het bestuur is tevens verantwoordelijk voor een zodanige
+interne beheersing als het noodzakelijk acht om het opmaken de jaarrekening mogelijk te maken zonder
+afwijkingen van materieel belang als gevolg van fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze
+beoordeling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht,
+waaronder de Nederlandse Standaard 2400, ‘Opdrachten tot het beoordelen van financiële
+overzichten’. Dit vereist dat wij voldoen aan de voor ons geldende ethische voorschriften en dat wij
+onze beoordeling zodanig plannen en uitvoeren dat wij in staat zijn te concluderen dat wij geen reden
+hebben om te veronderstellen dat de jaarrekening afwijkingen van materieel belang bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte
+mate van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak uit het
+inwinnen van inlichtingen bij het management en overige functionarissen van de entiteit, het uitvoeren
+van cijferanalyses met betrekking tot de financiële gegevens alsmede het evalueren van de verkregen
+informatie.
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter
+dan die uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de
+Nederlandse controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Van Oers Audit B.V.
+KvK Breda 20055194
+
+In association with:
+Leading Edge Alliance
+
+OERS”
+
+audit
+Stichting Revalidatiegeneeskunde Nederland
+
+GOES
+
+Conclusie
+
+Op grond van onze beoordeling hebben wij geen reden om te veronderstellen dat de jaarrekening geen
+getrouw beeld geeft van de grootte en de samenstelling van het vermogen van Stichting
+Revalidatiegeneeskunde Nederland per 31 december 2020 en van het resultaat over 2020 in
+overeenstemming met Titel 9 Boek 2 van het Burgerlijk Wetboek (BW), de Richtlijnen voor de
+Jaarverslaggeving waaronder RJ655, de Regeling verslaggeving WTZi (RvW) en de bepalingen van en
+krachtens de Wet normering bezoldiging topfunctionarissen publieke en semi publieke sector (WNT).
+
+Benadrukking controle-opdracht in het kader van de WNT
+
+Conform artikel 1.7 lid 1 van de WNT bestaat er een controleplicht ten aanzien van de WNT-aspecten.
+Met betrekking tot de jaarrekening van Stichting Revalidatiegeneeskunde Nederland wordt door ons een
+beoordelingsopdracht uitgevoerd. De WNT-aspecten vallen hier derhalve niet onder. Ten behoeve van
+het Ministerie van Volksgezondheid, Welzijn en Sport (VWS) wordt hiervoor door ons een separate
+controleverklaring afgegeven.
+
+Breda, 29 september 2021
+Van Oers Audit B.V.
+
+Digitaal getekend door:
+drs. A.A. Hoeven RA
+
+ooraorcterd met ValidSign

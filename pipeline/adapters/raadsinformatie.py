@@ -65,12 +65,51 @@ VELDEN = [
     "last_discussed_at",
 ]
 
+# Woorden waarmee een nieuwe zin of een kop begint. Een organisatienaam loopt daar
+# nooit doorheen, dus de naam mag ze niet bevatten.
+#
+# Waarom dit er is: zonder deze rem sprong de naam over een kop heen. Een stuk van
+# de gemeente Den Haag zet "Ons oordeel" als kopje boven de verklaring, en de
+# regel ervóór noemt de jaarrekening al. De naam werd dan "Gemeente Den Haag Ons
+# oordeel Wij hebben de jaarrekening 2016 van de gemeente Den Haag" — een tweede,
+# verzonnen organisatie naast de echte, mét een accountant eronder. Gemeten op
+# 4.000 documenten (7-8-2026): 26 van de 2.335 namen waren zo opgerekt, en Den
+# Haag raakte er vijf echte jaren door kwijt, want de opgerekte match at de goede
+# zin op. Met de rem verdwijnen alle 26 en komen die vijf terug; geen enkele
+# schone naam valt weg.
+_HERSTART = r"\bjaarrekening\b|\bjaarstukken\b|\boordeel\b|\bwij\s+hebben\b|20[0-2]\d"
+
+# Wat er tussen "jaarrekening 2020" en "van" mag staan.
+#
+# Alleen een aanduiding van de reikwijdte: "(inclusief erratum)", "inclusief de
+# SISA bijlage (bijlage 7.1)", "en de daarbij behorende bijlagen". Bewust géén vrij
+# gat, en de tussenzin mag zelf het woord "van" niet bevatten. Dat is gemeten en
+# het was geen theorie: met een vrij gat sloeg de zoeker het échte "van" over en
+# haakte hij aan het "van" binnenín de naam. "Vereniging van Nederlandse
+# Gemeenten" werd dan "Nederlandse Gemeenten", "Regio Hart van Brabant" werd
+# "Brabant" en "Stichting Openbaar Onderwijs Land van Altena" werd "Altena" —
+# 113 gehalveerde namen op 4.000 documenten. Nederlandse organisatienamen zitten
+# vol "van", dus dit is geen randgeval.
+#
+# "opdracht" en "verantwoordelijk" horen er om dezelfde reden niet in: "is
+# opgesteld onder verantwoordelijkheid van het bestuur" en "in opdracht van het
+# GR-bestuur" zijn ándere zinnen, en die leverden "het bestuur" als organisatie.
+_AANVULLING = (
+    r"(?:"
+    r"\((?:(?!\bvan\b)[^()]){1,45}\)"
+    r"|(?:inclusief|incl\.|en\s+(?:de\s+)?daarbij\s+behorende)"
+    r"(?:(?!\bvan\b|opdracht|verantwoordelijk)[^.;:!?()]){0,45}"
+    r")"
+)
+
 # De standaardzin uit de controleverklaring. Twee schrijfwijzen komen voor:
 # "de jaarrekening 2018 van X te Y gecontroleerd" en dezelfde zin zonder plaats.
 # Het jaartal staat er altijd, want de verklaring gaat over één jaarrekening.
 _GECONTROLEERD = re.compile(
-    r"jaarrekening\s+(20[0-2]\d)\s+van\s+(?:de\s+|het\s+)?"
-    r"(.{3,120}?)"
+    r"jaarrekening\s+(20[0-2]\d)\s+"
+    r"(?:" + _AANVULLING + r"(?:\s+" + _AANVULLING + r")?\s+)?"
+    r"van\s+(?:de\s+|het\s+)?"
+    r"((?:(?!" + _HERSTART + r").){3,120}?)"
     r"(?:\s+te\s+([A-Z][\w'’\- ]{2,40}?))?"
     r"\s+gecontroleerd",
     re.I | re.S,
@@ -174,8 +213,47 @@ def matchsleutel(naam: str) -> str:
     Daarom voor déze bron een strengere sleutel: alleen letters en cijfers.
     Bij namen van deze lengte en soortelijkheid is de kans dat twee échte
     organisaties samenvallen verwaarloosbaar.
+
+    Twee dingen worden er vooraf afgehaald, allebei omdat ze niets over
+    identiteit zeggen. Ze zijn gemeten over de volle oogst (8-8-2026, 1.575
+    namen) en voegden daar 22 namen samen tot 14 organisaties, zonder één
+    verkeerde samenvoeging:
+
+    * een plaatsaanduiding achteraan — "Gemeenschappelijke Regeling Cocensus"
+      en "Gemeenschappelijke Regeling Cocensus, te Hoofddorp" zijn hetzelfde;
+    * een per ongeluk verdubbeld eerste woord — "Gemeente Gemeente De Ronde
+      Venen", "Stichting Stichting Openbaar Onderwijs Rijn- en Heuvelland".
+
+    Wat hier bewust NIET gebeurt is het wegstrepen van woorden als "gemeente",
+    "provincie" of "gemeenschappelijke regeling". Dat lijkt dezelfde soort
+    opschoning, maar die woorden zíjn de identiteit: zonder "gemeente" en
+    "provincie" vallen Gemeente Utrecht en Provincie Utrecht samen, en Gemeente
+    Groningen en Provincie Groningen ook. Beide zijn echte, verschillende
+    gecontroleerde partijen.
+
+    Wat er dan nog overblijft is tekstschade uit de pdf: "Gemeenschappeiijke
+    Regeling Senzer", "Omgevingsdienst Veluwe I]ssel", "GGD Gelderand-Zuid".
+    Daar is geen veilige regel voor te schrijven — één letter verschil is ook
+    precies wat EMCO-groep van Felua-groep onderscheidt — dus die blijven staan
+    als aparte organisatie. Zie docs/bronverkenning-raadsinformatie.md.
     """
-    return re.sub(r"[^a-z0-9]", "", _normaliseer_kaal(naam))
+    kaal = _normaliseer_kaal(naam)
+    # "… te Hoofddorp", "…, te Meerkerk", "… te gemeente De Wolden",
+    # "…, gevestigd te Roosendaal", "… statutair gevestigd te Rotterdam"
+    #
+    # De spatie vóór "te" mag ook ontbreken. In de pdf-tekst plakt de staart
+    # soms direct achter de afkorting tussen haakjes: "Waterschap Amstel, Gooi
+    # en Vecht (AGV)te Amsterdam", "… Crematoria Twente (OLCT)te Enschede".
+    # Zonder de ")" in dit tekenklasje bleven dat aparte organisaties naast de
+    # versie zonder plaatsnaam. Gemeten over de 1.770 overheidsorganisaties in
+    # de database (11-8-2026): twee namen erbij die samenvallen, allebei goed,
+    # geen enkele verkeerde samenvoeging.
+    kaal = re.sub(
+        r"[,.\s)]+(?:statutair\s+)?(?:gevestigd\s+)?te\s+[a-z'\-. ]+$", "", kaal
+    )
+    # "gemeente gemeente de ronde venen" -> "gemeente de ronde venen"
+    kaal = re.sub(r"^(\w+)\s+\1\b", r"\1", kaal)
+    return re.sub(r"[^a-z0-9]", "", kaal)
 
 
 def _normaliseer_kaal(tekst: str) -> str:
@@ -231,13 +309,41 @@ def verklaringen_uit(tekst: str, bron: dict | None = None) -> list[dict]:
         verklaring["venster"] = (max(0, verklaring["positie"] - 800), volgende)
 
     # Dezelfde organisatie en hetzelfde boekjaar twee keer in één document is
-    # een herhaling (bijlage plus samenvatting); één regel volstaat.
-    uit: list[dict] = []
-    gezien: set[tuple[str, int]] = set()
+    # een herhaling (bijlage plus samenvatting); één regel volstaat. Maar wélke
+    # van de twee je houdt maakt uit, en dat is niet vanzelfsprekend.
+    #
+    # Een raadsbundel noemt de jaarrekening vaak eerst in de aanbiedingsbrief en
+    # dan nog eens in de bijgevoegde verklaring zelf. Het venster van elke
+    # vermelding loopt tot aan de vólgende vermelding, dus het venster van die
+    # eerste eindigt precies waar de échte verklaring begint — vlák vóór het
+    # handtekeningblok. Wie simpelweg de eerste houdt, houdt dus de vermelding
+    # zónder handtekening over.
+    #
+    # Daarom de vermelding met het langste venster. Dat blijft veilig: elk
+    # venster is al begrensd door de eerstvolgende verklaring in het document,
+    # welke organisatie die ook betreft, dus een langer venster kan nooit de
+    # handtekening van de buurman opslokken.
+    #
+    # Eerlijk over de omvang: het geval staat in de tests (zonder deze regel valt
+    # de handtekening buiten het venster), maar corpusbreed is het níet
+    # doorgemeten. De meting stond op 3.000 van de 21.339 documenten — daar nul
+    # verschil, in beide richtingen — toen hij is afgebroken omdat hij processor
+    # wegnam van de zorgoogst, en dáár kost dat blijvend gegevens: het
+    # OCR-tijdbudget is kloktijd, dus een document dat door drukte niet op tijd
+    # gelezen wordt, gaat als "bekeken" de lijst in en komt niet terug. De regel
+    # is dus goed onderbouwd en aantoonbaar onschadelijk op het gemeten deel,
+    # maar de opbrengst over de volle bron is onbekend.
+    beste: dict[tuple[str, int], dict] = {}
     for verklaring in ruw:
         sleutel = (verklaring["organisatie"].lower(), verklaring["boekjaar"])
-        if sleutel in gezien:
-            continue
-        gezien.add(sleutel)
-        uit.append(verklaring)
-    return uit
+        vorige = beste.get(sleutel)
+        if vorige is None or _vensterlengte(verklaring) > _vensterlengte(vorige):
+            # dict houdt de invoegvolgorde aan, dus vervangen laat de plaats
+            # van de eerste vermelding in het document intact.
+            beste[sleutel] = verklaring
+    return list(beste.values())
+
+
+def _vensterlengte(verklaring: dict) -> int:
+    begin, eind = verklaring["venster"]
+    return eind - begin

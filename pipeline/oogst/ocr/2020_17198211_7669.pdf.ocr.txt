@@ -1,0 +1,913 @@
+# whosigns-ocr v1 grootte=978900 dpi=300 paginas=20
+TOPAZE B.V. TE SCHIJNDEL
+
+Accountants & Adviseurs
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met Titel 9 Boek 2 BW. In dit kader is het bestuur verantwoordelijk voor een zodanige
+interne beheersing die het bestuur noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken
+zonder afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Onze verantwoordelijkheden voor de beoordeling van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een beoordelingsopdracht dat wij daarmee
+voldoende en geschikte assurance-informatie verkrijgen voor de door ons af te geven conclusie.
+
+De mate van zekerheid die wordt verkregen bij een beoordelingsopdracht is aanzienlijk lager dan de zekerheid
+die wordt verkregen bij een controleopdracht verricht in overeenstemming met de Nederlandse
+controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Wij hebben deze beoordeling professioneel kritisch uitgevoerd en hebben waar relevant professionele
+oordeelsvorming toegepast in overeenstemming met de Nederlandse Standaard 2400.
+
+Onze beoordeling bestond onder andere uit:
+
+-_ Het verwerven van inzicht in de entiteit en haar omgeving en in het van toepassing zijnde stelsel inzake
+financiële verslaggeving, om gebieden in de jaarrekening te kunnen identificeren waar het waarschijnlijk is
+dat zich risico's op afwijkingen van materieel belang voor zullen doen als gevolg van fouten of fraude, het in
+reactie hierop opzetten en uitvoeren van werkzaamheden om op die gebieden in te spelen en het verkrijgen
+van assurance-informatie die voldoende en geschikt is als basis voor onze conclusie;
+
+-_ Het verkrijgen van inzicht in de administratieve systemen en administratie van de entiteit en het overwegen
+of deze gegevens opleveren die adequaat zijn voor het doel van het uitvoeren van cijferanalyses;
+
+-_Het inwinnen van inlichtingen bij het bestuur en andere functionarissen van de entiteit ;
+
+- Het uitvoeren van cijferanalyses met betrekking tot de informatie opgenomen in de jaarrekening:
+
+-_Het verkrijgen van assurance-informatie dat de jaarrekening overeenstemt met of aansluit op de
+onderliggende administratie van de entiteit:
+
+- Het evalueren van de verkregen assurance-informatie;
+
+- Het overwegen van de geschiktheid van de gebruikte grondslagen voor financiële verslaggeving en het
+evalueren of de door het bestuur gemaakte schattingen redelijk lijken;
+
+- Het overwegen van de algehele presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toelichtingen; en
+
+- Het overwegen of de jaarrekening, inclusief de gerelateerde toelichtingen, een getrouw beeld lijkt te geven
+van de onderliggende transacties en gebeurtenissen.
+
+TOPAZE B.V. TE SCHIJNDEL
+
+Accountants & Adviseurs
+
+3 ALGEMEEN
+3.1 Bedrijfsgegevens
+
+De activiteiten van Topaze B.V. bestaan voornamelijk uit het verlenen van psychosociale hulp en opvang aan
+jongeren in de leeftijd van 13 tot en met 20 jaar, die problemen hebben op het gebied van wonen, school/werk
+en relaties. De vennootschap tracht dit doel te bereieken door middel van het organiseren en realiseren van
+individuele pedagogische opvang, het begeleiden van kind en/of oudersystemen, het trainen van
+opvoedingsvaardigheden van ouders middels cursussen en het begeleiden van de transfer van opvang en
+werk naar het gewone werk/schoolleven van betreffende jongeren.
+
+3.2 Bestuur
+Per balansdatum wordt het bestuur gevoerd door de heer J.A.R.C. Slootmans namens W.F. Explorer B.V.
+3.3 Kamer van Koophandel
+
+De vennootschap staat ingeschreven bij de Kamer van Koophandel onder nummer 17198211.
+
+TOPAZE B.V. TE SCHIJNDEL
+
+Accountants & Adviseurs
+
+4 RESULTAAT
+4.1 Vergelijkend overzicht
+
+Het resultaat na belastingen over 2020 bedraagt negatief € 35.985 tegenover negatief € 170.746 over 2019.
+De resultaten over beide jaren kunnen als volgt worden samengevat:
+
+2020 2019 Verschil
+€ % € % €
+Netto-omzet 2.459.441 100,0 2.340.655 100,0 118.786
+Kostprijs van de omzet 478.880 19,5 364.445 15,6 114.435
+Bruto-omzetresultaat 1.980.561 80,5 1.976.210 84,4 4.351
+Kosten
+Personeelskosten 1.779.471 12,4 1.907.949 81,5 -128.478
+Afschrijvingen 3.741 0,2 4.335 0,2 -594
+Huisvestingskosten 53.254 2,2 108.449 4,6 -55.195
+Exploitatiekosten 1.147 0,1 1.409 0,1 -262
+Kantoorkosten 134.875 5,5 124.162 5,3 10.713
+Autokosten 1.849 0,1 3.429 0,2 -1.580
+Verkoopkosten 138 - 679 - -541
+Algemene kosten 44.308 1,6 29.599 1,3 14.709
+2.018.783 82,1 2.180.011 93,2 -161.228
+Bedrijfsresultaat -38.222 -1,6 -203.801 -8,8 165.579
+Financiële baten en lasten -345 - -881 - 536
+Resultaat voor belastingen -38.567 -1,6 -204.682 -8,8 166.115
+Belastingen 2.582 0,1 33.936 1,5 -31.354
+Resultaat na belastingen -35.985 -1,5 -170.746 -1,3 134.761
+
+
+TOPAZE B.V. TE SCHIJNDEL
+
+Accountants & Adviseurs
+
+5 FINANCIËLE POSITIE
+
+Uit de balans is de volgende financieringsstructuur af te leiden:
+
+31-12-2020 31-12-2019
+
+€ €
+Beschikbaar op lange termijn:
+Eigen vermogen -257.780 -221.795
+Waarvan vastgelegd op lange termijn:
+Materiële vaste activa 11.368 10.186
+Financiële vaste activa 36.518 33.936
+47.886 44.122
+Vastgelegd op lange termijn, gefinancierd met middelen op korte termijn -305.666 -265.917
+Dit bedrag is als volgt aangewend:
+Vorderingen 92.790 154.451
+Liquide middelen 13.217 20.703
+106.007 175.154
+Af: kortlopende schulden 411.673 441.071
+Werkkapitaal -305.666 -265.917
+
+
+TOPAZE B.V. TE SCHIJNDEL
+
+Accountants & Adviseurs
+
+6 FISCALE POSITIE
+
+6.1 Berekening belastbaar bedrag 2020
+Het belastbaar bedrag voor de vennootschapsbelasting over 2020 is als volgt berekend:
+
+2020
+
+€ €
+
+Resuitaat voor belastingen -38.567
+
+Fiscale verschillen:
+
+Niet aftrekbare kosten 2.171
+Investeringsaftrek -1.378
+
+793
+
+Belastbaar bedrag 2020 -37.774
+
+Over het belastbare bedrag is geen vennootschapsbelasting verschuldigd.
+
+6.2 Te verrekenen verliezen
+
+Per 31 december 2020 bedraagt de omvang van de nog te verrekenen verliezen € 243.448.
+
+De verliezen kunnen binnen een termijn van zes jaar worden verrekend met toekomstige winsten.
+
+Voor deze compensabele verliezen is een latente belastingvordering opgenomen die is gewaardeerd tegen het
+nominale belastingtarief van 15,0%.
+
+6.2.1 Compensabele verliezen
+Compensabele
+
+Compensabele aanspraak per
+aanspraak per Verlies in 31 december Verrekenbaar
+1 januari 2020 2020 2020 t/m
+€ € €
+2019 205.674 - 205.674 2025
+2020 - 37.774 37.774 2026
+205.674 37.774 243.448
+
+Wij vertrouwen erop hiermee aan uw opdracht te hebben voldaan en zijn graag bereid nadere toelichtingen te
+geven.
+
+Hoogachtend,
+
+BGH Accountants & Adviseurs
+
+
+JAARREKENING
+
+TOPAZE B.V. TE SCHIJNDEL
+
+1 BALANS PER 31 DECEMBER 2020
+(na resultaatbestemming)
+
+31 december 2020 31 december 2019
+€ € € €
+ACTIVA
+Vaste activa
+Materiële vaste activa (1)
+inventaris 11.368 10.186
+Financiële vaste activa (2)
+Overige vorderingen 36.518 33.936
+Vlottende activa
+Vorderingen
+Handelsdebiteuren 37.226 75.033
+Vorderingen op groepsmaatschappijen 48.185 23.159
+Vennootschapsbelasting - 26.405
+Overige vorderingen en overlopende
+activa 7.379 29.854
+92.790 154.451
+Liquide middelen (3) 13.217 20.703
+153.893 219.276
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021 9
+
+PASSIVA
+Eigen vermogen (4)
+
+Geplaatst kapitaal
+Overige reserves
+
+Kortlopende schulden (5)
+
+Schulden aan leveranciers en
+handelskredieten
+
+Overige belastingen en premies sociale
+verzekeringen
+
+Overige schulden en overlopende
+passiva
+
+31 december 2020
+
+31 december 2019
+
+€ €
+18.000
+-275.780
+-257.780
+75.254
+63.916
+272.503
+411.673
+153.893
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021
+
+-239.795
+
+€ €
+18.000
+
+-221.795
+86.164
+111.344
+243.563
+
+441.071
+
+219.276
+
+10
+
+TOPAZE B.V. TE SCHIJNDEL
+
+2 WINST-EN-VERLIESREKENING OVER 2020
+
+Netto-omzet
+Kostprijs van de omzet
+
+Bruto-omzetresultaat
+Kosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+Beheervergoeding
+Overige personeelskosten
+Afschrijvingen
+Huisvestingskosten
+Exploitatiekosten
+Kantoorkosten
+Autokosten
+Verkoopkosten
+Algemene kosten
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat voor belastingen
+Belastingen
+
+Resultaat na belastingen
+
+(6)
+(7)
+
+(8)
+
+(9)
+(10)
+(11)
+(12)
+(13)
+(14)
+(15)
+(16)
+(17)
+(18)
+(19)
+
+(20)
+
+(21)
+
+2020 2019
+
+€ € € €
+2.459.441 2.340.655
+478.880 364.445
+
+1.980.561 1.976.210
+1.239.803 1.337.032
+208.477 241.853
+118.882 124.438
+108.000 108.000
+104.309 96.626
+3.741 4.335
+53.254 108.449
+1.147 1.409
+134.875 124.162
+1.849 3.429
+138 679
+44.308 29.599
+
+2.018.783 2.180.011
+
+-38.222 -203.801
+
+-345 -881
+
+-38.567 -204.682
+
+2.582 33.936
+
+-35.985 -170.746
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021
+
+1
+
+TOPAZE B.V. TE SCHIJNDEL
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+ALGEMEEN
+
+ACTIVITEITEN
+
+De activiteiten van Topaze B.V. (geregistreerd onder KvK-nummer 17198211), statutair gevestigd te Schijndel,
+en haar groepsmaatschappijen bestaan voornamelijk uit:
+
+Het verlenen van psychosociale hulp en opvang aan jongeren in de leeftijd van 13 t/m 20 jaar, die problemen
+hebben op het gebied van wonen, school/werk relaties. De vennootschap tracht dit doel te bereiken d.m.v. het
+organiseren en realiseren van individuele pedagogische opvang, het begeleiden van kind en/of
+oudersystemen, het trainen van specifieke gedragingen en aardigheden bij jongeren, het trainen van
+opvoedingsvaardigheden van ouders middels cursussen en het begeleiden van de transfer en opvang en werk
+naar het gewone werk/schoolleven van betreffende jongeren.
+
+CONTINUÏTEIT
+
+Het eigen vermogen van Topaze B.V. bedraagt per 31 december 2020 € -257.780. De financiering hiervan
+vindt geheel plaats met kortlopende schulden. De continuïteit hangt samen met de bereidheid van de
+gemeenten om de subsidiering van ontwikkeling en innovatie weer te starten. In 2020 is dit veelal door corona
+doorgeschoven en de verwachting is dat dit in 2021 weer wordt opgepakt. Daarnaast is er in de overhead van
+de organisatie gekort om de kosten terug te dringen in 2020 en 2021. Ook is de verwachting dat bij
+liquiditeitsproblemen er net als in het verleden een voorschot op de omzet kan worden bedongen bij de
+gemeenten. Vandaar dat de onderneming levensvatbaar wordt geacht en op basis van goingconcern kan
+worden gewaardeerd. De ontwikkelingen in 2021 zijn echter wel cruciaal voor het voortbestaan op langere
+termijn.
+
+GROEPSVERHOUDINGEN
+De vennootschap maakt deel uit van een groep, waarvan W.F. Explorer B.V. te Breda aan het hoofd staat.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen die uitgegeven zijn door de Raad voor de
+jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties
+wordt verwezen naar de toelichting.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+MATERIËLE VASTE ACTIVA
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021 12
+
+TOPAZE B.V. TE SCHIJNDEL
+
+FINANCIËLE VASTE ACTIVA
+Latente belastingvorderingen
+
+De berekening van de latente belastingvorderingen geschiedt tegen de op het einde van het verslagjaar
+geldende belastingtarieven of tegen de in komende jaren geldende tarieven, voor zover deze al bij wet zijn
+vastgesteld.
+
+Latente belastingvorderingen worden gewaardeerd op nominale waarde.
+
+Overige vorderingen
+
+De onder financiële vaste activa opgenomen overige vorderingen omvatten verstrekte leningen en overige
+vorderingen, alsmede gekochte leningen die tot het einde van de looptijd zuilen worden aangehouden. Deze
+vorderingen worden initieel gewaardeerd tegen reële waarde. Vervolgens worden deze leningen gewaardeerd
+tegen de geamortiseerde kostprijs. Indien er bij de verstrekking van leningen sprake is van disagio of agio,
+wordt dit gedurende de looptijd ten gunste respectievelijk ten laste van het resultaat gebracht als onderdeel
+van de effectieve rente. Ook transactiekosten worden verwerkt in de eerste waardering en als onderdeel van
+de effectieve rente ten laste van het resultaat gebracht. Bijzondere waardeverminderingen worden in mindering
+gebracht op de winst-en-verliesrekening.
+
+VORDERINGEN
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reöle waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen de
+geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de
+boekwaarde van de vordering.
+
+LIQUIDE MIDDELEN
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+KORTLOPENDE SCHULDEN
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden
+afgelost.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+ALGEMEEN
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en
+verrichte diensten enerzijds, en anderzijds de kosten en andere lasten van het jaar, gewaardeerd tegen
+historische kostprijzen.
+
+KOSTEN
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021 13
+
+TOPAZE B.V. TE SCHIJNDEL
+
+PERSONEELSBELONINGEN
+Periodiek betaalbare beloningen
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de winst-en-
+verliesrekening.
+
+Pensioenen
+
+Topaze B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord.
+
+De premies worden verantwoord als personeelskosten zodra deze verschuldigd zijn. Vooruitbetaalde premies
+worden opgenomen als overlopende activa indien dit tot een terugstorting leidt of tot een vermindering van
+toekomstige betalingen. Nog niet betaalde premies worden als verplichting op de balans opgenomen.
+
+AFSCHRIJVINGEN
+
+Immateriële vaste activa inclusief goodwill en materiële vaste activa worden vanaf het moment van gereedheid
+voor ingebruikneming afgeschreven over de verwachte toekomstige gebruiksduur van het actief. Over
+terreinen en vastgoedbeleggingen wordt niet afgeschreven.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+
+BELASTINGEN
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren
+(voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde winstbestanddelen en na
+bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met wijzigingen die optreden in de
+latente belastingvorderingen en latente belastingschulden uit hoofde van wijzigingen in het te hanteren
+belastingtarief.
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021 14
+
+TOPAZE B.V. TE SCHIJNDEL
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2020
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Materiële vaste activa
+
+Inventaris
+€
+
+Boekwaarde per 1 januari 2020
+Aanschaffingswaarde 176.495
+Cumulatieve afschrijvingen en waardeverminderingen -166.310
+
+10.185
+Mutaties
+investeringen 30.285
+Afschrijvingen -3.741
+Subsidie -25.361
+
+1.183
+
+Boekwaarde per 31 december 2020
+Aanschaffingswaarde 206.780
+Cumulatieve afschrijvingen en waardeverminderingen -195.412
+Boekwaarde per 31 december 2020 11.368
+
+In het boekjaar 2020 is € 25.361 aan inventaris aangekocht. Deze investering is voor 100% vergoed middels
+de SET COVID-19 subside vanuit het RVO. Derhalve is € 25.361 in mindering gebracht op deze investeringen.
+
+Afschrijvingspercentages
+%
+
+Inventaris 0-20
+2. Financiële vaste activa
+
+31-12-2020 31-12-2019
+€ €
+
+Overige vorderingen
+Latente belastingvorderingen 36.518 33.936
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021 15
+
+TOPAZE B.V. TE SCHIJNDEL
+
+VLOTTENDE ACTIVA
+
+Handelsdebiteuren
+
+Debiteuren
+Nog te factureren
+
+Vorderingen op groepsmaatschappijen
+
+Rekening courant WF Explorer B.V.
+
+Stand per 1 januari
+Mutatie
+
+Rente
+Stand per 31 december
+
+Over de vordering wordt 1,50% rente berekend.
+
+Vennootschapsbelasting
+Vennootschapsbelasting
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021
+
+31-12-2020 31-12-2019
+€ €
+
+37.226 1.106
+
+- 73.927
+
+3/.226 75.033
+2020 2019
+
+€ €
+
+23.159 28.954
+24.496 -5.795
+47.655 23.159
+
+530 -
+
+48.185 23.159
+31-12-2020 31-12-2019
+€ €
+
+- 26.405
+
+16
+
+TOPAZE B.V. TE SCHIJNDEL
+
+Overige vorderingen en overlopende activa
+
+Overlopende activa
+
+Ziekteverzuim uitkering
+LIV/LKV subsidie
+Vooruitbetaalde kosten
+Vooruitbetaalde pensioenkosten
+
+3. Liquide middelen
+
+ING Zakelijke rekening .833
+ING Zakelijke rekening .930
+ING Zakelijke rekening .822
+ING Zakelijke spaarrekening
+Kas
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021
+
+31-12-2020 31-12-2019
+€ €
+5.553 4,231
+1.482 5
+344 6.785
+
+- 18.838
+7.379 29.854
+6.902 19.236
+155 860
+5.591 282
+32 32
+
+537 293
+13.217 20.703
+17
+
+TOPAZE B.V. TE SCHIJNDEL
+
+PASSIVA
+
+4. Eigen vermogen
+
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 180 gewone aandelen nominaal € 100,00
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+5. Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Overige belastingen en premies sociale verzekeringen
+
+Loonheffing
+Pensioenen
+
+Overige schulden en overlopende passiva
+
+Overlopende passiva
+
+Vakantiegeld
+
+Vakantiedagen
+
+Accountantskosten
+
+Overige schulden
+
+Vooruitontvangen bedragen inzake project Familiemodel
+Vooruitontvangen bedragen inzake project Conflicthantering
+NOW 1
+
+Vooruitontvangen bedragen inzake project Kansband
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021
+
+31-12-2020 31-12-2019
+€ €
+
+18.000 18.000
+2020 2019
+
+€ €
+-239.795 -69.049
+-35.985 -170.746
+-275.780 -239.795
+31-12-2020 31-12-2019
+€ €
+
+15.254 86.164
+59.332 110.107
+4.584 1.237
+63.916 111.344
+52.500 47 A73
+58.750 58.650
+6.076 6.501
+
+- 130.939
+
+15.000 5
+39.150 -
+51.027 -
+50.000 -
+272.503 243.563
+18
+
+TOPAZE B.V. TE SCHIJNDEL
+
+NIET IN DE BALANS OPGENOMEN RECHTEN EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+Huurverplichtingen onroerende zaken
+
+Door de vennootschap zijn verplichtingen aangegaan terzake van huur van bedrijfsruimte
+aan Vicaris Aertsweg 1 te Schijndel. De verplichtingen bedragen € 55.850 per jaar.
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021
+
+19
+
+TOPAZE B.V. TE SCHIJNDEL
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2020
+
+2020 2019
+€ €
+
+6. Netto-omzet
+Netto-omzet Jeugdzorg 2.120.739 2.273.093
+Netto-omzet projecten 338.702 67.562
+
+2.459.441 2.340.655
+
+7. Kostprijs van de omzet
+
+Kosten pleegzorg en verblijfskosten 175.030 204.199
+Werk derden 181.323 120.152
+Projectkosten 122.527 40.094
+
+478.880 364.445
+
+Personeelskosten
+
+8. Lonen en salarissen
+
+Bruto lonen 1.284.178 1.354.908
+Mutatie vakantieverplichtingen 5.027 5.076
+Uitzendkrachten - 9.772
+Ziekengeldverzekering 66.061 46.491
+
+1.355.266 1.416.247
+Ontvangen ziekengelduitkeringen -112.381 -17.187
+Ontvangen subsidie LKV/LIV -1.482 -2.028
+Zorgbonus corona -1.600 -
+
+1.239.803 1.337.032
+
+9. Sociale lasten
+Premies sociale verzekeringswetten 208.477 241.853
+
+10. Pensioentasten
+Pensioenlasten 118.882 124.438
+
+11. Beheervergoeding
+Managementfee 108.000 108.000
+
+12. Overige personeelskosten
+
+Reis- en verblijfkosten 114
+
+Reis- en onkostenvergoeding 70.618 63.594
+Kantinekosten 983 1.254
+Overige personeelskosten 7.209 5.337
+Parkeerkosten 176 538
+Kosten Arbodienst 12.413 14.531
+Scholingskosten 12.910 11.258
+
+104.309 96.626
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021 20
+
+TOPAZE B.V. TE SCHIJNDEL
+
+Personeelsleden
+
+Gedurende het jaar 2020 waren 27 werknemers in dienst op basis van een volledig dienstverband (2019: 33).
+
+13. Afschrijvingen
+
+Afschrijvingen materiële vaste activa
+
+Inventaris
+
+Overige bedrijfskosten
+14. Huisvestingskosten
+
+Huur onroerende zaak
+
+Gas water licht
+
+Onderhoud onroerende zaak
+
+Overige vaste lasten onroerende zaak
+Schoonmaakkosten
+
+Vrijval reservering onderhoudskosten
+Overige huisvestingskosten
+
+15. Exploitatiekosten
+
+Kleine aanschaffingen
+
+16. Kantoorkosten
+
+Kantoorbehoeften
+
+Drukwerk
+
+Onderhoud inventaris
+Automatiseringskosten
+Telefoon
+
+Porti
+
+Contributies en abonnementen
+Verzekering
+
+Kosten internet
+
+Kosten website
+
+17. Autokosten
+Brandstoffen
+
+18. Verkoopkosten
+
+Representatiekosten
+Weggevers
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021
+
+2020 2019
+€ €
+3.741 4,335
+55.850 92.494
+6.127 11.626
+1.015 2.580
+1.475 1.465
+833 284
+-12.500 -
+454 -
+53.254 108.449
+1.147 1.409
+1.766 1.811
+474 1.625
+
+- 1.267
+20.035 14.749
+14.446 12.971
+1.584 1.516
+87.399 81.603
+7.397 7.118
+1.774 534
+
+- 968
+134.875 124.162
+1.849 3.429
+123 473
+
+15 206
+
+138 679
+
+21
+
+TOPAZE B.V. TE SCHIJNDEL
+
+2020 2019
+€ €
+19. Algemene kosten
+Accountantskosten 19.521 15.434
+Advieskosten - 763
+Compensatie Stop 24.200 12.100
+Overige algemene kosten 587 1.302
+44.308 29.599
+20. Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten
+Rente rekening-courant W.F. Explorer B.V. 530 -
+Rentelasten en soortgelijke kosten
+Bankkosten 875 710
+Heffingsrente - 111
+875 881
+21. Belastingen
+Mutatie actieve belastinglatentie 2.582 33.936
+
+Ondertekening van de jaarrekening
+
+Vaststelling jaarrekening
+De jaarrekening is aldus opgemaakt en vastgesteld door het bestuur c.q. de Algemene Vergadering.
+
+Schijndel, 22 juni 2021
+
+W.F. Explorer B.V.
+
+Namens deze,
+
+J.A.R.C. Slootmans
+
+Beoordelingsverklaring afgegeven d.d. 22 juni 2021 22

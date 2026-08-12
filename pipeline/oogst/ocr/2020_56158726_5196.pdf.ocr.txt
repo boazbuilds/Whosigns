@@ -1,0 +1,961 @@
+# whosigns-ocr v1 grootte=11853491 dpi=300 paginas=20
+Stichting 4 Your Care
+
+5.1 JAARREKENING
+
+5.1.1 BALANS PER 31 DECEMBER 2020
+(na resultaatbestemming)
+
+Ref. _31-dec-20 31-dec-19
+€ €
+ACTIVA
+Vaste activa
+Materiële vaste activa 1 46.044 33.801
+Totaal vaste activa 46.044 33.801
+Vlottende activa
+Debiteuren en overige vorderingen 2 275.153 169.004
+Liquide middelen 3 44.295 208.052
+Totaal vlottende activa 319.448 377.056
+Totaal activa 365.492 410.857
+Ref. _31-dec-20 31-dec-19
+€ €
+PASSIVA
+Eigen vermogen 4
+Algemene en overige reserves 89.860 255.249
+Totaal vermogen 89.860 255.249
+Kortlopende schulden (ten hoogste 1 jaar)
+Overige kortlopende schulden 5 275.632 155.608
+Totaal kortlopende schulden (ten hoogste 1 jaar) 275.632 155.608
+Totaal passiva 365.492 410.857
+
+NE
+
+iNAB Accountancy B.V.
+voor Toms
+
+Paraaf: 5 Al
+Paraaf: Datum: IN jj
+
+Stichting 4 Your Care
+
+5.1.2 RESULTATENREKENING OVER 2020
+
+Ref. 2020 2019
+€ €
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties (en maatschappelijke
+ondersteuning) 7 2.080.724 1.719.557
+Subsidies (exclusief Wmo en Jeugdwet) 8 29.200 0
+Overige bedrijfsopbrengsten KS) 403.275 193.068
+Som der bedrijfsopbrengsten 2.513.199 1.912.625
+BEDRIJFSLASTEN:
+Personeelskosten 10 1.024.780 731.347
+Afschrijvingen op immateriële en materiële vaste activa 11 7.746 2.234
+Overige bedrijfskosten 12 1.645.775 1.178.657
+Som der bedrijfslasten 2.678.301 1.912.238
+BEDRIJFSRESULTAAT -165.102 387
+Financiële baten en lasten 13 -287 -427
+RESULTAAT BOEKJAAR „165.389 -40
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2020 2019
+Toevoeging/(onttrekking): ki :
+Algemene / overige reserves „165.389 -40
+-165.389 -40
+
+INNS
+
+iNAB Accountancy B.V.
+voor Ne me,
+
+Paraaf: 6 Datum: lof,
+
+Stichting 4 Your Care
+
+5.1.3 KASSTROOMOVERZICHT OVER 2020
+
+Ref. 2020 2019
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat „165.102 387
+Aanpassingen voor:
+- afschrijvingen en overige
+waardeverminderingen 1,11 7.746 2.234
+- mutaties voorzieningen 0 -48.400
+7.746 -46.166
+Veranderingen in werkkapitaal:
+- vorderingen 2 -106.149 88.136
+- kortlopende schulden (excl. schulden aan
+banken) 5 120.024 -84.696
+13.875 3.440
+Kasstroom uit bedrijfsoperaties „143.481 -42.339
+Ontvangen interest 13 0 0
+Betaalde interest 13 -287 -421
+-287 -427
+Totaal kasstroom uit operationele
+activiteiten „143.768 -42.766
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa 1 -19.989 -26.,568
+Totaal kasstroom uit -19.989 -26.568
+Kasstroom uit financieringsactiviteiten
+Totaal kasstroom uit
+financieringsactiviteiten 0 0
+Mutatie geldmiddelen -163.757 -69.334
+Stand geldmiddelen per 1 januari 3 208.052 277.386
+Stand geldmiddelen per 31 december 3 44,295 208.052
+Mutatie geldmiddelen -163.757 -69.334
+
+Toelichting:
+
+Het kasstroomoverzicht is op basis de indirecte methode opgesteld.
+
+NTB
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor waarmerkingsdoeleinden
+
+Paraaf: 7 Datum: (6) of 1
+
+Stichting 4 Your Care
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.1 Algemeen
+
+Algemene gegevens en groepsverhoudingen
+Zorginstelling Stichting 4 Your Care is feitelijk gevestigd te Arnhem, op het adres Bosweg 1, en is
+geregistreerd onder KvK-nummer 56158726. De zorginstelling is statutair gevestigd te Zoetermeer.
+
+De belangrijkste activiteiten zijn het rehabiliteren van cliënten met psychische problematiek waaronder
+ook ex-gedetineerden en ex-verslaafden en andere hulpbehoevenden en behandeling van cliënten in
+praktijken van psychiaters en dagbehandelcentra voor geestelijke gezondheids- en verslavingszorg
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2020, dat is geëindigd op balansdatum 31 december
+2020.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi (RvW).
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Continuïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand
+jaar.
+
+Vergelijkende cijfers
+De cijfers voor 2019 zijn, waar nodig, geherrubriceerd om vergelijkbaarheid met 2020 mogelijk te maken.
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde
+waarde van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen
+afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend
+beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt
+herzien en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+5.1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders
+vermeld in de verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en
+
+kasstroomoverzicht zijn in de jaarrekening genummerd.
+NTB
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor se Spa»
+
+Paraaf:
+
+(
+VW
+
+8 Datum: Wop
+
+Stichting 4 Your Care
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar Stichting 4 Your Care zullen toevloeien en het actief een kostprijs of een waarde heeft
+waarvan de omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in
+de balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan
+gepaard zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de
+omvang van het bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden
+vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan
+voldoen worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans
+opgenomen verplichtingen.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van zorginstelling
+Stichting 4 Your Care.
+
+Materiële vaste activa
+De materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek
+van cumulatieve afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingstermijnen van immateriële en materiële vaste activa zijn gebaseerd op de verwachte
+economische levensduur van het vast actief.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs
+volgens de lineaire methode op basis van de verwachte economische levensduur. Er wordt
+afgeschreven vanaf het moment van ingebruikneming. Op bedrijfsterreinen en op vaste activa in
+ontwikkeling en vooruitbetalingen op materiële vaste activa wordt niet afgeschreven.
+
+Onderhoudsuitgaven worden slechts geactiveerd als zij de gebruiksduur van het object verlengen en/of
+leiden tot toekomstige prestatie-eenheden met betrekking tot het object. Periodiek groot onderhoud
+wordt volgens de componentenbenadering geactiveerd. Hierbij worden de totale uitgaven toegewezen
+aan de samenstellende delen.
+
+Vorderingen
+Vorderingen worden opgenomen voor de nominale waarde. Een voorziening wordt getroffen op de
+vorderingen op grond van verwachte oninbaarheid (voorziening wordt individueel bepaald).
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter
+dan twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan
+kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de
+nominale waarde.
+
+Liquide middelen die naar verwachting langer dan 12 maanden niet ter beschikking staan van de
+onderneming, worden gerubriceerd als financiële vaste activa.
+
+Voorzieningen (algemeen)
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de
+balansdatum bestaan en die het gevolg zijn van een gebeurtenis uit het verleden, waarbij het
+waarschijnlijk is dat een uitstroom van middelen noodzakelijk is en waarvan de omvang op betrouwbare
+wijze is te schatten. De voorzieningen worden gewaardeerd tegen nominale waarde van de uitg
+
+naar verwachting noodzakelijk zijn om de verplichting en verliezen af te wikkelen. |
+
+ACCOUNTANCY
+iNAB Accountancy B.V.
+
+voor waarmerkingsdoeleinden
+
+Paraaf: JS 9 Datum: oefe
+
+Ü
+
+Stichting 4 Your Care
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Voorziening groot onderhoud
+
+De voorziening groot onderhoud wordt gevormd voor verwachte kosten inzake periodiek onderhoud van
+panden gebaseerd op een meerjaren onderhoudsplan. De voorziening is gebaseerd op nominale
+waarde.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan
+één jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden
+worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de
+geamortiseerde kostprijs (nominale waarde). De aflossingsverplichtingen voor het komend jaar van de
+langlopende schulden worden opgenomen onder kortlopende schulden.
+
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het
+economisch potentieel, samenhangend met een vermeerdering van een actief of een vermindering van
+een verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten
+worden verwerkt wanneer een vermindering van het economisch potentieel, samenhangend met een
+vermindering van een actief of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan
+de omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan
+de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar
+zijn geconstateerd, worden aan dit boekjaar toegerekend.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het
+bedrag van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen
+vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar
+kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden
+gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die
+worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten
+zijn verantwoord.
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor a mn mam
+
+Paraaf: | 10 Datum: wjoj,
+
+Stichting 4 Your Care
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Personele kosten
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+De beloningen van het personeel worden als last in de winst-en-verliesrekening verantwoord in de
+periode waarin de arbeidsprestatie wordt verricht en, voor zover nog niet uitbetaald, als verplichting op
+de balans opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt
+het meerdere opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling door
+het personeel of van verrekening met toekomstige betalingen door de instelling.
+
+Pensioenen
+
+Stichting 4 Your Care heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in
+aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat
+is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft
+opgebouwd bij Stichting 4 Your Care. De verplichtingen, die voortvloeien uit deze rechten van haar
+personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. Stichting 4 Your Care
+betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft door de
+werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad
+van het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële
+verplichtingen) dit toelaat.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen)
+en aan derden en groepsmaatschappijen betaalde (te betalen) interest. Tevens is hieronder opgenomen
+het aandeel van de stichting in het resultaat van de op nettovermogenswaarde gewaardeerde
+deelnemingen danwel ontvangen dividenden van deelnemingen waarin geen invloed van betekenis op
+het zakelijke en financiële beleid wordt uitgeoefend en waardeveranderingen van financiële vaste activa
+en effecten.
+
+5.1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Kasstroomoverzicht
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+5.1.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot
+aan de datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet
+in de jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van
+de gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht
+in de jaarrekening.
+
+5.1.4.6 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de
+
+wet- en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels. « NYB
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+
+voor waarmerkingsdoeleinden
+Í 11 Datum: DIO,
+
+Paraaf:
+
+v
+
+Stichting 4 Your Care
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+1. Materiële vaste activa
+31-dec-20 31-dec-19
+
+De specificatie is als volgt: € €
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 46.044 33.801
+Totaal materiële vaste activa 46.044 33.801
+
+Het verloop van de materiële activa in het verslagjaar is als volgt weer
+
+te geven: 2020 2019
+
+€ €
+Boekwaarde per 1 januari 33.801 9.467
+Bij: investeringen 19.989 26.568
+Af: afschrijvingen 7.746 2.234
+Boekwaarde per 31 december 46.044 33.801
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt
+verwezen naar het mutatieoverzicht onder 5.1.6.
+
+2. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+€ €
+Vorderingen op debiteuren 10.487 11.731
+Waarborgsommen huur 26.300 26.785
+Vooruitbetaalde bedragen 27.583 7.659
+Nog te ontvangen bedragen:
+Te factureren omzet 202.035 122.342
+Overige vorderingen 8.748 487
+Totaal debiteuren en overige vorderingen 275.153 169.004
+Toelichting:
+
+INYB
+
+iNAB Accountancy B.V.
+voor u mam
+
+Paraaf: 12 Datum: (fog }
+
+W
+
+Stichting 4 Your Care
+
+3. Liquide middelen
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+
+€ €
+Rekening-courant 5.722 82.062
+Kas 247 164
+Spaarrekening 38.326 125.826
+Totaal liquide middelen 44.295 208.052
+Toelichting:
+
+De liquide middelen zijn vrij beschikbaar.
+
+PASSIVA
+
+4. Vermogen
+
+Het vermogen bestaat uit de volgende componenten: 31-dec-20 31-dec-19
+€ €
+Algemene en overige reserves 89.860 255.249
+Totaal vermogen 89.860 255.249
+
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2020 bestemming mutaties 31-dec-2020
+€ € € €
+
+Overige reserves:
+
+Overige reserves: 255.249 -165.389 0 89.860
+Totaal algemene en overige reserves 255.249 „165.389 0 89.860
+
+INYB
+
+iNAB Accountancy B.V.
+voor el ne
+
+13 Datar, y u
+
+Paraaf:
+J
+
+Vv
+
+Stichting 4 Your Care
+
+5. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+€ €
+Crediteuren 1.203 1.612
+Belastingen en premies sociale verzekeringen 34.900 14.721
+Schulden terzake pensioenen 7.299 16.830
+Overige schulden:
+Nog te betalen zorgverleners 117.214 70.216
+Vakantiegeld 13.237 26.886
+Overige overlopende passiva:
+Gas en electra 3.503 3.387
+Accountant en advieskosten 9.075 10.479
+Overige schulden 89.201 11.477
+Totaal overige kortlopende schulden 275.632 155.608
+
+6. Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+(Meerjarige) financiële verplichtingen
+
+De instelling heeft de volgende meerjarige verplichtingen uit hoofde van lopende leasecontracten,
+huur en overeenkomsten.
+
+betaalbaar
+binnen 1 betaalbaar betaalbaar Totaal
+jaar 1-5 jaar na 5 jaar 31-dec-20
+Huur 348.433 1.742.165 348.433 2.439.031
+Operationele lease 6.521 16.323 e) 22.844
+354.954 1.758.488 348.433 2.461.875
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor waarmerkingsdoeleinden
+
+hat 14 Datum}
+
+Stichting 4 Your Care
+
+5.1.6 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Andere vaste
+
+bedrijfs-
+middelen,
+technische en
+administratieve Totaal
+uitrusting
+€ €
+Stand per 1 januari 2020
+- aanschafwaarde 45.692 45.692
+- cumulatieve afschrijvingen 11.891 11.891
+Boekwaarde per 1 januari 2020 33.801 33.801
+Mutaties in het boekjaar
+- investeringen 19.989 19.989
+- afschrijvingen 7.746 7.746
+Mutaties in boekwaarde (per saldo) 12.243 12.243
+Stand per 31 december 2020
+- aanschafwaarde 65.681 65.681
+- cumulatieve herwaarderingen 0 0
+- cumulatieve afschrijvingen 19.637 19.637
+Boekwaarde per 31 december 2020 46.044 46.044
+Afschrijvingspercentage 20,0%
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor ee amy
+
+Paraaf:
+
+15 _Datum:(2 v)
+| Jif
+
+Stichting 4 Your Care
+
+5.1.7 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+7. Opbrengsten zorgprestaties (en maatschappelijke ondersteuning)
+
+De specificatie is als volgt: 2020 2019
+€ €
+Opbrengsten Jeugdwet 119.636 18.279
+Opbrengsten Wmo 353.624 372.659
+Opbrengsten Ministerie van Veiligheid en Justitie (forensische
+zorg; exclusief subsidies) 1.589.943 1.328.074
+Overige zorgprestaties 17.521 545
+Totaal 2.080.724 1.719.557
+
+8. Subsidies
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+Overige Rijkssubsidies 29.200 0
+Totaal 29.200 0
+Toelichting:
+
+Onder subsidies is een bedrag van € 25.200 verantwoord inzake zorgbonus die door de
+overheid beschikbaar is gesteld voor medewerkers in de zorg.
+
+9. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2020 2019
+€ €
+Huuropbrengsten 140.496 127.825
+Maaltijden 11.070 13.670
+Doorbelaste personeelskosten 172.024 0
+Bemiddeling 79.685 51.573
+Totaal 403.275 193.068
+INt-B
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor ee me
+
+Paraaf: 16 Datum: /o/)
+
+Stichting 4 Your Care
+
+5.1.7 TOELICHTING OP DE RESULTATENREKENING
+
+10. Personeelskosten
+
+De specificatie is als volgt:
+
+Lonen en salarissen
+Sociale lasten
+Pensioenpremies
+
+Andere personeelskosten:
+Reiskosten
+
+Opleidingen en cursussen
+Overige
+
+Subtotaal
+
+Personeel niet in loondienst
+
+Totaal personeelskosten
+
+Gemiddeld aantal personeelsleden op basis van full-time
+
+eenheden
+
+Aantal personeelsleden dat binnen Nederland werkzaam is:
+
+11. Afschrijvingen op immateriële en materiële vaste activa
+
+De specificatie is als volgt:
+Afschrijvingen:
+- materiële vaste activa
+
+Totaal afschrijvingen
+
+12. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+Algemene kosten
+
+Patiënt- en bewonersgebonden kosten
+Onderhoud en energiekosten
+
+Kosten uitbesteding onderaannemers
+Huur en leasing
+
+Totaal overige bedrijfskosten
+
+2020 2019
+€ €
+730.065 555.634
+131.516 86.967
+65.361 47.636
+20.010 14.806
+24.903 9.760
+1.521 5.889
+973.376 720.692
+51.404 10.655
+1.024.780 731.347
+15,4 11,4
+15,4 11,4
+2020 2019
+€ €
+7.746 2.234
+7.746 2.234
+2020 2019
+€ €
+100.155 71.281
+30.965 31.168
+59.244 52.251
+1.108.159 682.411
+347.252 341.546
+1.645.775 1.178.657
+INY-B
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor a
+
+Paraaf: 17 ps Ee
+/ : Darumag Jy/,
+
+Stichting 4 Your Care
+
+5.1.7 TOELICHTING OP DE RESULTATENREKENING
+13. Financiële baten en lasten
+
+De specificatie is als volgt:
+
+Bankkosten
+
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+14. Honoraria accountant
+De honoraria van de accountant over 2020 zijn als volgt:
+1 Controle van de jaarrekening
+Overige controlewerkzaamheden (w.o. Regeling AO/IC en
+2 Nacalculatie)
+3 Fiscale advisering
+4 Niet-controlediensten
+
+Totaal honoraria accountant
+
+15. Transacties met verbonden partijen
+
+2020 2019
+€ €
+-287 -427
+-287 -427
+-287 -427
+2020 2019
+€ €
+
+0 0
+5.445 7.445
+0 0
+3.630 4.235
+9.075 11.680
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar
+
+deelnemingen en hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+De bezoldiging van de bestuurders en toezichthouders die in het kader van de WNT verantwoord
+
+worden, is opgenomen onder punt 16.
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor waarmerkingsdoeleinden
+
+Paraaf:
+
+18 Datum: ISJoy/
+d
+
+Stichting 4 Your Care
+
+5.1.7 TOELICHTING OP DE RESULTATENREKENING
+16. Wet normering topinkomens (WNT)
+
+Voor WNT-verantwoording wordt verwezen naar de volgende pagina.
+
+17. Gebeurtenissen na balansdatum
+
+Impact Covid-19
+
+De impact van COVID-19 virus op onze organisatie en financiën loopt vanuit 2020 door
+door naar 2021. In het kader van de continuering van de zorgactiviteiten zijn reeds
+maatregelen getroffen. Het COVID-19-virus heeft geen impact op de continuïteit van
+de organisatie.
+
+Omzetting rechtsvorm
+
+Met ingang van 1 januari 2021 zijn de activiteiten van Stichting 4 Your Care gecontinueerd
+onder de naam 4 Your Care B.V.
+
+ACCOUNTANCY
+iNAB Accountancy B.V.
+
+voor waarperkingsdoeleinden
+
+19 Datum: Waf l
+
+Stichting 4 Your Care
+
+WNT-verantwoording 2020 Stichting 4 Your Care
+
+De WNT is van toepassing op Stichting 4 Your Care. Het voor Stichting 4 Your Care toepasselijke
+bezoldigingsmaximum is in 2020 € 163.000. Het WNT-maximum voor de zorg- en jeugdhulp, klasse III,
+totaalscore 9,
+
+1. Bezoldiging topfunctionarissen
+
+la. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+dienstbetrekking vanaf de 13e maand van de functievervulling inclusief degenen die op grond van hun
+voormalige functie nog 4 jaar als topfunctionaris worden aangemerkt
+
+Gegevens 2020
+
+bedragen x € 1 L.P. Thakoersing
+
+Functiegegevens Ús Bestuurder
+Aanvang en einde functievervulling in 01/01 — 31/12
+2020
+
+Omvang dienstverband (als 0,8889
+deeltijdfactor in fte)
+
+Dienstbetrekking ? ja
+
+__ anton
+
+Bezoldiging. 5 a
+Beloning plus belastbare
+
+e 103.819
+onkostenvergoedingen
+Beloningen betaalbaar op termijn 10.595
+Subtotaal 114.414
+Duane ene 144.891
+bezoldigingsmaximum
+-/- Onverschuldigd betaald en nog niet Nvt
+terugontvangen bedrag am
+Bezoldiging 114,414
+
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan N.v.t.
+niet is toegestaan
+
+Toelichting op de vordering wegens
+onverschuldigde betaling
+Gegevens 2019
+
+bedragen x € 1
+
+Functiegegevens Bestuurder
+Aanvang en einde functievervulling in 01/01 — 31/12
+2019
+Omvang dienstverband (als 0,8889
+deeltijdfactor in fte)
+Dienstbetrekking ? ja
+Bezoïdiging. en T
+Beloning plus belastbare
+Nen dann
+Beloningen betaalbaar op termijn 10.308
+Subtotaal 102.728
+Individueel toepasselijke 139.557 u
+bezoldigingsmaximum
+Bezoldiging 102.728 1
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor waarmerkingsdoeleinden
+
+Paraaf: 20 Datum: W of )
+
+Stichting 4 Your Care
+
+ic. Toezichthoudende topfunctionarissen
+
+pedrage ° ee Do aid
+Functiegegevens Rn Voorzitter id a
+Aanvang en einde functievervulling in 2020 01/01 — 31/12 01/01 — 31/12
+Bezoldiging a
+
+Bezoldiging 2.400 1.700
+Individueel toepasselijke 24.450 16.300
+bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet Nvt. Nuv.t.
+terugontvangen bedrag
+
+Bezoldiging 2.400 1.700
+
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan niet N.v.t. N.v.t.
+
+is toegestaan
+
+Toelichting op de vordering wegens N.v.t. N.v.t.
+onverschuldigde betaling
+
+Gegevens 2019
+
+pedrage ek: U q DO aid
+Functiegegevens Voorzitter. a Lid
+Aanvang en einde functievervulling in 2019 01/01 — 31/12 01/01 = 31/12
+Bezoldiging a
+
+Bezoldiging 1.000
+
+Individueel toepasselijke 23.550 15.700
+bezoldigingsmaximum
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor waafmerkingsdoeleinden
+
+Paraaf: f, 2j Datum:
+(
+
+ef,
+
+Stichting 4 Your Care
+
+5.1.20 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De Raad van Bestuur van Stichting 4 Your Care heeft de jaarrekening 2020
+opgemaakt en vastgesteld in de vergadering van 7 juli 2021.
+
+De Raad van Toezicht van Stichting 4 Your Care heeft de jaarrekening 2020
+goedgekeurd in de vergadering van 12 juli 2021.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+Ondertekening door bestuurders en toezichthouders
+
+W.G. W.G.
+
+L.P. Thakoersing A. ten Asbroek-Nijhuis
+
+Bestuurder Voorzitter Raad van Toezicht
+W.G.
+
+L.O.F. Mac-Donald
+Lid Raad van Toezicht
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+„voor waarmerkingsdoeleinden
+
+Paraaf: Datum:
+
+22 aje ) |
+
+Stichting 4 Your Care
+
+5.2 OVERIGE GEGEVENS
+
+ACCOUNTANCY
+iNAB Accountancy B.V.
+voor Ls omme
+
+23 Datum
+
+Paraaf:
+
+Stichting 4 Your Care
+
+5.2 OVERIGE GEGEVENS
+
+5.2.1 Resultaatbestemming
+
+Het resultaat is toegevoegd aan de overige reserves.
+
+5.2.2 Nevenvestigingen
+
+Stichting 4 Your Care heeft geen nevenvestigingen.
+
+ACCOUNTANCY
+
+iNAB Accountancy B.V.
+voor waargnerkingsdoeleinden
+Paraaf: Datum: 11}
+
+| ze
+
+,

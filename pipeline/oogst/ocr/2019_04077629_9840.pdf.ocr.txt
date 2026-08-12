@@ -1,0 +1,848 @@
+# whosigns-ocr v1 grootte=469591 dpi=300 paginas=20
+1.2 Resultaten
+
+Bespreking van de resultaten
+
+Netto-omzet
+Inkoopwaarde van de omzet
+
+Brutowinst
+Overige bedrijfsopbrengsten
+
+Brutomarge
+
+Lonen
+Sociale lasten
+
+Pensioenlasten
+Afschrijvingen materiële vaste
+activa
+
+Bijzondere posten
+
+Overige personeelskosten
+Huisvestingskosten
+Exploitatie- en machinekosten
+Verkoopkosten
+
+Autokosten
+
+Kantoorkosten
+
+Algemene kosten
+
+Totaal van som der kosten
+
+Totaal van bedrijfsresul-
+taat
+
+Financiële baten en lasten
+
+Totaal van resultaat
+
+2019 2018 Mutatie
+€ % € % € %
+925.019 100,0 902.568 100,0 22.451 2,5
+
+-90.880 -9,8 -98.239 -10,9 7.359 7,5
+834.139 90,2 804.329 89,1 29,810 3,7
+24.035 2,6 6.268 0,7 17.767 283,5
+858.174 92,8 810.597 89,8 41.577 5,9
+480.593 52,0 298.996 33,1 181.597 60,7
+62.942 6,8 50,335 5,6 12.607 25,0
+25.981 2,8 19.947 2,2 6.034 30,3
+5.007 0,5 90.911 10,1 -85.904 -94,5
+11.086 1,2 - - 11.086 -
+38.054 4,1 23.890 2,6 14.164 59,3
+125.956 13,6 56.691 6,3 69.265 122,2
+2.795 0,3 3.100 0,3 -305 -9,8
+230 - 21.918 2,4 -21.688 -99,0
+9.118 1,0 2.045 0,2 7.073 345,9
+11.976 1,3 6.685 0,7 5.291 79,1
+20.087 2,2 22.066 2,4 -1,979 -9,0
+793.825 85,8 596.584 65,9 197.241 33,1
+64.349 7,0 214.013 23,9 -149.664 -69,9
+1 - -15.983 -1,8 15.984 100,0
+64.350 7,0 198.030 22,1 -133.680 -67,5
+
+
+1.3 Financiële positie
+
+Ter verkrijging van een inzicht in de financiële positie van de vennootschap verstrekken wij u de
+navolgende overzichten. Deze zijn gebaseerd op de gegevens uit de jaarrekening. Wij geven hierna een
+opstelling van de balans per 31 december 2019 in verkorte vorm.
+
+Financiële structuur
+
+31-12-2019 31-12-2018
+€ % € %
+Activa
+Materiële vaste activa 22.018 10,2 20.962 12,9
+Vorderingen 176.335 81,7 66.618 40,9
+Liquide middelen 17.379 8,1 75.352 46,2
+215.732 100,0 162.932 100,0
+Passiva
+Bedrijfsvermogen 82.778 38,4 18.428 11,3
+Kortlopende schulden 132.954 61,6 144.504 88,7
+215.732 100,0 162.932 100,0
+
+
+Analyse van de financiële positie
+
+Op korte termijn beschikbaar
+Vorderingen
+Liquide middelen
+
+Kortlopende schulden
+
+Liquiditeitssaldo = werkkapitaal
+
+Vastgelegd op lange termijn
+Materiële vaste activa
+
+Gefinancierd met op lange termijn beschikbare middelen
+
+Financiering
+
+Bedrijfsvermogen
+
+31-12-2019 31-12-2018
+€ €
+176.335 66.618
+17.379 75.352
+193.714 141.970
+-132.954 -144,504
+60.760 -2.534
+22.018 20.962
+82.778 18.428
+82.778 18.428
+
+
+2. Jaarrekening
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+2.1 Balans per 31 december 2019
+
+Activa
+
+31-12-2019 31-12-2018
+
+€ € € €
+Vaste activa
+Materiële vaste activa 1
+Andere vaste bedrijfsmiddelen 22.018 20.962
+Vlottende activa
+Vorderingen
+Vorderingen op handelsdebiteuren 2 14.772 25.926
+Overige vorderingen en overlopende 3
+activa 161.563 40.692
+176.335 66.618
+
+Liquide middelen 4 17.379 75.352
+
+215.732 162.932
+
+
+Passiva
+
+Bedrijfsvermogen
+Kapitaal HZ Zorg B.V.
+Kapitaal HZ Zorg Vastgoed B.V.
+
+Kortlopende schulden
+
+Schulden aan leveranciers en handels-
+kredieten
+
+Schulden ter zake van belastingen en
+premies sociale verzekeringen
+Overige schulden en overlopende
+passiva
+
+31-12-2019 31-12-2018
+€ € €
+
+35.139 2.964
+47.639 15.464
+
+82.778 18.428
+14.006 6.372
+21.598 16.615
+97.350 121.517
+
+132.954 144.504
+
+215.732 162.932
+
+Zorgboerderij ‘“t Haantje te ‘t Haantje
+
+2.2 Winst-en-verliesrekening over 2019
+
+2019 2018
+€ € € €
+
+Netto-omzet 9 925.019 902.568
+Inkoopwaarde van de omzet 10 -90,880 -98.239
+Brutowinst 834.139 804.329
+Overige bedrijfsopbrengsten 11 24.035 6.268
+Brutomarge 858.174 810.597
+Lonen 12 480.593 298.996
+Sociale lasten 13 62.942 50.335
+Pensioenlasten 14 25.981 19.947
+Afschrijvingen materiële vaste activa 15 5.007 90.911
+Bijzondere posten 16 11.086 -
+Overige personeelskosten 17 38.054 23.890
+Huisvestingskosten 18 125.956 56.691
+Exploitatie- en machinekosten 19 2.795 3.100
+Verkoopkosten 20 230 21.918
+Autokosten 21 9.118 2.045
+Kantoorkosten 22 11.976 6.685
+Algemene kosten 23 20.087 22.066
+Totaal van som der kosten OO 793.825 596.584
+Totaal van bedrijfsresultaat 64.349 214.013
+Financiële baten en lasten 24 1 -15,983
+Totaal van resultaat 64.350 198.030
+
+10
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+2.3 Grondslagen van waardering en resultaatbepaling
+
+Informatie over de onderneming
+
+Vestigingsadres en inschrijfnummer handelsregister
+
+Zorgboerderij ‘t Haantje is feitelijk gevestigd op ‘t Haantje 70, 7847 TD te ‘t Haantje en is ingeschreven
+bij het handelsregister onder nummer 04077629.
+
+Algemene toelichting
+
+Belangrijkste activiteiten van de onderneming
+
+De activiteiten van Zorgboerderij “t Haantje bestaan voornamelijk uit het exploiteren van een
+zorgboerderij. De zorgboerderij is gevestigd in ‘t Haantje en in Zweeloo.
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+
+De jaarrekening is opgesteld in overeenstemming met de Richtlijnen voor de jaarverslaggeving voor
+micro- en kleine rechtspersonen, die uitgegeven zijn door de Raad voor de Jaarverstaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of
+de actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats
+tegen de verkrijgingsprijs.
+
+Grondslagen
+
+Materiële vaste activa
+
+Materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Vorderingen
+Vorderingen worden gewaardeerd tegen de nominale waarde.
+Liquide middelen
+
+Liquide middelen bestaan uit kas en banktegoeden. Liquide middelen worden gewaardeerd tegen
+nominale waarde.
+
+Kortlopende schulden
+Kortlopende schulden worden gewaardeerd tegen de nominale waarde.
+Grondslagen voor de bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en
+de kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar
+waarin zij zijn gerealiseerd.
+
+11
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+2.4 Toelichting op de balans
+
+Vaste activa
+
+1 Materiële vaste activa
+
+De mutaties in de materiële vaste activa worden als volgt weergegeven:
+
+Stand per 1 januari 2019
+Verkrijgingsprijs
+Cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2019
+
+Mutaties
+Investeringen
+Afschrijvingen
+
+Saldo mutaties
+
+Stand per 31 december 2019
+Verkrijgingsprijs
+Cumulatieve afschrijvingen
+
+Boekwaarde per
+31 december 2019
+
+Afschrijvingspercentages
+
+Andere vaste
+bedrijfs-
+
+middelen
+
+21.500
+-538
+
+20.962
+
+6,063
+-5.007
+
+1.056
+
+27.563
+-5.545
+
+22.018
+20%
+
+12
+
+Zorgboerderij ‘“t Haantje te ‘t Haantje
+
+Vlottende activa
+
+Vorderingen
+
+2 Vorderingen op handelsdebiteuren
+
+Vorderingen op handelsdebiteuren
+Voorziening dubieuze vorderingen op handelsdebiteuren
+
+3 Overige vorderingen en overlopende activa
+
+Overige rekening-courant
+Overlopende activa
+
+Overige rekening-courant
+
+Rekening-courant Stichting Zorg met Sterren
+Rekening-courant vennoten
+
+Rekening-courant Stichting Zorg met Sterren
+
+Stand per 1 januari
+Mutaties verslagjaar
+Afwaardering
+
+Stand per 31 december
+
+Rekening-courant vennoten
+
+Stand per 1 januari
+Mutaties verslagjaar
+
+Stand per 31 december
+
+31-12-2019 31-12-2018
+
+€ €
+16.072 27.226
+-1,300 -1,300
+14.772 25.926
+152.898 29.760
+8.665 10.932
+161.563 40,692
+28.655 29.760
+124.243 -
+152.898 29,760
+2019 2018
+
+€ €
+29.760 22.377
+9.981 7.383
+-11.086 -
+28.655 29.760
+124.243 -
+124.243 -
+
+13
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+Overlopende activa
+
+Vooruitbetaalde kosten
+Nog te ontvangen bedragen
+
+4 Liquide middelen
+
+ING betaalrekening 48.115,31
+
+ING betaalrekening 70.03.58. 137
+Rabobank rekening courant 1143.48.030
+Rabobank rekening courant 1716.90.192
+Rabobank rekening courant 3352.51.153
+Rabobank rekening courant 3352.49.906
+Rabobank spaarrekening 3462.106.325
+Kluisgeld
+
+31-12-2019 31-12-2018
+€ €
+
+2.872 4,314
+
+5.793 6,618
+
+8.665 10.932
+
+- 1.271
+
+- 1.018
+
+8.482 15.827
+
+6.892 57.236
+
+723 -
+
+987 -
+
+7 =_
+
+288 -
+
+17.379 75.352
+
+14
+
+Zorgboerderij “t Haantje te ‘t Haantje
+
+5 Bedrijfsvermogen
+
+In onderstaand overzicht is het verloop van het bedrijfsvermogen weergegeven.
+
+Kapitaal HZ Kapitaal HZ Totaal
+Zorg B.V. Zorg
+Vastgoed
+_ B.V,
+€ € €
+Stand per 1 januari 2019 2.964 15.464 18.428
+Aandeel in resultaat boekjaar 32.175 32.175 64.350
+Stand per 31 december 2019 35.139 47.639 82.778
+Langlopende schulden
+2019 2018
+€ €
+Hypotheek Rabobank 3480.924.573
+Stand per 1 januari
+Hoofdsom 430.000 430.000
+Cumulatieve aflossing =430.000 -87.000
+Saldo per 1 januari - 343.000
+Mutaties
+Aflossing - -343.000
+Stand per 31 december
+Hoofdsom - 430.000
+Cumulatieve aflossing - -430.000
+
+Saldo per 31 december -
+
+Dit betreft een in 2012 door de Rabobank verstrekte lening van € 430.000.
+De aflossing bedraagt € 1.450 per maand.
+
+In november 2018 is deze lening afgelost in verband met de overname van de vennootschap.
+
+15
+
+Zorgboerderij “t Haantje te ‘t Haantje
+
+Hypotheek Rabobank 3480.924.387
+
+Stand per 1 januari
+Hoofdsom
+Cumulatieve aflossing
+
+Saldo per 1 januari
+
+Mutaties
+Aflossing
+
+Stand per 31 december
+Hoofdsom
+Cumulatieve aflossing
+
+Saldo per 31 december
+
+Dit betreft een in 2012 door de Rabobank verstrekte lening van € 695.000.
+De aflossing bedraagt € 2.500 per maand.
+In november 2018 is deze lening afgelost in verband met de overname van de vennootschap.
+
+Kortlopende schulden
+
+6 Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+7 Schulden ter zake van belastingen en premies sociale verzekeringen
+
+Loonheffing
+Pensioenen
+
+2019 2018
+€ €
+695.000 695.000
+
+-695.000 -142.500
+
+- 552.500
+
+- -552.500
+
+= 695.000
+
+- -695.000
+
+31-12-2019 31-12-2018
+€ €
+
+14.006 6.372
+
+20.244 15.273
+
+1.354 1.342
+
+21.598 16.615
+
+16
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+8 Overige schulden en overlopende passiva
+
+Schuld aan vennoot Stern (verkoop)
+Nettolonen
+
+Nog te ontvangen facturen
+Overuren
+
+Vakantiegeld
+
+Te betalen huur
+
+Accountants- en administratiekosten
+Te betalen overige kosten
+
+31-12-2019 31-12-2018
+€ €
+
+- 70.944
+
+- 2,129
+
+59.280 -
+
+12.639 13.625
+
+16.173 13.153
+
+- 12.115
+
+2.500 7,553
+
+6.758 1.998
+
+97.350 121.517
+
+17
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+Niet in de balans opgenomen rechten, verplichtingen en regelingen
+
+Huurverplichting
+
+De vennootschap heeft twee huurovereenkomsten afgesloten voor:
+- de zorgboerderij gelegen aan 'T Haantje 67 te 'T Haantje;
+- de woonvoorziening gelegen aan de Kruisstraat 1 te Zweeloo.
+
+Deze overeenkomsten zijn aangegaan voor de duur van 5 jaar, ingaande op 16 november 2018 en
+lopende tot en met 15 november 2023. Na het verstrijken van de periode wordt de overeenkomst
+voortgezet voor een aansluitende periode van 5 jaar, derhalve tot en met 15 november 2028. Beëindiging
+van deze overeenkomst vindt plaats door opzegging tegen het einde van een huurperiode met
+inachtneming van een termijn van tenminste 1 jaar.
+
+De jaarlijkse huurverplichting bedraagt voor de zorgboerderij € 30.500 en voor de woonvoorziening €
+67.500. Partijen zijn overeen gekomen dat er zonder btw wordt verhuurd. De huurprijs wordt jaarlijks per
+1 januari, voor het eerst met ingang van 2020, aangepast overeenkomstig 9.1 t/m 9.4 algemene
+bepalingen.
+
+Gebeurtenissen na Balansdatum
+
+De uitbraak van het coronavirus gedurende de eerste maanden van 2020 heeft grote gevolgen op de
+wereldwijde economie. De gevolgen van de uitbraak van het coronavirus worden aangemerkt als
+gebeurtenissen na balansdatum die geen nadere informatie geven over de feitelijke situatie per
+balansdatum en zijn derhalve niet in de jaarrekening over 2019 verwerkt.
+
+Door de uitbraak van het coronavirus en de ontstane coronacrisis zijn de resultaten van de onderneming
+gedurende 2020 tot op heden gedaald ten opzichte van hetgeen was begroot. De verwachting is dat de
+coronacrisis het resultaat van de rechtspersoon over de rest van 2020 verder negatief zal beïnvloeden. Dit
+zal echter mede afhangen van de wijze waarop de uitbraak van het coronavirus kan worden beheerst.
+Door de grote onzekerheid is het moeilijk om de verschillende scenario’s in kaart te brengen. Als gevolg is
+de verwachte impact van de uitbraak van het coronavirus op onze activiteiten nog niet duidelijk.
+
+18
+
+Zorgboerderij “t Haantje te ‘t Haantje
+
+2.5 Toelichting op de winst-en-verliesrekening
+
+2019 2018
+€ €
+9 Netto-omzet
+Omzet 't Haantje 187.653 184.329
+Omzet Woongroep 589.496 597.418
+Vervoersbijdrage 4,979 4,357
+Huuropbrengst Woongroep 33.230 33.370
+Omzet Bezinn 109.661 83.094
+925.019 902.568
+10 Inkoopwaarde van de omzet
+Inkoopwaarde omzet 90.880 98.239
+Inkoopwaarde omzet
+Inkoop eten en drinken 't Haantje 8.860 17.927
+Inkoop onderhoud 't Haantje 6.641 10.486
+Inkoop dieren 't Haantje 5.741 6.083
+Inkoop activiteiten 't Haantje 9.236 17.549
+Inkoop creatief 't Haantje = 1.121
+Inkoop diversen 't Haantje 3.155 7.708
+Inkoop eten en drinken Woongroep 18.413 21.306
+Inkoop onderhoud Woongroep 12.191 3.297
+Inkoop activiteiten Woongroep 17.782 2.090
+Inkoop creatief Woongroep - 48
+Inkoop diversen Woongroep 2.861 1.097
+Inkoop vervoerskosten Woongroep 6.000 7.000
+Afwaardering voorraad - 2.527
+90.880 98.239
+11 Overige bedrijfsopbrengsten
+Subsidie Stagefonds 11.624 5.940
+Subsidie SectorPlanPlus 4,930 -
+Subsidie Praktijkleren 7.481 -
+Opbrengst folders - 328
+24.035 6.268
+
+19
+
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+2019 2018
+€ €
+12 Lonen
+Lonen en salarissen 363.020 285.371
+Overuren -987 13.625
+Managementfee 59,280 -
+Management en intervisie CS 59.280 -
+480.593 298.996
+Gemiddeld aantal werknemers (in fte)
+2019
+Aantal
+Gemiddeld aantal werknemers 9,00
+2018
+Aantal
+Gemiddeld aantal werknemers 8,00
+2019 2018
+€ €
+13 Sociale lasten
+Sociale lasten 62.942 50.335
+14 Pensioenlasten
+Pensioenlasten 25.981 19,947
+15 Afschrijvingen materiële vaste activa
+Gebouwen - 25.734
+Andere vaste bedrijfsmiddelen 5.007 15.118
+5.007 40.852
+Boekresultaat gebouwen - 24.647
+Boekresultaat andere vaste bedrijfsmiddelen - 25.412
+5.007 90.911
+
+20
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+16 Bijzondere posten
+
+Afwaardering rekening-courant Stichting Zorg met Sterren
+
+17 Overige personeelskosten
+
+Bedrijfskleding
+Reiskostenvergoeding woon-werk
+Studie- en opleidingskosten
+Arbodienst
+
+Diensten door derden
+Ziekengeldverzekering
+Stagiaires/vrijwilligers
+
+Overige personeelskosten
+
+Uitkering ziekteverzuimverzekering
+
+18 Huisvestingskosten
+
+Betaalde huur
+
+Onderhoud gebouwen
+
+Onderhoud terreinen
+Schoonmaakkosten
+
+Gas, water en elektra
+Assurantiepremie onroerende zaak
+Vaste lasten
+
+Afvalkosten
+
+Overige huisvestingskosten
+
+19 Exploitatie- en machinekosten
+
+Reparatie en onderhoud inventaris
+Kleine aanschaf inventaris
+
+2019 2018
+
+€
+11.086 -
+- 80
+5.980 4.021
+18.494 5.540
+1.102 955
+- 4.124
+4,718 4,870
+7,424 6.244
+3.117 2.295
+40.835 28.129
+-2.781 -4,239
+38.054 23.890
+98.000 12.115
+4,901 12.007
+630 2.939
+2.428 5.339
+15.981 13.849
+1.582 1.594
+1.225 5.798
+- 1.970
+1.209 1.080
+125.956 56.691
+730 1.776
+2.065 1.324
+2.795 3.100
+
+21
+
+Zorgboerderij ‘t Haantje te ‘t Haantje
+
+20 Verkoopkosten
+
+Reclame- en advertentiekosten
+Representatiekosten
+Reis- en verblijfkosten
+
+Afboeking dubieuze vorderingen op handelsdebiteuren
+
+Overige verkoopkosten
+
+21 Autokosten
+
+Brandstofkosten auto's
+Reparatie en onderhoud auto's
+Motorrijtuigenbelasting
+Privé-gebruik auto's
+
+Overige autokosten
+
+22 Kantoorkosten
+
+Kantoorbenodigdheden / computerkosten
+Telefoonkosten
+Reparatie en onderhoud kantoorinventaris
+
+23 Algemene kosten
+
+Abonnementen en contributies
+Assurantiepremie
+
+Accountants- en administratiekosten
+Bankkosten
+
+Boetes en verhogingen belastingen en premies sociale verzekeringen
+
+Overige algemene kosten
+
+2019 2018
+€
+10 20
+- 964
+119 221
+13 20.713
+88 -
+230 21.918
+6.068 9.172
+1.982 2.146
+1.058 1.918
+- 11.191
+10 -
+9.118 2.045
+9.776 4,243
+2.200 2.428
+- 14
+11.976 6.685
+2.723 2.182
+9.264 4,979
+6.493 14.392
+857 888
+92 -
+658 -375
+20.087 22.066
+
+22
+
+Zorgboerderij “t Haantje te ‘t Haantje
+
+24 Financiële baten en lasten
+
+Andere rentebaten en soortgelijke opbrengsten
+Rentelasten en soortgelijke kosten
+
+Andere rentebaten en soortgelijke opbrengsten
+
+Ontvangen depositorente
+
+Rentelasten en soortgelijke kosten
+
+Betaalde hypotheekrente
+
+“t Haantje, 24 juni 2020
+
+HZ Zorg B.V. HZ Zorg Vastgoed B.V.
+
+Vennoot Vennoot
+
+2019 2018
+€
+
+1 6
+
+- -15.989
+
+1 “15.983
+
+1 6
+
+5 15.989
+
+23

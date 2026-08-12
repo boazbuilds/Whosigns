@@ -15,6 +15,20 @@ Gemeten op 4-8-2026:
                gestructureerd in het antwoord; oudere berichten hebben dat veld
                niet — die leveren wel een opdrachtgever maar geen kantoor op
 
+Hoe ver terug deze bron reikt, en waarom niet verder (gemeten 7-8-2026):
+
+    2010-2012  0 berichten
+    2013-2015  0 berichten
+    2016-2018  485
+    2019-2023  1.488
+
+Dat is geen filterfout maar de grens van de zoek-API zelf: vóór 2016 geeft hij
+niets terug, ook niet zonder verdere voorwaarden. Aanbestedingen van daarvóór
+bestaan wel, maar staan alleen in de bulkpakketten van TED — een heel ander
+soort levering (maandelijkse archieven van honderden megabytes). Dat is een
+losse klus en geen kwestie van een ruimere datum meegeven; deze regels staan
+hier zodat dat niet nog eens uitgezocht hoeft te worden.
+
 Twee valkuilen die gemeten zijn en waar de code op is ingericht:
 
 1.  **De oudercode is nodig, en vervuilt.** De meeste gemeentelijke

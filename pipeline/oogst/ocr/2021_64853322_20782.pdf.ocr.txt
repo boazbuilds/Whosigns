@@ -1,0 +1,904 @@
+# whosigns-ocr v1 grootte=15635194 dpi=300 paginas=20
+Heimans ineen
+Accountancy
+
+JAARREKENING
+
+WINST-EN VERLIESREKENING OVER 2021 „2021 „2020
+PASSIVA
+
+Bedrijfsopbrengsten 10 999.635 837.277
+Lasten uit hoofde van personeels 11 456.819 387.832
+
+beloningen
+
+Afschrijvingen op immateriële, 12 34.069 32.823
+
+materiële vaste activa
+
+Overige bedrijfskosten 13 142.786 89.551
+
+Som der bedrijfskosten 633.674 510.206
+Totaal van bedrijfsresultaat 365.961 327.071
+Financiële baten en lasten 14 -865 -557
+
+Resultaat 365.096 326.514
+
+
+Heijmans
+Accountancy
+
+KASSTROOMOVERZICHT OVER 2021
+
+Praktijk de Sleutel
+STEENBERGEN
+
+Een kasstroomoverzicht is een overzicht van geldmiddelen die in de verslagperiode beschikbaar zijn gekomen
+en van het gebruik dat van deze middelen is gemaakt. Om een inzicht te geven in de financiering van de
+activiteiten, de liquiditeit, de solvabiliteit en de kwaliteit van het behaalde resultaat wordt, in samenhang
+
+met de balans en de winst- en verliesrekening, het kasstroomoverzicht gegeven.
+
+Dit overzicht is als volgt:
+
+2021 2020
+€
+
+Totaal van kasstroom uit operationele
+activiteiten
+Bedrijfsresultaat 365.961 327.071
+Aanpassingen voor
+Afschrijvingen 12 34.069 32.823
+Verandering in werkkapitaal
+Mutatie vorderingen -252.522
+Toename{afname) van overige
+schulden -10.973
+
+-263.495 -46.579
+Totaal van kasstroom uit bedrijfsopera- 136.535 313315
+ties
+Betaalde intrest -865 -557
+Totaal van kasstroom uit operationele
+activiteiten 135.670 312.758
+Totaal van kasstroom uit investerings-
+activiteiten
+Verwerving van materiële vaste activa -12.186 -9.375
+Totaal van kasstroom uit financierings-
+activiteiten
+Privé-opnamen -271.249 -280.568
+Totaal van toename ( afname) van geld-
+middelen -147.765 22.815
+Verloop van toename ( afname) van geldmiddelen
+Geldmiddelen aan het begin van de periode 245.479 222.664
+Toename ( afname) van geldmiddelen -147.765 22.815
+Geldmiddelen aan het einde van de periode 245.479
+
+97.714
+
+
+He iĳ mans Praktijk de Sleutel
+STEENBERGEN
+Accountancy
+
+GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Informatie over de onderneming
+
+Vestigingsadres en inschrijfnummer handelsregister
+
+Praktijk de Sleutel is feitelijk gevestigd op Kruitweg 2, 4651 EE te Steenbergen en is ingeschreven bij
+het handelsregister onder nummer 64853322. Tevens heeft Praktijk de Sleutel een nevenvestiging aan de
+Zandstraat 124, 4614 CM te Bergen op Zoom.
+
+Algemene toelichting
+
+De belangrijkste activiteiten van de onderneming
+
+De activiteiten van Praktijk de Sleutel bestaan voornamelijk uit het voeren van een praktijk op het
+gebied van psychotherapeuten en psychologische hulpverlening.
+
+Informatieverschaffing over schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en gerapporteerde
+waarde van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen
+afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden
+voortdurend beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin
+de schatting wordt herzien en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi
+(RvW)Regeling Jeugdwet en daarmee de Richtlijn voor de Jaarverslaggeving hoofdstuk 655
+Zorginstellingen. De grondslagen die worden toegepast voor de waardering van activa en passiva en
+het resultaat zijn gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+De uitbraak van het Covid-19-virus heeft wereldwijd tot een van de grootste crises van de laatste
+decennia geleid. De (gedeeltelijke) lockdowns hebben er onder meer toe geleid dat de bedrijfsactiviteiten
+in vele sectoren zijn geraakt. Bij het opstellen van de jaarrekening (waaronder de onderbouwing van de
+continuïteitsveronderstelling) is de impact van Covid-19 op onze organisatie nadrukkelijk geanalyseerd
+en gewogen. Bij deze analyse is rekening gehouden met de beperkte impact van Covid-19 op de
+onderneming in 2021 en de verwachte impact op de onderneming in 2022 en verder, en dus ook
+
+de verwachte ontwikkeling in resultaat en liquiditeit, inherent een onzekerheid blijft bestaan ten
+
+aanzien van de duur van het Covid-19-virus en de daaruit voortvloeiende impact op de economie
+
+als geheel en op onze organisatie.
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders
+vermeld in de verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en
+
+kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+
+H @ ij m d n S Praktijk de Sleutel
+STEENBERGEN
+Accountancy
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige econ.
+voordelen naar de instelling zullen toevloeien en het actief een kostprijs of een waarde heeft
+waarvan de omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden
+niet in de balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan
+gepaard zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de
+omvang van het bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden
+vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier
+
+niet aan voldoen worden niet in de balans opgenomen maar worden verantwoord als niet in de
+balans opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie
+niet leidt tot een belangrijke verandering in de economische realiteit met betrekking tot het actief
+of de verplichting. Dergelijke transacties geven evenmin aanleiding tot het verantwoorden van
+resultaten.
+
+Bij de beoordeling of er sprake is van een belangrijke verandering in de economische realiteit wordt
+uitgegaan van de economische voordelen en risico's die zich naar waarschijnlijk in de praktijk zullen
+voordoen, en niet op voordelen en risico's waarvan redelijkerwijze niet te verwachten is dat zij zich
+
+voordoen.
+
+Een actief /verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt
+dat alle of nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met
+betrekking tot het actief of de verplichting aan een derde zijn overgedragen. De resultaten van de
+transactie worden in dat geval direct in de res.rekening opgenomen, rekening houdend met evt.
+voorzieningen die dienen te worden getroffen in samenhang met de transactie. Indien de weergave
+van de economische realiteit ertoe leidt dat het opnemen van activa waarvan de rechtspersoon
+niet het juridisch eigendom bezit, wordt dit feit vermeld.
+
+De jaarekening wordt gepresenteerd in euro's, wat ook de functionele valuta ia van zorginstelling
+Praktijk de Sleutel.
+
+Grondslagen
+
+Immateriële vaste activa
+
+Immateriële vaste activa worden in de balans opgenomen wanneer het waarschijnlijk is dat de
+toekomstige voordelen die dat actief in zich bergt, zullen toekomen aan de instelling en de kosten
+van dat actief betrouwbaar kunnen worden vastgelegd.
+
+De immateriële vaste activa worden gewaardeerd op het bedrag van de bestede kosten,
+
+verminderd met cum. afschrijvingen en bijz. waardeverminderingen. De jaarlijkse afschrijvingen
+bedragen een vast percentage van de bestede kosten, zoals nader in de toelichting van de balans
+is gespecificeerd. De verwachte gebruiksduur en de afschrijvingsmethode worden aan het eind van
+elk boekjaar opnieuw beoordeeld.
+
+Goodwill wordt bepaald als het positieve verschil tussen de verkrijgingsprijs van de deelnemingen
+(inclusief direct aan de overname gerelateerde transactiekosten) en het belang van de instelling in
+de netto reële waarde van de overgenomen identificeerbare activa en verplichtingen van de
+overgenomen deelneming, verminderd met de cumulatieve afschrijvingen en bijzondere
+waardeverminderingen.
+
+
+ee Praktijk de Sleutel
+Heij mans SIEGEN
+rAGGOUNAEBAGMoret niet geactiveerd.
+
+De geactiveerde positieve goodwill wordt lineair afgeschreven over de geschatte economische
+levensduur, die is bepaald op 10 jaar.
+
+Bijzondere waardeverminderingen van immateriële vaste activa
+
+Immateriële vaste activa met een lange levensduur worden beoordeeld op bijzondere
+waardeverminderingen wanneer wijzigingen of omstandigheden zich voordoen die doen vermoeden dat
+de boekwaarde van een actief niet terugverdiend zal worden. Als dergelijke indicaties aanwezig zijn,
+wordt de realiseerbare waarde van het actief geschat. De realiseerbare waarde is de hoogste van de
+bedrijfswaarde en de opbrengstwaarde. De terugverdienmogelijkheid van activa die in gebruik zijn, wordt
+bepaald door de boekwaarde van een actief te vergelijken met de opbrengstwaarde of de bedrijfswaarde
+zijnde de geschatte contante waarde van de toekomstige netto kasstromen die het actief naar
+verwachting zal genereren.
+
+Wanner de boekwaarde van een actief hoger is dan de geschatte contante waarde van de toekomstige
+kasstromen, worden bijzondere waardeverminderingen verantwoord voor het verschil tussen de
+
+boekwaarde en de realiseerbare waarde.
+
+De opbrengstwaarde is gebaseerd op de geschatte verkoopprijs minus de geschatte kosten welke nodig
+zijn om de verkoop te realiseren.
+
+Materiële vaste activa
+
+De bedrijfsgebouwen en -terreinen, machines en installaties, andere vaste bedrijfsmiddelen en materiële
+vaste bedrijfsactiva in uitvoering en vooruitbetalingen op materiële vaste activa worden gewaardeerd
+tegen hun kostprijs onder aftrek van cumulatieve afschrijvingen en indien van toepassing cumulatieve
+bijzondere waardeverminderingen.
+
+De kostprijs van de genoemde activa bestaat uit de verkrijgings- of vervaardigingsprijs en overige kosten
+om de activa op hun plaats en in de staat te krijgen noodzakelijk voor het beoogde gebruik. De kostprijs
+van de activa die door de instelling in eigen beheer zijn vervaardigd, bestaat uit de aanschaffingskosten
+van de gebruikte grond- en hulpstoffen en de overige kosten die rechtstreeks kunnen worden
+toegerekend aan de vervaardiging. Verder omvat de vervaardigingsprijs een redelijk deel van de
+indirecte kosten en de rente op schulden over het tijdvak dat kan worden toegerekend aan de
+vervaardiging van de activa.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs
+volgens de lineaire methode op basis van de vewachte economische levensduur, rekening houdend
+met de eventuele restwaarde van de individuele activa. Er wordt afgeschreven vanaf het moment dat
+het actief klaar is voor het beoogde gebruik.
+
+Bijzondere waardeverminderingen van materiële vaste activa
+
+Materiële vaste activa met een lange levensduur worden beoordeeld op bijzondere
+waardeverminderingen wanneer wijzigingen of omstandigheden zich voordoen die doen vermoeden dat
+de boekwaarde van een actief niet terugverdiend zal worden. Als dergelijke indicaties aanwezig zijn,
+wordt de realiseerbare waarde van het actief geschat. De realiseerbare waarde is de hoogste van de
+bedrijfswaarde en de opbrengstwaarde. De terugverdienmogelijkheid van activa die in gebruik zijn, wordt
+bepaald door de boekwaarde van een actief te vergelijken met de opbrengstwaarde of de bedrijfswaarde
+zijnde de geschatte contante waarde van de toekomstige netto kasstromen die het actief naar
+verwachting zal genereren.
+
+
+Praktijk de Sleutel
+STEENBERGEN
+
+Heijmans
+Accountancy
+
+Wanneer de boekwaarde van een actief hoger is dan de geschatte contante waarde van de toekomstige
+kasstromen, worden bijzondere waardeverminderingen verantwoord voor het verschil tussen de
+boekwaarde en de realiseerbare waarde.
+
+De opbrengstwaarde is gebaseerd op de geschatte verkoopprijs minus de geschatte kosten welke nodig
+zijn om de verkoop te realiseren.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie
+inclusief de transactiekosten indien materieel. Indien geen sprake is van (dis)agio en transactiekosten is
+de geamortiseerde kostprijs gelijk aan de nominale waarde van de vorderingen. Vorderingen worden na
+eerste verwerking gewaardeerd tegen de geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid
+worden in mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het
+ontvangen bedrag rekening houdend met agio of disagio en onder aftrek van transactiekosten. Dit is
+meestal de nominale waarde.
+
+De bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de resultatenrekening opgenomen wanneer een vermeerdering van het economisch
+potentieel, samenhangend met een vermeerdering van een actief of een vermindering van een
+verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten
+worden verwerkt wanneer een vermindering van het economisch potentieel, samenhangend met een
+vermindering van een actief of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan
+de omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan
+de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar
+zijn geconstateerd, worden aan dit boekjaar toegerekend.
+
+Omzetverantwoording
+
+Opbrengsten uit het verlenen van diensten worden in de resultatenrekening verwerkt wanneer het bedrag
+van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen
+vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar
+
+kan worden bepaald en de reeds gemaakte kosten en de kosten die ( mogelijk) nog moeten worden gemaakt
+om de dienstverlening te voltooien op betrouwbare wijze kan worden bepaald.
+
+
+He ij mans Praktijk de Sleutel
+STEENBERGEN
+Accountancy
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die
+worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Onder opbrengsten jeugdwet worden de baten verantwoord uit hoofde van geleverde prestaties
+
+op het gebied van verleende jeugdzorg.
+
+Als realisatiemoment geldt het moment waarop de betreffende prestaties zijn gerealiseerd en op grond van
+de geldende voorschriften of richtlijnen gedeclareerd kunnen worden bij de opdrachtgever. Tot de
+opbrengsten jeugdwet worden tevens gerekend mutaties in onderhanden zorgtrajecten met betrekking
+tot jeugdzorg.
+
+Lonen
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de resultatenrekening verantwoord in de periode
+waarin de arbeidsprestatie wordt verricht en, voor zover nog niet uitbetaald, als verplichting op de balans
+opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt het
+meerdere opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling door het
+personeel of van verrekening met toekomstige betalingen door de instelling.
+
+Voor de beloningen met opbouw van rechten (sabbatical leave, gratificaties e.d.) worden de verwachte
+lasten gedurende het dienstverband in aanmerking genomen. Een verwachte vergoeding ten gevolge
+van gratificaties worden verantwoord indien de verplichting tot betaling van die vergoeding is ontstaan
+op of vóór balansdatum en een betrouwbare schatting van de verplichtingen kan worden gemaakt.
+Ontvangen bijdragen voortvloeiend uit levensloopregelingen worden in aanmerking genomen in de
+periode waarover deze bijdragen zijn verschuldigd. Toevoegingen aan en vrijval van verplichtingen
+worden ten laste respectievelijk ten gunste van de resultatenrekening gebracht.
+
+Indien een beloning wordt betaald, waarbij geen rechten worden opgebouwd (bijvoorbeeld doorbetaling
+in geval van ziekte of arbeidsongeschiktheid) worden de verwachte lasten verantwoord in de periode
+waarover deze beloning is verschuldigd. Voor op balansdatum bestaande verplichtingen tot het in de
+toekomst doorbetalen van beloningen (inclusief ontslagvergoedingen) aan personeelsleden die op
+balansdatum naar verwachting blijvend geheel of gedeeltelijk niet in staat zijn om werkzaamheden te
+verrichten door ziekte of arbeidsongeschiktheid wordt een voorziening opgenomen. De verantwoorde
+verplichting betreft de beste schatting van de bedragen die noodzakelijk zijn om de desbetreffende
+verplichting op balansdatum af te wikkelen. De beste schatting is gebaseerd op contractuele afspraken
+met personeelsleden (CAO en individuele arbeidsovereenkomsten). Toevoegingen aan en vrijval van
+verplichtingen worden ten laste respectievelijk ten gunste van de resultatenrekening gebracht.
+
+Pensioenlasten
+
+Praktijk de Sleutel heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in
+aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat
+is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft
+opgebouwd bij Praktijk de Sleutel. De verplichtingen, die voortvloeien uit deze rechten van haar
+personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. Praktijk de Sleutel
+betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft door de
+
+werknemer.
+
+
+Heijmans EEE
+Accountancy
+
+De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad
+
+van het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële
+verplichtingen) dit toelaat. Voor pensioenfondsen geldt regelgeving met betrekking tot de vereiste
+dekkingsgraad. De beleidsdekkingsgraad is het gemiddelde van de laatste twaalf dekkingsgraden. In
+februari 2022 bedroeg de beleidsdekkingsgraad 105,6%. Het vereiste niveau van de dekkingsgraad is
+104,4%. Het bestuur van PFZW heeft besloten om de pensioenpremie te verhogen in twee stappen: per
+1 januari 2021 met 1,5 procentpunt en per 1 januari 2022 met 0,8 procentpunt. De premie voor het
+arbeidsongeschiktheidspensioen blijft gelijk. Praktijk de Sleutel heeft geen verplichting tot het voldoen
+van aanvullende bijdragen in geval van een tekort bij het pensioenfonds, anders dan het effect van
+hogere toekomstige premies. Praktijk de Sleutel heeft daarom alleen de verschuldigde premies tot en
+met het einde van het boekjaar in de jaarrekening verantwoord.
+
+Overige bedrijfskosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen)
+en aan derden en groepsmaatschappijen betaalde (te betalen) interest. Tevens is hieronder opgenomen
+het aandeel van de instelling in het resultaat van de op nettovermogenswaarde gewaardeerde
+deelnemingen danwel ontvangen dividenden van deelnemingen waarin geen invloed van betekenis op
+het zakelijke en financiële beleid wordt uitgeoefend en waardeveranderingen van financiële vaste activa
+en effecten.
+
+Kasstroomoverzicht
+Het kasstroomoverzicht is opgesteld volgen de indirecte methode. De geldmiddelen in het
+kasstroomoverzicht bestaan uit de liquide middelen.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn
+opgenomen onder de kasstroom uit operationele activiteiten.
+
+Transacties waarbij geen ruil van kasmiddelen plaatsvindt, waaronder financiële leasing, zijn niet in het
+kasstroomoverzicht opgenomen. De betaling van de leasetermijnen uit hoofde van het financiële
+leasecontact zijn voor het gedeelte dat betrekking heeft op de aflossing als een uitgave uit
+financieringsactiviteiten aangemerkt en voor het gedeelte dat betrekking heeft op de interest als een
+uitgave uit operationele activiteiten.
+
+
+= e@ ĳĳ m el n S Praktijk de Sleutel
+STEENBERGEN
+Accountancy
+
+Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot
+aan de datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet
+in de jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van
+de gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht
+in de jaarrekening.
+
+Uitgangspunten Sociaal Domein
+
+Bij het bepalen van de Wmo-omzet en/of Jeugdwet-omzet heeft de instelling de grondslagen voor
+waardering en resultaatbepaling gevolgd zoals hiervoor opgenomen. In de praktijk kan het lang duren
+voordat de geleverde Wmo-zorg en jeugdhulp in een kalenderjaar definitief wordt afgerekend door de
+gemeenten. Hierdoor is er onzekerheid over het vergoeden van overproductie en kunnen gemeenten
+geleverde zorg ter discussie stellen, waardoor deze mogelijk niet wordt vergoed.
+
+De maatschap heeft deze mogelijke effecten naar beste weten geschat en verwerkt in deze jaarrekening
+waar mogelijk en wijst op het resterende inherente risico terzake dat kan leiden tot nagekomen financële
+effecten in 2022 of later.
+
+
+Heijmans
+Accountancy
+
+TOELICHTING OP DE BALANS
+
+ACTIVA
+Vaste activa
+
+1. Immateriële vaste activa
+
+Stand per 1 januari 2021
+Verkrijgingsprijs-of vervaardigingsprijs
+Cumulatieve afschrijvingen
+
+Boekwaarden per 1 januari 2021
+
+Mutaties
+Afschrijvingen
+Saldo mutaties
+
+Stand per 31 december 2021
+Verkrijgings-of vervaardigings-
+prijs
+
+Cumulatieve afschrijvingen
+Boekwaarden per
+
+31 december 2021
+
+Kosten van
+goodwill die
+van derden is
+
+verkregen
+€
+261.101
+
+-113.145
+
+147.956
+
+-26.111
+
+-26.111
+
+261.101
+
+-139.256
+
+121.845
+
+Praktijk de Sleutel
+STEENBERGEN
+
+
+Heijmans
+Accountancy
+
+1. Immateriële vaste activa: Economische levensduur
+
+Afschrijvingspercentage
+
+2. Materiële vaste activa
+
+Stand per 1 januari 2021
+Verkrijgingsprijs-of vervaardigingsprijs
+Cumulatieve afschrijvingen
+
+Boekwaarden per 1 januari 2021
+
+Mutaties
+Investeringen
+Afschrijvingen
+Saldo mutaties
+
+Stand per 31 december 2021
+Verkrijgings-of vervaardigings-
+prijs
+
+Cumulatieve afschrijvingen
+Boekwaarden per
+
+„31 december 2021
+
+Kosten van
+goodwill die
+van derden is
+verkregen
+%
+10,00
+
+Inventarissen
+
+€
+36.766
+
+=17.564
+
+19.202
+
+12.186
+
+-7.958
+
+4.228
+
+48.952
+
+25.22
+
+23.430
+
+Praktijk de Sleutel
+STEENBERGEN
+
+
+Hi @ iĳ m d n S Praktijk de Sleutel
+STEENBERGEN
+Accountancy
+
+1. Materiële vaste activa: Economische levensduur
+
+Materiële
+vaste activa
+%
+Afschrijvingspercentage 20,00
+
+31-12-2021 31-12-2020
+
+3. Vorderingen op handelsdebiteuren
+
+€ €
+
+Vorderingen op handelsdebiteuren 196.878 98.260
+
+Een voorziening voor dubieuze debiteuren wordt noodzakelijk geacht.
+
+4. Overige rekening-courant
+
+Rekening-courant Indima Vastgoed B.V. 181.827 37.758
+
+Over de vordering in rekening-courant is geen rente berekend. Er zijn geen bijzondere
+bepalingen met betrekking tot deze rekening-courantfaciliteit, noch is er een
+aflossingsregeling overeengekomen.
+
+5. Overige vorderingen en overlopende activa
+
+Nog te factureren omzet DBC'S/DBC-zorgproducten 129.308 109.871
+Waarborgsom 1.368 3.668
+Vooruitbetaalde huur 1.452 2.690
+Nog te ontvangen COVID-19 compensatie le) 2.004
+
+132.628 118.233
+
+6.Liquide middelen
+
+Rabobank spaarrekening 74.034 180.024
+
+Rabobank betaalrekening 23.680 65.455
+97.714 245.479
+
+Opmerking over beperkte vrije beschikbaarheid liquide middelen
+
+De liquide middelen zijn volledig vrij beschikbaar.
+
+
+H e iĳ mans Praktijk de Sleutel
+STEENBERGEN
+Accountancy
+
+A
+7.Bedrijfsvermogen
+
+7. Bedrijfsvermogen
+
+Kapitaal Kapitaal Kapitaal Totaal
+
+L.P.J. B.V. Divini B.V. Hulida B.V.
+Stand per 1 januari 2021 192.430 187.110 189.185 568.725
+Aandeel in resultaat boekjaar 123.319 107.423 134.354 365.096
+Privé-ontrekkingen minus-
+stortingen -91.380 -76.583 -103.286 -271.249
+Stand per 31 december 2021 224.369 217.950 220.253 662.572
+
+31-12-2021 31-12-2020
+
+€ €
+
+8.Belastingen en premies sociale verzekeringen
+
+Loonheffing 18.412 17.301
+9. Overige schulden en overlopende passiva
+
+Vooruitgefactureerde omzet 39.947 51.104
+Vakantiedagen 11.874 13.309
+Vakantiegeld 14.517 12.467
+Nog te betalen kosten 7.000 1.259
+Overige schulden 0 1.283
+
+73.338 85.422
+
+Niet in de balans opgenomen activa en verplichtingen
+
+Informatieverschaffing over niet in de balans opgemomen verplichtingen
+
+Het jaarlijks bedrag van het met derden aangegane huurverplichtingen van onroerende
+zaken is € 36.000 voor wat betreft de Zandstraat 124 ( voor onbepaalde tijd) en € 17.424
+voor wat betreft de Kruitweg 2.
+
+Het contract voor wat betreft de Kruitweg 2 loopt tot en met 31 oktober 2026, met de
+mogelijkheid te verlengen voor een periode van 5 jaar.
+
+
+H e ij m be | n S Praktijk de Sleutel
+
+A : STEENBERGEN
+TOELICHTING OP DE WINST-EN VERLIESREKENING
+„2021 „2020
+€ €
+
+10.Bedrijfsopbrengsten
+
+Opbrengsten Jeugdwet 612.872 525.283
+
+Opbrengsten zorgverzekeringswet 334.145 262.534
+
+Overige zorgprestaties 52.618 49,460
+
+999.635 837.277
+
+11. Lasten uit hoofde van arbeidsbeloningen
+
+Lonen 330.783 279.786
+Sociale lasten 57.694 50.784
+Pensioenlasten 28.533 23.505
+Overige personeelsbeloningen 39.809 33.757
+
+456.819 387.832
+
+Gemiddeld aantal werknemers
+
+2021
+
+Aantal
+Gemiddeld aantal werknemers 7,08
+2020
+
+Aantal
+Gemiddeld aantal werknemers 6,75
+
+„2021 „2020
+€ €
+
+Overige personeelsbeloningen
+Studie- en opleidingskosten 13.080 12.602
+Reiskostenvergoeding woon-werk 8.114 10.371
+Stagevergoedingen 2.236 0
+Ziekengeldverzekering 4.410 5.245
+Uitkering ziekteverzuimverzekering -16.105 O0
+Diensten door derden 21.044 2.495
+Kantinekosten 1.212 1.068
+Arbodienst 630 704
+Overige personeelskosten 5.188 1272
+
+39,809 33.757
+
+
+Hi @ ij m d n S Praktijk de Sleutel
+
+STEENBERGEN
+
+Accountancy
+
+HTING OP DE WINST-EN VERLIESREKENING
+
+„2021 „2020
+€ €
+12 Afschrijvingen op (im)materiële vaste activa
+Afschrijvingen immateriële vaste activa 26.111 26.111
+Afschrijvingen materiële vaste activa 7.958 6.712
+
+34.069 32.823
+
+13. Overige bedrijfskosten
+
+Huisvestingskosten 79.482 40.260
+Exploitatie-en machinekosten 5.985 10.085
+Verkoopkosten 4.378 1.849
+Kantoorkosten 27.865 22.212
+Algemene kosten 25.076 17.149
+Coronacompensatie 0 -2.004
+
+142.786 89.551
+
+Huisvestingskosten
+
+Betaalde huur 53.689 32.194
+Gas, water en elektra 3.126 3.295
+Schoonmaakkosten 2.547 2.226
+Onroerende zaakbelasting 2.065 1.247
+Onderhoud gebouwen 16.648 97
+Overige huisvestingskosten 1.407 1.201
+
+79.482 40.260
+
+Exploitatie-en machinekosten
+
+Behandelmaterialen 5.638 5.569
+Huur inventaris 0 1.876
+Kleine aanschaf inventaris 257 1.000
+Assurantiepremie inventaris 0 972
+Reparatie en onderhoud machines O0 0)
+Overige exploitatie-en machinekosten 90 668
+
+5.985 10.085
+
+
+H @ ij m d n S Praktijk de Sleutel
+
+STEENBERGEË
+Accountancy
+TOELICHTING OP DE WINST-EN VERLIESREKENING
+„2021 „2020
+
+€ €
+Verkoopkosten
+Representatiekosten 6 796
+Reis-en verblijfkosten 1.830 6)
+Reclame- en advertentiekosten 911 912
+Relatiegeschenken 104 141
+Overige verkoopkosten 1.527 0
+
+4.378 1.849
+Kantoorkosten
+Kosten automatisering 14.970 13252
+Telefoon-en internetkosten 6.580 4.077
+Assurantiepremie 2.865 2.773
+Kantoorbenodigdheden 2.994 1.905
+Porti 192 182
+Drukwerk 264 23
+
+27.865 22212
+
+Algemene kosten
+
+Accountantskosten,niet controlediensten 19.817 12.258
+Abonnementen en contributies 4.685 4.836
+Advieskosten 0 fo)
+Notariskosten 0 0
+Overige algemene kosten 574 ej)
+
+25.076 17.149
+
+14.Financiële baten en lasten
+Rentelasten en soortgelijke kosten -865 -557
+
+Rentelasten en soortgelijke kosten
+
+Betaalde bankrente 865 557
+
+
+Heijmans
+Accountancy
+
+Praktijk de Sleutel
+STEENBERGEN
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat
+tussen de instelling,haar deelnemingen en hun bestuurders en leidinggevende
+
+functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op
+
+niet-zakelijke grondslag.
+
+Steenbergen, 31 mei 2022
+
+Praktijk de Sleutel
+
+LPS. B.V. Divini B.V.
+Vertegenwoordigd door: Vertegenwoordigd door:
+LP.J. de Kroon D.A.C. van Vlimmeren-Buijs
+
+Maat Maat
+
+Hulida B.V.
+Vertegenwoordigd door:
+C.J.M. Sijbertsma-Meerbeek
+Maat
+
+
+Heijmans
+Accountancy
+
+Specificatie kapitaal I.P.J. B.V.
+
+Stand per 1 januari
+
+Resultaat boekjaar
+Aandeel in de overwinst
+
+Privé-ontrekkingen minus stortingen
+
+Stand per 31 december
+
+Praktijk de Sieutel
+STEENBERGEN
+
+192.430 175.518
+123.319 118.893
+-91.380 -101,981
+224.369 192.430
+
+
+Heijmans
+Accountancy
+
+Specificatie kapitaal Divini B.V.
+
+Stand per 1 januari
+
+Resultaat boekjaar
+Aandeel in de overwinst
+
+Privé-ontrekkingen minus stortingen
+
+Stand per 31 december
+
+Praktijk de Sleutel
+STEENBERGEN
+
+187.110 172.562
+107.423 99.173
+-76.583 -84.625
+217.950 187.110
+
+
+Ei & iĳ m Pe | n S Praktijk de Sleutel
+STEENBERGEN
+Accountancy
+
+Specificatie kapitaal Hulida B.V.
+
+Stand per 1 januari 189.185 174.699
+
+Resultaat boekjaar
+Aandeel in de overwinst 134.354 108.448
+
+Privé-ontrekkingen minus stortingen -103.286 -93.962
+
+Stand per 31 december 220.253 189.185
+

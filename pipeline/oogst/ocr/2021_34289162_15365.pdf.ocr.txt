@@ -1,0 +1,1092 @@
+# whosigns-ocr v1 grootte=629511 dpi=300 paginas=20
+UVA MINDS B.V.
+TE AMSTERDAM
+
+Rapport inzake jaarstukken 2021
+
+
+INHOUDSOPGAVE
+
+ADMINISTRATIERAPPORT
+
+2 Fiscale positie
+
+JAARREKENING
+
+Balans per 31 december 2021
+Winst-en-verliesrekening over 2021
+
+Grondslagen voor waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2021
+Toelichting op de winst-en-verliesrekening over 2021
+Overige toelichting
+
+u WN EE
+
+Pagina
+
+nu a
+
+10
+
+18
+
+UvA minds B.V. te Amsterdam
+
+1 FISCALE POSITIE
+
+1.1 Berekening belastbaar bedrag 2021
+
+Het belastbaar bedrag voor de vennootschapsbelasting over 2021 is als volgt berekend:
+
+2021
+€ €
+Resultaat voor belastingen 180.677
+Fiscale verschillen:
+Niet aftrekbare kosten 2.592
+Investeringsaftrek -3.054
+-462
+Belastbaar bedrag 2021 180.215
+Berekening vennootschapsbelasting
+De hierover verschuldigde vennootschapsbelasting bedraagt:
+2021
+€
+
+15,0% over € 180.215 27.032
+
+1.2 Vennootschapsbelasting
+
+Per 31 december 2021 is per saldo € 33.987 verschuldigd inzake vennootschapsbelasting. De verschuldigde vennootschapsbelasting
+over 2021 bedraagt € 27.032.
+
+Vordering/ schuld Betaald/ Vordering/ schuld
+per 1 januari Vennoot-schaps- ontvangen in per 31 december
+
+2021 belasting 2021 2021 2021
+
+€ € € €
+
+2018 -2,330 - 2.330 -
+2020 -37.942 - 37.942 -
+2021 - -27.032 32.088 5.056
+-40.272 -27.032 72.360 5.056
+
+Bij het uitbrengen van dit rapport zijn de aangiften vennootschapsbelasting tot en met 2020 definitief geregeld.
+
+
+FINANCIEEL VERSLAG
+
+UvA minds B.V. te Amsterdam
+
+1 BALANS PER 31 DECEMBER 2021
+(voor resultaatbestemming)
+
+ACTIVA
+Vaste activa
+
+Immateriële vaste activa (1)
+Materiële vaste activa (2)
+
+Vlottende activa
+
+Onderhanden projecten (3)
+Vorderingen (4)
+Debiteuren
+
+Kortlopende vorderingen op
+groepsmaatschappijen
+
+Kortlopende vorderingen op Universiteit van
+Amsterdam
+
+Belastingen en premies sociale verzekeringen
+Overlopende activa
+
+Liquide middelen (5)
+
+31 december 2021 31 december 2020
+€ € € €
+
+6.247 8.813
+147.944 164.615
+
+154.191 173.428
+
+- 225.480
+721.036 265.656
+14.027 20.772
+4.870 12.650
+370 18.938
+14.696 65.014
+
+754.999 383.030
+
+516.694 519.178
+
+1.271.693 1.127.688
+
+1.425.884 1.301.116
+
+
+PASSIVA
+
+Eigen vermogen (6)
+
+Geplaatst kapitaal
+Overige reserves
+Onverdeelde winst
+
+Kortlopende schulden (7)
+
+Vooruitontvangen op onderhanden werk
+Schulden aan leveranciers en handelskredieten
+Belastingen en premies sociale verzekeringen
+Overlopende passiva
+
+31 december 2021 31 december 2020
+€ € € €
+
+18.000 18.000
+907.300 650.726
+153.645 256.571
+
+1.078.945 925.297
+84.111 99.884
+19.430 59,215
+139.843 124.658
+103.555 92.062
+
+346.939 375.819
+
+1.425.884 1.301.116
+
+
+UvA minds B.V. te Amsterdam
+
+2 WINST-EN-VERLIESREKENING OVER 2021
+
+Netto-omzet
+Kosten
+
+Kosten van uitbesteed werk en andere externe kosten
+Personeelskosten
+
+Afschrijvingen
+
+Overige bedrijfskosten
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat voor belastingen
+Belastingen
+
+Resultaat na belastingen
+
+(8)
+
+(9)
+(10)
+(14)
+(12)
+
+(13)
+
+(14)
+
+2021 2020
+
+€ €
+2.450.687 2.340.149
+72.264 80.099
+1.756.328 1.563.628
+30.973 29.320
+406.591 344.363
+2.266.156 2.017.410
+184.531 322.739
+-3.854 -2,533
+180.677 320.206
+-27.032 -63.632
+153.645 256.574
+
+
+UvA minds B.V, te Amsterdam
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+Algemeen
+
+UvA minds B.V. is op 18 december 2007 opgericht en statutair gevestigd te Amsterdam en is opgenomen in de groep van UvA
+Ventures Holding B.V. gevestigd aan de Roetersstraat 35 te Amsterdam. De Universiteit van Amsterdam fungeert als hoofd van de
+groep waar UvA Ventures Holding B.V.deel van uitmaakt.
+
+De aandelen worden gehouden door:
+60% UvA Ventures Holding B.V.
+40% mw. prof. dr. S.M. Bögels
+
+De vennootschap heeft ten doel:
+
+het op commerciële basis leveren van (psycho)therapeutische diensten aan kinderen en jeugdigen (en hun ouders), een en ander in
+de meest brede zin van het woord; het in het verlengde van het bovenstaande in financieel en overig opzicht bijdragen aan verder
+wetenschappelijk onderzoek op genoemd gebied, onder andere door het beschikbaar stellen van voor dit doel geschikte
+onderzoeksdata; het bijdragen aan opleiding en ontwikkeling van science-practitioners op het domein van de kinder- en jeugdzorg,
+daaronder begrepen alle handelingen en activiteiten welke met het vorenstaande direct of indirect enig verband houden of die aan
+het doel bevorderlijk kunnen zijn.
+
+De vennootschap is bevoegd tot het deelnemen in, het samenwerken met, het financieren van, het voeren van directie over of het
+zich op andere wijze interesseren bij andere vennootschappen en/of ondernemingen en voorts tot het geven van zekerheden voor
+schulden van derden.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+UvA minds B.V.(geregistreerd onder KvK-nummer 34289162) is feitelijk gevestigd op Banstraat 29 te Amsterdam.
+
+Groepsverhoudingen
+De vennootschap maakt deel uit van een groep, waarvan UvA Ventures Holding B.V.aan het hoofd staat.
+
+Vrijstelling voor de opstelling van het kasstroomoverzicht
+De vennootschap maakt gebruik van de vrijstelling ingevolge artikel 360.104 van de Richtlijn voor de Jaarverslaggeving. De financiële
+gegevens van UvA minds B.V.zijn opgenomen in de geconsolideerde jaarrekening van UvA minds B.V.
+
+-ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de uitspraken van de
+Richtlijnen voor de jaarverslaggeving, die uitgegeven zijn door de Raad voor de Jaarverslaggeving. Activa en verplichtingen worden in
+het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de actuele waarde. Indien geen specifieke
+waarderingsgrondslag is vermeld, vindt waardering plaats tegen de verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn
+referenties opgenomen. Met deze referenties wordt verwezen naar de toelichting.
+
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van het voorgaande jaar.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts opgenomen voor zover zij
+op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun oorsprong vinden voor het einde van het verslagjaar
+worden in acht genomen indien zij voor het opmaken van de jaarrekening bekend zijn geworden.
+
+,
+
+„GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA _
+
+Immateriële vaste activa
+
+De immateriële vaste activa zijn gewaardeerd tegen verkrijgingsprijs, onder aftrek van lineaire afschrijvingen. De immateriële vaste
+activa worden vanaf het moment van ingebruikname over hun verwachte economische levensduur of naar rato van de verwachte
+afzet of contractsduur afgeschreven. Software wordt in 5 tot 8 jaar afgeschreven, geactiveerde goodwill in 10 jaar en licentie- en
+uitgavenrechten in 5 jaar. Er wordt rekening gehouden met duurzame waarde verminderingen die op de balansdatum verwacht
+worden; dit is het geval als de boekwaarde van het actief hoger is dan de realiseerbare waarde.
+
+Om vast te stellen of er voor een immaterieel vast actief sprake is van een bijzondere waardevermindering, wordt verwezen naar de
+paragraaf aangaande bijzondere waardeverminderingen van vaste activa.
+
+
+UvA minds B.V. te Amsterdam
+
+Uitgaven voor ontwikkelingsprojecten worden geactiveerd als onderdeel van de vervaardigingsprijs als het waarschijnlijk is dat het
+project commercieel en technisch succesvol zal zijn (dat wil zeggen: als het waarschijnlijk is dat economische voordelen zullen worden
+behaald) en de kosten betrouwbaar kunnen worden vastgesteld. Voor de geactiveerde ontwikkelingskosten is een wettelijke reserve
+onder het eigen vermogen gevormd ter hoogte van het geactiveerde bedrag. De afschrijving van de geactiveerde ontwikkelingskosten
+vangt aan zodra de commerciële productie is gestart en vindt plaats over de verwachte toekomstige gebruiksduur van het actief.
+Onderzoekskosten worden verwerkt in de winst-en-verliesrekening.
+
+Materiële vaste activa
+Om vast te stellen of er voor een materieel vast actief sprake is van een bijzondere waardevermindering, wordt verwezen naar de
+paragraaf aangaande bijzondere waardeverminderingen van vaste activa.
+
+Bijzondere waardeverminderingen van vaste activa
+
+De vennootschap beoordeelt op iedere balansdatum of er aanwijzingen zijn dat een vast actief aan een bijzondere
+waardevermindering onderhevig kan zijn. Indien dergelijke indicaties aanwezig zijn, wordt de realiseerbare waarde van het actief
+vastgesteld. Indien het niet mogelijk is de realiseerbare waarde voor het individuele actief te bepalen, wordt de realiseerbare waarde
+bepaald van de kasstroomgenererende eenheid waartoe het actief behoort.
+
+Van een bijzondere waardevermindering is sprake als de boekwaarde van een actief hoger is dan de realiseerbare waarde; de
+realiseerbare waarde is de hoogste van de opbrengstwaarde en de bedrijfswaarde, Een bijzonder-waardeverminderingsverlies wordt
+direct als last verwerkt in de winst-en-verliesrekening onder gelijktijdige verlaging van de boekwaarde van het betreffende actief.
+
+De opbrengstwaarde wordt in eerste instantie ontleend aan een bindende verkoopovereenkomst; als die er niet is, wordt de
+opbrengstwaarde bepaald met behulp van de actieve markt waarbij normaliter de gangbare biedprijs geldt als marktprijs. De in aftrek
+te brengen kosten bij het bepalen van de opbrengstwaarde zijn gebaseerd op de geschatte kosten die rechtstreeks kunnen worden
+toegerekend aan de verkoop en nodig zijn om de verkoop te realiseren.
+
+Onderhanden projecten
+
+De post onderhanden projecten in opdracht van derden bestaat uit het saldo van gerealiseerde projectkosten, toegerekende winst,
+en indien van toepassing, verwerkte verliezen en reeds gedeclareerde termijnen. Onderhanden projecten worden afzonderlijk in de
+balans onder vlottende activa gepresenteerd. Indien het een creditstand vertoont worden deze gepresenteerd onder de kortlopende
+schulden.
+
+Uitgaven voor projectkosten voor nog niet verrichte prestaties worden opgenomen onder de voorraden.
+
+De begeleidingskosten van eigen personeel en advies- en begeleidingskosten van door gelieerde rechtspersonen doorberekende
+kosten worden geactiveerd, alsmede bouwrente.
+
+Duurzame waardeverminderingen worden genomen op het moment dat zij blijken.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie. Handelsvorderingen worden
+na eerste verwerking gewaardeerd tegen de geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering
+gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan 12 maanden en worden
+gewaardeerd tegen nominale waarde.
+
+Langlopende en kortlopende schulden
+
+Schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Transactiekostendie direct zijn toe te rekenen aan de
+verwerving van de schulden worden in de waardering bij eerste verwerking opgenomen. Schulden worden na eerste verwerking
+gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening houdend met agio of disagio en onder aftrek van
+transactiekosten.
+
+_GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten en andere lasten
+over het jaar. De resultaten op transacties worden verantwoord in het jaar waarin zij zijn gerealiseerd; verliezen worden genomen
+zodra zij voorzienbaar zijn.
+
+
+UvA minds B.V. te Amsterdam
+
+Het resultaat wordt tevens bepaald met inachtneming van de verwerking van ongerealiseerde waardeveranderingen van op reële
+waarde gewaardeerde:
+
+-vastgoedbeleggingen;
+
+- onder vlottende activa opgenomen effecten.
+
+Opbrengstverantwoording
+
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde projectopbrengsten uit hoofde van
+onderhanden projecten onder aftrek van kortingen en dergelijke en van over de omzet geheven belastingen.
+
+Verlenen van diensten
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde prestaties, gebaseerd op de
+verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Projectopbrengsten en projectkosten
+
+Voor onderhanden projecten, waarvan het resultaat op betrouwbare wijze kan worden bepaald, worden de projectopbrengsten en
+de projectkosten verwerkt als netto-omzet en kosten in de winst- en verliesrekening naar rato van de verrichte prestaties per
+balansdatum (de ‘Percentage of Completion'-methode, ofwel de PoC-methode).
+
+De voortgang van de verrichte prestaties wordt bepaald op basis van de tot de balansdatum gemaakte projectkosten in verhouding
+tot de geschatte totale projectkosten. Als het resultaat (nog) niet op betrouwbare wijze kan worden ingeschat, dan worden de
+opbrengsten als netto-omzet verwerkt in de winst- en verliesrekening tot het bedrag van de gemaakte projectkosten dat
+waarschijnlijk kan worden verhaald; de projectkosten worden dan verwerkt in de winst-en-verliesrekening in de periode waarin ze zijn
+gemaakt. Zodra het resultaat wel op betrouwbare wijze kan worden bepaald, vindt opbrengstverantwoording plaats volgens de PoC-
+methode naar rato van de verrichte prestaties per balansdatum.
+
+Het resultaat wordt bepaald als het verschil tussen de projectopbrengsten en projectkosten.
+
+Projectopbrengsten zijn de contractueel overeengekomen opbrengsten en opbrengsten uit hoofde van meer- en minderwerk, claims
+en vergoedingen indien en voor zover het waarschijnlijk is dat deze worden gerealiseerd en ze betrouwbaar kunnen worden bepaald,
+Projectkosten zijn de direct op het project betrekking hebbende kosten, die in het algemeen aan projectactiviteiten worden
+toegerekend en toegewezen kunnen worden aan het project, en andere kosten die contractueel aan de opdrachtgever kunnen
+worden toegerekend.
+
+Indien het waarschijnlijk is dat de totale projectkosten de totale projectopbrengsten overschrijden, dan worden de verwachte
+verliezen onmiddellijk in de winst- en verliesrekening verwerkt. Dit verlies wordt verwerkt in de kostprijs van de omzet.
+
+De voorziening voor het verlies maakt deel uit van de post onderhanden projecten op de balans.
+
+Bedrijfsresultaat
+Het bedrijfsresultaat wordt bepaald door de bedrijfsopbrengsten te verminderen met afschrijvingen en de kosten die op het boekjaar
+betrekking hebben. De afschrijvingen en kosten worden berekend op basis van de historische kosten.
+
+Kosten
+De overige bedrijfskosten worden toegerekend aan het verslagjaar waarop ze betrekking hebben.
+
+Kosten van uitbesteed werk en andere externe kosten
+
+De kosten van uitbesteed werk en andere externe kosten omvatten de kosten die door derden in rekening zijn gebracht in het kader
+van de uitbesteding of ondersteuning van de werkzaamheden. Deze kosten bestaan uit de inkoopprijs en eventuele bijkomende
+kosten.
+
+Personeelsbeloningen
+Periodiek betaalbare beloningen
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de winst-en-verliesrekening.
+
+Pensioenen
+
+UvA minds B.V.heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het verslagjaar verschuldigde
+premie wordt als last verantwoord.
+
+De premies worden verantwoord als personeelskosten zodra deze verschuldigd zijn. Vooruitbetaalde premies worden opgenomen als
+overlopende activa indien dit tot een terugstorting leidt of tot een vermindering van toekomstige betalingen. Nog niet betaalde
+premies worden als verplichting op de balans opgenomen.
+
+
+|
+
+UvA minds B.V. te Amsterdam
+
+Pensioenen
+
+De vennootschap heeft een pensioenregeling met de kenmerken van een toegezegdbijdrageregeling. De vennootschap heeft de
+pensioenregeling verwerkt volgens de verplichtingenbenadering. De over het verslagjaar verschuldigde premie wordt als last
+verantwoord.
+
+Mutaties in de pensioenvoorziening worden ook in de winst-en-verliesrekeningverwerkt. Zie ook de grondslagen voor waardering van
+activa en passiva, bij Pensioenvoorziening
+
+Mutaties in de pensioenvoorziening worden ook in de winst-en-verliesrekening verwerkt.
+
+Afschrijvingen
+Zie onder immateriële vaste activa en materiële vaste activa in de toelichting op de balans.
+
+Subsidies van derden
+Subsidies van derden worden toegerekend aan het verslagjaar waarvoor ze worden toegekend.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van de betreffende activa
+en passiva.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-verliesrekening, rekening houdend
+met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren en vrijgestelde winstbestanddelen en na bijtelling van
+niet-aftrekbare kosten.
+
+
+UvA minds B.V. te Amsterdam
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Immateriële vaste activa
+
+Kosten van onderzoek en ontwikkeling
+Software
+
+Boekwaarde per 1 januari 2021
+Verkrijgingsprijs
+Cumulatieve afschrijvingen en overige waardeverminderingen
+
+Mutaties
+Afschrijvingen
+
+Boekwaarde per 31 december 2021
+
+Verkrijgingsprijs
+Cumulatieve afschrijvingen en overige waardeverminderingen
+
+Afschrijvingspercentages
+
+Kosten van onderzoek en ontwikkeling
+Software
+
+31-12-2021 31-12-2020
+€ €
+567 1.185
+5.680 7.628
+6.247 8.813
+Licentie- en Kosten van
+uitgaven- onderzoek en
+rechten ontwikkeling Software Totaal
+€ € € €
+
+11.663 9.737 21.400
+-10,478 -2.110 -12.588
+1.185 7.627 8.812
+-618 -1.947 -2.565
+11.663 9.737 21.400
+-11.096 -4,057 -15.153
+567 5.680 6.247
+%
+20
+20
+
+-10-
+
+UvA minds B.V. te Amsterdam
+
+2. Materiële vaste activa
+
+Inrichting, Inventaris en Automatisering
+
+Boekwaarde per 1 januari 2021
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Mutaties
+Investeringen
+Afschrijvingen
+
+Boekwaarde per 31 december 2021
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Boekwaarde per 31 december 2021
+
+Afschrijvingspercentages
+
+Inrichting, Inventaris en Automatisering
+
+VLOTTENDE ACTIVA
+
+3. Onderhanden projecten
+
+Onderhanden projecten
+
+4, Vorderingen
+
+Debiteuren
+
+Debiteuren
+Declaraties zorg
+Voorziening dubieuze debiteuren
+
+31-12-2021
+
+31-12-2020
+
+€
+
+147.944
+
+€
+
+164.615
+
+31-12-2021
+
+Inrichting,
+Inventaris en
+Automatisering
+
+€
+
+328.177
+-163.562
+
+‘mi
+
+164.615
+
+pO
+nd
+
+11.737
+-28.408
+
+-16.671
+
+339.914
+-191.970
+
+147.944
+
+20
+
+31-12-2020
+
+€
+
+€
+
+225.480
+
+51.565
+682.923
+-13.452
+
+38.813
+238.176
+-11.333
+
+721.036
+
+265.656
+
+-11-
+
+UvA minds B‚V, te Amsterdam
+
+Voorziening dubieuze debiteuren
+
+Stand per 1 januari
+Dotatie
+
+Stand per 31 december
+
+Kortlopende vorderingen op groepsmaatschappijen
+
+UvA Ventures Holding B.V.
+
+Kortlopende vorderingen op Universiteit van Amsterdam
+
+Debiteuren Universiteit van Amsterdam
+
+Overlopende activa
+
+Nog te ontvangen bedragen
+
+5. Liquide middelen
+ING Bank N.V.
+
+De liquide middelen worden gewaardeerd tegen nominale waarde, De per 31 december
+2021 aanwezige liquide middelen staan de onderneming ter vrije beschikking.
+
+2021 2020
+
+€ €
+11.333 -
+2.119 11.333
+13.452 11.333
+
+31-12-2021 31-12-2020
+
+€ €
+14.027 20.772
+4.870 12,650
+14.696 65.014
+516.694 519.178
+
+-12-
+
+UvA minds B.V, te Amsterdam
+
+PASSIVA
+
+6, Eigen vermogen
+
+Geplaatst kapitaal
+
+31-12-2021
+
+31-12-2020
+
+€
+
+Geplaatst en volgestort zijn 18.000 gewone aandelen nominaal € 1,00 18.000
+
+Het maatschappelijk kapitaal bedraagt € 90.000,
+
+€
+
+18.000
+
+UvA Ventures Holding B.V.bezit 10.800 aandelen, dit vertegenwoordigt 60% van de aandelen, de resterende 40% bevindt zich in
+
+handen van de founding scientist.
+
+Overige reserves
+
+Stand per 1 januari
+
+Resultaatbestemming voorgaand boekjaar
+
+Stand per 31 december
+
+Onverdeelde winst
+
+Stand per 1 januari
+Verdeeld resultaat voorgaand boekjaar
+Onverdeeld resultaat boekjaar
+
+Stand per 31 december
+
+7. Kortlopende schulden
+
+Vooruitontvangen op onderhanden werk
+
+Ontvangen voorschot onderhanden werk
+
+Belastingen en premies sociale verzekeringen
+
+Vennootschapsbelasting
+Omzetbelasting
+Loonheffing
+
+Overlopende passiva
+
+Nog te betalen posten
+Reservering vakantiegelden/dagen
+
+transporteren
+
+2021 2020
+
+€ €
+650.726 422.379
+650.726 422.379
+256.574 228.347
+907.300 650.726
+256.574 228.345
+-256.574 -228,345
+153.645 256.571
+153.645 256.571
+
+31-12-2021 31-12-2020
+
+€ €
+84.111 99,884
+33.987 40.271.
+693 42
+105.163 84.345
+139.843 124.658
+37.013 31.121
+64.835 55.700
+101.848 86.821
+
+-13-
+
+UvA minds B.V. te Amsterdam
+
+Transport
+
+Nettoloon
+Vooruitgefactureerde bedragen
+
+NIET IN DE BALANS OPGENOMEN RECHTEN EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+31-12-2021 31-12-2020
+€ €
+101.848 86.821.
+1.707 341
+- 4.900
+103.555 92.062
+
+Door de onderneming zijn meerjarige financiële verplichtingen aangegaan tot en met 2027 terzake van huur van bedrijfsruimte
+(€ 127.500 per jaar). De totale verplichting bedraagt € 781.538 hiervan heeft € 646.243 een looptijd langer dan 1 jaar en € 88.828 een
+
+looptijd langer dan 5 jaar.
+
+-14-
+
+UvA minds B.V. te Amsterdam
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2021
+
+8. Netto-omzet
+
+Omzet
+
+Omzet
+
+Omzet jeugdzorg
+
+Omzet volwassenenzorg
+
+Mutatie onderhanden werk volwassenenzorg
+
+Correctie ivm budgetmaximum omzet volwassenenzorg
+
+Subsidie medische vervolg opleiding
+Omzet in onderaanneming
+
+Omzet opleidingen en trainingen
+Overige omzet
+
+Omzet huur
+
+9. Kosten van uitbesteed werk en andere externe kosten
+
+Kostprijs verkopen
+
+Kostprijs verkopen
+Uitbesteed werk en projectkosten
+
+10. Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Lonen en salarissen
+
+Bruto lonen
+
+Bonus, bijzondere beloning
+Vakantiegeld
+
+Dertiende maand
+
+Ontvangen ziekengelduitkeringen
+
+Sociale lasten
+
+Premies sociale verzekeringswetten
+Sociale verzekeringen
+
+2021 2020
+
+€ €
+2.450.687 2.340.149
+2.450.687 2.340.149
+1.767.717 1.805.275
+757.369 306.391
+-225.480 81,486
+-35.652 -24,260
+44,176 -
+51.353 67.960
+56.675 91.563
+31.371 3.909
+3.158 7.825
+2.450.687 2.340.149
+224 1.233
+72.040 78.866
+72.264 80.099
+1.302.560 1.146.176
+235.3/1 216.468
+132.057 105.346
+1.669.988 1.467.990
+86.340 95.638
+1.756.328 1.563.628
+1.173.368 1.026.433
+2.614 1.232
+91.514 73.286
+95.289 84.077
+1.362.785 1.185.028
+„60.225 -38.852
+1.302.560 1.146.176
+230.271 213.354
+5.100 3.114
+235.371 216.468
+
+-15-
+
+UvA minds B.V. te Amsterdam
+
+Pensioenlasten
+
+Pensioenlasten
+
+Overige personeelskosten
+
+Reiskosten woon/werkverkeer
+Onkostenvergoeding
+
+Uitzendkrachten inhuur derden (indirect)
+Administratieve dienstverlening
+
+Premie Solidariteitsfonds
+
+Vergoeding Raad van Commissarissen / Advies
+
+Ontvangen ziekengelden / solidariteitsfonds
+
+Personeelsleden
+
+Bij de vennootschap waren in 2021 gemiddeld 23 personeelsleden werkzaam, berekend op fulltimebasis (2020: 24).
+
+11. Afschrijvingen
+
+Immateriële vaste activa
+Materiële vaste activa
+
+Afschrijvingen immateriële vaste activa
+
+Kosten van onderzoek en ontwikkeling
+Software
+
+Totaal
+
+12. Overige bedrijfskosten
+
+Overige personeelskosten
+Huisvestingskosten
+Kantoorkosten
+Automatiseringskosten
+Verkoopkosten
+Algemene kosten
+
+Overige personeelskosten
+
+Kantinekosten
+Opleidingskosten
+Werving en selectiekosten
+Vakliteratuur
+
+Kosten Arbodienst
+Overige personeelskosten
+
+Gedurende het boekjaar 2020 is € 67.782 aan opleidingssubsidie ontvangen, dit bedrag is in mindering gebracht van de
+
+2021 2020
+€ €
+
+132.057 105.346
+5.702 5.470
+1.662 1.662
+26.798 37.786
+23.374 22,693
+25.662 21.835
+6.829 6.192
+90.027 95.638
+-3,687 -
+86.340 95.638
+2.565 2.565
+28.408 26.755
+30.973 29.320
+618 618
+1,947 1.947
+2.565 2.565
+58.269 345
+162.075 168.566
+33.911 28.774
+39.082 36.158
+7.538 14.845
+105.716 95.675
+406.591 344.363
+8.993 5.218
+41.150 -15.3/0
+754 -
+317 227
+3.525 3.143
+3.530 7.127
+58.269 345
+
+opleidingskosten. Vanaf het boekjaar 2021 wordt de ontvangen subsidie afzonderlijk weergegeven onder de omzet.
+
+-16-
+
+UvA minds B.V. te Amsterdam
+
+Huisvestingskosten
+
+Huur kantoorruimte
+Servicekosten
+
+Onderhoud en reparaties
+Onroerende zaakbelasting
+Overige huisvestingskosten
+
+Kantoorkosten
+
+Kantoorbenodigdheden
+Contributies/abonnementen
+Telefoonkosten
+
+Portokosten
+
+Kopieerkosten
+
+Kleine aanschaffingen (<500)
+Drukwerk
+
+Automatiseringskosten
+
+Automatiseringskosten
+
+Verkoopkosten
+
+Zakelijke reis- en verblijfkosten
+Dotatie voorziening dubieuze debiteuren
+Marketingkosten
+
+Algemene kosten
+
+Managementvergoeding
+Accountantskosten
+Administratiekosten
+Advieskosten
+Verzekeringen
+
+Niet aftrekbare BTW
+Bankkosten
+
+Overige algemene kosten
+
+13. Financiële baten en lasten
+
+Rentelasten en soortgelijke kosten
+
+14. Belastingen
+
+De belasting over het resultaat ten bedrage van € 27.032 kan als volgt worden toegelicht:
+
+Resultaat voor belastingen
+
+Vennootschapsbelasting
+
+Het toepasselijke belastingtarief bedraagt over de eerste € 245.000 15,0% (2020: 16,5%
+
+25,0%) vennootschapsbelasting geheven.
+
+2021 2020
+€ €
+
+135.295 133.615
+23.264 29.802
+859 314
+700 1.805
+1.957 3.030
+162.075 168.566
+162.075 168.566
+3.837 6.070
+9.763 3,537
+13.104 13.273
+1.789 1.986
+3.927 3.324
+1.281 416
+210 168
+33.911 28.774
+39.082 36.158
+36 7,253
+6.842 7.352
+660 240
+7.538 14.845
+36.826 34.110
+12.117 12.422
+4.247 5.020
+2.868 400
+5.539 4,518
+41.171 39.788
+1.794 590
+1.154 -1.173
+105.716 95.675
+-3,854 -2,533
+180.677 320.206
+-27.032 -63,632
+
+) en over het meerdere wordt 25,0% (2020:
+
+-17-
+
+UvA minds B.V. te Amsterdam
+
+6 OVERIGE TOELICHTING
+Bestemming van het resultaat over het boekjaar 2020
+
+De jaarrekening 2020 is vastgesteld in de algemene vergadering gehouden op 11 juli 2021. De algemene vergadering heeft de
+bestemming van het resultaat vastgesteld conform het daartoe gedane voorstel.
+
+Bestemming van de winst 2021
+
+Het resultaat is niet verdeeld maar opgenomen onder de post onverdeelde winst.
+Informatieverschaffing over bijzondere posten
+
+Personeelsleden
+
+Bij de vennootschap waren in 2021 gemiddeld 23 personeelsleden werkzaam, berekend op fulltimebasis (2020: 24).
+Ondertekening van de jaarrekening
+
+Amsterdam, 17 februari 2022
+
+Directie voor akkoord Raad van commissarissen voor akkoord
+
+UvA minds B.V.
+Namens deze,
+
+dr. El. de Bruin dr. G. Kaste 4 k
+
+J | 5 dr. M.J.P.M. Verbraak
+ama
+
+=18e

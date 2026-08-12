@@ -165,9 +165,25 @@ def alle_organisaties(boekjaar: int, pauze: float = PAUZE_SECONDEN) -> list[dict
 
 
 def heeft_verklaring(organisatie: dict) -> bool:
+    """Heeft deze organisatie een gedeponeerde accountantsverklaring?
+
+    Via `alle_documenten` en niet via `organisatie["documents"]`, om dezelfde
+    reden als daar beschreven: bij een deel van de organisaties hangen de
+    stukken onder `locations[].documents` in plaats van op het topniveau.
+
+    Dat dit filter dat níét deed was een stil lek. `verklaringen()` hieronder
+    keek al wél overal (regel 103), maar wie hier afvalt komt nooit bij die
+    functie langs: `doelpopulatie()` bepaalt met deze test wie er überhaupt
+    gelezen wordt. Een organisatie die haar verklaring onder een vestiging hangt
+    gold dus als "niets gedeponeerd" en werd overgeslagen — terwijl de lader
+    haar verklaring prima had kunnen lezen als ze op de lijst had gestaan.
+
+    De twee functies horen hetzelfde te zien; anders filtert de voorselectie
+    strenger dan de lezer die erachter staat.
+    """
     return any(
         VERKLARING_TYPE in (document.get("type") or "").lower()
-        for document in (organisatie.get("documents") or [])
+        for document in alle_documenten(organisatie)
     )
 
 
@@ -180,6 +196,31 @@ def doelpopulatie(boekjaar: int, cache: Path | None = None) -> list[dict]:
     Dat blijkt pas uit de pdf, en dat is precies wat de lader er daarna uit
     haalt. Hier filteren we dus ruimer dan de dataset deed; wat geen
     controleverklaring blijkt, valt verderop af.
+
+    Waarom er niet nóg ruimer wordt gefilterd
+    -----------------------------------------
+    De verleiding is om iedereen te lezen die íéts heeft gedeponeerd, want
+    `verklaringen()` pakt ook een jaarrekening op en daar staat de
+    controleverklaring vrijwel altijd in als laatste hoofdstuk. Dat is
+    nagemeten op boekjaar 2022 (11-8-2026, telling over alle zesentwintig
+    letterzoekopdrachten):
+
+        5.688  organisaties in het archief
+        2.028  met een document van het type accountantsverklaring  <- deze lijst
+        5.682  als een jaarrekening óók zou meetellen
+
+    Die 3.654 erbij zijn géén gemiste controles. De jaardataset zegt voor
+    boekjaar 2023 (zie de docstring van digimv_dataset.py) dat van 6.131
+    organisaties er 2.159 enige verklaring deponeerden en 4.389 helemaal niets
+    — en het aantal mét controleverklaring was 1.010. De 2.028 hierboven komt
+    dus ongeveer overeen met "enige verklaring", en de rest is de groep die
+    niets deponeerde en alleen een jaarrekening in het archief heeft staan.
+    Meestal een samenstelling of een beoordeling: onder de controlegrens.
+
+    Ruimer filteren kost dus ongeveer 3.654 extra pdf-downloads per boekjaar —
+    bij vierentwintig seconden per stuk zo'n vierentwintig uur kloktijd — voor
+    een restje. Niet doen zonder eerst een steekproef die het tegendeel laat
+    zien.
     """
     pad = cache / f"archiefpopulatie_{boekjaar}.csv" if cache else None
     if pad is not None and pad.exists():

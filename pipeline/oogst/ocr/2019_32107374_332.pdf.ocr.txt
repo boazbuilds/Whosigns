@@ -1,0 +1,994 @@
+# whosigns-ocr v1 grootte=4541045 dpi=300 paginas=20
+Centraalzorg B.V.
+
+5.1.14 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+ENKELVOUDIGE JAARREKENING
+
+5.1.14.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+De baten en lasten worden toegerekend aan de periode waarop deze betrekking hebben, uitgaande
+van historische kosten. Verliezen worden verantwoord als deze voorzienbaar zijn; baten worden
+verantwoord als deze gerealiseerd zijn.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar
+zijn geconstateerd, worden aan dit boekjaar toegerekend.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer
+het bedrag van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te
+ontvangen vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht
+betrouwbaar kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog
+moeten worden gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden
+bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan
+worden bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening
+die worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten
+zijn verantwoord.
+
+Personele kosten
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers.
+
+Pensioenen
+
+Centraalzorg B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in
+aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen
+dat is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen
+heeft opgebouwd bij Centraalzorg B.V. De verplichtingen, welke voortvloeien uit deze rechten van haar
+personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. Centraalzorg B.V.
+betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft door de
+werknemer.
+
+Financiële baten en lasten
+De financiële baten en lasten betreffen ontvangen (te ontvangen) en betaalde (te betalen) interest.
+
+TA 5 Ape Ì Ee en en
+IJE ZLOTDARECOUNKANLS
+
+Beconnummer: 184640
+
+Centraalzorg B.V. te Leusden
+
+Centraalzorg B.V.
+
+5.1.14 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+ENKELVOUDIGE JAARREKENING
+
+Overheidssubsidies
+
+Overheidssubsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra er
+redelijke zekerheid bestaat dat zij zullen worden ontvangen en dat de groep zal voldoen aan de
+daaraan verbonden voorwaarden.
+
+5.1.4.4 Grondslagen van segmentering
+
+In de jaarrekening wordt overeenkomstig de Richtlijn Zorginstellingen een segmentatie van de
+resultatenrekening gemaakt in de volgende segmenten Wlz/Zvw en WMO.
+
+Bij de verdeling van de resultatenrekening per operationele segment is aangesloten op de activiteiten
+van het bedrijfsproces. De verdeling van indirecte kosten over de te onderscheiden zorgsoorten
+geschiedt op basis van de werkelijke kostenverdeling.
+
+Centraalzorg B.V. te Leusden
+
+10
+
+Centraalzorg B.V.
+
+5.1.15 TOELICHTING OP DE ENKELVOUDIGE BALANS
+ACTIVA
+
+1. Materiële vaste activa
+31-dec-19 31-dec-18
+
+De specificatie is als volgt: € €
+Bedrijfsgebouwen en terreinen 18.066 22.682
+Machines en installaties 34.876 42.863
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 40.572 12.358
+Totaal materiële vaste activa 93.514 71.903
+Het verloop van de materiële activa in het verslagjaar is als volgt weer 2019 2018
+te geven: € €
+Boekwaarde per 1 januari 77.903 42.613
+Bij: investeringen 54.958 58.260
+Af: afschrijvingen 32.153 14.734
+Af: bijzondere waardeverminderingen 0 8.236
+Boekwaarde per 31 december 93.514 77.903
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt
+verwezen naar het mutatieoverzicht onder 5.1.16.
+
+2. Vorderingen uit hoofde van financieringstekort en schulden uit hoofde van
+financieringsoverschot AWBZ / WLZ
+
+t/m 2016 2017 2018 2019 totaal
+
+€ € € € €
+
+Saldo per 1 januari 124.242 0 0 124.242
+
+Financieringsverschil 168.310
+
+boekjaar -8.475 4.754 41.930 130.101
+
+Correcties voorgaande jaren -39.012
+-39.012 0 0
+
+Betalingen/ontvangsten -123.439
+-76.755 -4.754 -41.930
+
+Subtotaal mutatie boekjaar -124.242 0 0 130.101 5.859
+
+Saldo per 31 december 0 0 0 130.101 130.101
+
+Stadium van vaststelling (per erkenning):
+fe c
+
+Centraalzorg B.V. te Leusden
+
+Centraalzorg B.V.
+
+5.1.15 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+a= interne berekening
+b= overeenstemming met zorgverzekeraars
+c= definitieve vaststelling NZa
+
+31-dec-19 31-dec-18
+€ €
+Waarvan gepresenteerd als:
+- vorderingen uit hoofde van financieringstekort 130.101 41.930
+- schulden uit hoofde van financieringsoverschot 0 0
+130.101 41.930
+Specificatie financieringsverschil in het boekjaar 31-dec-19 31-dec-18
+€ €
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies) 598.279 235.402
+Af: vergoedingen ter dekking van het wettelijk budget 468.178 193.472
+Totaal financieringsverschil 130.101 41.930
+3. Debiteuren en overige vorderingen
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+Vorderingen op debiteuren Wmo/Zvw 92.726 243.496
+Vennootschapsbelasting 3.197 25.031
+Nog te factureren VW/mo/Zvw 490.443 566.063
+Nog te ontvangen subsidie 0 5.353
+Overige overlopende activa en vooruitbetaalde kosten 4.991 1.113
+Totaal debiteuren en overige vorderingen 591.357 841.056
+4. Liquide middelen
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+Bankrekeningen 36.025 100.853
+Kassen 895 3.503
+Totaal liquide middelen 36.920 104.356
+Toelichting:
+De liquide middelen zijn vrij beschikbaar.
+De zorgAccounten:s
+
+Centraalzorg B.V. te Leusden
+
+
+Centraalzorg B.V.
+
+5.1.15 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+PASSIVA
+
+5. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Kapitaal
+Bestemmingsfondsen
+Algemene en overige reserves
+
+Totaal eigen vermogen
+
+Kapitaal
+
+Het verloop is als volgt weer te geven:
+
+Kapitaal
+
+Totaal kapitaal
+
+Bestemmingsfondsen
+
+Het verloop is als volgt weer te geven:
+
+Bestemmingsfondsen:
+Bestemmingsfondsen
+
+Totaal bestemmingsfondsen
+
+Algemene en overige reserves
+
+Het verloop is als volgt weer te geven:
+
+Algemene reserves:
+Algemene en overige reserves:
+
+Totaal algemene en overige reserves
+
+31-dec-19 31-dec-18
+
+€ €
+
+18.000 18.000
+
+26.710 22.105
+
+79.571 41.136
+
+124.281 81.241
+
+Saldo per Resultaat- Overige Saldo per
+
+1-jan-2019 bestemming mutaties 31-dec-2019
+
+€ € € €
+
+18.000 0 0 18.000
+
+18.000 0) 0 18.000
+
+Saldo per Resultaat- Overige Saldo per
+
+1-jan-2019 bestemming mutaties 31-dec-2019
+
+€ € € €
+
+22.105 4.605 0 26.710
+
+22.105 4,605 0 26.710
+
+Saldo per Resultaat- Overige Saldo per
+
+1-jan-2019 bestemming mutaties 31-dec-2019
+
+€ € € €
+
+41.136 38.435 0 79.571
+
+41.136 38.435 e) 79.571
+De Geountants
+
+Centraalzorg B.V. te Leusden
+
+13
+
+Centraalzorg B.V.
+
+5.1.15 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+6. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+Crediteuren 9.447 40.384
+Belastingen en premies sociale verzekeringen 54.764 55.367
+Vennootschapsbelasting 0 0
+Schulden terzake pensioenen 11.981 19.459
+Nog te betalen salarissen 17.448 26.725
+Terugbetalingsverplichtingen zorgverzekeraars 0 31.290
+Terugbetalingsverplichtingen gemeente etc 0 56.940
+Overige schulden:
+Schulden aan groepsmaatschappijen 449.754 541.836
+Vakantiegeld 53.300 56.000
+Vakantiedagen 59.800 48.600
+Reservering eindejaarsuitkering 9.400 5.500
+Overige overlopende passiva 61.717 101.903
+Totaal overige kortlopende schulden 727.611 984.004
+
+7. Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+De vennootschap huurt een bedrijfsruimte gelegen aan de Zuster Prinsstraat 3 te Leusden.
+De jaarlijkse huurverplichting bedraagt circa € 153.000.
+
+De vennootschap huurt een bedrijfsruimte gelegen aan de Davelaak 17a te Leusden.
+De jaarlijkse huurverplichting bedraagt circa € 25.000.
+
+De vennootschap is voor een bedrag van circa € 8.900 per jaar aan operational
+leaseverplichtingen voor personenauto's aangegaan.
+
+De vennootschap maakt deel uit van een fiscale eenheid voor de omzetbelasting met
+Selectzorg B.V. en Legiozorg B.V; op grond daarvan is de vennootschap hoofdelijk
+aansprakelijk voor de belastingschuld van de fiscale eenheid als geheel.
+
+iIJG 4.OTAAAGGOEINKS fas
+
+Centraalzorg B.V. te Leusden
+
+14
+
+Centraalzorg B.V.
+
+5.1.16 ENKELVOUDIG MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Stand per 1 januari 2019
+
+- aanschafwaarde
+
+- cumulatieve herwaarderingen
+- cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2019
+
+Mutaties in het boekjaar
+- investeringen
+- afschrijvingen
+- bijzondere waardeverminderingen
+- desinvesteringen
+aanschafwaarde
+cumulatieve afschrijvingen
+per saldo
+
+Mutaties in boekwaarde (per saldo)
+Stand per 31 december 2019
+
+- aanschafwaarde
+
+- cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2019
+
+Afschrijvingspercentage
+
+Ver- Kantoor Vervoer- Totaal
+bouwingen Inventaris middelen
+€ € € €
+34.175 64.805 35.791 134.771
+0 0 0 0
+11.493 21.942 23.433 56.868
+22.682 42.863 12.358 77.903
+0 10.573 44.385 54.958
+4.616 18.560 8.977 32.153
+0 0 0 0
+0 0 11.300 11.300
+0 (0) 4.106 4.106
+0 0 7.194 7.194
+-4.616 -7.987 28.214 15.611
+34.175 75.378 68.876 178.429
+16.109 40.502 28.304 84.915
+18.066 34.876 40.572 93.514
+5%-20% 20%-50% 20,0%
+Je 4.GÌ rCOuUntans
+
+Centraalzorg B.V. te Leusden
+
+Deconnú
+
+mer
+
+DGA
+
+JUN LAT
+
+ILT HOVEN
+-10 20 800
+
+AARA
+184640
+
+15
+
+Centraalzorg B.V.
+
+5.1.17 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+5.1.17.1 GESEGMENTEERDE ENKELVOUDIGE RESULTATENREKENING OVER 2019
+
+SEGMENT 1 Wlz/Zvw
+
+2019 2018
+€ €
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties Zvw/Wlz 3.827.683 3.480.396
+Subsidies 25.350 0
+Som der bedrijfsopbrengsten 3.853.033 3.480.396
+BEDRIJFSLASTEN:
+Personeelskosten 3.340.692 3.000.880
+Afschrijvingen op immateriële en materiële vaste activa 32.154 14.734
+Bijzondere waardeverminderingen van vaste activa 1.793 8.236
+Overige bedrijfskosten 469.172 514.146
+Som der bedrijfslasten 3.843.811 3.537.996
+BEDRIJFSRESULTAAT 9.222 -57.600
+Financiële baten en lasten -4.619 -32.882
+Vennootschapsbelasting -9.837 10.794
+RESULTAAT BOEKJAAR -5.234 -79.688
+
+Centraalzorg B.V. te Leusden 16
+
+Centraalzorg B.V.
+
+5.1.17 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+5.1.17.1 GESEGMENTEERDE ENKELVOUDIGE RESULTATENREKENING OVER 2019
+
+SEGMENT 2 Wmo
+
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties Wmo
+Som der bedrijfsopbrengsten
+BEDRIJFSLASTEN:
+Personeelskosten
+
+Som der bedrijfslasten
+BEDRIJFSRESULTAAT
+Financiële baten en lasten
+RESULTAAT BOEKJAAR
+RESULTAATBESTEMMING SEGMENT 1 EN 2
+Het resultaat is als volgt verdeeld:
+
+Bestemmingsfonds aanvaardbare kosten
+Algemene / overige reserves
+
+Centraalzorg B.V. te Leusden
+
+2019 2018
+
+€ €
+2.654.710 2.468.592
+2.654.710 2.468.592
+2.606.436 2.426.683
+2.606.436 2.426.683
+48.274 41.909
+
+0 0
+
+48.274 41.909
+2019 2018
+
+€ €
+
+4.605 -1.966
+38.435 -35.813
+43.040 -37.779
+
+\
+
+a
+DECOM kur
+
+Centraalzorg B.V.
+
+5.1.17 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+BATEN
+8. Opbrengsten zorgprestaties (en maatschappelijke ondersteuning)
+2019 2018
+De specificatie is als volgt: € €
+Opbrengsten zorgverzekeringswet (exclusief subsidies) 3.083.000 3.170.745
+Wettelijk budget voor aanvaardbare kosten Wilz-zorg (exclusief
+subsidies) 598.279 309.651
+Opbrengsten WLZ voorgaande jaren 89.253 0
+Opbrengsten Wmo 2.654.710 2.468.592
+Overige zorgprestaties 57.151 0
+Totaal 6.482.393 5.948.988
+9. Subsidies
+2019 2018
+De specificatie is als volgt: € €
+Overige subsidies, waaronder loonkostensubsidies en EU-subsidies 25.350 0
+Totaal 25.350 0
+LASTEN
+10. Personeelskosten
+De specificatie is als volgt: 2019 2018
+€ €
+Lonen en salarissen 1.435.751 1.214.670
+Sociale lasten 228.272 209.066
+Pensioenpremies 111.090 101.517
+Overige personeelskosten 56.523 70.976
+Subtotaal 1.831.636 1.596.229
+Inhuur WMO personeel 1.902.982 1.534.959
+Inhuur ZVW personeel 1.993.573 1.936.889
+Management fee 125.000 125.000
+Personeel niet in loondienst 93.937 234.486
+Totaal personeelskosten 5.947.128 5.427.563
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+33 30
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 33 30
+
+Centraalzorg B.V. te Leusden
+
+Centraalzorg B.V.
+
+5.1.17 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+11. Afschrijvingen op materiële vaste activa
+De specificatie is als volgt:
+
+Afschrijvingen:
+- materiële vaste activa
+
+Totaal afschrijvingen
+
+21. Bijzondere waardeverminderingen van vaste activa
+De specificatie is als volgt:
+
+Bijzondere waardeverminderingen van:
+
+- materiële vaste activa
+
+Totaal
+
+12. Overige bedrijfskosten
+
+De specificatie is als volgt:
+Voedingsmiddelen en hotelmatige kosten
+Algemene kosten
+
+Patiënt- en bewonersgebonden kosten
+Onderhoud en energiekosten
+
+Huur
+
+Totaal overige bedrijfskosten
+
+13. Financiële baten en lasten
+
+De specificatie is als volgt:
+
+Rentebaten
+
+Subtotaal financiële baten
+
+Rentelasten
+
+Rentelasten groepsmaatschappijen
+
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+Centraalzorg B.V. te Leusden
+
+2019 2018
+
+€ €
+
+32.154 14.734
+
+32.154 14.734
+
+2019 2018
+
+€ €
+
+1.793 8.236
+
+1.793 8.236
+
+2019 2018
+
+€ €
+
+2.986 4.713
+
+216.081 223.233
+
+46.969 44.390
+
+28.008 35.270
+
+175.128 206.540
+
+469.172 514.146
+
+2019 2018
+
+€ €
+
+219 0
+
+219 0
+
+0 -13.705
+
+-4.838 -19.177
+
+-4.838 -32.882
+
+-4.619 -32.882
+Crgrccountents
+
+1} EA
+_ sij
+US ZA
+
+\/DILTHOVEN
+
+6-10 20 860
+
+immer 1846409
+
+Centraalzorg B.V.
+
+5.1.17 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+14. Vennootschapsbelasting
+De specificatie is als volgt:
+
+Vennootschapsbelasting
+
+Totaal vennootschapsbelasting
+
+15. Honoraria accountant
+
+De honoraria van de accountant over 2019 zijn als volgt:
+
+1 Controle van de jaarrekening
+
+2 Overige controlewerkzaamheden (w.o. Regeling AO/IC en
+
+3 Fiscale advisering
+4 Niet-controlediensten
+
+Totaal honoraria accountant
+
+16. Transacties met verbonden partijen
+
+2019 2018
+€ €
+9.837 -10.794
+9.837 -10.794
+2019 2018
+€ €
+9.166 18.816
+14.888 10.871
+0 0
+
+0 0
+24.054 29.687
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling,
+haar deelnemingen en hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+De bezoldiging van de bestuurders en toezichthouders die in het kader van de WNT verantwoord
+worden, is opgenomen op de volgende pagina.
+
+Centraalzorg B.V. te Leusden
+
+. ren bren oen Île en
+wats NID bh Dld bk
+
+Posibus 224
+VAE BILTHOVEN
+rel. N2R-10 20 860
+
+Beconnummer: 184640
+
+20
+
+Centraalzorg B.V.
+
+WNT-verantwoording 2019 Centraalzorg BV
+
+De WNT is van toepassing op Centraalzorg BV. Het voor Centraalzorg BV toepasselijke bezoldigingsmaximum is
+
+in 2019 € 130.000 (Klasse II).
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+
+dienstbetrekking vanaf de 13e maand van de functievervulling.
+
+Functiegegevens Voorzitter RVB
+Aanvang en einde functievervulling in 2019 01/01 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0
+Dienstbetrekking? nee
+Bezoldiging
+Beloning plus belastbare onkostenvergoedingen € 125.000,00
+Beloningen betaalbaar op termijn € 0,00
+Subtotaal € 125.000,00
+Individueel toepasselijke bezoldigingsmaximum € 130.000,00
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag Nvt.
+Totale bezoldiging € 125.000,00
+Reden waarom de overschrijding al dan niet is toegestaan N.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling Nvt.
+evens 2018
+bedrag k oene eq
+Functiegegevens Voorzitter RVB
+Aanvang 6 en einde functievervulling in 2018 01/01 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0
+Dienstbetrekking? nee
+Bezoldiging
+Beloning plus belastbare onkostenvergoedingen € 125.000,00
+Beloningen betaalbaar op termijn € 0,00
+Subtotaal € 125.000,00
+Individueel toepasselijke bezoldigingsmaximum € 125.000,00
+Totale bezoldiging € 125.000,00
+
+ENLTHOVEN
+rel. OÌ$-40 20 860
+
+__ rene AQARA
+Seconnummer: 10404
+
+Centraalzorg B.V. te Leusden 21
+
+1c. Toezichthoudende topfunctionarissen
+
+oogend e
+
+Functiegegevens Voorzitter Lid Lid
+Aanvang en einde functievervulling in 2019 01/01 - 31/12 01/01 - 31/12 01/01 - 31/12
+Bezoldiging
+
+Totale bezoldiging € 6.000,00 € 4.000,00 € 4.000,00
+Individueel toepasselijke bezoldigingsmaximum € 20.250,00 € 13.500,00 € 13.500,00
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag N.v.t. Nvt. Nvt.
+Reden waarom de overschrijding al dan niet is toegestaan Nvt. N.v.t. N.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling Nvt. N.v.t. Nvt.
+Gegevens 2018
+
+bedrage oogend e oeve a oote
+
+Functiegegevens Voorzitter Lid Lid
+Aanvang en einde functievervulling in 2018 01/01 - 31/12 01/01 - 31/12 01/01 - 31/12
+Bezoldiging
+
+Totale bezoldiging € 6.000,00 € 4.000,00 € 4.000,00
+Individueel toepasselijke bezoldigingsmaximum € 18.750,00 € 12.500,00 € 12.500,00
+
+Centraalzorg B.V. te Leusden
+
+Centraalzorg B.V.
+
+5.1.18 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Centraalzorg B.V. heeft de jaarrekening 2019 opgemaakt en
+
+vastgesteld in de vergadering van 6 april 2020.
+
+De raad van toezicht van Centraalzorg B.V. heeft de jaarrekening 2019 goedgekeurd in
+
+de vergadering van 6 april 2020.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+Gebeurtenissen na balansdatum
+Er zijn geen gebeurtenissen na balansdatum.
+
+Ondertekening door bestuurders en toezichthouders
+
+De Raad van Bestuur
+
+W.H. Groeneweg
+
+De Raad van Toezicht
+
+J.C. Hoogendijk
+
+G. Elferink ten Hoeve
+
+K.M. van Slooten
+
+De Zorafiscountents
+
+dad TV
+
+NT HOVEN
+20 860
+
+EN NEE se 4QARAN
+DeECenhUmiTei 184640
+
+Centraalzorg B.V. te Leusden 23
+
+Centraalzorg B.V.
+
+5.2 OVERIGE GEGEVENS
+
+Centraalzorg B.V. te Leusden
+
+24
+
+Centraalzorg B.V.
+
+5.2 OVERIGE GEGEVENS
+5.2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 21, dat het behaalde resultaat ter vrije beschikking staat
+van de algemene vergadering.
+
+5.2.2 Nevenvestigingen
+Centraalzorg B.V. heeft geen nevenvestigingen.
+5.2.3 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina.
+
+Centraalzorg B.V. te Leusden
+
+25
+
+lezorgaccountants.n!
+
+de ZORG
+ACCOUNTANTS RC
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan de Raad van Toezicht en het bestuur van
+Centraalzorg B.V.
+
+Davelaak 17a
+
+3831 PA LEUSDEN
+
+A. Verklaring over de in het jaarverslag opgenomen jaarrekening 2019
+
+Ons oordeel
+Wij hebben de jaarrekening 2019 van Centraalzorg B.V. te Leusden gecontroleerd.
+
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening een getrouw beeld
+van de grootte en de samenstelling van het vermogen van Centraalzorg B.V. per 31
+december 2019 en van het resultaat over 2019 in overeenstemming met de Regeling
+verslaggeving WTZi (RvW) en Titel 9 Boek 2 van het in Nederland geldende Burgerlijk
+Wetboek (BW).
+
+De jaarrekening bestaat uit:
+
+de balans per 31 december 2019;
+
+de resultatenrekening over 2019;
+
+het kasstroomoverzicht;
+
+de grondslagen van waardering en resultaatbepaling:
+de toelichting op de balans per 31 december 2019;
+mutatieoverzicht materiele vaste activa:
+
+toelichting op de resultatenrekening over 2019.
+
+Auw
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de
+Nederlandse controlestandaarden en het Controleprotocol Wet normering topinkomens
+(WNT) 2019 vallen. Onze verantwoordelijkheden op grond hiervan zijn beschreven in de
+sectie 'Onze verantwoordelijkheden voor de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Centraalzorg B.V. zoals vereist in de Verordening inzake de
+onafhankelijkheid van accountants bij assurance-opdrachten (ViO) en andere voor de
+opdracht relevante onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan
+aan de Verordening gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als
+basis voor ons oordeel.
+
+Lid van
+
+Arnhem, Groningen Á Soestdijkseweg Zuid 179 Postbus 224 1 www.dezorgaccountants.nl ED
+KVK 30211213 te Utrecht 3721 AB Bilthoven 3720 AE Bilthoven T 088-1020800 E bilthoven@dezorgaccountants.nl SRA
+
+
+ACCOUNTANTS
+
+de ZORG
+
+B. Verklaring over de in het jaardocument opgenomen andere informatie
+
+Naast de jaarrekening en onze controleverklaring daarbij, omvat het jaarverslag andere
+informatie, die bestaat uit:
+
+-__de overige gegevens.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere
+informatie met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat.
+
+Alle informatie bevat die op grond van Titel 9 Boek 2 BW is vereist.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons
+begrip, verkregen vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere
+informatie materiële afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten van Titel 9 Boek 2 BW
+en de Nederlandse Standaard 720. Deze werkzaamheden hebben niet dezelfde diepgang
+als onze controlewerkzaamheden bij de jaarrekening.
+
+Het bestuur is verantwoordelijk voor het opstellen van de andere informatie, waaronder
+het bestuursverslag en de overige gegevens in overeenstemming met Titel 9 Boek 2 BW.
+
+C. Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+
+Verantwoordelijkheden van het bestuur voor de jaarrekening
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de
+jaarrekening in overeenstemming met de RvW en Titel 9 Boek 2 BW. In dit kader is het
+bestuur verantwoordelijk voor een zodanige interne beheersing die het bestuur
+noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken zonder
+afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de organisatie in staat
+is om haar werkzaamheden in continuïteit voort te zetten. Op grond van genoemd
+verslaggevingsstelsel moet het bestuur de jaarrekening opmaken op basis van de
+continuïteitsveronderstelling, tenzij het bestuur het voornemen heeft om de organisatie te
+liquideren of de activiteiten te beëindigen of als beëindiging het enige realistische
+alternatief is.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht
+dat wij daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons
+af te geven oordeel.
+
+Lid van
+
+5
+SRA
+
+
+ACCOUNTANTS
+
+de ZORG
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid
+waardoor het mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude
+ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien
+redelijkerwijs kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed
+kunnen zijn op de economische beslissingen die gebruikers op basis van deze
+jaarrekening nemen. De materialiteit beïnvloedt de aard, timing en omvang van onze
+controlewerkzaamheden en de evaluatie van het effect van onderkende afwijkingen op
+ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar
+relevant professionele oordeelsvorming toegepast in overeenstemming met de
+Nederlandse controlestandaarden, ethische voorschriften en de onafhankelijkheidseisen.
+
+Onze controle bestond onder andere uit:
+
+- het identificeren en inschatten van de risico’s dat de jaarrekening afwijkingen van
+materieel belang bevat als gevolg van fouten of fraude, het in reactie op deze risico's
+bepalen en uitvoeren van controlewerkzaamheden en het verkrijgen van controle-
+informatie die voldoende en geschikt is als basis voor ons oordeel. Bij fraude is het
+risico dat een afwijking van materieel belang niet ontdekt wordt groter dan bij fouten.
+Bij fraude kan sprake zijn van samenspanning, valsheid in geschrifte, het opzettelijk
+nalaten transacties vast te leggen, het opzettelijk verkeerd voorstellen van zaken of het
+doorbreken van de interne beheersing:
+
+-_het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met
+als doel controlewerkzaamheden te selecteren die passend zijn in de omstandigheden.
+Deze werkzaamheden hebben niet als doel om een oordeel uit te spreken over de
+effectiviteit van de interne beheersing van de stichting;
+
+- het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren van de redelijkheid van schattingen door het bestuur
+en de toelichtingen die daarover in de jaarrekening staan:
+
+-_ het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toelichtingen; en
+
+-_ het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende
+transacties en gebeurtenissen.
+
+Bilthoven, 22 april 2020
+Dé ZorgAeoúhtants untanis
+Posibus 224
+
+Was getekend 5
+EIA BILTHOVEN
+
+fel. C88-10 20 8
+\ Lid van
+
+Beconnummer: 1e
+Drs. E.J.W. van Hamersve
+
+SRA
+

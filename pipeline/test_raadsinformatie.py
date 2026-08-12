@@ -12,10 +12,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 import raadsinformatie as ori  # noqa: E402
 
 fouten = 0
+gedaan = 0
 
 
 def controleer(omschrijving: str, goed: bool, detail: str = "") -> None:
-    global fouten
+    global fouten, gedaan
+    gedaan += 1
     fouten += not goed
     print(f"{'✓' if goed else '✗'} {omschrijving}")
     if not goed and detail:
@@ -89,6 +91,35 @@ controleer(
     "Flynth" in tweede_venster,
 )
 
+# --- dezelfde verklaring twee keer in één bundel -----------------------------
+#
+# Een raadsbundel noemt de jaarrekening vaak eerst in de aanbiedingsbrief en dan
+# nog eens in de bijgevoegde verklaring zelf. Beide keren staat dezelfde zin, dus
+# het is één verklaring — maar wélke van de twee je houdt maakt uit. Het venster
+# van elke vermelding loopt tot aan de volgende, dus dat van de eerste eindigt
+# precies waar de échte verklaring begint: vlák vóór het handtekeningblok. Wie de
+# eerste houdt, houdt de vermelding zonder handtekening over.
+HERHALING = (
+    "Aanbiedingsbrief aan de raad\n"
+    "Wij hebben de jaarrekening 2019 van de gemeente Testdorp gecontroleerd.\n"
+    + "vulling " * 60
+    + "Bijlage 3: controleverklaring van de onafhankelijke accountant\n"
+    "Wij hebben de jaarrekening 2019 van de gemeente Testdorp gecontroleerd.\n"
+    + "vulling " * 120
+    + "Utrecht, 3 juni 2020 Deloitte Accountants B.V. was getekend\n"
+)
+uit = ori.verklaringen_uit(HERHALING)
+controleer(
+    "een herhaalde verklaring levert één regel op",
+    len(uit) == 1 and uit[0]["boekjaar"] == 2019,
+    f"gevonden: {[(v['organisatie'], v['boekjaar']) for v in uit]}",
+)
+controleer(
+    "en dat is de vermelding mét het handtekeningblok in het venster",
+    uit and "Deloitte" in HERHALING[uit[0]["venster"][0] : uit[0]["venster"][1]],
+    "het venster van de gekozen vermelding houdt op vóór de handtekening",
+)
+
 # --- een onmogelijk jaartal -------------------------------------------------
 controleer(
     "een jaarrekening over 2077 bestaat niet",
@@ -136,12 +167,187 @@ controleer(
     != ori.matchsleutel("Veiligheidsregio Flevoland"),
 )
 
+# --- de plaats hoort niet bij de identiteit ----------------------------------
+#
+# Gemeten over de volle oogst (8-8-2026, 1.970 namen): de standaardzin schrijft
+# de vestigingsplaats soms wél en soms niet achter de naam, en dan staat één
+# regeling twee keer in de database. Deze vier schrijfwijzen komen letterlijk uit
+# de bron. Samen met de verdubbelingen hieronder voegden ze 21 namen samen tot
+# 14 organisaties — zonder één verkeerde samenvoeging.
+for links, rechts in [
+    ("Gemeenschappelijke Regeling Cocensus",
+     "Gemeenschappelijke Regeling Cocensus, te Hoofddorp"),
+    ("Recreatieschap Hitland",
+     "Recreatieschap Hitland te Nieuwerkerk aan den IJssel"),
+    ("Stichting Openbaar Primair Onderwijs Wolderwijs",
+     "Stichting openbaar primair onderwijs Wolderwijs te gemeente De Wolden"),
+    ("Stichting Openbaar Basisonderwijs West-Brabant",
+     "Stichting Openbaar Basisonderwijs West-Brabant, gevestigd te Roosendaal"),
+    # En zonder spatie ervóór: de staart plakt in de pdf-tekst soms direct
+    # achter de afkorting tussen haakjes. Allebei letterlijk uit de database
+    # (organisaties 23962 en 25601), waar ze náást de versie zonder plaatsnaam
+    # stonden.
+    ("Gemeenschappelijke regeling Openbaar Lichaam Crematoria Twente (OLCT)",
+     "Gemeenschappelijke regeling Openbaar Lichaam Crematoria Twente (OLCT)te Enschede"),
+    ("Waterschap Amstel, Gooi en Vecht (AGV)",
+     "Waterschap Amstel, Gooi en Vecht (AGV)te Amsterdam"),
+]:
+    controleer(
+        f"plaats achteraan telt niet mee: {rechts[:44]!r}",
+        ori.matchsleutel(links) == ori.matchsleutel(rechts),
+        f"{ori.matchsleutel(links)!r} != {ori.matchsleutel(rechts)!r}",
+    )
+
+# Een per ongeluk verdubbeld eerste woord — komt uit de aanhef die aan de naam
+# vastplakt ("Aan het bestuur van Stichting …" gevolgd door "Stichting …").
+for links, rechts in [
+    ("Gemeente De Ronde Venen", "Gemeente Gemeente De Ronde Venen"),
+    ("Stichting Openbaar Onderwijs Rijn- en Heuvelland",
+     "Stichting Stichting Openbaar Onderwijs Rijn- en Heuvelland"),
+]:
+    controleer(
+        f"verdubbeld eerste woord: {rechts[:44]!r}",
+        ori.matchsleutel(links) == ori.matchsleutel(rechts),
+        f"{ori.matchsleutel(links)!r} != {ori.matchsleutel(rechts)!r}",
+    )
+
+# --- en wat de sleutel absoluut niet mag doen --------------------------------
+#
+# De verleiding is om ook "gemeente", "provincie" en "gemeenschappelijke
+# regeling" weg te strepen — het lijkt dezelfde soort opschoning. Dat is het
+# niet: die woorden zíjn de identiteit. Zonder die rem vielen bij de meting
+# Gemeente Utrecht en Provincie Utrecht samen, en Gemeente Groningen en
+# Provincie Groningen ook. Vier echte, verschillende gecontroleerde partijen.
+#
+# Hetzelfde geldt voor één letter verschil: dat is precies wat EMCO-groep van
+# Felua-groep onderscheidt. Daarom blijft tekstschade uit de pdf
+# ("Gemeenschappeiijke", "I]ssel", "Gelderand") een aparte organisatie — liever
+# een gesplitste geschiedenis dan twee samengevoegde regelingen.
+for omschrijving, links, rechts in [
+    ("gemeente is geen provincie", "Gemeente Utrecht", "Provincie Utrecht"),
+    ("gemeente is geen provincie", "Gemeente Groningen", "Provincie Groningen"),
+    ("één letter scheidt twee regelingen",
+     "Gemeenschappelijke Regeling EMCO-groep",
+     "Gemeenschappelijke Regeling Felua-groep"),
+    ("tekstschade wordt niet stilletjes samengevoegd",
+     "Gemeenschappelijke Regeling Senzer",
+     "Gemeenschappeiijke Regeling Senzer"),
+]:
+    controleer(
+        f"{omschrijving}: {links!r} != {rechts!r}",
+        ori.matchsleutel(links) != ori.matchsleutel(rechts),
+        f"beide -> {ori.matchsleutel(links)!r}",
+    )
+
+# En de plaatsregel mag geen naam aanvreten die toevallig zo eindigt.
+controleer(
+    "'Regio Twente' verliest zijn naam niet",
+    ori.matchsleutel("Regio Twente") == "regiotwente"
+    and ori.matchsleutel("Waterschap Aa en Maas") == "waterschapaaenmaas",
+    f"{ori.matchsleutel('Regio Twente')!r} / "
+    f"{ori.matchsleutel('Waterschap Aa en Maas')!r}",
+)
+
 # --- de tekst kan als lijst binnenkomen --------------------------------------
 controleer(
     "tekst per pagina wordt samengevoegd",
     ori._plat(["eerste", "tweede"]) == "eerste\ntweede" and ori._plat(None) == "",
 )
 
-totaal = 7 + len(PAREN) + 3
-print(f"\n{totaal - fouten}/{totaal} goed")
+# --- de naam mag niet over een kop heen lopen --------------------------------
+#
+# Den Haag zet "Ons oordeel" als kopje boven de verklaring, en de regel ervóór
+# noemt de jaarrekening al. De naam liep dan door tot voorbij dat kopje en er
+# ontstond een tweede, verzonnen "organisatie" naast de echte — mét accountant.
+# Erger nog: die opgerekte match at de goede zin op, dus Den Haag raakte het jaar
+# helemaal kwijt. Op 4.000 documenten (7-8-2026) gebeurde dat 26 keer.
+DEN_HAAG = (
+    "JAARREKENING 2016 VAN DE GEMEENTE DEN HAAG\n"
+    "Controleverklaring van de onafhankelijke accountant\n"
+    "Ons oordeel\n"
+    "Wij hebben de jaarrekening 2016 van de gemeente Den Haag gecontroleerd.\n"
+)
+uit = ori.verklaringen_uit(DEN_HAAG)
+controleer(
+    "de naam stopt bij de kop, en de échte zin wordt alsnog gevonden",
+    len(uit) == 1 and uit[0]["organisatie"] == "Gemeente Den Haag"
+    and uit[0]["boekjaar"] == 2016,
+    f"gevonden: {[(v['organisatie'], v['boekjaar']) for v in uit]}",
+)
+
+# --- een tussenzin over de reikwijdte ----------------------------------------
+#
+# Deze drie schrijfwijzen staan letterlijk in de bron en vielen allemaal weg
+# omdat er iets tussen het jaartal en "van" stond.
+for omschrijving, zin, verwacht in [
+    (
+        "(inclusief erratum)",
+        "Wij hebben de jaarrekening 2020 (inclusief erratum) van de gemeente "
+        "Renkum gecontroleerd.",
+        "Gemeente Renkum",
+    ),
+    (
+        "inclusief de SISA bijlage",
+        "Wij hebben de jaarrekening 2016 inclusief de SISA bijlage (bijlage 7.1) "
+        "van de Gemeenschappelijke Regeling Veiligheidsregio Zeeland gecontroleerd.",
+        "Gemeenschappelijke Regeling Veiligheidsregio Zeeland",
+    ),
+    (
+        "en de daarbij behorende bijlagen",
+        "Wij hebben de jaarrekening 2014 en de daarbij behorende bijlagen van de "
+        "gemeente Eindhoven gecontroleerd.",
+        "Gemeente Eindhoven",
+    ),
+]:
+    uit = ori.verklaringen_uit(zin)
+    controleer(
+        f"tussenzin: {omschrijving}",
+        len(uit) == 1 and uit[0]["organisatie"] == verwacht,
+        f"gevonden: {[v['organisatie'] for v in uit]}",
+    )
+
+# --- en wat de tussenzin níét mag doen ---------------------------------------
+#
+# De keerzijde, en die is scherper dan hij lijkt: Nederlandse organisatienamen
+# zitten vol "van". Met een vrij gat tussen jaartal en "van" sloeg de zoeker het
+# échte "van" over en haakte hij aan het "van" binnenín de naam. Dat halveerde
+# 113 namen op 4.000 documenten: "Vereniging van Nederlandse Gemeenten" werd
+# "Nederlandse Gemeenten" en "Regio Hart van Brabant" werd "Brabant". Een naam
+# die stilletjes de helft mist is erger dan een naam die ontbreekt.
+for omschrijving, zin, verwacht in [
+    (
+        "een naam mét 'van' erin blijft heel",
+        "Wij hebben de jaarrekening 2021 van de Vereniging van Nederlandse "
+        "Gemeenten gecontroleerd.",
+        "Vereniging van Nederlandse Gemeenten",
+    ),
+    (
+        "ook als de naam midden in een 'van' zit",
+        "Wij hebben de jaarrekening 2022 van de Gemeenschappelijke Regeling Regio "
+        "Hart van Brabant gecontroleerd.",
+        "Gemeenschappelijke Regeling Regio Hart van Brabant",
+    ),
+]:
+    uit = ori.verklaringen_uit(zin)
+    controleer(
+        omschrijving,
+        len(uit) == 1 and uit[0]["organisatie"] == verwacht,
+        f"gevonden: {[v['organisatie'] for v in uit]}",
+    )
+
+# Een ándere zin over dezelfde jaarrekening is geen ondertekende verklaring. Met
+# een vrij gat leverden deze twee "het bestuur" en "GR-bestuur" op als
+# organisatie — allebei bestaan niet.
+for omschrijving, zin in [
+    ("opgesteld onder verantwoordelijkheid van het bestuur",
+     "De jaarrekening 2019 is opgesteld onder verantwoordelijkheid van het "
+     "bestuur en wordt door ons gecontroleerd."),
+    ("in opdracht van het GR-bestuur",
+     "De jaarrekening 2020 wordt net als in voorgaande jaren in opdracht van het "
+     "GR-bestuur gecontroleerd."),
+]:
+    uit = ori.verklaringen_uit(zin)
+    controleer(f"geen verklaring: {omschrijving}", uit == [], f"gevonden: {uit}")
+
+print(f"\n{gedaan - fouten}/{gedaan} goed")
 raise SystemExit(1 if fouten else 0)

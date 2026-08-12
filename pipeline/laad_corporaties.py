@@ -175,7 +175,17 @@ def main() -> int:
             # Een corporatie is controleplichtig; een kantoor zonder vergunning mág die
             # controle dus niet doen. Komt dat voor, dan is er iets aan de hand en
             # noemen we het niet wettelijk.
-            type_opdracht = "wettelijke_controle" if wta else "vrijwillige_controle"
+            #
+            # Eén uitzondering, en die is nodig: een kantoor waarvan de vergunning
+            # ís vervallen — door een fusie of doordat hij is teruggegeven — stond
+            # destijds wél in het register en tekende dus bevoegd. `wta_vergunning`
+            # staat in de tegenwoordige tijd en blijft daarom onwaar. Zonder deze
+            # regel kregen vijftien corporaties die accon avm liet controleren de
+            # stempel "vrijwillige controle", en dat is niet alleen onjuist maar
+            # leest ook als een misstand die er nooit was. Zie `wta_vervallen` in
+            # seed/kantoren_overig.csv, waar per kantoor staat waaróm en wanneer.
+            bevoegd = wta or bool(kantoor and kantoor.get("wta_ooit"))
+            type_opdracht = "wettelijke_controle" if bevoegd else "vrijwillige_controle"
             if not rij["kvk_nummer"]:
                 status = "geen_kvk"
             telling[status] += 1
@@ -184,7 +194,11 @@ def main() -> int:
             schrijver.writerow([
                 rij["kvk_nummer"], rij["naam"], rij["gemeente"], boekjaar, status,
                 rij["accountant_ruw"], kantoor["naam"] if kantoor else "",
-                "ja" if wta else ("nee" if kantoor else ""),
+                # Drie standen en niet twee: "vervallen" verklaart waarom hier
+                # een wettelijke controle staat bij een kantoor dat vandaag geen
+                # vergunning heeft. Met alleen ja/nee zou die rij eruitzien als
+                # een fout in de lader.
+                "ja" if wta else ("vervallen" if bevoegd else ("nee" if kantoor else "")),
                 type_opdracht if kantoor else "",
             ])
 

@@ -1,0 +1,809 @@
+# whosigns-ocr v1 grootte=2940214 dpi=300 paginas=20
+2. Juistheid productie
+
+Pro-Vision Accountants
+
+Toetsingscriterium
+
+Bevindingen en niet-gecorrigeerde afwijkingen
+
+2.1 Aanwezigheid geldige toewijzing en indien
+nodig verwijzing van huisarts, medisch
+specialist of jeugdarts.
+
+Waarborging van dit toetsingscritertum is admimi-
+stratief georganiseerd via het [SO-gecertificeerde
+zorgpakket ZorgAdmin en de gemeentelijke soft-
+ware Zorgportaal, waarin registratie van de
+aanwezigheid van een Zorgtoewijzing software-
+matig verplicht is.
+
+Conform de verplichte controle-aanpak (artikel
+3.8.1 van het accountantsprotocol) hebhen wij ons
+ten eerste gericht op de AO/IC en de daaraan ten
+grondslag liggende processen. Ten tweede hebben
+wij vanuit de aan de productieverantwoording ten
+grondslag liggende geanonimiseerde overzichten
+steekproeven verricht op de aanwezigheid van
+geldige toewijzingen.
+
+2.2 De verantwoorde productie is op cliëntniveau
+niet hoger dan het, maximum aan toegewezen
+zorg.
+
+Waarborging van dit toetsingscriterium is software-
+matig georganiseerd via het 1SO-gecertificeerde
+zorgpakket ZorgAdmin en de gemeentelijke soft-
+ware Zorgportaal, waarin de zorgverantwoording op
+cliëntniveau gemaximeerd is doordat de declaraties
+via JW303 getoetst worden aan de toewijzing
+JW301.
+
+2.3 Het verantwoorde product komt overeen met
+het toegewezen product dan wel is volgens
+overeengekomen conversieregels afgeleid van
+het toegewezen product.
+
+Conform het gestelde bij toetsingscriterium 2.1 en
+2.2.
+
+2.4 De productie is verantwoord aan de juiste
+
+gemeente.
+
+Dit is gewaarborgd doordat gemeenten uitsluitend
+facturatie accepteren van door henzelf afgegeven
+Zorgtoewijzingen. De gemeentelijke software Zorg-
+portaal controleert het woonplaatsbeginsel.
+
+Conform de verplichte controle-aanpak (artikel
+3.10.2 van het accountantsprotocol) geven wij geen
+afzonderlijk oordeel over de financiële productie-
+verantwoording per gemeente.
+
+2.5 Het onderhanden werk is juist berekend.
+
+Niet van toepassing.
+
+2.6 Geen verantwoording van productie die bij
+derden is gedeclareerd (onderaanneming).
+
+Niet van toepassing.
+
+2.7 Onderbouwing van eventueel verantwoorde
+subsidiabele kosten.
+
+Niet van toepassing.
+
+2.8 Juistheid en volledigheid van verantwoorde
+correctie(s).
+
+Niet van toepassing.
+
+3. Juistheid tarief
+
+Toetsingscriterium
+
+Bevindingen en niet-gecorrigeerde afwijkingen
+
+3.1 Het gehanteerde tarief is gelijk aan het tarief
+dat met de gemeente is overeengekomen
+blijkens het afgesloten contract of andere
+documentatie waaruit expliciet blijkt dat de
+gemeente met het gehanteerde tarief akkoord.
+is.
+
+Geen materiële afwijkingen.
+
+blz. 7
+
+
+4. Levering productie
+
+Pro-Vision accountants
+
+Toetsingscriterium
+
+4.1 Algemene uitwerking: In het zorgproces zijn
+beheersmaatregelen getroffen om ervoor te
+zorgen dat de verantwoorde zorg is geleverd.
+De accountant toetst of de zorgaanbieder in het
+zorgproces (in opzet en bestaan) beheersmaat-
+regelen heeft getroffen die moeten borgen dat
+het met de cliënt overeengekomen zorg wordt
+geleverd. De zorgaanbieder kan hier bijvoor-
+beeld invulling aan geven door bij een nieuw/
+gewijzigd zorgaanbod de cliëntgegevens en het
+overeengekomen zorgaanbod op te nemen in de
+planning van zorgmedewerkers en toe te zien
+op de uitvoering van de planning.
+
+Bevindingen en niet-gecorrigeerde afwijkingen
+De opzet van de bedoelde beheersmaatregelen. ligt
+vast in het kwaliteitshandboek. Hieraan wordt
+invulling gegeven door het zorgaanbod op nemen in
+de planning en door toe te zien op de uitvoering
+hiervan.
+
+Geen bevindingen, met inachtneming van het
+gestelde bij toetsingscriterium 2.1.
+
+4.2 Specifieke uitwerking naar soort zorgaanbod:
+
+o Intramuraal gefinancierd zorgaanbod: Hier
+wordt de basis gelegd door de registratie van
+de aanwezigheid of toegestane afwezigheid
+cliënt.
+
+o Extramuraal gefinancierd zorgaanbod: Hier
+wordt de basis gevormd door AO/C rondom
+zorgplanning, -registratie en -declaratie bij de
+zorgaanbieder. De registratie kan de vorm
+hebben van één of meer van de volgende
+varianten:
+
+o directe tijdregistratie op basis van een
+tijdregistratieproces
+
+o registratie van de planning op basis van
+een planningsregistratieproces
+
+o registratie van zorgarrangementen op
+basis van een registratieproces van zorg-
+arrangementen
+
+o Output gefinancierd zorgaanbod: Hier wordt
+de basis gevormd door de registratie van de
+productie/prestaties op basis van een
+registratieproces.
+
+Geen (betreft uitsluitend extramuraal gefinancierd
+zorgaanbod).
+
+Overige aspecten — beperking in verspreidingskring en gebruik
+
+Deze rapportage is uitsluitend bestemd voor Psychologen Praktijk Timmers B.V. en de gemeenten Altena,
+Breda, Drimmelen, Geertruidenberg en Oosterhout, aangezien anderen die niet op de hoogte zijn van het
+doel van onze controleopdracht de resultaten onjuist kunnen interpreteren. Wij verzoeken u derhalve deze
+rapportage niet aan anderen te verstrekken zonder onze uitdrukkelijke toestemming vooraf.
+
+Hoogachtend,
+
+Bijlagen.
+
+blz. 8
+
+
+BIJLAGE I GEWAARMERKTE FINANCIËLE PRODUCTIEVERANTWOORDING JEUGD-
+
+WET OP TOTAALNIVEAU 2020
+
+Voor ons oordeel over de financiële productieverantwoording Jeugdwet op totaalniveau 2020 van Psycho-
+logen Praktijk Timmers B.V. wordt verwezen naar onze controleverklaring en rapport. van bevindingen
+
+d.d. 31 maart 2021.
+
+De totale verantwoording ten behoeve van gemeente Breda en regio West-Brabant Oost luidt als volgt:
+
+Bijlage
+Gemeente
+e Altena MI
+e Breda HI
+e Drimmelen IV
+e Geertruidenberg Vv
+e Oosterhout VI
+
+Totaal gerealiseerde productie
+
+De waarmerking geschiedde als volgt:
+
+Totaalbedrag
+€
+
+34.202,17
+10.128,00
+24.599,80
+198.852,02
+430.874,05
+
+698.656,04
+
+blz. 9
+
+070 JE ‚pp uaAebefje Gulderitan fig puesoyad WEERT Sijs 1808-20-42 ‘weg!
+
+4/7
+
+‚ EEE ___ SiewwLivO
+
+:6uiusnerpueH
+'seeUDMHeJISPUO WEEN
+
+tupurejsopapnesynuep!,
+„00A 3ue3un0I2y BupyJew teem deporgueebsoz
+
+"PlOOM3UeJDA Ss} (OZOE 102030udszueIUN OI Y
+
+ueewebjy ‘Jepeysbuiszeoj Ue -UBWION jeesbesed afz) Jopejuewcu Jay ze BujwwarjsussleA0 UI US PleyJEEM EEU OZOZ JeMPBNar BuIPJOOMJURISABIJIN poud aeIJUEUIJ ep Jep JepalqueeBsoz ap UEA Japinn3ssq ap Heesen
+„0zoz Burpsoomguesenanonpoud e[plJUeUId, JaljnwI0g 3ey UBA BuiusxeHePUO JOOC
+
+Í v0’959°869 3 ejjonposd apseesijeeseB 1VVLOL
+
+v0'959'869 3 \ zempbner
+
+D_______ OtozenonpesdepssosijesssD| ____| _weoonss6uysjsueur,
+
+| ES Ee: EZEL epoa-g9v
+
+[U'sJewwnpdddsawuijerp |lew-3
+
+EREN ECE ____SESLTHLIIO uoojajeL
+
+Í SIBLUUIIL YT Jas uoosJedjaezu0g
+
+EU REEN RE REEL 1ewwnu-HAr,
+
+3noUses00 SJeEId
+
+OZOE-IT-T | wngepelsJen TISH AG SewwulL XfMeld Uebolouyhsd. _ Ween
+RE 1eayegerse A hen je 7 ET Re EE 5 7 Jepeiqueebsoz
+Jeporqueebsoz
+
+OTOz neaaAlujeejo} do Jempbner Buip1oomjuelsnsIjganpouad ejpIueuIg
+
+1Z92-£O0-[E :p:p venobobje buiepden (iq puesoysg TE02-Z0-42 :wnzea
+
+onzoumgop: |
+zor pugfursen | /)
+uorstA-ord Nl
+
+:BuruszeIPpueH
+
+uspujejsopengeoÏjnjuep!
+JOOA 3uezunoaIy Bupjtewieen
+
+7 Japargqueebsoz
+
+a er
+|
+|
+
+|
+
+4
+|
+
+et
+
+rt SET en 5 aS i
+
+1noyJ21500!
+| : EUS: î : B1equapinaHea0 |p
+REE ______ vajewwugie
+Eg Ee __epaugz
+____euouv T
+(u)oiusauesg
+
+Haay Bupjyarzag neaaIujeezo} do Jom pSnar Buipsoomjuesanarjanposd ajpisueuiy doseem uazusa we] 3Y21249A0
+
+BIJLAGE II GEWAARMERKTE FINANCIËLE PRODUCTIEVERANTWOORDING JEUGD-
+WET GEMEENTE ALTENA
+
+Op de financiële productieverantwoording Jeugdwet Gemeente Altena is géén accountantscontrole
+toegepast. Deze financiële productieverantwoording is door ons uitsluitend ter identificatie gewaarmerkt.
+
+De samenvatting van de financiële productieverantwoording Jeugdwet Gemeente Altena luidt als volgt:
+
+Totaalbedrag
+€
+
+Geleverde prestaties Jeugdwet
+e 43 Jeugdhulp verblijf (incl. behandeling) 1.022,40
+e 45 Jeugdhulp Ambulant. 28.051,80
+e 5A Jeugd GGZ 5.127,97
+Totaal gerealiseerde productie 34.202,17
+
+Pro-Vision
+De waarmerking geschiedde als volgt; Uitslui
+iden4Aficatie
+
+blz. 10
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Altena
+
+In dit dt de zo: de g de prestaties de zor verant ing af dient te leggen bij de gemeente:
+geleverde prestaties met als g de Alle op basis van de werkelijke realisatie ingevuld.
+_ r en
+Naam [Atena en _ Psyenoiogen Pram Tinefs”
+nn j DEAN
+Contactpersoon | ‚Plaats ‚Oosterhout _ |
+Telefoon KvK-nummer 18128939 |
+E-mail en ‚Contactpersoon Jeugd DA Ti
+[Telefoon 0162427535 kt |
+‚E-mail ‚datimmers@pptimmers.nl |
+AGB CME {94001779 _ _
+Geleverde prestaties Jeugdwet
+Inkoop order nr: Í
+Code Eenheid Aantal (Q) PrijsinC (P) Realisatie 2020 in €
+verblijf (inci. beh ing)
+mi mn _ Rd ’
+o panni nn AEEASE |_#3A11 etmaat__ es Se =127,80 1.022,40,
+gdhuip verblijf: i ingsgericht (mi )LVB | 43437 | etmaal | 0,00,
+gdhulp verblijf: inspanningsgericht (zwaar) LVB |_43a38 etmaal | te ne 0,00,
+[Jeugdhulp verblijf: inspanningsgericht (extra zwaar) LVB _| 43A39 eumaal If Í 0,00,
+hulp verblijf: inspanni cht 43A07 etmaal | 5 Í 0,00
+|rotaat Jeugdhatp verblijf (incl. elâng) ER 1.022,40}
+Code Eenheid Aantal (Q) PrijsinC (P) Realisatie 2020 in C
+45
+[__4500 gh egutier: inspar icht | _4saas | uwe | 0 45,60| o,o0)
+_4501 | Jeugdhulp ambulant specialistisch: icht {_ 45A05 uur | 117 5 69,60) 8.143,20,
+4502 dhul gulier: i n icht (individueel) ASA48 | uur o lin _ 79,20) 0,00
+jon 4503 el Jeugdhulp ambulant speaatistisch: i icht (# 45A53 uur L _ 199 L __100,04, 19.908,60,
+|_ 4504 Behandeling: t nningsgericht |__45A65 uur Ie ers 67,80) 0,00)
+|_ 4505 _|Jeugdhulp ambulant specialistisch: gericht (gezin/sys _45A56 uur | ea,s0l 0,00)
+Op deze financiële productieverantwoording is géén separate accountantscontrole Waarmerlang accountant bebat
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend En
+ter identificatie gewaarmerkt. Pro- Y Ision
+
+Uitslu
+
+4506 _| outputgericht (middel) 45A46 traject _ 18926,61 0,ool
+_____[Totaal Jeugdhulp Ambutant _ Ee k 28.051,80f
+Code Eenheid Aantal (Q) Prijsin C{P) Realisatie 2020 in €
+54 _ Jeugd GGZ OO .
+|_5490 _|Jeugd-ggz behandeling regulier / generalistisch |_54001 roinuut 3380} 1,52, 5.127,97
+_5401 _|Jeugd-ggz diagnostiek | 54004 | minuut _ | 1,52, 0,00
+|__5462_|Jeugd-gz behandeling specialistisch Er _ 54002 | _mimuut 152 id
+|_5403 _|Jeugd-ggz Verblijf Zonder Overnachti 54007 stuks re 88,74) 0,00)
+‚_5404_|deugd-ggz behandeling hoog-specialistisch 54003 ‚minuut | 00}
+|_5405 _|Jeugd-ggz behandeling specialistisch si 54D01 traject | __1089,56, DE
+|_5406 _[seugd-ggz behandeling specialistisch 54D02 traject 4208,87) nm 0,00
+‚5407 _|Jeugd-ggz verblijf taniefkt, E GGZ 54013 etmaal Ì oe DRAA nt | 0,00 |
+|__5408 _|Jeugd-ggz verblijf tariefklasse F GGZ _ __|_ _ 54014 _ etmaal 0,00,
+|_5 |3eugd-ogz crisis GGZ 54016 | stuks 0,00)
+Er A AR EEE lS AAS Hi
+L Jeugd GGZ KNN en 2 5.127,97}
+56 Financiële satie En Realisatie 2020 in C
+|_s700 [gerealiseerde productie Jeugdwet Herdt & 34.202,17 |
+ú voor lichting in met ig afwijki en onzekerheden
+Door overgang tanef 2019 - 2020 is er in 54001 een klein verschil. De daadwerkelijke declaratie is 5128 en niet 5137,60 een financieel voordeel voor de gerneente
+van €9,60
+|
+|
+|
+Í
+|
+ä voor lichting
+re
+Zorgaanbieder Rapport van bevindingen:
+Naam: D A Timmers OO OO PO JafNee
+Handtekening: Aub. kiezen wat van toepassing #5.
+
+Datum: 27-02-2021
+
+Op deze financiële productieverantwoording is géén separate accountantscantrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+
+BIJLAGEIII GEWAARMERKTE FINANCIËLE PRODUCTIEVERANTWOORDING JEUGD-
+WET GEMEENTE BREDA
+
+Op de financiële productieverantwoording Jeugdwet Gemeente Breda is géén accountantscontrole
+toegepast. Deze financiële productieverantwoording is door ons uitsluitend ter identificatie gewaarmerkt.
+
+De samenvatting van de financiële productieverantwoording Jeugdwet Gemeente Breda luidt als volgt:
+
+Totaalbedrag
+€
+
+Geleverde prestaties Jeugdwet
+e 45 Jeugdhulp Ambulant 5.887,20
+e 5A Jeugd GGZ 4.240,80
+Totaal gerealiseerde productie 10.128,00
+
+Pro-Vision
+De waarmerking geschiedde als volgt: Uitslui
+iden
+
+blz. 11
+
+Financiële productieverantwoording Jeugdwet Gemeente Breda
+
+In dit de zor ji de gt Pp i de zor ieder verant ing af dient te leggen bij de gerneente:
+geleverde prestaties met als g de Alle op basis van de werkelijke realisatie ingevuld.
+Gem EE [Zorgaanbieder
+Naam ana Breda ne n Naam FSYCHOIGGEN PTAKLUIJK Timmers
+\contactpersoon d | Plaats OO ______loesterhout Oe
+[Telefoon _ ERE TER |KvK-nummer 18128939
+|E-maïl_ REE hl ‚Contactpersoon g D A Timmers
+Telefoon 0162427535 5
+E-maä _ |datimmers@pptimmers.al a
+|AGB-code 94001779
+Geleverde prestaties Jeugdwet
+|Inkoop order nr nr: Í
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in C
+45
+4509 45A04 | ____uur 45,60 ____0,00/
+__4501 BENSON NER Gur GE ES 69,60) 0,00)
+ERO ZE 1 45A48 var | 3 | 79,20, 0,00,
+4503 _ indiwid 45A53 vur ___|___60 |______ 98,12 5.887,20
+4504 _|Be _45AG5 | uur Nr a 67,80) 0,00)
+4505 je bula specialistisch: inspanningsgericht (gezin/syS _45A56 uur 40 0,00,
+_4506 | di iek: outputgericht (middel) IE: 45A46 | trajet _18926,61| 0,00,
+____ Îrotaai seugdhuip Am : LA 45 | 5.887,20}
+Code Eenheid Aantal(Q) _ PrijsinC(P) Realisatie 2020 in €
+54 __JeugdGGz mn
+|_ 5400 _|seugd-ggz behand gulier / generalist |_54001 | mamt | 270 | 182 4.240,80
+\_5401 _|Jeugd-ggz diagnostiek ___|__54004 | Minuut 1,52, OO 0,00
+5402 _|Jeugd-ggz behandeling specialistisch 54002 | minuut | 1,52 E _0,00
+5403 _|Jeugd-ggz Verblijf Zonder Overnachting 54007 | stuks EEN Ee 8874) 0,00
+Ll 5404 3 Jeugd-ggz beha delig hoog-specialistisch _ 54003 Í _ minuut | | _ __ 0,00
+5405 _|deugd-ggz behandeling specialistisch À | sapo | vaject 1089,56 0,00
+5406 gjsengd-oor behandeling specialistisch 54002 | wee | | 420857) 0,00
+5407 _|Jeugd-ggz verblijf tariefklasse EGGZ ______________| 54013 etmaal | WO 0,00
+\_5408_|deugd-agz verblijf tari F GGZ 54014 | etmaal | Î 0,00
+| 5409 _|Jeugd-ggz aisis | ling GGZ 54016 | stuks 0,00
+ljeugd GGZ [ 4. 240,80)
+Financiële realisatie Realisatie 2020 in C
+[_szoo [Gerealiseerde productie Jeugdwet Te RE 10.125,00 |
+Ruimte voor taelichting in verband met igeerde afwijking &n onzekerheden
+(Fe In 45A53 is er een verschil doordat er meestal 97,80 is gerekend ipv 100.20 . Realisatie is 5887,20 gemiddeld tarief is 98.12
+
+Ruimte voor algemene toelichting
+
+Zorgaanbieder | | venen van bevind |
+
+Op deze financiële praductieverantwoording is gêên separate accountantscontrole he ee Berat ed
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend =
+
+ter identificatie gewaarmerkt. Pro -Vi sion
+
+UitslugÊpd ter
+
+| id ioatie
+
+Dum: S(-O 3 -2oU.
+
+
+Naam: D A Timmers | sn Ja/Nee
+A.u.b. kiezen wat van toepassing is.
+
+Handtekening:
+
+Datum: 27-02-2021
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+
+BIJLAGE IV GEWAARMERKTE FINANCIËLE PRODUCTIEVERANTWOORDING JEUGD-
+WET GEMEENTE DRIMMELEN
+
+Op de financiële productieverantwoording Jeugdwet Gemeente Drimmelen is géén accountantscontrole
+toegepast. Deze financiële productieverantwoording is door ons uitsluitend ter identificatie gewaarmerkt.
+
+De samenvatting van de financiële productieverantwoording Jeugdwet Gemeente Drimmelen luidt als
+volgt:
+
+Totaalbedrag
+€
+
+Geleverde prestaties Jeugdwet
+e 43 Jeugdhulp verblijf (incl. behandeling) 255,60
+® 45 Jeugdhulp Ambulant 8.715,00
+e 54 Jeugd GGZ 15.629,20
+Totaal gerealiseerde productie 24.599,80
+
+De waarmerking geschiedde als volgt:
+
+blz. 12
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Drimmelen
+
+In dit onderdeel dt de de q de p de verantwoording af dient te leggen bij de gesneente:
+geleverde prestaties met als gr de Alle op basis van de werkelijke realisatie ingevuld.
+% jk Ä £ Nb | ]
+Drimmelen [Naam _ In PrakOjk 1 de |
+[Plaats |oosterhout
+= 5% [kvk-nummer 18128939 |
+[3 ic tp et \pATimmers
+[Telefoon 0162427535
+[E-mail ________ Ídatimmers@pptimmersnl |
+|AGB-code 94001779 |
+|inkoop order nr: |
+Code Eenheid Aantal(Q) _ PrijsinC{P) Realisatie 2020 in C
+43 verblijf (ind. ing) Ì
+[__4300 i icht [__43a11 etmaat | 2 [ 127,86 255,60
+| 4301 i icht (middel ) LVB 43A37 | etmaa _ | [ 0,00
+|_4302 ericht (zwaar) LVB 43A38 etmaal 2 en 0,00)
+_4303 pann icht (extra zwaar) LVB 43A39 etmaal FEE | 0,00
+| _4304 ip vert i icht 43A07 | etmaal Ben 0,00!
+|___[Fetaat seugdhuip verblijf (ind behandeling) Tee Re | 255,60
+Code Eenheid Aantal{Q)  Prijsin€{P) Realisatie 2020 in C
+45
+4500 dhuip gulier: icht 45A04 uur | 45,60) SO o„oo|
+|_4501 Jeugdhulp ambulant specialistisch: à icht 45A05 uur 69,60 0,00
+4502 _ |deugdhuip a t regulier: i ì icht (i | 45A48 uur | 79,20) 0,00
+4503 _| Jeugdhulp ambulant specialistisch: inspanningsgericht (individuel_ 45A53 uur _87 100,17, 8.715,00)
+4504 _|Behandefing: i ingsgericht PLE ER! €7,50) 0,00)
+_ 4505 {Jeugdhulp ambulant spedatistisch: « Kht(gezin/sys 45456 | uur 84,60/ 0,00,
+4506 d di iek: outputgericht (middel) |__45A46 traject 18926,61) 0,00!
+[Totaal Jeugdhuip A NSE: ie Be 8.715,00}
+Code Eenheid Aantal (Q) _ PrijsinC(P) Realisatie 2020 in C
+54 Jeugd GGZ OO
+5400 _[Jeugd-ggz bet gulier / listisch 54001 | __ minuut _ | 10310 | 152 15.629,20)
+5401 _|Jeugd-ogz di 54004 | _ minwt | | 1,52) o,aal
+5402 |Jeugd-ggz behandeling specialistisch 54002 | minuut | | 1,52 0,00)
+Jeugd-ggz Verhlijf Zonder Overnachting | 54007 | suk | jk _ 88,74 0,00
+Jeugd-ggz behandeling hoog-specialfstisch | 54003 pe _ minuut _ 3 ZARA 0,00
+Jeugd-ggz behandeling specialistisch 54D01 | traject | 1089,56 o,o)
+Jeugd-goz behandeling specialistisch EE EP 4208,87 0,00
+Jeugd-ggz verblijf tanefldasse E GGZ _etmaal BEZET week ea 0,00
+Jeuad-gaz verblijf tar FGGZ etmaal TE ee 0,00
+_ |Jeugd-ggz crisis GGZ stuks | 17 0,00
+_|Jeugd GGZ 15.629,20
+56 Financiëte realisatie Reaksatie 2020 in C
+|_sroe Gerealiseerde productie Jeugdwet _ Ï 24.599,80 |
+ig afwijki en heden
+
+Ruimte voor toelichting in verband met
+
+[eee komt door latere correctie tarief 2019-2020 op een lager minuuttarief. Yataal is 15629,2 ipv 15.671,20 in 45A53 is de daadwerkelijke productie om dezelfde |
+
+reden 8715
+
+Op deze financiële productieverantwoording is géên separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+Pro-Vision
+Úitslui
+
+| ider
+bam: ZS
+
+ficatie
+zot
+
+
+ichting
+
+en
+
+EE ER NT
+
+| | van
+Naam: DA Timmers A | ho nn
+Handtekening: Mi
+
+Eens: Ja/Nee
+9) A.u.b. kiezen wat van toepassing is.
+
+Datum: 27-02-2021
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+
+BIJLAGE V GEWAARMERKTE FINANCIËLE PRODUCTIEVERANTWOORDING JEUGD-
+WET GEMEENTE GEERTRUIDENBERG
+
+Op de financiële productieverantwoording Jeugdwet Gemeente Geertruidenberg is géén accountants-
+controle toegepast. Deze financiële productieverantwoording is door ons uitsluitend ter identificatie
+gewaarmerkt.
+
+De samenvatting van de financiële productieverantwoording Jeugdwet Gemeente Geertruidenberg luidt
+als volgt:
+
+Totaalbedrag
+€
+
+Geleverde prestaties Jeugdwet
+e 43 Jeugdhulp verblijf (incl. behandeling) 1.533,60
+e 45 Jeugdhulp Ambulant 74.144,85
+® 54 Jeugd GGZ 123.173,57
+Totaal gerealiseerde productie 198.852,02
+
+. . -Visi mtants
+De waarmerking geschiedde als volgt: Pro-Vision n
+
+blz. 13
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Geertruidenberg
+
+In dit dt de de gel de pi de zor ieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Alle an op basis van de werkelijke realisatie ingevuld.
+|Naam _ OO |Geertruidenberg 0 | Naam hili FrARTJK Ter
+\Contactpersoon — | me zel Plaats _|Oosterhout _|
+[Telefoon n ET ENE | KvK-nummer _ [18128939
+E-mail Í C DA Ti
+Oe Oe OO Telefoon 0162427535 |
+E-mail _ datimmers@ppummers.nl
+AGB-code ______________|a4001779
+Geleverde prestaties Jeugdwet de
+Inkoop order nr: Ad
+Code Eenheid Aantal(Q) _ Prijsin€(P) Realisatie 2020 in €
+43 _ verblijf (incl. ing) e ni ==
+[__4300__|Logeren: inspanningsgericht |_43Au1 etmaal Ti ez 127,80 1.533,60
+|__4301 [ panni icht (middelzwaar) LVB 43A37 etmaal | SE 0,00
+|_4302 verblijf: icht (zwaar) LVB 43A38 etmaat | CUE Taif 0,00
+|_4303 | verblijf: i ringsgericht (extra zwaar) LVB 43A39 etmaat | ISES _0,00
+4304 _|leugdhulp verblijf: inspanningsgericht 43A07 etmaal | Í 0,00
+So Totaal Jeugdhulp verblijf (incl. b fing) AES NEE EE 1.533,
+Code Eenheid Aantal (Q) _ Prijsin€C(P) Realisatie 2020 in C
+45
+{_4500_|seugdhut gulier: imsp ht _45A04 uur [108 | 44,57) 4.813,20)
+4501 _ vip ambulant specialistisch: ict |__45A05 uur EE Bs dez ssl 3.733,50
+4502 _ di mbulant regulier: insf icht (indr 5) | 4sA48 | uur Í | 79,20 0,00
+ht (individue) 45453 _| uur | 651 | _ 99,62) CAELS)
+4504 | ling: 4 i ht |_45A65_ | ur | | __ 6780 745,80
+|_ 4505 _|Jeugdhuip ambulant speciatistisch: inspaani ht (gezin/syS _45A56 uur _|______ 84,60 0,00,
+|_4506_ bulant dà iek: outputgericht (middel) 45A46 traject | 18926,61 0,00
+Totaal Jeugdhuip Ambulant IEEE Es Mi 74.144 85}
+Code Eenheid Aantal(Q) _ Prijsin€{P) Realisatie 2020 in €
+Jeugd GGZ
+_[seugd-ggz behandeling regulier / generalisisch _ [54001 | minuut 81055 al 123.173,57)
+Jeugd-ggz diagnostiek Sr 54004 minuut 152) o,o)
+Jeugd-ggz behandeling specialistisch _ 54002 minuut 1,52 0,00)
+Jeugd- or ve bf Zonder Overnachting 54007 stuks 88,74 o,o
+haog-specialsisch |_“54003 _erinvut HE Ig OO __o,vol
+nas han spedalistisch EN FE traject 1089,56 ___0,00)
+Jeuyd- -agz behandehng sj speaalistisch % nn 54D02 ‚traject Ì 208,87 0,00,
+407 _ |ieugd-ggz verblijf tanefkdasseEGGZ | 54013 etmaal A 0,00)
+_|Jeugd-ggz verblijf tariefklasse F GGZ |_s4014 etmaal KOE BE 0,00
+__|Jeugd-ogz crisis behandeling GGZ | 54016 stuks | 0,00
+_____ |seugdecz 5 | 123.173,5
+56 Financiële realisatie Jeugdwet Realisatie 2020 in C
+|_sz00 | Gerealiseerde productie Jeugdwet Ke 5 Ati 198.852,02 |
+ij voor ting in met rig, afwijkingen en onzekerheden
+
+gemeente; 123062,80 ipv 123.203,60
+
+45204 is 4813,20 ivm correctie tarief 2019-2020 voordeel voor gemeente, 45A05 is 3733,5 ipv 3828 voordeel gemeente, 45a53 is 64852,35 ipv 65230,20 voordeel
+
+Ruimte voor algemene toelichting
+
+|
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+
+ter identificatie gewaarmerkt.
+
+pam: Bl-O3-202.
+
+Pro-Vision
+Uitslui
+iderfäficatie
+
+ia van hb indi ik
+Naam: D A Timmers _ es ___ Ja/Nee |
+Handtekening: [S= Aub. kiezen wat van toepassing is.
+
+Datum: 27-02-2021
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+
+uitgevoerd. Deze financiële productieverantwaording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+
+BIJLAGE VI GEWAARMERKTE FINANCIËLE PRODUCTIEVERANTWOORDING JEUGD-
+WET GEMEENTE OOSTERHOUT
+
+Op de financiële productieverantwoording Jeugdwet Gemeente Oosterhout is géén accountantscontrole
+toegepast. Deze financiële productieverantwoording is door ons uitsluitend ter identificatie gewaarmerkt.
+
+De samenvatting van de financiële productieverantwoording Jeugdwet Gemeente Oosterhout tuidt als
+volgt:
+
+Totaalbedrag
+€
+
+Geleverde prestaties Jeugdwet
+e 43 Jeugdhulp verblijf (inel. behandeling) 3.578,40
+© 45 Jeugdhulp Ambulant 166.788,60
+e 54 Jeugd GGZ 260.507,05
+Totaal gerealiseerde productie 430.87 4,05
+
+Pro-Vision vuntanis
+Uitslu
+
+ide. Aificatie
+
+De waarmerking geschiedde als volgt:
+
+blz. 14
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Oosterhout
+
+In dit de de de Q af dient te leggen bij de gemeente:
+met als de Alle worden op basis van de werkelijke realisatie ingevuld.
+Gemeente g t ] |
+eme (e) 5 \ rn APE TOR TUNEN
+[contactpersoon Ï |Oasterhout
+[Telefoon u | [18128939 _
+[E-mail EN ki EEN RE Hi [DAT
+016242 RWE
+datimmers@pptimmers.nl
+_ 94001779
+Geleverde pre
+Inkoop order nr. |
+Code Eenheid Aantal(Q) PrijsinC(P) Realisatie 2020 in €
+43 verblijf (incl. ) _
+|__4300_[Logeren: inspanningsgencht A3AIL | 28 Ì 127,80) 3.578,40,
+4301 dhuip verblijf: gj (mic ) VB 43A37 ! _ 0,00
+4402 verblijf: * (zwaar) LVB 43A38 | 0,00
+4303 verblijf: ik (extra zwaar) LVB 43A39 0,00,
+4304 verblijf: ihk _ 43A07 Pha 0,00)
+ge Totaal Jeugdhulp verblijf (imc. ) 3.578,40}
+Code Eenheid Aantal(Q)  PrijsinC{P) Realisatie 2020 in €
+45
+4506 Ĳ regulier: A5AD4 uur 36 45,50 1.638,00
+_4501 p ambulant s ht 45A0S uur 371 |____69,39 25.742,40)
+4502 regulier: ) 45p48 U} SE 7920 0,00,
+4503 45A53 uur} 34 | _______99,88| 133.843,50/
+4504 | _45A65 | war 83 67,04) 5.564,40
+4505 amb ialstisch: insps ht (gezin/sy|_a5a56 | ar 84,50) 0,00)
+L_4596_|1 (middel) | 45M6 | traject 18926,61/ 0,00
+! Totaal ank ml L 166.
+Code Eenheid Aantal(Q)  PrijsinC{(P) Realisatie 2029 in €
+54 Jeugd GGZ Den _
+‘ Sao |eugd-9gz reguker / 17E 1,52 260.507,05/
+{_5404 _|Jeugd-ogz d d A52) 0,00)
+Î Jeugd-ggz beh, ing specialistisch LER AE _ 1,52) 0,00,
+{_5a03_|Jeugd-ggz Verblijf Zonder Overnachting 8574 OO _ 6,00)
+\_5404 ing hoog. Î 0,0a)
+__540s |Jeugd-ogz dali 1089,56 o,o
+|_5406 _[leuod-ogz spedalrsäsch gi 4208,57 ooo)
+í 5
+{__3497_|Jeugd-gaz verblijft EGGZ 4 ERTL ERE Zestdd| 0,00)
+5408 _|Jeugd-9gz verblijf tariefklasse F GGZ } 0,00,
+\ 5409 |Jeugd-ggz crisis GGZ 0,00,
+Ü gupsleer: | 260.507,05j
+ss E i engs! Realisatie 2020 in C
+‚ 500 |Gerealiseerde productie Jeugdwet | 430.874,05 |
+Ruimte voor in met L afwijkingen en onzekerheden
+Í 45204 is 1638 ipv 1641,60; 45205 is 25742,AO ipv 25821; 45253 is 133843,80 ipv 134268 ; 54001 miniem verschil
+Í
+Ï
+Ruimte voor algemene toelichting
+Zorgaanbieder Rapport van bevindingen:
+Naam: D A Tinuners Ja/Hee
+Handtekening: [== Aub. fezen wat van taerassing i6.
+
+Datum: 27-02-2021
+
+Op deze financiële p
+uitgevoerd. Deze financiële prod:
+ter identificatie gewaarmerkt.
+
+ding is géén
+
+ding is door de au
+
+p,
+
+Waarmmerking accoun! y
+Pro-Vision untants
+ter
+
+atum:
+
+
+Op deze financiële prod: ding is géén sep; ac
+uitgevoerd. Deze financiëk: productieverantwoerding is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+

@@ -1,0 +1,644 @@
+# whosigns-ocr v1 grootte=1483068 dpi=300 paginas=20
+Financieel verslag 2020
+
+Stichting Cardiozorg
+Kraayveld 5
+1171 JE Badhoevedorp
+
+
+Inhoudsopgave
+
+Rapport
+1 Voorwoord
+2 Fiscale positie
+
+Jaarrekening
+1 Balans per 31 december 2020
+2 Winst- en verliesrekening 2020
+3 Algemene toelichting
+4 Toelichting op de balans
+5 Toelichting op de winst- en verliesrekening
+6 Overige gegevens
+
+Pagina
+
+onu B w
+
+S= ADVERION
+
+ADMINISTRATIE S
+
+1,
+Aan de directie van
+Stichting Cardiozorg
+Kraayveld 5
+1171 JE Badhoevedorp
+Zaandam, 7 juni 2021
+Geachte directie,
+1. Voorwoord
+Ingevolge uw opdracht hebben wij het financieel verslag 2020 van uw stichting
+“Stichting Cardiozorg” opgesteld, aan de hand van de door u verstrekte gegevens.
+2. Fiscale positie
+De stichting is belastingplichtig voor de vennootschapsbelasting.
+Het belastbare bedrag over 2020 is als volgt berekend
+€
+resultaat voor belastingen 85.746
+bij: gemengde kosten 26,5% van € 1.153 305
+86.051
+af: investeringsaftrek 2020 -16.307
+belastbaar resultaat 69.744
+Hierover is 16,5% vennootschapsbelasting verschuldigd, ofwel € 11.507.
+Rekening houdende met de voorlopige aanslag ad. € 2.179 is nog € 9.328 verschuldigd.
+Mocht u nog nadere toelichtingen wensen, dan zijn wij gaarne bereid u deze te verstrekken.
+Vertrouwende u hiermede van dienst te zijn geweest.
+Met vriendelijke groet,
+Adverion Administraties
+Vee —
+P.K. Jonker
+ADVERION ADMINISTRATIES BV RABOBANK IBAN NL31RABO0133127923
+BEZOEKADRES SLUISPOLDERWEG 79 1505 HJ ZAANDAM ING BANK IBAN NL90INGB0003499518
+POSTADRES POSTBUS 71 1510 AB OOSTZAAN BTW NR NL 8182 46 303 BO1
+TELEFOON 075-650 4050 KVK 3427 8510
+EMAIL ADMINISTRATIES@ADVERION.NL WEBSITE WWW. ADVERION.NL
+
+Am
+
+
+ST ADVERION
+
+ADMINISTRATIE S
+
+JAARREKENING
+ADVERION ADMINISTRATIES BV RABOBANK IBAN NL31RABO0133127923
+BEZOEKADRES SLUISPOLDERWEG 79 1505 HJ ZAANDAM ING BANK IBAN NL90INGBO003499518
+POSTADRES POSTBUS 71 1510 AB OOSTZAAN BTW NR NL 8182 46 303 BOI
+TELEFOON 075-650 4050 KVK 3427 8510
+
+EMAIL ADMINISTRATIES@ADVERION.NL WEBSITE WWW.ADVERION.NL
+
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+1. Balans per 31 december 2020
+
+Activa
+
+Vaste activa
+
+Materiële vaste activa
+materiële vaste activa
+
+Vlottende activa
+
+voorraaden
+voorraden
+
+vorderingen
+overige vorderingen
+overlopende activa
+
+liquide middelen
+rekening-courant bank
+
+Totaal activa
+
+31-12-2020
+€
+
+146.951
+146.951
+
+11.158
+11.158
+
+163.813
+7.192
+171.005
+
+14.228
+14.228
+
+343.342
+
+31-12-2019
+€
+
+75.824
+75.824
+
+237.962
+6.670
+244.632
+
+41.650
+41.650
+
+362.106
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+Passiva
+
+31-12-2020 31-12-2019
+
+€ €
+Eigen vermogen
+
+kapitaal 324.520 250.281
+324.520 250.281
+
+Kortlopende schulden
+overige schulden 18.822 111.825
+overlopende passiva 0 0
+18.822 111.825
+
+Totaal passiva 343.342 362.106
+
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+2. _Winst- en verliesrekening over 2020
+
+Omzet
+omzet
+
+Directe kosten
+Bedrijfskosten
+personeelskosten
+afschrijvingen
+huisvestingskosten
+overige bedrijfskosten
+Bedrijfsresultaat
+Financiële baten en lasten
+financiële baten
+financiële lasten
+Resultaat vóór belastingen
+
+belastingen
+
+Resultaat ná belastingen
+
+2020
+
+463.145
+14.270
+277.184
+14.689
+23.141
+50.888
+365.932
+
+82.943
+
+2.803
+
+2.803
+
+85.746
+
+11.507
+
+74.239
+
+2019
+
+394.794
+
+22.893
+
+187.415
+
+7.566
+
+26.023
+
+62.451
+
+283.455
+
+88.446
+
+3.003
+
+228
+
+2.775
+
+91.221
+
+14.195
+
+77.026
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+Kd.
+
+Algemene Toelichting
+
+WAARDERINGSGRONDSLAGEN EN GRONDSLAGEN VOOR RESULTAATBEPALING
+
+Algemeen
+
+Voor zover niet anders vermeld zijn de activa en passiva opgenomen tegen nominale waarde.
+Bij de waardering van activa en passiva is uitgegaan van de veronderstelling dat het geheel der
+werkzaamheden van de vennootschap waaraan die activa en passiva dienstbaar zijn, wordt
+voortgezet.
+
+Materiele vaste activa
+De materiele vaste activa worden gewaardeerd tegen de verkrijgingsprijs, verminderd met lineair
+berekende afschrijvingen gebaseerd op de economische levensduur.
+
+Vorderingen en schulden
+De vorderingen en schulden worden gewaardeerd tegen nominale waarde, eventueel verminderd
+met de noodzakelijk geachte voorzieningen voor waardeverminderingen.
+
+Voorzieningen
+De pensioenvoorzieningen worden gebaseerd op actuariele berekeningen.
+
+Resultaatbepaling
+
+Winsten worden slechts genomen, voor zover zij op de balansdatum zijn verwezenlijkt.
+Verliezen en risico's die hun oorsprong vinden voor het einde van het boekjaar, worden in acht
+genomen, indien zij voor het opmaken van de jaarrekening bekend zijn geworden.
+
+Periodetoerekening
+Alle opbrengsten worden toegerekend aan de periode waarin zij zijn gerealiseerd, alle lasten
+aan de periode waarmee zij verband houden.
+
+Belastingen naar winst
+De belastingen over het resultaat worden in beginsel berekend naar het nominale
+tarief , rekening houdend met fiscale faciliteiten.
+
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+4. Toelichting op de balans
+
+Materiële vaste activa
+
+aanschaffingswaarde afschrijvingen boekwaarde
+31-12-2020 31-12-2019 31-12-2020 31-12-2019 31-12-2020 31-12-2019
+
+€ € € € € €
+Medische inventaris 409.533 329.946 337.839 328.557 71.694 1.389
+ICT inventaris 6.264 6.264 5.027 4.094 1.237 2.170
+ICT software 4,654 4.654 4,654 4.654 0 0
+Kantoorinventaris 18.719 16.821 15.642 14.005 3.077 2.816
+Auto's 7.200 7.200 4.200 4.200 3.000 3.000
+Verbouwingen 12.012 12.012 12.012 9.608 0 2.404
+Kunstvoorwerpen 64.045 64.045 0 0 64.045 64.045
+Compters 4.332 0 434 0 3.898 0
+526.759 440.942 379.808 365.118 146.951 75.824
+
+De mutaties in het verslagjaar zijn in totalen als volgt:
+
+€
+boekwaarde per O1 januari 2020 75.824
+bij: investeringen 85.817
+161.641
+af: afschrijving 2020 14.690
+boekwaarde per 31 december 2020 146.951
+De investeringen betreffen: €
+Computers
+laptop thinkpad P73 4.332
+Kantoorinventaris 4.332
+vitrines 1.898
+Medische inventaris 1.898
+zuurstofmeet apparaat 34.000
+ECG-apparaat 25.475
+12 activiteitenmeters 6.874
+electrische meetapparatuur hersenen 13.238
+79.587
+85.817
+
+De afschrijvingen worden naar tijdsgelang vanaf het moment van ingebruikneming van het
+actief berekend over de aanschaffingswaarden en zijn gebaseerd op de volgende percen-
+tages:
+
+ters/inventaris : 20%
+
+20%
+Ea
+
+0%
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+4. Toelichting op de balans
+
+Vlottende activa
+
+VOORRADEN
+
+onderzoeksmaterialen
+
+VORDERINGEN
+
+Overige vorderingen
+debiteuren
+vennootschapsbelasting 2017
+Cardiozorg BV (rekening-courant)
+borg huurovereenkomst
+rente
+
+Overlopende activa
+vooruitbetaald:
+onderhoud
+assurantie
+drukwerk
+huur
+
+LIQUIDE MIDDELEN
+
+Liquide middelen
+
+Rabobank spaarrekening
+Rabobank r/c
+
+BLG spaarrekening
+
+31-12-2020
+€
+11.158
+11.158
+
+31-12-2020
+€
+
+0
+
+4.214
+155.214
+4.380
+
+5
+163.813
+
+113
+5.505
+
+1.574
+7.192
+
+31-12-2020
+€
+
+12.456
+1.772
+14.228
+
+31-12-2019
+€
+
+31-12-2019
+€
+
+13.783
+4.214
+215.584
+4.380
+
+1
+237.962
+
+113
+4.454
+2.103
+
+6.670
+
+31-12-2019
+€
+
+39.879
+1791
+41.650
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+Toelichting op de balans (vervolg)
+
+Eigen vermogen
+
+Het verloop in het boekjaar is als volgt geweest:
+
+kapitaal 1 januari 2020 resp. 2019 250.281
+af resp. bij: resultaat 2020 resp. 2019 74.239
+kapitaal 31 december 2020 resp. 2019 324.520
+
+Kortlopende schulden
+
+De kortlopende schulden hebben alle een resterende looptijd korter dan één jaar.
+
+31-12-2020
+€
+Overige schulden
+crediteuren 6.457
+accountants- en administratiekosten 3.025
+bankkosten 12
+Zorgverzekeraars (budgetoverschrijdingen) 0)
+vennootschapsbelasting 2020 9.328
+vennootschapsbelasting 2019 0
+18.822
+Overlopende passiva
+overige schulden/overlopende passiva 0)
+0
+Totaal kortlopende schulden 18.822
+
+%
+EN
+
+173.255
+77.026
+250.281
+
+31-12-2019
+€
+
+21.153
+2.500
+12
+76.467
+0
+11.693
+111.825
+
+0
+0
+
+111.825
+
+B)
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+5. Toelichting op de winst- en verliesrekening
+
+Omzet
+
+gedeclareerde omzet
+retour Zorgverzekeraars/dub debiteuren
+
+Directe kosten
+
+onderzoeksmaterialen
+medicamenten
+
+ECG service
+laboratoriumonderzoek
+
+Bedrijfskosten
+
+Personeelskosten
+honorarium
+kosten secretariaat/vergaderingen
+scholingskosten
+
+Afschrijvingen
+medische inventaris
+ICT inventaris
+ICT software
+kantoorinventaris
+verbouwing
+computers
+
+Huisvestingskosten
+huur
+reparatie en onderhoud
+ov huisvestingskosten
+
+2020
+
+463.145
+0
+463.145
+
+2020
+
+12.646
+46
+
+525
+1.053
+14.270
+
+2020
+
+255.000
+2.384
+19.800
+277.184
+
+9.282
+933
+
+0
+1.636
+2.404
+434
+14.689
+
+18.062
+3.901
+1.208
+
+23.171
+
+2019
+
+459.561
+64.767
+394.794
+
+2019
+
+19.925
+414
+575
+
+1:979
+
+22.893
+
+2019
+
+105.000
+2.824
+79,59.
+187.415
+
+2.242
+933
+465
+
+1.524
+
+2.402
+
+0)
+
+7.566
+
+17.604
+7.671
+748
+26.023
+
+10.
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+2020 2019
+Overige bedrijfskosten € €
+abonnementen en contributies 3.433 4.818
+acc/adm/ en advieskosten 4.660 3.466
+assurantiepremies 6.760 7.300
+autokosten 7.424 9:331
+bankkosten 150 147
+bedrijfskleding 0 547
+business-development (0) 9.935
+consumpties patienten 1.232 1.191
+drukwerk 2.103 2.103
+kantoor/computerbenodigdheden 2.986 2.716
+kleine inventaris 1.647 596
+kosten onderhoud website 1.322 539
+kosten bouwen nieuwe website 2.281 0
+kosten kwaliteitsbeheersing 745 1.654
+porti 482 2.105
+representatiekosten 1.153 563
+software kleine aanschaf 335 565
+software-onderhoud/systeembeheer 11.653 12.417
+telecom/internet 2.522 2.309
+vakliteratuur 0 149
+50.888 62.451
+Financiële baten en lasten
+2020 2019
+€ €
+Financiële baten
+rente Cardiozorg B.V. 2.761 3.002
+rente banken 5 1
+rente Belastingdienst 37 0
+2.803 3.003
+Financiële lasten
+rente Belastingdienst 0) 228
+0 228
+Belastingen
+2020 2019
+€ €
+Vennootschapsbelasting 2020 11.507 0
+Vennootschapsbelasting 2019 0 14.195
+
+11.507 14.195
+
+Financieel verslag 2020 van Stichting Cardiozorg te Badhoevedorp
+
+6. Overige gegevens
+
+Winstbestemming
+
+Het bestuur stelt conform de statuten voor om het exploitatieresultaat over 2020 ad. € 74.239 toe
+te voegen aan het eigen vermogen.
+
+Dit voorstel is reeds in de jaarrekening verwerkt.
+
+ET
