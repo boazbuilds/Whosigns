@@ -94,11 +94,15 @@ controleer(
 # --- dezelfde verklaring twee keer in één bundel -----------------------------
 #
 # Een raadsbundel noemt de jaarrekening vaak eerst in de aanbiedingsbrief en dan
-# nog eens in de bijgevoegde verklaring zelf. Beide keren staat dezelfde zin, dus
-# het is één verklaring — maar wélke van de twee je houdt maakt uit. Het venster
-# van elke vermelding loopt tot aan de volgende, dus dat van de eerste eindigt
-# precies waar de échte verklaring begint: vlák vóór het handtekeningblok. Wie de
-# eerste houdt, houdt de vermelding zonder handtekening over.
+# nog eens in de bijgevoegde verklaring zelf. Beide keren staat dezelfde zin, en
+# beide vermeldingen komen hier terug. Wélke van de twee de handtekening draagt
+# is namelijk niet aan deze functie: het venster van de eerste eindigt waar de
+# tweede begint, dus vlák vóór het handtekeningblok, en welk venster dát is valt
+# alleen te zien door er een kantoormatcher op los te laten. Dat doet de lader.
+#
+# Hier stond eerder een ontdubbeling die de vermelding met het langste venster
+# hield. Die maatstaf is aantoonbaar fout — zie de toelichting in de adapter —
+# en is vervangen door: alles teruggeven, de lader kiest.
 HERHALING = (
     "Aanbiedingsbrief aan de raad\n"
     "Wij hebben de jaarrekening 2019 van de gemeente Testdorp gecontroleerd.\n"
@@ -110,14 +114,22 @@ HERHALING = (
 )
 uit = ori.verklaringen_uit(HERHALING)
 controleer(
-    "een herhaalde verklaring levert één regel op",
-    len(uit) == 1 and uit[0]["boekjaar"] == 2019,
+    "beide vermeldingen komen terug, zodat de lader kan kiezen",
+    len(uit) == 2 and all(v["boekjaar"] == 2019 for v in uit),
     f"gevonden: {[(v['organisatie'], v['boekjaar']) for v in uit]}",
 )
+met_handtekening = [
+    v for v in uit if "Deloitte" in HERHALING[v["venster"][0] : v["venster"][1]]
+]
 controleer(
-    "en dat is de vermelding mét het handtekeningblok in het venster",
-    uit and "Deloitte" in HERHALING[uit[0]["venster"][0] : uit[0]["venster"][1]],
-    "het venster van de gekozen vermelding houdt op vóór de handtekening",
+    "precies één van de twee vensters bevat het handtekeningblok",
+    len(met_handtekening) == 1,
+    f"{len(met_handtekening)} van de {len(uit)} vensters bevatten 'Deloitte'",
+)
+controleer(
+    "en dat is de laatste vermelding, niet de aanbiedingsbrief",
+    met_handtekening and met_handtekening[0]["positie"] == max(v["positie"] for v in uit),
+    "de handtekening hoort bij de vermelding die het dichtst bij de bijlage staat",
 )
 
 # --- een onmogelijk jaartal -------------------------------------------------

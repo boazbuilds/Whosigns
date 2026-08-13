@@ -329,41 +329,28 @@ def verklaringen_uit(tekst: str, bron: dict | None = None) -> list[dict]:
         verklaring["venster"] = (max(0, verklaring["positie"] - 800), volgende)
 
     # Dezelfde organisatie en hetzelfde boekjaar twee keer in één document is
-    # een herhaling (bijlage plus samenvatting); één regel volstaat. Maar wélke
-    # van de twee je houdt maakt uit, en dat is niet vanzelfsprekend.
+    # een herhaling: een raadsbundel noemt de jaarrekening eerst in de
+    # aanbiedingsbrief en dan nog eens in de bijgevoegde verklaring zelf. Beide
+    # vermeldingen gaan hier tóch mee terug, en dat is een bewuste keuze.
     #
-    # Een raadsbundel noemt de jaarrekening vaak eerst in de aanbiedingsbrief en
-    # dan nog eens in de bijgevoegde verklaring zelf. Het venster van elke
-    # vermelding loopt tot aan de vólgende vermelding, dus het venster van die
-    # eerste eindigt precies waar de échte verklaring begint — vlák vóór het
-    # handtekeningblok. Wie simpelweg de eerste houdt, houdt dus de vermelding
-    # zónder handtekening over.
+    # Hier stond eerder een ontdubbeling die de vermelding met het langste
+    # venster hield. De redenering klopte — het venster van de eerste vermelding
+    # eindigt waar de tweede begint, dus vlák vóór het handtekeningblok — maar de
+    # maatstaf niet. Gemeten op de volle bron (13-8-2026, uit het rapport van run
+    # 31580465246): bij "Gemeenschappelijke regeling Werk en Inkomen Baarn" won
+    # venster 2987-9840 (6.853 tekens) van 9040-15535 (6.495), terwijl de
+    # handtekening juist in dat kórtere zit. Lengte zegt niets over waar de
+    # handtekening staat.
     #
-    # Daarom de vermelding met het langste venster. Dat blijft veilig: elk
-    # venster is al begrensd door de eerstvolgende verklaring in het document,
-    # welke organisatie die ook betreft, dus een langer venster kan nooit de
-    # handtekening van de buurman opslokken.
+    # Alleen wie de handtekening kán zien, kan kiezen — en dat is deze functie
+    # niet. Zij leest tekst en kent geen kantoren. De lader eromheen wél: die
+    # loopt de vermeldingen op volgorde af, slaat een venster zonder
+    # ondertekening over zónder het als afgehandeld te merken, en schrijft pas
+    # een opdracht bij een echte handtekening. Alles teruggeven legt de keuze dus
+    # bij de enige laag die hem kan maken.
     #
-    # Eerlijk over de omvang: het geval staat in de tests (zonder deze regel valt
-    # de handtekening buiten het venster), maar corpusbreed is het níet
-    # doorgemeten. De meting stond op 3.000 van de 21.339 documenten — daar nul
-    # verschil, in beide richtingen — toen hij is afgebroken omdat hij processor
-    # wegnam van de zorgoogst, en dáár kost dat blijvend gegevens: het
-    # OCR-tijdbudget is kloktijd, dus een document dat door drukte niet op tijd
-    # gelezen wordt, gaat als "bekeken" de lijst in en komt niet terug. De regel
-    # is dus goed onderbouwd en aantoonbaar onschadelijk op het gemeten deel,
-    # maar de opbrengst over de volle bron is onbekend.
-    beste: dict[tuple[str, int], dict] = {}
-    for verklaring in ruw:
-        sleutel = (verklaring["organisatie"].lower(), verklaring["boekjaar"])
-        vorige = beste.get(sleutel)
-        if vorige is None or _vensterlengte(verklaring) > _vensterlengte(vorige):
-            # dict houdt de invoegvolgorde aan, dus vervangen laat de plaats
-            # van de eerste vermelding in het document intact.
-            beste[sleutel] = verklaring
-    return list(beste.values())
-
-
-def _vensterlengte(verklaring: dict) -> int:
-    begin, eind = verklaring["venster"]
-    return eind - begin
+    # Opbrengst, gemeten op dertig afgewezen verklaringen uit datzelfde rapport:
+    # zes leveren alsnog een opdracht op, twintig procent. Over de 315 afgewezen
+    # verklaringen zonder bestaand organisatie-boekjaarpaar gaat het om
+    # ordegrootte zestig opdrachten.
+    return ruw
