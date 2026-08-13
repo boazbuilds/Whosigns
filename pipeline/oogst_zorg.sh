@@ -161,29 +161,42 @@ TOTAAL=$(printf '%s\n' "$PROBE" | sed -n '1s/^\([0-9]\{1,\}\).*/\1/p')
 [ "${TOTAAL:-0}" -gt 0 ] || { echo "kon de omvang van boekjaar $BOEKJAAR niet bepalen"; exit 1; }
 echo "boekjaar $BOEKJAAR: $TOTAAL organisaties, blokken van $BLOK"
 
-# Beginnen waar de vorige run gebleven was, in plaats van elke keer vanaf nul.
+# Elk blok pakt de eerste $BLOK organisaties die nog niet bekeken zijn.
 #
-# `--hervat` slaat bekeken organisaties over, dus de blokken die al gedaan zijn
-# leveren niets op — maar ze kosten wel elk een volledige aanroep van de lader,
-# die daarvoor eerst de hele populatie van 2.211 inleest. Bij blokken van vier en
-# 110 bekeken zijn dat 28 lege aanroepen vóór het eerste echte werk, en dat loopt
-# op naarmate de oogst vordert.
+# `--vanaf` telt sinds 13-8-2026 in de lijst van nog-te-doen organisaties en niet
+# meer in de volle populatie (waarom: zie de uitleg bij `onbekeken` in
+# laad_zorg.py). Die lijst krimpt na elk blok, dus staat hier geen oplopende
+# teller meer maar steeds `--vanaf 0`: de vorige ronde heeft de vorige kop er al
+# afgehaald. Juist een oplopende teller zou nu overslaan.
 #
-# Naar bodenen afronden, nooit naar boven: dan kan er geen organisatie tussenuit
-# vallen. Staat er iets in de lijst dat níét in de eerste blokken zat, dan wordt
-# er hooguit een stuk overgedaan dat `--hervat` alsnog overslaat. Overslaan zou
-# betekenen dat een organisatie stilletjes nooit gelezen wordt, en dat is precies
-# wat hier niet mag gebeuren.
-BEGIN=$(( ($(regels "$VERWERKT") / BLOK) * BLOK ))
-[ "$BEGIN" -gt 0 ] && echo "$(regels "$VERWERKT") al bekeken; begin bij blok $BEGIN"
-
-for (( VANAF = BEGIN; VANAF < TOTAAL; VANAF += BLOK )); do
-  echo "=== blok vanaf $VANAF/$TOTAAL ==="
+# Dat repareert twee dingen tegelijk. Het scheelt de lege aanroepen — met 2.081
+# van 2.678 bekeken liep de oude lus nog 299 blokken af waarvan de meeste niets te
+# doen hadden, elk met een volledige inleesbeurt van de populatie van zo'n tien
+# seconden. En belangrijker: een organisatie kan niet meer buiten beeld raken
+# doordat de populatie groeide nadat de oogst begon.
+#
+# Stoppen doet de lus als een blok niets nieuws oplevert. Dat kan twee dingen
+# betekenen: klaar, of de bron was even onbereikbaar. Van buitenaf is dat verschil
+# niet te zien, dus krijgt hij drie kansen met een half minuutje ertussen. Klaar
+# zijn kost dan hooguit anderhalve minuut extra; een hik in het netwerk kost geen
+# halve oogst.
+LEEG=0
+while :; do
+  BEKEKEN=$(regels "$VERWERKT")
+  echo "=== $BEKEKEN/$TOTAAL bekeken ==="
   python3 "$WORTEL/pipeline/laad_zorg.py" \
     --boekjaar "$BOEKJAAR" --uit-archief --droogloop --hervat \
-    --vanaf "$VANAF" --aantal "$BLOK" --werkers "$WERKERS" 2>&1 |
+    --vanaf 0 --aantal "$BLOK" --werkers "$WERKERS" 2>&1 |
     grep -E '^---|opdrachten,|^[0-9]+ organisaties'
   bewaar
+  if [ "$(regels "$VERWERKT")" -le "$BEKEKEN" ]; then
+    LEEG=$((LEEG + 1))
+    [ "$LEEG" -ge 3 ] && break
+    echo "  blok leverde niets op ($LEEG van 3); nog een keer over 30 seconden"
+    sleep 30
+  else
+    LEEG=0
+  fi
 done
 
 echo "=== boekjaar $BOEKJAAR klaar ==="

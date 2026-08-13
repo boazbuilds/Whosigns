@@ -181,6 +181,42 @@ def _gevuld(organisatie: dict, toewijzing: dict[str, str]) -> dict:
     return uit
 
 
+def onbekeken_blok(
+    organisaties: list[dict], gezien: set[str], vanaf: int = 0, aantal: int = 0
+) -> list[dict]:
+    """De volgende hap werk: eerst wegstrepen wat al bekeken is, dan pas snijden.
+
+    Nooit andersom, en dat is de hele reden dat deze functie bestaat.
+
+    `--vanaf` en `--aantal` zijn er zodat oogst_zorg.sh het werk in blokken kan
+    doen en na elk blok kan bewaren. Sneed je eerst op index en streepte je daarna
+    pas weg, dan betekende "vanaf 2078" stilzwijgend "de eerste 2078 zijn al
+    gedaan". Dat klopt alleen zolang de doelpopulatie precies dezelfde lijst in
+    precies dezelfde volgorde blijft.
+
+    Dat hield het niet. Toen heeft_verklaring() ook de verklaringen onder
+    locations[] ging meetellen, groeide boekjaar 2021 van 2.471 naar 2.678
+    organisaties, en die 207 nieuwe schoven ertussen — niet erachter. Gemeten op
+    13-8-2026: van de 597 nog te lezen organisaties stonden er 125 op een index
+    ónder de hervatpositie, de laagste op index 14. Een run die bij 2078 begint
+    ziet die nooit meer. Ze raken niet kwijt (ze staan niet in verwerkt_2021.txt,
+    dus ze zijn niet als "bekeken" afgeschreven), maar ze komen pas aan de beurt
+    als iemand toevallig weer vanaf nul begint — en dat is te toevallig voor een
+    lijst die stilletjes incompleet blijft.
+
+    Wegstrepen vóór het snijden haalt de aanname weg: `vanaf` telt in de lijst van
+    nog-te-doen organisaties, en die krimpt terwijl de oogst vordert. Elk blok is
+    daardoor een blok échte organisaties in plaats van een greep uit de volle
+    lijst waar meestal niets nieuws in zit. Wie in blokken werkt vraagt dus steeds
+    opnieuw `vanaf=0`; oogst_zorg.sh doet dat.
+
+    `aantal=0` betekent "alles", net als bij argparse's default — niet "niets".
+    """
+    onbekeken = [o for o in organisaties if o["kvk_nummer"] not in gezien]
+    onbekeken = onbekeken[vanaf:]
+    return onbekeken[:aantal] if aantal else onbekeken
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--boekjaar", type=int, default=2023)
@@ -306,9 +342,9 @@ def main() -> int:
         }
         print(f"{len(verwerkt)} organisaties al bekeken in een eerdere run", flush=True)
 
-    werklijst = organisaties[argumenten.vanaf:]
-    if argumenten.aantal:
-        werklijst = werklijst[: argumenten.aantal]
+    werklijst = onbekeken_blok(
+        organisaties, al_geladen | verwerkt, argumenten.vanaf, argumenten.aantal
+    )
 
     rapport_pad = CACHE / f"resultaat_{boekjaar}.csv"
     rapport = rapport_pad.open("a", newline="", encoding="utf-8")
@@ -330,10 +366,7 @@ def main() -> int:
     per_kantoor: dict[str, int] = {}
     begin = time.time()
 
-    te_doen = [
-        o for o in werklijst
-        if o["kvk_nummer"] not in al_geladen and o["kvk_nummer"] not in verwerkt
-    ]
+    te_doen = werklijst
     verwerkt_log = verwerkt_pad.open("a", encoding="utf-8") if argumenten.hervat else None
 
     def haal_op(organisatie: dict):
