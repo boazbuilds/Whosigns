@@ -1,0 +1,844 @@
+# whosigns-ocr v1 grootte=536276 dpi=300 paginas=20
+ACCOUNTANTSKANTOOR VAN SCHRIEK B.V.
+
+Didamseweg 32
+
+7031 AM Wehl
+Telefoon (0314) 68 17 76
+
+Beconnr. 123110
+KvK. 51395398
+
+BTW NL850112576B01 Aan mevrouw
+L. Boland
+ING-bank 67.40.40.465 h/o Praktijk Boland
+IBAN: NL67 INGB 0674 0404 65 Rijksstraatweg 171
+BIC: INGBNL2A 6573 CN _ Beek-Ubbergen
+
+Financieel jaarverslag 2021
+
+Dossiernuumer: 341
+Kenmerk: FvS/ULG/IK/1/1
+Datum: 31-10-2021
+
+INHOUDSOPGAVE
+
+ACCOUNTANTSRAPPORT
+
+l Opdracht
+
+2 Samenstellingsverklaring van de accountant
+3 Resultaat
+
+4 Fiscale positie
+
+JAARREKENING
+
+Balans per 31 december 2021
+
+2 Winst-en-verliesrekening over 2021
+
+3 Grondslagen voor waardering en resultaatbepaling
+
+4 Toelichting op de balans per 31 december 2021
+
+5 Toelichting op de winst-en-verliesrekening over 2021
+BIJLAGEN
+
+l Specificatie van de privé opnamen en stortingen
+
+2 Overzicht vaste activa
+
+Pagina
+
+WN ND
+
+ai
+WD 0 LA
+
+16
+17
+
+ACCOUNTANTSRAPPORT
+
+Aan mevrouw L. Boland
+h/o Praktijk Boland
+Rijksstraatweg 171
+6573 CN Beek-Ubbergen
+
+Geachte mevrouw Boland,
+Hierbij brengen wij verslag uit over boekjaar 2021 met betrekking tot uw eenmanszaak.
+
+1 OPDRACHT
+
+Ingevolge uw opdracht hebben wij de jaarrekening 2021 van uw eenmanszaak opgesteld, waarin de balans met
+tellingen van € 100.497 en de winst-en-verliesrekening sluitende met een resultaat van € 32.339, zijn opgenomen.
+
+2 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+Aan mevrouw L. Boland,
+
+De jaarrekening van Praktijk Boland te Beek-Ubbergen is door ons samengesteld op basis van de van u gekregen
+informatie. Deze jaarrekening bestaat uit de balans per 31 december 2021 en de winst-en-verliesrekening over
+2021 met de daarbij horende toelichting. In deze toelichting is onder andere een overzicht van de gehanteerde
+grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor accountants
+geldende Standaard 4410, "Samenstellingsopdrachten". Op grond van deze standaard wordt van ons verwacht dat
+wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in overeenstemming met in Nederland
+algemeen aanvaarde grondslagen voor financiële verslaggeving. Wij hebben daarbij onze deskundigheid op het
+gebied van administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle relevante
+informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor geldende
+regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid heeft voldaan. Als
+slotstuk van onze werkzaamheden hebben wij door het lezen van de jaarrekening globaal nagegaan dat het beeld
+van de jaarrekening overeenkwam met onze kennis van uw onderneming. Wij hebben geen controle- of
+beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een oordeel te geven of een conclusie te
+trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers van
+deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en zorgvuldig,
+integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte gegevens.
+
+Vooreen nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de VGBA verwijzen wij u
+naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+Wehl, 31 oktober 2022
+
+Aeccountantskantoor Van Schriek B.V.
+
+
+Praktijk Boland te Beek-Ubbergen
+
+3 RESULTAAT
+31 Vergelijkend overzicht
+
+Het resultaat over 2021 bedraagt € 32.339 tegenover € 71.122 over 2020. De resultaten over beide jaren kunnen als
+volgt worden samengevat:
+
+2021 2020
+
+€ % € %
+Netto-omzet 300.045 100,0 299.994 100,0
+Kosten
+Kosten van uitbesteed werk en andere
+externe kosten 93.328 31,1 68.845 23,0
+Personeelskosten 127.106 42,3 110.424 36,7
+Afschrijvingen 2.644 0,9 2.326 0,8
+Huisvestingskosten 16.218 5,4 15.572 5,2
+Exploitatiekosten 576 0,2 1.376 0,5
+Kantoorkosten 11.433 3,8 11.213 3,7
+Autokosten 1.103 0,4 1,990 0,7
+Verkoopkosten 942 0,3 704 0,2
+Algemene kosten 10.949 3,7 8.954 3,0
+
+264.299 88,1 221.404 73,8
+Bedrijfsresultaat 35.746 11,9 78.590 26,2
+Financiële baten en lasten -120 - -54 -
+Resultaat uit gewone
+bedrijfsuitoefening 35.626 11,9 18.536 26,2
+Fiscale oudedagsreserve -3.287 -1,1 -7.414 -2,5
+Resultaat 32.339 10,8 71.122 23,7
+
+
+Praktijk Boland te Beek-Ubbergen
+
+4 FISCALE POSITIE
+L. Boland
+
+Resultaat uit onderneming
+
+Investeringsregeling:
+
+Kleinschaligheidsinvesteringsaftrek
+
+Mutatie fiscale oudedagsreserve
+
+Fiscale regelingen:
+
+Zelfstandigenaftrek
+
+MKB winstvrijstelling
+
+Fiscale Oudedagsreserve L. Boland
+
+Stand per 1 januari
+Mutaties credit
+
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+Hoogachtend,
+
+Aeccountantskantoor Van Schriek B.V.
+
+Accountante&dministratieconsulent
+
+31-12-2021
+
+2021
+
+35.626
+
+810
+
+34.816
+-3.287
+
+31.529
+
+6.670
+
+24.859
+3.481
+
+21.378
+
+31-12-2020
+
+€
+
+35.518
+3.287
+
+€
+
+28.104
+1414
+
+38.805
+
+35.518
+
+
+JAARREKENING
+
+Balans per 31 december 2021
+Winst-en-verliesrekening over 2021
+
+Grondslagen voor waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2021
+Toelichting op de winst-en-verliesrekening over 2021
+
+
+Praktijk Boland te Beek-Ubbergen
+
+1 BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+
+Inventaris
+Vlottende activa
+
+Voorraden
+
+Onderhanden werk
+
+Vorderingen
+
+Overige vorderingen
+
+Liquide middelen
+KNAB
+
+en,
+
+@)
+
+6)
+
+4)
+
+31 december 2021
+
+31 december 2020
+
+€ €
+
+71.626
+
+68.821
+
+7377
+
+16.673
+
+100.497
+
+€ €
+
+7.380
+
+32.159
+
+4,136
+
+44.009
+
+87.684
+
+Samenstellingsverklaring afgegeven
+
+PASSIVA
+
+Ondernemingsvermogen
+
+L. Boland
+
+Oudedagsreserve
+
+Kortlopende schulden
+
+Schulden aan leveranciers en
+
+handelskredieten
+
+Overige belastingen en premies sociale
+
+verzekeringen
+Overige schulden
+Overlopende passiva
+
+31 december 2021
+
+31 december 2020
+
+€ €
+
+5
+8.741
+38.805
+
+41.546
+
+©
+
+23.674
+
+10.054
+16.252
+2.971
+
+52.951
+
+100.497
+
+€ €
+
+29.112
+35.518
+
+64.630
+
+1.341
+13.713
+2.000
+
+23.054
+
+87.684
+
+Samenstellingsverklaring afgegeven
+
+Praktijk Boland te Beek-Ubbergen
+
+2 WINST-EN-VERLIESREKENING OVER 2021
+
+Netto-omzet
+
+Kosten
+
+Kosten van uitbesteed werk en andere externe kosten
+Personeelskosten
+
+Afschrijvingen
+
+Huisvestingskosten
+
+Exploitatiekosten
+
+Kantoorkosten
+
+Autokosten
+
+Verkoopkosten
+
+Algemene kosten
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat uit gewone bedrijfsuitoefening
+Fiscale oudedagsreserve
+
+Resultaat na FOR
+
+®)
+
+6)
+(10)
+4),
+(12)
+(13)
+(14)
+(15)
+(16)
+
+(17)
+
+(18)
+
+2021 2020
+
+€ €
+300.045 299.994
+93.328 68.845
+127.106 110.424
+2.644 2.326
+16.218 15.572
+576 1.376
+11.433 11.213
+1.103 1.990
+942 704
+10.949 8.954
+264.299 221.404
+35.746 78.590
+-120 -54
+35.626 78.536
+-3.287 -7A14
+32.339 71.122
+
+Samenstellingsverklaring afgegeven
+
+Praktijk Boland te Beek-Ubbergen
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Per 1-6-2016 wordt in de vorm van een eenmanszaak een praktijk voor voornamelijk diagnostiek en behandeling
+van psychologische klachten en aandoeningen gedreven onder de handelsnaam “Boland Praktijk".
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+Praktijk Boland is gevestigd op Rijksstraatweg 171 te Beek-Ubbergen en is ingeschreven bij het handelsregister
+onder nummer 66094798.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgemaakt op basis van historische kostprijs. De waardering van activa en passiva geschiedt,
+voor zover niet anders is vermeld, tegen nominale waarde.
+
+Winsten worden toegerekend aan de periode waarin ze zijn gerealiseerd. Verliezen worden verantwoord in het jaar
+waarin ze voorzienbaar zijn.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur en
+bijzondere waardeverminderingen.
+
+Voorraden
+
+Het onderhanden werk betreft de per einde van het boekjaar nog te factureren behandelingen over dat boekjaar.
+
+Vorderingen
+
+De vorderingen worden opgenomen tegen nominale waarde, onder aftrek van de noodzakelijk geachte
+voorzieningen voor het risico van oninbaarheid. Deze voorzieningen worden bepaald op basis van individuele
+beoordeling van de vorderingen.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende
+schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden afgelost.
+
+Samenstellingsverklaring afgegeven -8-
+
+Praktijk Boland te Beek-Ubbergen
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten en
+andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij zijn
+gerealiseerd.
+
+Opbrengstverantwoording
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde projectopbrengsten uit
+hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van over de omzet geheven
+belastingen.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde prestaties,
+gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking hebben.
+
+Kosten van uitbesteed werk en andere externe kosten
+
+De kosten van uitbesteed werk en andere externe kosten omvatten de kosten die door derden in rekening zijn
+gebracht in het kader van de uitbesteding of ondersteuning van de werkzaamheden. Deze kosten bestaan uit de
+inkoopprijs en eventuele bijkomende kosten.
+
+Pensioenen
+
+Praktijk Boland heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van de
+desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de
+verantwoorde transactiekosten op de ontvangen leningen.
+
+Samenstellingsverklaring afgegeven -9-
+
+Praktijk Boland te Beek-Ubbergen
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Materiële vaste activa
+
+Balans Balans
+01-01-2021 Bij Af 31-12-2021
+€ € € €
+Inventaris 7.380 2.890 2.644 1.626
+VLOTTENDE ACTIVA
+2. Voorraden
+31-12-2021 31-12-2020
+€ €
+Onderhanden werk
+Onderhanden werken 68.821 32.159
+3. Vorderingen
+Overige vorderingen
+Overige vorderingen 7.377 4.136
+4, Liquide middelen
+KNAB NL55 KNAB 0255334052 betaalrekening 2.752 6.291
+KNAB Flexibel Sparen Zakelijk 52160455 7.690 2.889
+KNAB Kwartaal Spaarrekening 54399881 5.740 34.738
+KNAB Flexibel Sparen 54409642 491 91
+16.673 44.009
+
+Samenstellingsverklaring afgegeven
+
+-10-
+
+Praktijk Boland te Beek-Ubbergen
+
+PASSIVA
+
+5. Ondernemingsvermogen
+
+L. Boland
+
+Stand per 1 januari
+Aandeel in het resultaat
+Privé-ontrekkingen
+
+Stand per 31 december
+
+Oudedagsreserve
+
+L. Boland
+
+Stand per 1 januari
+Mutaties credit
+
+Stand per 31 december
+
+6. Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Overige belastingen en premies sociale verzekeringen
+
+Loonheffingen
+Pensioenen
+
+Overige schulden
+
+Overige schulden
+Doorberekende sociale lasten
+Nettolonen
+
+Doorberekende vakantietoeslag
+
+2021 2020
+
+€ €
+29.111 44.895
+32.339 71.122
+-52.709 -86.905
+8.741 29.112
+35.518 28.104
+3.287 7414
+38.805 35.518
+
+31-12-2021 31-12-2020
+
+€ €
+23.674 -
+7,912 6.078
+2.142 1.263
+10.054 7.341
+10.333 8.973
+1.366 945
+- 645
+4,553 3.150
+16.252 13.713
+
+Samenstellingsverklaring afgegeven
+
+-1-
+
+Praktijk Boland te Beek-Ubbergen
+
+Overlopende passiva
+
+Berekende accountantskosten
+Berekende verzekeringspremies
+
+31-12-2021 31-12-2020
+€ €
+2.750 2.000
+221 -
+2.971 2.000
+
+Samenstellingsverklaring afgegeven
+
+-12-
+
+Praktijk Boland te Beek-Ubbergen
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2021
+
+7, Bruto-marge
+
+Netto-omzet
+
+8. Kosten van uitbesteed werk en andere externe kosten
+
+Werk door derden
+
+9, Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Lonen en salarissen
+
+Brutolonen
+Toeslag vakantiegeld
+Ziekengeld retour
+
+Sociale lasten
+
+Sociale lasten
+
+Penstoenlasten
+
+Bedrijfspensioenfonds
+
+Overige personeelskosten
+
+Scholingskosten
+Ziekteverzuimverzekering
+Overige personeelskosten
+Parkeerkosten
+Reiskostenvergoeding onbelast
+Kantinekosten
+
+10. Afschrijvingen
+Afschrijvingen materiële vaste activa
+
+Inventaris
+
+2021 2020
+
+€ €
+300.045 299.994
+93.328 68.845
+68.325 66.847
+18.854 12.800
+1.787 5.828
+32.140 24.949
+127.106 110.424
+99.297 71.545
+6.964 6.188
+-37.936 -10.886
+68.325 66.847
+18.854 12.800
+7.187 5.828
+22.825 20.529
+3.676 2.290
+3.804 769
+256 24
+1.249 1215
+330 122
+32.140 24.949
+2.644 2.326
+
+Samenstellingsverklaring afgegeven
+
+-13-
+
+Praktijk Boland te Beek-Ubbergen
+
+Overige bedrijfskosten
+
+11. Huisvestingskosten
+
+Huur
+Schoonmaakkosten
+
+12. Exploitatiekosten
+Reparatie/klein gereedschap/klein onderhoud
+
+13. Kantoorkosten
+
+Kantoorbenodigdheden
+Accountantskosten
+Telefoon
+
+Porti
+
+Overige administratiekosten
+
+14. Autokosten
+
+Kilometervergoedingen
+
+15. Verkoopkosten
+
+Verteringen
+Representatiekosten
+
+16. Algemene kosten
+
+Contributies, abonnementen & heffingen
+Bedrijfsverzekeringen
+Overige algemene kosten
+
+17. Financiële baten en lasten
+Rentelasten en soortgelijke kosten
+
+Rente- en bankkosten rek/crt.
+Kredietbeperking/betalingsverschillen
+Rente Belastingdienst
+
+18. Fiscale oudedagsreserve
+
+Mutatie Fiscale oudedagsvoorziening
+
+2021 2020
+€ €
+
+15.618 15.476
+600 9%
+16.218 15.572
+576 1.376
+2.010 2.799
+7.208 5.147
+2.215 2457
+- 182
+- 28
+11.433 11.213
+1.103 1.990
+160 98
+782 606
+942 704
+10.032 7.183
+751 786
+166 985
+10.949 8.954
+12 -55
+20 l
+-68 -
+-120 -54
+-3.287 1414
+
+Samenstellingsverklaring afgegeven
+
+-14-
+
+BIJLAGEN
+
+
+Praktijk Boland te Beek-Ubbergen
+
+bijlage bij
+rapport d.d. 31 oktober 2022
+
+1 SPECIFICATIE VAN DE PRIVÉ OPNAMEN EN STORTINGEN
+
+L. Boland
+2021 2020
+€ € € €
+Privé onttrekkingen
+Privé-uitgaven 28.449 59.736
+Inkomstenbelasting 21.141 23.982
+3.187
+
+Premie ZVW 3.119
+52.709
+
+86.905
+
+…16-
+
+
+A Be
+
+IL Pro z 068'7 08E'L
+00°0T TLI'Z EST STH - 1z0z woajsÁsuLeTY
+00°0z F6E IL Sg - Tzoz dojdeT aH
+00°0z Tor 911 - 895 0T0z dordeT aH
+00°0z 13 TSI - Eg 0207 Áe1D ooeds ped!
+00°0T T6E TTI - PS 0T0z dorder LOTLAH-VATIPX snsv
+0007 1811 LEP - 8191 6107 Sunyouunoopue
+00°0T 1891 08 - ITT 6102 uajeojs ue jeje,
+00°0z LLT OpT - LI 8I0z snsy doder
+0007 TIE OTE - 19 8102 sle8or fide,
+00°0T <87 TOE - L35 L10Z p7 Wo
+00°0Z - 191 - Tor 9107 Jejndwog
+
+SLIEJUSAUY
+% 3 6) 3
+eSeuso-ied  1TOTTI-IE 1Z0z 1z0z 1Z0T-1-1 ed zeer Surafinyosug
+Jed Suralisyosjy Surojsoaur opreemNood
+opreemJeod
+
+VAILDV ALSVA LHIIZUHAO T
+
+uoBroqgn-eeg 93 puerog led
+TOT 1oqopo Te “pp vodder
+frq oSerfiq
