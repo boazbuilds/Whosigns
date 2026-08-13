@@ -106,13 +106,16 @@ controleer(
 
 # --- het script ---------------------------------------------------------------
 
+klok_lus = regel_met(script, "BLOKBEZIG")
 controleer(
     "het script bewaart ook tijdens een blok",
-    regel_met(script, "BEWAARKLOK") != -1 and regel_met(script, 'sleep "$BEWAARKLOK"') != -1,
+    regel_met(script, "BEWAARKLOK=") != -1
+    and klok_lus != -1
+    and regel_met(script, "BEWAARKLOK + 9", klok_lus) != -1,
     "zonder tussentijds bewaren kost elke herstart het hele lopende blok",
 )
 
-klok_stil = regel_met(script, 'kill "$KLOK"')
+klok_stil = regel_met(script, 'rm -f "$BLOKBEZIG"')
 python_aanroep = regel_met(script, "laad_zorg.py")
 eigen_bewaar = -1
 for i in range(klok_stil + 1, len(script)):
@@ -123,6 +126,14 @@ controleer(
     "de bewaarklok gaat uit vóór het script zelf bewaart",
     klok_stil > python_aanroep and eigen_bewaar > klok_stil,
     "twee git-commits tegelijk vechten om index.lock",
+)
+
+controleer(
+    "en hij wordt niet doodgeschoten maar loopt uit",
+    regel_met(script, 'wait "$KLOK"') > klok_stil
+    and not any('kill "$KLOK"' in r for r in script),
+    "een kill middenin git commit laat .git/index.lock staan, en dan bewaart de "
+    "oogst uren niets meer",
 )
 
 controleer(

@@ -219,15 +219,38 @@ while :; do
   # uitkomst geflusht is (zie noteer_bekeken in laad_zorg.py). Andersom zou een
   # tussentijdse kopie een organisatie als afgehandeld kunnen vastleggen zonder
   # zijn opdracht, en die komt dan nooit meer langs.
-  ( while :; do sleep "$BEWAARKLOK"; bewaar; done ) &
+  # De klok stopt zichzelf op een vlaggetje; hij wordt niet doodgeschoten.
+  #
+  # Doodschieten lag voor de hand en is precies verkeerd. `kill` op de subshell
+  # laat zijn `sleep` als wees achter (die hangt eronder, niet ernaast), en veel
+  # erger: het signaal kan aankomen terwijl de klok middenin `git commit` zit.
+  # Een halverwege afgebroken commit laat .git/index.lock staan, en dan mislukt
+  # elke volgende commit van de oogst — hij blijft dan uren doorlezen zonder ook
+  # maar iets te bewaren, precies het tegenovergestelde van wat deze klok moet
+  # bereiken.
+  #
+  # Met een vlaggetje stopt de klok uit zichzelf, altijd tussen twee bewaarbeurten
+  # in. Het wachten gaat in stappen van tien seconden zodat hij kort na het blok
+  # weg is en niet nog drie minuten blijft hangen.
+  BLOKBEZIG="$CACHE/.blok_bezig"
+  : > "$BLOKBEZIG"
+  (
+    while [ -e "$BLOKBEZIG" ]; do
+      for _ in $(seq $(( (BEWAARKLOK + 9) / 10 ))); do
+        [ -e "$BLOKBEZIG" ] || break
+        sleep 10
+      done
+      [ -e "$BLOKBEZIG" ] && bewaar
+    done
+  ) &
   KLOK=$!
   python3 "$WORTEL/pipeline/laad_zorg.py" \
     --boekjaar "$BOEKJAAR" --uit-archief --droogloop --hervat \
     --vanaf 0 --aantal "$BLOK" --werkers "$WERKERS" 2>&1 |
     grep -E '^---|opdrachten,|^[0-9]+ organisaties'
-  # Eerst de klok stil, dan pas zelf bewaren: twee git-commits tegelijk vechten
-  # om index.lock en dan mislukt er eentje.
-  kill "$KLOK" 2>/dev/null
+  # Eerst de klok laten uitlopen, dan pas zelf bewaren: twee git-commits tegelijk
+  # vechten om index.lock en dan mislukt er eentje.
+  rm -f "$BLOKBEZIG"
   wait "$KLOK" 2>/dev/null
   bewaar
   if [ "$(regels "$VERWERKT")" -le "$BEKEKEN" ]; then
