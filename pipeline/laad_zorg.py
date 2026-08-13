@@ -369,6 +369,39 @@ def main() -> int:
     te_doen = werklijst
     verwerkt_log = verwerkt_pad.open("a", encoding="utf-8") if argumenten.hervat else None
 
+    def noteer_bekeken(organisatie: dict) -> None:
+        """Deze organisatie is af — pas aanroepen als de uitkomst vaststaat.
+
+        "Bekeken" betekent in dit project ook "nooit meer": staat een KvK-nummer
+        eenmaal in verwerkt_<boekjaar>.txt, dan slaat elke volgende run hem over.
+        Daarom mag die regel er pas bij als de uitkomst ergens duurzaam staat —
+        de rapportregel geflusht, en in de databasestand ook de rij weggeschreven.
+
+        Andersom ging het bijna mis. De regel stond eerst vóór de
+        uitkomst-afhandeling, met als gedachte dat ook een organisatie zonder
+        treffer bekeken is. Dat klopt, maar het opende een venster: wordt het
+        proces precies tussen de twee schrijfacties afgebroken, dan geldt de
+        organisatie als afgehandeld terwijl zijn opdracht nergens staat. Hij komt
+        dan nooit meer langs. Het venster is klein — een glob en wat unlinks —
+        maar het staat op de verkeerde plek, en het maakte tussentijds bewaren
+        tijdens een blok onmogelijk (zie oogst_zorg.sh).
+
+        Nu kan de afbreking hooguit de andere kant op vallen: de uitkomst staat er
+        wél en "bekeken" nog niet. Dan wordt de organisatie een keer overgedaan.
+        Dat kost tijd en levert hooguit een dubbele rapportregel op, die bij het
+        inladen op dezelfde sleutel terechtkomt. Werk overdoen is te overzien;
+        werk stilletjes overslaan niet.
+        """
+        if verwerkt_log is None:
+            return
+        verwerkt_log.write(f"{organisatie['kvk_nummer']}\n")
+        verwerkt_log.flush()
+        # De pdf's van deze organisatie zijn nu dood gewicht: we komen hier niet
+        # meer terug. Eén jaargang is al gauw enkele GB's en de schijf van een
+        # runner is 14 GB.
+        for pdf in CACHE.glob(f"{boekjaar}_{organisatie['kvk_nummer']}_*.pdf"):
+            pdf.unlink(missing_ok=True)
+
     def haal_op(organisatie: dict):
         """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel."""
         try:
@@ -394,19 +427,12 @@ def main() -> int:
                     flush=True,
                 )
 
-            # Vóór de uitkomst-afhandeling: ook een organisatie die niets
-            # opleverde is bekeken, en juist díé wil je niet nog eens doen.
-            if verwerkt_log is not None:
-                verwerkt_log.write(f"{organisatie['kvk_nummer']}\n")
-                verwerkt_log.flush()
-                # De pdf's van deze organisatie zijn nu dood gewicht: we komen
-                # hier niet meer terug. Eén jaargang is al gauw enkele GB's en de
-                # schijf van een runner is 14 GB.
-                for pdf in CACHE.glob(f"{boekjaar}_{organisatie['kvk_nummer']}_*.pdf"):
-                    pdf.unlink(missing_ok=True)
-
             if not resultaat:
+                # Ook een organisatie die niets opleverde is bekeken, en juist díé
+                # wil je niet nog eens doen. Er valt hier niets te bewaren, dus de
+                # aantekening kan meteen.
                 mislukt += 1
+                noteer_bekeken(organisatie)
                 continue
 
             kvk = organisatie["kvk_nummer"]
@@ -451,6 +477,9 @@ def main() -> int:
                         f"draai eerst de Pipeline-workflow",
                         flush=True,
                     )
+                    # De rapportregel staat er wél, dus deze organisatie is af
+                    # voor de oogstroute; alleen de databaserij ontbreekt.
+                    noteer_bekeken(organisatie)
                     continue
 
                 org_velden = {
@@ -515,6 +544,8 @@ def main() -> int:
                     opdracht_velden,
                     "organisatie_id,boekjaar,type_opdracht",
                 )
+
+            noteer_bekeken(organisatie)
 
     rapport.close()
     if verwerkt_log is not None:
