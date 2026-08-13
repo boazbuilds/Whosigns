@@ -1,0 +1,995 @@
+# whosigns-ocr v1 grootte=3741430 dpi=300 paginas=20
+Stichting Amsterdamse Gezondheidscentra
+
+Ref. 31-dec-22 31-dec-21
+€ €
+PASSIVA
+Eigen vermogen 8
+Wettelijke en statutaire reserve
+- Wettelijke reserve 579.546 511.771
+Bestemmingsfonds 5,545,294 5.911.505
+6.124.840 6.423.276
+Voorzieningen 9
+Overige 597.379 711.105
+597.379 711.105
+Langlopende schulden (voor meer dan 1 jaar) 10
+Schulden aan banken 277.876 329.519
+277.876 329.519
+Kortlopende schulden (ten hoogste 1 jaar) 11
+Schulden aan leveranciers en handelskredieter 861.346 587.506
+Schulden aan participanten en maatschappijen waarin wordt deelgenomer 293.485 462.054
+Belastingen en premies sociale verzekeringer 529,835 466.928
+Schulden terzake van pensioenen 180.375 3.367
+Overige schulden 38.065 34.715
+Overige passiva 1.072.836 1.474.199
+2.975.942 3.028.769
+Totaal passiva 9.976.037 10.492.669
+
+40
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.2 ENKELVOUDIGE WINST- EN VERLIESREKENING OVER 2022
+
+Ref. 2022 2021
+€ €
+BEDRIJFSOPBRENGSTEN
+Baten uit beroeps- of bedrijfsmatige zorgverlening 14
+Zorgverzekeringswet 21.941.584 22.708.272
+21.941.584 22.708.272
+Netto omzet 21.941.584 22.708.272
+Overige bedrijfsopbrengsten 19 1.421.167 1.298.293
+Som der bedrijfsopbrengsten 23.362.751 24.006.565
+BEDRIJFSLASTEN
+Kosten uitbesteed werk en andere externe kosten 21 4.128.107 3.648.359
+Lonen en salarissen 22 10,713.571 10.475.898
+Sociale lasten 23 1.650.964 1.494.611
+Pensioenlasten 24 1.070.245 1.021.501
+Afschrijvingen op immateriële en materiële vaste active 25 345.529 321.378
+Overige bedrijfskosten 28 5.820.546 5.670.662
+Som der bedrijfslasten 23.728.962 22.632.409
+BEDRIJFSRESULTAAT -366.211 1.374.156
+RESULTAAT VOOR BELASTINGEN -366.211 1.374.156
+Belastingen 33 0 0
+Aandeel in winst/verlies van ondernemingen waarin wordt deelgenomer 34 67.775 35.709
+RESULTAAT NA BELASTINGEN -298.436 1.409.865
+
+Stichting Amsterdamse Gezondheidscentra
+
+RESULTAATBESTEMMING
+
+Het resultaat is als volgt verdeeld: 2022 2021
+€ €
+
+Wettelijke en statutaire reserve 67.775 35.709
+Bestemmingsfonds -366.211 1.374.156
+-298.436 1.409.865
+
+41
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.3 ENKELVOUDIG KASSTROOMOVERZICHT OVER 2022
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+- afschrijvingen en overige waardeverminderinger
+
+- mutaties voorzieningen (exclusief voorziening deelnemingen:
+- Bijzondere waardevermindering van vlottende active
+
+Veranderingen in werkkapitaal:
+
+- voorraden
+
+- vorderingen
+
+- kortlopende schulden (excl. schulden aan banken;
+
+Kasstroom uit bedrijfsoperaties
+
+Ontvangen interest
+Betaalde interest
+Belastingen
+Ontvangen dividenden
+
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+
+Investeringen materiële vaste activa
+
+Desinvesteringen materiële vaste activa
+
+Investeringen immateriële vaste activa
+
+Desinvesteringen immateriële vaste activa
+
+Verwervingen deelnemingen en/of samenwerkingsverbander
+
+Vervreemdingen deelnemingen en/of samenwerkingsverbander
+
+Uitgegeven leningen u/g
+
+Aflossing leningen u/g
+Investeringen in overige financiële vaste active
+Desinvesteringen overige financiële vaste active
+
+Totaal kasstroom uit investeringsactiviteiten
+
+Kasstroom uit financieringsactiviteiten
+Nieuw opgenomen leningen
+
+Aflossing langlopende schulden
+Kortlopend bankkrediet
+
+Totaal kasstroom uit financieringsactiviteiten
+
+Mutatie geldmiddelen
+
+Stand geldmiddelen per 1 januari
+Stand geldmiddelen per 31 december
+Mutatie geldmiddelen
+
+Ref. 2022 2021
+€ € € €
+-366.211 1.374.156
+25, 26 345.529 321.378
+9 -130.370 0
+27 ) 0
+215.159 321.378
+4 0 0
+5 -686.679 )
+u -52.827 0
+-739.506 0
+-890.558 1.695.534
+30 1) 9)
+32 0) 0
+33 0 0
+29 e )
+0 0
+-890.558 1.695.534
+2 -777.326 0
+2 0) )
+1 0) 0
+1 (1) 0
+3 0) (0)
+3 0 )
+3 0 0
+3 0 1)
+3 0 0)
+3 ) o
+-777.326 0
+10 ) 0)
+10 -35,000 0
+11 0 0)
+-35.000 0
+-1.702.884 1.695.534
+7 3.158.877 1.463.343
+7 1.455.993 3.158.877
+-1.702.884 1.695.534
+
+42
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+De grondslagen voor de waardering en resultaatbepaling van de enkelvoudige jaarrekening komen overeen met de grondslagen voor de
+geconsolideerde jaarrekening. Zie hiervoor paragraaf 2.1.4,
+
+43
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.5 TOELICHTING OP DE ENKELVOUDIGE BALANS
+ACTIVA
+
+2. Materiële vaste activa
+
+Bedrijfs- Andere vaste Niet aan de bedrijfs-
+gebouwenen- Machines en bedrijfs- _Automatiserin uitoefening
+terreinen installaties middelen g dienstbaar Totaal
+€ € € € € €
+Stand per 1 januari 2022
+- aanschafwaarde 6.749.795 670.921 1.594.741 713.195 0 9.728.652
+- Cumulatieve herwaarderingen 0 0 0 0 0 (e)
+- cumulatieve afschrijvingen 3.460.153 509.410 1.473.712 418.309 0 5.862.084
+Boekwaarde per 1 januari 2022 3.289.642 161.511 121.029 294.386 0 3.866.568
+Mutaties in het boekjaar
+= investeringen 772.496 0 0 4.830 0 777.326
+- afschrijvingen 234.847 33.423 26.929 50.330 0 345.529
+Stand per 31 december 2022
+- aanschafwaarde 7.522.291 670.921 1.594.741 718.025 0 10.505.978
+- cumulatieve herwaarderingen 0 0 0 0 0 0
+- cumulatieve afschrijvingen 3.695.000 542.833 1.500.641 469.139 0 6.207.613
+Boekwaarde per 31 december 2022 3.827.291 128.088 94,100 248.886 0 4.298.365
+Afschrijvingspercentage 2,5% 12,5% 10,0% 20,0%
+
+Onder de materiële vaste activa is voor een totaalbedrag van €10.505.979(2021: € 9.728.653) aan vaste activa opgenomen waarvan SAG alleen het
+economisch eigendom heeft.
+
+In de bedrijfsgebouwen en terreinen zijn ook de investeringen opgenomen die in de voorgaande jaarrekeningen vielen onder de noemer aanloopkosten
+(2022: € 80.568, 2021: € 83.569) en verbouwkosten (2022: € 3.118.134, 2021: € 2.539.172).
+
+De vaste activa zijn als zekerheid gesteld voor de langlopende schulden. Voor een nadere toelichting wordt verwezen naar het overzicht van de
+langlopende leningen in onderdeel 2.2.6.
+
+De materiële vaste activa dienen voor een bedrag van € 350.000 (2021: € 350.000) als onderpand voor schulden aan kredietinstellingen, waarvan € 0
+(2021: € O) als garantie voor leningen die zijn geborgd via het Waarborgfonds voor de Zorg (WFZ). Stichting Amsterdamse Gezondheidscentra heeft zich
+verbonden niet zonder voorafgaande toestemming van het WFZ onroerende goederen die zijn gefinancierd met geborgde leningen te vervreemden of met
+een ander zakelijk recht te bezwaren. Tevens heeft Stichting Amsterdamse Gezondheidscentra zich verbonden om op eerste verzoek van het WFZ een
+recht van hypotheek aan het WFZ te verstrekken op onroerende zaken waarvoor een lening is aangegaan die geheel of gedeeltelijk door het WFZ is
+geborgd.
+
+3. Financiële vaste activa
+
+Vorderingen
+op
+participanten
+en op
+Deel- Vorderingen maatschap-
+nemingen in op pijen waarin
+groepsmaat- _groepsmaat- Andere deel- wordt Overige effecten en
+schappijen schappijen nemingen deelgenomen __overige vorderingen Totaal
+€ € € € € €
+Boekwaarde per 1 januari 2022 511.771 Ô 0 0 0 511.771
+Resultaat deelnemingen 67.775 0 0 0 0 67.775
+Boekwaarde per 31 december 2022 579546 e} 0 0 je) 579.546
+Som waardeverminderingen 0 0 0 0 0 [e]
+Belangen in andere rechtspersonen of vennootschappen:
+Naam en rechtsvorm en woonplaats Verschaft Kapitaalbelang
+rechtspersoon Kernactiviteit kapitaal (in %) Eigen vermogen Resultaat
+
+€ €
+Rechtstreekse kapitaalbelangen >= 20%:
+SAG Zorgontwikkeling BV 18.000 100% 511.771 67.775
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.5 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+5. Vorderingen
+
+De voorziening die in aftrek op de vorderingen is gebracht, bedraagt € 1.861 (2021: € 1.861).
+
+In de debiteuren en overige vorderingen is begrepen een bedrag van € 0 (2021: € 0) met een resterende looptijd langer dan 1 jaar.
+
+Ten behoeve van kortlopende schulden aan kredietinstellingen en langlopende schulden aan banken is € O van de vorderingen verpand.
+
+De overige vorderingen en overlopende activa kunnen als volgt worden gespecificeerd:
+
+31-dec-22 31-dec-21
+
+€ €
+
+Debiteuren 2.610.393 1.161.585
+Overige vorderingen 471.804 1.266,214
+Overlopende activa 559.936 527.654
+Totaal overige vorderingen en overlopende activa 3.642.133 2.955.453
+
+7. Liquide middelen
+
+In de liquide middelen zijn deposito's begrepen tot een bedrag van € 0 (2021: € 0). De overige liquide middelen zijn vrij beschikbaar met uitzondering van
+afgegeven bankgaranties in verband met huurcontracten. tot een bedrag van € 180.000 (2021: € 180.000).
+De liquide middelen kunnen als volgt worden gespecificeerd:
+31-dec-22 31-dec-21
+€ €
+Bankrekeningen 1.446.438 3.151.307
+Kassen 2.439 2.539
+Kruisposten 7.116 5.031
+Totaal liquide middelen 1.455.993 3.158.877
+PASSIVA
+8. Eigen vermogen
+Wettelijke en statutaire reserve
+Saldo per Resultaat- Overige Saldo per
+1-jan-2022 bestemming mutaties 31-dec-2022
+€ € € €
+Wettelijke reserve 511.771 67.775 0 579.546
+Totaal wettelijke en statutaire reserve 511.771 67.775 e) 579.546
+Bestemmingsfonds
+Saldo per Resultaat- Overige Saldo per
+1-jan-2022 bestemming mutaties 31-dec-2022
+€ € € €
+Bestemmingsfonds: 5.911.505 -366.211 0 5.545.294
+Totaal bestemmingsfonds 5.911.505 -366.211 0 5.545.294
+
+Het aansprakelijk vermogen bestaat uit het eigen vermogen en de achtergestelde lening{en) die onder de langlopende schulden verwerkt zijn.
+Het aansprakelijk vermogen per 31 december 2022 bedraagt € 6.423.276 (2021: € 6.124.840 }.
+
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.5 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+Toelichting op het verschil tussen enkelvoudig en geconsolideerd resultaat en eigen vermogen
+
+Resultaat Eigen vermogen
+
+€ €
+
+Enkelvoudige cijfers -366.211 6.124.840
+
+SAG Zorgontwikkeling 79.733 0
+
+Subtotaal 79.733 0
+
+Overige verschillen 0 0
+
+Geconsolideerde cijfers -286.478 6.124.840
+9. Voorzieningen
+
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+
+1-jan-2022 31-dec-2022
+
+€ € € € €
+
+- langdurig zieken 580.894 0 117.104 0 463.790
+
+- Jubileum 130.211 3.379 0 0 133.590
+
+Totaal voorzieningen 711.105 3.379 117.104 0 597.380
+
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+31-dec-2022
+
+Kortlopend deel van de voorzieningen (< 1 jr.) 358.428
+Langlopend deel van de voorzieningen {> 1 jr.) 238.952
+hiervan > 5 jaar 0
+
+De voorzieningen zijn voor € 0 (2021: € 0) gemuteerd voor oprenten en veranderingen in de disconteringsvoet.
+
+Met betrekking tot de voorzieningen gelden nog de volgende toelichtingen:
+
+Voorziening jubileum
+
+De voorziening jubileum betreft een voorziening voor toekomstige jubileumuitkeringen. De voorziening betreft de contante waarde van de in de toekomst
+uit te keren jubileumuitkeringen. De berekening is gebaseerd op gedane toezeggingen, blijfkans en leeftijd. De gehanteerde disconteringsvoet bedraagt
+2.5%.
+
+Voorziening langdurig zieken
+
+Voor langdurig zieken is een voorziening gevormd op basis van de contante waarde van de verwachte loonkosten in de eerste twee jaren van de
+arbeidsongeschiktheid (voor medewerkers die naar verwachting niet zullen terugkeren in het arbeidsproces), voor zover deze na 31 december 2022 vallen,
+gebaseerd op 100% gedurende het eerste jaar en 70% gedurende het tweede jaar. De gehanteerde disconteringsvoet bedraagt 0%.
+
+10. Langlopende schulden (voor meer dan 1 jaar)
+
+De specificatie van het totaal van de langlopende schulden naar hun looptijd is als volgt:
+
+Kortlopend deel van de langlopende schulden (< 1 jr), aflossingsverplichtingen 35.000 18.357
+Langlopend deel van de langlopende schulden (> 1 jr.) (balanspost) 277.876 le)
+hiervan > 5 jaar 137.876 0
+
+Voor een nadere toelichting op de langlopende schulden wordt verwezen naar het overzicht langlopende schulden (onderdeel 2,6).
+De aflossingsverplichtingen komend boekjaar zijn verantwoord onder de kortlopende schulden.
+
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.5 TOELICHTING OP DE ENKELVOUDIGE BALANS
+11. Kortlopende schulden
+
+De overige schulden en overige passiva kunnen als volgt worden gespecificeerd:
+
+Overige schulden:
+- Aflossingsverplichtingen komend boekjaar langlopende leningen
+- Nog te betalen salarissen
+
+Totaal overige schulden
+
+Overige passiva:
+
+- Vakantiegeld
+
+- Vakantiedagen
+
+- Persoonlijk budget levensfase
+- Diversen
+
+Totaal overige passiva
+
+31-dec-22 31-dec-21
+€ €
+
+35.000 18.357
+3.065 16.358
+38.065 34.715
+383.023 415.238
+229.520 264.817
+22.163 21.097
+438.130 713.047
+1.072.836 1.474.199
+
+47
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.5 TOELICHTING OP DE ENKELVOUDIGE BALANS
+12. Financiële instrumenten
+
+Algemeen
+
+Stichting Amsterdamse Gezondheidscentra maakt in de normale bedrijfsuitoefening gebruik van uiteenlopende financiële instrumenten die Stichting
+Amsterdamse Gezondheidscentra blootstellen aan markt- en/of kredietrisico’s. Deze betreffen financiële instrumenten die in de balans zijn opgenomen.
+Stichting Amsterdamse Gezondheidscentra handelt niet in financiële derivaten en heeft procedures en gedragslijnen om de omvang van het kredietrisico
+bij elke tegenpartij of markt te beperken. Bij het niet nakomen door een tegenpartij van aan Stichting Amsterdamse Gezondheidscentra verschuldigde
+betalingen blijven eventuele daaruit voortvloeiende verliezen beperkt tot de marktwaarde van de desbetreffende instrumenten. De contractwaarde of
+fictieve hoofdsommen van de financiële instrumenten zijn slechts een indicatie van de mate waarin van dergelijke financiële instrumenten gebruik wordt
+gemaakt en niet van het bedrag van de krediet- of marktrisico's.
+
+13. Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+Fiscale eenheid
+
+Stichting Amsterdamse Gezondheidscentra maakt onderdeel uit van een fiscale eenheid omzetbelasting [specifiek maken] met de volgende instellingen
+SAG Zorgontwikkeling BV en is uit dien hoofde hoofdelijk aansprakelijk voor de schulden van de fiscale eenheid. Uitimo 2022 bedragen de schulden van de
+fiscale eenheid € 629 (2021: €1101).
+
+Huurverplichtingen
+De met derden aangegane meerjarige huurverplichtingen van onroerende zaken betreffen:
+
+Onroerende zaak Geschatte Omvang Omvang Einddatum
+jaarhuursom verplichting verplichting huurcontract
+2023 in € 2-5jaarin€ >5 jaar in €
+
+Bedrijfsbureau 70.000 Opzegtermijn 6 mnd
+GC Sportheldenbuurt 160.336 Opzegtermijn 1 jaar
+GC De Keyzer 157.188 Opzegtermijn 1 jaar
+GC Vlaanderen 34.800 Opzegtermijn 1 jaar
+GC Borgerstraat 65.100 Opzegtermijn 2 mnd
+GC Haveneiland 154.404 Opzegtermijn 1 jaar
+GC Oosthoek 161.874 Opzegtermijn 1 jaar
+GC Osdorp 338.472 Opzegtermijn 6 mnd
+GC Osdorpplein 41.664 Opzegtermijn 1 jaar
+GC Slotermeer 41.448 Opzegtermijn 1 jaar
+GC Staatsliedenbuurt 136.956 Opzegtermijn 1 jaar
+GC Steigereiland 35.496 Opzegtermijn 1 jaar
+GC Pampus 91.332 Opzegtermijn 1 jaar
+GC de Vaart 37.304 Opzegtermijn 1 jaar
+GC NDSM Werf 53.328 Opzegtermijn 1 jaar
+GC Watergraafsmeer 61.128 Opzegtermijn 1 jaar
+Totaal 1.640.830 0 0
+
+De huurverplichtingen kwalificeren op grond van de bepalingen van RJ-Richtlijn 292 Leasing als operational lease en zijn om die reden niet in de balans
+opgenomen.
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgverzekeraars op de gedeclareerde zorgprestaties en maatschappelijke ondersteuning kunnen correcties
+noodzakelijk zijn op de gedeclareerde productie, De effecten van eventuele materiële nacontroles zijn vooralsnog onzeker. Stichting Amsterdamse
+Gezondheidscentra heeft op basis van een risicoanalyse een zo nauwkeurig mogelijke inschatting gemaakt van de hieruit voortvloeiende risico’s en
+verplichtingen. Daarbij is rekening gehouden met uitkomsten van interne en externe controles.
+
+Dezelfde onzekerheid is aan de orde met betrekking tot de definitieve vaststelling van subsidies. Voor het jaar 2022 richt deze onzekerheid zich specifiek
+op de subsidie zorgbonus. Ook hiervoor geldt dat op basis van landelijke en lokale richtlijnen en afspraken een zo nauwkeurig mogelijke schatting is
+gemaakt van de te verwerken opbrengsten. Niet uitgesloten kan worden dat de verwerkte bedragen bij de definitieve vaststelling nog substantieel
+bijgesteld worden. Deze bijstellingen zullen dan in het resultaat van het boekjaar verwerkt worden, waarin de bijstelling voldoende aannemelijk wordt.
+
+Stichting Amsterdamse Gezondheidscentra verwacht uit hoofde van genoemde nacontroles en subsidievaststellingen overigens geen noemenswaardige
+correcties op de verantwoorde opbrengsten.
+
+48
+
+6v
+
+000'SE 9L8'LET 98° ZTE 000'SE 0 M8'LVE lee3oL,
+ga PUed|O0O'SE Henuuy 6 MBLEL |OL8'TTE 000'SE 0 LB LVE TEINT [OPZ zaaylodÂH| OT [OOO'OSE Te-IN-T DNI
+3 3 3 3 3 3 % 3
+TT0z
+d
+uapeyJexez Ez0z ezfian pule uesel deel 5 4aA0 Ee0z zzoz ee0z Te0e opoue aur pfia-doof unzep
+Jagwaop TE ui ua3uiuaj | soqwesep te |aser-azuoal oli Buiuaj Hoos WOSPJOOH Jane93uIuag
+aple3s95 Suissojsy | -s3uyssojgy | ui pfavdooj pinussisay ui 3usssorsy ele30.L -HINISSY
+neen pinyasisoy emneiN pinyas3say spuII -2rlM
+
+TEOZ OINILIN NAATNHIS IONAdOTINYT LHIIZEIAO DIANOATIDINA 9°E'Z
+
+e3uoosptaypuozeg aswepJarsury 3uQyIns
+
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.7 TOELICHTING OP DE ENKELVOUDIGE WINST- EN VERLIESREKENING
+BATEN
+
+14. Baten uit beroeps- of bedrijfsmatige zorgverlening
+
+De baten uit andere beroeps- of bedrijfsmatige activiteiten kunnen als volgt worden gespecificeerd:
+
+2022 2021
+
+€ €
+
+Opbrengst inschrijfgelden 7.234.774 6.717.983
+Opbrengst consulten en verrichtingen 4.117.602 4.249.715
+Opbrengst verrichtingen M&I 389.248 418.014
+Opbrengsten ketenzorg DM, CVRM en COPD 2.573.738 2.129.164
+Opbrengst modules 4.447.086 4.697.935
+Zorggerelateerde en overige inkomsten 1.642.009 245.847
+O&l en loondienstcompensatie 1.494.956 1.807.740
+Overige zorggerelateerde opbrengsten 1.210.848
+Overige subsidies projecten 42.171 1.231.026
+Totaal 21.941.584 22.708.272
+
+Toelichting
+
+In 2022 hebben we wat omzetcategorieën anders gerubriceerd. Teneinde een juiste vergelijking te maken moeten de volgende 4 categorieëen bij
+elkaar opgeteld worden:
+
+- Zorggerelateerde en overige inkomsten;
+
+- Overige zorggerelateerde opbrengsten;
+
+- Overige Subsidies projecten;
+
+- Overige opbrengsten
+
+De totaaltelling van deze 4 categorieën bedraagt in 200 € 3.105.347 en in 2021 € 3.986.014. Een daling van € 880.667. Deze daling is grotendeels toe
+te wijzen aan diverese COVID gerelateerde opbrengsten:
+
+- Corona tientje € 343.000;
+
+- Ontvangen zorgbonus € 136.000 en
+
+- Vergoeding zetten COVID vaccinatie € 365.000
+
+19. Overige bedrijfsopbrengsten
+
+De overige bedrijfsopbrengsten kunnen als volgt worden gespecificeerd:
+
+2022 2021
+€ €
+- Verhuuropbrengsten
+- Opbrengsten Huur & Servicekosten 1.261.167 1.143.633
+- Opbrengsten doorbelasting overhead 160.000 154.660
+Totaal 1.421.167 1.298.293
+LASTEN
+21. Kosten uitbesteed werk en andere externe kosten
+De kosten uitbesteed werk en andere externe kosten kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Kosten personeel niet in loondienst:
+- Kosten ingehuurd personeel/ uitzendkrachten 4.128.107 3.648.359
+Totaal 4.128.107 3.648.359
+
+50
+
+Stichting Amsterdamse Gezondheidscentra
+
+2.2.7 TOELICHTING OP DE ENKELVOUDIGE WINST- EN VERLIESREKENING
+
+22. Lonen en salarissen
+
+De lonen en salarissen kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Lonen en salarissen 10.713.571 10.475.898
+Totaal 10.713.571 10.475.898
+Het gemiddelde aantal personeelsleden op basis van full-time eenheden (fte's) is als volgt: 168 164
+168 164
+25. Afschrijvingen op immateriële en materiële vaste activa
+De afschrijvingen op immateriële en materiële vaste activa kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Afschrijvingen:
+- materiële vaste activa 345.529 321.378
+Totaal afschrijvingen 345.529 321.378
+28. Overige bedrijfskosten
+De overige bedrijfskosten kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Overige personeelskosten 987.235 1.155.291
+Algemene kosten 2.368.521 2.237.537
+Huur en leasing 1.506.437 1.446.725
+Onderhoudskosten 136.090 97.934
+Energiekosten 404.301 337.668
+Totaal overige bedrijfskosten 5.402.584 5.275.205
+34. Aandeel in winst/verlies van ondernemingen waarin wordt deelgenomen
+Het aandeel in winst/verlies van ondernemingen waarin wordt deelgenomen kan als volgt worden
+gespecificeerd:
+2022 2021
+€ €
+SAG Zorgontwikkeling B.V. 67.775 35.709
+Totaal 67.775 35.709
+
+51
+
+<<Naam (zorg)organisatie>>
+
+2.2.7 TOELICHTING OP DE ENKELVOUDIGE WINST- EN VERLIESREKENING
+
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+De bezoldiging van de leden van de Raad van Bestuur (en overige topfunctionarissen) over het jaar 2022 is als volgi
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder dienstbetrekking vanaf de 13e maand
+
+van de functievervulling
+
+1 Functie (functienaam)
+
+2 In dienst vanaf (datum begin functievervulling)
+
+3 In dienst tot en met (datum einde functievervulling!
+
+4 (Fictieve) dienstbetrekking?
+
+5 Deeltijdfactor (minimaal 0,025 fte)
+
+6 Beloning plus belastbare onkostenvergoedingen
+
+7 Voorzieningen ten behoeve van beloningen betaalbaar op termijn
+8 Totale bezoldiging uit hoofde van de functie van topfunctionaris
+
+9 Individueel toepasselijk bezoldigingsmaximum
+
+10 Bezoldiging uit hoofde van nevenwerkzaamheden bij de WNT-instelling
+
+11 Bezoldiging voor werkzaamheden bij gelieerde rechtspersoor
+12 Totale bezoldiging
+
+Voor de WNT-instelling geldend bezoldigingsmaximum (indien
+
+nevenwerkzaamheden of werkzaamheden bij gelieerde rechtspersoon)
+
+14 Uitkeringen in verband met de beëindiging van het dienstverbanc
+15 Individueel toepasselijk maximum
+
+Vergelijkende cijfers 2021
+1 (Fictieve) dienstbetrekking?
+2 Deeltijdfactor (minimaal 0,025 fte)
+3 Beloning plus belastbare onkostenvergoedingen
+4 Voorzieningen ten behoeve van beloningen betaalbaar op termijr
+5 Totale bezoldiging uit hoofde van de functie van topfunctionaris
+
+6 Individueel toepasselijk bezoldigingsmaximum
+
+Toezichthoudende topfunctionarissen
+
+1 Functie (functienaam)
+
+2 In dienst vanaf (datum begin functievervulting)
+
+3 In dienst tot en met (datum einde functievervulling!
+4 Totale bezoldiging in het kader van de WNT
+
+5 Individueel toepasselijk bezoldigingsmaximum
+Vergelijkende cijfers 2021
+1 Totale bezoldiging in het kader van de WNT
+
+2 Individueel toepasselijk bezoldigingsmaximum
+
+1 Functie (functienaam)
+
+2 In dienst vanaf (datum begin functievervulling)
+
+3 In dienst tot en met (datum einde functievervulling;
+4 Totale bezoldiging in het kader van de WNT
+
+5 Individueel toepasselijk bezoldigingsmaximum
+
+Toelichting
+
+P.A.W. van Hessen
+Bestuurder
+1-jan-15
+heden
+Ja
+100%
+152.460
+13.745
+
+166.205
+
+176.000.
+
+0
+0
+
+166.205
+
+176.000
+
+Ja
+
+100%
+148.560
+13.017
+
+161.577
+
+170.000
+
+J.C. Broertjes
+Voorzitter RvT
+1-jan-17
+heden
+
+C.E. van Dulleman
+Lid RvT
+1-mei-21
+heden
+
+A.C.H. Valkenburg
+Lid RvT
+27-aug-15
+heden
+
+20.370
+
+13.330
+
+13.330
+
+26.400
+
+17.600
+
+17.600
+
+17.383
+
+8.566
+
+12.350
+
+22.667
+
+JY. Ekelmans
+Lid RvT
+1-jan-21
+heden
+
+11.333
+
+A.C. Siemons
+Lid RvT
+1-mei-21
+heden
+
+13.330
+
+13.330
+
+17.600
+
+17.600
+
+17.000
+
+De Raad van Toezicht heeft conform de Regeling Bezoldigingsmaxima Topfunctionarissen Zorg en Jeugdhulp aan Stichting Amsterdamse
+Gezondheidscentra een totaalscore van 9 punten toegekend. De daaruit volgende klassenindeling betreft klasse Ill, met een bijbehorend
+bezoldigingsmaximum voor de Raad van Bestuur van€ 176.000. Dit maximum wordt niet overschreden door de Raad van Bestuur.
+
+Het bijbehorende bezoldigingsmaximum voor de voorzitter van de Raad van Toezicht bedraagt€ 26.400 en voor de overige leden van de Raad
+
+van Toezicht € 17.600. Deze maxima worden niet overschreden.
+
+52
+
+Stichting Amsterdamse Gezondheidscentra
+
+1.7 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Stichting Amsterdamse Gezondheidscentra heeft de jaarrekening 2022 opgemaakt
+en vastgesteld in de vergadering van 28 juni 2023, onder gelijktijdige goedkeuring daarvan door
+
+de raad van toezicht.
+
+Resuftaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in de resultatenrekening.
+
+Gebeurtenissen na balansdatum
+
+Er hebben zich geen belangrijke gebeurtenissen voorgedaan na de balansdatum
+
+28-6-2023
+
+28-6-2023 28-6-2023
+
+Mevr. A.C.H. Valkenburg 28-6-2023 Dhr. A. Siemons 28-6-2023
+
+Stichting Amsterdamse Gezondheidscentra
+
+3 OVERIGE GEGEVENS
+
+54
+
+Stichting Amsterdamse Gezondheidscentra
+
+3 OVERIGE GEGEVENS
+
+3.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 26, dat het behaalde resultaat ter vrije beschikking staat var
+Stichting Amsterdamse Gezondheidscentra
+
+3.2 Nevenvestigingen
+
+Stichting Amsterdamse Gezondheidscentra heeft geen nevenvestigingen
+
+3.3 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina
+
+55
+
+Controleverklaring van de
+
+onafhankelijke accountant
+
+56
+
+VERSTEGEN in
+
+accountants en adviseurs Postbus 574
+3300 AN Dordrecht
+
+Nr 1129 |. (078) 648 15 55
+
+info@verstegenaccountants.nl
+
+Aan de raad van toezicht en de raad van bestuur van wai Versteeenetcauntantl
+
+Stichting Amsterdamse Gezondheidscentra
+
+Controleverklaring van de onafhankelijke accountant
+
+Verklaring over de in de Jaarverantwoording 2022 opgenomen jaarrekening 2022
+
+Ons oordeel
+Wij hebben de jaarrekening 2022 van Stichting Amsterdamse Gezondheidscentra te Amsterdam gecontroleerd.
+
+Naar ons oordeel geeft de in de Jaarverantwoording 2022 opgenomen jaarrekening een getrouw beeld van de
+grootte en de samenstelling van het vermogen van Stichting Amsterdamse Gezondheidscentra op 31 december
+2022 en van het resultaat over 2022 in overeenstemming met de Regeling openbare jaarverantwoording WMG
+(RojW).
+
+De jaarrekening bestaat uit:
+
+1. de geconsolideerde en enkelvoudige balans per 31 december 2022;
+
+2. de geconsolideerde en enkelvoudige winst- en verliesrekening over 2022; en
+
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële verslaggeving en andere
+toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de Nederlandse
+controlestandaarden en de Regeling Controleprotocol Wet normering topinkomens (WNT) 2022 vallen. Onze
+verantwoordelijkheden op grond hiervan zijn beschreven in de sectie ‘Onze verantwoordelijkheden voor de
+controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Amsterdamse Gezondheidscentra zoals vereist in de Verordening inzake de
+onafhankelijkheid van accountants bij assurance-opdrachten (ViO) en andere voor de opdracht relevante
+onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de Verordening gedrags- en
+beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis voor ons oordeel.
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met de Regeling Controleprotocol WNT 2022 hebben wij de anticumulatiebepaling,
+bedoeld in artikel 1.64 WNT en artikel 5, lid 1, sub n en o Uitvoeringsregeling WNT, niet gecontroleerd. Dit
+betekent dat wij niet hebben gecontroleerd of er wel of niet sprake is van een normoverschrijding door een
+leidinggevende topfunctionaris vanwege eventuele dienstbetrekkingen als leidinggevende topfunctionaris bij
+andere WNT-plichtige instellingen alsmede of de in dit kader vereiste toelichting juist en volledig is.
+
+VERSTEGEM ACCOUNTANTS EN ADVISEURS BV. - KVK NR, 24242100,
+Op al onze werkeasenheden zijn de zigemene voorwaarden van het SRA van toepassing. Deze zin gedeponeerd bij de Kamer van Koophandel te Utrecht onder rumsnar 40421405.
+
+mgi: „D-
+il SRA
+
+Verklaring over de in de Jaarverantwoording 2022 opgenomen andere informatie
+
+De Jaarverantwoording 2022 omvat andere informatie, naast de jaarrekening en onze controleverklaring
+daarbij. De andere informatie bestaat uit:
+
+e _ het bestuursverslag;
+
+e het verslag van de raad van toezicht;
+
+e de overige gegevens.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie:
+e metde jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+e alie informatie bevat die op grond van de RojW is vereist.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip, verkregen vanuit
+de jaarrekeningcontrole of anderszins, overwogen of de andere informatie materiële afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in de RojW en de Nederlandse Standaard 720.
+Deze werkzaamheden hebben niet dezelfde diepgang als onze controlewerkzaamheden bij de jaarrekening.
+
+De raad van bestuur is verantwoordelijk voor het opstellen van de andere informatie, waaronder het bestuurs-
+verslag, het verslag van de raad van toezicht en de overige gegevens in overeenstemming met de RojW.
+
+Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+
+Verantwoordelijkheden van de raad van bestuur en de raad van toezicht voor de jaarrekening
+
+De raad van bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met de RojW. In dit kader is de raad van bestuur tevens verantwoordelijk voor een zodanige
+interne beheersing die de raad van bestuur noodzakelijk acht om het opmaken van de jaarrekening mogelijk te
+maken zonder afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet de raad van bestuur afwegen of de organisatie in staat is om haar
+werkzaamheden in continuïteit voort te zetten: Op grond van genoemd verslaggevingsstelsel moet de raad van
+bestuur de jaarrekening opmaken op basis van de continuïteitsveronderstelling, tenzij de raad van bestuur het
+voornemen heeft om de organisatie te liquideren of de activiteiten te beëindigen of als beëindiging het enige
+realistische alternatief is. De raad van bestuur moet gebeurtenissen en omstandigheden waardoor gerede
+twijfel zou kunnen bestaan of de organisatie haar activiteiten in continuïteit kan voortzetten, toelichten in de
+jaarrekening.
+
+De raad van toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van financiële verslag-
+geving van de organisatie.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat wij daarmee
+voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid waardoor het mogelijk
+is dat wij tijdens onze controle niet alle materiële fouten en fraude ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien redelijkerwijs kan worden
+verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen zijn op de economische beslissingen die
+gebruikers op basis van deze jaarrekening nemen. De materialiteit beïnvloedt de aard, timing en omvang van
+onze controlewerkzaamheden en de evaluatie van het effect van onderkende afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar relevant professionele
+oordeelsvorming toegepast in overeenstemming met de Nederlandse controlestandaarden, de Regeling
+Controleprotocol WNT 2022, ethische voorschriften en de onafhankelijkheidseisen. Onze controle bestond
+onder andere uit:
+
+e Het identificeren en inschatten van de risico’s dat de jaarrekening afwijkingen van materieel belang bevat
+als gevolg van fouten of fraude, het in reactie op deze risico’s bepalen en uitvoeren van controle-
+werkzaamheden en het verkrijgen van controle-informatie die voldoende en geschikt is als basis voor ons
+oordeel. Bij fraude is het risico dat een afwijking van materieel belang niet ontdekt wordt groter dan bij
+fouten. Bij fraude kan sprake zijn van samenspanning, valsheid in geschrifte, het opzettelijk nalaten
+transacties vast te leggen, het opzettelijk verkeerd voorstellen van zaken of het doorbreken van de interne
+beheersing.
+
+e Het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als doel
+controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze werkzaamheden
+hebben niet als doel om een oordeel uit te spreken over de effectiviteit van de interne beheersing van de
+organisatie.
+
+e Het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële verslaggeving en het
+evalueren van de redelijkheid van schattingen door de raad van bestuur en de toelichtingen die daarover in
+de jaarrekening staan.
+
+e Het vaststellen dat de door de raad van bestuur gehanteerde continuïiteitsveronderstelling aanvaardbaar is.
+Tevens het op basis van de verkregen controle-informatie vaststellen of er gebeurtenissen en
+omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of de organisatie haar activiteiten in
+continuïteit kan voortzetten. Als wij concluderen dat er een onzekerheid van materieel belang bestaat, zijn
+wij verplicht om aandacht in onze controleverklaring te vestigen op de relevante gerelateerde toelichtingen
+in de jaarrekening. Als de toelichtingen inadequaat zijn, moeten wij onze verklaring aanpassen. Onze
+conclusies zijn gebaseerd op de controle-informatie die verkregen is tot de datum van onze
+controleverklaring. Toekomstige gebeurtenissen of omstandigheden kunnen er echter toe leiden dat een
+organisatie haar continuïteit niet langer kan handhaven.
+
+e Het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin opgenomen
+toelichtingen.
+
+e Het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties en
+gebeurtenissen.
+
+Wij communiceren met de raad van toezicht onder andere over de geplande reikwijdte en timing van de controle
+en over de significante bevindingen die uit onze controle naar voren zijn gekomen, waaronder eventuele
+significante tekortkomingen in de interne beheersing.
+
+Dordrecht, 28 juni 2023
+
+Verstegen accountants en adviseurs B.V.,
+
+was getekend,
+drs. F. van der Plaat RA

@@ -1,0 +1,659 @@
+# whosigns-ocr v1 grootte=626032 dpi=300 paginas=20
+Rapport inzake
+financieel verslag 2021 van
+
+Stichting Oogkliniek Drechtsteden
+
+Verstegen accountants en belastingadviseurs
+Dordrecht, 21 april 2022
+
+Dit rapport heeft 17 pagina's
+
+Ref.: KH/WH/329534.21/JV
+
+®@
+
+Inhoudsopgave
+
+Pagina
+1. Accountantsrapport
+11 Samenstellingsverklaring van de accountant 3
+1.2 Resultaten 4
+2. Jaarrekening
+2.1 Balans per 31 december 2021 6
+2.2 Staat van baten en lasten over 2021 8
+2.3 Kasstroomoverzicht over 2021 g
+24 Grondslagen van waardering en resultaatbepaling 10
+2.5 Toelichting op de balans 13
+2.6 Toelichting op de staat van baten en lasten 15
+2.7 Overige toelichtingen 16
+Bijlagen
+1. Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT) 17
+
+V E R S T E GE N NOORDENDIJK 207
+
+accountants en belastingadviseurs POSTBUS 574
+
+3300 AN DORDRECHT
+
+T. (078) 648 15 55
+
+Aan de firmanten van INFO @ VERSTEGENACCOUNTANTS .NL
+Stichting Oogkliniek Drechtsteden
+Veerpromenade 22
+
+3353 HG Papendrecht
+
+WWW.VERSTEGENACCOUNTANTS.NI.
+
+Dordrecht 21 april 2022
+
+Geachte heer,
+
+U hebt ons de opdracht gegeven de jaarrekening 2021 van uw stichting samen te stellen.
+De samenstellingsverklaring is onder 1.1 hierna opgenomen. Bijgaand treft u de jaarrekening aan.
+
+1.1 Samenstellingsverklaring van de accountant
+
+De jaarrekening van Stichting Oogkliniek Drechtsteden te Papendrecht is door ons samengesteld op
+basis van de van u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2021 en
+de staat van baten en lasten over 2021 met de daarbij horende toelichting. In deze toelichting is onder
+andere een overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, 'Samenstellingsopdrachten'. Op grond van deze standaard
+wordt van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening.
+Wij hebben daarbij onze deskundigheid op het gebied van administratieve verwerking en financiële
+verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons
+alle relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de
+daarvoor geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze
+verantwoordelijkheid heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen van
+de jaarrekening globaal nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis van
+Stichting Oogkliniek Drechtsteden.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante
+ethische voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere
+gebruikers van deze jaarrekening mogen er dan ook van uitgaan dat wij de opdracht professioneel,
+vakbekwaam en zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan
+met de door u verstrekte gegevens.
+
+mg/ SRA
+
+®@
+
+1.2 Resultaten
+
+Bespreking van de resultaten
+
+Opbrengsten zorgprestaties
+Uitbesteding zorgprestaties
+
+Brutowinst
+
+Afschrijvingen materiële vaste
+activa
+
+Overige bedrijfskosten
+
+Totaal van som der kosten
+
+Totaal van bedrijfsresultaat
+
+Financiële baten en lasten
+
+Totaal van netto resultaat
+
+2021 2020 Verschil
+€ % € % € %
+7485618 100,0 5.314.412 100,0 2.171.206 40,9
+-/467.909 -998 -5.269./83 -99,2 -2.198.126 -41,7
+17.709 0,2 44.629 0,8 -26.920 -60,3
+36 = 219 - -183 -83,6
+15.530 0,2 28.037 0,5 -12.557 -44,7
+15.566 0,2 28.306 0,5 -12./40 -45,0
+2.143 - 16.323 0,3 -14.180 -36,9
+-713 - -13.878 -0,3 13.165 94,9
+1.430 - 2445 - -1.015 -41,5
+
+
+Resultaatanalyse
+
+2021
+€ €
+
+Resultaatverhogend
+Lagere afschrijvingen materiële vaste activa 183
+Lagere overige bedrijfskosten 12.557
+Hogere financiële baten en lasten 13.165
+
+25.905
+Resultaatverlagend
+Lagere brutowinst 26.920
+
+26.920
+Daling van het resultaat 1.015
+
+Wij vertrouwen erop u hiermee voldoende te hebben geïnformeerd. Uiteraard zijn wij altijd bereid om,
+als u dat wenst, aanvullende informatie te verstrekken.
+
+Hoogachtend,
+
+namens Verstegen accountants en belastingadviseurs,
+
+(
+
+\
+
+A
+
+Drs. L.K. Hoogendoorn RA MGA
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+2.1 Balans per 31 december 2021
+
+{na voorstel resultaatverdeling)
+
+31-12-2021 31-12-2020
+
+€ € € €
+ACTIVA
+Vaste activa
+Materiële vaste activa
+Andere vaste bedrijfsmiddelen - 36
+Vlottende activa
+Vorderingen
+Vorderingen op handelsdebiteuren 267.632 374.705
+Liquide middelen 40.967 58.739
+Totaal activazijde 308.599 433.480
+
+Samenstellingsverklaring afgegeven 6
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+PASSIVA
+
+Stichtingsvermogen
+Eigen kapitaal
+
+Kortlopende schulden
+
+Overige schulden
+Overlopende passiva
+
+Totaal passivazijde
+
+Samenstellingsverklaring afgegeven
+
+31-12-2021 31-12-2020
+€ € € €
+5.742 4.312
+236.101 380.112
+66.756 49.056
+302.857 429.168
+308.599 433.480
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+2.2 Staat van baten en lasten over 2021
+
+Opbrengsten zorgprestaties
+Uitbesteding zorgprestaties
+
+Brutowinst
+
+Lasten
+Afschrijvingen materiële vaste activa
+Overige bedrijfskosten
+
+Totaal van som der kosten
+
+Totaal van bedrijfsresultaat
+Rentelasten en soortgelijke kosten
+
+Totaal van netto resultaat
+
+Samenstellingsverklaring afgegeven
+
+2021 2020
+€ € € €
+7.485.618 5.314.412
+-7.467.909 -5.269.783
+17.709 44.629
+36 219
+15.530 28.087
+15.566 28.306
+2.143 16.323
+-713 -13.8/8
+____1430 2.445
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+2.3 Kasstroomoverzicht over 2021
+
+2021 2020
+€ € € €
+
+Totaal van kasstroom uit operationele
+activiteiten
+Bedrijfsresultaat 2.143 16.323
+Aanpassingen voor
+Afschrijvingen 36 219
+Verandering in werkkapitaal
+Afname (toename) van handelsdebiteuren 107.073 130.679
+Toename (afname) van overige schulden -126.311 -153.765
+
+-19.238 -23.086
+Totaal van kasstroom uit bedrijfs-
+operaties -17.059 -6.544
+Betaalde interest -713 -13.878
+Totaal van kasstroom uit operationele
+activiteiten -17.772 -20.422
+Totaal van toename (afname) van geld-
+middelen -17,772 -20.422
+Verloop van toename (afname) van geldmiddelen
+Geldmiddelen aan het begin van de
+periode 58.739 79.161
+Toename (afname) van geldmiddelen -17.772 -20.422
+Geldmiddelen aan het einde van de
+periode 40.967 58.739
+
+Samenstellingsverklaring afgegeven g
+
+Stichting Oogkliniek Drechtsteden
+
+2.4 Grondslagen van waardering en resultaatbepaling
+
+Informatie over de rechtspersoon
+
+Vestigingsadres en inschrijfnummer handelsregister
+
+Stichting Oogkliniek Drechtsteden is feitelijk en statutair gevestigd op Veerpromenade 22, 3353 HG te
+Papendrecht en is ingeschreven bij het handelsregister onder nummer 57614245.
+
+Algemene toelichting
+
+De belangrijkste activiteiten van de rechtspersoon
+
+De activiteiten van Stichting Oogkliniek Drechtsteden bestaan voornamelijk uit het leveren van
+verantwoorde medisch specialistische zorg op het gebied van oogheelkunde.
+
+Informatieverschaffing over schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde
+waarde van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen
+afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden voort-
+durend beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de
+schatting wordt herzien en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi, de Richtlijnen
+voor de Jaarverslaggeving RJ 655, Titel 9 BW2 en de bepalingen van en krachtens de Wet normering
+bezoldiging topfunctionarissen publieke en semipublieke sector (WNT).
+
+Voor de uitvoering van de Wet normering bezoldiging topfunctionarissen in de (semi)publieke sector
+(WNT) heeft de stichting zich gehouden aan de Beleidsregel toepassing WNT en deze als normenkader
+bij het opmaken van deze jaarrekening gehanteerd.
+
+Activa en verplichtingen worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigings-
+prijs of de actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering
+plaats tegen de verkrijgingsprijs.
+
+Een actief wordt in de balans opgenomen wanneer het waarschijnlijk is dat de toekomstige
+economische voordelen naar de stichting zullen toevloeien en de waarde daarvan betrouwbaar kan
+worden vastgesteld. Een verplichting wordt in de balans opgenomen wanneer het waarschijnlijk is dat
+de afwikkeling daarvan gepaard zal gaan met een uitstroom van middelen die economische voordelen
+in zich bergen en de omvang van het bedrag betrouwbaar kan worden vastgesteld.
+
+Samenstellingsverklaring afgegeven 10
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+Grondslagen
+
+Materiële vaste activa
+
+Materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie.
+Vorderingen worden na eerste verwerking gewaardeerd tegen de geamortiseerde kostprijs. Indien geen
+sprake is van (dis)agio en transactiekosten is de geamortiseerde kostprijs gelijk aan de nominale waarde
+van de vorderingen. Als de ontvangst van de vordering is uitgesteld op grond van een verlengde
+overeengekomen betalingstermijn wordt de reële waarde bepaald aan de hand van de contante waarde
+van de verwachte ontvangsten en worden er op basis van de effectieve rente rente-inkomsten ten
+gunste van de staat van baten en lasten gebracht. Voorzieningen wegens oninbaarheid worden in
+mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het
+ontvangen bedrag rekening houdend met agio of disagio en onder aftrek van transactiekosten. Dit is
+meestal de nominale waarde.
+
+De bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en
+de kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het
+jaar waarin zij zijn gerealiseerd.
+
+Omzetverantwoording
+
+De opbrengsten uit dienstverlening worden verantwoord naar rato van verrichte prestaties, gebaseerd
+op de verrichte diensten tot aan de balansdatum en in verhouding tot in totaal te verrichten diensten
+(onder de voorwaarde dat het resultaat betrouwbaar kan worden geschat, dit indien aan de volgende
+voorwaarden is voldaan: a. het bedrag kan op betrouwbare wijze worden bepaald; b. waarschijnlijke
+economische voordelen; c. de mate waarin de dienstverlening op de balansdatum is verricht kan op
+betrouwbare wijze worden bepaald; en d. gemaakte kosten en kosten die nog moeten worden gemaakt
+kunnen betrouwbaar worden bepaald; als dat niet kan dan opbrengsten slechts verwerken tot het
+bedrag van de kosten van de dienstverlening).
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten
+zijn verantwoord.
+
+Samenstellingsverklaring afgegeven 11
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+Afschrijvingen op materiële vaste activa
+Materiële vaste activa worden vanaf het moment van gereedheid voor ingebruikneming afgeschreven
+over de verwachte toekomstige gebruiksduur van het actief.
+
+Indien een schattingswijziging plaatsvindt van de toekomstige gebruiksduur, dan worden de
+toekomstige afschrijvingen aangepast.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+Overige bedrijfskosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij
+betrekking hebben.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve
+rentevoet van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening
+gehouden met de verantwoorde transactiekosten op de ontvangen leningen.
+
+Kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld op basis van de indirecte methode.
+
+Samenstellingsverklaring afgegeven 12
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+2.5 Toelichting op de balans
+Vaste activa
+
+Materiële vaste activa
+
+Andere vaste
+bedrijfs-
+middelen
+€
+
+Stand per 1 januari 2021
+Verkrijgings- of vervaardigings-
+prijs 1.094
+Cumulatieve afschrijvingen _-1.058
+Boekwaarde per 1 januari 2021 36
+Mutaties
+Afschrijvingen -36
+Saldo mutaties -36
+Stand per 31 december 2021
+Verkrijgings- of vervaardigings-
+prijs 1.094
+Cumulatieve afschrijvingen -1.094
+
+Boekwaarde per
+
+31 december 2021 -
+Vlottende activa
+Vorderingen
+31-12-2021 31-12-2020
+€ €
+Vorderingen op handelsdebiteuren
+Vorderingen op handelsdebîiteuren 762.413 899.705
+Voorziening dubieuze vorderingen op handelsdebiteuren -494.781 -525.000
+267.632 374.705
+
+Samenstellingsverklaring afgegeven 13
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+Liquide middelen
+Kas/kluis
+Rabobank, rekening-courant
+
+Eigen kapitaal
+Stand per 1 januari
+Uit resultaatverdeling
+
+Stand per 31 december
+
+Kortlopende schulden
+
+Overige schulden
+Overige rekening-courant
+
+Overige rekening-courant
+Oogkliniek Drechtsteden B.V, rekening-courant
+Ooglaser Centrum Drechtsteden B.V, rekening-courant
+
+Overlopende passiva
+Vooruitontvangen subsidie
+Diversen
+
+Samenstellingsverklaring afgegeven
+
+31-12-2021 31-12-2020
+€ €
+603 -
+40.364 58.739
+40.967 58.739
+2021 2020
+€ €
+4.312 1.867
+1.430 2.445
+5.742 4.312
+31-12-2021 31-12-2020
+€ €
+236.101 380.112
+234.503 380.112
+1.598 -
+236.101 380.112
+62.756 35.220
+4,000 13.836
+66.756 49.056
+14
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+2.6 Toelichting op de staat van baten en lasten
+
+2021 2020
+
+€ €
+Opbrengsten zorgprestaties
+Opbrengsten zorgverzekeringswet 7.485.618 5.314.412
+Uitbesteding zorgprestaties
+Uitbesteding oogheelkundige zorg 7.467.909 5.269.783
+Afschrijvingen materiële vaste activa
+Andere vaste bedrijfsmiddelen 36 219
+Overige bedrijfskosten
+Algemene kosten 15.530 28.087
+Algemene kosten
+Accountantskosten- en administratiekosten 480 496
+Advieskosten - 5.000
+Bankkosten 592 1.181
+Diversen 14.458 21.410
+
+15.530 28.087
+Rentelasten en soortgelijke kosten
+Rente overige rekening-courant 713 13.878
+Rente overige rekening-courant
+Oogkliniek Drechtsteden B.V, rekening-courant 713 13.878
+
+Samenstellingsverklaring afgegeven 15
+
+®@
+
+Stichting Oogkliniek Drechtsteden
+
+2.7 Overige toelichtingen
+Gemiddeld aantal werknemers
+
+Informatieverschaffing over gemiddeld aantal werknemers over de periode
+
+In 2021 en 2020 was geen personeel in dienst van de stichting.
+
+Samenstellingsverklaring afgegeven
+
+16
+
+Stichting Oogkliniek Drechtsteden
+
+1. Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+De bezoldiging van de ieden van de Raad van Bestuur fen overige topfunctiona
+
+Leidinggevende topfunctlonarissen met bezoldiging boven € 1.700
+
+1 Functie (functienaam)
+
+2 In dienst vanaf (datum begin functievervuiling}
+
+3 In dienst tot (datum einde functievervulling)
+
+4 (Fictieve) dienstbetrekking?
+
+5 Deeltijdfactor (minimaal 0,025 fte)
+
+6 Beloning plus belastbare onkostenvergoedingen
+
+7 Voorzieningen ten behoeve van beloningen betaalbaar op termijn
+8 Totaal bezoldiging
+
+9 Individueel toepasselijk bezoldigingsmaxirnum
+
+Vergelijkende cijfers 2020
+1 (Fictieve) dienstbetrekking?
+2 Deeltijdfactor (minimaal 0,025 fte)
+3 Beloning plus belastbare onkostenvergoedingen
+4 Voorzieningen ten behoeve van beloningen betaalbaar op termijn
+5 Totaal bezoldiging
+
+6 Individueel toepasselijk bezoldigingsmaximum
+
+Toezichthoudende topfunctionarissen met bezoldiging boven € 1.700
+
+1 Functie (functienaam)
+2 In dienst vanaf (datum begin functievervulling)
+3 In dienst tot (datum einde functievervulling)
+
+Á Totaal bezoldiging in kader van de WNT
+
+5 Individueel toepasselijk bezoldigingsmaximum
+
+Vergelijkende cijfers 2020
+
+1 Totaal bezoldiging in kader van de WNT
+
+2 Individueel toepasselijk bezoldigingsmaximum
+
+1 Functie (functienaam)
+2 In dienst vanaf (datum begin functievervulling)
+3 In dienst tot (datum einde functievervulling)
+
+4 Totaal bezoldiging in kader van de WNT
+
+5 Individueel toepasselijk bezoldigingsmaximum
+
+Samenstellingsverklaring afgegeven
+
+M.H. Struijk
+Bestuurder
+
+N LEEN
+
+rissen] over het jaar 2021 is als volgt:
+
+GGC.
+Groothuizen
+
+Bestuurder
+
+P.G.M. Manshanden
+
+‚ Lid RvT ‚
+Ta
+
+VJ. Groot
+
+P.G.M. Manshanden
+HERT
+besnseld
+
+E_ 31/12
+
+A. van Rengen
+LidRVT
+a
+
+EA -
+
+J. Kraaijeveld
+Lid RvT
+
+wer ee
+
+VJ. Groot
+Lid RvT
+
+Bb
+
+afz
+
+3,000
+
+0
+
+mene
+Lond
+
+17
