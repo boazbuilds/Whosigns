@@ -30,6 +30,11 @@ BOEKJAAR="${1:-2019}"
 WERKERS="${3:-4}"
 BLOK="${2:-$WERKERS}"
 
+# Hoe vaak de tussenstand naar de repo gaat terwijl een blok nog loopt. Drie
+# minuten is een afweging tussen verlies bij een herstart en het aantal commits:
+# de oogst duurt uren, dus elke minuut zou honderden commits opleveren.
+BEWAARKLOK="${BEWAARKLOK:-180}"
+
 WORTEL="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CACHE="$WORTEL/pipeline/.cache"
 OOGST="$WORTEL/pipeline/oogst"
@@ -105,6 +110,17 @@ herstel_ocr() {
 herstel_ocr
 
 bewaar() {
+  [ -s "$RAPPORT" ] || return 0
+  # Alleen bewaren als het rapport op een hele regel eindigt.
+  #
+  # Sinds deze functie ook tijdens een blok draait (zie de bewaarklok hieronder)
+  # kan er tegelijk in geschreven worden. De lader flusht na elke regel, maar de
+  # buffer van python is 8 kB en een rapportregel is er zo'n 200 groot, dus eens
+  # in de veertig regels valt er eentje over een buffergrens. Precies dan zou een
+  # kopie een halve regel kunnen meenemen, en dat rapport gaat regelrecht de
+  # database in. Eindigt het bestand niet op een nieuwe regel, dan is het midden
+  # in een schrijfactie; volgende ronde dan maar.
+  [ -z "$(tail -c 1 "$RAPPORT")" ] || return 0
   cp "$RAPPORT" "$OOGST/zorg_${BOEKJAAR}.csv" 2>/dev/null || return 0
   cp "$VERWERKT" "$OOGST/verwerkt_${BOEKJAAR}.txt" 2>/dev/null || true
   # Nieuw gelezen tekst meenemen; -n overschrijft niets wat er al staat.
@@ -184,10 +200,58 @@ LEEG=0
 while :; do
   BEKEKEN=$(regels "$VERWERKT")
   echo "=== $BEKEKEN/$TOTAAL bekeken ==="
+  # De bewaarklok loopt mee zolang het blok bezig is.
+  #
+  # Waarom niet alleen na afloop: .cache overleeft geen herstart van de omgeving,
+  # en die komt hier elk half uur. Wat een blok tot dan toe gelezen had stond
+  # alleen in .cache, dus een herstart midden in een blok gooide dat hele blok
+  # weg. Erger nog: sinds elk blok met `--vanaf 0` dezelfde kop van de wachtrij
+  # pakt, begon de volgende omgeving aan precies hetzelfde blok. Op 13-8-2026 om
+  # 14:37 leverde een hele container zo nul organisaties op — één uur voor niets.
+  #
+  # Een document mag ruim twintig minuten duren (OCR_TIJDBUDGET is 600 seconden
+  # voor het renderen en nog eens 600 voor het lezen), dus een blok kan langer
+  # duren dan de omgeving leeft. Daar valt niet omheen te plannen; wel omheen te
+  # bewaren. Elke drie minuten wegschrijven maakt het verlies hooguit drie
+  # minuten, ongeacht hoe lang het blok doet.
+  #
+  # Dit mag alleen omdat de lader zijn aantekening "bekeken" pas maakt als de
+  # uitkomst geflusht is (zie noteer_bekeken in laad_zorg.py). Andersom zou een
+  # tussentijdse kopie een organisatie als afgehandeld kunnen vastleggen zonder
+  # zijn opdracht, en die komt dan nooit meer langs.
+  # De klok stopt zichzelf op een vlaggetje; hij wordt niet doodgeschoten.
+  #
+  # Doodschieten lag voor de hand en is precies verkeerd. `kill` op de subshell
+  # laat zijn `sleep` als wees achter (die hangt eronder, niet ernaast), en veel
+  # erger: het signaal kan aankomen terwijl de klok middenin `git commit` zit.
+  # Een halverwege afgebroken commit laat .git/index.lock staan, en dan mislukt
+  # elke volgende commit van de oogst — hij blijft dan uren doorlezen zonder ook
+  # maar iets te bewaren, precies het tegenovergestelde van wat deze klok moet
+  # bereiken.
+  #
+  # Met een vlaggetje stopt de klok uit zichzelf, altijd tussen twee bewaarbeurten
+  # in. Het wachten gaat in stappen van tien seconden zodat hij kort na het blok
+  # weg is en niet nog drie minuten blijft hangen.
+  BLOKBEZIG="$CACHE/.blok_bezig"
+  : > "$BLOKBEZIG"
+  (
+    while [ -e "$BLOKBEZIG" ]; do
+      for _ in $(seq $(( (BEWAARKLOK + 9) / 10 ))); do
+        [ -e "$BLOKBEZIG" ] || break
+        sleep 10
+      done
+      [ -e "$BLOKBEZIG" ] && bewaar
+    done
+  ) &
+  KLOK=$!
   python3 "$WORTEL/pipeline/laad_zorg.py" \
     --boekjaar "$BOEKJAAR" --uit-archief --droogloop --hervat \
     --vanaf 0 --aantal "$BLOK" --werkers "$WERKERS" 2>&1 |
     grep -E '^---|opdrachten,|^[0-9]+ organisaties'
+  # Eerst de klok laten uitlopen, dan pas zelf bewaren: twee git-commits tegelijk
+  # vechten om index.lock en dan mislukt er eentje.
+  rm -f "$BLOKBEZIG"
+  wait "$KLOK" 2>/dev/null
   bewaar
   if [ "$(regels "$VERWERKT")" -le "$BEKEKEN" ]; then
     LEEG=$((LEEG + 1))
