@@ -1,0 +1,892 @@
+# whosigns-ocr v1 grootte=6117817 dpi=300 paginas=20
+JN
+
+FAIR NUMBERS
+
+AUDIT | ACCOUNTING | TAX
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan Coachia B.V.
+
+Ons oordeel
+Wij hebben de bijgevoegde en gewaarmerkte financiële productieverantwoording Jeugdwet op
+totaalniveau 2022 van Coachia B.V. te Hilversum gecontroleerd.
+
+Naar ons oordeel geeft de financiële productieverantwoording op totaalniveau 2022 het totaalbedrag
+Jeugdwet ten bedrage van € 969.677,42, in alle van materieel belang zijnde aspecten, juist weer in
+overeenstemming met het normenkader, zoals opgenomen in paragraaf 3.5 van het Algemeen
+accountantsprotocol financiële productieverantwoording Wmo en Jeugdwet 2022.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de Nederlandse
+controlestandaarden en het Algemeen accountantsprotocol financiële productieverantwoording Wmo
+en Jeugdwet 2022 vallen. Onze verantwoordelijkheden op grond hiervan zijn beschreven in de sectie
+‘Onze verantwoordelijkheden voor de controle van de financiële productieverantwoording'.
+
+Wij zijn onafhankelijk van Coachia B.V., zoals vereist in de Verordening inzake de onafhankelijkheid van
+accountants bij assurance-opdrachten (ViO) en andere voor de opdracht relevante
+onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de Verordening gedrags- en
+beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis voor
+ons oordeel.
+
+Maanlander 10 | 3824 MP Amersfoort
+
+T: 085 049 2480 |E: info@fairnumbers.nl |W: www.fairnumbers.nl
+KvK: 73538388 | BTW: NL859566080B01 | IBAN: NL39 KNAB 0255 5132 08
+
+
+FIN
+
+FAIR NUMBERS
+
+AUDIT / ACCOUNTING | TAX
+
+Andere informatie
+
+Naast de financiële productieverantwoording Jeugdwet 2022 op totaalniveau en onze controleverklaring
+daarbij, omvat de financiële productieverantwoording andere informatie die bestaan uit financiële
+productieverantwoordingen Jeugdwet 2022 per gemeente die door ons voor identificatiedoeleinden zijn
+gewaarmerkt. Op grond van onderstaande werkzaamheden zijn wij van mening dat de financiële
+productieverantwoordingen per gemeente, voor zover die door ons voor identificatiedoeleinden zijn
+gewaarmerkt, met de financiële productieverantwoording op totaalniveau verenigbaar zijn en geen
+materiële afwijkingen bevatten.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip, verkregen
+vanuit de controle van de financiële productieverantwoording op totaalniveau 2022 en de in paragraaf
+3.6 van het Algemeen accountantsprotocol financiële productieverantwoording Wmo en Jeugdwet 2022
+onder 1 vermelde werkzaamheden, overwogen of de financiële productieverantwoordingen per
+gemeente materiële afwijkingen bevatten.
+
+Met deze werkzaamheden hebben wij voldaan aan de vereisten in de Nederlandse Standaard 720 en het
+Algemeen accountantsprotocol financiële productieverantwoording Wmo en Jeugdwet 2022. Deze
+werkzaamheden hebben niet dezelfde diepgang als onze controlewerkzaamheden bij de financiële
+productieverantwoording op totaalniveau.
+
+Het bestuur van Coachia B.V. is verantwoordelijk voor het opstellen van de andere informatie.
+
+Beperking in gebruik en verspreidingskring
+
+De financiële productieverantwoording op totaalniveau is opgesteld door Coachia B.V. voor de
+gemeenten die zijn opgenomen in het door ons voor identificatiedoeleinden gewaarmerkte ‘Overzicht
+gemeenten waarop financiële productieverantwoording Jeugdwet op totaalniveau betrekking heeft’
+met als doel het bestuur van Coachia B.V. in staat te stellen zich aan deze gemeenten te verantwoorden
+over de productie Jeugdwet. Hierdoor is de financiële productieverantwoording op totaalniveau
+mogelijk niet geschikt voor andere doeleinden. Onze controleverklaring is derhalve uitsluitend bestemd
+voor het bestuur van Coachia B.V. en deze gemeenten en dient niet te worden verspreid aan of te
+
+worden gebruikt door anderen.
+
+Pagina 2 van 4
+
+EN
+
+FAIR NUMBERS
+
+AUDIT | ACCOUNTING | TAX
+
+Verantwoordelijkheden bestuur voor de productieverantwoording
+
+Het bestuur van Coachia B.V. is verantwoordelijk voor het opstellen van de financiële
+productieverantwoording op totaalniveau in overeenstemming met het normenkader, zoals opgenomen
+in paragraaf 3.5 van het Algemeen accountantsprotocol financiële productieverantwoording Wmo en
+Jeugdwet 2022. Het bestuur is tevens verantwoordelijk voor een zodanige interne beheersing als
+
+het noodzakelijk acht om het opstellen van de financiële productieverantwoording op totaalniveau
+mogelijk te maken zonder afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Onze verantwoordelijkheden voor de controle van de financiële productieverantwoording
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat wij
+daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid waardoor het
+mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fouten of fraude en zijn materieel indien redelijkerwijs kan
+worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen zijn op de economische
+beslissingen die gebruikers op basis van deze financiële productieverantwoording nemen. De
+materialiteit beïnvloedt de aard, timing en omvang van onze controlewerkzaamheden en de evaluatie
+van het effect van onderkende afwijkingen op ons oordeel.
+
+De bij onze controle toegepaste goedkeuringstolerantie bedraagt voor fouten 1% en voor onzekerheden
+3% van het totaalbedrag Jeugdwet volgens de financiële productieverantwoording op totaalniveau.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden en het Algemeen accountantsprotocol financiële productieverantwoording Wmo
+en Jeugdwet 2022, ethische voorschriften en de onafhankelijkheidseisen. Onze controle bestond onder
+andere uit:
+
+e hetidentificeren en inschatten van de risico's dat de financiële productieverantwoording
+afwijkingen van materieel belang bevat als gevolg van fouten of fraude, het in reactie op deze
+risico's bepalen en uitvoeren van controlewerkzaamheden en het verkrijgen van controle-
+informatie die voldoende en geschikt is als basis voor ons oordeel. Bij fraude is het risico dat een
+afwijking van materieel belang niet ontdekt wordt groter dan bij fouten. Bij fraude kan sprake
+zijn van samenspanning, valsheid in geschrifte, het opzettelijk nalaten transacties vast te leggen,
+het opzettelijk verkeerd voorstellen van zaken of het doorbreken van de interne beheersing;
+
+Pagina 3 van 4
+
+JN
+
+FAIR NUMBERS
+
+AUDIT ( ACCOUNTING | TAX
+
+e het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als doel
+controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit van de
+interne beheersing van de organisatie;
+
+e hetevalueren van de geschiktheid van de gebruikte grondslagen voor het opstellen van de
+financiële productieverantwoording en het evalueren van de redelijkheid van schattingen
+door het bestuur en de toelichtingen die daarover in de financiële productieverantwoording
+staan;
+
+e het evalueren van de presentatie, structuur en inhoud van de financiële
+productieverantwoording en de daarin opgenomen toelichtingen; en
+
+e hetevalueren of de financiële productieverantwoording de onderliggende transacties en
+gebeurtenissen zonder materiële afwijkingen weergeeft.
+
+Amersfoort, 23 maart ’
+
+Pagina 4 van 4
+
+Financiële productieverantwoording Jeugdwet op totaalniveau 2022
+
+Zorgaanbieder
+
+Zorgaanbieder E \Versiebeheer En
+Naam Coachia B.V. E \Versiedatum Oe 3-10-2022 |
+Plaats Hilversum
+
+KvK-nummer 78627176
+
+Contactpersoon Mevrouw JAC. Siegers-van Herwijnen
+
+Telefoon 06-48055729
+
+E-mail cynthia.siegers@coachia.nl
+
+|AGB-code OO 98105084
+
+Financieringsstroom _ | [Gerealiseerde productie 2022 ]
+
+Jeugdwet € 969.677,42 I
+
+TOTAAL gerealiseerde productie ___[€ 969.677,42 |
+
+Door ondertekening van het formulier ‘Financiële productieverantwoording 2022':
+Verklaart de bestuurder van de zorgaanbieder dat de financiële productieverantwoording Jeugdwet 2022 naar waarheid en in overeenstemming met het normenkader (zie paragraaf Normen- en toetsingskader, Algemeen
+Accountantsprotocol 2022) is verantwoord.
+
+\Waarmerking Accountant voor identificatiedoeleinden:
+
+| Zorgaanbieder
+
+‚Naam ondertekenaar: |A.C. Siegers-van Herwijnen |
+Handtekening:
+|
+|
+
+|
+|
+|
+|
+_ \ B | behorend bij verklaring afgegeven d.d.: } À.%- 202 |
+on TE /
+
+Datum: ‚3 februari 2023 an
+
+
+Overzicht gemeenten waarop financiële productieverantwoording Jeugdwet op totaalniveau betrekking heeft
+
+Gemeente(n)
+‘Apeldoorn
+Brummen
+Doesburg
+
+Heerde
+Overbetuwe
+7\Rheden
+
+8 Tilburg
+
+9 Voorst
+
+10 Westervoort
+11
+
+12,
+
+13)
+
+14
+
+zen En
+
+| z bied Waarmerking Accountant voor
+| ed Ren \identificatiedoeleinden:
+
+‘Naam: A.C. Siegers-van Herwijnen
+Handtekening:
+
+Datum: 3 februari 2023 behorend bij verklaring afgegeven d.d: L5-À- DAS
+
+9
+
+
+Financiële productieverantwoording Jeugdwet Gemeente Apeldoorn
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+‚Naam _ Apeldoorn Naam Coachia B.V.
+\Contactpersoon DE 5 Plaats Hilversum En
+Telefoon _ E KvK-nummer [78627176
+E-mail _ % Contactpersoon Jeugdwet _ |A.C. Siegers-van Herwijnen
+Telefoon 06-48055729
+E-mail _____leynthia.siegers@coachia.nl
+AGB-code 98105084 |
+
+Geleverde prestaties Jeugdwet
+
+Inkoop order nr:
+
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2022 in €
+43 _Jeugdhuip verblijf (incl. behandeling) n En _ u _
+4300 Jeugdhulp verblijf (incl, behandeling) Ket A INP net. zh [ : 43A10 etmaal. | 1438 _ 148,96 214.204,48
+ERLE etmaal — 806 170,86 137.713,16
+| alte, 351.917,64)
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2022 in €
+44 Jeugdhulp verblijf (excl. behandeling) OO _ OO ON
+[_4400 Jeugdhulp verblijf (excl. behandeling) IG |_a4apoa | etmaal | 181 in 98,22 17.777,82
+4401 | RE En | 0,00
+Totaal Jeugdhulp verblijf (excl. behandeling) 17.777,82
+Code Eenheid Aantal (Q) Prijsin € (P) Realisatie 2022 in €
+45 Jeugdhulp Ambulant n _
+[__450o [Jeugdhulp Ambulant |_45A58 | minuut | 13880 | 1,09 15.129,20
+4501 Ì Eje, ï î 5 | 0,00
+Totaal Ip Ambu 15.129,20
+57 __Financiële realisatie Jeugdwet OO OO Reallsatle, 2022 Ine
+| 5700 Gerealiseerde productie Jeugdwet ; re L 384.824,66
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+| pport van g
+___Ba/Nee
+
+| A.u.b. kiezen wat van toepassing is.
+
+Zorgaanbieder
+
+Naam: A.C. Siegers-van Herwijnen
+Handtekening:
+
+Waarmerking accountant voor
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole identificatiedoelei
+
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt. FAIRnu rs
+
+waarmeTKingsdoeleinden
+
+patum: 10-9-2023
+/
+
+Financiële productieverantwoording Jeugdwet Gemeente Brummen
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+Naam Coachia B.V.
+
+Naam _ Brummen
+Contactpersoon Plaats Hilversum _ |
+|Telefoon A KvK-nummer {78627176 OO
+E-mail IEN Contactpersoon Jeugdwet A.C. Siegers-van Herwijnen
+Telefoon 06-48055729
+E-mail ________\cynthia.siegers@coachia.nl
+AGB-code 98105084
+Geleverde prestaties Jeugdwet
+|Inkoop order nr:
+ee a |
+Code Eenheid Aantal (Q) Prijsin€(P) Realisatie 2022 in €
+43 dhulp verblijf (incl. behandeling) OO A OO
+__4300_|Jeugdhulp verblijf (incl. behandeling) d |_43aio | etmaal | 181 |____148,96 26.961,76)
+|_4301 _|Jeugdhuip verblijf (incl. behandeling) |_43A10 | etmaal | EA 170,86 15.719,12|
+_ _|Totaal Jeugdhulp verblijf (incl. behandeling) LE cmd Men GT pe 4 42.680,83|
+Code Eenheid Aantal (Q) Prijsin € (P) Realisatie 2022 in €
+45 J Ip Ambulant _ _ n
+4500 [Jeugdhulp Ambulant |_45aag | __ minuut | 22680 | 1,09 24.721,20
+aso: 5 | | | | 00
+| Totaal Jeugdhulp Ambul. 5 24.721,20
+57 Financiële r tie Jeug OO _ Realisatie 2022 in €
+5700 |Gerealiseerde productie Jeugdwet BES ZE Ki 67.402,08
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+— ee DN EF
+
+rt van bevi
+
+Zorgaanbieder |
+
+do/Nee
+
+Naam: A.C. Siegers-van Herwijnen |
+
+Handtekening: A.u.b. kiezen wat van toepassing is.
+
+|Datum: 3 februari 2023
+
+E - f ware si Waarmerking accountant voor
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+waarmerkingsdoeleinden
+Datum: vor fe sE view
+
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Doesburg
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+Doesburg
+
+(Contactpersoon
+
+‚Telefoon
+
+|E-mail
+
+Naam _ _ Coachia B.V,
+
+KvK-nummer
+Contactpersoon Jeugdwet
+
+Hilversum
+78627176
+A.C. Siegers-van Herwijnen
+
+Telefoon 06-48055729
+_ cynthia.siegers@coachia.nl
+|AGB-code 98105084 OO
+Geleverde prestaties Jeugdwet
+Inkoop order nr:
+Code Eenheid Aantal (Q) Prijsin € (P) Realisatie 2022 in €
+44_Jeugdhuip verblijf (excl. behandeling) 5 ä _
+4400 _ Jeugdhulp verblijf (excl. behandeling) 44G42 | etmaal 214: _|_ 216,85 46.405,90,
+4401 af rn EE re _ ee Ee we 0,00,
+__{Fotaal Jeugdhulp verblijf (excl. behandeling) m 8 46.405,90)
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2022 in €
+45 Jeugdhulp Ambulant _ _ OO
+4500 _ [Jeugdhulp Ambulant 4561 | __minuu | 18600 | 1,22 _22.692,00
+4501 | | | } 0,00
+ER Totaal dhuip A 22.692,00/
+57 Financiële realisatie Jeugdwet Realisatie 2022 in €
+
+| 2700 Gerealiseerde productie Jeugdwet
+
+HE 69.097,90 |
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+Zorgaanbieder
+
+| Naam: A.C. Siegers-van Herwijnen
+|Handtekening:
+
+Datum: 3 februari 2023
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+
+ter identificatie gewaarmerkt.
+
+Rapport van bevindingen:
+
+Ja/Nee
+
+A.u.b. kiezen wat van toepassing is.
+
+wa inggdoeleinden
+
+petum: LOD IOAD
+/
+
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Epe
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+Naam
+
+Epe
+
+Contactpersoon
+(Telefoon
+
+E-mail
+
+Naam
+
+Plaats
+
+Coachia B.V.
+
+Hilversum
+
+KvK-nummer
+
+78627176
+
+\Contactpersoon Jeugdwet
+
+A.C. Siegers-van Herwijnen
+
+[Telefoon
+
+06-48055729
+
+[E-mail cynthia.siegers@coachia.nl
+
+'AGB-code 98105084
+Geleverde prestaties Jeugdwet
+
+|inkoop order nr: |
+Code Eenheid Aantal (Q) Prijsin € (P) Realisatie 2022 in €
+
+43 Jeugdhulp verblijf (incl. behandeling) _ ge NEER EE
+|__4300_|Jeugdhuip verblijf (incl, behandeling) _ | _43a10 | etmaal | 181 | 148,96) 26.961,76)
+|__4301 _|Jeugdhulp verblijf (incl. behandeling) ______[ 430 [etmaal | 89 | 170,86) 15.206,54
+| |Totaal Jeugdhulp verblijf (incl. behandeling) a, Is ie bi | 42.168,30/
+57 Financiële real Realisatie 2022 in €
+
+[ En
+
+_5700 Gerealiseerde productie Jeugdwet
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+42.168,30
+
+Ruimte voor algemene toelichting
+
+ES
+
+Zorgaanbieder
+
+Handtekening:
+
+Datum: 3 februari 2023
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+
+ter identificatie gewaarmerkt.
+
+Rapport van bevindingen:
+
+8/Nee
+
+| A.u.b. kiezen wat van toepassing is.
+
+Waarmerking accountant voor
+
+waarmerkinggdoeleinden
+
+oatum: 2A-A- 202
+
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Heerde
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+Naam
+
+{Heerde
+
+Contactpersoon
+
+Telefoon
+
+|E-mail
+
+Geleverde prestaties Jeugdwet
+[inkoop order nr: |
+
+Code
+43 verblijf (incl. behandeling)
+
+Jeugdhulp verblijf (incl. behandeling)
+
+En amo | ema | 1 | _
+_ 4301 f 0,00
+
+Eenheid
+
+‚Naam Coachia BV,
+
+Plaats Hilversum |
+\KvK-nummer _ 78627176
+
+Contactpersoon Jeugdwet _ |A.C. Siegers-van Herwijnen
+Telefoon nm 06-48055729
+
+E-mail cynthia.siegers@coachia.nl
+AGB-code 98105084
+
+Aantal (Q) Prijs in € (P) Realisatie 2022 in €
+
+148,96 26.961,76
+
+_|rotaal
+
+gdhulp verblijf (incl. behandeling)
+
+57 Financiële real ie d
+
+| 5700 |Gerealiseerde productie Jeugdwet
+
+26.961,76|
+
+Realisatie 2022 in €
+
+| 26.961,76
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+voor
+
+Zorgaanbieder
+
+En)
+| pport van bevinding,
+
+Naam: A.C. Siegers-van Herwijnen
+Handtekening:
+
+Datum: 3 februari 2023
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+
+ter identificatie gewaarmerkt.
+
+Ja/Nee
+
+A.u.b. kiezen wat van toepassing is.
+
+Waarmerking accountant voor
+
+waarmerkingbdoeleinden
+Datum: ) ) 050
+
+
+Financiële productieverantwoording Jeugdwet Gemeente Overbet
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+uwe
+
+gemeente:
+
+Naam OO Overbetuwe _ Naam Coachia B.V,
+Contactpersoon _ di E Plaats Hilversum
+Telefoon _ _ KvK-nummer 78627176
+
+Contactpersoon Jeugdwet
+
+A.C. Siegers-van Herwijnen
+
+Telefoon 06-48055729
+E-mail cynthia.siegers@coachia.nl
+AGB-code 98105084
+Geleverde prestaties Jeugdwet
+Inkoop order nr: | dl
+Code Eenheid Aantal (Q) Prijsin € (P) Realisatie 2022 in €
+44 Jeugdhulp verblijf (excl. behandeling) En nm _ _
+44005 opdeugdhulp Verbi (Excl SbAhAndelng) _____L4e2 | etmaal [282 | __ 24655 61.151,70)
+4401 il : EEN Bee ERG 0,00,
+Totaal J ij verblijf (excl. behandeling) Dennen 61.151,70
+57 Financiële realisatie g Realisatie 2022 in €
+Ez Te drnnbindntrhedretnt hekken
+„5700 \Gerealiseerde productie Jeugdwet k Ee | 61.151,70 |
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+voor alg toelichting
+Zorgaanbieder pport van b ding |
+Naam: A.C. Siegers-van Herwijnen _ me Ja/Nee
+Handtekening: A.u.b. kiezen wat van toepassing is.
+
+Datum: 3 februari 2023 \
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+Waarmerking accountant voor
+
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Rheden
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+\Contactpersoon
+
+[Telefoon
+[E-mail
+
+Naam
+Plaats
+KvK-nummer
+
+Contactpersoon Jeugdwet
+
+_{Coachia BV.
+Hilversum _
+
+78627176
+
+A.C. Siegers-van Herwijnen rl
+
+Telefoon 06-48055729
+E-mail _{cynthia.siegers@coachia.nl __
+AGB-code _ _ {98105084 _ nn
+Geleverde prestaties Jeugdwet
+Inkoop order nr:
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2022 in €
+aa Jeugdhulp verblijf (excl. behandeling) _
+| 4400 _|Jeugdhulp verblijf (excl. behandeling) Fk 44G41 | etmaal | 214 — 488,29 40.294,06
+| _4401 | | | | Ee Bi 0,00
+Totaal Jeugdhulp verblijf (excl. beh ling) 40.294,06
+Code Eenheid Aantal (Q) Prijsin € (P) Realisatie 2022 in €
+45 zataahte ansi
+{__4500_ [Jeugdhulp Ambulant [_45361 | __minuut | __ 36720 | 122 44.798,40
+|_4501 | | 0,00
+| Totaal Jeugdhulp A ze zals 44.798,40
+57 Financiële r ie Jeug Realisatie 2022 in €
+
+| 5700 Gerealiseerde productie Jeugdwet _
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+| 85.092,46 |
+
+Ruimte voor algemene toelichting
+
+Zorgaanbieder
+
+Naam: A.C. Siegers-van Herwijnen
+Handtekening:
+
+Datum: 3 februari 2023
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+Rapport van bevindingen:
+Ja/Nee m
+
+A.u.b. kiezen wat van toepassing is.
+
+Waarmerking accountant voor
+identificatied inden:
+
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Tilburg
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+Naam Tilburg — Naam Coachia B.V.
+Contactpersoon _ KATE Ô Plaats lewersum |
+[Telefoon De Printen | KvK-nummer {78627176 |
+E-mail OO Ld ‚Contactpe Jeugdwet _ |A.C. Siegers-van Herwijnen |
+Telefoon 06-48055729
+[E-mail cynthia.siegers@coachia.nl ni
+|AGB-code _ 98105084 _ \
+Geleverde prestaties Jeugdwet
+Inkoop order nr:
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2022 in €
+43 Jeugdhulp verblijf (incl. beh g)
+4300 _ |Jeugdhulp verblijf (incl. behandeling) [_43A10 [etmaal | 214 | 173,49] 37.126,86)
+4301 | in | | 0,00
+Totaal Jeugdhulp verblijf (incl. behandeling) & 37.126,86
+57 Financiële real ie Realisatie 2022 in €
+
+[
+
+|_ 5700 Gerealiseerde productie Jeugdwet _—
+
+| 37.126,86
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+Zorgaanbieder
+
+Naam: A.C. Siegers-van Herwij
+Handtekening:
+
+Datum: 3 februari 2023
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+
+ter identificatie gewaarmerkt.
+
+Rapport van bevindingen:
+
+A.u.b. kiezen wat van toepassing is.
+
+Waarmerking accountant voor
+
+vam 2D D-202
+
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Voorst
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+—
+‚Naam Voorst _— ‚ _
+
+| MO OO OO ee Naam Coachia BV,
+|Contactpersoon OO etl stakr net CEA ende en Plaats OO Hilversum
+Telefoon nn KURSn Umm SEN BSS
+E-mail zor Contactpersoon Jeugdwet  |A.C. Siegers-van Herwijnen
+Telefoon 06-48055729
+sell cynthia.slegers@coachlanl__ |
+AGB-code __________|98105084 |
+Geleverde prestaties Jeugdwet 4
+Inkoop order nr:
+(mkoop EE 2
+Code Eenheid Aantal (Q) Prijsin€(P) Realisatie 2022 in €
+43 verblijf (incl. behandeling) _ OO OO
+4300 _ [Jeugdhulp verblijf (incl. behandeling) [_43a10 | etmaal | 181 | 148,96 ZED
+Jeugdhulp verblijf (incl. behandeling) Ln | 43A10 | etmaal 184 | 170,86 31.438,24
+Totaal dhuip verblijf (incl. behandeling) E 58.400,00/
+57 Financiële realisatie Jeugdwet Realisatie 2022 in €
+
+| 5700 |Gerealiseerde productie Jeugdwet
+
+Í 58.400,00 |
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+— n
+| Zorgaanbieder
+
+Naam: A.C. Siegers-van Herwijnen En
+Handtekening:
+
+‚Datum: 3 februari 20 23
+
+Rapport van bevindingen:
+
+Ja/Nee
+
+|
+A.u.b. kiezen wat van toepassing is.
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+Waarmerking accountant voor
+identificatiedoeleinden:
+
+Datum:
+
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Westervoort
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+‚Naam _ ‚CoachiaBV.
+
+‚Naam Westervoort
+|contactpersoon Ty
+le
+
+E-mail
+
+|Plaats
+KvK-nummer
+
+\Contactpersoon Jeugdwet
+
+el
+
+L
+‚Hilversum
+
+78627176
+A.C. Siegers-van Herwijnen
+
+\Telefoon ___|06-48055729
+E-mail En cynthia siegers@coachia.nl
+AGB-code ‚98105084
+Geleverde prestaties Jeugdwet
+|inkoop order nr: |
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2022 in €
+44 _Jeugdhulp verblijf (excl. behandeling) Oe Oe En
+_4400 _ [Jeugdhulp verblijf (excl. behandeling) [ 4441 | _ etmaal | 730 | 18829} 137.451,70
+4401 TE EEE 0,00
+_ {Totaal Jeugdhulp verblijf (excl. behandeling) 5 ri 137.451,70
+57 Financiële realisatie Jeugdwet OO Realisatie 2022 in €
+5700 |erealiseerde productie Jeugdwet | 137.451,70
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+Ruimte voor algemene toelichting
+rt 5 Ren 7
+\Zorgaanbieder en pport van bev
+\Neam: A.C. Siegers-van Herwij | Oe Jé/Nee ll
+Handtekening: A.u.b. kiezen wat van toepassing is.
+Datum: 3 februari 2023 OO OO m
+ae E ET Waarmerking accountant voor
+Op deze financiële productieverantwoording is géén separate accountantscontrole identificatiedoeleinden:
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt. FAIRnu
+Paraaf Koo
+waarmerkingsdoeleinden
+seems 2D H-200% |
+
