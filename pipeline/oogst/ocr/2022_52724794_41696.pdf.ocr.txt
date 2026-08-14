@@ -1,0 +1,636 @@
+# whosigns-ocr v1 grootte=1627727 dpi=300 paginas=20
+INHOUDSOPGAVE
+
+Pagina
+ACCOUNTANTSRAPPORT
+1 Opdracht 2
+2 Samenstellingsverklaring van de accountant 2
+3 Algemeen 4
+4 Resultaat 5
+5 Financiële positie 6
+6 Winstverdeling 2021 7
+JAARREKENING
+1 Balans per 31 december 2021 9
+2 Winst-en-verliesrekening over 2021 10
+3 Kasstroomoverzicht 2021 11
+4 Grondslagen voor waardering en resultaatbepaling 12
+5 Toelichting op de balans per 31 december 2021 14
+6 Toelichting op de winst-en-verliesrekening over 2021 17
+
+ACCOUNTANTSRAPPORT
+
+Van Meel & Jonkers en,
+accountants en adviseurs
+
+Tel 0164-210090
+E-mail info@vanmeelenjonkers.nl
+Web _ www.vanmeelenjonkers.nl
+
+KVK _ 20129303
+BTW _NL8173.98.120.B01
+
+ABN-AMRO _NLO6ABNAO512982333
+Rabobank __NL38RABOO141995440
+
+Aan de firmanten van
+
+We Care and Travel V.O.F.
+Abeelstraat 8
+
+4621AH Bergen op Zoom
+
+Geachte directie,
+
+Hierbij brengen wij verslag uit over boekjaar 2021 met betrekking tot uw vennootschap onder firma.
+
+1 OPDRACHT
+
+Ingevolge uw opdracht hebben wij de jaarrekening 2021 van uw vennootschap onder firma opgesteld, waarin
+de balans met tellingen van € 11.072 en de winst-en-verliesrekening sluitende met een resultaat van € 71.825,
+zijn opgenomen.
+
+2 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+
+Aan: de firmanten
+
+De jaarrekening van We Care and Travel V.O.F. te Bergen op Zoom is door ons samengesteld op basis van de
+van u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2021, de winst-en-
+verliesrekening en het kasstroomoverzicht over 2021 met de daarbij horende toelichting. In deze toelichting is
+onder andere een overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor accountants
+geldende Standaard 4410, "Samenstellingsopdrachten". Op grond van deze standaard wordt van ons verwacht
+dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in overeenstemming met in
+Nederland algemeen aanvaarde grondslagen voor financiële verslaggeving. Wij hebben daarbij onze
+deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal
+nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis van We Care and Travel V.O.F.
+Wij hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een oordeel
+te geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers van
+deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte
+gegevens.
+
+Voor een nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de VGBA verwijzen wij u
+naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+ln coutant | (REGISTER e] De aansprakelijkheid wordt in alle gevallen beperkt tot maximaal het bedrag, dat in voorkomend geval door de
+
+| mn) EE $ ô rf Ek
+| BELASTIN | beroepsaansprakelijkheidsverzekering wordt uitgekeerd. Voor onze algemene voorwaarden verwijzen wij u naar
+NBA (ADVISEURS A “de algemene NBA-voorwaarden”, gedeponeerd bij de Griffie van de Rechtbank te Amsterdam onder nummer 39/2017.
+
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+Bergen op Zoom, 24 augustus 2022
+
+Van Meel & Jonkers Accountants en Belastingadv.
+
+drs. C‚WeEM. van Meel
+ountant-Administratieconsulent
+
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+3 ALGEMEEN
+
+3.1 Bedrijfsgegevens
+
+De activiteiten van We Care and Travel V.O.F. bestaan voornamelijk uit het begeleiden van verstandelijk
+beperkte kinderen / jong volwassene.
+
+3.2 Oprichting vennootschap
+Op d.d. 16 mei 2011 is opgericht de vennootschap onder firma We Care and Travel V.O.F.
+
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+4 RESULTAAT
+4,1 Vergelijkend overzicht
+
+Het resultaat over 2021 bedraagt € 71,825 tegenover € 88.777 over 2020. De resultaten over beide jaren
+
+kunnen als volgt worden samengevat:
+
+2021 2020 Verschil
+€ % € % €
+
+Netto-omzet 90.285 100,0 126.863 100,0 -36.578
+Kostprijs van de omzet 1.157 1,3 25.054 19,7 -23.897
+Bruto-omzetresultaat 89.128 98,7 101.809 80,3 -12.681
+Kosten
+Huisvestingskosten - = 1.663 1,3 „1,663
+Kantoorkosten 5.609 6,2 4,416 3,5 1.193
+Autokosten 6.650 7,4 6.171 4,9 479
+Verkoopkosten 215 0,2 - - 215
+Algemene kosten 4.622 51 579 0,4 4,043
+
+17.096 18,9 12.829 10,1 4,267
+Bedrijfsresultaat 72.032 79,8 88.980 70,2 -16.948
+Financiële baten en lasten -207 -0,2 -203 -0,2 -4
+Resultaat 71.825 79,6 88.777 70,0 -16.952
+
+4,2 Netto-omzet en bruto-omzetresultaat
+
+De netto-omzet daalde met 28,8% tot € 90.285. Het bruto-omzetresultaat daalde met 12,5% tot € 89.128.
+
+De brutomarge daalde met 12,5% tot € 89.128.
+
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+5 FINANCIËLE POSITIE
+
+Uit de balans is de volgende financieringsstructuur af te leiden:
+
+Beschikbaar op lange termijn:
+
+Ondernemingsvermogen
+
+Dit bedrag is als volgt aangewend:
+Vorderingen
+
+Liquide middelen
+
+Af: kortlopende schulden
+
+Werkkapitaal
+
+31-12-2021 31-12-2020
+€ €
+8.956 32.071
+6.955 9.057
+4,117 23.014
+11.072 32.071
+2.116 -
+8.956 32.071
+
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+6 WINSTVERDELING 2021
+6.1 Regeling volgens firma-akte
+
+Overeenkomstig hetgeen vermeld in de firma-overeenkomst, wordt het resterende resultaat als volgt
+verdeeld:
+
+A. Gül 33,33 %
+E‚ Gül 33,33 %
+K. Canpinar 33,33 %
+
+6.2 Verdeling van de winst over 2021
+
+2021
+€ €
+Resultaat 2021 71.825
+Verdeling overwinst
+A. Gül 23.942
+E. Gül 23.942
+K. Canpinar 23.941
+
+71.825
+
+
+JAARREKENING
+
+Balans per 31 december 2021
+Winst-en-verliesrekening over 2021
+Kasstroomoverzicht 2021
+
+Grondslagen voor waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2021
+Toelichting op de winst-en-verliesrekening over 2021
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+1 BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+Vlottende activa
+
+Vorderingen
+Handelsdebiteuren
+
+Liquide middelen
+
+31 december 2021
+
+31 december 2020
+
+€ €
+
+Úi)
+6.955
+@) 4.117
+
+11.072
+
+€
+
+€
+
+9.057
+23.014
+
+32.071
+
+Samenstellingsverklaring afgegeven
+
+31 december 2021 31 december 2020
+
+€ € € €
+
+PASSIVA
+Ondernemingsvermogen (3)
+A. Gül 1.728 10.690
+E‚ Gül 54 10.690
+K, Canpinar 7.174 10.691
+
+8.956 32.071
+Kortlopende schulden (4)
+Schulden aan leveranciers en
+handelskredieten 109 -
+Overige schulden en overlopende passiva 2.007 -
+
+2.116 -
+
+11.072 32.071
+
+Samenstellingsverklaring afgegeven -Q-
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+2 WINST-EN-VERLIESREKENING OVER 2021
+
+Netto-omzet
+Kostprijs van de omzet
+
+Bruto-omzetresultaat
+Som der bedrijfsopbrengsten
+Kosten
+
+Huisvestingskosten
+Kantoorkosten
+Autokosten
+Verkoopkosten
+Algemene kosten
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat
+
+(5,6)
+(7)
+
+(8)
+(9)
+(10)
+(út)
+(12)
+
+(13)
+
+2021 2020
+€ €
+
+90.285 126.863
+1,157 25.054
+89.128 101.809
+89,128 101.809
+- 1.663
+5.609 4,416
+6.650 6.171
+215 -
+4.622 5/9
+17.096 12.829
+72.032 88.980
+-207 -203
+71.825 88.777
+
+Samenstellingsverklaring afgegeven
+
+-10-
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+3 KASSTROOMOVERZICHT 2021
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+Kasstroom uit operationele activiteiten
+
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+Veranderingen in het werkkapitaal:
+
+Mutatie vorderingen
+
+Mutatie kortlopende schulden (exclusief kortlopend deel van de langlopende
+schulden)
+
+Kasstroom uit bedrijfsoperaties
+Betaalde interest
+Kasstroom uit operationele activiteiten
+
+Kasstroom uit financieringsactiviteiten
+
+Saldo privéopnamen en -stortingen
+
+Samenstelling geldmiddelen
+
+Geldmiddelen per 1 januari
+
+Mutatie liquide middelen
+
+Geldmiddelen per 31 december
+
+2021
+€
+72.032
+2.102
+2.116
+76.250
+-207
+76.043
+-94,940
+„18.897
+2021
+€
+23.014
+-18.897
+4,117
+
+Samenstellingsverklaring afgegeven -11-
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+We Care and Travel V.O.F. is feitelijk en statutair gevestigd op Abeelstraat 8 te Bergen op Zoom en is
+ingeschreven bij het handelsregister onder nummer 52724794,
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van We
+Care and Travel V.O.F. zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de
+jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste inzicht
+noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de bijbehorende veronderstellingen
+opgenomen bij de toelichting op de desbetreffende jaarrekeningposten.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld volgens de in Nederland algemeen aanvaarde grondslagen voor financiële
+verslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties
+wordt verwezen naar de toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken
+van de jaarrekening bekend zijn geworden.
+
+Vergelijking met voorgaand jaar
+
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten opzichte
+van het voorgaande jaar, met uitzondering van de toegepaste stelselwijzigingen zoals opgenomen in de
+desbetreffende paragrafen.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen de
+geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de
+boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Samenstellingsverklaring afgegeven -12-
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden
+afgelost.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin
+zij zijn gerealiseerd.
+
+Opbrengstverantwoording
+
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde
+projectopbrengsten uit hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van
+over de omzet geheven belastingen.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde prestaties,
+gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten
+diensten.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van
+de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de
+verantwoorde transactiekosten op de ontvangen leningen.
+
+GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+Samenstellingsverklaring afgegeven -13-
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+VLOTTENDE ACTIVA
+
+1. Vorderingen
+
+Handelsdebiteuren
+
+Debiteuren
+Nog te factureren
+
+Een voorziening voor vermoedelijke oninbaarheid wordt niet noodzakelijk geacht.
+
+2. Liquide middelen
+
+Rabobank „308
+Rabobank .864
+
+31-12-2021 31-12-2020
+€
+
+588 9.057
+6.367 -
+6.955 9,057
+1.116 1.014
+3.001 22.000
+4.117 23.014
+
+De liquide middelen worden gewaardeerd tegen nominale waarde. De per 31 december 2021 aanwezige
+
+liquide middelen staan de onderneming ter vrije beschikking.
+
+Samenstellingsverklaring afgegeven
+
+-14 -
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+PASSIVA
+
+3. Ondernemingsvermogen
+
+2021 2020
+
+€ €
+A. Gül
+Stand per 1 januari 10.690 7.032
+Overwinst 23.942 29,592
+Privéopnamen -32.904 -25,934
+Stand per 31 december 1.728 10.690
+E. Gül
+Stand per 1 januari 10.690 7.032
+Overwinst 23.942 29.592
+Privéopnamen -34.578 -25,934
+Stand per 31 december 54 10.690
+K. Canpínar
+Stand per 1 januari 10.691 7.032
+Overwinst 23.941 29.593
+Privéopnamen -27.458 -25.934
+
+-27.458 -25.934
+Stand per 31 december 7.174 10.691
+
+Samenstellingsverklaring afgegeven -15-
+
+We Care and Travel V.O.F. te Bergen op Zoom
+
+4. Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Overige schulden en overlopende passiva
+Overlopende passiva
+
+Overlopende passiva
+
+Accountantskosten
+Rente- en bankkosten
+
+31-12-2021 31-12-2020
+€ €
+109
+2.007
+2.000
+7
+2.007
+
+Samenstellingsverklaring afgegeven -16-
+
+We Care and Travel V,O.F. te Bergen op Zoom
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2021
+
+5. Netto-omzet
+De netto-omzet is in 2021 ten opzichte van 2020 met 28,8% gedaald.
+
+2021 2020
+€ €
+
+6. Netto-omzet
+Netto-omzet 90.285 126.863
+7. Kostprijs van de omzet
+Inkopen 1,157 25.054
+Overige bedrijfskosten
+8. Huisvestingskosten
+Huur onroerende zaak - 1.663
+9. kantoorkosten
+Kantoorbehoeften - 2.627
+Automatiseringskosten 105 -
+Telefoon 3.857 1.789
+Contributies en abonnementen 1.647 -
+
+5.609 4,416
+10. Autokosten
+Kilometervergoeding 6.650 6.171
+11. Verkoopkosten
+Reclame- en advertentiekosten 115 -
+Representatiekosten 100 -
+
+215 -
+
+12. Algemene kosten
+Accountantskosten 2.484 =
+Verzekeringen 1.199 579
+Bedrijfskleding 133 -
+Overige algemene kosten 806 -
+
+4,622 579
+
+Samenstellingsverklaring afgegeven -17-
+
+We Care and Travel V,O.F. te Bergen op Zoom
+
+13. Financiële baten en lasten
+2021 2020
+
+Rentelasten en soortgelijke kosten
+Bankkosten -207 -203
+
+Ondertekening jaarrekening voor akkoord
+
+Bergen op Zoom, 24 augustus 2022
+
+A. Gül E, Gül
+
+K. Canpinar
+
+Samenstellingsverklaring afgegeven -18 -
