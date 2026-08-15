@@ -1,0 +1,951 @@
+# whosigns-ocr v1 grootte=9804212 dpi=300 paginas=20
+pagina: 1
+
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+1 Algemeen
+
+Deze jaarrekening is op fiscale cijfers gebaseerd.
+
+De besloten vennootschap 'T Zorghuisje B.V. heeft de volgende handelsnamen: 'T Zorghuisje BV.
+De besloten vennootschap is gezeteld in ‘s-Gravenhage.
+
+De besloten vennootschap is ingeschreven bij de Kamer van Koophandel onder dossiernummer 76332365.
+
+Datum vaststelling jaarrekening
+De jaarrekening 2022 is vastgesteld in de Algemene Vergadering gehouden op 28-06-2023.
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 2
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+1.1 Resultaatvergelijking
+
+2022 2021
+€ % € %
+Opbrengsten
+Netto-omzet 1.497.201 93,89% 1.139.274 100,00%
+Overige opbrengsten 97.480 6,11% 0 0,00%
+1.594.681 100,00% 1.139.274 100,00%
+Kosten van grond- en hulpstoffen,
+uitbesteed werk, e.d.
+Kosten van uitbesteed werk en andere
+externe kosten 284.292 17,83% 365.759 32,10%
+-284.292 -17,83% -365.759 -32,10%
+Brutomarge 1.310.389 82,17% 773.515 67,90%
+Personeelskosten
+Lonen en salarissen 820.316 51,44% 494,427 43,40%
+Sociale lasten 109.557 6,87% 94.140 8,26%
+Pensioenlasten 70.317 4,41% 33.062 2,90%
+Overige personeelskosten 88.886 5,57% 15.319 1,34%
+-1.089.076 -68,29% -636.948 -55,91%
+Afschrijvingen
+Overige materiële vaste activa 6.626 0,42% 1.636 0,14%
+-6.626 -0,42% -1.636 -0,14%
+Overige bedrijfskosten
+Huisvestingskosten 83.794 5,25% 13.460 1,18%
+Verkoopkosten 6.234 0,39% 6.272 0,55%
+Niet-aftrekbare boetes 151 0,01% 936 0,08%
+Overige kosten 105.175 6,60% 59.415 5,22%
+-195.354 -12,25% -80.083 -1,03%
+Financiële baten en lasten
+Opbrengsten van vorderingen op
+participanten en maatschappijen waarin
+wordt deelgenomen 1.705 0,11% 1.714 0,15%
+Kosten van schulden, andere rentelasten
+en soortgelijke kosten -750 -0,05% -354 -0,03%
+955 0,06% 1.360 0,12%
+Saldo winst voor belasting 20.288 1,27% 56.208 4,93%
+Verschuldigde VPB -1.911 -0,12% -1.734 -0,68%
+Saldo winst na belasting 18.377 1,15% 48.474 4,25%
+
+De winst-en-verliesrekening over 2022 is afgesloten met een positief resultaat na belastingen van € 18.377.
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 3
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+1.2 Resultaatanalyse
+
+Het resultaat over 2022 is ten opzichte van 2021 gedaald met € 30.097. De ontwikkeling van het resultaat over 2022 ten opzichte van
+2021 kan als volgt worden weergegeven:
+
+€ €
+Het resultaat is gunstig beïnvloed door:
+Stijging van:
+Netto-omzet 357.927
+Overige opbrengsten 97.480
+Opbrengsten van vorderingen op participanten en maatschappijen waarin wordt
+deelgenomen (0)
+455.407
+Daling van:
+Kosten van uitbesteed werk en andere externe kosten 81.467
+Niet-aftrekbare boetes 785
+Verkoopkosten 38
+Verschuldigde VPB 5.823
+88.113
+Het resultaat is ongunstig beïnvloed door:
+Stijging van:
+Lonen en salarissen 325.889
+Sociale lasten 15.417
+Pensioenlasten 37.255
+Overige personeelskosten 73.567
+Afschrijving overige materiële vaste activa 4.990
+Huisvestingskosten 70.334
+Overige kosten 45.760
+Kosten van schulden, andere rentelasten en soortgelijke kosten 396
+-573.608
+Daling van:
+Opbrengsten van vorderingen op participanten en maatschappijen waarin wordt
+deelgenomen 9
+-9
+Daling resultaat 30.097
+
+Senator Administraties en Advies B.V.
+
+
+Jaarrekening 2022 van 'T Zorghuisje B.V.
+
+pagina: 4
+KvK-nummer: 76332365
+Datum vastgesteld: 28-06-2023
+
+2 Jaarrekening
+
+2.1 Balans per 31-12-2022
+
+Activa
+
+Materiële vaste activa
+Overige materiële vaste activa
+
+Financiële vaste activa
+
+Overige financiële vaste activa
+
+Vorderingen
+Vorderingen op handelsdebiteuren
+
+Kortlopende vorderingen op participanten en
+maatschappijen waarin wordt deelgenomen
+
+Overige vorderingen
+
+Liquide middelen
+
+Totaal activa
+
+Passiva
+
+Eigen vermogen
+Gestort en opgevraagd kapitaal
+Winstreserves
+
+Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+Loonheffingen
+
+Overige kortlopende schulden
+
+Totaal passiva
+
+na resultaatbestemming
+
+31-12-2022 31-12-2021
+€ € € €
+
+35,559 18.285
+
+35.559 18.285
+18.455 0
+
+18.455 0
+87.145 102.993
+115.366 58.860
+120.947 80.062
+
+323.458 241.915
+
+40.543 55.518
+
+418.015 315.718
+
+31-12-2022 31-12-2021
+
+€ € € €
+
+100 100
+92.298 72.010
+
+92.398 72.110
+23.708 2.418
+16.633 12391.
+285.276 228.799
+
+325.617 243.608
+
+418.015 315.718
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 5
+KvK-nummer: 76332365
+
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+2.2 Winst-en-verliesrekening 2022
+
+2022 2021
+€ € € €
+Opbrengsten
+Netto-omzet 1.497.201 1.139.274
+Overige opbrengsten 97.480 0
+1.594.681 1.139.274
+Kosten van grond- en hulpstoffen, uitbesteed werk,
+e.d.
+Kosten van uitbesteed werk en andere externe kosten 284.292 365.759
+-284.292 -365.759
+Brutomarge 1.310.389 773.515
+Personeelskosten
+Lonen en salarissen 820.316 494,427
+Sociale lasten 109.557 94.140
+Pensioenlasten 70.317 33.062
+Overige personeelskosten 88.886 15.319
+-1.089.076 -636.948
+Afschrijvingen
+Overige materiële vaste activa 6.626 1.636
+-6.626 -1.636
+Overige bedrijfskosten
+Huisvestingskosten 83.794 13.460
+Verkoopkosten 6.234 6.272
+Niet-aftrekbare boetes 151 936
+Overige kosten 105.175 59.415
+-195.354 -80.083
+Financiële baten en lasten
+Opbrengsten van vorderingen op participanten en
+maatschappijen waarin wordt deelgenomen 1.705 1.714
+Kosten van schulden, andere rentelasten en soortgelijke
+kosten -750 -354
+OO 955 1.360
+
+Saldo winst voor belasting
+
+20.288 56.208
+Verschuldigde VPB =1.911 -7.734
+Saldo winst na belasting 18.377 € 48.474
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 6
+KvK-nummer: 76332365
+
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+2.3 Kasstroomoverzicht over 2022
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2022 2021
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 20.238 56.208
+Aanpassingen voor aansluiting met het
+bedrijfsresultaat
+Aanpassingen voor afschrijvingen 6.626 1.636
+Veranderingen in werkkapitaal
+Mutaties in Vorderingen op handelsdebiteuren 15.848 0
+Mutaties in handelscrediteuren 21.290 0)
+Mutaties in overige vorderingen -97.391 0
+Mutaties in overige schulden 60.719 0)
+Totaal van kasstroom uit bedrijfsoperaties 27.380 57.844
+Ontvangen winstbelasting 1.911 0)
+Totaal van kasstroom uit operationele activiteiten 29.291 57.844
+Kasstroom uit investeringsactiviteiten
+Verwerving van materiële vaste activa 23.899 19.922
+Overige kasstromen -66.254 -30.800
+Totaal van kasstroom uit investeringsactiviteiten -10.878
+
+Totaal mutatie in geldmiddelen
+
+Samenstelling geldmiddelen
+Geldmiddelen aan het begin van de periode
+Mutatie in geldmiddelen
+
+Geldmiddelen aan het einde van de periode
+
+46.966
+
+55.518
+-13.064
+
+8.552
+46.966
+55.518
+
+1 1
+
+== kad
+
+pe e va
+Ui
+
+5 3 à
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 7
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+2.4 Grondslagen van de jaarrekening
+2.4.1 Algemene grondslagen
+
+Algemene resultaatbepaling
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten en andere lasten
+over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij zijn gerealiseerd.
+
+2.4.2 Grondslagen voor de balanswaardering activa
+
+Materiële vaste activa
+
+De afschrijvingen worden gebaseerd op de geschatte economische levensduur, tenzij fiscaal een wettelijk maximum
+afschrijvingspercentage van 20% wordt voorgeschreven, en worden berekend op basis van een vast percentage van de kostprijs,
+rekening houdend met een eventuele residuwaarde. Er wordt afgeschreven vanaf het moment van ingebruikneming.
+
+Subsidies op investeringen worden in mindering gebracht op de verkrijgings- of vervaardigingsprijs van de activa waarop de subsidies
+betrekking hebben.
+
+Voor verplichtingen tot herstel na afloop van het gebruik van het actief (ontmantelingskosten) wordt een voorziening getroffen voor
+het verwachte bedrag op het moment van activering.
+
+Dit bedrag wordt verwerkt als onderdeel van de boekwaarde van het actief waartegenover voor het gehele bedrag een voorziening
+wordt gevormd.
+
+Vorderingen
+
+Vorderingen worden opgenomen tegen nominale waarde, rekening houdend met eventuele verminderingen voor het risico van
+oninbaarheid. Deze verminderingen worden bepaald op basis van individuele beoordeling van de vorderingen. Voor zover niet anders
+is vermeld hebben de vorderingen een looptijd van korter dan 1 jaar.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden, wissels, cheques en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende schulden. Liquide
+middelen worden gewaardeerd tegen nominale waarde.
+
+2.4.3 Grondslagen voor de balanswaardering passiva
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen nominale waarde. Daarbij dient een zakelijke rente in
+aanmerking te worden genomen.
+
+2.4.4 Grondslagen voor de resultaatbepaling
+
+Lonen, salarissen en sociale lasten
+
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in de winst- en verliesrekening.
+
+Financiële lasten
+
+De rentelasten betreffen de op de verslagperiode betrekking hebbende rentelasten van ontvangen leningen.
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 8
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+2.4.5 Grondslagen voor het kasstroomoverzicht
+
+Kasstroom
+
+De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide middelen (, de kortlopende schulden aan kredietinstellingen, de
+
+kortlopende schulden aan kredietinstellingen) en de vlottende effecten. De effecten kunnen worden beschouwd als zeer liquide
+beleggingen.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn opgenomen onder de kasstroom uit
+operationele activiteiten. Betaalde dividenden zijn opgenomen onder de kasstroom uit financieringsactiviteiten.
+
+Transacties waarbij geen ruil van kasmiddelen plaatsvindt, waaronder financial leasing, zijn niet in het kasstroomoverzicht opgenomen.
+De betaling van de lease termijnen uit hoofde van het financial lease contract zijn voor het gedeelte dat betrekking heeft op de
+aflossing als een uitgave uit financieringsactiviteiten aangemerkt en voor het gedeelte dat betrekking heeft op de interest als een
+
+uitgave uit operationele activiteiten.
+
+2.4.6 Algemene toelichtingen
+
+Belangrijkste activiteiten
+
+De activiteiten van 'T Zorghuisje B.V, gevestigd te ‘s-Gravenhage, bestaan voornamelijk uit:
+- Thuiszorg
+
+Werknemers
+Gemiddeld werkten er 29,00 werknemers in 2022, in 2021 waren dat er 22,00.
+
+Bezoldiging van topfunctionarissen
+
+De WNT is van toepassing op °T Zorghuisje BV. Het voor °T Zorghuisje B.V. toepasselijke bezoldigingsmaximum is in 2022 € 120.000
+conform Zorg en jeugdhulp Klasse |.
+
+Voor de WNT verantwoording verwijzen wij naar de separaat afgegeven controleverklaring “WNT-verantwoording 2022 “T Zorghuisje
+BV."
+
+2.5 Verbonden partijen
+
+2.5.1 Specificatie aandeelhouder(s)
+
+Naam aandeelhouder El Boukari Holding B.V.
+
+Schulden van El Boukari Holding B.V. aan de vennootschap
+
+Omschrijving Betaalde rente Bedrag schuld
+
+Rekening courant 1.705 115.366
+1.705 115.366
+
+El Boukari Holding B.V. heeft geen vordering op de vennootschap.
+
+2.6 Winstbestemming
+
+De directie stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2022 geheel ten gunste van de overige reserves te
+brengen en over 2022 geen dividend uit te keren.
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 9
+
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+2.7 Toelichting balans activa per 31-12-2022
+2.7.1 Materiële vaste activa
+
+Overige materiële vaste activa
+
+Kosten aanschaf Restwaarde 31-12-2022 31-12-2021
+Inventaris 5.012 0 3.315 4.318
+Computer 2.669 0 1.785 2.319
+Media Markt computer 754 (0) 541 692
+ICT server 5.674 0 4.220 5.355
+NEDAB inrichting software 4.705 (0) 3.590 4,531
+Computer 1.108 (9) 849 1.070
+Switch en istallatie 1.759 0 1.438 0
+Acer Chromebook + HP 2.528 0 2.338 0
+E-Bike 2.239 0 2.129 0
+Microsoft Laptop 2.009 0 1.644 0
+8 x Bureaustoel 884 0 718 0
+3x bureau 4x ladeblok 665 0 558 0
+Inrichting nieuwe locatie 13.815 (0) 12.434 (6)
+35.559 18.285
+
+2.7.2 Financiële vaste activa
+
+Overige financiële vaste activa
+Nominale waarde 31-12-2022 31-12-2021
+Waarborgsom huur 18.455 18.455 0
+18.455 0)
+
+De financiële activa bestaat uit een waarborg, deze borg is ten behoeve van de huurpanden aan de Zinkwerf 6B, 6C ten bedrage van €
+15.950 en Europalaan 67 ten bedragen van €2.505
+
+2.7.3 Vorderingen
+
+Vorderingen op handelsdebiteuren
+
+Nominale waarde 31-12-2022 31-12-2021
+Debiteuren 87.145 87.145 102.993
+87.145 102.993
+
+Kortlopende vorderingen op participanten en maatschappijen waarin wordt deelgenomen
+
+Nominale waarde 31-12-2022 31-12-2021
+Rekening Courant El Boubkari Holding B.V, 115.366 115.366 58.860
+115.366 58.860
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 10
+KvK-nummer: 76332365
+
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+Overige vorderingen
+
+31-12-2022 31-12-2021
+Lening 0 14.950
+Overlopende Activa 986 64.330
+Pensioen premie 0) 782
+Nog te ontvangen DSW 24.318 (6)
+Nog te ontvangen subsidie 22.021 (0)
+Nog te factureren omzet 73.472 0
+Vooruitbetaalde VPB 2022 150 (e)
+120.947 80.062
+
+Alle vorderingen hebben een resterende looptijd korter dan een jaar, tenzij anders vermeld.
+
+2.7.4 Liquide middelen
+
+31-12-2022 31-12-2021
+NL27 RABO 0348 2435 37 40.543 55.518
+40.543 55.518
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 11
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+2.8 Toelichting balans passiva per 31-12-2022
+
+2.8.1 Ondernemingsvermogen
+Gestort en opgevraagd kapitaal
+
+31-12-2022 31-12-2021
+Aandelen kapitaal 100 100
+100 100
+Winstreserves
+31-12-2022 31-12-2021
+Algemene reserve 01-01 72.010 15.802
+Resultaat boekjaar 20.288 56.208
+92.298 72.010
+2.8.2 Kortlopende schulden
+Schulden aan leveranciers en handelskredieten
+Bedrag waarvoor
+zekerheid is 31-12-2022 31-12-2021
+gesteld
+Crediteuren 0 23.708 2.418
+0) 23.708 2.418
+Loonheffingen
+Bedrag waarvoor
+zekerheid is 31-12-2022 31-12-2021
+gesteld
+Loonbelasting december 0 16.633 12.391
+0 16.633 12.391
+Overige kortlopende schulden
+Bedrag waarvoor
+zekerheid is 31-12-2022 31-12-2021
+gesteld
+Nog te betalen 0) 146.055 128.000
+Netto loon december 0 49.831 73.582
+Te betalen vakantiegeld 0 26.942 23.217
+Lening 0 24.572 4.000
+reservering vakantiedagen 0) 14.152 0
+Nog te betalen pensioen 0 23.722 0
+Afronding balans 0 2 0
+0 285.276 228.799
+
+De kortlopende schulden hebben een resterende looptijd van korter dan een jaar.
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 12
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+2.9 Toelichting winst-en-verliesrekening 2022
+2.9.1 Opbrengsten
+
+Netto-omzet
+
+2022 2021
+Omzet 1.458.031 1.038.241
+Omzet Stichting Thuiszorg Nescar 8.296 112.145
+Omzet VWS - Financieel Dienstencentrum 87.350 25.105
+Omzet SVB 134.891 209.558
+Niet vergoede zorgkosten -191.367 -245.775
+1.497.201 1.139.274
+Overige opbrengsten
+2022 2021
+RVO.NL Subsidie Praktijkleren 97.480 0
+97.480 0
+2.9.2 Inkoopkosten en uitbesteed werk
+Kosten van uitbesteed werk en andere externe kosten
+2022 2021
+Inhuur derden 267.990 348.776
+Inkopen 16.302 16.983
+284.292 365.759
+2.9.3 Personeelskosten
+Lonen en salarissen
+2022 2021
+Bruto loon 820.316 494.427
+820.316 494.427
+Sociale lasten
+2022 2021
+Sociale lasten 109.557 94.140
+109.557 94.140
+Pensioenlasten
+2022 2021
+PGGM pensioen lasten 70.317 33.062
+70.317 33.062
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 13
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+Overige personeelskosten
+
+2022 2021
+Reiskosten 41.462 4.107
+Opleidingen 28.495 9.295
+Verzuimverzekering 4.052 1.917
+Werkkostenregeling vrije ruimte 3.005 0
+Overige personeelskosten 11.872 0)
+88.886 15.319
+2.9.4 Afschrijvingen
+Overige materiële vaste activa
+2022 2021
+Afschrijving inventaris 6.626 1.636
+6.626 1.636
+Afschrijvingspercentages 20 %
+2.9.5 Overige bedrijfskosten
+Huisvestingskosten
+2022 2021
+Huur 76.491 12.405
+WOZ 1.044 1.055
+Service kosten 2.261 0
+Onderhoud pand 3.586 (0)
+Overige kosten huisvesting 412 0
+83.794 13.460
+Verkoopkosten
+2022 2021
+Reclame, advertenties 3.174 5.257
+Relatiekosten 25 1.015
+Incasso kosten 3.035 0
+6.234 6.272
+Niet-aftrekbare boetes
+2022 2021
+Boetes en kosten 151 936
+151 936
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 14
+
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+Overige kosten
+
+2022 2021
+Overige kosten 6.434 11.224
+Kantoorbenodigdheden 11.275 2.554
+Zegel- en portokosten 2.563 192
+Telefoonkosten 8.720 4.214
+Kantine 4,476 1.001
+Automatisering 31.386 9,787
+Administratie 3.077 6.271
+Advieskosten 9.839 10.772
+Juridische kosten 5.200 8.608
+Assurantie algemeen 3.963 3.906
+Verblijfskosten, Vertering 0 886
+Accountant 2.800 0)
+Abonnementen, contributies 11.276 (0)
+Drukwerk 4,166 0)
+105.175 59,415
+2.9.6 Financiële baten en lasten
+Opbrengsten van vorderingen op participanten en maatschappijen waarin wordt deelgenomen
+2022 2021
+Rente rekening courant 1.705 1.714
+1.705 1.714
+Kosten van schulden, andere rentelasten en soortgelijke kosten
+2022 2021
+Bankkosten 710 342
+Betalingsverschil 40 12
+750 354
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 15
+KvK-nummer: 76332365
+
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+Ondertekening jaarrekening
+Den Haag, 28 juni 2023 Handtekening
+El Boubkari Holding B.V.
+F. El Boubkari
+Bestuurder (huidig)
+
+Senator Administraties en Advies B.V.
+
+
+pagina: 16
+KvK-nummer: 76332365
+Jaarrekening 2022 van 'T Zorghuisje B.V. Datum vastgesteld: 28-06-2023
+
+3 Overige gegevens
+
+3.1 Wettelijke vrijstelling
+
+Gelet op de omvangcriteria vermeld in artikel 2:396 BW is de vennootschap vrijgesteld van de verplichting tot het laten instellen van
+de in artikel 2:393, lid 1 BW bedoelde accountantscontrole van de jaarrekening.
+
+Senator Administraties en Advies BV.
+
+
+'N'q salnpy ua sareugsluIwpy Jozeuss
+
+0 6S5'GE Tog 599 LEIT T8'er
+0 ver T8E'T 18E'T 0 STS'ET
+
+0 855 LOT LOT 0 599
+
+0 84 997 99T 0 788
+
+0 vrat S9e Sg 0 600'Z
+
+0 GETZ OTT OTT 0 GETZ
+
+0 BEET 06T O6T 0 8TST
+
+0 BEV'T TZEe 43 0 6SL'T
+
+0 678 657 Te 8E 80T'T
+
+0 O6S'E STTT Ty6 vLI 504"
+
+0 Oet vSr'T SETI 6TE 7L9'S
+
+0 TyS Ez IST zo vsL
+
+0 S8L'T 788 ves Ose 699'7
+
+0 STe€- L69'T €00'T 769 eros
+opseemasay TLOZ-TT-TEe TLOZ-LT-TE WN Tzoz ZZOZ-T0-TO 201 Jeyosuee uaIsoy
+
+Jad apieemzoog
+
+ue8uUIAfIJUIs JY
+
+uaguInfuyosJy
+
+ua8uIAfUIsJy
+
+€T0-L0-TO
+CCOT-EO-TT
+€EOE-TO-vz
+CTOE-E0-EO
+TE0E-OT-EO
+€C0€-80-9T
+€E0E-20-20
+T40E-0T-OE
+TE0E-OT-SZ
+TE0C-60-0C
+T40C-80-€0
+TE0E-50-50
+Te0E-70-Ez
+
+wieg
+
+alje20j amnalu BUIYIIUI
+zojgepel Xy neaing xe
+|eojsneaang X8
+
+dogde7 3JOs0Ja1 Nl
+
+oNlg-T
+
+dH + _j00gewWoIYD JI
+anejjeasl Uva YIIMS
+Jajndwo5
+
+OJEMHOS BUIJYIIJUI JYOIN
+Janas 191
+
+Jaindwo9 Pel) erPalN
+Jajndwog
+
+SIJEJUDAU|
+
+DAIJ2D ISDN 3/21123 DUI 26142A0
+
+EAIJDe AJSEA ajallarenl
+
+BUIA(LUISWO
+
+geejss8uinfuuasjy t
+
+€T0{-90-87 :pjajsaSisen wmeg
+SIELEEI/ -JSUWNU-HINY
+LI :euIged
+
+‘Na efsiny3107 |, ven ZZ0z Suivoyauneer
+
+
+Notulen van de Algemene Vergadering van de besloten vennootschap met beperkte aansprakelijkheid 'T Zorghuisje B.V, statutair
+gevestigd te 's-Gravenhage gehouden ten kantore van de vennootschap op 28-06-2023,
+
+De volgende personen zijn aanwezig: El Boukari Holding BV.
+
+Opening
+
+De vergadering wordt geopend door El Boukari Holding B.V, die optreedt als voorzitter en aan El Boukari Holding BV. verzoekt de notulen
+op te stellen.
+
+Na de opening constateert de voorzitter dat:
+
+e het gehele geplaatste kapitaal van de vennootschap is vertegenwoordigd;
+e geen certificaten van aandelen zijn uitgegeven met medewerking van de vennootschap;
+e geen recht van vruchtgebruik of pandrecht op de uitstaande aandelen is gevestigd;
+
+e hoewel de vergadering niet is bijeengeroepen conform de wettelijke en statutaire voorschriften er toch geen beletselen aanwezig
+zijn om welk besluit dan ook wettig te nemen.
+
+Vaststelling jaarrekening 2022
+
+De vergadering heeft kennis genomen van de jaarrekening 2022 en de daarbij behorende overige gegevens. Zonder verdere bespreking
+stelt de vergadering de jaarrekening en bijbehorende stukken met algemene stemmen vast en verleent daarmee het bestuur decharge
+voor het over het boekjaar gevoerde beleid.
+
+Bestemming resultaat
+
+De directie stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2022 geheel ten gunste van de overige reserves te
+brengen en over 2022 geen dividend uit te keren.
+
+Zonder verdere bespreking bestemt de vergadering het resultaat met algemene stemmen conform het voorstel van het bestuur.
+
+Uitstel opstellen jaarrekening
+
+De voorzitter stelt aan de orde de gang van zaken met betrekking tot het opstellen van de jaarrekening 2023. De vergadering geeft met
+algemene stemmen aan het bestuur van de vennootschap uitstel tot het opstellen van de jaarrekening 2023 tot uiterlijk 1 november 2024.
+
+Rondvraag
+Geen van de aanwezigen maakt gebruik van de rondvraag.
+
+Sluiting
+
+Na schorsing van de vergadering om de notulen op te stellen, zijn deze notulen staande de vergadering goedgekeurd, Niets meer aan de
+orde zijnde, sluit de voorzitter de vergadering. Getekend te Den Haag, 28-06-2023
+
+Voorzitter: Notulist:
+
+El Boukari Holding B.V. El Boukari Holding B.V.
+
+Senator Administraties en Advies BV,
+
+
+PERSHAD
+
+CONSULTANCY
+
+Pershad Consultancy
+
+Oude Middenweg 4
+
+2491 AA Den Haag
+(Leidschenveen)
+
+T: 0653-607284
+
+E: patrick.pershad@gmail.com
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT KvK nummer: 70994749
+
+ABN AMRO: NL61ABNA0405634838
+Opdrachtgever:
+
+Adm. kantoor Senator Administraties & Advies B.V.
+T.a.v. mevrouw A. Kooij van der Does
+
+Willem Dreeslaan 232
+
+2729 NJ Zoetermeer
+
+Betreffende de cliënt:
+“T Zorghuisje B.V.
+Zinkwerf 6B
+
+2544 EE Den Haag
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2022 van “T Zorghuisje B.V. te Den Haag beoordeeld. Deze
+jaarrekening bestaat uit de balans per 31 december 2022 en de winst- en verliesrekening over 2022 met de toelichting,
+
+waarin zijn opgenomen een overzicht van de gehanteerde grondslagen voor financiële verslaggeving en andere
+toelichtingen.
+
+Verantwoordelijkheid van de directie
+
+De directie is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het resultaat getrouw dient
+weer te geven in overeenstemming met Titel 9 Boek 2 van het in Nederland geldende Burgerlijk Wetboek (BW). De
+directie is tevens verantwoordelijk voor een zodanige interne beheersing als zij noodzakelijk acht om het opmaken van
+de jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als gevolg van fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze beoordeling. Wij
+hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder de Nederlandse Standaard
+2400 ‘Opdrachten tot het beoordelen van financiële overzichten’. Dit vereist dat wij voldoen aan de voor ons geldende
+ethische voorschriften en dat wij onze beoordeling zodanig plannen en uitvoeren dat wij in staat zijn te concluderen
+dat ons niet is gebleken dat de jaarrekening afwijkingen van materieel belang bevat. Een beoordeling in
+overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte mate van zekerheid. De in dit kader
+uitgevoerde werkzaamheden bestonden in hoofdzaak uit het inwinnen van inlichtingen bij het management en overige
+functionarissen van de entiteit, het uitvoeren van cijferanalyses met betrekking tot de financiële gegevens alsmede het
+evalueren van de verkregen informatie. De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn
+aanzienlijk beperkter dan die uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de
+Nederlandse controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+PERSHAD CONSULTANCY: VOOR ACCOUNTANCY, AUDITING EN BELASTINGEN.
+
+UW TRUSTED ADVISOR!
+
+
+PERSHAD
+
+CONSULTANCY
+
+Conclusie
+
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten concluderen dat de
+jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling van het vermogen van “T Zorghuisje B.V.
+per 31 december 2022 en van het resultaat over 2022 in overeenstemming met Titel 9 Boek 2 van het in Nederland
+geldende Burgerlijk Wetboek (BW).
+
+Basis voor financiële verslaggeving en beperking in gebruik en verspreidingskring
+
+Wij vestigen de aandacht op de toelichting waarin de basis voor financiële verslaggeving uiteen is gezet. De
+jaarrekening is opgesteld voor het CIBG, onderdeel van het Ministerie van Volksgezondheid, Welzijn en Sport met als
+doel ‘T Zorghuisje B.V.(met een WTZi-toelating) in staat te stellen te voldoen aan de Jaarverantwoording Zorg.
+Hierdoor is de jaarrekening 2022 van ‘T Zorghuisje B.V. te Den Haag mogelijk niet geschikt voor andere doeleinden.
+Onze beoordelingsverklaring is derhalve uitsluitend bestemd voor “T Zorghuisje B.V. en het CBIG (Ministerie van
+Volksgezondheid, Welzijn en Sport) en dient niet te worden verspreid aan of te worden gebruikt door anderen. Deze
+situatie doet geen afbreuk aan onze conclusie.
+
+Den Haag, 2 juli 2023
+
+Pershad Consultancy
+
+A
+
+GL.
+u +
+
+P.R. Pershad AA
+
+PERSHAD CONSULTANCY: VOOR ACCOUNTANCY, AUDITING EN BELASTINGEN.
+
+UW TRUSTED ADVISOR!
+
