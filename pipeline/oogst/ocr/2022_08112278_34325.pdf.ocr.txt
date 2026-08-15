@@ -1,0 +1,708 @@
+# whosigns-ocr v1 grootte=2464262 dpi=300 paginas=20
+Mendit BV te Hellendoorn
+
+BESTUURSVERSLAG
+
+Ingevolge artikel 2:396 lid 7 BW is afgezien van het opstellen van een bestuursverslag
+over 2022.
+
+
+JAARREKENING
+
+Mendit BV te Hellendoorn
+
+1 BALANS PER 31 DECEMBER 2022
+(na resultaatbestemming)
+
+31 december 2022 31 december 2021
+€ € € €
+ACTIVA
+Vaste activa
+Materiële vaste activa Ú)
+Inventaris 17.588 17.505
+Vervoermiddelen 7,680 11.601
+Huurdersinvesteringen 19.872 22.227
+45.140 51.333
+Vlottende activa
+Vorderingen (2)
+Handelsdebiteuren 3.886 -
+Overige vorderingen en overlopende activa 1.261 1.090
+5.147 1.090
+Liquide middelen 3) 13.258 23.947
+
+63.545 76.370
+
+
+PASSIVA
+
+Eigen vermogen (4)
+
+Geplaatst kapitaal
+Overige reserves
+
+Kortlopende schulden (5)
+
+Schulden aan kredietinstellingen
+
+Schulden aan participanten en aan
+maatschappijen waarin wordt deelgenomen
+Belastingen en premies sociale
+verzekeringen
+
+Overige schulden en overlopende passiva
+
+31 december 2022
+
+31 december 2021
+
+€
+
+180
+-2.529
+
+731
+
+51.923
+
+1.627
+5.613
+
+€
+
+-2.349
+
+65.894
+
+63.545
+
+€ €
+
+180
+8.178
+
+8.358
+33.075
+6.367
+28.570
+
+68.012
+
+76.370
+
+-11-
+
+Mendit BV te Hellendoorn
+
+2 WINST-EN-VERLIESREKENING OVER 2022
+
+2022 2021
+
+€ €
+Netto-omzet (6) 294.150 271.726
+Kostprijs van de omzet (7) 82.062 81.489
+Bruto-omzetresultaat 212.088 190.237
+Kosten
+Personeelskosten (8) 144.218 129.026
+Afschrijvingen materiële vaste activa 9) 11.193 9.187
+Huisvestingskosten (10) 38.534 29.835
+Exploitatiekosten (11) 523 448
+Kantoorkosten (12) 763 458
+Autokosten (13) 18.465 15.513
+Verkoopkosten (14) - 73
+Algemene kosten (15) 6.192 7.323
+
+219.888 191.863
+Bedrijfsresultaat -7.800 -1,626
+Financiële baten en lasten (16) -2.910 -1.896
+Resultaat voor belastingen -10.710 -3.522
+Belastingen - -
+Resultaat na belastingen -10.710 -3.522
+
+-12-
+
+Mendit BV te Hellendoorn
+
+3 KASSTROOMOVERZICHT 2022
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2022
+€ €
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat -7.800
+Aanpassingen voor:
+Afschrijvingen 11.193
+Veranderingen in het werkkapitaal:
+Mutatie vorderingen 4.057
+Mutatie kortlopende schulden (exclusief kortlopend deel van de langlopende schulden) -2.118
+Kasstroom uit bedrijfsoperaties -2.782
+Betaalde interest -2.910
+Kasstroom uit operationele activiteiten -5.692
+Kasstroom uit investeringsactiviteiten
+Investeringen in materiële vaste activa -5.000
+
+-10.692
+Samenstelling geldmiddelen
+
+2022
+€ €
+
+Geldmiddelen per 1 januari 23.947
+Mutatie liquide middelen -10.689
+Geldmiddelen per 31 december 13.258
+
+-13-
+
+Mendit BV te Hellendoorn
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de Richtlijnen
+voor de jaarverslaggeving voor kleine rechtspersonen die uitgegeven zijn door de Raad voor de jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de actuele
+waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de verkrijgingsprijs. In de
+balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties wordt verwezen naar de
+toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts opgenomen
+voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun oorsprong vinden voor het
+einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van de jaarrekening bekend zijn
+geworden.
+
+Vergelijking met voorgaand jaar
+
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten opzichte van het
+voorgaande jaar, met uitzondering van de toegepaste stelselwijzigingen zoals opgenomen in de desbetreffende
+paragrafen.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur en
+bijzondere waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reêle waarde van de tegenprestatie, inclusief de
+transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen de geamortiseerde
+kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden. Rekening-
+courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende schulden. Liquide
+middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reêle waarde. Kortlopende schulden worden
+na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden afgelost.
+
+-14-
+
+Mendit BV te Hellendoorn
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten en
+andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij zijn gerealiseerd.
+
+Opbrengstverantwoording
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde projectopbrengsten uit hoofde
+van onderhanden projecten onder aftrek van kortingen en dergelijke en van over de omzet geheven belastingen.
+
+Financiële baten en lasten
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van de
+desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de verantwoorde
+transactiekosten op de ontvangen leningen.
+
+-15-
+
+Mendit BV te Hellendoorn
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2022
+
+ACTIVA
+
+1. Materiële vaste activa
+
+Boekwaarde per 1 januari 2022
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en
+waardeverminderingen
+
+Mutaties
+Investeringen
+Afschrijvingen
+
+Boekwaarde per 31 december 2022
+Aanschaffingswaarde
+
+Cumulatieve afschrijvingen en
+waardeverminderingen
+
+Boekwaarde per 31 december 2022
+
+Afschrijvingspercentages
+
+Inventaris
+Vervoermiddelen
+Huurdersinvesteringen
+
+Vervoer- Huurders-
+Inventaris middelen invest-eringen Totaal
+€ € € €
+50.691 19.602 23.545 93.838
+-33.186 -8.001 -1.318 -42.505
+17.505 11.601 22.227 51.333
+5.000 - - 5.000
+4,917 -3.921 -2,355 -11.193
+83 -3.921 -2.355 -6,193
+55.691 19.602 23.545 98.838
+-38.103 -11.922 -3.673 -53.698
+17.588 7.680 19.872 45.140
+%
+5-20
+20
+10
+
+-16-
+
+Mendit BV te Hellendoorn
+
+2. Vorderingen
+
+Handelsdebiteuren
+
+Debiteuren
+
+Overlopende activa
+
+Vooruitbetaalde huur
+Autokosten
+Contributies en abonnementen
+
+3. Liquide middelen
+
+ABN/Amro Bank; ondernemersrekening
+ABN/Amro Bank; zakelijk flexibel deposito
+ABN/AMRO Bank; ondernemersrekening
+
+31-12-2022 31-12-2021
+€ €
+
+3.886
+
+1.000 1.000
+
+110 90
+
+151 -
+
+1.261 1.090
+
+23.945
+
+13.002 2
+
+256 -
+
+13.258 23.947
+
+-17-
+
+Mendit BV te Hellendoorn
+
+PASSIVA
+
+4. Eigen vermogen
+
+Geplaatst kapitaal
+
+Geplaatst en volgestort zijn 180 gewone aandelen nominaal € 1,00
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+5. Kortlopende schulden
+
+Schulden aan kredietinstellingen
+
+ABN/Amro Bank; ondernemersrekening
+
+Schulden aan participanten en aan maatschappijen waarin wordt
+
+deelgenomen
+
+Rekening-courant J. Ruiter Holding BV
+
+Stand per 1 januari
+Mutatie
+
+Rente
+
+Stand per 31 december
+
+31-12-2022 31-12-2021
+€ €
+180 180
+2022 2021
+€ €
+8.181 11.701
+10.710 3.523
+-2.529 8.178
+31-12-2022 31-12-2021
+€ €
+731
+2022 2021
+€ €
+33.075 17.847
+16.896 14.330
+49.971 32.177
+1.952 898
+51.923 33.075
+
+Over het gemiddeld saldo van de vordering wordt rente berekend ter grootte van het gemiddeld U-rendement (0,70%) +
+
+4%.
+
+-18-
+
+Mendit BV te Hellendoorn
+
+Belastingen en premies sociale verzekeringen
+
+Loonheffing
+
+Overlopende passiva
+
+Vakantiegeld
+Administratiekosten
+
+Nettoloon
+Vooruitgefactureerde bedragen
+
+31-12-2022 31-12-2021
+€ €
+
+7.627 6.367
+
+3.666 3.246
+
+1.947 1.850
+
+- 91
+
+23.383
+
+5.613 28.570
+
+-19-
+
+Mendit BV te Hellendoorn
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2022
+
+2022 2021
+€ €
+6. Netto-omzet
+Netto-omzet zorg vergoedingen 294.150 270.726
+Omzet zorgbonus - 1.000
+294.150 271.726
+
+De bezetting van 5 kinderen over 2022 is 1.825 dagen (100%). In 2021 betrof dit 1.825 dagen (100%). Vanaf 26 oktober
+2022 is er een 6e slaapkamer bijgekomen die per direct in gebruik is genomen. Hiermee neemt de totale bezetting toe tot
+1.892 dagen voor 6 kinderen.
+
+7.Kostprijs van de omzet
+
+Dienstverlening derden 8.496 6.365
+Inkopen eten en drinken 22.075 25.074
+Inkopen kleding 12.991 9,225
+Inkopen sport, vermaak 11.040 5.468
+Inkopen huishoudelijk 19.434 26.260
+Contributies 8.026 9.097
+
+82.062 81.489
+
+8. Personeelskosten
+
+Lonen en salarissen
+
+Bruto lonen 126.038 116.041
+
+Mutatie reservering vakantietoeslag 420 -
+
+Uitbetaalde vakantiedagen 236 274
+
+Ontvangen subsidies -650 -1.272
+126.044 115.043
+
+Sociale lasten
+
+Sociale lasten werkgever 11.107 10.398
+
+Overige personeelskosten
+
+Opleidingskosten 2.572 1.084
+Kosten salarisadministratie 1.045 861
+Overige personeelskosten 3.450 1.640
+
+7.067 3.585
+
+Personeelsleden
+
+Gedurende het jaar 2022 waren 2 werknemers in dienst op basis van een volledig dienstverband (2021: 2).
+
+-20-
+
+Mendit BV te Hellendoorn
+
+Afschrijvingen
+
+9. Afschrijvingen materiële vaste activa
+
+Inventaris
+Vervoermiddelen
+Huurdersinvesteringen
+
+Overige bedrijfskosten
+10.Huisvestingskosten
+
+Huur
+Energiekosten
+Onderhoud
+Schoonmaak
+Beveiliging
+
+11.Exploitatiekosten
+
+Onderhoud inventaris
+
+12.Kantoorkosten
+
+Kantoorbenodigdheden
+Telefoon- en internetkosten
+
+13.Autokosten
+
+Brandstoffen
+
+Reparatie en onderhoud
+Verzekering
+Motorrijtuigenbelasting
+Reinigingskosten
+Verkeersboetes
+
+14.Verkoopkosten
+
+Reiskosten
+
+2022 2021
+€ €
+4.917 4.290
+3.921 3.579
+2.355 1.318
+11.193 9.187
+12.000 12.000
+2.280 1.800
+20.489 16.035
+3.570 -
+195
+38.534 29.835
+523 448
+- 71
+763 387
+763 458
+8.608 6.847
+5.268 3.236
+940 1.514
+3.534 3.491
+- 104
+115 321
+18.465 15.513
+73
+
+-21-
+
+Mendit BV te Hellendoorn
+
+15.Algemene kosten
+
+Administratiekosten
+Advieskosten
+Verzekeringen
+
+Boetes algemeen
+Studiekosten
+
+Overige algemene kosten
+
+16.Financiële baten en lasten
+Rentelasten en soortgelijke kosten
+
+Rentelast ABN/Amro rekening-courant
+Bankkosten
+
+Rente rekening-courant J. Ruiter Holding B.V.
+
+Ondertekening van de jaarrekening
+
+Vaststelling jaarrekening
+
+De jaarrekening is aldus opgemaakt en vastgesteld door het bestuur c.q.
+
+Hellendoorn, 16 mei 2023
+
+Mendit BV
+Namens deze,
+
+J. Ruiter
+
+2022 2021
+€ €
+1.966 1.815
+2.968 1.864
+236 145
+124 913
+743 2.315
+155 271
+6.192 1,323
+249 238
+709 760
+1.952 898
+2.910 1.896
+
+de Algemene Vergadering.
+
+-22-
+
+OVERIGE GEGEVENS
+
+Mendit BV te Hellendoorn
+
+OVERIGE GEGEVENS
+
+1 Accountantscontrole
+
+Aangezien de besloten vennootschap valt binnen de door de wet, in artikel 2:396 lid 1 BW gestelde grenzen, is de
+vennootschap vrijgesteld van accountantscontrole. Om deze reden is aan de jaarrekening geen controleverklaring
+toegevoegd.
+
+2 Statutaire regeling winstbestemming
+
+Omtrent de bestemming van de winst is in artikel 20 van de statuten het volgende bepaald:
+
+1. De winst staat ter vrije beschikking van de algemene vergadering
+
+2. De vennootschap kan aan de aandeelhouders en andere gerechtigden tot de voor de uitkering vatbare winst slechts
+uitkeringen doen, voor zover het eigen vermogen groter is dan het gestorte en opgevraagde deel van het kapitaal,
+vermeerderd met de reserves die krachtens de wet moet worden aangehouden.
+
+3. Uitkering van winst geschiedt na vaststelling van de jaarrekening waaruit blijkt dat zij geoorloofd is.
+
+4. Bij de berekening van de winstverdeling tellen de aandelen die de vennootschap in haar eigen kapitaal houdt niet
+mede, tenzij deze aandelen belast zijn met een vruchtgebruik of daarvan met medewerking van de vennootschap
+certificaten zijn uitgegeven.
+
+5. De vennootschap mag tussentijds slechts uitkeringen doen, indien aan het vereiste an lid 2 is voldaan.
+
+3 Bestemming van het resultaat over het boekjaar 2021
+
+De jaarrekening 2021 is vastgesteld in de algemene vergadering gehouden op 19 mei 2022. De algemene vergadering
+heeft de bestemming van het resultaat vastgesteld conform het daartoe gedane voorstel.
+
+4 Verwerking van het verlies 2022
+
+Overeenkomstig de wettelijke bepalingen is het verlies ad € 10.710 over 2022 in mindering gebracht op de overige
+reserves. Dit is reeds in de jaarrekening verwerkt.
+
+-24-
+
+BIJLAGEN
+
+- QZ -
+
+- 987 9787 - 7 - 9787 9787 uozoyodsuen
+00‘07 - €0s €0s - - - €0s €0s TI0z MUM HDIT Dy IA-IM PETE
+00‘07 7 SE Ser 7 7 - Ser Ser TL07 J9AO09 + TUM HOOI IA-IM PEd!
+00‘07 - 689 689 - - - 689 689 LOOT JO0goN eQTUSOL
+00°07 7 667 667 7 7 - 667 667 LOOT 00u UOITAEd JH
+00‘07 - 00L 004 - - - 004 004 LOOT JoogoN eQTUSOL
+areAgjos uo sJopmduroo
+
+089'L UO TI 0961 6E se TOSTI 1008 0961
+00‘07 TTV E 0€8'L TST LI IST 7 ELIS 6LS'S EST LI 6107 T-HRN-79 JOISEN INEUST
+00‘07 v96'T VEST 005" 006 - 7987 9EGT OOS" 0707 DT AUD-TO OLA OATOA
+00°07 TrS'I 8Sy 0007 007 7 Tr6' 1 85 000'7 Tz0z uasjolj SYS ITH 7
+0007 TSL 860'T 0S8'T OLE - TCI I 8TL OS8T 0707 oyrqurezunour YS ITH
+uojepprujrodsueng
+
+PPSLI SOT'PE TSITS ELP 000s LEL TEC TS99p
+00‘07 TTET SLI 0057 SLI OOST - 7 7 TTO xq ourpoduren snumudg vegony
+00‘07 T78 607 OSO'T 607 0SO'T - - - TT0T JOSSEAJEBA 8,05 D STPIN
+00‘07 8ST'I 61 OSv'T 61 OST T - 7 7 TTO AL 9TUOSeUed
+00‘07 LvE vsl TOS Tor - 8vv es Tos Tz0z erowreosSursjroAog jseure Joure)
+00‘07 LES € OOT'T 077 7 LSL EVE OOTT 0707 uoBemodig
+0007 SS Ol 98 ELT - 879 LET 6598 0707 JOSSEMJEEA UISOH
+00‘07 LS9'y EVV L OOT'ZI OT7' 7 7 LLO'L €T0's OOTTI 6107 durodegurrem, uepoog HN
+00's SSy'9 675" I v86'L 007 - SS8'9 61 T v86'L 6107 uroojsÁsuroorsouuoz
+00‘07 LOS EET 000'€ 009 7 LOU I €E8'I 000'€ 8107 J9ZUAJPOM
+00‘07 S v6L 664 O9T - So veg 66L 8107 AL Sunsures
+00‘07 0OT Oss 0s9 OET 7 OET Oy 0s9 8107 EUOAIN jeereddezozonjsor
+00‘07 - 798 98 - - - 798 vo8 vIOz Joureog
+00°07 7 L80'7 L80'7 7 7 - L80'7 L80'7 € TO Joopuex onerfeIsur- DV
+00‘07 - 56€'6 56E'6 - - - 56€'6 56E'6 8007 Sunyonumoopues
+00°07 7 vr0'y vr0'y 7 7 - vr0'y vr0'y LOOT Joopuey Sunyouur
+00‘07 - TOL TOL - - - TOL TOL 5007 Topreyjuorore Mm,
+00‘07 7 [957 LOST 7 7 - LOST [957 5007 YUI LIOOJUE NL
+SLIEJUAUI
+
+% 3 3 3 3 3 3 3 3
+adepuor TTOTTI-IE TIOTTI-IE TTOT-TI-IE Tz0z Tz0z T0T-I-T ted zzoel-rted  zzoer-1 zeef Surafayoswog
+-Jad Jed Tad Jedopreem Surafrayosyy SurojsoAur opreemysog Surafiayosje ad opaeen
+opreemYsog Suralrayosje -sguijjeuds eaagepnu-ng  -ssurgjeyrs
+sage jnur-ng -Uey -Uey
+
+VALLI V ALSVA LHOIZUHAO I
+
+<ur wmgep [NA> 'p'p Hodder
+
+frq oserfrq
+
+uoopuorreH 93 AH PUIN
+
+-L{-
+
+OpI'sy 869'ES 8£8'86 6 TI 000's EEE TS SOSTp 8£8'€6 VAILIV LSVA TTARIALVAOAD 'TVVLOL
+00°01 TL8'61 ELI'E SS'er GSE T 7 LET TT SIET SVS Er [c0c smysuIzo8 zoweypeg
+Sur19jsoAUIsJopInnH
+vb S66'€ 6£0'p vel 7 SLI I98'€ 6£0'p
+00°07 vv Eco L99 vel 7 8L1 68 L99 STO donder sooy
+00°07 7 97 vs 7 7 7 vs gps €LOZ Joogou snsy
+7 98 987 7 7 7 987 987 Hodsuery,
+% 3 3 3 3 3 3 3 3
+adepuor  TTOT-TI-IE TTOT-TI-TE TOC I-IE TT0z TT0z T0T-I-T ded  zzoT-I-1 Jed TTOT-T-1 deel Suraftayoswo
+-Jad Jed Tod Jedopreem Surafrayosyy SurrojsoAur opreemHIog Suralimypsje Id opeen
+opreemYsog Suralrayosje -sguijjeuds saagepnu-ng  -ssurgjeyrs
+saar ejnur-n;g -uey -uey
+
+uzoopuoj[eH 9 Ad HPU
+<ur wmgep [NA> 'p'p Hodder
+frq oserfrq
