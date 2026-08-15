@@ -1,0 +1,803 @@
+# whosigns-ocr v1 grootte=960690 dpi=300 paginas=20
+6% VERLINDEN
+
+e Advies & Accountancy
+
+R.W.H. Verlinden AA
+Pastoor Vranckenlaan 4
+
+Stichting Opleidingen Sfeerkeepers 5953 CP Reuver
+T.a.v. het bestuur
+
+Goltziusstraat 20 T 06-36 29 53 70
+5911 AV VENLO E roel@verlindenaccountancy.nl
+
+1 www.verlindenaccountancy.nl
+
+Referentie: 80120 Reuver, 25 mei 2023
+Betreft: jaarrekening 2022
+
+Geachte bestuurders,
+
+Hiermede brengen wij u verslag uit van onze werkzaamheden omtrent de jaarrekening 2022 van uw
+stichting.
+
+De balans per 31 december 2022, de staat van baten en lasten over 2022 en de toelichting, welke tezamen
+de jaarrekening 2022 vormen, alsmede de overige gegevens zijn in dit rapport opgenomen.
+
+1.1 Samenstellingsverklaring van de accountant
+
+De jaarrekening van Stichting Opleidingen Sfeerkeepers te Venlo is door ons samengesteld op basis van de
+van u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2022 en de staat van
+baten en lasten over 2022 met de daarbij horende toelichting. In deze toelichting is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, "Samenstellingsopdrachten".
+
+Op grond van deze standaard wordt van ons verwacht dat wij u ondersteunen bij het opstellen en
+presenteren van de jaarrekening in overeenstemming met de in Nederland algemeen aanvaardbare
+grondslagen voor financiële verslaggeving. Wij hebben daarbij onze deskundigheid op het gebied van
+administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan.
+
+Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal nagegaan dat het
+beeld van de jaarrekening overeenkwam met onze kennis van Stichting Opleidingen Sfeerkeepers.
+
+Wij hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een
+oordeel te geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers
+van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u
+verstrekte gegevens.
+
+Voor een nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de VGBA verwijzen
+wij u naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+KvK nr. 59868759 EAA BTW nr. NL1608.95.650.B.01 B IBAN NL18 ABNA 0616 5702 60 B BIC ABNANL2ÀÁ
+
+Op al onze diensten zijn onze algemene voorwaarden van toepassing gedeponeerd bij de Kamer van Koophandel onder nummer 59868759.
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+1.2 Algemeen
+
+Oprichting
+Blijkens de akte d.d. 5 maart 2012 werd Stichting Opleidingen Sfeerkeepers per genoemde datum
+opgericht.
+
+De stichting is ingeschreven bij de Kamer van Koophandel onder dossiernummer 54919266.
+
+Doelstelling
+
+De doelstelling van Stichting Opleidingen Sfeerkeepers wordt in artikel 2 van de statuten als volgt
+omschreven:
+
+a) het aankopen en/of ontwikkelen van een opleiding en methodiek ten behoeve van het bevorderen en
+oplossen van de problematiek rondom leefbaarheid, sociaal maatschappelijke veiligheid en welzijn op
+individueel en collectief niveau;
+
+b) het geven van opleiding aan medewerkers en derden in het domein Maatschappelijke Veiligheid op een
+kwalitatief en kwantitatief juiste wijze aan de hand van de bedrijfsprocessen binnen het domein;
+
+c) het bevorderen en in stand houden van de kwaliteit van de opleiding en de methode van opleiding, zoals
+hiervoor vermeld;
+
+d) het aanbieden van leerwerktrajecten, waarbij uitgangspunt zal zijn, dat deze trajecten zoveel mogelijk
+“in huis” worden aangeboden;
+
+e) het verkrijgen van subsidies en sponsorgelden en giften ten behoeve van de doelen van de stichting,
+
+en het verrichten van al wat met het vorenstaande verband houdt of daartoe bevorderlijk kan zijn.
+
+Bestuur
+
+Het bestuur wordt gevoerd door:
+
+- De heer P.M. Tijssen (voorzitter)
+
+- De heer S, Duindam (secretaris)
+
+- De heer M.T.E.M. Berghs (penningmeester)
+
+Pagina 4 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo Ea d EE
+
+1.3 Resultaatvergelijking
+
+Ter analyse van het resultaat van de stichting verstrekken wij u de onderstaande opstelling, welke is
+gebaseerd op de staat van baten en lasten.
+
+2022 2021
+€ % € %
+
+Baten 500.281 100,0% 510.605 100,0%
+Activiteitenlasten 351.354 70,2% 194.311 38,1%
+Bruto exploitatieresultaat 148.927 29,8% 316.294 61,9%
+Lonen en salarissen 160.950 32,2% 235.240 46,1%
+Sociale lasten 35.323 7,1% 48.853 9,6%
+Afschrijvingen materiële vaste activa 190 0,0% 190 0,0%
+Overige personeelskosten 3.344 0,7% 12.745 2,5%
+Huisvestingskosten 14.400 2,9% 18.000 3,5%
+Verkoopkosten 1.646 0,3% 2.080 0,4%
+Kantoorkosten 2.095 0,4% 498 0,1%
+Algemene kosten 16.939 34% 8.656 1,7%
+Beheerslasten 234.887 47,0% 326.262 63,9%
+Exploitatieresultaat -85.960 =17,2% -9,968 -2,0%
+Rentebaten en soortgelijke opbrengsten B 0,0% 1 0,0%
+Rentelasten en soortgelijke kosten -556 -0, 1% -263 -0 1%
+Som der financiële baten en lasten -556 -0,1% -262 -0,1%
+Resultaat uit gewone exploitatie
+
+voor belastingen -86.516 -17,3% -10,230 -2,1%
+Belastingen - 0,0% 1.627 0,3%
+Resultaat na belastingen -86.516 -17,3% -8,603 -1,8%
+
+Pagina 5 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+1.3 Resultaatvergelijking
+
+le
+
+Het resultaat na belastingen 2022 is ten opzichte van 2021 gedaald met € 77.913. De ontwikkeling van het
+resultaat na belastingen 2022 ten opzichte van 2021 kan als volgt worden weergegeven:
+
+€ €
+
+Het resultaat na belastingen is gunstig beïnvloed door:
+Daling van:
+Lonen en salarissen 74.290
+Sociale lasten 13.530
+Overige personeelskosten 9.401
+Huisvestingskosten 3.600
+Verkoopkosten 434
+
+101.255
+Het resultaat na belastingen is ongunstig beïnvloed door:
+Daling van:
+Baten 10.324
+Rentebaten en soortgelijke opbrengsten 1
+Stijging van:
+Activiteitenlasten 157.043
+Kantoorkosten 1.597
+Algemene kosten 8.283
+Rentelasten en soortgelijke kosten 293
+Belastingen 1.627
+
+179.168
+Daling resultaat na belastingen 71.913
+
+Pagina 6 van 22
+
+A
+
+Stichting Opleidingen Sfeerkeepers te Venlo é f EA
+
+Ter analyse van de financiële positie van de stichting verstrekken wij u de onderstaande opstelling, welke is
+gebaseerd op de gegevens uit de balans.
+
+1.4 Financiële positie
+
+31 december 2022 31 december 2021
+€ € € €
+Op korte termijn beschikbaar:
+Vorderingen 82.639 90.604
+Liquide middelen 468.319 193.844
+Liquiditeitssaldo 550.958 284.448
+Af: kortlopende schulden 532.669 179.833
+Werkkapitaal 18.289 104.615
+Vastgelegd op lange termijn:
+Materiële vaste activa 32 222
+32 222
+Gefinancierd met op lange termijn
+beschikbare middelen 18.321 104.837
+Deze financiering vond plaats met:
+Eigen vermogen 18.321 104.837
+18.321 104.837
+
+Blijkens deze opstelling is het werkkapitaal per 31 december 2022 ten opzichte van 31 december 2021
+gedaald met € 86.326.
+
+Pagina 7 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+1.5 Fiscale positie
+
+Berekening belastbaar bedrag 2022
+De verschuldigde vennootschapsbelasting over het boekjaar 2022 bedraagt € 0.
+
+De stichting voldoet aan de voorwaarden van artikel 6 lid 1 van de Wet op de vennootschapsbelasting
+1969, waardoor er over het boekjaar 2022 geen vennootschapsbelasting verschuldigd is.
+
+2022
+€
+Vennootschapsbelasting 2022
+Voldaan op voorlopige aanslag vennootschapsbelasting 2022 -4,176
+Resteert te vorderen over 2022 4,176
+
+Wij vertrouwen hiermee aan uw opdracht te hebben voldaan. Tot het geven van nadere toelichting zijn wij
+gaarne bereid.
+
+Hoogachtend,
+Verlinden Advies & Accountancy B.V,
+
+J. van Lanen-Poels RA
+
+Pagina 8 van 22
+
+2. JAARREKENING
+
+Pagina 9 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.1 Balans per 31 december 2022
+(Voor resultaatbestemming)
+
+31 december 2022 31 december 2021
+ACTIVA € € € €
+Vaste activa
+Materiële vaste activa [1]
+Inventaris 32 222
+32 222
+Vlottende activa
+Vorderingen [2]
+Handelsdebiteuren 5.130 17.842
+Belastingen en premies sociale
+verzekeringen 5.803 6.937
+Overige vorderingen 70.614 7.611
+Overlopende activa 1.092 58.214
+82.639 90.604
+Liquide middelen [3] 468.319 193.844
+Totaal activazijde 550.990 284.670
+
+Samenstellingsverklaring afgegeven d.d. 25 mei 2023
+
+Pagina 10 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.1 Balans per 31 december 2022
+(Voor resultaatbestemming)
+
+31 december 2022 31 december 2021
+PASSIVA € € € €
+Eigen vermogen [4]
+Vrij besteedbaar vermogen
+Overige reserves 104.837 113.440
+Reserve onverdeeld resultaat -86,516 -8,603
+18.321 104.837
+Kortlopende schulden [5]
+Handelscrediteuren 224.195 1.449
+Belastingen en premies sociale
+verzekeringen 5.956 8.729
+Overige schulden 1.157 3.912
+Overlopende passiva 301.361 165./43
+532.669 179.833
+Totaal passivazijde 550.990 284.670
+
+Samenstellingsverklaring afgegeven d.d. 25 mei 2023
+
+Pagina 11 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.2 Staat van baten en lasten over 2022
+
+2022 2021
+€ €
+
+Baten als tegenprestatie voor leveringen [6] 500.281 510.605
+Baten 500.281 510.605
+Inkoopwaarde geleverde producten 1] 351.354 194.311
+Activiteitenlasten 351.354 194.311
+Bruto exploitatieresultaat 148.927 316.294
+Lonen en salarissen [8] 160.950 235.240
+Sociate lasten [9] 35.323 48.853
+Afschrijvingen materiële vaste activa [10] 190 190
+Overige personeelskosten [11] 3.344 12.745
+Huisvestingskosten [12] 14.400 18.000
+Verkoopkosten [13] 1.646 2.080
+Kantoorkosten [14] 2.095 498
+Algemene kosten [15] 16.939 8.656
+Beheerslasten 234.887 326.262
+Exploitatieresultaat -85.960 -9,968
+Rentebaten en soortgelijke opbrengsten [16] - 1
+Rentelasten en soortgelijke kosten [17] -556 -263
+Som der financiële baten en lasten -556 -262
+Resultaat voor belastingen -86.516 „10.230
+Belastingen [18] - 1.627
+Resultaat na belastingen -86.516 -8.603
+Voorstel bestemming resultaat:
+Overige reserve -86.516 -8.603
+
+-86.516 -8.603
+
+Samenstellingsverklaring afgegeven d.d. 25 mei 2023
+
+Pagina 12 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.3 Kasstroomoverzicht over 2022
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode,
+
+2022
+€ €
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat -85.960
+Aanpassingen voor:
+Afschrijvingen 190
+
+190
+Verandering in werkkapitaal:
+Vorderingen (excl. vennootschapsbelasting) 6.831
+Kortlopende schulden (excl. schulden aan kredietinstellingen) 352.836
+
+359,667
+
+Kasstroom uit bedrijfsoperaties 273.897
+Rentelasten en soortgelijke kosten -556
+Belastingen 1,134
+
+578
+Kasstroom uit operationele activiteiten 274.475
+Mutatie geldmiddelen 274,475
+Toelichting op de geldmiddelen
+Stand per 1 januari 193.844
+Mutatie geldmiddelen 274.475
+Stand per 31 december 468.319
+
+Samenstellingsverklaring afgegeven d.d. 25 mei 2023
+
+Pagina 13 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.4 Toelichting op de jaarrekening
+
+ALGEMENE TOELICHTING
+
+Activiteiten
+
+De activiteiten van Stichting Opleidingen Sfeerkeepers, statutair gevestigd te Venlo, bestaan voornamelijk
+uit:
+
+- Bedrijfsopleiding en training
+
+De feitelijke activiteiten worden uitgevoerd aan de Goltziusstraat 20 te Venlo,
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+Stichting Opleidingen Sfeerkeepers, statutair gevestigd te Venlo is ingeschreven bij de Kamer van
+Koophandel onder dossiernummer 54919266.
+
+Personeelsleden
+Gedurende het jaar 2022 waren gemiddeld 6 werknemers in dienst op basis van een fulltime dienstverband.
+
+In het jaar 2021 waren dit 9 werknemers.
+
+Voorstel tot bestemming van het resultaat over het boekjaar 2022
+Voor de verwerking van het saldo over het boekjaar 2022 wordt verwezen naar de staat van baten en
+lasten.
+
+Algemeen
+
+De jaarrekening is opgesteld in overeenstemming met in Nederland algemeen aanvaarde grondslagen voor
+financiële verslaggeving, mede op basis van de Richtlijn voor de Jaarverslaggeving 640 ‘Organisaties zonder
+winststreven',
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs.
+
+GRONDSLAGEN VOOR WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief
+direct toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Subsidies op investeringen worden in mindering gebracht op de verkrijgings- of vervaardigingsprijs van de
+activa waarop de subsidies betrekking hebben.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie,
+inclusief de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd
+tegen de geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op
+de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Pagina 14 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.4 Toelichting op de jaarrekening
+
+Eigen vermogen
+
+Vrij besteedbaar vermogen
+Het vrij besteedbaar vermogen is dat gedeelte van het eigen vermogen waarover de daartoe bevoegde
+organen zonder belemmering door wettelijke of statutaire bepalingen kunnen beschikken voor het doel
+waarvoor de stichting is opgericht.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen
+bedrag rekening houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de
+nominale waarde.
+
+GRONDSLAGEN VOOR BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar
+waarin zij zijn gerealiseerd.
+
+Het resultaat wordt tevens bepaald met inachtneming van de verwerking van ongerealiseerde
+waardeveranderingen van op reële waarde gewaardeerde vastgoedbeleggingen, de onder de vlottende
+activa opgenomen effecten en afgeleide financiële instrumenten die niet zijn aangemerkt als
+afdekkingsinstrument.
+
+Baten
+
+Onder baten wordt verstaan de bedragen voor de in het verslagjaar geleverde goederen of diensten na
+aftrek van kortingen en dergelijke en van over de omzet geheven belastingen, alsmede de baten uit hoofde
+van giften, subsidies, sponsorbijdragen en overige ontvangsten.
+
+Opbrengsten voortvloeiend uit de verkoop van goederen worden verantwoord op het moment dat alle
+belangrijke rechten op economische voordelen alsmede alle belangrijke risico's zijn overgegaan op de
+koper. De kostprijs van deze goederen wordt aan dezelfde periode toegerekend.
+
+Opbrengsten van diensten worden opgenomen naar rato van de mate waarin de diensten zijn verricht. De
+kostprijs van deze diensten wordt aan dezelfde periode toegerekend.
+
+Opbrengstverantwoording
+
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde
+projectopbrengsten uit hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van
+over de omzet geheven belastingen.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde
+prestaties, gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te
+verrichten diensten.
+
+Activiteitenlasten
+Onder de activiteitenlasten wordt verstaan de direct aan de baten toe te rekenen lasten.
+
+Beheerslasten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Pagina 15 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.4 Toelichting op de jaarrekening
+
+Personeelsbeloningen
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in
+
+de winst- en verliesrekening.
+
+Afschrijvingen op immateriële en materiële vaste activa
+
+Immateriële vaste activa inclusief goodwill en materiële vaste activa worden vanaf het moment dat het
+actief beschikbaar is voor het beoogde gebruik afgeschreven over de geschatte economische levensduur /
+verwachte toekomstige gebruiksduur van het actief. Over terreinen en vastgoedbeleggingen wordt niet
+afgeschreven.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+
+afschrijvingen.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet
+van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden
+met de verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande
+boekjaren en vrijgestelde winstbestanddelen en na bijtelling van niet-aftrekbare kosten.
+
+Pagina 16 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.5 Toelichting op de balans
+ACTIVA
+VASTE ACTIVA
+
+Materiële vaste activa [1]
+Het verloop van de materiële vaste activa wordt als volgt weergegeven:
+
+Aanschafwaarde
+Cumulatieve afschrijvingen
+Boekwaarde per 1 januari
+
+Afschrijvingen
+Mutaties 2022
+
+Aanschafwaarde
+
+Cumulatieve afschrijvingen
+Boekwaarde per 31 december
+Afschrijvingspercentages:
+Inventaris
+
+VLOTTENDE ACTIVA
+
+Vorderingen [2]
+
+Handelsdebiteuren
+Debiteuren
+
+Een voorziening voor oninbare debiteuren wordt niet noodzakelijk geacht
+
+Belastingen en premies sociale verzekeringen
+Vennootschapsbelasting
+
+Vennootschapsbelasting
+Vennootschapsbelasting 2022
+Vennootschapsbelasting 2021
+Vennootschapsbelasting 2020
+Vennootschapsbelasting 2020 (carry-back)
+
+Pagina 17 van 22
+
+Inventaris
+€
+
+950
+-/28
+222
+
+-190
+-190
+
+950
+-918
+32
+
+20,0%
+
+31-12-2022 31-12-2021
+
+€ €
+
+5,130 17.842
+5.803 6.93/
+4,176 -
+
+- 4.176
+
+- 1.134
+1.627 1.627
+5.803 6.937
+
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.5 Toelichting op de balans
+
+31-12-2022 31-12-2021
+
+€ €
+Overige vorderingen
+M.T.E.M. Berghs h.o.d.n. Berghs Business Management 68.864 5.861
+Lening u/g Coöperatie I Know ICT 1.750 1.750
+70.614 7.611
+M.T.E.M. Berghs h.o.d.n. Berghs Business Management
+Stand per 1 januari 5.861 71.302
+Mutaties -1.400 -1.038
+Saldo crediteuren 64.403 -64.403
+Stand per 31 december 68.864 5.861
+
+Overlopende activa
+Vooruitbetaalde verzekeringen 1.092 1.092
+
+Nog te ontvangen verkopen PGB-contract - 57.122
+1.092 58.214
+
+Liquide middelen [3]
+
+ABN AMRO Bank NL53 ABNA 0249 8126 30 468.319 193.844
+
+De liquide middelen staan geheel ter vrije beschikking van de onderneming.
+
+Pagina 18 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.5 Toelichting op de balans
+
+PASSIVA
+EIGEN VERMOGEN [4]
+
+Stichtingsvermogen
+
+Overige reserves
+
+Stand per 1 januari
+
+Bestemming resultaat vorig boekjaar
+Stand per 31 december
+
+Reserve onverdeeld resultaat
+Stand per 1 januari
+
+Onverdeeld resultaat boekjaar
+Verdeeld resultaat vorig boekjaar
+Stand per 31 december
+
+KORTLOPENDE SCHULDEN [5]
+
+Handelscrediteuren
+Crediteuren
+
+Belastingen en premies sociale verzekeringen
+
+Loonheffing
+
+Loonheffing
+December
+
+Overige schulden
+NOW-afrekening
+Nettolonen
+
+Overlopende passiva
+Reservering vakantiegeld
+Inkoopkosten
+Accountantskosten
+Huisvestingskosten
+
+Vooruitontvangen subsidie MDT-project
+
+Pagina 19 van 22
+
+2022 2021
+€ €
+113.440 96.924
+-8.603 16.516
+104.837 113.440
+-8.603 16.516
+-86.516 -8.603
+8.603 -16,516
+-86,516 -8,603
+31-12-2022 31-12-2021
+€ €
+224.195 1.449
+5.956 8.729
+5.956 8.729
+- 3.832
+1.157 80
+1.157 3,912
+1.687 8.923
+- 56.294
+13.218 d
+- 3.000
+286.456 97.526
+301.361 165.743
+
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.6 Toelichting op de staat van baten en lasten
+
+2022 2021
+€ €
+Baten als tegenprestatie voor leveringen [6]
+Opbrengsten jeugdwet 181.577 108.418
+Opbrengsten opleidingen 159.114 138.793
+Opbrengsten leer en ontwikkelingstraject Sfeerkeeper - 400
+PGB opbrengsten 20.668 57.122
+Overige subsidies B 3.500
+Subsidie MDT 111.612 200.984
+Begeleiding MDT deelnemers 27.312 =
+Kredietbeperking -2 1.388
+500.281 510.605
+Inkoopwaarde geleverde producten [7]
+Inhuur derden 351.197 190.059
+Kredietbeperking 157 4.252
+351.354 194.311
+Lonen en salarissen [S]
+Brutolonen en salarissen 168.185 227.620
+Reservering vakantietoeslag -7.235 7.620
+160.950 235.240
+Sociale lasten [9]
+Sociale lasten 35.323 48.853
+Afschrijvingen materiële vaste activa [10]
+Inventaris 190 190
+Overige personeelskosten [11]
+Reiskostenvergoeding 350 3.720
+Onkostenvergoedingen 34 115
+Scholings- en opleidingskosten 2.900 8.910
+Overige personeelskosten 60 =
+3.344 12.745
+Huisvestingskosten [12]
+Huur onroerend goed 14.400 18.000
+
+Pagina 20 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.6 Toelichting op de staat van baten en lasten
+
+€ €
+Verkoopkosten [13]
+Reclame- en advertentiekosten 1.646 1.700
+Relatiegeschenken - 380
+1.646 2.080
+Kantoorkosten [14]
+Kantoorbenodigdheden 15 -
+Kosten automatisering 314 82
+Contributies en abonnementen 1.650 169
+Vakliteratuur 56 247
+Vakcursussen 60 -
+2.095 498
+Algemene kosten [15]
+Accountantskosten 14.618 1,400
+Advieskosten 847 4.453
+Zakelijke verzekeringen 1.513 1.512
+Kosten certificering - 1.298
+Geldboetes - 269
+Overige algemene kosten -39 -276
+16.939 8.656
+Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten [16]
+Rentebate fiscus - 1
+Rentelasten en soortgelijke kosten [17]
+Rente rekening courant bank 354 127
+Bankkosten en provisie 202 136
+556 263
+Belastingen [18]
+Vennootschapsbelasting voorgaande boekjaren - „1.627
+
+Pagina 21 van 22
+
+Stichting Opleidingen Sfeerkeepers te Venlo
+
+2.6 Toelichting op de staat van baten en lasten
+
+Personeelsleden
+Gedurende het jaar 2022 waren gemiddeld 6 werknemers in dienst op basis van een fulltime dienstverband.
+
+In het jaar 2021 waren dit 9 werknemers.
+
+Venlo, 25 mei 2023
+Stichting Opleidingen Sfeerkeepers
+
+De heer P.M. Tijssen (voorzitter) De heer S. Duindam (secretaris)
+
+De heer M.T.E.M. Berghs (penningmeester)
+
+Pagina 22 van 22
