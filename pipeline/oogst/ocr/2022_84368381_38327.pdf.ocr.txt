@@ -1,0 +1,780 @@
+# whosigns-ocr v1 grootte=747966 dpi=300 paginas=20
+Stichting Tulp Medisch Centrum te Zwijndrecht
+
+5 FINANCIËLE POSITIE
+
+Uit de balans is de volgende financieringsstructuur af te leiden:
+
+Beschikbaar op lange termijn:
+Ondernemingsvermogen
+Waarvan vastgelegd op lange termijn:
+
+Materiële vaste activa
+Financiële vaste activa
+
+Vastgelegd op lange termijn, gefinancierd met middelen op korte termijn
+
+Dit tekort wordt veroorzaakt door:
+
+Kortlopende schulden
+
+Af:
+Liquide middelen
+
+Tekort aan werkkapitaal
+
+PHILI
+
+ACCOUNTANTS
+31-12-2022
+€ €
+-105.031
+10.619
+11.814
+22.433
+-127.464
+156.975
+29.511
+29.511
+127.464
+
+Pagina 6 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht ACCOUNTANTS
+
+6 KENGETALLEN
+6.1 Liquiditeit
+
+De liquiditeit geeft de mate aan waarin de onderneming in staat is op korte termijn aan haar verplichtingen te
+voldoen. De liquiditeitspositie geeft de toestand op 31 december weer; er is dus sprake van een
+momentopname.
+
+2021/2022
+Current ratio
+Vlottende activa/kortlopende schulden 0,19
+Quick ratio
+Vlottende activa - voorraden/kortlopende schulden 0,19
+
+6.2 Solvabiliteit
+
+De solvabiliteit geeft de mate aan waarin de onderneming in staat is op langere termijn aan haar verplichtingen
+(rente en aflossing) te voldoen. De solvabiliteitspositie geeft de toestand op 31 december weer; er is dus
+sprake van een momentopname.
+
+2021/2022
+Solvabiliteit eerste niveau
+Eigen vermogen/balanstotaal -202,20
+
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+Hoogachtend,
+Philips Accountants
+
+J.M. C. van Boven AA RB
+
+Pagina 7 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht ACCOUNTANTS
+
+1 BESTUURSVERSLAG
+
+Ingevolge artikel 2:396 lid 7 BW is afgezien van het opstellen van een bestuursverslag over 2021/2022.
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023 Pagina 8 van 23
+
+JAARREKENING
+
+Balans per 31 december 2022
+
+Winst-en-verliesrekening over 2021/2022
+
+Grondslagen voor waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2022
+Toelichting op de winst-en-verliesrekening over 2021/2022
+Overige toelichtingen
+
+Stichting Tulp Medisch Centrum te Zwijndrecht
+
+1 BALANS PER 31 DECEMBER 2022
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+Financiële vaste activa
+
+Vlottende activa
+
+Liquide middelen
+
+31 december 2022
+
+q)
+2)
+
+€ €
+10.619
+11.814
+22.433
+29.511
+51.944
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023
+
+31 december 2022
+
+€ €
+
+PASSIVA
+Stichtingsvermogen (4)
+Overige reserves -105.031
+Kortlopende schulden (6)
+Aflossingsverplichtingen langlopende schulden 60.000
+Schulden aan leveranciers en handelskredieten 3.660
+Overige schulden en overlopende passiva 93.315
+
+156.975
+
+51.944
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023 Pagina 10 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht
+
+2 STAAT VAN BATEN EN LASTEN OVER 2021/2022
+
+Baten
+Som der exploitatiebaten
+Lasten
+
+Bestuursvergoedingen
+Afschrijvingen materiële vaste activa
+Huisvestingskosten
+Exploitatiekosten
+
+Kantoorkosten
+
+Autokosten
+
+Verkoopkosten
+
+Algemene kosten
+
+Praktijkkosten
+
+Exploitatieresultaat
+Rentelasten en soortgelijke kosten
+
+Resultaat voor bestemming
+Mutatie overige reserve
+
+Resultaat
+
+ACCOUNTANTS
+2021/2022
+€ €
+
+(7) 239.709
+
+239.709
+@) 90.000
+9) 993
+(10) 55.869
+(1) 4.386
+(12) 6.799
+(13) 522
+(14) 28.334
+(15) 11.398
+(16) 145.227
+
+343.528
+
+-103.819
+
+(17) -1.212
+
+-105.031
+
+105.031
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023
+
+Pagina 11 van 23
+
+PHILI
+
+Stichting Tulp Medisch Centrum te Zwijndrecht ACCOUNTANTS
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van Stichting Tulp Medisch Centrum bestaan uit het leveren van medisch specialistische zorg
+van goede kwaliteit, met name op het gebied van (poli-) klinische en operatieve medische zorg.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van
+Stichting Tulp Medisch Centrum zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de
+in de jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste
+inzicht noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de bijbehorende
+veronderstellingen opgenomen bij de toelichting op de desbetreffende jaarrekeningposten.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld volgens de Richtlijnen voor de jaarverslaggeving voor kleine zorgaanbieders (RJk
+C3). Deze zijn in lijn met de vereisten voor kleine rechtspersonen die onder titel 9 boek 2 BW vallen.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties
+wordt verwezen naar de toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van
+de jaarrekening bekend zijn geworden.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de cumulatieve
+afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden
+gebaseerd op de geschatte economische levensduur en worden berekend op basis van een vast percentage
+van de verkrijgingsprijs, rekening houdend met een eventuele residuwaarde. Er wordt afgeschreven vanaf het
+moment van ingebruikneming.
+
+Afschrijving
+Actief
+
+%
+Inventaris 20
+Vervoermiddelen 20
+
+Financiële vaste activa
+
+Overige vorderingen
+
+De onder financiële vaste activa opgenomen overige vorderingen omvatten verstrekte leningen en overige
+vorderingen. Deze vorderingen worden gewaardeerd tegen nominale waarde.
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023 Pagina 12 van 23
+
+HILI
+
+Stichting Tulp Medisch Centrum te Zwijndrecht ACCOUNTANTS
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Langlopende schulden
+
+Rentedragende leningen en schulden worden gewaardeerd tegen de nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen nominale waarde. Daarbij dient een
+zakelijke rente in aanmerking te worden genomen.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Opbrengstverantwoording
+
+Gedeclareerde opbrengsten zorg
+
+Verantwoording van opbrengsten uit gedeclareerde zorg geschiedt op basis van de tot balansdatum verleende
+zorg.
+Afschrijvingen
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages van de
+aanschaffingswaarde, op basis van de verwachte economische levensduur. Boekwinsten en -verliezen bij
+verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen.
+
+Overige lasten
+
+De overige lasten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij
+betrekking hebben.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+De rentebaten en -lasten betreffen de op de verslagperiode betrekking hebbende rente-opbrengsten en -lasten
+van uitgegeven en ontvangen leningen.
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023 Pagina 13 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2022
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Materiële vaste activa
+
+Inventaris
+Vervoermiddelen
+
+Boekwaarde per 1 november 2021
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Mutaties
+Investeringen
+Afschrijvingen
+
+Boekwaarde per 31 december 2022
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Boekwaarde per 31 december 2022
+
+Afschrijvingspercentages
+
+Inventaris
+Vervoermiddelen
+
+31-12-2022
+
+€
+4.979
+5.640
+10.619
+
+Vervoer-
+Inventaris middelen Totaal
+
+€ € €
+5.612 6.000 11.612
+„633 -360 -993
+4.979 5.640 10.619
+5.612 6.000 11.612
+-633 -360 -993
+4.979 5.640 10.619
+%
+20
+20
+
+Een specificatie van de materiële vaste activa en de daarop toegepaste afschrijvingen is opgenomen in de
+
+bijlage op pagina 23.
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023
+
+Pagina 14 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht
+
+2. Financiële vaste activa
+
+Overige vorderingen
+
+Overige vorderingen
+
+Waarborgsommen
+
+VLOTTENDE ACTIVA
+
+3. Liquide middelen
+Van Lanschot rekening met nummer NL59 FVLB 0260 9993 77
+
+PHILI
+
+ACCOUNTANTS
+
+31-12-2022
+€
+
+11.814
+
+11.814
+
+29.511
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023
+
+Pagina 15 van 23
+
+HILI
+
+Stichting Tulp Medisch Centrum te Zwijndrecht ACCOUNTANTS
+PASSIVA
+31-12-2022
+€
+
+4. Stichtingsvermogen
+
+Overige reserves -105.031
+
+2021/2022
+€
+
+Overige reserves
+Stand per 1 november 2021
+
+Resultaatbestemming boekjaar -105.031
+Stand per 31 december 2022 „105.031
+
+5. Langlopende schulden
+
+Lening o/g Choose Life B.V.
+
+De lening ad € 80.000,- is verstrekt ter financiering van de opstart van Stichting Tulp Medisch Centrum.
+
+De lening heeft een looptijd van 24 maanden.
+
+De rente bedraagt 2% over het niet afgeloste deel van de lening.
+
+Er zijn geen zekerheden gesteld.
+
+Stand per 1 november 2021 -
+Opgenomen gelden 80.000
+
+Aflossing -20.000
+Stand per 31 december 2022 60.000
+Aflossingsverplichting komend boekjaar -60.000
+
+Langlopend deel per 31 december -
+
+6. Kortlopende schulden
+
+31-12-2022
+€
+Aflossingsverplichtingen langlopende schulden
+Onderhandse leningen 60.000
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren 3.660
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023 Pagina 16 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht
+
+Overige schulden en overlopende passiva
+
+Overlopende passiva
+
+Aeccountantskosten
+
+Rente- en bankkosten
+
+Nog te betalen rente lening Choose Life B.V.
+Bestuursvergoeding
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+HILI
+
+ACCOUNTANTS
+
+31-12-2022
+€
+
+2.157
+33
+1.125
+90.000
+
+93.315
+
+De stichting heeft per 1 mei een 10-jarig huurcontract met M7 EREIP III Dutch Propco 2 B.V. afgesloten
+
+voor het gebruik van de bedrijfsruimte aan de Laan van Walburg 4 te Zwijndrecht.
+
+De huurverplichting bedraagt € 47.255 ,- per jaar.
+
+De stichting heeft per 1 oktober 2022 een 1-jarig huurcontract met de Familie den Hartog Achterveld
+
+afgesloten het gebruik van de bedrijfsruimte aan de Hessenweg 229 te Achterveld.
+
+De huurverplichting bedraagt € 6.558,- per jaar. Het contract is in het 1e kwartaal 2023 beëindigd.
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023
+
+Pagina 17 van 23
+
+HILIPS
+
+Stichting Tulp Medisch Centrum te Zwijndrecht ACCOUNTANTS
+
+5 TOELICHTING OP DE STAAT VAN BATEN EN LASTEN 2021/2022
+
+2021/2022
+€
+7.Baten
+Gedeclareerde opbrengsten zorg 239.709
+Personeelskosten
+8. Bestuursvergoedingen
+Bestuursvergoedingen 90.000
+
+Personeelsleden
+
+Gedurende het jaar 2021/2022 waren er geen werknemers in dienst op basis van een volledig dienstverband.
+
+Afschrijvingen
+
+9. Afschrijvingen materiële vaste activa
+
+Inventaris 633
+Vervoermiddelen 360
+993
+
+Overige lasten
+
+10. Huisvestingskosten
+Huur onroerende zaak 46.081
+Gas water licht 500
+Onderhoud onroerende zaak 338
+Onroerendezaakbelasting 207
+Kosten schoonmaak en hygiëne 5.113
+Overige huisvestingskosten 3.630
+55.869
+11. Exploitatiekosten
+Kleine aanschaffingen 4.386
+12. Kantoorkosten
+Kantoorbenodigdheden 885
+Automatiseringskosten 4.608
+Telefoon 656
+Porti 22
+Contributies en abonnementen 628
+6.799
+13. Autokosten
+Brandstoffen 127
+Verzekering 135
+Motorrijtuigenbelasting 171
+Overige autokosten 89
+522
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023 Pagina 18 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht
+
+14. Verkoopkosten
+
+Reclame- en advertentiekosten
+Representatiekosten
+
+Kosten infomedics
+
+Sponsoring
+
+Koffie, thee en dergelijke
+
+15. Algemene kosten
+
+Accountantskosten
+Advieskosten
+
+Zakelijke verzekeringen
+Cursussen en opleidingen
+Overige algemene kosten
+
+16. Praktijkkosten
+
+Praktijk benodigdheden
+Kosten laboratorium onderzoek
+Inhuur medisch specialisten
+
+Financiële baten en lasten
+
+17.Rentelasten en soortgelijke kosten
+
+Rente en bankkosten
+Rente lening Choose Life B.V.
+
+HILI
+
+ACCOUNTANTS
+
+2021/2022
+€
+
+17.334
+784
+8.010
+1.702
+504
+
+28.334
+
+2.578
+1.587
+6.365
+73
+795
+
+11.398
+
+22.158
+191
+122.878
+
+145.227
+
+-87
+„1.125
+
+-1.212
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023
+
+Pagina 19 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht
+
+6 OVERIGE TOELICHTING
+
+WNT-verantwoording 2022
+
+HILI
+
+ACCOUNTANTS
+
+De WNT is van toepassing op Stichting Tulp Medische Centtrum. Het voor Stichting Tulp Medisch Centrum
+toepasselijke bezoldigingsmaximum is in 2022 € 199.000,-. Het WNT-maximum is vastgesteld op basis van
+de Regeling bezoldigingsmaxima topfunctionarissen zorg en jeugdhulp, de totaalscore is 10 en de klasse is IV.
+
+Voor de eerste 12 kalendermaanden gelden andere regels m.b.t. het bezoldigingsmaximum.
+
+1. Bezoldiging topfunctionarissen
+
+1b. Leidinggevende topfunctionarissen zonder dienstbetrekking in de periode kalendermaand 1 t/m 12
+
+bedragen x € 1
+
+zite
+
+Kalenderjaar
+
+2022
+
+2021
+
+Periode functievervulling in het kalenderjaar (aanvang — einde)
+
+01/01 - 31/12
+
+01/01 - 31/12
+
+Aantal kalendermaanden functievervulling in het kalenderjaar
+
+12
+
+n.v.t.
+
+Omvang van het dienstverband in uren per kalenderjaar
+
+1044
+
+n.v.t.
+
+Individueel toepasselijke bezoldigingsmaximum |
+
+Maximum uurtarief in het kalenderjaar
+
+€ 206
+
+€ 199
+
+Maxima op basis van de normbedragen per maand
+
+€ 301.800
+
+0
+
+Individueel toepasselijke maximum gehele periode
+kalendermaand 1 t/m 12
+
+€ 301.800
+
+edragen exclusief btw) _
+
+Werkelijk uurtarief lager dan het maximum uurtarief?
+
+Ja
+
+Bezoldiging in de betreffende periode
+
+€ 90.000 Í
+
+Bezoldiging gehele periode kalendermaand 1 t/m 12
+
+€ 90.000
+
++/- Onverschuldigd betaald en nog niet terugontvangen
+bedrag
+
+€ 0-
+
+Bezoldiging
+
+€ 90.000
+
+Het bedrag van de overschrijding en de reden waarom de
+overschrijding al dan niet is toegestaan
+
+N.v.t
+
+N.v.t.
+
+Toelichting op de vordering wegens onverschuldigde betaling
+
+Nvt.
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023
+
+Pagina 20 van 23
+
+Stichting Tulp Medisch Centrum te Zwijndrecht ACCOUNTANTS
+
+Gebeurtenissen na balansdatum
+
+Er hebben zich na balansdatum geen gebeurtenissen voorgedaan, welke het beeld van deze jaarstukken
+zouden beïnvloeden.
+
+Ondertekening van de jaarrekening
+
+Opmaak jaarrekening
+De jaarrekening is aldus opgemaakt door het bestuur.
+
+Rotterdam, 18 mei 2023
+
+Drs. L.U. Biter en
+
+Beoordelingsverklaring afgegeven d.d. 18-05-2023 Pagina 21 van 23
+
+BIJLAGEN
+
+Stichting Tulp Medisch Centrum te Zwijndrecht ACCOUNTANTS
+
+1 OVERZICHT VASTE ACTIVA
+
+AFSCHRIJVINGSSTAAT 2022
+Omschrijving Aanschaf Afschr. Afgeschr. Bkw aarde Mutaties Afschr. Bkw aarde
+Jaar Waarde % tm 2021 01.01.2022 2022 2022 31.12.2022
+INVENTARIS
+Sanitair behandelkamer 2022 20,00 - 1.710 228 1.482
+AED 2022 20,00 - 907 106 801
+Behandeltafels 2022 20,00 - 2.995 299 2.696
+- - - 5.612 633 4,979
+VERV OERMIDDEL EN
+Subaru E-Wagon 20-ZH-FH 2022 = 20,00 - - 6.000 360 5.640
+- - - 6.000 360 5.640
+TOTAAL GENERAAL - - - 11.612 993 10.619
+
+Pagina 23 van 23
+
