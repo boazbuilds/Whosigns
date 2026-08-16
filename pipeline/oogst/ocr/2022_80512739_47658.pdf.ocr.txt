@@ -1,0 +1,863 @@
+# whosigns-ocr v1 grootte=14757119 dpi=300 paginas=20
+Als slotstuk van onze werkzaamheden hebben wij door het lezen van de jaarrekening globaal nagegaan dat
+het beeld van de jaarrekening overeenkwam met onze kennis van Scauting Diagnose en Behandeling B.V.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante
+ethische voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere
+gebruikers van deze jaarrekening mogen er dan ook vanuit gaan dat wij de opdracht professioneel,
+vakbelewaam en zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met
+
+de door u verstrekte gegevens.
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+Hoogachtend,
+
+—_TÄREP Accountants en Belastingadviseurs B.V.
+
+Pm Dn
+
+mn
+
+ZL
+5 Drs. E‚R. van den Bout RA
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1 JAARREKENING
+
+5.1.1 BALANS PER 31 DECEMBER 2022
+(na resultaatbestemming)
+
+Ref. 31-dec-22 31-dec-21
+€ €
+ACTIVA
+Vaste activa
+Materiële vaste activa 1 3.596 0
+Totaal vaste activa 3.596 0
+Vlottende activa
+Debiteuren en overige vorderingen 2 45.563 0
+Liquide middelen 3 28.160 2
+Totaal vlottende activa 713.722 2
+Totaal activa 71.318 2
+Ref. 31-dec-22 31-dec-21
+€ €
+PASSIVA
+Eigen vermogen 5
+Kapitaal 2 2
+Algemene en overige reserves -155.992 0
+Totaal eigen vermogen -155.990 2
+Kortlopende schulden (ten hoogste 1 jaar)
+Overige kortlopende schulden 6 233.308 0
+Totaal kortlopende schulden (ten hoogste 1 jaar) 233.308 0
+Totaal passiva 71.318 2
+
+Pagina 7
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.2 RESULTATENREKENING OVER 2022
+
+Ref, 2022 2021
+€ €
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke
+ondersteuning 8 241.979 0
+Subsidies 9 0 0
+Overige bedrijfsopbrengsten 10 0) 0
+Som der bedrijfsopbrengsten 241.979 0
+BEDRIJFSLASTEN:
+Personeelskosten 11 353.443 0
+Afschrijvingen op materiële vaste activa 12 656 0
+Overige bedrijfskosten 13 70.642 0
+Som der bedrijfslasten 424.740 0
+BEDRIJFSRESULTAAT -182.761 0
+Financiële baten en lasten 14 -529 0
+RESULTAAT VOOR BELASTINGEN -183.290 0
+Belastingen 15 -27.298 0
+RESULTAAT NA BELASTINGEN -155.992 0
+RESULTAATBESTEMMING
+Het resultaat ís als volgt verdeeld: 2022 2021
+€ €
+Toevoeging/(onttrekking): _
+Algemene / overige reserves -155.992 AT
+-155.992 / 0
+
+VOOR WAARMERKINGSDOE LÁNDEN |
+p
+
+ne
+
+Pagina 8
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.3 KASSTROOMOVERZICHT OVER 2022
+
+Ref. 2022 2021
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat -182.761 0
+Aanpassingen voor:
+- afschrijvingen en overige waardeveranderingen 12 656 0
+656 e)
+Veranderingen in werkkapitaal:
+- vorderingen 3 -45.563 0
+- kortlopende schulden (excl. schulden aan banken) 6 233.308 0
+187.746 0
+Kasstroom uit bedrijfsoperaties 5.641 0
+Ontvangen interest 14 0 0
+Betaalde interest 14 -529 0
+Betaalde winstbelasting 15 27.298 0
+26.769 0
+Totaal kasstroom uit operationele activiteiten 32.410 0
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa 1 -4.252 0
+Investeringssubsidie 1 0 0
+Verwervingen deelnemingen en/of
+samenwerkingsverbanden 2 0 0
+Investeringen in overige financiële vaste activa 2 0 0
+Totaal kasstroom uit investeringsactiviteiten -4.252 0)
+Kapitaalstorting 0 2
+Mutatie geldmiddelen 28.158 2
+Stand geldmiddelen per 1 januari 4 2 0
+Stand geldmiddelen per 31 december 4 28.160 2
+Mutatie geldmiddelen 28.158 2
+Toelichting:
+
+Pagina 9
+
+meert
+kerke ACE
+
+Sm ben
+an
+
+ds
+A
+
+
+Scauting Diagnose & Behandeling B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.1 Algemeen
+
+Activiteiten
+
+Scauting Diagnose en Behandeling B.V. is statutair (en feitelijk) gevestigd te Hoogeveen op het adres
+industrieweg 38 en is geregistreerd onder KvK-nummer 80512739.
+
+De belangrijkste activiteiten gaan zijn het diagnosticeren en behandelen van normaal tot hoogbegaafde
+mensen met een vorm van autisme.
+
+Groepsverhoudingen
+BEHAUT B.V. staat aan het hoofd van de groep. Tot deze groep behoren tevens Scauting Diagnose &
+
+Behandeling B.V. en Scauting Coaching & Detachering B.V. De groep is, conform de WMG, een kleine groep.
+Derhalve zijn de enkelvoudige jaarrekeningen niet geconsolideerd.
+
+Verslaggevingsperiode
+
+Deze jaarrekening heeft betrekking op het boekjaar 2022, dat is geëindigd op balansdatum 31 december 2022.
+Tevens is dit het eerste volledige boekjaar van de vennootschap.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is, m.i.v. het verslagjaar 2022, opgesteld in overeenstemming met de Regeling openbare
+jaarverantwoording WMG.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Continuïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Vergelijking met voorgaand jaar
+
+De grondslagen van waardering en van resultaatbepaling zijn m.i.v. 2022 in overeenstemmingen met de
+Regeling openbare jaarverantwoording WMG. In voorgaand jaar was de jaarrekening opgesteld in
+overeensteming met Titel 9 Boek 2 van het in Nederland geldende Burgelijk Wetboek (BW).
+
+Vergelijkende cijfers
+
+De cijfers voor 2021 zijn, waar nodig, geherrubriceerd om vergelijkbaarheid met 2022 mogelijk te maken. Deze
+herrubriceringen betreffen:
+
+- nvt
+
+Oordelen en schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde waarde
+van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen afwijken van deze
+schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend beoordeeld.
+
+Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt herzien en in
+toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+inien het voor het geven van het in artikel 2:362 lid 1 BW vereiste inzicht noodzakelijk is, is de aard van deze
+
+oordelen, en schattingen inclusief de bij onzekerheden behorende veronderstellingen opgenomen bij de /
+toelichting op desbetreffende jaarrekeningposten. d
+
+ee main
+
+|
+|
+
+Pagina 10
+
+
+Scauting Diagnose & Behandeling B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Verbonden partijen
+
+BEHAUT B.V, Scauting Coaching en Detachering B.V, Scauting Diagnose en Behandeling B.V. en de
+
+directieleden zijn verbonden partijen. De transacties tussen verbonden partijen hebben op marktconforme prijs
+en condities plaatsgevonden.
+
+5.1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in de
+
+verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in
+de jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar de instelling zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan de
+omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de balans
+verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard
+zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de omvang van het
+bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden vastgesteld. Onder
+verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan voldoen worden niet in
+de balans opgenomen, maar worden verantwoord als niet in de balans opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet leidt
+tot een belangrijke verandering in de economische realiteit met betrekking tot het actief of de verplichting.
+Dergelijke transacties geven evenmin aanleiding tot het verantwoorden van resultaten. Bij de beoordeling of er
+sprake is van een belangrijke verandering in de economische realiteit wordt uitgegaan van de economische
+
+voordelen en risico's die zich naar waarschijnlijk in de praktijk zullen voordoen, en niet op voordelen en risico's
+waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of
+nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met betrekking tot het actief
+of de verplichting aan een derde zijn overgedragen. De resultaten van de transactie worden in dat geval direct
+in de resultatenrekening opgenomen, rekening houdend met eventuele voorzieningen die dienen te worden
+getroffen in samenhang met de transactie. Indien de weergave van de economische realiteit ertoe leidt dat het
+opnemen van activa waarvan de rechtspersoon niet het juridisch eigendom bezit, wordt dit feit vermeld.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van Scauting Diagnose &
+Behandeling B.V.
+
+Pagina 11
+
+Le
+
+Scauting Diagnose & Behandeling B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen hun kostprijs onder aftrek van cumulatieve afschrijvingen
+en indien van toepassing cumulatieve bijzondere waardeverminderingen.
+
+De kostprijs van de materiële vaste activa bestaat uit de verkrijgings- of vervaardigingsprijs en overige kosten
+om de activa op hun plaats en in de staat te krijgen noodzakelijk voor het beoogde gebruik.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgingsprijs volgens de lineaire methode
+op basis van de verwachte economische levensduur, rekening houdend met de eventuele restwaarde van de
+individuele activa. Er wordt afgeschreven vanaf het moment dat het actief klaar is voor het beoogde gebruik.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+
+* Andere vaste bedrijfsmiddelen : 20 %.
+
+Voor zover subsidies of daaraan gelijk te stellen vergoedingen zijn ontvangen als eenmalige bijdrage in de
+afschrijvingskosten, zijn deze in mindering gebracht op de investeringen.
+
+Financiële instrumenten
+
+Primaire financiële instrumenten omvatten debiteuren en overige vorderingen, geldmiddelen, crediteuren en
+overige te betalen posten. De reële waarde van de primaire financiële instrumenten benadert de boekwaarde.
+Voor de grondslagen van de primaire financiële instrumenten wordt verwezen naar de grondslagen van
+waardering van debetreffende posten zoals opgenomen in de hierna volgende alinea's. Scauting Diagnose &
+Behandeling B.V. maakt geen gebruik van afgeleide financiële instrumenten.
+
+Vorderingen
+
+Vorderingen worden gewaardeerd tegen nominale waarde. Voorzieningen wegens oninbaarheid worden in
+mindering gebracht op de boekwaarde van de vordering. Een voorziening dubieuze debiteuren wordt gevormd
+bij verwachte oninbaarheid van de vorderingen op basis van individuele beoordeling.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan
+twaalf maanden. Liquide middelen worden gewaardeerd tegen de nominale waarde.
+
+Pagina 12
+
+Scauting Diagnose & Behandeling B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Schulden
+De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij
+
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs.
+
+5.1.4.3 Grondslagen van resultaatbepating
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de
+verslagperiode waarop deze betrekking hebben.
+
+Baten en lasten uit voorgaande jaren (waaronder nagekomen budgetaanpassingen) die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde materiële fout in
+voorgaande boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de resultatenrekening verwerkt wanneer het bedrag van
+de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding
+waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden
+bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de
+dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden
+
+gedekt door de opbrengsten. De met de opbrengsten samenhangende lasten worden toegerekend aan de
+periode waarin de baten zijn verantwoord.
+
+Onder opbrengsten jeugdwet en opbrengsten wmo worden de baten verantwoord uit hoofde van geleverde
+prestaties op het gebied van verleende jeugdzorg respectievelijk wmo-prestaties. Als realisatiemoment geldt
+het moment waarop de betreffende prestaties zijn gerealiseerd en op grond van de geldende voorschriften of
+richtlijnen gedeclareerd kunnen worden bij de opdrachtgever. Tot de opbrengsten jeugdwet worden tevens
+gerekend mutaties in onderhanden zorgtrajecten met betrekking tot jeugdzorg.
+
+gege
+
+Pagina 13
+
+Scauting Diagnose & Behandeling B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Personele kosten
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de resultatenrekening verantwoord in de periode waarin de
+arbeidsprestatie wordt verricht en, voor zover nog niet uitbetaald, als verplichting op de balans opgenomen. Als
+de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt het meerdere opgenomen als een
+
+overlopend actief voor zover er sprake zal zijn van terugbetaling door het personeel of van verrekening met
+toekomstige betalingen door de instelling.
+
+Voor de beloningen met opbouw van rechten (sabbatical leave, gratificaties e.d. } worden de verwachte lasten
+gedurende het dienstverband in aanmerking genomen. Een verwachte vergoeding ten gevolge van gratificaties
+worden verantwoord indien de verplichting tot betaling van die vergoeding is ontstaan op of vóór balansdatum
+en een betrouwbare schatting van de verplichtingen kan worden gemaakt. Ontvangen bijdragen voortvloeiend
+uit levensloopregelingen worden in aanmerking genomen in de periode waarover deze bijdragen zijn
+
+verschuldigd. Toevoegingen aan en vrijval van verplichtingen worden ten laste respectievelijk ten gunste van
+de resultatenrekening gebracht.
+
+Indien een beloning wordt betaald, waarbij geen rechten worden opgebouwd (bijvoorbeeld doorbetaling in
+geval van ziekte of arbeidsongeschiktheid) worden de verwachte lasten verantwoord in de periode waarover
+deze beloning is verschuldigd. Voor op balansdatum bestaande verplichtingen tot het in de toekomst
+doorbetalen van beloningen (inclusief ontslagvergoedingen) aan personeelsleden die op balansdatum naar
+verwachting blijvend geheel of gedeeltelijk niet in staat zijn om werkzaamheden te verrichten door ziekte of
+arbeidsongeschiktheid wordt een voorziening opgenomen. De verantwoorde verplichting betreft de beste
+schatting van de bedragen die noodzakelijk zijn om de desbetreffende verplichting op balansdatum af te
+wikkelen. De beste schatting is gebaseerd op contractuele afspraken met personeelsleden (CAO en
+individuele arbeidsovereenkomsten). Toevoegingen aan en vrijval van verplichtingen worden ten laste
+respectievelijk ten gunste van de resultatenrekening gebracht.
+
+Ontslagvergoedingen
+
+Ontslagvergoedingen zijn vergoedingen die worden toegekend in ruil voor de beëindiging van het
+dienstverband. Een uitkering als gevolg van ontslag wordt als verplichting en als last verwerkt als de instelling
+zich aantoonbaar onvoorwaardelijk heeft verbonden tot betaling van een ontslagvergoeding. Als het ontslag
+onderdeel is van een reorganisatie, worden de kosten van de ontslagvergoeding opgenomen in een
+reorganisatievergoeding. Zie hiervoor de grondslag onder het hoofd Voorzieningen. Ontslagvergoedingen
+worden gewaardeerd met inachtneming van de aard van de vergoeding. Als de ontslagvergoeding een
+verbetering is van de beloningen na afloop van het dienstverband, vindt waardering plaats volgens dezelfde
+grondslagen die worden toegepast voor pensioenregelingen. Andere ontslagvergoedingen worden
+
+gewaardeerd op basis van de beste schatting van de bedragen die noodzakelijk zijn om de verplichting Áf te
+wikkelen.
+
+Pagina 14
+
+Scauting Diagnose & Behandeling B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Pensioenen
+
+Scauting Diagnose & Behandeling B.V. heeft voor haar werknemers een toegezegde pensioenregeling bij het
+bedrijfstakpensioenfonds. Hiervoor in aanmerking komende werknemers hebben op de pensioengerechtigde
+leeftijd recht op een pensioen dat is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat
+de werknemer pensioen heeft opgebouwd bij de organisatie. De verplichtingen, die voortvloeien uit deze
+rechten van haar personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. Scauting
+Diagnose & Behandeling B.V. betaalt hiervoor premies die door werkgever en werknemer gezamenlijk worden
+betaald. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het
+pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat.
+
+Voor pensioenfondsen geldt regelgeving met betrekking tot de vereiste dekkingsgraad. De
+beleidsdekkingsgraad is het gemiddelde van de laatste twaalf dekkingsgraden. In december 2022 bedroeg de
+beleidsdekkingsgraad 111,6%. Het vereiste niveau van de dekkingsgraad is 125%. Het bestuur van PFZW
+heeft besloten om de pensioenpremie te verhogen. In december 2022 zijn de pensioenen met 6% verhoogd.
+De premie voor het arbeidsongeschiktheidspensioen blijft gelijk. Scauting Diagnose & Behandeling B.V. heeft
+geen verplichting tot het voldoen van aanvullende bijdragen in geval van een tekort bij het pensioenfonds,
+anders dan het effect van hogere toekomstige premies. Scauting Diagnose & Behandeling B.V. heeft daarom
+alleen de verschuldigde premies tot en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en
+aan derden en groepsmaatschappijen betaalde (te betalen) interest. Tevens is hieronder opgenomen het
+aandeel van de instelling in het resultaat van de op nettovermogenswaarde gewaardeerde deelnemingen
+danwel ontvangen dividenden van deelnemingen waarin geen invloed van betekenis op het zakelijke en
+financiële beleid wordt uitgeoefend en waardeveranderingen van financiële vaste activa en effecten.
+
+Belastingen
+
+Belastingen omvatten de over de verslagperiode verschuldigde winstbelastingen. De belastingen worden in de
+resultatenrekening opgenomen. De over het boekjaar verschuldigde en verrekenbare belasting is de naar
+verwachting te betalen belasting over de belastbare winst over het boekjaar, berekend aan de hand van
+belastingtarieven die zijn vastgesteld op verslagdatum, dan wel waartoe materieel al op verslagdatum is
+besloten, en eventuele correcties op de over voorgaande jaren verschuldigde belasting.
+
+Wanneer er sprake is van een fiscale eenheid, worden de belastingen onderling verdeeld alsof de losse
+entiteiten zelfstandia belastinaplichtia zijn.
+
+Pagina 15
+
+Scauting Diagnose & Behandeling B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht
+bestaan uit de liquide middelen. Ontvangsten en uitgaven uit hoofde van interest en winstbelastingen zijn
+opgenomen onder de kasstroom uit operationele activiteiten.
+
+De verkrijgingsprijs van de verworven groepsmaatschappij is opgenomen onder de kasstroom uit
+investeringsactiviteiten, voor zover betaling in geld heeft plaatsgevonden. De in de verworven
+groepsmaatschappij aanwezige geldmiddelen zijn van de aankoopprijs in aftrek gebracht.
+
+Transacties waarbij geen ruil van kasmiddelen plaatsvindt, waaronder financiële leasing, zijn niet in het
+kasstroomoverzicht opgenomen.
+
+5.1.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan
+de datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de
+jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de
+
+gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de
+jaarrekening.
+
+5.1.4.6 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de wet-
+en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+egen
+
+Pagina 16
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+1. Materiële vaste activa
+
+31-dec-22 31-dec-21
+De specificatie is als volgt: €
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 3.596 0
+Totaal materiële vaste activa 3.596 0
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven: 2022 2021
+€ €
+Boekwaarde per 1 januari 0) 0)
+Bij: investeringen 4,252 0
+Af: afschrijvingen 656 0
+Boekwaarde per 31 december 3.596 0
+Toelichting:
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 5.1.6.
+2. Debiteuren en overige vorderingen
+De specificatie is als volgt: 31-dec-22 31-dec-21
+€ €
+Vorderingen op debiteuren 25.051 0)
+Verzekeringspremies 3.433 0
+Overige nog te ontvangen bedragen 17.078 0
+Totaal debiteuren en overige vorderingen 45.563 0
+Toelichting:
+Op de vorderingen is geen voorziening in aftrek gebracht.
+3. Liquide middelen
+De specificatie is als volgt: 31-dec-22 31-dec-21
+€ €
+Bankrekeningen 28.160 2
+Kassen 0 0
+Totaal liquide middelen 28.160 2
+
+Toelichting:
+De liquide middelen staan ter vrije beschikking.
+
+Pagina 17
+
+grange ee
+
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+
+PASSIVA
+9. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Kapitaal
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Kapitaal
+
+Het verloop is als volgt weer te geven:
+
+Kapitaal
+
+Totaal kapitaal
+
+Algemene en overige reserves
+
+Het verloop is als volgt weer te geven:
+
+Overige reserves:
+Overige reserves
+
+Totaal algemene en overige reserves
+
+31-dec-22 31-dec-21
+
+€ €
+
+2 2
+
+-155.992 0
+
+-155.990 2
+
+Saldo per Overige Saldo per
+1-jan-22 mutaties 31-dec-22
+€ € € €
+
+2 0 2
+
+2 0 0 2
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-22 bestemming mutaties 31-dec-22
+
+€ € € €
+
+le) -155.992 -155.992
+
+0 -155.992 0 -155.992
+
+Toelichting:
+
+De directie stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2022 volledig toe te voegen aan de overige
+
+reserves.
+
+6. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Crediteuren
+
+Belastingen en premies sociale verzekeringen
+
+Schulden terzake pensioenen
+
+Overige schulden:
+Rekening Courant Scauting Coaching & Detachering B.V.
+
+- Vooruitontvangen opbrengsten:
+Vakantiedagen
+
+- Overige overlopende passiva:
+Overige
+
+Totaal overige kortlopende schulden
+
+31-dec-22 31-dec-21
+€ €
+
+7.688 0
+13.721 (e)
+7.314 (e)
+181.372 0
+19.670 0
+3.544 0
+233.308 e)
+
+Toelichting:
+
+Pagina 18
+
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+Algemeen
+7. Niet in de balans opgenomen verplichtingen, activa en regelingen
+
+Fiscale eenheid
+
+BEHAUT B.V. Scauting Coaching & Detachering B.V. en Scauting Diagnose en Behandeling B.V. zijn opgenomen in een fiscale
+eenheid voor de vennootschapsbelasting. Scauting Coaching en Detachering B.V. en Scauting Diagnose & Behandeling B.V. zijn
+opgenomen een fiscale eenheid voor de omzetbelasting. Een fiscale eenheid impliceert dat de vennootschappen, die tot de
+fiscale eenheid behoren, hoofdelijk aansprakelijk zijn voor de schulden van de fiscale eenheid.
+
+nnnadner
+
+Pagina 19
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.6 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Andere vaste Materiële vaste
+bedrijfs- bedrijfsactiva in
+middelen, uitvoering en Niet aan het
+Bedrijfs- technischeen vooruitbetalingen bedrijfsproces
+gebouwen en Machines en administratieve op materiële dienstbare Totaal
+terreinen installaties uitrusting vaste activa materiële activa
+€ € € € € €
+
+Stand per í januari 2022
+
+- aanschafwaarde le) ie) 0 le) le) le)
+= cumulatieve afschrijvingen le} le) ke) 0 0 0
+Boekwaarde per 1 januari 2022 q le) ) ) q e)
+Mutaties in het boekjaar
+- investeringen 0 0 4,252 0 le) 4.252
+- afschrijvingen 0 le) 656 0 0 656
+Mutaties in boekwaarde (per saldo) 0 0 3.596 0 0 3.596
+Stand per 31 december 2022
+- aanschafwaarde 0 0 4.252 0 0 4,252
+- cumulatieve afschrijvingen 0 0 656 [e} (e) 656
+Boekwaarde per 31 december 2022 0 [e) 3.596 0 [9 3.596
+Afschrijvingspercentage 0,0% 0,0% 20,0% 0,0% 0,0%
+
+Pagina 20
+
+Frames
+
+KI
+ES
+È
+E
+
+an eren neren
+
+EDE meneren
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.7 TOELICHTING OP DE RESULTATENREKENING
+
+BATEN
+
+8. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2022 2021
+€ €
+Opbrengsten Jeugdwet 249.090 0
+Overige zorgprestaties -7,111 0
+Totaal 241.979 0
+Toelichting:
+Het negatieve saldo van de overige zorgprestaties bestaat onder andere uit 9575 euro aan negatieve
+intercompany omzet t.b.v. Scauting Coaching & Detachering B.V.
+LASTEN
+11. Personeelskosten
+De specificatie is als volgt: 2022 2021
+€ €
+Lonen en salarissen 221.010 0
+Uikeringen bij ziekte -23.865 0
+Sociale lasten 31.471 0
+Pensioenpremies 19.662 0
+- Andere personeelskosten:
+Reiskosten 6.152 0
+Onbelaste uitkeringen 699 0
+Scholings- en opleidingskosten 6.880 0
+Personeelsverzekeringen 6.883 0
+Overige personeelskosten 84.551 0
+Subtotaal 353.443 0
+Totaal personeelskosten 353.443 9)
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+GGZ 5 0)
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 5 0
+Toelichting:
+De overige personeelskosten bestaan voor 83.351 euro uit intercompanyloonkosten
+ZÌ
+
+
+Pagina 21
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.8 TOELICHTING OP DE RESULTATENREKENING
+12, Afschrijvingen op materiële vaste activa
+
+De specificatie ís als volgt:
+
+2022 2021
+€ €
+
+Afschrijvingen:
+- materiële vaste activa 656 0
+Totaal afschrijvingen 656 0
+
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar
+
+het mutatieoverzicht onder 5.1.6.
+
+13. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+2022 2021
+
+€ €
+
+Algemene kosten 54.228 0
+
+Onderhoud en energiekosten 15.574 0
+
+Huur en leasing 840 0
+
+Totaal overige bedrijfskosten 70.642 0
+
+Toelichting:
+
+De algemene kosten bestaan uit:
+
+-47.133 euro intercompany algemene en overheadkosten
+
+- 4,189 euro studie- en lesmateriaal
+
+- 809 euro automatiseringskosten
+
+- 2097 euro overige algemene kosten
+
+14. Financiële baten en lasten
+
+De specificatie is als volgt: 2022 2021
+€ €
+
+Rentelasten -529 0
+
+Subtotaal financiële lasten -529 0
+
+Totaal financiële baten en lasten -529 0
+
+Toelichting:
+
+Pagina 22
+
+
+Scauting Diagnose en Behandeling B.V.
+
+5.1.7 TOELICHTING OP DE RESULTATENREKENING
+
+LASTEN
+
+15. Belastingen
+
+De specificatie is als volgt: 2022 2021
+
+€ €
+Vennootschapsbelasting -27.298 0
+Totaal -27.298 0
+Toelichting:
+
+De aangifte Vennootschapsbelasting voor de fiscale eenheid tussen Scauting Coaching & Detachering B.V. en
+
+Scauting Diagnose & Behandeling B.V. omvat een totaal te betalen vpb-last van 10.822 euro, en is aangegeven
+via Scauting Coaching & Detachering B.V.
+
+16. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar
+deelnemingen en hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+Pagina 23
+
+Scauting Diagnose en Behandeling B.V.
+
+5.2 OVERIGE GEGEVENS
+
+5.2.1 Statutaire regeling resuitaatbestemming
+
+In de statuten is bepaald dat het behaalde resultaat ter vrije beschikking staat van de Algemene Vergadering.
+
+5.2.2 Nevenvestigingen
+
+Scauting Diagnose en Behandeling B.V. heeft de volgende nevenvestigingen:
+- Hoogeveen
+
+Pagina 24
+
+
+Scauting Diagnose en Behandeling B.V.
+
+5.2.3. Ondertekening van de jaarrekening
+
+Vasstelling van de jaarrekening
+
+De jaarrekening is aldus opgemaakt en vastgesteld door het bestuur c.q. de Algemene Vergadering.
+
+Hoogeveen, 21-07-2023
+
+Scauting Diagnose en Behandeling B.V.
+Namens deze,
+BEHAUT B.V.
+
+EAN
+
+W. Piek A. Oostenveld
+
+Pagina 25
+
+A
+

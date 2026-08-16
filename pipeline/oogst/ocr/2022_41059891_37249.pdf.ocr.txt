@@ -1,0 +1,803 @@
+# whosigns-ocr v1 grootte=6271315 dpi=300 paginas=20
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2 JAARREKENING
+
+20
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2.1 BALANS PER 31 DECEMBER 2022
+(na resultaatbestemming)
+
+Ref. 31-dec-22 31-dec-21
+€ €
+ACTIVA
+Vaste activa
+Materiële vaste activa 1
+Bedrijfsgebouwen en -terreinen 5.620.557 5.946.859
+Machines en installaties 235.531 257.323
+Andere vaste bedrijfsmiddelen 371.847 433.997
+6.227.935 6.638.179
+Vlottende activa
+Vorderingen 2
+Op handelsdebiteuren 271 15.387
+Overige vorderingen en overlopende activa 87.346 279.320
+87.617 294.707
+Liquide middelen 3 3.562.298 2.673.831
+Totaal activa 9.877.850 9.606.717
+
+21
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+Ref. 31-dec-22 31-dec-21
+€ €
+PASSIVA
+
+Eigen vermogen 4
+Bestemmingsfonds 6.114.580 5.913.996
+6.114.580 5.913.996
+
+Voorzieningen 5
+Voorzieningen 312.762 294.056
+312.762 294.056
+
+Langlopende schulden (voor meer dan 1 jaar) 6
+Schulden aan banken 2.306.250 2.478.750
+2.306.250 2.478.750
+
+Kortlopende schulden (ten hoogste 1 jaar) 7
+Schulden aan leveranciers en handelskredieten 238.892 137.565
+Belastingen en premies sociale verzekeringen 87.943 10.329
+Schulden terzake van pensioenen 95.934 11.944
+Overige schulden en overlopende passiva 721.489 760.077
+1.144.258 919.915
+Totaal passiva 9.877.850 9.606.717
+
+22
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2.2 WINST- EN VERLIESREKENING OVER 2022
+
+Ref. 2022 2021
+€ €
+BEDRIJFSOPBRENGSTEN
+Baten uit beroeps- of bedrijfsmatige zorgverlening 8
+Wet langdurige zorg 6.801.092 6.846.543
+Zorgverzekeringswet 82.836 149.230
+6.883.928 6.995.823
+Baten uit andere beroeps- of bedrijfsmatige activiteiten e) 22.071 25.978
+Netto omzet 6.905.999 7.021.801
+Overige bedrijfsopbrengsten 10 193.916 208.245
+Som der bedrijfsopbrengsten 7.099.915 7.230.046
+BEDRIJFSLASTEN
+Kosten uitbesteed werk en andere externe kosten 11 640.568 266.966
+Lonen en salarissen 12 3.143.193 3.067.552
+Sociale lasten 13 554.755 480.169
+Pensioenlasten 14 259.168 240.425
+Afschrijvingen op immateriële en materiële vaste activa 15 498.389 489.890
+Overige bedrijfskosten 16 1.774.534 1.632.199
+Som der bedrijfslasten 6.870.607 6.177.201
+BEDRIJFSRESULTAAT 229.308 1.052.845
+Andere rentebaten en soortgelijke opbrengsten 17 0 29
+Rentelasten en soortgelijke kosten 18 -28.724 -35.803
+RESULTAAT 200.584 1.017.071
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2022 2021
+€ €
+Bestemmingsfonds 200.584 1.017.071
+200.584 1.017.071
+
+23
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2.3 KASSTROOMOVERZICHT OVER 2022
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+- afschrijvingen en overige waardeverminderingen
+
+- mutaties voorzieningen (exclusief voorziening deelnemingen)
+
+Veranderingen in werkkapitaal:
+- vorderingen
+
+- kortlopende schulden (excl. schulden aan banken)
+
+Kasstroom uit bedrijfsoperaties
+
+Ontvangen interest
+Betaalde interest
+
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa
+
+Totaal kasstroom uit investeringsactiviteiten
+
+Kasstroom uit financieringsactiviteiten
+Aflossing langlopende schulden
+
+Totaal kasstroom uit financieringsactiviteiten
+
+Mutatie geldmiddelen
+
+Stand geldmiddelen per 1 januari
+Stand geldmiddelen per 31 december
+Mutatie geldmiddelen
+
+2022 2021
+€ € € €
+229.308 1.052.845
+493.389 489.890
+18.706 36.305
+517.095 526.195
+207.090 758.074
+344.343 -145.742
+551.433 612.332
+1.297.836 2.191.372
+0 29
+-28.724 -35.803
+-28.724 -35.774
+1.269.112 2.155.598
+-88.145 -100.366
+-88.145 -100.366
+-292.500 -330.000
+-292.500 -330.000
+888.467 1.725.232
+2.673.831 948.599
+3.562.298 2.673.831
+888.467 1.725.232
+
+24
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+2.4.1 Algemeen
+
+Statutaire naam en activiteiten
+De statutaire naam van Woon- en Zorgcentrum Avondlicht is voluit Stichting Woon- en Zorgcentrum Avondlicht en de statutaire
+vestigingsplaats is Gemeente Lingewaal. Stichting Woon- en Zorgcentrum Avondlicht is geregistreerd onder KvK-nummer 41059891.
+
+De activiteiten van Stichting Woon- en Zorgcentrum Avondlicht bestaan hoofdzakelijk uit het leveren van intramurale zorg.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2022, lopend van 1 januari 2022 tot en met 31 december 2022. De vergelijkende
+cijfers hebben betrekking op boekjaar 2021, lopend van 1 januari 2021 tot en met 31 december 2021.
+
+Continuïteitsveronderstelling
+De verwachting is dat het geheel van de activiteiten van Stichting Woon- en Zorgcentrum Avondlicht, waaraan de activa en passiva
+dienstbaar zijn, wordt voortgezet. Deze jaarrekening is derhalve opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Grondslagen voor het opstellen van de jaarrekening
+De jaarrekening is opgesteld in overeenstemming met de Regeling openbare jaarverantwoording WMG (RojW). De jaarrekening is
+opgesteld in euro. Toelichtingen op posten in de balans en resultatenrekening zijn in de jaarrekening genummerd.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd op historische kosten,
+tenzij anders vermeld in de verdere grondslagen. Opbrengsten en kosten worden toegerekend aan de periode waarop deze betrekking
+
+hebben.
+Bij de toepassing van de grondslagen voor de waardering en de resultaatbepaling wordt voorzichtigheid betracht. Winsten worden slechts
+
+opgenomen voor zover zij op balansdatum zijn verwezenlijkt. Verplichtingen die hun oorsprong vinden vóór het einde van het boekjaar,
+worden in acht genomen, indien zij vóór het opmaken van de jaarrekening bekend zijn geworden. Voorzienbare verplichtingen en
+mogelijke verliezen die hun oorsprong vinden vóór het einde van het boekjaar worden in acht genomen indien zij vóór het opmaken van
+de iaarrekeninse hekend zijn sewarden
+
+De verdere toelichting op specifieke grondslagen voor het opstellen van de jaarrekening en voor de waardering en resultaatbepaling komt
+in het hierna volgende aan de orde.
+
+Gebruik van schattingen
+De volgende oordelen en schattingen zijn van belangrijke invloed op de in deze jaarrekening opgenomen bedragen:
+
+- het bepalen van de beste schatting van voorzieningen, schulden en verplichtingen uit hoofde van groot onderhoud, verlofrechten en
+toekomstige (salaris)rechten van medewerkers, zoals verwerkt onder de voorzieningen en de overige kortlopende schulden;
+
+Stichting Woon- en Zorgcentrum Avondlicht hanteert voor de schattingen en veronderstellingen voorzichtige uitgangspunten.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar, met uitzondering van het
+volgende:
+
+Herrubricering vergelijkende cijfers
+
+De cijfers voor 2021 zijn, waar nodig, geherrubriceerd om vergelijkbaarheid met 2022 mogelijk te maken.
+
+Deze herrubriceringen betreffen de op onderdelen gewijzigde presentatievoorschriften voor de cijfers over 2022 vanuit de Regeling
+openbare jaarverantwoording WMG (RojW) ten opzichte van de cijfers over 2021 die in overeenstemming waren met de Regeling
+verslaggeving WTZi (RVW).
+
+25
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+2.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen naar de onderneming
+zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan de omvang betrouwbaar kan worden vastgesteld. Activa die
+hier niet aan voldoen worden niet in de balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa. Activa
+waarvan het waarschijnlijk is dat de realiseerbare waarde lager is dan de boekwaarde, worden afgewaardeerd tot het niveau van de
+
+hansste van de indirerte en directe realiseerhare waarde
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal gaan met een uitstroom
+van middelen die economische voordelen in zich bergen en de omvang van het bedrag waartegen de afwikkeling zal plaatsvinden op
+betrouwbare wijze kan worden vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan
+voldoen worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet leidt tot een belangrijke
+verandering in de economische realiteit met betrekking tot het actief of de verplichting. Dergelijke transacties geven evenmin aanleiding
+tot het verantwoorden van resultaten. Bij de beoordeling of er sprake is van een belangrijke verandering in de economische realiteit
+wordt uitgegaan van de economische voordelen en risico’s die zich waarschijnlijk in de praktijk zullen voordoen en niet op voordelen en
+risico’s waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of nagenoeg alle rechten op
+economische voordelen en alle of nagenoeg alle risico's met betrekking tot het actief of de verplichting aan een derde zijn overgedragen.
+De resultaten van de transactie worden in dat geval direct in de winst- en verliesrekening opgenomen, rekening houdend met eventuele
+voorzieningen die dienen te worden getroffen in samenhang met de transactie. Indien de weergave van de economische realiteit ertoe
+leidt dat het opnemen van activa waarvan de rechtspersoon niet het juridisch eigendom bezit, wordt dit feit vermeld.
+
+Materiële vaste activa
+De materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek van cumulatieve afschrijvingen en
+cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs volgens de lineaire methode op basis
+van de verwachte economische levensduur. Er wordt afgeschreven vanaf het moment van ingebruikneming. Op bedrijfsterreinen en op
+vaste activa in ontwikkeling en vooruitbetalingen op materiële vaste activa wordt niet afgeschreven.
+
+Materiële vaste activa met een beperkte gebruiksduur worden afzonderlijk afgeschreven. In het geval dat belangrijkste bestanddelen van
+een materieel vast actief van elkaar te onderscheiden zijn en verschillen in gebruiksduur of verwacht gebruikspatroon, worden deze
+bestandsdelen afzonderlijk afgeschreven. De afschrijvingspercentages zijn toegelicht in de toelichting op de balans.
+
+In het geval dat de betaling van de kostprijs van een materieel vast actief plaatsvindt op grond van een langere dan normale
+betalingstermijn, wordt de kostprijs van het actief gebaseerd op de contante waarde van de verplichting.
+
+In het geval dat materiële vaste activa worden verworven in ruil voor een niet-monetair actief, wordt de kostprijs van het materieel vast
+actief bepaald op basis van de reële waarde voor zover de ruiltransactie leidt tot een wijziging in de economische omstandigheden en de
+reële waarde van het verworven actief of van het opgegeven actief op betrouwbare wijze kan worden vastgesteld.
+
+Groot onderhoud
+Voor de kosten van periodiek groot onderhoud wordt een voorziening gevormd. Deze voorziening is opgenomen onder de overige
+voorzieningen aan de passiefzijde van de balans. De uitgaven voor groot onderhoud worden ten laste gebracht van deze voorziening.
+
+Vorderingen
+Vorderingen worden gewaardeerd tegen nominale waarde. Een voorziening wordt getroffen op de vorderingen op grond van verwachte
+oninbaarheid.
+
+Een vordering uit hoofde van financieringstekorten of een schuld uit hoofde van financieringsoverschotten is het aan het einde van het
+boekjaar bestaande verschil tussen het wettelijk budget voor aanvaardbare kosten en de ontvangen voorschotten en de in rekening
+gebrachte vergoedingen voor diensten en verrichtingen ter dekking van het wettelijk budget.
+
+26
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan twaalf maanden. Rekening-
+courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende schulden. Liquide middelen
+worden gewaardeerd tegen de nominale waarde.
+
+Voorzieningen
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum bestaan en die het gevolg
+zijn van een gebeurtenis uit het verleden, waarbij het waarschijnlijk is dat een uitstroom van middelen noodzakelijk is en waarvan de
+omvang op betrouwbare wijze is te schatten. De voorzieningen worden gewaardeerd tegen nominale waarde van de uitgaven die naar
+verwachting noodzakelijk zijn om de verplichting en verliezen af te wikkelen. Indien het verschil tussen de nominale en contante waarde
+van de verplichtingen materieel is, worden voorzieningen gewaardeerd tegen contante waarde.
+
+Aanvullend op de hiervoor vermelde algemene grondslagen voor voorzieningen, gelden de volgende specifieke grondslagen per
+voorziening:
+
+a. Voorziening groot onderhoud
+
+De voorziening groot onderhoud wordt gevormd voor verwachte kosten inzake periodiek onderhoud van panden, installaties, e.d.,
+gebaseerd op een meerjaren onderhoudsplan.
+
+b. Voorziening uitgestelde beloningen
+
+Deze voorziening betreft de geldwaarde van de (opgebouwde) rechten van werknemers die naar verwachting op een later moment
+uitbetaald of genoten/ opgenomen worden. Het gaat hierbij onder meer om:
+
+-jubileumgratificaties,
+
+De eerder genoemde verwachting wordt onder meer beïnvloed door de inschatting van de blijf-kans van werknemers en van het blijven
+voldoen aan de voorwaarden voor uitbetaling/ genieting. De geldwaarde betreft de opgebouwde rechten, omgerekend in het brutoloon
+op balansdatum, verhoogd met de daarover door de werkgever verschuldigde premies en heffingen en gecorrigeerd voor de inschatting
+van blijf-kans en het voldoen aan andere voorwaarden.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één jaar. De kortlopende
+schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij eerste verwerking opgenomen tegen de reële
+waarde en vervolgens gewaardeerd tegen de nominale waarde. De aflossingsverplichtingen voor het komend jaar van de langlopende
+schulden worden opgenomen onder kortlopende schulden.
+
+2.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming van de hiervoor reeds
+vermelde grondslagen. Baten en lasten worden verwerkt in het jaar waarop zij betrekking hebben. Daarbij wordt voorzichtigheid betracht
+overeenkomstig de grondslagen die gelden voor het opnemen van activa en passiva (zoals eerder vermeld).
+
+Baten en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een
+geconstateerde fout in voorgaande boekjaren wordt foutherstel toegepast.
+
+Pensioenen
+
+Stichting Woon- en Zorgcentrum Avondlicht heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking
+komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op het gemiddeld verdiende
+loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd bij Stichting Woon- en Zorgcentrum Avondlicht. De
+verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn
+(PFZW). Stichting Woon- en Zorgcentrum Avondlicht betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de
+helft door de werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het
+pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat.
+
+Stichting Woon- en Zorgcentrum Avondlicht heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een tekort bij
+
+het pensioenfonds, anders dan het effect van hogere toekomstige premies. Stichting Woon- en Zorgcentrum Avondlicht heeft daarom
+alleen de verschuldigde premies tot en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+27
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+2.4.5 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide
+middelen en beleggingen die zonder beperkingen en zonder materieel risico van waardeverminderingen als gevolg van de transactie
+kunnen worden omgezet in geldmiddelen.
+
+2.4.6 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de datum van het opmaken
+van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de jaarrekening verwerkt. Als
+dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de gebruikers van de jaarrekening, worden de aard en de
+
+seschatte financiële sevalsen ervan toeselicht in de iaarrekenine
+
+2.4.7 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft Stichting Woon- en Zorgcentrum Avondlicht zich gehouden aan de
+wet- en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels. De WNT- verantwoording inzake Stichting Woon-
+en Zorgcentrum Avondlicht is opgenomen in de toelichting op de resultatenrekening in de jaarrekening.
+
+28
+
+Stichting Woon- en Zorgcentrum “Avondlicht'”
+
+2.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+1. Materiële vaste activa
+
+Stand per 1 januari 2022
+- aanschafwaarde
+- cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2022
+
+Mutaties in het boekjaar
+- investeringen
+- afschrijvingen
+
+- terugname geheel afgeschreven activa
+„aanschafwaarde
+
+„cumulatieve afschrijvingen
+
+Mutaties in boekwaarde (per saldo)
+Stand per 31 december 2022
+- aanschafwaarde
+
+- cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2022
+
+Afschrijvingspercentage
+
+vaste bedrijfs-
+
+middelen in
+uitvoering/
+vooruit Niet aan de
+Bedrijfs- Andere vaste betaald op bedrijfs-
+gebouwen en- Machines en bedrijfs- materiële uitoefening
+terreinen installaties middelen vaste activa dienstbaar Totaal
+€ € € € € €
+8.498.098 742.050 882.227 10.122.375
+2.551.239 484.727 448.230 3.484.196
+5.946.859 257.323 433.997 0 0 6.638.179
+30.250 20.448 37.447 88.145
+356.552 42.240 99.597 498.389
+8.347 6.464 31.052 45.863
+8.347 6.464 31.052 45.863
+-326.302 -21.792 -62.150 0 0 -410.244
+8.520.001 756.034 888.622 0 0 10.164.657
+2.899.444 520.503 516.775 0 0 3.936.722
+5.620.557 235.531 371.847 0 0 6.227.935
+2,5-5% 5,0% 10-20%
+
+29
+
+Stichting Woon- en Zorgcentrum “Avondlicht'”
+
+2.5 TOELICHTING OP DE BALANS
+
+2. Vorderingen
+
+De overige vorderingen en overlopende activa kunnen als volgt worden gespecificeerd:
+31-dec-22 31-dec-21
+€ €
+Vorderingen uit hoofde van financieringstekort 0 255.120
+Nog te ontvangen ZVW 38.315 20.009
+Overige vorderingen en overlopende activa 49.031 4.191
+Totaal overige vorderingen en overlopende activa 87.346 279.320
+Onder de overige vorderingen en schulden worden de bedragen opgenomen aangaande het financieringstekort dan wel -overschot Wlz.
+De opbouw hiervan is als volgt:
+Vorderingen uit hoofde van financieringstekort en schulden uit hoofde van financieringsoverschot
+2021 2022 totaal
+€ € €
+Saldo per 1 januari 255.120 0 255.120
+Financieringsverschil boekjaar -26.978 -26.978
+Correcties voorgaande jaren 0
+Betalingen/ontvangsten -255.120 -255.120
+Subtotaal mutatie boekjaar -255.120 -26.978 -282.098
+Saldo per 31 december 0 -26.978 -26.978
+31-dec-22 31-dec-21
+€ €
+Waarvan gepresenteerd als:
+- overige vorderingen 0 255.120
+- overige schulden 26.978 0
+26.978 255.120
+Specificatie financieringsverschil in het boekjaar 31-dec-22 31-dec-21
+€ €
+Wettelijk budget voor aanvaardbare kosten 6.801.092 6.846.543
+Af: vergoedingen ter dekking van het wettelijk budget -6.828.070 -6.591.423
+Totaal financieringsverschil -26.978 255.120
+3. Liquide middelen
+De liquide middelen kunnen als volgt worden gespecificeerd:
+31-dec-22 31-dec-21
+€ €
+Bankrekeningen 3.561.322 2.673.419
+Kassen 976 412
+Totaal liquide middelen 3.562.298 2.673.831
+
+30
+
+Stichting Woon- en Zorgcentrum “Avondlicht'”
+
+2.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+4. Eigen vermogen
+
+Bestemmingsfonds
+Saldo per Resultaat- Overige Saldo per
+1-jan-2022 bestemming mutaties 31-dec-2022
+€ € € €
+
+Bestemmingsfonds:
+Reserve aanvaardbare kosten 5.913.996 200.584 (0) 6.114.580
+Totaal bestemmingsfonds 5.913.996 200.584 (0) 6.114.580
+
+5. Voorzieningen
+
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+1-jan-2022 31-dec-2022
+€ € € € €
+- groot onderhoud 252.056 31.706 283.762
+- uitgestelde beloningen 42.000 13.000 29.000
+Totaal voorzieningen 294.056 31.706 0 13.000 312.762
+
+Met betrekking tot de voorzieningen gelden nog de volgende toelichtingen:
+
+Voorziening groot onderhoud
+De voorziening groot onderhoud wordt gevormd voor verwachte kosten inzake periodiek onderhoud van panden, installaties e.d. gebaseerd op
+een meerjaren onderhoudsplan. De voorziening is gebaseerd op nominale waarde.
+
+Voorziening uitgestelde beloningen
+
+De voorziening uitgestelde beloningen betreft een voorziening voor toekomstige jubileumuitkeringen. De voorziening betreft de contante waarde
+van de in de toekomst uit te keren jubileumuitkeringen. De berekening is gebaseerd op gedane toezeggingen, blijfkans en leeftijd. De gehanteerde
+disconteringsvoet bedraagt 2%.
+
+6. Langlopende schulden (voor meer dan 1 jaar)
+
+De specificatie van het totaal van de langlopende schulden naar hun looptijd is als volgt:
+
+Kortlopend deel van de langlopende schulden (< 1 jr), aflossingsverplichtingen 210.000 330.000
+Langlopend deel van de langlopende schulden (> 1 jr.) (balanspost) 2.306.250 2.478.750
+hiervan > 5 jaar 1.706.250 1.818.750
+
+Voor een nadere toelichting op de langlopende schulden wordt verwezen naar het overzicht langlopende schulden (onderdeel 2.6).
+De aflossingsverplichtingen komend boekjaar zijn verantwoord onder de kortlopende schulden.
+
+31
+
+Stichting Woon- en Zorgcentrum “Avondlicht'”
+
+2.5 TOELICHTING OP DE BALANS
+
+7. Kortlopende schulden
+
+Voor de specificatie van de schulden uit hoofde van financieringsoverschot verwijzen wij naar de toelichting op de post “Vorderingen”.
+
+De overige schulden en overlopende passiva kunnen als volgt worden gespecificeerd:
+
+31-dec-22 31-dec-21
+€ €
+
+Overige schulden en overlopende passiva:
+- Aflossingsverplichtingen komend boekjaar langlopende leningen 210.000 330.000
+- Nog te betalen salarissen 33.809 22.627
+- Schulden uit hoofde van financieringsoverschot 26.978 0
+- Vakantiegeld 127.103 126.516
+- Vakantiedagen 202.234 199.703
+- Eindejaarsuitkering 21.224 19.774
+- Overige schulden 100.141 61.457
+Totaal overige passiva 721.489 760.077
+
+32
+
+
+Stichting Woon- en Zorgcentrum
+
+vondlicht”
+
+2.6 OVERZICHT LANGLOPENDE SCHULDEN ULTIMO 2022
+
+- Resterende
+Werke- Restschuld Nieuwe B Restschuld en: . .
+. Totale … N . fl in looptijd in |Aflossings-| Aflossing Gestelde
+Leninggever Hoofdsom loop-tijd lijke 31 december | leningen in 2022 31d b over 5 jaar jaren eind wijze 2023 zekerheden
+rente 2021 2022 2022
+2022
+€ % € € € € € €
+BNG 1.200.000 20 4,53% 120.000 60.000 60.000 0 1 Lineair 60.000 |Gemeentegarantie
+BNG 1.200.000 10 2,50% 120.000 120.000 le) 0 0 Lineair OfGemeentegarantie
+Triodos 1.500.000 20 1,00% 1.256.250 56.250 1.200.000f 825.000 16 Lineair 75.000 |Gemeentegarantie
+BNG 1.500.000 20 0,68% 1.312.500 56.250 1.256.250| 881.250 17 Lineair 75.000|WFZ
+0
+le)
+0
+0
+le)
+0
+0
+0
+0
+0
+le)
+0
+0
+0
+0
+0
+le)
+0
+Totaal 2.808.750 0, 292.500 2.516.250 1.706.250 210.000
+
+33
+
+
+Stichting Woon- en Zorgcentrum “Avondlicht'”
+
+2.7 TOELICHTING OP DE WINST- EN VERLIESREKENING
+BATEN
+
+9. Baten uit andere beroeps- of bedrijfsmatige activiteiten
+
+De baten uit andere beroeps- of bedrijfsmatige activiteiten kunnen als volgt worden gespecificeerd:
+
+2022 2021
+€ €
+Wet maatschappelijke ondersteuning 22.071 25.978
+Totaal 22.071 25.978
+10. Overige bedrijfsopbrengsten
+De overige bedrijfsopbrengsten kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Overige opbrengsten:
+- Beschikbaarheidsbijdragen opleidingen 25.380 12.534
+- Overige subsidies 32.513 79.864
+- Verhuur- en serivicekosten opbrengsten 123.032 111.911
+- Overige opbrengsten 12.991 3.936
+Totaal 193.916 208.245
+LASTEN
+11. Kosten uitbesteed werk en andere externe kosten
+De kosten uitbesteed werk en andere externe kosten kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Kosten inzet externe specialisten 233.047 217.340
+Kosten personeel niet in loondienst:
+- Kosten ingehuurd personeel/ uitzendkrachten 407.521 49.626
+Totaal 640.568 266.966
+12. Lonen en salarissen
+De lonen en salarissen kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Lonen en salarissen 3.143.193 3.067.552
+Totaal 3.143.193 3.067.552
+Het gemiddelde aantal personeelsleden op basis van full-time eenheden (fte's) is als volgt: 76,8 77,8
+76,8 77,8
+
+34
+
+
+Stichting Woon- en Zorgcentrum “Avondlicht'”
+
+2.7 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+15. Afschrijvingen op materiële vaste activa
+
+De afschrijvingen op materiële vaste activa kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Afschrijvingen:
+- materiële vaste activa 498.389 489.890
+Totaal afschrijvingen 498.389 489.890
+16. Overige bedrijfskosten
+De overige bedrijfskosten kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Voedingsmiddelen en hotelmatige kosten 486.133 409.137
+Patiënt- en bewonersgebonden kosten 255.619 235.791
+Overige personeelskosten 187.164 162.460
+Algemene kosten 467.415 414.269
+Onderhoudskosten 246.571 299.342
+Energiekosten 131.632 111.200
+Totaal overige bedrijfskosten 1.774.534 1.632.199
+17. Andere rentebaten en soortgelijke opbrengsten
+De andere rentebaten en soortgelijke opbrengsten kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Rentebaten 0 29
+Totaal 0 29
+18. Rentelasten en soortgelijke kosten
+De rentelasten en soortgelijke kosten kunnen als volgt worden gespecificeerd:
+2022 2021
+€ €
+Rentelasten -28.724 -35.803
+Totaal -28.724 -35.3803
+19. Honoraria accountant
+2022 2021
+€ €
+1. Controle van de jaarrekening 21.780 19.965
+2. Overige controlewerkzaamheden (w.o. productie-verantwoordingen etc.) 7.126 9,322
+28.906 29.287
+
+Toelichting:
+De in de tabel vermelde honoraria voor de controle van de jaarrekening 2022 (2021) hebben betrekking op de totale honoraria voor het onderzoek
+van de jaarrekening 2022 (2021), ongeacht of de werkzaamheden al gedurende het boekjaar 2022 (2021) zijn verricht.
+
+35
+
+Stichting Woon- en Zorgcentrum “Avondlicht”
+
+2.7 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+De bezoldiging van de leden van de raad van bestuur (en overige topfunctionarissen) over het jaar 2022 is als volgt:
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder dienstbetrekking vanaf de 13e maand
+
+van de functievervulling
+
+1 Functie (functienaam)
+2 In dienst vanaf (datum begin functievervulling)
+3 In dienst tot en met (datum einde functievervulling)
+4 (Fictieve) dienstbetrekking?
+5 Deeltijdfactor (minimaal 0,025 fte)
+Beloning plus belastbare onkostenvergoedingen
+7 Voorzieningen ten behoeve van beloningen betaalbaar op termijn
+8 Totale bezoldiging uit hoofde van de functie van topfunctionaris
+
+9 Individueel toepasselijk bezoldigingsmaximum
+
+Vergelijkende cijfers 2021
+1 (Fictieve) dienstbetrekking?
+2 Deeltijdfactor (minimaal 0,025 fte)
+3 Beloning plus belastbare onkostenvergoedingen
+4 Voorzieningen ten behoeve van beloningen betaalbaar op termijn
+5 Totale bezoldiging uit hoofde van de functie van topfunctionaris
+
+6 Individueel toepasselijk bezoldigingsmaximum
+
+Toezichthoudende topfunctionarissen met totale bezoldiging van meer dan € 1.800
+
+1 Functie (functienaam)
+
+2 In dienst vanaf (datum begin functievervulling)
+
+3 In dienst tot en met (datum einde functievervulling)
+4
+
+Totale bezoldiging in het kader van de WNT
+
+ui
+
+Individueel toepasselijk bezoldigingsmaximum
+
+Vergelijkende cijfers 2021
+Totale bezoldiging in het kader van de WNT
+
+TN
+
+NJ
+
+Individueel toepasselijk bezoldigingsmaximum
+
+1 Functie (functienaam)
+
+2 In dienst vanaf (datum begin functievervulling)
+
+3 In dienst tot en met (datum einde functievervulling)
+4
+
+Totale bezoldiging in het kader van de WNT
+
+ui
+
+Individueel toepasselijk bezoldigingsmaximum
+
+Vergelijkende cijfers 2021
+Totale bezoldiging in het kader van de WNT
+
+TN
+
+No
+
+Individueel toepasselijk bezoldigingsmaximum
+
+D. van Zetten
+
+Bestuurder
+1-mrt-20
+heden
+Ja
+100%
+122.189
+13.333
+135.522
+146.000
+Ja
+100%
+113.790
+11.831
+125.621
+141000
+J. van Kuilenburg A. van Dusseldorp T.G.M. Eck
+Voorzitter RvT Lid RvT Lid RvT
+1-dec-15 1-dec-15 1-jul-16
+heden heden heden
+9.000 6.000 6.000
+21.900 14.600 14.600
+9.000 6.000 6.000
+21.150 14.100 14.100
+G. de Vries-Kuijntjes C. van Wijk
+Lid RvT Lid RvT
+1-dec-17 1-dec-18
+heden heden
+6.000 6.000
+14.600 14.600
+6.000 6.000
+14.100 14.100
