@@ -1,0 +1,813 @@
+# whosigns-ocr v1 grootte=14149673 dpi=300 paginas=20
+Scauting Coaching en Detachering B.V.
+
+5.1.5 Toelichting op de balans per 31 december 2023
+ACTIVA
+
+1. Materiële vaste activa
+31-dec-23 31-dec-22
+
+De specificatie is als volgt: € €
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 44.438 53.426
+Totaal materiële vaste activa 44.438 53.426
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven:
+2023 2022
+€ €
+Boekwaarde per 1 januari 53.426 44.608
+Bij: investeringen 12.477 28.442
+Af: afschrijvingen 21.465 17.710
+Af: desinvesteringen 0 1.914
+Boekwaarde per 31 december 44.438 53.426
+
+Toelichting:
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar
+
+het mutatieoverzicht onder 5.1.6.
+
+Pagina 14
+
+Scauting Coaching en Detachering B.V.
+
+5.1.5 Toelichting op de balans per 31 december 2023
+ACTIVA
+
+2. Financiële vaste activa
+
+De specificatie is als volgt: 31-dec-23 31-dec-22
+
+€ €
+Deelnemingen in groepsmaatschappijen 1 1
+Overige vorderingen 31.877 31.877
+Totaal financiële vaste activa 31.878 31.878
+Het verloop van de financiële vaste activa is als volgt: 0 0
+
+€ €
+Boekwaarde per 1 januari 31.878 31.879
+Resultaat deelnemingen -24.578 -155.992
+nihilwaardering negatieve deelneming 24.578 155.991
+Boekwaarde per 31 december 31.878 31.878
+Toelichting:
+
+Scauting Coaching en Detachering B.V. heeft per 8 september 2021 een 100% belang verworven in Scauting
+Diagnose en Behandeling B.V.
+
+Ultimo 2023 was het eigen vermogen van Scauting Diagnose & Behandeling B.V. negatief. Derhalve is de
+deelneming bij Scauting Coaching & Detachering op nihil (1 euro) gewaardeerd.
+
+Het saldo van de Rekening Courant Diagnose & Behandeling B.V. bedraagt 337.011 euro. De negatieve
+deelneming van -180.569 kon in het geheel verrekend worden met de onderlinge Rekening Courant.
+
+De overige financiële vaste activa betreffen waarborgsommen voor huur van onroerend goed. Voor een nadere
+specificatie van het verloop van de financiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 5.1.7.
+
+Toelichting op belangen in andere rechtspersonen of vennootschappen:
+
+Naam en rechtsvorm en Verschaft Kapitaal- Eigen
+woonplaats rechtspersoon kapitaal belang (in %) vermogen Resultaat
+€ €
+
+Rechtstreekse kapitaalbelangen >= 20%:
+Scauting Diagnose en Behandeling B.V. 2 100% -180.569 24.578
+
+Pagina 15
+
+
+5.1.5 Toelichting op de balans per 31 december 2023
+3. Debiteuren en overige vorderingen
+
+De specificatie is als volgt:
+
+Vorderingen op debiteuren
+
+Vorderingen op participanten en maatschappijen waarin wordt deelgenomen:
+
+Rekening Courant Diagnose & Behandeling B.V.
+
+Vorderingen uit hoofde van subsidies:
+Personele subsidies
+
+Vooruitbetaalde bedragen:
+Vooruitbetaalde huurkosten
+Verzekeringspremies
+
+Te vorderen vennootschapsbelasting
+Algemene kosten
+
+Overige vooruitbetaalde bedragen
+
+Nog te ontvangen bedragen:
+Nog te ontvangen ziekteuitkeringen
+Overige nog te ontvangen bedragen
+
+Totaal debiteuren en overige vorderingen
+
+31-dec-23 _31-dec-22
+€ €
+638.429 573.825
+156.442 25.381
+0 24.390
+
+13.081 52.797
+144.735 748
+
+0 0
+
+6.946 9.051
+7.844 354
+11.962 0
+21.258 6.990
+1.000.696 693.536
+
+Toelichting:
+
+Het saldo van de Rekening Courant Diagnose & Behandeling B.V. bedraagt 337.011 euro. Hierop is een bedrag
+ad 180.569 euro in mindering gebracht in verband met de negatieve nettovermogenswaarde van de deelneming
+
+Scauting Diagnose & Behandeling B.V.
+Over de rekening courant wordt geen rente berekend.
+
+4. Liquide middelen
+
+De specificatie is als volgt:
+Bankrekeningen
+
+Kassen
+
+Totaal liquide middelen
+
+31-dec-23 31-dec-22
+€ €
+
+780.940 672.346
+157 17
+781.097 672.363
+
+Toelichting:
+De liquide middelen staan ter vrije beschikking.
+
+Pagina 16
+
+
+Scauting Coaching en Detachering B.V.
+
+5.1.5 Toelichting op de balans per 31 december 2023
+PASSIVA
+
+5. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-23 _31-dec-22
+€ €
+Kapitaal 200 200
+Algemene en overige reserves 742.887 480.261
+Totaal eigen vermogen 743.087 480.461
+Kapitaal
+Saldo per Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-23 mutaties _31-dec-23
+€ € € €
+Kapitaal 200 0 200
+Totaal kapitaal 200 0 9) 200
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-23 bestemming mutaties _31-dec-23
+€ S € €
+Overige reserves:
+Overige reserves 480.261 262.626 0 742.887
+Totaal algemene en overige reserves 480.261 262.626 0 742.887
+
+Toelichting:
+De directie stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2023 volledig toe te voegen
+
+aan de overige reserves.
+
+Pagina 17
+
+
+Scauting Coaching en Detachering B.V.
+
+5.1.5 Toelichting op de balans per 31 december 2023
+PASSIVA
+
+6. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-dec-23 31-dec-22
+
+€ €
+Crediteuren 13.635 22.968
+Belastingen en premies sociale verzekeringen 298.864 302.032
+Te betalen vennootschapsbelasting 0 10.822
+Schulden terzake pensioenen 106.313 106.936
+Nog te betalen salarissen 52.288 66.144
+
+- Overige schulden:
+Schulden aan participanten en maatschappijen waarin wordt deelgenomen:
+
+Rekening Courant BEHAUT B.V. 71.936 0
+- Nog te betalen kosten:
+
+Algemene kosten 30.000 35.000
+- Vooruitontvangen opbrengsten:
+
+Trajectfinanciering 98.357 67.245
+Vooruitontvangen zorgbedragen 17.176 21.087
+Vakantiedagen 302.175 212.979
+Reservering loopbaanbudget 86.066 86.954
+- Overige overlopende passiva:
+
+Overige 38.213 38.575
+Totaal overige kortlopende schulden 1.115.023 970.741
+Toelichting:
+
+Vooruitontvangen zorgbedragen en trajectfinanciering betreffen opbrengsten van trajectfinanciering en
+begeleidingstrajecten die worden afgewikkeld na afloop van het boekjaar.
+
+De vakantiedagen zijn met 100k gestegen door een toename in het personeelsbestand. Maar ook door een
+vernieuwde rekenmethode.
+
+Pagina 18
+
+Scauting Coaching en Detachering B.V.
+
+5.1.5 Toelichting op de balans per 31 december 2023
+
+Algemeen
+
+7. Niet in de balans opgenomen verplichtingen, activa en regelingen
+
+Fiscale eenheid
+
+BEHAUT B.V. Scauting Coaching & Detachering B.V. en Scauting Diagnose en Behandeling B.V. zijn
+opgenomen in een fiscale eenheid voor de vennootschapsbelasting. Scauting Coaching en Detachering B.V. en
+Scauting Diagnose & Behandeling B.V. zijn opgenomen een fiscale eenheid voor de omzetbelasting. Een fiscale
+eenheid impliceert dat de vennootschappen, die tot de fiscale eenheid behoren, hoofdelijk aansprakelijk zijn voor
+
+de schulden van de fiscale eenheid.
+
+(Meerjarige) financiële verplichtingen
+
+De instelling heeft de volgende meerjarige verplichtingen uit hoofde van huurovereenkomsten.
+
+betaalbaar
+binnen 1 betaalbaar betaalbaar Totaal
+jaar 1-5 jaar na 5 jaar €
+€ € € €
+Huur hoogeveen 1-6-2018 tm 31-5-2028 67.200 229.600 - 296.800
+Huur hurdegaryp 1-3-2020 tm 28-5-2025 23.223 9.676 - 32.899
+Huur Tjalleberd 21-12-2022 tm 20-12-2030 49.787 199.147 99.574 348.508
+Totaal meerjarige verplichtingen 140.210 438.423 99.574 678.207
+
+Pagina 19
+
+BE RE |
+
+
+Oz euibeg
+
+%0'0
+
+%0'0 %0'OZ %0'0 %0'0
+BEH ph 0 0 BEV py 0 0
+vLT'OL 0 0 vLT'OL 0) 0
+ELLPLL 0 0 ELLPLL 0) 0)
+886'8- 9) e) 886'8- ) 9)
+0 0) 0 0 0 0)
+0) 0 0 0 ) lo)
+0 0) 0 0) 0 0
+Gp LZ 0) 0 Gp LZ 0) 0
+LLP EL 0) 0 LLV CL 0) 0
+YH ES 0 0 EEG 0 0
+6088 0 0 6088 0) 0
+GEZ'ZOL 0 0) GEZ ZOL 0) 0
+3 E) 3 E) 3 E)
+eAIJSe 9j9llajew eAIJIE 9JSeA Bunsnain saljejjejsur uauIe.19}
+leejor eJeqgjsuaip ejeueyew do eanaljeljsiuiwpe ue sauryoen us uomnoge6
+sagouds;fiipeg uebBuijezegyinsooA ua eyosiuyIsg -Sifiupeg
+Jay uee JaiN ue Buiseoajin ‘uajeppiw
+uieanoesjfiupeqg  -sjfupeg
+
+9JSeA ajgHazen
+
+9JSeA atopuy
+
+ebejueoredsburnliuyossy
+
+Jeqweoep LE Jed epseemjoog
+
+ueBuinliuuosje saenejnwno -
+epJeemjeyosuee -
+Jeqweoep LE Jed puejs
+
+(opres Jed) epseemyeog ui senen
+
+opjes Jed
+
+ueôuinliuyosje onsnenwno
+
+opleemjeyosuee
+uebuersenuisep -
+
+ueBuinliuyosje -
+ueBuIejsonuI -
+deelyaog joy ui saneinw
+
+Henuel | Jed epleemjoog
+ueBulnfiuyosje enanejnwno -
+
+epJeemjeyssuee -
+Henuel | Joad puejs
+
+EAIJIE AJSEA ofgozew 3YIIZIoA0o EIN 9'L'S
+
+"Na Buunoyoejzoq ue Buiyseog Buijness
+
+lg eulbeg
+
+egen
+
+AEN
+
+848'LE Z48'LE 0 0 0 0 9) 0 | Jeqweoep |E Jed epieemjeog
+820 vz BLG VZ Burwoujgep enanebou BuuepseemIyIN
+845 vo 8LG'vT- uebulweujeop jeeyjnser
+0 0 uebunJojsjeeydex
+848'LE LL8'LE 0) 0 0 0) 0) 0) L Henuef | Jed opieemjeog
+3 3 Ei 5: E) 3 3 3 3
+jeezoj uebuiep1or uejao;je u uebuiweujsap uafiddeyosjeew  uoliddeyosjeew ualiddeyosjeew uafiddeyssjeew
+9BHSAO eB1u9AO ewousBjeop elepuy uepuogen -sdaoab uepuog1an -sda016 ui
+JPJOM eBueno do uoBunepson eB14eA0 uI ueBuiwaujeeg
+UIJeeEM us do uaBuunopson ueBuiweujeed
+fnddeyosjeew
+do us
+uajuediorned
+do
+uaBuiepson
+
+VALLSY ALSVA ATAIINYNIA LHOIZEZAOAILV.LNIN £°L'S
+
+'\'a Buuoysezoq ue Buiyseog Buiness
+
+Scauting Coaching en Detachering B.V.
+
+5.1.8 Toelichting op de resultatenrekening over 2023
+
+BATEN
+
+8. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2023 2022
+
+€ €
+Opbrengsten Jeugdwet 1.429.536 1.162.540
+Opbrengsten Wmo 3.989.511 3.893.319
+Opbrengsten uit onderaanneming 701.912 497.862
+Overige zorgprestaties 207.265 112.711
+Totaal 6.328.224 5.666.433
+Toelichting:
+
+9. Subsidies
+
+De specificatie is als volgt: 2023 2022
+
+€ €
+Overige subsidies, waaronder loonkostensubsidies en EU-subsidies 0) 0
+Totaal 0 0
+Toelichting:
+
+10. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2023 2022
+€ €
+
+Overige opbrengsten (waaronder vergoeding voor uitgeleend personeel en verhuur onroerend goed en andere
+bedrijfsmatige opbrengsten):
+
+Educatie 3.222 7.250
+Detachering 59.584 74.497
+Overige bedrijfsopbrengsten 2.560 5.128
+Totaal 65.366 86.875
+Toelichting:
+
+ar ar ennen
+pe $
+
+Pagina 22
+
+Scauting Coaching en Detachering B.V.
+
+5.1.8 Toelichting op de resultatenrekening over 2023
+LASTEN
+
+11. Personeelskosten
+
+De specificatie is als volgt: 2023 2022
+€ €
+Lonen en salarissen 4.019.304 3.640.563
+Sociale lasten 684.859 592.664
+Pensioenpremies 341.619 317.040
+Intercompany loonkosten -84.388 -83.351
+- Andere personeelskosten:
+Arbodienst 36.462 29.128
+Reiskosten 185.760 172.196
+Onbelaste uitkeringen 55.679 54.108
+Scholings- en opleidingskosten 11.635 52.305
+Personeelsverzekeringen 124.742 111.067
+Overige personeelskosten 7.890 20.947
+Subtotaal 5.383.560 4.906.666
+Personeel niet in loondienst 372 1.209
+Totaal personeelskosten 5.383.932 4.907.875
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+Sociaal werk 89 87
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 89 87
+Toelichting:
+
+12. Afschrijvingen op materiële vaste activa
+
+De specificatie is als volgt: 2023 2022
+
+€ €
+Afschrijvingen:
+- materiële vaste activa 21.465 17.710
+Totaal afschrijvingen 21.465 17.710
+Toelichting:
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen náar hèt
+mutatieoverzicht onder 5.1.6. 31 120
+
+. /
+
+Pagina 23
+
+Scauting Coaching en Detachering B.V.
+
+5.1.8 Toelichting op de resultatenrekening over 2023
+13. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+Algemene kosten
+
+Cliënt- en bewonersgebonden kosten
+Onderhoud en energiekosten
+
+Kosten uitbesteding onderaannemers
+Huur en leasing
+
+Totaal overige bedrijfskosten
+
+2023 2022
+
+€ €
+232.622 207.010
+18.720 13.498
+58.814 66.486
+147.435 123.149
+163.458 150.246
+621.049 560.388
+
+Toelichting:
+
+Voor een toelichting op het honoraria van de accountant wordt verwezen naar onderdeel 17. Honoraria accountant
+
+onder 5.1.8.
+
+14. Financiële baten en lasten
+De specificatie is als volgt:
+Rentebaten
+
+Subtotaal financiële baten
+
+Rentelasten
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+2023 2022
+€ €
+
+0 0
+
+0 0
+-1.207 -5.5/9
+-1.207 -5.579
+-1.207 -5.979
+
+Toelichting:
+
+Pagina 24
+
+NEEN AAE BEI
+8 y OOR EA Rel
+
+
+Scauting Coaching en Detachering B.V.
+
+5.1.8 Toelichting op de resultatenrekening over 2023
+LASTEN
+
+15. Belastingen
+
+De specificatie is als volgt: 2023 2022
+
+€ €
+Vennootschapsbelasting 78.733 38.120
+Totaal 78.733 38.120
+Toelichting:
+
+De aangifte Vennootschapsbelasting voor de fiscale eenheid tussen BEHAUT B.V, Scauting Coaching &
+Detachering B.V. en Scauting Diagnose & Behandeling B.V. omvat een totaal te betalen vpb-last van 78.733 euro,
+en is aangegeven via BEHAUT B.V.
+
+16. Resultaat deelnemingen
+
+De specificatie is als volgt: 2023 2022
+€ €
+Resultaat deelnemingen -24,578 -155.992
+Totaal Resultaat deelnemingen -24.578 -155.992
+Toelichting:
+17. Honoraria accountant 2023 2022
+€ €
+De honoraria van de accountant over 2023 zijn als volgt:
+1 Controle van de jaarrekening 0 0
+2 Overige controlewerkzaamheden (w.o. productieverantwoordingen) 26.601 33.000
+3 Fiscale advisering 5.326 734
+4 Niet-controlediensten 34.876 34.013
+Totaal honoraria accountant 66.802 67.747
+Toelichting:
+
+De in de tabel vermelde honoraria voor de controle van de jaarrekening 2023 (2022) hebben betrekking op de totale
+honoraria voor het onderzoek van de jaarrekening 2023 (2022), ongeacht of de werkzaamheden al gedurende het
+boekjaar 2023 (2022) zijn verricht.
+
+18. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar
+deelnemingen en hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+De bezoldiging van de bestuurders en toezichthouders die in het kader van de WNT veräï
+opgenomen als bijlage in deze jaarrekening
+
+Pagina 25
+
+Scauting Coaching en Detachering B.V.
+
+5.2 OVERIGE GEGEVENS
+
+5.2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald dat het behaalde resultaat ter vrije beschikking staat van de Algemene Vergadering.
+
+5.2.2 Nevenvestigingen
+
+Scauting Coaching en Detachering B.V. heeft de volgende nevenvestigingen:
+- Tjallebert
+
+- Hurdegaryp
+
+- Assen
+
+Pagina 26
+
+/
+vR k Gs oppen Ù
+NEA
+
+Lr
+
+
+Scauting Coaching en Detachering B.V.
+
+5.2.3. WET NORMERING TOPINKOMENS (WNT)
+
+5 1 MEI 202
+
+pn
+Ee 4 Arjen à fe TSE
+
+Pagina 27
+
+
+Scautin
+
+focus op talent
+WNT-verantwoording 2023 Scauting Coaching & Detachering B.V.
+
+De WNT is van toepassing op Scauting Coaching & Detachering B.V. Het voor Scauting Coaching &
+Detachering B.V. toepasselijke bezoldigingsmaximum is in 2023 € 151.000 (Rechtspersoon of instelling
+voor zorg of jeugdhulp - klasse II).
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+dienstbetrekking vanaf de 13° maand van de functievervulling inclusief degenen die op grond van hun
+voormalige functie nog 4 jaar als topfunctionaris worden aangemerkt
+
+Gegevens 2023
+
+bedragen x € 1 A. Oostenveld W. Piek
+
+Functiegegevens Directeur Directeur
+Aanvang en einde functievervulling in 2023 01/01-31/12 01/01 — 31/12
+Omvang dienstverband (als deeltijdfactor in fte) l 1
+Dienstbetrekking? ja ja
+Bezoldiging
+Beloning plus belastbare onkostenvergoedingen 125.092 124.547
+Beloningen betaalbaar op termijn N.v.t. N.v.t.
+Subtotaal 125.092 124.547
+Individueel toepasselijke bezoldigingsmaximum 151.000 151.000
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag N.v.t. N.v.t.
+Bezoldiging 125.092 124.547
+Het bedrag van de overschrijding en de reden waarom de
+overschrijding al dan niet is toegestaan Nvt Nvt
+Toelichting op de vordering wegens on verschuldigde betaling N.v.t. N.v.t.
+Gegevens 2022
+Functiegegevens Directeur Directeur
+Aanvang en einde functievervulling in 2022 01/01 — 31/12 01/01 — 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1
+Dienst betrekking? ja ja
+Bezoldiging
+Beloning plus belastbare onkostenvergoedingen 124.778 124.811
+Beloningen betaalbaar op termijn N.v.t. N.v.t.
+Subtotaal 124.778 124811
+Individueel toepasselijke bezoldigingsmaximum 146.000 146.000
+Bezoldiging 124.778 pmm DA 8
+AE
+&
+Scauting Coaching & Detachering B.V. 0528 — 745 051 KvK : 63049384 OE
+Industrieweg 38, 7902 AB Hoogeveen info@scauting.nl BTW: NL855071096B01 amet |
+
+www.scauting.nl AGB: 92100515
+
+Scauting
+
+focus op talent
+1b. Leidinggevende topfunctionarissen zonder dienstbetrekking in de periode kalendermaand 1 t/m 12
+
+Niet van toepassing
+
+ic. Toezichthoudende topfunctionarissen
+Niet van toepassing
+
+1d. Topfunctionarissen met een totale bezoldiging van € 1.900 of minder
+Niet van toepassing
+
+ie. Topfunctionaris met een totale bezoldiging van meer dan € 1.900
+Niet van toepassing
+
+1f. Topfunctionaris met een totale bezoldiging van meer dan € 1.900 waarop de anticumulatie bepaling
+van toepassing is
+Niet van toepassing
+
+1g. Topfunctionaris met een totale bezoldiging van € 1.900 of minder waarop de anticumulatiebepaling
+van toepassing is
+
+2. Uitkeringen wegens beëindiging dienstverband aan topfunctionarissen
+
+Uitkeringen wegens beëindiging dienstverband aan topfunctionarissen met of zonder dienstbetrekking
+inclusief degenen die op grond van hun voormalige functie nog 4 jaar als topfunctionaris worden
+aangemerkt
+
+Niet van toepassing
+
+3. Overige rapportageverplichtingen op grond van de WNT
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een
+dienstbetrekking die in 2023 een bezoldiging boven het individueel toepasselijke drempelbedrag hebben
+
+ontvangen.
+
+Bezoldigingsmaxima 2023. Zie hiervoor:
+
+Bezoldigingsmaxima 2023 | Regeling | Topinkomens
+
+_5 1 MEI 202
+
+
+Scauting Coaching en Detachering B.V.
+
+5.2.4. Beoordelingsverklaring van de onafhankelijke accountant
+
+De beoordelingsverklaring van de onafhankelijke accountant is opgenomen op de
+volgende pagina.
+
+Pagina 32
+
+
+Accountants en Belastingadviseurs B.V.
+
+Postbus 551
+3430 AN Nieuwegein
+lepenhoeve 7a
+
+Aan de directie van 3438 MR Nieuwegein
+Ô 5 : Telefoon 030-600 47 77
+Scauting Coaching en Detachering B.V. Webieie waemarep.nl
+
+Industrieweg 38 E-mail info@arep.nl
+
+7902 AB HOOGEVEEN ABN AMRO 50 10 16 732
+Iban nr. NL26 ABNA 0501016732
+
+Swiftcode ABN ANL 2A
+BTW NL8063 58 828 B 01
+KvK Utrecht 30145890
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Opdracht
+Wij hebben de in dit rapport opgenomen jaarrekening 2023 van Scauting Coaching en
+
+Detachering B.V. te Hoogeveen beoordeeld.
+
+Deze jaarrekening bestaat uit de balans per 31 december 2023 en de winst- en verliesrekening over 2023
+met de toelichting, waarin zijn opgenomen een overzicht van de gehanteerde grondslagen voor financiële
+
+verslaggeving en andere toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+De directie is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het resultaat
+getrouw dient weer te geven in overeenstemming met de Regeling openbare jaarverantwoording WMG en
+voor de bijlage WNT conform de beleidsregels voor de WNT, De directie is tevens verantwoordelijk voor
+een zodanige interne beheersing als de directie noodzakelijk acht om het opmaken van de jaarreke-
+
+ning mogelijk te maken zonder afwijkingen van materieel belang als gevolg van fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Wij zijn onafhankelijk van Scauting Coaching en Detachering B.V. zoals vereist in de Verordening inzake
+de onafhankelijkheid van accountants bij assurance-opdrachten (ViO) en andere relevante onafhankelijk-
+heidsregels in Nederland. Daarnaast hebben wij voldaan aan de Verordening gedrags- en beroepsregels
+accountants (VGBA).
+
+Wij vinden dat de door ons verkregen assurance-informatie voldoende en geschikt ís als basis voor onze
+
+conclusie.
+
+Onze verantwoordelijkheid ís het geven van een conclusie over de jaarrekening op basis van onze beoor-
+deling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder de
+Nederlandse Standaard 2400 ‘Opdrachten tot het beoordelen van financiële overzichten'. Dit vereist dat
+wij voldoen aan de voor ons geldende ethische voorschriften en dat wij onze beoordeling zodanig plannen
+en uitvoeren dat wij in staat zijn te concluderen dat ons niet is gebleken dat de jaarrekening afwijkingen
+
+van materieel belang bevat.
+
+0240198, 1/2
+
+Op al onze aanbiedingen en overeenkomsten zijn van toepassing de Algemene Voorwaarden NBA 2017O, gedeponeerd bij de Griffie van de Arrondissementsrechtbank te Amsterdam op 19-06-2017 onder nummer 39/2017.
+
+AREP heeft vestigingen in Amsterdam, Nieuwegein en Barendrecht.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte mate
+van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak uit het inwinnen van
+inlichtingen bij het management en overige functionarissen van de entiteit, het uitvoeren van cijferanalyses
+
+met betrekking tot de financiële gegevens alsmede het evalueren van de verkregen informatie.
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter dan
+die uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de Nederlandse
+
+controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Conclusie
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten concluderen
+
+dat de jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling van het vermogen van
+Scauting Coaching en Detachering B.V. per 31 december 2023 en van het resultaat over 2023 in overeen-
+
+stemming met de WMG.
+
+Benadrukking ten aanzien van dat de naleving anticumulatiebepaling WNT niet is gecontroleerd
+In overeenstemming met de Regeling Controleprotocol WNT 2023 hebben wij de anticumulatiebepaling,
+
+bedoeld in artikel 1.6a WNT en artikel 5, lid 1, sub j Uitvoeringsregeling WNT, niet gecontroleerd. Dit be-
+tekent dat wij niet hebben gecontroleerd of er wel of niet sprake is van een normoverschrijding door een
+leidinggevende topfunctionaris vanwege eventuele dienstbetrekkingen als leidinggevende topfunctionaris
+
+bij ander WNT-plichtige instellingen, alsmede of de in dit kader vereiste toelichting juist en volledig is.
+
+Nieuwegein, 31 mei 2024
+
+NBV2024-2
+0240198, 2/2
+
+Scauting Coaching en Detachering B.V.
+
+5.2.4. Ondertekening van de jaarrekening
+
+Vasstelling van de jaarrekening
+
+De jaarrekening is aldus opgemaakt en vastgesteld door het bestuur c.q. de Algemene Vergadering.
+Hoogeveen, 31-05-2024
+
+Scauting Coaching en Detachering B.V.
+
+Namens deze,
+BEHAUT B.V.
+
+W. Piek A. Oostenveld
+
+Pagina 35
+
