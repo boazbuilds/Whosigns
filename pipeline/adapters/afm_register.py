@@ -77,6 +77,68 @@ def parse_register(xml_bytes: bytes) -> list[dict]:
     return kantoren
 
 
+# Wie een OOB-vergunning heeft, en waarom dat een lijst met de hand is.
+#
+# Een vergunning voor wettelijke controles bij organisaties van openbaar belang
+# is zeldzaam en zwaar: jarenlang precies zes kantoren. Komt er een bij, dan is
+# dat nieuws — of een fout in de bron. Allebei wil je zien; geen van beide mag
+# er ongemerkt in glijden, want deze vlag bepaalt op de site wie er bij de
+# grootste opdrachten mag tekenen.
+#
+# De weekelijkse snapshot draait vanzelf en commit vanzelf. Zonder deze lijst is
+# er niets dat de verandering tegenhoudt of zelfs maar opmerkt.
+OOB_VERWACHT = {
+    "13000015": "Deloitte Accountants B.V.",
+    "13000121": "KPMG Accountants N.V.",
+    "13000291": "PricewaterhouseCoopers Accountants N.V.",
+    "13000311": "BDO Audit & Assurance B.V.",
+    "13000408": "Forvis Mazars Accountants N.V.",
+    "13020186": "EY Accountants B.V.",
+}
+
+# Vermeldingen die de bron als OOB opgeeft en die we gezien én beoordeeld hebben.
+# Een regel hier is een bewuste handtekening, geen manier om de test stil te
+# krijgen: zet erbij wat je hebt nagekeken en wanneer.
+OOB_AFWIJKINGEN = {
+    "13020232": (
+        "Stichting Autoriteit Financiële Markten, in de export sinds 15-8-2026 met "
+        "wettelijkecontrole=Ja. De AFM verléént deze vergunningen en is zelf geen "
+        "accountantsorganisatie; elders in deze pipeline staat ze dan ook als "
+        "'geen accountantskantoor' (resultaat_gunningen.csv). Vrijwel zeker een "
+        "fout in het register zelf, nagekeken op 17-8-2026 tegen de officiële "
+        "XML-export — die zegt het echt, dus wij nemen het over zoals het er "
+        "staat en verzinnen er niets bij. Sinds 17-8-2026 staat ze daardoor op de "
+        "site als zevende OOB-kantoor, naast de Big Four, BDO en Forvis Mazars. "
+        "Nog te beslissen: die vlag hier onderdrukken, of wachten tot de AFM haar "
+        "eigen export corrigeert. Zolang dat openstaat is dít de vindplaats."
+    ),
+}
+
+
+def onverwachte_oob(kantoren: list[dict]) -> list[dict]:
+    """Kantoren met een OOB-vergunning die we niet kennen en niet eerder zagen.
+
+    Leeg is goed. Staat er iets in, dan is het register veranderd op een punt
+    waar dit project niet mag gokken.
+    """
+    bekend = set(OOB_VERWACHT) | set(OOB_AFWIJKINGEN)
+    return [
+        k
+        for k in kantoren
+        if k["oob_vergunning"] == "ja" and k["afm_nummer"] not in bekend
+    ]
+
+
+def verdwenen_oob(kantoren: list[dict]) -> list[str]:
+    """Kantoren uit OOB_VERWACHT die niet meer in het register staan.
+
+    Ook dat is nieuws: een ingetrokken OOB-vergunning is de zwaarste maatregel
+    die de AFM kan nemen.
+    """
+    nu = {k["afm_nummer"] for k in kantoren if k["oob_vergunning"] == "ja"}
+    return [f"{nummer} {naam}" for nummer, naam in OOB_VERWACHT.items() if nummer not in nu]
+
+
 def schrijf_seed(kantoren: list[dict], pad: Path = SEED_PAD) -> None:
     pad.parent.mkdir(parents=True, exist_ok=True)
     with pad.open("w", newline="", encoding="utf-8") as f:
@@ -91,3 +153,11 @@ if __name__ == "__main__":
     aantal_oob = sum(1 for k in kantoren if k["oob_vergunning"] == "ja")
     print(f"{len(kantoren)} kantoren weggeschreven naar {SEED_PAD}")
     print(f"waarvan {aantal_oob} met OOB-vergunning")
+    for kantoor in onverwachte_oob(kantoren):
+        print(
+            f"  LET OP: {kantoor['afm_nummer']} {kantoor['naam']} staat nieuw als OOB "
+            f"in het register (sinds {kantoor['vergunning_sinds']}). Nakijken en, als "
+            f"het klopt, opnemen in OOB_VERWACHT — anders in OOB_AFWIJKINGEN."
+        )
+    for weg in verdwenen_oob(kantoren):
+        print(f"  LET OP: {weg} heeft geen OOB-vergunning meer in het register.")
