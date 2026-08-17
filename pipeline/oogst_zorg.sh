@@ -69,6 +69,19 @@ print(",".join(RAPPORT_KOLOMMEN))' "$WORTEL/pipeline" 2>/dev/null)"
 [ -n "$KOLOMMEN" ] ||
   echo "  let op: kolommen van laad_zorg niet op te vragen; oud rapport in .cache wordt niet herkend"
 
+# De kopregel zoals je hem wilt vergelijken: zonder de \r van een CRLF-bestand.
+#
+# Python's csv.writer schrijft standaard \r\n, dus het rapport op schijf eindigt
+# elke regel op \r. `print(",".join(...))` doet dat niet. Zonder dit stuk vergelijk
+# je "...onzekerheid\r" met "...onzekerheid" en is een goed rapport dus nooit goed.
+#
+# Dat is niet theoretisch: op 17-8-2026 wees de eerste versie van deze controle
+# een volkomen correcte repo-kopie af. Gevolg zou zijn geweest dat de oogst met
+# een leeg rapport verderging terwijl de lijst met bekeken organisaties bleef
+# staan -- negen opdrachten weg en achtenveertig organisaties voorgoed
+# overgeslagen. Precies de schade die deze functie moest voorkomen.
+kopregel() { head -1 "$1" | tr -d '\r'; }
+
 opzij() {
   echo "  $1"
   mv "$RAPPORT" "${RAPPORT}.oud"
@@ -83,7 +96,7 @@ opzij() {
 herstel_rapport() {
   local bewaard="$OOGST/zorg_${BOEKJAAR}.csv"
   if [ -s "$RAPPORT" ] && [ -n "$KOLOMMEN" ] &&
-     [ "$(head -1 "$RAPPORT")" != "$KOLOMMEN" ]; then
+     [ "$(kopregel "$RAPPORT")" != "$KOLOMMEN" ]; then
     opzij "rapport in .cache heeft niet de kolommen die laad_zorg schrijft; opzij als ${RAPPORT}.oud"
   fi
   [ -s "$bewaard" ] || return 0
@@ -91,12 +104,12 @@ herstel_rapport() {
   # komen: op 17-8-2026 committeerde de oogst twee keer een rapport in het oude
   # formaat voordat iemand het doorhad. Zonder deze regel zet elke herstart die
   # fout keurig terug.
-  if [ -n "$KOLOMMEN" ] && [ "$(head -1 "$bewaard")" != "$KOLOMMEN" ]; then
+  if [ -n "$KOLOMMEN" ] && [ "$(kopregel "$bewaard")" != "$KOLOMMEN" ]; then
     echo "  repo-kopie van dit boekjaar heeft oude kolommen; niet teruggezet"
     return 0
   fi
   if [ -s "$RAPPORT" ]; then
-    if [ "$(head -1 "$RAPPORT")" != "$(head -1 "$bewaard")" ]; then
+    if [ "$(kopregel "$RAPPORT")" != "$(kopregel "$bewaard")" ]; then
       opzij "rapport in .cache wijkt af van de repo-kopie; opzij als ${RAPPORT}.oud"
     elif [ "$(wc -l < "$RAPPORT")" -ge "$(wc -l < "$bewaard")" ]; then
       return 0

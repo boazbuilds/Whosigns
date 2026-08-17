@@ -46,22 +46,46 @@ def check(omschrijving: str, voorwaarde: bool) -> None:
 
 
 def functies_uit_script() -> str:
-    """Knipt `opzij` en `herstel_rapport` uit het script.
+    """Knipt `kopregel`, `opzij` en `herstel_rapport` uit het script.
 
-    Vanaf `opzij() {` tot vlak vóór de losse aanroep `herstel_rapport` onderaan.
-    Verdwijnt of hernoemt een van de twee, dan faalt deze test met een duidelijke
+    Vanaf de eerste van de drie tot vlak vóór de losse aanroep `herstel_rapport`
+    onderaan. Verdwijnt of hernoemt er een, dan faalt deze test met een duidelijke
     melding in plaats van stilletjes niets te testen.
+
+    Het beginpunt wordt gezocht en niet vastgelegd op één naam: toen `kopregel`
+    erbij kwam stond die vóór `opzij`, viel buiten de knip, en faalde elke test
+    op "command not found" -- ook met een script dat het gewoon goed deed.
     """
     tekst = SCRIPT.read_text(encoding="utf-8")
-    begin = tekst.index("opzij() {")
+    posities = []
+    for naam in ("kopregel", "opzij", "herstel_rapport"):
+        plek = tekst.find(f"{naam}() {{")
+        if plek < 0:
+            raise AssertionError(f"de functie {naam} staat niet meer in het script")
+        posities.append(plek)
+    begin = min(posities)
     einde = re.search(r"^herstel_rapport$", tekst[begin:], re.MULTILINE)
     if einde is None:
         raise AssertionError("de aanroep van herstel_rapport staat niet meer in het script")
     return tekst[begin : begin + einde.start()]
 
 
-def draai(kopregel_cache, regels_cache, kopregel_repo, regels_repo, verwerkt=True):
+def draai(
+    kopregel_cache,
+    regels_cache,
+    kopregel_repo,
+    regels_repo,
+    verwerkt=True,
+    einde="\r\n",
+    einde_repo=None,
+):
     """Zet een situatie klaar en draait de echte functie erop los.
+
+    `einde` is standaard CRLF, want zo staan de bestanden er echt: python's
+    csv.writer schrijft \\r\\n. Deze test schreef eerst alleen LF, en juist
+    daardoor kwam er een versie doorheen die elke correcte repo-kopie afwees --
+    de vergelijking zag "...onzekerheid\\r" naast "...onzekerheid". Een test die
+    nettere bestanden maakt dan de werkelijkheid bewijst niets.
 
     Geeft terug wat er ná afloop in .cache staat: de kopregel van het rapport
     (of None als het er niet meer is), het aantal regels, of het opzij-bestand
@@ -77,14 +101,16 @@ def draai(kopregel_cache, regels_cache, kopregel_repo, regels_repo, verwerkt=Tru
         bekeken = cache / "verwerkt_2023.txt"
         bewaard = oogst / "zorg_2023.csv"
 
+        def schrijf(pad, kop, aantal, regeleinde):
+            regels = [kop] + [f"rij{i}" for i in range(aantal)]
+            pad.write_bytes((regeleinde.join(regels) + regeleinde).encode("utf-8"))
+
         if kopregel_cache is not None:
-            inhoud = [kopregel_cache] + [f"rij{i}" for i in range(regels_cache)]
-            rapport.write_text("\n".join(inhoud) + "\n", encoding="utf-8")
+            schrijf(rapport, kopregel_cache, regels_cache, einde)
         if verwerkt:
             bekeken.write_text("12345678\n", encoding="utf-8")
         if kopregel_repo is not None:
-            inhoud = [kopregel_repo] + [f"rij{i}" for i in range(regels_repo)]
-            bewaard.write_text("\n".join(inhoud) + "\n", encoding="utf-8")
+            schrijf(bewaard, kopregel_repo, regels_repo, einde_repo or einde)
 
         script = f"""
 set -uo pipefail
@@ -186,6 +212,32 @@ alleen_repo = draai(None, 0, GOED, 12)
 check(
     "zonder .cache wordt de repo-kopie teruggezet",
     alleen_repo["kop"] == GOED and alleen_repo["regels"] == 13,
+)
+
+# --- regeleindes ---------------------------------------------------------------
+# Het echte bestand is CRLF (csv.writer), de kolommenlijst uit python is LF. Wie
+# die twee rauw vergelijkt wijst elk correct rapport af. Dat gebeurde op
+# 17-8-2026 na een rollback: de repo-kopie met negen opdrachten werd geweigerd,
+# en de oogst zou met een leeg rapport zijn verdergegaan terwijl de lijst met
+# achtenveertig bekeken organisaties bleef staan.
+for naam, einde in (("CRLF", "\r\n"), ("LF", "\n")):
+    uit = draai(None, 0, GOED, 9, einde=einde)
+    check(
+        f"een repo-kopie met {naam}-regeleindes wordt herkend en teruggezet",
+        uit["kop"] == GOED and uit["regels"] == 10,
+    )
+    uit = draai(GOED, 4, None, 0, einde=einde)
+    check(
+        f"een goed rapport met {naam}-regeleindes blijft staan",
+        uit["kop"] == GOED and not uit["opzij"],
+    )
+
+# Gemengd: .cache van de lader (CRLF) naast een repo-kopie die ooit door iets
+# anders is geschreven (LF). Zelfde kolommen, dus dat is geen reden voor alarm.
+gemengd = draai(GOED, 3, GOED, 40, einde="\r\n", einde_repo="\n")
+check(
+    "gelijke kolommen met verschillende regeleindes gelden als gelijk",
+    not gemengd["opzij"] and gemengd["regels"] == 41,
 )
 
 # Niets in .cache en geen repo-kopie: een schone start, zonder klachten.
