@@ -414,8 +414,78 @@ Een adaptieve variant — eerst 200 dpi, en alleen bij "controle zonder kantoor"
 overdoen op 300 — vangt het risico af tegen een fractie van de kosten, maar raakt
 wel de best bewaakte code van dit project.
 
+## `doelpopulatie()` vindt vandaag nul organisaties (gemeten 17-8-2026)
+
+De datasetroute leeft op een cachebestand. `doelpopulatie()` losgelaten op de
+`.ods`-bestanden zelf geeft **nul** organisaties — voor boekjaar 2022 én voor
+2023, de jaargang die "werkt". Dat 2023 toch een populatie heeft komt doordat
+`doelpopulatie_uit_cache()` eerst naar `.cache/doelpopulatie_2023.csv` kijkt, en
+dat bestand is van 30 juli. In CI blijft het staan omdat `zorgdata.yml` het via
+`actions/cache@v4` bewaart, samen met de `.ods`-bestanden.
+
+Zolang die cache leeft, merkt niemand iets. Verdwijnt hij — GitHub gooit caches
+weg die een week niet zijn gebruikt, en een sleutelwijziging doet hetzelfde —
+dan berekent de workflow stilletjes een lege doelpopulatie en laadt niets.
+
+**De oorzaak.** De koprijen zijn tweeregelig: `"<Nederlands label>\n<variabele>"`.
+Zo staat het KvK-nummer in `RowData_01` kolom 2 als:
+
+    'KvkNummer\nExternalOrganizationId'
+
+en de soort verklaring in `RowData_15` kolom 130 als:
+
+    'Soort accountantsverklaring\nqAccVerklSoort_qAccVerklSoort'
+
+`_zoek_kolommen` doet `k.strip().lower().startswith(patroon)` op de héle cel,
+terwijl de patronen in `VELDPATRONEN` en `VERKLARINGSOORT_PATRONEN` juist de
+variabelenamen zijn — die staan ná de nieuwe regel. Geen enkel patroon matcht
+dus, `met_controle` blijft leeg, en er komt niets uit. De `.csv` van 30 juli
+bewijst dat dit ooit wél werkte; de vergelijking op de kop is daarna kapot
+gegaan.
+
+**Wat een reparatie moet halen.** Matchen op de laatste regel van de kop
+(`k.strip().lower().split("\n")[-1]`) is gemeten en komt er bijna:
+
+| | via laatste regel | `doelpopulatie_2023.csv` (30-7) |
+|---|---|---|
+| organisaties | 1.140 | 1.140 |
+| dezelfde KvK-verzameling | ja | — |
+| `kvk_nummer` gevuld | 1.140 | 1.140 |
+| `oordeel_gerapporteerd` | 995 | 995 |
+| `verklaring_datum` | 1.036 | 1.036 |
+| `honorarium_controle` | 121 | 121 |
+| `wissel_gerapporteerd` | 31 True, rest leeg | 31 True, **301 False**, rest leeg |
+
+Alles gelijk op één veld na: de 301 expliciete `False` bij
+`wissel_gerapporteerd` worden leeg. De 31 échte wissels — het signaal waar het
+om gaat — zijn in beide gelijk. "Geen wissel" en "onbekend" zijn niet hetzelfde,
+dus dit is nog niet af: `qAccountantWissel` matcht kennelijk een andere kolom
+dan de versie die de csv maakte. Dat uitzoeken hoort bij de reparatie.
+
+`doelpopulatie_2023.csv` is daarbij de toetssteen: een goede fix reproduceert
+dat bestand veld voor veld. Niet weggooien.
+
+**Niet meteen gerepareerd**, omdat `laad_zorg.py` deze module importeert en er
+op 17-8 een oogst van boekjaar 2023 liep. Die gebruikt `--uit-archief` en raakt
+`doelpopulatie()` niet aan, maar een module wijzigen onder een draaiende oogst
+is die dag al twee keer duur geweest.
+
+**Nevenbevinding.** `DATASET_URL` kent alleen 2022, 2023 en 2024. Voor 2019,
+2020, 2021 en 2025 bestaat er dus geen datasetroute, en daarmee ook geen
+`oordeel_gerapporteerd` — de vergelijking tussen wat de bron meldt en wat wij in
+de verklaring lezen kan voor die jaren niet bestaan. Op 17-8-2026 had alleen
+boekjaar 2023 die vergelijking: 741 opdrachten met beide oordelen, waarvan 15
+verschillen (2,0%). Elf van die vijftien zijn "beperking gelezen, goedkeurend
+gemeld" tegen drie andersom — te scheef voor toeval, en het nakijken waard zodra
+de oogst van 2023 die verklaringen zelf heeft gelezen.
+
 ## Open punten
 
+- [ ] `_zoek_kolommen` repareren (zie hierboven): matchen op de variabelenaam ná
+      de nieuwe regel, en `qAccountantWissel` zo dat de 301 `False` terugkomen.
+      Toetsen tegen `doelpopulatie_2023.csv`
+- [ ] `DATASET_URL` aanvullen voor 2019–2021 en 2025, of vastleggen dat die
+      jaargangen niet bestaan en de vergelijking daar dus nooit komt
 - [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`
       e.d. checken of dat per jaargang hetzelfde heet)
 - [ ] Join-logica RowData-sheets bevestigen (hoe organisatie- en documentvelden
