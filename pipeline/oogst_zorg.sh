@@ -52,15 +52,52 @@ mkdir -p "$CACHE" "$OOGST"
 # precies het soort stille schade dat dit project niet wil: het rapport gaat
 # regelrecht de database in.
 #
-# Vandaar twee controles. Wijkt de kopregel af, dan gaat het bestand opzij.
-# Heeft de repo-kopie meer rijen, dan heeft die de herstart overleefd en wint hij.
+# De eerste versie hiervan vergeleek de kopregel met die van de repo-kopie. Dat
+# dekt een boekjaar dat al eens geoogst is, maar voor een boekjaar dat nog niet
+# in de repo staat viel de functie meteen terug op "niets te herstellen" en bleef
+# het oude bestand in .cache liggen. Op 17-8-2026 begon de oogst van 2023 zo
+# bovenop een resultaat_2023.csv van 29 juli: 22 rijen met zeven kolommen, waar
+# de oogst er elf achteraan schreef. Voor 2024 en 2025 lag hetzelfde klaar.
+#
+# Daarom is de kopregel van de schrijver nu de maatstaf, niet die van de
+# repo-kopie: RAPPORT_KOLOMMEN in laad_zorg.py zegt welke kolommen het hóren te
+# zijn, ook als er van dit boekjaar nog nooit iets geoogst is.
+KOLOMMEN="$(python3 -c 'import sys
+sys.path.insert(0, sys.argv[1])
+from laad_zorg import RAPPORT_KOLOMMEN
+print(",".join(RAPPORT_KOLOMMEN))' "$WORTEL/pipeline" 2>/dev/null)"
+[ -n "$KOLOMMEN" ] ||
+  echo "  let op: kolommen van laad_zorg niet op te vragen; oud rapport in .cache wordt niet herkend"
+
+opzij() {
+  echo "  $1"
+  mv "$RAPPORT" "${RAPPORT}.oud"
+  # Het rapport en de lijst met bekeken organisaties horen bij elkaar. Gaat het
+  # rapport opzij, dan moet die lijst mee: "bekeken" betekent hier "nooit meer",
+  # dus een lijst die hoort bij rijen die we net weglegden zou organisaties
+  # stilzwijgend overslaan. Precies de schade die we hier proberen te vermijden.
+  [ -e "$VERWERKT" ] && mv "$VERWERKT" "${VERWERKT}.oud"
+  return 0
+}
+
 herstel_rapport() {
   local bewaard="$OOGST/zorg_${BOEKJAAR}.csv"
+  if [ -s "$RAPPORT" ] && [ -n "$KOLOMMEN" ] &&
+     [ "$(head -1 "$RAPPORT")" != "$KOLOMMEN" ]; then
+    opzij "rapport in .cache heeft niet de kolommen die laad_zorg schrijft; opzij als ${RAPPORT}.oud"
+  fi
   [ -s "$bewaard" ] || return 0
+  # De repo-kopie moet dezelfde toets doorstaan. Die kan zelf uit een oude oogst
+  # komen: op 17-8-2026 committeerde de oogst twee keer een rapport in het oude
+  # formaat voordat iemand het doorhad. Zonder deze regel zet elke herstart die
+  # fout keurig terug.
+  if [ -n "$KOLOMMEN" ] && [ "$(head -1 "$bewaard")" != "$KOLOMMEN" ]; then
+    echo "  repo-kopie van dit boekjaar heeft oude kolommen; niet teruggezet"
+    return 0
+  fi
   if [ -s "$RAPPORT" ]; then
     if [ "$(head -1 "$RAPPORT")" != "$(head -1 "$bewaard")" ]; then
-      echo "  rapport in .cache heeft andere kolommen; opzij als ${RAPPORT}.oud"
-      mv "$RAPPORT" "${RAPPORT}.oud"
+      opzij "rapport in .cache wijkt af van de repo-kopie; opzij als ${RAPPORT}.oud"
     elif [ "$(wc -l < "$RAPPORT")" -ge "$(wc -l < "$bewaard")" ]; then
       return 0
     fi

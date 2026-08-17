@@ -74,6 +74,26 @@ from supabase_client import Supabase, SupabaseFout  # noqa: E402
 CACHE = Path(__file__).resolve().parent / ".cache"
 BRON_URL = "https://digimv13.desan.nl/archive/search"
 
+# De kolommen van het oogstrapport, op één plek.
+#
+# Deze lijst stond drie keer los in de pipeline: hier, in laad_zorg_rapport.py
+# en in nakijk_ocr.py. Dat ging goed zolang niemand er iets aan veranderde.
+# Op 17-8-2026 bleek wat het kost als dat wél gebeurt: in .cache lag nog een
+# resultaat_2023.csv van 29 juli met de kolommen van tóen (zeven, zonder
+# kantoor_sleutel, type_opdracht, grond_beperking en continuïteitsonzekerheid).
+# De oogst zag een niet-leeg bestand, schreef er rijen met elf kolommen
+# achteraan, en committeerde dat mengsel. Zo'n rapport gaat regelrecht de
+# database in.
+#
+# Alles wat het rapport schrijft of leest hoort deze lijst te gebruiken, en het
+# oogstscript vraagt hem hier op om een oud bestand in .cache te herkennen.
+# Verandert de lijst, dan verandert hij overal tegelijk — dat is het punt.
+RAPPORT_KOLOMMEN = [
+    "kvk", "naam", "plaats", "boekjaar", "kantoor", "kantoor_sleutel",
+    "afm_nummer", "type_opdracht", "oordeel", "grond_beperking",
+    "continuiteitsonzekerheid",
+]
+
 # Woorden die in honderden zorgnamen voorkomen en dus niets onderscheiden.
 # Alleen gebruikt om een bétere zoekterm te kiezen, niet om iets weg te gooien.
 GENERIEK = {
@@ -355,11 +375,7 @@ def main() -> int:
         # laad_zorg_rapport.py — het dure werk (downloaden, lezen, OCR) hoeft dan
         # niet opnieuw. `kantoor_sleutel` is daarbij de koppelsleutel; zie de
         # opmerking bij kantoor_id_per_sleutel waarom dat niet het afm_nummer is.
-        schrijver.writerow([
-            "kvk", "naam", "plaats", "boekjaar", "kantoor", "kantoor_sleutel",
-            "afm_nummer", "type_opdracht", "oordeel", "grond_beperking",
-            "continuiteitsonzekerheid",
-        ])
+        schrijver.writerow(RAPPORT_KOLOMMEN)
 
     gevonden = 0
     mislukt = 0
