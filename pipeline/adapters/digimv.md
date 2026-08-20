@@ -443,32 +443,50 @@ dus, `met_controle` blijft leeg, en er komt niets uit. De `.csv` van 30 juli
 bewijst dat dit ooit wél werkte; de vergelijking op de kop is daarna kapot
 gegaan.
 
-**Wat een reparatie moet halen.** Matchen op de laatste regel van de kop
-(`k.strip().lower().split("\n")[-1]`) is gemeten en komt er bijna:
+**De reparatie is één regel, en hij is uitgemeten** (20-8-2026). In
+`_zoek_kolommen` wordt de koprij vergeleken op de laatste regel in plaats van op
+de hele cel:
+
+```python
+laag = [k.strip().lower().split("\n")[-1].strip() for k in cellen]
+```
+
+Gedraaid op een kopie van de module, tegen `pipeline/.cache/digimv2023.ods`
+(md5 `fced5017a331049f4e67509bb4668c6e`), en rij voor rij vergeleken met
+`doelpopulatie_2023.csv`:
 
 | | via laatste regel | `doelpopulatie_2023.csv` (30-7) |
 |---|---|---|
 | organisaties | 1.140 | 1.140 |
 | dezelfde KvK-verzameling | ja | — |
-| `kvk_nummer` gevuld | 1.140 | 1.140 |
-| `oordeel_gerapporteerd` | 995 | 995 |
-| `verklaring_datum` | 1.036 | 1.036 |
-| `honorarium_controle` | 121 | 121 |
-| `wissel_gerapporteerd` | 31 True, rest leeg | 31 True, **301 False**, rest leeg |
+| `oordeel_gerapporteerd` gevuld | 995 | 995 |
+| `verklaring_datum` gevuld | 1.036 | 1.036 |
+| `honorarium_controle` gevuld | 121 | 121 |
+| `wissel_gerapporteerd` | 31 True, 301 False, 808 leeg | 31 True, 301 False, 808 leeg |
+| velden met een verschil | **geen** — 1.140 rijen × 14 velden identiek | — |
 
-Alles gelijk op één veld na: de 301 expliciete `False` bij
-`wissel_gerapporteerd` worden leeg. De 31 échte wissels — het signaal waar het
-om gaat — zijn in beide gelijk. "Geen wissel" en "onbekend" zijn niet hetzelfde,
-dus dit is nog niet af: `qAccountantWissel` matcht kennelijk een andere kolom
-dan de versie die de csv maakte. Dat uitzoeken hoort bij de reparatie.
+**Het openstaande punt over de 301 `False` is er geen.** De notitie van 17-8 zei
+dat die bij matchen-op-de-laatste-regel leeg werden. Dat reproduceert niet. Wat
+wél is nagegaan: de twee kopieën in de cache (`digimv2023.ods` en
+`digimv2023_1.ods`) zijn byte-identiek, en matchen mét of zónder de afsluitende
+`.strip()` levert dezelfde kolom op. Het verschil zat dus in de meting van toen,
+niet in de gegevens. Hier opgeschreven zodat niemand gaat zoeken naar een fout
+die er niet is.
 
-`doelpopulatie_2023.csv` is daarbij de toetssteen: een goede fix reproduceert
-dat bestand veld voor veld. Niet weggooien.
+De wisselvraag zit in boekjaar 2023 maar op één plek: sheet `RowData_15`,
+kolom 132, kop `'Bent u van accountant gewisseld?\nqAccountantWissel_qAccVerklVorm'`.
+Over alle 6.131 rijen met een code staat daar 917× "nee", 75× "ja" en 5.139×
+niets; de doelpopulatie pikt daar 301 + 31 van op. Er is geen tweede kandidaat
+waarmee `qaccountantwissel` zou kunnen verwarren.
 
-**Niet meteen gerepareerd**, omdat `laad_zorg.py` deze module importeert en er
-op 17-8 een oogst van boekjaar 2023 liep. Die gebruikt `--uit-archief` en raakt
-`doelpopulatie()` niet aan, maar een module wijzigen onder een draaiende oogst
-is die dag al twee keer duur geweest.
+`doelpopulatie_2023.csv` blijft de toetssteen: een goede fix reproduceert dat
+bestand veld voor veld — en deze doet dat. Niet weggooien.
+
+**Nog niet toegepast**, om dezelfde reden als op 17-8: `laad_zorg.py` importeert
+deze module en er loopt een oogst van boekjaar 2023. Die draait op
+`--uit-archief` en raakt `doelpopulatie()` niet aan, maar een module wijzigen
+onder een draaiende oogst is die dag al twee keer duur geweest. Zodra de oogst
+stilligt is het de regel hierboven, en daarna de meting nog eens overdoen.
 
 **Nevenbevinding.** `DATASET_URL` kent alleen 2022, 2023 en 2024. Voor 2019,
 2020, 2021 en 2025 bestaat er dus geen datasetroute, en daarmee ook geen
@@ -481,9 +499,11 @@ de oogst van 2023 die verklaringen zelf heeft gelezen.
 
 ## Open punten
 
-- [ ] `_zoek_kolommen` repareren (zie hierboven): matchen op de variabelenaam ná
-      de nieuwe regel, en `qAccountantWissel` zo dat de 301 `False` terugkomen.
-      Toetsen tegen `doelpopulatie_2023.csv`
+- [ ] `_zoek_kolommen` repareren: matchen op de variabelenaam ná de nieuwe regel.
+      De regel staat uitgeschreven hierboven en is op 20-8-2026 uitgemeten — hij
+      reproduceert `doelpopulatie_2023.csv` rij voor rij, alle 1.140 × 14 velden,
+      inclusief de 301 `False`. Toepassen zodra de oogst van 2023 stilligt, want
+      `laad_zorg.py` importeert deze module
 - [ ] `DATASET_URL` aanvullen voor 2019–2021 en 2025, of vastleggen dat die
       jaargangen niet bestaan en de vergelijking daar dus nooit komt
 - [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`
