@@ -126,6 +126,10 @@ def opdracht_uit_rapportrij(
         "oordeel": (rij.get("oordeel") or "").strip() or None,
         "grond_beperking": (rij.get("grond_beperking") or "").strip() or None,
         "continuiteitsonzekerheid": rij.get("continuiteitsonzekerheid") == "ja",
+        # Leeg wordt null en geen lege tekst: leeg betekent hier "niet
+        # vastgesteld" en niet "iemand zonder naam". `.get` want de vijf
+        # rapporten van vóór 20-8-2026 hebben deze kolom niet.
+        "tekenend_accountant": (rij.get("tekenend_accountant") or "").strip() or None,
         "bron_id": bron_id,
     }
 

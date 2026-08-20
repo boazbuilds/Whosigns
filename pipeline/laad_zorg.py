@@ -92,6 +92,10 @@ RAPPORT_KOLOMMEN = [
     "kvk", "naam", "plaats", "boekjaar", "kantoor", "kantoor_sleutel",
     "afm_nummer", "type_opdracht", "oordeel", "grond_beperking",
     "continuiteitsonzekerheid",
+    # Achteraan, en dat is geen smaak: laad_zorg_rapport leest op naam, maar
+    # nakijk_ocr schrijft met een DictWriter op volgorde. Een kolom ertussen
+    # schuift oude rapporten stil op.
+    "tekenend_accountant",
 ]
 
 # Woorden die in honderden zorgnamen voorkomen en dus niets onderscheiden.
@@ -530,6 +534,7 @@ def main() -> int:
                 type_opdracht, resultaat["oordeel"],
                 resultaat["grond_beperking"] or "",
                 "ja" if resultaat["continuiteitsonzekerheid"] else "",
+                resultaat.get("tekenend_accountant") or "",
             ])
             rapport.flush()
 
@@ -590,6 +595,10 @@ def main() -> int:
                     # WNT-intragroepdetachering gaat en niet om de jaarrekening.
                     "grond_beperking": resultaat["grond_beperking"],
                     "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
+                    # Leeg moet null worden en geen lege tekst: de kolom is vrij
+                    # tekst, en "" zou op de site een naam met nul letters worden
+                    # in plaats van een streepje. Zelfde les als bij `oordeel`.
+                    "tekenend_accountant": resultaat.get("tekenend_accountant") or None,
                     "bron_id": bron_id,
                 }
                 # Honoraria en de zelfgerapporteerde wisselvlag zijn cijfers over
