@@ -165,8 +165,37 @@ frontend op echte data → Fase 3 signalen v1 → Fase 4 verbreden (DUO + transp
 ## 9. Guardrails
 
 - **Alleen openbare data in v1**; label `publiek` vs. `zelf_aangeleverd` overal verplicht.
-- **AVG:** sla uitsluitend het kantóór op, nooit namen van tekenend accountants of andere
-  natuurlijke personen. Ook niet in ruwe extractie-output bewaren.
+- **AVG:** de tekenend accountant mág worden opgeslagen en getoond, mits de naam uit
+  een openbare bron komt: de gedeponeerde controleverklaring zelf, een eigen publicatie
+  van het kantoor, of een openbaar register (AFM, NBA). Besluit van de opdrachtgever,
+  20-8-2026. Hiervóór stond hier het omgekeerde ("nooit namen van tekenend accountants
+  of andere natuurlijke personen"); dat is bewust omgedraaid, want wie tekent is precies
+  wat dit naslagwerk wil laten zien.
+
+  Let op waaróm het mag, want dat is *niet* "accountants vallen buiten de AVG" — zo'n
+  uitzondering per beroepsgroep bestaat niet. De AVG geldt gewoon. De grondslag is het
+  gerechtvaardigd belang (art. 6 lid 1 sub f) van een publiek naslagwerk over wie welke
+  jaarrekening tekent, versterkt doordat de naam al openbaar ís: de organisatie is
+  wettelijk verplicht de verklaring te deponeren, en de accountant staat in het openbare
+  accountantsregister. Mogelijk valt het daarnaast onder de journalistieke uitzondering
+  (art. 43 UAVG). Wie deze regel ooit citeert: citeer de grondslag erbij, niet alleen de
+  conclusie.
+
+  Wat hiermee níét is toegestaan:
+  - **Andere natuurlijke personen.** Bestuurders, toezichthouders, medewerkers,
+    contactpersonen: niet opslaan, niet tonen, niet loggen.
+  - **Afleiden of gokken.** Alleen de naam die in het stuk als ondertekenaar staat.
+    Twijfel gaat naar `review_queue` en nooit stil de database in: een verkeerde naam
+    onder een niet-goedkeurend oordeel is geen leemte maar een beschuldiging.
+  - **Zonder vindplaats.** Dezelfde `bron`-eis als voor elk ander feit.
+
+  Wat erbij hoort vóór dit veld live gaat:
+  - een privacyalinea op de site — welk gegeven, waarvandaan, waarvoor, en hoe je
+    bezwaar maakt of een correctie vraagt;
+  - een adres waar dat naartoe kan, en correctie binnen redelijke termijn;
+  - een besluit over een eigen pagina per accountant. Die is journalistiek het meest
+    waard (partnerroulatie is bij OOB's wettelijk verplicht en dus controleerbaar), maar
+    hij maakt van een naam-bij-een-opdracht een profiel. Nog open.
 - **KVK:** geëxtraheerde feiten gebruiken, maar geen volledige gedeponeerde documenten
   publiek herpubliceren; geen de-anonimisering van open datasets; leveringsvoorwaarden
   checken vóór livegang van KvK-gebaseerde data.
