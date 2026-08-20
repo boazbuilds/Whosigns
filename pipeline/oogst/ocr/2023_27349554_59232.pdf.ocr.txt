@@ -1,0 +1,920 @@
+# whosigns-ocr v1 grootte=12561634 dpi=300 paginas=20
+Stichting HVP Zorg
+
+‘s-Gravenhage
+
+Jaarrekening 2023
+
+Pagina 9
+
+Stichting HVP Zorg
+
+'s-Gravenhage
+
+Balans per 31 december 2023
+
+(voor resultaatsbestemming)
+
+31 dec 2023 31 dec 2022
+ACTIVA
+Vaste activa
+Materiële vaste activa
+Inventaris 619 1.165
+Computersystemen 31.296 2.974
+Verbouwingen 5.768 7.028
+37.683 11.167
+Vlottende activa
+Vorderingen en overlopende activa
+Handelsdebiteuren 480.496 704.753
+Vorderingen op groepsmaatschappijen 175.439 0
+Rekening courant vordering 128.755 0
+Overige vorderingen 179.326 202981
+964.016 997.734
+Liquide middelen
+Rekening courant bank 120.615 257.738
+120.615 257.738
+1.122.314 1.266.639
+
+Pagina 10
+
+Stichting HVP Zorg
+
+‘s-Gravenhage
+
+Balans per 31 december 2023
+
+(voor resultaatsbestemming)
+
+31 dec 2023 31 dec 2022
+
+PASSIVA
+Eigen vermogen
+resultaat boekjaar 427.053 418.593
+resultaat vrg bkjr SA 8.460
+
+432.262 427.053
+Kortlopende schulden
+Schulden aan leveranciers 373.663 397.088
+Belastingen en premies sociale verzekeringen 202.106 216.136
+Rekening courant schuld 0 147.998
+Overige schulden en overlopende passiva 114.283 66.076
+Overlopende passiva 0 12.288
+
+690.052 839.586
+
+1.122.314 1.266.639
+
+Pagina 11
+
+Stichting HVP Zorg
+
+'s-Gravenhage
+
+Resultatenrekening over 2023
+
+2023 2022
+Omzet 6.225.581 5157557
+Kostprijs van de omzet -1.687.266 -1.756.004
+Brutomarge 4.538.315 3.401.553
+Lonen en salarissen 3.793.806 2.913.813
+Afschrijvingen 3.638 1.723
+Huisvestingskosten 239.885 233.109
+Autokosten 3.090 2.782
+Kantoorkosten 246.193 194.982
+Verkoopkosten 8.202 6.454
+Algemene kosten 237.666 39.131
+Totaal kosten 4.532.480 3.391.994
+Bedrijfsresultaat 5.835 9,559
+Financiële baten en (lasten) -626 -1.099
+Resultaat voor belastingen 5.209 8.460
+
+Pagina 12
+
+Suchting HVT Zorg
+
+‘s-Gravenhage
+
+Kasstroom over 2023
+
+2023
+Bedrijfstesultaat 5.835
+Aanpassingen voor:
+Afschrijvingen (en overige waardeveranderingen) 3.638
+Mutatie voorzieningen 0
+3.638
+Veranderingen in werkkapitaal:
+Mutatie operationele vorderingen 33.718
+Mutatie voorraden en onderhanden werk 0
+Mutatie operationele schulden -149.534
+-115.816
+Kasstroom uit bedrijfsoperaties -10e.343
+Ontvangen /betaalde rentes -626
+Ontvangen dividenden en opbrengsten effecten 0
+Waardeverandering vordering vaste activa 0
+Ontvangsten /uitgaven wegens buitengewone baten /lasten 0
+Betaalde winstbelasting, 0
+Mutatie deelnemingen 0
+Mutatie aandeel derden 0
+Mutatie for 0
+Overige baten/lasten 0
+-626
+Kasstroom uit operationele activiteiten -10C.969
+(Des)investeringen in inmateriele vaste activa 0
+(Des)investeringen in materiele vaste activa -26.516
+(Des)investeringen in financiele vaste activa 0
+Waarvan afschrijvingen -3.638
+Kasstroom uit investeringsactiviteiten ‚ -30.154
+Mutatie rekening courantschuld kredietinstellingen 0
+Mutatie vermogencomponenten 0
+Mutatie langlopende schulden 0
+Kasstroom uit financieringsactiviteiten 0
+Netto kasstroom LSD
+Koers- en omrekeningsverschillen op geldmiddelen 0
+Mutatie geldmiddelen -13-.123
+
+Pagina 13
+
+Stichting HVP Zorg
+
+‘s-Gravenhage
+
+Grondslagen voor de waardering en resultaatbepaling
+
+Algemeen
+
+Activiteiten
+
+De activiteiten van Stichting H.V.P. Zorg (geregistreerd onder KvK-nummer 27349554), statutair gevestigd te
+s Gravenhage, bestaan voornamelijk uit het verlenen van thuiszorg.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelstegister
+
+De vennootschap ís feitelijk en statutair gevestigd aan de Melis Stokelaan 2496 W te 's Gravenhage en is ingeschreven bij het
+handelsregister onder nummer 27349554.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening ís opgesteld ín overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 3W en de
+Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen die uitgegeven zijn door de Raad voor de
+jaarverslaggeving. Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsptijs
+of de actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties wordt
+verwezen naar de toelichting.
+
+Grondslagen voor de waardering van activa en passiva
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de cumulatieve
+afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden
+gebaseerd op de geschatte economische levensduur en worden berekend op basis van een vast perzentage
+
+van de verkrijgingsprijs, rekening houdend met een eventuele residuwaarde. Er wordt afgeschreven vanaf
+van ingebruikneming.
+
+Op terreinen wordt nict afgeschreven.
+
+De materiële vaste activa waarvan de vennootschap en haar groepsmaatschappijen, krachtens cen
+financiële leascovereenkomst de economische eigendom heeft, worden geactiveerd. De uit de
+financiële leascovereenkomst voortkomende verplichting wordt als schuld verantwoord. De in de
+toekomstige leasetermijnen begrepen interest wordt gedurende de looptijd van de financiële
+leascovereenkomst ten laste van het resultaat gebracht.
+
+Pagina 14
+
+Stichting HVP Zorg
+
+‘s-Gravenhage
+
+Vorderingen en overlopende activa
+
+De vorderingen worden opgenomen tegen nominale waarde, onder aftrek van de noodzakelijk geachte
+voorzieningen voor het risico van oninbaarheid. Deze voorzieningen worden bepaald op basis van
+indtviduele beoordeling van de vorderingen.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf nraanden.
+Rekening-courant schulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+Opbrengsten van diensten worden opgenomen naar rato van de mate waarin de diensten zijn verricht.
+De kostprijs van deze diensten worden aan dezelfde periode toegerekend.
+
+Brutomarge
+
+De brutomarge bestaat uit het verschil tussen de netto-omzet en de kostprijs van de omzet, alsmede uit de
+overige bedrijfsopbrengsten.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrexking hebben.
+
+(Financiële baten en lasten |
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rertevoet van de
+desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de verantwoorde
+transactiekosten op de ontvangen leningen.
+
+GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+Pagina 15
+
+Toelichting op de balans per 31 december 2023
+
+Materiële vaste activa
+
+Een overzicht van de materiele vaste activa is onderstaand opgenomen:
+
+Inventaris
+
+Aanschaffingen
+Cum. afschrijving
+Boekwaarde begin
+
+(Des)investeringen
+Afschrijvingen
+Mutaties
+Boekwaarde einde
+Computersystemen
+Aanschaffingen
+Cum. afschrijving
+Boekwaarde begin
+(Des)investeringen
+Afschrijvingen
+Mutaties
+Boekwaarde einde
+Verbouwingen
+Aanschaffingen
+Cum. afschrijving
+Boekwaarde begin
+(Des)investeringen
+Afschrijvingen
+
+:
+
+Mutaties
+
+Boekwaarde einde
+
+Pagina 16
+
+Stichting HVP Zorg
+‘s-Gravenhage
+
+7.188
+-6.023
+1.165
+
+714
+-1.260
+-546
+
+619
+
+17.464
+-14,490
+2.974
+29.741
+-1,419
+28.322
+
+31.296
+
+14.000
+-6.972
+
+7.028
+-1.260
+-1.260
+
+5.768
+
+Toelichting op de balans per 31 december 2023
+
+Vorderingen en overlopende activa
+
+Handelsdebiteuren
+
+debiteuren
+
+Vorderingen op groepsmaatschappijen
+nog te ontv facturen
+
+Rekening courant vordering
+RC H.V.P. Zorg BV
+
+Overige vorderingen
+nog te factureren omzet
+Waarborgsommen
+personele leningen
+
+Liquide middelen
+
+Rekening courant bank
+nog te ontvangen subsidics
+
+ING Bank
+
+31 dec 2023
+
+480.496
+
+480.496
+
+175.439
+
+175.439
+
+128.755
+
+128.755
+
+158.802
+4.500
+16.024
+
+179.326
+
+119.907
+708
+
+120.615
+
+De liquide middelen staan ter vrije beschikkingaan de vennootschap.
+
+Pagina 17
+
+Stichting F VP Zorg
+'s-Giavenhage
+
+31 dec 2022
+
+704.753
+704.753
+
+288.481
+4.500
+—_____
+292.981
+
+256.090
+1.648
+257.738
+
+Stichting L VP Zorg
+
+‘s-Gravenhage
+
+Toelichting op de balans per 31 december 2023
+
+Eigen vermogen
+
+resultaat boekjaar 328.141 418.593
+
+vermogensmutaties ivm correcties voorgaande jaren 98.912
+
+resultaat vrg bkjr 5.209 8.460
+432.262 427.053
+
+Kortlopende schulden
+
+31 dec 2023 31 dec 2022
+Crediteuren 373.663 163.828
+Schulden aan leveranciers 373.663 163.828
+Belastingen en premies sociale verzekeringen
+afdracht loonheffing, 209.908 216.136
+Pensioenen -7.802 0
+202.106 216.136
+Rekening courant schuld
+RC H.V.P. Zorg BV 0 147.998
+0 147.998
+Overige schulden en overlopende passiva
+vakantiegeld /-dagen 114.283 62.431
+reservering verzuimverzekering 0 3.645
+114.283 66.076
+Overlopende passiva
+Overlopende passiva 0 8.449
+Te betalen pers. verzekeringen 0 3.839
+0 12.288
+
+Niet uit de balans blijkende verplichtingen
+
+(Meerjarige) huurverplichtingen
+
+Er zijn huurverplichtingen aangegaan voor een termijn van 5 jaar. De totale kosten voor 2023 bedraagt € 240.00
+
+Pagina 18
+
+Toelichting op de resultatenrekening over 2023
+
+Netto-omzet
+
+Omzet ZVW
+
+Omzet WLZ
+
+Omzet diversen
+
+Omzet PGB
+
+Subsidies (exclusief WMO en Jeugdzorg)
+
+Omzet overige
+
+Kosten van uitbesteed werk en andere externe kosten
+Werk Derden
+
+Lonen en salarissen
+
+lonen en salarissen
+
+teservering eindejaarsuitkering
+loonsubsidies
+
+reservering vakantiegeld
+reservering TVT
+
+Loonbeslag
+
+ontvangen ziekengeld
+
+Het bestuur ontvangt een bruto loon welke binnen de normen van de WNT liggen.
+
+Sociale lasten
+ingehouden sociale lasten
+
+Pagina 19
+
+2023
+
+3.119.702
+1.322.041
+69.063
+95.539
+330.470
+
+1.288.766
+
+6.225.581
+
+1.687.266
+
+1.687.266
+
+2625.550
+183.921
+-142.918
+201.481
+-1.747
+-152
+-25.228
+
+2.840.907
+
+570.537
+
+570.537
+
+Stichting HVP Zorg
+
+‘s-Gravenhage
+8
+
+2022
+
+2.679.052
+1.034.467
+70.439
+99.073
+121.608
+1.152.918
+5.157.557
+
+1.756.004
+1.756.004
+
+2.598.269
+0
+-256.090
+-176.665
+3.624
+-7.834
+
+0
+2.161.304
+
+414.003
+414.003
+
+Stichting HVP Zorg
+‘s-Gravenhage
+
+Toelichting op de resultatenrekening over 2023
+
+2023 2022
+Pensioenen
+pensioenpremie 229.199 206.875
+229.199 206.875
+Overige personeelskosten
+Kosten arbodienst 24.089 22.483
+Onbelaste vergoeding WKR 8.727 0
+Kantine kosten 0 178
+Opleidingskosten 63.559 31.017
+overige personeelskosten 43.388 71.864
+onkostenvergoedingen 13.400 89
+153.163 131.631
+
+Personeel
+
+Gedurende het jaar 2023 waren er gemiddeld 93 werknemers in dienst op basis van een volledig dienstverband.
+
+In het 2021 waren dat er 85.
+
+Afschrijvingen materiële vaste activa
+
+afschrijving verbouwingen 1.260 1.260
+beveiligingskosten 59 463
+onderhoud pand 1.419 0
+3.638 1.723
+
+Huisvestingskosten
+Huur 253.288 240.084.
+Doorbelaste huur -14.203 -9.150
+servicekosten pand 800 2.175
+239.885 233.109
+
+Er ís in 2022 huur doorbelast vanuit HVP Zorg B.V. voor een bedrag van € 240.000
+
+Pagina 20
+
+Stichting HVP Zorg
+
+‘s-Gravenhage
+
+Toelichting op de resultatenrekening over 2023
+
+2023 2022
+Autokosten
+Onderhoud 3.018 2.148
+Parkeerkosten 64 489
+overige verkoopkosten 8 145
+
+3.090 2.782
+Kantoorkosten
+portikosten, postzegels ed 108 0
+Kantoorartikelen 5.400 5.572
+vaste telefonie-internct 8.331 9.778
+abonnementen/contributies 38.530 61.597
+software en licenties 193.824 118.035
+
+246.193 194.982
+
+Verkoopkosten
+Representatie, relatiegeschenken 8.197 5.960
+Giften / Sponsoring 5 172
+Drukwerk 0 191
+Overige verkoopkosten 0 131
+
+8.202 6.454
+Algemene kosten
+advieskosten juridisch 23.520 25.879
+administratiekosten 13.461 16.586
+verzekeringspremies 18.677 6.219
+advieskosten /administrati 140.585 65.404
+Ádvieskosten 15.225 9,500
+Activiteiten patienten 7.072 3.133
+Certificerings kosten 4.153 24.837
+bedrijfsverzekeringen 725 1.832
+overige algemene kosten 14.342 11.814
+Vrijval gereserveerde kosten -94 -127.932
+boetes fiscus (nict aftr) 0 1.859
+
+237.666 39.131
+
+Pagina 21
+
+Stichting HVP Zorg
+
+'s-Gravenhage
+2
+
+Toelichting op de resultatenrekening over 2023
+
+2023 2022
+
+Rentebaten en soortgelijke opbrengsten
+Rente personeelsleningen 0 58
+0 58
+
+Rentelasten en soortgelijke kosten
+
+tente en kosten bank 941 1.130
+overige rentebaten -785 27
+tente r/c HVP Zorg BV 470 0
+626 1.157
+
+Pagina 22
+
+Stichting HVP Zorg
+
+‘s-Gravenhage
+
+Overige toelichting
+
+Pagina 23
+
+Stichting HVP Zorg
+
+‘s-Gravenhage
+Overige toelichting
+
+Accountantsverklaring
+Gezien de omvang (conform artikel 396 lid 1 boek 2 BW) is de vennootschap niet controleplichtig, desondanks
+samenstelverklaring toegevoegd.
+
+Statutaire bepalingen inzake winstbestemming
+
+Omtrent de verdeling van het resultaat ís ín de statuten het volgende bepaald:
+
+De winst staat ter beschikking van de algemene vergadering van aandeelhouders die deze geheel of gedeeltelijk 4
+bestemmen tot vorming van -of storting in- één of meer algemene of bijzondere reservefondsen.
+
+Voorstel tot bestemming van het resultaat over het boekjaar 2023
+
+Voorgesteld wordt om het resultaat over 2023 in overeenstemming met de statuten als volgt te bestemmen:
+Toevoeging aan de Stichtingsreserves: € 5.209.
+
+Dit voorstel ís reeds in de jaarrekening verwerkt.
+
+Pagina 24
+
+WNT-verantwoording 2023 Stichting HVP Zorg
+
+De WNT is van toepassing op Stichting HVP Zorg. Het voor Stichting HVP Zorg toepasselijke
+bezoldigingsmaximum is in 2023 € 151.000. Uit de vastgestelde puntentelling voor het jaar 2023
+is gebleken dat het bezoldigingsmaximum in klasse II valt.
+
+1. Bezoldiging topfunctionarissen
+
+la. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende tepfunctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfurctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling inclusief degenen die op
+grond van hun voormalige functie nog 4 jaar als topfunctionaris worden aangemerkt?
+
+Gegevens 2023.
+
+bedragen X €1 ä S. Polat
+
+Functiegegevens? Bstuursvoorzitter Bestuuurslid Kee Bestuurslid
+Aanvang® en einde functievervulling in 01-01 t/m 31-12 01-01 t/m 31-12 01-01 t/m 31-12
+2022
+
+Omvang dienstverband (als 1,0 0,8 0,8
+deeltijdfactor in fte)’
+
+Dienstbetrekking?® ja ja Ja
+Bezoldiging® KO de
+Beloning plus belastbare € 63.976 € 41.880 € 41.619
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn Nihil Nihil Nihil
+Subtotaal € 63.976 € 41.880 € 41,619
+Individueel t lijk
+
+herten € 148.000 € 118.400 € 118.400
+bezoldigingsmaximum
+
+-/- huldi i
+
+/- Onverschuldigd betaald en nog niet NIE, Nvt. Nuv.t.
+terugontvangen bedrag!*
+
+Bezoldiging € 63.976 € 41.880 € 41.619
+
+Het bedrag van de overschrijding en de
+reden waarom de overschrijding al dan N.v.t. N.v.t. N.v.t
+niet is toegestaan!?
+
+Toelichting op de vordering wegens
+
+N.v.t. N.v.t. N.v.t.
+onverschuldigde betaling!
+
+Gegevens 2022'°
+
+bedragen XE 1 S. Polat
+
+Functiegegevens® Bestuursvoorzitter Bestuurslid 5 Bestuurslid
+Aanvang en einde functievervulling in 15-01 t/m 31-12 01-01 t/m 31-12 01-01 t/m 31-12
+2021
+
+Omvang dienstverband (als 1,0 0,8 0,8
+deeltijdfactor in fte)”
+
+Dienstbetrekking?® ja ja ja
+
+
+Bezoldiging® EN SE EE
+
+Beloning plus belastbare
+
+68.314 43.389 39.259
+onkostenvergoedingen
+Beloningen betaalbaar op termijn Nihil Nihil Nihil
+Subtotaal 68.314 43.389 39.259
+Individueel toepasselijke
+bezoldigingsmaximum!®
+Bezoldiging 68.314 43.389 39.259
+
+Invulinstructies bij tabel ta
+
+1
+
+Op de laatste pagina van dit verantwoordingsmodel is een link opgenomen naar een overzicht met alle
+(sectorale) bezoldigingsmaxima in 2023.
+
+Maak een keuze uit: het algemeen bezoldigingsmaximum / bezoldigingsmaximum voor het onderwijs, klasse [A-
+G], complexiteitspunten per criterium: [OPSOMMEN] / het bezoldigingsmaximum voor de cultuurfondsen / het
+bezoldigingsmaximum voor media-instellingen plafond [A-D] / het bezoldigingsmax mum voor
+ontwikkelingssamenwerking / het bezoldigingsmaximum voor de woningcorporaties, klasse [A-H] / het
+bezoldigingsmaximum voor zorg en jeugdhulp, klasse [I-V], totaalscore [6-15] punzen / het
+bezoldigingsmaximum voor zorgverzekeraars, [Meer dan 1.000.000 verzekerden / “ussen de 300.000 en
+1.000.000 verzekerden / Minder dan 300.000 verzekerden].
+
+Deze tabel is bedoeld voor de volgende leidinggevende topfunctionarissen:
+
+a) Leidinggevende topfunctionarissen met een dienstbetrekking.
+
+b) Leidinggevende topfunctionarissen zonder dienstbetrekking vanaf de dertiende kalendermaand van de
+functievervulling (voor de eerste twaalf maanden van de functievervulling door een leidinggevende
+topfunctionaris zonder dienstbetrekking gebruikt u tabel 1b).
+
+c) Topfunctionarissen die als zodanig worden aangemerkt op basis van een ezrder dienstverband als
+
+leidinggevende of toezichthoudende topfunctionaris bij dezelfde WNT-insteling (zie hierna de uitleg bij
+invulinstructie 5).
+
+Wat bedoeld wordt met een leidinggevende of toezichthoudende topfunctionaris is terug te vinden in de artikelen
+4 en 5 Beleidsregels WNT 2023.
+
+Deze tabel dient ook te worden ingevuld indien de bezoldiging voor de functie van topfunctionaris € 1.900 of
+minder bedraagt, maar de totale bezoldiging (d.w.z. de bezoldiging voor de functie van topfunctionaris bij de
+WNT-instelling plus de ontvangen bezoldiging voor nevenwerkzaamheden bij de WMT-instelling en/of voor
+werkzaamheden bij een gelieerde rechtspersoon) meer dan € 1.900 bedraagt. Zie voor uitleg omtrent het begrip
+‘totale bezoldiging’ artikel 5, eerste lid, onder k, Uitvoeringsregeling WNT.
+
+Sinds 1 januari 2018 is een functionaris na het neerleggen van zijn/haar functie als topfunctionaris nog voor een
+periode van vier jaar als leidinggevende topfunctionaris genormeerd. Dit geldt vanef het tijdstip dat de functie
+niet langer wordt vervuld als topfunctionaris en waarbij:
+a. De functie als topfunctionaris
+
+° __op of na 1 januari 2018 is ingegaan (formele startdatum van de functie) o*
+
+* _ vóór 1 januari 2018 is ingegaan (formele startdatum van de functie) en or of na 1 januari 2018 is
+
+verlengd, én
+
+b. De functionaris de functie als topfunctionaris voor een periode van ten minste twaalf kalendermaanden
+aaneengesloten heeft vervuld, én
+c. De functionaris na het neerleggen van zijn functie als topfunctionaris bij dezelfde rechtspersoon een
+dienstverband bekleedt anders dan een functie als topfunctionaris.
+
+Van een dienstverband zoals hierboven bedoeld onder c, is sprake indien dit dienstzerband aanvangt binnen
+twaalf kalendermaanden na beëindiging van de functie als topfunctionaris.
+
+In voorkomende gevallen dient in een voetnoot bij de omschrijving van deze functi= te worden vermeld tot
+welke datum de functionaris als topfunctionaris in de WNT-verantwoording zal worden opgenomen en in verband
+met welke eerdere functie als leidinggevende of toezichthoudende topfunctionaris. Hiervoor dient in de voetnoot
+de volgende tekst te worden gebruikt; ‘Functionaris wordt aangemerkt als topfunctonaris tot uiterlijk <datum>
+in verband met eerdere functie als <omschrijving leidinggevende of toezichthoudende topfunctie>'
+
+Voorbeeld: In de tabel staat als functieomschrijving “adviseur*” met als voetnoot.
+
+* Functionaris wordt aangemerkt als topfunctionaris tot uiterlijk 30-4-2026 in verband met eerdere functie als
+CFO.
+
+
+Invulinstructies bij tabel ta
+
+Als de topfunctionaris bij dezelfde rechtspersoon of instelling in hetzelfde kalenderjaar twee vergelijkbare
+functies als topfunctionaris vervult waarvoor bovendien een gelijk bezoldigingsmaximum geldt, mag de
+bezoldiging van beide functies bij elkaar worden opgeteld om vast te stellen of aan het toepasselijke
+bezoldigingsmaximum is voldaan. Dit kunnen twee opeenvolgende vergelijkbare functies zijn of twee
+vergelijkbare functies die op hetzelfde moment worden vervuld.
+
+Voor topfunctionarissen zonder dienstbetrekking vult u als aanvangsdatum de eerste dag van de
+functievervulling van de dertiende kalendermaand in, indien deze datum in 2023 la3.
+
+De deeltijdfactor is minimaal 0,025 fte en maximaal 1,0 fte. Als de deeltijdfactor gedurende het jaar is
+
+gewijzigd, dient u de gewogen gemiddelde deeltijdfactor op te nemen (berekend near rato van het aantal
+maanden).
+
+Zie voor een topfunctionaris in dienstbetrekking ook https://www.topinkomens.nl/cocumenten/vragen-en-
+antwoorden/hoe-wordt-de-deeltijdfactor-voor-een-topfunctionaris-in-dienstbetrekk nq-bepaald
+
+Voor een topfunctionaris zonder dienstbetrekking vanaf de 13% kalendermaand zie ook
+https://www.topinkomens.nl/documenten/vragen-en-antwoorden/stappenplan-indien-de-deeltijdfactor-niet-is-
+vastgelegd-voor-een-topfunctionaris-zonder-dienstbetrekking-vanaf-boekjaar-202C
+
+Hieronder dient tevens te worden verstaan een topfunctionaris meteen fictieve dienstbetrekking zoals bedoeld
+in de zin van de Wet op de loonbelasting 1964. Als het een topfunctionaris met eer (fictieve) dienstbetrekking
+betreft, vult u hier ja’ in. Als het een topfunctionaris zonder dienstbetrekking betreft vanaf de 13° maand van de
+functievervulling als bedoeld in artikel 2.1, vierde lid, WNT, dan vult u hier ‘nee! in.
+
+Zie artike! 2 Uitvoeringsregeling WNT voor een niet limitatief overzicht van de componenten die wel en niet tot
+de bezoldiging in de zin van de WNT worden gerekend bij een topfunctionaris in dienstbetrekking.
+
+Zie artikel 2a Uitvoeringsregeling WNT voor een niet limitatief overzicht van de componenten die wel en niet tot
+de bezoldiging in de zin van de WNT worden gerekend bij een topfunctionaris zonder dienstbetrekking. Zo wordt
+de btw bijvoorbeeld niet tot de bezoldiging gerekend.
+
+10
+
+Het individueel toepasselijke bezoldigingsmaximum is het bezoldigingsmaximum herrekend naar de omvang en
+de duur van het dienstverband van de betreffende topfunctionaris. De berekening 5 als volgt:
+x-a-b
+
+AAS
+Waarbij: x = het voor de WNT-instelling toepasselijke bezoldigingsmaximum, a = deeltijdfactor (maximaal 1,0
+fte en minimaal 0,025 fte) en b = het aantal kalenderdagen (niet: werkdagen) tussen aanvang en einde van de
+functievervulling, in het kalenderjaar. Hierbij dient in voorkomende gevallen reken ng te worden gehouden met
+het feit dat een schrikkeljaar 366 dagen heeft.
+
+Individueel toepasselijk bezoldigingsmaximum =
+
+11
+
+Wanneer het subtotaal het individueel toepasselijke bezoldigingsmaximum overscfrijdt, is het meerdere
+onverschuldigd betaald, tenzij de overschrijding gedekt wordt door bijvoorbeeld overgangsrecht. Hier hoeven
+uitsluitend onverschuldigd betaalde bedragen te worden opgenomen die op het mement van vaststelling van de
+jaarrekening nog niet volledig zijn terugbetaald. Is echter bijvoorbeeld de teveel betaalde beloning op dat
+moment reeds terugbetaald, dan kunt u bij ‘beloning plus belastbare onkostenvercoedingen’ het bedrag
+opnemen waarop het onverschuldigde betaalde maar inmiddels terugbetaalde bedrag reeds in mindering is
+gebracht. Hierdoor hoeft in het financieel verslaggevingsdocument geen vordering te worden opgenomen. Zie
+ook artikel 5, zesde lid, onderdeel b, Uitvoeringsregeling WNT.
+
+12
+
+Het subtotaal minus het individueel toepasselijke bezoldigingsmaximum is de overschrijding. Alleen als er geen
+sprake is van een overschrijding vult u hier “*n.v.t.” in.
+
+13
+
+Bij de toelichting van de vordering die ontstaat door de onverschuldigde betaling dent in ieder geval te worden
+opgenomen van wie het bedrag wordt teruggevorderd. Dit kan alleen de topfuncticnaris zijn, maar indien het
+een topfunctionaris zonder dienstbetrekking betreft die ter beschikking is gesteld coor een derde, dient de
+vordering daarnaast ook gericht te zijn op deze derde die de topfunctionaris ter beschikking stelt. Voorbeelden
+van deze derde zijn een detacheringsbureau of een management BV.
+
+Alleen als er geen sprake is van een vordering wegens een onverschuldigde betaling vult u hier “n.v.t.” in.
+
+14
+
+Hier dient u in voorkomend geval de vergelijkende gegevens over het voorafgaance kalenderjaar 2022 op te
+nemen van een topfunctionaris die u in kalenderjaar 2022 verantwoordt in deze tabel. Het opnemen van
+vergelijkende gegevens is aan de orde, voor zover deze persoon in het hele kalencerjaar 2022 of een gedeelte
+daarvan aangemerkt dient te worden als topfunctionaris van uw WNT-instelling. Ir dat geval kunt u de relevante
+gegevens uit deze tabel uit uw WNT-verantwoording 2022 hier overnemen als vergelijkende gegevens, voor
+
+3
+
+
+Invulinstructies bij tabel ta
+
+zover die gegevens niet gecorrigeerd dienen te worden voor vastgestelde fouten (ir dat geval vermeldt u
+natuurlijk de juiste gegevens). Indien de betreffende persoon pas in het kalenderjaar 2022 als topfunctionaris
+van uw WNT-instelling wordt of moet worden aangemerkt, vult u bij de vergelijkende gegevens over
+kalenderjaar 2022 “n.v.t.” in.
+
+Vult u gegevens in voor een topfunctionaris zonder dienstbetrekking vanaf de 13e maand van de
+functievervulling? Ga voor het invullen van vergelijkende gegevens over 2022 dan als volgt te werk:
+
+Indien de periode kalendermaand 1 t/m 12 eindigde en de periode vanaf kalencermaand 13 aanving in 2023,
+neemt u de gegevens over de periode kalendermaand 1 t/m 12 op in tabel 1b. _n het deel ‘Gegevens 2022’
+van tabel 1a volstaat u met een verwijzing naar tabel 1b.
+
+Indien de periode kalendermaand 1 t/m 12 eindigde en de periode vanaf kalencermaand 13 aanving in 2022,
+vult u het deel ‘Gegevens 2022’ voor de periode vanaf kalendermaand 13 van de functievervulling in tabel 1a
+in op de reguliere wijze zoals u ook voor leidinggevende topfunctionarissen met dienstbetrekking doet. Voor
+de periode kalendermaand 1 t/m 12 zijn de vergelijkende gegevens zoals opgenomen in tabel 1a deels niet
+beschikbaar, omdat voor deze periode een andere normering geldt met deels andere te verantwoorden
+gegevens die bovendien ook niet gelijk hoeven te lopen met een kalenderjaar (zie tabel 1b). Aangezien de
+normering en de daaraan te relateren bezoldiging over kalendermaand 1 t/m 12 van de functievervulling niet
+gelijk lopen met een kalenderjaar passen deze gegevens niet in tabel 1a dat uitgaat van een kalenderjaar.
+Over deze periode van kalendermaand 1 t/m 12 zijn derhalve, in de hier beschreven situatie dat de wijze van
+normering wijzigt gedurende het kalenderjaar, niet alle in tabel 1a gevraagde vergelijkende gegevens
+beschikbaar en hoeven derhalve over deze periode ook niet verantwoord te worden. U kunt in deze situatie
+volstaan met het invullen van de vergelijkende gegevens vanaf de 13e kalende-maand van de
+functievervulling in 2022.
+
+Indien geheel 2022 al uitsluitend sprake was van functievervulling vanaf kalencermaand 13, vult u in tabel
+La in het deel ‘Gegevens 2022’ op de reguliere wijze de over 2022 gerapporteerde vergelijkende gegevens in
+zoals u ook voor leidinggevende topfunctionarissen met dienstbetrekking doet.
+
