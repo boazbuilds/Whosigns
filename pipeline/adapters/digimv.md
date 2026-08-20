@@ -482,11 +482,34 @@ waarmee `qaccountantwissel` zou kunnen verwarren.
 `doelpopulatie_2023.csv` blijft de toetssteen: een goede fix reproduceert dat
 bestand veld voor veld — en deze doet dat. Niet weggooien.
 
-**Nog niet toegepast**, om dezelfde reden als op 17-8: `laad_zorg.py` importeert
-deze module en er loopt een oogst van boekjaar 2023. Die draait op
-`--uit-archief` en raakt `doelpopulatie()` niet aan, maar een module wijzigen
-onder een draaiende oogst is die dag al twee keer duur geweest. Zodra de oogst
-stilligt is het de regel hierboven, en daarna de meting nog eens overdoen.
+**Toegepast op 20-8-2026**, zodra de oogst van boekjaar 2023 klaar was (1.879
+organisaties, 833 opdrachten). De meting is daarna overgedaan met de échte
+module in plaats van een kopie: 1.140 organisaties, nul velden verschil met
+`doelpopulatie_2023.csv`.
+
+**Wat het losmaakt, en wat nog niet.** Boekjaar 2022 gaf hiervoor nul
+organisaties en geeft er nu 289 — gemeten op `pipeline/.cache/digimv2022_1.ods`,
+en dat is één deel van een meerdelige export, dus het echte aantal ligt hoger.
+Belangrijker dan het aantal is wat eruit komt:
+
+| veld | 2022 (deel 1) | 2023 |
+|---|---|---|
+| organisaties | 289 | 1.140 |
+| `honorarium_controle` | 100 | 121 |
+| `honorarium_overig` | 66 | — |
+| `honorarium_fiscaal` | 29 | — |
+| `verklaring_datum` | 196 | 1.036 |
+| `wissel_gerapporteerd` | 288 | 332 |
+| `rechtsvorm` | 289 | — |
+| `oordeel_gerapporteerd` | **0** | 995 |
+| `omzet` | **0** | — |
+
+Honoraria over 2022 waren er tot vandaag helemaal niet; nu wel. Maar twee velden
+blijven leeg, en dat is geen toeval: `bestandAccVerklSoortControleVerkl` en
+`qBatenZorg_0` heten in de jaargang 2022 kennelijk anders. Dat hoort bij het open
+punt "kolominspectie 2018–2022 en 2024" hieronder en is met deze reparatie niet
+opgelost — alleen zichtbaar geworden. Zolang dat zo is bestaat de vergelijking
+tussen gemeld en gelezen oordeel alleen voor 2023.
 
 **Nevenbevinding.** `DATASET_URL` kent alleen 2022, 2023 en 2024. Voor 2019,
 2020, 2021 en 2025 bestaat er dus geen datasetroute, en daarmee ook geen
@@ -499,11 +522,11 @@ de oogst van 2023 die verklaringen zelf heeft gelezen.
 
 ## Open punten
 
-- [ ] `_zoek_kolommen` repareren: matchen op de variabelenaam ná de nieuwe regel.
-      De regel staat uitgeschreven hierboven en is op 20-8-2026 uitgemeten — hij
-      reproduceert `doelpopulatie_2023.csv` rij voor rij, alle 1.140 × 14 velden,
-      inclusief de 301 `False`. Toepassen zodra de oogst van 2023 stilligt, want
-      `laad_zorg.py` importeert deze module
+- [x] `_zoek_kolommen` gerepareerd (20-8-2026): matchen op de variabelenaam ná de
+      nieuwe regel. Reproduceert `doelpopulatie_2023.csv` rij voor rij, alle
+      1.140 × 14 velden
+- [ ] Jaargang 2022: `oordeel_gerapporteerd` en `omzet` komen er niet uit, ook
+      niet ná de reparatie. De veldnamen wijken af; zie de tabel hierboven
 - [ ] `DATASET_URL` aanvullen voor 2019–2021 en 2025, of vastleggen dat die
       jaargangen niet bestaan en de vergelijking daar dus nooit komt
 - [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`

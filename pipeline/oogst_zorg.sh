@@ -209,7 +209,7 @@ Tussenstand van pipeline/oogst_zorg.sh. Het lezen van de verklaring-pdf's draait
 buiten GitHub Actions om; dit bestand gaat er via 'Zorgoogst inladen' in een paar
 minuten in. Zie docs/draaiboek-acties.md.
 
-Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Co-Authored-By: Claude <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01Rb6HsTuXQ7L6FFCgPSwN1y" || return 0
   # Duwen mag mislukken (netwerk, gelijktijdige push); de volgende ronde probeert
   # het opnieuw en de commit staat er dan al.
