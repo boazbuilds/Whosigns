@@ -16,11 +16,34 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 
 from kantoorclienten import (  # noqa: E402
+    KVK_AFGELEIDE_GASTHEREN,
     BronGeweigerd,
     controleer_vindplaats,
     html_naar_tekst,
     noemt_kantoor,
 )
+
+# De afspraak met de opdrachtgever, hier uitgeschreven zodat de test hem bewaakt
+# en niet alleen herhaalt wat de code toevallig doet. Stond er ooit één versie
+# van deze lijst in de code, dan liep hij achter: op 20-8-2026 ontbraken de
+# laatste zes.
+UITGESLOTEN_VOLGENS_AFSPRAAK = {
+    "kvk.nl",
+    "company.info",
+    "companyinfo.nl",
+    "drimble.nl",
+    "opencorporates.com",
+    "bedrijfsdata.nl",
+    "graydon.nl",
+    "creditsafe.nl",
+    "handelsregister.nl",
+    "transfirm.nl",
+    "bedrijvenregister.nl",
+    "ageras.nl",
+    "telefoonboek.nl",
+    "oozo.nl",
+    "cylex.nl",
+}
 
 VERKLARING = """
 <html><body>
@@ -89,23 +112,51 @@ def main() -> int:
     )
 
     # Vindplaatsen
-    geweigerd = []
-    for url in [
-        "https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=123",
-        "https://www.company.info/bedrijf/voorbeeld-bv",
-        "https://drimble.nl/bedrijf/amsterdam/123/voorbeeld-bv.html",
-        "https://opencorporates.com/companies/nl/123",
-        "voorbeeld.nl/jaarrekening.pdf",
-    ]:
-        try:
-            controleer_vindplaats(url)
-        except BronGeweigerd:
-            geweigerd.append(url)
     controleer(
-        "Handelsregister-afgeleiden en niet-webadressen worden geweigerd",
-        len(geweigerd) == 5,
-        f"geweigerd: {len(geweigerd)} van 5 — doorgelaten: "
-        f"{[u for u in ['kvk', 'company.info', 'drimble', 'opencorporates', 'zonder schema'] ]}",
+        "de code sluit precies de gastheren uit die zijn afgesproken",
+        set(KVK_AFGELEIDE_GASTHEREN) == UITGESLOTEN_VOLGENS_AFSPRAAK,
+        f"alleen in de code: {sorted(set(KVK_AFGELEIDE_GASTHEREN) - UITGESLOTEN_VOLGENS_AFSPRAAK)} — "
+        f"alleen in de afspraak: {sorted(UITGESLOTEN_VOLGENS_AFSPRAAK - set(KVK_AFGELEIDE_GASTHEREN))}",
+    )
+
+    # Elke uitgesloten gastheer, met en zonder www-subdomein. Niet één voorbeeld
+    # per lijst: het gat van 20-8-2026 zat juist in de gastheren die níét in de
+    # test stonden.
+    doorgelaten = []
+    for gastheer in UITGESLOTEN_VOLGENS_AFSPRAAK:
+        for url in (f"https://{gastheer}/bedrijf/voorbeeld-bv",
+                    f"https://www.{gastheer}/zoeken?q=123"):
+            try:
+                controleer_vindplaats(url)
+                doorgelaten.append(url)
+            except BronGeweigerd:
+                pass
+    controleer(
+        "elke uitgesloten gastheer wordt geweigerd, ook achter www.",
+        not doorgelaten,
+        f"doorgelaten: {doorgelaten}",
+    )
+
+    geweigerd_geen_webadres = False
+    try:
+        controleer_vindplaats("voorbeeld.nl/jaarrekening.pdf")
+    except BronGeweigerd:
+        geweigerd_geen_webadres = True
+    controleer(
+        "een vindplaats zonder http(s) is geen webadres en wordt geweigerd",
+        geweigerd_geen_webadres,
+    )
+
+    # Een naam die toevallig op een uitgesloten gastheer eindigt is een ándere
+    # partij; die mag niet meegesleept worden.
+    naamgenoot_toegelaten = True
+    try:
+        controleer_vindplaats("https://niet-kvk.nl/jaarverslag-2024.pdf")
+    except BronGeweigerd:
+        naamgenoot_toegelaten = False
+    controleer(
+        "niet-kvk.nl is een andere partij dan kvk.nl en wordt toegelaten",
+        naamgenoot_toegelaten,
     )
 
     toegelaten = True
@@ -116,7 +167,7 @@ def main() -> int:
         toegelaten = False
     controleer("een gewone site of ANBI-publicatie wordt toegelaten", toegelaten)
 
-    totaal = 7
+    totaal = 10
     print(f"\n{totaal - fouten}/{totaal} goed")
     return 1 if fouten else 0
 

@@ -40,10 +40,36 @@ KOPPEN = {"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"}
 # voor dit project uitgesloten (besluit van de opdrachtgever), en dan is een
 # afgeleide daarvan het net zo goed. Liever hier hard weigeren dan erop
 # vertrouwen dat iedereen die een seed-regel toevoegt eraan denkt.
+#
+# De lijst staat los van de reguliere expressie zodat de test hem kan opvragen
+# in plaats van hem over te schrijven. Hij stond eerst als één patroon in de code
+# en liep daardoor achter op de afspraak: zes van de vijftien uitgesloten
+# gastheren ontbraken (transfirm, bedrijvenregister, ageras, telefoonboek, oozo,
+# cylex). Een gemiste gastheer is stil: de bron wordt gewoon geaccepteerd en er
+# komt een rij in de database met een uittreksel als vindplaats.
+KVK_AFGELEIDE_GASTHEREN = (
+    "kvk.nl",
+    "company.info",
+    "companyinfo.nl",
+    "drimble.nl",
+    "opencorporates.com",
+    "bedrijfsdata.nl",
+    "graydon.nl",
+    "creditsafe.nl",
+    "handelsregister.nl",
+    "transfirm.nl",
+    "bedrijvenregister.nl",
+    "ageras.nl",
+    "telefoonboek.nl",
+    "oozo.nl",
+    "cylex.nl",
+)
+
+# Een gastheer telt ook als hij achter een subdomein zit (www., zoek.) en niet
+# als hij alleen maar zo eindigt: "niet-kvk.nl" is een andere partij dan "kvk.nl",
+# maar "www.kvk.nl" is het wel.
 _KVK_AFGELEID = re.compile(
-    r"(?:^|\.)(?:kvk\.nl|company\.info|companyinfo\.nl|drimble\.nl|"
-    r"opencorporates\.com|bedrijfsdata\.nl|graydon\.nl|creditsafe\.nl|"
-    r"handelsregister\.nl)(?:/|$)",
+    r"(?:^|\.)(?:" + "|".join(re.escape(g) for g in KVK_AFGELEIDE_GASTHEREN) + r")(?:/|$)",
     re.I,
 )
 
