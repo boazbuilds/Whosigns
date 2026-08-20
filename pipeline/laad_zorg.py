@@ -367,6 +367,24 @@ def main() -> int:
     )
 
     rapport_pad = CACHE / f"resultaat_{boekjaar}.csv"
+    # Bestaat er al een rapport, dan moet de kopregel kloppen vóór we er rijen
+    # achteraan zetten. Zonder deze controle schreef een lader met een andere
+    # kolomlijst gewoon door onder een oude kop -- dat is precies wat er op
+    # 17-8-2026 gebeurde, en het commentaar bij herstel_rapport() in
+    # oogst_zorg.sh beschrijft die dag uitvoerig terwijl de code hier vijftig
+    # regels verderop niets deed. oogst_zorg.sh vangt het geval waarin híj het
+    # rapport terugzet; dit vangt iedereen die laad_zorg.py los aanroept, en dat
+    # kan: alle vlaggen staan in de docstring bovenaan.
+    if rapport_pad.exists() and rapport_pad.stat().st_size > 0:
+        with rapport_pad.open(encoding="utf-8") as eerst:
+            kop = (eerst.readline() or "").rstrip("\r\n")
+        if kop != ",".join(RAPPORT_KOLOMMEN):
+            print(f"{rapport_pad}: de kopregel is niet die van deze laad_zorg.py.")
+            print(f"  gevonden : {kop}")
+            print(f"  verwacht : {','.join(RAPPORT_KOLOMMEN)}")
+            print("  Er wordt niets bijgeschreven; zet het bestand eerst om of "
+                  "haal het weg.")
+            return 1
     rapport = rapport_pad.open("a", newline="", encoding="utf-8")
     schrijver = csv.writer(rapport)
     if rapport.tell() == 0:

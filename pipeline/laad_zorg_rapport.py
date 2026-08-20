@@ -79,6 +79,19 @@ def lees_rapport(pad: Path) -> list[dict]:
                 f"oudere laad_zorg.py. Draai de oogst opnieuw; het opdrachttype "
                 f"wordt niet gegokt."
             )
+        # En de andere kant op, die tot 20-8-2026 stil was. Een rapport met een
+        # kolom die deze lader niet kent werd gewoon geaccepteerd: DictReader
+        # levert hem netjes aan, opdracht_uit_rapportrij() kijkt er niet naar, en
+        # de run meldt het volle aantal rijen als geschreven. Dat is het geval na
+        # een terugrol -- nieuwere rapporten, oudere lader -- en dan verdwijnt een
+        # veld zonder dat iemand het ziet. Liever luid falen.
+        onbekend = [k for k in kolommen if k not in VERPLICHT]
+        if onbekend:
+            raise SystemExit(
+                f"{pad}: kolommen {onbekend} kent deze lader niet — dit rapport "
+                f"komt uit een níeuwere laad_zorg.py. Werk de lader bij; "
+                f"doorladen zou die velden stil laten vallen."
+            )
         return [rij for rij in lezer if (rij.get("kvk") or "").strip()]
 
 

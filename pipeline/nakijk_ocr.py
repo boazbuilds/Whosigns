@@ -261,8 +261,24 @@ def main() -> int:
             print(f"  {aantal:3d}  {naam}")
 
         if argumenten.schrijf and nieuw:
+            # Dit schrijft rechtstreeks in de repo, niet in .cache, en het gaat
+            # daarna via "Zorgoogst inladen" de database in. Een DictWriter met
+            # andere fieldnames dan de kopregel die er al staat levert rijen op
+            # die stil verschuiven; de nieuwe waarde verdwijnt en de rest schuift
+            # een kolom op. Dus eerst kijken.
+            bestaande_kop = ""
+            if rapport_pad.exists() and rapport_pad.stat().st_size > 0:
+                with rapport_pad.open(encoding="utf-8") as eerst:
+                    bestaande_kop = (eerst.readline() or "").rstrip("\r\n")
+            if bestaande_kop and bestaande_kop != ",".join(RAPPORT_KOLOMMEN):
+                print(f"  NIET GESCHREVEN: {rapport_pad} heeft een andere kopregel.")
+                print(f"    gevonden : {bestaande_kop}")
+                print(f"    verwacht : {','.join(RAPPORT_KOLOMMEN)}")
+                continue
             with rapport_pad.open("a", newline="", encoding="utf-8") as bestand:
                 schrijver = csv.DictWriter(bestand, fieldnames=RAPPORT_KOLOMMEN)
+                if not bestaande_kop:
+                    schrijver.writeheader()
                 schrijver.writerows(nieuw)
             print(f"  {len(nieuw)} rijen bijgeschreven in {rapport_pad}")
         totaal_bij += len(nieuw)
