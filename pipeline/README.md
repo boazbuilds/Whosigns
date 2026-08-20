@@ -77,8 +77,16 @@ gescande verklaringen `tesseract-ocr` + `tesseract-ocr-nld`; de zorgroute heeft 
 4. **Nooit stil mergen.** Kantoornamen eerst exact matchen op `kantoor_alias`; fuzzy
    matches en onzekere AI-extracties gaan naar `review_queue` en wachten op menselijke
    bevestiging.
-5. **AVG.** Geen namen van natuurlijke personen opslaan — ook niet in ruwe
-   extractie-output of logs.
+5. **AVG.** Eén natuurlijke persoon mag wél: de tekenend accountant, mits zijn naam
+   uit een openbare bron komt — de gedeponeerde verklaring zelf, een eigen publicatie
+   van het kantoor, of een openbaar register (AFM, NBA). Besluit van 20-8-2026; zie
+   `docs/concept.md` §9 voor de grondslag, die niet is "accountants vallen buiten de
+   AVG" maar gerechtvaardigd belang bij een al openbaar gegeven.
+
+   Alle andere natuurlijke personen blijven eruit — bestuurders, toezichthouders,
+   medewerkers, contactpersonen — ook in ruwe extractie-output en logs. En voor de
+   naam die er wél in mag geldt de gewone regel van punt 4: alleen wat er als
+   ondertekenaar staat, twijfel naar `review_queue`, nooit afleiden.
 
 6. **In rondes, niet in één hoop.** Een sector laden is uren werk waar één slechte pdf
    een hele run kan laten struikelen, en aan het eind heb je één grote uitkomst die

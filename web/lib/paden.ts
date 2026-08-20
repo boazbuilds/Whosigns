@@ -62,6 +62,15 @@ export function sectorPad(sector: string): string {
   return `/sector/${slug(sector)}`;
 }
 
+/** Het adres van een tekenend accountant. De sleutel komt uit `v_accountant`
+ *  en is al genormaliseerd (kleine letters, geen punten, titels vooraan eraf);
+ *  `slug()` maakt er alleen nog koppeltekens van. Niet omkeerbaar bij accenten
+ *  of een dubbele achternaam, dus de pagina zoekt de echte sleutel op —
+ *  `accountantOpSlug()` doet eerst de goedkope gok en valt daarna pas terug. */
+export function accountantPad(sleutel: string): string {
+  return `/accountant/${slug(sleutel)}`;
+}
+
 /** Subsectoren hebben spaties en koppeltekens, dus de slug is niet omkeerbaar;
  *  de pagina zoekt de echte waarde op via de lijst uit de database. */
 export function subsectorPad(subsector: string): string {
@@ -165,6 +174,17 @@ export const CONTROLE_TYPES: readonly string[] = [
 /** Nederlandse notatie voor aantallen: 1.142 in plaats van 1142. */
 export function nl(n: number): string {
   return n.toLocaleString("nl-NL");
+}
+
+/**
+ * Een bedrag in hele euro's, Nederlands genoteerd. `null` blijft null, zodat de
+ * pagina zelf beslist wat "niet opgegeven" eruitziet — een honorarium van nul is
+ * iets anders dan een honorarium dat niet is verantwoord, en €0 tonen waar de
+ * bron niets zegt zou een bewering zijn.
+ */
+export function euro(bedrag: number | null | undefined): string | null {
+  if (bedrag === null || bedrag === undefined) return null;
+  return `€ ${Math.round(bedrag).toLocaleString("nl-NL")}`;
 }
 
 export function jarenReeks(jaren: number[]): string {

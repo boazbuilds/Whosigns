@@ -1,0 +1,713 @@
+# whosigns-ocr v1 grootte=498544 dpi=300 paginas=20
+adviseurs
+
+Oh My Mood B.V.
+Keizersgracht 391A
+1016 EJ AMSTERDAM
+
+Schinnen, 9 april 2024
+Betreft: jaarrekening 2023
+
+Geachte directie,
+
+Hiermede brengen wij u verslag uit van onze werkzaamheden omtrent de jaarrekening 2023 van uw
+onderneming.
+
+De balans per 31 december 2023, de winst-en-verliesrekening over 2023 en de toelichting, welke tezamen de
+jaarrekening 2023 vormen, zijn in dit rapport opgenomen.
+
+1.1 Samenstellingsverklaring van de accountant
+
+De jaarrekening van Oh My Mood B.V. te Maastricht is door ons samengesteld op basis van de van u gekregen
+informatie. De jaarrekening bestaat uit de balans per 31 december 2023 en de winst-en-verliesrekening over
+2023 met de daarbij horende toelichting. In deze toelichting is onder andere een overzicht van de gehanteerde
+grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, "Samenstellingsopdrachten".
+
+Op grond van deze standaard wordt van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren
+van de jaarrekening in overeenstemming met Titel 9 Boek 2 van het Nederlandse Burgerlijk Wetboek (BW).
+Wij hebben daarbij onze deskundigheid op het gebied van administratieve verwerking en financiële
+verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan.
+
+CONCREET Adviseurs BV.
+
+Bezoek Breinderveldweg 6 . 6365 CM Schinnen BTW-numrmer:NL 8521.52.115.B01 IBAN NL35ABNA0477275044
+Post Postbus 22027 . 6360 AA Nuth KvK 56492499 BIC ABNANL2A
+Telefoon +31 (O)46 7 630 560 E-mail info@concreet-adviseurs.nl Informeer www.concreet-adviseurs.nl
+
+De algemene voorwaarden zijn in te zien op www.concreet-adviseurs.nl. Concreet Adviseurs B.V. is aangesloten bij de beroepsorganisaties Novak en RB.
+
+Op de dienstverlening van Concreet Adviseurs BV. zijn de algemene voorwaarden van toepassing, welke voorwaarden onder meer een beperking van de aansprakelijkheid bevatten.
+
+
+adviseurs
+
+CON
+
+Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal nagegaan dat het
+beeld van de jaarrekening overeenkwam met onze kennis van Oh My Mood B.V.
+
+Wij hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een oordeel
+te geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers van
+deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte
+gegevens.
+
+Hoogachtend,
+Concreet Adviseurs B.V,
+
+
+COncreet: adviseurs
+
+2. JAARREKENING
+
+1e C: adviseurs
+
+Oh My Mood B.V. te Amsterdam
+
+2.1 Balans per 31 december 2023
+(Na resultaatbestemming)
+
+31 december 2023 31 december 2022
+
+ACTIVA € € € €
+Vaste activa
+Materiële vaste activa [1]
+Huurdersinvestering 227.186 44,205
+Inventaris 40.916 17.357
+
+268.102 61.562
+Vlottende activa
+Vorderingen [2]
+Handelsdebiteuren 105.545 59.606
+Overige vorderingen en overlopende activa 373.854 536.966
+
+479.399 596.572
+Liquide middelen [3] 23.761 18.703
+Totaal activazijde 771.262 676.837
+
+adviseurs
+
+CON
+
+Oh My Mood B.V. te Amsterdam
+
+2.1 Balans per 31 december 2023
+(Na resultaatbestemming)
+
+31 december 2023 31 december 2022
+PASSIVA € € € €
+Eigen vermogen [4]
+Geplaatst aandelenkapitaal 100 100
+Overige reserves -2.164.675 -1.571.363
+-2.164.575 -1.571.263
+Langlopende schulden [5]
+Overige schulden 1.292.870 1.115.734
+1.292.870 1.115.734
+Kortlopende schulden [6]
+Aflossingsverplichtingen - 167.334
+Handelscrediteuren 247.663 118.493
+Belastingen en premies sociale
+verzekeringen 1.166.654 607,654
+Overige schulden en overlopende passiva 228.650 238.385
+1.642.967 1.132.366
+Totaal passivazijde 771.262 676.837
+
+: adviseurs
+
+Oh My Mood B.V. te Amsterdam
+
+2.2 Winst-en-verliesrekening over 2023
+
+2023 2022
+€ € € €
+
+Netto-omzet 4.183.762 2.334.110
+Mutatie onderhanden werk 14.413 -
+
+4.198.175 2.334.110
+Bruto bedrijfsresultaat 4,198.175 2.334.110
+Lonen en salarissen 2.304.394 2.132.913
+Sociale lasten 397.475 289.983
+Pensioenlasten 171.604 138.284
+Afschrijvingen materiële vaste activa [7] 15.721 2.860
+Overige personeelskosten [8] 371.660 177.241
+Huisvestingskosten [9] 202.543 117.015
+Exploitatiekosten [10] 259.778 152.521
+Verkoopkosten [11] 220.660 160.354
+Autokosten 940 840
+Kantoorkosten [12] 17.145 14.383
+Algemene kosten [13] 117.275 84,125
+Som der kosten 4.079.195 3.270.519
+Bedrijfsresultaat 118.980 -936.409
+Rentebaten en soortgelijke opbrengsten [14] - 5,112
+Rentelasten en soortgelijke kosten [15] -64,842 -44,346
+Som der financiële baten en lasten -64.842 -39,234
+Resultaat voor belastingen 54.138 -975.643
+Belastingen - -
+Resultaat na belastingen 54,138 -975.643
+
+EC: adviseurs
+
+CON
+
+Oh My Mood B.V. te Amsterdam
+
+2.3 Toelichting op de jaarrekening
+ALGEMENE TOELICHTING
+
+Activiteiten
+
+De activiteiten van Oh My Mood B.V, bestaan voornamelijk uit het bieden van geestelijke gezondheidszorg in
+de ruimste zin van het woord.
+
+De feitelijke activiteiten worden uitgevoerd aan de Keizersgracht 391A te Amsterdam.
+
+Continuïteit
+
+Het eigen vermogen bedraagt per 31 december 2023 € 2.164.575 negatief. De financiering hiervan vindt plaats
+met zowel langlopende als kortlopende schulden.
+
+Door de belastingdienst en het UWV zijn betalingsvoorstellen gedaan omtrent de terugbetaling van de
+zogenaamde Coronaschulden en de ontvangen bijdragen inzake de Noodmaatregel Overbrugging
+Werkgelegenheid.
+
+Het resultaat 2023 is positief maar nog ontoereikend om aan de verplichtingen richting de belastingdienst en
+het UWV te voldoen. De verwachting van de directie is dat de resultaten zich verder positief blijven
+ontwikkelen, waardoor de continuïteit van de onderneming geen gevaar loopt.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+Oh My Mood B.V. statutair gevestigd te Maastricht is ingeschreven bij de Kamer van Koophandel onder
+dossiernummer 74836307.
+
+Groepsverhoudingen
+
+JE B.V. te Maastricht stelt de geconsolideerde jaarrekening op van het groepsdeel waartoe Oh My Mood B.V.
+behoort.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van Oh
+My Mood B.V. zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de jaarrekening
+opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste inzicht noodzakelijk
+is, is de aard van deze oordelen en schattingen inclusief de bijbehorende veronderstellingen opgenomen bij de
+toelichting op de desbetreffende jaarrekeningposten.
+
+Foutherstel
+
+In het verslagjaar zijn aan de directieleden voor € 647.450 aan nabetalingen gedaan, betrekking hebbende op
+de werkzaamheden welk de directieleden in de voorgaande jaren hebben verricht. Dit bedrag hebben wij voor
+€ 420.717, welk bedrag betrekking heeft op de nabetalingen over 2022 in het resultaat 2022 verwerkt.
+
+
+J(: adviseurs
+
+CON
+
+Oh My Mood B.V. te Amsterdam
+
+2.3 Toelichting op de jaarrekening
+ALGEMENE GRONDSLAGEN
+
+Algemeen
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving voor de kleine rechtspersonen, die uitgegeven zijn door de Raad voor de
+jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgingsprijs of de actuele waarde. Indien
+geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de verkrijgingsprijs.
+
+Vergelijking met voorgaand jaar
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten opzichte
+van het voorgaande jaar.
+
+Valuta
+
+De posten in de jaarrekening worden gewaardeerd met inachtneming van de valuta van de economische
+omgeving waarin de onderneming haar bedrijfsactiviteiten voornamelijk uitoefent (de functionele valuta). De
+jaarrekening is opgesteld in euro's; dit is zowel de functionele als de presentatievaluta.
+
+Bijzondere posten
+
+Bijzondere posten zijn baten of lasten die voortvloeien uit gebeurtenissen of transacties die behoren tot het
+resultaat uit de normale, niet-incidentele bedrijfsactiviteiten, maar die omwille van de vergelijkbaarheid apart
+toegelicht worden op grond van de aard, omvang of het incidentele karakter van de post.
+
+-10-
+
+DF: adviseurs
+
+CON
+
+Oh My Mood B.V. te Amsterdam
+
+2.3 Toelichting op de jaarrekening
+GRONDSLAGEN VOOR WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Materiële vaste activa wordt gewaardeerd tegen verkrijgingsprijs inclusief direct toerekenbare kosten, onder
+aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur en bijzondere
+waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie,
+inclusief de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen
+de geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de
+boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Langlopende schulden
+
+Langlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Transactiekosten
+die direct zijn toe te rekenen aan de verwerving van de langlopende schulden worden in de waardering bij
+eerste verwerking opgenomen. Langlopende schulden worden na eerste verwerking gewaardeerd tegen
+geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening houdend met agio of disagio en onder aftrek
+van transactiekosten.
+
+Het verschil tussen de bepaalde boekwaarde en de uiteindelijke aflossingswaarde wordt op basis van de
+effectieve rente gedurende de geschatte looptijd van de langlopende schulden in de winst-en-verliesrekening
+als interestlast verwerkt.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen
+bedrag rekening houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale
+waarde,
+
+-11-
+
+COM
+
+2L: adviseurs
+
+Oh My Mood B.V. te Amsterdam
+
+2.3 Toelichting op de jaarrekening
+GRONDSLAGEN VOOR BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin
+zij zijn gerealiseerd,
+
+Opbrengstverantwoording
+
+Algemeen
+Netto-omzet omvat de opbrengsten uit levering van diensten onder aftrek van kortingen en dergelijke en van
+over de omzet geheven belastingen.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde prestaties,
+gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten
+diensten.
+
+Kosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Personeelsbeloningen
+
+Periodiek betaalbare beloningen
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in de
+winst-en-verliesrekening.
+
+Pensioenen
+
+De onderneming heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord.
+
+Op de Nederlandse pensioenregelingen zijn de bepalingen van de Nederlandse Pensioenwet van toepassing en
+betaalt de onderneming verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en
+verzekeringsmaatschappijen. De premies worden verantwoord als personeelskosten zodra deze verschuldigd
+zijn. Vooruitbetaalde premies worden opgenomen als overlopende activa indien dit tot een terugstorting leidt
+of tot een vermindering van toekomstige betalingen. Nog niet betaalde premies worden als verplichting op de
+balans opgenomen.
+
+-12-
+
+DE: adviseurs
+
+CON
+
+Oh My Mood B.V. te Amsterdam
+
+2.3 Toelichting op de jaarrekening
+
+Afschrijvingen op materiële vaste activa
+
+Materiële vaste activa wordt vanaf het moment dat het actief beschikbaar is voor het beoogde gebruik
+afgeschreven over de geschatte economische levensduur / verwachte toekomstige gebruiksduur van het
+actief.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+
+Bijzondere posten
+
+Bijzondere posten zijn baten of lasten die voortvloeien uit gebeurtenissen of transacties die behoren tot de
+normale, niet-incidentele bedrijfsuitoefening, maar die omwille van de analyse en vergelijkbaarheid apart
+toegelicht worden op grond van de aard, omvang of het incidentele karakter van de post.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet
+van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met
+de verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren
+en vrijgestelde winstbestanddelen en na bijtelling van niet-aftrekbare kosten.
+
+-13-
+
+COM
+
+Oh My Mood B.V, te Amsterdam
+
+2.4 Toelichting op de balans
+ACTIVA
+VASTE ACTIVA
+
+Materiële vaste activa [1]
+Het verloop van de materiële vaste activa wordt als volgt weergegeven:
+
+Huurders- Inventaris Totaal 2023
+investering
+€ € €
+
+Aanschafwaarde 44,576 20.780 65.356
+Cumulatieve afschrijvingen -371 -3.423 -3.794
+Boekwaarde per 1 januari 44,205 17.357 61.562
+Investeringen 192.887 29.374 222.261
+Afschrijvingen -9,906 -5.815 -15.721
+Mutaties 2023 182.981 23.559 206.540
+Aanschafwaarde 237.463 50.154 287.617
+Cumulatieve afschrijvingen -10.277 -9,238 -19.515
+Boekwaarde per 31 december 227.186 40.916 268.102
+Afschrijvingspercentages:
+Huurdersinvestering 20%
+Inventaris 20%
+
+-14-
+
+1: adviseurs
+
+COM
+
+Oh My Mood B.V. te Amsterdam
+
+2.4 Toelichting op de balans
+VLOTTENDE ACTIVA
+Vorderingen [2]
+
+31-12-2023 31-12-2022
+
+€ €
+Handelsdebiteuren
+Debiteuren 157.411 111.675
+Voorziening oninbare debiteuren -51.866 -52.069
+
+105.545 59.606
+Overige vorderingen en overlopende activa
+Rekening-courant J.J. Essed - 216.252
+Rekening-courant J. Post - 72.450
+Rekening-courant Stichting Oh My Mood Foundation 7.229 7.529
+Rekening-courant Oh My Mood UK LTD 6.541 5.014
+Rekening courant JJE B.V. 4.034 -
+Nog te factureren omzet 227.156 212.743
+Waarborgsommen 74.161 21.893
+Overige vorderingen 54,733 1.085
+
+373.854 536.966
+Liquide middelen [3]
+ING bank 17.525 12.072
+Tussenrekening Mollie 3.023 5,807
+Creditcard Wise 131 -
+CC Bunq 3.082 -
+Kruisposten - 824
+
+23.761 18.703
+
+-15-
+
+DE: adviseurs
+
+CON
+
+Oh My Mood B.V. te Amsterdam
+
+2.4 Toelichting op de balans
+PASSIVA
+EIGEN VERMOGEN [4]
+
+2023 2022
+
+Geplaatst aandelenkapitaal
+Stand per 31 december 100 100
+
+Het maatschappelijk kapitaal bedraagt € 100, verdeeld in 100 aandelen van nominaal € 1,- Het geplaatste
+aandelenkapitaal bedraagt € 100,-
+
+Overige reserves
+
+Stand per 1 januari -1.571.363 -1.016.437
+Uit voorstel resultaatbestemming 54.138 -975.643
+Foutherstel -647,450 420.717
+Stand per 31 december -2.164,675 -1.571.363
+
+LANGLOPENDE SCHULDEN [5]
+
+Overige schulden
+31-12-2023 31-12-2022
+
+€ €
+Belastingen 760.897 585.290
+UWV 531.973 530.444
+1.292.870 1.115.734
+
+Het deel van de financieringen met een looptijd van langer dan 5 jaar bedraagt ongeveer € 51.000.
+
+-16-
+
+adviseurs
+
+CON
+
+Oh My Mood B.V. te Amsterdam
+
+2.4 Toelichting op de balans
+
+2023 2022
+€ €
+
+Belastingen
+
+Stand per 1 januari 749.750 -
+Opgenomen - 756.064
+Bijgeschreven rente 11.147 7.391
+Aflossing - -13.705
+Stand per 31 december 760.397 749.750
+Aflossingsverplichting komend boekjaar - „164.460
+Langlopend deel per 31 december 760.897 585.290
+UWV
+
+Stand per 1 januari 533.430 309.200
+Opgenomen - 224.230
+Aflossing -1.345 -112
+Stand per 31 december 531.973 533.318
+Aflossingsverplichting komend boekjaar - -2.874
+Langlopend deel per 31 december 531.973 530.444
+
+KORTLOPENDE SCHULDEN [6]
+
+31-12-2023 31-12-2022
+
+€ €
+Aflossingsverplichtingen komend boekjaar
+Belastingdienst - 164.460
+Uwv - 2.874
+- 167.334
+Handelscrediteuren
+Crediteuren 247.663 118.493
+
+-17-
+
+8 DE: adviseurs
+
+Con’
+
+Oh My Mood B.V. te Amsterdam
+
+2.4 Toelichting op de balans
+
+31-12-2023 31-12-2022
+
+€ €
+Belastingen en premies sociale verzekeringen
+Omzetbelasting 1.321 1.385
+Loonheffing 1.061.195 530.296
+Premies pensioen 104.138 75.973
+1.166.654 607.654.
+Overige schulden en overlopende passiva
+Rekening-courant J.J. Essed 465 -
+Te betalen vakantiegeld en -dagen 121.527 63.422
+Netto lonen 40.162 83.101
+Te betalen zorgbonus 29.022 32.250
+Overige 37.474 60.112
+228.650 238.885
+
+-18-
+
+DE: adviseurs
+
+Oh My Mood B.V. te Amsterdam
+
+2.4 Toelichting op de balans
+Niet in de balans opgenomen rechten en verplichtingen
+Voorwaardelijke verplichtingen en belangrijke financiële verplichtingen
+
+Huurverplichtingen
+
+De onderneming heeft een huurcontract afgesloten voor de huur van het pand op de locatie Keizerveld 13 H
+te Venray De huurverplichting bedraagt ongeveer € 16.000 per jaar. De huurverplichting loopt tot en met 1
+maart 2024,
+
+De onderneming heeft een huurcontract afgesloten voor de huur van het pand op de locatie
+Amsterdamsestraatweg 646 te Utrecht. De huurverplichting bedraagt ongeveer € 27.000 per jaar. De
+huurverplichting loopt tot en met 31 december 2027.
+
+De onderneming heeft een huurcontract afgesloten voor de huur van het pand op de locatie Heemraadssingel
+64 te Rotterdam. De huurverplichting bedraagt ongeveer € 15.900 per jaar. De huurverplichting loopt tot en
+met 29 februari 2024.
+
+De onderneming heeft een huurcontract afgesloten voor de huur van het pand op de locatie Graafseweg 274
+te Nijmegen. De huurverplichting bedraagt ongeveer € 28.000 per jaar. De huurverplichting loopt tot en met
+30 september 2028,
+
+De onderneming heeft een huurcontract afgesloten voor de huur van het pand op de locatie Euterpelaan 6-8
+te Heerlen. De huurverplichting bedraagt ongeveer € 32.000 per jaar.
+
+De onderneming heeft een huurcontract afgesloten voor de huur van het pand op de locatie Overschiestraat
+
+59-59A te Amsterdam. De huurverplichting bedraagt ongeveer € 132.000 per jaar. De huurverplichting loopt
+tot en met 31 maart 2030.
+
+-19-
+
+LE: adviseurs
+
+CONC
+
+Oh My Mood B.V. te Amsterdam
+
+2.5 Toelichting op de winst-en-verliesrekening
+
+2023 2022
+€ €
+Afschrijvingen materiële vaste activa [7]
+Huurdersinvestering 9,906 371
+Inventaris 5.815 2.489
+15.721 2.860
+Overige personeelskosten [8]
+Onkostenvergoedingen 45.484 15.671
+Inhuur personeel 234.039 100.014
+Reis- en verblijfkosten 19.581 17.493
+Scholings- en opleidingskosten 22.022 16.146
+Werving 29.184 3.074
+Ziekengeldverzekering - 5.944
+Arbodienst 7.224 6.202
+Overige 14.126 12.697
+371.660 177.241
+Huisvestingskosten [9]
+Huur onroerend goed 197.712 113.001
+Overige 4,831 4,014
+202.543 117.015
+Exploitatie- en machinekosten [10]
+Kosten applicaties 25.512 20.843
+ICT kosten 234.266 131.678
+259.778 152.521
+
+-20-
+
+… adviseurs
+
+CON
+
+Oh My Mood B.V. te Amsterdam
+
+2,5 Toelichting op de winst-en-verliesrekening
+
+2023 2022
+
+€ €
+Verkoopkosten [11]
+Reclame en advertentie 168.536 98.300
+Representatie 27.463 10.435
+Reis- en verblijfkosten 15.089 8.668
+Incassokosten 9.775 6.323
+Dotatie voorziening oninbare vorderingen -203 36.623
+
+220.660 160.354
+Kantoorkosten [12]
+Kantoorbenodigdheden 4.845 5,455
+Telecommunicatie 6.167 3.798
+Contributies en abonnementen 6.133 5,130
+
+17.145 14.383
+
+Algemene kosten [13]
+Accountants en administratie 51.503 27.869
+Advieskosten 30.643 12.311
+Kleine aanschaffingen 7.668 9,215
+Huur video web 3.711 3.159
+Zakelijke verzekeringen 7.221 3.628
+Commissarisbeloningen 3.630 25.083
+Overige algemene kosten 12.899 2.860
+
+117.275 84.125
+
+-21-
+
+2.5 Toelichting op de winst-en-verliesrekening
+
+Financiële baten en lasten
+
+Rentebaten en soortgelijke opbrengsten [14]
+JJ. Essed
+
+J. Post
+
+Overige
+
+Rentelasten en soortgelijke kosten [15]
+Bankier
+
+Belastingen
+
+Overige
+
+Amsterdam, 9 april 2024
+Oh My Mood B.V,
+
+JJE B.V,
+
+-22-
+
+Oh My Mood B.V, te Amsterdam
+
+2023 2022
+€ €
+- 3.610
+- 1.200
+- 302
+= 5.112
+1.641 1.197
+63.201 42.755
+- 394
+64.842 44.346
+

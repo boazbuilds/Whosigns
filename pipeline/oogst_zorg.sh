@@ -106,7 +106,13 @@ herstel_rapport() {
   # fout keurig terug.
   if [ -n "$KOLOMMEN" ] && [ "$(kopregel "$bewaard")" != "$KOLOMMEN" ]; then
     echo "  repo-kopie van dit boekjaar heeft oude kolommen; niet teruggezet"
-    return 0
+    # Geeft 1 terug, en dat is nieuw. Stond hier `return 0`, dan liep de rest van
+    # het script door met géén rapport en wél een volledige bekekenlijst -- die
+    # wordt hieronder namelijk onvoorwaardelijk teruggezet. De lader ziet dan
+    # "alles al bekeken", schrijft alleen een kopregel, en bewaar() zette dat
+    # over de repo-kopie heen. Nagespeeld met deze functies op 20-8-2026: 942
+    # regels werden er 1, en het werd gecommit als een gewone tussenstand.
+    return 1
   fi
   if [ -s "$RAPPORT" ]; then
     if [ "$(kopregel "$RAPPORT")" != "$(kopregel "$bewaard")" ]; then
@@ -117,7 +123,20 @@ herstel_rapport() {
   fi
   cp "$bewaard" "$RAPPORT"
 }
-herstel_rapport
+if ! herstel_rapport && [ ! -s "$RAPPORT" ]; then
+  # Geen bruikbaar rapport én een repo-kopie die we niet mogen terugzetten. Dan
+  # is er niets om op voort te bouwen en kan deze oogst alleen maar schade doen:
+  # doorgaan levert een rapport met één kopregel op naast een bekekenlijst die
+  # zegt dat alles al is gedaan.
+  #
+  # Wat er dan aan de hand is: de kolommen van laad_zorg zijn veranderd terwijl
+  # pipeline/oogst/zorg_${BOEKJAAR}.csv nog de oude indeling heeft. Zet dat
+  # bestand eerst om (kolom erbij, waarde leeg) of oogst het boekjaar opnieuw.
+  echo "  gestopt: geen bruikbaar rapport, en de repo-kopie heeft een andere"
+  echo "  kolomindeling. Zet pipeline/oogst/zorg_${BOEKJAAR}.csv eerst om of"
+  echo "  begin dit boekjaar opnieuw; doorgaan zou de repo-kopie overschrijven."
+  exit 1
+fi
 
 # Idem voor de lijst met bekeken organisaties: de langste wint. `wc -l` krijgt
 # hier bewust een bestaand bestand — een omleiding uit een bestand dat er niet is
@@ -171,6 +190,21 @@ bewaar() {
   # database in. Eindigt het bestand niet op een nieuwe regel, dan is het midden
   # in een schrijfactie; volgende ronde dan maar.
   [ -z "$(tail -c 1 "$RAPPORT")" ] || return 0
+
+  # Krimpen mag niet. Dit rapport groeit alleen maar: elke ronde komen er rijen
+  # bij en er gaat er nooit een af. Is het nieuwe rapport korter dan wat er in de
+  # repo staat, dan is er iets misgegaan bovenstrooms -- een teruggerolde .cache,
+  # een afgebroken run, of een kolomwissel -- en is overschrijven precies het
+  # verkeerde. Dit is de laatste rem, en de enige die élke oorzaak vangt in
+  # plaats van de oorzaak die we vandaag kennen.
+  local oud_regels nieuw_regels
+  oud_regels="$([ -s "$OOGST/zorg_${BOEKJAAR}.csv" ] && wc -l < "$OOGST/zorg_${BOEKJAAR}.csv" || echo 0)"
+  nieuw_regels="$(wc -l < "$RAPPORT")"
+  if [ "$nieuw_regels" -lt "$oud_regels" ]; then
+    echo "  NIET BEWAARD: rapport heeft $nieuw_regels regels, de repo-kopie $oud_regels."
+    echo "  Een rapport hoort nooit te krimpen; er is iets mis met .cache."
+    return 0
+  fi
   cp "$RAPPORT" "$OOGST/zorg_${BOEKJAAR}.csv" 2>/dev/null || return 0
   cp "$VERWERKT" "$OOGST/verwerkt_${BOEKJAAR}.txt" 2>/dev/null || true
   # Nieuw gelezen tekst meenemen; -n overschrijft niets wat er al staat.
@@ -209,7 +243,7 @@ Tussenstand van pipeline/oogst_zorg.sh. Het lezen van de verklaring-pdf's draait
 buiten GitHub Actions om; dit bestand gaat er via 'Zorgoogst inladen' in een paar
 minuten in. Zie docs/draaiboek-acties.md.
 
-Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Co-Authored-By: Claude <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01Rb6HsTuXQ7L6FFCgPSwN1y" || return 0
   # Duwen mag mislukken (netwerk, gelijktijdige push); de volgende ronde probeert
   # het opnieuw en de commit staat er dan al.

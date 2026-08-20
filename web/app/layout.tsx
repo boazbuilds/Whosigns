@@ -130,6 +130,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   <Link href="/kantoren">Kantoren</Link>
                 </li>
                 <li>
+                  <Link href="/accountants">Accountants</Link>
+                </li>
+                <li>
                   <Link href="/wisselingen">Wisselingen</Link>
                 </li>
                 <li>
@@ -161,10 +164,31 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 Geen advies, geen oordeel over kantoren. Een wisseling is
                 afgeleid uit de historie, niet uit een aankondiging.
               </p>
+              {/* Zonder deze regel las de site als een volledig marktoverzicht.
+                  Dat is het niet: de vulling gaat sector voor sector en boekjaar
+                  voor boekjaar, dus de dekking verschilt per jaar. */}
+              <p className="klein">
+                Nog niet compleet: de gegevens worden sector voor sector en
+                boekjaar voor boekjaar aangevuld. Een aandeel op deze site geldt
+                over wat hier staat, niet over de hele markt.
+              </p>
+              {/* Voorwaarde bij het besluit van 20-8-2026 om de tekenend
+                  accountant te tonen (docs/concept.md §9): zeggen welk gegeven
+                  het is, waarvandaan, waarvoor, en hoe je er iets aan doet. */}
+              <p className="klein">
+                Eén persoonsgegeven: de naam van de accountant die de
+                controleverklaring ondertekende. Die staat in het openbare,
+                wettelijk gedeponeerde jaarstuk zelf, en wordt hier getoond omdat
+                dit naslagwerk over precies die vraag gaat — wie tekent bij wie.
+                Andere personen staan er niet in. Klopt er iets niet, of wil je
+                bezwaar maken? Laat het weten via de bronvermelding bij de
+                betreffende opdracht; onjuiste gegevens worden gecorrigeerd.
+              </p>
             </div>
             <nav aria-label="Voettekst">
               <Link href="/sectoren">Sectoren</Link>
               <Link href="/kantoren">Kantoren</Link>
+              <Link href="/accountants">Accountants</Link>
               <Link href="/wisselingen">Wisselingen</Link>
               <Link href="/bevindingen">Oordelen</Link>
               <Link href="/organisaties">Organisaties</Link>

@@ -28,9 +28,14 @@ KvK-nummer oplost.
 1. **Minimaal 5 vervolgklikken per pagina** (`docs/visie.md`). Het onderdeel
    `<Doorklik>` waarschuwt in de console tijdens ontwikkelen als een pagina eronder
    zakt. Ook de 404 heeft doorklikken — juist daar loopt iemand anders vast.
-2. **Nooit natuurlijke personen.** De site toont uitsluitend
-   accountants*organisaties*; de database bevat niets anders (AVG-guardrail,
-   `docs/concept.md` §9).
+2. **Eén natuurlijke persoon, en verder geen.** Naast de accountants*organisatie*
+   mag de tekenend accountant getoond worden, mits de naam uit een openbare bron
+   komt (besluit 20-8-2026, `docs/concept.md` §9 — mét de grondslag erbij, want die
+   is gerechtvaardigd belang en niet een uitzondering op de AVG). Bestuurders,
+   toezichthouders, medewerkers en contactpersonen komen er niet in.
+
+   Voorwaarde vóór dit veld zichtbaar wordt: een privacyalinea in het colofon met
+   welk gegeven, waarvandaan, waarvoor, en waar je bezwaar of correctie kunt vragen.
 
 ## Lokaal draaien
 

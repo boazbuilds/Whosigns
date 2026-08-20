@@ -324,7 +324,18 @@ def _zoek_kolommen(cellen: list[str]) -> dict:
 
     Op naam, niet op positie: dezelfde velden staan per jaargang op andere plekken.
     """
-    laag = [k.strip().lower() for k in cellen]
+    # De koprij is tweeregelig: bovenaan het menselijke label, eronder de
+    # variabelenaam ("Bent u van accountant gewisseld?\nqAccountantWissel_...").
+    # De patronen in VELDPATRONEN zijn juist die variabelenamen, en een
+    # startswith op de hele cel matchte er dus geen enkele: doelpopulatie() gaf
+    # nul organisaties terug, terwijl het cachebestand van 30 juli bewees dat het
+    # ooit wel werkte. Vergelijken op de laatste regel herstelt dat.
+    #
+    # Gemeten op 20-8-2026 tegen pipeline/.cache/digimv2023.ods: deze regel
+    # reproduceert doelpopulatie_2023.csv rij voor rij -- 1.140 organisaties,
+    # alle veertien velden gelijk, inclusief de 301 expliciete False bij
+    # wissel_gerapporteerd. Zie pipeline/adapters/digimv.md.
+    laag = [k.strip().lower().split("\n")[-1].strip() for k in cellen]
     gevonden: dict = {"velden": {}, "zorgsoort": [], "verklaringsoort": []}
 
     for veld, patronen in VELDPATRONEN.items():

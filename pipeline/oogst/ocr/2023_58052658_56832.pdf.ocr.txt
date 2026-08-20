@@ -1,0 +1,814 @@
+# whosigns-ocr v1 grootte=2178911 dpi=300 paginas=20
+Zorgboerderij de Korenschoof B.V.
+
+INHOUDSOPGAVE
+
+1 Jaarrekening
+
+1.1 Balans per 31 december 2023
+
+1.2 Winst- en verliesrekening over 2023
+
+1.3 Kasstroomoverzicht over 2023
+
+1.4 _ Grondslagen van waardering en resultaatbepaling
+1.5 _ Toelichting op de balans per 31 december 2022
+
+1.6 _ Toelichting op de winst- en verliesrekening over 2022
+1.7 _ Vaststelling en goedkeuring
+
+2 Overige gegevens
+
+2.1 Statutaire regeling resultaatbestemming
+
+2.2 Verslag interne toezichthouder
+
+2.3 Beoordelingsverklaring van de onafhankelijke accountant
+
+wrr Eshuis nnn
+
+Eshuis Accountants en Adviseurs
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1 JAARREKENING
+
+Eshuis Accountants en Adviseurs 2
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.1 BALANS PER 31 DECEMBER 2023
+(na resultaatbestemming)
+
+Ref. 31-dec-23 31-dec-22
+€ €
+ACTIVA
+Vaste activa
+Immateriële vaste activa 1
+0 0
+Materiële vaste activa 2
+216.909 181.558
+Vlottende activa
+Voorraden 4
+10.000 10.000
+Vorderingen 5
+Op handelsdebiteuren 181.423 334.889
+Op groepsmaatschappijen 71.267 72.879
+Overige vorderingen 435.178 386./26
+687.868 794.494
+Liquide middelen 7 646.482 529.956
+Totaal activa 1.561.258 1.516.008
+pt Eshuis en
+
+Eshuis Accountants en Adviseurs
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+Ref. 31-dec-23 31-dec-22
+€ €
+PASSIVA
+
+Eigen vermogen 8
+Gestort en opgevraagd kapitaal 100 100
+Agio 428.244 428.244
+Overige reserves 520.845 450.055
+949.189 878.400
+
+Voorzieningen 9
+0 0
+
+Langlopende schulden (voor meer dan 1 jaar) 10
+0 0
+
+Kortlopende schulden (ten hoogste 1 jaar) 11
+Schulden aan leveranciers en handelskredieten 40.698 59.423
+Belastingen en premies sociale verzekeringen 146.249 131.397
+Schulden terzake van pensioenen 97.962 60.760
+Overige schulden 0) 83.904
+Overige passiva 327.158 302.125
+612.068 637.609
+Totaal passiva 1.561.258 1.516.008
+
+pt Eshuis en
+
+Eshuis Accountants en Adviseurs 4
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.2 WINST- EN VERLIESREKENING OVER 2023
+
+Ref. 2023 2022
+€ €
+BEDRIJFSOPBRENGSTEN
+Baten uit beroeps- of bedrijfsmatige zorgverlening 14
+Wet langdurige zorg 1.744.592 1.676.088
+Jeugdwet 1.895.905 1.433.406
+Wet Maatschappelijke ondersteuning 9,634 6.590
+Overige baten uit zorgverlening 640.268 671.958
+Netto omzet 4.290.400 3.788.042
+Overige bedrijfsopbrengsten 15 101.284 263.353
+Som der bedrijfsopbrengsten 4.391.684 4.051.395
+BEDRIJFSLASTEN
+Kosten uitbesteed werk en andere externe kosten 16 93.919 105.118
+Lonen en salarissen 17 2.574.382 2.274.721
+Sociale lasten 17 425.856 387.676
+Pensioenlasten 17 188.166 168.643
+Afschrijvingen op immateriële en materiële vaste activa 19 56.471 51.732
+Overige waardevermindering materiële vaste activa 20 9,902 6.237
+Overige bedrijfskosten 21 950.826 858.585
+Som der bedrijfslasten 4.299.522 3.852.712
+BEDRIJFSRESULTAAT 92.162 198.683
+Andere rentebaten en soortgelijke opbrengsten 31 -2.241 0
+Rentelasten en soortgelijke kosten 32 1.156 3.595
+RESULTAAT VOOR BELASTINGEN 93.247 195.088
+Belastingen 33 22.457 26.746
+RESULTAAT NA BELASTINGEN 70.790 168.342
+
+Zorgboerderij de Korenschoof B.V.
+
+RESULTAATBESTEMMING
+
+Het resultaat is als volgt verdeeld: 2023 2022
+€ €
+Overige reserves 70.790 168.342
+
+70.790 168.342
+
+rit Eshuis
+
+Eshuis Accountants en Adviseurs 5
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.3 KASSTROOMOVERZICHT OVER 2023
+
+Ref. 2023 2022
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 92.162 198.683
+Aanpassingen voor:
+- afschrijvingen en overige waardeverminderingen 18, 20 30.889 58.287
+30.889 58.287
+Veranderingen in werkkapitaal:
+- voorraden 4 O0 e)
+- vorderingen 5 106.626 -198.367
+- kortlopende schulden (excl. schulden aan banken) 1 -25.540 -27.331
+81.086 -225.698
+Kasstroom uit bedrijfsoperaties 204.137 31.272
+Ontvangen interest 31 2.241 ©)
+Betaalde interest 32 -1.156 -3.595
+Belastingen 33 -22,457 -26.746
+-21.372 -30.341
+Totaal kasstroom uit operationele activiteiten 182.765 931
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa 2 -66.239 -104.288
+Totaal kasstroom uit investeringsactiviteiten -66.239 -104.288
+Kasstroom uit financieringsactiviteiten
+Aflossing langlopende schulden 10 0 0
+Kortlopend bankkrediet IN ©) le)
+Totaal kasstroom uit financieringsactiviteiten 0 0
+Mutatie geldmiddelen 116.526 -103.357
+Stand geldmiddelen per 1 januvari 7 529.956 633.313
+Stand geldmiddelen per 31 december 7 646.482 529.956
+Mutatie geldmiddelen 116.526 -103.357
+wrr Eshuis
+Eshuis Accountants en Adviseurs 6
+
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+1.4.1 Algemeen
+
+Statutaire naam en activiteiten
+
+Zorgboerderij de Korenschoof B.V. is statutair en feitelijk gevestigd te Haarle is geregistreerd onder KvK-nummer
+58052658.
+
+De activiteiten van Zorgboerderij de Korenschoof B.V. bestaan hoofdzakelijk uit het bieden van wonen en
+verblijf, behandeling en diagnostiek, dagbesteding aan jeugdigen met een verstandelijke beperking en/of
+gedragsproblematiek.
+
+Verslaggevingsperiode
+
+Deze jaarrekening heeft betrekking op het boekjaar 2023, lopend van 1 janvari 2023 tot en met 31 december
+2023. De vergelijkende cijfers hebben betrekking op boekjaar 2022, lopend van 1 januari 2022 tot en met 31
+december 2022.
+
+Continuiteitsveronderstelling
+
+De verwachting is dat het geheel van de activiteiten van Zorgboerderij de Korenschoof B.V., waaraan de activa
+en passiva dienstbaar zijn, wordt voortgezet. Deze jaarrekening is derhalve opgesteld uitgaande van de
+continuiteitsveronderstelling.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling openbare jaarverantwoording WMG (RojW).
+De jaarrekening is opgesteld in euro. Toelichtingen op posten in de balans, resultatenrekening en
+kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen. Opbrengsten en kosten
+worden toegerekend aan de periode waarop deze betrekking hebben.
+
+Bij de toepassing van de grondslagen voor de waardering en de resultaatbepaling wordt voorzichtigheid
+betracht. Winsten worden slechts opgenomen voor zover zij op balansdatum zijn verwezenlijkt. Verplichtingen die
+hun oorsprong vinden vóór het einde van het boekjaar, worden in acht genomen, indien zij vóór het opmaken
+van de jaarrekening zijn bekend geworden. Voorzienbare verplichtingen en mogelijke verliezen die hun
+oorsprong vinden vóór het einde van het boekjaar worden in acht genomen indien zij vóór het opmaken van de
+jaarrekening bekend zijn geworden.
+
+De verdere toelichting op specifieke grondslagen voor het opstellen van de jaarrekening en voor de waardering
+en resultaatbepaling komt in het hierna volgende aan de orde.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar.
+
+1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen
+naar de onderneming zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan de omvang
+betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de balans verwerkt, maar
+worden aangemerkt als niet in de balans opgenomen activa. Activa waarvan het waarschijnlijk is dat de
+realiseerbare waarde lager is dan de boekwaarde, worden afgewaardeerd tot het niveau van de hoogste van
+de indirecte en directe realiseerbare waarde.
+
+vit Eshuis
+
+Eshuis Accountants en Adviseurs
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard
+zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de omvang van het
+bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden vastgesteld. Onder
+verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan voldoen worden niet in
+de balans opgenomen, maar worden verantwoord als niet in de balans opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet leidt
+tot een belangrijke verandering in de economische realiteit met betrekking tot het actief of de verplichting.
+Dergelijke transacties geven evenmin aanleiding tot het verantwoorden van resultaten. Bij de beoordeling of er
+sprake is van een belangrijke verandering in de economische realiteit wordt vitgegaan van de economische
+voordelen en risico's die zich waarschijnlijk in de praktijk zullen voordoen en niet op voordelen en risico's
+waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of
+nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met betrekking tot het actief
+of de verplichting aan een derde zijn overgedragen. De resultaten van de transactie worden in dat geval direct
+in de winst- en verliesrekening opgenomen, rekening houdend met eventuele voorzieningen die dienen te
+worden getroffen in samenhang met de transactie. Indien de weergave van de economische realiteit ertoe leidt
+dat het opnemen van activa waarvan de rechtspersoon niet het juridisch eigendom bezit, wordt dit feit vermeld.
+
+Immateriële en materiële vaste activa
+De immateriële en materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder
+aftrek van cumulatieve afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs volgens de
+lineaire methode op basis van de verwachte economische levensduur. Er wordt afgeschreven vanaf het
+moment van ingebruikneming. Op bedrijfsterreinen en op vaste activa in ontwikkeling en vooruitbetalingen op
+materiële vaste activa wordt niet afgeschreven.
+
+Materiële vaste activa met een beperkte gebruiksduur worden afzonderlijk afschreven. In het geval dat
+belangrijkste bestanddelen van een materieel vast actief van elkaar te onderscheiden zijn en verschillen in
+gebruiksduur of verwacht gebruikspatroon, worden deze bestandsdelen afzonderlijk afgeschreven. De
+afschrijvingspercentages zijn toegelicht in de toelichting op de balans.
+
+In het geval dat de betaling van de kostprijs van een materieel vast actief plaatsvindt op grond van een langere
+dan normale betalingstermijn, wordt de kostprijs van het actief gebaseerd op de contante waarde van de
+verplichting.
+
+In het geval dat materiële vaste activa worden verworven in ruil voor een niet-monetair actief, wordt de kostprijs
+van het materieel vast actief bepaald op basis van de reële waarde voor zover de ruilfransactie leidt tot een
+wijziging in de economische omstandigheden en de reële waarde van het verworven actief of van het
+opgegeven actief op betrouwbare wijze kan worden vastgesteld.
+
+Vervreemding van vaste activa
+Voor verkoop beschikbare activa worden gewaardeerd tegen boekwaarde of lagere opbrengstwaarde.
+
+Voorraden
+
+Voorraden zijn gewaardeerd tegen kostprijs onder aftrek van een voorziening voor incourantheid, of tegen
+lagere opbrengstwaarde.
+
+Vorderingen
+
+Vorderingen worden gewaardeerd tegen nominale waarde. Een voorziening wordt getroffen op de vorderingen
+op grond van verwachte oninbaarheid.
+
+Een vordering uit hoofde van financieringstekorten of een schuld vit hoofde van financieringsoverschotten is het
+aan het einde van het boekjaar bestaande verschil tussen het wettelijk budget voor aanvaardbare kosten en de
+ontvangen voorschotten en de in rekening gebrachte vergoedingen voor diensten en verrichtingen ter dekking
+van het wettelijk budget.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan
+twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de nominale waarde.
+
+rt Eshuis
+
+
+Zorgboerderij de Korenschoof B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één
+jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de nominale waarde.
+De aflossingsverplichtingen voor het komend jaar van de langlopende schulden worden opgenomen onder
+kortlopende schulden.
+
+1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming
+van de hiervoor reeds vermelde grondslagen. Baten en lasten worden verwerkt in het jaar waarop zij betrekking
+hebben. Daarbij wordt voorzichtigheid betracht overeenkomstig de grondslagen die gelden voor het opnemen
+van activa en passiva (zoals eerder vermeld).
+
+Baten en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit boekjaar
+toegerekend. In het geval van een geconstateerde fout in voorgaande boekjaren wordt foutherstel toegepast.
+
+Pensioenen
+
+Zorgboerderij de Korenschoof B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in
+aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is
+gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft
+opgebouwd bij Zorgboerderij de Korenschoof B.V. De verplichtingen, die voortvloeien uit deze rechten van haar
+personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn (PFZW). Zorgboerderij de
+Korenschoof B.V. betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft door
+de werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van
+het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit
+
+toelaat.
+
+Zorgboerderij de Korenschoof B.V. heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval
+van een tekort bij het pensioenfonds, anders dan het effect van hogere toekomstige premies. Zorgboerderij de
+Korenschoof B.V. heeft daarom alleen de verschuldigde premies tot en met het einde van het boekjaar in de
+jaarrekening verantwoord.
+
+1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht
+bestaan vit de liquide middelen en beleggingen die zonder beperkingen en zonder materieel risico van
+waardeverminderingen als gevolg van de transactie kunnen worden omgezet in geldmiddelen.
+
+1.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de
+datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de
+
+jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de gebruikers
+van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de jaarrekening.
+
+1.4.6 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft Zorgboerderij de Korenschoof B.V. zich
+gehouden aan de wet- en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels. De
+WNT- verantwoording inzake Zorgboerderij de Korenschoof B.V. is opgenomen in de toelichting op de
+resultatenrekening.
+
+vit Eshuis
+
+Eshuis Accountants en Adviseurs
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+2. Materiële vaste activa
+
+Bedrijts- Andere
+gebouwen vaste
+en - bedrijfs- Vervoersmid
+terreinen middelen delen Totaal
+€ € € €
+Stand per 1 januari 2023
+- aanschafwaarde 80.189 482.270 35.823 598.282
+- cumulatieve afschrijvingen 48.937 340.837 26.950 416.724
+Boekwaarde per 1 janvari 2022 31.252 141.433 8.873 181.558
+Mutaties in het boekjaar
+- investeringen 0) 64.524 37.200 101.724
+- afschrijvingen 6.254 41.392 8.825 56.471
+- desinvesteringen
+aanschafwaarde 17.614 17.870 0 35.484
+cumulatieve afschrijvingen 14,249 11.333 e) 25.582
+per saldo 3.365 6.537 0 9,902
+Mutaties in boekwaarde (per saldo) -9,619 16.595 28.375 35.351
+Stand per 31 december 2023
+- aanschafwaarde 62.575 528.924 73.023 664.522
+- cumulatieve herwaarderingen e) ©) 0) 0)
+- cumulatieve afschrijvingen 40.942 370.896 35.775 447.613
+Boekwaarde per 31 december 2023 21.633 158.028 37.248 216.909
+Afschrijvingspercentage 10,0% 20,0% 20,0%
+4. Voorraden
+De specificatie is als volgt: 31-dec-23 31-dec-22
+€ €
+Veestapel € 10.000 € 10.000
+
+5. Vorderingen
+
+De voorziening die in aftrek op de vorderingen is gebracht, bedraagt € 10.446 (2022: € 14.234).
+
+De overige vorderingen en overlopende activa kunnen als volgt worden gespecificeerd:
+31-dec-23 31-dec-22
+
+€ €
+Vorderingen uit hoofde van financieringstekort 0 10.300
+Nog te factureren 394.203 361.574
+Debiteuren 181.423 334.889
+Rekening-covrant verhoudingen 71.267 72.879
+Te vorderen vennootschapsbelasting 8.067 0
+Diversen 32.908 14.852
+Totaal overige vorderingen en overlopende activa 65/.868 194494
+
+De bedragen opgenomen aangaande het financieringstekort is als volgt opgebouwd:
+
+rit Eshuis …
+
+Eshuis Accountants en Adviseurs | 0
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.5 TOELICHTING OP DE BALANS
+
+Vorderingen vit hoofde van financieringstekort en schulden uit hoofde van financieringsoverschot
+
+2022 2023 totaal
+€ € €
+Saldo per 1 januari 10.300 0) 10.300
+Financieringsverschil boekjaar -475 0) -475
+Correcties voorgaande jaren -9.825 -9.825
+Betalingen/ontvangsten ol
+Subtotaal mutatie boekjaar -10.300 0 -10.300
+Saldo per 31 december 0) 0 e)
+31-dec-23 31-dec-22
+€ €
+Waarvan gepresenteerd als:
+- overige vorderingen 0) 10.300
+- overige schulden
+0 10.300
+Specificatie financieringsverschil in het boekjaar 31-dec-23 31-dec-22
+€ €
+Wettelijk budget voor aanvaardbare kosten 1.744.592 1.673.083
+Af: vergoedingen ter dekking van het wettelijk budget -1.744.592 -1.662.7/83
+Totaal financieringsverschil 0 10.300
+7. Liquide middelen
+De liquide middelen kunnen als volgt worden gespecificeerd:
+31-dec-23 31-dec-22
+€ €
+Bankrekeningen 646.482 529.956
+Totaal liguide middelen 646.482 529.956
+PASSIVA
+8. Eigen vermogen
+Gestort en opgevraagd kapitaal
+Saldo per Resultaat- Overige Saldo per
+1-jan-2023 bestemming mutaties 31-dec-2023
+€ € € €
+Gestort en opgevraagd kapitaal 100 6) 0 100
+Totaal gestort en opgevraagd kapitaal 100 0) [°) 100
+Agio
+Saldo per Resultaat- Overige Saldo per
+1-jan-2023 bestemming mutaties 31-dec-2023
+€ € € id
+Agio 428.244 6) 0 428.244
+Totaal agio 428.244 e) °) 428.244
+
+ri» Eshuis
+
+11
+
+
+Zorgboerderij de Korenschoof B.V.
+
+1.5 TOELICHTING OP DE BALANS
+
+Overige reserves
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-2023 bestemming mutaties 31-dec-2023
+€ € € €
+
+Overige reserves:
+Algemene en overige reserves 450.055 70.790 0) 520.845
+Totaal overige reserves 450.055 70.790 [°) 520.845
+
+11. Kortlopende schulden
+
+De overige schulden en overige passiva kunnen als volgt worden gespecificeerd:
+
+31-dec-23 31-dec-22
+
+€ €
+Overige schulden:
+- Crediteuren 40.698 59.423
+- Nog te betalen salarissen 0 324
+-Te betalen vennootschapsbelasting 0 83.580
+- Schulden inzake pensioenen 97.962 60.760
+- Belastingen en sociale verzekeringen 146.249 131.397
+Totaal overige schulden 284.910 335.484
+Overige passiva:
+- Vakantiegeld 101.338 93.417
+- Vakantiedagen 176.630 135.984
+- Overig personeelsgerelateerd 15.896 24.524
+- Diversen 33.295 48.200
+Totaal overige passiva 327.158 302.125
+12. Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+Hvurverplichtingen
+De met derden aangegane meerjarige huurverplichtingen van onroerende zaken betreffen:
+Onroerende zaak Geschatte Omvang Omvang Einddatum
+
+jaarhuursom verplichting verplichting huurcontrac
+2024 in € 2-5jaarin€ >5jaarin€ tf
+
+Huur vastgoed Zorg-locatie 257.040 771.120 31-12-2027
+Snoeymansweg 13, Haarle
+
+Huur ten Velde 9.780 31-12-2024
+Huur Wolbert Zuppo 7.980 31-12-2024
+Totaal 274.800 771.120 0
+
+12
+
+
+Zorgboerderij de Korenschoof B.V.
+
+1.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+BATEN
+2023 2022
+14, Baten uit beroeps- of bedrijfsmatige zorgverlening € €
+Wet langdurige zorg 1.744.592 1.676.088
+Jeugdwet 1.895.905 1.433.406
+Wet Maatschappelijke Ondersteuning 9,634 6.590
+Overige zorgprestaties 640.268 671.958
+Totaal 4.290.400 3.788.042
+15. Overige bedrijfsopbrengsten
+De overige bedrijfsopbrengsten kunnen als volgt worden gespecificeerd:
+2023 2022
+€ €
+Subsidies:
+- Rijkssubsidies (niet zijnde baten vit beroeps- of bedrijfsmatige zorgverlening) 0 0
+- Overige loonkostensubsidies 0 18.837
+- Overige subsidies 98.710 101.148
+Overige opbrengsten:
+- Overige opbrengsten 2.574 143.368
+Totaal 101.284 263.353
+LASTEN
+16. Kosten uitbesteed werk en andere externe kosten
+De kosten uitbesteed werk en andere externe kosten kunnen als volgt worden gespecificeerd:
+2023 2022
+€ €
+Kosten personeel niet in loondienst:
+- Kosten ingehuurd personeel/ uitzendkrachten 93.919 105.118
+Totaal 93.919 105.118
+17. Lonen en salarissen
+De lonen en salarissen kunnen als volgt worden gespecificeerd:
+2023 2022
+€ €
+Lonen en salarissen 2.574.382 2.274.721
+Sociale lasten 425.856 387.676
+Pensioenpremies 188.166 168.643
+Ziekteverzuimverzekering 0 35.928
+Overige personeelskosten 104.314 57.335
+Totaal 3.292.718 2.924.303
+Het gemiddelde aantal personeelsleden op basis van full-time eenheden (fte's) is als volgt:
+46 40
+46 40
+13
+
+
+Zorgboerderij de Korenschoof B.V.
+
+1.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+18. Afschrijvingen op immateriële en materiële vaste activa
+
+De afschrijvingen op immateriële en materiële vaste activa kunnen als volgt worden gespecificeerd:
+2023 2022
+€ €
+Afschrijvingen:
+- materiële vaste activa 56.471 51.732
+Totaal afschrijvingen 56.471 51.732
+
+20. Overige waardevermindering immateriële en materiële vaste activa
+
+De overige waardevermindering immateriële en materiële vaste activa kan als volgt worden gespecificeerd:
+2023 2022
+€ €
+Overige waardevermindering van:
+- materiële vaste activa, desinvesteringen 9.902 6.237
+Totaal 9.902 6.237
+21. Overige bedrijfskosten
+De overige bedrijfskosten kunnen als volgt worden gespecificeerd:
+2023 2022
+€ €
+Voedingsmiddelen en hotelmatige kosten 135.673 129.482
+Patiënt- en bewonersgebonden kosten 100.618 91.910
+Algemene kosten 267.731 193.213
+Huur en leasing 292.358 284.650
+Onderhoudskosten 19.143 19.280
+Energiekosten 30.990 46.787
+Totaal overige bedrijfskosten 846.512 765.322
+31. Andere rentebaten en soortgelijke opbrengsten
+De andere rentebaten en soortgelijke opbrengsten kunnen als volgt worden gespecificeerd: |
+2023 2022
+€ €
+Rente rekening courantverhoudingen -2.241 0
+Totaal -2.241 0
+
+rit Eshuis …
+
+Eshuis Accountants en Adviseurs 4 4
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+32. Rentelasten en soortgelijke kosten
+
+De rentelasten en soortgelijke kosten kunnen als volgt worden gespecificeerd:
+2023 2022
+€ €
+Overige financiële lasten 1.156 3.595
+Totaal 1.156 3.595
+33. Belastingen
+De belastingen kunnen als volgt worden gespecificeerd:
+2023 2022
+€ €
+Vennootschapsbelasting 22.457 26.746
+Totaal 22.457 26.746
+wrr Eshuis
+
+Eshuis Accountants en Adviseurs 4 5
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+Zorgboerderij de Korenschoof B.V.
+
+1.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+De bezoldiging van de leden van de raad van bestuur (en overige topfunctionarissen) over het jaar
+
+2022 is als volgt:
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen
+
+zonder dienstbetrekking vanaf de 13e maand van de functievervulling
+
+1 Functie (functienaam)
+
+2 In dienst vanaf (datum begin functievervulling)
+
+3 In dienst tot en met (datum einde functievervulling)
+
+4 (Fictieve) dienstbetrekking?
+
+5 Deeltijdfactor (minimaal 0,025 fte)
+
+é Beloning plus belastbare onkostenvergoedingen
+Totale bezoldiging vit hoofde van de functie van
+topfunctionaris
+
+9 Individueel toepasselijk bezoldigingsmaximum
+
+12 Totale bezoldiging
+
+Vergelijkende cijfers 2022
+
+1 (Fictieve) dienstbetrekking?
+
+2 Deeltijdfactor (minimaal 0,025 fte)
+
+3 Beloning plus belastbare onkostenvergoedingen
+
+4 Voorzieningen ten behoeve van beloningen betaalbaar op
+termijn
+Totale bezoldiging vit hoofde van de functie van
+
+5 topfunctionaris
+
+ó6 Individveel toepasselijk bezoldigingsmaximum
+
+Toezichthoudende topfunctionarissen met totale bezoldiging van meer dan € 1.800
+
+A.M. Ter Keurs -
+Nieuwe Weme
+DGA/Bestuurder
+
+1-jan-23
+31-dec-23
+Nee
+
+100%
+120.000
+
+120.000
+
+151.000
+
+120.000
+
+Nee
+100%
+110.400
+
+9)
+110.400
+
+120.000
+
+1 Functie (functienaam)
+2 In dienst vanaf (datum begin functievervulling)
+3 In dienst tot en met (datum einde functievervulling)
+
+4 Totale bezoldiging in het kader van de WNT
+
+5 Individueel toepasselijk bezoldigingsmaximum
+
+U Individveel toepasselijk maximum beëindigingsvergoeding
+
+1 Functie (functienaam)
+2 In dienst vanaf (datum begin functievervulling)
+3 In dienst tot en met (datum einde functievervulling)
+
+4 Totale bezoldiging in het kader van de WNT
+
+5 Individveel toepasselijk bezoldigingsmaximum
+
+7 Individueel toepasselijk maximum
+
+R. M. Salman M. ter Riet
+Voorzitter RvC Lid RvC
+13-jul-23 13-jul-23
+31-dec-23 31-dec-23
+2.250 2.250
+12.269 8.179
+L.J. Schoo A.G.J. Raanhuis
+Lid RvT/RvVC Lid RvT/RvVC
+13-jul-23 13-jul-23
+31-dec-23 31-dec-23
+2.250 2.250
+8.179 8.179
+
+niet overschreden.
+
+Conform de Regeling bezoldigingsmaxima topfunctionarissen zorg- en jeugdhulp wordt aan
+
+Zorgboerderij de Korenschoof een totaalscore van 8 punten toegekend. De daaruit volgende
+klassenindeling betreft klasse Il, met een bijbehorend bezoldigingsmaximum voor de raad van bestuur
+van € 151.000. Dit maximum wordt niet overschreden door de raad van bestuur. Het bijbehorende
+bezoldigingsmaximum voor de voorzitter van de raad van toezicht/commissarissen bedraagt € 22.650
+en voor de overige leden van de raad van toezicht/commissarissen € 15.100. Deze maxima worden
+
+vit Eshuis
+
+Eshuis Accountants en Adviseurs
+Alleen geparafeerd
+voor meldingsdoeleinden
+RSK | 23-05-2024
+
+16

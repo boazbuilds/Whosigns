@@ -16,9 +16,16 @@ Gemeten op een steekproef van 41 zorg-pdf's (juli 2026, boekjaar 2023):
 verklaring waarin de kantoornaam alleen als logo staat — die gaan naar de
 review-queue.
 
-Guardrail: we halen uitsluitend de kantoornaam op. De naam van de tekenend
-accountant staat wel in de tekst, maar wordt niet gezocht, niet teruggegeven en
-niet gelogd.
+Guardrail: de kantoornaam, plus sinds 20-8-2026 de naam van de tekenend
+accountant — mits die uit een openbare bron komt, en dat is de gedeponeerde
+verklaring zelf. Zie `docs/concept.md` §9 voor de grondslag; die is níét dat
+accountants buiten de AVG vallen. Andere natuurlijke personen blijven eruit, ook
+in de teruggave en in logregels.
+
+De naam wordt gezocht door `ondertekenaar.py`, op de ruwe tekst, en hij komt
+alleen mee als het blok waar hij in staat hetzelfde oordeel draagt als het
+document. Anders zou in een jaarverslag met zowel een jaarrekeningverklaring als
+een WNT-verklaring willekeurig zijn welke naam bij welk oordeel belandt.
 """
 
 import os
@@ -625,6 +632,7 @@ def analyseer(tekst: str, index: dict) -> dict:
     geval in de review_queue in plaats van te gokken.
     """
     from kantoor_match import zoek_kantoor
+    from ondertekenaar import zoek_ondertekenaar
 
     genormaliseerd = normaliseer(tekst)
     if len(genormaliseerd) < 50:
@@ -633,6 +641,7 @@ def analyseer(tekst: str, index: dict) -> dict:
             "oordeel": None,
             "continuiteitsonzekerheid": None,
             "kantoor": None,
+            "tekenend_accountant": None,
             "kandidaten": [],
             "wta_kenmerk": None,
             "reden": "geen tekstlaag (gescande pdf)",
@@ -647,6 +656,27 @@ def analyseer(tekst: str, index: dict) -> dict:
     zwakke_treffer = treffer["kantoor"]["naam"] if treffer and treffer["zwak"] else None
     if zwakke_treffer:
         treffer = None
+
+    # De ondertekenaar, en alleen als hij bij hétzelfde oordeel hoort.
+    #
+    # `oordeel` hierboven wordt over de hele tekst bepaald: de eerste treffer
+    # wint. De naam komt daarentegen uit één blok. In een jaarverslag met zowel
+    # een goedkeurende jaarrekeningverklaring als een WNT-verklaring mét
+    # beperking is het dan willekeurig welke naam bij welk oordeel belandt — en
+    # dat zijn precies de twee stukken die de bron zelf ook door elkaar haalt
+    # (zie de migratie 20260820130000). Een naam onder een oordeel dat hij niet
+    # heeft afgegeven is geen leemte maar een beschuldiging, dus: komt het
+    # blokoordeel niet overeen met het documentoordeel, dan geen naam.
+    ondertekenaar = zoek_ondertekenaar(
+        tekst, treffer["kantoor"]["naam"] if treffer else None
+    )
+    tekenend_accountant = None
+    if ondertekenaar["naam"] and soort == "controle":
+        blok = ondertekenaar["blok"]
+        blokoordeel = _oordeel(normaliseer(tekst[blok[0] : blok[1]])) if blok else None
+        if blokoordeel == oordeel:
+            tekenend_accountant = ondertekenaar["naam"]
+
     return {
         "soort": soort,
         # Waar de controle over gaat. None betekent: het is wél een
@@ -665,6 +695,10 @@ def analyseer(tekst: str, index: dict) -> dict:
         ),
         "continuiteitsonzekerheid": _continuiteitsonzekerheid(genormaliseerd),
         "kantoor": treffer["kantoor"] if treffer else None,
+        # Zie hierboven: alleen ingevuld als de naam op een ondertekeningsplek
+        # stond in een blok waarvan het oordeel gelijk is aan het documentoordeel.
+        # Leeg betekent "niet vastgesteld", nooit "niet getekend".
+        "tekenend_accountant": tekenend_accountant,
         # Aanwijzing dat het om een wettelijke controle gaat; de aanroeper beslist
         # wat hij ermee doet (zie laad_stichtingen.py).
         "wta_kenmerk": _eerste_treffer(genormaliseerd, [("wta", WTA_KENMERKEN)]) == "wta",

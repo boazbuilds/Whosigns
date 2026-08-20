@@ -92,6 +92,10 @@ RAPPORT_KOLOMMEN = [
     "kvk", "naam", "plaats", "boekjaar", "kantoor", "kantoor_sleutel",
     "afm_nummer", "type_opdracht", "oordeel", "grond_beperking",
     "continuiteitsonzekerheid",
+    # Achteraan, en dat is geen smaak: laad_zorg_rapport leest op naam, maar
+    # nakijk_ocr schrijft met een DictWriter op volgorde. Een kolom ertussen
+    # schuift oude rapporten stil op.
+    "tekenend_accountant",
 ]
 
 # Woorden die in honderden zorgnamen voorkomen en dus niets onderscheiden.
@@ -367,6 +371,24 @@ def main() -> int:
     )
 
     rapport_pad = CACHE / f"resultaat_{boekjaar}.csv"
+    # Bestaat er al een rapport, dan moet de kopregel kloppen vóór we er rijen
+    # achteraan zetten. Zonder deze controle schreef een lader met een andere
+    # kolomlijst gewoon door onder een oude kop -- dat is precies wat er op
+    # 17-8-2026 gebeurde, en het commentaar bij herstel_rapport() in
+    # oogst_zorg.sh beschrijft die dag uitvoerig terwijl de code hier vijftig
+    # regels verderop niets deed. oogst_zorg.sh vangt het geval waarin híj het
+    # rapport terugzet; dit vangt iedereen die laad_zorg.py los aanroept, en dat
+    # kan: alle vlaggen staan in de docstring bovenaan.
+    if rapport_pad.exists() and rapport_pad.stat().st_size > 0:
+        with rapport_pad.open(encoding="utf-8") as eerst:
+            kop = (eerst.readline() or "").rstrip("\r\n")
+        if kop != ",".join(RAPPORT_KOLOMMEN):
+            print(f"{rapport_pad}: de kopregel is niet die van deze laad_zorg.py.")
+            print(f"  gevonden : {kop}")
+            print(f"  verwacht : {','.join(RAPPORT_KOLOMMEN)}")
+            print("  Er wordt niets bijgeschreven; zet het bestand eerst om of "
+                  "haal het weg.")
+            return 1
     rapport = rapport_pad.open("a", newline="", encoding="utf-8")
     schrijver = csv.writer(rapport)
     if rapport.tell() == 0:
@@ -379,6 +401,7 @@ def main() -> int:
 
     gevonden = 0
     mislukt = 0
+    bronfouten = 0
     per_kantoor: dict[str, int] = {}
     begin = time.time()
 
@@ -419,12 +442,30 @@ def main() -> int:
             pdf.unlink(missing_ok=True)
 
     def haal_op(organisatie: dict):
-        """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel."""
+        """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel.
+
+        Geeft drie dingen terug, en die derde is het hele punt: een fout van de
+        bron is iets anders dan een organisatie die niets heeft gedeponeerd.
+
+        Allebei kwamen hier vroeger terug als `None`, en de lus schreef die
+        allebei weg als "bekeken". Met --hervat betekent dat "nooit meer": een
+        archief dat tien minuten 502 geeft schreef zo tientallen organisaties
+        voorgoed af, en de run eindigde netjes groen. De foutregel begint met
+        twee spaties en werd door het grep-filter van oogst_zorg.sh uit het log
+        gehouden, dus er bleef ook geen spoor van over.
+
+        Wat hier daadwerkelijk doorschiet naar de except: beide aanroepen van
+        digimv_archief.zoek(), en de bewuste harde RuntimeError van
+        pdf_naar_tekst als pdftotext ontbreekt — een fout die juist is bedoeld om
+        een run niet stilletjes leeg te laten eindigen. Een mislukte download
+        wordt al eerder afgevangen (adapters/digimv.py) en komt langs de gewone
+        weg terug als "niets gevonden", wat klopt.
+        """
         try:
-            return organisatie, zoek_met_terugval(organisatie, boekjaar, kantoor_index)
+            return organisatie, zoek_met_terugval(organisatie, boekjaar, kantoor_index), None
         except Exception as fout:  # noqa: BLE001 — bron mag falen, run gaat door
             print(f"  {organisatie['naam'][:50]}: fout {fout}", flush=True)
-            return organisatie, None
+            return organisatie, None, fout
 
     # Ophalen gebeurt parallel, wegschrijven blijft in deze ene draad: dat scheelt
     # sloten rond de csv en de database, en schrijven is toch niet de bottleneck.
@@ -432,7 +473,7 @@ def main() -> int:
     # gelden, dus meer werkers verhogen het tempo maar niet grenzeloos — met vier
     # werkers blijft het verzoektempo in de orde van een paar per seconde.
     with ThreadPoolExecutor(max_workers=argumenten.werkers) as pool:
-        for teller, (organisatie, resultaat) in enumerate(
+        for teller, (organisatie, resultaat, fout) in enumerate(
             pool.map(haal_op, te_doen), start=1
         ):
             if teller % 25 == 0:
@@ -442,6 +483,21 @@ def main() -> int:
                     f"{mislukt} zonder kantoor | {verstreken/60:.1f} min ---",
                     flush=True,
                 )
+
+            if fout is not None:
+                # De bron gaf een fout, dus we weten niets over deze organisatie.
+                # Juist dan mag er géén aantekening komen: "bekeken" betekent hier
+                # "nooit meer", en dan zou een storing van tien minuten permanent
+                # gaten in een boekjaar slaan.
+                #
+                # Werk overdoen is te overzien, werk stilletjes overslaan niet.
+                # De organisatie blijft dus vooraan in de wachtrij staan. Blijft
+                # de bron stuk, dan groeit de bekekenlijst niet, en dan stopt
+                # oogst_zorg.sh vanzelf na drie lege blokken -- precies de rem die
+                # met de oude aanpak nooit aantrok, omdat de lijst juist wél
+                # groeide van de afgeschreven organisaties.
+                bronfouten += 1
+                continue
 
             if not resultaat:
                 # Ook een organisatie die niets opleverde is bekeken, en juist díé
@@ -478,6 +534,7 @@ def main() -> int:
                 type_opdracht, resultaat["oordeel"],
                 resultaat["grond_beperking"] or "",
                 "ja" if resultaat["continuiteitsonzekerheid"] else "",
+                resultaat.get("tekenend_accountant") or "",
             ])
             rapport.flush()
 
@@ -538,6 +595,10 @@ def main() -> int:
                     # WNT-intragroepdetachering gaat en niet om de jaarrekening.
                     "grond_beperking": resultaat["grond_beperking"],
                     "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
+                    # Leeg moet null worden en geen lege tekst: de kolom is vrij
+                    # tekst, en "" zou op de site een naam met nul letters worden
+                    # in plaats van een streepje. Zelfde les als bij `oordeel`.
+                    "tekenend_accountant": resultaat.get("tekenend_accountant") or None,
                     "bron_id": bron_id,
                 }
                 # Honoraria en de zelfgerapporteerde wisselvlag zijn cijfers over
@@ -567,8 +628,9 @@ def main() -> int:
     if verwerkt_log is not None:
         verwerkt_log.close()
     print(f"\n=== boekjaar {boekjaar}: {gevonden} opdrachten, "
-          f"{mislukt} zonder herleidbaar kantoor "
-          f"({(time.time()-begin)/60:.0f} min) ===\n")
+          f"{mislukt} zonder herleidbaar kantoor"
+          + (f", {bronfouten} overgeslagen na een bronfout" if bronfouten else "")
+          + f" ({(time.time()-begin)/60:.0f} min) ===\n")
 
     print("Marktaandeel in deze run:")
     for naam, aantal in sorted(per_kantoor.items(), key=lambda p: -p[1])[:25]:

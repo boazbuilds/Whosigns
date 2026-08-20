@@ -64,7 +64,14 @@ def functies_uit_script() -> str:
             raise AssertionError(f"de functie {naam} staat niet meer in het script")
         posities.append(plek)
     begin = min(posities)
-    einde = re.search(r"^herstel_rapport$", tekst[begin:], re.MULTILINE)
+    # De aanroep stond hier eerst als een kale regel `herstel_rapport`. Sinds
+    # 20-8-2026 wordt zijn afloop gebruikt (`if ! herstel_rapport && ...`), want
+    # een geweigerde repo-kopie moet de hele oogst stoppen in plaats van door te
+    # laten lopen met een lege bak. Het knippunt is daarom de aanroep in welke
+    # vorm dan ook: een regel die met herstel_rapport begint of eindigt.
+    einde = re.search(
+        r"^(?:if ! )?herstel_rapport(?!\(\))\b.*$", tekst[begin:], re.MULTILINE
+    )
     if einde is None:
         raise AssertionError("de aanroep van herstel_rapport staat niet meer in het script")
     return tekst[begin : begin + einde.start()]

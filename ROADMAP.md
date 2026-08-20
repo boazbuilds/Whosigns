@@ -125,6 +125,17 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
       Ligt binnen handbereik: de doelpopulatie van boekjaar 2023 is er precies 1.010
 - [ ] **Mijlpaal B: volledige zorgsector** voor de jaren waar de bron het toelaat
 - [ ] Steekproefcontrole: 25 organisaties handmatig naleggen tegen de bron
+      - 20-8-2026 gedaan, maar gericht in plaats van willekeurig: alle 15 gevallen
+        waarin ons oordeel en het datasetveld elkaar tegenspreken
+        (`v_oordeel_afwijking`, boekjaar 2023). Twaalf ervan zijn met de
+        gedeponeerde pdf ernaast gelezen; **alle twaalf keer klopte onze
+        extractie en zat het datasetveld ernaast**. Het patroon is telkens
+        hetzelfde: de bron haalt het WNT-oordeel en het jaarrekeningoordeel door
+        elkaar, in beide richtingen. De onderbouwing per organisatie staat in
+        `supabase/migrations/20260820130000_oordeelvergelijking_zonder_wnt.sql`.
+      - Nog te doen: een wíllekeurige steekproef, want dit keek alleen naar de
+        gevallen waar twee bronnen het oneens zijn. Waar ze het eens zijn kunnen
+        ze samen miszitten, en dat vindt deze controle niet.
 
 **Wat de proefrit over boekjaar 2023 leerde** (droogloop, zie `digimv.md`):
 

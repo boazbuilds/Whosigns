@@ -17,9 +17,27 @@ import type { Kantoor, OpdrachtMetKantoor, OpdrachtMetOrganisatie } from "./db";
  * jaarrekening, en zonder dit filter kreeg een organisatie een "wisseling"
  * aangesmeerd omdat de productieverantwoording bij kantoor B lag terwijl de
  * jaarrekening gewoon bij A bleef — of ging de kop "Huidige accountant" over
- * de WNT-controleur. `controle_onbepaald` telt wél mee (het ís de
- * jaarrekeningcontrole, alleen het voorwerp was niet vast te stellen), ook al
- * laat v_wisselingen die 19 rijen buiten beschouwing.
+ * de WNT-controleur.
+ *
+ * `controle_onbepaald` telt hier wél mee en in de SQL-views níét. Dat verschil
+ * is met opzet, maar het stond hier verkeerd opgeschreven: er stond dat het
+ * "ís de jaarrekeningcontrole". Dat is precies wat we niet weten. laad_zorg.py
+ * geeft dit type juist aan een verklaring waarvan het voorwerp níét viel vast
+ * te stellen, in plaats van het zwaarste type te gokken — het kan dus net zo
+ * goed een WNT-verantwoording zijn.
+ *
+ * Waarom het hier tóch meetelt: op de organisatiepagina staat naast dit jaar
+ * het label "controle, voorwerp onbekend" (SOORTGROEP zet het op `onbekend`,
+ * met uitleg in de titel). De lezer ziet de onzekerheid dus in dezelfde regel
+ * als de bewering. Weglaten zou 49 organisatie-boekjaren leeg maken, waarvan er
+ * 22 organisaties zijn die verder geen enkele kantoorrelatie hebben — een
+ * gelezen, ondertekende verklaring die nergens meer te zien is.
+ *
+ * In de views telt het niet mee, want daar zou het ongemerkt als
+ * jaarrekeningcontrole in een marktaandeel belanden. Gemeten op 20-8-2026 gaat
+ * het om 49 opdrachten bij 41 organisaties, verdeeld over 2019-2025. Zouden de
+ * views ze meenemen, dan groeit v_wisselingen van 1.689 naar 1.691 rijen en
+ * v_relatieduur van 8.108 naar 8.127.
  */
 const TYPE_VOORRANG: Record<string, number> = {
   wettelijke_controle: 0,
@@ -86,9 +104,18 @@ export function periodes(opdrachten: OpdrachtMetKantoor[]): Periode[] {
   return uit;
 }
 
-/** Boekjaren waarin het controlerende kantoor anders was dan het boekjaar
- *  ervoor — dezelfde definitie als v_wisselingen: opeenvolgende jaren, ander
- *  kantoor. */
+/**
+ * Boekjaren waarin het controlerende kantoor anders was dan het boekjaar ervoor:
+ * opeenvolgende jaren, ander kantoor.
+ *
+ * Bijna dezelfde definitie als v_wisselingen, maar niet helemaal, en hier stond
+ * eerst dat het er wél dezelfde was. Het verschil zit in `controle_onbepaald`
+ * (zie TYPE_VOORRANG hierboven): twee wisselingen die deze functie aanwijst
+ * staan daardoor niet op /wisselingen. Op de organisatiepagina staan ze naast
+ * het label "controle, voorwerp onbekend"; /wisselingen laat ze weg omdat een
+ * verklaring waarvan het voorwerp onbekend is geen bewijs is dat de
+ * jaarrekeningcontrole verhuisde.
+ */
 export function wisseljaren(opdrachten: OpdrachtMetKantoor[]): Set<number> {
   const perJaar = controleKantoorPerJaar(opdrachten);
   const jaren = new Set<number>();

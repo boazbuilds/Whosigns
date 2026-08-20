@@ -26,7 +26,10 @@ Geen match, of een match die te kort/te generiek is -> None, zodat de aanroeper 
 geval in de review_queue kan zetten. Nooit stil gokken.
 
 Guardrail: deze module raakt alleen kantoorNAMEN. Namen van tekenende accountants
-(natuurlijke personen) worden niet gezocht, niet geretourneerd en niet gelogd.
+(natuurlijke personen) worden hier niet gezocht en niet geretourneerd: deze
+module gaat over kantoornamen. De ondertekenaar wordt sinds 20-8-2026 wél
+vastgelegd, maar door extractie/ondertekenaar.py en op de ruwe tekst — zie
+de kop van dat bestand voor waarom het niet hier gebeurt.
 """
 
 import csv
