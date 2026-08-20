@@ -1,0 +1,23 @@
+# whosigns-ocr v1 grootte=131143 dpi=300 paginas=20
+Il JAARREKENING
+
+Wallerbosch Van Wees Administraties
+
+B Winst-en-verliesrekening 01-01 tot en met 31-12
+2023 2022
+€ %o € %
+
+Netto omzetten 847.537 100,00 671.882 100,00
+Kostprijs van de omzetten 34.383 4,06 25.462 3,79
+Bruto-marge 813.154 95,94 646.420 96,21
+Loonkosten 537.562 63,43 387.623 57,69
+Verkoopkosten 6.512 0,77 958 0,14
+Autokosten 9.790 1,16 8.779 1:31
+Algemene kosten 141.263 16,67 42.140 6,27
+Interest -6.601 -0,78 -625 -0,09
+Afschrijvingen 14.849 1,75 13.165 1,96
+Som bedrijfslasten 703.375 82,99 452.040 67,28
+Resultaat voor belasting 109.779 12,95 194.380 28,93
+Vennootschapsbelasting 20.739 2,45 29.009 4,32
+Resultaat na belasting 89.040 10,51 165.371 24,61
+
