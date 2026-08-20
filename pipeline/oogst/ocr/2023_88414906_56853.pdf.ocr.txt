@@ -1,0 +1,876 @@
+# whosigns-ocr v1 grootte=806471 dpi=300 paginas=20
+bh hollands
+advies
+
+belastingadviseurs
+
+Inhoudsopgave Pagina
+1 Algemeen 1
+1.1 Resuffaatvergelijking 2
+1.2 Resulfaatanalyse 4
+2 Jaarrekening 5
+2.1 Balans per 31-12-2023 5
+2.2 Winst-en-verliesrekening 2023 7
+2.3 Grondslagen van de jaarrekening 9
+2.3.1 Grondslagen voor de balanswaardering passiva 9
+24 Verbonden partijen 9
+2.4.1 Specificatie aandeelhouder(s) 9
+2,5 Winstbestemming 9
+2.6 Toelichting balans activa per 31-12-2023 10
+2.6.1 Immateriële vaste activa 10
+2.6.2 Materiële vaste activa 10
+2.6.3 Financiële vaste activa 10
+2.6.4 Voorraden 10
+26.5 Vorderingen 10
+2.6.6 Liquide middelen 11
+2.7 Toelichting balans passiva per 31-12-2023 12
+2.11 Ondememingsvermogen 12
+2.7.2 Voorzieningen 12
+2.7.3 Kortlopende schulden 12
+2.8 Toelichting winst-en-verliesrekening 2023 14
+2.8.1 Opbrengsten 14
+2.8.2 Inkoopkosten en uitbesteed werk 15
+2.8.3 Personeelskosten 15
+2.8.4 Afschrijvingen 16
+2.8.5 Overige bedrijfskosten 16
+
+2.8.6 Financiële baten en lasten 18
+
+hb hollands
+t advies
+belastingadviseurs
+pagina: 1
+
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+
+1 Algemeen
+
+Deze jaarrekening is op fiscale cijfers gebaseerd.
+
+De besloten vennootschap DOKO18 Kind en Jeugd B.V. heeft de volgende handelsnamen: DOKO18 Kind en
+Jeugd B.V.
+
+De besloten vennootschap is gezeteld in Koudekerke.
+
+De besloten vennootschap is ingeschreven bij de Kamer van Koophandel onder dossiernummer 88414906.
+
+Datum vaststelling jaarrekening
+De jaarrekening 2023 is vastgesteld in de Algemene Vergadering gehouden op 22-05-2024.
+
+hb hollands
+[ advies
+
+belastingadviseurs
+
+pagina: 2
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+1.1 Resultaatvergelijking
+2023 2022
+€ % € %
+Opbrengsten
+Netto-omzet 1.385.556 99,72% 2.337.344 100,00%
+Overige opbrengsten 3.959 0,28% 0 0,00%
+1.389.515 100,00% 2.337.344 100,00%
+Kosten van grond- en
+hulpstoffen, uitbesteed werk,
+e.d.
+Kosten van grond- en hulpstoffen
+en de inkoopprijs van de verkopen 585.483 42,14% 1.353.669 57,91%
+Kosten van uitbesteed werk en
+andere externe kosten 0 0,00% 0 0,00%
+-585.483 -42,14% -1.353.669 -57,91%
+Brutomarge 804.032 57,86% 983.675 42,09%
+Personeelskosten
+Lonen en salarissen 266.411 19,17% 202.066 8,65%
+Sociale lasten 48.242 3,47% 38.730 1,66%
+Pensioenlasten 23.911 1,72% 18.838 0,81%
+Overige personeelskosten 220.675 15,88% 188.219 8,05%
+-559.,239 -40,25% -447.853 -19,16%
+Afschrijvingen
+Overige immateriële vaste activa 0 0,00% 0 0,00%
+Overige materiële vaste activa 17.557 1,26% 12.704 0,54%
+-17.557 -1,26% -12.704 -0,54%
+Waardeveranderingen
+Overige waardeveranderingen van
+immateriële en materiële vaste
+activa 0 0,00% 0 0,00%
+Bijzondere waardevermindering
+van vlottende activa ie] 0,00% 0 0,00%
+-0 -0,00% -0 -0,00%
+
+Overige bedrijfskosten
+Auto- en transportkosten 0 0,00% 2.558 0,11%
+
+hb hollands
+1 advies
+
+belastingadviseurs
+
+pagina: 3
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+2023 2022
+€ % € %
+Huisvestingskosten 55.652 4,01% 46.489 1,99%
+Verkoopkosten 712 0,06% 625 0,03%
+Beperkt aftrekbare kosten 8.051 0,58% 14.493 0,62%
+Niet-aftrekbare boetes 571 0,04% 246 0,01%
+Overige kosten 172.529 12,42% 143.576 6,14%
+-237.575 -17,10% -207.987 -8,90%
+Financiële baten en lasten
+Opbrengsten van overige
+vorderingen 10.749 0,77% 0 0,00%
+Kosten van schulden, andere
+rentelasten en soortgelijke kosten -83 -0,01% -1.749 -0,07%
+10.666 0,77% -1.749 -0,07%
+Saldo winst voor belasting 327 0,02% 313.382 13,41%
+Verschuldigde VPB 541 0,04% -47.403 -2,03%
+Saldo winst na belasting 868 0,06% 265.979 11,38%
+
+De winst-en-verliesrekening over 2023 is afgesloten met een positief resultaat na belastingen van
+€ 568.
+
+bh hollands
+3 | advies
+belastingadviseurs
+pagina: 4
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+
+1.2 Resultaatanalyse
+
+Het resultaat over 2023 is ten opzichte van 2022 gedaald met € 265.111. De ontwikkeling van het resultaat
+over 2023 ten opzichte van 2022 kan als volgt worden weergegeven:
+
+€ €
+Het resultaat is gunstig beïnvloed door:
+Stijging van:
+Overige opbrengsten 3.959
+Opbrengsten van overige vorderingen 10.749
+14.708
+Daling van:
+Kosten van grond- en hulpstoffen en de inkoopprijs van de verkopen 768.186
+Auto- en transportkosten 2.558
+Beperkt aftrekbare kosten 6.442
+Kosten van schulden, andere rentelasten en soortgelijke kosten 1.666
+Verschuldigde VPB 47 944
+826.796
+Het resultaat is ongunstig beïnvloed door:
+Stijging van:
+Lonen en salarissen 64.345
+Sociale lasten 9.512
+Pensioenlasten 5.073
+Overige personeelskosten 32.456
+Afschrijving overige materiële vaste activa 4.853
+Huisvestingskosten 9.163
+Niet-aftrekbare boetes 325
+Verkoopkosten 147
+Overige kosten 28.953
+-154.827
+Daling van:
+Netto-omzet 951.788
+-951.788
+265.111
+
+Daling resultaat
+
+
+hb hollands
+1 advies
+
+belastingadviseurs
+
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V.
+
+pagina: 5
+KvK-nummer: 88414906
+Datum vastgesteld: 22-05-2024
+
+2 Jaarrekening
+
+2.1 Balans per 31-12-2023
+
+Activa
+
+Immateriële vaste activa
+Overige immateriële vaste activa
+
+Materiële vaste activa
+Overige materiële vaste activa
+
+Financiële vaste activa
+Overige financiële vaste activa
+
+Voorraden
+Onderhanden werk
+
+Vorderingen
+Vorderingen op handelsdebiteuren
+
+Kortlopende vorderingen op
+groepsmaatschappijen
+
+Effecten
+
+Liquide middelen
+
+Totaal activa
+
+na resultaatbestemming
+
+31-12-2023 31-12-2022
+€ € € €
+
+0 0
+0 0
+
+40.614 74,106
+40.614 74.106
+
+0 0
+0 0
+
+74.390 435.612
+74.390 435.612
+
+70.751 0
+
+221.273 209.471
+292.024 209.471
+0 0
+41.089 146.545
+448.117 865.734
+
+Hollands Advies B.V
+. gesloten bi Register Belastingadviseurs
+Raksweg zuid 121) /
+hb G161 BĲ Geleen (f
+046-4233142
+| info@hotandsadvies
+
+hb hollands
+| advies
+
+belastingadviseurs
+
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V.
+
+pagina: 6
+KvK-nummer: 88414906
+Datum vastgesteld: 22-05-2024
+
+Passiva
+
+Eigen vermogen
+
+Gestort en opgevraagd kapitaal
+Agio
+
+Winstreserves
+
+Voorzieningen
+Overige voorzieningen
+
+Langlopende schulden
+Overige langlopende schulden
+
+Kortlopende schulden
+
+Schulden aan leveranciers en
+handelskredieten
+
+Loonheffingen
+Overige kortlopende schulden
+
+Totaal passiva
+
+31-12-2023 31-12-2022
+€ € € €
+
+20.000 20.000
+343.277 343.277
+6.852 265.982
+
+370.129 629.259
+0 0
+
+0 0
+0 0
+
+0 0
+95.847 141.444
+26.877 14.738
+-44.836 80.293
+
+77.988 236.475
+
+448,117 865.734
+
+Hellands Advies BV. /
+
+Aangesioten bj Register Belastingacdseufs Á
+Rekeweg zuid 121 /
+6161 B Geleen ‚
+
+Í 045-4233142 Lj
+
+Hloghotandsadvies | |
+ee,
+
+h hollands
+É advies
+
+belastingadviseurs
+
+pagina: 7
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOK018 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+2.2 Winst-en-verliesrekening 2023
+2023 2022
+€ € € €
+Opbrengsten
+Netto-omzet 1.385.556 2.337.344
+Overige opbrengsten 3.959 0
+1.389.515 2.337.344
+Kosten van grond- en hulpstoffen,
+uitbesteed werk, e.d.
+Kosten van grond- en hulpstoffen en de
+inkoopprijs van de verkopen 585.483 1.353.669
+Kosten van uitbesteed werk en andere
+externe kosten 0 0
+-585.483 -1.353.669
+Brutomarge 804.032 983.675
+Personeelskosten
+Lonen en salarissen 266.411 202.066
+Sociale lasten 48.242 38.730
+Pensioenlasten 23.911 18.838
+Overige personeelskosten 220.675 188.219
+-559.239 -447.853
+Afschrijvingen
+Overige immateriële vaste activa 0 0
+Overige materiële vaste activa 17.557 12.704
+-17.557 -12.704
+Waardeveranderingen
+Overige waardeveranderingen van
+immateriële en materiële vaste activa 0 0
+Bijzondere waardevermindering van vlottende
+activa 0 0
+-0 -0
+| 4
+Overige bedrijfskósten n
+Auto- en transportkosten 0 2.558
+Huisvestingskosten 55.652 46.489
+
+Verkoopkosten 772 625
+
+h hollands
+í advies
+
+belastingadviseurs
+
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V.
+
+pagina: 8
+KvK-nummer: 88414906
+Datum vastgesteld: 22-05-2024
+
+2023 2022
+€ € € €
+Beperkt aftrekbare kosten 8.051 14.493
+Niet-aftrekbare boetes 571 246
+Overige kosten 172.529 143.576
+-237.575 -207.987
+Financiële baten en lasten
+Opbrengsten van overige vorderingen 10.749 0
+Kosten van schulden, andere rentelasten en
+soortgelijke kosten -83 -1.749
+10.666 „1.749
+Saldo winst voor belasting 327 313.382
+Verschuldigde VPB 541 -47.403
+Saldo winst na belasting 868 265.979
+a
+
+oe |
+
+1 /
+
+|
+
+Hotlands Alides BV.
+
+Zuid {21
+
+6161 BJ Geleen
+
+Aarigesloten by Rbgister Belastingsdviseurs
+Ls br
+
+045-4233142
+if f ies.nl
+
+hb hollands
+{ advies
+
+belastingadviseurs
+
+pagina: 9
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO018 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+2.3 Grondslagen van de jaarrekening
+2.3.1 Grondsfagen voor de balanswaardering passiva
+Aandelenkapitaal
+Het gestort kapitaal bedraagt €20.000
+2.4 Verbonden partijen
+2.4.1 Specificatie aandeelhouder(s)
+Naam aandeelhouder CCMvanVelzen B.V.
+Schulden van CCMvanVelzen B.V. aan de vennootschap
+Omschrijving Betaalde rente Bedrag schuld
+Rekening Courant 10.749 221.273
+10.749 221.273
+
+CCMvanVelzen B. V. heeft geen vordering op de vennootschap.
+
+2.5 Winstbestemming
+
+De directie stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2023 geheel ten gunste
+van de overige reserves te brengen en over 2023 geen dividend uit te keren.
+
+hb hollands
+fl advies
+
+belastingadviseurs
+
+pagina: 10
+KvK-nummer: 88414906
+Datum vastgesteld: 22-05-2024
+
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V.
+
+2.6 Toelichting balans activa per 31-12-2023
+
+2.6.1 Immateriële vaste activa
+
+Overige immateriële vaste activa
+2.6.2 Materiële vaste activa
+
+Overige materiële vaste activa
+
+Inventaris
+
+Afschrijving inventaris
+Vervoermiddelen
+Afschrijving vervoermiddelen
+
+2.6.3 Financiële vaste activa
+
+Overige financiële vaste activa
+2.6.4 Voorraden
+
+Onderhanden werk
+
+Nog te factureren omzet
+
+2.6.5 Vorderingen
+
+Vorderingen op handelsdebiteuren
+
+Debiteuren
+
+Kosten
+
+Kortlopende vorderingen op groepsmaatschappijen
+
+Rekening-courant CCMvanVelzen B.V.
+
+voortbrenging  %1-122023 31-12-2022
+0 0 0
+Kosten
+
+aanschaf Restwaarde °7-12-2023 31-12-2022
+62.547 0 62.547 38.646
+0 0 -21.933 12.338
+0 ij 0 53.077
+0 0 0 -5.279
+40.614 74.106
+Nominale 9442-2023 31-12-2022
+
+waarde
+0 0 0
+Opbrengstwaarde 31-12-2023 31-12-2022
+74.390 74.390 435.612
+74.390 74.390 435.612
+Nominale 94.42.2023 31-12-2022
+
+waarde
+70.751 70.751 0
+70.751 0
+Nominale — 94.42.2023 31-12-2022
+
+waarde
+221.273 221.273 209.471
+221.273 209.471
+
+hollands
+| advies
+belastingadviseurs
+pagina: 11
+
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOK018 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+
+2.6.6 Liquide middelen
+31-12-2023 31-12-2022
+
+NL97RABO0174887272 1.641 6.545
+NL11 RABO 3160 7615 41 Spaar 0 140.000
+ING Betaalrekening 62 4,400 0
+SPAARNL33INGB0103041362 35.048 0
+
+41.089 146.545
+
+hollands
+advies
+
+„| belastingadviseurs
+pagina: 12
+KvK-nummer: 88414906
+
+Datum vastgesteld: 22-05-2024
+
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V.
+
+2.7 Toelichting balans passiva per 31-12-2023
+
+2.7.1 Ondernemingsvermogen
+Gestort en opgevraagd kapitaal
+
+31-12-2023 31-12-2022
+Aandelenkapitaal 20.000 20.000
+20.000 20.000
+Het ingehouden deel van het resultaat over 2023 bedraagt € 0 (2022: € 0).
+Agio
+31-12-2023 31-12-2022
+Agioreserve 343.277 343.277
+343.277 343.277
+Winstreserves
+31-12-2023 31-12-2022
+Overige reserves 6.852 265.982
+6.852 265.982
+2.7.2 Voorzieningen
+2.7.3 Kortlopende schulden
+Schulden aan leveranciers en handelskredieten
+Bedrag
+waarvoor
+zekerheid is 31-12-2023 31-12-2022
+gesteld
+Crediteuren ) 95.947 141.444
+0 95.947 141.444
+Loonheffingen
+Bedrag
+waarvoor
+zekerheid is 31-12-2023 31-12-2022
+gesteld
+Loonheffing af te dragen 0 26.877 14.738
+0 26.877 14.738
+
+h hollands
+| advies
+
+belastingadviseurs
+
+pagina: 13
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+Overige kortlopende schulden
+Bedrag
+waarvoor
+zekerheid is 31-12-2023 31-12-2022
+gesteld
+Vennootschapsbelasting 0. -62.282 47.404
+Pensioenpremie te betalen 0 4.769 9,086
+Nog te ontvangen facturen leveranciers 0 041 16.708
+Vakantiegeld te betalen 0 10.093 7.095
+Waarborg 0 1.643 0
+0 -44.836 80.293
+
+bh hollands
+{ advies
+
+belastingadviseurs
+
+pagina: 14
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+2.8 Toelichting winst-en-verliesrekening 2023
+2.8.1 Opbrengsten
+Netto-omzet
+2023 2022
+Omzet vrijgesteld 7.001 2.181
+Omzet Gemeente Bergen op Zoom 0 0
+Omzet Gemeente Borsele 69.970 43.508
+Omzet Gemeente Goes 212.546 203.798
+Omzet Gemeente Hulst 3.987 23.354
+Omzet Gemeente Kapelle 45.264 50.577
+Omzet Gemeente Middelburg 244.585 285.631
+Omzet Gemeente Noord Beveland 18.704 29.576
+Omzet Gemeente Reimerswaal 111.531 33.880
+Omzet Gemeente Schouwen Duiveland 63.225 89.111
+Omzet Gemeente Terneuzen 65.697 53.554
+Omzet Gemeente Tholen 34.429 0
+Omzet Gemeente Veere 183.322 143.156
+Omzet Gemeente Vlissingen 321.847 266.305
+Omzet Gemeente Borsele - onderaanneming 0 251.103
+Omzet Gemeente Hulst - onderaanneming 0 2.771
+Omzet Gemeente Kapelle - onderaanneming 0 6.990
+Omzet Gemeente Middelburg - onderaanneming 0 435.794
+Omzet Gemeente Noord Beveland - onderaanneming 0 11.604
+Omzet Gemeente Reimerswaal - onderaanneming 0 27.271
+Omzet Gemeente Schouwen Duiveland - onderaanneming 0 46.540
+Omzet Gemeente Sluis - onderaanneming 0 39.369
+Omzet Gemeente Terneuzen - onderaanneming 0 85.988
+Omzet Gemeente Tholen - onderaanneming 0 53.970
+Omzet Gemeente Veere - onderaanneming 0 8.999
+Omzet Gemeente Vlissingen - onderaanneming 0 142.314
+Omzet Gemeente Sluis 5.448 0
+Omzet Zorgverzekeringswet 0 0
+Omzet WLZ 0 0
+Subsidie op grond van een regeling als bedoeld in artikel 3 van de Kaderwet
+VWS subsidies 0 0
+Forensische zorg 0 0
+Beschikbaarheidsbijdrage zorgfuncties 0 0
+0 0
+
+Baten uit onderaanneming
+
+1.385.556 2.337.344
+
+hb hollands
+jd advies
+
+belastingadviseurs
+
+pagina: 15
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+Overige opbrengsten
+2023 2022
+Doorbelaste kosten 1.815 it)
+Doorbelaste huurkosten 748 0
+Huuropbrengst pand 1.396 0
+3.959 0
+2.8.2 Inkoopkosten en uitbesteed werk
+Kosten van grond- en hulpstoffen en de inkoopprijs van de verkopen
+2023 2022
+Inkopen hoog 330 7.284
+Inhuur ZZP - Brasz - van Munster 11.287 8.951
+inhuur ZZP - Helderpsychologie 0 1.117
+Inhuur - INCLUZO 195.164 1.146.071
+Inhuur ZZP - Kinderfysiotherapie DOKO18 0 320
+Inhuur ZZP - M. Linger 28.793 14.192
+Inhuur ZZP - M. Luteijn 0 1.560
+inhuur ZZP - Mini_HB 12.349 23.915
+Inhuur - W.J. Klaassen OutBackexplorers 100.313 59.850
+inhuur ZZP - Sulkers 23.506 25.244
+Inhuur ZZP - Ann Marie Maljaars 36.294 23.193
+inhuur ZZP - School of Hapiness 37.557 36.378
+Overige inkoopkosten 5.319 5.504
+inhuur ZZP - De Korte 1.536 0
+inhuur ZZP - Drs. E. den Boer 2.913 0
+Inhuur ZZP - Praktijk Munay-Ki 15.225 0
+Correcties voorgaand jaar 2.037 0
+Inhuur vervangingsecretariaat 38.437 0
+Inhuur Interim Praktijk manager 70.093 0
+Werk derden 4.330 0
+
+585.483 1.353.669
+2.8.3 Personeelskosten
+
+Lonen en salarissen
+
+2023 2022
+Salaris 229.434 173.701
+Vakantiegeld 19.484 28.365
+Eindejaarsuitkering 17.493 0
+
+266.411 202.066
+
+bh hollands
+E advies
+
+belastingadviseurs
+
+pagina: 16
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+Sociale lasten
+2023 2022
+Sociale lasten 48.242 38.730
+48.242 38.730
+Pensioenlasten
+2023 2022
+Pensioenpremie 23.911 18.838
+23.911 18.838
+Overige personeelskosten
+2023 2022
+Managementfee 192.000 176.000
+Ziekteverzuimverzekering 8.443 4.189
+Onbelaste onkostenvergoeding 4.304 676
+Onbelaste reiskstvergoeding 5.409 4.518
+Overige reis- & verblijfkosten 0 172
+Opleidingskosten 1.148 479
+Kantinekosten (aftrekbaar gedeelte) 1.022 0
+Overige personeelskosten 7.028 1.585
+Cursussen 1.321 0
+220.675 188.219
+2.8.4 Afschrijvingen
+Overige materiële vaste activa
+2023 2022
+Afschrijvingskosten inventaris 9.595 7.425
+Afschrijvingskosten vervoermiddelen 7.962 5.279
+17.557 12.704
+2.8.5 Overige bedrijfskosten
+Auto- en transportkosten
+2023 2022
+Brandstoffen 0 996
+Reparatie en onderhoud vervoermiddelen 0 235
+Assuranties vervoermiddelen 0 1.050
+Wegenbelasting 0 155
+Parkeerkosten 0 43
+Overige autokosten 0 79
+0 2.558
+
+hollands
+6 advies
+belastingadviseurs
+pagina: 17
+KvK-nummer: 88414906
+
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+
+Huisvestingskosten
+
+2023 2022
+Huur 47.820 40.065
+Gas/water/electriciteit 1.554 0
+Schoonmaakkosten 5.318 5.895
+Overige huisvestingskst 960 529
+55.652 46.489
+Verkoopkosten
+2023 2022
+Reclame/advertenties 0 182
+Relatiegeschenken (aftrekbaar deel) 199 365
+Reis- en verblijfkosten 213 78
+Giften en donaties 360 0
+772 625
+Beperkt aftrekbare kosten
+2023 2022
+Representatiekosten (aftrekbaar deel) 8.051 14.493
+8.051 14.493
+Niet-aftrekbare boetes
+2023 2022
+Van aftrek uitgesloten boeten 571 246
+571 246
+
+hb hollands
+É advies
+
+belastingadviseurs
+
+pagina: 18
+KvK-nummer: 88414906
+Datum vastgesteld: 22-05-2024
+
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V.
+
+Overige kosten
+
+Betalingsverschillen
+Kantoorartikelen
+
+Kleine aanschaffingen < 450,-
+Abonnementen en contributies
+Software
+
+Telefoon- en faxkosten
+Internetkosten
+
+Portokosten
+Automatiseringskosten
+Vakliteratuur
+
+Overige kantoorkosten
+Notariskosten
+
+Verzekeringen algemeen
+Administratiekosten
+Aeccountantskosten
+Oprichtingskosten
+Advieskosten
+Automatiseringskosten
+Algemene kosten te benoemen
+Overige algemene kosten
+Betaalde rente- en bankkosten
+
+2.8.6 Financiële baten en lasten
+
+Opbrengsten van overige vorderingen
+
+Rente rekening-courant deelneming 1
+
+Kosten van schulden, andere rentelasten en soortgelijke kosten
+
+Rente belastingdienst
+Kosten leningen
+
+2023 2022
+22 1
+4.255 188
+2.285 150
+35.112 7.845
+7.880 10.041
+1.864 958
+1.096 6.651
+0 7
+9.016 0
+469 182
+
+0 2.015
+
+121 4.377
+2.384 2.653
+33.121 78.113
+14.661 4.561
+682 50
+59.069 1.755
+0 3.798
+
+0 19.119
+
+52 57
+440 1.045
+172.529 143.576
+2023 2022
+10.749 0
+10.749 0
+2023 2022
+83 0
+
+0 1.749
+
+83 1.749
+
+hb hollands
+{ advies
+belastingadviseurs
+pagina: 19
+
+KvK-nummer: 88414906
+Jaarrekening 2023 van DOKO18 Kind en Jeugd B.V. Datum vastgesteld: 22-05-2024
+
+Ondertekening jaarrekening
+Koudekerke, 22 mei 2024 Handtekening
+
+C. van Velzen
+Bestuurder (huidig)
