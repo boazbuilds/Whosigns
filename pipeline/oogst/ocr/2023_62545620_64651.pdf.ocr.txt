@@ -1,0 +1,52 @@
+# whosigns-ocr v1 grootte=361696 dpi=300 paginas=20
+pagina: 13
+
+end Gee LCR
+Fiscaal rapport aangifte inkomstenbelasting 2023 van mevrouw E. Kamsteeg-Huijssen
+5.2 Fiscale vermogensopstelling
+5.2.1 Activa Fiscaal begin Fiscaal eind
+Vorderingen
+Vorderingen op handelsdebiteuren 2.052 787
+Overige vorderingen 4.801 4,542
+Totaal vorderingen 6.853 5.329
+Liquide middelen 37.277 35.880
+Totaal activa 44,130 41.209
+5.2.2 Passiva Fiscaal begin Fiscaal eind
+Ondernemingsvermogen
+Ondernemingsvermogen exclusief fiscale reserves 41.761 39.680
+Totaal ondernemingsvermogen 41.761 39.680
+Kortlopende schulden
+Schulden aan leveranciers en handelskredieten 1.970 1.130
+Overige kortlopende schulden 399 399
+Totaal kortlopende schulden 2.369 1.529
+Totaal passiva 44.130 41.209
+
+
+pagina: 14
+
+Fiscaal rapport aangifte inkomstenbelasting 2023 van mevrouw E. Kamsteeg-Huijssen
+
+5.3 Fiscale winstberekening Fiscaal 2023
+Opbrengsten
+
+Netto-omzet 55.233
+Totaal opbrengsten 55.233
+
+Kosten van grond- en hulpstoffen, uitbesteed werk, e.d.
+
+Kosten van uitbesteed werk en andere externe kosten 8.096
+
+Totaal inkoopkosten en uitbesteed werk -8,096
+
+Overige bedrijfskosten
+Overige kosten 6.322
+
+Totaal overige bedrijfskosten -6.322
+
+Financiële baten en lasten
+Opbrengsten van banktegoeden 238
+
+Totaal financiële baten en lasten 238
+
+Saldo fiscale winstberekening 41.053
+

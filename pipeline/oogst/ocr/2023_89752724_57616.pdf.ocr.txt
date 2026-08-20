@@ -1,0 +1,973 @@
+# whosigns-ocr v1 grootte=292325 dpi=300 paginas=20
+— BORRIE
+
+accountants
+
+THOMASHUIS ALMELO
+TE ALMELO
+
+Rapport inzake jaarverslag 2023
+
+— BORRIE
+
+accountants
+
+INHOUDSOPGAVE
+
+Pagina
+ACCOUNTANTSRAPPORT
+1 Opdracht 3
+2 Samenstellingsverklaring van de accountant 3
+3 Algemeen 4
+4 Financiële positie 5
+5 Fiscale positie 6
+JAARREKENING
+1 Balans per 31 december 2023 7
+2 Winst-en-verliesrekening over 2023 9
+3 Kasstroomoverzicht 2023 10
+4 Toelichting op de balans en winst-en-verliesrekening 11
+
+BEHOORT BĲ ACGOUMNTAMTSRAPPORT
+
+— BORRIE
+
+accountants
+
+Aan de firmanten van
+Thomashuis Almelo
+Nachtegaalstraat 106
+
+Borrie Accountants B.V.
+Keizer Karelplein 2,
+1185 HL Amstelveen
+Postbus 83012
+
+1080 AA Amsterdam
+Telefoon 020 679 09 11
+
+7605 BR Almelo Telefax 020 67942 25
+Email amsterdam@borrie.nl
+KvK 24315255
+
+Kenmerk Behandeld door Datum
+
+51250 FHVD/SPV 27 mei 2024
+
+Geachte heer Van Steenis en mevrouw Vos,
+Hierbij brengen wij verslag uit over boekjaar 2023 met betrekking tot uw vennootschap onder firma.
+
+1 OPDRACHT
+
+ingevolge uw opdracht hebben wij de jaarrekening 2023 van uw vennootschap onder firma samengesteld,
+waarin de balans met tellingen van € 144.558 en de winst-en-verliesrekening sluitende met een negatief
+resultaat van € 66.276, zijn opgenomen.
+
+2 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+
+De jaarrekening van Thomashuis Almelo te Almelo is door ons samengesteld op basis van de van u
+gekregen informatie. Deze jaarrekening bestaat uit de balans per 31 december 2023 en de winst-en-
+verliesrekening over 2023 met de daarbij horende toelichting. In deze toelichting is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, “Samenstellingsopdrachten”. Op grond van deze standaard wordt
+van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in
+overeenstemming met in Nederland algemeen aanvaarde grondslagen voor financiële verslaggeving. Wij
+hebben daarbij onze deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving
+toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal
+nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis van Thomashuis Almelo. Wij
+hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een oordeel te
+geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers
+van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte
+gegevens.
+
+Lid Samenwerkende Registeraccountants en Accountants-Administratieconsulenten SRA Proud Member of
+AlliottGlobalAlliance
+
+Together as One. Borrie is a Member of the Alliott Global Alliance of independent professional firms.
+
+Accountantsrapport
+
+5 B ®, R R | E Thomashuis Almelo, Almelo
+
+accountants
+
+3 ALGEMEEN
+
+3.1 Bedrijfsgegevens
+
+De activiteiten van Thomashuis Almelo bestaan voornamelijk uit het bieden van een veilige en stimulerende
+woonomgeving voor mensen met een verstandelijke beperking. De onderneming maakt deel uit van een
+netwerk van kleinschalige woonvoorzieningen (Thomashuizen) die geleid worden door een zelfstandig
+zorgondernemer. Het netwerk van Thomashuizen wordt ondersteund door De Drie Notenboomen B.V. te
+Amsterdam, de franchisegever. De Thomashuizen werken volgens een franchiseformule van de
+franchisegever.
+
+Als tegenprestatie voor deze ondersteuning wordt van de zelfstandige zorgondernemers verwacht dat zij een
+eenmalige en een jaarlijkse bijdrage aan de franchisegever betalen en hun zorgonderneming leiden volgens
+de uitgangspunten zoals die door De Drie Notenboomen B.V. zijn weergegeven in het Handboek
+Zorgondernemer Thomashuizen.
+
+3.2 Oprichting vennootschap
+
+Thomashuis Almelo is op 1 april 2023 opgericht en staat ingeschreven onder nummer 89752724 in het
+handelsregister van de Kamer van Koophandel. De activiteiten zijn per 1 november 2023 gestart.
+
+BEHOORT BĲ ACCOUMNTANTSRAPPORT
+
+—5 BORRIE
+
+accountants
+
+4 FINANCIËLE POSITIE
+
+Uit de balans is de volgende financieringsstructuur af te leiden:
+
+Beschikbaar op lange termijn:
+
+Ondernemingsvermogen
+Langlopende schulden
+
+Waarvan vastgelegd op lange termijn:
+
+Materiële vaste activa
+
+Werkkapitaal
+
+Dit bedrag is als volgt aangewend:
+Vorderingen
+
+Liquide middelen
+
+Af: kortlopende schulden
+
+Werkkapitaal
+
+Accountantsrapport
+Thomashuis Almelo, Almelo
+
+-5-
+31-12-2023
+€ €
+
+65.202
+61.250
+
+126.452
+
+87.114
+
+39.338
+18.255
+39.189
+
+57.444
+
+18.106
+
+39.338
+
+BEHOORT Bl ACCOUNTAMTSRAPPORT
+
+Accountantsrapport
+
+ps BO R R I E Thomashuis Almelo, Almo
+
+accountants
+5 FISCALE POSITIE
+
+De vennoten zien af van een rente over het kapitaal. Tevens zien de vennoten af van een arbeidsbeloning.
+Derhalve wordt het resultaat voor het respectievelijke deel aan iedere vennoot toegerekend.
+
+Aangezien uw onderneming fiscaal transparant is, dient het fiscaal resultaat te worden aangegeven in uw
+aangifte inkomstenbelasting.
+
+Wij merken op dat de cijfermatige verwerking in de aangifte inkomstenbelasting kan afwijken van die in de
+jaarrekening. Bepaalde posten zullen voor uw Thomashuis specifiek moeten worden berekend en verwerkt in
+de aangifte inkomstenbelasting conform de fiscale regelgeving. De bedragen in de jaarrekening kunnen
+hiervan afwijken. Derhalve dienen de bedragen voor verwerking in de aangifte inkomstenbelasting met uw
+fiscaal adviseur te worden vastgesteld.
+
+De correctie voor het privé gebruik wonen is, in afwijking van het bovenstaande, in de jaarrekening wel
+verwerkt conform de hierover met de belastingdienst gemaakte afspraken.
+
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+Hoogachtend,
+Borrie Accountants B.V.
+
+UN C
+
+drs. ing. FH. an Dijk RA
+
+|
+J
+
+BEHOORT 31 AGCOIMNTANTSRAPPORT
+
+— BORRIE
+
+accountants
+
+1 BALANS PER 31 DECEMBER 2023
+
+ACTIVA
+
+VASTE ACTIVA
+
+Materiële vaste activa
+
+Verbouwingen
+Inventaris
+Vervoermiddelen
+
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+Handelsdebiteuren
+Overige vorderingen en overlopende activa
+
+Liquide middelen
+
+Totaal activa
+
+Jaarrekening
+Thomashuis Almelo, Almelo
+
+(1)
+
+(2)
+
+(3)
+
+-7-
+31 december 2023
+€ €
+39.629
+34.012
+13.473
+87.114
+5.398
+12.857
+18.255
+39.189
+144.558
+
+BEHOORT SH ACCOUNTAMTSRAPPORT
+
+—5 BORRIE
+
+accountants
+
+PASSIVA
+
+ONDERNEMINGSVERMOGEN
+
+K. van Steenis en S. Vos
+LANGLOPENDE SCHULDEN
+
+KORTLOPENDE SCHULDEN
+
+Aflossingsverplichtingen langlopende schulden
+Belastingen en premies sociale verzekeringen
+Overige schulden en overlopende passiva
+
+Totaal passiva
+
+Jaarrekening
+‘Thomashuis Almelo, Almelo
+
+-8-
+31 december 2023
+€ €
+(4)
+65.202
+(5) 61.250
+(6)
+13.750
+343
+4.013
+18.106
+144.558
+
+BEHOORT 813 ACCOUMTANTSRAPPORT
+
+—5 BORRIE
+
+accountants
+
+2 WINST-EN-VERLIESREKENING OVER 2023
+
+Netto-omzet
+Kosten
+
+Personeelskosten
+Afschrijvingen
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat
+
+Jaarrekening
+Thomashuis Almelo, Almelo
+
+-9-
+2023
+€ €
+
+) 58.601
+(8) 2.721
+(®) 4.001
+(0) 113.815
+
+120.537
+
+(61.936)
+
+(11) (4.340)
+
+(66.276)
+
+3EHOORT Bli ACGOUNTANTSRAPPORT
+
+—S BORRIE
+
+accountants
+
+3 KASSTROOMOVERZICHT 2023
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+Afschrijvingen
+
+Veranderingen in het werkkapitaal:
+Mutatie vorderingen
+Mutatie kortlopende schulden (exclusief schulden aan kredietinstellingen)
+
+Kasstroom uit bedrijfsoperaties
+Rentelasten
+Kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+
+Investeringen in materiële vaste activa
+
+Kasstroom uit financieringsactiviteiten
+
+Opgenomen schulden aan kredietinstellingen
+Saldo privéopnamen en -stortingen
+
+Kasstroom uit financieringsactiviteiten
+
+Toename geldmiddelen
+
+Jaarrekening
+Thomashuis Almelo, Almelo
+
+-10-
+2023
+€ €
+(61.936)
+4.001
+(18.255)
+4.356
+(71.834)
+(4.340)
+(76.174)
+(91.115)
+75.000
+131.478
+206.478
+39.189
+
+BEHOORT BĲ ACCOLMTANTSRAPBORT
+
+Jaarrekening
+
+5 BO R R | E Thomashuis Almelo, Almelo
+
+accountants
+
+4 TOELICHTING OP DE BALANS EN WINST-EN-VERLIESREKENING
+
+41 ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze
+referenties wordt verwezen naar de toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken
+van de jaarrekening bekend zijn geworden.
+
+4.2 GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de cumulatieve
+afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden
+gebaseerd op de geschatte economische levensduur en worden berekend op basis van een vast percentage
+van de verkrijgingsprijs, rekening houdend met een eventuele residuwaarde. Er wordt afgeschreven vanaf
+het moment van ingebruikneming.
+
+Vorderingen
+
+De vorderingen worden opgenomen tegen de nominale waarde. Noodzakelijk geachte voorzieningen voor het
+risico van oninbaarheid worden in mindering gebracht. Deze voorzieningen worden bepaald op basis van
+individuele beoordeling van de vorderingen.
+
+Liquide middelen
+
+De liquide middelen zijn gewaardeerd tegen de nominale waarde.
+
+Langlopende schulden
+
+Schulden worden gewaardeerd tegen nominale waarde tenzij anders is bepaald.
+
+Kortlopende schulden
+
+Kortlopende schulden worden gewaardeerd tegen nominale waarde tenzij anders is bepaald.
+
+4.3 GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin
+zij zijn gerealiseerd.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+SEHOORT BĲ ACCOUNTANTSRAPPORT
+
+Jaarrekening
+
+5 B © R R I E Thomashuis Almelo, Almelo
+
+accountants
+
+Pensioenen
+
+Thomashuis Almelo heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over
+het verslagjaar verschuldigde premie wordt als last verantwoord.
+
+Afschrijvingen
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages van de
+aanschaffingswaarde.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+De rentebaten en -lasten betreffen de op de verslagperiode betrekking hebbende rente-opbrengsten
+
+en -lasten van uitgegeven en ontvangen leningen.
+
+44 GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+BEHOORT BĲ ACCOUNTANTSRAPPORT
+
+J keni
+» BO R R l E Thomashuis melo, Amel
+accountants
+
+4.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+ACTIVA
+
+VASTE ACTIVA
+
+1. Materiële vaste activa
+
+Vervoer-
+Verbouwingen _ Inventaris middelen Totaal
+€ € € €
+
+Boekwaarde per 1 april 2023
+
+Aanschaffingswaarde 0 0 0 0
+Cumulatieve afschrijvingen en
+
+waardeverminderingen
+
+0
+
+Mutaties
+Investeringen 41.735 35.235 14.145 91.115
+Afschrijvingen (2.106) (1.223) (672) (4.001)
+
+39.629 34.012 13.473 87.114
+Boekwaarde per 31 december 2023
+Aanschaffingswaarde 41.735 35.235 14.145 91.115
+Cumulatieve afschrijvingen en
+waardeverminderingen (2.106) (1.223) (672) (4.001)
+
+39.629 34.012 13.473 87.114
+Afschrijvingspercentages
+
+%
+
+Verbouwingen 20
+Inventaris 20
+Vervoermiddelen 20
+
+De geschatte restwaarde van de vervoermiddelen is € 1.400.
+
+BEHOORT BĲ ACCOUNTANTSRAPPORT
+
+Jaarrekening
+
+5» BO R R | E Thomashuis Almelo, Almelo
+
+accountants
+
+VLOTTENDE ACTIVA
+
+2. Vorderingen
+
+31-12-2023
+€
+
+Handelsdebiteuren
+Debiteuren 5.398
+Een voorziening voor vermoedelijke oninbaarheid wordt niet noodzakelijk geacht.
+Overlopende activa
+Vooruitbetaalde onderhoudsvergoeding De Drie Notenboomen B.V. 2.760
+Vooruitbetaalde huur 10.097
+
+12.857
+
+3. Liquide middelen
+ABN AMRO Bank N.V. 39.189
+
+BEHOORT BĲ ACCOUMTANTSRAPPORT
+
+— BORRIE
+
+accountants
+
+PASSIVA
+
+4. ONDERNEMINGSVERMOGEN
+
+K. van Steenis en S, Vos
+
+Stand per 1 april
+Aandeel in het resultaat
+
+Privéopnamen
+Privéstortingen
+
+Stand per 31 december
+
+5. LANGLOPENDE SCHULDEN
+
+Schulden aan kredietinstetllingen
+
+Leningen o/g
+Lening ABN AMRO Bank NV,
+
+Lening ABN AMRO Bank N.V.
+
+Stand per 1 april
+Opgenomen gelden
+
+Stand per 31 december
+
+Aflossingsverplichting komend boekjaar
+
+Langlopend deel per 31 december
+
+Jaarrekening
+Thomashuis Almelo, Almelo
+-15-
+
+2023
+
+0
+(66.276)
+
+(66.276)
+(5.398)
+136.876
+
+65.202
+
+31-12-2023
+€
+
+61.250
+
+2023
+
+0
+75.000
+
+75.000
+(13.750)
+
+61.250
+
+Deze lening ad € 75.000 is verstrekt ter financiering van exploitatie van de onderneming. Aflossing vindt
+plaats over een periode van 5 jaar. De maand aflossing bedraagt € 1.250. Het aantal resterende maand
+
+termijnen bedraagt 60.
+
+BEHOORT BĲ ACCOUMTAMTSRAPPORT
+
+Jaarrekening
+
+=D BO R R l E Thomashuis Almelo, Almelo
+
+accountants
+
+ZEKERHEDEN
+
+Voor dit krediet zijn de volgende zekerheden gesteld:
+
+- De kredietnemer zal een (lineair dalende) overlijdensrisicoverzekering met een verzekerd kapitaal op het
+teven afsluiten, respectievelijk in stand houden. Indien de kredietnemer zich onverhoopt genoodzaakt
+ziet de premiebetaling te staken of de verzekeringsovereenkomst wordt beëindigd, zal de kredietnemer
+ABN AMRO Bank N.V. onmiddellijk informeren. De kredietnemer zal de polis niet ten behoeve van derden
+bezwaren of zich daartoe verplichten.
+
+- Een arbeidsongeschiktheidsverzekering ten behoeve van de vennoten.
+
+- Een pandrecht op de goederen.
+
+6. KORTLOPENDE SCHULDEN
+
+31-12-2023
+€
+
+Aflossingsverplichtingen langlopende schulden
+Leningen 13.750
+Belastingen en premies sociale verzekeringen
+Pensioenen 343
+Overlopende passiva
+Vakantiegeld 148
+Kosten salarisverwerking 385
+Vooruitgefactureerde bedragen 3.480
+
+4.013
+
+BEHOORT Sid ACCOUNTANTSRAPPORT
+
+Jaarrekening
+
+5 B ©, R R l E Thomashuis Almelo, Almelo
+
+accountants
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+Huurverplichtingen onroerende zaken
+
+Het pand is eigendom van Beter Wonen, welke het pand verhuurt aan De Drie Notenboomen B.V.
+Laatstgenoemde verhuurt het pand aan Thomashuis Almelo De huur bedraagt € 10.097 per maand (inclusief
+eigen gebruik).
+
+Franchisecontract
+Thomashuis Almelo is een verplichting uit hoofde van een franchisecontract aangegaan van vijf jaar.
+
+Het Thomashuis is verplicht jaarlijks, aan De Drie Notenboomen B.V. te Amsterdam een
+onderhoudsvergoeding van € 31.389 (naar rato, prijspeil 2023) te betalen. Hieruit worden de kosten voor
+advies, jaarrekening en overige ondersteuning betaald door de franchisegever. Deze vergoeding is verplicht
+vanaf de opleverdatum van het pand. De hoogte van de onderhoudsvergoeding wordt jaarlijks aangepast aan
+de dan geldende prijsindexering en/of aan wetswijzigingen en/of noodzakelijke maatregelen.
+
+De zorgondernemer is slechts bevoegd na voordracht aan De Drie Notenboomen B.V. en met toestemming
+van De Drie Notenboomen B.V. de onderneming aan een derde over te dragen.
+
+Bij de beëindiging van de franchiseovereenkomst is Thomashuis Almelo verplicht het Thomashuishandboek,
+instructies, formulieren, brochures, folders, logo's e.d. terug te geven aan De Drie Notenboomen B.V. Tevens
+mag na beëindiging van de franchiseovereenkomst Thomashuis Almeto op geen enkele wijze de schijn
+opwekken verbonden te zijn aan de franchiseformule.
+
+BEHCORT 31) ACCOUMTANTSRAPFORT
+
+—È BORRIE
+
+accountants
+
+4.6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2023
+
+7. Netto-omzet
+
+Vergoeding, verzorging en wonen
+
+Donaties en overige giften
+
+8. Personeelskosten
+
+Lonen en salarissen
+Saciale lasten
+Pensioenlasten
+
+Lonen en salarissen
+
+Bruto lonen
+
+Mutatie vakantiedagenverplichting
+
+Sociale lasten
+
+Premies werknemersverzekeringen
+
+Pensioenlasten
+
+Pensioenpremies
+
+Personeelsleden
+
+Bij de onderneming was in 2023 1 personeelslid werkzaam op parttime basis.
+
+9. Afschrijvingen
+
+Materiële vaste activa
+
+Afschrijvingen materiële vaste activa
+
+Verbouwingen
+Inventaris
+Vervoermiddelen
+
+Jaarrekening
+Thomashuis Almelo, Almelo
+-18-
+
+2023
+
+58.203
+398
+
+58.601
+
+2.155
+395
+171
+
+2.721
+
+2.007
+148
+
+2.155
+
+395
+
+171
+
+4.001
+
+2.106
+1.223
+672
+
+4.001
+
+BEHOORT SI ACCOUNTANTSRAPPORT
+
+— BORRIE
+
+accountants
+
+10. Overige bedrijfskosten
+
+Overige personeelskosten
+Huisvestingskosten
+Bewonersgebonden kosten
+Kantoorkosten
+
+Autokosten
+
+Verkoopkosten
+
+Algemene kosten
+
+Overige personeelskosten
+
+Opleidingskosten
+Kosten salarisverwerking
+Overige personeelskosten
+
+Huisvestingskosten
+
+Huur pand
+
+Gas, water en elektra
+Onderhoud pand
+Gemeentelijke belastingen
+Schoonmaakkosten
+Onderhoud tuin
+
+Diverse privégebruik wonen
+
+Bewonersgebonden kosten
+
+Kosten maaltijden
+Kosten activiteiten
+Overige directe kosten
+
+Diverse privégebruik
+
+Kantoorkosten
+
+Kantoorbenodigdheden
+Telefoon
+
+Porti
+
+Contributies en abonnementen
+
+Jaarrekening
+Thomashuis Almelo, Almelo
+-19-
+
+2023
+
+2.084
+24.707
+7.046
+4.561
+996
+326
+74.095
+
+113.815
+
+1.305
+387
+392
+
+2.084
+
+21.823
+2.004
+1.950
+
+112
+1.631
+636
+
+28.156
+(3.449)
+
+24.707
+
+3.304
+3.061
+1.255
+
+7.620
+(574)
+
+7.046
+
+723
+2.918
+
+881
+4.561
+
+BEHOORT IJ ACCOUNTAMTSRAPPORT
+
+— BORRIE
+
+accountants
+
+Autokosten
+
+Brandstoffen
+Verzekering
+Motorrijtuigenbelasting
+Kilometervergoeding
+Overige autokosten
+
+Privégebruik
+
+Verkoopkosten
+
+Reclame- en advertentiekosten
+
+Algemene kosten
+
+Entreevergoeding De Drie Notenboomen B.V.
+Onderhoudsvergoedingen De Drie Notenboomen B.V.
+Advieskosten
+
+Verzekeringen
+
+Kleine aanschaffingen
+
+11. Financiële baten en lasten
+Rentelasten en soortgelijke kosten
+
+Rente rekening-courant bank
+Rente financieringen
+
+Ondertekening jaarrekening voor akkoord
+
+De firmanten,
+
+K. van Steenis S. Vos
+
+Jaarrekening
+Thomashuis Almelo, Almelo
+-20-
+
+2023
+
+661
+145
+205
+879
+481
+
+2.371
+(1.375)
+
+996
+326
+
+57.204
+5.232
+2.487
+
+585
+8.587
+
+74.095
+
+(1.001)
+(3.339)
+
+(4.340)
+
+BEHOORT Zl ACCOUMTANTSRAPPORT

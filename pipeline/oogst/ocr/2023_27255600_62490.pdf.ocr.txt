@@ -1,0 +1,1219 @@
+# whosigns-ocr v1 grootte=2637995 dpi=300 paginas=20
+Stichting Jeugdformaat
+
+1.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Afschrijvingen
+Materiële vaste activa worden vanaf het moment van ingebruikneming afgeschreven over de verwachte
+toekomstige gebruiksduur van het actief. Over gronden wordt niet afgeschreven.
+
+Indien een schattingswijziging plaatsvindt van de toekomstige gebruiksduur, dan worden de toekomstige
+afschrijvingen aangepast.
+
+Overige bedrijfskosten
+De overige bedrijfskosten worden toegerekend aan het jaar waarop zij betrekking hebben.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en deelnemingen ontvangen (te ontvangen) en aan derden
+en deelnemingen betaalde (te betalen) interest. Tevens is hieronder opgenomen het aandeel van de stichting in
+het resultaat van de op nettovermogenswaarde gewaardeerde deelnemingen.
+
+Rentelasten en soortgelijke kosten worden verantwoord in de periode waartoe zij behoren.
+1.4.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht
+bestaan uit de liquide middelen en beleggingen die zonder beperkingen en zonder materieel risico van
+waardeverminderingen als gevolg van de transactie kunnen worden omgezet in geldmiddelen.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn opgenomen
+onder de kasstroom uit operationele activiteiten.
+
+De verkrijgingsprijs van de verworven deelneming is opgenomen onder de kasstroom uit
+investeringsactiviteiten, voor zover betaling in geld heeft plaatsgevonden. De in de verworven deelneming
+aanwezige geldmiddelen zijn van de aankoopprijs in aftrek gebracht.
+
+Transacties waarbij geen ruil van kasmiddelen plaatsvindt, waaronder financiële leasing, zijn niet in het
+kasstroomoverzicht opgenomen. De betaling van de leasetermijnen uit hoofde van het financiële leasecontract
+zijn voor het gedeelte dat betrekking heeft op de aflossing als een uitgave uit financieringsactiviteiten
+aangemerkt en voor het gedeelte dat betrekking heeft op de interest als een uitgave uit operationele activiteiten.
+
+1.1.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de
+datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de
+jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de gebruikers
+van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de jaarrekening.
+
+1.1.4.6 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de wet- en
+regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+16
+
+Stichting Jeugdformaat
+
+1.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+2. Materiële vaste activa
+
+31-dec-23 31-dec-22
+De specificatie is als volgt: *€ 1.000 *€ 1.000
+Bedrijfsgebouwen en terreinen 2.020 1.925
+Machines en installaties 1.128 1.215
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 1.308 902
+Niet aan het bedrijfsproces dienstbare materiële activa 5.945 6.399
+Materiële vaste activa in uitvoering en vooruitbetaling materiële vaste activa 66 -
+Totaal materiële vaste activa 10.467 10.441
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven: 2023 2022
+
+*€ 1.000 *€ 1.000
+
+Boekwaarde per 1 januari 10.441 10.656
+Bij: investeringen 1.117 638
+Af: afschrijvingen 978 1.022
+Af: bijzondere waardeverminderingen 272 -
+Af: desinvesteringen - 31
+Boekwaarde per 31 december 10.467 10.441
+
+Toelichting
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het mutatie-
+overzicht onder 1.1.6.
+
+De waarde van de op dit moment in eigen gebruik zijnde panden in eigen gebruik (exclusief panden met een waarborghypotheek
+en exclusief pand in Leidschendam welke wordt verhuurd aan Schakenbosch Zorg voor Jeugdigen BV) gebaseerd op de WOZ-
+waarde is € 1.700.000. De boekwaarde ultimo 2023 bedraagt € 90.000.
+
+De waarde van het pand Schakenbosch Zorg voor Jeugdigen BV gebaseerd op de WOZ-waarde (50%) is € 6.032.000, De
+taxatiewaarde (getaxeerd april 2021) bedraagt € 6.960.000. De boekwaarde van het niet aan het bedrijfsproces dienstbare pand
+bedraagt € 4.924.000. De waarde van de grond blijft ongewijzigd € 1.293.000.
+
+In het boekjaar 2023 is door Schakenbosch Zorg voor Jeugdigen BV een deel van het huurcontract naar de toekomst toe
+afgekocht (1.762 m2 van het totaal oppervlak van 21.505 m2). Vanuit recent uitgevoerde taxatie zijn er indicaties tot het doen van
+een bijzondere waardevermindering. De impairment-berekening is gebaseerd op de verwachte toekomstige huurontvangsten tot
+en met 2038 en de verkoopwaarde. Deze is contant gemaakt tegen 8,07%. Enkele parameters die zijn gebruikt in de
+bedrijfswaardeberekening zijn afkomstig van de rapportage van de externe, onafhanelijke taxateur. Dit betreft onder andere de
+gehanteerde disconteringsvoet van 8,07%. Op basis van het ingeschatte meest realistische scenario is een waardevermindering
+doorgevoerd van € 272.000.
+
+17
+
+Stichting Jeugdformaat
+
+1.1.5 TOELICHTING OP DE BALANS
+
+3. Financiële vaste activa
+
+De specificatie is als volgt: 31-dec-23 31-dec-22
+*€ 1.000 *€ 1.000
+
+Deelnemingen 906 -
+
+Totaal financiële vaste activa 906 -
+
+De deelneming van Stichting Jeugdformaat in Schakenbosch Zorg voor Jeugdigen BV wordt op basis van het aandeel in het
+resultaat van de op nettovermogenswaarde gewaardeerde deelneming opgenomen.
+
+De jaarrekening 2023 van Schakenbosch Zorg voor Jeugdigen BV is op het moment van verschijnen van deze jaarrekening nog
+niet definitief vastgesteld. De concept jaarrekening toont een eigen vermogen van € 2.718.000 per jaarultimo en een resultaat
+over 2023 van € 827.000.
+
+verschaft kapitaal
+Eigen vermogen
+Kapitaal- belang aandeel
+rechtspersoon kernactiviteit (in%) Jeugdformaat
+*€ 1.000 *€ 1.000
+gesloten
+
+Schakenbosch Zorg voor Jeugdigen BV jeugdzorg 3 33,33% 906
+Besloten vennootschap
+Leidschendam
+
+Er is sprake van invloed van betekenis.
+Jeugdformaat heeft de intentie om de deelneming aan te houden; er zijn geen plannen voor verkoop of handel.
+
+Schakenbosch Zorg voor Jeugdigen B.V. is de afgelopen jaren getransformeerd naar een situatie waarbij op het huidige terrein een onderneming
+kan worden gedreven die een duurzaam resultaat kan behalen. Hierdoor is sprake van verbeterde economische omstandigheden, en daarom is
+de in het verleden genomen afwaardering op de nettovermogenswaarde teruggenomen.
+
+Het verloop van deelnemingen ís als volgt weer te geven: 2023 2022
+
+*€ 1.000 *€ 1.000
+Stand per 1 januari 0 0
+Bij: resultaat lopend boekjaar 276 0
+Bij: terugname afwaardering voorgaande jaren 630 0
+Stand per 31 december 906 0
+
+18
+
+Stichting Jeugdformaat
+
+1.1.5 TOELICHTING OP DE BALANS
+4. Debiteuren en overige vorderingen
+
+De specificatie is als volgt:
+
+Vorderingen op debiteuren
+
+Nog te factureren bedragen
+
+Overige vorderingen:
+
+Schakenbosch Zorg voor Jeugdigen BV
+Diverse overige vorderingen
+Vooruitbetaalde bedragen:
+
+Diverse vooruitbetaald
+
+Nog te ontvangen bedragen:
+
+Diverse nog te ontvangen
+
+Totaal debiteuren en overige vorderingen
+
+31-dec-23 31-dec-22
+*€ 1.000 *€ 1.000
+2.906 7,073
+6.268 6.578
+818 186
+
+113 105
+
+445 403
+
+1.366 165
+11.916 14.510
+
+Op de posten Vorderingen op debiteuren is een voorziening wegens mogelijke oninbaarheid in mindering gebracht ter grootte van
+
+€ 240.000.
+
+De post Diverse nog te ontvangen bestaat voor € 1.021.000 uit voorgeschoten kosten voor Cooperatie RondomJou U.A., welke in
+
+maart 2024 is ontvangen.
+
+Alle vorderingen hebben een looptijd korter dan één jaar.
+
+5. Liquide middelen
+
+De specificatie is als volgt:
+Bankrekeningen
+Deposito's
+
+Totaal liquide middelen
+
+31-dec-23 31-dec-22
+*€ 1.000 *€ 1.000
+12.842 11.027
+4.000 -
+16.842 11.027
+
+Voor het overschot van de liquide middelen is een aantal depositorekeningen en spaarrekeningen geopend. Het saldo op de
+bankrekeningen is vrij beschikbaar, het saldo op de deposito's staat voor een bepaald aantal maanden (maximaal 10 maanden,
+
+rekenend vanaf 31 december 2023) vast en is niet vrij beschikbaar.
+
+19
+
+Stichting Jeugdformaat
+
+1.1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+6. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Bestemmingsfondsen
+Algemene en overige reserves
+Totaal eigen vermogen
+Bestemmingsfondsen
+
+Het verloop is als volgt weer te geven:
+
+Bestemmingsfondsen:
+Don Bosco Noodfonds
+
+Totaal bestemmingsfondsen
+
+Het verloop is als volgt weer te geven:
+
+Bestemmingsfondsen:
+Don Bosco Noodfonds
+
+Totaal bestemmingsfondsen
+Algemene en overige reserves
+
+Het verloop is als volgt weer te geven:
+Algemene reserves:
+
+Algemene reserve
+
+Waarde deelnemening
+
+Totaal algemene en overige reserves
+
+Het verloop is als volgt weer te geven:
+Algemene reserves:
+
+Algemene reserve
+
+Waarde deelneming
+
+Totaal algemene en overige reserves
+
+31-dec-23 31-dec-22
+
+*€ 1.000 *€ 1.000
+
+114 115
+
+18,108 17.021
+
+18.220 17.136
+
+Saldo per Resultaat- Overige Saldo per
+
+1-jan-2022 bestemming mutaties 31-dec-2022
+
+*€ 1.000 *€ 1.000 *€ 1.000 *€ 1.000
+119 -4 - 115
+
+119 4 0 115
+
+Saldo per Resultaat- Overige Saldo per
+
+1-jan-2023 bestemming mutaties 31-dec-2023
+
+*€ 1,000 *€ 1.000 *€ 1.000 *€ 1.000
+115 -1 - 114
+
+115 -4 0 114
+
+Saldo per Resultaat- Overige Saldo per
+
+1-jan-2022 bestemming mutaties 31-dec-2022
+
+*€ 1.000 “€ 1.000 *€ 1.000 *€ 1.000
+17.126 -105 - 17.021
+17.126 -105 - 17.021
+
+Saldo per Resultaat- Overige Saldo per
+
+1-jan-2023 bestemming mutaties 31-dec-2023
+
+*€ 1.000 *€ 1.000 *€ 1.000 *€ 1.000
+17.021 1.085 - 18.106
+17.021 1.085 - 18.106
+
+Het Don Bosco Noodfonds heeft betrekking op additionele middelen die door hulpverleners aanvullend kunnen worden ingezet.
+
+20
+
+Stichting Jeugdformaat
+
+1.1.5 TOELICHTING OP DE BALANS
+
+7. Voorzieningen
+
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+
+Het verloop is als volgt weer te geven: 1-jan-2023 31-dec-2023
+*€ 1,000 *€ 1.000 +€ 1,000 *€ 1.000 *€ 1.000
+
+= jubileumverplichtingen 280 76 47 32 277
+- langdurig zieken 725 1.197 312 - 1.610
+= verlieslatend contract - 293 - - 293
+Totaal voorzieningen 1.005 1.566 359 32 2.180
+
+Toelichting per categorie voorziening:
+
+De jubileumvoorziening betreft een voorziening voor toekomstige jubileumuitkeringen.
+
+Voor langdurig zieken is een voorziening gevormd op basis van de contante waarde van de verwachte loonkosten in de eerste
+twee jaren van de arbeidsongeschiktheid, voor medewerkers die naar verwachting niet zullen terugkeren in het arbeidsproces en
+de verwachte loonkosten voor ex-medewerkers die een uitkering WGA ontvangen (daar Stichting Jeugdformaat Eigenrisicodrager
+
+is voor de WGA).
+
+De voorziening verlieslatend contract betreft een voorziening voor een verlieslatend contract School Maatschappelijk Werk. De
+voorziening betreft de contante waarde van het verschil tussen de ontvangen prestatie (omzet) en de waardebepaling van de
+
+dienstverlening (kostprijs) over de contractperiode.
+
+Toelichting ín welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+
+31-dec-2023
+
+*€ 1.000
+
+Kortlopend <1 jaar 1-5 jaar Langlopend >5 jaar
+= jubileumverplichtingen 16 90 171
+- langdurig zieken 800 623 187
+- verlieslatend contract 179 114 -
+
+995 827 358
+8. Langlopende schulden (nog voor meer dan een jaar)
+De specificatie is als volgt: 31-dec-23 31-dec-22
+*€ 1.000 *€ 1.000
+Schulden aan banken 4.799 5.066
+Schulden aan overigen 418 474
+Totaal langlopende schulden (nog voor meer dan een jaar) 5.215 5.540
+Het verloop van schulden aan banken is als volgt weer te geven: 2023 2022
+*£€ 1.000 *€ 1.000
+
+Stand per 1 januari 5.333 5.605
+Bij: nieuwe leningen 0 -
+Af: verschillen voorgaande jaren 0 5
+Af: aflossingen 267 267
+Stand per 31 december 5.066 5.333
+Af: aflossingsverplichting komend boekjaar 267 267
+Stand langlopende schulden aan banken per 31 december 4,799 5.066
+
+21
+
+
+Stichting Jeugdformaat
+
+1.1.5 TOELICHTING OP DE BALANS
+
+Het verloop van schulden aan overigen is als volgt weer te geven: 2023 2022
+*€ 1.000 *€ 1,000
+Stand per 1 januari 530 585
+Bij: nieuwe leningen 0 -
+Af: aflossingen 56 55
+Stand per 31 december 414 530
+Af: aflossingsverplichting komend boekjaar 58 56
+Stand langlopende schulden aan overigen per 31 december 416 474
+Toelichting in welke mate (het totaal van) de langlopende schulden als langlopend moeten worden beschouwd:
+Kortlopend deel van de langlopende schulden (< 1 jr.), aflossingsverplichtingen 267 267
+Langlopend deel van de langlopende schulden (> 1 jr.) (balanspost) 5.215 5.540
+hiervan > 5 jaar 168 232
+Voor een andere toelichting op de langlopende schulden wordt verwezen naar de bijlage Overzicht Langlopende Schulden.
+De aflossingsverplichtingen komend boekjaar zijn verantwoord onder de kortlopende schulden.
+9. Overige kortlopende schulden
+De specificatie is als volgt: 31-dec-23 31-dec-22
+*€ 1.000 *€ 1.000
+Crediteuren 2.072 1.141
+Aflossingsverplichtingen komend boekjaar langlopende leningen 325 322
+Belastingen en premies sociale verzekeringen 2.869 2.584
+Schulden terzake pensioenen 1.746 1.169
+Nog te betalen salarissen 111 115
+Vakantiegeld 1.623 1.564
+Vakantiedagen 2.231 1.858
+Schulden uit hoofde van subsidies:
+Gemeenten 773 1.127
+Vooruitontvangen transformatie subsidie H10 123 420
+Overige overlopende passiva:
+Te restitueren Zorgbonus aan VWS - 279
+Vooruitontvangen bedragen 513 -
+Diverse overlopende passiva 2.130 1.718
+Totaal overige kortlopende schulden 14.516 12.297
+
+De post Vooruitontvangen bedragen betreft een reservering voor vooruitontvangen huurbaten. Vanuit de laatste ontwikkelingen in
+de regio is de verwachting dat het lopende huurcontract aangepast zal worden voor wat betreft de verhuur van het kantoordeel.
+Eén en ander zal pas later in het boekjaar 2024 geformaliseerd worden. Daarmee zal de eerdere allonge gewijzigd worden en is
+momenteel de reële verwachting dat de verhuurovereenkomst voor het kantoordeel zal bijven bestaan tot medio 2026. Dit
+
+betekent dat de eerdere afkoopsom deels is teruggedraaid.
+
+De post Diverse overlopende passiva bestaat uit nog te betalen pleegzorgvergoeding (€ 706.000), nog te betalen ORT en
+
+reiskosten (€ 117.000), nog te betalen accountantskosten (€ 218.000) en nog te betalen kosten (€ 1.088.000).
+
+Alle overige kortlopende schulden hebben een verwachte resterende looptijd van minder dan een jaar.
+
+22
+
+Stichting Jeugdformaat
+
+1.1.5 TOELICHTING OP DE BALANS
+
+10. Niet ín de balans opgenomen verplichtingen, activa en regelingen
+Stichting Jeugdformaat heeft de volgende meerjarige verplichtingen uit hoofde van lopende contracten en verplichtingen
+
+betaalbaar betaalbaar betaalbaar Totaal
+<1 jaar 1-5jaar > 5 jaar
+*€ 1,000 *€ 1.000 *€ 1.000 *€ 1.000
+Huur Gebouwen 684 1.905 379 2.968
+Kopieer-apparatuur 46 182 45 273
+Leaseverplichting auto's 36 89 - 125
+Koffiemachines 30 32 - 62
+Totaal meerjarige contracten 796 2.208 424 3.428
+
+Voor een aantal huurovereenkomsten zijn bankgaranties afgegeven voor een bedrag van € 78.000 (inclusief Fleminglaan 12).
+
+Schadeclaim
+
+Stichting Jeugdformaat heeft een schadeclaim ingediend bij het UWV voor een bedrag van € 107.000. Hierover is nog geen
+uitspraak gedaan en derhalve is het genoemde bedrag nog niet als Nog te ontvangen bedrag in de balans opgenomen.
+
+Vooruitontvangen kapitaallasten
+
+In 2016 heeft Schakenbosch Zorg voor Jeugdigen BV een afkoopsom van het Ministerie van VWS ontvangen inzake de
+compensatie van de “Afkoop huurovereenkomst in verband met NHC". Van deze afkoopsom is € 4.968.000 door Schakenbosch
+Zorg voor Jeugdigen doorgeleid naar de verhuurders. Deze is verwerkt als een jaarlijkse vermindering op de huur ad € 241.500.
+Door de jaarlijkse huur-vermindering bedraagt het restant per jaarultimo 2023 € 1.449.000
+
+Verplichtingen aan Schakenbosch Zorg voor Jeugdigen BV
+Voor de voorwaardelijke verplichtingen aan Schakenbosch Zorg voor Jeugdigen BV (vanuit het afsprakenkader AHO augustus
+2022) wordt door Jeugdformaat geen uitstroom van middelen verwacht.
+
+Panden gefinancierd met waarborghypotheek
+
+Een aantal panden van Jeugdformaat is gefinancierd met een waarborghypotheek.
+
+De omvang van de waarborghypotheken bedraagt € 3.024.000 (ultimo 2022: € 3.024.000).
+
+Deze activa zijn gefinancierd met waarborghypotheken verstrekt door het Ministerie van VWS en de Gemeente Den Haag.
+Bij de verkoop van deze activa komt de opbrengst geheel ten goede aan de hypotheekhouders als aflossing van de
+waarborghypotheek.
+
+Zekerheden ten behoeve van de hypothecaire lening
+
+Met de Rabobank zijn de volgende zekerheden overeengekomen:
+
+- Verpanding van het zorgcomplex Schakenbosch Zorg voor Jeugdigen BV
+
+= Verpanding van huidige en toekomstige huurpenningen
+
+- Verklaring van Part Passu, Cross Default, Material Adverse Change en Negative Pledge
+
+Vennootschapsbelastingplicht
+
+Eind 2019 is een beleidsbesluit over de toepassing van de zorgvrijstelling in de vennootschapsbelasting gepubliceerd.
+
+Door dit besluit is meer duidelijk geworden over de toepassing van de vrijstelling in de huidige fiscale praktijk. Vanwege de
+wijzigingen in dit besluit is Jeugdformaat met behulp van een externe adviseur een onderzoek gestart naar de fiscale positie voor
+de vennootschapsbelasting. Dit onderzoek is in oktober 2022 afgerond en daarop is een brief van de Belastingdienst ontvangen,
+waarin staat, dat Stichting Jeugdformaat niet belastingplichtig is voor de vennootschapsbelasting voor de jaren 2015 t/m 2019.
+Voor de jaren 2020 t/m 2023 is eenzelfde intern onderzoek uitgevoerd. De conclusie hiervan is dat ook voor deze jaren Stichting
+Jdeugdformaat niet belastingplichtig zal zijn voor de vennootschapsbelasting. Om deze reden is geen verplichting opgenomen in de
+jaarrekening.
+
+23
+
+vz
+
+Z9p'Ol 99 Sy6'S 808’ | 8 1'L 080'Z
+<48 EA - le) le)
+V84'L - ZvS 9641 €z8 sI9'y
+SE0'€ “ - - 0 Se0e
+SPS LZ 99 vos vOL'€ Ls6'| 099'6
+92 99 pop 90y Z8- 56
+6SL - - - si 651
+e4e E KA KA - - -
+826 - Tel 56E ell 687
+ZINL 99 - Lo8 Se TAA
+Lyv'0l z 6689 <06 SIE STe}
+c%6'9 n Goe LOP L LLZ S8p'y
+ST0'e - al - ei Sc0'e
+8E’ 0z s voL'9 €0e'z 906'L Geb 6
+000'L 3 000'L 3 000'L 3 „ 000'L 3 „ 000’ 3 „ 000'L 3 „
+EANIE AJSEA EAIIE aj9USjEW usjopplw sonejjejsul ueule11o}
+teezo ojgieyew Buyezeagn eseqysuoÏp ses0ad -s;lupeg ue soude Us UoMNogeb
+=JOOA Ue Bueoayn ui  -Syfupegzey UEEJSIN oFseAosopuy -sjfupeg
+
+eARIE 9JSEA oJ OFEN
+
+£zog Jeqweaep LE Jed epieemoog
+
+ueBuuepuIwieAspseem sJepuozfig -
+ueBuinfuyosje enstepnwno -
+selplsqnsspleyJeno -
+epleemjeyosuee -
+
+£Z07 zoqwooep LE sed pus
+
+(opfes Jed) epseemjeog ui spem
+
+opjes Jed
+
+ueôuinliuyosje enenepnuno
+
+epseemjeuosuee
+uebuuejsenuisep -
+
+uebBuinfuyosje enanepnuno:
+epJeemyeyosueer
+enjjoe ueneryosebije joeyeb eweubnIej -
+
+ueBuuepuIwIerepseem ‘zig eweuÊnse) -
+uebuuepumuwerepseem eJepuoz[ig -
+ueBuinfiuyosje -
+
+uesbuuejseaul -
+
+aeelyeog zey ul senejnw
+
+€zoz Henuel | Jed epseemjeog
+
+ueBuraluyosje enenejnwno -
+seiplsgnsspleyJeno -
+epseemseyosuee -
+
+€Z0z Henuefl | tad puejs
+
+VALLIV ALSVA ATAIUALVN LHOIZEIAOALLY.LAN 9" LL
+
+yeewuojpBner Bunuons
+
+Sz
+
+suejeg ep dof 85 Hepnuuy | Z 891 vv 95 hd Oes %OST jeeujodÁH| OL elo Le-nt-g uesÂnyyosog
+Bunyotjeo} eIz Bunyons
+suejeg ep dof 297 dreeulT | v - 990'S L9Z - CEES %6E seeyjodÁH| cl [000'8 ZL-Ône-,Z Huegodek)
+Bunyoijeo) elz
+000'L 3» 000'L 3 00O'L 3 « 000'L 3, 000'LB»  OOO'L 3» % 000'| 3,
+uepeysoez Buis ozijm nue aeef q JeA0 €02 ul ET0z e0 hant pig wnje
+pi sol hid n =sBuis jk of doof : Ee 5 Jeqweosep LE Kadt “fur veBuruey |Joqweosep je| -oxfij | Buruoj HOOS | -dooy | WwospjooH B mars P JeAebBUIUST
+piere EN | ssonv |epuosysoy) | Pimgosgseu | “PSOÛY | omnomn | pnuosssext | -otsem ofer. iid
+
+ezoz own uepinyos epuedojBue JUIIZIEAD 2°1'1
+
+aoviria
+
+jeewuoypBnar Bunyojs
+
+
+Stichting Jeugdformaat
+
+1.1.8 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+11. Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2023 2022
+
+*€ 1.000 *€ 1.000
+Opbrengsten Jeugdwet 62.339 56.475
+Vergoeding Corona-meerkosten - 100
+Totaal 62.339 56.575
+
+Onder Opbrengsten Jeugdwet worden de baten uit de open jeugdzorg gepresenteerd. Dit betreft baten uit de regio Haaglanden, de
+Regio Rijnland, de Regio Zuid-Holland Zuid, een aantal gemeenten buiten Zuid Holland en instellingen waarvoor
+Jeugdformaat productie in onderaanneming levert.
+
+12. Subsidies (exclusief WMO en Jeugdwet)
+
+De specificatie is als volgt: 2023 2022
+
+*€ 1.000 *€ 1.000
+Subsidies Gemeenten 1.517 1.718
+Sterk-in-je-Werk 297 1.545
+Totaal 1.814 3,263
+
+Voor een toelichting op de opbrengsten uit subsidies wordt verwezen naar de bijtage bij deze jaarrekening.
+
+13. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2023 2022
+*€ 1.000 *€ 1.000
+Overige dienstverlening
+School Maatschappelijk Werk 7471 6.087
+Opvang AMV 5.197 3,510
+Overige opbrengsten (waaronder vergoeding voor uitgeleend personeel en verhuur onroerend goed):
+Verhuur grond en gebouwen 975 624
+Doorbelasting personeelskosten 1.348 2.460
+Baten en lasten voorgaande jaren, per saldo 1.396 -
+Overige opbrengsten 830 587
+Totaal 17.217 13.268
+
+De opbrengsten van School Maatschappelijk Werk bestaan uit werkzaamheden voor contractpartijen, voornamelijk bestaande uit
+scholen.
+
+De opvang AMV betreft de begeleiding van Alleenstaande Minderjarige Vreemdelingen.
+Bij de post Verhuur grond en gebouwen is rekening gehouden met verlaging van het huurcontract (-€ 175.000 minder
+
+verhuurinkomsten) en is rekening gehouden met afkoop huurcontract (€ 512.000). Voor de afkoop huurcontract wordt verwezen naar
+de toelichting bij de Kortlopende schulden.
+
+De post Doorbelasting peroneelskosten betreft met name inzet van personeel van Jeugdformaat bij een aantal Gemeenten.
+
+De post Baten en lasten voorgaande jaren betreft vooral de Coronabijdrage over 2022 (€ 216.000), facturatie AMV 2022 (€ 257.000),
+omzet 2022 Schoolformaat (€ 587.000), afboeking Nidos 2022 (€ 173.000) en correctie afschrijving gebouw (€ 159.000).
+
+Stichting Jeugdformaat
+
+1.1.8 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+14, Personeelskosten
+
+De specificatie is als volgt:
+
+Lonen en salarissen
+Sociale lasten
+Pensioenpremies
+
+Andere personeelskosten:
+Opleidingskosten
+
+Overige personeelskosten
+Subtotaal
+
+Personeel niet in loondienst
+
+Totaal personeelskosten
+
+De gemiddelde personeelssterkte in 2023 is 689,4 fte's (2022: 694,0 fte's). Deze aantallen zijn exclusief stagiaires en
+
+personeel niet in loondienst.
+
+15, Afschrijvingen op immateriële en materiële vaste activa
+
+De specificatie is als volgt:
+
+Afschrijvingen:
+- materiële vaste activa
+
+Totaal afschrijvingen
+16. Bijzondere waardevermindering
+De specificatie is als volgt:
+
+Afschrijvingen:
+- materiële vaste activa
+
+Totaal bijzondere waardevermindering
+
+18. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+Verzorgingskosten rechtstreeks
+Onderaanneming Zorg
+
+Algemene kosten
+
+Onderhoud en energiekosten
+
+Huur en leasing
+
+Mutatie voorziening dubieuze debiteuren
+Baten en lasten voorgaande jaren, per saldo
+
+Totaal overige bedrijfskosten
+
+De verzorgingskosten betreffen uitbetaalde pleegvergoedingen en verzorgingskosten voor residentiële voorzieningen.
+
+2023 2022
+TE 1.000 TE 1.000
+37.865 37.662
+6.407 6.382
+3.750 3.751
+430 542
+3.520 1.024
+51.972 49.361
+4.720 3.136
+56.692 55497
+2023 2022
+“€ 1.000 € 1.000
+978 1.022
+978 1.022
+2023 2022
+€ 1.000 "€ 1.000
+272 -
+272 5
+2023 2022
+“€ 1.000 "€ 1.000
+9.040 7.959
+5.509 3.857
+4.655 4477
+1.841 1.442
+1.503 1.393
+499 -
+8 254
+23.047 19.382
+
+Jeugdformaat heeft ten aanzien van een aantal beschikkingen de uitvoering van de zorg aan collega-instellingen overgedragen.
+Omdat Jeugdformaat dossier-eigenaar is, wordt de aan deze instellingen betaalde vergoeding aangemerkt als Onderaanneming Zorg.
+
+27
+
+Stichting Jeugdformaat
+
+1.1.8 TOELICHTING OP DE RESULTATENREKENING
+
+19. Financiële baten en lasten
+
+De specificatie ís als volgt: 2023 2022
+*€ 1.000 +€ 1.000
+Resultaat deelneming 276 -
+Rentelasten hypotheek -233 -250
+Bankkosten -23 -21
+Rentebaten 63 -
+Rentelasten - 43
+Overige financiële lasten -10 -
+Subtotaal financiële lasten 73 -314
+Totaal financiële baten en lasten 73 -314
+
+20. Bijzondere baten en lasten
+
+De specificatie is als volgt: 2023 2022
+*€ 1.000 *€ 1.000
+
+Resultaat deelneming voorgaande jaren 630 -
+
+Totaal bijzondere baten en lasten 630 -
+
+Het resultaat deelneming voorgaande jaren betreft de terugname van de in voorgaande jaren afgewaardeerde deelneming.
+21. Wet normering topinkomens (WNT)
+
+Bestuursmodel: Eindverantwoordelijke Raad van Bestuur met Raad van Toezicht.
+Samenstelling van Bestuur: Eenhoofdige Raad van Bestuur
+
+Stichting Jeugdformaat dient met ingang van 2013 te voldoen aan de Wet Normering Top-Inkomens (WNT). Stichting Jeugdformaat
+valt met een totaalscore van 10 punten in 2021 in Categorie IV met een maximale bezoldiging van € 205.000. De bezoldiging van de
+leidinggevende topfunctionaris, Timman, vloeit voort uit afspraken zoals vastgelegd in de arbeidsovereenkomst welke is
+overeengekomen voor ín werking treding van de Regeling Bezoldigingsmaxima topfunctionarissen zorg en jeugdhulp.
+
+Naast de hierna vemelde topfunctionaris zijn er geen functionarissen met dienstbetrekking die in 2023 een bezoldiging boven het
+individuele WNT-maximum hebben ontvangen. De binnen onze organisatie geïdentificeerde leidinggevende topfunctionarissen met
+een dienstbetrekking hebben geen dienstbetrekking bij meerdere WNT-plichtige instelling(en) als leidinggevende topfunctionaris
+(die zijn aangegaan met ingang van 1 januari 2023).
+
+Voor een inzicht in de bezolding van de bestuurder en de Raad van Toezicht wordt verwezen naar de WNT-verantwoording 2023
+Stichting Jeugdformaat.
+
+22. Honoraria accountant 2023 2022
+€ €
+
+De honoraria van de accountant over 2023 zijn als volgt:
+1 Controle van de jaarrekening 180 260
+2 Overige controlewerkzaamheden (Productiecontrole Jeugdwet) 30 40
+3 Fiscale advisering 25 7
+
+4 Niet-controlediensten - -
+
+Totaal honoraria accountant 235 307
+
+De in de tabel vermelde honoraria voor de controle van de jaarrekening 2023 (2022) hebben betrekking op de totale honoraria voor
+het onderzoek van de jaarrekening 2023 (2022), ongeacht of de werkzaamheden al gedurende het boekjaar 2023 (2022) zijn
+verricht.
+
+ed,
+
+23. Transacties met verb partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen en hun
+bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+28
+
+ing 2023 il maat
+
+De WNT is van toepassing op Stichting Jeugdformaat. Het voor Stichting Jeugdformaat toepasselijke
+
+bezoldigingsmaximum is in 2023 € 205.000 (het voor zorg en j Klasse IV,
+totaalscore 10 punten).
+1. i issen
+1a. Leid ú Î met ing en leidû ie ús zonder
+dienstbetrekking vanaf de 13e maand van de functievervulling
+idir ú f met di ing en leidi zonder dí
+
+vanaf de
+
+13° maand van de functievervulling inclusief degenen die op grond van hun voormafige functie nog 4 jaar als topfunctionaris
+worden aangemerkt
+
+bedragen x C 1 B. Timman
+Bestuurder
+01/01-31/12
+
+sidi a
+Aanvang en einde functievervulling in
+023
+
+Omvang denstverband (als daeltijdfactor
+ata
+
+Dienstbetrekking? ja
+
+1,0
+
+Beloning plus belastbare 179,181
+
+Beloningen betaalbaar op termijn 16.096
+Subtotaal 195.277
+
+Indidueel toepasselijke 205.000
+
+-/- Onverschukligd betaald en nog niet
+terugontwangen bedra;
+Bezoldigi: 195.277
+
+nvt.
+
+Het bedrag van de overschrijding en de
+reden waarom de overschrijding al dan Nvt.
+niet is toegestaan
+
+Toelichting op de vordering wegens
+onverschuldigde betaling
+
+bedragen x € 1 B. Timman
+
+mctieges
+Aanvang en einde functievervulling in
+Daz
+
+Omvang dienstverband (als deeltijdfactor
+
+01/01-31/12
+
+jn fie) 10
+Dienstbetreklang? ja
+[Beloning plus belastbare 175.240
+Beloningen betaalbaar op termijn 14,391
+Subtotaal 189.631
+Individueel toepasselijke 199.000
+kr .
+Bezoldiging 189,631
+
+bedragen x C 1 A, Bosveld
+
+AJJ, Buwalda
+
+tid
+
+J.W.N. van Merwijk
+
+Lid
+
+M.L. Jaber El
+Meftahi
+
+5, E Hadouchi
+
+€. Dortmans
+
+uid
+
+Aarwang en einde functievervuling in
+0 01/01-31/12
+
+22
+
+01/01-31/12
+
+01/01-31/12
+
+01/01-31/12
+
+01/01-31/12
+
+01/01-31/12
+
+Bezoldiging 19.084 12.723 12.723 13.959 12.339 12.723
+
+wepasseijke 30.750 20.500 20,500 20.500 20.500 20.500
+LID,
+
+-/= Onverschukdigd betaald en nog niet Nat. Nvt Nvt Nut. Nvt
+
+Bezoldigi 19,084 12,723 12.723 13,959 12.339 12.723
+
+Het bedrag van de overschrijding en de
+
+reden waarorn de overschrijding al dan Nvt. Nvt.
+
+niet is toegestaan
+
+Toelichting op de vordering wegens
+
+onverschuldigde betaling Nvt. Nvt. N.v.t. Nvt, Nvt.
+
+Voorste u us ue uid JE
+
+ls aaneen PASEN 01/01-31-12 01/01-31-12 01/01-31-12 01/01-31-12 01/01-31-12 01/01-31-12
+
+Bezoldigng 18.528 12.352 12.352 11.500 12.736 12.352
+
+individneel topanes 29.850 19.900 19.900 19.900 19.900 19,900
+
+3. Overige rapportageverplichtingen op grond van de WNT
+
+Naast de hi vermelde il issen zijn er geen overige functionarissen met een
+
+dienstbetrekking die In 2023 een liging boven het indivi in hebben
+
+ontvangen.
+
+
+Stichting Jeugdformaat
+
+1.1.10 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Stichting Jeugdformaat heeft de jaarrekening 2023 opgemaakt en vastgesteld in de
+vergadering van 22 mei 2024.
+
+De raad van toezicht van de Stichting Jeugdformaat heeft de jaarrekening 2023 goedgekeurd in de vergadering
+van 22 mei 2024.
+
+Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 6 lid 4 dat de Raad van Bestuur de goedkeuring behoeft van
+de Raad van Toezicht omtrent de resultaatbestemming.
+
+Het resultaat wordt toegevoegd dan wel onttrokken aan de reserves van Stichting Jeugdformaat.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 1.1.2.
+
+Ondertekening door bestuurders en toezichthouders
+Raad van Bestuur: Toezichthouders:
+
+W.G. W.G.
+Dhr. B. Timman 22-5-2023 Dhr. L.A. Bosveld 22-5-2023
+
+W.G.
+Mw. A.J.J. Buwalda - 22-5-2023
+van Leeuwen
+
+W.G.
+Dhr. M.L. Jaber El 22-5-2023
+Meftahi
+
+W.G.
+Mw. C. Dortmans 22-5-2023
+
+W.G.
+Dhr. A. Paling 22-5-2023
+
+W.G.
+Dhr. S. El Hadouchi 22-5-2023
+
+30
+
+T: +31 (0)10 24 24 600 BDO Audit & Assurance B.V.
+
+E: rotterdam@bdo.nl Postbus 4208, 3006 AE Rotterdam
+
+rdf www.bdo.nl Weena 764, 3014 DA Rotterdam
+Nederland
+
+Controleverklaring van de onafhankelijke
+accountant
+
+RA3111
+
+Aan: de raad van bestuur en de raad van toezicht van Stichting Jeugdformaat
+
+A. Verklaring over de in het jaarverslag opgenomen jaarrekening 2023
+
+Ons oordeel
+Wij hebben de jaarrekening 2023 van Stichting Jeugdformaat te Den Haag gecontroleerd.
+
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening een getrouw beeld van de
+grootte en de samenstelling van het vermogen van Stichting Jeugdformaat op 31 december
+2023 en van het resultaat over 2023 in overeenstemming met de vereisten voor de jaarrekening
+gesteld bij of krachtens de Regeling Jeugdwet.
+
+De jaarrekening bestaat uit:
+
+1. de balans per 31 december 2023;
+
+2. de resultatenrekening over 2023; en
+
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de
+Nederlandse controlestandaarden en de Regeling Controleprotocol Wet normering topinkomens
+(WNT) 2023 vallen. Onze verantwoordelijkheden op grond hiervan zijn beschreven in de sectie
+‘Onze verantwoordelijkheden voor de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Jeugdformaat zoals vereist in de Verordening inzake de
+onafhankelijkheid van accountants bij assurance-opdrachten (ViO) en andere voor de opdracht
+relevante onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de
+Verordening gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis
+voor ons oordeel.
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met de Regeling Controleprotocol WNT 2023 hebben wij de
+anticumulatiebepaling, bedoeld in artikel 1.6a WNT en artikel 5, lid 1 sub n en o
+Uitvoeringsregeling WNT, niet gecontroleerd.
+
+Statutair gevestigd te Eindhoven en ingeschreven in het handelsregi onder 17171186.
+
+BDO Audit & Assurance B.V. is lid van BDO International Ltd, een rechtspersoon naar Engels recht met beperkte aansprakelijkheid,
+en maakt deel uit van het wereldwijde netwerk van juridisch zelfstandige organisaties die onder de naam “BDO” optreden.
+
+BDO is de merknaam die wordt gebruikt ter aanduiding van het BDO netwerk en van elk van de BDO Member Firms.
+
+BDO
+
+Dit betekent dat wij niet hebben gecontroleerd of er wel of niet sprake is van een
+normoverschrijding door een leidinggevende topfunctionaris vanwege eventuele
+dienstbetrekkingen als leidinggevende topfunctionaris bij andere WNT-plichtige instellingen,
+alsmede of de in dit kader vereiste toelichting juist en volledig is.
+
+B. Verklaring over de in het jaarverslag opgenomen andere informatie
+
+Naast de jaarrekening en onze controleverklaring daarbij, omvat het jaarverslag andere
+informatie, die bestaat uit:
+
+» het bestuursverslag;
+
+P- bijlage subsidies
+
+p de overige gegevens.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie:
+pr met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+Pp alle informatie bevat die op grond van de Regeling Jeugdwet is vereist.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip,
+verkregen vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie
+materiële afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in de Regeling Jeugdwet en de
+Nederlandse Standaard 720. Deze werkzaamheden hebben niet dezelfde diepgang als onze
+controlewerkzaamheden bij de jaarrekening.
+
+De raad van bestuur is verantwoordelijk voor het opstellen van de andere informatie,
+waaronder het bestuursverslag en de overige gegevens in overeenstemming met de Regeling
+Jeugdwet.
+
+C. Beschrijving van verantwoordelijkheden met betrekking tot de jaarrek
+
+Verantwoordelijkheden van de raad van bestuur en de raad van toezicht voor de
+jaarrekening
+
+De raad van bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de
+jaarrekening ín overeenstemming met de vereisten voor de jaarrekening gesteld bij of
+krachtens de Regeling Jeugdwet. In dit kader is de raad van bestuur tevens verantwoordelijk
+voor een zodanige interne beheersing die de raad van bestuur noodzakelijk acht om het
+opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als
+gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet de raad van bestuur afwegen of de stichting in staat
+is om haar werkzaamheden in continuïteit voort te zetten. Op grond van genoemd
+verslaggevingsstelsel moet de raad van bestuur de jaarrekening opmaken op basis van de
+continuïteitsveronderstelling, tenzij de raad van bestuur het voornemen heeft om de stichting
+te liquideren of de activiteiten te beëindigen of als beëindiging het enige realistische
+alternatief is.
+
+32
+
+IBDO
+
+De raad van bestuur moet gebeurtenissen en omstandigheden waardoor gerede twijfel zou
+kunnen bestaan of de stichting haar activiteiten in continuïteit kan voortzetten, toelichten ín
+de jaarrekening.
+
+De raad van toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving van de stichting.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat
+wij daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te
+geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid
+waardoor het mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude
+ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien
+redelijkerwijs kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen
+zijn op de economische beslissingen die gebruikers op basis van deze jaarrekening nemen. De
+materialiteit beïnvloedt de aard, timing en omvang van onze controlewerkzaamheden en de
+evaluatie van het effect van onderkende afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar
+relevant professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, de Regeling Controleprotocol WNT 2023, ethische voorschriften en de
+onafhankelijkheidseisen. Onze controle bestond onder andere uit:
+
+Pp het identificeren en inschatten van de risico’s dat de jaarrekening afwijkingen van materieel
+belang bevat als gevolg van fouten of fraude, het in reactie op deze risico’s bepalen en
+uitvoeren van controlewerkzaamheden en het verkrijgen van controle-informatie die
+voldoende en geschikt is als basis voor ons oordeel. Bij fraude is het risico dat een afwijking
+van materieel belang niet ontdekt wordt groter dan bij fouten. Bij fraude kan sprake zijn
+van samenspanning, valsheid in geschrifte, het opzettelijk nalaten transacties vast te
+leggen, het opzettelijk verkeerd voorstellen van zaken of het doorbreken van de interne
+beheersing;
+
+> het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als
+doel controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit
+van de interne beheersing van de stichting;
+
+> het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren van de redelijkheid van schattingen door de raad van bestuur
+en de toelichtingen die daarover in de jaarrekening staan;
+
+» het vaststellen dat de door de raad van bestuur gehanteerde continuïteitsveronderstelling
+aanvaardbaar is. Tevens het op basis van de verkregen controle-informatie vaststellen of er
+gebeurtenissen en omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of de
+stichting haar activiteiten in continuïteit kan voortzetten. Als wij concluderen dat er een
+onzekerheid van materieel belang bestaat, zijn wij verplicht om aandacht in onze
+controleverklaring te vestigen op de relevante gerelateerde toelichtingen in de
+jaarrekening. Als de toelichtingen inadequaat zijn, moeten wij onze verklaring aanpassen.
+
+33
+
+[BDO
+
+Onze conclusies zijn gebaseerd op de controle-informatie die verkregen is tot de datum van
+onze controleverklaring. Toekomstige gebeurtenissen of omstandigheden kunnen er echter
+toe leiden dat een stichting haar continuïteit niet langer kan handhaven;
+
+» het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toelichtingen; en
+
+> het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties
+en gebeurtenissen.
+
+Wij communiceren met de raad van toezicht onder andere over de geplande reikwijdte en
+timing van de controle en over de significante bevindingen die uit onze controle naar voren zijn
+gekomen, waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Rotterdam, 22 mei 2024
+
+BDO Audit & Assurance B.V.
+namens deze,
+Digitaal ondertekend door:
+
+Rob Karlas
+May 27 2024 7:43 AM +02:00
+
+R. Karlas RA
+
+34
+
+Se
+
+os"eep'ee8' | > v9'9LS"08V'|
+€ZOZ Hdom Nlijeddeyosjeeuijoours
+OO'eL9'6 > | OO€LG'6 00'€L9'6 D [EZOE-ZL-LE €ZOg- Lel YSas'0eZO0'S0'ze ANS BuppiruosegsBulusJon, 69209 WepJejorj IUSSWAE
+€8'T4L'8 2 | E8TLL GL OS'OGE DE > JETOT-TITVE EOL} LS5’680'Z2 €zog uppijyosegelplsqns TEOOSHHI xfasfij USewog
+‚uebipbnoT uen pleylBeqJeem
+ue Buijexximjuospleuybipseen,
+OO'OSp' Eel 3 f OO'OSP'ZEL 00'OSp' EL 3 |ETOZ-Zl-VE €ZOz-l-l ‘Bee ueg oyueeweD - EZOZ elpIsqNS LoezwrI Bee veg eweewes
+€ZOZ SMI UO Aunwwog
+56’ TPT >} 6066 TZ 00'po0'LpZ 3 |EZOC-CL-LE €TOE-L-l Ser606 “12elOHENN Aad 'Jy-do-1J OA MINS 0909} _AanasooA-wepueuyospleT SUSSWEE
+86'L9Z'G/E >| 6 LOES 00'226 787 > |STOZ-ZL-lE £T0g-L-6 OST180-2Z02 Z.LN/OSMNOA €Z0Z MINS „4209 Jeaulejeoz eJUSAWSE
+81'609'S8E 3 } 8L'GGT'GEZ 00'6LS'e6E 3 ETAz-Zl-lEef _ ZZOE-L-OV OOLLB0-2Z02 ETOT = ZEOZ OdN 04209 jeeuue}s0Z JUS)
+"Szoz Inf
+L Jew us Jo} ZOZ Jegweides | ‘epeyos
+Jepuoz uepleyos selssesenje.dsul
+6GVEOELL 3 | 6GP96' LIG 00'Sz4' 200 Ei STOZ-/-L EPELOL ue uibeg peoB uee JUeWIJedI STOOSHHI | __pleuÔimen ue ensnr UEA SLSISILIN)
+ezoz wy Guipesseg | czoz Buip Ipisqns 6 0 zeppuIa Yawuer zoeloud JeWWNUZIEIJUOD +eneBjuseipdo
+
+selpisqns :| Belfia
+

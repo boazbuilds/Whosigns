@@ -1,0 +1,1161 @@
+# whosigns-ocr v1 grootte=1909916 dpi=300 paginas=20
+Enjoy Zero B.V.
+
+7.1.4.2 Grondslagen van waardering van activa en passiva (geconsolideerd)
+
+Activa en passiva
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in de verdere grondslagen. Toelichtingen op
+posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen naar de onderneming zullen toevloeien en
+het actief een kostprijs of een waarde heeft waarvan de omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de
+balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal gaan met een uitstroom van middelen die
+economische voordelen in zich bergen en de omvang van het bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden
+vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan voldoen worden niet in de balans opgenomen,
+maar worden verantwoord als niet in de balans opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet leidt tot een belangrijke verandering in de
+economische realiteit met betrekking tot het actief of de verplichting. Dergelijke transacties geven evenmin aanleiding tot het verantwoorden van resultaten.
+Bij de beoordeling of er sprake is van een belangrijke verandering in de economische realiteit wordt uitgegaan van de economische voordelen en risico's die
+zich naar waarschijnlijk in de praktijk zullen voordoen, en niet op voordelen en risico's waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of nagenoeg alle rechten op economische
+voordelen en alle of nagenoeg alle risico's met betrekking tot het actief of de verplichting aan een derde zijn overgedragen. De resultaten van de transactie
+worden in dat geva! direct in de winst-en-verliesrekening opgenomen, rekening houdend met eventuele voorzieningen die dienen te worden getroffen in
+samenhang met de transactie. Indien de weergave van de economische realiteit ertoe leidt dat het opnemen van activa waarvan de rechtspersoon niet het
+juridisch eigendom bezit, wordt dit feit vermeld.
+
+De jaarrekening wordt gepresenteerd in euro's.
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek van cumulatieve afschrijvingen en cumulatieve
+bijzondere waardeverminderingen.
+
+De afschrijvingstermijnen van materiële vaste activa zijn gebaseerd op de verwachte economische levensduur van het vast actief.
+
+Materiële vaste activa met een beperkte gebruiksduur worden afzonderlijk afschreven op basis van de verwachte economische levensduur en rekening
+houdend met een eventuele restwaarde. In het geval dat belangrijkste bestanddelen van een materieel vast actief van elkaar te onderscheiden zijn en
+verschillen in gebruiksduur of verwacht gebruikspatroon, worden deze bestandsdelen afzonderlijk afgeschreven.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs volgens de lineaire methode op basis van de verwachte
+economische levensduur. Er wordt afgeschreven vanaf het moment van ingebruikneming.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+
+» Andere vaste bedrijfsmiddelen : 20%.
+
+Voor zover subsidies of daaraan gelijk te stellen vergoedingen zijn ontvangen als eenmalige bijdrage in de afschrijvingskosten, zijn deze in mindering
+gebracht op de investeringen / zijn deze als vooruitontvangen bedrag onder de overlopende passiva opgenomen (doorhalen hetgeen niet van toepassing is)
+[opnemen indien van toepassing en aangeven hoe de subsidies/vergoedingen zijn verwerkt).
+
+Bijzondere waardeverminderingen
+
+De vennootschap beoordeelt op iedere balansdatum of er aanwijzingen zijn dat een vast actief aan een bijzondere waardevermindering onderhevig kan zijn.
+Indien dergelijke indicaties aanwezig zijn, wordt de realiseerbare waarde van het actief vastgesteld. Indien het niet mogelijk is de realiseerbare waarde voor
+het individuele actief te bepalen, wordt de reatiseerbare waarde bepaald van de kasstroomgenererende eenheid waartoe het actief behoort. Van een
+bijzondere waardevermindering is sprake als de boekwaarde van een actief hoger is dan de realiseerbare waarde; de realiseerbare waarde is de hoogste
+van de opbrengstwaarde en de bedrijfswaarde. Een bijzonder-waardeverminderingsverlies wordt direct als last verwerkt in de winst-en-verliesrekening onder
+gelijktijdige verlaging van de boekwaarde van het betreffende actief.
+
+Indien wordt vastgesteld dat een bijzondere waardevermindering die in het verleden verantwoord is, niet meer bestaat of is afgenomen, dan wordt de
+toegenomen boekwaarde van de desbetreffende activa niet hoger gesteld dan de boekwaarde die bepaald zou zijn indien geen bijzondere
+waardevermindering voor het actief zou zijn verantwoord.
+
+Ook voor financiële instrumenten beoordeelt de vennootschap op iedere balansdatum of er objectieve aanwijzingen zijn voor bijzondere
+waardeverminderingen van een financieel actief of een groep van financiële activa. Bij objectieve aanwijzingen voor bijzondere waardeverminderingen
+bepaalt de vennootschap de omvang van het verlies uit hoofde van de bijzondere waardeverminderingen, en verwerkt dit direct in de winst-en-
+verliesrekening.
+
+Financiële vaste activa
+
+Latente belastingvorderingen
+De latente belastingvordering uit hoofde van het compensabel verlies is gewaardeerd tegen het nominale belastingtarief van 19%.
+
+Pagina 14 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+Voorraden
+Voorraden zijn gewaardeerd tegen kostprijs onder aftrek van een voorziening voor incourantheid, of tegen lagere opbrengstwaarde.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reëte waarde, inclusief transactiekosten. (Door toepassing van de effectieve rentemethode worden
+transactiekosten als onderdeel van de amortisatie in de winst- en verliesrekening verwerkt). De vervolgwaardering van vorderingen is tegen geamortiseerde
+kostprijs (indien geen sprake van agio/disagio of transactiekosten dan geamortiseerde kostprijs gelijk aan nominale waarde). Een voorziening wordt
+getroffen op de vorderingen op grond van verwachte oninbaarheid,
+
+Liquide middelen
+
+Liquide middeten bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan twaalf maanden. Rekening-courantschulden bij
+banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de nominale
+waarde.
+
+Liquide middelen die naar verwachting tanger dan 12 maanden niet ter beschikking staan van de onderneming, worden gerubriceerd als financiële vaste
+activa.
+
+Voorziening jubiteumverplichtingen
+
+De voorziening jubileumuitkeringen betreft een voorziening voor toekomstige jubileumuitkeringen inclusief gratificaties bij pensionering. De voorziening
+betreft de contante waarde van de in de toekomst uit te keren jubiteumuitkeringen. De berekening is gebaseerd op gedane toezeggingen, blijfkans en
+leeftijd. De gehanteerde disconteringsvoet bedraagt 1,2%.
+
+Voorziening balansverlof
+
+De voorziening balansverlof betreft een voorziening voor verlofaanspraken van medewerkers teneinde de duurzame inzetbaarheid te bevorderen. De
+voorziening is gewaardeerd op nominale waarde Conform de CAO Gehandicaptenzorg kan het balansverlof gedurende maximaal 10 jaar waardevast
+worden gespaard.
+
+Kortlopende schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één jaar. De kortlopende schulden hebben een
+verwachte looptijd van maximaal één jaar. De schulden worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen
+de geamortiseerde kostprijs.
+
+Pagina 15 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+7.1.4.3 Grondslagen van resultaatbepaling (Geconsolideerd)
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming van de hiervoor reeds vermelde
+waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het economisch potentieel, samenhangend met een
+vermeerdering van een actief of een vermindering van een verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld.
+Lasten worden verwerkt wanneer een vermindering van het economisch patentieel, samenhangend met een vermindering van een actief of een
+vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking genomen in het jaar waarin deze voorzienbaar zijn.
+De overige baten en lasten worden toegerekend aan de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit boekjaar
+toegerekend. In het geval van een geconstateerde fout in voorgaande boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag van de opbrengsten op betrouwbare wijze
+kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar
+kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening te voltooien op
+betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstvertening niet op betrouwbare wijze kan worden bepaald, worden de opbrengsten verwerkt tot het
+bedrag van de kosten van de dienstverlening die worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn verantwoord.
+
+Personele kosten
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de resultatenrekening voorzover ze verschuldigd zijn aan
+werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de winst-en-verliesrekening verantwoord in de periode waarin de arbeidsprestatie wordt verricht en,‚ voor
+zover nog niet uitbetaald, als verplichting op de balans opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt het
+meerdere opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling door het personeel of van verrekening met toekomstige
+betalingen door de instelling.
+
+Pensioenen
+
+De tot de groep behorende vennootschappen hebben voor hun werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking komende
+werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op het gemiddeld verdiende loon berekend over de jaren
+dat de werknemer pensioen heeft opgebouwd bij Kracht in Zorg. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht
+bij het bedrijfstakpensioenfonds Zorg en Welzijn (hierna PFZW). Kracht in Zorg betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald
+en de helft door de werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het pensioenfonds (het
+vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat. De dekkingsgraad is het gemiddelde van de laatste twaalf
+dekkingsgraden. Door een gemiddelde te gebruiken, zat de dekkingsgraad nu minder sterk schommelen. De dekkingsgraad van PFZW ultimo boekjaar
+bedraagt 106,3% en de beleidsdekkingsgraad 112,0%
+
+De kritische dekkingsgraad per eind 2023 met een tien jaar hersteitermijn is 104%. Doordat de actuele dekkingsgraad boven de kritische dekkingsgraad van
+104% ligt, kan PFZW volgens het herstelplan binnen tien jaar herstellen tot de vereiste dekkingsgraad van 125,4%. Per eind 2023 ligt de
+beleidsdekkingsgraad (112,0%) boven de minimaal vereiste dekkingsgraad (104,4%). Hiermee is een verlaging van het pensioen op grond van de minimaal
+vereiste dekkingsgraad de komende jaren niet meer aan de orde. PFZW voorziet geen noodzaak voor de aangesloten instellingen om extra stortingen te
+verrichten of om bijzondere premieverhogingen door te voeren. Kracht in Zorg heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van
+een tekort bij het pensioenfonds, anders dan het effect van hogere toekomstige premies. Kracht in Zorg heeft daarom alleen de verschuldigde premies tot
+en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en aan derden en groepsmaatschappijen betaalde
+(te betalen) interest. Tevens is hieronder opgenomen het aandeel van de stichting in het resultaat van de op nettovermogenswaarde gewaardeerde
+deelnemingen danwel ontvangen dividenden van deelnemingen waarin geen invloed van betekenis op het zakelijke en financiële beleid wordt uitgeoefend
+en waardeveranderingen van financiële vaste activa en effecten.
+
+Belastingen
+
+De belasting over het resultaat uit gewone bedrijfsuitoefening wordt berekend met inachtneming van fiscale faciliteiten. Voor zover de berekende belasting
+betrekking heeft op mutaties van waarderingsverschillen tussen de commerciële en de fiscale winstbepaling, wordt het betreffende deel ten bate of ten laste
+van de voorziening voor latente belastingen gebracht.
+
+Voor beschikbare voorwaartse verliescompensatie en nog niet gebruikte fiscale verrekeningsmogelijkheden wordt een latente belastingvordering
+opgenomen voorzover het waarschijnlijk is dat er toekomstige fiscale winst beschikbaar zal zijn waarmee verliezen kunnen worden gecompenseerd en
+verrekeningsmogelijkheden kunnen worden benut.
+
+Latente belastingverplichtingen- en vorderingen worden gewaardeerd tegen nominale waarde op basis van het actuele belastingtarief. Voorzover
+bovengenoemde compensatie op middellange termijn onwaarschijnlijk is, wordt op deze vordering een voorziening in mindering gebracht.
+
+Pagina 16 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+7.1.4,4 Grondslagen voor de opstelting van het kasstroomoverzicht (Geconsolideerd)
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide middelen en
+
+beleggingen die zonder beperkingen en zonder materieel risico van waardeverminderingen als gevolg van de transactie kunnen worden omgezet in
+geldmiddelen.
+
+Pagina 17 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+7.1.5 TOELICHTING OP DE GECONSOLIDEERDE BALANS 31-dec-23 __31-dec-22
+€ €
+
+ACTIVA
+Materiële vaste activa
+
+De specificatie is als volgt:
+
+Inventaris 325.541 394.631
+Vervoermiddelen 74.615 118.604
+Totaal materiële vaste activa 400.156 513.235
+
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven:
+
+1. Inventaris
+
+Boekwaarde per 1 januari 394.631 205.913
+Bij: investeringen minus desinvesteringen 42435 284.200
+Af: afschrijvingen „111.525 -95.482
+Boekwaarde per 31 december 325.541 394.631
+Aanschafwaarde per 31 december 668.932 651.358
+Cumulatieve afschrijvingen -343.391 -256.727
+Boekwaarde per 31 december 325.541 394.631
+
+2. Vervoermiddelen
+
+Boekwaarde per 1 januari 118.604 153.829
+Investeringen minus desinvesteringen -16.093 0
+Af: afschrijvingen „27.896 -35.225
+Boekwaarde per 31 december 74.615 118.604
+Aanschafwaarde per 31 december 148.514 210.575
+Cumulatieve afschrijvingen -73.899 -91.971
+Boekwaarde per 31 december 74.615 118.604
+
+Financiële vaste activa
+
+3. Latente belastingvorderingen
+
+Stand per 1 januari 3.070 0
+
+Mutatie boekjaar -3.070 3.070
+
+Totaal financiële vaste activa 0 3.070
+
+Vlottende activa
+
+4. Voorraden
+
+Handelsgoederen 0 2.500
+
+Emballage 0 1.441
+0 3.941
+
+5. Vorderingen op groepsmaatschappijen
+
+Rekening courant Eric Nafzger Holding B.V. 6.411 6.411
+6,411 6.411
+
+Rekening courant Eric Nafzger Holding B.V.
+
+Stand per 1 januari 6.411 4.722
+Overige mutaties 0 1.500
+6.411 6.222
+Rente boekjaar 0 189
+6.411 6.411
+De rente bedraagt 3%.
+
+Met betrekking tot aflossingen en zekerheden werden geen afspraken gemaakt.
+
+Pagina 18 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+31-dec-23  31-dec-22
+
+€ €
+6. Debiteuren
+Openstaand saldo per 31 december 94.429 98.902
+Een voorziening in verband met oninbaarheid wordt niet noodzakelijk geacht.
+7. Nog te factureren bedragen
+Nog te factureren bedragen van de in 2023 geleverde diensten en gestarte trajecten. 543.751 550.418
+8. Belastingen en premies
+Vennootschapsbelasting 90.794 102.085
+9. Overige vorderingen
+Tussenrekening IZZ 3.205 3.999
+Overige vorderingen 306.069 241.952
+Diverse 181 10.123
+
+309.455 256.074
+
+De overige vorderingen bestaan uit nog te ontvangen subsidie ad € 124.000 (vorig jaar: € 16.200), vordering Jens ad € 6.549 (vorig jaar:
+€ 186.805), vordering BTP ad € 122.584, vordering BWM ad €12.745 en overige vorderingen ad € 40.191 (vorig jaar: € 38.947).
+
+10. Liquide middelen
+
+Rekeningen courant ABN Amro en deposito 405.774 436.141
+Kasgelden 996 4.830
+406.770 440.971
+
+De tegoeden bij de bank staan volledig ter vrije beschikking
+PASSIVA
+Eigen vermogen
+
+11. Geplaatst en volgestort aandelenkapitaal
+
+Stand per 1 januari en 31 december 20.000 20.000
+
+Bij de oprichting van de vennootschap zijn 200 (nummers 1 t/m 200) aandelen van nominaal € 100
+
+geplaatst en volgestort.
+
+Het geplaatste kapitaal is in handen van:
+
+Eric Nafzger Holding B.V. 10.000 10.000
+
+Enjoy Zero B.V. 10.000 10.000
+20.000 20.000
+
+12. Agioreserve
+
+Stand per 1 januari 235.402 235.402
+Stand per 31 december 235.402 235.402
+
+13. Overige reserves
+
+Stand per 1 januari -230.887 7.454
+Bij/af: resultaat boekjaar 38.368 -238.341
+Stand per 31 december -192.519 -230.887
+
+Voorzieningen
+
+14. Voorziening materiële controles
+411.969 411.969
+411.969 411.969
+
+Door het Ministerie van justitie is een controle uitgevoerd met betrekking tot de juisheid van declaraties.
+
+De geconstateerde bevindingen zijn met de Kracht in Zorg groep gecommuniceerd. De gecommuniceerde correctie
+
+over de jaren 2021 en 2022 bedraagt € 411.969. Op het moment van opstellen van de jaarrekening wordt nog
+
+onderzocht in hoeverre de bevindingen juist zijn. Kracht in Zorg is voornemens in beroep te gaan tegen de opgelegde correctie,
+
+15. Voorziening jubileumuitkeringen
+
+Stand per 1 januari 24.207 21.465
+Bij: Dotatie 2.710 2.742
+Stand per 31 december 26.917 24.207
+
+16. Voorzlening balansverlof medewerkers
+
+Stand per 1 januari 54.292 0
+Bij: Dotatie 21.733 54.292
+Stand per 31 december 76.025 54.292
+
+Pagina 19 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+31-dec-23 _ 31-dec-22
+
+€ €
+
+Langlopende schulden
+17. Lening Guido Jessen Holding B.V.
+Ter financiering van de inkoop eigen aandelen is door Guido Jessen Holding B.V. een financiering verstrekt.
+Het verloop van deze rekening is als volgt weer te geven:
+Stand per 1 januari 175.686 276.079
+Af: Aflossingen -100.393 -100.393
+Restschuld per 31 december 75.293 175.686
+Aflossingsverplichting volgend boekjaar -75.293 -100.393
+Langlopend deel per 31 december 0 75.293
+De rente over de restantschuld bedraagt het 3-maands Euribortarief, verhoogd met 1,5% per jaar.
+18. Leaseverplichtingen
+Ter gedeeltelijke financiering van de vervoermiddelen werden leaseverpolichtingen aangegaan.
+Het verloop van deze verplichtingen is als volgt weer te geven:
+Restschuld per 1 januari 60.356 75.812
+Bij: Verstrekkingen 0 0
+
+60.356 75.812
+Af: Aflossingen -40.872 -15.456
+Restschuld per 31 december 19.484 60.356
+Aflossingsverplichting volgend boekjaar -19.484 „16.261
+Langlopend deel per 31 december 0 44 095
+De gemiddelde rentevoet bedraagt circa 5% per jaar.
+Alle leaseverplichtingen hebben een looptijd korter dan 5 jaar
+19. Belastingdienst Coronaregeling
+Restschuld per 1 januari 317.484 335.721
+Af: Aflossingen -71.688 -18.237
+Restschuld per 31 december 245.796 317.484
+Aflossingsverplichting volgend boekjaar -72.948 -72.948
+Langlopend deel per 31 december 172.848 244 536
+Kortlopende schulden
+20. Aflossingsverplichting langlopende schulden
+Lening Guido Jessen Holding B.V. 75.293 100.393
+Leaseverplichtingen 19.484 16.261
+Betastingdienst Coronaregeling 72.948 72.948
+
+167.725 189.602
+
+21. Crediteuren
+
+Crediteuren 35.970 47.592
+
+22. Belastingen en premies
+
+Omzetbelasting 0 650
+Loonheffing 274.259 266.398
+Pensioenpremies 175.758 112.662
+
+450.017 379.710
+
+23. Vooruitontvangen bedragen Jeugdwet
+
+Vooruitontvangen trajectvergoedingen in het kader van jeugdbegeleiding 136.714 136.919
+
+24. Overige schulden en overlopende passiva
+
+Accountantskosten 26.000 26.000
+Reservering vakantiegelden 185.883 162.181
+Reservering niet opgenomen vakantiedagen en PBL 46.666 65.156
+Overige schulden en overlopende passiva 52.149 89.040
+
+310.698 342.377
+
+Pagina 20 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen
+
+Het jaarlijks bedrag van met derden aangegane huurverplichtingen van onroerende zaken bedraagt voor het komende jaar € 35.280
+De huidige huurovereenkomsten zijn afgesloten voor onbepaalde tijd.
+
+Raadhuisplein 7, Amstenrade € 2.940 per maand
+Cliëntenhuisvesting
+
+Ten behoeve van de huisvesting van cliënten zijn huurovereenkomstengesloten. De hiermee verband houdende huurverplichting bedraagt circa
+€ 445.000 per jaar. Met betrekking tot de looptijd van de huurovereenkomsten is grotendeels een periode van 12 maanden overeengekomen.
+
+Pagina 21 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+7.1.6 TOELICHTING OP DE GECONSOLIDEERDE RESULTATENREKENING
+
+BEDRIJFSOPBRENGSTEN:
+
+25. Omzet zorgactiviteiten
+
+Omzet WMO
+
+Omzet Jeugdwet
+
+Omzet PGB
+
+Omzet WLZ
+
+Omzet Forensische zorg ambulant
+
+Omzet Forensische zorg verblijf
+
+Correctie materiële controle Forensische zorg 2021
+Correctie materiële controle Forensische zorg 2022
+
+26. Omzet overig
+
+Omzet onderaannemerschap
+Omzet JENS
+
+Omzet subsidie
+
+Omzet overige dienstverleningen
+Omzet horeca activiteiten
+
+WERK DERDEN EN UITGEGEVEN WERK
+
+27. Werk derden en uitgegeven werk
+inkoopwaarde horeca
+
+SOM DER KOSTEN
+28. Bruto lonen en salarissen
+
+Bruto lonen
+Beloning Raad van commissarissen
+Mutatie voorzieningen en reserveringen
+
+Loonsubsidies
+Uitkeringen ziekengeld
+
+29. Sociale lasten en premies
+Sociale lasten
+Pensioenpremies
+Herverzekering ziekengeld
+
+Gemiddeld aantal werknemers (FTE)
+
+30. Overige personeelskosten
+Studie- en opleidingskosten
+
+Inhuur ZZP'ers en onderaannemers
+Reis- en parkeerkosten
+
+Overige personeelskosten
+
+31. Afschrijvingen
+Inventarissen
+
+Vervoermiddelen
+Boekresultaat desinvesteringen
+
+32. Huisvestingskosten
+Huur
+
+Vaste lasten
+
+Onderhoud gebouwen
+Schoonmaakkosten
+Gas, water en electra
+
+33. Kosten cliënten
+
+Beschut beschermd wonen
+Kosten dagbesteding
+Overige kosten cliënten
+
+Pagina 22
+
+2023 2022
+€ €
+1.818.865 1.306.494
+644.018 1.666.764
+29.369 52.930
+950.760 664.659
+185.957 527.182
+1.728.168 1.327.968
+0 -250.760
+0 -161.209
+5.357.137 _ 5.134.028
+111.392 104.250
+2.171.376 1.297.024
+6.938 118.433
+10.729 -65.426
+54.518 261.640
+2.354.953 1.715.921
+19.295 87.381
+19.295 87.381
+4.348.885 3.876.259
+32.363 40.880
+29.656 86.473
+4.410.904 4.003.612
+-41,586 -22.007
+-167.951 -154.096
+4.201.367 _ 3.827.509
+778.367 710.917
+349.888 324.843
+54.926 47.743
+1.183.181 _ 1.083.503
+77 73
+85.770 55.448
+534.595 402.364
+95.628 124.303
+52.828 109.245
+768.821 691.360
+111.525 95.482
+27.896 35.225
+9,910 0
+149.331 130.707
+62.267 61.244
+623 1.822
+1.131 6.890
+11.675 17.341
+12.754 16.571
+88.450 103.868
+844.121 776.559
+43.353 46.072
+64.389 68.814
+951.863 891.445
+
+Í
+Kenmerk: 20100.0/DV/30052024 |
+
+Enjoy Zero B.V.
+
+2023 2022
+€ €
+34. Verkoopkosten
+Reclame en promotiekosten 6.345 15.415
+Representatiekosten 2.108 4.458
+Horecabenodigdheden 12.020 16.494
+Overige verkoopkosten 100 19.651
+20.573 56.018
+35. Autokosten
+Brandstof 11.513 21.461
+Reparatie en onderhoud 8.171 7.971
+Motorrijtuigenbelasting 2.924 3.771
+Overige autokosten 1.395 2.176
+24.003 35.379
+36. Kantoorkosten
+Kantoorbenodigdheden 8.270 8.808
+Telefoon- en faxkosten 27.089 34.331
+Abonnementen en contributies 23.728 21.133
+Kosten automatisering 71.266 55.784
+Assurantiepremies 34.624 46.609
+Reparatie en onderhoud 0 458
+Niet verrekenbare voorbelasting 0 2.120
+
+170.977 169.243
+
+37. Algemene kosten
+
+Accountantskosten 26.031 25.154
+
+Externe advieskosten 43.294 17.377
+69.325 42.531
+
+FINANCIËLE BATEN EN LASTEN
+
+38. Financiële baten
+Rente rekening courant Eric Nafzger Holding 0 189
+0 189
+
+39. Financiële lasten
+
+Rente leaseverplichtingen 3.015 3.562
+Rente en kosten bankier 10.760 14.298
+13.775 17.860
+
+Pagina 23 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+8.1
+
+8.1.1
+
+BEZOLDIGING TOPFUNCTIONARISSEN (Geconsolideerd)
+
+Leidinggevendde topfunctionarissen
+
+EMH. Nafzger
+
+| Gegevens 2023
+[Functiegegevens Bestuurder
+Aanvang en einde functievervulling in 2023 01/01-31/12
+Omvang dienstverband 1
+Dienstbetrekking Ja
+{Bezoldiging
+ennen belaste onkostenvergoedingen 150.261
+Beloning betaalbaar op termijn 0
+{Subtotaal 150.261
+{individueel toepasselijk bezoidigingsmaximum 151.000
+{Onverschuldigd betaald en nog niet terugontvangen bedrag n.v.t.
+[Bezoldiging 150.261
+Het bedrag van de overschrijding en de reden waarom de overschrijding al dan
+niet is toegestaan n.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling nvt
+
+Gegevens 2022
+[Functiegegevens Bestuurder
+
+Aanvang en einde functievervulling in 2022
+
+01/01-31/12
+
+Omvang dienstverband
+
+1
+
+[Dienstbetrekking Ja
+[Bezoldiging
+
+[Betoning plus belaste onkostenvergoedingen 145.462
+Beloning betaalbaar op termijn 0
+Subtotaal 145.462
+Individueel toepasselijk bezoldigingsmaximum 146.000
+Bezoldiging 145.462
+
+Pagina 24
+
+Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+8.1.2 Toezichthoudende topfunctionarissen
+
+JM. Meijer C.G.A. Glezer
+
+Gegevens 2023
+Functiegegevens Voorzitter Lid
+Aanvang en einde functievervulling in 2023 01/01-31/12 01/01-31/12
+Bezoldiging
+Bezoldiging 13.870 9.247
+Individueel toepasselijk bezoldigingsmaximum 22.650 15.100}
+Onverschuldigd betaald en nog niet terugontvangen bedrag 0 of
+{Bezoldiging 13.870 9.247
+Het bedrag van de overschrijding en de reden waarom de overschrijding al dan
+niet is toegestaan n.v.t. nvt,
+Toelichting op de vordering wegens onverschuldigde betaling n.v.t, nvt,
+
+Gegevens 2022
+Functiegegevens Voorzitter Lid
+Aanvang en einde functievervulling in 2022 01/01-31/12 01/01-31/12
+Bezoldiging
+Bezoldiging 17.520 11.680f
+Individueel toepasselijk bezoldigingsmaximum 21.900 14.600]
+
+R.J.A. Wullschleger
+
+Gegevens 2023
+Functiegegevens Lid
+Aanvang en einde functievervulling in 2023 01/01-31/12
+Bezoldiging
+Bezoldiging 9,247
+Individueel toepasselijk bezoldigingsmaximum 15.100
+Onverschuldigd betaald en nog niet terugontvangen bedrag 0
+Bezoldiging 15.100
+Het bedrag van de overschrijding en de reden waarom de overschrijding al dan
+niet is toegestaan n.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling n.v.t.
+
+Gegevens 2022
+Functiegegevens Lid
+Aanvang en einde functievervulling in 2022 01/01-31/12
+Bezoldiging
+Bezoldiging 11.680
+Individueel toepasselijk bezoldigingsmaximum 14.600
+
+Pagina 25 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+9.1 ENKELVOUDIGE JAARREKENING
+
+Pagina 26 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+9.1.1 ENKELVOUDIGE BALANS PER 31 DECEMBER 2023
+(na resultaatbestemming)
+
+Ref. 31-dec-23 _ 31-dec-22
+€ €
+ACTIVA
+Vaste activa
+Financiële vaste activa
+Deelnemingen 40 61.559 1.222850
+Latente belastingvordering 0 3.070
+
+61.559 1.225 920
+
+Vlottende activa
+Vorderingen op groepsmaatschappijen en participanten 41 12.146 29.526
+Belastingen en premies 42 91.221 98.137
+Liquide middelen 43 1.464 6.002
+Totaal vlottende activa 104.831 133.665
+Totaal activa 166.390 1.359.585
+Ref. 31-dec-23 __31-dec-22
+€ €
+PASSIVA
+Eigen vermogen
+Gestort en opgevraagd kapitaal 44 20.000 20.000
+Agio reserve 45 235.402 235.402
+Overige reserves 46 -192.519 -230.887
+Totaal groepsvermogen 62.883 24.515
+Langlopende schulden
+Lening Guido Jessen Holding B.V. 47 0 75.294
+0 75.294
+Kortlopende schulden (ten hoogste 1 jaar)
+Aflossingsverplichting langlopende schutden 48 75.294 100.392
+Belastingen en premies 49 5.793 5.598
+Schulden aan groepsmaatschappijen 50 0 1.133.431
+Overige schulden 51 22.420 20.355
+Totaal kortlopende schulden (ten hoogste 1 jaar) 103.507 1.259.776
+Totaal passiva 166.390 __ 1.359.585
+
+Pagina 27 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+9.1.2 ENKELVOUDIGE RESULTATENREKENING OVER 2023
+
+Ref. 2023 2022
+€ €
+BEDRIJFSOPBRENGSTEN:
+Managementfee 52 150.000 81.180
+150.000 81.180
+SOM DER KOSTEN
+Bruto lonen en salarissen 53 130.800 126.000
+Overige personeelskosten 54 3.107 2.134
+Algemene kosten 55 152 730
+134.059 128.864
+BEDRIJFSRESULTAAT 15.941 -47.684
+FINANCIËLE BATEN EN LASTEN
+Financiële baten 56 3.207 6.705
+Financiële lasten 57 30.126 42.446
+-26.919 -35.741
+RESULTAAT VOOR BELASTINGEN -10.978 -83.425
+Belastingen -2.086 16.562
+-8.892 -66.863
+Resultaat deelnemingen 58 47.260 -171.478
+RESULTAAT BOEKJAAR 38.368 -238.341
+RESULTAATBESTEMMING 2023 2022
+Het resultaat is als volgt verdeeld: € €
+Algemene / overige reserves 38.368 -238.341
+38.368 -238.341
+
+Pagina 28 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+9.1.3 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING (enkelvoudig)
+9,1.3.1 Algemeen
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2023, dat is geëindigd op balansdatum 31 december 2023.
+
+Grondslagen voor het opstellen van de jaarrekening
+Voor zover niet anders vermeld zijn de grandslagen zoals vernoemd bij de geconsolideerde jaarrekening van overeenkomstige
+toepassing
+
+9.1.3.2 Grondslagen van waardering van activa en passiva
+
+Financiële vaste activa
+
+Deelnemingen waarin invloed van betekenis kan worden uitgeoefend worden gewaardeerd volgens de vermogensmutatiemethode
+(nettovermogenswaarde). Indien 20% of meer van de stemrechten uitgebracht kan wordfen, wordt verondersteld dat er invloed
+van betekenis is.
+
+De nettovermogenswaarde wordt berekend volgens de grondslagen die gelden voor deze jaarrekening.
+Voor deelnemingen, waarvan onvoldoende gegevensw beswchikbaar zijhn voor aanpassing aan deze grondslagen, wordt
+uitgegaan van de waarderingsgrondslagen van de betreffende deelneming.
+
+Indien de waardering van een deelneming op basis van voren genoemde grandslag negatief is, wordt deze op nihil gewaardeerd.
+Wanneer Kracht in Zorg Holding B.V. in deze situatie geheel of gedeeltelijk instaat voor de schulden van betreffende deelneming,
+dan weol het stellige voornemen heeft de deelneming tot betaling van haar schulden in staat te stellen, wordt hiervoor een
+voorziening getroffen.
+
+De eerste waardering van gekochte deelnemingen is gebaseerd op de reële waarde van de identificeerbare activa en passiva op
+het moment van acquisitie.
+
+Voor de vervolgwaardering worden de grondslagen toegepast die gelden voor deze jaarrekening, uitgaande van de
+
+waarden bij eerste waardering.
+
+Als resultaat wordt verantwoord het bedrag waarmee de boekwaarde van de deelneming sinds de voorafgaande jaarrekening is
+gewijzigd als gevolg van nhet door de deelneming behaalde resultaat.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief transactiekosten
+indien materieel. Indien geen sprake is van (dis)agio en transactiekosten is de geamortiseerde kostprijs gelijk aan de nominale
+waarde van de vorderingen. Vorderingen worden na eerste verwerking gewaardeerd tegen de geamortiseerde kostprijs.
+Voorzieningen wegens oninbaarheid worden in mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+Liquide middelen bestaan uit kas en banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstelling bij de kortlopende schulden.
+
+9.1.3.3. Grondslagen voor de bepaling van het resultaat
+
+Resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten en andere lasten
+over het verslagjaar. De opbrengsten van transacties worden verantwoord in het jaar waarin zij worden gerealiseerd.
+
+Kosten worden verantwoord in het jaar warin zij voorzienbaar zijn.
+
+Belastingen over de winst of het verlies
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de enkelvoudige winst- en
+verliesrekening, rekening houdend met de fiscale wet en regelgeving, alsmede faciliteiten.
+
+Pagina 29 Kenmerk: 20100.0/DV/30052024
+
+ee
+
+Enjoy Zero B.V.
+
+9.1.4 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+Algemeen
+Voor zover niet anders genoemd wordt verwezen naar de toelichting op de geconsolideerde balans
+
+ACTIVA
+
+Financiële vaste activa
+40. Deelnemingen
+Kracht in Zorg WMO B.V.
+
+Kracht in Zorg WLZ B.V.
+Bread & Company B.V.
+
+Kracht in Zorg WMO B.V.
+
+Waarde per 1 januari
+Dividenduitkering
+
+Resultaat
+Waarde per 31 december
+
+Kracht in Zorg WLZ B.V.
+
+Waarde per 1 januari
+Divfidenduitkering
+
+Resultaat
+Waarde per 31 december
+
+Bread & Company B.V.
+
+Waarde per 1 januari
+Resultaat
+
+Voorziening deelneming
+
+Afwaardering in verband met liquidatie
+Waarde per 31 december
+
+Vlottende Activa
+41. Vorderingen op groepsmaatschappijen en participanten
+Rekening courant Bread & Company
+
+Rekening courant Eric Nafzger Holding B.V.
+Rekening courant Kracht in Zorg WMO B.V.
+
+42. Belastingen en premies
+
+Vennootschapsbelasting
+Omzetbelasting
+
+43. Liquide middelen
+
+Rekening courant ABN Amro
+
+PASSIVA
+
+Eigen vermogen
+
+44. Geplaatst en volgestort aandelenkapitaal
+
+Stand per 1 januari en 31 december
+
+Bij de oprichting van de vennootschap zijn 200 (nummers 1 tm 200) aandelen van nominaal € 100
+geplaatst en volgestort.
+
+Het geplaatste kapitaal is in handen van:
+
+Eric Nafzger Holding B.V.
+Enjoy Zero B.V.
+
+Pagina 30
+
+31-dec-23 _ 31-dec-22
+€ €
+36.621 954.787
+24.938 268.063
+0 0
+61.559 _ 1.222.850
+954.787 845.377
+-1.038.866 0
+-84.079 845.377
+120.699 109.410
+36.620 954.787
+268.063 472.134
+-245.000 0
+23.063 472.134
+1.874 -204.071
+24.937 268.063
+-111.684 -34.868
+-75.313 -76.816
+„186.997 -111.684
+0 -111.684
+-186.997 0
+-186.997 0
+0 0
+0 24.615
+6.411 4.911
+5.735 0
+12.146 29.526
+90.794 97.710
+427 427
+91.221 98.137
+1.464 6.002
+20.000 20.000
+10.000 10.000
+10.000 10.000
+20.000 20.000
+
+Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+31-dec-23 _ 31-dec-22
+
+€ €
+45. Agloreserve
+Stand per 1 januari 235.402 235.402
+Af: uitdeling [ij 0
+Stand per 31 december 235.402 235.402
+46. Overige reserves
+Stand per 1 januari -230.887 7.454
+Bij/af: resultaat 38.368 -238.341
+Stand per 31 december -192,519 -230.887
+Langlopende schulden
+47. Lening Guido Jessen Holding B.V.
+Ter financiering van de inkoop eigen aandelen is door Guido Jessen Holding B.V. een financiering verstrekt.
+Het verloop van deze rekening is als volgt weer vte geven:
+Stand per 1 januari 175.686 276.079
+Af: aflossingen -100.392 “100.393
+Restschuld per 31 december 75.294 175.686
+Aflossingsverplichting volgend boekjaar -75.294 -100.392
+Langlopend deel per 31 december 0 75.294
+De rente over de restantschuld bedraagt het 3-maands Euribortarief, verhoogd met 1,5% per jaar.
+Kortlopende schulden
+49. Belastingen en premies
+Loonheffing 5.793 5.598
+Vennootschapsbelasting [e) [e
+5.793 5.598
+50. Schulden aan groepsmaatschappijen
+Rekening courant Kracht in Zorg WLZ B.V. 0 48.579
+Rekening courant Kracht in Zorg WMO B.V. 0 1.084.852
+0 1.133.431
+51. Overige schulden
+Accountantskosten 0 3.000
+Overige schulden 0 2.448
+Rente lening Guido Jessen Holding B.V. 22.420 14.907
+22.420 20.355
+
+Pagina 31 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+9.1.5 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING 2023 2022
+
+BEDRIJFSOPBRENGSTEN
+
+52. Managementfee
+
+Aan groepsmaatschappijen in rekening gebrachte honoraria 150.000 141.000
+Terugbetaling honoraria 2021 0 -28.320
+Teruigbetaling honorarie 2020 0 „31.500
+
+150.000 81.180
+
+SOM DER KOSTEN
+53. Bruto tonen en salarissen
+
+Bruto loon 130.800 126.000
+130.800 126.000
+
+54. Overige personeelskosten
+
+Onkostenvergoeding 3.107 2134
+3.107 2.134
+
+55. Algemene kosten
+
+Verzekeringen 152 0
+Accountantskosten 0 730
+152 730
+
+FINANCIËLE BATEN EN LASTEN
+
+56. Financiële baten
+
+Rente rekening courant Eric Nafzger Holding B.V. 0 189
+Rente rekening courant Bread & Company 3.207 4.560
+Rente rekening courant Kracht in Zorg WLZ B.V. 0 1.956
+
+3.207 6.705
+
+57. Financiële lasten
+
+Rente rekening courant Kracht in Zorg WMO B.V. 22.415 39.100
+Rente rekening courant Kracht in Zorg WLZ B.V. 1.696 0
+Rente lening Guido Jessen Holding B.V. 5.720 3.075
+Rente rekening courant bankier 295 271
+
+30.126 42.446
+
+RESULTAAT DEELNEMINGEN
+
+58. Resultaat deelnemingen
+
+Kracht in Zorg WMO B.V. 120.699 109.410
+Kracht in Zorg WLZ B.V. 1.874 -204.071
+Bread & Company B.V. -75.313 -16.816
+
+47.260 -171.477
+
+Pagina 32 Kenmerk: 20100.0/DV/30052024
+
+Enjoy Zero B.V.
+
+10.1
+
+10,1.1
+
+10.1.2
+
+10.1.3
+
+10.1.4
+
+OVERIGE TOELICHTING
+
+Belangrijke gebeurtenissen na balansdatum
+
+In 2024 werd de tenamstelling van de vennootschap veranderd in Enjoy Zero B.V.
+
+Per 30 januari 2024 zijn de aandelen van Kracht in Zorg WMO B.V. en Kracht in Zorg WLZ B.V. verkocht
+
+Statutaire regeling resultaatbestemming
+
+Artikel 20 tid 1 van de statuten bepaald dat de algemene vergedering bevoegd is tot bestemming van de winst die
+door de vaststelling van de jaarrekening is bepaald en tot vaststelling van uitkeringen, voor zover het eigen vermogen
+groter is dan de reserves die krachtens de wet of de statuten moeten worden aangehouden.
+
+Voorstel resultaatbestemming
+
+Aan de algemene vergadering van aandeelhouders wordt voorgesteld het resultaat 2023 toe te voegen aan
+
+de algemene reserve.
+
+Dit voorstel werd al in de jaarrekening verwerkt.
+
+Transacties met verbonden partijen
+
+Gedurende het boekjaar hebben geen van betekenis zijnde transacties met verbonden partijen onder niet-marktconforme
+voorwaarden plaatsgevonden.
+
+Ondertekening van de jaarrekening
+
+De jaarrekening is opgemaakt en vastgesteld door het bestuur c.q. de Algemene Vergadering.
+
+Amstenrade, 30 mei 2024
+
+Enjoy Zero B.V.
+
+Vertegenwoordigd door E.M.H. Nafzger
+
+Ondertekening door Raad van Commissarissen
+
+M. Meijer (voorzitter) R.J.A. Wullschleger C.G.A. Glezer
+
+Pagina 33 Kenmerk: 20100.0/DV/30052024

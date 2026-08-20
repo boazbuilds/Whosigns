@@ -1,0 +1,1037 @@
+# whosigns-ocr v1 grootte=18685305 dpi=300 paginas=20
+Stichting Jados te Arnhem
+
+Jubileumvoorziening
+
+De jubileumvoorziening betreft een voorziening voor toekomstige jubileumuitkeringen. De voorziening betreft
+de contante waarde van in de toekomst uit te keren jubileumuitkeringen. De berekening is gebaseerd op
+gedane toezeggingen, blijfkans en leeftijd. De gehanteerde disconteringsvoet bedraagt 1,5%.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden
+afgelost.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de verrichte diensten enerzijds,
+en anderzijds de kosten en andere lasten van het jaar, gewaardeerd tegen historische kostprijzen.
+
+Opbrengstverantwoording
+
+Baten zorgprestaties
+
+De totale baten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het
+bedrag op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk
+is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald en de
+reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening te
+voltooien op betrouwbare wijze kunnen worden bepaald. Indien het resultaat van een bepaalde opdracht tot
+dienstverlening niet op betrouwbare wijze kan worden bepaald, worden de opbrengsten verwerkt tot het
+bedrag van de kosten van de dienstverlening die worden gedekt door de opbrengsten. De met de
+opbrengsten samenhangende kosten worden toegerekend aan de periode waarin de baten zijn verantwoord.
+
+Lasten
+
+De lasten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Kosten van uitbesteed werk en andere externe kosten
+
+De kosten van uitbesteed werk en andere externe kosten omvatten de kosten die door derden in rekening zijn
+gebracht in het kader van de uitbesteding of ondersteuning van de werkzaamheden. Deze kosten bestaan uit
+de inkoopprijs en eventuele bijkomende kosten.
+
+-25-
+
+SL
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+Pensioenen
+
+Stichting Jados heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking
+komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op
+het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd bij Zorg
+en Welzijn. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht bij
+het bedrijfstakpensioenfonds Zorg en Welzijn. Stichting Jados betaalt hiervoor premies waarvan de helft door
+de werkgever wordt betaald en de helft door de werknemer. De pensioenrechten worden jaarlijks
+geïndexeerd, indien en voor zover de dekkingsgraad van het pensioenfonds (het vermogen van het
+pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat. Voor pensioenfondsen geldt
+regelgeving met betrekking tot de vereiste dekkingsgraad. De beleidsdekkingsgraad is het gemiddelde van de
+laatste twaalf dekkingsgraden. In december 2022 bedroeg de beleidsdekkingsgraad 109,2%. Voor PFZW
+geldt per eind 2020 een vereiste dekkingsgraad van 121,4%. In het herstelplan van januari 2020 laat PFZW
+zien dat de beleidsdekkingsgraad eind 2027 weer op het vereiste niveau kan zijn. Dit is binnen de wettelijke
+hersteltermijn van 10 jaar.
+
+Stichting Jados heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een tekort
+bijhet pensioenfonds, anders dan het effect van hogere toekomstige premies. Stichting Jados heeft daarom
+alleen de verschuldigde premies tot en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+Afschrijvingen
+
+Immateriële vaste activa (voor zover geactiveerd) inclusief goodwill en materiële vaste activa worden vanaf
+het moment van ingebruikneming afgeschreven over de verwachte toekomstige gebruiksduur van het actief.
+Hierbij wordt rekening gehouden met de beperkingen die van toepassing zijn ten aanzien van
+bedrijfsgebouwen, beleggingsvastgoed, andere materiële vaste activa en geactiveerde goodwill. Over
+terreinen wordt niet afgeschreven.
+
+Boekwinsten en verliezen bij verkoop van immateriële en materiële vaste activa worden onder de post
+afschrijvingen opgenomen.
+
+Bij de resultaatbestemming worden indien en voor zover de fiscale wetgeving dit toelaat boekwinsten
+opgenomen in een herinvesteringsreserve.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+De rentebaten en -lasten betreffen de op de verslagperiode betrekking hebbende rente-opbrengsten en -
+lasten van uitgegeven en ontvangen leningen.
+
+- 26 -
+
+Tl
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Immateriële vaste activa
+
+Software Goodwill Totaal
+€ € €
+Boekwaarde per 1 januari 2023
+Verkrijgingsprijs 647.221 3.054.157 3.701.378
+Cumulatieve afschrijvingen en overige waardeverminderingen -514.612 -2.694.487 -3.209.099
+132.609 359.670 492.279
+Mutaties
+Afschrijvingen -93.520 -359.670 -453.190
+Boekwaarde per 31 december 2023
+Verkrijgingsprijs 647.221 3.054.157 3.701.378
+Cumulatieve afschrijvingen en overige waardeverminderingen -608.132 -3.054.157 -3.662.289
+39.089 - 39.089
+Afschrijvingspercentages
+%
+Software 20
+Goodwill 7,30 - 12,77
+-27-
+Â.
+Ed
+
+—geparafeerd voor
+
+S_ waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+2. Materiële vaste activa
+
+Boekwaarde per 1 januari 2023
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Mutaties
+Investeringen
+Afschrijvingen
+
+Boekwaarde per 31 december 2023
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Afschrijvingspercentages
+
+Inventaris
+Automatisering
+
+Auto-
+Inventaris matisering Totaal
+
+€ € €
+239.842 482.684 722.526
+-84.972 -234.423 -319.395
+154.870 248.261 403.131
+5.707 78.724 84.431
+-47.923 -97.708 -145.631
+-42.216 -18.984 -61.200
+245.549 561.408 806.957
+-132.895 -332.131 -465.026
+112.654 229.277 341.931
+
+%
+
+20
+20
+
+- 28 -
+
+Tl
+
+—geparafeerd voor
+
+S_ waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+3. Financiële vaste activa
+
+Andere deelnemingen
+Overige vorderingen
+
+Andere deelnemingen
+
+Jados Autinom GmbH
+Stand per 1 januari
+
+Stand per 31 december
+
+Overige vorderingen
+
+Lening u/g Stichting Veste
+
+Stand per 1 januari
+Aflossing
+
+Aflossing komend boekjaar
+
+Stand per 31 december
+
+31-12-2023 31-12-2022
+
+€ €
+
+1.250 1.250
+475.357 490.337
+476.607 491.587
+
+2023 2022
+
+€ €
+
+1.250 1.250
+
+1.250 1.250
+504.176 517.741
+-13.839 -13.565
+490.337 504.176
+-14.980 -13.839
+475.357 490.337
+
+Over de vordering wordt 2% rente berekend. De lening wordt afgelost op basis van annuïteiten van
+
+€ 1.983,01 per maand. De looptijd van de lening betreft 360 maanden. De eerste aflossing heeft
+plaatsgevonden in augustus 2020.
+
+VLOTTENDE ACTIVA
+
+4. Vorderingen
+
+Handelsdebiteuren
+
+Debiteuren
+Voorziening dubieuze debiteuren
+
+31-12-2023 31-12-2022
+€ €
+2.221.659 2.006.618
+= -5.5/8
+2.221.659 2.001.040
+
+SL
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+-29-
+
+Stichting Jados te Arnhem
+
+31-12-2023 31-12-2022
+€ €
+Vennootschapsbelasting
+Vennootschapsbelasting 247.401 124.231
+Te ontvangen aflossingen
+Lening u/g Stichting Veste 14.980 13.839
+Overige vorderingen en overlopende activa
+Overige vorderingen 356.616 438.581
+Overlopende activa 414.008 186.319
+770.624 624.900
+Overige vorderingen
+Waarborgsommen 344.808 331.361
+Overige vorderingen 11.808 107.220
+356.616 438.581
+Overlopende activa
+Nog te factureren bedragen 403.847 179.355
+Vooruitbetaalde kosten 10.161 6.964
+414.008 186.319
+5. Liquide middelen
+Banktegoeden 4.148.740 3.827.559
+
+Een bedrag ad € 201.491 staat niet ter vrije beschikking. De overige liquide middelen staan ter vrije
+
+beschikking van de stichting.
+
+- 30 -
+
+Tl
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+PASSIVA
+
+6. Eigen vermogen
+
+2023 2022
+€ €
+
+Overige reserves
+Stand per 1 januari 3.605.771 3.798.728
+Resultaatbestemming boekjaar 383.754 -192.957
+Stand per 31 december 3.989.525 3.605.771
+7. Voorzieningen
+Voorziening lasten jubilea
+Voorziening lasten jubilea
+Stand per 1 januari 117.592 171.727
+Onttrekking -5.398 -1.787
+Mutatie 39.906 -52.348
+Stand per 31 december 152.100 117.592
+
+8. Kortlopende schulden
+
+-31-
+
+SL
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Overige belastingen en premies sociale verzekeringen
+
+Omzetbelasting
+Loonheffing
+Pensioenen
+
+Overige schulden en overlopende passiva
+
+Overlopende passiva
+
+Personele kosten
+Te veel ontvangen subsidie
+Overige nog te betalen kosten
+
+31-12-2023 31-12-2022
+€ €
+433.825 199.271
+
+43.984 40.237
+928.099 1.383.633
+431.249 638.687
+
+1.403.332 2.062.557
+1.875.333 1.694.465
+
+84.606 68.442
+
+322.310 223.538
+2.282.249 1.986.445
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door gemeenten op de gedeclareerde zorgprestaties en
+maatschappelijke ondersteuning kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De
+effecten van eventuele materiële nacontroles zijn vooralsnog onzeker en daarom zijn er hiervoor geen
+
+verplichtingen opgenomen in de balans.
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+-32-
+
+Stichting Jados te Arnhem
+
+5 TOELICHTING OP DE STAAT VAN BATEN EN LASTEN OVER 2023
+
+9. Baten
+
+Overige baten uit beroeps- of bedrijfsmatige zorgverlening
+
+Overige bedrijfsopbrengsten
+
+Beschermd / Beveiligd Wonen ZIN
+
+Ambulante Dienstverlening ZIN
+Beschermd wonen / AB PGB
+Subsidie Beveiligd Wonen
+Jobcoaching
+
+Naar Werk
+
+Omzet Werktrajecten ZIN
+Omzet Werkfit
+
+Omzet Modulaire Re-intergratie
+Omzet Bonus werktrajecten
+Opbrengst particuliere trajecten
+Omzet Spreekuur Enschede
+Omzet dagbesteding PGB
+
+Servicekosten
+Omzet Huur
+Overige baten
+
+2023 2022
+€ €
+
+23.611.562 21.293.010
+-35.298 376.608
+23.576.264 21.669.618
+12.193.890 11.109.007
+6.912.332 5.984.666
+2.983.201 2.874.608
+518.710 578.458
+451.298 274.224
+39.545 29.602
+1.043 25.491
+229.202 197.408
+84.439 64.812
+7.500 2.250
+180.177 136.573
+10.225 9.103
+= 6.808
+23.611.562 21.293.010
+634 282
+13.193 7.475
+-49.125 368.851
+-35.298 376.608
+
+23.576.264 21.669.618
+
+De totale baten voor 2023 waren begroot op € 22.468.649 (2022: € 2.1098.507) verschil met gerealiseerd
+bedrag is met name toe te wijzen aan hogere baten in gemaakte personeelskosten en overige zorgprestaties.
+
+10. Kosten van uitbesteed werk en andere externe kosten
+Kosten uitbesteed werk onderaannemers 205.706 172.555
+
+Kosten uitbesteed werk onderaannemers
+
+Zorg diensten 178.003 159.147
+Job coaching 27.703 12.567
+Naar Werk - 841
+205.706 172.555
+-33-
+d,
+Ed
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+11.Personeelslasten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelslasten
+
+2023 2022
+€ €
+14.482.141 13.628.006
+2.854.556 2.763.801
+1.275.877 1.263.686
+1.320.975 989.416
+19.933.549 18.644.909
+
+De totale personeelslasten voor 2023 waren begroot op € 19.180.901 (2022: € 15.676.406). Het verschil met
+
+het gerealiseerde bedrag is ontstaan door een hoger ziekteverzuim percentage en COA-stijgingen.
+
+Lonen en salarissen
+
+Bruto salarissen
+Vergoeding bereikbaarheidsdienst
+Mutatie reservering jubilea
+
+Uitkering ziektewet
+Uitkering i.v.m. zwangerschap
+Onvangen vergoeding van derden
+
+Sociale lasten
+
+Premies sociale verzekeringswetten
+
+Pensioenlasten
+
+Pensioenlasten
+
+Overige personeelslasten
+
+Diverse overige personeelslasten
+
+12. Afschrijvingen
+
+Immateriële vaste activa
+Materiële vaste activa
+Boekresultaat
+
+14.933.799 14.334.023
+49.325 38.173
+34.508 -54.135
+
+15.017.632 14.318.061
+
+-145.834 -168.905
+-386.885 -487.976
+-2.772 -33.174
+14.482.141 13.628.006
+2.854.556 2.763.801
+1.275.877 1.263.686
+1.320.975 989.416
+453.190 470.307
+145.631 143.414
+-6.930 -
+591.891 613.721
+
+De totale afschrijvingen voor 2023 waren begroot op € 572.072 (2022: 544.500) Daling ten opzichte van 2022
+
+is te verklaren door eerdere uitfasering (im)materiële vaste activa en goodwill.
+
+Afschrijvingen immateriële vaste activa
+
+Software 93.520 121.276
+Goodwill 359.670 349.031
+Boekresultaat -6.930 -
+Totaal 446.260 470.307
+-34-
+Â.
+SE
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+Afschrijvingen materiële vaste activa
+
+Inventaris
+Automatisering
+
+13. Overige bedrijfslasten
+
+Huisvestingslasten
+Kantoorlasten
+Verkooplasten
+Algemene lasten
+
+2023 2022
+€ €
+47.923 48.553
+97.708 94.861
+145.631 143.414
+1.374.591 1.426.728
+761.262 644.935
+28.973 81.692
+296.447 273.413
+2.461.273 2.426.768
+
+De overige bedrijfslasten voor 2023 waren begroot op € 2.678.427. De lagere realisatie is met name te
+danken aan de lagere leegstand. De stijging in kantoorlasten is in vergelijking tot 2022 is toe te wijzen aan de
+
+gestegen abonnementen en contributiekosten.
+
+Huisvestingslasten
+
+Huur onroerende zaak
+Huur leegstand onroerende zaken
+Servicekosten onroerende zaken
+
+Servicekosten leegstand onroerende zaken
+
+Vaste lasten
+
+Energielasten
+
+Onderhoud
+Schoonmaaklasten
+Overige huisvestingslasten
+
+Kantoorlasten
+
+Kantoorbehoeften
+
+Klein inventaris
+Automatisering
+
+Mobiele telefoon
+
+Telefoon
+
+Porti
+
+Contributies en abonnementen
+
+Verkooplasten
+
+Reclame- en advertentielasten
+Representatie
+
+Reis- en verblijfslasten
+Vervoer
+
+Overige verkooplasten
+
+963.701 906.157
+163.251 269.098
+143.290 132.650
+57.270 59.196
+181 1.181
+1.679 -2.099
+25.450 31.717
+3.636 3.551
+16.133 25.277
+1.374.591 1.426.728
+63.887 53.504
+39.780 49.064
+401.631 340.911
+24.583 19.550
+63.773 60.780
+3.955 6.915
+163.653 114.211
+761.262 644.935
+1.672 22.628
+8.664 12.410
+10.245 2.088
+5.417 3.373
+2.975 41.193
+28.973 81.692
+
+Tl
+
+—geparafeerd voor
+
+S_ waarmerkingsdoeleinden
+
+-35-
+
+Stichting Jados te Arnhem
+
+2023 2022
+Algemene lasten € €
+Verzekeringen 20.197 17.833
+Vacatievergoedingen 5.113 4.669
+Dubieuze debiteuren -6.919 8.474
+Accountant 78.978 67.964
+Huishoudlasten 109 24.480
+Vakliteratuur 1.029 3.178
+Advies 142.116 76.249
+Raad van Toezicht 24.025 8.600
+Boetes - 70
+Marketing - 17.083
+Landelijke/studenten activiteiten 3.822 39.078
+Overige algemene lasten 27.977 5.735
+296.447 273.413
+14. Financiële baten en lasten
+Rentebaten 9.957 10.365
+Rentelasten -10.048 -11.886
+-91 -1.521
+
+De totale financiële baten en lasten voor 2023 waren begroot op € 7.500. Valt lager uit door afschrijven van
+diverse saldo's
+
+Rentebaten
+Belastingdienst - 134
+Rente lening u/g Stichting Veste 9.957 10.231
+9.957 10.365
+Rentelasten
+Bankrente 7.000 11.886
+Belastingdienst 3.048 -
+10.048 11.886
+15. Belastingen
+Vennootschapsbelasting - -3.101
+
+- 36 -
+
+Tl
+
+—geparafeerd voor
+
+S_ waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+6 OVERIGE TOELICHTING
+
+Bezoldiging van (voormalige) bestuurders en commissarissen
+
+De verplichte WNT-verantwoording is op de volgende pagina opgenomen.
+
+Personeelsleden
+
+Bij de stichting waren in 2023 gemiddeld 308 personeelsleden werkzaam, berekend op fulltimebasis (2022:
+325,8).
+
+Ondertekening van de jaarrekening
+
+Vaststelling jaarrekening
+
+De jaarrekening is aldus opgemaakt en vastgesteld in de vergadering.
+
+De Raad van Toezicht heeft de jaarrekening goedgekeurd.
+
+Arnhem, 27 augustus 2024
+
+Directie voor akkoord Raad van Toezicht voor akkoord
+
+de heer M.A.A. van Gompel de heer drs. J.W. van Zuthem
+
+de heer drs. M.A. Otten
+
+mevrouw drs. S. Veenhuis-Muis AA RC
+
+L.C.M. Maas
+
+S. Blom-Schakel
+
+-37 -
+
+Tl
+
+—geparafeerd voor
+“waarmerkingsdoeleinden
+
+Stichting Jados te Arnhem
+
+WNT-verantwoording 2023 Stichting Jados
+
+De WNT is van toepassing op Stichting Jados. Het voor Stichting Jados toepasselijke
+bezoldigingsmaximum is in 2023 € 151.000 (het bezoldigingsmaximum voor zorg en jeugdhulp,
+klasse II). Stichting Jados valt in 2023 voor het eerst onder de WNT.
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Gegevens 2023
+
+bedragen x € 1 M.A.A. van Gompel
+Functiegegevens Bestuurder
+Aanvang en einde functievervulling in 01/01 t/m 31/12
+2023
+
+Omvang dienstverband (als 1,0
+deeltijdfactor in fte)
+
+Dienstbetrekking? Ja
+Bezoldiging
+
+Beloning plus GEIEREES € 114.703
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn € 12.794
+Subtotaal € 127.497
+nti Wepasseljke €151.000
+bezoldigingsmaximum
+
+-/- O huldigd betaald iet
+
+/- Onverschuldigd be aa en nog nie Nvt. / Nvt.
+terugontvangen bedrag
+
+Bezoldiging € 127.497
+
+Het bedrag van de overschrijding en de
+reden waarom de overschrijding al dan N.v.t. N.v.t.
+niet is toegestaan
+
+Toelichting op de vordering wegens
+
+N.v.t.
+onverschuldigde betaling M
+Bezoldiging € 127.497
+-38-
+
+Pp
+
+Cc
+—geparafeerd voor
+waarmerkingsdoeleinden
+
+ic. Toezichthoudende topfunctionarissen
+
+Gegevens 2023
+
+bedragen x € 1 M. Otten S. Veenhuis-Muis J.W. van Zuthem
+
+Functiegegevens Voorzitter RvT Lid RvT Lid RvT
+Aanvang en einde functievervulling in 2023 01/01 t/m 31/12 01/01 t/m 31/12 01/01 t/m 31/12
+Bezoldiging
+
+Bezoldiging € 13.300 € 11.495 € 8.900
+Individueel toepasselijke € 22.650 € 15.100 € 15.100
+bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet NE. NIE. NARE.
+terugontvangen bedrag
+
+Bezoldiging € 13.300 € 11.495 € 8.900
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan niet N.v.t. N.v.t. N.v.t. N.v.t. N.v.t. _N.v.t.
+is toegestaan
+
+Toelichting op de vordering wegens N.v.t. N.v.t. N.v.t.
+
+onverschuldigde betaling
+
+3. Overige rapportageverplichtingen op grond van de WNT
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een
+dienstbetrekking die in 2023 een bezoldiging boven het individueel toepasselijke drempelbedrag
+hebben ontvangen.
+
+-39 -
+
+2
+
+Cc
+—geparafeerd voor
+waarmerkingsdoeleinden
+
+OVERIGE GEGEVENS
+
+Ze
+
+j _—geparafeerd voor
+FE  — waarmerkingsdoeleinden
+ral
+
+Stichting Jados te Arnhem
+
+OVERIGE GEGEVENS
+
+1 Statutaire regeling resultaatbestemming
+
+In de statuten is niets bepaald aangaande de resultaatbestemming.
+
+2 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende
+pagina's.
+
+-41-
+
+Tl
+
+—geparafeerd voor
+
+S_ waarmerkingsdoeleinden
+
+deJong&Laan
+
+Pascalweg 2
+6662 NX Elst
+0481-463534
+
+elst@jonglaan.nl
+www.jonglaan.nl
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan: de Raad van Toezicht van Stichting Jados
+
+A. Verklaring over de in het jaarrapport opgenomen jaarrekening 2023
+
+Ons oordeel
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2023 van Stichting Jados te Arnhem
+gecontroleerd. Naar ons oordeel geeft de in dit jaarrapport opgenomen jaarrekening een getrouw
+beeld van de grootte en de samenstelling van het vermogen van Stichting Jados per 31 december
+2023 en van het resultaat over 2023 in overeenstemming met de vereisten bij en krachtens artikel
+40b van de Wet marktordening gezondheidszorg en de bepalingen van en krachtens de Wet normering
+bezoldiging topfunctionarissen publieke en semipublieke sector (WNT).
+
+De jaarrekening bestaat uit:
+
+1. de balans per 31 december 2023;
+2. de staat van baten en lasten over 2023; en
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële
+
+verslaggeving en andere toelichtingen.
+
+Op deze jaarrekening zijn de voorschriften van de Regeling openbare jaarverantwoording WMG van
+toepassing.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de Nederlandse
+controlestandaarden en het controleprotocol WNT 2023 vallen. Onze verantwoordelijkheden op grond
+hiervan zijn beschreven in de sectie ‘Onze verantwoordelijkheden voor de controle van de
+jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Jados zoals vereist in de Verordening inzake de onafhankelijkheid
+van accountants bij assurance-opdrachten (ViO) en andere voor de opdracht relevante
+onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de Verordening gedrags- en
+beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis voor ons
+oordeel.
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met het Controleprotocol WNT 2023 hebben wij de anticumulatiebepaling,
+bedoeld in artikel 1.6a WNT en artikel 5, lid 1, sub n en o Uitvoeringsregeling WNT, niet
+gecontroleerd. Dit betekent dat wij niet hebben gecontroleerd of er wel of niet sprake is van een
+normoverschrijding door een leidinggevende topfunctionaris vanwege eventuele dienstbetrekkingen
+als leidinggevende topfunctionaris bij andere WNT-plichtige instellingen, alsmede of de in dit kader
+vereiste toelichting juist en volledig is.
+
+ISO 27001:2017 ZA —— Là
+Gecertificeerd Bn SRA GG:
+
+door Brand Compliance RvA C 54 INDEPENDENT
+MBER
+
+@
+Z
+
+De Jong & Laan Controle B.V., gevestigd te Vroomshoop, KvK 06054458. Op al onze
+diensten en werkzaamheden zijn onze alge voorwaarden van toepassing. Deze _ LE |
+
+algemene voorwaarden zijn gedeponeerd bij de KvK onder nr. 08153431, zijn in te zien
+
+op Www jonglaan.nl, en worden op verzoek kosteloos toegezonden
+
+B. Verklaring over de in het jaarrapport opgenomen andere informatie
+Het jaarverslag omvat andere informatie, naast de jaarrekening en onze controleverklaring daarbij.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip,
+verkregen vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie materiële
+afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in de Regeling openbare
+jaarverantwoording WMG en de Nederlandse Standaard 720. Deze werkzaamheden hebben niet
+dezelfde diepgang als onze controlewerkzaamheden bij de jaarrekening.
+
+Het bestuur is verantwoordelijk voor het opstellen van de andere informatie, waaronder het
+bestuursverslag en de overige gegevens, alsmede voor het toevoegen van het verslag van de interne
+toezichthouder, in overeenstemming met de Regeling openbare jaarverantwoording WMG.
+
+C. Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+
+Verantwoordelijkheden van het bestuur en raad van toezicht voor de jaarrekening voor de
+jaarrekening
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met de vereisten voor de jaarrekening bij en krachtens artikel 40b van de Wet
+marktordening gezondheidszorg en de bepalingen van en krachtens de WNT. In dit kader is het
+bestuur verantwoordelijk voor een zodanige interne beheersing die het bestuur noodzakelijk acht om
+het opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als
+gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de stichting in staat is om haar
+werkzaamheden in continuiteit voort te zetten. Op grond van genoemd verslaggevingsstelsel moet het
+bestuur de jaarrekening opmaken op basis van de continuiteitsveronderstelling, tenzij het bestuur het
+voornemen heeft om de stichting te liquideren of de bedrijfsactiviteiten te beëindigen of als
+beëindiging het enige realistische alternatief is. Het bestuur moet gebeurtenissen en omstandigheden
+waardoor gerede twijfel zou kunnen bestaan of de stichting haar bedrijfsactiviteiten in continuïteit kan
+voortzetten, toelichten in de jaarrekening.
+
+De Raad van Toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving van de stichting.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat wij
+daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid waardoor het
+mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien redelijkerwijs
+kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen zijn op de
+economische beslissingen die gebruikers op basis van deze jaarrekening nemen. De materialiteit
+beïnvloedt de aard, timing en omvang van onze controlewerkzaamheden en de evaluatie van het
+effect van onderkende afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, het controleprotocol WNT 2023, ethische voorschriften en de
+onafhankelijkheidseisen. Onze controle bestond onder andere uit:
+
+- het identificeren en inschatten van de risico’s dat de jaarrekening afwijkingen van materieel belang
+bevat als gevolg van fouten of fraude, het in reactie op deze risico’s bepalen en uitvoeren van
+controlewerkzaamheden en het verkrijgen van controle-informatie die voldoende en geschikt is als
+basis voor ons oordeel. Bij fraude is het risico dat een afwijking van materieel belang niet ontdekt
+wordt groter dan bij fouten. Bij fraude kan sprake zijn van samenspanning, valsheid in geschrifte,
+het opzettelijk nalaten transacties vast te leggen, het opzettelijk verkeerd voorstellen van zaken of
+het doorbreken van de interne beheersing;
+
+deJong&Laan
+
+- het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als doel
+controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit van de
+interne beheersing van de entiteit;
+
+- het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële verslaggeving en
+het evalueren van de redelijkheid van schattingen door het bestuur en de toelichtingen die
+daarover in de jaarrekening staan;
+
+- het vaststellen dat de door het bestuur gehanteerde continuïteitsveronderstelling aanvaardbaar is.
+Tevens het op basis van de verkregen controle-informatie vaststellen of er gebeurtenissen en
+omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of de onderneming haar
+bedrijfsactiviteiten in continuïteit kan voortzetten. Als wij concluderen dat er een onzekerheid van
+materieel belang bestaat, zijn wij verplicht om aandacht in onze controleverklaring te vestigen op
+de relevante gerelateerde toelichtingen in de jaarrekening. Als de toelichtingen inadequaat zijn,
+moeten wij onze verklaring aanpassen. Onze conclusies zijn gebaseerd op de controle-informatie
+die verkregen is tot de datum van onze controleverklaring. Toekomstige gebeurtenissen of
+omstandigheden kunnen er echter toe leiden dat een onderneming haar continuïteit niet langer kan
+handhaven;
+
+- het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toelichtingen;
+
+- het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties en
+gebeurtenissen.
+
+Wij communiceren met de Raad van Toezicht onder andere over de geplande reikwijdte en timing van
+de controle en over de significante bevindingen die uit onze controle naar voren zijn gekomen,
+waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Elst, 27 augustus 2024
+De Jong & Laan Controle B.V.
+
+1
+4 hi’
+
+In
+N.C. van der Wolf MSc RA
+
+deJong&Laan

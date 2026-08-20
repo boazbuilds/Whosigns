@@ -32,14 +32,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from laad_zorg import BRON_URL  # noqa: E402
+from laad_zorg import BRON_URL, RAPPORT_KOLOMMEN  # noqa: E402
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
 
-VERPLICHT = [
-    "kvk", "naam", "plaats", "boekjaar", "kantoor", "kantoor_sleutel",
-    "afm_nummer", "type_opdracht", "oordeel", "grond_beperking",
-    "continuiteitsonzekerheid",
-]
+# Wat de oogst schrijft is precies wat deze lader verwacht; één lijst dus, bij
+# de schrijver vandaan. Zie de aantekening bij RAPPORT_KOLOMMEN in laad_zorg.py.
+VERPLICHT = RAPPORT_KOLOMMEN
 
 
 def lees_rapport(pad: Path) -> list[dict]:

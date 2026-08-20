@@ -57,11 +57,10 @@ from verklaring import analyseer  # noqa: E402
 CACHE = Path(__file__).resolve().parent / ".cache"
 OOGST = Path(__file__).resolve().parent / "oogst"
 
-RAPPORT_KOLOMMEN = [
-    "kvk", "naam", "plaats", "boekjaar", "kantoor", "kantoor_sleutel",
-    "afm_nummer", "type_opdracht", "oordeel", "grond_beperking",
-    "continuiteitsonzekerheid",
-]
+# Uit laad_zorg, want die schrijft het rapport. Deze module vulde de lijst
+# eerder zelf in; zie de aantekening bij RAPPORT_KOLOMMEN daar waarom dat mis
+# kan gaan. De naam blijft hier bestaan omdat de test hem hier ophaalt.
+from laad_zorg import RAPPORT_KOLOMMEN  # noqa: E402,F401
 
 
 def ontleed_bestandsnaam(naam: str) -> tuple[int, str] | None:
