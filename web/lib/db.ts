@@ -904,3 +904,48 @@ export async function accountantSleutels(
   );
   return new Map(rijen.filter((r) => r.sleutel).map((r) => [r.opdracht_id, r.sleutel]));
 }
+
+/**
+ * Wie tekent er namens dit kantoor, en hoe vaak.
+ *
+ * Uit `v_accountant_opdracht`, zodat de site dezelfde groepering gebruikt als de
+ * database. Nieuwsgierigheid die dit beantwoordt: hoeveel handtekeningen komen
+ * van hoeveel mensen. Bij een klein kantoor is dat er vaak één, en dan is de
+ * "wisseling van kantoor" op de organisatiepagina in feite geen wisseling van
+ * accountant.
+ */
+export async function accountantsVanKantoor(kantoorId: number): Promise<
+  { sleutel: string; naam: string; aantal: number; jaren: number[] }[]
+> {
+  const rijen = await haalAlles<{
+    sleutel: string;
+    naam_zoals_getekend: string;
+    boekjaar: number;
+  }>(
+    `v_accountant_opdracht?select=sleutel,naam_zoals_getekend,boekjaar` +
+      `&kantoor_id=eq.${kantoorId}&order=boekjaar.desc`,
+  );
+  const per = new Map<string, { naam: string; aantal: number; jaren: Set<number> }>();
+  for (const rij of rijen) {
+    if (!rij.sleutel) continue;
+    const bestaand = per.get(rij.sleutel);
+    if (bestaand) {
+      bestaand.aantal += 1;
+      bestaand.jaren.add(rij.boekjaar);
+    } else {
+      per.set(rij.sleutel, {
+        naam: rij.naam_zoals_getekend,
+        aantal: 1,
+        jaren: new Set([rij.boekjaar]),
+      });
+    }
+  }
+  return [...per.entries()]
+    .map(([sleutel, v]) => ({
+      sleutel,
+      naam: v.naam,
+      aantal: v.aantal,
+      jaren: [...v.jaren].sort((a, b) => b - a),
+    }))
+    .sort((a, b) => b.aantal - a.aantal || a.naam.localeCompare(b.naam));
+}
