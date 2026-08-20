@@ -39,6 +39,34 @@ from supabase_client import Supabase, SupabaseFout  # noqa: E402
 # de schrijver vandaan. Zie de aantekening bij RAPPORT_KOLOMMEN in laad_zorg.py.
 VERPLICHT = RAPPORT_KOLOMMEN
 
+# Kolommen op `opdrachten` die uit de jaardataset komen en niet uit het
+# oogstrapport. Zie vul_extra_velden.py, dat ze vult.
+#
+# Ze staan hier omdat `--herlaad` een bestaande rij weggooit en opnieuw aanmaakt.
+# Dat moet, want een gewijzigd opdrachttype valt onder een andere unieke sleutel
+# en zou anders een tweede rij naast de eerste opleveren. Maar de nieuwe rij komt
+# uit het rapport, en het rapport kent deze velden niet — dus waren ze na een
+# herlaad weg.
+#
+# Wat dat kostte, gemeten op 20-8-2026 tegen de database van dat moment: een
+# herlaad van boekjaar 2023 zou 443 opdrachten verwijderen, waarvan er 442 zulke
+# velden droegen — 441 keer `oordeel_gerapporteerd`, 442 keer `verklaring_datum`,
+# 49 honorariumbedragen en 42 wisselvlaggen. Juist `oordeel_gerapporteerd` is de
+# helft van v_oordeel_afwijking: de vergelijking tussen wat de bron meldt en wat
+# wij in de verklaring lezen. En 2023 was het enige boekjaar dat die velden had.
+#
+# Ze worden nu vóór het verwijderen opgehaald en er na het invoegen weer op gezet.
+DATASETVELDEN = (
+    "standaard",
+    "honorarium_controle_eur",
+    "honorarium_overig_eur",
+    "honorarium_fiscaal_eur",
+    "honorarium_nietcontrole_eur",
+    "wissel_gerapporteerd",
+    "oordeel_gerapporteerd",
+    "verklaring_datum",
+)
+
 
 def lees_rapport(pad: Path) -> list[dict]:
     with pad.open(encoding="utf-8") as f:
@@ -87,6 +115,26 @@ def opdracht_uit_rapportrij(
         "continuiteitsonzekerheid": rij.get("continuiteitsonzekerheid") == "ja",
         "bron_id": bron_id,
     }
+
+
+def datasetvelden_van(bestaande_rijen: list[dict]) -> dict:
+    """De datasetvelden uit de rijen die zo verwijderd gaan worden.
+
+    Per veld de eerste waarde die niet leeg is. Op 20-8-2026 gemeten: geen enkele
+    organisatie heeft meer dan één opdracht per boekjaar, dus in de praktijk komt
+    alles uit dezelfde rij. Mocht dat ooit veranderen, dan is "de eerste die iets
+    zegt" nog steeds beter dan weggooien — en aan de aanroepkant wordt gemeld dat
+    er meer dan één rij was.
+
+    Lege waarden worden overgeslagen: null terugzetten is hetzelfde als niets
+    terugzetten, en zou een PATCH met alleen maar nullen opleveren.
+    """
+    uit: dict = {}
+    for rij in bestaande_rijen:
+        for veld in DATASETVELDEN:
+            if uit.get(veld) is None and rij.get(veld) is not None:
+                uit[veld] = rij[veld]
+    return uit
 
 
 def main() -> int:
@@ -153,6 +201,9 @@ def main() -> int:
     overgeslagen = 0
     zonder_kantoor: dict[str, int] = {}
     opgeruimd: set[tuple] = set()
+    bewaard: dict[tuple, dict] = {}
+    hersteld_velden = 0
+    meerdere_rijen = 0
     for rij in rijen:
         boekjaar = int(rij["boekjaar"])
         kvk = rij["kvk"].strip()
@@ -175,22 +226,47 @@ def main() -> int:
             },
             "kvk_nummer",
         )
+        filter_ob = f"organisatie_id=eq.{org_rij['id']}&boekjaar=eq.{boekjaar}"
         if argumenten.herlaad and (org_rij["id"], boekjaar) not in opgeruimd:
             # Eén keer per organisatie-boekjaar, ook als het rapport meer rijen
             # heeft: anders wist de tweede rij de eerste weer uit.
-            db.verwijderen(
-                "opdrachten",
-                f"organisatie_id=eq.{org_rij['id']}&boekjaar=eq.{boekjaar}",
+            #
+            # Eerst redden wat de dataset heeft bijgedragen; het rapport kent die
+            # velden niet en zou ze dus laten verdampen. Zie DATASETVELDEN.
+            bestaand_ob = db.selecteer_alles(
+                "opdrachten", f"select={','.join(DATASETVELDEN)}&{filter_ob}"
             )
+            if len(bestaand_ob) > 1:
+                meerdere_rijen += 1
+            bewaard[(org_rij["id"], boekjaar)] = datasetvelden_van(bestaand_ob)
+            db.verwijderen("opdrachten", filter_ob)
             opgeruimd.add((org_rij["id"], boekjaar))
         db.upsert_met_id(
             "opdrachten",
             opdracht_uit_rapportrij(rij, org_rij["id"], kantoor_id, bron_id),
             "organisatie_id,boekjaar,type_opdracht",
         )
+        # Meteen terugzetten, niet aan het eind: dan is het venster waarin een
+        # afbreking die velden zou kosten zo klein mogelijk.
+        terug = bewaard.get((org_rij["id"], boekjaar))
+        if terug:
+            db.bijwerken("opdrachten", filter_ob, terug)
+            hersteld_velden += len(terug)
+            bewaard[(org_rij["id"], boekjaar)] = {}
         geschreven += 1
 
     print(f"\n{geschreven} opdrachten geschreven, {overgeslagen} al aanwezig")
+    if hersteld_velden:
+        print(
+            f"  {hersteld_velden} datasetvelden bewaard over het herladen heen "
+            f"(oordeel_gerapporteerd, verklaring_datum, honoraria, wisselvlag)"
+        )
+    if meerdere_rijen:
+        print(
+            f"  LET OP: {meerdere_rijen} organisatie-boekjaren hadden meer dan één\n"
+            f"  opdracht; de datasetvelden zijn daar per veld uit de eerste rij die\n"
+            f"  iets zei overgenomen. Nakijken of dat klopt."
+        )
     for naam, aantal in zonder_kantoor.items():
         print(
             f"  LET OP: kantoor '{naam}' niet in de database ({aantal} rijen) — "
