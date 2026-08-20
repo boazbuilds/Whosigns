@@ -176,6 +176,17 @@ export function nl(n: number): string {
   return n.toLocaleString("nl-NL");
 }
 
+/**
+ * Een bedrag in hele euro's, Nederlands genoteerd. `null` blijft null, zodat de
+ * pagina zelf beslist wat "niet opgegeven" eruitziet — een honorarium van nul is
+ * iets anders dan een honorarium dat niet is verantwoord, en €0 tonen waar de
+ * bron niets zegt zou een bewering zijn.
+ */
+export function euro(bedrag: number | null | undefined): string | null {
+  if (bedrag === null || bedrag === undefined) return null;
+  return `€ ${Math.round(bedrag).toLocaleString("nl-NL")}`;
+}
+
 export function jarenReeks(jaren: number[]): string {
   if (!jaren.length) return "—";
   const min = Math.min(...jaren);

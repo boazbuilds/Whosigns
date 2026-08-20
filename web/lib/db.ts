@@ -159,6 +159,21 @@ export type OpdrachtMetKantoor = {
   /** De accountant die ondertekende, letterlijk zoals in de verklaring. Leeg =
    *  niet vastgesteld, nooit "niet getekend". Zie `docs/concept.md` §9. */
   tekenend_accountant: string | null;
+  /**
+   * De honoraria die de organisatie over dit boekjaar verantwoordde, in de vier
+   * categorieën die art. 2:382a BW voorschrijft. Openbaar, want de jaarrekening
+   * moet ze noemen.
+   *
+   * Let op wat het níét is: de prijs van deze opdracht. Het is het bedrag dat
+   * de organisatie ten laste van dit boekjaar heeft verantwoord, doorgaans voor
+   * het hele accountantsnetwerk. Ze mogen daarom ook niet worden opgeteld en
+   * als "de fee" worden getoond — dat zou dezelfde fout zijn als het
+   * marktaandeel dat over alle sectoren heen werd opgeteld.
+   */
+  honorarium_controle_eur: number | null;
+  honorarium_overig_eur: number | null;
+  honorarium_fiscaal_eur: number | null;
+  honorarium_nietcontrole_eur: number | null;
   /** Het oordeel zoals de bron het meldt. `oordeel` komt uit de gedeponeerde
    *  verklaring zelf en gaat voor; dit veld vult het gat wanneer de pdf een scan
    *  zonder tekstlaag was. */
@@ -340,6 +355,8 @@ export function opdrachtenVanOrganisatie(organisatieId: number) {
     `opdrachten?organisatie_id=eq.${organisatieId}` +
       `&select=id,boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
       `continuiteitsonzekerheid,tekenend_accountant,` +
+      `honorarium_controle_eur,honorarium_overig_eur,` +
+      `honorarium_fiscaal_eur,honorarium_nietcontrole_eur,` +
       `kantoren(${KANTOOR_KERN}),bronnen(url,bron_type,betrouwbaarheid,opgehaald_op)` +
       `&order=boekjaar.desc`,
   );

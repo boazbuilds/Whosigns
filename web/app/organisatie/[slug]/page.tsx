@@ -18,6 +18,7 @@ import {
   SOORTGROEP,
   aantalJaren,
   accountantPad,
+  euro,
   datumNL,
   hoofdletter,
   jarenReeks,
@@ -111,6 +112,14 @@ export default async function Organisatiepagina({ params }: Params) {
 
   const anderePlaatsgenoten = plaatsgenoten.filter((o) => o.id !== org.id);
   const andereSectorgenoten = sectorgenoten.filter((o) => o.id !== org.id);
+  const honorariumjaren = opdrachten.filter(
+    (o) =>
+      o.honorarium_controle_eur != null ||
+      o.honorarium_overig_eur != null ||
+      o.honorarium_fiscaal_eur != null ||
+      o.honorarium_nietcontrole_eur != null,
+  );
+
   const laatsteWisseljaar = wissels.size ? Math.max(...wissels) : null;
 
   return (
@@ -272,6 +281,62 @@ export default async function Organisatiepagina({ params }: Params) {
           </p>
         ) : null}
       </section>
+
+      {/* Honoraria: openbaar omdat art. 2:382a BW de jaarrekening verplicht ze
+          te noemen, en in de vier categorieën die dat artikel voorschrijft.
+
+          Ze worden bewust niet opgeteld tot één bedrag. Wat er staat is wat de
+          organisatie ten laste van dat boekjaar heeft verantwoord, doorgaans
+          voor het hele accountantsnetwerk — niet de prijs van deze opdracht. Eén
+          getal met "fee" erboven leest als een factuur, en dat zou dezelfde fout
+          zijn als het marktaandeel dat over alle sectoren heen werd opgeteld. */}
+      {honorariumjaren.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Honoraria van de accountant</h2>
+            <span className="klein zacht">art. 2:382a BW</span>
+          </div>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Boekjaar</th>
+                  <th className="getal">Controle jaarrekening</th>
+                  <th className="getal">Overige controle (w.o. WNT)</th>
+                  <th className="getal">Fiscale advisering</th>
+                  <th className="getal">Niet-controlediensten</th>
+                </tr>
+              </thead>
+              <tbody>
+                {honorariumjaren.map((o) => (
+                  <tr key={`honorarium-${o.boekjaar}-${o.type_opdracht}`}>
+                    <td className="jaar">{o.boekjaar}</td>
+                    {(
+                      [
+                        o.honorarium_controle_eur,
+                        o.honorarium_overig_eur,
+                        o.honorarium_fiscaal_eur,
+                        o.honorarium_nietcontrole_eur,
+                      ] as (number | null)[]
+                    ).map((bedrag, i) => (
+                      <td className="getal" key={i}>
+                        {euro(bedrag) ?? <span className="zacht">—</span>}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="klein zacht" style={{ marginBottom: 0 }}>
+            Bedragen zoals de organisatie ze in de jaarrekening verantwoordde over
+            het boekjaar, voor het accountantskantoor en zijn netwerk samen. Een
+            streepje betekent dat de bron dat bedrag niet noemt — niet dat het nul
+            was. Deze cijfers zijn er alleen voor de boekjaren waarvan de
+            jaardataset is ingelezen.
+          </p>
+        </section>
+      ) : null}
 
       {aanbestedingen.length > 0 ? (
         <section className="kaart">
