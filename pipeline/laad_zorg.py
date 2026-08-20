@@ -379,6 +379,7 @@ def main() -> int:
 
     gevonden = 0
     mislukt = 0
+    bronfouten = 0
     per_kantoor: dict[str, int] = {}
     begin = time.time()
 
@@ -419,12 +420,30 @@ def main() -> int:
             pdf.unlink(missing_ok=True)
 
     def haal_op(organisatie: dict):
-        """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel."""
+        """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel.
+
+        Geeft drie dingen terug, en die derde is het hele punt: een fout van de
+        bron is iets anders dan een organisatie die niets heeft gedeponeerd.
+
+        Allebei kwamen hier vroeger terug als `None`, en de lus schreef die
+        allebei weg als "bekeken". Met --hervat betekent dat "nooit meer": een
+        archief dat tien minuten 502 geeft schreef zo tientallen organisaties
+        voorgoed af, en de run eindigde netjes groen. De foutregel begint met
+        twee spaties en werd door het grep-filter van oogst_zorg.sh uit het log
+        gehouden, dus er bleef ook geen spoor van over.
+
+        Wat hier daadwerkelijk doorschiet naar de except: beide aanroepen van
+        digimv_archief.zoek(), en de bewuste harde RuntimeError van
+        pdf_naar_tekst als pdftotext ontbreekt — een fout die juist is bedoeld om
+        een run niet stilletjes leeg te laten eindigen. Een mislukte download
+        wordt al eerder afgevangen (adapters/digimv.py) en komt langs de gewone
+        weg terug als "niets gevonden", wat klopt.
+        """
         try:
-            return organisatie, zoek_met_terugval(organisatie, boekjaar, kantoor_index)
+            return organisatie, zoek_met_terugval(organisatie, boekjaar, kantoor_index), None
         except Exception as fout:  # noqa: BLE001 — bron mag falen, run gaat door
             print(f"  {organisatie['naam'][:50]}: fout {fout}", flush=True)
-            return organisatie, None
+            return organisatie, None, fout
 
     # Ophalen gebeurt parallel, wegschrijven blijft in deze ene draad: dat scheelt
     # sloten rond de csv en de database, en schrijven is toch niet de bottleneck.
@@ -432,7 +451,7 @@ def main() -> int:
     # gelden, dus meer werkers verhogen het tempo maar niet grenzeloos — met vier
     # werkers blijft het verzoektempo in de orde van een paar per seconde.
     with ThreadPoolExecutor(max_workers=argumenten.werkers) as pool:
-        for teller, (organisatie, resultaat) in enumerate(
+        for teller, (organisatie, resultaat, fout) in enumerate(
             pool.map(haal_op, te_doen), start=1
         ):
             if teller % 25 == 0:
@@ -442,6 +461,21 @@ def main() -> int:
                     f"{mislukt} zonder kantoor | {verstreken/60:.1f} min ---",
                     flush=True,
                 )
+
+            if fout is not None:
+                # De bron gaf een fout, dus we weten niets over deze organisatie.
+                # Juist dan mag er géén aantekening komen: "bekeken" betekent hier
+                # "nooit meer", en dan zou een storing van tien minuten permanent
+                # gaten in een boekjaar slaan.
+                #
+                # Werk overdoen is te overzien, werk stilletjes overslaan niet.
+                # De organisatie blijft dus vooraan in de wachtrij staan. Blijft
+                # de bron stuk, dan groeit de bekekenlijst niet, en dan stopt
+                # oogst_zorg.sh vanzelf na drie lege blokken -- precies de rem die
+                # met de oude aanpak nooit aantrok, omdat de lijst juist wél
+                # groeide van de afgeschreven organisaties.
+                bronfouten += 1
+                continue
 
             if not resultaat:
                 # Ook een organisatie die niets opleverde is bekeken, en juist díé
@@ -567,8 +601,9 @@ def main() -> int:
     if verwerkt_log is not None:
         verwerkt_log.close()
     print(f"\n=== boekjaar {boekjaar}: {gevonden} opdrachten, "
-          f"{mislukt} zonder herleidbaar kantoor "
-          f"({(time.time()-begin)/60:.0f} min) ===\n")
+          f"{mislukt} zonder herleidbaar kantoor"
+          + (f", {bronfouten} overgeslagen na een bronfout" if bronfouten else "")
+          + f" ({(time.time()-begin)/60:.0f} min) ===\n")
 
     print("Marktaandeel in deze run:")
     for naam, aantal in sorted(per_kantoor.items(), key=lambda p: -p[1])[:25]:
