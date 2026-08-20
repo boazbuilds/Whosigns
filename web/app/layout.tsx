@@ -161,6 +161,14 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 Geen advies, geen oordeel over kantoren. Een wisseling is
                 afgeleid uit de historie, niet uit een aankondiging.
               </p>
+              {/* Zonder deze regel las de site als een volledig marktoverzicht.
+                  Dat is het niet: de vulling gaat sector voor sector en boekjaar
+                  voor boekjaar, dus de dekking verschilt per jaar. */}
+              <p className="klein">
+                Nog niet compleet: de gegevens worden sector voor sector en
+                boekjaar voor boekjaar aangevuld. Een aandeel op deze site geldt
+                over wat hier staat, niet over de hele markt.
+              </p>
             </div>
             <nav aria-label="Voettekst">
               <Link href="/sectoren">Sectoren</Link>

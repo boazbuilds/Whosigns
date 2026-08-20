@@ -65,6 +65,19 @@ export default async function Startpagina() {
       oudsteBoekjaar(),
     ]);
 
+    // De noemer onder het podium: alle controles die voor dit boekjaar in de
+    // database staan. Dat is nadrukkelijk niet "de markt". De database wordt per
+    // sector en per boekjaar gevuld en die mengeling verschilt sterk: boekjaar
+    // 2007 is voor 100% woningcorporaties, 2025 voor 56% zorg (gemeten
+    // 20-8-2026). Wie zulke aandelen tussen boekjaren vergelijkt ziet dus vooral
+    // de dekking veranderen, niet de markt.
+    //
+    // Tot 20-8-2026 stond er "% van de markt" onder het podium. Daarmee vertelde
+    // de voorpagina een onwaar verhaal over een kantoor met naam en toenaam:
+    // Deloitte zakte van 43,8% (2007) naar 12,2% (2024) puur doordat er sectoren
+    // bij kwamen waarin het minder sterk is. Per sector klopt het aandeel wél —
+    // dat rekent v_marktaandeel per (boekjaar, sector) uit, en zo staat het op
+    // /sectoren.
     const totaalDitJaar = ranglijst.reduce((som, rij) => som + rij.aantal_controles, 0);
     const saldi = saldoPerKantoor(laatsteWisselingen);
     const topWapens = new Map<string, string[]>();
@@ -129,11 +142,17 @@ export default async function Startpagina() {
                   plek={i + 1}
                   naar={kantoorPad(rij.kantoor)}
                   naam={rij.kantoor.naam}
-                  onder={`${((rij.aantal_controles / totaalDitJaar) * 100).toFixed(1)}% van de markt`}
+                  onder={`${((rij.aantal_controles / totaalDitJaar) * 100).toFixed(1)}% van ${nl(totaalDitJaar)} controles`}
                   groot={String(rij.aantal_controles)}
                 />
               ))}
             </div>
+            <p className="klein zacht" style={{ marginTop: "0.9rem", marginBottom: 0 }}>
+              Aandeel van wat er voor dit boekjaar in de database staat, niet van
+              de hele markt: welke sectoren erin zitten verschilt per boekjaar.
+              Per sector is de vergelijking wel eerlijk —{" "}
+              <Link href="/sectoren">zie de sectoren</Link>.
+            </p>
           </section>
         ) : null}
 

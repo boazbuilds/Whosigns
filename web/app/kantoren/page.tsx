@@ -61,6 +61,12 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
     wisselingen(gekozen ? { boekjaar: gekozen } : {}),
   ]);
 
+  // Noemer voor de balkjes en het podium: alles wat er voor deze periode in de
+  // database staat. Niet "de markt" — zie de uitleg bij dezelfde som op de
+  // voorpagina. De database wordt per sector en per boekjaar gevuld, dus de
+  // mengeling verschilt per jaar en een aandeel is tussen jaren niet
+  // vergelijkbaar. Bij "alle boekjaren" telt dit bovendien 2007 (alleen
+  // woningcorporaties) op bij 2024 (vijf sectoren).
   const totaalControles = ranglijst.reduce((som, rij) => som + rij.aantal_controles, 0);
   const saldi = saldoPerKantoor(mutaties);
   const stijgers = saldi.filter((rij) => rij.saldo > 0).slice(0, 6);
@@ -160,11 +166,17 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
                 plek={i + 1}
                 naar={kantoorPad(rij.kantoor)}
                 naam={rij.kantoor.naam}
-                onder={`${((rij.aantal_controles / totaalControles) * 100).toFixed(1)}% van de markt`}
+                onder={`${((rij.aantal_controles / totaalControles) * 100).toFixed(1)}% van ${nl(totaalControles)} controles`}
                 groot={String(rij.aantal_controles)}
               />
             ))}
           </div>
+          <p className="klein zacht" style={{ marginTop: "0.9rem", marginBottom: 0 }}>
+            Aandeel van wat er voor {periode} in de database staat, niet van de
+            hele markt: welke sectoren erin zitten verschilt per boekjaar. Per
+            sector is de vergelijking wel eerlijk —{" "}
+            <Link href="/sectoren">zie de sectoren</Link>.
+          </p>
         </section>
       ) : null}
 
