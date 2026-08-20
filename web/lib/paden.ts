@@ -62,6 +62,15 @@ export function sectorPad(sector: string): string {
   return `/sector/${slug(sector)}`;
 }
 
+/** Het adres van een tekenend accountant. De sleutel komt uit `v_accountant`
+ *  en is al genormaliseerd (kleine letters, geen punten, titels vooraan eraf);
+ *  `slug()` maakt er alleen nog koppeltekens van. Niet omkeerbaar bij accenten
+ *  of een dubbele achternaam, dus de pagina zoekt de echte sleutel op —
+ *  `accountantOpSlug()` doet eerst de goedkope gok en valt daarna pas terug. */
+export function accountantPad(sleutel: string): string {
+  return `/accountant/${slug(sleutel)}`;
+}
+
 /** Subsectoren hebben spaties en koppeltekens, dus de slug is niet omkeerbaar;
  *  de pagina zoekt de echte waarde op via de lijst uit de database. */
 export function subsectorPad(subsector: string): string {

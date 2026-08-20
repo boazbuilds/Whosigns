@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   gunningenVanOrganisatie,
+  accountantSleutels,
   opdrachtenVanOrganisatie,
   organisatieOpId,
   organisatieOpKvk,
@@ -16,6 +17,7 @@ import {
   OPDRACHT_LABEL,
   SOORTGROEP,
   aantalJaren,
+  accountantPad,
   datumNL,
   hoofdletter,
   jarenReeks,
@@ -63,12 +65,16 @@ export default async function Organisatiepagina({ params }: Params) {
   let reeksen: ReturnType<typeof periodes> = [];
   let aanbestedingen: Awaited<ReturnType<typeof gunningenVanOrganisatie>> = [];
   let wissels: ReturnType<typeof wisseljaren> = new Set();
+  // Welke opdracht bij welke accountantspagina hoort. De sleutel komt uit
+  // v_accountant_opdracht, zodat de site geen eigen tweede definitie krijgt.
+  let sleutels = new Map<number, string>();
   try {
     org = await vindOrganisatie(slug);
     if (org) {
-      [opdrachten, aanbestedingen] = await Promise.all([
+      [opdrachten, aanbestedingen, sleutels] = await Promise.all([
         opdrachtenVanOrganisatie(org.id),
         gunningenVanOrganisatie(org.id),
+        accountantSleutels(org.id),
       ]);
       reeksen = periodes(opdrachten);
       wissels = wisseljaren(opdrachten);
@@ -171,6 +177,7 @@ export default async function Organisatiepagina({ params }: Params) {
                 <tr>
                   <th>Boekjaar</th>
                   <th>Accountantskantoor</th>
+                  <th>Getekend door</th>
                   <th>Opdracht</th>
                   <th>Oordeel</th>
                   <th>Bron</th>
@@ -194,6 +201,22 @@ export default async function Organisatiepagina({ params }: Params) {
                       {wissels.has(opdracht.boekjaar) ? (
                         <> <span className="label label-let-op">wisseling</span></>
                       ) : null}
+                    </td>
+                    {/* De ondertekenaar. Leeg betekent "niet vastgesteld" en niet
+                        "niet getekend": bij een gescande verklaring zonder
+                        tekstlaag is er niets te lezen. */}
+                    <td className="klein">
+                      {opdracht.tekenend_accountant ? (
+                        sleutels.get(opdracht.id) ? (
+                          <Link href={accountantPad(sleutels.get(opdracht.id)!)}>
+                            {opdracht.tekenend_accountant}
+                          </Link>
+                        ) : (
+                          opdracht.tekenend_accountant
+                        )
+                      ) : (
+                        <span className="zacht">—</span>
+                      )}
                     </td>
                     <td>
                       <Soort type={opdracht.type_opdracht} />

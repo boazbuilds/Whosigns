@@ -152,9 +152,13 @@ export type Bron = {
 
 /** Eén opdracht met het kantoor en de bron er direct aan vast (PostgREST-embed). */
 export type OpdrachtMetKantoor = {
+  id: number;
   boekjaar: number;
   type_opdracht: string;
   oordeel: string | null;
+  /** De accountant die ondertekende, letterlijk zoals in de verklaring. Leeg =
+   *  niet vastgesteld, nooit "niet getekend". Zie `docs/concept.md` §9. */
+  tekenend_accountant: string | null;
   /** Het oordeel zoals de bron het meldt. `oordeel` komt uit de gedeponeerde
    *  verklaring zelf en gaat voor; dit veld vult het gat wanneer de pdf een scan
    *  zonder tekstlaag was. */
@@ -334,8 +338,8 @@ export async function bevindingen(): Promise<Bevinding[]> {
 export function opdrachtenVanOrganisatie(organisatieId: number) {
   return haal<OpdrachtMetKantoor>(
     `opdrachten?organisatie_id=eq.${organisatieId}` +
-      `&select=boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
-      `continuiteitsonzekerheid,` +
+      `&select=id,boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
+      `continuiteitsonzekerheid,tekenend_accountant,` +
       `kantoren(${KANTOOR_KERN}),bronnen(url,bron_type,betrouwbaarheid,opgehaald_op)` +
       `&order=boekjaar.desc`,
   );
@@ -767,4 +771,119 @@ export function gunningenVanOrganisatie(organisatieId: number) {
 /** Aanbestedingen die dit kantoor heeft gewonnen, nieuwste eerst. */
 export function gunningenVanKantoor(kantoorId: number) {
   return gunningen(`kantoor_id=eq.${kantoorId}`);
+}
+
+// ------------------------------------------------------- tekenend accountant
+
+/**
+ * De accountant die de verklaring ondertekende.
+ *
+ * Mag hier staan sinds het besluit van 20-8-2026 (`docs/concept.md` §9): de naam
+ * komt uit een openbare bron — de gedeponeerde verklaring zelf — en de grondslag
+ * is gerechtvaardigd belang bij een al openbaar gegeven. Alle andere natuurlijke
+ * personen blijven erbuiten.
+ *
+ * De groepering staat in SQL (`v_accountant`, `v_accountant_opdracht`) en niet
+ * hier, om dezelfde reden als bij wisselingen en marktaandeel: de database mag
+ * niet iets anders beweren dan de website.
+ */
+export type Accountant = {
+  sleutel: string;
+  naam: string;
+  aantal_opdrachten: number;
+  aantal_organisaties: number;
+  aantal_kantoren: number;
+  eerste_boekjaar: number;
+  laatste_boekjaar: number;
+};
+
+export type AccountantOpdracht = {
+  opdracht_id: number;
+  organisatie_id: number;
+  kantoor_id: number | null;
+  boekjaar: number;
+  type_opdracht: string;
+  oordeel: string | null;
+  naam_zoals_getekend: string;
+  sleutel: string;
+};
+
+/** Alle accountants, meeste opdrachten eerst. */
+export async function accountants(): Promise<Accountant[]> {
+  return haalAlles<Accountant>(
+    "v_accountant?select=*&order=aantal_opdrachten.desc,sleutel.asc",
+  );
+}
+
+/**
+ * Eén accountant opzoeken vanaf zijn adres.
+ *
+ * De sleutel is al kleine letters met enkele spaties, dus meestal is de slug
+ * terug te draaien door koppeltekens weer spaties te maken. Meestal, niet altijd:
+ * `slug()` haalt ook accenten en leestekens weg, dus "R. Ohé RA" en een
+ * dubbele achternaam met een koppelteken komen daar niet uit. Lukt de directe
+ * weg niet, dan pas de hele lijst ophalen en op slug vergelijken — dezelfde
+ * terugval als de sectorpagina, maar hier is de goedkope weg het normale geval.
+ */
+export async function accountantOpSlug(
+  slugWaarde: string,
+  slugFunctie: (naam: string) => string,
+): Promise<Accountant | null> {
+  const gok = slugWaarde.replace(/-/g, " ");
+  const direct = await haal<Accountant>(
+    `v_accountant?select=*&sleutel=eq.${encodeURIComponent(gok)}`,
+  );
+  if (direct.length) return direct[0];
+  const alle = await accountants();
+  return alle.find((a) => slugFunctie(a.sleutel) === slugWaarde) ?? null;
+}
+
+/**
+ * De opdrachten van één accountant, nieuwste boekjaar eerst.
+ *
+ * Zonder embed: `v_accountant_opdracht` is een view en PostgREST kan daar geen
+ * relatie op garanderen. De organisatie en het kantoor komen er in een tweede
+ * verzoek bij, net als elders in dit bestand.
+ */
+export async function opdrachtenVanAccountant(sleutel: string): Promise<{
+  rijen: AccountantOpdracht[];
+  organisaties: Map<number, Organisatie>;
+  kantoren: Map<number, Kantoor>;
+}> {
+  const rijen = await haalAlles<AccountantOpdracht>(
+    `v_accountant_opdracht?select=*&sleutel=eq.${encodeURIComponent(sleutel)}` +
+      "&order=boekjaar.desc,organisatie_id.asc",
+  );
+  const [orgs, kants] = await Promise.all([
+    haalOpId<Organisatie>("organisaties", ORG_VELDEN, rijen.map((r) => r.organisatie_id)),
+    haalOpId<Kantoor>(
+      "kantoren",
+      KANTOOR_KERN,
+      rijen.map((r) => r.kantoor_id).filter((id): id is number => id != null),
+    ),
+  ]);
+  return {
+    rijen,
+    organisaties: new Map(orgs.map((o) => [o.id, o])),
+    kantoren: new Map(kants.map((k) => [k.id, k])),
+  };
+}
+
+/**
+ * Bij welke opdracht hoort welke accountantssleutel.
+ *
+ * Apart verzoek, en met opzet: de sleutel wordt in SQL gemaakt
+ * (`v_accountant_opdracht`) en niet hier. Hem in TypeScript nabouwen zou werken
+ * tot iemand één van de twee aanpast, en dan zou de site naar een pagina linken
+ * die de database niet kent. Liever een klein extra verzoek dan twee definities
+ * van hetzelfde.
+ */
+export async function accountantSleutels(
+  organisatieId: number,
+): Promise<Map<number, string>> {
+  const rijen = await haalAlles<{ opdracht_id: number; sleutel: string }>(
+    `v_accountant_opdracht?select=opdracht_id,sleutel` +
+      `&organisatie_id=eq.${organisatieId}&order=opdracht_id.asc`,
+  );
+  return new Map(rijen.filter((r) => r.sleutel).map((r) => [r.opdracht_id, r.sleutel]));
 }
