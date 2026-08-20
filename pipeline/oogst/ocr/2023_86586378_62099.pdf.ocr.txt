@@ -1,0 +1,1051 @@
+# whosigns-ocr v1 grootte=6217171 dpi=300 paginas=20
++
+woonsupport&ik B.V. \ DM
+
+ACCOUNTANTS
+
+2.1 Balans per 31 december 2023
+(Na resultaatbestemming)
+
+31 december 2023
+
+ACTIVA € €
+
+Vaste activa
+
+Immateriële vaste activa []
+Goodwill 112.667
+112.667
+
+Materiële vaste activa [2]
+Huurdersinvestering 15.770
+Inventaris 31.571
+Vervoermiddelen 16.897
+
+64.238
+Financiële vaste activa [3]
+Overige vorderingen 11.500
+
+11.500
+Vlottende activa
+Vorderingen [4]
+Handelsdebiteuren 59.282
+Overlopende activa 7.769
+
+67.051
+Liquide middelen [5] 302.718
+Totaal activazijde 598.174
+
+Samenstellingsverklaring afgegeven d.d. 27 mei 2024
+
+-10-
+
++
+woonsupport&ik B.V. \DM
+
+ACCOUNTANTS
+
+2.1 Balans per 31 december 2023
+(Na resultaatbestemming)
+
+PASSIVA
+
+Eigen vermogen
+Geplaatst aandelenkapitaal
+Overige reserves
+
+Langlopende schulden
+Andere obligatie- en onderhandse leningen
+
+Kortlopende schulden
+Aflossingsverplichtingen komend boekjaar
+Handelscrediteuren
+
+Schulden aan participant/maatschappijen
+Belastingen en premies sociale verzekeringen
+Overlopende passiva
+
+Totaal passivazijde
+
+31 december 2023
+
+€ €
+
+(6)
+120
+141.553
+141.673
+
+(71
+178.879
+178.879
+
+[8]
+41.033
+15.535
+9.792
+65.982
+105.280
+237.622
+
+558.174
+
+Samenstellingsverklaring afgegeven d.d. 27 mei 2024
+
+-11-
+
++
+woonsupport&ik B.V. \DM
+
+ACCOUNTANTS
+
+2.2 Winst- en verliesrekening over 2022/2023
+
+2022/2023
+€ €
+
+Netto-omzet [9] 1.841.540
+Inkoopwaarde van de omzet [10] 416.997
+Kosten van uitbesteed werk [11] 13.477
+
+430.474
+Bruto bedrijfsresultaat 1.411.066
+Lonen en salarissen [12] 738.291
+Sociale lasten [13] 78.774
+Pensioenlasten [14] 39.301
+Afschrijvingen immateriële vaste activa [15] 14.333
+Afschrijvingen materiële vaste activa [16] 14.565
+Overige bedrijfskosten [17] 345.882
+Som der kosten 1.234.146
+Bedrijfsresultaat 176.920
+Rentebaten en soortgelijke opbrengsten [18] 425
+Rentelasten en soortgelijke kosten [19] -9.068
+Som der financiële baten en lasten -8.643
+Resultaat voor belastingen 168.277
+Belastingen [20] -26.724
+Resultaat na belastingen 141.553
+
+Samenstellingsverklaring afgegeven d.d. 27 mei 2024
+
+12e
+
++
+woonsupport&ik B.V. mn \DM
+
+ACCOUNTANTS
+
+2.3 Toelichting op de jaarrekening
+
+ALGEMENE TOELICHTING
+
+Activiteiten
+
+De activiteiten van woonsupport&ik B.V., statutair gevestigd te Harderwijk, bestaan voornamelijk uit:
+Het als maatschappelijke onderneming door middel van een doelmatige en transparante bedrijfsvoering
+leveren van cliëntgerichte, veilige en betaalbare zorg van goede kwaliteit in de breedste zin van het
+woord en meer specifiek op het gebied van het begeleid zelfstandig wonen, behandeling persoonlijke
+verzorging, huishoudelijke ondersteuning, tijdelijk verblijf en dagbesteding.
+
+De feitelijke activiteiten worden uitgevoerd aan de Frisialaan 51 te Harderwijk.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+woonsupport&ik B.V., statutair gevestigd te Harderwijk is ingeschreven bij de Kamer van Koophandel onder
+dossiernummer 86586378.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van
+woonsupport&ik B.V. zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de
+jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste inzicht
+noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de bijbehorende veronderstellingen
+opgenomen bij de toelichting op de desbetreffende jaarrekeningposten.
+
+ALGEMENE GRONDSLAGEN
+
+Algemeen
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving voor de kleine rechtspersonen, die uitgegeven zijn door de Raad voor de
+jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst- en verliesrekening zijn referenties opgenomen. Met deze
+referenties wordt verwezen naar de toelichting.
+
+Leasing
+
+Operationele leasing
+
+Bij de onderneming kunnen er leasecontracten bestaan waarbij een groot deel van de voor- en nadelen
+
+die aan de eigendom verbonden zijn, niet bij de onderneming ligt. Deze leasecontracten worden verantwoord
+als operationele leasing. Leasebetalingen worden, rekening houdend met ontvangen vergoedingen van de
+lessor, op lineaire basis verwerkt in de winst- en verliesrekening over de looptijd van het contract.
+
+GRONDSLAGEN VOOR WAARDERING VAN ACTIVA EN PASSIVA
+
+Immateriële vaste activa
+
+De immateriële vaste activa worden gewaardeerd tegen verkrijgingsprijs onder aftrek van afschrijvingen. Er
+wordt rekening gehouden met bijzondere waardeverminderingen; dit is het geval als de boekwaarde van het
+actief (of van de kasstroom genererende eenheid waartoe het actief behoort) hoger is dan de realiseerbare
+
+waarde ervan.
+
+ze
+
+En
+woonsupport&ik B.V. zi, \DM
+
+ACCOUNTANTS
+
+2.3 Toelichting op de jaarrekening
+
+Goodwill
+
+Positieve goodwill voortkomend uit acquisities, wordt geactiveerd en lineair afgeschreven gedurende de
+verwachte economische gebruiksduur.
+
+Negatieve goodwill valt vrij in de winst- en verliesrekening voor zover lasten en verliezen zich voordoen, indien
+hier bij de verwerking van de overname rekening mee is gehouden en deze lasten en verliezen betrouwbaar
+zijn te meten. Indien geen rekening is gehouden met verwachte lasten of verliezen, dan valt de negatieve
+goodwill vrij in overeenstemming met het gewogen gemiddelde van de resterende levensduur van de
+verworven afschrijfbare activa. Voor zover de negatieve goodwill uitkomt boven de reële waarde van de
+geïdentificeerde niet-monetaire activa wordt het meerdere direct in de winst- en verliesrekening verwerkt.
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen, rekening houdend met een eventuele
+residuwaarde, gedurende de verwachte toekomstige gebruiksduur en bijzondere waardeverminderingen.
+
+Financiële vaste activa
+
+Overige vorderingen
+
+De onder financiële vaste activa opgenomen overige vorderingen omvatten verstrekte leningen en overige
+vorderingen, alsmede gekochte leningen die tot het einde van de looptijd zullen worden aangehouden. Deze
+vorderingen worden initieel gewaardeerd tegen reële waarde. Indien er bij de verstrekking van leningen sprake
+is van disagio of agio, wordt dit gedurende de looptijd ten gunste respectievelijk ten laste van het resultaat
+gebracht als onderdeel van de effectieve rente. Ook transactiekosten worden verwerkt in de eerste waardering
+en als onderdeel van de effectieve rente ten laste van het resultaat gebracht. Bijzondere
+waardeverminderingen worden in mindering gebracht op de winst-en-verliesrekening.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de
+boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+De liquide middelen staan ter vrije beschikking, tenzij anders vermeld in de toelichting. Rekening-
+courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende
+schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Langlopende schulden
+
+Langlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Transactiekosten
+die direct zijn toe te rekenen aan de verwerving van de langlopende schulden worden in de waardering bij
+eerste verwerking opgenomen. Langlopende schulden worden na eerste verwerking gewaardeerd tegen de
+bedragen waartegen de schuld moet worden afgelost.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden
+afgelost.
+
+-14-
+
++
+woonsupport&ik B.V. 8 ADM
+
+ACCOUNTANTS
+
+2.3 Toelichting op de jaarrekening
+GRONDSLAGEN VOOR BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin
+zij zijn gerealiseerd.
+
+Opbrengstverantwoording
+
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit overeenkomsten met klanten. In de overeenkomsten worden de
+individuele prestatieverplichtingen geïdentificeerd. Vervolgens wordt de transactieprijs vastgesteld en deze
+wordt toegerekend aan individuele prestatieverplichting. Hierbij wordt rekening gehouden met kortingen en
+dergelijke en van over de omzet geheven belastingen.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde prestaties,
+gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten
+diensten.
+
+Kosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Personeelsbeloningen
+
+Periodiek betaalbare beloningen
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in de
+winst- en verliesrekening.
+
+Pensioenen
+
+De onderneming heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord.
+
+Op de Nederlandse pensioenregelingen zijn de bepalingen van de Nederlandse Pensioenwet van toepassing
+en betaalt de onderneming verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en
+verzekeringsmaatschappijen. De premies worden verantwoord als personeelskosten zodra deze verschuldigd
+zijn. Vooruitbetaalde premies worden opgenomen als overlopende activa indien dit tot een terugstorting leidt of
+tot een vermindering van toekomstige betalingen. Nog niet betaalde premies worden als verplichting op de
+balans opgenomen.
+
+Afschrijvingen op immateriële en materiële vaste activa
+
+Immateriële vaste activa inclusief goodwill en materiële vaste activa worden vanaf het moment dat het actief
+beschikbaar is voor het beoogde gebruik afgeschreven over de geschatte economische levensduur /
+verwachte toekomstige gebruiksduur van het actief. Over terreinen en vastgoedbeleggingen wordt niet
+afgeschreven.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+
+-15-
+
++
+woonsupport&ik B.V. n: \DM
+
+ACCOUNTANTS
+
+2.3 Toelichting op de jaarrekening
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van
+de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de
+verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst- en
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande
+boekjaren (voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde winstbestanddelen
+en na bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met wijzigingen die optreden in
+de latente belastingvorderingen en latente belastingschulden uit hoofde van wijzigingen in het te hanteren
+belastingtarief.
+
+-16-
+
+woonsupport&ik B.V.
+
+2.4 Toelichting op de balans
+
+ACTIVA
+VASTE ACTIVA
+
+Immateriële vaste activa [1]
+
+ADW
+
+ACCOUNTANTS
+
+Het verloop van de immateriële vaste activa wordt als volgt weergegeven:
+
+Investeringen
+Afschrijvingen
+Mutaties 2022/2023
+
+Aanschafwaarde
+Cumulatieve afschrijvingen
+Boekwaarde per 31 december
+
+Afschrijvingspercentages:
+Goodwill
+
+Materiële vaste activa [2]
+
+Het verloop van de materiële vaste activa wordt als volgt weergegeven:
+
+Investeringen
+Desinvesteringen
+Afschrijvingen
+Mutaties 2022/2023
+
+Aanschafwaarde
+Cumulatieve afschrijvingen
+Boekwaarde per 31 december
+
+Afschrijvingspercentages:
+Huurdersinvestering
+Inventaris
+Vervoermiddelen
+
+7
+
+Goodwill
+€
+130.000
+-17.333
+112.667
+130.000
+-17.333
+112.667
+10 %
+Huurders- Inventaris Vervoer-
+investering middelen
+€ € €
+16.810 41.993 20.500
+- -500 -
+-1.040 -9.922 -3.603
+15.770 31.571 16.897
+16.810 41.493 20.500
+-1.040 -9.922 -3.603
+15.770 31.571 16.897
+20 %
+10-20 %
+20 %
+
++
+woonsupport&ik B.V. _ \ D NN
+
+ACCOUNTANTS
+2.4 Toelichting op de balans
+Financiële vaste activa [3]
+2022/2023
+€
+
+Overige vorderingen
+Waarborgsommen 11.500
+VLOTTENDE ACTIVA
+Vorderingen [4]
+Handelsdebiteuren
+Handelsdebiteuren 59.282
+Een voorziening voor oninbare debiteuren wordt niet noodzakelijk geacht.
+Overige vorderingen en overlopende activa
+Vooruitbetaalde kosten 7.339
+Nog te ontvangen bedragen 430
+
+7.769
+Liquide middelen [5]
+NL21 INGB 0395 7068 74 101.802
+NL80 INGB 0634 7841 37 726
+ING Spaarrekening 200.190
+
+302.718
+
+-18-
+
++
+woonsupport&ik B.V. \DM
+
+ACCOUNTANTS
+2.4 Toelichting op de balans
+PASSIVA
+EIGEN VERMOGEN [6]
+2022/2023
+€
+Geplaatst aandelenkapitaal
+Stand per 3 juni -
+Uitgifte aandelen 120
+Stand per 31 december 120
+Per eindbalans was het geplaatst kapitaal als volgt verdeeld:
+- 120 gewone aandelen (€ 1)
+Overige reserves
+Stand per 3 juni -
+Uit voorstel resultaatbestemming 141.553
+Stand per 31 december 141.553
+
+Voorstel tot bestemming van het resultaat over het boekjaar 2022/2023
+
+De directie stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2022/2023 ten bedrage
+van € 141.553 geheel ten gunste van de overige reserves te brengen en over 2022/2023 geen dividend uit te
+keren.
+
+Het ingehouden deel van het resultaat over 2022/2023 bedraagt € 141.553.
+
+LANGLOPENDE SCHULDEN [7]
+
+Andere onderhandse leningen
+
+Lening D. Karssen-Hamstra 32.000
+Lening B. Drost en L. Bottema 48.000
+Lening BMO B.V. 98.879
+
+178.879
+
+Het deel van de andere obligatie- en onderhandse leningen met een looptijd van langer dan 5 jaar bedraagt
+€ 40.000.
+
+Lening D. Karssen-Hamstra
+
+Stand per 3 juni -
+Opgenomen 40.000
+Aflossing -4.000
+Stand per 31 december 36.000
+Aflossingsverplichting -4.000
+Langlopend deel per 31 december 32.000
+
+„49:
+
++
+woonsupport&ik B.V. mn \D\ \
+
+ACCOUNTANTS
+2.4 Toelichting op de balans
+2022/2023
+€
+Lening B. Drost en L. Bottema
+Stand per 3 juni -
+Opgenomen 60.000
+Aflossing -6.000
+Stand per 31 december 54.000
+Aflossingsverplichting -6.000
+Langlopend deel per 31 december 48.000
+Lening BMO B.V.
+Stand per 3 juni -
+Opgenomen 186.200
+Aflossing -56.288
+Stand per 31 december 129.912
+Aflossingsverplichting -31.033
+Langlopend deel per 31 december 98.879
+KORTLOPENDE SCHULDEN [8]
+Aflossingsverplichtingen komend boekjaar
+Lening D. Karssen-Hamstra 4.000
+Lening B. Drost en L. Bottema 6.000
+Lening BMO B.V. 31.033
+41.033
+Handelscrediteuren
+Crediteuren 15.535
+Schulden aan participanten en maatschappijen waarin
+wordt deelgenomen
+Rekening-courant Holding Hamka B.V. 3.264
+Rekening-courant BLD Holding B.V. 6.528
+9.792
+Rekening-courant Holding Hamka B.V.
+Stand per 3 juni -
+Mutatie 3.200
+3.200
+Rente 4% 64
+Stand per 31 december 3.264
+
+-20-
+
++
+woonsupport&ik B.V. \ DM
+
+ACCOUNTANTS
+
+2.4 Toelichting op de balans
+
+Rekening-courant BLJD Holding B.V.
+Stand per 3 juni
+Mutaties
+
+Rente 4%
+Stand per 31 december
+
+Belastingen en premies sociale verzekeringen
+Vennootschapsbelasting
+
+Loonheffing
+
+Pensioenen
+
+Vennootschapsbelasting
+Vennootschapsbelasting
+
+Loonheffing
+Loonheffing laatste periode
+
+Pensioenen
+Pensioenen
+
+Overige schulden en overlopende passiva
+Te veel ontvangen subsidie
+
+Te veel ontvangen CAK
+
+Waarborgsommen
+
+Vooruitgefactureerde omzet
+Accountantskosten
+
+Vooruitonvangen huur
+
+Reservering LBB
+
+Reservering vakantiedagen
+
+Overloop kosten
+
+-21-
+
+2022/2023
+
+€
+
+6.400
+6.400
+
+128
+6.528
+
+26.724
+28.448
+10.810
+65.982
+
+26.724
+
+28.448
+
+10.810
+
+14.187
+30.292
+12.248
+5.000
+10.000
+1.778
+14.249
+8.693
+8.833
+
+___105.280_
+
++
+woonsupport&ik B.V. \DM
+
+ACCOUNTANTS
+
+2.4 Toelichting op de balans
+
+Niet in de balans opgenomen rechten en verplichtingen
+Voorwaardelijke verplichtingen en belangrijke financiële verplichtingen
+
+Huurverplichtingen
+Betreft huurovereenkomsten met verhuurder, waarbij de volgende panden worden gehuurd en waarvoor ultimo
+2023 een jaarlijkse huurverplichting geldt van circa € 249.000:
+
+- Achterste Wei 31 Harderwijk
+
+- Bazuindreef 78 Harderwijk
+
+- Boerhaavelaan 52, 58, 62 en 74 Harderwijk
+
+- Emdenmeen 4, 4a en 4b Harderwijk
+
+- Frisialaan 51 en 51a Harderwijk
+
+- Gelreweg 73 en 79 Harderwijk
+
+- Goeman Borgesiuslaan 331 Harderwijk
+
+- lrenelaan 29 Apeldoorn
+
+- Mandenmakerstraat 16 Harderwijk
+
+- Piet Heinlaan 63 en 63a Harderwijk
+
+- Revalmeen 10, 10a en 10b Harderwijk
+
+- Roland Holstlaan 7 Harderwijk
+
+- Zuiderzeepad 8 en 8a Harderwijk
+
+Betreft huurovereenkomsten met verhuurder, waarbij de volgende panden worden gehuurd en waarvoor ultimo
+2023 een jaarlijkse huurverplichting geldt van circa € 63.000:
+- Triasplein 106, 107, 111, 130, 139 en 147 Harderwijk
+
+Operationele leaseverplichting
+
+De onderneming heeft een leaseverplichting overgenomen voor een Volkswagen Up! met kenteken
+XS-799-N, deze loopt nog tot en met augustus 2024. De jaarlijkse leaseverplichting bedraagt ultimo
+2023 € 1.900.
+
+De onderneming heeft een leaseverplichting overgenomen voor een Volvo V40 met kenteken H-677-HS, deze
+
+loopt nog tot en met september 2024. De jaarlijkse leaseverplichting bedraagt ultimo 2023
+€ 8.141.
+
+De onderneming heeft een leaseverplichting overgenomen voor een Volkswagen Transporter met kenteken V-
+433-PZ, deze loopt nog tot en met maart 2024. De jaarlijkse leaseverplichting bedraagt ultimo 2023 € 1.868.
+
+De onderneming is heeft een leaseverplichting overgenomen voor een kopieermachine, deze loopt nog tot juni
+2026. De jaarlijkse leaseverplichting bedraagt ultimo 2023 € 1.400.
+
+nn
+
+Ef
+woonsupport&ik B.V. \DM
+
+ACCOUNTANTS
+
+2.5 Toelichting op de winst- en verliesrekening
+
+2022/2023
+€
+Netto-omzet [9]
+Opbrengst cliënten 1.540.362
+Huuropbrengsten woningen 301.178
+1.841.540
+Inkoopwaarde van de omzet [10]
+Diverse kosten cliënten 50.101
+Huur woningen 366.896
+416.997
+Kosten van uitbesteed werk [11]
+Kosten van uitbesteed werk 13.477
+Lonen en salarissen [12]
+Brutolonen en salarissen 744 598
+744.598
+Ontvangen uitkering ziekengeld -3.859
+Ontvangen subsidies stage -2.448
+738.291
+Sociale lasten [13]
+Sociale lasten 18.774
+Pensioenlasten [14]
+Pensioenpremie personeel 39.301
+Afschrijvingen immateriële vaste activa [15]
+Goodwill 17.333
+Afschrijvingen materiële vaste activa [16]
+Huurdersinventaris 1.040
+Inventaris 9.922
+Vervoermiddelen 3.603
+14.565
+
+-23-
+
+woonsupport&ik B.V.
+
+2.5 Toelichting op de winst- en verliesrekening
+
+Overige bedrijfskosten [17]
+Overige personeelskosten
+Huisvestingskosten
+Verkoopkosten
+
+Autokosten
+
+Kantoorkosten
+
+Algemene kosten
+
+Overige personeelskosten
+Reiskosten woon-werk
+Onkostenvergoedingen
+Loopbaanbudget
+Kantinekosten
+
+Scholings- en opleidingskosten
+Wervingskosten
+
+Inhuur personeel
+
+Arbodienst
+
+Overige personeelskosten
+
+Huisvestingskosten
+
+Huur onroerend goed
+
+Gas, water en elektra
+Bewakingskosten
+
+Overige huisvestingskosten
+
+Doorberekende huur
+
+Verkoopkosten
+Sponsoring
+Representatiekosten
+Reis- en verblijfkosten
+Verteringen
+
+ADW
+
+ACCOUNTANTS
+
+-24-
+
+2022/2023
+
+€
+
+91.241
+71.178
+
+4.484
+55.218
+37.365
+86.396
+
+345.882
+
+7.668
+1.691
+5.227
+2.358
+5.312
+2.039
+47.336
+2.603
+17.007
+91.241
+
+51.800
+13.172
+
+1.030
+10.181
+76.183
+-5.005
+71.178
+
+500
+3.076
+564
+344
+4.484
+
++
+woonsupport&ik B.V. _ \DM
+
+ACCOUNTANTS
+
+2.5 Toelichting op de winst- en verliesrekening
+
+2022/2023
+€
+Autokosten
+Brandstoffen 15.129
+Reparatie en onderhoud 5.486
+Verzekering 7.425
+Motorrijtuigenbelasting 1.368
+Leasekosten 25.746
+Overige autokosten 64
+55.218
+Kantoorkosten
+Kantoorbenodigdheden 1.489
+Portokosten 351
+Telecommunicatie 14.137
+Internetkosten 977
+Kosten automatisering 16.973
+Kopieerkosten 1.930
+Contributies en abonnementen 1.508
+37.365
+Algemene kosten
+Accountantskosten 37.520
+Administratiekosten 332
+Advieskosten 14.016
+Kosten RvC 25.215
+Zakelijke verzekeringen 5.806
+Vergunningen 725
+Kwaliteitsbewakingskosten 2.782
+86.396
+Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten [18]
+Rente 425
+Rentelasten en soortgelijke kosten [19]
+Rente schuld rekening-courant 192
+Bankrente en -kosten 876
+Rente leningen 8.000
+9.068
+Belastingen [20]
+Vennootschapsbelasting 26.724
+
+OB
+
+woonsupport&ik B.V. \ D\ \
+
+ACCOUNTANTS
+
+2.5 Toelichting op de winst- en verliesrekening
+
+Personeelsleden
+Gedurende het jaar 2022/2023 waren gemiddeld 14,05 werknemers in dienst op basis van een fulltime
+
+dienstverband
+
+Bezoldiging topfunctionarissen (WNT)
+Verwijzing verantwoorde WNT gegevens naar topfunctionaris en gelieerde rechtsperso(o)n(en)
+Zie bijlage 1.
+
+RAL Vv
+
+BLJD Holding B.V. Holding Hamka B.V
+Bl Pros D. Hamstra
+
+BLJD Holding B.V
+
+LR. Bottema
+
+Raad van commissarissen
+
+LE roept Ad oonen
+
+W. van der Kelk (
+
+< IAS oa
+han 5
+
+26 -
+
+ADW
+
+ACCOUNTANTS
+
+3. BIJLAGEN
+
+3.1 Bijlage 1
+
+WNT-verantwoording 2023 woonsupport&ik B.V.
+De WNT is van toepassing op woonsupport&ik B.V. Het voor woonsupport&ik B.V. toepasselijke
+bezoldigingsmaximum is in 2023 € 124.000. Het betreft Klasse I op basis van de regeling
+
+bezoldigingsmaxima topfunctionarissen zorg en jeugdhulp, totaalscore 7 punten.
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Functiegegevens
+
+Directeur
+
+Directeur
+
+Directeur
+
+Aanvang en einde functievervulling in
+2023
+
+01-01 t/m 31-12
+
+01-01 t/m 31-12
+
+01-01 t/m 31-12
+
+Omvang dienstverband (als
+deeltijdfactor in fte)
+
+Dienstbetrekking? ja ja ja
+Bezoldiging
+Beloning plus belastbare 77.010 69.000 69.000
+onkostenvergoedingen
+Beloningen betaalbaar op termijn 0) 0 0
+Subtotaal 77.010 69.000 69.000
+Aen RPROOSTNDNE 124.000 124.000 124.000
+bezoldigingsmaximum
+=/- Onverschuldigd betaald en nog niet NVE RE En
+terugontvangen bedrag
+Bezoldiging 77.010 69.000 69.000
+Het bedrag van de overschrijding en de
+reden waarom de overschrijding al dan N.v.t. N.v.t. N.v.t. N.v.t. N.v.t. N.v.t.
+niet is toegestaan
+Toefichti 5
+
+oelichting ap de vordering wegens N.v.t. NE BE
+onverschuldigde betaling
+Gegevens 2022
+
+bedrage B D]ge » HO
+Functiegegevens Directeur Directeur Directeur
+
+Aanvang en einde functievervulling in
+2022
+
+03-06 t/m 31-12
+
+03-06 t/m 31-12
+
+03-06 t/m 31-12
+
+Omvang dienstverband (als | 1 1
+deeltijdfactor in fte)
+
+Dienstbetrekking? Ja Ja Ja
+Bezoldiging
+
+Beloning plus berasthare 22.670 20.000 20.000
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn 0 0 0
+Subtotaal 22.670 20.000 20.000
+
+
+individua toepasselijke 69.699 69.699 69.699
+bezoldigingsmaximum
+Bezoldiging 22.670 20.000 20.000
+
+ic. Toezichthoudende topfunctionarissen
+
+Gegevens 2023
+
+bedragen x € 1 A.J. Boonen LE. Toet W. van der Kolk
+
+Functiegegevens Voorzitter Raad van Lid Raad van Lid Raad van
+Commissarissen Commissarissen Commissarissen
+
+Aanvang en einde functievervulling in 01-01 t/m 31-12 01-01 t/m 31-12 01-01 t/m 31-12
+
+2023
+
+Bezoldiging
+
+Bezoldiging 9.329 6.277 6.250
+
+Indivicueel toepasselijke 18.600 12.400 12.400
+
+bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet LE. Nvt. NAE
+
+terugontvangen bedrag
+
+Bezoldiging 9.329 6.277 6.250
+
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan N.v.t. Nvt. Nvt. N.v.t. N.v.t. N.v.t.
+
+niet is toegestaan
+
+Toelichting op de vordering wegens N.v.t. N.v.t. N.v.t.
+
+onverschuldigde betaling
+Gegevens 2022
+
+bedragen x € 1 A.J. Boonen LE. Toet W. van der Kolk
+
+Functiegegevens Voorzitter Raad van Lid Raad van Lid Raad van
+
+Commissarissen Commissarissen Commissarissen
+Aanvang en einde functievervulling in 18-11 t/m 31-12 18-11 t/m 31-12 18-11 t/m 31-12
+2022
+Bezoldiging
+Bezoldiging Geen Geen Geen
+Individueel toepasselijke
+
+p.m p.m. p.m
+
+bezoldigingsmaximum
+
+3. Overige rapportageverplichtingen op grond van de WNT
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een
+dienstbetrekking die in 2023 een bezoldiging boven het individueel toepasselijke drempelbedrag
+hebben ontvangen.
