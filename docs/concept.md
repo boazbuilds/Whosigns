@@ -196,9 +196,18 @@ frontend op echte data → Fase 3 signalen v1 → Fase 4 verbreden (DUO + transp
   - een besluit over een eigen pagina per accountant. Die is journalistiek het meest
     waard (partnerroulatie is bij OOB's wettelijk verplicht en dus controleerbaar), maar
     hij maakt van een naam-bij-een-opdracht een profiel. Nog open.
-- **KVK:** geëxtraheerde feiten gebruiken, maar geen volledige gedeponeerde documenten
-  publiek herpubliceren; geen de-anonimisering van open datasets; leveringsvoorwaarden
-  checken vóór livegang van KvK-gebaseerde data.
+- **KVK:** mag als bron, sinds 21-8-2026 ("je mag alle bronnen gebruiken, ook kvk
+  als dat handig is en kan"). Daarmee vervalt de uitsluiting die tot dan gold; wat
+  blijft zijn de voorwaarden die nooit een kwestie van voorkeur waren:
+  geëxtraheerde feiten gebruiken maar geen volledige gedeponeerde documenten
+  publiek herpubliceren; geen de-anonimisering van open datasets;
+  leveringsvoorwaarden naleven; en de `bron`-eis onverkort. Praktisch:
+  deponeringen op naam zijn betaald (±€3,65 per jaarrekening, API-sleutel via
+  developers.kvk.nl) — er is dus een KVK-account en budget nodig voordat deze
+  bron echt iets oplevert. De weigerlijst voor register-doorverkopers
+  (drimble, opencorporates e.d.) blijft bestaan, maar op een andere grond: die
+  sites bevatten geen controleverklaringen, dus als víndplaats voor "wie tekent
+  waar" bewijzen ze niets — dat is een kwaliteitseis, geen bronverbod.
 - **Datakwaliteit:** imports idempotent; onzekere AI-extracties (< hoge confidence) naar een
   review-queue, niet stil in productie; nooit fictieve/demo-data mengen met echte data
   (aparte seed-set met duidelijke vlag).

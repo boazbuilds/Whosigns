@@ -36,10 +36,18 @@ from pathlib import Path
 
 KOPPEN = {"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"}
 
-# Bronnen die feitelijk een doorverkoop van het Handelsregister zijn. De KvK is
-# voor dit project uitgesloten (besluit van de opdrachtgever), en dan is een
-# afgeleide daarvan het net zo goed. Liever hier hard weigeren dan erop
-# vertrouwen dat iedereen die een seed-regel toevoegt eraan denkt.
+# Bronnen die feitelijk een doorverkoop van het Handelsregister zijn.
+#
+# De grond onder deze lijst is op 21-8-2026 veranderd, de lijst zelf niet. Tot
+# die dag was de KvK als bron uitgesloten (besluit van juli) en was een
+# afgeleide dat dus ook. Sindsdien mág de KvK (docs/beslissingen.md), maar deze
+# sites blijven geweigerd om een reden die er altijd al onder lag: het zijn
+# registerspiegels zonder controleverklaringen. Een vindplaats hoort te laten
+# zien wíé tekende, en dat staat hier nergens — een drimble-pagina als bewijs
+# voor een kantoorrelatie is een bewering zonder stuk. kvk.nl zelf blijft er ook
+# in: een besteld deponeringsstuk zit achter een orderstraat en is als openbare
+# vindplaats voor bezoekers niet na te lopen; als áánvoerkanaal kan de KvK wel,
+# maar dan met het gedeponeerde stuk zelf als bron-verwijzing, niet de orderpagina.
 #
 # De lijst staat los van de reguliere expressie zodat de test hem kan opvragen
 # in plaats van hem over te schrijven. Hij stond eerst als één patroon in de code
