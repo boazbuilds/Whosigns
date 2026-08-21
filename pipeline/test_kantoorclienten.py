@@ -23,10 +23,15 @@ from kantoorclienten import (  # noqa: E402
     noemt_kantoor,
 )
 
-# De afspraak met de opdrachtgever, hier uitgeschreven zodat de test hem bewaakt
-# en niet alleen herhaalt wat de code toevallig doet. Stond er ooit één versie
-# van deze lijst in de code, dan liep hij achter: op 20-8-2026 ontbraken de
-# laatste zes.
+# De afspraak, hier uitgeschreven zodat de test hem bewaakt en niet alleen
+# herhaalt wat de code toevallig doet. Stond er ooit één versie van deze lijst
+# in de code, dan liep hij achter: op 20-8-2026 ontbraken de laatste zes.
+#
+# Let op de grond: sinds 21-8-2026 is de KvK als brón toegestaan
+# (docs/beslissingen.md), maar deze gastheren blijven als víndplaats geweigerd
+# omdat registerspiegels geen controleverklaringen bevatten — wie hier een site
+# uit wil halen, moet dus aantonen dat die site ondertekende stukken toont, niet
+# dat de KvK weer mag.
 UITGESLOTEN_VOLGENS_AFSPRAAK = {
     "kvk.nl",
     "company.info",
