@@ -32,9 +32,30 @@ jobs:
   laden:
     name: OOB-cliëntenlijsten laden
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Was 30, en op 21-8-2026 werd de run op precies die grens afgebroken. De
+    # meting van ±30 minuten kwam uit de tijd van 19 verslagen; de seed-lijst
+    # staat inmiddels op 66 en elke run begon bovendien met een kale cache, dus
+    # alle pdf's opnieuw downloaden. Het uur is de reserve; de echte winst zit
+    # in de cache hieronder, die een herhaalde run in minuten laat eindigen.
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+
+      # De gedownloade verslagen bewaren tussen runs. haal_verslag() slaat een
+      # bestand dat er al staat over, dus met een gevulde cache verdwijnt het
+      # downloadwerk — het trage en fragiele deel — vrijwel helemaal.
+      #
+      # Bewust restore/save los van elkaar, met save op always(): de gewone
+      # cache-actie bewaart pas in de post-stap van een géslaagde job, en juist
+      # de afgebroken run — die het meeste downloadwerk heeft verzet — liet zo
+      # niets na. De sleutel hangt aan de seed-lijst; komt er een verslag bij,
+      # dan begint hij via restore-keys met alles wat er al was.
+      - uses: actions/cache/restore@v4
+        with:
+          path: pipeline/.cache
+          key: transparantie-${{ hashFiles('pipeline/seed/transparantieverslagen.csv') }}
+          restore-keys: |
+            transparantie-
 
       - uses: actions/setup-python@v5
         with:
@@ -63,6 +84,12 @@ jobs:
         run: |
           python3 pipeline/laad_transparantie.py \
             $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: pipeline/.cache
+          key: transparantie-${{ hashFiles('pipeline/seed/transparantieverslagen.csv') }}
 
       - name: Rapport bewaren
         if: always()

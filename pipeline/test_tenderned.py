@@ -15,7 +15,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 
+import tenderned  # noqa: E402
 from tenderned import (  # noqa: E402
+    _haal,
     berichten_zonder_winnaar,
     gunningen_uit,
     gunningen_uit_xml,
@@ -214,7 +216,87 @@ def main() -> int:
         f"gevonden: {berichten_zonder_winnaar([])}",
     )
 
-    totaal = 12
+    totaal = 16
+    # --- herkansingen bij een TED-storing -------------------------------------
+    # Op 21-8-2026 stierf "Alles verversen" op het allereerste verzoek met
+    # HTTP 429. De herkansing wordt hier nagespeeld met een neppe urlopen en een
+    # neppe slaap, zodat de test in milliseconden draait.
+    import io
+    import json as json_
+    import urllib.error
+
+    def antwoord_van(inhoud: dict):
+        class Antwoord(io.BytesIO):
+            def __enter__(self):  # with ... as antwoord
+                return self
+            def __exit__(self, *a):
+                return False
+        return Antwoord(json_.dumps(inhoud).encode("utf-8"))
+
+    def fout_met(code: int, koppen: dict | None = None):
+        import email.message
+        k = email.message.Message()
+        for naam, waarde in (koppen or {}).items():
+            k[naam] = waarde
+        return urllib.error.HTTPError("url", code, "x", k, io.BytesIO(b""))
+
+    echte_open, echte_slaap = tenderned._open, tenderned._slaap
+    try:
+        gewacht: list[int] = []
+        tenderned._slaap = gewacht.append
+
+        # twee keer 429, dan raak
+        stappen = [fout_met(429), fout_met(429), antwoord_van({"notices": []})]
+        def nep_open(*a, **k):
+            stap = stappen.pop(0)
+            if isinstance(stap, Exception):
+                raise stap
+            return stap
+        tenderned._open = nep_open
+        gewacht.clear()
+        uit = _haal({"query": "x"})
+        controleer(
+            "een 429 wordt herkanst en de derde poging wint",
+            uit == {"notices": []} and gewacht == [30, 60],
+            f"gewacht: {gewacht}",
+        )
+
+        # Retry-After van TED wint van de eigen reeks
+        stappen[:] = [fout_met(429, {"Retry-After": "45"}), antwoord_van({"notices": []})]
+        gewacht.clear()
+        _haal({"query": "x"})
+        controleer(
+            "de Retry-After-kop van TED wint van de eigen wachtreeks",
+            gewacht == [45],
+            f"gewacht: {gewacht}",
+        )
+
+        # een 404 is geen storing maar een fout verzoek: meteen knallen
+        stappen[:] = [fout_met(404)]
+        gewacht.clear()
+        meteen = False
+        try:
+            _haal({"query": "x"})
+        except urllib.error.HTTPError as f:
+            meteen = f.code == 404 and gewacht == []
+        controleer("een 404 wordt niet herkanst", meteen)
+
+        # blijft het 429 regenen, dan valt hij na de hele reeks alsnog om
+        stappen[:] = [fout_met(429)] * 9
+        gewacht.clear()
+        opgegeven = False
+        try:
+            _haal({"query": "x"})
+        except urllib.error.HTTPError as f:
+            opgegeven = f.code == 429 and len(gewacht) == 4
+        controleer(
+            "na de hele wachtreeks geeft hij op met de oorspronkelijke fout",
+            opgegeven,
+            f"gewacht: {gewacht}",
+        )
+    finally:
+        tenderned._open, tenderned._slaap = echte_open, echte_slaap
+
     print(f"\n{totaal - fouten}/{totaal} goed")
     return 1 if fouten else 0
 

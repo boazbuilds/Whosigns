@@ -50,9 +50,15 @@ Twee valkuilen die gemeten zijn en waar de code op is ingericht:
 
 import json
 import re
+import time
+import urllib.error
 import urllib.request
 
 API = "https://api.ted.europa.eu/v3/notices/search"
+
+# Injectiepunten voor de tests: echte functies in productie, neppe in de test.
+_open = urllib.request.urlopen
+_slaap = time.sleep
 
 # De hele familie boekhoud-, audit- en fiscale diensten. Bewust de oudercode:
 # zie valkuil 1 in de moduletekst.
@@ -150,15 +156,47 @@ def zoek(
     return berichten
 
 
+# Hoe vaak en hoe lang we het opnieuw proberen als TED even niet wil. De reeks
+# telt op tot ruim vier minuten; het budget van de workflow is twee uur, dus
+# geduld is hier gratis en opgeven kost een hele run. Op 21-8-2026 stierf
+# "Alles verversen" op het éérste verzoek met HTTP 429 — één keer wachten had
+# volstaan.
+_POGINGEN_WACHT = (30, 60, 90, 120)
+
+
 def _haal(lichaam: dict) -> dict:
+    """Eén POST naar TED, met herkansingen voor 429 en serverfouten.
+
+    Alleen fouten die vanzelf overgaan worden herkanst: 429 (te veel verzoeken)
+    en 5xx (storing bij TED), plus netwerkfouten zonder statuscode. Een 4xx
+    anders dan 429 betekent dat het verzoek zelf niet deugt — dat wordt door
+    wachten niet beter en hoort meteen te knallen. Bij 429 wint de
+    Retry-After-kop van TED het van onze eigen reeks, als hij er is.
+    """
     verzoek = urllib.request.Request(
         API,
         data=json.dumps(lichaam).encode("utf-8"),
         headers={"Content-Type": "application/json", "Accept": "application/json"},
         method="POST",
     )
-    with urllib.request.urlopen(verzoek, timeout=180) as antwoord:
-        return json.loads(antwoord.read().decode("utf-8"))
+    for poging, wacht in enumerate(_POGINGEN_WACHT + (None,)):
+        try:
+            with _open(verzoek, timeout=180) as antwoord:
+                return json.loads(antwoord.read().decode("utf-8"))
+        except urllib.error.HTTPError as fout:
+            if wacht is None or not (fout.code == 429 or fout.code >= 500):
+                raise
+            na_kop = fout.headers.get("Retry-After") if fout.headers else None
+            if na_kop and str(na_kop).strip().isdigit():
+                wacht = max(wacht, int(na_kop))
+            print(f"  TED gaf {fout.code}; poging {poging + 2} over {wacht}s", flush=True)
+        except urllib.error.URLError as fout:
+            if wacht is None:
+                raise
+            print(f"  TED onbereikbaar ({fout.reason}); poging {poging + 2} over {wacht}s",
+                  flush=True)
+        _slaap(wacht)
+    raise AssertionError("onbereikbaar: de lus geeft terug of gooit")
 
 
 def gunningen_uit(berichten: list[dict]) -> list[dict]:
