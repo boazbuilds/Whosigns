@@ -331,6 +331,28 @@ main {
   border-color: var(--rood);
 }
 
+/* De enige losse knop van de site: "Opnieuw proberen" op de foutpagina.
+   Zelfde toon als de zoekknop, maar op papier in plaats van op de donkere
+   balk. */
+.knop {
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--inkt);
+  border-radius: 0;
+  background: transparent;
+  color: var(--inkt);
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.knop:hover {
+  background: var(--rood);
+  border-color: var(--rood);
+  color: var(--papier);
+}
+
 /* ------------------------------------------------------------ kruimels */
 
 .kruimels {

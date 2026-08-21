@@ -203,11 +203,20 @@ def main() -> int:
 
     # Wat er al staat, per boekjaar — zelfde hervat-regel als de directe route.
     al_geladen: dict[int, set] = {}
+    # Dezelfde rijen, maar rijker: wie het is, welk opdrachttype, en of er al
+    # een ondertekenaar staat. Nodig omdat "overslaan" niet meer "niets doen"
+    # is — zie de bijvulstap in de lus.
+    bestaand_per_kvk: dict[tuple, list] = {}
     for boekjaar in boekjaren:
         bestaand = db.selecteer_alles(
             "opdrachten",
-            f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}",
+            "select=organisatie_id,type_opdracht,tekenend_accountant,"
+            f"organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}",
         )
+        for r in bestaand:
+            kvk_bestaand = (r.get("organisaties") or {}).get("kvk_nummer")
+            if kvk_bestaand:
+                bestaand_per_kvk.setdefault((boekjaar, kvk_bestaand), []).append(r)
         al_geladen[boekjaar] = set() if argumenten.herlaad else (
             {(r.get("organisaties") or {}).get("kvk_nummer") for r in bestaand}
             - {None}
@@ -216,6 +225,7 @@ def main() -> int:
 
     geschreven = 0
     overgeslagen = 0
+    namen_bijgevuld = 0
     zonder_kantoor: dict[str, int] = {}
     opgeruimd: set[tuple] = set()
     bewaard: dict[tuple, dict] = {}
@@ -225,6 +235,30 @@ def main() -> int:
         boekjaar = int(rij["boekjaar"])
         kvk = rij["kvk"].strip()
         if kvk in al_geladen[boekjaar]:
+            # Overslaan, maar niet helemaal. De kolom tekenend_accountant kwam
+            # er ná vijf geoogste boekjaren; de rapporten dragen de naam, maar
+            # deze tak sloeg elke bestaande rij over en dus kwam hij nergens
+            # aan: na de eerste run stonden er 6 namen in de database terwijl
+            # de rapporten er 484 hadden. Alleen bijvullen wat leeg is, op
+            # exact hetzelfde organisatie-boekjaar-opdrachttype — nooit een
+            # bestaande naam overschrijven, en nooit een naam op een ander
+            # opdrachttype plakken dan waar de verklaring bij hoorde.
+            naam = (rij.get("tekenend_accountant") or "").strip()
+            if naam:
+                for bestaande in bestaand_per_kvk.get((boekjaar, kvk), []):
+                    if (
+                        bestaande["type_opdracht"] == rij["type_opdracht"]
+                        and not bestaande.get("tekenend_accountant")
+                    ):
+                        db.bijwerken(
+                            "opdrachten",
+                            f"organisatie_id=eq.{bestaande['organisatie_id']}"
+                            f"&boekjaar=eq.{boekjaar}"
+                            f"&type_opdracht=eq.{rij['type_opdracht']}",
+                            {"tekenend_accountant": naam},
+                        )
+                        namen_bijgevuld += 1
+                        bestaande["tekenend_accountant"] = naam
             overgeslagen += 1
             continue
         kantoor_id = kantoor_id_per_sleutel.get(rij["kantoor_sleutel"])
@@ -272,7 +306,9 @@ def main() -> int:
             bewaard[(org_rij["id"], boekjaar)] = {}
         geschreven += 1
 
-    print(f"\n{geschreven} opdrachten geschreven, {overgeslagen} al aanwezig")
+    print(f"\n{geschreven} opdrachten geschreven, {overgeslagen} al aanwezig"
+          + (f", {namen_bijgevuld} ondertekenaars bijgevuld op bestaande rijen"
+             if namen_bijgevuld else ""))
     if hersteld_velden:
         print(
             f"  {hersteld_velden} datasetvelden bewaard over het herladen heen "
