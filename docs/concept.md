@@ -201,10 +201,14 @@ frontend op echte data → Fase 3 signalen v1 → Fase 4 verbreden (DUO + transp
   blijft zijn de voorwaarden die nooit een kwestie van voorkeur waren:
   geëxtraheerde feiten gebruiken maar geen volledige gedeponeerde documenten
   publiek herpubliceren; geen de-anonimisering van open datasets;
-  leveringsvoorwaarden naleven; en de `bron`-eis onverkort. Praktisch:
-  deponeringen op naam zijn betaald (±€3,65 per jaarrekening, API-sleutel via
-  developers.kvk.nl) — er is dus een KVK-account en budget nodig voordat deze
-  bron echt iets oplevert. De weigerlijst voor register-doorverkopers
+  leveringsvoorwaarden naleven; en de `bron`-eis onverkort. Maar óók besloten,
+  dezelfde dag: **er wordt niet betaald voor KvK-data.** Deponeringen op naam
+  kosten ±€3,65 per jaarrekening en dat is afgewezen; de gratis KvK-routes
+  leveren niets wat dit project nodig heeft (de open dataset jaarrekeningen is
+  geanonimiseerd, de zoek-API geeft alleen basisgegevens die we al uit de
+  bronnen zelf hebben). Netto blijft de KvK dus toegestaan maar ongebruikt, en
+  blijft de commerciële mid-market buiten beeld — de dekkingsdisclaimer op de
+  site dekt dat. De weigerlijst voor register-doorverkopers
   (drimble, opencorporates e.d.) blijft bestaan, maar op een andere grond: die
   sites bevatten geen controleverklaringen, dus als víndplaats voor "wie tekent
   waar" bewijzen ze niets — dat is een kwaliteitseis, geen bronverbod.
