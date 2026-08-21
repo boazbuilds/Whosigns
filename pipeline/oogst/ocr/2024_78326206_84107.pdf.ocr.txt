@@ -1,0 +1,923 @@
+# whosigns-ocr v1 grootte=12895362 dpi=300 paginas=20
+JAARREKENING
+
+SRA ®
+
+Eli Care Thuiszorg B.V. te Veghel
+
+1 BALANS PER 31 DECEMBER 2024
+
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen
+Inventaris
+Vervoermiddelen
+
+Financiële vaste activa
+Overige vorderingen
+
+Vlottende activa
+
+Vorderingen
+Handelsdebiteuren
+
+Overige vorderingen en overlopende
+
+activa
+
+Liquide middelen
+
+(1)
+
+(2)
+
+6)
+
+(4)
+
+31 december 2024
+
+€ €
+
+6.386
+2.930
+31.094
+
+40.410
+
+61.384
+39.365
+53.863
+
+93.228
+
+372
+
+195.394
+
+31 december 2023
+
+€
+
+12.180
+2.624
+38.069
+
+79.498
+1.206
+
+€
+
+52.873
+
+33.113
+
+80.704
+856
+
+167.546
+
+sra @
+
+
+PASSIVA
+
+Eigen vermogen
+
+Geplaatst kapitaal
+Overige reserves
+
+Langlopende schulden
+
+Kortlopende schulden
+Aflossingsverplichtingen langlopende
+
+schulden
+
+Schulden aan leveranciers en
+handelskredieten
+
+Schulden aan groepsmaatschappijen
+Belastingen en premies sociale
+
+verzekeringen
+
+Overige schulden en overlopende
+
+passiva
+
+65)
+
+(6)
+(7)
+
+31 december 2024
+
+31 december 2023
+
+€
+
+50
+-237.878
+
+4.422
+
+10.090
+81.568
+
+231.536
+
+85.267
+
+€ € €
+50
+-209.879
+-237.828 -209.829
+20.339 24.761
+4.101
+33.090
+48.875
+201.829
+64.719
+412.883 352.614
+195.394 167.546
+RA EN
+
+
+Eli Care Thuiszorg B.V. te Veghel
+
+2 WINST-EN-VERLIESREKENING OVER 2024
+
+2024 2023
+€ € € €
+
+Netto-omzet (8) 644.782 622.546
+Kosten
+Kosten van uitbesteed werk en andere
+externe kosten (9) 36.980 44.079
+Personeelskosten (10) 517.171 518.772
+Afschrijvingen (11) 12.463 17.595
+Bijzondere waardeverminderingen
+van vlottende activa (12) - -32.015
+Huisvestingskosten (13) 33.104 40.892
+Kantoorkosten (14) 15.858 25.224
+Autokosten (15) 13.890 16.527
+Verkoopkosten (16) 3.375 2.104
+Algemene kosten (17) 53.944 22.457
+
+686.785 655.635
+Bedrijfsresultaat -42.003 -33.089
+Financiële baten en lasten (18) -14.267 -230
+Resultaat voor belastingen -56.270 -33.319
+Belastingen (19) 28.271 28.513
+Resultaat na belastingen -27.999 -4.806
+
+| A8
+
+„10 -
+
+
+Eli Care Thuiszorg B.V. te Veghel
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van Eli Care Thuiszorg B.V., statutair gevestigd te Veghel, en haar groepsmaatschappijen
+bestaan voornamelijk uit: het leveren van zorgdiensten waaronder (thuis) zorg, verpleging en ondersteuning,
+dagbesteding, begeleiding (groep), huishoudelijke hulp, persoonlijke verzorging en inzet van
+persoonsgebonden budget.
+
+Continuïteit
+
+Het eigen vermogen van Eli Care Thuiszorg B.V. bedraagt per 31 december 2024 € -237.828. De financiering
+hiervan vindt geheel plaats met kortlopende/langlopende schulden. De continuïteit van de vennootschap hangt
+in hoge mate af van de bereidheid van de financiers (Belastingdienst) deze financiering te continueren. Op dit
+moment zijn hierover met de Belastingdienst betalingsregelingen afgesproken. Hierdoor bestaat er een
+onzekerheid van materieel belang op grond waarvan gerede twijfel zou kunnen bestaan over de continuiteit
+van het geheel van de werkzaamheden van Eli Care Thuiszorg B.V.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+Eli Care Thuiszorg B.V. is feitelijk en statutair gevestigd op Twijnderweg 57 te OSS en is ingeschreven bij het
+handelsregister onder nummer 78324823.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van Eli
+Care Thuiszorg B.V. zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de
+jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste inzicht
+noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de bijbehorende veronderstellingen
+opgenomen bij de toelichting op de desbetreffende jaarrekeningposten.
+
+Vrijstelling voor de opstelling van het kasstroomoverzicht
+Op grond van artikel 2:396 BW wordt geen kasstroomoverzicht opgesteld.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling openbare jaarverantwoording WMG
+(RojW), de Richtlijnen voor de Jaarverslaggeving RJk C3 ‘kleine zorgaanbieders’, Titel 9 BW2 en de
+bepalingen van en krachtens de Wet normering bezoldiging topfunctionarissen publieke en semipublieke
+
+sector (WNT).
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de _
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties
+wordt verwezen naar de toelichting. ‚
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van
+
+de jaarrekening bekend zijn geworden.
+
+sits
+
+Eli Care Thuiszorg B.V. te Veghel
+
+Leasing
+Financiële leasing
+
+De vennootschap leaset een deel van het machinepark; hierbij heeft de vennootschap grotendeels de voor- en
+nadelen verbonden aan de eigendom van deze activa. Deze activa worden geactiveerd in de balans bij
+aanvang van het leasecontract tegen de reële waarde van het actief of de lagere contante waarde van de
+minimale leasetermijnen. De te betalen leasetermijnen worden op annuiïtaire wijze verdeeld in een aflossings-
+en een rentecomponent. De leaseverplichtingen worden exclusief de rentecomponent opgenomen onder de
+langlopende schulden.
+
+De rentecomponent wordt gedurende de looptijd van het contract verantwoord in de winst-en-verliesrekening
+met een vast rentepercentage over de gemiddelde resterende aflossingscomponent. De relevante activa
+worden afgeschreven over de resterende gebruiksduur of, indien korter, de looptijd van het contract.
+
+WNT
+
+Voor de uitvoering van de Wet normering bezoldiging top functionarissen in de (semi) publieke sector (WNT)
+dient de vennootschap zich te houden aan de Beleidsregel toepassing WNT en deze als normenkader bij het
+opmaken van deze jaarrekening te hanteren.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Vorderingen worden nominale waarde. Voorzieningen wegens
+oninbaarheid worden in mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Langlopende schulden
+
+Langlopende schulden worden gewaardeerd tegen nominale waarde. Transactiekosten die direct zijn toe te
+rekenen aan de verwerving van de langlopende schulden worden in de waardering bij eerste verwerking
+opgenomen.
+
+Het verschil tussen de bepaalde boekwaarde en de uiteindelijke aflossingswaarde wordt op basis van de
+effectieve rente gedurende de geschatte looptijd van de langlopende schulden in de winst-en-verliesrekening
+
+als interestlast verwerkt.
+
+SRA ®)
+
+-412-
+
+Eli Care Thuiszorg B.V. te Veghel
+
+Kortlopende schulden À
+
+Kortlopende schulden worden gewaardeerd tegen nominale waarde. Daarbij dient een zakelijke rente in
+aanmerking te worden genomen. '
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij
+zijn gerealiseerd.
+
+Opbrengstverantwoording
+
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit overeenkomsten met klanten, waarbij het gaat om verkopen, leveringen
+en/of verrichte diensten voor eigen rekening en risico In de overeenkomsten worden de individuele
+prestatieverplichtingen geïdentificeerd. Vervolgens wordt de transactieprijs vastgesteld en deze wordt
+toegerekend aan individuele prestatieverplichting. Hierbij wordt rekening gehouden met kortingen en dergelijke
+en van over de omzet geheven belastingen.
+
+Omzet zorgprestaties
+
+Netto-omzet uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag
+op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk is, de
+mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald en de reeds
+gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening te voltooien
+op betrouwbare wijze kunnen worden bepaald. Indien het resultaat van een bepaalde opdracht tot
+dienstverlening niet op betrouwbare wijze kan worden bepaald, worden de opbrengsten verwerkt tot het bedrag
+van de kosten van de dienstverlening die worden gedekt door de opbrengsten. De met de opbrengsten
+samenhangende kosten worden toegerekend aan de periode waarin de netto-omzet is verantwoord.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde prestaties,
+gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten
+
+diensten.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Kosten van uitbesteed werk en andere externe kosten
+
+De kosten van uitbesteed werk en andere externe kosten omvatten de kosten die door derden in rekening zijn
+gebracht in het kader van de uitbesteding of ondersteuning van de werkzaamheden. Deze kosten bestaan uit
+
+de inkoopprijs en eventuele bijkomende kosten.
+
+srA®
+
+-13-
+
+Eli Care Thuiszorg B.V. te Veghel
+
+Personeelsbeloningen
+
+Algemeen
+
+Periodiek betaalbare beloningen
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de winst-en-
+verliesrekening.
+
+Pensioenen
+
+De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het
+pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat.
+Per 1 januari 2015 gelden nieuwe regels voor pensioenfondsen. Daarbij behoort ook een nieuwe berekening
+van de dekkingsgraad. De ‘nieuwe’ dekkingsgraad is het gemiddelde van de laatste twaalf dekkingsgraden.
+Door een gemiddelde te gebruiken, zal de dekkingsgraad nu minder sterk schommelen. In december 2023
+bedroeg de dekkingsgraad 110,5%. Het vereiste niveau van de dekkingsgraad is 124%. Het pensioenfonds
+verwacht volgens het herstelplan binnen 8 jaar hieraan te kunnen voldoen en voorziet geen noodzaak voor de
+aangesloten instellingen om extra stortingen te verrichten of om bijzondere premieverhogingen door te voeren.
+
+Eli Care Thuiszorg B.V. heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een
+tekort bij het pensioenfonds, anders dan het effect van hogere toekomstige premies. Eli Care Thuiszorg B.V.
+heeft daarom alleen de verschuldigde premies tot en met het einde van het boekjaar in de jaarrekening
+verantwoord.
+
+Afschrijvingen
+
+Materiële vaste activa worden vanaf het moment van gereedheid voor ingebruikneming afgeschreven over de
+verwachte toekomstige gebruiksduur van het actief. Over terreinen en vastgoedbeleggingen wordt niet
+afgeschreven.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van
+de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de
+
+verantwoorde transactiekosten op de ontvangen leningen.
+
+-14-
+
+Eli Care Thuiszorg B.V. te Veghel
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren
+(voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde winstbestanddelen en na
+bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met wijzigingen die optreden in de
+latente belastingvorderingen en latente belastingschulden uit hoofde van wijzigingen in het te hanteren
+belastingtarief.
+
+-15-
+
+Eli Care Thuiszorg B.V. te Veghel
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2024
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Materiële vaste activa
+
+Bedrijfs-
+gebouwen
+en - Vervoer-
+terreinen Inventaris middelen Totaal
+€ € € €
+Boekwaarde per 1 januari 2024
+Aanschaffingswaarde 18.804 8.637 86.748 114.189
+Cumulatieve afschrijvingen en waardeverminderingen -8.657 -3.980 -48.679 -61.316
+10.147 4.657 38.069 52.873
+Mutaties
+Afschrijvingen -3.761 =1.727 -6.975 -12.463
+Boekwaarde per 31 december 2024
+Aanschaffingswaarde 18.804 8.637 86.748 114.189
+Cumulatieve afschrijvingen en waardeverminderingen -12.418 -5.707 -59.654 -73.779
+
+6.386 2.930 31.094 40.410
+
+Afschrijvingspercentages
+%
+
+Bedrijfsgebouwen en -terreinen 20
+Inventaris 20
+Vervoermiddelen 20
+
+Onder de vervoersmiddelen zijn vervoersmiddelen opgenomen welke zijn geleasd middels finacial lease.
+
+2. Financiële vaste activa
+
+31-12-2024 31-12-2023
+
+€ €
+Overige vorderingen
+Waarborgsommen 4.600 4.600
+Latente belastingvorderingen 56.784 28.513
+61.384 33.113
+
+Ter grootte van de compensabele verliezen van de vennootschap is ultimo 2024 een latente belastingvordering
+gevormd tegen het tarief van 19%.
+
+SRA @
+
+-16-
+
+Eli Care Thuiszorg B.V. te Veghel
+
+VLOTTENDE ACTIVA
+
+3. Vorderingen
+
+Handelsdebiteuren
+Debiteuren
+
+Overige vorderingen en overlopende activa
+Overlopende activa
+
+Overlopende activa
+
+Nog te factureren omzet
+Rekening-courant directie
+
+4. Liquide middelen
+ABN AMRO Bank N.V.
+
+31-12-2024 31-12-2023
+€ Ld
+
+39.365 79.498
+53.863 1.206
+53.863 -
+
+8 1.206
+
+53.863 1.206
+
+372 856
+
+Eri
+
+Eli Care Thuiszorg B.V. te Veghel
+
+PASSIVA
+
+5. Eigen vermogen
+
+31-12-2024 31-12-2023
+
+€ €
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 5.000 gewone aandelen nominaal € 0,01 50 50
+
+2024 2023
+
+€ €
+Overige reserves
+Stand per 1 januari -209.879 -205.073
+Resultaatbestemming boekjaar -27.999 -4,806
+Stand per 31 december -237.878 -209.879
+
+31-12-2024 31-12-2023
+
+€ €
+6. Langlopende schuiden
+Schulden aan kredietinstellingen 20.339 24.761
+Financieringen
+Financial lease KIA T-009-GD 10.023 12.228
+Financial lease KIA T-916-RH 10.316 12.533
+
+20.339 24.761
+2024 2023
+
+€ €
+Financial lease KIA T-009-GD
+Stand per 1 januari 14.276 -
+Opgenomen gelden - 15.236
+Aflossing -2.048 -960
+Stand per 31 december 12.228 14.276
+Aflossingsverplichting komend boekjaar -2.205 -2.048
+Langlopend deel per 31 december 10.023 12.228
+
+Deze financial leaseverplichting ad € 15.236 is verstrekt ter financiering van de KIA met kenteken T-009-GD.
+Aflossing vindt plaats over een periode van 5 jaar. De maandelijkse aflossing bedraagt € 266,77 waaronder
+rente en aflsosing. Als slottermijn zal er € 3.500 betaald worden.
+
+218:
+
+Eli Care Thuiszorg B.V. te Veghel
+
+Financial lease KIA T-916-RH
+
+Stand per 1 januari
+Opgenomen gelden
+Aflossing
+
+Stand per 31 december
+Aflossingsverplichting komend boekjaar
+
+Langlopend deel per 31 december
+
+2024 2023
+€ €
+
+14.586 -
+
+= 15.236
+-2.053 -650
+12.533 14.586
+-2.217 -2.053
+10.316 12.533
+
+Deze financial leaseverplichting ad € 15.236 is verstrekt ter financiering van de KIA met kenteken T-916-RH.
+Aflossing vindt plaats over een periode van 5 jaar. De maandelijkse aflossing bedraagt € 258,84 waaronder
+
+rente en aflsosing. Als slottermijn zal er € 3.500 betaald worden.
+
+7. Kortlopende schulden
+
+Aflossingsverplichtingen langlopende schulden
+
+Kortlopend deel financial leaseverplichtingen
+
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Schulden aan groepsmaatschappijen
+Eli Care Holding B.V.
+
+Over de schulden wordt 2% rente berekend.
+
+Belastingen en premies sociale verzekeringen
+
+Loonheffing
+Pensioenen
+
+31-12-2024 31-12-2023
+
+€ €
+
+4,422 4.101
+
+10.090 33.090
+
+81.568 48.875
+
+180.252 155.781
+
+51.284 46.048
+
+231.536 201.829
+
+SRA ®
+
+„19
+
+Eli Care Thuiszorg B.V. te Veghel
+
+Overige schulden en overlopende passiva
+
+Overlopende passiva
+
+Overlopende passiva
+
+Vakantiegeld
+
+Vakantiedagen
+Accountantskosten
+
+Nettoloon
+
+Nog te betalen Huur
+
+Nog te betalen vergoeding RVT
+Reservering eenmalige uitkering
+Betaalafspraak Stadshuisplein
+
+31-12-2024 31-12-2023
+€ €
+85.267 64.719
+15.164 15.510
+18.202 11.908
+5.000 5.000
+36.456 31.301
+2.085 -
+3.400 :
+3.960 :
+1.000 1.000
+85.267 64.719
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en
+zorgprestaties kunnen correcties noodzakelijk zijn op de gedeclareerde produ
+materiële nacontroles zijn vooralsnog onzeker en daarom zijn er hiervoor gee
+
+de balans.
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+gemeenten op de gedeclareerde
+ctie. De effecten van eventuele
+n verplichtingen opgenomen in
+
+De vennootschap is meerjarige financiële verplichtingen aangegaan terzake van huur van bedrijfsruimte
+
+(€ 25.020 per jaar).
+
+AG)
+
+-20-
+
+Eli Care Thuiszorg B.V. te Veghel
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2024
+
+8. Netto-omzet
+De netto-omzet is in 2024 ten opzichte van 2023 met 3,6% gestegen.
+
+8. Netto-omzet
+Omzet
+
+Omzet CZ
+Omzet Menzis
+
+Omzet SVB
+Omzet VGZ
+
+9. Kosten van uitbesteed werk en andere externe kosten
+
+Kosten uitbesteed werk en andere externe kosten
+
+Kosten uitbesteed werk en andere externe kosten
+
+inhuur personeel
+Kosten boodschappen bewoners
+Overige kosten bewoners
+
+10. Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+Beheervergoeding
+Overige personeelskosten
+
+Lonen en salarissen
+
+Bruto lonen
+Extra uitkeringen
+Mutatie vakantiegeld en -dagenverplichting
+
+Ontvangen subsidies
+
+Sociale lasten
+
+Premies sociale verzekeringswetten
+Overige sociale lasten
+
+2024 2023
+
+€ €
+644.782 622.546
+16.748 11.076
+5.713 6.572
+608.858 604.898
+13.463 -
+644.782 622.546
+36.980 44.079
+26.461 29.687
+9.548 11.364
+971 3.028
+36.980 44.079
+320.444 315.024
+60.593 54.858
+21.974 20.157
+100.000 100.000
+14.160 28.733
+517.171 518.772
+244.331 271.074
+29.332 16.917
+46.781 31.974
+320.444 319.965
+es -4.941
+320.444 315.024
+60.212 54.858
+381 =
+60.593 54.858
+
+SRA
+
+-21-
+
+Eli Care Thuiszorg B.V. te Veghel
+
+2024 2023
+
+Pensioenlasten € €
+Pensioenlasten 21.974 20.157
+Beheervergoeding |
+Managementvergoeding 100.000 100.000
+Overige personeelskosten
+Reis- en verblijfkosten 4.596 9.463
+Bedrijfskleding - 152
+Opleidingskosten 2.968 4.121
+Overige personeelskosten 153 14.997
+Kosten WKR 1.145 =
+Kosten arbodienst 1.898 =
+Raad van Toezicht 3.400 =
+
+14.160 28.733
+
+Personeelsleden
+
+Bij de vennootschap waren in 2024 gemiddeld 9.4 personeelsleden werkzaam op basis van een fulltime
+dienstverband (2023: 9.8)
+
+11. Afschrijvingen
+Materiële vaste activa 12.463 17.595
+
+Afschrijvingen materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen 3.761 1.727
+Inventaris 1.727 3.761
+Vervoermiddelen 6.975 12.107
+
+12.463 17.595
+
+12. Bijzondere waardeverminderingen van vlottende activa
+
+Bijzondere waardevermindering - -32.015
+Overige bedrijfskosten
+13. Huisvestingskosten
+Huur onroerende zaak 25.014 31.000
+Gas water licht 4.649 5.788
+Onderhoud onroerende zaak 189 464
+Onroerendezaakbelasting 263 892
+Schoonmaakkosten container 23 10
+Bewakingskosten 1.128 1.292
+Overige huisvestingskosten 1.838 1.446
+33.104 40.892
+
+SRA 85
+
+ie
+
+Eli Care Thuiszorg B.V. te Veghel
+
+14. Kantoorkosten
+
+Kantoorbehoeften
+Automatiseringskosten
+Telefoon
+
+Porti
+
+Contributies en abonnementen
+
+15. Autokosten
+
+Brandstoffen
+Onderhoud
+Motorrijtuigenbelasting
+Verkeersboetes
+Overige autokosten
+
+16. Verkoopkosten
+
+Reclame- en advertentiekosten
+Representatiekosten
+Relatiegeschenken
+
+Overige verkoopkosten
+
+17. Algemene kosten
+
+Accountantskosten
+Loonadministratiekosten
+Advieskosten
+Bedrijfsschadeverzekering
+boetes belastingen
+Incassokosten
+
+Overige algemene kosten
+
+18. Financiële baten en lasten
+Rentelasten en soortgelijke kosten
+
+Rentelasten en soortgelijke kosten
+
+Bankrente en -kosten
+Belastingdienst
+
+Rente rekening-courant Eli Care Holding B.V.
+
+Rente leaseverplichting KIA T-009-GD
+Rente leaseverplichting KIA T-916-RH
+
+19. Belastingen
+Mutatie voorziening belastingen
+
+2024 2023
+€ €
+2.878 7.346
+7.084 10.365
+3.190 3.157
+182 215
+2.524 4.141
+15.858 25.224
+7472 3.653
+1.678 4.368
+4.521 7.641
+175 o1
+44 774
+13.890 16.527
+1.300 725
+677 425
+1.148 196
+250 758
+3.375 2.104
+26.159 8.467
+5.620 5
+3.901 797
+13.921 13.096
+e 50
+3.889 -
+454 47
+53.944 22.457
+-14.267 -230
+-691 606
+-11.125 E
+-244 190
+-1.154 -641
+-1.053 -385
+-14.267 -230
+28.271 28.513
+SRA (EN
+
+23
+
+Eli Care Thuiszorg B.V. te Veghel
+
+6 OVERIGE TOELICHTING
+
+Ondertekening van de jaarrekening
+
+Vaststelling Jaarrekening
+De jaarrekening is aldus opgemaakt en vastgesteld door het bestuur c.q. de Algemene Vergadering.
+
+S. Kocylmaz
+
+SRA @
+
+-24-
