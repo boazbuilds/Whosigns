@@ -109,10 +109,20 @@ check(
 class NepDb:
     """Genoeg Supabase om main() te laten lopen, en hij onthoudt de volgorde."""
 
-    def __init__(self, bestaande_opdracht: dict | None):
+    def __init__(self, bestaande_opdracht: dict | None, rij_per_boekjaar: dict | None = None):
         self.bestaande_opdracht = bestaande_opdracht
+        # Wat de per-boekjaar-vraag teruggeeft. De lader leest daar sinds de
+        # bijvulstap ook organisatie_id, type_opdracht en tekenend_accountant
+        # uit, dus de neppe rij moet die velden dragen.
+        self.rij_per_boekjaar = rij_per_boekjaar or {
+            "organisatie_id": 42,
+            "type_opdracht": "vrijwillige_controle",
+            "tekenend_accountant": None,
+            "organisaties": {"kvk_nummer": "12345678"},
+        }
         self.stappen: list[str] = []
         self.gepatcht: dict = {}
+        self.bijgewerkt: list[tuple] = []
         self.ingevoegd: list[dict] = []
         self.verwijderd: list[str] = []
 
@@ -121,7 +131,7 @@ class NepDb:
             return [{"id": 7, "sleutel": "13000015"}]
         if tabel == "opdrachten" and "organisaties(kvk_nummer)" in query:
             # "wat staat er al" per boekjaar
-            return [{"organisaties": {"kvk_nummer": "12345678"}}]
+            return [dict(self.rij_per_boekjaar)]
         if tabel == "opdrachten":
             self.stappen.append("bewaren")
             return [dict(self.bestaande_opdracht)] if self.bestaande_opdracht else []
@@ -144,11 +154,17 @@ class NepDb:
     def bijwerken(self, tabel, filter, velden):
         self.stappen.append("terugzetten")
         self.gepatcht.update(velden)
+        self.bijgewerkt.append((filter, dict(velden)))
 
 
-def draai(herlaad: bool, bestaande_opdracht: dict | None):
+def draai(
+    herlaad: bool,
+    bestaande_opdracht: dict | None,
+    rapportnaam: str = "",
+    rij_per_boekjaar: dict | None = None,
+):
     """Schrijft een rapport van één regel en laat main() erop los."""
-    db = NepDb(bestaande_opdracht)
+    db = NepDb(bestaande_opdracht, rij_per_boekjaar)
     echte_supabase = laad_zorg_rapport.Supabase
     echte_argv = sys.argv
     laad_zorg_rapport.Supabase = lambda *a, **k: db
@@ -163,6 +179,7 @@ def draai(herlaad: bool, bestaande_opdracht: dict | None):
                         "12345678", "Stichting Voorbeeldzorg", "Utrecht", "2023",
                         "Deloitte Accountants B.V.", "13000015", "13000015",
                         "vrijwillige_controle", "beperking", "materieel belang", "",
+                        rapportnaam,
                     ]
                 )
             sys.argv = ["laad_zorg_rapport.py", str(pad)] + (
@@ -247,6 +264,67 @@ check(
 check(
     "zonder --herlaad wordt de bestaande rij overgeslagen, niet overschreven",
     zonder.ingevoegd == [],
+)
+
+# --- de bijvulstap: een naam op een bestaande rij ------------------------------
+# De kolom tekenend_accountant kwam er ná vijf geoogste boekjaren. Zonder deze
+# stap sloeg de lader elke bestaande rij helemaal over en kwam de naam nergens
+# aan: na de eerste echte run stonden er 6 namen in de database, terwijl de
+# rapporten er 484 droegen.
+bijvul = draai(herlaad=False, bestaande_opdracht=None, rapportnaam="J. Jansen RA")
+check(
+    "een lege bestaande rij krijgt de naam uit het rapport",
+    bijvul.bijgewerkt
+    and bijvul.bijgewerkt[0][1] == {"tekenend_accountant": "J. Jansen RA"},
+)
+check(
+    "de patch raakt alleen dat ene organisatie-boekjaar-opdrachttype",
+    bijvul.bijgewerkt
+    and bijvul.bijgewerkt[0][0]
+    == "organisatie_id=eq.42&boekjaar=eq.2023&type_opdracht=eq.vrijwillige_controle",
+)
+check(
+    "er wordt verder niets verwijderd of ingevoegd",
+    "verwijderen" not in bijvul.stappen and bijvul.ingevoegd == [],
+)
+
+al_naam = draai(
+    herlaad=False,
+    bestaande_opdracht=None,
+    rapportnaam="J. Jansen RA",
+    rij_per_boekjaar={
+        "organisatie_id": 42,
+        "type_opdracht": "vrijwillige_controle",
+        "tekenend_accountant": "P. de Vries RA",
+        "organisaties": {"kvk_nummer": "12345678"},
+    },
+)
+check(
+    "een bestaande naam wordt nooit overschreven",
+    al_naam.bijgewerkt == [],
+)
+
+ander_type = draai(
+    herlaad=False,
+    bestaande_opdracht=None,
+    rapportnaam="J. Jansen RA",
+    rij_per_boekjaar={
+        "organisatie_id": 42,
+        "type_opdracht": "wnt_verantwoording",
+        "tekenend_accountant": None,
+        "organisaties": {"kvk_nummer": "12345678"},
+    },
+)
+check(
+    "een ander opdrachttype krijgt de naam niet -- de verklaring hoorde daar "
+    "niet bij",
+    ander_type.bijgewerkt == [],
+)
+
+zonder_naam = draai(herlaad=False, bestaande_opdracht=None, rapportnaam="")
+check(
+    "een rapport zonder naam patcht niets",
+    zonder_naam.bijgewerkt == [],
 )
 
 print(f"{goed}/{goed + fout} goed")
