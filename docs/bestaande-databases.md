@@ -142,6 +142,22 @@ Nuttig op drie manieren: het bevestigt de orde van grootte in `docs/concept.md`
 zetten ("wij hebben X van de ±20.000"), en de PE-trend is een verhaallijn die niemand
 anders per kantoor zichtbaar maakt.
 
+## 3b. DUO Open Onderwijsdata — accountantshonoraria per schoolbestuur (vondst 21-8-2026)
+
+Het OCW-dashboard "Jaarrekeninggegevens" (informatieproducten.duo.rijkscloud.nl)
+heeft een eigen rubriek **"Accountantskosten (accountantshonoraria)"** en zegt:
+"alle gebruikte gegevens zijn beschikbaar als open data op de website van DUO."
+Jaarrekeningdata per bestuur is er vanaf verslagjaar 2020/2021 (XBRL
+Onderwijsportaal), po/vo/mbo/hbo/wo — duizenden controleplichtige besturen.
+
+Wat dit zou opleveren: een zésde sector (onderwijs) met gestructureerde
+honoraria per bestuur per boekjaar. Wat er níét in zit: de naam van het
+kantoor — het dashboard toont geen kantoren, dus die moet net als bij de zorg
+uit de gedeponeerde jaarverslagen zelf komen (openbaar, eigen websites of
+XBRL-portaal). Nog uit te zoeken vóór er gebouwd wordt: het exacte
+machineleesbare bestand of de API achter het dashboard (de vindbare downloads
+op duo.nl zijn pdf-samenvattingen per sector, 2020-2024).
+
 ## 4. Commercieel: Audit Analytics Europe (en Orbis, Company.info)
 
 **Audit Analytics Europe** (Ideagen) is het dichtst bij "onze database": opdrachten en

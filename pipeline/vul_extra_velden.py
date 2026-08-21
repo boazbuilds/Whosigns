@@ -16,8 +16,11 @@ seconden, niet in uren.
 
 Draaien:
     python3 pipeline/vul_extra_velden.py --boekjaar 2023
+    python3 pipeline/vul_extra_velden.py --boekjaren 2023,2022
 
-Het boekjaar is dat van de dataset. Subsector en rechtsvorm gaan naar de
+Eén boekjaar per dataset; `--boekjaren` loopt er meerdere af en gaat door waar
+één jaargang faalt — de dataset van het ene jaar mag de honoraria van het
+andere niet gijzelen. Het boekjaar is dat van de dataset. Subsector en rechtsvorm gaan naar de
 organisatie en gelden voor alle jaren; de jaarcijfers (omzet, honoraria,
 wisselvlag) worden alleen aan de opdracht van dát boekjaar gehangen.
 
@@ -64,12 +67,40 @@ def _waarde(rij: dict, veld: str):
     return ruw
 
 
+def gekozen_boekjaren(argumenten) -> list[int]:
+    """De boekjaren uit de argumenten, in opgegeven volgorde, zonder dubbelen.
+
+    `--boekjaren "2023,2022"` wint van `--boekjaar`; dat laatste blijft bestaan
+    omdat zorgdata.yml het meegeeft. Witruimte en lege stukken ("2023,,2022 ")
+    worden vergeven: dit wordt vanuit een workflow-invoerveld getypt.
+    """
+    if argumenten.boekjaren:
+        uit: list[int] = []
+        for stuk in argumenten.boekjaren.split(","):
+            stuk = stuk.strip()
+            if stuk and int(stuk) not in uit:
+                uit.append(int(stuk))
+        return uit
+    return [argumenten.boekjaar]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--boekjaar", type=int, default=2023)
+    parser.add_argument("--boekjaren", type=str, default="")
     argumenten = parser.parse_args()
-    boekjaar = argumenten.boekjaar
+    mislukt = 0
+    for boekjaar in gekozen_boekjaren(argumenten):
+        try:
+            code = vul_boekjaar(boekjaar)
+        except Exception as fout:  # noqa: BLE001 — één jaargang mag falen
+            print(f"boekjaar {boekjaar}: overgeslagen na een fout: {fout}", flush=True)
+            code = 1
+        mislukt += 1 if code else 0
+    return 1 if mislukt else 0
 
+
+def vul_boekjaar(boekjaar: int) -> int:
     rijen = digimv_dataset.doelpopulatie_uit_cache(boekjaar, CACHE)
     print(f"{len(rijen)} organisaties in de doelpopulatie van {boekjaar}\n", flush=True)
 

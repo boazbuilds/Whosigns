@@ -1,0 +1,67 @@
+name: Honoraria bijvullen
+
+# Vult de dataset-velden (honoraria, wisselvlag, omzet, subsector, rechtsvorm)
+# bij op opdrachten die al in de database staan — voor élk boekjaar waarvan een
+# jaardataset bestaat, niet alleen het lijstjaar van de zorgroute.
+#
+# Waarom dit een eigen knop is. "Zorgdata laden" draait vul_extra_velden alleen
+# voor zijn lijstjaar, en dat is 2023; de honoraria van 2022 (leesbaar sinds de
+# koprijreparatie van 21-8-2026) kwamen daardoor nergens binnen. Dit werk kost
+# seconden — het is een handvol Supabase-verzoeken, geen archief en geen pdf's —
+# dus het kan zorgeloos in "Alles verversen" meedraaien.
+#
+# 2024 staat bewust nog niet in de standaardlijst: die export bestaat uit vier
+# delen en de kolominspectie ervan is een open punt in adapters/digimv.md.
+on:
+  workflow_dispatch:
+    inputs:
+      boekjaren:
+        description: "Datasetjaren, komma's ertussen"
+        required: false
+        default: "2023,2022"
+  workflow_call:
+    inputs:
+      boekjaren:
+        type: string
+        required: false
+        default: "2023,2022"
+
+jobs:
+  bijvullen:
+    name: Datasetvelden bijvullen
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # De jaardatasets bewaren tussen runs: de .ods van één jaargang is 16 MB
+      # en verandert nooit meer. Save op always(), zodat ook een mislukte run
+      # zijn download nalaat. Zelfde patroon als transparantiedata.yml.
+      - uses: actions/cache/restore@v4
+        with:
+          path: pipeline/.cache
+          key: jaardatasets-v1
+          restore-keys: |
+            jaardatasets-
+
+      - name: Datasetvelden bijvullen
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          BOEKJAREN: ${{ inputs.boekjaren }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/vul_extra_velden.py --boekjaren "$BOEKJAREN"
+
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: pipeline/.cache
+          key: jaardatasets-v1

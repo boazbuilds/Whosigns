@@ -949,3 +949,36 @@ export async function accountantsVanKantoor(kantoorId: number): Promise<
     }))
     .sort((a, b) => b.aantal - a.aantal || a.naam.localeCompare(b.naam));
 }
+
+// ------------------------------------------------------------------ honoraria
+
+export type HonorariumRij = {
+  boekjaar: number;
+  type_opdracht: string;
+  honorarium_controle_eur: number | null;
+  honorarium_overig_eur: number | null;
+  honorarium_fiscaal_eur: number | null;
+  honorarium_nietcontrole_eur: number | null;
+  organisaties: Organisatie | null;
+  kantoren: Kantoor | null;
+};
+
+/**
+ * Alle opdrachten met minstens één verantwoord honorarium, hoogste
+ * controlehonorarium eerst.
+ *
+ * Voor de honorariapagina. De filter staat in de query en niet in TypeScript:
+ * de tabel heeft tienduizenden rijen en maar een handvol met een bedrag, dus
+ * alles ophalen om hier te filteren zou de trage weg zijn die op een dag
+ * stilletjes de limiet raakt.
+ */
+export async function opdrachtenMetHonoraria(): Promise<HonorariumRij[]> {
+  return haalAlles<HonorariumRij>(
+    "opdrachten?select=boekjaar,type_opdracht,honorarium_controle_eur," +
+      "honorarium_overig_eur,honorarium_fiscaal_eur,honorarium_nietcontrole_eur," +
+      `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
+      "&or=(honorarium_controle_eur.not.is.null,honorarium_overig_eur.not.is.null," +
+      "honorarium_fiscaal_eur.not.is.null,honorarium_nietcontrole_eur.not.is.null)" +
+      "&order=honorarium_controle_eur.desc.nullslast,boekjaar.desc",
+  );
+}
