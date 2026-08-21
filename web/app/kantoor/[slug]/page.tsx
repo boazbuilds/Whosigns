@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  accountantsVanKantoor,
   gunningenVanKantoor,
   kantoorOpAfm,
   kantoorOpId,
@@ -20,6 +21,7 @@ import {
   aantalOpdrachten,
   datumNL,
   hoofdletter,
+  accountantPad,
   jarenReeks,
   kantoorPad,
   nl,
@@ -146,7 +148,8 @@ export default async function Kantoorpagina({ params }: Params) {
   }
   if (!kantoor) notFound();
 
-  const [opdrachten, mutaties, boekjaar, ranglijst, aanbestedingen] = await Promise.all([
+  const [opdrachten, mutaties, boekjaar, ranglijst, aanbestedingen, tekenaars] =
+    await Promise.all([
     opdrachtenVanKantoor(kantoor.id),
     // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
     // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
@@ -155,6 +158,7 @@ export default async function Kantoorpagina({ params }: Params) {
     nieuwsteBoekjaar(),
     kantoorRanglijst().catch(() => []),
     gunningenVanKantoor(kantoor.id),
+    accountantsVanKantoor(kantoor.id),
   ]);
 
   const clienten = clientenVanKantoor(opdrachten);
@@ -288,6 +292,51 @@ export default async function Kantoorpagina({ params }: Params) {
           </p>
         ) : null}
       </div>
+
+      {/* Wie tekent er namens dit kantoor. Een verklaring wordt niet door een
+          kantoor ondertekend maar door een mens, en bij een klein kantoor is dat
+          er vaak één — dan is een "wisseling van kantoor" op de
+          organisatiepagina in feite geen wisseling van accountant. */}
+      {tekenaars.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Wie tekent er namens dit kantoor</h2>
+            <Link href="/accountants">Alle accountants →</Link>
+          </div>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Accountant</th>
+                  <th className="getal">Ondertekeningen</th>
+                  <th>Boekjaren</th>
+                </tr>
+              </thead>
+              <tbody>
+                {tekenaars.slice(0, 25).map((rij) => (
+                  <tr key={rij.sleutel}>
+                    <td>
+                      <Link href={accountantPad(rij.sleutel)}>{rij.naam}</Link>
+                    </td>
+                    <td className="getal">
+                      <strong>{rij.aantal}</strong>
+                    </td>
+                    <td className="klein zacht">{jarenReeks(rij.jaren)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="klein zacht" style={{ marginBottom: 0 }}>
+            {tekenaars.length > 25
+              ? `Getoond: de 25 met de meeste ondertekeningen van ${tekenaars.length}. `
+              : ""}
+            Alleen verklaringen waarvan de ondertekening machinaal leesbaar was;
+            dat is lang niet altijd zo, dus deze aantallen zijn een ondergrens en
+            geen ranglijst binnen het kantoor.
+          </p>
+        </section>
+      ) : null}
 
       <div className="kolommen-breed-smal">
         <section className="kaart">

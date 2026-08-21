@@ -54,7 +54,11 @@ _NAAM = re.compile(
     r"(?:(?:was\s+)?getekend(?:\s+door)?|w\.?\s?g\.?|validsigned(?:\s+door)?"
     r"|origineel\s+getekend(?:\s+door)?)?[:\s]*"
     r"(?P<aanhef>(?:drs|mr|ir|ing|prof|dr|mw|dhr)\.?\s+){0,2}"
-    r"(?P<initialen>(?:[A-Z]\.\s*){1,5})"
+    # Initialen, met minstens één punt. De punt is de rem: zonder die eis is elk
+    # hoofdletterwoord een kandidaat-initiaal en wordt "De Vries RA" gelezen als
+    # initiaal "D" plus achternaam "Vries". Twee vormen zijn toegestaan, want OCR
+    # plakt de punten van een reeks vaak samen: "A.B." en "AB.".
+    r"(?P<initialen>(?:[A-Z]\.\s*){1,5}|(?:[A-Z]{2,4}\.\s*))"
     r"(?P<tussen>(?:(?:van|de|den|der|ten|ter|op|in|het|te|'t)\s+){0,3})"
     r"(?P<achternaam>[A-Z][A-Za-zÀ-ÿ'’-]{1,30}"
     r"(?:\s+[A-Z][A-Za-zÀ-ÿ'’-]{1,30}){0,2})"
