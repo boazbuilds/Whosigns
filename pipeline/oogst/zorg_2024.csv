@@ -50,3 +50,92 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 41005173,Stichting Jeugdhulp Friesland,Leeuwarden,2024,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,ja,
 62271628,Coöperatie MSB Zuyderland U.A.,Heerlen,2024,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
 75380854,Medisch Specialistisch Bedrijf Martini,Groningen,2024,Van der Meer Accountants B.V.,13000361,13000361,wettelijke_controle,goedkeurend,,,I. Brakke RA
+76290522,Huisartsenposten Schievliet B.V.,Schiedam,2024,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,wettelijke_controle,goedkeurend,,,drs. G.A. Kuipers RA
+62249533,Coöperatief Medisch Specialisten Rijnstate U.A.,Arnhem,2024,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,wettelijke_controle,oordeelonthouding,,,drs. G.A. Kuipers RA
+17279214,Stichting Combinatie Jeugdzorg,Eindhoven,2024,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,
+37159559,Gemeentelijke Gezondheidsdienst Hollands Noorden,Alkmaar,2024,Flynth Audit B.V.,13000519,13000519,wettelijke_controle,goedkeurend,,,
+81754272,Modern Care B.V.,Enschede,2024,CAS ZorgAccountants B.V.,overig_cas_zorgaccountants,,productieverantwoording,goedkeurend,,,S.R. Snel AA
+86953869,M. Bardoel Bureau voor Pedagogiek B.V.,Velp,2024,Stolwijk Kelderman Accountants Fiscalisten,13000458,13000458,wnt_verantwoording,beperking,wnt,,drs. G.J. Bouwhuis RA
+72900970,Incluzio Randstad B.V.,Schiedam,2024,EY Accountants B.V.,13020186,13020186,wettelijke_controle,beperking,wnt,,
+74286919,Nieuwe Start Woonzorg B.V.,Eindhoven,2024,Schipper Accountants B.V.,13000415,13000415,wnt_verantwoording,oordeelonthouding,,,N. Kampman MSc RA
+62124250,Coöperatie Medisch Specialistisch Bedrijf Domstad U.A.,Utrecht,2024,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,wettelijke_controle,goedkeurend,,,
+83048359,Lassus Tandartsen Groep B.V.,Amsterdam,2024,Vallei Accountants Audit B.V.,13000754,13000754,wettelijke_controle,goedkeurend,,,
+75026554,Mondzorg Holding Nederland Groep B.V.,Leeuwarden,2024,Baker Tilly (Netherlands) B.V.,13000741,13000741,wettelijke_controle,goedkeurend,,,
+08096100,Coöperatieve Centrale HuisartsenPost Almelo en Omstreken U.A.,Almelo,2024,Moore MKW Audit B.V.,13000173,13000173,wettelijke_controle,goedkeurend,,,
+88335046,Stichting Acuras,Oss,2024,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,beperking,inhoudelijk,,
+62188887,Medisch Specialistisch Bedrijf Drachten,Drachten,2024,Van der Meer Accountants B.V.,13000361,13000361,wettelijke_controle,goedkeurend,,,
+41022643,Stichting Voorzieningen voor Verstandelijk en Meervoudig Gehandicapten Zwolle e.o.,Zwolle,2024,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,wettelijke_controle,goedkeurend,,,drs. G.A. Kuipers RA
+41062188,Mutsaersstichting,Venlo,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
+69073678,I Am One B.V.,Eindhoven,2024,Denote Assurance B.V.,13020082,13020082,productieverantwoording,goedkeurend,,,W.P.H. Feller RA
+77284909,XieJe.care B.V.,Gemert,2024,Denote Assurance B.V.,13020082,13020082,productieverantwoording,goedkeurend,,,drs. N.E. de Vries RA
+51861429,Ambulante Begeleiding Het Spectrum B.V.,Amersfoort,2024,Joanknecht Assurance B.V.,13000010,13000010,controle_onbepaald,goedkeurend,,,
+06084000,Max Ernst B.V.,Arnhem,2024,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,beperking,wnt,,drs. M.E. Bitter RA
+82877238,Praktijk Juno,Enschede,2024,Coöperatie ConFirm U.A.,13020039,13020039,productieverantwoording,goedkeurend,,,R. Hulshof RA
+62344706,MSB Zuid-Hollandse Eilanden,Dirksland,2024,De ZorgAccountants B.V.,overig_de_zorgaccountants,,vrijwillige_controle,beperking,inhoudelijk,,
+06063669,Jan Arends B.V.,Zwolle,2024,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,beperking,wnt,,drs. M.E. Bitter RA
+63629216,Gemeenschappelijke regeling Gemeentelijke Gezondheidsdienst en Veilig Thuis Haaglanden,'s-Gravenhage,2024,Gemeentelijke Accountantsorganisatie Den Haag,overig_gao_den_haag,,vrijwillige_controle,goedkeurend,,,
+08195873,SamenTwente,Enschede,2024,Eshuis Registeraccountants B.V.,13000144,13000144,wettelijke_controle,goedkeurend,,,
+34370893,GGD Zaanstreek-Waterland,Zaandam,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
+34377971,Veiligheidsregio Kennemerland,Haarlem,2024,Publieke Sector Accountants B.V.,13020074,13020074,wettelijke_controle,goedkeurend,,,
+94175446,AutosNomos B.V.,Leeuwarden,2024,Bentacera Registeraccountants B.V.,13000492,13000492,wnt_verantwoording,goedkeurend,,,drs. T.P. Lubbinge RA
+74187597,Gezinshuis Sefanja,Leerdam,2024,Mulderij & Partners Audit en Assurance B.V.,13020027,13020027,productieverantwoording,goedkeurend,,,
+91289203,Medisch Specialisten Coöperatief HagaZiekenhuis U.A.,'s-Gravenhage,2024,Audit 4you B.V.,13000796,13000796,wettelijke_controle,goedkeurend,,,
+69233934,Stichting Veilig Thuis Rotterdam Rijnmond,Rotterdam,2024,Visser & Visser Audit en Assurance B.V.,13000491,13000491,wettelijke_controle,goedkeurend,,,S.A. Visser MSc RA
+32170514,GGD Flevoland,Lelystad,2024,ETL Assurance & Overheidsaccountants B.V.,13000643,13000643,wettelijke_controle,goedkeurend,,,
+59454903,"Stichting Zeeuwse Gronden, samenleving en participatie",Terneuzen,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,beperking,wnt,,
+41155034,Hadoks Acute zorg B.V.,'s-Gravenhage,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
+54380073,Alexander Monro Ziekenhuis B.V.,Bilthoven,2024,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,wettelijke_controle,goedkeurend,,,
+86851144,Bijster Care B.V.,Nuenen,2024,Rubicon Registeraccountants B.V.,13000098,13000098,productieverantwoording,goedkeurend,,,
+64900150,Maatschap Euthopia,Breda,2024,Witlox VCS audit B.V.,13000578,13000578,productieverantwoording,goedkeurend,,,M. Kilinçarslan RA
+24393895,Diabeter Nederland B.V.,Rotterdam,2024,Moore DRV Audit B.V.,13020116,13020116,wettelijke_controle,goedkeurend,,,
+52260208,Stichting Beatrice Care,'s-Gravenhage,2024,AuditNL West B.V.,13020051,13020051,productieverantwoording,goedkeurend,,,drs. D.J.M. van Buijtene RA
+63702037,Familysupporters B.V.,Amsterdam,2024,Witlox VCS audit B.V.,13000578,13000578,wettelijke_controle,goedkeurend,,ja,
+53704533,Stichting Amaryllis,Leeuwarden,2024,Omnyacc In Control B.V.,13000194,13000194,wettelijke_controle,goedkeurend,,,
+08089010,Stichting Atlant Zorggroep,Beekbergen,2024,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,drs. M.E. Bitter RA
+08149444,Stichting Tactus Verslavingszorg,Deventer,2024,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,drs. R.H.W.H. Leensen RA
+41192015,Stichting Versa Welzijn,Bussum,2024,Van Ree Accountants B.V.,13000546,13000546,wettelijke_controle,goedkeurend,,,drs. L.M.W. van der Vliet RA
+41172086,"stichting Huize Winterdijk, uitgaande van de Gereformeerde Gemeenten in Nederland",Gouda,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
+41102327,Stichting St. Elisabeth,Roosendaal,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
+08210265,Orthopedisch Centrum Oost-Nederland B.V.,Hengelo,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
+14091172,Zuyderland Huishoudelijke Hulp B.V.,Sittard,2024,PricewaterhouseCoopers Accountants N.V.,13000291,13000291,wettelijke_controle,goedkeurend,,,
+08094960,Stichting De Twentse Zorgcentra,Enschede,2024,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,M. Zoetman-Kiers RA
+30170001,Stichting Reinaerde,Utrecht,2024,PricewaterhouseCoopers Accountants N.V.,13000291,13000291,wettelijke_controle,goedkeurend,,,drs. L.R. Streefkerk RA
+41049838,Stichting Klimmendaal,Arnhem,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,,,,
+41072650,Stichting Adelante Zorg,Hoensbroek,2024,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,drs. M.J. Poelen RA
+41076594,"Adelante kinderrevalidatie, speciaal onderwijs & wonen",Valkenburg,2024,EY Accountants B.V.,13020186,13020186,wettelijke_controle,beperking,wnt,,
+27336321,Stichting Haagse Wijk- en Woonzorg,'s-Gravenhage,2024,KPMG Accountants N.V.,13000121,13000121,wettelijke_controle,goedkeurend,,,M.J. Kuikman-Wakker RA
+90875079,Oog voor Thuis Jeugd- en Gezinsteams Alphen aan den Rijn B.V.,Alphen aan den Rijn,2024,PricewaterhouseCoopers Accountants N.V.,13000291,13000291,wettelijke_controle,beperking,wnt,,
+08153432,Naviva Kraamzorg B.V.,Deventer,2024,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
+41053245,Stichting Markenheem,Doetinchem,2024,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,wettelijke_controle,goedkeurend,,,
+41050222,Stichting Regionale Instelling voor Beschermd Wonen Arnhem en Veluwe-Vallei (RIBW Arnhem en Veluwe-Vallei),Arnhem,2024,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,
+65858190,Incluzio Hollands Kroon B.V.,Schiedam,2024,EY Accountants B.V.,13020186,13020186,wettelijke_controle,beperking,wnt,,
+62174533,Medisch Specialistisch Bedrijf HMC,'s-Gravenhage,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
+01110183,KraamZus B.V.,Joure,2024,Stichting Audit Only,13000655,13000655,wettelijke_controle,beperking,wnt,,
+01124396,De Kraamvogel Nederland B.V.,Zoetermeer,2024,Stichting Audit Only,13000655,13000655,wettelijke_controle,beperking,wnt,,
+41067977,Stichting Bureau Jeugdzorg Limburg,Roermond,2024,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
+68527551,HalteZ B.V.,Wilp,2024,CAS ZorgAccountants B.V.,overig_cas_zorgaccountants,,productieverantwoording,goedkeurend,,,S.R. Snel AA
+09063038,Nieuwland Opleidingen B.V.,Wageningen,2024,Stolwijk Kelderman Accountants Fiscalisten,13000458,13000458,wnt_verantwoording,goedkeurend,,,G.A.G. Stolwijk RA
+30161681,Stichting Altrecht,Zeist,2024,KPMG Accountants N.V.,13000121,13000121,wettelijke_controle,goedkeurend,,,M.J. Kuikman-Wakker RA
+08207606,Stichting Het Dagelijks Bestaan,Zutphen,2024,Brouwers Audit B.V.,13000344,13000344,wnt_verantwoording,goedkeurend,,,K.J.M. Grote Ganseij AA
+09212724,GGD Gelderland-Zuid,Nijmegen,2024,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
+41241831,STICHTING WOONZORGGROEP SAMEN,Schagen,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
+41000413,Stichting Verzorgingshuis Talma Apeldoorn,Apeldoorn,2024,Stolwijk Kelderman Accountants Fiscalisten,13000458,13000458,wettelijke_controle,goedkeurend,,,drs. G.J. Bouwhuis RA
+68213239,Huisartsenzorg Zaanstreek Waterland B.V.,Wormer,2024,Omnyacc In Control B.V.,13000194,13000194,wettelijke_controle,goedkeurend,,,
+41208459,Medisch Centrum Jan van Goyen B.V.,Amsterdam,2024,Van Velzen Audit B.V.,13020127,13020127,wettelijke_controle,beperking,,,M. Zandbergen MSc RA
+30250329,BIGA Groep B.V.,Zeist,2024,Schuiteman Audit & Assurance B.V.,13000471,13000471,wettelijke_controle,goedkeurend,,,
+39084589,Stichting Zorggroep Oude en Nieuwe Land,Steenwijk,2024,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,P.G.J. Brouwer RA
+62665618,Acibadem International Medical Center B.V.,Amsterdam,2024,Elevate Audit Partners B.V.,13020183,13020183,wettelijke_controle,goedkeurend,,,
+51712148,Veiligheidsregio Rotterdam-Rijnmond,Rotterdam,2024,Publiek Belang Accountants B.V.,13020071,13020071,wettelijke_controle,goedkeurend,,,
+60492295,Aha! Ambulante hulp & advies V.o.F.,Hengelo,2024,Metis Audit B.V.,13020131,13020131,productieverantwoording,goedkeurend,,,
+67375472,Dotinga State Zorg B.V.,Marsum,2024,Smids en Schakel Accountants en Adviseurs B.V.,13000493,13000493,wnt_verantwoording,goedkeurend,,ja,
+82505675,Agogisch Buiten Centrum (ABC) Bemmel B.V.,Bemmel,2024,Kreston Van Herwijnen Accountants B.V.,13000490,13000490,wnt_verantwoording,goedkeurend,,,O.L.J. Walravens MSc RA
+87769182,Gezinshuis Anders Thuis,Laren,2024,Tamek Accountants B.V.,13000120,13000120,productieverantwoording,goedkeurend,,,
+32133314,Zorgapotheken Flevoland B.V.,Almere,2024,PricewaterhouseCoopers Accountants N.V.,13000291,13000291,wettelijke_controle,beperking,wnt,,
+23088794,Stichting Palliatieve Zorg te Dirksland,Middelharnis,2024,Visser & Visser Audit en Assurance B.V.,13000491,13000491,wettelijke_controle,goedkeurend,,,
+69708452,Schakenbosch Zorg voor Jeugdigen B.V.,Leidschendam,2024,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
+08162978,Stichting Het MaatHuis,Almelo,2024,Eshuis Accountants en Belastingadviseurs B.V.,overig_eshuis_accountants,,vrijwillige_controle,goedkeurend,,,
+22057719,Stichting Wonen en Psychiatrie,Terneuzen,2024,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,beperking,wnt,,
+63709597,Stichting Acibadem International Medical Center,Amsterdam,2024,Elevate Audit Partners B.V.,13020183,13020183,wettelijke_controle,goedkeurend,,,
+41231194,Stichting WilgaerdenLeekerweideGroep,Wognum,2024,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
+34268813,Stichting Participe Amstelland,Amstelveen,2024,Moore DRV Audit B.V.,13020116,13020116,wettelijke_controle,goedkeurend,,,drs. M.A. Ligthart-Overweel RA
+41107082,Stichting Thuiszorg West-Brabant,Roosendaal,2024,Baker Tilly (Netherlands) B.V.,13000741,13000741,wettelijke_controle,goedkeurend,,,

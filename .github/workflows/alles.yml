@@ -36,8 +36,16 @@ jobs:
     uses: ./.github/workflows/zorgoogst.yml
     secrets: inherit
 
-  gunningen:
+  # Kost seconden en repareert wat "Zorgdata laden" laat liggen: de
+  # datasetvelden van elk jaar met een jaardataset, niet alleen het lijstjaar.
+  honoraria:
     needs: [migraties, zorgoogst]
+    if: ${{ needs.migraties.result == 'success' && !cancelled() }}
+    uses: ./.github/workflows/honoraria.yml
+    secrets: inherit
+
+  gunningen:
+    needs: [migraties, honoraria]
     if: ${{ needs.migraties.result == 'success' && !cancelled() }}
     uses: ./.github/workflows/gunningen.yml
     secrets: inherit

@@ -139,6 +139,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   <Link href="/bevindingen">Oordelen</Link>
                 </li>
                 <li>
+                  <Link href="/honoraria">Honoraria</Link>
+                </li>
+                <li>
                   <Link href="/organisaties">Organisaties</Link>
                 </li>
               </ul>
@@ -191,6 +194,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <Link href="/accountants">Accountants</Link>
               <Link href="/wisselingen">Wisselingen</Link>
               <Link href="/bevindingen">Oordelen</Link>
+              <Link href="/honoraria">Honoraria</Link>
               <Link href="/organisaties">Organisaties</Link>
             </nav>
           </div>
