@@ -153,10 +153,41 @@ Onderwijsportaal), po/vo/mbo/hbo/wo — duizenden controleplichtige besturen.
 Wat dit zou opleveren: een zésde sector (onderwijs) met gestructureerde
 honoraria per bestuur per boekjaar. Wat er níét in zit: de naam van het
 kantoor — het dashboard toont geen kantoren, dus die moet net als bij de zorg
-uit de gedeponeerde jaarverslagen zelf komen (openbaar, eigen websites of
-XBRL-portaal). Nog uit te zoeken vóór er gebouwd wordt: het exacte
-machineleesbare bestand of de API achter het dashboard (de vindbare downloads
-op duo.nl zijn pdf-samenvattingen per sector, 2020-2024).
+uit de gedeponeerde jaarverslagen zelf komen.
+
+**Nagetrokken op 21-8-2026, en het machineleesbare bestand is er níét.** De
+"directe toegang tot de datasets" in het dashboard linkt naar
+`duo.nl/open_onderwijsdata/onderwijs-algemeen/financiele-overzichten/`, en
+alles daar is pdf: gegevensboeken per sector en "financiële gegevens per
+bestuur" (po 25 MB t/m wo 2,3 MB, jaren 2020-2024). Die per-bestuur-boeken zijn
+gedownload en doorzocht: nette tabellen per bevoegd gezag (balans, staat van
+baten en lasten, kengetallen) maar **nul treffers op "accountant"** — de
+honorariarubriek van het dashboard zit dus alleen in de Shiny-app zelf. Het
+CKAN-portaal (onderwijsdata.duo.nl, 56 datasets) heeft evenmin iets met
+jaarrekeningen.
+
+De route die overblijft is de route die DUO zelf aanwijst: een
+informatieverzoek aan **informatieproducten@duo.nl** om de
+accountantshonoraria-tabel per bestuur als csv — de data bestáát, het dashboard
+rekent er live mee. Dat verzoek is aan de opdrachtgever; het conceptmailtje is
+aangeleverd. Tot die tijd blijft onderwijs een kandidaat, geen bron.
+
+## 3c. Pensioenfondsen — DNB-register plus eigen jaarverslagen (kandidaat, 21-8-2026)
+
+DNB publiceert een openbaar register van alle actieve pensioenfondsen
+(ondernemings-, bedrijfstak-, beroeps- en algemene fondsen; orde van 150-170) en
+als open data een jaartabel "Gegevens individuele pensioenfondsen" (premies,
+kosten, deelnemers, dekkingsgraad — xlsx via data.overheid.nl). Wie tekent staat
+daar níét in; wél in de jaarverslagen die elk fonds als fondsdocument op de
+eigen site publiceert, inclusief controleverklaring — verplicht gecertificeerd
+door accountant én actuaris.
+
+De route zou dezelfde zijn als bij de transparantieverslagen: een seed-CSV met
+per fonds de jaarverslag-URL, downloaden, verklaring en ondertekenaar eruit
+lezen. Handwerk zit in het eenmalig vullen van die seed (150+ URL's); daarna is
+het de bestaande extractie. Een compacte sector met vrijwel volledige dekking en
+grote namen (ABP, PFZW, PMT) — journalistiek interessant omdat de fondsenmarkt
+door een handvol kantoren wordt bediend.
 
 ## 4. Commercieel: Audit Analytics Europe (en Orbis, Company.info)
 
