@@ -107,9 +107,9 @@ jobs:
     # Ruim binnen de zes uur die GitHub een job gunt; de rest doet een tweede run.
     timeout-minutes: 330
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -175,7 +175,7 @@ jobs:
 
       - name: Rapporten bewaren
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: resultaten-stichtingen
           path: pipeline/.cache/resultaat_stichtingen_*.csv

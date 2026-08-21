@@ -39,7 +39,7 @@ jobs:
     # in de cache hieronder, die een herhaalde run in minuten laat eindigen.
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # De gedownloade verslagen bewaren tussen runs. haal_verslag() slaat een
       # bestand dat er al staat over, dus met een gevulde cache verdwijnt het
@@ -50,14 +50,14 @@ jobs:
       # de afgebroken run — die het meeste downloadwerk heeft verzet — liet zo
       # niets na. De sleutel hangt aan de seed-lijst; komt er een verslag bij,
       # dan begint hij via restore-keys met alles wat er al was.
-      - uses: actions/cache/restore@v4
+      - uses: actions/cache/restore@v6
         with:
           path: pipeline/.cache
           key: transparantie-${{ hashFiles('pipeline/seed/transparantieverslagen.csv') }}
           restore-keys: |
             transparantie-
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -85,7 +85,7 @@ jobs:
           python3 pipeline/laad_transparantie.py \
             $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
 
-      - uses: actions/cache/save@v4
+      - uses: actions/cache/save@v6
         if: always()
         with:
           path: pipeline/.cache
@@ -93,7 +93,7 @@ jobs:
 
       - name: Rapport bewaren
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: resultaten-transparantie
           path: pipeline/.cache/resultaat_transparantie.csv
