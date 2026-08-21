@@ -56,9 +56,9 @@ jobs:
     # Ruim binnen de zes uur die GitHub een job gunt; de rest doet een tweede run.
     timeout-minutes: 330
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -77,7 +77,7 @@ jobs:
       # Alleen de dataset en de daaruit afgeleide organisatielijst bewaren — niet de
       # pdf's. Eén jaargang verkeert al ~3 GB en die horen niet in een cache.
       - name: Organisatielijst uit de cache halen
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             pipeline/.cache/digimv*.ods
@@ -96,7 +96,7 @@ jobs:
       # De sleutel bevat run_id omdat een cache-sleutel niet te overschrijven is;
       # restore-keys pakt daardoor altijd de nieuwste eerdere versie op.
       - name: Bekeken organisaties uit de cache halen
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: pipeline/.cache/verwerkt_*.txt
           key: zorg-verwerkt-${{ inputs.boekjaren }}-${{ github.run_id }}
@@ -169,7 +169,7 @@ jobs:
 
       - name: Rapporten bewaren
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: resultaten
           path: pipeline/.cache/resultaat_*.csv

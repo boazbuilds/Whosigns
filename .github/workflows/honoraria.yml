@@ -32,16 +32,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
       # De jaardatasets bewaren tussen runs: de .ods van één jaargang is 16 MB
       # en verandert nooit meer. Save op always(), zodat ook een mislukte run
       # zijn download nalaat. Zelfde patroon als transparantiedata.yml.
-      - uses: actions/cache/restore@v4
+      - uses: actions/cache/restore@v6
         with:
           path: pipeline/.cache
           key: jaardatasets-v1
@@ -60,7 +60,7 @@ jobs:
           fi
           python3 pipeline/vul_extra_velden.py --boekjaren "$BOEKJAREN"
 
-      - uses: actions/cache/save@v4
+      - uses: actions/cache/save@v6
         if: always()
         with:
           path: pipeline/.cache
