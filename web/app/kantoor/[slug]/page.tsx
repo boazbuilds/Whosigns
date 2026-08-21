@@ -28,10 +28,14 @@ import {
   organisatiePad,
   sectorPad,
   sleutelUitSlug,
+  slug as slugVan,
 } from "@/lib/paden";
 import { Aandeelbalk, Doorklik, Foutmelding, Inklapbaar, KantoorLink, Kerncijfer, KortKantoorLink, Kruimels, Leeg, Oordeel, Soort, Wapen } from "@/components/onderdelen";
 
-type Params = { params: Promise<{ slug: string }> };
+type Params = {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ sector?: string }>;
+};
 
 /**
  * Zoveel cliënten staan open; de staart zit achter een klik. Een groot kantoor
@@ -137,8 +141,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   };
 }
 
-export default async function Kantoorpagina({ params }: Params) {
+export default async function Kantoorpagina({ params, searchParams }: Params) {
   const { slug } = await params;
+  const { sector: sectorFilterRuw } = await searchParams;
 
   let kantoor;
   try {
@@ -162,6 +167,20 @@ export default async function Kantoorpagina({ params }: Params) {
   ]);
 
   const clienten = clientenVanKantoor(opdrachten);
+
+  // ?sector=goede-doelen filtert de cliëntenlijst hieronder tot die sector.
+  // De sectorregels in "Waar dit kantoor werkt" linken hierheen: wie daar op
+  // "Goede doelen" klikt wil de goede doelen van dít kantoor zien, niet de
+  // landelijke sectorpagina. De waarde wordt teruggezocht in de eigen
+  // cliëntenlijst; een sector die dit kantoor niet heeft (typefout, oude link)
+  // filtert dus niet stil naar nul maar valt terug op alles.
+  const sectorFilter = sectorFilterRuw
+    ? [...new Set(clienten.map((c) => c.sector).filter((s): s is string => !!s))]
+        .find((s) => slugVan(s) === sectorFilterRuw) ?? null
+    : null;
+  const clientenGetoond = sectorFilter
+    ? clienten.filter((c) => c.sector === sectorFilter)
+    : clienten;
 
   // Tellen per soort opdracht, aflopend. Alleen tonen als er meer dan één
   // soort is — bij een kantoor dat uitsluitend wettelijke controles doet
@@ -205,7 +224,7 @@ export default async function Kantoorpagina({ params }: Params) {
       </tr>
     </thead>
   );
-  const clientrijen = clienten.map((client) => (
+  const clientrijen = clientenGetoond.map((client) => (
     <tr key={client.organisatieId}>
       <td>
         <Link
@@ -356,7 +375,21 @@ export default async function Kantoorpagina({ params }: Params) {
                 {sectorrijen.map(([sector, aantal]) => (
                   <tr key={sector}>
                     <td>
-                      <Link href={sectorPad(sector)}>{hoofdletter(sector)}</Link>
+                      {/* Naar de eigen cliëntenlijst, gefilterd op deze sector.
+                          De landelijke sectorpagina blijft bereikbaar via het
+                          pijltje ernaast en de doorklikken onderaan. */}
+                      <Link
+                        href={`${kantoorPad(kantoor)}?sector=${slugVan(sector)}#clienten`}
+                      >
+                        {hoofdletter(sector)}
+                      </Link>{" "}
+                      <Link
+                        href={sectorPad(sector)}
+                        className="zacht klein"
+                        title={`De hele sector ${sector}, alle kantoren`}
+                      >
+                        hele sector →
+                      </Link>
                     </td>
                     <td className="getal">{aantal}</td>
                     <td className="balkcel">
@@ -435,14 +468,19 @@ export default async function Kantoorpagina({ params }: Params) {
         />
       </div>
 
-      <section className="kaart">
+      <section className="kaart" id="clienten">
         <div className="kaartkop">
-          <h2>Cliënten</h2>
-          {boekjaar ? (
+          <h2>
+            Cliënten
+            {sectorFilter ? ` — ${sectorFilter} (${clientenGetoond.length})` : ""}
+          </h2>
+          {sectorFilter ? (
+            <Link href={`${kantoorPad(kantoor)}#clienten`}>Alle sectoren →</Link>
+          ) : boekjaar ? (
             <Link href={`/kantoren?jaar=${boekjaar}`}>Ranglijst {boekjaar} →</Link>
           ) : null}
         </div>
-        {clienten.length === 0 ? (
+        {clientenGetoond.length === 0 ? (
           <Leeg tekst="Nog geen cliënten van dit kantoor in de database." />
         ) : (
           <>
