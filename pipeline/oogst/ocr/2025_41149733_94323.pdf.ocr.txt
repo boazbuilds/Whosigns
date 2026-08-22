@@ -1,0 +1,2 @@
+# whosigns-ocr v1 grootte=16611 dpi=300 paginas=20
+Voor document, zie het verzamelbestand
