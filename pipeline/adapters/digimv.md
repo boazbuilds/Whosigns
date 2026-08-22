@@ -505,11 +505,29 @@ Belangrijker dan het aantal is wat eruit komt:
 | `omzet` | **0** | — |
 
 Honoraria over 2022 waren er tot vandaag helemaal niet; nu wel. Maar twee velden
-blijven leeg, en dat is geen toeval: `bestandAccVerklSoortControleVerkl` en
-`qBatenZorg_0` heten in de jaargang 2022 kennelijk anders. Dat hoort bij het open
-punt "kolominspectie 2018–2022 en 2024" hieronder en is met deze reparatie niet
-opgelost — alleen zichtbaar geworden. Zolang dat zo is bestaat de vergelijking
-tussen gemeld en gelezen oordeel alleen voor 2023 en (sinds 22-8-2026) 2024.
+blijven leeg. **Uitgezocht op 22-8-2026, en het zijn bronbeperkingen, geen
+verkeerde veldnamen:**
+
+- `oordeel_gerapporteerd`: de per-document-velden
+  (`bestandAccountantsVerklaringSoort_N`, `bestandAccVerklSoortControleVerkl_N`)
+  bestáán niet in de 2022-export. RowData_21 heeft wel `bestandAccountantsverklaring_N`
+  met datum en instelling, maar geen soort en geen oordeel. Het enige
+  oordeelveld is het vragenlijstveld `qAccVerklVorm`, en dat gebruiken we
+  bewust niet (zie boven: het wordt verkeerd ingevuld).
+- `omzet`: `qBatenZorg_0` bestaat gewoon (RowData_13, en `_0cons` op RowData_17),
+  en 3.162 organisaties hebben er een waarde — maar **geen één** van de 289
+  organisaties met een gemelde controleverklaring. Ook de bredere velden
+  (`qBatenZorgOpbouwTotaal_0`, `qTotaalBedrijfsopbrengsten_0`,
+  `qSomBedrijfsopbrengsten_0`, alle cons-varianten) zijn bij die 289 leeg.
+  Organisaties met een echte jaarrekening deponeerden het document en sloegen
+  de financiële vragentabel over; de export bevat alleen de vragentabel.
+
+Wat de bron niet levert blijft leeg — voor 2022 zijn oordeel en omzet dus
+definitief niet uit de dataset te halen. De vergelijking tussen gemeld en
+gelezen oordeel bestaat daarmee alleen voor 2023 en (sinds 22-8-2026) 2024.
+Ter context: de export bevat 8.982 organisaties, waarvan er maar 1.901 de
+verklaringsoort-vraag beantwoordden (887 geen verklaring, 481 samenstelling,
+289 controle, 244 beoordeling).
 
 ## Kolominspectie 2024 (22-8-2026) — de vierdelige export past op de patronen
 
@@ -567,8 +585,10 @@ de oogst van 2023 die verklaringen zelf heeft gelezen.
 - [x] `_zoek_kolommen` gerepareerd (20-8-2026): matchen op de variabelenaam ná de
       nieuwe regel. Reproduceert `doelpopulatie_2023.csv` rij voor rij, alle
       1.140 × 14 velden
-- [ ] Jaargang 2022: `oordeel_gerapporteerd` en `omzet` komen er niet uit, ook
-      niet ná de reparatie. De veldnamen wijken af; zie de tabel hierboven
+- [x] Jaargang 2022: `oordeel_gerapporteerd` en `omzet` komen er niet uit —
+      uitgezocht 22-8-2026: bronbeperking, geen veldnaamkwestie. De
+      oordeelvelden bestaan niet in die export en de omzetvelden zijn bij alle
+      289 controle-organisaties leeg; zie de meting hierboven
 - [ ] `DATASET_URL` aanvullen voor 2019–2021 en 2025, of vastleggen dat die
       jaargangen niet bestaan en de vergelijking daar dus nooit komt
 - [x] Kolominspectie 2024 (22-8-2026): de vierdelige export past op de
