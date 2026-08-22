@@ -509,7 +509,49 @@ blijven leeg, en dat is geen toeval: `bestandAccVerklSoortControleVerkl` en
 `qBatenZorg_0` heten in de jaargang 2022 kennelijk anders. Dat hoort bij het open
 punt "kolominspectie 2018–2022 en 2024" hieronder en is met deze reparatie niet
 opgelost — alleen zichtbaar geworden. Zolang dat zo is bestaat de vergelijking
-tussen gemeld en gelezen oordeel alleen voor 2023.
+tussen gemeld en gelezen oordeel alleen voor 2023 en (sinds 22-8-2026) 2024.
+
+## Kolominspectie 2024 (22-8-2026) — de vierdelige export past op de patronen
+
+Alle vier de delen gedownload en door `doelpopulatie()` gehaald, zónder
+codewijziging. Elk deel bevat dezelfde 21 sheets (RowData_01 t/m _20 plus
+VariableDefinition); de delen splitsen op organisatie, niet op onderwerp. De
+variabelenamen zijn verdubbeld zoals in 2023 (`acc_jr_contr_acc_jr_contr_0`,
+`qAccountantWissel_qAccVerklVorm`) en de bestaande `startswith`-patronen
+matchen ze allemaal. De opbrengst:
+
+| veld | 2024 (4 delen) | 2023 |
+|---|---|---|
+| organisaties met controleverklaring | 1.047 | 1.140 |
+| `honorarium_controle` | 108 | 121 |
+| `honorarium_overig` | 81 | — |
+| `honorarium_fiscaal` | 32 | — |
+| `honorarium_nietcontrole` | 31 | — |
+| `omzet` | 606 | — |
+| `wissel_gerapporteerd` | 232 (24 ja) | 332 |
+| `oordeel_gerapporteerd` | 960 | 995 |
+| `verklaring_datum` | 990 | 1.036 |
+| `rechtsvorm` | 1.047 | — |
+
+Oordeelverdeling: 845 goedkeurend, 103 beperking, 12 oordeelonthouding — zelfde
+verhoudingen als wat onze pdf-extractie las (627/112/10 op 795 opdrachten), dus
+de vergelijking gemeld-versus-gelezen kan nu ook voor 2024.
+
+Twee dingen zijn wél anders dan in 2023:
+
+- **De AGB-zorgsoortkolommen (`qAGBzorgsoortOrg_N`) bestaan niet meer.** In hun
+  plaats staan SBI-codes (`qSbiCode_1..62`/`qSbiText_1..62`) op RowData_01.
+  `subsector` blijft voor 2024 dus leeg: onze indeling is op AGB-zorgsoorten
+  gebouwd en een SBI-vertaling is een aparte beslissing, geen bijvangst. Liever
+  leeg dan een gok — zelfde regel als altijd.
+- **`qBatenZorg_0` bestaat twee keer**: enkelvoudig op RowData_10 en als
+  `qBatenZorg_0cons` op RowData_14. Beide passen op het patroon en de laatste
+  schrijver wint, dus bij concerns staat er de geconsolideerde omzet. Dat is
+  voor "hoe groot is deze organisatie" ook het bruikbaarste getal; het staat
+  hier zodat niemand het per ongeluk als enkelvoudig leest.
+
+De workflow **Honoraria bijvullen** heeft 2024 sinds deze inspectie in de
+standaardlijst (`2024,2023,2022`).
 
 **Nevenbevinding.** `DATASET_URL` kent alleen 2022, 2023 en 2024. Voor 2019,
 2020, 2021 en 2025 bestaat er dus geen datasetroute, en daarmee ook geen
@@ -529,8 +571,11 @@ de oogst van 2023 die verklaringen zelf heeft gelezen.
       niet ná de reparatie. De veldnamen wijken af; zie de tabel hierboven
 - [ ] `DATASET_URL` aanvullen voor 2019–2021 en 2025, of vastleggen dat die
       jaargangen niet bestaan en de vergelijking daar dus nooit komt
-- [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`
-      e.d. checken of dat per jaargang hetzelfde heet)
+- [x] Kolominspectie 2024 (22-8-2026): de vierdelige export past op de
+      bestaande patronen; zie de sectie hierboven. Subsector blijft er leeg
+      (AGB-kolommen vervangen door SBI-codes)
+- [ ] Kolominspectie 2018–2022 (veldnamen wijken af — `qNawNaam` e.d. checken
+      of dat per jaargang hetzelfde heet)
 - [ ] Join-logica RowData-sheets bevestigen (hoe organisatie- en documentvelden
       per rij samenhangen over de meerdere sheets)
 - [ ] Volledige waardenlijsten `qAccVerklSoort`/`qAccVerklVorm` uit de data
