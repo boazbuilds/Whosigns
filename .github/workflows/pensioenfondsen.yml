@@ -1,0 +1,52 @@
+name: Pensioenfondsen laden
+
+# Leest de jaarverslagen uit seed/pensioenfondsen.csv (elke URL met de hand
+# geverifieerd) en zet kantoor, oordeel en tekenend accountant in de database.
+# Herdraaien is veilig: bestaande organisatie-boekjaren worden overgeslagen.
+#
+# Nog niet in "Alles verversen" geketend: de eerste run draait bewust los, en
+# de seed groeit nog fonds voor fonds (zie docs/bestaande-databases.md §3c).
+on:
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  laden:
+    name: Jaarverslagen lezen en laden
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: pdftotext installeren
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+
+      # De jaarverslag-pdf's veranderen nooit meer; bewaren tussen runs.
+      # Save op always(), zodat ook een afgebroken run zijn downloads nalaat.
+      - uses: actions/cache/restore@v6
+        with:
+          path: pipeline/.cache
+          key: pensioenpdf-v1
+          restore-keys: |
+            pensioenpdf-
+
+      - name: Laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/laad_pensioenfondsen.py
+
+      - uses: actions/cache/save@v6
+        if: always()
+        with:
+          path: pipeline/.cache
+          key: pensioenpdf-v1

@@ -1,0 +1,985 @@
+# whosigns-ocr v1 grootte=7805492 dpi=300 paginas=20
+Jaarrekening
+2025
+
+Geriant
+
+2.1 BALANS PER 31 DECEMBER 2025
+(na resultaatbestemming)
+
+Ref. 31-dec-25 31-dec-24
+€ €
+ACTIVA
+Vaste activa
+Materiële vaste activa 1
+Andere vaste bedrijfsmiddelen 157.289 135.433
+157.289 135.433
+Vlottende activa
+Vorderingen 2
+Op handelsdebiteuren 2.306.659 2.141.990
+Overige vorderingen 100.428 283.421
+Overlopende activa 301 41.751
+2.407.388 2.467.163
+Liquide middelen 3 8.274.857 7.838.338
+Totaal activa 10.839.533 10.440.934
+
+Ref. 31-dec-25 31-dec-24
+€ €
+PASSIVA
+
+Eigen vermogen 4
+Bestemmingsreserve 300.000 300.000
+Bestemmingsfonds 4.984.389 4.488.963
+5.284.389 4.788.963
+
+Voorzieningen 5
+Overige 2.257.119 2.377.504
+2.257.119 2.377.504
+
+Kortlopende schulden (ten hoogste 1 jaar) 6
+Schulden aan leveranciers en handelskredieten 115.770 151.549
+Belastingen en premies sociale verzekeringen 334.442 279.503
+Schulden terzake van pensioenen 198.503 322.329
+Overige schulden 1.174.336 1.326.714
+Overige passiva 1.474.974 1.194.372
+3.298.025 3.274.467
+
+Totaal passiva 10.839.533 10.440.934
+
+
+2.2 WINST- EN VERLIESREKENING OVER 2025
+
+Ref. 2025 2024
+€ €
+
+BEDRIJFSOPBRENGSTEN
+Baten uit beroeps- of bedrijfsmatige zorgverlening 8
+Zorgverzekeringswet 14.130.757 12.745.274
+Wet langdurige zorg 4.632.829 4.421.423
+Baten uit zorgverlening in onderaanneming 518.294 399.931
+Overige baten uit beroeps- of bedrijfsmatige zorgverlening 46.000 34.127
+Netto omzet 19.327.879 17.600.756
+Overige bedrijfsopbrengsten Ie) 245.672 240.169
+Som der bedrijfsopbrengsten 19.573.551 17.840.924
+BEDRIJFSLASTEN
+Kosten uitbesteed werk en andere externe kosten 10 614.303 826.995
+Lonen en salarissen 11 11.757.325 10.177.029
+Sociale lasten 1.840.154 1.561.998
+Pensioenlasten 1.124.616 971.036
+Afschrijvingen op materiële vaste activa 12 60.125 56.412
+Overige bedrijfskosten 13 3.742.395 3.558.868
+Som der bedrijfslasten 19.139.418 17.152.338
+BEDRIJFSRESULTAAT 434.133 688.586
+Andere rentebaten en soortgelijke opbrengsten 14 63.457 10.670
+Rentelasten en soortgelijke kosten 15 -2.163 -3.043
+RESULTAAT 495.427 696.213
+
+RESULTAATBESTEMMING
+
+Het resultaat is als volgt verdeeld: 2025 2024
+€ €
+
+Bestemmingsfonds RAK 495.427 696.213
+495.427 696.213
+
+
+2.3 KASSTROOMOVERZICHT OVER 2025
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+- afschrijvingen en overige waardeverminderingen
+- mutaties voorzieningen
+
+Veranderingen in werkkapitaal:
+
+- vorderingen
+
+-vorderingen uit hoofde van financieringstekort
+
+- kortlopende schulden (excl. schulden aan banken)
+
+Kasstroom uit bedrijfsoperaties
+
+Rentebaten en soortgelijke opbrengsten
+Rentelasten en soortgelijke kosten
+
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+Investeringen in materiële vaste activa
+
+Totaal kasstroom uit investeringsactiviteiten
+
+Mutatie geldmiddelen
+
+Stand geldmiddelen per 1 januari
+Stand geldmiddelen per 31 december
+Mutatie geldmiddelen
+
+Ref. 2025 2024
+€ € € €
+434.133 688.586
+12 60.125 56.412
+5 -120.385 481.850
+-60.260 538.262
+2 59.775 -743.635
+2 21.048 246.509
+6 2.510 -27.365
+83.333 -524.491
+457.206 702.358
+14 63.457 10.670
+15 -2.163 -3.043
+61.294 7.627
+518.500 709.985
+1 -81.981 -24.669
+-81.981 -24.669
+436.519 685.316
+3 7.838.338 7.153.023
+3 8.274.857 7.838.338
+436.519 685.316
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+2.4.1 Algemeen
+
+Statutaire naam en activiteiten
+
+De statutaire naam van Geriant is voluit Stichting Geriant en de statutaire vestigingsplaats is Heerhugowaard. Stichting Geriant is
+geregistreerd onder KvK-nummer 37107647.
+
+De activiteiten van Geriant bestaan hoofdzakelijk uit het verlenen van zorg aan mensen met dementie en hun familie/mantelzorgers.
+
+Geriant biedt op verwijzing van een medisch specialist de volgende kernactiviteiten in ambulante en kortdurende
+klinische vorm:
+
+- Diagnostiek: ambulant en klinisch
+
+- Behandeling: ambulant en klinisch
+
+- Casemanagement: langer durende actieve steun en begeleiding voor cliënt en familie
+
+- Geriant Kenniscentrum Dementie: vraagbaak voor informatie, scholing, voorlichting en consultatie.
+
+De kerntaken worden uitgevoerd door multidisciplinaire teams.
+
+Geriant heeft vier locaties van waaruit ambulante zorg wordt verleend: Heerhugowaard, Den Helder, Alkmaar
+en Hoorn. Op de locatie Heerhugowaard is tevens een klinische afdeling gevestigd.
+
+Vanuit de regioteams wordt naast ambulante zorg ook casemanagement en behandeling in
+verzorgingshuizen/woonzorglocaties aangeboden. Daarnaast bood Geriant in 2025 ondersteuning inzake
+
+de behandelfunctie aan de organisaties Warm Thuis, Stichting Niko, Jonkerszorg, Woonzorg Bloezem,
+Alkcare, Horizon, KW-westwoud, Terphoeve, Samen en Dijklander Ziekenhuis.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2025, lopend van 1 januari 2025 tot en met 31 december 2025. De vergelijkende
+cijfers hebben betrekking op boekjaar 2024, lopend van 1 januari 2024 tot en met 31 december 2024.
+
+Continuïteitsveronderstelling
+De verwachting is dat het geheel van de activiteiten van Geriant, waaraan de activa en passiva dienstbaar zijn, wordt voortgezet. Deze
+jaarrekening is derhalve opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling openbare jaarverantwoording WMG (RojW), ingevolge artikel 40b
+van de Wet marktordening gezondheidszorg. De jaarrekening is opgesteld in euro. Toelichtingen op posten in de balans, winst- en
+verliesrekening en kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd op historische kosten,
+tenzij anders vermeld in de verdere grondslagen. Opbrengsten en kosten worden toegerekend aan de periode waarop deze betrekking
+hebben.
+
+Bij de toepassing van de grondslagen voor de waardering en de resultaatbepaling wordt voorzichtigheid betracht. Winsten worden
+slechts opgenomen voor zover zij op balansdatum zijn verwezenlijkt. Verplichtingen die hun oorsprong vinden vóór het einde van het
+boekjaar, worden in acht genomen, indien zij vóór het opmaken van de jaarrekening zijn bekend geworden. Voorzienbare
+verplichtingen en mogelijke verliezen die hun oorsprong vinden vóór het einde van het boekjaar worden in acht genomen indien zij
+vóór het opmaken van de jaarrekening bekend zijn geworden en indien een betrouwbare inschatting van de omvang van de
+verplichting gemaakt kan worden.
+
+De verdere toelichting op specifieke grondslagen voor het opstellen van de jaarrekening en voor de waardering en resultaatbepaling
+komt in het hierna volgende aan de orde.
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en veronderstellingen maakt die van
+invloed zijn op de toepassing van grondslagen en de gerapporteerde waarde van activa en verplichtingen, en van opbrengsten en
+kosten. De daadwerkelijke uitkomsten kunnen afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen
+worden voortdurend beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt herzien
+en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar.
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+2.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen naar de onderneming
+zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan de omvang betrouwbaar kan worden vastgesteld. Activa die
+hier niet aan voldoen worden niet in de balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa. Activa
+waarvan het waarschijnlijk is dat de realiseerbare waarde lager is dan de boekwaarde, worden afgewaardeerd tot het niveau van de
+hoogste van de indirecte en directe realiseerbare waarde.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal gaan met een
+uitstroom van middelen die economische voordelen in zich bergen en de omvang van het bedrag waartegen de afwikkeling zal
+plaatsvinden op betrouwbare wijze kan worden vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen.
+Verplichtingen die hier niet aan voldoen worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans
+opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet leidt tot een belangrijke
+verandering in de economische realiteit met betrekking tot het actief of de verplichting. Dergelijke transacties geven evenmin
+aanleiding tot het verantwoorden van resultaten. Bij de beoordeling of er sprake is van een belangrijke verandering in de economische
+realiteit wordt uitgegaan van de economische voordelen en risico’s die zich waarschijnlijk in de praktijk zullen voordoen en niet op
+voordelen en risico’s waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of nagenoeg alle rechten
+op economische voordelen en alle of nagenoeg alle risico's met betrekking tot het actief of de verplichting aan een derde zijn
+overgedragen. De resultaten van de transactie worden in dat geval direct in de winst- en verliesrekening opgenomen, rekening
+houdend met eventuele voorzieningen die dienen te worden getroffen in samenhang met de transactie. Indien de weergave van de
+economische realiteit ertoe leidt dat het opnemen van activa waarvan de rechtspersoon niet het juridisch eigendom bezit, wordt dit feit
+vermeld.
+
+Materiële vaste activa
+De materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek van cumulatieve afschrijvingen en
+cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs volgens de lineaire methode op basis
+van de verwachte economische levensduur. Er wordt afgeschreven vanaf het moment van ingebruikneming.
+
+Vorderingen
+
+Vorderingen worden gewaardeerd tegen nominale waarde. Een voorziening wordt getroffen op de vorderingen op grond van
+verwachte oninbaarheid.
+
+Een vordering uit hoofde van financieringstekorten of een schuld uit hoofde van financieringsoverschotten is het aan het einde van het
+boekjaar bestaande verschil tussen het wettelijk budget voor aanvaardbare kosten en de ontvangen voorschotten en de in rekening
+gebrachte vergoedingen voor diensten en verrichtingen ter dekking van het wettelijk budget.
+
+Liquide middelen
+Liquide middelen bestaan uit kas en banktegoeden. Liquide middelen worden gewaardeerd tegen de nominale waarde.
+De liquide middelen zijn ondergebracht bij Nederlandse banken en zijn direct opeisbaar.
+
+Voorzieningen
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum bestaan en die het
+gevolg zijn van een gebeurtenis uit het verleden, waarbij het waarschijnlijk is dat een uitstroom van middelen noodzakelijk is en
+waarvan de omvang op betrouwbare wijze is te schatten. De voorzieningen worden gewaardeerd tegen nominale waarde van de
+uitgaven die naar verwachting noodzakelijk zijn om de verplichtingen en verliezen af te wikkelen. Indien het verschil tussen de nominale
+en contante waarde van de verplichtingen materieel is, worden voorzieningen gewaardeerd tegen contante waarde. In de toelichting
+op de balans is een nadere uiteenzetting van de grondslagen per voorziening uitgewerkt.
+
+Schulden
+De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden opgenomen tegen de nominale
+waarde.
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+2.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming van de hiervoor reeds
+vermelde grondslagen. Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. Daarbij wordt voorzichtigheid betracht overeenkomstig de grondslagen die gelden
+voor het opnemen van activa en passiva (zoals eerder vermeld).
+
+Baten en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een
+geconstateerde fout in voorgaande boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag van de opbrengsten
+op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk is, de mate waarin de
+dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk)
+nog moeten worden gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald. Indien het resultaat
+van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden bepaald, worden de opbrengsten verwerkt tot
+het bedrag van de kosten van de dienstverlening die worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn verantwoord.
+
+Pensioenen
+
+Geriant heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking komende werknemers hebben op de
+pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de
+werknemer pensioen heeft opgebouwd bij Geriant. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn
+ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn (PFZW). Geriant betaalt hiervoor premies waarvan de helft door de
+werkgever wordt betaald en de helft door de werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de
+dekkingsgraad van het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat.
+De dekkingsgraad van december 2025 bedroeg 126,0%.
+
+Geriant heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een tekort bij het pensioenfonds, anders dan
+het effect van hogere toekomstige premies. Geriant heeft daarom alleen de verschuldigde premies tot en met het einde van het
+boekiaar in de iaarrekening verantwoord.
+
+2.4.5 Grondslagen voor de opstelling van het kasstroomoverzicht
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide
+middelen. Ontvangsten uit hoofde van interest zijn opgenomen onder de kasstroom uit operationele activiteiten.
+
+2.4.6 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de datum van het
+opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de jaarrekening verwerkt.
+Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de gebruikers van de jaarrekening, worden de aard en de
+geschatte financiële gevolgen ervan toegelicht in de jaarrekening.
+
+2.4.7 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft Geriant zich gehouden aan de wet- en regelgeving inzake de WNT,
+waaronder de instellingsspecifieke (sectorale) regels. De WNT- verantwoording inzake Geriant is opgenomen in de toelichting op de
+winst- en verliesrekening.
+
+2.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+1. Materiële vaste activa
+
+31-dec-25 31-dec-24
+De specificatie is als volgt: € €
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 157.289 135.433
+Totaal materiële vaste activa 157.289 135.433
+Het verloop van de materiële vaste activa in het verslagjaar is als volgt weer te geven: 31-dec-25 31-dec-24
+
+€ €
+
+Boekwaarde per 1 januari 135.433 167.176
+Bij: investeringen 81.981 24.669
+Af: afschrijvingen 60.125 56.412
+Boekwaarde per 31 december 157.289 135.433
+Stand per 31 december 2025
+- aanschafwaarde 367.862 285.881
+- cumulatieve afschrijvingen 210.573 150.448
+Boekwaarde per 31 december 2025 157.289 135.433
+Afschrijvingspercentage 20% - 33% 20% - 33%
+2. Vorderingen
+De overige vorderingen en overlopende activa kunnen als volgt worden gespecificeerd:
+
+31-dec-25 31-dec-24
+
+€ €
+
+Vorderingen op debiteuren 2.306.659 2.141.990
+Overige vorderingen:
+Vorderingen uit hoofde van financieringstekort 21.048 246.509
+Waarborgsom huur 17.040 17.040
+Fietsplan 2.818 2.976
+Ziekengeld 10.249 6.983
+Interest 49.274 8.810
+Diversen [e) 1.102
+Totaal overige vorderingen 100.428 283.421
+Overlopende activa:
+Diversen 301 41.751
+Totaal overlopende activa 301 41.751
+Er is geen voorziening voor dubieuze debiteuren opgenomen.
+
+
+2.5 TOELICHTING OP DE BALANS
+
+Onder de overige vorderingen worden de bedragen opgenomen aangaande het financieringstekort WLZ.
+De opbouw hiervan is als volgt:
+Vorderingen uit hoofde van financieringstekort
+2025 2024 totaal
+€ € €
+Saldo per 1 januari 0 246.509 246.509
+Financieringsverschil boekjaar 21.048 0 21.048
+Correcties voorgaande jaren 0 [e) 0
+Betalingen/ontvangsten 0 -246.509 -246.509
+Subtotaal mutatie boekjaar 21.048 -246.509 -225.461
+Saldo per 31 december 21.048 0 21.048
+Stadium van vaststelling (per erkenning): a c
+a= interne berekening
+b= overeenstemming met zorgkantoren
+c= definitieve vaststelling NZa
+31-dec-25 31-dec-24
+€ €
+Waarvan gepresenteerd als:
+- overige vorderingen 21.048 246.509
+- overige schulden 0 0
+21.048 246.509
+Specificatie financieringsverschil in het boekjaar 31-dec-25 31-dec-24
+€ €
+Wettelijk budget voor aanvaardbare kosten 4.632.829 4.421.423
+Af: vergoedingen ter dekking van het wettelijk budget -4,611.781 -4,174.914
+Totaal financieringsverschil 21.048 246.509
+3. Liquide middelen
+De liquide middelen kunnen als volgt worden gespecificeerd:
+31-dec-25 31-dec-24
+€ €
+Spaarrekeningen 8.121.000 7.600.375
+Bankrekeningen 152.026 236.293
+Kassen 1.830 1.670
+Totaal liquide middelen 8.274.857 7.838.338
+De liquide middelen bestaan uit kassen en banktegoeden met een looptijd korter dan een jaar.
+De liquide middelen staan ter vrije besteding aan Geriant
+
+
+2.5 TOELICHTING OP DE BALANS
+
+PASSIVA
+
+4. Eigen vermogen
+
+Bestemmingsreserve
+Saldo per Resultaat- Overige Saldo per
+1-1-2025 bestemming mutaties 31-12-2025
+€ € € €
+Bestemmingsreserve:
+Kwaliteit, innovatie, opleiding en onderzoek 300.000 0 0 300.000
+Totaal bestemmingsreserve 300.000 0 0 300.000
+Bestemmingsfonds
+Saldo per Resultaat- Overige Saldo per
+1-1-2025 bestemming mutaties 31-12-2025
+€ € € €
+Bestemmingsfonds:
+Bestemmingsfonds RAK 4.488.963 495.427 0 4.984.389
+Totaal bestemmingsfonds 4.488.963 495.427 0 4.984.389
+
+Geriant streeft naar een bestemmingsfonds RAK van minimaal twintig procent van de opbrengsten van zorgprestaties.
+
+De bestemmingsreserve Kwaliteit, innovatie, opleiding en onderzoek zal in de komende jaren aangewend worden voor het uitvoeren van
+doelstellingen uit het meeriarenbeleidsplan.
+
+
+2.5 TOELICHTING OP DE BALANS
+
+5. Voorzieningen
+
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+
+1-1-2025 31-12-2025
+
+€ € € € €
+
+Jubileumverplichtingen 261.835 4,423 19.196 238.216
+Onderhoud 377.231 87.081 125.068 339.245
+Werkgeverslasten loon 126.594 11.802 107.823 6.969
+Levensfasebudget 561.032 121.817 561.032 121.817
+Omzetbepaling ZVW 814.790 501.553 389.748 926.595
+Langdurig zieken 236.022 624.277 8.660 227.362 624.277
+Totaal voorzieningen 2.377.504 1.334.728 149.953 1.305.161 2.257.119
+
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+
+31-12-2025
+Kortlopend deel van de voorzieningen (< 1 jr.) 1.456.023
+Langlopend deel van de voorzieningen (> 1 jr.) 801.096
+hiervan > 5 jaar 254.793
+
+Met betrekking tot de voorzieningen gelden de volgende toelichtingen:
+
+Voorziening jubileumverplichtingen
+
+Voor het huidige personeelsbestand is een voorziening opgenomen voor jubileumuitkeringen. Hierbij is rekening gehouden met het huidige salaris en
+toekomstige salarisontwikkelingen, alsmede de kans dat medewerkers uit dienst treden. De voorziening is opgenomen op basis van de contante
+waarde van de te verwachten uitkeringen gedurende het dienstverband. Met ingang van boekjaar 2025 is de jubileumvoorziening prospectief
+aangepast, in die zin dat voor nieuwe instroom de AOW gratificatie niet langer wordt meegenomen. Voor bestaande dienstverbanden blijft de eerder
+gevormde voorziening ongewijzigd.
+
+Voorziening onderhoud
+Aan de voorziening onderhoud is gedoteerd voor de in 2025 doorlopende huisvestingskosten van voormalige kantoorpanden tijdens het parallelle
+gebruik van nieuw kantoorpanden. De voorziening is gewaardeerd tegen nominale waarde van de verwachte kosten.
+
+Voorziening werkgeverslasten loon
+
+De voorziening werkgeverslasten loon betreft een voorziening voor de verplichte aanvulling op de WGA-hiaatverzekering. De voorziening is
+opgenomen op basis van de nominale waarde van de te verwachten uitkeringen ter dekking van het inlooprisico over de periode 1 maart 2021 tot en
+met 31 december 2026.
+
+Voorziening levensfasebudget (toerekening aan jaren)
+
+De voorziening levensfasebudget had tot en met boekjaar 2024 uitsluitend betrekking op verplichtingen uit hoofde van de regeling vervroegd
+uittreden (RVU). Deze regeling is per 1 januari 2025 beëindigd.
+
+Met ingang van 2025 is de RVU-regeling opgevolgd door de generatieregeling. Geriant heeft een voorziening gevormd voor de verplichtingen die
+voortvloeien uit de generatieregeling zoals opgenomen in de CAO VVT. Deze regeling biedt medewerkers de mogelijkheid om hun arbeidsduur te
+verminderen met gedeeltelijk behoud van salaris en pensioenopbouw. De voorziening is bepaald op basis van een inschatting van de toekomstige
+lasten die samenhangen met reeds aangegane rechten van medewerkers. Mutaties in de voorziening worden verwerkt in het resultaat van het
+verslagjaar. De gehanteerde disconteringsvoet bedraagt 2,50%.
+
+Voorziening omzetbepaling ZVW
+
+Voor de GGZ-financiering van de jaren 2022- 2024 zijn berekeningen gemaakt van de te verwachten schadelast in de zorgverzekeringswet. Op basis
+van deze schadelastanalyses kon de terugbetalingsverplichting aan zorgverzekeraars worden bepaald, rekening houdend met de resultaten uit de
+zelfonderzoeken. Deze terugbetalingsverplichting is opgenomen als voorziening omzetbepaling ZVW.
+
+Voorziening langdurig zieken
+Voor langdurig zieken is een voorziening gevormd op basis van de nominale waarde van de verwachte loonkosten.
+
+
+2.5 TOELICHTING OP DE BALANS
+
+6. Kortlopende schulden
+
+De overige schulden en overige passiva kunnen als volgt worden gespecificeerd:
+
+Crediteuren
+Belastingen en premies sociale verzekeringen
+Schulden ter zake van pensioenen
+
+Overige schulden:
+
+Nog te betalen salarissen
+
+Schulden aan zorgverzekeraars
+Kassiersfunctie Zorgkantoor
+Transitiemiddelen
+
+Ontwikkeling leergang
+
+Project Geriatrische Expertise Eerste Lijn
+Dementievriendelijke gemeentes
+Accountantskosten
+
+Totaal overige schulden
+
+Overige passiva:
+
+Vakantiegeld
+
+Vakantiedagen
+
+Persoonlijk budget levensfase/balansbudget
+Diversen
+
+Totaal overige passiva
+
+31-dec-25 31-dec-24
+€ €
+
+115.770 151.549
+334.442 279.503
+198.503 322.329
+9.740 2.111
+451.801 501.553
+195.853 195.853
+69.129 88.377
+
+0 64.332
+
+359.766 388.134
+60.743 60.360
+27.304 25.994
+1.174.336 1.326.714
+599.476 509.597
+353.396 308.006
+435.427 282.048
+86.676 94.722
+1.474.974 1.194.372
+
+Onder ‘schulden ter zake van pensioenen!’ zijn de nog te betalen pensioenpremies over 2025 opgenomen, die door het pensioenfonds achteraf in
+
+rekening gebracht worden.
+
+De schulden aan zorgverzekeraars betreffen terugbetalingsverplichtingen die mogelijk voortvloeien uit overschrijding van contractafspraken met
+
+zorgverzekeraars.
+
+11
+
+2.5 TOELICHTING OP DE BALANS
+
+7.a Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+Huurverplichtingen
+
+De met derden aangegane meerjarige huurverplichtingen van onroerende zaken betreffen:
+
+Onroerende zaak Geschatte Omvang Omvang Einddatum
+jaarhuursom verplichting. verplichting huurcontract
+2026 in € 2-5jaarin€ >5jaarin€
+Woonzorggroep Samen 8.493 0 0 31-3-2026
+Bergermeer B.V. 92.259 143.966 0) 31-7-2028
+Hoenderdaell 50.528 160.861 0 31-12-2029
+Sigmo 70.370 257.032 0 31-5-2030
+Magentazorg 263.052 1.133.527 1.619.018 1-1-2036
+Totaal 484.702 1.695.386 1.619.018
+Geriant heeft voor twee huurlocaties bankgaranties afgegeven voor een totaalbedrag van € 32.970.
+Overige verplichtingen
+De overige met derden aangegane meerjarige verplichtingen van roerende zaken betreffen:
+Omschrijving Geschatte Omvang Omvang Einddatum
+verplichting verplichting. verplichting contract
+2026 in € 2-5jaarin€ >5jaarin€
+Iris One, hosting ICT-omgeving 247.250 390.853 1-7-2028
+Iris One, telefonie 190.934 33.095 1-3-2027
+HP, leasing laptops 58.387 0 1-5-2026
+Adapcare, electronisch cliëntendossier 76.532 248.457 1-1-2030
+KLompé & Rupp, ondersteuning printers 26.209 41.431 1-7-2028
+TTS, Quickstart-licenties 21.894 3.795 28-2-2027
+Zorgdomein 10.376 0 30-9-2026
+AAG, administratiesoftware 102.064 216.539 31-12-2028
+Intus, Planningssysteem Kliniek 5.728 0 31-12-2026
+Khonraad, BOPZ online 10.415 €) 31-12-2026
+Ziggo, glasvezel internet 48.636 0 31-12-2026
+Totaal 798.423 934.170
+
+7.b Mogelijke rechten of verplichtingen in het kader van de niet in de balans opgenomen regelingen
+
+Verplichtingen uit hoofde van het macrobeheersinstrument
+
+Bij het opstellen van de jaarrekening bestaat nog geen inzicht in realisatie van het mbi-omzetplafond. Geriant is niet in staat een betrouwbare
+inschatting te maken van de uit het macrobeheersinstrument voortkomende verplichting en deze te kwantificeren. Als gevolg daarvan is deze
+verplichting niet tot uitdrukking gebracht in de balans per 31 december 2025.
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+BATEN
+
+Algemeen
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde zorgprestaties en maatschappelijke
+ondersteuning kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De effecten van eventuele materiële nacontroles zijn vooralsnog
+onzeker. Geriant heeft op basis van een risicoanalyse een zo nauwkeurig mogelijke inschatting gemaakt van de hieruit voortvloeiende risico’s en
+verplichtingen. Daarbij is rekening gehouden met uitkomsten van interne en externe controles.
+
+Dezelfde onzekerheid is aan de orde met betrekking tot de definitieve vaststelling van subsidies. Hiervoor geldt dat op basis van landelijke en lokale
+richtlijnen en afspraken een zo nauwkeurig mogelijke schatting is gemaakt van de te verwerken opbrengsten. Niet uitgesloten kan worden dat de
+verwerkte bedragen bij de definitieve vaststelling nog substantieel bijgesteld worden. Deze bijstellingen zullen dan in het resultaat van het boekjaar
+verwerkt worden, waarin de bijstelling voldoende aannemelijk wordt.
+
+Geriant verwacht uit hoofde van genoemde nacontroles en de subsidievaststellingen geen noemenswaardige correcties op de verantwoorde
+opbrengsten.
+
+8. Baten uit beroeps- of bedrijfsmatige zorgverlening
+
+De baten uit beroeps- of bedrijfsmatige zorgverlening bestaan hoofdzakelijk uit opbrengsten uit de Zorgverzekeringswet (Zvw) en de Wet langdurige
+zorg (Wlz). Deze opbrengsten hebben betrekking op de in het verslagjaar geleverde zorgprestaties en worden verantwoord tegen de geldende
+contractafspraken met zorgverzekeraars en het zorgkantoor. De opbrengsten worden verantwoord in het jaar waarin de prestaties zijn geleverd,
+conform het opbrengstenverantwoordingsprincipe.
+
+9. Overige bedrijfsopbrengsten
+
+De overige bedrijfsopbrengsten kunnen als volgt worden gespecificeerd:
+
+2025 2024
+€ €
+
+Subsidies:
+Rijkssubsidies (niet zijnde baten uit beroeps- of bedrijfsmatige zorgverlening) 100.822 185.468
+Overige loonkostensubsidies 68.345 54.701
+Overige subsidies 76.505 0
+Totaal 245.672 240.169
+
+Onder subsidies zijn de baten begrepen die zijn ontvangen van overheden en publieke fondsen, voor zover deze geen directe relatie hebben met de
+levering van zorgprestaties. Het betreft onder meer bijdragen voor specifieke projecten, beleidsdoelen of tijdelijke stimuleringsregelingen. Subsidies
+worden als bate verantwoord in het boekjaar waarop de gesubsidieerde kosten betrekking hebben. Voor zover subsidies per balansdatum nog niet
+volledig zijn besteed, is het niet-bestede deel verantwoord als vooruitontvangen bedrag onder de kortlopende schulden.
+
+LASTEN
+
+10. Kosten uitbesteed werk en andere externe kosten
+
+De kosten uitbesteed werk en andere externe kosten kunnen als volgt worden gespecificeerd:
+
+2025 2024
+€ €
+Kosten ingehuurd personeel/uitzendkrachten 614.803 826.995
+Totaal 614.803 826.995
+De afname van de kosten voor ingehuurd personeel wordt voornamelijk verklaard door minder inzet van
+externe capaciteit binnen ICT en Communicatie.
+11. Lonen en salarissen
+De lonen en salarissen kunnen als volgt worden gespecificeerd:
+2025 2024
+€ €
+Lonen en salarissen 11.757.325 10.177.029
+Totaal 11.757.325 10.177.029
+Het gemiddelde aantal personeelsleden op basis van full-time eenheden (fte's) is als volgt:
+Regioteams 116 106
+Geriant-Kiniek 26 23
+Algemeen, Bedrijfsbureau en Geriant Kenniscentrum Dementie 20 17
+
+163 146
+
+13
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+12. Afschrijvingen op materiële vaste activa
+
+De afschrijvingen op materiële vaste activa kunnen als volgt worden gespecificeerd:
+
+2025 2024
+
+€ €
+
+Afschrijvingen:
+Materiële vaste activa 60.125 56.412
+Totaal afschrijvingen 60.125 56.412
+13. Overige bedrijfskosten
+De overige bedrijfskosten kunnen als volgt worden gespecificeerd:
+
+2025 2024
+
+€ €
+
+Voedingsmiddelen en hotelmatige kosten 265.015 258.055
+Patiënt- en bewonersgebonden kosten 153.228 143.229
+Overige personeelskosten 436.526 357.613
+Algemene kosten 2.107.498 1.745.295
+Huur en leasing 476.157 809.495
+Onderhoudskosten 290.609 168.549
+Energiekosten 13.363 76.631
+Totaal overige bedrijfskosten 3.742.395 3.558.868
+De stijging van de overige personeelskosten in het verslagjaar houdt voornamelijk verband met eenmalige uitgaven in het kader van de
+jubileumviering van Geriant en heeft daarmee een incidenteel karakter. Daarnaast zijn de algemene kosten toegenomen door extra inhuur van
+externe expertise voor de uitvoering van projecten die voortvloeien uit het meerjarenbeleidsplan. De onderhoudskosten in 2025 hebben betrekking
+op regulier onderhoud aan het pand en zijn rechtstreeks ten laste van het resultaat gebracht; de werkzaamheden zijn gericht op instandhouding en
+betreffen geen investeringen.
+
+14. Andere rentebaten en soortgelijke opbrengsten
+
+De andere rentebaten en soortgelijke opbrengsten kunnen als volgt worden gespecificeerd:
+2025 2024
+€ €
+Rentebaten 63.457 10.670
+Totaal 63.457 10.670
+15. Rentelasten en soortgelijke kosten
+De rentelasten en soortgelijke kosten kunnen als volgt worden gespecificeerd:
+2025 2024
+€ €
+Rentelasten 0 0
+Bankkosten -2.163 -3.043
+Totaal -2.163 -3.043
+16. Honoraria accountant
+De honoraria van de accountant over 2025 zijn als volgt:
+2025 2024
+€ €
+1. Controle van de jaarrekening 51.404 49.529
+2. Overige controlewerkzaamheden 0 0
+3. Fiscale advisering 2.553 1.083
+4. Niet-controlediensten 0 0
+53.957 50.611
+Toelichting:
+De in de tabel vermelde honoraria voor de controle van de jaarrekening 2025 hebben betrekking op de totale honoraria voor het onderzoek van de
+jaarrekening 2025, ongeacht of de werkzaamheden al gedurende het boekjaar 2025 zijn verricht.
+
+14
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+De bezoldiging van de leden van de Raad van Bestuur (en overige topfunctionarissen) over het jaar 2025 is als volgt:
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder dienstbetrekking vanaf de
+
+13e maand van de functievervulling
+
+1 Functie (functienaam)
+
+2 In dienst vanaf (datum begin functievervulling)
+
+3 In dienst tot en met (datum einde functievervulling)
+
+4 (Fictieve) dienstbetrekking
+
+5 Deeltijdfactor (minimaal 0,025 fte)
+
+6 Beloning plus belastbare onkostenvergoedingen
+
+7 Voorzieningen ten behoeve van beloningen betaalbaar op termijn
+8 Totale bezoldiging uit hoofde van de functie van topfunctionaris
+
+9 Individueel toepasselijk bezoldigingsmaximum
+
+Vergelijkende gegevens 2024
+1 In dienst vanaf (datum begin functievervulling)
+2 In dienst tot en met (datum einde functievervulling)
+3 (Fictieve) dienstbetrekking
+4 Deeltijdfactor (minimaal 0,025 fte)
+5 Beloning plus belastbare onkostenvergoedingen
+6 Voorzieningen ten behoeve van beloningen betaalbaar op termijn
+7 Totale bezoldiging uit hoofde van de functie van topfunctionaris
+
+8 Individueel toepasselijk bezoldigingsmaximum
+Toezichthoudende topfunctionarissen
+Functie (functienaam)
+
+In dienst vanaf (datum begin functievervulling)
+
+In dienst tot en met (datum einde functievervulling)
+Totale bezoldiging in het kader van de WNT
+
+B WN
+
+ui
+
+Individueel toepasselijk bezoldigingsmaximum
+
+Vergelijkende gegevens 2024
+
+In dienst vanaf (datum begin functievervulling)
+
+In dienst tot en met (datum einde functievervulling)
+Totale bezoldiging in het kader van de WNT
+
+wN Ee
+
+RN
+
+Individueel toepasselijk bezoldigingsmaximum
+
+Functie (functienaam)
+
+In dienst vanaf (datum begin functievervulling)
+
+In dienst tot en met (datum einde functievervulling)
+Totale bezoldiging in het kader van de WNT
+
+B WN
+
+ui
+
+Individueel toepasselijk bezoldigingsmaximum
+
+Vergelijkende gegevens 2024
+
+In dienst vanaf (datum begin functievervulling)
+
+In dienst tot en met (datum einde functievervulling)
+Totale bezoldiging in het kader van de WNT
+
+wN Ee
+
+RN
+
+Individueel toepasselijk bezoldigingsmaximum
+
+Toelichting
+
+mevrouw S. Zuidhof-
+van Arkel
+
+Bestuurder
+
+12-aug-24
+
+heden
+
+Ja
+
+1,00
+
+185.016
+
+15.984
+
+201.000
+
+226.000
+
+12-aug-24
+31-dec-24
+Ja
+
+1,00
+67.481
+6.231
+73.712
+
+83.027
+
+mevrouw P.M.E. van de heer H.G. de heer P.D.
+Dam Poortman Meesters
+Voorzitter RvT Lid RvT Lid RvT
+
+1-jun-22 1-okt-20 1-okt-20
+
+heden heden 31-dec-25
+
+18.090 12.060 12.060
+
+33.900 22.600 22.600
+
+1-jan-24 1-jan-24 1-jan-24
+31-dec-24 31-dec-24 31-dec-24
+
+14.250 9.500 9.500
+
+32.100 21.400 21.400
+
+de heer P. Lips
+
+mevrouw BJ.H.
+Vulto-Brinkhuijsen
+
+Lid RvT Lid RvT
+1-mrt-21 1-jan-23
+heden heden
+10.050 12.060
+22.600 22.600
+1-jan-24 1-jan-24
+31-dec-24 31-dec-24
+9.500 9.500
+21.400 21.400
+
+Indien Klassenindeling Zorg: De Raad van Toezicht/Commissarissen heeft conform de Regeling Bezoldigingsmaxima Topfunctionarissen Zorg en
+Jeugdhulp aan Stichting Geriant een totaalscore van 10 punten toegekend. De daaruit volgende klassenindeling betreft klasse IV, met een
+bijbehorend bezoldigingsmaximum voor de Raad van Bestuur van € 226.000. Dit maximum wordt niet overschreden door de Raad van Bestuur.
+Het bijbehorende bezoldigingsmaximum voor de voorzitter van de Raad van Toezicht/Commissarissen bedraagt € 33.900 en voor de overige
+leden van de Raad van Toezicht/Commissarissen € 22.600. Deze maxima worden niet overschreden.
+
+2.7 VASTSTELLING EN GOEDKEURING
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in de winst- en verliesrekening.
+
+Gebeurtenissen na balansdatum
+Gebeurtenissen na balansdatum met een bijzonder effect op de situatie per balansdatum zijn in de jaarrekening
+
+verwerkt. Er zijn geen andere gebeurtenissen na balansdatum die van belang zijn voor de oordeelsvorming van de
+gebruikers van de jaarrekening.
+
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Geriant heeft de jaarrekening 2025 opgemaakt en vastgesteld in de
+vergadering van 21 mei 2026, onder gelijktijdige goedkeuring daarvan door de raad van toezicht.
+
+Ondertekening door bestuurders en toezichthouders
+
+W.G. W.G.
+P.M.E. van Dam 21-5-2026 H.G. Poortman 21-5-2026
+Voorzitter Raad van Toezicht Lid Raad van Toezicht
+
+W.G. W.G.
+
+P. Lips 21-5-2026 B.J.H. Vulto 21-5-2026
+Lid Raad van Toezicht Lid Raad van Toezicht
+
+W.G. W.G.
+
+E.J.M. Hoek 21-5-2026 D. Rhebergen 21-5-2026
+Lid Raad van Toezicht Lid Raad van Toezicht
+
+W.G.
+
+S. Zuidhof 21-5-2026
+
+Bestuurder
+
+16
+
+3 OVERIGE GEGEVENS
+
+17
+
+3 OVERIGE GEGEVENS
+3.1 Nevenvestigingen en handelsnamen
+
+Geriant voert tevens activiteiten uit bij de volgende locaties :
+
+James Wattstraat 10 A, 1817 DC Alkmaar _ (Geriant Noord-Kennemerland Zuid)
+Marsdiepstraat 621 A, 1784 AM Den Helder (Geriant Kop van Noord-Holland)
+Lepelaar 4, 1628 CZ Hoorn (Geriant West-Friesland)
+
+3.3 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina.
+
+18

@@ -112,5 +112,31 @@ check(
     {"kvk", "naam", "wisselvlag", "honorarium_controle"} <= set(VELDPATRONEN),
 )
 
+# De jaargang 2024 (vierdelige export, geïnspecteerd 22-8-2026) verschilt op twee
+# punten van 2023: de naam-/plaatskolommen hebben een Lrza-variant die vóór de
+# gewone staat, en de AGB-zorgsoortkolommen zijn vervangen door SBI-codes.
+KOPRIJ_2024 = [
+    "Code\nConcernCode",
+    "Kvk-nummer\nExternalOrganizationId",
+    "Naam (LRZA)\nqNawNaamLrza",
+    "Naam van de organisatie\nqNawNaam",
+    "Vestigingsplaats (LRZA)\nqNawPlaatsLrza",
+    "SBI-code\nqSbiCode_1",
+    "SBI-omschrijving\nqSbiText_1",
+    "Opbrengsten zorgprestaties\nqBatenZorg_0",
+]
+k2024 = _zoek_kolommen(KOPRIJ_2024)
+check(
+    "2024: de naam wordt gevonden (qNawNaamLrza past op het qNawNaam-patroon)",
+    k2024["velden"].get("naam") == 2,
+)
+check("2024: de plaats komt uit de Lrza-kolom", k2024["velden"].get("plaats") == 4)
+check("2024: de omzet wordt gevonden", k2024["velden"].get("omzet") == 7)
+check(
+    "2024: SBI-kolommen worden NIET als zorgsoort aangezien — subsector hoort "
+    "leeg te blijven, geen vergaarbak",
+    k2024["zorgsoort"] == [],
+)
+
 print(f"{goed}/{goed + fout} goed")
 sys.exit(1 if fout else 0)

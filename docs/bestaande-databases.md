@@ -205,6 +205,17 @@ vervolgstap. Bouwvolgorde als deze sector aan de beurt is: (1) seed met de
 grootste twintig fondsen × beschikbare jaren, (2) lader naar het bestaande
 model met sector "pensioenfondsen", (3) daarna de staart van kleinere fondsen.
 
+**Gebouwd op 22-8-2026.** `seed/pensioenfondsen.csv` (26 met de hand
+geverifieerde jaarverslag-URL's: ABP en PFZW elk 2015–2025, bpfBOUW 2023–2025,
+PME 2025), `laad_pensioenfondsen.py` (hergebruikt de verklaring-extractie;
+geen match → review-queue) en de workflow **Pensioenfondsen laden**
+(dispatch-knop; nog niet in "Alles verversen"). End-to-end geproefd op ABP
+2024: KPMG Accountants N.V., goedkeurend, wettelijke_controle. De seed groeit
+fonds voor fonds — kandidaten voor de volgende ronde: PMT, PME oudere jaren,
+bpfBOUW vóór 2023, Pensioenfonds Detailhandel, Vervoer, PGB, Rabobank, Shell
+(SSPF), Philips, SPW, Horeca & Catering, APG/ABN AMRO/ING-fondsen, de drie
+KLM-fondsen, SPMS en SPH; het DNB-register is de dekkingslijst.
+
 ## 4. Commercieel: Audit Analytics Europe (en Orbis, Company.info)
 
 **Audit Analytics Europe** (Ideagen) is het dichtst bij "onze database": opdrachten en
