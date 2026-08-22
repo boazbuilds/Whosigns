@@ -1,0 +1,264 @@
+# whosigns-ocr v1 grootte=215029 dpi=300 paginas=20
+Balans en winst-en-verliesrekening met toelichting
+
+ACTIVA
+Omschrijving 31-12-2024 31-12-2023
+VASTE ACTIVA
+Materiële vaste activa
+Gebouwen en terreinen
+0005 Bedrijfspand 205.073,00 214.593,00
+0010 Verbouwing bedrijfspand 20.563,00 24.683,00
+0011 Inrichting bedrijfspand 0,00 162,00
+Totaal Gebouwen en terreinen 225.636,00 239.438,00
+Machines en installaties (inventaris)
+0020 Machines & installaties 3.008,00 4.011,00
+0050 Inventaris 8.223,00 4.144,00
+Totaal Machines en installaties (inventaris) 11.231,00 8.155,00
+Totaal Materiële vaste activa 236.867,00 247.593,00
+Financiële vaste activa
+Deelnemingen in groepsmaatschappijen
+0200 Aandeel VvE [2/12 deel] 10.640,00 8.513,17
+Totaal Deelnemingen in groepsmaatschappijen 10.640,00 8.513,17
+Overige vorderingen
+0100 Waarborgsom 1 600,00 0,00
+Totaal Overige vorderingen 600,00 0,00
+Totaal Financiële vaste activa 11.240,00 8.513,17
+Totaal VASTE ACTIVA 248.107,00 256.106,17
+VLOTTENDE ACTIVA
+Vorderingen
+Handelsdebiteuren
+1000 Debiteuren 49.565,17 26.921,66
+Totaal Handelsdebiteuren 49.565,17 26.921,66
+Totaal Vorderingen 49.565,17 26.921,66
+Totaal VLOT TENDE ACTIVA 49.565,17 26.921,66
+LIQUIDE MIDDELEN
+Liquide middelen
+Banktegoeden
+1140 ING Toprekening NL91.INGB.000.4789.20 112.014,25 65.206,36
+1150 ING betaalrek. NL91.INGB.0000.4789.20 1.633,97 3.165,25
+Totaal Banktegoeden 113.648,22 68.371,61
+Totaal Liquide middelen 113.648,22 68.371,61
+Totaal LIQUIDE MIDDELEN 113.648,22 68.371,61
+Totaal ACTIVA 411.320,39 351.399,44
+21-03-2025 16:07 Praktijk Grip op Groei (MVL50038) / Acc. & Bel.adv. Silvis & Vos Blad: 1
+
+Balans en winst-en-verliesrekening met toelichting
+
+PASSIVA
+
+Omschrijving 31-12-2024 31-12-2023
+
+EIGEN VERMOGEN
+Eigen vermogen
+Vermogen firmant 1
+
+0600 Bedrijfsvermogen Linda 14.281,47 50.605,80
+0605 Winst/verlies Linda 157.515,05 87.821,00
+0611 A.O.V. inkomsten 0,00 1.462,77
+0645 Lijfrente premie -36.000,00 0,00
+0646 A.O.V. premie -2.444,08 -2.265,68
+0650 Inkomstenbelasting -23.984,00 -27.237,00
+0651 Zorgtoeslag / ZVW -3.534,00 -3.719,00
+0675 Gewone privé uitgaven Linda -33.258,76 -32.105,91
+0676 Autokosten -1.599,23 -2.394,38
+0682 Privé-gebruik telefoon/aangifte -400,00 -136,13
+0693 Overige kapitaal mutaties -42.500,00 -57.750,00
+Totaal Vermogen firmant 1 28.076,45 14.281,47
+Vermogen firmant 2
+0700 Bedrijfsvermogen Ada 327.258,03 326.729,09
+0705 Winst/verlies Ada 34.957,68 23.866,06
+0775 Gewone privé uitgaven Ada 0,00 -26.441,00
+0782 Privé-gebruik telefoon/aangifte 0,00 -136,12
+Totaal Vermogen firmant 2 362.215,71 324.018,03
+Totaal Eigen vermogen 390.292,16 338.299, 50
+Onverdeeld resultaat
+Resultaat
+0554 Winst lopend boekjaar 0,00 0,00
+Totaal Resultaat 0,00 0,00
+Totaal Onverdeeld resultaat 0,00 0.00
+Totaal EIGEN VERMOGEN 390.292,16 338.299,50
+
+KORTLOPENDE SCHULDEN
+Schulden aan leveranciers
+Crediteuren
+
+1500 Handelscrediteuren 11.466,37 5.735,50
+Totaal Crediteuren 11.466,37 5./35,50
+Totaal Schulden aan leveranciers 11.466,37 5.735,50
+Belastingen en premies sociale verzekeringen
+Loonheffing
+1800 Afdracht Loonheffing 5.206,21 2.941,00
+Totaal Loonheffing 5.206,21 2.941,00
+Bedrijfsvereniging
+1851 Afdracht B.T.E.R. 71,40 20,39
+Totaal Bedrijfsvereniging 71,40 20,39
+Pensioenpremies
+1850 Afdracht pensioenpremies 2.728,41 2.075,21
+Totaal Pensioenpremies 2.728,41 2.075,21
+Overige belastingen
+1855 [leeg] 97,33 39,23
+Totaal Overige belastingen 97,33 39,23
+Totaal Belastingen en premies sociale verzekeringen 8.109,35 5.075,83
+
+Overlopende passiva
+Personeelskosten
+
+2015 Gereserveerd vakantiegeld 2.780,91 1.907,17
+2016 Gereserveerde soc.lst. vakantiegeld 556,20 381,44
+2020 Einde jaar uitkering/Gratificaties -0,02 0,00
+2031 Ziekengeldverzekering -1.884,58 0,00
+Totaal Personeelskosten 1.452,51 2.288,61
+
+21-03-2025 16:07 Praktijk Grip op Groei (MVL50038) / Acc. & Bel.adv. Silvis & Vos Blad: 2
+
+Balans en winst-en-verliesrekening met toelichting
+
+PASSIVA
+Omschrijving 31-12-2024 31-12-2023
+Totaal Overlopende passiva 145251 2.288,61
+Totaal KORTLOPENDE SCHULDEN 21.028,23 13.099,94
+_411.320,39 ___351.399,44
+
+Totaal PASSIVA
+
+21-03-2025 16:07 Praktijk Grip op Groei (MVL50038) / Acc. & Bel.adv. Silvis & Vos Blad: 3
+
+Balans en winst-en-verliesrekening met toelichting
+
+KOSTEN
+Omschrijving 31-12-2024 31-12-2023
+PERSONEELSKOSTEN
+Loonkosten
+Lonen en salarissen
+4010 Bruto salarissen 66.981,67 24.037,88
+4015 Reservering vakantiegeld 873,74 1.907,17
+4016 Reservering sociale lasten vakantiegeld 174,76 381,43
+4020 Einde jaar uitkering/Gratificaties 5.592,14 2.136,98
+Totaal Lonen en salarissen 73.622,31 28.463,46
+Sociale lasten
+4030 Sociale lasten 14.703,60 5.173,81
+4031 Ziekengeldverzekering / Arbo 1.421,03 698,10
+4051 Bedrijfstak Eigen regeling 57,01 20,39
+Totaal Sociale lasten 16.181,64 5.892,30
+Pensioenlasten
+4050 Pensioenpremies 6.920,93 2.693,26
+Totaal Pensioenlasten 6.920,93 2.693,26
+Personeelskosten
+4070 Reiskosten woon/werk 2.480,54 944,24
+4075 Studies/Opleidingen/Cursus 823,00 0,00
+4085 Kantinekosten 798,97 1.081,48
+4090 Overige personeelskosten 1.382,51 741,40
+Totaal Personeelskosten 5.485,02 2.767,12
+Totaal Loonkosten 102.209,90 39.816,14
+Totaal PERSONEELSKOSTEN 102.209,90 39.816,14
+AFSCHRIJVINGEN
+Materiële vaste activa
+Afschrijvingen materiële vaste activa
+4905 Afschrijving bedrijfspand 9.520,00 9.520,00
+4910 Afschrijving verbouwing bedrijfspand 4.120,00 4.120,00
+4911 Afschrijving inrichting bedrijfspand 162,00 217,00
+4920 Afschrijving machines & installaties 1.505,35 1.366,80
+4950 Afschrijving inventaris 1.767,75 1.146,87
+Totaal Afschrijvingen materiële vaste activa 17.075,10 16.370,67
+Totaal Materiële vaste activa 17.075,10 16.370,67
+Totaal AFSCHRIJVINGEN 17.075,10 16.370,67
+OVERIGE BEDRIJFSKOSTEN
+Huisvestingskosten
+Huisvestingskosten
+4100 Huur bedrijfsruimte 3.663,04 2.034,00
+4110 Onderhoud bedrijfsgebouwen 834,82 393,24
+4115 Netto bijdrage VvE -2.126,83 1.164,97
+4130 Belastingen onroerende zaken 1.213,08 1.215,50
+4140 Energie / water 6.174,69 1.768,93
+4190 Overige huisvestingskosten 2.739,60 0,00
+Totaal Huisvestingskosten 12.498,40 6.576,64
+Totaal Huisvestingskosten 12.498,40 6.576,64
+Inventariskosten
+inventariskosten
+4210 Onderhoud/reparatie inventaris en-machines 3.468,28 3.527,78
+Totaal Inventariskosten 3.468,28 3.527,78
+Totaal Inventariskosten 3.468,28 3.527,78
+Kantoorkosten
+Kantoorkosten
+4510 Telefoon 751,64 1.302,70
+4520 Porti 55,85 62,58
+21-03-2025 16:07 Praktijk Grip op Groei (MVL50038) / Acc. & Bel.adv. Silvis & Vos Blad: 4
+
+Balans en winst-en-verliesrekening met toelichting
+
+KOSTEN
+Omschrijving 31-12-2024 31-12-2023
+4530 Kontributies/Heffingen/Abonnementen 9.782,22 6.193,00
+4531 Opleidingskosten 64,04 3.545,00
+4550 Kantoorbenodigdheden/drukwerk 645,87 1.143,40
+4560 Automatiseringskosten 1.559,89 2.681,85
+Totaal Kantoorkosten 12.859,51 14.928,53
+Totaal Kantoorkosten 12.859,51 14.928,53
+Vervoerskosten
+Vervoerskosten
+4390 Overige kosten vervoermiddelen 690,00 504,00
+Totaal Vervoerskosten 690,00 504,00
+Totaal Vervoerskosten 690,00 504,00
+Verkoopkosten
+Verkoopkosten
+4400 Reklame- en advertentiekosten 605,89 2.363,86
+4440 Representatiekosten 1.122,37 1.110,30
+Totaal Verkoopkosten 1.728,26 3.474,16
+Totaal Verkoopkosten 1.728,26 3.474,16
+Algemene kosten
+Algemene kosten
+4500 Accountantskosten 4.174,55 4.192,67
+4540 Overige bedrijfsverzekeringen 1.164,56 1.072,08
+4580 Bankkosten rekening-courant 74,10 68,80
+4595 Overige algemene kosten n/a 480,00 548,00
+Totaal Algemene kosten 5.893,21 5.881,55
+Totaal Algemene kosten 5.893,21 5.881,55
+Totaal OVERIGE BEDRIJFSKOSTEN 37.137,66 34.892,66
+Saldo winst 195.712,73 111.687,06
+Totaal KOSTEN 352.135,39 202.766,53
+21-03-2025 16:07 Praktijk Grip op Groei (MVL50038) / Acc. & Bel.adv. Silvis & Vos Blad: 5
+
+Balans en winst-en-verliesrekening met toelichting
+
+OPBRENGSTEN
+Omschrijving 31-12-2024 31-12-2023
+BRUTOMARGE
+Netto omzet
+Omzet
+8000 Omzet Incluzio 376.375,04 270.804,65
+8005 Omzet Gemeente Schagen 60.588,00 5.220,00
+8009 Omzet gemeente Hoorn 0,00 525,00
+8011 Omzet gemeente Den Helder 10.584,00 0,00
+8013 Omzet Pluzorg 4.370,00 5.130,00
+8014 Omzet stg. Blosse Onderwijs 2.600,00 1.621,25
+8015 Omzet partic. klanten 285,00 1.047,50
+8016 Omzet gemeente Groningen 0,00 1.486,88
+8017 Omzet gemeente Stede Broec 4.725,00 0,00
+8018 Omzet gemeente Texel 4.284,00 0,00
+8019 Omzet gemeente Heerhugowaard 950,00 0,00
+8100 Verhuur ruimte Sicco Mansholt 1.815,00 15.670,31
+Totaal Omzet 466.576,04 301.505,59
+Totaal Netto omzet 466.576,04 301.505,59
+Kostprijs van de omzet
+Inkoopwaarde van de omzet
+7000 Inkopen hoog -1.057,70 -1.572,80
+Totaal Inkoopwaarde van de omzet -1.057,70 -1.572,80
+Werk door derden
+7890 Werk door derden -107.466,84 -90.612,85
+Totaal Werk door derden -107.466,84 -90.612,85
+Totaal Kostprijs van de omzet -114.524,54 -98.185,65
+Totaal BRUTOMARGE 352.051,50 203.319,94
+FINANCIËLE BATEN EN LASTEN
+Financiële baten en lasten
+Rentebaten
+9052 Rente deposito's 83,89 -553,41
+Totaal Rentebaten 83,89 -553,41
+Totaal Financiële baten en lasten 83,89 -553,41
+Totaal FINANCIËLE BATEN EN LASTEN 83,89 -553,41
+Totaal OPBRENGSTEN 352.135,39 202.766,53
+
+Acc. & Bel.adv. Silvis & Vos - Gebruikersnaam: Christiaan van Splunter / Geen accountantscontrole toegepast
+
+21-03-2025 16:07 Praktijk Grip op Groei (MVL50038) / Acc. & Bel.adv. Silvis & Vos
+
+Blad: 6

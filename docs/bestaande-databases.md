@@ -189,6 +189,22 @@ het de bestaande extractie. Een compacte sector met vrijwel volledige dekking en
 grote namen (ABP, PFZW, PMT) — journalistiek interessant omdat de fondsenmarkt
 door een handvol kantoren wordt bediend.
 
+**Proef gedaan op 21-8-2026, en de route werkt.** Het ABP-jaarverslag over
+boekjaar 2025 (abp.nl publiceert 2018 t/m 2025 als losse pdf's, één fonds is dus
+meteen acht boekjaren) is gedownload en door de éigen extractie gehaald,
+ongewijzigd:
+
+    kantoor       KPMG Accountants N.V.
+    oordeel       goedkeurend
+    opdrachttype  wettelijke_controle
+    tekenaar      niet gevonden (leeg gelaten — geen gok)
+    honoraria     aanwezig als 382a-noot ("De honoraria van het netwerk…")
+
+Alles wat de zorgroute kan, kan hier dus ook, inclusief honoraria als
+vervolgstap. Bouwvolgorde als deze sector aan de beurt is: (1) seed met de
+grootste twintig fondsen × beschikbare jaren, (2) lader naar het bestaande
+model met sector "pensioenfondsen", (3) daarna de staart van kleinere fondsen.
+
 ## 4. Commercieel: Audit Analytics Europe (en Orbis, Company.info)
 
 **Audit Analytics Europe** (Ideagen) is het dichtst bij "onze database": opdrachten en
