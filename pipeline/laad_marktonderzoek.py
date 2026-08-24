@@ -243,11 +243,11 @@ def main() -> int:
             for rij in db.selecteer_alles("kantoren", "select=id,sleutel")
             if rij.get("sleutel")
         }
-        # Ook naam, sector, sbi_code en gemeente voorladen: de verrijking
-        # hieronder mag alleen lege velden invullen en moet de gevulde dus
-        # kunnen zien — en ongewijzigd mee terugsturen.
+        # Ook sector, sbi_code en gemeente voorladen: de verrijking hieronder
+        # vult alleen velden die nog leeg zijn, dus die moet kunnen zien wat
+        # er al staat.
         for rij in db.selecteer_alles(
-            "organisaties", "select=id,kvk_nummer,naam,sector,sbi_code,gemeente"
+            "organisaties", "select=id,kvk_nummer,sector,sbi_code,gemeente"
         ):
             if rij.get("kvk_nummer"):
                 org_per_kvk[rij["kvk_nummer"]] = rij
@@ -334,34 +334,40 @@ def main() -> int:
             info["plaats"] = info["plaats"] or rij["plaats"]
 
         # Verrijking van bestaande organisaties: sbi_code, gemeente en (uit de
-        # SBI) de sector, maar alléén velden die nog leeg zijn — wat een
-        # documentbron of een mens invulde blijft staan. De upsert stuurt de
-        # gevulde waarden en de naam ongewijzigd mee terug, zodat
-        # merge-duplicates niets anders aanraakt.
-        verrijking: list[dict] = []
+        # SBI) de sector, alléén op velden die nog leeg zijn. Geen upsert met
+        # een teruggestuurde momentopname: tussen het voorladen en het
+        # schrijven zit de hele herleidingsdoorloop, en na een merge draaien
+        # meerdere laders tegelijk — een upsert zou een intussen gevulde
+        # sector stil terugdraaien naar de oude waarde. Daarom een update per
+        # doelwaarde met `is.null` in het filter: de database zelf bewaakt dat
+        # alleen lege velden gevuld worden, wat er intussen ook gebeurd is.
+        vul: dict[str, dict[int, str]] = {"sector": {}, "sbi_code": {}, "gemeente": {}}
         for kvk, info in aangeleverd_per_kvk.items():
             org = org_per_kvk.get(kvk)
             if org is None:
                 continue
-            sector = org.get("sector") or sector_uit_sbi(info["sbi"])
-            sbi = org.get("sbi_code") or (info["sbi"] or None)
-            gemeente = org.get("gemeente") or (info["plaats"] or None)
-            if (
-                sector == org.get("sector")
-                and sbi == org.get("sbi_code")
-                and gemeente == org.get("gemeente")
-            ):
-                continue
-            verrijking.append(
-                {
-                    "kvk_nummer": kvk,
-                    "naam": org["naam"],
-                    "sector": sector,
-                    "sbi_code": sbi,
-                    "gemeente": gemeente,
-                }
-            )
-        verrijkt = db.upsert("organisaties", verrijking, "kvk_nummer")
+            if not org.get("sector"):
+                sector = sector_uit_sbi(info["sbi"])
+                if sector:
+                    vul["sector"][org["id"]] = sector
+            if not org.get("sbi_code") and info["sbi"]:
+                vul["sbi_code"][org["id"]] = info["sbi"]
+            if not org.get("gemeente") and info["plaats"]:
+                vul["gemeente"][org["id"]] = info["plaats"]
+        verrijkt = len(vul["sector"].keys() | vul["sbi_code"].keys() | vul["gemeente"].keys())
+        for veld, waarde_per_id in vul.items():
+            per_waarde: dict[str, list[int]] = {}
+            for org_id, waarde in waarde_per_id.items():
+                per_waarde.setdefault(waarde, []).append(org_id)
+            for waarde, ids in per_waarde.items():
+                # Blokken houden de URL onder de lengtegrens van de server.
+                for begin in range(0, len(ids), 200):
+                    blok = ",".join(str(i) for i in sorted(ids[begin : begin + 200]))
+                    db.bijwerken(
+                        "organisaties",
+                        f"id=in.({blok})&{veld}=is.null",
+                        {veld: waarde},
+                    )
 
         # Nieuwe organisaties in bulk, zonder bestaande te overschrijven: een
         # naam uit een documentbron is beter dan die uit een aanlevering.
