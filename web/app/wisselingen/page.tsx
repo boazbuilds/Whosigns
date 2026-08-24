@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { kantoorRanglijst, wisselingen } from "@/lib/db";
+import {
+  kantoorRanglijst,
+  oordelenVoorafAanWissels,
+  wisselingen,
+} from "@/lib/db";
 import { saldoPerKantoor } from "@/lib/analyse";
 import {
   aantalJaren,
   aantalWisselingen,
   hoofdletter,
   kantoorPad,
+  OORDEEL_LABEL,
   organisatiePad,
   sectorPad,
 } from "@/lib/paden";
@@ -66,6 +71,28 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
   // terug op het nieuwste jaar in plaats van een lege pagina.
   const gekozen = jaren.includes(Number(jaar)) ? Number(jaar) : jaren[0] ?? null;
   const getoond = gekozen === null ? [] : perJaar.get(gekozen)!;
+
+  // Het oordeel uit het boekjaar vóór elke getoonde wisseling: volgens de
+  // opinion-shopping-literatuur wisselen organisaties vaker na slecht
+  // nieuws, en dat is hier per wisseling gewoon opzoekbaar. Alleen voor het
+  // gekozen jaar, anders kost het tientallen verzoeken.
+  let vooraf;
+  try {
+    vooraf = await oordelenVoorafAanWissels(getoond);
+  } catch (fout) {
+    return <Foutmelding fout={fout} />;
+  }
+  const slechtNieuws = (w: { organisatie_id: number }) => {
+    const stand = vooraf.get(`${w.organisatie_id}-${gekozen}`);
+    if (!stand) return null;
+    const nietGoed = stand.oordeel !== null && stand.oordeel !== "goedkeurend";
+    if (!nietGoed && !stand.continuiteitsonzekerheid) return null;
+    return {
+      oordeel: nietGoed ? stand.oordeel : null,
+      continuiteit: stand.continuiteitsonzekerheid,
+    };
+  };
+  const naSlechtNieuws = getoond.filter((w) => slechtNieuws(w)).length;
 
   return (
     <>
@@ -149,6 +176,28 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
                 ) : (
                   <span className="zacht">?</span>
                 )}
+                {(() => {
+                  // Het label staat in de Van-kolom: dát kantoor gaf de
+                  // verklaring waarna de organisatie vertrok.
+                  const slecht = slechtNieuws(w);
+                  if (!slecht) return null;
+                  const delen = [
+                    ...(slecht.oordeel
+                      ? [OORDEEL_LABEL[slecht.oordeel] ?? slecht.oordeel]
+                      : []),
+                    ...(slecht.continuiteit ? ["continuïteitsonzekerheid"] : []),
+                  ];
+                  return (
+                    <div className="klein">
+                      <span
+                        className="label label-let-op"
+                        title={`De verklaring over boekjaar ${gekozen - 1} was niet zonder meer goedkeurend; daarna wisselde de organisatie van kantoor.`}
+                      >
+                        na {delen.join(" + ")}
+                      </span>
+                    </div>
+                  );
+                })()}
               </td>
               <td>
                 {w.naar ? (
@@ -172,8 +221,23 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
             <section className="kaart" id={`jaar-${gekozen}`}>
               <div className="kaartkop">
                 <h2>Boekjaar {gekozen}</h2>
-                <span className="klein zacht">{aantalWisselingen(getoond.length)}</span>
+                <span className="klein zacht">
+                  {aantalWisselingen(getoond.length)}
+                  {naSlechtNieuws > 0
+                    ? ` · ${naSlechtNieuws} na een niet zonder meer goedkeurende verklaring`
+                    : ""}
+                </span>
               </div>
+              {naSlechtNieuws > 0 ? (
+                <p className="klein zacht" style={{ marginTop: 0 }}>
+                  Het rode label markeert wisselingen waar de verklaring over het
+                  boekjaar ervóór niet zonder meer goedkeurend was (beperking,
+                  oordeelonthouding, afkeurend of continuïteitsonzekerheid) — het
+                  patroon dat de literatuur &ldquo;opinion shopping&rdquo; noemt.
+                  Een label is een gelezen verklaring, geen verklaring vóór de
+                  wisselreden.
+                </p>
+              ) : null}
               <div className="tabel-omhulsel">
                 <table>
                   {kop}

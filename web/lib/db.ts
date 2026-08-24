@@ -1026,3 +1026,70 @@ export async function dagvraag(datum: string): Promise<Dagvraag | null> {
     kantoor: rij.kantoren,
   };
 }
+
+/** Het documentoordeel in het boekjaar vóór een wisseling. */
+export type OordeelVooraf = {
+  oordeel: string | null;
+  continuiteitsonzekerheid: boolean;
+};
+
+/**
+ * Per wisseling het oordeel uit het boekjaar ervóór, als kaart
+ * `organisatie_id-boekjaar_wissel` -> oordeel + continuïteitsvlag.
+ *
+ * De opinion-shopping-literatuur (Chow & Rice 1982; Lennox 2000): na een
+ * niet-goedkeurende verklaring of een continuïteitspassage wisselen
+ * organisaties aantoonbaar vaker. Dit haalt precies dat ene datapunt op,
+ * zodat de wisselingenpagina het als label kan tonen. Alleen het
+ * documentoordeel telt — een eigen opgave van de organisatie is geen
+ * gelezen verklaring. WNT- en productieverantwoordingen doen niet mee:
+ * hun oordeel gaat niet over de jaarrekening. Binnen een boekjaar wint de
+ * wettelijke controle van de vrijwillige, en die weer van "voorwerp
+ * onbekend" — dezelfde voorrang als elders.
+ */
+export async function oordelenVoorafAanWissels(
+  wissels: { organisatie_id: number; boekjaar_wissel: number }[],
+): Promise<Map<string, OordeelVooraf>> {
+  const VOORRANG = ["wettelijke_controle", "vrijwillige_controle", "controle_onbepaald"];
+  const perJaar = new Map<number, Set<number>>();
+  for (const w of wissels) {
+    const jaar = w.boekjaar_wissel - 1;
+    if (!perJaar.has(jaar)) perJaar.set(jaar, new Set());
+    perJaar.get(jaar)!.add(w.organisatie_id);
+  }
+  const uit = new Map<string, OordeelVooraf & { voorrang: number }>();
+  for (const [jaar, ids] of perJaar) {
+    const alle = [...ids];
+    // Zelfde blokgrens als haalOpId: een URL met duizenden nummers wordt
+    // geweigerd, en 200 organisaties met elk hooguit drie opdrachttypen
+    // blijven ruim onder de duizend rijen per antwoord.
+    for (let i = 0; i < alle.length; i += PER_OPZOEKVERZOEK) {
+      const blok = alle.slice(i, i + PER_OPZOEKVERZOEK);
+      const rijen = await haal<{
+        organisatie_id: number;
+        type_opdracht: string;
+        oordeel: string | null;
+        continuiteitsonzekerheid: boolean | null;
+      }>(
+        "opdrachten?select=organisatie_id,type_opdracht,oordeel,continuiteitsonzekerheid" +
+          `&boekjaar=eq.${jaar}&organisatie_id=in.(${blok.join(",")})` +
+          "&type_opdracht=in.(wettelijke_controle,vrijwillige_controle,controle_onbepaald)",
+      );
+      for (const rij of rijen) {
+        const sleutel = `${rij.organisatie_id}-${jaar + 1}`;
+        const voorrang = VOORRANG.indexOf(rij.type_opdracht);
+        const bestaand = uit.get(sleutel);
+        if (!bestaand || voorrang < bestaand.voorrang) {
+          uit.set(sleutel, {
+            oordeel: rij.oordeel,
+            continuiteitsonzekerheid: Boolean(rij.continuiteitsonzekerheid),
+            voorrang,
+          });
+        }
+      }
+    }
+  }
+  return new Map(
+    [...uit].map(([sleutel, { voorrang: _v, ...rest }]) => [sleutel, rest]),
+  );
+}
