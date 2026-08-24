@@ -71,17 +71,28 @@ VERKORT: dict[str, str] = {
 }
 
 
+AANLEVER = Path(__file__).resolve().parent / "aanlever"
+
+
+def lees_map(map_pad: Path = AANLEVER) -> list[dict]:
+    """Alle marktonderzoek_*.csv uit de aanlevermap, op bestandsnaam gesorteerd."""
+    rijen: list[dict] = []
+    for pad in sorted(map_pad.glob("marktonderzoek_*.csv")):
+        with pad.open(encoding="utf-8") as f:
+            rijen.extend(csv.DictReader(f))
+    return rijen
+
+
 def lees_rijen(argumenten) -> list[dict]:
-    """De aangeleverde rijen, uit --bestand of uit MARKTONDERZOEK_DATA."""
+    """De aangeleverde rijen: --bestand wint, dan MARKTONDERZOEK_DATA, dan de map."""
     if argumenten.bestand:
         tekst = Path(argumenten.bestand).read_text(encoding="utf-8")
-    else:
-        blob = os.environ.get("MARKTONDERZOEK_DATA", "").strip()
-        if not blob:
-            print("geen --bestand en geen MARKTONDERZOEK_DATA; niets te doen")
-            return []
+        return list(csv.DictReader(io.StringIO(tekst)))
+    blob = os.environ.get("MARKTONDERZOEK_DATA", "").strip()
+    if blob:
         tekst = gzip.decompress(base64.b64decode(blob)).decode("utf-8")
-    return list(csv.DictReader(io.StringIO(tekst)))
+        return list(csv.DictReader(io.StringIO(tekst)))
+    return lees_map()
 
 
 def herleid_kantoren(veld: str, index: dict) -> tuple[list[str], list[str]]:

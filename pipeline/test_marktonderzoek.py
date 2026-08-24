@@ -13,7 +13,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 
 from kantoor_match import bouw_index, laad_kantoren  # noqa: E402
-from laad_marktonderzoek import VERKORT, geldige_rij, herleid_kantoren  # noqa: E402
+from laad_marktonderzoek import (  # noqa: E402
+    VERKORT,
+    geldige_rij,
+    herleid_kantoren,
+    lees_map,
+)
 
 goed = 0
 fout = 0
@@ -74,6 +79,21 @@ check(
     "zonder kvk of jaartal wordt een rij geweigerd",
     geldige_rij({"kvk": "123", "naam": "X", "boekjaar": "2024", "accountant": "K"}) is None
     and geldige_rij({"kvk": "06032957", "naam": "X", "boekjaar": "?", "accountant": "K"}) is None,
+)
+
+# De aanlevermap zelf: elke rij moet door de validatie komen, want de lader
+# draait vanzelf zodra hier iets op main landt — een kapotte aanlevering hoort
+# hier te sneuvelen en niet stil in de workflow.
+aanlevering = lees_map()
+check("de aanlevermap heeft rijen", len(aanlevering) >= 1)
+check(
+    "elke aangeleverde rij komt door de validatie",
+    all(geldige_rij(r) is not None for r in aanlevering),
+)
+check(
+    "kvk+boekjaar+accountant is uniek in de aanlevering",
+    len({(r["kvk"], r["boekjaar"], r["accountant"].lower()) for r in aanlevering})
+    == len(aanlevering),
 )
 
 print(f"{goed}/{goed + fout} goed")
