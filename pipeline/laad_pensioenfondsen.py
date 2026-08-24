@@ -110,7 +110,7 @@ def main() -> int:
             for rij in db.selecteer_alles("kantoren", "select=id,sleutel")
             if rij.get("sleutel")
         }
-        for rij in db.selecteer_alles("organisaties", "select=id,naam,kvk_nummer"):
+        for rij in db.selecteer_alles("organisaties", "select=id,naam,kvk_nummer,sector"):
             org_per_naam.setdefault(normaliseer(rij["naam"]), []).append(rij)
 
     index = bouw_index(laad_kantoren())
@@ -197,6 +197,16 @@ def main() -> int:
             continue
         if kandidaten:
             org = kandidaten[0]
+            # Een organisatie die eerder zonder sector is aangemaakt (bijv.
+            # vanuit marktonderzoek, dat alleen KvK en naam kent) hoort wel op
+            # de sectorpagina. Alleen een lége sector wordt ingevuld: de seed
+            # ís de sectorlijst, maar een bestaande afwijkende waarde kan een
+            # bewuste keuze zijn en blijft staan.
+            if not org.get("sector"):
+                db.bijwerken(
+                    "organisaties", f"id=eq.{org['id']}", {"sector": argumenten.sector}
+                )
+                org["sector"] = argumenten.sector
         else:
             org = db.invoegen(
                 "organisaties",
