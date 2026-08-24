@@ -1,0 +1,50 @@
+name: Onderwijsinstellingen laden
+
+# Zelfde route als "Pensioenfondsen laden", andere seed en sector: de
+# jaarverslagen van universiteiten, hogescholen en mbo-instellingen staan
+# openbaar op de eigen sites, inclusief controleverklaring. Bewezen met
+# TU Delft 2024 (EY, goedkeurend, incl. tekenend accountant).
+# Herdraaien is veilig: bestaande organisatie-boekjaren worden overgeslagen.
+on:
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  laden:
+    name: Jaarverslagen lezen en laden
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: pdftotext installeren
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+
+      - uses: actions/cache/restore@v6
+        with:
+          path: pipeline/.cache
+          key: onderwijspdf-v1
+          restore-keys: |
+            onderwijspdf-
+
+      - name: Laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/laad_pensioenfondsen.py \
+            --seed pipeline/seed/onderwijsinstellingen.csv --sector onderwijs
+
+      - uses: actions/cache/save@v6
+        if: always()
+        with:
+          path: pipeline/.cache
+          key: onderwijspdf-v1

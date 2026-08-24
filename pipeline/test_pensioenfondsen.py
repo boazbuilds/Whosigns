@@ -80,5 +80,24 @@ rij2 = lp.opdracht_uit_analyse(analyse2, 1, 2, 2024, 3)
 check("gevulde analyse komt één op één door", rij2["type_opdracht"] == "wettelijke_controle" and rij2["oordeel"] == "goedkeurend" and rij2["continuiteitsonzekerheid"] is True and rij2["tekenend_accountant"] == "J. Jansen RA")
 check("de sleutelvelden staan erin", {"organisatie_id", "kantoor_id", "boekjaar", "bron_id"} <= set(rij2))
 
+# De onderwijs-seed rijdt op dezelfde lader (--seed/--sector) en mag "naam" als
+# kolomkop gebruiken; verder gelden dezelfde vormeisen als hierboven.
+onderwijs = lp.fondsen(Path(__file__).resolve().parent / "seed" / "onderwijsinstellingen.csv")
+check("de onderwijs-seed heeft rijen", len(onderwijs) >= 10)
+check(
+    "elke onderwijsrij heeft naam, boekjaar en https-pdf-url",
+    all(
+        (r.get("naam") or "").strip()
+        and 2010 <= int(r["boekjaar"]) <= 2030
+        and r["url"].startswith("https://")
+        and ".pdf" in r["url"].rsplit("/", 1)[1].lower()
+        for r in onderwijs
+    ),
+)
+check(
+    "naam+boekjaar is uniek in de onderwijs-seed",
+    len({(r["naam"], r["boekjaar"]) for r in onderwijs}) == len(onderwijs),
+)
+
 print(f"{goed}/{goed + fout} goed")
 sys.exit(1 if fout else 0)
