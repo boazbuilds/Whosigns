@@ -161,7 +161,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <p>
                 Samengesteld uit openbare bronnen — jaarverantwoordingen,
                 transparantieverslagen, het AFM-register en het CBF. Bij elke
-                opdracht staat de vindplaats vermeld.
+                opdracht staat de vindplaats vermeld. Een deel van de
+                opdrachten komt uit aangeleverd marktonderzoek en is niet per
+                document herleidbaar; die opdrachten dragen het bronlabel
+                marktonderzoek.
               </p>
               <p className="klein">
                 Geen advies, geen oordeel over kantoren. Een wisseling is

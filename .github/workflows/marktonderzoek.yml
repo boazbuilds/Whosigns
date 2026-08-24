@@ -1,0 +1,39 @@
+name: Marktonderzoek laden
+
+# Laadt aangeleverd marktonderzoek (zie pipeline/laad_marktonderzoek.py). De
+# data reist als repository-secret MARKTONDERZOEK_DATA — een gzip+base64 van
+# de csv (kvk,naam,boekjaar,accountant) — en staat dus nergens in de repo:
+#
+#   gzip -c export.csv | base64 -w0    ->  plakken als secret
+#
+# Herdraaien is veilig: bestaande organisatie-boekjaren worden overgeslagen.
+on:
+  workflow_dispatch:
+
+jobs:
+  laden:
+    name: Aanlevering laden
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          MARKTONDERZOEK_DATA: ${{ secrets.MARKTONDERZOEK_DATA }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          if [ -z "$MARKTONDERZOEK_DATA" ]; then
+            echo "::error::Secret MARKTONDERZOEK_DATA ontbreekt — zie laad_marktonderzoek.py."
+            exit 1
+          fi
+          python3 pipeline/laad_marktonderzoek.py
