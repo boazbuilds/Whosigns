@@ -185,7 +185,6 @@ export default async function Zoekpagina({ searchParams }: Props) {
             }),
           ),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
           { naar: "/", tekst: "Naar het overzicht" },
         ]}
       />

@@ -77,7 +77,6 @@ export default async function Honorariapagina() {
       <section className="kaart">
         <div className="kaartkop">
           <h2>Alle verantwoorde honoraria</h2>
-          <Link href="/organisaties">Alle organisaties →</Link>
         </div>
         {rijen.length === 0 ? (
           <Leeg tekst="Nog geen honoraria in de database." />

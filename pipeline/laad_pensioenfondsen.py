@@ -199,12 +199,28 @@ def main() -> int:
             org = kandidaten[0]
             # Een organisatie die eerder zonder sector is aangemaakt (bijv.
             # vanuit marktonderzoek, dat alleen KvK en naam kent) hoort wel op
-            # de sectorpagina. Alleen een lége sector wordt ingevuld: de seed
-            # ís de sectorlijst, maar een bestaande afwijkende waarde kan een
-            # bewuste keuze zijn en blijft staan.
-            if not org.get("sector"):
+            # de sectorpagina. Naast een lége sector mogen ook "overheid" en
+            # "OOB" worden gepreciseerd: dat zijn herkomstlabels uit generieke
+            # bronnen (TenderNed noemt elke aanbestedende dienst "overheid",
+            # de AFM-lijst elke OOB "OOB") — zo stonden alle universiteiten
+            # als overheid en alle grote fondsen als OOB, en bleven de
+            # sectorpagina's onderwijs en pensioenfondsen vrijwel leeg. Deze
+            # seed noemt de organisatie bij naam en is dus preciezer. Elke
+            # andere bestaande waarde is een bewuste keuze en blijft staan;
+            # de OOB- en overheidsladers zetten hun label alleen bij aanmaak,
+            # dus een herdraai daarvan draait dit niet terug.
+            if (org.get("sector") or "") in ("", "overheid", "OOB") and org.get(
+                "sector"
+            ) != argumenten.sector:
+                # De voorwaarde ook in het filter: het voorgeladen beeld kan
+                # verouderd zijn (na een merge draaien laders tegelijk), en zo
+                # bewaakt de database zelf dat alleen een leeg of generiek
+                # label vervangen wordt.
                 db.bijwerken(
-                    "organisaties", f"id=eq.{org['id']}", {"sector": argumenten.sector}
+                    "organisaties",
+                    f"id=eq.{org['id']}"
+                    "&or=(sector.is.null,sector.eq.overheid,sector.eq.OOB)",
+                    {"sector": argumenten.sector},
                 )
                 org["sector"] = argumenten.sector
         else:

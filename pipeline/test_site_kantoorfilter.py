@@ -45,7 +45,11 @@ plat = " ".join(tekst.split())
 
 check(
     "de sectornaam linkt naar de eigen pagina met een sectorfilter",
-    "?sector=${slugVan(sector)}#clienten" in plat,
+    # Sinds de jaarkiezer bouwt clientenPad de link; de sectornaam geeft
+    # jaar=null mee ("alle boekjaren") en de padbouwer zet het sectorfilter.
+    "clientenPad(null, sector)" in plat
+    and 'zoek.set("sector", slugVan(sector))' in plat
+    and "#clienten" in plat,
 )
 check(
     "de landelijke sectorpagina blijft bereikbaar vanaf dezelfde regel",
@@ -58,7 +62,16 @@ check(
 check(
     "een onbekende sectorwaarde valt terug op alle cliënten in plaats van "
     "stil op nul",
-    "?? null" in plat and "sectorFilter ? clienten.filter" in plat,
+    "?? null" in plat and "!sectorFilter || c.sector === sectorFilter" in plat,
+)
+check(
+    "de jaarkiezer staat boven de lijst en houdt een weg naar alle jaren open",
+    'aria-label="Kies een boekjaar"' in plat and "Alle jaren" in plat,
+)
+check(
+    "een onzinnig jaartal valt terug op het standaardjaar in plaats van "
+    "stil op nul",
+    ": standaardJaar" in plat,
 )
 check(
     "bij een actief filter staat er een weg terug naar alle sectoren",

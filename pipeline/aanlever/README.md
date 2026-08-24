@@ -1,8 +1,14 @@
 # Aanleveringen
 
 Door de eigenaar aangeleverde accountantsrelaties, geschoond tot precies de
-velden die de database publiek serveert: `kvk,naam,boekjaar,accountant`.
-Eén bestand per aanlevering, naam `marktonderzoek_<label>.csv`.
+velden die de database publiek serveert: `kvk,naam,boekjaar,accountant`,
+sinds formaat v2 optioneel aangevuld met `sbi,plaats`. Eén bestand per
+aanlevering, naam `marktonderzoek_<label>.csv`.
+
+De SBI-code en plaats verrijken de organisatie (kolommen `sbi_code`,
+`gemeente`) en bepalen via een kleine vaste indeling de sector — alleen op
+organisaties waar die velden nog leeg zijn; wat een documentbron al invulde
+blijft staan.
 
 Zodra een bestand hier op main landt draait de workflow **Marktonderzoek
 laden** vanzelf (zie `.github/workflows/marktonderzoek.yml`). De lader

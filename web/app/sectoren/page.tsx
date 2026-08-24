@@ -129,7 +129,6 @@ export default async function Sectorenpagina() {
             <Kerncijfer
               waarde={organisatieTotaal}
               naam="organisaties totaal"
-              naar="/organisaties"
             />
             <Kerncijfer
               waarde={ranglijst.length}
@@ -197,7 +196,6 @@ export default async function Sectorenpagina() {
           })),
           { naar: "/kantoren", tekst: "Ranglijst van alle kantoren" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>
