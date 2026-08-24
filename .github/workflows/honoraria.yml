@@ -26,6 +26,14 @@ on:
         type: string
         required: false
         default: "2024,2023,2022"
+  # Draait vanzelf zodra de vuller of deze workflow zelf op main landt —
+  # zelfde patroon als de andere ladingen; een push-event heeft geen inputs,
+  # dus de stap hieronder valt dan terug op de standaardjaren.
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/vul_extra_velden.py"
+      - ".github/workflows/honoraria.yml"
 
 jobs:
   bijvullen:
@@ -53,7 +61,7 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          BOEKJAREN: ${{ inputs.boekjaren }}
+          BOEKJAREN: ${{ inputs.boekjaren || '2024,2023,2022' }}
         run: |
           if [ -z "$SUPABASE_URL" ]; then
             echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
