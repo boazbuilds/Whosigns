@@ -51,8 +51,8 @@ check(
     len({(r["fonds"], r["boekjaar"]) for r in rijen}) == len(rijen),
 )
 check(
-    "fondsnamen zijn statutair (beginnen met Stichting)",
-    all(r["fonds"].startswith("Stichting") for r in rijen),
+    "fondsnamen zijn statutair (bevatten Stichting — SNPS heeft hem achteraan)",
+    all("Stichting" in r["fonds"] for r in rijen),
 )
 
 # De vertaalregels: leeg is null en nooit een lege tekst, en zonder vastgesteld
