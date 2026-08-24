@@ -46,8 +46,8 @@ CACHE = Path(__file__).resolve().parent / ".cache"
 KOPPEN = {"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"}
 
 
-def fondsen() -> list[dict]:
-    with SEED.open(encoding="utf-8") as f:
+def fondsen(seed: Path = SEED) -> list[dict]:
+    with seed.open(encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
 
@@ -88,6 +88,12 @@ def opdracht_uit_analyse(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--droogloop", action="store_true")
+    # Dezelfde route werkt voor elke sector met openbare jaarverslagen: geef een
+    # andere seed en sectornaam mee en er verandert verder niets. De seed houdt
+    # dezelfde kolommen (fonds,boekjaar,url); "fonds" is daar gewoon "de
+    # organisatie waarvan dit het jaarverslag is".
+    parser.add_argument("--seed", type=Path, default=SEED)
+    parser.add_argument("--sector", default="pensioenfondsen")
     argumenten = parser.parse_args()
 
     db = None
@@ -109,7 +115,7 @@ def main() -> int:
 
     index = bouw_index(laad_kantoren())
     CACHE.mkdir(exist_ok=True)
-    rapport_pad = CACHE / "resultaat_pensioenfondsen.csv"
+    rapport_pad = CACHE / f"resultaat_{argumenten.sector}.csv"
     rapport = rapport_pad.open("w", newline="", encoding="utf-8")
     schrijver = csv.writer(rapport)
     schrijver.writerow(
@@ -117,11 +123,12 @@ def main() -> int:
     )
 
     geschreven = overgeslagen = mislukt = 0
-    for regel in fondsen():
-        fonds = regel["fonds"].strip()
+    for regel in fondsen(argumenten.seed):
+        # "fonds" historisch; een seed van een andere sector mag "naam" gebruiken.
+        fonds = (regel.get("fonds") or regel.get("naam") or "").strip()
         boekjaar = int(regel["boekjaar"])
         naamdeel = normaliseer(fonds).replace(" ", "-")[:40]
-        pdf_pad = CACHE / f"pensioen_{naamdeel}_{boekjaar}.pdf"
+        pdf_pad = CACHE / f"jaarverslag_{naamdeel}_{boekjaar}.pdf"
         try:
             haal_pdf(regel["url"], pdf_pad)
         except Exception as fout:  # noqa: BLE001 — bron mag falen, volgende fonds
@@ -193,7 +200,7 @@ def main() -> int:
         else:
             org = db.invoegen(
                 "organisaties",
-                {"naam": fonds, "sector": "pensioenfondsen", "kvk_nummer": None},
+                {"naam": fonds, "sector": argumenten.sector, "kvk_nummer": None},
             )
             org_per_naam.setdefault(sleutel, []).append(org)
 
