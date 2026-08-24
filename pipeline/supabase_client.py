@@ -71,6 +71,26 @@ class Supabase:
             )
         return len(rijen)
 
+    def invoegen_zonder_overschrijven(
+        self, tabel: str, rijen: list[dict], conflict_kolom: str
+    ) -> int:
+        """Bulk-insert die bestaande rijen met rust laat (ON CONFLICT DO NOTHING).
+
+        Voor aanvullingen waar de bestaande rij beter is dan de onze — bijv.
+        organisaties die al een zorgvuldig gekozen naam hebben: een upsert met
+        merge-duplicates zou die overschrijven, dit niet.
+        """
+        if not rijen:
+            return 0
+        for begin in range(0, len(rijen), 500):
+            self._verzoek(
+                "POST",
+                f"{tabel}?on_conflict={urllib.parse.quote(conflict_kolom)}",
+                rijen[begin : begin + 500],
+                {"Prefer": "resolution=ignore-duplicates,return=minimal"},
+            )
+        return len(rijen)
+
     def invoegen(self, tabel: str, rij: dict) -> dict:
         """Voegt één rij toe en geeft hem terug, inclusief het toegekende id."""
         antwoord = self._verzoek(

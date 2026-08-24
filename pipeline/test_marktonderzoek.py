@@ -64,11 +64,29 @@ check(
     herleid_kantoren("KPMG Accountants N.V.", index)[0] == ["13000121"],
 )
 
+from kantoor_match import laad_overige_kantoren  # noqa: E402
+
 check(
-    "verkorte namen wijzen alleen naar bestaande AFM-nummers",
+    "verkorte namen wijzen alleen naar bestaande kantoorsleutels",
     set(VERKORT.values())
-    <= {r["afm_nummer"] for r in laad_kantoren()},
+    <= {r["afm_nummer"] for r in laad_kantoren()}
+    | {r["sleutel"] for r in laad_overige_kantoren()},
 )
+
+k, o = herleid_kantoren("Q-concepts", index)
+check("Q-Concepts herleidt in elke schrijfwijze", k == ["13000773"] and not o)
+k, o = herleid_kantoren("WITh", index)
+check("WITh herleidt naar het overige kantoor", k == ["overig_with_accountants"] and not o)
+k, o = herleid_kantoren("Dubois + Co", index)
+check("Dubois in alle schrijfwijzen", k == ["13000044"] and not o)
+k, o = herleid_kantoren("Crowe Foederer", index)
+k2, o2 = herleid_kantoren("Crowe Peak", index)
+check(
+    "Crowe Foederer en Crowe Peak blijven gescheiden kantoren",
+    k == ["13000413"] and k2 == ["13000097"],
+)
+k, o = herleid_kantoren("Crowe", index)
+check("kaal Crowe blijft onherleidbaar (Foederer of Peak? een mens kiest)", not k and o == ["Crowe"])
 
 check(
     "een geldige rij komt genormaliseerd door",

@@ -68,6 +68,19 @@ VERKORT: dict[str, str] = {
     "confinant": "13020070",
     "confinant audit": "13020070",
     "confinant audit assurance": "13020070",
+    "q concepts": "13000773",
+    "flynth": "13000519",
+    "dubois": "13000044",
+    "dubois co": "13000044",
+    "crowe foederer": "13000413",
+    "crowe peak": "13000097",
+    "crowe peak audit": "13000097",
+    # WITh heeft geen Wta-vergunning maar tekent vrijwillige controles bij
+    # goede doelen; staat als overig kantoor in de database.
+    "with": "overig_with_accountants",
+    "with accountants": "overig_with_accountants",
+    # Bewust NIET: "crowe" alleen (Foederer of Peak? een mens kiest) en
+    # "crowe contour" (staat niet in het register).
 }
 
 
@@ -172,12 +185,25 @@ def main() -> int:
     # Eén bron-rij voor alle marktonderzoek: bestaat er al een, dan die
     # hergebruiken — anders laat elke herstart een extra rij achter.
     bron_id = None
+    bezet: set[tuple[int, int]] = set()
     if db is not None:
         bestaande_bron = db.selecteer_alles(
             "bronnen", "select=id&bron_type=eq.marktonderzoek&limit=1"
         )
         if bestaande_bron:
             bron_id = bestaande_bron[0]["id"]
+        # Alle organisatie-boekjaren die al een controle hebben, in één keer
+        # voorgeladen: per rij naar de database vragen kost drie verzoeken per
+        # rij en dat past bij duizenden rijen in geen enkele timeout.
+        for r in db.selecteer_alles(
+            "opdrachten",
+            "select=organisatie_id,boekjaar"
+            "&type_opdracht=in.(wettelijke_controle,controle_onbepaald)",
+        ):
+            bezet.add((r["organisatie_id"], r["boekjaar"]))
+
+    # Eerste doorloop: herleiden, rapporteren, reviewgevallen wegschrijven.
+    schoon: list[dict] = []
     geschreven = overgeslagen = review = 0
     for rij in rijen:
         kantoren, onbekend = herleid_kantoren(rij["accountant"], index)
@@ -209,43 +235,31 @@ def main() -> int:
                     },
                 )
             continue
-
-        afm = kantoren[0]
+        schoon.append({**rij, "afm": kantoren[0]})
         schrijver.writerow(
-            [rij["kvk"], rij["naam"], rij["boekjaar"], afm, "droogloop" if db is None else "ok"]
+            [rij["kvk"], rij["naam"], rij["boekjaar"], kantoren[0],
+             "droogloop" if db is None else "ok"]
         )
-        if db is None:
-            continue
 
-        kantoor_id = kantoor_id_per_sleutel.get(afm)
-        if kantoor_id is None:
-            print(f"  LET OP: kantoor {afm} niet in de database")
-            continue
-
-        org = org_per_kvk.get(rij["kvk"])
-        if org is None:
-            org = db.invoegen(
-                "organisaties",
-                {"naam": rij["naam"], "kvk_nummer": rij["kvk"], "sector": None},
+    if db is not None and schoon:
+        # Nieuwe organisaties in bulk, zonder bestaande te overschrijven: een
+        # naam uit een documentbron is beter dan die uit een aanlevering.
+        nieuw_per_kvk: dict[str, dict] = {}
+        for rij in schoon:
+            if rij["kvk"] not in org_per_kvk:
+                nieuw_per_kvk.setdefault(
+                    rij["kvk"],
+                    {"naam": rij["naam"], "kvk_nummer": rij["kvk"], "sector": None},
+                )
+        if nieuw_per_kvk:
+            db.invoegen_zonder_overschrijven(
+                "organisaties", list(nieuw_per_kvk.values()), "kvk_nummer"
             )
-            org_per_kvk[rij["kvk"]] = org
-
-        # Een document-bron met het soort opdracht en het oordeel wint altijd
-        # van een aanlevering die alleen de relatie kent.
-        if db.bestaat(
-            "opdrachten",
-            f"organisatie_id=eq.{org['id']}&boekjaar=eq.{rij['boekjaar']}"
-            "&type_opdracht=eq.wettelijke_controle",
-        ):
-            overgeslagen += 1
-            continue
-        if db.bestaat(
-            "opdrachten",
-            f"organisatie_id=eq.{org['id']}&boekjaar=eq.{rij['boekjaar']}"
-            "&type_opdracht=eq.controle_onbepaald",
-        ):
-            overgeslagen += 1
-            continue
+            org_per_kvk = {
+                r["kvk_nummer"]: r
+                for r in db.selecteer_alles("organisaties", "select=id,kvk_nummer")
+                if r.get("kvk_nummer")
+            }
 
         if bron_id is None:
             bron = db.invoegen(
@@ -257,18 +271,33 @@ def main() -> int:
                 },
             )
             bron_id = bron["id"]
-        db.upsert_met_id(
-            "opdrachten",
-            {
-                "organisatie_id": org["id"],
-                "kantoor_id": kantoor_id,
-                "boekjaar": rij["boekjaar"],
-                "type_opdracht": "controle_onbepaald",
-                "bron_id": bron_id,
-            },
-            "organisatie_id,boekjaar,type_opdracht",
+
+        # Opdrachten in bulk; wat al een controle heeft (of dubbel in de batch
+        # zit) blijft staan — een documentbron wint altijd van een aanlevering.
+        nieuwe_opdrachten: list[dict] = []
+        for rij in schoon:
+            org = org_per_kvk.get(rij["kvk"])
+            kantoor_id = kantoor_id_per_sleutel.get(rij["afm"])
+            if org is None or kantoor_id is None:
+                overgeslagen += 1
+                continue
+            sleutel = (org["id"], rij["boekjaar"])
+            if sleutel in bezet:
+                overgeslagen += 1
+                continue
+            bezet.add(sleutel)
+            nieuwe_opdrachten.append(
+                {
+                    "organisatie_id": org["id"],
+                    "kantoor_id": kantoor_id,
+                    "boekjaar": rij["boekjaar"],
+                    "type_opdracht": "controle_onbepaald",
+                    "bron_id": bron_id,
+                }
+            )
+        geschreven = db.upsert(
+            "opdrachten", nieuwe_opdrachten, "organisatie_id,boekjaar,type_opdracht"
         )
-        geschreven += 1
 
     rapport.close()
     print(
