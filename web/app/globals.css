@@ -1161,3 +1161,48 @@ td.rangcel {
   font-variant-numeric: tabular-nums;
   font-weight: 600;
 }
+
+/* ----------------------------------------------------------- dagvraag
+   "Wie tekende?" op de voorpagina: knoppen in de kaartstijl van de site,
+   met alleen kleur voor goed/fout na het antwoord. De stapel houdt de
+   zijkolom bijeen als er meer dan één kaart in staat. */
+.kolomstapel {
+  display: grid;
+  gap: 1.1rem;
+  min-width: 0;
+}
+.kolomstapel > .kaart {
+  margin-bottom: 0;
+}
+.dagvraag-opties {
+  display: grid;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+}
+.dagvraag-opties button {
+  font: inherit;
+  font-size: 0.92rem;
+  text-align: left;
+  padding: 0.5rem 0.7rem;
+  background: var(--vel);
+  color: var(--inkt);
+  border: 1px solid var(--lijn-sterk);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.dagvraag-opties button:hover:enabled {
+  border-color: var(--inkt-zacht);
+}
+.dagvraag-opties button:disabled {
+  cursor: default;
+  color: var(--inkt-zacht);
+}
+.dagvraag-opties button.dagvraag-goed {
+  border-color: var(--groen);
+  color: var(--groen);
+  font-weight: 600;
+}
+.dagvraag-opties button.dagvraag-fout {
+  border-color: var(--rood);
+  color: var(--rood);
+}

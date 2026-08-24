@@ -13,6 +13,7 @@ import {
 import {
   Doorklik,
   Foutmelding,
+  Inklapbaar,
   KantoorLink,
   Kerncijfer,
   Kruimels,
@@ -26,13 +27,21 @@ export const metadata: Metadata = {
     "en van welk kantoor naar welk kantoor.",
 };
 
-export default async function Wisselingenpagina() {
+/** Zoveel wisselingen staan open binnen het gekozen boekjaar; de rest zit
+ *  achter één klik. Boekjaar 2021 telt er 173 — dat hoeft niet in één keer. */
+const OPEN = 30;
+
+type Zoek = { searchParams: Promise<{ jaar?: string }> };
+
+export default async function Wisselingenpagina({ searchParams }: Zoek) {
+  const { jaar } = await searchParams;
+
   let rijen;
   let ranglijst;
   try {
     [rijen, ranglijst] = await Promise.all([
-      // Zonder limiet: deze pagina heet "alle wisselingen" en de kop noemt het
-      // aantal. Met een vaste grens van 200 stond daar "200" zodra er meer waren.
+      // Zonder limiet: de kerncijfers (drukste jaar, saldi) gaan over álle
+      // wisselingen, ook al staat er maar één boekjaar tegelijk open.
       wisselingen(),
       kantoorRanglijst().catch(() => []),
     ]);
@@ -51,6 +60,12 @@ export default async function Wisselingenpagina() {
   const saldi = saldoPerKantoor(rijen);
   const winnaar = saldi[0];
   const verliezer = saldi[saldi.length - 1];
+
+  // Eén boekjaar tegelijk, standaard het nieuwste: alle achttien jaren onder
+  // elkaar was 1.700 rijen scrollen. Een onzinnig jaartal in de URL valt
+  // terug op het nieuwste jaar in plaats van een lege pagina.
+  const gekozen = jaren.includes(Number(jaar)) ? Number(jaar) : jaren[0] ?? null;
+  const getoond = gekozen === null ? [] : perJaar.get(gekozen)!;
 
   return (
     <>
@@ -85,83 +100,101 @@ export default async function Wisselingenpagina() {
       </div>
 
       {jaren.length > 1 ? (
-        <nav className="keuzebalk" aria-label="Spring naar een boekjaar">
-          {jaren.map((jaar) => (
-            <Link key={jaar} href={`#jaar-${jaar}`}>
-              {jaar} <span className="zacht">({perJaar.get(jaar)!.length})</span>
+        <nav className="keuzebalk" aria-label="Kies een boekjaar">
+          {jaren.map((j) => (
+            <Link
+              key={j}
+              href={`/wisselingen?jaar=${j}`}
+              className={gekozen === j ? "actief" : undefined}
+            >
+              {j} <span className="zacht">({perJaar.get(j)!.length})</span>
             </Link>
           ))}
         </nav>
       ) : null}
 
-      {rijen.length === 0 ? (
+      {gekozen === null ? (
         <section className="kaart">
           <Leeg tekst="Nog geen wisselingen in de database." />
         </section>
       ) : (
-        jaren.map((jaar) => (
-          <section className="kaart" key={jaar} id={`jaar-${jaar}`}>
-            <div className="kaartkop">
-              <h2>Boekjaar {jaar}</h2>
-              <span className="klein zacht">
-                {aantalWisselingen(perJaar.get(jaar)!.length)}
-              </span>
-            </div>
-            <div className="tabel-omhulsel">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Organisatie</th>
-                    <th>Van</th>
-                    <th>Naar</th>
-                    <th>Sector</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {perJaar.get(jaar)!.map((w) => (
-                    <tr key={`${w.organisatie_id}-${jaar}`}>
-                      <td>
-                        {w.organisatie ? (
-                          <Link href={organisatiePad(w.organisatie)}>
-                            {w.organisatie.naam}
-                          </Link>
-                        ) : (
-                          "onbekend"
-                        )}
-                        {w.organisatie?.gemeente ? (
-                          <div className="klein zacht">{w.organisatie.gemeente}</div>
-                        ) : null}
-                      </td>
-                      <td>
-                        {w.van ? (
-                          <KantoorLink naam={w.van.naam} naar={kantoorPad(w.van)} />
-                        ) : (
-                          <span className="zacht">?</span>
-                        )}
-                      </td>
-                      <td>
-                        {w.naar ? (
-                          <KantoorLink naam={w.naar.naam} naar={kantoorPad(w.naar)} />
-                        ) : (
-                          <span className="zacht">?</span>
-                        )}
-                      </td>
-                      <td className="klein">
-                        {w.organisatie?.sector ? (
-                          <Link href={sectorPad(w.organisatie.sector)}>
-                            {hoofdletter(w.organisatie.sector)}
-                          </Link>
-                        ) : (
-                          <span className="zacht">—</span>
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
-        ))
+        (() => {
+          const kop = (
+            <thead>
+              <tr>
+                <th>Organisatie</th>
+                <th>Van</th>
+                <th>Naar</th>
+                <th>Sector</th>
+              </tr>
+            </thead>
+          );
+          const regels = getoond.map((w) => (
+            <tr key={`${w.organisatie_id}-${gekozen}`}>
+              <td>
+                {w.organisatie ? (
+                  <Link href={organisatiePad(w.organisatie)}>
+                    {w.organisatie.naam}
+                  </Link>
+                ) : (
+                  "onbekend"
+                )}
+                {w.organisatie?.gemeente ? (
+                  <div className="klein zacht">{w.organisatie.gemeente}</div>
+                ) : null}
+              </td>
+              <td>
+                {w.van ? (
+                  <KantoorLink naam={w.van.naam} naar={kantoorPad(w.van)} />
+                ) : (
+                  <span className="zacht">?</span>
+                )}
+              </td>
+              <td>
+                {w.naar ? (
+                  <KantoorLink naam={w.naar.naam} naar={kantoorPad(w.naar)} />
+                ) : (
+                  <span className="zacht">?</span>
+                )}
+              </td>
+              <td className="klein">
+                {w.organisatie?.sector ? (
+                  <Link href={sectorPad(w.organisatie.sector)}>
+                    {hoofdletter(w.organisatie.sector)}
+                  </Link>
+                ) : (
+                  <span className="zacht">—</span>
+                )}
+              </td>
+            </tr>
+          ));
+          return (
+            <section className="kaart" id={`jaar-${gekozen}`}>
+              <div className="kaartkop">
+                <h2>Boekjaar {gekozen}</h2>
+                <span className="klein zacht">{aantalWisselingen(getoond.length)}</span>
+              </div>
+              <div className="tabel-omhulsel">
+                <table>
+                  {kop}
+                  <tbody>{regels.slice(0, OPEN)}</tbody>
+                </table>
+              </div>
+              {regels.length > OPEN ? (
+                <Inklapbaar
+                  samenvatting={`Nog ${regels.length - OPEN} wisselingen in dit boekjaar`}
+                >
+                  <div className="tabel-omhulsel">
+                    <table>
+                      {kop}
+                      <tbody>{regels.slice(OPEN)}</tbody>
+                    </table>
+                  </div>
+                </Inklapbaar>
+              ) : null}
+            </section>
+          );
+        })()
       )}
 
       <Doorklik
@@ -188,7 +221,6 @@ export default async function Wisselingenpagina() {
             tekst: "Ranglijst van kantoren met stijgers en dalers",
             toelichting: aantalJaren(jaren.length),
           },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>

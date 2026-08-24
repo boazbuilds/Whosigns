@@ -18,7 +18,6 @@ import {
   OPDRACHT_LABEL,
   aantalControles,
   aantalJaren,
-  aantalOpdrachten,
   datumNL,
   hoofdletter,
   accountantPad,
@@ -674,11 +673,6 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
           })),
           { naar: "/kantoren", tekst: "Ranglijst van alle kantoren" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          {
-            naar: "/organisaties",
-            tekst: "Alle organisaties op naam",
-            toelichting: aantalOpdrachten(opdrachten.length) + " bij dit kantoor",
-          },
         ]}
       />
     </>

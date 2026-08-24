@@ -148,7 +148,6 @@ export default async function Accountantsoverzicht() {
             tekst: a.naam,
           })),
           { naar: "/kantoren", tekst: "Alle kantoren" },
-          { naar: "/organisaties", tekst: "Alle organisaties" },
           { naar: "/bevindingen", tekst: "Niet-goedkeurende oordelen" },
         ]}
       />

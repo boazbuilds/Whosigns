@@ -982,3 +982,47 @@ export async function opdrachtenMetHonoraria(): Promise<HonorariumRij[]> {
       "&order=honorarium_controle_eur.desc.nullslast,boekjaar.desc",
   );
 }
+
+/** De vraag van vandaag voor "Wie tekende?" op de voorpagina. */
+export type Dagvraag = {
+  organisatie: { id: number; naam: string; kvk_nummer: string | null };
+  boekjaar: number;
+  kantoor: { id: number; naam: string };
+};
+
+/** Klein deterministisch zaad uit een tekst — geen Math.random: iedereen die
+ *  vandaag langskomt moet dezelfde vraag zien, en morgen vanzelf een nieuwe. */
+export function dagzaad(tekst: string): number {
+  let zaad = 0;
+  for (const teken of tekst) zaad = (zaad * 31 + teken.charCodeAt(0)) % 2147483647;
+  return zaad;
+}
+
+/**
+ * Eén wettelijke controle, deterministisch gekozen op de datumtekst.
+ *
+ * De keuze is een offset in de op id gesorteerde tabel; er hoeft dus niets te
+ * draaien of onthouden te worden voor een dagelijkse vraag. Komt er op de dag
+ * zelf een lading bij, dan verschuift de offset en is er die dag even een
+ * andere vraag — onschuldig. Alleen wettelijke controles: bij een aanlevering
+ * met "controle, voorwerp onbekend" zou het juiste antwoord zelf onzeker zijn.
+ */
+export async function dagvraag(datum: string): Promise<Dagvraag | null> {
+  const filter = "type_opdracht=eq.wettelijke_controle&kantoor_id=not.is.null";
+  const totaal = await tel("opdrachten", filter);
+  if (totaal === 0) return null;
+  const rij = await haalEen<{
+    boekjaar: number;
+    organisaties: { id: number; naam: string; kvk_nummer: string | null } | null;
+    kantoren: { id: number; naam: string } | null;
+  }>(
+    "opdrachten?select=boekjaar,organisaties(id,naam,kvk_nummer),kantoren(id,naam)" +
+      `&${filter}&order=id.asc&limit=1&offset=${dagzaad(datum) % totaal}`,
+  );
+  if (!rij?.organisaties || !rij.kantoren) return null;
+  return {
+    organisatie: rij.organisaties,
+    boekjaar: rij.boekjaar,
+    kantoor: rij.kantoren,
+  };
+}

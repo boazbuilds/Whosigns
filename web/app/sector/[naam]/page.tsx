@@ -348,7 +348,6 @@ export default async function Sectorpagina({ params }: Params) {
       <section className="kaart">
         <div className="kaartkop">
           <h2>Organisaties in deze sector</h2>
-          <Link href="/organisaties">Alle organisaties →</Link>
         </div>
         <div className="tabel-omhulsel">
           <table>

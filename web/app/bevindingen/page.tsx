@@ -206,7 +206,6 @@ export default async function Bevindingenpagina() {
             }),
           ),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>

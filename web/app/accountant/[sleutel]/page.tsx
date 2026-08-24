@@ -97,7 +97,6 @@ export default async function Accountantpagina({ params }: Params) {
           <Kerncijfer
             waarde={nl(acc.aantal_organisaties)}
             naam="organisaties"
-            naar="/organisaties"
           />
           <Kerncijfer
             waarde={nl(acc.aantal_kantoren)}

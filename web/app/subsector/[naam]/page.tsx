@@ -216,7 +216,6 @@ export default async function Subsectorpagina({ params }: Params) {
             tekst: sector ? `Alle subsectoren in ${sector}` : "",
           },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>

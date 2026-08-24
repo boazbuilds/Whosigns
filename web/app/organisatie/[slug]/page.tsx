@@ -129,7 +129,10 @@ export default async function Organisatiepagina({ params }: Params) {
           { naar: "/", tekst: "Start" },
           ...(org.sector
             ? [{ naar: sectorPad(org.sector), tekst: hoofdletter(org.sector) }]
-            : [{ naar: "/organisaties", tekst: "Organisaties" }]),
+            // De organisaties-indexpagina is er niet meer (24-8-2026, verzoek
+            // van de opdrachtgever): zonder sector is de tussenstap een
+            // tekstkruimel zonder link.
+            : [{ tekst: "Organisaties" }]),
           { tekst: org.naam },
         ]}
       />

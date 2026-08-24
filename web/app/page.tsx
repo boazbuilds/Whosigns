@@ -1,6 +1,8 @@
 import Link from "next/link";
 import {
   boekjarenMetControles,
+  dagvraag,
+  dagzaad,
   kantoorRanglijst,
   nieuwsteBoekjaar,
   oudsteBoekjaar,
@@ -9,6 +11,7 @@ import {
   wisselingen,
 } from "@/lib/db";
 import { saldoPerKantoor } from "@/lib/analyse";
+import { DagvraagKaart } from "@/components/dagvraag";
 import {
   aantalControles,
   aantalOpdrachten,
@@ -48,6 +51,12 @@ export default async function Startpagina() {
     // "Ranglijst 2026: nog geen opdrachten in dit boekjaar".
     const boekjaar =
       (await boekjarenMetControles())[0] ?? new Date().getFullYear() - 1;
+    // De datum in Nederlandse tijd (sv-SE geeft JJJJ-MM-DD) bepaalt de
+    // dagvraag; de pagina ververst per uur, dus om middernacht wisselt hij
+    // vanzelf mee.
+    const vandaag = new Date().toLocaleDateString("sv-SE", {
+      timeZone: "Europe/Amsterdam",
+    });
     const [
       organisatieTotaal,
       opdrachtTotaal,
@@ -57,6 +66,7 @@ export default async function Startpagina() {
       sectorlijst,
       vroegste,
       laatste,
+      vraag,
     ] = await Promise.all([
       // Tellen in de database, niet de rijen ophalen en die tellen: dat laatste
       // gaf "200 organisaties" omdat de lijst op 200 was afgekapt.
@@ -73,7 +83,42 @@ export default async function Startpagina() {
       // Voor de boekjarenreeks in de kerncijfers: die beschrijft de hele
       // dataset, dus mét de al aangeleverde 2026-boekjaren.
       nieuwsteBoekjaar(),
+      // De dagvraag mag nooit de voorpagina breken: zonder vraag geen kaart.
+      dagvraag(vandaag).catch(() => null),
     ]);
+
+    // De antwoordopties van de dagvraag: het echte kantoor plus drie grote
+    // kantoren als afleiders, deterministisch gehusseld op dezelfde datum —
+    // iedereen ziet dezelfde volgorde, en de goede staat niet altijd op
+    // dezelfde plek. Grote kantoren zijn geloofwaardige afleiders; wie het
+    // antwoord wil beredeneren moet dus echt de markt kennen.
+    let vraagkaart = null;
+    if (vraag) {
+      const zaad = dagzaad(vandaag);
+      const pool = ranglijstAlles
+        .map((rij) => rij.kantoor.naam)
+        .filter((naam) => naam !== vraag.kantoor.naam)
+        .slice(0, 15);
+      const afleiders: string[] = [];
+      for (let i = 0; afleiders.length < 3 && pool.length > 0; i++) {
+        afleiders.push(...pool.splice((zaad + i * 7919) % pool.length, 1));
+      }
+      if (afleiders.length >= 2) {
+        const juist = zaad % (afleiders.length + 1);
+        const opties = [...afleiders];
+        opties.splice(juist, 0, vraag.kantoor.naam);
+        vraagkaart = (
+          <DagvraagKaart
+            datum={vandaag}
+            organisatieNaam={vraag.organisatie.naam}
+            organisatiePad={organisatiePad(vraag.organisatie)}
+            boekjaar={vraag.boekjaar}
+            opties={opties}
+            juist={juist}
+          />
+        );
+      }
+    }
 
     // De noemer onder het podium: alle controles die voor dit boekjaar in de
     // database staan. Dat is nadrukkelijk niet "de markt". De database wordt per
@@ -116,11 +161,7 @@ export default async function Startpagina() {
             werd gewisseld. Alles uit openbare bronnen, met de vindplaats erbij.
           </p>
           <div className="kerncijfers">
-            <Kerncijfer
-              waarde={nl(organisatieTotaal)}
-              naam="organisaties"
-              naar="/organisaties"
-            />
+            <Kerncijfer waarde={nl(organisatieTotaal)} naam="organisaties" />
             <Kerncijfer waarde={nl(opdrachtTotaal)} naam="opdrachten" />
             <Kerncijfer
               waarde={nl(ranglijstAlles.length)}
@@ -219,7 +260,9 @@ export default async function Startpagina() {
             )}
           </section>
 
-          <section className="kaart">
+          <div className="kolomstapel">
+            {vraagkaart}
+            <section className="kaart">
             <div className="kaartkop">
               <h2>Laatste transfers</h2>
               <Link href="/wisselingen">Alle →</Link>
@@ -257,7 +300,8 @@ export default async function Startpagina() {
                 {saldi[0].saldo}).
               </p>
             ) : null}
-          </section>
+            </section>
+          </div>
         </div>
 
         <section className="kaart">
@@ -296,11 +340,6 @@ export default async function Startpagina() {
             {
               naar: "/bevindingen",
               tekst: "Waar was het oordeel niet goedkeurend?",
-            },
-            {
-              naar: "/organisaties",
-              tekst: "Alle organisaties op naam",
-              toelichting: aantalOrganisaties(organisatieTotaal),
             },
             ...sectorlijst.map((s) => ({
               naar: sectorPad(s.naam),
