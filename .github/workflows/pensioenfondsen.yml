@@ -9,6 +9,12 @@ name: Pensioenfondsen laden
 on:
   workflow_dispatch:
   workflow_call:
+  # Draait vanzelf zodra de seed (of deze workflow zelf) op main landt.
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/seed/pensioenfondsen.csv"
+      - ".github/workflows/pensioenfondsen.yml"
 
 jobs:
   laden:
