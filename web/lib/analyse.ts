@@ -135,72 +135,121 @@ export type Clientregel = {
   /** Unieke boekjaren, oplopend. */
   jaren: number[];
   laatsteBoekjaar: number;
-  /** Oordeel uit de gedeponeerde verklaring van het laatste boekjaar. */
+  /** Oordeel uit de gedeponeerde verklaring van het getoonde boekjaar: zonder
+   *  jaarfilter het laatste, met jaarfilter dat jaar. */
   oordeelLaatste: string | null;
   /** Opgave van de organisatie zelf, apart gehouden: het verschil moet op de
    *  pagina zichtbaar blijven als "(opgave)" — samengevouwen ging dat label
    *  verloren en stond een eigen opgave er als gelezen feit. */
   oordeelOpgaveLaatste: string | null;
-  /** Opdrachttype van het laatste boekjaar. Nodig omdat een kantoor naast
+  /** Opdrachttype van het getoonde boekjaar. Nodig omdat een kantoor naast
    *  jaarrekeningcontroles ook WNT- of productieverantwoordingen kan doen; die
    *  ongemerkt als cliënt tonen suggereert meer dan er staat. */
   typeLaatste: string;
 };
 
-/** Eén regel per cliënt in plaats van één regel per cliëntjaar. */
+/** De stand van één boekjaar binnen één cliëntrelatie. */
+type Jaarstand = {
+  oordeel: string | null;
+  oordeelOpgave: string | null;
+  type: string;
+  voorrang: number;
+};
+
+/**
+ * Eén regel per cliënt in plaats van één regel per cliëntjaar.
+ *
+ * Zonder `boekjaar` de volledige lijst, nieuwste relatie eerst, met type en
+ * oordeel uit ieders laatste boekjaar. Mét `boekjaar` alleen de cliënten van
+ * dat jaar (de "selectie van het seizoen"), alfabetisch, met type en oordeel
+ * uit dát jaar — de kolom `jaren` blijft de hele relatie beslaan, zodat de
+ * duur van de relatie zichtbaar blijft.
+ */
 export function clientenVanKantoor(
   opdrachten: OpdrachtMetOrganisatie[],
+  boekjaar?: number,
 ): Clientregel[] {
   const perOrganisatie = new Map<
     number,
-    Clientregel & { jaarSet: Set<number>; voorrangLaatste: number }
+    Clientregel & {
+      jaarSet: Set<number>;
+      voorrangLaatste: number;
+      perJaar: Map<number, Jaarstand>;
+    }
   >();
   for (const opdracht of opdrachten) {
     const org = opdracht.organisaties;
     if (!org) continue;
     // Binnen één boekjaar wint de jaarrekeningcontrole van een WNT- of
-    // productieverantwoording, zodat het getoonde "laatste oordeel" over de
+    // productieverantwoording, zodat het getoonde oordeel over de
     // jaarrekening gaat en niet van de rijvolgorde afhangt.
     const voorrang = TYPE_VOORRANG[opdracht.type_opdracht] ?? 9;
-    const bestaand = perOrganisatie.get(org.id);
-    if (bestaand) {
-      bestaand.jaarSet.add(opdracht.boekjaar);
-      if (
-        opdracht.boekjaar > bestaand.laatsteBoekjaar ||
-        (opdracht.boekjaar === bestaand.laatsteBoekjaar &&
-          voorrang < bestaand.voorrangLaatste)
-      ) {
-        bestaand.laatsteBoekjaar = opdracht.boekjaar;
-        bestaand.oordeelLaatste = opdracht.oordeel;
-        bestaand.oordeelOpgaveLaatste = opdracht.oordeel_gerapporteerd;
-        bestaand.typeLaatste = opdracht.type_opdracht;
-        bestaand.voorrangLaatste = voorrang;
-      }
-    } else {
-      perOrganisatie.set(org.id, {
+    let regel = perOrganisatie.get(org.id);
+    if (!regel) {
+      regel = {
         organisatieId: org.id,
         naam: org.naam,
         kvkNummer: org.kvk_nummer,
         gemeente: org.gemeente,
         sector: org.sector,
         jaren: [],
-        jaarSet: new Set([opdracht.boekjaar]),
+        jaarSet: new Set(),
         laatsteBoekjaar: opdracht.boekjaar,
         oordeelLaatste: opdracht.oordeel,
         oordeelOpgaveLaatste: opdracht.oordeel_gerapporteerd,
         typeLaatste: opdracht.type_opdracht,
         voorrangLaatste: voorrang,
+        perJaar: new Map(),
+      };
+      perOrganisatie.set(org.id, regel);
+    }
+    regel.jaarSet.add(opdracht.boekjaar);
+    if (
+      opdracht.boekjaar > regel.laatsteBoekjaar ||
+      (opdracht.boekjaar === regel.laatsteBoekjaar &&
+        voorrang < regel.voorrangLaatste)
+    ) {
+      regel.laatsteBoekjaar = opdracht.boekjaar;
+      regel.oordeelLaatste = opdracht.oordeel;
+      regel.oordeelOpgaveLaatste = opdracht.oordeel_gerapporteerd;
+      regel.typeLaatste = opdracht.type_opdracht;
+      regel.voorrangLaatste = voorrang;
+    }
+    const jaarstand = regel.perJaar.get(opdracht.boekjaar);
+    if (!jaarstand || voorrang < jaarstand.voorrang) {
+      regel.perJaar.set(opdracht.boekjaar, {
+        oordeel: opdracht.oordeel,
+        oordeelOpgave: opdracht.oordeel_gerapporteerd,
+        type: opdracht.type_opdracht,
+        voorrang,
       });
     }
   }
+
+  if (boekjaar === undefined) {
+    return [...perOrganisatie.values()]
+      .map(({ jaarSet, voorrangLaatste: _v, perJaar: _p, ...regel }) => ({
+        ...regel,
+        jaren: [...jaarSet].sort((a, b) => a - b),
+      }))
+      .sort(
+        (a, b) => b.laatsteBoekjaar - a.laatsteBoekjaar || a.naam.localeCompare(b.naam),
+      );
+  }
+
   return [...perOrganisatie.values()]
-    .map(({ jaarSet, voorrangLaatste: _v, ...regel }) => ({
-      ...regel,
-      jaren: [...jaarSet].sort((a, b) => a - b),
-    }))
-    .sort(
-      (a, b) => b.laatsteBoekjaar - a.laatsteBoekjaar || a.naam.localeCompare(b.naam),
-    );
+    .filter((regel) => regel.perJaar.has(boekjaar))
+    .map(({ jaarSet, voorrangLaatste: _v, perJaar, ...regel }) => {
+      const stand = perJaar.get(boekjaar)!;
+      return {
+        ...regel,
+        jaren: [...jaarSet].sort((a, b) => a - b),
+        oordeelLaatste: stand.oordeel,
+        oordeelOpgaveLaatste: stand.oordeelOpgave,
+        typeLaatste: stand.type,
+      };
+    })
+    .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
 }
 
 /** Wat een kantoor won en verloor in een periode; het saldo is de transfermarkt. */

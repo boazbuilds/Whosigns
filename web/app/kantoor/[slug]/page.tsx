@@ -3,11 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   accountantsVanKantoor,
+  boekjarenMetControles,
   gunningenVanKantoor,
   kantoorOpAfm,
   kantoorOpId,
   kantoorRanglijst,
-  nieuwsteBoekjaar,
   opdrachtenVanKantoor,
   wisselingen,
   type Kantoor,
@@ -34,16 +34,21 @@ import { Aandeelbalk, Doorklik, Foutmelding, Inklapbaar, KantoorLink, Kerncijfer
 
 type Params = {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ sector?: string }>;
+  searchParams: Promise<{ sector?: string; jaar?: string }>;
 };
 
 /**
  * Zoveel cliënten staan open; de staart zit achter een klik. Een groot kantoor
  * heeft er honderden, en die stonden allemaal uitgeschreven onder de pagina.
- * De lijst is op laatste boekjaar gesorteerd, dus wat openstaat is het meest
- * actuele deel.
  */
 const CLIENTEN_OPEN = 25;
+
+/**
+ * Zoveel boekjaren in de keuzebalk boven de cliëntenlijst; oudere jaren
+ * blijven bereikbaar via "Alle jaren". Bij Flynth loopt de reeks terug tot
+ * 1996 — dertig losse knoppen helpen niemand.
+ */
+const JAREN_IN_BALK = 10;
 
 /**
  * Zoveel mutaties staan open per kolom. Zonder grens werd de pagina van PwC
@@ -143,7 +148,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
 export default async function Kantoorpagina({ params, searchParams }: Params) {
   const { slug } = await params;
-  const { sector: sectorFilterRuw } = await searchParams;
+  const { sector: sectorFilterRuw, jaar: jaarRuw } = await searchParams;
 
   let kantoor;
   try {
@@ -153,18 +158,22 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
   }
   if (!kantoor) notFound();
 
-  const [opdrachten, mutaties, boekjaar, ranglijst, aanbestedingen, tekenaars] =
+  const [opdrachten, mutaties, ranglijstJaren, ranglijst, aanbestedingen, tekenaars] =
     await Promise.all([
     opdrachtenVanKantoor(kantoor.id),
     // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
     // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
     // precies 50, dus het was de grens die dat getal bepaalde en niet de data.
     wisselingen({ kantoorId: kantoor.id }),
-    nieuwsteBoekjaar(),
+    // Uit v_marktaandeel en niet max(opdrachten.boekjaar): er staan al
+    // opdrachten met boekjaar 2026 in de database (gebroken boekjaren uit
+    // marktonderzoek), maar een ranglijst is er pas als er controles zijn.
+    boekjarenMetControles(),
     kantoorRanglijst().catch(() => []),
     gunningenVanKantoor(kantoor.id),
     accountantsVanKantoor(kantoor.id),
   ]);
+  const boekjaar = ranglijstJaren[0] ?? null;
 
   const clienten = clientenVanKantoor(opdrachten);
 
@@ -178,9 +187,38 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
     ? [...new Set(clienten.map((c) => c.sector).filter((s): s is string => !!s))]
         .find((s) => slugVan(s) === sectorFilterRuw) ?? null
     : null;
-  const clientenGetoond = sectorFilter
-    ? clienten.filter((c) => c.sector === sectorFilter)
-    : clienten;
+
+  // De jaarkiezer boven de cliëntenlijst: standaard de selectie van het
+  // nieuwste eigen boekjaar waarvoor er landelijk ook een ranglijst is —
+  // marktonderzoek bevat al boekjaar 2026, maar wie hier binnenkomt wil het
+  // laatste volle jaar zien. ?jaar=alles geeft de volledige lijst over alle
+  // boekjaren; een onzinnig jaartal valt terug op de standaard.
+  const eigenJaren = [...new Set(clienten.flatMap((c) => c.jaren))].sort(
+    (a, b) => b - a,
+  );
+  const standaardJaar =
+    eigenJaren.find((j) => boekjaar === null || j <= boekjaar) ??
+    eigenJaren[0] ??
+    null;
+  const gekozenJaar =
+    jaarRuw === "alles"
+      ? null
+      : eigenJaren.includes(Number(jaarRuw))
+        ? Number(jaarRuw)
+        : standaardJaar;
+
+  const clientenGetoond = (
+    gekozenJaar === null ? clienten : clientenVanKantoor(opdrachten, gekozenJaar)
+  ).filter((c) => !sectorFilter || c.sector === sectorFilter);
+
+  // Link naar deze cliëntenlijst met een ander jaar, met behoud van het
+  // sectorfilter — en andersom.
+  const clientenPad = (jaar: number | null, sector: string | null) => {
+    const zoek = new URLSearchParams();
+    zoek.set("jaar", jaar === null ? "alles" : String(jaar));
+    if (sector) zoek.set("sector", slugVan(sector));
+    return `${kantoorPad(kantoor)}?${zoek.toString()}#clienten`;
+  };
 
   // Tellen per soort opdracht, aflopend. Alleen tonen als er meer dan één
   // soort is — bij een kantoor dat uitsluitend wettelijke controles doet
@@ -220,7 +258,7 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
         <th>Opdracht</th>
         <th>Boekjaren</th>
         <th className="getal">Duur</th>
-        <th>Laatste oordeel</th>
+        <th>{gekozenJaar ? "Oordeel" : "Laatste oordeel"}</th>
       </tr>
     </thead>
   );
@@ -375,12 +413,12 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
                 {sectorrijen.map(([sector, aantal]) => (
                   <tr key={sector}>
                     <td>
-                      {/* Naar de eigen cliëntenlijst, gefilterd op deze sector.
-                          De landelijke sectorpagina blijft bereikbaar via het
+                      {/* Naar de eigen cliëntenlijst, gefilterd op deze sector
+                          en over alle boekjaren — wie hier klikt wil de hele
+                          portefeuille in die sector zien, niet één jaar. De
+                          landelijke sectorpagina blijft bereikbaar via het
                           pijltje ernaast en de doorklikken onderaan. */}
-                      <Link
-                        href={`${kantoorPad(kantoor)}?sector=${slugVan(sector)}#clienten`}
-                      >
+                      <Link href={clientenPad(null, sector)}>
                         {hoofdletter(sector)}
                       </Link>{" "}
                       <Link
@@ -472,16 +510,43 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
         <div className="kaartkop">
           <h2>
             Cliënten
-            {sectorFilter ? ` — ${sectorFilter} (${clientenGetoond.length})` : ""}
+            {gekozenJaar ? ` in boekjaar ${gekozenJaar}` : ""}
+            {sectorFilter ? ` — ${sectorFilter}` : ""}
+            {` (${clientenGetoond.length})`}
           </h2>
           {sectorFilter ? (
-            <Link href={`${kantoorPad(kantoor)}#clienten`}>Alle sectoren →</Link>
+            <Link href={clientenPad(gekozenJaar, null)}>Alle sectoren →</Link>
           ) : boekjaar ? (
             <Link href={`/kantoren?jaar=${boekjaar}`}>Ranglijst {boekjaar} →</Link>
           ) : null}
         </div>
+        {eigenJaren.length > 1 ? (
+          <nav className="keuzebalk" aria-label="Kies een boekjaar">
+            {eigenJaren.slice(0, JAREN_IN_BALK).map((j) => (
+              <Link
+                key={j}
+                href={clientenPad(j, sectorFilter)}
+                className={gekozenJaar === j ? "actief" : undefined}
+              >
+                {j}
+              </Link>
+            ))}
+            <Link
+              href={clientenPad(null, sectorFilter)}
+              className={gekozenJaar === null ? "actief" : undefined}
+            >
+              Alle jaren
+            </Link>
+          </nav>
+        ) : null}
         {clientenGetoond.length === 0 ? (
-          <Leeg tekst="Nog geen cliënten van dit kantoor in de database." />
+          <Leeg
+            tekst={
+              gekozenJaar
+                ? "Geen cliënten in dit boekjaar."
+                : "Nog geen cliënten van dit kantoor in de database."
+            }
+          />
         ) : (
           <>
             <div className="tabel-omhulsel">
@@ -492,7 +557,11 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
             </div>
             {clientrijen.length > CLIENTEN_OPEN ? (
               <Inklapbaar
-                samenvatting={`Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten uit eerdere boekjaren`}
+                samenvatting={
+                  gekozenJaar
+                    ? `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten in dit boekjaar`
+                    : `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten uit eerdere boekjaren`
+                }
               >
                 <div className="tabel-omhulsel">
                   <table>

@@ -18,6 +18,7 @@ from laad_marktonderzoek import (  # noqa: E402
     geldige_rij,
     herleid_kantoren,
     lees_map,
+    sector_uit_sbi,
 )
 
 goed = 0
@@ -89,14 +90,60 @@ k, o = herleid_kantoren("Crowe", index)
 check("kaal Crowe blijft onherleidbaar (Foederer of Peak? een mens kiest)", not k and o == ["Crowe"])
 
 check(
-    "een geldige rij komt genormaliseerd door",
+    "een geldige rij komt genormaliseerd door (zonder sbi/plaats blijven die leeg)",
     geldige_rij({"kvk": "0603-2957", "naam": "X", "boekjaar": "2024", "accountant": "KPMG"})
-    == {"kvk": "06032957", "naam": "X", "boekjaar": 2024, "accountant": "KPMG"},
+    == {
+        "kvk": "06032957",
+        "naam": "X",
+        "boekjaar": 2024,
+        "accountant": "KPMG",
+        "sbi": "",
+        "plaats": "",
+    },
 )
 check(
     "zonder kvk of jaartal wordt een rij geweigerd",
     geldige_rij({"kvk": "123", "naam": "X", "boekjaar": "2024", "accountant": "K"}) is None
     and geldige_rij({"kvk": "06032957", "naam": "X", "boekjaar": "?", "accountant": "K"}) is None,
+)
+rij = geldige_rij(
+    {
+        "kvk": "06032957",
+        "naam": "X",
+        "boekjaar": "2024",
+        "accountant": "KPMG",
+        "sbi": "65.30.1",
+        "plaats": " Zeist ",
+    }
+)
+check(
+    "sbi en plaats komen genormaliseerd door",
+    rij is not None and rij["sbi"] == "65301" and rij["plaats"] == "Zeist",
+)
+
+check(
+    "SBI-codes herleiden naar de grove sectoren",
+    sector_uit_sbi("27900") == "industrie en bouw"
+    and sector_uit_sbi("47110") == "handel"
+    and sector_uit_sbi("62010") == "ict en media"
+    and sector_uit_sbi("6420") == "financiële dienstverlening"
+    and sector_uit_sbi("68201") == "vastgoed"
+    and sector_uit_sbi("82990") == "zakelijke dienstverlening"
+    and sector_uit_sbi("0113") == "landbouw en visserij",
+)
+check(
+    "SBI 65.30 gaat als pensioenfonds vóór de financiële hoofdgroep",
+    sector_uit_sbi("65301") == "pensioenfondsen",
+)
+check(
+    "zorg en onderwijs landen op de bestaande sectornamen",
+    sector_uit_sbi("86101") == "zorg" and sector_uit_sbi("85421") == "onderwijs",
+)
+check(
+    "onbekende hoofdgroepen worden overig, geen code wordt niets",
+    sector_uit_sbi("84111") == "overig bedrijfsleven"
+    and sector_uit_sbi("55101") == "overig bedrijfsleven"
+    and sector_uit_sbi("") is None,
 )
 
 # De aanlevermap zelf: elke rij moet door de validatie komen, want de lader

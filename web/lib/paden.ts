@@ -265,6 +265,22 @@ export const SECTOR_UITLEG: Record<string, string> = {
     "Gemeenten, provincies, waterschappen en veiligheidsregio's, uit Europees " +
     "aanbestede accountantsdiensten (TED). Hier staat wie er benoemd is en " +
     "wanneer — het oordeel bij de jaarrekening zit in deze bron niet.",
+  // De grove bedrijfsleven-indeling op SBI-hoofdgroep, gevuld vanuit
+  // aangeleverd marktonderzoek (zie pipeline/laad_marktonderzoek.py).
+  "landbouw en visserij": "Agrarische bedrijven en visserij, ingedeeld op SBI-code.",
+  "industrie en bouw":
+    "Productie-, energie- en bouwbedrijven, ingedeeld op SBI-code.",
+  handel: "Groothandel, detailhandel en autohandel, ingedeeld op SBI-code.",
+  "transport en logistiek":
+    "Vervoer, opslag, post en logistiek, ingedeeld op SBI-code.",
+  "ict en media": "Software, IT-diensten, uitgevers en media, ingedeeld op SBI-code.",
+  "financiële dienstverlening":
+    "Holdings, financierings- en verzekeringsbedrijven, ingedeeld op SBI-code.",
+  vastgoed: "Verhuur en handel in onroerend goed, ingedeeld op SBI-code.",
+  "zakelijke dienstverlening":
+    "Advies, advocatuur, uitzenders en overige zakelijke diensten, ingedeeld op SBI-code.",
+  "overig bedrijfsleven":
+    "Bedrijven buiten de andere hokjes: horeca, cultuur, sport en overige diensten.",
 };
 
 /** Datum uit de database als "13 augustus 2007"; null blijft een streepje. */

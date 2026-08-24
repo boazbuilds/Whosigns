@@ -13,7 +13,7 @@ Draaien:
     MARKTONDERZOEK_DATA="$(gzip -c export.csv | base64 -w0)" \
         python3 pipeline/laad_marktonderzoek.py
 
-Csv-kolommen: kvk,naam,boekjaar,accountant.
+Csv-kolommen: kvk,naam,boekjaar,accountant en optioneel sbi,plaats.
 
 Spelregels:
 
@@ -29,8 +29,10 @@ Spelregels:
 - Bronregistratie: bron_type "marktonderzoek", betrouwbaarheid
   "zelf_aangeleverd", zonder url. Het colofon van de site benoemt deze
   categorie.
-- Organisaties worden op KvK-nummer herkend of aangemaakt (zonder sector —
-  liever leeg dan een gok uit een SBI-code).
+- Organisaties worden op KvK-nummer herkend of aangemaakt. Een aangeleverde
+  SBI-code en plaats vullen sbi_code, gemeente en (via SBI_SECTOR, een klein
+  aantal grove hokjes) de sector — maar alléén velden die nog leeg zijn: wat
+  een documentbron of een mens al invulde blijft staan.
 """
 
 import argparse
@@ -103,6 +105,46 @@ VERKORT: dict[str, str] = {
 
 AANLEVER = Path(__file__).resolve().parent / "aanlever"
 
+# SBI-hoofdgroep (eerste twee cijfers) -> sector. Bewust weinig hokjes: de
+# sectorpagina's moeten leesbaar blijven, dus het bedrijfsleven krijgt acht
+# grove sectoren in plaats van de honderden SBI-groepen. Drie hoofdgroepen
+# wijzen naar sectoren die al bestaan (zorg, onderwijs, pensioenfondsen),
+# zodat een organisatie uit een aanlevering op dezelfde pagina belandt als
+# een organisatie uit een documentbron. Hernoemen is later één migratie —
+# de SBI-code zelf blijft op de organisatie staan.
+SBI_SECTOR: list[tuple[range, str]] = [
+    (range(1, 4), "landbouw en visserij"),
+    (range(5, 44), "industrie en bouw"),  # incl. delfstoffen, energie, water
+    (range(45, 48), "handel"),
+    (range(49, 54), "transport en logistiek"),
+    (range(58, 64), "ict en media"),
+    (range(64, 67), "financiële dienstverlening"),
+    (range(68, 69), "vastgoed"),
+    (range(69, 83), "zakelijke dienstverlening"),
+    (range(85, 86), "onderwijs"),
+    (range(86, 89), "zorg"),
+]
+
+
+def sector_uit_sbi(sbi: str) -> str | None:
+    """Grove sector bij een SBI-code; None zonder code.
+
+    65.30 is de SBI-groep voor pensioenfondsen en gaat vóór de hoofdgroep
+    64-66 (financiële dienstverlening): die sector bestaat al met eigen
+    lader en eigen pagina.
+    """
+    if len(sbi) < 2:
+        return None
+    if sbi.startswith("6530"):
+        return "pensioenfondsen"
+    groep = int(sbi[:2])
+    for bereik, sector in SBI_SECTOR:
+        if groep in bereik:
+            return sector
+    # Horeca, overheid, cultuur, sport, overige diensten: te weinig
+    # controlecliënten voor een eigen hokje.
+    return "overig bedrijfsleven"
+
 
 def lees_map(map_pad: Path = AANLEVER) -> list[dict]:
     """Alle marktonderzoek_*.csv uit de aanlevermap, op bestandsnaam gesorteerd."""
@@ -159,12 +201,24 @@ def geldige_rij(rij: dict) -> dict | None:
     accountant = (rij.get("accountant") or "").strip()
     if len(kvk) != 8 or not naam or not boekjaar.isdigit() or not accountant:
         return None
-    return {"kvk": kvk, "naam": naam, "boekjaar": int(boekjaar), "accountant": accountant}
+    return {
+        "kvk": kvk,
+        "naam": naam,
+        "boekjaar": int(boekjaar),
+        "accountant": accountant,
+        # Optioneel, sinds formaat v2; oudere aanleverbestanden missen de
+        # kolommen en leveren hier gewoon een lege tekst.
+        "sbi": re.sub(r"\D", "", rij.get("sbi") or ""),
+        "plaats": (rij.get("plaats") or "").strip(),
+    }
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--bestand", help="csv met kolommen kvk,naam,boekjaar,accountant")
+    parser.add_argument(
+        "--bestand",
+        help="csv met kolommen kvk,naam,boekjaar,accountant (en optioneel sbi,plaats)",
+    )
     parser.add_argument("--droogloop", action="store_true")
     argumenten = parser.parse_args()
 
@@ -189,7 +243,12 @@ def main() -> int:
             for rij in db.selecteer_alles("kantoren", "select=id,sleutel")
             if rij.get("sleutel")
         }
-        for rij in db.selecteer_alles("organisaties", "select=id,kvk_nummer"):
+        # Ook naam, sector, sbi_code en gemeente voorladen: de verrijking
+        # hieronder mag alleen lege velden invullen en moet de gevulde dus
+        # kunnen zien — en ongewijzigd mee terugsturen.
+        for rij in db.selecteer_alles(
+            "organisaties", "select=id,kvk_nummer,naam,sector,sbi_code,gemeente"
+        ):
             if rij.get("kvk_nummer"):
                 org_per_kvk[rij["kvk_nummer"]] = rij
 
@@ -263,15 +322,62 @@ def main() -> int:
     if db is not None:
         db.invoegen_bulk("review_queue", review_rijen)
 
+    verrijkt = 0
     if db is not None and schoon:
+        # Beste aangeleverde SBI en plaats per KvK, over alle bestanden heen:
+        # een oudere aanlevering zonder die kolommen mag een nieuwere met
+        # kolommen niet in de weg zitten.
+        aangeleverd_per_kvk: dict[str, dict] = {}
+        for rij in schoon:
+            info = aangeleverd_per_kvk.setdefault(rij["kvk"], {"sbi": "", "plaats": ""})
+            info["sbi"] = info["sbi"] or rij["sbi"]
+            info["plaats"] = info["plaats"] or rij["plaats"]
+
+        # Verrijking van bestaande organisaties: sbi_code, gemeente en (uit de
+        # SBI) de sector, maar alléén velden die nog leeg zijn — wat een
+        # documentbron of een mens invulde blijft staan. De upsert stuurt de
+        # gevulde waarden en de naam ongewijzigd mee terug, zodat
+        # merge-duplicates niets anders aanraakt.
+        verrijking: list[dict] = []
+        for kvk, info in aangeleverd_per_kvk.items():
+            org = org_per_kvk.get(kvk)
+            if org is None:
+                continue
+            sector = org.get("sector") or sector_uit_sbi(info["sbi"])
+            sbi = org.get("sbi_code") or (info["sbi"] or None)
+            gemeente = org.get("gemeente") or (info["plaats"] or None)
+            if (
+                sector == org.get("sector")
+                and sbi == org.get("sbi_code")
+                and gemeente == org.get("gemeente")
+            ):
+                continue
+            verrijking.append(
+                {
+                    "kvk_nummer": kvk,
+                    "naam": org["naam"],
+                    "sector": sector,
+                    "sbi_code": sbi,
+                    "gemeente": gemeente,
+                }
+            )
+        verrijkt = db.upsert("organisaties", verrijking, "kvk_nummer")
+
         # Nieuwe organisaties in bulk, zonder bestaande te overschrijven: een
         # naam uit een documentbron is beter dan die uit een aanlevering.
         nieuw_per_kvk: dict[str, dict] = {}
         for rij in schoon:
             if rij["kvk"] not in org_per_kvk:
+                info = aangeleverd_per_kvk[rij["kvk"]]
                 nieuw_per_kvk.setdefault(
                     rij["kvk"],
-                    {"naam": rij["naam"], "kvk_nummer": rij["kvk"], "sector": None},
+                    {
+                        "naam": rij["naam"],
+                        "kvk_nummer": rij["kvk"],
+                        "sector": sector_uit_sbi(info["sbi"]),
+                        "sbi_code": info["sbi"] or None,
+                        "gemeente": info["plaats"] or None,
+                    },
                 )
         if nieuw_per_kvk:
             db.invoegen_zonder_overschrijven(
@@ -324,7 +430,8 @@ def main() -> int:
     rapport.close()
     print(
         f"\n{geschreven} opdrachten geschreven, {overgeslagen} al bekend, "
-        f"{review} naar review; rapport: {rapport_pad}",
+        f"{review} naar review, {verrijkt} organisaties verrijkt; "
+        f"rapport: {rapport_pad}",
         flush=True,
     )
     return 0

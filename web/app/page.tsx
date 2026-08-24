@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {
+  boekjarenMetControles,
   kantoorRanglijst,
   nieuwsteBoekjaar,
   oudsteBoekjaar,
@@ -41,7 +42,12 @@ const KANTOREN_OP_VOORPAGINA = 10;
 export default async function Startpagina() {
   let inhoud;
   try {
-    const boekjaar = (await nieuwsteBoekjaar()) ?? new Date().getFullYear() - 1;
+    // Het ranglijstjaar komt uit v_marktaandeel en niet uit max(boekjaar) van
+    // de opdrachten: het marktonderzoek levert gebroken boekjaren tot en met
+    // 2026 aan, maar die tellen niet als controle — en dan opende de site met
+    // "Ranglijst 2026: nog geen opdrachten in dit boekjaar".
+    const boekjaar =
+      (await boekjarenMetControles())[0] ?? new Date().getFullYear() - 1;
     const [
       organisatieTotaal,
       opdrachtTotaal,
@@ -50,6 +56,7 @@ export default async function Startpagina() {
       ranglijstAlles,
       sectorlijst,
       vroegste,
+      laatste,
     ] = await Promise.all([
       // Tellen in de database, niet de rijen ophalen en die tellen: dat laatste
       // gaf "200 organisaties" omdat de lijst op 200 was afgekapt.
@@ -63,6 +70,9 @@ export default async function Startpagina() {
       // try om dit hele blok toont dan gewoon de foutmelding.
       sectoren(),
       oudsteBoekjaar(),
+      // Voor de boekjarenreeks in de kerncijfers: die beschrijft de hele
+      // dataset, dus mét de al aangeleverde 2026-boekjaren.
+      nieuwsteBoekjaar(),
     ]);
 
     // De noemer onder het podium: alle controles die voor dit boekjaar in de
@@ -123,7 +133,11 @@ export default async function Startpagina() {
               naar="/sectoren"
             />
             <Kerncijfer
-              waarde={vroegste ? `${vroegste}–${boekjaar}` : `t/m ${boekjaar}`}
+              waarde={
+                vroegste
+                  ? `${vroegste}–${laatste ?? boekjaar}`
+                  : `t/m ${laatste ?? boekjaar}`
+              }
               naam="boekjaren"
             />
           </div>
