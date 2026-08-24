@@ -311,3 +311,138 @@ export function saldoPerKantoor(
     (a, b) => b.saldo - a.saldo || b.gewonnen - a.gewonnen || a.naam.localeCompare(b.naam, "nl"),
   );
 }
+
+/** Controlehonoraria samengevat per boekjaar. */
+export type HonorariumJaar = {
+  boekjaar: number;
+  aantal: number;
+  gemiddelde: number;
+  mediaan: number;
+};
+
+/** De vorm die de honorarium-afleidingen nodig hebben; een subset van
+ *  HonorariumRij uit db.ts, structureel getypt zodat een test geen echte
+ *  databaserij hoeft na te bouwen. */
+type HonorariumBron = {
+  boekjaar: number;
+  honorarium_controle_eur: number | null;
+  organisaties: { id: number } | null;
+  kantoren: { id: number; naam: string; afm_nummer: string | null } | null;
+};
+
+/**
+ * Gemiddelde en mediaan van het controlehonorarium per boekjaar, nieuwste
+ * eerst. Alleen de controlecategorie: de vier categorieën van art. 2:382a
+ * BW blijven uit elkaar, en de andere drie ontbreken te vaak om een
+ * jaargemiddelde te dragen.
+ */
+export function controleHonorariumPerJaar(rijen: HonorariumBron[]): HonorariumJaar[] {
+  const perJaar = new Map<number, number[]>();
+  for (const rij of rijen) {
+    const bedrag = rij.honorarium_controle_eur;
+    if (bedrag == null) continue;
+    perJaar.set(rij.boekjaar, [...(perJaar.get(rij.boekjaar) ?? []), bedrag]);
+  }
+  return [...perJaar.entries()]
+    .map(([boekjaar, bedragen]) => {
+      bedragen.sort((a, b) => a - b);
+      return {
+        boekjaar,
+        aantal: bedragen.length,
+        gemiddelde: bedragen.reduce((som, bedrag) => som + bedrag, 0) / bedragen.length,
+        mediaan: bedragen[Math.floor(bedragen.length / 2)],
+      };
+    })
+    .sort((a, b) => b.boekjaar - a.boekjaar);
+}
+
+/** De prijsontwikkeling van één kantoor, gemeten op gematchte paren. */
+export type Prijsontwikkeling = {
+  kantoorId: number;
+  naam: string;
+  afmNummer: string | null;
+  /** Aantal jaar-op-jaar-paren waarop de mediaan rust. */
+  paren: number;
+  /** Mediane jaar-op-jaar-verandering als fractie (0.062 = +6,2%). */
+  mediaanVerandering: number;
+  vanJaar: number;
+  totJaar: number;
+};
+
+/**
+ * Prijsontwikkeling per kantoor: de mediane jaar-op-jaar-verandering van het
+ * controlehonorarium, gemeten op gematchte paren — dezelfde organisatie, bij
+ * hetzelfde kantoor, in twee opeenvolgende boekjaren.
+ *
+ * Waarom zo omslachtig: het gemiddelde per kantoor per jaar vergelijkt vooral
+ * de klantenmix (een kantoor dat een ziekenhuis wint "stijgt" dan zonder één
+ * tarief te verhogen). Binnen een gematcht paar is de organisatie constant,
+ * dus meet de verandering de prijs. De mediaan in plaats van het gemiddelde,
+ * omdat één uitschieter bij kleine aantallen anders het hele kantoor kleurt;
+ * en een minimum aantal paren, omdat een mediaan van twee waarnemingen geen
+ * ontwikkeling is maar een anekdote.
+ */
+export function prijsontwikkelingPerKantoor(
+  rijen: HonorariumBron[],
+  minimumParen = 3,
+): Prijsontwikkeling[] {
+  // (organisatie, kantoor) -> boekjaar -> bedrag. Bij een dubbele rij voor
+  // hetzelfde jaar wint de eerste; de bron levert er zelden meer dan één.
+  const reeksen = new Map<
+    string,
+    {
+      kantoor: { id: number; naam: string; afm_nummer: string | null };
+      perJaar: Map<number, number>;
+    }
+  >();
+  for (const rij of rijen) {
+    const bedrag = rij.honorarium_controle_eur;
+    if (bedrag == null || !rij.kantoren || !rij.organisaties) continue;
+    const sleutel = `${rij.organisaties.id}-${rij.kantoren.id}`;
+    const reeks = reeksen.get(sleutel) ?? { kantoor: rij.kantoren, perJaar: new Map() };
+    if (!reeks.perJaar.has(rij.boekjaar)) reeks.perJaar.set(rij.boekjaar, bedrag);
+    reeksen.set(sleutel, reeks);
+  }
+
+  const perKantoor = new Map<
+    number,
+    {
+      kantoor: { id: number; naam: string; afm_nummer: string | null };
+      veranderingen: number[];
+      jaren: number[];
+    }
+  >();
+  for (const reeks of reeksen.values()) {
+    for (const [jaar, bedrag] of reeks.perJaar) {
+      const vorig = reeks.perJaar.get(jaar - 1);
+      if (vorig === undefined || vorig <= 0) continue;
+      const stand = perKantoor.get(reeks.kantoor.id) ?? {
+        kantoor: reeks.kantoor,
+        veranderingen: [],
+        jaren: [],
+      };
+      stand.veranderingen.push((bedrag - vorig) / vorig);
+      stand.jaren.push(jaar - 1, jaar);
+      perKantoor.set(reeks.kantoor.id, stand);
+    }
+  }
+
+  return [...perKantoor.values()]
+    .filter((stand) => stand.veranderingen.length >= minimumParen)
+    .map((stand) => {
+      const gesorteerd = [...stand.veranderingen].sort((a, b) => a - b);
+      return {
+        kantoorId: stand.kantoor.id,
+        naam: stand.kantoor.naam,
+        afmNummer: stand.kantoor.afm_nummer,
+        paren: gesorteerd.length,
+        mediaanVerandering: gesorteerd[Math.floor(gesorteerd.length / 2)],
+        vanJaar: Math.min(...stand.jaren),
+        totJaar: Math.max(...stand.jaren),
+      };
+    })
+    .sort(
+      (a, b) =>
+        b.mediaanVerandering - a.mediaanVerandering || a.naam.localeCompare(b.naam, "nl"),
+    );
+}
