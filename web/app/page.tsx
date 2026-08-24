@@ -5,6 +5,7 @@ import {
   dagzaad,
   kantoorRanglijst,
   nieuwsteBoekjaar,
+  oordelenVoorafAanWissels,
   oudsteBoekjaar,
   sectoren,
   tel,
@@ -86,6 +87,9 @@ export default async function Startpagina() {
       // De dagvraag mag nooit de voorpagina breken: zonder vraag geen kaart.
       dagvraag(vandaag).catch(() => null),
     ]);
+    // Opinion-shopping-label bij de laatste transfers: het oordeel uit het
+    // boekjaar vóór de wisseling, zelfde markering als op /wisselingen.
+    const vooraf = await oordelenVoorafAanWissels(laatsteWisselingen);
 
     // De antwoordopties van de dagvraag: het echte kantoor plus drie grote
     // kantoren als afleiders, deterministisch gehusseld op dezelfde datum —
@@ -286,6 +290,30 @@ export default async function Startpagina() {
                         <div className="klein zacht">
                           <KortKantoorLink kantoor={w.van} /> →{" "}
                           <KortKantoorLink kantoor={w.naar} />
+                          {(() => {
+                            const stand = vooraf.get(
+                              `${w.organisatie_id}-${w.boekjaar_wissel}`,
+                            );
+                            if (
+                              !stand ||
+                              ((stand.oordeel === null ||
+                                stand.oordeel === "goedkeurend") &&
+                                !stand.continuiteitsonzekerheid)
+                            ) {
+                              return null;
+                            }
+                            return (
+                              <>
+                                {" "}
+                                <span
+                                  className="label label-let-op"
+                                  title={`De verklaring over boekjaar ${w.boekjaar_wissel - 1} was niet zonder meer goedkeurend; daarna wisselde de organisatie van kantoor.`}
+                                >
+                                  na slecht nieuws
+                                </span>
+                              </>
+                            );
+                          })()}
                         </div>
                       </td>
                     </tr>
