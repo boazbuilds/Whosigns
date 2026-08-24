@@ -71,6 +71,18 @@ class Supabase:
             )
         return len(rijen)
 
+    def invoegen_bulk(self, tabel: str, rijen: list[dict]) -> int:
+        """Bulk-insert zonder conflictsleutel, voor tabellen zonder unieke
+        kolom (zoals de review-queue)."""
+        if not rijen:
+            return 0
+        for begin in range(0, len(rijen), 500):
+            self._verzoek(
+                "POST", tabel, rijen[begin : begin + 500],
+                {"Prefer": "return=minimal"},
+            )
+        return len(rijen)
+
     def invoegen_zonder_overschrijven(
         self, tabel: str, rijen: list[dict], conflict_kolom: str
     ) -> int:

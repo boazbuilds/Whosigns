@@ -75,6 +75,9 @@ VERKORT: dict[str, str] = {
     "crowe foederer": "13000413",
     "crowe peak": "13000097",
     "crowe peak audit": "13000097",
+    # De merknaam tot 2019; Foederer en Peak waren toen al aparte kantoren.
+    "crowe horwath foederer": "13000413",
+    "crowe horwath peak": "13000097",
     # WITh heeft geen Wta-vergunning maar tekent vrijwillige controles bij
     # goede doelen; staat als overig kantoor in de database.
     "with": "overig_with_accountants",
@@ -186,6 +189,8 @@ def main() -> int:
     # hergebruiken — anders laat elke herstart een extra rij achter.
     bron_id = None
     bezet: set[tuple[int, int]] = set()
+    al_in_review: set[tuple] = set()
+    review_rijen: list[dict] = []
     if db is not None:
         bestaande_bron = db.selecteer_alles(
             "bronnen", "select=id&bron_type=eq.marktonderzoek&limit=1"
@@ -201,6 +206,11 @@ def main() -> int:
             "&type_opdracht=in.(wettelijke_controle,controle_onbepaald)",
         ):
             bezet.add((r["organisatie_id"], r["boekjaar"]))
+        for r in db.selecteer_alles(
+            "review_queue", "select=payload&soort=eq.naam_match&status=eq.open"
+        ):
+            p = r.get("payload") or {}
+            al_in_review.add((p.get("organisatie"), p.get("boekjaar")))
 
     # Eerste doorloop: herleiden, rapporteren, reviewgevallen wegschrijven.
     schoon: list[dict] = []
@@ -213,14 +223,9 @@ def main() -> int:
             schrijver.writerow(
                 [rij["kvk"], rij["naam"], rij["boekjaar"], rij["accountant"], "review"]
             )
-            if db is not None and not db.bestaat(
-                "review_queue",
-                "soort=eq.naam_match&status=eq.open"
-                f"&payload->>organisatie=eq.{urllib.parse.quote(rij['naam'], safe='')}"
-                f"&payload->>boekjaar=eq.{rij['boekjaar']}",
-            ):
-                db.invoegen(
-                    "review_queue",
+            if (rij["naam"], rij["boekjaar"]) not in al_in_review:
+                al_in_review.add((rij["naam"], rij["boekjaar"]))
+                review_rijen.append(
                     {
                         "soort": "naam_match",
                         "payload": {
@@ -232,7 +237,7 @@ def main() -> int:
                             "herleid": kantoren,
                             "onherleidbaar": onbekend,
                         },
-                    },
+                    }
                 )
             continue
         schoon.append({**rij, "afm": kantoren[0]})
@@ -240,6 +245,9 @@ def main() -> int:
             [rij["kvk"], rij["naam"], rij["boekjaar"], kantoren[0],
              "droogloop" if db is None else "ok"]
         )
+
+    if db is not None:
+        db.invoegen_bulk("review_queue", review_rijen)
 
     if db is not None and schoon:
         # Nieuwe organisaties in bulk, zonder bestaande te overschrijven: een
