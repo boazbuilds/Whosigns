@@ -83,8 +83,11 @@ VERKORT: dict[str, str] = {
     "baker tilly": "13000741",
     "baker tilly netherlands": "13000741",
     "baker tilly berk": "13000741",
-    # Veelvoorkomende tikfout met hoofdletter-i's in plaats van l'en.
+    # Veelvoorkomende tikfouten met hoofdletter-i's in plaats van l'en.
     "baker tiiiy": "13000741",
+    "baker tiily": "13000741",
+    "baker tiiiy netherlands": "13000741",
+    "baker tiily netherlands": "13000741",
     "eshuis": "13000144",
     "eshuis registeraccountants": "13000144",
     "verstegen": "13000147",
@@ -92,6 +95,32 @@ VERKORT: dict[str, str] = {
     "visser and visser": "13000491",
     "share impact": "13020072",
     "share impact audit": "13020072",
+    "grant thornton": "13000524",
+    # Veelvoorkomende scan-tikfout: rn leest als m.
+    "grant thomton": "13000524",
+    # De groep heeft twee actieve Wta-vergunningen (13000090 Accountants N.V.
+    # en 13000252 Audit B.V., zelfde adres en site). Kaal "RSM" wijst naar de
+    # N.V. op grond van de ondertekenpraktijk in de eigen database: alle 46
+    # uit documenten gelezen RSM-verklaringen staan op de N.V., nul op de
+    # Audit B.V. (gemeten 24-8-2026).
+    "rsm": "13000090",
+    "rsm netherlands": "13000090",
+    "rsm nederland": "13000090",
+    # Tikfout met kapitaal-i voor de l.
+    "rsm netheriands": "13000090",
+    "newtone": "13000027",
+    "newtone audit": "13000027",
+    "van oers": "13000154",
+    "van oers audit": "13000154",
+    "aaff": "13000259",
+    "aaff ra": "13000259",
+    # ETL heeft in Nederland één vergunninghouder; Dales is een lidkantoor
+    # van dezelfde groep.
+    "etl": "13000643",
+    "etl dales": "13000643",
+    "etl accountants": "13000643",
+    # De naam tot de rebranding van 2016.
+    "mazars paardekooper hoffman": "13000408",
     # Bewust NIET: kaal "visser" of initialen als "t visser" — dat kan een
     # persoon of een ander kantoor zijn; een mens kiest.
     # WITh heeft geen Wta-vergunning maar tekent vrijwillige controles bij
