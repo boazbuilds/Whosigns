@@ -78,6 +78,20 @@ VERKORT: dict[str, str] = {
     # De merknaam tot 2019; Foederer en Peak waren toen al aparte kantoren.
     "crowe horwath foederer": "13000413",
     "crowe horwath peak": "13000097",
+    "baker tilly": "13000741",
+    "baker tilly netherlands": "13000741",
+    "baker tilly berk": "13000741",
+    # Veelvoorkomende tikfout met hoofdletter-i's in plaats van l'en.
+    "baker tiiiy": "13000741",
+    "eshuis": "13000144",
+    "eshuis registeraccountants": "13000144",
+    "verstegen": "13000147",
+    "visser visser": "13000491",
+    "visser and visser": "13000491",
+    "share impact": "13020072",
+    "share impact audit": "13020072",
+    # Bewust NIET: kaal "visser" of initialen als "t visser" — dat kan een
+    # persoon of een ander kantoor zijn; een mens kiest.
     # WITh heeft geen Wta-vergunning maar tekent vrijwillige controles bij
     # goede doelen; staat als overig kantoor in de database.
     "with": "overig_with_accountants",
