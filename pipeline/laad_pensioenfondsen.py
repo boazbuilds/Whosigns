@@ -166,14 +166,14 @@ def main() -> int:
             # gokken niet. Kandidaten gaan mee als hint.
             if not db.bestaat(
                 "review_queue",
-                "soort=eq.kantoor_match&status=eq.open"
+                "soort=eq.naam_match&status=eq.open"
                 f"&payload->>organisatie=eq.{urllib.parse.quote(fonds, safe='')}"
                 f"&payload->>boekjaar=eq.{boekjaar}",
             ):
                 db.invoegen(
                     "review_queue",
                     {
-                        "soort": "kantoor_match",
+                        "soort": "naam_match",
                         "payload": {
                             "bron": "jaarverslag pensioenfonds",
                             "organisatie": fonds,

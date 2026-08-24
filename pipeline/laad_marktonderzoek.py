@@ -169,7 +169,15 @@ def main() -> int:
     schrijver = csv.writer(rapport)
     schrijver.writerow(["kvk", "naam", "boekjaar", "kantoor", "status"])
 
+    # Eén bron-rij voor alle marktonderzoek: bestaat er al een, dan die
+    # hergebruiken — anders laat elke herstart een extra rij achter.
     bron_id = None
+    if db is not None:
+        bestaande_bron = db.selecteer_alles(
+            "bronnen", "select=id&bron_type=eq.marktonderzoek&limit=1"
+        )
+        if bestaande_bron:
+            bron_id = bestaande_bron[0]["id"]
     geschreven = overgeslagen = review = 0
     for rij in rijen:
         kantoren, onbekend = herleid_kantoren(rij["accountant"], index)
@@ -181,14 +189,14 @@ def main() -> int:
             )
             if db is not None and not db.bestaat(
                 "review_queue",
-                "soort=eq.kantoor_match&status=eq.open"
+                "soort=eq.naam_match&status=eq.open"
                 f"&payload->>organisatie=eq.{urllib.parse.quote(rij['naam'], safe='')}"
                 f"&payload->>boekjaar=eq.{rij['boekjaar']}",
             ):
                 db.invoegen(
                     "review_queue",
                     {
-                        "soort": "kantoor_match",
+                        "soort": "naam_match",
                         "payload": {
                             "bron": "marktonderzoek",
                             "organisatie": rij["naam"],
