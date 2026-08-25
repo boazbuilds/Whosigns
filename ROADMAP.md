@@ -1,8 +1,17 @@
 # WhoSigns — Roadmap
 
-*Bijgewerkt: 28 juli 2026. Leidraad: `docs/visie.md` (zes velden, relatiegraaf, klik-test).
+*Bijgewerkt: 24 augustus 2026. Leidraad: `docs/visie.md` (zes velden, relatiegraaf, klik-test).
 Volledige achtergrond: `docs/concept.md`. Onderbouwing 🆕-items: `docs/brainstorm-2026-07.md`.
 Open keuzes: `docs/beslissingen.md`.*
+
+**Stand van zaken (24-8-2026):** fase 0 t/m 3 zijn af — de site staat publiek
+live met ruim 60.000 opdrachten uit een dozijn automatisch ladende bronroutes
+(zorg, corporaties, gemeenten, OOB, goede doelen, onderwijs, pensioenfondsen,
+bedrijfsleven via aangeleverd marktonderzoek). Uit fase 4 zijn honoraria
+(2022-2024), de onderwijssector en het opinion-shopping-signaal al gebouwd;
+AI-extractie bleek niet nodig (patroongebaseerd werkt) en de nieuwsbrief en
+fase 5 (omzet) staan nog open. De fasedetails hieronder zijn het oorspronkelijke
+bouwplan en blijven staan als verantwoording van de route.
 
 **Werkwijze:** fase voor fase, elke fase eindigt met iets dat wérkt en te laten zien is.
 Niet vooruitwerken aan een latere fase zolang de huidige niet "klaar" is volgens haar
@@ -16,11 +25,11 @@ het schema houdt er wel plek voor (kolommen blijven leeg tot een latere fase).
 
 | Fase | Naam | Resultaat | Status |
 |------|------|-----------|--------|
-| 0 | Fundament | Repo, schema, Supabase, AFM-kantorenseed, site live | 🔨 bijna klaar (alleen de Vercel-deploy nog) |
-| 1 | Zorgdata | Relatiegraaf gevuld: eerste 1.000 → volledige zorgsector | ⬜ |
-| 2 | Klik-machine | Vier doorklikbare pagina's + klik-test met echte gebruikers | ⬜ |
-| 3 | Lancering & OOB | Publiek live: volledige zorg + beursfondsen/banken/verzekeraars | ⬜ |
-| 4 | Verdieping | AI-extractie, signalen, onderwijs, nieuwsbrief | ⬜ |
+| 0 | Fundament | Repo, schema, Supabase, AFM-kantorenseed, site live | ✅ |
+| 1 | Zorgdata | Relatiegraaf gevuld: eerste 1.000 → volledige zorgsector | ✅ (boekjaren 2019-2025) |
+| 2 | Klik-machine | Vier doorklikbare pagina's + klik-test met echte gebruikers | ✅ (klik-test loopt door) |
+| 3 | Lancering & OOB | Publiek live: volledige zorg + beursfondsen/banken/verzekeraars | ✅ |
+| 4 | Verdieping | Signalen, onderwijs, honoraria, nieuwsbrief | 🔨 honoraria/onderwijs/opinion-shopping af; nieuwsbrief open; AI-extractie bleek onnodig |
 | 5 | Omzet | Freemium live, pricing-validatie, besluit KvK-inkoop | ⬜ |
 
 ---

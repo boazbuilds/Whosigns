@@ -6,7 +6,6 @@ bewaakt de vorm — zonder netwerk, want een test die het internet nodig heeft
 bewaakt vooral het internet.
 """
 
-import csv
 import sys
 from pathlib import Path
 

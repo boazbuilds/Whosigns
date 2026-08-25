@@ -17,8 +17,10 @@ pipeline/
     stichtingen.py     ✅ goed doel → opdracht (cbf + terugval + kantoor_match)
     aw_dvi.py          ✅ woningcorporaties: dVi-open data, accountant als veld
     transparantie.py   ✅ OOB-cliëntenlijsten uit transparantieverslagen (Fase 3)
-    duo.py             ⬜ Fase 4: onderwijs
-    tenderned.py       ⬜ Fase 4: aanbestedingen accountantsdiensten
+    tenderned.py       ✅ Europees aanbestede accountantsdiensten (TED) → gunningen
+    (onderwijs heeft geen eigen adapter: universiteiten publiceren hun
+     jaarverslag zelf, en de generieke jaarverslag-route leest die — zie
+     laad_pensioenfondsen.py met --seed/--sector)
   extractie/
     kantoor_match.py   ✅ kantoornaam herkennen via AFM-lijst + aliassen
     verklaring.py      ✅ pdf → soort verklaring, oordeel, continuïteit, kantoor
@@ -30,6 +32,11 @@ pipeline/
   werkvoorraad/
     stichtingen.json   ✅ de 133 blokken van de goededoelensector en wat ze opleverden;
                           de git-diff van dit bestand is het voortgangslog
+  oogst/               ✅ de zorgoogst per boekjaar (zorg_2019.csv … zorg_2025.csv) en
+                          in oogst/ocr/ de gelezen tekst van elke gescande verklaring —
+                          bewust in de repo: het is de herleidbaarheid van ruim
+                          vierduizend rijen, en vul_ondertekenaar.py en nakijk_ocr.py
+                          lezen eruit zonder iets opnieuw te downloaden
   supabase_client.py   ✅ PostgREST-client (upsert, upsert_met_id, invoegen, selecteer)
   lus.py               ✅ laadt een sector in rondes van een paar blokken in plaats van
                           in één bulk-run (plan | stand | draai) — workflow "Stichtingenlus"
@@ -40,20 +47,33 @@ pipeline/
   laad_corporaties.py  ✅ woningcorporaties → Supabase (workflow "Corporatiedata")
   laad_transparantie.py ✅ OOB-cliënten (ASML, ABN AMRO, …) → Supabase (workflow
                           "Transparantiedata")
+  laad_gunningen.py    ✅ TED-gunningen → Supabase (workflow "Gunningen")
+  laad_raadsinformatie.py ✅ gemeenten via raadsstukken (workflow "Raadsinformatie")
+  laad_beursfondsen.py ✅ beursfondsen uit eigen jaarverslagen, incl. honoraria
+  laad_kantoorclienten.py ✅ cliëntenlijsten die kantoren zelf publiceren
+  laad_pensioenfondsen.py ✅ generieke jaarverslag-lader: --seed/--sector doet
+                          pensioenfondsen én onderwijs (workflows "Pensioenfondsen
+                          laden" / "Onderwijsinstellingen laden")
+  laad_marktonderzoek.py ✅ aangeleverde accountantsrelaties uit aanlever/
+                          (workflow "Marktonderzoek laden"; SBI → grove sector)
+  aanlever/            ✅ geschoonde aanleveringen (kvk,naam,boekjaar,accountant
+                          en optioneel sbi,plaats); elke merge hierin laadt vanzelf
+  vul_extra_velden.py  ✅ honoraria/omzet/subsector uit de jaardatasets 2022-2024
+                          (workflow "Honoraria bijvullen")
+  vul_ondertekenaar.py ✅ tekenend accountant bijvullen uit de bewaarde OCR-teksten
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)
-  test_kantoor_match.py ✅ 12 gevallen uit echte verslagen; zonder netwerk te draaien
-  test_digimv.py       ✅ naam- en plaatsschoonmaak; beide draaien in de workflow "Checks"
-  signalen/            ⬜ Fase 4: afgeleide signalen (relatieduur, roulatie, …)
+  test_*.py            ✅ 28 testbestanden, zonder netwerk te draaien; alle draaien in
+                          de workflow "Checks", samen met een ruff-lintstap
 ```
 
 Het MVP (Fase 0–3) draait **zonder AI-extractie**. De kantoornaam staat in de
 zorgsector alleen in de verklaring-pdf's; die halen we eruit met `pdftotext` +
 stringmatch tegen de AFM-lijst/aliastabel. Gemeten trefkans op controleverklaringen:
 **96–100%, zonder valse matches** (zie `adapters/digimv.md`). Onmatchbare gevallen
-— gescande pdf's, kantoornaam alleen in een logo — wachten in de `review_queue` op
-het LLM-vangnet van Fase 4.
+— gescande pdf's, kantoornaam alleen in een logo, ambigue merknamen — wachten in
+de `review_queue` op een mens; een LLM-vangnet bleek tot nu toe niet nodig.
 
 Buiten de zorg ligt die trefkans structureel lager, en dat is geen tekortkoming van de
 extractie: bij goede doelen tekent bijna een derde van de verklaringen een kantoor
