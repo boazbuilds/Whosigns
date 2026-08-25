@@ -16,7 +16,13 @@ is het antwoord: *even op WhoSigns kijken.*
 
 ## Status
 
-🔨 **Fase 0 — Fundament** (gestart juli 2026). Zie `ROADMAP.md` voor het bouwplan.
+🟢 **Live en zelfvullend** (stand: 24 augustus 2026). De site draait op Vercel
+met ruim 60.000 opdrachten bij ruim 18.000 organisaties — van zorg,
+woningcorporaties en onderwijs tot pensioenfondsen en het brede bedrijfsleven.
+Een dozijn bronroutes vult de database zonder handwerk: elke merge op main die
+een seed, lader of aanlevering raakt, start via GitHub Actions zijn eigen
+lading. Alleen "Alles verversen" is nog een handmatige totaalknop. Zie
+`ROADMAP.md` voor de fases en wat er nog komt.
 
 ## Wegwijzer
 
@@ -35,19 +41,23 @@ is het antwoord: *even op WhoSigns kijken.*
 | `pipeline/lus.py` | Een sector in rondes laden in plaats van in één bulk-run; werkvoorraad in `pipeline/werkvoorraad/` |
 | `web/` | De website (Next.js) — zie `web/README.md` voor draaien en deployen |
 
-## MVP in één zin
+## De zes velden, en wat erbij kwam
 
-Zes velden — organisatie, accountant, opdrachttype, jaar, sector, bron — voor de hele
-zorgsector, gepresenteerd zó dat je blijft doorklikken (elke pagina ≥ 5 vervolgklikken).
-Geen AI, geen honoraria, geen voorspellingen: eerst bewijzen dat mensen spontaan zoeken
-en doorklikken.
+De kern blijft: organisatie, accountant, opdrachttype, jaar, sector, bron —
+gepresenteerd zó dat je blijft doorklikken. Waar de bron het draagt, staan er
+inmiddels ook het oordeel, de tekenend accountant, continuïteitsonzekerheid en
+de verantwoorde honoraria (art. 2:382a BW) bij. De spelregels zijn ongewijzigd:
+alles uit openbare of rechtmatig aangeleverde bronnen met de vindplaats erbij,
+en bij twijfel een gat in plaats van een gok — twijfelgevallen wachten in een
+review-queue op een mens.
 
 ## Techniek in één alinea
 
-Supabase (Postgres + Storage, EU) als database, Next.js op Vercel als website (UI in het
-Nederlands), Python-scripts via GitHub Actions als data-pipeline. AI-extractie van
-pdf-verklaringen (Claude API) komt pas in Fase 4. Doel: < €50/maand tot de eerste
-betalende klant, onderhoudbaar door één persoon met Claude Code.
+Supabase (Postgres + Storage, EU) als database, Next.js op Vercel als website
+(UI in het Nederlands), Python-scripts (alleen standaardbibliotheek) via GitHub
+Actions als data-pipeline. De extractie uit verklaringen is patroongebaseerd —
+geen AI in de pijplijn, dus elke rij is herleidbaar tot een regel tekst in een
+document. Kosten: < €50/maand; onderhoudbaar door één persoon met Claude Code.
 
 ## Zo werk je hieraan (zonder developer-achtergrond)
 

@@ -502,7 +502,7 @@ def _vat_samen(
         [
             titel,
             "",
-            f"| blok | boekjaar | organisaties | opdracht | review | status |",
+            "| blok | boekjaar | organisaties | opdracht | review | status |",
             "|---|---|---|---|---|---|",
             *regels,
             "",

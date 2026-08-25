@@ -55,6 +55,11 @@ jobs:
           exit $mislukt
       - name: Alles compileert
         run: python3 -m compileall -q pipeline
+      # Alleen de foutklassen die echt iets kapots aanwijzen (ongebruikte
+      # imports, onbestaande namen, syntaxfouten) — geen stijlmeningen, zodat
+      # deze stap nooit discussie oplevert maar alleen vergissingen vangt.
+      - name: Lint (ruff)
+        run: pip install --quiet ruff && ruff check pipeline --select F,E9
 
   typecontrole:
     name: Typecontrole website
