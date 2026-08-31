@@ -114,7 +114,6 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000570,Audit Combinate B.V.,Besloten Vennootschap,Halsteren,nee,2008-09-29,https://www.auditcombinate.nl,Verleend
 13000572,De Beer Audit B.V.,Besloten Vennootschap,Tilburg,nee,2008-09-29,www.debeer.nl,Verleend
 13000574,BLM B.V.,Besloten Vennootschap,Veldhoven,nee,2008-09-29,www.blmbastion.nl,Verleend
-13000575,VBWA B.V.,Besloten Vennootschap,Scherpenzeel,nee,2008-09-29,http://www.vbwa.nl,Verleend
 13000578,Witlox VCS audit B.V.,Besloten Vennootschap,Breda,nee,2008-09-29,,Verleend
 13000585,Lansigt accountants en adviseurs B.V.,Besloten Vennootschap,Alphen aan den Rijn,nee,2008-09-29,https://www.lansigt.nl,Verleend
 13000588,Afier Auditors B.V.,Besloten Vennootschap,Tynaarlo,nee,2008-09-29,,Verleend
@@ -233,4 +232,3 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020228,CROP accountants & adviseurs B.V.,Besloten Vennootschap,Amersfoort,nee,2026-05-19,,Verleend
 13020230,RAAD (Inter-)national Audit B.V.,Besloten Vennootschap,Ridderkerk,nee,2026-08-06,,Verleend
 13020231,SRL Audit & Assurance B.V.,Besloten Vennootschap,Middelharnis,nee,2026-07-23,,Verleend
-13020232,Stichting Autoriteit Financiële Markten,Stichting,Amsterdam,ja,2026-08-15,,Verleend
