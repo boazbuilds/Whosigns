@@ -39,7 +39,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 
 from kantoor_match import bouw_index, laad_kantoren, normaliseer  # noqa: E402
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
-from verklaring import analyseer, pdf_naar_tekst  # noqa: E402
+from verklaring import analyseer, ocr_lege_paginas, pdf_naar_tekst  # noqa: E402
 
 SEED = Path(__file__).resolve().parent / "seed" / "pensioenfondsen.csv"
 CACHE = Path(__file__).resolve().parent / ".cache"
@@ -139,6 +139,14 @@ def main() -> int:
 
         tekst = pdf_naar_tekst(str(pdf_pad))
         analyse = analyseer(tekst, index)
+        if analyse.get("kantoor") is None:
+            # Mengvorm: een jaarverslag mét tekstlaag waarin de verklaring als
+            # scan is geplakt (VU, Tilburg University). Alleen bij een mislukte
+            # match de tekstloze pagina's alsnog lezen — OCR kost een minuut
+            # per document en dit is de uitzondering, niet de regel.
+            extra = ocr_lege_paginas(str(pdf_pad), tekst)
+            if extra.strip():
+                analyse = analyseer(tekst + "\n" + extra, index)
         kantoor = analyse.get("kantoor")
         status = "ok" if kantoor else (analyse.get("reden") or "geen kantoormatch")
         print(

@@ -483,12 +483,12 @@ def _ocr_kop(pad: str, max_paginas: int) -> str | None:
     )
 
 
-def _ocr_uit_bewaarplaats(pad: str, kop: str | None) -> str | None:
+def _ocr_uit_bewaarplaats(pad: str, kop: str | None, suffix: str = ".ocr.txt") -> str | None:
     """De eerder gelezen tekst, of None als die er niet is of niet meer klopt."""
     if kop is None:
         return None
     try:
-        bewaard = Path(pad + ".ocr.txt").read_text(encoding="utf-8")
+        bewaard = Path(pad + suffix).read_text(encoding="utf-8")
     except (OSError, UnicodeDecodeError):
         return None
     regel, scheiding, tekst = bewaard.partition("\n")
@@ -497,7 +497,7 @@ def _ocr_uit_bewaarplaats(pad: str, kop: str | None) -> str | None:
     return tekst
 
 
-def _bewaar_ocr(pad: str, kop: str | None, tekst: str) -> None:
+def _bewaar_ocr(pad: str, kop: str | None, tekst: str, suffix: str = ".ocr.txt") -> None:
     """Bewaart alleen een geslaagde lezing.
 
     Een lege uitkomst betekent "opgegeven" (tijdbudget op, tesseract ontbreekt) en
@@ -508,7 +508,7 @@ def _bewaar_ocr(pad: str, kop: str | None, tekst: str) -> None:
     if kop is None or not tekst.strip():
         return
     try:
-        Path(pad + ".ocr.txt").write_text(kop + "\n" + tekst, encoding="utf-8")
+        Path(pad + suffix).write_text(kop + "\n" + tekst, encoding="utf-8")
     except OSError:
         pass  # geen schrijfrechten of schijf vol: dan gewoon elke keer opnieuw lezen
 
@@ -581,6 +581,107 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
         tekst = "\n".join(stukken)
         _bewaar_ocr(pad, kop, tekst)
         return tekst
+
+
+# Een pdf mét tekstlaag kan de verklaring tóch als scan bevatten: de VU en
+# Tilburg University plakken de ondertekende pagina's als afbeelding in een
+# verder gewoon tekst-pdf. De gewone OCR-terugval ziet zo'n document nooit
+# (de tekstlaag is ruim boven de ondergrens), dus de verklaring bleef
+# onleesbaar: "PwC staat in de tekst, maar niet als ondertekenaar". De twee
+# functies hieronder lezen alléén de tekstloze pagina's — en alleen als de
+# aanroeper daarom vraagt, want dit is de uitzondering en OCR kost minuten.
+OCR_LEGE_MAX = 12
+LEGE_PAGINA_GRENS = 20
+
+
+def lege_paginas(tekst: str, grens: int = LEGE_PAGINA_GRENS) -> list[int]:
+    """Paginanummers (1-based) zonder noemenswaardige tekstlaag.
+
+    pdftotext scheidt pagina's met een form feed, dus dit kost geen extra
+    leesbeurt. Onder de grens zit in de praktijk een scan of een paginagrote
+    foto; echte tekstpagina's van een jaarverslag zitten in de honderden
+    tekens.
+    """
+    return [
+        nummer
+        for nummer, pagina in enumerate(tekst.split("\f"), start=1)
+        if len(pagina.strip()) < grens
+    ]
+
+
+def _aaneengesloten(paginas: list[int]) -> list[tuple[int, int]]:
+    """[3,4,5,9] -> [(3,5), (9,9)]; pdftoppm rendert per bereik."""
+    reeksen: list[tuple[int, int]] = []
+    for pagina in paginas:
+        if reeksen and pagina == reeksen[-1][1] + 1:
+            reeksen[-1] = (reeksen[-1][0], pagina)
+        else:
+            reeksen.append((pagina, pagina))
+    return reeksen
+
+
+def ocr_lege_paginas(pad: str, tekst: str, max_paginas: int = OCR_LEGE_MAX) -> str:
+    """OCR van de tekstloze pagina's in een pdf die verder wél tekst heeft.
+
+    Alleen de láátste `max_paginas` lege pagina's: de verklaring staat bij de
+    overige gegevens achterin, terwijl de foto's die ook "leeg" zijn vooral
+    voorin en middenin staan. Zelfde budget- en bewaarafspraken als
+    ocr_naar_tekst, met een eigen bewaarbestand (.ocrlege.txt) zodat de twee
+    lezingen elkaar niet overschrijven.
+    """
+    if not ocr_toegestaan():
+        return ""
+    paginas = lege_paginas(tekst)[-max_paginas:]
+    if not paginas:
+        return ""
+    kop = _ocr_kop(pad, max_paginas)
+    if kop is not None:
+        kop += f" lege={','.join(map(str, paginas))}"
+    eerder = _ocr_uit_bewaarplaats(pad, kop, ".ocrlege.txt")
+    if eerder is not None:
+        return eerder
+    begin = time.monotonic()
+    stukken: list[str] = []
+    with tempfile.TemporaryDirectory() as tijdelijk:
+        for van, tot in _aaneengesloten(paginas):
+            try:
+                # Prefix met het beginnummer: pdftoppm pakt de nummerbreedte per
+                # bereik, en zonder prefix sorteert p-9 na p-247.
+                subprocess.run(
+                    [
+                        "pdftoppm", "-r", str(OCR_DPI), "-png",
+                        "-f", str(van), "-l", str(tot),
+                        pad, f"{tijdelijk}/p{van:04d}",
+                    ],
+                    check=True,
+                    capture_output=True,
+                    timeout=OCR_TIJDBUDGET,
+                )
+            except (
+                subprocess.CalledProcessError,
+                subprocess.TimeoutExpired,
+                FileNotFoundError,
+            ):
+                return ""
+        for pagina in sorted(Path(tijdelijk).glob("p*.png")):
+            if time.monotonic() - begin > OCR_TIJDBUDGET:
+                # Zie ocr_naar_tekst: half werk zou "geen verklaring" opleveren.
+                return ""
+            try:
+                resultaat = subprocess.run(
+                    ["tesseract", str(pagina), "-", "-l", "nld", "--psm", "3"],
+                    capture_output=True,
+                    text=True,
+                    timeout=OCR_TIJD_PER_PAGINA,
+                )
+            except subprocess.TimeoutExpired:
+                return ""
+            except FileNotFoundError:
+                return ""
+            stukken.append(resultaat.stdout)
+    gelezen = "\n".join(stukken)
+    _bewaar_ocr(pad, kop, gelezen, ".ocrlege.txt")
+    return gelezen
 
 
 def tekst_uit_pdf(pad: str, ocr: bool = True) -> tuple[str, bool]:

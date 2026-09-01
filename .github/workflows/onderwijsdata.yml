@@ -28,8 +28,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: pdftotext installeren
-        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+      # Tesseract voor de mengvorm-pdf's: een jaarverslag mét tekstlaag waarin
+      # de verklaring als scan is geplakt (VU, Tilburg University).
+      - name: pdftotext en tesseract installeren
+        run: >
+          sudo apt-get update -q && sudo apt-get install -y -q
+          poppler-utils tesseract-ocr tesseract-ocr-nld
 
       - uses: actions/cache/restore@v6
         with:
