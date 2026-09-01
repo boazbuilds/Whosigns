@@ -47,10 +47,14 @@ _BASIS = (
 # `.zip` wordt uitgepakt met het externe `unzip`, want boekjaar 2022 gebruikt
 # Deflate64 en dat kan Python's zipfile niet.
 #
-# 2019 t/m 2021 staan hier bewust NIET: die gebruiken een ouder exportformaat
-# (sheets `x9conc_total_*`, veldnamen `c_kvk`/`c_naam`) en de datadictionary van
-# 2019 bevat géén accountantsverklaring-velden. Daar is de doelpopulatie dus niet
-# uit te halen; gebruik voor die jaren `--lijst-uit`. Zie digimv.md.
+# 2020 en 2021 stonden hier lang niet, op de aanname dat "2019 t/m 2021" het
+# oudere exportformaat gebruikten (sheets `x9conc_total_*`). Die aanname was een
+# extrapolatie van alleen 2019-deel-1, en hij klopt niet: de definitieve
+# datasets van 2020 en 2021 (gepubliceerd 25-1-2023) zijn gewoon het moderne
+# formaat, mét de honoraria- (`acc_*`), oordeel- (`qAccVerklVorm`) en
+# wisselvelden (`qAccountantWissel`) — gemeten 1-9-2026, zie digimv.md.
+# Alleen 2019 zelf is het oude formaat zonder accountantsverklaring-velden;
+# daarvoor blijft `--lijst-uit` de weg.
 DATASET_URL: dict[int, list[str]] = {
     2024: [
         f"{_BASIS}/2026/03/23/dataset-2024---deel-{deel}/"
@@ -64,6 +68,14 @@ DATASET_URL: dict[int, list[str]] = {
     2022: [
         f"{_BASIS}/2024/05/28/definitieve-dataset-2022/"
         f"DigiMV2022_20240527_ODS_MultipleTables.zip"
+    ],
+    2021: [
+        f"{_BASIS}/2023/01/25/dataset-2021-zorg-jeugd-en-veilig-thuis/"
+        f"DigiMV2021_tot-en-met_20230121_ODS_MeerdereTabellen.zip"
+    ],
+    2020: [
+        f"{_BASIS}/2023/01/25/digimv-2020-definitieve-dataset/"
+        f"DigiMV2020_tot-en-met_20230121_ODS_MeerdereTabellen.zip"
     ],
 }
 

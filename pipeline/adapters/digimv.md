@@ -589,8 +589,42 @@ de oogst van 2023 die verklaringen zelf heeft gelezen.
       uitgezocht 22-8-2026: bronbeperking, geen veldnaamkwestie. De
       oordeelvelden bestaan niet in die export en de omzetvelden zijn bij alle
       289 controle-organisaties leeg; zie de meting hierboven
-- [ ] `DATASET_URL` aanvullen voor 2019–2021 en 2025, of vastleggen dat die
-      jaargangen niet bestaan en de vergelijking daar dus nooit komt
+- [x] `DATASET_URL` aanvullen voor 2020 en 2021 — gedaan 1-9-2026, zie
+      "Kolominspectie 2020/2021" hieronder: beide datasets bleken gewoon het
+      moderne formaat, de aanname "2019 t/m 2021 = oud formaat" gold alleen
+      2019. Nog open: 2025 (nog geen gepubliceerde dataset gezien) en de vraag
+      of 2019-deel-2 alsnog verklaring-velden draagt
+
+## Kolominspectie 2020/2021 (1-9-2026): modern formaat, honoraria aanwezig
+
+De definitieve datasets van 2020 en 2021 (beide gepubliceerd 25-1-2023, zie de
+bestandstabel hierboven) zijn — anders dan de extrapolatie uit 2019-deel-1
+aannam — **het moderne formaat**: RowData-sheets, tweeregelige koppen, en
+`ExternalOrganizationId` bevat het KvK-nummer. `_zoek_kolommen` vindt de velden
+zonder één patroonwijziging. Meting via `doelpopulatie()`:
+
+| | 2021 | 2020 |
+|---|---|---|
+| organisaties in doelpopulatie | 1.210 | 1.220 |
+| met KvK | 1.210 | 1.220 |
+| `honorarium_controle` | 877 | 881 |
+| `honorarium_overig` | 657 | 636 |
+| `honorarium_fiscaal` | 235 | 249 |
+| `honorarium_nietcontrole` | 248 | 245 |
+| `wissel_gerapporteerd` | 1.210 | 1.220 |
+| `verklaring_datum` | 1.093 | 1.113 |
+| `oordeel_gerapporteerd` | 0 | 0 |
+| `omzet` | 0 | 0 |
+
+De twee nullen zijn bronbeperkingen, geen veldnaamkwesties: het documentveld
+`bestandAccountantsVerklaringSoort_N` bestaat in deze jaargangen niet (alleen
+het vragenlijstveld `qAccVerklVorm`, dat bewust wordt overgeslagen — zie
+VELDPATRONEN), en de omzetvelden volgen de `qbatenzorg_0`-conventie hier nog
+niet. De doelpopulatie komt uit `qAccVerklSoort`, zoals bij 2022.
+Steekproefcontrole: 's Heeren Loo Zorggroep, controlehonorarium €644.000
+(2020) → €540.000 (2021), verklaringsdata 1-6-2021 en 23-5-2022 — plausibel
+en consistent met de latere jaargangen. De workflow "Honoraria bijvullen"
+heeft 2021 en 2020 sinds deze inspectie in de standaardlijst.
 - [x] Kolominspectie 2024 (22-8-2026): de vierdelige export past op de
       bestaande patronen; zie de sectie hierboven. Subsector blijft er leeg
       (AGB-kolommen vervangen door SBI-codes)

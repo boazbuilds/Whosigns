@@ -138,5 +138,30 @@ check(
     k2024["zorgsoort"] == [],
 )
 
+# De 2020/2021-koppen: modern formaat, ExternalOrganizationId ís het KvK-nummer
+# (gemeten 1-9-2026, zie digimv.md). De kop is tweeregelig met een leeg label.
+k2021 = _zoek_kolommen(
+    [
+        "\nCode",
+        "\nExternalOrganizationId",
+        "\nName",
+        "acc jaarrekening\nacc_jr_contr_0",
+        "wissel\nqAccountantWissel_qAccVerklVorm",
+    ]
+)
+check(
+    "2021: kvk, naam, controlehonorarium en wisselvlag worden gevonden",
+    k2021["velden"].get("kvk") == 1
+    and k2021["velden"].get("naam") == 2
+    and k2021["velden"].get("honorarium_controle") == 3
+    and k2021["velden"].get("wisselvlag") == 4,
+)
+from digimv_dataset import DATASET_URL  # noqa: E402
+
+check(
+    "de downloadtabel kent de boekjaren 2020 tot en met 2024",
+    set(DATASET_URL) >= {2020, 2021, 2022, 2023, 2024},
+)
+
 print(f"{goed}/{goed + fout} goed")
 sys.exit(1 if fout else 0)

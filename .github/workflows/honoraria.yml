@@ -13,19 +13,22 @@ name: Honoraria bijvullen
 # 2024 staat sinds de kolominspectie van 22-8-2026 in de standaardlijst: de
 # vierdelige export past op de bestaande veldpatronen (1.047 organisaties, 108
 # controlehonoraria, 960 gerapporteerde oordelen). Zie adapters/digimv.md.
+# 2021 en 2020 staan sinds 1-9-2026 in de standaardlijst: die datasets bleken
+# gewoon het moderne formaat te dragen (877 en 881 controlehonoraria plus
+# wisselvlag en verklaringsdatum) — de aanname "oud formaat" gold alleen 2019.
 on:
   workflow_dispatch:
     inputs:
       boekjaren:
         description: "Datasetjaren, komma's ertussen"
         required: false
-        default: "2024,2023,2022"
+        default: "2024,2023,2022,2021,2020"
   workflow_call:
     inputs:
       boekjaren:
         type: string
         required: false
-        default: "2024,2023,2022"
+        default: "2024,2023,2022,2021,2020"
   # Draait vanzelf zodra de vuller of deze workflow zelf op main landt —
   # zelfde patroon als de andere ladingen; een push-event heeft geen inputs,
   # dus de stap hieronder valt dan terug op de standaardjaren.
@@ -39,7 +42,10 @@ jobs:
   bijvullen:
     name: Datasetvelden bijvullen
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Vijf jaargangen, elk met een download van tientallen MB bij een koude
+    # cache; de eerste run met 2021+2020 erbij haalde de oude grens van 30 net
+    # niet ruim genoeg.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v7
 
@@ -61,7 +67,7 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          BOEKJAREN: ${{ inputs.boekjaren || '2024,2023,2022' }}
+          BOEKJAREN: ${{ inputs.boekjaren || '2024,2023,2022,2021,2020' }}
         run: |
           if [ -z "$SUPABASE_URL" ]; then
             echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
