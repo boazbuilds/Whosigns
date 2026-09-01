@@ -21,6 +21,14 @@ name: Migraties draaien
 # dat is het enige bestand dat niet herhaalbaar is (het maakt tabellen aan zonder
 # "if not exists") en op een bestaand project dus zou vastlopen.
 on:
+  # Draait vanzelf zodra er een nieuwe migratie op main landt — hetzelfde
+  # patroon als de dataworkflows. De boekhoudtabel schema_migraties maakt dat
+  # veilig: alleen bestanden die nog niet gedraaid zijn worden uitgevoerd.
+  push:
+    branches: [main]
+    paths:
+      - "supabase/migrations/**"
+      - ".github/workflows/migraties.yml"
   workflow_dispatch:
     inputs:
       overslaan:
@@ -63,7 +71,9 @@ jobs:
       - name: Migraties toepassen
         env:
           PGURL: ${{ secrets.SUPABASE_DB_URL }}
-          OVERSLAAN: ${{ inputs.overslaan }}
+          # Een push-event heeft geen inputs; dan gelden dezelfde standaarden
+          # als bij de knop, zodat init.sql nooit per ongeluk alsnog draait.
+          OVERSLAAN: ${{ inputs.overslaan || '20260727000000_init.sql' }}
           DROOGLOOP: ${{ inputs.droogloop }}
         run: |
           set -euo pipefail
