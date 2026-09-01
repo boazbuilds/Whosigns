@@ -89,7 +89,16 @@ check(
         (r.get("naam") or "").strip()
         and 2010 <= int(r["boekjaar"]) <= 2030
         and r["url"].startswith("https://")
-        and ".pdf" in r["url"].rsplit("/", 1)[1].lower()
+        and (
+            ".pdf" in r["url"].rsplit("/", 1)[1].lower()
+            # Twee sites serveren de jaarverslag-pdf's vanaf adressen zonder
+            # .pdf erin: Fontys vanaf .htm-adressen, De Haagse vanaf
+            # extensieloze /media/-adressen. Content-type application/pdf per
+            # URL gemeten op 1-9-2026 — de bestandsnaam liegt daar, de server
+            # niet. De regel blijft voor al het andere: geen HTML in de seed.
+            or r["url"].startswith("https://www.fontys.nl/")
+            or r["url"].startswith("https://www.dehaagsehogeschool.nl/media/")
+        )
         for r in onderwijs
     ),
 )
