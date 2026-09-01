@@ -189,5 +189,40 @@ controleer(
     verklaring._ocr_kop("/bestaat/niet.pdf", verklaring.OCR_MAX_PAGINAS) is None,
 )
 
+# --- Mengvorm-pdf's: tekstlaag mét gescande verklaringspagina's -------------
+#
+# De VU en Tilburg University plakken de ondertekende verklaring als afbeelding
+# in een verder gewoon tekst-pdf. De paginakeuze moet dan precies de tekstloze
+# pagina's aanwijzen — en niets renderen als die er niet zijn.
+
+from verklaring import _aaneengesloten, lege_paginas, ocr_lege_paginas  # noqa: E402
+
+controleer(
+    "lege pagina's worden op de form feed geteld, 1-gebaseerd",
+    lege_paginas("volle pagina met ruim voldoende tekst erin\f\f  \fnog een volle pagina met ruim voldoende tekst") == [2, 3],
+)
+controleer(
+    "een pagina onder de grens telt als leeg, erboven niet",
+    lege_paginas("x" * 19 + "\f" + "x" * 20) == [1],
+)
+controleer(
+    "zonder form feed is er één pagina en beslist de grens",
+    lege_paginas("") == [1] and lege_paginas("x" * 500) == [],
+)
+controleer(
+    "aaneengesloten reeksen worden bereiken voor pdftoppm",
+    _aaneengesloten([3, 4, 5, 9]) == [(3, 5), (9, 9)] and _aaneengesloten([]) == [],
+)
+controleer(
+    "zonder lege pagina's wordt er niets ge-OCR'd (geen subprocess, meteen leeg)",
+    ocr_lege_paginas("/bestaat/niet.pdf", "x" * 500) == "",
+)
+os.environ["WHOSIGNS_OCR"] = "0"
+controleer(
+    "OCR uit betekent ook voor de mengvormlezing: uit",
+    ocr_lege_paginas("/bestaat/niet.pdf", "\f\f") == "",
+)
+os.environ.pop("WHOSIGNS_OCR", None)
+
 print(f"\n{gedaan - fouten}/{gedaan} goed")
 raise SystemExit(1 if fouten else 0)
