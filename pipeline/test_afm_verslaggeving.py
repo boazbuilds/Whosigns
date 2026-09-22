@@ -115,6 +115,59 @@ def main() -> int:
         f"gevonden: {uit_zip[:120]!r}",
     )
 
+    # Twee verpakkingen die het register óók gebruikt en die tot 22-9-2026 bij
+    # pdftotext belandden — waarna ze werden gemeld als "geen tekstlaag
+    # (gescande pdf)" terwijl het geen scans zijn. Van de dertig deponeringen
+    # in de steekproef over boekjaar 2025 waren dat er tien.
+
+    # 1. Een pakket in een pakket: de zip bevat één .xbri (zelf een zip) met
+    #    het verslag op reports/. Zo levert onder meer Green Earth Group aan.
+    binnenste = io.BytesIO()
+    with zipfile.ZipFile(binnenste, "w") as z:
+        z.writestr("pakket/reports/verslag.xhtml", XHTML)
+        z.writestr("pakket/META-INF/reportPackage.json", "{}")
+    buitenste = io.BytesIO()
+    with zipfile.ZipFile(buitenste, "w") as z:
+        z.writestr("724500-2025-12-31-1-en.xbri", binnenste.getvalue())
+    pad = Path(__file__).resolve().parent / ".cache" / "test_xbri.zip"
+    pad.write_bytes(buitenste.getvalue())
+    uit_xbri = afm_verslaggeving.tekst_uit_document(pad)
+    pad.unlink()
+    controleer(
+        "ESEF-pakket in een pakket (.xbri): het verslag wordt een laag dieper "
+        "gevonden",
+        "For and on behalf of BDO Audit & Assurance B.V." in uit_xbri,
+        f"gevonden: {uit_xbri[:120]!r}",
+    )
+
+    # 2. Helemaal geen zip: de kale inline-XBRL-xhtml, zoals Merrill Lynch B.V.
+    #    en Linde Finance B.V. hem deponeren. Herkennen op de eerste bytes en
+    #    niet op de bestandsnaam: het register geeft die niet altijd mee.
+    pad = Path(__file__).resolve().parent / ".cache" / "test_kaal.bin"
+    pad.write_bytes(('<?xml version="1.0" encoding="UTF-8"?>\n' + XHTML).encode())
+    uit_kaal = afm_verslaggeving.tekst_uit_document(pad)
+    pad.unlink()
+    controleer(
+        "kale xhtml zonder zip wordt als opmaaktaal gelezen, niet als pdf",
+        "For and on behalf of BDO Audit & Assurance B.V." in uit_kaal,
+        f"gevonden: {uit_kaal[:120]!r}",
+    )
+
+    # En de grens: een zip zonder xhtml en zonder pakket erin blijft leeg. Geen
+    # gok, geen uitzondering — dat hoort een nette "niets gevonden" te zijn.
+    leeg = io.BytesIO()
+    with zipfile.ZipFile(leeg, "w") as z:
+        z.writestr("data/cijfers.xml", "<xbrl/>")
+    pad = Path(__file__).resolve().parent / ".cache" / "test_leeg.zip"
+    pad.write_bytes(leeg.getvalue())
+    uit_leeg = afm_verslaggeving.tekst_uit_document(pad)
+    pad.unlink()
+    controleer(
+        "een pakket zonder verslag levert niets op in plaats van iets verzonnen",
+        uit_leeg == "",
+        f"gevonden: {uit_leeg[:80]!r}",
+    )
+
     # Organisatieherkenning: het register wisselt door de jaren van spelling
     # ("ABN AMRO Bank N.V." én "ABN AMRO Bank NV") — dat mag nooit twee
     # organisaties opleveren.
@@ -130,7 +183,7 @@ def main() -> int:
         and orgsleutel("Nieuwe Steen Investments") == "nieuwe steen investments",
     )
 
-    totaal = 7
+    totaal = 11
     print(f"\n{totaal - fouten}/{totaal} goed")
     return 1 if fouten else 0
 

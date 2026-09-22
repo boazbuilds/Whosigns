@@ -14,8 +14,10 @@ Gemeten op 4-8-2026:
     lijstpagina    ?page=1..N, 50 rijen per pagina, per rij een detail-id
     detailpagina   details?id=... met één documentlink per deponering
                    (downloadregisterfile.aspx met een versleuteld token)
-    documenten     t/m boekjaar ~2019 een pdf; daarna een ESEF-zip met het
-                   jaarverslag als xhtml (inline XBRL) erin
+    documenten     t/m boekjaar ~2019 een pdf; daarna inline XBRL, in drie
+                   verpakkingen: een zip met het verslag als xhtml erin, een
+                   zip met één .xbri (zelf een zip, verslag op reports/), of
+                   de kale xhtml zonder zip. Zie tekst_uit_document
 
 De leesroute voor beide documentsoorten eindigt in platte tekst, waarna
 extractie/verklaring.py er de controleverklaring, het oordeel en het kantoor
@@ -26,6 +28,7 @@ review-wachtrij.
 """
 
 import html
+import io
 import re
 import time
 import urllib.request
@@ -148,19 +151,69 @@ def xhtml_naar_tekst(xhtml: str) -> str:
     return re.sub(r"\n\s*\n+", "\n", tekst).strip()
 
 
-def tekst_uit_document(pad: Path) -> str:
-    """Platte tekst uit een gedeponeerd document (pdf of ESEF-zip)."""
-    kop = pad.open("rb").read(4)
-    if kop[:2] == b"PK":  # zip: ESEF-pakket met het verslag als xhtml
-        with zipfile.ZipFile(pad) as z:
-            kandidaten = [
-                i for i in z.infolist() if i.filename.lower().endswith((".xhtml", ".html"))
-            ]
-            if not kandidaten:
-                return ""
+# Hoeveel zip-lagen diep we kijken. Eén pakket in een pakket komt echt voor
+# (zie _xhtml_uit_zip); nog dieper is geen ESEF-conventie meer en dan houdt het
+# op — een zip die zichzelf bevat mag deze lader niet laten rondtollen.
+ZIP_LAGEN = 2
+
+
+def _xhtml_uit_zip(inhoud: bytes, lagen: int = ZIP_LAGEN) -> str:
+    """De tekst van het verslag uit een ESEF-pakket, desnoods een laag dieper.
+
+    Drie verpakkingen komen voor in het register (gemeten 22-9-2026 op boekjaar
+    2025):
+
+    1. een zip met het verslag er als `.xhtml` in — de gewone vorm;
+    2. een zip met één `.xbri` erin, het "inline XBRL report package", dat zelf
+       weer een zip is met `reports/<naam>.xhtml`. Zo levert onder meer Green
+       Earth Group aan: 53 MB zip om 79 MB xhtml heen;
+    3. helemaal geen zip, maar de kale xhtml — zie `tekst_uit_document`.
+
+    Alleen vorm 1 werd gelezen. De andere twee kwamen bij pdftotext terecht, die
+    er niets van maakt, en dat werd gemeld als "geen tekstlaag (gescande pdf)".
+    Van de dertig deponeringen in de steekproef waren dat er tien; geen daarvan
+    was een scan en OCR zou er dus ook niets aan hebben veranderd.
+    """
+    with zipfile.ZipFile(io.BytesIO(inhoud)) as z:
+        pagina = [
+            i for i in z.infolist() if i.filename.lower().endswith((".xhtml", ".html"))
+        ]
+        if pagina:
             # Het verslag zelf is veruit het grootste xhtml-bestand in het pakket.
-            grootste = max(kandidaten, key=lambda i: i.file_size)
+            grootste = max(pagina, key=lambda i: i.file_size)
             return xhtml_naar_tekst(z.read(grootste).decode("utf-8", "replace"))
+        if lagen <= 1:
+            return ""
+        # Geen xhtml op dit niveau: zoek een pakket in het pakket. Op naam én op
+        # inhoud, want de buitenste laag heet lang niet altijd .zip.
+        for lid in sorted(z.infolist(), key=lambda i: -i.file_size):
+            if lid.is_dir():
+                continue
+            binnen = z.read(lid)
+            if binnen[:2] == b"PK":
+                tekst = _xhtml_uit_zip(binnen, lagen - 1)
+                if tekst:
+                    return tekst
+        return ""
+
+
+def _is_opmaaktaal(kop: bytes) -> bool:
+    """Begint dit document met xml of html in plaats van met een pdf-kop?"""
+    begin = kop.lstrip(b"\xef\xbb\xbf").lstrip()[:16].lower()
+    return begin.startswith((b"<?xml", b"<html", b"<!doctype"))
+
+
+def tekst_uit_document(pad: Path) -> str:
+    """Platte tekst uit een gedeponeerd document (pdf, ESEF-zip of kale xhtml)."""
+    kop = pad.open("rb").read(64)
+    if kop[:2] == b"PK":  # zip: ESEF-pakket met het verslag als xhtml
+        return _xhtml_uit_zip(pad.read_bytes())
+    if _is_opmaaktaal(kop):
+        # Niet elke instelling zipt. Merrill Lynch B.V. en Linde Finance B.V.
+        # deponeren de inline-XBRL-xhtml zoals hij is; die ging naar pdftotext
+        # en kwam er leeg uit. Herkennen op de eerste bytes en niet op de
+        # bestandsnaam: het register geeft de naam niet altijd mee.
+        return xhtml_naar_tekst(pad.read_bytes().decode("utf-8", "replace"))
     # Import hier, zodat de adapter ook zonder poppler te testen blijft.
     import sys
 
