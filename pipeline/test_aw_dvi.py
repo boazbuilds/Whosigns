@@ -240,6 +240,26 @@ for onbekend in (
         f"gevonden: {gevonden!r}",
     )
 
+# --- de bovengrens van de boekjaren ----------------------------------------
+#
+# Hier stond `NIEUWSTE_BOEKJAAR = 2024`, met de hand bijgehouden. Zo'n getal
+# werkt precies tot de volgende jaargang verschijnt: daarna weigert
+# laad_corporaties.py een bestaande dVi met "valt buiten 2007-2024", en niets
+# meldt dat de grens zelf verouderd is. Een corporatie levert de dVi over
+# boekjaar N vóór 1 juli van jaar N+1 aan, dus die grens is af te leiden.
+import datetime  # noqa: E402
+
+vorig_jaar = datetime.date.today().year - 1
+controleer(
+    "de bovengrens loopt mee met de kalender in plaats van een vast jaartal",
+    aw_dvi.NIEUWSTE_BOEKJAAR == vorig_jaar,
+    f"NIEUWSTE_BOEKJAAR={aw_dvi.NIEUWSTE_BOEKJAAR}, verwacht {vorig_jaar}",
+)
+controleer(
+    "en de ondergrens blijft staan waar de bron begint",
+    aw_dvi.OUDSTE_BOEKJAAR == 2007,
+)
+
 # Zelf tellen. Het totaal stond hier als een som met de hand bijgehouden, en die
 # liep achter: drie nieuwe controles erbij en er stond nog steeds 27/27.
 print(f"\n{gedaan - fouten}/{gedaan} goed")

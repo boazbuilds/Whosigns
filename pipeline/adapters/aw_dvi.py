@@ -57,6 +57,7 @@ verantwoordingsopgave aan de toezichthouder, niet uit een verklaring.
 Geen dependencies buiten de standaardbibliotheek.
 """
 
+import datetime as _dt
 import io
 import json
 import re
@@ -81,7 +82,18 @@ BRON_URL = (
 )
 
 OUDSTE_BOEKJAAR = 2007
-NIEUWSTE_BOEKJAAR = 2024
+
+# Niet een jaartal met de hand, maar de enige grens die vanzelf klopt: een
+# corporatie levert de dVi over boekjaar N vóór 1 juli van jaar N+1 aan, dus
+# verder dan het vorige kalenderjaar kan het niet zijn. Hier stond 2024, en dat
+# werkte precies zolang tot dVi2025 verscheen: daarna zou `laad_corporaties.py`
+# een bestaande jaargang weigeren met "valt buiten 2007-2024", zonder dat iets
+# meldde dat de grens zelf verouderd was.
+#
+# Deze grens is alleen een zeef tegen typefouten. Of een jaargang echt bestaat
+# bepaalt `dataset_url()` bij de bron; die geeft een LookupError als hij er nog
+# niet is, en dat is een normale uitkomst en geen storing.
+NIEUWSTE_BOEKJAAR = _dt.date.today().year - 1
 
 # T/m 2013 staat een jaargang als één ZIP met alle hoofdstukken erin; vanaf 2014
 # is hoofdstuk 1 een los xlsx. Beide bevatten hetzelfde: één regel per corporatie
