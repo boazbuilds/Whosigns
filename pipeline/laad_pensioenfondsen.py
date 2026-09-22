@@ -207,7 +207,7 @@ def main() -> int:
         flush=True,
     )
 
-    geschreven = overgeslagen = mislukt = 0
+    geschreven = overgeslagen = mislukt = dubbel = 0
     for regel in te_doen:
         # "fonds" historisch; een seed van een andere sector mag "naam" gebruiken.
         fonds = (regel.get("fonds") or regel.get("naam") or "").strip()
@@ -286,7 +286,35 @@ def main() -> int:
         sleutel = normaliseer(fonds)
         kandidaten = org_per_naam.get(sleutel, [])
         if len(kandidaten) > 1:
+            # Er valt niet te kiezen aan welke van de twee rijen deze opdracht
+            # hoort, en gokken mag niet. Tot 22-9-2026 bleef het bij deze
+            # printregel — en een printregel in een workflowlog is geen
+            # wachtrij: het verslag is gelezen, het kost een download, en
+            # niemand ziet dat er iets te beslissen valt.
+            dubbel += 1
             print(f"  LET OP: {fonds} staat {len(kandidaten)}x in de database")
+            schrijver.writerow([fonds, boekjaar, "", "", "", "naam dubbel"])
+            if not db.bestaat(
+                "review_queue",
+                "soort=eq.naam_match&status=eq.open"
+                f"&payload->>organisatie=eq.{urllib.parse.quote(fonds, safe='')}"
+                f"&payload->>boekjaar=eq.{boekjaar}",
+            ):
+                db.invoegen(
+                    "review_queue",
+                    {
+                        "soort": "naam_match",
+                        "payload": {
+                            "bron": f"jaarverslag {argumenten.sector}",
+                            "reden": "organisatie staat meer dan één keer in "
+                            "de database",
+                            "organisatie": fonds,
+                            "boekjaar": boekjaar,
+                            "organisatie_ids": [k["id"] for k in kandidaten],
+                            "vindplaats": regel["url"],
+                        },
+                    },
+                )
             continue
         if kandidaten:
             org = kandidaten[0]
@@ -350,7 +378,9 @@ def main() -> int:
     print(
         f"\n{geschreven} opdrachten geschreven, {overgeslagen} al bekend, "
         + (f"{vooraf_bekend} vooraf overgeslagen, " if vooraf_bekend else "")
-        + f"{mislukt} downloads mislukt; rapport: {rapport_pad}",
+        + f"{mislukt} downloads mislukt"
+        + (f", {dubbel} naar review (naam dubbel)" if dubbel else "")
+        + f"; rapport: {rapport_pad}",
         flush=True,
     )
     return 0
