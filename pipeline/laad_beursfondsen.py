@@ -20,11 +20,20 @@ Drie keuzes die het gedrag bepalen:
     weggegooid — alleen de uitgelezen tekst blijft in de cache, zodat een
     herstart niets opnieuw downloadt.
 
-2.  **Bestaande rijen winnen.** Een organisatie die voor dat boekjaar al een
-    opdracht heeft (bijvoorbeeld uit een transparantieverslag) wordt
-    overgeslagen; deze bron vult alleen aan wat nergens anders staat. De
-    winst zit vooral in de boekjaren vóór 2019, waar geen enkele andere bron
-    komt.
+2.  **Bestaande rijen winnen, en dat blijkt vóór de download.** Een
+    organisatie die voor dat boekjaar al een wettelijke controle heeft
+    (bijvoorbeeld uit een transparantieverslag) wordt overgeslagen; deze bron
+    vult alleen aan wat nergens anders staat. De winst zit vooral in de
+    boekjaren vóór 2019, waar geen enkele andere bron komt.
+
+    Die afweging werd tot 22-9-2026 pas gemaakt nádat het document was
+    gehaald en gelezen. Een tweede run over hetzelfde bereik kostte daardoor
+    net zoveel als de eerste — honderden documenten van 5-30 MB — en dus was
+    bijhouden duurder dan opnieuw beginnen. De vergelijking gebeurt nu één
+    stap eerder, op één select over het gevraagde bereik. Een boekjaar dat al
+    geladen is kost daarmee een paar seconden in plaats van uren, en dat is
+    wat de maandelijkse run in beursfondsdata.yml betaalbaar maakt: late
+    deponeringen komen vanzelf binnen.
 
 3.  **Nooit stil gokken.** Niet elk fonds heeft een Nederlandse accountant
     (HAL Trust tekent bij PricewaterhouseCoopers Bermuda, gemeten). Een
@@ -70,6 +79,33 @@ def boekjaar_bereik(tekst: str) -> tuple[int, int]:
     eerste = int(delen[0])
     laatste = int(delen[1]) if len(delen) > 1 else eerste
     return (eerste, laatste)
+
+
+def nog_te_lezen(
+    rijen: list[dict],
+    org_per_naam: dict[str, list[dict]],
+    bestaande_controles: set[tuple[int, int]],
+) -> list[dict]:
+    """De deponeringen die nog gelezen moeten worden.
+
+    Alleen bij een eenduidige naammatch wordt er overgeslagen. Nul kandidaten
+    is een nieuwe instelling en twee kandidaten is een naamconflict; allebei
+    horen door de gewone route te gaan, die ze respectievelijk aanmaakt en naar
+    de review-wachtrij stuurt. Zonder die eis zou een naamgenoot een verslag
+    onzichtbaar maken.
+
+    Een rij met een onleesbaar boekjaar blijft ook staan: hier wordt niets
+    weggegooid op grond van twijfel.
+    """
+    uit = []
+    for rij in rijen:
+        kandidaten = org_per_naam.get(orgsleutel(rij["instelling"]), [])
+        if len(kandidaten) != 1 or not str(rij["boekjaar"]).isdigit():
+            uit.append(rij)
+            continue
+        if (kandidaten[0]["id"], int(rij["boekjaar"])) not in bestaande_controles:
+            uit.append(rij)
+    return uit
 
 
 def main() -> int:
@@ -122,11 +158,42 @@ def main() -> int:
         if rij["boekjaar"].isdigit() and eerste <= int(rij["boekjaar"]) <= laatste
     ]
     te_doen.sort(key=lambda rij: rij["boekjaar"], reverse=True)
+
+    # Wat al in de database staat eruit filteren vóór de download, niet erna.
+    # De regel zelf is niet nieuw ("bestaande rijen winnen", hieronder bij het
+    # wegschrijven), maar hij greep pas nadat een document van 5-30 MB was
+    # gehaald en gelezen. Daardoor kostte een tweede run over hetzelfde bereik
+    # net zoveel als de eerste, en was maandelijks bijwerken onbetaalbaar.
+    # Dezelfde vergelijking, één stap eerder: één select over het bereik,
+    # daarna alleen nog de deponeringen die echt nieuw zijn.
+    #
+    # Alleen bij een eenduidige naammatch. Nul kandidaten is een nieuwe
+    # instelling en twee kandidaten is een naamconflict; allebei horen door de
+    # gewone route te gaan, die ze respectievelijk aanmaakt en naar review
+    # stuurt. De controle na het lezen blijft staan: die is het gezag, want er
+    # kan intussen een andere run geweest zijn.
+    al_bekend = 0
+    if db is not None:
+        bestaande_controles = {
+            (rij["organisatie_id"], rij["boekjaar"])
+            for rij in db.selecteer_alles(
+                "opdrachten",
+                "select=organisatie_id,boekjaar"
+                "&type_opdracht=eq.wettelijke_controle"
+                f"&boekjaar=gte.{eerste}&boekjaar=lte.{laatste}",
+            )
+        }
+
+        voor = len(te_doen)
+        te_doen = nog_te_lezen(te_doen, org_per_naam, bestaande_controles)
+        al_bekend = voor - len(te_doen)
+
     if argumenten.limiet:
         te_doen = te_doen[: argumenten.limiet]
     print(
         f"{len(alle)} deponeringen, {len(jaarlijks)} jaarlijks, "
-        f"{len(te_doen)} in boekjaren {eerste}-{laatste}",
+        f"{len(te_doen)} te lezen in boekjaren {eerste}-{laatste}"
+        + (f" ({al_bekend} al in de database, niet opgehaald)" if al_bekend else ""),
         flush=True,
     )
 
@@ -182,6 +249,8 @@ def main() -> int:
         return rij, {"status": "afgekeurd", "reden": uitkomst.get("reden") or "geen verklaring gevonden"}
 
     telling: dict[str, int] = {}
+    if al_bekend:
+        telling["al bekend (niet opgehaald)"] = al_bekend
     per_kantoor: dict[str, int] = {}
     begin = time.time()
     with ThreadPoolExecutor(max_workers=argumenten.werkers) as pool:
