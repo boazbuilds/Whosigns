@@ -9,7 +9,7 @@ Deze velden komen uit de jaardataset, niet uit het archief. Er hoeft dus niets
 gedownload te worden: het is een handvol verzoeken naar Supabase en klaar in
 seconden, niet in uren.
 
-    organisaties   subsector, rechtsvorm, omzet_eur
+    organisaties   subsector, rechtsvorm, gemeente, omzet_eur
     opdrachten     honorarium_controle_eur, honorarium_overig_eur,
                    honorarium_fiscaal_eur, honorarium_nietcontrole_eur,
                    wissel_gerapporteerd
@@ -20,9 +20,16 @@ Draaien:
 
 Eén boekjaar per dataset; `--boekjaren` loopt er meerdere af en gaat door waar
 één jaargang faalt — de dataset van het ene jaar mag de honoraria van het
-andere niet gijzelen. Het boekjaar is dat van de dataset. Subsector en rechtsvorm gaan naar de
-organisatie en gelden voor alle jaren; de jaarcijfers (omzet, honoraria,
-wisselvlag) worden alleen aan de opdracht van dát boekjaar gehangen.
+andere niet gijzelen. Het boekjaar is dat van de dataset. Subsector, rechtsvorm
+en plaats gaan naar de organisatie en gelden voor alle jaren; de jaarcijfers
+(omzet, honoraria, wisselvlag) worden alleen aan de opdracht van dát boekjaar
+gehangen.
+
+De jaargangen worden van oud naar nieuw gedraaid, ook als je ze in een andere
+volgorde opgeeft. Dat is niet cosmetisch: de velden die bij de organisatie
+horen worden overschreven, dus de laatste jaargang wint. Een zorginstelling
+die is verhuisd of van rechtsvorm veranderd hoort de nieuwste stand te dragen,
+niet die van 2020.
 
 Idempotent: twee keer draaien geeft hetzelfde resultaat. Lege waarden worden
 nooit weggeschreven, dus een bestaande waarde raakt niet kwijt aan een leeg veld.
@@ -41,7 +48,18 @@ from supabase_client import Supabase, SupabaseFout  # noqa: E402
 CACHE = Path(__file__).resolve().parent / ".cache"
 
 # csv-veld -> databasekolom, per tabel.
-ORGANISATIE_VELDEN = {"subsector": "subsector", "rechtsvorm": "rechtsvorm"}
+#
+# `plaats` staat hier sinds 22-9-2026. De vestigingsplaats stond wel in elke
+# jaardataset maar werd alleen weggeschreven door de zorgoogst zelf; een
+# organisatie die via een andere route was aangemaakt hield een lege
+# `gemeente`. Van de 17.651 organisaties hadden er 14.251 er geen, en de
+# aangeleverde marktonderzoekbestanden dragen de kolom niet (41.109 rijen,
+# nul plaatsen) — de bron van dit gegeven is dus de dataset.
+ORGANISATIE_VELDEN = {
+    "subsector": "subsector",
+    "rechtsvorm": "rechtsvorm",
+    "plaats": "gemeente",
+}
 ORGANISATIE_JAARVELDEN = {"omzet": "omzet_eur"}
 OPDRACHT_JAARVELDEN = {
     "honorarium_controle": "honorarium_controle_eur",
@@ -68,19 +86,27 @@ def _waarde(rij: dict, veld: str):
 
 
 def gekozen_boekjaren(argumenten) -> list[int]:
-    """De boekjaren uit de argumenten, in opgegeven volgorde, zonder dubbelen.
+    """De boekjaren uit de argumenten, oudste eerst, zonder dubbelen.
 
     `--boekjaren "2023,2022"` wint van `--boekjaar`; dat laatste blijft bestaan
     omdat zorgdata.yml het meegeeft. Witruimte en lege stukken ("2023,,2022 ")
     worden vergeven: dit wordt vanuit een workflow-invoerveld getypt.
+
+    Oud naar nieuw, en niet in de volgorde die je typt. De velden die bij de
+    organisatie horen (subsector, rechtsvorm, plaats) worden overschreven, dus
+    de jaargang die als laatste draait bepaalt wat er staat. In de standaardlijst
+    van de workflow staat het nieuwste jaar vooraan — die volgorde aanhouden zou
+    betekenen dat 2020 het laatste woord heeft over waar een instelling vandaag
+    gevestigd is. De jaarcijfers (honoraria, omzet, wisselvlag) hangen aan hun
+    eigen boekjaar en merken hier niets van.
     """
     if argumenten.boekjaren:
-        uit: list[int] = []
-        for stuk in argumenten.boekjaren.split(","):
-            stuk = stuk.strip()
-            if stuk and int(stuk) not in uit:
-                uit.append(int(stuk))
-        return uit
+        gekozen = {
+            int(stuk.strip())
+            for stuk in argumenten.boekjaren.split(",")
+            if stuk.strip()
+        }
+        return sorted(gekozen)
     return [argumenten.boekjaar]
 
 

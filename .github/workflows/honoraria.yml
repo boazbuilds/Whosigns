@@ -16,19 +16,22 @@ name: Honoraria bijvullen
 # 2021 en 2020 staan sinds 1-9-2026 in de standaardlijst: die datasets bleken
 # gewoon het moderne formaat te dragen (877 en 881 controlehonoraria plus
 # wisselvlag en verklaringsdatum) — de aanname "oud formaat" gold alleen 2019.
+# 2025 staat er sinds 22-9-2026 bij: de vóórlopige dataset is op 3-8-2026
+# gepubliceerd (drie delen, 45 MB). Juist dat boekjaar telt, want de voorpagina
+# opent erop.
 on:
   workflow_dispatch:
     inputs:
       boekjaren:
         description: "Datasetjaren, komma's ertussen"
         required: false
-        default: "2024,2023,2022,2021,2020"
+        default: "2025,2024,2023,2022,2021,2020"
   workflow_call:
     inputs:
       boekjaren:
         type: string
         required: false
-        default: "2024,2023,2022,2021,2020"
+        default: "2025,2024,2023,2022,2021,2020"
   # Draait vanzelf zodra de vuller of deze workflow zelf op main landt —
   # zelfde patroon als de andere ladingen; een push-event heeft geen inputs,
   # dus de stap hieronder valt dan terug op de standaardjaren.
@@ -36,6 +39,9 @@ on:
     branches: [main]
     paths:
       - "pipeline/vul_extra_velden.py"
+      # Ook de adapter: daar staat de downloadtabel, dus een nieuwe jaargang
+      # landt daar en hoort meteen te worden bijgevuld.
+      - "pipeline/adapters/digimv_dataset.py"
       - ".github/workflows/honoraria.yml"
 
 jobs:

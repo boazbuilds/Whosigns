@@ -56,6 +56,18 @@ _BASIS = (
 # Alleen 2019 zelf is het oude formaat zonder accountantsverklaring-velden;
 # daarvoor blijft `--lijst-uit` de weg.
 DATASET_URL: dict[int, list[str]] = {
+    # Voorlopig, gepubliceerd 3-8-2026. "Voorlopig" betekent hier: nog niet elke
+    # zorgaanbieder heeft gedeponeerd en er kunnen correcties volgen. De velden
+    # die wij eruit halen (honoraria, wisselvlag, gerapporteerd oordeel,
+    # verklaringsdatum) zijn per organisatie ingevuld of niet; ze veranderen niet
+    # van betekenis als er later rijen bij komen. Wat leeg is blijft leeg, en de
+    # vuller schrijft nooit een lege waarde over een gevulde heen — een latere
+    # definitieve jaargang vult dus gewoon aan.
+    2025: [
+        f"{_BASIS}/2026/08/03/voorlopige-dataset-2025-deel-{deel}/"
+        f"digimv2025-20260715-1201-part-{deel}.ods"
+        for deel in (1, 2, 3)
+    ],
     2024: [
         f"{_BASIS}/2026/03/23/dataset-2024---deel-{deel}/"
         f"digimv2024-openbaar-20260129-multipletables-part-{deel}.ods"

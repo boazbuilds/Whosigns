@@ -34,18 +34,28 @@ class Argumenten:
         self.boekjaar = boekjaar
 
 
+# Oud naar nieuw, ongeacht wat je typt. De velden die bij de organisatie horen
+# (subsector, rechtsvorm, plaats) worden overschreven, dus de jaargang die als
+# laatste draait bepaalt wat er staat. De standaardlijst van de workflow begint
+# met het nieuwste jaar; die volgorde aanhouden gaf 2020 het laatste woord over
+# waar een instelling vandaag gevestigd is.
 check(
-    "een kommalijst wordt in volgorde ontleed",
-    gekozen_boekjaren(Argumenten("2023,2022")) == [2023, 2022],
+    "een kommalijst komt er oudste-eerst uit, ook als je hem andersom typt",
+    gekozen_boekjaren(Argumenten("2023,2022")) == [2022, 2023],
 )
 check(
     "witruimte en lege stukken worden vergeven; dit wordt in een "
     "workflow-invoerveld getypt",
-    gekozen_boekjaren(Argumenten(" 2023 ,, 2022,")) == [2023, 2022],
+    gekozen_boekjaren(Argumenten(" 2023 ,, 2022,")) == [2022, 2023],
 )
 check(
-    "dubbelen vallen weg met behoud van volgorde",
+    "dubbelen vallen weg",
     gekozen_boekjaren(Argumenten("2022,2023,2022")) == [2022, 2023],
+)
+check(
+    "de standaardlijst van de workflow draait van 2020 naar 2025",
+    gekozen_boekjaren(Argumenten("2025,2024,2023,2022,2021,2020"))
+    == [2020, 2021, 2022, 2023, 2024, 2025],
 )
 check(
     "zonder lijst valt hij terug op --boekjaar; zo blijft zorgdata.yml werken",
