@@ -286,9 +286,39 @@ def main() -> int:
             sleutel = orgsleutel(rij["instelling"])
             kandidaten = org_per_naam.get(sleutel, [])
             if len(kandidaten) > 1:
+                # Twee organisaties met dezelfde naamsleutel: er valt niet te
+                # kiezen aan welke deze opdracht hoort, en gokken mag niet. Tot
+                # 22-9-2026 bleef dat bij een regel in het csv-rapport, en dat
+                # rapport leest niemand: de run van die dag las 110 verslagen,
+                # kwam tot 45 opdrachten en schreef er nul omdat élke
+                # instelling een tweelingrij had — groen, zonder waarschuwing.
+                # Het hoort in de wachtrij waar de andere twijfelgevallen ook
+                # staan.
+                telling["naam dubbel"] = telling.get("naam dubbel", 0) + 1
                 schrijver.writerow(
                     [rij["instelling"], boekjaar, rij["id"], "review (naam dubbel)", "", "", ""]
                 )
+                if not db.bestaat(
+                    "review_queue",
+                    "soort=eq.naam_match&status=eq.open"
+                    f"&payload->>organisatie=eq.{urllib.parse.quote(rij['instelling'], safe='')}"
+                    f"&payload->>boekjaar=eq.{boekjaar}",
+                ):
+                    db.invoegen(
+                        "review_queue",
+                        {
+                            "soort": "naam_match",
+                            "payload": {
+                                "bron": "afm_verslaggeving",
+                                "reden": "organisatie staat meer dan één keer "
+                                "in de database",
+                                "organisatie": rij["instelling"],
+                                "boekjaar": boekjaar,
+                                "organisatie_ids": [k["id"] for k in kandidaten],
+                                "vindplaats": f"{afm_verslaggeving.REGISTER}/details?id={rij['id']}",
+                            },
+                        },
+                    )
                 continue
             if kandidaten:
                 org = kandidaten[0]
@@ -335,6 +365,7 @@ def main() -> int:
                 continue
             kantoor_id = kantoor_id_per_sleutel.get(kantoor.get("sleutel"))
             if kantoor_id is None:
+                telling["kantoor onbekend"] = telling.get("kantoor onbekend", 0) + 1
                 print(
                     f"  LET OP: kantoor {kantoor.get('naam')} niet in de database — "
                     "draai laad_kantoren.py",
@@ -355,8 +386,12 @@ def main() -> int:
                 },
                 "organisatie_id,boekjaar,type_opdracht",
             )
+            telling["weggeschreven"] = telling.get("weggeschreven", 0) + 1
 
     rapport.close()
+    # "opdracht" telt wat er is gelézen; "weggeschreven" telt wat er in de
+    # database staat. Dat die twee ver uit elkaar kunnen liggen is precies wat
+    # op 22-9-2026 onopgemerkt bleef, dus staan ze nu allebei in de uitkomst.
     print(f"\nUitkomst: {telling}")
     for naam, aantal in sorted(per_kantoor.items(), key=lambda kv: -kv[1])[:12]:
         print(f"  {aantal:>4}  {naam}")
