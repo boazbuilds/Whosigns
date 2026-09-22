@@ -11,6 +11,22 @@ name: Beursfondsdata laden
 # ~150-270 per boekjaar van elk 5-30 MB. Daarom draait dit per bereik van
 # boekjaren; begin recent en werk in een paar runs terug naar 2006.
 on:
+  # Maandelijks het vórige boekjaar opnieuw langslopen. Jaarverslagen over
+  # boekjaar N worden in de loop van jaar N+1 gedeponeerd, verspreid over het
+  # hele jaar: wie in maart leest mist de late indieners. Sinds de lader
+  # bestaande rijen vóór de download eruit filtert kost zo'n herhaling alleen
+  # nog het doorbladeren van het register plus de écht nieuwe deponeringen.
+  schedule:
+    - cron: "0 4 5 * *"
+  # En bij een wijziging aan de lader of aan deze workflow, zodat een merge de
+  # nieuwe stand meteen ophaalt — dezelfde knoploze afspraak als bij de
+  # migraties en de zorgoogst.
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/laad_beursfondsen.py"
+      - "pipeline/adapters/afm_verslaggeving.py"
+      - ".github/workflows/beursfondsdata.yml"
   workflow_dispatch:
     inputs:
       boekjaren:
@@ -64,9 +80,17 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           DROOGLOOP: ${{ inputs.droogloop }}
+          BOEKJAREN: ${{ inputs.boekjaren }}
         run: |
+          # Een push- of schedule-event heeft geen inputs. Dan het vórige
+          # kalenderjaar: dat is het boekjaar waarvan de verslagen nu worden
+          # gedeponeerd. Geen jaartal in dit bestand, want dat veroudert.
+          if [ -z "$BOEKJAREN" ]; then
+            BOEKJAREN=$(( $(date -u +%Y) - 1 ))
+            echo "geen invoer: boekjaar $BOEKJAREN"
+          fi
           python3 pipeline/laad_beursfondsen.py \
-            --boekjaren "${{ inputs.boekjaren }}" \
+            --boekjaren "$BOEKJAREN" \
             $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
 
       - name: Rapport bewaren
