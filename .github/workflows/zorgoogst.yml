@@ -13,6 +13,17 @@ name: Zorgoogst inladen
 # Staat er niets in pipeline/oogst/, dan doet de run niets en is hij alsnog
 # groen — zo kan hij zorgeloos in "Alles verversen" meedraaien.
 on:
+  # Een oogstrapport dat op main landt hoort ook in de database te komen. De
+  # lader vult alleen lege velden bij op rijen die er al staan en slaat de rest
+  # over, dus dit is dezelfde knoploze afspraak als bij de migraties: de merge
+  # ís de knop. De tussenstanden die oogst_zorg.sh zelf commit vuren dit niet
+  # af — GitHub start geen workflows op pushes die een workflow zelf doet.
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/oogst/*.csv"
+      - "pipeline/laad_zorg_rapport.py"
+      - ".github/workflows/zorgoogst.yml"
   workflow_dispatch:
     inputs:
       herlaad:
@@ -56,7 +67,9 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          HERLAAD: ${{ inputs.herlaad }}
+          # Een push-event heeft geen inputs; dan geldt de veilige stand.
+          # Herladen verwijdert bestaande opdrachten en hoort bij de knop.
+          HERLAAD: ${{ inputs.herlaad || 'false' }}
         run: |
           shopt -s nullglob
           bestanden=(pipeline/oogst/*.csv)

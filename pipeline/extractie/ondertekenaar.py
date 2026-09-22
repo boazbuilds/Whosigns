@@ -33,6 +33,30 @@ Deze module leest daarom de rúwe tekst, en eist onafhankelijk bewijs dat er een
 verklaring ligt: een kop én een oordeelzin. Wat overblijft is smal en dat is de
 bedoeling. Leeg is gratis; een verkeerde naam onder een niet-goedkeurend oordeel
 is een beschuldiging.
+
+Wat er op 22-9-2026 bij kwam
+----------------------------
+Smal mag, maar niet smaller dan de bron. Van de 4.260 bewaarde OCR-teksten in
+`pipeline/oogst/ocr/` leverden 543 verklaringen geen naam op; nameting per poort
+wees uit dat het bij 249 aan het naampatroon lag en bij 163 aan het anker. In
+beide gevallen was de oorzaak schrijfwijze, niet onzekerheid:
+
+- het patroon was hoofdlettergevoelig, terwijl het stuk net zo vaak "Was
+  getekend:", "W.G.", "Drs." of "Origineel getekend door" schrijft;
+- de plaats-en-datumregel moest precies op het jaartal eindigen, terwijl OCR er
+  een kras van de handtekening naast zet ("Drachten, 24 juli-2020 _ Ss"), de
+  maand met een hoofdletter leest ("12 Juni 2020") of de eerste letter van de
+  plaats opeet ("osterwolde, 15 juni 2021").
+
+Beide zijn hier opgelost, en alleen daar: `re.I` over het hele patroon zou van
+elk woord een initiaal maken. Het resultaat is gemeten tegen de oude versie over
+dezelfde 4.260 teksten — 86 namen erbij, geen enkele naam veranderd, geen enkele
+verdwenen.
+
+Wat níét is gerepareerd: namen die OCR zelf beschadigd heeft ("M. Kilingarslan"
+naast "M. Kilincarslan" bij hetzelfde kantoor). Dat blijven twee sleutels en dus
+twee pagina's. Raden welke van de twee de echte is kan niet uit het document
+zelf; dat hoort bij een naslagbron of bij een mens, niet hier.
 """
 
 import re
@@ -51,9 +75,14 @@ _NAAM = re.compile(
     # initialen. Dat is geen gemiste naam maar een verkeerde naam, en die zijn
     # hier duurder dan lege velden.
     r"^[ \t]*"
-    r"(?:(?:was\s+)?getekend(?:\s+door)?|w\.?\s?g\.?|validsigned(?:\s+door)?"
-    r"|origineel\s+getekend(?:\s+door)?)?[:\s]*"
-    r"(?P<aanhef>(?:drs|mr|ir|ing|prof|dr|mw|dhr)\.?\s+){0,2}"
+    # Hoofdletterongevoelig, maar alleen hier: het stuk schrijft net zo vaak
+    # "Was getekend:", "W.G." of "Drs." als de kleine variant, en dat waren
+    # 95 van de 543 onleesbaar gebleven verklaringen (gemeten 22-9-2026 op de
+    # bewaarde oogsttekst). Een `re.I` over het hele patroon mag juist niet:
+    # dan matcht `[A-Z]` ook kleine letters en wordt elk woord een initiaal.
+    r"(?i:(?:was\s+)?getekend(?:\s+door)?|w\.?\s?g\.?|validsigned(?:\s+door)?"
+    r"|origineel\s+getekend(?:\s+door)?)?[:,\s]*"
+    r"(?P<aanhef>(?i:drs|mr|ir|ing|prof|dr|mw|dhr)\.?\s+){0,2}"
     # Initialen, met minstens één punt. De punt is de rem: zonder die eis is elk
     # hoofdletterwoord een kandidaat-initiaal en wordt "De Vries RA" gelezen als
     # initiaal "D" plus achternaam "Vries". Twee vormen zijn toegestaan, want OCR
@@ -86,9 +115,20 @@ _OORDEELZIN = re.compile(
 # Waar een handtekening begint. De plaats-en-datumregel is het sterkste anker:
 # die staat in vrijwel elke verklaring vlak boven de ondertekening.
 _PLAATS_DATUM = re.compile(
-    r"^[ \t]*[A-Z][A-Za-zÀ-ÿ'’ .-]{2,40},\s*\d{1,2}\s+"
-    r"(?:januari|februari|maart|april|mei|juni|juli|augustus|september|oktober"
-    r"|november|december)\s+(?:19|20)\d{2}[ \t]*$",
+    # Drie dingen die OCR met deze regel doet, en die hem alle drie onvindbaar
+    # maakten (gemeten 22-9-2026): de maandnaam met een hoofdletter ("12 Juni
+    # 2020"), de eerste letter van de plaats kwijt of vervangen door een
+    # typografische apostrof ("osterwolde", "’s-Hertogenbosch"), en rommel van
+    # de handtekening ernaast achter het jaartal ("24 juli-2020 _ Ss").
+    #
+    # De rommel mag, zolang er geen woord van drie letters in staat: dan is het
+    # geen kras maar een zin, en dan is dit geen ondertekeningsregel. Losser mag
+    # het hier, want dit is alleen een ánker — de naam zelf moet daarna nog door
+    # het strenge naampatroon, het rolfilter en de kantoornaam-eis heen.
+    r"^[ \t]*['’]?[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’ .-]{2,40},[ \t]*\d{1,2}[ \t.-]+"
+    r"(?i:januari|februari|maart|april|mei|juni|juli|augustus|september|oktober"
+    r"|november|december)[ \t.-]+(?:19|20)\d{2}\b"
+    r"(?![^\n]*[A-Za-zÀ-ÿ]{3})[^\n]{0,14}$",
     re.M,
 )
 _WAS_GETEKEND = re.compile(r"was\s+getekend|w\.?\s?g\.?\s|origineel\s+getekend"
@@ -213,13 +253,24 @@ def zoek_ondertekenaar(tekst: str, kantoornaam: str | None = None) -> dict:
             continue
         in_dit_blok: list[str] = []
         for match in _NAAM.finditer(blok):
+            # Meten vanaf de naam zelf en niet vanaf het begin van de match: de
+            # match begint bij het regelbegin en slikt "Was getekend:" mee, en
+            # dat is nou net het anker. Vanaf `match.start()` ligt de naam dan
+            # vóór zijn eigen anker en valt hij af — zo verdwenen vijf namen
+            # die er eerst wél uit kwamen (gemeten 22-9-2026).
+            naam_begint = match.start("initialen")
             # Het dichtstbijzijnde anker vóór de naam, en niet zomaar een anker
             # ergens in het blok: anders telt een kop bovenaan als bewijs voor
             # een naam duizend tekens verderop.
-            eerder = [a for a in ankers if a <= match.start()]
+            eerder = [a for a in ankers if a <= naam_begint]
             if not eerder:
                 continue
             anker = eerder[-1]
+            # De afstand wél vanaf het begin van de regel: het venster is
+            # bedoeld als "hoe ver staat deze handtekening onder het anker", en
+            # niet als "hoeveel titels staan er voor de naam". Meten vanaf de
+            # initialen maakte het venster stilletjes korter en gooide twee
+            # namen weg die er precies binnen vielen.
             if match.start() - anker > VENSTER_NA_ANKER:
                 continue
             naam = _schoon(match)
@@ -233,7 +284,7 @@ def zoek_ondertekenaar(tekst: str, kantoornaam: str | None = None) -> dict:
                 continue
             if kantoornaam:
                 kern = kantoornaam.split()[0].lower()
-                tussenin = blok[anker : match.start()].lower()
+                tussenin = blok[anker:naam_begint].lower()
                 voor_anker = blok[max(0, anker - 300) : anker].lower()
                 if kern not in tussenin and kern not in voor_anker:
                     afgewezen.append(naam)

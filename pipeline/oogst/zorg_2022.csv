@@ -154,7 +154,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 08154763,Stichting Zorggroep Apeldoorn en omstreken,Apeldoorn,2022,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
 09129243,Stichting Azora,Terborg,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
 53704533,Stichting Amaryllis,Leeuwarden,2022,Omnyacc In Control B.V.,13000194,13000194,wettelijke_controle,goedkeurend,,,
-23088794,Stichting Palliatieve Zorg Dirksland,Dirksland,2022,Visser & Visser Audit en Assurance B.V.,13000491,13000491,wettelijke_controle,goedkeurend,,,
+23088794,Stichting Palliatieve Zorg Dirksland,Dirksland,2022,Visser & Visser Audit en Assurance B.V.,13000491,13000491,wettelijke_controle,goedkeurend,,,drs. M.J. van den Bos RA
 41187537,Stichting Exodus Nederland,Utrecht,2022,WITh Accountants B.V.,overig_with_accountants,,vrijwillige_controle,goedkeurend,,,
 84131187,Eurofins PAMM B.V.,Veldhoven,2022,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
 41227351,Stichting Streeklaboratorium voor de Volksgezondheid Kennemerland,Haarlem,2022,Van Velzen Audit B.V.,13020127,13020127,wettelijke_controle,goedkeurend,,,
@@ -291,7 +291,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 24425068,Stichting Jah-Jireh Woonzorg,Wageningen,2022,Stolwijk Kelderman Accountants Fiscalisten,13000458,13000458,wettelijke_controle,goedkeurend,,,
 27195258,Stichting Johannahuis,Wassenaar,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
 41102327,Stichting St. Elisabeth,Roosendaal,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
-06091594,"Jarabee, Stichting voor Jeugdzorg in Twente",Hengelo,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,ja,
+06091594,"Jarabee, Stichting voor Jeugdzorg in Twente",Hengelo,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,ja,drs. E.B.J. Haandrikman-Willemsen RA
 54852838,Stichting SeysCentra,Malden,2022,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,
 41126544,Stichting Protestants Christelijk Ziekenhuis Ikazia,Rotterdam,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
 65858190,Incluzio Hollands Kroon B.V.,Schiedam,2022,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
@@ -373,7 +373,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 55583261,Stichting Atalmedial,Amsterdam,2022,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,
 41165834,Stichting De Haardstee,Leiden,2022,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
 66374812,Crataegus Zorg B.V.,Dorst,2022,Schipper Accountants B.V.,13000415,13000415,wnt_verantwoording,goedkeurend,,,
-41076731,Stichting Woonzorgcentrum De Beyart,Maastricht,2022,Audit Service Plus B.V.,13000790,13000790,wettelijke_controle,goedkeurend,,,
+41076731,Stichting Woonzorgcentrum De Beyart,Maastricht,2022,Audit Service Plus B.V.,13000790,13000790,wettelijke_controle,goedkeurend,,,Drs. D.J.H.L. Daemen RA
 41009381,Stichting Certe Medische Diagnostiek en Advies,Groningen,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,
 41197688,Nederlandse Stichting voor het Dove en Slechthorende Kind,Amsterdam,2022,Auren Audit & Assurance Amsterdam B.V.,13020031,13020031,wettelijke_controle,goedkeurend,,,
 41027072,Stichting Streeklaboratorium voor de Microbiologie in Twente en de Gelderse Achterhoek,Hengelo,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,beperking,inhoudelijk,,
@@ -451,7 +451,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 17145911,Stichting Zorggroep Elde Maasduinen,Boxtel,2022,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,
 67702848,Stichting Veilig Thuis Oost-Brabant,Helmond,2022,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,
 41035212,"Stichting Careander, Protestants Christelijke Stichting voor mensen met een verstandelijke beperking",Harderwijk,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
-41032033,Stichting Laboratorium Pathologie Oost Nederland,Hengelo,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,
+41032033,Stichting Laboratorium Pathologie Oost Nederland,Hengelo,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,drs. E.B.J. Haandrikman-Willemsen RA
 41238376,"Protestants Christelijke Stichting voor Wonen en Zorg, Horizon Zorgcentrum",Broek op Langedijk,2022,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,wettelijke_controle,goedkeurend,,,
 41102850,Stichting Sovak,Terheijden,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
 41119524,Stichting Woongemeenschap voor Ouderen,Piershil,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
@@ -543,7 +543,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 41149113,Stichting De Hoogstraat Revalidatie,Utrecht,2022,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,
 28099814,Stichting Basalt,'s-Gravenhage,2022,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
 41048366,Stichting De Rozelaar,Barneveld,2022,Baker Tilly (Netherlands) B.V.,13000741,13000741,wettelijke_controle,goedkeurend,,,
-41057184,Stichting Regionale Instelling voor Begeleiding en Wonen Nijmegen & Rivierenland,Nijmegen,2022,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,
+41057184,Stichting Regionale Instelling voor Begeleiding en Wonen Nijmegen & Rivierenland,Nijmegen,2022,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,drs. M. van Arkel RA
 41064747,Stichting Forensisch Psychiatrisch Centrum De Rooyse Wissel,Oostrum,2022,KPMG Accountants N.V.,13000121,13000121,wettelijke_controle,goedkeurend,,,
 17127118,Stichting St. Anna Zorggroep,Geldrop,2022,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,
 41052701,Stichting Nusantara Zorg,Ugchelen,2022,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,
@@ -688,7 +688,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 08099661,Stichting TriviumMeulenbeltZorg,Borne,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,controle_onbepaald,goedkeurend,,,
 54091454,Cedin B.V.,Drachten,2022,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
 41063674,"Stichting Viecuri, Medisch Centrum voor Noord-Limburg",Venlo,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
-67729894,Stichting Liberein,Enschede,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,
+67729894,Stichting Liberein,Enschede,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,drs. E.B.J. Haandrikman-Willemsen RA
 41014377,Christelijke Stichting BCM Zorg en Dienstverlening,Stadskanaal,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
 32127933,Doenersdreef B.V.,Almere,2022,Stichting Audit Only,13000655,13000655,wettelijke_controle,goedkeurend,,,
 63362678,UniK B.V.,Cuijk,2022,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,
@@ -718,7 +718,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 17120496,Bernhoven B.V.,Uden,2022,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,
 27321808,Stichting Ipse de Bruggen,Zoetermeer,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
 34186307,Stichting De Jeugd- & Gezinsbeschermers,Haarlem,2022,PricewaterhouseCoopers Accountants N.V.,13000291,13000291,wettelijke_controle,goedkeurend,,,
-01099530,Stichting Regiecentrum Bescherming en Veiligheid,Leeuwarden,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,
+01099530,Stichting Regiecentrum Bescherming en Veiligheid,Leeuwarden,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,JL. de Kimpe RA AA
 69217203,Stichting Combiwel Buurtwerk,Amsterdam,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
 04075970,Stichting Jeugdbescherming Noord en Veilig Thuis Groningen,Groningen,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,
 61116068,Memphys B.V.,Leidschendam,2022,Vermetten Audit B.V.,13000084,13000084,wnt_verantwoording,goedkeurend,,,
@@ -789,7 +789,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 41099141,Stichting Residentie Molenwijck,Loon op Zand,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
 08215848,Stichting Thuisgenoten,Almelo,2022,Eshuis Registeraccountants B.V.,13000144,13000144,wettelijke_controle,goedkeurend,,,
 41223176,Stichting Nieuw Unicum,Zandvoort,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
-61538337,Stichting Psyvel,Rotterdam,2022,Witlox VCS audit B.V.,13000578,13000578,wnt_verantwoording,goedkeurend,,,
+61538337,Stichting Psyvel,Rotterdam,2022,Witlox VCS audit B.V.,13000578,13000578,wnt_verantwoording,goedkeurend,,,H.M. Oprinsen RA
 27278745,Fundis (Stichting),Gouda,2022,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
 50739107,Stichting Siriz,Gouda,2022,Van Ree Accountants B.V.,13000546,13000546,wettelijke_controle,goedkeurend,,,
 24371737,Stichting Ontmoeting,Houten,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
@@ -878,7 +878,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 41081766,Stichting St. Jozefoord,Nuland,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
 41004209,Stichting OlmenEs,Appelscha,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
 41210822,Stichting Levvel,Amsterdam,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
-41088260,Stichting Severinus,Veldhoven,2022,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,
+41088260,Stichting Severinus,Veldhoven,2022,Q-Concepts Accountancy B.V.,13000773,13000773,wettelijke_controle,goedkeurend,,,drs. M. van Arkel RA
 18081254,Stichting Mijzo,Waalwijk,2022,PricewaterhouseCoopers Accountants N.V.,13000291,13000291,wettelijke_controle,goedkeurend,,,
 41244295,Stichting Deventer Ziekenhuis,Deventer,2022,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,
 68437056,Stichting Enver,Rotterdam,2022,KPMG Accountants N.V.,13000121,13000121,wettelijke_controle,goedkeurend,,,
@@ -932,10 +932,10 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 62303597,Jeugd GGZ (Stichting),Deventer,2022,KPMG Accountants N.V.,13000121,13000121,wettelijke_controle,goedkeurend,,,
 41114814,Stichting Zorgcentrum Cederhof,Kapelle,2022,Rijkse accountants & adviseurs,overig_rijkse_accountants,,vrijwillige_controle,goedkeurend,,,
 64800741,Stichting Ons Welzijn,Oss,2022,Van Ree Accountants B.V.,13000546,13000546,wettelijke_controle,goedkeurend,,,
-27332804,Stichting Wijdezorg,Zoeterwoude,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
+27332804,Stichting Wijdezorg,Zoeterwoude,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,DRS. T.H. DE REK RA
 01098504,Stichting ZuidOostZorg,Drachten,2022,Deloitte Accountants B.V.,13000015,13000015,wettelijke_controle,goedkeurend,,,
 12065323,Proteion Groep (Stichting),Haelen,2022,EY Accountants B.V.,13020186,13020186,wettelijke_controle,goedkeurend,,,
-71965653,Stichting KleinGeluk,Apeldoorn,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,
+71965653,Stichting KleinGeluk,Apeldoorn,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,drs. E.B.J. Haandrikman-Willemsen RA
 55670040,Mindfit (Stichting),Deventer,2022,KPMG Accountants N.V.,13000121,13000121,wettelijke_controle,goedkeurend,,,
 02060268,Stichting Werkpro,Groningen,2022,Verstegen accountants en adviseurs B.V.,13000147,13000147,wettelijke_controle,goedkeurend,,,
 22048682,Stichting Kind in Ontwikkeling KIO,Heinkenszand,2022,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,wettelijke_controle,goedkeurend,,,
@@ -951,7 +951,7 @@ kvk,naam,plaats,boekjaar,kantoor,kantoor_sleutel,afm_nummer,type_opdracht,oordee
 01124315,Stichting Zienn,Leeuwarden,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,
 60993790,Stichting De Steenrots,Katwijk,2022,Van Wezel Audit B.V.,13020063,13020063,wettelijke_controle,goedkeurend,,,M.G. van Rijn MSc RA
 72266449,Stichting KliniekTwente,Oldenzaal,2022,De Jong & Laan Controle B.V.,13000420,13000420,wnt_verantwoording,goedkeurend,,,
-41027861,Stichting Woon- en Zorgcentrum Friso,Almelo,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,
+41027861,Stichting Woon- en Zorgcentrum Friso,Almelo,2022,De Jong & Laan Controle B.V.,13000420,13000420,wettelijke_controle,goedkeurend,,,drs. E.B.J. Haandrikman-Willemsen RA
 41236583,Stichting Omring,Hoorn,2022,BDO Audit & Assurance B.V.,13000311,13000311,wettelijke_controle,goedkeurend,,,
 57877165,OuderKindLijn,Amsterdam,2022,Accountants voor de Gezondheidszorg B.V.,13020048,13020048,productieverantwoording,goedkeurend,,,
 75009161,Het reizende koffertje,Harlingen,2022,Van der Meer Accountants B.V.,13000361,13000361,productieverantwoording,goedkeurend,,,
