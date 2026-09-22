@@ -25,13 +25,13 @@ on:
       boekjaren:
         description: "Datasetjaren, komma's ertussen"
         required: false
-        default: "2025,2024,2023,2022,2021,2020"
+        default: "alle"
   workflow_call:
     inputs:
       boekjaren:
         type: string
         required: false
-        default: "2025,2024,2023,2022,2021,2020"
+        default: "alle"
   # Draait vanzelf zodra de vuller of deze workflow zelf op main landt —
   # zelfde patroon als de andere ladingen; een push-event heeft geen inputs,
   # dus de stap hieronder valt dan terug op de standaardjaren.
@@ -51,7 +51,11 @@ jobs:
     # Vijf jaargangen, elk met een download van tientallen MB bij een koude
     # cache; de eerste run met 2021+2020 erbij haalde de oude grens van 30 net
     # niet ruim genoeg.
-    timeout-minutes: 45
+    # Gemeten 22-9-2026: 2020 t/m 2024 kostte 41 minuten bij een koude cache,
+    # en 2025 is er als driedelige export van 45 MB bij gekomen — lokaal een
+    # kwartier ontleden. De oude grens van 45 zou dat net afkappen, en dan
+    # valt precies het nieuwste boekjaar af.
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v7
 
@@ -73,7 +77,11 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          BOEKJAREN: ${{ inputs.boekjaren || '2024,2023,2022,2021,2020' }}
+          # "alle" = elke jaargang uit digimv_dataset.DATASET_URL. Hier stond
+          # de lijst met jaartallen nóg een keer, naast de twee invoervelden,
+          # en juist deze werd vergeten toen 2025 erbij kwam: de run daarna
+          # stopte groen bij 2024. Eén lijst, in de downloadtabel.
+          BOEKJAREN: ${{ inputs.boekjaren || 'alle' }}
         run: |
           if [ -z "$SUPABASE_URL" ]; then
             echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."

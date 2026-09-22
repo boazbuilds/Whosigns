@@ -53,9 +53,29 @@ check(
     gekozen_boekjaren(Argumenten("2022,2023,2022")) == [2022, 2023],
 )
 check(
-    "de standaardlijst van de workflow draait van 2020 naar 2025",
+    "een lijst die je zelf typt draait van 2020 naar 2025",
     gekozen_boekjaren(Argumenten("2025,2024,2023,2022,2021,2020"))
     == [2020, 2021, 2022, 2023, 2024, 2025],
+)
+
+# "alle" haalt de jaargangen uit de downloadtabel. Dat is wat de workflow
+# meegeeft, en het is er één plek in plaats van drie: de lijst stond ook in de
+# twee invoervelden én nog eens hard in de stap zelf. Die laatste werd vergeten
+# toen 2025 erbij kwam, en de run daarna stopte groen bij 2024 — alleen het
+# nieuwste boekjaar, waar het om begonnen was, bleef leeg.
+from digimv_dataset import DATASET_URL  # noqa: E402
+
+check(
+    "'alle' is elke jaargang uit de downloadtabel, oudste eerst",
+    gekozen_boekjaren(Argumenten("alle")) == sorted(DATASET_URL),
+)
+check(
+    "en dat is meer dan één jaargang, dus geen stille lege lijst",
+    len(gekozen_boekjaren(Argumenten("alle"))) >= 6,
+)
+check(
+    "hoofdletters en spaties rond 'alle' mogen; dit wordt getypt",
+    gekozen_boekjaren(Argumenten("  Alle ")) == sorted(DATASET_URL),
 )
 check(
     "zonder lijst valt hij terug op --boekjaar; zo blijft zorgdata.yml werken",
