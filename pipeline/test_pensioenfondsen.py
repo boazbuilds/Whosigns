@@ -107,5 +107,62 @@ check(
     len({(r["naam"], r["boekjaar"]) for r in onderwijs}) == len(onderwijs),
 )
 
+# --- wat er vóór de download afvalt -------------------------------------------
+#
+# Eén jaarverslag ophalen en lezen kost een halve minuut, met OCR bij een
+# mengvorm een paar minuten, en de twee seeds tellen samen bijna driehonderd
+# regels. De controle "staat dit boekjaar er al?" stond ná het lezen, dus een
+# herhaling kostte net zoveel als de eerste keer. Sinds 22-9-2026 valt dat er
+# één stap eerder uit — maar alleen waar het net zo zeker is.
+VOORBEELD = {
+    lp.normaliseer("Stichting Pensioenfonds Voorbeeld"): [{"id": 7}],
+    lp.normaliseer("Stichting Pensioenfonds Marktonderzoek"): [{"id": 8}],
+    # Twee organisaties met dezelfde naamsleutel: de lader hoort dat te melden.
+    lp.normaliseer("Stichting Pensioenfonds Dubbel"): [{"id": 9}, {"id": 10}],
+}
+# Alleen gelezen controles tellen mee. Fonds 8 heeft in de database alleen een
+# controle_onbepaald uit het marktonderzoek en staat hier dus niet in: dat is
+# juist een reden om het verslag te lezen, want daar komt het opdrachttype, het
+# oordeel en de ondertekenaar bij.
+GELEZEN = {(7, 2024), (9, 2024), (10, 2024)}
+
+regels = [
+    {"fonds": "Stichting Pensioenfonds Voorbeeld", "boekjaar": "2024"},
+    {"fonds": "Stichting Pensioenfonds Voorbeeld", "boekjaar": "2025"},
+    {"fonds": "Stichting Pensioenfonds Marktonderzoek", "boekjaar": "2024"},
+    {"fonds": "Stichting Pensioenfonds Dubbel", "boekjaar": "2024"},
+    {"naam": "Hogeschool Onbekend", "boekjaar": "2024"},
+]
+over = {
+    (r.get("fonds") or r.get("naam"), r["boekjaar"])
+    for r in lp.nog_te_lezen(regels, VOORBEELD, GELEZEN)
+}
+check(
+    "een boekjaar waarvan de verklaring al gelezen is wordt niet opgehaald",
+    ("Stichting Pensioenfonds Voorbeeld", "2024") not in over,
+)
+check(
+    "een ander boekjaar van hetzelfde fonds blijft staan",
+    ("Stichting Pensioenfonds Voorbeeld", "2025") in over,
+)
+check(
+    "een rij die alleen uit het marktonderzoek komt (controle_onbepaald) wordt "
+    "wél gelezen; daar valt nog opdrachttype, oordeel en tekenaar bij te halen",
+    ("Stichting Pensioenfonds Marktonderzoek", "2024") in over,
+)
+check(
+    "bij twee organisaties met dezelfde naamsleutel wordt er niets overgeslagen; "
+    "die melding hoort iemand te zien",
+    ("Stichting Pensioenfonds Dubbel", "2024") in over,
+)
+check(
+    "een organisatie die de database niet kent blijft staan",
+    ("Hogeschool Onbekend", "2024") in over,
+)
+check(
+    "zonder database valt er niets af: de eerste run leest alles",
+    len(lp.nog_te_lezen(regels, {}, set())) == len(regels),
+)
+
 print(f"{goed}/{goed + fout} goed")
 sys.exit(1 if fout else 0)
