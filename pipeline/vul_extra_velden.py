@@ -92,14 +92,23 @@ def gekozen_boekjaren(argumenten) -> list[int]:
     omdat zorgdata.yml het meegeeft. Witruimte en lege stukken ("2023,,2022 ")
     worden vergeven: dit wordt vanuit een workflow-invoerveld getypt.
 
+    `--boekjaren alle` neemt elke jaargang uit `digimv_dataset.DATASET_URL`.
+    Dat is wat de workflow meegeeft, en het is er één plek in plaats van drie:
+    de lijst stond ook in de twee invoervelden én nog eens hard in de stap zelf.
+    Die laatste werd vergeten toen 2025 erbij kwam, en de eerste run daarna
+    stopte netjes bij 2024 — groen, want er ging niets kapot; alleen het
+    nieuwste boekjaar, waar het om begonnen was, bleef leeg. Nu is de
+    downloadtabel de enige lijst: een jaargang toevoegen is één regel.
+
     Oud naar nieuw, en niet in de volgorde die je typt. De velden die bij de
     organisatie horen (subsector, rechtsvorm, plaats) worden overschreven, dus
-    de jaargang die als laatste draait bepaalt wat er staat. In de standaardlijst
-    van de workflow staat het nieuwste jaar vooraan — die volgorde aanhouden zou
-    betekenen dat 2020 het laatste woord heeft over waar een instelling vandaag
-    gevestigd is. De jaarcijfers (honoraria, omzet, wisselvlag) hangen aan hun
-    eigen boekjaar en merken hier niets van.
+    de jaargang die als laatste draait bepaalt wat er staat — 2020 hoort niet
+    het laatste woord te hebben over waar een instelling vandaag gevestigd is.
+    De jaarcijfers (honoraria, omzet, wisselvlag) hangen aan hun eigen boekjaar
+    en merken hier niets van.
     """
+    if argumenten.boekjaren.strip().lower() == "alle":
+        return sorted(digimv_dataset.DATASET_URL)
     if argumenten.boekjaren:
         gekozen = {
             int(stuk.strip())
