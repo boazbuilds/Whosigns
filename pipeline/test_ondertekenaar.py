@@ -218,5 +218,74 @@ check(
     "tekenend_accountant" in leeg,
 )
 
+# --- hoofdletters en OCR-schade in de handtekeningregel ------------------------
+#
+# Gemeten op 22-9-2026 tegen de 4.260 bewaarde OCR-teksten in pipeline/oogst/ocr:
+# van de 543 verklaringen waar wél tekst van was maar geen naam uit kwam, lag het
+# bij 95 alleen aan de schrijfwijze. "Was getekend:" met een hoofdletter, "Drs.",
+# "W.G." en "Origineel getekend door" haalden het patroon niet, want dat was
+# hoofdlettergevoelig. De hele regex `re.I` maken mag juist níét — dan matcht
+# `[A-Z]` ook kleine letters en wordt elk woord een initiaal.
+for regel, verwacht in [
+    ("Was getekend: P.G.M. Retra AA", "P.G.M. Retra AA"),
+    ("Was getekend, H.M. Oprinsen RA", "H.M. Oprinsen RA"),
+    ("Origineel getekend door drs. H.A.B. de Coninck RA", "drs. H.A.B. de Coninck RA"),
+    ("Origineel getekend door: S. Stegeman MSc RA", "S. Stegeman MSc RA"),
+    ("Drs. L. van der Stelt RA", "Drs. L. van der Stelt RA"),
+    ("W.G. dhr. R. van Dijk RA", "dhr. R. van Dijk RA"),
+]:
+    check(
+        f"de handtekeningregel {regel!r} levert de naam op",
+        zoek_ondertekenaar(verklaring(regel), "Voorbeeld Accountants B.V.")["naam"]
+        == verwacht,
+    )
+
+# De regel begint bij "Was getekend:", en dat is zélf het anker. Wie de afstand
+# tot het anker meet vanaf de naam in plaats van vanaf het regelbegin, gooit
+# precies die regels weg — vijf van de bestaande namen verdwenen daarop.
+lang = (
+    f"{KOP}\n\nNaar ons oordeel geeft de jaarrekening een getrouw beeld.\n\n"
+    "Utrecht, 12 mei 2024\n\nVoorbeeld Accountants B.V.\n"
+    + "." * 140
+    + "\nWas getekend: drs. J. Jansen RA\n"
+)
+check(
+    "een naam net binnen het venster blijft staan, ook met 'Was getekend:' ervoor",
+    zoek_ondertekenaar(lang, "Voorbeeld Accountants B.V.")["naam"]
+    == "drs. J. Jansen RA",
+)
+
+# --- het anker: wat OCR met de plaats-en-datumregel doet -----------------------
+def met_datumregel(regel: str) -> str:
+    return (
+        f"{KOP}\n\nNaar ons oordeel geeft de jaarrekening een getrouw beeld.\n\n"
+        f"{regel}\n\nVoorbeeld Accountants B.V.\n\ndrs. J. Jansen RA\n"
+    )
+
+
+for regel, omschrijving in [
+    ("Middelburg, 12 Juni 2020", "een maandnaam met een hoofdletter"),
+    ("osterwolde, 15 juni 2021", "een plaats waarvan OCR de eerste letter at"),
+    ("\u2019s-Hertogenbosch, 16 juli 2021", "een plaats die met een apostrof begint"),
+    ("Drachten, 24 juli-2020 _ Ss", "een streepje en een kras van de handtekening"),
+    ("Leusden, 28 september 2021 / Al", "twee tekens rommel achter het jaartal"),
+]:
+    check(
+        f"{omschrijving} telt nog steeds als ondertekeningsanker",
+        zoek_ondertekenaar(met_datumregel(regel), "Voorbeeld Accountants B.V.")["naam"]
+        == "drs. J. Jansen RA",
+    )
+
+# En de grens van die soepelheid: staat er een zin achter de datum, dan is het
+# geen ondertekeningsregel maar lopende tekst, en dan is er geen anker.
+check(
+    "een datum midden in een zin is geen ondertekeningsanker",
+    zoek_ondertekenaar(
+        met_datumregel("De stichting, 12 mei 2024 opgericht, groeide hard"),
+        "Voorbeeld Accountants B.V.",
+    )["naam"]
+    is None,
+)
+
 print(f"{goed}/{goed + fout} goed")
 sys.exit(1 if fout else 0)
