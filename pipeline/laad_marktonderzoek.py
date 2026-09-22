@@ -301,10 +301,18 @@ def main() -> int:
         # Alle organisatie-boekjaren die al een controle hebben, in één keer
         # voorgeladen: per rij naar de database vragen kost drie verzoeken per
         # rij en dat past bij duizenden rijen in geen enkele timeout.
+        #
+        # `vrijwillige_controle` hoort er net zo goed bij en ontbrak hier. Een
+        # goed doel of een vereniging zonder controleplicht laat zich wél
+        # controleren; die verklaring is gelezen en zegt meer dan "er was een
+        # accountant". Zonder dit type kwam er alsnog een controle_onbepaald
+        # naast, en dat is precies de dubbeling die 20260922180000 met
+        # terugwerkende kracht opruimt.
         for r in db.selecteer_alles(
             "opdrachten",
             "select=organisatie_id,boekjaar"
-            "&type_opdracht=in.(wettelijke_controle,controle_onbepaald)",
+            "&type_opdracht=in.(wettelijke_controle,vrijwillige_controle,"
+            "controle_onbepaald)",
         ):
             bezet.add((r["organisatie_id"], r["boekjaar"]))
         for r in db.selecteer_alles(
