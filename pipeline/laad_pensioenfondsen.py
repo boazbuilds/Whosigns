@@ -85,6 +85,64 @@ def opdracht_uit_analyse(
     }
 
 
+# Hoeveel organisatie-id's er in één opzoekverzoek passen. Een PostgREST-filter
+# met `in.(...)` staat in de URL, en die heeft een grens; blokken van honderd
+# blijven daar ruim onder en schelen honderden losse verzoeken.
+PER_OPZOEKVERZOEK = 100
+
+
+def gelezen_controles(db, organisatie_ids: list[int]) -> set[tuple[int, int]]:
+    """De (organisatie, boekjaar)-paren waar al een gelezen controle ligt.
+
+    Alleen `wettelijke_controle` en `vrijwillige_controle`: dat zijn de types
+    die uit een gelézen verklaring komen. `controle_onbepaald` telt bewust niet
+    mee — dat is de rij uit het marktonderzoek, die alleen zegt dát er een
+    accountant was. Het jaarverslag kan daar het opdrachttype, het oordeel en
+    de ondertekenaar aan toevoegen, dus zo'n rij is juist een reden om te lezen.
+    """
+    paren: set[tuple[int, int]] = set()
+    for begin in range(0, len(organisatie_ids), PER_OPZOEKVERZOEK):
+        blok = organisatie_ids[begin : begin + PER_OPZOEKVERZOEK]
+        rijen = db.selecteer_alles(
+            "opdrachten",
+            "select=organisatie_id,boekjaar"
+            "&type_opdracht=in.(wettelijke_controle,vrijwillige_controle)"
+            f"&organisatie_id=in.({','.join(str(i) for i in blok)})",
+        )
+        paren.update((rij["organisatie_id"], rij["boekjaar"]) for rij in rijen)
+    return paren
+
+
+def nog_te_lezen(
+    regels: list[dict],
+    org_per_naam: dict[str, list[dict]],
+    al_gelezen: set[tuple[int, int]],
+) -> list[dict]:
+    """De seedregels waarvan het jaarverslag nog gelezen moet worden.
+
+    Het jaarverslag ophalen en lezen kost een halve minuut per regel — met OCR
+    bij een mengvorm een paar minuten — en de seed telt er inmiddels bijna
+    driehonderd. De controle "staat dit boekjaar er al?" stond ná het lezen,
+    dus een herhaling kostte net zoveel als de eerste keer. Dezelfde
+    vergelijking, één stap eerder.
+
+    Niet overslaan bij twijfel: een organisatie die de database niet kent of
+    die er twéé keer in staat gaat door de gewone route, want die maakt hem
+    respectievelijk aan of meldt het conflict. Dat laatste is een melding die
+    iemand moet zien.
+    """
+    uit = []
+    for regel in regels:
+        naam = (regel.get("fonds") or regel.get("naam") or "").strip()
+        kandidaten = org_per_naam.get(normaliseer(naam), [])
+        if len(kandidaten) != 1:
+            uit.append(regel)
+            continue
+        if (kandidaten[0]["id"], int(regel["boekjaar"])) not in al_gelezen:
+            uit.append(regel)
+    return uit
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--droogloop", action="store_true")
@@ -122,8 +180,35 @@ def main() -> int:
         ["fonds", "boekjaar", "kantoor", "oordeel", "tekenend_accountant", "status"]
     )
 
+    te_doen = list(fondsen(argumenten.seed))
+    voor = len(te_doen)
+    vooraf_bekend = 0
+    if db is not None:
+        # Alleen de organisaties die in déze seed voorkomen opzoeken; de
+        # database heeft er achttienduizend en die hoeven hier niet langs.
+        ids = sorted(
+            {
+                kandidaten[0]["id"]
+                for regel in te_doen
+                for kandidaten in [
+                    org_per_naam.get(
+                        normaliseer((regel.get("fonds") or regel.get("naam") or "").strip()),
+                        [],
+                    )
+                ]
+                if len(kandidaten) == 1
+            }
+        )
+        te_doen = nog_te_lezen(te_doen, org_per_naam, gelezen_controles(db, ids))
+        vooraf_bekend = voor - len(te_doen)
+    print(
+        f"{voor} verslagen in de seed, {len(te_doen)} te lezen"
+        + (f" ({vooraf_bekend} al gelezen, niet opgehaald)" if vooraf_bekend else ""),
+        flush=True,
+    )
+
     geschreven = overgeslagen = mislukt = 0
-    for regel in fondsen(argumenten.seed):
+    for regel in te_doen:
         # "fonds" historisch; een seed van een andere sector mag "naam" gebruiken.
         fonds = (regel.get("fonds") or regel.get("naam") or "").strip()
         boekjaar = int(regel["boekjaar"])
@@ -264,7 +349,8 @@ def main() -> int:
     rapport.close()
     print(
         f"\n{geschreven} opdrachten geschreven, {overgeslagen} al bekend, "
-        f"{mislukt} downloads mislukt; rapport: {rapport_pad}",
+        + (f"{vooraf_bekend} vooraf overgeslagen, " if vooraf_bekend else "")
+        + f"{mislukt} downloads mislukt; rapport: {rapport_pad}",
         flush=True,
     )
     return 0
