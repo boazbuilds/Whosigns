@@ -71,6 +71,12 @@ def main() -> int:
     parser.add_argument("--droogloop", action="store_true")
     parser.add_argument("--herlaad", action="store_true")
     parser.add_argument("--bestand", default="")
+    parser.add_argument(
+        "--mag-ontbreken",
+        action="store_true",
+        help="een jaargang die nog niet gepubliceerd is, is geen fout (voor de "
+        "maandelijkse run die kijkt of dVi al klaar staat)",
+    )
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
 
@@ -87,6 +93,20 @@ def main() -> int:
             rijen = aw_dvi.corporaties_uit_bestand(Path(argumenten.bestand), boekjaar)
         else:
             rijen = aw_dvi.corporaties(boekjaar, cache=CACHE)
+    except LookupError as fout:
+        # "Nog niet gepubliceerd" is iets anders dan "stuk". De CKAN-zoekopdracht
+        # slaagde en vond deze jaargang niet; dat is bij een maandelijkse run de
+        # normale uitkomst tot de Autoriteit hem publiceert. Een netwerkfout komt
+        # hier niet langs — die is geen LookupError en valt in de tak hieronder.
+        print(f"{fout}")
+        if argumenten.mag_ontbreken:
+            print(
+                f"dVi{boekjaar} staat nog niet online; niets te doen. "
+                "De volgende maandelijkse run kijkt opnieuw."
+            )
+            return 0
+        print("Tip: download het xlsx met de hand en geef het mee met --bestand.")
+        return 1
     except Exception as fout:  # noqa: BLE001 — bron mag falen, meld het netjes
         print(f"ophalen mislukt: {type(fout).__name__}: {fout}")
         print("Tip: download het xlsx met de hand en geef het mee met --bestand.")
