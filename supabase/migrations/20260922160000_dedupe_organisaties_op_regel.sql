@@ -116,16 +116,31 @@ begin
      or (g.met_nummer = 0 and k.id <> g.oudste);
 
   -- Geval 3: het afgeronde nummer naast het echte.
+  --
+  -- Eerst filteren, dan pas rekenen. `kvk_nummer` is een tekstkolom en niet
+  -- elke waarde is een getal: het zorgarchief levert soms een concerncode
+  -- ("Def_CMH") waar een KvK-nummer hoort, en `::numeric` breekt daarop af.
+  -- De eerste poging deed het filter en de vergelijking in één join, en dan
+  -- mag de planner de volgorde kiezen — hij koos de cast eerst en de hele
+  -- migratie viel om (gemeten 22-9-2026). `as materialized` dwingt af dat de
+  -- selectie van de echte getallen eerst klaar is.
   insert into samen_te_voegen (weg, houd)
+  with nummers as materialized (
+    select id,
+           regexp_replace(lower(naam), '[^a-z0-9]', '', 'g') as sleutel,
+           kvk_nummer,
+           kvk_nummer::numeric as getal
+    from organisaties
+    where kvk_nummer ~ '^[0-9]+$'
+  )
   select afgerond.id, echt.id
-  from organisaties afgerond
-  join organisaties echt
+  from nummers afgerond
+  join nummers echt
     on echt.id <> afgerond.id
-   and regexp_replace(lower(echt.naam), '[^a-z0-9]', '', 'g')
-     = regexp_replace(lower(afgerond.naam), '[^a-z0-9]', '', 'g')
-   and afgerond.kvk_nummer ~ '^[0-9]+0$'
+   and echt.sleutel = afgerond.sleutel
+   and afgerond.kvk_nummer ~ '0$'
    and echt.kvk_nummer !~ '0$'
-   and round(echt.kvk_nummer::numeric / 10) * 10 = afgerond.kvk_nummer::numeric;
+   and round(echt.getal / 10) * 10 = afgerond.getal;
 
   for paar in select * from samen_te_voegen loop
     if not exists (select 1 from organisaties where id = paar.weg)
