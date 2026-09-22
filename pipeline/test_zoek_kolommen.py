@@ -159,8 +159,13 @@ check(
 from digimv_dataset import DATASET_URL  # noqa: E402
 
 check(
-    "de downloadtabel kent de boekjaren 2020 tot en met 2024",
-    set(DATASET_URL) >= {2020, 2021, 2022, 2023, 2024},
+    "de downloadtabel kent de boekjaren 2020 tot en met 2025",
+    set(DATASET_URL) >= {2020, 2021, 2022, 2023, 2024, 2025},
+)
+check(
+    "boekjaar 2025 is de driedelige voorlopige export",
+    len(DATASET_URL[2025]) == 3
+    and all(u.endswith(".ods") for u in DATASET_URL[2025]),
 )
 
 print(f"{goed}/{goed + fout} goed")
