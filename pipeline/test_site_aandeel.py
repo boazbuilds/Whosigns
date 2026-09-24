@@ -113,10 +113,13 @@ check(
 )
 
 # --- de sectorpagina mag het wél zeggen, want daar klopt de noemer --------------
+# Sinds 24-9-2026 zet `procent()` het procentteken (met een Nederlandse
+# komma), dus het "%" staat niet meer letterlijk vóór de woorden. De bewering
+# zelf — het aandeel geldt voor déze sector — is wat telt.
 sector = plat(WEB / "app/sector/[naam]/page.tsx")
 check(
     "de sectorpagina rekent nog steeds binnen één sector af",
-    "% van deze sector" in sector,
+    re.search(r"(%|procent\([^`]*\)\}) van deze sector", sector) is not None,
 )
 
 print(f"{goed}/{goed + fout} goed")

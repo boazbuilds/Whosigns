@@ -312,6 +312,12 @@ export function alleKantoren() {
 
 // ---------------------------------------------------------------- bevindingen
 
+/** De filter van /bevindingen: elk niet-goedkeurend oordeel en elke
+ *  continuïteitsparagraaf. Eén plek, zodat de teller op de voorpagina en de
+ *  lijst op die pagina niet uit elkaar kunnen lopen. */
+export const BEVINDING_FILTER =
+  "or=(oordeel.in.(beperking,oordeelonthouding,afkeurend),continuiteitsonzekerheid.is.true)";
+
 /**
  * Alles waar de accountant iets bijzonders meldde: elk niet-goedkeurend oordeel en
  * elke continuïteitsparagraaf. Nieuwste boekjaar eerst.
@@ -322,8 +328,7 @@ export function alleKantoren() {
  */
 export async function bevindingen(): Promise<Bevinding[]> {
   const pad = (grond: string) =>
-    "opdrachten?or=(oordeel.in.(beperking,oordeelonthouding,afkeurend)," +
-    "continuiteitsonzekerheid.is.true)" +
+    `opdrachten?${BEVINDING_FILTER}` +
     `&select=boekjaar,type_opdracht,oordeel,${grond}continuiteitsonzekerheid,` +
     `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
     "&order=boekjaar.desc,id.asc";
@@ -661,6 +666,28 @@ export async function marktaandeel(sector: string, boekjaar?: number) {
   return rijen.map((r) => ({ ...r, kantoor: kantoorPerId.get(r.kantoor_id) ?? null }));
 }
 
+/** Een rij uit `v_marktaandeel` zonder het percentage: dat rekent elke pagina
+ *  zelf uit over de rijen die ze optelt. */
+export type MarktaandeelRij = Omit<Marktaandeel, "marktaandeel_pct">;
+
+/**
+ * De kale rijen van `v_marktaandeel`: per boekjaar, sector en kantoor het
+ * aantal controles. Zonder `boekjaar` allemaal.
+ *
+ * De sortering is uniek (de view groepeert op precies deze drie kolommen), en
+ * dat is geen versiering: dit zijn twee pagina's van duizend, en zonder vaste
+ * volgorde mag de database de tweede pagina anders ordenen dan de eerste. Dan
+ * valt er stil een rij weg of komt er een dubbel in — dezelfde valkuil als bij
+ * `wisselingen()`.
+ */
+export function marktaandeelRijen(boekjaar?: number): Promise<MarktaandeelRij[]> {
+  const filter = boekjaar ? `&boekjaar=eq.${boekjaar}` : "";
+  return haalAlles<MarktaandeelRij>(
+    `v_marktaandeel?select=boekjaar,sector,kantoor_id,aantal_controles${filter}` +
+      "&order=boekjaar.asc,sector.asc,kantoor_id.asc",
+  );
+}
+
 /** Eén rij van de kantorenranglijst: het kantoor, zijn totaal en per sector. */
 export type Ranglijstrij = {
   kantoor: Kantoor;
@@ -678,10 +705,7 @@ export type Ranglijstrij = {
  * zorginstellingen als goede doelen controleert staat er meerdere keren in.
  */
 export async function kantoorRanglijst(boekjaar?: number): Promise<Ranglijstrij[]> {
-  const filter = boekjaar ? `&boekjaar=eq.${boekjaar}` : "";
-  const rijen = await haalAlles<Marktaandeel>(
-    `v_marktaandeel?select=boekjaar,sector,kantoor_id,aantal_controles${filter}`,
-  );
+  const rijen = await marktaandeelRijen(boekjaar);
 
   const totaal = new Map<number, number>();
   const sectoren = new Map<number, Map<string, number>>();
@@ -963,6 +987,11 @@ export type HonorariumRij = {
   kantoren: Kantoor | null;
 };
 
+/** De filter van /honoraria: minstens één van de vier categorieën ingevuld. */
+export const HONORARIUM_FILTER =
+  "or=(honorarium_controle_eur.not.is.null,honorarium_overig_eur.not.is.null," +
+  "honorarium_fiscaal_eur.not.is.null,honorarium_nietcontrole_eur.not.is.null)";
+
 /**
  * Alle opdrachten met minstens één verantwoord honorarium, hoogste
  * controlehonorarium eerst.
@@ -977,8 +1006,7 @@ export async function opdrachtenMetHonoraria(): Promise<HonorariumRij[]> {
     "opdrachten?select=boekjaar,type_opdracht,honorarium_controle_eur," +
       "honorarium_overig_eur,honorarium_fiscaal_eur,honorarium_nietcontrole_eur," +
       `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
-      "&or=(honorarium_controle_eur.not.is.null,honorarium_overig_eur.not.is.null," +
-      "honorarium_fiscaal_eur.not.is.null,honorarium_nietcontrole_eur.not.is.null)" +
+      `&${HONORARIUM_FILTER}` +
       "&order=honorarium_controle_eur.desc.nullslast,boekjaar.desc",
   );
 }
@@ -1091,5 +1119,145 @@ export async function oordelenVoorafAanWissels(
   }
   return new Map(
     [...uit].map(([sleutel, { voorrang: _v, ...rest }]) => [sleutel, rest]),
+  );
+}
+
+// ---------------------------------------------------------------- voorpagina
+
+/**
+ * Alle wisselingen als kale rijen, zonder namen erbij.
+ *
+ * Voor tellingen over de hele reeks, zoals de transferbalans op de voorpagina:
+ * de namen van ruim zeventienhonderd organisaties opzoeken kost negen
+ * verzoeken voor iets wat daar niet getoond wordt. De sortering is uniek, om
+ * dezelfde reden als bij `marktaandeelRijen`.
+ */
+export function wisselRijen(): Promise<Wisseling[]> {
+  return haalAlles<Wisseling>(
+    "v_wisselingen?select=*" +
+      "&order=boekjaar_wissel.desc,organisatie_id.asc,van_kantoor_id.asc,naar_kantoor_id.asc",
+  );
+}
+
+/**
+ * Een view die er pas is nadat zijn migratie heeft gedraaid.
+ *
+ * Bij een merge gaan website en migratie tegelijk op weg, maar ze komen niet
+ * op dezelfde seconde aan. Bestaat de view nog niet, dan antwoordt PostgREST
+ * met PGRST205 ("not in the schema cache"), en dan blijft dat ene blok op de
+ * voorpagina even weg. Alleen díe fout en alleen voor díe view: elke andere
+ * storing gaat door naar de foutmelding van de pagina. Alleen op de naam
+ * letten is niet genoeg — die staat in het pad, en dus in élke foutmelding
+ * over dit verzoek.
+ */
+async function zolangNieuw<T>(view: string, pad: string): Promise<T[] | null> {
+  try {
+    return await haalAlles<T>(pad);
+  } catch (fout) {
+    if (
+      fout instanceof DatabaseFout &&
+      /PGRST205|42P01/.test(fout.message) &&
+      fout.message.includes(view)
+    ) {
+      return null;
+    }
+    throw fout;
+  }
+}
+
+/** Gelezen oordelen bij jaarrekeningcontroles in één boekjaar; zie de
+ *  migratie 20260924120000 voor wat er wel en niet meetelt. */
+export type OordelenJaar = {
+  boekjaar: number;
+  gelezen: number;
+  goedkeurend: number;
+  beperking: number;
+  /** Beperkingen waarvan vaststaat dat ze over de WNT gaan. */
+  beperking_wnt: number;
+  /** Beperkingen waarvan vaststaat dat ze over de jaarrekening zelf gaan. */
+  beperking_inhoudelijk: number;
+  oordeelonthouding: number;
+  afkeurend: number;
+  continuiteit: number;
+};
+
+/** De oordelen per boekjaar, oudste eerst; null zolang de view er nog niet is. */
+export function oordelenPerJaar(): Promise<OordelenJaar[] | null> {
+  return zolangNieuw<OordelenJaar>(
+    "v_oordelen_per_jaar",
+    "v_oordelen_per_jaar?select=*&order=boekjaar.asc",
+  );
+}
+
+/** Hoe vaak er in één boekjaar werd gewisseld, met de noemer erbij. */
+export type WisselJaar = {
+  boekjaar: number;
+  /** Organisaties met een controle in dit én in het vorige boekjaar. */
+  paren: number;
+  wisselingen: number;
+  paren_na_slecht_nieuws: number;
+  wisselingen_na_slecht_nieuws: number;
+  paren_na_goedkeurend: number;
+  wisselingen_na_goedkeurend: number;
+};
+
+/** De wisselkans per boekjaar, oudste eerst; null zolang de view er nog niet is. */
+export function wisselkansPerJaar(): Promise<WisselJaar[] | null> {
+  return zolangNieuw<WisselJaar>(
+    "v_wisselingen_per_jaar",
+    "v_wisselingen_per_jaar?select=*&order=boekjaar.asc",
+  );
+}
+
+/**
+ * De nieuwste verklaringen met het zwaarste nieuws: afkeurend, een
+ * oordeelonthouding, of een beperking waarvan vaststaat dat hij over de
+ * jaarrekening zelf gaat.
+ *
+ * Bewust niet élke beperking. Vanaf 2023 gaat het merendeel over de WNT (zie
+ * /bevindingen), en bij de meeste is de grond nog niet vastgesteld. Een rijtje
+ * "laatste bevindingen" vol WNT-beperkingen leest een bezoeker als tien
+ * jaarrekeningen die niet deugen. Alleen jaarrekeningcontroles: een verklaring
+ * bij een WNT-opgave gaat per definitie niet over de jaarrekening.
+ */
+export function opvallendeOordelen(limiet: number): Promise<Bevinding[]> {
+  return haal<Bevinding>(
+    "opdrachten?type_opdracht=in.(wettelijke_controle,vrijwillige_controle)" +
+      "&or=(oordeel.in.(afkeurend,oordeelonthouding)," +
+      "and(oordeel.eq.beperking,grond_beperking.eq.inhoudelijk))" +
+      "&select=boekjaar,type_opdracht,oordeel,grond_beperking,continuiteitsonzekerheid," +
+      `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
+      `&order=boekjaar.desc,id.desc&limit=${limiet}`,
+  );
+}
+
+/** De laatst gegunde accountantsopdrachten, nieuwste gunningsdatum eerst.
+ *  Zonder datum doet een gunning hier niet mee: "recent" is dan niet te zeggen. */
+export function recenteGunningen(limiet: number): Promise<Gunning[]> {
+  return haal<Gunning>(
+    `gunningen?gunningsdatum=not.is.null&select=${GUNNING_VELDEN},` +
+      `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
+      `&order=gunningsdatum.desc,id.desc&limit=${limiet}`,
+  );
+}
+
+/** Eén verantwoord controlehonorarium, zonder namen: genoeg om paren te maken. */
+export type Controlehonorarium = {
+  boekjaar: number;
+  organisatie_id: number;
+  kantoor_id: number | null;
+  honorarium_controle_eur: number;
+};
+
+/**
+ * Alle controlehonoraria als kale rijen. De honorariapagina haalt dezelfde
+ * bedragen mét organisatie en kantoor op; voor de prijsontwikkeling per jaar
+ * zijn alleen de nummers nodig, en dat scheelt het grootste deel van het
+ * antwoord.
+ */
+export function controlehonoraria(): Promise<Controlehonorarium[]> {
+  return haalAlles<Controlehonorarium>(
+    "opdrachten?select=boekjaar,organisatie_id,kantoor_id,honorarium_controle_eur" +
+      "&honorarium_controle_eur=not.is.null&order=id.asc",
   );
 }

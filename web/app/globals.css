@@ -36,6 +36,22 @@
   --waarschuwing-vlak: #f7ecd9;
   --waarschuwing-lijn: #ddc49b;
 
+  /* Grafieken (components/grafieken.tsx). Gewone kolommen staan in
+     --inkt-flauw: licht genoeg dat rood ernaast opvalt, donker genoeg voor 3:1
+     tegen het vel. Blauwe inkt komt alleen voor als tegenpool van rood —
+     gewonnen tegenover verloren. Groen kon dat niet: groen tegen rood valt
+     weg voor wie rood-groen kleurenblind is (ΔE 6,1 in de simulatie, tegen
+     20,5 voor dit blauw; nagemeten met de palet-validator). */
+  --blauw: #2a5f9e;
+  /* Eén tint van licht naar donker voor de dekkingskaart: inkt op papier,
+     steeds dichter. Stap 1–3 dragen donkere cijfers, 4–5 lichte; alle vijf
+     halen 4,5:1 voor de tekst erin. */
+  --warm-1: #ebe5d8;
+  --warm-2: #d3c8b2;
+  --warm-3: #ad9f86;
+  --warm-4: #7d705c;
+  --warm-5: #4a4034;
+
   --breedte: 76rem;
 
   /* Letters: zie app/layout.tsx voor waarom deze twee. */
@@ -408,7 +424,10 @@ main {
   margin: 0;
   padding: 0;
   border: none;
-  flex: 0 0 auto;
+  /* Krimpen mag: een lange kop brak anders niet af en duwde op een telefoon
+     de pagina open, net als de verwijzing hieronder deed. */
+  flex: 0 1 auto;
+  min-width: 0;
 }
 .kaartkop::after {
   content: "";
@@ -1205,4 +1224,505 @@ td.rangcel {
 .dagvraag-opties button.dagvraag-fout {
   border-color: var(--rood);
   color: var(--rood);
+}
+
+/* ----------------------------------------------------------- dashboard
+   De voorpagina als dashboard: een raster van tien kerncijfers, grafieken
+   en een dekkingskaart. Zelfde jaarboekvorm als de rest: haarlijnen, geen
+   schaduw, kleur alleen waar hij iets betekent. */
+
+.verborgen {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Tien kerncijfers in twee rijen van vijf: eerst wat er in het register
+   staat, daaronder wat erin gevonden is. */
+.kerncijfers-raster {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.kerncijfers-raster .kerncijfer {
+  min-width: 0;
+  margin-right: 0;
+  padding: 0.6rem 0.9rem 0.5rem;
+  border-right: 1px solid var(--lijn);
+  border-bottom: 1px solid var(--lijn);
+}
+.kerncijfers-raster .kerncijfer:nth-child(5n + 1) {
+  padding-left: 0;
+}
+.kerncijfers-raster .kerncijfer:nth-child(5n) {
+  border-right: none;
+}
+.kerncijfers-raster .kerncijfer:nth-last-child(-n + 5) {
+  border-bottom: none;
+}
+
+/* Twee getallen naast elkaar die met elkaar vergeleken moeten worden. */
+.vergelijking {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 0.9rem;
+  border-top: 1px solid var(--lijn);
+}
+.vergelijking > div {
+  min-width: 0;
+  padding: 0.6rem 1rem 0.1rem 0;
+  border-right: 1px solid var(--lijn);
+}
+.vergelijking > div + div {
+  padding-left: 1rem;
+  padding-right: 0;
+  border-right: none;
+}
+.vergelijking .waarde {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.75rem;
+  line-height: 1;
+}
+.vergelijking .naam {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--inkt-zacht);
+}
+
+/* ------------------------------------------------------------ grafieken */
+
+.grafiek {
+  margin: 0;
+}
+.grafiekvoet {
+  margin: 0.75rem 0 0;
+  font-size: 0.8rem;
+  color: var(--inkt-zacht);
+}
+.grafiekvoet .sleutel {
+  margin-right: 0.35rem;
+}
+
+/* Kleurvakje in een legenda: dezelfde vorm als de balk die het uitlegt. */
+.sleutel {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.55rem;
+  border-radius: 2px;
+  vertical-align: baseline;
+}
+.sleutel-links,
+.sleutel-nadruk {
+  background: var(--rood);
+}
+.sleutel-rechts {
+  background: var(--blauw);
+}
+
+/* Kolommen. De plothoogte komt als --plot uit de component; de ruimte
+   erboven is voor het opschrift boven de hoogste kolom, de ruimte links
+   voor de getallen bij de rasterlijnen. */
+.kolomgrafiek {
+  position: relative;
+  padding: 1.15rem 0 0 2.4rem;
+}
+.raster {
+  position: absolute;
+  top: 1.15rem;
+  left: 2.4rem;
+  right: 0;
+  height: var(--plot);
+  pointer-events: none;
+}
+.rasterlijn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 0;
+  border-top: 1px solid var(--lijn);
+}
+.rasterlijn.nullijn {
+  border-top-color: var(--lijn-sterk);
+}
+.rasterlabel {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  transform: translateY(-50%);
+  padding-right: 0.4rem;
+  font-size: 0.62rem;
+  line-height: 1;
+  color: var(--inkt-flauw);
+  white-space: nowrap;
+}
+/* Niet ".kolommen": die naam is al het raster van kaarten naast elkaar. */
+.kolomreeks {
+  position: relative;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.kolom {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+}
+.kolom:hover,
+.kolom:focus-visible {
+  z-index: 3;
+}
+.kolomvlak {
+  position: relative;
+  width: 100%;
+  height: var(--plot);
+}
+/* De hele kolombreedte reageert, niet alleen de balk: wie op een dun
+   staafje moet mikken, mist het. */
+.kolom:hover .kolomvlak,
+.kolom:focus-visible .kolomvlak {
+  background: rgba(25, 21, 16, 0.045);
+}
+.kolom:focus-visible .kolomvlak {
+  outline: 2px solid var(--rood);
+  outline-offset: -2px;
+}
+/* Hooguit 24px breed, met een afgeronde bovenkant en een rechte voet op de
+   nullijn. */
+.kolombalk {
+  position: absolute;
+  left: 50%;
+  width: min(24px, 62%);
+  transform: translateX(-50%);
+  background: var(--inkt-flauw);
+  border-radius: 4px 4px 0 0;
+}
+.kolombalk.negatief {
+  border-radius: 0 0 4px 4px;
+}
+.kolom.nadruk .kolombalk {
+  background: var(--rood);
+}
+.kolom:hover .kolombalk,
+.kolom:focus-visible .kolombalk {
+  filter: brightness(1.15);
+}
+.opschrift {
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--boven) + 0.2rem);
+  transform: translateX(-50%);
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--inkt);
+  white-space: nowrap;
+}
+.kolomlabel {
+  margin-top: 0.3rem;
+  font-size: 0.62rem;
+  line-height: 1;
+  color: var(--inkt-flauw);
+  white-space: nowrap;
+}
+
+/* De tooltip: een donker kaartje, zoals de rubriekenbalk, met de waarde
+   voorop en daaronder waar hij op rust. */
+.tip {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  bottom: calc(var(--boven, 100%) + 0.45rem);
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: min(15rem, 70vw);
+  padding: 0.35rem 0.55rem;
+  background: var(--inkt);
+  color: var(--papier);
+  font-size: 0.72rem;
+  line-height: 1.35;
+  text-align: left;
+  pointer-events: none;
+  /* display en niet visibility: een verborgen tooltip die aan de rand van
+     het scherm uitsteekt, telt anders mee in de paginabreedte en gaf op een
+     telefoon een horizontale schuifbalk. */
+  display: none;
+}
+.tip strong {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.tip span {
+  display: block;
+  color: rgba(242, 238, 228, 0.78);
+}
+.tip-links .tip {
+  left: 0;
+  transform: none;
+}
+.tip-rechts .tip {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+.kolom:hover .tip,
+.kolom:focus-visible .tip,
+.balanskant:hover .tip,
+.balanskant:focus-visible .tip {
+  display: block;
+}
+
+/* Balans: links wat er afging, rechts wat erbij kwam, rond één as. */
+.balansraster {
+  display: grid;
+  grid-template-columns: minmax(0, 11.5rem) minmax(0, 1fr) minmax(0, 1fr) 2.8rem;
+  align-items: center;
+}
+.legenda-balans {
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--inkt);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--inkt-flauw);
+}
+.legenda-balans > span {
+  white-space: nowrap;
+}
+.legenda-balans > :nth-child(2) {
+  justify-self: end;
+  padding-right: 0.45rem;
+}
+.legenda-balans > :nth-child(3) {
+  padding-left: 0.45rem;
+}
+.legenda-balans > :nth-child(4) {
+  justify-self: end;
+}
+.balans {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.balansrij {
+  min-height: 1.95rem;
+  border-bottom: 1px solid var(--lijn);
+}
+.balansrij:last-child {
+  border-bottom: none;
+}
+.balansnaam {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 0.6rem;
+  font-size: 0.86rem;
+}
+.balanskant {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  outline: none;
+}
+.balanskant:hover,
+.balanskant:focus-visible {
+  z-index: 3;
+  background: rgba(25, 21, 16, 0.045);
+}
+.balanskant:focus-visible {
+  outline: 2px solid var(--rood);
+  outline-offset: -2px;
+}
+.balans-links {
+  justify-content: flex-end;
+  padding-right: 2px;
+}
+.balans-rechts {
+  padding-left: 2px;
+  border-left: 1px solid var(--lijn-sterk);
+}
+.balansbalk {
+  display: block;
+  height: 14px;
+}
+.balans-links .balansbalk {
+  background: var(--rood);
+  border-radius: 4px 0 0 4px;
+}
+.balans-rechts .balansbalk {
+  background: var(--blauw);
+  border-radius: 0 4px 4px 0;
+}
+.balanskant:hover .balansbalk,
+.balanskant:focus-visible .balansbalk {
+  filter: brightness(1.15);
+}
+.balans-links .tip {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+.balans-rechts .tip {
+  left: 0;
+  transform: none;
+}
+.balanssaldo {
+  text-align: right;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+/* Dekkingskaart: een tabel met een tint per cel en 2px papier ertussen. */
+.warmtekaart {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2px;
+  font-size: 0.7rem;
+}
+.warmtekaart th,
+.warmtekaart td {
+  border-bottom: none;
+  padding: 0.3rem 0.3rem;
+}
+.warmtekaart thead th {
+  text-align: right;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+}
+.warmtekaart thead th:first-child {
+  text-align: left;
+}
+.warmtekaart abbr {
+  text-decoration: none;
+}
+.warmtekaart th[scope="row"] {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  padding-right: 0.7rem;
+  background: var(--vel);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--inkt);
+  white-space: nowrap;
+}
+.warmtekaart td {
+  min-width: 2.1rem;
+  text-align: right;
+}
+.warmtekaart tbody tr:hover {
+  background: transparent;
+}
+.warmtekaart td.warm:hover {
+  outline: 2px solid var(--rood);
+  outline-offset: -2px;
+}
+.warmtekaart tfoot th,
+.warmtekaart tfoot td {
+  padding-top: 0.45rem;
+  font-weight: 600;
+  color: var(--inkt-zacht);
+}
+.warmtekaart tfoot th {
+  font-weight: 600;
+}
+.warm-1 {
+  background: var(--warm-1);
+  color: var(--inkt);
+}
+.warm-2 {
+  background: var(--warm-2);
+  color: var(--inkt);
+}
+.warm-3 {
+  background: var(--warm-3);
+  color: var(--inkt);
+}
+.warm-4 {
+  background: var(--warm-4);
+  color: var(--vel);
+}
+.warm-5 {
+  background: var(--warm-5);
+  color: var(--vel);
+}
+.schaal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.8rem;
+  margin-top: 0.6rem;
+  font-size: 0.72rem;
+  color: var(--inkt-zacht);
+}
+.schaaltitel {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--inkt-flauw);
+}
+.schaalstap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+/* Het lichtste vakje verdwijnt anders in het papier. */
+.schaalstap i {
+  display: inline-block;
+  width: 1.1rem;
+  height: 0.7rem;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(25, 21, 16, 0.08);
+}
+
+@media (max-width: 52rem) {
+  .kerncijfers-raster {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .kerncijfers-raster .kerncijfer:nth-child(n) {
+    padding-left: 0.9rem;
+    border-right: 1px solid var(--lijn);
+    border-bottom: 1px solid var(--lijn);
+  }
+  .kerncijfers-raster .kerncijfer:nth-child(2n + 1) {
+    padding-left: 0;
+  }
+  .kerncijfers-raster .kerncijfer:nth-child(2n) {
+    border-right: none;
+  }
+  .kerncijfers-raster .kerncijfer:nth-last-child(-n + 2) {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 40rem) {
+  .kolomgrafiek.dicht .kolom:nth-child(even) .kolomlabel {
+    visibility: hidden;
+  }
+  .balansraster {
+    grid-template-columns: minmax(0, 6.5rem) minmax(0, 1fr) minmax(0, 1fr) 2.4rem;
+  }
+  .legenda-balans {
+    letter-spacing: 0.03em;
+  }
+  /* Geen ruimte voor het woord boven de smalle saldokolom; de getallen met
+     hun plus en min zeggen het zelf. */
+  .legenda-balans > :nth-child(4) {
+    visibility: hidden;
+  }
 }

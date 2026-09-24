@@ -25,6 +25,7 @@ import {
   kantoorPad,
   nl,
   organisatiePad,
+  procent,
   sectorPad,
   sleutelUitSlug,
   slug as slugVan,
@@ -440,7 +441,7 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
           {eigenRij && marktTotaal > 0 ? (
             <p className="klein zacht" style={{ marginBottom: 0 }}>
               Samen {aantalControles(eigenRij.aantal_controles)} over alle boekjaren
-              — {((eigenRij.aantal_controles / marktTotaal) * 100).toFixed(1)}% van
+              — {procent((eigenRij.aantal_controles / marktTotaal) * 100)} van
               alles wat in deze database staat.
             </p>
           ) : null}

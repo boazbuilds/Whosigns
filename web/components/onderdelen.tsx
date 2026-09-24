@@ -7,6 +7,7 @@ import {
   OORDEEL_LABEL,
   oordeelOpvallend,
   OPDRACHT_LABEL,
+  procent,
   SOORT_UITLEG,
   SOORTGROEP,
 } from "@/lib/paden";
@@ -170,10 +171,10 @@ export function Aandeelbalk({ deel, geheel }: { deel: number; geheel: number }) 
   const pct = geheel > 0 ? (deel / geheel) * 100 : 0;
   return (
     <span className="balkregel">
-      <span className="balk" role="img" aria-label={`${pct.toFixed(1)} procent`}>
+      <span className="balk" role="img" aria-label={procent(pct)}>
         <span style={{ width: `${Math.max(pct, 1.5)}%` }} />
       </span>
-      <span className="pct">{pct.toFixed(1)}%</span>
+      <span className="pct">{procent(pct)}</span>
     </span>
   );
 }

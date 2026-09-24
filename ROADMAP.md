@@ -1,6 +1,6 @@
 # WhoSigns — Roadmap
 
-*Bijgewerkt: 22 september 2026. Leidraad: `docs/visie.md` (zes velden, relatiegraaf, klik-test).
+*Bijgewerkt: 24 september 2026. Leidraad: `docs/visie.md` (zes velden, relatiegraaf, klik-test).
 Volledige achtergrond: `docs/concept.md`. Onderbouwing 🆕-items: `docs/brainstorm-2026-07.md`.
 Open keuzes: `docs/beslissingen.md`.*
 
@@ -12,8 +12,12 @@ marktonderzoek). Uit fase 4 zijn honoraria (boekjaren 2020-2025), de
 onderwijssector, de tekenend accountant (ruim 1.100 namen, eigen pagina per
 accountant) en het opinion-shopping-signaal gebouwd; AI-extractie bleek niet
 nodig (patroongebaseerd werkt) en de nieuwsbrief en fase 5 (omzet) staan nog
-open. De fasedetails hieronder zijn het oorspronkelijke bouwplan en blijven
-staan als verantwoording van de route.
+open. Sinds 24-9 is de voorpagina een dashboard: wisselkans per boekjaar (met
+de OOB-roulatiepiek van 2016), transferbalans per kantoor, de grootste per
+sector, de dekking per sector en boekjaar, het aandeel niet-goedkeurende
+oordelen en de prijsontwikkeling van de controle op gematchte paren. De
+fasedetails hieronder zijn het oorspronkelijke bouwplan en blijven staan als
+verantwoording van de route.
 
 **Wat er vanzelf bijkomt.** Drie routes wachten niet meer op een knop: het
 AFM-vergunningenregister ververst wekelijks, de beursfondsen lezen maandelijks
