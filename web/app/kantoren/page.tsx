@@ -12,6 +12,7 @@ import {
   hoofdletter,
   kantoorPad,
   nl,
+  procent,
   sectorPad,
 } from "@/lib/paden";
 import {
@@ -166,7 +167,7 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
                 plek={i + 1}
                 naar={kantoorPad(rij.kantoor)}
                 naam={rij.kantoor.naam}
-                onder={`${((rij.aantal_controles / totaalControles) * 100).toFixed(1)}% van ${nl(totaalControles)} controles`}
+                onder={`${procent((rij.aantal_controles / totaalControles) * 100)} van ${nl(totaalControles)} controles`}
                 groot={String(rij.aantal_controles)}
               />
             ))}

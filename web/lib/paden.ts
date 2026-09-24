@@ -177,6 +177,18 @@ export function nl(n: number): string {
 }
 
 /**
+ * Een percentage in Nederlandse notatie: "18,3%". Tot september 2026 stond er
+ * op de meeste pagina's "18.3%" — een Engelse punt midden in een Nederlandse
+ * zin, terwijl de honorariapagina er al een komma zette.
+ */
+export function procent(waarde: number, decimalen = 1): string {
+  return `${waarde.toLocaleString("nl-NL", {
+    minimumFractionDigits: decimalen,
+    maximumFractionDigits: decimalen,
+  })}%`;
+}
+
+/**
  * Een bedrag in hele euro's, Nederlands genoteerd. `null` blijft null, zodat de
  * pagina zelf beslist wat "niet opgegeven" eruitziet — een honorarium van nul is
  * iets anders dan een honorarium dat niet is verantwoord, en €0 tonen waar de

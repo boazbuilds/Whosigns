@@ -387,7 +387,10 @@ export function prijsontwikkelingPerKantoor(
   minimumParen = 3,
 ): Prijsontwikkeling[] {
   // (organisatie, kantoor) -> boekjaar -> bedrag. Bij een dubbele rij voor
-  // hetzelfde jaar wint de eerste; de bron levert er zelden meer dan één.
+  // hetzelfde jaar wint het hoogste bedrag; de bron levert er zelden meer dan
+  // één. Uitdrukkelijk het hoogste en niet "de eerste": dan hangt de uitkomst
+  // niet af van de volgorde waarin de rijen binnenkomen, en rekent de
+  // voorpagina (prijsontwikkelingPerJaar) met precies dezelfde paren.
   const reeksen = new Map<
     string,
     {
@@ -400,7 +403,7 @@ export function prijsontwikkelingPerKantoor(
     if (bedrag == null || !rij.kantoren || !rij.organisaties) continue;
     const sleutel = `${rij.organisaties.id}-${rij.kantoren.id}`;
     const reeks = reeksen.get(sleutel) ?? { kantoor: rij.kantoren, perJaar: new Map() };
-    if (!reeks.perJaar.has(rij.boekjaar)) reeks.perJaar.set(rij.boekjaar, bedrag);
+    bewaarHoogste(reeks.perJaar, rij.boekjaar, bedrag);
     reeksen.set(sleutel, reeks);
   }
 
@@ -445,4 +448,74 @@ export function prijsontwikkelingPerKantoor(
       (a, b) =>
         b.mediaanVerandering - a.mediaanVerandering || a.naam.localeCompare(b.naam, "nl"),
     );
+}
+
+/** Zet `bedrag` bij `jaar`, tenzij daar al een hoger bedrag staat. */
+function bewaarHoogste(perJaar: Map<number, number>, jaar: number, bedrag: number) {
+  const bestaand = perJaar.get(jaar);
+  if (bestaand === undefined || bedrag > bestaand) perJaar.set(jaar, bedrag);
+}
+
+/** De prijsontwikkeling van één boekjaar op het vorige, over alle kantoren samen. */
+export type PrijsJaar = {
+  /** Het tweede jaar van elk paar: 2022 staat voor 2021 → 2022. */
+  boekjaar: number;
+  paren: number;
+  /** Mediane jaar-op-jaar-verandering als fractie (0.062 = +6,2%). */
+  mediaanVerandering: number;
+};
+
+/**
+ * Hoeveel duurder een controle werd, per boekjaar: de mediane verandering van
+ * het controlehonorarium op gematchte paren — dezelfde organisatie bij
+ * hetzelfde kantoor in twee opeenvolgende boekjaren. Dezelfde paren als
+ * `prijsontwikkelingPerKantoor`, alleen per jaar gegroepeerd in plaats van per
+ * kantoor.
+ *
+ * Het gemiddelde honorarium per jaar zou vooral meten wélke organisaties dat
+ * jaar in de database staan: voor 2020 en 2021 honderden zorginstellingen, in
+ * de jaren erna enkele tientallen organisaties uit andere bronnen. Binnen een
+ * paar staat de organisatie vast, dus meet de verandering de prijs. Jaren met
+ * minder dan `minimumParen` paren vallen weg: een mediaan van een handvol is
+ * een anekdote.
+ */
+export function prijsontwikkelingPerJaar(
+  rijen: {
+    boekjaar: number;
+    organisatie_id: number;
+    kantoor_id: number | null;
+    honorarium_controle_eur: number | null;
+  }[],
+  minimumParen = 20,
+): PrijsJaar[] {
+  const reeksen = new Map<string, Map<number, number>>();
+  for (const rij of rijen) {
+    const bedrag = rij.honorarium_controle_eur;
+    if (bedrag == null || rij.kantoor_id == null) continue;
+    const sleutel = `${rij.organisatie_id}-${rij.kantoor_id}`;
+    const perJaar = reeksen.get(sleutel) ?? new Map<number, number>();
+    bewaarHoogste(perJaar, rij.boekjaar, bedrag);
+    reeksen.set(sleutel, perJaar);
+  }
+
+  const veranderingen = new Map<number, number[]>();
+  for (const reeks of reeksen.values()) {
+    for (const [jaar, bedrag] of reeks) {
+      const vorig = reeks.get(jaar - 1);
+      if (vorig === undefined || vorig <= 0) continue;
+      veranderingen.set(jaar, [...(veranderingen.get(jaar) ?? []), (bedrag - vorig) / vorig]);
+    }
+  }
+
+  return [...veranderingen.entries()]
+    .filter(([, lijst]) => lijst.length >= minimumParen)
+    .map(([boekjaar, lijst]) => {
+      const gesorteerd = [...lijst].sort((a, b) => a - b);
+      return {
+        boekjaar,
+        paren: gesorteerd.length,
+        mediaanVerandering: gesorteerd[Math.floor(gesorteerd.length / 2)],
+      };
+    })
+    .sort((a, b) => a.boekjaar - b.boekjaar);
 }

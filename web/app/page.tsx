@@ -1,18 +1,38 @@
 import Link from "next/link";
 import {
+  BEVINDING_FILTER,
   boekjarenMetControles,
+  controlehonoraria,
   dagvraag,
   dagzaad,
+  HONORARIUM_FILTER,
   kantoorRanglijst,
+  marktaandeelRijen,
   nieuwsteBoekjaar,
+  oordelenPerJaar,
   oordelenVoorafAanWissels,
+  opvallendeOordelen,
   oudsteBoekjaar,
+  recenteGunningen,
   sectoren,
   tel,
   wisselingen,
+  wisselkansPerJaar,
+  wisselRijen,
 } from "@/lib/db";
-import { saldoPerKantoor } from "@/lib/analyse";
+import { prijsontwikkelingPerJaar, saldoPerKantoor } from "@/lib/analyse";
+import { dekkingPerSector, sectorleiders, transferbalans } from "@/lib/voorpagina";
 import { DagvraagKaart } from "@/components/dagvraag";
+import {
+  Dekkingskaart,
+  OordelenPerJaar,
+  OpvallendeOordelen,
+  Prijsontwikkeling,
+  RecentGegund,
+  Sectorleiders,
+  Transfermarkt,
+  Wisselkans,
+} from "@/components/dashboard";
 import {
   aantalControles,
   aantalOpdrachten,
@@ -21,6 +41,7 @@ import {
   kantoorPad,
   nl,
   organisatiePad,
+  procent,
   SECTOR_UITLEG,
   sectorPad,
 } from "@/lib/paden";
@@ -42,6 +63,24 @@ import {
  * zien wie de markt maakt; de rest staat op /kantoren.
  */
 const KANTOREN_OP_VOORPAGINA = 10;
+
+/** Zoveel regels hebben de lijstjes "zwaarste oordelen" en "recent gegund". */
+const LIJSTJE = 8;
+
+/**
+ * Een los dashboardblok ophalen. Lukt dat niet, dan verdwijnt alleen dat blok —
+ * zonder iets te beweren, ook niet dat er niets is — en de fout gaat naar het
+ * log. De kern van de pagina (kerncijfers, ranglijst, sectoren) faalt wél hard:
+ * daar is een foutmelding eerlijker dan een halve pagina. Maar een voorpagina
+ * met tien blokken hoort niet om te vallen omdat de aanbestedingen even niet
+ * laden.
+ */
+function los<T>(belofte: Promise<T>): Promise<T | null> {
+  return belofte.catch((fout) => {
+    console.error("[voorpagina] blok overgeslagen:", fout);
+    return null;
+  });
+}
 
 export default async function Startpagina() {
   let inhoud;
@@ -68,6 +107,18 @@ export default async function Startpagina() {
       vroegste,
       laatste,
       vraag,
+      gelezenTotaal,
+      bevindingTotaal,
+      wisselTotaal,
+      tekenaarTotaal,
+      honorariumTotaal,
+      marktRijen,
+      alleWissels,
+      oordelen,
+      wisselkans,
+      honoraria,
+      opvallend,
+      gegund,
     ] = await Promise.all([
       // Tellen in de database, niet de rijen ophalen en die tellen: dat laatste
       // gaf "200 organisaties" omdat de lijst op 200 was afgekapt.
@@ -86,6 +137,22 @@ export default async function Startpagina() {
       nieuwsteBoekjaar(),
       // De dagvraag mag nooit de voorpagina breken: zonder vraag geen kaart.
       dagvraag(vandaag).catch(() => null),
+      // Wat er ín het register gevonden is, geteld in de database met dezelfde
+      // filters als de pagina's waar de cijfers naartoe linken.
+      tel("opdrachten", "oordeel=not.is.null"),
+      tel("opdrachten", BEVINDING_FILTER),
+      tel("v_wisselingen"),
+      tel("v_accountant"),
+      tel("opdrachten", HONORARIUM_FILTER),
+      // De dashboardblokken. marktaandeelRijen() vraagt dezelfde adressen op
+      // als kantoorRanglijst() hierboven; Next deelt die verzoeken.
+      los(marktaandeelRijen()),
+      los(wisselRijen()),
+      los(oordelenPerJaar()),
+      los(wisselkansPerJaar()),
+      los(controlehonoraria()),
+      los(opvallendeOordelen(LIJSTJE)),
+      los(recenteGunningen(LIJSTJE)),
     ]);
     // Opinion-shopping-label bij de laatste transfers: het oordeel uit het
     // boekjaar vóór de wisseling, zelfde markering als op /wisselingen.
@@ -155,6 +222,15 @@ export default async function Startpagina() {
       );
     }
 
+    // Alle kantoren met controles staan al in de eeuwige ranglijst; daaruit
+    // komen de namen voor de transferbalans en de sectorleiders, zonder extra
+    // verzoek.
+    const kantoorPerId = new Map(ranglijstAlles.map((rij) => [rij.kantoor.id, rij.kantoor]));
+    const dekking = marktRijen?.length ? dekkingPerSector(marktRijen) : null;
+    const leiders = marktRijen ? sectorleiders(marktRijen) : [];
+    const balans = alleWissels ? transferbalans(alleWissels, kantoorPerId) : null;
+    const prijzen = honoraria ? prijsontwikkelingPerJaar(honoraria) : [];
+
     inhoud = (
       <>
         <div className="paginakop">
@@ -164,7 +240,7 @@ export default async function Startpagina() {
             kantoor tekent bij welke organisatie, in welk boekjaar, en wanneer er
             werd gewisseld. Alles uit openbare bronnen, met de vindplaats erbij.
           </p>
-          <div className="kerncijfers">
+          <div className="kerncijfers kerncijfers-raster">
             <Kerncijfer waarde={nl(organisatieTotaal)} naam="organisaties" />
             <Kerncijfer waarde={nl(opdrachtTotaal)} naam="opdrachten" />
             <Kerncijfer
@@ -185,6 +261,27 @@ export default async function Startpagina() {
               }
               naam="boekjaren"
             />
+            <Kerncijfer waarde={nl(gelezenTotaal)} naam="verklaringen gelezen" />
+            <Kerncijfer
+              waarde={nl(bevindingTotaal)}
+              naam="bevindingen"
+              naar="/bevindingen"
+            />
+            <Kerncijfer
+              waarde={nl(wisselTotaal)}
+              naam="wisselingen"
+              naar="/wisselingen"
+            />
+            <Kerncijfer
+              waarde={nl(tekenaarTotaal)}
+              naam="tekenende accountants"
+              naar="/accountants"
+            />
+            <Kerncijfer
+              waarde={nl(honorariumTotaal)}
+              naam="honoraria"
+              naar="/honoraria"
+            />
           </div>
         </div>
 
@@ -201,7 +298,7 @@ export default async function Startpagina() {
                   plek={i + 1}
                   naar={kantoorPad(rij.kantoor)}
                   naam={rij.kantoor.naam}
-                  onder={`${((rij.aantal_controles / totaalDitJaar) * 100).toFixed(1)}% van ${nl(totaalDitJaar)} controles`}
+                  onder={`${procent((rij.aantal_controles / totaalDitJaar) * 100)} van ${nl(totaalDitJaar)} controles`}
                   groot={String(rij.aantal_controles)}
                 />
               ))}
@@ -332,6 +429,31 @@ export default async function Startpagina() {
           </div>
         </div>
 
+        {wisselkans?.length || balans?.rijen.length ? (
+          <div className="kolommen">
+            {wisselkans?.length ? <Wisselkans jaren={wisselkans} /> : null}
+            {balans ? <Transfermarkt balans={balans} kantoorPerId={kantoorPerId} /> : null}
+          </div>
+        ) : null}
+
+        <Sectorleiders leiders={leiders} kantoorPerId={kantoorPerId} />
+
+        {dekking ? <Dekkingskaart dekking={dekking} /> : null}
+
+        {oordelen?.length || prijzen.length ? (
+          <div className="kolommen">
+            {oordelen?.length ? <OordelenPerJaar jaren={oordelen} /> : null}
+            <Prijsontwikkeling jaren={prijzen} />
+          </div>
+        ) : null}
+
+        {opvallend?.length || gegund?.length ? (
+          <div className="kolommen">
+            {opvallend ? <OpvallendeOordelen rijen={opvallend} /> : null}
+            {gegund ? <RecentGegund rijen={gegund} /> : null}
+          </div>
+        ) : null}
+
         <section className="kaart">
           <div className="kaartkop">
             <h2>Kies een sector</h2>
@@ -368,6 +490,17 @@ export default async function Startpagina() {
             {
               naar: "/bevindingen",
               tekst: "Waar was het oordeel niet goedkeurend?",
+              toelichting: `${nl(bevindingTotaal)} bevindingen`,
+            },
+            {
+              naar: "/accountants",
+              tekst: "Wie zet de handtekening?",
+              toelichting: `${nl(tekenaarTotaal)} tekenende accountants`,
+            },
+            {
+              naar: "/honoraria",
+              tekst: "Wat betaalt de organisatie de accountant?",
+              toelichting: `${nl(honorariumTotaal)} honoraria`,
             },
             ...sectorlijst.map((s) => ({
               naar: sectorPad(s.naam),

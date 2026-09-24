@@ -10,6 +10,7 @@ import {
   hoofdletter,
   kantoorPad,
   organisatiePad,
+  procent,
   SECTOR_UITLEG,
   sectorPad,
   slug,
@@ -175,7 +176,7 @@ export default async function Sectorpagina({ params }: Params) {
                 plek={i + 1}
                 naar={kantoorPad({ afm_nummer: rij.afm, naam: rij.naam, id })}
                 naam={rij.naam}
-                onder={`${((rij.totaal / totaalControles) * 100).toFixed(1)}% van deze sector`}
+                onder={`${procent((rij.totaal / totaalControles) * 100)} van deze sector`}
                 groot={String(rij.totaal)}
               />
             ))}
