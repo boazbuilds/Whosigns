@@ -12,7 +12,6 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000046,Vigilate Accountants B.V.,Besloten Vennootschap,Capelle aan den IJssel,nee,2008-09-29,www.vigilate.nl,Verleend
 13000053,Driebergen Accountants,Maatschap,Rijnsburg,nee,2008-09-29,https://www.driebergenaccountants.nl,Verleend
 13000054,Bol Accountants B.V.,Besloten Vennootschap,Boxmeer,nee,2008-09-29,https://www.boladviseurs.nl/,Verleend
-13000055,Maatschap Steens & Partners Accountants en Adviseurs,Maatschap,Rotterdam,nee,2008-09-29,https://www.steensenpartners.nl,Verleend
 13000063,Maatschap Adbeco Accountants,Maatschap,Emmen,nee,2008-09-29,https://www.adbeco.com,Verleend
 13000073,FACET Audit B.V.,Besloten Vennootschap,Capelle aan den IJssel,nee,2008-09-29,,Verleend
 13000084,Vermetten Audit B.V.,Besloten Vennootschap,Tilburg,nee,2008-09-29,https://www.vermetten.nl,Verleend
@@ -95,7 +94,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000471,Schuiteman Audit & Assurance B.V.,Besloten Vennootschap,Ede,nee,2008-09-29,www.schuiteman.com,Verleend
 13000474,Van Luxemborg en de Kok B.V.,Besloten Vennootschap,Tilburg,nee,2008-09-29,https://www.luxemborg.nl,Verleend
 13000479,HLB Nannen Accountants & Belastingadviseurs,Maatschap,Emmen,nee,2008-09-29,https://www.hlb-nannen.nl,Verleend
-13000483,Countus Accountants + Adviseurs B.V.,Besloten Vennootschap,Zwolle,nee,2008-09-29,https://www.countus.nl,Verleend
+13000483,Countus Audit B.V.,Besloten Vennootschap,Zwolle,nee,2008-09-29,https://www.countus.nl,Verleend
 13000490,Kreston Van Herwijnen Accountants B.V.,Besloten Vennootschap,Tiel,nee,2008-09-29,,Verleend
 13000491,Visser & Visser Audit en Assurance B.V.,Besloten Vennootschap,Dordrecht,nee,2008-09-29,https://www.visser-visser.nl,Verleend
 13000492,Bentacera Registeraccountants B.V.,Besloten Vennootschap,Drachten,nee,2008-09-29,,Verleend
@@ -175,7 +174,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020100,Keystone Audit B.V.,Besloten Vennootschap,Druten,nee,2018-08-14,http://www.keystoneaccountants.nl,Verleend
 13020102,Berkenrode Audit B.V.,Besloten Vennootschap,Haarlem,nee,2018-10-04,,Verleend
 13020108,Signature Audit + Advisory B.V.,Besloten Vennootschap,Spijkenisse,nee,2019-04-16,,Verleend
-13020109,Beuk Audit B.V.,Besloten Vennootschap,Velsen-Zuid,nee,2018-12-20,,Verleend
+13020109,Beuk Audit & Assurance B.V.,Besloten Vennootschap,Velsen-Zuid,nee,2018-12-20,,Verleend
 13020112,TIC Assurance B.V.,Besloten Vennootschap,Zwolle,nee,2019-07-23,https://www.tic-assurance.nl,Verleend
 13020115,The Audit Generation B.V.,Besloten Vennootschap,Bunnik,nee,2019-07-16,https://www.theauditgeneration.nl,Verleend
 13020116,Moore DRV Audit B.V.,Besloten Vennootschap,Rotterdam,nee,2019-09-10,,Verleend
@@ -232,3 +231,4 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020228,CROP accountants & adviseurs B.V.,Besloten Vennootschap,Amersfoort,nee,2026-05-19,,Verleend
 13020230,RAAD (Inter-)national Audit B.V.,Besloten Vennootschap,Ridderkerk,nee,2026-08-06,,Verleend
 13020231,SRL Audit & Assurance B.V.,Besloten Vennootschap,Middelharnis,nee,2026-07-23,,Verleend
+13020234,Steens & Partners Accountants en Adviseurs B.V.,Besloten Vennootschap,Rotterdam,nee,2026-09-22,,Verleend
