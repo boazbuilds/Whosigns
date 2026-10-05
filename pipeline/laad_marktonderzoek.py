@@ -293,8 +293,11 @@ def main() -> int:
     al_in_review: set[tuple] = set()
     review_rijen: list[dict] = []
     if db is not None:
+        # Zonder limit=1: selecteer_alles pagineert zelf en weigert een eigen
+        # limit (PostgREST nam stil de laatste, dus dit gaf er altijd al alle).
+        # De laagste id staat vooraan door de vaste volgorde.
         bestaande_bron = db.selecteer_alles(
-            "bronnen", "select=id&bron_type=eq.marktonderzoek&limit=1"
+            "bronnen", "select=id&bron_type=eq.marktonderzoek"
         )
         if bestaande_bron:
             bron_id = bestaande_bron[0]["id"]

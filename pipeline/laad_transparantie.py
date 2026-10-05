@@ -95,7 +95,13 @@ def main() -> int:
         try:
             transparantie.haal_verslag(verslag["url"], pdf_pad)
         except Exception as fout:  # noqa: BLE001 — bron mag falen, volgende verslag
-            print(f"{naam_kort} {verslag['verslagperiode']}: download mislukt: {fout}")
+            # Een annotatie en geen rode run. Rood zou eerlijker lijken, maar alle
+            # elf PwC-adressen in de seed gaven bij een meting op 5-10-2026 (buiten
+            # Actions) een 403 van Akamai, ook met een browser-User-Agent, terwijl
+            # hun cliënten al in de database staan. Blokkeert Akamai ook de
+            # runners, dan is élke run rood en kijkt niemand meer. Zo staat het wel
+            # bovenaan de run-pagina in plaats van halverwege het log.
+            print(f"::warning::{naam_kort} {verslag['verslagperiode']}: download mislukt: {fout}")
             continue
 
         # tekst_uit_verslag en niet pdf_naar_tekst: bij PwC 2017/2018 t/m

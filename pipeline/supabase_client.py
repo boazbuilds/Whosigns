@@ -174,7 +174,20 @@ class Supabase:
         Er stond ook een `telling()` die `select=id` ophaalde en de rijen télde;
         die gaf 1000 terug bij 5081 opdrachten. Wie een aantal wil, vraagt
         PostgREST om `Prefer: count=exact` — zoals `tel()` in web/lib/db.ts doet.
+
+        Een eigen `limit=` of `offset=` in de query mag niet. Deze methode plakt die
+        er zelf achter, en PostgREST neemt dan stil de láátste: gemeten op 5-10-2026
+        gaf 'bronnen?select=id&limit=1&…&limit=1000&offset=0' duizend rijen terug,
+        en 'offset=5&…&offset=0' begon gewoon bij de eerste rij. Wie één rij wil en
+        er duizend krijgt, of een eigen offset meegeeft die stil wegvalt, merkt
+        daar niets van.
         """
+        if any(
+            deel.startswith(("limit=", "offset=")) for deel in query.split("&")
+        ):
+            raise SupabaseFout(
+                f"selecteer_alles pagineert zelf; haal limit/offset uit de query ({query})"
+            )
         # Vaste volgorde, anders is de paginering een gok: zonder ORDER BY mag
         # Postgres elke pagina anders sorteren, en dan kan een rij stil dubbel
         # of juist helemaal niet binnenkomen. Elke tabel hier heeft een id.
