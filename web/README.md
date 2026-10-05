@@ -16,6 +16,8 @@ relatiegraaf in Supabase. Fase 0 (site live) en de basis voor Fase 2
 | `/organisaties` | Alle organisaties | Alfabetisch register met plaats en subsector |
 | `/bevindingen` | Oordelen | Niet-goedkeurende oordelen en continuïteit, met de grond |
 | `/subsector/[naam]` | Subsector | Kantoren en organisaties binnen één subsector |
+| `/aanbestedingen` | Aanbestedingen | Gunningen uit TED per gunningsjaar; telling per kantoor alleen bij de overheid |
+| `/plaats/[naam]` | Plaats | Organisaties in één plaats met hun laatste controle (vanaf drie organisaties) |
 | `/zoeken?q=` | Zoeken | Organisaties én kantoren |
 
 **URL-vorm:** het nummer vooraan is de sleutel (KvK, resp. AFM-nummer), de naam

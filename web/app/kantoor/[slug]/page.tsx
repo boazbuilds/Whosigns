@@ -15,7 +15,15 @@ import {
   type WisselingVolledig,
 } from "@/lib/db";
 import { clientenVanKantoor } from "@/lib/analyse";
-import { sectorposities } from "@/lib/voorpagina";
+import {
+  LEIDER_COMPLEET,
+  LEIDER_MINIMUM,
+  rasterstappen,
+  sectorposities,
+  sectorreeksen,
+  type Sectorreeks,
+} from "@/lib/voorpagina";
+import { Kolomgrafiek, type Kolom } from "@/components/grafieken";
 import {
   OPDRACHT_LABEL,
   aantalControles,
@@ -125,6 +133,179 @@ function Mutatiekaart({
           ) : null}
         </>
       )}
+    </section>
+  );
+}
+
+/**
+ * Zoveel sectoren krijgen een eigen grafiekje; de rest staat in de tabel
+ * eronder. Deloitte werkt op 5-10-2026 in elf sectoren, waarvan zeven met een
+ * aandeel in drie of meer complete boekjaren — zeven grafieken onder elkaar is
+ * geen overzicht meer.
+ */
+const REEKSEN_IN_GRAFIEK = 4;
+
+/** Onder zoveel boekjaren met een aandeel is een lijn in de tijd geen lijn. */
+const MINIMUM_JAREN_IN_GRAFIEK = 3;
+
+/**
+ * En onder zoveel eigen controles in de sector ook niet: dan staan er vooral
+ * nullen en tienden van procenten in. Dubois had op 5-10-2026 acht controles
+ * bij woningcorporaties, één in acht van de jaren 2007–2016, en kreeg zo een grafiek
+ * van 0,3% en 0,0% — terwijl het kantoor bij de goede doelen 219 controles had.
+ */
+const MINIMUM_EIGEN_IN_GRAFIEK = 20;
+
+/** "’16" onder een kolom; het volle jaartal staat in de tooltip en de tabel. */
+function kortJaar(jaar: number): string {
+  return `’${String(jaar).slice(2)}`;
+}
+
+/**
+ * Per sector het aandeel van dit kantoor, boekjaar voor boekjaar, met alle
+ * sectoren als tabel eronder.
+ *
+ * Elk percentage geldt binnen één sector én één boekjaar, en staat er alleen
+ * bij een boekjaar dat compleet genoeg is (jaarCompleet). Daarbuiten alleen het
+ * aantal: bij de OOB stonden er voor 2025 op 5-10-2026 110 controles tegen 576
+ * een jaar eerder, en een aandeel daarover zou de grote kantoren overdrijven.
+ */
+function Sectorontwikkeling({ reeksen }: { reeksen: Sectorreeks[] }) {
+  const metAandeel = (reeks: Sectorreeks) =>
+    reeks.jaren.filter((j) => j.compleet && j.aantal > 0).length;
+  const getekend = reeksen
+    .filter(
+      (reeks) =>
+        metAandeel(reeks) >= MINIMUM_JAREN_IN_GRAFIEK && reeks.eigen >= MINIMUM_EIGEN_IN_GRAFIEK,
+    )
+    .slice(0, REEKSEN_IN_GRAFIEK);
+
+  const alleJaren = [...new Set(reeksen.flatMap((r) => r.jaren.map((j) => j.boekjaar)))];
+  const kolomjaren: number[] = [];
+  for (let jaar = Math.min(...alleJaren); jaar <= Math.max(...alleJaren); jaar++) {
+    kolomjaren.push(jaar);
+  }
+
+  const tabel = (
+    <div className="tabel-omhulsel">
+      <table>
+        <thead>
+          <tr>
+            <th>Sector</th>
+            {kolomjaren.map((jaar) => (
+              <th key={jaar} className="getal">
+                {jaar}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {reeksen.map((reeks) => {
+            const perJaar = new Map(reeks.jaren.map((j) => [j.boekjaar, j]));
+            return (
+              <tr key={reeks.sector}>
+                <td>
+                  <Link href={sectorPad(reeks.sector)}>{hoofdletter(reeks.sector)}</Link>
+                </td>
+                {kolomjaren.map((jaar) => {
+                  const cel = perJaar.get(jaar);
+                  if (!cel || cel.aantal === 0) {
+                    return (
+                      <td key={jaar} className="getal zacht">
+                        {cel?.compleet ? "0" : "·"}
+                      </td>
+                    );
+                  }
+                  return (
+                    <td
+                      key={jaar}
+                      className="getal"
+                      title={
+                        cel.compleet
+                          ? `${cel.aantal} van ${cel.controles} controles in ${reeks.sector}, ${jaar}`
+                          : `${cel.aantal} van ${cel.controles} controles in ${reeks.sector}, ${jaar} — geen aandeel: ${
+                              cel.controles < LEIDER_MINIMUM
+                                ? `minder dan ${LEIDER_MINIMUM} controles in de sector`
+                                : "dit boekjaar staat nog niet compleet in de database"
+                            }`
+                      }
+                    >
+                      <strong>{nl(cel.aantal)}</strong>
+                      <div className="klein zacht">
+                        {cel.compleet ? procent((100 * cel.aantal) / cel.controles) : "—"}
+                      </div>
+                    </td>
+                  );
+                })}
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+
+  return (
+    <section className="kaart">
+      <div className="kaartkop">
+        <h2>Per sector en boekjaar</h2>
+        <Link href="/sectoren">Sectoren vergelijken →</Link>
+      </div>
+      <p className="klein zacht" style={{ marginTop: 0, maxWidth: "46rem" }}>
+        Het aandeel van dit kantoor in de controles van één sector in één
+        boekjaar. Tussen sectoren zegt het niets: welke organisaties er per
+        sector in de database staan, verschilt.
+      </p>
+      {getekend.length > 0 ? (
+        <div className="kolommen" style={{ marginBottom: 0 }}>
+          {getekend.map((reeks) => {
+            const jaren = reeks.jaren.filter((j) => j.compleet);
+            const kolommen: Kolom[] = jaren.map((j, i) => {
+              const pct = (100 * j.aantal) / j.controles;
+              return {
+                label: String(j.boekjaar),
+                kort: kortJaar(j.boekjaar),
+                waarde: pct,
+                weergave: procent(pct),
+                toelichting: `${nl(j.aantal)} van ${nl(j.controles)} controles`,
+                opschrift: i === jaren.length - 1,
+              };
+            });
+            // Een decimaal op de as zodra een stap geen heel procent is; anders
+            // stond er bij 0, 0,5, 1 en 1,5% "0%, 1%, 1%, 2%".
+            const raster = rasterstappen(Math.max(...kolommen.map((k) => k.waarde)));
+            const decimalen = raster.some((stap) => !Number.isInteger(stap)) ? 1 : 0;
+            return (
+              <div key={reeks.sector} style={{ minWidth: 0 }}>
+                <h3 className="klein" style={{ margin: "0 0 0.2rem" }}>
+                  <Link href={sectorPad(reeks.sector)}>{hoofdletter(reeks.sector)}</Link>
+                </h3>
+                <Kolomgrafiek
+                  titel={`Aandeel in de sector ${reeks.sector} per boekjaar`}
+                  kolommen={kolommen}
+                  raster={raster}
+                  rasterweergave={(n) => procent(n, decimalen)}
+                  hoogte={110}
+                />
+              </div>
+            );
+          })}
+        </div>
+      ) : null}
+      {getekend.length > 0 ? (
+        <Inklapbaar samenvatting="Als tabel, alle sectoren en boekjaren">{tabel}</Inklapbaar>
+      ) : (
+        tabel
+      )}
+      <p className="grafiekvoet">
+        Een aandeel alleen bij een boekjaar dat vrijwel compleet in de database
+        staat: minstens {procent(100 * LEIDER_COMPLEET, 0)} van het aantal
+        controles van het jaar ervoor, en minstens {LEIDER_MINIMUM} in de
+        sector. Anders staat er alleen het aantal, met een streepje eronder. Een
+        0 is een compleet boekjaar waarin dit kantoor in die sector geen
+        controle had; een punt staat waar de sector dat jaar nog niet (compleet)
+        in de database stond.
+      </p>
     </section>
   );
 }
@@ -245,6 +426,9 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
   // sectoren er in welk jaar in de database staan. Zie sectorposities().
   const posities = sectorposities(marktRijen, kantoor.id);
   const hoofd = posities[0] ?? null;
+  // En dezelfde rijen boekjaar voor boekjaar, voor "Per sector en boekjaar":
+  // geen extra verzoek, want v_marktaandeel is hierboven al opgehaald.
+  const reeksen = sectorreeksen(marktRijen, kantoor.id);
   const eigenControles = marktRijen
     .filter((rij) => rij.kantoor_id === kantoor.id)
     .reduce((som, rij) => som + rij.aantal_controles, 0);
@@ -540,6 +724,8 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
         </section>
       </div>
 
+      {reeksen.length > 0 ? <Sectorontwikkeling reeksen={reeksen} /> : null}
+
       <div className="kolommen">
         <Mutatiekaart
           titel="Gewonnen opdrachten"
@@ -663,11 +849,12 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
         <section className="kaart">
           <div className="kaartkop">
             <h2>Gewonnen aanbestedingen</h2>
-            <span className="klein zacht">{aanbestedingen.length} · bron: TED</span>
+            <Link href="/aanbestedingen">Alle aanbestedingen →</Link>
           </div>
           <p className="klein zacht" style={{ marginTop: 0 }}>
-            Europees aanbestede opdrachten die dit kantoor won. Een gunning zegt
-            wie er benoemd is en wanneer — niet of de controle er kwam.
+            Europees aanbestede opdrachten die dit kantoor won ({aanbestedingen.length},
+            bron: TED). Een gunning zegt wie er benoemd is en wanneer — niet of
+            de controle er kwam.
           </p>
           <div className="tabel-omhulsel">
             <table>
@@ -736,6 +923,9 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
           { naar: "/kantoren", tekst: "Alle kantoren" },
           { naar: "/sectoren", tekst: "Sectoren vergelijken" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
+          ...(aanbestedingen.length
+            ? [{ naar: "/aanbestedingen", tekst: "Wie wint de aanbestedingen?" }]
+            : []),
         ]}
       />
     </>

@@ -112,6 +112,71 @@ export function subsectorPad(subsector: string): string {
   return `/subsector/${slug(subsector)}`;
 }
 
+/**
+ * De plaats van een organisatie zoals de bron hem noemt — meestal de
+ * vestigingsplaats, soms de gemeente ("Hoofddorp" naast "Haarlemmermeer").
+ * De slug is ook de sleutel waarop schrijfwijzen samengaan: "AMSTERDAM" en
+ * "Amsterdam", en "'s-Gravenhage" met en zonder apostrof, krijgen hetzelfde adres.
+ */
+export function plaatsPad(plaats: string): string {
+  return `/plaats/${slug(plaats)}`;
+}
+
+/**
+ * Onder zoveel organisaties krijgt een plaats geen eigen pagina, en linkt de
+ * plaatsnaam op een organisatiepagina nergens heen. Op 5-10-2026 hadden 366
+ * van de 732 plaatsen één organisatie en 134 er twee — een pagina met alleen
+ * de organisatie waar je vandaan kwam is een doodlopende klik. Van drie en
+ * meer waren er 232.
+ */
+export const PLAATS_MINIMUM = 3;
+
+/** Alle schrijfwijzen van één plaats, met de naam die de pagina toont. */
+export type Plaatsgroep = {
+  sleutel: string;
+  naam: string;
+  schrijfwijzen: string[];
+  aantal: number;
+};
+
+/**
+ * Plaatsnamen samennemen die alleen in hoofdletters, accenten of leestekens
+ * verschillen — precies wat `slug()` gelijkmaakt, en niets meer. Op 5-10-2026
+ * stonden er 846 schrijfwijzen in voor 732 plaatsen: "AMSTERDAM" naast
+ * "Amsterdam", vier vormen van "'s-Gravenhage". Een andere naam voor dezelfde
+ * gemeente ("Den Haag") blijft apart: dat samennemen zou een gok zijn over wat
+ * de bron bedoelde.
+ *
+ * Als naam de schrijfwijze die niet in kapitalen staat, en daarbinnen de
+ * meest voorkomende; bij gelijke stand alfabetisch, zodat de naam niet
+ * verspringt met de volgorde van de rijen.
+ */
+export function plaatsgroepen(plaatsen: string[]): Plaatsgroep[] {
+  const perSleutel = new Map<string, Map<string, number>>();
+  for (const plaats of plaatsen) {
+    const sleutel = slug(plaats);
+    if (!sleutel) continue;
+    const telling = perSleutel.get(sleutel) ?? new Map<string, number>();
+    telling.set(plaats, (telling.get(plaats) ?? 0) + 1);
+    perSleutel.set(sleutel, telling);
+  }
+  const kapitalen = (tekst: string) => tekst === tekst.toUpperCase() ? 1 : 0;
+  return [...perSleutel.entries()]
+    .map(([sleutel, telling]) => {
+      const schrijfwijzen = [...telling.entries()].sort(
+        (a, b) =>
+          kapitalen(a[0]) - kapitalen(b[0]) || b[1] - a[1] || a[0].localeCompare(b[0], "nl"),
+      );
+      return {
+        sleutel,
+        naam: schrijfwijzen[0][0].trim(),
+        schrijfwijzen: schrijfwijzen.map(([tekst]) => tekst),
+        aantal: schrijfwijzen.reduce((som, [, n]) => som + n, 0),
+      };
+    })
+    .sort((a, b) => b.aantal - a.aantal || a.naam.localeCompare(b.naam, "nl"));
+}
+
 // ---------------------------------------------------------------- weergave
 
 /** Kort label voor het oordeel; `null` bij een leeg oordeel. */
@@ -275,6 +340,10 @@ export function aantalPlaatsen(n: number): string {
 
 export function aantalClienten(n: number): string {
   return `${nl(n)} ${n === 1 ? "cliënt" : "cliënten"}`;
+}
+
+export function aantalGunningen(n: number): string {
+  return `${nl(n)} ${n === 1 ? "gunning" : "gunningen"}`;
 }
 
 /**
