@@ -33,8 +33,9 @@ pipeline/
     kantoren_vervallen.csv ✅ vergunninghouders die uit het AFM-register verdwenen;
                           vindbaar onder hun eigen nummer, in de database inactief
   werkvoorraad/
-    stichtingen.json   ✅ de 133 blokken van de goededoelensector en wat ze opleverden;
-                          de git-diff van dit bestand is het voortgangslog
+    stichtingen.json   ✅ de blokken van de goededoelensector en wat ze opleverden;
+                          de git-diff van dit bestand is het voortgangslog (de
+                          bijgehouden stand staat op data/stichtingenlus)
   oogst/               ✅ de zorgoogst per boekjaar (zorg_2019.csv … zorg_2025.csv) en
                           in oogst/ocr/ de gelezen tekst van elke gescande verklaring —
                           bewust in de repo: het is de herleidbaarheid van ruim

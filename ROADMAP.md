@@ -304,7 +304,9 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
    **Let op: de cron staat aan zodra dit op `main` staat.** Het advies blijft
    eerst de zorgsector afmaken (visie: één sector compleet vóór verbreding); wil
    je wachten, zet de workflow dan uit via Actions → *Stichtingenlus* → ⋯ →
-   *Disable workflow*, of draai hem handmatig met `workflow_dispatch`. Kantoren
+   *Disable workflow*, of draai hem handmatig met `workflow_dispatch`. (Sinds
+   5-10-2026 juist aan laten: de lus plant zelf herkansingen op 1 oktober en
+   1 januari, en een lege ronde schrijft niets.) Kantoren
    zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8).
    **Woningcorporaties zijn nu de goedkoopste vertical die er is** 🆕: de dVi-open data
    van de Autoriteit woningcorporaties heeft een kolom `Accountant` per corporatie, mét
