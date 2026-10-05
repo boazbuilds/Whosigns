@@ -16,6 +16,7 @@ import {
 } from "@/lib/paden";
 import {
   Aandeelbalk,
+  Aangeleverd,
   Doorklik,
   Foutmelding,
   KantoorLink,
@@ -155,7 +156,7 @@ export default async function Honorariapagina() {
                     <td>
                       <KantoorLink
                         naam={rij.naam}
-                        naar={kantoorPad({ afm_nummer: rij.afmNummer, naam: rij.naam })}
+                        naar={kantoorPad({ id: rij.kantoorId, afm_nummer: rij.afmNummer, naam: rij.naam })}
                         maat="m"
                       />
                     </td>
@@ -225,6 +226,11 @@ export default async function Honorariapagina() {
                         ) : (
                           <span className="zacht">niet herleid</span>
                         )}
+                        {/* Het bedrag is openbaar, maar welk kantoor erbij
+                            hoort komt bij 54 van de 1.872 regels uit
+                            aangeleverd marktonderzoek (5-10-2026); dan zegt de
+                            regel dat. */}
+                        <Aangeleverd bron={rij.bronnen} />
                       </td>
                       {/* Een streepje is "niet verantwoord", geen nul: €0 tonen
                           waar niets is opgegeven zou een bewering zijn. */}

@@ -173,7 +173,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <p className="klein">
                 Nog niet compleet: de gegevens worden sector voor sector en
                 boekjaar voor boekjaar aangevuld. Een aandeel op deze site geldt
-                over wat hier staat, niet over de hele markt.
+                binnen één sector en één boekjaar, over wat hier staat — niet
+                over de hele markt.
               </p>
               {/* Voorwaarde bij het besluit van 20-8-2026 om de tekenend
                   accountant te tonen (docs/concept.md §9): zeggen welk gegeven

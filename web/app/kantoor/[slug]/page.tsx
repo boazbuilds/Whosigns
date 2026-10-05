@@ -8,12 +8,14 @@ import {
   kantoorOpAfm,
   kantoorOpId,
   kantoorRanglijst,
+  marktaandeelRijen,
   opdrachtenVanKantoor,
   wisselingen,
   type Kantoor,
   type WisselingVolledig,
 } from "@/lib/db";
 import { clientenVanKantoor } from "@/lib/analyse";
+import { sectorposities } from "@/lib/voorpagina";
 import {
   OPDRACHT_LABEL,
   aantalControles,
@@ -30,7 +32,7 @@ import {
   sleutelUitSlug,
   slug as slugVan,
 } from "@/lib/paden";
-import { Aandeelbalk, Doorklik, Foutmelding, Inklapbaar, KantoorLink, Kerncijfer, KortKantoorLink, Kruimels, Leeg, Oordeel, Soort, Wapen } from "@/components/onderdelen";
+import { Aandeelbalk, Aangeleverd, Doorklik, Foutmelding, Inklapbaar, KantoorLink, Kerncijfer, KortKantoorLink, Kruimels, Leeg, Oordeel, Rang, Soort, Vergunning, Wapen } from "@/components/onderdelen";
 
 type Params = {
   params: Promise<{ slug: string }>;
@@ -158,7 +160,7 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
   }
   if (!kantoor) notFound();
 
-  const [opdrachten, mutaties, ranglijstJaren, ranglijst, aanbestedingen, tekenaars] =
+  const [opdrachten, mutaties, ranglijstJaren, ranglijst, marktRijen, aanbestedingen, tekenaars] =
     await Promise.all([
     opdrachtenVanKantoor(kantoor.id),
     // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
@@ -169,7 +171,11 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
     // opdrachten met boekjaar 2026 in de database (gebroken boekjaren uit
     // marktonderzoek), maar een ranglijst is er pas als er controles zijn.
     boekjarenMetControles(),
+    // Alleen nog voor de namen van de kantoren om dit kantoor heen; de plek
+    // zelf komt uit de kale rijen hieronder, per sector en boekjaar. Beide
+    // vragen hetzelfde adres op, en Next deelt dat verzoek.
     kantoorRanglijst().catch(() => []),
+    marktaandeelRijen().catch(() => []),
     gunningenVanKantoor(kantoor.id),
     accountantsVanKantoor(kantoor.id),
   ]);
@@ -232,14 +238,33 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
   const verloren = mutaties.filter((m) => m.van_kantoor_id === kantoor.id);
   const alleJaren = opdrachten.map((o) => o.boekjaar);
 
-  // Plaats in de eeuwige ranglijst, en wie er direct om dit kantoor heen staan.
-  const positie = ranglijst.findIndex((r) => r.kantoor.id === kantoor.id);
-  const eigenRij = positie >= 0 ? ranglijst[positie] : null;
-  const buren =
-    positie >= 0
-      ? ranglijst.slice(Math.max(0, positie - 1), positie + 3).filter((r) => r.kantoor.id !== kantoor.id)
-      : ranglijst.slice(0, 3);
-  const marktTotaal = ranglijst.reduce((som, rij) => som + rij.aantal_controles, 0);
+  // De plek per sector, elk in het nieuwste boekjaar dat voor die sector
+  // compleet is. Hier stond de plek in de eeuwige ranglijst over alle
+  // sectoren en boekjaren samen, met "18,2% van alles wat in deze database
+  // staat" eronder (Deloitte, 5-10-2026): een getal dat vooral meet welke
+  // sectoren er in welk jaar in de database staan. Zie sectorposities().
+  const posities = sectorposities(marktRijen, kantoor.id);
+  const hoofd = posities[0] ?? null;
+  const eigenControles = marktRijen
+    .filter((rij) => rij.kantoor_id === kantoor.id)
+    .reduce((som, rij) => som + rij.aantal_controles, 0);
+
+  // Wie er in die sector en dat boekjaar direct om dit kantoor heen staan.
+  const kantoorPerId = new Map(ranglijst.map((rij) => [rij.kantoor.id, rij.kantoor]));
+  const eigenPlek = hoofd
+    ? hoofd.ranglijst.findIndex((rij) => rij.kantoorId === kantoor.id)
+    : -1;
+  const buren = hoofd
+    ? hoofd.ranglijst
+        .slice(Math.max(0, eigenPlek - 1), eigenPlek + 3)
+        .filter((rij) => rij.kantoorId !== kantoor.id)
+        .flatMap((rij) => {
+          const ander = kantoorPerId.get(rij.kantoorId);
+          if (!ander) return [];
+          const plek = 1 + hoofd.ranglijst.filter((r) => r.aantal > rij.aantal).length;
+          return [{ kantoor: ander, aantal: rij.aantal, plek }];
+        })
+    : [];
 
   // In welke sectoren dit kantoor werkt, grootste eerst. Uit de eigen cliënten
   // en niet uit de ranglijst: zo klopt het ook als de view nog niet is bijgewerkt.
@@ -278,6 +303,15 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
       <td className="zacht klein">{client.gemeente ?? "—"}</td>
       <td className="zacht klein">
         <Soort type={client.typeLaatste} />
+        {/* Een cliënt die hier alleen staat dankzij het aangeleverde
+            marktonderzoek draagt dat label. Bij Crowe Foederer komen 2.053
+            van de 2.180 opdrachten daaruit (5-10-2026). */}
+        {client.bronLaatste?.betrouwbaarheid === "zelf_aangeleverd" ? (
+          <>
+            {" "}
+            <Aangeleverd bron={client.bronLaatste} />
+          </>
+        ) : null}
       </td>
       <td className="jaar">{jarenReeks(client.jaren)}</td>
       <td className="getal zacht">{aantalJaren(client.jaren.length)}</td>
@@ -303,21 +337,15 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
           <div>
             <h1>{kantoor.naam}</h1>
             <p className="metaregel">
-              {positie >= 0 ? (
+              {hoofd ? (
                 <span>
-                  <strong>#{positie + 1}</strong> in de ranglijst
+                  <strong>#{hoofd.plek}</strong> in de sector{" "}
+                  <Link href={sectorPad(hoofd.sector)}>{hoofd.sector}</Link>, boekjaar{" "}
+                  {hoofd.boekjaar}
                 </span>
               ) : null}
               <span>
-                {kantoor.oob_vergunning ? (
-                  <span className="label label-oob">OOB-vergunning</span>
-                ) : !kantoor.afm_nummer ? (
-                  "geen Wta-vergunning"
-                ) : kantoor.actief ? (
-                  "reguliere Wta-vergunning"
-                ) : (
-                  "niet meer in het AFM-register"
-                )}
+                <Vergunning kantoor={kantoor} voluit />
               </span>
               {kantoor.plaats ? <span>{kantoor.plaats}</span> : null}
               <span>{jarenReeks(alleJaren)}</span>
@@ -403,6 +431,9 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
           {sectorrijen.length === 0 ? (
             <Leeg tekst="Nog geen cliënten in de database." />
           ) : (
+            // In een eigen schuifkader, zoals elke andere tabel: zonder dat werd
+            // de pagina op een telefoon van 375 pixels 443 pixels breed.
+            <div className="tabel-omhulsel">
             <table>
               <thead>
                 <tr>
@@ -439,12 +470,28 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
                 ))}
               </tbody>
             </table>
+            </div>
           )}
-          {eigenRij && marktTotaal > 0 ? (
+          {eigenControles > 0 ? (
             <p className="klein zacht" style={{ marginBottom: 0 }}>
-              Samen {aantalControles(eigenRij.aantal_controles)} over alle boekjaren
-              — {procent((eigenRij.aantal_controles / marktTotaal) * 100)} van
-              alles wat in deze database staat.
+              Samen {nl(eigenControles)} {eigenControles === 1 ? "controle" : "controles"}{" "}
+              over alle boekjaren en sectoren. Een aandeel geldt alleen binnen
+              één sector en één boekjaar
+              {posities.length ? (
+                <>
+                  ; in het nieuwste boekjaar dat per sector compleet is:{" "}
+                  {posities.map((p, i) => (
+                    <span key={p.sector}>
+                      {i > 0 ? "; " : ""}#{p.plek} in {p.sector} ({p.boekjaar},{" "}
+                      {procent((100 * p.aantal) / p.controles)} van{" "}
+                      {nl(p.controles)} controles)
+                    </span>
+                  ))}
+                  .
+                </>
+              ) : (
+                "."
+              )}
             </p>
           ) : null}
         </section>
@@ -519,7 +566,7 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
           {sectorFilter ? (
             <Link href={clientenPad(gekozenJaar, null)}>Alle sectoren →</Link>
           ) : boekjaar ? (
-            <Link href={`/kantoren?jaar=${boekjaar}`}>Ranglijst {boekjaar} →</Link>
+            <Link href={`/kantoren?jaar=${boekjaar}`}>Alle kantoren in {boekjaar} →</Link>
           ) : null}
         </div>
         {eigenJaren.length > 1 ? (
@@ -577,28 +624,38 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
         )}
       </section>
 
-      {buren.length > 0 ? (
+      {hoofd && buren.length > 0 ? (
         <section className="kaart">
-          <h2>Om dit kantoor heen in de ranglijst</h2>
-          <table>
-            <tbody>
-              {buren.map((rij) => (
-                <tr key={rij.kantoor.id}>
-                  <td>
-                    <KantoorLink
-                      naam={rij.kantoor.naam}
-                      naar={kantoorPad(rij.kantoor)}
-                      maat="m"
-                    />
-                  </td>
-                  <td className="zacht klein">
-                    {rij.kantoor.plaats ?? <span className="zacht">—</span>}
-                  </td>
-                  <td className="getal">{rij.aantal_controles}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <div className="kaartkop">
+            <h2>
+              Om dit kantoor heen in de sector {hoofd.sector}, boekjaar {hoofd.boekjaar}
+            </h2>
+            <Link href={sectorPad(hoofd.sector)}>Hele sector →</Link>
+          </div>
+          <div className="tabel-omhulsel">
+            <table>
+              <tbody>
+                {buren.map((rij) => (
+                  <tr key={rij.kantoor.id}>
+                    <td className="rangcel">
+                      <Rang nummer={rij.plek} />
+                    </td>
+                    <td>
+                      <KantoorLink
+                        naam={rij.kantoor.naam}
+                        naar={kantoorPad(rij.kantoor)}
+                        maat="m"
+                      />
+                    </td>
+                    <td className="zacht klein">
+                      {rij.kantoor.plaats ?? <span className="zacht">—</span>}
+                    </td>
+                    <td className="getal">{rij.aantal}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       ) : null}
 
@@ -662,11 +719,13 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
             tekst: client.naam,
             toelichting: `cliënt ${jarenReeks(client.jaren)}`,
           })),
-          ...buren.slice(0, 3).map((rij) => ({
-            naar: kantoorPad(rij.kantoor),
-            tekst: rij.kantoor.naam,
-            toelichting: `concurrent, ${aantalControles(rij.aantal_controles)}`,
-          })),
+          ...(hoofd
+            ? buren.slice(0, 3).map((rij) => ({
+                naar: kantoorPad(rij.kantoor),
+                tekst: rij.kantoor.naam,
+                toelichting: `concurrent in ${hoofd.sector}, ${aantalControles(rij.aantal)} in ${hoofd.boekjaar}`,
+              }))
+            : []),
           // De sectoren waarin dít kantoor werkt, uit zijn eigen cliënten. Hier
           // stond "Marktaandelen in de zorg" vast, ook voor een kantoor dat
           // hoofdzakelijk goede doelen controleert.
@@ -674,7 +733,8 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
             naar: sectorPad(sector),
             tekst: `Marktaandelen in de sector ${sector}`,
           })),
-          { naar: "/kantoren", tekst: "Ranglijst van alle kantoren" },
+          { naar: "/kantoren", tekst: "Alle kantoren" },
+          { naar: "/sectoren", tekst: "Sectoren vergelijken" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
         ]}
       />

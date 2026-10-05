@@ -12,7 +12,7 @@ import {
   organisatiesInSubsector,
   tel,
 } from "@/lib/db";
-import { periodes, wisseljaren } from "@/lib/analyse";
+import { onbevestigdeWisseljaren, periodes, wisseljaren } from "@/lib/analyse";
 import {
   OPDRACHT_LABEL,
   SOORTGROEP,
@@ -28,7 +28,16 @@ import {
   sectorPad,
   subsectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, KantoorLink, Kruimels, Leeg, Oordeel, Soort } from "@/components/onderdelen";
+import {
+  Aangeleverd,
+  Doorklik,
+  Foutmelding,
+  KantoorLink,
+  Kruimels,
+  Leeg,
+  Oordeel,
+  Soort,
+} from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -43,12 +52,16 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const org = await vindOrganisatie(slug).catch(() => null);
   if (!org) return { title: "Organisatie niet gevonden" };
+  // De KvK alleen noemen als hij er is: 3.014 organisaties hebben er geen
+  // (1.610 overheden en 1.381 OOB's daaronder), en die kregen
+  // "(KvK null)" in hun beschrijving (5-10-2026).
+  const kvk = org.kvk_nummer ? ` (KvK ${org.kvk_nummer})` : "";
   // De noordster uit docs/visie.md, letterlijk als paginatitel: wie dit googelt
   // hoort hier uit te komen.
   return {
     title: `Wie is de accountant van ${org.naam}?`,
     description:
-      `Alle accountants van ${org.naam} (KvK ${org.kvk_nummer}) per boekjaar, ` +
+      `Alle accountants van ${org.naam}${kvk} per boekjaar, ` +
       `inclusief wisselingen en het oordeel bij de jaarrekening.`,
   };
 }
@@ -66,6 +79,7 @@ export default async function Organisatiepagina({ params }: Params) {
   let reeksen: ReturnType<typeof periodes> = [];
   let aanbestedingen: Awaited<ReturnType<typeof gunningenVanOrganisatie>> = [];
   let wissels: ReturnType<typeof wisseljaren> = new Set();
+  let anderKantoor: ReturnType<typeof onbevestigdeWisseljaren> = new Set();
   // Welke opdracht bij welke accountantspagina hoort. De sleutel komt uit
   // v_accountant_opdracht, zodat de site geen eigen tweede definitie krijgt.
   let sleutels = new Map<number, string>();
@@ -79,6 +93,7 @@ export default async function Organisatiepagina({ params }: Params) {
       ]);
       reeksen = periodes(opdrachten);
       wissels = wisseljaren(opdrachten);
+      anderKantoor = onbevestigdeWisseljaren(opdrachten);
 
       // Organisaties uit dezelfde subsector zijn interessanter om naar door te
       // klikken dan willekeurige zorgorganisaties: een ziekenhuis naast een
@@ -121,6 +136,24 @@ export default async function Organisatiepagina({ params }: Params) {
   );
 
   const laatsteWisseljaar = wissels.size ? Math.max(...wissels) : null;
+  // Staan er in de relatiegeschiedenis andere kantoren dan het huidige? Dan
+  // zou "geen wisseling in deze periode" in de kop lezen als een tegenspraak
+  // met de tabel eronder.
+  const andereKantoren = reeksen.some((r) => huidige && r.kantoorId !== huidige.kantoorId);
+  // "Gewisseld in boekjaar X" naast het huidige kantoor leest als "sinds X bij
+  // dit kantoor", en dat klopt alleen als X het begin van de huidige periode
+  // is. Begon die periode met een overgang die geen wisseling is (een gat in
+  // de reeks, of "ander kantoor" uit een controle met onbekend voorwerp), dan
+  // ging de laatste vastgestelde wisseling naar een eerder kantoor. Op
+  // 5-10-2026 bij 108 organisaties, waaronder 22 waar het huidige kantoor
+  // alleen uit het marktonderzoek komt: "PwC — 1 boekjaar (2025), gewisseld
+  // in boekjaar 2015", terwijl die wisseling van Deloitte naar EY ging.
+  const beginHuidige = huidige ? Math.min(...huidige.jaren) : null;
+  const wisselNaarHuidige = laatsteWisseljaar !== null && laatsteWisseljaar === beginHuidige;
+  const naarBijLaatsteWissel =
+    laatsteWisseljaar === null
+      ? null
+      : reeksen.find((r) => r.jaren.includes(laatsteWisseljaar))?.kantoorNaam ?? null;
 
   return (
     <>
@@ -168,11 +201,24 @@ export default async function Organisatiepagina({ params }: Params) {
                 {huidige.kantoorNaam}
               </Link>
             </strong>{" "}
+            {huidige.aangeleverd ? (
+              <>
+                <Aangeleverd
+                  bron={huidige.aangeleverd}
+                  jaren={huidige.aangeleverdeJaren}
+                  van={huidige.jaren}
+                />{" "}
+              </>
+            ) : null}
             <span className="zacht">
               — {aantalJaren(huidige.jaren.length)} ({jarenReeks(huidige.jaren)})
-              {reeksen.length > 1 && laatsteWisseljaar
+              {wisselNaarHuidige
                 ? `, gewisseld in boekjaar ${laatsteWisseljaar}`
-                : ", geen wisseling in deze periode"}
+                : laatsteWisseljaar && naarBijLaatsteWissel
+                  ? `, laatste vastgestelde wisseling in boekjaar ${laatsteWisseljaar} (naar ${naarBijLaatsteWissel})`
+                  : andereKantoren
+                    ? ", geen vastgestelde wisseling"
+                    : ", geen wisseling in deze periode"}
             </span>
           </p>
         ) : null}
@@ -212,6 +258,16 @@ export default async function Organisatiepagina({ params }: Params) {
                       )}
                       {wissels.has(opdracht.boekjaar) ? (
                         <> <span className="label label-let-op">wisseling</span></>
+                      ) : anderKantoor.has(opdracht.boekjaar) ? (
+                        <>
+                          {" "}
+                          <span
+                            className="label label-vaag"
+                            title="Een ander kantoor dan het boekjaar ervoor, maar in een van beide jaren staat alleen een controle waarvan het voorwerp onbekend is. Daarom geen wisseling, net als op de pagina met alle wisselingen."
+                          >
+                            ander kantoor
+                          </span>
+                        </>
                       ) : null}
                     </td>
                     {/* De ondertekenaar. Leeg betekent "niet vastgesteld" en niet
@@ -242,19 +298,29 @@ export default async function Organisatiepagina({ params }: Params) {
                         <> <span className="label label-let-op">continuïteit</span></>
                       ) : null}
                     </td>
+                    {/* De labelplicht uit docs/concept.md: bij elk gegeven hoort
+                        zichtbaar te zijn of het uit een openbare bron komt of
+                        door iemand zelf is aangeleverd. Het soort bron staat er
+                        dus altijd; alleen de link hangt af van een url. Tot
+                        5-10-2026 hing het hele label aan de url, en het
+                        marktonderzoek heeft er geen: 35.582 opdrachten stonden
+                        hier met een streepje. */}
                     <td className="klein">
-                      {opdracht.bronnen?.url ? (
+                      {opdracht.bronnen ? (
                         <>
-                          <a
-                            href={opdracht.bronnen.url}
-                            rel="noreferrer nofollow"
-                            target="_blank"
-                          >
-                            {opdracht.bronnen.bron_type}
-                          </a>
-                          {/* De labelplicht uit docs/concept.md: bij elk gegeven
-                              hoort zichtbaar te zijn of het uit een openbare bron
-                              komt of door iemand zelf is aangeleverd. */}
+                          {opdracht.bronnen.url ? (
+                            <a
+                              href={opdracht.bronnen.url}
+                              rel="noreferrer nofollow"
+                              target="_blank"
+                            >
+                              {opdracht.bronnen.bron_type}
+                            </a>
+                          ) : (
+                            <span title="Geen vindplaats per opdracht: niet per document herleidbaar.">
+                              {opdracht.bronnen.bron_type}
+                            </span>
+                          )}
                           {opdracht.bronnen.betrouwbaarheid ? (
                             <span className="zacht klein">
                               {" "}
@@ -420,6 +486,16 @@ export default async function Organisatiepagina({ params }: Params) {
                     >
                       {reeks.kantoorNaam}
                     </Link>
+                    {reeks.aangeleverd ? (
+                      <>
+                        {" "}
+                        <Aangeleverd
+                          bron={reeks.aangeleverd}
+                          jaren={reeks.aangeleverdeJaren}
+                          van={reeks.jaren}
+                        />
+                      </>
+                    ) : null}
                   </td>
                   <td className="zacht klein">{aantalJaren(reeks.jaren.length)}</td>
                 </tr>
@@ -427,6 +503,15 @@ export default async function Organisatiepagina({ params }: Params) {
             </tbody>
           </table>
           </div>
+          {anderKantoor.size > 0 ? (
+            <p className="klein zacht" style={{ marginBottom: 0, maxWidth: "44rem" }}>
+              Een overgang naar een ander kantoor telt pas als wisseling als er in
+              beide boekjaren een wettelijke of vrijwillige jaarrekeningcontrole
+              staat — dezelfde regel als op de pagina met alle wisselingen. Staat
+              er aan één kant alleen een controle waarvan het voorwerp onbekend
+              is, dan heet het hierboven &ldquo;ander kantoor&rdquo;.
+            </p>
+          ) : null}
         </section>
       ) : null}
 
@@ -459,10 +544,12 @@ export default async function Organisatiepagina({ params }: Params) {
           ...(laatsteWisseljaar
             ? [
                 {
-                  naar: "/wisselingen",
+                  naar: `/wisselingen?jaar=${laatsteWisseljaar}`,
                   tekst: `Wie wisselde er nog meer in ${laatsteWisseljaar}?`,
                   // Min één: de telling omvat de wisseling van deze organisatie
-                  // zelf, en "nog meer" hoort over de ánderen te gaan.
+                  // zelf, en "nog meer" hoort over de ánderen te gaan. Dat klopt
+                  // sinds wisseljaren() dezelfde typen telt als v_wisselingen;
+                  // daarvoor kon de eigen "wisseling" in de view ontbreken.
                   toelichting:
                     aantalZelfdeJaar > 1
                       ? `${aantalZelfdeJaar - 1} andere in de database`

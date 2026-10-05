@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
-  boekjarenMetControles,
+  alleKantoren,
   kantoorRanglijst,
+  marktaandeelRijen,
   wisselingen,
 } from "@/lib/db";
 import { saldoPerKantoor } from "@/lib/analyse";
+import {
+  controlesPerJaar,
+  LEIDER_COMPLEET,
+  nieuwsteCompleteBoekjaar,
+} from "@/lib/voorpagina";
 import {
   aantalControles,
   aantalKantoren,
@@ -16,22 +22,23 @@ import {
   sectorPad,
 } from "@/lib/paden";
 import {
-  Aandeelbalk,
   Doorklik,
   Foutmelding,
+  Inklapbaar,
   Kerncijfer,
   Kruimels,
   KantoorLink,
   Leeg,
-  Podiumplek,
-  Rang,
+  Telbalk,
+  Vergunning,
 } from "@/components/onderdelen";
 
 export const metadata: Metadata = {
-  title: "Ranglijst van accountantskantoren",
+  title: "Accountantskantoren",
   description:
-    "Welke accountantskantoren controleren de meeste organisaties in Nederland, " +
-    "per boekjaar en per sector — met gewonnen en verloren opdrachten.",
+    "Hoeveel organisaties elk accountantskantoor in Nederland controleert, per " +
+    "boekjaar — met gewonnen en verloren opdrachten. Het marktaandeel per sector " +
+    "staat op de sectorpagina's.",
 };
 
 /** Zoveel jaren in de keuzebalk; ouder blijft bereikbaar via de sectorpagina's. */
@@ -44,56 +51,83 @@ type Zoek = { searchParams: Promise<{ jaar?: string }> };
 export default async function Kantorenpagina({ searchParams }: Zoek) {
   const { jaar } = await searchParams;
 
-  let jaren: number[];
+  // De kale rijen van v_marktaandeel: daaruit komen de jaren voor de kiezer,
+  // het aantal controles per jaar (voor de compleetheidsregel) en welke
+  // kantoren er überhaupt een controle hebben.
+  let marktRijen;
   try {
-    jaren = await boekjarenMetControles();
+    marktRijen = await marktaandeelRijen();
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
+  const perJaar = controlesPerJaar(marktRijen);
+  const jaren = [...perJaar.keys()].sort((a, b) => b - a);
+
+  // Standaard het nieuwste boekjaar dat al compleet is, met dezelfde regel als
+  // de sectorleiders op de voorpagina. Hier stond jaren[0]: boekjaar 2025, met
+  // op 5-10-2026 1.321 controles tegen 2.307 voor 2024 — 110 OOB-controles
+  // tegen 576 en nog geen enkele woningcorporatie. Die ranglijst liet vooral
+  // zien welke sectoren al binnen waren. Nieuwere jaren blijven kiesbaar, met
+  // een sterretje.
+  const compleetJaar = nieuwsteCompleteBoekjaar(perJaar);
+  const onvolledig = new Set(jaren.filter((j) => compleetJaar !== null && j > compleetJaar));
 
   // "alles" telt alle boekjaren op; een geldig jaartal kiest één jaar. Een
-  // onzinnige waarde in de URL valt terug op het nieuwste jaar in plaats van
+  // onzinnige waarde in de URL valt terug op het standaardjaar in plaats van
   // een lege pagina te geven.
+  const standaard = compleetJaar ?? jaren[0] ?? null;
   const gekozen =
-    jaar === "alles" ? null : jaren.includes(Number(jaar)) ? Number(jaar) : jaren[0] ?? null;
+    jaar === "alles" ? null : jaren.includes(Number(jaar)) ? Number(jaar) : standaard;
 
-  const [ranglijst, mutaties] = await Promise.all([
+  const [ranglijst, mutaties, kantoren] = await Promise.all([
     kantoorRanglijst(gekozen ?? undefined),
     wisselingen(gekozen ? { boekjaar: gekozen } : {}),
+    alleKantoren(),
   ]);
 
-  // Noemer voor de balkjes en het podium: alles wat er voor deze periode in de
-  // database staat. Niet "de markt" — zie de uitleg bij dezelfde som op de
-  // voorpagina. De database wordt per sector en per boekjaar gevuld, dus de
-  // mengeling verschilt per jaar en een aandeel is tussen jaren niet
-  // vergelijkbaar. Bij "alle boekjaren" telt dit bovendien 2007 (alleen
-  // woningcorporaties) op bij 2024 (vijf sectoren).
+  // Alleen aantallen, geen aandeel. De ranglijst telt alle sectoren op, en
+  // welke sectoren er voor een boekjaar in de database staan verschilt sterk
+  // per jaar (2007: alleen woningcorporaties; 2024: vijf grote sectoren); bij
+  // "alle boekjaren" telt hij die jaren ook nog bij elkaar op. Een percentage
+  // daarover zegt vooral iets over de dekking. Tot 5-10-2026 stond hier "18,2%
+  // van 25.211 controles" onder Deloitte (alle jaren); per sector en boekjaar
+  // staat het aandeel op de sectorpagina's.
   const totaalControles = ranglijst.reduce((som, rij) => som + rij.aantal_controles, 0);
+  const grootste = ranglijst[0]?.aantal_controles ?? 0;
   const saldi = saldoPerKantoor(mutaties);
   const stijgers = saldi.filter((rij) => rij.saldo > 0).slice(0, 6);
   const dalers = [...saldi].reverse().filter((rij) => rij.saldo < 0).slice(0, 6);
   const periode = gekozen ? `boekjaar ${gekozen}` : "alle boekjaren";
+
+  // Kantoren zonder één wettelijke of vrijwillige controle in de database: op
+  // 5-10-2026 117 van de 288 actieve, waarvan 78 zonder enige opdracht. Ze
+  // stonden in geen enkele lijst en waren alleen via de zoekbalk te vinden.
+  // Bewust zonder aantallen: wat ze wél hebben is vooral marktonderzoek of een
+  // WNT- of productieverantwoording, en dat hoort niet naast een lijst van
+  // jaarrekeningcontroles.
+  //
+  // Alleen actieve kantoren. Een kantoor dat uit het register verdween en hier
+  // geen controle heeft, is nergens meer een kantoor om te vinden: zo stond de
+  // AFM zelf ("Geen accountantsorganisatie", migratie 20261005120000) hier
+  // tussen de accountantskantoren, en VBWA, zonder opvolger. Wie wél een
+  // controle heeft staat in de lijst hierboven, met "vervallen" erachter.
+  const metControles = new Set(marktRijen.map((rij) => rij.kantoor_id));
+  const overige = kantoren.filter((k) => k.actief && !metControles.has(k.id));
+  const toonPlaatsOverig = overige.some((k) => k.plaats);
 
   // De vestigingsplaats bestaat pas na migratie 20260804140000. Zolang die niet
   // is gedraaid is de hele kolom leeg, en een kolom vol streepjes is erger dan
   // geen kolom: hem dan gewoon weglaten.
   const toonPlaats = ranglijst.some((rij) => rij.kantoor.plaats);
 
-  const rijen = ranglijst.map((rij, i) => (
+  const rijen = ranglijst.map((rij) => (
     <tr key={rij.kantoor.id}>
-      <td className="rangcel">
-        <Rang nummer={i + 1} />
-      </td>
       <td>
         <KantoorLink naam={rij.kantoor.naam} naar={kantoorPad(rij.kantoor)} maat="m" />
       </td>
       {toonPlaats ? <td className="zacht klein">{rij.kantoor.plaats ?? "—"}</td> : null}
       <td className="klein">
-        {rij.kantoor.oob_vergunning ? (
-          <span className="label label-oob">OOB</span>
-        ) : (
-          <span className="zacht">—</span>
-        )}
+        <Vergunning kantoor={rij.kantoor} className="zacht" />
       </td>
       <td className="klein zacht">
         {rij.perSector.length === 0
@@ -108,7 +142,7 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
         <strong>{rij.aantal_controles}</strong>
       </td>
       <td className="balkcel">
-        <Aandeelbalk deel={rij.aantal_controles} geheel={totaalControles} />
+        <Telbalk aantal={rij.aantal_controles} grootste={grootste} />
       </td>
     </tr>
   ));
@@ -130,7 +164,7 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
           <Kerncijfer
             waarde={mutaties.length}
             naam="wisselingen in deze periode"
-            naar="/wisselingen"
+            naar={gekozen ? `/wisselingen?jaar=${gekozen}` : "/wisselingen"}
           />
           <Kerncijfer
             waarde={ranglijst.filter((r) => r.kantoor.oob_vergunning).length}
@@ -151,41 +185,46 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
             key={j}
             href={`/kantoren?jaar=${j}`}
             className={gekozen === j ? "actief" : undefined}
+            title={onvolledig.has(j) ? "Nog niet compleet" : undefined}
           >
             {j}
+            {onvolledig.has(j) ? "*" : ""}
           </Link>
         ))}
       </nav>
-
-      {ranglijst.length >= 3 ? (
-        <section className="kaart">
-          <h2>De top drie in {periode}</h2>
-          <div className="podium">
-            {ranglijst.slice(0, 3).map((rij, i) => (
-              <Podiumplek
-                key={rij.kantoor.id}
-                plek={i + 1}
-                naar={kantoorPad(rij.kantoor)}
-                naam={rij.kantoor.naam}
-                onder={`${procent((rij.aantal_controles / totaalControles) * 100)} van ${nl(totaalControles)} controles`}
-                groot={String(rij.aantal_controles)}
-              />
-            ))}
-          </div>
-          <p className="klein zacht" style={{ marginTop: "0.9rem", marginBottom: 0 }}>
-            Aandeel van wat er voor {periode} in de database staat, niet van de
-            hele markt: welke sectoren erin zitten verschilt per boekjaar. Per
-            sector is de vergelijking wel eerlijk —{" "}
-            <Link href="/sectoren">zie de sectoren</Link>.
-          </p>
-        </section>
+      {gekozen !== null && onvolledig.has(gekozen) && compleetJaar !== null ? (
+        <p className="klein zacht" style={{ marginTop: "-0.4rem", maxWidth: "44rem" }}>
+          * Boekjaar {gekozen} is nog niet compleet: er staan{" "}
+          {nl(perJaar.get(gekozen) ?? 0)} controles in, tegen{" "}
+          {nl(perJaar.get(gekozen - 1) ?? 0)} voor {gekozen - 1}. Welke sectoren
+          al binnen zijn bepaalt deze volgorde dus mee.
+        </p>
+      ) : onvolledig.size ? (
+        <p className="klein zacht" style={{ marginTop: "-0.4rem", maxWidth: "44rem" }}>
+          * Nog niet compleet: minder dan {procent(100 * LEIDER_COMPLEET, 0)} van
+          het aantal controles van het jaar ervoor.
+        </p>
       ) : null}
 
+      {/* Geen podium en geen rangnummer: deze lijst telt alle sectoren op, en
+          bij "alle jaren" ook alle boekjaren. Een plek geldt op deze site
+          alleen binnen één sector en één boekjaar (de sectorpagina's, en "#2 in
+          de sector OOB" op een kantoorpagina). Tot 5-10-2026 stond hier "De top
+          drie in alle boekjaren" met Deloitte op 1, met 4.598 controles uit
+          2007–2025 — een plek die vooral zegt welke sectoren het langst in de
+          database staan. Op aantal gesorteerd blijft de lijst wel. */}
       <section className="kaart">
         <div className="kaartkop">
-          <h2>Ranglijst — {periode}</h2>
+          <h2>Kantoren met controles — {periode}</h2>
           <Link href="/wisselingen">Alle wisselingen →</Link>
         </div>
+        <p className="klein zacht" style={{ marginTop: 0, maxWidth: "44rem" }}>
+          Aantallen controles over alle sectoren samen, zoals ze voor {periode} in
+          de database staan, van veel naar weinig. Een aandeel of een plek noemt
+          deze site alleen binnen één sector en één boekjaar, want welke sectoren
+          erin zitten verschilt per boekjaar —{" "}
+          <Link href="/sectoren">zie de sectoren</Link>.
+        </p>
         {ranglijst.length === 0 ? (
           <Leeg tekst="Voor dit boekjaar staan er nog geen controles in de database." />
         ) : (
@@ -193,13 +232,14 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
             <table>
               <thead>
                 <tr>
-                  <th>#</th>
                   <th>Kantoor</th>
                   {toonPlaats ? <th>Plaats</th> : null}
                   <th>Vergunning</th>
                   <th>Sectoren</th>
                   <th className="getal">Controles</th>
-                  <th>Aandeel</th>
+                  <th>
+                    <span className="verborgen">Controles als balk</span>
+                  </th>
                 </tr>
               </thead>
               <tbody>{rijen.slice(0, OPEN)}</tbody>
@@ -231,7 +271,11 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
                     <td>
                       <KantoorLink
                         naam={rij.naam}
-                        naar={kantoorPad({ afm_nummer: rij.afmNummer, naam: rij.naam })}
+                        naar={kantoorPad({
+                          id: rij.kantoorId,
+                          afm_nummer: rij.afmNummer,
+                          naam: rij.naam,
+                        })}
                       />
                     </td>
                     <td className="getal zacht klein">
@@ -259,7 +303,11 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
                     <td>
                       <KantoorLink
                         naam={rij.naam}
-                        naar={kantoorPad({ afm_nummer: rij.afmNummer, naam: rij.naam })}
+                        naar={kantoorPad({
+                          id: rij.kantoorId,
+                          afm_nummer: rij.afmNummer,
+                          naam: rij.naam,
+                        })}
                       />
                     </td>
                     <td className="getal zacht klein">
@@ -275,6 +323,51 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
           )}
         </section>
       </div>
+
+      {overige.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Overige kantoren</h2>
+            <span className="klein zacht">{nl(overige.length)}</span>
+          </div>
+          <p className="klein zacht" style={{ marginTop: 0, maxWidth: "44rem" }}>
+            Kantoren zonder wettelijke of vrijwillige jaarrekeningcontrole in de
+            database, alfabetisch. Wat er wél van ze bekend is — een WNT- of
+            productieverantwoording, of een controle waarvan het voorwerp
+            onbekend is — staat op hun eigen pagina. Niet elk kantoor hier staat
+            in het AFM-register: bij &ldquo;geen Wta-vergunning&rdquo; gaat het om
+            een kantoor zonder vergunning voor wettelijke controles.
+          </p>
+          <Inklapbaar samenvatting={`Toon alle ${nl(overige.length)}`}>
+            <div className="tabel-omhulsel">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Kantoor</th>
+                    {toonPlaatsOverig ? <th>Plaats</th> : null}
+                    <th>Vergunning</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {overige.map((kantoor) => (
+                    <tr key={kantoor.id}>
+                      <td>
+                        <KantoorLink naam={kantoor.naam} naar={kantoorPad(kantoor)} voluit />
+                      </td>
+                      {toonPlaatsOverig ? (
+                        <td className="zacht klein">{kantoor.plaats ?? "—"}</td>
+                      ) : null}
+                      <td className="klein">
+                        <Vergunning kantoor={kantoor} />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Inklapbaar>
+        </section>
+      ) : null}
 
       <Doorklik
         items={[

@@ -9,7 +9,7 @@ import {
   organisatiePad,
   sectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
+import { Doorklik, Foutmelding, Leeg, Vergunning } from "@/components/onderdelen";
 import { legZoekopdrachtVast } from "@/lib/zoeklog";
 
 export const metadata: Metadata = { title: "Zoeken" };
@@ -148,18 +148,12 @@ export default async function Zoekpagina({ searchParams }: Props) {
                       <Link href={kantoorPad(kantoor)}>{kantoor.naam}</Link>
                     </td>
                     <td className="getal zacht">{kantoor.afm_nummer ?? "—"}</td>
+                    {/* Hetzelfde label als op /kantoren en de kantoorpagina
+                        (vergunningSoort in lib/paden.ts). Op 5-10-2026 had elk
+                        van de drie nog een eigen regel, en zeiden ze over
+                        dezelfde kantoren "geen", "geen Wta-vergunning" en "—". */}
                     <td>
-                      {kantoor.oob_vergunning ? (
-                        <span className="label label-oob">OOB</span>
-                      ) : (
-                        <span className="zacht klein">
-                          {!kantoor.afm_nummer
-                            ? "geen"
-                            : kantoor.actief
-                              ? "Wta"
-                              : "vervallen"}
-                        </span>
-                      )}
+                      <Vergunning kantoor={kantoor} className="zacht klein" />
                     </td>
                   </tr>
                 ))}

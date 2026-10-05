@@ -221,15 +221,18 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
             <section className="kaart" id={`jaar-${gekozen}`}>
               <div className="kaartkop">
                 <h2>Boekjaar {gekozen}</h2>
-                <span className="klein zacht">
-                  {aantalWisselingen(getoond.length)}
-                  {naSlechtNieuws > 0
-                    ? ` · ${naSlechtNieuws} na een niet zonder meer goedkeurende verklaring`
-                    : ""}
-                </span>
+                {/* Kort houden: het laatste kind van een kaartkop breekt niet
+                    af (globals.css), en met de zin over slecht nieuws erbij werd
+                    de pagina op een telefoon van 375 pixels 549 pixels breed.
+                    Die zin staat nu in de alinea hieronder. */}
+                <span className="klein zacht">{aantalWisselingen(getoond.length)}</span>
               </div>
               {naSlechtNieuws > 0 ? (
                 <p className="klein zacht" style={{ marginTop: 0 }}>
+                  {naSlechtNieuws === 1
+                    ? "Eén wisseling kwam"
+                    : `${naSlechtNieuws} wisselingen kwamen`}{" "}
+                  na een niet zonder meer goedkeurende verklaring.{" "}
                   Het rode label markeert wisselingen waar de verklaring over het
                   boekjaar ervóór niet zonder meer goedkeurend was (beperking,
                   oordeelonthouding, afkeurend of continuïteitsonzekerheid) — het
@@ -282,7 +285,7 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
           ),
           {
             naar: "/kantoren",
-            tekst: "Ranglijst van kantoren met stijgers en dalers",
+            tekst: "Alle kantoren, met stijgers en dalers",
             toelichting: aantalJaren(jaren.length),
           },
         ]}

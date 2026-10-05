@@ -137,6 +137,15 @@ export type Kantoor = {
    * Wta-vergunning" is dan niet meer waar.
    */
   actief: boolean;
+  /**
+   * Staat nu met een Wta-vergunning in het AFM-register (migratie
+   * 20260730000000, in de tegenwoordige tijd). Onwaar voor de kantoren van
+   * buiten het register (seed/kantoren_overig.csv, zonder AFM-nummer) én voor
+   * een kantoor dat er uit verdween: op 5-10-2026 58 rijen, 55 zonder nummer en
+   * 3 met (migratie 20261005120000). Welk label daarbij hoort, staat op één
+   * plek: vergunningSoort() in lib/paden.ts.
+   */
+  wta_vergunning: boolean;
   website: string | null;
   /**
    * Profielvelden uit het AFM-register; leeg voor kantoren zonder vergunning.
@@ -156,6 +165,9 @@ export type Bron = {
   betrouwbaarheid: string | null;
   opgehaald_op: string;
 };
+
+/** Genoeg van een bron om het bronlabel te tonen, zonder de rest op te halen. */
+export type Bronlabel = Pick<Bron, "bron_type" | "betrouwbaarheid">;
 
 /** Eén opdracht met het kantoor en de bron er direct aan vast (PostgREST-embed). */
 export type OpdrachtMetKantoor = {
@@ -197,6 +209,9 @@ export type OpdrachtMetOrganisatie = {
   oordeel_gerapporteerd: string | null;
   continuiteitsonzekerheid: boolean | null;
   organisaties: Organisatie | null;
+  /** Voor het bronlabel in de cliëntenlijst: een cliënt die alleen uit
+   *  aangeleverd marktonderzoek komt, hoort dat label te dragen. */
+  bronnen: Bronlabel | null;
 };
 
 /**
@@ -245,7 +260,7 @@ export type Marktaandeel = {
 // maar worden hier bewust niet opgevraagd: het MVP toont de zes velden uit
 // docs/visie.md. Wie ze wil gebruiken, voegt ze hier toe — niet eerder.
 const ORG_VELDEN = "id,kvk_nummer,naam,sector,subsector,gemeente";
-const KANTOOR_KERN = "id,afm_nummer,naam,oob_vergunning,actief,website";
+const KANTOOR_KERN = "id,afm_nummer,naam,oob_vergunning,wta_vergunning,actief,website";
 const KANTOOR_PROFIEL = "plaats,rechtsvorm,vergunning_sinds";
 
 /**
@@ -411,7 +426,8 @@ export function opdrachtenVanKantoor(kantoorId: number) {
   return haalAlles<OpdrachtMetOrganisatie>(
     `opdrachten?kantoor_id=eq.${kantoorId}` +
       `&select=boekjaar,type_opdracht,oordeel,oordeel_gerapporteerd,` +
-      `continuiteitsonzekerheid,organisaties(${ORG_VELDEN})` +
+      `continuiteitsonzekerheid,organisaties(${ORG_VELDEN}),` +
+      `bronnen(bron_type,betrouwbaarheid)` +
       `&order=boekjaar.desc,id.asc`,
   );
 }
@@ -992,6 +1008,9 @@ export type HonorariumRij = {
   honorarium_nietcontrole_eur: number | null;
   organisaties: Organisatie | null;
   kantoren: Kantoor | null;
+  /** Het bedrag komt uit de jaardataset, maar welk kantoor erbij hoort kan uit
+   *  aangeleverd marktonderzoek komen; dan draagt de regel dat label. */
+  bronnen: Bronlabel | null;
 };
 
 /**
@@ -1018,7 +1037,8 @@ export async function opdrachtenMetHonoraria(): Promise<HonorariumRij[]> {
   return haalAlles<HonorariumRij>(
     "opdrachten?select=boekjaar,type_opdracht,honorarium_controle_eur," +
       "honorarium_overig_eur,honorarium_fiscaal_eur,honorarium_nietcontrole_eur," +
-      `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
+      `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN}),` +
+      "bronnen(bron_type,betrouwbaarheid)" +
       `&${HONORARIUM_FILTER}` +
       // id als laatste: de lijst beslaat twee pagina's, en zonder unieke
       // sortering mag de database bij gelijke bedragen de tweede pagina anders
