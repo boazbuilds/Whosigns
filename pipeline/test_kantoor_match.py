@@ -94,12 +94,69 @@ GEVALLEN = [
         "Dubois & Co. Registeraccountants",
     ),
     (
-        # Tekennaam van vergunninghouder 13000483; de AFM kent hem als Countus
-        # Accountants + Adviseurs B.V., op hetzelfde adres in Zwolle.
-        "tekennaam van de auditpraktijk, via de aliastabel (Ibass 2023)",
+        # Tekennaam van vergunninghouder 13000483, en sinds de snapshot van
+        # 28-9-2026 ook de naam waaronder de AFM hem kent. Tot dan heette hij in
+        # het register Countus Accountants + Adviseurs B.V., op hetzelfde adres in
+        # Zwolle; daarom staat 'Countus Audit B.V.' ook in de aliastabel.
+        "tekennaam van de auditpraktijk, nu ook de registernaam (Ibass 2023)",
         "Zwolle, 14 maart 2024 Countus Audit B.V. ValidSigned door "
         "drs. B.E.J. Seemann RA",
-        "Countus Accountants + Adviseurs B.V.",
+        "Countus Audit B.V.",
+    ),
+    # ---------- hernoemd in het register: de oude naam blijft vindbaar ----------
+    #
+    # De wekelijkse snapshot van 28-9-2026 hernoemde twee kantoren en die van
+    # 7-9-2026 een derde. Daarna vond een verklaring onder de oude registernaam
+    # niets meer, en deze test — die de seed van die dag leest — werd rood
+    # zonder dat iemand het zag. De snapshot zet de oude naam sindsdien zelf in
+    # de aliastabel; deze gevallen bewaken dat. De accountants zijn verzonnen.
+    (
+        "oude registernaam na de hernoeming van 28-9-2026 (Countus)",
+        "Zwolle, 14 maart 2024 Countus Accountants + Adviseurs B.V. "
+        "w.g. A.B. Voorbeeld RA",
+        "Countus Audit B.V.",
+    ),
+    (
+        "oude registernaam zonder rechtsvorm (Countus)",
+        "in de interne beheersing. Zwolle, 14 maart 2024 Countus Accountants + "
+        "Adviseurs ValidSigned door A.B. Voorbeeld RA",
+        "Countus Audit B.V.",
+    ),
+    (
+        "oude registernaam na de hernoeming van 28-9-2026 (Beuk)",
+        "Velsen-Zuid, 2 mei 2024 Beuk Audit B.V. was getekend C. Proef RA",
+        "Beuk Audit & Assurance B.V.",
+    ),
+    (
+        "oude registernaam na de hernoeming van 7-9-2026 (BGH)",
+        "Nijmegen, 20 juni 2024 BGH Accountants B.V. origineel getekend door "
+        "D.E. Steekproef RA",
+        "BGH Audit B.V.",
+    ),
+    # ---------- verdwenen uit het register: eigen nummer, geen opvolger ----------
+    (
+        # 13000055 viel op 28-9-2026 uit het register; dezelfde snapshot bracht
+        # 13020234, een B.V. met bijna dezelfde naam en een vergunning van zes
+        # dagen oud. Vóór kantoren_vervallen.csv kreeg de B.V. dit werk.
+        "verdwenen maatschap, niet de nieuwe B.V. (Steens 2023)",
+        "Rotterdam, 4 juni 2024 Maatschap Steens & Partners Accountants en "
+        "Adviseurs w.g. E. Fictief RA",
+        "Maatschap Steens & Partners Accountants en Adviseurs",
+    ),
+    (
+        "de nieuwe B.V. onder haar eigen naam (Steens 2026)",
+        "Rotterdam, 3 maart 2027 Steens & Partners Accountants en Adviseurs B.V. "
+        "w.g. E. Fictief RA",
+        "Steens & Partners Accountants en Adviseurs B.V.",
+    ),
+    (
+        # De AFM stond van 15-8 tot 31-8-2026 zelf in haar register, met een
+        # OOB-vergunning. Ze is nooit een accountantsorganisatie geweest en hoort
+        # dus ook als verdwenen vermelding nergens vindbaar te zijn — hier met
+        # plaats en datum ervoor, de sterkste ondertekeningscontext die er is.
+        "de toezichthouder is geen kantoor, ook niet na haar eigen registerfout",
+        "Amsterdam, 1 juni 2026 Stichting Autoriteit Financiële Markten",
+        None,
     ),
     (
         # Naam na de fusie van februari 2023; het AFM-register houdt 13000504 nog
@@ -378,6 +435,10 @@ def vervallen_vergunning(index: dict) -> list[tuple[str, bool]]:
         ("Accon AVM", True),
         ("Accon-AVM Controlepraktijk B.V.", True),
         ("Astrium Overheidsaccountants B.V.", True),
+        # Uit het AFM-register verdwenen (kantoren_vervallen.csv): zelfde
+        # redenering, alleen staat de reden er niet bij — wel de datum.
+        ("Maatschap Steens & Partners Accountants en Adviseurs", True),
+        ("VBWA B.V.", True),
         # Nooit een vergunning gehad: hier is "geen wettelijke controle" juist wél
         # het goede antwoord, en dat mag deze uitzondering niet stilletjes opheffen.
         ("WITh Accountants B.V.", False),
@@ -394,10 +455,54 @@ def vervallen_vergunning(index: dict) -> list[tuple[str, bool]]:
     return uitkomsten
 
 
+def vervallen_in_de_index() -> list[tuple[str, bool]]:
+    """Hoe bouw_index met verdwenen vergunninghouders omgaat — verzonnen kantoren.
+
+    Los van de echte seeds, zodat het gedrag vastligt ook als er vandaag geen
+    kantoor in kantoren_vervallen.csv staat dat het laat zien.
+    """
+    register = [
+        {"afm_nummer": "90000001", "naam": "Zandloper Audit B.V."},
+        {"afm_nummer": "90000004", "naam": "Duinroos Accountants N.V."},
+    ]
+    for kantoor in register:
+        kantoor.update(sleutel=kantoor["afm_nummer"], wta_vergunning=True)
+    vervallen = [
+        {"afm_nummer": "90000002", "naam": "Maatschap Zandloper Accountants"},
+        {"afm_nummer": "90000003", "naam": "Duinroos Accountants B.V."},
+        # Weer terug in het register: dan geldt de registerrij.
+        {"afm_nummer": "90000001", "naam": "Zandloper Audit B.V."},
+    ]
+    for kantoor in vervallen:
+        kantoor.update(sleutel=kantoor["afm_nummer"], wta_vergunning=False, wta_ooit=True)
+    aliassen = [{"alias": "Zandloper en Vennoten", "afm_nummer": "90000002"}]
+    index = bouw_index(register, aliassen, overige=[], vervallen=vervallen)
+
+    def wie(tekst: str) -> str | None:
+        treffer = zoek_kantoor(f"Rotterdam, 1 juni 2024 {tekst} w.g. F. Verzonnen RA", index)
+        return None if treffer is None or treffer["zwak"] else treffer["kantoor"]["afm_nummer"]
+
+    return [
+        ("vervallen: oude verklaring vindt het eigen nummer",
+         wie("Maatschap Zandloper Accountants") == "90000002"),
+        ("vervallen: vlaggen zijn wta_vergunning=False, wta_ooit=True",
+         index["maatschap zandloper accountants"]["wta_vergunning"] is False
+         and index["maatschap zandloper accountants"]["wta_ooit"] is True),
+        ("vervallen: een alias mag naar een verdwenen nummer wijzen",
+         wie("Zandloper en Vennoten") == "90000002"),
+        ("vervallen: een nummer dat weer in het register staat telt als actief",
+         index["zandloper audit"]["wta_vergunning"] is True),
+        ("vervallen: de volledige oude naam wint van de opvolger",
+         wie("Duinroos Accountants B.V.") == "90000003"),
+        ("vervallen: bij een gedeelde kernnaam wint de vergunninghouder",
+         wie("Duinroos Accountants") == "90000004"),
+    ]
+
+
 def main() -> int:
     index = bouw_index(laad_kantoren())
     fouten = 0
-    for omschrijving, goed in vervallen_vergunning(index):
+    for omschrijving, goed in vervallen_vergunning(index) + vervallen_in_de_index():
         fouten += not goed
         print(f"{'✓' if goed else '✗'} {omschrijving}")
     for omschrijving, tekst, verwacht in GEVALLEN:
@@ -415,7 +520,9 @@ def main() -> int:
             f"    verwacht: {verwacht}\n    gevonden: {gevonden}"
             + ("" if goed else f"\n    context:  {treffer['context'] if treffer else '-'}")
         )
-    gedaan = len(GEVALLEN) + len(vervallen_vergunning(index))
+    gedaan = (
+        len(GEVALLEN) + len(vervallen_vergunning(index)) + len(vervallen_in_de_index())
+    )
     print(f"\n{gedaan - fouten}/{gedaan} goed")
     return 1 if fouten else 0
 

@@ -111,7 +111,13 @@ def rij_uit_analyse(kvk: str, naam: str, plaats: str, boekjaar: int,
         return None
     kantoor = resultaat["kantoor"]
     type_opdracht = resultaat.get("opdrachttype") or "controle_onbepaald"
-    if type_opdracht == "wettelijke_controle" and not kantoor.get("wta_vergunning", True):
+    # `wta_ooit`: de vergunning is vervallen, maar bestond toen het kantoor
+    # tekende (kantoren_vervallen.csv) — dan blijft een wettelijke controle dat.
+    if (
+        type_opdracht == "wettelijke_controle"
+        and not kantoor.get("wta_vergunning", True)
+        and not kantoor.get("wta_ooit")
+    ):
         type_opdracht = "vrijwillige_controle"
     return {
         "kvk": kvk,

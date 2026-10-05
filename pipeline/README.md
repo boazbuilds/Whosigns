@@ -7,7 +7,8 @@ Python-scripts die openbare bronnen ophalen en naar het kernmodel in Supabase sc
 ```
 pipeline/
   adapters/
-    afm_register.py    ✅ AFM-kantorenregister → seed/kantoren.csv
+    afm_register.py    ✅ AFM-kantorenregister → seed/kantoren.csv (oude namen als
+                          alias, verdwenen kantoren naar kantoren_vervallen.csv)
     digimv_archief.py  ✅ client voor de archief-API (zoeken + document ophalen)
     digimv.py          ✅ organisatie → opdracht (archief + kantoor_match + verklaring)
     digimv_dataset.py  ✅ jaardataset (.ods) → doelpopulatie met controleverklaring
@@ -29,6 +30,8 @@ pipeline/
     kantoren_overig.csv ✅ kantoren zónder Wta-vergunning die controleverklaringen
                           tekenen bij organisaties zonder controleplicht
     kantoor_alias.csv  ✅ handelsnamen en oude namen na fusie/rebranding
+    kantoren_vervallen.csv ✅ vergunninghouders die uit het AFM-register verdwenen;
+                          vindbaar onder hun eigen nummer, in de database inactief
   werkvoorraad/
     stichtingen.json   ✅ de 133 blokken van de goededoelensector en wat ze opleverden;
                           de git-diff van dit bestand is het voortgangslog
@@ -40,7 +43,8 @@ pipeline/
   supabase_client.py   ✅ PostgREST-client (upsert, upsert_met_id, invoegen, selecteer)
   lus.py               ✅ laadt een sector in rondes van een paar blokken in plaats van
                           in één bulk-run (plan | stand | draai) — workflow "Stichtingenlus"
-  laad_kantoren.py     ✅ beide kantorenlijsten + aliassen → Supabase
+  laad_kantoren.py     ✅ alle kantorenlijsten + aliassen → Supabase; zet uit wat
+                          het AFM-register niet meer kent
   laad_zorg.py         ✅ zorgsector in bulk → Supabase (workflow "Zorgdata";
                           verving de vroegere laad_proefdata.py met 13 ziekenhuizen)
   laad_stichtingen.py  ✅ CBF-erkende goede doelen → Supabase (workflow "Stichtingendata")
@@ -64,7 +68,7 @@ pipeline/
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)
-  test_*.py            ✅ 28 testbestanden, zonder netwerk te draaien; alle draaien in
+  test_*.py            ✅ de testbestanden, zonder netwerk te draaien; alle draaien in
                           de workflow "Checks", samen met een ruff-lintstap
 ```
 

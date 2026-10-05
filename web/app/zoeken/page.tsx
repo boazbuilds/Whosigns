@@ -152,7 +152,13 @@ export default async function Zoekpagina({ searchParams }: Props) {
                       {kantoor.oob_vergunning ? (
                         <span className="label label-oob">OOB</span>
                       ) : (
-                        <span className="zacht klein">Wta</span>
+                        <span className="zacht klein">
+                          {!kantoor.afm_nummer
+                            ? "geen"
+                            : kantoor.actief
+                              ? "Wta"
+                              : "vervallen"}
+                        </span>
                       )}
                     </td>
                   </tr>

@@ -523,8 +523,14 @@ def main() -> int:
             # kan hier een kantoor uitkomen dat geen wettelijke controles mág
             # doen. Dan is het een vrijwillige controle bij een instelling
             # zonder controleplicht — niet een wettelijke.
-            if type_opdracht == "wettelijke_controle" and not kantoor.get(
-                "wta_vergunning", True
+            #
+            # Behalve als de vergunning er tóén wel was (`wta_ooit`): een kantoor
+            # dat sindsdien uit het AFM-register is verdwenen, tekende zijn oude
+            # verklaringen bevoegd. Zelfde regel als in laad_corporaties.py.
+            if (
+                type_opdracht == "wettelijke_controle"
+                and not kantoor.get("wta_vergunning", True)
+                and not kantoor.get("wta_ooit")
             ):
                 type_opdracht = "vrijwillige_controle"
 

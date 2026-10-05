@@ -60,8 +60,10 @@ def _opdrachttype(resultaat: dict) -> str:
         # en web/lib/paden.ts kent deze labels al.
         return soort
     kantoor = resultaat["kantoor"]
-    if not kantoor.get("wta_vergunning"):
-        # Zonder vergunning mág het geen wettelijke controle zijn.
+    if not kantoor.get("wta_vergunning") and not kantoor.get("wta_ooit"):
+        # Zonder vergunning mág het geen wettelijke controle zijn. Een kantoor dat
+        # sindsdien uit het AFM-register verdween (`wta_ooit`) had hem destijds
+        # wél; dan beslist het wta-kenmerk hieronder, net als bij een huidige.
         return "vrijwillige_controle"
     if resultaat.get("wta_kenmerk"):
         return "wettelijke_controle"
