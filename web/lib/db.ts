@@ -130,6 +130,13 @@ export type Kantoor = {
   afm_nummer: string | null;
   naam: string;
   oob_vergunning: boolean;
+  /**
+   * Onwaar zodra het AFM-nummer uit het register is verdwenen
+   * (pipeline/seed/kantoren_vervallen.csv). De rij blijft bestaan, want er hangen
+   * opdrachten aan die het kantoor destijds bevoegd tekende — maar "reguliere
+   * Wta-vergunning" is dan niet meer waar.
+   */
+  actief: boolean;
   website: string | null;
   /**
    * Profielvelden uit het AFM-register; leeg voor kantoren zonder vergunning.
@@ -238,7 +245,7 @@ export type Marktaandeel = {
 // maar worden hier bewust niet opgevraagd: het MVP toont de zes velden uit
 // docs/visie.md. Wie ze wil gebruiken, voegt ze hier toe — niet eerder.
 const ORG_VELDEN = "id,kvk_nummer,naam,sector,subsector,gemeente";
-const KANTOOR_KERN = "id,afm_nummer,naam,oob_vergunning,website";
+const KANTOOR_KERN = "id,afm_nummer,naam,oob_vergunning,actief,website";
 const KANTOOR_PROFIEL = "plaats,rechtsvorm,vergunning_sinds";
 
 /**

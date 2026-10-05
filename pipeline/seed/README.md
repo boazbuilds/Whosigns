@@ -15,3 +15,21 @@ Momentopname van het **AFM-vergunningenregister accountantsorganisaties**, gemaa
   de tabel `kantoren` (sleutel `afm_nummer`), met bronregistratie (`afm_register`).
 - **Dubbelrol:** dit is ook de matchlijst waarmee we in Fase 1 kantoornamen uit de
   verklaring-pdf's vissen (tekstmatch, geen LLM) — zie `../adapters/digimv.md`.
+- **Wat de snapshot verder doet** (sinds 5-10-2026): een hernoemd kantoor (zelfde
+  nummer, andere naam) krijgt zijn oude naam als regel in `kantoor_alias.csv`, een
+  verdwenen kantoor gaat naar `kantoren_vervallen.csv`, en een export die ineens
+  een tiende korter is wordt geweigerd. De workflow draait daarna alle tests tegen
+  de nieuwe seed en wordt rood als er een faalt.
+
+## kantoren_vervallen.csv
+
+Vergunninghouders die uit het AFM-register zijn verdwenen. Hun oude verklaringen
+bestaan nog, dus ze blijven onder hun eigen AFM-nummer vindbaar
+(`wta_vergunning` onwaar, `wta_ooit` waar); in de database worden ze inactief en
+verliezen ze hun OOB- en Wta-vlag. Bewust nooit aan een opvolger gekoppeld: een
+nieuw vergunningnummer is een nieuwe vergunninghouder.
+
+`afwezig_sinds` is de datum van de eerste wekelijkse snapshot zonder het nummer,
+niet de datum waarop de vergunning eindigde. Wat nooit een accountantsorganisatie
+was (de AFM zelf, 15-8 tot 31-8-2026) komt hier niet in — zie
+`GEEN_ACCOUNTANTSORGANISATIE` in `../adapters/afm_register.py`.

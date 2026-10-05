@@ -311,10 +311,12 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
               <span>
                 {kantoor.oob_vergunning ? (
                   <span className="label label-oob">OOB-vergunning</span>
-                ) : kantoor.afm_nummer ? (
+                ) : !kantoor.afm_nummer ? (
+                  "geen Wta-vergunning"
+                ) : kantoor.actief ? (
                   "reguliere Wta-vergunning"
                 ) : (
-                  "geen Wta-vergunning"
+                  "niet meer in het AFM-register"
                 )}
               </span>
               {kantoor.plaats ? <span>{kantoor.plaats}</span> : null}

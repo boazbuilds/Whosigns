@@ -15,6 +15,11 @@ Elk kantoor in de index heeft daarom `wta_vergunning`: True/False. De aanroeper
 gebruikt dat om het opdrachttype te bepalen — een vrijwillige controle is een ander
 product dan een wettelijke en mag niet in dezelfde marktaandelen belanden.
 
+Een derde, kleiner deel: `seed/kantoren_vervallen.csv`, de vergunninghouders die
+uit het AFM-register zijn verdwenen. Hun oude verklaringen bestaan nog, dus ze
+blijven onder hun eigen AFM-nummer vindbaar — met `wta_vergunning` False (ze staan
+er niet meer in) en `wta_ooit` True (ze tekenden destijds bevoegd).
+
 Werkwijze:
 1. Normaliseer tekst en kantoornamen (kleine letters, leestekens weg, spaties samen).
 2. Bouw per kantoor zoeksleutels: de volledige naam en de kernnaam zonder rechtsvorm
@@ -39,6 +44,7 @@ from pathlib import Path
 
 SEED_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren.csv"
 OVERIG_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren_overig.csv"
+VERVALLEN_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren_vervallen.csv"
 ALIAS_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoor_alias.csv"
 
 # Rechtsvormen en ruis die we van namen afhalen om de kernnaam te krijgen.
@@ -117,6 +123,35 @@ def laad_overige_kantoren(pad: Path = OVERIG_PAD) -> list[dict]:
     return kantoren
 
 
+def laad_vervallen_kantoren(pad: Path = VERVALLEN_PAD) -> list[dict]:
+    """Vergunninghouders die uit het AFM-register zijn verdwenen.
+
+    Waarom ze in de index blijven: kantoor_match bouwde zijn index alleen uit de
+    snapshot van deze week. Viel een kantoor eruit, dan vond een verklaring van
+    vorig jaar met precies die naam niets meer — of erger, een opvolger met een
+    gelijkende naam. Zo matchte 'Maatschap Steens & Partners Accountants en
+    Adviseurs' na de snapshot van 28-9-2026 op de B.V. die zes dagen eerder een
+    eigen, nieuwe vergunning kreeg (13020234), terwijl de maatschap zelf
+    13000055 was en die verklaringen tekende.
+
+    Sleutel blijft het AFM-nummer, zodat de lader de bestaande databaserij
+    terugvindt in plaats van er een tweede naast te zetten. `wta_vergunning` is
+    False omdat het veld in de tegenwoordige tijd staat; `wta_ooit` True, want
+    tot de dag van verdwijnen stond het kantoor in het register — zelfde
+    redenering als bij `wta_vervallen` in kantoren_overig.csv.
+    """
+    if not pad.exists():
+        return []
+    with pad.open(encoding="utf-8") as f:
+        kantoren = list(csv.DictReader(f))
+    for kantoor in kantoren:
+        kantoor["sleutel"] = kantoor["afm_nummer"]
+        kantoor["wta_vergunning"] = False
+        kantoor["wta_ooit"] = True
+        kantoor["oob_vergunning"] = "nee"
+    return kantoren
+
+
 def laad_aliassen(pad: Path = ALIAS_PAD) -> list[dict]:
     """Handelsnamen en oude namen (fusies, rebranding) -> AFM-nummer."""
     if not pad.exists():
@@ -139,12 +174,14 @@ def bouw_index(
     kantoren: list[dict],
     aliassen: list[dict] | None = None,
     overige: list[dict] | None = None,
+    vervallen: list[dict] | None = None,
 ) -> dict[str, dict]:
     """Zoeksleutel -> kantoor. Langere sleutels winnen bij het matchen.
 
     `overige` zijn de kantoren zonder Wta-vergunning; laat het weg om alleen op het
     AFM-register te matchen (bijvoorbeeld bij een bron waar per definitie een
     wettelijke controle ligt). `None` betekent: lees `seed/kantoren_overig.csv`.
+    `vervallen` idem voor `seed/kantoren_vervallen.csv`.
     """
     index: dict[str, dict] = {}
 
@@ -159,7 +196,15 @@ def bouw_index(
         if bestaand is None or _rangschik(kantoor) < _rangschik(bestaand):
             index[sleutel] = kantoor
 
-    alle = list(kantoren) + (
+    # Een nummer dat weer in het register staat is niet meer vervallen: dan wint
+    # de rij uit de snapshot van deze week.
+    in_register = {k["afm_nummer"] for k in kantoren}
+    weg = [
+        k
+        for k in (laad_vervallen_kantoren() if vervallen is None else vervallen)
+        if k["afm_nummer"] not in in_register
+    ]
+    alle = list(kantoren) + weg + (
         laad_overige_kantoren() if overige is None else list(overige)
     )
     for kantoor in alle:
@@ -168,7 +213,10 @@ def bouw_index(
             for sleutel in {normaliseer(naam), kernnaam(naam)}:
                 voeg_toe(sleutel, kantoor)
 
-    op_nummer = {k["afm_nummer"]: k for k in kantoren}
+    # Een alias mag ook naar een verdwenen nummer wijzen. Zonder dat liep elke
+    # lader stuk op de ValueError hieronder zodra een kantoor mét aliassen uit
+    # het register viel.
+    op_nummer = {k["afm_nummer"]: k for k in list(kantoren) + weg}
     for rij in laad_aliassen() if aliassen is None else aliassen:
         kantoor = op_nummer.get(rij["afm_nummer"])
         if kantoor is None:

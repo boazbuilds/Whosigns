@@ -169,6 +169,15 @@ controleer(
     "dezelfde vertaalslag als in laad_zorg.py",
 )
 
+vervallen = analyse()
+vervallen["kantoor"] = dict(vervallen["kantoor"], wta_vergunning=False, wta_ooit=True)
+controleer(
+    "wettelijke controle bij een kantoor dat later uit het register verdween blijft wettelijk",
+    rij_uit_analyse("1", "X", "Y", 2019, vervallen)["type_opdracht"]
+    == "wettelijke_controle",
+    "wta_ooit: de vergunning bestond toen het kantoor tekende (kantoren_vervallen.csv)",
+)
+
 controleer(
     "geen oordeel wordt een lege cel, geen None-tekst",
     rij_uit_analyse("1", "X", "Y", 2019, analyse(oordeel=None))["oordeel"] == "",
