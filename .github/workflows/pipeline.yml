@@ -88,6 +88,9 @@ jobs:
           MISLUKT: ${{ steps.tests.outputs.mislukt }}
         run: |
           for test in $MISLUKT; do
-            echo "::error::$test faalt op de seed van deze snapshot"
+            # Neutraal: dit bestand faalt ná deze snapshot. Of de seed de
+            # oorzaak is, zegt deze stap niet; een test die al op main faalde
+            # staat hier ook.
+            echo "::error::$test faalt na deze snapshot"
           done
           exit 1

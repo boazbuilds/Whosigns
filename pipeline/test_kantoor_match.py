@@ -114,24 +114,24 @@ GEVALLEN = [
         "oude registernaam na de hernoeming van 28-9-2026 (Countus)",
         "Zwolle, 14 maart 2024 Countus Accountants + Adviseurs B.V. "
         "w.g. A.B. Voorbeeld RA",
-        "Countus Audit B.V.",
+        "13000483",  # Countus Audit B.V.
     ),
     (
         "oude registernaam zonder rechtsvorm (Countus)",
         "in de interne beheersing. Zwolle, 14 maart 2024 Countus Accountants + "
         "Adviseurs ValidSigned door A.B. Voorbeeld RA",
-        "Countus Audit B.V.",
+        "13000483",  # Countus Audit B.V.
     ),
     (
         "oude registernaam na de hernoeming van 28-9-2026 (Beuk)",
         "Velsen-Zuid, 2 mei 2024 Beuk Audit B.V. was getekend C. Proef RA",
-        "Beuk Audit & Assurance B.V.",
+        "13020109",  # Beuk Audit & Assurance B.V.
     ),
     (
         "oude registernaam na de hernoeming van 7-9-2026 (BGH)",
         "Nijmegen, 20 juni 2024 BGH Accountants B.V. origineel getekend door "
         "D.E. Steekproef RA",
-        "BGH Audit B.V.",
+        "13000276",  # BGH Audit B.V.
     ),
     # ---------- verdwenen uit het register: eigen nummer, geen opvolger ----------
     (
@@ -510,8 +510,14 @@ def main() -> int:
         # Een zwakke treffer is geen vastgesteld kantoor (die gaat naar de
         # review-queue), dus die telt hier als "niet gematcht" — precies zoals
         # verklaring.analyseer() ermee omgaat.
+        # Een verwachting van alleen cijfers is een AFM-nummer, de rest een
+        # registernaam. De hernoemingsgevallen hieronder gaan over het nummer:
+        # "de oude naam geeft hetzelfde kantoor". Op naam vergeleken werd deze
+        # test bij elke volgende hernoeming weer rood, terwijl de match goed
+        # bleef.
+        sleutel = "afm_nummer" if verwacht and verwacht.isdigit() else "naam"
         gevonden = (
-            None if treffer is None or treffer["zwak"] else treffer["kantoor"]["naam"]
+            None if treffer is None or treffer["zwak"] else treffer["kantoor"][sleutel]
         )
         goed = gevonden == verwacht
         fouten += not goed
