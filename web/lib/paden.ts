@@ -50,12 +50,47 @@ export function organisatiePad(
  *  krijgen `k<id>` als sleutel in de URL. Met alleen het AFM-nummer was hun
  *  adres `/kantoor/-with-accountants-b-v` en liep élke link naar zo'n kantoor
  *  dood op een 404 — terwijl juist zij in de goededoelensector de meeste
- *  verklaringen tekenen. */
+ *  verklaringen tekenen.
+ *
+ *  Het id is verplicht, niet optioneel. Zolang het optioneel was gaven drie
+ *  aanroepen het niet mee (stijgers en dalers op /kantoren, de
+ *  prijsontwikkeling op /honoraria), en daar liep de link alsnog op een 404:
+ *  gemeten op 5-10-2026 bij Astrium, Hofsteenge, Ipa-Acon, Kroese Wevers en
+ *  DRV, vijf van de 55 kantoren zonder AFM-nummer. Verplicht maakt de
+ *  typecontrole er een fout van in plaats van een dode link. */
 export function kantoorPad(
-  kantoor: Pick<Kantoor, "afm_nummer" | "naam"> & { id?: number },
+  kantoor: Pick<Kantoor, "afm_nummer" | "naam"> & { id: number },
 ): string {
-  const sleutel = kantoor.afm_nummer ?? (kantoor.id != null ? `k${kantoor.id}` : "");
+  const sleutel = kantoor.afm_nummer ?? `k${kantoor.id}`;
   return `/kantoor/${sleutel}-${slug(kantoor.naam)}`;
+}
+
+/** Wat een kantoor nu mag, voor het label achter zijn naam. */
+export type Vergunningsoort = "oob" | "wta" | "vervallen" | "geen";
+
+/**
+ * Eén regel voor het vergunningslabel, voor /zoeken, /kantoren en de
+ * kantoorpagina. Op 5-10-2026 had elk van die drie een eigen regel — op AFM-
+ * nummer, op wta_vergunning en op actief — en heetten dezelfde kantoren er
+ * "geen", "geen Wta-vergunning" en "—".
+ *
+ * Verdwenen uit het register gaat vóór de vlaggen. De lader haalt die vlaggen
+ * weg zodra een nummer verdwijnt, maar tot 5-10-2026 deed hij dat niet: de AFM
+ * zelf stond toen vijf weken na haar verdwijning nog met OOB-vlag in de
+ * database (migratie 20261005120000). Een achtergebleven vlag mag een
+ * vervallen kantoor geen vergunninghouder meer maken.
+ *
+ * Zonder AFM-nummer is het altijd "geen": dat zijn de kantoren van buiten het
+ * register (seed/kantoren_overig.csv), op 5-10-2026 55 van de 291.
+ */
+export function vergunningSoort(
+  kantoor: Pick<Kantoor, "afm_nummer" | "oob_vergunning" | "wta_vergunning" | "actief">,
+): Vergunningsoort {
+  if (!kantoor.afm_nummer) return "geen";
+  if (!kantoor.actief) return "vervallen";
+  if (kantoor.oob_vergunning) return "oob";
+  if (kantoor.wta_vergunning) return "wta";
+  return "geen";
 }
 
 export function sectorPad(sector: string): string {

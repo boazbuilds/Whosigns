@@ -8,7 +8,13 @@
  * de website.
  */
 
-import type { Kantoor, OpdrachtMetKantoor, OpdrachtMetOrganisatie } from "./db";
+import type {
+  Bronlabel,
+  Kantoor,
+  OpdrachtMetKantoor,
+  OpdrachtMetOrganisatie,
+} from "./db";
+import { CONTROLE_TYPES } from "./paden";
 
 /**
  * Welke opdrachttypen tellen als "de accountant van de organisatie", en wie
@@ -19,25 +25,19 @@ import type { Kantoor, OpdrachtMetKantoor, OpdrachtMetOrganisatie } from "./db";
  * jaarrekening gewoon bij A bleef — of ging de kop "Huidige accountant" over
  * de WNT-controleur.
  *
- * `controle_onbepaald` telt hier wél mee en in de SQL-views níét. Dat verschil
- * is met opzet, maar het stond hier verkeerd opgeschreven: er stond dat het
- * "ís de jaarrekeningcontrole". Dat is precies wat we niet weten. laad_zorg.py
- * geeft dit type juist aan een verklaring waarvan het voorwerp níét viel vast
- * te stellen, in plaats van het zwaarste type te gokken — het kan dus net zo
- * goed een WNT-verantwoording zijn.
+ * `controle_onbepaald` telt hier mee voor de kop "Huidige accountant" en de
+ * relatiegeschiedenis, maar níét voor een wisseling (zie `wisseljaren`). Het
+ * is precies wat we niet weten: laad_zorg.py geeft dit type aan een verklaring
+ * waarvan het voorwerp níét viel vast te stellen, en het marktonderzoek levert
+ * niets anders aan. Toch weglaten zou de pagina leeg maken van 11.646
+ * organisaties die alleen uit marktonderzoek bekend zijn (gemeten 5-10-2026);
+ * daar staat nu het label "controle, voorwerp onbekend" naast, en het
+ * bronlabel "marktonderzoek".
  *
- * Waarom het hier tóch meetelt: op de organisatiepagina staat naast dit jaar
- * het label "controle, voorwerp onbekend" (SOORTGROEP zet het op `onbekend`,
- * met uitleg in de titel). De lezer ziet de onzekerheid dus in dezelfde regel
- * als de bewering. Weglaten zou 49 organisatie-boekjaren leeg maken, waarvan er
- * 22 organisaties zijn die verder geen enkele kantoorrelatie hebben — een
- * gelezen, ondertekende verklaring die nergens meer te zien is.
- *
- * In de views telt het niet mee, want daar zou het ongemerkt als
- * jaarrekeningcontrole in een marktaandeel belanden. Gemeten op 20-8-2026 gaat
- * het om 49 opdrachten bij 41 organisaties, verdeeld over 2019-2025. Zouden de
- * views ze meenemen, dan groeit v_wisselingen van 1.689 naar 1.691 rijen en
- * v_relatieduur van 8.108 naar 8.127.
+ * In de SQL-views telt het niet mee, want daar zou het ongemerkt als
+ * jaarrekeningcontrole in een marktaandeel belanden. Op 20-8-2026 ging het nog
+ * om 49 opdrachten bij 41 organisaties; sinds het marktonderzoek om 35.637,
+ * waarvan 35.582 uit het marktonderzoek zelf.
  */
 const TYPE_VOORRANG: Record<string, number> = {
   wettelijke_controle: 0,
@@ -45,26 +45,59 @@ const TYPE_VOORRANG: Record<string, number> = {
   controle_onbepaald: 2,
 };
 
+/**
+ * Dezelfde voorrang, maar alleen de typen die v_wisselingen meetelt: de
+ * wettelijke en de vrijwillige controle (CONTROLE_TYPES, migratie
+ * 20260730000000). Hierop rust `wisseljaren`, zodat de organisatiepagina
+ * dezelfde wisselingen aanwijst als /wisselingen.
+ */
+const WISSEL_VOORRANG: Record<string, number> = Object.fromEntries(
+  CONTROLE_TYPES.map((type) => [type, TYPE_VOORRANG[type]]),
+);
+
+/** Het kantoor van één boekjaar, met de bron van de opdracht die won. */
+type Jaarkantoor = { kantoor: Kantoor; bron: Bronlabel | null };
+
+/**
+ * 1 voor een aangeleverde bron, 0 voor een openbare. Bij verder gelijke
+ * opdrachten (zelfde type, zelfde kantoor) wint zo de openbare, en staat het
+ * label "marktonderzoek" alleen waar er voor dat jaar niets openbaars is — niet
+ * afhankelijk van welke rij de database het eerst teruggeeft.
+ */
+function aangeleverd(bron: Bronlabel | null | undefined): number {
+  return bron?.betrouwbaarheid === "zelf_aangeleverd" ? 1 : 0;
+}
+
 /** Per boekjaar het kantoor van de jaarrekeningcontrole (voorrang: wettelijk
  *  boven vrijwillig boven onbepaald; daarbinnen het laagste kantoor-id, zodat
  *  de uitkomst niet afhangt van de rijvolgorde uit de database). */
 function controleKantoorPerJaar(
   opdrachten: OpdrachtMetKantoor[],
-): Map<number, Kantoor> {
-  const perJaar = new Map<number, { kantoor: Kantoor; voorrang: number }>();
+  voorrangPerType: Record<string, number> = TYPE_VOORRANG,
+): Map<number, Jaarkantoor> {
+  const perJaar = new Map<number, Jaarkantoor & { voorrang: number }>();
   for (const opdracht of opdrachten) {
-    const voorrang = TYPE_VOORRANG[opdracht.type_opdracht];
+    const voorrang = voorrangPerType[opdracht.type_opdracht];
     if (voorrang === undefined || !opdracht.kantoren) continue;
     const bestaand = perJaar.get(opdracht.boekjaar);
     if (
       !bestaand ||
       voorrang < bestaand.voorrang ||
-      (voorrang === bestaand.voorrang && opdracht.kantoren.id < bestaand.kantoor.id)
+      (voorrang === bestaand.voorrang && opdracht.kantoren.id < bestaand.kantoor.id) ||
+      (voorrang === bestaand.voorrang &&
+        opdracht.kantoren.id === bestaand.kantoor.id &&
+        aangeleverd(opdracht.bronnen) < aangeleverd(bestaand.bron))
     ) {
-      perJaar.set(opdracht.boekjaar, { kantoor: opdracht.kantoren, voorrang });
+      perJaar.set(opdracht.boekjaar, {
+        kantoor: opdracht.kantoren,
+        bron: opdracht.bronnen,
+        voorrang,
+      });
     }
   }
-  return new Map([...perJaar.entries()].map(([jaar, r]) => [jaar, r.kantoor]));
+  return new Map(
+    [...perJaar.entries()].map(([jaar, { voorrang: _v, ...rest }]) => [jaar, rest]),
+  );
 }
 
 /** De reeks boekjaren die aaneengesloten bij hetzelfde kantoor horen. */
@@ -73,6 +106,11 @@ export type Periode = {
   kantoorNaam: string;
   afmNummer: string | null;
   jaren: number[];
+  /** Boekjaren in deze periode waarvan het kantoor alleen uit een
+   *  aangeleverde bron komt (het marktonderzoek), met die bron erbij; leeg en
+   *  null als elk jaar uit een openbare bron komt. */
+  aangeleverdeJaren: number[];
+  aangeleverd: Bronlabel | null;
 };
 
 /**
@@ -87,43 +125,72 @@ export function periodes(opdrachten: OpdrachtMetKantoor[]): Periode[] {
   const jaren = [...perJaar.keys()].sort((a, b) => b - a);
   const uit: Periode[] = [];
   for (const jaar of jaren) {
-    const kantoor = perJaar.get(jaar)!;
+    const { kantoor, bron } = perJaar.get(jaar)!;
     const laatste = uit[uit.length - 1];
     const vorigJaar = laatste?.jaren[laatste.jaren.length - 1];
+    let periode: Periode;
     if (laatste && laatste.kantoorId === kantoor.id && vorigJaar === jaar + 1) {
-      laatste.jaren.push(jaar);
+      periode = laatste;
+      periode.jaren.push(jaar);
     } else {
-      uit.push({
+      periode = {
         kantoorId: kantoor.id,
         kantoorNaam: kantoor.naam,
         afmNummer: kantoor.afm_nummer,
         jaren: [jaar],
-      });
+        aangeleverdeJaren: [],
+        aangeleverd: null,
+      };
+      uit.push(periode);
+    }
+    if (bron?.betrouwbaarheid === "zelf_aangeleverd") {
+      periode.aangeleverdeJaren.push(jaar);
+      periode.aangeleverd ??= bron;
     }
   }
   return uit;
 }
 
-/**
- * Boekjaren waarin het controlerende kantoor anders was dan het boekjaar ervoor:
- * opeenvolgende jaren, ander kantoor.
- *
- * Bijna dezelfde definitie als v_wisselingen, maar niet helemaal, en hier stond
- * eerst dat het er wél dezelfde was. Het verschil zit in `controle_onbepaald`
- * (zie TYPE_VOORRANG hierboven): twee wisselingen die deze functie aanwijst
- * staan daardoor niet op /wisselingen. Op de organisatiepagina staan ze naast
- * het label "controle, voorwerp onbekend"; /wisselingen laat ze weg omdat een
- * verklaring waarvan het voorwerp onbekend is geen bewijs is dat de
- * jaarrekeningcontrole verhuisde.
- */
-export function wisseljaren(opdrachten: OpdrachtMetKantoor[]): Set<number> {
-  const perJaar = controleKantoorPerJaar(opdrachten);
+/** Opeenvolgende boekjaren met een ander kantoor, volgens deze voorrang. */
+function overgangen(perJaar: Map<number, Jaarkantoor>): Set<number> {
   const jaren = new Set<number>();
-  for (const [jaar, kantoor] of perJaar) {
+  for (const [jaar, { kantoor }] of perJaar) {
     const vorige = perJaar.get(jaar - 1);
-    if (vorige && vorige.id !== kantoor.id) jaren.add(jaar);
+    if (vorige && vorige.kantoor.id !== kantoor.id) jaren.add(jaar);
   }
   return jaren;
+}
+
+/**
+ * Boekjaren waarin het controlerende kantoor anders was dan het boekjaar ervoor:
+ * opeenvolgende jaren, ander kantoor — alleen op wettelijke en vrijwillige
+ * controles, precies zoals v_wisselingen.
+ *
+ * Tot 5-10-2026 telde `controle_onbepaald` hier mee. Toen dat 49 gelezen
+ * zorgverklaringen waren was het verschil met /wisselingen twee wisselingen;
+ * met het marktonderzoek erbij werden het er 517, bij 495 organisaties (2.226
+ * tegen 1.709 in v_wisselingen). Een regel uit het marktonderzoek bij kantoor
+ * B na een gelezen verklaring van kantoor A kreeg zo het label "wisseling",
+ * met "gewisseld in boekjaar X" in de kop en een doorklik naar /wisselingen
+ * waar hij niet stond. Met deze set wijzen pagina en view exact dezelfde
+ * 1.709 wisselingen aan.
+ */
+export function wisseljaren(opdrachten: OpdrachtMetKantoor[]): Set<number> {
+  return overgangen(controleKantoorPerJaar(opdrachten, WISSEL_VOORRANG));
+}
+
+/**
+ * Boekjaren met een ander kantoor dan het jaar ervoor die géén wisseling zijn,
+ * omdat aan één kant alleen een controle staat waarvan het voorwerp onbekend
+ * is. De organisatiepagina zet daar een neutraal label bij in plaats van
+ * "wisseling": het kantoor is anders, maar dat de jaarrekeningcontrole
+ * verhuisde is niet vastgesteld.
+ */
+export function onbevestigdeWisseljaren(opdrachten: OpdrachtMetKantoor[]): Set<number> {
+  const bevestigd = wisseljaren(opdrachten);
+  return new Set(
+    [...overgangen(controleKantoorPerJaar(opdrachten))].filter((jaar) => !bevestigd.has(jaar)),
+  );
 }
 
 export type Clientregel = {
@@ -146,6 +213,9 @@ export type Clientregel = {
    *  jaarrekeningcontroles ook WNT- of productieverantwoordingen kan doen; die
    *  ongemerkt als cliënt tonen suggereert meer dan er staat. */
   typeLaatste: string;
+  /** De bron van die opdracht. Een cliënt die er alleen staat dankzij het
+   *  aangeleverde marktonderzoek draagt in de lijst dat label. */
+  bronLaatste: Bronlabel | null;
 };
 
 /** De stand van één boekjaar binnen één cliëntrelatie. */
@@ -153,6 +223,7 @@ type Jaarstand = {
   oordeel: string | null;
   oordeelOpgave: string | null;
   type: string;
+  bron: Bronlabel | null;
   voorrang: number;
 };
 
@@ -198,6 +269,7 @@ export function clientenVanKantoor(
         oordeelLaatste: opdracht.oordeel,
         oordeelOpgaveLaatste: opdracht.oordeel_gerapporteerd,
         typeLaatste: opdracht.type_opdracht,
+        bronLaatste: opdracht.bronnen,
         voorrangLaatste: voorrang,
         perJaar: new Map(),
       };
@@ -207,20 +279,29 @@ export function clientenVanKantoor(
     if (
       opdracht.boekjaar > regel.laatsteBoekjaar ||
       (opdracht.boekjaar === regel.laatsteBoekjaar &&
-        voorrang < regel.voorrangLaatste)
+        (voorrang < regel.voorrangLaatste ||
+          (voorrang === regel.voorrangLaatste &&
+            aangeleverd(opdracht.bronnen) < aangeleverd(regel.bronLaatste))))
     ) {
       regel.laatsteBoekjaar = opdracht.boekjaar;
       regel.oordeelLaatste = opdracht.oordeel;
       regel.oordeelOpgaveLaatste = opdracht.oordeel_gerapporteerd;
       regel.typeLaatste = opdracht.type_opdracht;
+      regel.bronLaatste = opdracht.bronnen;
       regel.voorrangLaatste = voorrang;
     }
     const jaarstand = regel.perJaar.get(opdracht.boekjaar);
-    if (!jaarstand || voorrang < jaarstand.voorrang) {
+    if (
+      !jaarstand ||
+      voorrang < jaarstand.voorrang ||
+      (voorrang === jaarstand.voorrang &&
+        aangeleverd(opdracht.bronnen) < aangeleverd(jaarstand.bron))
+    ) {
       regel.perJaar.set(opdracht.boekjaar, {
         oordeel: opdracht.oordeel,
         oordeelOpgave: opdracht.oordeel_gerapporteerd,
         type: opdracht.type_opdracht,
+        bron: opdracht.bronnen,
         voorrang,
       });
     }
@@ -247,6 +328,7 @@ export function clientenVanKantoor(
         oordeelLaatste: stand.oordeel,
         oordeelOpgaveLaatste: stand.oordeelOpgave,
         typeLaatste: stand.type,
+        bronLaatste: stand.bron,
       };
     })
     .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));

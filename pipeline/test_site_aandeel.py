@@ -1,4 +1,4 @@
-"""Test: de site mag een aandeel geen marktaandeel noemen.
+"""Test: een aandeel of plek geldt binnen één sector én één boekjaar.
 
 Waarom dit bestaat. Op de voorpagina en op /kantoren stond onder het podium
 "% van de markt". Die noemer is de som van alle controles die voor dat boekjaar
@@ -17,15 +17,33 @@ toenaam: Deloitte stond in 2007 op 43,8% en in 2024 op 12,2%, en dat verschil
 komt volledig doordat er sectoren bij kwamen waarin Deloitte minder sterk is —
 niet doordat het kantoor cliënten verloor.
 
-Per sector klopt het aandeel wél. Dat rekent v_marktaandeel uit, gepartitioneerd
-per (boekjaar, sector), en zo staat het op /sectoren en /sector/[naam]. Die
-partitie werd op de twee ranglijstpagina's ongedaan gemaakt door alles op te
-tellen en er opnieuw een percentage over te nemen.
+Daarna heette het "% van wat er in de database staat", met een disclaimer. Dat
+bleef een aandeel over sectoren heen. En de sectorpagina telde wél binnen één
+sector, maar over álle boekjaren samen: op 5-10-2026 stond Deloitte daar bij de
+woningcorporaties op 27,3% (1.666 van 6.093 over 2007–2024), terwijl het per
+jaar tussen 11 en 16% lag; de financiële dienstverlening kreeg "Eshuis 54,5%"
+op 6 van 11 controles verspreid over dertien jaar. De kantoorpagina zette
+"18,2% van alles wat in deze database staat" en "#1 in de ranglijst" onder
+Deloitte, beide over alle sectoren en jaren.
+
+De regel is sindsdien: een percentage of een plek alleen binnen één sector en
+één boekjaar — het nieuwste boekjaar dat voor die sector al compleet is
+(nieuwsteCompleteBoekjaar in web/lib/voorpagina.ts). Waar een pagina sectoren
+of jaren samen toont, staan er aantallen: van veel naar weinig, maar zonder
+podium en zonder rangnummer. De eerste versie van deze regel haalde alleen het
+percentage weg; de voorpagina hield een podium (PwC 290, Deloitte 272, BDO 268
+in 2024) en /kantoren?jaar=alles "De top drie in alle boekjaren" met Deloitte
+op 1 — een plek over alle sectoren en over 2007–2025 samen.
+
+Op de sectorpagina deelt het podium bij gelijke aantallen dezelfde plek uit
+als de tabel. Het deelde eerst 1, 2, 3 uit in sorteervolgorde: bij de overheid
+in 2024 (46, 30, 26 en 26 controles) stond één van de twee met 26 op het
+podium en de ander niet.
 
 Deze test kijkt naar de tekst van de pagina's, want dit is een bewering en geen
-berekening: het getal was al die tijd rekenkundig juist, alleen het bijschrift
-was onwaar. Whitespace wordt eerst platgeslagen, zodat het opnieuw afbreken van
-een JSX-regel de test niet rood maakt.
+berekening: het getal was al die tijd rekenkundig juist, alleen de noemer was
+de verkeerde. Whitespace wordt eerst platgeslagen, zodat het opnieuw afbreken
+van een JSX-regel de test niet rood maakt.
 """
 
 import re
@@ -50,8 +68,8 @@ def check(omschrijving: str, voorwaarde: bool) -> None:
 # Commentaar telt niet mee. Deze test gaat over wat een bezoeker leest, en de
 # uitleg boven de som citeert juist de oude, onware zin — anders zou een correcte
 # pagina rood worden om zijn eigen verantwoording. Blokcommentaar gaat er in zijn
-# geheel uit; regelcommentaar alleen als het een hele regel is, zodat "https://"
-# midden in een regel blijft staan.
+# geheel uit, ook als JSX-commentaar; regelcommentaar alleen als het een hele
+# regel is, zodat "https://" midden in een regel blijft staan.
 BLOKCOMMENTAAR = re.compile(r"/\*.*?\*/", re.DOTALL)
 REGELCOMMENTAAR = re.compile(r"(?m)^[ \t]*//.*$")
 
@@ -75,30 +93,60 @@ check(
     not schuldig,
 )
 
-# --- de twee pagina's die het toch tonen, zeggen erbij wat het is ---------------
+# --- de twee ranglijsten over alle sectoren tonen alleen aantallen -------------
 for naam in ("app/page.tsx", "app/kantoren/page.tsx"):
     pad = WEB / naam
-    tekst = plat(pad)
     check(f"{naam} bestaat nog", pad.exists())
     if not pad.exists():
         continue
+    tekst = plat(pad)
     check(
-        f"{naam} rekent nog steeds een aandeel uit over de hele ranglijst",
-        "aantal_controles / totaal" in tekst.replace("  ", " "),
+        f"{naam} rekent geen aandeel meer uit over de hele ranglijst",
+        "aantal_controles / totaal" not in tekst
+        and "aantal_controles / totaalControles" not in tekst,
     )
     check(
-        f"{naam} zegt erbij dat het over de database gaat en niet over de markt",
-        "in de database staat, niet van de hele markt" in tekst,
+        f"{naam} zet geen Aandeelbalk (met percentage) in een ranglijst over "
+        "alle sectoren; een Telbalk zonder percentage mag",
+        "<Aandeelbalk" not in tekst and "<Telbalk" in tekst,
     )
     check(
-        f"{naam} wijst door naar de sectoren, waar het aandeel wél klopt",
+        f"{naam} zegt erbij dat een aandeel alleen binnen één sector en één "
+        "boekjaar geldt",
+        "alleen binnen één sector en één boekjaar" in tekst,
+    )
+    check(
+        f"{naam} geeft over alle sectoren heen geen plek: geen podium, geen "
+        "rangnummer, geen kop 'Ranglijst' of 'top drie'",
+        "<Podiumplek" not in tekst
+        and "<Rang " not in tekst
+        and "<h2>Ranglijst" not in tekst
+        and "top drie" not in tekst
+        and "De grootste kantoren" not in tekst,
+    )
+    check(
+        f"{naam} wijst door naar de sectoren, waar het aandeel wél staat",
         'href="/sectoren"' in tekst,
     )
     check(
-        f"{naam} noemt de noemer bij het percentage, zodat het zichtbaar is "
-        "waarover het percentage gaat",
-        "controles`}" in tekst,
+        f"{naam} opent op het nieuwste complete boekjaar, met de regel uit "
+        "voorpagina.ts, en niet op het nieuwste boekjaar zonder meer",
+        "nieuwsteCompleteBoekjaar(" in tekst
+        and "boekjarenMetControles())[0]" not in tekst
+        and ": jaren[0] ?? null" not in tekst,
     )
+
+# --- de compleetheidsregel staat op één plek ------------------------------------
+voorpagina = plat(WEB / "lib/voorpagina.ts")
+check(
+    "nieuwsteCompleteBoekjaar staat naast LEIDER_COMPLEET en gebruikt die",
+    "export function nieuwsteCompleteBoekjaar(" in voorpagina
+    and "compleet = LEIDER_COMPLEET" in voorpagina,
+)
+check(
+    "de sectorleiders gebruiken dezelfde regel, niet een eigen kopie",
+    voorpagina.count("aantal >= compleet * vorig") == 1,
+)
 
 # --- het colofon vertelt dat de dekking onvolledig is ---------------------------
 colofon = plat(WEB / "app/layout.tsx")
@@ -109,17 +157,70 @@ check(
 )
 check(
     "en het colofon zegt waar een aandeel over gaat",
-    "niet over de hele markt" in colofon,
+    "niet over de hele markt" in colofon and "binnen één sector en één boekjaar" in colofon,
 )
 
-# --- de sectorpagina mag het wél zeggen, want daar klopt de noemer --------------
-# Sinds 24-9-2026 zet `procent()` het procentteken (met een Nederlandse
-# komma), dus het "%" staat niet meer letterlijk vóór de woorden. De bewering
-# zelf — het aandeel geldt voor déze sector — is wat telt.
+# --- de sectorpagina: aandeel en plek in één boekjaar ---------------------------
 sector = plat(WEB / "app/sector/[naam]/page.tsx")
 check(
-    "de sectorpagina rekent nog steeds binnen één sector af",
-    re.search(r"(%|procent\([^`]*\)\}) van deze sector", sector) is not None,
+    "de sectorpagina kiest het boekjaar van het aandeel met nieuwsteCompleteBoekjaar",
+    "nieuwsteCompleteBoekjaar(" in sector,
+)
+check(
+    "de sectorpagina rekent geen aandeel meer over het totaal van alle boekjaren",
+    "rij.totaal / totaalControles" not in sector
+    and "deel={rij.totaal}" not in sector
+    and "van deze sector" not in sector,
+)
+check(
+    "het podium en de aandeelkolom delen door de controles van dat ene boekjaar",
+    "/ controlesLeiderJaar" in sector and "geheel={controlesLeiderJaar}" in sector,
+)
+check(
+    "onder het minimum geen podium maar de mededeling dat er te weinig is",
+    "Te weinig controles voor een aandeel" in sector,
+)
+check(
+    "podium en tabel geven bij gelijke aantallen dezelfde plek (plekIn), niet "
+    "een plek in sorteervolgorde",
+    "plek={plekIn(rij)}" in sector
+    and "<Rang nummer={plekIn(rij)} />" in sector
+    and "plek={i + 1}" not in sector,
+)
+check(
+    "een gelijke stand op de laagste podiumplek gaat er als groep af, met een zin",
+    "delen plek {grensplek}, met elk {inLeiderJaar(gedeeld[0][1])} controles" in sector,
+)
+
+# --- de subsectorpagina: idem, en alleen binnen de eigen sector ----------------
+subsector = plat(WEB / "app/subsector/[naam]/page.tsx")
+check(
+    "de subsectorpagina kiest het boekjaar van het aandeel met nieuwsteCompleteBoekjaar",
+    "nieuwsteCompleteBoekjaar(" in subsector,
+)
+check(
+    "de subsectorpagina deelt niet meer door het totaal over alle boekjaren",
+    "rij.aantal) / totaal)" not in subsector and "/ totaalAandeelJaar" in subsector,
+)
+check(
+    "de subsectorpagina telt alleen organisaties uit de eigen sector mee",
+    "inSector.has(opdracht.organisatie_id)" in subsector,
+)
+
+# --- de kantoorpagina: een plek per sector en boekjaar --------------------------
+kantoor = plat(WEB / "app/kantoor/[slug]/page.tsx")
+check(
+    "de kantoorpagina zegt niet meer welk deel 'van alles wat in deze database "
+    "staat' een kantoor heeft",
+    "van alles wat in deze database staat" not in kantoor,
+)
+check(
+    "de kantoorpagina noemt geen plek 'in de ranglijst' over alle sectoren",
+    "in de ranglijst </span>" not in kantoor and "positie + 1" not in kantoor,
+)
+check(
+    "de plek komt uit sectorposities(), per sector en boekjaar",
+    "sectorposities(" in kantoor and "hoofd.plek" in kantoor,
 )
 
 print(f"{goed}/{goed + fout} goed")

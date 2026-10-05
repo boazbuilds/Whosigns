@@ -6,6 +6,12 @@
  * voorpagina zijn de eerste die iemand citeert, dus ze moeten met de hand na te
  * rekenen zijn — en elke keuze die een getal kleurt (welk boekjaar, welke
  * sectoren samen) staat hier met reden en al.
+ *
+ * De regel welk boekjaar compleet genoeg is (`nieuwsteCompleteBoekjaar`) staat
+ * hier ook, en geldt niet alleen voor de voorpagina: /kantoren, de sector-,
+ * subsector- en kantoorpagina's kiezen er hun boekjaar mee. Eén regel op één
+ * plek, zodat de voorpagina en een sectorpagina nooit een ander "nieuwste
+ * jaar" noemen.
  */
 
 import type { Kantoor, MarktaandeelRij, Wisseling } from "@/lib/db";
@@ -160,12 +166,47 @@ export const LEIDER_MINIMUM = 20;
  */
 export const LEIDER_COMPLEET = 0.8;
 
-export function sectorleiders(
-  rijen: MarktaandeelRij[],
+/** Controles per boekjaar, opgeteld over de meegegeven rijen. */
+export function controlesPerJaar(
+  rijen: Pick<MarktaandeelRij, "boekjaar" | "aantal_controles">[],
+): Map<number, number> {
+  const perJaar = new Map<number, number>();
+  for (const rij of rijen) {
+    perJaar.set(rij.boekjaar, (perJaar.get(rij.boekjaar) ?? 0) + rij.aantal_controles);
+  }
+  return perJaar;
+}
+
+/**
+ * Het nieuwste boekjaar met minstens `minimum` controles en minstens
+ * `compleet` keer het aantal van het jaar ervoor; null als geen enkel jaar
+ * aan de ondergrens komt.
+ *
+ * Dezelfde regel voor één sector (de sectorleiders, de sectorpagina) als voor
+ * de hele database (het ranglijstjaar van de voorpagina en /kantoren). Op
+ * 5-10-2026 kiest hij voor de hele database 2024: voor 2025 stonden er 1.321
+ * controles in tegen 2.307 voor 2024 (57%), met 110 OOB-controles tegen 576 en
+ * nog geen enkele woningcorporatie. Een ranglijst over 2025 liet vooral zien
+ * welke sectoren al binnen waren. Voor de zorg is 2025 wél compleet (776 tegen
+ * 816), dus daar noemt de sectorpagina 2025.
+ */
+export function nieuwsteCompleteBoekjaar(
+  perJaar: Map<number, number>,
   minimum = LEIDER_MINIMUM,
   compleet = LEIDER_COMPLEET,
-): Sectorleider[] {
-  // sector -> boekjaar -> kantoor -> aantal controles
+): number | null {
+  const jaar = [...perJaar.keys()]
+    .sort((a, b) => b - a)
+    .find((jaar) => {
+      const aantal = perJaar.get(jaar) ?? 0;
+      const vorig = perJaar.get(jaar - 1) ?? 0;
+      return aantal >= minimum && (vorig === 0 || aantal >= compleet * vorig);
+    });
+  return jaar ?? null;
+}
+
+/** sector -> boekjaar -> kantoor -> aantal controles; rijen zonder sector vallen weg. */
+function sectorboom(rijen: MarktaandeelRij[]) {
   const boom = new Map<string, Map<number, Map<number, number>>>();
   for (const rij of rijen) {
     if (!rij.sector) continue;
@@ -175,18 +216,24 @@ export function sectorleiders(
     perJaar.set(rij.boekjaar, perKantoor);
     boom.set(rij.sector, perJaar);
   }
+  return boom;
+}
 
+export function sectorleiders(
+  rijen: MarktaandeelRij[],
+  minimum = LEIDER_MINIMUM,
+  compleet = LEIDER_COMPLEET,
+): Sectorleider[] {
+  const boom = sectorboom(rijen);
   const uit: Sectorleider[] = [];
   for (const [sector, perJaar] of boom) {
     const totaal = (jaar: number) => som(perJaar.get(jaar)?.values() ?? []);
-    const boekjaar = [...perJaar.keys()]
-      .sort((a, b) => b - a)
-      .find((jaar) => {
-        const aantal = totaal(jaar);
-        const vorig = totaal(jaar - 1);
-        return aantal >= minimum && (vorig === 0 || aantal >= compleet * vorig);
-      });
-    if (boekjaar === undefined) continue;
+    const boekjaar = nieuwsteCompleteBoekjaar(
+      new Map([...perJaar.keys()].map((jaar) => [jaar, totaal(jaar)])),
+      minimum,
+      compleet,
+    );
+    if (boekjaar === null) continue;
 
     const controles = totaal(boekjaar);
     const kantoren = [...(perJaar.get(boekjaar) ?? new Map<number, number>())].sort(
@@ -212,6 +259,68 @@ export function sectorleiders(
   }
   return uit.sort(
     (a, b) => b.controles - a.controles || a.sector.localeCompare(b.sector, "nl"),
+  );
+}
+
+// ------------------------------------------------------- plek per sector
+
+/** Waar één kantoor staat in één sector, in het nieuwste complete boekjaar daarvan. */
+export type Sectorpositie = {
+  sector: string;
+  boekjaar: number;
+  /** 1 is de grootste; kantoren met evenveel controles delen een plek. */
+  plek: number;
+  aantal: number;
+  /** Alle controles in deze sector in dit boekjaar: de noemer van het aandeel. */
+  controles: number;
+  /** De hele ranglijst van dit sector-boekjaar, grootste eerst. */
+  ranglijst: { kantoorId: number; aantal: number }[];
+};
+
+/**
+ * De plek van een kantoor in elke sector waar het in het nieuwste complete
+ * boekjaar van die sector controles had; de sector met de meeste eigen
+ * controles eerst.
+ *
+ * Dit vervangt "#1 in de ranglijst" en "18,2% van alles wat in deze database
+ * staat" op de kantoorpagina. Die plek en dat aandeel gingen over alle sectoren
+ * en alle boekjaren samen, en daarin weegt vooral mee welke sectoren er per
+ * jaar in de database staan. Per sector en boekjaar is Deloitte op 5-10-2026
+ * #2 in de OOB (2024, 116 van 576), #4 in de zorg (2025) en #1 bij de overheid
+ * (2024) — een ander verhaal dan één plek bovenaan.
+ */
+export function sectorposities(
+  rijen: MarktaandeelRij[],
+  kantoorId: number,
+  minimum = LEIDER_MINIMUM,
+  compleet = LEIDER_COMPLEET,
+): Sectorpositie[] {
+  const uit: Sectorpositie[] = [];
+  for (const [sector, perJaar] of sectorboom(rijen)) {
+    const boekjaar = nieuwsteCompleteBoekjaar(
+      new Map([...perJaar].map(([jaar, perKantoor]) => [jaar, som(perKantoor.values())])),
+      minimum,
+      compleet,
+    );
+    if (boekjaar === null) continue;
+    const perKantoor = perJaar.get(boekjaar) ?? new Map<number, number>();
+    const aantal = perKantoor.get(kantoorId) ?? 0;
+    if (aantal === 0) continue;
+    const ranglijst = [...perKantoor]
+      .map(([id, n]) => ({ kantoorId: id, aantal: n }))
+      .sort((a, b) => b.aantal - a.aantal || a.kantoorId - b.kantoorId);
+    uit.push({
+      sector,
+      boekjaar,
+      plek: 1 + ranglijst.filter((rij) => rij.aantal > aantal).length,
+      aantal,
+      controles: som(perKantoor.values()),
+      ranglijst,
+    });
+  }
+  return uit.sort(
+    (a, b) =>
+      b.aantal - a.aantal || b.controles - a.controles || a.sector.localeCompare(b.sector, "nl"),
   );
 }
 

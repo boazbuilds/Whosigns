@@ -4,11 +4,19 @@ import { notFound } from "next/navigation";
 import { marktaandeel, organisatiesInSector, sectoren, wisselingen } from "@/lib/db";
 import { saldoPerKantoor } from "@/lib/analyse";
 import {
+  controlesPerJaar,
+  LEIDER_COMPLEET,
+  LEIDER_MINIMUM,
+  nieuwsteCompleteBoekjaar,
+} from "@/lib/voorpagina";
+import {
   aantalKantoren,
   aantalOrganisaties,
   aantalWisselingen,
   hoofdletter,
   kantoorPad,
+  kortKantoor,
+  nl,
   organisatiePad,
   procent,
   SECTOR_UITLEG,
@@ -57,8 +65,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   return {
     title: `Accountants in de sector ${sector}`,
     description:
-      `Welke accountantskantoren controleren organisaties in de sector ${sector}, ` +
-      `met marktaandelen per boekjaar en recente wisselingen.`,
+      `Welke accountantskantoren controleren organisaties in de sector ${sector}: ` +
+      `controles per boekjaar, het marktaandeel in het nieuwste complete boekjaar ` +
+      `en recente wisselingen.`,
   };
 }
 
@@ -118,10 +127,47 @@ export default async function Sectorpagina({ params }: Params) {
     bestaand.totaal += rij.aantal_controles;
     perKantoor.set(rij.kantoor_id, bestaand);
   }
+  const totaalControles = [...perKantoor.values()].reduce((som, rij) => som + rij.totaal, 0);
+
+  // Het aandeel geldt binnen één sector én één boekjaar: het nieuwste boekjaar
+  // dat voor deze sector al compleet is, met dezelfde regel als de
+  // sectorleiders op de voorpagina. Hier stond het aandeel over alle boekjaren
+  // samen. Bij de woningcorporaties gaf dat Deloitte 27,3% (1.666 van 6.093
+  // over 2007–2024), terwijl het per jaar tussen 11 en 16% lag in 2019–2024;
+  // bij de financiële dienstverlening stond Eshuis op 54,5% — 6 van 11
+  // controles verspreid over dertien jaar (5-10-2026).
+  const perJaar = controlesPerJaar(aandelen);
+  const leiderJaar = nieuwsteCompleteBoekjaar(perJaar);
+  const inLeiderJaar = (rij: { cellen: Map<number, number> }) =>
+    leiderJaar === null ? 0 : (rij.cellen.get(leiderJaar) ?? 0);
+  const controlesLeiderJaar = leiderJaar === null ? 0 : (perJaar.get(leiderJaar) ?? 0);
+
+  // Gesorteerd op dat boekjaar, en pas daarna op het totaal: het rangnummer
+  // hoort bij hetzelfde jaar als het aandeel ernaast.
   const kantoorrijen = [...perKantoor.entries()].sort(
-    (a, b) => b[1].totaal - a[1].totaal || a[1].naam.localeCompare(b[1].naam, "nl"),
+    (a, b) =>
+      inLeiderJaar(b[1]) - inLeiderJaar(a[1]) ||
+      b[1].totaal - a[1].totaal ||
+      a[1].naam.localeCompare(b[1].naam, "nl"),
   );
-  const totaalControles = kantoorrijen.reduce((som, [, rij]) => som + rij.totaal, 0);
+  // De plek in dat boekjaar: bij gelijke aantallen dezelfde plek, in de tabel,
+  // op het podium en op de kantoorpagina (sectorposities) dezelfde regel. Het
+  // podium deelde eerst i + 1 uit in sorteervolgorde: bij de overheid in 2024
+  // (46, 30, 26, 26 controles) stond één van de twee met 26 op het podium en de
+  // ander niet, en in overig bedrijfsleven stonden BDO en Eshuis (8 en 8) op
+  // plek 2 en 3, terwijl de tabel ze allebei 2 gaf (5-10-2026).
+  const plekIn = (rij: { cellen: Map<number, number> }) =>
+    1 + kantoorrijen.filter(([, ander]) => inLeiderJaar(ander) > inLeiderJaar(rij)).length;
+  const kandidaten = kantoorrijen.filter(
+    ([, rij]) => inLeiderJaar(rij) > 0 && plekIn(rij) <= 3,
+  );
+  // Meer dan drie betekent een gelijke stand op de laagste plek. Dan gaat die
+  // hele groep van het podium, met een zin erbij, in plaats van er één uit te
+  // kiezen op naam. Hooguit één groep: wie erboven staat, telt er samen nooit
+  // meer dan twee.
+  const grensplek = kandidaten.length > 3 ? Math.max(...kandidaten.map(([, rij]) => plekIn(rij))) : null;
+  const podium = kandidaten.filter(([, rij]) => grensplek === null || plekIn(rij) < grensplek);
+  const gedeeld = kandidaten.filter(([, rij]) => grensplek !== null && plekIn(rij) === grensplek);
   const saldi = saldoPerKantoor(sectorWisselingen).filter((rij) => rij.saldo !== 0);
 
   const organisatierijen = organisaties.map((org) => (
@@ -166,28 +212,55 @@ export default async function Sectorpagina({ params }: Params) {
         </div>
       </div>
 
-      {kantoorrijen.length >= 3 ? (
+      {leiderJaar !== null && kandidaten.length > 0 ? (
         <section className="kaart">
-          <h2>Wie is hier de baas?</h2>
+          <h2>Wie is hier de baas in boekjaar {leiderJaar}?</h2>
           <div className="podium">
-            {kantoorrijen.slice(0, 3).map(([id, rij], i) => (
+            {podium.map(([id, rij]) => (
               <Podiumplek
                 key={id}
-                plek={i + 1}
+                plek={plekIn(rij)}
                 naar={kantoorPad({ afm_nummer: rij.afm, naam: rij.naam, id })}
                 naam={rij.naam}
-                onder={`${procent((rij.totaal / totaalControles) * 100)} van deze sector`}
-                groot={String(rij.totaal)}
+                onder={`${procent((inLeiderJaar(rij) / controlesLeiderJaar) * 100)} van ${nl(controlesLeiderJaar)} controles in ${leiderJaar}`}
+                groot={String(inLeiderJaar(rij))}
               />
             ))}
           </div>
+          {gedeeld.length > 0 ? (
+            <p className="klein" style={{ marginTop: "0.9rem", marginBottom: 0 }}>
+              {gedeeld.map(([id, rij], i) => (
+                <span key={id}>
+                  {i === 0 ? null : i === gedeeld.length - 1 ? " en " : ", "}
+                  <Link href={kantoorPad({ afm_nummer: rij.afm, naam: rij.naam, id })}>
+                    {kortKantoor(rij.naam)}
+                  </Link>
+                </span>
+              ))}{" "}
+              delen plek {grensplek}, met elk {inLeiderJaar(gedeeld[0][1])} controles
+              in {leiderJaar}.
+            </p>
+          ) : null}
+          <p className="klein zacht" style={{ marginTop: "0.9rem", marginBottom: 0 }}>
+            Het nieuwste boekjaar dat al vrijwel compleet in de database staat:
+            minstens {procent(100 * LEIDER_COMPLEET, 0)} van het aantal controles
+            van het jaar ervoor, en minstens {LEIDER_MINIMUM}. De andere jaren
+            staan hieronder als aantallen.
+          </p>
+        </section>
+      ) : kantoorrijen.length > 0 ? (
+        <section className="kaart">
+          <h2>Wie is hier de baas?</h2>
+          <Leeg
+            tekst={`Te weinig controles voor een aandeel: in geen enkel boekjaar staan er in deze sector minstens ${LEIDER_MINIMUM} in de database. De aantallen per boekjaar staan hieronder.`}
+          />
         </section>
       ) : null}
 
       <section className="kaart">
         <div className="kaartkop">
           <h2>Controles per kantoor per boekjaar</h2>
-          <Link href="/kantoren">Landelijke ranglijst →</Link>
+          <Link href="/kantoren">Alle kantoren →</Link>
         </div>
         {kantoorrijen.length === 0 ? (
           <Leeg tekst="Nog geen opdrachten in deze sector." />
@@ -204,14 +277,18 @@ export default async function Sectorpagina({ params }: Params) {
                     </th>
                   ))}
                   <th className="getal">Totaal</th>
-                  <th>Aandeel</th>
+                  {leiderJaar !== null ? <th>Aandeel {leiderJaar}</th> : null}
                 </tr>
               </thead>
               <tbody>
-                {kantoorrijen.map(([id, rij], i) => (
+                {kantoorrijen.map(([id, rij]) => (
                   <tr key={id}>
                     <td className="rangcel">
-                      <Rang nummer={i + 1} />
+                      {/* Een plek alleen in het boekjaar van het aandeel; wie
+                          dat jaar niets controleerde, krijgt geen nummer. Bij
+                          gelijke aantallen dezelfde plek, zoals op de
+                          kantoorpagina (sectorposities). */}
+                      {inLeiderJaar(rij) > 0 ? <Rang nummer={plekIn(rij)} /> : null}
                     </td>
                     <td>
                       <KantoorLink
@@ -227,15 +304,31 @@ export default async function Sectorpagina({ params }: Params) {
                     <td className="getal">
                       <strong>{rij.totaal}</strong>
                     </td>
-                    <td className="balkcel">
-                      <Aandeelbalk deel={rij.totaal} geheel={totaalControles} />
-                    </td>
+                    {leiderJaar !== null ? (
+                      <td className="balkcel">
+                        {inLeiderJaar(rij) > 0 ? (
+                          <Aandeelbalk deel={inLeiderJaar(rij)} geheel={controlesLeiderJaar} />
+                        ) : (
+                          <span className="zacht">·</span>
+                        )}
+                      </td>
+                    ) : null}
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
         )}
+        {kantoorrijen.length > 0 ? (
+          <p className="klein zacht" style={{ marginBottom: 0 }}>
+            Het totaal is een optelsom van aantallen over de boekjaren, geen
+            aandeel: welke organisaties er per boekjaar in de database staan
+            verschilt.
+            {leiderJaar !== null
+              ? ` Rangnummer en aandeel gelden voor boekjaar ${leiderJaar}.`
+              : ""}
+          </p>
+        ) : null}
       </section>
 
       {subsectorlijst.length > 0 ? (
@@ -388,7 +481,7 @@ export default async function Sectorpagina({ params }: Params) {
           { naar: "/sectoren", tekst: "Alle sectoren vergelijken" },
           {
             naar: "/kantoren",
-            tekst: "Landelijke ranglijst van kantoren",
+            tekst: "Alle kantoren, over alle sectoren",
             toelichting: `${aantalKantoren(kantoorrijen.length)} actief in deze sector`,
           },
           {

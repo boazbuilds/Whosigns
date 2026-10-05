@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
+  boekjarenMetControles,
   kantoorRanglijst,
-  nieuwsteBoekjaar,
   sectoren,
   subsectoren,
   tel,
@@ -44,7 +44,11 @@ export default async function Sectorenpagina() {
     [sectorlijst, subsectorlijst, boekjaar, organisatieTotaal] = await Promise.all([
       sectoren(),
       subsectoren().catch(() => []),
-      nieuwsteBoekjaar(),
+      // Het nieuwste boekjaar mét controles, niet max(boekjaar) uit de
+      // opdrachten: het marktonderzoek levert al negen regels met boekjaar
+      // 2026 aan, en dan stond hier "t/m boekjaar 2026" terwijl de controles in
+      // 2025 ophouden (5-10-2026). Op de voorpagina was dat al zo opgelost.
+      boekjarenMetControles().then((jaren) => jaren[0] ?? null),
       tel("organisaties"),
     ]);
   } catch (fout) {
@@ -81,8 +85,8 @@ export default async function Sectorenpagina() {
         </p>
         <p className="klein zacht" style={{ marginBottom: 0, marginTop: "0.6rem" }}>
           Elke sector heeft zijn eigen openbare bron, en daarmee zijn eigen
-          spelers. Klik door voor de ranglijst, de marktaandelen per boekjaar en
-          de wisselingen.
+          spelers. Klik door voor de controles per boekjaar, het marktaandeel in
+          het nieuwste complete boekjaar en de wisselingen.
         </p>
       </div>
 
@@ -194,7 +198,7 @@ export default async function Sectorenpagina() {
             tekst: `Sector ${sector.naam}`,
             toelichting: aantalOrganisaties(sector.aantal),
           })),
-          { naar: "/kantoren", tekst: "Ranglijst van alle kantoren" },
+          { naar: "/kantoren", tekst: "Alle kantoren" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
         ]}
       />
