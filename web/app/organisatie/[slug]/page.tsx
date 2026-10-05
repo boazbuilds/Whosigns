@@ -25,7 +25,10 @@ import {
   kantoorPad,
   nummerUitSlug,
   organisatiePad,
+  PLAATS_MINIMUM,
+  plaatsPad,
   sectorPad,
+  slug as slugVan,
   subsectorPad,
 } from "@/lib/paden";
 import {
@@ -127,6 +130,14 @@ export default async function Organisatiepagina({ params }: Params) {
 
   const anderePlaatsgenoten = plaatsgenoten.filter((o) => o.id !== org.id);
   const andereSectorgenoten = sectorgenoten.filter((o) => o.id !== org.id);
+  // De plaats wordt een link als de plaatspagina bestaat: minstens
+  // PLAATS_MINIMUM organisaties. De plaatsgenoten hierboven zijn hoofdletter-
+  // ongevoelig gezocht, en de plaatspagina neemt daarnaast ook leestekens samen
+  // — zijn groep is dus nooit kleiner, en de link loopt nooit dood.
+  const plaatsHeeftPagina =
+    !!org.gemeente &&
+    slugVan(org.gemeente) !== "" &&
+    anderePlaatsgenoten.length + 1 >= PLAATS_MINIMUM;
   const honorariumjaren = opdrachten.filter(
     (o) =>
       o.honorarium_controle_eur != null ||
@@ -174,7 +185,15 @@ export default async function Organisatiepagina({ params }: Params) {
         <h1>{org.naam}</h1>
         <p className="metaregel">
           <span>KvK {org.kvk_nummer ?? "onbekend"}</span>
-          {org.gemeente ? <span>{org.gemeente}</span> : null}
+          {org.gemeente ? (
+            <span>
+              {plaatsHeeftPagina ? (
+                <Link href={plaatsPad(org.gemeente)}>{org.gemeente}</Link>
+              ) : (
+                org.gemeente
+              )}
+            </span>
+          ) : null}
           {org.subsector ? (
             <span>
               <Link href={subsectorPad(org.subsector)}>{org.subsector}</Link>
@@ -562,6 +581,9 @@ export default async function Organisatiepagina({ params }: Params) {
             tekst: buur.naam,
             toelichting: `ook in ${org.gemeente}`,
           })),
+          ...(plaatsHeeftPagina && org.gemeente
+            ? [{ naar: plaatsPad(org.gemeente), tekst: `Alle organisaties in ${org.gemeente}` }]
+            : []),
           ...andereSectorgenoten
             .filter((o) => !anderePlaatsgenoten.some((b) => b.id === o.id))
             .slice(0, 3)

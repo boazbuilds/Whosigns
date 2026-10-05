@@ -1053,6 +1053,22 @@ td.rangcel {
   word-break: break-all;
 }
 
+/* Een kanttekening die bij de getallen eronder hoort en daarom bovenaan staat,
+   niet in een voetnoot — zoals op de plaatspagina, waar het plaatsveld maar
+   bij een vijfde van het register gevuld is. Oker en geen rood: het is geen
+   fout, wel iets om te weten voor je de lijst leest. */
+.kanttekening {
+  border: 1px solid var(--waarschuwing-lijn);
+  border-left-width: 3px;
+  background: var(--waarschuwing-vlak);
+  padding: 0.8rem 1rem;
+  margin-bottom: 1.1rem;
+  max-width: 52rem;
+}
+.kanttekening strong {
+  color: var(--waarschuwing);
+}
+
 /* ------------------------------------------------------------- colofon */
 
 .colofon {

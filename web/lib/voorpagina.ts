@@ -205,6 +205,53 @@ export function nieuwsteCompleteBoekjaar(
   return jaar ?? null;
 }
 
+/**
+ * Alle boekjaren die compleet genoeg zijn voor een aandeel: het nieuwste
+ * complete jaar (nieuwsteCompleteBoekjaar), en daarvóór elk jaar met minstens
+ * `minimum` controles én minstens `compleet` keer het dichtstbijzijnde latere
+ * jaar dat al compleet bleek. De kantoorpagina zet een aandeel per sector en
+ * boekjaar alleen bij deze jaren, en bij de rest alleen het aantal.
+ *
+ * Waarom naar achteren, en niet met de regel van nieuwsteCompleteBoekjaar per
+ * jaar. Die vergelijkt een jaar met het jaar ervóór, en vangt zo een nieuwste
+ * jaar dat nog binnenloopt. Maar een sector komt ook van achteren de database
+ * in: in de opbouwjaren groeit het aantal van jaar op jaar, dus elk jaar is
+ * groter dan het vorige en kwam door die toets. Gemeten op 5-10-2026 kreeg de
+ * OOB zo in de eerste versie van de kantoorpagina een aandeel in 2009–2014 (29
+ * tot 376 controles, tegen 721 in 2015), en stond PwC daar in 2014 op 50,5%
+ * (190 van 376) tegen 17 tot 25% in elk ander jaar: het eigen aantal bleef
+ * gelijk, de rest van de markt kwam pas met 2015 binnen. Bij de overheid kreeg
+ * Deloitte 62% in 2010, van 61 controles, tegen ruim 300 per jaar vanaf 2019.
+ *
+ * Met deze toets vallen op die datum de OOB tot en met 2014 (376 tegen 80%
+ * van 721), de overheid tot en met 2016 (191 tegen 80% van 240) en het overig
+ * bedrijfsleven tot en met 2019 weg. Woningcorporaties 2007–2024, zorg
+ * 2019–2025 en goede doelen 2019–2024 blijven staan: daar haalt elk eerder
+ * jaar minstens 80% van het jaar erna.
+ */
+export function completeBoekjaren(
+  perJaar: Map<number, number>,
+  minimum = LEIDER_MINIMUM,
+  compleet = LEIDER_COMPLEET,
+): Set<number> {
+  const uit = new Set<number>();
+  const nieuwste = nieuwsteCompleteBoekjaar(perJaar, minimum, compleet);
+  if (nieuwste === null) return uit;
+  uit.add(nieuwste);
+  // Het ijkpunt schuift alleen mee met een jaar dat zelf compleet bleek: een
+  // dip in een tussenjaar maakt de jaren ervóór dus niet makkelijker.
+  let ijkpunt = perJaar.get(nieuwste) ?? 0;
+  const eerder = [...perJaar.keys()].filter((jaar) => jaar < nieuwste).sort((a, b) => b - a);
+  for (const jaar of eerder) {
+    const aantal = perJaar.get(jaar) ?? 0;
+    if (aantal >= minimum && aantal >= compleet * ijkpunt) {
+      uit.add(jaar);
+      ijkpunt = aantal;
+    }
+  }
+  return uit;
+}
+
 /** sector -> boekjaar -> kantoor -> aantal controles; rijen zonder sector vallen weg. */
 function sectorboom(rijen: MarktaandeelRij[]) {
   const boom = new Map<string, Map<number, Map<number, number>>>();
@@ -322,6 +369,85 @@ export function sectorposities(
     (a, b) =>
       b.aantal - a.aantal || b.controles - a.controles || a.sector.localeCompare(b.sector, "nl"),
   );
+}
+
+// ------------------------------------------------------ reeks per sector
+
+/** Eén kantoor in één sector, boekjaar voor boekjaar. */
+export type Sectorreeks = {
+  sector: string;
+  /** Controles van dit kantoor in deze sector, over alle boekjaren samen. */
+  eigen: number;
+  jaren: {
+    boekjaar: number;
+    /** Controles van dit kantoor; nul is een echte nul als de sector dat jaar
+     *  compleet in de database staat. */
+    aantal: number;
+    /** Alle controles in deze sector in dit boekjaar: de noemer. */
+    controles: number;
+    /** Een van de completeBoekjaren van de sector: alleen dan hoort er een
+     *  aandeel bij. */
+    compleet: boolean;
+  }[];
+};
+
+/**
+ * Per sector waarin een kantoor controles had: elk boekjaar vanaf zijn eerste
+ * controle in die sector tot het nieuwste boekjaar van de sector, met het eigen
+ * aantal en het sectortotaal ernaast. De sector met de meeste eigen controles
+ * eerst.
+ *
+ * Het aandeel dat een pagina hieruit rekent, geldt dus altijd binnen één sector
+ * én één boekjaar. Alleen bij een compleet jaar (completeBoekjaren): onder de
+ * twintig controles schommelt een aandeel van 50 naar 100% op één opdracht (de
+ * financiële dienstverlening had op 5-10-2026 in geen enkel jaar meer dan
+ * twee), een jaar dat nog binnenloopt overdrijft de grote kantoren (OOB 2025:
+ * 110 controles tegen 576 een jaar eerder), en een opbouwjaar ook (OOB 2014:
+ * 376 tegen 721 in 2015).
+ *
+ * Een compleet jaar vóór de eerste eigen controle in de sector staat er ook
+ * in, met een nul, maar alleen vanaf het eerste jaar waarin het kantoor in
+ * welke sector dan ook controleerde. Anders stond er een punt ("sector niet
+ * compleet") waar de sector wél compleet was: bij Dubois op 5-10-2026 het
+ * overig bedrijfsleven 2020–2023 (39 tot 53 controles per jaar), vóór de
+ * eerste eigen controle daar in 2024. Over alle kantoren gaat het om 69
+ * reeksen. De tabel wordt er niet breder van, want die begint toch al bij dat
+ * eerste jaar.
+ */
+export function sectorreeksen(
+  rijen: MarktaandeelRij[],
+  kantoorId: number,
+  minimum = LEIDER_MINIMUM,
+  compleet = LEIDER_COMPLEET,
+): Sectorreeks[] {
+  const eigenRijen = rijen.filter(
+    (rij) => rij.sector && rij.kantoor_id === kantoorId && rij.aantal_controles > 0,
+  );
+  if (!eigenRijen.length) return [];
+  const eersteOoit = Math.min(...eigenRijen.map((rij) => rij.boekjaar));
+  const uit: Sectorreeks[] = [];
+  for (const [sector, perJaar] of sectorboom(rijen)) {
+    const eigenJaren = [...perJaar]
+      .filter(([, perKantoor]) => (perKantoor.get(kantoorId) ?? 0) > 0)
+      .map(([jaar]) => jaar);
+    if (!eigenJaren.length) continue;
+    const totalen = new Map(
+      [...perJaar].map(([jaar, perKantoor]) => [jaar, som(perKantoor.values())]),
+    );
+    const complete = completeBoekjaren(totalen, minimum, compleet);
+    const eerste = Math.min(...eigenJaren);
+    const jaren = [...perJaar.keys()]
+      .filter((jaar) => jaar >= eerste || (jaar >= eersteOoit && complete.has(jaar)))
+      .sort((a, b) => a - b)
+      .map((boekjaar) => ({
+        boekjaar,
+        aantal: perJaar.get(boekjaar)?.get(kantoorId) ?? 0,
+        controles: totalen.get(boekjaar) ?? 0,
+        compleet: complete.has(boekjaar),
+      }));
+    uit.push({ sector, eigen: som(jaren.map((j) => j.aantal)), jaren });
+  }
+  return uit.sort((a, b) => b.eigen - a.eigen || a.sector.localeCompare(b.sector, "nl"));
 }
 
 // ---------------------------------------------------------- transferbalans

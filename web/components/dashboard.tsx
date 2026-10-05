@@ -607,6 +607,7 @@ export function RecentGegund({ rijen }: { rijen: Gunning[] }) {
     <section className="kaart">
       <div className="kaartkop">
         <h2>Recent gegund</h2>
+        <Link href="/aanbestedingen">Alle →</Link>
       </div>
       <p className="klein zacht" style={{ marginTop: 0 }}>
         Europees aanbestede accountantsopdrachten, nieuwste gunning eerst: wie

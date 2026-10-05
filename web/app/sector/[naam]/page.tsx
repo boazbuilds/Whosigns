@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { marktaandeel, organisatiesInSector, sectoren, wisselingen } from "@/lib/db";
+import {
+  marktaandeel,
+  marktonderzoekPerSector,
+  organisatiesInSector,
+  sectoren,
+  wisselingen,
+  type MarktonderzoekJaar,
+} from "@/lib/db";
 import { saldoPerKantoor } from "@/lib/analyse";
 import {
   controlesPerJaar,
@@ -27,6 +34,7 @@ import {
 } from "@/lib/paden";
 import {
   Aandeelbalk,
+  Aangeleverd,
   Doorklik,
   Foutmelding,
   Inklapbaar,
@@ -43,6 +51,85 @@ type Params = { params: Promise<{ naam: string }> };
 
 /** Zoveel organisaties staan open in de zijkolom; de rest zit achter een klik. */
 const ORGANISATIES_OPEN = 15;
+
+/** Zoveel boekjaren marktonderzoek staan open; de oudste, met een handvol
+ *  organisaties per jaar, zitten achter een klik. */
+const MARKTONDERZOEK_OPEN = 8;
+
+/**
+ * Wat het aangeleverde marktonderzoek over deze sector zegt — apart van de
+ * controles, en alleen als telling van organisaties per boekjaar.
+ *
+ * Het onderzoek noemt per organisatie en boekjaar een kantoor, maar niet
+ * waarover de opdracht ging (opdrachttype "controle, voorwerp onbekend").
+ * Daarom telt het nergens mee in de controles, aandelen en wisselingen
+ * hierboven. Hier staat het toch, omdat de pagina anders "nog geen opdrachten"
+ * zei bij een sector met duizenden: op 5-10-2026 had de handel 0 controles en
+ * 4.095 opdrachten uit het marktonderzoek, de financiële dienstverlening 11
+ * tegen 12.053.
+ *
+ * Geen verdeling per kantoor, ook niet binnen één jaar: het onderzoek dekt 22
+ * kantoren en twee van de vier grootste niet, dus zo'n verdeling zou laten zien
+ * wie er in de aanlevering zit en niet wie de sector controleert.
+ */
+function Marktonderzoek({ jaren }: { jaren: MarktonderzoekJaar[] }) {
+  const regel = (rij: MarktonderzoekJaar) => (
+    <tr key={rij.boekjaar}>
+      <td className="jaar">{rij.boekjaar}</td>
+      <td className="getal">{nl(rij.aantal_organisaties)}</td>
+      <td className="getal">{nl(rij.zonder_controle)}</td>
+    </tr>
+  );
+  const kop = (
+    <thead>
+      <tr>
+        <th>Boekjaar</th>
+        <th className="getal">Organisaties met een kantoor</th>
+        <th className="getal">waarvan zonder gelezen controle</th>
+      </tr>
+    </thead>
+  );
+  return (
+    <section className="kaart">
+      <div className="kaartkop">
+        <h2>Volgens marktonderzoek</h2>
+        <span>
+          <Aangeleverd bron={{ bron_type: "marktonderzoek", betrouwbaarheid: "zelf_aangeleverd" }} />{" "}
+          <span className="klein zacht">(zelf aangeleverd)</span>
+        </span>
+      </div>
+      <p className="klein zacht" style={{ marginTop: 0, maxWidth: "46rem" }}>
+        Aangeleverd marktonderzoek noemt voor deze organisaties per boekjaar
+        een accountantskantoor, maar niet waarover de opdracht ging: een
+        wettelijke of vrijwillige controle van de jaarrekening, of iets anders.
+        Het staat daarom los van de controles hierboven en telt niet mee in een
+        aandeel of een wisseling. Welk kantoor het is, staat op de pagina van
+        de organisatie.
+      </p>
+      <div className="tabel-omhulsel">
+        <table>
+          {kop}
+          <tbody>{jaren.slice(0, MARKTONDERZOEK_OPEN).map(regel)}</tbody>
+        </table>
+      </div>
+      {jaren.length > MARKTONDERZOEK_OPEN ? (
+        <Inklapbaar samenvatting={`Nog ${jaren.length - MARKTONDERZOEK_OPEN} eerdere boekjaren`}>
+          <div className="tabel-omhulsel">
+            <table>
+              {kop}
+              <tbody>{jaren.slice(MARKTONDERZOEK_OPEN).map(regel)}</tbody>
+            </table>
+          </div>
+        </Inklapbaar>
+      ) : null}
+      <p className="klein zacht" style={{ marginBottom: 0 }}>
+        Geen verdeling over kantoren: het onderzoek dekt niet alle kantoren, dus
+        zo&rsquo;n verdeling zou laten zien wie er in het onderzoek zit, niet wie
+        deze sector controleert. Niet per document na te slaan.
+      </p>
+    </section>
+  );
+}
 
 /**
  * De echte sectorwaarde bij een slug.
@@ -93,10 +180,21 @@ export default async function Sectorpagina({ params }: Params) {
   // Alle wisselingen ophalen en hier filteren: v_wisselingen kent geen sector, en
   // met een limiet vooraf vielen de wisselingen van deze sector buiten beeld zodra
   // een andere sector de nieuwste regels vulde.
+  //
+  // Het marktonderzoek is een los blok onderaan: lukt dat niet, dan verdwijnt
+  // alleen dat blok, zoals op de voorpagina, en de fout gaat naar het log.
   const organisatieIds = new Set(organisaties.map((o) => o.id));
-  const sectorWisselingen = (await wisselingen()).filter((w) =>
+  const [alleWisselingen, marktonderzoek] = await Promise.all([
+    wisselingen(),
+    marktonderzoekPerSector(sector).catch((fout) => {
+      console.error("[sector] marktonderzoek overgeslagen:", fout);
+      return null;
+    }),
+  ]);
+  const sectorWisselingen = alleWisselingen.filter((w) =>
     organisatieIds.has(w.organisatie_id),
   );
+  const marktonderzoekJaren = (marktonderzoek ?? []).filter((j) => j.aantal_organisaties > 0);
 
   // Subsectoren uit de organisaties van déze sector. Hier stond de landelijke
   // lijst, dus de zorgpagina toonde ook de subsectoren van de goede doelen.
@@ -263,7 +361,16 @@ export default async function Sectorpagina({ params }: Params) {
           <Link href="/kantoren">Alle kantoren →</Link>
         </div>
         {kantoorrijen.length === 0 ? (
-          <Leeg tekst="Nog geen opdrachten in deze sector." />
+          // Hier stond "Nog geen opdrachten in deze sector", ook bij de handel
+          // met 4.095 opdrachten uit het marktonderzoek (5-10-2026). Wat er
+          // ontbreekt zijn gelezen controles; het marktonderzoek staat apart.
+          <Leeg
+            tekst={
+              marktonderzoekJaren.length
+                ? "Nog geen gelezen wettelijke of vrijwillige controles in deze sector. Wel noemt aangeleverd marktonderzoek een kantoor bij een deel van de organisaties; zie hieronder."
+                : "Nog geen gelezen wettelijke of vrijwillige controles in deze sector."
+            }
+          />
         ) : (
           <div className="tabel-omhulsel">
             <table>
@@ -330,6 +437,8 @@ export default async function Sectorpagina({ params }: Params) {
           </p>
         ) : null}
       </section>
+
+      {marktonderzoekJaren.length > 0 ? <Marktonderzoek jaren={marktonderzoekJaren} /> : null}
 
       {subsectorlijst.length > 0 ? (
         <section className="kaart">

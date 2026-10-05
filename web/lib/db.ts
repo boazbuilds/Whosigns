@@ -508,10 +508,48 @@ export async function subsectoren(): Promise<{ naam: string; aantal: number }[]>
     .sort((a, b) => b.aantal - a.aantal);
 }
 
+/**
+ * Een handvol organisaties in dezelfde plaats, voor de doorklikken op een
+ * organisatiepagina. Hoofdletterongevoelig: met `eq` vond "Amsterdam" de twaalf
+ * organisaties met "AMSTERDAM" niet, en die staan er door elkaar in (5-10-2026:
+ * 846 schrijfwijzen, 739 als je hoofdletters negeert). `ilike` zonder sterretje is een
+ * vergelijking zonder hoofdletters; procent, liggend streepje en backslash
+ * krijgen een backslash, anders werden het jokertekens.
+ */
 export function organisatiesInGemeente(gemeente: string, limiet = 20) {
+  const letterlijk = gemeente.replace(/[\\%_]/g, (teken) => `\\${teken}`);
   return haal<Organisatie>(
-    `organisaties?gemeente=eq.${encodeURIComponent(gemeente)}` +
+    `organisaties?gemeente=ilike.${encodeURIComponent(letterlijk)}` +
       `&select=${ORG_VELDEN}&order=naam.asc,id.asc&limit=${limiet}`,
+  );
+}
+
+/**
+ * De plaats van elke organisatie die er een heeft, met de sector erbij — voor
+ * de plaatspagina's, die de schrijfwijzen van één plaats samennemen
+ * (plaatsgroepen in paden.ts) en zeggen bij welk deel van het register de plaats
+ * überhaupt bekend is. Op 5-10-2026 3.439 rijen, vier verzoeken die Next een uur
+ * bewaart.
+ */
+export function plaatsRijen(): Promise<{ gemeente: string; sector: string | null }[]> {
+  return haalAlles<{ gemeente: string; sector: string | null }>(
+    "organisaties?select=gemeente,sector&gemeente=not.is.null&order=id.asc",
+  );
+}
+
+/**
+ * Alle organisaties met een van deze schrijfwijzen als plaats. `in.()` met
+ * aanhalingstekens om elke waarde: plaatsen als "Huis ter Heide, Gemeente
+ * Zeist" en "Bergen (NH)" bevatten precies de tekens die PostgREST anders als
+ * scheiding leest.
+ */
+export function organisatiesInPlaats(schrijfwijzen: string[]) {
+  const lijst = schrijfwijzen
+    .map((waarde) => `"${waarde.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`)
+    .join(",");
+  return haalAlles<Organisatie>(
+    `organisaties?gemeente=in.(${encodeURIComponent(lijst)})` +
+      `&select=${ORG_VELDEN}&order=naam.asc,id.asc`,
   );
 }
 
@@ -835,6 +873,18 @@ export function gunningenVanOrganisatie(organisatieId: number) {
 /** Aanbestedingen die dit kantoor heeft gewonnen, nieuwste eerst. */
 export function gunningenVanKantoor(kantoorId: number) {
   return gunningen(`kantoor_id=eq.${kantoorId}`);
+}
+
+/**
+ * Alle gunningen, voor /aanbestedingen. Elke gunning heeft een kantoor (de
+ * kolom is verplicht), dus de filter laat niets weg; hij is er omdat
+ * `gunningen()` er een verwacht. Op 5-10-2026 784 rijen, één verzoek; haalAlles
+ * bladert vanzelf door zodra het er meer dan duizend worden, en de sortering
+ * eindigt op id, zodat dat bladeren niets overslaat. Zonder datum staan ze
+ * vooraan (desc zet null eerst); dat waren er vier.
+ */
+export function alleGunningen() {
+  return gunningen("kantoor_id=not.is.null");
 }
 
 // ------------------------------------------------------- tekenend accountant
@@ -1297,5 +1347,37 @@ export function controlehonoraria(): Promise<Controlehonorarium[]> {
       "&honorarium_controle_eur=not.is.null" +
       "&type_opdracht=in.(wettelijke_controle,vrijwillige_controle,controle_onbepaald)" +
       "&order=id.asc",
+  );
+}
+
+// ----------------------------------------------------------- marktonderzoek
+
+/** Hoeveel organisaties in één sector en boekjaar een kantoor hebben volgens
+ *  het aangeleverde marktonderzoek; zie de migratie 20261006140000. */
+export type MarktonderzoekJaar = {
+  boekjaar: number;
+  aantal_organisaties: number;
+  /** Daarvan zonder wettelijke of vrijwillige controle in dat boekjaar: wat
+   *  het marktonderzoek toevoegt aan wat er gelezen is. */
+  zonder_controle: number;
+};
+
+/**
+ * Het marktonderzoek in één sector, per boekjaar en nieuwste eerst — als
+ * telling van organisaties, niet per kantoor.
+ *
+ * Bewust zonder verdeling over kantoren. Het onderzoek noemt op 5-10-2026 22
+ * kantoren, en twee van de vier grootste helemaal niet; één kantoor staat op
+ * 23% van de 35.582 regels. Een telling per kantoor zou vooral laten zien wie
+ * er in de aanlevering zit, en dat leest dan als een marktbeeld. Null zolang
+ * de view er nog niet is.
+ */
+export function marktonderzoekPerSector(
+  sector: string,
+): Promise<MarktonderzoekJaar[] | null> {
+  return zolangNieuw<MarktonderzoekJaar>(
+    "v_marktonderzoek_per_sector",
+    "v_marktonderzoek_per_sector?select=boekjaar,aantal_organisaties,zonder_controle" +
+      `&sector=eq.${encodeURIComponent(sector)}&order=boekjaar.desc`,
   );
 }
