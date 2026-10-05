@@ -4,7 +4,6 @@ import { accountants } from "@/lib/db";
 import { accountantPad, nl } from "@/lib/paden";
 import {
   Doorklik,
-  Foutmelding,
   Kerncijfer,
   Kruimels,
   Leeg,
@@ -24,12 +23,10 @@ export const metadata: Metadata = {
 const IN_DE_LIJST = 250;
 
 export default async function Accountantsoverzicht() {
-  let lijst;
-  try {
-    lijst = await accountants();
-  } catch (fout) {
-    return <Foutmelding fout={fout} />;
-  }
+  // Geen try met <Foutmelding>: deze pagina staat een uur in de cache, en een
+  // gerenderde foutmelding ging daar bij een mislukte verversing in mee. Een
+  // geworpen fout laat de vorige versie staan (zie error.tsx).
+  const lijst = await accountants();
 
   const getoond = lijst.slice(0, IN_DE_LIJST);
   const totaalOpdrachten = lijst.reduce((som, a) => som + a.aantal_opdrachten, 0);

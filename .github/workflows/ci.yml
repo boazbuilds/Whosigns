@@ -1,7 +1,8 @@
 name: Checks
 
-# Draait bij elke pull request en bij elke push naar main: de extractietests en
-# de typecontrole van de website. De testgevallen in pipeline/test_*.py bewaken
+# Draait bij elke pull request en bij elke push naar main: de extractietests,
+# de typecontrole van de website en een productiebuild met linkcontrole
+# (job "website" onderaan). De testgevallen in pipeline/test_*.py bewaken
 # precies de fouten die eerder verzonnen opdrachten en wisselingen opleverden;
 # tot nu toe draaide niets ze automatisch, dus een regressie kon stil op main
 # belanden. De TypeScript-kant ving alleen Vercel, en pas bij het deployen.
@@ -77,3 +78,60 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci
       - run: npx tsc --noEmit
+
+  # De site echt bouwen en de links nalopen. Tot 5-10-2026 deed CI voor web/
+  # alleen de typecontrole, en Vercel bouwt de werkbranch niet (vercel.json):
+  # een build die omvalt of een kapotte link zag je pas na de merge, op de
+  # echte site.
+  #
+  # De build prerendert de statische pagina's tegen de productiedatabase, net
+  # als Vercel. Daarvoor staan hier de URL en de publishable key: die mag
+  # openbaar zijn en kan alleen lezen (RLS, zie supabase/migrations/), dus geen
+  # secret nodig — de secret key hoort hier nooit. Valt Supabase tijdens het
+  # bouwen even weg, dan faalt de build; dat is sinds 5-10-2026 ook zo bij
+  # Vercel (een pagina met een databasefout wordt niet meer als geldige versie
+  # gebouwd, zie web/app/error.tsx). Eén herhaling vangt een hapering van
+  # seconden.
+  #
+  # De linkcontrole (web/scripts/linkcheck.mjs) vraagt alleen pagina's op en
+  # slaat /zoeken over: die schrijft elke zoekopdracht in de zoeklog.
+  website:
+    name: Website bouwen en links controleren
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: web
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: https://tvxymprohddrramuafit.supabase.co
+      NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: sb_publishable_oB71-qCxmNNAG35852WgIg_z_j1oIKw
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - name: Productiebuild
+        run: |
+          npx next build || {
+            echo "::warning::Build mislukt; over twintig seconden nog één keer."
+            sleep 20
+            npx next build
+          }
+      - name: Site starten
+        run: |
+          nohup npx next start -p 3000 > "$RUNNER_TEMP/next.log" 2>&1 &
+          for i in $(seq 1 60); do
+            curl -sf -o /dev/null http://127.0.0.1:3000/icon.svg && exit 0
+            sleep 1
+          done
+          cat "$RUNNER_TEMP/next.log"
+          exit 1
+      - name: Links controleren
+        run: node scripts/linkcheck.mjs http://127.0.0.1:3000
+      - name: Serverlog bij een fout
+        if: failure()
+        run: tail -n 100 "$RUNNER_TEMP/next.log" || true

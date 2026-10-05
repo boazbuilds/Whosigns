@@ -51,7 +51,6 @@ import {
 } from "@/lib/paden";
 import {
   Doorklik,
-  Foutmelding,
   KantoorLink,
   Kerncijfer,
   KortKantoorLink,
@@ -521,7 +520,13 @@ export default async function Startpagina() {
       </>
     );
   } catch (fout) {
-    inhoud = <Foutmelding fout={fout} />;
+    // Doorgooien in plaats van <Foutmelding> renderen: deze pagina staat een
+    // uur in de cache, en een gerenderde foutmelding ging daar bij een
+    // mislukte verversing gewoon in mee. Een geworpen fout laat de vorige
+    // versie staan; zie error.tsx. De los()-blokken hierboven blijven wél
+    // stil wegvallen — een voorpagina zonder de aanbestedingen is nog steeds
+    // een goede voorpagina.
+    throw fout;
   }
   return inhoud;
 }

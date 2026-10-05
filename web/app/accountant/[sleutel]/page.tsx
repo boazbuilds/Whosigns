@@ -16,7 +16,6 @@ import {
 } from "@/lib/paden";
 import {
   Doorklik,
-  Foutmelding,
   KantoorLink,
   Kerncijfer,
   Kruimels,
@@ -26,6 +25,14 @@ import {
 } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ sleutel: string }> };
+
+/** ISR: bij het eerste bezoek opbouwen en dan een uur uit de cache, zoals de
+ *  organisatiepagina; zie de uitleg daar. */
+export const revalidate = 3600;
+
+export function generateStaticParams(): { sleutel: string }[] {
+  return [];
+}
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { sleutel } = await params;
@@ -48,7 +55,9 @@ export default async function Accountantpagina({ params }: Params) {
     acc = await accountantOpSlug(veiligGedecodeerd(sleutel), slug);
     werk = acc ? await opdrachtenVanAccountant(acc.sleutel) : null;
   } catch (fout) {
-    return <Foutmelding fout={fout} />;
+    // Doorgooien: een gerenderde <Foutmelding> zou een uur in de cache staan.
+    // Een geworpen fout laat de vorige versie staan; zie error.tsx.
+    throw fout;
   }
   // Buiten de try, net als op de sectorpagina: notFound() gooit een uitzondering
   // die Next zelf opvangt, en onze catch zou daar een 200 met foutmelding van maken.

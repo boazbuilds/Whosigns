@@ -98,3 +98,14 @@ weghalen.
   anders kunnen beweren.
 - **Antwoorden worden een uur hergebruikt** (`revalidate: 3600`). De pipeline draait
   wekelijks, dus verser hoeft niet en het houdt het aantal database-verzoeken laag.
+- **Pagina's in de cache gooien een databasefout door.** De voorpagina, `/honoraria`,
+  `/accountants`, `/sectoren` en de organisatie-, sector-, subsector- en
+  accountantpagina's bewaart Next een uur (ISR). Daar dus géén `<Foutmelding>`
+  renderen: die ging bij een mislukte verversing een uur de cache in. Een geworpen
+  fout laat de vorige versie staan; zie `app/error.tsx`. De dynamische pagina's
+  (met een `?jaar=` of `?pagina=`) mogen de foutmelding wél tonen.
+  `pipeline/test_site_snel.py` bewaakt dit.
+- **Linkcontrole.** `node scripts/linkcheck.mjs http://localhost:3000` tegen een
+  draaiende `next start` volgt de interne links en faalt op elke kapotte. CI doet
+  hetzelfde (job "website" in `.github/workflows/ci.yml`). `/zoeken` wordt nooit
+  opgevraagd: die pagina schrijft in de zoeklog.

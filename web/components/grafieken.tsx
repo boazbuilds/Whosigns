@@ -185,8 +185,14 @@ export function Balansgrafiek({
               <span className="balansnaam" title={rij.naamTekst}>
                 {rij.naam}
               </span>
+              {/* role="img": een aria-label op een kale <span> is in ARIA 1.2
+                  verboden en wordt door schermlezers genegeerd (axe:
+                  aria-prohibited-attr, twintig keer op de voorpagina). Als
+                  afbeelding telt het label wél, en de balk en de tooltip
+                  erbinnen zijn dan vanzelf alleen opmaak. */}
               <span
                 className="balanskant balans-links"
+                role="img"
                 tabIndex={0}
                 aria-label={`${rij.naamTekst}: ${rij.links} ${links}`}
               >
@@ -200,6 +206,7 @@ export function Balansgrafiek({
               </span>
               <span
                 className="balanskant balans-rechts"
+                role="img"
                 tabIndex={0}
                 aria-label={`${rij.naamTekst}: ${rij.rechts} ${rechts}`}
               >

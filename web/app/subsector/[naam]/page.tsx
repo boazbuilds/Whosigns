@@ -21,9 +21,17 @@ import {
   veiligGedecodeerd,
 } from "@/lib/paden";
 import { LEIDER_MINIMUM, nieuwsteCompleteBoekjaar } from "@/lib/voorpagina";
-import { Doorklik, Foutmelding, Kruimels, Leeg } from "@/components/onderdelen";
+import { Doorklik, Kruimels, Leeg } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ naam: string }> };
+
+/** ISR: bij het eerste bezoek opbouwen en dan een uur uit de cache, zoals de
+ *  organisatiepagina; zie de uitleg daar. */
+export const revalidate = 3600;
+
+export function generateStaticParams(): { naam: string }[] {
+  return [];
+}
 
 /**
  * De slug is niet omkeerbaar ("Jeugd- en pedagogische zorg" → "jeugd-en-
@@ -62,13 +70,16 @@ export default async function Subsectorpagina({ params }: Params) {
     // stille afkapping op de eerste 250 (alfabetisch): de kop meldde het echte
     // aantal, maar de kantorentabel en de aandelen gingen over A tot ergens
     // halverwege — en niets op de pagina zei dat.
-    subsectorOpdrachten = await opdrachtenVanOrganisaties(organisaties.map((o) => o.id));
-    const organisatieIds = new Set(organisaties.map((o) => o.id));
-    subsectorWisselingen = (await wisselingen()).filter((w) =>
-      organisatieIds.has(w.organisatie_id),
-    );
+    [subsectorOpdrachten, subsectorWisselingen] = await Promise.all([
+      opdrachtenVanOrganisaties(organisaties.map((o) => o.id)),
+      // Alleen de wisselingen van deze subsector, in plaats van alle 1.709
+      // op te halen en hier te filteren (5-10-2026).
+      subsector ? wisselingen({ subsector }) : Promise.resolve([]),
+    ]);
   } catch (fout) {
-    return <Foutmelding fout={fout} />;
+    // Doorgooien: een gerenderde <Foutmelding> zou een uur in de cache staan.
+    // Een geworpen fout laat de vorige versie staan; zie error.tsx.
+    throw fout;
   }
   // Buiten de try: notFound() werkt met een uitzondering die Next zelf opvangt.
   // Binnen de try slokte onze eigen catch die op, en kreeg de bezoeker bij een

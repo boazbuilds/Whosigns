@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
+  kantoorOpAfm,
+  kantoorOpId,
   kantoorRanglijst,
   oordelenVoorafAanWissels,
+  sectoren,
   wisselingen,
+  type Kantoor,
 } from "@/lib/db";
 import { saldoPerKantoor } from "@/lib/analyse";
 import {
@@ -14,6 +18,9 @@ import {
   OORDEEL_LABEL,
   organisatiePad,
   sectorPad,
+  sleutelUitSlug,
+  slug,
+  wisselingenPad,
 } from "@/lib/paden";
 import {
   Doorklik,
@@ -36,18 +43,45 @@ export const metadata: Metadata = {
  *  achter één klik. Boekjaar 2021 telt er 173 — dat hoeft niet in één keer. */
 const OPEN = 30;
 
-type Zoek = { searchParams: Promise<{ jaar?: string }> };
+type Zoek = { searchParams: Promise<{ jaar?: string; sector?: string; kantoor?: string }> };
+
+/** Het kantoor uit ?kantoor=, in dezelfde vorm als zijn eigen adres. */
+async function vindKantoor(waarde: string): Promise<Kantoor | null> {
+  const { nummer, id } = sleutelUitSlug(waarde);
+  if (id !== null) return kantoorOpId(id);
+  return nummer ? kantoorOpAfm(nummer) : null;
+}
 
 export default async function Wisselingenpagina({ searchParams }: Zoek) {
-  const { jaar } = await searchParams;
+  const { jaar, sector: sectorRuw, kantoor: kantoorRuw } = await searchParams;
 
+  // ?sector=zorg: alleen de wisselingen van die sector. Het kerncijfer
+  // "wisselingen" op een sectorpagina telde die sector, maar linkte hierheen
+  // naar alle sectoren samen (5-10-2026: 296 tegen 1.709 bij de zorg). Een
+  // onbekende sector in de URL valt terug op alles, zoals een onzinnig jaartal.
+  //
+  // ?kantoor=: alleen wat dit kantoor won en verloor. De kantoorpagina toont
+  // er de nieuwste van en linkt hierheen voor de rest; daar stonden ze tot
+  // 5-10-2026 allemaal, ingeklapt maar wel in de HTML — bij BDO 214 gewonnen
+  // en 207 verloren opdrachten.
+  let sector: string | null = null;
+  let kantoor: Kantoor | null = null;
   let rijen;
   let ranglijst;
   try {
+    [sector, kantoor] = await Promise.all([
+      sectorRuw
+        ? sectoren().then((lijst) => lijst.find((s) => slug(s.naam) === sectorRuw)?.naam ?? null)
+        : null,
+      kantoorRuw ? vindKantoor(kantoorRuw) : null,
+    ]);
     [rijen, ranglijst] = await Promise.all([
       // Zonder limiet: de kerncijfers (drukste jaar, saldi) gaan over álle
       // wisselingen, ook al staat er maar één boekjaar tegelijk open.
-      wisselingen(),
+      wisselingen({
+        ...(sector ? { sector } : {}),
+        ...(kantoor ? { kantoorId: kantoor.id } : {}),
+      }),
       kantoorRanglijst().catch(() => []),
     ]);
   } catch (fout) {
@@ -99,11 +133,31 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
       <Kruimels paden={[{ naar: "/", tekst: "Start" }, { tekst: "Wisselingen" }]} />
 
       <div className="paginakop">
-        <h1>Accountantswisselingen</h1>
+        <h1>
+          Accountantswisselingen
+          {kantoor ? ` van en naar ${kantoor.naam}` : ""}
+          {sector ? ` in de sector ${sector}` : ""}
+        </h1>
         <p className="zacht klein" style={{ margin: "0.4rem 0 0", maxWidth: "44rem" }}>
           Een wisseling is een boekjaar waarin een organisatie de controle door een
           ánder kantoor liet uitvoeren dan het boekjaar ervoor. Afgeleid uit de
           historie — niet uit een aankondiging.
+          {sector ? (
+            <>
+              {" "}
+              Alleen organisaties die nu in de sector {sector} staan;{" "}
+              <Link href={wisselingenPad({ jaar: gekozen, kantoor })}>alle sectoren</Link>.
+            </>
+          ) : null}
+          {kantoor ? (
+            <>
+              {" "}
+              Alleen wisselingen waarin{" "}
+              <Link href={kantoorPad(kantoor)}>{kantoor.naam}</Link> het oude of het
+              nieuwe kantoor was;{" "}
+              <Link href={wisselingenPad({ jaar: gekozen, sector })}>alle kantoren</Link>.
+            </>
+          ) : null}
         </p>
         <div className="kerncijfers">
           <Kerncijfer waarde={rijen.length} naam="wisselingen" />
@@ -131,8 +185,9 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
           {jaren.map((j) => (
             <Link
               key={j}
-              href={`/wisselingen?jaar=${j}`}
+              href={wisselingenPad({ jaar: j, sector, kantoor })}
               className={gekozen === j ? "actief" : undefined}
+              aria-current={gekozen === j ? "page" : undefined}
             >
               {j} <span className="zacht">({perJaar.get(j)!.length})</span>
             </Link>

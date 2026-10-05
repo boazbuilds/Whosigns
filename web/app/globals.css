@@ -23,6 +23,14 @@
   --inkt: #191510;
   --inkt-zacht: #5f574a;
   --inkt-flauw: #8b8272;
+  /* Dezelfde zachte inkt, maar voor tekst. --inkt-flauw haalt op papier
+     3,28:1 en op het vel 3,61:1 — genoeg voor een grafiekvlak (3:1), te weinig
+     voor tekst (4,5:1). axe vond op 5-10-2026 op elke geteste pagina tien tot
+     253 regels die daarop zakten: de datumregel, de kruimels, de namen onder
+     de kerncijfers, de tabelkoppen. Deze haalt 5,18:1 op papier, 5,70:1 op het
+     vel en 4,60:1 op papier-diep (de achtergrond van een rij onder de muis);
+     de grafiekvlakken blijven op --inkt-flauw. */
+  --inkt-tekst-flauw: #6b6254;
 
   /* Lijnen: haarlijn, en een zwaardere voor koppen en scheidingen */
   --lijn: #ddd5c5;
@@ -189,7 +197,7 @@ main {
   font-size: 0.7rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
 }
 .datumregel > span:not(:last-child)::after {
   content: "·";
@@ -250,6 +258,11 @@ main {
   color: var(--papier);
   border-bottom-color: var(--rood);
 }
+/* De rubriek waar je bent (components/menulink.tsx): dezelfde streep als bij
+   het aanwijzen, maar in papierkleur, zodat hij niet als aanwijzen leest. */
+.hoofdmenu > li > a[aria-current] {
+  border-bottom-color: var(--papier);
+}
 .hoofdmenu > li.heeft-uitklap > a::after {
   content: "▾";
   font-size: 0.6rem;
@@ -292,7 +305,7 @@ main {
   color: var(--rood);
 }
 .uitklap .telling {
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
   font-size: 0.78rem;
 }
 .uitklap hr {
@@ -378,7 +391,7 @@ main {
   font-size: 0.72rem;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
   margin-bottom: 0.9rem;
 }
 .kruimels a {
@@ -498,7 +511,7 @@ main {
   font-size: 0.68rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
   font-weight: 600;
   margin-bottom: 0.15rem;
 }
@@ -541,7 +554,7 @@ main {
   font-size: 0.68rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
 }
 a.kerncijfer:hover {
   color: var(--rood);
@@ -569,7 +582,7 @@ th {
   font-size: 0.66rem;
   letter-spacing: 0.11em;
   text-transform: uppercase;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
   border-bottom: 1px solid var(--inkt);
   padding: 0.3rem 0.55rem 0.3rem 0;
   white-space: nowrap;
@@ -685,7 +698,7 @@ tr.bevinding td:first-child {
   font-family: var(--serif);
   font-size: 1.15rem;
   line-height: 1;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
   text-align: right;
 }
 .rang-1,
@@ -979,6 +992,18 @@ td.rangcel {
   background: var(--inkt);
   color: var(--papier);
 }
+/* Het aantal achter een jaartal ("2021 (173)") staat in .zacht, en die inkt
+   haalt op de donkere ondergrond van het gekozen jaar maar 2,55:1. */
+.keuzebalk a.actief .zacht {
+  color: var(--lijn);
+}
+/* Het weglatingsteken tussen paginanummers (Paginering in onderdelen.tsx). */
+.keuzebalk .weggelaten {
+  padding: 0.3rem 0.6rem;
+  border-right: 1px solid var(--lijn-sterk);
+  font-size: 0.78rem;
+  color: var(--inkt-zacht);
+}
 
 /* ------------------------------------------------------------ doorklikken */
 
@@ -1181,7 +1206,7 @@ td.rangcel {
    Een streepjeslijn leest als "dit staat nog open". */
 .label-vaag {
   border-style: dashed;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
 }
 
 /* Uitsplitsing van de opdrachten naar soort, onder de kerncijfers. */
@@ -1372,7 +1397,7 @@ td.rangcel {
   padding-right: 0.4rem;
   font-size: 0.62rem;
   line-height: 1;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
   white-space: nowrap;
 }
 /* Niet ".kolommen": die naam is al het raster van kaarten naast elkaar. */
@@ -1446,7 +1471,7 @@ td.rangcel {
   margin-top: 0.3rem;
   font-size: 0.62rem;
   line-height: 1;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
   white-space: nowrap;
 }
 
@@ -1510,7 +1535,7 @@ td.rangcel {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
 }
 .legenda-balans > span {
   white-space: nowrap;
@@ -1690,7 +1715,7 @@ td.rangcel {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--inkt-flauw);
+  color: var(--inkt-tekst-flauw);
 }
 .schaalstap {
   display: inline-flex;

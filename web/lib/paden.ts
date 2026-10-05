@@ -97,6 +97,40 @@ export function sectorPad(sector: string): string {
   return `/sector/${slug(sector)}`;
 }
 
+/** De volledige, gepagineerde organisatielijst van een sector. Pagina 1 heeft
+ *  geen parameter: één adres per pagina, niet twee. */
+export function sectorOrganisatiesPad(sector: string, pagina = 1): string {
+  const pad = `${sectorPad(sector)}/organisaties`;
+  return pagina > 1 ? `${pad}?pagina=${pagina}` : pad;
+}
+
+/** /wisselingen, eventueel alleen voor één sector, één kantoor (gewonnen én
+ *  verloren) en één boekjaar. Het kantoor gaat erin zoals in zijn eigen adres,
+ *  zodat de pagina het op dezelfde manier terugvindt. */
+export function wisselingenPad(
+  opties: {
+    sector?: string | null;
+    kantoor?: (Pick<Kantoor, "afm_nummer" | "naam"> & { id: number }) | null;
+    jaar?: number | null;
+  } = {},
+): string {
+  const zoek = new URLSearchParams();
+  if (opties.jaar) zoek.set("jaar", String(opties.jaar));
+  if (opties.sector) zoek.set("sector", slug(opties.sector));
+  if (opties.kantoor) zoek.set("kantoor", kantoorPad(opties.kantoor).slice("/kantoor/".length));
+  const tekst = zoek.toString();
+  return tekst ? `/wisselingen?${tekst}` : "/wisselingen";
+}
+
+/** Een paginanummer uit de URL: een geheel getal vanaf 1, anders 1. Een
+ *  onzinnige waarde ("abc", "-3", "2.5") valt terug op de eerste pagina in
+ *  plaats van een lege lijst te tonen. */
+export function paginaUitZoek(waarde: string | string[] | undefined): number {
+  const tekst = Array.isArray(waarde) ? waarde[0] : waarde;
+  if (!tekst || !/^\d+$/.test(tekst)) return 1;
+  return Math.max(1, Number(tekst));
+}
+
 /** Het adres van een tekenend accountant. De sleutel komt uit `v_accountant`
  *  en is al genormaliseerd (kleine letters, geen punten, titels vooraan eraf);
  *  `slug()` maakt er alleen nog koppeltekens van. Niet omkeerbaar bij accenten

@@ -27,17 +27,17 @@ import {
   organisatiePad,
   procent,
   SECTOR_UITLEG,
+  sectorOrganisatiesPad,
   sectorPad,
   slug,
   subsectorPad,
   veiligGedecodeerd,
+  wisselingenPad,
 } from "@/lib/paden";
 import {
   Aandeelbalk,
   Aangeleverd,
   Doorklik,
-  Foutmelding,
-  Inklapbaar,
   KantoorLink,
   Kerncijfer,
   KortKantoorLink,
@@ -49,7 +49,22 @@ import {
 
 type Params = { params: Promise<{ naam: string }> };
 
-/** Zoveel organisaties staan open in de zijkolom; de rest zit achter een klik. */
+/** ISR: bij het eerste bezoek opbouwen en dan een uur uit de cache, zoals de
+ *  organisatiepagina; zie de uitleg daar. Deze pagina hangt in het menu van
+ *  élke pagina, dus juist hier telt het. */
+export const revalidate = 3600;
+
+export function generateStaticParams(): { naam: string }[] {
+  return [];
+}
+
+/**
+ * Zoveel organisaties staan op deze pagina; de hele lijst staat op een eigen,
+ * gepagineerde pagina. Hier stonden ze tot 5-10-2026 állemaal in de HTML, de
+ * staart ingeklapt: bij de zorg 2.448 regels en 1,6 MB, bij de financiële
+ * dienstverlening 4.165 regels en 1,8 MB — ook voor wie alleen het podium
+ * kwam bekijken.
+ */
 const ORGANISATIES_OPEN = 15;
 
 /** Zoveel boekjaren marktonderzoek staan open; de oudste, met een handvol
@@ -161,39 +176,29 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function Sectorpagina({ params }: Params) {
   const { naam } = await params;
 
-  let sector: string | null;
-  let organisaties;
-  let aandelen;
-  try {
-    sector = await vindSector(veiligGedecodeerd(naam));
-    [organisaties, aandelen] = sector
-      ? await Promise.all([organisatiesInSector(sector), marktaandeel(sector)])
-      : [[], []];
-  } catch (fout) {
-    return <Foutmelding fout={fout} />;
-  }
-  // Buiten de try: notFound() werkt met een uitzondering die Next zelf opvangt.
-  // Binnen de try zou onze eigen catch die opslokken en kreeg de bezoeker een
-  // foutmelding met http-status 200 in plaats van een nette 404.
+  // Geen try met <Foutmelding> meer: deze pagina staat een uur in de cache, en
+  // een gerenderde foutmelding ging daar bij een mislukte verversing in mee.
+  // Een geworpen fout laat de vorige versie staan; zie error.tsx.
+  const sector = await vindSector(veiligGedecodeerd(naam));
+  const [organisaties, aandelen, sectorWisselingen, marktonderzoek] = sector
+    ? await Promise.all([
+        organisatiesInSector(sector),
+        marktaandeel(sector),
+        // Alleen de wisselingen van deze sector, zonder limiet: met een limiet
+        // vooraf vielen ze buiten beeld zodra een andere sector de nieuwste
+        // regels vulde.
+        wisselingen({ sector }),
+        // Het marktonderzoek is een los blok onderaan. Zolang de view er niet
+        // is, geeft marktonderzoekPerSector() null en blijft het blok weg; elke
+        // andere fout gooit door, zoals de rest van deze pagina, zodat de
+        // vorige versie in de cache blijft staan.
+        marktonderzoekPerSector(sector),
+      ])
+    : [[], [], [], null];
+  // notFound() werkt met een uitzondering die Next zelf opvangt; in een try
+  // met eigen catch werd dat een foutmelding met http-status 200.
   if (!sector || organisaties.length === 0) notFound();
 
-  // Alle wisselingen ophalen en hier filteren: v_wisselingen kent geen sector, en
-  // met een limiet vooraf vielen de wisselingen van deze sector buiten beeld zodra
-  // een andere sector de nieuwste regels vulde.
-  //
-  // Het marktonderzoek is een los blok onderaan: lukt dat niet, dan verdwijnt
-  // alleen dat blok, zoals op de voorpagina, en de fout gaat naar het log.
-  const organisatieIds = new Set(organisaties.map((o) => o.id));
-  const [alleWisselingen, marktonderzoek] = await Promise.all([
-    wisselingen(),
-    marktonderzoekPerSector(sector).catch((fout) => {
-      console.error("[sector] marktonderzoek overgeslagen:", fout);
-      return null;
-    }),
-  ]);
-  const sectorWisselingen = alleWisselingen.filter((w) =>
-    organisatieIds.has(w.organisatie_id),
-  );
   const marktonderzoekJaren = (marktonderzoek ?? []).filter((j) => j.aantal_organisaties > 0);
 
   // Subsectoren uit de organisaties van déze sector. Hier stond de landelijke
@@ -268,7 +273,7 @@ export default async function Sectorpagina({ params }: Params) {
   const gedeeld = kandidaten.filter(([, rij]) => grensplek !== null && plekIn(rij) === grensplek);
   const saldi = saldoPerKantoor(sectorWisselingen).filter((rij) => rij.saldo !== 0);
 
-  const organisatierijen = organisaties.map((org) => (
+  const organisatierijen = organisaties.slice(0, ORGANISATIES_OPEN).map((org) => (
     <tr key={org.id}>
       <td>
         <Link href={organisatiePad(org)}>{org.naam}</Link>
@@ -301,7 +306,7 @@ export default async function Sectorpagina({ params }: Params) {
           <Kerncijfer
             waarde={sectorWisselingen.length}
             naam="wisselingen"
-            naar="/wisselingen"
+            naar={wisselingenPad({ sector })}
           />
           <Kerncijfer
             waarde={boekjaren.length ? `${Math.min(...boekjaren)}–${Math.max(...boekjaren)}` : "—"}
@@ -474,7 +479,7 @@ export default async function Sectorpagina({ params }: Params) {
         <section className="kaart">
           <div className="kaartkop">
             <h2>Wisselingen in deze sector</h2>
-            <Link href="/wisselingen">Alle →</Link>
+            <Link href={wisselingenPad({ sector })}>Alle →</Link>
           </div>
           {sectorWisselingen.length === 0 ? (
             <Leeg tekst="Geen wisselingen gevonden." />
@@ -551,23 +556,17 @@ export default async function Sectorpagina({ params }: Params) {
       <section className="kaart">
         <div className="kaartkop">
           <h2>Organisaties in deze sector</h2>
+          {organisaties.length > ORGANISATIES_OPEN ? (
+            <Link href={sectorOrganisatiesPad(sector)}>
+              Alle {nl(organisaties.length)} →
+            </Link>
+          ) : null}
         </div>
         <div className="tabel-omhulsel">
           <table>
-            <tbody>{organisatierijen.slice(0, ORGANISATIES_OPEN)}</tbody>
+            <tbody>{organisatierijen}</tbody>
           </table>
         </div>
-        {organisatierijen.length > ORGANISATIES_OPEN ? (
-          <Inklapbaar
-            samenvatting={`Nog ${organisatierijen.length - ORGANISATIES_OPEN} organisaties`}
-          >
-            <div className="tabel-omhulsel">
-              <table>
-                <tbody>{organisatierijen.slice(ORGANISATIES_OPEN)}</tbody>
-              </table>
-            </div>
-          </Inklapbaar>
-        ) : null}
       </section>
 
       <Doorklik
@@ -587,6 +586,11 @@ export default async function Sectorpagina({ params }: Params) {
             tekst: org.naam,
             toelichting: org.gemeente ?? undefined,
           })),
+          {
+            naar: sectorOrganisatiesPad(sector),
+            tekst: "Alle organisaties in deze sector, alfabetisch",
+            toelichting: aantalOrganisaties(organisaties.length),
+          },
           { naar: "/sectoren", tekst: "Alle sectoren vergelijken" },
           {
             naar: "/kantoren",
@@ -594,9 +598,9 @@ export default async function Sectorpagina({ params }: Params) {
             toelichting: `${aantalKantoren(kantoorrijen.length)} actief in deze sector`,
           },
           {
-            naar: "/wisselingen",
-            tekst: "Alle accountantswisselingen",
-            toelichting: `${aantalWisselingen(sectorWisselingen.length)} in deze sector`,
+            naar: wisselingenPad({ sector }),
+            tekst: `Accountantswisselingen in de sector ${sector}`,
+            toelichting: aantalWisselingen(sectorWisselingen.length),
           },
           { naar: "/bevindingen", tekst: "Waar was het oordeel niet goedkeurend?" },
         ]}
