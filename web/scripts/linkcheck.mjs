@@ -10,6 +10,12 @@
  * Wat het doet: begint bij de rubriekpagina's, haalt elke gevonden interne
  * link op en faalt op
  *   - een status anders dan 200;
+ *   - een pagina met een foutmelding erin: <Foutmelding> (class "foutvlak")
+ *     of het scherm van app/error.tsx. Een dynamische pagina met een kapotte
+ *     query geeft gewoon status 200 met "De gegevens konden niet worden
+ *     opgehaald"; met een nagedane storing op 5-10-2026 kwam
+ *     /sector/zorg/organisaties?pagina=7 zo met 200 en 18.905 bytes door
+ *     deze controle heen;
  *   - een link die met /kantoor/- of /organisatie/- begint: een kantoor of
  *     organisatie zonder sleutel, die altijd een 404 geeft;
  *   - "null" of "undefined" in de <title> of de beschrijving.
@@ -29,8 +35,15 @@ const BASIS = (process.argv[2] ?? process.env.LINKCHECK_BASIS ?? "http://127.0.0
 );
 const BEGIN = ["/", "/kantoren", "/sectoren", "/wisselingen", "/honoraria", "/bevindingen"];
 const PER_SOORT = 20;
+/** Minder voor de soorten die zwaar zijn. Een kantoorpagina is ~380 KB en
+ *  haalt alle opdrachten van het kantoor op: van één ronde op 5-10-2026 (148
+ *  pagina's, 24,8 MB uit Supabase) kwam 19,3 MB van de twintig kantoren. Acht
+ *  laat de klasse fouten even goed zien. */
+const PER_SOORT_ANDERS = { kantoor: 8 };
 const MAX_PAGINAS = 220;
 const TEGELIJK = 4;
+/** De zin uit het scherm van app/error.tsx. */
+const FOUTSCHERM = "Deze pagina kon niet worden opgebouwd.";
 /** Na zoveel seconden geen nieuwe pagina's meer: CI hoort niet te slepen. */
 const TIJDSLIMIET_S = 150;
 
@@ -69,7 +82,7 @@ function voegToe(pad, vanaf) {
   if (gezien.has(pad) || overslaan(pad)) return;
   const s = soort(pad);
   const aantal = perSoort.get(s) ?? 0;
-  if (!BEGIN.includes(pad) && aantal >= PER_SOORT) return;
+  if (!BEGIN.includes(pad) && aantal >= (PER_SOORT_ANDERS[s] ?? PER_SOORT)) return;
   if (gezien.size >= MAX_PAGINAS) return;
   gezien.add(pad);
   perSoort.set(s, aantal + 1);
@@ -90,6 +103,18 @@ async function controleer({ pad, vanaf }) {
     return;
   }
   const html = await antwoord.text();
+
+  // De klasse komt van Foutmelding in components/onderdelen.tsx, de zin van
+  // app/error.tsx; test_site_snel.py controleert dat ze daar nog zo staan.
+  if (/class="foutvlak"/.test(html)) {
+    const melding = /class="foutvlak"[\s\S]*?<code>([\s\S]*?)<\/code>/.exec(html)?.[1] ?? "";
+    fouten.push(`${pad} (gevonden op ${vanaf}): foutmelding op de pagina: ${ontsnap(melding)}`);
+    return;
+  }
+  if (html.includes(FOUTSCHERM)) {
+    fouten.push(`${pad} (gevonden op ${vanaf}): het foutscherm van app/error.tsx`);
+    return;
+  }
 
   const titel = /<title>([^<]*)<\/title>/.exec(html)?.[1] ?? "";
   const beschrijving = /<meta name="description" content="([^"]*)"/.exec(html)?.[1] ?? "";

@@ -28,6 +28,10 @@ type Params = {
  */
 const PER_PAGINA = 100;
 
+function aantalPaginasVan(totaal: number): number {
+  return Math.ceil(totaal / PER_PAGINA);
+}
+
 /** Dezelfde opzoeking als de sectorpagina: de slug is niet omkeerbaar. Met het
  *  aantal erbij, want dat is ook het totaal van deze lijst. */
 async function vindSector(naamSlug: string) {
@@ -38,8 +42,10 @@ async function vindSector(naamSlug: string) {
 export async function generateMetadata({ params, searchParams }: Params): Promise<Metadata> {
   const { naam } = await params;
   const pagina = paginaUitZoek((await searchParams).pagina);
-  const sector = (await vindSector(veiligGedecodeerd(naam)).catch(() => null))?.naam;
-  if (!sector) return { title: "Sector niet gevonden" };
+  const gevonden = await vindSector(veiligGedecodeerd(naam)).catch(() => null);
+  if (!gevonden) return { title: "Sector niet gevonden" };
+  if (pagina > aantalPaginasVan(gevonden.aantal)) return { title: "Pagina niet gevonden" };
+  const sector = gevonden.naam;
   return {
     title:
       `Organisaties in de sector ${sector}` + (pagina > 1 ? `, pagina ${pagina}` : ""),
@@ -65,9 +71,15 @@ export default async function SectorOrganisaties({ params, searchParams }: Param
   let rijen;
   try {
     gevonden = await vindSector(veiligGedecodeerd(naam));
-    rijen = gevonden
-      ? await organisatiesInSectorPagina(gevonden.naam, pagina, PER_PAGINA)
-      : [];
+    // Voorbij de laatste pagina niet eens vragen: het totaal staat al in
+    // sectoren(). Een reusachtig paginanummer werd anders een offset die
+    // PostgREST negeerde, en dan kwam pagina 1 terug onder de verkeerde kop
+    // (zie paginaUitZoek). De lege lijst hieronder is de vangrail voor als
+    // het totaal uit de cache iets ouder is dan de organisaties zelf.
+    rijen =
+      gevonden && pagina <= aantalPaginasVan(gevonden.aantal)
+        ? await organisatiesInSectorPagina(gevonden.naam, pagina, PER_PAGINA)
+        : [];
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
@@ -77,7 +89,7 @@ export default async function SectorOrganisaties({ params, searchParams }: Param
   if (!gevonden || rijen.length === 0) notFound();
   const { naam: sector, aantal: totaal } = gevonden;
 
-  const aantalPaginas = Math.ceil(totaal / PER_PAGINA);
+  const aantalPaginas = aantalPaginasVan(totaal);
   const eerste = (pagina - 1) * PER_PAGINA + 1;
   const laatste = eerste + rijen.length - 1;
   const subsectoren = [

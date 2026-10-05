@@ -106,6 +106,7 @@ weghalen.
   (met een `?jaar=` of `?pagina=`) mogen de foutmelding wél tonen.
   `pipeline/test_site_snel.py` bewaakt dit.
 - **Linkcontrole.** `node scripts/linkcheck.mjs http://localhost:3000` tegen een
-  draaiende `next start` volgt de interne links en faalt op elke kapotte. CI doet
-  hetzelfde (job "website" in `.github/workflows/ci.yml`). `/zoeken` wordt nooit
-  opgevraagd: die pagina schrijft in de zoeklog.
+  draaiende `next start` volgt de interne links en faalt op elke kapotte, en op
+  elke pagina met een foutmelding erin. CI doet hetzelfde
+  (`.github/workflows/website.yml`, alleen als web/ of de migraties veranderen).
+  `/zoeken` wordt nooit opgevraagd: die pagina schrijft in de zoeklog.

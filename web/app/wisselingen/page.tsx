@@ -9,7 +9,7 @@ import {
   wisselingen,
   type Kantoor,
 } from "@/lib/db";
-import { saldoPerKantoor } from "@/lib/analyse";
+import { saldoPerKantoor, saldoVanKantoor } from "@/lib/analyse";
 import {
   aantalJaren,
   aantalWisselingen,
@@ -96,7 +96,17 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
   const drukste = jaren.length
     ? jaren.reduce((a, b) => (perJaar.get(b)!.length > perJaar.get(a)!.length ? b : a))
     : null;
-  const saldi = saldoPerKantoor(rijen);
+  // Met ?kantoor= gaan alle rijen over dat ene kantoor. Een "beste" en
+  // "slechtste saldo" daaruit lazen als het saldo over de hele markt, maar
+  // betekenden "won het meest van" en "verloor het meest aan" dit kantoor: bij
+  // BDO stond er "+33 beste saldo: Forvis Mazars", terwijl Forvis Mazars over
+  // alle 1.709 wisselingen op +81 staat, en het saldo van BDO zelf (+7: 214
+  // gewonnen, 207 verloren) stond nergens (5-10-2026). Met een kantoor dus
+  // alleen zijn eigen saldo, zoals op de kantoorpagina. Met alleen een sector
+  // blijven winnaar en verliezer staan: dat zijn de saldi binnen die sector,
+  // dezelfde als op de sectorpagina.
+  const eigen = kantoor ? saldoVanKantoor(rijen, kantoor.id) : null;
+  const saldi = eigen ? [] : saldoPerKantoor(rijen);
   const winnaar = saldi[0];
   const verliezer = saldi[saldi.length - 1];
 
@@ -167,6 +177,16 @@ export default async function Wisselingenpagina({ searchParams }: Zoek) {
               waarde={drukste}
               naam={`drukste jaar (${perJaar.get(drukste)!.length})`}
             />
+          ) : null}
+          {eigen ? (
+            <>
+              <Kerncijfer waarde={eigen.gewonnen} naam="gewonnen" />
+              <Kerncijfer waarde={eigen.verloren} naam="verloren" />
+              <Kerncijfer
+                waarde={eigen.saldo > 0 ? `+${eigen.saldo}` : String(eigen.saldo)}
+                naam="saldo"
+              />
+            </>
           ) : null}
           {winnaar && winnaar.saldo > 0 ? (
             <Kerncijfer waarde={`+${winnaar.saldo}`} naam={`beste saldo: ${winnaar.naam}`} />

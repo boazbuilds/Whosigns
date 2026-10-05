@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { opdrachtenMetHonoraria, type HonorariumRij } from "@/lib/db";
+import { opdrachtenMetHonoraria } from "@/lib/db";
 import {
   controleHonorariumPerJaar,
+  perBoekjaarEnSector,
   prijsontwikkelingPerKantoor,
 } from "@/lib/analyse";
 import {
@@ -42,29 +43,6 @@ export const metadata: Metadata = {
  * staan op de pagina van de organisatie zelf.
  */
 const PER_GROEP = 25;
-
-/** Per boekjaar (nieuwste eerst) de sectoren (grootste eerst) met hun regels,
- *  in de volgorde van de query: hoogste controlehonorarium eerst. */
-function perBoekjaarEnSector(rijen: HonorariumRij[]) {
-  const jaren = new Map<number, Map<string | null, HonorariumRij[]>>();
-  for (const rij of rijen) {
-    const sectoren = jaren.get(rij.boekjaar) ?? new Map<string | null, HonorariumRij[]>();
-    const sector = rij.organisaties?.sector ?? null;
-    const lijst = sectoren.get(sector) ?? [];
-    lijst.push(rij);
-    sectoren.set(sector, lijst);
-    jaren.set(rij.boekjaar, sectoren);
-  }
-  return [...jaren.entries()]
-    .sort((a, b) => b[0] - a[0])
-    .map(([boekjaar, sectoren]) => ({
-      boekjaar,
-      aantal: [...sectoren.values()].reduce((som, lijst) => som + lijst.length, 0),
-      sectoren: [...sectoren.entries()].sort(
-        (a, b) => b[1].length - a[1].length || (a[0] ?? "").localeCompare(b[0] ?? "", "nl"),
-      ),
-    }));
-}
 
 export default async function Honorariapagina() {
   // Geen try met <Foutmelding>: deze pagina staat een uur in de cache, en een

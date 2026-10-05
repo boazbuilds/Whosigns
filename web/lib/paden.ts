@@ -124,11 +124,33 @@ export function wisselingenPad(
 
 /** Een paginanummer uit de URL: een geheel getal vanaf 1, anders 1. Een
  *  onzinnige waarde ("abc", "-3", "2.5") valt terug op de eerste pagina in
- *  plaats van een lege lijst te tonen. */
+ *  plaats van een lege lijst te tonen.
+ *
+ *  Een getal voorbij Number.MAX_SAFE_INTEGER wordt die grens, en blijft dus
+ *  "voorbij de laatste pagina". Zonder grens werd ?pagina=99999999999999999999
+ *  een offset van "1e+22" in de PostgREST-URL. Die negeerde PostgREST, en de
+ *  organisatielijst gaf pagina 1 met status 200 en de kop "pagina
+ *  100000000000000000000 van 25" (5-10-2026), waar ?pagina=26 wel een 404 gaf. */
 export function paginaUitZoek(waarde: string | string[] | undefined): number {
   const tekst = Array.isArray(waarde) ? waarde[0] : waarde;
   if (!tekst || !/^\d+$/.test(tekst)) return 1;
-  return Math.max(1, Number(tekst));
+  return Math.max(1, Math.min(Number(tekst), Number.MAX_SAFE_INTEGER));
+}
+
+/** De nummers die <Paginering> toont: altijd de eerste en de laatste pagina,
+ *  en twee aan weerszijden van de huidige; null waar nummers zijn weggelaten
+ *  (daar komt "…"). Hier en niet in de component, zodat
+ *  pipeline/test_site_snel.py het kan narekenen zonder React. */
+export function paginaNummers(pagina: number, aantalPaginas: number): (number | null)[] {
+  const nummers: (number | null)[] = [];
+  for (let n = 1; n <= aantalPaginas; n++) {
+    if (n === 1 || n === aantalPaginas || Math.abs(n - pagina) <= 2) {
+      nummers.push(n);
+    } else if (nummers[nummers.length - 1] !== null) {
+      nummers.push(null);
+    }
+  }
+  return nummers;
 }
 
 /** Het adres van een tekenend accountant. De sleutel komt uit `v_accountant`

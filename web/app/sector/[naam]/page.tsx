@@ -38,6 +38,7 @@ import {
   Aandeelbalk,
   Aangeleverd,
   Doorklik,
+  Inklapbaar,
   KantoorLink,
   Kerncijfer,
   KortKantoorLink,

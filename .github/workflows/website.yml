@@ -1,0 +1,101 @@
+name: Website bouwen
+
+# De site echt bouwen en de links nalopen. Tot 5-10-2026 deed CI voor web/
+# alleen de typecontrole (ci.yml), en Vercel bouwt de werkbranch niet
+# (vercel.json): een build die omvalt of een kapotte link zag je pas na de
+# merge, op de echte site.
+#
+# Een eigen workflow met een padfilter, en geen job in ci.yml: één ronde leest
+# flink uit de productiedatabase (5-10-2026 gemeten met een logproxy: build 70
+# verzoeken en 2,85 MB, linkcontrole 736 verzoeken en 24,8 MB), en een
+# hapering van Supabase maakt de ronde rood. Dat hoort niet bij een pull
+# request die alleen de pipeline of de data raakt. Het padfilter kijkt bij een
+# pull request naar alle bestanden die de hele pull request wijzigt (zie de
+# kop van ci.yml): zit er iets van web/ in, dan draait dit bij elke push
+# daarin, en anders nooit. supabase/migrations/ staat erbij omdat de site op
+# views leunt die daar worden gemaakt.
+#
+# De build prerendert de statische pagina's tegen de productiedatabase, net
+# als Vercel. Daarvoor staan hier de URL en de publishable key: die mag
+# openbaar zijn en kan alleen lezen (RLS, zie supabase/migrations/), dus geen
+# secret nodig — de secret key hoort hier nooit. Valt Supabase tijdens het
+# bouwen even weg, dan faalt de build; dat is sinds 5-10-2026 ook zo bij
+# Vercel (een pagina met een databasefout wordt niet meer als geldige versie
+# gebouwd, zie web/app/error.tsx). Eén herhaling vangt een hapering van
+# seconden.
+#
+# De linkcontrole (web/scripts/linkcheck.mjs) vraagt alleen pagina's op en
+# slaat /zoeken over: die schrijft elke zoekopdracht in de zoeklog.
+on:
+  pull_request:
+    paths:
+      - "web/**"
+      - "supabase/migrations/**"
+      - "pipeline/test_site_snel.py"
+      - ".github/workflows/website.yml"
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - "supabase/migrations/**"
+      - "pipeline/test_site_snel.py"
+      - ".github/workflows/website.yml"
+
+# Een nieuwe push in dezelfde pull request maakt de vorige ronde zinloos; die
+# stopt dan, in plaats van de hele ronde nog uit Supabase te lezen. Op main
+# loopt elke ronde af.
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  website:
+    name: Website bouwen en links controleren
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: web
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: https://tvxymprohddrramuafit.supabase.co
+      NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: sb_publishable_oB71-qCxmNNAG35852WgIg_z_j1oIKw
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      # test_site_snel.py rekent een deel van de websitelogica na door de
+      # TypeScript in node te draaien. Dat kan pas vanaf node 22.18; in de
+      # extractietests (ci.yml) staat de node van de runner, en is hij te oud,
+      # dan slaat de test dat deel over en meldt hij het. Hier staat node 22
+      # vast, en mag er niets worden overgeslagen.
+      - name: Websitelogica narekenen
+        working-directory: .
+        env:
+          SITE_LOGICA_VERPLICHT: "1"
+        run: python3 pipeline/test_site_snel.py
+      - run: npm ci
+      - name: Productiebuild
+        run: |
+          npx next build || {
+            echo "::warning::Build mislukt; over twintig seconden nog één keer."
+            sleep 20
+            npx next build
+          }
+      - name: Site starten
+        run: |
+          nohup npx next start -p 3000 > "$RUNNER_TEMP/next.log" 2>&1 &
+          for i in $(seq 1 60); do
+            curl -sf -o /dev/null http://127.0.0.1:3000/icon.svg && exit 0
+            sleep 1
+          done
+          cat "$RUNNER_TEMP/next.log"
+          exit 1
+      - name: Links controleren
+        run: node scripts/linkcheck.mjs http://127.0.0.1:3000
+      - name: Serverlog bij een fout
+        if: failure()
+        run: tail -n 100 "$RUNNER_TEMP/next.log" || true

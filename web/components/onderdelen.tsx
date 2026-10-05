@@ -8,6 +8,7 @@ import {
   OORDEEL_LABEL,
   oordeelOpvallend,
   OPDRACHT_LABEL,
+  paginaNummers,
   procent,
   SOORT_UITLEG,
   SOORTGROEP,
@@ -505,14 +506,7 @@ export function Paginering({
   pad: (pagina: number) => string;
 }) {
   if (aantalPaginas <= 1) return null;
-  const nummers: (number | null)[] = [];
-  for (let n = 1; n <= aantalPaginas; n++) {
-    if (n === 1 || n === aantalPaginas || Math.abs(n - pagina) <= 2) {
-      nummers.push(n);
-    } else if (nummers[nummers.length - 1] !== null) {
-      nummers.push(null);
-    }
-  }
+  const nummers = paginaNummers(pagina, aantalPaginas);
   return (
     <nav className="keuzebalk paginering" aria-label="Kies een pagina">
       {pagina > 1 ? (
