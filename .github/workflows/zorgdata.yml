@@ -82,10 +82,16 @@ jobs:
           path: |
             pipeline/.cache/digimv*.ods
             pipeline/.cache/doelpopulatie_*.csv
-          # v2 in de sleutel: bij een wijziging in de kolommen van de
-          # organisatielijst moet de cache niet de oude versie terugzetten. Dat
-          # gebeurde wél, en liet een run van 2u22m sneuvelen op de laatste stap.
-          key: digimv-lijst-v2-${{ inputs.lijst_uit }}
+          # De lezer in de sleutel: bij een wijziging in de organisatielijst moet
+          # de cache niet de oude versie terugzetten. Dat gebeurde wél, en liet
+          # een run van 2u22m sneuvelen op de laatste stap. Een met de hand
+          # opgehoogde "v2" werd vergeten; de hash van de lezer niet. De
+          # restore-key haalt de gedownloade .ods-bestanden uit een oudere versie
+          # op; de csv draagt zelf de versie in zijn naam en wordt dan opnieuw
+          # bepaald.
+          key: digimv-lijst-${{ hashFiles('pipeline/adapters/digimv_dataset.py') }}-${{ inputs.lijst_uit }}
+          restore-keys: |
+            digimv-lijst-
 
       # Welke organisaties eerder al bekeken zijn, ongeacht de uitkomst. Zonder
       # deze lijst doet elke volgende run het halve werk opnieuw: ruwweg de helft

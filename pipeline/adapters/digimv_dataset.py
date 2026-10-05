@@ -25,6 +25,7 @@ hebben.
 """
 
 import csv
+import hashlib
 import re
 import subprocess
 import urllib.request
@@ -37,6 +38,10 @@ NS_OFFICE = "{urn:oasis:names:tc:opendocument:xmlns:office:1.0}"
 NS_TEXT = "{urn:oasis:names:tc:opendocument:xmlns:text:1.0}"
 
 KOPPEN = {"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"}
+
+# De versie van deze lezer, voor de naam van het cachebestand; zie
+# doelpopulatie_uit_cache.
+LEZER_VERSIE = hashlib.sha1(Path(__file__).read_bytes()).hexdigest()[:10]
 
 _BASIS = (
     "https://www.jaarverantwoordingzorg.nl/site/binaries/site-content/"
@@ -115,6 +120,28 @@ VELDPATRONEN: dict[str, tuple[str, ...]] = {
     "oordeel_gerapporteerd": ("bestandaccverklsoortcontroleverkl",),
     "verklaring_datum": ("bestanddatumaccountantsverklaring",),
 }
+
+# De honoraria staan er per dataset twee keer: `acc_jr_contr_acc_jr_contr_0` is
+# het boekjaar van de dataset, `..._1` het jaar ervoor ("per einde vorig
+# boekjaar", de vergelijkende cijfers uit de jaarrekening). Een startswith op het
+# patroon pakte tot 5-10-2026 de eerste kolom die paste, en dat was toevallig
+# `_0` omdat die in elke jaargang links staat (nagelopen in 2020-2025). Nu
+# expliciet: `_0` voor het lopende jaar, `_1` als apart veld met `_vorig`
+# erachter. Dat tweede veld is de enige bron voor de honoraria van boekjaar 2019:
+# de dataset 2019 is het oude formaat zonder deze kolommen, maar de dataset 2020
+# draagt ze als vergelijkend cijfer (gemeten: 700 wettelijke en vrijwillige
+# controles over 2019 krijgen zo een bedrag, waar er nu nul staan).
+#
+# Vanaf de dataset 2022 staan deze kolommen alleen nog in de Jeugdwet-sectie
+# (2023: 425 gevulde rijen tegen 1.900 in 2021). Voor 2022 en later komt er dus
+# uit de datasets weinig meer bij; dat is de bron, niet deze code.
+JAARKOLOM_VELDEN = (
+    "honorarium_controle",
+    "honorarium_overig",
+    "honorarium_fiscaal",
+    "honorarium_nietcontrole",
+)
+VORIG = "_vorig"
 
 # Hoe de bron het oordeel schrijft -> onze woordenlijst (gelijk aan de check in
 # supabase/migrations/20260727000000_init.sql).
@@ -329,7 +356,12 @@ def _bedrag(waarde: str) -> str:
         getal = float(schoon)
     except ValueError:
         return ""
-    return "" if getal == 0 else f"{getal:.0f}"
+    # Een negatief honorarium is geen honorarium maar een correctie op een
+    # eerder jaar (een vrijval). Vier stonden er in de database (-1.699 tot
+    # -42.000, gemeten 5-10-2026); die horen niet als bedrag op de site. Dit
+    # geldt ook voor de omzet, die hier langskomt: een negatieve omzet is er niet
+    # (gemeten), en kwam hij ooit, dan was het evengoed geen omzet.
+    return "" if getal <= 0 else f"{getal:.0f}"
 
 
 def _datum(waarde: str) -> str:
@@ -363,6 +395,20 @@ def _zoek_kolommen(cellen: list[str]) -> dict:
     gevonden: dict = {"velden": {}, "zorgsoort": [], "verklaringsoort": []}
 
     for veld, patronen in VELDPATRONEN.items():
+        if veld in JAARKOLOM_VELDEN:
+            for achtervoegsel, doelveld in (("_0", veld), ("_1", veld + VORIG)):
+                treffer = next(
+                    (
+                        i
+                        for i, k in enumerate(laag)
+                        if any(k.startswith(p) for p in patronen)
+                        and k.endswith(achtervoegsel)
+                    ),
+                    None,
+                )
+                if treffer is not None:
+                    gevonden["velden"][doelveld] = treffer
+            continue
         for patroon in patronen:
             treffer = next(
                 (i for i, k in enumerate(laag) if k.startswith(patroon)), None
@@ -472,6 +518,8 @@ CSV_VELDEN = [
     "omzet", "wissel_gerapporteerd", "oordeel_gerapporteerd",
     "verklaring_datum", "honorarium_controle", "honorarium_overig",
     "honorarium_fiscaal", "honorarium_nietcontrole",
+    "honorarium_controle_vorig", "honorarium_overig_vorig",
+    "honorarium_fiscaal_vorig", "honorarium_nietcontrole_vorig",
 ]
 
 
@@ -504,8 +552,17 @@ def doelpopulatie_uit_cache(boekjaar: int, cache: Path) -> list[dict]:
 
     De koprij is de versiecontrole: wijkt die af van CSV_VELDEN, dan is het
     bestand van vóór een wijziging en gooien we het weg.
+
+    En de bestandsnaam draagt de versie van deze lezer (een hash van dit
+    bestand). Alleen de koprij was niet genoeg: een wijziging die de kolommen
+    laat staan maar de waarden anders leest — zoals het weglaten van negatieve
+    bedragen op 5-10-2026 — liet een oude csv gewoon geldig, en de workflow-
+    cache zette die oude csv's onder een nieuwe sleutel weer terug.
     """
-    pad = cache / f"doelpopulatie_{boekjaar}.csv"
+    pad = cache / f"doelpopulatie_{boekjaar}_{LEZER_VERSIE}.csv"
+    for oud in cache.glob(f"doelpopulatie_{boekjaar}*.csv"):
+        if oud != pad:
+            oud.unlink()
     if pad.exists():
         with pad.open(encoding="utf-8") as f:
             kop = next(csv.reader(f), [])

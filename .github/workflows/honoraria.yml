@@ -66,10 +66,16 @@ jobs:
       # De jaardatasets bewaren tussen runs: de .ods van één jaargang is 16 MB
       # en verandert nooit meer. Save op always(), zodat ook een mislukte run
       # zijn download nalaat. Zelfde patroon als transparantiedata.yml.
+      # De sleutel volgt de lezer. Met een vaste sleutel ("jaardatasets-v1")
+      # werd de cache na de eerste keer nooit meer bijgewerkt: een cache met een
+      # bestaande sleutel slaat GitHub niet opnieuw op. Elke wijziging aan de
+      # csv-kop liet zo élke volgende run alle jaargangen opnieuw ontleden. Nu
+      # krijgt een nieuwe lezer een nieuwe sleutel, en de restore-key haalt de
+      # gedownloade .ods-bestanden uit de vorige op.
       - uses: actions/cache/restore@v6
         with:
           path: pipeline/.cache
-          key: jaardatasets-v1
+          key: jaardatasets-${{ hashFiles('pipeline/adapters/digimv_dataset.py') }}
           restore-keys: |
             jaardatasets-
 
@@ -93,4 +99,4 @@ jobs:
         if: always()
         with:
           path: pipeline/.cache
-          key: jaardatasets-v1
+          key: jaardatasets-${{ hashFiles('pipeline/adapters/digimv_dataset.py') }}

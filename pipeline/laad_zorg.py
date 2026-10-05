@@ -609,8 +609,13 @@ def main() -> int:
                 }
                 # Honoraria en de zelfgerapporteerde wisselvlag zijn cijfers over
                 # één specifiek boekjaar. Ze komen uit de dataset van
-                # `lijst_boekjaar`, dus ze horen alleen bij dát boekjaar.
-                if boekjaar == lijst_boekjaar:
+                # `lijst_boekjaar`, dus ze horen alleen bij dát boekjaar. En
+                # alleen bij een controle: het honorarium en het gerapporteerde
+                # oordeel gaan over de jaarrekening, niet over een WNT- of
+                # productieverantwoording (zie vul_extra_velden.CONTROLETYPEN).
+                if boekjaar == lijst_boekjaar and type_opdracht in (
+                    "wettelijke_controle", "vrijwillige_controle", "controle_onbepaald"
+                ):
                     opdracht_velden.update(
                         _gevuld(organisatie, {
                             "honorarium_controle_eur": "honorarium_controle",

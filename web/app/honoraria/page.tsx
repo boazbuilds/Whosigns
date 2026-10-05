@@ -71,6 +71,9 @@ export default async function Honorariapagina() {
           (art. 2:382a BW). Dit zijn die bedragen, zoals de organisaties ze
           zélf hebben verantwoord — per boekjaar, doorgaans voor het hele
           accountantsnetwerk, en dus niet de prijs van één losse opdracht.
+          De bedragen over boekjaar 2019, en een enkel bedrag in een later jaar
+          dat de organisatie zelf niet opgaf, zijn de vergelijkende cijfers uit
+          de jaarverantwoording van het jaar erna.
         </p>
         <div className="kerncijfers">
           <Kerncijfer waarde={nl(rijen.length)} naam="opdrachten met een bedrag" />
