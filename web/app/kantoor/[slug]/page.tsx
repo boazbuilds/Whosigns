@@ -139,8 +139,8 @@ function Mutatiekaart({
 
 /**
  * Zoveel sectoren krijgen een eigen grafiekje; de rest staat in de tabel
- * eronder. Deloitte werkt op 5-10-2026 in elf sectoren, waarvan zeven met een
- * aandeel in drie of meer complete boekjaren — zeven grafieken onder elkaar is
+ * eronder. Deloitte werkt op 5-10-2026 in elf sectoren, waarvan zes met een
+ * aandeel in drie of meer complete boekjaren — zes grafieken onder elkaar is
  * geen overzicht meer.
  */
 const REEKSEN_IN_GRAFIEK = 4;
@@ -166,9 +166,11 @@ function kortJaar(jaar: number): string {
  * sectoren als tabel eronder.
  *
  * Elk percentage geldt binnen één sector én één boekjaar, en staat er alleen
- * bij een boekjaar dat compleet genoeg is (jaarCompleet). Daarbuiten alleen het
- * aantal: bij de OOB stonden er voor 2025 op 5-10-2026 110 controles tegen 576
- * een jaar eerder, en een aandeel daarover zou de grote kantoren overdrijven.
+ * bij een boekjaar dat compleet genoeg is (completeBoekjaren). Daarbuiten alleen
+ * het aantal: bij de OOB stonden er voor 2025 op 5-10-2026 110 controles tegen
+ * 576 een jaar eerder, en een aandeel daarover zou de grote kantoren
+ * overdrijven. Net zo aan het begin: in 2014 stonden er 376 OOB-controles
+ * tegen 721 in 2015, en PwC kwam daarover op 50,5% tegen 24,0% een jaar later.
  */
 function Sectorontwikkeling({ reeksen }: { reeksen: Sectorreeks[] }) {
   const metAandeel = (reeks: Sectorreeks) =>
@@ -299,9 +301,11 @@ function Sectorontwikkeling({ reeksen }: { reeksen: Sectorreeks[] }) {
       )}
       <p className="grafiekvoet">
         Een aandeel alleen bij een boekjaar dat vrijwel compleet in de database
-        staat: minstens {procent(100 * LEIDER_COMPLEET, 0)} van het aantal
-        controles van het jaar ervoor, en minstens {LEIDER_MINIMUM} in de
-        sector. Anders staat er alleen het aantal, met een streepje eronder. Een
+        staat: minstens {LEIDER_MINIMUM} controles in de sector, en minstens{" "}
+        {procent(100 * LEIDER_COMPLEET, 0)} van het eerstvolgende complete
+        boekjaar erna — of, voor het nieuwste jaar, van het jaar ervoor. Zo
+        vallen ook de jaren af waarin een sector nog maar half in de database
+        stond. Anders staat er alleen het aantal, met een streepje eronder. Een
         0 is een compleet boekjaar waarin dit kantoor in die sector geen
         controle had; een punt staat waar de sector dat jaar nog niet (compleet)
         in de database stond.
@@ -924,7 +928,7 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
           { naar: "/sectoren", tekst: "Sectoren vergelijken" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
           ...(aanbestedingen.length
-            ? [{ naar: "/aanbestedingen", tekst: "Wie wint de aanbestedingen?" }]
+            ? [{ naar: "/aanbestedingen", tekst: "Alle aanbestedingen, per gunningsjaar" }]
             : []),
         ]}
       />

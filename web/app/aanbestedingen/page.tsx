@@ -49,6 +49,17 @@ const ZONDER_SECTOR = "zonder sector";
  * 5-10-2026 86 van gemeenten, veiligheidsregio's en provincies die het register
  * (nog) in die sector indeelt. Een lijst "gewonnen in het overig bedrijfsleven"
  * zou dus over gemeenten gaan.
+ *
+ * Diezelfde scheve indeling haalt ook de telling bij de overheid onderuit,
+ * want die gunningen ontbreken daar. Gemeten op 5-10-2026, gunningsjaar 2025:
+ * bij de overheid Flynth 11 en BDO 10, maar 19 gunningen van gemeenten,
+ * provincies, waterschappen en veiligheidsregio's stonden elders (ook
+ * "Gemeente Amsterdam" onder de zorg), en met die erbij BDO 16 en Flynth 12.
+ * In elk gunningsjaar van 2019 tot en met 2026 veranderde zo de top drie. Dus
+ * geen telling per kantoor in een jaar met zo'n gunning (zie
+ * verkeerdIngedeeld), tot de opdrachtgevers goed zijn ingedeeld; zelf op naam
+ * herindelen zou gokken zijn. Op die datum bleef alleen 2017 over, en zodra
+ * de indeling klopt komt de telling vanzelf terug.
  */
 const SECTOR_MET_TELLING = "overheid";
 
@@ -109,17 +120,20 @@ export default async function Aanbestedingenpagina({ searchParams }: Zoek) {
 
   // Per sector van de opdrachtgever, in het gekozen jaar. Een telling per
   // kantoor alleen binnen één sector én één gunningsjaar (zie
-  // SECTOR_MET_TELLING), en alleen als het er minstens LEIDER_MINIMUM zijn.
-  // Over sectoren heen zou zo'n lijst een ranglijst zijn over opdrachtgevers
-  // die niets met elkaar te maken hebben.
+  // SECTOR_MET_TELLING), alleen als het er minstens LEIDER_MINIMUM zijn, en
+  // alleen in een jaar zonder gunning van een openbaar lichaam dat elders is
+  // ingedeeld. Over sectoren heen zou zo'n lijst een ranglijst zijn over
+  // opdrachtgevers die niets met elkaar te maken hebben.
   const perSector = telling(getoond, sectorVan);
-  const metKantoorlijst = perSector.filter(
-    ([sector, aantal]) => sector === SECTOR_MET_TELLING && aantal >= LEIDER_MINIMUM,
-  );
-  const zonderKantoorlijst = perSector.filter(([sector]) => !metKantoorlijst.some(([s]) => s === sector));
   const verkeerdIngedeeld = getoond.filter(
     (g) => sectorVan(g) !== "overheid" && OVERHEIDSNAAM.test(g.organisaties?.naam ?? ""),
   ).length;
+  const metKantoorlijst = perSector.filter(
+    ([sector, aantal]) =>
+      sector === SECTOR_MET_TELLING && aantal >= LEIDER_MINIMUM && verkeerdIngedeeld === 0,
+  );
+  const zonderKantoorlijst = perSector.filter(([sector]) => !metKantoorlijst.some(([s]) => s === sector));
+  const bijOverheid = perSector.find(([sector]) => sector === SECTOR_MET_TELLING)?.[1] ?? 0;
 
   const kolommen: Kolom[] = [...jaren].reverse().map((j) => {
     const aantal = perJaar.get(j)?.length ?? 0;
@@ -375,7 +389,10 @@ export default async function Aanbestedingenpagina({ searchParams }: Zoek) {
                     Gunningen in dit ene gunningsjaar en deze ene sector, van veel
                     naar weinig — geen marktaandeel en geen plek. Een gunning is
                     een benoeming voor doorgaans vier jaar, en wie in een jaar
-                    aanbesteedt, verschilt per jaar.
+                    aanbesteedt, verschilt per jaar. Het telt alleen
+                    opdrachtgevers die het register onder de overheid indeelt;
+                    een gemeenschappelijke regeling of zelfstandig bestuursorgaan
+                    dat elders staat, telt niet mee.
                   </p>
                 </section>
               );
@@ -385,9 +402,10 @@ export default async function Aanbestedingenpagina({ searchParams }: Zoek) {
           {zonderKantoorlijst.length > 0 ? (
             <p className="klein zacht" style={{ marginTop: 0, maxWidth: "46rem" }}>
               {metKantoorlijst.length > 0
-                ? "Een telling per kantoor staat er alleen voor de overheid, de sector die deze bron zelf vult"
-                : `Bij de overheid waren het er in ${gekozen} minder dan ${LEIDER_MINIMUM}, te weinig voor een telling per kantoor`}
-              ; voor de andere sectoren staan alleen de gunningen zelf hieronder.
+                ? "Een telling per kantoor staat er alleen voor de overheid, de sector die deze bron zelf vult; voor de andere sectoren staan alleen de gunningen zelf hieronder."
+                : bijOverheid < LEIDER_MINIMUM
+                  ? `Bij de overheid waren het er in ${gekozen} minder dan ${LEIDER_MINIMUM}, te weinig voor een telling per kantoor; daarom staan alleen de gunningen zelf hieronder.`
+                  : `Geen telling per kantoor voor ${gekozen}: in een telling bij de overheid zouden de ${aantalGunningen(verkeerdIngedeeld)} van gemeenten en dergelijke ontbreken die het register elders indeelt, en dat kan de volgorde bovenaan omdraaien. Daarom staan alleen de gunningen zelf hieronder.`}
             </p>
           ) : null}
 
@@ -421,7 +439,7 @@ export default async function Aanbestedingenpagina({ searchParams }: Zoek) {
             )}
             {zonderDatum.length > 0 ? (
               <p className="klein zacht" style={{ marginBottom: 0 }}>
-                Zonder gunningsdatum (oudere TED-berichten), en daarom in geen
+                Zonder gunningsdatum, want TED noemde er geen, en daarom in geen
                 enkel jaar:{" "}
                 {zonderDatum.map((g, i) => (
                   <span key={`${g.publicatienummer}-${i}`}>
@@ -441,23 +459,12 @@ export default async function Aanbestedingenpagina({ searchParams }: Zoek) {
         </>
       )}
 
+      {/* Geen doorklik naar de "top drie" van de telling per kantoor: die
+          telling mist de opdrachtgevers die elders zijn ingedeeld (zie
+          SECTOR_MET_TELLING), en een doorklik zonder dat voorbehoud zou een
+          plek uitdelen die de data niet draagt. */}
       <Doorklik
         items={[
-          ...metKantoorlijst.slice(0, 1).flatMap(([sector]) =>
-            telling(
-              getoond.filter((g) => sectorVan(g) === sector && g.kantoren),
-              (g) => String(g.kantoren!.id),
-            )
-              .slice(0, 3)
-              .map(([id, n]) => {
-                const kantoor = getoond.find((g) => String(g.kantoren?.id) === id)!.kantoren!;
-                return {
-                  naar: kantoorPad(kantoor),
-                  tekst: kortKantoor(kantoor.naam),
-                  toelichting: `${aantalGunningen(n)} in de sector ${sector}, ${gekozen}`,
-                };
-              }),
-          ),
           ...getoond
             .filter((g) => g.organisaties && g.kantoren)
             .slice(0, 2)

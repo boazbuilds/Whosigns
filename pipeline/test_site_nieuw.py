@@ -9,7 +9,10 @@ site te vinden was:
   Een gunning is een benoeming, geen controle; dat zegt de pagina, en een
   telling per kantoor staat er alleen binnen één sector én één gunningsjaar,
   en alleen bij de overheid: van de 123 gunningen onder "overig bedrijfsleven"
-  kwamen er 86 van gemeenten, veiligheidsregio's en provincies.
+  kwamen er 86 van gemeenten, veiligheidsregio's en provincies. Om dezelfde
+  reden ook bij de overheid niet in een jaar waarin zo'n gunning elders staat:
+  in 2025 stonden er 19 buiten de overheid, en met die erbij draaide de
+  nummer één om. Dat gold op 5-10-2026 voor elk jaar behalve 2017.
 - 3.439 van de 17.653 organisaties (19,5%) hebben een plaats, in 846
   schrijfwijzen ("AMSTERDAM" naast "Amsterdam"). /plaats/<naam> neemt die
   samen, alleen voor plaatsen met minstens drie organisaties, en zegt bovenaan
@@ -17,8 +20,13 @@ site te vinden was:
   sector. organisatiesInGemeente zocht met eq en miste zo de varianten.
 - De kantoorpagina had geen ontwikkeling in de tijd, terwijl de rijen van
   v_marktaandeel er al waren. "Per sector en boekjaar" zet een aandeel alleen
-  bij een compleet boekjaar met minstens twintig controles in de sector — met
-  dezelfde regel als nieuwsteCompleteBoekjaar, niet een kopie.
+  bij een compleet boekjaar met minstens twintig controles in de sector
+  (completeBoekjaren). De eerste versie toetste elk jaar alleen tegen het jaar
+  ervóór, de regel van nieuwsteCompleteBoekjaar. Dat vangt een nieuwste jaar
+  dat nog binnenloopt, maar niet de opbouwjaren waarin een sector half in de
+  database stond: PwC kreeg zo 50,5% van de OOB in 2014 (190 van 376), tegen
+  24,0% in 2015 bij 721 controles. Nu loopt de toets vanaf het nieuwste
+  complete jaar terug, tegen het eerstvolgende complete jaar erna.
 - De sectorpagina zei "Nog geen opdrachten in deze sector" bij de handel, met
   4.095 opdrachten uit het marktonderzoek. Die staan nu als telling van
   organisaties per boekjaar in een apart blok "Volgens marktonderzoek", zonder
@@ -88,9 +96,36 @@ check(
     not any(teken in aanbesteding for teken in GEEN_RANGLIJST),
 )
 check(
-    "een telling per kantoor alleen in de sector overheid en vanaf LEIDER_MINIMUM",
+    "een telling per kantoor alleen in de sector overheid, vanaf LEIDER_MINIMUM, "
+    "en niet in een jaar waarin een gemeente e.d. buiten de overheid staat",
     'const SECTOR_MET_TELLING = "overheid"' in aanbesteding
-    and "sector === SECTOR_MET_TELLING && aantal >= LEIDER_MINIMUM" in aanbesteding,
+    and "sector === SECTOR_MET_TELLING && aantal >= LEIDER_MINIMUM && verkeerdIngedeeld === 0"
+    in aanbesteding,
+)
+check(
+    "verkeerdIngedeeld staat vóór de keuze voor een telling per kantoor",
+    aanbesteding.find("const verkeerdIngedeeld")
+    < aanbesteding.find("const metKantoorlijst")
+    and aanbesteding.find("const verkeerdIngedeeld") >= 0,
+)
+check(
+    "de pagina zegt waarom er geen telling per kantoor staat als de indeling scheef is",
+    "Geen telling per kantoor voor ${gekozen}" in aanbesteding
+    and "dat kan de volgorde bovenaan omdraaien" in aanbesteding,
+)
+check(
+    "de telling per kantoor zegt zelf dat ze alleen de overheid volgens het register telt",
+    "Het telt alleen opdrachtgevers die het register onder de overheid indeelt" in aanbesteding,
+)
+doorklik = aanbesteding.split("<Doorklik", 1)[-1]
+check(
+    "de doorklik deelt geen top drie uit de telling per kantoor uit",
+    "metKantoorlijst" not in doorklik and "gunningen in de sector" not in doorklik,
+)
+check(
+    "de gunningen zonder datum heten geen 'oudere TED-berichten' (het waren er "
+    "vier uit 2024)",
+    "oudere TED-berichten" not in aanbesteding and "TED noemde er geen" in aanbesteding,
 )
 check(
     "de telling per kantoor gebeurt binnen het gekozen jaar én die ene sector",
@@ -177,13 +212,40 @@ check(
 
 # --- kantoorpagina: per sector en boekjaar -------------------------------------
 voorpagina = pagina("lib", "voorpagina.ts")
+complete_boekjaren = voorpagina.split("export function completeBoekjaren(", 1)[-1].split(
+    "export function", 1
+)[0]
 check(
-    "sectorreeksen() gebruikt jaarCompleet, en nieuwsteCompleteBoekjaar ook — "
-    "één regel, geen kopie",
-    "export function sectorreeksen(" in voorpagina
-    and "compleet: jaarCompleet(totalen, boekjaar, minimum, compleet)" in voorpagina
-    and ".find((jaar) => jaarCompleet(perJaar, jaar, minimum, compleet))" in voorpagina
+    "completeBoekjaren() begint bij nieuwsteCompleteBoekjaar en kopieert de "
+    "vooruit-toets niet",
+    "export function completeBoekjaren(" in voorpagina
+    and "const nieuwste = nieuwsteCompleteBoekjaar(perJaar, minimum, compleet);"
+    in complete_boekjaren
     and voorpagina.count("aantal >= compleet * vorig") == 1,
+)
+check(
+    "completeBoekjaren() toetst elk eerder jaar tegen het eerstvolgende complete "
+    "jaar erna, en schuift dat ijkpunt alleen mee met een jaar dat compleet bleek",
+    "let ijkpunt = perJaar.get(nieuwste) ?? 0;" in complete_boekjaren
+    and ".filter((jaar) => jaar < nieuwste).sort((a, b) => b - a)" in complete_boekjaren
+    and "if (aantal >= minimum && aantal >= compleet * ijkpunt) { uit.add(jaar); ijkpunt = aantal; }"
+    in complete_boekjaren,
+)
+check(
+    "er is geen toets meer die een historisch jaar alleen tegen het jaar ervóór legt",
+    "jaarCompleet" not in voorpagina,
+)
+check(
+    "sectorreeksen() haalt 'compleet' uit completeBoekjaren",
+    "export function sectorreeksen(" in voorpagina
+    and "const complete = completeBoekjaren(totalen, minimum, compleet);" in voorpagina
+    and "compleet: complete.has(boekjaar)," in voorpagina,
+)
+check(
+    "een compleet jaar vóór de eerste eigen controle in een sector krijgt een 0, "
+    "maar pas vanaf de eerste controle van het kantoor in welke sector dan ook",
+    ".filter((jaar) => jaar >= eerste || (jaar >= eersteOoit && complete.has(jaar)))"
+    in voorpagina,
 )
 check(
     "de kantoorpagina rekent de reeks uit de al opgehaalde rijen, zonder extra verzoek",
@@ -201,6 +263,83 @@ check(
 check(
     "de kantoorpagina zegt dat een aandeel tussen sectoren niets zegt",
     "Tussen sectoren zegt het niets" in kantoor,
+)
+check(
+    "de voetnoot beschrijft de toets naar achteren, niet alleen 'het jaar ervoor'",
+    "van het eerstvolgende complete boekjaar erna" in kantoor
+    and "van het aantal controles van het jaar ervoor" not in kantoor,
+)
+
+
+# De regel van completeBoekjaren, nagerekend op de sectortotalen die op
+# 5-10-2026 in v_marktaandeel stonden. Een rekenvoorbeeld naast de tekstcontroles
+# hierboven, die de TypeScript gelijk houden met deze vorm: zo staat er ook wát
+# de regel doet, en dat de opbouwjaren van de OOB en de overheid eruit vallen.
+def complete_jaren(per_jaar: dict[int, int], minimum: int = 20, compleet: float = 0.8) -> set[int]:
+    nieuwste = next(
+        (
+            jaar
+            for jaar in sorted(per_jaar, reverse=True)
+            if per_jaar[jaar] >= minimum
+            and (
+                not per_jaar.get(jaar - 1)
+                or per_jaar[jaar] >= compleet * per_jaar[jaar - 1]
+            )
+        ),
+        None,
+    )
+    if nieuwste is None:
+        return set()
+    uit = {nieuwste}
+    ijkpunt = per_jaar[nieuwste]
+    for jaar in sorted((j for j in per_jaar if j < nieuwste), reverse=True):
+        if per_jaar[jaar] >= minimum and per_jaar[jaar] >= compleet * ijkpunt:
+            uit.add(jaar)
+            ijkpunt = per_jaar[jaar]
+    return uit
+
+
+OOB = {2009: 29, 2010: 151, 2011: 138, 2012: 184, 2013: 243, 2014: 376, 2015: 721,
+       2016: 691, 2017: 708, 2018: 610, 2019: 663, 2020: 651, 2021: 636, 2022: 640,
+       2023: 614, 2024: 576, 2025: 110}
+OVERHEID = {2010: 61, 2011: 75, 2012: 116, 2013: 176, 2014: 174, 2015: 157, 2016: 191,
+            2017: 240, 2018: 272, 2019: 306, 2020: 325, 2021: 301, 2022: 315, 2023: 297,
+            2024: 307, 2025: 207}
+CORPORATIES = {2007: 399, 2008: 398, 2009: 399, 2010: 400, 2011: 391, 2012: 383,
+               2013: 375, 2014: 360, 2015: 346, 2016: 333, 2017: 318, 2018: 308,
+               2019: 294, 2020: 287, 2021: 280, 2022: 276, 2023: 275, 2024: 271}
+ZORG = {2010: 1, 2012: 2, 2013: 2, 2015: 1, 2016: 1, 2017: 4, 2018: 1, 2019: 836,
+        2020: 837, 2021: 841, 2022: 824, 2023: 718, 2024: 816, 2025: 776}
+check(
+    "OOB: compleet van 2015 tot en met 2024; de opbouwjaren 2009–2014 en het "
+    "binnenlopende 2025 niet",
+    complete_jaren(OOB) == set(range(2015, 2025)),
+)
+check(
+    "overheid: compleet van 2017 tot en met 2024 (2016: 191 tegen 80% van 240)",
+    complete_jaren(OVERHEID) == set(range(2017, 2025)),
+)
+check(
+    "woningcorporaties: elk jaar 2007–2024 compleet, ook al daalt het aantal",
+    complete_jaren(CORPORATIES) == set(range(2007, 2025)),
+)
+check(
+    "zorg: 2019–2025 compleet, ook 2023 (718 tegen 816), de losse vroege "
+    "controles niet",
+    complete_jaren(ZORG) == set(range(2019, 2026)),
+)
+check(
+    "een jaar dat niet compleet is, verlaagt het ijkpunt niet voor de jaren ervóór",
+    complete_jaren({2018: 60, 2019: 70, 2020: 100}) == {2020},
+)
+check(
+    "na zo'n jaar telt een eerder jaar dat het eerstvolgende complete jaar wél "
+    "haalt gewoon weer mee",
+    complete_jaren({2018: 100, 2019: 50, 2020: 70, 2021: 100}) == {2018, 2021},
+)
+check(
+    "onder de twintig controles is geen jaar compleet",
+    complete_jaren({2022: 19, 2023: 19, 2024: 20}) == {2024},
 )
 
 # --- sectorpagina: marktonderzoek apart ----------------------------------------
