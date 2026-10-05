@@ -16,7 +16,6 @@ import {
 } from "@/lib/paden";
 import {
   Doorklik,
-  Foutmelding,
   Inklapbaar,
   Kerncijfer,
   Kruimels,
@@ -36,28 +35,26 @@ const WAPENS_PER_TEGEL = 5;
 const SUBSECTOREN_OPEN = 8;
 
 export default async function Sectorenpagina() {
-  let sectorlijst;
-  let subsectorlijst;
-  let boekjaar;
-  let organisatieTotaal;
-  try {
-    [sectorlijst, subsectorlijst, boekjaar, organisatieTotaal] = await Promise.all([
+  // Geen try met <Foutmelding> en geen .catch(() => []) meer: deze pagina staat
+  // een uur in de cache, en wat er bij een mislukte verversing werd gerenderd
+  // ging daar in mee — een foutmelding, of "De subsectoren worden nog
+  // bijgewerkt" met "0 kantoren met controles" ernaast, een uur lang. Een
+  // geworpen fout laat de vorige versie staan (zie error.tsx).
+  const [sectorlijst, subsectorlijst, boekjaar, organisatieTotaal, ranglijst] =
+    await Promise.all([
       sectoren(),
-      subsectoren().catch(() => []),
+      subsectoren(),
       // Het nieuwste boekjaar mét controles, niet max(boekjaar) uit de
       // opdrachten: het marktonderzoek levert al negen regels met boekjaar
       // 2026 aan, en dan stond hier "t/m boekjaar 2026" terwijl de controles in
       // 2025 ophouden (5-10-2026). Op de voorpagina was dat al zo opgelost.
       boekjarenMetControles().then((jaren) => jaren[0] ?? null),
       tel("organisaties"),
+      // Eén ranglijst over alle boekjaren, hier per sector uitgesplitst. Zo
+      // staat er onder elke tegel wie daar de grootste zijn — dat maakt de
+      // keuze pas leuk.
+      kantoorRanglijst(),
     ]);
-  } catch (fout) {
-    return <Foutmelding fout={fout} />;
-  }
-
-  // Eén ranglijst over alle boekjaren, hier per sector uitgesplitst. Zo staat er
-  // onder elke tegel wie daar de grootste zijn — dat maakt de keuze pas leuk.
-  const ranglijst = await kantoorRanglijst().catch(() => []);
   const topPerSector = new Map<string, string[]>();
   for (const sector of sectorlijst) {
     const top = ranglijst

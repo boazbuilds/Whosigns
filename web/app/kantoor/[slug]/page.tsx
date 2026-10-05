@@ -37,14 +37,16 @@ import {
   organisatiePad,
   procent,
   sectorPad,
+  paginaUitZoek,
   sleutelUitSlug,
   slug as slugVan,
+  wisselingenPad,
 } from "@/lib/paden";
-import { Aandeelbalk, Aangeleverd, Doorklik, Foutmelding, Inklapbaar, KantoorLink, Kerncijfer, KortKantoorLink, Kruimels, Leeg, Oordeel, Rang, Soort, Vergunning, Wapen } from "@/components/onderdelen";
+import { Aandeelbalk, Aangeleverd, Doorklik, Foutmelding, Inklapbaar, KantoorLink, Kerncijfer, KortKantoorLink, Kruimels, Leeg, Oordeel, Paginering, Rang, Soort, Vergunning, Wapen } from "@/components/onderdelen";
 
 type Params = {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ sector?: string; jaar?: string }>;
+  searchParams: Promise<{ sector?: string; jaar?: string; pagina?: string }>;
 };
 
 /**
@@ -52,6 +54,14 @@ type Params = {
  * heeft er honderden, en die stonden allemaal uitgeschreven onder de pagina.
  */
 const CLIENTEN_OPEN = 25;
+
+/**
+ * Zoveel cliënten per pagina; de eerste CLIENTEN_OPEN daarvan staan open. De
+ * ingeklapte staart stond wél helemaal in de HTML: BDO met 481 cliënten in
+ * boekjaar 2025 was 1,25 MB, en met "Alle jaren" 3.316 cliënten en 5,7 MB
+ * (5-10-2026).
+ */
+const CLIENTEN_PER_PAGINA = 200;
 
 /**
  * Zoveel boekjaren in de keuzebalk boven de cliëntenlijst; oudere jaren
@@ -68,6 +78,14 @@ const JAREN_IN_BALK = 10;
 const MUTATIES_OPEN = 12;
 
 /**
+ * Zoveel mutaties per kolom staan er hooguit in de HTML, open en ingeklapt
+ * samen; de rest staat op /wisselingen?kantoor=, per boekjaar. BDO had er op
+ * 5-10-2026 214 gewonnen en 207 verloren, allemaal in de pagina — ingeklapt,
+ * maar wel 420 tabelregels om te laden.
+ */
+const MUTATIES_IN_PAGINA = 60;
+
+/**
  * Kolom met gewonnen of verloren opdrachten: de nieuwste open, de rest achter
  * één klik. Eén onderdeel voor beide richtingen, want ze verschillen alleen in
  * de kop en in welk kantoor er aan de andere kant stond.
@@ -77,11 +95,14 @@ function Mutatiekaart({
   leegtekst,
   richting,
   mutaties,
+  allePad,
 }: {
   titel: string;
   leegtekst: string;
   richting: string;
   mutaties: WisselingVolledig[];
+  /** Waar ze allemaal staan, voor als het er meer zijn dan op deze pagina. */
+  allePad: string;
 }) {
   const regel = (m: WisselingVolledig, sleutel: string) => (
     <tr key={sleutel}>
@@ -120,16 +141,27 @@ function Mutatiekaart({
           </table>
           {mutaties.length > MUTATIES_OPEN ? (
             <Inklapbaar
-              samenvatting={`Nog ${mutaties.length - MUTATIES_OPEN} uit eerdere boekjaren`}
+              samenvatting={
+                mutaties.length > MUTATIES_IN_PAGINA
+                  ? `Nog ${MUTATIES_IN_PAGINA - MUTATIES_OPEN} uit eerdere boekjaren`
+                  : `Nog ${mutaties.length - MUTATIES_OPEN} uit eerdere boekjaren`
+              }
             >
               <table>
                 <tbody>
                   {mutaties
-                    .slice(MUTATIES_OPEN)
+                    .slice(MUTATIES_OPEN, MUTATIES_IN_PAGINA)
                     .map((m) => regel(m, `r${m.organisatie_id}-${m.boekjaar_wissel}`))}
                 </tbody>
               </table>
             </Inklapbaar>
+          ) : null}
+          {mutaties.length > MUTATIES_IN_PAGINA ? (
+            <p className="klein" style={{ marginBottom: 0 }}>
+              {/* De pagina daar toont gewonnen én verloren samen, per
+                  boekjaar; vandaar geen aantal in de linktekst. */}
+              <Link href={allePad}>Alle gewonnen en verloren opdrachten, per boekjaar →</Link>
+            </p>
           ) : null}
         </>
       )}
@@ -335,7 +367,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
 export default async function Kantoorpagina({ params, searchParams }: Params) {
   const { slug } = await params;
-  const { sector: sectorFilterRuw, jaar: jaarRuw } = await searchParams;
+  const { sector: sectorFilterRuw, jaar: jaarRuw, pagina: paginaRuw } = await searchParams;
 
   let kantoor;
   try {
@@ -403,13 +435,23 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
   ).filter((c) => !sectorFilter || c.sector === sectorFilter);
 
   // Link naar deze cliëntenlijst met een ander jaar, met behoud van het
-  // sectorfilter — en andersom.
-  const clientenPad = (jaar: number | null, sector: string | null) => {
+  // sectorfilter — en andersom. Een ander jaar of een andere sector begint
+  // weer op de eerste pagina.
+  const clientenPad = (jaar: number | null, sector: string | null, pagina = 1) => {
     const zoek = new URLSearchParams();
     zoek.set("jaar", jaar === null ? "alles" : String(jaar));
     if (sector) zoek.set("sector", slugVan(sector));
+    if (pagina > 1) zoek.set("pagina", String(pagina));
     return `${kantoorPad(kantoor)}?${zoek.toString()}#clienten`;
   };
+  const aantalPaginas = Math.max(1, Math.ceil(clientenGetoond.length / CLIENTEN_PER_PAGINA));
+  // Een pagina voorbij het einde valt terug op de laatste, net als een
+  // onzinnig jaartal hierboven op de standaard terugvalt.
+  const pagina = Math.min(paginaUitZoek(paginaRuw), aantalPaginas);
+  const clientenOpPagina = clientenGetoond.slice(
+    (pagina - 1) * CLIENTEN_PER_PAGINA,
+    pagina * CLIENTEN_PER_PAGINA,
+  );
 
   // Tellen per soort opdracht, aflopend. Alleen tonen als er meer dan één
   // soort is — bij een kantoor dat uitsluitend wettelijke controles doet
@@ -475,7 +517,7 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
       </tr>
     </thead>
   );
-  const clientrijen = clientenGetoond.map((client) => (
+  const clientrijen = clientenOpPagina.map((client) => (
     <tr key={client.organisatieId}>
       <td>
         <Link
@@ -736,12 +778,14 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
           leegtekst="Geen gewonnen opdrachten in deze periode."
           richting="overgenomen van"
           mutaties={gewonnen}
+          allePad={wisselingenPad({ kantoor })}
         />
         <Mutatiekaart
           titel="Verloren opdrachten"
           leegtekst="Geen verloren opdrachten in deze periode."
           richting="gegaan naar"
           mutaties={verloren}
+          allePad={wisselingenPad({ kantoor })}
         />
       </div>
 
@@ -766,6 +810,7 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
                 key={j}
                 href={clientenPad(j, sectorFilter)}
                 className={gekozenJaar === j ? "actief" : undefined}
+                aria-current={gekozenJaar === j ? "page" : undefined}
               >
                 {j}
               </Link>
@@ -773,6 +818,7 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
             <Link
               href={clientenPad(null, sectorFilter)}
               className={gekozenJaar === null ? "actief" : undefined}
+              aria-current={gekozenJaar === null ? "page" : undefined}
             >
               Alle jaren
             </Link>
@@ -797,9 +843,11 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
             {clientrijen.length > CLIENTEN_OPEN ? (
               <Inklapbaar
                 samenvatting={
-                  gekozenJaar
-                    ? `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten in dit boekjaar`
-                    : `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten uit eerdere boekjaren`
+                  aantalPaginas > 1
+                    ? `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten op deze pagina`
+                    : gekozenJaar
+                      ? `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten in dit boekjaar`
+                      : `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten uit eerdere boekjaren`
                 }
               >
                 <div className="tabel-omhulsel">
@@ -809,6 +857,21 @@ export default async function Kantoorpagina({ params, searchParams }: Params) {
                   </table>
                 </div>
               </Inklapbaar>
+            ) : null}
+            {aantalPaginas > 1 ? (
+              <>
+                <p className="klein zacht" style={{ margin: "0.9rem 0 0.5rem" }}>
+                  Cliënten {nl((pagina - 1) * CLIENTEN_PER_PAGINA + 1)}–
+                  {nl((pagina - 1) * CLIENTEN_PER_PAGINA + clientenOpPagina.length)} van{" "}
+                  {nl(clientenGetoond.length)},{" "}
+                  {gekozenJaar ? "alfabetisch" : "nieuwste relatie eerst"}.
+                </p>
+                <Paginering
+                  pagina={pagina}
+                  aantalPaginas={aantalPaginas}
+                  pad={(n) => clientenPad(gekozenJaar, sectorFilter, n)}
+                />
+              </>
             ) : null}
           </>
         )}

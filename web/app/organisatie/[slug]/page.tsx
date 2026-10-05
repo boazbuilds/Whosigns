@@ -34,7 +34,6 @@ import {
 import {
   Aangeleverd,
   Doorklik,
-  Foutmelding,
   KantoorLink,
   Kruimels,
   Leeg,
@@ -43,6 +42,24 @@ import {
 } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
+
+/**
+ * Bij het eerste bezoek opbouwen en daarna een uur uit de cache serveren (ISR),
+ * in plaats van bij elke weergave opnieuw. Een lege lijst betekent: niets
+ * vooraf bij de build — 17.653 organisaties zijn te veel om vooraf te bouwen,
+ * en de meeste worden nooit bezocht. Tot 5-10-2026 was dit een dynamische
+ * route: elke weergave een render van 200 à 300 ms met 'Cache-Control: private,
+ * no-store', dus nooit uit de CDN. Gemeten na deze wijziging: eerste bezoek
+ * MISS, het tweede HIT met 's-maxage=3600'.
+ *
+ * Een onbekend adres geeft net zo goed een uur lang een 404 uit de cache;
+ * met een wekelijkse pipeline is dat geen bezwaar.
+ */
+export const revalidate = 3600;
+
+export function generateStaticParams(): { slug: string }[] {
+  return [];
+}
 
 /** `o<id>` vooraan de slug = organisatie zonder KvK-nummer (zie paden.ts). */
 function vindOrganisatie(slugdeel: string) {
@@ -121,7 +138,11 @@ export default async function Organisatiepagina({ params }: Params) {
       ]);
     }
   } catch (fout) {
-    return <Foutmelding fout={fout} />;
+    // Doorgooien: deze pagina staat sinds 5-10-2026 een uur in de cache (zie
+    // generateStaticParams hieronder), en een gerenderde <Foutmelding> ging
+    // daar bij een mislukte verversing in mee. Een geworpen fout laat de
+    // vorige versie staan; zie error.tsx.
+    throw fout;
   }
   if (!org) notFound();
 

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { IBM_Plex_Sans, Instrument_Serif } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { laatstBijgewerkt, sectoren, tel } from "@/lib/db";
+import { Menulink } from "@/components/menulink";
 import { datumNL, hoofdletter, nl, sectorPad } from "@/lib/paden";
 import "./globals.css";
 
@@ -104,7 +105,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                     gaat een uitklapper niet open door erboven te zweven, en dan
                     moet je er nog steeds komen. */}
                 <li className="heeft-uitklap">
-                  <Link href="/sectoren">Sectoren</Link>
+                  <Menulink href="/sectoren" ook={["/sector", "/subsector"]}>
+                    Sectoren
+                  </Menulink>
                   {sectorlijst.length > 0 ? (
                     <ul className="uitklap">
                       {sectorlijst.map((sector) => (
@@ -127,19 +130,23 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   ) : null}
                 </li>
                 <li>
-                  <Link href="/kantoren">Kantoren</Link>
+                  <Menulink href="/kantoren" ook={["/kantoor"]}>
+                    Kantoren
+                  </Menulink>
                 </li>
                 <li>
-                  <Link href="/accountants">Accountants</Link>
+                  <Menulink href="/accountants" ook={["/accountant"]}>
+                    Accountants
+                  </Menulink>
                 </li>
                 <li>
-                  <Link href="/wisselingen">Wisselingen</Link>
+                  <Menulink href="/wisselingen">Wisselingen</Menulink>
                 </li>
                 <li>
-                  <Link href="/bevindingen">Oordelen</Link>
+                  <Menulink href="/bevindingen">Oordelen</Menulink>
                 </li>
                 <li>
-                  <Link href="/honoraria">Honoraria</Link>
+                  <Menulink href="/honoraria">Honoraria</Menulink>
                 </li>
                 <li>
                   <Link href="/aanbestedingen">Aanbestedingen</Link>

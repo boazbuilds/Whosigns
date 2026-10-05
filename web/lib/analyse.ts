@@ -394,6 +394,23 @@ export function saldoPerKantoor(
   );
 }
 
+/**
+ * Het saldo van één kantoor in de meegegeven wisselingen: hoeveel cliënten het
+ * won en verloor. Dezelfde telling als de kop van de kantoorpagina.
+ *
+ * Voor /wisselingen?kantoor=, waar alle rijen over dit ene kantoor gaan. De
+ * saldi van de andere kantoren in die rijen zeggen alleen wat zij van dít
+ * kantoor wonnen of eraan verloren, niet hoe ze er in de markt voor staan.
+ */
+export function saldoVanKantoor(
+  wisselingen: { van_kantoor_id: number; naar_kantoor_id: number }[],
+  kantoorId: number,
+): { gewonnen: number; verloren: number; saldo: number } {
+  const gewonnen = wisselingen.filter((w) => w.naar_kantoor_id === kantoorId).length;
+  const verloren = wisselingen.filter((w) => w.van_kantoor_id === kantoorId).length;
+  return { gewonnen, verloren, saldo: gewonnen - verloren };
+}
+
 /** Controlehonoraria samengevat per boekjaar. */
 export type HonorariumJaar = {
   boekjaar: number;
@@ -436,6 +453,36 @@ export function controleHonorariumPerJaar(rijen: HonorariumBron[]): HonorariumJa
       };
     })
     .sort((a, b) => b.boekjaar - a.boekjaar);
+}
+
+/**
+ * Per boekjaar (nieuwste eerst) de sectoren (meeste regels eerst, bij gelijke
+ * stand op naam) met hun regels, in de volgorde waarin ze binnenkwamen; op
+ * /honoraria is dat het hoogste controlehonorarium eerst. Zo vergelijkt elke
+ * tabel daar alleen binnen één sector en één boekjaar. Hier en niet in de
+ * pagina, zodat pipeline/test_site_snel.py het kan narekenen.
+ */
+export function perBoekjaarEnSector<
+  T extends { boekjaar: number; organisaties: { sector: string | null } | null },
+>(rijen: T[]): { boekjaar: number; aantal: number; sectoren: [string | null, T[]][] }[] {
+  const jaren = new Map<number, Map<string | null, T[]>>();
+  for (const rij of rijen) {
+    const sectoren = jaren.get(rij.boekjaar) ?? new Map<string | null, T[]>();
+    const sector = rij.organisaties?.sector ?? null;
+    const lijst = sectoren.get(sector) ?? [];
+    lijst.push(rij);
+    sectoren.set(sector, lijst);
+    jaren.set(rij.boekjaar, sectoren);
+  }
+  return [...jaren.entries()]
+    .sort((a, b) => b[0] - a[0])
+    .map(([boekjaar, sectoren]) => ({
+      boekjaar,
+      aantal: [...sectoren.values()].reduce((som, lijst) => som + lijst.length, 0),
+      sectoren: [...sectoren.entries()].sort(
+        (a, b) => b[1].length - a[1].length || (a[0] ?? "").localeCompare(b[0] ?? "", "nl"),
+      ),
+    }));
 }
 
 /** De prijsontwikkeling van één kantoor, gemeten op gematchte paren. */

@@ -177,6 +177,7 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
         <Link
           href="/kantoren?jaar=alles"
           className={gekozen === null ? "actief" : undefined}
+          aria-current={gekozen === null ? "page" : undefined}
         >
           Alle jaren
         </Link>
@@ -185,6 +186,7 @@ export default async function Kantorenpagina({ searchParams }: Zoek) {
             key={j}
             href={`/kantoren?jaar=${j}`}
             className={gekozen === j ? "actief" : undefined}
+            aria-current={gekozen === j ? "page" : undefined}
             title={onvolledig.has(j) ? "Nog niet compleet" : undefined}
           >
             {j}

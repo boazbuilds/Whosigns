@@ -57,7 +57,21 @@ check(
 )
 check(
     "de cliëntentabel toont de gefilterde lijst, niet altijd alles",
-    "clientenGetoond.map((client)" in plat,
+    # Sinds 5-10-2026 per pagina van CLIENTEN_PER_PAGINA: de tabel toont een
+    # stuk uit de gefilterde lijst, nog steeds niet uit alle cliënten.
+    "clientenOpPagina.map((client)" in plat
+    and "const clientenOpPagina = clientenGetoond.slice(" in plat,
+)
+check(
+    "een pagina voorbij het einde valt terug op de laatste in plaats van een "
+    "lege lijst, en het totaal in de kop blijft de hele gefilterde lijst",
+    "Math.min(paginaUitZoek(paginaRuw), aantalPaginas)" in plat
+    and "` (${clientenGetoond.length})`" in plat,
+)
+check(
+    "een ander jaar of een andere sector begint weer op pagina 1",
+    "const clientenPad = (jaar: number | null, sector: string | null, pagina = 1) =>" in plat
+    and 'if (pagina > 1) zoek.set("pagina", String(pagina));' in plat,
 )
 check(
     "een onbekende sectorwaarde valt terug op alle cliënten in plaats van "

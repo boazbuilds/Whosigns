@@ -11,6 +11,8 @@
  * De secret key hoort alleen in GitHub Secrets, nooit in deze map.
  */
 
+import { unstable_cache } from "next/cache";
+
 const BASIS = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SLEUTEL = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
@@ -75,7 +77,30 @@ export async function tel(tabel: string, filter = ""): Promise<number> {
   if (!BASIS || !SLEUTEL) {
     throw new DatabaseFout("Supabase-instellingen ontbreken; zie web/.env.local.");
   }
-  const pad = `${tabel}?select=*&limit=1${filter ? `&${filter}` : ""}`;
+  return telBewaard(`${tabel}?select=*&limit=1${filter ? `&${filter}` : ""}`);
+}
+
+/**
+ * De telling zelf, een uur bewaard met unstable_cache in plaats van via fetch.
+ *
+ * Een telling komt van PostgREST terug als 206 (Partial Content: één rij van
+ * de 17.653), en Next bewaart in zijn datacache alleen antwoorden met status
+ * 200. `next.revalidate` deed hier dus niets: elke dynamische weergave vroeg
+ * het aantal organisaties voor de datumregel in de layout opnieuw op, ook als
+ * al het andere uit de cache kwam (5-10-2026, met een logproxy: /kantoren
+ * twee keer achter elkaar, twee keer dat ene verzoek). Een fout wordt niet
+ * bewaard; die gaat gewoon door naar boven.
+ */
+const telBewaard = unstable_cache(
+  async (pad: string): Promise<number> => telOpnieuw(pad),
+  ["tel"],
+  { revalidate: VERVERS_SECONDEN },
+);
+
+async function telOpnieuw(pad: string): Promise<number> {
+  if (!BASIS || !SLEUTEL) {
+    throw new DatabaseFout("Supabase-instellingen ontbreken; zie web/.env.local.");
+  }
   const antwoord = await fetch(`${BASIS}/rest/v1/${pad}`, {
     headers: {
       apikey: SLEUTEL,
@@ -106,12 +131,18 @@ const PER_OPZOEKVERZOEK = 200;
 
 async function haalOpId<T>(tabel: string, velden: string, ids: number[]): Promise<T[]> {
   const unieke = [...new Set(ids)];
-  const uit: T[] = [];
+  const stukken: number[][] = [];
   for (let i = 0; i < unieke.length; i += PER_OPZOEKVERZOEK) {
-    const stuk = unieke.slice(i, i + PER_OPZOEKVERZOEK);
-    uit.push(...(await haal<T>(`${tabel}?id=in.(${stuk.join(",")})&select=${velden}`)));
+    stukken.push(unieke.slice(i, i + PER_OPZOEKVERZOEK));
   }
-  return uit;
+  // Tegelijk en niet na elkaar: de stukken hangen niet van elkaar af. De namen
+  // bij alle wisselingen waren op 5-10-2026 zeven verzoeken (1.305
+  // organisaties), en die stonden op een koude render elk op de vorige te
+  // wachten. De volgorde van de uitkomst blijft die van de stukken.
+  const antwoorden = await Promise.all(
+    stukken.map((stuk) => haal<T>(`${tabel}?id=in.(${stuk.join(",")})&select=${velden}`)),
+  );
+  return antwoorden.flat();
 }
 
 // ---------------------------------------------------------------- types
@@ -325,10 +356,12 @@ export function kantorenOpId(ids: number[]) {
   return metKantoorVelden((velden) => haalOpId<Kantoor>("kantoren", velden, ids));
 }
 
-/** Alle kantoren, alfabetisch — voor het kantorenoverzicht. */
+/** Alle kantoren, alfabetisch — voor het kantorenoverzicht. Met id als staart:
+ *  twee kantoren kunnen dezelfde naam dragen, en zodra de lijst over de
+ *  duizend gaat mag de database die anders ordenen tussen twee pagina's. */
 export function alleKantoren() {
   return metKantoorVelden((velden) =>
-    haalAlles<Kantoor>(`kantoren?select=${velden}&order=naam.asc`),
+    haalAlles<Kantoor>(`kantoren?select=${velden}&order=naam.asc,id.asc`),
   );
 }
 
@@ -467,6 +500,29 @@ export function organisatiesInSubsector(subsector: string, limiet?: number) {
 }
 
 /**
+ * Eén pagina organisaties uit een sector, alfabetisch. Voor de lijst achter de
+ * sectorpagina: die zette tot 5-10-2026 álle organisaties in de HTML, ingeklapt
+ * of niet — bij de financiële dienstverlening 4.165 regels en 1,8 MB.
+ *
+ * Zonder telling erbij: met count=exact antwoordt PostgREST met 206 en dat
+ * bewaart Next niet (zie tel()), dus elke pagina zou Supabase raken. Het
+ * totaal staat al in sectoren(). De volgorde is uniek (naam, dan id): anders
+ * mag de database bij twee gelijke namen op pagina 2 anders sorteren dan op
+ * pagina 1, en valt er stil een organisatie tussen wal en schip.
+ */
+export function organisatiesInSectorPagina(
+  sector: string,
+  pagina: number,
+  perPagina: number,
+): Promise<Organisatie[]> {
+  return haal<Organisatie>(
+    `organisaties?sector=eq.${encodeURIComponent(sector)}` +
+      `&select=${ORG_VELDEN}&order=naam.asc,id.asc` +
+      `&limit=${perPagina}&offset=${(pagina - 1) * perPagina}`,
+  );
+}
+
+/**
  * Sectoren met hun aantal organisaties, grootste eerst.
  *
  * Nodig omdat een sectornaam niet meer uit zijn URL te herleiden is: "goede doelen"
@@ -474,6 +530,16 @@ export function organisatiesInSubsector(subsector: string, limiet?: number) {
  * zoekt de echte waarde hier op, net als de subsectorpagina doet.
  */
 export async function sectoren(): Promise<{ naam: string; aantal: number }[]> {
+  // Eerst de view (migratie 20261006130000): één verzoek van een paar honderd
+  // bytes. Hieronder de oude telling, die de sectorkolom van alle organisaties
+  // ophaalde — op 5-10-2026 18 verzoeken na elkaar, ~410 KB, en dat bij elke
+  // koude render van élke pagina, want het menu in de layout vraagt erom. Die
+  // blijft staan zolang de migratie nog niet heeft gedraaid.
+  const uitView = await zolangNieuw<{ naam: string; aantal: number }>(
+    "v_sectoren",
+    "v_sectoren?select=naam,aantal&order=aantal.desc,naam.asc",
+  );
+  if (uitView) return uitView;
   const rijen = await haalAlles<{ sector: string | null }>(
     "organisaties?select=sector&sector=not.is.null&order=id.asc",
   );
@@ -490,11 +556,16 @@ export async function sectoren(): Promise<{ naam: string; aantal: number }[]> {
 /**
  * Subsectoren met hun aantal organisaties, grootste eerst.
  *
- * PostgREST kan niet groeperen zonder view, dus we halen alleen de kolom op en
- * tellen hier. Bij enkele duizenden organisaties is dat één klein verzoek; wordt
- * het meer, dan hoort hier een view tegenover te staan.
+ * PostgREST kan niet groeperen zonder view, dus haalden we alleen de kolom op en
+ * telden hier. Die view is er nu (migratie 20261006130000); de telling eronder
+ * blijft als terugval zolang hij nog niet heeft gedraaid.
  */
 export async function subsectoren(): Promise<{ naam: string; aantal: number }[]> {
+  const uitView = await zolangNieuw<{ naam: string; aantal: number }>(
+    "v_subsectoren",
+    "v_subsectoren?select=naam,aantal&order=aantal.desc,naam.asc",
+  );
+  if (uitView) return uitView;
   const rijen = await haalAlles<{ subsector: string | null }>(
     "organisaties?select=subsector&subsector=not.is.null&order=id.asc",
   );
@@ -622,17 +693,21 @@ export async function wisselingen(opties: {
   organisatieId?: number;
   /** Wisselingen naar én van dit kantoor: gewonnen en verloren cliënten. */
   kantoorId?: number;
+  /** Alleen wisselingen van organisaties in deze sector of subsector, zoals
+   *  die nu in `organisaties` staat — dezelfde indeling als de sectorpagina. */
+  sector?: string;
+  subsector?: string;
   /** Zonder limiet komen ze állemaal. Geef er alleen een mee waar een kort
    *  lijstje bedoeld is, zoals de acht op de voorpagina — een limiet die als
    *  "alle" wordt gepresenteerd geeft een verkeerd getal zodra de database groeit. */
   limiet?: number;
 } = {}): Promise<WisselingVolledig[]> {
   const filters = [
-    "select=*",
+    "select=organisatie_id,van_kantoor_id,naar_kantoor_id,boekjaar_wissel",
     // De view heeft geen id; zonder unieke staartsortering kan de paginering
     // rijen overslaan of dubbel leveren zodra er tijdens het bladeren wordt
     // geschreven.
-    "order=boekjaar_wissel.desc,organisatie_id.asc,van_kantoor_id.asc",
+    "order=boekjaar_wissel.desc,organisatie_id.asc,van_kantoor_id.asc,naar_kantoor_id.asc",
   ];
   if (opties.boekjaar) filters.push(`boekjaar_wissel=eq.${opties.boekjaar}`);
   if (opties.organisatieId) filters.push(`organisatie_id=eq.${opties.organisatieId}`);
@@ -642,10 +717,32 @@ export async function wisselingen(opties: {
     );
   }
 
-  const pad = `v_wisselingen?${filters.join("&")}`;
-  const rijen = opties.limiet
-    ? await haal<Wisseling>(`${pad}&limit=${opties.limiet}`)
-    : await haalAlles<Wisseling>(pad);
+  // Met een sector eerst v_wisselingen_sector (migratie 20261006130100): dan
+  // komen alleen de wisselingen van die sector over de lijn, en worden alleen
+  // díe namen opgezocht. Daarvoor haalde de zorgpagina alle 1.709 wisselingen
+  // op en de namen van 1.305 organisaties, om er 296 te houden (5-10-2026).
+  // Zolang de view er niet is: de oude weg, met het filter hieronder.
+  const opSector = Boolean(opties.sector || opties.subsector);
+  let rijen: Wisseling[] | null = null;
+  if (opSector) {
+    const sectorFilters = [...filters];
+    if (opties.sector) sectorFilters.push(`sector=eq.${encodeURIComponent(opties.sector)}`);
+    if (opties.subsector) {
+      sectorFilters.push(`subsector=eq.${encodeURIComponent(opties.subsector)}`);
+    }
+    rijen = await zolangNieuw<Wisseling>(
+      "v_wisselingen_sector",
+      `v_wisselingen_sector?${sectorFilters.join("&")}`,
+    );
+  }
+  const viaView = rijen !== null;
+  if (rijen === null) {
+    const pad = `v_wisselingen?${filters.join("&")}`;
+    rijen =
+      opties.limiet && !opSector
+        ? await haal<Wisseling>(`${pad}&limit=${opties.limiet}`)
+        : await haalAlles<Wisseling>(pad);
+  }
   if (!rijen.length) return [];
 
   const [organisaties, kantoren] = await Promise.all([
@@ -655,12 +752,21 @@ export async function wisselingen(opties: {
   const orgPerId = new Map(organisaties.map((o) => [o.id, o]));
   const kantoorPerId = new Map(kantoren.map((k) => [k.id, k]));
 
-  return rijen.map((r) => ({
-    ...r,
-    organisatie: orgPerId.get(r.organisatie_id) ?? null,
-    van: kantoorPerId.get(r.van_kantoor_id) ?? null,
-    naar: kantoorPerId.get(r.naar_kantoor_id) ?? null,
-  }));
+  const volledig = rijen
+    .map((r) => ({
+      ...r,
+      organisatie: orgPerId.get(r.organisatie_id) ?? null,
+      van: kantoorPerId.get(r.van_kantoor_id) ?? null,
+      naar: kantoorPerId.get(r.naar_kantoor_id) ?? null,
+    }))
+    .filter(
+      (w) =>
+        viaView ||
+        !opSector ||
+        ((!opties.sector || w.organisatie?.sector === opties.sector) &&
+          (!opties.subsector || w.organisatie?.subsector === opties.subsector)),
+    );
+  return opties.limiet ? volledig.slice(0, opties.limiet) : volledig;
 }
 
 /** Het hoogste boekjaar waarvoor überhaupt een opdracht in de database staat. */
@@ -805,9 +911,12 @@ export async function kantoorRanglijst(boekjaar?: number): Promise<Ranglijstrij[
  * ranglijst bij hoort.
  */
 export async function boekjarenMetControles(): Promise<number[]> {
-  const rijen = await haalAlles<{ boekjaar: number }>(
-    "v_marktaandeel?select=boekjaar&order=boekjaar.desc",
-  );
+  // Uit dezelfde rijen als marktaandeelRijen(), en dus hetzelfde adres: de
+  // kantoorpagina en /sectoren vragen die toch al op, en Next deelt het
+  // verzoek. Hier stond een eigen ophaling van alle 1.975 rijen
+  // (select=boekjaar, gesorteerd op alleen boekjaar) voor een twintigtal
+  // jaartallen: twee verzoeken extra per koude render (5-10-2026).
+  const rijen = await marktaandeelRijen();
   return [...new Set(rijen.map((r) => r.boekjaar))].sort((a, b) => b - a);
 }
 
@@ -966,7 +1075,11 @@ export async function opdrachtenVanAccountant(sleutel: string): Promise<{
 }> {
   const rijen = await haalAlles<AccountantOpdracht>(
     `v_accountant_opdracht?select=*&sleutel=eq.${encodeURIComponent(sleutel)}` +
-      "&order=boekjaar.desc,organisatie_id.asc",
+      // opdracht_id als staart. Op 5-10-2026 is boekjaar plus organisatie per
+      // accountant nog uniek (1.151 rijen), maar niets in de view dwingt dat
+      // af: een jaarrekening en een WNT-verklaring van dezelfde accountant bij
+      // één organisatie zijn twee rijen met dezelfde sorteerwaarden.
+      "&order=boekjaar.desc,organisatie_id.asc,opdracht_id.asc",
   );
   const [orgs, kants] = await Promise.all([
     haalOpId<Organisatie>("organisaties", ORG_VELDEN, rijen.map((r) => r.organisatie_id)),
@@ -1020,7 +1133,9 @@ export async function accountantsVanKantoor(kantoorId: number): Promise<
     boekjaar: number;
   }>(
     `v_accountant_opdracht?select=sleutel,naam_zoals_getekend,boekjaar` +
-      `&kantoor_id=eq.${kantoorId}&order=boekjaar.desc`,
+      // Uniek gesorteerd: op 5-10-2026 past elk kantoor nog in één pagina
+      // (hooguit 161 rijen), maar daar rekent haalAlles niet op.
+      `&kantoor_id=eq.${kantoorId}&order=boekjaar.desc,opdracht_id.asc`,
   );
   const per = new Map<string, { naam: string; aantal: number; jaren: Set<number> }>();
   for (const rij of rijen) {

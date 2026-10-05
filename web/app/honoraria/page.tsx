@@ -3,6 +3,7 @@ import Link from "next/link";
 import { opdrachtenMetHonoraria } from "@/lib/db";
 import {
   controleHonorariumPerJaar,
+  perBoekjaarEnSector,
   prijsontwikkelingPerKantoor,
 } from "@/lib/analyse";
 import {
@@ -18,7 +19,6 @@ import {
   Aandeelbalk,
   Aangeleverd,
   Doorklik,
-  Foutmelding,
   KantoorLink,
   Kerncijfer,
   Kruimels,
@@ -33,13 +33,22 @@ export const metadata: Metadata = {
     "organisatie en boekjaar, in de vier categorieën van art. 2:382a BW.",
 };
 
+/**
+ * Zoveel bedragen per sector en boekjaar staan in de tabel, de hoogste eerst.
+ *
+ * Hier stonden tot 5-10-2026 álle bedragen in één tabel: 2.505 regels en
+ * 4,3 MB HTML, over alle sectoren en boekjaren door elkaar gesorteerd —
+ * terwijl de pagina zelf zegt dat je alleen binnen een sector en boekjaar mag
+ * vergelijken. Nu per boekjaar en per sector de hoogste; elk bedrag blijft
+ * staan op de pagina van de organisatie zelf.
+ */
+const PER_GROEP = 25;
+
 export default async function Honorariapagina() {
-  let rijen;
-  try {
-    rijen = await opdrachtenMetHonoraria();
-  } catch (fout) {
-    return <Foutmelding fout={fout} />;
-  }
+  // Geen try met <Foutmelding>: deze pagina staat een uur in de cache, en een
+  // gerenderde foutmelding ging daar bij een mislukte verversing in mee. Een
+  // geworpen fout laat de vorige versie staan (zie error.tsx).
+  const rijen = await opdrachtenMetHonoraria();
 
   const bedragen = rijen
     .map((r) => r.honorarium_controle_eur)
@@ -182,86 +191,111 @@ export default async function Honorariapagina() {
         </section>
       ) : null}
 
-      <section className="kaart">
-        <div className="kaartkop">
-          <h2>Alle verantwoorde honoraria</h2>
-        </div>
-        {rijen.length === 0 ? (
+      {rijen.length === 0 ? (
+        <section className="kaart">
+          <h2>Verantwoorde honoraria</h2>
           <Leeg tekst="Nog geen honoraria in de database." />
-        ) : (
-          <>
-            <div className="tabel-omhulsel">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Organisatie</th>
-                    <th>Boekjaar</th>
-                    <th>Kantoor</th>
-                    <th className="getal">Controle</th>
-                    <th className="getal">Overige controle</th>
-                    <th className="getal">Fiscaal</th>
-                    <th className="getal">Niet-controle</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {rijen.map((rij, i) => (
-                    <tr key={i}>
-                      <td>
-                        {rij.organisaties ? (
-                          <Link href={organisatiePad(rij.organisaties)}>
-                            {rij.organisaties.naam}
-                          </Link>
-                        ) : (
-                          <span className="zacht">onbekend</span>
-                        )}
-                      </td>
-                      <td className="jaar">{rij.boekjaar}</td>
-                      <td>
-                        {rij.kantoren ? (
-                          <KantoorLink
-                            naam={rij.kantoren.naam}
-                            naar={kantoorPad(rij.kantoren)}
-                            maat="m"
-                          />
-                        ) : (
-                          <span className="zacht">niet herleid</span>
-                        )}
-                        {/* Het bedrag is openbaar, maar welk kantoor erbij
-                            hoort komt bij 54 van de 1.872 regels uit
-                            aangeleverd marktonderzoek (5-10-2026); dan zegt de
-                            regel dat. */}
-                        <Aangeleverd bron={rij.bronnen} />
-                      </td>
-                      {/* Een streepje is "niet verantwoord", geen nul: €0 tonen
-                          waar niets is opgegeven zou een bewering zijn. */}
-                      <td className="getal">
-                        {euro(rij.honorarium_controle_eur) ?? <span className="zacht">—</span>}
-                      </td>
-                      <td className="getal">
-                        {euro(rij.honorarium_overig_eur) ?? <span className="zacht">—</span>}
-                      </td>
-                      <td className="getal">
-                        {euro(rij.honorarium_fiscaal_eur) ?? <span className="zacht">—</span>}
-                      </td>
-                      <td className="getal">
-                        {euro(rij.honorarium_nietcontrole_eur) ?? <span className="zacht">—</span>}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        </section>
+      ) : (
+        perBoekjaarEnSector(rijen).map(({ boekjaar, aantal, sectoren: groepen }) => (
+          <section className="kaart" key={boekjaar}>
+            <div className="kaartkop">
+              <h2>Boekjaar {boekjaar}</h2>
+              <span className="klein zacht">{nl(aantal)} met een bedrag</span>
             </div>
-            <p className="klein zacht" style={{ marginBottom: 0 }}>
-              Dekking: dit zijn alleen de organisaties waarvan de bron de
-              bedragen gestructureerd meelevert
-              {sectoren.length ? ` (nu: ${sectoren.map(hoofdletter).join(", ")})` : ""}.
-              De meeste jaarrekeningen vermelden de honoraria wel, maar als
-              tekst in een pdf; die worden per bron ontsloten. Geen bedrag hier
-              betekent dus niet dat er niets is betaald.
-            </p>
-          </>
-        )}
-      </section>
+            {groepen.map(([sector, lijst]) => (
+              <div key={sector ?? "onbekend"}>
+                <h3 style={{ margin: "0.8rem 0 0.3rem" }}>
+                  {sector ? (
+                    <Link href={sectorPad(sector)}>{hoofdletter(sector)}</Link>
+                  ) : (
+                    "Sector onbekend"
+                  )}{" "}
+                  <span className="klein zacht" style={{ fontWeight: 400 }}>
+                    {lijst.length > PER_GROEP
+                      ? `de ${PER_GROEP} hoogste van ${nl(lijst.length)}`
+                      : lijst.length === 1
+                        ? "één bedrag"
+                        : `${nl(lijst.length)} bedragen`}
+                  </span>
+                </h3>
+                <div className="tabel-omhulsel">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Organisatie</th>
+                        <th>Kantoor</th>
+                        <th className="getal">Controle</th>
+                        <th className="getal">Overige controle</th>
+                        <th className="getal">Fiscaal</th>
+                        <th className="getal">Niet-controle</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {lijst.slice(0, PER_GROEP).map((rij, i) => (
+                        <tr key={i}>
+                          <td>
+                            {rij.organisaties ? (
+                              <Link href={organisatiePad(rij.organisaties)}>
+                                {rij.organisaties.naam}
+                              </Link>
+                            ) : (
+                              <span className="zacht">onbekend</span>
+                            )}
+                          </td>
+                          <td>
+                            {rij.kantoren ? (
+                              <KantoorLink
+                                naam={rij.kantoren.naam}
+                                naar={kantoorPad(rij.kantoren)}
+                                maat="m"
+                              />
+                            ) : (
+                              <span className="zacht">niet herleid</span>
+                            )}
+                            {/* Het bedrag is openbaar, maar welk kantoor erbij
+                                hoort komt bij 54 van de 1.872 regels uit
+                                aangeleverd marktonderzoek (5-10-2026); dan zegt de
+                                regel dat. */}
+                            <Aangeleverd bron={rij.bronnen} />
+                          </td>
+                          {/* Een streepje is "niet verantwoord", geen nul: €0 tonen
+                              waar niets is opgegeven zou een bewering zijn. */}
+                          <td className="getal">
+                            {euro(rij.honorarium_controle_eur) ?? <span className="zacht">—</span>}
+                          </td>
+                          <td className="getal">
+                            {euro(rij.honorarium_overig_eur) ?? <span className="zacht">—</span>}
+                          </td>
+                          <td className="getal">
+                            {euro(rij.honorarium_fiscaal_eur) ?? <span className="zacht">—</span>}
+                          </td>
+                          <td className="getal">
+                            {euro(rij.honorarium_nietcontrole_eur) ?? <span className="zacht">—</span>}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </section>
+        ))
+      )}
+
+      {rijen.length > 0 ? (
+        <p className="klein zacht" style={{ maxWidth: "44rem" }}>
+          Per boekjaar en per sector de {PER_GROEP} hoogste controlehonoraria;
+          elk bedrag staat ook op de pagina van de organisatie zelf. Dekking:
+          dit zijn alleen de organisaties waarvan de bron de bedragen
+          gestructureerd meelevert
+          {sectoren.length ? ` (nu: ${sectoren.map(hoofdletter).join(", ")})` : ""}.
+          De meeste jaarrekeningen vermelden de honoraria wel, maar als tekst in
+          een pdf; die worden per bron ontsloten. Geen bedrag hier betekent dus
+          niet dat er niets is betaald.
+        </p>
+      ) : null}
 
       <section className="kaart">
         <h2>Hoe deze bedragen te lezen</h2>

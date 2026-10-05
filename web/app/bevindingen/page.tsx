@@ -26,7 +26,15 @@ function nietGoedkeurendPct(jaren: OordelenJaar[] | null, boekjaar: number): num
   return (100 * (jaar.beperking + jaar.oordeelonthouding + jaar.afkeurend)) / jaar.gelezen;
 }
 
-export default async function Bevindingenpagina() {
+/**
+ * Eén boekjaar tegelijk, zoals op /wisselingen. Hier stonden alle boekjaren
+ * onder elkaar: op 5-10-2026 685 regels en 1,2 MB HTML, terwijl wie hier
+ * binnenkomt meestal één jaar zoekt. De kerncijfers gaan wel over alle jaren.
+ */
+type Zoek = { searchParams: Promise<{ jaar?: string }> };
+
+export default async function Bevindingenpagina({ searchParams }: Zoek) {
+  const { jaar: jaarRuw } = await searchParams;
   let rijen;
   let oordelen;
   try {
@@ -59,6 +67,9 @@ export default async function Bevindingenpagina() {
     );
   }
   const jaren = [...perJaar.keys()].sort((a, b) => b - a);
+  // Standaard het nieuwste boekjaar; een onzinnig jaartal in de URL valt daarop
+  // terug in plaats van een lege pagina te geven.
+  const gekozen = jaren.includes(Number(jaarRuw)) ? Number(jaarRuw) : (jaren[0] ?? null);
 
   const nietGoedkeurend = rijen.filter(
     (r) => r.oordeel && r.oordeel !== "goedkeurend",
@@ -127,12 +138,29 @@ export default async function Bevindingenpagina() {
         )}
       </section>
 
-      {rijen.length === 0 ? (
+      {jaren.length > 1 ? (
+        <nav className="keuzebalk" aria-label="Kies een boekjaar">
+          {jaren.map((j) => (
+            <Link
+              key={j}
+              href={`/bevindingen?jaar=${j}`}
+              className={gekozen === j ? "actief" : undefined}
+              aria-current={gekozen === j ? "page" : undefined}
+            >
+              {j} <span className="zacht">({perJaar.get(j)!.length})</span>
+            </Link>
+          ))}
+        </nav>
+      ) : null}
+
+      {rijen.length === 0 || gekozen === null ? (
         <section className="kaart">
           <Leeg tekst="Geen niet-goedkeurende oordelen in de database." />
         </section>
       ) : (
-        jaren.map((jaar) => (
+        // Eén boekjaar, in dezelfde opmaak als toen ze allemaal onder elkaar
+        // stonden.
+        [gekozen].map((jaar) => (
           <section className="kaart" key={jaar}>
             <h2>Boekjaar {jaar}</h2>
             <div className="tabel-omhulsel">

@@ -8,6 +8,7 @@ import {
   OORDEEL_LABEL,
   oordeelOpvallend,
   OPDRACHT_LABEL,
+  paginaNummers,
   procent,
   SOORT_UITLEG,
   SOORTGROEP,
@@ -482,6 +483,60 @@ export function Inklapbaar({
       <summary>{samenvatting}</summary>
       {children}
     </details>
+  );
+}
+
+/**
+ * Bladeren door een lijst die te lang is voor één pagina.
+ *
+ * Waar <Inklapbaar> de staart wél in de HTML laat staan, is dit voor lijsten
+ * waar dat niet meer gaat: de organisaties van de financiële dienstverlening
+ * waren 4.165 regels en 1,8 MB HTML, ook ingeklapt (5-10-2026). Gewone links
+ * in dezelfde vorm als de jaarkiezer, zodat elke pagina een eigen adres heeft
+ * en het zonder JavaScript werkt. Rond de huidige pagina een paar nummers, en
+ * altijd de eerste en de laatste.
+ */
+export function Paginering({
+  pagina,
+  aantalPaginas,
+  pad,
+}: {
+  pagina: number;
+  aantalPaginas: number;
+  pad: (pagina: number) => string;
+}) {
+  if (aantalPaginas <= 1) return null;
+  const nummers = paginaNummers(pagina, aantalPaginas);
+  return (
+    <nav className="keuzebalk paginering" aria-label="Kies een pagina">
+      {pagina > 1 ? (
+        <Link href={pad(pagina - 1)} rel="prev">
+          ← Vorige
+        </Link>
+      ) : null}
+      {nummers.map((n, i) =>
+        n === null ? (
+          <span key={`weg-${i}`} className="weggelaten" aria-hidden="true">
+            …
+          </span>
+        ) : (
+          <Link
+            key={n}
+            href={pad(n)}
+            className={n === pagina ? "actief" : undefined}
+            aria-current={n === pagina ? "page" : undefined}
+            aria-label={`Pagina ${n}`}
+          >
+            {n}
+          </Link>
+        ),
+      )}
+      {pagina < aantalPaginas ? (
+        <Link href={pad(pagina + 1)} rel="next">
+          Volgende →
+        </Link>
+      ) : null}
+    </nav>
   );
 }
 
