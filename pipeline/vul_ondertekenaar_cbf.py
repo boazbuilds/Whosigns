@@ -192,6 +192,7 @@ def main() -> int:
 
     telling: dict[str, int] = {}
     ingevuld = 0
+    mislukt = 0
     with ThreadPoolExecutor(max_workers=argumenten.werkers) as pool:
         for teller, (paar, status, gevonden) in enumerate(pool.map(verwerk, paren), start=1):
             for rij in per_paar[paar]:
@@ -199,12 +200,22 @@ def main() -> int:
                 telling[reden] = telling.get(reden, 0) + 1
                 naam = naam_voor_rij(rij, gevonden) if status == "gelezen" else None
                 if naam and argumenten.schrijf:
-                    db.bijwerken(
-                        "opdrachten",
-                        f"id=eq.{rij['id']}&tekenend_accountant=is.null",
-                        {"tekenend_accountant": naam},
-                    )
-                    ingevuld += 1
+                    # Eén mislukte PATCH (5xx, 429, een time-out) mag de rest niet
+                    # kosten: pool.map heeft alle paren dan al ingediend, en een
+                    # uitzondering hier gooide het werk van de hele run weg. De
+                    # rij blijft leeg en komt bij de volgende run vanzelf terug
+                    # (de vraag selecteert op tekenend_accountant is null).
+                    try:
+                        db.bijwerken(
+                            "opdrachten",
+                            f"id=eq.{rij['id']}&tekenend_accountant=is.null",
+                            {"tekenend_accountant": naam},
+                        )
+                        ingevuld += 1
+                    except (SupabaseFout, OSError) as fout:
+                        mislukt += 1
+                        print(f"schrijven mislukt voor opdracht {rij['id']}: "
+                              f"{type(fout).__name__}", flush=True)
             if teller % 100 == 0:
                 print(
                     f"--- {teller}/{len(paren)} | {telling.get('naam', 0)} namen | "
@@ -217,6 +228,10 @@ def main() -> int:
         print(f"  {aantal:5d}  {reden}")
     if argumenten.schrijf:
         print(f"\n{ingevuld} namen ingevuld")
+        if mislukt:
+            # Rood, zodat het opvalt; wat wel lukte staat er al.
+            print(f"{mislukt} keer schrijven mislukt; die rijen probeert de volgende run opnieuw")
+            return 1
     else:
         print(f"\ndroogloop: niets geschreven; met --schrijf komen er "
               f"{telling.get('naam', 0)} namen bij")
