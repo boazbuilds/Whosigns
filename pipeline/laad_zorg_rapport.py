@@ -56,6 +56,16 @@ VERPLICHT = RAPPORT_KOLOMMEN
 # wij in de verklaring lezen. En 2023 was het enige boekjaar dat die velden had.
 #
 # Ze worden nu vóór het verwijderen opgehaald en er na het invoegen weer op gezet.
+# De velden die over de jaarrekening gaan; die horen alleen op een controle.
+JAARREKENINGVELDEN = (
+    "honorarium_controle_eur",
+    "honorarium_overig_eur",
+    "honorarium_fiscaal_eur",
+    "honorarium_nietcontrole_eur",
+    "oordeel_gerapporteerd",
+)
+CONTROLETYPEN = "wettelijke_controle,vrijwillige_controle,controle_onbepaald"
+
 DATASETVELDEN = (
     "standaard",
     "honorarium_controle_eur",
@@ -301,7 +311,19 @@ def main() -> int:
         # afbreking die velden zou kosten zo klein mogelijk.
         terug = bewaard.get((org_rij["id"], boekjaar))
         if terug:
-            db.bijwerken("opdrachten", filter_ob, terug)
+            # De honoraria en het gerapporteerde oordeel gaan over de
+            # jaarrekening en horen dus alleen op een controle terug, niet op
+            # een WNT- of productieverantwoording van hetzelfde jaar.
+            jaarrekening = {k: v for k, v in terug.items() if k in JAARREKENINGVELDEN}
+            overig = {k: v for k, v in terug.items() if k not in JAARREKENINGVELDEN}
+            if jaarrekening:
+                db.bijwerken(
+                    "opdrachten",
+                    f"{filter_ob}&type_opdracht=in.({CONTROLETYPEN})",
+                    jaarrekening,
+                )
+            if overig:
+                db.bijwerken("opdrachten", filter_ob, overig)
             hersteld_velden += len(terug)
             bewaard[(org_rij["id"], boekjaar)] = {}
         geschreven += 1

@@ -675,3 +675,27 @@ organisatie opgeruimd, dus zo'n hertoets kost opnieuw downloaden.
 Niet doen: de niet-gelukte gevallen uit `verwerkt` weglaten zodat ze vanzelf
 terugkomen. Dan draait elke ronde ze opnieuw, inclusief de dure OCR, en komt de
 oogst nooit vooruit.
+
+## Honoraria: lopend jaar, vergelijkend cijfer en de Jeugdwet-sectie (5-10-2026)
+
+Elke jaardataset van 2020 tot en met 2025 heeft de honoraria twee keer:
+`acc_jr_contr_acc_jr_contr_0` (het boekjaar van de dataset) en `..._1` (per
+einde vórig boekjaar, het vergelijkende cijfer). Hetzelfde voor `acc_ov_contr`,
+`acc_fisc_adv` en `acc_niet_contr`. Nagelopen op de koprijen van alle zes
+jaargangen: `_0` staat steeds direct links van `_1`.
+
+- **Boekjaar 2019** heeft geen eigen dataset met honoraria (het oude formaat),
+  maar de dataset 2020 draagt ze als vergelijkend cijfer. `vul_extra_velden.py`
+  schrijft die naar de wettelijke of vrijwillige controle van 2019, alleen waar
+  daar nog niets staat. Droogloop: 699 controles krijgen zo een bedrag.
+- **Vanaf de dataset 2022** staan de `acc_*`-kolommen alleen nog in de
+  Jeugdwet-sectie (2023: 425 gevulde rijen tegen 1.900 in 2021). Daarom zijn er
+  voor 2022 en later maar zo'n zestig tot tachtig honoraria per jaar; dat is de
+  bron, niet de lezer.
+- Een vergelijkend cijfer wijkt in 14% van de gevallen af van wat de organisatie
+  een jaar eerder zelf opgaf (724 organisaties, datasets 2020 en 2021). Daarom
+  wint de eigen opgave altijd.
+- Drie organisaties verantwoordden een jaar in duizenden euro's; de vuller
+  toetst elk controlehonorarium nu aan de andere jaren van dezelfde organisatie
+  (factor 50) en zet een afwijker in de review-queue in plaats van hem te
+  schrijven.

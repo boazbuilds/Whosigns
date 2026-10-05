@@ -210,7 +210,23 @@ check(
 )
 check(
     "de volgorde is bewaren, verwijderen, invoegen, terugzetten",
-    met.stappen == ["bewaren", "verwijderen", "invoegen", "terugzetten"],
+    met.stappen[:3] == ["bewaren", "verwijderen", "invoegen"]
+    and set(met.stappen[3:]) == {"terugzetten"},
+)
+# Sinds 5-10-2026: honoraria en het gerapporteerde oordeel gaan over de
+# jaarrekening en gaan alleen terug op een controle, niet op een WNT- of
+# productieverantwoording van hetzelfde organisatie-boekjaar.
+jaarrekening = [f for f, v in met.bijgewerkt if "honorarium_controle_eur" in v]
+check(
+    "de jaarrekeningvelden gaan alleen terug op een controle",
+    len(jaarrekening) == 1
+    and "type_opdracht=in.(wettelijke_controle,vrijwillige_controle,controle_onbepaald)"
+    in jaarrekening[0],
+)
+overig = [f for f, v in met.bijgewerkt if "verklaring_datum" in v]
+check(
+    "de andere datasetvelden gaan terug op het hele organisatie-boekjaar, zoals altijd",
+    len(overig) == 1 and "type_opdracht" not in overig[0],
 )
 check(
     "oordeel_gerapporteerd overleeft het herladen -- de helft van "

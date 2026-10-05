@@ -994,10 +994,16 @@ export type HonorariumRij = {
   kantoren: Kantoor | null;
 };
 
-/** De filter van /honoraria: minstens één van de vier categorieën ingevuld. */
+/**
+ * De filter van /honoraria: minstens één van de vier categorieën ingevuld, en
+ * alleen op een controle. Op een WNT- of productieverantwoording hoort geen
+ * jaarrekeninghonorarium; daar stonden er tot 5-10-2026 90, en de pagina toonde
+ * ze als "controle WNT-verantwoording" met een controlehonorarium erbij.
+ */
 export const HONORARIUM_FILTER =
   "or=(honorarium_controle_eur.not.is.null,honorarium_overig_eur.not.is.null," +
-  "honorarium_fiscaal_eur.not.is.null,honorarium_nietcontrole_eur.not.is.null)";
+  "honorarium_fiscaal_eur.not.is.null,honorarium_nietcontrole_eur.not.is.null)" +
+  "&type_opdracht=in.(wettelijke_controle,vrijwillige_controle,controle_onbepaald)";
 
 /**
  * Alle opdrachten met minstens één verantwoord honorarium, hoogste
@@ -1014,7 +1020,10 @@ export async function opdrachtenMetHonoraria(): Promise<HonorariumRij[]> {
       "honorarium_overig_eur,honorarium_fiscaal_eur,honorarium_nietcontrole_eur," +
       `organisaties(${ORG_VELDEN}),kantoren(${KANTOOR_KERN})` +
       `&${HONORARIUM_FILTER}` +
-      "&order=honorarium_controle_eur.desc.nullslast,boekjaar.desc",
+      // id als laatste: de lijst beslaat twee pagina's, en zonder unieke
+      // sortering mag de database bij gelijke bedragen de tweede pagina anders
+      // ordenen dan de eerste.
+      "&order=honorarium_controle_eur.desc.nullslast,boekjaar.desc,id.asc",
   );
 }
 
@@ -1265,6 +1274,8 @@ export type Controlehonorarium = {
 export function controlehonoraria(): Promise<Controlehonorarium[]> {
   return haalAlles<Controlehonorarium>(
     "opdrachten?select=boekjaar,organisatie_id,kantoor_id,honorarium_controle_eur" +
-      "&honorarium_controle_eur=not.is.null&order=id.asc",
+      "&honorarium_controle_eur=not.is.null" +
+      "&type_opdracht=in.(wettelijke_controle,vrijwillige_controle,controle_onbepaald)" +
+      "&order=id.asc",
   );
 }

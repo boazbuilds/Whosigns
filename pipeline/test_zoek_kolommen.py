@@ -77,13 +77,23 @@ check(
 check("de verklaringsdatum wordt gevonden", velden.get("verklaring_datum") == 9)
 
 # Het honorarium heeft twéé kolommen die met hetzelfde patroon beginnen: dit
-# boekjaar (_0) en het vorige (_1). De code pakt via next() de eerste treffer, en
-# in de bron staat _0 links van _1. Zou die volgorde ooit omdraaien, dan stond
-# hier stil het bedrag van het vórige boekjaar -- een fout die nergens opvalt,
-# want het is een plausibel bedrag.
+# boekjaar (_0) en het vorige (_1). Tot 5-10-2026 pakte de code via next() de
+# eerste treffer, en dat was toevallig _0. Nu op het achtervoegsel: zou de
+# volgorde ooit omdraaien, dan stond er anders stil het bedrag van het vórige
+# boekjaar -- een fout die nergens opvalt, want het is een plausibel bedrag.
 check(
     "het controlehonorarium pakt het lopende boekjaar (_0) en niet het vorige",
     velden.get("honorarium_controle") == 6,
+)
+check(
+    "het vergelijkende cijfer (_1) komt in een eigen veld",
+    velden.get("honorarium_controle_vorig") == 7,
+)
+omgedraaid = _zoek_kolommen([KOPRIJ[0], KOPRIJ[1], KOPRIJ[2], KOPRIJ[7], KOPRIJ[6]])
+check(
+    "ook als _1 links van _0 staat, krijgt het lopende jaar de _0-kolom",
+    omgedraaid["velden"].get("honorarium_controle") == 4
+    and omgedraaid["velden"].get("honorarium_controle_vorig") == 3,
 )
 
 # En de kern: zonder de reparatie matchte geen enkel patroon.
@@ -156,6 +166,14 @@ check(
     and k2021["velden"].get("honorarium_controle") == 3
     and k2021["velden"].get("wisselvlag") == 4,
 )
+# Bedragen: nul en negatief zijn geen honorarium (niet ingevuld, of een vrijval).
+from digimv_dataset import _bedrag  # noqa: E402
+
+check("nul is 'niet opgegeven'", _bedrag("0") == "")
+check("een negatief bedrag is een correctie, geen honorarium", _bedrag("-42000") == "")
+check("duizendtallenpunten worden gelezen", _bedrag("1.234.567") == "1234567")
+check("een decimale punt uit het machineattribuut ook", _bedrag("41000.5") in ("41000", "41001"))
+
 from digimv_dataset import DATASET_URL  # noqa: E402
 
 check(
