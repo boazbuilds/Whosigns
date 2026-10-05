@@ -400,8 +400,13 @@ relaties wisselt per jaar.
   feit uit het jaarverslag van de stichting zelf; het CBF is de vindplaats.
 - **ANBI-bestand:** vrij te gebruiken, bronvermelding niet verplicht (Belastingdienst
   open data). Geen enkel bezwaar.
-- **AVG onveranderd:** alleen kantoornamen, nooit de tekenend accountant. In deze sector
-  is dat extra opletten: kleine stichtingen noemen bestuurders bij naam in hetzelfde pdf.
+- **AVG:** kantoornamen, en sinds het besluit van 20-8-2026 (`docs/beslissingen.md`) ook de
+  tekenend accountant uit de verklaring zelf — nooit andere personen. In deze sector is dat
+  extra opletten: kleine stichtingen noemen bestuurders bij naam in hetzelfde pdf. Daarom
+  komt de naam alleen mee als hij op een ondertekeningsplek staat, met de volledige
+  kantoornaam vlak erboven (`stichtingen.naam_bij_kantoor`), en nooit in een review-payload
+  of logregel. De lader gaf hem tot 5-10-2026 niet door; `vul_ondertekenaar_cbf.py` vult
+  de opdrachten van daarvóór bij.
 - **Vriendelijk oogsten:** `cbf.py` pauzeert tussen requests; de bulk-run hoort in
   GitHub Actions, niet interactief.
 

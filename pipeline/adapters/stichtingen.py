@@ -26,6 +26,7 @@ nooit stil gokken.
 """
 
 import hashlib
+import re
 import sys
 from pathlib import Path
 
@@ -94,6 +95,47 @@ def bevat_boekjaar(tekst: str, boekjaar: int) -> bool:
     )
 
 
+# Hoe ver vóór de ondertekenaar het kantoor moet staan, in tekens ruwe tekst. Ruim
+# genoeg voor "Utrecht, 12 mei 2025 / <kantoor> B.V. / namens deze, / was getekend /
+# <naam> RA"; dezelfde maat die ondertekenaar.py vóór zijn anker aanhoudt.
+KANTOOR_VOOR_NAAM = 300
+
+
+def naam_bij_kantoor(tekst: str, naam: str, kantoor: dict, kantoor_index: dict) -> bool:
+    """Staat de volledige naam van dít kantoor vlak boven de ondertekenaar?
+
+    `ondertekenaar.py` toetst dat al, maar alleen op het eerste woord van de
+    kantoornaam, en als deel van een woord. Bij de goede doelen is dat vaak
+    geen toets: van de 1.426 CBF-opdrachten (5-10-2026) hangen er 71 aan Van Ree
+    Accountants en 17 aan De Jong & Laan, en "van" en "de" staan in elke alinea.
+    Dan kan in een jaarverslag met twee verklaringen de naam onder de ene
+    handtekening bij het kantoor van de andere belanden. Hier moet een hele
+    zoeksleutel van het kantoor (naam of alias, zoals `kantoor_match` hem kent)
+    als hele woorden in de KANTOOR_VOOR_NAAM tekens vóór de naam staan.
+
+    Gemeten op 5-10-2026, twee steekproeven van 40 en 60 CBF-opdrachten: 38 namen,
+    en bij alle 38 staat het kantoor er zo boven. Het kost dus niets, en het sluit
+    het geval uit dat de lichte toets doorlaat.
+    """
+    sleutels = [
+        sleutel
+        for sleutel, kandidaat in kantoor_index.items()
+        if kandidaat.get("sleutel") == kantoor.get("sleutel")
+    ]
+    delen = naam.split()
+    if not sleutels or not delen:
+        return False
+    # De naam staat in de ruwe tekst met willekeurige witruimte ertussen
+    # ("A.B. van der\nMeer RA"); `ondertekenaar._schoon` streek die glad.
+    patroon = r"\s+".join(re.escape(deel) for deel in delen)
+    for treffer in re.finditer(patroon, tekst):
+        begin = max(0, treffer.start() - KANTOOR_VOOR_NAAM)
+        venster = f" {normaliseer(tekst[begin : treffer.start()])} "
+        if any(f" {sleutel} " in venster for sleutel in sleutels):
+            return True
+    return False
+
+
 def _uit_tekst(
     tekst: str,
     kantoor_index: dict,
@@ -103,6 +145,18 @@ def _uit_tekst(
     resultaat = analyseer(tekst, kantoor_index)
     if resultaat["soort"] not in soorten:
         return None
+    # De ondertekenaar, met dezelfde eisen als in de zorg (`analyseer`: alleen bij
+    # een controle, en alleen als het blok van de naam hetzelfde oordeel draagt)
+    # plus de strengere kantooreis hierboven. Tot 5-10-2026 rekende analyseer()
+    # hem wel uit, maar viel hij hier weg: geen van de 1.426 CBF-opdrachten had
+    # een naam. Alleen bij een herleid kantoor; een review-geval krijgt geen naam,
+    # ook niet in de payload.
+    tekenend = resultaat.get("tekenend_accountant")
+    if tekenend and not (
+        resultaat["kantoor"]
+        and naam_bij_kantoor(tekst, tekenend, resultaat["kantoor"], kantoor_index)
+    ):
+        tekenend = None
     return {
         "soort": resultaat["soort"],
         "opdrachttype": _opdrachttype(resultaat) if resultaat["kantoor"] else None,
@@ -115,6 +169,7 @@ def _uit_tekst(
         "grond_beperking": resultaat["grond_beperking"],
         "continuiteitsonzekerheid": bool(resultaat["continuiteitsonzekerheid"]),
         "kantoor": resultaat["kantoor"],
+        "tekenend_accountant": tekenend,
         "kandidaten": resultaat["kandidaten"],
         "vindplaats": vindplaats,
     }

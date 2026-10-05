@@ -40,7 +40,13 @@ Opties:
                        worden ze na het lezen weggegooid: 295 verslagen is ruim 1 GB)
 
 Idempotent: upsert op (organisatie_id, boekjaar, type_opdracht). Hervatten is
-veilig — organisatie-boekjaren die al een opdracht hebben, worden overgeslagen.
+veilig — organisatie-boekjaren die al een gelezen opdracht hebben, worden
+overgeslagen. Een rij uit het marktonderzoek (`controle_onbepaald`) telt daar
+niet voor; zie `al_geladen_kvk`.
+
+Een rij in `bronnen` komt er pas bij de eerste opdracht die dit blok schrijft. Een
+blok dat niets vindt, laat dus ook geen bron achter: de herkansingen van `lus.py`
+lezen grotendeels wat al gelezen was.
 
 `--vanaf`/`--aantal` snijden in een lijst met een vaste volgorde (`cbf.selecteer`
 sorteert op KvK-nummer), zodat blok 3 volgende week nog dezelfde organisaties
@@ -89,6 +95,48 @@ def _websites(organisaties: list[dict]) -> dict[str, str]:
             uit[organisatie["naam"]] = rij["webSite"]
     print(f"websites uit het ANBI-bestand: {len(uit)} van {len(organisaties)}")
     return uit
+
+
+def al_geladen_kvk(db, boekjaar: int, kvks: list[str]) -> set[str]:
+    """De KvK-nummers van dit blok die voor dit boekjaar al een gelezen opdracht hebben.
+
+    `controle_onbepaald` telt bewust niet mee, net als in
+    laad_pensioenfondsen.gelezen_controles(): dat is de rij uit het
+    marktonderzoek, die alleen zegt dát er een accountant was. Het jaarverslag
+    voegt het opdrachttype, het oordeel en de ondertekenaar toe, dus zo'n rij is
+    juist een reden om te lezen. Tot 5-10-2026 telde hij wel. Toen hadden 18
+    D/E-organisaties voor 2025 alleen zo'n rij, 14 daarvan met een CBF-verslag,
+    en in de leesproef leverden twee van de drie een opdracht op. De onbepaalde
+    rij blijft staan naast de gelezen rij; de site kiest per boekjaar de gelezen
+    controle (web/lib/analyse.ts) en v_marktaandeel telt hem niet.
+
+    Een beoordeling of samenstelling telt wél: dat is ook een gelezen verklaring,
+    en opnieuw lezen levert hetzelfde stuk op.
+
+    "Al geladen" alleen vragen voor de KvK-nummers van dít blok. Zonder dat
+    filter komen alle opdrachten van een boekjaar mee — inclusief de duizenden
+    zorgrijen die er niets mee te maken hebben. `selecteer_alles` pagineert dus
+    door tabellen heen waar we niets aan hebben, elke ronde opnieuw. Een `in.(…)`
+    op ten hoogste een blok is één verzoek van vijftig rijen.
+    """
+    zonder_onbepaald = "&type_opdracht=neq.controle_onbepaald"
+    try:
+        bestaand = db.selecteer_alles(
+            "opdrachten",
+            f"select=organisaties!inner(kvk_nummer)&boekjaar=eq.{boekjaar}"
+            f"&organisaties.kvk_nummer=in.({','.join(kvks)}){zonder_onbepaald}",
+        )
+    except SupabaseFout as fout:
+        # Filteren op een kolom van een gekoppelde tabel vraagt om `!inner` en
+        # een PostgREST dat dat aankan. Struikelt hij erover, dan is de brede
+        # vraag nog altijd goed — alleen duurder. Dit mag een lus die onbeheerd
+        # draait niet op zijn eerste blok laten stranden.
+        print(f"  gerichte vraag mislukt ({fout}); alle opdrachten opvragen")
+        bestaand = db.selecteer_alles(
+            "opdrachten",
+            f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}{zonder_onbepaald}",
+        )
+    return {(r.get("organisaties") or {}).get("kvk_nummer") for r in bestaand} - {None}
 
 
 def main() -> int:
@@ -166,41 +214,10 @@ def main() -> int:
         if not kantoor_id_per_sleutel:
             print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")
             return 1
-        # "Al geladen" alleen vragen voor de KvK-nummers van dít blok. Zonder dat
-        # filter komen alle opdrachten van een boekjaar mee — inclusief de duizenden
-        # zorgrijen die er niets mee te maken hebben. `selecteer_alles` pagineert dus
-        # door tabellen heen waar we niets aan hebben, elke ronde opnieuw. Een
-        # `in.(…)` op ten hoogste een blok is één verzoek van vijftig rijen.
         kvks = [o["kvknummer"] for o in werklijst if o.get("kvknummer")]
         if kvks and not argumenten.herlaad:
-            try:
-                bestaand = db.selecteer_alles(
-                    "opdrachten",
-                    f"select=organisaties!inner(kvk_nummer)&boekjaar=eq.{boekjaar}"
-                    f"&organisaties.kvk_nummer=in.({','.join(kvks)})",
-                )
-            except SupabaseFout as fout:
-                # Filteren op een kolom van een gekoppelde tabel vraagt om `!inner`
-                # en een PostgREST dat dat aankan. Struikelt hij erover, dan is de
-                # brede vraag nog altijd goed — alleen duurder. Dit mag een lus die
-                # onbeheerd draait niet op zijn eerste blok laten stranden.
-                print(f"  gerichte vraag mislukt ({fout}); alle opdrachten opvragen")
-                bestaand = db.selecteer_alles(
-                    "opdrachten",
-                    f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}",
-                )
-            al_geladen = {
-                (r.get("organisaties") or {}).get("kvk_nummer") for r in bestaand
-            } - {None}
-        bron = db.invoegen(
-            "bronnen",
-            {"bron_type": "cbf", "url": cbf.REGISTER_URL, "betrouwbaarheid": "publiek"},
-        )
-        bron_id = bron["id"]
-        print(
-            f"bron {bron_id}; {len(al_geladen)} van {len(werklijst)} al geladen",
-            flush=True,
-        )
+            al_geladen = al_geladen_kvk(db, boekjaar, kvks)
+        print(f"{len(al_geladen)} van {len(werklijst)} al geladen", flush=True)
 
     te_doen = [o for o in werklijst if (o.get("kvknummer") or "") not in al_geladen]
 
@@ -311,19 +328,30 @@ def main() -> int:
                         "opdrachten",
                         f"organisatie_id=eq.{org_rij['id']}&boekjaar=eq.{boekjaar}",
                     )
+                if bron_id is None:
+                    # Pas nu, bij de eerste opdracht: zie de toelichting bovenaan.
+                    bron_id = db.invoegen(
+                        "bronnen",
+                        {"bron_type": "cbf", "url": cbf.REGISTER_URL,
+                         "betrouwbaarheid": "publiek"},
+                    )["id"]
+                    print(f"bron {bron_id}", flush=True)
+                velden = {
+                    "organisatie_id": org_rij["id"],
+                    "kantoor_id": kantoor_id,
+                    "boekjaar": boekjaar,
+                    "type_opdracht": resultaat["opdrachttype"],
+                    "oordeel": resultaat["oordeel"],
+                    "grond_beperking": resultaat["grond_beperking"],
+                    "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
+                    "bron_id": bron_id,
+                }
+                # Alleen meesturen als er een naam is: een upsert met null zou een
+                # naam wissen die er al stond (vul_ondertekenaar_cbf.py vult ze bij).
+                if resultaat.get("tekenend_accountant"):
+                    velden["tekenend_accountant"] = resultaat["tekenend_accountant"]
                 db.upsert_met_id(
-                    "opdrachten",
-                    {
-                        "organisatie_id": org_rij["id"],
-                        "kantoor_id": kantoor_id,
-                        "boekjaar": boekjaar,
-                        "type_opdracht": resultaat["opdrachttype"],
-                        "oordeel": resultaat["oordeel"],
-                        "grond_beperking": resultaat["grond_beperking"],
-                        "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
-                        "bron_id": bron_id,
-                    },
-                    "organisatie_id,boekjaar,type_opdracht",
+                    "opdrachten", velden, "organisatie_id,boekjaar,type_opdracht"
                 )
             elif status == "review":
                 # Nooit stil gokken: wél een controleverklaring, maar het kantoor

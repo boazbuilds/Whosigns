@@ -1,0 +1,65 @@
+name: Ondertekenaar goede doelen
+
+# Vult de tekenend accountant bij op de goede doelen die er al staan.
+#
+# Waarom dit een eigen workflow is. De lader van de goede doelen gooide de naam
+# weg die analyseer() al uitrekende; op 5-10-2026 hadden de 1.426 CBF-opdrachten er
+# geen één. Vanaf nu schrijft de lus hem zelf, maar de lus leest wat al een
+# opdracht heeft nooit opnieuw. Dit script haalt die verslagen nog één keer op bij
+# het CBF en vult alleen een leeg veld, en alleen als kantoor, opdrachttype en
+# oordeel van het opnieuw gelezen stuk gelijk zijn aan de rij. Zie
+# pipeline/vul_ondertekenaar_cbf.py.
+#
+# Draait vanzelf zodra het script of deze workflow op main landt — zelfde patroon
+# als honoraria.yml. Eén keer is genoeg: wat een naam kreeg valt bij een volgende
+# run af. Gemeten 5-10-2026: ~2 seconden per verslag; met vier tegelijk is de hele
+# set (1.407 controles) een half uur.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/vul_ondertekenaar_cbf.py"
+      - ".github/workflows/ondertekenaar_cbf.yml"
+
+# Twee runs tegelijk zouden dezelfde verslagen twee keer ophalen; het filter op een
+# leeg veld houdt de data wel goed, maar het CBF hoeft dat niet te merken.
+concurrency:
+  group: ondertekenaar-cbf
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  bijvullen:
+    name: Ondertekenaar bijvullen
+    runs-on: ubuntu-latest
+    # Ruim boven het tijdbudget van het script (100 minuten), zodat het netjes
+    # stopt en zijn tellingen laat zien in plaats van midden in een verzoek te
+    # worden afgekapt.
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: poppler-utils installeren
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+
+      - name: Ondertekenaar bijvullen
+        env:
+          # Geen OCR op een runner; zie stichtingenlus.yml.
+          WHOSIGNS_OCR: "0"
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/vul_ondertekenaar_cbf.py --schrijf

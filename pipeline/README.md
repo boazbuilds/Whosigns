@@ -66,6 +66,8 @@ pipeline/
   vul_extra_velden.py  ✅ honoraria/omzet/subsector uit de jaardatasets 2022-2024
                           (workflow "Honoraria bijvullen")
   vul_ondertekenaar.py ✅ tekenend accountant bijvullen uit de bewaarde OCR-teksten
+  vul_ondertekenaar_cbf.py ✅ idem voor de goede doelen, uit de CBF-jaarverslagen
+                          (workflow "Ondertekenaar goede doelen")
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)
