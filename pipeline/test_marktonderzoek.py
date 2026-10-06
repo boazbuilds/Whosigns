@@ -19,6 +19,7 @@ from laad_marktonderzoek import (  # noqa: E402
     herleid_kantoren,
     lees_map,
     sector_uit_sbi,
+    sector_voor,
 )
 
 goed = 0
@@ -141,9 +142,50 @@ check(
 )
 check(
     "onbekende hoofdgroepen worden overig, geen code wordt niets",
-    sector_uit_sbi("84111") == "overig bedrijfsleven"
-    and sector_uit_sbi("55101") == "overig bedrijfsleven"
+    sector_uit_sbi("55101") == "overig bedrijfsleven"
+    and sector_uit_sbi("93120") == "overig bedrijfsleven"
     and sector_uit_sbi("") is None,
+)
+# Tot 5-10-2026 viel openbaar bestuur in "overig bedrijfsleven", en daarmee 401
+# controles van gemeenten en provincies (migratie 20261006110000).
+check(
+    "openbaar bestuur (84.1) en openbare orde (84.2) zijn overheid",
+    sector_uit_sbi("84110") == "overheid"
+    and sector_uit_sbi("84121") == "overheid"
+    and sector_uit_sbi("8411") == "overheid"
+    and sector_uit_sbi("84250") == "overheid",
+)
+check(
+    "verplichte sociale verzekeringen (84.3) blijven overig, ook kaal '84'",
+    sector_uit_sbi("84300") == "overig bedrijfsleven"
+    and sector_uit_sbi("8430") == "overig bedrijfsleven"
+    and sector_uit_sbi("84") == "overig bedrijfsleven",
+)
+
+# DUO gaat vóór de SBI-code, behalve bij zorg. Verzonnen KvK-nummers.
+BESTUREN = {"90000001"}
+check(
+    "een schoolbestuur met een SBI-hokje of openbaar-bestuurcode wordt onderwijs",
+    sector_voor("90000001", "94991", BESTUREN) == "onderwijs"
+    and sector_voor("90000001", "84121", BESTUREN) == "onderwijs"
+    and sector_voor("90000001", "69209", BESTUREN) == "onderwijs",
+)
+check(
+    "een schoolbestuur zonder SBI-code wordt ook onderwijs",
+    sector_voor("90000001", "", BESTUREN) == "onderwijs",
+)
+check(
+    "een zorginstelling met een eigen school blijft zorg",
+    sector_voor("90000001", "87101", BESTUREN) == "zorg",
+)
+check(
+    "zonder DUO-nummer beslist de SBI-code",
+    sector_voor("90000002", "84110", BESTUREN) == "overheid"
+    and sector_voor("90000002", "", BESTUREN) is None,
+)
+check(
+    "de DUO-seed laadt vanzelf als er geen lijst wordt meegegeven",
+    sector_voor("90000002", "47110") == "handel",
 )
 
 # De aanlevermap zelf: elke rij moet door de validatie komen, want de lader

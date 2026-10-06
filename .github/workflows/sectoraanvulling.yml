@@ -1,0 +1,115 @@
+name: Sector aanvullen
+
+# Organisaties zonder sector krijgen er een uit de KvK Open Dataset Basis
+# Bedrijfsgegevens (SBI-code van de hoofdactiviteit). Zie pipeline/vul_sector.py.
+#
+# De API staat één verzoek per minuut toe; op 5-10-2026 waren er 423
+# organisaties zonder sector, ruim zeven uur werk, en een job mag er zes. Het
+# script stopt daarom na 320 minuten en houdt in
+# pipeline/werkvoorraad/sector_kvk.json bij wat het al vroeg. Die stap hieronder
+# commit dat bestand, ook als de run halverwege stukloopt, en de volgende run
+# gaat verder waar deze ophield.
+#
+# Een commit met GITHUB_TOKEN start geen nieuwe workflows (zie pipeline.yml),
+# dus de voortgangscommit zet deze workflow niet opnieuw aan.
+on:
+  schedule:
+    # Wekelijks, zondagnacht, op een oneven minuut. Nieuwe organisaties zonder
+    # sector komen alleen met een aanlevering binnen; vaker is niet nodig.
+    - cron: "17 2 * * 0"
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/vul_sector.py"
+      - ".github/workflows/sectoraanvulling.yml"
+  workflow_dispatch:
+    inputs:
+      maximum:
+        description: "Hoogstens zoveel verzoeken (leeg = tot het tijdbudget op is)"
+        required: false
+        default: ""
+      droogloop:
+        description: "Niets naar de database schrijven; alleen vragen en tellen"
+        type: boolean
+        required: false
+        default: false
+
+# Twee runs tegelijk delen één IP-limiet niet: ze krijgen elkaars 429's en
+# schrijven allebei hetzelfde voortgangsbestand. Achter elkaar dus.
+concurrency:
+  group: sectoraanvulling
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  aanvullen:
+    name: Sector uit de KvK-dataset
+    runs-on: ubuntu-latest
+    # Onder de zes uur van GitHub, met ruimte voor het vastleggen hierna.
+    timeout-minutes: 350
+    steps:
+      # Volledige historie: de voortgangscommit wordt aan het eind op de dan
+      # nieuwste main gezet, en een rebase in een ondiepe kloon kan zijn
+      # vertrekpunt kwijt zijn.
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Aanvullen
+        # Het script stopt zelf na 320 minuten. Deze grens is de vangrail als dat
+        # niet lukt: een stap die op zijn eigen timeout stukloopt, laat de
+        # stappen met always() hieronder nog draaien, een job die op de zijne
+        # stukloopt niet.
+        timeout-minutes: 335
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          MAXIMUM: ${{ inputs.maximum }}
+          DROOGLOOP: ${{ inputs.droogloop }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/vul_sector.py --tijdbudget 320 \
+            $([ -n "$MAXIMUM" ] && echo --maximum "$MAXIMUM") \
+            $([ "$DROOGLOOP" = "true" ] && echo --droogloop)
+
+      # Alleen vanaf main. Met de knop kan deze workflow ook op een andere
+      # branch draaien, en "pull --rebase origin main" plus "push HEAD:main"
+      # zou dan de commits van die branch mee naar main zetten. De data staat
+      # dan al in de database; alleen de 404's worden de volgende keer opnieuw
+      # gevraagd.
+      - name: Voortgang vastleggen
+        if: ${{ always() && inputs.droogloop != true && github.ref == 'refs/heads/main' }}
+        run: |
+          bestand=pipeline/werkvoorraad/sector_kvk.json
+          if [ -z "$(git status --porcelain -- $bestand)" ]; then
+            echo "voortgang ongewijzigd"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $bestand
+          git commit -m "Sector aanvullen: voortgang"
+          # Na vijf uur staat main zelden nog waar hij stond. Dit bestand schrijft
+          # alleen deze workflow, dus opnieuw toepassen op de nieuwste main botst
+          # niet; vier pogingen voor het geval een andere push net ertussen zit.
+          # Loopt een rebase toch vast, dan eerst afbreken: anders weigert elke
+          # volgende poging omdat er nog een rebase openstaat.
+          for poging in 1 2 3 4; do
+            if git pull --rebase --quiet origin main; then
+              git push origin HEAD:main && exit 0
+            else
+              git rebase --abort 2>/dev/null || true
+            fi
+            echo "push mislukt (poging $poging); opnieuw over $((2 ** poging))s"
+            sleep $((2 ** poging))
+          done
+          exit 1

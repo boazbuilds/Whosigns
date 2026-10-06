@@ -317,3 +317,147 @@ In dezelfde meting kwam een tweede fout aan het licht die niets met de tussenzin
 te maken had: de naam liep door over een kopje heen ("Ons oordeel"), waardoor er
 26 verzonnen organisaties ontstonden en Den Haag zijn eigen boekjaar kwijtraakte.
 Ook dat staat nu in de tests.
+
+## Oordeel, tekenaar, een tweede zoekvraag (5/6-10-2026)
+
+Tot deze datum las de lader in elk venster alleen het kantoor. Van de 4.089
+raadsinformatie-opdrachten hadden er 6 een oordeel en 1 een tekenend
+accountant — en die zes kwamen niet eens uit een raadsstuk (zie hieronder).
+Gemeten met een volledige droogloop over de bron (de documenten van 5-10-2026;
+de totalen van beide zoekvragen waren op 6-10 nog precies gelijk), de
+database alleen gelezen op 6-10-2026:
+
+| | |
+|---|---|
+| documenten (twee zoekvragen) | 21.339 + 4.283 |
+| ondertekende controles | 4.652 |
+| eigen rijen bijgewerkt (nieuwe vindplaats) | 3.948 |
+| nieuwe controles | 414, waarvan 313 uit de tweede zoekvraag |
+| oordelen geschreven | 3.969 (3.893 goedkeurend, 75 beperking, 1 oordeelonthouding) |
+| tekenend accountant geschreven | 2.006 |
+| vestigingsplaats aangevuld | 284 organisaties |
+| naar de review-queue | 151 |
+| wacht op de juiste sector | 129 (53 organisaties; het log noemt de ids per sector) |
+| rijen uit een andere bron, met rust gelaten | 4, plus 6 beschermde (zie Vindplaats) |
+
+**Getrouwheid, niet rechtmatigheid.** Tot en met boekjaar 2022 geeft de
+accountant van een gemeente twee oordelen. De gewone oordeelregel pakt het
+rechtmatigheidsoordeel als jaarrekeningoordeel: Smallingerland 2020 en 2021
+dragen de kop "Ons afkeurend oordeel" terwijl alleen de rechtmatigheid is
+afgekeurd. Op de 4.078 ondertekende verklaringen gaf de gewone regel 262 keer
+iets anders dan goedkeurend. De getrouwheidsregel
+(`verklaring.oordeel_getrouwheid`) maakt daar 172 keer goedkeurend van (alleen
+rechtmatigheid of WNT), houdt 78 niet-goedkeurende getrouwheidsoordelen over
+(77 beperkingen, 1 oordeelonthouding; 2015, het jaar van de decentralisaties
+in het sociaal domein, springt eruit) en laat 12 leeg. Elk van die 78 heeft
+een oordeelzin met een voorbehoud, of — de ene oordeelonthouding — geen
+oordeelzin over het getrouw beeld. De grond van een beperking blijft bij een
+overheid leeg, behalve bij de WNT: de grondregel noemt een
+rechtmatigheidsbeperking "inhoudelijk".
+
+**Kop en oordeelzin moeten het eens zijn, in beide richtingen.** De eerste
+versie van de regel controleerde alleen een goedkeurende kop boven een zin met
+voorbehoud. De review vond twee onterechte oordelen in de andere richting:
+Stichting Begraafplaatsen en Crematorium Hilversum 2024 werd een
+oordeelonthouding op een tussenkop "De basis voor onze oordeelonthouding" (een
+sjabloonfout; de oordeelzin geeft zonder voorbehoud een getrouw beeld), en
+Gemeente Twenterand 2022 een beperking op één basiszin, terwijl kop en
+oordeelzin alleen de rechtmatigheid beperken. Allebei blijven nu leeg, net als
+een bibliotheek over 2012 waar de kop zonder "ons" staat en de gewone regel
+"goedkeurend" las boven een zin met "uitgezonderd". Verder verandert er niets
+op de 4.078.
+
+**Een voorbehoud dat naar de rechtmatigheidsparagraaf wijst, vóór of ná het
+getrouw beeld.** "Geeft de jaarrekening, uitgezonderd de gevolgen van de
+aangelegenheden beschreven in de paragraaf 'De basis voor ons oordeel met
+beperking inzake de rechtmatigheid', een getrouw beeld" (een GGD, 2019) bleef
+al leeg: de tekst zegt niet of de getrouwheid geraakt is. Dezelfde clausule
+áchter het getrouw beeld ("… op 31 december 2018, uitgezonderd …, in
+overeenstemming met het BBV"; Gemeente Westvoorne 2018) werd wél een beperking,
+want de twijfelregel keek alleen tussen voorbehoud en "getrouw beeld", en de
+knip op het tweede oordeel viel midden in de aangehaalde paragraaftitel. De
+clausule zelf beslist nu, van het voorbehoudswoord tot waar de oordeelzin
+verdergaat; noemt hij ook de getrouwheid ("… inzake de getrouwheid en
+rechtmatigheid", Hof van Twente 2021), dan is het geen twijfel. Op de 4.078
+verandert alleen Westvoorne 2018: 77 beperkingen, 80 leeg.
+
+**Vanaf 2023 hoort de rechtmatigheid bij de jaarrekening.** Bij gemeenten,
+provincies en gemeenschappelijke regelingen legt het college sinds boekjaar
+2023 zelf verantwoording af over de rechtmatigheid, in de jaarrekening, en de
+accountant geeft één oordeel over het geheel ("… alsmede een getrouw beeld van
+de financiële rechtmatigheid", "is de rechtmatigheidsverantwoording in
+overeenstemming met …"). Een voorbehoud daar is een voorbehoud bij het
+jaarrekeningoordeel, en de vrijstelling voor rechtmatigheid geldt er niet. De
+regel herkent dat aan de vorm van de zin, niet aan het jaartal: Waterschap
+Vechtstromen gaf over 2023 en 2024 nog een apart rechtmatigheidsoordeel en
+schreef pas over 2025 de nieuwe vorm. 153 verklaringen dragen die vorm (141
+over 2025); bij geen enkele staat een voorbehoud alleen in het
+rechtmatigheidsdeel, dus dit is een vangnet.
+
+**Een eigen rij volgt de lezing van nu.** Eerder vulde de lader bij een eigen
+rij alleen lege velden aan. Een verkeerd gelezen oordeel bleef dan staan, ook
+nadat de leesregel was verbeterd. Nu krijgt een eigen rij de oordeelvelden van
+de laatste lezing, ook als die een veld leeg laat. Rijen uit een andere bron
+blijven ongemoeid.
+
+**De tweede zoekvraag** vraagt om "wij hebben de jaarrekening" of "opgenomen
+jaarrekening" plus "gecontroleerd", zónder de kop van de eerste. Dat zijn
+accountantsverslagen aan de raad en verklaringen in de oudere opmaak. Een
+accountantsverslag is geen verklaring, dus daaruit komt alleen het kantoor,
+geen oordeel. Hij maakt ook geen organisaties aan: van de nieuwe namen is een
+groot deel tekstschade ("Gemeente Huist", "Stadsregio Arnhem Nijmeqen") of een
+stuk zin. Die 144 gaan naar de review-queue. `--vervang` wist alleen als élke
+zoekvraag voor 95% is gelezen: over de som haalde een doorloop die bijna een
+derde van de tweede miste de ondergrens nog.
+
+**Staarten van de naam.** "Gemeente Venlo (‘de gemeente’)", "… (hierna te
+noemen ‘gemeente’)", "…, opgesteld onder verantwoordelijkheid van het college"
+en "Uw gemeente …" worden afgeknipt, bij het lezen én in de matchsleutel, zodat
+de oude vervuilde namen in de database op dezelfde sleutel uitkomen. "Uw" en
+"Onze" alleen vóór een soortnaam: "Onze Huisartsen B.V." en "UW
+Werkmaatschappij B.V." zijn echte namen. Met `--vervang` verhuizen de rijen
+onder een vervuilde naam naar de schone organisatie: van de 135 rijen die de
+droogloop zou wissen, komen er 102 terug bij een schone naam (zelfde kantoor,
+zelfde boekjaar). De rest: 15 namen die geen organisatie zijn ("Uw
+organisatie", "Gemeente", "Provincie"), 13 die wachten op de sector en 5 van
+"Gemeente Bergen". De vier rijen van Countus en Beuk die de eerste droogloop
+nog kwijtraakte, blijven: sinds de oude registernamen in de aliastabel staan
+(5-10-2026) worden er drie gewoon weer gelezen, en de vierde verhuist naar de
+schone naam.
+
+**Twee organisaties, één naam.** Wijst een naam naar meer dan één
+organisatie, dan kiest de lader alleen als ze niet aantoonbaar verschillen:
+verschillende KvK-nummers of verschillende plaatsen gaan naar de
+review-queue. Van de 121 strenge sleutels (zonder "te <plaats>") die in de
+database naar meer dan één organisatie wijzen, zijn dat er 50 met
+verschillende nummers en 5 met verschillende plaatsen; in de droogloop kwam
+geen enkele lezing bij zo'n sleutel uit.
+
+**Vindplaats.** Tot nu toe schreef de lader met merge-duplicates, en dan kreeg
+een controle die DigiMV al had gelezen het raadsstuk als vindplaats en het
+kantoor uit dat stuk. Zes zorgrijen droegen zo een DigiMV-oordeel met een
+raadsinformatie-bron. Die zes zijn niet terug te zetten — de oorspronkelijke
+DigiMV-bron is overschreven en het oogstbestand bewaart geen vindplaats — maar
+het gebeurt niet meer: een rij uit een andere bron blijft van die bron. De zes
+staan op id in de lader (`DIGIMV_ONDER_RAADSBRON`): hun bron_id zegt "eigen
+rij", maar de lader schrijft er niets over of bij en `--vervang` wist ze niet.
+
+**Rapport en review-queue.** Het CSV-rapport gaat als artifact mee met de
+workflow, en de repo is openbaar. Er staan alleen nummers, organisatie,
+boekjaar, kantoor en uitkomsten in; de documenttitel en de url zijn eruit,
+want een titel noemt soms een wethouder en een deel van de urls draagt de
+bestandsnaam (bij parlaeus 278 van de 326). Ook de review-queue krijgt het
+documentnummer van Open Raadsinformatie in plaats van de url.
+
+**Plaatsen.** De vestigingsplaats komt alleen in de database als alle lezingen
+het over één plaats uit het register eens zijn, in de gewone schrijfwijze: het
+register schrijft 76 plaatsen zowel in KAPITALEN als gewoon, en vier
+organisaties zouden anders "ZIERIKZEE", "HATTEM", "VENRAY" of "HAREN" hebben
+gekregen.
+
+**Wat bewust niet gebeurt.** Een nieuwe controle bij een gemeente die in de
+database onder "overig bedrijfsleven" staat (96 gemeenten met een KvK-nummer
+uit het marktonderzoek) wordt niet geschreven: hij zou meetellen in het
+marktaandeel van een bedrijfslevensector. Zodra die sector is hersteld, levert
+de volgende run ze alsnog. En "Gemeente Bergen" zonder (L) of (NH) gaat naar de
+review-queue: er zijn er twee.

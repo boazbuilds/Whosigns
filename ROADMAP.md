@@ -1,6 +1,6 @@
 # WhoSigns — Roadmap
 
-*Bijgewerkt: 24 september 2026. Leidraad: `docs/visie.md` (zes velden, relatiegraaf, klik-test).
+*Bijgewerkt: 6 oktober 2026. Leidraad: `docs/visie.md` (zes velden, relatiegraaf, klik-test).
 Volledige achtergrond: `docs/concept.md`. Onderbouwing 🆕-items: `docs/brainstorm-2026-07.md`.
 Open keuzes: `docs/beslissingen.md`.*
 
@@ -18,6 +18,21 @@ sector, de dekking per sector en boekjaar, het aandeel niet-goedkeurende
 oordelen en de prijsontwikkeling van de controle op gematchte paren. De
 fasedetails hieronder zijn het oorspronkelijke bouwplan en blijven staan als
 verantwoording van de route.
+
+**Stand van zaken (6-10-2026).** In de verbeterronde van 5 en 6 oktober
+(#109 t/m #119) is de site eerlijker en sneller geworden en is de database
+flink gegroeid: 62.100 opdrachten bij 17.550 organisaties, bijna 4.000
+tekenend accountants (was 1.150; 616 accountantpagina's), honoraria ook over
+2019, en 4.000 gemeentelijke oordelen uit raadsstukken. Een aandeel of plek
+staat alleen nog binnen één sector en één boekjaar; het aangeleverde
+marktonderzoek draagt overal zijn label en staat op sectorpagina's apart.
+Nieuw zijn /aanbestedingen, plaatspagina's en de trend per sector op de
+kantoorpagina. Organisaties staan in de juiste sector (openbaar bestuur naar
+overheid, schoolbesturen naar onderwijs, 61 dubbele gemeenten samengevoegd).
+Wat gemeten en gebouwd is maar niet landde — zorg 2023–2025, de AVG-opschoning
+van de OCR-teksten, beursfondsen, plaats en KvK — staat met winst en valkuilen
+in `docs/werkpakketten-2026-10.md`. Open besluiten: `docs/beslissingen.md`
+10 t/m 14, met voorrang voor het bezwaaradres (keuze 12).
 
 **Wat er vanzelf bijkomt.** Drie routes wachten niet meer op een knop: het
 AFM-vergunningenregister ververst wekelijks, de beursfondsen lezen maandelijks

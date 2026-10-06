@@ -11,19 +11,35 @@ name: Raadsinformatie laden
 # Gemeten (8-8-2026, droogloop over de vólledige bron — alle 21.339 documenten
 # die de zoekzin bevatten): 4.057 controleopdrachten bij 1.575 organisaties,
 # boekjaren 2010 t/m 2025, en geen enkele organisatie die over hetzelfde
-# boekjaar twee verschillende kantoren toegeschreven kreeg. Zo'n doorloop duurde
-# ongeveer een half uur — vandaar het ruime tijdslot en de mogelijkheid om met
-# --maximum op te knippen.
+# boekjaar twee verschillende kantoren toegeschreven kreeg.
+#
+# Sinds 5-10-2026 twee zoekvragen (25.622 documenten samen) en oordeel,
+# continuïteit en tekenend accountant uit dezelfde verklaring. Droogloop over
+# beide, met de database alleen gelezen (6-10-2026): 4.652 ondertekende
+# controles, waarvan 414 nieuw (313 uit de tweede zoekvraag) en 3.948
+# bestaande eigen rijen met een nieuwe vindplaats; 3.970 oordelen en 2.006
+# tekenend accountants erbij, 284 plaatsen aangevuld. Zie
+# docs/bronverkenning-raadsinformatie.md.
 #
 # Deze bron opent een populatie die tot nu toe ontbrak: gemeenschappelijke
 # regelingen, omgevingsdiensten, veiligheidsregio's en recreatieschappen.
 on:
+  # Draait vanzelf zodra de lader, de adapter of deze workflow op main landt —
+  # zelfde patroon als de andere ladingen; dispatchen kan niet iedereen, en
+  # zo landt een verbeterde leesregel met de merge zelf. Een push-event heeft
+  # geen inputs, dus de stappen hieronder vallen terug op de standaarden.
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/laad_raadsinformatie.py"
+      - "pipeline/adapters/raadsinformatie.py"
+      - ".github/workflows/raadsinformatie.yml"
   workflow_dispatch:
     inputs:
       maximum:
-        description: "Hoogstens zoveel documenten lezen (opknippen bij een lange run)"
+        description: "Hoogstens zoveel documenten lezen, over beide zoekvragen samen"
         required: true
-        default: "25000"
+        default: "40000"
       droogloop:
         description: "Niets naar de database schrijven; alleen het CSV-rapport"
         type: boolean
@@ -40,7 +56,7 @@ on:
       maximum:
         type: string
         required: false
-        default: "25000"
+        default: "40000"
       droogloop:
         type: boolean
         required: false
@@ -50,11 +66,29 @@ on:
         required: false
         default: false
 
+# Een push-run die samenvalt met "Alles verversen" zou twee keer dezelfde
+# nieuwe organisatie kunnen aanmaken, en twee vervang-rondes wissen elkaars
+# vers geschreven rijen. De tweede wacht dus. Een eigen groep en niet
+# "verversen": die heeft "Alles verversen" zelf, en dezelfde groep in de
+# aanroeper en de aangeroepen workflow is een impasse.
+concurrency:
+  group: raadsinformatie
+  cancel-in-progress: false
+
 jobs:
   laden:
     name: Controleverklaringen uit raadsstukken
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    # Gemeten 5-10-2026, lokaal en met de database alleen gelezen: de volle
+    # doorloop over beide zoekvragen (25.622 documenten, een vijfde seconde
+    # pauze per pagina van honderd) kostte 13,5 minuten, voorladen van de
+    # database inbegrepen. Daarbovenop komen in een echte run zo'n 4.800
+    # schrijfverzoeken — de doorloop met ruim 4.000 upserts kostte op een
+    # runner eerder 25 minuten in totaal. Verwacht dus een half uur à drie
+    # kwartier; dit plafond laat ruimte voor een trage API zonder dat een
+    # hangende run de hele dag een runner bezet. Opknippen hoeft niet, en
+    # mag ook niet met --vervang (die wist alleen na een volledige doorloop).
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v7
 
@@ -66,7 +100,7 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          DROOGLOOP: ${{ inputs.droogloop }}
+          DROOGLOOP: ${{ inputs.droogloop || 'false' }}
         run: |
           if [ -z "$SUPABASE_URL" ] && [ "$DROOGLOOP" != "true" ]; then
             echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
@@ -78,11 +112,20 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          DROOGLOOP: ${{ inputs.droogloop }}
-          VERVANG: ${{ inputs.vervang }}
+          # Bij een push zijn er geen inputs; zonder deze terugval kreeg de
+          # lader `--maximum ""` en viel argparse om.
+          MAXIMUM: ${{ inputs.maximum || '40000' }}
+          DROOGLOOP: ${{ inputs.droogloop || 'false' }}
+          # Een push-run vervangt, net als "Alles verversen". Een verbeterde
+          # leesregel geeft schonere namen ("Gemeente Venlo" in plaats van
+          # "Gemeente Venlo (‘de gemeente’)"), en zonder vervangen blijft de oude
+          # rij naast de nieuwe staan: dezelfde controle twee keer in het
+          # marktaandeel. De lader wist alleen na een aantoonbaar volledige
+          # doorloop (zie laad_raadsinformatie.py).
+          VERVANG: ${{ github.event_name == 'push' && 'true' || inputs.vervang }}
         run: |
           python3 pipeline/laad_raadsinformatie.py \
-            --maximum "${{ inputs.maximum }}" \
+            --maximum "$MAXIMUM" \
             $([ "$DROOGLOOP" = "true" ] && echo --droogloop) \
             $([ "$VERVANG" = "true" ] && echo --vervang)
 

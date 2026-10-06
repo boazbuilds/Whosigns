@@ -32,7 +32,9 @@ Spelregels:
 - Organisaties worden op KvK-nummer herkend of aangemaakt. Een aangeleverde
   SBI-code en plaats vullen sbi_code, gemeente en (via SBI_SECTOR, een klein
   aantal grove hokjes) de sector — maar alléén velden die nog leeg zijn: wat
-  een documentbron of een mens al invulde blijft staan.
+  een documentbron of een mens al invulde blijft staan. Een KvK-nummer uit
+  de besturenlijsten van DUO wordt onderwijs, wat de SBI-code ook zegt
+  (sector_voor).
 """
 
 import argparse
@@ -49,6 +51,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 
+import duo_besturen  # noqa: E402
 from kantoor_match import bouw_index, laad_kantoren, normaliseer, zoek_kantoor  # noqa: E402
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
 
@@ -160,18 +163,47 @@ def sector_uit_sbi(sbi: str) -> str | None:
     65.30 is de SBI-groep voor pensioenfondsen en gaat vóór de hoofdgroep
     64-66 (financiële dienstverlening): die sector bestaat al met eigen
     lader en eigen pagina.
+
+    84.1 (openbaar bestuur) en 84.2 (defensie, justitie, openbare orde,
+    brandweer) zijn overheid. Tot 5-10-2026 vielen ze in "overig
+    bedrijfsleven", met de reden dat er te weinig controlecliënten waren —
+    maar de sector overheid bestaat sinds raadsinformatie en de gunningen, en
+    231 gemeenten, provincies en waterschappen uit het marktonderzoek stonden
+    zo naast de horeca. Hun 401 controles maakten ~93% uit van het
+    marktaandeel "overig bedrijfsleven" (migratie 20261006110000). 84.3
+    (verplichte sociale verzekeringen) blijft overig: naast het UWV zijn dat
+    vooral sociale fondsen en bedrijfstakpensioenfondsen van cao-partijen.
     """
     if len(sbi) < 2:
         return None
     if sbi.startswith("6530"):
         return "pensioenfondsen"
+    if sbi.startswith(("841", "842")):
+        return "overheid"
     groep = int(sbi[:2])
     for bereik, sector in SBI_SECTOR:
         if groep in bereik:
             return sector
-    # Horeca, overheid, cultuur, sport, overige diensten: te weinig
-    # controlecliënten voor een eigen hokje.
+    # Horeca, cultuur, sport, overige diensten: te weinig controlecliënten
+    # voor een eigen hokje.
     return "overig bedrijfsleven"
+
+
+def sector_voor(kvk: str, sbi: str, schoolbesturen: set[str] | None = None) -> str | None:
+    """Sector voor een organisatie uit een aanlevering: DUO gaat vóór de SBI-code.
+
+    Een KvK-nummer uit de besturenlijsten van DUO is een schoolbestuur, wat
+    de SBI-code ook zegt: op 5-10-2026 stonden er twaalf als 94.99
+    (levensbeschouwelijke organisatie), 69.20 (administratiekantoor) of 84.12
+    in een SBI-hokje. Alleen zorg wint van DUO: een zorginstelling met een
+    eigen school (Visio, Kempenhaeghe) is in de eerste plaats zorg.
+    """
+    sector = sector_uit_sbi(sbi)
+    if schoolbesturen is None:
+        schoolbesturen = duo_besturen.kvk_nummers()
+    if kvk in schoolbesturen and sector != "zorg":
+        return "onderwijs"
+    return sector
 
 
 def lees_map(map_pad: Path = AANLEVER) -> list[dict]:
@@ -381,12 +413,13 @@ def main() -> int:
         # doelwaarde met `is.null` in het filter: de database zelf bewaakt dat
         # alleen lege velden gevuld worden, wat er intussen ook gebeurd is.
         vul: dict[str, dict[int, str]] = {"sector": {}, "sbi_code": {}, "gemeente": {}}
+        schoolbesturen = duo_besturen.kvk_nummers()
         for kvk, info in aangeleverd_per_kvk.items():
             org = org_per_kvk.get(kvk)
             if org is None:
                 continue
             if not org.get("sector"):
-                sector = sector_uit_sbi(info["sbi"])
+                sector = sector_voor(kvk, info["sbi"], schoolbesturen)
                 if sector:
                     vul["sector"][org["id"]] = sector
             if not org.get("sbi_code") and info["sbi"]:
@@ -419,7 +452,7 @@ def main() -> int:
                     {
                         "naam": rij["naam"],
                         "kvk_nummer": rij["kvk"],
-                        "sector": sector_uit_sbi(info["sbi"]),
+                        "sector": sector_voor(rij["kvk"], info["sbi"], schoolbesturen),
                         "sbi_code": info["sbi"] or None,
                         "gemeente": info["plaats"] or None,
                     },
