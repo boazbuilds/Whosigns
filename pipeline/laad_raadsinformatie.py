@@ -145,6 +145,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 
+import duo_besturen  # noqa: E402
 import raadsinformatie  # noqa: E402
 import verklaring  # noqa: E402
 from kantoor_match import (  # noqa: E402
@@ -605,6 +606,9 @@ def laad(argumenten) -> int:
     org_per_naam: dict[str, list[dict]] = {}
     org_per_streng: dict[str, list[dict]] = {}
     kvk_per_id: dict[int, str | None] = {}
+    # KvK-nummer -> organisatierij: of het DUO-nummer van een schoolbestuur
+    # dat deze lader aanmaakt al op een rij staat (duo_besturen.bij_aanmaak).
+    org_per_kvk: dict[str, dict] = {}
     gemeente_per_id: dict[int, str | None] = {}
     plaatsen_register: dict[str, str] = {}
     # (organisatie_id, boekjaar) -> de wettelijke controle die er al staat
@@ -634,6 +638,8 @@ def laad(argumenten) -> int:
         plaatsen_register = bekende_plaatsen(organisaties)
         for rij in organisaties:
             kvk_per_id[rij["id"]] = rij.get("kvk_nummer")
+            if rij.get("kvk_nummer"):
+                org_per_kvk[rij["kvk_nummer"]] = rij
             gemeente_per_id[rij["id"]] = rij.get("gemeente")
             org_per_naam.setdefault(normaliseer(rij["naam"]), []).append(rij)
             # Tweede index op de strengere sleutel: zie matchsleutel() in de
@@ -811,7 +817,13 @@ def laad(argumenten) -> int:
                         naam, boekjaar, kantoornaam, document_id)
             return "review", None
         else:
-            nieuw = {"naam": naam, "kvk_nummer": None, "sector": SECTOR, "gemeente": None}
+            # Een openbaar schoolbestuur legt zijn jaarrekening ook aan de raad
+            # voor; dat is onderwijs, geen overheid (migratie 20261006110000).
+            # Het KvK-nummer uit DUO komt níet op de rij — een naam is geen
+            # harde sleutel — maar gaat hieronder als kandidaat naar de review.
+            keuze = duo_besturen.bij_aanmaak(naam, SECTOR, org_per_kvk)
+            nieuw = {"naam": naam, "kvk_nummer": None, "sector": keuze["sector"],
+                     "gemeente": None}
             if schrijven:
                 organisatie = db.invoegen("organisaties", nieuw)
             else:
@@ -823,6 +835,17 @@ def laad(argumenten) -> int:
             # KvK-nummer mee, dan wist --vervang deze organisatie nooit.
             gemeente_per_id[organisatie["id"]] = nieuw["gemeente"]
             kvk_per_id[organisatie["id"]] = nieuw["kvk_nummer"]
+            kandidaat = keuze["kvk_kandidaat"]
+            if kandidaat:
+                telling["kvk-kandidaat naar review"] += 1
+            if kandidaat and schrijven and not db.bestaat(
+                "review_queue", duo_besturen.review_filter(kandidaat)
+            ):
+                ids = [organisatie["id"]]
+                if keuze["mogelijk_dubbel"]:
+                    ids.append(org_per_kvk[kandidaat]["id"])
+                db.invoegen("review_queue", duo_besturen.review_kandidaat(
+                    "raadsinformatie", keuze, ids))
             organisatie_id = organisatie["id"]
             telling["nieuwe organisatie"] += 1
 
