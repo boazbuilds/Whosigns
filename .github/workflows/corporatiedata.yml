@@ -15,12 +15,30 @@ name: Corporatiedata laden
 # het drie keer met een pauze; blijft het misgaan, dan slaat die jaargang over en meldt
 # de log dat. Opnieuw draaien pikt het op waar het gebleven was.
 on:
+  # Maandelijks kijken of er een nieuwe jaargang klaar staat. Een corporatie
+  # levert de dVi over boekjaar N vóór 1 juli van jaar N+1 aan, en de
+  # Autoriteit publiceert de open data daarna; wanneer precies is niet
+  # aangekondigd. Zonder deze run blijft het nieuwste boekjaar leeg tot iemand
+  # toevallig op de knop drukt — de corporatiekolom van 2025 stond daardoor op
+  # nul terwijl 2024 er 273 had.
+  #
+  # Staat de jaargang er nog niet, dan is de run gewoon groen: de lader krijgt
+  # --mag-ontbreken mee en weet het verschil tussen "nog niet gepubliceerd" en
+  # "stuk". Staat hij er wel, dan is hij dezelfde dag geladen.
+  schedule:
+    - cron: "0 5 8 * *"
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/laad_corporaties.py"
+      - "pipeline/adapters/aw_dvi.py"
+      - ".github/workflows/corporatiedata.yml"
   workflow_dispatch:
     inputs:
       boekjaren:
         description: "Boekjaren, nieuwste eerst, komma's ertussen"
         required: true
-        default: "2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014"
+        default: "2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007"
       herlaad:
         description: "Bestaande opdrachten opnieuw beoordelen en vervangen"
         type: boolean
@@ -31,16 +49,31 @@ on:
         type: boolean
         required: false
         default: false
+  # Zelfde invoer met dezelfde standaarden, voor "Alles verversen".
+  workflow_call:
+    inputs:
+      boekjaren:
+        type: string
+        required: false
+        default: "2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007"
+      herlaad:
+        type: boolean
+        required: false
+        default: false
+      droogloop:
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   laden:
     name: Woningcorporaties laden
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -67,13 +100,22 @@ jobs:
           HERLAAD: ${{ inputs.herlaad }}
           DROOGLOOP: ${{ inputs.droogloop }}
         run: |
+          # Een push- of schedule-event heeft geen inputs. Dan alleen het vórige
+          # kalenderjaar, en die jaargang mag ontbreken. Geen jaartal in dit
+          # bestand, want dat veroudert — dat is precies wat er misging.
+          MAG_ONTBREKEN=""
+          if [ -z "$BOEKJAREN" ]; then
+            BOEKJAREN=$(( $(date -u +%Y) - 1 ))
+            MAG_ONTBREKEN="--mag-ontbreken"
+            echo "geen invoer: alleen boekjaar $BOEKJAREN, en die mag nog ontbreken"
+          fi
           mislukt=""
           for jaar in $(echo "$BOEKJAREN" | tr ',' ' '); do
             echo "::group::boekjaar $jaar"
             # Eén trage jaargang mag de rest niet meesleuren; wat niet lukte staat
             # aan het eind bij elkaar, zodat je het gericht opnieuw kunt starten.
             python3 pipeline/laad_corporaties.py \
-              --boekjaar "$jaar" \
+              --boekjaar "$jaar" $MAG_ONTBREKEN \
               $([ "$HERLAAD" = "true" ] && echo --herlaad) \
               $([ "$DROOGLOOP" = "true" ] && echo --droogloop) \
               || mislukt="$mislukt $jaar"
@@ -88,7 +130,7 @@ jobs:
 
       - name: Rapporten bewaren
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: resultaten-corporaties
           path: pipeline/.cache/resultaat_corporaties_*.csv

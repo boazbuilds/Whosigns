@@ -1,0 +1,781 @@
+# whosigns-ocr v1 grootte=2228402 dpi=300 paginas=20
+Jaarverslaggeving 2021
+
+Zorginstelling Berne Wille v.o.f.
+
+Zorginstelling Berne Wille v.o.f.
+
+INHOUDSOPGAVE
+
+5.1 Beoordelingsverklaring accountant
+
+5.2 Jaarrekening 2021
+
+6.2.1 Balans per 31 december 2021
+
+5.2.2 Resultatenrekening over 2021
+
+5.2.3 Kasstroomoverzicht over 2021
+
+5.24 Grondslagen van waardering en resultaatbepaling
+5.25 Toelichting op de balans per 31 december 2021
+5.2.6 Mutatieoverzicht materiële vaste activa
+
+5.2.7 Overzicht langlopende schulden ultimo 2021
+5.2.8 Toelichting op de resultatenrekening over 2021
+5.29 Vaststeling en goedkeuring
+
+Zorginstelling Berne Wille v.o.f.
+
+5.2 JAARREKENING 2021
+
+AKsosE
+
+Sterk in KAPITALEN
+
+Zorgboerderij Berne Wille V.O.F.
+
+Wommelserweg 9
+
+8804 NK TZUM
+
+Datum Behandeld door Kenmerk
+
+30 mei 2022 C. Elsinga RA EMA 8168/CE/RvdB
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan: de firmanten en raad van toezicht van Zorgboerderij Berne Wille V.O.F.
+
+Onze conclusie
+Wij hebben de in dit rapport op pagina 4 tot en met 14 opgenomen jaarrekening van Zorgboerderij
+Berne Wille V.O.F. te Tzum over 2021 beoordeeld.
+
+Op grond van onze beoordeling hebben wij geen reden om te veronderstellen dat de in dit rapport
+opgenomen jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling van het
+vermogen van Zorgboerderij Berne Wille V.O.F. per 31 december 2021 en van het resultaat over
+2021 in overeenstemming de Regeling verslaggeving WTZi (RvW) en Titel 9 Boek 2 van het in
+Nederland geldende Burgerlijk Wetboek (BW).
+
+Deze jaarrekening bestaat ui:
+
+* _de balans per 31 december 2021;
+
+= _de winst- en verliesrekening over 2021; en
+
+* de toelichting met een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+De basis voor onze conclusie
+
+Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder de
+Nederlandse Standaard 2400 ‘Opdrachten tot het beoordelen van financiële overzichten’. Deze
+beoordeling is gericht op het verkrijgen van een beperkte mate van zekerheid. Onze
+verantwoordelijkheden op grond hiervan zijn beschreven in de sectie ‘Onze verantwoordelijkheden
+voor de beoordeling van de jaarrekening.’
+
+Wij zijn onafhankelijk van Zorgboerderij Berne Wille V.O.F. zoals vereist in de Verordening inzake
+de onafhankelijkheid van accountants bij assurance-opdrachten (VO) en andere relevante
+onafhankelijkheidsregels in Nederland. Daarnaast hebben wij voldaan aan de Verordening
+gedrags- en beroepsregels accountants (VGBA).
+
+AIOS Asvurarre Bv. van Eimptstraat 16-14, 9723 ZL Groningen / Postbus 1121, 8701 BC Groningen / info@aksos.nl.
+Geregistreerd bij de Kamer van Koophandel onder nummer 02090149. Op al onze Geensten zijn de algemene leveringsvoorwaarden van
+
+twepassing AKSOS heeft vestigingen in Groningen, Leeuwarden en Zwolle
+
+AKsosE
+
+Sterk in KAPITALEN
+
+Wij vinden dat de door ons verkregen assurance-informatie voldoende en geschikt is als basis voor
+onze conclusie.
+
+Verantwoordelijkheden van de firmanten en de raad van toezicht voor de jaarrekening
+
+De firmanten zijn verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening
+in overeenstemming met de Regeling verslaggeving WTZi (RvW) en Titel 9 Boek 2 van het in
+Nederland geldende Burgerlijk Wetboek (BW). In dit kader zijn de firmanten verantwoordelijk voor
+een zodanige interne beheersing die de firmanten noodzakelijk achten om het opmaken van de
+
+jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als gevolg van fouten of
+fraude.
+
+De raad van toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving van de entiteit.
+
+Onze verantwoordelijkheden voor de beoordeling van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een beoordelingsopdracht dat
+
+wij daarmee voldoende en geschikte assurance-informatie verkrijgen voor de door ons af te geven
+conclusie.
+
+De mate van zekerheid die wordt verkregen bij een beoordelingsopdracht is aanzienlijk lager dan
+de zekerheid die wordt verkregen bij een controleopdracht verricht in overeenstemming met de
+Nederlandse controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Wij hebben deze beoordeling professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse Standaard
+2400.
+
+Onze beoordeling bestond onder andere uit:
+
+* _ Het verwerven van inzicht in de entiteit en haar omgeving, en in het van toepassing zijnde
+stelsel inzake financiële verslaggeving, om gebieden in de financiële overzichten te kunnen
+identificeren waar zich risico's op afwijkingen van materieel belang voor zulien doen als gevolg
+van fouten of fraude, het in reactie hierop opzetten en uitvoeren van werkzaamheden om op
+die gebieden in te spelen en het verkrijgen van assurance-informatie die voldoende en geschikt
+is als basis voor onze conclusie;
+
+*_Het verkrijgen van inzicht in de administratieve systemen en administratie van de entiteit en
+het overwegen of deze gegevens opleveren die adequaat zijn voor het doel van het uitvoeren
+van cijferanalyses;
+
+*_Het inwinnen van inlichtingen bij de firmanten en andere functionarissen van de entiteit,
+
+. Het uitvoeren van ciferanalyses met betrekking tot de informatie opgenomen in de
+jaarrekening;
+
+AKsosE
+
+Sterk in KAPITALEN
+
+* _ Het verkrijgen van assurance-informatie dat de jaarrekening overeenstemt met of aansluit op
+de onderliggende administratie van de entiteit;
+
+« Het evalueren van de verkregen assurance-informatie;
+
+* Het overwegen van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren of de door de firmanten gemaakte schattingen redelijk lijken:
+
+= Het overwegen van de algehele presentatie, structuur en inhoud van de jaarrekening en de
+daarin opgenomen toelichtingen; en
+
+* Het overwegen of de jaarrekening, inclusief de gerelateerde toelichtingen, een getrouw beeld
+lijkt te geven van de onderliggende transacties en gebeurtenissen.
+
+Groningen, 30 mei 2022
+
+AKSOS Assurance B.V.
+
+Namens deze
+Digitaal ondertekend door:
+Ger Elsinga
+39 mei 2022 15.31 +02.
+
+C. Elsinga RA EMA
+
+Zorginstelling Berne Wille v.o.f.
+
+5.2 JAARREKENING
+
+5.2.1 BALANS PER 31 DECEMBER
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+
+Vlottende activa
+
+Debiteuren en overige vorderingen
+Liquide middelen
+
+Totaal activa
+
+PASSIVA
+
+Eigen vermogen
+Kapitaal
+
+Langlopende schulden (> 1 jaar)
+
+Kortlopende schulden (< 1 jaar)
+Overige kortlopende schulden
+
+Totaal passiva
+
+Ref. 31-dec-21 31-dec-20
+€ €
+
+1 371.312 408.002
+371.312 408.002
+
+2 90.356 44 496
+
+3 86.238 67.711
+176.594 112.207
+
+547.906 520.209
+
+__Ref. 31-dec-21 31-dec-20
+€ €
+
+4 332.539 284.070
+332.539 284.070
+
+5 120.215 137.789
+
+6 152 98.350
+95.152 98.350
+
+547 906 520.209
+
+Pagina 4
+
+
+Zorginstelling Berne Wille v.o.f.
+
+5.2.2 RESULTATENREKENING
+
+BEDRIJFSOPBRENGSTEN:
+
+Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+
+BEDRIJFSLASTEN:
+Personeelskosten
+Afschrijvingen op immateriële en materiële vaste activa
+
+Overige bedrijfskosten
+
+BEDRIJFSRESULTAAT
+
+Financiële baten en lasten
+RESULTAAT VOOR BELASTINGEN
+Belastingen
+
+RESULTAAT NA BELASTINGEN
+
+RESULTAATBESTEMMING
+
+Het resultaat is als volgt verdeeld:
+
+Algemene / overige reserves
+
+Raf.
+
+10
+
+“
+
+Pagina 5
+
+2021 2020
+
+€ €
+710.841 611.185
+710.841 611.185
+297.941 276.218
+41.150 42.689
+177.297 132.004
+516.388 450.911
+194,453 160.274
+4,628 6.942
+188.825 153.332
+0 Li
+
+189.825 153.33.
+
+2021 2020
+
+€ €
+
+188.825 153.332
+189.825 153.332
+
+Zorginstelling Berne Wille vof.
+
+5.2.3 KASSTROOMOVERZICHT
+
+„Ref. 2021 2020
+€ € € €
+Kasstroom uit operationele activiteiten
+Begrijfsresultaat 194.453 160.274
+Aanpassingen voor.
+» afschrijvingen en overige waardeveranderingen zo, 21 41.150 42 689
+41.150 42.689
+Veranderingen in werkkapitaal:
+= vorderingen 7 45.860 43.317
+=kortlopende schulden (exc. schulden aan banken) 13 =3,198 4,912
+49.058 48.229
+Kasstroom uit bedrijfsoperaties 186.545 251.192
+Betaalde interest 23 4628 8.342
+4.628 6.042
+Totaal kasstroom uit operationele actviteiten 181.917 244.250
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa 2 „8.008 2.701
+Desinvesteringen materie vaste activa 2 3.548 e}
+Totaal kasstroom uit Investeringsactiviteiten 4450 „2.701
+Kasstroom uit financieringsactivite iten
+Nieuw opgenomen leningen 12 0 0
+Aflossina lanalopende schulden 12 -17,674 „30.027
+Prive opnamen 13 -141.356 -153.825
+Totaal kasstroom uit financieringsactvitoiten -168.930 -183.852
+Mutatie geldmiddelen 18.527 57.687
+Le]
+Stand aeldmiddelen oer 1 lanuarl 9 67.711 10.014
+Stand geldmiddelen per 31 december E 66 BEN CP
+Mutatie geldmiddelen 18.527 57.697
+Freelichting:
+
+Pagina 6
+
+Berne Wille
+
+5.2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+52.41 Algemeen
+
+Actvitelten
+
+Zorginstelling Beme Wille is statutair (en feitelijk) gevestigd te Tzum, op het adres Wommelserweg 9, en is geregistreerd onder KvK-
+nummer 01109522.
+
+De belangrijkste activiteiten zijn het begeleiden van kinderen en jongvolwassenen met een beperking en/of gedragsproblematiek.
+
+Verslaggevingsperlode
+
+Deze jaarrekening heeft betrekking op het boekjaar 2021, dat is geëindigd op batansdatum 31 december 2021.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de de Regeling verslaggeving WTZ.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd op historische kosten,
+tenzij anders vermeld in de verdere grondslagen.
+
+Cantinuïtaits veronderstelling
+Deze jaarrekening Is opgesteld uitgaande van de continulteitsveronderstelling.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar.
+
+5.2.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in de verdere grondslagen.
+Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de jaarrekening genummerd,
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige econorrische voordelen naar de Instelling zullen
+toevloeien en het actief een kostprijs of een waarde heeft waarvan de omvang betrouwbaar kan worden vastgesteld. Active die hier niet
+aan voldoen worden niet in de balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal gaan met een
+uitstroom van middelen die economische voordelen in zich bergen en de ormvang van het bedrag waartegen de afwikkeling zal
+plaatsvinden op betrouwbare wijze kan worden vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen
+die hier niet aan voldoen worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans opgenomen
+verplichtingen.
+
+Een In de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet leidt tot een belangrijke
+verandering in de economische realiteit met betrekking tot het actief of de verplichting. Dergelijke transacties geven evenmin aanleiding
+tot het verantwoorden van resultaten. Bij de beoordeling of er sprake is van een belangrijke verandering in de economische realiteit
+wordt uitgegaan van de economische voordeler en risico's die zich naar waarschijnlijk in de praktijk zullen voordoen, en niet op
+voordelen en risico's waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of nagenoeg alle rechten
+op economische voordelen en alle of nagenoeg alle risico's met betrekking tot het actief of de verplichting aan een derde zijn
+overgedragen. De resultaten van de transactie worden in dat geval direct in de resultatenrekening opgenomen, rekening houdend met
+eventuele voorzieningen die dienen te worden getroffen in samenhang met de transactie. Indien de weergave van de economische
+realiteit ertoe leidt dat het opnemen van activa waarvan de rechtspersoon niet het juridisch eigendom bezit, wordt dit feit vermeld.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van Zorginstelling Beme Wille v.o.f,
+
+Pagina 7
+
+Zorginstelling Berne Wille vol.
+
+5.2.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+1. Materiële vaste acóva
+
+dect 3de
+€
+
+De speicebe é als volgt: €
+Bedrijfsgebouwen en tersinen 313.284 327.045
+Machines en installates 2167 3.842
+Anders vaste bedrijtsmiddelen, technische en acministateve uivustno 55.861 7715
+371312 408 002
+Hat varlaap van de materie activa in het verslagjaar Ss ols volgt weer te geven: za 2020
+€
+Bookwaarde per 1 januari 408.002 447.080
+Bi: invastningen 8.008 2.701
+Af: afschrifdngen a a 42680
+Af: bijzonders waardevermindssingen 0
+BE terugname bijzonders waardevermrinderingen 6 0
+Af: terugname geheel afgeschreven actva o 0
+AF: desinvesteringen 3.548 a
+Boekwaarde per 31 december 311312 408.002
+Toelichting:
+
+De actuele wnarde van het pand op de Wormmelserweg 9 te Tzum bedraagt op 01-01-2020 € 340.000.
+
+Voor sen naders specificatie van hat verloop van de matoriëie vaste aciva per mdlivagroep wordt verwezen naar het mutateoveczicht onder 5.2.7.
+
+dere toelichting wordt naar het cht van de langlopende
+
+2de tt dec
+
+€ €
+
+Vorderingen op gebeuren 144 8.043
+
+Nog te factureren omzet 85215 13.701
+
+Vordering uit hoofde van Man ceringstekort en/of schuld uit hoofde van fnancieingsoverschot WLZ 21.605 18.991
+Nog te ontvangen bedragen:
+
+Borgsom 500 500
+
+Tegemoetioming tage lenen (NTL) 1.602 2498
+
+Subsidie vanuit Stagefonds a 883
+
+3. Liquide middelen
+
+De spechticetie & ols volgt: 31 31dec-20
+
+€ €
+
+ING Betaalrskening 21.132 17605
+
+ING Spaamekenihg 85.108 50.106
+
+58238 87.711
+
+
+Zorginstelling Berne Wille v.o.t.
+
+5.2.5 TOELICHTING OP DE BALANS
+
+PASSIVA
+
+4. Eigen vermogen
+
+Hot eigen vermogen bestaat vl de volgende componenten:
+
+Kacitaal
+Kapitaal
+Hat vorloap is afs volg! weer te geven:
+
+Kapitaal
+
+Kapitaal
+Het vorloap over 2020 le afs volgt wear te geven:
+
+Kapilaal
+
+5. Langlopende schulden (>1 Jaar)
+De spocticatie le afs volt:
+
+Schulden aan banken
+
+Het verkoop Is als volgt weer te geven:
+Stend per 1 januart
+
+Bij: nieuwe leningen
+
+Af- aflossingen
+
+Stand per 31 december
+
+Ar: afiossingeverpichting komend boekjaar
+
+Stand langh chulden per 31 d 5
+
+Toelichting ie welke mate het totaal van) de langfopende schulden als langlopend moeten worden beschouwd:
+
+anagram chuiden (< 1 j.), af
+
+Langlopend deel van de lan de schulden (> 1 f.) (bak
+
+hiervan > 5 jaar
+
+Voor een nadere toelichting op de langlopende schuiden woedt verwezen naar de bllsge overzicht langlopende schulden.
+De aflossingsverpäichtingen komend boeldaar zijn verantwoord onder de kortlopende schulden
+
+5.2.5 TOELICHTING OP DE BAL ANS
+PASSNA
+
+6. Overige kortlopende schulden
+Da apaalfentie & als volgt:
+
+Credteuren
+
+gen komend boeldser langlopende leningen
+vezekeringen
+
+Belastingen en oromies socale
+Overige schulden:
+Vakantingeki
+
+Overige overlopende passiva:
+Acenuntantskosten
+Ondeshanden Werk
+
+Overige schulden
+
+Totaal overige kordopende schulden
+
+deel, 31dec-20,
+€ €
+332.539 284.070
+2 JI
+Saldo per Res uitaat- Overige Saldo per
+Ajan-21 mutaties 31-dec-21
+€ € € €
+284.070 180 825 „141.358 332.538
+wd men - 5
+EE U, E TEGE KEEN
+Saldo per Res uitaat- Overige rn per
+1
+289 530 153 332 188.782 254.070
+5 ESD TEENS ELLEN EIN
+dect 31-des:-29,
+€ €
+120.215 137.709
+120.215 147.789
+0 2020
+€ €
+155.781 185.808
+Ls) 1]
+17.992 30.027
+17,574 17.992
+ting 17.574 17.882
+120,215 137.789
+109.050 109.050
+dec 24sec-20
+€ €
+13.743 4.828
+17574 17.992
+2.783 5124
+11.643 12851
+5.887 7.500
+30.107 43.062
+13.435 6202
+mis EDES
+
+
+Zorginstelling Berne Wille v.o.t.
+
+5.2.6 MIUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+-terugnems geheel afgeschreven seliva
+aanschafwaarde
+cumulateve afschrijvingen
+
+Mutaties in boekwaarde (per saldo)
+Stand per 31 december 2021
+
+- aanschafwaarde
+
+» cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2021
+
+Afschrdingeporoantage
+
+Becrijts-
+gebouwen en Machines en Totaal
+terreinen Imstallnfies Irrvenkaris
+€ € € €
+484.577 9333 182.393 656.303
+137.532 5691 105.078 248.301
+327 ME 3642 Zas 498 002
+5.750 lij 2258 8008
+10.511 1475 20.164 41.150
+0 0 Le) Li
+Li] 0 kij ij
+o o 0 0
+Ld o Li] 0
+o Li] 16.729 16.729
+[u D 13.181 13181
+ki 0 348 3.548
+„13 761 1475 2454 MEN
+470.327 9.333 167.022 847 582
+157.043 7.188 112,061 276.270
+313284 2167 55 A61 371312
+3,33-10% 200% 10-20%
+
+afhan se wg AN ret ha Cuer waw op oc utp bt op arwen eq
+pmen
+
+el
+
+E CN NK Hia
+E Hrir EL q H vid
+GERT E T
+% »
+pladee, es
+
+eed
+OEE POLO | nnagens |E Bupve woog
+epv
+
+ve pramen ene vamer
+
+
+Zorginstelling Berne Wille vol
+
+5.2.8 TOELICHTING OP DE RESULTATENREKENING
+
+BATEN
+
+7. Opbrangsten zorgprestaties, Jeugdhulp en meatscheppelijke ondersteuning
+De specificatie Is als volgt:
+
+Wettelijk budget voor aanvaardbare kosten Wir
+
+Opbrengsten Jeugdwet
+
+Opbrengsten Weno
+
+Opbrengsten uit onderaanneming
+
+Overige opbrengsten
+
+Totaal
+
+LASTEN
+
+8. Personeelskosten
+
+De specificatie ís als volgt
+
+Lonen en salarissen
+Sociale lasten
+Pensioenpremies
+
+Andere personeelskosten:
+Permoneol nist in loondienst
+
+Overige personeelskosten
+Totaal personeelskosten
+
+Specificatie gemiddeld aantal personoolstoden (n FTE's) per sogmont:
+Zorginsteling Beme Wils
+
+Gemiddeld aantal personeelsleden op basis van fultme senheden
+
+9. Afschrijvingen op Immateriële on materiële vaste actva
+De specticate fs als volgt
+
+Afschrijvingen:
+
+= materiële vaste activa
+
+Totaal afschrijvingen
+
+Pagina 12
+
+2024 2020
+€ €
+237.279 177.428
+380.471 334.145
+13.063 10.205
+70.415 62.750
+9.913 26.657
+710841 611185
+2021 2020
+
+€ €
+178.195 477.101
+
+14.333
+
+2021 2020
+€ €
+41.150 42.689
+41150 42 689
+
+
+Zorginstelling Berne Wille v.c.f.
+
+10. Overige bedrijfskosten
+
+De specificatie Is als volgt
+Voedingsmiddelen an hotelmatige kosten
+Algemene kosten
+
+Patiënt- en bewonemgebonden kosten
+Onderhoud en energiekosten
+
+Totaal overige bedrijfskosten
+
+11. Financiële baten on lasten
+
+De specificatie is als volgt
+
+Rontolasten
+
+Totaal financiële baten en lasten
+
+Honoraria accountant
+De honoraria van de accountant over 2021 zijn als volgt:
+Jaarrekening en controle productieverantwoordingen
+
+Totaal honorare accountant
+
+Pagina 13
+
+2021 2020
+€ €
+
+32.408 30.746
+
+42.569 41,096
+
+81425 45.706
+
+20.895 14456
+
+177 287 132004
+
+ee
+
+2021 2020
+
+€ €
+
+4.828 8.942
+
+4828 6.842
+RL 2020
+€ €
+
+7.582 7.200
+
+Te82 2200
+
+Zorginstelling Berna Wille v.o.f.
+
+5.2.9 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De raad van toezicht van Zorginstelling Beme Wille v.o.f. heaft de jaarrekening 2021 goedgekeurd in de vergadering
+van 30-05-2022,
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resukaatverdeling in paragraaf 5.2.2.
+
+Gebeurtenissen na balansdatum
+
+Er zijn geen gebeurtenissen na balansdatum die van Invloed zijn op de financële posttie uiters 2021
+
+Ondertekening door firmanten en toezichthouders
+
+ur Directeur
+B‚A. Wile 30-05-2022 Zn 3005-2022
+
+LA
+ard Mss
+
+30-05-2022 D. van den Berg 30-05-2022
+
+Pagina 14
+
+PARAAF VOOR WAARWERIING

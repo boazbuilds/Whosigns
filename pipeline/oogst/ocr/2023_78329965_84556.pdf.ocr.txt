@@ -1,0 +1,2 @@
+# whosigns-ocr v1 grootte=9504 dpi=300 paginas=20
+Dit is voor ons niet van toepassing.

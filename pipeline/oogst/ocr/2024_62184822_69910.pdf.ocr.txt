@@ -1,0 +1,456 @@
+# whosigns-ocr v1 grootte=2351816 dpi=300 paginas=20
+De directie van
+Zorgbureau Flevo ZON B.V.
+Hondsdraf 56
+
+8219 PW Lelystad
+
+Jaarrapportage over het boekjaar 2024
+
+Relatiebeheerder: Jan-Gerrit Heijenk
+Datum: 6 mei 2025
+
+Inhoudsopgave
+
+1
+
+1.1
+1.2
+1.3
+
+2.1
+2.2
+2.3
+2.3.1
+24
+24.1
+2.5
+2.6
+2.6.1
+2.6.2
+2.7
+2.7.1
+2.7.2
+2.8
+2.8.1
+2.8.2
+2.8.3
+28.4
+
+Algemeen
+
+Kengetallen
+Resultaatvergelijking
+
+Resultaatanalyse
+
+Jaarrekening
+
+Balans per 31-12-2024
+Winst-en-verliesrekening 2024
+Grondslagen van de jaarrekening
+Algemene grondslagen
+Verbonden partijen
+Specificatie aandeelhouder(s)
+Winstbestemming
+Toelichting balans activa per 31-12-2024
+Vorderingen
+Liquide middelen
+Toelichting balans passiva per 31-12-2024
+Ondernemingsvermogen
+Kortlopende schulden
+Toelichting winst-en-verliesrekening 2024
+Opbrengsten
+Inkoopkosten en uitbesteed werk
+Overige bedrijfskosten
+
+Financiële baten en lasten
+
+Pagina
+
+ua NE
+
+WO WW WW oo oo 00 0 0 NN DN A
+
+PP Ra Pe mm
+NN NN NN NN oo o oo
+
+pagina: 1
+KvK-nummer: 62184822
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+1 Algemeen
+
+Deze jaarrekening is op fiscale cijfers gebaseerd.
+
+De besloten vennootschap Zorgbureau Flevo ZON BV. heeft de volgende handelsnamen: Zorgbureau Flevo ZON BV.
+De besloten vennootschap is gezeteld in Lelystad.
+
+De besloten vennootschap is ingeschreven bij de Kamer van Koophandel onder dossiernummer 62184822.
+
+1.1 Kengetallen
+
+Solvabiliteit
+De solvabiliteit geeft de mate aan waarin de onderneming in staat is op lange termijn aan haar verplichtingen te voldoen.
+De solvabiliteitspositie geeft de situatie per einde boekjaar weer. Er is dus sprake van een momentopname.
+
+31-12-2024 31-12-2023
+Verhouding eigen vermogen / totaal vermogen 0,38 0,36
+Verhouding eigen vermogen / vreemd vermogen 0,60 0,56
+Verhouding vreemd vermogen / totaal vermogen 0,62 0,64
+
+Liquiditeit
+De liquiditeit geeft de mate aan waarin de onderneming in staat is op korte termijn aan haar verplichtingen te voldoen.
+De liquiditeitspositie geeft de situatie per einde boekjaar weer. Er is dus sprake van een momentopname.
+
+31-12-2024 31-12-2023
+
+Quick ratio
+
+Vlottende activa - voorraden / kortlopende schulden 1,60 1,56
+Current ratio
+
+Vlottende activa / kortlopende schulden 1,60 1,56
+Acid-test ratio
+
+Effecten + liquide middelen / kortlopende schulden 0,11 0,12
+
+Omzet en rentabiliteit
+De rentabiliteit geeft het rendement aan dat de onderneming in het boekjaar heeft behaald.
+
+2024 2023
+Omzetontwikkeling
+Indexcijfer (2023 = 100%) 128,91 100,00
+Brutowinstmarge
+Brutomarge / netto-omzet 0,00 0,01
+Nettowinstmarge
+Resultaat / netto-omzet 0,00 0,01
+Rentabiliteit totaal vermogen
+Bedrijfsresultaat / totaal vermogen 0,03 0,13
+Rentabiliteit eigen vermogen
+Resultaat / eigen vermogen 0,09 0,35
+Rentabiliteit vreemd vermogen
+Rentelasten / vreemd vermogen 0,00 0,00
+
+Rentedekkingsratio
+Saldo winstberekening / rentelasten 63,63 157,33
+
+pagina: 4
+KvK-nummer: 62184822
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+1.2 Resultaatvergelijking
+
+2024 2023
+€ % € %
+Opbrengsten
+Netto-omzet 3.460.009 100,00% 2.684.117 100,00%
+3.460.009 100,00% 2.684.117 100,00%
+Kosten van grond- en hulpstoffen,
+uitbesteed werk, e.d.
+Kosten van uitbesteed werk en andere
+externe kosten 3.453.162 99,80% 2.658.967 99,06%
+-3.453.162 -99,80% -2.658.967 -99,06%
+Brutomarge 6.847 0,20% 25.150 0,94%
+Overige bedrijfskosten
+Overige kosten 675 0,02% 1.550 0,06%
+-675 -0,02% -1.550 -0,06%
+Financiële baten en lasten
+Kosten van schulden, andere
+rentelasten en soortgelijke kosten -97 -0,00% -150 -0,01%
+-97 0,00% -150 -0,01%
+Saldo winst voor belasting 6.075 0,18% 23.450 0,87%
+Verschuldigde VPB -1.154 -0,03% -4,455 -0,17%
+Saldo winst na belasting 4,921 0,14% 18.995 0,71%
+
+De winst-en-verliesrekening over 2024 is afgesloten met een positief resultaat na belastingen van € 4.921.
+
+pagina: 5
+KvK-nummer: 62184822
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+1.3 Resultaatanalyse
+
+Het resultaat over 2024 is ten opzichte van 2023 gedaald met € 14.074. De ontwikkeling van het resultaat over 2024 ten
+opzichte van 2023 kan als volgt worden weergegeven:
+
+€ €
+
+Het resultaat is gunstig beïnvloed door:
+Stijging van:
+Netto-omzet 775.892
+
+775.892
+Daling van:
+Overige kosten 875
+Kosten van schulden, andere rentelasten en soortgelijke kosten 53
+Verschuldigde VPB 3.301
+
+4.229
+
+Het resultaat is ongunstig beïnvloed door:
+Stijging van:
+Kosten van uitbesteed werk en andere externe kosten 794.195
+
+-794.195
+
+Daling resultaat 14.074
+
+
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+pagina: 6
+KvK-nummer: 62184822
+
+2 Jaarrekening
+
+2.1 Balans per 31-12-2024
+
+Activa
+
+Vorderingen
+Vorderingen op handelsdebiteuren
+
+Kortlopende vorderingen op
+groepsmaatschappijen
+
+Liquide middelen
+
+Totaal activa
+
+Passiva
+
+Eigen vermogen
+Gestort en opgevraagd kapitaal
+
+Winstreserves
+
+Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+Omzetbelasting
+
+Kortlopende schulden groepsmaatschappijen
+
+Overige kortlopende schulden
+
+Totaal passiva
+
+na resultaatbestemming
+
+31-12-2024 31-12-2023
+€ € € €
+176.509 170.680
+
+0 0
+176.509 170.680
+13.559 13.559
+190.068 184.239
+
+31-12-2024 31-12-2023
+
+€ € € €
+1.000 1.000
+70.308 65.387
+71.308 66.387
+109.658 109.129
+0 0
+0 0
+9.102 8.723
+118.760 117.852
+190.068 184.239
+
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+pagina: 7
+
+KvK-nummer: 62184822
+
+2.2 Winst-en-verliesrekening 2024
+
+Opbrengsten
+
+Netto-omzet
+
+Kosten van grond- en hulpstoffen, uitbesteed
+werk, e.d.
+
+Kosten van uitbesteed werk en andere externe
+kosten
+
+Brutomarge
+
+Overige bedrijfskosten
+
+Overige kosten
+
+Financiële baten en lasten
+
+Kosten van schulden, andere rentelasten en
+soortgelijke kosten
+
+Saldo winst voor belasting
+Verschuldigde VPB
+
+Saldo winst na belasting
+
+2024 2023
+€ € € €
+3.460.009 2.684.117
+3.460.009 2.684.117
+
+3.453.162 2.658.967
+-3.453.162 -2.658.967
+6.847 25.150
+
+675 1.550
+-675 -1.550
+
+-97 -150
+-97 -150
+6.075 23.450
+-1.154 -4455
+4.921 18.995
+
+pagina: 8
+KvK-nummer: 62184822
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+2.3 Grondslagen van de jaarrekening
+2.3.1 Algemene grondslagen
+
+Algemene grondslagen
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de actuele
+waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de verkrijgingsprijs.
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts opgenomen
+voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun oorsprong vinden voor het
+einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van de jaarrekening bekend zijn
+geworden.
+
+2.4 Verbonden partijen
+
+2.4.1 Specificatie aandeelhouder(s)
+
+Naam aandeelhouder Flevo ZON holding B.V.
+Flevo ZON holding B.V. heeft geen schuld aan de vennootschap.
+
+Flevo ZON holding B.V. heeft geen vordering op de vennootschap.
+
+2.5 Winstbestemming
+
+De directie stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2024 geheel ten gunste van de
+overige reserves te brengen en over 2024 geen dividend uit te keren.
+
+#5
+
+pagina: 9
+KvK-nummer: 62184822
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+2.6 Toelichting balans activa per 31-12-2024
+2.6.1 Vorderingen
+
+Vorderingen op handelsdebiteuren
+
+Nominale 9,_12.2024 31-12-2023
+waarde
+Handelsdebiteuren 176.509 176.509 170.680
+176.509 170.680
+Kortlopende vorderingen op groepsmaatschappijen
+Nominale 422024 31-12-2023
+waarde
+Personeel & Organisatie Flevo ZON B.V. 0 0 0
+0) 0
+2.6.2 Liquide middelen
+31-12-2024 31-12-2023
+Rekening-courant bank 13.000 13.559
+Kruisposten 559 0
+
+13.559 13.559
+
+#5
+
+pagina: 10
+KvK-nummer: 62184822
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+2.7 Toelichting balans passiva per 31-12-2024
+
+2.7.1 Ondernemingsvermogen
+Gestort en opgevraagd kapitaal
+
+31-12-2024 31-12-2023
+Aandelenkapitaal 1.000 1.000
+1.000 1.000
+Winstreserves
+31-12-2024 31-12-2023
+Algemene reserve bij aanvang boekjaar 65.387 46.392
+Bij: resultaat boekjaar 4.921 18.995
+70.308 65.387
+2.7.2 Kortlopende schulden
+Schulden aan leveranciers en handelskredieten
+31-12-2024 31-12-2023
+Handelscrediteuren 109.658 109.129
+Bank, rekening-courant 0 0
+109.658 109.129
+Kortlopende schulden aan groepsmaatschappijen
+31-12-2024 31-12-2023
+Wonen Flevo ZON B.V. 0 0
+Gezinshuis De Brug Flevo Zon B.V. (o) o)
+Zorgboerderij Flevo Zon BV. 0 0
+0 0)
+Kortlopende schulden aan participanten en maatschappijen waarin wordt deelgenomen
+31-12-2024 31-12-2023
+Rekening-courant Flevo ZON BV. 0 0
+
+0 0
+
+pagina: 11
+KvK-nummer: 62184822
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+Overige kortlopende schulden
+
+31-12-2024 31-12-2023
+Vennootschapsbelasting 8.377 7.223
+Accountantskosten 725 1.500
+
+9.102 8.723
+
+5
+
+pagina: 12
+KvK-nummer: 62184822
+Jaarrekening 2024 van Zorgbureau Flevo ZON B.V.
+
+2.8 Toelichting winst-en-verliesrekening 2024
+2.8.1 Opbrengsten
+
+Netto-omzet
+
+2024 2023
+Omzet zorg 3.460.009 2.684.117
+3.460.009 2.684.117
+2.8.2 Inkoopkosten en uitbesteed werk
+Kosten van uitbesteed werk en andere externe kosten
+2024 2023
+Inkoop diensten zorgboerderij 2.351.763 1.551.408
+Inkoop diensten wonen 1.101.399 1.032.559
+Inkoop diensten gezinshuis 0 0
+Administratieve kosten in rekening gebracht door derden 0 75.000
+Continuiteitsbijdrage Gemeente Lelystad 0 0
+3.453.162 2.658.967
+2.8.3 Overige bedrijfskosten
+Overige kosten
+2024 2023
+Accountantskosten 675 1.550
+Afboeking dubieuze debiteuren 0 0
+675 1.550
+2.8.4 Financiële baten en lasten
+Kosten van schulden, andere rentelasten en soortgelijke kosten
+2024 2023
+Bankkosten 35 150
+Betalingsverschillen 62 0)
+
+97 150

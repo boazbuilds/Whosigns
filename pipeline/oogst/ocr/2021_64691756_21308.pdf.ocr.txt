@@ -1,0 +1,999 @@
+# whosigns-ocr v1 grootte=1032163 dpi=300 paginas=20
+STICHTING HUMAAN OVERIJSSEL
+
+5.1 JAARREKENING
+
+5.1.1 BALANS PER 31 DECEMBER 2021
+(na resultaatbestemming)
+
+31-dec-20
+
+€
+
+33.215
+2.950
+
+36.165
+
+49.892
+
+4417
+
+54.309
+
+90.474
+
+31-dec-20
+
+€
+
+67.739
+
+-16.663
+
+51.076
+
+39.398
+
+Ref. 31-dec-21
+€
+ACTIVA
+Vaste activa
+Immateriële vaste activa 1 0
+Materiële vaste activa 2 27.284
+Financiële vaste activa 3 2.950
+Totaal vaste activa 30.234
+Vlottende activa
+Voorraden 4 0
+Onderhanden werk uit hoofde van DBC's / 5 0
+DBC-zorgproducten
+Vorderingen uit hoofde van financieringstekort 6 0
+Debiteuren en overige vorderingen 7 84.415
+Effecten 8 0
+Liquide middelen 9 17.587
+Totaal vlottende activa 102.002
+Totaal activa 132.236
+Ref. 31-dec-21
+PASSIVA €
+Eigen vermogen 10
+Kapitaal 51.076
+Agioreserve 0
+Bestemmingsfondsen 0
+Algemene en overige reserves 1.102
+Totaal eigen vermogen 52.178
+Voorzieningen 11 0
+Langlopende schulden (nog voor meer 12 0
+dan een jaar)
+Kortlopende schulden (ten hoogste 1 jaar)
+Schulden uit hoofde van financieringsoverschot 6 0
+Overige kortlopende schulden 13 80.058
+Totaal passiva 132.236
+
+Pagina 4
+
+90.474
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.2 RESULTATENREKENING OVER 2021
+
+Ref. 2021 2020
+€ €
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties en maatschappelijke ondersteuning 16 256.420 268.310
+Subsidies (exclusief Wmo en Jeugdzorg) 17 65.155 55.577
+Overige bedrijfsopbrengsten 18 0 0
+Som der bedrijfsopbrengsten 321.575 323.887
+BEDRIJFSLASTEN:
+Personeelskosten 19 157.292 179.310
+Afschrijvingen op immateriële en materiële vaste activa 20 5.931 6.498
+Bijzondere waardeverminderingen van vaste activa 21 0 0
+Overige bedrijfskosten 22 157.017 154.388
+Som der bedrijfslasten 320.240 340.196
+BEDRIJFSRESULTAAT 1.335 -16.309
+Financiële baten en lasten 23 -233 -354
+RESULTAAT UIT GEWONE BEDRIJFSUITOEFENING 1.102 -16.663
+Vennootschapsbelasting 24 0 0
+Buitengewoon resultaat 0 0
+RESULTAAT BOEKJAAR 1.102 -16.663
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2021 2020
+€ €
+Toevoeging/(onttrekking):
+Bestemmingsreserve Wmo
+Bestemmingsreserve xxx
+Bestemmingsreserve xxx
+Bestemmingsreserve xxx
+Bestemmingsfonds aanvaardbare kosten a a
+Algemene / overige reserves 1.102 -16.663
+1.102 -16.663
+
+Pagina 5
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+Algemeen
+
+Algemene gegevens en groepsverhoudingen
+Stichting Humaan Overijssel is statutair (en feitelijk) gevestigd te Enschede, op het adres
+Binnenhaven 38, 7547 BH
+
+Grondslagen voor het opstellen van de jaarrekening
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi, de Richtlijnen voor de
+Jaarverslaggeving RJ 655 en titel 9 Bvv2.
+
+Continuïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+De algemene grondslag voor de waardering van de activa en passiva is de verkrijgingsprijs- of de
+vervaardigingsprijs. Voor zover niet anders vermeld, worden activa en passiva opgenomen voor de
+geamortiseerde kostprijs.
+
+Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de jaarrekening
+genummerd.
+
+Een actief wordt in de balans opgenomen wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar de stichting zullen toevloeien en de waarde daarvan betrouwbaar kan worden vastgesteld.
+Een verplichting wordt in de balans opgenomen wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard
+zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de omvang van het
+bedrag daarvan betrouwbaar kan worden vastgesteld.
+
+Immateriële en materiële vaste activa
+De immateriële en materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder
+aftrek van cumulatieve afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingstermijnen van immateriële en materiële vaste activa zijn gebaseerd op de verwachte
+gebruiksduur van het vast actief.
+
+De afschrijvingen worden berekend als een percentage over de aanschafprijs volgens de lineaire methode op
+basis van de economische levensduur. Op bedrijfsterreinen en op vaste activa in ontwikkeling en
+vooruitbetalingen op materiële vaste activa wordt niet afgeschreven.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+* Bedrijfsgebouwen : 10%.
+
+* Machines en installaties : 20 %.
+
+* Andere vaste bedrijfsmiddelen : 20 %.
+
+Pagina 6
+
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reële waarde, inclusief transactiekosten. (Door toepassing van de
+effectieve rentemethode worden transactiekosten als onderdeel van de amortisatie in de winst- en
+verliesrekening verwerkt). De vervolgwaardering van vorderingen is tegen geamortiseerde kostprijs (indien geen
+sprake van agio/disagio of transactiekosten dan geamortiseerde kostprijs gelijk aan nominale waarde). Een
+voorziening wordt getroffen op de vorderingen op grond van verwachte oninbaarheid. [Hier aangeven hoe de
+voorziening bepaald is.]
+
+Effecten
+
+Effecten die deel zijn van de handelsportefeuille worden gewaardeerd tegen reële waarde. Effecten die geen
+onderdeel zijn van de handelsportefeuille worden gewaardeerd tegen geamortiseerde kostprijs of reële waarde.
+De transactiekosten zijn verwerkt in de winst- en verliesrekening OF in de eerste waardering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen de nominale waarde.
+
+Pagina 7
+
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één
+jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs (nominale waarde).
+
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming
+van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+De baten en lasten worden toegerekend aan de periode waarop deze betrekking hebben, uitgaande van
+historische kosten. Verliezen worden verantwoord als deze voorzienbaar zijn; baten worden verantwoord als
+deze gerealiseerd zijn.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend.
+
+Opbrengsten
+
+De opbrengsten uit dienstverlening worden verantwoord naar rato van de verrichte prestaties, gebaseerd op de
+verrichte diensten tot aan de balansdatum en in verhouding tot in totaal te verrichten diensten (onder de
+voorwaarde dat het resultaat betrouwbaar kan worden geschat, dit indien aan de volgende voorwaarden is
+voldaan: a. het bedrag kan op betrouwbare wijze worden bepaald; b. waarschijnlijke economische voordelen; c.
+de mate waarin de dienstverlening op de balansdatum is verricht kan op betrouwbare wijze worden bepaald; en
+d. gemaakte kosten en kosten die nog moeten worden gemaakt kunnen betrouwbaar worden bepaald; als dat
+niet kan dan opbrengsten slechts verwerken tot het bedrag van de kosten van de dienstverlening). Bij de
+berekening van het wettelijk budget voor aanvaardbare kosten is wel/geen rekening gehouden met de na-
+indexering.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord,
+
+Personele kosten
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en aan
+derden en groepsmaatschappijen betaalde (te betalen) interest. Tevens is hieronder opgenomen het aandeel van
+de stichting in het resultaat van de op nettovermogenswaarde gewaardeerde deelnemingen danwel ontvangen
+dividenden van deelnemingen waarin geen invloed van betekenis op het zakelijke en financiële beleid wordt
+uitgeoefend en waardeveranderingen van financiële vaste activa en effecten.
+
+Pagina 8
+
+
+STICHTING ACCURAAT BEGELEID WONEN
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+1. Immateriële vaste activa
+
+De specificatie is als volgt: 31-dec-21
+
+€
+Kosten oprichting en uitgifte van aandelen 0
+Kosten van ontwikkeling 0
+Kosten van concessies, vergunningen en rechten van intellectuele eigendom 0
+Kosten van goodwill die van derden is verkregen 0
+Vooruitbetalingen op immateriële activa 0
+Totaal immateriële vaste activa 9)
+Het verloop van de immateriële activa in het verslagjaar is als volgt weer te geven: 31-dec-21
+
+€
+Boekwaarde per 1 januari 0
+Bij: investeringen 0
+Bij: herwaarderingen 0
+Af: afschrijvingen 0
+Af: bijzondere waardeverminderingen 0
+Af: terugname geheel afgeschreven activa 0
+Af: desinvesteringen 0
+Boekwaarde per 31 december e)
+
+Toelichting:
+Voor een nadere specificatie van het verloop van de immateriële vaste activa per activagroep wordt verwezen naar
+het mutatieoverzicht onder 5.1.6.
+
+2. Materiële vaste activa
+
+De specificatie is als volgt: 31-dec-21
+
+€
+Bedrijfsgebouwen en terreinen }
+Machines en installaties 0
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 26.717
+Materiële vaste bedrijfsactiva in uitvoering en vooruitbetalingen op materiële vaste activa 0
+Niet aan het bedrijfsproces dienstbare materiële activa 0
+Totaal materiële vaste activa 26.717
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven: 31-dec-21
+
+€
+Boekwaarde per 1 januari 33.215
+Bij: investeringen 0
+Bij: herwaarderingen 0
+Af: afschrijvingen 5.931
+Af: bijzondere waardeverminderingen 0
+Af: terugname geheel afgeschreven activa 0
+Af: desinvesteringen 0
+Boekwaarde per 31 december 27.284
+
+Pagina 9
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+3. Financiële vaste activa
+
+De specificatie is als volgt:
+
+Deelnemingen in groepsmaatschappijen
+
+Overige deelnemingen
+
+Vorderingen op groepsmaatschappijen
+
+Vorderingen op participanten en op maatschappijen waarin wordt deelgenomen
+(overige deelnemingen)
+
+Overige effecten
+
+Vordering op grond van compensatieregeling
+
+Overige vorderingen
+
+Totaal financiële vaste activa
+
+Het verloop van de financiële vaste activa is als volgt:
+
+Boekwaarde per 1 januari
+Kapitaalstortingen
+
+Resultaat deelnemingen
+
+Ontvangen dividend
+
+Verstrekte leningen / verkregen effecten
+Ontvangen dividend / aflossing leningen
+(Terugname) waardeverminderingen
+Amortisatie (dis)agio
+
+Boekwaarde per 31 december
+
+Pagina 10
+
+31-dec-21
+
+€
+
+ooooo
+
+2.950
+
+2.950
+
+31-dec-21
+
+dh
+
+Ld
+Ke)
+a
+le)
+
+oooooooo
+
+2.950
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+4. Voorraden
+
+De specificatie is als volgt:
+
+Medische middelen
+Voedingsmiddelen
+Hulpmiddelen
+Overige voorraden:
+
+ie
+
+Totaal voorraden
+
+31-dec-21
+€
+
+Toelichting:
+
+Op de voorraden is een voorziening voor incourantheid in aftrek gebracht van € … (vorig jaar € …).
+
+Op de voorraden is pandrecht gevestigd als zekerheid gesteld voor de langlopende schulden. Voor een nadere
+toelichting wordt verwezen naar het overzicht van de langlopende leningen in bijlage 5.1.9.
+
+5. Onderhanden werk uit hoofde van DBC's / DBC-zorgproducten
+
+De specificatie is als volgt: 31-dec-21
+€
+Onderhanden werk DBC's / DBC-zorgproducten an
+Af: ontvangen voorschotten 0
+Af: voorziening onderhanden werk 0
+Totaal onderhanden werk 9)
+De specificatie per categorie DBC's / DBC-zorgproducten
+is als volgt weer te geven:
+Gerealiseer-
+Stroom DBC's / DBC-zorgproducten de kosten en Af: Af:
+toegereken- verwerkte ontvangen
+de winst verliezen voorschotten
+€ € €
+|
+|
+|
+Totaal (onderhanden werk) e) ) 0
+
+Toelichting:
+
+Pagina 11
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.5 TOELICHTING OP DE BALANS
+
+6. Vorderingen uit hoofde van financieringstekort en schulden uit hoofde van financieringsoverschot AWBZ
+
+t/m 2015 2016 2017 2018
+€ € € €
+Saldo per 1 januari a
+Financieringsverschil boekjaar 0
+Correcties voorgaande jaren |
+Betalingen/ontvangsten |
+Subtotaal mutatie boekjaar 0 0 0 0
+Saldo per 31 december (e) 0 0) e)
+
+Stadium van vaststelling (per erkenning):
+
+a= interne berekening
+b= overeenstemming met zorgverzekeraars
+c= definitieve vaststelling NZa
+31-dec-21
+
+€
+Waarvan gepresenteerd als:
+= vorderingen uit hoofde van financieringstekort
+= schulden uit hoofde van financieringsoverschot
+0
+Specificatie financieringsverschil in het boekjaar 31-dec-21
+€
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies) 0
+Af: vergoedingen ter dekking van het wettelijk budget
+Totaal financieringsverschil 8)
+
+Toelichting:
+
+Pagina 12
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+7. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-21
+€
+
+Vorderingen op debiteuren On
+Nog te ontvangen omzet 84.415
+Overige vorderingen:
+
+Vorderingen op groepsmaatschappijen
+
+Vorderingen op participanten en maatschappijen waarin wordt deelgenomen
+
+bedragen:
+
+Nog ntvangen b edragen: dae
+
+Overige overlopende activa:
+
+Totaal debiteuren en overige vorderingen 84.415
+
+Pagina 13
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+8. Effecten
+De specificatie is als volgt: 31-dec-21
+
+€
+Totaal effecten 0
+
+9. Liquide middelen
+
+De specificatie is als volgt: 31-dec-21
+
+€
+Bankrekeningen 17.394
+Kassen 193
+Totaal liquide middelen 17.587
+
+Pagina 14
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+10. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Kapitaal
+
+Agioreserve
+Bestemmingsfondsen
+Algemene en overige reserves
+
+Totaal eigen vermogen
+Kapitaal
+
+Het verloop is als volgt weer te geven:
+
+Kapitaal
+
+Totaal kapitaal
+Bestemmingsreserves
+
+Het verloop is als volgt weer te geven:
+
+Bestemmingsreserves:
+Bestemmingsreserve Wmo
+
+Herwaarderingsreserve:
+
+Totaal bestemmingsreserves
+
+Bestemmingsfondsen
+Het verloop is als volgt weer te geven:
+
+Bestemmingsfondsen:
+
+Reserve aanvaardbare kosten: -
+
+Totaal bestemmingsfondsen
+Algemene en overige reserves
+Het verloop is als volgt weer te geven:
+
+Algemene reserves:
+
+Overige reserves:
+
+Totaal algemene en overige reserves
+
+31-dec-21
+€
+51.076
+0
+1.102
+52.178
+Saldo per Resultaat- Overige
+1-jan-2021 bestemming mutaties
+€ € €
+51.076 1.102 52.178
+51.076 1.102 52.178
+Saldo per Resultaat- Overige
+1-jan-2021 bestemming mutaties
+€ € €
+B
+
+0 ) 0
+Saldo per Resultaat- Overige
+1-jan-2021 bestemming mutaties
+€ € €
+
+|
+
+|
+
+|
+
+|
+
+|
+
+|
+0 e) 8)
+Saldo per Resultaat- Overige
+1-jan-2021 bestemming mutaties
+€ € €
+
+0 1.102
+
+|
+
+|
+
+|
+
+|
+) 1.102 0
+
+Pagina 15
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.5 TOELICHTING OP DE BALANS
+
+PASSIVA
+11. Voorzieningen
+Saldo per Dotatie Onttrekking Vrijval
+Het verloop is als volgt weer te geven: 1-jan-2021
+€ € € €
+|
+|
+|
+Totaal voorzieningen 0 0 e) 0
+
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+
+Kortlopend deel van de voorzieningen (< 1 jr.)
+Langlopend deel van de voorzieningen (> 1 jr.)
+Hiervan langlopend (> 5 jaar)
+
+Toelichting per categorie voorziening:
+
+12. Langlopende schulden (nog voor meer dan een jaar)
+
+De specificatie is als volgt: 31-dec-21
+€
+Schulden aan banken 0
+
+Overige langlopende schulden
+
+Totaal langlopende schulden (nog voor meer dan een jaar) ej
+Het verloop is als volgt weer te geven: 2021
+€
+
+Stand per 1 januari 0
+Bij: nieuwe leningen 0
+Af: aflossingen )
+Stand per 31 december e)
+Af: aflossingsverplichting komend boekjaar 0
+Stand langlopende schulden per 31 december 0
+Toelichting in welke mate (het totaal van) de langlopende schulden als langlopend moeten worden beschouwd:
+
+Kortlopend deel van de langlopende schulden (< 1 jr.), aflossingsverplichtingen 0
+Langlopend deel van de langlopende schulden (> 1 jr.) (balanspost) 0
+Hiervan langlopend (> 5 jaar) 0
+
+Voor een nadere toelichting op de langlopende schulden wordt verwezen naar de bijlage overzicht langlopende sch:
+De aflossingsverplichtingen zijn verantwoord onder de kortlopende schulden.
+
+Toelichting:
+
+De verstrekte zekerheden voor de opgenomen lening bij Bank N.V. luiden als volgt:
+* hypothecaire zekerheid op bedrijfsgebouwen en -terreinen;
+
+* pandrecht op de vorderingen;
+
+* pandrecht op de machines en installaties.
+
+Pagina 16
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.5 TOELICHTING OP DE BALANS
+PASSIVA
+13. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Schulden aan banken
+
+Crediteuren
+
+Aflossingsverplichtingen langlopende leningen
+Belastingen en sociale premies
+Schulden terzake pensioenen
+Vakantiegeld
+
+Rekening-courant K. Malki
+Rekening-courant M. Korkis-Abdullah
+Rekening-courant K. Abdi
+Rekening-courant M. Shackleford
+Rekening-courant B. Kasmi
+
+Nog tebetalen kosten.
+Vooruítontvangen opbrengsten:
+Overige overlopende passiva:
+
+Nog te betalen werk derden
+Nog te betalen salaris directie
+
+Totaal overige kortlopende schulden
+
+31-dec-21
+€
+
+17.931
+4.730
+3.601
+7.276
+
+-37
+4.287
+-232
+-19
+
+6.521
+36.000
+
+80.058
+
+Pagina 17
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.6 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+16. Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2021
+
+Opbrengsten zorgverzekeringswet (exclusief subsidies)
+
+Wettelijk budget voor aanvaardbare kosten Wiz-zorg (exclusief subsidies) i
+Opbrengsten Gemeenten en PGB 238.749
+Opbrengsten Wmo
+
+Opbrengsten Justitie (exclusief subsidies)
+
+Beschikbaarheidsbijdragen Zorg
+
+Overige zorgprestaties 17.671
+Totaal 256.420
+Toelichting:
+
+17. Subsidies (exclusief Wmo en Jeugdzorg)
+
+De specificatie is als volgt: 2021
+
+Subsidies Wlz/Zvw-zorg
+
+Rijkssubsidies vanwege het Ministerie van Veiligheid en Justitie
+
+Rijkssubsidies vanwege het Ministerie van VWS en
+Overige Rijkssubsidies 65.155
+Beschikbaarheidsbijdragen Opleidingen
+
+Subsidies vanwege Provincies en gemeenten (exclusief Wmo en Jeugdzorg)
+
+Overige subsidies, waaronder loonkostensubsidies en EU-subsidies
+
+Totaal 65.155
+
+Toelichting:
+
+18. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2021
+Overige dienstverlening (waaronder 2e-4e geldstroom UMC's voor onderzoek):
+
+‘Overige opbrengsten (waaronder vergoeding voor uitgeleend personeel en verhuur onroerend goed):
+
+Totaal —__
+
+Pagina 18
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.6 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+
+19. Personeelskosten
+
+De specificatie is als volgt:
+
+Lonen en salarissen
+
+Sociale lasten
+
+Pensioenpremies
+Andere personeelskosten:
+
+2021
+€
+
+88.010
+32.503
+
+5.546
+31.233
+
+Subtotaal 157.292
+
+Personeel niet in loondienst 0
+
+Totaal personeelskosten 157.292
+
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment: 4
+
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 4
+
+Aantal personeelsleden dat buiten Nederland werkzaam is 0
+
+Toelichting:
+
+20. Afschrijvingen op immateriële en materiële vaste activa
+
+De specificatie is als volgt: 2021
+€
+
+Afschrijvingen:
+
+- immateriële vaste activa ej
+
+- materiële vaste activa 5.931
+
+Totaal afschrijvingen 5.931
+
+Toelichting:
+
+21. Bijzondere waardeverminderingen van vaste activa
+
+De specificatie is als volgt: 2021
+€
+
+Bijzondere waardeverminderingen van:
+
+= immateriële vaste activa 0
+
+- materiële vaste activa 0
+
+Totaal le)
+
+Toelichting:
+
+Pagina 19
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.6 TOELICHTING OP DE RESULTATENREKENING
+
+22. Overige bedrijfskosten
+
+De specificatie is als volgt: 2021
+€
+
+Voedingsmiddelen en hotelmatige kosten
+
+Patiënt- en bewonersgebonden kosten 57.791
+
+Onderhoud en energiekosten:
+
+- Onderhoud 6.464
+
+- Energiekosten gas 6.087
+
+- Energiekosten stroom
+
+- Energie transport en overig
+
+Subtotaal 12.551
+
+Huur en leasing 36.858
+
+Dotaties en vrijval voorzieningen
+
+Overige algemene kosten
+
+- Kantoorbenodigdheden 223
+
+- Telefoonkosten 5.118
+
+- Automatiseringskosten 235
+
+= Aanschaf klein inventaris 657
+
+- Abonnementen 2.920
+
+= Administratie- en advieskosten 39.538
+
+- Overige algemene kosten 1.126
+
+49.817
+
+Totaal overige bedrijfskosten 157.017
+
+Toelichting:
+
+23. Financiële baten en lasten
+
+De specificatie is als volgt: 2021
+€
+
+Rentebaten
+
+Rentebaten groepsmaatschappijen
+
+Vennootschapsbelasting correctie
+
+Resultaat deelnemingen
+
+Waardeveranderingen financiële vaste activa en effecten
+
+Financiële baten uit verhouding met groepsmaatschappijen
+
+Financiële baten uit verhoudingen met overige verbonden maatschappijen
+
+Overige opbrengsten financiële vaste activa en effecten
+
+Subtotaal financiële baten 0
+
+Rentelasten -233
+
+Rentelasten groepsmaatschappijen
+
+Resultaat deelnemingen
+
+Waardeveranderingen financiële vaste activa en effecten
+
+Overige financiële lasten
+
+Subtotaal financiële lasten -233
+
+Totaal financiële baten en lasten -233
+
+Toelichting:
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.1.6 TOELICHTING OP DE RESULTATENREKENING
+
+24. Belastingen
+
+De specificatie is als volgt:
+
+Vennootschapsbelasting lopend boekjaar
+
+Totaal belastingen
+
+Pagina 21
+
+2021
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.2 OVERIGE GEGEVENS
+
+
+STICHTING HUMAAN OVERIJSSEL
+
+5.2 OVERIGE GEGEVENS
+
+5.2.1 Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Stichting Humaan Overijssel heeft de jaarrekening 2021 vastgesteld in de vergadering
+van 2 juni 2022.
+
+5.2.2 Statutaire regeling resultaatbestemming
+
+Overeenkomstig de statuten staat de winst, voor zover die niet wordt gereserveerd,
+ter vrije beschikking van de Algemene Vergadering van Aandeelhouders
+
+5.2.3 Resultaatbestemming
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+5.2.4 Gebeurtenissen na balansdatum
+
+Niet van toepassing
+
+5.2.5 Nevenvestigingen
+
+Stichting Humaan Overijssel heeft geen nevenvestigingen.
+
+5.2.6 Mededeling omtrent het ontbreken van een controleverklaring
+
+Op grond van artikel 2:396 lid 7 BW is de besloten vennootschap vrijgesteld van de verplichting tot
+
+controle van de jaarrekening door een accountant. Op grond daarvan is geen opdracht tot accountants-
+contrle verstrekt. Derhalve ontbreekt een controleverklaring.
+
+Pagina 23
+

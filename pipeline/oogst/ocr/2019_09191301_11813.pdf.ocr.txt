@@ -1,0 +1,1043 @@
+# whosigns-ocr v1 grootte=4072932 dpi=300 paginas=20
+Praktijk Vergne B.V.
+
+5.1 JAARREKENING
+
+5.1.1 BALANS PER 31 DECEMBER 2019
+(na resultaatbestemming)
+
+Ref. 31-dec-19 31-dec-18
+€ €
+ACTIVA
+Vaste activa
+Immateriële vaste activa 1 0 0
+Materiële vaste activa 2 34.484 32.850
+Financiële vaste activa 3 0 0
+Totaal vaste activa 34.484 32.850
+Vlottende activa
+Voorraden 4 0 0
+Onderhanden zorgtrajecten 5 0 0
+Vorderingen uit hoofde van financieringstekort 6 0 0
+Debiteuren en overige vorderingen 7 380.738 206.042
+Effecten 8 0 0
+Liquide middelen ie) 274 41.656
+Totaal vlottende activa 381.012 247.698
+Totaal activa 415.496 280.548
+Ref. 31-dec-19 31-dec-18
+€ €
+PASSIVA
+Eigen vermogen 10
+Kapitaal 1 1
+Bestemmingsreserves 7.176 7.176
+Bestemmingsfondsen 0 0
+Algemene en overige reserves 109.719 163.545
+Totaal eigen vermogen 116.896 170.722
+Voorzieningen 11 0 0
+Langlopende schulden (nog voor meer 12 0 0
+dan een jaar)
+Kortlopende schulden (ten hoogste 1 jaar)
+Schulden uit hoofde van financieringsoverschot 6 0 0
+Overige kortlopende schulden 13 298.600 109.826
+Totaal kortlopende schulden (ten hoogste 1 jaar) 298.600 109.826
+Totaal passiva 415.496 280.548
+
+Pagina 1
+
+
+Praktijk Vergne B.V.
+
+5.1.2 RESULTATENREKENING OVER 2019
+
+Ref. 2019 2018
+€ €
+
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties en maatschappelijke ondersteuning 16 1.277.726 1.233.411
+Subsidies (exclusief Wmo en Jeugdwet) 17 0 0
+Overige bedrijfsopbrengsten 18 0 0
+Som der bedrijfsopbrengsten 1.277.726 1.233.411
+
+BEDRIJFSLASTEN:
+
+Personeelskosten 19 1.037.921 797.649
+Afschrijvingen op immateriële en materiële vaste activa 20 11.096 9.319
+Bijzondere waardeverminderingen van vaste activa 21 0 0
+Overige bedrijfskosten 22 296.061 213.662
+Som der bedrijfslasten 1.345.078 1.020.630
+BEDRIJFSRESULTAAT -67.352 212.781
+Financiële baten en lasten 23 -1.967 -4.950
+RESULTAAT VOOR BELASTINGEN -69.319 207.831
+Belastingen 24 -15.493 44.286
+RESULTAAT NA BELASTINGEN -53.826 163.545
+
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2019 2018
+Toevoeging/(onttrekking): $ $
+Algemene / overige reserves -53.826 163.545
+-53.826 163.545
+
+Pagina 2
+
+
+Praktijk Vergne B.V.
+
+5.1.3 KASSTROOMOVERZICHT OVER 2019
+
+Ref. 2019 2018
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat -67.352 212.781
+Aanpassingen voor:
+= afschrijvingen en overige waardeverminderingen 20, 21 11.096 9.319
+- mutaties voorzieningen 11 0 0
+- boekresultaten afstoting vaste activa 18 0 0
+11.096 9.319
+Veranderingen in werkkapitaal:
+-= voorraden 4 0 0
+- mutatie onderhanden zorgtrajecten 5 0 0
+= vorderingen 7 -133.314 -177.310
+- vorderingen/schulden uit hoofde van
+financieringstekort respectievelijk -overschot 6 0 0
+- kortlopende schulden (excl. schulden aan banken) 13 162.885 11.010
+29.571 -166.300
+Kasstroom uit bedrijfsoperaties -26.685 55.800
+Ontvangen interest 23 0
+Betaalde interest 23 -1.967
+Ontvangen dividenden 23 0
+Betaalde winstbelasting 24 0
+-1.967 0
+Totaal kasstroom uit operationele activiteiten -28.652 55.800
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa 2 -12.730 -6.565
+Desinvesteringen materiële vaste activa 2 0 0
+Investeringen immateriële vaste activa 1 0 0
+Desinvesteringen immateriële vaste activa 1 0 0
+Verwervingen deelnemingen en/of
+samenwerkingsverbanden 3 0 0
+Vervreemdingen deelnemingen en/of
+samenwerkingsverbanden 3 0 0
+Uitgegeven leningen u/g 3 0 0
+Aflossing leningen u/g 3 0 0
+Investeringen in overige financiële vaste activa 3 0 0
+Desinvesteringen overige financiële vaste activa 3 0 0
+Totaal kasstroom uit investeringsactiviteiten -12.730 -6.565
+Kasstroom uit financieringsactiviteiten
+Nieuw opgenomen leningen 12 0 0
+Aflossing langlopende schulden 12 0 0
+Mutatie kortlopend bankkrediet 13 0 0
+Totaal kasstroom uit financieringsactiviteiten 0 0
+Mutatie geldmiddelen -41.382 49.235
+Stand geldmiddelen per 1 januari 9 41.656 -1.579
+Stand geldmiddelen per 31 december 9 274 41.656
+Mutatie geldmiddelen -41.382 49.235
+Toelichting:
+Het kasstroomoverzicht op basis van de indirecte methode
+Pagina 3 0
+
+
+Pratkijk Vergne B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.1 Algemeen
+
+Algemene gegevens en groepsverhoudingen
+
+Praktijk Vergne B.V. is statutair (en feitelijk) gevestigd te Voorschoten, op het adres Kniplaan 3, en is
+geregistreerd onder KvK-nummer 74495984
+
+De belangrijkste activiteiten zijn het verlenen van Jeugdzorg.
+
+Praktijk Vergne B.V. is opgericht op 28 maart 2019 en is een dochtermaatschappij van Vergne Holding B.V.
+
+Verslaggevingsperiode
+
+Deze jaarrekening heeft betrekking op het boekjaar 2019, dat is geëindigd op balansdatum 31 december 2019.
+De oprichtingsdatum is 28 maart 2019 echter aangezien een deel van de eenmanszaak Praktijk Vergne is
+ingebracht met terugwerkende kracht tot 1 janauri 2018 is om praktische redenen dit boekjaar gestart op 1
+januari en zijn als vergelijkende cijfers opgenomen het deel wat fiscaal met terugwerkende kracht is ingebracht
+per 1 januari 2018. Het andere deel is ingebracht fiscaal met terugwerkende kracht in zustermaatschappij
+BijdeHandBegeleiding B.V.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling Jeugdwet en met Titel 9 BW 2 en daarmee
+de Richtlijn voor de Jaarverslaggeving hoofdstuk 655 Zorginstellingen.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd
+op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Continuïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Vergelijking met voorgaand jaar
+
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar,
+waarbij wij het volgende opmerken. Voor oprichtingsdatum 28 maart 2019 zijn opgenomen de cijfers van de
+voorperiode (voor oprichting van de vennootschap). Om praktische redenen is boekjaar gestart op 1 januair
+2019. De vergelijkende cijfers betreft het deel van de eenmanszaak Praktijk Vergne 2018 wat fiscaal geruisloos
+is ingebracht,
+
+Pagina 4
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Gebruik van schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt het bestuur van de
+vennootschap zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de jaarrekening
+opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 vereiste inzicht noodzakelijk is, is
+de aan van deze oordelen en schattingen inclusief de bijbehorende veronderstellingen opgneomen bij de
+toelichting op desbestreffende jaarrekeningposten.
+
+5.1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in de
+verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de
+jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen
+naar de instelling zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan de omvang
+betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de balans verwerkt, maar
+worden aangemerkt als niet in de balans opgenomen activa.Een verplichting wordt in de balans verwerkt
+wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal gaan met een uitstroom van middelen die
+economische voordelen in zich bergen en de omvang van het bedrag waartegen de afwikkeling zal plaatsvinden
+op betrouwbare wijze kan worden vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen.
+Verplichtingen die hier niet aan voldoen worden niet in de balans opgenomen, maar worden verantwoord als
+niet in de balans opgenomen verplichtingen. Een in de balans opgenomen actief of verplichting blijft op de
+balans opgenomen als een transactie niet leidt tot een belangrijke verandering in de economische realiteit met
+betrekking tot het actief of de verplichting. Dergelijke transacties geven evenmin aanleiding tot het
+verantwoorden van resultaten. Bij de beoordeling of er sprake is van een belangrijke verandering in de
+economische realiteit wordt uitgegaan van de economische voordelen en risico's die zich naar waarschijnlijk in
+de praktijk zullen voordoen, en niet op voordelen en risico's waarvan redelijkerwijze niet te verwachten is dat zij
+zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of
+nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met betrekking tot het actief
+of de verplichting aan een derde zijn overgedragen. De resultaten van de transactie worden in dat geval direct
+in de resultatenrekening opgenomen, rekening houdend met eventuele voorzieningen die dienen te worden
+getroffen in samenhang met de transactie. Indien de weergave van de economische realiteit ertoe leidt dat het
+opnemen van activa waarvan de rechtspersoon niet het juridisch eigendom bezit, wordt dit feit vermeld.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van de vennotschap.
+
+Pagina 5
+
+Immateriële en materiële vaste activa
+De immateriële en materiële vaste activa worden gewaardeerd tegen kostprijs onder aftrek van cumulatieve
+afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De kostprijs van de genoemde activa bestaat uit de verkrijgings- of vervaardigingsprijs en overige kosten om de
+activa op hun plaats en in de staat te krijgen noodzakelijk voor het beoogde gebruik. De kostprijs van de activa
+die door de instelling in eigen beheer zijn vervaardigd, bestaat uit de aanschaffingskosten van de gebruikte
+grond- en hulpstoffen en de overige kosten die rechtstreeks kunnen worden toegerekend aan de vervaardiging.
+Verder omvat de vervaardigingsprijs een redelijk deel van de indirecte kosten en de rente op schulden over het
+tijdvak dat kan worden toegerekend aan de vervaardiging van de activa
+
+De afschrijvingstermijnen van immateriële en materiële vaste activa zijn gebaseerd op de verwachte
+economische levensduur van het vast actief.
+
+Financiële vaste activa
+De financiële vaste activa worden gewaardeerd tegen reële waarde en vervolgens tegen geamortiseerde
+kostprijs.
+
+Financiële instrumenten
+Er zijn geen secundaire financiël instrumenten zoals derivaten en voor de overige financiële instrumenten
+verwijzen naar de desbetreffende jaarrekeningpost
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Verstrekte leningen en overige vorderingen
+
+Verstrekte leningen en overige vorderingen worden gewaardeerd tegen geamortiseerde kostprijs op basis van
+de effectieverentemethode, verminderd met bijzondere waardeverminderingsverliezen.
+
+Langlopende en kortlopende schulden en overige financiële verplichtingen
+
+Langlopende en kortlopende schulden en overige financiële verplichtingen worden na eerste opname
+gewaardeerd tegen geamortiseerde kostprijs op basis van de effectieverentemethode.
+
+De aflossingsverplichtingen voor het komend jaar van de langlopende schulden worden opgenomen onder
+kortlopende schulden.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reële waarde, inclusief transactiekosten. (Door toepassing van
+de effectieve rentemethode worden transactiekosten als onderdeel van de amortisatie in de resultatenrekening
+verwerkt). De vervolgwaardering van vorderingen is tegen geamortiseerde kostprijs (indien geen sprake van
+agio/disagio of transactiekosten dan geamortiseerde kostprijs gelijk aan nominale waarde). Een voorziening
+wordt getroffen op de vorderingen op grond van verwachte oninbaarheid. De oninbaarheid wordt bepaald door
+op de individuele vordering per balansdatum.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan
+twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de nominale waarde.
+
+Eigen vermogen
+
+Binnen het eigen vermogen wordt onderscheid gemaakt tussen geplaatst aandelen kapitaal, Agioreserve ,
+Algemene en overige reserves.
+
+Voorzieningen (algemeen)
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum
+bestaan en die het gevolg zijn van een gebeurtenis uit het verleden, waarbij het waarschijnlijk is dat een
+uitstroom van middelen noodzakelijk is en waarvan de omvang op betrouwbare wijze is te schatten. De
+voorzieningen worden gewaardeerd tegen nominale waarde vanan de uitgaven die naar verwachting
+noodzakelijk zijn om de verplichting en verliezen af te wikkelen.
+
+Personele voorzieningen worden, indien het effect van de tijdswaarde van geld materieel is, gewaardeerd tegen
+de contante waarde van de uitgaven die naar verwachting noodzakelijk zijn om de verplichting af te wikkelen.
+De disconteringsvoet voor belastingen waartegen contant wordt gemaakt, geeft de actuele marktrente weer.
+Hierin zijn de risico's waarmee bij het schatten van de toekomstige uitgaven reeds rekening is gehouden niet
+betrokken.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één
+jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs. De aflossingsverplichtingen voor het komend jaar van de langlopende schulden worden opgenomen
+onder kortlopende schulden.
+
+Pagina 7
+
+Pratkijk Vergne B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de resultatenrekening opgenomen wanneer een vermeerdering van het economisch potentieel,
+samenhangend met een vermeerdering van een actief of een vermindering van een verlichting, heeft
+plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten worden verwerkt wanneer
+een vermindering van het economisch potentieel, samenhangend met een vermindering van een actief of een
+vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden
+vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de
+verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde fout in voorgaande
+boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de resultatenrekening verwerkt wanneer het bedrag van
+de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding
+waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden
+bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de
+dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden
+gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Onder opbrengsten jeugdwet en opbrengsten wmo worden de baten verantwoord uit hoofde van geleverde
+prestaties op het gebied van verleende jeugdzorg respectievelijk wmo-prestaties. Als realisatiemoment geldt het
+moment waarop de betreffende prestaties zijn gerealiseerd en op grond van de geldende voorschriften of
+richtlijnen gedeclareerd kunnen worden bij de opdrachtgever. Tot de opbrengsten jeugdwet worden tevens
+gerekend mutaties in onderhanden zorgtrajecten met betrekking tot jeugdzorg.
+
+Overige bedrijfsopbrengsten
+
+De overige bedrijfsopbrengsten bestaan uit opbrengsten anders dan uit zorgprestaties en maatschappelijke
+ondersteuning en subsidies. De overige opbrengsten kunnen worden verdeeld in opbrengsten voor het leveren
+van goederen en opbrengsten voor het leveren van diensten.
+
+Opbrengsten uit de verkoop van goederen worden verwerkt zodra alle belangrijke rechten en risico's met
+betrekking tot de eigendom van de goederen zijn overgedragen aan de koper.
+
+Opbrengsten uit het verlenen van diensten geschieden naar rato van de geleverde prestaties, gebaseerd op de
+verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Pagina 8
+
+Pratkijk Vergne B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Personele kosten
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de resultatenrekening verantwoord in de periode waarin de
+arbeidsprestatie wordt verricht en, voor zover nog niet uitbetaald, als verplichting op de balans opgenomen. Als
+de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt het meerdere opgenomen als een
+overlopend actief voor zover er sprake zal zijn van terugbetaling door het personeel of van verrekening met
+toekomstige betalingen door de instelling.
+
+Voor de beloningen met opbouw van rechten (sabbatical leave, gratificaties e.d. ) worden de verwachte lasten
+gedurende het dienstverband in aanmerking genomen. Een verwachte vergoeding ten gevolge van gratificaties
+worden verantwoord indien de verplichting tot betaling van die vergoeding is ontstaan op of vóór balansdatum
+en een betrouwbare schatting van de verplichtingen kan worden gemaakt. Ontvangen bijdragen voortvloeiend
+uit levensloopregelingen worden in aanmerking genomen in de periode waarover deze bijdragen zijn
+verschuldigd. Toevoegingen aan en vrijval van verplichtingen worden ten laste respectievelijk ten gunste van de
+resultatenrekening gebracht.
+
+Indien een beloning wordt betaald, waarbij geen rechten worden opgebouwd (bijvoorbeeld doorbetaling in geval
+van ziekte of arbeidsongeschiktheid) worden de verwachte lasten verantwoord in de periode waarover deze
+beloning is verschuldigd. Voor op balansdatum bestaande verplichtingen tot het in de toekomst doorbetalen van
+beloningen (inclusief ontslagvergoedingen) aan personeelsleden die op balansdatum naar verwachting blijvend
+geheel of gedeeltelijk niet in staat zijn om werkzaamheden te verrichten door ziekte of arbeidsongeschiktheid
+wordt een voorziening opgenomen. De verantwoorde verplichting betreft de beste schatting van de bedragen
+die noodzakelijk zijn om de desbetreffende verplichting op balansdatum af te wikkelen. De beste schatting is
+gebaseerd op contractuele afspraken met personeelsleden (CAO en individuele arbeidsovereenkomsten).
+Toevoegingen aan en vrijval van verplichtingen worden ten laste respectievelijk ten gunste van de
+resultatenrekening gebracht.
+
+Pensioenen
+
+Praktijk Vergne B.a. heeft vanaf datum oprichting voor de medewerkers in de Jeugdzorg een
+bedrijfstakpensioenfonds en verwerktdeze volgens de verplichtingenbenadering. De over het jaar verschuldigde
+premie wordt als last verantwoord. Op de Nederlandse pensioenregelingen zijn de bepalingen van de
+Nederlandse Pensioenwet van toepassing en worden op verplichte, contractuele of vrijwillige basis premies aan
+het bedrijfstakpensioenfonds betaa;d door de vennootschap. De premies worden verantwoord als
+personeelskosten zodra zij verschuldigd zijn. Vooruitbetaalde premies worden opgenomen als overlopende
+activa indien dit tot een terugstorting leidt of ot een vermindering van toekomstige betalingen. Nog niet betaalde
+premies worden als verplichting op de balans opgenomen. Ultimo boekjaar zijn er geen verplichtingen anders
+dan nog te betalen prmeies. Voor bestaande verplichtingen (anders dan te betalen premis) jegens de
+pensioenuitvoerder en.of werknemers wordt een voorziening opgenomen. Dit betreft een voorziening voor:
+
+=de verplichting van de vennootschap tot het verrichten van extra betalingen of herstelpemies als gevolg van
+een lage dekkingsgraad van het pensioenfonds;
+
+- de onvoorwaardelijk nog niet gefinancierde indexaties;
+
+- overrente of winstdeling die (volgens het verzekeringscontract) beschikbaar komt aan de vennootschap;
+
+voor- of nadelen van individuele waardeoverdrachten die ten laste komen van de vennootschap;
+
+Deze pensioenvoorzieningen worden op basis van beste schatting gewaardeerd. Hierbij is de veprlichting
+gewaardeerd tegen de contante waarde van deuitgaven die naar verwachting noodzakelijk zijn om de
+verplichting af te wikkelen. Als dinsconteringsvoet voor de contant making is de marktrente van hoogwaardige
+ondernemingsobligaties genomen. Indie de periode waarover de uitgaven contant worden gemaakt niet langer
+is dan een jaar is de verplichting niet tegen contante waarde opgenomen. oevoegingen aan en vrijval van
+pensioenvoorzieningen worden ten laste respectievelijk ten gunste van de winst- en verliesrekening gebracht.
+
+Financiële baten en lasten
+De financiële baten en lasten betreffen van derden en deelnemingen ontvangen (te ontvangen) en aan derden
+en deelnemingen betaalde (te betalen) interest.
+
+Pagina 9
+
+Pratkijk Vergne B.V.
+
+5.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Belastingen
+
+Belastingen omvatten de over de verslagperiode verschuldigde en verrekenbare winstbelastingen en latente
+belastingen. De belastingen worden in de resultatenrekening opgenomen, behalve voor zover deze betrekking
+hebben op posten die rechtstreeks in het eigen vermogen worden opgenomen,
+
+De over het boekjaar verschuldigde en verrekenbare belasting is de naar verwachting te betalen belasting over
+de belastbare winst over het boekjaar, berekend aan de hand van belastingtarieven die zijn vastgesteld op
+verslagdatum, dan wel waartoe materieel al op verslagdatum is besloten, en eventuele correcties op de over
+voorgaande jaren verschuldigde belasting.
+
+5.1.4.5 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht
+bestaan uit de liquide middelen en beleggingen die zonder beperkingen en zonder materieel risico van
+waardeverminderingen als gevolg van de transactie kunnen worden omgezet in geldmiddelen. Ontvangsten en
+uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn opgenomen onder de
+kasstroom uit operationele activiteiten.
+
+Transacties waarbij geen ruil van kasmiddelen plaatsvindt, waaronder financiële leasing, zijn niet in het
+kasstroomoverzicht opgenomen. De betaling van de leasetermijnen uit hoofde van het financiële leasecontract
+zijn voor het gedeelte dat betrekking heeft op de aflossing als een uitgave uit financieringsactiviteiten
+aangemerkt en voor het gedeelte dat betrekking heeft op de interest als een uitgave uit operationele activiteiten.
+
+(In de toelichting wordt aandacht besteed aan de aspecten die voor een goed begrip van het
+kasstroomoverzicht van belang zijn. Aanbevolen wordt belangrijke afwijkingen tussen enerzijds mutaties in
+balansposten die blijken uit een kasstroomoverzicht en anderzijds verschillen tussen de balansen aan het begin
+en het einde van de periode nader toe te lichten. Tevens dient een cijfermatige aansluiting opgenomen te
+worden tussen het begrip geldmiddelen in het kasstroomoverzicht en begrip liquide middelen in de balans
+wanneer er hiertussen een verschil bestaat.)
+
+5.1.4.6 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de
+datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de
+jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de
+gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de
+jaarrekening.
+
+5.1.4.7 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de wet- en
+regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Pagina 10
+
+Praktijk Vergne B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+2. Materiële vaste activa
+
+31-dec-19 31-dec-18
+
+De specificatie is als volgt: € €
+Bedrijfsgebouwen en terreinen 0 0
+Machines en installaties 0 0
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 34.484 32.850
+Materiële vaste bedrijfsactiva in uitvoering en vooruitbetalingen op materiële vaste activa 0 0
+Niet aan het bedrijfsproces dienstbare materiële activa 0 0
+Totaal materiële vaste activa 34.484 32.850
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven: 2019 2018
+€ €
+
+Boekwaarde per 1 januari
+
+Bij: investeringen
+
+Af: afschrijvingen
+
+Af: bijzondere waardeverminderingen
+
+Bij: terugname bijzondere waardeverminderingen
+
+Af: terugname geheel afgeschreven activa
+
+Af: overige mutaties correctie naar Bijde hand BV i.o.
+
+Boekwaarde per 31 december 34.484 32.850
+
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 5.1.7,
+
+Het afschrijvingspercentage bedraagt 20% van de aanschafwaarde.
+
+7. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+Vorderingen op debiteuren 133.337 100.862
+waarborgsommen 7.087 7.087
+Overige vorderingen:
+Vorderingen op participanten en maatschappijen waarin wordt deelgenomen: able EE eli
+Vorderingen van groepsmaatschappijen:
+Rekening-courant Vergne Holding B.V. 157.609 48.482
+Rekening-courant BijdeHand Begeleiding B.V. 96.196 45.599
+voorziening oninbaar rekening courant BijdeHand Begeleiding B.V. -48.098 0
+Rekening-courant Vergne Educatief B.V. 32.050 0
+Overlopende activa 2.557 4.012
+Totaal debiteuren en overige vorderingen 380.738 206.042
+Toelichting:
+
+De debiteuren bestaan vorderingen van nog te ontvangen zorgverlening, zowel inzake Jeugdzorg die via de gemeenten lopen
+alsmede particuliere- en andere zorgverlening
+
+Pagina 11
+
+Praktijk Vergne B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+9. Liquide middelen
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+
+€ €
+Bankrekeningen 274 41.656
+Totaal liquide middelen 274 41.656
+PASSIVA
+
+10. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-19 31-dec-18
+
+€ €
+
+Geplaatst aandelen kapitaal 1 1
+
+Bestemmingsreserves 7.176 7.176
+
+Bestemmingsfondsen 0 0
+
+Algemene en overige reserves 109.719 163.545
+
+Totaal eigen vermogen 116.896 170.722
+Geplaatst aandelenkapitaal
+
+Saldo per Resultaat- Overige Saldo per
+
+Het verloop is als volgt weer te geven: 1-jan-2019 bestemming mutaties 31-dec-2019
+
+€ € € €
+
+geplaatste aandelen (1 a nominaal 1 Euro) 1 0 0 1
+
+Totaal kapitaal 1 0 0 1
+
+Agioreserve
+
+Saldo per Resultaat- Overige Saldo per
+
+Het verloop is als volgt weer te geven: 1-jan-2019 bestemming mutaties 31-dec-2019
+
+€ € € €
+
+Agioreserve 7.176 0 0 7.176
+
+OMELET 0
+
+Totaal bestemmingsreserves 7.176 0 0 1.176
+
+Algemene en overige reserves
+
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2019 bestemming mutaties 31-dec-2019
+€ € € €
+
+Algemene reserves:
+Algemene reserve 163.545 -53.826 _ 0 109.719
+0
+
+Overige reserves:
+
+WHEN 4 0
+0
+Totaal algemene en overige reserves 163.545 -53.826 0 109.719
+
+Toelichting:
+
+De vennootschap is opgericht op 28 maart 2019 echter doordat gebruik is gemaakt van de fiscale faciliteit van geruisloze in-
+breng is de Eenmanszaak met terugwerkende ingebracht in deze vennootschap en Bijdehand Begeleiding B.V.
+
+Het resultaat van de eenmanszaak komt derhalve vanaf 1 januari 2018 toe aan de vennootschap en is opgenomen onder de
+algemene reserve
+
+Pagina 12
+
+
+Praktijk Vergne B.V.
+
+5.1.5 TOELICHTING OP DE BALANS
+
+13. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Schulden aan kredietinstellingen
+Crediteuren
+
+Aflossingsverplichtingen komend boekjaar langlopende leningen
+Lening kortlopend C . Reepmaker
+Belastingen en premies sociale verzekeringen
+Te betalen vennootschapsbelasting
+
+Schulden terzake pensioenen
+
+Correctie netto-lonen
+
+Vakantiegeld
+
+Vakantiedagen
+
+Overige overlopende passiva:
+
+Nog te betalen kosten
+
+Totaal overige kortlopende schulden
+
+15. Niet in de balans opgenomen verplichtingen, activa en regelingen
+
+CAO Jeugdzorg
+
+31-dec-19 31-dec-18
+€ €
+44.528 0
+46.459 13.768
+0 0
+75.471 0
+2.361 19.567
+28.793 44.286
+78.253 0
+-19.522 0
+37.934 26.799
+2.323 3.406
+2.000 2.000
+298.600 109.826
+
+Tot 1 januari 2020 zijn aan de medewerkers waar de CAO Jeugdzorg van toepassing is zowel vergoedingen (salarissen) boven de
+CAO vergoed als enkele vergoedingen niet cf. de CAO vergoed zoals de eindejaarsuitkeringen. Vanaf 1 januari 2020 is dit recht
+
+getrokken en worden de medewerkers cf. de CAO verloond. Aan
+
+(Meerjarige) financiële verplichtingen
+
+Ultimo boekjaar heeft de vennootschap huurverplichtingen van een bedrag van circa € 30.000 op jaarbasis.
+
+Pagina 13
+
+gezien er ook (onverschuldigde) bedragen boven de CAO zijn
+vergoed verwacht de directie dat hieruit geen verplichtingen meer uit voortkomen.
+
+pl euibed
+
+REEN TEE K002 EER LETTEN eBejueosedsbunluosyy
+gp pe 0 0 verve 0 0 6L02 Joqweoep LE Jed spseemyaog
+g0Ee ze 0 0 GOE zE 0 0 ueBuinfuyosje ananepnwno -
+06299 0 0 06/99 0 0 opseemjeyosuee —
+
+61027 1eqwedap je 1ad puezs
+veg) 0 0 ver L 0 0 (opjes sed) apseemxaog ui sonen
+0 0 0 0 0 0 opjes Jed
+0 ueBuinluyosje enenejnwno
+0 epleemjeyosuee
+
+uebuwejsonuisep -
+
+fi) uaBurafuyosje snanepnwno
+0 epleemjeyosuee:
+
+eAnge vanalyosabje jaayef aweubnIe) -
+
+0 uebuuepurwienepseenm ‘zig eweubnIoj -
+0 Een uebuuepuiwienspseem e1opuoz{ig -
+960 LL 96011 uaBuraluyosje -
+OEL ZL OEL ZL uabuuajseAul -
+
+seelyaog 3ey ut saneiny
+
+0S8'ZE 0 ) 0S8ZE ) 0 6L0Z Henuel | sad epieemjaog
+OLE LZ OLZLZ ueBuinluyosje onanejnwno -
+090'vG 0905 opieemjeyosuee -
+6102 Henuefl | sad puejs
+
+3 3 3 3 3 E
+
+BANE ajat1ajew EAIJIE 9JSeA Bunsnaum sanejjejsuI uaureIe)
+reezor eseqjsuaip ajguazew do aangensIUIWpe ue sauiysew ue uemnoge6
+
+segoidsjfupeg ueBuezqynzoon ue oyostuysar -sjfupag
+
+19 UEE JeIN ua Buisonyn ‘usjeppiw
+
+uIeanoesjfiupeq  -syfiupaq
+9JSeA ajauozen asen sJopuy
+
+VALLOV ALSVA ATAIHALVIN LHOIZUAOSLLV.LNW Z'1'S
+
+"Aa euBan fined
+
+Praktijk Vergne B.V.
+
+5.1.10 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+16. Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2019 2018
+
+Opbrengsten zorgverzekeringswet (exclusief subsidies)
+
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies) le ATEA
+Opbrengsten Jeugdwet 1.217.208
+Opbrengsten Wmo BRRVRN DE jj U,
+Opbrengsten Ministerie van Veiligheid en Justitie (forensische zorg; exclusief subsidies)
+Beschikbaarheidsbijdragen Zorg (exclusief Opleidingen)
+
+Overige zorgprestaties
+
+Pred IJ
+
+Totaal 1.277.726 1.233.411
+
+LASTEN
+
+19, Personeelskosten
+
+De specificatie is als volgt: 2019 2018
+€ €
+Lonen en salarissen 747.202 597.138
+Sociale lasten 133.006 105.581
+Pensioenpremies 41.561 0
+Andere personeelskosten:
+SAN Overige personeelskosten __ 82.619 58.984
+im hide do ats old ind
+Subtotaal 1.004.388 761.703
+Ontvangen UwV -34.383 -30.111
+Ontvangen ziekengeld -15.071 -23.960
+Subtotaal 954.934 707.632
+“Medewerkers BijdeHand Begeleiding B.V.(BDH) doorbelast aan BDH (incl. soc lasten etc) -122.036 -110.009
+“Medewerkers Educatief Vergne B.V.(EV) vanaf oprichting doorbelast aan EV (incl. soc lasten etc) -36.856 0
+Management -fee (doorbelast) 82.314 78.991
+Werk derden personeel niet in loondienst 159.565 121.035
+Totaal personeelskosten 1.037.921 797.649
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+___ Medewerkers Bijdehand Begeleiding 4 4
+Medewerkers Educatief Vergne 1 0
+Medewerkers Jeugdzorg 12 11
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 17 15
+Aantal personeelsleden dat buiten Nederland werkzaam is 0 0
+Toelichting:
+
+* Vanaf 1 januari 2020 zijn deze medewerkers rechtstreeks verloond vanuit BijdeHandBegeleiding B.V. resp. Edcuatief Vergne B.V.
+Gezien de oprichting van deze vennootschap en de betreffende besloten vennootschappen op 28 maart 2019 en de geruisloze
+inbreng met terugwerkende kracht zijn zij vanuit praktische redenen in 2019 via deze vennootschap verloond. In 2018 betrof het nog
+een eenmanszaak Praktijk Vergne die met terugwerkende kracht fiscaal is ingebracht in deze vennootschap en Bijdehand
+Begeleiding B.V. vanaf 1 januari 2018
+
+20. Afschrijvingen op immateriële en materiële vaste activa
+
+De specificatie is als volgt: 2019 2018
+€ €
+
+Afschrijvingen:
+
+= immateriële vaste activa 0 0
+
+- materiële vaste activa 11.096 9.319
+
+Totaal afschrijvingen 11.096 9.319
+
+Pagina 15
+
+Praktijk Vergne B.V.
+
+5.1.10 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+
+22. Overige bedrijfskosten
+
+De specificatie is als volgt: 2019 2018
+
+€ €
+Verkoopkosten 5.839 6.887
+Algemene kosten 86.552 59.954
+Directe kosten 16.005 25.460
+Huisvestingskosten 59.913 45.289
+Doorbelaste huisvestingskosten BijdeHand Begeleiding 63.805 63.458
+Automatiseringskosten Medicore 15.849 12.614
+Voorziening voor oninbare vorderingen 48.098 0
+Totaal overige bedrijfskosten 296.061 213.662
+Toelichting:
+
+23. Financiële baten en lasten
+
+De specificatie is als volgt: 2019 2018
+
+€ €
+Rentelasten -1.967 -4.950
+Subtotaal financiële lasten -1.967 -4.950
+Totaal financiële baten en lasten -1.967 -4.950
+
+24. Belastingen
+
+De specificatie is als volgt: 2019 2018
+
+Totaal „15.493 44.286
+
+26. Wet normering topinkomens (WNT)
+zie de volgende pagina
+Pagina 16
+Praktijk Vergne B.V.
+
+
+£T euibed
+
+166'8/ 3 6uibipjozog
+« ot edje
+
+000'Eor axliyassedaor jaanpiaipur
+
+16684 3 Jeezaggns)
+[) ufiw.ta3 do seegjeezaq Uabuiuorag
+
+166'84 3
+
+uabujpsob1sAuajsoyuo
+aseqgsejag snjd buiuojag
+
+TTI
+
+[o't]
+
+OPeiPmssp
+
+‚(ay Ul
+s|e) pueqsangsuaip buewo
+
+[et/rel — [to/ro]
+
+810
+ur Buyjjnsananpuny apuie ue „Ouenuey/
+
+= mmm
+PE = 25
+as EE: uana
+
+EEE LO:
+
+er Ü A
+suabam 6ujapion ap do bunyaaor,
+
+“VAN er
+vep je Buip{juyas1ano ap woseem vapay
+000'Z01 3 uIbipjozag
+TOeiped UsbUeAOON
+
+“VAN m
+3e1u bou ua pjeezaq p6ipinyossenug -/-
+8 or !
+
+000'zor 3 axlijassedaoj jaanpiAIpur
+vie zg leejorgns;
+
+03
+
+uftwisaj do Jeegjeezaq vabuivojag
+
+PIE z8 3
+
+úsbuipsobranuaIsoyuo
+aJeqisejag snjd buivojag
+
+bumpanaqsuaIg
+50
+
+0 DI p
+
+sje) puegsanisuaip Bueawg
+
+6107 suanabas
+
+“plaumuan Japuosary
+
+uliz suanabab azap va (voor yffayinsgab -9) Seuonaunydoj ap uee pyaysab Burpyiyasaqg 197 suejes uaa 6I0Z
+
+Ul U9 BTOZ UI JAM Sl Ja J9YIJ 'GIOZ JaQWozap TE 303 pbuayson vauapas ayasieid wo SI UP UA SEM labo Jaru
+bou Buipyoy op ui aneusiuiwpeuoof ap ein Guiuojsan 610z Heew gz do
+Jeepuer ‘Ag buipiajabag puegaplig ua deyasjoouuar azap Jeeu uapuonabsjeejd yezioop uaa 1e yaay Buipjop
+ap ur Ouasqur ap jseeu ‘deiys3oouuan ap ven buiuayar 100n uajeyynsal ap u(iz wnzep aip Jeuen ua ‘Ag buipjon
+aubIan ul 9TOZ Henuel r Jever 342e1qabur WIEN apuaylambnsag zow s1 aubsan ylDjeIg Heezsuewuos aq
+
+ua Boz 100A wnuixewsbuibipjozaq zay zin 1 ossejy ue apueebyn) 000'L0T 3 6TOZ ul st winwixewsbur
+
+( Bunuyaudo soon) spoyad1oor ap ur 12 Jep
+
+uassjeuornaunjsdo3 6uibipjozag T
+
+(AI-I assen ’ dinypbnaf
+plozaq
+
+axfiassedaor A'g aubsan y(NHeId 1OOA J9H “deyasjoouuaa ap do Buissedaor ven Sl INM 20
+
+"Aa oubsan nfngeid 6TOZ Buipaoomguessn-iNM
+
+
+Praktijk Vergne B.V.
+
+5.2 OVERIGE GEGEVENS
+
+Praktijk Vergne B.V.
+
+5.1.11 ONDERTEKENEN JAARREKENING
+
+Opstellen en Vaststelling jaarrekening
+
+Het bestuur van Praktijk Verne B.V. heeft de jaarrekening 2019 opgemaakt en de algemene vergadering van aandeelhouders stelt de
+jaarrekening vast op 25 december 2020.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+Gebeurtenissen na balansdatum
+Vanaf maart 2020 is Nederland ook getroffen door het COVID 19 virus, hierdoor zijn er maatregelen getroffen door de overheid\
+om het virus te bestrijden en voor Praktijk Vergne B.V. is er vooralsnog geen sprake van een teruggang van de omzet in 2020.
+Dit is wel het geval bij zustervennootschap BijdeHand Begeleiding B.V. waar de omzet is teruggezakt als gevolg van de maat-
+regelen.
+
+ZN
+L
+
+Ondertekening door bestuurders
+
+w.o. Ih 5 ne
+erg! 25<12-2020
+
+lding B.V.
+
+Pagina 18
+
+Praktijk Vergne B.V.
+
+5.2 OVERIGE GEGEVENS
+
+5.2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 20, dat :
+
+1. De algemene vergadering is bevoegd tot bestemming van de winst die door de vaststelling van de jaarrekening is
+bepaald en tot vaststelling van uitkeringen, voor zover het eigen vermogen groter is dan de reserves die krachtens
+de wet of deze statuten moeten worden aangehouden.
+
+2. Bij de berekening van het bedrag dat op ieder aandeel zal worden uitgekeerd deelt elk aandeel in een gelijk deel
+van de uitkering. Van de vorige zin kan telkens met instemming van alle aandeelhouders worden afgeweken.
+
+3. Een besluit dat strekt tot uitkering heeft geen gevolgen zolang het bestuur geen goedkeuring heeft verleend. Het
+bestuur weigert slechts de goedkeuring indien het weet of redelijkerwijs behoort te voorzien dat de vennootschap na
+d euitkering niet zal kunnen blijven voortgaan met het betalen van haar opeisbare schulden.
+
+4, Indien de vennootschap na een uitkering niet kan voortgaan met het betalen van haar opeisbare schulden, zijn
+de bestuurders die dat ten tijde van de uitkering wisten of redelijkerwijs behoorden te voorzien jegens de
+vennootschap hoofdelijk verbonden voor het tekort dat door de uitkering is ontstaan met de wettelijke rente vanaf de
+dag van de uitkering/. Artikel 2: 248 lid 5 BW is van overeenkomstige toepassing. Niet verbonden is de bestuurder
+die bewijst dat het niet aan hem te wijten is dat de vennootschap de uitkering heeft gedaan en dat hij niet nalatig is
+geweestin het treffen van maatregelen o de gevolgen daarvan af te wenden. Degene die de uitkering ontving terwijl
+hij wist of redelijkerwijs behoord te voorzien dat te vennootschap na de uitkering niet zzou kunnen voortgaan met
+het betalen van haar opeisbare schulden is gehouden tot vergoeding van het tekort dat door de uitkering is onstaan,
+ieder voor ten hoogste het bedrag of de waarde van de door hem ontvangen uitkering. Indien de bestuurders de
+vordering uit hoofde van de eerste zin henne voldaan, geschiedt de in de vierde zin bedoelde vergoeding aan de
+bestuurders naar evenredigheid van het gedeelte dat door ieder der bestuurders is voldaan. Ten aanzien van een
+schuld uit hoofdde van de eerste of vierde zin is de schuldenaar niet bevoegd tot verrekening. Het bepaalde in dit lid
+is niet van toepaassing op uitkerigen in de vorm van aandelen in het kapitaal van de vennootschap of bijschrijvingen
+op niet volgestorte aaandelen.
+
+5. Met een bestuurder wordt voor de toepassing van lid 3 gelijkgesteld degene die het beleid van de vennootschap
+heeft bepaald of mede heeft bepaald, als ware hij bestuurder. De vordering kan niet worden ingesteld tegen een
+door de rechter benoemde bewindvoerder.
+
+6. Bij de berekening van iedere uitkering tellen de aandelen, die de vennootschap in haar kapitaal houdt dan wel
+waarvan zij certificaten van aandelen houdt niet mede, tenzij deze aandelen of certificaten van aandelen belast izjn
+met een vruchtgebruik of pandrecht of van aandelen certificaten zijn uitgegeven ten gevolge waarvan winstrecht
+toekomt aan de vrucht gebruiker, de landhouder of de houder van die certificaten
+
+7. De vennootschap mag ook tussentijdse uitkeringen doen. Het in dit artikel bepaalde is dan van overeenkomstige
+toepassing.
+5.2.2 Nevenvestigingen
+
+Praktijk Verne B.V. heeft een nevenvestiging in Nootdorp
+
+5.2.3 Beoordelingsverklaring van de onafhankelijke accountant
+De beoordelingsverklaring is voorin opgenomen cf. de voorschriften voor een beoordelingsverklaring.
+
+Aangezien de vennootschap voldoet aan het verslaggevingsregime "Klein " is een beoordeling
+afdoende.
+
+pagina 19

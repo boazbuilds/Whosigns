@@ -1,0 +1,626 @@
+# whosigns-ocr v1 grootte=5400012 dpi=300 paginas=20
+JAARREKENING
+
+Controlegetal: 731.411.138 -4
+
+
+JAARREKENING
+
+Controlegetal: 731.411.138 - 5
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Balans per 31 december 2025
+
+31 december 2025
+
+31 december 2024
+
+(Na resultaatbestemming) € €
+ACTIVA
+Materiële vaste activa
+Inventarissen 4.716 3.351
+Vervoermiddelen 4.007 587
+8.723 3.938
+Vorderingen en overlopende activa
+Debiteuren 233.706 304.067
+Vordering op groepsmaatschappijen 262.070 216.744
+Premies werknemersverzekeringen 3.241 65.089
+Overige vorderingen 38 103
+Overlopende activa 6.798 1.068
+505.853 587.071
+Liquide middelen
+Banken 7.111 11.696
+7.11 11.696
+521.687 602.705
+TOTAAL ACTIVA 521.687 602.705
+
+Controlegetal: 731.411.138 -6
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Balans per 31 december 2025 31 december 2025 31 december 2024
+(Na resultaatbestemming) € €
+PASSIVA
+
+Eigen vermogen
+
+Aandelen kapitaal l l
+Overige reserves -648.572 -562.560
+Eigen vermogen BV -648.571 -562.559
+Eigen vermogen -648.571 -562.559
+Langlopende schulden
+Achtergestelde lening (garantievermogen) 650.000 575.000
+650.000 575.000
+Kortlopende schulden
+Schulden aan kredietinstellingen 1.557 0
+Crediteuren 83.611 120.817
+Schulden aan groepsmaatschappijen 392.854 376.287
+Schulden ter zake van pensioenen 0 64.191
+Overige schulden 20.254 3.625
+Overlopende passiva 21.982 25.344
+520.258 590.264
+521.687 602.705
+TOTAAL PASSIVA 521.687 602.705
+
+Controlegetal: 731.411.138 -7
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Winst- en verliesrekening over 2025 2025 2024
+
+WINST EN VERLIES
+
+Som der bedrijfsopbrengsten
+
+Netto omzet 1.123.825 745.879
+1.123.825 745.879
+Bruto marge 1.123.825 745.879
+Bedrijfslasten
+Lonen en salarissen 435.885 372.210
+Sociale lasten en pensioenen 109.019 91.630
+Afschrijving (im)materiële vaste activa 513 139
+545.417 463.979
+
+Overige bedrijfslasten
+
+Personeelskosten 470.806 306.980
+Huisvestingskosten 3.348 273
+Autokosten 5.989 10.631
+Verkoopkosten 52.290 0
+Kantoorkosten 23.063 29.681
+Algemene kosten 67.244 32.129
+
+622.740 379.694
+Som der bedrijfslasten 1.168.157 843.673
+Bedrijfsresultaat -44.332 -97.794
+Rentelasten en soortgelijke kosten 41.679 2.544
+Financiele baten en lasten -41.679 -2.544
+Resultaat uit gewone bedrijfsuitoefening -86.011 -100.338
+Netto resultaat na belasting -86.011 -100.338
+Resultaat na belastingen -86.011 -100.338
+TOTAAL WINST- EN VERLIESREKENING -86.011 -100.338
+
+Controlegetal: 731.411.138 -8
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Grondslagen voor de waardering van activa en passiva
+
+Grondslagen toelichting algemeen
+Algemene grondslagen voor de opstelling van de jaarrekening
+
+Algemeen
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW.
+
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van
+historische kosten, tenzij anders vermeld.
+
+Baten en lasten worden toegekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken
+van de jaarrekening bekend zijn geworden.
+
+Controlegetal: 731.411.138 -9
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Grondslagen voor de waardering van activa en passiva
+
+Grondslagen toelichting activa / passiva
+Grondslagen voor de waardering van activa en passiva
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen verkrijgingsprijs, verminderd met de cumulatieve
+afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden
+gebaseerd op de geschatte economische levensduur en worden berekend op basis van een vast
+percentage van de verkrijgingsprijs, rekening houdend met een eventuele residuwaarde. Er wordt
+afgeschreven vanaf het moment van ingebruikneming.
+
+Vorderingen en overlopende activa
+
+De vorderingen worden bij eerst verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen geamortiseerde kostprijs. De reële waarde en geamortiseerde kostprijs zijn gelijk aan
+de nominale waarde. Noodzakelijk geachte voorzieningen voor het risico van oninbaarheid worden in
+mindering gebracht. Deze voorzieningen worden bepaald op basis van individuele beoordeling van de
+vorderingen.
+
+Liquide middelen
+De liquide middelen zijn gewaardeerd tegen de nominale waarde. Indien middelen niet ter vrije
+beschikking staan, dan wordt hiermee bij de waardering rekening gehouden.
+
+| Eigen vermogen
+| Geplaatst kapitaal
+Het geplaatst kapitaal is geheel volgestort.
+
+Algemene reserves
+Overige reserves zijn alle reserves, anders dan de wettelijke reserves en de statutaire reserves. Overige
+reserves zijn vrij uitkeerbaar aan de aandeelhouders.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs. Daar waar geen
+sprake is van (dis)agio en transactiekosten is de geamortiseerde kostprijs gelijk aan de nominale waarde.
+Overige schulden
+
+Overige kortlopende schulden worden gewaardeerd tegen de nominale waarde.
+
+Controlegetal: 731.411.138 - 10
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Grondslagen voor resultaatbepaling
+
+Grondslagen toelichting resultaat
+Grondslagen voor resultaatbepaling
+
+Algemeen
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken
+van de jaarrekening bekend zijn geworden.
+
+Netto-omzet
+Onder netto-omzet wordt verstaan de opbrengst van de in het verslagjaar geleverde goederen en
+verleende diensten onder aftrek van kortingen en de over de omzet geheven belastingen.
+
+Opbrengsten voortvloeiend uit de verkoop van goederen worden verantwoord op het moment dat alle
+belangrijke rechten op economische voordelen alsmede alle belangrijke risico's zijn overgegaan op de
+koper. De kostprijs van deze goederen wordt aan dezelfde periode toegerekend.
+
+Opbrengsten van diensten worden opgenomen naar rato van de mate waarin de diensten zijn verricht. De
+kostprijs van deze diensten wordt aan dezelfde periode toegerekend.
+
+Brutomarge
+De brutomarge bestaat uit het verschil tussen de netto-omzet en de kostprijs van de omzet, alsmede uit de
+overige bedrijfsopbrengsten.
+
+Overige bedrijfs kosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Pensioenpremies
+
+De vennootschap heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over
+het verslagjaar verschuldigde premie wordt als last verantwoord. Mutaties in de pensioenvoorziening
+worden ook in de winst- en verliesrekening verwerkt.
+
+Afschrijvingen
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages van de
+aanschaffingswaarde/actuele waarde, op basis van de verwachte economische levensduur. Boekwinsten
+en -verliezen bij verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen.
+
+Financiële baten en lasten
+De rentebaten en -lasten betreffen de op de verslagperiode betrekking hebbende renteopbrengsten en
+rentelasten van uitgegeven en ontvangen leningen.
+
+Belastingen
+De vennootschapsbelasting wordt berekend tegen het geldende tarief over het resultaat van het boekjaar,
+waarbij rekening wordt gehouden met tijdelijke en permanente verschillen tussen de winstberekening
+
+Controlegetal: 731.411.138 - 11
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Grondslagen voor resultaatbepaling
+
+volgens de jaarrekening en de fiscale winstberekening, en waarbij actieve belastinglatenties (indien van
+toepassing) slechts worden gewaardeerd voor zover de realisatie daarvan waarschijnlijk is. Doorbelasting
+van vennootschapsbelasting aan de in de fiscale eenheid opgenomen vennootschappen vindt plaats als
+waren de deelnemingen zelfstandig belastingplichting.
+
+Controlegetal: 731.411.138 - 12
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Toelichting op de balans
+
+31 december 2025
+
+31 december 2024
+
+€ €
+Materiële vaste activa
+Inventarissen
+Inventaris 3.651 2.753
+Inventaris afschrijving -122 -25
+Computer 1.298 699
+Computer afschrijving -111 -76
+4.716 3.351
+Vervoermiddelen
+Vervoermiddelen 20.450 16.650
+Vervoermiddelen afschrijving -16.443 -16.063
+4.007 587
+
+De volgende jaarlijkse afschrijvingspercentages voor de (im)materiële vaste activa worden gehanteerd
+
+(indien van toepassing):
+
+1. Goodwill
+
+2 Gebouwen
+
+3. Huurdersinvesteringen
+4. Machines en installaties
+5. Inventaris
+
+6. Vervoermiddelen
+
+Vorderingen en overlopende activa
+Debiteuren
+
+Debiteuren
+
+Vordering op groe ps maatschappijen
+RC GTZ
+
+10%
+5%
+20%
+20%
+20%
+20%
+
+233.706
+
+262.070
+
+304.067
+
+216.744
+
+Over het gemiddeld saldo in rekening-courant wordt 3% rente berekend. Er zijn geen
+aflossingsverplichtingen afgesproken. Er zijn geen zekerheden gesteld.
+
+Controlegetal: 731.411.138 - 13
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Toelichting op de balans
+
+31 december 2025
+
+31 december 2024
+
+€ €
+Premies werknemersverzekeringen
+Betaalde pensioenpremies 3.241 65.089
+Overige vorderingen
+Nog te betalen posten 38 95
+Transitorische tussenrekening 0 8
+38 103
+Overlopende activa
+Nog te ontvangen posten 6.103 174
+Betaalde WW / WGA-Hiaat 695 894
+6.798 1.068
+Liquide middelen
+Banken
+Rabobank rekening 7.111 11.696
+
+Controlegetal: 731.411.138 - 14
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Toelichting op de balans 31 december 2025 31 december 2024
+€ €
+
+Eigen vermogen
+
+Aandelen kapitaal
+Geplaatst kapitaal 1 l
+
+Het geplaatst en volgestorte aandelenkapitaal bedraagt € 1,00 bestaande uit 100 gewone aandelen van elk
+nominaal € 0,01.
+
+Overige reserves
+
+Overige reserves -648.572 -562.560
+Eigen vermogen BV -648.571 -562.559
+Eigen vermogen -648.571 -562.559
+
+Langlopende schulden
+
+Achtergestelde lening (garantievermogen)
+Achtergestelde lening 650.000 575.000
+
+Betreft een in 2020 verstrekte achtergestelde lening, oorspronkelijk groot € 250.000. De lening, die
+oorspronkelijk een looptijd had tot en met 31 december 2025, is voor de tweede maal verlengd met 2 jaar
+en heeft thans een looptijd tot en met 31 december 2027. De lening dient in één keer te worden afgelost op
+31 december 2027. Het rentepercentage bedraagt 6% per jaar. Er zijn geen zekerheden verstrekt.
+
+Kortlopende schulden
+
+Schulden aan kredietinstellingen
+
+Kruisposten 1.557 0
+Crediteuren
+Crediteuren 83.611 120.817
+
+Controlegetal: 731.411.138 - 15
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Toelichting op de balans 31 december 2025 31 december 2024
+€ €
+
+Schulden aan groe ps maatschappijen
+RC TZ 392.854 376.287
+
+Over het gemiddeld saldo in rekening-courant wordt 3% rente berekend. Er zijn geen
+aflossingsverplichtingen afgesproken. Er zijn geen zekerheden gesteld.
+
+Schulden ter zake van pensioenen
+Pensioenpremies 0 64.191
+
+Overige schulden
+
+Transitorische tussenrekening 3.148 0
+Vakantiegeldverplichting 17.106 3.625
+20.254 3.625
+Overlopende passiva
+Reservering vakantietoeslag 0 5.543
+Reservering eindejaarsuitkering 5.291 4.017
+Reservering vakantiedagen 16.691 15.334
+Inhouding WW / WGA-Hiaat 0 450
+21.982 25.344
+
+Controlegetal: 731.411.138 - 16
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Toelichting winst- en verliesrekening 2025 2024
+
+Som der bedrijfs opbrengsten
+
+Netto omzet
+
+Omzet HH / WMO - intercompany 6 0
+Omzet VV ZvW / (gecontracteerd) ic 567.881 207.207
+Omzet VV WLZ / PGB - intercompany 0 38.699
+Omzet VV WLZ/Verpleg. (PV, VP en DB) ic 7.854 7.925
+Omzet VV ZvW / (gecontracteerd) 719.752 31.187
+Omzet VV ZvW / (ongecontracteerd) 0 40.636
+Omzet VV WLZ / Verpleging (PV, VP en DB) 155.896 134.402
+Omzet VV WLZ / HH 262.799 275.946
+Omzet VV WLZ overige contracten 48.446 0
+Omzet voorgaande jaren 1.191 9.877
+
+1.123.825 745.879
+Bedrijfslasten
+
+Lonen en salarissen
+
+Bruto lonen 377.690 320.512
+Reservering vakantietoeslag 28.828 24.854
+Reservering eindejaarsuitkering 28.010 23.303
+Reservering vakantiedagen 1.357 3.541
+
+435.885 372.210
+
+Gemiddeld aantal werknemers
+FTE (loonkosten / € 35.000) (€ 435.885 + € 109.019)/35000
+
+Vakantiedagen werknemers
+Vakantiedagen worden berekend op basis van 3,0% van de bruto loonsom per eindejaar.
+
+Controlegetal: 731.411.138 - 17
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Toelichting winst- en verliesrekening 2025 2024
+
+Sociale lasten en pensioenen
+
+Sociale lasten bedrijfsvereniging 73.942 64.291
+Sociale lasten vakantietoeslag 2.058 -1.199
+Sociale lasten eindejaarsuitkering 330 -254
+Premie pensioenfondsen 32.689 28.792
+109.019 91.630
+
+Afschrijving (im)materiële vaste activa
+Afschrijving kantoorinventaris 98 0
+Afschrijving computers 35 67
+Afschrijving vervoermiddelen 380 72
+513 139
+
+Overige bedrijfslasten
+
+Personeelskosten
+Reiskosten personeel 15.050 9.611
+Onderaannemers - intercompany 484.488 327.302
+Uitzendkrachten 1.246 0
+Inhoudingen 0 527
+Opleiding personeel 3.579 4.752
+Subsidies opleidingskosten -43.095 -41.503
+Ontvangen ziekengeld -5.161 -5.280
+Verzekering Wga 599 677
+Diverse personeelskosten 8.100 10.894
+470.806 306.980
+Huis vestingskosten
+Diverse benodigdheden 17 0
+Onderhoudskosten gebouwen 0 174
+Schoonmaakkosten 3.331 99
+3.348 273
+
+Controlegetal: 731.411.138 - 18
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Toelichting winst- en verliesrekening 2025 2024
+€ €
+Autokosten
+Reparatie en onderhoud vervoermiddelen 1.261 2.959
+Assurantie vervoermiddelen 807 1.985
+Belastingen auto's 770 915
+Brandstof vervoermiddelen 2.853 4.681
+Bekeuringen 0 91
+Overige vervoermiddelen 298 0
+5.989 10.631
+Verkoopkosten
+Representatiekosten 1.251 0
+Afschrijving dubieuze debiteuren 51.039 0
+52.290
+Kantoorkosten
+Kantoorbenodigdheden 0 340
+Telefoonkosten/internetkosten 10.971 18.043
+Vracht- en portikosten 0 227
+Automatiseringskosten 12.092 11.071
+23.063 29.681
+Algemene kosten
+Betaalverschil crediteuren 348 0
+Betaalverschil debiteuren -l 0
+Contributie en abonnementen 4.119 1.765
+Advies- en informatiekosten 786 1.637
+Bedrijfsverzekeringen 0 211
+Kantoorkosten intern 61.992 28.514
+Diverse algemene kosten 0 2
+67.244 32.129
+
+Controlegetal: 731.411.138 - 19
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Toelichting winst- en verliesrekening 2025 2024
+€ €
+
+Rentelasten en soortgelijke kosten
+Bank- en girokosten 638 549
+Boete Belastingdienst 0 509
+Rente financiering 36.750 0
+Rente RC GTZ -1.076 -5.658
+Rente RC TZ 11.367 7.144
+41.679 2.544
+
+Controlegetal: 731.411.138 - 20
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Ondertekening
+
+Ondertekening van de jaarrekening
+
+De jaarrekerfíng\van Gelder Thuiszorg V & V B.V. is opgemaakt door het bestuur en de Raad
+van Toezicht te Apeldoorn op 20 mei 2026,
+
+Voor dezen
+Bestuurder TZ B{M, H.G.J. Kloppenberg
+
+jo
+
+Voor deze:
+Bestuurder G.S. Holterman
+
+Voor dede:
+Voorzitter Raad van Toezicht J. Berger
+
+AT
+
+Voor deze:
+Lid Raad van Toezicht C.L. van Malsen
+
+Voor dege ZS
+
+Lid Raad van Toezicht B.R. Schudel
+
+Controlegetal: 731.411.138 - 21
+
+
+OVERIGE GEGEVENS
+
+Controlegetal: 731.411.138 - 22
+
+
+Gelder Thuiszorg V & V B.V. (jaarrekening)
+
+Overige gegevens
+
+1 Accountants controle
+
+Aangezien de besloten vennootschap valt binnen de door de wet, in artikel 2:396 lid 1 BW
+gestelde grenzen, is de vennootschap vrijgesteld van accountantscontrole. Om deze reden is aan
+de jaarrekening geen controleverklaring toegevoegd.
+
+2 Statutaire regeling winstbeste mming
+
+Op grond van de artikelen van de statuten staat het resultaat ter vrije beschikking van de
+Algemene Vergadering.
+
+1. De winst staat ter vrije beschikking van de Algemene Vergadering.
+
+2. De vennootschap kan aan de aandeelhouders en andere gerechtigden tot de voor uitkering
+vatbare winst slechts uitkeringen doen voor zover het eigen vermogen groter is dan het gestorte
+en opgevraagde deel van het kapitaal vermeerderd met de reserves die krachtens de wet moeten
+worden aangehouden.
+
+3. Uitkering van winst geschiedt na de vaststelling van de jaarrekening waaruit blijkt dat zij
+geoorloofd is.
+
+4. Bij de berekening van de winstverdeling stellen de aandelen die de vennootschap in haar eigen
+kapitaal houdt niet mede, tenzij deze aandelen belast zijn met een vruchtgebruik of pandrecht of
+daarvan certificaten zijn uitgegeven ten gevolge waarvan het winstrecht toekomst aan de
+vruchtgebruiker, de pandhouder of de houder van die certificaten van aandelen.
+
+5. Aandelen waarvan de vennootschap certificaten van aandelen houdt of waarop de
+vennootschap een beperkt recht heeft op grond waarvan zij gerechtigd is tot de winstuitkering,
+tellen bij de berekening van de winstverdeling eveneens niet mee.
+
+6. De vennootschap mag tussentijds slechts uitkeringen doen, indien aan het vereiste van lid 2 is
+voldaan.
+
+3 Vaststelling jaarrekening
+De Algemene Vergadering heeft de jaarrekening 2024 vastgesteld. Het nettoresultaat na de
+
+belastingen over het boekjaar 2024 bedroeg € -100.338.
+
+4 Voorstel resultaatverwerking
+Het bestuur van de vennootschap stelt voor het resultaat de volgende bestemming te geven:
+
+Bij een positief eigen vermogen wordt het resultaat als dividend uitgekeerd, tenzij het de holding
+betreft dan wordt het resultaat aan de overige reserves toegevoegd.
+
+Dit voorstel dient nog te worden goedgekeurd door de Algemene Vergadering en is onder
+voorbehoud van de goedkeuring door de Algemene Vergadering in de jaarrekening 2025 van de
+vennootschap verwerkt.
+
+Controlegetal: 731.411.138 - 23
+

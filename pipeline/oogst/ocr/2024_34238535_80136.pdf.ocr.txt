@@ -1,0 +1,1105 @@
+# whosigns-ocr v1 grootte=29586853 dpi=300 paginas=20
+ACTIVA
+
+3. Vorderingen
+
+De specificatie is als volgt: 31-dec-24 31-dec-23
+x€ 1.000 x€ 1.000
+1. Vorderingen op handelsdebiteuren 879 1.187
+Voorziening dubieuze vorderingen op handelsdebiteuren -10 +1
+2. Vorderingen op groepsmaatschappijen 233 76
+3. Overlopende activa
+Nog te factureren zorgtrajecten 163 530
+Vooruitbetaalde / nog te ontvangen bedragen 382 156
+1.647 1,948
+4. Liquide middelen
+De specificatie is als volgt: 31-dec-24 31-dec-23
+x€ 1.000 x€ 1,000
+1. Bankrekeningen 2.049 1.746
+2.049 1.746
+
+Totaal liquide middelen
+
+Toelichting:
+De liquide middelen zijn vrij beschikbaar.
+
+45
+
+PASSIVA
+
+5. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+1. Kapitaal
+2. Agio
+3. Overige reserves
+
+Totaal eigen vermogen
+
+5.1. Kapitaal
+
+Het verloop is als volgt weer te geven voor 2024:
+
+Kapitaal
+Totaal kapitaal
+
+Het verloop ís als volgt weer te geven voor 2023:
+
+Kapitaal
+Totaal kapitaal
+
+Toelichting:
+
+31-dec-24 31-dec-23
+x€ 1.000 x € 1.000
+18 18
+3.133 3.633
+-1.051 -1,636
+2.100 2.015
+Zn
+Saldo per Resultaat- Overige Saldo per
+1-jan-24 bestemming tati 31-dec-24
+x€ 1.000 x€ 1,000 x€ 1.000 x€ 1,000
+18 - - 18
+18 - - 18
+Saldo per Resultaat- Overige Saldo per
+1-jan-23 bestemmin mutaties 31-dec-23
+x€ 1.000 x€ 4.000 x€1,000 x€ 1.000
+18 - - 18
+18 - - 18
+
+Het maatschappelijk kapitaal bedraagt € 18.000, verdeeld in 18.000 aandelen van nominaal € 1. Hiervan zijn geplaatst en volgestort 18.000 aandelen van
+
+nominaal € 1.
+5.2. Agio
+
+Het verloop is als volgt weer te geven voor 2024:
+
+Agio
+Totaal agio
+
+Het verloop is als volgt weer te geven voor 2023:
+
+Agio
+Totaal agio
+
+5.3. Overige reserves
+
+Het verloop is als volgt weer te geven voor 2024:
+
+Overige reserves:
+Totaal overige reserves
+
+Het verloop is als volgt weer te geven voor 2023:
+
+Overige reserves:
+Totaal overige reserves
+
+1 bied pe kal
+
+Specificatie
+en resultaat over 2024
+
+De specificatie is als volgt:
+
+Enkelvoudig eigen vermogen en resultaat:
+
+Totaal geconsolideerd eigen vermogen en resultaat
+
+iting g d- lig ver
+
+per 31 december 2024
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-24 bestemming tati 31-dec-24
+x€ 1.000 x€ £.000 x€ 1.000 x € 1.000
+3.633 - -500 3.133
+3.633 - -500 3.133
+Saldo per Resultaat- Overige Saldo per
+1-jan-23 b ing mutaties 31-dec-23
+x€ 1.000 x€ 1.000 x€ 1.000 x € 1.000
+4,133 - -500 3.633
+4,133 - -500 3.633
+Saldo per Resultaat- Overige Saldo per
+t-jan-24 b ning mutaties 31-dec-24
+x€ 1,000 x€ 1.000 x€ 1.000 x € 1.000
+
+„1.636 585 - -1.051
+
+-1,636 585 - -1.051
+Saldo per Resultaat- Overige Saldo per
+1-jan-23 b ning mutaties 31-dec-23
+x€ 1.000 x€1.000 x€ 1.000 x € 1.000
+-2,252 616 - -1.636
+-2.252 616 - =1,636
+
+Eigen
+
+vermogen Resultaat
+x€ 1.000 x € 1.000
+
+2.100 585
+
+2.100 585
+
+
+6 Voorzieningen
+
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+Het verloop is als volgt weer te geven: 1-jan-24 31-dec-24
+x € 1.000 x € 1.000 x€ 1.000 x € 1.000 x€ 1.000
+1. overige 40 315 - -40 315
+2. langdurig zieken 269 186 -269 . 186
+Totaal voorzieningen 309 501 -269 40 501
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+31-dec-24
+Kortlopend deel van de voorzieningen (< 1 jr.) 501
+Langlopend deel van de voorzieningen (> 1 jr.) -
+hiervan > 5 jaar -
+Toelichting per categorie vc 1g:
+Voorziening langdurig zieken
+Voor langdurig zieke medewerkers is een voorziening gevormd voor de te betalen salariskosten tot aan het moment waarop de
+arbeidsovereenkomst zal worden beëindigd, Het kortlopend deel van de voorziening bedraagt € 185.752.
+Voorziening inzake overproductie zorg
+Dit betreft een voorziening voor de geleverde zorgprestaties boven het afgesproken budgetplafond,
+Het kortlopend deel van de voorziening bedraagt € 315.272,
+7 Kortlopend: hulden (ten hoogste 1 jaar)
+De specificatie kortlopende schulden is als volgt: 31-dec-24 31-dec-23
+x€ 1.000 x€1.000
+1. Schulden aan leveranciers en handelskredieten 447 187
+2. Schuiden aan groepsmaatschappijen 1.016 999
+3. Belastingen en premies sociale verzekeringen 778 712
+4. Overige passiva
+Vakantiegeld en -dagen 896 802
+Vooruitontvangen bedragen 279 -
+Nog te ontvangen facturen 114 72
+Te betalen salarissen 38 35
+Afkoopsomen 21 154
+Ontvangen waarborgsommen 8 -
+Totaal overige schulden 3.567 2.961
+
+Toelichting:
+
+Over de rekening-courant aan groeps- en gelieerde maatschappijen is in 2024 3% (2023: idem) rente berekend. Er zijn geen zekerheden noch
+
+aflossingsverplichtingen overeengekomen.
+
+47
+
+
+PASSIVA
+
+8. Financiële instrumenten
+
+Valutarisico
+De onderneming heeft alleen maar financiële instrumenten in euro en transacties ín euro, derhalve loopt de onderneming geen valütarisico.
+
+Kredietrisico
+
+De groep handelt voor 80% met zorgverzekeraars en overheidsinstellingen (gemeenten, sociale verzekeringsbank en Dienst uitvoering Onderwijs) waarmee
+het merendeel van de van de opdrachtgevers kredietwaardige partijen betreft. Voor de zakelijke markt heeft zij procedures opgesteld om de
+kredietwaardigheid te bepalen. Tevens heeft de vennootschap richtlijnen opgesteld om de omvang van het kredietrisico bij elke financiële instelling en
+debiteur te beperken. Bovendien bewaakt de vennootschap voortdurend haar vorderingen en hanteert de vennootschap een strikte aanmaningsprocedure.
+Door de bovenstaande maatregelen ís het kredietrisico voor de vennootschap minimaal. Het maximale kredietrisico aangaande vorderingen, liquide
+middelen en niet in de balans opgenomen financiële activa is weergegeven onder de desbetreffende toelichtingen.
+
+Liquiditeitsrisico
+
+Periodiek worden liquiditeitsbegrotingen opgesteld. Door tussentijdse monitoring en eventuele bijsturing worden fiquiditeitsrisico’s beheerst. In de
+liquiditeitsbegrotingen wordt rekening gehouden met beperkende factoren op de beschikbaarheid van liquide middelen waaronder bankgaranties en als
+belangrijkste tussentijdse wijzigingen in facturatie systematieken bij vooral gemeentelijke opdrachtgevers.
+
+Voor een toelichting van de kredietfaciliteit wordt verwezen naar de toelichting op de langlopende schulden in de jaarrekening van Sprangk Groep B.V. De
+groep voldoet per balansdatum aan de convenantverplichtingen (2023: idem).
+
+Renterisico
+De onderneming heeft als beleid om geen afgeleide financiële instrumenten te gebruiken om (tussentijdse) rentefluctuaties te beheersen. Er is geen sprake
+van opgenomen en uitgegeven leningen.
+
+Risico's fraude en onregelmatigheden
+
+Wij zijn ens bewust van het risico van fraude, niet integere en onethische gedragingen binnen onze organisatie, Vanaf 2022 maken wij een jaarlijkse
+frauderisico analyse waarin we de risico's die we lopen wegen en voorzien van adequate beheersmaatregelen en de werking van deze maatregelen toetsen
+op effectiviteit. Interne en externe partijen moeten er immers op kunnen vertrouwen dat wij ons werk op een betrouwbare integere wijze doen. We beperken
+fraude in de organisatie van processen door functiescheiding, transparante besluitvorming, onze governance structuur en onze gedragscodes en
+beschermen melders met onze klokkenluiders regeling en vertrouwenspersoon. In 2024 zijn bij Levéo 0 (2023: 3) meldingen gedaan bij de
+vertrouwenspersoon. Geen van deze meldingen had betrekking op integriteit of fraude. De directie is van mening dat, met alle analyses en getroffen
+beheersingsmaatregelen, de risico's met betrekking tot een beheerste en integere bedrijfsvoering inzichtelijk zijn en op een adequate wijze worden
+gemitigeerd.
+
+PASSIVA
+
+9. Niet in de bal; pg verplichtingen en niet ín de balans opgenomen activa”
+Toelichting:
+
+Huurverplichtingen
+
+Het jaarlijks bedrag van de aangegane huurverplichtingen van onroerende zaken is € 587.283, De totale verplichting bedraagt € 1.299.028.
+De uitsplitsing van de verplichting kan als volgt worden weergegeven:
+
+Korter dan 1 jaar: € 587.283
+
+Tussen 1 en 5 jaar: € 711.745
+
+Langer dan 5 jaar: € 0
+
+Fiscale eenheid
+De vennootschap maakt deel uit van een fiscale eenheid voor de vennootschapsbelasting en omzetbelasting met Sprangk Groep B.V., Perspectief B.V.,
+
+Sagènn Groep B.V, Sagènn Educatie B‚V., Sagènn Re-integratie B.V, Sprangk Services B.V. en Sprangk Software B.V.
+
+Het hoofd van de fiscale eenheid is Sprangk Groep B.V. Op grond hiervan is de vennootschap hoofdelijk aansprakelijk voor de schulden inzake
+vennaotschapsbelasting en omzetbelasting van de groep als geheel,
+
+48
+
+PASSIVA
+
+10. Mogelijke rechten of verplichtingen in het kader van de niet in de balans opgenomen regelingen"
+
+Eel, hab <
+
+van het ument
+
+Verplichtingen uit h
+
+Het macrobeheersinstrument kan door de minister van VWS ingezet worden om overschrijdingen van het macrokader zorg terug te vorderen bij instellingen
+voor medisch specialistische zorg en bij instellingen voor curatieve geestelijke gezondheidszorg. Het macrobeheersinstrument is uitgewerkt in de Aanwijzing
+macrobeheersmodel instellingen voor medisch specialistische zorg, respectievelijk Aanwijzing Macrobeheersinstrument curatieve geestelijke
+gezondheidszorg. Ook voor instellingen in andere sectoren kan een Aanwijzing Macrabeheersinstrument van toepassing zijn.
+
+Jaarlijks wordt door de Nederlandse Zorgautoriteit (NZa) ambtshalve een mbi-omzetp!afond vastgesteld. Tevens wordt door de NZa jaarlijks een
+omzetplafond per instelling vastgesteld, welke afhankelijk is van de realisatie van het mbi-omzetplafond van alle instellingen gezamenlijk. Deze vaststelling
+vindt plaats nadat daor de Minister van VWS de overschrijding van het mbi-omzetplafond uiterlijk vóór 1 december van het opvolgend jaar is
+gecommuniceerd,
+
+Bij het opstellen van de jaarrekening 2024 bestaat nog geen inzicht in realisatie van het mbi-omzetplafond over 2024. Levéo Groep B.V. is niet in staat een
+betrouwbare inschatting te maken van de uit het macrabeheersinstrument voortkomende verplichting en deze te kwantificeren, Als gevolg daarvan is deze
+verplichting niet tot uitdrukking gebracht in de balans van Levéo Groep BV. per 31 december 2024,
+
+Uitspraak Europees Hof over overwerkvergoeding voor deeltijdwerkers
+
+Het Hof van Justitie van de Europese Unie (HvJ EU) heeft uitspraken gedaan met betrekking tot de overwerkvergoeding voor medewerkers die in deeltijd
+werken. Deze uitspraken kunnen gevolgen hebben voor de wijze waarop overuren worden beloond en zou mogelijk kunnen leiden tot een nabetaling met
+terugwerkende kracht voor deeltijdwerkers. Op dit moment wordt onderzocht of en in hoeverre deze uitspraken van het HvJ EU van toepassing zijn op de
+zorgsector en op de verschillende (al dan niet algemeen verbindend verklaarde) cao's die in de zorg worden gebruikt, en welke financiële impact dit met zich
+mee kan brengen. Er zijn ten aanzien van de financiële gevolgen van de uitspraken van het HvJ EU nog vragen en onzekerheden, waaronder ook de
+beschikbaarheid en betrouwbaarheid van de benodigde onderliggende data om te komen tot het bepalen van de financiële consequenties. De mogelijke
+financiële verplichtingen die voortvloeien uit de uitspraken van het HvJ EU zijn als gevolg van deze vragen en onzekerheden op dit moment nog niet met
+voldoende zekerheid vast te stellen. Daarom zijn deze niet in de balans opgenomen. Wij volgen de ontwikkelingen nauwgezet en zullen, indien noodzakelijk,
+in toekomstige verslagperiodes nadere informatie verstrekken over de mogelijke financiële consequenties.
+
+Kredietfaciliteit
+
+De groep beschikt over een kredietfaciliteit in rekening courant bij ABN AMRO Bank N.V. van € 750.000, Daarnaast zijn er een tweetal hypothecaire
+leningen afgestoten, waarvoor de volgende zekerheden zijn gesteld:
+
+= Een bankhypotheek, 1e in rang, van € 750.000 plus 40% voor rente en kosten. Deze hypotheek wordt gevestigd op het registergoed Hoefstraat 214 te
+Tilburg;
+
+- Een bankhypotheek, 1e in rang, van € 430.000 plus 40% voor rente en kosten. Deze hypotheek wordt gevestigd op het registergoed Vrieseplein 15 te
+Dordrecht,
+
+= De gehele groep is hoofdelijk aansprakelijk voor de gestelde zekerheden;
+
+= Pandrecht op bedrijfsinventaris;
+
+= Pandrecht op voorraden;
+
+- Pandrecht op vorderingen door de ABN AMRO Bank N.V.
+
+« Op niveau van Sprangk Groep B.V. dient het geconsolideerd garantievermogen altijd minimaal 30% van het gecorrigeerd geconsolideerd balanstotaal te
+bedragen.
+
+49
+
+Levéo Groep B.V.
+
+1.4.5 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+Voor zover posten uit de enkelvoudige resultatenrekening niet afwijken van de geconsolideerde resultatenrekening
+zijn deze hiema niet nader toegelicht en wordt verwezen naar de toelichting op de geconsolideerde resultatenrekeníng.
+
+BATEN
+
+11. Opbrengsten Jeugdwet
+
+De opbrengsten Jeugdwet zijn als volgt samengesteld: 2024 2023
+
+€ €
+Zorg Jeugd/WMO 16,423 14.394
+Totaal 16.423 14.394
+LASTEN
+
+12. Kosten van uitbesteed werk en andere externe kosten
+
+De kosten van uitbesteed werk en andere externe kosten zijn als volgt samengesteld: 2024 2023
+
+€ €
+Zorg Jeugd/WMO 766 578
+Totaal 766 578
+
+13. Lonen, salarissen, sociale lasten en pensioenlasten
+
+De specificatie is als volgt: 2024 2023
+
+€ €
+Lonen en salarissen 8.755 7.896
+Sociale lasten 1.563 1.446
+Pensioenpremies 705 599
+Totaal personeelskosten 11.023 9,941
+
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+
+Zorg Jeugd/WMO 149 143
+Directie 1 1
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 150 144
+
+Al het hierboven vermelde personeel was in 2024 werkzaam in Nederland (2023: idem).
+Geen sprake van personeel in het buitenland.
+
+50
+
+
+LASTEN
+
+14. Afschrijvingen op immateriële en materiële vaste activa
+
+De specificatie is als volgt:
+
+Afschrijvingen:
+- materiële vaste activa
+
+Totaal afschrijvingen
+
+15. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+Huisvestingskosten
+
+ICT Beheer
+
+Overige personeelskosten
+Software
+
+Autokosten
+Accountantskosten
+Marketingkosten
+Kantoorkosten
+
+Algemene kosten
+Doorbelaste groepskosten
+Doorberekende overheadkosten
+
+Algemene kosten
+
+Overige algemene kosten
+
+Advieskosten
+
+Assurantiepremie
+
+Mutatie voorziening dubieuze debiteuren
+Bankkosten
+
+Overige exploitatiekosten
+
+LASTEN
+
+16. Financiële baten en lasten
+
+De specificatie is als volgt:
+Rentebaten
+
+Subtotaal financiële baten
+Rentelasten groepsmaatschappijen
+Overige financiële lasten
+
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+2024 2023
+x€ 1.000 x€ 1.000
+324 162
+324 162
+2024 2023
+x€ 1,000 x€ 1,000
+1209 927
+633 668
+577 552
+405 419
+380 375
+150 16
+115 79
+94 75
+
+93 77
+
+55 60
+101 -225
+3.610 3.123
+37 44
+
+23 20
+
+15 16
+
+9 13
+
+8 8
+
+1 2
+
+53 77
+2024 2023
+x€ 1.000 x€ 1.000
+17 5
+
+17 5
+
+8 13
+
+0 2
+
+8 Ai
+
+5 6
+
+51
+
+17. Belastingen
+
+De specificatie is als volgt:
+Belastingen uit huidig boekjaar
+Latente belastingen
+
+Totaal
+
+Effectieve belastingtarief
+Toepasselijke belastingtarief
+
+Toelichting:
+
+Het toepasselijk belastingtarief voor het resultaat voor belasting tot en met een bedrag van € 200.000 bedraagt 19,0%. Voor het
+resultaat voor belasting boven een bedrag van € 200.000 is het toepasselijke belastingtarief 25,8%. De vermelde bedragen en
+
+percentages gelden voor zowel boekjaar 2024 als boekjaar 2023.
+
+Belastinglast op basis van toepasselijke belastingtarief
+Beperkt en niet aftrekbare kosten
+Effectieve belastinglast
+
+52
+
+2024 2023
+€ €
+-218 -167
+25 10
+193 157
+2024 2023
+% %
+27,16 27,05
+25,80 25,80
+2024 2023
+€ €
+-183 -150
+10 7
+193 157
+
+WNT-verantwoording 2024 Levéo Groep B.V.
+
+De WNT is van toepassing op Levéo Groep B.V. Het voor Levéo Groep B.V. toepasselijke bezoldi-
+gingsmaximum is in 2024 € 214.000 (het bezoldigingsmaximum voor zorg en jeugdhulp, klasse
+
+IV, totaalscore 11 punten).
+
+e _ Voor de bezoldiging van topfunctionaris J.W. van der Lugt wordt uitgegaan van de volledige
+
+bezoldiging uit dienstbetrekking bij Levéo Groep B.V.
+
+e _ Topfunctionaris M.L. den Daas heeft geen dienstverband met Levéo Groep B.V. maar heeft
+
+een dienstverband met Sprangk Groep B.V. (een andere entiteit binnen de groep waartoe
+Levéo Groep B.V. behoort). In deze WNT-verantwoording zijn de kosten die door Sprangk
+
+Groep B.V. aan Levéo Groep B.V. zijn doorbelast voor het vervullen van de topfunctie opgeno-
+
+men als bezoldiging.
+
+e _ Voor de bezoldiging van de overige topfunctionarissen wordt uitgegaan van de volledige aan
+
+Levéo Groep B.V, doorbelaste kosten.
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zon-
+der dienstbetrekking vanaf de 13° maand van de functievervulling inclusief degenen die op grond
+van hun voormalige functie nog 4 jaar als topfunctionaris worden aangemerkt
+
+Gegevens 2024
+
+„bedragen xEe1i M‚L; den Daas
+
+J.W. van der Lugt
+
+_Functiegegeven: 5 „Directeur recteur Zorgverlen
+Aanvang en einde functievervulling in 2024 1/1 - 31/12 1/1 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 0,778 1,000
+
+Nee Ja
+
+Dienstbetrekking?
+
+Beloning plus belastbare onkostenvergoedingen 7 - 155.365
+Beloningen betaalbaar op termijn - 16.034
+Subtotaal 145.804 171.399
+Individueel toepasselijke bezoldigingsmaximum 166.444 214.000
+-/- Onverschuldigd betaald en nog niet terugontvan- Nvt. Nvt.
+gen bedrag
+
+Bezoldiging 145.804 171.399
+Het bedrag van de overschrijding en de reden N.v.t Nvt
+waarom de overschrijding al dan niet is toegestaan an
+Toelichting op de vordering wegens onverschuldigde N.v.t N.v.t
+betaling 7
+
+SFünctiegegevens De En ED verlening.
+Aanvang en einde functievervulling in 2023 1/1 - 31/12 1/1 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 0,778 1,000
+Dienstbetrekking? Nee Ja
+
+SBezoldigine
+Beloning plus belastbare onkostenvergoedingen - 141.507
+Beloningen betaalbaar op termijn - 14.748
+Subtotaal 141.714 156.254
+Individueel toepasselijke bezoldigingsmaximum 159.444 205.000
+Bezoldiging 141.714 156.254
+
+53
+
+
+1c, Toezichthoudende topfunctionarissen
+
+Gegevens 2024 :
+
+‘bedragen x€1
+
+Aanvang en einde functievervulling in 2024 1/1 - 31/12 1/1 - 31/12
+
+ldiging nn
+Bezoldiging 7.979 5.300
+Individueel toepasselijke bezoldigingsmaximum 32.100 21.400
+drag verschuldiad betaald en nog niet terugontvangen be- Nvt. Nuv.t.
+Bezoldiging 7.979 5.300
+Het bedrag van de overschrijding en de reden waarom de Nvt N.v.t
+overschrijding al dan niet is toegestaan ne nh
+Toelichting op de vordering wegens onverschuldigde beta- N.v.t. N.v.t.
+
+ling?
+
+Bezoldiging 7.523 6.065
+Individueel toepasselijke bezoldigingsmaximum 30.750 20.500
+
+1d. Topfunctionarissen met een totale bezoldiging van € 2.100 of minder
+
+Topfunctionarissen inclusief degenen die op grond van hun voormalige functie nog 4 jaar als top-
+functionaris worden aangemerkt met een totale bezoldiging van € 2.100 of minder
+
+Gegevens 2024
+
+NAAM TOPFUNCTIONARIS. FUNCTIE
+
+R. Hoetmer Lid Raad van Toezicht _
+
+2. Uitkeringen wegens beëindiging dienstverband aan topfunctionarissen
+Niet van toepassing
+
+3. Bezoldiging niet-topfunctionarissen
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een
+dienstbetrekking die in 2024 een bezoldiging boven het individueel toepasselijke drempelbedrag
+hebben ontvangen.
+
+54
+
+
+Levéo Groep B.V.
+
+1.4.6 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Levéo Groep B.V. heeft de jaarrekening 2024 opgemaakt en vastgesteld in de
+vergadering van 19 mei 2025.
+
+De raad van toezicht van de Levéo Groep B.V. heeft de jaarrekening 2024 goedgekeurd in de vergadering van
+19 mei 2025.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 9.3 van de enkelvoudige jaarrekening.
+
+Levéo Groep B.V.
+
+Î
+
+Ondertekening door bestuurders’en toezichthouders
+
+M.L. den Daas’
+Directeur
+
+55
+
+Levéo Groep B.V.
+
+1.5 OVERIGE GEGEVENS
+
+1.5.1 Statutaire regeling resultaatbestemming
+
+Artikel 27. Winstverdeling
+
+1. De Vennootschap kan aan Aandeelhouders en andere gerechtigden tot de voor uitkering vatbare winst of
+reserves slechts uitkeringen doen voorzover het eigen vermogen groter is dan de reserves die krachtens de wet of
+statuten moeten worden aangehouden.
+
+2. Uitkering van winst geschiedt na de vaststelling van de Jaarrekening waaruit blijkt dat zij geoorloofd is.
+
+3. De uitkeerbare winst staat ter vrije beschikking van de Algemene Vergadering voor uitkering van dividend dan
+wel reservering als de Algemene Vergadering zal besluiten.
+
+4, Een besluit dat strekt tot uitkering heeft geen gevolgen zolang de Directie geen goedkeuring heeft verleend. De
+Directie weigert slechts de goedkeuring indien zij weet of redelijkerwijs behoort te voorzien dat- de Vennootschap
+na de uitkering niet zal kunnen blijven voortgaan met het betalen van haar opeisbare schulden.
+
+5. Uitkering aan Aandeelhouders geschiedt naar rato van ieders aandeel in het geplaatste kapitaal. Bij de
+berekening van het winstbedrag dat op elk Aandeel zal worden uitgekeerd komt het nominale -bedrag van de
+Aandelen in aanmerking.
+
+6. Bij de berekening van de verdeling van winst of andere uitkeringen tellen de Aandelen die de -Vennootschap in
+haar kapitaal houdt niet mee, tenzij op die Aandelen een recht van vruchtgebruik of pandrecht rust of van die
+Aandelen certificaten zijn uitgegeven.
+
+7. Met inachtneming van het bepaalde in lid 4 van dit artikel, kan de Algemene Vergadering besluiten tot
+tussentijdse uitkeringen en/of tot uitkeringen ten laste van een reserve van de Vennootschap. Ook de Directie kan
+besluiten tot het doen van tussentijdse uitkeringen.
+
+8. Tenzij de Algemene Vergadering een ander tijdstip vaststelt zijn dividenden onmiddellijk betaalbaar na
+vaststelling.
+
+9. De vordering tot uitbetaling van dividend verjaart door verloop van vijf (5) jaren.
+
+1.3.2 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina.
+
+56
+
+T: +31 (0)10 24 24 600 BDO Audit & Assurance B.V.
+
+E: rotterdam@bdo.nl Postbus 4208, 3006 AE Rotterdam
+
+en Wwww.bdo.nl Weena 764, 3014 DA Rotterdam
+Nederland
+
+Controleverklaring van de
+onafhankelijke accountant
+
+Aan: de aandeelhouders en raad van commissarissen van Levéo Groep B.V. te Rotterdam
+
+Verklaring over de in het jaarverslag opgenomen jaarrekening 2024
+
+Ons oordeel met beperking
+Wij hebben de jaarrekening 2024 van Levéo Groep B.V. te Rotterdam gecontroleerd.
+
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening, uitgezonderd de
+mogelijke gevolgen van de aangelegenheid beschreven in de paragraaf ‘De basis voor ons
+oordeel met beperking’, een getrouw beeld van de grootte en de samenstelling van het
+vermogen van Levéo Groep B.V. op 31 december 2024 en van het resultaat over 2024 in
+overeenstemming met Titel 9 Boek 2 van het in Nederland geldende Burgerlijk Wetboek en de
+Regeling openbare jaarverantwoording WMG, alsmede de bepalingen bij en krachtens de Wet
+normering topinkomens (WNT).
+
+De jaarrekening bestaat uit:
+
+1. de geconsolideerde en enkelvoudige balans per 31 december 2024;
+
+2. de geconsolideerde en enkelvoudige winst- en verliesrekening over 2024; en
+
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+De basis voor ons oordeel met beperking
+
+De beperking in ons oordeel heeft betrekking op WNT-aangelegenheden bij intra-groep
+
+detachering. Levéo Groep B.V. heeft in de jaarrekening in het hoofdstuk WNT-verantwoording
+
+2024 op pagina’s 53 en 54 toegelicht op welke topfunctionaris(sen) de omstandigheden, zoals
+
+hierna nader toegelicht, toezien. Wij zijn niet in staat geweest:
+
+pr vast te stellen of in de overige doorbelaste kosten nog bezoldigingscomponenten zijn
+opgenomen die aan het vervullen van de topfunctie moeten worden toegerekend, omdat
+de bepalingen bij en krachtens de WNT niet voorzien in een limitatieve opsomming van de
+componenten die tot de WNT-bezoldiging gerekend moeten worden bij intra-groep
+detachering;
+
+» vast te stellen of de verantwoorde deeltijdfactor van de betreffende leidinggevende
+topfunctionarissen overeenkomt met de praktijk, onder meer omdat de bepalingen bij en
+krachtens de WNT niet voorzien in de wijze van toerekening van groepsbrede activiteiten
+aan individuele WNT-instellingen, alsmede als gevolg van het ontbreken van een vorm van
+tijdsregistratie.
+
+Als gevolg hiervan zijn wij niet in staat geweest voldoende en geschikte controle-informatie
+te verkrijgen om vast te stellen dat de WNT-gegevens over zowel 2024 als 2023 van de
+topfunctionarissen bij de WNT -instelling, inclusief een eventuele onverschuldigde betaling als
+gevolg van WNT-bezoldigingselementen die mogelijk in de overige doorbelaste kosten zijn
+begrepen, zoals in de jaarrekening in het hoofdstuk WNT-verantwoording 2024 op pagina’s 53
+en 54 toegelicht, in overeenstemming zijn met de bepalingen bij en krachtens de WNT.
+
+Statutair g igd te Eindh hreven in het handelsregister onder nummer 17171186.
+
+BDO Audit & Assurance B.V. handelt tevens onder de namen: BDO Audit & Assurance B.V., BDO A BDO Technology Risk A
+BDO Audit & Assurance B.V. is lid van BDO International Ltd, een rechtspersoon naar Engels recht met beperkte aansprakelijkheid,
+en maakt deel uit van het wereldwijde netwerk van juridisch zelfstandige organisaties die onder de naam ‘BDO’ optreden.
+
+BDO is de merknaam die wordt gebruikt ter aanduiding van het BDO-netwerk en van elk van de BDO Member Firms.
+
+
+BDO
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de
+Nederlandse controlestandaarden en de Regeling Controleprotocol WNT 2024 vallen. Onze
+verantwoordelijkheden op grond hiervan zijn beschreven in de sectie ‘Onze
+verantwoordelijkheden voor de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Levéo Groep B.V. zoals vereist in de Wet toezicht
+accountantsorganisaties (Wta), de Verordening inzake de onafhankelijkheid van accountants
+bij assurance-opdrachten (ViO) en andere voor de opdracht relevante
+onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de Verordening
+gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis
+voor ons oordeel met beperking.
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met de Regeling Controleprotocol WNT 2024 hebben wij de
+anticumulatiebepaling, bedoeld in artikel 1.6a WNT en artikel 5, lid 1 sub n en o
+Uitvoeringsregeling WNT, niet gecontroleerd. Dit betekent dat wij niet hebben gecontroleerd
+of er wel of niet sprake is van een normoverschrijding door een leidinggevende
+topfunctionaris vanwege eventuele dienstbetrekkingen als leidinggevende topfunctionaris bij
+andere WNT-plichtige instellingen, alsmede of de in dit kader vereiste toelichting juist en
+volledig is.
+
+Informatie ter ondersteuning van ons oordeel
+
+Wij hebben onze controlewerkzaamheden bepaald in het kader van de jaarrekeningcontrole
+als geheel en bij het vormen van ons oordeel hierover. Onderstaande informatie ter
+ondersteuning van ons oordeel en onze bevindingen moeten in dat kader worden bezien en
+niet als afzonderlijke oordelen of conclusies.
+
+Controleaanpak continuïteit
+
+Zoals toegelicht in het onderdeel ‘Onze voornaamste risico’s’ in het bestuursverslag heeft het
+bestuur zijn continuïteitsbeoordeling voor het jaar 2024 uitgevoerd en geen gebeurtenissen of
+omstandigheden geïdentificeerd die gerede twijfel kunnen doen ontstaan over de mogelijkheid
+van de entiteit om haar continuïteit te handhaven (hierna: continuïteitsrisico's).
+
+Onze procedures om de continuïteitsbeoordeling van het bestuur te evalueren omvatten
+
+onder andere:
+
+» overwegen of de continuïteitsbeoordeling van het bestuur alle relevante informatie bevat
+waarvan wij als gevolg van onze controle kennis hebben en het bestuur bevragen over de
+belangrijkste veronderstellingen en uitgangspunten. Het bestuur heeft hierbij onder andere
+aandacht besteed aan flexibiliteit in de personeelsbezetting en inkoopverplichtingen;
+
+p evalueren van de begrote resultaten voor 2025, rekening houdend met de ontwikkelingen in
+de zorg en onze kennis uit de controle;
+
+» analyseren of de huidige financiering voor het kunnen continueren en uitbreiden van het
+geheel van de bedrijfsactiviteiten is gewaarborgd, inclusief het voldoen aan relevante
+convenanten;
+
+PAGINA 2 VAN 7
+
+BDO
+
+pe inwinnen van inlichtingen bij het bestuur over zijn kennis van continuïteitsrisico's na de
+periode van de door het bestuur verrichte continuïteitsbeoordeling.
+
+Uit onze werkzaamheden blijkt dat de door het bestuur gehanteerde continuïteits-
+veronderstelling aanvaardbaar is en er geen continuïteitsrisico's zijn geïdentificeerd.
+
+Controleaanpak frauderisico’s
+
+Wij hebben risico’s geïdentificeerd en ingeschat op een afwijking van materieel belang in de
+jaarrekening die het gevolg is van fraude.
+
+Wij hebben tijdens onze controle inzicht verkregen in de entiteit en haar omgeving, de
+componenten van het interne beheersingssysteem, waaronder het risico-inschattingsproces en
+de wijze waarop het bestuur inspeelt op frauderisico’s en het interne beheersingssysteem
+monitort en de wijze waarop de raad van commissarissen toezicht uitoefent, alsmede de
+uitkomsten daarvan. Wij verwijzen naar de paragraaf ‘Risico's fraude en onregelmatigheden’
+van het bestuursverslag, waarin het bestuur zijn frauderisicoanalyse heeft opgenomen.
+
+Wij hebben de opzet en de relevante aspecten van het interne beheersingssysteem en in het
+bijzonder de (fraude)risicoanalyse geëvalueerd alsook bijvoorbeeld de gedragscode,
+klokkenluidersregeling en de klachtenregistratie. Wij hebben de opzet en het bestaan
+geëvalueerd en, voor zover wij noodzakelijk achten, de werking getoetst van interne
+beheersmaatregelen gericht op het mitigeren van frauderisico’s.
+
+Als onderdeel van ons proces voor het identificeren van risico’s op een afwijking van
+materieel belang in de jaarrekening die het gevolg is van fraude, hebben wij
+frauderisicofactoren overwogen met betrekking tot frauduleuze financiële verslaggeving,
+oneigenlijke toe-eigening van activa en omkoping en corruptie. Wij hebben geëvalueerd of
+deze factoren een indicatie vormden voor de aanwezigheid van het risico op afwijkingen van
+materieel belang als gevolg van fraude.
+
+De door ons geïdentificeerde frauderisico’s en uitgevoerde specifieke werkzaamheden zijn als
+
+volgt:
+MANAGEMENT OVERRIDE OF CONTROLS
+
+Beschrijving: Het bestuur bevindt zich inherent in een unieke positie om fraude te plegen,
+omdat het in staat is de administratieve vastleggingen te manipuleren en
+frauduleuze financiële overzichten op te stellen door interne beheersings-
+maatregelen te doorbreken die anderszins effectief lijken te werken.
+
+Daarom besteden wij bij al onze controlewerkzaamheden aandacht aan het
+risico van het doorbreken van maatregelen van interne beheersing door het
+bestuur bij:
+
+-_journaalposten en andere aanpassingen die tijdens het opstellen van de
+jaarrekening zijn gemaakt;
+
+- schattingen en schattingsprocessen;
+
+- significante transacties buiten het kader van de normale
+bedrijfsuitoefening.
+
+PAGINA 3 VAN 7
+
+BDO
+
+Onze controle-
+werkzaamheden en
+waarnemingen:
+
+Wij hebben de opzet en het bestaan geëvalueerd van de maatregelen van
+interne beheersing in de processen voor het genereren en verwerken van
+journaalposten en het maken van schattingen (wij onderkennen geen
+significante schattingen), uitgaande van een risico op doorbreking van dat
+proces. We hebben het proces rondom de totstandkoming van financiële
+verslaggeving beoordeeld.
+
+Tevens hebben wij specifieke aandacht gegeven aan de toegangsbeveiligingen
+in de IT-applicaties en de mogelijkheid dat hierin functiescheiding kan worden
+doorbroken.
+
+Wij hebben journaalposten geselecteerd op basis van risicocriteria, zoals
+memoriaalboekingen in de omzetverantwoording. Hierop zijn
+controlewerkzaamheden verricht, waarbij wij tevens aandacht hebben
+besteed aan significante transacties buiten de normale bedrijfsuitoefening.
+
+Onze werkzaamheden hebben niet geleid tot specifieke aanwijzingen voor
+fraude of vermoedens van fraude ten aanzien van het doorbreken van de
+interne beheersing door het bestuur.
+
+LEVÉO - FRAUDERISICO VOORKOMEN ZORGOPBRENGSTEN (ONVOLLEDIGHEID)
+
+Beschrijving:
+
+Onze controle-
+werkzaamheden en
+waarnemingen:
+
+PAGINA 4 VAN 7
+
+Voor de zorgopbrengsten bestaat het risico dat de zorgopbrengsten in de
+jaarrekening niet aansluiten op de afzonderlijke productieverantwoordingen
+door de opbrengsten in de jaarrekening fictief naar beneden bij te stellen als
+gevolg van de veronderstelde tendentie tot het deflatteren van de
+opbrengsten.
+
+Wij hebben ten aanzien van het verkoopproces de opzet en het bestaan
+geëvalueerd van de maatregelen van interne beheersing.
+
+Om het risico op volledigheid van de zorgopbrengsten te ondervangen hebben
+wij de volgende werkzaamheden uitgevoerd:
+
+Ten aanzien van de zorgproductie hebben wij een primair systeemgerichte
+controle uitgevoerd waarbij we hebben kunnen steunen op de applications
+controls zoals ingericht in de IT omgeving van Levéo Groep B.V. op basis van
+verschillende toetspunten (op basis van landelijk
+
+accountantsprotocol financiële verantwoording Wmo en Jeugdwet).
+
+Dit hebben wij aangevuld met data-analyses op de totaal populatie van
+goedgekeurde declaratieregels, alsmede toetsing van de rekenkundige
+juistheid van de gehanteerde tarieven en aansluiting naar onderliggende
+afspraken.
+
+Tot slot hebben wij vastgesteld dat de opbrengsten zoals opgenomen en
+waarvan de juistheid en rechtmatigheid vastgesteld in de
+productieverantwoordingen ook volledig zijn verantwoord in de jaarrekening
+van Levéo Groep B.V.
+
+IBDO
+
+Onze werkzaamheden hebben niet geleid tot specifieke aanwijzingen voor
+fraude of vermoedens van fraude ten aanzien van onvolledige verantwoording
+van zorgopbrengsten.
+
+Verklaring over de in het jaarverslag opgenomen andere informatie
+
+Naast de jaarrekening en onze controleverklaring daarbij, omvat het jaarverslag andere
+informatie, die bestaat uit:
+
+» het bestuursverslag;
+
+p de overige gegevens;
+
+» het jaarverslag van de raad van commissarissen.
+
+Uitgezonderd de mogelijke gevolgen van de aangelegenheden beschreven in de paragraaf ‘De
+
+basis voor ons oordeel met beperking’ zijn wij op grond van onderstaande werkzaamheden
+
+van mening dat de andere informatie:
+
+» met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+
+» alle informatie bevat die op grond van Titel 9 Boek 2 BW en de Regeling openbare
+jaarverantwoording WMG is vereist.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip,
+verkregen vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie
+materiële afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in Titel 9 Boek 2 BW, de
+Regeling openbare jaarverantwoording WMG en de Nederlandse Standaard 720. Deze
+werkzaamheden hebben niet dezelfde diepgang als onze controlewerkzaamheden bij de
+jaarrekening.
+
+Het bestuur is verantwoordelijk voor het opstellen van de andere informatie, waaronder het
+bestuursverslag en de overige gegevens, alsmede voor het toevoegen van het verslag van de
+interne toezichthouder, in overeenstemming met Titel 9 Boek 2 BW en de Regeling openbare
+jaarverantwoording WMG.
+
+PAGINA 5 VAN 7
+
+[BDO
+
+Beschrijving van verantwoordelijkheden met betrekking tot de
+jaarrekening
+
+Verantwoordelijkheden van het bestuur en de raad van commissarissen voor de
+jaarrekening
+
+Het bestuur is verantwoordelijk voor het opmaken en het getrouw weergeven van de
+jaarrekening in overeenstemming met Titel 9 Boek 2 BW, de Regeling openbare
+jaarverantwoording WMG, alsmede de bepalingen bij en krachtens de WNT. In dit kader is het
+bestuur verantwoordelijk voor een zodanige interne beheersing die het bestuur noodzakelijk
+acht om het opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van
+materieel belang als gevolg van fraude of fouten.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de vennootschap in staat is
+om haar werkzaamheden in continuïteit voort te zetten. Op grond van genoemd
+verslaggevingsstelsel moet het bestuur de jaarrekening opmaken op basis van de
+continuïteitsveronderstelling, tenzij het bestuur het voornemen heeft om de vennootschap te
+liquideren of de activiteiten te beëindigen of als beëindiging het enige realistische alternatief
+is. Het bestuur moet gebeurtenissen en omstandigheden waardoor gerede twijfel zou kunnen
+bestaan of de vennootschap haar activiteiten in continuïteit kan voortzetten, toelichten in de
+jaarrekening.
+
+De raad van commissarissen is verantwoordelijk voor het uitoefenen van toezicht op het
+proces van financiële verslaggeving van de vennootschap.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat
+wij daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te
+geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid
+waardoor het mogelijk is dat wij tijdens onze controle niet alle materiële fraude en fouten
+ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien
+redelijkerwijs kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed
+kunnen zijn op de economische beslissingen die gebruikers op basis van deze jaarrekening
+nemen. De materialiteit beïnvloedt de aard, timing en omvang van onze
+controlewerkzaamheden en de evaluatie van het effect van onderkende afwijkingen op ons
+oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar
+relevant professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, de Regeling Controleprotocol WNT 2024, ethische voorschriften en de
+onafhankelijkheidseisen. Onze controle bestond onder andere uit:
+
+» het identificeren en inschatten van de risico’s dat de jaarrekening afwijkingen van
+materieel belang bevat als gevolg van fraude of fouten, het in reactie op deze risico’s
+bepalen en uitvoeren van controlewerkzaamheden en het verkrijgen van controle-
+informatie die voldoende en geschikt is als basis voor ons oordeel. Bij fraude is het risico
+dat een afwijking van materieel belang niet ontdekt wordt groter dan bij fouten.
+
+PAGINA 6 VAN 7
+
+BDO
+
+Bij fraude kan sprake zijn van samenspanning, valsheid in geschrifte, het opzettelijk
+nalaten transacties vast te leggen, het opzettelijk verkeerd voorstellen van zaken of het
+doorbreken van de interne beheersing;
+
+» het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als
+doel controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit
+van de interne beheersing van de vennootschap;
+
+» het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren van de redelijkheid van schattingen door het bestuur en de
+toelichtingen die daarover in de jaarrekening staan;
+
+» het vaststellen dat de door het bestuur gehanteerde continuïteitsveronderstelling
+aanvaardbaar is. Tevens het op basis van de verkregen controle-informatie vaststellen of
+er gebeurtenissen en omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of
+de vennootschap haar activiteiten in continuïteit kan voortzetten. Als wij concluderen dat
+er een onzekerheid van materieel belang bestaat, zijn wij verplicht om aandacht in onze
+controleverklaring te vestigen op de relevante gerelateerde toelichtingen in de
+jaarrekening. Als de toelichtingen inadequaat zijn, moeten wij onze verklaring aanpassen.
+Onze conclusies zijn gebaseerd op de controle-informatie die verkregen is tot de datum
+van onze controleverklaring. Toekomstige gebeurtenissen of omstandigheden kunnen er
+echter toe leiden dat een vennootschap haar continuïteit niet langer kan handhaven;
+
+» het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toelichtingen; en
+
+re het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende
+transacties en gebeurtenissen.
+
+Wij communiceren met de raad van commissarissen onder andere over de geplande reikwijdte
+en timing van de controle en over de significante bevindingen die uit onze controle naar
+voren zijn gekomen, waaronder eventuele significante tekortkomingen in de interne
+beheersing.
+
+Rotterdam, 19 mei 2025
+
+BDO Audit & Assurance B.V.
+namens deze,
+
+Digitaal ondertekend door:
+
+Rob Karlas
+19 mei 2025 15:53 +02:00
+
+R. Karlas RA
+
+PAGINA 7 VAN 7
+

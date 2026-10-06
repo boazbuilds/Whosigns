@@ -1,0 +1,1010 @@
+# whosigns-ocr v1 grootte=5954584 dpi=300 paginas=20
+Het Houvast B.V.
+
+INHOUDSOPGAVE
+
+1 Jaarrekening 2019
+
+ded Balans per 31 december 2019
+
+1.2 Resultatenrekening over 2019
+
+1.3 Kasstroomoverzicht over 2019
+
+1.4 Grondslagen van waardering en resultaatbepaling
+1.5 Toelichting op de balans per 31 december 2019
+1.6 Mutatieoverzicht materiële vaste activa
+
+144 Overzicht langlopende schulden ultimo 2019
+
+1.8 Toelichting op de resultatenrekening over 2019
+1.9 WNT-verantwoording 2019
+
+1.10 Vaststelling en goedkeuring
+
+2 Overige gegevens
+
+2.1 Beoordelingsverklaring van de onafhankelijke accountant
+
+Pagina
+
+onw N
+
+13
+15
+
+177
+18
+
+20
+
+Het Houvast B.V.
+
+1.1 BALANS PER 31 DECEMBER 2019
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+Totaal vaste activa
+
+Vlottende activa
+
+Vorderingen uit hoofde van financieringstekort
+Debiteuren en overige vorderingen
+
+Liquide middelen
+
+Totaal vlottende activa
+
+Totaal activa
+
+PASSIVA
+
+Eigen vermogen
+
+Kapitaal
+
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Voorzieningen
+
+Langlopende schulden (nog voor meer
+dan een jaar)
+
+Kortlopende schulden (ten hoogste 1 jaar)
+Schulden uit hoofde van financieringsoverschot
+Overige kortlopende schulden
+
+Totaal kortlopende schulden (ten hoogste 1 jaar)
+
+Totaal passiva
+
+Pagina 2
+
+Ref. 31-dec-19 31-dec-18
+€ €
+1 1.941.532 873.079
+1.941.532 873.079
+2 5.015 0)
+3 75.414 71.388
+4 907.086 653.132
+987.515 724.520
+2.929.047 1.597.599
+Ref. 31-dec-19 31-dec-18
+€ €
+
+5
+200 200
+1.018.911 700.609
+1.019.111 700.809
+6 46.500 36.900
+Zi 1.277.311 573.501
+2 0 74.922
+8 586.125 211.467
+586.125 286.389
+2.929.047 1.597.599
+
+
+Het Houvast B.V.
+
+1.2 RESULTATENREKENING OVER 2019
+
+Ref. 2019 2018
+€ €
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties (en maatschappelijke ondersteuning) 9 2.310.711 2.170.386
+Overige bedrijfsopbrengsten 10 311.048 244.648
+Som der bedrijfsopbrengsten 2.621.759 2.415.034
+BEDRIJFSLASTEN:
+Personeelskosten 11 846.512 664.420
+Afschrijvingen op immateriële en materiële vaste activa 12 8.252 6.932
+Overige bedrijfskosten 13 1.284.820 1.238.228
+Som der bedrijfslasten 2.139.584 1.909.580
+BEDRIJFSRESULTAAT 482.175 505.454
+Financiële baten en lasten 14 33.700 23.206
+RESULTAAT BOEKJAAR VOOR BELASTING 448.475 482.248
+Vennootschapsbelasting 15 -100.173 -109.678
+RESULTAAT BOEKJAAR NA BELASTING 348.302 372.570
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2019 2018
+€ €
+Toevoeging:
+Overige reserves 348.302 372.570
+348.302 372.570
+
+Pagina 3
+
+Het Houvast B.V.
+
+1.3 KASSTROOMOVERZICHT OVER 2019
+
+2019 2018
+€ € € €
+Kasstroom uit operationele activiteiten
+Resultaat na belastingen 348.302 372.570
+Aanpassingen voor:
+- afschrijvingen en overige waardeverminderingen 8.252 6.932
+- mutaties voorzieningen 9.600 6.900
+17.852 13.832
+Veranderingen in werkkapitaal:
+- vorderingen -4.026 15.498
+- vorderingen/schulden uit hoofde van
+financieringstekort respectievelijk -overschot -79.937 101.663
+- kortlopende schulden (excl. schulden aan banken) 332.658 -24.067
+248.695 93.094
+Kasstroom uit bedrijfsoperaties 614.849 479.496
+Totaal kasstroom uit operationele activiteiten 614.849 479.496
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa -1.076.705 -17.938
+Totaal kasstroom uit investeringsactiviteiten -1.076.705 -17.938
+Kasstroom uit financieringsactiviteiten
+Nieuw opgenomen leningen 840.000 170.000
+Aflossing langlopende schulden -94.190 -80.934
+Inkoop eigen aandelen 0 -348.000
+Dividenduitkering -30.000 -50.000
+Totaal kasstroom uit financieringsactiviteiten 715.810 -308.934
+Mutatie geldmiddelen 253.954 152.624
+Stand geldmiddelen per 1 januari 653.132 500.508
+Stand geldmiddelen per 31 december 907.086 653.132
+Mutatie geldmiddelen 253.954 152.624
+Toelichting:
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode
+
+Pagina 4
+
+
+Het Houvast B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+1.4.1 Algemeen
+
+Algemene gegevens en groepsverhoudingen
+
+Zorginstelling Het Houvast B.V. is statutair (en feitelijk) gevestigd te Tilburg,
+
+en is geregistreerd onder KvK-nummer 56878664
+
+De belangrijkste activiteten zijn het bieden van huisvesting, opvang en (dag)activiteiten aan onder meer (licht)
+verstandelijk gehandicapten.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2019, dat is geëindigd op balansdatum 31 december 2019.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi (RvW), de Richtlijnen
+voor de Jaarverslaggeving, in het bijzonder RJ 655 inzake de jaarverslaggeving voor zorginstellingen en Titel 9
+Boek 2 BW.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd
+op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Continuïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde waarde
+van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen afwijken van deze
+schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend beoordeeld. Herzieningen
+van schattingen worden opgenomen in de periode waarin de schatting wordt herzien en in toekomstige perioden
+waarvoor de herziening gevolgen heeft.
+
+1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in de
+verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de
+jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen
+naar de onderneming zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan de omvang
+betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de balans verwerkt, maar
+worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard
+zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de omvang van het
+bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden vastgesteld. Onder
+verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan voldoen worden niet in de
+balans opgenomen, maar worden verantwoord als niet in de balans opgenomen verplichtingen.
+
+Pagina 5
+
+Het Houvast B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Immateriële en materiële vaste activa
+De immateriële en materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder
+aftrek van cumulatieve afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingstermijnen van immateriële en materiële vaste activa zijn gebaseerd op de verwachte
+economische levensduur van het vast actief.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs volgens de
+lineaire methode op basis van de verwachte economische levensduur. Er wordt afgeschreven vanaf het moment
+van ingebruikneming. Op bedrijfsterreinen en op vaste activa in ontwikkeling en vooruitbetalingen op materiële
+vaste activa wordt niet afgeschreven.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+* Bedrijfsgebouwen : 5%.
+* Andere vaste bedrijfsmiddelen : 20%.
+
+Voor zover subsidies of daaraan gelijk te stellen vergoedingen zijn ontvangen als eenmalige bijdrage in de
+afschrijvingskosten, zijn deze in mindering gebracht op de investeringen.
+
+Groot onderhoud:
+
+Voor de kosten van periodiek groot onderhoud wordt een voorziening gevormd. Deze voorziening is opgenomen
+onder de overige voorzieningen aan de passiefzijde van de balans. De uitgaven voor groot onderhoud worden
+ten laste gebracht van deze voorziening.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reële waarde, inclusief transactiekosten. (Door toepassing van
+de effectieve rentemethode worden transactiekosten als onderdeel van de amortisatie in de winst- en
+verliesrekening verwerkt). De vervolgwaardering van vorderingen is tegen geamortiseerde kostprijs (indien geen
+sprake van agio/disagio of transactiekosten dan geamortiseerde kostprijs gelijk aan nominale waarde). Een
+voorziening wordt getroffen op de vorderingen op grond van verwachte oninbaarheid.
+
+Een vordering uit hoofde van financieringstekorten of een schuld uit hoofde van financieringsoverschotten is het
+aan het einde van het boekjaar bestaande verschil tussen het wettelijk budget voor aanvaardbare kosten en de
+ontvangen voorschotten en de in rekening gebrachte vergoedingen voor diensten en verrichtingen ter dekking
+van het wettelijk budget (artikel 6 Regeling verslaggeving WTZi).
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan
+twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de nominale waarde.
+
+Pagina 6
+
+Het Houvast B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Voorzieningen (algemeen)
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum
+bestaan waarbij het waarschijnlijk is dat een uitstroom van middelen noodzakelijk is en waarvan de omvang op
+betrouwbare wijze is te schatten. De voorzieningen worden gewaardeerd tegen contante waarde van de uitgaven
+die naar verwachting noodzakelijk zijn om de verplichting en verliezen af te wikkelen.
+
+Wanneer verplichtingen naar verwachting door een derde zullen worden vergoed, wordt deze vergoeding als een
+actief in de balans opgenomen indien het waarschijnlijk is dat deze vergoeding zal worden ontvangen bij de
+afwikkeling van de verplichting.
+
+Voorziening groot onderhoud
+
+De voorziening groot onderhoud wordt gevormd voor verwachte kosten inzake periodiek onderhoud van panden,
+installaties, e.d, gebaseerd op een meerjaren onderhoudsplan. De voorziening is gebaseerd op de nominale
+waarde,
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één
+jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs. De aflossingsverplichtingen voor het komend jaar van de langlopende schulden worden opgenomen
+onder kortlopende schulden.
+
+1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming
+van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het economisch
+potentieel, samenhangend met een vermeerdering van een actief of een vermindering van een verlichting, heeft
+plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten worden verwerkt wanneer
+een vermindering van het economisch potentieel, samenhangend met een vermindering van een actief of een
+vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden
+vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking genomen
+in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de verslagperiode
+waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde fout in voorgaande
+boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag
+van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding
+waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald
+en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening te
+voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden
+gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Pagina 7
+
+Het Houvast B.V.
+
+1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Personele kosten
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+Pensioenen
+
+Het Houvast B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking
+komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op het
+gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd bij Het Houvast
+B.V. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht bij het
+bedrijfstakpensioenfonds Zorg en Welzijn. Het Houvast B.V. betaalt hiervoor premies waarvan de helft door de
+werkgever wordt betaald en de helft door de werknemer. De pensioenrechten worden jaarlijks geïndexeerd,
+indien en voor zover de dekkingsgraad van het pensioenfonds (het vermogen van het pensioenfonds gedeeld
+door haar financiële verplichtingen) dit toelaat. Sinds 2015 gelden nieuwe, strengere, regels voor
+pensioenfondsen. Daarbij behoort ook een nieuwe berekening van de dekkingsgraad. De ‘nieuwe!
+dekkingsgraad is het gemiddelde van de laatste twaalf dekkingsgraden. Door een gemiddelde te gebruiken, zal
+de dekkingsgraad nu minder sterk schommelen. In maart 2020 bedroeg de dekkingsgraad 94,0%. Het vereiste
+niveau van de dekkingsgraad is 104,3%. Het pensioenfonds verwacht volgens het herstelplan binnen 10 jaar
+hieraan te kunnen voldoen. Voor tijdig herstel verhoogt het pensioenfonds de premie met een premieopslag van
+2% gedurende de herstelperiode en verhoogt het pensioenfonds de pensioenen niet volledig. Het Houvast B.V.
+heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een tekort bij het pensioenfonds,
+anders dan het effect van hogere toekomstige premies. Het Houvast B.V. heeft daarom alleen de verschuldigde
+premies tot en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+Financiële baten en lasten
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en aan
+derden en groepsmaatschappijen betaalde (te betalen) interest.
+
+1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld op basis van de indirecte methode.
+
+Betalingen welke voortvloeien uit langlopende leningen worden voor het gedeelte dat betrekking heeft op de
+rente opgenomen onder de kasstroom uit operationele activiteiten en voor het gedeelte dat betrekking heeft op
+de aflossing als kasstroom uit financieringsactiviteiten. In deze opstelling is de mutatie van de kortlopende
+schulden aan de kredietinstellingen begrepen in de mutatie van de liquide middelen.
+
+1.4.5 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de wet- en
+regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Pagina 8
+
+Het Houvast B.V.
+
+1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+1. Materiële vaste activa
+
+31-dec-19 31-dec-18
+De specificatie is als volgt: € €
+Bedrijfsgebouwen en terreinen 1.914.184 838.729
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 27.348 34.350
+Niet aan het bedrijfsproces dienstbare materiële activa 0 0
+Totaal materiële vaste activa 1.941.532 873.079
+Het verloop van de materiële activa ín het verslagjaar is als volgt weer te geven: 2019 2018
+€ €
+Boekwaarde per 1 januari 873.079 862.073
+Bij: investeringen 1.076.705 17.938
+Af: afschrijvingen 8.252 6.932
+Af: desinvesteringen 0 0
+Boekwaarde per 31 december 1.941.532 873.079
+2. Vorderingen uit hoofde van financieringstekort en schulden uit hoofde van financieringsoverschot WLZ
+t/m 2016 2017 2018 2019 totaal
+€ € € € €
+Saldo per 1 januari 0 0 -14,922 -74.922
+Financieringsverschil boekjaar 0 5.015 5.015
+Betalingen/ontvangsten 0 0 74.922 0 74.922
+Subtotaal mutatie boekjaar 0 0 74.922 5.015 79.937
+Saldo per 31 december 0 0 0 5.015 5.015
+Stadium van vaststelling c Ë c b
+a= interne berekening
+b= overeenstemming met zorgverzekeraars
+c= definitieve vaststelling NZa
+31-dec-19 31-dec-18
+€ €
+Waarvan gepresenteerd als:
+- vorderingen uit hoofde van financieringstekort 5.015 0
+- schulden uit hoofde van financieringsoverschot 0 14.922
+5.015 -14.922
+Specificatie financieringsverschil in het boekjaar 31-dec-19 31-dec-18
+€ €
+Wettelijk budget voor aanvaardbare kosten Wiz-zorg (exclusief subsidies) 2.266.626 2.136.755
+Af: vergoedingen ter dekking van het wettelijk budget 2.261.611 2.211,677
+Totaal financieringsverschil 5.015 -14.922
+
+Pagina 9
+
+
+Het Houvast B.V.
+
+1.5 TOELICHTING OP DE BALANS
+
+3. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+
+Vorderingen op debiteuren 14.876 7.295
+
+Vorderingen op participanten en maatschappijen waarin wordt deelgenomen:
+
+Vordering H.J.B. Peijs 199 199
+
+Vordering M.J.A.J. van Bekhoven 199 199
+
+Rekening Courant Brasist BV 3.438 1.397
+
+Rekening Courant Malevi BV 1.287 850
+
+Nog te ontvangen bedragen:
+
+Waarborgsommen 20.200 20.950
+
+Vooruitbetaalde kosten 22.672 22.998
+
+Te ontvangen incasso's 12.543
+
+Overige overlopende activa 0 17.500
+
+Totaal debiteuren en overige vorderingen 75.414 71.388
+
+Toelichting:
+
+De voorziening die in aftrek op de vorderingen is gebracht, bedraagt € 0 (2018: € 57.000).
+
+4. Liquide middelen
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+
+Bankrekeningen 906.013 652.059
+
+Kas 1.073 1.073
+
+Totaal liquide middelen 907.086 653.132
+
+Toelichting:
+De liquide middelen zijn vrij beschikbaar.
+
+Pagina 10
+
+
+Het Houvast B.V.
+
+1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+5. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Kapitaal
+Algemene en overige reserves
+
+Totaal eigen vermogen
+
+Kapitaal
+
+Het verloop is als volgt weer te geven:
+
+Kapitaal
+Totaal kapitaal
+
+Algemene en overige reserves
+
+Het verloop is als volgt weer te geven:
+
+Overige reserves:
+Overige reserve
+
+Totaal algemene en overige reserves
+
+6. Voorzieningen
+
+Het verloop is als volgt weer te geven:
+
+- groot onderhoud
+
+Totaal voorzieningen
+
+31-dec-19 31-dec-18
+
+€ €
+
+200 200
+
+1.018.911 700.609
+
+1.019.111 700.809
+
+Saldo per Resultaat- Inkoop Saldo per
+
+1-jan-2019 bestemming aandelen 31-dec-2019
+
+€ € € €
+
+200 0 0 200
+
+200 0 0 200
+
+Saldo per Resultaat- Dividend- Inkoop Saldo per
+1-jan-2019 bestemming uitkering aandelen 31-dec-2019
+€ € € € €
+
+700.609 348.302 30.000 0 1.018.911
+700.609 348.302 30.000 0 1.018.911
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+1-jan-2019 31-dec-2019
+€ € € € €
+
+36.900 119.542 109.942 0 46.500
+36.900 119.542 109.942 0 46.500
+
+Toelichting:
+
+De voorzieningen hebben overwegend een langlopend karakter
+
+Pagina 11
+
+
+Het Houvast B.V.
+
+1.5 TOELICHTING OP DE BALANS
+
+7. Langlopende schulden (nog voor meer dan een jaar)
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+
+€ €
+Schulden aan banken 1.277.311 573.501
+Totaal langlopende schulden (nog voor meer dan een jaar) 1.277.311 573.501
+Het verloop ís als volgt weer te geven: 2019 2018
+
+€ €
+Stand per 1 januari 641.433 552.367
+Bij: nieuwe leningen 840.000 170.000
+Af: aflossingen 94.190 80.934
+Stand per 31 december 1.387.243 641.433
+Af: aflossingsverplichting komend boekjaar 109.932 67.932
+Stand langlopende schulden per 31 december 17277311 573.501
+
+Toelichting in welke mate (het totaal van) de langlopende schulden als langlopend moeten worden beschouwd:
+
+Kortlopend deel van de langlopende schulden (< 1 jr.), aflossingsverplichtingen 109.932 67.932
+Langlopend deel van de langlopende schulden (> 1 jr.) (balanspost) 1.277.311 573.501
+hiervan > 5 jaar 888.557 318.751
+
+Voor een nadere toelichting op de langlopende schulden wordt verwezen naar de bijlage overzicht langlopende schulden.
+De aflossingsverplichtingen komend boekjaar zijn verantwoord onder de kortlopende schulden.
+
+Toelichting:
+
+De verstrekte zekerheden voor de opgenomen lening bij Rabobank luiden als volgt:
+* hypothecaire zekerheid op bedrijfsgebouwen en -terreinen;
+
+* pandrecht op de vorderingen;
+
+* pandrecht op de machines en installaties.
+
+8. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+Crediteuren 18.833 19.368
+Aflossingsverplichtingen komend boekjaar langlopende leningen 109.932 67.932
+Belastingen en premies sociale verzekeringen 40.052 31.784
+Schulden terzake pensioenen 0 448
+Vennootschapsbelasting 39.914 25.708
+Overige overlopende passiva:
+Reservering vakantiegeld 24.329 19.417
+Reservering sociale lasten vakantiegeld 3.649 2.913
+Te betalen accountantskosten 3.000 2.889
+Te betalen netto loon 217 705
+Te betalen representatiekosten 50 50
+Te betalen financieringskosten 396 351
+Vooruitontvangen inkomsten 310.000 0
+Vooruitontvangen huur 30.408 24.384
+Te betalen inkopen 5.345 15.518
+Totaal overige kortlopende schulden 586.125 211.467
+
+Pagina 12
+
+Het Houvast B.V.
+
+1.6 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Stand per 1 januari 2019
+- aanschafwaarde
+- cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2019
+
+Mutaties in het boekjaar
+
+- investeringen
+
+- afschrijvingen
+
+Mutaties in boekwaarde (per saldo)
+
+Stand per 31 december 2019
+- aanschafwaarde
+- cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2019
+
+Afschrijvingspercentage
+
+Bedrijfs- Andere vaste
+gebouwen en bedrijfs- Totaal
+
+terreinen middelen
+€ € €
+839.957 45.862 885.819
+1.228 11.512 12.740
+838.729 34.350 873.079
+1.075.455 1.250 1.076.705
+0 8.252 8.252
+1.075.455 -7.002 1.068.453
+1.915.412 47.112 1.962.524
+1.228 19.764 20.992
+1.914.184 27.348 1.941.532
+
+5,0% 20,0%
+
+Pagina
+
+13
+
+pl eulbed
+
+ZE6'60L 485828 EHT'L3E'L _ |O6L'Y6 00008 EEP Lpg [eezoL
+yoerpued+jeagzodH[000's JIeeuI OL OOS" ZZ OOS ZP L 00S'Z 000'OSL 0 %OL'L Buiuej esreoauzodkHJ OL [OOO'OSL 6 L-DIO-LE yuegogey
+yoeupued+eeypodÂH [O pfidooj spuig OL 000'OSL 000'OSL 0 000'OSL 0 %OL'L Duiuaj aJreoeyzodÁH| 01 |OOO'OSL 6L-PO-LE HUegoGey
+oeupued+yeeyjodkH[o pÍndooj spui3 OL 00009 000:09 0 000'09 0 YET Z Buiuaj sseoeyodÂH| ot |o0o'o9 6L-l9W-6Z Huegodey
+yoeupued+eaypodH [0009 JieeuIj OL 00S'9Z 00S"9s OOS" 00009 ) %SLZ buiusj esieoeuzodH| 01 [o00roo 6l-leW-6Z YueGOde
+oeupued+yeeupodH [0 píndooj epui3 OL 00074 000'vZ 0 000'pL 0 %0OL'Z uiuaj esiegeuzodkH| OL [OOO't4 6l-ide-| HUegOGeY
+1ygaupued+aayzodhH HOP Z JreauIn OL L99'Z£ L89'69 GLE Y 0002 0 %S6'L buiuaj esieoeurodkH[ OL [OOO'YZ 6L-Jde-| YUeGOTe
+uoeupued+yeauzodÂH [OOS JIESUIT 0z GZ9'GOL GEL Epl G48'9 000'0S | 0 %06'Z Ouiu[ euteoaurodkH[ oz [OOO'OSL 6L-uel-g, zuegogey
+geupued+HaayjodH[960'g JIeaUIT OL GHZ 96 p90'p 000'L9 0 %S6'L uiuaj esreoaurodH| OL [OOO'L9 6L-1de-| HUEGOgeY
+yoaupued+yaoyzodkH [0 pfndooj spui3 OL 000'L9 000'L9 0 00019 0 %OL'Z Öuluaj esieseuzodÁH| 01 [O0O'L9 6 L-ide-| AUEGOGEN
+}yoeupued+yeoupodkHl966 ee JIEUIT [a O0 900'6LL 966'€E ) ZOO'ESL %00'E Buiuel esteoayzodkHJ __S  1OO0'OLL gl-unf-s uegOgey
+jyoeupued+sayzodkHlep/'s JIESUI LL LL#'99 LSL'S6 ERS 0 668'00L %SE'Z Buiuaj esieoauzodÁH| oz |OOO'SLL LL-lew-€ HUeGOGeY
+3yoeupued+yeeyzodkH[v00's SL 89667 886 4 700’ 0 Z66'6/ %ELZ uiuaj auieoauzodH| 02 _[O00'OOL 9L-q9}-EZ zuegogey
+1ygeupued+jeayjodÂH[gos's SL 8L0'0S BSS LL 805'G ) 990'€8 %08'Z uiuel euieoeurodÁH| 02 |OOO'OLL 9L-AOU-L Huegogey
+zyoerpued+yeayzodkH[v00's leeul SL Lp BP TL v00'S 0 067 LZ %S6'Z uiuaj onteoauzodH| 02 |000'OOL 9L-Ône-L HUEGOGE
+oepued+eeyFodhH000'g JIESUI EL 00094 00092 000's ) 00028 %EP'E Buiuaj ssesayzodhH| 61 JOOO'vLL 9L-HW-L zuegodey
+ETEN MEE) JiesuIj 8 Z56'6L ZLeeS TLO'LL 0 v86'v9 %06'E buiuaj esreoauzodH[ Ss, [OOO'OOL G|-99p-62 Huegogey
+
+E] > E) 3 3 E) % Jeer 3
+
+ozoz Buis ezfim menssen deel q 49A0 607 ui 6107 8107 9zuar pfo wnje
+
+uapaysexez opl9}se5 -soyv -sBuissoyy ui pfndoor pinuosysoy Jeqweosap LE dursouw ut ueburuaj [aoqwesep pel -oxfij Buiuaj HOOS -dooj | wospJooH amisiv 1onaBbBuruor
+opuosejsor pinyIs}say aMnaIN pinyssjsay | -H4AM ajejol
+
+6L0Z own uvepynyos epuedojbuer 3Y91Z19A0 £'L
+
+Jovirie
+
+°'A'd 3SEANOH 39H
+
+
+Het Houvast B.V.
+
+1.8 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+9. Opbrengsten zorgprestaties (en maatschappelijke ondersteuning)
+
+2019 2018
+De specificatie is als volgt: € €
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies) 2.266.626 2.136.755
+Omzet begeleiding 44.104 33.634
+Betalingsverschil debiteuren -19 -3
+Totaal 2.310.711 2.170.386
+10. Overige bedrijfsopbrengsten
+De specificatie is als volgt: 2019 2018
+€ €
+Overige opbrengsten (waaronder vergoeding voor uitgeleend personeel en verhuur onroerend goed):
+Ontvangen huur 311.048 244.648
+Totaal 311.048 244.648
+LASTEN
+11. Personeelskosten
+De specificatie is als volgt: 2019 2018
+€ €
+Lonen en salarissen 644.405 536.331
+Sociale lasten 99.017 64.067
+Pensioenpremies 34.123 25.598
+Andere personeelskosten:
+Overige personeelskosten 68.967 51.757
+Ontvangen ziekengeld en subsidies 0 -13.333
+Subtotaal 846.512 664.420
+Totaal personeelskosten 846.512 664.420
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 16 11
+12. Afschrijvingen op immateriële en materiële vaste activa
+De specificatie is als volgt: 2019 2018
+€ €
+Afschrijvingen:
+- materiële vaste activa 8.252 6.932
+- boekresultaat verkoop activa 0 le)
+Totaal afschrijvingen 8.252 6.932
+13. Overige bedrijfskosten
+De specificatie is als volgt: 2019 2018
+€ €
+Voedingsmiddelen en hotelmatige kosten 136.055 117.258
+Algemene kosten 173.135 200.922
+Patiënt- en bewonersgebonden kosten 444.865 459.008
+Onderhoud en energiekosten 184.065 161.997
+Huur en leasing 346.700 299.043
+Totaal overige bedrijfskosten 1.284.820 1.238.228
+
+Pagina 15
+
+Het Houvast B.V.
+
+1.8 TOELICHTING OP DE RESULTATENREKENING
+
+14. Financiële baten en lasten
+De specificatie is als volgt:
+Rentelasten
+
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+15. Vennootschapsbelasting
+
+De specificatie is als volgt:
+
+Vennootschapsbelasting boekjaar
+
+Totaal vennootschapsbelasting
+
+16. Wet normering topinkomens (WNT)
+
+Hiervoor verwijzen wij naar het voorgeschreven model op pagina 17.
+
+17. Honoraria accountant
+De honoraria van de accountant over 2019 zijn als volgt:
+
+1 Controle van de jaarrekening
+
+2 Overige controlewerkzaamheden (w.o. Regeling AO/IC en Nacalculatie)
+
+3 Fiscale advisering
+4 Niet-controlediensten
+
+Totaal honoraria accountant
+
+18. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling,
+
+bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+Pagina 16
+
+2019 2018
+
+€ €
+33.700 23.206
+33.700 23.206
+33.700 23.206
+2019 2018
+
+€ E
+100.173 109.678
+100.173 109.678
+2019 2018
+
+€ €
+
+0 0
+
+1.888 1.188
+7.504 9.820
+10.145 12.124
+19.537 23.132
+
+haar deelnemingen en hun
+
+Het Houvast B.V.
+
+1.9 WNT-verantwoording 2019
+
+De WNT is van toepassing op Het Houvast BV. Het voor Het Houvast toepasselijke bezoldigingsmaximum is in 2019 € 107.000 (het
+
+bezoldigingsmaximum voor zorg en jeugdhulp, klasse |, totaalscore 7 punten).
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder dienstbetrekking vanaf de
+
+13e maand van de functievervulling
+
+Functiegegevens Bestuurder Bestuurder
+Aanvang en einde functievervulling in 2019 1/1 - 31/12 1/1 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0 1,0
+Dienstbetrekking? ja ja
+Bezoldiging
+
+Beloning plus belastbare onkostenvergoedingen € 78.688 € 78.805
+Beloningen betaalbaar op termijn €00 €0
+Subtotaal € 78.688 € 78.805
+Individueel toepasselijke bezoldigingsmaximum € 107.000 € 107.000
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag 0 0
+Totale bezoldiging € 78.688 € 78.805
+Reden waarom de overschrijding al dan niet is toegestaan N.v.t. N.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling N.v.t. N.v.t.
+Gegevens 2018
+
+bedrage A s?: B Pe
+Functiegegevens Bestuurder Bestuurder
+Aanvang en einde functievervulling in 2018 1/1 - 31/12 1/1 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0 1,0
+Dienstbetrekking? ja ja
+Bezoldiging
+
+Beloning plus belastbare onkostenvergoedingen € 78.688 € 78.805
+Beloningen betaalbaar op termijn €0 € 0
+Subtotaal € 78.688 € 78.805
+Individueel toepasselijke bezoldigingsmaximum € 103.000 € 103.000
+Totale bezoldiging € 78.688 € 78.805
+
+1b. Topfunctionarissen met een bezoldiging
+
+van € 1.700 of minder
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+P. Graat Voorzitter
+B. Vugts Lid
+J.M. Spanjersberg Lid
+
+Pagina 17
+
+
+Het Houvast B.V.
+
+1.10 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Het Houvast B.V. heeft de jaarrekening 2019 opgemaakt en vastgesteld in de
+vergadering van 15 mei 2020.
+
+De raad van toezicht van Het Houvast B.V. heeft de jaarrekening 2019 goedgekeurd in de vergadering
+van 15 mei 2020.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 1.2.
+
+Ondertekening door bestuurders en toezichthouders
+OSelt mij C Ere
+eee a
+Bestuurder _Bestüurde er)
+
+hed
+
+M.J.A.J. van Bekhoven 15-05-2020 CC H.JB-Peijs
+
+Voorzitter RvT
+
+Et
+J.D. Spanjersberg ed 15-05-2020
+
+Pagina 18
+
+
+Het Houvast B.V.
+
+2 OVERIGE GEGEVENS
+
+Deb |
+DP
+
+vandeVen
+
+ACCOUNTANTS | ADVISEURS
+
+Beoordelingsverklaring van de onafhankelijke accountant
+
+Aan:
+
+Het Houvast B.V.
+Beneluxlaan 59-09
+5042 WK Tilburg
+
+Opdracht
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2019 van Het Houvast B.V. te Tilburg beoordeeld. Deze
+jaarrekening bestaat uit de balans per 31 december 2019 en de winst-en-verliesrekening over 2019 met de
+toelichting, waarin zijn opgenomen een overzicht van de gehanteerde grondslagen voor financiële verslaggeving
+en andere toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en resultaat getrouw
+dient weer te geven in overeenstemming met de Regeling verslaggeving WTZi en Titel 9 Boek 2 van het in
+Nederland geldende Burgerlijk Wetboek (BW). Het bestuur is tevens verantwoordelijk voor een zodanige interne
+beheersing als zij noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken zonder afwijkingen
+van materieel belang als gevolg van fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze beoordeling.
+Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder de Nederlandse
+Standaard 2400 “Opdrachten tot het beoordelen van financiële overzichten”. Dit vereist dat wij voldoen aan de
+voor ons geldende ethische voorschriften en dat wij onze beoordeling zodanig plannen en uitvoeren dat wij in
+staat zijn te concluderen dat ons niet is gebleken dat de jaarrekening afwijkingen van materieel belang bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte mate van
+zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak uit het inwinnen van inlichtingen
+bij het management en overige functionarissen van de entiteit, het uitvoeren van cijferanalyses met betrekking tot
+de financiële gegevens alsmede het evalueren van de verkregen informatie.
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter dan die
+uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de Nederlandse
+controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Conclusie
+
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten concluderen dat de
+jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling van het vermogen van Het Houvast
+
+B.V. per 31 december 2019 en van het resultaat over 2019 in overeenstemming met de Regeling verslaggeving
+WTZi en Titel 9 Boek 2 van het in Nederland geldende Burgerlijk Wetboek (BW).
+
+De WNT
+
+Conform artikel 1.7 lid 1 van de Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector
+(WNT) bestaat er een controleplicht ten aanzien van de WNT-aspecten. Met betrekking tot de jaarrekening van
+Stichting De Belvertshoeve te Oisterwijk wordt door ons een beoordelingsopdracht uitgevoerd. De WNT-aspecten
+vallen hier derhalve niet onder. Ten behoeve van het Ministerie van Volksgezondheid, Welzijn en Sport (VWS)
+wordt hiervoor door ons een separate controleverklaring afgegeven.
+
+Sint-Oedenrode, 8 juni 2020
+
+Gen
+
+Postbus 87 | 5490 AB Sint-Oedenrode | Jan Tinbergenstraat 4 Aangesloten:0lj;
+Telefoon: 0413 - 49 11 11 | Fax: 0413 - 49 11 00 U
+Email: info@vdven.nl | Internet: www.vdven.nl | Beconnr.: 25.20.98 SRA

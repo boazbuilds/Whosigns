@@ -1,0 +1,583 @@
+# whosigns-ocr v1 grootte=1017537 dpi=300 paginas=20
+Fensia B.V.
+Julianastrjitte 10
+9123 JE Metslawier
+
+Accountantsrapport 2020
+
+INHOUDSOPGAVE
+
+ACCOUNTANTSRAPPORT
+
+Opdracht
+
+Samenstellingsverklaring van de accountant
+Algemeen
+
+Fiscale positie
+
+WN =
+
+JAARREKENING
+
+1
+2
+3
+4
+5
+6
+
+Balans per 31 december 2020
+
+Winst-en-verliesrekening over 2020
+
+Kasstroomoverzicht 2020
+
+Grondslagen voor waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2020
+Toelichting op de winst-en-verliesrekening over 2018/2020
+
+Pagina
+
+ua Nh
+
+10
+11
+13
+15
+
+ACCOUNTANTSRAPPORT
+
+RS
+van Wieren
+& Vellinga zus.
+
+Aan de directie van
+Fensia B.V.
+Julianastrjitte 10
+9123 JE Metslawier
+
+Kenmerk 2008510
+Behandeld door F. van Wieren
+Datum 8 april 2021
+Geachte heer De Jong,
+
+Hierbij brengen wij verslag uit over boekjaar 2020 met betrekking tot uw besloten vennootschap.
+
+1 OPDRACHT
+
+Ingevolge uw opdracht hebben wij de jaarrekening 2020 van uw besloten vennootschap, waarin
+begrepen de balans met tellingen van € 402 en de winst-en-verliesrekening sluitende met een negatief
+resultaat na belastingen van € 2.123, samengesteld.
+
+2 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+Aan: het bestuur
+
+De jaarrekening van Fensia B.V. te Metslawier is door ons samengesteld op basis van de van u gekregen
+informatie. Deze jaarrekening bestaat uit de balans per 31 december 2020, de winst-en-verliesrekening en
+het kasstroomoverzicht over 2020 met de daarbij horende toelichting. In deze toelichting is onder andere
+een overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, “Samenstellingsopdrachten". Op grond van deze standaard wordt
+van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in
+overeenstemming met Titel 9 Boek 2 van het Nederlandse Burgerlijk Wetboek (BW). Wij hebben daarbij
+onze deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan. Als slotstuk van onze werkzaamheden hebben wij door het lezen van de jaarrekening
+globaal nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis van Fensia B.V. Wij
+hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een oordeel
+te geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante
+ethische voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere
+gebruikers van deze jaarrekening mogen er dan ook van uitgaan dat wij de opdracht professioneel,
+vakbekwaam en zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met
+de door u verstrekte gegevens.
+
+info@vwvaa.nl - www.vanwieren-vellinga.nl - Zuiderschans 4 - Postbus 100, 9100 AC Dokkum -T 0519-228150
+IBAN NLO5 INGB 0661265129 - BIC INGBNL2A - Beconnr. 337249 - Kv.K. nr. 01178828 - BTW nr. NL8100.09.596.B.01
+Op al onze diensten zijn onze algemene voorwaarden van toepassing. U kunt onze algemene voorwaarden kosteloos bij ons opvragen.
+
+
+Fensia B.V.
+Metslawier
+
+Voor een nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de VGBA
+verwijzen wij u naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+
+Fensia B.V.
+Metslawier
+
+3 ALGEMEEN
+
+3.1 Bestuur
+
+Per balansdatum wordt het bestuur gevoerd door F. de Jong.
+
+3.2 Oprichting vennootschap
+
+Bij notariële akte d.d. 8 mei 2018 verleden voor notaris Beugelink Kluitenberg te Kollum is opgericht de
+vennootschap Fensia B.V. De activiteiten worden met ingang van voornoemde datum / respectievelijk
+eerdere datum gedreven voor rekening en risico van de vennootschap Fensia B.V.
+
+3.3 Impact Covid-19 (Coronavirus)
+
+Ten tijde van het opmaken van de jaarrekening is in Nederland een buitengewone situatie ontstaan ten
+gevolge van het coronavirus. De ziekte is eind 2019 uitgebroken in China en heeft nu de hele wereld in
+de greep, dus ook Nederland.
+
+De Nederlandse overheid heeft ingrijpende maatregelen getroffen ter afremming van verspreiding van
+het virus, welke maatregelen grote delen van de economie zo goed als stil leggen. In reactie hierop heeft
+de Nederlandse overheid een ongekend steunpakket aangekondigd om ondernemers, personeelsleden en
+ZZP-ers waar mogelijk te helpen door deze crisis heen te komen.
+
+De gevolgen van deze crisis zijn zogenaamde gebeurtenissen na balansdatum die geen nadere informatie
+verschaffen over de feitelijke situatie per balansdatum, maar over de omstandigheden die ontstaan zijn na
+de datum van de jaarrekening. Het is te verwachten dat de gevolgen van deze crisis impact zullen hebben
+op de organisatie, maar er is redelijkerwijs thans geen adequate inschatting te maken van de aard en
+omvang van de gevolgen.
+
+Op basis van bovenstaande beschreven situatie en op grond van de regels in het verslaggevingsstelsel is
+de jaarrekening opgemaakt op grond van de continuiteitsveronderstelling. Dat neemt niet weg dat er
+onzekerheden blijven bestaan.
+
+34 Verwerking van het verlies 2020
+
+Overeenkomstig de wettelijke bepalingen is het verlies ad € 2.123 over het jaar 2020 in mindering
+gebracht op de overige reserves. Dit is reeds in de jaarrekening verwerkt.
+
+3.5 Verwerking van het verlies 2019
+
+Het verlies ad € 12.612 is in mindering gebracht op de overige reserves.
+
+
+Fensia B.V.
+Metslawier
+
+4 FISCALE POSITIE
+
+4.1 Berekening belastbaar bedrag 2020
+
+Het belastbaar bedrag voor de vennootschapsbelasting over 2020 is als volgt berekend:
+
+2020
+
+€
+
+Resultaat voor belastingen -2.123
+Over het belastbare bedrag is geen vennootschapsbelasting verschuldigd.
+
+4.1.1 Compensabele verliezen
+
+Zompensabele compensabele
+
+aanspraak per aanspraak per
+
+1 januari Verliesin 31 december
+
+2020 2020 2020
+
+€ € €
+
+2019 12.612 - 12.612
+
+2020 - 2.123 2.123
+
+12.612 2125 14.735
+
+Hiermede vertrouwen wij erop aan uw opdracht te hebben voldaan. Tot het verstrekken van een nadere
+
+toelichting zijn wij steeds bereid.
+
+Hoogachtend,
+Van Wieren & Vellinga
+
+Adviseurs en Ac
+Da a
+
+F. van Wieren
+Accountant-Administratieconsulent
+
+
+JAARREKENING
+
+Fensia B.V.
+Metslawier
+
+1 BALANS PER 31 DECEMBER 2020
+(Na verwerking van het resultaat)
+
+31 december 2020
+
+31 december 2019
+
+€ €
+ACTIVA
+VLOTTENDE ACTIVA
+Liquide middelen (1)
+ING Bank ef
+ING Bank spaar 30
+
+402
+
+TOTAAL ACTIVA 402
+
+Í | Samenstellingsverklaring afgegeven op 8 april 2021
+
+€ €
+423
+10
+433
+433
+7
+
+€ €
+PASSIVA
+EIGEN VERMOGEN (2)
+Geplaatst kapitaal 10
+Overige reserves -14.735
+-14.725
+KORTLOPENDESCHULDEN
+Overige schulden 14.577
+Overige schulden en overlopende passiva 550
+15.127
+TOTAAL PASSIVA 402
+
+im
+
+31 december 2020
+
+31 december 2019
+
+Samenstellingsverklaring afgegeven op 8 april 2021
+
+3 €
+10
+-12.612
+-12.602
+12.485
+550
+13.035
+433
+8
+
+Fensia B.V.
+Metslawier
+
+2 WINST-EN-VERLIESREKENING OVER 2020
+
+2020 2019
+€ € € €
+Bedrijfskosten
+Lonen en salarissen (4) - 3.969
+Sociale lasten (5) - 713
+Pensioenlasten (6) - 230
+Overige bedrijfskosten ) 1.994 6.980
+1.994 11.892
+Bedrijfsresultaat -1.994 -11.892
+Financiële baten en lasten (8) sle -720
+Resultaat voor belastingen -2,123 -12.612
+Belastingen 4 -
+Resultaat na belastingen -2.123 -12.612
+Samenstellingsverklaring afgegeven op 8 april 2021 9
+
+
+Fensia B.V.
+Metslawier
+
+3 KASSTROOMOVERZICHT 2020
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2020 2019
+€ € € €
+
+Kasstroom uit operationele activiteiten
+
+Resultaat na belastingen -2.123 -12.612
+Aanpassingen voor:
+
+Veranderingen in het werkkapitaal:
+
+Mutatie kortlopende schulden (exclusief schulden aan
+
+kredietinstellingen) 2.092 13.035
+Kasstroom uit bedrijfsoperaties -31 423
+Kasstroom uit operationele activiteiten -31 423
+
+Kasstroom uit financieringsactiviteiten
+
+Mutatie aandelenkapitaal - 10
+
+Mutatie geldmiddelen -31 433
+
+Samenstelling geldmiddelen
+
+2020 2019
+
+€ E
+
+Geldmiddelen per 1 januari 433 -
+Mutatie liquide middelen -31 433
+Geldmiddelen per 31 december 402 433
+
+Samenstellingsverklaring afgegeven op 8 april 2021 10
+
+
+Fensia B.V.
+Metslawier
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van Fensia B.V. bestaan voornamelijk uit thuiszorg, ondersteuning en begeleiding van
+gehandicapten en het welzijn voor ouderen.
+
+Vestigingsadres
+
+Fensia B.V. (geregistreerd onder KvK-nummer 71664300) is feitelijk gevestigd op Julianastrjitte 10 te
+Metslawier.
+
+ALGEMENE GRONDSLAGEN
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en
+de Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen, die uitgegeven zijn door de Raad
+voor de Jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs.
+
+Continuiïteitsveronderstelling
+
+De gehanteerde grondslagen voor waardering en resultaatbepaling zijn gebaseerd op de
+continuiteitsveronderstelling van de onderneming. Echter, gezien de financiële positie van de
+onderneming is haar voortbestaan onzeker. Een duurzame voortzetting van de bedrijfsuitoefening is
+
+echter niet onmogelijk.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Liquide middelen
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Samenstellingsverklaring afgegeven op 8 april 2021 11
+
+
+Fensia B.V.
+Metslawier
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+
+schulden worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen
+
+bedrag rekening houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de
+nominale waarde.
+
+GRONDSLAGEN VOOR RESULTAATBEPALING
+
+Kosten algemeen
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+
+hebben.
+Financiële baten en lasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve
+rentevoet van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening
+gehouden met de verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande
+boekjaren (voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde
+winstbestanddelen en na bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met
+wijzigingen die optreden in de latente belastingvorderingen en latente belastingschulden uit hoofde van
+wijzigingen in het te hanteren belastingtarief.
+
+Samenstellingsverklaring afgegeven op 8 april 2021
+
+12
+
+Fensia B.V.
+Metslawier
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2020
+
+ACTIVA
+
+VLOTTENDE ACTIVA
+
+1. Liquide middelen
+
+ING Bank N.V.
+ING Bank spaarrekening
+
+Samenstellingsverklaring afgegeven op 8 april 2021
+
+31-12-2020 31-12-2019
+€ €
+
+372 423
+
+30 10
+
+402 433
+
+13
+
+Fensia B.V.
+Metslawier
+
+PASSIVA
+
+2. EIGEN VERMOGEN
+
+Geplaatst kapitaal
+Geplaatst kapitaal
+
+31-12-2020 31-12-2019
+€ €
+10 10
+
+Het maatschappelijk kapitaal bestaat uit 10 gewone aandelen van nominaal € 1,00. Hiervan zijn 10
+
+aandelen geplaatst en volgestort.
+
+Overige reserves
+
+Stand per 1 januari
+Resultaat
+
+Stand per 31 december
+
+3. KORTLOPENDE SCHULDEN
+
+Overige schulden
+
+Rekening-courant directie
+
+Overlopende passiva
+
+Accountantskosten
+
+Samenstellingsverklaring afgegeven op 8 april 2021
+
+2020 2019
+
+€ €
+
+-12.612 -
+-2.123 -12.612
+-14.735 -12.612
+31-12-2020 31-12-2019
+€ €
+
+14.577 12.485
+
+550 550
+
+14
+
+Fensia B.V.
+Metslawier
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2018/2020
+
+PERSONEELSKOSTEN
+
+2020 2019
+
+€ €
+
+4. Lonen en salarissen
+Bruto lonen = 3.969
+5. Sociale lasten
+Sociale lasten werkgever - 713
+6. Pensioenlasten
+Pensioenpremie - 230
+
+PERSONEELSLEDEN
+Bij de vennootschap was in 2020 gemiddeld 0.0 werknemer in dienst (uitgedrukt in FTE) (2019: 0.1).
+
+7. OVERIGE BEDRIJFSKOSTEN
+
+Kantoorkosten 186 173
+Autokosten 8 -
+Algemene kosten 1.800 6.807
+1.994 6.980
+Kantoorkosten
+Kantoorbenodigdheden 132 5
+Telefoon en fax 54 173
+186 173
+Autokosten
+Overige autokosten 8 5
+
+Samenstellingsverklaring afgegeven op 8 april 2021 5)
+
+
+Fensia B.V.
+Metslawier
+
+Algemene kosten
+
+Contributies
+
+Kamer van Koophandel
+Advies en oprichtingskosten
+Accountantskosten
+Automatisering
+
+Algemene verzekeringen
+Overige algemene kosten
+
+8. FINANCIËLE BATEN EN LASTEN
+
+Rentelasten en soortgelijke kosten
+
+Rentelasten en soortgelijke kosten
+
+Rente en kosten rekening-courant
+Rente lening
+
+Metslawier, 8 april 2021
+
+Directie,
+
+F. de Jong
+
+Samenstellingsverklaring afgegeven op 8 april 2021
+
+2020 2019
+€ 5,
+W57 -
+- 80
+
+- 5.375
+
+647 1
+173 329
+821 1.202
+2 44
+1.800 6.807
+-129 -720
+129 220
+
+- 500
+
+129 720
+16

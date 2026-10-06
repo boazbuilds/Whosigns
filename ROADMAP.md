@@ -1,8 +1,31 @@
 # WhoSigns — Roadmap
 
-*Bijgewerkt: 28 juli 2026. Leidraad: `docs/visie.md` (zes velden, relatiegraaf, klik-test).
+*Bijgewerkt: 24 september 2026. Leidraad: `docs/visie.md` (zes velden, relatiegraaf, klik-test).
 Volledige achtergrond: `docs/concept.md`. Onderbouwing 🆕-items: `docs/brainstorm-2026-07.md`.
 Open keuzes: `docs/beslissingen.md`.*
+
+**Stand van zaken (22-9-2026):** fase 0 t/m 3 zijn af — de site staat publiek
+live met ruim 61.000 opdrachten bij 17.651 organisaties, uit een dozijn
+automatisch ladende bronroutes (zorg, corporaties, gemeenten, OOB, goede
+doelen, onderwijs, pensioenfondsen, bedrijfsleven via aangeleverd
+marktonderzoek). Uit fase 4 zijn honoraria (boekjaren 2020-2025), de
+onderwijssector, de tekenend accountant (ruim 1.100 namen, eigen pagina per
+accountant) en het opinion-shopping-signaal gebouwd; AI-extractie bleek niet
+nodig (patroongebaseerd werkt) en de nieuwsbrief en fase 5 (omzet) staan nog
+open. Sinds 24-9 is de voorpagina een dashboard: wisselkans per boekjaar (met
+de OOB-roulatiepiek van 2016), transferbalans per kantoor, de grootste per
+sector, de dekking per sector en boekjaar, het aandeel niet-goedkeurende
+oordelen en de prijsontwikkeling van de controle op gematchte paren. De
+fasedetails hieronder zijn het oorspronkelijke bouwplan en blijven staan als
+verantwoording van de route.
+
+**Wat er vanzelf bijkomt.** Drie routes wachten niet meer op een knop: het
+AFM-vergunningenregister ververst wekelijks, de beursfondsen lezen maandelijks
+het vorige boekjaar opnieuw (late deponeringen), en de woningcorporaties kijken
+maandelijks of de nieuwe dVi-jaargang al gepubliceerd is. De overige ladingen
+starten bij een merge die hun lader of seed raakt. Een boekjaar dat al gelezen
+is wordt daarbij niet opnieuw opgehaald, dus herhalen kost seconden in plaats
+van uren.
 
 **Werkwijze:** fase voor fase, elke fase eindigt met iets dat wérkt en te laten zien is.
 Niet vooruitwerken aan een latere fase zolang de huidige niet "klaar" is volgens haar
@@ -16,11 +39,11 @@ het schema houdt er wel plek voor (kolommen blijven leeg tot een latere fase).
 
 | Fase | Naam | Resultaat | Status |
 |------|------|-----------|--------|
-| 0 | Fundament | Repo, schema, Supabase, AFM-kantorenseed, site live | 🔨 bijna klaar (alleen de Vercel-deploy nog) |
-| 1 | Zorgdata | Relatiegraaf gevuld: eerste 1.000 → volledige zorgsector | ⬜ |
-| 2 | Klik-machine | Vier doorklikbare pagina's + klik-test met echte gebruikers | ⬜ |
-| 3 | Lancering & OOB | Publiek live: volledige zorg + beursfondsen/banken/verzekeraars | ⬜ |
-| 4 | Verdieping | AI-extractie, signalen, onderwijs, nieuwsbrief | ⬜ |
+| 0 | Fundament | Repo, schema, Supabase, AFM-kantorenseed, site live | ✅ |
+| 1 | Zorgdata | Relatiegraaf gevuld: eerste 1.000 → volledige zorgsector | ✅ (boekjaren 2019-2025) |
+| 2 | Klik-machine | Vier doorklikbare pagina's + klik-test met echte gebruikers | ✅ (klik-test loopt door) |
+| 3 | Lancering & OOB | Publiek live: volledige zorg + beursfondsen/banken/verzekeraars | ✅ |
+| 4 | Verdieping | Signalen, onderwijs, honoraria, nieuwsbrief | 🔨 honoraria/onderwijs/opinion-shopping/tekenend accountant af; nieuwsbrief open; AI-extractie bleek onnodig |
 | 5 | Omzet | Freemium live, pricing-validatie, besluit KvK-inkoop | ⬜ |
 
 ---
@@ -125,6 +148,17 @@ die staat in de verklaring-pdf's in het DigiMV-archief.*
       Ligt binnen handbereik: de doelpopulatie van boekjaar 2023 is er precies 1.010
 - [ ] **Mijlpaal B: volledige zorgsector** voor de jaren waar de bron het toelaat
 - [ ] Steekproefcontrole: 25 organisaties handmatig naleggen tegen de bron
+      - 20-8-2026 gedaan, maar gericht in plaats van willekeurig: alle 15 gevallen
+        waarin ons oordeel en het datasetveld elkaar tegenspreken
+        (`v_oordeel_afwijking`, boekjaar 2023). Twaalf ervan zijn met de
+        gedeponeerde pdf ernaast gelezen; **alle twaalf keer klopte onze
+        extractie en zat het datasetveld ernaast**. Het patroon is telkens
+        hetzelfde: de bron haalt het WNT-oordeel en het jaarrekeningoordeel door
+        elkaar, in beide richtingen. De onderbouwing per organisatie staat in
+        `supabase/migrations/20260820130000_oordeelvergelijking_zonder_wnt.sql`.
+      - Nog te doen: een wíllekeurige steekproef, want dit keek alleen naar de
+        gevallen waar twee bronnen het oneens zijn. Waar ze het eens zijn kunnen
+        ze samen miszitten, en dat vindt deze controle niet.
 
 **Wat de proefrit over boekjaar 2023 leerde** (droogloop, zie `digimv.md`):
 
@@ -270,7 +304,9 @@ Volgorde indicatief; oppakken op basis van wat de klik-test en Fase 5 leren.
    **Let op: de cron staat aan zodra dit op `main` staat.** Het advies blijft
    eerst de zorgsector afmaken (visie: één sector compleet vóór verbreding); wil
    je wachten, zet de workflow dan uit via Actions → *Stichtingenlus* → ⋯ →
-   *Disable workflow*, of draai hem handmatig met `workflow_dispatch`. Kantoren
+   *Disable workflow*, of draai hem handmatig met `workflow_dispatch`. (Sinds
+   5-10-2026 juist aan laten: de lus plant zelf herkansingen op 1 oktober en
+   1 januari, en een lege ronde schrijft niets.) Kantoren
    zonder Wta-vergunning staan in `seed/kantoren_overig.csv` (beslissing 8).
    **Woningcorporaties zijn nu de goedkoopste vertical die er is** 🆕: de dVi-open data
    van de Autoriteit woningcorporaties heeft een kolom `Accountant` per corporatie, mét

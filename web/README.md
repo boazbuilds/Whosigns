@@ -16,6 +16,8 @@ relatiegraaf in Supabase. Fase 0 (site live) en de basis voor Fase 2
 | `/organisaties` | Alle organisaties | Alfabetisch register met plaats en subsector |
 | `/bevindingen` | Oordelen | Niet-goedkeurende oordelen en continuïteit, met de grond |
 | `/subsector/[naam]` | Subsector | Kantoren en organisaties binnen één subsector |
+| `/aanbestedingen` | Aanbestedingen | Gunningen uit TED per gunningsjaar; telling per kantoor alleen bij de overheid, en niet in een jaar waarin een gemeente e.d. elders is ingedeeld |
+| `/plaats/[naam]` | Plaats | Organisaties in één plaats met hun laatste controle (vanaf drie organisaties) |
 | `/zoeken?q=` | Zoeken | Organisaties én kantoren |
 
 **URL-vorm:** het nummer vooraan is de sleutel (KvK, resp. AFM-nummer), de naam
@@ -28,9 +30,14 @@ KvK-nummer oplost.
 1. **Minimaal 5 vervolgklikken per pagina** (`docs/visie.md`). Het onderdeel
    `<Doorklik>` waarschuwt in de console tijdens ontwikkelen als een pagina eronder
    zakt. Ook de 404 heeft doorklikken — juist daar loopt iemand anders vast.
-2. **Nooit natuurlijke personen.** De site toont uitsluitend
-   accountants*organisaties*; de database bevat niets anders (AVG-guardrail,
-   `docs/concept.md` §9).
+2. **Eén natuurlijke persoon, en verder geen.** Naast de accountants*organisatie*
+   mag de tekenend accountant getoond worden, mits de naam uit een openbare bron
+   komt (besluit 20-8-2026, `docs/concept.md` §9 — mét de grondslag erbij, want die
+   is gerechtvaardigd belang en niet een uitzondering op de AVG). Bestuurders,
+   toezichthouders, medewerkers en contactpersonen komen er niet in.
+
+   Voorwaarde vóór dit veld zichtbaar wordt: een privacyalinea in het colofon met
+   welk gegeven, waarvandaan, waarvoor, en waar je bezwaar of correctie kunt vragen.
 
 ## Lokaal draaien
 
@@ -91,3 +98,15 @@ weghalen.
   anders kunnen beweren.
 - **Antwoorden worden een uur hergebruikt** (`revalidate: 3600`). De pipeline draait
   wekelijks, dus verser hoeft niet en het houdt het aantal database-verzoeken laag.
+- **Pagina's in de cache gooien een databasefout door.** De voorpagina, `/honoraria`,
+  `/accountants`, `/sectoren` en de organisatie-, sector-, subsector- en
+  accountantpagina's bewaart Next een uur (ISR). Daar dus géén `<Foutmelding>`
+  renderen: die ging bij een mislukte verversing een uur de cache in. Een geworpen
+  fout laat de vorige versie staan; zie `app/error.tsx`. De dynamische pagina's
+  (met een `?jaar=` of `?pagina=`) mogen de foutmelding wél tonen.
+  `pipeline/test_site_snel.py` bewaakt dit.
+- **Linkcontrole.** `node scripts/linkcheck.mjs http://localhost:3000` tegen een
+  draaiende `next start` volgt de interne links en faalt op elke kapotte, en op
+  elke pagina met een foutmelding erin. CI doet hetzelfde
+  (`.github/workflows/website.yml`, alleen als web/ of de migraties veranderen).
+  `/zoeken` wordt nooit opgevraagd: die pagina schrijft in de zoeklog.

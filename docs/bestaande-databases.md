@@ -142,6 +142,80 @@ Nuttig op drie manieren: het bevestigt de orde van grootte in `docs/concept.md`
 zetten ("wij hebben X van de ±20.000"), en de PE-trend is een verhaallijn die niemand
 anders per kantoor zichtbaar maakt.
 
+## 3b. DUO Open Onderwijsdata — accountantshonoraria per schoolbestuur (vondst 21-8-2026)
+
+Het OCW-dashboard "Jaarrekeninggegevens" (informatieproducten.duo.rijkscloud.nl)
+heeft een eigen rubriek **"Accountantskosten (accountantshonoraria)"** en zegt:
+"alle gebruikte gegevens zijn beschikbaar als open data op de website van DUO."
+Jaarrekeningdata per bestuur is er vanaf verslagjaar 2020/2021 (XBRL
+Onderwijsportaal), po/vo/mbo/hbo/wo — duizenden controleplichtige besturen.
+
+Wat dit zou opleveren: een zésde sector (onderwijs) met gestructureerde
+honoraria per bestuur per boekjaar. Wat er níét in zit: de naam van het
+kantoor — het dashboard toont geen kantoren, dus die moet net als bij de zorg
+uit de gedeponeerde jaarverslagen zelf komen.
+
+**Nagetrokken op 21-8-2026, en het machineleesbare bestand is er níét.** De
+"directe toegang tot de datasets" in het dashboard linkt naar
+`duo.nl/open_onderwijsdata/onderwijs-algemeen/financiele-overzichten/`, en
+alles daar is pdf: gegevensboeken per sector en "financiële gegevens per
+bestuur" (po 25 MB t/m wo 2,3 MB, jaren 2020-2024). Die per-bestuur-boeken zijn
+gedownload en doorzocht: nette tabellen per bevoegd gezag (balans, staat van
+baten en lasten, kengetallen) maar **nul treffers op "accountant"** — de
+honorariarubriek van het dashboard zit dus alleen in de Shiny-app zelf. Het
+CKAN-portaal (onderwijsdata.duo.nl, 56 datasets) heeft evenmin iets met
+jaarrekeningen.
+
+De route die overblijft is de route die DUO zelf aanwijst: een
+informatieverzoek aan **informatieproducten@duo.nl** om de
+accountantshonoraria-tabel per bestuur als csv — de data bestáát, het dashboard
+rekent er live mee. Dat verzoek is aan de opdrachtgever; het conceptmailtje is
+aangeleverd. Tot die tijd blijft onderwijs een kandidaat, geen bron.
+
+## 3c. Pensioenfondsen — DNB-register plus eigen jaarverslagen (kandidaat, 21-8-2026)
+
+DNB publiceert een openbaar register van alle actieve pensioenfondsen
+(ondernemings-, bedrijfstak-, beroeps- en algemene fondsen; orde van 150-170) en
+als open data een jaartabel "Gegevens individuele pensioenfondsen" (premies,
+kosten, deelnemers, dekkingsgraad — xlsx via data.overheid.nl). Wie tekent staat
+daar níét in; wél in de jaarverslagen die elk fonds als fondsdocument op de
+eigen site publiceert, inclusief controleverklaring — verplicht gecertificeerd
+door accountant én actuaris.
+
+De route zou dezelfde zijn als bij de transparantieverslagen: een seed-CSV met
+per fonds de jaarverslag-URL, downloaden, verklaring en ondertekenaar eruit
+lezen. Handwerk zit in het eenmalig vullen van die seed (150+ URL's); daarna is
+het de bestaande extractie. Een compacte sector met vrijwel volledige dekking en
+grote namen (ABP, PFZW, PMT) — journalistiek interessant omdat de fondsenmarkt
+door een handvol kantoren wordt bediend.
+
+**Proef gedaan op 21-8-2026, en de route werkt.** Het ABP-jaarverslag over
+boekjaar 2025 (abp.nl publiceert 2018 t/m 2025 als losse pdf's, één fonds is dus
+meteen acht boekjaren) is gedownload en door de éigen extractie gehaald,
+ongewijzigd:
+
+    kantoor       KPMG Accountants N.V.
+    oordeel       goedkeurend
+    opdrachttype  wettelijke_controle
+    tekenaar      niet gevonden (leeg gelaten — geen gok)
+    honoraria     aanwezig als 382a-noot ("De honoraria van het netwerk…")
+
+Alles wat de zorgroute kan, kan hier dus ook, inclusief honoraria als
+vervolgstap. Bouwvolgorde als deze sector aan de beurt is: (1) seed met de
+grootste twintig fondsen × beschikbare jaren, (2) lader naar het bestaande
+model met sector "pensioenfondsen", (3) daarna de staart van kleinere fondsen.
+
+**Gebouwd op 22-8-2026.** `seed/pensioenfondsen.csv` (26 met de hand
+geverifieerde jaarverslag-URL's: ABP en PFZW elk 2015–2025, bpfBOUW 2023–2025,
+PME 2025), `laad_pensioenfondsen.py` (hergebruikt de verklaring-extractie;
+geen match → review-queue) en de workflow **Pensioenfondsen laden**
+(dispatch-knop; nog niet in "Alles verversen"). End-to-end geproefd op ABP
+2024: KPMG Accountants N.V., goedkeurend, wettelijke_controle. De seed groeit
+fonds voor fonds — kandidaten voor de volgende ronde: PMT, PME oudere jaren,
+bpfBOUW vóór 2023, Pensioenfonds Detailhandel, Vervoer, PGB, Rabobank, Shell
+(SSPF), Philips, SPW, Horeca & Catering, APG/ABN AMRO/ING-fondsen, de drie
+KLM-fondsen, SPMS en SPH; het DNB-register is de dekkingslijst.
+
 ## 4. Commercieel: Audit Analytics Europe (en Orbis, Company.info)
 
 **Audit Analytics Europe** (Ideagen) is het dichtst bij "onze database": opdrachten en

@@ -15,6 +15,11 @@ Elk kantoor in de index heeft daarom `wta_vergunning`: True/False. De aanroeper
 gebruikt dat om het opdrachttype te bepalen — een vrijwillige controle is een ander
 product dan een wettelijke en mag niet in dezelfde marktaandelen belanden.
 
+Een derde, kleiner deel: `seed/kantoren_vervallen.csv`, de vergunninghouders die
+uit het AFM-register zijn verdwenen. Hun oude verklaringen bestaan nog, dus ze
+blijven onder hun eigen AFM-nummer vindbaar — met `wta_vergunning` False (ze staan
+er niet meer in) en `wta_ooit` True (ze tekenden destijds bevoegd).
+
 Werkwijze:
 1. Normaliseer tekst en kantoornamen (kleine letters, leestekens weg, spaties samen).
 2. Bouw per kantoor zoeksleutels: de volledige naam en de kernnaam zonder rechtsvorm
@@ -26,7 +31,10 @@ Geen match, of een match die te kort/te generiek is -> None, zodat de aanroeper 
 geval in de review_queue kan zetten. Nooit stil gokken.
 
 Guardrail: deze module raakt alleen kantoorNAMEN. Namen van tekenende accountants
-(natuurlijke personen) worden niet gezocht, niet geretourneerd en niet gelogd.
+(natuurlijke personen) worden hier niet gezocht en niet geretourneerd: deze
+module gaat over kantoornamen. De ondertekenaar wordt sinds 20-8-2026 wél
+vastgelegd, maar door extractie/ondertekenaar.py en op de ruwe tekst — zie
+de kop van dat bestand voor waarom het niet hier gebeurt.
 """
 
 import csv
@@ -36,6 +44,7 @@ from pathlib import Path
 
 SEED_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren.csv"
 OVERIG_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren_overig.csv"
+VERVALLEN_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoren_vervallen.csv"
 ALIAS_PAD = Path(__file__).resolve().parents[1] / "seed" / "kantoor_alias.csv"
 
 # Rechtsvormen en ruis die we van namen afhalen om de kernnaam te krijgen.
@@ -98,6 +107,48 @@ def laad_overige_kantoren(pad: Path = OVERIG_PAD) -> list[dict]:
         kantoor["afm_nummer"] = None
         kantoor["wta_vergunning"] = False
         kantoor.setdefault("oob_vergunning", "nee")
+        # Had dit kantoor ooit wél een vergunning? De kolom `wta_vervallen` legt
+        # uit waarom die er niet meer is (fusie, teruggegeven) en dat verandert
+        # hoe een oude opdracht gelezen moet worden.
+        #
+        # Waarom dat uitmaakt: `wta_vergunning` staat in de tegenwoordige tijd en
+        # blijft dus onwaar — het kantoor stáát niet in het register. Maar een
+        # woningcorporatie is controleplichtig, en een lader die daaruit afleidt
+        # "geen vergunning, dus geen wettelijke controle" zet dan bij vijftien
+        # corporaties dat hun jaarrekening vrijwillig is gecontroleerd. Dat is
+        # niet waar én het leest als een misstand die er niet is. Accon avm
+        # tekende die controles bevoegd; de vergunning verviel pas jaren later
+        # door de fusie met Flynth Audit.
+        kantoor["wta_ooit"] = bool((kantoor.get("wta_vervallen") or "").strip())
+    return kantoren
+
+
+def laad_vervallen_kantoren(pad: Path = VERVALLEN_PAD) -> list[dict]:
+    """Vergunninghouders die uit het AFM-register zijn verdwenen.
+
+    Waarom ze in de index blijven: kantoor_match bouwde zijn index alleen uit de
+    snapshot van deze week. Viel een kantoor eruit, dan vond een verklaring van
+    vorig jaar met precies die naam niets meer — of erger, een opvolger met een
+    gelijkende naam. Zo matchte 'Maatschap Steens & Partners Accountants en
+    Adviseurs' na de snapshot van 28-9-2026 op de B.V. die zes dagen eerder een
+    eigen, nieuwe vergunning kreeg (13020234), terwijl de maatschap zelf
+    13000055 was en die verklaringen tekende.
+
+    Sleutel blijft het AFM-nummer, zodat de lader de bestaande databaserij
+    terugvindt in plaats van er een tweede naast te zetten. `wta_vergunning` is
+    False omdat het veld in de tegenwoordige tijd staat; `wta_ooit` True, want
+    tot de dag van verdwijnen stond het kantoor in het register — zelfde
+    redenering als bij `wta_vervallen` in kantoren_overig.csv.
+    """
+    if not pad.exists():
+        return []
+    with pad.open(encoding="utf-8") as f:
+        kantoren = list(csv.DictReader(f))
+    for kantoor in kantoren:
+        kantoor["sleutel"] = kantoor["afm_nummer"]
+        kantoor["wta_vergunning"] = False
+        kantoor["wta_ooit"] = True
+        kantoor["oob_vergunning"] = "nee"
     return kantoren
 
 
@@ -123,12 +174,14 @@ def bouw_index(
     kantoren: list[dict],
     aliassen: list[dict] | None = None,
     overige: list[dict] | None = None,
+    vervallen: list[dict] | None = None,
 ) -> dict[str, dict]:
     """Zoeksleutel -> kantoor. Langere sleutels winnen bij het matchen.
 
     `overige` zijn de kantoren zonder Wta-vergunning; laat het weg om alleen op het
     AFM-register te matchen (bijvoorbeeld bij een bron waar per definitie een
     wettelijke controle ligt). `None` betekent: lees `seed/kantoren_overig.csv`.
+    `vervallen` idem voor `seed/kantoren_vervallen.csv`.
     """
     index: dict[str, dict] = {}
 
@@ -143,7 +196,15 @@ def bouw_index(
         if bestaand is None or _rangschik(kantoor) < _rangschik(bestaand):
             index[sleutel] = kantoor
 
-    alle = list(kantoren) + (
+    # Een nummer dat weer in het register staat is niet meer vervallen: dan wint
+    # de rij uit de snapshot van deze week.
+    in_register = {k["afm_nummer"] for k in kantoren}
+    weg = [
+        k
+        for k in (laad_vervallen_kantoren() if vervallen is None else vervallen)
+        if k["afm_nummer"] not in in_register
+    ]
+    alle = list(kantoren) + weg + (
         laad_overige_kantoren() if overige is None else list(overige)
     )
     for kantoor in alle:
@@ -152,7 +213,10 @@ def bouw_index(
             for sleutel in {normaliseer(naam), kernnaam(naam)}:
                 voeg_toe(sleutel, kantoor)
 
-    op_nummer = {k["afm_nummer"]: k for k in kantoren}
+    # Een alias mag ook naar een verdwenen nummer wijzen. Zonder dat liep elke
+    # lader stuk op de ValueError hieronder zodra een kantoor mét aliassen uit
+    # het register viel.
+    op_nummer = {k["afm_nummer"]: k for k in list(kantoren) + weg}
     for rij in laad_aliassen() if aliassen is None else aliassen:
         kantoor = op_nummer.get(rij["afm_nummer"])
         if kantoor is None:
@@ -194,7 +258,46 @@ _DATUM = re.compile(
 _ONDERTEKENING = (
     "origineel getekend", "was getekend", "getekend door", "statutair gevestigd",
     "was signed", "signed by", "namens deze",
+    # Digitale ondertekendiensten zetten hun eigen stempel in het handtekeningblok:
+    # "Miedema Accountants ValidSigned door drs. D. van der Bij RA RB op 29-03-2024".
+    # Die woorden staan nergens anders in een jaarverslag.
+    "validsigned", "ondertekend door", "digitaal ondertekend",
 )
+
+# Bewust NIET toegevoegd: de onafhankelijkheidsparagraaf ("Ons zijn geen relaties
+# bekend tussen Deloitte Accountants B.V. en haar zuster- en/of
+# dochterondernemingen"). Dat lijkt een sterk signaal — een kantoor dat zijn eigen
+# onafhankelijkheid verklaart ís de tekenaar — en het is de grootste enkele
+# oorzaak onder de bijna-treffers (18 van de 63 in een steekproef van 4.000
+# raadsstukken).
+#
+# Maar gemeten levert het bijna niets op: mét de regel erbij kwam er over diezelfde
+# 4.000 documenten één rij bij, corpusbreed dus een stuk of vijf. De reden is dat
+# zo'n bijna-treffer meestal staat bij een organisatie die haar kantoor al via een
+# ándere vermelding in hetzelfde stuk kreeg. Nul toeschrijvingen klapten om, dus
+# de regel is niet gevaarlijk — hij is alleen de moeite niet waard, en elke extra
+# regel in de definitie van "ondertekening" is een extra manier om er later naast
+# te zitten. Zie docs/bronverkenning-raadsinformatie.md voor wat er dan wél nog
+# open ligt.
+
+# Wie tekent er onder de kantoornaam? Een handtekeningblok is "kantoornaam, dan de
+# accountant met zijn titel": "CAS ZorgAccountants B.V. S.R. Snel AA", "Konings Maters
+# Accountants & Adviseurs W.M. Groothuis RA". Zonder deze regel haalden die twee de
+# drempel niet — er stond geen datum en geen ondertekeningsformule bij.
+#
+# De volgorde doet het werk. In de gevallen waarin een kantoornaam juist níét de
+# ondertekenaar is staat de titel er vóór: "drs J.M. van Lieshout RA, secretaris,
+# accountant bij Koeleman accountants" en "J.W. Stam MSc RA, senior manager bureau
+# vaktechniek bij Baker Tilly Netherlands N.V.". Daar volgt er niets meer ná de naam,
+# dus deze regel vuurt daar niet.
+_ONDERTEKENAAR_NA = re.compile(
+    r"^\s*(?:\w+\s+){0,4}?"          # "validsigned door", "w g", "drs" ertussen
+    r"(?:[a-z]\s){1,5}"              # initialen: "s r ", "w m ", "d "
+    r"(?:(?:van|de|der|den|ten|ter|op|in|het)\s+){0,3}"   # tussenvoegsels
+    r"[a-z][a-z'’]+\s+"              # achternaam
+    r"(?:ra|aa|rb)\b"                # de titel van de tekenend accountant
+)
+VENSTER_ONDERTEKENAAR = 70
 _OORDEEL_DAVOOR = (
     "basis voor ons oordeel", "voor ons oordeel", "ons oordeel",
     "basis for our opinion", "in our opinion",
@@ -249,6 +352,10 @@ def _contextscore(tekst: str, positie: int, lengte: int) -> int:
     if any(woord in ruim_voor for woord in _OORDEEL_DAVOOR):
         score += 3
     if any(woord in rondom for woord in _ONDERTEKENING):
+        score += 2
+    # Zie _ONDERTEKENAAR_NA: de tekenend accountant staat ná de kantoornaam, en in de
+    # gevallen waarin de naam niet de ondertekenaar is staat de titel er juist vóór.
+    if _ONDERTEKENAAR_NA.match(tekst[positie + lengte:][:VENSTER_ONDERTEKENAAR]):
         score += 2
     if any(woord in voor for woord in _GEEN_ONDERTEKENING):
         score -= 4

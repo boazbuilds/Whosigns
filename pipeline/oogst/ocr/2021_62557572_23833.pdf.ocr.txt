@@ -1,0 +1,2 @@
+# whosigns-ocr v1 grootte=36440 dpi=300 paginas=20
+Geen verplichte opmaak voor een V.O.F.

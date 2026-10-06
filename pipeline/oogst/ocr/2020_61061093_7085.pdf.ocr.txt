@@ -1,0 +1,956 @@
+# whosigns-ocr v1 grootte=5798917 dpi=300 paginas=20
+CONTOUR
+
+ACCOUNTANTS
+
+VV
+
+2.1.2 RESULTATENREKENING OVER 2020
+
+BEDRIJFSOPBRENGSTEN:
+
+Opbrengsten zorgprestaties, jeugdhulp en
+maatschappelijke ondersteuning
+
+Subsidies
+
+Overige bedrijfsopbrengsten
+
+Som der bedrijfsopbrengsten
+
+BEDRIJFSLASTEN:
+
+Personeelskosten
+
+Afschrijvingen op immateriële en materiële vaste activa
+
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+BEDRIJFSRESULTAAT
+
+Financiële baten en lasten
+RESULTAAT VOOR BELASTINGEN
+Belastingen
+
+RESULTAAT NA BELASTINGEN
+
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld:
+
+Toevoeging/(onttrekking):
+Algemene / overige reserves
+
+Pagina 7
+
+Ref. 2020 2019
+€ €
+
+6 1.750.813 1.959.598
+7 50.059 33.333
+8 65.591 11.758
+1.866.463 2.004.689
+
+9 1.823.841 1.985.534
+10 1.307 871
+11 38.722 23.267
+1.863.870 2.009.672
+
+2.593 -4.983
+
+14 0 0
+2.593 -4.983
+
+15 0 0
+2.593 -4.983
+
+2020 2019
+
+€ €
+
+2.593 -4.983
+
+2.593 -4.983
+
+
+CONTOUR
+
+ACCOUNTANTS
+
+WV
+2.1.3 KASSTROOMOVERZICHT OVER 2020
+Ref. 2020 2019
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 2.593 -4,983
+Aanpassingen voor:
+- afschrijvingen en overige waardeveranderingen 10 1.307 871
+1.307 871
+Veranderingen in werkkapitaal:
+- vorderingen 2 -2.702 62.946
+- kortlopende schulden (excl. schulden aan banken) 5 39.229 14.245
+36.527 77.191
+Kasstroom uit bedrijfsoperaties 40.427 73.079
+Totaal kasstroom uit operationele activiteiten 40.427 73.079
+Kasstroom uit investeringsactiviteiten
+Investeringen immateriële vaste activa 1 - -6.534
+Totaal kasstroom uit investeringsactiviteiten - -6.534
+Kasstroom uit financieringsactiviteiten
+Totaal kasstroom uit financieringsactiviteiten - -
+Mutatie geldmiddelen 40.427 66.545
+Stand geldmiddelen per 1 januari 3 122.946 56.401
+Stand geldmiddelen per 31 december 3 163.373 122.946
+Mutatie geldmiddelen 40.427 66.545
+
+Pagina 8
+
+CONTOUR
+
+ACCOUNTANTS
+
+WV
+
+2.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+2.1.4.1 Algemeen
+
+Activiteiten
+
+Stichting Boei-Limburg is statutair (en feitelijk) gevestigd te Venlo, Albert Cuypstraat 1e en is
+geregistreerd onder KvK-nummer 61061093. De stichting heeft ten doel het (doen) verlenen van jeugd-
+GGZ (geestelijke gezondheidszorg) aan kinderen, jongeren en jongvolwassenen met psychische
+problemen alsmede het (doen) verlenen van aanvullende zorg- en dienstverlening en voorts al hetgeen
+hiermee rechtstreeks of zijdelings verband houdt of daartoe bevorderlijk kan zijn, alles in de ruimste zin
+van het woord.
+
+Verslaggevingsperiode
+
+Deze jaarrekening heeft betrekking op het boekjaar 2020, dat is geëindigd op balansdatum 31 december
+2020.
+
+Grondslagen voor het opstellen van de jaarrekening
+De jaarrekening is opgesteld in overeenstemming met de de Regeling verslaggeving WTZi
+(RvW)/Regeling Jeugdwet en daarmee de Richtlijn voor de Jaarverslaggeving hoofdstuk 655
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Continuïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Vergelijkende cijfers
+
+De cijfers voor 2019 zijn, waar nodig, geherrubriceerd om vergelijkbaarheid met 2020 mogelijk te maken.
+Deze herrubriceringen betreffen: Inkoopwaarde geleverde producten is verplaats naar Personeelskosten
+en verkoop-en algemene kosten zijn samengevoegd onder Overige bedrijfskosten.
+
+Oordelen en schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde
+waarde van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen
+afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend
+beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt
+herzien en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+Verbonden rechtspersonen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling en een
+natuurlijk persoon of entiteit die verbonden is met de instelling. Dit betreffen onder meer de relaties
+tussen de instelling en haar deelnemingen, de aandeelhouders, de bestuurders en de functionarissen op
+sleutelposities. Onder transacties wordt verstaan een overdracht van middelen, diensten of
+verplichtingen, ongeacht of er een bedrag in rekening is gebracht.
+
+Pagina 9
+
+CONTOUR
+
+ACCOUNTANTS
+
+A4
+2.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Stichting BOEI-Limburg is onlosmakelijk verbonden met BOEI-Limburg B.V, zij vormen samen BOEI-
+Limburg. BOEI-Limburg heeft ten doel het (doen) verlenen van geestelijke gezondheidszorg en
+aanvullende zorg- en dienstverlening aan kinderen, jongeren, jongvolwassenen en gezinnen op een
+cliëntvriendelijke, effectieve, laagdrempelige en betaalbare manier. Stichting Boei-Limburg sluit voor de
+financiering van de zorgverlening contracten met de gemeenten en eventuele andere financiers, de zorg
+wordt uitgevoerd door de medewerkers van Boei-Limburg BV. De Raad van Bestuur bestuurt de
+instelling onder toezicht van de Raad van Toezicht. De Raad van Bestuur heeft het dagelijks bestuur van
+de organisatie gedelegeerd aan de directie. Op dit moment is er sprake van een volledige personele
+unie tussen de Raad van Bestuur van de Stichting en van de BV. De leden van de Raad van Bestuur zijn
+tevens de UBO's van Boei-Limburg BV.
+
+De transacties tussen BV en Stichting hebben onder normale marktvoorwaarden plaatsgevonden. De
+Raad van Bestuur wordt gevormd door de heren M.M.J. Steenhuis, M.H.M. Berghs en J.H.H. Verhalle.
+Het dagelijkse bestuur is in handen van de directie: de heer M.M.J. Steenhuis, lid Raad van Bestuur en
+mevrouw M. Dijs, directeur Zorg. De beloning van de Raad van Bestuur, de directeur Zorg en de Raad
+van Toezicht valt binnen de normen vastgelegd in de WNT-2 klasse |.
+
+2.1.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders
+vermeld in de verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en
+kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar de instelling zulten toevloeien en het actief een kostprijs of een waarde heeft waarvan de
+omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de balans
+verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan
+gepaard zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de
+omvang van het bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden
+vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan
+voldoen worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans
+opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet
+leidt tot een belangrijke verandering in de economische realiteit met betrekking tot het actief of de
+verplichting. Dergelijke transacties geven evenmin aanleiding tot het verantwoorden van resultaten. Bij
+de beoordeling of er sprake is van een belangrijke verandering in de economische realiteit wordt
+uitgegaan van de economische voordelen en risico’s die zich naar waarschijnlijk in de praktijk zullen
+voordoen, en niet op voordelen en risico's waarvan redelijkerwijze niet te verwachten is dat zij zich
+voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat
+
+alle of nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met betrekking
+tot het actief of de verplichting aan een derde zijn overgedragen. De resultaten van de transactie worden
+in dat geval direct in de resultatenrekening opgenomen, rekening houdend met eventuele voorzieningen
+
+die dienen te worden getroffen in samenhang met de transactie. Indien de weergave van de
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van de zorginstelling.
+
+Pagina 10
+
+CONTOUR
+
+ACCOUNTANTS
+
+A4
+2.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Immateriële vaste activa
+
+Immateriële vaste activa worden in de balans opgenomen wanneer het waarschijnlijk is dat de
+toekomstige voordelen die dat actief in zich bergt, zullen toekomen aan de instelling en de kosten van dat
+actief betrouwbaar kunnen worden vastgesteld.
+
+De immateriële vaste activa worden gewaardeerd op het bedrag van de bestede kosten, verminderd met
+cumulatieve afschrijvingen en bijzondere waardeverminderingen. De jaarlijkse afschrijvingen bedragen
+een vast percentage van de bestede kosten, zoals nader in de toelichting van de balans is
+gespecificeerd. De verwachte gebruiksduur en de afschrijvingsmethode worden aan het eind van elk
+boekjaar opnieuw beoordeeld.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reële waarde, inclusief transactiekosten. (Door
+toepassing van de effectieve rentemethode worden transactiekosten als onderdeel van de amortisatie in
+de resultatenrekening verwerkt). De vervolgwaardering van vorderingen is tegen geamortiseerde
+kostprijs (indien geen sprake van agio/disagio of transactiekosten dan geamortiseerde kostprijs gelijk
+aan nominale waarde). Een voorziening wordt getroffen op de vorderingen op grond van verwachte
+oninbaarheid.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter
+dan twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan
+kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de
+nominale waarde.
+
+Liquide middelen die naar verwachting tanger dan 12 maanden niet ter beschikking staan van de
+instelling, worden gerubriceerd als financiële vaste activa.
+
+Eigen vermogen
+Binnen het eigen vermogen wordt onderscheid gemaakt tussen Algemene en overige reserves.
+
+Algemene en overige reserves
+Onder Algemene en overige reserves is opgenomen dat deel van het eigen vermogen, waarover de
+bevoegde organen binnen de statutaire doelstellingen van de instelling vrij kunnen beschikken.
+
+Pagina 11
+
+CONTOUR
+
+ACCOUNTANTS
+
+WV
+2.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de resultatenrekening opgenomen wanneer een vermeerdering van het economisch
+potentieel, samenhangend met een vermeerdering van een actief of een vermindering van een
+verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten
+worden verwerkt wanneer een vermindering van het economisch potentieel, samenhangend met een
+vermindering van een actief of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan
+de omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan
+de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar
+zijn geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde fout in
+voorgaande boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de resultatenrekening verwerkt wanneer het bedrag
+van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen
+vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar
+kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden
+gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die
+worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten
+zijn verantwoord.
+
+Onder opbrengsten jeugdwet en opbrengsten wmo worden de baten verantwoord uit hoofde van
+geleverde prestaties op het gebied van verleende jeugdzorg respectievelijk wmo-prestaties. Als
+realisatiemoment geldt het moment waarop de betreffende prestaties zijn gerealiseerd en op grond van
+de geldende voorschriften of richtlijnen gedeclareerd kunnen worden bij de opdrachtgever. Tot de
+opbrengsten jeugdwet worden tevens gerekend mutaties in onderhanden zorgtrajecten met betrekking
+
+Overige bedrijfsopbrengsten
+
+De overige bedrijfsopbrengsten bestaan uit opbrengsten anders dan uit zorgprestaties en
+maatschappelijke ondersteuning en subsidies. De overige opbrengsten kunnen worden verdeeld in
+opbrengsten voor het leveren van goederen en opbrengsten voor het leveren van diensten.
+
+Opbrengsten uit de verkoop van goederen worden verwerkt zodra alle belangrijke rechten en risico's met
+betrekking tot de eigendom van de goederen zijn overgedragen aan de koper.
+
+Opbrengsten uit het verlenen van diensten geschieden naar rato van de geleverde prestaties, gebaseerd
+op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Pagina 12
+
+CONTOUR
+
+ACCOUNTANTS
+
+MV
+2.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Subsidies
+
+Subsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra er redelijke
+zekerheid bestaat dat zij zullen worden ontvangen en dat de instelling zal voldoen aan de daaraan
+verbonden voorwaarden. Subsidies ter compensatie van door de instelling gemaakte kosten worden
+systematisch als opbrengsten in de resultatenrekening opgenomen in dezelfde periode als die waarin de
+kosten worden gemaakt.
+
+Uitgangspunten Sociaal Domein
+
+Bij het bepalen van de Wmo-omzet en/of Jeugdwet-omzet heeft de instelling de grondslagen voor
+waardering en resultaatbepaling gevolgd zoals hiervoor opgenomen. In de praktijk kan het lang duren
+voordat de geleverde Wmo-zorg en jeugdhulp in een kalenderjaar definitief wordt afgerekend door de
+gemeenten. Hierdoor is er onzekerheid over het vergoeden van overproductie en kunnen gemeenten
+geleverde zorg ter discussie stellen, waardoor deze mogelijk niet wordt vergoed.
+
+De raad van bestuur heeft deze mogelijke effecten naar beste weten geschat en verwerkt in deze
+jaarrekening waar mogelijk en wijst op het resterende inherente risico terzake dat kan leiden tot
+nagekomen financiële effecten in 2021 of later.
+
+5.1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het
+kasstroomoverzicht bestaan uit de liquide middelen en beleggingen die zonder beperkingen en zonder
+materieel risico van waardeverminderingen als gevolg van de transactie kunnen worden omgezet in
+geldmiddelen.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn
+opgenomen onder de kasstroom uit operationele activiteiten.
+
+9.1.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot
+aan de datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet
+in de jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van
+de gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht
+in de jaarrekening.
+
+5.1.4.6 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de
+wet- en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Pagina 13
+
+CONTOUR
+
+ACCOUNTANTS
+
+WV
+2.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+1. Immateriële vaste activa
+De specificatie is als volgt:
+
+Kosten van concessies, vergunningen en rechten van intellectuele
+eigendom
+
+Totaal immateriële vaste activa
+Het verloop van de immateriële activa in het verslagjaar is als volgt
+
+weer te geven:
+
+Boekwaarde per 1 januari
+Bij: investeringen
+Af: afschrijvingen
+
+Boekwaarde per 31 december
+
+31-dec-20 31-dec-19
+€ €
+4.356 5.663
+4.356 5.663
+2020 2019
+€ €
+5.663 -
+- 6.534
+1.307 871
+4.356 5.663
+
+Toelichting:
+
+verwezen naar het mutatieoverzicht onder 5.1.6.
+
+Voor een nadere specificatie van het verloop van de immateriële vaste activa per activagroep wordt
+
+2. Debiteuren en overige vorderingen
+De specificatie is als volgt:
+
+Vorderingen op debiteuren
+
+Nog te factureren omzet
+
+Totaal debiteuren en overige vorderingen
+
+3. Liquide middelen
+
+De specificatie is als volgt:
+
+Bankrekeningen
+
+Totaal liquide middelen
+
+31-dec-20 31-dec-19
+€ €
+
+86.703 86.445
+44.175 41.731
+130.878 128.176
+31-dec-20 31-dec-19
+€ €
+
+163.373 122.946
+163.373 122.946
+
+Toelichting:
+De liquide middelen zijn vrij beschikbaar.
+
+Pagina 14
+
+
+CONTOUR
+
+ACCOUNTANTS
+
+AvA
+
+2.1.5 TOELICHTING OP DE BALANS
+
+PASSIVA
+
+4. Vrij besteedbaar vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Algemene en overige reserves
+
+Het verloop is als volgt weer te geve
+
+Overige reserves:
+
+Totaal algemene en overige reserve:
+
+5. Overige kortlopende schulden
+De specificatie is als volgt:
+Crediteuren
+
+Overige overlopende passiva:
+
+Accountantskosten
+
+Totaal overige kortlopende schulden
+
+VPB-plicht Jeugdzorg
+
+De belastingdienst heeft geen vennootschapsbelastingplicht opgelegd in verband met geen
+
+winstoogmerk.
+
+31-dec-20 31-dec-19
+
+€ €
+
+96.412 93.819
+
+96.412 93.819
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-20 bestemming mutaties 31-dec-20
+€ € € €
+93.819 2.593 0 96.412
+93.819 2.593 0 96.412
+31-dec-20 31-dec-19
+
+€ €
+
+190.195 155.966
+
+12.000 7.000
+
+202.195 162.966
+
+Pagina 15
+
+
+CONTOUR
+
+ACCOUNTANTS
+
+A4
+
+2.1.6 MUTATIEOVERZICHT IMMATERIELE VASTE ACTIVA
+
+Stand per 1 januari 2020
+- aanschafwaarde
+- cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2020
+
+Mutaties in het boekjaar
+- afschrijvingen
+
+Mutaties in boekwaarde (per saldo)
+
+Stand per 31 december 2020
+- aanschafwaarde
+- cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2020
+
+Afschrijvingspercentage
+
+Pagina 16
+
+Kosten van
+concessies,
+vergunningen
+en rechten van
+
+intellectuele Totaal
+eigendom
+€ €
+6.534 6.534
+871 871
+5.663 5.663
+1.307 1.307
+-1.307 -1.307
+6.534 6.534
+2.178 2.178
+4.356 4.356
+20,0%
+
+CONTOUR
+
+ACCOUNTANTS
+
+4
+2.1.7 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+6. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2020 2019
+€ €
+Opbrengsten Jeugdwet 1.666.855 1.492.877
+Opbrengsten Wmo 5.048 -
+Opbrengsten gezinscoaches 78.910 466.721
+Totaal 1.750.813 1.959.598
+
+7. Subsidies
+
+De specificatie is als volgt: 2020 2019
+€ €
+
+Subsidies vanwege Provincies en gemeenten (exclusief Wmo en 50.059 33.333
+
+Jeugdwet)
+
+Totaal 50.059 33.333
+
+Toelichting:
+
+Betreft een subsidie van de gemeente Venray JSP 2020.
+
+8. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+
+Overige opbrengsten (waaronder vergoeding voor uitgeleend personeel en verhuur onroerend goed en
+andere bedrijfsmatige opbrengsten):
+
+Overige omzet 65.591 11.758
+Totaal 65.591 11.758
+Toelichting:
+
+Ditr betreft onder andere een pilot van gemeente Peel en Maas (€ 13.300), NRO project Fontys (€
+12.456), een afboeking van oninbare omzet 2019 van gemeente Venlo ivm meer cliënten behandeld
+maar niet ontvangen (- € 23.430), en een pilot Venlo project Boeiend (€ 50.000).
+
+Pagina 17
+
+CONTOUR
+
+ACCOUNTANTS
+
+WV
+
+2.1.7 TOELICHTING OP DE RESULTATENREKENING
+
+LASTEN
+
+9. Personeelskosten
+
+De specificatie is als volgt: 2020 2019
+€ €
+Personeel niet in loondienst 1.823.841 1.985.534
+Totaal personeelskosten 1.823.841 1.985.534
+10. Afschrijvingen op immateriële en materiële vaste activa
+De specificatie is als volgt: 2020 2019
+€ €
+Afschrijvingen:
+- immateriële vaste activa 1.307 781
+Totaal afschrijvingen 1.307 781
+Toelichting:
+Alle immateriële vaste activa zijn extern aangeschaft.
+11. Overige bedrijfskosten
+De specificatie is als volgt: 2020 2019
+€ €
+Overige verkoopkosten 6.044 1.860
+Accountantskosten 14.596 7.719
+Vergoeding Raad van Toezicht 11.423 11.180
+Contributies 4.385 2.460
+Bankkosten 128 48
+Kosten cliëntenraad 549 -
+Advieskosten 1.597 -
+Totaal overige bedrijfskosten 38.722 23.267
+
+Pagina 18
+
+
+CONTOUR
+
+ACCOUNTANTS
+
+WW
+
+2.1.7 TOELICHTING OP DE RESULTATENREKENING
+
+12. Honoraria accountant 2020 2019
+€ €
+De honoraria van de accountant over 2020 zijn als volgt:
+1 Controle van de jaarrekening 8.425 3.690
+Overige controlewerkzaamheden (w.o.
+2 productieverantwoordingen) 2.662 1.270
+3 Fiscale advisering - -
+4 Niet-controlediensten 3.509 2.759
+Totaal honoraria accountant | 14.596 7.719
+Toelichting:
+
+werkzaamheden al gedurende het boekjaar 2020 (2019) zijn verricht.
+
+De in de tabel vermelde honoraria voor de controle van de jaarrekening 2020 (2019) hebben betrekking
+op de totale honoraria voor het onderzoek van de jaarrekening 2020 (2019), ongeacht of de
+
+13. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar
+
+deelnemingen en hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+Inzake de bezoldiging van de bestuurders en toezichthouders die in het kader van de WNT verantwoord
+
+worden, is een aparte verantwoording opgesteld.
+
+Pagina 19
+
+
+CONTOUR
+
+ACCOUNTANTS
+
+A4
+2.1.8 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+
+De Raad van Bestuur van Stichting Boei-Limburg heeft de jaarrekening 2020 opgemaakt en
+vastgesteld in de
+
+vergadering van 20 mei 2021.
+
+De raad van Toezicht van de Stichting Stichting Boei-Limburg heeft de jaarrekening 2020
+goedgekeurd in de vergadering
+
+van 20 mei 2021.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+Ondertekening door bestuurders en toezichthouders
+
+Toezichthouder, voorzitter Bestuurder
+J.R. Leunis 20-5-2021
+
+ichthottde 7 — … Bestuurder
+
+T Z
+H.C:VLG- Wigs 20-5-2021 M.M. Steenhuis 20-5-2021 …
+
+Pagina 20
+
+2.2 OVERIGE GEGEVENS
+
+CONTOUR
+
+ACCOUNTANTS
+
+W
+
+2.2 OVERIGE GEGEVENS
+2.2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 2, dat er geen winstoogmerk is. Het eventueel resultaat
+wordt toegvoegd aan de overige reserves van de stichting.
+
+2.2.2 Nevenvestigingen
+
+Stichting Boei-Limburg heeft geen nevenvestigingen.
+
+Pagina 22
+
+WNT-verantwoording 2020 Stichting Boei-Limburg
+
+De WNT is van toepassing op Stichting Boei-Limburg. Het voor Stichting Boei-Limburg
+
+toepasselijke bezoldigingsmaximum is in 2020 € 111.000. (Bezoldigingsmaximum voor zorg en
+
+jeugdhulp, klasse I)
+
+Bezoldiging topfunctionarissen
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Gegevens 2020
+
+bedragen x € 1
+
+Functlegegevens
+
+M.H.M. Berghs
+
+Voorzitter
+
+J.H.H. Verhalle
+
+Secretaris
+
+M.M.-J Steenhuis
+
+Penningmeester
+
+Aanvang en einde functievervulling in
+2020
+
+(01/01 — [31/12]
+
+[01/01 — [31/12]
+
+(01/01 — [31/12]
+
+Omvang dienstverband (als [0,142] [0,248] [0,507]
+deeltijdfactor in fte)
+
+Dienstbetrekking? Nee Nee Nee
+Bezoldiging
+
+Betaning PIUS velastoars 14.630,00 25.520,00 52.250,00
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn 0 0 0
+Subtotaal 14.630,00 25.520,00 52.250,00
+Individueel toepasselijke 15.772,44 27.512,82 56.330,00
+bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet Nvt. Nvt. Nt,
+terugontvangen bedrag
+
+Bezoldiging 14.630,00 25.520,00 52.250,00
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan N.v.t. N.v.t. N.v.t. N.v.t. N.v.t. N.v.t.
+niet is toegestaan
+
+Toelichting op de vordering wegens Ket iet. Nvt.
+onverschuldigde betaling
+
+Gegevens 2019
+
+Functiegegevens Voorzitter Secretaris Penningmeester
+
+Aanvang en einde functievervulling in
+2019
+
+[01/01 — [31/12]
+
+[01/01 — [31/12]
+
+[01/01 — [31/12]
+
+Omvang dienstverband (als [0,140] [0,248] [0,667]
+deeltijdfactor in fte)
+
+Dienstbetrekking Nee Nee Nee
+Bezoldiging
+
+ae te ersosdingen 14.410,00 25.520,00 68.695,00
+Beloningen betaalbaar op termijn 0,00 0,00 0,00
+Subtotaal 14,410,00 25.520,00 68.695,00
+
+
+Individueel toepasselijke
+bezoldigingsmaximum
+
+14.975,43
+
+26.521,37
+
+71,390,49
+
+Bezoldiging
+
+14.410,00
+
+25.520,00
+
+68.695,00
+
+
+Toezichthoudende topfunctionarissen
+
+Gegevens 2020
+
+bedragen x € 1
+
+Functiegegevens
+
+[YWA van der
+Koelen]
+
+[Lid]
+
+[HCWG Maas]
+
+[Lid]
+
+Aanvang en einde functievervulling in 2020
+
+[01/01 - 31/12)
+
+(01/01 - 31/12]
+
+onverschuldigde betaling
+
+Bezoldiging
+
+Bezoldiging € 4.200,00 € 4.200,00
+Individueel toepasselijke € 11.100 € 11.100
+bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet Nvt. N.v.t.
+terugontvangen bedrag
+
+Bezoldiging € 5.082,00 € 4.641,00
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan niet N.v.t. N.v.t. N.v.t. N.v.t.
+is toegestaan
+
+Toelichting op de vordering wegens N.v.t. N.v.t.
+
+Gegevens 2019
+
+bedragen x € 1
+
+Functiegegevens
+
+[YWA van der
+Koelen]
+
+[Lid]
+
+[HCWG Maas]
+
+[Lid]
+
+Aanvang en einde functievervulling in 2019
+
+[01/01 - 31/12]
+
+(O1/01 - 31/12]
+
+bezoldigingsmaximum
+
+Bezoldiging
+Bezoldiging € 4.000,00 € 4.000,00
+Individueel toepasselijke € 10.700 € 10.700
+
+
+Topfunctionarissen met een totale bezoldiging van € 1.700 of minder
+
+Topfunctionarissen inclusief degenen die op grond van hun voormalige functie nog 4 jaar als
+topfunctionaris worden aangemerkt met een totale bezoldiging van € 1.700 of minder
+
+[TABEL ALLEEN OPNEMEN INDIEN VAN TOEPASSING]!
+
+Gegevens 2020
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+
+J.R. Leunissen Voorzitter
+

@@ -1,0 +1,910 @@
+# whosigns-ocr v1 grootte=6375778 dpi=300 paginas=20
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+1. Immateriële vaste activa
+31-dec-24 31-dec-23
+
+De specificatie is als volgt: € €
+Kosten van ontwikkeling 9.602 21.050
+Totaal immateriële vaste activa 9,602 21.050
+Het verloop van de immateriële activa in het verslagjaar is als volgt weer te geven: 20e 20e
+Boekwaarde per 1 januari 21.050 34.358
+Bij: investeringen 2.662 792
+Af: afschrijvingen 14.110 14.100
+Boekwaarde per 31 december 9,602 21.050
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de immateriële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 1.1.6.
+
+2. Materiële vaste activa
+31-dec-24 31-dec-23
+
+De specificatie is als volgt: € €
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 636 1.159
+Totaal materiële vaste activa 636 1.159
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven: 2024 2023
+
+€ €
+Boekwaarde per 1 januari 1.159 454
+Bij: investeringen 20.292 1.074
+Af: afschrijvingen 3.314 369
+Boekwaarde per 31 december 18.137 1.159
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 1.1.7.
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+3. Vorderingen
+
+De specificatie is als volgt: 31-dec-24 31-dec-23
+
+€ €
+Vorderingen op debiteuren 67.104 62.095
+Nog te factureren omzet 253.743 194.123
+Vordering uit hoofde van financieringstekort 1.013.892 706.912
+Vorderingen verbonden partijen
+RC Plaza Diensten BV 0 1.707
+RC Zorg & Co 0 0
+Te verhalen claims op leden 0 25.982
+Diversen 31.018 9.731
+Totaal debiteuren en overige vorderingen 1.365.757 1.000.549
+Financieringsoverschot Zorgkantoren, zie specificatie op volgende pagina.
+
+Paraaf voor
+
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+3. Vorderingen (vervolg)
+
+- vorderingen uit hoofde van financieringstekort
+
+Vorderingen uit hoofde van financieringstekort en schulden uit hoofde van financieringsoverschot
+
+2023 2024 totaal
+€ € €
+Saldo per 1 januari 750.319 0 750.319
+Financieringsverschil boekjaar 0 5.566.642 5.566.642
+Correcties voorgaande jaren 0 0 0
+Betalingen/ontvangsten -150.319 -4,552.750 -5.303.069
+Subtotaal mutatie boekjaar -750.319 1.013.892 263.573
+Saldo per 31 december 0 1.013.892 1.013.892
+Stadium van vaststelling (per erkenning):
+e b
+
+a= interne berekening
+b= overeenstemming met zorgverzekeraars
+c= definitieve vaststelling NZa
+31-dec-24 31-dec-23
+
+€ €
+Waarvan gepresenteerd als:
+- vorderingen uit hoofde van financieringstekort 1.013.892 706.912
+- schulden uit hoofde van financieringsoverschot 0 15.548
+1.013.892 691.364
+Specificatie financieringsverschil in het boekjaar 2024 2023
+€ €
+Wettelijk budget voor aanvaardbare kosten 5.566.642 4,454.416
+Af: vergoedingen ter dekking van het wettelijk budget 4.552.750 3.710.161
+Totaal financieringsverschil 1.013.892 744.255
+Toelichting:
+Paraaf voor
+
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.5 TOELICHTING OP DE BALANS
+
+4. Liquide middelen
+
+De specificatie is als volgt: 31-dec-24 31-dec-23
+
+€ €
+Bankrekeningen 188.593 185.250
+Totaal liquide middelen 188.593 185.250
+Toelichting:
+
+De liquide middelen zijn vrij opneembaar
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.5 TOELICHTING OP DE BALANS Paraaf voor
+
+waarmerkingsdoeleinden
+
+Slenssen audit
+
+PASSIVA
+
+Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-24 31-dec-23
+
+€ €
+Kapitaal 166.467 170.558
+Algemene en overige reserves -139.335 -853.759
+Totaal eigen vermogen -572.868 -683.201
+
+Door de verliezen in de afgelopen jaren was er een negatief eigen vermogen ontstaan.
+Door achterstelling van de Ledenschuldrekening en de licentiefees en een winst in 2023 is het garantievermogen
+verder gestegen ten opzichte van vorig jaar.
+
+5. Kapitaal
+Saldo per Kapitaal Overige Saldo per
+Het verloop is als volgt weer te geven: 1-1- stortingen mutaties 31-dec-24
+€ € € €
+Kapitaal bij inschrijving 21.675 0 0 21.675
+Spaarstortingen 148.883 0 -4.091 144.792
+Totaal kapitaal 170.558 0 -4.091 166.467
+
+De met ingang van 2020 ingevoerde spaarstortingen van 5% van de berekende arbeidsvergoeding werd ingevoerd ter
+dekking van het budgetrisico en terugbetalingsverplichtingen uit hoofde van materiele controles.
+
+In 2022 werd deze kapitaalstorting gestopt en vervangen door een verhoging van de marge.
+
+Oude kapitaalstortingen kunnen de leden terugontvangen nadat het vermogen van de cooperatie weer positief is
+
+en enkel als alle dossiers van deze leden op orde zijn.
+
+In 2023 werd een bedrag van € 127.207, gestort door ex-leden die hun dossiers niet in orde hadden, vrij laten vallen van
+de Kapitaalrekening. Dit bedrag werd als voorziening opgenomen op de Claims op leden i.v.m. Materiele controles onder
+punt 3 van de toelichting.
+
+6. Algemene en overige reserves
+
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-1- bestemming mutaties 31-dec-24
+€ € € €
+
+Algemene reserves:
+Resultaatbestemming -853.759 114.424 0 -739.335
+Totaal algemene en overige reserves -853.759 114.424 0 -139.335
+
+7. Ledenschuldrekening
+Saldo per Vergoeding Uitbetaling Saldo per
+
+Het verloop is als volgt weer te geven: 1-1- 31-dec-24
+
+€ € € €
+Nog niet uitbetaalde vergoedingen 678.216 -7.221.640 7.344.843 801.418
+Nog niet uitbetaalde coronabonus 0 0 0 0
+Te verrekenen contributies en inschrijfgeld 0 0 0 0
+Totaal ledenschuldrekening 678.216 -1.221.640 7.344.843 801.418
+
+De verplichting aan de leden uit hoofde van de hun nog toekomende arbeidsvergoeding (als onderdeel van de
+winstverdeling) wordt met ingang van 1 januari 2020 in hun ledenschuldrekening verantwoord.
+
+Als eigenaars van de cooperatie zijn de schulden aan de leden achtergesteld op andere schulden en worden deze
+derhalve onder het garantievermogen gekwalificeerd.
+
+8. Achtergestelde lening licentiefee
+
+Saldo per Rente Betaling Saldo per
+
+Het verloop is als volgt weer te geven: € 31-dec-24
+€ € € €
+
+Nog niet uitbetaalde licentiefee 320.330 9.610 -29.940 300.000
+Totaal achtergestelde lening licentiefee 320.330 9.610 -29.940 300.000
+
+De vanaf 2019 toegekende licentiefee werd in 2022 omgezet in een achtergestelde lening die gelijk wordt gesteld aan de
+kapitaalstortingen van de leden. Terugbetaling onder € 300.000 zal enkel gedaan worden nadat de Cooperatie een positief
+Eigen Vermogen heeft. De rente op de lening werd vastgesteld op 3% per jaar.
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.5 TOELICHTING OP DE BALANS
+PASSIVA
+
+9. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-dec-24 31-dec-23
+€ €
+Crediteuren 32.631 37.751
+Belastingen en premies sociale verzekeringen 14.180 12.028
+Schulden verbonden partijen
+RC Plaza Diensten BV 694.463 0
+RC Maaslandburcht BV 49.278 261.669
+RC decoZorg BV 44.899 251.209
+Overige schulden:
+Te veel ontvangen Corona bonus 0 48.250
+Nog te betalen kosten:
+Te betalen kosten 73.039 79.394
+Te ontvangen facturen 118.086 84.365
+Vakantiegeld 24.183 18.176
+Vooruitontvangen opbrengsten:
+Vooruitontvangen opbrengsten JW-zorg 0 0
+Terugbetalingsverplichtingen 0 84.273
+Schulden uit hoofde van financieringsoverschot 0 15.548
+Totaal overige kortlopende schulden 1.053.538 892 663
+
+Niet in de balans opgenomen verplichtingen, activa en regelingen
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde
+zorgprestaties kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De effecten van eventuele materiële
+nacontroles zijn vooralsnog onzeker en daarom zijn er hiervoor geen verplichtingen opgenomen in de balans.
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.6 MUTATIEOVERZICHT IMMATERIELE VASTE ACTIVA
+
+Kosten van Totaal
+ontwikkeling
+€ €
+Stand per 1 januari 2024
+- aanschafwaarde 70.894 70.894
+- cumulatieve afschrijvingen 49.844 49.844
+Boekwaarde per 1 januari 2024 21.050 21.050
+Mutaties in het boekjaar
+- investeringen 2.662 2.662
+- afschrijvingen 14.110 14.110
+Mutaties in boekwaarde (per saldo) -11.448 -11.448
+Stand per 31 december 2024
+- aanschafwaarde 73.556 73.556
+- cumulatieve afschrijvingen 63.954 63.954
+Boekwaarde per 31 december 2024 9.602 9.602
+Afschrijvingspercentage 20,0%
+1.1.7 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+Andere vaste
+bedrijfs-
+middelen,
+technische en
+administratieve Inventaris Totaal
+uitrusting
+€ € €
+Stand per 1 januari 2024
+- aanschafwaarde 1.569 0 1.569
+- cumulatieve afschrijvingen 410 0 410
+Boekwaarde per 1 januari 2024 1.159 0 1.159
+Mutaties in het boekjaar
+- investeringen 0 20.292 20.292
+- afschrijvingen 523 2.791 3.314
+- desinvesteringen
+aanschafwaarde 0 0 0
+cumulatieve afschrijvingen 0 0 0
+per saldo 0 0 0
+Mutaties in boekwaarde (per saldo) -523 17.501 16.978
+Stand per 31 december 2024
+- aanschafwaarde 1.569 20.292 21.861
+- cumulatieve afschrijvingen 933 2.791 3.724
+Boekwaarde per 31 december 2024 636 17.501 18.137
+Afschrijvingspercentage 20,0% 20,0%
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.7 TOELICHTING OP DE RESULTATENREKENING
+BATEN
+
+10. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2024 2023
+
+€ €
+Opbrengsten zorgverzekeringswet 770.291 657.213
+Wettelijk budget voor aanvaardbare kosten WlIz 5.566.509 4.451.237
+Opbrengsten Wmo 698.628 832.238
+Opbrengsten Jeugdwet 346.494 1.400.266
+Overige zorgprestaties 897.825 102.155
+Nagekomen omzet (v.j.) 0 0
+Afwijking materiele controles (v.j.) 0 -82.929
+Totaal 8.279.748 7.360.180
+
+11. Overige edrijfsopbrengsten
+
+Subsidies
+De specificatie is als volgt: 2024 2023
+€ €
+
+Subsidie voor Stagefondsen en Praktijkleren 17.434 12.601
+
+Overige Subsidies 31.008 0
+
+Totaal 48 442 12.601
+
+Toelichting:
+
+11. Kosten uitbesteed werk 7.052.899 6.234.022
+
+Toelichting:
+
+ZZP-ers zijn eigenaar van de coöperatie. De coöperatie biedt de ZZP-er een platform om
+
+zijn of haar deskundigheid te koppelen aan de particuliere zorgvraag.
+
+Tot en met 2019 dienden de ZZP-leden op basis van de door hun gewerkte uren een
+
+declaratie in, waarbij vervolgens 15% werd ingehouden voor de werkzaamheden van
+
+de externe kringpartijen (declareren en coordineren).
+
+De werkzaamheden van de kringpartijen zijn in 2020 door de cooperatie overgenomen.
+
+Vanaf 2020 ontvangen de leden een ledenvergoeding voor de door hun verrichte werkzaamheden
+
+Voor 2024 bedraagt dit voorschot normaal gesproken 80% van de vergoede productie.
+
+Inhuur leden voor zorgcoordinatie 94.614 123.041
+
+Inhuur overig extern personeel 74.127 69.944
+
+Doorbelaste personeelskosten van Plaza Nederland 0 0
+168.741 192.984
+
+Totaal 7.221.640 6.427.006
+
+Paraaf voor
+
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.7 TOELICHTING OP DE RESULTATENREKENING
+
+12. Personeelskosten
+
+De specificatie is als volgt: 2024 2023
+
+€ €
+Lonen en salarissen 511.646 352.972
+Sociale lasten 81.313 59.240
+Pensioenpremies 38.356 19.223
+Totaal personeelskosten 631.315 431.435
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 10,37 6,55
+Aantal personeelsleden dat buiten Nederland werkzaam is 0 0
+
+13. Overige bedrijfskosten
+
+De specificatie is als volgt: 2024 2023
+
+€ €
+Overige huisvestingskosten 64.857 50.817
+Reiskostenvergoeding 12.015 7.214
+Overige personeelskosten 7.424 4.635
+Accountant 30.000 40.389
+Advies- en administratiekosten 1.238 692
+Automatisering 63.620 89.916
+Licentievergoeding Plaza Diensten BV 55.510 72.000
+Clientenraad 450 529
+Bestuursvergoeding 0 6.961
+RVC-vergoeding 4.838 6.433
+Overige bedrijfskosten 80.635 80.975
+Oninbare debiteuren -12.759 -29.770
+Juridische kosten i.v.m. materiele controles (v.j.) 5.253 6.462
+Totaal overige bedrijfskosten 313.080 337.253
+
+De licentievergoeding voor Plaza Diensten BV is gebaseerd op 2% van de omzet, exclusief de gezamenlijke locaties.
+
+De voorziening voor debiteuren is gebaseerd op de niet ontvangen omzet onder aftrek van
+de te ontvangen bedragen uit hoofde van de aansprakelijkheid van de individuele leden.
+
+14. Afschrijvingen op immateriële en materiële vaste activa
+
+De specificatie is als volgt: 2024 2023
+€ €
+Afschrijvingen:
+- immateriële vaste activa 14.111 14.099
+- materiële vaste activa 3.314 369
+Totaal afschrijvingen 17.424 14.469
+Paraaf voor
+
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.7 TOELICHTING OP DE RESULTATENREKENING
+15. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen en hun
+bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+Alle transacties met verbonden partijen zijn afzonderlijk toegelicht in de jaarrekening.
+16. Wet normering topinkomens (WNT)
+
+De WNT-verantwoording is opgenomen op de volgende pagina.
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+18. WNT-verantwoording 2024 Coöperatie Ambulante Zorg- en hulpverleners U.A. (CAZZ)
+
+De WNT is van toepassing op CAZZ U.A.. Het voor CAZZ U.A. toepasselijke bezoldigingsmaximum is in 2024 € 167.000,-.
+Het betreft het bezoldigingsmaximum klasse II (8 punten).
+
+1. Bezoldiging topfunctionarissen
+
+la. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder dienstbetrekking vanaf de 13e maand van de
+functievervulling alsmede degenen die op grond van hun voormalige functie nog 4 jaar als topfunctionaris worden aangemerkt
+
+egeve D24
+
+Functiegegevens Manager
+Aanvang en einde functievervulling in 2024 nvt
+
+Omvang dienstverband (als deeltijdfactor in fte) 1,0
+Dienstbetrekking? ja
+Bezoldiging
+
+Beloning plus belastbare onkostenvergoedingen € 92.314
+Beloningen betaalbaar op termijn € 5.759
+Subtotaal € 98,073
+Individueel toepasselijk bezoldigingsmaximum € 167.000
+-/- Onverschuldigd betaald en nog niet Nvt
+terugontvangen bedrag mann
+Bezoldiging € 98.073
+Het bedrag van de overschrijding en de reden Nvt
+
+waarom de overschrijding al dan niet is toegestaan Aan
+Toelichting op de vordering wegens onverschuldigde Nvt
+
+betaling ann
+Functiegegevens Manager
+Aanvang en einde functievervulling in 2023 nvt
+
+Omvang dienstverband (als deeltijdfactor in fte) 1,0
+Dienstbetrekking? ja
+Bezoldiging
+
+Beloning plus belastbare onkostenvergoedingen € 73.775
+Beloningen betaalbaar op termijn € 4.966
+Subtotaal € 78.741
+Individueel toepasselijk bezoldigingsmaximum € 151.000
+Bezoldiging € 78.741
+
+Paraaf voor
+
+waarmerkingsdoeleinden
+
+Slenssen audit
+
+Gegevens 2024
+
+bedrage oe bedragen x € 1 J. Swerts
+Functiegegevens Manager Functiegegevens Manager
+Aanvang en einde functievervulling in 2024 nvt Zanvang en einde functievervulling in nvt
+: … . Omvang dienstverband (als
+Omvang dienstverband (als deeltijdfactor in fte) 1,0 Itidfactor in fte) 1,0
+Dienstbetrekking? ja Dienstbetrekking? ja
+Bezoldiging Bezoldiging
+Beloning plus belastbare onkostenvergoedingen 88.980 Beloning plus belastbare 89.177
+onkostenvergoedingen
+Beloningen betaalbaar op termijn € 5.880 Beloningen betaalbaar op termijn € 5.747
+Subtotaal € 94,860 Subtotaal € 94,925
+oe … En , Individueel toepasselijk
+Individueel toepasselijk bezoldigingsmaximum € 167.000 Dn . € 158.650
+bezoldigingsmaximum
+-/- Onverschuldigd betaald en nog niet N.v.t -/- Onverschuldigd betaald en nog niet Nvt
+lteruaontvangen bedrag mann terugontvangen bedrag mann
+Bezoldiging € 94.860 Bezoldiging € 94.925
+Het bedrag van de overschrijding en de reden Het bedrag van de overschrijding en de
+ee En N.v.t. reden waarom de overschrijding al dan N.v.t.
+waarom de overschrijding al dan niet is toegestaan De:
+niet is toegestaan
+Toelichting op de vordering wegens onverschuldigde Toelichting op de vordering wegens
+7 N.v.t. . R N.v.t.
+betaling onverschuldigde betaling
+bedrage oe bedragen x € 1 J. Swerts
+Functiegegevens Manager Functiegegevens Manager
+Aanvang en einde functievervulling in 2023 nvt Zanvang en einde functievervulling in nvt
+: … . Omvang dienstverband (als
+Omvang dienstverband (als deeltijdfactor in fte) 1,0 deeltijdfactor in fte) 0,6
+Dienstbetrekking? ja Dienstbetrekking? ja
+Bezoldiging Bezoldiging
+Beloning plus belastbare onkostenvergoedingen 65.456 Beloning plus belastbare 36.766
+onkostenvergoedingen
+Beloningen betaalbaar op termijn € 7.438 Beloningen betaalbaar op termijn € 2.981
+Subtotaal € 72.894 Subtotaal € 39,747
+De … En , Individueel toepasselijk
+Individueel toepasselijk bezoldigingsmaximum € 151.000 De . € 89.481
+bezoldigingsmaximum
+Bezoldiging € 72.894 Bezoldiging € 39.747
+
+1d. Topfunctionarissen alsmede degenen die op grond van hun voormalige functie nog 4 jaar als topfunctionaris worden aangemerkt met een bezoldiging van
+
+€ 2.100 of minder
+Gegevens 2024
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+Maes, J.A.M.B. Lid RvC*
+Wagner, SK. Lid RvC*
+De Kleijn-Vossen, A.M.C.F. Lid RvC*
+
+* er is sprake van een wisselend voorzitterschap
+
+waarmerkingsdoeleinden
+
+Paraaf voor
+
+e lenssen
+
+audit
+
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.1.8 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+
+Het bestuur van Coöperatie Ambulante Zorg- en hulpverleners heeft de jaarrekening 2024 opgemaakt en
+
+vastgesteld in de vergadering van 21-5-2025.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 1.1.2.
+
+Gebeurtenissen na balansdatum
+
+Er hebben geen van belang zijnde gebeurtenissen na balansdatum plaatsgevonden.
+
+Ondertekening door bestuurders
+
+Ondertekening door toezichthoudend orgaan
+
+25-5-2025
+W. Senden
+Bestuur
+
+25-5-2025
+A. Koenen
+Bestuur
+
+25-5-2025
+J. Swerts
+Bestuur
+
+27-5-2025
+M. Janssen
+RvC-lid
+
+27-5-2025
+J.W.A.T.L. Schmitz
+RvC-lid
+
+27-5-2025
+M.A.W. van Houtum
+RvC-lid
+
+Paraaf voor
+
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.2 OVERIGE GEGEVENS
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ)
+
+1.2 OVERIGE GEGEVENS
+
+1.2.1 Statutaire regeling resultaatbestemming
+
+De statuten (artikel 34) geven het volgende aan:
+
+- Wijst de exploitatierekening een overschot aan, dan wordt dit naar rato van de duur van het lidmaatschap
+van dat boekjaar toegevoegd aan de kapitaalrekeningen van degenen die per eenendertig december van het
+verslaggevingsjaar lid van de Coöperatie zijn en hun entreegeld en contributie over dat jaar ook betaald
+hebben;
+
+- wijst de exploitatierekening een tekort aan dan wordt het gebleken tekort - naar rato van de duur van het
+lidmaatschap- hoofdelijk omgeslagen over de leden , die in het verslaggevingjaar lid van de Coöperatie zijn
+geweest.
+
+1.2.2 Nevenvestigingen
+
+Coöperatie Ambulante Zelfstandige Zorg- en hulpverleners U.A. (CAZZ) heeft geen nevenvestigingen.
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+Bestuursverslag 2024 — Raad van Commissarissen CAZZ
+
+1. Inleiding
+
+In dit verslag legt de Raad van Commissarissen van CAZZ verantwoording af over het
+gehouden toezicht in 2024. Het verslag is opgesteld in het kader van de verplichtingen
+voortvloeiend uit de Wet marktordening gezondheidszorg (WMG). Net als in voorgaande
+jaren heeft de Raad een onafhankelijke positie ten opzichte van het bestuur en vervult zij
+haar rol als klankbord en werkgever van de bestuurders.
+
+2. Samenstelling van de Raad van Commissarissen
+
+De samenstelling van de RvC is in 2024 ongewijzigd gebleven ten opzichte van 2023. De
+volgende leden maakten deel uit van de RvC:
+
+Naam Mevr. S.K. Wagner- | Mevr. AM.C.F. de De heer J.A.M.B. Maes
+Hoofien Kleijn-Vossen
+
+Functie Lid Lid Lid
+
+Leeftijd 1958 1959 1953
+
+(Neven)functies | nvt. nvt. n.v.t.
+
+Deskundigheid Coöperaties in de Arts/beleid in de Burgerperspectief &
+zorg zorg financiën
+
+Benoemd sinds 1-3-2018 12-3-2018 5-9-2018
+
+Aftredend per 2022, herbenoemd 2022, 2022, herbenoemd
+
+herbenoemd
+Herbenoembaar | Ja Ja Ja
+
+In 2024 is actief gezocht naar vervanging van de zittende leden van de Raad. Deze
+wervingsprocedure is succesvol afgerond en zal begin 2025 resulteren in de toetreding van
+nieuwe leden ter borging van continuiteit, verjonging en aanvullende expertise binnen de
+RvC en het aftreden van de zittende leden.
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+3. Onafhankelijkheid en nevenfuncties
+
+Alle leden voldoen aan de onafhankelijkheidseisen zoals vastgelegd in de Zorgbrede
+Governancecode 2022. Geen van de leden heeft conflicterende nevenfuncties of overschrijdt
+het maximumaantal commissariaten.
+
+4. Activiteiten en vergaderingen
+
+De RvC heeft in 2024 vijf keer plenair vergaderd. Belangrijke onderwerpen op de agenda
+waren onder andere de jaarcijfers, begroting, en strategische thema's zoals Al,
+samenwerking en kwaliteitsplannen. Daarnaast vonden een heidag en de jaarlijkse
+zelfevaluatie plaats.
+
+5. Belangrijke besluiten in 2024
+
+- Instemming met de aanstelling van een nieuwe toezichthouder (per 2025)
+- Goedkeuring meerjarenbegroting 2025-2027
+
+- Evaluatie en aanpassing van het toezichtkader Al
+
+- Herijking strategisch kader 2024-2028
+
+6. Toezicht en strategische reflectie
+
+De RvC heeft actief toezicht gehouden op de voortgang van de strategie, met name op het
+gebied van financiële stabiliteit, kwaliteitsverbetering en de doorontwikkeling van digitale
+ondersteuning (AI). De Raad constateert dat de organisatie ook in 2024 verdere groei heeft
+gerealiseerd.
+
+7. Governance en werkwijze van de RvC
+
+De RvC werkt volgens de Zorgbrede Governancecode 2022. De Raad heeft haar eigen
+functioneren geëvalueerd tijdens een zelfevaluatie en streeft naar transparantie,
+deskundigheid en betrokkenheid. Het wisselend voorzitterschap is behouden om
+gelijkwaardigheid en gezamenlijke verantwoordelijkheid te versterken.
+
+8. Vooruitblik 2025
+
+De Raad kijkt positief naar 2025. Met de komst van nieuwe leden gelooft de huidige RvC
+erin dat CAZZ haar slagkracht kan versterken en beter kan inspelen op toekomstige
+uitdagingen in de zorg, waaronder arbeidsmarktkrapte, technologische ontwikkelingen en
+veranderende cliëntbehoeften.
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+elenssen audit
+
+© lenssen audit
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan: Het bestuur en de Raad van Commissarissen van de Coöperatie ambulante
+zelfstandige zorg- en hulpverleners U.A.
+(te Maastricht, Handelsregister 14112652)
+
+104074.BV1.24
+
+Ons oordeel
+Wij hebben de jaarrekening 2024 van Coöperatie ambulante zelfstandige zorg- en hulpverleners U.A.
+te Maastricht beoordeeld.
+
+Op grond van onze beoordeling hebben wij geen reden om te veronderstellen dat de in dit rapport
+opgenomen jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling van het
+vermogen van Coöperatie ambulante zelfstandige zorg- en hulpverleners U.A. per 31 december
+2024 en van het resultaat over 2024, in overeenstemming met de vereisten voor de jaarrekening bij
+en krachtens artikel 40b van de Wet marktordening gezondheidszorg.
+
+De jaarrekening bestaat uit:
+1. De balans per 31 december 2024;
+2. De winst- en verliesrekening over 2024; en
+3. De toelichting, met een overzicht over de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+Op deze jaarrekening zijn de voorschriften van de Regeling openbare jaarverantwoording WMG van
+toepassing.
+
+De basis van onze conclusie
+
+Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder de
+Nederlandse Standaard 2400 ‘Opdrachten tot het beoordelen van financiële overzichten’. Deze
+beoordeling is gericht op het verkrijgen van een beperkte mate van zekerheid. Onze
+verantwoordelijkheden op grond hiervan zijn beschreven in de sectie ‘Onze verantwoordelijkheden
+voor de beoordeling van de jaarrekening’.
+
+Wij zijn onafhankelijk van Coöperatie ambulante zelfstandige zorg- en hulpverleners U.A. zoals
+vereist in de Verordening inzake de onafhankelijkheid van accountants bij Assurance-opdrachten
+(ViO) en andere voor de opdracht relevante onafhankelijkheidsregels in Nederland. Verder hebben
+wij voldaan aan de Verordening gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen assurance-informatie voldoende en geschikt is als basis voor
+onze conclusie.
+
+(volgt blad 2)
+
+T077 39883 27 e Langstraat 20B, 5963 NW Hegelsom © www.lenssenadvies.nl
+IBAN NL31 RABO 0120 409186 « BICRABONL2U © KvK 92054897 e BTW NL 8658.67.525.B01
+
+De algemene leverings-, betalings- en uitvoeringsvoorwaarden van de NBA, gedeponeerd bij de Griffie van de arrondissementsrechtbank te
+Amsterdam, zijn van toepassing op al onze opdrachten en verleende diensten en kunt u op www.lenssenadvies.nl downloaden.
+
+© lenssen audit
+
+Benadrukking controleopdracht in het kader van de WNT
+
+Conform artikel 1.7 van de Wet Normering Topinkomens (WNT) bestaat er een controleplicht ten
+aanzien van de WNT-aspecten. Met betrekking tot de jaarrekening van Coöperatie ambulante
+zelfstandige zorg- en hulpverleners U.A. wordt door ons een beoordelingsopdracht uitgevoerd. De
+WNT-aspecten vallen hier derhalve niet onder. Ten behoeve van het Ministerie van Binnenlandse
+Zaken en Koninkrijksrelaties wordt hiervoor door ons een separate controleverklaring afgegeven.
+
+Verklaring over het bij de jaarrekening opgenomen bestuursverslag
+Op grond van onderstaande werkzaamheden zijn wij van mening dat het bestuursverslag met de
+jaarrekening verenigbaar is en geen materiële afwijking bevat.
+
+Wij hebben het bestuursverslag gelezen en hebben op basis van onze kennis en ons begrip,
+verkregen vanuit de controle of anderszins, overwogen of het verslag materiële afwijkingen bevat.
+Met deze werkzaamheden, die niet dezelfde diepgang hebben als onze controlewerkzaamheden bij
+de jaarrekening, hebben wij voldaan aan de vereisten in de Nederlandse Standaard 720.
+
+Het bestuur van de Coöperatie ambulante zelfstandige zorg- en hulpverleners UA. is
+verantwoordelijk voor het opstellen van het bestuursverslag, in overeenstemming met de vereisten
+voor de jaarrekening bij en krachtens artikel 40b van de Wet marktordening gezondheidszorg.
+
+Verantwoordelijkheden van het bestuur en de Raad van Commissarissen voor de jaarrekening
+Het bestuur van de Coöperatie ambulante zelfstandige zorg- en hulpverleners U.A. is
+verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening, in
+overeenstemming met de vereisten voor de jaarrekening bij en krachtens artikel 40b van de Wet
+marktordening gezondheidszorg.
+
+In dit kader is het bestuur verantwoordelijk voor een zodanige interne beheersing die het bestuur
+noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van
+materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de Coöperatie in staat is haar
+werkzaamheden in continuïteit voort te zetten. Op grond van genoemd verslaggevingsstelsel moet
+het bestuur de jaarrekening opmaken op basis van de continuïteitsveronderstelling, tenzij het
+bestuur het voornemen heeft de Coöperatie te liquideren of de activiteiten te beëindigen, en/of als
+beëindiging het enige realistische alternatief is.
+
+Het bestuur moet gebeurtenissen en omstandigheden, die zouden kunnen leiden tot gerede twijfel
+over de continuïteit, toelichten in de jaarrekening.
+
+De Raad van Commissarissen is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving van de Coöperatie.
+
+Blad 2 bij verklaring met kenmerk 104074.BV1.24 van 26 mei 2025
+
+© lenssen audit
+
+Onze verantwoordelijkheden voor de beoordeling van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een beoordelingsopdracht dat
+wij daarmee voldoende en geschikte assurance-informatie verkrijgen voor de door ons af te geven
+conclusie.
+
+De mate van zekerheid die wordt verkregen bij een beoordelingsopdracht is aanzienlijk lager dan de
+zekerheid die wordt verkregen bij een controleopdracht verricht in overeenstemming met de
+Nederlandse controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Wij hebben deze beoordeling professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse Standaard 2400.
+
+Onze beoordeling bestond onder andere uit:
+
+Het verwerven van inzicht in de entiteit en haar omgeving en in het van toepassing zijnde
+stelsel inzake financiële verslaggeving, om gebieden in de jaarrekening te kunnen
+identificeren waar het waarschijnlijk is dat zich risico’s op afwijkingen van materieel belang
+voor zullen doen als gevolg van fouten of fraude, het in reactie hierop opzetten en uitvoeren
+van werkzaamheden om op die gebieden in te spelen en het verkrijgen van assurance-
+informatie die voldoende en geschikt is als basis voor onze conclusie;
+
+Het verkrijgen van inzicht in de administratieve systemen en administratie van de entiteit en
+het overwegen of deze gegevens opleveren die adequaat zijn voor het doel van het uitvoeren
+van cijferanalyses;
+
+Het inwinnen van inlichtingen bij directeur-bestuurder en andere functionarissen van de
+entiteit;
+
+Het uitvoeren van cijferanalyses met betrekking tot de informatie opgenomen in de
+jaarrekening;
+
+Het verkrijgen van assurance-informatie dat de jaarrekening overeenstemt met of aansluit
+op de onderliggende administratie van de entiteit;
+
+Het evalueren van de verkregen assurance-informatie;
+
+Het overwegen van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren of de door het bestuur gemaakte schattingen redelijk lijken;
+Het overwegen van de algehele presentatie, structuur en inhoud van de jaarrekening en de
+daarin opgenomen toelichtingen; en
+
+Het overwegen of de jaarrekening, inclusief de gerelateerde toelichtingen, een getrouw
+beeld lijkt te geven van de onderliggende transacties en gebeurtenissen.
+
+Nuth, 26 mei 2025
+
+Lenssen Audit B.V.
+
+Paraaf voor
+waarmerkingsdoeleinden
+
+R.H.H. Knops
+
+© lenssen audit
+
+Accountant-administratieconsulent
+
+Blad 3 bij verklaring met kenmerk 136148.BV1.24 van 26 mei 2025

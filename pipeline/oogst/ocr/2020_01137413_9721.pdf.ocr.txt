@@ -1,0 +1,1423 @@
+# whosigns-ocr v1 grootte=762931 dpi=300 paginas=20
+Onze verantwoordelijkheden voor de beoordeling van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een beoordelingsopdracht dat wij
+daarmee voldoende en geschikte assurance-informatie verkrijgen voor de door ons af te geven conclusie.
+De mate van zekerheid die wordt verkregen bij een beoordelingsopdracht is aanzienlijk lager dan de
+zekerheid die wordt verkregen bij een controleopdracht verricht in overeenstemming met de Nederlandse
+controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+Wij hebben deze beoordeling professioneel kritisch uitgevoerd en hebben waar relevant professionele
+oordeelsvorming toegepast in overeenstemming met de Nederlandse Standaard 2400.
+Onze beoordeling bestond onder andere uit:
+
+-__Het verwerven van inzicht in de entiteit en haar omgeving en in het van toepassing zijnde stelsel
+
+inzake financiële verslaggeving, om gebieden in de jaarrekening te kunnen identificeren waar het
+waarschijnlijk is dat zich risico’s op afwijkingen van materieel belang voor zullen doen als gevolg
+van fouten of fraude, het in reactie hierop opzetten en uitvoeren van werkzaamheden om op die
+gebieden in te spelen en het verkrijgen van assurance-informatie die voldoende en geschikt is als
+basis voor onze conclusie;
+
+-__Het verkrijgen van inzicht in de administratieve systemen en administratie van de entiteit en het
+overwegen of deze gegevens opleveren die adequaat zijn voor het doel van het uitvoeren van
+cijferanalyses;
+
+-__Het inwinnen van inlichtingen bij het bestuur en andere functionarissen van de entiteit:
+
+-__Het uitvoeren van cijferanalyses met betrekking tot de informatie opgenomen in de jaarrekening:
+
+- Het verkrijgen van assurance-informatie dat de jaarrekening overeenstemt met of aansluit op de
+onderliggende administratie van de entiteit:
+
+- Het evalueren van de verkregen assurance-informatie:
+
+-___Het overwegen van de geschiktheid van de gebruikte grondslagen voor financiële verslaggeving en
+het evalueren of de door het bestuur gemaakte schattingen redelijk lijken;
+
+-__Het overwegen van de algehele presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toetichtingen; en
+
+-__Het overwegen of de jaarrekening, inclusief de gerelateerde toelichtingen, een getrouw beeld lijkt
+te geven van de onderliggende transacties en gebeurtenissen.
+
+Bloemsma+Faassen
+J
+04
+ing.{. BloëmSma AA7
+Ze
+
+Â
+
+C
+
+JAARREKENING
+
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+1. BALANS PER 31 DECEMBER 2020
+
+Vaste activa
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen
+
+Inventaris
+Vervoermiddelen
+
+Vlottende activa
+
+Voorraden
+Handelsgoederen
+
+Vorderingen
+Handelsdebiteuren
+
+Overige vorderingen
+Overlopende activa
+
+Liquide middelen
+
+Balanstotaal
+
+31-12-2020
+€ €
+1.986.484
+31.750
+72.299
+2.090.533
+1.500
+113.346
+38.533
+3.069
+154.948
+96.951
+2.343.932
+
+31-12-2019
+€ €
+
+2.035.087
+36.940
+44.640
+
+2.116.667
+
+540
+138.515
+10.133
+3.515
+
+152.163
+
+18.951
+
+2.288.321
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+PASSIVA 31-12-2020 31-12-2019
+€ € € €
+
+Eigen vermogen
+
+Bedrijfskapitaal vennoot M. van der Meer 187.044 160.498
+Bedrijfskapitaal vennoot T. van der Meer-Buurmeijer 187.044 160.498
+374.088 320.996
+Langlopende schulden
+Schulden aan kredietinstellingen 1.505.375 1.582.097
+Leaseverplichtingen 47.797 12.922
+1.553.172 1.595.019
+Kortlopende schulden
+Aflossingsverplichting langlopende schulden 166.272 164.947
+Belastingen en premies sociale verzekeringen 80.687 56.047
+Overige schulden en overlopende passiva 169.713 151.312
+416.672 372.306
+Balanstotaal 2.343.932 2.288.321
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+2. WINST- EN VERLIESREKENING OVER 2020
+
+Bedrijfsopbrengsten
+
+Directe kosten
+
+Kosten van uitbesteed werk
+Personeelskosten
+
+Huisvestingskosten
+
+Machinekosten
+
+Autokosten
+
+Verkoopkosten
+
+Algemene kosten
+
+Afschrijvingen op materiële vaste activa
+
+Som der bedrijfslasten
+Bedrijfsresultaat
+
+Rentelasten en soortgelijke kosten
+
+Resultaat
+
+2020
+€ €
+
+1.831.324
+81.105
+18.616
+1.128.690
+81.845
+2.044
+22.898
+3.314
+88.405
+110.201
+
+1.537.118
+
+294.206
+
+-66.880
+
+227.326
+
+2019
+€ €
+
+1.665.985
+81.374
+19.766
+992.182
+77.170
+1.439
+20.625
+2.335
+66.578
+100.631
+
+1.362.100
+
+303.885
+
+-71.167
+
+232.718
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+3. KASSTROOMOVERZICHT 2020
+
+Kasstroom uit operationele activiteiten
+
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+- afschrijvingen
+
+Veranderingen in werkkapitaal:
+
+- mutatie voorraden
+
+- mutatie vorderingen
+
+- mutatie belastingen en premies sociale
+verzekeringen
+
+- mutatie overige schulden en overlopende passiva
+
+Kasstroom uit bedrijfsoperaties
+Rentelasten
+
+Kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+
+Investeringen in materiële vaste activa
+Desinvesteringen materiële vaste activa
+
+Kasstroom uit investeringsactiviteiten
+
+Kasstroom uit financieringsactiviteiten
+
+Verstrekte keaseverplichtingen
+Aflossing langlopende schulden :
+Mutatie aflossingsverplichting
+Privé-opnamen
+
+Kasstroom uit financieringsactiviteiten
+
+Toename/afname geldmiddelen
+
+Samenstelling geldmiddelen
+
+Liquide middelen per 1 januari
+Mutatie liquide middelen
+
+Liquide middelen per 31 december
+
+2020
+€ €
+
+294.206
+110.202
+-960
+-2.785
+24.640
+18.401
+
+443.704
+
+-66.880
+
+376.824
+-96.605
+12.537
+
+-84.068
+59.468
+-101.315
+1.325
+-174.234
+
+-214.756
+
+78.000
+
+18.951
+
+78.000
+
+96.951
+
+2019
+€ €
+303.885
+100.631
+-540
+-56.175
+10.502
+19.361
+377.664
+-71.167
+306.497
+-24.875
+0
+-24.875
+0
+-164.955
+189
+-122.806
+-287.572
+-5.950
+24.901
+-5.950
+18.951
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.1 Toelichting algemeen
+
+Informatie over de onderneming
+
+Vestigingsadrres en inschrijfnummer handelsregister
+De Vlieger-Zorg v.o.f. is feitelijk gevesting op de Stuifzandseweg 50c te 7903 TB Hoogeveen en is ingeschreven
+in het Handelsregister van de Kamer van Koophandel Noord-Nederland onder nummer 01137413.
+
+Algemene toelichting
+
+Activiteiten
+
+De onderneming biedt ondersteuning aan mensen met ASS-problematiek, al of niet in combinatie met een licht
+verstandelijke- of sociale beperking, begeleid wonen, dagbestedingsactiviteiten, alsmede jeugdzorg met
+overnachting en dagopvang.
+
+Locatie van de feitelijke activiteiten
+De Vlieger-Zorg v.o.f. is feitelijk gevestigd op de Stuifzandseweg 50a t/m c, 7903 TB Hoogeveen en een
+nevenvestiging aan de Trambaan 8 te 7911 TM Nieuweroord.
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+De jaarrekening is opgesteld in overeenstemming met gronslagen voor de bepaling van de belastbare winst
+als bedoeld in de Wet op de Inkomstenbelasting.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs,
+verminderd met de afschrijvingen. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering
+plaats tegen de verkrijgingsprijs.
+
+Grondslagen
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen worden gewaardeerd tegen aanschaffings- of voorbrengingskosten plus
+bijkomende kosten onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur.
+Op terreinen wordt niet afgeschreven. Er wordt rekening gehouden met de bijzondere waarderingsverminderingen
+die op de balansdatum worden verwacht.
+
+Overige materiële vaste activa worden gewaardeerd op verkrijgings- of vervaardigingsprijs, inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur
+en bijzondere waardeverminderingen.
+
+De afschrijvingen worden gebaseerd op de geschatte economische levensduur, tenzij fiscaal een wettelijk
+maximum afschrijvingspercentage van 20% wordt voorgeschreven en worden berekend op basis van een vast
+percentage van de kostprijs, rekening houdend met een eventuele restwaarde. Er wordt afgeschreven vanaf
+
+het moment van ingebruikneming. Op terreinen wordt niet afgeschreven. Afschrijving vindt plaats tot de bodem-
+waarde; voor gebouwen in eigen gebruik is dat 50% van de WOZ-waarde, op andere gebouwen (zijnde gebouwen
+ter belegging) is dat 100% van de WOZ-waarde.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie.
+
+Vorderingen worden na eerste verwerking gewaardeerd tegen de geamortiseerde kostprijs. Indien geen sprake is
+van (dis)agio en transactiekosten is de geamortiseerde kostprijs gelijk aan de nominale waarde van de vorderingen.
+Als de ontvangst van de vordering is uitgesteld op grond van een verlengde overeengekomen betalingstermijn wordt
+de reële waarde bepaald aan de hand van de contante waarde van de verwachte ontvangsten en worden er op basis
+van de effectieve rente rente-inkomsten ten gunste van de winst- en verliesrekening gebracht. Voorzieningen
+wegens oninbaarheid worden in mindering gebracht op de boekwaarde van de vordering.
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.1 Toelichting algemeen
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder de
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde
+
+Langlopende schulden
+
+Langlopende schulden worden bij de eerste verwerking gewaardeerd tegen de reële waarde. Transactiekosten
+die direct zijn toe te rekenen aan de verwerving van de langlopende schulden worden in de waardering bij
+eerste verwerking opgenomen. Langlopende schulden worden na eerste verwerking gewaardeerd tegen
+geamortiseerde kostprijs, zijn het ontvangen bedrag, rekening houdend met agio of disagio en onder aftrek van
+transactiekosten. Indien geen sprake is van (dis)agio of transactiekosten is de geamortiseerde kostprijs gelijk aan
+de nominale waarde van de schuld.
+
+Het verschil tussen de boekwaarde en de uiteindelijke aflossingswaarde wordt op basis van de effectieve
+rente gedurende de geschatte looptijd van de langtopende schulden in de winst- en verliesrekening als
+rentelast verwerkt.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag, rekening
+houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale waarde.
+
+Grondslagen voor de bepaling van het resultaat
+
+Het resultaat wordt bepaald als verschil tussen de netto-omzet en alle hiermee verbandhoudende kosten en andere
+aan het verslagjaar toe te rekenen lasten. De resultaten op geleverde goederen en/of diensten worden verantwoord
+in het jaar waarin ze zijn gerealiseerd; verliezen worden verantwoord zodra zij voorzienbaar zijn.
+
+Omzetverantwoording
+
+Netto-omzet omvat de opbrengsten uít levering van goederen en diensten en gerealiseerde (project)opbrengsten
+uit hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van over de omzet geheven
+belastingen.
+
+Overige bedrijfskosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking hebben.
+
+Rentelasten en soorgelijke kosten
+
+Rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van de desbetreffende
+passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de verantwoorde transactiekosten op
+de ontvangen leningen.
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.2 Toelichting op de balans
+
+ACTIVA
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen
+
+2020
+Het verloop gedurende het boekjaar ís als volgt: €
+Boekwaarde per 1 januarí 2.035.087
+investeringen 26.041
+Afschrijvingen 74.644
+Boekwaarde per 31 december 1.986.484
+Aanschafwaarde per 31 december 2.335.298
+Cumulatieve afschrijvingen per 31 december 348.814
+Boekwaarde per 31 december 1.986.484
+In de boekwaarde per ultimo boekjaar is € 106.165 aan grondkosten begrepen.
+Inventaris
+Het verloop gedurende het boekjaar is als volgt:
+Boekwaarde per 1 januari 36.940
+Investeringen 9.707
+Afschrijvingen 14.897
+Boekwaarde per 31 december 31.750
+Aanschafwaarde per 31 december 101.308
+Cumulatieve afschrijvingen per 31 december 69.558
+Boekwaarde per 31 december 31.750
+Vervoermiddelen
+Het verloop gedurende het boekjaar is als volgt:
+Boekwaarde per 1 januari 44.640
+Investeringen 60.857
+Desinvesteringen 12.537
+Afschrijvingen (incl. boekverlies) 20.661
+Boekwaarde per 31 december 72.299
+
+2019
+
+2.109.282
+0
+74.195
+
+2.035.087
+
+2.309.257
+274.170
+
+2.035.087
+
+42.393
+7.578
+13.031
+
+36.940
+
+92.294
+55.354
+
+36.940
+
+40.748
+17.297
+
+13.405
+
+44.640
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.2 Toelichting op de balans
+
+Aanschafwaarde per 31 december
+
+Cumulatieve afschrijvingen per 31 december
+
+Boekwaarde per 31 december
+
+2020
+
+112.579
+
+40.280
+
+72.299
+
+Voor een nadere specificatie van de materiële vaste activa wordt verwezen naar de bijlagen.
+
+Vlottende activa
+
+Voorraden
+
+Handelsgoederen
+
+De voorraad handelsgoederen is als volgt nader te specificeren:
+
+40 respectievelijk 15 m° haardhout
+
+Vorderingen
+Handelsdebiteuren
+
+Nominale waarde
+
+Overige vorderingen
+
+Nog te factureren omzet
+Teveel betaald nettoloon
+Uitkering ziekengeld
+
+Voorgeschoen bedragen
+
+Overlopende activa
+
+Vooruitbetaalde verzekeringen
+Vooruitbetaalde abonnementen
+Vooruitbetaalde autoverzekering
+Vooruitbetaalde motorrijtuigenbelasting
+
+31-12-2020
+
+€
+
+1.500
+
+113.346
+
+37.669
+490
+239
+135
+
+38.533
+
+1.267
+1.490
+221
+91
+
+3.069
+
+2019
+
+95.392
+50.752
+
+44.640
+
+31-12-2019
+
+€
+
+540
+
+138.515
+
+9.077
+875
+181
+
+10.133
+
+1.380
+1.876
+168
+91
+
+3.515
+
+12
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.2 Toelichting op de balans
+
+Liquide middelen
+
+Rabobank, rekening … … 851
+Rabobank, rekening ….….802
+Rabobank, rekening ….… 687
+Rabobank, rekening ….… 212
+Rabobank, rekening…….. 123
+Rabobank, rekening ….… 040
+Rabobank, rekening …...210
+Kas
+
+PASSIVA
+
+Eigen vermogen
+
+Bedrijfskapitaal M. van der Meer
+
+Stand per 1 januari
+Aandeel in resultaat
+
+Privé-opnamen minus stortingen
+
+Stand per 31 december
+
+Bedrijfskapitaal T. van der Meer-Buurmeijer
+
+Stand per 1 januari
+Aandeel in resultaat
+
+Privé-opnamen minus stortingen
+
+Stand per 31 december
+
+Voor een nadere specificatie van de privé-opnamen en de winstverdeling wordt verwezen naar de bijlagen.
+
+31-12-2020
+
+€
+
+4.225
+110
+89.000
+2.673
+348
+154
+
+66
+
+375
+
+96.951
+
+2020
+€
+160.498
+113.663
+
+274.161
+-87.117
+
+187.044
+
+160.498
+113.663
+
+274.161
+-87.117
+
+187.044
+
+31-12-2019
+
+€
+
+5.709
+83
+12.000
+966
+140
+
+53
+18.951
+
+2019
+
+105.542
+116.359
+
+221.901
+-61.403
+
+160.498
+
+105.542
+116.359
+
+221.901
+-61.403
+
+160.498
+
+13
+
+4d
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.2 Toelichting op de balans
+
+Langlopende schulden
+
+Schulden aan kredietinstellingen
+
+Van de schulden aan kredietinstellingen ten bedrage van € 1.662.909 heeft een bedrag van € 915.599 een looptijd
+
+van meer dan vijf jaar. In verband met de COVID-19 uitbraak in 2020 is er dit boekjaar gedurende 6 maanden
+vrijstelling van aflossingsverplichting verleend.
+
+31-12-2020 31-12-2019
+De schulden aan kredietinstellingen zijn: € €
+Rabobank hypotheek 3289.905.345 136.300 141.600
+Rabobank, lening 3289.904.083 4.090 8.260
+Rabobank, lening 3289.907.082 6.000 9.000
+Rabobank, lening 0050001797 24.375 26.625
+Rabobank, hypotheek 3137.914.647 666.658 708.328
+Rabobank, hypotheek 3137.915.546 824.986 849.988
+Schuld per 31 december 1.662.909 1.743.801
+Af: aflossingsverplichting komend boekjaar 157.534 161.704
+1.505.375 1.582.097
+Rabobank hypotheek 3289.905.345
+2020 2019
+Het verloop in het boekjaar is als volgt: € €
+Schuld per 1 januari 141.600 151.200
+Aflossingen -4.800 -9.600
+Schuld per 31 december 136.800 141.600
+Af: aflossingsverplichting komend boekjaar 9.600 9.600
+127.200 132.000
+
+Met betrekking tot zekerheden, aflossingen en rente is het volgende overeengekomen:
+
+Hoofdsom: € 240.000
+
+Rente: 3,25%
+
+Aflossing: € 800 per maand
+
+Zekerheden: Onroerende zaken Trambaan 8 te Nieuweroord
+
+Rabobank lening 3289.904.083
+
+Het verloop in het boekjaar is als volgt:
+
+Schuld per 1 januari 8.260
+Aflossingen -4.170
+Schuld per 31 december 4.090
+Af: aflossingsverplichting komend boekjaar 4.090
+
+0
+
+16.600
+-8.340
+
+8.260
+8.260
+
+14
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.2 Toelichting op de balans
+
+Met betrekking tot zekerheden, aflossingen en rente is het volgende overeengekomen:
+
+Hoofdsom: € 100.000
+Rente: 1,85%
+Aflossing: € 695 per maand
+
+Zekerheden: Onroerende zaken Trambaan 8 te Nieuweroord
+
+Rabobank lening 3289.907.082
+
+Het verloop in het boekjaar is als volgt:
+
+Schuld per 1 januari
+Aflossingen
+
+Schuld per 31 december
+Af: aflossingsverplichting komend boekjaar
+
+2020
+
+9.000
+-3.000
+
+6.000
+6.000
+
+Met betrekking tot zekerheden, aflossingen en rente is het volgende overeengekomen:
+
+Hoofdsom: € 60.000
+Rente: 2,55%
+Aflossing: € 500 per maand
+
+Zekerheden: Onroerende zaken Trambaan 8 te Nieuweroord
+
+Rabobank lening 0050001797
+
+Het verloop in het boekjaar is als volgt:
+
+Schuld per 1 januari
+Aflossingen
+
+Schuld per 31 december
+Af: aflossingsverplichting komend boekjaar
+
+26.625
+-2.250
+
+24.375
+4,500
+
+19.875
+
+Met betrekking tot zekerheden, aflossingen en rente is het volgende overeengekomen:
+
+Hoofdsom: € 45.000
+
+Rente: 3,30%
+
+Aflossing: € 375 per maand
+
+Zekerheden: Cultuurgrond Oude Wijk te Nieuweroord
+
+2019
+
+15.000
+-6.000
+
+9.000
+6.000
+
+3.000
+
+31.125
+-4.500
+
+26.625
+4,500
+
+22.125
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.2 Toelichting op de balans
+
+Rabobank hypotheek 3137.914.647
+
+2020 2019
+Het verloop in het boekjaar is als volgt: € €
+Schuld per 1 januari 708.328 791.668
+Aflossingen -41.670 -83.340
+Schuld per 31 december 666.658 708.328
+Af: aflossingsverplichting komend boekjaar 83.340 83.340
+583.318 624.988
+
+Met betrekking tot zekerheden, aflossingen en rente is het volgende overeengekomen:
+
+Hoofdsom: € 1.000.000 (met staatsgarantie)
+
+Rente: 3,20% (5 jaar vast, tot februari 2021)
+
+Aflossing: € 20.833 per kwartaal (ingaande 31 maart 2017)
+
+Zekerheden: Onroerende- en roerende zaken Stuifzandseweg 50a, b en c te Hoogeveen
+
+Rabobank hypotheek 3137.914.647
+
+Het verloop in het boekjaar is als volgt:
+
+Schuld per 1 januari 849.988 899.992
+Aflossingen -25.002 -50.004
+Schuld per 31 december 824.986 849.988
+Af: aflossingsverplichting komend boekjaar 50.004 50.004
+
+774.982 799.984
+
+Met betrekking tot zekerheden, aflossingen en rente is het volgende overeengekomen:
+
+Hoofdsom: € 1.000.000
+
+Rente: 4,15% (5 jaar vast, tot februari 2021)
+
+Aflossing: € 4.167 per maand
+
+Zekerheden: Onroerende- en roerende zaken Stuifzandseweg 50a, b en c te Hoogeveen
+
+16
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.2 Toelichting op de balans
+
+Leaseverplichtingen
+
+Van de leaseverplichtingen ten bedrage van € 47.797 heeft een bedrag van € 0 een looptijd van meer dan vijf jaar.
+
+Leasemaatschappij Alphera Financial Services nr. 771670
+
+2020
+Het verloop in het boekjaar is als volgt: €
+Schuld per 1 januari 16.165
+Aflossingen -16.165
+Schuld per 31 december 0
+Af: aflossingsverplichting komend jaar 0
+0
+
+Met betrekking tot zekerheden, aflossingen en rente ís het volgende overeengekomen:
+
+Hoofdsom: € 29.488
+Aflossing: In verband met verkoop van de betreffende auto
+în 2020 geheel afgelost.
+
+Leasemaatschappij Alphera Financial Services nr. 20284908
+
+Het verloop in het boekjaar is als volgt:
+
+Ontvangen lening 47.268
+Aflossingen -1.096
+Schuld per 31 december 46.172
+Af: aflossingsverplichting komend jaar 6.298
+
+39.874
+
+Met betrekking tot zekerheden, aflossingen en rente is het volgende overeengekomen:
+
+Hoofdsom: € 29.488
+
+Rente: 5,99%
+
+Aflossing: € 731,80 annuïteit per maand
+Zekerheden: Citroën Jumpy, kenteken VHB-92-G
+
+2019
+
+19.147
+-2.982
+
+16.165
+3.243
+
+12.922
+
+ojoo oo
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+3.2 Toelichting op de balans
+
+Leasemaatschappij Citroën Financial Lease nr. 5026827
+
+Het verloop in het boekjaar is als volgt:
+
+Ontvangen lening
+Aflossingen
+
+Schuld per 31 december
+Af: aflossingsverplichting komend jaar
+
+2020
+
+12.200
+-1.837
+
+10.363
+2.440
+
+7.923
+
+Met betrekking tot zekerheden, aflossingen en rente is het volgende overeengekomen:
+
+Hoofdsom: € 12.200
+
+Rente: 0%
+
+Aflossing: € 203,33 per maand
+
+Zekerheden: Citroën Berlingo, kenteken VFS-52-J
+
+Totaal leaseverplichtingen
+
+Kortlopende schulden
+
+Aflossingsverplichting langlopende schulden
+
+De specificatie is als volgt:
+
+Aflossingsverplichting schulden aan kredietinstellingen
+Aflossingsverplichting leaseverplichtingen
+
+Belastingen en premies sociale verzekeringen
+
+Omzetbelasting
+Loonheffingen
+Pensioenfonds
+
+47.797
+
+31-12-2020
+
+€
+
+157.534
+8.738
+
+166.272
+
+337
+74.976
+5.374
+
+80637
+
+Voor een nadere specificatie van de omzetbelasting wordt verwezen naar de bijlagen.
+
+2019
+
+ol oo oo
+
+12.922
+
+31-12-2019
+
+€
+
+161.704
+3.243
+
+164.947
+
+1.684
+46.912
+7.451
+
+56.047
+
+18
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.2 Toelichting op de balans
+
+Overige schulden en overlopende passiva
+
+31-12-2020 31-12-2019
+€ €
+
+Te veel ontvangen omzet 0 3.641
+Reservering vakantietoeslag 40.811 35.791
+Reservering vakantiedagen e.d. 96.552 87.474
+Rente 218 249
+Inleenkrachten 3.570 0
+Kosten WKR 0 538
+Afrekening energie Stuifzand 854 10.249
+Onderhoud onroerende zaken 550 1.576
+Kosten legionellabestrijding 0 410
+Bewakingskosten 0 104
+Vuilafvoer en schoonmaakkosten 63 58
+Autokosten 0 462
+Werk door derden 3.090 4.199
+Inkopen 56 0
+Computerkosten 168 45
+Overige kosten 252 0
+Afrekening zorgbonus vws 11.242 0
+Kosten salarisverwerking 970 le)
+Accountant/administratiekosten 11.317 6.516
+169.713 151.312
+
+19
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.3 Toelichting op de winst- en verliesrekening
+
+Netto-omzet
+
+Omzet zorg
+
+Huur en kostgeld (zorgbewoners)
+Huur woongedeelte
+
+Verkoop hout
+
+Overige omzet
+
+Nog te factureren omzet
+
+Directe kosten
+
+Inkoop levensmiddelen
+
+Inkoop hulpmateriaal/diverse benodigdheden
+Kosten activiteiten
+
+Klachtenportaal
+
+Reiskosten en abonnementen t.b.v. cliënten
+Overige kosten
+
+Inkoop dagbesteding (hout)
+
+Bijdrage in verband met COVID-19
+
+Kosten van uitbesteed werk en andere externe kosten
+Werk derden
+
+Personeelskosten
+
+Lonen en salarissen
+Brutoloon
+
+Mutatie reservering vakantiedagen, plus/minuren e.d.
+
+Mutatie reservering vakantietoeslag
+
+Subsidies en afdrachtverminderingen
+Uitkering Uwv
+
+Sociale lasten
+Sociale lasten WW, WAO e.d.
+Pensioenpremies
+
+2020
+
+1.732.148
+54.545
+11.910
+
+4.129
+0
+28.592
+
+1831324
+
+53.890
+19.656
+3.556
+
+691
+75
+2877
+360
+
+81.105
+
+18.616
+
+902.187
+9.078
+5.020
+
+916.285
+8.517
+50.778
+
+856.990
+
+164.940
+68.348
+
+233.288
+
+2019
+
+1.589.719
+57.028
+6.947
+2.707
+
+507
+
+9.077
+
+1.665.985
+
+53.707
+11.575
+11.622
+800
+1.129
+906
+1.635
+
+81.374
+
+19.766
+
+756.082
+9.235
+4,871
+
+770.188
+9.017
+21.120
+
+740.051
+
+128.928
+53.428
+
+182.356
+
+20
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.3 Toelichting op de winst- en verliesrekening
+
+Overige personeelskosten
+Reiskostenvergoeding woon-werk
+
+Arbodienst/klachtenportaal en verklaring goed gedrag
+Kosten WKR
+
+Eindheffing WKR
+
+Zorgbonus
+
+VW, compensatie zorgbonus
+
+Studiekosten
+
+Inleenkrachten
+
+Overige personeelskosten
+
+Totaal personeelskosten
+
+Gedurende het boekjaar had de vennootschap gemiddeid 24,2 werknemers in dienst (2019: 20.9).
+
+Huisvestingskosten
+Huur kantoorunit
+
+Verzekering en belastingen
+
+Vaste lasten bewoners
+
+Onderhoud onroerende zaken en terrein
+Onderhoud inventaris
+
+Energie en water
+
+Bewakingskosten
+
+Vuilafvoer en schoonmaakkosten
+Schade-uitkering kassen
+
+Kosten legionellabeheer
+
+Overige kosten
+
+Machinekosten
+Huur machines
+Onderhoud machines
+
+Autokosten
+
+Brandstof
+
+Onderhoud
+Verzekering
+Motorrijtuigenbelasting
+Boetes
+
+Privé-gebruik
+
+2020
+
+15.323
+2.899
+7.673
+
+18.758
+
+33.000
+
+-51.758
+4.965
+7.202
+
+350
+
+38402
+
+1.128.690
+
+20.868
+1.243
+21.330
+1.235
+28.276
+5.247
+1.876
+
+953
+817
+81.845
+
+2.044
+2.044
+
+6.818
+13.127
+6.391
+5.971
+
+-9.409
+
+22.898
+
+2019
+
+11.006
+552
+5.390
+
+40.732
+11.380
+715
+
+69.775
+
+992.182
+
+1.220
+17.016
+
+21.811
+1.091
+28.713
+5.788
+1.397
+-2.103
+1.622
+615
+
+71.170
+
+275
+1.164
+
+1.439
+
+11.603
+9.236
+5.003
+5.468.
+
+65
+-10.750
+
+20.625
+
+21
+
+De Vlieger-Zorg v.o.f. te Hoogeveen
+
+4.3 Toelichting op de winst- en verliesrekening
+
+2020 2019
+€ €
+Verkoopkosten
+Reclame- en advertentiekosten 1.942 403
+Sponsoring 315 482
+Kosten website 533 817
+Mutatie voorziening en verschillen debiteuren -136 651
+Relatiegeschenken 660 1.259
+Overige kosten 0 25
+3.314 2.335
+Algemene kosten
+Kantoorbenodigdheden (incl. porti) 2.043 1.534
+Abonnementen en contributies 7.143 4.126
+Kosten kwailiteitsmanagement 4.102 3.521
+Telefoon, internet en tv 7.811 7.412
+Computerkosten 11.963 9.479
+Kleine aanschaffingen 5.873 1.350
+Accountants-administratiekosten 18.649 10.217
+Kosten salarisverwerking 11.756 10.377
+Overige advieskosten 7.877 7.501
+Werkkleding 680 579
+Overige verzekeringen 7.959 9.484
+Kosten maatregelen COVID-19 1.849 (e)
+Herzieningsregeling omzetbelasting 0 152
+Overige algemene kosten 700 846
+88.405 66.578
+Afschrijvingen materiële vaste activa
+Bedrijfsgebouwen en -terreinen 74.644 74.195
+Inventaris 14.897 13.031
+Vervoermiddelen 17.933 13.405
+Boekverlies vaste activa 2.727 0
+110.201 100.631
+Rentelasten en soortgelijke kosten
+Rente hypothecaire lening 906.345 4.619 4.837
+Rente hypothecaire lening 904.083 126 239
+Rente hypothecaire lening 907.082 204 428
+Rente hypothecaire lening 0050001797 865 972
+Rente hypothecaire lening 914.647 22.535 24.440
+Rente hypothecaire lening 915.546 35.466 36.399
+Rente lease 1.490 1.466
+Rente belastingdienst 93 0
+Rente en kosten rekening-courant bank 1.482 1.886
+66.380 71.167
+
+25

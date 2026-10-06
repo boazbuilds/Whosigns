@@ -343,10 +343,293 @@ is de enige resterende route naar volledige historische dekking, en die is
 gebonden aan de klok: boekjaar 2019 verdwijnt bij de eerstvolgende jaarwisseling
 uit het archief.
 
+## Steekproef archieflijst boekjaar 2019 (5-8-2026) — bijna de helft raak
+
+100 organisaties uit `digimv_archief.doelpopulatie(2019)`, met `--uit-archief`:
+**49 opdrachten, 51 zonder herleidbaar kantoor**, 40,5 minuten met vier werkers
+(±24 seconden per organisatie). Ter vergelijking: de route via de jaardataset gaf
+2 opdrachten op 12 organisaties. De archiefpopulatie is 2.211 (2019), 2.351
+(2020) en 2.471 (2021) — bij dit percentage ligt er ruwweg 7.000 opdrachten over
+zeven boekjaren, maar één Action-run van 5,5 uur doet er ongeveer 800. Opknippen
+met `vanaf`/`aantal` en meerdere keren draaien; het is idempotent.
+
+### Waarom die 51 misgingen — en wat dat opleverde
+
+De 1.728 pdf's die toen al in de cache stonden (boekjaren 2019–2025) opnieuw
+gelezen, alleen op de tekstlaag:
+
+| uitkomst | aantal |
+|---|---|
+| controle mét kantoor | 828 |
+| gescand, geen tekstlaag (OCR nodig) | 349 |
+| onleesbaar of nietszeggend (`soort=None`) | 198 |
+| controle zónder herkend kantoor | 160 |
+| samenstelling | 137 |
+| beoordeling | 56 |
+
+Die 160 leverden twee soorten vondsten op, allebei verwerkt:
+
+1. **Kantoren die de lijst niet kende.** Zeven kantoren die productie- en
+   WNT-verantwoordingen tekenen staan niet in het AFM-register — daar is geen
+   Wta-vergunning voor nodig — en staan nu in `seed/kantoren_overig.csv`:
+   FB Assurance, Monteba, AW Accountants, CAS ZorgAccountants, Hilgers, Miedema
+   en Hendriksen Accountants Controle. Drie kantoren tékenen onder een andere
+   naam dan waaronder ze in het register staan en kregen een alias: Grant
+   Thornton (splitsing 2025), Countus Audit (13000483) en Konings Maters
+   (fusie februari 2023, 13000504).
+2. **Ondertekeningen die de match niet als ondertekening zag.** Een
+   handtekeningblok zonder plaats en datum — "CAS ZorgAccountants B.V. S.R. Snel
+   AA", "Miedema Accountants ValidSigned door drs. D. van der Bij RA RB" — haalde
+   de drempel niet. `kantoor_match._ONDERTEKENAAR_NA` telt nu mee dat de tekenend
+   accountant ná de kantoornaam staat; in een cv staat zijn titel er juist vóór,
+   dus die gevallen blijven staan.
+
+Gemeten over dezelfde 1.728 pdf's: **828 → 865 met kantoor**, 160 → 123 zonder.
+46 pdf's kwamen er nieuw bij, **nul** verklaringen wisselden van kantoor, en in
+alle 46 stond precies één bekend kantoor in de tekst — er viel dus niets te
+verwarren. Ook de 800+ scans zijn hiermee niet geraakt: die vragen OCR en dat
+draait alleen in de Action.
+
+## OCR is de bodem van het tempo (gemeten 6-8-2026)
+
+De oogst van boekjaar 2019 loopt op vier kernen en die staan alle vier voortdurend
+op 100% in tesseract. Dat is de bottleneck, niet het netwerk en niet de bron.
+Gemeten per gescand document: 3 tot **393 seconden**, mediaan rond de 15. De
+aanname in `extractie/verklaring.py` was ~127 seconden; de staart is dus veel
+langer dan gedacht, en juist de duurste documenten leveren vaak niets op (de
+393-seconden-scan gaf `soort=None`).
+
+Halveren lijkt mogelijk maar is **niet doorgevoerd**. Op twaalf gescande
+zorgverklaringen gaf 200 dpi twaalf keer exact dezelfde uitkomst als 300 dpi —
+zelfde soort, zelfde opdrachttype, zelfde kantoornaam, inclusief de vier
+documenten waar écht een kantoor uit kwam (Flynth, EY, 2× Astrium) — in 52% van
+de tijd. Maar de opmerking bij `OCR_DPI` legt een eerdere meting vast waarin bij
+200 dpi de kantoornaam juist wegviel, vermoedelijk op de scans van goede doelen.
+
+Bij tegenstrijdig bewijs en een fout die *stil* is (een kantoornaam die net niet
+meer leesbaar is, zonder dat iets meldt dat er iets mist) blijft 300 dpi staan.
+Wie dit alsnog wil: meet op minstens vijftig scans uit **beide** sectoren, en
+vergelijk niet alleen of er een kantoor uitkomt maar of het hetzelfde kantoor is.
+Een adaptieve variant — eerst 200 dpi, en alleen bij "controle zonder kantoor"
+overdoen op 300 — vangt het risico af tegen een fractie van de kosten, maar raakt
+wel de best bewaakte code van dit project.
+
+## `doelpopulatie()` vindt vandaag nul organisaties (gemeten 17-8-2026)
+
+De datasetroute leeft op een cachebestand. `doelpopulatie()` losgelaten op de
+`.ods`-bestanden zelf geeft **nul** organisaties — voor boekjaar 2022 én voor
+2023, de jaargang die "werkt". Dat 2023 toch een populatie heeft komt doordat
+`doelpopulatie_uit_cache()` eerst naar `.cache/doelpopulatie_2023.csv` kijkt, en
+dat bestand is van 30 juli. In CI blijft het staan omdat `zorgdata.yml` het via
+`actions/cache@v4` bewaart, samen met de `.ods`-bestanden.
+
+Zolang die cache leeft, merkt niemand iets. Verdwijnt hij — GitHub gooit caches
+weg die een week niet zijn gebruikt, en een sleutelwijziging doet hetzelfde —
+dan berekent de workflow stilletjes een lege doelpopulatie en laadt niets.
+
+**De oorzaak.** De koprijen zijn tweeregelig: `"<Nederlands label>\n<variabele>"`.
+Zo staat het KvK-nummer in `RowData_01` kolom 2 als:
+
+    'KvkNummer\nExternalOrganizationId'
+
+en de soort verklaring in `RowData_15` kolom 130 als:
+
+    'Soort accountantsverklaring\nqAccVerklSoort_qAccVerklSoort'
+
+`_zoek_kolommen` doet `k.strip().lower().startswith(patroon)` op de héle cel,
+terwijl de patronen in `VELDPATRONEN` en `VERKLARINGSOORT_PATRONEN` juist de
+variabelenamen zijn — die staan ná de nieuwe regel. Geen enkel patroon matcht
+dus, `met_controle` blijft leeg, en er komt niets uit. De `.csv` van 30 juli
+bewijst dat dit ooit wél werkte; de vergelijking op de kop is daarna kapot
+gegaan.
+
+**De reparatie is één regel, en hij is uitgemeten** (20-8-2026). In
+`_zoek_kolommen` wordt de koprij vergeleken op de laatste regel in plaats van op
+de hele cel:
+
+```python
+laag = [k.strip().lower().split("\n")[-1].strip() for k in cellen]
+```
+
+Gedraaid op een kopie van de module, tegen `pipeline/.cache/digimv2023.ods`
+(md5 `fced5017a331049f4e67509bb4668c6e`), en rij voor rij vergeleken met
+`doelpopulatie_2023.csv`:
+
+| | via laatste regel | `doelpopulatie_2023.csv` (30-7) |
+|---|---|---|
+| organisaties | 1.140 | 1.140 |
+| dezelfde KvK-verzameling | ja | — |
+| `oordeel_gerapporteerd` gevuld | 995 | 995 |
+| `verklaring_datum` gevuld | 1.036 | 1.036 |
+| `honorarium_controle` gevuld | 121 | 121 |
+| `wissel_gerapporteerd` | 31 True, 301 False, 808 leeg | 31 True, 301 False, 808 leeg |
+| velden met een verschil | **geen** — 1.140 rijen × 14 velden identiek | — |
+
+**Het openstaande punt over de 301 `False` is er geen.** De notitie van 17-8 zei
+dat die bij matchen-op-de-laatste-regel leeg werden. Dat reproduceert niet. Wat
+wél is nagegaan: de twee kopieën in de cache (`digimv2023.ods` en
+`digimv2023_1.ods`) zijn byte-identiek, en matchen mét of zónder de afsluitende
+`.strip()` levert dezelfde kolom op. Het verschil zat dus in de meting van toen,
+niet in de gegevens. Hier opgeschreven zodat niemand gaat zoeken naar een fout
+die er niet is.
+
+De wisselvraag zit in boekjaar 2023 maar op één plek: sheet `RowData_15`,
+kolom 132, kop `'Bent u van accountant gewisseld?\nqAccountantWissel_qAccVerklVorm'`.
+Over alle 6.131 rijen met een code staat daar 917× "nee", 75× "ja" en 5.139×
+niets; de doelpopulatie pikt daar 301 + 31 van op. Er is geen tweede kandidaat
+waarmee `qaccountantwissel` zou kunnen verwarren.
+
+`doelpopulatie_2023.csv` blijft de toetssteen: een goede fix reproduceert dat
+bestand veld voor veld — en deze doet dat. Niet weggooien.
+
+**Toegepast op 20-8-2026**, zodra de oogst van boekjaar 2023 klaar was (1.879
+organisaties, 833 opdrachten). De meting is daarna overgedaan met de échte
+module in plaats van een kopie: 1.140 organisaties, nul velden verschil met
+`doelpopulatie_2023.csv`.
+
+**Wat het losmaakt, en wat nog niet.** Boekjaar 2022 gaf hiervoor nul
+organisaties en geeft er nu 289 — gemeten op `pipeline/.cache/digimv2022_1.ods`,
+en dat is één deel van een meerdelige export, dus het echte aantal ligt hoger.
+Belangrijker dan het aantal is wat eruit komt:
+
+| veld | 2022 (deel 1) | 2023 |
+|---|---|---|
+| organisaties | 289 | 1.140 |
+| `honorarium_controle` | 100 | 121 |
+| `honorarium_overig` | 66 | — |
+| `honorarium_fiscaal` | 29 | — |
+| `verklaring_datum` | 196 | 1.036 |
+| `wissel_gerapporteerd` | 288 | 332 |
+| `rechtsvorm` | 289 | — |
+| `oordeel_gerapporteerd` | **0** | 995 |
+| `omzet` | **0** | — |
+
+Honoraria over 2022 waren er tot vandaag helemaal niet; nu wel. Maar twee velden
+blijven leeg. **Uitgezocht op 22-8-2026, en het zijn bronbeperkingen, geen
+verkeerde veldnamen:**
+
+- `oordeel_gerapporteerd`: de per-document-velden
+  (`bestandAccountantsVerklaringSoort_N`, `bestandAccVerklSoortControleVerkl_N`)
+  bestáán niet in de 2022-export. RowData_21 heeft wel `bestandAccountantsverklaring_N`
+  met datum en instelling, maar geen soort en geen oordeel. Het enige
+  oordeelveld is het vragenlijstveld `qAccVerklVorm`, en dat gebruiken we
+  bewust niet (zie boven: het wordt verkeerd ingevuld).
+- `omzet`: `qBatenZorg_0` bestaat gewoon (RowData_13, en `_0cons` op RowData_17),
+  en 3.162 organisaties hebben er een waarde — maar **geen één** van de 289
+  organisaties met een gemelde controleverklaring. Ook de bredere velden
+  (`qBatenZorgOpbouwTotaal_0`, `qTotaalBedrijfsopbrengsten_0`,
+  `qSomBedrijfsopbrengsten_0`, alle cons-varianten) zijn bij die 289 leeg.
+  Organisaties met een echte jaarrekening deponeerden het document en sloegen
+  de financiële vragentabel over; de export bevat alleen de vragentabel.
+
+Wat de bron niet levert blijft leeg — voor 2022 zijn oordeel en omzet dus
+definitief niet uit de dataset te halen. De vergelijking tussen gemeld en
+gelezen oordeel bestaat daarmee alleen voor 2023 en (sinds 22-8-2026) 2024.
+Ter context: de export bevat 8.982 organisaties, waarvan er maar 1.901 de
+verklaringsoort-vraag beantwoordden (887 geen verklaring, 481 samenstelling,
+289 controle, 244 beoordeling).
+
+## Kolominspectie 2024 (22-8-2026) — de vierdelige export past op de patronen
+
+Alle vier de delen gedownload en door `doelpopulatie()` gehaald, zónder
+codewijziging. Elk deel bevat dezelfde 21 sheets (RowData_01 t/m _20 plus
+VariableDefinition); de delen splitsen op organisatie, niet op onderwerp. De
+variabelenamen zijn verdubbeld zoals in 2023 (`acc_jr_contr_acc_jr_contr_0`,
+`qAccountantWissel_qAccVerklVorm`) en de bestaande `startswith`-patronen
+matchen ze allemaal. De opbrengst:
+
+| veld | 2024 (4 delen) | 2023 |
+|---|---|---|
+| organisaties met controleverklaring | 1.047 | 1.140 |
+| `honorarium_controle` | 108 | 121 |
+| `honorarium_overig` | 81 | — |
+| `honorarium_fiscaal` | 32 | — |
+| `honorarium_nietcontrole` | 31 | — |
+| `omzet` | 606 | — |
+| `wissel_gerapporteerd` | 232 (24 ja) | 332 |
+| `oordeel_gerapporteerd` | 960 | 995 |
+| `verklaring_datum` | 990 | 1.036 |
+| `rechtsvorm` | 1.047 | — |
+
+Oordeelverdeling: 845 goedkeurend, 103 beperking, 12 oordeelonthouding — zelfde
+verhoudingen als wat onze pdf-extractie las (627/112/10 op 795 opdrachten), dus
+de vergelijking gemeld-versus-gelezen kan nu ook voor 2024.
+
+Twee dingen zijn wél anders dan in 2023:
+
+- **De AGB-zorgsoortkolommen (`qAGBzorgsoortOrg_N`) bestaan niet meer.** In hun
+  plaats staan SBI-codes (`qSbiCode_1..62`/`qSbiText_1..62`) op RowData_01.
+  `subsector` blijft voor 2024 dus leeg: onze indeling is op AGB-zorgsoorten
+  gebouwd en een SBI-vertaling is een aparte beslissing, geen bijvangst. Liever
+  leeg dan een gok — zelfde regel als altijd.
+- **`qBatenZorg_0` bestaat twee keer**: enkelvoudig op RowData_10 en als
+  `qBatenZorg_0cons` op RowData_14. Beide passen op het patroon en de laatste
+  schrijver wint, dus bij concerns staat er de geconsolideerde omzet. Dat is
+  voor "hoe groot is deze organisatie" ook het bruikbaarste getal; het staat
+  hier zodat niemand het per ongeluk als enkelvoudig leest.
+
+De workflow **Honoraria bijvullen** heeft 2024 sinds deze inspectie in de
+standaardlijst (`2024,2023,2022`).
+
+**Nevenbevinding.** `DATASET_URL` kent alleen 2022, 2023 en 2024. Voor 2019,
+2020, 2021 en 2025 bestaat er dus geen datasetroute, en daarmee ook geen
+`oordeel_gerapporteerd` — de vergelijking tussen wat de bron meldt en wat wij in
+de verklaring lezen kan voor die jaren niet bestaan. Op 17-8-2026 had alleen
+boekjaar 2023 die vergelijking: 741 opdrachten met beide oordelen, waarvan 15
+verschillen (2,0%). Elf van die vijftien zijn "beperking gelezen, goedkeurend
+gemeld" tegen drie andersom — te scheef voor toeval, en het nakijken waard zodra
+de oogst van 2023 die verklaringen zelf heeft gelezen.
+
 ## Open punten
 
-- [ ] Kolominspectie 2018–2022 en 2024 (4 delen; veldnamen wijken af — `qNawNaam`
-      e.d. checken of dat per jaargang hetzelfde heet)
+- [x] `_zoek_kolommen` gerepareerd (20-8-2026): matchen op de variabelenaam ná de
+      nieuwe regel. Reproduceert `doelpopulatie_2023.csv` rij voor rij, alle
+      1.140 × 14 velden
+- [x] Jaargang 2022: `oordeel_gerapporteerd` en `omzet` komen er niet uit —
+      uitgezocht 22-8-2026: bronbeperking, geen veldnaamkwestie. De
+      oordeelvelden bestaan niet in die export en de omzetvelden zijn bij alle
+      289 controle-organisaties leeg; zie de meting hierboven
+- [x] `DATASET_URL` aanvullen voor 2020 en 2021 — gedaan 1-9-2026, zie
+      "Kolominspectie 2020/2021" hieronder: beide datasets bleken gewoon het
+      moderne formaat, de aanname "2019 t/m 2021 = oud formaat" gold alleen
+      2019. Nog open: 2025 (nog geen gepubliceerde dataset gezien) en de vraag
+      of 2019-deel-2 alsnog verklaring-velden draagt
+
+## Kolominspectie 2020/2021 (1-9-2026): modern formaat, honoraria aanwezig
+
+De definitieve datasets van 2020 en 2021 (beide gepubliceerd 25-1-2023, zie de
+bestandstabel hierboven) zijn — anders dan de extrapolatie uit 2019-deel-1
+aannam — **het moderne formaat**: RowData-sheets, tweeregelige koppen, en
+`ExternalOrganizationId` bevat het KvK-nummer. `_zoek_kolommen` vindt de velden
+zonder één patroonwijziging. Meting via `doelpopulatie()`:
+
+| | 2021 | 2020 |
+|---|---|---|
+| organisaties in doelpopulatie | 1.210 | 1.220 |
+| met KvK | 1.210 | 1.220 |
+| `honorarium_controle` | 877 | 881 |
+| `honorarium_overig` | 657 | 636 |
+| `honorarium_fiscaal` | 235 | 249 |
+| `honorarium_nietcontrole` | 248 | 245 |
+| `wissel_gerapporteerd` | 1.210 | 1.220 |
+| `verklaring_datum` | 1.093 | 1.113 |
+| `oordeel_gerapporteerd` | 0 | 0 |
+| `omzet` | 0 | 0 |
+
+De twee nullen zijn bronbeperkingen, geen veldnaamkwesties: het documentveld
+`bestandAccountantsVerklaringSoort_N` bestaat in deze jaargangen niet (alleen
+het vragenlijstveld `qAccVerklVorm`, dat bewust wordt overgeslagen — zie
+VELDPATRONEN), en de omzetvelden volgen de `qbatenzorg_0`-conventie hier nog
+niet. De doelpopulatie komt uit `qAccVerklSoort`, zoals bij 2022.
+Steekproefcontrole: 's Heeren Loo Zorggroep, controlehonorarium €644.000
+(2020) → €540.000 (2021), verklaringsdata 1-6-2021 en 23-5-2022 — plausibel
+en consistent met de latere jaargangen. De workflow "Honoraria bijvullen"
+heeft 2021 en 2020 sinds deze inspectie in de standaardlijst.
+- [x] Kolominspectie 2024 (22-8-2026): de vierdelige export past op de
+      bestaande patronen; zie de sectie hierboven. Subsector blijft er leeg
+      (AGB-kolommen vervangen door SBI-codes)
+- [ ] Kolominspectie 2018–2022 (veldnamen wijken af — `qNawNaam` e.d. checken
+      of dat per jaargang hetzelfde heet)
 - [ ] Join-logica RowData-sheets bevestigen (hoe organisatie- en documentvelden
       per rij samenhangen over de meerdere sheets)
 - [ ] Volledige waardenlijsten `qAccVerklSoort`/`qAccVerklVorm` uit de data
@@ -357,3 +640,62 @@ uit het archief.
       groter pdf, wat de trefkans kan drukken
 - [ ] Snelheid/tempo van 6.132 archiefzoekopdrachten inschatten en een
       redelijke pauze tussen requests vastleggen (vriendelijk voor de bron)
+
+## Wat "bekeken" betekent, en waarom dat een keer opnieuw moet
+
+Gemeten op de oogst van boekjaar 2019 (7-8-2026, na 212 organisaties):
+
+    bekeken                    212
+    met opdracht                98   46%
+    zonder opdracht            114   54%
+
+Van die 114 zijn er 31 opnieuw onderzocht met de tekst die al in de cache stond.
+De uitkomst:
+
+    24   geen enkele bekende kantoornaam in de tekst
+     4   kantoornaam staat er wel, maar niet als ondertekenaar
+     3   zou nu WEL een kantoor opleveren
+
+Die laatste drie zijn het punt. Ze zijn gelezen voordat de regels van vandaag
+erin zaten (de ondertekenaar-na-de-naam, en de nieuwe aliassen), en ze staan in
+`verwerkt_<boekjaar>.txt` als bekeken. `--hervat` slaat ze dus voorgoed over.
+
+Dat is geen fout in de oogst maar wel een gat in de werkwijze: elke verbetering
+aan de leesregels maakt organisaties herleidbaar die eerder zijn afgevallen, en
+niets brengt die terug. Op deze steekproef is dat ongeveer één op de tien van de
+niet-gelukte gevallen.
+
+Wat daarvoor nodig is, en bewust nog niet gedaan omdat de oogst loopt: naast het
+kvk-nummer ook de reden in `verwerkt_<boekjaar>.txt` zetten (geen tekstlaag /
+geen verklaring / kantoor niet herkend). Dan kan een hertoets precies de
+categorie "kantoor niet herkend" opnieuw langslopen na een verbetering, zonder
+de hele jaargang over te doen. Let op: de pdf's worden na verwerking per
+organisatie opgeruimd, dus zo'n hertoets kost opnieuw downloaden.
+
+Niet doen: de niet-gelukte gevallen uit `verwerkt` weglaten zodat ze vanzelf
+terugkomen. Dan draait elke ronde ze opnieuw, inclusief de dure OCR, en komt de
+oogst nooit vooruit.
+
+## Honoraria: lopend jaar, vergelijkend cijfer en de Jeugdwet-sectie (5-10-2026)
+
+Elke jaardataset van 2020 tot en met 2025 heeft de honoraria twee keer:
+`acc_jr_contr_acc_jr_contr_0` (het boekjaar van de dataset) en `..._1` (per
+einde vórig boekjaar, het vergelijkende cijfer). Hetzelfde voor `acc_ov_contr`,
+`acc_fisc_adv` en `acc_niet_contr`. Nagelopen op de koprijen van alle zes
+jaargangen: `_0` staat steeds direct links van `_1`.
+
+- **Boekjaar 2019** heeft geen eigen dataset met honoraria (het oude formaat),
+  maar de dataset 2020 draagt ze als vergelijkend cijfer. `vul_extra_velden.py`
+  schrijft die naar de wettelijke of vrijwillige controle van 2019, alleen waar
+  daar nog niets staat. Droogloop: 699 controles krijgen zo een bedrag.
+- **Vanaf de dataset 2022** staan de `acc_*`-kolommen alleen nog in de
+  Jeugdwet-sectie (2023: 425 gevulde rijen tegen 1.900 in 2021). Daarom zijn er
+  voor 2022 en later maar zo'n zestig tot tachtig honoraria per jaar; dat is de
+  bron, niet de lezer.
+- Een vergelijkend cijfer wijkt in 14% van de gevallen af van wat de organisatie
+  een jaar eerder zelf opgaf (724 organisaties, datasets 2020 en 2021). Daarom
+  wint de eigen opgave altijd.
+- Drie organisaties verantwoordden een jaar in duizenden euro's; de vuller
+  toetst elk controlehonorarium nu aan de andere jaren van dezelfde organisatie
+  (factor 50) en zet een afwijker in de review-queue in plaats van hem te
+  schrijven.

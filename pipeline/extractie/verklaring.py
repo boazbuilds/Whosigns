@@ -16,11 +16,19 @@ Gemeten op een steekproef van 41 zorg-pdf's (juli 2026, boekjaar 2023):
 verklaring waarin de kantoornaam alleen als logo staat — die gaan naar de
 review-queue.
 
-Guardrail: we halen uitsluitend de kantoornaam op. De naam van de tekenend
-accountant staat wel in de tekst, maar wordt niet gezocht, niet teruggegeven en
-niet gelogd.
+Guardrail: de kantoornaam, plus sinds 20-8-2026 de naam van de tekenend
+accountant — mits die uit een openbare bron komt, en dat is de gedeponeerde
+verklaring zelf. Zie `docs/concept.md` §9 voor de grondslag; die is níét dat
+accountants buiten de AVG vallen. Andere natuurlijke personen blijven eruit, ook
+in de teruggave en in logregels.
+
+De naam wordt gezocht door `ondertekenaar.py`, op de ruwe tekst, en hij komt
+alleen mee als het blok waar hij in staat hetzelfde oordeel draagt als het
+document. Anders zou in een jaarverslag met zowel een jaarrekeningverklaring als
+een WNT-verklaring willekeurig zijn welke naam bij welk oordeel belandt.
 """
 
+import os
 import re
 import subprocess
 import tempfile
@@ -410,6 +418,23 @@ OCR_DPI = 300
 OCR_TIJDBUDGET = 600
 OCR_TIJD_PER_PAGINA = 120
 
+# Mag er in deze omgeving überhaupt ge-OCR'd worden?
+#
+# OCR is verreweg het duurste dat deze pipeline doet: tientallen seconden tot
+# minuten per document, tegen milliseconden voor een pdf mét tekstlaag. Op een
+# GitHub-runner betaal je dat in Actions-minuten, en die zijn schaars. Daarom
+# draait het zware lezen buiten Actions om (zie docs/draaiboek-acties.md): daar
+# oogsten we naar een csv, en de workflow schrijft alleen die csv weg.
+#
+# Zet WHOSIGNS_OCR op 0/nee/false om OCR uit te zetten. Wat er dan gebeurt is
+# precies het gedrag van vóór de OCR-terugval: een gescande pdf levert geen
+# tekst en dus geen opdracht, netjes gemeld als `onleesbaar`. Nooit een gok.
+def ocr_toegestaan() -> bool:
+    """Leest de omgevingsvariabele bij elke aanroep, zodat een test hem kan zetten."""
+    return os.environ.get("WHOSIGNS_OCR", "1").strip().lower() not in {
+        "0", "nee", "false", "off", "uit",
+    }
+
 
 def _eerste_ocr_pagina(pad: str, max_paginas: int) -> int | None:
     """Vanaf welke pagina er ge-OCR'd moet worden, of None als dat niet te bepalen is.
@@ -430,6 +455,64 @@ def _eerste_ocr_pagina(pad: str, max_paginas: int) -> int | None:
     return max(1, paginas - max_paginas + 1)
 
 
+# Waar de uitkomst van een OCR-lezing bewaard blijft, naast de pdf zelf.
+#
+# Waarom dit er is: OCR is het enige dure onderdeel van de pipeline, en de oogst
+# draait in een omgeving die tussendoor opnieuw kan beginnen. Zonder bewaren
+# begon elke herstart weer bij nul — blok 110-120 van boekjaar 2019 haalde tien
+# keer op rij het einde niet, en gooide elke keer al het OCR-werk weg dat het tot
+# dan toe had gedaan. Mét bewaren kost een herstart alleen de documenten die nog
+# niet gelezen zijn, en kruipt de oogst vooruit ook als geen enkele poging het
+# blok in één keer afmaakt.
+#
+# De kopregel houdt bij waar de tekst vandaan komt. Verandert het bestand (een
+# nieuwe download onder dezelfde naam) of een OCR-instelling, dan telt de bewaarde
+# tekst niet meer mee en wordt er opnieuw gelezen. Zonder die regel zou een
+# verhoogde dpi of paginagrens stil genegeerd worden.
+OCR_BEWAAR_VERSIE = 1
+
+
+def _ocr_kop(pad: str, max_paginas: int) -> str | None:
+    try:
+        grootte = Path(pad).stat().st_size
+    except OSError:
+        return None
+    return (
+        f"# whosigns-ocr v{OCR_BEWAAR_VERSIE} grootte={grootte} "
+        f"dpi={OCR_DPI} paginas={max_paginas}"
+    )
+
+
+def _ocr_uit_bewaarplaats(pad: str, kop: str | None, suffix: str = ".ocr.txt") -> str | None:
+    """De eerder gelezen tekst, of None als die er niet is of niet meer klopt."""
+    if kop is None:
+        return None
+    try:
+        bewaard = Path(pad + suffix).read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return None
+    regel, scheiding, tekst = bewaard.partition("\n")
+    if not scheiding or regel != kop:
+        return None
+    return tekst
+
+
+def _bewaar_ocr(pad: str, kop: str | None, tekst: str, suffix: str = ".ocr.txt") -> None:
+    """Bewaart alleen een geslaagde lezing.
+
+    Een lege uitkomst betekent "opgegeven" (tijdbudget op, tesseract ontbreekt) en
+    niet "hier staat niets". Die bewaren zou het document voorgoed als onleesbaar
+    wegzetten zonder dat het ooit nog een kans krijgt — precies de stille schade
+    die dit platform niet hoort te maken. Opgeven blijft dus herhaalbaar.
+    """
+    if kop is None or not tekst.strip():
+        return
+    try:
+        Path(pad + suffix).write_text(kop + "\n" + tekst, encoding="utf-8")
+    except OSError:
+        pass  # geen schrijfrechten of schijf vol: dan gewoon elke keer opnieuw lezen
+
+
 def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
     """Tekst uit een gescande pdf, via pdftoppm + tesseract.
 
@@ -444,6 +527,10 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
     pipeline zich als voorheen: geen tekstlaag, geen opdracht. Liever dat dan een run
     die omvalt op een ontbrekend hulpprogramma.
     """
+    kop = _ocr_kop(pad, max_paginas)
+    eerder = _ocr_uit_bewaarplaats(pad, kop)
+    if eerder is not None:
+        return eerder
     with tempfile.TemporaryDirectory() as tijdelijk:
         # Bij een lang document alleen de laatste pagina's renderen: daar staat de
         # verklaring. Het bereik vóóraf bepalen en niet achteraf weggooien, want
@@ -491,7 +578,110 @@ def ocr_naar_tekst(pad: str, max_paginas: int = OCR_MAX_PAGINAS) -> str:
             except FileNotFoundError:
                 return ""
             stukken.append(resultaat.stdout)
-        return "\n".join(stukken)
+        tekst = "\n".join(stukken)
+        _bewaar_ocr(pad, kop, tekst)
+        return tekst
+
+
+# Een pdf mét tekstlaag kan de verklaring tóch als scan bevatten: de VU en
+# Tilburg University plakken de ondertekende pagina's als afbeelding in een
+# verder gewoon tekst-pdf. De gewone OCR-terugval ziet zo'n document nooit
+# (de tekstlaag is ruim boven de ondergrens), dus de verklaring bleef
+# onleesbaar: "PwC staat in de tekst, maar niet als ondertekenaar". De twee
+# functies hieronder lezen alléén de tekstloze pagina's — en alleen als de
+# aanroeper daarom vraagt, want dit is de uitzondering en OCR kost minuten.
+OCR_LEGE_MAX = 12
+LEGE_PAGINA_GRENS = 20
+
+
+def lege_paginas(tekst: str, grens: int = LEGE_PAGINA_GRENS) -> list[int]:
+    """Paginanummers (1-based) zonder noemenswaardige tekstlaag.
+
+    pdftotext scheidt pagina's met een form feed, dus dit kost geen extra
+    leesbeurt. Onder de grens zit in de praktijk een scan of een paginagrote
+    foto; echte tekstpagina's van een jaarverslag zitten in de honderden
+    tekens.
+    """
+    return [
+        nummer
+        for nummer, pagina in enumerate(tekst.split("\f"), start=1)
+        if len(pagina.strip()) < grens
+    ]
+
+
+def _aaneengesloten(paginas: list[int]) -> list[tuple[int, int]]:
+    """[3,4,5,9] -> [(3,5), (9,9)]; pdftoppm rendert per bereik."""
+    reeksen: list[tuple[int, int]] = []
+    for pagina in paginas:
+        if reeksen and pagina == reeksen[-1][1] + 1:
+            reeksen[-1] = (reeksen[-1][0], pagina)
+        else:
+            reeksen.append((pagina, pagina))
+    return reeksen
+
+
+def ocr_lege_paginas(pad: str, tekst: str, max_paginas: int = OCR_LEGE_MAX) -> str:
+    """OCR van de tekstloze pagina's in een pdf die verder wél tekst heeft.
+
+    Alleen de láátste `max_paginas` lege pagina's: de verklaring staat bij de
+    overige gegevens achterin, terwijl de foto's die ook "leeg" zijn vooral
+    voorin en middenin staan. Zelfde budget- en bewaarafspraken als
+    ocr_naar_tekst, met een eigen bewaarbestand (.ocrlege.txt) zodat de twee
+    lezingen elkaar niet overschrijven.
+    """
+    if not ocr_toegestaan():
+        return ""
+    paginas = lege_paginas(tekst)[-max_paginas:]
+    if not paginas:
+        return ""
+    kop = _ocr_kop(pad, max_paginas)
+    if kop is not None:
+        kop += f" lege={','.join(map(str, paginas))}"
+    eerder = _ocr_uit_bewaarplaats(pad, kop, ".ocrlege.txt")
+    if eerder is not None:
+        return eerder
+    begin = time.monotonic()
+    stukken: list[str] = []
+    with tempfile.TemporaryDirectory() as tijdelijk:
+        for van, tot in _aaneengesloten(paginas):
+            try:
+                # Prefix met het beginnummer: pdftoppm pakt de nummerbreedte per
+                # bereik, en zonder prefix sorteert p-9 na p-247.
+                subprocess.run(
+                    [
+                        "pdftoppm", "-r", str(OCR_DPI), "-png",
+                        "-f", str(van), "-l", str(tot),
+                        pad, f"{tijdelijk}/p{van:04d}",
+                    ],
+                    check=True,
+                    capture_output=True,
+                    timeout=OCR_TIJDBUDGET,
+                )
+            except (
+                subprocess.CalledProcessError,
+                subprocess.TimeoutExpired,
+                FileNotFoundError,
+            ):
+                return ""
+        for pagina in sorted(Path(tijdelijk).glob("p*.png")):
+            if time.monotonic() - begin > OCR_TIJDBUDGET:
+                # Zie ocr_naar_tekst: half werk zou "geen verklaring" opleveren.
+                return ""
+            try:
+                resultaat = subprocess.run(
+                    ["tesseract", str(pagina), "-", "-l", "nld", "--psm", "3"],
+                    capture_output=True,
+                    text=True,
+                    timeout=OCR_TIJD_PER_PAGINA,
+                )
+            except subprocess.TimeoutExpired:
+                return ""
+            except FileNotFoundError:
+                return ""
+            stukken.append(resultaat.stdout)
+    gelezen = "\n".join(stukken)
+    _bewaar_ocr(pad, kop, gelezen, ".ocrlege.txt")
+    return gelezen
 
 
 def tekst_uit_pdf(pad: str, ocr: bool = True) -> tuple[str, bool]:
@@ -511,7 +701,9 @@ def tekst_uit_pdf(pad: str, ocr: bool = True) -> tuple[str, bool]:
     tekst = pdf_naar_tekst(pad)
     if len(tekst.strip()) >= TEKST_ONDERGRENS:
         return tekst, False
-    if not ocr:
+    # `ocr=False` is de keuze van de aanroeper, `ocr_toegestaan()` die van de
+    # omgeving. Beide moeten ja zeggen; zie de toelichting bij ocr_toegestaan.
+    if not ocr or not ocr_toegestaan():
         return tekst, False
     return ocr_naar_tekst(pad), True
 
@@ -541,6 +733,7 @@ def analyseer(tekst: str, index: dict) -> dict:
     geval in de review_queue in plaats van te gokken.
     """
     from kantoor_match import zoek_kantoor
+    from ondertekenaar import zoek_ondertekenaar
 
     genormaliseerd = normaliseer(tekst)
     if len(genormaliseerd) < 50:
@@ -549,6 +742,7 @@ def analyseer(tekst: str, index: dict) -> dict:
             "oordeel": None,
             "continuiteitsonzekerheid": None,
             "kantoor": None,
+            "tekenend_accountant": None,
             "kandidaten": [],
             "wta_kenmerk": None,
             "reden": "geen tekstlaag (gescande pdf)",
@@ -563,6 +757,27 @@ def analyseer(tekst: str, index: dict) -> dict:
     zwakke_treffer = treffer["kantoor"]["naam"] if treffer and treffer["zwak"] else None
     if zwakke_treffer:
         treffer = None
+
+    # De ondertekenaar, en alleen als hij bij hétzelfde oordeel hoort.
+    #
+    # `oordeel` hierboven wordt over de hele tekst bepaald: de eerste treffer
+    # wint. De naam komt daarentegen uit één blok. In een jaarverslag met zowel
+    # een goedkeurende jaarrekeningverklaring als een WNT-verklaring mét
+    # beperking is het dan willekeurig welke naam bij welk oordeel belandt — en
+    # dat zijn precies de twee stukken die de bron zelf ook door elkaar haalt
+    # (zie de migratie 20260820130000). Een naam onder een oordeel dat hij niet
+    # heeft afgegeven is geen leemte maar een beschuldiging, dus: komt het
+    # blokoordeel niet overeen met het documentoordeel, dan geen naam.
+    ondertekenaar = zoek_ondertekenaar(
+        tekst, treffer["kantoor"]["naam"] if treffer else None
+    )
+    tekenend_accountant = None
+    if ondertekenaar["naam"] and soort == "controle":
+        blok = ondertekenaar["blok"]
+        blokoordeel = _oordeel(normaliseer(tekst[blok[0] : blok[1]])) if blok else None
+        if blokoordeel == oordeel:
+            tekenend_accountant = ondertekenaar["naam"]
+
     return {
         "soort": soort,
         # Waar de controle over gaat. None betekent: het is wél een
@@ -581,6 +796,10 @@ def analyseer(tekst: str, index: dict) -> dict:
         ),
         "continuiteitsonzekerheid": _continuiteitsonzekerheid(genormaliseerd),
         "kantoor": treffer["kantoor"] if treffer else None,
+        # Zie hierboven: alleen ingevuld als de naam op een ondertekeningsplek
+        # stond in een blok waarvan het oordeel gelijk is aan het documentoordeel.
+        # Leeg betekent "niet vastgesteld", nooit "niet getekend".
+        "tekenend_accountant": tekenend_accountant,
         # Aanwijzing dat het om een wettelijke controle gaat; de aanroeper beslist
         # wat hij ermee doet (zie laad_stichtingen.py).
         "wta_kenmerk": _eerste_treffer(genormaliseerd, [("wta", WTA_KENMERKEN)]) == "wta",

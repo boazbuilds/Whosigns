@@ -1,0 +1,977 @@
+# whosigns-ocr v1 grootte=5133979 dpi=300 paginas=20
+Stichting Breder
+
+5.1 JAARREKENING 2021
+
+5.1.1 BALANS PER 31 DECEMBER 2021
+(na resultaatbestemming)
+
+Ref. 31-dec-21 31-dec-20
+€ €
+ACTIVA
+Vaste activa
+Materiële vaste activa 2 1.542.413 1.092.869
+Totaal vaste activa 1.542.413 1.092.869
+Vlottende activa
+Debiteuren en overige vorderingen 6 478.325 469.132
+Liquide middelen 8 1.514.684 1.542.025
+Totaal vlottende activa 1.993.009 2.011.157
+Totaal activa 3.535.422 3.104.026
+Ref. 31-dec-21 31-dec-20
+PASSIVA € €
+Eigen vermogen 9
+Algemene en overige reserves 2.946.792 1.885.302
+Bestemmingsreserves 260.103 782.919
+Bestemmingsfondsen 0 0
+Totaal eigen vermogen 3.206.895 2.668.221
+Kortlopende schulden (ten hoogste 1 jaar)
+Overige kortlopende schulden 12 328.527 435.805
+Totaal kortlopende schulden 328.527 435.805
+Totaal passiva 3.535.422 3.104.026
+
+* Het aansprakelijk vermogen bestaat uit het totaal eigen vermogen en de
+achtergestelde leningen die onder langlopende schulden verwerkt zijn.
+Het aansprakelijk vermogen per balansdatum bedraagt 3.206.895 2.668.221
+
+Pagina 4
+
+
+Stichting Breder
+
+5.1.2 RESULTATENREKENING OVER 2021
+
+Realisatie Realisatie
+Ref. 2021 2020
+€ €
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties en maatschappelijke ondersteuning 13 3.803.706 3.392.156
+Overige bedrijfsopbrengsten 15 37.713 43.552
+Som der bedrijfsopbrengsten 3.841.419 3.435.708
+BEDRIJFSLASTEN:
+Personeelskosten 16 2.700.060 2.449.794
+Afschrijvingen op immateriële en materiële vaste activa 17 62.771 49.302
+Overige bedrijfskosten 19 538.116 562.900
+Som der bedrijfslasten 3.300.947 3.061.996
+BEDRIJFSRESULTAAT 540.472 373.712
+Financiële baten en lasten 20 -1.798 -896
+RESULTAAT 538.674 372.816
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2021 2020
+€ €
+Bestemmingsreserve overname WLZ-locatie 100.000 0
+Bestemmingsreserve personeelsbinding 50.000 0
+Bestemmingsreserve aankoop woonlocatie -672.816 372.816
+Algemene / overige reserves 1.061.490 0
+538.674 372.816
+
+Pagina 5
+
+
+Stichting Breder
+
+5.1.4 ALGEMENE TOELICHTING & GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.1.4.1 Algemeen
+
+Algemene gegevens en groepsverhoudingen
+
+Zorginstelling Stichting Breder is statutair (en feitelijk) gevestigd te Barneveld, op het adres Van Breugelplantsoen 1A, en is geregistreerd
+onder KvK-nummer 54369088.
+
+De belangrijkste activiteiten zijn Begeleid wonen, Groepsactiviteiten en Logeren.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2021 dat Is geëindigd op balansdatum 31 december 2021.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi, de Richtlijnen voor de Jaarverslaggeving RJ
+655, Titel 9 BW2 en de bepalingen van en krachtens de Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector
+(WNT).
+
+Continuïteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Vergelijking met voorgaand jaar
+
+De grondslagen van waardering en van resultaatbepaling en presentatie zijn ongewijzigd ten opzichte van voorgaand jaar.
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en veronderstellingen maakt die van invloed
+zijn op de toepassing van grondslagen en de gerapporteerde waarde van activa en verplichtingen, en van baten en lasten. De
+daadwerkelijke uitkomsten kunnen afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden
+voortdurend beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt herzien en in
+toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+5.1,4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs. Indien geen specifieke
+waarderingsgrondslag is vermeld, vindt waardering plaats tegen de de geamortiseerde kostprijs.
+
+Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+Een actief wordt in de balans opgenomen wanneer het waarschijnlijk is dat de toekomstige economische voordelen naar de zorginstelling
+zullen toevloeien en de waarde daarvan betrouwbaar kan worden vastgesteld.
+
+Een verplichting wordt in de balans opgenomen wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal gaan met een
+uitstroom van middelen die economische voordelen in zich bergen en de omvang van het bedrag daarvan betrouwbaar kan worden
+vastgesteld.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans, als een transactie met betrekking tot het actief of de verplichting niet
+leidt tot een belangrijke verandering in de economische realiteit met betrekking tot het actief of de verplichting.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen als een transactie ertoe leidt dat alte of nagenoeg alle rechten op
+economische en alle of nagenoeg alle risico's met betrekking tot het actief of de verplichting aan een derde zijn overgedragen. Verder
+wordt een actief of een verplichting niet meer In de batans opgenomen vanaf het tijdstip dat niet meer wordt voldaan aan de voorwaarden
+van waarschijnlijkheid van de toekomstige economische voordelen en of betrouwbaarheid van de bepaling van de waarde.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van de zorginstelling.
+
+Pagina 6
+
+Stichting Breder
+
+5.1.4 ALGEMENE TOELICHTING & GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen worden gewaardeerd tegen verkrijgingsprijs plus bijkomende kosten of vervaardigingsprijs onder aftrek
+van lineaire afschrijvingen gedurende de geschatte toekomstige gebruiksduur. Er wordt een activeringsgrens aangehouden van € 1.000,-
+Op terreinen wordt niet afgeschreven. Op bedrijfsgebouwen wordt niet afgeschreven als de WOZ-waarde betreffende het kalenderjaar de
+boekwaarde overtreft. Er wordt rekening gehouden met de bijzondere waardeverminderingen die op balansdatum worden verwacht. Voor
+de vaststelling of voor een vast actief sprake is van een bijzondere waardevermindering wordt verwezen naar onderstaande paragraaf
+Bijzondere waardeverminderingen vaste activa.
+
+Overige vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct toerekenbare kosten, onder aftrek van
+lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur en bijzondere waardeverminderingen. Er wordt een
+activeringsgrens aangehouden van € 1.000,-. De vervaardigingsprijs bestaat uit de aanschaffingskosten van grond- en huipstoffen en
+kosten die rechtstreeks toerekenbaar zijn aan de vervaardiging inclusief installatiekosten.
+
+De volgende afschrijvingspercentages (in procenten van de aanschafwaarde minus eventuele restwaarde) worden hierbij gehanteerd:
+* Bedrijfsgebouwen : 3 %.
+« Andere vaste bedrijfsmiddelen : 10-50 %,
+
+Bijzondere waardeverminderingen van vaste activa
+
+De stichting beoordeelt op iedere balansdatum of er aanwijzingen zijn dat een vast actief aan een bijzondere waardevermindering
+onderhevig kan zijn. Indien dergelijke indicaties aanwezig zijn, wordt de realiseerbare waarde van het actief vastgesteld. Indien het niet
+mogelijk Is de realiseerbare waarde voor het individuele actief te bepalen, wordt de realiseerbare waarde bepaald van de
+kasstroomgenererende eenheid waartoe het actief behoort. Van een bijzondere waardevermindering is sprake als de boekwaarde van
+een actief hoger is dan de real bare waarde; de reali bare waarde is de hoogste van de opbrengstwaarde en de bedrijfswaarde.
+Een bijzondere-waardeverminderingsverlies wordt direct als een last verwerkt in de staat van baten en lasten onder gelijktijdige verlaging
+van de boek de van het } ffende actief.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reële waarde, inclusief trar iekosten. (Door toepassing van de effectieve rentemethode
+worden transactiekosten als onderdeel van de amortisatie in de winst- en verliesrekening verwerkt). De vervolgwaardering van
+vorderingen is tegen geamortiseerde kostprijs (indien geen sprake van agio/disagio of transactiekosten dan geamortiseerde kostprijs
+gelijk aan nominale waarde). Een voorziening wordt getroffen op de vorderingen op grond van verwachte oninbaarheid.
+
+Een vordering uit hoofde van financieringstekorten of een schuld uit hoofde van financieringsoverschotten is het aan het einde van het
+boekjaar bestaande verschil tussen het wettelijk budget voor aanvaardbare kosten en de ontvangen voorschotten en de in rekening
+gebrachte vergoedingen voor diensten en verrichtingen ter dekking van het wettelijk budget (artikel 6 Regeling verslaggeving WTZ).
+
+Pagina 7
+
+Stichting Breder
+
+5.1.4 ALGEMENE TOELICHTING & GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden. Rekening-courantschulden bij
+banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen
+de nominale waarde.
+
+Eigen vermogen
+
+Binnen het eigen vermogen wordt onderscheid gemaakt tussen Kapitaal, Algemene reserve, Bestemmingsreserves en
+Bestemmingsfondsen.
+
+Bestemmingsreserves
+
+Bestemmingsreserves zijn reserves waaraan door de bevoegde organen van de Stichting een beperktere bestedingsmogelijkheid is
+aangebracht dan op grond van de statuten zou bestaan.
+
+Bestemmingsfondsen
+
+Bestemmingsfondsen zijn reserves waaraan door derden een beperktere bestedingsmogelijkheid is aangebracht dan op grond van de
+statuten zou bestaan.
+
+hash í
+
+A ding van g ves en -fondsen
+
+Uitgaven die worden gedekt uit bestemmingsreserves en bestemmingsfondsen worden in de resultatenrekening verantwoord, en via de
+resultaatbestemming ten laste van de betreffende reserve gebracht.
+
+Wijzigingen in de beperking van de bestemming van reserves welke door de daartoe bevoegde organen of instanties worden
+aangebracht, worden als overige mutatie binnen het eigen vermogen verwerkt.
+
+Algemene en overige reserves
+
+Onder Algemene en overige reserves is opgenomen dat deel van het eigen vermogen, waarover de bevoegde organen binnen de
+statutaire doelstellingen van de Stichting vrij kunnen beschikken.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één jaar. De kortlopende
+schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij eerste verwerking opgenomen tegen de reële
+waarde en vervolgens g deerd tegen de g tiseerde kostprijs.
+
+De aflossingsverplichtingen voor het komend jaar van de langlopende schulden worden opgenomen onder kortlopende schulden.
+5.1.4.3 Grondsl van r Itaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming van de hiervoor reeds
+vermelde waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het economisch potentieel, samenhangend
+met een vermeerdering van een actief of een vermindering van een verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar
+kan worden vastgesteld. Lasten worden verwerkt wanneer een vermindering van het economisch potentieel, samenhangend met een
+vermindering van een actief of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan
+worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking genomen in het jaar waarin deze
+voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit
+boekjaar toegerekend.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag van de opbrengsten op
+betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk is, de mate waarin de dienstverlening op
+balansdatum is verricht betrouwbaar kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden
+gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden bepaald, worden de
+opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn verantwoord.
+
+Onder opbrengsten jeugdwet en opbrengsten wmo worden de baten verantwoord uit hoofde van g | de prestaties op het gebl d van
+verleende jeugdzorg respectievelijk wmo-prest ties. Als realisatiemoment geldt het moment waarop de betreffende prestaties zijn
+gerealiseerd en op grond van de geldende voorschriften of richtlijnen gedeclareerd kunnen worden bij de opdrachtgever. Tot de
+opbrengsten jeugdwet worden tevens gerekend mutaties in onderhanden zorgtrajecten met betrekking tot jeugdzorg.
+
+Overheidssubsidies (exclusief opbrengsten jeugdwet)
+
+Overheidssubsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra er redelijke zekerheid bestaat dat zij
+zullen worden ontvangen en dat de groep zal voldoen aan de daaraan verbonden voorwaarden. Subsidies ter compensatie van door de
+groep gemaakte kosten worden systematisch als opbrengsten in de winst-en-verliesrekening opgenomen in dezelfde periode als die
+waarin de kosten worden gemaakt. Subsidies ter compensatie van de groep voor de kosten van een actief worden systematisch in de
+winst-en-verliesrekening opgenomen gedurende de gebruiksduur van het actief. Een krediet afgesloten tegen een lagere rente dan de
+marktrente, wordt als schuld in de balans opgenomen waarbij waardering plaatsvindt zoals opgenomen onder Financiële instrumenten.
+Het verschil tussen het hogere ontvangen bedrag van het krediet en de boekwaarde bij eerste verwerking betreft het voordeel als gevolg
+van de lagere rente. Dit voordeel wordt verwerkt als overheidssubsidie.
+
+Pagina 8
+
+
+Stichting Breder
+
+5.1.4 ALGEMENE TOELICHTING & GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Overige hedrijfsopbrengsten
+
+De overige bedrijfsopbrengsten bestaan uit opbrengsten anders dan uit zorgprestaties en maatschappelijke ondersteuning en subsidies.
+De overige opbrengsten kunnen worden verdeeld in opbrengsten voor het leveren van goederen en opbrengsten voor het leveren van
+diensten.
+
+Opbrengsten uit de verkoop van goederen worden verwerkt zodra alle belangrijke rechten en risico's met betrekking tot de eigendom van
+de goederen zijn overgedragen aan de koper.
+
+Opbrengsten uit het verlenen van diensten geschieden naar rato van de geleverde pr ties, geb d op de verrichte diensten tot aan
+de balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Personeelskosten
+
+Periodiek betaalb hol,
+re belc
+
+Lonen en salarissen en andere personeelslasten worden verantwoord in de periode waarin personeel op grond van de
+arbeldsvoorwaarden het recht op beloning verkrijgt. Sociale lasten worden toegerekend aan dezelfde periode als de lonen en salarissen
+waaraan deze sociale lasten direct kunnen worden toegerekend.
+
+Pensioenen
+
+Stichting Breder heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking komende werknemers hebben op
+de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de
+werknemer pensioen heeft opgebouwd bij Stichting Breder. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn
+ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. Stichting Breder betaalt hiervoor premies waarvan de helft door de
+werkgever wordt betaald en de helft door de werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de
+dekkingsgraad van het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat. Voor
+pensioenfondsen geldt regelgeving met betrekking tot de vereiste dekkingsgraad. De beleidsdekkingsgraad is het gemiddelde van de
+laatste twaalf dekkingsgraden. In maart 2022 bedroeg de beleidsdekkingsgraad 110,2%. Het vereiste niveau van de dekkingsgraad is
+123,4%. Het bestuur van PFZW heeft besloten om de pensioenpremie te verhogen in twee stappen: per 1 januari 2021 met 1,5
+procentpunt en per 1 januari 2022 met 0,8 procentpunt. De premie voor het arbeidsongeschiktheidspensioen blijft gelijk. Stichting Breder
+heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een tekort bij het pensioenfonds, anders dan het effect van
+hogere toekomstige premies. Stichting Breder heeft daarom alleen de verschuldigde premies tot en met het einde van het boekjaar in de
+jaarrekening verantwoord.
+
+Pagina 9
+
+Stichting Breder
+
+5.1.4 ALGEMENE TOELICHTING & GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Afschrijvingen
+
+Materiële vaste activa worden vanaf het moment van ingebruikneming afgeschreven over de verwachte toekomstige gebruiksduur van het
+actief. Over terreinen wordt niet afgeschreven.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen.
+
+Overige bedrijfskosten
+De overige bedrijfskosten worden toegerekend aan het jaar waarop zij betrekking hebben.
+
+Financiële baten en lasten
+
+De fi nanciële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en aan derden en
+
+groep ppijen b Ide (te betalen) interest. Tevens is hieronder opgenomen het aandeel van de stichting in het resultaat van de
+op nettovermogenswaarde gewaardeerde deelnemingen danwel ontvangen dividenden van deelnemingen waarin geen invloed van
+
+betekenis op het zakelijke en financiële beleid wordt uitgeoefend en waardeveranderingen van financiële vaste activa en effecten,
+
+5.1.4.6 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering bezoldiging topfunctionarissen in de (semi)publieke sector (WNT) heeft de stichting zich
+gehouden aan de Beleidsregel toepassing WNT en deze als normenkader bij het opmaken van deze jaarrekening gehanteerd.
+
+5.1.4.7 Financiële instrumenten en risicobeheersing
+
+Algemeen
+
+De instelling maakt in de normale bedrijfsuitoefening gebruik van uiteenlopende financiële instrumenten die de instelling blootstellen aan
+markt- en/of kredietrisico's. Deze betreffen financiële instrumenten die in de balans zijn opgenomen.
+
+De instelling handelt niet in deze financiële derivaten en heeft procedures en gedragslijnen om de omvang van het kredietrisico bij elke
+tegenpartij of markt te beperken. Bij het niet nakomen door een tegenpartij van aan de instellingen verschuldigde betalingen blijven
+eventuele daaruit voortvloeiende verliezen beperkt tot de marktwaarde van de desbetreffende instrumenten. De contractwaarde of fictieve
+hoofdsommen van de financiële instrumenten zijn slechts een indicatie van de mate waarin van dergelijke financiële instrumenten gebruik
+wordt gemaakt en niet van het bedrag van de krediet- of marktrisico's.
+
+Reäle waarde
+
+De reële waarde van de meeste in de balans verantwoorde financiële instrumenten, waaronder vorderingen, effecten, liquide middelen en
+kortlopende schulden, benadert de boekwaarde ervan.
+
+De reële waarde van de overige in de balans verantwoorde financiële instrumenten wijkt niet materieel af van de boekwaarde.
+
+Pagina 10
+
+Stichting Breder
+
+5.1.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+2. Materiële vaste activa
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Bedrijfsgebouwen en terreinen 1.481.193 1.030.871
+Andere vaste i en i 61.220 61.998
+Totaal materiële vaste activa 1.542,413 1.092.869 Î
+Het verloop van de iële activa in het is als volgt weer te geven:
+Andere vaste Materiële vaste
+bedrijfsmiddelen, _ bedrijfsa In Niet aan het
+en en
+Bedrijfs-gebouwen it Ì
+en terreinen Machines en Installaties uitrusting op MVA materiële activa Totaal Í
+€ € € € € € Í
+Boekwaarde per 1 januari 1.030.871 0 61.998 0 0 1.092.869
+Bij: investeringen 491.943 0 20.372 0 0 512.315
+Af: afschrijvingen 41.621 0 21.150 0 0 62.771
+Boekwaarde per 31 december 1.481.193 0 61.220 0 0 1.542,413 E
+Aanschafwaarde 1.565.028 0 216.653 0 0 1.780.681
+Cumulatieve afschrijvingen 83.835 0 154.433 0 0 __ 238.268
+1.481.193 [] 61.220 0 0 1.542,413
+LE ze
+3 ki 10-20 0 0
+De WOZ-waarde (belastingjaar 2021) van de Henri Di 65 te gt € 341.000,
+De WOZ-waarde (belastingjaar 2021) van de El rl, 3te gt € 655.000,-
+
+Ê
+É
+È
+
+Pagina 11
+
+
+Stichting Breder
+
+5.1.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+ACTIVA
+
+6. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+
+Vorderingen op debiteuren 451,948 441.278
+
+Overige vorderingen:
+
+Waarborgsom huur 10.205 10.205
+
+Vooruitbetaalde bedragen:
+
+Vooruitontvangen facturen 8.793 17.649
+
+Nog te ontvangen bedragen:
+
+Ziekengeld 7.379 0
+
+Totaal vorderingen en overlopende activa 478.325 469.132
+
+Overige toel op en overige
+
+Een vaor wordt niet lijk geacht.
+
+Pagina 12
+
+i
+t
+
+Stichting Breder
+
+5,1.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+8. Liquide middelen
+
+De specificatie ís als volgt:
+Bankrekeningen
+Depostto's
+
+Kruisposten
+
+Totaal liquide middelen
+
+31-dec-21 31-dec-20
+€ €
+
+17.521 4.213
+1.496.999 1.536.149
+164 1.663
+1.514.684 1.542.025
+
+Toelichting:
+De liquide middelen zijn vrij beschikbaar.
+
+Pagina 13
+
+
+Stichting Breder
+
+5.1.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+PASSIVA
+
+9. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-21 31-dec-20
+€
+Algemene en overige reserves 2.946.792 1.885.302
+Bestemmingsreserves 250,103 782.919
+Totaal eigen vermogen 3.206.895 2.668.221
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-21 bestemming mutaties 31-dec-21
+€ € € €
+Algemene reserves 1.885.302 1.061.490 0 2.946.792
+Totaal algemene en overige reserves 1.885.302 1.061.490 0 2.945.792
+Bestommingsreserves
+Saldo per Resuitaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-21 bestemming mutaties 31-dec-21
+€ € € €
+Bestemmingsreserve financiële hulp 1.451 0 0 1.451
+B giften en 8.652 0 0 8.852
+v 100.000 0 0 100.000
+Bestemmingsreserve overname WL Z-ocatie 0 100.000 0 100.000
+ve p o 50.000 o 50.000
+g v p i 672.816 672.816 o o
+Totaal bestemmingsreserves 782919 -522,816 0 260.103
+De bestemmingsreserve financiële hulp is bedoeld om cliënten die om redenen tegen p lopen te
+Pagina 14
+
+
+Stichting Breder
+
+5,1.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+PASSIVA
+
+12. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Crediteuren
+
+Belastingen en premies sociale verzekeringen
+Schulden terzake pensioenen
+Overige schulden:
+
+Nag te betalen salarissen
+Vakantiegeld
+
+Vakantiedagen
+Eindejaarsuitkering
+
+Overige nog te betalen kosten:
+Nog te ontvangen facturen
+Terug te betalen zorgbonus
+Corona-compensatie
+
+Overige passiva:
+Accountantskosten
+
+Diversen
+
+Totaal overige kortlopende schulden
+
+Pagina 15
+
+31-dec-21
+€
+
+6.715
+99.201
+13.964
+
+0
+79.034
+72.842
+
+0
+
+38.204
+5.917
+0
+
+11.270
+1.380
+
+328.527
+
+31-dec-20
+€
+
+23.069
+114.767
+51.244
+
+9.015
+76.825
+120.412
+0
+
+1.974
+0
+27.058
+
+11.270
+161
+
+435.805
+
+
+Stichting Breder
+
+5.1.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+De heeft de volg ij p gen uit hoofde van lopende contracten en overeenkomsten.
+
+Locatie Type Locatie Ingangsdatum Looptijd Jaarhuur
+
+= Uilebaardlaan, Barneveld Woonlocatie mei 2011 Onbep. Tijd 32.334
+= Stationsweg, Barneveld /oonlacati 2013 24 49.929
+= Wilhelminastraat, Bameveld Kantoor juni 2020 Onbep. Tijd 15,440
+- Brahmal; Bameveld Woonlocatie maart 2014 Onbep. Tijd 23.257
+-K: p app 31-39A, \ Û februari 2020 Onbep. Tijd 60.292
+- Wyandottelaan 29, Barneveld Woonlocatie juni 2021 Onbep. Tijd 7.352
+
+89204
+
+VPB-plicht Jeugdzorg
+Door de invoering van de Jeugdwet met ingang van 1 januari 2015, zijn gemeenten verantwoordelijk voor de organisatie van jeugdzorg/-hulp
+aan haar rj Hiertoe sluiten g: af met de diverse aanbieders van jeugdzorg/-hulp. Voor de
+zelf kan de wijziging van idieb (tot 2015) naar bekostiging op contractsbasis (vanaf 2015) - meer dan
+voorheen - tot het risico van ( ltelijke) licht leiden. Oorzaak van deze i p fi
+ligt In het feit dat jeugdzorginstellingen veelal geen beroep meer kunnen doen op de zog 4 ' in de
+vennootschapsbelasting, omdat niet meer wordt voldaan aan de bijbehorende voorwaarden, Daardoor wordt aangenomen dal de
+g' instel In leen ing in fiscale zin drijven met (gedeeltelijke)
+
+p g tot gevolg. | lichtig is voor deze vervolgens van belang of er nog
+
+andere mogelijkheden c.q. vrijstelli zijn om lijke) licht te Hierbij valt te denken aan de
+d, 9 ing' in de
+
+De instelling heeft een analyse g van de | licht en hieruit is dat de geen redenen
+
+ziet om rekening te houden met een eventuele VPB-plicht.
+
+Voor de resterende omzet ís sprake van vrijstelling op grond van artikel 5 lid 4 onderdeel c Wet VPB 1969.
+
+Pagina 16
+
+Stichting Breder
+
+5.1.6 TOELICHTING OP DE RESULTATENREKENING OVER 2021
+BATEN
+13, Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+De specificatie is als volgt:
+
+Wettelijk budget voor aanvaardbare kosten Wiz-zorg (exclusief subsidies)
+Opbrengsten Jeugdwet
+Opbrengsten Wmo
+
+Totaal
+
+15. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt:
+
+Overige opbrengsten:
+
+- Huur en activiteiten
+
+- ICT en administratie
+
+- __ Projecten
+
+- Eten en drinken woonlocatie
+- Reiskosten
+
+- Diversen
+
+- Indexatie Foodvalley
+
+Totaal
+
+Pagina 17
+
+Realisatie Realisatie
+2021 2020
+
+€ €
+
+353.716 326.737
+2.081.472 1.853.510
+1.368.518 1.211.909
+3.803.706 3.392.156
+Realisatie Realisatie
+2021 2020
+
+€ €
+
+29.244 23.620
+
+0 0
+
+7.891 15.419
+
+0 1.215
+
+0 0
+
+578 3,298
+
+0 0
+
+37.713 43.552
+
+
+Stichting Breder
+
+5.1.6 TOELICHTING OP DE RESULTATENREKENING OVER 2021
+
+LASTEN
+16. Personeelskosten
+
+Realisatie Realisatie
+De specificatie is als volgt: 2021 2020
+
+€ €
+
+Lonen en salarissen 1.998.529 1.913.375
+Sociale lasten 320.262 333.884
+Pensioenpremies 137.631 158.602
+Andere personeelskosten:
+= Diversen 12.609 13.819
+- Subsidies (o.a.stages) -18.749 -2,453
+- Opleidingskosten (incl. BHV) 27.050 22.665
+- Stagevergoeding 8.489 7.042
+- Ziekteverzuimverzekering 71.205 62.825
+- Kosten arbeidsdeskundige 26.452 7.137
+- Reiskostenvergoeding 27.513 29.945
+- Ontslagvergoedingen 14.919 1.330
+- Ontvangen zorgbonus -94.883 0
+- Ontvangen ziekengeld -138.228 -152.562
+Subtotaal 2.392.798 2.395.609
+Personeel niet in loondienst 11.314 0
+Kosten uitbesteed werk (Jongeren Company, P.L.E.L.N.. De
+Rozelaar en WWAP) 295.948 54.185
+Totaal personeelskosten 2.700.060 2.449.794
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+Gemiddeld FTE over boekjaar 45 42
+Gemiddeld aantal personeelsleden op basis van FTE's 45 42
+Toelichting:
+17. Afschrijvingen op immateriële en materiële vaste activa
+
+Realisatie Realisatie
+De specificatie is als volgt: 2021 2020
+
+€ €
+
+- materiële vaste activa 62.771 49.302
+Totaal afschrijvingen 62.771 49.302
+
+Pagina 18
+
+
+Stichting Breder
+
+5.1.6 TOELICHTING OP DE RESULTATENREKENING OVER 2021
+
+LASTEN
+19. Overige bedrijfskosten
+Realisatie Realisatie
+De specificatie is als volgt: 2021 2020
+€ €
+Voedingsmiddelen en hotelmatige kosten 82.093 76.293
+Algemene kosten 171.157 183.123
+Patiënt- en bewonersgebonden kosten 72.830 95.865
+Onderhoud en energiekosten: 35.285 32.815
+Huur 176.751 173.248
+Dotaties en vrijval voorzieningen 0 1.556
+Totaal overige bedrijfskosten 538.116 562.900
+Realisatie Realisatie
+Specificatie van de Algemene kosten 2021 2020
+€ €
+Overige huisvestingskosten 11.855 10.769
+Computer- en ICT kosten 35.227 52.222
+Communicatiekosten 12.978 12.161
+Kantoorkosten 27.955 22.510
+Zakelijke lasten 8.960 8.096
+Verkoopkosten 529 687
+Autokosten 17.086 17.818
+Overige algemene kosten 56.567 58.860
+Totaal algemene kosten 171.157 183.123
+
+Toelichting:
+
+Pagina 19
+
+
+Stichting Breder
+
+5.1.6 TOELICHTING OP DE RESULTATENREKENING OVER 2021
+
+LASTEN
+
+20. Financiële baten en lasten
+De specificatie is als volgt:
+Rentebaten
+Betalingsverschillen
+
+Subtotaal financiële baten
+
+Rentelasten en bankkosten
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+Pagina 20
+
+Realisatie Realisatie
+2021 2020
+
+€ €
+
+0 0
+
+0 0
+
+0 0
+
+1.798 896
+1.798 896
+-1.798 -896
+
+
+Stichting Breder
+
+5,1.6 TOELICHTING OP DE RESULTATENREKENING OVER 2021
+
+OVERIGE TOELICHTINGEN
+
+Honoraria accountant Realisatie
+2021
+€
+De honoraria van de accountant zijn als volgt:
+1 Controle van de jaarrekening 11.655
+2 Overige controlewerkzaamheden 0
+3 Fiscale advisering 0
+4 Niet-controlediensten 4.017
+Totaal honoraria accountant 15.672
+Toelichting: \
+Tr. ties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen en
+
+hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+Pagina 21
+
+WNT-VERANTWOORDING 2021 Stichting Breder
+
+Op 1 januari 2013 is de Wet normering topinkomens (WNT) in werking getreden, De WNT is van toepassing op Stichting Breder.
+
+Het voor Stichting Breder toepasselijke bezoldigingsmaximum is in 2021 € 116.000 (Categorie 6.I)
+
+Bezoldiai funcitonar
+
+1a. Leidinggevende topfunctionarissen, gewezen topfunctionarissen met dienstbetrekking en leidinggevende
+topfunctionarissen zonder dienstbetrekking vanaf de 13 ° maand van de functievervulling
+
+Functiegegevens
+
+Voorz. RvB
+
+Aanvang en einde functievervulling in 2021
+
+01-01/31-12
+
+Deeltijdfactor in fte *
+
+1,0
+
+Gewezen topfunctionaris?
+
+Nee
+
+(Fictieve) dienstbetrekking?
+
+Ja
+
+Bezoldiging
+
+Beloning plus belastbare
+onkostenvergoedingen
+
+119,674
+
+Beloningen betaalbaar op termijn
+
+12.623
+
+Subtotaal
+
+132.297
+
+Individueel toepasselijke
+bezoldigingsmaximum
+
+116.000
+
+-/- Onverschuldigd betaald bedrag
+
+-16,297
+
+Totale bezoldiging
+
+116.000
+
+Reden waarom de overschrijding al dan niet
+is toegestaan
+
+De Voorz. RvB heeft een contract voor 40 uur, waar ook het loon op is gebaseerd,
+Voor de toegepaste CAO geldt een fulltime werkweek van 36 uur. Van de
+overschrijving is een bedrag van € 13.230 toegestaan vanwege deze extra
+contracturen bovenop de CAO-uren. De resterende overschrijding van € 3.067,-
+
+GT ENE. Ve Lo i
+
+Gegevens 2020
+
+Aanvang en einde functievervulling in 2020
+
+01-01/31-12
+
+Deeltijdfactor 2020 in fte
+
+1,0
+
+Beloning plus belastbare
+
+onkostenvergoeding
+
+107,080,00
+
+Beloningen betaalbaar op termijn
+
+Totale bezoldiging 2020
+
+107.080,00
+
+* Voorz. RvB is in 2020 naar een 40 urige werkweek gegaan. 36 uur per week is volgens de CAO fulltime.
+
+1d. Topfunctionarissen en gewezen topfunctionarissen met een bezoldiging van €1.800 of minder
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+G.A, Petersen Voorzitter
+LG. Dekker Lid
+J.M. van Dijk Lid
+Pagina 22
+
+
+Stichting Breder
+
+OVERIGE TOELICHTINGEN OP DE JAARREKENING
+
+5.1.8 VASTSTELLING EN GOEDKEURING JAARREKENING
+
+\
+De raad van bestuur van Stichting Breder heeft de jaarrekening 2021 vastgesteld in de vergadering
+van 18 mei 2022.
+
+De raad van toezicht van de Stichting Breder heeft de jaarrekening 2021 goedgekeurd in de vergadering
+van 18 mei 2022.
+
+5.1.9 RESULTAATBESTEMMING
+
+Voorgesteld wordt om het resultaat te verdelen in overeenstemming met de resultaatverdeling onder aan
+paragraaf 5.1.2,
+
+5.1.10 GEBEURTENISSEN NA BALANSDATUM
+Er is een intentieovereenkomst getekend voor de overname van een WLZ-locatie. Er is een verzoek tot
+uitbreiding gevraagd bij het zorgkantoor met doelstelling om de overname per O1 juli 2022 te formaliseren.
+De overname betreft clienten, personeel en een huurcontract van de zorglocatie.
+
+5.1.11 ONDERTEKENING DOOR BESTUURDERS EN TOEZICHTHOUDERS
+
+Raad van Bestuur Raad van Toezicht
+A.P. van Driel Datum. 2e: 2022 G.A. Petersen Datum: ei 2022
+Loa:
+LG. Dekker Datum2 Smei 2022
+FISCOUNT 6)
+ASSURANCE Í 8 '
+
+J.M. van Dijk Datum: ZSmei 2022
+s OS WIT in: …n
+aaf waarmerking:
+
+Pagina 23
+

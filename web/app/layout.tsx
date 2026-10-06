@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { IBM_Plex_Sans, Instrument_Serif } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { laatstBijgewerkt, sectoren, tel } from "@/lib/db";
+import { Menulink } from "@/components/menulink";
 import { datumNL, hoofdletter, nl, sectorPad } from "@/lib/paden";
 import "./globals.css";
 
@@ -103,7 +105,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                     gaat een uitklapper niet open door erboven te zweven, en dan
                     moet je er nog steeds komen. */}
                 <li className="heeft-uitklap">
-                  <Link href="/sectoren">Sectoren</Link>
+                  <Menulink href="/sectoren" ook={["/sector", "/subsector"]}>
+                    Sectoren
+                  </Menulink>
                   {sectorlijst.length > 0 ? (
                     <ul className="uitklap">
                       {sectorlijst.map((sector) => (
@@ -126,16 +130,26 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   ) : null}
                 </li>
                 <li>
-                  <Link href="/kantoren">Kantoren</Link>
+                  <Menulink href="/kantoren" ook={["/kantoor"]}>
+                    Kantoren
+                  </Menulink>
                 </li>
                 <li>
-                  <Link href="/wisselingen">Wisselingen</Link>
+                  <Menulink href="/accountants" ook={["/accountant"]}>
+                    Accountants
+                  </Menulink>
                 </li>
                 <li>
-                  <Link href="/bevindingen">Oordelen</Link>
+                  <Menulink href="/wisselingen">Wisselingen</Menulink>
                 </li>
                 <li>
-                  <Link href="/organisaties">Organisaties</Link>
+                  <Menulink href="/bevindingen">Oordelen</Menulink>
+                </li>
+                <li>
+                  <Menulink href="/honoraria">Honoraria</Menulink>
+                </li>
+                <li>
+                  <Link href="/aanbestedingen">Aanbestedingen</Link>
                 </li>
               </ul>
             </nav>
@@ -154,22 +168,56 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <p>
                 Samengesteld uit openbare bronnen — jaarverantwoordingen,
                 transparantieverslagen, het AFM-register en het CBF. Bij elke
-                opdracht staat de vindplaats vermeld.
+                opdracht staat de vindplaats vermeld. Een deel van de
+                opdrachten komt uit aangeleverd marktonderzoek en is niet per
+                document herleidbaar; die opdrachten dragen het bronlabel
+                marktonderzoek.
               </p>
               <p className="klein">
                 Geen advies, geen oordeel over kantoren. Een wisseling is
                 afgeleid uit de historie, niet uit een aankondiging.
               </p>
+              {/* Zonder deze regel las de site als een volledig marktoverzicht.
+                  Dat is het niet: de vulling gaat sector voor sector en boekjaar
+                  voor boekjaar, dus de dekking verschilt per jaar. */}
+              <p className="klein">
+                Nog niet compleet: de gegevens worden sector voor sector en
+                boekjaar voor boekjaar aangevuld. Een aandeel op deze site geldt
+                binnen één sector en één boekjaar, over wat hier staat — niet
+                over de hele markt.
+              </p>
+              {/* Voorwaarde bij het besluit van 20-8-2026 om de tekenend
+                  accountant te tonen (docs/concept.md §9): zeggen welk gegeven
+                  het is, waarvandaan, waarvoor, en hoe je er iets aan doet. */}
+              <p className="klein">
+                Eén persoonsgegeven: de naam van de accountant die de
+                controleverklaring ondertekende. Die staat in het openbare,
+                wettelijk gedeponeerde jaarstuk zelf, en wordt hier getoond omdat
+                dit naslagwerk over precies die vraag gaat — wie tekent bij wie.
+                Andere personen staan er niet in. Klopt er iets niet, of wil je
+                bezwaar maken? Laat het weten via de bronvermelding bij de
+                betreffende opdracht; onjuiste gegevens worden gecorrigeerd.
+              </p>
             </div>
             <nav aria-label="Voettekst">
               <Link href="/sectoren">Sectoren</Link>
               <Link href="/kantoren">Kantoren</Link>
+              <Link href="/accountants">Accountants</Link>
               <Link href="/wisselingen">Wisselingen</Link>
               <Link href="/bevindingen">Oordelen</Link>
-              <Link href="/organisaties">Organisaties</Link>
+              <Link href="/honoraria">Honoraria</Link>
+              <Link href="/aanbestedingen">Aanbestedingen</Link>
             </nav>
           </div>
         </footer>
+
+        {/* Bezoekersstatistiek van Vercel, de partij die de site toch al host.
+            Telt paginaweergaven, land en van welke pagina iemand kwam — zonder
+            cookies en zonder de bezoeker over sites heen te volgen, dus er
+            hoeft geen cookiemelding bij. Werkt pas als Web Analytics in het
+            Vercel-project aan staat; staat het uit, dan doet dit niets.
+            Weg willen? Deze regel en de import eruit. */}
+        <Analytics />
       </body>
     </html>
   );

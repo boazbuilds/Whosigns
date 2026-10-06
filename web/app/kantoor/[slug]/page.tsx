@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  accountantsVanKantoor,
+  boekjarenMetControles,
+  gunningenVanKantoor,
   kantoorOpAfm,
   kantoorOpId,
   kantoorRanglijst,
-  nieuwsteBoekjaar,
+  marktaandeelRijen,
   opdrachtenVanKantoor,
   wisselingen,
   type Kantoor,
@@ -13,41 +16,59 @@ import {
 } from "@/lib/db";
 import { clientenVanKantoor } from "@/lib/analyse";
 import {
+  LEIDER_COMPLEET,
+  LEIDER_MINIMUM,
+  rasterstappen,
+  sectorposities,
+  sectorreeksen,
+  type Sectorreeks,
+} from "@/lib/voorpagina";
+import { Kolomgrafiek, type Kolom } from "@/components/grafieken";
+import {
+  OPDRACHT_LABEL,
   aantalControles,
   aantalJaren,
-  aantalOpdrachten,
   datumNL,
   hoofdletter,
+  accountantPad,
   jarenReeks,
   kantoorPad,
-  OPDRACHT_LABEL,
+  nl,
   organisatiePad,
+  procent,
   sectorPad,
+  paginaUitZoek,
   sleutelUitSlug,
+  slug as slugVan,
+  wisselingenPad,
 } from "@/lib/paden";
-import {
-  Aandeelbalk,
-  Doorklik,
-  Foutmelding,
-  Inklapbaar,
-  Kerncijfer,
-  KantoorLink,
-  KortKantoorLink,
-  Kruimels,
-  Leeg,
-  Oordeel,
-  Wapen,
-} from "@/components/onderdelen";
+import { Aandeelbalk, Aangeleverd, Doorklik, Foutmelding, Inklapbaar, KantoorLink, Kerncijfer, KortKantoorLink, Kruimels, Leeg, Oordeel, Paginering, Rang, Soort, Vergunning, Wapen } from "@/components/onderdelen";
 
-type Params = { params: Promise<{ slug: string }> };
+type Params = {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ sector?: string; jaar?: string; pagina?: string }>;
+};
 
 /**
  * Zoveel cliënten staan open; de staart zit achter een klik. Een groot kantoor
  * heeft er honderden, en die stonden allemaal uitgeschreven onder de pagina.
- * De lijst is op laatste boekjaar gesorteerd, dus wat openstaat is het meest
- * actuele deel.
  */
 const CLIENTEN_OPEN = 25;
+
+/**
+ * Zoveel cliënten per pagina; de eerste CLIENTEN_OPEN daarvan staan open. De
+ * ingeklapte staart stond wél helemaal in de HTML: BDO met 481 cliënten in
+ * boekjaar 2025 was 1,25 MB, en met "Alle jaren" 3.316 cliënten en 5,7 MB
+ * (5-10-2026).
+ */
+const CLIENTEN_PER_PAGINA = 200;
+
+/**
+ * Zoveel boekjaren in de keuzebalk boven de cliëntenlijst; oudere jaren
+ * blijven bereikbaar via "Alle jaren". Bij Flynth loopt de reeks terug tot
+ * 1996 — dertig losse knoppen helpen niemand.
+ */
+const JAREN_IN_BALK = 10;
 
 /**
  * Zoveel mutaties staan open per kolom. Zonder grens werd de pagina van PwC
@@ -55,6 +76,14 @@ const CLIENTEN_OPEN = 25;
  * uitgeschreven, met de cliëntenlijst dáár nog onder.
  */
 const MUTATIES_OPEN = 12;
+
+/**
+ * Zoveel mutaties per kolom staan er hooguit in de HTML, open en ingeklapt
+ * samen; de rest staat op /wisselingen?kantoor=, per boekjaar. BDO had er op
+ * 5-10-2026 214 gewonnen en 207 verloren, allemaal in de pagina — ingeklapt,
+ * maar wel 420 tabelregels om te laden.
+ */
+const MUTATIES_IN_PAGINA = 60;
 
 /**
  * Kolom met gewonnen of verloren opdrachten: de nieuwste open, de rest achter
@@ -66,11 +95,14 @@ function Mutatiekaart({
   leegtekst,
   richting,
   mutaties,
+  allePad,
 }: {
   titel: string;
   leegtekst: string;
   richting: string;
   mutaties: WisselingVolledig[];
+  /** Waar ze allemaal staan, voor als het er meer zijn dan op deze pagina. */
+  allePad: string;
 }) {
   const regel = (m: WisselingVolledig, sleutel: string) => (
     <tr key={sleutel}>
@@ -109,19 +141,207 @@ function Mutatiekaart({
           </table>
           {mutaties.length > MUTATIES_OPEN ? (
             <Inklapbaar
-              samenvatting={`Nog ${mutaties.length - MUTATIES_OPEN} uit eerdere boekjaren`}
+              samenvatting={
+                mutaties.length > MUTATIES_IN_PAGINA
+                  ? `Nog ${MUTATIES_IN_PAGINA - MUTATIES_OPEN} uit eerdere boekjaren`
+                  : `Nog ${mutaties.length - MUTATIES_OPEN} uit eerdere boekjaren`
+              }
             >
               <table>
                 <tbody>
                   {mutaties
-                    .slice(MUTATIES_OPEN)
+                    .slice(MUTATIES_OPEN, MUTATIES_IN_PAGINA)
                     .map((m) => regel(m, `r${m.organisatie_id}-${m.boekjaar_wissel}`))}
                 </tbody>
               </table>
             </Inklapbaar>
           ) : null}
+          {mutaties.length > MUTATIES_IN_PAGINA ? (
+            <p className="klein" style={{ marginBottom: 0 }}>
+              {/* De pagina daar toont gewonnen én verloren samen, per
+                  boekjaar; vandaar geen aantal in de linktekst. */}
+              <Link href={allePad}>Alle gewonnen en verloren opdrachten, per boekjaar →</Link>
+            </p>
+          ) : null}
         </>
       )}
+    </section>
+  );
+}
+
+/**
+ * Zoveel sectoren krijgen een eigen grafiekje; de rest staat in de tabel
+ * eronder. Deloitte werkt op 5-10-2026 in elf sectoren, waarvan zes met een
+ * aandeel in drie of meer complete boekjaren — zes grafieken onder elkaar is
+ * geen overzicht meer.
+ */
+const REEKSEN_IN_GRAFIEK = 4;
+
+/** Onder zoveel boekjaren met een aandeel is een lijn in de tijd geen lijn. */
+const MINIMUM_JAREN_IN_GRAFIEK = 3;
+
+/**
+ * En onder zoveel eigen controles in de sector ook niet: dan staan er vooral
+ * nullen en tienden van procenten in. Dubois had op 5-10-2026 acht controles
+ * bij woningcorporaties, één in acht van de jaren 2007–2016, en kreeg zo een grafiek
+ * van 0,3% en 0,0% — terwijl het kantoor bij de goede doelen 219 controles had.
+ */
+const MINIMUM_EIGEN_IN_GRAFIEK = 20;
+
+/** "’16" onder een kolom; het volle jaartal staat in de tooltip en de tabel. */
+function kortJaar(jaar: number): string {
+  return `’${String(jaar).slice(2)}`;
+}
+
+/**
+ * Per sector het aandeel van dit kantoor, boekjaar voor boekjaar, met alle
+ * sectoren als tabel eronder.
+ *
+ * Elk percentage geldt binnen één sector én één boekjaar, en staat er alleen
+ * bij een boekjaar dat compleet genoeg is (completeBoekjaren). Daarbuiten alleen
+ * het aantal: bij de OOB stonden er voor 2025 op 5-10-2026 110 controles tegen
+ * 576 een jaar eerder, en een aandeel daarover zou de grote kantoren
+ * overdrijven. Net zo aan het begin: in 2014 stonden er 376 OOB-controles
+ * tegen 721 in 2015, en PwC kwam daarover op 50,5% tegen 24,0% een jaar later.
+ */
+function Sectorontwikkeling({ reeksen }: { reeksen: Sectorreeks[] }) {
+  const metAandeel = (reeks: Sectorreeks) =>
+    reeks.jaren.filter((j) => j.compleet && j.aantal > 0).length;
+  const getekend = reeksen
+    .filter(
+      (reeks) =>
+        metAandeel(reeks) >= MINIMUM_JAREN_IN_GRAFIEK && reeks.eigen >= MINIMUM_EIGEN_IN_GRAFIEK,
+    )
+    .slice(0, REEKSEN_IN_GRAFIEK);
+
+  const alleJaren = [...new Set(reeksen.flatMap((r) => r.jaren.map((j) => j.boekjaar)))];
+  const kolomjaren: number[] = [];
+  for (let jaar = Math.min(...alleJaren); jaar <= Math.max(...alleJaren); jaar++) {
+    kolomjaren.push(jaar);
+  }
+
+  const tabel = (
+    <div className="tabel-omhulsel">
+      <table>
+        <thead>
+          <tr>
+            <th>Sector</th>
+            {kolomjaren.map((jaar) => (
+              <th key={jaar} className="getal">
+                {jaar}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {reeksen.map((reeks) => {
+            const perJaar = new Map(reeks.jaren.map((j) => [j.boekjaar, j]));
+            return (
+              <tr key={reeks.sector}>
+                <td>
+                  <Link href={sectorPad(reeks.sector)}>{hoofdletter(reeks.sector)}</Link>
+                </td>
+                {kolomjaren.map((jaar) => {
+                  const cel = perJaar.get(jaar);
+                  if (!cel || cel.aantal === 0) {
+                    return (
+                      <td key={jaar} className="getal zacht">
+                        {cel?.compleet ? "0" : "·"}
+                      </td>
+                    );
+                  }
+                  return (
+                    <td
+                      key={jaar}
+                      className="getal"
+                      title={
+                        cel.compleet
+                          ? `${cel.aantal} van ${cel.controles} controles in ${reeks.sector}, ${jaar}`
+                          : `${cel.aantal} van ${cel.controles} controles in ${reeks.sector}, ${jaar} — geen aandeel: ${
+                              cel.controles < LEIDER_MINIMUM
+                                ? `minder dan ${LEIDER_MINIMUM} controles in de sector`
+                                : "dit boekjaar staat nog niet compleet in de database"
+                            }`
+                      }
+                    >
+                      <strong>{nl(cel.aantal)}</strong>
+                      <div className="klein zacht">
+                        {cel.compleet ? procent((100 * cel.aantal) / cel.controles) : "—"}
+                      </div>
+                    </td>
+                  );
+                })}
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+
+  return (
+    <section className="kaart">
+      <div className="kaartkop">
+        <h2>Per sector en boekjaar</h2>
+        <Link href="/sectoren">Sectoren vergelijken →</Link>
+      </div>
+      <p className="klein zacht" style={{ marginTop: 0, maxWidth: "46rem" }}>
+        Het aandeel van dit kantoor in de controles van één sector in één
+        boekjaar. Tussen sectoren zegt het niets: welke organisaties er per
+        sector in de database staan, verschilt.
+      </p>
+      {getekend.length > 0 ? (
+        <div className="kolommen" style={{ marginBottom: 0 }}>
+          {getekend.map((reeks) => {
+            const jaren = reeks.jaren.filter((j) => j.compleet);
+            const kolommen: Kolom[] = jaren.map((j, i) => {
+              const pct = (100 * j.aantal) / j.controles;
+              return {
+                label: String(j.boekjaar),
+                kort: kortJaar(j.boekjaar),
+                waarde: pct,
+                weergave: procent(pct),
+                toelichting: `${nl(j.aantal)} van ${nl(j.controles)} controles`,
+                opschrift: i === jaren.length - 1,
+              };
+            });
+            // Een decimaal op de as zodra een stap geen heel procent is; anders
+            // stond er bij 0, 0,5, 1 en 1,5% "0%, 1%, 1%, 2%".
+            const raster = rasterstappen(Math.max(...kolommen.map((k) => k.waarde)));
+            const decimalen = raster.some((stap) => !Number.isInteger(stap)) ? 1 : 0;
+            return (
+              <div key={reeks.sector} style={{ minWidth: 0 }}>
+                <h3 className="klein" style={{ margin: "0 0 0.2rem" }}>
+                  <Link href={sectorPad(reeks.sector)}>{hoofdletter(reeks.sector)}</Link>
+                </h3>
+                <Kolomgrafiek
+                  titel={`Aandeel in de sector ${reeks.sector} per boekjaar`}
+                  kolommen={kolommen}
+                  raster={raster}
+                  rasterweergave={(n) => procent(n, decimalen)}
+                  hoogte={110}
+                />
+              </div>
+            );
+          })}
+        </div>
+      ) : null}
+      {getekend.length > 0 ? (
+        <Inklapbaar samenvatting="Als tabel, alle sectoren en boekjaren">{tabel}</Inklapbaar>
+      ) : (
+        tabel
+      )}
+      <p className="grafiekvoet">
+        Een aandeel alleen bij een boekjaar dat vrijwel compleet in de database
+        staat: minstens {LEIDER_MINIMUM} controles in de sector, en minstens{" "}
+        {procent(100 * LEIDER_COMPLEET, 0)} van het eerstvolgende complete
+        boekjaar erna — of, voor het nieuwste jaar, van het jaar ervoor. Zo
+        vallen ook de jaren af waarin een sector nog maar half in de database
+        stond. Anders staat er alleen het aantal, met een streepje eronder. Een
+        0 is een compleet boekjaar waarin dit kantoor in die sector geen
+        controle had; een punt staat waar de sector dat jaar nog niet (compleet)
+        in de database stond.
+      </p>
     </section>
   );
 }
@@ -145,8 +365,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   };
 }
 
-export default async function Kantoorpagina({ params }: Params) {
+export default async function Kantoorpagina({ params, searchParams }: Params) {
   const { slug } = await params;
+  const { sector: sectorFilterRuw, jaar: jaarRuw, pagina: paginaRuw } = await searchParams;
 
   let kantoor;
   try {
@@ -156,29 +377,124 @@ export default async function Kantoorpagina({ params }: Params) {
   }
   if (!kantoor) notFound();
 
-  const [opdrachten, mutaties, boekjaar, ranglijst] = await Promise.all([
+  const [opdrachten, mutaties, ranglijstJaren, ranglijst, marktRijen, aanbestedingen, tekenaars] =
+    await Promise.all([
     opdrachtenVanKantoor(kantoor.id),
     // Zonder limiet: hieruit komen "gewonnen" en "verloren" in de kop. Met een
     // grens van 50 stond er bij Verstegen "34 gewonnen en 16 verloren" — samen
     // precies 50, dus het was de grens die dat getal bepaalde en niet de data.
     wisselingen({ kantoorId: kantoor.id }),
-    nieuwsteBoekjaar(),
+    // Uit v_marktaandeel en niet max(opdrachten.boekjaar): er staan al
+    // opdrachten met boekjaar 2026 in de database (gebroken boekjaren uit
+    // marktonderzoek), maar een ranglijst is er pas als er controles zijn.
+    boekjarenMetControles(),
+    // Alleen nog voor de namen van de kantoren om dit kantoor heen; de plek
+    // zelf komt uit de kale rijen hieronder, per sector en boekjaar. Beide
+    // vragen hetzelfde adres op, en Next deelt dat verzoek.
     kantoorRanglijst().catch(() => []),
+    marktaandeelRijen().catch(() => []),
+    gunningenVanKantoor(kantoor.id),
+    accountantsVanKantoor(kantoor.id),
   ]);
+  const boekjaar = ranglijstJaren[0] ?? null;
 
   const clienten = clientenVanKantoor(opdrachten);
+
+  // ?sector=goede-doelen filtert de cliëntenlijst hieronder tot die sector.
+  // De sectorregels in "Waar dit kantoor werkt" linken hierheen: wie daar op
+  // "Goede doelen" klikt wil de goede doelen van dít kantoor zien, niet de
+  // landelijke sectorpagina. De waarde wordt teruggezocht in de eigen
+  // cliëntenlijst; een sector die dit kantoor niet heeft (typefout, oude link)
+  // filtert dus niet stil naar nul maar valt terug op alles.
+  const sectorFilter = sectorFilterRuw
+    ? [...new Set(clienten.map((c) => c.sector).filter((s): s is string => !!s))]
+        .find((s) => slugVan(s) === sectorFilterRuw) ?? null
+    : null;
+
+  // De jaarkiezer boven de cliëntenlijst: standaard de selectie van het
+  // nieuwste eigen boekjaar waarvoor er landelijk ook een ranglijst is —
+  // marktonderzoek bevat al boekjaar 2026, maar wie hier binnenkomt wil het
+  // laatste volle jaar zien. ?jaar=alles geeft de volledige lijst over alle
+  // boekjaren; een onzinnig jaartal valt terug op de standaard.
+  const eigenJaren = [...new Set(clienten.flatMap((c) => c.jaren))].sort(
+    (a, b) => b - a,
+  );
+  const standaardJaar =
+    eigenJaren.find((j) => boekjaar === null || j <= boekjaar) ??
+    eigenJaren[0] ??
+    null;
+  const gekozenJaar =
+    jaarRuw === "alles"
+      ? null
+      : eigenJaren.includes(Number(jaarRuw))
+        ? Number(jaarRuw)
+        : standaardJaar;
+
+  const clientenGetoond = (
+    gekozenJaar === null ? clienten : clientenVanKantoor(opdrachten, gekozenJaar)
+  ).filter((c) => !sectorFilter || c.sector === sectorFilter);
+
+  // Link naar deze cliëntenlijst met een ander jaar, met behoud van het
+  // sectorfilter — en andersom. Een ander jaar of een andere sector begint
+  // weer op de eerste pagina.
+  const clientenPad = (jaar: number | null, sector: string | null, pagina = 1) => {
+    const zoek = new URLSearchParams();
+    zoek.set("jaar", jaar === null ? "alles" : String(jaar));
+    if (sector) zoek.set("sector", slugVan(sector));
+    if (pagina > 1) zoek.set("pagina", String(pagina));
+    return `${kantoorPad(kantoor)}?${zoek.toString()}#clienten`;
+  };
+  const aantalPaginas = Math.max(1, Math.ceil(clientenGetoond.length / CLIENTEN_PER_PAGINA));
+  // Een pagina voorbij het einde valt terug op de laatste, net als een
+  // onzinnig jaartal hierboven op de standaard terugvalt.
+  const pagina = Math.min(paginaUitZoek(paginaRuw), aantalPaginas);
+  const clientenOpPagina = clientenGetoond.slice(
+    (pagina - 1) * CLIENTEN_PER_PAGINA,
+    pagina * CLIENTEN_PER_PAGINA,
+  );
+
+  // Tellen per soort opdracht, aflopend. Alleen tonen als er meer dan één
+  // soort is — bij een kantoor dat uitsluitend wettelijke controles doet
+  // voegt de regel niets toe.
+  const perSoort = new Map<string, number>();
+  for (const opdracht of opdrachten) {
+    perSoort.set(opdracht.type_opdracht, (perSoort.get(opdracht.type_opdracht) ?? 0) + 1);
+  }
+  const soorten = [...perSoort.entries()].sort((a, b) => b[1] - a[1]);
   const gewonnen = mutaties.filter((m) => m.naar_kantoor_id === kantoor.id);
   const verloren = mutaties.filter((m) => m.van_kantoor_id === kantoor.id);
   const alleJaren = opdrachten.map((o) => o.boekjaar);
 
-  // Plaats in de eeuwige ranglijst, en wie er direct om dit kantoor heen staan.
-  const positie = ranglijst.findIndex((r) => r.kantoor.id === kantoor.id);
-  const eigenRij = positie >= 0 ? ranglijst[positie] : null;
-  const buren =
-    positie >= 0
-      ? ranglijst.slice(Math.max(0, positie - 1), positie + 3).filter((r) => r.kantoor.id !== kantoor.id)
-      : ranglijst.slice(0, 3);
-  const marktTotaal = ranglijst.reduce((som, rij) => som + rij.aantal_controles, 0);
+  // De plek per sector, elk in het nieuwste boekjaar dat voor die sector
+  // compleet is. Hier stond de plek in de eeuwige ranglijst over alle
+  // sectoren en boekjaren samen, met "18,2% van alles wat in deze database
+  // staat" eronder (Deloitte, 5-10-2026): een getal dat vooral meet welke
+  // sectoren er in welk jaar in de database staan. Zie sectorposities().
+  const posities = sectorposities(marktRijen, kantoor.id);
+  const hoofd = posities[0] ?? null;
+  // En dezelfde rijen boekjaar voor boekjaar, voor "Per sector en boekjaar":
+  // geen extra verzoek, want v_marktaandeel is hierboven al opgehaald.
+  const reeksen = sectorreeksen(marktRijen, kantoor.id);
+  const eigenControles = marktRijen
+    .filter((rij) => rij.kantoor_id === kantoor.id)
+    .reduce((som, rij) => som + rij.aantal_controles, 0);
+
+  // Wie er in die sector en dat boekjaar direct om dit kantoor heen staan.
+  const kantoorPerId = new Map(ranglijst.map((rij) => [rij.kantoor.id, rij.kantoor]));
+  const eigenPlek = hoofd
+    ? hoofd.ranglijst.findIndex((rij) => rij.kantoorId === kantoor.id)
+    : -1;
+  const buren = hoofd
+    ? hoofd.ranglijst
+        .slice(Math.max(0, eigenPlek - 1), eigenPlek + 3)
+        .filter((rij) => rij.kantoorId !== kantoor.id)
+        .flatMap((rij) => {
+          const ander = kantoorPerId.get(rij.kantoorId);
+          if (!ander) return [];
+          const plek = 1 + hoofd.ranglijst.filter((r) => r.aantal > rij.aantal).length;
+          return [{ kantoor: ander, aantal: rij.aantal, plek }];
+        })
+    : [];
 
   // In welke sectoren dit kantoor werkt, grootste eerst. Uit de eigen cliënten
   // en niet uit de ranglijst: zo klopt het ook als de view nog niet is bijgewerkt.
@@ -197,11 +513,11 @@ export default async function Kantoorpagina({ params }: Params) {
         <th>Opdracht</th>
         <th>Boekjaren</th>
         <th className="getal">Duur</th>
-        <th>Laatste oordeel</th>
+        <th>{gekozenJaar ? "Oordeel" : "Laatste oordeel"}</th>
       </tr>
     </thead>
   );
-  const clientrijen = clienten.map((client) => (
+  const clientrijen = clientenOpPagina.map((client) => (
     <tr key={client.organisatieId}>
       <td>
         <Link
@@ -216,7 +532,16 @@ export default async function Kantoorpagina({ params }: Params) {
       </td>
       <td className="zacht klein">{client.gemeente ?? "—"}</td>
       <td className="zacht klein">
-        {OPDRACHT_LABEL[client.typeLaatste] ?? client.typeLaatste}
+        <Soort type={client.typeLaatste} />
+        {/* Een cliënt die hier alleen staat dankzij het aangeleverde
+            marktonderzoek draagt dat label. Bij Crowe Foederer komen 2.053
+            van de 2.180 opdrachten daaruit (5-10-2026). */}
+        {client.bronLaatste?.betrouwbaarheid === "zelf_aangeleverd" ? (
+          <>
+            {" "}
+            <Aangeleverd bron={client.bronLaatste} />
+          </>
+        ) : null}
       </td>
       <td className="jaar">{jarenReeks(client.jaren)}</td>
       <td className="getal zacht">{aantalJaren(client.jaren.length)}</td>
@@ -242,19 +567,15 @@ export default async function Kantoorpagina({ params }: Params) {
           <div>
             <h1>{kantoor.naam}</h1>
             <p className="metaregel">
-              {positie >= 0 ? (
+              {hoofd ? (
                 <span>
-                  <strong>#{positie + 1}</strong> in de ranglijst
+                  <strong>#{hoofd.plek}</strong> in de sector{" "}
+                  <Link href={sectorPad(hoofd.sector)}>{hoofd.sector}</Link>, boekjaar{" "}
+                  {hoofd.boekjaar}
                 </span>
               ) : null}
               <span>
-                {kantoor.oob_vergunning ? (
-                  <span className="label label-oob">OOB-vergunning</span>
-                ) : kantoor.afm_nummer ? (
-                  "reguliere Wta-vergunning"
-                ) : (
-                  "geen Wta-vergunning"
-                )}
+                <Vergunning kantoor={kantoor} voluit />
               </span>
               {kantoor.plaats ? <span>{kantoor.plaats}</span> : null}
               <span>{jarenReeks(alleJaren)}</span>
@@ -272,7 +593,67 @@ export default async function Kantoorpagina({ params }: Params) {
             naam="saldo"
           />
         </div>
+
+        {/* Waaruit die opdrachten bestaan. Zonder deze regel zegt "1.242
+            opdrachten" niets over wát er gecontroleerd is: negen van de tien
+            zijn jaarrekeningcontroles, maar een verklaring bij een WNT-opgave
+            of een productieverantwoording telde er net zo hard in mee. */}
+        {soorten.length > 1 ? (
+          <p className="soortverdeling">
+            {soorten.map(([type, aantal]) => (
+              <span key={type}>
+                <span className="telling">{nl(aantal)}</span>{" "}
+                <Soort type={type} />
+              </span>
+            ))}
+          </p>
+        ) : null}
       </div>
+
+      {/* Wie tekent er namens dit kantoor. Een verklaring wordt niet door een
+          kantoor ondertekend maar door een mens, en bij een klein kantoor is dat
+          er vaak één — dan is een "wisseling van kantoor" op de
+          organisatiepagina in feite geen wisseling van accountant. */}
+      {tekenaars.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Wie tekent er namens dit kantoor</h2>
+            <Link href="/accountants">Alle accountants →</Link>
+          </div>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Accountant</th>
+                  <th className="getal">Ondertekeningen</th>
+                  <th>Boekjaren</th>
+                </tr>
+              </thead>
+              <tbody>
+                {tekenaars.slice(0, 25).map((rij) => (
+                  <tr key={rij.sleutel}>
+                    <td>
+                      <Link href={accountantPad(rij.sleutel)}>{rij.naam}</Link>
+                    </td>
+                    <td className="getal">
+                      <strong>{rij.aantal}</strong>
+                    </td>
+                    <td className="klein zacht">{jarenReeks(rij.jaren)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="klein zacht" style={{ marginBottom: 0 }}>
+            {tekenaars.length > 25
+              ? `Getoond: de 25 met de meeste ondertekeningen van ${tekenaars.length}. `
+              : ""}
+            Alleen verklaringen waarvan de ondertekening machinaal leesbaar was;
+            dat is lang niet altijd zo, dus deze aantallen zijn een ondergrens en
+            geen ranglijst binnen het kantoor.
+          </p>
+        </section>
+      ) : null}
 
       <div className="kolommen-breed-smal">
         <section className="kaart">
@@ -280,6 +661,9 @@ export default async function Kantoorpagina({ params }: Params) {
           {sectorrijen.length === 0 ? (
             <Leeg tekst="Nog geen cliënten in de database." />
           ) : (
+            // In een eigen schuifkader, zoals elke andere tabel: zonder dat werd
+            // de pagina op een telefoon van 375 pixels 443 pixels breed.
+            <div className="tabel-omhulsel">
             <table>
               <thead>
                 <tr>
@@ -292,7 +676,21 @@ export default async function Kantoorpagina({ params }: Params) {
                 {sectorrijen.map(([sector, aantal]) => (
                   <tr key={sector}>
                     <td>
-                      <Link href={sectorPad(sector)}>{hoofdletter(sector)}</Link>
+                      {/* Naar de eigen cliëntenlijst, gefilterd op deze sector
+                          en over alle boekjaren — wie hier klikt wil de hele
+                          portefeuille in die sector zien, niet één jaar. De
+                          landelijke sectorpagina blijft bereikbaar via het
+                          pijltje ernaast en de doorklikken onderaan. */}
+                      <Link href={clientenPad(null, sector)}>
+                        {hoofdletter(sector)}
+                      </Link>{" "}
+                      <Link
+                        href={sectorPad(sector)}
+                        className="zacht klein"
+                        title={`De hele sector ${sector}, alle kantoren`}
+                      >
+                        hele sector →
+                      </Link>
                     </td>
                     <td className="getal">{aantal}</td>
                     <td className="balkcel">
@@ -302,12 +700,28 @@ export default async function Kantoorpagina({ params }: Params) {
                 ))}
               </tbody>
             </table>
+            </div>
           )}
-          {eigenRij && marktTotaal > 0 ? (
+          {eigenControles > 0 ? (
             <p className="klein zacht" style={{ marginBottom: 0 }}>
-              Samen {aantalControles(eigenRij.aantal_controles)} over alle boekjaren
-              — {((eigenRij.aantal_controles / marktTotaal) * 100).toFixed(1)}% van
-              alles wat in deze database staat.
+              Samen {nl(eigenControles)} {eigenControles === 1 ? "controle" : "controles"}{" "}
+              over alle boekjaren en sectoren. Een aandeel geldt alleen binnen
+              één sector en één boekjaar
+              {posities.length ? (
+                <>
+                  ; in het nieuwste boekjaar dat per sector compleet is:{" "}
+                  {posities.map((p, i) => (
+                    <span key={p.sector}>
+                      {i > 0 ? "; " : ""}#{p.plek} in {p.sector} ({p.boekjaar},{" "}
+                      {procent((100 * p.aantal) / p.controles)} van{" "}
+                      {nl(p.controles)} controles)
+                    </span>
+                  ))}
+                  .
+                </>
+              ) : (
+                "."
+              )}
             </p>
           ) : null}
         </section>
@@ -356,30 +770,68 @@ export default async function Kantoorpagina({ params }: Params) {
         </section>
       </div>
 
+      {reeksen.length > 0 ? <Sectorontwikkeling reeksen={reeksen} /> : null}
+
       <div className="kolommen">
         <Mutatiekaart
           titel="Gewonnen opdrachten"
           leegtekst="Geen gewonnen opdrachten in deze periode."
           richting="overgenomen van"
           mutaties={gewonnen}
+          allePad={wisselingenPad({ kantoor })}
         />
         <Mutatiekaart
           titel="Verloren opdrachten"
           leegtekst="Geen verloren opdrachten in deze periode."
           richting="gegaan naar"
           mutaties={verloren}
+          allePad={wisselingenPad({ kantoor })}
         />
       </div>
 
-      <section className="kaart">
+      <section className="kaart" id="clienten">
         <div className="kaartkop">
-          <h2>Cliënten</h2>
-          {boekjaar ? (
-            <Link href={`/kantoren?jaar=${boekjaar}`}>Ranglijst {boekjaar} →</Link>
+          <h2>
+            Cliënten
+            {gekozenJaar ? ` in boekjaar ${gekozenJaar}` : ""}
+            {sectorFilter ? ` — ${sectorFilter}` : ""}
+            {` (${clientenGetoond.length})`}
+          </h2>
+          {sectorFilter ? (
+            <Link href={clientenPad(gekozenJaar, null)}>Alle sectoren →</Link>
+          ) : boekjaar ? (
+            <Link href={`/kantoren?jaar=${boekjaar}`}>Alle kantoren in {boekjaar} →</Link>
           ) : null}
         </div>
-        {clienten.length === 0 ? (
-          <Leeg tekst="Nog geen cliënten van dit kantoor in de database." />
+        {eigenJaren.length > 1 ? (
+          <nav className="keuzebalk" aria-label="Kies een boekjaar">
+            {eigenJaren.slice(0, JAREN_IN_BALK).map((j) => (
+              <Link
+                key={j}
+                href={clientenPad(j, sectorFilter)}
+                className={gekozenJaar === j ? "actief" : undefined}
+                aria-current={gekozenJaar === j ? "page" : undefined}
+              >
+                {j}
+              </Link>
+            ))}
+            <Link
+              href={clientenPad(null, sectorFilter)}
+              className={gekozenJaar === null ? "actief" : undefined}
+              aria-current={gekozenJaar === null ? "page" : undefined}
+            >
+              Alle jaren
+            </Link>
+          </nav>
+        ) : null}
+        {clientenGetoond.length === 0 ? (
+          <Leeg
+            tekst={
+              gekozenJaar
+                ? "Geen cliënten in dit boekjaar."
+                : "Nog geen cliënten van dit kantoor in de database."
+            }
+          />
         ) : (
           <>
             <div className="tabel-omhulsel">
@@ -390,7 +842,13 @@ export default async function Kantoorpagina({ params }: Params) {
             </div>
             {clientrijen.length > CLIENTEN_OPEN ? (
               <Inklapbaar
-                samenvatting={`Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten uit eerdere boekjaren`}
+                samenvatting={
+                  aantalPaginas > 1
+                    ? `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten op deze pagina`
+                    : gekozenJaar
+                      ? `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten in dit boekjaar`
+                      : `Nog ${clientrijen.length - CLIENTEN_OPEN} cliënten uit eerdere boekjaren`
+                }
               >
                 <div className="tabel-omhulsel">
                   <table>
@@ -400,32 +858,107 @@ export default async function Kantoorpagina({ params }: Params) {
                 </div>
               </Inklapbaar>
             ) : null}
+            {aantalPaginas > 1 ? (
+              <>
+                <p className="klein zacht" style={{ margin: "0.9rem 0 0.5rem" }}>
+                  Cliënten {nl((pagina - 1) * CLIENTEN_PER_PAGINA + 1)}–
+                  {nl((pagina - 1) * CLIENTEN_PER_PAGINA + clientenOpPagina.length)} van{" "}
+                  {nl(clientenGetoond.length)},{" "}
+                  {gekozenJaar ? "alfabetisch" : "nieuwste relatie eerst"}.
+                </p>
+                <Paginering
+                  pagina={pagina}
+                  aantalPaginas={aantalPaginas}
+                  pad={(n) => clientenPad(gekozenJaar, sectorFilter, n)}
+                />
+              </>
+            ) : null}
           </>
         )}
       </section>
 
-      {buren.length > 0 ? (
+      {hoofd && buren.length > 0 ? (
         <section className="kaart">
-          <h2>Om dit kantoor heen in de ranglijst</h2>
-          <table>
-            <tbody>
-              {buren.map((rij) => (
-                <tr key={rij.kantoor.id}>
-                  <td>
-                    <KantoorLink
-                      naam={rij.kantoor.naam}
-                      naar={kantoorPad(rij.kantoor)}
-                      maat="m"
-                    />
-                  </td>
-                  <td className="zacht klein">
-                    {rij.kantoor.plaats ?? <span className="zacht">—</span>}
-                  </td>
-                  <td className="getal">{rij.aantal_controles}</td>
+          <div className="kaartkop">
+            <h2>
+              Om dit kantoor heen in de sector {hoofd.sector}, boekjaar {hoofd.boekjaar}
+            </h2>
+            <Link href={sectorPad(hoofd.sector)}>Hele sector →</Link>
+          </div>
+          <div className="tabel-omhulsel">
+            <table>
+              <tbody>
+                {buren.map((rij) => (
+                  <tr key={rij.kantoor.id}>
+                    <td className="rangcel">
+                      <Rang nummer={rij.plek} />
+                    </td>
+                    <td>
+                      <KantoorLink
+                        naam={rij.kantoor.naam}
+                        naar={kantoorPad(rij.kantoor)}
+                        maat="m"
+                      />
+                    </td>
+                    <td className="zacht klein">
+                      {rij.kantoor.plaats ?? <span className="zacht">—</span>}
+                    </td>
+                    <td className="getal">{rij.aantal}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ) : null}
+
+      {aanbestedingen.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Gewonnen aanbestedingen</h2>
+            <Link href="/aanbestedingen">Alle aanbestedingen →</Link>
+          </div>
+          <p className="klein zacht" style={{ marginTop: 0 }}>
+            Europees aanbestede opdrachten die dit kantoor won ({aanbestedingen.length},
+            bron: TED). Een gunning zegt wie er benoemd is en wanneer — niet of
+            de controle er kwam.
+          </p>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gegund</th>
+                  <th>Opdrachtgever</th>
+                  <th>Bericht</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {aanbestedingen.map((gunning) => (
+                  <tr key={gunning.publicatienummer + (gunning.organisaties?.id ?? "")}>
+                    <td className="jaar">{datumNL(gunning.gunningsdatum)}</td>
+                    <td>
+                      {gunning.organisaties ? (
+                        <Link href={organisatiePad(gunning.organisaties)}>
+                          {gunning.organisaties.naam}
+                        </Link>
+                      ) : (
+                        <span className="zacht">onbekend</span>
+                      )}
+                    </td>
+                    <td className="klein">
+                      <a
+                        href={`https://ted.europa.eu/nl/notice/-/detail/${gunning.publicatienummer}`}
+                        rel="noreferrer nofollow"
+                        target="_blank"
+                      >
+                        {gunning.publicatienummer}
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       ) : null}
 
@@ -440,11 +973,13 @@ export default async function Kantoorpagina({ params }: Params) {
             tekst: client.naam,
             toelichting: `cliënt ${jarenReeks(client.jaren)}`,
           })),
-          ...buren.slice(0, 3).map((rij) => ({
-            naar: kantoorPad(rij.kantoor),
-            tekst: rij.kantoor.naam,
-            toelichting: `concurrent, ${aantalControles(rij.aantal_controles)}`,
-          })),
+          ...(hoofd
+            ? buren.slice(0, 3).map((rij) => ({
+                naar: kantoorPad(rij.kantoor),
+                tekst: rij.kantoor.naam,
+                toelichting: `concurrent in ${hoofd.sector}, ${aantalControles(rij.aantal)} in ${hoofd.boekjaar}`,
+              }))
+            : []),
           // De sectoren waarin dít kantoor werkt, uit zijn eigen cliënten. Hier
           // stond "Marktaandelen in de zorg" vast, ook voor een kantoor dat
           // hoofdzakelijk goede doelen controleert.
@@ -452,13 +987,12 @@ export default async function Kantoorpagina({ params }: Params) {
             naar: sectorPad(sector),
             tekst: `Marktaandelen in de sector ${sector}`,
           })),
-          { naar: "/kantoren", tekst: "Ranglijst van alle kantoren" },
+          { naar: "/kantoren", tekst: "Alle kantoren" },
+          { naar: "/sectoren", tekst: "Sectoren vergelijken" },
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          {
-            naar: "/organisaties",
-            tekst: "Alle organisaties op naam",
-            toelichting: aantalOpdrachten(opdrachten.length) + " bij dit kantoor",
-          },
+          ...(aanbestedingen.length
+            ? [{ naar: "/aanbestedingen", tekst: "Alle aanbestedingen, per gunningsjaar" }]
+            : []),
         ]}
       />
     </>

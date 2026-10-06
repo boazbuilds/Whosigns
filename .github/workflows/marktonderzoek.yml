@@ -1,0 +1,38 @@
+name: Marktonderzoek laden
+
+# Laadt aangeleverd marktonderzoek (zie pipeline/laad_marktonderzoek.py).
+# Draait vanzelf zodra er een aanlevering op main landt
+# (pipeline/aanlever/marktonderzoek_*.csv) en is ook met de hand te starten.
+# Een aanlevering via het secret MARKTONDERZOEK_DATA (gzip+base64 van de csv)
+# kan óók en wint dan van de map. Herdraaien is veilig: bestaande
+# organisatie-boekjaren worden overgeslagen.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/aanlever/**"
+
+jobs:
+  laden:
+    name: Aanlevering laden
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Laden
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          MARKTONDERZOEK_DATA: ${{ secrets.MARKTONDERZOEK_DATA }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/laad_marktonderzoek.py

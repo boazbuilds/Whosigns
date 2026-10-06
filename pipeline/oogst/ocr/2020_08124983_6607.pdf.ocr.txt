@@ -1,0 +1,1208 @@
+# whosigns-ocr v1 grootte=7729244 dpi=300 paginas=20
+Thuiszorg Beers B.V.
+
+5.2.3 KASSTROOMOVERZICHT
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+Aanpassingen voor:
+
+- afschrijvingen en overige waardeverminderingen
+
+Veranderingen in vlottende middelen:
+
+- vorderingen
+
+- vorderingen uit hoofde van financieringstekort
+- kortlopende schulden
+
+Kasstroom uit bedrijfsoperaties
+
+Ontvangen interest
+
+Betaalde interest
+
+Betaalde belastingen
+
+Totaal kasstroom uit operationele activiteiten
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa
+Desinvesteringen materiële vaste activa
+
+Mutatie leningen u/g
+
+Totaal kasstroom uit investeringsactiviteiten
+Kasstroom uit financieringsactiviteiten
+Betaald dividend
+
+Totaal kasstroom uit financieringsactiviteiten
+
+Mutatie geldmiddelen
+
+2020 2019
+€ € € €
+-103.256 -132.228
+36.836 38.754
+36.836 38.754
+105.075 15.005
+-62.258 -67.269
+200.977 64.776
+243.794 12.512
+
+177.374
+
+25.256
+-1.689
+11.839
+
+35.406
+
+212.780
+-8.901
+37.821
+-15.928
+12.992
+0
+0
+
+225.772
+
+-80.962
+
+25.011
+-1.760
+17.562
+
+40.813
+
+-9.770
+62.393
+
+-36.981
+
+-40.149
+
+52.623
+
+-36.981
+
+-24.507
+
+Stand geldmiddelen per 1 januari 30.056 54.563
+Stand geldmiddelen per 31 december 255.828 30.056
+Mutatie geldmiddelen 225.772 -24.507
+Toelichting:
+
+Er is gebruik gemaakt van de indirecte methode.
+
+Pagina 8
+
+
+Thuiszorg Beers B.V.
+
+5.2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.2.4.1 Algemeen
+
+Activiteiten
+De activiteiten van Thuiszorg Beers B.V, statutair gevestigd te Apeldoorn, bestaan voornamelijk uit het
+
+bieden van thuiszorg. De onderneming is bij de Kamer van Koophandel Oost Nederland ingeschreven
+onder nummer 08124983.
+
+Groepsverhoudingen
+Thuiszorg Beers B.V. behoort tot een groep. Aan het hoofd van deze groep staat Beers Holding B.V. te
+
+Apeldoorn. Beers Holding B.V. maakt gebruik van de vrijstelling van de consolidatieplicht op grond van
+artikel 2:407 lid 2 BW.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi, de stellige
+uitspraken van de Richtlijnen voor de Jaarverslaggeving (hoofdstuk 655) uitgegeven door de Raad voor
+de Jaarverslaggeving en de bepalingen van Titel 9 Boek 2 BW.
+
+Normenkader
+
+Voor de uitvoering van de Wet normering bezoldiging topfunctionarissen in de (semi)publieke sector
+(WNT) heeft de vennootschap zich gehouden aan de Beleidsregel toepassing WNT en deze als
+normenkader bij het opmaken van de jaarrekening gehanteerd.
+
+Continuïteitsveronderstelling
+
+De jaarrekening is opgesteld vanuit de veronderstelling van continuïteit van de onderneming.
+
+De liquiditeitspositie van de vennootschap is op dit moment niet ernstig verslechterd. De vennootschap
+kan voldoen aan de lopende verplichtingen. Derhalve is er op dit moment geen sprake van ernstige
+onzekerheid met betrekking tot de continuïteit van de vennootschap.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand
+jaar.
+
+Verbonden partijen
+
+Alle groepsmaatschappijen worden aangemerkt als verbonden partij.
+Thuiszorg Beers B.V. merkt de volgende partijen als verbonden partijen aan:
+- Beers Holding B.V. (moedermaatschappij en tevens groepshoofd);
+
+- VAB Apeldoorn B.V. (dochtermaatschappij van Beers Holding B.V);
+
+- Wijkzorg Apeldoorn B.V. (dochtermaatschappij van Beers Holding B.V);
+
+- de heer J.W. Beers (aandeelhouder van Beers Holding B.V);
+
+- mevrouw M.Th.E. Beers-Kronenberg (bestuurder van Beers Holding B.V.).
+
+Thuiszorg Beers B.V. is een 100% dochtermaatschappij van Beers Holding B.V. De bestuurder van
+Thuiszorg Beers B.V. is Beers Holding B.V. De heer J.W. Beers is enig aandeelhouder van Beers
+Holding B.V. en mevrouw M.Th.E. Beers-Kronenberg is bestuurder van Beers Holding B.V.
+
+Ingeval van transacties (rente over de rekening-courantverhoudingen, rente over de geldlening en huur
+onroerende zaken) tussen de verbonden partijen worden marktconforme condities gehanteerd.
+
+Pagina 9
+
+
+Thuiszorg Beers B.V.
+
+5.2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+5.2.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of
+de actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld, vindt waardering plaats
+tegen de verkrijgingsprijs. Toelichtingen op posten in de balans, resultatenrekening en
+kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+Immateriële en materiële vaste activa
+
+De immateriële en materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs
+onder aftrek van cumulatieve afschrijvingen en cumulatieve bijzondere waardeverminderingen. De
+afschrijvingstermijnen van immateriële en materiële vaste activa zijn gebaseerd op de verwachte
+gebruiksduur van het vast actief. Hierbij wordt rekening gehouden met een eventuele restwaarde.
+
+Voor zover subsidies of daaraan gelijk te stellen vergoedingen zijn ontvangen als eenmalige bijdrage in
+de afschrijvingskosten, zijn deze in mindering gebracht op de investeringen/zijn deze als
+vooruitontvangen bedrag onder de overlopende passiva opgenomen.
+
+Financiële vaste activa
+
+De overige financiële vaste activa hebben betrekking op langlopende leningen en worden bij de eerste
+verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs, welke gelijk zijn aan de nominale waarde, onder aftrek van noodzakelijk geachte
+voorzieningen.
+
+Vorderingen
+
+Vorderingen worden bij de eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs, welke gelijk zijn aan de nominale waarde, onder aftrek
+van noodzakelijk geachte voorzieningen. De voorziening is bepaald volgens de statische methode.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden.
+
+5.2.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+De baten en lasten worden toegerekend aan de periode waarop deze betrekking hebben, uitgaande van
+historische kosten. Verliezen worden verantwoord als deze voorzienbaar zijn; baten worden verantwoord
+als deze gerealiseerd zijn.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar
+zijn geconstateerd, worden aan dit boekjaar toegerekend.
+
+Overige bedrijfskosten _
+De overige bedrijfskosten worden berekend op basis van verkrijgingsprijzen.
+
+| audit
+844 BIO AH EPE
+Ei SPITT
+
+hemadse.nl
+Pagina 10 en
+
+Thuiszorg Beers B.V.
+
+5.2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Pensioenen
+
+Thuiszorg Beers B.V. heeft voor haar werknemers een toegezegd-pensioenregeling. Hiervoor in
+aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen
+welke afhankelijk is van leeftijd, salaris en dienstjaren. De regeling is ondergebracht bij het
+bedrijfstakpensioenfonds Pensioenfonds Zorg en Welzijn. Thuiszorg Beers B.V. heeft geen verplichting
+tot het voldoen van aanvullende bijdragen in geval van een tekort bij Pensioenfonds Zorg en Welzijn,
+anders dan het effect van hogere toekomstige premies. Thuiszorg Beers B.V. heeft daarom de
+pensioenregeling verwerkt als een toegezegde-bijdrage-regeling en heeft alleen de verschuldigde
+premies tot en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+Belastingen
+
+De vennootschapsbelasting is berekend tegen nominale tarieven, rekening houdend met niet (volledig)
+tot het fiscale resultaat behorende posten. Thuiszorg Beers B.V. behoort tot een fiscale eenheid voor de
+vennootschapsbelasting waarbij de moeder Beers Holding B.V. de enige zelfstandige belastingplichtige
+onderneming is. Binnen de fiscale eenheid vindt verrekening van de vennootschapsbelasting als volgt
+plaats: de moeder rekent met de dochter af alsof deze zelfstandig belastingplichtig is.
+
+5.2.4.4 Grondslagen van segmentering
+
+In de jaarrekening wordt overeenkomstig de Richtlijn Zorginstellingen een segmentatie van de
+resultatenrekening gemaakt in de volgende segmenten: Wiz, ZVW, WMO en Overig.
+
+Bij de verdeling van de resultatenrekening per bedrijfssegment is aangesloten op de activiteiten van het
+bedrijfsproces. De verdeling van indirecte kosten over de te onderscheiden zorgsoorten geschiedt op
+basis van de volgende uitgangspunten:
+
+* indirecte personeelskosten: verdeling op basis van omzet;
+* indirecte materiële kosten: verdeling op basis van omzet;
+* indirecte overige kosten: verdeling op basis van omzet.
+
+Pagina 11
+
+
+Thuiszorg Beers B.V.
+
+5.2.5 TOELICHTING OP DE BALANS
+ACTIVA
+1. Materiële vaste activa
+
+De specificatie is als volgt:
+
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting
+
+Totaal materiële vaste activa
+
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven:
+
+Boekwaarde per 1 januari
+Bij: investeringen
+
+Af: afschrijvingen
+
+Af: desinvesteringen
+
+Boekwaarde per 31 december
+
+Aanschafwaarde
+Cumulatieve afschrijvingen
+
+31-dec-2020 31-dec-2019
+€ €
+78.720 144.476
+78.720 144.476
+2020 2019
+
+€ €
+144.476 235.853
+8.901 9.770
+36.836 38.754
+37.821 62.393
+78.720 144.476
+333.557 513.761
+254.837 369.285
+78.720 144.476
+
+Toelichting:
+
+De materiële vaste activa betreffen niet WTZi-WMG gefinancierde materiële vaste activa. Derhalve is er geen
+
+nadere specificatie van het verloop van de materi
+bedraagt 20%.
+
+êle vaste activa opgenomen. Het afschrijvingspercentage
+
+2. Financiële vaste activa
+
+De specificatie is als volgt:
+
+Overige vorderingen
+
+Vorderingen op groepsmaatschappijen
+
+Totaal financiële vaste activa
+
+Het verloop van de financiële vaste activa is als volgt:
+
+Boekwaarde per 1 januari 2020
+Bij: verstrekte lening
+
+Af: ontvangen aflossing leningen
+Mutaties boekjaar
+
+Boekwaarde per 31 december 2020
+
+31-dec-2020 31-dec-2019
+€ €
+
+15.928 0
+1.415.288 1.415.288
+1.431.216 1.415.288
+
+€
+
+1.415.288
+
+15.928
+
+0
+
+15.928
+
+1.431.216
+
+Pagina 12
+
+| audit
+
+n 844 B180 AH EPE
+
+ie red
+Mhmabe.nl
+
+Thuiszorg Beers B.V.
+
+5.2.5 TOELICHTING OP DE BALANS
+
+Toelichting:
+Overige vorderingen
+
+zijn niet gesteld.
+
+(2019: 1,8).
+Aflossingsverplichtingen
+
+Lening Il, oorspronkelijk
+(2019: 1,8).
+Aflossingsverplichtingen
+
+Lening III, oorspronkelijk
+(2019: 1,8).
+Aflossingsverplichtingen
+
+(2019: 1,8).
+Aflossingsverplichtingen
+
+Lening I, oorspronkelijk groot € 15.928, is verstrekt aan een werknemer op 28 december 2020. Het
+rentepercentage bedraagt 3,9 (2019: geen).
+
+Aflossing plus rente worden maandelijks achteraf in gelijke bedragen betaald (annuïteiten lening). Zekerheden
+
+Vorderingen op groepsmaatschappijen
+Lening I, oorspronkelijk groot € 250.000, is verstrekt op 25 november 2010. Het rentepercentage bedraagt 1,8
+
+Lening IV, oorspronkelijk groot € 755.000, is verstrekt op 27 maart 2017. Het rentepercentage bedraagt 1,8
+
+zijn niet overeengekomen. Zekerheden zijn niet gesteld.
+groot € 260.000, is verstrekt op 18 september 2012. Het rentepercentage bedraagt 1,8
+
+zijn niet overeengekomen. Zekerheden zijn niet gesteld.
+groot € 300.000, is verstrekt op 27 december 2012. Het rentepercentage bedraagt 1,8
+
+zijn niet overeengekomen. Zekerheden zijn niet gesteld.
+
+zijn niet overeengekomen. Zekerheden zijn niet gesteld.
+
+3. Vorderingen uit hoofde van financieringstekort
+
+Saldo per 1 januari
+
+Financieringsverschil boekjaar
+Correcties voorgaande jaren
+
+Betalingen/ontvangsten
+
+Subtotaal mutatie boekjaar
+
+Saldo per 31 december
+
+Stadium van vaststelling
+
+a= interne berekening
+
+t/m 2017 2018 2019 2020 totaal
+€ € € € €
+0 0 116.817 0 116.817
+0 0 0 179.075 179.075
+0 0 0 7.258 7.258
+0 0 -116.817 -1.258 -124.075
+0 0 -116.817 179.075 62.258
+0 0 0 179.075 179.075
+
+(per erkenning):
+
+b= overeenstemming met zorgverzekeraars
+c= definitieve vaststelling NZa
+
+Waarvan gepresenteerd
+- vorderingen uit hoofde
+
+31-dec-2020 31-dec-2019
+
+€ €
+als:
+
+van financieringstekort 179.075 116.817
+179.075 116.817
+
+| audit
+
+844 BI8O AH EPE
+Tôh OSZB - 877377
+„shmabe.nl
+
+Pagina 13
+
+Thuiszorg Beers B.V.
+
+5.2.5 TOELICHTING OP DE BALANS
+
+Specificatie financieringsverschil in het boekjaar
+
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies)
+Af: vergoedingen ter dekking van het wettelijk budget
+
+Totaal financieringsverschil
+
+4. Debiteuren en overige vorderingen
+
+De specificatie is als volgt:
+
+Vorderingen op debiteuren
+
+Vorderingen op groepsmaatschappijen
+
+Vooruitbetaalde bedragen:
+
+Verzekeringspremies
+
+Nog te ontvangen bedragen:
+
+Te factureren omzet ZVW, huishoudelijke verzorging, PGB en particulieren
+Diversen
+
+Totaal vorderingen en overlopende activa
+
+2020 2019
+
+€ €
+1.044.157 302.978
+865.082 186.161
+179.075 116.817
+31-dec-2020 31-dec-2019
+€ €
+
+45.013 227.758
+13.189 0
+3.389 0)
+112.332 59.054
+17.890 10.076
+191.813 296.888
+
+Toelichting:
+
+Het rentepercentage van de vorderingen op groepsmaatschappijen bedraagt 2
+
+verstrekt. Aflossingsverplichtingen zijn niet overeengekomen.
+
+De voorziening, die in aftrek op de vorderingen is gebracht, bedraagt € 21.596.
+
+(2019: 2). Zekerheden zijn niet
+
+Onder de vorderingen en overlopende activa zijn geen bedragen begrepen met een looptijd langer dan één jaar.
+
+5. Liquide middelen
+
+De specificatie is als volgt:
+
+Bankrekeningen
+
+Totaal liquide middelen
+
+PASSIVA
+
+6. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Geplaatst kapitaal
+Algemene reserve
+
+Totaal eigen vermogen
+
+Pagina 14
+
+31-dec-2020 31-dec-2019
+€ €
+
+255.828 30.056
+255.828 30.056
+31-dec-2020 31-dec-2019
+€ €
+
+18.000 18.000
+1.468.618 1.536.468
+1.486.618 1.554.468
+
+
+Thuiszorg Beers B.V.
+
+5.2.5 TOELICHTING OP DE BALANS
+Geplaatst kapitaal
+
+Het verloop is als volgt weer te geven:
+
+Geplaatst kapitaal
+
+Algemene reserve
+Het verloop is als volgt weer te geven:
+
+Algemene reserve:
+Algemene reserve
+
+Totaal algemene reserve
+
+7. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Crediteuren
+
+Schulden aan groepsmaatschappijen
+Loonheffing en premies sociale verzekeringen
+Schulden terzake pensioenen
+
+Nog te betalen salarissen
+
+Vakantiegeld
+
+Vakantiedagen
+
+Eindejaarsuitkering
+
+Overige schulden:
+Te betalen dividend
+Afrekening subsidie
+
+Nog te betalen kosten:
+Accountantskosten
+Financiële dienstverlening
+Werk derden
+
+Diversen
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-2020 bestemming mutaties _31-dec-2020
+€ € € €
+
+18.000 0 0 18.000
+18.000 0) 0 18.000
+Saldo per Resultaat- Overige Saldo per
+1-jan-2020 bestemming mutaties _31-dec-2020
+€ € € €
+1.536.468 -67.850 0 1.468.618
+1.536.468 -67.850 0 1.468.618
+31-dec-2020 31-dec-2019
+
+€ €
+
+3.277 11.560
+
+0 9.836
+
+149.651 41.939
+
+46.558 27.887
+
+152.489 82.341
+
+69.378 61.778
+
+143.110 124.313
+
+12.928 10.098
+
+0 36.981
+
+10.464 0)
+
+31.135 25.696
+
+19.730 15.809
+
+10.814 319
+
+500 500
+
+650.034 449.057
+
+Totaal kortlopende schulden en overlopende passiva
+
+Pagina 15
+
+
+Thuiszorg Beers B.V.
+
+5.2.5 TOELICHTING OP DE BALANS
+8. Financiële instrumenten
+
+Algemeen
+
+De instelling maakt in de normale bedrijfsuitoefening gebruik van uiteenlopende financiële instrumenten die de
+instelling blootstellen aan markt- en/of kredietrisico's. Deze betreffen financiële instrumenten die in de balans
+zijn opgenomen.
+
+De instelling handelt niet in deze financiële derivaten en heeft procedures en gedragslijnen om de omvang van
+het kredietrisico bij elke tegenpartij of markt te beperken. Bij het niet nakomen door een tegenpartij van aan de
+instellingen verschuldigde betalingen blijven eventuele daaruit voortvloeiende verliezen beperkt tot de
+marktwaarde van de desbetreffende instrumenten. De contractwaarde of fictieve hoofdsommen van de
+financiële instrumenten zijn slechts een indicatie van de mate waarin van dergelijke financiële instrumenten
+gebruik wordt gemaakt en niet van het bedrag van de krediet- of marktrisico's.
+
+Kredietrisico
+
+De vorderingen uit hoofde van handelsdebiteuren zijn voor circa 68% geconcentreerd bij drie grote
+verzekeraars. Het maximale bedrag aan kredietrisico bedraagt het volledige debiteurenbedrag.
+
+De vorderingen uit hoofde van te factureren omzet zijn voor circa 20% geconcentreerd bij drie grote
+verzekeraars. Het maximale bedrag aan kredietrisico bedraagt het volledige te vorderen bedrag.
+
+Voor de kredietrisico’s inzake de vorderingen op deelnemingen en de overige vorderingen wordt verwezen naar
+2. Financiële vaste activa en 4. Debiteuren en overige vorderingen.
+
+Renterisico en kasstroomrisico
+
+Het renterisico is beperkt tot eventuele veranderingen in de marktwaarde van opgenomen en uitgegeven
+leningen. Bij deze leningen is sprake van een vast rentepercentage over de gehele looptijd. De leningen worden
+aangehouden tot het einde van de looptijd. De instelling heeft derhalve als beleid om geen afgeleide financiële
+instrumenten te gebruiken om (tussentijdse) rentefluctuaties te beheersen.
+
+Reële waarde
+De reële waarde van de meeste in de balans verantwoorde financiële instrumenten, waaronder vorderingen,
+effecten, liquide middelen en kortlopende schulden, benadert de boekwaarde ervan.
+
+9. Niet in de balans opgenomen activa en verplichtingen
+
+Fiscale eenheid
+
+De vennootschap vormt tezamen met Beers Holding B.V., VAB Apeldoorn B.V. en Wijkzorg Apeldoorn B.V. een
+fiscale eenheid voor de vennootschapsbelasting. Dit betekent dat de vennootschappen binnen de fiscale
+eenheid hoofdelijk aansprakelijk zijn voor de totale schulden aan vennootschapsbelasting.
+
+Mede hoofdelijke aansprakelijkheid
+De vennootschap is mede hoofdelijk aansprakelijk voor de hypothecaire leningen en kredietfaciliteit in rekening-
+courant, in totaal ad € 2.500.000, verstrekt aan groepsmaatschappij VAB Apeldoorn B.V.
+
+Huuverplichtingen
+Het bedrag van met derden aangegane huurverplichtingen van onroerende zaken bedraagt ongeveer € 94.000
+per jaar en wordt jaarlijks geïndexeerd. De huurovereenkomsten zijn aangegaan voor onbepaalde duur.
+
+Pagina 16
+
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+
+5.2.6.1 GESEGMENTEERDE RESULTATENREKENING OVER 2020
+
+SEGMENT Wiz
+
+BEDRIJFSOPBRENGSTEN:
+
+Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+Som der bedrijfsopbrengsten
+
+BEDRIJFSLASTEN:
+
+Personeelskosten
+
+Afschrijvingen op immateriële en materiële vaste activa
+Bijzondere waardeverminderingen van vaste activa
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+BEDRIJFSRESULTAAT
+
+Financiële baten en lasten
+
+RESULTAAT VOOR BELASTINGEN
+
+Belastingen
+
+RESULTAAT BOEKJAAR
+
+RESULTAATBESTEMMING
+
+Het resultaat is als volgt verdeeld:
+
+Toevoeging/(onttrekking):
+Dividenduitkering aan aandeelhouder
+Algemene reserve
+
+Pagina 17
+
+2020 2019
+
+€ €
+1.051.415 333.103
+1.051.415 333.103
+928.380 295.971
+14.041 5.505
+-4.050 0
+152.404 50.411
+1.090.775 351.887
+-39.360 -18.784
+8.983 3.303
+-30.377 -15.481
+-4.513 -2.495
+-25.864 -12.986
+2020 2019
+
+€ €
+
+0 5.253
+
+-25.864 -18.239
+-25.864 -12.986
+
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+5.2.6.1 GESEGMENTEERDE RESULTATENREKENING OVER 2020
+
+SEGMENT Zvw
+
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+Subsidies (exclusief Wmo en Jeugdzorg)
+
+Som der bedrijfsopbrengsten
+
+BEDRIJFSLASTEN:
+
+Personeelskosten
+
+Afschrijvingen op immateriële en materiële vaste activa
+Bijzondere Wwaardeverminderingen van vaste activa
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+BEDRIJFSRESULTAAT
+
+Financiële baten en lasten
+
+RESULTAAT VOOR BELASTINGEN
+
+Belastingen
+
+RESULTAAT BOEKJAAR
+
+RESULTAATBESTEMMING
+
+Het resultaat is als volgt verdeeld:
+
+Toevoeging/(onttrekking):
+Dividenduitkering aan aandeelhouder
+Algemene reserve
+
+Pagina 18
+
+2020 2019
+
+€ €
+998.677 1.338.409
+156.910 29.741
+1.155.587 1.368.150
+1.020.362 1.215.637
+15.433 22.612
+-4,452 0
+167.503 207.053
+1.198.846 1.445.302
+-43.259 -J1A52
+9.873 13.566
+-33.386 -63.586
+-4.960 -10.247
+-28.426 -53.339
+2020 2019
+
+€ €
+
+0 21.578
+
+-28.426 -14.917
+-28.426 -53.339
+
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+5.2.6.1 GESEGMENTEERDE RESULTATENREKENING OVER 2020
+
+SEGMENT WMO
+
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+Som der bedrijfsopbrengsten
+
+Personeelskosten
+
+Afschrijvingen op immateriële en materiële vaste activa
+Bijzondere waardeverminderingen van vaste activa
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+BEDRIJFSRESULTAAT
+
+Financiële baten en lasten
+
+RESULTAAT VOOR BELASTINGEN
+
+Belastingen
+
+RESULTAAT BOEKJAAR
+
+RESULTAATBESTEMMING
+
+Het resultaat is als volgt verdeeld:
+
+Toevoeging/(onttrekking):
+Dividenduitkering aan aandeelhouder
+Algemene reserve
+
+Pagina 19
+
+2020 2019
+
+€ €
+535.368 608.357
+535.368 608.357
+472.720 540.541
+7.150 10.055
+-2.062 0
+77.602 92.068
+555.410 642.664
+-20.042 -34.307
+4.574 6.032
+-15.468 -28.275
+-2.298 -4.556
+-13.170 -23.719
+2020 2019
+
+€ €
+
+0 9.595
+-13.170 -33.314
+-13.170 -23.719
+
+| audit
+
+844 -BIBO AH EPE
+-BIT8FT
+vhenahe.nt
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+5.2.6.1 GESEGMENTEERDE RESULTATENREKENING OVER 2020
+
+SEGMENT OVERIG
+
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+Som der bedrijfsopbrengsten
+
+BEDRIJFSLASTEN:
+
+Personeelskosten
+
+Afschrijvingen op immateriële en materiële vaste activa
+Bijzondere waardeverminderingen van vaste activa
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+BEDRIJFSRESULTAAT
+
+Financiële baten en lasten
+
+RESULTAAT VOOR BELASTINGEN
+
+Belastingen
+
+RESULTAAT BOEKJAAR
+
+RESULTAATBESTEMMING
+
+Het resultaat is als volgt verdeeld:
+
+Toevoeging/(onttrekking):
+Dividenduitkering aan aandeelhouder
+Algemene reserve
+
+Pagina 20
+
+2020 2019
+€ €
+15.895 35.206
+15.895 35.206
+14.036 31.281
+212 582
+-62 0
+2.304 5.328
+16.490 37.191
+-595 -1.985
+137 350
+-458 -1.635
+-68 -264
+-390 -1.371
+2020 2019
+€ €
+
+0 555
+
+-390 -1.926
+-390 -1.371
+
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+
+5.2.6.2 AANSLUITING TOTAAL RESULTAAT MET RESULTAAT SEGMENTEN
+
+2020 2019
+€ €
+
+Resultaat volgens gesegmenteerde resultatenrekeningen:
+SEGMENT Wiz -25.864 -12.986
+SEGMENT Zvw -28.426 -53.339
+SEGMENT WMO -13.170 -23.719
+SEGMENT OVERIG -390 -1.371
+-67.850 -91.415
+Resultaat volgens resultatenrekening -67.850 -91.415
+
+Pagina 21
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+
+BATEN
+
+10. Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+Opbrengsten zorgverzekeringswet 998.677 1.338.409
+Wettelijk budget voor aanvaardbare kosten Wiz 1.051.415 333.103
+Opbrengsten Wmo 535.368 608.357
+Overige zorgprestaties 15.895 35.206
+Totaal 2.601.355 2.315.075
+Toelichting:
+
+In de post ‘Wettelijk budget voor aanvaardbare kosten Wiz' is een bedrag van € 62.309 begrepen inzake
+kwaliteitsbudget, een bedrag van € 30.770 inzake Extra kosten SARS-CoV-2 en een bedrag van € 54.321 inzake
+Doorlopende kosten SARS-CoV-2.”
+
+11. Subsidies (exclusief Wmo en Jeugdzorg)
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+Zorgbonus inclusief eindheffing 140.736 0
+Overige subsidies, waaronder loonkostensubsidies en EU-subsidies 16.174 29.741
+Totaal 156.910 29.741
+LASTEN
+
+12. Personeelskosten
+
+De specificatie is als volgt: 2020 2019
+€ €
+Lonen en salarissen 1.684.969 1.592.919
+Sociale lasten 312.110 249.174
+Pensioenpremies 112.048 105.894
+Andere personeelskosten:
+Zorgbonus inclusief eindheffing 140.736 0
+Werk derden 83.945 34.344
+Studiekosten 11.235 8.614
+Reiskostenvergoeding 53.526 61.054
+Overige personeelskosten 36.929 31.431
+Totaal personeelskosten 2.435.498 2.083.430
+
+Pagina 22
+
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+
+2020 2019
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+Wlz 17,2 6,2
+ZVW 18,9 25,5
+WMO 8,7 11,3
+Overig 0,2 0,7
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 45,0 43,7
+Toelichting:
+Verdeling van het aantal personeelseden (in FTE's) vindt plaats op basis van de omzet.
+13. Afschrijvingen op immateriële en materiële vaste activa
+De specificatie is als volgt: 2020 2019
+€ €
+Overige afschrijvingen:
+- materiële vaste activa 36.836 38.754
+Totaal afschrijvingen 36.836 38.754
+14. Bijzondere waardeverminderingen van vaste activa
+De specificatie is als volgt: 2020 2019
+€ €
+Bijzondere waardeverminderingen van:
+- materiële vaste activa (resultaat verkoop van materiële vaste activa) -10.626 0
+Totaal -10.626 0
+15. Overige bedrijfskosten
+De specificatie is als volgt: 2020 2019
+€ €
+Algemene kosten 237.517 237.874
+Patiënt- en bewonersgebonden kosten 34.733 6.215
+Onderhoud en energiekosten:
+- Onderhoud 15.042 13.857
+- Energiekosten 19.500 6.276
+Subtotaal 34.542 20.133
+Huur en leasing 93.021 90.638
+Totaal overige bedrijfskosten 399.813 354.860
+
+Pagina 23
+
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+
+16. Financiële baten en lasten
+
+De specificatie is als volgt: 2020 2019
+€ €
+Rentebaten groepsmaatschappijen 25.256 25.011
+Subtotaal financiële baten 25.256 25.011
+Rentelasten
+Rentelasten groepsmaatschappijen -650 -626
+Overige financiële lasten -1.039 -1.134
+Subtotaal financiële lasten -1.689 -1.760
+Totaal financiële baten en lasten 23.567 23.251
+
+17. Belastingen
+
+De specificatie is als volgt: 2020 2019
+
+€ €
+Vennootschapsbelasting -11.839 -17.562
+Totaal belastingen -11.839 -17.562
+
+18. Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+De bezoldiging van de functionarissen die over 2020 in het kader van de WNT verantwoord worden, is als volgt:
+
+G. Veeneman M.R.M. Jansen - M.Th.E. Beers-
+
+AA Spoelder Kronenberg
+Lid raad van Lid raad van
+1 Functionaris (functienaam) toezicht toezicht Bestuurder
+2 In dienst/functie vanaf (datum) 1-7-2015 1-6-2019 19-5-2003
+3 In dienst/functie tot (datum) heden heden heden
+4 _Deeltijdfactor (percentage) N.v.t. N.v.t. 100%
+5 _ Bruto-inkomen (incl. salaris, vakantiegeld,
+eindejaarsuitkering en andere vaste toelagen) 6) 0 111.000
+6 _Winstdelingen en bonusbetalingen 0 0 0
+7 _Totaal beloning (5 en 6) 0 0 111.000
+8 _Bruto-onkostenvergoeding (vast en variabel) 1.464 0 0
+9 _ Voorzieningen ten behoeve van beloningen 0 0 0
+10 Uitkeringen in verband met beëindiging van
+het dienstverband (in €) fe) 6) e)
+Totaal bezoldiging in kader van de WNT (7 tm. 10) 1.464 0 111.000
+11 Totaal beloning 2019 862 0) 109.124
+12 Bezoldigingsklasse zorginstelling is | met maximum van 11.100 11.100 111.000
+
+Verplicht toevoegen eigennaam van gewezen topfunctionarissen (dat wil zeggen voormalige
+bestuurders of leden van de raden van toezicht):
+
+Voormalige bestuurder: J.W. Beers (uit functie op 01-08-2012)
+
+Voormalig lid raad van toezicht: J. Rispens - Postma (uit functie op 01-06-2019)
+
+Pagina 24
+
+Thuiszorg Beers B.V.
+
+5.2.6 TOELICHTING OP DE RESULTATENREKENING
+
+19. Honoraria accountant 2020 2019
+€ €
+
+De honoraria van de accountant over 2020 zijn als volgt:
+1 Beoordeling C.d. controle van de jaarrekening 16.339 20.951
+2 Overige controlewerkzaamheden (w.o. Regeling AO/IC en Nacalculatie) 19.360 5.000
+3 Fiscale advisering 1.168 1.189
+4 Niet-controlediensten 24.082 29.152
+Totaal honoraria accountant 60.949 56.292
+
+Vaststelling en goedkeuring jaarrekening
+Het bestuur van Thuiszorg Beers B.V. heeft de jaarrekening 2020 opgemaakt en vastgesteld in de vergadering van
+En 2021.
+
+Resultaatbestemming
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.2.2.
+
+Gebeurtenissen na balansdatum
+
+maatregelen getroffen moeten worden om deze situatie het hoofd te bieden.
+
+Ondertekening door bestuurders en toezichthouders
+
+WES
+Bestuurder (huidig): Beers Holding B.V. Commissaris Raad van Toezicht:
+(namens deze: mevrouw M.Th.E. Beers-Kronenberg) mevrouw M.R.M. Jansen - Spoelder
+
+Commissaris Raad van Toezicht: /
+de heer G. Veeneman AA
+
+Pagina 25
+
+
+Thuiszorg Beers B.V.
+
+5.3 OVERIGE GEGEVENS
+
+| audit
+
+UB 344 - BIB AH EPE
+EL -PTBF7
+pe ahmatse.nt
+
+Thuiszorg Beers B.v.
+
+5.3 OVERIGE GEGEVENS
+5.3.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 35, dat het behaalde resultaat ter vrije beschikking staat van
+de algemene vergadering.
+
+| audit
+344 -BI8G AH EPE
+„rarr
+
+vhmate.nl
+Pagina 27

@@ -1,0 +1,102 @@
+name: Honoraria bijvullen
+
+# Vult de dataset-velden (honoraria, wisselvlag, omzet, subsector, rechtsvorm)
+# bij op opdrachten die al in de database staan — voor élk boekjaar waarvan een
+# jaardataset bestaat, niet alleen het lijstjaar van de zorgroute.
+#
+# Waarom dit een eigen knop is. "Zorgdata laden" draait vul_extra_velden alleen
+# voor zijn lijstjaar, en dat is 2023; de honoraria van 2022 (leesbaar sinds de
+# koprijreparatie van 21-8-2026) kwamen daardoor nergens binnen. Dit werk kost
+# seconden — het is een handvol Supabase-verzoeken, geen archief en geen pdf's —
+# dus het kan zorgeloos in "Alles verversen" meedraaien.
+#
+# 2024 staat sinds de kolominspectie van 22-8-2026 in de standaardlijst: de
+# vierdelige export past op de bestaande veldpatronen (1.047 organisaties, 108
+# controlehonoraria, 960 gerapporteerde oordelen). Zie adapters/digimv.md.
+# 2021 en 2020 staan sinds 1-9-2026 in de standaardlijst: die datasets bleken
+# gewoon het moderne formaat te dragen (877 en 881 controlehonoraria plus
+# wisselvlag en verklaringsdatum) — de aanname "oud formaat" gold alleen 2019.
+# 2025 staat er sinds 22-9-2026 bij: de vóórlopige dataset is op 3-8-2026
+# gepubliceerd (drie delen, 45 MB). Juist dat boekjaar telt, want de voorpagina
+# opent erop.
+on:
+  workflow_dispatch:
+    inputs:
+      boekjaren:
+        description: "Datasetjaren, komma's ertussen"
+        required: false
+        default: "alle"
+  workflow_call:
+    inputs:
+      boekjaren:
+        type: string
+        required: false
+        default: "alle"
+  # Draait vanzelf zodra de vuller of deze workflow zelf op main landt —
+  # zelfde patroon als de andere ladingen; een push-event heeft geen inputs,
+  # dus de stap hieronder valt dan terug op de standaardjaren.
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/vul_extra_velden.py"
+      # Ook de adapter: daar staat de downloadtabel, dus een nieuwe jaargang
+      # landt daar en hoort meteen te worden bijgevuld.
+      - "pipeline/adapters/digimv_dataset.py"
+      - ".github/workflows/honoraria.yml"
+
+jobs:
+  bijvullen:
+    name: Datasetvelden bijvullen
+    runs-on: ubuntu-latest
+    # Vijf jaargangen, elk met een download van tientallen MB bij een koude
+    # cache; de eerste run met 2021+2020 erbij haalde de oude grens van 30 net
+    # niet ruim genoeg.
+    # Gemeten 22-9-2026: 2020 t/m 2024 kostte 41 minuten bij een koude cache,
+    # en 2025 is er als driedelige export van 45 MB bij gekomen — lokaal een
+    # kwartier ontleden. De oude grens van 45 zou dat net afkappen, en dan
+    # valt precies het nieuwste boekjaar af.
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      # De jaardatasets bewaren tussen runs: de .ods van één jaargang is 16 MB
+      # en verandert nooit meer. Save op always(), zodat ook een mislukte run
+      # zijn download nalaat. Zelfde patroon als transparantiedata.yml.
+      # De sleutel volgt de lezer. Met een vaste sleutel ("jaardatasets-v1")
+      # werd de cache na de eerste keer nooit meer bijgewerkt: een cache met een
+      # bestaande sleutel slaat GitHub niet opnieuw op. Elke wijziging aan de
+      # csv-kop liet zo élke volgende run alle jaargangen opnieuw ontleden. Nu
+      # krijgt een nieuwe lezer een nieuwe sleutel, en de restore-key haalt de
+      # gedownloade .ods-bestanden uit de vorige op.
+      - uses: actions/cache/restore@v6
+        with:
+          path: pipeline/.cache
+          key: jaardatasets-${{ hashFiles('pipeline/adapters/digimv_dataset.py') }}
+          restore-keys: |
+            jaardatasets-
+
+      - name: Datasetvelden bijvullen
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # "alle" = elke jaargang uit digimv_dataset.DATASET_URL. Hier stond
+          # de lijst met jaartallen nóg een keer, naast de twee invoervelden,
+          # en juist deze werd vergeten toen 2025 erbij kwam: de run daarna
+          # stopte groen bij 2024. Eén lijst, in de downloadtabel.
+          BOEKJAREN: ${{ inputs.boekjaren || 'alle' }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Supabase-secrets ontbreken — zie docs/setup-supabase.md."
+            exit 1
+          fi
+          python3 pipeline/vul_extra_velden.py --boekjaren "$BOEKJAREN"
+
+      - uses: actions/cache/save@v6
+        if: always()
+        with:
+          path: pipeline/.cache
+          key: jaardatasets-${{ hashFiles('pipeline/adapters/digimv_dataset.py') }}

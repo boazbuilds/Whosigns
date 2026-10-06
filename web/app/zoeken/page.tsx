@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { after } from "next/server";
 import { alleOrganisaties, zoekKantoren, zoekOrganisaties } from "@/lib/db";
 import {
   aantalKantoren,
@@ -8,7 +9,8 @@ import {
   organisatiePad,
   sectorPad,
 } from "@/lib/paden";
-import { Doorklik, Foutmelding, Leeg } from "@/components/onderdelen";
+import { Doorklik, Foutmelding, Leeg, Vergunning } from "@/components/onderdelen";
+import { legZoekopdrachtVast } from "@/lib/zoeklog";
 
 export const metadata: Metadata = { title: "Zoeken" };
 
@@ -63,6 +65,13 @@ export default async function Zoekpagina({ searchParams }: Props) {
   const kantoren = kantoorTreffers.rijen;
   const totaal = orgTreffers.totaal + kantoorTreffers.totaal;
   const afgekapt = orgTreffers.afgekapt || kantoorTreffers.afgekapt;
+
+  // Meeschrijven wát er gezocht is en hoeveel het opleverde. Nul treffers is
+  // het interessante geval: dan zoekt iemand een organisatie die er nog niet
+  // in staat, en dat is een aanwijzing welke bron er als volgende bij moet.
+  // Na de zoekopdracht, zodat het antwoord er al is; `after` laat het pas
+  // lopen als de pagina verstuurd is, dus de bezoeker wacht er niet op.
+  after(() => legZoekopdrachtVast(term, totaal));
 
   return (
     <>
@@ -139,12 +148,12 @@ export default async function Zoekpagina({ searchParams }: Props) {
                       <Link href={kantoorPad(kantoor)}>{kantoor.naam}</Link>
                     </td>
                     <td className="getal zacht">{kantoor.afm_nummer ?? "—"}</td>
+                    {/* Hetzelfde label als op /kantoren en de kantoorpagina
+                        (vergunningSoort in lib/paden.ts). Op 5-10-2026 had elk
+                        van de drie nog een eigen regel, en zeiden ze over
+                        dezelfde kantoren "geen", "geen Wta-vergunning" en "—". */}
                     <td>
-                      {kantoor.oob_vergunning ? (
-                        <span className="label label-oob">OOB</span>
-                      ) : (
-                        <span className="zacht klein">Wta</span>
-                      )}
+                      <Vergunning kantoor={kantoor} className="zacht klein" />
                     </td>
                   </tr>
                 ))}
@@ -176,7 +185,6 @@ export default async function Zoekpagina({ searchParams }: Props) {
             }),
           ),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
           { naar: "/", tekst: "Naar het overzicht" },
         ]}
       />

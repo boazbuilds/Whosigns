@@ -1,6 +1,10 @@
 -- WhoSigns — kernschema v1
 -- Eén kernmodel waar alle bron-adapters naartoe schrijven (docs/concept.md §4–5).
--- Guardrail (AVG): uitsluitend accountantsORGANISATIES, nooit natuurlijke personen.
+-- Guardrail (AVG): accountantsORGANISATIES, plus sinds 20-8-2026 de tekenend
+-- accountant als de naam uit een openbare bron komt. Andere natuurlijke personen
+-- niet. Zie docs/concept.md §9 voor de grondslag. (Alleen dit commentaar is
+-- bijgewerkt; dit bestand staat in de overslaan-lijst en draait niet opnieuw.
+-- Een regel laten staan die het project niet meer volgt is erger.)
 
 -- Referentietabel accountantsorganisaties (seed: AFM-vergunningenregister, Fase 0).
 create table kantoren (

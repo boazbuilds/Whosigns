@@ -1,0 +1,888 @@
+# whosigns-ocr v1 grootte=2541147 dpi=300 paginas=20
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+3 FINANCIËLE POSITIE
+
+Uit de balans is de volgende financieringsstructuur af te leiden:
+
+Beschikbaar op lange termijn:
+Eigen vermogen
+
+Waarvan vastgelegd op lange
+termijn:
+
+Materiële vaste activa
+
+Werkkapitaal
+
+Dit bedrag is als volgt aangewend:
+Voorraden
+
+Vorderingen
+
+Liquide middelen
+
+Af: kortlopende schulden
+
+Werkkapitaal
+
+-4-
+
+31-12-2024 31-12-2023
+€ € € €
+192.503 206.582
+45.472 43.574
+147.031 163.008
+22.450 18.700
+359.936 425.167
+110.296 75.747
+492.682 519.614
+345.651 356.606
+147.031 163.008
+
+auren
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+4 FISCALE POSITIE
+
+4.1 Fiscale eenheid
+
+De Loods Zorg B.V. vormt tezamen met Menges Beheer B.V. een fiscale eenheid voor de
+vennootschapsbelasting.
+
+Aangezien de vennootschap deel uitmaakt van de fiscale eenheid met Menges Beheer B.V.
+
+is zij niet zelfstandig belastingplichtig voor de vennootschapsbelasting. Echter zal de
+vennootschapsbelasting worden berekend alsof de vennootschap zelfstandig belastingplichtig zou zijn. De
+eventuele verschuldigde vennootschapsbelasting wordt in rekening-courant met Menges Beheer B.V.
+verrekend. Indien er sprake is van actieve/passieve belastinglatenties zal de vennootschap deze verwerken
+in haar balans (als voorziening jegens moeder)
+
+4.2 Berekening belastbaar bedrag 2024
+
+Het belastbaar bedrag voor de vennootschapsbelasting over 2024 is als volgt berekend:
+
+2024
+€ €
+
+Resultaat voor belastingen (14.079)
+Fiscale verschillen:
+Niet aftrekbare kosten (5.100)
+Investeringsaftrek 3.279
+
+(1.821)
+Belastbaar bedrag 2024 (15.900)
+
+Over het belastbare bedrag is geen vennootschapsbelasting verschuldigd.
+
+auren
+
+-5-
+
+JAARREKENING
+
+(auren
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+1 BALANS PER 31 DECEMBER 2024
+(na voorstel resultaatbestemming)
+
+ACTIVA
+
+VASTE ACTIVA
+
+Materiële vaste activa
+
+Inventaris
+Vervoermiddelen
+
+VLOTTENDE ACTIVA
+Voorraden
+
+Vorderingen
+
+Handelsdebiteuren
+Vorderingen op verbonden
+maatschappijen
+
+Overige vorderingen en overlopende
+
+activa
+
+Liquide middelen
+
+(3)
+
+31 december 2024
+
+31 december 2023
+
+€ €
+
+24.783
+20.689
+
+45.472
+
+22.450
+261.249
+41.963
+56.724
+
+359.936
+
+110.296
+
+538.154
+
+€ €
+
+20.265
+23.309
+
+43.574
+
+18.700
+139.632
+43.829
+241.706
+
+425.167
+
+75.747
+
+563.188
+
+auren
+
+31 december 2024 31 december 2023
+
+€ € € €
+PASSIVA
+EIGEN VERMOGEN (5)
+Geplaatst kapitaal 10 10
+Overige reserves 192.493 206.572
+192.503 206.582
+KORTLOPENDE SCHULDEN (6)
+Schulden aan kredietinstellingen 0 17
+Schulden aan leveranciers en
+handelskredieten 59.932 98.449
+Schulden aan participanten 12.439 39.447
+Belastingen en premies sociale
+verzekeringen 116.350 73.396
+Overige schulden en overlopende
+passiva 156.930 145.297
+345.651 356.606
+538.154 563.188
+
+auren
+
+-7-
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+2 RESULTATENREKENING OVER 2024
+
+2024 2023
+€ € € €
+
+Opbrengsten zorgprestaties,
+jeugdhulp en maatschappelijke
+ondersteuning (7) 2.400.056 2.407.884
+Directe kosten 2.400.056 2.407.884
+Kosten uitbesteed werk (8) 826.137 712.426
+Bruto-omzetresultaat 1.573.919 1.695.458
+Overige bedrijfsopbrengsten (9) 5,203 6.379
+Som der bedrijfsopbrengsten 1.579.122 1.701.837
+Bedrijfslasten
+Personeelskosten (10) 1.059.757 1.075.478
+Afschrijvingen (11) 16.599 10,685
+Overige bedrijfskosten (12) 515.970 556.563
+
+1.592.326 1.642.726
+Bedrijfsresultaat (13.204) 59.111
+Financiële baten en lasten (13) (875) (1.226)
+Resultaat voor belastingen (14.079) 57.885
+Belastingen (14) 0 (11.354)
+Resultaat na belastingen (14.079) 46.531
+
+auren
+
+-8-
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+3 KASSTROOMOVERZICHT 2024
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2024 2023
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat (13.204) 59.111
+Aanpassingen voor:
+Afschrijvingen 10.646 10.685
+Veranderingen in het werkkapitaal:
+Mutatie voorraden (3.750) (12.650)
+Mutatie vorderingen 65.231 (76.715)
+Mutatie kortlopende schulden (exclusief
+kortlopend deel van de langlopende schulden) (10.955) 22.508
+Kasstroom uit bedrijfsoperaties 47.968 2.939
+Ontvangen interest 2.133 1.951
+Betaalde interest (3.008) (3.177)
+Vennootschapsbelasting (0) (11.354)
+(875) (12.580)
+
+Kasstroom uit operationele activiteiten 47.093 (9.641)
+Kasstroom uit investeringsactiviteiten
+Investeringen in materiële vaste activa (18.497) (33.636)
+Desinvesteringen materiële vaste activa 5.953 0
+Kasstroom uit investeringsactiviteiten (12.544) (33.636)
+
+34.549 (43.277)
+Samenstelling geldmiddelen
+
+2024 2023
+€ € € €
+
+Geldmiddelen per 1 mei 75.747 119.024
+Mutatie liquide middelen 34.549 (43.277)
+Geldmiddelen per 31 december 110.296 75.747
+
+auren
+
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van De Loods Zorg B.V., statutair gevestigd te Den Dolder, en haar groepsmaatschappijen
+bestaan voornamelijk uit het verlenen op het gebied van dagverblijven voor verstandelijk gehandicapten
+en psychiatrische clienten.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+De Loods Zorg B.V. (geregistreerd onder KvK-nummer 64763013) is feitelijk gevestigd op Fornheselaan
+212b te Den Dolder.
+
+Groepsverhoudingen
+
+De vennootschap maakt deel uit van een groep, waarvan Menges Beheer B.V, te Den Dolder aan het hoofd
+staat.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van
+De Loods Zorg B.V. zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de
+jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste
+inzicht noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de bijbehorende
+veronderstellingen opgenomen bij de toelichting op de desbetreffende jaarrekeningposten.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW en de Regeling openbare
+jaarverantwoording WMG en de Richtlijnen voor de Jaarverslaggeving RJK C3.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken
+van de jaarrekening bekend zijn geworden.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Voorraden
+
+De voorraden handelsgoederen worden gewaardeerd tegen verkrijgingsprijs of vervaardigingsprijs. Deze
+vervaardigingsprijs wordt bepaald door individuele beoordeling van de voorraden.
+
+auren
+
+-10-
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs. De reële waarde en geamortiseerde kostprijs zijn gelijk
+aan de nominale waarde. Noodzakelijk geachte afwaarderingen voor het risico van oninbaarheid worden in
+mindering gebracht op de vorderingen.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar
+waarin zij zijn gerealiseerd.
+
+Opbrengstverantwoording
+
+Verkoop van goederen
+
+Opbrengsten uit de verkoop van goederen worden verwerkt zodra alle belangrijke rechten en risico's met
+betrekking tot de eigendom van de goederen zijn overgedragen aan de koper.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde
+prestaties, gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te
+verrichten diensten.
+
+Kosten uitbesteed werk
+
+De kostprijs van de omzet omvat kosten uitbesteed werk via onderaannemers.
+
+Pensioenen
+
+De Loods Zorg B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over
+het verslagjaar verschuldigde premie wordt als last verantwoord.
+
+De premies worden verantwoord als personeelskosten zodra deze verschuldigd zijn. Vooruitbetaalde
+premies worden opgenomen als overlopende activa indien dit tot een terugstorting leidt of tot een
+vermindering van toekomstige betalingen. Nog niet betaalde premies worden als verplichting op de balans
+opgenomen.
+
+Afschrijvingen
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages van de
+aanschaffingswaarde, op basis van de verwachte economische levensduur. Boekwinsten en -verliezen bij
+verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet
+van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden
+met de verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+
+De vennootschapsbelasting wordt berekend tegen het geldende tarief over het resultaat van het boekjaar,
+waarbij rekening wordt gehouden met permanente verschillen tussen de winstberekening volgens de
+jaarrekening en de fiscale winstberekening, en waarbij actieve belastinglatenties (indien van toepassing)
+
+slechts worden gewaardeerd voor zover de realisatie daarvan waarschijnlijk is. :
+
+- 11 -
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+(Latente) belastingvorderingen en verplichtingen worden gewaardeerd in overeenstemming met de
+(voorgenomen) fiscale aangifte, tenzij het niet waarschijnlijk is dat de fiscale autoriteiten hiermee zullen
+instemmen. Alsdan wordt de waardering van de onzekere belastingpositie gebaseerd op de beste schatting
+van het afwijkende belastingbedrag ten opzichte van de (voorgenomen) aangifte.
+
+GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+auren
+
+- 12 -
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2024
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Materiële vaste activa
+
+Boekwaarde per 1 mei 2024
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Mutaties
+
+Investeringen
+Desinvesteringen
+Afschrijving desinvesteringen
+Afschrijvingen
+
+Boekwaarde per 31 december 2024
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Boekwaarde per 31 december 2024
+
+Afschrijvingspercentages
+
+Inventaris
+Vervoermiddelen
+
+VLOTTENDE ACTIVA
+
+2. Voorraden
+
+Handelsgoederen
+
+Vervoer-
+Inventaris middelen Totaal
+
+€ € €
+45.032 30.139 75.171
+(24.767) (6.830) (31.597)
+20.265 23.309 43,574
+9,897 8.600 18.497
+(7.181) (12.100) (19.281)
+7.181 6.147 13.328
+(5.379) (5.267) (10.646)
+4.518 (2.620) 1.898
+47.748 26.639 74.387
+(22.965) (5.950) (28.915)
+24.783 20.689 45,472
+%
+20
+20
+
+31-12-2024 31-12-2023
+
+€ €
+
+22.450 18.700
+
+-13-
+
+auren
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+3. Vorderingen
+
+31-12-2024 31-12-2023
+
+€ €
+Handelsdebiteuren
+Debiteuren 261.249 145.132
+Voorziening dubieuze debiteuren 0 (5.500)
+261.249 139.632
+Vorderingen op verbonden maatschappijen
+Rekening-courant De Loods Garage B.V. 21.331 20.296
+Rekening-courant De Meubelwerf B.V. 210 4,103
+Rekening-courant De Loods Werkt B.V. 16.545 15.742
+Rekening-courant Lucky Betty B.V. 3.877 3.688
+41.963 43.829
+
+Over de rekening-courant vorderingen wordt 5,10% (2023: 5,16%) rente berekend (jaarlijkse U-
+rendement met een opslag van 2,5%).
+
+Overige vorderingen en overlopende activa
+
+Waarborgsommen 47.939 47.839
+Kortlopende lening cliënt 436 0
+Nog te factureren omzet 0 174.396
+Vooruitbetaalde huur 3.787 14.909
+Vooruitbetaalde verzekeringen 4,562 4.562
+
+56.724 241.706
+
+4. Liquide middelen
+
+ABN AMRO Bank Ondernemersrekening 44 1.195
+ABN AMRO Bank Ondernemersrekening II 774 68
+ABN AMRO Bank Ondernemersrekening III 69 958
+ABN AMRO Bank Ondernemersrekening IV 241 364
+ABN AMRO Bank Ondernemersrekening V 925 0
+Triodos Bank Internet Zaken Rekening 107.804 72.723
+Kas 439 439
+
+110.296 75.747
+
+auren
+
+-14-
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+PASSIVA
+
+9. EIGEN VERMOGEN
+
+31-12-2024 31-12-2023
+
+€ €
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 10 gewone aandelen nominaal € 1,00 10 10
+
+2024 2023
+
+€ €
+Overige reserves
+Stand per 1 mei 206.572 160.041
+Resultaatbestemming boekjaar (14.079) 46.531
+Stand per 31 december 192.493 206.572
+
+6. KORTLOPENDE SCHULDEN
+
+31-12-2024 31-12-2023
+
+€ €
+Schulden aan kredietinstellingen
+ABN AMRO Bank Ondernemersrekening V 0 17
+Schulden aan leveranciers en handelskredieten
+Crediteuren 45.991 62.971
+Crediteuren intercompany 13.941 35.478
+59.932 98.449
+Schulden aan participanten
+Rekening-courant Menges Beheer B.V. 12.439 39.447
+
+Over de rekening-courant schuld wordt 5,10% (2023: 5,16%) rente berekend (jaarlijkse U-rendement met
+een opslag van 2,5%).
+
+Belastingen en premies sociale verzekeringen
+
+Omzetbelasting 1.225 1.395
+Loonheffing 79.954 47.570
+Pensioenen 35.171 24.431
+
+116.350 73.396
+
+auren
+
+-15-
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+Overige schulden en overlopende passiva
+
+Reservering vakantiegeld
+Reservering vakantiedagen
+Accountantskosten
+Waarborgsommen
+
+Nog te betalen inhuur derden
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+Fiscale eenheid
+
+31-12-2024 31-12-2023
+€ €
+36.952 28.456
+24.243 19.527
+
+8.500 8.500
+6.289 6.289
+80.946 82.525
+156.930 145.297
+
+De vennootschap maakt deel uit van de fiscale eenheid voor de vennootschapsbelasting van Menges
+Beheer B.V. en is hoofdelijk aansprakelijk voor de belastingschuld van de fiscale eenheid als geheel.
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+De vennootschap is een meerjarige financiële verplichting aangegaan tot en met 30 april 2029 betreffende
+de huur van een bedrijfsruimte te Hilversum. De huurverplichting voor het aankomende boekjaar bedraagt
+
+€ 53.148.
+
+De vennootschap is een tweede meerjarige financiële verplichting aangegaan tot en met 31 mei 2028
+betreffende de huur van een bedrijfsruimte te Den Dolder. De huurverplichting voor het aankomende
+
+boekjaar bedraagt € 14.510.
+
+De vennootschap is een derde financiële verplichting aangegaan tot en met 30 juni 2026 betreffende de
+huur van een bedrijfsruimte te Zeist. De huurverplichting voor het aankomende boekjaar bedraagt
+
+€ 33.400.
+
+De vennootschap is een vierde financiële verplichting aangegaan tot en met 31 mei 2028 betreffende de
+huur van een bedrijfsruimte te Den Dolder. De huurverplichting voor het aankomende boekjaar bedraagt
+
+€ 30.480.
+
+De vennootschap is een vijfde meerjarige financiële verplichting aangegaan tot en met 31 augustus 2026
+betreffende de huur van een bedrijfsruimte te Den Dolder. De huurverplichting voor het aankomende
+
+boekjaar bedraagt € 10.680.
+
+- 16 -
+
+auren
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+6 TOELICHTING OP DE RESULTATENREKENING 2024
+
+7. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke
+
+ondersteuning
+
+Opbrengsten Jeugdwet
+Opbrengsten Wmo
+Opbrengsten PGB
+Opbrengsten onderaanneming
+Opbrengsten oude jaren
+
+8. Kosten uitbesteed werk
+Kosten uitbesteed werk
+
+9. Overige bedrijfsopbrengsten
+
+Overige bedrijfsopbrengsten
+
+10. Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Lonen en salarissen
+
+Bruto lonen
+Ontvangen ziekengelduitkeringen
+Ontvangen subsidies
+
+Sociale lasten
+
+Premies sociale verzekeringswetten
+
+Pensioenlasten
+
+Pensioenlasten
+
+Overige personeelskosten
+
+Reiskosten vergoedingen
+Cursussen, studies en opleidingen
+Overige personeelskosten
+
+2024 2023
+€ €
+21.288 12.870
+1.756.017 1.788.635
+96.410 157.512
+526.341 450.737
+0 (1.870)
+
+2.400.056 2.407.884
+
+826.137 712.426
+5.203 6.379
+845.668 833.205
+120.022 132.126
+63.766 63.539
+30.301 46.608
+
+1.059.757 1.075.478
+
+852.922 861.997
+0 (23.054)
+(7.254) (5.738)
+845.668 833.205
+120.022 132.126
+63.766 63.539
+18.792 24.181
+1.770 11.555
+9.739 10.872
+30.301 46.608
+
+- 17 -
+
+auren
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+Gedurende het jaar 2024 waren 16 werknemers in dienst op basis van een volledig dienstverband (2023:
+17).
+
+11. Afschrijvingen
+
+2024 2023
+
+€ €
+Afschrijvingen materiële vaste activa
+Inventaris 5.379 5.969
+Vervoermiddelen 5.267 4.716
+Boekresultaat 5.953 0
+
+16.599 10.685
+Boekresultaat
+12. Overige bedrijfskosten
+Algemene kosten 162.204 151.246
+Patiënt- en bewonersgebonden kosten 144.562 164.086
+Onderhoud en energiekosten 46.030 37.558
+Huur en leasing 163.174 203.673
+
+515.970 556.563
+Algemene kosten
+Accountantskosten 25.432 23.891
+Administratiekosten 2.732 2.158
+Advieskosten 10.111 20.175
+Juridische kosten 0 9,960
+Kantoorbehoeften 11.502 1.186
+Automatiseringskosten 47.796 38.106
+Kleine aanschaffingen 11.554 12.960
+Overige kantoorkosten 18.570 9.753
+Reclame- en advertentiekosten 4,298 5.054
+Verzekering 9.477 6.122
+Autokosten 14.505 12.426
+Overige algemene kosten 6.227 9.455
+
+162.204 151.246
+
+auren
+
+-18-
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+2024 2023
+€ €
+Patiënt- en bewonersgebonden kosten
+Overige algemene kosten dagbesteding 122.452 146.334
+Vervoerskosten 22.110 17.752
+144.562 164.086
+Onderhoud en energiekosten
+Gas water licht 12.640 26.723
+Belastingen onroerend goed 3.296 1.955
+Schoonmaakkosten 28.248 6.162
+Overige huisvestingskosten 1.846 2.718
+46.030 37.558
+Huur en leasing
+Huur onroerende zaak 182.612 220.753
+Doorbelaste huur (19.438) (17.080)
+163.174 203.673
+13. Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten 2.133 1.951
+Rentelasten en soortgelijke kosten (3.008) (3.177)
+(875) (1.226)
+Rentebaten en soortgelijke opbrengsten
+Rente RC De Meubelwerf B.V. 107 103
+Rente RC De Loods Garage B.V. 1.035 996
+Rente RC De Loods Werkt B.V. 803 759
+Rente RC Lucky Betty B.V. 188 93
+2.133 1.951
+Rentelasten en soortgelijke kosten
+Rente- en bankkosten (1.717) (1.547)
+Rente RC Menges Beheer B.V. (1.291) (1.630)
+(3.008) (3.177)
+14. Belastingen
+Vennootschapsbelasting 0 (11.354)
+
+auren
+
+- 19 -
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+7 OVERIGE TOELICHTING
+Verwerking van het verlies 2024
+
+Overeenkomstig de wettelijke bepalingen is het verlies ad € 14.079 over 2024 in mindering gebracht op de
+overige reserves. Dit is reeds in de jaarrekening verwerkt.
+
+auren
+
+-20-
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+Bezoldiging van bestuurder
+
+WNT-VERANTWOORDING 2024 De Loods Zorg B.V.
+
+De WNT is van toepassing op De Loods Zorg B.V. Het voor De Loods Zorg B.V. toepasselijke
+bezoldigingsmaximum is in 2024 € 130.000, dit betreft het bezoldigingsmaximum voor zorg
+en jeugdhulp, klasse 1, totaalscore 6 punten.
+
+Het bezoldigingsmaximum in 2024 voor De Loods Zorg B.V. is € 130.000. Dit geldt naar rato
+van de duur en/of omvang van het dienstverband.
+
+Bezoldiging topfunctionarissen
+
+ia. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende
+topfunctionarissen zonder dienstbetrekking vanaf de 13e maand van de functievervulling
+alsmede degenen die op grond van hun voormalige functie nog 4 jaar als topfunctionaris
+worden aangemerkt.
+
+D enge
+
+Functiegegevens Directeur
+1/1 - 31/12
+
+Omvang dienstverband (in fte) 0,94
+Dienstbetrekking? ja
+Bezoldiging
+Beloning plus belastbare onkostenvergoedingen 113.155
+Beloningen betaalbaar op termijn 0
+Subtotaal 113.155
+Individueel toepasselijke bezoldigingsmaximum (1 fte) 121.875
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag N.v.t
+Totaal bezoldiging 2024 113.155
+Reden waarom de overschrijding al dan niet is toegestaan n.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling n.v.t.
+Gegevens 2023
+Aanvang en einde functievervulling in 2022 1/1 - 31/12
+Omvang dienstverband 2022 (in fte) 0,85
+Dienstbetrekking? ja
+Beloning plus belastbare onkostenvergoedingen 99.932
+Beloningen betaalbaar op termijn 0
+Subtotaal 99.932
+Individueel toepasselijke bezoldigingsmaximum (1 fte) 105.400
+Totaal bezoldiging 2023 99.932
+
+auren
+
+-_21-
+
+De Loods Zorg B.V.
+gevestigd te Den Dolder
+
+Ondertekening van de jaarrekening
+
+Vaststelling jaarrekening
+
+De jaarrekening is aldus opgemaakt en vastgesteld door het bestuur c.q. de Algemene Vergadering.
+Den Dolder, ………......oan nennen eneen eenen enn
+
+Menges Beheer B.V.
+Namens deze,
+
+D.C. Menges
+
+auren
+
+- 22 -

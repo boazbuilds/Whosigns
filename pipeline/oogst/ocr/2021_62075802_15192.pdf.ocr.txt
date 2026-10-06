@@ -1,0 +1,1234 @@
+# whosigns-ocr v1 grootte=7288232 dpi=300 paginas=20
+Stichting Veilig Thuis West-Brabant
+
+Balans per:
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+
+Financiële vaste activa
+
+Totaal vaste activa
+
+Vlottende activa
+
+Debiteuren en overige vorderingen
+Liquide middelen
+
+Totaal vlottende activa
+
+Totaal activa
+
+PASSIVA
+
+Eigen vermogen
+
+Algemene en overige reserves
+Totaal eigen vermogen
+Voorzieningen
+
+Kortlopende schulden
+Overige kortlopende schulden
+
+Totaal passiva
+
+Ref. 31-12-2021 31-12-2020
+€ €
+1 156.798 161.044
+1,1 22.493 22.493
+179.291 183.536
+2 517.943 516.422
+3 2.049.721 1.281.139
+2.567.664 1.797.561
+2.746.955 1.981.097
+Ref. _ 31-12-2021 31-12-2020
+€ €
+4
+866.503 450.961
+866.503 450.961
+5 272.405 315.660
+6 1.608.047 1.214.476
+1.608.047 1.214.476
+2.746.955 1.981.097
+
+Pagina 2 van 16
+
+eat WEG A
+vil VA /
+
+Voor identificatiedoeleinden.
+Ref.lkenmerk: ROL AAMEB-vof
+
+Paraaf acc.man
+
+RESULTATENREKENING OVER:
+
+werkelijk begroot werkelijk
+Ref. 2021 2021 2020
+€ € €
+BEDRIJFSOPBRENGSTEN:
+Subsidies:
+Subsidies gemeente Breda 7 9.235.165 9.201.244 8.853.507
+Subsidies overige gemeenten 92.851 106.462 0
+Totaal subsidiebaten 9.328.016 9.307.706 8.853.507
+Overige bedrijfsopbrengsten:
+Overige baten 8 156.317 116.192 88.830
+Totaal overige bedrijfsopbrengsten 156.317 116.192 88.830
+Som der bedrijfsopbrengsten 9.484.333 9.423.898 8.942.337
+BEDRIJFSLASTEN:
+Personeelskosten 9 7.807.531 7.809.161 8.000.542
+Afschrijvingen op materiële vaste activa 10 70.911 98.284 64.535
+Overige bedrijfskosten 11 1.179.186 1.513.752 1.094.150
+Som der bedrijfslasten 9.057.628 9.421.198 9.159.228
+BEDRIJFSRESULTAAT 426.705 2.700 -216.890
+Bijzondere baten en lasten 0 0 0
+BEDRIJFSRESULTAAT 426.705 2.700 -216.890
+INCLUSIEF BIJZONDERE BATEN EN LASTEN
+Financiële baten en lasten 12 11.164 2.700 1.756
+RESULTAAT UIT GEWONE BEDRIJFSVOERING 415.541 0 -218.646
+Buitengewone baten en lasten 0 0 0
+RESULTAAT BOEKJAAR 415.541 0 -218.646
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2021 2021 2020
+€ € €
+Toevoeging/(onttrekking):
+Algemene reserve WMO 386.853 0 -218.646
+Bestemmingsreserve 28.688
+415.541 0 -218.646
+
+ntt
+
+Witlox VCS Accountants
+Voor identificatiedoeleinden ‚
+Ref.lkenmerk: Ere. 12 u20 -00|
+
+Paraaf acc.man.: Kik os
+
+U
+
+Pagina 3 van 16
+
+KASSTROOMOVERZICHT
+
+Ref. 2021 2020
+€ € € €
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 426.705 -216.890
+Aanpassingen voor:
+- afschrijvingen 10 70.911 64.535
+- verkoopresultaat 0 0
+- mutaties voorzieningen 5 -43.255 -87.144
+27.656 -22.609
+Veranderingen in vlottende middelen:
+- vorderingen 2 -1.520 -36.777
+- kortlopende schulden 6 393.571 33.319
+392.051 -3.458
+Kasstroom uit bedrijfsoperaties 419.707 -26.067
+Ontvangen interest 12 -11.164 -1.756
+„11.164 -1.756
+Totaal kasstroom uit operationele activiteiten 835.248 -244.713
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa 1 -66.666 -93.559
+Desinvestering 0 0
+-66.666 -93.559
+Totaal kasstroom uit investeringsactiviteiten
+Kasstroom uit financieringsactiviteiten 768.583 -338.272
+Nieuw opgenomen leningen 0 0
+Aflossing langlopende schulden 6 0 0
+0 0
+Totaal kasstroom uit financieringsactiviteiten
+Mutatie geldmiddelen 768.583 -338.272
+Mutatie geldmiddelen
+Geldmiddelen per 1 januari 3 1.281.139 1.619.410
+Mutatie geldmiddelen 3 768.583 -338.272
+Geldmiddelen per 31 december 2.049.721 1.281.139
+
+Toelichting:
+Er is gebruik gemaakt van de indirecte methode.
+
+Witlox VCS Accountants
+Voor antifa ee
+
+Roflkernerk: FOR Z0U7E-Ool
+
+/
+/
+Paraaf aocman.: fins ”
+
+Î
+1
+
+Ú
+
+Pagina 4 van 16
+
+Stichting Veilig Thuis West Brabant
+
+GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+Algemeen
+
+Algemene gegevens en groepsverhoudingen
+
+Stichting Veilig Thuis West-Brabant (VTWB) is statutair gevestigd te Breda, op de Galderseweg 15.
+
+De Stichting is feitelijk gevestigd aan de St. Ignatiusstraat 253, 4817 KK Breda.
+
+De belangrijkste activiteiten zijn:
+
+* het geven van advies, voorlichting, aannemen van meldingen en risico taxeren voor professionals en burgers
+* het ondersteunen van het lokale veld bij vragen over casuïstiek
+
+* het doen van onderzoek
+
+* procesregie
+
+* casusregie
+
+* interventieteam
+
+Stichting VT WB is een zelfstandige stichting welke een fiscale eenheid in bestuur en toezicht is met SMO Breda e.o,
+Safegroup en Stemo. Aan het hoofd hiervan staat de directeur-bestuurder mevrouw J.W.M. Kuypers te Breda. De jaarrekening
+van Veilg Thuis West Brabant is opgenomen in de geconsolideerde jaarrekening van deze fiscale eenheid te Breda.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2021, dat is geëindigd op balansdatum 31 december 2021.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de stellige uitspraken van de Richtlijnen voor de Jaarverslaggeving,
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd op historische
+kosten, tenzij anders vermeld in de verdere grondslagen.
+
+COVID-19
+
+De gebeurtenissen als gevolg van het coronavirus COVID-19 zijn in de onderhavige jaarrekening verwerkt. Op het moment van
+het opmaken van deze jaarrekening is er, alle feiten en omstandigheden in ogenschouw nemend, geen sprake van een ernstige
+onzekerheid van de continuïteit van onze organisatie en derhalve ook niet van onontkoombare discontinuïteit. Op basis van de
+huidige omstandigheden en stand van zaken van de overheidsmaatregelen is er geen reden om aan de positieve
+continuïteitsveronderstelling te twijfelen, zodat de in de jaarrekening gehanteerde grondslagen voor waardering en
+resultaatbepaling gebaseerd zijn op de veronderstelling van continuïteit van de onderneming.
+
+Continuiteitsveronderstelling
+
+Deze jaarrekening is opgesteld uitgaande van de continuïteitsveronderstelling.
+
+Wij bevestigen dat de gebeurtenissen na balansdatum als gevolg van het coronavirus COVID-19 geen aanleiding geven om
+een aanvullende uiteenzetting in de onderhavige jaarrekening op te nemen. Op het moment van het opmaken van deze
+jaarrekening is er, naar onze beste inschatting en alle feiten en omstandigheden in ogenschouw nemend, geen sprake van een
+ernstige onzekerheid van de continuïteit van onze organisatie en derhalve ook niet van onontkoombare discontinuïteit. Op basis
+van de huidige omstandigheden en stand van zaken van de overheidsmaatregelen zien wij op dit moment geen reden om aan
+de positieve continuïteitsveronderstelling te twijfelen. Wij zijn daarom van mening dat de in de jaarrekening gehanteerde
+rondslagen voor waardering en resultaatbepaling gebaseerd dienen te worden op de veronderstelling van continuïteit van de
+organisatie.
+
+Vergelijkende cijfers
+De cijfers voor 2020 zijn, waar nodig, geherrubriceerd om vergelijkbaarheid met 2021 mogelijk te maken.
+
+Vergelijking met de begroting
+De in de jaarrekening opgenomen begrotingscijfers zijn gebaseerd op de in december 2020 door de Raad van Bestuur en de
+Raad van Toezicht goedgekeurde begroting 2021.
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde
+waarde van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen
+afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend
+beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt
+herzien en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+Witlox VCS Accountants
+
+Voor identificatiedoeleìnden. j
+Pagina 5 van 16 Ref./kenmerk: bor Zlauz9-b0l
+
+Paraaf GCC oasffraenersen
+
+
+Grondslagen WNT
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de wet- en regelgeving
+inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgings- of vervaardigingsprijs opgenomen, tenzij anders vermeld in de verdere
+grondslagen. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de jaarrekening
+genummerd.
+
+Een actief wordt in de balans opgenomen wanneer het waarschijnlijk is dat de toekomstige economische voordelen naar de
+stichting zullen toevloeien en de waarde daarvan betrouwbaar kan worden vastgesteld. Een verplichting wordt in de balans
+opgenomen wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal gaan met een uitstroom van middelen die
+economische voordelen in zich bergen en de omvang van het bedrag daarvan betrouwbaar kan worden vastgesteld.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans, als een transactie met betrekking tot het actief of de
+verplichting niet leidt tot een belangrijke verandering in de economische realiteit met betrekking tot het actief of de verplichting.
+Een actief of verplichting wordt niet langer in de balans opgenomen als een transactie ertoe leidt dat alle of nagenoeg alle
+rechten op economische en alle of nagenoeg alle risico's met betrekking tot het actief of de verplichting aan een derde zijn
+overgedragen. Verder wordt een actief of een verplichting niet meer in de balans opgenomen vanaf het tijdstip dat niet meer
+wordt voldaan aan de voorwaarden van waarschijnlijkheid van de toekomstige economische voordelen en of betrouwbaarheid
+van de bepaling van de waarde.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van Veilig Thuis West-Brabant.
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek van cumulatieve
+afschrijvingen en cumulatieve bijzondere waardeverminderingen. De afschrijvingstermijnen van materiële vaste activa zijn
+gebaseerd op de verwachte economische levensduur van het vast actief.
+
+De afschrijvingen worden berekend als een percentage over de verkrijging- en vervaardigingsprijs volgens de lineaire methode
+op basis van de economische levensduur. Op bedrijfsterreinen en op vaste activa in ontwikkeling en vooruitbetalingen op
+materiële vaste activa wordt niet afgeschreven.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+
+* Inventarissen : 20%.
+
+* Automatisering : 33%.
+
+Over het 1e jaar van ingebruikneming van de investeringen wordt 50% van de gehanteerde afschrijvingspercentages genomen.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reêle waarde, inclusief transactiekosten. De vervolgwaardering van vorderingen
+is tegen geamortiseerde kostprijs. Een voorziening wordt getroffen op de vorderingen op grond van verwachte oninbaarheid.
+Per debiteur is een inschatting gemaakt van de oninbaarheid.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden. Rekening-
+courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende schulden. Liquide
+middelen worden gewaardeerd tegen de nominale waarde.
+
+Eigen vermogen
+
+Binnen het eigen vermogen wordt onderscheid gemaakt tussen Kapitaal, Bestemmingsreserves, Bestemmingsfondsen en
+Algemene en overige reserves.
+
+Algemene en overige reserves
+Onder Algemene en overige reserves is opgenomen dat deel van het eigen vermogen, waarover de bevoegde organen binnen
+de statutaire doelstellingen van de Stichting vrij kunnen beschikken.
+
+Witlox VCS Accountants
+
+Voor identificatiedoeleinden.
+Pagina 6 van 16 Ref.lkenmerk: ERR, 428-001
+
+Paruaf acc.man.: fj
+
+
+Voorzieningen (algemeen)
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum bestaan waarbij
+het waarschijnlijk is dat een uitstroom van middelen noodzakelijk is en waarvan de omvang op betrouwbare wijze is te schatten.
+De voorzieningen worden gewaardeerd tegen de beste schatting van de bedragen die noodzakelijk zijn om de verplichtingen
+per balansdatum af te wikkelen. De voorzieningen worden gewaardeerd tegen de contante waarde van de uitgaven die naar
+verwachting noodzakelijk zijn om de verplichtingen af te wikkelen. De gehanteerde disconteringsvoet is 2%.
+
+Wanneer verplichtingen naar verwachting door een derde zullen worden vergoed, wordt deze vergoeding als een actief in de
+balans opgenomen indien het waarschijnlijk is dat deze vergoeding zal worden ontvangen bij de afwikkeling van de verplichting.
+
+Voorziening vitaliteits- en garantieuren
+
+De voorziening vitaliteit- en garantieuren betreft een voorziening uit hoofde van een CAO verplichting in het kader van de
+overgangsregeling 55+. Dit budget is gekwalificeerd als een beloning met opbouw van rechten. De voorziening betreft de
+contante waarde van de in de toekomst eenmalig uit te keren uren. De berekening is gebaseerd op de CAO-bepalingen,
+blijfkans, leeftijd en resterende dienstjaren tot het bereiken van de AOW-leeftijd. De gehanteerde disconteringsvoet bedraagt
+2%.
+
+Voorziening jubileumverplichtingen
+
+De jubileumvoorziening betreft een voorziening voor toekomstige jubileumuitkeringen. De voorziening betreft de contante
+waarde van de in de toekomst uit te keren jubileumuitkeringen. De berekening is gebaseerd op gedane toezeggingen, blijfkans
+en leeftijd. De gehanteerde disconteringsvoet bedraagt 2%.
+
+Voorziening langdurig zieken
+
+Voor langdurig zieken is een voorziening gevormd op basis van de nominale waarde van de verwachte loonkosten in de eerste
+twee jaren van de arbeidsongeschiktheid (voor medewerkers die naar verwachting niet zullen terugkeren in het arbeidsproces),
+voorzover deze na 31 december 2021 vallen, gebaseerd op 100 % gedurende het eerste jaar en 70 % gedurende het tweede
+jaar.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één jaar. De
+kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij eerste verwerking
+opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde kostprijs (nominale waarde). De
+aflossingsverplichtingen voor het komend jaar van de langlopende schulden worden opgenomen onder kortlopende schulden.
+
+5.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming van de
+hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het economisch potentieel,
+samenhangend met een vermeerdering van een actief of een vermindering van een verlichting, heeft plaatsgevonden, waarvan
+de omvang betrouwbaar kan worden vastgesteld. Lasten worden verwerkt wanneer een vermindering van het economisch
+potentieel, samenhangend met een vermindering van een actief of een vermeerdering van een verplichting, heeft
+plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking genomen in het jaar
+waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de verslagperiode waarop deze betrekking
+hebben. Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag van de
+opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk is, de mate
+waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald en de reeds gemaakte kosten en de
+kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden
+bepaald.
+
+Overheidssubsidies
+
+Overheidssubsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra er redelijke zekerheid
+bestaat dat zij zullen worden ontvangen en dat de groep zal voldoen aan de daaraan verbonden voorwaarden. Subsidies ter
+compensatie van door de groep gemaakte kosten worden systematisch als opbrengsten in de winst-en-verliesrekening
+opgenomen in dezelfde periode als die waarin de kosten worden gemaakt.
+
+Wiilox VCS Accauntanss
+Voor identificatiedoeteinden.
+Pagina 7 van 16 Ref. lkenmerk: EOL. ID UZ8-00i
+
+
+Overige opbrengsten
+
+De overige bedrijfsopbrengsten bestaan uit opbrengsten anders dan uit zorgprestaties en maatschappelijke ondersteuning en
+subsidies. De overige opbrengsten kunnen worden verdeeld in opbrengsten voor het leveren van goederen en opbrengsten
+voor het leveren van diensten.
+
+Opbrengsten uit het verlenen van diensten geschieden naar rato van de geleverde prestaties, gebaseerd op de verrichte
+diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Personele kosten
+
+Periodiek betaalbare beloningen
+
+Lonen en salarissen en andere personeelslasten worden verantwoord in de periode waarin personeel op grond van de
+arbeidsvoorwaarden het recht op beloning verkrijgt. Sociale lasten worden toegerekend aan dezelfde periode als de lonen en
+salarissen waaraan deze sociale lasten direct kunnen worden toegerekend. Met uitzondering van ORT en flexibele uren, deze
+worden altijd een maand later uitbetaald en in de kosten opgenomen.
+
+Voor de beloningen met opbouw van rechten (sabbatical leave, gratificaties e.d.) worden de verwachte lasten gedurende het
+dienstverband in aanmerking genomen. Een verwachte vergoeding ten gevolge van gratificaties worden verantwoord indien de
+verplichting tot betaling van die vergoeding is ontstaan op of vóór balansdatum en een betrouwbare schatting van de
+verplichtingen kan worden gemaakt. Ontvangen bijdragen voortvloeiend uit levensloopregelingen worden in aanmerking
+genomen in de periode waarover deze bijdragen zijn verschuldigd. Toevoegingen aan en vrijval van verplichtingen worden ten
+laste respectievelijk ten gunste van de winst-en-verliesrekening gebracht.
+
+Indien een beloning wordt betaald, waarbij geen rechten worden opgebouwd (bijvoorbeeld doorbetaling in geval van ziekte of
+arbeidsongeschiktheid) worden de verwachte lasten verantwoord in de periode waarover deze beloning is verschuldigd. Voor
+op balansdatum bestaande verplichtingen tot het in de toekomst doorbetalen van beloningen aan personeelsleden die op
+balansdatum naar verwachting blijvend geheel of gedeeltelijk niet in staat zijn om werkzaamheden te verrichten door ziekte of
+arbeidsongeschiktheid wordt een voorziening opgenomen. De verantwoorde verplichting betreft de beste schatting van de
+bedragen die noodzakelijk zijn om de desbetreffende verplichting op balansdatum af te wikkelen. De beste schatting is
+gebaseerd op contractuele afspraken met personeelsleden (CAO en individuele arbeidsovereenkomsten). Toevoegingen aan
+en vrijval van verplichtingen worden ten laste respectievelijk ten gunste van de winst-en-verliesrekening gebracht.
+
+Pensioenen
+
+Stichting VT WB heeft voor haar werknemers een toegezegde pensioenregeling.
+
+Hiervoor in aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is
+gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd. De
+verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg
+en Welzijn. VT WB betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft door de werknemer.
+De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het pensioenfonds (het
+vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat. Per 1 januari 2015 gelden nieuwe
+regels voor pensioenfondsen. Daarbij behoort ook een nieuwe berekening van de dekkings-graad. De 'nieuwe' dekkingsgraad
+is het gemiddelde van de laatste twaalf dekkingsgraden. Door een gemiddelde te gebruiken, zal de dekkingsgraad nu minder
+sterk schommelen. In december 2021 bedroeg de dekkingsgraad 106,6%. Het vereiste niveau van de dekkingsgraad is 128%.
+Het pensioenfonds verwacht volgens het herstelplan eind 2027 hieraan te kunnen voldoen en voorziet geen noodzaak voor de
+aangesloten instellingen om extra stortingen te verrichten of om bijzondere premieverhogingen door te voeren. VT WB heeft
+geen verplichting tot het voldoen van aanvullende bijdragen in geval van een tekort bij het pensioenfonds, anders dan het effect
+van hogere toekomstige premies. VT WB heeft daarom alleen de verschuldigde premies tot en met het einde van het boekjaar
+in de jaarrekening verantwoord.
+
+Afschrijvingen
+Immateriële vaste activa inclusief goodwill en materiële vaste activa worden vanaf het moment van ingebruikneming
+afgeschreven over de verwachte toekomstige gebruiksduur van het actief. Over terreinen wordt niet afgeschreven.
+
+Overige bedrijfskosten
+De overige bedrijfskosten worden toegerekend aan het jaar waarop zij betrekking hebben.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en aan derden en
+groepsmaatschappijen betaalde (te betalen) interest. Tevens is hieronder opgenomen het aandeel van de stichting in het
+resultaat van de op nettovermogenswaarde gewaardeerde deelnemingen danwel ontvangen dividenden van deelnemingen
+waarin geen invloed van betekenis op het zakelijke en financiële beleid wordt uitgeoefend en waardeveranderingen van
+financiële vaste activa en effecten.
+
+Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld op basis van de indirecte methode.
+
+Wittmer We te TE ada
+WILOX Viod ACCES
+
+Voor idertificatiedoeleinden.
+
+Pagina 8 van 16 Ref.lkenmerk: EoP.4 Du28 -Ool
+Paraaf acc.man.: fs fj nn me
+
+
+TOELICHTING OP DE BALANS
+
+ACTIVA
+
+1. Materiële vaste activa
+
+De specificatie is als volgt: 31-12-2021 31-12-2020
+
+€ €
+Automatisering 55.556 1.241
+Inventaris 101.242 159.803
+Totaal materiële vaste activa 156.798 161.044
+
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven:
+
+2021 2020
+
+€ €
+
+Boekwaarde per 1 januari 161.044 132.019
+Bij: investeringen 66.666 93.559
+Af: afschrijvingen 70.911 64.535
+Af: des-investeringen 0 0
+Boekwaarde per 31 december 156.798 161.044
+
+Er zijn geen zekerheden verstrekt in verband met de materiële activa.
+Zie verder het verloopoverzicht materiele vaste activa.
+Onder de materiële vaste activa zijn geen vaste activa opgenomen waarvan de zorginstelling alleen het economisch eigendom heeft.
+
+1.1 Financiële vaste activa 2021 2020
+€ €
+De specificatie is als volgt:
+Betaalde borg (langjarig) 22.493
+22.493
+
+2. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-12-2021 31-12-2020
+
+€ €
+Debiteuren 26.285 27.891
+Nog te ontvangen bedragen 1.623 23.009
+Nog te ontvangen subsidie 464.763 440.564
+Nog te ontvangen declaraties 0 0
+Vooruitbetaalde bedragen 25.271 24.958
+Totaal vorderingen en overlopende activa 517.943 516.422
+
+Alle vorderingen hebben een resterende looptijd korter dan 1 jaar.
+
+3. Liquide middelen
+
+De specificatie is als volgt: 31-12-2021 31-12-2020
+
+€ €
+Bankrekeningen 2.049.721 1.281.139
+Totaal liquide middelen 2.049.721 1.281.139
+Toelichting:
+
+Deze gelden zijn vrij beschikbaar.
+
+riO
+
+Voor identific atiegoele inden.
+
+Pagina 9 van 16 pear wa (0) ans
+
+
+PASSIVA
+
+4. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+Algemene en overige reserves
+
+Totaal eigen vermogen
+
+Algemene en overige reserves
+
+Algemene reserve WMO
+Bestemmingsreserve
+
+Algemene reserve WMO
+
+31-12-2021 31-12-2020
+
+€ €
+
+866.503 450.961
+
+866.503 450.961
+
+Saldo per Resultaat- Overige Saldo per
+1-1-2021 bestemming mutaties 31-12-2021
+450.961 386.853 0 837.814
+0 28.688 0 28.688
+
+450.961 386.853 0 866.503
+
+Deze reserve is opgebouwd uit exploitatiesaldi op activiteiten gefinancierd met gemeentelijke subsidies.
+Het exploitatiesaldo 2021 (na mutatie bestemmingsfondsen en bestemmingsreserves) is conform
+
+een kostenverdeelmodel verdeeld over de segmenten. De toevoeging aan deze reserve
+bedraagt rekenkundig ad € 486.853. Het saldo per 31-12-2021 is daardoor € 837.814
+
+Bestemmingsreserve
+
+Deze reserve is gevormd uit een ontvangen subsidie ter dekking van Corona-gerelateerde kosten. Deze kosten bestonden gedeeltelijk uit materiële vaste
+activia waarop wordt afgeschreven. De reserve is bestemd ter dekking van toekomstige afschrijvingskosten op deze middelen.
+
+5. Voorzieningen
+
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+
+Het verloop is als volgt weer te geven: 1-1-2021 31-12-2021
+
+€ € € € €
+
+Voorziening langdurig zieken 234.148 36.982 197.166
+
+Jubileumvoorziening 45.197 1.128 44.069
+
+Vitaliteits/garantievoorziening 36.315 5.145 31.170
+
+Totaal voorzieningen 315.660 0 43.255 272.405
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+
+31-12-2021
+
+Kortlopend deel van de voorzieningen (< 1 jr.) 208.289
+
+Langlopend deel van de voorzieningen (> 1 jr.) 18.959
+
+Hiervan langlopend (> 5 jaar) 45.157
+
+Toelichting:
+Deze voorzieningen hebben (deels) een kortlopend karakter.
+
+De voorziening langdurig zieken vloeit voort uit de Wet Werk en Zekerheid.
+
+Pagina 10 van 16
+
+Wiilox PCE Azen 5
+Voor identificatieëgeleinden.
+Ref.lkenmerk: SAS
+
+Paraaf acc.man.: …
+
+Q-cO)
+
+6. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-12-2021 31-12-2020
+€ €
+Crediteuren 498.654 99.056
+Belastingen en sociale premies 2.763 336.594
+Overige schulden 1.106.630 778.826
+1.608.047 1.214.476
+
+Nog te betalen belastingen en sociale lasten:
+Omzetbelasting 2.225 1
+Loonbelasting en sociale lasten 0 333.350
+Schulden terzake van pensioenen 538 3.244
+2.763 336.594
+31-12-2021 31-12-2020
+€ €
+
+Overige schulden:
+
+Af te rekenen subsidies 399.864 219.802
+Vakantiegeld 204.153 187.972
+Vakantiedagen 265.642 212.347
+Loopbaanbudget 5.643 7.813
+Netto lonen -357 1.261
+Nog te betalen kosten 237.582 84.094
+Rekening courant met stichting SMO Bredae.o. -5.897 65.537
+1.106.630 778.826
+
+De kortlopende schulden hebben allen een resterende looptijd korter dan één jaar.
+
+Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+Verplichtingen
+
+Door de stichting wordt een kantoorlocatie gehuurd met een contracttermijn tot uiterlijk maart 2027.
+Het totale bedrag aan huurverplichtingen aangaande onroerend goed derden bedraagt € 719.200
+
+De stichting is onderdeel van de fiscale eenheid omzetbelasting SMO Brede e.o. STEMO en Safegroup.
+
+Huurverplichtingen schematisch:
+
+<1 jaar 1-5 jaar >5 jaar
+
+Huurverplichtingen, gebouwen 139.200 556.800 23.200]
+
+Totaal 139.200 556.800 23.200
+
+Verloopoverzicht materiële vaste activa
+
+Onderstaand is een overzicht opgenomen van niet-WTZi / WMG-gefinancierde materiële vaste activa
+
+Bedrijfs- Inventaris Automatisering Totaal
+gebouwen en
+terreinen
+€ € € €
+1-1-2021
+Aanschafwaarde 324.863 145.917 470.780
+Cumulatieve afschrijvingen 165.060 144.677 309.737
+Boekwaarden 159.803 1.241 161.044
+Mutaties lopend boekjaar
+Investeringen 0 66.666 66.666
+Afschrijvingen 58.561 12.351 70.911
+Des-investeringen 0 0
+Afschrijvingen desinvesteringen 0 0
+-58.561 54.315 137.577
+
+31-12-2021
+Aanschafwaarde 324.863 212.583 537.446
+Cumulatieve afschrijvingen 223.621 157.027 380.648
+Boekwaarden 101.242 55.556 156.798
+Afschrijvingspercentages 2,5%, 10% 20% 33%
+
+Tran Gt ed adsohdied
+WILGX Tre SCOUTS
+
+Voor identificatiedgeleinden.
+Ref.lkenenerk: eoP. Q4D-0o1
+
+Paraaf aACC.MAN.: saanbraarneene
+Ï
+|
+
+Pagina 11 van 16
+
+
+Stichting Veilig Thuis West-Brabant
+TOELICHTING OP DE RESULTATENREKENING
+
+Algemeen
+
+In de staat van baten en lasten zijn subsidies van de gemeente Breda en Tilburg verantwoord voor een bedrag van
+
+€ 9.328.016. Deze baten bestaan uit de volgende subsidies:
+
+7. Subsidies
+Bedrag Bedrag Nog te Ten gunste Nog te
+beschikking | uitbetaald | ontvangen | van resultaat | besteden
+Algemene subsidie Veilig Thuis
+Beschikking 2021 Gemeente Breda DO/21/00239 €8.633.959f €8.202.261| E 431.698
+Aandeel Meldpunt Crisiszorg 2021 -€ 106.565
+Aandeel CSG 2021 -€ 167.360
+€ 8.360.034 € 8.360.034 €Q
+Beschikking 2021 Gemeente Breda DO/21/01061.1 € 6.757 € 6.757 € 4.241 € 2,516
+Beschikking 2021 Gemeente Breda DO/21/00895.1 € 35.000 € 35.000 € 35.000 €0
+Totaal algemeen € 8.399.275)
+Subsidie Cirkel is rond
+Beschikking 2021 Gemeente Breda DO/21/00376.1 € 188.800f € 179.360 € 9.440 € 176.405 € 12.395
+Nog te besteden vorig boekjaar € 17.632
+Onderzoek gemeente Breda -€ 10.000
+€ 20.026
+Incidentele subsidie 2021 Gem Breda DO/21/01060 € 12.052 € 12.052 €0 € 12.052
+Complexe scheidingen Gem Breda DO/21/00859 € 20.523 € 20.523 € 0 € 20.523
+Totaal Cirkel is Rond € 52.602
+Subsidie CSG Midden Brabant
+Beschikking 2021 Gemeente Tilburg 1503457 € 106.462| € 106.462 € O0 € 92.851 € 13.611
+Beginsaldo 2021 € 94.137
+Terugvordering gemeente Tilburg -€ 24.683
+Saldo 31-12-2021 € 83.065
+Subsidie CSG West Brabant
+Uit algemene subsidie gemeente Breda 2021 € 167.360f € 167.360 €0 € 145.964 € 21.396
+€ 21.396
+TOTAAL CSG (Midden en West Brabant) € 104.461
+Subsidie Meldpunt Crisiszorg
+Beschikking 2021 Gemeente Breda DO/21/001 29.1 €472.506/ € 448.881 € 23.625
+Aandeel IMW 2021 € 66.702 € 66.702 €0
+Aandeel Algemene subsidie Veilig Thuis WB 2021 € 106.565f € 106.565 € 0
+€ 645.773 €513.520f €132.253
+Nog te besteden vorig boekjaar € 108.033
+€ 240.286
+Totaal ten gunste van resultaat/balans |__€464.763| €9.328.016| € 399.364
+mito PGS Laat re
+
+Pagina 12 van 16
+
+Voor idertificatiedgeiei
+
+Ref.lkenmerk: Eoe.-22
+
+28-00)
+
+TOELICHTING OP DE RESULTATENREKENING
+
+8. Overige baten
+
+De overige baten zijn als volgt te specificeren
+Doorbelasting personeelskosten aan externe organisaties
+Overige
+
+Totaal
+
+LASTEN
+
+9. Personeelskosten
+
+De personeelskosten kunnen als volgt worden gespecificaeerd:
+
+Lonen en salarissen
+Sociale lasten
+Pensioenpremies
+
+Andere personeelskosten
+Personeel niet in loondienst
+
+Totaal personeelskosten
+
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+
+Veilig Thuis West-Brabant
+
+Totaal
+
+Pagina 13 van 16
+
+2021 2020
+
+€ €
+
+75.050 54.379
+81.267 34.451
+156.317 88.830
+2021 2020
+
+€ €
+4.756.487 4.878.192
+761.198 880.343
+487.824 465.276
+404.571 228.458
+1.397.451 1.548.273
+7.807.531 8.000.542
+85 88
+
+85 88
+
+Torgeist
+
+or gel Lien.
+el kenmerk: COP?
+Ap
+
+raaf acc.man.: nf ktm
+
+
+Toelichting:
+In 2021 waren er bij de stichting 84,7 FTE werkzaam en
+waren er gemiddeld 113 medewerkers in loondienst.
+
+In 2020 waren deze cijfers resp. 88,4 FTE en 109 medewerkers.
+
+10. Afschrijvingen vaste activa
+
+De afschrijvingskosten zijn als volgt te specificeren:
+
+Afschrijvingen materiële vaste activa
+
+Totaal afschrijvingen
+
+11. Overige bedrijfskosten
+De overige bedrijfskosten zijn als volgt te specificeren:
+
+Voedingsmiddelen en verzorgingskosten
+Algemene kosten
+
+Onderhoudkosten
+
+Energie
+
+Huren
+
+Schoonmaakkosten
+
+Heffingen en belastingen
+
+Overige organisatiekosten
+
+Dotaties en vrijval voorzieningen
+
+Totaal overige bedrijfskosten
+
+De algemene kosten zijn als volgt te specificeren:
+
+Kosten automatisering
+Kosten externe ondersteuning
+Lidmaatschappen
+Accountantskosten
+Telefoonkosten
+Publiciteitskosten
+
+Overige
+
+Pagina 14 van 16
+
+2021 2020
+
+€ €
+70.911 64.535
+70.911 64.535
+2021 2020
+7.393 7.225
+908.028 878.664
+8.315 16.602
+16.294 18.668
+265.408 245.411
+4.057 3.745
+2.307 2.057
+10.639 8.923
+-43.255 -87.144
+1.179.186 1.094.150
+142.728 162.342
+67.450 61.053
+29.097 26.076
+30.000 41.368
+90.552 92.051
+0 0
+548.201 495.773
+908.028 878.664
+
+veil £
+
+Voor identificatiedoeleinden.
+
+20-001
+
+Ref.lken:merk: EOL
+
+Paraaf acc:mant ssdbinsass
+
+
+12. Financiële baten en lasten
+De specificatie is als volgt:
+Rentebaten rekening courant
+Rentebaten overig
+
+Subtotaal financiële baten
+Rentelasten
+
+Bankkosten
+
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+13. WNT verantwoording 2021 Veilig Thuis West-Brabant
+
+De gegevens inzake de WNT zijn opgenomen in de geconsolideerde jaarrekening van SMO Breda e.o,
+Safegroup, Stemo en Veilig Thuis West-Brabant (fiscale eenheid in bestuur en toezicht).
+De gegevens zijn om deze reden niet opgenomen in deze enkelvoudige jaarrekening.
+
+Voor verdere toelichting op de bezoldiging en financiële relaties met bestuurders en toezichthouders wordt
+derhalve verwezen naar de geconsolideerde jaarrekening.
+
+14. Honoraria accountant
+
+1 Controle van de jaarrekening
+2 Fiscale advisering
+3 Niet-controlediensten
+
+Totaal honoraria accountant
+
+Pagina 15 van 16
+
+2021 2020
+
+Ad €
+
+0 0
+
+0 -203
+
+0 -203
+10.651 1.370
+513 589
+11.164 1.959
+11.164 1.756
+
+2021 2020
+
+€ €
+30.000 41.368
+30.000 41.368
+
+Wor ide: wille: atiedoeieingen.
+Ref.lkenmerk: we 8 wann
+
+Paraaf acc.man.:
+
+
+Stichting Veilig Thuis West-Brabant
+
+OVERIGE GEGEVENS
+Vaststelling en goedkeuring jaarrekening
+
+De raad van toezicht van Stichting Veilig Thuis West Brabant heeft de jaarrekening 2021 goedgekeurd op
+26-4-2022,
+
+Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artikel 18 lid6, dat het behaalde resultaat ter vrije beschikking staat van
+een algemeen nut beogende instelling met een soortgelijke doelstelling of van een buitenlandse instelling die
+uitsluitend of nagenoeg uitsluitend het algemeen nut beoogt en die een soortgelijke doelstelling heeft
+
+te bepalen door de raad van bestuur na overleg met de raad van toezicht.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in de resultatenrekening
+
+Gebeurtenissen na balansdatum
+
+Er hebben zich geen gebeurtenissen na balansdatum voorgedaan die van belang zijn voor deze jaarrekening.
+Nevenvestigingen
+
+Stichting Veilig Thuis West Brabant heeft geen nevenvestigingen.
+
+Controleverklaring
+
+De controleverklaring wordt apart bijgevoegd.
+
+Ondertekening door bestuurders en toezichthouders
+
+Directeur-bestuurder Voorzitter Raad van Toezicht
+J.W.M. Kuypers R. Stam
+
+Lid Raad van Toezicht Lid Raad van Toezicht
+G.J.E. Graumans R. Nunes Vas Roodveldt
+
+Lid Raad van Toezicht Lid Raad van Toezicht
+
+U.J. Possel E.W.T. van Einden
+
+Kin LOE Accor
+: voor idertificatiedoeigi nen
+
+Pagina 16 van 16 : -L
+9 Ref.lkenmerk: eo: Ô
+
+Paraaf acc.man.: ….
+
+
+Audit & Assurance
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT (ref: EOP-220428-001)
+
+Aan: Stichting Veilig Thuis West-Brabant
+
+A. Verklaring over de in het jaarverslag opgenomen jaarrekening 2021
+
+Ons oordeel
+
+Wij hebben de jaarrekening 2021 van Stichting Veilig Thuis West-Brabant te Breda gecontroleerd.
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening een getrouw beeld van de
+grootte en de samenstelling van het vermogen van Stichting Veilig Thuis West-Brabant per 31
+december 2021 en van het resultaat over 2021 in overeenstemming met de in Nederland geldende
+RJ-Richtlijn 640 Organisaties zonder winststreven, de subsidieverplichtingen zoals ze zijn opgenomen
+in de Algemene subsidieverordening Breda 2017 en de Algemene subsidieverordening Gemeente
+
+Tilburg en de bepalingen van en krachtens de Wet Normering Topinkomens.
+
+De jaarrekening bestaat uit:
+
+1. de balans per 31 december 2021;
+
+2. de winst- en verliesrekening over 2021; en
+
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële verslaggeving
+
+en andere toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de Nederlandse
+Controlestandaarden, het Algemeen accountantsprotocol financiële productieverantwoording WMO
+en Jeugdwet 2021, en het controleprotocol WNT 2021 vallen. Onze verantwoordelijkheden op grond
+hiervan zijn beschreven in de sectie ‘Onze verantwoordelijkheden voor de controle van de
+
+jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Veilig Thuis West-Brabant zoals vereist in de Wet toezicht
+accountantsorganisaties (Wta), de Verordening inzake de onafhankelijkheid van accountants bij
+assurance-opdrachten (ViO) en andere voor de opdracht relevante onafhankelijkheidsregels in
+Nederland. Verder hebben wij voldaan aan de Verordening gedrags- en beroepsregels accountants
+(VGBA).
+
+Kantoor Breda www.witloxvcs.nl Kantoor Etten-Leur
+Fellenoordstraat 72 info@witloxves.nl Bredaseweg 131
+
+4811 TJ Breda IBAN: NL79 INGB 0680 5177 15 4872 LA Etten-Leur
+Postbus 3341 BIC: INGBNL2A Postbus 194
+
+4800 DH Breda BTW nr.: NL 8197.09.682.Bo1 4870 AD Etten-Leur
+Telefoon: 076 - 522 53 30 KvK Breda nr.: 20142682 Telefoon: 076 - 503 44 83
+
+
+€,
+Witlox Ee VCS kh
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis voor
+
+ons oordeel.
+
+B. Verklaring over de in het jaarverslag opgenomen andere informatie
+
+Het jaarverslag omvat andere informatie, naast de jaarrekening en onze controleverklaring daarbij.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie met de
+
+jaarrekening verenigbaar is en geen materiële afwijkingen bevat.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip,
+verkregen vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie
+
+materiële afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de Nederlandse Standaard 720. Deze
+werkzaamheden hebben niet dezelfde diepgang als onze controlewerkzaamheden bij de
+
+jaarrekening.
+
+Het bestuur is verantwoordelijk voor het opstellen van het bestuursverslag en de overige gegevens in
+overeenstemming met de in Nederland geldende RJ-Richtlijn 640 Organisaties zonder winststreven
+
+en de bepalingen van en krachtens de Wet Normering Topinkomens.
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met het Controleprotocol WNT 2021 hebben wij de anticumulatiebepaling,
+bedoeld in artikel 1.6a WNT en artikel 5, lid 1 sub n en o, Uitvoeringsregeling WNT, niet
+gecontroleerd. Dit betekent dat wij niet hebben gecontroleerd of er wel of niet sprake is van een
+normoverschrijding door een leidinggevende topfunctionaris vanwege eventuele dienstbetrekkingen
+als leidinggevende topfunctionaris bij andere WNT-plichtige instellingen, alsmede of de in dit kader
+
+vereiste toelichting juist en volledig is.
+
+ref: EOP-220428-001 2
+
+Audit & Assurance N
+
+SE:
+EE
+
+C. Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+
+Verantwoordelijkheden van het bestuur voor de jaarrekening
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met de in Nederland geldende RJ-Richtlijn 640 Organisaties zonder winststreven
+en de bepalingen van en krachtens de Wet Normering Topinkomens. In dit kader is het bestuur
+verantwoordelijk voor een zodanige interne beheersing die het bestuur noodzakelijk acht om het
+opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als gevolg
+
+van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de organisatie in staat is om
+haar werkzaamheden in continuïteit voort te zetten. Op grond van genoemd verslaggevingsstelsel
+moet het bestuur de jaarrekening opmaken op basis van de continuïteitsveronderstelling, tenzij het
+bestuur het voornemen heeft om de organisatie te liquideren of de activiteiten te beëindigen als
+
+beëindiging het enige realistische alternatief is.
+
+Het bestuur moet gebeurtenissen en omstandigheden waardoor gerede twijfel zou kunnen bestaan
+
+of de organisatie haar activiteiten in continuïteit kan voortzetten, toelichten in de jaarrekening.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat wij
+daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven
+
+oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid waardoor
+het mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude ontdekken.
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien redelijkerwijs
+kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen zijn op de
+economische beslissingen die gebruikers op basis van deze jaarrekening nemen. De materialiteit
+beïnvloedt de aard, timing en omvang van onze controlewerkzaamheden en de evaluatie van het
+
+effect van onderkende afwijkingen op ons oordeel.
+
+ref.: EOP-220428-001
+
+€
+Witlox ves
+
+Audit & Assurance
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, het Algemeen accountantsprotocol financiële productieverantwoording WMO
+en Jeugdwet 2021, de Regeling Controleprotocol WNT 2021, de ethische voorschriften en de
+
+onafhankelijkheidseisen. Onze controle bestond onder andere uit:
+
+e hetidentificeren en inschatten van de risico’s dat de jaarrekening afwijkingen van materieel
+belang bevat als gevolg van fouten of fraude, het in reactie op deze risico’s bepalen en
+uitvoeren van controlewerkzaamheden en het verkrijgen van controle-informatie die
+voldoende en geschikt is als basis voor ons oordeel. Bij fraude is het risico dat een afwijking
+van materieel belang niet ontdekt wordt groter dan bij fouten. Bij fraude kan sprake zijn van
+samenspanning, valsheid in geschrifte, het opzettelijk nalaten transacties vast te leggen, het
+opzettelijk verkeerd voorstellen van zaken of het doorbreken van de interne beheersing;
+
+e het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als
+doel controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze
+werkzaamheden hebben niet als doel om een oordeel uit te spreken over de effectiviteit van
+de interne beheersing van de entiteit;
+
+e hetevalueren van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren van de redelijkheid van schattingen door het bestuur en de
+toelichtingen die daarover in de jaarrekening staan;
+
+e het vaststellen dat de door het bestuur gehanteerde continuïteitsveronderstelling
+aanvaardbaar is. Tevens het op basis van de verkregen controle-informatie vaststellen of er
+gebeurtenissen en omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of de
+organisatie haar bedrijfsactiviteiten in continuïteit kan voortzetten. Als wij concluderen dat
+er een onzekerheid van materieel belang bestaat, zijn wij verplicht om aandacht in onze
+controleverklaring te vestigen op de relevante gerelateerde toelichtingen in de jaarrekening.
+Als de toelichtingen inadequaat zijn, moeten wij onze verklaring aanpassen. Onze conclusies
+zijn gebaseerd op de controle-informatie die verkregen is tot de datum van onze
+controleverklaring. Toekomstige gebeurtenissen of omstandigheden kunnen er echter toe
+leiden dat een organisatie haar continuïteit niet langer kan handhaven;
+
+e het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin
+opgenomen toelichtingen; en
+
+e het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties
+
+en gebeurtenissen.
+
+ref: EOP-220428-001 4
+
+® En
+Witloxébvcs
+Audit & Assurance k
+Wij communiceren met de met governance belaste personen onder andere over de geplande
+reikwijdte en timing van de controle en over de significante bevindingen die uit onze controle naar
+voren zijn gekomen, waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Breda, 28 april 2022
+
+Witlox VCS audit B.V.
+
+Was getekend H.M. Oprinsen RA, d.d. 28 april 2022,/
+
+ref: EOP-220428-001

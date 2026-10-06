@@ -1,0 +1,2 @@
+# whosigns-ocr v1 grootte=39376 dpi=300 paginas=20
+Accountantsverklaring niet nodig, micro-entiteit.

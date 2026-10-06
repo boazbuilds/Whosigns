@@ -1,0 +1,763 @@
+# whosigns-ocr v1 grootte=799894 dpi=300 paginas=20
+KENGETALLEN FINANCIËLE POSITIE
+
+Liquiditeit
+
+Uit de liquiditeit blijkt in hoeverre een onderneming aan haar financiële verplichtingen op korte termijn
+kan voldoen. Met behulp van onderstaande kengetallen kan een inzicht worden verkregen in de
+liguiditeitspositie van de onderneming.
+
+2019 2018
+kengetal kengetal
+Current ratio (vlottende activa / kortlopende schulden) 3,54 3,12
+Quick ratio (vlottende activa minus voorraden / kortlopende schulden) 3,51 3,12
+Solvabiliteit
+
+Uit de solvabiliteit blijkt het weerstandsvermogen van een onderneming. Hoe hoog deze solvabiliteit moet
+zijn, hangt af van de aard van de onderneming. Hiervoor kunnen geen algemeen geldende normen
+worden gegeven. Met behulp van onderstaande kengetallen kan een inzicht worden verkregen in de
+solvabiliteit van de onderneming.
+
+2019 2018
+
+% %
+
+Solvabiliteitsratio I (eigen vermogen / totaal vermagen) 72 69
+Solvabiliteitsratio II (eigen vermogen / vreemd vermogen) 263 219
+
+4 FISCALE POSITIE
+
+FISCALE EENHEID
+
+Aangezien de vennootschap deel uitmaakt van een fiscale eenheid met Holding D, Toonen B.V. Is zij niet
+zelfstandig belastingplichtig. De vennootschapsbelasting wordt berekend alsof de vennootschap
+zelfstandig belastingplichtig zou zijn en wordt in rekening-courant met Holding D. Toonen B.V, verrekend.
+Voor de berekening van de door de fiscale eenheid verschuldigde vennootschapsbelasting wordt
+verwezen naar ons rapport met betrekking tot de jaarrekening van Holding D. Toonen B.V.
+
+JAARREKENING 2019
+
+5 BALANS PER 31 DECEMBER 2019
+
+ACTIVA
+
+(Na voorstel resultaatbestermming)
+
+Vaste activa
+Financiële vaste activa
+
+Vlottende activa
+Voorraden
+
+Vorderingen
+Handelsdebiteuren
+Groepsmaatschappijen
+Overlopende activa
+
+Liquide middelen
+
+Totaal
+
+31 december
+
+31 december
+
+2019 2018
+€ € € €
+
+11,925 10.402
+
+4,050 -
+237.585 349.900
+121.675 79.275
+121.071 37,755
+
+480.331 466.930
+
+4,592 38.203
+
+500.898 515,535
+
+10
+
+Samenstellingsverklaring afgegeven
+
+PASSIVA
+
+(Na voorstel resuftaatbestemming)
+
+Eigen vermogen
+Aandelenkapitaal
+Overige reserves
+
+Kortlopende schulden
+
+Schulden aan leveranciers en
+handelskredieten
+
+Belastingen en premies sociale
+verzekeringen
+
+Schulden ter zake van pensioenen
+Overlopende passiva
+
+Totaal
+
+31 december
+
+31 december
+
+2019 2018
+€ € € €
+100 100
+362.777 353.722
+362.877 353.822
+30.216 13.936
+46,404 84.385
+5.612 4,871
+55.789 58.521
+138.021 161.713
+500.898 515.535
+11 Samenstellingsverktaring afgegeven
+
+6 WINST- EN VERLIESREKENING OVER 2019
+
+2019 2018
+€ € € €
+
+Netto-omzet 1.947.896 2.064.312
+
+Brutomarge 1.947.896 2,064,312
+Personeelskosten 1.502.749 1.185.228
+
+Overige bedrijfskosten
+
+Huisvestingskosten 108.633 102.943
+
+Verkoopkosten 18.771 25.619
+
+Auto- en transportkosten 52.654 38.914
+
+Kantoorkosten 131.739 139.301
+
+Algemene kosten 131.273 139.478
+
+Som der kosten 1.945.819 1.631.483
+Bedrijfsresultaat 2.077 432.829
+Financiële baten en lasten -1.857 172
+Resultaat voor belastingen 220 433.001
+Belastingen 8.835 -99,639
+Resultaat na belastingen 9.055 333.362
+
+12 Samenstellingsverklaring afgegeven
+
+7 _KASSTROOMOVERZICHT OVER 2019
+
+Indirecte methode 2019 2018
+€ €
+
+Bedrijfsresultaat 2.077 432.829
+Mutatie van handelsdebiteuren 112.315 -157.563
+Mutatie van overige vorderingen -125.716 -194,446
+Mutatie van voorraden en onderhanden projecten -4,050 a
+Mutatie van handelscrediteuren 16.280 -3,684
+Mutatie van overige kortlopende schulden (excl. schulden
+
+kredietinstellingen) -39.,972 56.444
+Kasstroom uit bedrijfsoperaties -39.066 133.580
+Ontvangen interest 1,316 3.782
+Betaalde interest -3,173 -3.610
+Betaalde winstbelasting 8.835 -99.639
+Kasstroom uit operationele activiteiten -32.088 34.113
+Investeringen in overige financiële vaste activa =1.523 -3,549
+Kasstroom uit investeringsactiviteiten -1,523 -3.549
+Mutatie in liquide middelen -33,611 30.564
+
+13 Samenstellingsverklaring afgegeven
+
+8 ALGEMENE TOELICHTING
+
+Belangrijkste activiteiten
+De activiteiten van DeniseZorg B.V., statutair gevestigd te Zeeland bestaan voornamelijk uit het verlenen
+van thuiszorg en jeugdzorg met overnachting en dagverblijven voor jeugdzorg.
+
+Locatie feitelijke activiteiten
+
+DeniseZorg B.V. is feitelijk gevestigd te Zeeland en is ingeschreven bij het handelsregister onder nummer
+67177301.
+
+Groepsverhoudingen
+
+De vennootschap maakt deel uit van een groep, waarvan Holding D. Toonen B.V. te Zeeland aan het
+hoofd staat.
+
+14 Samenstellingsverklaring afgegeven
+
+9 GRONDSLAGEN VOOR FINANCIËLE VERSLAGGEVING
+
+ALGEMEEN
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en
+de Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen, die uitgegeven zijn door de Raad
+voor de Jaarverslaggeving.
+
+Algemene grondslagen voor waardering activa en passiva
+
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van
+historische kosten, tenzij anders vermeld.
+
+Algemene grondslagen bepaling resultaat
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die
+hun oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het
+opmaken van de jaarrekening bekend zijn geworden.
+
+Stelselwijzigingen
+De invloed van deze wijziging in waarderingsgrondslag op het vermogen per 1 januari 2019 is van te
+verwaarlozen betekenis.
+
+GRONDSLAGEN VOOR WAARDERING ACTIVA
+
+Financiële vaste activa
+
+De onder financiële vaste activa opgenomen vorderingen worden initieel gewaardeerd tegen de reële
+waarde onder aftrek van transactiekosten (indien materieel), Vervolgens worden deze vorderingen
+gewaardeerd tegen geamortiseerde kostprijs, welke in het algemeen gelijk is aan de nominale waarde,
+Bij de waardering wordt rekening gehouden met eventuele waardeverminderingen.
+
+Voorraden
+
+Voorraden grond- en hulpstoffen en handelsgoederen worden gewaardeerd tegen kostprijs of lagere
+marktwaarde, Deze lagere marktwaarde wordt bepaald door individuele beoordeling van de voorraden.
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking gewaardeerd tegen reële waarde inclusief transactiekosten
+indien materieel. De vorderingen worden na eerste verwerking gewaardeerd tegen geamortiseerde
+kostprijs. Indien er geen sprake is van agio of disagio en transactiekosten is de geamortiseerde kostprijs
+gelijk aan de nominale waarde van de vorderingen, onder aftrek van voorzieningen wegens oninbaarheid.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+15 Samenstellingsverklaring afgegeven
+
+GRONDSLAGEN VOOR BEPALING RESULTAAT
+
+Netto-omzet
+
+Onder netto-omzet wordt verstaan de opbrengsten van de in het verslagjaar geleverde goederen en
+verleende diensten onder aftrek van kortingen en de over de omzet geheven belastingen. Opbrengsten
+voortvloeiend uit de verkoop van goederen worden verantwoord op het moment dat alle belangrijke
+rechten op economische voordelen alsmede alle belangrijke risico’s zijn overgegaan op de koper. De
+kostprijs van deze goederen wordt aan dezelfde periode toegerekend. Opbrengsten van diensten worden
+opgenomen naar rato van de mate waarin de diensten zijn verricht, gebaseerd op de tot dat moment in
+het kader van de dienstverlening gemaakte kosten in verhouding tot de geschatte kosten van de totaal te
+verrichten dienstverlening. De kostprijs van deze diensten wordt aan dezelfde periode toegerekend.
+
+Overige bedrijfskosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Belastingen
+
+De vennootschapsbelasting wordt berekend tegen het geldende tarief over het resultaat van het
+boekjaar, waarbij rekening wordt gehouden met permanente verschillen tussen de winstberekening
+volgens de jaarrekening en de fiscale winstberekening, en waarbij actieve belastinglatenties (indien van
+toepassing) slechts worden gewaardeerd voor zover de realisatie daarvan waarschijnlijk is.
+
+16 Samenstellingsverklering afgegeven
+
+10 TOELICHTING OP BALANS
+
+FINANCIËLE VASTE ACTIVA
+
+Overige vorderingen (langlopend)
+Waarborgsommen
+
+Totaal
+
+VOORRADEN
+
+Gereed product en handelsgoederen
+
+Totaal
+
+VORDERINGEN
+
+Vorderingen op handelsdebiteuren, bruto
+
+Debiteuren
+Tussenrekening CAK
+
+Groepsmaatschappijen
+Rekening-courant Holding D. Toonen B.V,
+
+31 december
+
+31 december
+
+2019 2018
+€ €
+11.925 10.402
+11.925 10.402
+
+31 december
+
+31 december
+
+2019 2018
+€ €
+4,050 -
+4,050 ij
+
+31 december
+
+31 december
+
+2019 2018
+€ €
+201.871 326.293
+35.714 23.607
+237.585 349.900
+121,675 79,275
+
+17 Samenstellingsverklaring afgegeven
+
+31 december
+
+31 december
+
+2019 2018
+
+€ €
+Overlopende activa
+Nog te factureren omzet 2,500 -
+Te ontvangen subsidies 85.958 -
+Te ontvangen ziekengeld 2.700 8.965
+Vooruitbetaalde studiekosten 9.326 12.854
+Vooruitbetaalde verzekeringen 7,738 4.188
+Vooruitbetaalde huur 4,069 4.052
+Vooruitbetaalde contributies en abonnementen 4,397 1.607
+Overige vooruitbetaalde kosten - 1.043
+Overige 4,383 5.046
+
+121.071 37.755
+Totaal 480.331 466.930
+Toelichting
+Vorderingen uit hoofde van financieringstekorten AWBZ/WLZ
+Het wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidie) bedraagt
+€ 321.238.
+De vergoedingen ter dekking van het wettelijk budget bedragen € 285.523.
+Het totaal financieringstekort bedraagt € 35.714.
+Groepsmaatschappijen - Rekening-courant Holding D. Toonen B.V.
+
+2019 2018
+
+€ €
+Stand 1 januari 79.275 55.228
+Mutaties boekjaar 41.084 20.323
+Rente 1.316 3.724
+Stand 31 december 121.675 79.275
+
+Dit betreft de rekening-courant met Holding D, Toonen B.V. De maximale kredietverlening bedraagt €
+75.000. Over het gemiddeld saldo wordt een rentevergoeding berekend gebaseerd op de hoogste van de
+vaste rente van 2,5% en de variabele rente van het 12-maands Euribor tarief op 1 januari van enig
+
+kalenderjaar met een opslag van 2%.
+
+18 Samenstellingsverklaring afgegeven
+
+LIOQOUIDE MIDDELEN
+31 december 31 december
+
+2019 2018
+€ €
+
+Banktegoeden
+Rabobank rekening-courant 1266.490,57 4.392 11.703
+Rabobank bedrijfsspaarrekening 1472.689.186 - 26.500
+
+4.392 38.203
+Kasmiddelen 200 -
+Totaal 4.592 38.203
+
+Ter vrije beschikking
+De liquide middelen staan ter vrije beschikking.
+
+19 Samenstellingsverklaring afgegeven
+
+EIGEN VERMOGEN
+
+Aandelenkapitaal
+Overige reserves
+
+Totaal
+
+31 december 31 december
+
+2019 2018
+€ €
+100 100
+362.777 353.722
+362,877 353.822
+
+Onderstaand overzicht geeft het verloop van het eigen vermogen gedurende het boekjaar weer:
+
+Stand 1 januari 2019
+
+Mutaties 2019
+Resultaat boekjaar
+
+Stand 31 december 2019
+
+Aandelenkapitaal
+
+Aandelen- Overige
+kapitaal reserves Totaal
+
+€ € €
+
+100 353.722 353.822
+
+= 9,055 9.055
+
+n 9,055 9,055
+
+100 362.777 _ 362.877
+
+Het geplaatst kapitaal van de vennootschap bedraagt € 100, verdeeld in 100 gewone aandelen van elk
+
+nominaal € 1,
+
+KORTLOPENDE SCHULDEN
+
+Schulden aan leveranciers en handelskredieten
+
+Belastingen en premies sociale verzekeringen
+Loonheffing- en premieschuiden
+Schulden ter zake van pensioenen
+
+Overlopende passiva
+
+Reservering vakantiegeld
+
+Reservering vakantiedagen/eindejaarsuitkering
+Te betalen huurkosten
+
+Nettoloon
+
+Vooruitontvangen bedragen
+
+Overige
+
+Totaal
+
+20
+
+31 december 31 december
+
+2019 2018
+€ €
+30.216 13.936
+46.404 84.385
+
+5.612 4.871
+47.983 40.547
+- 5.651
+
+- 8.370
+
+- 2.561
+
+2.750 -
+5.056 1.392
+55.789 58.521
+138.021 161.713
+
+Samenstellingsverklaring afgegeven
+
+NIET IN DE BALANS OPGENOMEN VERPLICHTINGEN
+
+Fiscale eenheid
+De rechtspersoon maakt deel uit van een fiscale eenheid voor de vennootschapsbelasting en is uit dien
+hoofde hoofdelijk aansprakelijk voor de belastingschuld van de fiscale eenheid als geheel.
+
+Betalingen ter verkrijging van (gebruiks)rechten
+
+De vennootschap huurt de bedrijfsruimte aan het Brouwerspad 11A, 13A en 13B te Zeeland. De
+huurovereenkomst is ingegaan op 1 september 2016 en loopt tot en met 31 augustus 2018. Na het
+verstrijken van deze periode wordt de huur telkens voortgezet met een periode van 1 jaar. De huurprijs
+bedraagt € 2.973,22 per maand en wordt jaarlijks geïndexeerd.
+
+De vennootschap huurt de bedrijfsruimte aan de Kloosterstraat 8 te Zeeland. De huurovereenkomst is
+Ingegaan op 31 oktober 2016 en heeft een onbepaalde looptijd, De huurprijs bedraagt € 2.230,80 per
+maand en wordt jaarlijks geïndexeerd,
+
+De vennootschap huur de bedrijfsruimte aan de Kerkstraat 11A te Zeeland. De huurovereenkomst is
+ingegaan op 1 februari 2018 en loopt tot en met 31 januari 2020. Na het verstrijken van deze periode
+wordt de huur telkens voortgezet met een periode van 2 jaar. De huurprijs bedraagt € 1.772,58 per
+maand en wordt jaarlijks geïndexeerd.
+
+Operationele lease
+Door de tot de groep behorende vennootschap zijn 5 operational leaseverplichtingen aangegaan, met een
+looptijd tot 2022 (5 jaar). De verplichting bedraagt ongeveer € 5.500 per jaar per geleasde auto.
+
+21 Samenstellingsverklaring afgegeven
+
+11 TOELICHTING OP WINST- EN VERLIESREKENING
+
+OMZET EN BRUTOMARGE
+
+2019 2018
+€ €
+Netto-omzet
+Omzet ZVW 1.320.436 1.366.721
+Omzet JW 288.776 285.112
+Omzet WLZ 369.166 254.660
+Omzet voorgaand jaar -30.482 157.819
+Som der bedrijfsopbrengsten 1.947.896 2.064.312
+Brutomarge (brutobedrijfsresultaat) 1.947.896 2.064,312
+PERSONEELSKOSTEN
+2019 2018
+€ €
+Lonen en salarissen
+Bruto lonen 1.257.508 823.003
+Mutatie vakantiegeld 7.436 24.180
+Mutatie vakantiedagen/eindejaarsuitkering „5.651 3.200
+Doorbelaste personeelskosten -29,137 -
+Ontvangen ziekengeld -103.215 -43,350
+Ontvangen subsidies =122.705 -17.148
+1,004.236 789.885
+Sociale lasten
+Sociale lasten 212.112 134.056
+Kosten arbodienst/verzuimbegeleiding/ziekengeldverzekering 32.946 30.141
+245.058 164.197
+Pensioenlasten 95.782 65.298
+Andere personeelskosten
+Managementfee kosten 99.000 99.000
+Studie- en opleidingskosten 28.220 15.723
+Onkosten/reiskostenvergoedingen 27.781 42.076
+Kosten werkkleding 1.637 8.152
+Overige personeelskosten 1.035 897
+157.673 165.848
+Totaal 1.502.749 1.185.228
+
+22 Samenstellingsverklaring afgegeven
+
+OVERIGE BEDRIJFSKOSTEN
+
+2019 2018
+
+€ €
+Huisvestingskosten
+Huur Brouwerspad 33.395 26.623
+Huur Kloosterstraat 27.014 26.770
+Huur Kerkstraat 21.271 19,140
+Energiekosten Brouwerspad 9,152 4.357
+Energiekosten Kloosterstraat 1,721 5.912
+Energiekosten Kerkstraat 3.259 2.920
+Onderhoud onroerende zaken 1,911 9.054
+Schoonmaakkosten 3.936 3.642
+Bewakingskosten 1,457 1.769
+Belasting onroerende zaken 1.274 625
+Overige hulsvestingskosten 4,243 2.131
+
+108.633 102.943
+Verkoopkosten
+Reclame- en advertentiekosten 8,220 11.582
+Kosten congressen, seminairs en trainingen 9,751 13.524
+Sponsoring 75 150
+Representatie- en verteerkosten 494 el
+Reiskosten en verblijfkosten 38 363
+Overige verkoopkosten 193 -
+
+18.771 25.619
+
+Auto- en transportkosten
+Leasekosten 27.184 20.642
+Motorrijtuigenbelasting 519 569
+Brandstoffen 10.705 4,822
+Reparatie en onderhoud 6,416 6.174
+Schade-uitkeringen = -1,928
+Verzekeringen 6.418 7.023
+Boetes en parkeerbelasting 332 -
+Overige autokosten 1.080 1.612
+
+52.654 38.914
+Kantoorkosten
+Huurkosten inventaris en auto 60.000 50.000
+Kantoorbenodigdheden 2.838 7.343
+Drukwerkkosten 801 686
+Kosten onderhoud hardware en software 19.235 16.838
+Telefoon- en internetkosten 18.699 18.783
+Portikosten 7 241
+Contributies/abonnementen/vakliteratuur 18.409 11.178
+Huur printers 3.581 3.581
+Onderhoud inventaris 1.715 45
+Kleine aanschaffingen 6.454 30,606
+
+131.739 139.301
+
+23 Samenstellingsverklaring afgegeven
+
+Algemene kosten
+Accountantskosten (vaste kosten)
+Accountantskosten (kosten AFAS)
+Accountantskosten (overige)
+Loonadministratiekosten
+Advieskosten (PDCU)
+Advieskosten (overige)
+Doorbelaste advieskosten
+Verzekeringen algemeen
+
+Kosten uitstapjes
+
+Kosten toezichthouders
+Zorgkosten
+
+Kosten huishouden
+
+Overige algemene kosten
+
+Totaal
+
+FINANCIËLE BATEN EN LASTEN
+
+Rentebaten groepsmaatschappijen
+Rente rekening-courant Holding D. Toonen B.V.
+
+Rentebaten andere partijen
+Rentelasten banken
+
+Rentelasten andere partijen
+Rente en kosten belastingdienst
+
+Financiële baten en lasten (saldo)
+
+BELASTINGEN
+
+Vennootschapsbelasting huidig boekjaar
+
+Belastingen resultaat
+
+2019 2018
+€ €
+5.279 5.017
+1.198 109
+9.002 3.516
+18.482 9.650
+56.708 42.874
+31.059 38.171
+-19.481 -
+6.377 10.498
+1.286 -
+448 448
+1.168 6.587
+18.273 19.759
+1.474 2.849
+131.273 139.478
+443.070 446.255
+2019 2018
+€ €
+1.316 3.724
+- 58
+-643 -542
+-2.530 -3.068
+-1.857 172
+2019 2018
+€ €
+-8.835 99.639
+-8,835 99.639
+
+24 Samenstellingsverklaring afgegeven
+
+12 OVERIGE TOELICHTINGEN
+
+WERKNEMERS
+Het gemiddelde aantal werknemers gedurende het boekjaar bij DeniseZorg B‚V. bedroeg:
+Gemiddeld aantal werknemers over periode 2019 2018
+fte fte
+Werkzaam binnen Nederland 30,0 22,5
+
+Toelichting gemiddeld aantal werknemers
+Aantal FTE stroming:
+
+- ZVW 20 (2018 14)
+-JW 4 (2018 5)
+- WLZ 6 (2018 4)
+
+RESULTAATBESTEMMING
+
+Resultaatbestemming
+
+De algemene vergadering heeft de bestemming van het resultaat over het boekjaar 2018 vastgesteld
+conform het daartoe gedane voorstel.
+
+Voorstel resultaatbestemming
+
+De directie stelt aan de algemene vergadering voor het resultaat over het boekjaar 2019 ten bedrage van
+€ 9,055 geheel ten gunste van de overige reserves te brengen.
+
+ONDERTEKENING
+Zeeland, 3 juli 2020
+Naam Functie Rechtspersoon Handtekening
+7 E
+D.P.H. Haerkens-Toonen Bestuurder Holding D. Toonen BV. _ { As A =>
+AAM ve Sper
+> Kd
+C. Vandermaelen leealehender
+N. Mols he 1)
+
+25 Samenstellingsverklaring afgegeven
+
+WNT-verantwoording 2019 DeniseZorg B.V.
+
+De WNT is van toepassing op DeniseZorg B.V. Het voor DeniseZorg B.V. toepasselijke
+bezoldigingsmaximum is in 2019 € 107.000 (Klasse 1).
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+bedragen x € 1 D, Haerkens-Toonen
+
+Functiegegevens DGA
+Aanvang en einde functievervulling in 01/01 — 31/12
+2019
+
+Omvang dienstverband (als 1,0
+deeltijdfactor in fte)
+
+Dienstbetrekking? ja
+Bezoldiging
+
+Beloning plus belastbare
+
+onkostenvergoedingen 72000
+Beloningen betaalbaar op termijn 0
+Subtotaal 75.000
+Individueel toepasselijke 107.000
+bezeldieingsmaximum
+
+-/- Onverschuldigd betaald en nog niet Nvt
+terugontvangen bedrag ain
+Totale bezoldiging 75.000
+
+Reden waarom de overschrijding al dan
+niet is toegestaan
+
+Toelichting op de vordering wegens
+onverschuldigde betaling
+
+Zie toelichting
+
+N.v.t.
+

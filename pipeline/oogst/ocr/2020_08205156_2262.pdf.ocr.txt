@@ -1,0 +1,994 @@
+# whosigns-ocr v1 grootte=1252207 dpi=300 paginas=20
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Jaarverslag
+
+Kengetallen
+
+(in euro's)
+
+Solvabiliteit
+
+De solvabiliteit geeft aan in welke mate een onderneming op langere termijn in staat moet
+worden geacht haar verplichtingen jegens derden te kunnen voldoen. Indien het eigen
+vermogen wordt uitgedrukt in een verhouding tot het totale vermogen geldt dat de norm 33
+1/3% (of meer) is. Indien het eigen vermogen wordt gesteld tegenover het vreemde
+vermogen, geldt dat de norm 50% (of hoger) is.
+
+eigen vermogen
+totaal vermogen
+
+x 100%
+
+eigen vermogen
+vreemd vermogen
+
+x 100%
+
+2020 2019
+45,3% 55,9%
+82,8% 127,0%
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Balans per 31 december 2020
+(na resultaatbestemming)
+
+ACTIEF
+(in euro's)
+Toelichting 31 december 2020 31 december 2019
+VASTE ACTIVA
+Materiële vaste activa 1
+Inventaris 62.003 75.256
+Transportmiddelen 1.235 1.623
+63.238 76.879
+VLOTTENDE ACTIVA
+Vorderingen en overlopende activa 2
+Nog te ontvangen declaraties 218.850 87.451
+Overlopende activa __ 19259 _ 10692
+238.109 98.143
+Liquide middelen 3 92.591 40.943
+393.938 215.965
+
+(Samenstellingsverklaring afgegeven)
+
+10
+
+PASSIEF
+
+(in euro's)
+Toelichting 31 december 2020 31 december 2019
+Eigen vermogen 4
+Gestort en opgevraagd kapitaal 18.000 18.000
+Algemene reserve 160.494 102.817
+178.494 120.817
+Langlopende schulden 5
+Schulden aan kredietinstellingen 37.299 -
+37.299 -
+Kortlopende schulden en overlopende passiva 6
+Kortlopende deel schulden op lange termijn 10.172 -
+Groepsmaatschappijen 18.099 -
+Crediteuren 9.072 5.217
+Belastingen en sociale lasten 71.654 56.090
+Overlopende passiva __ 69148 33841
+8145 518
+
+393.938 215.965
+
+11
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Winst-en-verliesrekening 2020
+
+(in euro's)
+Toelichting _ 2020 2019
+Netto-omzet 7 1.677.315 1.209.576
+Kostprijs van de omzet 8 (18.971) (20.409)
+Bruto omzetresultaat 1.658.344 1.189.167
+Overige bedrijfsopbrengsten 9 4.522 -
+Brutomarge 1.662.366 1.189.167
+Salarissen en sociale lasten 10 1.098.805 786.365
+Afschrijvingskosten 11 20.020 8.394
+Overige bedrijfskosten: 12
+Overige personeelskosten 105.314 139.260
+Huisvestingskosten 78.078 65.043
+Administratie- en advieskosten 37.417 25.450
+Kantoorkosten 77.841 57.109
+Autokosten 18.719 3.898
+Verkoopkosten 1.577 5.549
+Algemene kosten 3.170 2.348
+Managementkosten 150.000 150.000
+Som der bedrijfskosten 1.590,932 1.243.416
+Bedrijfsresultaat 71.934 (54.249)
+Rentelasten en soortgelijke kosten (2.889) 6.400
+Financiële baten en lasten 13 (2.889) 6.400
+Resultaat voor belasting 69.045 (47.849)
+Belastingen 14 (11.366) 12.003
+Nettoresultaat na belastingen 57.679 (35.846)
+
+(Samenstellingsverklaring afgegeven)
+
+12
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Algemene toelichting en grondslagen voor
+financiële verslaggeving
+
+Informatie over de rechtspersoon
+Naam
+
+IJsselzorg B.V.
+
+Rechtsvorm
+
+Besloten vennootschap met beperkte aansprakelijkheid
+
+Zetel
+
+Warnsveld
+
+Registratienummer bij de Kamer van Koophandel
+08205156
+
+Classificatie op basis van de wettelijke groottecriteria
+
+Klein
+
+Bedrijfsactiviteiten
+
+De organisatie heeft als SBl-code 86104 en verricht met name activiteiten op het gebied van:
+
+a. Het aanvragen van indicaties voor zorg, het bemiddelen met zorgverleners en zorginstellingen bij zorgbehoefte van cliënten,
+het afsluiten van zorgcontracten, het verzorgen van met vorenstaande verband houdende administratieve werkzaamheden, het
+beheren, administreren en verwerken van met vorenstaande verband houdende gelden en budgetten en het verrichten van alle
+handelingen die nodig zijn om als “instelling” te worden gekwalificeerd zoals bedoeld in de Wet Toelating Zorginstellingen.
+
+b. Het oprichten en verwerven van, het deelnemen in, het samenwerken met, het besturen van, alsmede het doen financieren
+van andere ondernemingen, in welke rechtsvorm ook.
+
+c. Het verstrekken en aangaan van geldleningen, het beheren van en het beschikken over registergoederen en het stellen van
+zekerheden, ook voor schulden van anderen.
+
+d. Het verrichten van alle verdere handelingen, die met het vorenstaande verband houden of daartoe bevorderlijk kunnen zijn.
+
+Vestigingsadres
+
+Lochemseweg 3
+7231 PD Warnsveld
+
+13
+
+Ijsselzorg B.V.
+gevestigd te Warnsveld
+
+Algemene toelichting en grondslagen voor
+financiële verslaggeving
+
+Algemene grondslagen voor verslaggeving
+
+Algemeen
+
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW.
+Voorts is rekening gehouden met het bepaalde in de Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen.
+
+In de jaarrekening is het voorstel tot resultaatbestemming verwerkt. De jaarrekening is opgesteld op basis van historische kosten.
+De gehanteerde grondslagen van waardering en resultaatbepaling zijn niet gewijzigd ten opzichte van vorig jaar.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts opgenomen voor zover
+zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun oorsprong vinden voor het einde van het
+verslagjaar, worden in acht genomen indien zij voor het opmaken van de jaarrekening bekend zijn geworden.
+
+De gehanteerde grondslagen voor waardering en resultaatbepaling zijn gebaseerd op continuïteitsveronderstelling. Echter als
+gevolg van de uitbraak van het coronavirus wereldwijd, zijn door de Nederlandse overheid ingrijpende maatregelen genomen om
+de verspreiding van dit virus onder controle te krijgen. Deze maatregelen hebben naar verwachting belangrijke financiële
+gevolgen voor ondernemingen in Nederland. Deze gevolgen zijn op dit moment nog niet te overzien alsmede nog niet de impact
+op het resultaat van de onderneming. Ook de financiële positie, liquiditeit en solvabiliteit, van de onderneming kan daardoor
+onder druk komen te staan met als gevolg mogelijke onzekerheid over de continuïteit. Door de Nederlandse overheid zijn
+meerdere maatregelen genomen ter ondersteuning van ondernemers. Op grond van de financiële positie per balansdatum en de
+positieve invloed van de ondersteuningsmaatregelen door de overheid, die de negatieve financiële gevolgen van de uitbraak van
+het coronavirus zullen beperken, acht de leiding van de onderneming een duurzame voortzetting van de bedrijfsuitoefening niet
+onmogelijk. De jaarrekening is dan ook opgemaakt uitgaande van de veronderstelling van continuïteit van de onderneming.
+
+Fiscale waarderingsgrondslag
+
+De toepassing van de fiscale waarderingsgrondslag heeft niet geleid tot een afwijking in de waardering volgens Titel 9 Boek 2 BW,
+afdeling 6.
+
+Grondslagen voor de waardering van activa en passiva
+
+Activa en passiva
+Alle activa en passiva worden gewaardeerd tegen nominale waarde, tenzij anders vermeld.
+
+Materiële vaste activa
+
+Inventaris
+De inventaris wordt gewaardeerd tegen aanschafwaarde verminderd met lineair berekende afschrijvingen na ingebruikname,
+gebaseerd op de verwachte economische levensduur.
+
+14
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Algemene toelichting en grondslagen voor
+financiële verslaggeving
+
+Transportmiddelen
+De transportmiddelen worden gewaardeerd tegen aanschafwaarde verminderd met lineair berekende afschrijvingen na
+ingebruikname, gebaseerd op de verwachte economische levensduur.
+
+Vorderingen en overlopende activa
+
+De vorderingen op korte termijn worden gewaardeerd tegen de nominale waarde, zonodig onder aftrek van een voorziening uit
+hoofde van oninbaarheid.
+
+Liquide middelen
+
+De liquide middelen staan, voor zover niet anders vermeld, ter vrije beschikking van de onderneming en betreffen de direct
+opeisbare vorderingen op kredietinstellingen en kasmiddelen.
+
+Reserves
+
+Algemene reserve
+
+De algemene reserve betreft de in het verleden toegerekende winsten, welke ter vrije beschikking staan voor de Algemene
+Vergadering.
+
+Langlopende schulden
+
+De langlopende schulden betreffen leningen met een looptijd groter dan één jaar. Het gedeelte van de leningen dat wordt
+afgelost in het komende jaar is opgenomen onder de kortlopende schulden. In de toelichting op de balans is een specificatie
+opgenomen.
+
+Kortlopende schulden en overlopende passiva
+
+De kortlopende schulden en overlopende passiva betreffen schulden met een looptijd van ten hoogste één jaar en worden - voor
+zover niet anders vermeld - gewaardeerd tegen nominale waarde.
+
+Grondslagen voor de bepaling van het resultaat
+
+Netto-omzet
+
+Onder netto omzet wordt verstaan de aan derden in rekening gebrachte bedragen, exclusief omzetbelasting, voor geleverde
+goederen en diensten.
+
+Kostprijs van de omzet
+
+Onder kostprijs van de omzet wordt verstaan de aan de netto omzet direct toe te rekenen verbruikte grondstoffen alsmede
+kosten van fabricage tegen inkoopwaarde, dan wel bij handelsgoederen de directe inkoopwaarde. Tevens zijn, indien van
+
+toepassing, inbegrepen de afwaardering van voorraden tot lagere marktwaarde, alsmede getroffen voorzieningen voor
+incourante voorraden.
+
+15
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Algemene toelichting en grondslagen voor
+financiële verslaggeving
+
+Overige bedrijfsopbrengsten
+
+Onder de overige bedrijfsopbrengsten worden die opbrengsten verantwoord, die niet voortkomen uit de gebruikelijke levering
+van goederen en diensten.
+
+Salarissen en sociale lasten
+
+Lonen, salarissen, sociale lasten en pensioenlasten worden op grond van de arbeidsvoorwaarden verwerkt in de winst-en-
+verliesrekening voor zover ze verschuldigd zijn aan werknemers.
+
+Afschrijvingskosten
+
+De afschrijvingskosten op vaste activa worden berekend door middel van vaste percentages van de aanschafwaarde,
+respectievelijk bestede kosten, gebaseerd op de verwachte economische levensduur.
+
+De overige bedrijfskosten worden toegerekend aan de periode waarop ze betrekking hebben.
+
+Rentelasten en soortgelijke kosten
+
+Rentelasten en soortgelijke kosten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet.
+
+Belastingen
+
+Als belastingen over het resultaat wordt verantwoord de over het resultaat berekende vennootschapsbelasting op basis van het
+geldende tarief, rekening houdend met vrijgestelde winstbestanddelen, investerings- en overige faciliteiten.
+
+(Samenstellingsverklaring afgegeven)
+
+16
+
+ijsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de balans
+
+(in euro's)
+
+VASTE ACTIVA
+
+1) Materiële vaste activa
+
+Recapitulatie van de boekwaarde per 31 december 2019
+
+Aanschafwaarden
+Afschrijvingen
+
+Overzicht mutaties 2020
+
+Stand 31 december 2019
+Investeringen
+Afschrijvingen
+
+Stand 31 december 2020
+
+Recapitulatie van de boekwaarde per 31 december 2020
+
+Aanschafwaarden
+Afschrijvingen
+
+Afschrijvingspercentage
+
+VLOTTENDE ACTIVA
+
+2) Vorderingen en overlopende activa
+
+Recapitulatie van de vorderingen en overlopende activa
+
+Nog te ontvangen declaraties
+Overlopende activa
+
+Nadere specificatie van de vorderingen en overlopende activa
+
+Nog te ontvangen declaraties
+
+Openstaande declaraties
+
+. Transport-
+Inventaris middelen Totaal
+95.821 2.158 97.979
+(20.565) (535) (21.100)
+75.256 1.623 76.379
+75.256 1,623 76.879
+6.379 - 6.379
+(19.632) (338) (20.020)
+62.003 1.235 63.238
+102.200 2.158 104.358
+(40.197) (923) (41.120)
+62.003 1.235 63.238
+20% 20%
+31-12-2020 31-12-2019
+218.850 87.451
+19.259 10.692
+238.109 98.143
+218.850 87.451
+
+17
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de balans
+
+(in euro's)
+
+Overlopende activa
+
+Overige vorderingen
+
+Voorraad kantoorbenodigdheden
+Vooruitbetaalde kosten
+Waarborgsommen
+
+3) Liquide middelen
+
+Kasboek (winkel dagbesteding)
+
+ABN AMRO rekening-courant 021
+
+ABN AMRO rekening-courant 866 (dagbesteding)
+Kasboek (algemeen dagbesteding)
+
+31-12-2020 31-12-2019
+6.310 -
+835 1.670
+10.285 8.028
+1.829 994
+19.259 10.692
+897 599
+90.300 38.407
+1.385 1.937
+Ee) -
+92.591 â0.943
+
+18
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de balans
+
+(in euro's}
+PASSIVA
+
+4) Eigen vermogen
+
+Recapitulatie van het eigen vermogen 31-12-2020 31-12-2019
+Gestort en opgevraagd kapitaal 18.000 18.000
+Algemene reserve 160.494 102.817
+178.494 120.817
+Nadere specificatie en verloop van het eigen vermogen
+Gestort en opgevraagd kapitaal 2020 2019
+Stand 1 januari 18.000 18.000
+Stand 31 december 18.000 18.000
+Specificatie van het aandelenkapitaal
+Maatschappelijk kapitaal Geplaatst kapitaal
+Nominale Waarvan Geplaatst en Waarde van de
+Aantal aandelen geplaatst en volgestort .
+waarde per soort plaatsing en
+deel per soort volgestortop31- volgestort op 31- gedurende de storting
+aan 12-2020 periode
+Gewone aandelen 1,00 18.000 18.000 - -
+18.000 18.000 - -
+Algemene reserve 2020 2019
+Stand 1 januari 102.815 505.077
+Nettoresultaat na belastingen 57.679 (35.846)
+Dividend - (366.414)
+Stand 31 december 160.494 102.817
+
+Resultaatbestemming
+
+Voorstel
+
+De directie heeft voorgesteld om de winst na belasting, ad € 57.679, toe te voegen aan de algemene reserve
+op een daartoe strekkend besluit van de algemene vergadering is dit voorstel in de jaarrekening verwerkt.
+
+5) Langlopende schulden
+Recapitulatie van de langlopende schulden
+
+Schulden aan kredietinstellingen
+
+31-12-2020
+
+„ Vooruitlopend
+
+31-12-2019
+
+37.299
+
+19
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de balans
+
+(in euro's)
+
+Hieronder volgt een specificatie van het verloop van de langlopende schulden. De aflossing voor het komende jaar is
+opgenomen onder de kortlopende schulden en overlopende passiva (6).
+
+Lang- +
+
+Nieuwe lening Aflossing Aflossing Langlopende
+bve gedurende gedurende komende schuldper 31-
+31-12-2019 2020 2020 periode 12-2020
+Lening - 50.000 (2.529) (10.172) 37.299
+Nadere specificatie van de langlopende schuiden
+Kortlopende deel Deel met een
+% hee Hoofdsom Ten - Se il per 31-12- looptijd
+Kalden 2020 > 5 jaar
+Lening 5,39 57 50.000 47.471 (10.172) -
+
+Nadere toelichting per schuld
+
+Lening betreft een schuld aan kredietinsteiling New10 BV.
+
+De lening in hoofdsom groot €50.000 is op 3 februari 2020 verstrekt en ondergebracht bij New10 BV en heeft als doel de
+financiering van bedrijfsactiviteiten. De lening dient in 60 maandelijkse termijnen te worden afgelost. Vervroegde aflossingen
+zijn toegestaan. Als zekerheden zijn verstrekt: pandrecht op alte goederen, hoofdelijke verbondenheid IJsselzorg BV inclusief
+pandrecht op vorderingen door regres of subrogatie, borgtocht ad €12.500 door L. Traas-van der Stoep en M. Traas. Er is 5,39%
+rente berekend over het uitstaande saldo. Het rentepercentage staat vast tot einde looptijd. Als coronamaatregel is er niet
+afgelost over de maanden april tot en met september 2020 en wordt de termijn van oktober verdeeld over de resterende
+maanden aflossing.
+
+6) Kortlopende schulden en overlopende passiva
+
+Recapitulatie van de kortlopende schulden en overlopende passiva 31-12-2020 31-12-2019
+Kortlopende deel schulden op lange termijn 10.172 -
+Groepsmaatschappijen 18.099 -
+Crediteuren 9.072 5.217
+Belastingen en sociale lasten 71.654 56,090
+Overlopende passiva 69.148 33.841
+178.145 95,148
+
+Nadere specificatie van de kortlopende schulden en overlopende passiva
+Kortlopende deel schulden op lange termijn
+
+Kortlopende deel schulden aan kredietinstellingen 10.172 -
+
+Groepsmaatschappijen
+
+Rekening courant IJsselzorg Holding BV 18.099 -
+
+20
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de balans
+
+(in euro's)
+
+Nadere toelichting per post
+
+Rekening courant IJsselzorg Holding BV
+
+Er is 3,2% rente berekend over het gemiddelde saldo. Omtrent aflossingsverplichtingen en gestelde zekerheden zijn geen
+
+nadere afspraken schriftelijk vastgelegd.
+
+Crediteuren
+
+Crediteuren
+
+Belastingen en sociale lasten
+
+Af te dragen loonheffing
+Af te dragen pensioenpremies
+Af te dragen overige belastingen en premies
+
+Overlopende passiva
+
+Nog te betalen personeelskosten
+
+Nog te betalen administratie-, accountants- en advieskosten
+Te betalen kosten
+
+Reservering vakantiegeld en -dagen
+
+Nettolonen
+
+Reservering LBB (loopbaanbudget})
+
+(Samenstellingsverklaring afgegeven)
+
+31-12-2020 31-12-2019
+
+9.072 5.217
+69.631 51.050
+1.420 4.725
+603 315
+71.654 56.090
+26.347 6.530
+15.772 12.986
+1.822 33
+8.492 -
+328 5.968
+16.387 8.324
+69.148 33.841
+
+21
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Niet in de balans opgenomen verplichtingen
+
+Commissarissen
+
+In 2020 zijn er 2 commissarissen. Conform de statuten dient de Raad van Commissarissen uit minimaal 3 of meer natuurlijke
+personen te bestaan.
+
+Krediet
+
+De rechtspersoon is mede hoofdelijk aansprakelijk voor de schulden aan de ABN AMRO Bank van IJsselzorg Holding B.V.
+
+Fiscale eenheid
+
+De rechtspersoon maakt deel uit van een fiscale eenheid voor de vennootschapsbelasting met IJsselzorg Holding B.V. en is uit
+dien hoofde hoofdelijk aansprakelijk voor de belastingschulden van de fiscale eenheid als geheel.
+
+Huurovereenkomst pand Alrnelo
+
+Het gehuurde betreft kantoorunit 13A tm 13D gelegen aan de Stationsstraat 11 te Almelo. De overeenkomst is aangegaan voor
+de duur van 1 jaar, ingaande op 01-10-2020 en lopende tot en met 30-9-2021. Nadien zal de overeenkomst telkens voor 1 jaar
+worden voortgezet. Bij beëindiging dient men rekening te houden met een opzegtermijn van 3 maand. De huurprijs bedraagt bij
+ingang van het contract €10.071 per jaar en zal jaarlijks op 1 oktober geïndexeerd worden. De eerste zeven jaar wordt de
+huurprijs met 5% geïndexeerd naast de huurprijsindexatie. Er zal geen omzetbelasting in rekening worden gebracht.
+
+Huurovereenkomst pand Apeldoorn
+
+Het gehuurde betreft kantoorunit 6 gelegen aan Linie 578) te Apeldoorn. De overeenkomst is aangegaan voor de duur van 2 jaar,
+ingaande op 01-12-2019 en lopende tot en met 30-11-2021. Nadien zal de overeenkomst telkens met 2 jaar worden verlengd. Bij
+beëindiging dient men rekening te houden met een opzegtermijn van 9 maand. De huurprijs bedraagt bij ingang van het contract
+€4.887,93 per jaar en zal jaarlijks op 1 december geïndexeerd worden. Er zal geen omzetbelasting in rekening worden gebracht,
+
+Huurovereenkomst pand Doetinchem
+
+Het gehuurde betreft kantoorunit 0.03 in Het Raadhuis gelegen aan het Raadhuisplein 1 te Wehl. De overeenkomst is aangegaan
+voor de duur van 1 jaar, ingaande op 01-12-2019 en lopende tot en met 30-11-2020. Nadien zal de overeenkomst telkens met 1
+jaar worden verlengd. Bij beëindiging dient men rekening te houden met een opzegtermijn van 3 maand. De huurprijs bedraagt
+bij ingang van het contract €4.784 per jaar en zal jaarlijks op 1 januari geïndexeerd worden, voor het eerst in 2021. Er zal geen
+omzetbelasting in rekening worden gebracht.
+
+(Samenstellingsverklaring afgegeven)
+
+22
+
+Ijsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de winst-en-verliesrekening
+
+(in euro's)
+2020 2019
+7) Netto-omzet
+Omzet dienstverlening 1.677.013 1.208.878
+Omzet winkel 302 698
+1.677.315 1.209.576
+8) Kostprijs van de omzet
+Kostprijs omzet 18.971 20.409
+Nadere specificatie van de bovenstaande omzet- en kostengroepen
+Omzet dienstverlening
+Omzet regio Zutphen / Lochem 784.200 733.584
+Omzet regio Twente 445.367 214.939
+Omzet regio Apeldoorn / Deventer 96.351 23.081
+Omzet regio Achterhoek 98.279 56.152
+Omzet PGB 206 11.221
+Omzet forensische zorg 221.784 154.541
+Omzet overig 30.826 15.360
+1.677.013 1.208.878
+Omzet winkel
+Verkoop winkel dagbesteding (DB) 302 698
+Kostprijs omzet
+Inkopen (algemeen) - 3.399
+Inkopen (DB) 4,934 6.823
+Boodschappen dagbesteding (DB) 14.037 10.187
+18.971 20.409
+9) Overige bedrijfsopbrengsten
+Overige opbrengsten incidenteel 4,522 -
+10) Salarissen en sociale lasten
+Lonen en salarissen 866.225 626.188
+Sociale lasten 159.181 108.428
+Pensioenlasten 73.399 51.749
+
+1.098.805 786.365
+
+23
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de winst-en-verliesrekening
+
+(in euro's)
+
+Nadere specificatie van de lonen en salarissen, sociale lasten en pensioenlasten
+Lonen en salarissen
+
+Brutolonen
+
+Mutatie reservering individueel keuzebudget (o.a. vakantietoeslag)
+Kosten Raad van Toezicht
+
+Mutatie reserverig vakantiedagen
+
+Zorgbonus (bruto)
+
+Eindheffing loonbelasting (incl. t.b.v. zorgbonus)
+
+Subsidie zorgbonus
+
+Afdrachtvermindering/subsidie
+
+Ziekengeld
+
+Sociale lasten
+
+Sociale lasten
+
+Pensioenlasten
+
+Pensioenpremies
+
+Gemiddeld aantal werknemers
+Toelichting
+
+Het gemiddeld aantal werknemers bedroeg gedurende de gerapporteerde periode: 18,42 (vorige periode: 14,67).
+
+Bezoldiging van bestuurders en commissarissen
+
+Vrijstelling
+
+2020 2019
+751.917 534.456
+128.857 91.411
+
+3.000 1.250
+8.492 -
+23.000 -
+18.360 -
+(41.350) -
+(5.352) -
+(20.199) (929)
+866.225 626.188
+159,181 108.423
+73.399 51.749
+
+De Raad van Commissarissen bestond in 2020 uit 2 commissarissen. Aan deze commissarissen is een vergoeding van in totaal
+
+€3.000 verstrekt.
+
+11) Afschrijvingskosten
+
+Afschrijving op materiële vaste activa
+
+Nadere specificatie van de afschrijvingskosten
+Afschrijving op materiële vaste activa
+
+Afschrijving inventaris
+Afschrijvingen vervoermiddelen
+
+20.020 8.394
+19.632 8.007
+
+388 387
+20.020 8.394
+
+24
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de winst-en-verliesrekening
+
+(in euro's)
+
+12) Overige bedrijfskosten
+
+Overige personeelskosten
+Huisvestingskosten
+Administratie- en advieskosten
+Kantoorkosten
+
+Autokosten
+
+Verkoopkosten
+
+Algemene kosten
+Managementkosten
+
+Nadere specificatie van de overige bedrijfskosten
+Overige personeelskosten
+
+Reiskosten personeel
+
+Opleidingen en trainingen personeel
+Kantinekosten
+Personeelsactiviteiten
+
+LBB (Loopbaanbudget)
+
+Verzekering personeel
+Personeelsverzekering correctie voorgaande jaren
+Stichting het Maathuis
+
+Focus Hulpverlening
+
+Werk door derden
+
+Overige personeelskosten
+
+Huisvestingskosten
+
+Huur onroerende zaken
+
+Gas-water-elektra
+
+Onderhoud onroerende zaken
+
+Verzekeringen & belastingen onroerende zaken
+Schoonmaak- en afvalkosten
+
+Overige huisvestingskosten
+
+Administratie- en advieskosten
+
+Administratie- en advieskosten
+Kosten loonadministratie
+
+2020 2019
+105.314 139.260
+78.078 65.043
+37.417 25.450
+77.841 57.109
+18.710 3.898
+1.577 5.549
+3.170 2.348
+150.000 150.000
+472.107 448.657
+47.172 50.056
+988 5.359
+1.622 851
+12.120 5.886
+(4.601) 12.145
+21.095 31.284
+- 12.844
+5.560 4.840
+5.480 5.178
+9.812 6.615
+6.066 4.202
+105.314 139.260
+59.894 44.770
+11.951 17.648
+969 1.554
+1.191 -
+981 1.071
+3.092 -
+78.078 65.043
+31.742 25.450
+5.675 -
+37.417 25.450
+
+25
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de winst-en-verliesrekening
+
+(in euro's)
+
+Kantoorkosten
+
+Porti- en kantoorbenodigdheden
+Telefoon, fax en internetkosten
+
+Kleine aanschaffingen/klein onderhoud
+Contributies/abonnementen
+Automatiseringskosten
+
+Extra aanschaffingen i.v.m. Corona
+
+Autokosten
+
+Autohuur
+Brandstoffen
+
+— Onderhoud auto's _______
+Motorrijtuigenverzekering
+Overige autokosten
+
+Verkoopkosten
+
+Relatiegeschenken
+Representatiekosten
+Reclame/sponsoring
+Overige verkoopkosten
+
+Algemene kosten
+
+Assuranties algemeen
+Rente en bankkosten
+Overige bedrijfskosten
+
+Managementkosten
+
+Managementfee
+
+13) Financiële baten en lasten
+Rentelasten en soortgelijke kosten
+
+Per saldo een last / baat
+
+2020 2019
+8.438 6.309
+18.756 14.574
+7.375 10.963
+7.727 3.919
+32.579 21.344
+2.966 -
+77.841 57.109
+15.000 -
+464 1.083
+1135 1341
+1.106 1.162
+1.005 312
+18.710 3.898
+161 248
+825 3.414
+501 1.700
+- 187
+1.577 5.549
+2.192 1.115
+605 495
+373 738
+3.170 2.348
+150.000 150.000
+(2.889) 6.400
+(2.889) 6.400
+
+26
+
+Isselzorg B.V.
+gevestigd te Warnsveld
+
+Toelichting op de winst-en-verliesrekening
+
+(in euro's)
+
+Nadere specificatie van de financiële baten en lasten
+Rentelasten en soortgelijke kosten
+
+Rente rek-crt IJsselzorg Holding BV
+Overige rente en bankkosten
+
+14) Belastingen
+
+Vennootschapsbelasting
+
+(Samenstellingsverklaring afgegeven)
+
+2020 2019
+100 (6.400)
+2.789 -
+2.889 (6.400)
+11.366 (12.003)
+
+Door de directie opgesteld op 11 maart 2021 te Warnsveld en ter vaststelling voor te leggen aan de algemene vergadering,
+
+M.W.H. Traas namens IJsselzorg Holding B.V. L.C. Traas-van der Stoep namens IJsselzorg Holding B.V.
+
+27
+
+IJsselzorg B.V.
+gevestigd te Warnsveld
+
+Overige gegevens
+
+Statutaire bepalingen inzake de bestemming van het resultaat
+Artikel 20 van de Oprichtingsakte
+
+1. De winst staat ter vrije beschikking van de algemene vergadering.
+
+2. De vennootschap kan aan de aandeelhouders en andere gerechtigden tot de voor uitkering vatbare winst slechts uitkeringen
+doen voor zover het eigen vermogen groter is dan het gestorte en opgevraagde deel van het kapitaal vermeerderd met de
+reserves die krachtens de wet moeten worden aangehouden.
+
+3. Uitkering van winst geschiedt na vaststelling van de jaarrekening waaruit blijkt dat zij geoorloofd is.
+
+4. Bij de berekening van de winstverdeling tellen de aandelen die de vennootschap in haar eigen kapitaal houdt niet mede,
+tenzij deze aandelen belast zijn met een vruchtgebruik of pandrecht of daarvan certificaten zijn uitgegeven ten gevolge
+waarvan het winstrecht toekomt aan de vruchtgebruiker, de pandhouder of de houder van die certificaten.
+
+5. Certificaten die de vennootschap houdt of waarop de vennootschap een beperkt recht heeft op grond waarvan zij
+gerechtigd is tot de winstuitkering, tellen bij de berekening van de winstverdeling eveneens niet mee.
+
+—__ 6... De vennootschap mag tussentijds slechts uitkeringen doen, indien aan het vereiste van lid 2 is voldaan. …— —
+
+Bestuursverslag
+
+Op grond van Titel 9 Boek 2 van het Burgerlijk Wetboek (artikel 396, lid 7) is de vennootschap vrijgesteld van de verplichting tot
+het opstellen van een bestuursverslag. De directie heeft gebruik gemaakt van deze vrijstelling en derhalve ontbreekt een
+bestuursverslag.
+
+Deskundigenonderzoek
+
+Op grond van Titel 9 Boek 2 van het Burgerlijk Wetboek (artikel 396, lid 7) is de vennootschap vrijgesteld van de verplichting tot
+controle van de jaarrekening door een accountant. Op grond daarvan is geen opdracht tot accountantscontrole verstrekt en
+ontbreekt derhalve een controleverklaring.
+
+(Samenstellingsverklaring afgegeven)
+
+Door de directie opgesteld op 11 maart 2021 te Warnsveld en ter vaststelling voor te leggen aan de algemene vergadering,
+
+L.C. Traas-van der Stoep namens IJsselzorg Holding B.V.
+
+28

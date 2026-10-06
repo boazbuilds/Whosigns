@@ -1,0 +1,834 @@
+# whosigns-ocr v1 grootte=2433248 dpi=300 paginas=20
+worden systematisch in de winst- en verliesrekening opgenomen gedurende de gebruiksduur van het
+actief.
+
+11.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide middelen.
+
+1.4.5 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de organisatie zich gehouden aan
+de wet- en regelgeving inzake de WNT.
+
+Pagina 25 van 44
+
+5 Toelichting op de balans: Activa
+
+1. Materiële vaste activa
+
+Boekwaarde 01-01
+Bij: Investeringen
+Af: Afschrijvingen
+Boekwaarde 31-12
+
+De specificatie is als volgt:
+
+Grond en gebouwen
+
+Grond en gebouwen
+
+Overige materiële vaste activa
+
+investeringen in huurpanden
+Inventarissen
+
+ICT
+
+Vervoersmiddelen
+
+Totaal materiële vaste activa
+
+31-12-2024 31-12-2023
+€ €
+908.218 802.554
+78.145 276.877
+150.423 171.215
+835.938 908.215
+31-12-2024 31-12-2023
+€ €
+454.549 481.190
+454.549 481.190
+1.388 4,491
+17.998 20.225
+362.001 396.518
+- 5.791
+381.388 427.025
+835.938 908.215
+
+Toelichting:
+
+Binnen de materiele vaste activa zijn er twee grotere posten: Grond en gebouwen en ICT. Vanwege
+de onzekerheid rondom de aanbesteding zijn er afgelopen periode weinig nieuwe investeringen
+gedaan. Daardoor zijn er grote wijzigingen in het activabestand. Reguliere mutaties, zoals kleine
+investeringen en reguliere afschrijvingen zorgen ervoor dat de materiele vaste activastaat lager is.
+
+Pagina 26 van 44
+
+
+2. Vorderingen en overlopende activa
+
+De specificatie is als volgt:
+
+31-12-2024 31-12-2023
+Vorderingen € €
+Debiteuren 235.154 409.379
+235.154 409.379
+
+Overlopende activa
+Vooruitbetaalde bedragen 119.498 103.958
+Nog te ontvangen bedragen 94.299 119.138
+213.797 223.096
+Totaal vorderingen en overlopende activa 448.951 632.476
+
+Toelichting:
+De debiteurenstand heeft zich positief ontwikkeld. We zien hier geen bijzonderheden.
+
+3. Liquide middelen
+
+De specificatie is als volgt:
+
+31-12-2024 31-12-2023
+
+€ €
+
+Kas 14.027 10.113
+Kruisposten - -210
+Banken 9.718.711 7.285.279
+Totaal liquide middelen 9.732.738 7.295.182
+
+Toelichting:
+
+Het saldo van de liquide middelen bestaat uit direct opeisbare tegoeden en staat hiermee ter vrije
+beschikking van de stichting. De toename van liquide middelen komt door de toename in kortlopende
+activa en een afname in vorderingen. De grootste drijvers van deze toename zijn de vooruit ontvangen
+bedragen en subsidies.
+
+Pagina 27 van 44
+
+
+15 Toelichting op de balans: Passiva
+4. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+31-12-2024 31-12-2023
+€ €
+Algemene reserve 884.063 579.392
+Bestemmingsreserves 4.706.365 4.456.365
+Totaal eigen vermogen 5.590.428 5.035.757
+Het verloop is als volgt weer te geven:
+Saldo per Resultaat Overige Saldo per
+1-1-2024 bestemming mutaties 31-12-2024
+€ € € €
+Algemene reserve
+Algemene reserve 579.392 304.671 - 884.063
+Subtotaal algemene reserve 579.392 304.671 - 884.063
+Bestemmingsreserves
+Risicoreserve 3.765.715 - - 3.765.715
+Bestemmingsreserve Mobiliteit 399.649 - - 399.649
+Bestemmingsreserve Transitie n.a.v.
+Aanbesteding 291.000 250.000 - 541.000
+Subtotaal bestemmingsreserves 4.456.365 250.000 - 4.706.365
+Totaal eigen vermogen 5.035.757 554.671 - 5.590.428
+Toelichting
+
+Het resultaat van 2024 is voor € 250.000 aan de bestemmingsreserve Aanbesteding toegevoegd. Ook
+in 2025 worden er extra kosten die samenhangen met de aanbesteding verwacht. Het restant van het
+resultaat van € 304.671 is toegevoegd aan de algemene reserve.
+
+De bestemmingsreserve Mobiliteit betreft kosten om organisatorische ontwikkelingen te bevorderen en
+wordt aangewend voor projecten op het gebied van duurzame inzetbaarheid, reïntegratie, herplaatsing
+
+en coaching van medewerkers.
+
+De bestermmingsreserve transitie nav. aanbesteding is gevormd om te investeren in kennis en middelen
+
+voor transitie in de opdracht Den Bosch, die voortkomen uit de aanbesteding.
+
+Pagina 28 van 44
+
+5. Voorzieningen
+
+De specificatie is als volgt:
+
+31-12-2024 31-12-2023
+€ €
+Voorziening Loopbaanbudget 421.975 333.237
+Voorziening Langdurig Zieken 104.368 140.562
+Voorziening Transitievergoeding 117.392 85.303
+Voorziening overig 26.181 -
+Totaal Voorzieningen 669.916 559.102
+Het verloop is als volgt weer te geven
+Saldo per Dotatie Onttrekking Saldo per
+1-1-2024 31-12-2024
+€ € € €
+Voorziening Loopbaanbudget 333.237 202.138 113.400 421.975
+Voorziening Langdurig Zieken 140.562 7.390 43.584 104.368
+Voorziening Transitievergoeding 85.303 80.626 48.536 117.392
+Voorziening overig - 26.181 - 26.181
+559.102 316.334 205.520 669.916
+
+Totaal voorzieningen
+
+Toelichting:
+
+Voorziening Loopbaanbudget. Werknemers kunnen dit individuele budget besteden aan het
+verbeteren van inzetbaarheid conform afspraken die zijn gemaakt met de werkgever. Het loopbaan-
+bedrag kan maximaal 60 maanden worden opgebouwd. Voor het openstaande saldo is de voorziening
+
+gevormd.
+
+Voorziening Langdurig Zieken. De voorziening langdurig zieken is gevormd voor de verplichte
+loondoorbetaling gedurende de periode van ziekte of arbeidsongeschiktheid voor medewerkers
+waarvan de verwachting is dat zij niet meer (volledig) zuilen terugkeren in het arbeidsproces. In de
+berekening is geen rekening gehouden met de eventueel te betalen transitievergoeding bij
+
+uitdiensttreding na langdurige ziekte.
+
+Voorziening Transitievergoeding. Conform de wetgeving is een transitievergoeding onder voorwaar-
+den verschuldigd bij afkoop van een vast contract en bij afloop van een tijdelijke arbeidsovereenkomst.
+De hoogte van de voorziening is naar rato opgebouwd voor medewerkers met een tijdelijke
+arbeidsovereenkomst waarvan de verwachting is, dat dit contract niet wordt verlengd.
+
+Voorziening overig. In 2024 is er een beperkte voorziening genomen voor diverse afrekeningen in het
+schoolwerk over 2023 en 2024.
+
+Pagina 29 van 44
+
+
+6. Overige kortlopende schulden en overlopende passiva
+
+De specificatie is als volgt:
+
+31-12-2024 31-12-2023
+€ €
+
+Crediteuren 431.573 342.397
+Nog te betalen sociale lasten 1.190.162 1.084.851
+Omzetbelasting 17.258 50.415
+Schulden ter zake van pensioenen 214.148 178.569
+Nog te betalen salarissen en toeslagen 86.336 18.664
+1.939.476 1.674.896
+
+Vakantiedagenverplichting 927.845 737.555
+927.845 737.555
+
+Overige overlopende passiva 71.684 -
+
+Nog te betalen bedragen 256.439 172.667
+Ntb inzake activiteiten 69.660 75.290
+Vooruitontvangen subsidies van opdrachtgevers 974.260 162.568
+Nog terug te betalen subsidies 517.920 418.039
+1.889.962 828.563
+
+Totaal kortlopende schulden en overlopende passiva 4.757.283 3.241.014
+
+Toelichting:
+
+De vakantiedagenverplichting is op basis van het aantal dagen gestegen doordat er veel overwerk
+is verricht vanwege de werkzaamheden rondom de aanbesteding in 's-Hertogenbosch en diens
+gevolgen. Er zijn veel medewerkers niet in staat geweest om het opgebouwde verlof op te nemen
+
+voor het einde van het jaar.
+
+De vooruit ontvangen subsidies van opdrachtgevers is aanzienlijk toegenomen doordat de
+gemeente ‘s-Hertogenbosch het maandelijkse voorschot bedrag over 2025 al eind 2024 heeft
+overgemaakt. De stijging van de nog terug te betalen subsidies is voornamelijk gerelateerd aan de
+late start van één vanuit het rijk gefinancierd project. Daarnaast staan er nog diverse terug te
+
+betalen bedragen op de balans.
+
+Pagina 30 van 44
+
+7. Niet in de balans opgenomen verplichtingen, activa en regelingen
+
+(Meerjarige) financiële verplichtingen
+
+Farent heeft de volgende meerjarige verplichtingen uit hoofde van lopende
+leasecontracten, huur en overeenkomsten.
+
+Totaal
+2024 betaalbaar
+binnen 1 betaalbaar betaalbaar
+jaar 1-5 jaar na 5 jaar
+€ € € €
+Kopieerapparatuur 14.413 57.652 - 72.065
+ICT 356.983 - - 356.983
+Huur 177.964 115.001 - 292.965
+549.360 172.653 - 722.013
+1 jaar 1-5 jaar 5+ jaar
+
+Toelichting
+Er zijn weinig contracten verlengd in verband met de aanbesteding, wel is er een nieuw printer contract
+
+afgesloten.
+
+9. Gebeurtenissen na balansdatum
+
+Het bestuur heeft op het moment van het opmaken van de jaarrekening geen bijzondere gebeurtenissen
+na balansdatum te melden.
+
+Pagina 31 van 44
+
+L6 Toelichting op de Staat van Baten en Lasten
+
+9. Personeelskosten
+
+De specificatie is als volgt:
+
+Bruto salarissen
+
+Sociale Lasten
+Pensioenpremie
+Doorbelaste salariskosten
+
+Totaal salariskosten
+Personeel niet in loondienst
+Reiskosten
+
+Arbo- en Verzuimkosten
+
+Ziektevervanging/verzuim
+Overige personeelskosten
+
+Totaal personeelskosten
+
+Gemiddeld aantal FTE's
+
+Begroting 2024
+€ €
+12.726.838 13.067.303
+2.302.057 2.359.797
+1.216.960 1.247.484
+- -216
+16.245.855 16.674.368
+199.353 756.304
+200.000 236.492
+163.000 103.345
+268.460 292.917
+471.951 496.439
+1.302.764 1.885.497
+17.548.619 18.559.865
+194 208
+
+2023
+
+ch
+
+11.420.878
+2.072.420
+1.064.051
+
+-215
+
+14,557.134
+
+271.747
+185.145
+102.222
+225.612
+409.473
+
+1.194.200
+
+15.751.334
+
+203
+
+Toelichting cijfers voorgaande jaar:
+De interne en externe personeelskosten zijn hoger uitgevallen dan de begroting. Extern personeel is
+ingehuurd vanwege de extra noodzaak om de aanbesteding en de gewijzigde opdracht in goede
+banen te leiden. Extra intern personeel is geworven voor inzet op de extra opdrachten. Ook vanwege
+langdurige ziekte is er extra personeel ingezet.
+
+Pagina 32 van 44
+
+
+10. Huisvestingskosten
+
+De specificatie is als volgt:
+
+Begroting 2024 2023
+
+€ € €
+Huur 278.250 134.509 226.621
+Energiekosten 35.000 25.541 27.310
+Onderhoudskosten 20.000 18.124 15.361
+Belasting en verzekering gebouwen 11.000 7.598 10.619
+Overige huisvestingskosten 135.000 151.158 123.025
+Totaal Huisvestingskosten 479.250 336.931 402.936
+
+Toelichting cijfers voorgaande jaar:
+
+De huur is in 2024 lager uitgevallen. Dit komt door een uitsluiting van huur door de gemeente
+s-Hertogenbosch van de locatie Number One. Ook zijn de huurkosten per 2024 deels gerealiseerd bij
+overige huisvestingskosten. Daarnaast is een deel van de kosten doorberekend aan derden.
+
+11. Organisatiekosten
+
+De specificatie is als volgt:
+
+Begroting 2024 2023
+
+€ € €
+Kantoorbenodigdheden 18.400 14.032 12.754
+Drukwerk, kopieren en repro 28.450 69.751 20.084
+Contributies en abonnementen 53.500 16.918 45.902
+ICT, telefoon en internet 944.250 906. 131 904.449
+Administratie- en advieskosten 185.250 171.867 188.551
+Bankkosten 7.461 6.303
+Overige bedrijfskosten 137.650 646.941 232.317
+Totaal Organisatiekosten 1.367.500 1.833.101 1.410.360
+
+Toelichting:
+De drukwerkkosten vielen hoger uit in 2024, daarentegen vielen de contributies erg mee. Een aantal
+
+abonnementen zijn stopgezet vanwege kostenbesparingen. De overige bedrijfskosten vielen significant
+hoger uit door extra kosten rondom de aanbesteding. Dit zijn voornamelijk extra juridische en specifieke
+
+aanbestedingsadvies kosten.
+
+Pagina 33 van 44
+
+
+12. Activiteitenkosten
+
+De specificatie is als volgt:
+
+Begroting 2024 2023
+
+€ € €
+Personele kosten 189.215 288.425 219.420
+Kosten Vrijwilligers 282.342 199.095 183.787
+Kosten stagiaires 361 314 451
+Huisvestingskosten Act 219.836 230.725 201.416
+Huur Materiaal 2.892 25.594 15.085
+Koop Materiaal 16.338 18.046 20.301
+Organisatiekosten Act 179.282 149.776 155.324
+Consumptiegoederen 148.591 176.908 141.852
+Overige kosten 163.095 195.569 246.630
+Totaal Activiteitenkosten 1.201.951 1.284.453 1.184.266
+
+Toelichting:
+Op de totale activiteitenkosten zitten geen significante afwijkingen ten opzichte van de begroting.
+13. Afschrijvingskosten
+De specificatie is als volgt:
+Begroting 2024 2023
+
+€ € €
+Afschrijvingskosten 167.400 148.446 159.176
+Totaal Afschrijvingskosten 167.400 148.446 159.176
+
+Toelichting:
+
+In 2024 zijn er weinig investeringen gedaan die leiden tot extra afschrijvingen, daarnaast is in
+‘s-Hertogenbosch een bus verkocht in het begin van het jaar, wat in zichzelf resulteert in een lagere
+
+afschrijving.
+
+Pagina 34 van 44
+
+
+14. Subsidies Gemeenten
+
+De specificatie is als volgt:
+
+Begroting 2024 2023
+€ € €
+Subsidies Gemeenten 18.956.980 21.130.022 17.676.947
+Subsidies SMW 313.259 285.612 313.909
+Totaal Subsidies Gemeenten 19.270.239 21,415.634 ___ 7.990.856
+
+De Subsidies Gemeenten kunnen als volgt worden gespecificeerd:
+
+2024
+
+€
+Subsidies s-Hertogenbosch 13.950.850
+SPUK-GALA subsidies ‘s-Hertogenbosch 494.702
+Overige opdrachten Gemeente DB 204.397
+Subsidies Vught 1.856.812
+Subsidies St Michielsgestel 385.082
+Subsidies Hilvarenbeek 364.917
+Subsidies Loon op Zand 411.155
+Subsidies Oisterwijk 1.052.111
+Subsidies Meierijstad 614.039
+Ontvangsten RIOZ/CIT 1.220.860
+Specialistische Jeugdhulp 255.661
+Subsidie overige instanties 167,337
+Vrijval subsidies 152.099
+
+21.130.022
+
+Toelichting:
+
+Niet alle opdrachten van de gemeenten zijn bij de totstandkoming van het begrotingsproces bekend.
+Ook in 2024 werden er gedurende het jaar additionele opdrachten gegund waardoor de opbrengsten
+hoger uitvielen dan begroot. De bijzonder hoge extra opdrachten zijn een duidelijke drijfveer voor het
+positieve resultaat in 2024.
+
+De subsidies ‘s-Hertogenbosch nemen 62% voor de totale opbrengst voor rekening. De financiële
+voorwaarden van deze subsidies zijn geënt op een forfaitair bedrag waarbij de verantwoording op
+inhoudelijke resultaten leidend is. Hiervoor maakt Farent een inhoudelijk verslag.
+
+Om de vergelijkbaarheid tussen de jaren te vergroten en een verbetering van classificatie is ervoor
+gekozen om de Specialistische Jeugdhulp, subsidies overige instanties en vrijval subsidies in de
+gemeentesubsidies te classificeren. Hiervoor zijn de vergelijkende cijfers in de begroting 2024 en 2023
+aangepast.
+
+Pagina 35 van 44
+
+
+15. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt:
+
+Begroting
+€
+Centrum voor Traject Management CvTB 240.000
+Overige opbrengsten 1.338.811
+Totaal overige bedrijfsopbrengsten 1.578.811
+
+De specificatie van de overige opbrengsten ís als volgt:
+
+2024
+€
+Detacheringen 275.833
+Schooljongerenwerk 559.205
+Overige opbrengsten 190.867
+1.025.905
+
+Totaal overige opbrengsten
+
+2024
+€
+
+274.571
+1.025.905
+
+1.300.476
+
+2023
+€
+
+305.417
+529.516
+247.200
+
+1.082.134
+
+2023
+€
+
+303.427
+1.082.134
+
+1.385.561
+
+Toelichting:
+
+subsidies gemeenten zijn gerealiseerd.
+
+De overige opbrengsten in 2024 zijn nagenoeg gelijk aan 2023.
+
+De overige bedrijfsinkomsten zijn € 0,2 miljoen lager dan in 2024 begroot, dit komt doordat de
+opbrengsttaakstelling van € 0,2 miljoen bij de overige bedrijfsinkomsten zijn begroot, maar bij de
+
+Pagina 36 van 44
+
+16. Financiële baten en lasten
+
+De specificatie is als volgt:
+
+Begroting 2024
+€ €
+Rentebaten - 1.658
+Rentelasten (-) -2.000 -301
+Totaal financiële baten en lasten -2.000 1.357
+
+2023
+
+32.553
+-139
+
+32,414
+
+Toelichting:
+
+De rentebaten betreffen voornamelijk de rente over het spaartegoed en saldo op de lopende
+
+rekening(en).
+
+Pagina 37 van 44
+
+
+1.7 WNT-verantwoording 2024 Stichting Farent
+
+De WNT is van toepassing op Farent. Het voor Farent toepasselijke bezoldigingsmaximum is in 2024
+€ 233.000,-. Dit betreft het algemeen bezoldigingsmaximum. De binnen onze organisatie geïdentifi-
+ceerde leidinggevende topfunctionarissen met een dienstbetrekking hebben geen dienstbetrekking bij
+een andere WNT-plichtige instelling(en) als leidinggevende topfunctionaris.
+
+1. Bezoldiging topfunctionarissen
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+dienstbetrekking vanaf de 13° maand van de functievervuliing.
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder
+dienstbetrekking vanaf de 13° maand van de functievervulling inclusief degenen die op grond van hun
+voormalige functie nog 4 jaar als topfunctionaris worden aangemerkt.
+
+2. WNT-gegevens topfunctionarissen met een dienstbetrekking 2024
+
+Gegevens 2024
+
+bedragen x € 1 J.E.C. Jacobs J. Andree A. Crielaars
+
+Functiegegevens Bestuurder Directeur/ Bestuurder
+Bestuurder
+
+Aanvang en einde functievervulling in 01/01 — 31/12 01/01 — 31-12 01/1 — 31/12
+
+2024
+
+Omvang dienstverband (als deeltijdfactor 1,0 0,67 1-1 t/m 31-8 en
+
+in fte) 1,0 0.89 1-9 t/m 31-12
+
+Dienstbetrekking? ja ja ja
+
+Bezoldiging
+
+Beloning plus belastbare 136.323,12 124.692,07 98.698,20
+
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn 16.365,81 14.996,67
+
+Subtotaal 152.688,93 139.688,74 98.698,20
+
+Individueel toepasselijke 233.000 233.000 233.000
+
+bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet Nvt. IN.v.t. N.v.t.
+
+terugontvangen bedrag
+
+Bezoldiging 152.688,93 139.688,74 98.698,20
+
+Het bedrag van de overschrijding en de Nvt. | N.v.t. N.v.t.
+
+reden waarom de overschrijding al dan
+
+niet is toegestaan
+
+Toelichting op de vordering wegens N.v.t. Nvt. Nvt.
+
+onverschuldigde betaling
+
+3. WNT-gegevens topfunctionarissen met een dienstbetrekking 2023
+
+Gegevens 2023
+
+bedragen x € 1 J.E.C. Jacobs J. Andree A. Crielaars
+Functiegegevens Bestuurder | Directeur/ Bestuurder Bestuurder
+nn 01/01 — 31/12 01/01 — 31-12 01/12 — 31/12
+Omvang dienstverband (als
+
+deeltijdfactor in fte) 1,00 0,95 0,63
+Dienstbetrekking? ja ja ja
+Bezoldiging
+
+Pagina 38 van 44
+
+
+Beloning plus belastbare
+onkostenvergoedingen 144.631 105.353 7.061
+
+Beloningen betaalbaar op termijn 15.280 11.801 0
+Subtotaal 159.911 117.154 7.061
+Individueel toepasselijke
+
+bezoldigingsmaximum 223.000 214.080 12.451
+-f- Onverschuldigd betaald en nog niet
+
+terugontvangen bedrag N.v.t. N.v.t. N.v.t.
+Bezoldiging 169.911 117.154 7.061
+
+Het bedrag van de overschrijding en de
+reden waarom de overschrijding al dan N.v.t. Nvt. N.v.t.
+niet is toegestaan
+
+Toelichting op de vordering wegens
+onverschuldigde betaling NEE RE Nvt
+
+4. WNT-gegevens Toezichthoudende topfunctionarissen 2024
+
+bedragen x € 1 T.L. Vloet J.Th.G. de G. Verbeek M.C.Mieras
+
+Greef
+
+Functiegegevens Voorzitter | Vice voorzitter Lid Lid
+Aanvang en einde functievervulling in 2024 01/01-31/12! 01/01 -31/12/ 01/01—31/12| 01/01-31/12
+
+Bezoldiging
+
+Bezoldiging 7.807,50 5.205 5.205 5.205
+
+Individueel toepasselijke 34.950 23.300 23.300 23.300
+bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet
+
+terugontvangen bedrag Nvt Nvt Nvt Nvt
+Bezoldiging 7.807,50 5.205 5.205 5.205
+Het bedrag van de overschrijding en de Nvt. Nvt. Nvt. Nvt.
+reden waarom de overschrijding al dan niet
+
+is toegestaan
+
+Toelichting op de vordering wegens Nvt. Nvt. Nvt, N.vt.
+
+onverschuldigde betaling
+
+5. WNT-gegevens Toezichthoudende topfunctionarissen 2023
+
+Functiegegevens Voorzitter ( Vice voorzitter Lid Lid
+ar Sl on viode tincteidarvaang Mi 01/01-31/12 | 01/01 — 30/06 | 01/01 — 30/06 | 01/01 — 30/09
+Bezoldiging
+
+Bezoldiging 6.750 2.000 2.000 3.250
+Individueel toepasselijke
+
+bezoldigingsmaximum 33.450 11.150 22.300 16.725
+-/- Onverschuldigd betaald en nog niet
+
+terugontvangen bedrag N.v.t. Nvt. Nvt. N.vt.
+Bezoldiging 6.750 2.000 2.000 3.250
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan N.v.t. N.v.t. Nvt. Nvt.
+
+niet is toegestaan
+
+Toelichting op de vordering wegens
+onverschuldigde betaling N.v.t. Nvt. N.v.t. Nvt.
+
+Pagina 39 van 44
+
+
+Functiegegevens Lid Lid Lid Lid
+Aanvang en einde functievervulling in 2023 | 01/07-31/12\ 01/01-30/06\ __ 01/07 — 31/12 ee
+Bezoldiging
+
+Bezoldiging _ 2.500 2.000 2.500 2.500
+Individueel toepasselijke 0 0 0 0
+bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet
+
+terugontvangen bedrag N.v.t. Nvt. Nvt. N.vt.
+Bezoldiging 2.500 2.000 2.500 2.500
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan niet N.v.t. Nvt. N.v.t. N.vt.
+is toegestaan
+
+Toelichting op de vordering wegens Nvt. Nvt. Nvt. Nvt.
+
+onverschuldigde betaling
+
+6. Overige rapportageverplichtingen op grond van de WNT
+
+In oktober 2024 is met J.E.C. Jacobs (Bestuurder) een vaststellingsovereenkomst overeengekomen
+wegens beëindiging dienstverband. Het dienstverband is per 1 januari 2025 geëindigd. Gedurende 2024
+is zij het gehele kalenderjaar in dienst van Stichting Farent geweest. De overeengekomen uitkering
+wegens beëindiging van het dienstverband bedraagt € 75.000 ,-. Hiervan is een bedrag van € 55.477 -
+in 2024 uitgekeerd. Het restant zijn de vrijgestelde uren. Het maximum van de toegestane uitkering
+dienstverband bedraagt € 75.000,-. Er is zodoende geen sprake van een overschrijding.
+
+Naast de hier verder vermelde topfunctionarissen zijn er geen overige functionarissen met een
+dienstbetrekking die in 2024 een bezoldiging boven het individueel toepasselijke drempelbedrag hebben
+
+ontvangen.
+
+Pagina 40 van 44
+
+
+11.8 Vaststelling en goedkeuring
+Vaststelling en goedkeuring jaarrekening
+
+Het Bestuur van Farent heeft de jaarrekening 2024 opgemaakt en vastgesteld in de vergadering van
+24 april 2025.
+
+De Raad van Toezicht van Farent heeft de jaarrekening 2024 goedgekeurd in de vergadering van
+24 april 2025.
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling als opgenomen in paragraaf 3.2.
+
+Ondertekening door bestuurder en toezichthouders
+
+De aes was getekend op 24 april 2025:
+
+Al
+
+Mewtouw\A. Spijker a OO
+
+De ze
+
+(Bestuurder) Dl met
+
+er
+SS Z
+Das
+
+De heer T, loet Mevrouw G. Verbeek
+
+(Voorzitter RvT) LARD
+
+De heer M.C. Mieras
+(Lid RvT) (Vicevoorzitter RvT)
+
+De heer J.Th.G. de Greef J
+
+Pagina 41 van 44
+
+Paragraaf Ill
+
+Overige gegevens
+
+IIL.1 Statutaire regeling resultaatbestemming
+In de statuten is geen resultaatbestemming opgenomen.
+
+1112 Nevenvestigingen
+Stichting Farent heeft geen nevenvestigingen.
+
+11.3 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is separaat opgenomen.
+
+Pagina 43 van 44
+
+Bijlage 1
+Specificatie Materiele Vast Activa
+
+Saldo per 1-1-2024
+
+Bij: Investeringen Af: afschrijvingen
+
+Saldo per 31-12-2024
+
+Grond en Gebouwen € 212.065 € - € 26.643 € 185.422
+Pand en grond paters € 269.125 € - € 269.125
+investeringen in huurpander € 4491 € - € 3.103 € 1.388
+Inventarissen € 20.225 € 3219 € 5442 € 18.002
+Electronica € - € - € -
+
+ICT (incl. website) € 396.518 € 87.798 € 122.314 € 362.002
+Vervoersmiddelen € 571 € -12871 € -/079 € -1
+Totaal activa € 908.215 E€ 78145 € 150.423 € 835.938
+
+Pagina 44 van 44

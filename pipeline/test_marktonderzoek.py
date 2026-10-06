@@ -1,0 +1,165 @@
+"""Test: de herleiding en vormeisen van de marktonderzoek-lader.
+
+Zonder netwerk en zonder database: de verkorte-namenlijst, het splitsen van
+velden met meerdere kantoren, en de rijvalidatie. De echte aanlevering staat
+bewust niet in de repository.
+"""
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
+sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
+
+from kantoor_match import bouw_index, laad_kantoren  # noqa: E402
+from laad_marktonderzoek import (  # noqa: E402
+    VERKORT,
+    geldige_rij,
+    herleid_kantoren,
+    lees_map,
+    sector_uit_sbi,
+)
+
+goed = 0
+fout = 0
+
+
+def check(omschrijving: str, voorwaarde: bool) -> None:
+    global goed, fout
+    if voorwaarde:
+        goed += 1
+    else:
+        fout += 1
+        print(f"  FOUT: {omschrijving}")
+
+
+index = bouw_index(laad_kantoren())
+
+k, o = herleid_kantoren("KPMG", index)
+check("KPMG herleidt naar 13000121", k == ["13000121"] and not o)
+
+k, o = herleid_kantoren("Confinant", index)
+check("Confinant herleidt naar 13020070", k == ["13020070"] and not o)
+
+k, o = herleid_kantoren("Confinant Audit & Assurance", index)
+check("de lange Confinant-schrijfwijze herleidt ook", k == ["13020070"] and not o)
+
+k, o = herleid_kantoren("E & Y ; KPMG", index)
+check(
+    "twee kantoren in één veld worden allebei herleid (en dus review)",
+    set(k) == {"13020186", "13000121"} and not o,
+)
+
+k, o = herleid_kantoren("KPMG; KPMG", index)
+check("dubbel hetzelfde kantoor vouwt samen tot één", k == ["13000121"] and not o)
+
+k, o = herleid_kantoren("kpmg/naolis", index)
+check(
+    "een onherleidbaar deel blijft onherleidbaar (geen gok)",
+    k == ["13000121"] and o == ["naolis"],
+)
+
+check(
+    "de volledige AFM-naam herleidt via de gewone matcher",
+    herleid_kantoren("KPMG Accountants N.V.", index)[0] == ["13000121"],
+)
+
+from kantoor_match import laad_overige_kantoren  # noqa: E402
+
+check(
+    "verkorte namen wijzen alleen naar bestaande kantoorsleutels",
+    set(VERKORT.values())
+    <= {r["afm_nummer"] for r in laad_kantoren()}
+    | {r["sleutel"] for r in laad_overige_kantoren()},
+)
+
+k, o = herleid_kantoren("Q-concepts", index)
+check("Q-Concepts herleidt in elke schrijfwijze", k == ["13000773"] and not o)
+k, o = herleid_kantoren("WITh", index)
+check("WITh herleidt naar het overige kantoor", k == ["overig_with_accountants"] and not o)
+k, o = herleid_kantoren("Dubois + Co", index)
+check("Dubois in alle schrijfwijzen", k == ["13000044"] and not o)
+k, o = herleid_kantoren("Crowe Foederer", index)
+k2, o2 = herleid_kantoren("Crowe Peak", index)
+check(
+    "Crowe Foederer en Crowe Peak blijven gescheiden kantoren",
+    k == ["13000413"] and k2 == ["13000097"],
+)
+k, o = herleid_kantoren("Crowe", index)
+check("kaal Crowe blijft onherleidbaar (Foederer of Peak? een mens kiest)", not k and o == ["Crowe"])
+
+check(
+    "een geldige rij komt genormaliseerd door (zonder sbi/plaats blijven die leeg)",
+    geldige_rij({"kvk": "0603-2957", "naam": "X", "boekjaar": "2024", "accountant": "KPMG"})
+    == {
+        "kvk": "06032957",
+        "naam": "X",
+        "boekjaar": 2024,
+        "accountant": "KPMG",
+        "sbi": "",
+        "plaats": "",
+    },
+)
+check(
+    "zonder kvk of jaartal wordt een rij geweigerd",
+    geldige_rij({"kvk": "123", "naam": "X", "boekjaar": "2024", "accountant": "K"}) is None
+    and geldige_rij({"kvk": "06032957", "naam": "X", "boekjaar": "?", "accountant": "K"}) is None,
+)
+rij = geldige_rij(
+    {
+        "kvk": "06032957",
+        "naam": "X",
+        "boekjaar": "2024",
+        "accountant": "KPMG",
+        "sbi": "65.30.1",
+        "plaats": " Zeist ",
+    }
+)
+check(
+    "sbi en plaats komen genormaliseerd door",
+    rij is not None and rij["sbi"] == "65301" and rij["plaats"] == "Zeist",
+)
+
+check(
+    "SBI-codes herleiden naar de grove sectoren",
+    sector_uit_sbi("27900") == "industrie en bouw"
+    and sector_uit_sbi("47110") == "handel"
+    and sector_uit_sbi("62010") == "ict en media"
+    and sector_uit_sbi("6420") == "financiële dienstverlening"
+    and sector_uit_sbi("68201") == "vastgoed"
+    and sector_uit_sbi("82990") == "zakelijke dienstverlening"
+    and sector_uit_sbi("0113") == "landbouw en visserij",
+)
+check(
+    "SBI 65.30 gaat als pensioenfonds vóór de financiële hoofdgroep",
+    sector_uit_sbi("65301") == "pensioenfondsen",
+)
+check(
+    "zorg en onderwijs landen op de bestaande sectornamen",
+    sector_uit_sbi("86101") == "zorg" and sector_uit_sbi("85421") == "onderwijs",
+)
+check(
+    "onbekende hoofdgroepen worden overig, geen code wordt niets",
+    sector_uit_sbi("84111") == "overig bedrijfsleven"
+    and sector_uit_sbi("55101") == "overig bedrijfsleven"
+    and sector_uit_sbi("") is None,
+)
+
+# De aanlevermap zelf: elke rij moet door de validatie komen, want de lader
+# draait vanzelf zodra hier iets op main landt — een kapotte aanlevering hoort
+# hier te sneuvelen en niet stil in de workflow.
+aanlevering = lees_map()
+check("de aanlevermap heeft rijen", len(aanlevering) >= 1)
+check(
+    "elke aangeleverde rij komt door de validatie",
+    all(geldige_rij(r) is not None for r in aanlevering),
+)
+check(
+    "kvk+boekjaar+accountant is uniek in de aanlevering",
+    len({(r["kvk"], r["boekjaar"], r["accountant"].lower()) for r in aanlevering})
+    == len(aanlevering),
+)
+
+print(f"{goed}/{goed + fout} goed")
+sys.exit(1 if fout else 0)

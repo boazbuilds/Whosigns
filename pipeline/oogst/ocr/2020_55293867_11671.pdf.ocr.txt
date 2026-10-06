@@ -1,0 +1,1536 @@
+# whosigns-ocr v1 grootte=9749128 dpi=300 paginas=20
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+
+48 Jeugdbescherming
+__4800 [OTS <ijar __4BA01 stuks | 847,40) {| ______0,00,
+4801 [OTS > 1 jaar 48A02 stuks Í 712,33 | 0,00;
+4802 [Voogdij 48A03 stuks | $ __ 504,49 0,00;
+Totaal Jeugdbescherming 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+49 Activiteiten in het preventief justitieel kader !
+{4900 Begeleiding multiprobteem gezin (drang) (altijd afgeven voor 1; __49A02 stuks | 6779,21 Í 0,00!
+| 4901 [Preventieve jeugdbescherming: modulaire drang 49A04 uur | 105,00 0,00,
+4902 |oonsdhatie Face to Face 49B01 minuut | 1,75 Í 0,00,
+4903 Onderzoek voor instemmingsverklaring 49B05 stuks Í 1252,60 |L 0,00,
+4904 |Toeteiding naar Jeugdzorg Plus 49B07 stuks Í 1610,92 0,00.
+Í Totaal Activiteiten in het preventief justitieel kader _ o,0o/
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie 2020 in €
+54 Jeugd GGZ
+5400 |Dystexie- Jeugd-ggz behandeling requlier/generalistisch 54001 minuut | 1,49 | 0,00
+5401 [Deelprestatie verblijf A (Lichte verzorgingsgraad) (inci. NHC cor 54009 etmaal í 128,75 | 0,00,
+5402 [Deelprestatie verblijf B (Beperkte verzorgingsgraad) (incl. NHC _ 54010 etmaal | BAZEL Í 0,00
+5403 [Deelprestatie verblijf C (Matige verzorgingsgraad) (incl. NHC CC 54011 etmaal ! 243,35 | 0,00,
+5404 [Deelprestatie verblijf D (Gemiddelde verzorgingsgraad) (incl. N 54012 etmaal í 253,45 0,00
+5405 [Deelprestatie verblijf E (Intensieve verzorgingsgraad) (incl. NH _ 54013 etmaal Í 318,33 | 0,00:
+5406 |Deelprestatie verblijf F (Extra intensieve verzorgingsgraad) (int 54014 etmaal Í 357,81 Í 0,00;
+5407 |Deelprestatie verblijf G (Zeer intensieve verzorgingsgraad) (inc 54015 etmaal | 500,23 0,00!
+5408 [Ambulante Spoedeisende Hulp (ASH) 54016 minuut Ï 0,00 | 0,00;
+5409 [Verblijf zonder overnachting (VZO) per dag S4R63 etmaal Í 109,15 0,00
+Jeugd GGZ 0,00)
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 220 in C
+55 Landelijk ingekochte zorg - _ !
+un menen Menan imac A EE 0,00,
+5501 OO | E 0,00,
+Totaal Landelijk ingekochte zorg OO _ B OS o0,oof
+56 Financiële realisatie Jeugdwet nm _ Realisatie 2020 in €
+5700 |Gerealiseerde productie Jeugdwet _ | 24.564,92 Í
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+Rapport van bevint ngen:
+
+sJ/Nee
+
+A.u.b, kiezen wat van toézassing is.
+
+Zorgaanbieder
+
+Naam: Mm. Kooijman
+Handtekening: 4 4
+
+Da
+
+Datum: 24-3-20:
+
+en
+
+| ter identiftcatie
+
+| Waarmerking accountant voor
+identificatie lsindem:
+j ä kde air
+
+Op deze financiële productieverantwoording
+uitgevoerd. Deze financiële productieverant
+ter identificatie gewaarmerkt.
+
+ij te
+
+A &
+EAN
+| hr
+
+Datum:
+
+
+Financiële productieverantwoording Jeugdwet Gemeente Uitgeest
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+‚Gemeente _ _ _ Zorgaanbieder EE |:
+Naam Uitgeest _ Naam Co-operatief Zorg BV Í
+Contactpersoon ú Plaats Koudum Í
+Telefoon 8 KvK-nummer n 55293867
+E-mail eindafrekeningjeugd@debuch.nl Contactpersoon Jeugdwet _ |M. Kooijman
+Telefoon 072-7852282
+E-mail miranda.kooif van@co-operatie
+AGB-code 41418750 |
+Geleverde prestaties Jeugdwet
+Inkoop order nr: NVT
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in C
+40 Persoonlijke verzorging OO OO
+4000 |Persoonlijke verzorging extra (p/u.) 40A03 minuut ! 0,75 0,00:
+| 4001 Persoonlijke verzorging (p/u.) 40A04 minuut Ï mn 0,72 0,00
+Totaal Persoonlijke verzorging _ n o,oof
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in €
+41 Dagbehandeling OO
+4100 _[Dagactiviteit kind licht d1A05 dagdeel _ 42,07 0,00:
+4101 _ {Dagactiviteit kind midden 41406 __dagdeel 55,01 0,00;
+4102 _ |pagactiviteit kind zwaar “41407 dagdeel m 88,74 [ 0,00:
+4103 _|Dagactiviteit JLVG 41A18 deel 11,98 0,00
+_{Totaal Dagbehandeling _ nne ooo
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2E20 in €
+42 Vervoersdiensten
+4200 [vervoer jeugdzorg plus OO 42A01 etmaal _ T 6,97 4 0,00;
+4201 Vervoer rolstoel 42A02 etmaal Ï 25,35 | 0,00.
+Vervoer groep ___42A05 etmaal Í 10,14 0,00,
+Vervoer individueel 4206 ___ etmaal | OO 20,28 0,00;
+Totaal Vervoersdiensten n 0,oof
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in C
+43 Jeugdhulp verblijf (incl. behandeling) _
+4300 _|Opvoeding door prof.opvoedouders (Gezinshuis)  43A10 | __ etmaal 167,09 _0,00,
+4301 _ {Kortdurend verblijf groep (met behandeling) \_ 43A15 etmaal 207,67 _ 0,00,
+4302 _ \Langdurend verblijf groep (met intensieve behandeling) _____43A18 © etmaal _ 267,01 0,00:
+4303 _|Logeren met b (kortdurend verblijf) licht 43A35 etmaal 91,20 0,00,
+4304 _ÍLogeren met begeleiding (kor verblijf) waar 43A37 etmaal __ 121,49 | 0,00;
+4305 _|togeren met begeleiding (kortdurend verblijf) zwaar 43A38 etmaal ii 235,39 0,00:
+4306 [residentiële behandeling zwaar inclusief GGZ 43A39 | etmaal | 319,02|_ 0,00;
+4307 _\Per dag VPT GGZ K/J incl.BH incl.DB 43A40 etmaal 259,48] 0,00)
+4308 [Per dag VPT 3LVG incl.BH incl.DB B _Ì_43A43 etmaal _ 161,13 _ 0,00
+4309 [Per dag ZZP 4LVG incl.BH inci.DB 43A44 etmaal 256,18 0,00
+4310 |Per dag ZZP SLVG incl.BH incl.DB OD 43A45 © etmaal TO 255,1 0,00
+4311 [Per dag VPT 2LVG incl.BH ind.DB ______43A49 etmaal 129,95, |___0,00
+4312 [Per dag VPT 1LVG incl.BH incl.DB 43A50 etmaal 99,95 0,00
+4313 _|per dag ZZP 3VG incl.BH excl.DB 43A51 etmaal TD 112,39 _ 0,00
+4314 _ [Per dag ZZP 3VG incl.BH incl.DB OL 43A52 etmaal kh 143,06 0,00,
+4315 [Perdag ZZP 1LVG incl.BH incl.DB 43A53 etmaal 133,71 0,00,
+4316 _\Per dag ZZP 2LVG incl.BH inci.DB 43A54 etmaal 172,94 0,00)
+“4317 _|per dag ZZP 3LVG incl.BH Ind.DB 43A55 etmaal 210,03 0,00
+4318 _|per dag VPT 4LVG ind.BH incl.0B CO 43A56 ___etmaal _ _ 190,02 0,00
+4319 _|Per dag VPT SLVG incl.BH incl.DB 43A57 etmaal OO 190,02 OO 0,00
+4320 [Behandeling voor jeugdigen in gestoten Jeugdzorg 43RO1 etmaal OO EO 439,92 0,00
+4321 |Zeer int beh oep voor jeugdigen in gesloten Jeug: 43R02 etmaal _ _ B ___650,05 0,00
+4322 [Behandeling voor jeugdigen in JeugdzorgPlus Fase 2 43R03 etmaal 439,92 0,00
+Totaal J dhuip verblijf (incl. behandeling) 0,00
+à deu dt UE (end, beianddiiag) Code Eenheid Aantal (Q) ‚Prijs in € (P) Realisatie 920 in C
+4 eugdhulp ver! excl, behandeling { - DD en je | b] \
+Í 4400 | Hulpverleningsvariant max 6 maanden 44A03 etmaal Í ! ter sdf nt fi Ca tie 006- Ci. |
+btor idertificetionf gn t gate
+tant voor
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+Waarmerking acco
+
+Identislepied? miv
+
+| |
+!
+|
+
+tt
+A Á,
+JPA
+
+
+4401 urige begeleiding jongeren (LB]) _ 44A06 etmaal Od 56,95
+4402 |Opvoedvariant (voorheen reguliere Pleegzorg) 44A07 etmaal 40,79 _
+4403 Deellijdvariant (logeren bij Pleegzorggezin Max S5 dagen per ja 44A18 etmaal 50,66
+4404 _|Per dag ZZP 1VG excl. DB 44A35 etmaal BES 68,07
+4405 |Perdag ZZP 2VG excl. DB an A4A36: etmaal OO 82, 98
+4406 _ [Per dag ZZP 3VG excl.BH excl.DB OO 4437 etmaal; 96,15 |
+4407 {Per dag ZZP 1VG incl. DB ______44A38 etmaal | 104,13
+- 440B _ Per dag ZZP 2VG incl. DB nn 44A33 etmaal Í 119,23
+4409 {Per dag ZZP 3VG excl.BH incl.DB _44A40 etmaal 5 MEN n Oe 135,70
+4410 |Perdag ZZP GGZ verblijfscomponent ________________a4nd2 etmaal 22,20 _
+aart GBLG verblijfscomponent _ 44A43 etmaal 24,68
+4412 72P ZG verblijfscomponent n ___A4n44 etmaal | 23,38
+4413 |Per dag VPT 1VG excl.DB __ 44A47 etmaal ï _ 49,89
+aa14 |Perdag VPT 1VGinc.DB j 44A48 etmaal 71,72 ij pe
+aa15_|Per dag VPT 2VGexl0B __ 44M9 etmaal Ho 62,50
+4416 |Per dag VPT 2VG incl.DB 44A50 etmaal 90,37
+4417 |Per dag VPT 3VG excl.BH excl.DB AAAS1 etmaal 73,21
+4418 Per dag VPT 3VG excl.BH incl.DB A4A52 etmaal n 101,07
+“4419 per dag VPT 3VG incl.BH excl.DB ___44A53 etmaal 80,11} TL
+4420 |Per dag VPT 3VG incl.BH incl.DB _ A4A54 etmaal NE 107,95
+“4421 \Per dag ZZP 1GGZ excl.DB ___44A59 etmaal 66,04
+4422 |Perdag ZZP1GGZind.DB TO 44A60 etmaal 92,26
+|_a423_|per dag ZZP 2GGZ excl.DB ___ 44A61 etmaal 99,49
+4424 _|Per dag ZZP 26GZ incl.DB aans? etmaal Î 123,76 _
+4425 _|Per dag ZZP 3GGZ excl.DB 44A63 etmaal 112,07
+4426 _|Perdag ZZP 3GGZ inc.DB OO | 4464 _ etmaal OO 138,79
+4427 Per dag ZZP 4GGZ excl.DB 44A65 ï etmaal EE ie 132,84 j
+4428 _|Per dag ZZP 4GGZ inc.DB DO A4A66 | etmaal | 161,76
+4429 |perdag ZZP SGGZexcl.DB OO ____ 44A67 ___etmaal 143,71
+4430 |Perdag ZZP SGGZind.0B OO 44n68 _ etmaal 172,46 _
+4431 _|Per dag 22P 6GGZ excl.DB Aan69 etmaal} 177,14
+_4432_\Per dag ZZP 6GGZ incl.DB OT a4n70 etmaal | _ 207,06 mn
+4433 Toeslag specialistische pleegzorg 44B07 etmaal 2,64
+Totaal Jeugdhulp verblijf (excl. behandeling) OO
+zE Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+duin Ambulant
+4500 _ [instelling MBO 45A99 minuut OO __o9s|
+4501 _|instelling HBO n 45A99 minuut 1,26
+[4502 {instelling WO 45AS9 — i 1,64
+4503 |instelling WO+ TT 4SA99 tE PE _
+4504 |instelling MS ____4SA99 Ei minuut _ Me _2,88
+4505 _|Vrijgevestigden MBO 45A99 minuut 0,91 ll 0,00,
+4506 _|Vrijgevestigden HBO OO __ 45A99 minuut _ 1,15 0,00,
+4507 _|Vrijgevestigden Wo © 4599 ____minuut 150|_ 0,00;
+4508 |Vrijgevestigden WO + 45A99 __minuut OO 1,99 0,00,
+4509 |Vrijgevestigden MS _ ï 45A99 minuut 2,65 | 0, ‚00,
+4510 OO OO Ee OO 0,00;
+asit Begeleiding j __ 4&5A04 minuut 0,81 _ 0,00
+4512 [Gespecialiseerde begeleiding (psy) (p/u.) a 45A05 minuut 1,27 0,00
+4513 _{Verblijf Jeugdzorg Plus 45A20 etmaal 431,12 ij _ 0,00,
+4514 [Behandeling Jeugdzorg Plus _ 45A21 etmaal 32,76 0,00,
+4515 _|Per dag Toeslag ZZP MFC \__45A58 etmaal 28,97| | 0,00:
+4516 |per dag Toeslag ZZP Observatie ___Ì 45A59 ___ etmaal 74,28 0,00
+4517 |Perdag Toeslag ZZP woonzorg GHZ kind OO 45A60 etmaal | 29,12 ] __0,00;
+_ 4518 {Per dag Toeslag ZZP woonzorg GHZ jeugd \__4SA61 etmaal 17,75 _ 0,00,
+4519 _|Per dagdeel Toeslag ZZP dag. GHZ kind licht 45A62 dagdeel 18,17 0,00
+Totaal Jeugdhulp A 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2920 in €
+46 Jeugdhulp Crisis
+4600 [Crisisopvang (met opname) ___46A03 etmaal | 224,02 In 0,00
+4601 [Per dag ZZP crisisopvang LVG (jeugd) OO A6A04 etmaal | 21291 |_________0,00:
+4602 \Crisisvariant ( Spoedplaatsing Pleegzorggezin Max 30 dagen) 46A05 etmaal 72,35 0,00
+___|rotaat zeugdhutp Crisis 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 220 in C
+47 Jeugdreclassering
+4700 {Maatregel toezicht en begeleiding _ __ 47A01 stuks 619,82 0,00
+4701 _[G&M-advies OO 47A02 sus |_____________ 166335 0,00
+__4702_|GBM-begeleiding j OO ___47A03 stuks 61859| | _______0,00
+4703 |iTB-Criem Oe 47A04 stuks 1876,12 0,00
+4704 [ÌTB-HardeKem 4705 stuks 1414,16 _L 0,00,
+4705 {Samenloop OO _$7A06 stuks | it 155,42 0,00
+4706 [ste 47A07 stuks Lter intifibatie Soi. |
+Totaal Jeugdreclassering | hie ' en 0,00 N
+Op deze financiële productieverantwoording is géén separate accountantscontrole Waarmerking accoentant voor
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend idengfigatigdagtehpen: í
+ter identificatie gewaarmerkt. pan |
+AA |
+| JPA |
+
+Datum:
+
+
+Í
+
+|
+
+|
+
+|
+Realisatie 20 in €
+
+!
+
+|
+
+Code Eenheid Aantal (Q) Prijs in € (P)
+48 Jeugdbescherming
+!
+| OTS < 1 jaar OO 4BA01 stuks | _847,40 0,00;
+OTS > 1 jaar 48A02 stuks í 712,33 0,00,
+ziene MOOIE eem Dn _48A03 ___ stuks | 504,49 0,00
+Totaal Jeugdbescherming n _ | 0,00}
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2620 in€
+49 ___Activiteiten in het preventief justitieel kader |
+_4900 Begeleiding muitiprobteem gezin (drang) (altijd afgeven voor 1: _ 49A02 stuks 6779,21
+_ 4901 [Preventieve jeugdbescherming: modulaire drang 4OA04 uur 105,00 |
+4902 Consultatie Face to Face 49BO1 minuut í 1,75 |
+_ 4903 _|Onderzoek voor instemmingsverklaring 49B05 stuks Í 1252,60 |
+4904 _|Toeleiding naar Jeugdzorg Plus 49B07 stuks Í 1610,92
+Totaal Activiteiten in het preventief justitieel kader _
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+54 Jeugd GGZ ‚
+5400 Dyslexie- Jeugd-ggz behandeling regulier/generalistisch ___54001 minuut Í 1,49
+5401 Deelprestatie verblijf A (Lichte verzorgingsgraad) (incl. NHC cor, 54009 etmaal 128,75
+5402 Deelprestatie verblijf B (Beperkte verzorgingsgraad) (incl. NHC 54010 etmaal | 172,71
+5403 |Deelprestatie verblijf C (Matige verzorgingsgraad) (incl. NHC c 54011 etmaal Í 243,35
+Ir K : :
+5404 Deelprestatie verblijf D (Gemiddelde verzorgingsgraad) (inci. N 54012 etmaal Í 253,45
+5405 Deelprestatie verblijf E (Intensieve verzorgingsgraad) (incl. NH 54013 etmaal í 318,33
+5406 Deelprestatie verblijf F (Extra intensieve verzorgingsgraad) (int 54014 etmaal | 357,81
+5407 Deelprestatie verblijf G (Zeer intensieve verzorgingsgraad) (inc 54015 etmaal ï 500,23
+5408 {Ambulante Spoedeisende Hulp (ASH) 54016 minuut Î 0,00 ;
+5409 _|Verblijf zonder overnachting (VZO) per dag SqR63 etmaal ! 109,15 i
+Jeugd GGZ __@00f
+Í
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2820 in €
+55 Landelijk ingekochte zorg _ _
+5500 En: OO | 0,00,
+5501 Í 0,00:
+Totaal Landelijk ingekochte zorg o,ool
+56 Financiële + ie Jeugdwet Realisatie 2€20 In €
+| 5700 |Gerealiseerde productie Jeugdwet 0,00 |
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+Í
+|
+Í
+Í
+Í
+|
+Í
+Î |
+Ruimte voor algemene toelichting
+Í
+|
+Í
+|
+Zorgaanbieder 5 Rapport van bevineingen:
+Shena en Zong ì 3 EEE |
+Naam: M, Kooij p id | „ynee |
+Handtekeping: ò A.u.b. kiezen wat van toëgassing is.
+Co-Gperatiefzorg BM.
+Postbus 44 6723 ZJ |
+8 Í
+Datum: 24-3-2021 Koudum |
+www.co-operatiefzorg.nl
+info@co-operstiefzorg.nl ar ide i fid at ec H 8 c
+Tel. 0610008323 - 6610008825 ter id ant ennn zaet
+Op deze financiële productieverantwoording is géén separate.geeountentscortsötel Waarrierkánij atcountant voor
+uitgevoerd. Deze financiële productieverantwodrding is door det6esorfitgnBGitsluitend identificatiedoelzinden:
+ter identificatie gewaarmerkt. IBAN NL46Rabo01/0823512 _/ Í ) h MARI 2021
+Ken Z 4 MAKI ZUZI N
+—_à
+LA A
+Zoen, Ld
+
+JA
+
+
+Financiële productieverantwoording Jeugdwet
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+
+Gemeente Castricum
+
+geleverde prestaties met als grondslag de Jeugdwet. Alle llen worden op basis van de werkelijke realisatie ingevuld.
+‘Gemeente Ee Oe Oe (Zorgaanbieder En
+Naam B mn {Castricum On Naam Co-operatief Zerg BV i
+Contactpersoon _ Plaats Koudum Í
+Telefoon _ KvK-nummer {55293867 |
+E-mail eindafrekeningjeugd@debuch.nl Contactpersoon Jeugdwet _ [M. Kooijman
+Telefoon 072-7852282? —
+E-mail miranda.kooijfran@co-operatit
+AGB-code 41418750 |
+NVT
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in C
+40 Persoonlijke verzorging
+4000 Persoonlijke verzorging extra (p/u.) En 40A03 minuut __T 0,75 0,00;
+4001 Persoonlijke verzorging (p/u) 40A04 minuut | __0,72 0,00
+E Totaal Persoonlijke verzorging _ _ _ 0,00
+Dn Dachanandelì Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2C20 in C
+“4100 _ [Degactiviteit kind licht \_ 41A05 _ dagdeel — OD 42,07 0,00)
+4101 _|Dagactiviteit kind midden _41A06 dagdeel 55,01 0,00;
+4102 _ [Dagactiviteit kind zwaar 4107 dagdeel n 88,74 0,00!
+4103 _|Dagactiviteit JLVG _ 41A18 dagdeel 111,98 0,00:
+‚|rotaat Dagbehandeling _ _ o,oof
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+42 Vervoer OO
+4200 {vervoer jeugdzorg plus 42A01 “etmaal 6,97} _ En 0,00!
+4201 Vervoer rolstoel 42A02 etmaal 25,35 0,00!
+4202 |Vervoer groep 42A05 etmaal 10,14 _0,00,
+4203 [Vervoer individueel n 42A06 etmaal 20,28 0,00,
+Totaal Vervoersdiensten _ o,ool
+Code Eenheid Aantal (Q) Prijsin C(P) Realisatie 2E20 in C
+43 gdhulp verblijf (incl. behandeling) OO
+4300 {Opvoeding door prof.opvoedouders (Gezinshuis) 43A10 etmaal 167,09 L _0,00,
+4301 _|Kortdurend verblijf groep (met behandeling) 43A15 etmaal 207,67 0,00:
+4302 Langdurend verblijf groep (met intensieve behandeling) 43A18 etmaal DO 267,01
+4303 |Logeren met b ding (kortdurend verblijf) licht 43A35 | etmaal 91,20
+4304 _|Logeren met begeleiding (kortdurend verblijf) middelzwaar 43A37 etmaal En _ 121,49
+4305 _ILogeren met begeleiding (kortdurend verblijf) zwaar 43A38 etmaal ______235,39 _
+4306 [Residentiële behandeling zwaar inclusief GGZ 43A39 etmaal | 319,02
+4307 _ |Per dag VPT GGZ K/) incl.BH incl.DB 43A40 etmaal 259,48
+4308 |Per dag VPT 3LVG incl.BH Incl.DB 4343 etmaal _ 161,13
+4309 _|Per dag ZZP ALVG incl.BH incl.DB 43A44 etmaal 256,18)
+4310 _\Per dag ZZP 5LVG inci.BH incl.DB 4345 © etmaal 255,11
+az [erdag VPT 2LVGind.BHinc.DB 439 etmaal | 129,95 ee
+4312 |Per dag VPT 1LVG incl.BH incl.DB 43A50 etmaal 99,95
+4313 \per dag ZZP 3VG incl.BH excl.DB A3A51 etmaal 112,39|__ In
+4314 [Per dag ZZP 3VG incl.BH incl.DB _ A3A52 etmaal OT 143,06
+4315 per dag ZZP 1LVG incl.BH Incl.0B 43A53 etmaal 133,71 |
+4316 \Per dag ZZP 2LVG inci.BH incl.DB 43A54 etmaal | 172,94
+4317 |Per dag ZZP 3LVG incl.BH incl.DB 43A55 _____etmaal _ 210,03)
+4318 |Per dag VPT 4LVG inc.BH incl.DB TT 43A56 etmaal | — 190,02| 0,
+4319 |Per dag VPT 5LVG indl.BH incl.DB 4357 190,02
+4320 {Behandeling voor jeugdigen in gesloten Jeugdzorg ä _43RO1 ii etn 439,92
+n 4321 Zeer intensieve behandelgroep voor j in ‚n Jeug: 43R02 etmaal _ B _650,05
+4322 Behandeling voor jeugdigen in JeugdzorgPlus Fase 2 on 43R03 etmaal 439,92
+Totaal dhulp verblijf (incl. behandeling)
+Code Eenheid Aantal (Q) Prijs In C(P) Realisatie 2220 in C
+44 Jeugdhuip verblijf (excl. behandeling) | pu rd _ k
+LL 4400 [Hutpverleningsvariant max 6 maanden _ 44A03 etmaal Ì Ì ter idee t l fi u À t Ks cho6: .
+dentifd atie Dhr poses otuly
+Op deze financiële productieverantwoording is géén separate accountantscontrole i Waarmerking accountant voor
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend identificatiedoe : dant
+ter identificatie gewaarmerkt. h MAR |= 0 ' A
+8 A
+Zn AA,
+Er,
+
+Datum:
+
+Î
+
+
+4401 _|urige begeleiding jongeren (LBJ) _ 44N06 etmaal 156,95
+4402 _|Opvoedvariant (voorheen reguliere Pleegzorg) 44AO7 etmaal 40,79
+4403 Deeltijdvariant (logeren bij Pieegzorggezin Max 55 dagen per ja 44A18 etmaal _50,66
+4404 [Per dag ZZP 1VG excl. DB 4AA35 etmaal 68,07
+4405 Per ar dag ZZP 2VG excl. DB AAA36 _ etmaal OO
+4406 \Per dag ZZP 3VG excl.BH excl.DB 4437 ‘etmaal
+44 Per dag ZZP 1VG incl. DB 44A38 _ etmaal
+Per dag ZZP 2VG ind. DB _ ____AaA39 etmaal
+Per dag ZZP 3VG excl.BH Incl. DB | 44A40 etmaal
+Per dag ZZP GGZ verblijfscomponent OO 44A42 etmaal |
+Per dag ZZP VG&LG verblijfscomponent 4 etmaal __ | n
+Per dag ZZP ZG verblijfscomponent _A4A44 etmaal | _
+Per dag VPT 1VG excl, DB __ 44A47 _ _ etmaal L—
+Per dag VPT 1VG incl.DB 44 A48 etmaal |
+Per dag VPT 2VG excl.DB aandg etmaal |
+Per dag VPT 2VG incl.DB __ aaAs0 etmaal |
+Per dag VPT 3VG excl.BH excl.DB 44A51 etmaal
+[Per dag VPT 3VG excl.BHind.DB aans? etmaal |
+Per dag VPT 3VG incl.BH excl.DB 44A53 etmaal |
+Per dag VPT 3VG incl.BH incl.DB _ &4A54 etmaal |
+Per dag ZZP 1GGZ excl.DB en JAN 44A59 etmaal Ì
+Per dag ZZP 1GGZ incl.DB 44A60 etmaal Í
+_ 44A61 etmaal}
+44AG2 etmaal
+Per dag ZZP 3GGZ excl.DB 44A63 etmaal __
+Per dag ZZP 3GGZ incl.DB 7 AAA64 etmaal 138,79
+Per dag ZZP 4GGZ excl.DB etmaal SERGE 132,84
+Per dag ZZP AGGZ incl.DB_ Oe etmaal _ 161,76 _
+Per dag ZZP SGGZ excl.DB etmaal _ OO K 143,71
+Per dag ZZP 5GGZ inc.DB _ OO etmaal j 172,46 n _
+[per dag ZZP 6GGZ excl.DB etmaal OO 177,14
+Per dag ZZP 6GGZ incl.DB etmaal _ 207,06 _
+Toeslag specialistische pleegzorg etmaal 2,64
+_ Totaal Jeugdhulp verblijf (excl. behandeling) _ Oe >
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in €
+45 gdhulp A
+| 4500 [instelling MBO 45A99 minuut 0,98
+“4501 [instelling HBO OO 45A99 minuut — 1,26 _
+4502 _|instelling WO 45A99 minuut 1,64
+4503 [Instelling WO+ 4SA99 minuut 2,17 _
+4504 _ [instelling MS _ ___45A99 minuut 2,88
+4505 _[Vrijgevestigden MBO OO 45A99 minuut o,s1|_
+4506 |Vrijg HBO 45A99 __ minuut na A 1,15
+4507 _[Vrijgevestigden WO 45A99 minuut 1,50 nm _
+_ 4508 _|Vrijgevestigden WO+ ___45A99 _minuut 1,99
+_aso9 _[Vrijgevestigden MS _ 45A99 minuut 2,65 _
+4510 OO _
+_ 4511 {Begeleiding minuut 0,81 OO
+4512 _|Gespec de t (psy) (p/u) minuut 1,27
+4513 [Verblijf Jeugdzorg Plus etmaal 431,12 _
+_4514_|Behandeli q Plus etmaal _ _ 32,76
+4515 _|Per dag Toeslag ZZP MFC etmaal 28,97 ij Ha
+| 4516 Per dag Toeslag ZZP Observatie etmaal 74,28
+4517 [Per dag Toeslag ZZP woonzorg GHZ kind etmaal 29,12
+4518 \Per dag Toeslag ZZP woonzorg GHZ jeugd ____45A61 ____etmaal 17,75
+4519 Per dagdeel Toeslag Zzp degb. GHZ kind licht — 45A62 ú dagdeel 18,17
+Totaal dhulp Ambulant
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2020 in €
+46 _ Jeugdhulp Crisis________ ee epe eg a _
+4600 [Crisisopvang (met opname) 46A03 etmaal _ | 224,02 0,00!
+4601 [Per dag ZZP crisisopvang LVG (jeugd) OT 46A04 “etmaal | _ 212,91 Ü 0,00!
+4602 _ {crisisvariant ( Spoedplaatsing Pleegzorggezin Max 30 dagen) _ 46AOS — etmaal __ _L _ 72,35 0,00:
+_____ |retaat Jeuganwip crisis OO OO OO 9,90)
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie £220 in €
+47 Jeugdreclassering a En OO
+4700 [Maatregel toezicht en begeleiding 47A01 stuks | 619,82) Ì m _0,00)
+4701 _|GBM-advies Oe OO 47A02_ stuks LL 1663,35 0,00,
+4702 _|GBM-begeleiding 47A03 stuks Í 618,59 _ Ii _ 0,00
+4703 _|ITB-Criem 47A04 stuks OO 1876,12 0,00
+4704 _[ITB-Harde Kern OO CC AZA05 stuks | 141418) | _________0,00
+4705 _ [Samenloop ___47A06 stuks EO 1 155,42 0,00
+4706 [STP 47A07 stuks 156,34 0,00: 1
+_____|rotaal Jeugdreclassering ter Hdentinicat dool 1.6.
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+| N beaatifie td
+Waatmerking acco
+
+identificatiedoedeinden:
+
+bh Mé
+
+entant voor
+
+112%
+
+AR Lut |
+
+
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie 2020 in €
+48 Jeugdbescherming
+OTS < 1 jaar ‚ __4BAOL stuks; _ H __ 847,40 0,00
+‚_|ors > 1 jaar _ _ _ 48A02 stuks | 712,33 0,00
+| Voogdij _ 48A03 stuks 504,49 0,00
+Totaal Jeugdbescherming 0,00
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2020 in €
+Activiteiten in het preventief justitieel kader _
+Begeleiding multiprobleem gezin (drang) (altijd afgeven voor 1; _ 49A02 stuks Hf 6779,21 0,00;
+Preventieve jeugdbescherming: modulaire drang 49A04 vur 105,00 0,00
+Consultatie Face to Face 49B01 minuut 1,75 0,00,
+_ {Onderzoek voor instemmingsverklaring 49B05 stuks 1252,60 0,00,
+| Toeleiding naar Jeugdzorg Plus “49807 stuks 1610,92 0, 00.
+Totaal Activiteiten in het preventief justitieel kader 0,0of
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie 2020 in €
+54 Jeugd GGZ Wi: zeen
+5400 |Dyslexie- Jeugd-ggz behandeling regulier/generalistisch 54001 minuut H 1,49 0,00;
+5401 |Deelprestatie verblijf A (Lichte verzorgingsgraad) (incl. NHC cor _ 54009 | etmaal 128,75 0,00;
+5402 |Deeiprestatie verblijf B (Beperkte verzorgingsgraad) (incl. NHC 54010 etmaal ! 172,71 0,00’
+5403 _|beeiprestatie verblijf C (Matige verzorgingsgraad) (incl. NHC c_ 54011 etmaal | 243,35 0,00:
+5404 |Deelprestatie verblijf D (Gemiddelde verzorgingsgraad) (incl. N 54012 ï etmaal Í 253,45 _ 0,00,
+5405 Deelprestatie verblijf E (Intensieve verzorgingsgraad) (incl. NH 54013 etmaal 318,33 _0,00:
+5406 Deelprestatie verblijf F (Extra intensieve verzorgingsgraad) (int 54014 etmaal í 357,81 0,00
+5407 [Deelprestatie verblijf G (Zeer intensieve verzorgingsgraad) (inc 54015 etmaal Î 500,23 0,00
+5408 [Ambulante Spoedeisende Hulp (ASH) “54016 minuut Ï 0,00 ! 0,00.
+5409 [Verblijf zonder overnachting (VZO) per dag SáaR63 etmaal | 109,15 0,00
+Jeugd GGZ | 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+55 Landelijk ingekochte zorg
+En zi ’ | 0,00
+5501 OO | 0,00
+Totaal Landelijk ingekochte zorg OO n _ OO 0,0of
+56 Financiële realisatie Jeugdwet OO Realisatie 2020 in €
+[ 5700 |Gerealiseerde productie Jeugdwet 0,00 |
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+Zorgaanbieder
+Naam: Mm. Kooijman
+Handtekening:
+
+Op deze financij id productieverantwoording is Béén seqear 064 ĳ
+uitgevoerd. Elan financiële productieverantwodrding is doe h igsluitend
+ter identificatie gewaarmerkt. gRatro0170823512
+
+Datum:
+
+t van bevindi
+
+_dg/Nee |
+
+pp
+
+A.u.b. kiezen wat van toepassing is.
+
+tes identlhicat
+
+Le
+
+Waarmerking accountant voor
+
+Weng Sn ,
+
+
+Financiële productieverantwoording Jeugdwet Gemeente Heiloo
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde pr met als g g de gdwet. Alle aantallen worden op basis van de werkelijke realisatie Ingevuld.
+Gemeente _ OO Zorgaanbieder ne: ed |
+Naam „Heiloo Naam Co-operatief Zorg BV í
+Contactpersoon E: Plaats Koudum ij
+Telefoon _ _ KvK-nummer 55293867 |
+E-mail eindafrekeningjeugd@debuch.nl Contactpersoon Jeugdwet M. Kooijman En
+_ Telefoon 072-7852282
+E-mail miranda.kooijnan@co-operalie
+AGB-code [41418750 | Ì
+Geleverde sJeugdwet _
+NVT
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2020 in €
+40 Persoonlijke verzorging nn ‚
+Î 4000 Persoonlijke verzorging extra (p/u.) 40A03 minuut í i 0,75 0,00
+4001 {Persoonlijke verzorging (p/u) 4OA04 minuut En 0,72 0,00
+__|Totaal Persoonlijke v verzorging 0,00,
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2220 in €
+41 Dagbehandeling Se 5 etna ene ee LL _
+4100 _[Dagactiviteit kind licht OO 41A05 _ dagdeel | 42,07) 0,00,
+4101 _{Dagactiviteit kind midden __41A06 dagdeel | _ __55,01 0,00,
+4102 _ |bagactiviteit kind zwaar mn _ “TC41A07 ___ dagdeel F 88,74 _0,00,
+4103 |Dagactiviteit JLVG _ ____ _41A1B dagdeel | 111,98 0,00,
+ä Totaal Dagbehandeling 0,00}
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2620 in €
+42 Vervoersdi _ OO Oe
+4200 {vervoer jeugdzorg plus 42A01 etmaal TL ONE B _ 0,00
+4201 _|Vervoer rolstoel 42A02 etmaal ____25,35 0,00,
+4202 {Vervoer groep 42A05 etmaal 10,14 0,00,
+4203 [Vervoer individueel 42A06 etmaal 20,28 0,00;
+_ [rotaal vervoersdiensten OO 0,00}
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in €
+43 Jeugdhulp verblijf (incl. behandeling)
+4300 Opvoeding: door prof.opvoedouders (Gezinshuis) A3A10 etmaal _ 167,09
+4301 [Kortdurend verblijf groep (met behandeling) 43A15 etmaal 207,67|_____ |
+4302 Langdurend verblijf groep (met intensieve behandeling) A3A18 etmaal EE 267,0 01
+__4303 [Logeren met begeleiding (kortdurend verblijf) licht 43A35 etmaal 91,20
+4304 _|Logeren met begeleiding (kortdurend verblijf) middelzwaar En 43A37 ‘etmaal | [ EE: 121,49
+4305 Logeren met begeleiding (kortdurend verblijf) zwaar 43A38 etmaal 235,39 n
+4306 |Residentiële behandeling zwaar inclusief GGZ t 43A39 etmaal _ 319,02
+4307 |Perdag VPT GGZ K/d incl.BH incl.DB 43A40 etmaal 259,48) _ _
+4308 \Per dag VPT 3LVG incl.BH incl.DB _ CS 43A43 etmaal OO 161,13
+4309 \Per dag ZZP 4LVG incl.BH incl.DB 43A44 etmaal 256,18| OO
+4310 [Per dag ZZP 5LVG incl.BH incl.DB TO 43A45 etmaal DO 255,11
+“4311 [Per dag VPT 2LVG ind, 43A49 etmaal 129,95 _
+4312 [Perdag VPT 1LVG incl. _ 43A50 etmaal | 99,95
+_ 4313 |Perdag ZZP 3VG incl.BH excl.DB 43A51 etmaal 112,39|
+4314 Per dag ZZP 3VG incl.BH incl.DB _ 43A52 “etmaal 143,06
+4315 [Per dag ZZP 1LVG incl.BH Incl.DB 43A53 etmaal 133,71) |
+4316 [Per dag ZZP 2LVG incl.BH incl.DB OO _ 43A54 etmaal 172,94
+4317 |Perdag ZZP 3LVG incl.BH incl.DB \__43A55 etmaal 210,03|
+4318 _ [Per dag VPT 4LVG incl.BH incl.DB 5 A3A56 etmaal 190,02
+4319 _|Per dag VPT SLVG incl.BH inc _____ 43A57____etmaal 190,02 _ 0,00,
+_4320 Behandeling voor jeugdigen in go 43R01 etmaal 439,92 0,00,
+4321 {Zeer int delgroep voor jeugdigen in gesloten. Jeug: 43R02 etmaal 650,05 0,00:
+4322 Behandeling voor jeugdigen Jeugdzorgplus Fase 2 43R03 a etmaal OO 439,92 0,00
+Totaal dhuip verblijf (incl. behandeling) OO 0,00
+Code Eenheid Aantal (Q) Prijs t € eri Realisatie EI20iNnC
+44 ___Jeugdhulp verblijf (excl, behandeling) | id [a ni EEC tie
+Í 4400 [Huipverleningsvariant max 6 maanden 44A03 etmaal __ | Í „48 bad. 0,00;
+ai :
+Op deze financiële productieverantwoording is géén separate accountantscontrole EE accountant voor
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend identificajiegokjjdep; 2
+ter identificatie gewaarmerkt. Oe
+
+
+4401 _|urige begeleiding jongeren (LB)) 4an06 etmaal | _______156,95
+4402 Opvoedvariant (voorheen reguliere Pleegzorg) 44A07 etmaal | 40,79
+_4403 _ |Deeltijdvariant (logeren bij Pleegzorggezin Max 55 dagen perja__44A18 etmaal | ____ 50,66
+4404 _ [Per dg ZZP 1VG excl. DB | 44n35 etmaal | 68,07
+4405 ZZP 2VG excl. DB A4A36 etmaal | _ __ 82,98
+4406 ZZP 3VG excl.BH excl.DB OO 44A3 etmaal | 96,15
+__4407_|Per dag ZZP 1VG inc _44A38 etmaal; 104,13
+4408 _|Per dag ZZP 2VG incl. OO aan3o etmaal | 119,23
+4409 _|er dag ZZP 3VG excl.BH incl.DB 4an40 etmaal | 135,70
+4410 |Perdag ZZP GGZ verblijfscomponent __ 44A42 etmaal | 22,20
+Aalt Per dag ZZP VG&LG verblijfscomponent _ 44A43 _ etmaal _| OO 24,68
+aä1z Iper dag ZZP ZG verblijfscomponent nd däA44 etmaal f 23,38
+4413 |Perdag VPT 1VG excl.DB 44A47 etmaal__Ì________________49,89
+4414 _ÎPer dag VPT 1VG incl.08 __ 44n48 etmaal | | 71,72
+“4415 per dag VPT 2VG excl.DB ____ aana9 etmaal | 62,50
+4416 |Per dag VPT 2VG incl.DB _ ___44A50 etmaal 90,37
+4417 |Per dag VPT 3VG excl.BH excl.DB AAA5L etmaal | 7324
+4äig Per dag VPT 3VG excl.BH incl.DB _ 4452 etmaal 101,07|
+“4419 {Per dag VPT 3VG incl.BH excl.0B 44A53 etmaal | 80,11
+4420 Per dag VPT 3VG incl.BH incl.DB SC AAA54 etmaal 107,95
+aa21 \Per dag ZZP 1GGZ excl.DB ___44A59 etmaal _ 66,04
+4422 Per dag ZZP 1GGZ incl.DB CO 44A60 etmaal OO _92,26|_
+4423 \Perdag ZZP 2GGZ excl.DB AAA6L_____ etmaal OO 99,49
+4â24 |perdag Z2P2GGZincl0B _ aan62 etmaal Ì 123,76
+4425 _|Perdag Z2P 3GGZ excl.DB A4A63 etmaal _ | 112,07
+4426 _\er dag ZZP 3GGZ incl.DB TT 44A64 etmaal | 138,79
+4427 _ [per dag ZZP 4GGZ excl.DB 4AG5 etmaal | 132,84
+4428 _\Perdag ZZP AGGZincl.DB n _ 44A66 etmaal OO 161,76
+4429 [Per dag ZZP 5GGZ excl.DB \__44A67 etmaal 143,71
+4430 _|Per dag ZZP 5GGZ ind.DB TO A4A6B etmaal 172,46
+4431 _|Per dag ZZP 6GGZ excl.DB ___44A69 etmaal _ 4
+[4432 [Perdag ZZP 6GGZinc.DB _ 44A70 etmaal | | 207,06
+4433 |roeslag specialistische pleegzorg “44807 etmaal Ì _ 2,64
+aha: Totaal Jeugdhulp verblijf (excl. behandeling) OO _ _ en rn
+Code Eenheid Aantal (Q) Prijs inC (P) Realisatie 2020 in €
+45 Ip Ambu
+4500 _|insteling MBO 45A99 minuut | 0,98
+_ 4501 [instelling HBO > _45A99 ____minuut : 126|
+_4502_|ostelling WO ______ 45A99 minuut 1,64
+4503 _|instelling WO+ n 45A99 minuut | 247) n
+|_ 4504 instelling MS 45A99 minuut ____2,88
+4505 _ |[Vrijgevestigden MBO 4SA99 minuut i 0,91)
+“4506 _|Vrijgevestigden HBO ___45A99 minuut _ 145
+4507 _[Vrijgevestigden WO DC 45A99 minuut | : 1,50|
+4508 Vrijgevestigden WO+ _ \__4SA99 minuut 1,99
+“4509 _|Vrijgevestigden MS _ ___45A99 minuut ' 2,65
+4510 OO ee NE, NE
+4511 [Begeleiding __…__45A0A minuut _ 0,81 _ nm
+4512 [Gespecialiseerde begeleiding (psy) (p/u.) 45A05 minut | _____4,27
+_4513 Verblijf Jeugdzorg Plus t _45A20 ; etmaal 431,12 _
+4514 [Behandeling Jeugdzorg Plus Ee ___…__45A21 __ etmaal B __________32,76
+4515 _ [Per dag Toeslag ZZP MFC ____4SA58 etmaal 28,97 [__
+4516 \Per dag Toeslag ZZP Observatie C 45A59 etmaal 74,28
+4517 {Per dag Toeslag ZZP woonzorg GHZ kind 45A60 etmaal 29,12}
+4518 |per dag Toeslag ZZP woonzorg GHZ jeugd _ | ASA6L etmaal Ì 17,75
+4519 _ [per dagdeel Toeslag ZZP dagb. GHZ kind licht 45A62 dagdeel 18,17
+Totaal gdhulp Ambul _
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie 2220 in €
+46 __ Jeugdhulp Crisis zo ss s Oe nn
+4600 _ |Crisisopvang (met opname) 46A03 etmaal___|__________________224,02 0,00,
+Per dag ZZP crisisopvang LVG (jeugd) 46A04 etmaal _ 212,91 Î________0,00
+Crisisvariant ( aksi Pleegzorggezin Max 30 dagen) 46A05 ! etmaal 72,35 0,00
+[rotaat Jeugdhulp Crisis OO Oe 9,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2920 in €
+47 Jeugdreclassering OO OO
+4700 Maatregel toezicht en begeleiding __ 4JAO1 stuks | 619,82 En
+__4701_|GBM-advles 47A02 stuks RE | OO __1663,35
+4702 _|GBM-begeleiding | _47A03 _ stuks ] 618,59)
+4703 _{ITB-Criem _________47A04 stuks 1876,12
+“4704 |lTB-HardeKem On 47A05 stuks 1414,18) |
+4705 _|Samenloop ____47A06 stuks |________________ 155,42 |
+4706 [STP ___47A07 stuks el 156,34
+Totaal Jeugdreclassering | tar ida at Fi Ei ca
+EER
+Op deze financiële productieverantwoording is géén separate accountantscontrole Waarmerkihg accóentant voor —
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend _identificatiedoe einden:
+ter identificatie gewaarmerkt. 2 bh MER 2021
+Oatum: HE
+
+
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2€20 in C
+48 Jeugdbescherming
+lors < 1 jaar ___4BA01 stuks 847,40 __|_____o,00
+OTS > 1 jaar _ 4BAO02 stuks i 712,33 0,00,
+Voogdij 48A03 stuks í E 504,49 0,00;
+Totaal Jeugdbescherming 0,00l
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2C20 in €
+49 Activiteiten in het preventief justitieel kader
+_ 4900 |Begeteiding multiprobleem gezin (drang) (altijd afgeven voor 1: _ 49A02 stuks 6779,21 0,00!
+490 Preventieve jeugdbescherming: modulaire drang 49A04 uur 105,00 0,00;
+4902 _ Consultatie Face to Face 49B01 minuut 1,75 0,00
+4903 {Onderzoek voor instemmingsverklaring 49B05 stuks í 1252,60 0,00,
+4904 Toeleiding naar Jeugdzorg Plus 49B07 stuks í 1610,92 0,00
+Totaal Activiteiten in het preventief justitieel kader o,oof
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2820 in C
+54 Jeugd GGZ
+5400 {Dystexie- Jeugd-ggz behandeling regulier/generalistisch 54001 minuut 1,49
+“5401 [Deelprestatie verblijf A (Lichte verzorgingsgraad) (incl. NHC cor 54009 etmaal 128,75
+5402 Deelprestatie verblijf B (Beperkte verzorgingsgraad) (incl. NHC 54010 etmaal 172,71
+5403 [Deeiprestatie verblijf C (Matige verzorgingsgraad) (incl. NHC « _ 54011 etmaal 243,35
+"5404 \Deelprestatie verblijf D (Gemiddelde verzorgingsgraad) (incl. N__ 54012 etmaal 253,45
+5405 |Deelprestatie verblijf E (Intensieve verzorgingsgraad) (incl. NH 54013 etmaal 318,33
+5406 Deelprestatie verblijf F (Extra intensieve verzorgingsgraad) (int 54014 etmaal í 357,81 _
+5407 |Deelprestatie verblijf G (Zeer intensieve verzorgingsgraad) (inc 54015 etmaal Í 500,23
+5408 [Ambulante Spoedeisende Hulp (ASH) 54016 minuut | 0,00
+5409 [Verblijf zonder overnachting (VZO) per dag 5á4R63 etmaal Í 109,15
+Jeugd GGZ _
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in €
+55 Landelijk ingekochte zorg Ì
+5500 OO A _L EO 0,00,
+5501 | Ì j | 0,00,
+Totaal Landelijk ing hte zorg _ _ 0,00
+56 Financiële realisatie Jeugdwet OO Realisatie 2220 In €
+
+[_s7oo |Gerealiseerde productie Jeugdwet
+
+716.148,52 |
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+voor
+
+pp
+
+t van be
+
+Zorgaanbieder
+
+Naam: M. Kooijman
+Handtekening:
+
+Datum: 24-3-2021
+
+Op deze financiële productieverantwoording is géén feparate
+
+Is doge gi tO0wdR 2 10008825
+
+uitgevoerd. Deze financiële productieverantwoordin
+ter identificatie gewaarmerkt.
+
+g-Operatietzorg B.V.
+a 44 8723 ZJ
+Koudum
+retorgn,
+Nt
+
+Btw NL851643334.B01
+Kvk
+
+7
+|_vmannuvonanootToe2En
+
+Datum:
+
+Aa/Nee |
+
+A.u.b. kiezen wat van toepassing ís.
+
+Waarmerking accountant voor
+
+identificatiedogdeinden:
+
+
+Financiële productieverantwoording Jeugdwet Gemeente Alkmaar
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde pr met als grondslag de Jeugd Alle worden op basis van de werkelijke realisatie ingevuld.
+Gemeente Oe OO rend ‘Zorgaanbieder E!
+Naam ____________|Alkmaar OO Ì [Naam _ Co-operalief Zorg BV
+Contactpersoon aap _ OO DE: Plaats Koudum |
+Telefoon n KvK-nummer __|ss292867 |
+E-mail FinancienSociaaldomein@alkmaar.nl Contactpersoon Jeugdwet _ |M. Kooijman
+On Telefoon 072-7852285
+E-mail miranda.kooifman@co-operatie
+AGB-code 41418750 | |}
+Geleverde prestaties Jeugdwet ___
+[inkoop order nr: NVT
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 20-20 in C
+40 Persoonlijke verzorging
+4000 _ [Persoonlijke verzorging extra (p/u) En 40A03 minuut Ì 0,75 0,00)
+4001 _|Persoonlijke verzorging (p/u.) 40A04 minuut} _0,72 0,00!
+Totaal Persoonlijke verzorging o,oo|
+de Er Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in C
+4100 __[Dagactiviteit kind licht A1A05 dagdeel Ed 0,00
+4101 _|Dagactiviteit kind midden __41A06 _dagdeel OO 55,01 0,00
+4102 _|Dagactiviteit kind zwaar OO _____41A07 dagdeel Ì 837al 0,00;
+4103 |Dagactiviteit JLVG Ï 41A18_ dagdeel 111,98 0,00!
+__[rotaal Dagbehandeling 0,00]
+Code Eenheid Aantal (Q) Prijsin C(P) Realisatie 2820 in €
+42 Vervoer En eN
+4200 [vervoer jeugdzorg plus 42A01 etmaal | 6,97| | ________ 0,00;
+4201 Vervoer rolstoel 42402 etmaal | 25,35 0,00
+4202 [Vervoer groep _ ___42A05 etmaal í 10,14 0,00
+4203 [Vervoer individueel 42A06 etmaal | 20,28 0,00
+Totaal Vervoersdiensten B _ _ 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2620 in €
+43 Jeugdhulp verblijf (incl. behandeling) _
+4300 _Topvoeding door prof.opvoedouders (Gezinshuis) _______ ‘ 43A10 etmaal | Oe 167,09, Ì |_______0,00
+4301 IKortdurend verblijf groep (met behandeling) Ì_ _43A15 etmaal Î 207,67|___ 0,00
+4302 _|Langdurend verblijf groep (met intensieve behandeling) 43A18 etmaal _ | ___ 380 267,01 101.463,80
+"4303 Logeren met begeleiding (kortdurend verblijf) licht \__43A35 etmaal n Î 91,20 0,00
+4304 [Logeren met b ing (kor d verblijf) waar 43A37 etmaal OO 121,49 0,00
+“4305 |togeren met begeleiding (kortdurend verblijf) zwaar Ì__43A38 etmaal ï 235,39 0,00!
+4306 [Residentiële behandeling zwaar inclusief GGZ nm 43A39 etmaal {319,02 0,00,
+4307 _|Per dag VPT GGZ K/) incl.BH incl.DB \__43A40 Einasl ï 259,48 7 —o,0ol
+4308 _\Per dag VPT 3LVG Incl.BH incl.DB 0 43A43 etmaal f 161,13| 0,00)
+4309 |Per dag ZZP 4LVG incl.BH incl.DB \_ 43A44 etmaal _} 256,18 En 0,00
+4310 _|Per dag ZZP SLVG incl.BH ind.DB 43A45 etmaal _ 255,11 0,00
+“4311 |Perdag VPT 2LVG inc.BH inci.DB 43A49 etmaal 129,95 Si 0,00
+4312 Per dag VPT 1LVG incl.BH incl.DB OO OO KE 43A50 Kn stmaal | | Ei Oe 99,95 | mn 0,00
+4313 |Per dag ZZP 3VG incl.BH excl.DB |__43AS1 etmaal OO __112,39 0,00
+4314 |Per dag ZZP 3VG incl.BH incl.DB OO 43A52 etmaal OL 143,06 | ____0,00
+4315 [per gag ZZP 1LVG incl.BH incl.DB \ 4353 etmaal 133,71) | 0,00
+4316 [Per dag ZZP 2LVG incl.BH inc.DB | 43A54 etmaal É 172,94 n 0,00
+4317 _\er dag ZZP 3LVG incl.BH incl.0B | 43A55 etmaal 210,03| | ______0,00
+4318 [Per dag VPT 4LVG incl.BH incl.DB TTE 43A56 etmaal | 190,02 _ 0,00
+4319 _|Per dag VPT SLVG incl.BH incl.DB n \__43A57 _____etmaal _ 190,02 0,00
+4320_|Behandeling voor jeugdigen in gesloten Jeugdzorg ______43RO1 etmaal 439,92 > 0,00
+4321 [Zeer i ieve b roep voor jeugdigen In gestoten Jeug.__43R02 etmaal | 650,05 ie 0,00
+4322 _|Behandeling voor jeugdigen In JeugdzorgPlus Fase 2 4R03 etmaal 492 0,00
+Totaal Jeugdhulp verblijf (incl. behandeling) 101,463,80
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie 2020 in €
+44 Jeugdhulp verblijf (excl. behandeling)
+[__4a00_[Huipverleningsvariant max 6 maanden {_ _A4A03 etmaal __ |
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+
+Í
+|
+Î
+4401 |urige begeleiding jongeren (LBJ) ___44A06 etmaal | „156,95 0,00,
+4402 _|Opvoedvariant (voorheen reguliere Pleegzorg) _ 44A07 ___etmaal | k 40,79 ___ 0,00,
+4403 Deeltijdvariant (logeren bij Pleegzorggezin Max 55 dagen perja 44A18 etmaal H OO 50,66 0,00:
+__4a0a [Per dag ZZP IG excl. DB 44A35 etmaal IE mn ‚ 68,07| 0,00 |
+4405 _|Per dag ZZP 2VG excl. DB 44A36 etmaal | _________________82,98 0,00
+4406 _ [Per dag ZZP 3VG excl.BH exd.DB __— 44A37 etmaal _ 96,15 _0,00
+4407 _|Per dag ZZP 1VG incl. DB 4435 etmaal E 104,13) __0,00
+4408 [Per dag ZZP 2VG inc. DB 44A30 etmaal | OE 19,23| 0,00
+4409 {Per dag ZZP 3VG excl.BH ind.DB Oe Î 44A40 E etmaal Kk 135,70 Í 0,00 Et 4
+4410 {Per dag ZZP GGZ verblijfscomponent CT 44aAaz etmaal E ï 22,20} Ì 0,00 í
+aa11 [Per dag ZZP VGELG verblijfscomponent A4A43 etmaal OO ___24,68 0,00 | Í
+4412 _|Per dag ZZP ZG verblijfscomponent — Oe 44paa etmaal | 23,38 _ 0,00
+_4413 [Per dag VPT 1VG excl.DB OO  44A47 etmaal {49,89 0,00 |
+4414 _|Per dag VPT 1VG incl.0B OO 44M48 etmaal 272 | _______0,00
+4415 _|Per dag VPT 2VG excl.DB _ 44A49 etmaal __|_ 62,50 0,00 !
+4416 [Per dag VPT 2VG incl.0B 44A50 etmaal 90,37 0,00 Í
+4412 |Per dag VPT 3VG excl.BH excl.DB 44A51 etmaal ij 73,21 Î 0,00 Ï
+4418 Per dag VPT 3VG exchBHind.DB CT A4A52 etmaal | 10107) IR 0,00 |
+4419 [Per dag VPT 3VG incl.BH excl.DB 44A53 etmaal sean _ 80,11 0,00 !
+4420 |Per dag VPT 3VG incl.BH incl.DB 44A54 etmaal 107,95 _ 0,00 |
+aá21_|Perdag ZZP 1GGZexc.DB | 44A59 etmaal | a 66,04 0,00
+4422 _|Per dag ZZP 1GGZ inc.DB OT 44A60 etmaal n 92,26| 0,00
+4423 |Perdag ZZP 2GGZexcl.DB AàA61 etmaal 99,49 0,00 |
+4424 _ [per dag ZZP 2GGZ inc.DB A4A62 etmaal Ï 12376| | _______0,00 Î
+4425 _|per dag ZZP 3GGZ excl.DB __44A63 etmaal | 112,07 0,00
+4426 [per dag ZZP 3GGZind.DB OT A4A64 ema | 138,79 _ 0,00, |
+4427 _ [per dag ZZP 4GGZ excl.DB __44A65 etmaal En 132,84 0,00
+4428 _|Per dag ZZP 4GGZ ind.DB 44A66 etmaal | Od 161,76| __0,00 |
+4429 [Per dag ZZP 5GGZ excl.DB OO __ 44A67 etmaal | 143,71 0,00 |
+_4430 [Per dag ZZP 5GGZ incl.DB __44A6B etmaal ' 172,46| _ 0,00! Lo
+4431 _|Per dag ZZP 6GGGZ excl.DB 44A69 etmaal__ | 17/14) 0,00 kj
+4432 _|Per dag ZZP 6GGZ incl.DB __ 44A70 etmaal j 207,06) _ d _0,00: | í
+4433 |Toeslag specialistische pleegzorg 44B07 etmaal LL 2,64 0,00 í '
+Totaal Jeugdhulp verblijf (excl. behandeling) OO OO OO 0,00 Li
+| Î
+|
+|
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2620 in C í
+45 Jeugdhulp Ambulant - Oe L_ Li
+4500_ [instelling MBO 45A99 ____mawt | 0,98 0,00 | Í
+4501 {instelling HBO ___45A99 minuut 126 | _______0,00 Lj
+4502 instelling WO OO ____________… 45A99 minuut _ |____ 1,64 0,00 |
+_4503 Instelling WO+ „_45A99 ___ minuut Ì rj 000,
+4504 _ [Instelling MS 45A99 minuut 2,88 0,00,
+4505 _|Vrijgevestigden MBO ‚ _45A99 _ minuut i 0,91 _ _ n _ 0,00
+4506 _ |Vrijg HBO 45A99 minuut 1,15 0,00 H
+|__4507 _|Vrijgevestigden WO 45A99 minuut 12720 1,50) | ___19.080,00
+4508 |Vrijgevestigden WO+ | 4SA99 | minuut 1,99 0,00
+4509 |Vrijgevestigden MS __ 4S5A99 minuut 265 _______{ 0,00;
+4510 # nn a nn 0,00,
+4511 [Begeleiding Oe \__45A04 ___ minuut 6480 os 5.248,80,
+4512 IG iali de ding (psy) (p/u.) _____ _45A05 ______minuut n 1,27 0,00! î
+|_ 4513 _ [Verblijf Jeugdzorg Plus __ 45A20 «etmaal Î 431,12 ___0,00, Li
+4514 handeling } g Plus _ ASA21 etmaal _— 32,76 0,00 í
+4515 |Perdag Toeslag ZZP MFC m DO __ 45A58 _ etmaal á 28,97 nn 0,00 Í |
+4516 [Per dag Toeslag ZZP Observatie 45A59 etmaal 74,28 0,00 1
+4517 |Perdag Toeslag Z2P woonzorg GHZ kind 45A60 etmaal 29,12 OO ____0,00 | Í
+4518 [Per dag Toeslag ZZP woonzorg GHZ jeugd | 45A61 etmaal 17,75 1 0,00 Lj
+4519 |Per dagdeel Toeslag ZZP dagb. GHZ kind licht OO | _45A62 dagdeel 18,17 0,00 F4
+Totaal Jeugdhulp Ambulant 24.328,80 Û
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in C Í
+46 ___Jeugdhuip Crisis - _ - sne ereen Ì
+4600 {Crisisopvang (met opname) 46A03 etmaal 224,02 0,00) |
+4601 [Per dag ZZP crisisopvang LVG (jeugd) \__46A04 etmaal ì 212,91) 0,00, |
+4602 |Crisisvariant ( Spoedplaatsing Pleegzorggezin Max 30 dagen) 46A05 etmaal 72,35 0,00
+__… __ |Totaal Jeugdhulp Crisis __ EE znne ge 9,00
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2920 in C Ë
+47 Jeugdreclassering |
+4700 {Maatregel toezicht en begeleiding 5 __47A01 stuks _ 619,82, ______ 0,00 í
+[4701 _|GBM-advies — OO __47A02 stuks Sl 1663,35 ! 0,00 | Í
+4702 _|GBM-begeleiding A7A03 stuks a: 618,59|_______| 0,00 H
+4703 _|ITB-Criem Ì__47A04 stuks 1876,12|_ 0,00 |
+4704 _|ITB-Harde Kern OO ___47A05 stuks Ì 1414,18 7} ||
+4705 _|samentoop ___ 47A06 stuks | 155,42 0,00 Lj
+_4706 ISTP 47A07 stuks | 156,34) ij _0,00;
+__|rotaat Jeugdreclassering stter 1teTTURTt „6,00 - - d 5
+t bertst esb purpose: tl
+Op deze financiële productieverantwoording is géén separate accountantscontrole Waarmerking accountant voor |
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend dentinicprjndodnndsne pi H |
+ter identificatie gewaarmerkt. £ | Pd 02 li _ | Lj
+Al Ei
+A Áh
+JAN
+Ostum: _ nd |
+
+
+Cade Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+48 Jeugdbescherming
+[ 4800 lors < 1 jaar 48A01 stuks 847,40) | ____0,00,
+|_ago1 [OTS > 1 jaar 4BA02 stuks | 712,33 0,00:
+4802 {Voogdij 48A03 stuks | 504,49 0,00;
+[rotaal Jeugdbescherming _ 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in C
+Activiteiten in het preventief justitieel kader Aj
+Begeleiding multiprobleem gezin (drang) (altijd afgeven voor 1 _ 49A02 stuks 6779,21 0,00;
+Preventieve jeugdbescherming: modulaire drang 49A04 uur i 105,00 0,00;
+) {Consultatie Face to Face 49B01 minuut Í 1,75 0,00,
+4903 {Onderzoek voor instemmingsverklaring 49B0S stuks 1252,60 0,00
+4904 Toeleiding naar Jeugdzorg Plus 49B07 stuks 1610,92 0,00
+Totaal Activiteiten in het preventief justitieel kader 0,00l
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie 2020 in €
+54 Jeugd GGZ
+5400 |Dyslexie- Jeugd-ggz behandeling regulier/generalistisch 54001 minuut 1,49
+5401 |Deelprestatie verblijf A (Lichte verzorgingsgraad) (incl. NHC cor 54009 etmaal | 128,75
+5402 |Deelprestatie verblijf B (Beperkte verzorgingsgraad) (incl. NHC 54010 etmaal 172,71
+5403 |Deelprestatie verblijf C (Matige verzorgingsgraad) (incl. NHC cé 54011 etmaal 243,35
+544 |Deelprestatie verblijf D (Gemiddelde verzorgingsgraad) (incl. N 54012 etmaal 253,45
+5405 |Deelprestatie verblijf E (Intensieve verzorgingsgraad) (incl. NH __ 54013 etmaal 318,33 ï
+5406 |Deelprestatie verblijf F (Extra intensieve verzorgingsgraad) (inc 54014 etmaal 357,81
+5407 |Deelprestate verblijf G (Zeer intensieve verzorgingsgraad) (inc 54015 etmaal 500,23
+5408 _|Ambulante Spoedeisende Hulp (ASH) ‘54016 minuut | 0,00
+5409 [verblijf zonder overnachting (VZO) per dag 54R63 etmaal | 109,15
+Jeugd GGZ ee
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+55 Landelijk ingekochte zorg
+5500 GE a " | El 5 OE || ENEN}
+5501 0,00
+Totaal Landelijk ingekochte zorg OO n En Hs 0,00}
+56 Financiële realisatie Jeugdwet _ OO a lisate A20 In 6
+L 5700 |Gerealiseerde productie Jeugdwet _ _ | 0,00 Í
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+t van bevi
+
+„fynee | |
+
+A.u.b, kiezen wat van tdepassing is.
+
+Zorgaanbieder
+
+pp
+
+Naam: M. Kooijman
+Handtekening:
+
+Datum: 24-3-2021
+
+ter identific
+
+Waarmerking accountant voor
+identificatiedoeleinden:
+
+) n MAR 9
+
+‚q M Le
+
+C 4 WIA
+
+Op deze financiële productieverantwoording i
+
+uitgevoerd. Deze financiële productieverantw
+ter identificatie gewaarmerkt.
+
+géén NE
+ording f
+
+Datum:
+
+
+Financiële productieverantwoording Jeugdwet Gemeente Heerhugowaard
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de d Alle len worden op basis van de werkelijke realisatie ingevuld.
+Gemeente _ ‘Zorgaanbieder
+Naam OO _ÎHeerhugo aard On ] Naam [co-operatief Zorg BV |
+Contactpersoon Plaats _ Koudum |
+Telefoon OO Td KvK-nummer j 55293867
+E-mail _\jeug istratie@heerhugowaard.nl Contactpersoon Jeugdwet _ |M. Kooijman «_— OO
+Telefoon 072-7852282}
+E-mail miranda.kooijman@co-operatie
+[AGB-code 41418750 |
+Geleverde prestaties Jeugdwet ___
+koop order nr: ‚NVT
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2€20 in €
+40 Persoonlijke verzorging OO
+4000 Persoonlijke verzorging extra (p/u.) 40A03 minuut [ 0,75} _ _ 0,00
+4001 Persoonlijke verzorging (p/u.) \__40Aoa — minuut | 0,72 0,00
+[__{Totaal Persoonlijke verzorging _ zen 0,00
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2020 in C
+41 Dagbehandeli
+4100 _ÎDagactiviteit kind licht TO MAOS dagdeel | 22,07) | 0,00
+4101 [Dagactiviteit kind midden __41A06 __dagdeel Vo 55,01 0,00
+4102 |oagactwiteit kind zwaar OO 4107 dagdeel | nn 88,74f __0,00/
+4103 [Dagactiviteit JLVG _ 41A18 — mn dagdeel _ nj: vennen 111,98 0,00,
+_____|rotaat Dagbehandeling 0,0of
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2820 in €
+42 Vervoersdiensten OO OO et” "
+
+4200 [vervoer jeugdzorg plus ___42A01 etmaal Ì 97) | ____0,00,
+4201 [Vervoer rolstoel 42A02 etmaal 25,35 0,00
+4202 {Vervoer groep 1 42A05. ; etmaal î 10,14 __ _0,00
+4203 Vervoer individueel _ 42A06 etmaal 20,28 0,00
+
+Totaal Vervoersdiensten — OO _ EE 8 tai 8 9,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2520 in C
+43 Jeugdhuip verblijf (incl. b ling) zes an OO
+4300 Opvoeding door prof.opvoedouders (Gezinshuis) 43A10 etmaal 167,09| 0,00,
+4301 _|Kortdurend verblijf groep (met behandeling) \__43A15 etmaal 207,67 0,00,
+4302 _|Langdurend verblijf groep (met intensieve behandeling) 43A18 © etmaal | 2182 267,01 582.615,82)
+_ 4303 Logeren met begeleiding (kortdurend verblijf) licht \__43A35 etmaal 5 91,20
+4304 |Logeren met begeleiding (kortdurend verblijf) middelzwaar ___43A37 etmaal _ 121,49
+4305 |Logeren met begeleiding (kortdurend verblijf) zwaar | 43A3B etmaal Hi 235,39
+4306 [Residentiële behandeling zwaar Inclusief GGZ 43A39 etmaal 319,02
+4307 _ {Per dag VPT GGZ K/J incl.BH Inc.DB _ \_43A40 etmaal 259,48|_
+4308 [Per dag VPT 3LVG incl.BHincl.DB OT 43A43 etmaal | Ë 161,13
+4309 |Perdag ZZP ALVG incl.BH incl.DB | _43A44 etmaal ï 256,18 lk
+4310 Per dag ZZP 5LVG incl.BH incl.DB 43A45 etmaal__ | 255,11
+4311 |Per dag VPT 2LVG incl.BH incl.DB __43A49 etmaal 129,95 Sd
+4312 Per dag VPT iLVG inc.BH inch.DB 43A50 etmaal | 99,95
+4313 \Per dag ZZP 3VG incl.BH excl.DB 43A51 etmaal 112,39
+4314 _|Per dag ZZP 3VG incl.BH indl.DB n A3A52 etmaal | 143,06
+4315 |perdag ZZP ALVG incl.BH incl.DB \_ 43A53 etmaal E 133,71 Ei
+4316 _|Per dag ZZP 2LVG incl.BH incl.DB OO _ _43A54 etmaal 172,94
+“4317 \Per dag ZZP 3LVG incl.BH Incl.DB “43455 etmaal 210,03 TI
+4318 [Per dag VPT 4LVG ind.BH incl.DB Oe “_43A56 etmaal 190,02
+4319 \Per dag VPT SLVG incl.BH incl.DB “4357 etmaal | 190,02|_
+_ 4320 ling voor jeugdigen in Jeugdzorg _ 43RO1 etmaal 439,92
+4321 | Zeer intensieve be oep voor jeugdigen in gesloten Jeug. 43R02 etmaal i 650,05] _ Ei 0,00
+_ 4322 _ [Behandeling voor jeugdigen in JeugdzorgPlus Fase 2 7 43R03 etmaal | _____ 439,92 0,00
+Totaal Jeugdhulp verblijf (incl, behandeling) 582.615,82|
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in €
+sn ade verblijf (excl. nn OO al me
+4400 _ |Hulpverleningsvariant max 44A03 etmaal á n |
+ter iter ne
+Op deze financiële productieverantwoording is géén separate accountantscontrole Waarmerking, accountant; voor
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend | identificatiedoe einden:
+
+ter identificatie gewaarmerkt.
+
+Datum:
+
+
+4401 [urige begeleiding jongeren (LBJ) n 44A06 etmaal _— he 156,95 | 0,00;
+4402 |Opvoedvariant (voorheen reguliere Pleegzorg) ___44A07 etmaal | 40,79) ______| ____0,00,
+4403 \Deelujdvariant (logeren bij Pleegzorggezin Max 55 dagen perja 44A18 etmaal} ________50,66 0,00:
+aaoa |Perdag 22P IVGexcl. DB CO 44A35 etmaal _ 68,07 _Î______ 0,00,
+4405 _|Per dag ZZP 2VG excl. DB _____ 44A36 ___etmaal n de 82,98 0,00
+4406 \Per dag ZZP 3VG exclBH exd.DB 4437 etmaal o6,15| 0,00
+4407 |perdag ZZP 1VGinc. DB  44AB etmaal} 104,13 0,00
+4ao8 [Per dag ZZP VG ind. DB OO 44A39 etmaal [ 119,23 ij mas 0,00,
+4409 [Per dag ZZP 3VG excl.BH incl.DB _ 44A40 etmaal ___ En ________135,70 0,00,
+4410 [Per dag ZZP GGZ verblijfscomponent OO ___44A42 etmaal 22,20| ij 0,00,
+aart |Perdag ZZP VGELG verblijfscomponent 44A43 etmaal__ | ________________ 24,68 0,00
+4a1z per dag ZZP ZG verblijfscomponent 44A44 etmaal 23,38 _ 0,00
+4413 _|Per dag VPT 1VG excl.DB _____ A4A47 etmaal n mn 49,89 0,00,
+4414 Per dag VPT IVG inc.DB _ 44m48 etmaal j 72,72 |_______0,00
+4415 _ [per dag VPT 2VG excl.DB_____——— ____44A49 etmaal | 62,50 0,00
+4416 [Per dag VPT 2VG incl.DB 44A50 etmaal i 90,37 _ 1 0,00
+4417 _ |Per dag VPT 3VG excl.BH excl.DB_ _ 4451 etmaal | 5 at 0,00
+4418 [Per dag VPT 3VG excl.8H incl.DB TT aans2 etmaal | 101,07|______|_______0,00
+4419 _|Per dag VPT 3VG incl.BH excl,DB 44A53 etmaal 80,11 0,00
+4420 _\Per dag VPT 3VG incl.BH incl.DB n A4A54 etmaal ì 107,95 1 0,00
+4421 _|Per dag ZZP 1GGZ excl.DB | A4A59 etmaal | ________ _____65,04 0,00
+4422 _|Per dag ZZP 1GGZ incl.DB OT 44n60 etmaal | : 92,26) 1 ____0,00
+4423 _|Per dag ZZP 2GGZ excl.DB A4AG1 etmaal__| 99,49 0,00
+4424 _|Per dag ZZP 2GGZ incl.DB 44A62 etmaal 123,76 ij 0,00
+_ 4425 |Perdag ZZP 3GGZ excl.DB 44A63 etmaal OO 112,07 0,00
+4426 |Perdag ZZP 3GGZ incl.DB TO Aan64 etmaal | 138,79 L_____0,00
+4427 _|Per dag ZZP 4GGZ excl.DB | 44A65 etmaal | on 132,84 | ____0,00
+4428 |Per dag ZZP 4GGZ incl.DB 44A66 etmaal nn 161,76] _ mn 0,00,
+4429 |Perdag ZZP SGGZ excl.DB \__44A67 etmaal 143,71 0,00,
+4430 [Perdag ZZP 5GGZIndDB CT 44A6B etmaal | 1246) 0,00,
+4431 [Per dag ZZP 6GGZ excl.DB 44A69 etmaal 17,4 0,00,
+_4432_|Per dag ZZP 6GGZ incl.DB _ 44A20 etmaal 207,06 | 0,00,
+4433 |Toestag specialistische pleegzorg 44507 etmaal _ 2,64 0,00,
+Totaal Jeugdhulp verblijf (excl. behandeling) n _ mn OO o,oof
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2520 in €
+45 ____Jeugdhulp Ambulant 5 î J
+4500 _ [Instelling MBO 45A99 minuut 0,98
+4501 E Instelling HBO ___, 45A99 minuut 4 1,26
+4502_ [instelling WO OO ______45A99 minuut 1,64
+4503 [instelling WO+ ‚__45A99 minuut 2,17|
+4504 _ [instelling MS 45A99 _____minuut 2,88
+4505 _|Vrijgevestigden MBO ‚__45A99 minuut Í 0,91 | __0,0e,
+4506 _ |Vrijgevestigden HBO _______ _45A99 ____minuut 8694 115 9.998,10,
+4507 _|Vrijgevestigden WO “45A89 minuut 12480 150 | _____18.720,00;
+4508 _ |Vrijgevestigden WO+ __45A99 minuut OO Isen 1,99 0,00,
+4509 _[Vrijgevestigden MS _ ‚_45A99 minuut ' 265| | ________ 0,00;
+4510 OO _ EL 0,00;
+4511 |Begeleiding + __45A04_ ; minuut 128460 0,81) _104.052,60,
+4512 {Gespecialiseerde begel (psy) (p/u.) …_ 45A05 minuut m 600 4,27 762,00,
+4513 [Verblijf Jeugdzorg Plus 45A20 etmaal GESTE |E |
+4514 ing Jeugdzorg Plus 45A21 etmaal | Eb 32,76
+4515 [Per dag Toeslag ZZP MFC OO 45A58 etmaal OO 28,97 n
+4516 \Per dag Toeslag ZZP Observatie | 45A59 etmaal 74,28| _
+4517 \Per dag Toeslag ZZP woonzorg GHZ kind 45A60 etmaal Oe 29,12
+4518 Per dag Toeslag ZZP woonzorg GHZ jeugd H etmaal 17,75 [
+4519 |per dagdeel Toeslag ZZP dagb. GHZ kinglicht ______“ 45A62 ___dagdeel { 18,17 0,00,
+Totaal Jeugdhulp Ambul 133.532,70|
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie 2320 in €
+46 ___Jeugdhulp Crisis ee OO _ sen
+4600_ [Crisisopvang (met opname) 46A03 etmaal En 224,02
+601 _|Per dag ZZP crisisopvang LVG (Jeugd) 46A04 etmaal | azo |
+4602 _\Crisisvariant ( Spo sing Pleegzorggezin Max 30 dagen) __ 46A05 _ etmaal í 72,35 mn
+__{Tetaal Jeugdhulp Crisis n en NE En
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+47 Jeugdreclassering
+4700 [Maatregel toezicht en begeleiding CT a2A01 stuks Î 619,82) {0,00
+4701 _|GBM-advies 47A02 stuks | ___1663,35 0,00
+4702 _IGBM-begeleiding CO 47A03 stuks | NE 618,59) 0,00
+4703 _ÎiTB-Criem __47A04 ___ stuks 1876,12| 0,00,
+“4704 _ÎITB-Harde Kern _ ______47A05 stuks | _ 1414,18| SS 0,00
+4705 _|Samentoop OO nem 47A06 stuks | ___________ 155,42 0,0
+[aoe [ste 47A07 stuks | Fn 1564 eo eridienatit00:
+Totaal Jeugdreclassering AAS Ake! Ahaha “ooo
+op Henin per. dE
+Op deze financiële productieverantwoording is géén separate accountantscontrole ‚ Waarmerking accoantant voor
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend | identifigayieda Spinder);
+ter identificatie gewaarmerkt. | LA Pip UE! A
+Datum: ez _
+
+
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in C
+48 Jeugdbescherming
+4800 Ors < 1 jaar OO __48A01 stuks _ 847,40| | _
+4801 _ OTS > 1 jaar 48A02 stuks 712,33
+4802 Voogdij e n _ 48A03 _ stuks ee 504,49
+Totaal Jeugdbescherming _
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2620 in C
+Activiteiten in het preventief justitieel kader
+Begeleiding multiprobleem gezin (drang) (altijd afgeven voor 1 49AD2 stuks 6779,21 0,00
+Preventieve jeugdbescherming: modulaire drang 49A04 uur 105,00 0,00
+Consultatie Face to Face 49B01 minuut 1,75 _ 0,00
+Onderzoek voor instemmingsverklaring 49B05 stuks 1252,60 0,00
+Toeleiding naar Jeugdzorg Plus 49B07 stuks í 1610,92 0,00
+Totaal Activiteiten in het preventief justitieel kader 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 220 in €
+54 _Jeugd GGZ
+Dystexie- Jeugd-ggz behandeling regulier/generalistisch - 54001 minuut 1,49
+Deelprestatie verblijf A (Lichte verzorgingsgraad) (incl. NHC cor 54009 etmaal 128,75
+Deelprestatie verblijf B (Beperkte verzorgingsgraad) (incl. NHC 54010 etmaal 172,71
+Deelprestatie verblijf C (Matige verzorgingsgraad) (incl. NHC c 54011 etmaal 243,35 Ì
+Deelprestatie verblijf D (Gemiddelde verzorgingsgraad) (incl. N 54012 etmaal 253,45
+Deelprestatie verblijf E (Intensieve verzorgingsgraad) (incl. NH __ 54013 etmaal 318,33 ï
+Deelprestatie verblijf F (Extra intensieve verzorgingsgraad) (int 54014 etmaal 357,81
+Deelprestatie verblijf G (Zeer intensieve verzorgingsgraad) (inc 54015 etmaal 500,23
+_ Ambulante Spoedeisende Huip (ASH) 54016 minuut 0,00 L
+Verblijf zonder overnachting (VZO) per dag 54AR63 etmaal 109,15
+Jeugd GGZ men
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in €
+55 _ Landelijk ingekochte zorg _ ‚
+5500 | _ _ í __ en 0,00
+__5501 OO Ì 0,00
+LL Totaal Landelijk ingekochte zorg o,ool
+56 Financiële realisatie Jeugdwet Realisatie 2820 In C
+5700 Gerealiseerde productie Jeugdwet B | 325.792,60 |
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+Ruimte voor algemene toelichting
+ET _ | mn Q Í a
+Zorgaanbieder Ò, Í Rapport van ehm:
+Naam: M. Kooijman n _ ® Ù___ _ dj/Nee |
+Handtekening: tors En A.u.b. kiezen wat van totpassing is.
+Ka 7
+Datum: 24-3-2021 atiefzorg B.V.
+5 Postbus 44 8723 ZJ
+Koudum _ } en
+Me, ter identificatie
+Op deze financiële productieverantwoording is géén sepprate accolnfefeecpperntiefs Waarmerking accòuntant voor
+uitgevoerd. Deze financiële productieverantwoording is goor drek pers Identificatiedorksinden:
+ì N :
+ter identificatie gewaarmerkt. vk 55293867 ‚bh MA ARPA
+IBAN Kaz
+
+Datum:
+
+
+Financiële productieverantwoording Jeugdwet
+
+In dit onderdeel ver dt de zorgaanbieder de gel; de prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+Gemeente _ ee ee
+Naam ‘Langedijk Ì
+Contactpersoon nn 5 ei
+Telefoon
+
+E-mail _ ‘wimoadministratie@gemeentelangedijk.nl
+
+Geleverde prestaties Jeugdwet
+
+Gemeente Langedijk
+
+‚Zorgaanbieder __
+
+Naam Co-operatief zorg B BV _ |
+Plaats Koudum |
+KvK-nummer 55293867 |
+Contactpersoon Jeugdwet _ [M. Kooijm
+
+Telefoon 072-7852282”
+
+E-mail miranda.kooif van@co-operatie
+AGB-code __|41418750 _ __|
+
+[inkoop « order nr: NVT
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in C
+40 Persoonlijke verzorging _ n
+4000 [Persoonlijke verzorging extra (p/u.) 40A03 — minuut | É 0,75 as 0,00
+4001 _ÍPersoonlijke verzorging (p/u) \__40A04 minuut | ji 0,72 0,00
+Totaal Persoonlijke verzorging 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2820 in €
+41 Dagbehandeling _ _ OO SE
+“4100 _[Dagactiviteit kind licht TC a1A05 _ dagdeel 42,07 1 0,00
+4101 _|Dagactiviteit kind midden \__41A06 ___dagdeel 55,01 I 0,00
+4102 _{Dagactiviteit kind zwaar … 41407 dagdeel 88,74| ________ 0,00
+4103 |Oagactivitelt JLVG 41A18 dagdeel 111,98 0,00
+Totaal Dagbehandeling OO 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2620 in €
+42 Vervoersdiensten = na On OO
+_ 4200 {vervoer jeugdzorg plus …__42A01 etmaal 6,97 __{________0,00;
+4201 _ [Vervoer rolstoel 42A02 etmaal 25,35 0,00:
+_ 4202 |Vervoer groep _ 42405 _ etmaal 10,14 |_________0,00;
+4203 |Vervoer individueel 42A06 etmaal 20,23 0,00
+|__|Totaal Vervoersdiensten m OO 0,00
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2320 in €
+43 dhulp verblijf (incl. behandeling) n OO
+4300 _|Opvoeding door prof.opvoedouders (Gezinshuis) 43A10 etmaal 167,09 0,00,
+4301 _ÍKortdurend verblijf groep (met behandeling) | 43A15 | ___ etmaal 207,67) | __0,00
+4302 _ILangdurend verblijf groep (met intensieve behandeling) ______43A18 etmaal 213 267,01 56.873,13
+4303 |Logeren met beg (kortdurend verblijf) licht 43A35 etmaal ' 91,20 0,00
+4304 [Logeren met begeleiding (kortdurend verblijf) middelzwaar En _43A37 etmaal 121,49
+4305 Logeren met egeleidi (kortdurend verblijf) zwaar Ï 43A38 Ï etmaal 235,39
+4306 [Residentiële behandeling zwaar inclusief GGZ 1 43A39 | etmaal 319,02
+4307 [Per dag VPT GGZ K/J Incl,BH incl.DB | 43A40 etmaal 259,48
+4308 |Per dag VPT 3LVG incl.BH incl.DB _} 43A43 etmaal 161,13
+4309 \Per dag ZZP 4LVG incl.BH incl.0B |__43A44 etmaal ú 256,18 |
+4310 _ |Per dag ZZP SLVG inci.BH incl.DB OE 43A45 | etmaal | 255,11
+4311 |Per dag VPT 2LVG incl.BH incl.DB \_a3A49 | etmaal 129,95
+4312 [Per dag VPT 1LVG incl.BH incl.DB mn 43A50 etmaal 99,95
+| 4313 |Perdag ZZP 3VG incl.BH excl.DB 43A51 etmaal 112,39 8
+4314 _|Per dag ZZP 3VG incl.BH ind.DB _ _43A52 etmaal | 143,06
+4315 [Per dag ZZP 1LVG incl.BH incl.DB | 43A53 | ___etmaal 133,71 Ì
+4316 [Per dag ZZP 2LVG incl.BH incl.DB _Ì43A54 etmaal 172,94
+4317 \erdag ZZP 3LVG incl.BH incl.0B \__43A55 etmaal 210,03) __—
+4318 [Per dag VPT 4LVG incl.BH incl.DB TO 43A56 etmaal | _190,02
+4319 _|Per dag VPT SLVG incl.BH incl.DB _ A3A57 etmaal 190,02
+4320 _|Behandeling voor jeugdigen in gestoten Jeugdzorg …__43RO1 etmaal 439,92
+“4321 |Zeer ve en oep voor igenin gesloten Jeug. 43R02 etmaal 650,05)
+_ 4322 Behandeling voor jeugdigen in JeugdzorgPlus Fase 2 43R03 in etmaal ik 439,92
+Totaal Jeugdhulp verblijf (incl, behandeling) 56.873,13
+Code Eenheid Aantal (Q) Prijs in€(P). Realisatie f
+44 ____Jeugdhuip verblijf (excl. behandeling) ter ent ÏC Catie Ben: üú RE €
+[4 4400 [Hulpverieningsvariant max 6 maanden 44A03 etmaal Í í Sent Ee 0,00! mak
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+Waarmerking accountant voor
+
+
+4401 _ [urige begeleiding jongeren (LB) _ _44A06 etmaal ____156,95 0,00
+4402 _{Opvoedvariant (voorheen reguliere Pleegzorg) 44A07 etmaal 40,79 ___t_______0,00
+4403 il Deeltijdvariant (logeren bij Pleegzorggezin Max 55 dagen perja 44A18 etmaal n 50,66 0,00
+4404 [Per dag ZZP 1VG excl. DB 44A35 etmaal 68,07 _0,00
+4405 [Per dag 22P 2VG excl. DB 44A36 etmaal OO 82,98 0,00
+4406 |Per dag ZZP 3VG excl.BHexcl.DB AAA3I etmaal 96,15 _L 0,00
+|__4407_|per dag ZZP AVG incl. DB __ 44A38 etmaal __ 104,13 0,00
+4408 [Per dag ZZP 2VG incl. DB  44A39 _ etmaal 119,23 ] 0,00
+_ 4409 [Per dag ZZP 3VG excl.BH indl.DB 44A40 etmaal 135,70 0,00
+4410 [Per dag ZzP GGZ verblijfscomponent “44A42 etmaal 22,20 _ _0,00
+4411 [Per dag ZZP VG&LG verblijfscomponent _ 44A43 etmaal __24,68 0,00
+4412 [Per dag ZZP ZG verblijfscomponent 44A44 etmaal 23,38 _ 0,00
+4413 [Per dag VPT 1VG excl.DB A4A47 _etmaal nn nn 49,89 0,00
+4414 _ [Per dag VPT 1VG incl.D8 OO _ 44A48 etmaal 77,72| 0,00
+4415 per dag VPT 2VG excl.DB 4an49 etmaal | ________62,50 0,00
+4416 |Per dag VPT 2VG incl.DB 44A50 etmaal 90,37) _ 0,00;
+4417 [Per dag VPT 3VG excl.BH excl.DB A4A51 etmaal OO _ 73,21 0,00!
+4418 [Per dag VPT 3VG excl.BH incl.DB Oe A4A52 etmaal _ 101,07 ij En 0,00
+__aa19 [Per dag VPT 3VG incl.BH excl.DB 44A53 etmaal | _80,11 0,00
+4420 [Per dag VPT 3VG incl.BH incl.DB CC 44A54 etmaal 107,95 0,00
+|_a421 _|Perdag ZZP 1GGZ excl.DB 44A59 etmaal 66,04 0,00
+4422 [Per dag ZZP 1GGZ incl.DB Oe _ 44A60 etmaal 92,26 | 0,00
+4423 |Per dag ZZP 2GGZ excl.DB etmaal OO ____99,49 0,00
+4424 [Per dag ZZP 2GGZ incl.DB n En: etmaal 123,76) ___0,00/
+4425 [Per dag ZZP 3GGZ excl.DB 44A63 __etmaal En 112,07 0,00
+4426 |Perdag ZZP 3GGZind.DB | 44A64 etmaal 138,79 0,00
+__4427_ [Per dag ZZP 4GGZ excl.DB __44A65 etmaal {132,84 0,00
+4428 _|Per dag ZZP 4GGZ indl.DB CO 44A66 etmaal 161,76 | ____0,00,
+4429 _|Per dag Z2P 5GGZ excl.DB 44A67 etmaal _ 143,71 0,00
+4430 _|Per dag ZZP 5GGZ incl.DB 7 _A4A68 etmaal | 172,46 0,00
+_ 4431 _ÎPer dag ZZP 6GGZ exdl.DB A4A6O etmaal 177,14 0,00
+4432 _|Per dag ZZP 6GGZ incl.DB OO 4AA70 etmaal OO 207,06 {0,00
+4433 Toeslag specialistische pleegzorg 44B07 etmaal 2,64 0,00
+Totaal Jeugdhulp verblijf (excl. behandeling) on 0,00
+Code Eenheid Aantal (Q) Prijs in C (P) Realisatie 2020 in €
+45 Jeugdhuip Ambut Í OO
+4500_|instelling MBO OO 45A99 minuut | _ 0,98 0,00,
+4501 [Instelling HBO n 45A99 minuut 126 | ________0,00;
+4502_ |Instelling WO OO __45A99 minuut 1,64 0,00;
+_ 4503 [Instelling WO+ 45A99 minuut 2,17 | _________0,00,
+4504 _|instelling MS 45A99 minuut 2,88 0,00
+4505 _|Vrijgevestigden MBO 45A99 j minuut 0,91} _} 0,00
+_4506_|Vrijgevestigden HBO 45A99 minuut 1,15 0,00
+4507 _|Vrijgevestigden WO 4SA99 minuut 150| {0,00
+4508 _|Vrijgevestigden WO+ OO 45A99 minuut 1,99 0,00
+4509 |Vrijgevestigden MS 5 45A99 minuut 265 | _____0,00
+4510 0,00
+4511 [Begeleiding _ 45A04 minuut 18480 081) | ___14.968,80
+4512 [Gespecialiseerde begeleiding (psy) (p/u) _ 45A05 minuut 1,27 0,00
+_ 4513 [Verblijf Jeugdzorg Plus 45A20 etmaal 431,12| {0,00
+4514 _ [Behandeling q Plus ASA21 etmaal 32,76 0,00
+4515 [Per dag Toeslag ZZP MFC 45A58 etmaal 28,97| ___0,00
+4516 {Per dag Toeslag ZZP Observatie 45A59 etmaal 74,28 0,00
+4517 |Perdag Toeslag ZZP woonzorg GHZ kind 45A60 mj etmaal 29,12 0,00
+4518 |Per dag Toeslag ZZP woonzorg GHZ jeugd 45A61 etmaal 1275) _0,00
+4519 [Per dagdeel Toeslag ZZP dagb. GHZ kind licht 45A62 ___dagdeel 18,17 0,00
+Totaal pA _ 14.968,80
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in €
+46 _____ Jeugdhulp Crisis nn
+4600 {Crisisopvang (met opname) ____ _46A03 etmaal Í 224,02 0,00)
+__4601 [Per dag ZZP crisisopvang LVG (jeugd) 7 __46A04 etmaal __ | 212,91 | 0,00
+4602 {Crisisvariant ( Spoedplaatsing Pleegzorggezin Max 30 dagen) 46A05 etmaal 72,35 0,00;
+____ [Totaal Jeugdhulp Crisis n B 0,00}
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2220 in €
+47 Jeugdreclassering
+4700 [Maatregel toezicht en begeleiding 47A01 stuks Ì 619,82 0,00
+4701 _|GBM-advies ___Ì__47A02 stuks 1663,35|__| 0,00
+_ 4702 |GBM-begeleiding _ …__47A03 stuks 618,59 0,00
+4703 _ |ITB-Criem 5 47A04 stuks | 1876,12| _0,00
+4704 _ÎITB-Harde Kern 47A05 stuks 1414,18 0,00/
+4705 _ [Samenloop 47A06 stuks 155,42 0,00
+4706 [STP 47407 stuks _-A56,34|_— 0,00,
+Totaal Jeugdreclassering | tarlidastif5ca?f?0 -:
+Ì La ed BNA BEAT Te es nas on
+Op deze financiële productieverantwoording is géén separate accountantscontrole Waarmerking accoiratant vaor
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend __identificatiedoeleinden:
+ter identificatie gewaarmerkt. ) bh N AR 2021 ‚
+JAA
+Í Zi, Â 4
+en F- wa
+Datum:
+
+
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+
+48 Jeugdbescherming ‚ !
+4800 |OTS < 1 jaar 4BAOL — stuks Ï 847,40 _______| _______0,00,
+4801 [OTS > 1 jaar OO 48A02 stuks | 712,33 | 0,00
+4802 _ \Voogdij 4BA03 stuks | 504,49 0,00
+Totaal Jeugdbescherming 0,0of
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2020 in C
+49 Activiteiten in het preventief justitieel kader
+4900 [Begeleiding mulitiprobleem gezin (drang) (altijd afgeven voor 1: _ 49A02 stuks | 6779,21
+4901 Preventieve jeugdbescherming: modulaire drang d 49A04 uur | 105,00 1
+_4902 {Consultatie Face to Face 49B01 _ minuut | 1,75
+4903 [Onderzoek voor instemmingsverklaring 49B05 stuks Í 1252,60
+- 4904 Toeleiding naar Jeugdzorg Plus 49807 ____ stuks Í 1610,92
+Totaal Activiteiten in het preventief justitieel kader
+Code Eenheid Aantal (Q) Prijs in € (P) Realisatie 2020 in €
+Jeugd GGZ
+Dyslexie- Jeugd-ggz behandeling regulier/generalistisch 54001 minuut | 1,49 Ï
+Deelprestatie verblijf A (Lichte verzorgingsgraad) (incl. NHC cor 54009 Ì etmaal | 128,75] __
+2 Deelprestatie verblijf B (Beperkte verzorgingsgraad) (inci. NHG 54010 etmaal | 172,71
+Deelprestatie verblijf C (Matige verzorgingsgraad) (incl. NHCc 54011 etmaal Í 243,35
+Deelprestatie verblijf D (Gemiddelde verzorgingsgraad) (incl. N 54012 etmaal Í 253,45
+Deelprestatie verblijf E (Intensieve verzorgingsgraad) (incl. NH 54013 etmaal 318,33
+Deelprestatie verblijf F (Extra intensieve verzorgingsgraad) (inn 54014 etmaal 357,81
+Deelprestatie verblijf G (Zeer intensieve verzorgingsgraad) (inc 54015 : etmaal Í 500,23 _
+Ambulante Spoedeisende Hulp (ASH) 54016 minuut | 0,00
+Verblijf zonder overnachting (VZO) per dag S54R63 etmaal | 109,15
+Jeugd GGZ
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2620 in C
+55 Landelijk ingekochte zorg Ì 2
+5500 OO a Í pen ml 0,00
+5501 Ì | 0,00
+Totaal Landelijk ingekochte zorg 0,00
+56 Financiële r ie Jeugd Realisatie 2E 20 in €
+| 5700 Gerealiseerde productie Jeugdwet 71.841,93 |
+
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+
+Ruimte voor algemene toelichting
+
+Rapport van bevindingen:
+Ayre
+
+WA
+A.u.b. kiezen wat van toepassing is.
+
+Zorgaanbieder
+
+Naam: M. Kooijman Tk
+Handtekening:
+
+Is
+
+Datum: 24-3-2021
+
+ter identificatie
+
+Î i tet 1 1 bet IRA, 1 :
+
+Op deze financiële productieverantwoording is géén separate acccgtiaNL851643334.B01 Waarmerking accottatant voor
+
+uitgevoerd. Deze financiële productieverantwoording ij door de accourKMt identificatiedo einden: \
+12 1 5)
+
+ter identificatie gewaarmerkt. IBAN NI 16Pobo01 708235 £ Mi \ AUAI
+
+Datum:
+
+
+Financiële productieverantwoording Jeugdwet
+
+Gemeente Den Helder
+
+In dit onderdeel verantwoordt de zorgaanbieder de geleverde prestaties waarover de zorgaanbieder verantwoording af dient te leggen bij de gemeente:
+geleverde prestaties met als grondslag de Jeugdwet. Alle aantallen worden op basis van de werkelijke realisatie ingevuld.
+
+‚Gemeente
+Naam
+Contactpersoon
+
+Telefoon
+E-mail
+
+Zorgaanbieder
+
+Naam Co-operatief zorg BV |
+En Koudum |
+KvK-nummer 55293867 í
+
+M, Kooljman |_
+072-7852282
+
+E-mail __ OO miranda,kooijnan@co-operatit
+|AGB-cod 41418750 | |
+Geleverde prestaties Jeugdwet
+[koop order nr:
+Code Eenheid Aantal (Q) Prijs in C(P) Realisatie 2020 in €
+
+44 Jeugdhulp verblijf (excl. behandeling) _ u _ en en
+4400 Jeugdhulp Verblijf 44A08 etmaal | 321 263,33 84.528,93,
+4401 een RS nn _ [immense OO 0,00
+
+_ Totaal Jeugdhulp verblijf (excl. behandeling) 84.528,93|
+
+Code Eenheid Aantal (Q) Prijs in €(P) Realisatie 2720 in €
+45 Jeugdhulp Ambulant n n
+
+4500_{Specialistische begeleiding aange 45A53 vur Í 275 80,00 22.000,00
+
+n 4501 Specialistische begeleiding 45A53 uur í 96 60,00 5.760,00
+Totaal Jeugdhulp Ambulant _ OO OO OO 27.760,00|
+
+56 Financiële realisatie Jeugdwet _ _ Realisatie 2020 in €
+5700 Gerealiseerde productie Jeugdwet 112.288,93 Í
+Ruimte voor toelichting in verband met ongecorrigeerde afwijkingen en onzekerheden
+Ruimte voor algemene toelichting
+Zorgaanbieder Rapport van bevine ngen: |
+Naam: M. Kooijman Î _ EE Zo/Nee OO
+Handtekening: A.u.b. kiezen wat van toeëzassing is.
+www.ce-operatiefzorg.nl
+info@ce-eperatietzorg.nl
+Tel. 0610008823 - 0610008825
+Btw NL851643334.B01
+Kvk 55253867
+IBAN NL 16Rabo0170823512
+
+Op deze financiële productieverantwoording is géén separate accountantscontrole
+
+uitgevoerd. Deze financiële productieverantwoording is door de accountant uitsluitend
+ter identificatie gewaarmerkt.
+
+Datum:
+
+ter identifl{catie d.
+
+Î
+
+Waarmerking accountant voor
+
+identifjcatiedoelzinden:
+

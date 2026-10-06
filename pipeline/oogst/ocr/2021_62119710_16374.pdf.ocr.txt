@@ -1,0 +1,550 @@
+# whosigns-ocr v1 grootte=3437511 dpi=300 paginas=20
+Stichting Huid- en Spatadercentrum Limburg
+Zandbergsweg 111
+6432 CC HOENSBROEK
+
+Jaarrekening 2021
+
+INHOUDSOPGAVE
+
+1. Rapport
+
+1.1 __ Samenstellingsverklaring
+
+1.2 Algemeen
+
+1.3 __Resultaatvergelijking
+
+1.4 _ Financiële positie
+
+2. Jaarrekening
+
+2.1 Balans per 31 december 2021
+
+2.2 _ Winst- en verliesrekening over 2021
+2.3 _ Kasstroomoverzicht over 2021
+
+2.4 _ Toelichting op de jaarrekening
+
+2.5 Toelichting op de balans
+
+2.6 Toelichting op de winst- en verliesrekening
+
+Stichting Huid- en Spatadercentrum Limburg
+Zandbergsweg 111
+6432 CC HOENSBROEK
+
+Jaarrekening 2021
+
+Pagina
+
+NN UI UI W
+
+Di
+12
+15
+16
+18
+
+1. RAPPORT
+
+Stichting Huid- en Spatadercentrum Limburg
+Zandbergsweg 111
+6432 CC HOENSBROEK
+
+Referentie: MO96-2021 Heerlen, 16 mei 2022
+Betreft: jaarrekening 2021
+
+Geacht Bestuur en Raad van Toezicht ,
+
+Hiermede brengen wij u verslag uit van onze werkzaamheden omtrent de jaarrekening 2021 van uw
+onderneming.
+
+De balans per 31 december 2021, de winst- en verliesrekening over 2021 en de toelichting, welke tezamen
+de jaarrekening 2021 vormen, alsmede de overige gegevens zijn in dit rapport opgenomen.
+
+1.1 Samenstellingsverklaring
+
+De jaarrekening van Stichting Huid- en Spatadercentrum Limburg te is door ons samengesteld op basis
+van de van u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2021 en de
+winst- en verliesrekening over 2021 met de daarbij horende toelichting. In deze toelichting is onder andere
+een overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, "Samenstellingsopdrachten”.
+
+Op grond van deze standaard wordt van ons verwacht dat wij u ondersteunen bij het opstellen en
+presenteren van de jaarrekening in overeenstemming met de in Nederland algemeen aanvaardbare
+grondslagen voor financiële verslaggeving. Wij hebben daarbij onze deskundigheid op het gebied van
+administratieve verwerking en financiële verslaggeving toegepast.
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het resultaat
+getrouw dient weer te geven in overeenstemming met de Regelgeving verslaggeving WTZi en de
+bepalingen van en krachtens de Wet normering bezoldiging topfunctionarissen publieke en semipublieke
+sector (WNT), alsmede voor het opstellen van het jaarverslag in overeenstemming met de in Nederland
+geldende RJ 655 Zorginstellingen.
+
+Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal nagegaan dat het
+beeld van de jaarrekening overeenkwam met onze kennis van Stichting Huid- en Spatadercentrum Limburg
+
+Wij hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een
+oordeel te geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers
+van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u
+verstrekte gegevens.
+
+Voor een nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de VGBA verwijzen
+wij u naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+Verklaring betreffende overige bij of krachtens de wet gestelde eisen
+
+Ingevolge artikel 2 Regeling verslaggeving WTZi juncto artikel 2:393 lid 5 onder e BW vermelden wij dat
+ons geen tekortkomingen zijn gebleken naar aanleiding van het onderzoek of de in artikel 2:392 lid 1 onder
+b tot en met h BW vereiste gegevens zijn toegevoegd.
+
+Wij vertrouwen hiermee aan uw opdracht te hebben voldaan. Tot het geven van nadere toelichting zijn wij
+gaarne/ bereid.
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+1.2 Algemeen
+
+Oprichting
+
+Blijkens de akte d.d. 19 december 2014 werd Stichting Huid- en Spatadercentrum Limburg per genoemde
+datum opgericht.
+
+De vennootschap is ingeschreven bij de Kamer van Koophandel onder dossiernummer 62119710.
+
+Doelstelling
+
+De doelstelling van Stichting Huid- en Spatadercentrum Limburg wordt in artikel van de statuten als volgt
+omschreven:
+Medisch centrum voor Huid- en spataderproblematiek.
+
+Bedrijfsvoering
+In 2019 is de vergunning voor de Stichting geactiveerd, derhalve vanaf 2019 activiteiten verricht.
+1.3 Resultaatvergelijking
+
+Ter analyse van het resultaat van de onderneming verstrekken wij u de onderstaande opstelling, welke is
+gebaseerd op de winst- en verliesrekening.
+
+2021 2020
+€ % € %
+Opbrengsten zorgprestaties 260.325 100,0% 73.912 100,0%
+Inkoopwaarde van de zorgprestaties 258.189 99,2% 72.780 98,5%
+Bruto bedrijfsresultaat 2.136 0,8% 1.132 1,5%
+Algemene kosten 1.029 0,4% 1.073 1,5%
+Som der kosten 1.029 0,4% 1.073 1,5%
+Bedrijfsresultaat 1.107 0,4% 59 0,0%
+Rentelasten en soortgelijke kosten -1.107 -0,4% -59 -0,1%
+Som der financiële baten en lasten -1.107 -0,4% -59 -0,1%
+Resultaat z 0,0% z -0,1%
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+1.3 Resultaatvergelijking
+
+Het resultaat 2021 is ten opzichte van 2020 gelijk gebleven. De ontwikkeling van het resultaat 2021 ten
+opzichte van 2020 kan als volgt worden weergegeven:
+
+Het resultaat is gunstig beïnvloed door:
+Stijging van:
+Opbrengsten zorgprestaties 186.413
+
+Daling van:
+Algemene kosten 44
+186.457
+
+Het resultaat is ongunstig beïnvloed door:
+Stijging van:
+Inkoopwaarde van de zorgprestaties 185.409
+Rentelasten en soortgelijke kosten 1.048
+186.457
+Gelijk resultaat -
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+1.4 Financiële positie
+
+Ter analyse van de financiële positie van de onderneming verstrekken wij u de onderstaande opstelling,
+welke is gebaseerd op de gegevens uit de balans.
+
+31 december 2021 31 december 2020
+
+€ € € €
+Vorderingen 239.722 66.650
+Liquide middelen 404.646 596.435
+Totaal vlottende activa 644.368 663.085
+Af: kortlopende schulden 644.368 663.085
+
+Werkkapitaal à 5
+Gefinancierd met op lange termijn
+beschikbare middelen 5 7
+Deze financiering vond plaats met:
+Eigen vermogen 5 e
+
+Blijkens deze opstelling is het werkkapitaal per 31 december 2021 ten opzichte van 31 december 2020
+gelijk gebleven.
+
+2. JAARREKENING
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.1 Balans per 31 december 2021
+(Na resultaatbestemming)
+
+31 december 2021 31 december 2020
+ACTIVA € € € €
+Vlottende activa
+Vorderingen
+Vorderingen inzake zorgprestaties 239.722 66.650
+
+239.722 66.650
+
+Liquide middelen 404.646 596.435
+Totaal activazijde 644.368 663.085
+
+2.1 Balans per 31 december 2021
+
+(Na resultaatbestemming)
+
+PASSIVA
+
+Kortlopende schulden
+
+Schuld aan gelieerde onderneming
+
+Overlopende passiva
+
+Totaal passivazijde
+
+31 december 2021
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+31 december 2020
+
+€ €
+643.205
+1.163
+644.368
+644.368
+
+- 10 -
+
+€ €
+662.580
+505
+663.085
+663.085
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.2 Winst- en verliesrekening over 2021
+
+2021 2020
+
+€ € € €
+Opbrengsten zorgprestaties 260.325 /3:912
+Inkoopwaarde van de zorgprestaties 258.189 72.780
+Bruto bedrijfsresultaat 2.136 1,132:
+Algemene kosten 1.029 1.073
+Som der kosten 1.029 1.073
+Bedrijfsresultaat 1.107 59
+Rentelasten en soortgelijke kosten -1.107 -59
+Som der financiële baten en lasten 1.107 -59
+
+Resultaat E EI
+
+- 11 -
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.3 Kasstroomoverzicht over 2021
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2021 2020
+€ € € €
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 1.107 59
+Verandering in werkkapitaal:
+Vorderingen -173.072 -25.052
+Kortlopende schulden (excl. schulden
+aan kredietinstellingen) -18.717 621.487
+
+-191.789 596.435
+Kasstroom uit bedrijfsoperaties -190.682 596.494
+Rentelasten en soortgelijke kosten -1.107 -59
+
+<1107 -59
+
+Kasstroom uit operationele activiteiten -191.789 596.435
+Mutatie geldmiddelen -191.789 596.435
+Toelichting op de geldmiddelen
+Stand per 1 januari 596.435 =
+Mutatie geldmiddelen -191.789 596.435
+Stand per 31 december 404.646 596.435
+
+2
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.4 Toelichting op de jaarrekening
+
+ALGEMEEN
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi,
+
+de Richtlijnen voor de Jaarverslaggeving RJ 655, Titel 9 BW 2 en de bepalingen van en krachtens de Wet
+normering bezoldiging topfunctionarlssen.Zoals toegestaan in artikel 2:396 lid 6 BW zijn voor de
+waardering van activa en passiva en voor de bepaling van het resultaat grondslagen voor de bepaling van
+de belastbare winst, bedoeld in hoofdstuk II van de Wet op de vennootschapsbelasting 1969, in
+aanmerking genomen.
+
+Activiteiten
+
+De activiteiten van Stichting Huid- en Spatadercentrum Limburg , statutair gevestigd te , bestaan
+voornamelijk uit:
+
+Medisch centrum voor huid- en spataderproblematiek.
+
+De feitelijke activiteiten worden uitgevoerd aan de Zandbergsweg 111 te Hoensbroek .
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+Stichting Huid- en Spatadercentrum Limburg , statutair gevestigd te is ingeschreven bij de Kamer van
+Koophandel onder dossiernummer 62119710.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van
+Stichting Huid- en Spatadercentrum Limburg zich verschillende oordelen en schattingen die essentieel
+kunnen zijn voor de in de jaarrekening opgenomen bedragen.
+
+Verbonden partijen
+
+Als verbonden partij worden alle rechtspersonen aangemerkt waarover overheersende zeggenschap,
+gezamenlijke zeggenschap of invloed van betekenis kan worden uitgeoefend."&" Ook rechtspersonen die
+overwegende zeggenschap kunnen uitoefenen worden aangemerkt als verbonden partij. Ook de statutaire
+directieleden, andere sleutelfunctionarissen in het management van "&RG Bedrijfsnaam&” of de
+moedermaatschappij van de onderneming en nauwe verwanten zijn verbonden partijen.
+
+De volgende verbonden partijen zijn verbonden met de vennootschap:
+
+- Mosaderma Holding B.V. gevestigd te Hoensbroek vanaf 31 december 2020.
+
+- Mosaderma B.V. gevestigd te Hoensbroek.
+
+De zorg wordt op grond van overeenkomst door Stichting Huid- en Spatadercentrum Limburg ingekocht bij
+deze verbonden rechtspersoon. Over 2021 was het volume van deze transactie € 258.189,-
+
+(2020 € 72.780,-).
+
+- Mosaderma Huidtherapie B.V. gevestigd te Hoensbroek en 100% dochtermaatschappij van Mosaderma
+Holding B.V.
+
+- Stichting Dr. Mulkens Kliniek gevestigd te Hoensbroek.
+
+- Bestuurder Dr. P.J.M. Mulkens.
+
+Stichting Huid- en Spatadercentrum Limburg heeft geen zeggenschap over de verbonden partijen.
+
+Toelichting op het kasstroomoverzicht
+
+Het kasstroomoverzicht wordt opgesteld volgens de indirecte methode.
+
+De geldmiddelen in het kasstroomoverzicht bestaan uit liquide middelen.
+
+Kasstromen in vreemde valuta zijn omgerekend tegen een geschatte gemiddelde koers. Koersverschillen op
+geldmiddelen worden afzonderlijk in het kasstroomoverzicht getoond.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn
+opgenomen onder de kasstroom uit operationele activiteiten. Betaalde dividenden zijn opgenomen onder de
+kasstroom uit financieringsactiviteiten.
+
+-13-
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.4 Toelichting op de jaarrekening
+ALGEMENE GRONDSLAGEN
+
+Algemeen
+
+De waardering van activa en passiva vindt plaats op basis van historische kosten. Tenzij bij de
+desbetreffende grondslag voor de specifieke balanspost anders wordt vermeld, worden de activa en passiva
+opgenomen tegen nominale waarde.
+
+Vergelijking met voorgaand jaar
+GRONDSLAGEN VOOR WAARDERING VAN ACTIVA EN PASSIVA
+
+Vorderingen inzake zorgprestaties
+
+De kortlopende vorderingen betreffen de vorderingen met een looptijd korter dan één jaar. Deze worden bij
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs. De reële waarde en geamortiseerde kostprijs zijn gelijk aan de nominale waarde. Noodzakelijk
+geachte voorzieningen voor het risico van oninbaarheid worden in mindering gebracht. Tevens wordt een
+voorziening voor plafondoverschrijding in mindering gebracht.
+
+Onderhanden zorgprestaties worden als opbrengsten en kosten verwerkt in de winst- en verliesrekening
+naar rato van de verrichte prestaties op balansdatum.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen nominale waarde. Daarbij dient
+een zakelijke rente in aanmerking te worden genomen.
+
+RAE
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.4 Toelichting op de jaarrekening
+GRONDSLAGEN VOOR BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar
+waarin zij zijn gerealiseerd.
+
+Opbrengsten zorgprestaties
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde
+prestaties, gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te
+verrichten diensten.
+
+Inkoopwaarde van de zorg
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde
+zorgprestaties, gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te
+verrichten diensten.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet
+van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden
+met de verantwoorde transactiekosten op de ontvangen leningen.
+
+- 15 -
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.5 Toelichting op de balans
+ACTIVA
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+Vorderingen inzake zorgprestaties
+Onderhanden zorgprestaties
+Nog te factureren zorgprestaties
+
+Liquide middelen
+Rabobank „499
+ABN AMRO .541
+
+- 16 -
+
+31-12-2021 31-12-2020
+€ €
+85.720 26.046
+
+154.002 40.604
+239.722 66.650
+
+31-12-2021 31-12-2020
+
+€ €
+180.146 96.446
+224.500 499.989
+404.646 596.435
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.5 Toelichting op de balans
+PASSIVA
+
+KORTLOPENDE SCHULDEN
+
+Schulden aan verbonden partijen
+Schuld aan Mosaderma B.V.
+
+Schuld aan Mosaderma Holding B.V.
+Vordering op Stichting Dr. Mulkens Kliniek
+
+Overlopende passiva
+Nog te betalen accountants- en advieskosten
+
+lj
+
+31-12-2021 31-12-2020
+
+€ €
+372.282 114.093
+275.000 550.000
+-4.077 =1515
+643.205 662.580
+31-12-2021 31-12-2020
+
+€ €
+1,163 505
+
+
+Stichting Huid- en Spatadercentrum Limburg te Hoensbroek
+
+2.6 Toelichting op de winst- en verliesrekening
+
+2021 2020
+€ €
+Opbrengsten zorgprestaties
+Honorarium omzet DBC zorgproducten 87.148 49.110
+Mutatie nog te factureren DBC zorgproducten 113.398 39.584
+Mutatie onderhanden DBC zorgproducten 59.779 -14.782
+260.325 73.912
+
+De opbgrengsten zorgprestaties 2021 is ten opzichte van het vorige boekjaar met 252,2% gestegen.
+
+Inkoopwaarde van de zorgprestaties
+Inkoopwaarde van de zorgprestaties Mosaderma B.V. 258.189 72.780
+
+Algemene kosten
+
+Accountants- en advieskosten 993 978
+Incassokosten 36 73
+Overige algemene kosten 7 22
+
+1.029 1.073
+
+Financiële baten en lasten
+
+Rentelasten en soortgelijke kosten
+Bankkosten 1.107 59
+
+Hoensbroek , 16 mei 2022
+Stichting Huid- en Spatadercentrum Limburg
+
+W.G.
+Bestuur Raad van Toezicht
+
+{8e

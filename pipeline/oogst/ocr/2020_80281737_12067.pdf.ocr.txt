@@ -1,0 +1,517 @@
+# whosigns-ocr v1 grootte=468658 dpi=300 paginas=20
+Rapport uitgebracht aan
+Le Séjour Zorg B.V.
+te Tholen
+
+Betreffende
+Rapport inzake jaarstukken 2020
+
+INHOUDSOPGAVE
+
+Pagina
+
+ACCOUNTANTSRAPPORT
+1 Opdracht 2
+2 Samenstellingsverklaring van de accountant 3
+3 Algemeen 4
+4 Fiscale positie 5
+JAARREKENING
+1 Balans per 31 december 2020 8
+2 Winst-en-verliesrekening over 10 september 2020 t/m 31 december 2020 ks)
+3 Kasstroomoverzicht 10 september 2020 t/m 31 december 2020 10
+4 Grondslagen voor waardering en resultaatbepaling 11
+5 Toelichting op de balans per 31 december 2020 13
+6 Toelichting op de winst-en-verliesrekening over 10 september 2020 t/m 31
+
+december 2020 15
+7 Overige toelichting 16
+8 Accountantscontrole 16
+
+ACCOUNTANTSRAPPORT
+
+Remmerswaal
+
+Accountants
+
+Remmerswaal Accountants Sint Maartensdijk B.V.
+Postadres: Postbus 1 / 4695 ZG Sint Maartensdijk / bezoekadres: Onder de Linden 7 / 4695 BV Sint Maartensdijk
+
+Telefoon 0166-66 24 69 / sintmaartensdijk@remmerswaal.nt / www.remmerswaal.nl
+Beconnummer 252189 / BTW NL 0047.21.603.B.01 / Rabobank NL87 RABO 0340.2170.65
+
+Aan de Raad van Commissarissen en bestuur van
+
+Le Séjour Zorg B.V.
+Sint-Catharinaplein 11
+4611TS Bergen op Zoom
+
+Datum Behandeld door Kenmerk
+4 mei 2021 J.C. van den Hoek AA RAB 2344190
+
+Geachte directie,
+
+Hierbij brengen wij verslag uit over boekjaar eindigend op 31 december 2020 met betrekking
+tot uw besloten vennootschap.
+
+1 OPDRACHT
+
+Ingevolge uw opdracht hebben wij de jaarrekening per 31 december 2020 in vergelijking tot
+10 september 2020 van uw besloten vennootschap, waarin begrepen de balans met tellingen
+van € 249 en de winst-en-verliesrekening sluitende met een negatief resultaat na belastingen
+
+van € 1.414, samengesteld.
+
+Remmerswaal Accountants Sint Maartensdijk BV. is ingeschreven in het handelsregister van de Kamer van Koophandel
+Zuidwest-Nederland onder nummer 22021285. Op alle werkzaamheden zijn van toepassing de Algemene Leverings- en
+
+Betalingsvoorwaarden, gedeponeerd bij de Kamer van Koophandel Zuidwest-Nederland.
+Deze voorwaarden worden u op verzoek toegezonden. U treft ze echter ook aan op onze website www.remmerswaal.nf
+
+|
+
+dl
+ll
+
+Remmerswaal
+
+Accountants
+
+Remmerswaal Accountants Sint Maartensdijk B.V.
+
+Postadres: Postbus 1 / 4695 ZG Sint Maartensdijk / bezoekadres: Onder de Linden 7 / 4695 BV Sint Maartensdijk
+Telefoon 0166-66 24 69 / sintmaartensdijk@remmerswaal.nl / www.remmerswaal.nl
+
+Beconnummer 252189 / BTW NL 0047.21.603.B.01 / Rabobank NL87 RABO 0340.2170.65
+
+2 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+
+De jaarrekening van Le Séjour Zorg B.V. te Tholen is door ons samengesteld op basis van de
+van u gekregen informatie. Deze jaarrekening bestaat uit de balans per 31 december 2020,
+de winst-en-verliesrekening en het kasstroomoverzicht over 10 september 2020 t/m 31
+december 2020 met de daarbij horende toelichting. In deze toelichting is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de
+voor accountants geldende Standaard 4410, “Samenstellingsopdrachten"”. Op grond van deze
+standaard wordt van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren
+van de jaarrekening in overeenstemming met Titel 9 Boek 2 van het Nederlandse Burgerlijk
+Wetboek (BW). Wij hebben daarbij onze deskundigheid op het gebied van administratieve
+verwerkìng en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat
+u ons alle relevante informatie aanlevert. Wij hebben onze werkzaamheden, in
+overeenstemming met de daarvoor geldende regelgeving, dan ook uitgevoerd vanuit de
+veronderstelling dat u aan deze verantwoordelijkheid heeft voldaan. Als slotstuk van onze
+werkzaamheden hebben wij door het lezen van de jaarrekening globaal nagegaan dat het
+beeld van de jaarrekening overeenkwam met onze kennis van Le Séjour Zorg B.V. Wij hebben
+geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een
+oordeel te geven of een conclusie te trekken met betrekking tot de getrouwheid van de
+
+jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende
+relevante ethische voorschriften in de Verordening Gedrags- en Beroepsregels Accountants
+(VGBA). U en andere gebruikers van deze jaarrekening mogen er dan ook van uitgaan dat wij
+de opdracht professioneel, vakbekwaam en zorgvuldig, integer en objectief hebben
+uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte gegevens.
+
+Voor een nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de
+VGBA verwijzen wij u naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+Remmerswaal Accountants Sint Maartensdijk B.V. is ingeschreven in het handelsregister van de Kamer van Koophandel
+Zuidwest-Nederland onder nummer 22021285. Op alle werkzaamheden zijn van toepassing de Algemene Leverings- en
+Betalingsvoorwaarden, gedeponeerd bij de Kamer van Koophandel Zuidwest-Nederland.
+
+Deze voorwaarden worden u op verzoek toegezonden. U treft ze echter ook aan op onze website www.remmerswaal.nl
+
+3 ALGEMEEN
+
+3.1 Bedrijfsgegevens
+
+De activiteiten van Le Séjour Zorg B.V. bestaan voornamelijk uit het voorzien in
+(kleinschalige) geestelijke gezondheidszorg, jeugdzorg, dagbesteding, alsmede
+woonbegeleiding, zowel intramuraal als ambulant.
+
+3.2 Bestuur
+Per balansdatum wordt de directie gevoerd door HdW Beheer B.V.
+
+3.3 Aandeelhouders
+Per balansdatum zijn alle aandelen geplaatst bij HdW Beheer B.V.
+
+3.4 Oprichting vennootschap
+
+Bij notariële akte d.d. 10 september 2020 verleden voor notaris mr. A.A.J. Schot te Tholen is
+opgericht de vennootschap Le Séjour Zorg B.V. De activiteiten worden met ingang van
+voornoemde datum gedreven voor rekening en risico van de vennootschap Le Séjour Zorg
+B.V. Bij oprichting zijn 100 gewone aandelen geplaatst van € 1 nominaal.
+
+4 FISCALE POSITIE
+
+4.1 Berekening belastbaar bedrag 10-9-2020 / 31-12-2020
+
+Het belastbaar bedrag voor de vennootschapsbelasting over 10-9-2020 / 31-12-2020 is als
+
+volgt berekend:
+
+10-9-2020 /
+31-12-2020
+
+Resultaat voor belastingen
+Over het belastbare bedrag is geen vennootschapsbelasting verschuldigd.
+
+4,2 Last vennootschapsbelasting
+
+De ten gunste van het resultaat gebrachte vennootschapsbelasting 2020 is als volgt te
+specificeren:
+
+Vennootschapsbelasting
+
+€
+
+-1.663
+
+Mutatie vordering latente vennootschapsbelasting 249-
+4.3 Te verrekenen verliezen
+Per 31 december 2020 bedraagt de omvang van de nog te verrekenen verliezen € 1.663.
+De verliezen kunnen binnen een termijn van 6 jaar worden verrekend met toekomstige
+winsten.
+Voor deze compensabele verliezen is een latente belastingvordering opgenomen die is
+gewaardeerd tegen het nominale belastingtarief van 15,0%.
+4.3.1 Compensabele verliezen
+Compen- Compen-
+sabele sabele
+aanspraak aanspraak
+per 10 per 31
+september Verlies in december Verekenbaar
+2020 boekjaar 2020 t/m
+€ € €
+2020 - 1.663 1.663 2026
+
+
+Tot het verstrekken van n
+
+Hoogachtend,
+Remmerswaal Accountant
+
+J.C. van den H
+Accou nt-Administratiec
+
+dere toelichtingen zijn wij gaarne bereid.
+
+5 Sint Maartensdijk B.V.
+
+
+JAARREKENING
+
+1 BALANS PER 31 DECEMBER 2020
+(na verwerking van het resultaat)
+
+31 december 2020 10 september 2020
+€ € € €
+
+ACTIVA
+
+VLOTTENDE ACTIVA
+
+Vorderingen (1)
+
+Rekening-courant
+groepsmaatschappij - 100
+Belastingen en premies sociale
+
+verzekeringen 249
+
+249 100
+
+249 100
+
+Le Séjour Zorg B.V.
+
+PASSIVA
+
+Eigen vermogen
+
+Geplaatst kapitaal
+Overige reserves
+
+Kortlopende schulden
+
+Rekening-courant
+groepsmaatschappij
+
+Overige schulden en overlopende
+
+passiva
+
+Le Séjour Zorg B.V.
+
+(2)
+
+3)
+
+31 december 2020
+
+10 september 2020
+
+€ € € €
+
+100 100
+1.414- -
+
+1.314- 100
+813 -
+750 -
+
+1.563 -
+
+249 100
+
+-8- Samenstellingsverktaring afgegeven
+
+2 WINST-EN-VERLIESREKENING OVER 10 SEPTEMBER 2020 T/M 31 DECEMBER
+
+2020
+10-9-2020
+/
+31-12-2020
+€
+Overige bedrijfskosten (4) 1.655
+Bedrijfsresultaat 1.655-
+Rentelasten en soortgelijke kosten (5). 8-
+Resultaat voor belastingen 1.663-
+Belastingen 249
+Resultaat na belastingen 1.414-
+
+Le Séjour Zorg B.V. -9- Samenstellingsverklaring afgegeven
+
+3 KASSTROOMOVERZICHT 10 SEPTEMBER 2020 T/M 31 DECEMBER 2020
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+10-9-2020 / 31-12-2020
+
+€
+
+Kasstroom uit operationele activiteiten
+
+Bedrijfsresuitaat 1.655-
+Aanpassingen voor:
+Veranderingen in het werkkapitaal:
+
+Mutatie vorderingen 149-
+Mutatie kortlopende schulden (exclusief schulden aan
+
+kredietinstellingen) 1.563
+Kasstroom uit bedrijfsoperaties
+
+Betaalde interest 8-
+Vennootschapsbelasting 249
+
+Kasstroom uit operationele activiteiten
+
+Mutatie geldmiddelen
+
+241-
+
+241
+
+Le Séjour Zorg B.V. -10- Samenstellingsverklaring afgegeven
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van Le Séjour Zorg B.V. bestaan voornamelijk uit het voorzien in
+(kleinschalige) geestelijke gezondheidszorg, jeugdzorg, dagbesteding, alsmede
+woonbegeleiding, zowel intramuraal als ambulant.
+
+Continuïteit
+
+Als gevolg van het uitbreken van de Coronacrisis is een onzekere situatie ontstaan. Deze
+onzekerheid wordt mede veroorzaakt door maatregelen welke door de overheid worden
+ingesteld om de verspreiding van het Coronavirus te beperken. Deze maatregelen hebben in
+het boekjaar geringe gevolgen gehad voor de onderneming. Er is geen gebruik gemaakt van
+steunmaatregelen van de overheid. Wij verwachten geen continuïteitsissue op deze grond
+voor de onderneming. Wij zijn dan ook van mening dat de waarderingsgrondslagen op basis
+van continuïteit kunnen worden gehandhaafd. De in de onderhavige jaarrekening
+
+gehanteerde grondslagen van waardering en resultaatbepaling zijn dan ook gebaseerd op de
+veronderstelling van continuïteit van de besloten vennootschap.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+Le Séjour Zorg B.V. (geregistreerd onder KvK-nummer 80281737) is feitelijk gevestigd op
+Sint-Catharinaplein 11 te Bergen op Zoom.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de
+leiding van Le Séjour Zorg B.V. zich verschillende oordelen en schattingen die essentieel
+kunnen zijn voor de in de jaarrekening opgenomen bedragen. Indien het voor het geven van
+het in artikel 2:362 lid 1 BW vereiste inzicht noodzakelijk is, is de aard van deze oordelen en
+schattingen inclusief de bijbehorende veronderstellingen opgenomen bij de toelichting op de
+desbetreffende jaarrekeningposten.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9
+Boek 2 BW en de stellige uitspraken van de Richtlijnen voor de jaarverslaggeving, die
+uitgegeven zijn door de Raad voor de Jaarverslaggeving.
+
+De jaarrekening is opgemaakt op basis van historische kostprijs. De waardering van activa en
+passiva geschiedt, voor zover niet anders is vermeld, tegen nominale waarde, Het resultaat
+wordt bepaald als het verschil tussen de netto-omzet en de kosten en andere lasten van het
+verslagjaar met inachtneming van de hiervoor vermelde waarderingsgrondslagen. Winsten
+zijn verantwoord in het jaar waarin de goederen zijn geleverd c.q. de diensten zijn verricht.
+Verliezen welke hun oorsprong vinden in het boekjaar zijn in aanmerking genomen zodra
+deze voorzienbaar zijn.
+
+Le Séjour Zorg B.V. -11- Samenstellingsverklaring afgegeven
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en
+vervolgens gewaardeerd tegen de geamortiseerde kostprijs. De reële waarde en
+geamortiseerde kostprijs zijn gelijk aan de nominale waarde. Noodzakelijk geachte
+voorzieningen voor mogelijke verliezen als gevolg van oninbaarheid worden in mindering
+gebracht. Deze voorzieningen worden bepaald op basis van individuele beoordeling van de
+vorderingen.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+De rentebaten en -lasten betreffen de op de verslagperiode betrekking hebbende rente-
+opbrengsten en -lasten van rentedragende vorderingen en schulden. Tevens zijn hieronder
+begrepen alle hiermee samenhangende kosten.
+
+Belastingen
+
+De belastingen worden berekend op basis van het verantwoorde resultaat, rekeninghoudend
+met de fiscale faciliteiten. Tevens is hieronder opgenomen de mutatie in de vordering latente
+vennootschapsbelasting.
+
+GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide middelen.
+
+Le Séjour Zorg B.V. -12- Samenstellingsverklaring afgegeven
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2020
+
+ACTIVA
+
+VLOTTENDE ACTIVA
+
+1. Vorderingen
+
+De vorderingen hebben een looptijd van korter dan één jaar.
+
+31 10
+december september
+2020 2020
+
+€ €
+Belastingen en premies sociale verzekeringen
+Vordering latente vennootschapsbelasting 249 -
+PASSIVA
+2. Eigen vermogen
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 100 gewone aandelen nominaal € 1 100 100
+
+In het verslagjaar zijn de aandelen geplaatst en volgestort krachtens inbreng in natura.
+
+10-9-2020 10-9-2020
+
+31-12-2020 L0-9/2020
+€ €
+Overige reserves
+Stand per 10 september 2020 - -
+Resultaatbestemming boekjaar 1.414- -
+Stand per 31 december 2020 1.414- -
+
+Het voorstel resultaatbestemming is reeds in de balans ultimo 2020 verwerkt.
+
+Le Séjour Zorg B.V. -13- Samenstellingsverklaring afgegeven
+
+3. Kortlopende schulden
+
+De kortlopende schulden hebben een looptijd van korter dan één jaar.
+
+Rekening-courant groepsmaatschappij
+
+Dit betreft een rekening-courantverhouding met HdW Beheer B.V. Hierover wordt 2% rente
+berekend. De aflossingen zijn variabel en omtrent zekerheden is niets nader
+
+overeengekomen.
+
+31 10
+december september
+2020 2020
+€ €
+Overige schulden en overlopende passiva
+750
+
+Accountantskosten
+
+Le Séjour Zorg B.V. -14- Samenstellingsverklaring afgegeven
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 10 SEPTEMBER 2020 T/
+M 31 DECEMBER 2020
+
+10-9-2020
+/
+31-12-2020
+€
+4. Overige bedrijfskosten
+Algemene kosten 1.655
+Deze posten zijn als volgt te specificeren:
+Algemene kosten
+Accountantskosten 750
+Advieskosten 905
+1.655
+Financiële baten en lasten
+5. Rentelasten en soortgelijke kosten
+Rekening-courant HdW Beheer B.V. 8
+
+Le Séjour Zorg B.V. -15- Samenstellingsverklaring afgegeven
+
+7 OVERIGE TOELICHTING
+
+Verwerking van het verlies 2020
+
+Overeenkomstig de wettelijke bepalingen is het verlies ad € 1.414 over 10 september 2020 t/
+m 31 december 2020 in mindering gebracht op de overige reserves. Dit is reeds in de
+jaarrekening verwerkt.
+
+8 ACCOUNTANTSCONTROLE
+
+Op grond van artikel 2:396 lid 7 BW is de besloten vennootschap vrijgesteld van de
+verplichting tot controle van de jaarrekening door een accountant. Op grond daarvan is geen
+opdracht tot accountantscontrole verstrekt. Derhalve ontbreekt een controleverklaring.
+
+Ondertekening van de jaarrekening
+
+Bergen op Zoom, 4 mei 2021
+
+Directie voor akkoord Raad van commissarissen voor akkoord
+
+HdW Beheer B.V.
+Namens deze,
+
+L.J. Helsdingen J. Storm-Bosch
+HdW Beheer B.V.
+
+Namens deze,
+
+M.B. de Wolf
+
+Le Séjour Zorg B.V. -16 - Samenstellingsverklaring afgegeven

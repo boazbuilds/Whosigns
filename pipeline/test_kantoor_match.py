@@ -59,7 +59,218 @@ GEVALLEN = [
         "Amersfoort, 12 juni 2025 WITh Accountants B.V. was getekend",
         "WITh Accountants B.V.",
     ),
+    (
+        # Gevonden bij een telling over 1.728 gedownloade verklaringen: Grant
+        # Thornton is een groot kantoor en viel er stelselmatig uit, omdat de
+        # audittak zich pas ná de splitsing van 2025 Audit en Assurance noemt.
+        # Vergunning 13000524 loopt onafgebroken sinds 27-9-2007 en staat in beide
+        # namen op dezelfde vestiging in Alphen aan den Rijn.
+        "naam van vóór de splitsing van 2025, via de aliastabel (Present 2019)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Alphen aan den Rijn, 18 september 2020 "
+        "Grant Thornton Accountants en Adviseurs B.V.",
+        "Grant Thornton Audit en Assurance B.V.",
+    ),
+    (
+        # Zonder plaats en datum, zonder ondertekeningsformule — alleen de tekenend
+        # accountant ná de naam. Kwam voor bij 46 van de 1.728 verklaringen in de
+        # cache (5-8-2026) en viel daar allemaal weg.
+        "de tekenend accountant staat ná de kantoornaam (ASSortiMens 2023)",
+        "Met vriendelijke groet, CAS ZorgAccountants B.V. S.R. Snel AA",
+        "CAS ZorgAccountants B.V.",
+    ),
+    (
+        "een digitale ondertekendienst als handtekeningblok ('t Hummelhûs 2023)",
+        "weergeeft. Miedema Accountants ValidSigned door drs. D. van der Bij RA RB "
+        "op 29-03-2024",
+        "Miedema Accountants",
+    ),
+    (
+        # Ook nuttig als de datum onleesbaar uit de pdf komt: hier stond "25 maarl
+        # 2024" en dat is geen datum meer, dus de datumregel hielp niet.
+        "verhaspelde datum, maar de ondertekenaar staat er (Dubois 2023)",
+        "in de interne beheersing. Amsterdam, 25 maarl 2024 "
+        "Dubois & Co. Registeraccountants door M. Belkadi RA",
+        "Dubois & Co. Registeraccountants",
+    ),
+    (
+        # Tekennaam van vergunninghouder 13000483, en sinds de snapshot van
+        # 28-9-2026 ook de naam waaronder de AFM hem kent. Tot dan heette hij in
+        # het register Countus Accountants + Adviseurs B.V., op hetzelfde adres in
+        # Zwolle; daarom staat 'Countus Audit B.V.' ook in de aliastabel.
+        "tekennaam van de auditpraktijk, nu ook de registernaam (Ibass 2023)",
+        "Zwolle, 14 maart 2024 Countus Audit B.V. ValidSigned door "
+        "drs. B.E.J. Seemann RA",
+        "Countus Audit B.V.",
+    ),
+    # ---------- hernoemd in het register: de oude naam blijft vindbaar ----------
+    #
+    # De wekelijkse snapshot van 28-9-2026 hernoemde twee kantoren en die van
+    # 7-9-2026 een derde. Daarna vond een verklaring onder de oude registernaam
+    # niets meer, en deze test — die de seed van die dag leest — werd rood
+    # zonder dat iemand het zag. De snapshot zet de oude naam sindsdien zelf in
+    # de aliastabel; deze gevallen bewaken dat. De accountants zijn verzonnen.
+    (
+        "oude registernaam na de hernoeming van 28-9-2026 (Countus)",
+        "Zwolle, 14 maart 2024 Countus Accountants + Adviseurs B.V. "
+        "w.g. A.B. Voorbeeld RA",
+        "13000483",  # Countus Audit B.V.
+    ),
+    (
+        "oude registernaam zonder rechtsvorm (Countus)",
+        "in de interne beheersing. Zwolle, 14 maart 2024 Countus Accountants + "
+        "Adviseurs ValidSigned door A.B. Voorbeeld RA",
+        "13000483",  # Countus Audit B.V.
+    ),
+    (
+        "oude registernaam na de hernoeming van 28-9-2026 (Beuk)",
+        "Velsen-Zuid, 2 mei 2024 Beuk Audit B.V. was getekend C. Proef RA",
+        "13020109",  # Beuk Audit & Assurance B.V.
+    ),
+    (
+        "oude registernaam na de hernoeming van 7-9-2026 (BGH)",
+        "Nijmegen, 20 juni 2024 BGH Accountants B.V. origineel getekend door "
+        "D.E. Steekproef RA",
+        "13000276",  # BGH Audit B.V.
+    ),
+    # ---------- verdwenen uit het register: eigen nummer, geen opvolger ----------
+    (
+        # 13000055 viel op 28-9-2026 uit het register; dezelfde snapshot bracht
+        # 13020234, een B.V. met bijna dezelfde naam en een vergunning van zes
+        # dagen oud. Vóór kantoren_vervallen.csv kreeg de B.V. dit werk.
+        "verdwenen maatschap, niet de nieuwe B.V. (Steens 2023)",
+        "Rotterdam, 4 juni 2024 Maatschap Steens & Partners Accountants en "
+        "Adviseurs w.g. E. Fictief RA",
+        "Maatschap Steens & Partners Accountants en Adviseurs",
+    ),
+    (
+        "de nieuwe B.V. onder haar eigen naam (Steens 2026)",
+        "Rotterdam, 3 maart 2027 Steens & Partners Accountants en Adviseurs B.V. "
+        "w.g. E. Fictief RA",
+        "Steens & Partners Accountants en Adviseurs B.V.",
+    ),
+    (
+        # De AFM stond van 15-8 tot 31-8-2026 zelf in haar register, met een
+        # OOB-vergunning. Ze is nooit een accountantsorganisatie geweest en hoort
+        # dus ook als verdwenen vermelding nergens vindbaar te zijn — hier met
+        # plaats en datum ervoor, de sterkste ondertekeningscontext die er is.
+        "de toezichthouder is geen kantoor, ook niet na haar eigen registerfout",
+        "Amsterdam, 1 juni 2026 Stichting Autoriteit Financiële Markten",
+        None,
+    ),
+    (
+        # Naam na de fusie van februari 2023; het AFM-register houdt 13000504 nog
+        # onder de naam van vóór die fusie.
+        "naam na een fusie, via de aliastabel (Onder de Bomen 2023)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Nijmegen, Konings Maters Accountants & Adviseurs W.M. Groothuis RA",
+        "Konings & Meeuwissen, accountants en belastingadviseurs",
+    ),
+    (
+        # Gemeenten en regelingen worden ook gecontroleerd door kantoren zonder
+        # Wta-vergunning (daar niet nodig) en door gemeentelijke diensten. Deze
+        # ondertekening komt letterlijk uit de raadsinformatie-oogst van 5-8-2026.
+        "kantoor buiten het AFM-register, briefpapier als context (ODR 2021)",
+        "verkregen controle-informatie voldoende en geschikt is als basis voor "
+        "ons oordeel. FSV Accountants + Adviseurs B.V. Hogeweg 43 Postbus 128 "
+        "5300 AC ZALTBOMMEL",
+        "FSV Accountants + Adviseurs B.V.",
+    ),
+    (
+        "gemeentelijke accountantsdienst, via de aliastabel (Dienst Metro 2013)",
+        "verenigbaar is met de jaarrekening. Amsterdam, 30 april 2014 "
+        "Auditdienst ACAM Origineel getekend door: H. Demirel RA",
+        "ACAM Accountancy en Advies",
+    ),
+    # ---------- tekstschade uit de pdf: de ampersand verhaspelt ----------
+    #
+    # Gevonden bij een telling over alle 21.339 raadsstukken (8-8-2026). De grootste
+    # oorzaak van weggevallen kantoren is niet een onbekende naam maar één verhaspeld
+    # teken: de "&" in het handtekeningblok komt er als "£t", "Et", "S" of "yK" uit.
+    # Daardoor viel juist bij de twee grootste kantoren de verklaring weg.
+    (
+        "BDO met een verhaspelde ampersand (gemeente Delft 2015)",
+        "in overeenstemming met het Besluit begroting en verantwoording provincies "
+        "en gemeenten. Utrecht, 29 juni 2016 BDO Audit £t Assurance B.V. "
+        "namens deze, w.g. drs. R.H.",
+        "BDO Audit & Assurance B.V.",
+    ),
+    (
+        "EY met een verhaspelde ampersand (Omgevingsdienst 2018)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Eindhoven, 2 juli 2019 Ernst S Young Accountants LLP "
+        "EY Building a better working world",
+        "EY Accountants B.V.",
+    ),
+    (
+        # Hier is het de Y die als V wordt gelezen.
+        "EY met een V in plaats van een Y",
+        "in de interne beheersing. Arnhem, 4 juni 2015 Ernst & Voung Accountants LLP",
+        "EY Accountants B.V.",
+    ),
+    (
+        "hoofdletter I gelezen als kleine l (GR ReinUnie 2014)",
+        "verenigbaar is met de jaarrekening. Verklaring Haarlem, 9 april 2015 "
+        "Reg.nr. : 1000006/215/343/2316 lpa-Acon Assurance B.V. "
+        "Was getekend : mr. drs. J.C. Olij RA",
+        "Ipa-Acon Assurance B.V.",
+    ),
+    (
+        "naam aan elkaar geplakt, met een stempelrest ervoor (Westfries Archief 2014)",
+        "voor zover wij dat kunnen beoordelen, verenigbaar is met de jaarrekening. "
+        "Zwaag, 3 april 2015 DTG KAAPHOORN Audit & Assurance B.V. W.g. S.A. Dekker RA",
+        "Kaap Hoorn Audit & Assurance B.V.",
+    ),
+    # ---------- kantoren die vandaag geen Wta-vergunning (meer) hebben ----------
+    #
+    # Het AFM-register is een momentopname van vandaag, maar WhoSigns legt de markt
+    # vanaf 2010 vast. Een kantoor dat in 2019 tekende en daarna fuseerde staat er
+    # niet meer in, en dan valt elke verklaring die het ooit tekende weg. Bij
+    # gemeenten, regelingen en schoolbesturen mag een kantoor zonder Wta-vergunning
+    # ook gewoon tekenen. Elk van deze namen is nagelopen op het handtekeningblok in
+    # de verklaring zelf: plaats, datum en de naam van de tekenend accountant.
+    (
+        "onderwijskantoor, opgegaan in Crowe Foederer (Lek en Linge 2019)",
+        "significante tekortkomingen in de interne beheersing. Eindhoven, 11 juni 2020 "
+        "Wijs Accountants Was getekend: M.M.P.G. van Os MSc RA",
+        "Wijs Accountants",
+    ),
+    (
+        "Amsterdams kantoor buiten het register (Spaarnesant 2019)",
+        "significante tekortkomingen in de interne beheersing. Amsterdam, 16 juni 2020 "
+        "Horlings Accountants & Belastingadviseurs B.V. De heer C. Rabe Registeraccountant",
+        "Horlings Accountants & Belastingadviseurs B.V.",
+    ),
+    (
+        # Bewust géén alias naar Moore DRV Audit B.V.: die vergunning (13020116)
+        # loopt pas vanaf 10-9-2019 en deze verklaring is van mei 2019, dus het is
+        # niet dezelfde vergunninghouder onder een nieuwe naam.
+        "DRV vóór de vergunning van Moore DRV (Papendrecht & Sliedrecht 2018)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Middelburg, 29 mei 2019 DRV Accountants & Adviseurs w.g. drs. J.J. Driessen RA",
+        "DRV Accountants & Adviseurs",
+    ),
+    (
+        "kantoor genoemd naar de tekenend partner (Historisch Goud 2024)",
+        "significante tekortkomingen in de interne beheersing. Landgraaf, 30 april 2025 "
+        "Kalnenek Accountants Origineel getekend door drs. E.E.T.M. Kalnenek RA Partner",
+        "Kalnenek Accountants",
+    ),
+    (
+        "tekennaam van een vergunninghouder in dezelfde plaats (Erfgoedcentrum 2025)",
+        "in de interne beheersing. Doetinchem, 13 maart 2026 "
+        "Confirm Audit & Assurance R. Hulshof RA",
+        "Coöperatie ConFirm U.A.",
+    ),
     # ---------- mag NIET matchen: de naam staat er wel, maar tekent niet ----------
+    (
+        # De keerzijde van de regel hierboven: ook in een cv kan er een accountant
+        # ná de kantoornaam staan. "werkzaam bij" moet dan zwaarder wegen.
+        "kantoornaam in een cv, mét een accountant erachter",
+        "de penningmeester is werkzaam bij Flynth Audit B.V. J. Jansen RA en heeft "
+        "die functie sinds 2019",
+        None,
+    ),
     (
         "werkgever van een bestuurslid (Kerk in Actie 2023)",
         "J.W. Stam MSc RA, senior manager bureau vaktechniek bij Baker Tilly "
@@ -93,19 +304,220 @@ GEVALLEN = [
         "de administratie is accuraat en volledig bijgehouden gedurende het boekjaar",
         None,
     ),
+    (
+        # Bij het toevoegen van Parallel Accountants & Adviseurs (Arnhem, 11-8-2026)
+        # kwam de vraag op of "parallel" zou gaan matchen op de straatnaam
+        # Parallelweg, die op talloze briefpapieren staat — en hier zelfs mét
+        # plaats en datum ervoor, dus in een volwaardige ondertekeningscontext.
+        # Dat kan niet: de zoeksleutels van dat kantoor zijn "parallel accountants
+        # adviseurs" en "parallel accountants adviseurs b v", nooit het losse
+        # woord. Een latere afkorting van de sleutel zou dat stukmaken, en dan
+        # kreeg elk kantoor aan een Parallelweg de opdrachten van een ander
+        # kantoor toegeschreven. Jacobs staat in geen enkele seed, dus het juiste
+        # antwoord is "niets gevonden" — en vooral: niet Parallel.
+        # Een korte eennaam plus een rechtsvorm zónder punten. Het register
+        # schrijft "Joore N.V." (sleutel 'joore n v'), het handtekeningblok
+        # schrijft "Joore NV" (sleutel 'joore nv') — en de terugval op de
+        # kernnaam is hier 'joore', vijf letters, onder MIN_SLEUTELLENGTE. Bij
+        # elk ánder kantoor vangt de kernnaam dit verschil op; bij een naam van
+        # één kort woord valt het kantoor volledig weg. Gevonden in de zorgoogst
+        # van boekjaar 2020 (Actief Zorg B.V.).
+        "rechtsvorm zonder punten bij een korte eennaam, via de aliastabel (Actief Zorg 2020)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing, "
+        "Tilburg, 24 september 2021 Joore NV wg. D.E. van Boekel Msc. RA AA",
+        "Joore N.V.",
+    ),
+    (
+        # Dezelfde woorden in de andere volgorde. Het register kent 13000490 als
+        # Kreston Van Herwijnen Accountants B.V. te Tiel; het briefpapier van dat
+        # kantoor zet zijn eigen naam andersom.
+        "woordvolgorde omgedraaid, via de aliastabel (DIT Coaching 2019)",
+        "bij de financiële productieverantwoording op totaalniveau. Tiel, "
+        "3 juni 2020 VAN HERWIJNEN KRESTON ACCOUNTANTS B.V. "
+        "Stephensonstraat 19 4004 JA Tiel",
+        "Kreston Van Herwijnen Accountants B.V.",
+    ),
+    (
+        # HLB is een netwerkmerk, geen kantoor. hlb.nl schrijft zelf dat de vijf
+        # Nederlandse HLB-kantoren "volledig autonoom" werken en zelfstandige
+        # rechtspersonen zijn. Twee daarvan hebben een Wta-vergunning (Den Hartog
+        # 13000106, Nannen 13000479) en Van Daal niet. Als het merk zwaarder zou
+        # gaan wegen dan de rest van de naam, kreeg Van Daal de opdrachten van
+        # Den Hartog toegeschreven — en dat is precies het soort verwisseling
+        # waar dit bestand voor bestaat.
+        "netwerkmerk verwisselt de kantoren niet (ThuisZorg 2019)",
+        "waaronder eventuele significante tekortkomingen in de interne beheersing. "
+        "Dongen, 18 juni 2020 HLB van Daal Audit B.V. "
+        "w.g. P.W.M.H. Kosters Registeraccountant",
+        "HLB van Daal Audit B.V.",
+    ),
+    (
+        "hetzelfde merk, het ándere kantoor (HLB Den Hartog)",
+        "Rotterdam, 5 juni 2021 HLB Den Hartog Accountants & Consultants "
+        "w.g. A. Jansen RA",
+        "HLB Den Hartog Accountants & Consultants",
+    ),
+    (
+        # Hier is niet de ampersand maar de merknaam zelf verhaspeld: "Witlox"
+        # komt er als "Wilox", "vtlox" en "Witiex" uit, terwijl "VCS Accountants"
+        # heel blijft. Nagemeten over de hele OCR-cache (12-8-2026): "VCS" komt
+        # nooit zonder Witlox ervoor, en het register kent maar één VCS, dus de
+        # kortere sleutel kan niet naar een ander kantoor wijzen.
+        "de merknaam is verhaspeld, de rest niet (zorgoogst 2019)",
+        "Breda, 31 augustus 2020 Wilox VCS Accountants "
+        "Was getekend M. Kilingarslan RA",
+        "Witlox VCS audit B.V.",
+    ),
+    (
+        # De naam van het kantoor is hier half weggevallen ("Namens V r Net
+        # Accountants B.V."), maar het briefpapier erboven draagt hem voluit.
+        # Let op: "P. van der Net RA" eronder is de tekenend accountant en geen
+        # kantoor — precies het soort persoonsnaam waar de matcher niet in mag
+        # trappen.
+        "kantoor uit het briefpapier, persoonsnaam eronder (productieverantwoording 2020)",
+        "transacties en gebeurtenissen zonder materiële afwijkingen weergeeft. "
+        "Arnhem, 29 maart 2021 Namens Van der Net Accountants B.V. "
+        "P. van der Net RA",
+        "Van der Net Accountants B.V.",
+    ),
+    (
+        # Twee BDO's, en ze mogen niet op één hoop. De vergunning staat op BDO
+        # Audit & Assurance B.V. (13000311); BDO Accountants & Belastingadviseurs
+        # B.V. is een ándere rechtspersoon (statutair Eindhoven) die uitsluitend
+        # samenstellings- en beoordelingsverklaringen tekent. Ze samenvoegen zou
+        # dat werk als wettelijke controle laten lezen — en andersom zou de
+        # vergunninghouder werk toegeschreven krijgen dat hij niet deed.
+        "de niet-vergunninghoudende BDO-entiteit (samenstelling 2019)",
+        "met de door u verstrekte gegevens. Dordrecht, 20 juli 2020 "
+        "BDO Accountants namens deze, K. van Wijk RA RB",
+        "BDO Accountants & Belastingadviseurs B.V.",
+    ),
+    (
+        # Twee verschillende kantoren die allebei Dijksterhuis heten, in twee
+        # verschillende plaatsen. Ze delen alleen de familienaam; de zoeksleutels
+        # zijn "dijksterhuis accountants en advieskantoor" en "accountantskantoor
+        # dijksterhuis en uil" en houden ze uit elkaar. Zou een van beide ooit
+        # tot de kale familienaam worden ingekort, dan kregen ze elkaars werk.
+        "twee kantoren met dezelfde familienaam, ander kantoor (Breda)",
+        "Hoogachtend, Dijksterhuis Accountants- en Advieskantoor B.V. "
+        "Breda, 30 mei 2022",
+        "Dijksterhuis Accountants- en Advieskantoor B.V.",
+    ),
+    (
+        "dezelfde familienaam, het ándere kantoor (Groningen)",
+        "materiële afwijkingen weergeeft. Groningen, 19 juli 2021 "
+        "Accountantskantoor Dijksterhuis en Uil B.V. E.C. Maring RA",
+        "Accountantskantoor Dijksterhuis en Uil B.V.",
+    ),
+    (
+        "een straatnaam die op een kantoornaam lijkt (Parallelweg)",
+        "Weert, 3 juni 2021 Jacobs Accountants B.V. Parallelweg 12 6001 HM Weert",
+        None,
+    ),
 ]
+
+
+def vervallen_vergunning(index: dict) -> list[tuple[str, bool]]:
+    """Kantoren waarvan de vergunning is vervallen, en wat dat betekent.
+
+    Waarom dit apart getest wordt: `wta_vergunning` staat in de tegenwoordige
+    tijd en is voor deze kantoren onwaar — ze stáán niet meer in het register.
+    Maar een woningcorporatie is controleplichtig, en de lader leidt uit "geen
+    vergunning" af dat het geen wettelijke controle kán zijn. Zonder `wta_ooit`
+    kregen vijftien corporaties die accon avm liet controleren daardoor de
+    stempel "vrijwillige controle" — onjuist, en het leest als een misstand die
+    er nooit is geweest. Accon avm tekende bevoegd; de vergunning verviel pas
+    jaren later door de fusie met Flynth Audit.
+    """
+    uitkomsten = []
+    for naam, verwacht_ooit in [
+        # Vergunning vervallen door een juridische fusie: tekende destijds bevoegd.
+        ("Accon AVM", True),
+        ("Accon-AVM Controlepraktijk B.V.", True),
+        ("Astrium Overheidsaccountants B.V.", True),
+        # Uit het AFM-register verdwenen (kantoren_vervallen.csv): zelfde
+        # redenering, alleen staat de reden er niet bij — wel de datum.
+        ("Maatschap Steens & Partners Accountants en Adviseurs", True),
+        ("VBWA B.V.", True),
+        # Nooit een vergunning gehad: hier is "geen wettelijke controle" juist wél
+        # het goede antwoord, en dat mag deze uitzondering niet stilletjes opheffen.
+        ("WITh Accountants B.V.", False),
+        ("FSV Accountants + Adviseurs B.V.", False),
+        ("ACAM Accountancy en Advies", False),
+    ]:
+        treffer = zoek_kantoor(f"Rotterdam, 1 juni 2026 {naam}", index)
+        kantoor = treffer["kantoor"] if treffer and not treffer["zwak"] else None
+        goed = kantoor is not None and bool(kantoor.get("wta_ooit")) == verwacht_ooit
+        # Een vervallen vergunning is nooit een huidige vergunning.
+        if kantoor is not None and kantoor["wta_vergunning"]:
+            goed = False
+        uitkomsten.append((f"vervallen vergunning: {naam!r} -> ooit={verwacht_ooit}", goed))
+    return uitkomsten
+
+
+def vervallen_in_de_index() -> list[tuple[str, bool]]:
+    """Hoe bouw_index met verdwenen vergunninghouders omgaat — verzonnen kantoren.
+
+    Los van de echte seeds, zodat het gedrag vastligt ook als er vandaag geen
+    kantoor in kantoren_vervallen.csv staat dat het laat zien.
+    """
+    register = [
+        {"afm_nummer": "90000001", "naam": "Zandloper Audit B.V."},
+        {"afm_nummer": "90000004", "naam": "Duinroos Accountants N.V."},
+    ]
+    for kantoor in register:
+        kantoor.update(sleutel=kantoor["afm_nummer"], wta_vergunning=True)
+    vervallen = [
+        {"afm_nummer": "90000002", "naam": "Maatschap Zandloper Accountants"},
+        {"afm_nummer": "90000003", "naam": "Duinroos Accountants B.V."},
+        # Weer terug in het register: dan geldt de registerrij.
+        {"afm_nummer": "90000001", "naam": "Zandloper Audit B.V."},
+    ]
+    for kantoor in vervallen:
+        kantoor.update(sleutel=kantoor["afm_nummer"], wta_vergunning=False, wta_ooit=True)
+    aliassen = [{"alias": "Zandloper en Vennoten", "afm_nummer": "90000002"}]
+    index = bouw_index(register, aliassen, overige=[], vervallen=vervallen)
+
+    def wie(tekst: str) -> str | None:
+        treffer = zoek_kantoor(f"Rotterdam, 1 juni 2024 {tekst} w.g. F. Verzonnen RA", index)
+        return None if treffer is None or treffer["zwak"] else treffer["kantoor"]["afm_nummer"]
+
+    return [
+        ("vervallen: oude verklaring vindt het eigen nummer",
+         wie("Maatschap Zandloper Accountants") == "90000002"),
+        ("vervallen: vlaggen zijn wta_vergunning=False, wta_ooit=True",
+         index["maatschap zandloper accountants"]["wta_vergunning"] is False
+         and index["maatschap zandloper accountants"]["wta_ooit"] is True),
+        ("vervallen: een alias mag naar een verdwenen nummer wijzen",
+         wie("Zandloper en Vennoten") == "90000002"),
+        ("vervallen: een nummer dat weer in het register staat telt als actief",
+         index["zandloper audit"]["wta_vergunning"] is True),
+        ("vervallen: de volledige oude naam wint van de opvolger",
+         wie("Duinroos Accountants B.V.") == "90000003"),
+        ("vervallen: bij een gedeelde kernnaam wint de vergunninghouder",
+         wie("Duinroos Accountants") == "90000004"),
+    ]
 
 
 def main() -> int:
     index = bouw_index(laad_kantoren())
     fouten = 0
+    for omschrijving, goed in vervallen_vergunning(index) + vervallen_in_de_index():
+        fouten += not goed
+        print(f"{'✓' if goed else '✗'} {omschrijving}")
     for omschrijving, tekst, verwacht in GEVALLEN:
         treffer = zoek_kantoor(tekst, index)
         # Een zwakke treffer is geen vastgesteld kantoor (die gaat naar de
         # review-queue), dus die telt hier als "niet gematcht" — precies zoals
         # verklaring.analyseer() ermee omgaat.
+        # Een verwachting van alleen cijfers is een AFM-nummer, de rest een
+        # registernaam. De hernoemingsgevallen hieronder gaan over het nummer:
+        # "de oude naam geeft hetzelfde kantoor". Op naam vergeleken werd deze
+        # test bij elke volgende hernoeming weer rood, terwijl de match goed
+        # bleef.
+        sleutel = "afm_nummer" if verwacht and verwacht.isdigit() else "naam"
         gevonden = (
-            None if treffer is None or treffer["zwak"] else treffer["kantoor"]["naam"]
+            None if treffer is None or treffer["zwak"] else treffer["kantoor"][sleutel]
         )
         goed = gevonden == verwacht
         fouten += not goed
@@ -114,7 +526,10 @@ def main() -> int:
             f"    verwacht: {verwacht}\n    gevonden: {gevonden}"
             + ("" if goed else f"\n    context:  {treffer['context'] if treffer else '-'}")
         )
-    print(f"\n{len(GEVALLEN) - fouten}/{len(GEVALLEN)} goed")
+    gedaan = (
+        len(GEVALLEN) + len(vervallen_vergunning(index)) + len(vervallen_in_de_index())
+    )
+    print(f"\n{gedaan - fouten}/{gedaan} goed")
     return 1 if fouten else 0
 
 

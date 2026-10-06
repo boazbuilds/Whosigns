@@ -1,0 +1,844 @@
+# whosigns-ocr v1 grootte=2439819 dpi=300 paginas=20
+Familysupporters Kennemerland B.V. te Haarlem
+
+Grondslagen voor financiële verslaggeving
+
+Liquide middelen
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Grondslagen voor waardering passiva
+
+Langlopende schulden
+
+Langlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde.
+Transactiekosten die direct zijn toe te rekenen aan de verwerving van de langlopende schulden
+worden in de waardering bij eerste verwerking opgenomen. Langlopende schulden worden na eerste
+verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening
+houdend met agio of disagio en onder aftrek van transactiekosten.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet
+worden afgelost.
+
+Grondslagen voor bepaling resultaat
+
+Netto-omzet
+
+Onder netto-omzet wordt verstaan de opbrengsten van de in het verslagjaar geleverde diensten onder
+aftrek van kortingen en de over de omzet geheven belastingen. Opbrengsten van diensten worden
+opgenomen naar rato van de mate waarin de diensten zijn verricht, gebaseerd op de tot balansdatum
+in het kader van de dienstverlening gemaakte kosten in verhouding tot de geschatte kosten van de
+totaal te verrichten dienstverlening. De kostprijs van deze diensten wordt aan dezelfde periode
+toegerekend.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de
+winst-en-verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit
+voorgaande boekjaren (voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde
+winstbestanddelen en na bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met
+wijzigingen die optreden in de latente belastingvorderingen en latente belastingschulden uit hoofde
+van wijzigingen in het te hanteren belastingtarief.
+
+Grondslagen voor kasstroomoverzicht
+
+Algemene grondslagen voor het opstellen van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het
+kasstroomoverzicht bestaan uit de liquide middelen, met uitzondering van deposito's met een looptijd
+langer dan drie maanden. Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en
+winstbelastingen zijn opgenomen onder de kasstroom uit operationele activiteiten.
+
+16
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op balans
+
+Toelichting op balans
+
+Immateriële vaste activa
+
+31 dec 2020 31 dec 2019
+
+€ €
+Kosten van onderzoek en ontwikkeling
+Ontwikkeling zorgvestiging - 35.165
+Totaal - 35.165
+
+Onderstaand overzicht geeft het verloop van de immateriële vaste activa gedurende het boekjaar
+weer:
+
+Kosten van
+onderzoek
+en
+ontwikkeling
+€
+Boekwaarde 1 januari 2020
+Verkrijgings- of vervaardigingsprijs 47.455
+Cumulatieve afschrijvingen en waardeverminderingen -12.290
+35.165
+Mutaties 2020
+Afschrijvingen -9,491
+Waardeverminderingen -25.6/4
+-35.165
+
+Boekwaarde 31 december 2020
+Verkrijgings- of vervaardigingsprijs -
+
+17
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op balans
+
+Materiële vaste activa
+
+31 dec 2020 31 dec 2019
+€ €
+Bedrijfsgebouwen en -terreinen
+Inrichting 2.411 3.483
+Andere vaste bedrijfsmiddelen
+Vervoersmiddelen 1.387 1.825
+Inventaris 9.080 11.338
+10.467 13.163
+12.878 16.646
+
+Onderstaand overzicht geeft het verloop van de materiële vaste activa gedurende het boekjaar weer:
+
+Andere
+Bedrijfs- vaste
+gebouwen bedrijfs-
+
+en -terreinen middelen Totaal
+€ € €
+Boekwaarde 1 januari 2020
+Verkrijgings- of vervaardigingsprijs 5.359 18.010 23.369
+Cumulatieve afschrijvingen en waardeverminderingen -1.876 -4.847 -6.723
+3.483 13.163 16.646
+Mutaties 2020
+investeringen - 1.026 1.026
+Afschrijvingen -1.072 -3.722 -4.794
+-1.072 -2.696 -3.768
+Boekwaarde 31 december 2020
+Verkrijgings- of vervaardigingsprijs 5.359 19.036 24.395
+Cumulatieve afschrijvingen en waardeverminderingen -2.948 -8.569 -11.517
+2.411 10.467 12.878
+
+Toelichting
+Het afschrijvingspercentage gehanteerd voor de materiële vaste activa is 20%.
+
+18
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op balans
+
+Onderhanden projecten
+
+31 dec 2020 31 dec 2019
+
+€ €
+Onderhanden zorgprojecten 244.863 134.183
+Totaal onderhanden projecten onder activa 244.863 134.183
+
+Toelichting
+
+De onderhanden zorgprojecten worden opgenomen tegen de actuele productgroep waarin een DBC
+zich bevindt op de peildatum van rapporteren, en waar van toepassing de polisvoorwaarden van de
+zorgverzekeraar zoals opgenomen in Eiswijzer.
+
+Vorderingen
+
+31 dec 2020 31 dec 2019
+
+€ €
+Vorderingen op handelsdebiteuren, bruto
+Debiteuren - 15.746
+Debiteuren groepsmaatschappijen - 43.563
+59.309
+Groepsmaatschappijen
+Nog te factureren zorgverzekeraars inzake B.E. Familysupporters 92.537 14.656
+B.V.
+Vorderingen op groepsmaatschappijen 14.039 13.194
+Kruisposten groepsmaatschappijen 225.524 34.267
+332.100 62.117
+Pensioenvorderingen 2.094
+Overige vorderingen
+Nog te factureren gemeenten - 98.608
+Nog te ontvangen bedragen 17.007 -
+Nog te factureren overig - 950
+Vooruitbetaalde kosten 10.432 4.561
+Waarborgsom 21.756 15.119
+49.195 119.238
+Totaal 383.389 240.664
+
+19
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op balans
+
+Liquide middelen
+
+Banktegoeden
+Triodos bank
+
+Totaal
+
+Toelichting
+
+31 dec 2020 31 dec 2019
+€ €
+133.227 4.350
+133.227 4.350
+
+De liquide middelen staan ter vrije beschikking.
+
+20
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op balans
+
+Eigen vermogen
+
+31 dec 2020 31 dec 2019
+€ €
+Aandelenkapitaal
+Aandelen kapitaal 100 100
+Wettelijke reserves - 35.165
+Overige reserves 270.607 65.740
+Totaal 270.707 101.005
+
+Onderstaand overzicht geeft het verloop van het eigen vermogen gedurende het boekjaar weer:
+
+Aandelen- Wettelijke Overige
+
+kapitaal reserves reserves Totaal
+€ € € €
+
+Stand 1 januari 2020 100 35.165 65.740 101.005
+Mutaties 2020
+Resultaat boekjaar - - 169.702 169.702
+Rechtstreekse mutaties - -35.165 35.165 -
+
+-35.165 204.867 169.702
+Stand 31 december 2020 100 - 270.607 270.707
+Aandelenkapitaal
+
+Het geplaatst kapitaal van de vennootschap bedraagt € 100, verdeeld in 100 gewone aandelen á € 1.
+
+Ultimo boekjaar zijn alle aandelen geplaatst bij Familysupporters B.V.
+
+Wettelijke reserves
+Onder de wettelijke reserves zijn opgenomen:
+
+Uitsplitsing wettelijke reserves 31 dec 2020 31 dec 2019
+€ €
+
+Wettelijke reserve voor geactiveerde kosten van onderzoek en 35.165
+
+ontwikkeling
+
+Totaal - 35.165
+
+Overige reserves
+Het ingehouden deel van het resultaat over 2020 bedraagt € 169.701.
+
+21
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op balans
+
+Langlopende schulden
+
+Schulden aan groepsmaatschappijen
+
+Lening 1 Familysupporters Nederland B.V.
+Lening 2 Familysupporters Nederland B.V.
+
+Totaal
+
+Toelichting
+
+31 dec 2020 31 dec 2019
+€ €
+19.445 33.333
+23.611 32.000
+43.056 65.333
+
+Aflossingsverplichtingen binnen 12 maanden na afloop van het boekjaar zijn niet begrepen in de
+hierboven genoemde bedragen, maar opgenomen onder de kortlopende schulden.
+
+Looptijd
+
+Lening nr. Aflossing
+
+1 € 1.388 per maand in 36 termijnen
+2 € 1.388 per maand in 36 termijnen
+
+22
+
+Rente
+5% per jaar
+5% per jaar
+
+Looptijd
+3 jaar
+3 jaar
+
+Zekerheden
+Geen
+Geen
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op balans
+
+Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+Crediteuren
+Crediteuren groepsmaatschappijen
+
+Groepsmaatschappijen
+
+Aflossingsverplichting leningen Familysupporters Nederland B.V.
+
+Nog te betalen aan groepsmaatschappijen
+
+Belastingen en premies sociale verzekeringen
+
+Vennootschapsbelastingschulden
+Vennootschapsbelasting
+
+Loonheffing- en premieschulden
+Loonheffingen
+
+Schulden ter zake van pensioenen
+Pensioenpremie
+
+Overige schulden
+Reservering vakantiegeld
+Reservering vakantiedagen
+Te betalen Flexbudget
+Nog te betalen bedragen
+Te betalen nettolonen
+Schuld debiteuren
+
+Totaal
+
+Toelichting
+
+31 dec 2020 31 dec 2019
+€ €
+66.225 26.636
+42.165 46.082
+
+108.390 72.718
+34.856 26.667
+- 34.657
+34.856 61.324
+33.439 15.292
+161.208 25.134
+194.647 40.426
+- 11.400
+48.580 39.357
+4.016 2.267
+41.325 12.339
+22.017 24.839
+3.370 -
+3.393 -
+122.701 78.802
+460.594 264.670
+
+Er is ten aanzien van de openstaande loonheffingen 2020 en de aanslagen vennootschapsbelasting
+gebruik gemaakt van de regeling bijzonder uitstel van betalingen in verband met Covid 19. Dat levert
+de verplichting op van geen dividend (dividendklem) en bonusuitbetalingen gedurende het uitstaan van
+
+deze verplichtingen bij de belastingdienst.
+
+23
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op balans
+
+Niet in de balans opgenomen verplichtingen
+
+Fiscale eenheid
+De rechtspersoon maakt deel uit van een fiscale eenheid voor de omzetbelasting en is uit dien hoofde
+hoofdelijk aansprakelijk voor de belastingschuld van de fiscale eenheid als geheel.
+
+Betalingen ter verkrijging van (gebruiks)rechten
+
+Het adres Florapark 7 te Haarlem wordt gehuurd sinds 1 mei 2018 en heeft een eerste contractuele
+looptijd van 6 jaar. Over het verslagjaar 2020 is er € 55.937 aan huur betaald, inclusief het gebruik
+van 4 parkeerplaatsen.
+
+Overige niet in de balans opgenomen verplichtingen
+
+Met Familysupporters Nederland B.V. is er een SLA Service Level Agreement afgesloten, dat de
+vestiging voor het gebruik van logo, uitvoering, praktijkvoering, service en beleid en backoffice een
+vergoeding is verschuldigd. De vergoeding daarvoor wordt over 2020 berekend op 15% van de omzet.
+Op basis van de opgemaakte jaarrekening vindt er nacalculatie plaats.
+
+24
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op winst- en verliesrekening
+
+Toelichting op winst- en verliesrekening
+
+Omzet en brutomarge
+
+Netto-omzet
+Omzet Jeugdwet
+Omzet Jeugdwet binnen groepsmaatschappijen
+Omzet Jeugdwet voorgaande jaren
+Omzet ZVW sGGZ
+Omzet ZVW sGGZ binnen groepsmaatschappijen
+Omzet ZVW bGGZ binnen groepsmaatschappijen
+Omzet ZVW bGGZ
+Omzet overige declaratie op maat
+Omzet WMO voorgaande jaren
+
+Som der bedrijfsopbrengsten
+
+Kosten van grond- en hulpstoffen
+Hulpmaterialen behandelingen
+Inzet groepsmaatschappij declaratie op Maat
+
+Brutomarge (brutobedrijfsresultaat)
+
+Netto-omzet
+
+2020 2019
+
+€ €
+1.461.659 1.140.000
+364.792 177.626
+6.745 -
+69.926 -42.571
+360.246 287.944
+2.998 2.579
+860 -
+5.965 1.150
+-1.749 -
+2.271.442 1.566.728
+2.271.442 1.566.728
+3.621 1.280
+8.560 .
+12.181 1.280
+2.259.261 1.565.448
+
+De omzet is op geconsolideerd niveau in Familysupporters B.V. voorzien van een door Wiltlox VCS
+
+Accountants afgegeven productieverklaring.
+
+25
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op winst- en verliesrekening
+
+Personeelskosten
+2020 2019
+€ €
+Lonen en salarissen
+Bruto lonen Zorg 827.171 593.667
+Vakantiegeldverplichting Zorg 7.720 21.537
+Flexbudgetten verplichting Zorg 45.321 8.092
+Flexbudgetten verplichting Overhead -15.404 -
+Tegoed vakantiedagen / verlofuren Zorg 819 2.100
+Bruto lonen Overhead 137.299 102.992
+Vakantiegeldverplichting Overhead 1.504 2.394
+Flexbudgetten Overhead - 4,247
+Tegoed vakantiedagen / verlofuren Overhead 930 166
+Uitkering UWV -5.999 -
+999.361 735.195
+Sociale lasten
+Werkgeversbijdrage Zvw Zorg 47.016 35.386
+Sociate lasten Zorg 86.762 61.913
+Werkgeversbijdrage Zvw Overhead 7.559 6.125
+Sociale lasten Overhead 13.080 10.716
+154.417 114.140
+Pensioenlasten
+Pensioenpremies Zorg 75.366 55.685
+Pensioenpremies Overhead 12.448 9.270
+87.814 64.955
+
+26
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op winst- en verliesrekening
+
+2020 2019
+€ €
+Andere personeelskosten
+
+Inzet onderaannemers voor Jeugdwet 7.091 10.384
+Inzet groepsmaatschappij voor Jeugdwet - 8.400
+Opbrengst uitleen Zorg personeel aan groepsmaatschappij -35.141 -54.081
+ingehuurd personeel Zorg 271.473 187.934
+ingehuurd personeel Zorg van groepsmaatschappij 36.905 18.846
+Kilometervergoedingen 7.537 10.450
+Reis- en verblijfskosten 221 1.336
+Reiskostenvergoedingen 2.403 974
+Parkeerkosten personeel 6.134 4,888
+Kantinekosten 3.130 3.565
+Studiekosten 19.182 14.252
+Arbodienst 2.760 -
+Inschrijvingen beroepsregisters en contributies 115 813
+Werkkostenregeling vrije ruimte 16.712 1.276
+Ontvangen zorgbonus -15.000 -
+Werkkostenregeling overschrijding - 125
+Werkkostenregeling vrijgesteld 619 -
+Overige personeelskosten -850 -397
+323.291 208.765
+
+1.564.883 1.123.055
+
+Toelichting
+
+De specificatie van de directiebeloning volgens de WNT in de Zorg en Jeugdhulp is opgenomen in de
+bijlagen van dit rapport.
+
+Afschrijvingen en waardeverminderingen
+
+2020 2019
+€ €
+Afschrijving op immateriële vaste activa
+Afschrijving ontwikkeling zorgvestiging - 9.491
+- 9,491
+Afschrijving op materiële vaste activa
+Afschrijving verbouwingen / huurdersbelang 1.072 1.072
+Afschrijving inventaris 3.284 3.164
+Afschrijving vervoermiddelen 438 365
+4.794 4.601
+Waardeverminderingen van immateriële vaste activa 35.165
+Totaal 39.959 14.092
+
+27
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op winst- en verliesrekening
+
+Overige bedrijfskosten
+
+Huisvestingskosten
+Huur kantoor
+Servicekosten kantoor
+Belastingen gebouwen
+Gas, water en elektra kantoor
+Schoonmaakkosten kantoor
+Huur overige kantoorruimte
+Overige huisvestingskosten kantoor
+Kleine aanschaffingen
+
+Auto- en transportkosten
+Overige vervoerskosten
+
+Kantoorkosten
+Kantoorbenodigdheden
+Contributies en bijdragen
+Zegel en portokosten
+Drukwerk
+Telefoonkosten
+Internetkosten
+Vakliteratuur
+Overige kantoorkosten
+Kosten computers
+
+Algemene kosten
+Kosten SLA FSNL
+Honoraria adviseurs
+Accountantskosten
+Representatiekosten
+Overige algemene kosten
+Boetes belastingdienst
+
+COVID19 meerkosten gemeente 2020
+
+Totaal
+
+2020 2019
+€ €
+55.937 40.271
+10.017 2.582
+1.467 -
+- 5.380
+3.630 1.646
+647 -
+1.069 2.785
+2.782 1.785
+75.549 54.449
+1.150
+1.150
+6.263 3.062
+702 139
+294 183
+1.762 2.198
+12.110 8.158
+931 659
+327 548
+357 -
+3.342 1.867
+26.088 16.814
+340.716 255.014
+1.681 4.486
+12.164 10.379
+18 27
+1.624 114
+- 2.884
+-12.837 -
+343.366 272.904
+446.153 344.167
+
+28
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Toelichting op winst- en verliesrekening
+
+Financiële baten en lasten
+
+2020 2019
+€ €
+Rentelasten groepsmaatschappijen
+Rente leningen Famitysupporters Nederland B.V. -4,120 -6.183
+Rentelasten banken
+Bankrente en kosten -3/1 -356
+-3/71 -356
+Rentelasten andere partijen
+Rente en kosten belastingdienst -173 -
+-173
+Financiële baten en lasten (saldo) -4,664 -6.539
+Belastingen
+2020 2019
+€ €
+Vennootschapsbelasting huidig boekjaar 33.901 15.292
+Belastingen resultaat uit gewone bedrijfsuitoefening 33.901 15.292
+
+29
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Overige toelichtingen
+
+Overige toelichtingen
+
+Werknemers
+
+Het gemiddelde aantal werknemers gedurende het boekjaar bij Familysupporters Kennemertand B.V.
+bedroeg:
+
+Gemiddeld aantal werknemers over periode 2020 2019
+
+fte fte
+Werkzaam binnen Nederland 15,3 11,7
+Resultaatbestemming
+Resultaatbestemming
+
+De algemene vergadering heeft de bestemming van het resultaat over het boekjaar 2019 vastgesteld
+conform het daartoe gedane voorstel.
+
+Voorstel resultaatbestemming
+De directie stelt aan de algemene vergadering voor het resultaat over het boekjaar 2020 ten bedrage
+van € 169.701 geheel ten gunste van ten gunste van de overige reserves te brengen.
+
+Gebeurtenissen na balansdatum
+
+Invloed COVID 19
+
+Wij bevestigen dat de gebeurtenissen na balansdatum als gevolg van het coronavirus COVID -19 geen
+aanleiding geven om een aanvullende uiteenzetting in de onderhavige jaarrekening op te nemen. Op
+het moment van het opmaken van deze jaarrekening is er, naar onze beste inschatting en alle feiten
+en omstandigheden in ogenschouw nemend, geen sprake van een ernstige onzekerheid van de
+continuïteit van onze organisatie en derhalve ook niet van een onontkoombare discontinuïteit. Op
+basis van de huidige omstandigheden en stand van zaken van de overheidsmaatregelen zien wij op dit
+moment geen reden om aan de positieve continuïteits-veronderstelling te twijfelen. Wij zijn daarom
+van mening dat de in de jaarrekening gehanteerde grondslagen voor waardering en resultaatbepaling
+gebaseerd dienen te worden op de veronderstelling van de continuïteit van de onderneming.
+
+30
+
+Familysupporters Kennemerland B.V. te Haarlem
+
+Overige toelichtingen
+
+Ondertekening
+
+Haarlem,
+Naam
+
+L. Bijt,
+per 26-06-2015 in functie
+
+VW. Ariaens,
+per 01-04-2020 in functie
+
+M. van den Berg,
+per 01-08-2021 in functie
+
+R. Rozemond-van Daalen,
+per 01-05-2018 in functie
+
+R. de Bruin,
+per 26-06-2015 in functie
+
+K.A. Clement,
+per 18-12-2019 ín functie
+
+A.F. Belgrave,
+per 09-11-2020 in functie
+
+Functie
+
+Bestuurder
+
+Bestuurder
+
+Bestuurder
+
+Bestuurder
+
+Commissaris
+
+Commissaris
+
+Commissaris
+
+31
+
+Rechtspersoon Handtekening
+Linda Bijl Beheer B.V.
+
+bestuurder namens
+
+Familysupporters
+
+Nederland B.V.
+
+Vincent B.V.
+bestuurder namens
+Familysupporters
+Nederland B.V.
+
+bestuurder namens
+Familysupporters B.V.
+
+BIJLAGEN
+
+32
+
+Naam van de vestiging; Familysupporters Kennemerland B.V.
+
+1. WNT - Verantwoording -bezoldiging topfunctionarissen in de Zorg Jeugdhulp
+
+De WNT Zorg en Jeugdhuip is van toepassing op Familysupporters Kennemerland B.V.
+Het voor Familysupporters Kennemerland B.V. toepasselijke bezoldigingsmaximum
+bedraagt voor 2020 € 163.000 (2019 was dat € 157.000} in bezoldigingsklasse III.
+
+Bestuurders
+Bedragen x € 1 ï On Naam ‘Naam
+R. van Daalen
+Functiegegevens On
+Aanvang & einde functievervulling in 2020 01-01/31-12
+Omvang dienstverband (als deeltijdfactor in Fte 0,89
+Dienstbetrekking? ja
+Bezoldiging -
+Belaste loon en onkostenvergoeding 69.560
+Beloningen betaalbaar op termijn nvt
+Subtotaal 69.560
+Individueel toepassselijk bezoldigingsniveau 145.070
+Onverschuldigd betaald en nog terug te ontvangen nvt
+Totale bezoldiging 69,560
+Reden waarom de overschrijding al dan niet is toegestaan nvt
+Toelichting op de vordering wegens onversch betaling nvt
+Gegevens voorliggend jaar 2019
+Aanvang en einde functievervulling in 2019 01-01/31-12
+Omvang dienstverband (als deeltijdfactor in Fte) 0,89
+Dienstbetrekking? ja
+Bezoldiging … }
+Belaste loon en onkostenvergoeding 61.524
+Beloningen betaalbaar op termijn nvt
+Subtotaal 61.524
+Individueel toepaselijk bezoldigingsmaximum 139.730
+Totale bezoldiging * 61.524
+
+33
+
+
+De WNT Zorg en Jeugdhulp is van toepassing op de Familysupporters vestigingen.
+Het voor de toezichthoudende Familysupporters bestuurders en commissarissen middels Familysupporters Nederland B.V. en Familysupporters B.V.
+toepasselijke bezoldigingsmaxirna bedraagt voor 2020 € 185.000, in bezoldigingsklasse IV. In 2019 bedroeg dit € 157.000 in klasse Hil,
+
+Toezicht houdende topfunctionarissen
+
+Bedragen x €1. Naam Naam. Naam — Naam …
+K. Martowirono L. Bijl V.W. Ariaens R. de Bruin
+Functiegegevens En Bestuurssecretaris Bestuurder … Bestuurder Commissaris.
+Aanvang en einde functievervulling in 2020 01-01/31-12 01-01/31-12 01-01/31-12 01-01/31-12
+Omv dienstverband (deeltijdfactor in Fte 0,89 1 1 nvt
+Dienstbetrekking? ja ja Nee ingehuurd nvt
+Bezoldiging En : 5 j
+Beloning & belastb onkostenvergoeding 80.198 135.919 169.000 5.000
+Beloningen betaalbaar op termijn nvt nvt nvt nvt
+Subtotaal 80.198 135.919 169.000 5.000
+Individueel toepasselijk bezold maximum 164.650 185.000 185.000 18.500
+Totale bezoldiging **) 80.198 135.919 169.000 5.000
+Gegevens voorliggend jaar 2019 Naam Naam Naam “__Naam
+K. Martowirono L. Bijt R. de Bruin
+Functiegegevens Commissaris Bestuurder Commissaris
+Aanvang en einde functievervulling in 2019 01-01/09-03 01-01/31-12 Nvt 01-01/31-12
+Bezoldiging ie
+Totaal bezoldiging 1.750 122.288 5.000
+Individueel toepasselijk bezold maximum 4.580 157.000 15.700
+Totale bezoldiging **) 1.750 122.288 5.000
+Gegevens voorliggend jaar 2019 Naam
+K. Martowirono
+Functiegegevens Bestuurssecretaris
+Aanvang en einde functievervulling in 2019 01-05/31-12
+Bezoldiging …
+Totaal bezoldiging 42.504
+Individueel toepasselijk bezold maximum 93.153
+Totale bezoldiging **) 42.504
+
+**) De Commissarissen houden toezicht op alle onderliggende vennootschappen
+
+c.q. vestigingen van Familysuporters Nederland B.V, derhalve ís de totale bezoldiging hier
+
+weergegeven.
+
+34
+
+
+Naam … Naam. __ Naam.
+G.J.W. Wijnstra K.A. Clement A.F. Belgrave
+‘Commissaris | Commissaris (voorzitter) | Commissaris
+01-01/09-12 01-01/31-12 09-11/31-12
+nvt nvt nvt
+nvt nvt nvt
+5.000 0 833
+nvt nvt nvt
+5.000 0 833
+18.500 27.750 2.636
+5.000 0 833
+Naam [Naam Naam
+G.J.W. Wijnstra K.A. Clement A.F. Belgrave
+Commissaris Commissaris Commissaris
+01-01/31-12 18-12/31-12 Nvt
+4,437 0 0
+15.700 602 0
+4.437 0 le)
+
+35

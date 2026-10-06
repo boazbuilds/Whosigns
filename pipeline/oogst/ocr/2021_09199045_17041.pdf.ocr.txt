@@ -1,0 +1,556 @@
+# whosigns-ocr v1 grootte=9083482 dpi=300 paginas=20
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+
+Aalten :
+
+Inhoudsopgave
+
+Pagina
+4. Accountantsrapport
+11 Samenstellingsverklaring van de accountant 2
+2. Jaarrekening
+2.1 Balans per 31 december 2021 6
+2 Winst-en-verliesrekening over 2021 8
+2:3 Grondslagen van waardering en resultaatbepaling 9
+24 Toelichting op de balans 10
+2.5 Toelichting op de winst-en-verliesrekening 13
+Bijlagen
+1. _Waardeverloop vaste activa 17
+
+Samenstellingsverklaring afgegeven
+
+1. Accountantsrapport
+
+ww
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Koopdieksken 1
+7122 LZ Aalten
+
+Zelhem, 12 mei 2022
+Ons kenmerk: 03404877/2021
+
+Hierbij bieden wij u het rapport aan inzake de jaarstukken over 2021 van Maatschap G.W. Rutgers en D.
+Rutgers-Hiddink te Aalten.
+
+1.1 Samenstellingsverklaring van de accountant
+
+Aan: de maatschapsleden van Maatschap G.W. Rutgers en D. Rutgers-Hiddink,
+
+De jaarrekening van Maatschap G.W. Rutgers en D. Rutgers-Hiddink te Aalten is door ons samengesteld
+op basis van de van u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2021
+
+en de winst-en-verliesrekening over 2021 met de daarbij horende toelichting. In deze toelichting is onder
+
+andere een overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, 'Samenstellingsopdrachten'. Op grond van deze standaard wordt
+van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening. Wij hebben
+daarbij onze deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving
+toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal
+nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis van Maatschap G.W.
+Rutgers en D. Rutgers-Hiddink.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante
+ethische voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere
+gebruikers van deze jaarrekening mogen er dan ook vanuit gaan dat wij de opdracht professioneel,
+vakbekwaam en zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met
+de door u verstrekte gegevens.
+
+Voor een nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de VGBA verwijzen
+wij u naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+Samenstellingsverklaring afgegeven 2
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+Tot het geven van nadere toelichting zijn wij gaarne bereid.
+
+Zelhem, 12 mei 2022
+
+Alfa Accountants en Adviseurs B.V.
+hb AA
+2/0 >
+Vv
+Ee EE
+
+M. Timmerije - Ligterink AA
+
+Samenstellingsverklaring afgegeven 3
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+Samenstellingsverklaring afgegeven
+
+2. Jaarrekening
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+
+Aalten
+
+2.1 Balans per 31 december 2021
+
+ACTIVA
+Vaste activa
+
+Materiële vaste activa
+Terreinen en gronden
+Gebouwen
+
+Machines en installaties
+Inventaris
+
+Vlottende activa
+
+Vorderingen
+Overige vorderingen
+
+Liquide middelen
+
+Samenstellingsverklaring afgegeven
+
+31-12-2021 31-12-2020
+€ € & je
+
+69.651 69.651
+512.887 538.392
+7.260 8.835
+6.843 9.413
+
+596.641 626.291
+
+104.786 89.331
+
+76.196 28.966
+
+777.623 744.588
+
+PASSIVA
+
+Bedrijfsvermogen
+Kapitaal G.W. Rutgers
+Kapitaal D. Rutgers-Hiddink
+
+Langlopende schulden
+Schulden aan banken
+
+Kortlopende schulden
+
+Schulden ter zake van belastingen en
+premies sociale verzekeringen
+Overige schulden
+
+31-12-2021 31-12-2020
+€ € € €
+160.722 119.293
+160.722 119.293
+321.444 238.586
+404.106 447.474
+33.544 34.428
+18.529 24.100
+52.073 58.528
+771.623 744.588
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+2.2 Winst-en-verliesrekening over 2021
+
+2021 2020
+
+€ € € €
+Opbrengsten
+Zorgboerderij 1.123.412 939.047
+Overige bedrijfsopbrengsten 14.249 1.036
+Bruto-omzetresultaat 1.137.661 940.083
+Niet-toegerekende kosten
+Kosten zorgboerderij 6 127.663 109.802
+Lasten uit hoofde van personeelsbelo- 7
+ningen 745.988 709.891
+Afschrijvingen materiële vaste activa 8 29.650 13.953
+Overige personeelsbeloningen 9 53.836 29.237
+Kosten onroerende zaken 10 40.869 5.990
+Kosten machines, werktuigen en inven- 11
+taris 3.743 3:371
+Autokosten 12 2.850 2.850
+Algemene kosten 13 9.891 8.025
+Nutsvoorzieningen 14 8.352 4.590
+Totaal van som der kosten 1.022.842 887.709
+Totaal van bedrijfsresultaat 114.819 52.374
+Financiële baten en lasten 15 (13.984) (11.389)
+Totaal van resultaat 100.835 40.985
+
+Samenstellingsverklaring afgegeven
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+2.3 Grondslagen van waardering en resultaatbepaling
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+
+De jaarrekening is opgesteld op basis van fiscale grondslagen. Dat betekent dat voor de waardering van
+bezittingen en schulden en voor het bepalen van het resultaat de uitgangspunten van de fiscale
+wetgeving, jurisprudentie en afspraken met de Belastingdienst worden gevolgd.
+
+De jaarrekening is opgesteld in €.
+
+Samenstellingsverklaring afgegeven g
+
+>
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+2.4 Toelichting op de balans
+Activa
+
+Een overzicht van de materiële vaste activa is opgenomen in de bijlagen.In het boekjaar is op de voet van
+artikel 3.31 / artikel 3.34 van de Wet op de inkomstenbelasting 2001 willekeurig afgeschreven. De
+afschrijving wijkt hierdoor af van het bedrag van de afschrijving wanneer niet willekeurig zou zijn
+afgeschreven.
+
+31-12-2021 31-12-2020
+
+€ €
+1 Liquide middelen
+Bank, rekening-courant 3648.77.308 76.196 8.316
+Depositorekeningen 0351.5961.19 0 20.650
+76.196 28.966
+
+Samenstellingsverklaring afgegeven 10
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+Passiva
+
+2 Bedrijfsvermogen
+In onderstaand overzicht is het verloop van het bedrijfsvermogen weergegeven.
+
+Kapitaal Kapitaal D. Totaal
+G.W. Rutgers-
+
+Rutgers Hiddink
+
+€ € €
+Stand per 1 januari 2021 119.293 119.293 238.586
+Aandeel in resultaat boekjaar 50.417 50.418 100.835
+Privé-opnamen (8.988) (8.989) (17.977)
+Stand per 31 december 2021 160.722 160.722 321.444
+
+Fiscale oudedagsreserve
+
+De ondernemer kan op basis van de winst uit onderneming een fiscale oudedagsreserve vormen. De
+fiscale oudedagsreserve wordt opgenomen in de fiscale aangifte als onderdeel van het eigen vermogen.
+De fiscale oudedagsreserve representeert het deel van de fiscale winst waarover de heffing van de
+
+inkomstenbelasting is uitgesteld naar de toekomst.
+
+31-12-2021 31-12-2020
+€ €
+3 Schulden aan banken
+Leningen o/g 404.106 447.474
+Leningen o/g
+Rabobank 0501.39.453, rente vast 2.95 tot 1-4-2023
+aflossingsverplichting € 43.368 per jaar 354.106 397.474
+Rabobank 0501.39.454, rente vast 2.95% tot 1-4-2023
+geen aflossingsverplichting 50.000 50.000
+404.106 447.474
+
+Samenstellingsverklaring afgegeven df
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+Niet in de balans opgenomen rechten, verplichtingen en regelingen
+
+Informatieverschaffing over niet in de balans opgenomen activa
+
+Participatierekening FromFarmers UA
+
+In de jaren 2007 tot en met 2016 wordt jaarlijks 10% van het vermogen van de Cooperatie in de vorm van
+participatie op naam van de leden gezet. Het aantal bijgeschreven participaties per lid is afhankelijk van
+het aantal benutte voerequivalenten. De bijschrijving van de participaties op de FF ParticipatieRekening
+leidt nog niet tot belastingheffing op grond van afspraken met de belastingdienst. Belastingheffing vindt
+plaats bij verkoop of conversie naar FF Certificaten. Per 31 december 2021 beschikt de onderneming
+over 1403 participaties met een totale beurswaarde van € 5.654.
+
+Per 31 december 2021 beschikt de onderneming over 12 FF VoerEquivalenten met een beurswaarde van
+€ 218.
+
+Samenstellingsverklaring afgegeven 12
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+2.5 Toelichting op de winst-en-verliesrekening
+Opbrengsten
+
+4 Overige activiteiten zorgboerderij
+Overige bedrijfstakken zorgboerderij
+Omzet overige activiteiten
+
+5 Overige bedrijfsopbrengsten
+
+Verkoop participaties
+Resultaat uitkering ForFarmers
+
+Niet-toegerekende kosten
+6 Kosten zorgboerderij
+
+Interieurkosten
+
+Materiaal voor activiteiten
+Kwaliteit
+
+Reiskosten
+
+Voeding
+
+Dierverzorging
+
+Moestuin
+
+Algemene kosten
+
+Klein materiaal
+Scholingskosten
+
+7 Lasten uit hoofde van personeelsbeloningen
+
+Lonen
+Sociale lasten en pensioenlasten
+
+Lonen
+
+Brutoloon
+
+Vakantiegeld
+Onregelmatigheidstoeslag
+Belaste vergoedingen
+
+Ontvangen ziekengeld UWV (zwangerschap) en Interpolis (ziekte)
+
+Sociale lasten en pensioenlasten
+Sociale lasten
+Pensioenlasten
+
+Samenstellingsverklaring afgegeven 13
+
+2021 2020
+€ €
+1.123.412 939.047
+13.902 0
+347 1.036
+14.249 1.036
+1.904 3.030
+3.176 3.004
+10.873 5.225
+69.727 60.742
+30.733 25.628
+3.330 2.288
+470 4.223
+1.745 837
+1.070 1.796
+4.635 3.029
+127.663 109.802
+604.373 566.186
+141.615 143.705
+745.988 709.891
+531.085 474.218
+94.855 82.811
+27.249 23.191
+0 4.057
+653.189 584.277
+(48.816) (18.091)
+604.373 566.186
+86.580 99.130
+55.035 44.575
+141.615 143.705
+
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+8 Afschrijvingen materiële vaste activa
+
+Afschrijvingskosten gebouwen
+Afschrijvingskosten onroerende zaken
+Afschrijvingskosten inventaris
+
+9 Overige personeelsbeloningen
+
+Vrije vergoeding
+
+Kerstpaketten
+
+Premie verzuimverzekering (Interpolis)
+Overige personeelskosten
+
+Ingehuurde arbeid
+
+10 Kosten onroerende zaken
+
+Onderhoud gebouwen
+Assurantiepremie onroerende zaak
+Zakelijke lasten
+
+11 Kosten machines, werktuigen en inventaris
+
+Reparatie en onderhoud inventaris
+
+12 Autokosten
+
+Overige autokosten
+
+Samenstellingsverklaring afgegeven
+
+14
+
+2021 2020
+€ €
+25.505 9.180
+1.575 1.576
+2.570 3.197
+29.650 13.953
+5.618 324
+2.499 0
+24.876 18.356
+8.484 10.557
+12.359 0
+53.836 29.237
+31.312 0
+9.290 4.000
+267 1.990
+40.869 5.990
+3.743 3.371
+2.850 2.850
+
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+13 Algemene kosten
+
+Accountantskosten
+Advieskosten
+Overige algemene kosten
+
+14 Nutsvoorzieningen
+
+Gas
+Water
+Telefoon
+
+15 Financiële baten en lasten
+
+Andere rentebaten en soortgelijke opbrengsten
+Rentelasten en soortgelijke kosten
+
+Rentelasten en soortgelijke kosten
+Rente leningen o/g
+
+Rente overige rekening-courant
+Financieringskosten
+
+Samenstellingsverklaring afgegeven
+
+15
+
+2021 2020
+€ €
+
+4.250 3.583
+3.747 2.710
+1.894 1.732
+9.891 8.025
+6.546 2.603
+663 744
+1.143 1.243
+8.352 4.590
+113 2.400
+(14.097) (13.789)
+(13.984) (11.389)
+12.595 12.157
+1.502 782
+0 850
+14.097 13.789
+
+
+Bijlagen
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+1: Waardeverloop vaste activa
+
+Omschrijving activum Aanschaf- Afschr.-Meth Aanschaf- Restwaarde Afschrijving Boekwaarde Investering Subsidie/ Afschrijving Opbrengst Resultaat Boekwaarde
+datum perc waarde voorg. jaren beginbalans dit jaar Hir dit jaar verkoop eindbalans
+Rutgers 2021
+Grond
+0,93 ha. 01-01-90 GA 22.995 22.995 22.995
+0,75 ha 03-04-18 GA 46.655 46.656 46.656
+Totaal: Grond 69.651 69.651 69.651
+Gebouwen
+Varkensschuur 01-01-80 10,00BW 8.048 2.768 5.280 5.280
+Werktuigenberging 01-10-88 _10,00BW 8.474 5.502 3.972 3.972
+Werkschuur 30-10-02 10,00BW 72.265 53.588 18.677 1.868 16.809
+Kantine met logeermogelijkheid 01-04-08 5,00 AW 264.851 112.351 152.500 152.500
+Dierverblijf 01-07-20 5,00 AW 367.142 9.179 357.963 18.357 339.605
+Totaal: Gebouwen 721.780 183.388 538.392 25.505 512.887
+Overige onroerende zaken
+Erfverharding 01-01-80 _ 10,00BW 4.871 4,321 550 550
+Wegaanleg 01-11-86 _ 10,00BW 3.057 2.790 267 267
+Erfverharding 01-08-00 10,008W 1.021 gas 132 132
+Erfverharding zorgboerderij 11-11-09 CR 2.228 2.227 1 1
+Erfverharding 01-04-11 CR 1.194 1.193 1 1
+Zonnepanelen 18-12-12 12,50AW 10 10 10 10
+Zonne-energie systeem 13-12-17 _ 12,50AW 12.599 4.724 7.875 1.575 6.300
+Totaal: Overige onroerende zaken 24.980 10 16.144 8.836 1.575 7.261
+Inventaris
+Kniklader 23-12-02 20,008BW 13.470 13.231 239 48 191
+Vorstbeveiliging drinkwater voorz. 15-02-04 20,00BW 2.475 2.416 59 12 47
+Inrichting kantine met logeermogelijkn&11-04-09 GA 50 50 50 50
+Volumebak 01-07-11 GA 25 25 25 25
+Grasmaaier 11-05-12 _ 20,00BW 1.982 1.696 285 57 229
+Gaskookplaat 30-06-12 20,00BW 1.610 1.373 237 47 180
+Afzuigkap 28-09-12 20,00BW 4.065 3.432 634 127 507
+Diepvries activiteitenboerderij 03-01-13 _ 20,00BW 865 721 145 29 116
+Afkortzaag 04-02-13 20,00BW 1.603 1.329 274 55 219
+Duofiets 20-12-13 25,00BW 6.913 6,452 461 115 346
+Wasautomaat 15-08-14 _ 25,00BW 1.198 1.009 189 47 142
+Transporteren: Inventaris 34.258 75 31.659 2.599 537 2.062
+
+Samenstellingsverklaring afgegeven
+
+Maatschap G.W. Rutgers en D. Rutgers-Hiddink
+Aalten
+
+L. Waardeverloop vaste activa
+
+Omschrijving activum Aanschaf- Afschr.-Meth _Aanschaf- Restwaarde ‘Afschrijving Boekwaarde Investering _Subsidie/ Afschrijving Opbrengst ResultaatBoekwaarde
+
+datum perc waarde voorg. jaren beginbalans dit jaar Hir dit jaar verkoop eindbalans
+Transporteren: Inventaris 34.258 75 31.659 2.599 537 2.062
+Vaatwasser 28-05-15 25,008W 2.875 2.312 563 141 422
+Stoelen Time Out 3311 (30 stuks) 26-10-18 20,00 AW 1.699 1 1.443 256 255 1
+Koel- en vriescel CS 7459.1020/1050 21-09-17 25,00BW 12.531 7.728 4,803 1.201 3.502
+Laptop Acer Aspire X3-780 (2 stuks) 29-09-17 20,00AW 1.188 1 788 400 239 161
+Time out stoel 18-05-20 25,00BW 934 144 790 197 593
+Totaal: Inventaris 53.495 77 44.084 9,411 2.570 6.841
+Totaal rapport 869.906 87 243.616 625.290 29.650 595.640
+
+Samenstellingsverklaring afgegeven
+
+

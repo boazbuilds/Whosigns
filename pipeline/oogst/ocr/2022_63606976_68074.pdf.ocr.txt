@@ -1,0 +1,193 @@
+# whosigns-ocr v1 grootte=1284393 dpi=300 paginas=20
+Ministerie van Volksgezondheid,
+Welzijn en Sport
+
+Hulpmiddel voor micro
+jeugdhulpaanbieders
+
+Toelichting
+
+Dit document is bedoeld als hulpmiddel voor micro jeugdhulpaanbieders bij het opstellen van hun
+financiële gegevens voor de Jaarverantwoording Jeugd (volgens artikel 8.3 van de Jeugdwet in samenhang
+met artikelen 4.1 t/m q.q van de Regeling Jeugdwet).
+
+Jeugdhulpaanbieders zijn zelf verantwoordelijk voor het aanleveren van de juiste informatie en de juiste
+optellingen van diverse posten in hun financiële informatie. Aan dit hulpmiddel kunnen geen rechten
+worden ontleend.
+
+Lees ook het ‘Jaardocument jeugd’ voor meer informatie.
+
+Wat is een micro jeugdhulpaanbieder?
+
+De definitie van ‘micro jeugdhulpaanbieder’ is gelijk aan de definitie van het begrip ‘micro-entiteit’ in artikel
+395a van Boek 2 van het Burgerlijk Wetboek. Er is sprake van een micro jeugdhulpaanbieder als een jeugd-
+hulpaanbieder op twee opeenvolgende boekjaren heeft voldaan aan twee of drie van de volgende eisen:
+
+a. het balanstotaal over het boekjaar bedraagt niet meer dan € 450.000;
+
+b. de netto-omzet over het boekjaar bedraagt niet meer dan € 900.000;
+
+c. het gemiddeld aantal werknemers over het boekjaar bedraagt minder dan 10 personen.
+
+Zie voor meer informatie de pagina ‘Vereenvoudigd verantwoorden’ op jaarverantwoordingzorg.nl.
+
+MINISTERIE VAN VOLKSGEZONDHEID, WELZIJN EN SPORT — JAARVERANTWOORDING JEUGD, VERSIE 1.0
+
+2 vang
+
+Tabellen die micro jeugdhulpaanbieders kunnen gebruiken bij het opstellen van
+hun financiële informatie t.b.v. de Jaarverantwoording Jeugd
+
+> _NB. Gebruik alleen positieve waarden. Waar er een post ‘af’ staat wordt dit bij de totaalberekening afgetrokken.
+
+TABEL3.4.2 Balans (micro-entiteit)
+
+Balans Post Bedrag in euro’s Bedrag in euro’s
+einde boekjaar einde vorig boekjaar
+
+Activa Materiële vaste activa € 699,00
+
+Liquide middelen € 58.083,00
+
+Overige activa € 1.050,00
+
+Totale activa € 59.832,00 € 0,00
+Passiva Eigen vermogen € 51.575,00
+
+Voorzieningen € 0,00
+
+Langlopende schulden (nog voor meer dan een jaar) € 0,00
+
+Kortlopende schulden € 8.257,00
+
+Totale passiva € 59.832,00 € 0,00
+
+Toelichting op de balans
+
+Post
+
+Bedrag in euro’s
+einde boekjaar
+
+Bedrag in euro’s
+einde vorig boekjaar
+
+Mutatie materiële
+vaste activa
+
+Boekwaarde per 1 januari € 1.222,00
+Bij: investeringen € 0,00
+Bij: herwaarderingen € 0,00
+Af: afschrijvingen € 523,00
+Af: bijzondere waardeverminderingen € 0,00
+Af: terugname afgeschreven activa € 0,00
+Af: desinvesteringen € 0,00
+
+Boekwaarde per 31 december
+
+€ 699,00
+
+€ 0,00
+
+
+3 vang
+
+TABEL3.45 Resultatenrekening met beperkte toelichting (micro-entiteiten)
+
+Resultatenrekening Post Bedrag in euro’s boekjaar Bedrag in euro’s
+vorig boekjaar
+
+Opbrengsten Jeugdwet, Opbrengsten Jeugdwet € 172.462,00
+maatschappelijke ondersteuning
+Jeugdwet = opbrengsten jeugdhulp, Opbrengsten uit onderaanneming € 21.323,00
+kinderbeschermingsmaatregelen
+en jeugdreclassering Totaal opbrengsten Jeugdwet, maatschappelijke ondersteuning € 193.785,00 € 0,00
+Bedrijfsopbrengsten Subsidies (excl. Jeugdwet en Wmo) € 0,00
+
+Overige zorgprestaties (niet zijnde Zvw, WIz of Wmo) € 0,00
+
+Overige bedrijfsopbrengsten € 680,00
+
+Totaal bedrijfsopbrengsten € 680,00 € 0,00
+
+Totaal opbrengsten € 194.465,00 € 0,00
+Personeelskosten Lonen en salarissen € 34.844,00
+
+Sociale lasten € 6.445,00
+
+Pensioenpremies € 2.665,00
+
+Andere personeelskosten € 2.297,00
+
+Personeel niet in loondienst € 0,00
+
+Totaal personeelskosten € 46.251,00 € 0,00
+Bedrijfslasten Afschrijvingen en bijzondere waardeverminderingen vaste activa € 523,00
+
+Kosten uitbesteding aan onderaanneming € 85.609,00
+
+Overige bedrijfskosten € 36.728,00
+
+Totaal bedrijfslasten € 122.860,00 € 0,00
+
+Totaal kosten (personeelskosten + bedrijfslasten) € 169.111,00 € 0,00
+Bedrijfsresultaat (a) Automatisch berekend (bedrijfsopbrengsten minus bedrijfslasten) € 25.354,00 € 0,00
+Financieel resultaat (resultaat financiële baten en lasten, b) € 1,00
+Resultaat boekjaar (a+b) € 25.355,00 € 0,00
+Belastingen € 0,00
+Resultaat na belastingen € 25.355,00 € 0,00
+
+
+4 van 4
+
+TABEL 3.412 Som der bedrijfsopbrengsten uitgesplitst per typering bedrijfsactiviteiten
+
+(alle jeugdhulpaanbieders en gecertificeerde instellingen)
+
+Er zijn verschillende opbrengsten te onderscheiden:
+
+Opbrengsten Jeugdwet: bekijk paragraaf q.2 van het Jaardocument Jeugd voor wat hieronder valt.
+
+en beschikbaarheidbijdragen medische (vervolg)opleidingen en subsidies Wlz/Zvw.
+
+Opbrengsten subsidies JenV: dit zijn rijkssubsidies vanwege het ministerie van JenV exclusief opbrengsten DBBC's.
+
+Opbrengsten subsidies OCW: hieronder vallen rijksbijdrage werkplaatsfunctie en medische faculteit van UMC's en overige
+subsidies vanwege OCW (speciaal onderwijs).
+
+Opbrengsten subsidies overig: dit zijn overige rijkssubsidies, subsidies vanwege provincies en gemeenten en overige subsidies
+waaronder loonkostensubsidies en EU-subsidies.
+
+Niet eerder genoemde bedrijfsopbrengsten: dit zijn opbrengsten overige zorgprestaties (eigen bijdragen van cliënten Jeugdwet),
+opbrengsten werk in opdracht, overige dienstverlening en overige opbrengsten (waaronder vergoedingen voor uitgeleend personeel en
+verhuur van onroerend goed).
+
+Type zorg Jeugdhulp Jeugdbescherming/ Justitiële jeugd AMHK Overig Totaal volgens
+reclassering inrichting jaarrekening
+
+Opbrengsten Jeugdwet € 172.462,00 € 172.462,00
+
+Opbrengsten subsidies VWS
+
+(exclusief Wmo en Jeugdwet) € 0,00
+
+Opbrengsten subsidies JenV
+
+(exclusief Wmo en Jeugdwet) € 0,00
+
+Opbrengsten subsidies OCW
+
+(exclusief Wmo en Jeugdwet) € 0,00
+
+Opbrengsten subsidies Overig
+
+(exclusief Wmo en Jeugdwet) € 0,00
+
+Niet eerder genoemde
+
+bedrijfsopbrengsten € 21.323,00 € 21.323,00
+
+Totaal bedrijfsopbrengsten € 193.785,00 € 0,00 € 0,00 € 0,00
+
+€0,00 € 193.785,00
+

@@ -21,25 +21,50 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
+      # Weigert (rood, niets geschreven) als de export ineens een tiende korter
+      # is dan de vorige snapshot. Hernoemingen gaan als alias mee, verdwenen
+      # kantoren naar kantoren_vervallen.csv.
       - name: Register ophalen en seed verversen
         run: python3 pipeline/adapters/afm_register.py
 
+      # Alle tests tegen de nieuwe seed, vóór er iets wordt vastgelegd. Op
+      # 28-9-2026 hernoemde de snapshot 13000483 en daarmee faalde
+      # test_kantoor_match.py op main — maar een push met GITHUB_TOKEN start
+      # geen andere workflows, dus Checks draaide er nooit op. Het viel pas op
+      # bij de eerstvolgende pull request, die er niets mee te maken had.
+      #
+      # De uitslag blokkeert niets: de snapshot is wat het register zegt, en de
+      # database hoort die stand te krijgen. Faalt er een test, dan wordt de
+      # run aan het eind rood — dezelfde dag, met de naam van het testbestand.
+      - name: Tests tegen de nieuwe seed
+        id: tests
+        run: |
+          mislukt=""
+          for test in pipeline/test_*.py; do
+            echo "::group::$test"
+            python3 "$test" || mislukt="$mislukt $test"
+            echo "::endgroup::"
+          done
+          echo "mislukt=$mislukt" >> "$GITHUB_OUTPUT"
+
       - name: Wijzigingen in het register vastleggen
         # De git-historie van kantoren.csv is ons mutatielog: een kantoor dat
-        # verdwijnt of bijkomt, is zichtbaar als diff.
+        # verdwijnt of bijkomt, is zichtbaar als diff. Aliassen en vervallen
+        # kantoren horen bij dezelfde mutatie en gaan in dezelfde commit.
         run: |
-          if git diff --quiet -- pipeline/seed/kantoren.csv; then
+          seeds="pipeline/seed/kantoren.csv pipeline/seed/kantoor_alias.csv pipeline/seed/kantoren_vervallen.csv"
+          if [ -z "$(git status --porcelain -- $seeds)" ]; then
             echo "geen mutaties in het AFM-register"
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add pipeline/seed/kantoren.csv
+            git add -- $seeds
             git commit -m "AFM-register: wekelijkse snapshot"
             git push
           fi
@@ -56,3 +81,16 @@ jobs:
             exit 0
           fi
           python3 pipeline/laad_kantoren.py --offline
+
+      - name: Testuitslag
+        if: ${{ always() && steps.tests.outputs.mislukt != '' }}
+        env:
+          MISLUKT: ${{ steps.tests.outputs.mislukt }}
+        run: |
+          for test in $MISLUKT; do
+            # Neutraal: dit bestand faalt ná deze snapshot. Of de seed de
+            # oorzaak is, zegt deze stap niet; een test die al op main faalde
+            # staat hier ook.
+            echo "::error::$test faalt na deze snapshot"
+          done
+          exit 1

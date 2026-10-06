@@ -1,0 +1,776 @@
+# whosigns-ocr v1 grootte=2338120 dpi=300 paginas=20
+\/
+
+accountants
++ adviseurs
+
+Ermerweg 88d, 7812 BG Emmen, T 0591 676009
+www.m2accountants.nl, info@m2accountants.nl
+BTW NL8150.06.585.B01, KvK 04079299, NL76ABNA0497524996
+
+Direction Zorg Jeugd B.V.
+Weerdingerstraat 35
+7815 SC Emmen
+
+JAARREKENING 2022
+
+Datum: 28 september 2023
+
+\/
+
+Inhoudsopgave
+
+ACCOUNTANTSVERSLAG
+1 Samenstellingsverklaring van de accountant
+2 Resultaat
+3 Fiscale positie
+
+JAARREKENING
+1 Enkelvoudige balans per 31 december 2022
+2 Enkelvoudige winst-en-verliesrekening over 2022
+3 Toelichting op de enkelvoudige balans per 31 december 2022
+4 Toelichting op de enkelvoudige winst-en-verliesrekening over 2022
+
+Pag.
+
+WN
+
+noo A
+
+5
+ND)
+
+ACCOUNTANTSVERSLAG
+
+-1- Direction Zorg Jeugd B.V.
+te Emmen
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+\/
+
+Ermerweg 88d, 7812 BG Emmen, T 0591 676009
+aCCOU ntants www.m2accountants.nl, info@m2accountants.nl
++ adviseurs BTW NL8150.06.585.B01, KvK 04079299, NL76ABNA0497524996
+
+Aan de directie van
+Direction Zorg Jeugd B.V.
+Weerdingerstraat 35
+7815 SC Emmen
+
+Behandeld door: A. Freriks
+accountant-administratieconsulent
+Datum: 28 september 2023
+
+Geachte directie,
+
+1 Samenstellingsverklaring van de accountant
+
+De jaarrekening 2022 van Direction Zorg Jeugd B.V. te Emmen is door ons samengesteld op basis van de van u
+gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2022 en de winst-en-verliesrekening
+over 2022 met de daarbij horende toelichting. In deze toelichting is onder andere een overzicht van de
+gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor accountants
+geldende Standaard 4410, “Samenstellingsopdrachten". Op grond van deze standaard wordt van ons verwacht
+dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in overeenstemming met Titel 9 Boek
+2 van het Burgerlijk Wetboek. Wij hebben daarbij onze deskundigheid op het gebied van administratieve
+verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle relevante
+informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor geldende
+regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid heeft voldaan. Als
+slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal nagegaan dat het beeld van
+de jaarrekening overeenkwam met onze kennis van Direction Zorg Jeugd B.V. Wij hebben geen controle- of
+beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een oordeel te geven of een conclusie te
+trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers van
+deze jaarrekening mogen er dan ook vanuit gaan dat wij de opdracht professioneel, vakbekwaam en zorgvuldig,
+integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte gegevens.
+
+-2- Direction Zorg Jeugd B.V.
+te Emmen
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+\/
+
+2 Resultaat
+
+Uitgaande van de winst-en-verliesrekening over 2022 geven de resultaten, waarbij de kosten zijn uitgedrukt in een
+percentage van de omzet, het volgende beeld:
+
+2022 2021 Verschil
+
+€ % € % €
+
+Netto-omzet 613.660 100 515.281 100 98.379
+Inkoopwaarde 47.156 _ 8 44.440 9 2.716
+Bruto bedrijfsresultaat 566.504 92 470.841 o1 95.663
+Afschrijvingen 16.688 3 16.433 3 255
+Personeelskosten 342.147 56 257.058 50 85.089
+Huisvestingskosten 173.378 28 183.005 36 -9.627
+Vervoerskosten 1.390 0 846 0 544
+Verkoopkosten 10.057 2 145 0) 9.912
+Algemene/overige kosten 6.945 _1 6.250 1 695
+Som der kosten 550.605 90 463.737 90 86.868
+Bedrijfsresultaat 15.899 3 7.104 1_ 8.795
+-3- Direction Zorg Jeugd B.V.
+
+te Emmen
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+\/
+
+3 Fiscale positie
+
+Algemeen
+Direction Zorg Jeugd B.V. is zelfstandig belastingplichtig voor de vennootschapsbelasting.
+
+Berekening vennootschapsbelasting:
+
+Het fiscaal belastbaar bedrag voor de vaststelling van de verschuldigde vennootschapsbelasting over 2022 is als
+volgt berekend:
+
+Resultaat voor belastingen € 15.110
+Bij: beperkt aftrekbare kosten € 757
+Af: Investeringsaftrek € e)
+Belastbaar bedrag: €__15.867
+Af: verrekenbaar verlies € 8.223
+Belastbaar bedrag: €____7.644
+
+De verschuldigde vennootschapsbelasting kan als volgt worden berekend:
+
+Verschuldigde vennootschapsbelasting:
+
+€
+15 % van € 7.644 € 1.147
+Reeds betaalde voorlopige aanslag 2022 -/-€ O
+Te betalen vennootschapsbelasting 2022 €_____1447
+Ondertekening:
+Getekend te Emmen op 28 september 2023.
+Hoogachtend,
+À.
+
+nt-administratieconsulent
+-4- Direction Zorg Jeugd B.V.
+
+te Emmen
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+JAARREKENING
+
+-5- Direction Zorg Jeugd B.V.
+te Emmen
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+Balans per 31 december 2022
+
+(na resultaatbestemming)
+
+Vaste activa
+Huurdersinvesteringen
+Inventaris
+Vervoermiddelen
+
+Materiële vaste activa
+
+Vlottende activa
+
+Debiteuren
+Te vorderen op groepsmaatschappijen
+Overige vorderingen
+
+Kortlopende vorderingen
+Rabobank
+
+Liquide middelen
+
+ACTIVA
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+31-12-2022 31-12-2021
+€ €
+15.359 30.719
+905 1.204
+2.647 3.676
+18.911 35.599
+0 9.912
+66.018 5.137
+8.989 8.537
+75.007 23.586
+0 142.417
+0 142.417
+93.918 201.602
+
+Direction Zorg Jeugd B.V.
+te Emmen
+
+Balans per 31 december 2022
+
+(na resultaatbestemming)
+
+Eigen vermogen
+
+Aandelenkapitaal
+Overige reserves
+
+Eigen vermogen
+
+Vreemd vermogen kort
+
+Schulden aan leveranciers
+
+Verschuldigd aan groepsmaatschappijen
+Verschuldigd aan aandeelhouders
+
+Belastingen en premies sociale verzekeringen
+Te betalen kosten
+
+PASSIVA
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+31-12-2022 31-12-2021
+
+€ €
+100 100
+31.157 17.192
+
+31.257 17.292
+450 8.053
+10.000 133.930
+381 309
+19.191 11.449
+32.639 ___30.569
+
+62.661 ____184.310
+
+93.918 201.602
+
+Direction Zorg Jeugd B.V.
+te Emmen
+
+Winst-en-verliesrekening over 2022
+
+Bruto-bedrijfsresultaat
+
+Netto-omzet
+Inkoopwaarde
+
+Brutomarge
+
+Lonen en salarissen
+
+Sociale lasten en pensioenpremies
+Overige personeelskosten
+Afschrijvingen
+
+Huisvestingskosten
+Vervoerskosten
+
+Verkoopkosten
+
+Algemene/overige kosten
+
+Som der kosten
+Bedrijfsresultaat
+
+Financiële baten en lasten
+
+Resultaat uit bedrijfsuitoefening voor belasting
+
+Vennootschapsbelasting
+
+Resultaat uit bedrijfsuitoefening na belasting
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+2022 2021
+
+€ €
+613.660 515.281
+47.156 44.440
+
+566.504 470.841
+267.620 195.516
+64.235 56.220
+10.292 5.322
+16.688 16.433
+173.378 183.005
+1.390 846
+10.057 145
+6.945 6.250
+
+550.605 463.737
+
+15.899 7.104
+
+-789 -319
+
+15.110 6.785
+
+1.147 0
+
+13.963 6.785
+
+Direction Zorg Jeugd B.V.
+
+te Emmen
+
+Toelichting op de balans per 31 december 2022
+
+ALGEMEEN GEDEELTE
+
+Aard van de bedrijfsactiviteiten
+
+De activiteiten van de onderneming bestaan voornamelijk uit het verzorgen van thuiszorg, huizen en dagverblijven
+voor verstandelijk gehandicapten, verzorgingshuizen, overig maatschappelijk advies, gemeenschapshuizen en
+samenwerkingsorganen op het gebied van welzijn en tenslotte het ondersteunen en begeleiden van gehandicapten.
+
+De vennootschap is opgericht op 30 oktober 2018 en is ingeschreven bij de Kamer van Koophandel onder
+nummer 72968257.
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen, die uitgegeven zijn door de Raad voor
+jaarverslaggeving.
+
+Algemene grondslagen voor waardering activa en passiva
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van historische
+kosten, tenzij anders vermeld.
+
+Algemene grondslagen bepaling resultaat
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van de
+jaarrekening bekend zijn geworden.
+
+Grondslagen voor de waardering van activa en passiva
+
+Materiële vaste activa
+
+De bedrijfsgebouwen en -terreinen, machines en installaties, andere vaste bedrijfsmiddelen en materiële vaste
+bedrijfsactiva in uitvoering en vooruitbetalingen op materiële vaste activa worden gewaardeerd tegen verkrijgings-
+of kostprijs verminderd met de cumulatieve afschrijvingen. De afschrijvingen worden berekend als een
+percentage over de aanschafprijs volgens de lineaire methode op basis van de economische levensduur. Op
+bedrijfsterreinen en op materiële vaste bedrijfsactiva in uitvoering en vooruitbetalingen op materiële vaste activa
+wordt niet afgeschreven.
+
+Vorderingen
+Vorderingen worden gewaardeerd op de nominale waarde onder aftrek van een voorziening voor oninbaarheid.
+Voorzieningen worden bepaald op basis van individuele beoordeling van de inbaarheid van de vorderingen.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende
+schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening
+houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale waarde.
+
+-9- Direction Zorg Jeugd B.V.
+
+te Emmen
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+Grondslagen voor bepaling resultaat
+
+Netto-omzet
+
+Onder netto-omzet wordt verstaan de opbrengsten van de in het verslagjaar geleverde goederen en verleende
+diensten onder aftrek van kortingen en de over de omzet geheven belastingen. Opbrengsten voortvloeiend uit de
+verkoop van goederen worden verantwoord op het moment dat alle belangrijke rechten op economische
+voordelen alsmede alle belangrijke risico's zijn overgegaan op de koper. De kostprijs van deze goederen wordt
+aan dezelfde periode toegerekend. Opbrengsten van diensten worden opgenomen naar rato van de mate waarin
+de diensten zijn verricht, gebaseerd op de tot dat moment in het kader van de dienstverlening gemaakte kosten in
+verhouding tot de geschatte kosten van de totaal te verrichten dienstverlening. De kostprijs van deze diensten
+wordt aan dezelfde periode toegerekend.
+
+Personeelskosten
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in de
+winst-en-verliesrekening.
+
+Overige bedrijfskosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Belastingen
+
+De vennootschapsbelasting wordt berekend tegen het geldende tarief over het resultaat van het boekjaar, waarbij
+rekening wordt gehouden met permanente verschillen tussen de winstberekening volgens de jaarrekening en de
+fiscale winstberekening, en waarbij actieve belastinglatenties (indien van toepassing) slechts worden
+gewaardeerd voor zover de realisatie daarvan waarschijnlijk is.
+
+-10- Direction Zorg Jeugd B.V.
+te Emmen
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+SPECIFIEK GEDEELTE
+
+Materiële vaste activa
+
+Waardering van de materiële vaste activa vindt plaats op basis van de aanschafwaarde verminderd met lineaire
+afschrijvingen. De afschrijvingen worden gebaseerd op de verwachte economische levensduur van de
+desbetreffende activa en zijn uitgedrukt in een percentage van de aanschafwaarde.
+
+De mutaties in de materiële vaste activa zijn hieronder samengevat:
+
+2022 2022 2022 2022
+€ € € €
+Huurders- Inventaris Vervoer- Totaal
+
+investeringen middelen
+Aanschafwaarde 76.798 1.493 5.146 83.437
+Cumulatieve afschrijving -46.079 -289 -1.470 -47.838
+Boekwaarde begin: 30.719 1.204 3.676 35.599
+Investeringen: 0 0 0 0
+Afschrijvingen: -15.360 -299 -1.029 -16.688
+Mutaties boekwaarde „15.360 -299 -1.029 „16.688
+Aanschafwaarde 76.798 1.493 5.146 83.437
+Cumulatieve afschrijving -61.439 -588 -2.499 -64.526
+Boekwaarde einde: 15.359 905 2.647 18.911
+
+Voor Huurdersinvesteringen wordt een afschrijvingspercentage gebruikt van 20% per jaar.
+Voor Inventaris wordt een afschrijvingspercentage gebruikt van 20% per jaar.
+Voor Vervoermiddelen wordt een afschrijvingspercentage gebruikt van 20% per jaar.
+
+-11- Direction Zorg Jeugd B.V.
+te Emmen
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+Kortlopende vorderingen
+
+Alle vorderingen hebben, evenals op 31 december 2021, een overeengekomen looptijd korter dan één jaar.
+
+Over rekeningcourantverhoudingen is gedurende 2022 geen rente berekend. (2021 : 0%)
+
+Debiteuren:
+
+Debiteuren
+
+Te vorderen op groepsmaatschappijen
+
+Rekening-courant Direction Zorg B.V.
+Rekening-courant Direction Holding B.V.
+
+Overige vorderingen:
+
+Betaalde borg locaties
+Overige vorderingen
+
+Liquide middelen
+
+31-12-2022 31-12-2021
+
+€ €
+
+9) 9.912
+
+0 9.912
+60.881 0
+5.137 5.137
+66.018 5.137
+7.725 7.313
+1.264 1.224
+8.989 8.537
+
+De liquide middelen zijn opgenomen tegen nominale waarde en staan ter vrije beschikking van de vennootschap.
+
+Liquide middelen
+
+Rabobank 931
+Rabobank 546
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+-12-
+
+31-12-2022 31-12-2021
+
+€ €
+0 42.416
+0 100.001
+0 142.417
+
+Direction Zorg Jeugd B.V.
+
+te Emmen
+
+Eigen vermogen
+
+Geplaatst kapitaal:
+
+Het maatschappelijk kapitaal van de vennootschap bedraagt uit meerdere geplaatste gewone aandelen van
+€ 1,00 elk. Geplaatst en volgestort zijn 100 aandelen.
+
+In 2022 hebben geen wijzigingen in het geplaatst kapitaal plaatsgevonden.
+
+Overige reserves:
+
+Dit betreft de reserve winstinhoudingen, verminderd met eventuele dividenduitkeringen aan aandeelhouders.
+
+Het verloop van de overige reserves is als volgt weer te geven:
+
+2022 2021
+
+€ €
+
+Stand per 1 januari 17.192 10.407
+Resultaat boekjaar 13.963 6.785
+Stand per 31 december 31.157 17.192
+
+Vreemd vermogen kort
+
+Onder de kortlopende schulden bevinden zich, evenals op 31 december 2021, géén posten met overeengekomen
+looptijd die langer is dan 1 jaar.
+
+Over de rekening-courantverhoudingen is gedurende 2022 geen rente in rekening gebracht. (2021 : 0%)
+
+31-12-2022 31-12-2021
+
+€ €
+
+Schulden aan leveranciers:
+Crediteuren 450 8.053
+450 8.053
+-13- Direction Zorg Jeugd B.V.
+te Emmen
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+Verschuldigd aan groepsmaatschappijen:
+
+Rekening-courant Direction Zorg 'De Mare!’ B.V.
+Rekening-courant Direction Zorg B.V.
+
+Verschuldigd aan aandeelhouders:
+
+Rekening-courant mevrouw |. Brands
+
+Belastingen en premies sociale verzekeringspremies:
+
+Te betalen vennootschapsbelasting
+Te betalen loonbelasting
+
+Te betalen pensioenpremies
+
+Te betalen bedrijfsvereniging
+
+Te betalen kosten:
+
+Te betalen vakantiegeld
+
+Te betalen vakantiedagen
+
+Te betalen nettolonen
+
+Te betalen accountantskosten
+
+Niet in de balans opgenomen verplichtingen en rechten
+
+Huurverplichting:
+
+31-12-2022 31-12-2021
+
+€ €
+10.000 10.000
+0 123.930
+10.000 133.930
+381 309
+381 309
+1.147 0
+11.062 8.639
+6.529 2.376
+453 434
+19.191 11.449
+10.777 7.496
+15.946 0
+916 18.073
+5.000 5.000
+32.639 30.569
+
+Het jaarlijks bedrag van de langlopende huurverplichtingen van de zorglocaties, te Emmen, is circa € 165.000.
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+14 -
+
+Direction Zorg Jeugd B.V.
+
+te Emmen
+
+Toelichting op de winst-en-verliesrekening over 2022
+
+Hieronder worden de specifieke posten uit de winst-en-verliesrekening over 2022 nader toegelicht:
+
+2022 2021
+€ €
+Netto-omzet:
+Omzet gemeente Emmen 213.344 331.638
+Omzet gemeente Coevorden 73.485 50.221
+Omzet overige gemeenten 61.561 68.422
+Omzet overige 265.270 65.000
+613.660 515.281
+inkoopwaarde:
+Omzet gemeente Emmen 47.156 44 440
+47.156 44.440
+Lonen en salarissen:
+Brutolonen personeel 248.390 194.098
+Mutatie reservering vakantiegeld 19.230 1.418
+267.620 195.516
+Sociale lasten en pensioenpremies:
+Sociale werkgeverslasten personeel 43.648 38.661
+Pensioenpremies personeel 20.587 17.559
+64.235 56.220
+Overige personeelskosten:
+Onkostenvergoeding 3.863 2.859
+Opleidingskosten 1.917 1.918
+Kantinekosten 2.711 562
+Andere personeelskosten 1.801 -17
+10.292 5.322
+-15- Direction Zorg Jeugd B.V.
+te Emmen
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+Afschrijvingen:
+Afschrijving huurdersinvesteringen
+
+Afschrijving inventaris
+Afschrijving vervoermiddelen
+
+Huisvestingskosten:
+
+Huurkosten huisvesting
+Onderhoud/reparaties gebouwen
+Energieverbruik
+Schoonmaakkosten
+
+Kleine aanschaffingen
+
+Overige kosten huisvesting
+
+Vervoerskosten:
+
+Brandstofkosten
+Onderhoudskosten auto's
+Motorrijtuigenbelasting
+Overige vervoerkosten
+
+Verkoopkosten:
+Representatiekosten
+
+Relatiegeschenken
+Kosten dubieuze debiteuren
+
+Algemene / overige kosten:
+
+Loonadministratie
+Accountantskosten
+Kantoorbenodigdheden
+Internetkosten
+
+Telefoonkosten
+
+Porti, verzendkosten etc.
+Contributies en abonnementen
+Overige algemene kosten
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+2022 2021
+
+15.360 15.360
+299 138
+1.029 935
+
+16.688 16.433
+
+164.866 162.193
+
+0 123
+3.269 12.480
+4,182 4.915
+
+723 1.739
+338 1.555
+
+173.378 183.005
+
+212 402
+610 55
+431 238
+137 151
+1.390 846
+120 145
+25 0
+9,912 0
+10.057 145
+290 449
+5.644 3.509
+77 494
+554 1.198
+
+0 343
+
+8 6
+
+276 226
+96 25
+6.945 6.250
+-16- Direction Zorg Jeugd B.V.
+te Emmen
+
+Financiële baten en lasten:
+
+Financiële lasten
+Bankkosten
+Rentekosten fiscus
+
+Vennootschapsbelasting:
+
+Belastingbedragen
+
+Overige toelichtingen
+
+Gemiddeld aantal werknemers
+
+2022 2021
+€ €
+
+270 319
+Oe S19 0
+789 319
+
+-789 -319
+
+1.147 0
+
+1.147 0
+
+Het gemiddeld aantal werknemers, berekend op fulltimebasis, bedroeg in 2022: 6,2 werknemers. (2021 : 5,6)
+
+Ondertekening van de jaarrekening
+Emmen, 28 september 2023
+
+Directie:
+
+H.G. van de Ven - Brands
+
+Samenstellingsverklaring afgegeven d.d. 28.09.2023
+
+-17-
+
+Direction Zorg Jeugd B.V.
+
+te Emmen

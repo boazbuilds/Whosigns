@@ -71,14 +71,19 @@ def main() -> int:
     parser.add_argument("--droogloop", action="store_true")
     parser.add_argument("--herlaad", action="store_true")
     parser.add_argument("--bestand", default="")
+    parser.add_argument(
+        "--mag-ontbreken",
+        action="store_true",
+        help="een jaargang die nog niet gepubliceerd is, is geen fout (voor de "
+        "maandelijkse run die kijkt of dVi al klaar staat)",
+    )
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
 
     if not (aw_dvi.OUDSTE_BOEKJAAR <= boekjaar <= aw_dvi.NIEUWSTE_BOEKJAAR):
         print(
-            f"boekjaar {boekjaar} valt buiten {aw_dvi.OUDSTE_BOEKJAAR}–"
-            f"{aw_dvi.NIEUWSTE_BOEKJAAR}; oudere jaargangen staan als één bundel online "
-            "en zijn nog niet uitgezocht"
+            f"boekjaar {boekjaar} valt buiten "
+            f"{aw_dvi.OUDSTE_BOEKJAAR}–{aw_dvi.NIEUWSTE_BOEKJAAR}"
         )
         return 1
 
@@ -88,11 +93,50 @@ def main() -> int:
             rijen = aw_dvi.corporaties_uit_bestand(Path(argumenten.bestand), boekjaar)
         else:
             rijen = aw_dvi.corporaties(boekjaar, cache=CACHE)
+    except LookupError as fout:
+        # "Nog niet gepubliceerd" is iets anders dan "stuk". De CKAN-zoekopdracht
+        # slaagde en vond deze jaargang niet; dat is bij een maandelijkse run de
+        # normale uitkomst tot de Autoriteit hem publiceert. Een netwerkfout komt
+        # hier niet langs — die is geen LookupError en valt in de tak hieronder.
+        print(f"{fout}")
+        if argumenten.mag_ontbreken:
+            print(
+                f"dVi{boekjaar} staat nog niet online; niets te doen. "
+                "De volgende maandelijkse run kijkt opnieuw."
+            )
+            return 0
+        print("Tip: download het xlsx met de hand en geef het mee met --bestand.")
+        return 1
     except Exception as fout:  # noqa: BLE001 — bron mag falen, meld het netjes
         print(f"ophalen mislukt: {type(fout).__name__}: {fout}")
         print("Tip: download het xlsx met de hand en geef het mee met --bestand.")
         return 1
     print(f"{len(rijen)} corporaties met een accountantsnaam", flush=True)
+
+    # Zonder KvK kan een rij niet aan een organisatie worden gekoppeld, dus halen we
+    # de vertaling uit de jaargangen die beide velden wél correct dragen. Dat is geen
+    # gokwerk: het corporatienummer is de sleutel van de toezichthouder zelf. Zie
+    # aw_dvi.brug_nodig voor wanneer dat speelt en waarom het niet op boekjaar gaat.
+    if not argumenten.bestand and aw_dvi.brug_nodig(rijen):
+        print(
+            f"geen bruikbaar KvK-nummer in dVi{boekjaar}; brug opbouwen uit de "
+            f"jaargangen die het wél hebben…",
+            flush=True,
+        )
+        try:
+            brug = aw_dvi.brug_naar_kvk(cache=CACHE)
+        except Exception as fout:  # noqa: BLE001 — zonder brug alsnog droogdraaien
+            print(f"  brug mislukt: {type(fout).__name__}: {fout}")
+            brug = {}
+        gevuld = 0
+        for rij in rijen:
+            if not rij["kvk_nummer"]:
+                kvk = brug.get((rij.get("instellingsnummer") or "").strip(), "")
+                if kvk:
+                    rij["kvk_nummer"] = kvk
+                    gevuld += 1
+        print(f"  {gevuld} van de {len(rijen)} corporaties gekoppeld via het "
+              f"corporatienummer ({len(brug)} in de brug)", flush=True)
 
     index = bouw_index(laad_kantoren())
 
@@ -151,7 +195,17 @@ def main() -> int:
             # Een corporatie is controleplichtig; een kantoor zonder vergunning mág die
             # controle dus niet doen. Komt dat voor, dan is er iets aan de hand en
             # noemen we het niet wettelijk.
-            type_opdracht = "wettelijke_controle" if wta else "vrijwillige_controle"
+            #
+            # Eén uitzondering, en die is nodig: een kantoor waarvan de vergunning
+            # ís vervallen — door een fusie of doordat hij is teruggegeven — stond
+            # destijds wél in het register en tekende dus bevoegd. `wta_vergunning`
+            # staat in de tegenwoordige tijd en blijft daarom onwaar. Zonder deze
+            # regel kregen vijftien corporaties die accon avm liet controleren de
+            # stempel "vrijwillige controle", en dat is niet alleen onjuist maar
+            # leest ook als een misstand die er nooit was. Zie `wta_vervallen` in
+            # seed/kantoren_overig.csv, waar per kantoor staat waaróm en wanneer.
+            bevoegd = wta or bool(kantoor and kantoor.get("wta_ooit"))
+            type_opdracht = "wettelijke_controle" if bevoegd else "vrijwillige_controle"
             if not rij["kvk_nummer"]:
                 status = "geen_kvk"
             telling[status] += 1
@@ -160,7 +214,11 @@ def main() -> int:
             schrijver.writerow([
                 rij["kvk_nummer"], rij["naam"], rij["gemeente"], boekjaar, status,
                 rij["accountant_ruw"], kantoor["naam"] if kantoor else "",
-                "ja" if wta else ("nee" if kantoor else ""),
+                # Drie standen en niet twee: "vervallen" verklaart waarom hier
+                # een wettelijke controle staat bij een kantoor dat vandaag geen
+                # vergunning heeft. Met alleen ja/nee zou die rij eruitzien als
+                # een fout in de lader.
+                "ja" if wta else ("vervallen" if bevoegd else ("nee" if kantoor else "")),
                 type_opdracht if kantoor else "",
             ])
 

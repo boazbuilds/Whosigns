@@ -1,0 +1,950 @@
+# whosigns-ocr v1 grootte=7512251 dpi=300 paginas=20
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+Activiteiten
+
+De activiteiten van Leestensch Hof V.O.F. bestaan voornamelijk uit het verlenen van zorgactiviteiten en
+het fokken en houden van paarden en hengsten.
+
+De onderneming staat ingeschreven in het handelsregister bij de Kamer van Koophandel onder nummer
+08121942.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld op fiscale grondslagen.
+
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van
+historische kosten. Tenzij bij de desbetreffende grondslag voor de specifieke balanspost anders wordt
+vermeld, worden de activa en passiva opgenomen tegen nominale waarde.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken
+van de jaarrekening bekend zijn geworden.
+
+Beoordelingsverklaring afgegeven -13-
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+Continuïteitsveronderstelling
+
+De gehanteerde grondslagen voor waardering en resultaatbepaling zijn gebaseerd op de
+continuïteitsveronderstelling van de onderneming. Echter, gezien de financiële positie van de
+onderneming zijn maatregelen die de liquiditeitspositie verbeteren op korte termijn noodzakelijk. Een
+duurzame voortzetting van de bedrijfsuitoefening is daarmee naar verwachting gewaarborgd.
+
+De onderneming heeft per 31 december 2019 een negatief werkkapitaal van € 117.220. De omzet en
+rentabiliteit van de onderneming over de afgelopen jaren zijn over het algemeen uitstekend. Echter zijn de
+hierdoor beschikbaar gekomen liquiditeiten grotendeels geïnvesteerd in de nieuwbouw en verbouw van de
+bedrijfsgebouwen. Als gevolg hiervan is een negatief werkkapitaal ontstaan.
+
+Gedurende de eerste helft van 2019 heeft deze situatie zich voortgezet. De omzet en rentabiliteit zijn nog
+altijd goed, maar wederom is de beschikbaar gekomen liquiditeit deels aangewend voor het afronden van
+de nieuwbouw. Als gevolg hiervan is het werkkapitaal gedurende het eerste halfjaar 2019 niet verbeterd.
+
+In de periode mei t/m september 2019 is sprake geweest van een (tijdelijke) dip in de omzet. Deze dip
+werd veroorzaakt door ziekte van een psychologe, waardoor de omzet zorg-onderwijs is achtergebleven.
+Deze medewerkster bleek moeilijk te vervangen en daarom zijn een periode lang geen nieuwe cliënten
+voor deze activiteit toegelaten konden worden. Tevens was enige tijd sprake van onzekerheid bij
+opdrachtgevers over het voortbestaan van de activiteit 'Educpres'. Deze onzekerheid is inmiddels
+weggenomen, waardoor er weer nieuwe beschikkingen worden afgegeven voor deze activiteit.
+
+De samenloop van de hiervoor genoemde factoren (investeringen uit eigen middelen, ziekte van een
+personeelslid, onzekerheid bij opdrachtgevers) hebben ertoe geleid dat het resultaat over 2019 lager is
+uitgevallen dan begroot en dat er op balansdatum sprake is van een negatief werkkapitaal van € 117.220.
+
+De eerste maanden van 2020 vertoonden goede omzetcijfers en een goede rentatibilteit. In maart 2020
+heeft de vennootschap vervolgens te kampen gehad met de gevolgen van de uitbraak van het
+coronavirus. De mogelijke impact en financiële gevolgen zijn op dit moment redelijkerwijs nog niet volledig
+in te schatten. Teneinde discontinuïteit te voorkomen, heeft het management de volgende maatregelen
+genomen om duurzame voortzetting van de vennootschap te waarborgen:
+
+- Verdere, structurele besparing op personeelskosten door efficiëntere en/of minder inzet van personeel;
+- Aangaan van een betalingsregeling met het Ministerie;
+
+- Opschorten van de aflossingsverplichtingen jegens de Rabobank voor de langlopende hypothecaire
+leningen met 6 maanden, waardoor de aflosingsverplichting voor 2020 € 25.800 lager wordt;
+
+- Aanvragen van een tegemoetkoming tijdelijke Noodmaatregel Overbrugging Werkgelegenheid (NOW)
+voor de maanden maart, april en mei 2020. Deze bleek achteraf niet nodig te zijn en is inmiddels reeds
+terugbetaald.
+
+De coronacrisis heeft uiteindelijk een zeer beperkte invloed gehad op de omzet en liquiditeit. De beperkte
+tijdelijke teruggang in de omzet als gevolg van corona is gecompenseerd door de contractpartijen
+waarvoor wordt gewerkt (gemeentes, PGB-houders en hoofdaannemers). De cumulatieve omzet t/m
+september 2020 is ten opzichte van 2019 toegenomen en het werkkapitaal is hierdoor verbeterd.
+
+Op grond van de genomen maatregelen en de beschreven ontwikkelingen acht het bestuur van
+
+Leestensch Hof V.O.F. een duurzame voortzetting van de bedrijfsuitoefening realistisch. De jaarrekening
+is dan ook opgemaakt uitgaande van de veronderstelling van continuïteit van de onderneming.
+
+Beoordelingsverklaring afgegeven -14-
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen aanschaffingswaarde of vervaardigingsprijs en
+verminderd met de berekende afschrijvingen gebaseerd op de verwachte economische levensduur, met
+inachtneming van een eventuele restwaarde, eventuele toepassing van willekeurige afschrijvingen en de
+aanwendingen van een herinvesteringsreserve op grond van fiscale regelingen. De afschrijvingen
+bedragen een vast percentage van de aanschaffingswaarde of vervaardigingsprijs, dan wel een vast
+percentage van de boekwaarde. Op gronden en terreinen wordt niet afgeschreven.
+
+Paarden worden gewaardeerd op reële waarde.
+Vorderingen en overlopende activa
+
+De vorderingen worden gewaardeerd tegen de nominale waarde onder aftrek van de noodzakelijk
+geachte voorzieningen wegens mogelijke oninbaarheid. Deze voorzieningen worden bepaald op basis van
+individuele beoordeling van de vorderingen.
+
+Langlopende schulden
+
+Opgenomen rentedragende leningen en schulden worden gewaardeerd tegen de nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen historische kostprijs.
+
+Daar waar geen sprake is van (dis)agio en transactiekosten is de historische kostprijs gelijk aan de
+nominale waarde.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en
+verrichte diensten enerzijds, en anderzijds de kosten en andere lasten van het jaar, gewaardeerd tegen
+historische kostprijzen.
+
+De opbrengsten en kosten zijn opgenomen exclusief omzetbelasting.
+
+Netto-omzet
+
+Onder netto-omzet wordt verstaan de opbrengst van de in het verslagjaar geleverde goederen en
+verleende diensten onder aftrek van kortingen en de over de omzet geheven belastingen.
+
+Opbrengsten van diensten worden opgenomen naar rato van de mate waarin de diensten zijn verricht,
+gebaseerd op de tot balansdatum in het kader van de dienstverlening gemaakte kosten in verhouding tot
+de geschatte kosten van de totaal te verrichten dienstverlening. De kostprijs van deze diensten wordt aan
+dezelfde periode toegerekend.
+
+Beoordelingsverklaring afgegeven -15-
+
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+Afschrijvingen
+
+Boekwinsten en -verliezen bij verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen,
+boekwinsten echter alleen voor zover de boekwinsten niet in mindering zijn gebracht op vervangende
+investeringen.
+
+Overige bedrijfskosten
+
+De kosten worden bepaald met inachtneming van de hiervoor reeds vermelde grondslagen van
+waardering en toegerekend aan het verslagjaar waarop zij betrekking hebben. Winsten worden
+verantwoord in het jaar waarin de goederen zijn geleverd c.q. de diensten zijn verricht. Verliezen worden
+in aanmerking genomen in het jaar waarin deze voorzienbaar zijn.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet
+van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden
+met de verantwoorde transactiekosten op de ontvangen leningen.
+
+Beoordelingsverklaring afgegeven -16-
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2019
+
+1. Materiële vaste activa
+
+Bedrijfs-
+gebouwen Machines
+en - en Vervoer-
+terreinen installaties Inventaris middelen Paarden Totaal
+€ € € € € €
+
+Boekwaarde per 1 januari 2019 1.035.939 17.358 21.045 3.471 105.400 1.183.213
+Investeringen 6.468 4.083 17.582 1.652 5.200 34.985
+Desinvesteringen - - - - -7.600 -7.600
+Afschrijvingen -38.021 -4.968 -9.464 -220 - -52.673
+Boekwaarde per 31 december
+2019 1.004.386 16.473 29.163 4.903 103.000 1.157.925
+Aanschaffingswaarde 1.280.342 35.728 68.869 56.029 103.000 1.543.968
+Cumulatieve afschrijvingen en
+waardeverminderingen -275.956 -19.255 -39.706 -51.126 - __-386.043
+Boekwaarde per 31 december
+2019 1.004.386 16.473 29.163 4.903 103.000 1.157.925
+Afschrijvingspercentages
+
+%
+Bedrijfsgebouwen en -terreinen 0-10
+Machines en installaties 20
+Inventaris 20
+Vervoermiddelen 20
+Paarden -
+
+De waarde van de gebouwen en terreinen bedraagt volgens de waardering voor de Wet waardering
+onroerende zaken per 1 januari 2018 (tijdvak 2019) € 1.343.000. Hiervan heeft € 919.000 betrekking op
+
+de geactiveerde bedrijfsgebouwen en -terreinen en € 424.000 op de privé woning.
+
+De bedrijfsgebouwen en -terreinen dienen als zekerheid voor de hypothecaire lening zoals die is verstrekt
+door de Rabobank. Zie hiervoor ook noot 5 in de toelichting.
+
+De inventaris en de paarden zijn met pandrecht bezwaard als zekerheid voor de hypothecaire lening zoals
+die is verstrekt door de Rabobank. Zie hiervoor ook noot 5 in de toelichting.
+
+Beoordelingsverklaring afgegeven
+
+17e
+
+
+VLOTTENDE ACTIVA
+
+2. Vorderingen
+
+Handelsdebiteuren
+
+Debiteuren
+Voorziening dubieuze debiteuren
+
+Belastingen en premies sociale verzekeringen
+
+Pensioenen
+
+Overlopende activa
+
+Vooruitbetaalde kosten
+Nog te ontvangen ziekengeld
+
+3. Liquide middelen
+Rabobank rekening-courant
+
+Beoordelingsverklaring afgegeven
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+31-12-2019 31-12-2018
+€ €
+
+34.445 45.805
+-2.000 -5.000
+32.445 40.805
+5 2.674
+1.104 1.036
+2.443 -
+3.547 1.036
+95 4.110
+
+sie =
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+4. Ondernemingsvermogen
+
+2019 2018
+€ €
+
+De heer F.J.C. Smeltink
+Stand per 1 januari 44.674 29.893
+Aandeel in het resultaat 11.406 46.019
+
+56.080 75.912
+Privé opnames -19.396 -31.238
+Stand per 31 december 36.684 44.674
+Mevrouw A.G.J. Smeltink-van de Hanenberg
+Stand per 1 januari 44.675 29.893
+Aandeel in het resultaat 11.405 46.020
+
+56.080 75.913
+Privé opnames -19.396 -31.238
+Stand per 31 december 36.684. 44.675
+Mevrouw M. Smeltink
+Stand per 1 januari 2.765 -163
+Rente over het beginkapitaal 17 -1
+Arbeidsvergoeding 50.000 -
+Aandeel in het resultaat -8.863 45.840
+
+43.919 45.676
+Privé opnames -46.274 -42.911
+Stand per 31 december -2.355 2.765
+F.J.C. Smeltink Beheer B. V.
+Stand per 1 januari 161.879 153.727
+Aandeel in het resultaat -1.983 16.202
+
+159.896 169.929
+
+Privé opnames -18.315 -8.050
+Stand per 31 december 141.581 161.879
+
+Beoordelingsverklaring afgegeven -19-
+
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+5. Langlopende schulden
+
+31-12-2019 31-12-2018
+
+€ €
+Schulden aan kredietinstellingen
+Rabobank hypothecaire leningen 490.000 490.000
+Rabobank hypothecaire lening 50032964 252.500 267.500
+Rabobank hypothecaire lening 50032965 46.400 72.800
+Rabobank lening 50123047 36.400 =
+Ruilverkavelingsschuld 2.811 4.136
+
+828.111 834.436
+Hypothecaire leningen
+
+2019 2018
+
+€ €
+Rabobank hypothecaire leningen
+Stand per 1 januari 490.000 490.000
+Stand per 31 december 490.000 490.000
+
+Er zijn een 3-tal leningen afgesloten, te weten, nr. 1925.98.880 met een saldo per 31 december 2019 ad.
+€ 320.000, nr. 1412.909.554 met een saldo per 31 december 2019 ad. € 305.000 en nr. 3579.905.325
+met een saldo per 31 december 2019 ad. € 75.000. Totaal is dit € 700.000. Hiervan is € 210.000
+opgenomen als hypotheek eigen woning. Het andere deel ad. € 490.000 is verstrekt ter financiering van
+de aankoop van een schuur en 8.74.60 ha grond, gelegen aan De Pijp te Wervershoof en voor het
+bouwen van de manege. De leningen zijn aflossingsvrij.
+
+Rabobank hypothecaire lening 50032964
+
+Stand per 1 januari 282.500 297.500
+Aflossing -15.000 -15.000
+Stand per 31 december 267.500 282.500
+Aflossingsverplichting komend boekjaar -15.000 -15.000
+Langlopend deel per 31 december 252.500 267.500
+
+De hypothecaire lening ad € 300.000 is verstrekt ter financiering van investeringen in de bedrijfsruimten
+(nieuwbouw recreatieruimte en rijhal). Aflossing vindt plaats over een periode van 20 jaar. Het
+rentepercentage bedraagt 4,00%. De maandelijkse aflossing bedraagt € 1.250. Het aantal resterende
+maandtermijnen bedraagt 214.
+
+Van het restant van de lening per 31 december 2019 heeft een bedrag van € 192.500 een looptijd langer
+dan vijf jaar.
+
+Beoordelingsverklaring afgegeven -20-
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+2019 2018
+€ €
+
+Rabobank hypothecaire lening 50032965
+
+Stand per 1 januari 99.200 125.600
+Aflossing -26.400 -26.400
+Stand per 31 december 72.800 99.200
+Aflossingsverplichting komend boekjaar -26.400 -26.400
+Langlopend deel per 31 december 46.400 72.800
+
+De hypothecaire lening ad € 130.000 is verstrekt ter financiering van investeringen in de bedrijfsruimten
+(nieuwbouw recreatieruimte en rijhal). Aflossing vindt plaats over een periode van 5 jaar. Het
+rentepercentage bedraagt 4,00%. De maandelijkse aflossing bedraagt € 2.200. Het aantal resterende
+maandtermijnen bedraagt 33.
+
+Van het restant van de lening per 31 december 2019 heeft een bedrag van nihil een looptijd langer dan vijf
+jaar.
+
+Rabobank lening 50123047
+Stand per 1 januari
+
+Opgenomen gelden 50.000 -
+Aflossing -3.400 -
+Stand per 31 december 46.600 -
+Aflossingsverplichting komend boekjaar -10.200 -
+Langlopend deel per 31 december 36.400 -
+
+De hypothecaire lening ad € 50.000 is verstrekt ter financiering van reeds gedane investeringen in de
+bedrijfsruimten (nieuwbouw recreatieruimte en rijhal). Aflossing vindt plaats over een periode van 5 jaar.
+Het rentepercentage bedraagt 2,35% vast tot en met 2024. De maandelijkse aflossing bedraagt € 850.
+Het aantal resterende maandtermijnen bedraagt 55.
+
+Van het restant van de lening per 31 december 2019 heeft een bedrag van € - een looptijd langer dan vijf
+jaar.
+
+Leningen o/g
+
+Ruilverkavelingsschuld
+
+Stand per 1 januari 5.424 6.676
+Aflossing -1.288 -1.252
+Stand per 31 december 4.136 5.424
+Aflossingsverplichting komend boekjaar -1.325 -1.288
+Langlopend deel per 31 december 2.811 4.136
+
+Deze lening is verstrekt ter financiering van ruilverkaveling van grond. Het rentepercentage bedraagt
+2,85%. De jaarlijkse annuïteit bedraagt € 1.443. Het aantal resterende jaarlijkse termijnen bedraagt 3.
+
+Beoordelingsverklaring afgegeven -21-
+
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+Zekerheden
+
+Als zekerheid voor de leningen van de Rabobank is verstrekt een hypotheek op de onroerende zaken,
+alsmede verpanding van inventaris, dieren en rechten uit levensverzekering.
+
+6. Kortlopende schulden
+
+31-12-2019 31-12-2018
+
+€ €
+Aflossingsverplichtingen langlopende schulden
+Hypothecaire leningen 51.600 41.400
+Leningen 1:325 1.288
+52.925 42.688
+Schulden aan leveranciers en handelskredieten
+Crediteuren 40.448 48.739
+Belastingen en premies sociale verzekeringen
+Omzetbelasting 3.505 5.233
+Loonheffing 10.963 13.244
+Pensioenen 9.855 5
+24.323 18.477
+Overlopende passiva
+Vakantiegeld 11.216 11.344
+Aeccountantskosten 2.500 3.000
+Nettoloon 14.895 10.161
+Nog te betalen advieskosten 7.000 9.000
+35.611 33.505
+
+Beoordelingsverklaring afgegeven -22-
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2019
+
+7. Netto-omzet
+Netto-omzet
+
+Omzet weide en voergeld
+Omzet logeren
+
+Omzet dagbesteding
+
+Omzet educpres
+
+Omzet en aanwas paarden
+Omzet dekgeld
+
+Omzet Begeleiding individueel
+
+8. Overige bedrijfsopbrengsten
+Uitkering overleden paarden
+
+9. Kosten van grond- en hulpstoffen
+Kosten grond- en hulpstoffen categorie
+
+Inkoop strooisel
+
+Inkoop paardenvoer
+
+Dierenarts
+
+Kosten hoefsmid
+
+Paardenverzekering
+
+Kl-kosten/dekkosten
+
+Diverse kosten paarden
+
+Levensmiddelen dagbesteding en logeeropvang
+Vervoerskosten dagbesteding
+
+10. Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Lonen en salarissen
+
+Brutoloon
+Mutatie vakantiegeldverplichting
+Uitzendkrachten
+
+Ontvangen ziekengelduitkeringen
+Ontvangen subsidies en afdracht verminderingen
+
+Beoordelingsverklaring afgegeven
+
+2019 2018
+€ €
+884.270 946.177
+2.643 3.066
+271.409 248.933
+350.204 362.367
+220.894 298.792
+-758 -5.980
+8.876 6.183
+31.002 32.816
+884.270 946.177
+8.567 4.000
+14.042 12.984
+30.878 30.960
+18.782 22.698
+6.245 5.198
+5.349 4.936
+5.517 5,413
+11.986 12.727
+26.422 24.048
+21.244 17.550
+140.465 136.514
+344.109 333.058
+75.109 68.142
+24.946 21.356
+11.714 8.550
+455.878 431.106
+383.146 359.039
+-128 1.575
+452 ;
+383.470 357.464
+-37.910 -20.633
+1.451 -3.773
+344.109 333.058
+
+= Me
+
+
+Sociale lasten
+
+Sociale lasten
+Premie ziekengeldverzekering
+
+Pensioenlasten
+
+Pensioenlasten
+
+Overige personeelskosten
+
+Reiskostenvergoedingen
+Bedrijfskleding/wasserij
+Opleidingskosten
+
+Personeelsleden
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+2019 2018
+€ €
+
+67.597 61.865
+7.512 6.277
+75.109 68.142
+24.946 21.356
+5.802 4.751
+
+29 272
+
+5.883 3.527
+11.714 8.550
+
+Gedurende het jaar 2019 waren 11 werknemers in dienst op basis van een volledig dienstverband.
+
+Afschrijvingen materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen
+Machines en installaties
+Inventaris
+
+Vervoermiddelen
+
+Overige bedrijfskosten
+Huisvestingskosten
+
+Energiekosten
+
+Onderhoud onroerende zaak
+Onroerendezaakbelasting
+Schoonmaakkosten
+
+Exploitatiekosten
+
+Reparatie en onderhoud
+Kleine aanschaffingen en onderhoud inventaris
+
+Beoordelingsverklaring afgegeven
+
+38.021 33.991
+4.968 3.477
+9.464 5.673
+
+220 2.200
+
+52.673 45.341
+4.837 9.395
+
+19.056 30.478
+4.929 4,468
+1.830 2.013
+
+30.652 46.354
+4.967 8.075
+1.676 2.044
+6.643 10.119
+
+-24-
+
+
+Kantoorkosten
+
+Kantoorbehoeften
+
+Telefoon
+
+Contributies en abonnementen
+Verzekering
+
+Autokosten
+
+Brandstoffen
+Onderhoud
+Motorrijtuigenbelasting
+Verkeersboetes
+
+Verkoopkosten
+
+Reclame- en advertentiekosten
+Reis- en verblijfkosten
+
+Dotatie voorziening dubieuze debiteuren
+
+Oninbare debiteuren
+
+Algemene kosten
+
+Aeccountants- en advieskosten
+Advieskosten
+
+Kosten Controleverklaring WMO
+Kosten beoordelingsopdracht
+
+Kosten beoordelingsopdracht boekjaar 2017
+
+Niet aftrekbare boetes
+Boete Ministerie
+
+Herziening/herrekening omzetbelasting
+
+Overige algemene kosten
+
+Beoordelingsverklaring afgegeven
+
+Di
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+2019 2018
+€ €
+
+3.307 1.914
+1.465 1.665
+2.748 3.367
+8.660 8.054
+16.180 15.000
+6.910 4,259
+5.745 963
+496 488
+97 -
+13.248 5.710
+3.767 2.304
+1.559 732
+-3.000 -11.950
+14.186 27.650
+16.512 18.736
+6.574 6.673
+6.101 5.835
+4,500 3.750
+3.000 4.500
+2:125 je
+1.038 5
+10.000
+28.448 31.907
+5.471 2.406
+67.257 55.071
+
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+2019 2018
+
+€ €
+13. Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten - 4
+Rentelasten en soortgelijke kosten -31.347 -32.150
+
+-31.347 -32.146
+Rentebaten en soortgelijke opbrengsten
+Rente Rabobank Bouwdepot 3167.15.824 - d
+Rentelasten en soortgelijke kosten
+Rente- en bankkosten 1.075 559
+Ruilverkavelingsrente 155 190
+Rente hypothecaire lening 15.015 15.015
+Rente lening Rabobank 50032964 11.177 11.785
+Rente lening Rabobank 50032965 3.530 4.601
+Rente lening Rabobank 50123047 395 -
+
+31.347 32.150
+
+Belangrijke gebeurtenissen na balansdatum
+
+De gehanteerde grondslagen voor waardering en resultaatbepaling zijn gebaseerd op de
+continuïteitsveronderstelling van Leestensch Hof V.O.F. Echter, als gevolg van de uitbraak van het
+coronavirus wereldwijd, zijn door de Nederlandse overheid ingrijpende maatregelen genomen om de
+verspreiding van dit virus onder controle te krijgen. Deze maatregelen en mogelijke maatregelen die nog
+volgen, hebben naar verwachting belangrijke financiële gevolgen voor ondernemingen in Nederland. Deze
+gevolgen zijn op dit moment nog niet te overzien. De door de Nederlandse overheid genomen
+maatregelen kunnen impact hebben op de ontwikkeling van de netto-omzet en daarmee de ontwikkeling
+van het resultaat van Leestensch Hof V.O.F. Ook de financiële positie (liquiditeit en solvabiliteit) van
+Leestensch Hof V.O.F. kan daardoor onder druk komen te staan, met als gevolg mogelijke onzekerheid
+over de continuïteitsveronderstelling. Door de Nederlandse overheid is een breed pakket aan maatregelen
+aangekondigd ter ondersteuning van ondernemers. Op grond van de financiële positie van Leestensch
+Hof V.O.F. per balansdatum en de positieve invloed van de ondersteuningsmaatregelen door de overheid
+die de negatieve financiële gevolgen van de uitbraak van het coronavirus zullen beperken, acht het
+bestuur van Leestensch Hof V.O.F. een duurzame voortzetting van de bedrijfsuitoefening niet onmogelijk.
+De jaarrekening is dan ook opgemaakt uitgaande van de veronderstelling van continuïteit van de
+onderneming.
+
+Beoordelingsverklaring afgegeven -26 -
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+7 RESULTAATVERDELING 2019
+
+Overeenkomstig hetgeen vermeld in artikel 11 van de firma-akte, wordt het resterende resultaat als volgt
+verdeeld:
+
+De heer F.J.C. Smeltink 30 %
+Mevrouw A.G.J. Smeltink-van de Hanenberg 30 %
+Mevrouw M. Smeltink 30 %
+F.J.C. Smeltink Beheer B.V. 10 %
+
+De rentevergoeding over het kapitaal wordt berekend over het kapitaal bij het begin van het boekjaar. Het
+rentepercentage wordt gesteld op de depositorente van de ECB plus 1%.
+
+71 Verdeling van het resultaat over 2019
+
+2019
+€ €
+
+Resultaat 2019 61.982
+Arbeidsvergoeding:
+De heer F.J.C. Smeltink 20.000
+Mevrouw A.G.J. Smeltink-van de Hanenberg 20.000
+Mevrouw M. Smeltink 50.000
+
+90.000
+Extra toedelingen:
+De heer F.J.C. Smeltink Í
+Rente beginkapitaal:
+De heer F.J.C. Smeltink 268
+Mevrouw A.G.J. Smeltink-van de Hanenberg 268
+Mevrouw M. Smeltink 17
+F.J.C. Smeltink Beheer B.V. 971
+
+1.524
+
+Resterend resultaat -29.543
+Verdeling resterend resultaat
+De heer F.J.C. Smeltink -8.863
+Mevrouw A.G.J. Smeltink-van de Hanenberg -8.863
+Mevrouw M. Smeltink -8.863
+F.J.C. Smeltink Beheer B.V. -2.954
+
+-29.543
+
+Beoordelingsverklaring afgegeven -27-
+
+
+Recapitulatie
+
+De heer F.J.C. Smeltink
+Mevrouw A.G.J. Smeltink-van de
+Hanenberg
+
+Mevrouw M. Smeltink
+
+F.J.C. Smeltink Beheer B.V.
+
+Rapport inzake de jaarrekening 2019
+van Leestensch Hof V.O.F., te Wervershoof
+
+Verdeling
+Arbeids- Extra resterend
+vergoeding _ toedeling Rente resultaat Totaal
+€ € € € €
+
+20.000 1 268 -8.863 11.406
+20.000 - 268 -8.863 11.405
+50.000 - 17 -8.863 41.154
+- - 971 -2.954 -1.983
+90.000 1 1.524 -29.543 61.982
+
+Ondertekening jaarrekening voor akkoord
+
+Wervershoof, 29'september 2020
+
+Ey
+
+a er Â N
+is Defieer F.J.C. Smeltink
+
+Tr
+
+Mevrouw M. Smeltink
+
+Beoordelingsverklaring afgegeven
+
+Mevrouw A.G.J. Smeltink-van de Hanenberg
+
+En
+
+08
+
+/
+
+F.J.C. Sól
+
+e
+
+#
+
+tink Beheer B.V.
+
+
+BIJLAGEN
+
+
+Rapport inzake de jaarrekening 2019
+rapport d.d. 29 september 2020
+
+1 BEOORDELINGSVERKLARING
+
+
+WI VEENHUIS Mus
+ACCOUNTANT EN ADVISEURS
+
+VERTROUWELIJK
+
+Leestensch Hof V.O.F.
+T.a.v. de vennoten
+De Pijp 7
+
+1693 HL Wervershoof
+
+Zutphen, 29 september 2020
+Onze ref: 20200929
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2019 van Leestensch Hof V.O.F.
+
+te Wervershoof beoordeeld. Deze jaarrekening bestaat uit de balans per 31 december 2019
+en de winst- en verliesrekening over 2019 met de toelichting, waarin zijn opgenomen een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving en andere
+toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en
+het resultaat getrouw dient weer te geven in overeenstemming met Titel 9 Boek 2 van het in
+Nederland geldende Burgerlijk Wetboek (BW). Het bestuur is tevens verantwoordelijk voor
+een zodanige interne beheersing als het bestuur noodzakelijk acht om het opmaken van de
+jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als gevolg van
+fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van
+onze beoordeling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands
+recht, waaronder de Nederlandse Standaard 2400 ‘Opdrachten tot het beoordelen van
+financiële overzichten'. Dit vereist dat wij voldoen aan de voor ons geldende ethische
+voorschriften en dat wij onze beoordeling zodanig plannen en uitvoeren dat wij in staat zijn te
+concluderen dat ons niet is gebleken dat de jaarrekening afwijkingen van materieel belang
+bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een
+beperkte mate van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in
+hoofdzaak uit het inwinnen van inlichtingen bij het management en overige functionarissen
+van de entiteit, het uitvoeren van cijferanalyses met betrekking tot de financiële gegevens
+alsmede het evalueren van de verkregen informatie.
+
+PSCOUITER
+Spittaalstraat 89a Website: www.Veenhuis-Muijs.nl Email: info@veenhuis-muijs.nl ma:
+7201 EC Zutphen Telefoon: O6 14 76 60 04 KVK: 08132456 NBA
+
+
+|
+WI VEENHUIS,M UIJS
+ACCOUNTANT EN ADVISEURS
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk
+beperkter dan die uitgevoerd in het kader van een controleopdracht verricht in
+overeenstemming met de Nederlandse controlestandaarden. Derhalve brengen wij geen
+controleoordeel tot uitdrukking.
+
+Conclusie
+
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten
+concluderen dat de jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling
+van het vermogen van Leestensch Hof V.O.F. per 31 december 2019 en van het resultaat
+over 2019 in overeenstemming met Titel 9 Boek 2 van het in Nederland geldende Burgerlijk
+Wetboek (BW).
+
+Benadrukking van onzekerheid omtrent de continuïteit
+
+Wij vestigen de aandacht onder de “Algemene grondslagen voor de opstelling van de
+jaarrekening’ in de toelichting van de jaarrekening, waar in de paragraaf
+‘Continuïteitsveronderstelling” uiteengezet is dat de entiteit per 31 december 2019 een
+negatief werkkapitaal heeft van € 117.220. Deze condities, samen met andere
+omstandigheden, waaronder Covid-19 virus, zoals uiteengezet in de paragraaf
+“Continuïteitsveronderstelling”, duiden op het bestaan van een onzekerheid van materieel
+belang op grond waarvan gerede twijfel zou kunnen bestaan over de
+continuïteitsveronderstelling van de entiteit.
+
+Wij zijn het met u eens dat de jaarrekening in deze situatie op grond van de regels in het
+verslaggevingsstelsel opgemaakt kan worden op grond van continuïteitsveronderstelling.
+Onze conclusie is niet aangepast als gevolg van deze aangelegenheid.
+
+Hoogachtend,
+Veenhuis en Muijs Accountants en Adviseurs
+
+Afuis < Muis-AA-RC
+
+Spittaalstraat 89a Website: www.Veenhuis-Muijs.nl Email: info@veenhuis-muijs.nl
+7201 EC Zutphen Telefoon: 06 14 76 60 04 KVK: 08132456
+
+NBA
+

@@ -1,0 +1,868 @@
+# whosigns-ocr v1 grootte=3619000 dpi=300 paginas=20
+vA”
+
+Vv
+
+Fiscale positie
+
+Onderstaand volgt een specificatie van de berekening van de vennootschapsbelasting:
+
+2024
+
+Resultaat voor belastingen (winst) 81.215
+Beperkt aftrekbare kosten: 26,50% van 720 190
+Investeringsaftrek: 28,00% van 13.371 -3.744
+Fiscaal resultaat 77.661
+Belastbaar bedrag (afgerond) 77.660
+Berekening van de verschuldigde vennootschapsbelasting:
+19,00% over 77.660 14.755
+Te betalen vennootschapsbelasting 14.755
+Specificatie van de totale belastingdruk in de winst- en verliesrekening:
+Toegekend aan resultaat 14.755
+
+14.755
+Specificatie nettoresultaat na belastingen:
+Resultaat voor belastingen 81.215
+Belastingen -14.755
+
+Netto resultaat na belastingen 66.460
+
+
+vA”
+
+Vv
+
+Financiële positie
+
+NO
+
+AB
+
+Ter analyse van de financiële positie dient de volgende opstelling:
+
+31-12-2024 31-12-2023
+BESCHIKBAAR OP KORTE TERMIJN
+Vorderingen 164.671 151.028
+Liquide middelen 179.559 93.461
+Kortlopende schulden -85.084 -47.611
+Werkkapitaal 259.146 196.878
+BESCHIKBAAR OP LANGE TERMIJN
+Materiële vaste activa 30.005 25.813
+Vaste activa 30.005 25.813
+Werkkapitaal 259.146 196.878
+Vaste activa 30.005 25.813
+Te financieren 289.151 222.691
+Deze financiering vond plaats met:
+Groepsvermogen - Eigen vermogen - Kapitaal 289.151 222.691
+289.151 222.691
+
+Het werkkapitaal is in 2024 toegenomen met € 62.268 ten opzichte van 2023, wat als volgt wordt gespecificeerd:
+
+Toename vorderingen 13.643
+Toename liquide middelen 86.098
+Toename kortlopende schulden -37.473
+
+62.268
+
+De liquide middelen zijn in 2024 toegenomen met € 86.098 ten opzichte van 20253.
+
+NO
+
+vA”
+AB
+
+Vv
+
+Grafische weergave van de financiële positie
+
+De onderstaande grafiek geeft de verhoudingen weer tussen de verschillende onderdelen van zowel activa als de
+passiva. Tevens geeft de grafiek inzicht met welke delen van het totale vermogen (passiva), de onderdelen van de
+activa worden gefinancieerd.
+
+Verdeling balans per 31-12-2024
+
+Kortlopende seuiden : 85.084
+
+Liquide middelen : 179.559
+
+Materiële vaste activa : 30.005
+
+> Groepsvermogen - Eigen vermogen - Kapitaal : 289.151
+
+Vorderingen : 164.671
+
+Verdeling balans per 31-12-2023
+
+Kortlopende schulden : 47.611
+Liquide middelen : 93.461
+
+Materiële vaste activa : 25.813
+
+== Groepsvermogen - Eigen vermogen - Kapitaal : 222.691
+
+Vorderingen : 151.028
+
+vA”
+
+Vv
+
+Bespreking van de resultaten
+
+Aan de hand van de opgenomen Winst- en verliesrekening kunnen de resultaten over 2024 als volgt in euro's en
+procenten van de netto-omzet worden weergegeven:
+
+2024
+
+€ %
+
+Netto-omzet 383.688 100,0
+Brutomarge 383.688 100,0
+Personeelskosten 177.122 46,2
+Afschrijvingen op immateriële en materiële vaste activa 9.180 2,4
+Werkkostenregeling 687 0,2
+Overige personeelsgerelateerde kosten 4.755 1,2
+Huisvestingskosten 56.247 14,7
+Exploitatie- en machinekosten 2.234 0,6
+Verkoop gerelateerde kosten 234 0,1
+Autokosten 12.381 3,2
+Kantoorkosten 2.846 0,7
+Assurantiekosten 12.462 3,2
+Accountants- en advieskosten 10.770 2,8
+Administratieve lasten 490 0,1
+Andere kosten 15.215 4,0
+Bedrijfskosten 304.623 79,4
+Bedrijfsresultaat 79.065 20,6
+Financiële baten en lasten 2.150 0,6
+Resultaat voor belastingen 81.215 21,2
+Belastingen 14.755 3,8
+
+Netto resultaat na belastingen 66.460 17,3
+
+
+vA”
+
+Vv
+
+Grafische weergave van de resultaten
+
+De onderstaande grafieken geven inzicht in de Brutomarge en Bedrijfskosten per jaar en de verdeling per jaar.
+
+Brutomarge Bedrijfskosten
+
+2024 2024
+
+Verdeling brutomarge 2024 Verdeling brutomarge 2023
+
+Bedrijfskosten :
+304.623
+
+Financieel resultaat : B
+
+2.150
+
+Resultaat voor
+belastingen : 81.215
+
+Verdeling bedrijfskosten 2024
+
+Personeelskosten :
+58%
+
+Overige bedrijfskosten
+39%
+
+rijvingen op
+
+immateriële en
+
+materiële vaste
+activa : 3%
+
+vA”
+
+Vv
+
+Kengetallen
+
+2024 2023
+
+Liquiditeit (current ratio)
+
+De liquiditeit van een onderneming wordt uitgedrukt in een verhoudingscijfer, waarbij de vlottende activa worden
+gedeeld door de kortlopende schulden. Dit cijfer geeft aan in welke mate op korte termijn aan de financiële
+verplichtingen kan worden voldaan zonder dat de continuïteit van de onderneming in gevaar wordt gebracht. In het
+algemeen wordt een norm van 1,5 voldoende geacht. Er zijn echter overige factoren waarmede rekening dient te
+worden gehouden. Voorbeelden zijn de mate van winstgevendheid, de aard van de bedrijfsactiviteiten, de kwaliteit
+van de vlottende activa en de looptijd ten opzichte van de looptijd van de kortlopende schulden en de
+seizoensinvloeden.
+
+vlottende activa # kortlopende schulden 4,0 5,1
+
+Solvabiliteit
+
+De solvabiliteit geeft aan in welke mate een onderneming op langere termijn in staat moet worden geacht haar
+verplichtingen jegens derden te kunnen voldoen. Indien het eigen vermogen wordt uitgedrukt in een verhouding tot
+het totale vermogen geldt dat de norm 33 1/3% (of meer) is. Indien het eigen vermogen wordt gesteld tegenover het
+vreemde vermogen, geldt dat de norm 50% (of hoger) is.
+
+(eigen vermogen + totaal vermogen) x 100% 77,3% 82,4%
+(eigen vermogen + vreemd vermogen) x 100% 339,8% 467,7 %
+Debiteuren
+
+Onder debiteuren wordt verstaan de waarde van de uitstaande vorderingen van de afnemers van producten en
+diensten. Op de post debiteuren is de voorziening voor oninbaarheid in mindering gebracht. De bruto omzet is
+inclusief de in rekening gebrachte omzetbelasting.
+
+Gemiddelde debiteurenstand
+
+(debiteuren 2024 + debiteuren ) + 2 48.530
+
+Omloopsnelheid debiteuren
+
+omzet + gemiddelde debiteurenstand 7,9
+
+Omlooptijd debiteuren in dagen
+
+(gemiddelde debiteurenstand + omzet) x 365 46,2
+
+vA”
+
+Vv
+
+Kengetallen
+
+2024 2023
+
+Crediteuren
+
+Onder crediteuren wordt verstaan de waarde van de uitstaande schulden aan de leveranciers van producten en
+diensten.
+
+Gemiddelde crediteurenstand
+
+(crediteuren 2024 + crediteuren ) + 2 2.809
+
+Omloopsnelheid crediteuren
+
+kostprijs van de omzet + gemiddelde crediteurenstand 0,0
+
+Omlooptijd crediteuren in dagen
+
+(gemiddelde crediteurenstand * kostprijs van de omzet) x 365 0,0
+
+Netto werkkapitaal in procenten van het kort vreemd vermogen
+
+Onder het netto-werkkapitaal wordt verstaan het totaal van het eigen vermogen plus lang vreemd vermogen minus de
+vaste activa. Het toont hoeveel investeringsruimte aanwezig is of hoeveel lang vreemd vermogen beschikbaar is voor
+de financiering van de vlottende activa. Het werkkapitaal kan ook worden uitgedrukt als het saldo van de vlottende
+activa minus de vlottende schulden. Het werkkapitaal is uitgedrukt in procenten van het kort vreemd vermogen. Een
+positief getal geeft aan dat tegenover de direct opeisbare verplichtingen ten minste evenveel kortlopende activa
+staan.
+
+(werkkapitaal + kort vreemd vermogen) x 100% 504,6% 613,5%
+
+<0e' OLE SEE PLE
+LI9' Zy 78058
+0 €28
+004’9 987 IL
+0 CIE GL
+6084 A ATA
+COEe'6l 874 LE
+0 LI9'G
+
+0 989 |
+L69 EEE LS 682
+0 097'99
+L69' EEL L69' EEL
+eEOe-el-LE veOe-el-LEe
+
+VAISSVd TVVLOL
+
+ueburuoHeruessn |
+
+ealssed epuedop1eAO
+
+uepinyos eBHSAO
+Bupemlensueles
+
+uebuueyezIen
+
+ejeloos sealed US UeBUISsPJEH
+uajoipeuysjepuey
+
+ue sJeloueJ9Ae) uee USPINYIS
+uebuijjerseg do uebuenjuo HINJOOA
+
+uopinyos epuedopuox
+
+JSUIM ep|eepleAuOD
+
+senlesel eBISAO
+
+reede
+
+- uaBbowuIen uaBIJ - uveBOWISASde0IS)
+
+VAISSVd
+
+EAISSed
+
+0e 022 GET VLE VAILIV TVVLOL
+L9v'€6 6SG'6LL
+197 €6 GGG 61 uebuiuevermjueg do uvepeobe
+uejeppiw epinbi
+SEO LGL 129 v9L
+490’ 64E LE enne epuedopeAo
+88864 T6E LE uebuuepIon eBSAOD
+GLE E L76' tl (ueuesoisued) uveBUISPIOA
+VEL LIL 650'/6 ueuneygepsjepuey do ueBbuuepson
+uoBuieplon
+VAILIV AONALLOTA
+eL8'Sz S00'0e
+Ev vl ere renfoj usjepplWwJeonsen eJepue ue s,OINY
+Z8E' LL O77'6l BuRYI LUI US SIJEJUSAUI
+enIjge asen ajeojen
+VAILIV ALSVA
+ez0e-el-Le ve0e-el-Le
+
+enHOY
+
+(Burwwajsegjeejjnses eu)
+
+vE0g Jeqweoep j£ Jed suejeg
+
+vA”
+
+Vv
+
+Winst- en verliesrekening 2024
+
+2024
+Netto-omzet 383.688
+Brutomarge 383.688
+Personeelskosten 177.122
+Afschrijvingen op immateriële en materiële vaste activa 9.180
+Overige bedrijfskosten
+Werkkostenregeling 687
+Overige personeelsgerelateerde kosten 4.755
+Huisvestingskosten 56.247
+Exploitatie- en machinekosten 2.234
+Verkoop gerelateerde kosten 234
+Autokosten 12.381
+Kantoorkosten 2.846
+Assurantiekosten 12.462
+Accountants- en advieskosten 10.770
+Administratieve lasten 490
+Andere kosten 15.215
+Bedrijfskosten 304.623
+Bedrijfsresultaat 79.065
+Financiële baten en lasten 2.150
+Effecten, financiële baten en lasten 2.150
+Resultaat voor belastingen 81.215
+Belastingen -14.755
+
+Netto resultaat na belastingen 66.460
+
+
+vA”
+
+Vv
+
+Toelichting en grondslagen financiële verslaglegging
+
+Informatie over de rechtspersoon
+
+Naam
+
+Zorgboerderij Flora B.V.
+
+Rechtsvorm
+
+Besloten vennootschap met beperkte aansprakelijkheid
+
+Zetel
+
+Registratienummer bij de Kamer van Koophandel
+68366914
+
+Classificatie op basis van de wettelijke groottecriteria
+Micro
+
+Bedrijfsactiviteiten
+
+- Huizen en dagverblijven voor verstandelijk gehandicapten
+
+Vestigingsadres
+
+Hessenweg 236
+3791PR Achterveld Ut
+
+Algemene grondslagen voor verslaglegging
+
+Algemeen
+
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW en de Richtlijnen voor de
+jaarverslaggeving, die uitgegeven zijn door de Raad van de jaarverslaggeving. Bedragen in de jaarrekening luiden in
+euro's, tenzij anders vermeld.
+
+Fiscale waarderingsgrondslag
+
+De toepassing van de fiscale waarderingsgrondslag heeft niet geleid tot een afwijking in de waardering volgens Titel 9
+Boek 2 BW, afdeling 6.
+
+Grondslagen voor de waardering van activa en passiva
+
+Activa en passiva
+
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van historische kosten.
+Tenzij bij de desbetreffende grondslag voor de specifieke balanspost anders wordt vermeld, worden de activa en de
+passiva opgenomen tegen nominale waarde.
+
+vA”
+
+Vv
+
+Toelichting en grondslagen financiële verslaglegging
+
+Materiële vaste activa
+
+Inventaris en inrichting
+De inventaris wordt gewaardeerd tegen aanschafwaarde verminderd met lineair berekende afschrijvingen na
+ingebruikname, gebaseerd op de verwachte economische levensduur (maximaal 10 jaren).
+
+Auto's en andere vervoermiddelen
+
+De transportmiddelen worden gewaardeerd tegen aanschafwaarde verminderd met lineair berekende afschrijvingen
+na ingebruikname, gebaseerd op de verwachte economische levensduur (maximaal 5 jaren).
+
+Vorderingen
+
+De vorderingen op korte termijn worden gewaardeerd tegen de nominale waarde, zonodig onder aftrek van een
+voorziening uit hoofde van oninbaarheid. In de cijfermatige opstelling is een specificatie opgenomen van de
+vorderingen, die een looptijd van langer dan één jaar hebben.
+
+Liquide middelen
+De liquide middelen staan, voor zover niet anders vermeld, ter vrije beschikking van de onderneming en betreffen de
+direct opeisbare vorderingen op kredietinstellingen en kasmiddelen.
+
+Kortlopende schulden
+De kortlopende schulden en overlopende passiva betreffen schulden met een looptijd van ten hoogste één jaar en
+worden - voor zover niet anders vermeld - gewaardeerd tegen nominale waarde.
+
+Grondslagen voor de bepaling van het resultaat
+
+Netto omzet
+Onder netto omzet wordt verstaan de aan derden in rekening gebrachte bedragen, exclusief omzetbelasting, voor
+geleverde goederen en diensten.
+
+Afschrijvingen op immateriële en materiële vaste activa
+
+De afschriĳvingskosten op vaste activa worden berekend door middel van vaste percentages van de
+aanschafwaarde, respectievelijk bestede kosten, gebaseerd op de verwachte economische levensduur, conform de
+grondslagen, welke zijn opgenomen onder de waarderingsgrondslagen.
+
+Personeelskosten
+Lonen, salarissen, sociale lasten en pensioenlasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+winsten-verliesrekening voor zover ze verschuldigd zijn aan werknemers.
+
+Overige bedrijfskosten
+De overige bedrijfskosten worden toegerekend aan de periode waarop ze betrekking hebben.
+
+
+vA”
+
+Vv
+
+Toelichting op de balans 2024 - Vaste Activa
+
+Materiële vaste activa
+
+Boekwaarde per 31-12-2023
+(Des)investeringen
+
+Afschrijvingen
+
+Overzicht mutaties 2024
+
+Stand 31-12-2023
+(Des)investeringen
+Afschrijvingen
+
+Stand 31-12-2024
+
+Boekwaarde per 31-12-2024
+(Des)investeringen
+
+Afschrijvingen
+
+Inventaris en
+
+Auto's en andere
+
+inrichting vervoermiddelen Totaal
+30.107 38.660 68.767
+-18.720 -24.234 -42.954
+11.387 14.426 25.813
+11.387 14.426 25.813
+13.371 0 13.371
+-5.318 -3,861 -9,179
+19.440 10.565 30.005
+43.478 38.660 82,138
+-24.038 -28.095 -52.133
+19.440 10.565 30.005
+
+
+vA”
+
+Vv
+
+Toelichting op de balans 2024 - Vlottende Activa
+
+2024 2023
+Vorderingen
+Vorderingen op handelsdebiteuren 97.059 117.754
+Vorderingen (pensioenen) 14.941 2.319
+Overige vorderingen 31.392 29.888
+Overlopende activa 21.279 1.067
+164.671 151.028
+Vorderingen op handelsdebiteuren
+Voorziening dubieuze debiteuren 54.783 -10.949
+Debiteuren 42.276 128.703
+97.059 117.754
+Vorderingen (pensioenen)
+Te betalen pensioenen 14.941 2.319
+14.941 2.319
+Overige vorderingen
+Rekening-courant aandeelhouder 1 31.392 29.888
+31.392 29.888
+Overlopende activa
+Nog te factureren 21.279 1.067
+21.279 1.067
+Liquide middelen
+Tegoeden op bankrekeningen 179.559 93.461
+179.559 93.461
+Tegoeden op bankrekeningen
+NL45RABO0113543468 49.559 23.384
+NL69RABO3461233226 130.000 70.077
+
+179.559 93.461
+
+vA”
+
+Vv
+
+Toelichting op de balans 2024 - Passiva
+
+NO
+
+AB
+
+Groepsvermogen - Eigen vermogen - Kapitaal
+
+Overige reserves
+
+Onverdeelde winst
+
+Overige reserves
+
+Algemene reserve
+
+Kortlopende schulden
+
+Vooruit ontvangen op bestellingen
+
+Schulden aan leveranciers en handelskredieten
+Belastingen en premies sociale verzekeringen
+Salarisverwerking
+
+Overige schulden
+
+Overlopende passiva
+
+Tussenrekeningen
+
+Vooruit ontvangen op bestellingen
+
+Vooruitontvangsten van klanten
+
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Belastingen en premies sociale verzekeringen
+Te betalen loonheffing
+Vennootschapsbelasting (saldo)
+
+Overige belastingen
+
+Salarisverwerking
+Te betalen netto lonen en salarissen
+Te betalen premies en sociale lasten
+Reservering vakantiegeld
+
+Overige reserveringen
+
+2024 2023
+222.691 222.691
+66.460 0
+289.151 222.691
+222.691 222.691
+222.691 222.691
+2024 2023
+1.686 0
+5.617 0
+21.748 19.302
+23.412 22.109
+15.262 0
+16.486 6.200
+873 0
+85.084 47.611
+1.686 0
+1.686 0
+5.617 0
+5.617 0
+7.332 12.293
+14.686 7.009
+-270 0
+21.748 19.302
+-4,431 0
+773 0
+22.312 22.109
+4.758 0
+23.412 22.109
+
+
+vA”
+
+Vv
+
+Toelichting op de balans 2024 - Passiva
+
+Overige schulden
+
+Te betalen pensioenpremies
+
+Overlopende passiva
+Nog te ontvangen facturen
+
+Overige overlopende passiva
+
+Tussenrekeningen
+Tussenrekening pinbetalingen
+
+Tussenrekening iDEAL betalingen
+
+15.262 0
+15.262 0
+10.286 0
+6.200 6.200
+16.486 6.200
+669 0
+204 0
+873 0
+
+
+vA”
+
+Vv
+
+Toelichting op de Winst- en verliesrekening 2024
+
+2024
+Netto-omzet
+Opbrengsten zorg 354.731
+Opbrengsten voorgaande jaren 19.058
+Omzet voorgaande jaren 9.899
+383.688
+Personeelskosten
+Lonen en salarissen 153.450
+Sociale lasten 15.971
+Pensioenlasten 7.701
+177.122
+Lonen en salarissen
+Salarissen 128.747
+Vakantiegeld 14.986
+Eindejaarsuitkering 9.717
+153.450
+Sociale lasten
+Premies en sociale lasten 15.971
+15.971
+Pensioenlasten
+Pensioenen 7.701
+7.701
+Afschrijvingen op immateriële en materiële vaste activa
+Afschrijvingen op materiële vaste activa 9.180
+9.180
+Afschrijvingen op materiële vaste activa
+Afschrijvingskosten inventaris en inrichting 5.319
+Afschrijvingskosten auto's en andere vervoermiddelen 3.861
+
+9.180
+
+vA”
+
+Vv
+
+Toelichting op de Winst- en verliesrekening 2024
+
+2024
+Overige bedrijfskosten
+Werkkostenregeling 687
+Overige personeelsgerelateerde kosten 4.755
+Huisvestingskosten 56.247
+Exploitatie- en machinekosten 2.234
+Verkoop gerelateerde kosten 234
+Autokosten 12.381
+Kantoorkosten 2.846
+Assurantiekosten 12.462
+Accountants- en advieskosten 10.770
+Administratieve lasten 490
+Andere kosten 15.215
+118.321
+Werkkostenregeling
+Personeelsuitjes 611
+Werkkleding 76
+687
+Overige personeelsgerelateerde kosten
+Reiskostenvergoedingen (onbelast) 3.058
+Opleidingskosten (personeel) 1.165
+Uitbesteed werk 345
+Werkkleding (personeel) 187
+4.755
+Huisvestingskosten
+Huur bedrijfspand 34.286
+Onderhoud pand 147
+Kosten Tuin 4.870
+Kosten Dieren 8.145
+Directe kosten 7.973
+Overige huisvestingskosten 826
+56.247
+
+Exploitatie- en machinekosten
+Kleine Aanschaf 2.234
+2.234
+
+vA”
+
+Vv
+
+Toelichting op de Winst- en verliesrekening 2024
+
+Verkoop gerelateerde kosten
+Representatiekosten
+
+Lunches en diners
+
+Autokosten
+Brandstof auto's
+Onderhoud auto's
+Motorrijtuigenbelasting
+
+Parkeergelden
+
+Kantoorkosten
+Onderhoud inventaris
+Portokosten
+Contributies en abonnementen
+Kantoorinventaris kantoorkosten (< € 450)
+
+Automatiseringskosten
+
+Assurantiekosten
+
+Verzekeringen algemeen
+
+Accountants- en advieskosten
+
+Administratie- en accountantskosten
+
+Administratieve lasten
+
+Bankkosten
+
+Andere kosten
+Clientgebonden kosten
+
+Overige kosten
+
+2024
+
+125
+109
+234
+
+4.998
+4.905
+2.460
+18
+12.381
+
+88
+
+32
+104
+323
+2.299
+2.846
+
+12.462
+12.462
+
+10.770
+10.770
+
+490
+490
+
+14.005
+1.210
+15.215
+
+
+vA”
+
+Vv
+
+Toelichting op de Winst- en verliesrekening 2024
+
+2024
+Financiële baten en lasten
+Rentebaten 2.150
+2.150
+Rentebaten
+Rentebaten vorderingen op aandeelhouders 1.504
+Rentebaten bank 646
+2.150
+Belastingen
+Belastingen over de winst of het verlies 14.755
+14.755
+Belastingen over de winst of het verlies
+Vennootschapsbelasting (kosten/baten) 14.755
+
+14.755
+
+vA”
+
+Vv
+
+Overige toelichtingen
+
+Aantal werknemers
+Het gemiddeld aantal werknemers in 2024 is 6.
+
+Bestuursverslag
+
+Op grond van Titel 9 Boek 2 van het Burgerlijk Wetboek (artikel 396, lid 7) is de vennootschap vrijgesteld van de
+verplichting tot het opstellen van een bestuursverslag. De directie heeft gebruik gemaakt van deze vrijstelling en
+derhalve ontbreekt een bestuursverslag.
+
+Deskundigenonderzoek
+
+Op grond van Titel 9 Boek 2 van het Burgerlijk Wetboek (artikel 396, lid 7) is de vennootschap vrijgesteld van de
+verplichting tot controle van de jaarrekening door een accountant. Op grond daarvan is geen opdracht tot
+accountantscontrole verstrekt en ontbreekt derhalve een controleverklaring.
+
+(Samenstellingsverklaring afgegeven)
+
+Vastgesteld door de algemene vergadering op 04 juni 2025 te Achterveld Ut,
+4 juni 2025

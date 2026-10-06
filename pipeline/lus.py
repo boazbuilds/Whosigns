@@ -22,6 +22,18 @@ er nog niet waren komen erbij. Wat de bron zegt (hoeveel organisaties er in een
 categorie zitten) wordt dus elke keer opnieuw opgehaald, maar wat wij al gedaan
 hebben nooit overschreven.
 
+**Waarom een boekjaar twee keer terugkomt.** Een blok dat klaar is, draait nooit
+meer. Dat ging mis bij boekjaar 2025: de lus las het op 30-7-2026, midden in de
+publicatietermijn, en kreeg bij D/E en bij C elk 132× "geen verslag". Op 5-10-2026
+waren dat er nog 44 en 50 — het CBF had er sindsdien 88 en 82 bij — en de lus
+stond stil omdat alle 133 blokken klaar waren. Daarom plant `plan` zelf een
+herkansing (HERKANSINGEN): een boekjaar komt op 1 oktober en op 1 januari daarna
+opnieuw langs, als nieuwe blokken naast de oude, maar alleen als de laatste ronde
+van dat boekjaar vóór dat moment lag. De lader slaat wat al een gelezen opdracht
+heeft over vóór de download, dus een herkansing haalt alleen op wat nog open was.
+Zo loopt de lus vanzelf mee, ook met boekjaar 2026 in 2027 — zonder dat iemand de
+code hoeft aan te passen.
+
 **Waarom deze volgorde.** De werkvoorraad is gesorteerd op wat het meeste oplevert
 per verzoek, gemeten in `docs/bronverkenning-stichtingen.md`: eerst categorie D/E
 (daar is een controleverklaring een harde norm, trefkans 73–81%), en daarbinnen
@@ -44,7 +56,7 @@ import os
 import subprocess
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
@@ -58,12 +70,49 @@ LADER = HIER / "laad_stichtingen.py"
 
 BLOKGROOTTE = 50
 
-# Boekjaren in de volgorde waarin ze het product het snelst iets laten zien.
-# 2024 is de volste jaargang (93% van de organisaties heeft er een verslag), 2023
-# staat er direct achter zodat de eerste wisselingen na twee jaargangen zichtbaar
-# zijn. 2025 is nog aan het vullen (deponeringstermijn) en 2019–2021 hebben een
-# lagere dekking, dus die komen achteraan. Ouder dan 2019 houdt het CBF niet aan.
-BOEKJAREN = (2024, 2023, 2025, 2022, 2021, 2020, 2019)
+# Vanaf wanneer een boekjaar in het plan komt: 1 juli van het jaar erna, als
+# (maand, dag). De Erkenningsregeling geeft een goed doel zes maanden na afloop van
+# het boekjaar voor het jaarverslag; daarvóór staat er bij het CBF vrijwel niets.
+INSTROOM = (7, 1)
+
+
+def boekjaren(vandaag: date) -> tuple[int, ...]:
+    """De boekjaren in het plan, in de volgorde waarin ze het product het snelst
+    iets laten zien.
+
+    Hier stond een vaste rij, (2024, 2023, 2025, 2022, 2021, 2020, 2019), en die
+    regel levert hij op 5-10-2026 precies op. Het volle jaar vóór het jongste
+    eerst (2024: 93% van de organisaties heeft er een verslag), het jaar daarvoor
+    er direct achter zodat de eerste wisselingen na twee jaargangen zichtbaar
+    zijn, dan het jongste jaar (dat vult nog) en de rest achteraan. Ouder dan
+    `cbf.OUDSTE_BOEKJAAR` houdt het CBF niet aan.
+
+    Afgeleid van de datum en niet uitgeschreven: anders komt boekjaar 2026 in
+    2027 pas in het plan als iemand eraan denkt de code aan te passen.
+    """
+    jongste = vandaag.year - (1 if (vandaag.month, vandaag.day) >= INSTROOM else 2)
+    volgorde = (
+        jongste - 1, jongste - 2, jongste,
+        *range(jongste - 3, cbf.OUDSTE_BOEKJAAR - 1, -1),
+    )
+    return tuple(j for j in volgorde if j >= cbf.OUDSTE_BOEKJAAR)
+
+
+BOEKJAREN = boekjaren(date.today())
+
+# Wanneer een boekjaar opnieuw gelezen wordt: (label, jaren na het boekjaar, maand),
+# steeds op de eerste van de maand. Boekjaar 2025 dus op 1-10-2026 (h1) en op
+# 1-1-2027 (h2).
+#
+# Oktober omdat dan het gros er staat. Boekjaar 2025 bij D/E: op 30-7-2026 had het
+# CBF van 132 organisaties nog geen verslag, op 5-10-2026 van 44. Van boekjaar 2024
+# missen er nu, een jaar later, nog 19: na oktober komt er dus nog een staart
+# achteraan, en die is voor januari. Een herkansing draait alleen als de laatste
+# ronde van dat boekjaar vóór het moment lag: boekjaar 2024 is pas in juli 2026
+# gelezen, ruim na zijn eigen oktober en januari, en dan valt er niets in te
+# halen. Gemeten: twintig D/E-verslagen over 2024 zonder gelezen opdracht opnieuw
+# gelezen op 5-10-2026, nul opdrachten.
+HERKANSINGEN = (("h1", 1, 10), ("h2", 2, 1))
 
 # De populaties waaruit de werkvoorraad wordt opgebouwd, op volgorde van wat ze
 # opleveren. Alle aantallen hieronder zijn gemeten op boekjaar 2024, niet geschat
@@ -96,6 +145,10 @@ POPULATIES = (
         "soorten": ["controle"],
         "terugval": True,
         "prioriteit": 10,
+        # De kern komt terug als het jongste boekjaar is aangevuld; zie
+        # HERKANSINGEN. Leesproef 5-10-2026: van twintig D/E-verslagen over 2025
+        # zonder gelezen opdracht leverden er negen een opdracht op.
+        "herkansing": True,
     },
     {
         # 157 organisaties, 20 opdrachten en 11 review in boekjaar 2024 (64%).
@@ -108,6 +161,12 @@ POPULATIES = (
         "soorten": ["controle"],
         "terugval": True,
         "prioriteit": 20,
+        # Ook C: daar had het CBF op 5-10-2026 110 verslagen over 2025 staan,
+        # waarvan er 100 nog niet gelezen waren. De twee populaties daaronder
+        # niet: bij een ingetrokken erkenning komen er geen nieuwe jaargangen
+        # meer bij (2025: 103× geen verslag), en A/B leverde 2-4 opdrachten per
+        # jaargang op.
+        "herkansing": True,
     },
     {
         # 110 organisaties die de erkenning kwijt zijn. Van de 14 uit D/E leverde
@@ -167,7 +226,10 @@ MAX_POGINGEN = 3
 # Let op de grens hiervan: een blok dat al `klaar` is, wordt niet opnieuw gedraaid,
 # ook niet als je zijn omschrijving verandert. Wil je een afgeronde populatie met
 # nieuwe instellingen overdoen, geef hem dan een nieuwe `sleutel` (dan zijn het
-# nieuwe blokken) of zet de status van die blokken terug op `open`.
+# nieuwe blokken). De status terugzetten op `open` werkt alleen op de databranch
+# zelf: een werkvoorraad die op main verandert, verliest het bij het samenvoegen
+# van die op de databranch (zie stichtingenlus.yml). Een herkansing is om dezelfde
+# reden een nieuw blok-id en geen status die terug op open gaat.
 UITKOMST_VELDEN = (
     "status", "pogingen", "gedraaid_op", "minuten", "telling", "overgeslagen",
 )
@@ -219,8 +281,46 @@ def te_doen(voorraad: dict) -> list[dict]:
     return sorted(open_taken, key=_sorteersleutel)
 
 
-def plan(blokgrootte: int) -> int:
+def herkansingen(
+    sleutel: str, boekjaar: int, bestaand: dict[str, dict], vandaag: date
+) -> list[str]:
+    """Welke herkansingen van dit boekjaar in het plan horen (hun labels).
+
+    Een herkansing die al in de werkvoorraad staat, blijft in het plan: ook als
+    hij half gedraaid is. Anders zou het eerste klare blok de laatste ronde ná
+    het moment leggen, en dan vielen de open blokken ernaast uit het plan.
+
+    Een nieuwe komt er alleen als het moment voorbij is én dit boekjaar al eens
+    gedraaid heeft, vóór dat moment. Heeft het nog nooit gedraaid, dan doet de
+    gewone ronde het werk al; is het al ná het moment gelezen, dan valt er niets
+    in te halen dat die ronde niet ook zag.
+    """
+    voorvoegsel = f"{sleutel}-{boekjaar}-"
+    laatst = max(
+        (
+            taak["gedraaid_op"]
+            for taak_id, taak in bestaand.items()
+            if taak_id.startswith(voorvoegsel) and taak.get("gedraaid_op")
+        ),
+        default=None,
+    )
+    uit = []
+    for label, jaren_erna, maand in HERKANSINGEN:
+        if any(taak_id.startswith(f"{voorvoegsel}{label}-") for taak_id in bestaand):
+            uit.append(label)
+            continue
+        moment = date(boekjaar + jaren_erna, maand, 1)
+        # `gedraaid_op` is "JJJJ-MM-DD UU:MM"; als tekst vergelijken met
+        # "JJJJ-MM-DD" klopt, en een ronde op de dag zelf telt als erna.
+        if moment <= vandaag and laatst is not None and laatst < moment.isoformat():
+            uit.append(label)
+    return uit
+
+
+def plan(blokgrootte: int, vandaag: date | None = None) -> int:
     """Bouwt de werkvoorraad uit het CBF-register; bestaande uitkomsten blijven."""
+    vandaag = vandaag or date.today()
+    jaren = boekjaren(vandaag)
     voorraad = lees()
     bestaand = {taak["id"]: taak for taak in voorraad["taken"]}
     taken: list[dict] = []
@@ -231,47 +331,38 @@ def plan(blokgrootte: int) -> int:
         print(
             f"{populatie['naam']}: {len(organisaties)} organisaties "
             f"→ {blokken} blok{'ken' if blokken != 1 else ''} × "
-            f"{len(BOEKJAREN)} boekjaren",
+            f"{len(jaren)} boekjaren",
             flush=True,
         )
         if not organisaties:
             continue
-        for boekjaar in BOEKJAREN:
-            for nummer, vanaf in enumerate(
-                range(0, len(organisaties), blokgrootte), start=1
-            ):
-                taak_id = f"{populatie['sleutel']}-{boekjaar}-{nummer:02d}"
-                taak = {
-                    "id": taak_id,
-                    "prioriteit": populatie["prioriteit"],
-                    "populatie": populatie["naam"],
-                    "boekjaar": boekjaar,
-                    # Als tekst en niet als lijst: precies wat de lader op de
-                    # opdrachtregel wil, en het houdt de werkvoorraad leesbaar
-                    # (een lijst van twee kost in JSON vier regels).
-                    "categorieen": ",".join(populatie["categorieen"]),
-                    "erkenning": populatie["erkenning"],
-                    "soorten": ",".join(populatie["soorten"]),
-                    "terugval": populatie.get("terugval", False),
-                    "ocr": populatie.get("ocr", True),
-                    "vanaf": vanaf,
-                    "aantal": min(blokgrootte, len(organisaties) - vanaf),
-                    "status": "open",
-                    "pogingen": 0,
-                    "gedraaid_op": None,
-                    "minuten": None,
-                    "telling": {},
-                }
-                # Bestaat het blok al, dan houden we de **uitkomst** en niet de
-                # omschrijving. De code zegt wat een blok is, de werkvoorraad wat er
-                # met dat blok gebeurd is. Zou je het hele oude blok overnemen, dan
-                # bereikt een wijziging in POPULATIES (een categorie erbij, terugval
-                # aan) de blokken nooit die al gepland waren — en dan staat er iets
-                # in de code dat niet gebeurt.
-                oud = bestaand.get(taak_id)
-                if oud:
-                    taak.update({v: oud[v] for v in UITKOMST_VELDEN if v in oud})
-                taken.append(taak)
+        for boekjaar in jaren:
+            # De gewone ronde, en daarna wat er aan herkansingen bij hoort. Een
+            # herkansing is precies hetzelfde blok onder een eigen id, iets eerder
+            # in de rij: het nieuwste boekjaar is waar de bezoeker op wacht.
+            rondes = [("", populatie["prioriteit"])]
+            if populatie.get("herkansing"):
+                for label in herkansingen(populatie["sleutel"], boekjaar, bestaand, vandaag):
+                    voorvoegsel = f"{populatie['sleutel']}-{boekjaar}-{label}-"
+                    if not any(taak_id.startswith(voorvoegsel) for taak_id in bestaand):
+                        print(f"  boekjaar {boekjaar}: herkansing {label} erbij", flush=True)
+                    rondes.append((label, populatie["prioriteit"] - 5))
+            for label, prioriteit in rondes:
+                for nummer, vanaf in enumerate(
+                    range(0, len(organisaties), blokgrootte), start=1
+                ):
+                    taak = _blok(populatie, boekjaar, label, nummer, vanaf,
+                                 prioriteit, blokgrootte, len(organisaties))
+                    # Bestaat het blok al, dan houden we de **uitkomst** en niet de
+                    # omschrijving. De code zegt wat een blok is, de werkvoorraad wat
+                    # er met dat blok gebeurd is. Zou je het hele oude blok
+                    # overnemen, dan bereikt een wijziging in POPULATIES (een
+                    # categorie erbij, terugval aan) de blokken nooit die al gepland
+                    # waren — en dan staat er iets in de code dat niet gebeurt.
+                    oud = bestaand.get(taak["id"])
+                    if oud:
+                        taak.update({v: oud[v] for v in UITKOMST_VELDEN if v in oud})
+                    taken.append(taak)
 
     behouden = {taak["id"] for taak in taken}
     verdwenen = [
@@ -294,7 +385,7 @@ def plan(blokgrootte: int) -> int:
         {
             "bron": "cbf",
             "blokgrootte": blokgrootte,
-            "boekjaren": list(BOEKJAREN),
+            "boekjaren": list(jaren),
             "taken": taken,
         }
     )
@@ -306,11 +397,58 @@ def plan(blokgrootte: int) -> int:
         voorraad["gepland_op"] = _nu()
 
     schrijf(voorraad)
+    open_blokken = len(te_doen(voorraad))
     print(f"\n{len(taken)} blokken in de werkvoorraad ({len(nieuw)} nieuw)")
     if weggevallen:
         print(f"{len(weggevallen)} nog niet gedraaide blokken vallen buiten het plan")
     print(f"Werkvoorraad: {WERKVOORRAAD.relative_to(HIER.parent)}")
+    # Voor de workflow: is er niets te doen, dan slaat hij de rest van de ronde
+    # over. Zo'n lege ronde deed wél de kantorenlijsten opnieuw, en dat zette elke
+    # keer een rij in `bronnen` — vier per dag sinds 5-8-2026, en de site las daar
+    # de datum "Stand per …" uit.
+    uitvoer = os.environ.get("GITHUB_OUTPUT")
+    if uitvoer:
+        with open(uitvoer, "a", encoding="utf-8") as bestand:
+            bestand.write(f"open_blokken={open_blokken}\n")
     return 0
+
+
+def _blok(
+    populatie: dict,
+    boekjaar: int,
+    herkansing: str,
+    nummer: int,
+    vanaf: int,
+    prioriteit: int,
+    blokgrootte: int,
+    totaal: int,
+) -> dict:
+    """Eén blok zoals de code het beschrijft, nog zonder uitkomst."""
+    deel = f"{herkansing}-" if herkansing else ""
+    taak = {
+        "id": f"{populatie['sleutel']}-{boekjaar}-{deel}{nummer:02d}",
+        "prioriteit": prioriteit,
+        "populatie": populatie["naam"],
+        "boekjaar": boekjaar,
+        # Als tekst en niet als lijst: precies wat de lader op de opdrachtregel
+        # wil, en het houdt de werkvoorraad leesbaar (een lijst van twee kost in
+        # JSON vier regels).
+        "categorieen": ",".join(populatie["categorieen"]),
+        "erkenning": populatie["erkenning"],
+        "soorten": ",".join(populatie["soorten"]),
+        "terugval": populatie.get("terugval", False),
+        "ocr": populatie.get("ocr", True),
+        "vanaf": vanaf,
+        "aantal": min(blokgrootte, totaal - vanaf),
+        "status": "open",
+        "pogingen": 0,
+        "gedraaid_op": None,
+        "minuten": None,
+        "telling": {},
+    }
+    if herkansing:
+        taak["herkansing"] = herkansing
+    return taak
 
 
 # ---------------------------------------------------------------- stand
@@ -502,7 +640,7 @@ def _vat_samen(
         [
             titel,
             "",
-            f"| blok | boekjaar | organisaties | opdracht | review | status |",
+            "| blok | boekjaar | organisaties | opdracht | review | status |",
             "|---|---|---|---|---|---|",
             *regels,
             "",

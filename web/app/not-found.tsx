@@ -34,7 +34,6 @@ export default async function NietGevonden() {
             toelichting: org.gemeente ?? undefined,
           })),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
           ...sectorlijst.map((sector) => ({
             naar: sectorPad(sector.naam),
             tekst: `Sector ${sector.naam}`,

@@ -1,13 +1,48 @@
 /** Gedeelde bouwstenen voor de pagina's. */
 
 import Link from "next/link";
+import type { Bronlabel, Kantoor } from "@/lib/db";
 import {
   kantoorPad,
   kortKantoor,
   OORDEEL_LABEL,
   oordeelOpvallend,
+  OPDRACHT_LABEL,
+  paginaNummers,
+  procent,
+  SOORT_UITLEG,
+  SOORTGROEP,
+  vergunningSoort,
+  type Vergunningsoort,
 } from "@/lib/paden";
 import { wapenVoor } from "@/lib/wapen";
+
+/**
+ * Wat voor opdracht het was, als label.
+ *
+ * Drie tinten, omdat er drie soorten verschil te maken zijn. De wettelijke
+ * controle is negen van de tien opdrachten en dus de norm: die staat rustig.
+ * De vrijwillige controle is ook een volledige jaarrekeningcontrole, maar er
+ * was geen plicht — dat verschil is klein en het label dus bijna hetzelfde.
+ *
+ * De derde groep is de reden dat dit onderdeel bestaat: een verklaring bij een
+ * WNT-opgave, een productieverantwoording of een subsidieafrekening gaat NIET
+ * over de jaarrekening. Stond die als grijze tekst tussen de rest, dan las een
+ * bezoeker hem als "de accountant heeft de jaarrekening gecontroleerd". Die
+ * springt er nu uit.
+ */
+export function Soort({ type }: { type: string }) {
+  const groep = SOORTGROEP[type] ?? "onbekend";
+  const klasse =
+    groep === "anders" ? "label label-anders"
+    : groep === "onbekend" ? "label label-vaag"
+    : "label";
+  return (
+    <span className={klasse} title={SOORT_UITLEG[type] ?? undefined}>
+      {OPDRACHT_LABEL[type] ?? type}
+    </span>
+  );
+}
 
 /**
  * Het oordeel als label; niet-goedkeurend krijgt nadruk.
@@ -110,7 +145,7 @@ export function KantoorLink({
 export function KortKantoorLink({
   kantoor,
 }: {
-  kantoor: { afm_nummer: string | null; naam: string; id?: number } | null;
+  kantoor: { afm_nummer: string | null; naam: string; id: number } | null;
 }) {
   if (!kantoor) return <span className="zacht">?</span>;
   const kort = kortKantoor(kantoor.naam);
@@ -121,6 +156,51 @@ export function KortKantoorLink({
     >
       {kort}
     </Link>
+  );
+}
+
+const VERGUNNING_KORT: Record<Vergunningsoort, string> = {
+  oob: "OOB",
+  wta: "Wta",
+  vervallen: "vervallen",
+  geen: "geen Wta-vergunning",
+};
+
+const VERGUNNING_VOLUIT: Record<Vergunningsoort, string> = {
+  oob: "OOB-vergunning",
+  wta: "reguliere Wta-vergunning",
+  vervallen: "niet meer in het AFM-register",
+  geen: "geen Wta-vergunning",
+};
+
+/**
+ * Het vergunningslabel achter een kantoornaam, kort in een tabel en voluit op
+ * de kantoorpagina — met de regel van vergunningSoort(). OOB als gekleurd
+ * label; de rest als tekst in de klasse van de plek waar het staat.
+ */
+export function Vergunning({
+  kantoor,
+  voluit = false,
+  className,
+}: {
+  kantoor: Pick<Kantoor, "afm_nummer" | "oob_vergunning" | "wta_vergunning" | "actief">;
+  voluit?: boolean;
+  className?: string;
+}) {
+  const soort = vergunningSoort(kantoor);
+  const tekst = (voluit ? VERGUNNING_VOLUIT : VERGUNNING_KORT)[soort];
+  if (soort === "oob") return <span className="label label-oob">{tekst}</span>;
+  return (
+    <span
+      className={className}
+      title={
+        soort === "vervallen"
+          ? "Staat niet meer in het AFM-register van accountantsorganisaties"
+          : undefined
+      }
+    >
+      {tekst}
+    </span>
   );
 }
 
@@ -140,12 +220,86 @@ export function Aandeelbalk({ deel, geheel }: { deel: number; geheel: number }) 
   const pct = geheel > 0 ? (deel / geheel) * 100 : 0;
   return (
     <span className="balkregel">
-      <span className="balk" role="img" aria-label={`${pct.toFixed(1)} procent`}>
+      <span className="balk" role="img" aria-label={procent(pct)}>
         <span style={{ width: `${Math.max(pct, 1.5)}%` }} />
       </span>
-      <span className="pct">{pct.toFixed(1)}%</span>
+      <span className="pct">{procent(pct)}</span>
     </span>
   );
+}
+
+/**
+ * Een aantal als balk, geschaald op de grootste in dezelfde lijst — zonder
+ * percentage.
+ *
+ * Voor de lijsten over alle sectoren heen (voorpagina, /kantoren). Daar stond
+ * een Aandeelbalk met "12,9%", maar de noemer was alles wat er voor dat
+ * boekjaar in de database stond, en welke sectoren dat zijn verschilt per jaar.
+ * Een aandeel of plek noemt de site alleen binnen één sector en één boekjaar;
+ * hier blijft alleen de verhouding tussen de aantallen over, en die is waar.
+ */
+export function Telbalk({ aantal, grootste }: { aantal: number; grootste: number }) {
+  const breedte = grootste > 0 ? (aantal / grootste) * 100 : 0;
+  return (
+    <span className="balkregel" aria-hidden="true">
+      <span className="balk">
+        <span style={{ width: `${Math.max(breedte, 1.5)}%` }} />
+      </span>
+    </span>
+  );
+}
+
+/**
+ * Het bronlabel bij een gegeven dat iemand zelf heeft aangeleverd, zoals het
+ * marktonderzoek; bij een openbare bron niets.
+ *
+ * De labelplicht uit docs/concept.md: bij elk gegeven hoort zichtbaar te zijn
+ * of het uit een openbare bron komt. Het colofon belooft dat opdrachten uit
+ * marktonderzoek dat label dragen, maar tot 5-10-2026 stond het alleen naast
+ * een bron met een url — en het marktonderzoek heeft er geen. Zo stonden
+ * 35.582 opdrachten bij 12.726 organisaties zonder label, waarvan 11.646
+ * organisaties met niets anders dan marktonderzoek. Alleen het soort bron, nooit
+ * de leverancier of een bestandsnaam.
+ */
+export function Aangeleverd({
+  bron,
+  jaren,
+  van,
+}: {
+  bron: Bronlabel | null | undefined;
+  /** Bij een periode: de boekjaren die op deze bron rusten. */
+  jaren?: number[];
+  /** En alle boekjaren van die periode. Rust maar een deel op de aangeleverde
+   *  bron, dan staan die jaren in het label zelf: "marktonderzoek 2018" naast
+   *  een periode 2018–2025 zegt iets anders dan alleen "marktonderzoek". */
+  van?: number[];
+}) {
+  if (!bron || bron.betrouwbaarheid !== "zelf_aangeleverd") return null;
+  const uitleg = `${bron.bron_type}, niet uit een openbaar document en niet per opdracht na te slaan.`;
+  const deel = jaren?.length ? jarenKort(jaren) : "";
+  const titel = deel
+    ? `${jaren!.length === 1 ? "Boekjaar" : "Boekjaren"} ${deel}: aangeleverd ${uitleg}`
+    : `Aangeleverd ${uitleg}`;
+  const gedeeltelijk = deel && van && jaren!.length < new Set(van).size;
+  return (
+    <span className="label label-vaag" title={titel}>
+      {gedeeltelijk ? `${bron.bron_type} ${deel}` : bron.bron_type}
+    </span>
+  );
+}
+
+/** "2017–2018, 2021": aaneengesloten jaren als reeks, de rest los. */
+function jarenKort(jaren: number[]): string {
+  const gesorteerd = [...new Set(jaren)].sort((a, b) => a - b);
+  const stukken: string[] = [];
+  let begin = gesorteerd[0];
+  for (let i = 1; i <= gesorteerd.length; i++) {
+    if (gesorteerd[i] === gesorteerd[i - 1] + 1) continue;
+    const eind = gesorteerd[i - 1];
+    stukken.push(begin === eind ? `${begin}` : `${begin}–${eind}`);
+    begin = gesorteerd[i];
+  }
+  return stukken.join(", ");
 }
 
 /** Waar je heen kunt: een grote knop met naam, toelichting en wapens. */
@@ -329,6 +483,60 @@ export function Inklapbaar({
       <summary>{samenvatting}</summary>
       {children}
     </details>
+  );
+}
+
+/**
+ * Bladeren door een lijst die te lang is voor één pagina.
+ *
+ * Waar <Inklapbaar> de staart wél in de HTML laat staan, is dit voor lijsten
+ * waar dat niet meer gaat: de organisaties van de financiële dienstverlening
+ * waren 4.165 regels en 1,8 MB HTML, ook ingeklapt (5-10-2026). Gewone links
+ * in dezelfde vorm als de jaarkiezer, zodat elke pagina een eigen adres heeft
+ * en het zonder JavaScript werkt. Rond de huidige pagina een paar nummers, en
+ * altijd de eerste en de laatste.
+ */
+export function Paginering({
+  pagina,
+  aantalPaginas,
+  pad,
+}: {
+  pagina: number;
+  aantalPaginas: number;
+  pad: (pagina: number) => string;
+}) {
+  if (aantalPaginas <= 1) return null;
+  const nummers = paginaNummers(pagina, aantalPaginas);
+  return (
+    <nav className="keuzebalk paginering" aria-label="Kies een pagina">
+      {pagina > 1 ? (
+        <Link href={pad(pagina - 1)} rel="prev">
+          ← Vorige
+        </Link>
+      ) : null}
+      {nummers.map((n, i) =>
+        n === null ? (
+          <span key={`weg-${i}`} className="weggelaten" aria-hidden="true">
+            …
+          </span>
+        ) : (
+          <Link
+            key={n}
+            href={pad(n)}
+            className={n === pagina ? "actief" : undefined}
+            aria-current={n === pagina ? "page" : undefined}
+            aria-label={`Pagina ${n}`}
+          >
+            {n}
+          </Link>
+        ),
+      )}
+      {pagina < aantalPaginas ? (
+        <Link href={pad(pagina + 1)} rel="next">
+          Volgende →
+        </Link>
+      ) : null}
+    </nav>
   );
 }
 

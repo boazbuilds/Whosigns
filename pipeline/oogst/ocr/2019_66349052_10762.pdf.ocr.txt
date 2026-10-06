@@ -1,0 +1,1282 @@
+# whosigns-ocr v1 grootte=13472357 dpi=300 paginas=20
+Kracht in Zorg Holding B.V.
+
+7.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING (GECONSOLIDEERD)
+7.1.4.1 Algemeen (Geconsolideerd)
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2019, dat is geëindigd op balansdatum 31 december 2019.
+
+Grondslagen voor het opstellen van de jaarrekening
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi (RvW).
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd op historische kosten, tenzij anders
+vermeld in de verdere grondslagen.
+
+Consolidatie
+
+In de jaarrekening van Kracht in Zorg Holding B.V. zijn de financiële gegevens geconsolideerd van Kracht in Zorg Holding B.V.
+en de volgende groepsmaatschappijen:
+
+- Kracht in Zorg WMO B.V, te Amstenrade (100%)
+
+- Kracht in Zorg WLZ B.V, te Amstenrade (100%)
+
+- Bread & Company B.V. te Amstenrade (100%)
+
+Grondslagen voor de consolidatie
+
+In de geconsolideerde jaarrekening van Kracht in Zorg Holding B.V. zijn de financiële gegevens verwerkt van de tot de groep behorende
+maatschappijen en andere rechtspersonen waarop een overheersende zeggenschap kan worden uitgeoefend of waarover de centrale leiding wordt
+gevoerd. De geconsolideerde jaarrekening is opgesteld met toepassing van de grondslagen voor de waardering en de resultaatbepaling van Kracht in
+Zorg Holding B.V.
+
+De financiële gegevens van de groepsmaatschappijen en de andere in de consolidatie betrokken rechtspersonen en vennootschappen zijn volledig in
+de geconsolideerde jaarrekening opgenomen onder eliminatie van de onderlinge verhoudingen en transacties. Belangen van derden in het vermogen
+en in het resultaat van groepsmaatschappijen zijn afzonderlijk in de geconsolideerde jaarrekening tot uitdrukking gebracht.
+
+De resultaten van nieuw verworven groepsmaatschappijen en de andere in de consolidatie meegenomen rechtspersonen en vennootschappen worden
+geconsolideerd vanaf de overnamedatum. Op die datum worden de activa, voorzieningen en schulden gewaardeerd tegen de reële waarden. De
+betaalde goodwill wordt geactiveerd en afgeschreven over de economische levensduur. De resultaten van afgestoten deelnemingen worden in de
+consolidatie verwerkt tot het tijdstip waarop de groepsband wordt verbroken.
+
+Continuïteitsparagraaf
+
+Het eigen vermogen van Kracht in Zorg Holding B.V. bedraagt per 31 december 2019 € 354.079 negatief. De financiering hiervan vindt geheel plaats
+met kortlopende en langlopende schulden, waaronder door groepsmaatschappijen in rekening-courant verstrekte middelen en een lening van de oud
+aandeelhouder a.g.v. de inkoop van eigen aandelen. De continuïteit van de vennootschap hangt in hoge mate af van de bereidheid van de
+groepsmaatschappijen en de oud aandeelhouder deze financiering te continueren. Op dit moment zijn hierover nog geen concrete toezeggingen
+gedaan. Hierdoor bestaat er een onzekerheid van materieel belang op grond waarvan gerede twijfel zou kunnen bestaan over de continuïteit van het
+geheel van de werkzaamheden van Kracht in Zorg Holding B.V.
+
+Wij verwachten dat resultaat en kasstromen de komende jaren positief zullen blijven. Aflossing van de lening van de oud aandeelhouder kunnen uit de
+operationele kasstroom worden voldaan.
+
+Op basis van gesprekken die zijn gevoerd met de groepsmaatschappijen en oud aandeelhouder verwachten wij dat de financiering zal worden
+gecontinueerd.
+
+De in de onderhavige jaarrekening gehanteerde grondslagen van waardering en resultaatbepaling zijn dan ook gebaseerd op de veronderstelling van
+continuïteit van de vennootschap.
+
+Wf
+. Í |
+Pagina 12 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar.
+
+Vergelijkende cijfers
+De vergelijkende cijfers voor 2018 zijn ontleend aan de betreffende jaarrekening en waar nodig, geherrubriceerd om vergelijkbaarheid met 2019
+mogelijk te maken.
+
+Foutherstel
+
+Bij de samenstelling van de jaarrekening 2019 is gebleken dat bij de bepaling van de balansposities met betrekking tot het financieringssysteem in de
+Jeugdwet regio Zuid Limburg, sedert 2017 omissies zijn opgetreden. Er is gebleken dat de hoogte van de posities debiteuren, nog te factureren en
+vooruitontvangend bedragen niet juist zijn weergegeven. Conform Richtlijn voor de Jaarverslaggeving 150 is deze fundamentale fout gecorrigeeerd in
+het vermogen op 31 december 2018 en zijn de vergelijkende cijfers gepresenteerd na correctie van de fundamentele fout.
+
+Het effect van het foutenherstel op het eigen vermogen per 1 januari 2019 en op het resultaat over 2018 bedraagt € 571.427 (negatief). De effecten op
+de individuele posten bedragen als volgt:
+
+Jaarrekening 2018 Vergelijkende cijfers
+Balans (activa) € €
+6. Debiteuren 16.779 225.533
+7. Nog te factureren omzet 0 853.564
+9. Overige vorderingen 554.681 4.192
+571.460 1.083.289
+Balans (passiva)
+18. Vooruitontvangen bedragen Jeugdwet 0 939.513
+19. Reservering niet opgenomen vakantiedagen en PBL 0 35.500
+19. Verplichtingen aan onderaannemers 164.043 250.286
+19. Overige schulden en overlopende passiva 4,094 26.094
+168.137 1.251.393
+Winst-en-verliesrekening
+20. Omzet 3.512.497 3.937.600
+22. Werk derden en uitgegeven werk 0 -1.009.968
+23. Bruto lonen en salarissen (bruto lonen) -2.055.431 -2.077.431
+23. Bruto lonen en salarissen (mutatie reserveringen) -16.626 -52.126
+25. Overige personeelskosten (inhuur derden) -70.938 0
+1.369.502 798.075
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en veronderstellingen maakt die van invloed zijn op de
+toepassing van grondslagen en de gerapporteerde waarde van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen
+afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend beoordeeld. Herzieningen van schattingen
+worden opgenomen in de periode waarin de schatting wordt herzien en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+7.1.4.2 Grondslagen van waardering van activa en passiva (geconsolideerd)
+
+Activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in de verdere grondslagen. Toelichtingen op
+posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen naar de onderneming zullen toevloeien
+en het actief een kostprijs of een waarde heeft waarvan de omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet
+in de balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+De jaarrekening wordt gepresenteerd in euro's.
+
+Wi
+R EA
+Pagina 13 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek van cumulatieve afschrijvingen en cumulatieve
+bijzondere waardeverminderingen.
+
+De afschrijvingstermijnen van materiële vaste activa zijn gebaseerd op de verwachte economische levensduur van het vast actief.
+
+Materiële vaste activa met een beperkte gebruiksduur worden afzonderlijk afschreven op basis van de verwachte economische levensduur en rekening
+houdend met een eventuele restwaarde. In het geval dat belangrijkste bestanddelen van een materieel vast actief van elkaar te onderscheiden zijn en
+verschillen in gebruiksduur of verwacht gebruikspatroon, worden deze bestandsdelen afzonderlijk afgeschreven.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs volgens de lineaire methode op basis van de
+verwachte economische levensduur. Er wordt afgeschreven vanaf het moment van ingebruikneming.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+
+* Machines en installaties : 20%.
+
+* Andere vaste bedrijfsmiddelen : 20%.
+
+Bijzondere waardeverminderingen
+
+De vennootschap beoordeelt op iedere balansdatum of er aanwijzingen zijn dat een vast actief aan een bijzondere waardevermindering onderhevig kan
+zijn. Indien dergelijke indicaties aanwezig zijn, wordt de realiseerbare waarde van het actief vastgesteld. Indien het niet mogelijk is de realiseerbare
+waarde voor het individuele actief te bepalen, wordt de realiseerbare waarde bepaald van de kasstroomgenererende eenheid waartoe het actief
+behoort. Van een bijzondere waardevermindering is sprake als de boekwaarde van een actief hoger is dan de realiseerbare waarde; de realiseerbare
+waarde is de hoogste van de opbrengstwaarde en de bedrijfswaarde. Een bijzonder-waardeverminderingsverlies wordt direct als last verwerkt in de
+winst-en-verliesrekening onder gelijktijdige verlaging van de boekwaarde van het betreffende actief.
+
+Indien wordt vastgesteld dat een bijzondere waardevermindering die in het verleden verantwoord is, niet meer bestaat of is afgenomen, dan wordt de
+toegenomen boekwaarde van de desbetreffende activa niet hoger gesteld dan de boekwaarde die bepaald zou zijn indien geen bijzondere
+waardevermindering voor het actief zou zijn verantwoord.
+
+Ook voor financiële instrumenten beoordeelt de vennootschap op iedere balansdatum of er objectieve aanwijzingen zijn voor bijzondere
+waardeverminderingen van een financieel actief of een groep van financiële activa. Bij objectieve aanwijzingen voor bijzondere waardeverminderingen
+bepaalt de vennootschap de omvang van het verlies uit hoofde van de bijzondere waardeverminderingen, en verwerkt dit direct in de winst-en-
+verliesrekening.
+
+Financiële vaste activa
+
+Latente belastingvorderingen
+De latente belastingvordering uit hoofde van het compensabel verlies is gewaardeerd tegen het nominale belastingtarief van 16,5%.
+
+Voorraden
+Voorraden zijn gewaardeerd tegen kostprijs onder aftrek van een voorziening voor incourantheid, of tegen lagere opbrengstwaarde.
+
+Vorderingen
+
+De eerste waardering van vorderingen is tegen reële waarde, inclusief transactiekosten. (Door toepassing van de effectieve rentemethode worden
+transactiekosten als onderdeel van de amortisatie in de winst- en verliesrekening verwerkt). De vervolgwaardering van vorderingen is tegen
+geamortiseerde kostprijs (indien geen sprake van agio/disagio of transactiekosten dan geamortiseerde kostprijs gelijk aan nominale waarde). Een
+voorziening wordt getroffen op de vorderingen op grond van verwachte oninbaarheid.
+
+Een vordering uit hoofde van financieringstekorten of een schuld uit hoofde van financieringsoverschotten is het aan het einde van het boekjaar
+bestaande verschil tussen het wettelijk budget voor aanvaardbare kosten en de ontvangen voorschotten en de in rekening gebrachte vergoedingen
+voor diensten en verrichtingen ter dekking van het wettelijk budget (artikel 6 Regeling verslaggeving WTZi).
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan twaalf maanden. Rekening-courantschulden
+bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de
+nominale waarde.
+
+Liquide middelen die naar verwachting langer dan 12 maanden niet ter beschikking staan van de onderneming, worden gerubriceerd als financiële
+vaste activa.
+
+Kortlopende schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan één jaar. De kortlopende schulden hebben
+een verwachte looptijd van maximaal één jaar. De schulden worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs.
+
+Wf
+N Î |
+Pagina 14 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+7.1.4.3 Grondslagen van resultaatbepaling (Geconsolideerd)
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming van de hiervoor reeds vermelde
+waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het economisch potentieel, samenhangend met een
+vermeerdering van een actief of een vermindering van een verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden
+vastgesteld. Lasten worden verwerkt wanneer een vermindering van het economisch potentieel, samenhangend met een vermindering van een actief
+of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking genomen in het jaar waarin deze voorzienbaar
+zijn. De overige baten en lasten worden toegerekend aan de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit boekjaar
+toegerekend. In het geval van een geconstateerde fout in voorgaande boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het bedrag van de opbrengsten op betrouwbare
+wijze kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht
+betrouwbaar kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaakt om de dienstverlening te
+voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden bepaald, worden de opbrengsten verwerkt tot
+het bedrag van de kosten van de dienstverlening die worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn verantwoord.
+
+Personele kosten
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de resultatenrekening voorzover ze verschuldigd zijn aan
+werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de winst-en-verliesrekening verantwoord in de periode waarin de arbeidsprestatie wordt verricht en,
+voor zover nog niet uitbetaald, als verplichting op de balans opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen,
+wordt het meerdere opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling door het personeel of van verrekening met
+toekomstige betalingen door de instelling.
+
+Pensioenen
+
+Kracht in Zorg heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking komende werknemers hebben op de
+pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer
+pensioen heeft opgebouwd bij Kracht in Zorg. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht bij het
+bedrijfstakpensioenfonds Zorg en Welzijn. Kracht in Zorg betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft door
+de werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het pensioenfonds (het vermogen van
+het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat. Per 1 januari 2015 gelden nieuwe regels voor pensioenfondsen. Daarbij
+behoort ook een nieuwe berekening van de dekkings-graad. De ‘nieuwe! dekkingsgraad is het gemiddelde van de laatste twaalf dekkingsgraden. Door
+een gemiddelde te gebruiken, zal de dekkingsgraad nu minder sterk schommelen. Het vereiste niveau van de dekkingsgraad is 128%. Het
+pensioenfonds verwacht volgens het herstelplan binnen 2 jaar hieraan te kunnen voldoen en voorziet geen noodzaak voor de aangesloten instellingen
+om extra stortingen te verrichten of om bijzondere premieverhogingen door te voeren. Kracht in Zorg heeft geen verplichting tot het voldoen van
+aanvullende bijdragen in geval van een tekort bij het pensioenfonds, anders dan het effect van hogere toekomstige premies. Kracht in Zorg heeft
+daarom alleen de verschuldigde premies tot en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) en aan derden en groepsmaatschappijen
+betaalde (te betalen) interest. Tevens is hieronder opgenomen het aandeel van de stichting in het resultaat van de op nettovermogenswaarde
+gewaardeerde deelnemingen danwel ontvangen dividenden van deelnemingen waarin geen invloed van betekenis op het zakelijke en financiële beleid
+wordt uitgeoefend en waardeveranderingen van financiële vaste activa en effecten.
+
+Overheidssubsidies
+
+Overheidssubsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra er redelijke zekerheid bestaat dat zij zullen worden
+ontvangen en dat de groep zal voldoen aan de daaraan verbonden voorwaarden. Subsidies ter compensatie van door de groep gemaakte kosten
+worden systematisch als opbrengsten in de winst-en-verliesrekening opgenomen in dezelfde periode als die waarin de kosten worden gemaakt.
+Subsidies ter compensatie van de groep voor de kosten van een actief worden systematisch in de winst-en-verliesrekening opgenomen gedurende de
+gebruiksduur van het actief. Een krediet afgesloten tegen een lagere rente dan de marktrente, wordt als schuld in de balans opgenomen waarbij
+waardering plaatsvindt zoals opgenomen onder Financiële instrumenten. Het verschil tussen het hogere ontvangen bedrag van het krediet en de
+boekwaarde bij eerste verwerking betreft het voordeel als gevolg van de lagere rente. Dit voordeel wordt verwerkt als overheidssubsidie.
+
+Belastingen
+
+De belasting over het resultaat uit gewone bedrijfsuitoefening wordt berekend met inachtneming van fiscale faciliteiten. Voor zover de berekende
+belasting betrekking heeft op mutaties van waarderingsverschillen tussen de commerciële en de fiscale winstbepaling, wordt het betreffende deel ten
+bate of ten laste van de voorziening voor latente belastingen gebracht.
+
+Voor beschikbare voorwaartse verliescompensatie en nog niet gebruikte fiscale verrekeningsmogelijkheden wordt een latente belastingvordering
+opgenomen voorzover het waarschijnlijk is dat er toekomstige fiscale winst beschikbaar zal zijn waarmee verliezen kunnen worden gecompenseerd en
+verrekeningsmogelijkheden kunnen worden benut.
+
+Latente belastingverplichtingen- en vorderingen worden gewaardeerd tegen nominale waarde op basis van het actuele belastingtarief. Voorzover
+bovengenoemde compensatie op middellange termijn onwaarschijnlijk is, wordt op deze vordering een voorziening in mindering gebracht.
+
+7.1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht (Geconsolideerd)
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide middelen en
+
+beleggingen die zonder beperkingen en zonder materieel risico van waardeverminderingen als gevolg van de transactie kunnen worden omgezet in
+geldmiddelen.
+
+fj
+. Î |
+Pagina 15 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+7.1.5 TOELICHTING OP DE GECONSOLIDEERDE BALANS 31-dec-19 31-dec-18
+€ €
+
+ACTIVA
+Materiële vaste activa
+
+De specificatie is als volgt:
+
+Inventaris 98.259 92.289
+Vervoermiddelen 134.321 125.935
+Totaal materiële vaste activa 232.580 218.224
+
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven:
+
+1. Inventaris
+
+Boekwaarde per 1 januari 92.289 77.952
+Bij: investeringen 34.098 29.892
+Af: afschrijvingen -28.128 -14.855
+Boekwaarde per 31 december 98.259 92.989
+Aanschafwaarde per 31 december 154.864 120.766
+Cumulatieve afschrijvingen 56.605 28.477
+Boekwaarde per 31 december 98.259 92.289
+
+2. Vervoermiddelen
+
+Boekwaarde per 1 januari 125.935 64.001
+Investeringen minus desinvesteringen 39.750 83.121
+Af: afschrijvingen -31.364 -21.187
+Boekwaarde per 31 december 134.321 125.935
+Aanschafwaarde per 31 december 184.715 144.965
+Cumulatieve afschrijvingen 50.394 19.030
+Boekwaarde per 31 december 134.321 125.935
+
+Financiële vaste activa
+
+De specificatie is als volgt:
+Latente belastingvorderingen 72.934 0
+
+Totaal financiële vaste activa 72.934 0
+
+Het verloop van de financiële activa in het verslagjaar is als volgt weer te geven:
+
+3. Latente belastingvorderingen
+
+Stand per 1 januari 0 0
+
+Mutatie boekjaar 72.934 0
+
+Stand per 31 december 72.934 0
+
+Per 31 december 2019 bedraagt de omvang van de nog te verrekenen verliezen van Kracht in zorg WMO B.V. € 433.022.
+
+Vlottende activa
+
+4, Voorraden
+
+Handelsgoederen 2500 2500
+
+Emballage 624 374
+3124 2874
+
+5. Vorderingen op groepsmaatschappijen
+
+Rekening courant Guido Jessen Holding B.V. 0 274.255
+
+Rekening courant Eric Nafzager Holding B.V. 5.036 273.438
+
+5.036 547.693
+
+Rekening courant Guido Jessen Holding B.V.
+
+Stand per 1 januari 274.255 266.267
+Overige mutaties 274.255 0
+0 266.267
+Rente boekjaar 0 7.988
+0 274.255
+
+De rente bedraagt 3%.
+Met betrekking tot aflossing en zekerheden werden geen afspraken gemaakt.
+
+Í)
+Pagina 16 / Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+31-dec-19 31-dec-18
+
+€ €
+
+Rekening courant Ericd Nafzger Holding B.V.
+Stand per 1 januari 273.438 265.474
+Overige mutaties 268.450 0
+4.988 265.474
+Rente boekjaar 48 7.964
+
+5.036 273.438
+
+De rente bedraagt 3%.
+Met betrekking tot aflossing en zekerheden werden geen afspraken gemaakt.
+
+6. Debiteuren
+
+Openstaand saldo per 31 december 49.317 225.533
+
+Een voorziening in verband met oninbaarheid wordt niet noodzakelijk geacht.
+
+De debiteuren over het jaar 2018 zijn a.g.v. foutherstel en herrubriceringen € 208.754 hoger verantwoord dan de vastgestelde jaarrekening 2018.
+Voor een volledig overzicht van de herrubriceringen en aanpassingen van de vergelijkende cijfers wordt verwezen naar de paragraaf
+
+foutherstel in de toelichting op de jaarrekening.
+
+7. Nog te factureren bedragen
+
+Nog te factureren bedragen van de in 2019 geleverde diensten en gestarte trajecten. 261.538 853.564
+
+De nog te factureren bedragen over het jaar 2018 zijn a.g.v. foutherstel en herrubriceringen € 853.564 hoger verantwoord dan de vastgestelde
+jaarrekening 2018. Voor een volledig overzicht van de herrubriceringen en aanpassingen van de vergelijkende cijfers wordt verwezen naar
+de paragraaf foutherstel in de toelichting op de jaarrekening.
+
+8. Belastingen en premies
+
+Vennootschapsbelasting 16.260 0
+
+Pensioenpremies 1.683 0
+17.943 0
+
+9. Overige vorderingen
+
+Vooruitbetaalde huur 3.603 3.648
+
+Tussenrekening IZZ 1.368 544
+
+Te ontvangen ziekengeld 895 0
+
+Lening u/g 4.000 0
+
+Reis en verblijfkosten 272 0
+
+Overige 334 0
+10.472 4192
+
+De lening u/g werd in het opvolgende boekjaar geheel afgelost.
+
+De overige vorderingen (Nog te ontvangen omzet) over het jaar 2018 zijn a.g.v. foutherstel en herrubriceringen € 550.489 lager verantwoord
+
+dan de vastgestelde jaarrekening 2018. Voor een volledig overzicht van de herrubriceringen en aanpassingen van de vergelijkende cijfers
+
+wordt verwezen naar de paragraaf foutherstel in de toelichting op de jaarrekening.
+
+10. Liquide middelen
+
+Rekeningen courant ABN Amro en deposito 468.338 320.708
+
+Kasgelden 5.741 289
+
+474.079 320.997
+
+De tegoeden bij de bank staan volledig ter vrije beshikking
+
+Pagina 17 W
+/ U Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+31-dec-19 31-dec-18
+
+€ €
+PASSIVA
+Eigen vermogen
+11. Geplaatst en volgestort aandelenkapitaal
+Stand per 1 januari en 31 december 20.000 20.000
+Bij de oprichting van de vennootschap zijn 200 (nummers 1 t/m 200) aandelen van nominaal € 100
+geplaatst en volgestort.
+Het geplaatste kapitaal is in handen van:
+Guido Jessen Holding B.V. 0 10.000
+Eric Nafzger Holding B.V. 10.000 10.000
+Kracht in zorg Holding B.V. 10.000 0
+20.000 20.000
+12. Agioreserve
+Stand per 1 januari 783.912 783.912
+Af: Uitdeling 548.510 0
+Stand per 31 december 235.402 783.912
+13. Overige reserves
+Stand per 1 januari 355.477 199.202
+Foutherstel -571.427 0
+Stand per 1 januari na foutherstel -215.950 199.202
+Bij: Resultaat 171.469 156.275
+-44.481 355.477
+Inkoop eigen aandelen -565.000 0
+Resultaatcorrectie a.g.v. foutherstel 0 -571.427
+Stand per 31 december na foutherstel -609.481 -215.950
+Langlopende schulden
+14. Lening Guido Jessen Holding B.V.
+Ter financiering van de inkoop eigen aandelen is door Guido Jessen Holding B.V. een financiering verstrekt.
+Het verloop van deze rekening is als volgt weer vte geven:
+Verstrekking lening 565.000 0
+Af: Aflossingen 88.135 0
+Restschuld per 31 december 476.865 0
+Aflossingsverplichting volgend boekjaar 100.393 0
+376.472 0
+
+De rente over de restantschuld bedraagt het 3-maands Euribortarief, verhoogd met 1,5% per jaar. Aflossing bedraagt € 100.393 per jaar.
+15. Leaseverplichtingen
+
+Ter gedeeltelijke financiering van de vervoermiddelen werden leaseverpolichtingen aangegaan.
+Het verloop van deze verplichtingen is als volgt weer te geven:
+
+Restschuld per 1 januari 71.482 42.709
+Bij: Verstrekkingen 19.750 78.349
+
+91.232 121.058
+Af: Aflossingen 18.856 49.576
+
+72.376 71.482
+Aflossingsverplichting volgend boekjaar 20.379 17.728
+Restschuld per 31 decemver 51.997 53.754
+
+De gemiddelde rentevoet bedraagt circa 5% per jaar.
+Alle leaseverplichtingen hebben een looptijd korter dan 5 jaar
+
+|
+|F
+Pagina 18 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+Kortlopende schulden
+
+16. Aflossingsverplichting langlopende schulden
+Lening Guido Jessen Holding B.V.
+Leaseverplichtingen
+
+17. Belastingen en premies
+
+Omzetbelasting
+
+Loonheffing
+
+Vennootschapsbelasting
+Pensioenpremies
+
+18. Vooruitontvangen bedragen Jeugdwet
+
+Vooruitontvangen trajectvergoedingen in het kader van jeugdbegeleiding
+
+31-dec-19 31-dec-18
+
+€ €
+100.393 0
+20.379 17.728
+120.772 17.728
+406 2.744
+149.201 123.730
+0 25.282
+
+0 1.155
+
+149.607 152.911
+
+258.169 939.513
+
+De vooruitontvangen omzet over het jaar 2018 zijn a.g.v. foutherstel en herrubriceringen € 939.513 lager verantwoord dan de vastgestelde
+jaarrekening 2018. Voor een volledig overzicht van de herrubriceringen en aanpassingen van de vergelijkende cijfers wordt verwezen naar
+
+de paragraaf foutherstel in de toelichting op de jaarrekening.
+
+19. Overige schulden en overlopende passiva
+
+Accountantskosten
+
+Te betalen kosten cliënten
+
+Opleidingskosten
+
+Automatiseringskosten
+
+Reservering vakantiegelden
+
+Reservering niet opgenomen vakantiedagen en PBL
+Vooruitontvangen bedragen Coöperatie JenS
+Verplichtingen aan onderaannemers
+
+Overige schulden en overlopende passiva
+
+7.500 8.262
+
+0 358
+
+8.842 11.819
+192 192
+78.891 88.698
+55.500 35.500
+332.529 0
+30.491 250.286
+10.140 26.094
+
+524.085 421.209
+
+De reservering vakantiegelden over het jaar 2018 zijn a.g.v. foutherstel en herrubriceringen € 35.500 hoger verantwoord dan de vastgestelde
+jaarrekening 2018. De verplichtingen aan onderaannemers over het jaar 2018 zijn a.g.v. foutherstel en herrubriceringen € 86.243 hoger
+verantwoord dan de vastgestelde jaarrekening 2018, Voor een volledig overzicht van de herrubriceringen en aanpassingen van de vergelijkende
+
+cijfers wordt verwezen naar de paragraaf foutherstel in de toelichting op de jaarrekening.
+
+Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+Huurverplichtingen
+
+Raadhuisplein 10A, Amstenrade
+Raadhuisplein 7, Amstenrade
+Hoofdstraat 14 Amstenrade
+
+Pagina 19
+
+€ 1.093,00 per maand
+€ 2.210,00 per maand
+€ 763,81 per maand
+
+Wf
+EA
+| Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+7.1.6 TOELICHTING OP DE GECONSOLIDEERDE RESULTATENREKENING 2019 2018
+€ €
+
+BEDRIJFSOPBRENGSTEN:
+
+20. Omzet zorgactiviteiten
+
+Omzet WMO 970.844 880.716
+Omzet Jeugdwet 1.502.784 2.502.631
+Omzet PGB/WLZ 97.503 218.756
+Omzet Forensische zorg 221.421 46.646
+Omzet overige zorgprestaties 185.611 73.924
+
+2.978.163 _ 3.722.673
+
+De omzet over het jaar 2018 is a.g.v. foutherstel en herrubriceringen € 425.103 hoger verantwoord dan de vastgestelde jaarrekening 2018.
+Voor een volledig overzicht van de herrubriceringen en aanpassingen van de vergelijkende cijfers wordt verwezen naar de paragraaf foutherstel
+in de toelichting op de jaarrekening.
+
+21. Omzet overig
+
+Omzet onderaannemerschap 995.052 0
+Omzet overige dienstverlening 36.282 82.500
+Omzet horeca activiteiten 171.058 143.072
+
+1.202.392 225.572
+
+WERK DERDEN EN UITGEGEVEN WERK
+
+22. Werk derden en uitgegeven werk
+Door ZZP'ers en onderaannemers uitgevoerde werkzaamheden 430.591 1.009.968
+Inkoopwaarde horeca 76.928 62.060
+
+507.519 1.072.028
+
+De inhuur ZZP'ers en onderaannemers over het jaar 2018 is a.g.v. foutherstel en herrubriceringen € 1.009.968 hoger verantwoord dan de
+vastgestelde jaarrekening 2018. Voor een volledig overzicht van de herrubriceringen en aanpassingen van de vergelijkende cijfers wordt
+verwezen naar de paragraaf foutherstel in de toelichting op de jaarrekening.
+
+SOM DER KOSTEN
+
+23. Bruto lonen en salarissen
+
+Bruto lonen 2.294.349 2.077.431
+Beloning Raad van commissarissen 23.873 21.175
+Mutatie reserveringen 14.131 48.630
+
+2.332.353 2.147.236
+Uitkeringen ziekengeld -38.531 -49,924
+
+2.293.822 2.097.312
+
+De mutatie reserveringen over het jaar 2018 is a.g.v. foutherstel € 47.500 hoger verantwoord dan de vastgestelde jaarrekening 2018.
+
+24. Sociale lasten en premies
+
+Sociale lasten 374.793 318.028
+
+Pensioenpremies 158.024 142.435
+532.817 460.463
+
+Gemiddeld aantal werknemers (FTE) 45 41
+25. Overige personeelskosten
+
+Bedrijfskleding 33 131
+Studie- en opleidingskosten 50.142 52.695
+Reis- en parkeerkosten 136.848 135.267
+Herverzekering ziekengeld 21.676 14.811
+Overige personeelskosten 25.340 23.597
+
+234.039 226.501
+
+De overige personeelskosten over het jaar 2018 zijn a.g.v. foutherstel en herrubriceringen € 70.938 lager verantwoord dan de vastgestelde
+jaarrekening 2018.
+
+26. Afschrijvingen
+
+Inventarissen 28.128 14.855
+Vervoermiddelen 31.364 21.187
+59.492 36.042
+
+Í)
+Pagina 20 / Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+2019 2018
+€ €
+27. Huisvestingskosten
+Huur 62.445 54.136
+Vaste lasten 3.410 1.191
+Onderhoud gebouwen 1.244 4.615
+Schoonmaakkosten 23.655 9.136
+Gas, water en electra 12.217 9.532
+102.971 78.610
+28. Kosten cliënten
+Beschut beschermd wonen 75.058 50.578
+Kosten dagbesteding 11.809 17.218
+Overige kosten cliënten 26.456 29.090
+113.323 96.886
+29. Verkoopkosten
+Reclame en promotiekosten 2.471 3.569
+Representatiekosten 4.105 1.442
+Decoratie zaak 1.088
+Overige verkoopkosten 9.102 9.307
+15.678 15.406
+30. Autokosten
+Brandstof 17.090 12.543
+Reparatie en onderhoud 5.135 8.065
+Assurantiepremies 7.525 7.852
+Motorrijtuigenbelasting 3.349 2.541
+Overige autokosten 404 9.756
+33.503 40.757
+31. Kantoorkosten
+Kantoorbenodigdheden 14.094 10.621
+Telefoon- en faxkosten 21.266 28.708
+Abonnementen en contributies 9.867 6.185
+Kosten automatisering 54.315 54.567
+Assurantiepremies 25.313 21.570
+Reparatie en onderhoud 12.048 6.601
+
+136.903 128.252
+
+32. Algemene kosten
+
+Accountantskosten 21.846 20.629
+Externe advieskosten 28.262 53.657
+50.108 74.286
+
+FINANCIËLE BATEN EN LASTEN
+
+33. Baten
+Rente rekening courant Guido Jessen Holding B.V. 0 7.988
+rente rekening courant Eric Nafzger Holding 48 7.964
+48 15.952
+34. Lasten
+Rente belastingen 350 815
+Rente lening Guido Jessen Holding 5.431 0
+Rente en kosten bankier 6.293 5.170
+12.074 5.985
+
+Wf
+ENA
+Pagina 21 I Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+8.1
+
+8.1.1
+
+BEZOLDIGING TOPFUNCTIONARISSEN
+
+Leidinggevendde topfunctionarissen
+
+E.M.H. Nafzger
+
+Gegevens 2019
+Functiegegevens Bestuurder
+Aanvang en einde functievervulling in 2019 01/01-31-12
+Omvang dienstverband 1
+Dienstbetrekking Ja
+Bezoldiging
+Beloning plus belaste onkostenvergoedingen 129.966
+Beloning betaalbaar op termijn 0
+Totaal bezoldiging 129.966
+Toepasselijk bezoldigingsmaximum 130.000
+Onverschuldigd betaald n.v.t.
+Bezoldiging 129.966
+Reden waarom de overschrijding is toegestaan n.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling n.v.t.
+
+Gegevens 2018
+Functiegegevens Bestuurder
+Aanvang en einde functievervulling in 2018 01/01-31-12
+Omvang dienstverband 1
+Dienstbetrekking Ja
+Bezoldiging
+Beloning incl. belaste onkostenvergoedingen 125.000
+Beloning betaalbaar op termijn 0
+Totaal bezoldiging 125.000
+Toepasselijk bezoldigingsmaximum 125.000
+Onverschuldigd betaald n.v.t.
+Bezoldiging 125.000
+Reden waarom de overschrijding is toegestaan n.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling n.v.t.
+
+Pagina 22
+
+\
+/ Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+8.1.2 Toezichthoudende topfunctionarissen
+
+J. de Leon-Adams A. Meij-Welie M. Meijer
+
+Gegevens 2019
+Functiegegevens Lid Lid Voorzitter
+Aanvang en einde functievervulling in 2019 01/01-31/07 01/01-31/07f01/01-31/12
+Bezoldiging
+Beloning incl. belaste onkostenvergoedingen 2.917 3.602 9.575
+Beloning betaalbaar op termijn 0 0 0
+Totaal bezoldiging 2.917 3.602 9.575)
+Toepasselijk bezoldigingsmaximum 7.583 7.583 19.500
+Onverschuldigd betaald n.v.t. n.v.t. nvt.
+Bezoldiging 2.917 3.602 9.575,
+Reden waarom de overschrijding is toegestaan
+Toelichting op de vordering wegens onverschuldigde betaling
+
+Gegevens 2018
+Functiegegevens Lid Lid Voorzitter
+Aanvang en einde functievervulling in 2018 01/01-31/12 01/01-31/12f01/01-31/12
+Bezoldiging
+Beloning incl. belaste onkostenvergoedingen 5.000 5.000 7.500
+Beloning betaalbaar op termijn 0 0 0
+Totaal bezoldiging 5.000 5.000 7.500
+Toepasselijk bezoldigingsmaximum 12.500 12.500 18.750
+Onverschuldigd betaald n.v.t. n.v.t. nvt.
+Bezoldiging 5.000 5.000 7.500
+Reden waarom de overschrijding is toegestaan n.v.t. n.v.t. [n.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling n.v.t. n.v.t. [nvt
+
+G. Glezer R. Wullschleger
+
+Gegevens 2019
+Functiegegevens Lid Lid
+Aanvang en einde functievervulling in 2018 01/09-31/12 01/09-31/12
+Bezoldiging
+Beloning incl. belaste onkostenvergoedingen 3.467 3.467
+Beloning betaalbaar op termijn 0 0
+Totaal bezoldiging 3.467 3.467
+Toepasselijk bezoldigingsmaximum 4.333 4.333
+Onverschuldigd betaald n.v.t. n.v.t.
+Bezoldiging 3.467 3.467
+Reden waarom de overschrijding is toegestaan
+Toelichting op de vordering wegens onverschuldigde betaling
+
+Gegevens 2018
+Functiegegevens n.v.t. n.v.t.
+Aanvang en einde functievervulling in 2018 n.v.t. n.v.t.
+Bezoldiging n.v.t. n.v.t.
+Beloning incl. belaste onkostenvergoedingen n.v.t. n.v.t.
+Beloning betaalbaar op termijn n.v.t. n.v.t.
+Totaal bezoldiging n.v.t. n.v.t.
+Toepasselijk bezoldigingsmaximum n.v.t. n.v.t.
+Onverschuldigd betaald n.v.t. n.v.t.
+Bezoldiging n.v.t. n.v.t.
+Reden waarom de overschrijding is toegestaan n.v.t. n.v.t.
+Toelichting op de vordering wegens onverschuldigde betaling n.v.t. n.v.t.
+
+in
+
+. EA
+Pagina 23 | I_ kenmerk: 20100.0/Dv/02102020
+
+Kracht in Zorg Holding B.V.
+
+9.1 ENKELVOUDIGE JAARREKENING
+
+Wi
+. |
+Pagina 24 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+9.1 ENKELVOUDIGE JAARREKENING
+
+9.1.1 ENKELVOUDIGE BALANS PER 31 DECEMBER 2019
+(na resultaatbestemming)
+Ref. 31-dec-19 31-dec-18
+€ €
+
+ACTIVA
+
+Vaste activa
+
+Financiële vaste activa
+Deelnemingen 35 697.644 547.730
+697.644 547.730
+
+Vlottende activa
+
+Vorderingen op groepsmaatschappijen en participanten 36 144.906 547.693
+Belastingen en premies 37 6.617 8.123
+Liquide middelen 38 10.924 41.526
+Totaal vlottende activa 162.447 597.342
+Totaal activa 860.091 1.145.072
+Ref. 31-dec-19 31-dec-18
+€ €
+
+PASSIVA
+
+Eigen vermogen
+
+Gestort en opgevraagd kapitaal 11 20.000 20.000
+Agio reserve 12 235.402 783.912
+Overige reserves 13 -609.481 -215.950
+Totaal groepsvermogen -354.079 587.962
+Langlopende schulden
+Lening Guido Jessen Holding B.V. 14 376.472 0
+376.472 0
+Kortlopende schulden (ten hoogste 1 jaar)
+Aflossingsverplichting langlopende schulden 39 100.393 0
+Belastingen en premies 40 17.159 8.223
+Schulden aan groepsmaatschappijen 41 711.715 519.950
+Overige schulden 42 8.431 28.937
+Totaal kortlopende schulden (ten hoogste 1 jaar) 837.698 557.110
+Totaal passiva 860.091 1.145.072
+
+tin
+Pi
+Pagina 25 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+9.1.2 ENKELVOUDIGE RESULTATENREKENING OVER 2019
+
+Ref. 2019 2018
+€ €
+BEDRIJFSOPBRENGSTEN:
+Managementfee 43 165.000 110.000
+165.000 110.000
+SOM DER KOSTEN
+Bruto lonen en salarissen 44 113.396 113.832
+Overige personeelskosten 45 1.265 1.236
+Verkoopkosten 496 0 170
+Kantoorkosten 47 1.647 0
+Algemene kosten 48 5.790 3.467
+122.098 118.705
+BEDRIJFSRESULTAAT 42.902 -8.705
+FINANCIËLE BATEN EN LASTEN
+Baten 49 526 15.952
+Lasten 50 21.984 15.437
+-21.458 515
+RESULTAAT VOOR BELASTINGEN 21.444 -8.190
+BELASTING RESULTAAT 51 111 2.771
+21.555 -10.961
+RESULTAAT DEELNEMINGEN 52 149.914 -404.191
+RESULTAAT BOEKJAAR 171.469 -415.152
+RESULTAATBESTEMMING 2019 2018
+Het resultaat is als volgt verdeeld: € €
+Algemene / overige reserves 171.469 -415.152
+
+171.469 -415.152
+
+in
+
+EA
+Pagina 26 | I)_ kenmerk: 20100.0/Dv/02102020
+
+Kracht in Zorg Holding B.V.
+
+9.1.3 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING (enkelvoudig)
+9,1.3.1 Algemeen
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2019, dat is geëindigd op balansdatum 31 december 2019.
+
+Grondslagen voor het opstellen van de jaarrekening
+Voor zover niet anders vermeld zijn de grandslagen zoals vernoemd bij de geconsolideerde jaarrekening van overeenkomstige
+toepassing
+
+9.1.3.2 Grondslagen van waardering van activa en passiva
+
+Financiële vaste activa
+
+Deelnemingen waarin invloed van betekenis kan worden uitgeoefend worden gewaardeerd volgens de vermogensmutatiemethode
+(nettovermogenswaarde). Indien 20% of meer van de stemrechten uitgebracht kan wordfen, wordt verondersteld dat er invloed
+van betekenis is.
+
+De nettovermogenswaarde wordt berekend volgens de grondslagen die gelden voor deze jaarrekening.
+Voor deelnemingen, waarvan onvoldoende gegevensw beswchikbaar zijnn voor aanpassing aan deze grondslagen, wordt
+uitgegaan van de waarderingsgrondslagen van de betreffende deelneming.
+
+Indien de waardering van een deelneming op basis van voren genoemde grandslag negatief is, wordt deze op nihil gewaardeerd.
+Wanneer Kracht in Zorg Holding B.V. in deze situatie geheel of gedeeltelijk instaat voor de schulden van betreffende deelneming,
+dan weol het stellige voornemen heeft de deelneming tot betaling van haar schulden in staat te stellen, wordt hiervoor een
+voorziening getroffen.
+
+De eerste waardering van gekochte deelnemingen is gebaseerd op de reële waarde van de identificeerbare activa en passiva op
+het moment van acquisitie.
+
+Voor de vervolgwaardering worden de grondslagen toegepast die gelden voor deze jaarrekening, uitgaande van de
+
+waarden bij eerste waardering.
+
+Als resultaat wordt verantwoord het bedrag waarmee de boekwaarde van de deelneming sinds de voorafgaande jaarrekening is
+gewijzigd als gevolg van nhet door de deelneming behaalde resultaat.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief transactiekosten
+indien materieel. Indien geen sprake is van (dis)agio en transactiekosten is de geamortiseerde kostprijs gelijk aan de nominale
+waarde van de vorderingen. Vorderingen worden na eerste verwerking gewaardeerd tegen de geamortiseerde kostprijs.
+Voorzieningen wegens oninbaarheid worden in mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+Liquide middelen bestaan uit kas en banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstelling bij de kortlopende schulden.
+
+9.1.3.3. Grondslagen voor de bepaling van het resultaat
+
+Resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten en andere lasten
+over het verslagjaar. De opbrengsten van transacties worden verantwoord in het jaar waarin zij worden gerealiseerd.
+
+Kosten worden verantwoord in het jaar warin zij voorzienbaar zijn.
+
+Belastingen over de winst of het verlies
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de enkelvoudige winst- en
+verliesrekening, rekening houdend met de fiscale wet en regelgeving, alsmede faciliteiten.
+
+Wi
+EA
+Pagina 27 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg Holding B.V.
+
+9.1.4 TOELICHTING OP DE ENKELVOUDIGE BALANS 31-dec-19 31-dec-18
+€ €
+
+Algemeen
+
+Voor zover niet anders genoemd wordt verwezen naar de toelichting op de geconsolideerde balans
+ACTIVA
+
+Financiële vaste activa
+
+35. Deelnemingen
+
+Kracht in Zorg WMO B.V. 422.918 295.271
+Kracht in Zorg WLZ B.V. 214.004 194.179
+Bread & Company B.V. 60.722 58.280
+
+697.644 547.730
+
+Kracht in Zorg WMO B.V.
+
+Waarde per 1 januari 295.271 782.974
+Resultaat 127.647 -487.703
+Waarde per 31 december 422.918 295.271
+
+Kracht in Zorg WLZ B.V.
+
+Waarde per 1 januari 194.179 116.359
+Resultaat 19.825 77.820
+Waarde per 31 december 214.004 194.179
+
+Bread & Company B.V.
+
+Waarde per 1 januari 58.280 52.588
+Resultaat 2.442 5.692
+Waarde per 31 december 60.722 58.280
+
+Vlottende Activa
+
+36. Vorderingen op groepsmaatschappijen en participanten
+
+Rekening courant Guido Jessen Holding B.V. 0 274.255
+Rekening courant Eric Nafzger Holding B.V. 5.036 273.438
+Rekening courant Kracht in Zorg WLZ B.V. 139.870 0
+
+144.906 547.693
+
+37. Belastingen en premies
+
+Vennootschapsbelasting 6.190 8.123
+Omzetbelasting 427 0
+6.617 8.123
+
+38. Liquide middelen
+
+Rekening courant ABN Amro 10.924 41.526
+
+PASSIVA
+Eigen vermogen
+
+11. Geplaatst en volgestort aandelenkapitaal
+
+Stand per 1 januari en 31 december 20.000 20.000
+
+Bij de oprichting van de vennootschap zijn 200 (nummers 1 t/m 200) aandelen van nominaal € 100
+geplaatst en volgestort.
+Het geplaatste kapitaal is in handen van:
+
+Guido Jessen Holding B.V. 0 10.000
+Eric Nafzger Holding B.V. 10.000 10.000
+Kracht in zorg Holding B.V. 10.000 0
+
+20.000 20.000
+
+12. Agioreserve
+
+Stand per 1 januari 783.912 783.912
+Af: Uitdeling 548.510 0
+Stand per 31 december 235.402 783.912
+
+Íf
+
+Ab!
+Pagina 28 | | _ kenmerk: 20100.0/0v/02102020
+
+Kracht in Zorg Holding B.V.
+
+31-dec-19 31-dec-18
+
+€ €
+13. Overige reserves
+Stand per 1 januari 355.477 199.202
+Foutherstel -571.427 0
+Stand per 1 januari na foutherstel -215.950 199.202
+Bij: Resultaat 0 156.275
+-215.950 355.477
+Inkoop eigen aandelen -565.000 0
+Resultaatcorrectie a.g.v. foutherstel 0 -571.427
+Stand per 31 december na foutherstel -780.950 -215.950
+Langlopende schulden
+14. Lening Guido Jessen Holding B.V.
+Ter financiering van de inkoop eigen aandelen is door Guido Jessen Holding B.V. een financiering verstrekt.
+Het verloop van deze rekening is als volgt weer vte geven:
+Verstrekking lening 565.000 0
+Af: Aflossingen 88.135 0
+Restschuld per 31 december 476.865 0
+Aflossingsverplichting volgend boekjaar -100.393 0
+376.472 0
+De rente over de restantschuld bedraagt het 3-maands Euribortarief, verhoogd met 1,5% per jaar.
+Kortlopende schulden
+40. Belastingen en premies
+Loonheffing 17159 3287
+Omzetbelasting 0 4936
+17159 8223
+41. Schulden aan groepsmaatschappijen
+Rekening courant Kracht in Zorg WMO B.V. 697.516 387.135
+Rekening courant Kracht in Zorg WLZ B.V. 0 120.114
+Rekening courant Bregad & Company B.V. 14.199 12.701
+
+711.715 519.950
+
+42. Overige schulden
+
+Accountantskosten 3.000 3.000
+Rente lening Guido Jessen Holding B.V. 5.431 0
+Nog te betalen salarissen 0 22.000
+Reservering vakantiegeld 0 3.937
+
+8.431 28.937
+
+If
+| |
+Pagina 29 W Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg WMO B.V.
+
+9.1.5 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING 2019 2018
+
+BEDRIJFSOPBRENGSTEN
+43, Managementfee
+
+Aan groepsmaatschappijen in rekening gebrachte honoraria 165.000 110.000
+165.000 110.000
+
+SOM DER KOSTEN
+
+44. Bruto lonen en salarissen
+
+Bruto loon 117.334 91.719
+Mutatie reserveringen -3.938 113
+Tantième 0 22.000
+
+113.396 113.832
+
+45. Overige personeelskosten
+
+Vrije ruimte WKR 1.265 1.236
+1.265 1.236
+
+46. Verkoopkosten
+
+Representatie 0 170
+0 170
+47. Kantoorkosten
+Overige kantoorkosten 1.647 0
+1.647 0
+48. Algemene kosten
+Accountantskosten 2.160 3.467
+Advieskosten 3.630 0
+5.790 3.467
+FINANCIËLE BATEN EN LASTEN
+49. Baten
+Rente rekening courant Guido Jessen Holding B.V. 0 7.988
+Rente rekening courant Eric Nafzger Holding B.V. 48 7.964
+Rente belastingdienst 186 0
+Rente rekening courant Kracht in Zorg WLZ B.V. 292 0
+526 7.964
+50. Lasten
+Rente rekening courant Kracht in Zorg WMO B.V. 16.014 11.977
+Rente rekening courant Kracht in Zorg WLZ B.V. 0 2.936
+Rente rekening courant Bread & Company B.V. 398 326
+Rente lening Guido Jessen Holding B.V. 5.431 0
+Rente rekening courant bankier 141 198
+21.984 15.437
+RESULTAAT DEELNEMINGEN
+51. Resultaat deelnemingen
+Kracht in Zorg WMO B.V. 127.647 -487.703
+Kracht in Zorg WLZ B.V. 19.825 77.820
+Bread & Company 2.442 5.692
+
+149.914 -404.191
+
+Hf
+EA
+Pagina 30 I Kenmerk: 20100.0/DV/02102020
+
+Kracht in Zorg WMO B.V.
+
+10.1 OVERIGE TOELICHTING
+
+10.1.1 Belangrijke gebeurtenissen na balansdatum
+
+Ten tijde van het vaststellen van deze jaarrekening werd Nederland getroffen door het Coronavirus (Covid-19).
+
+De impact van de Coronacrisis is nog niet in te schatten, maar zal voor Kracht in Zorg Holding B.V. niet leiden tot twijfel
+over de continuïteit van de vennootschap. Er hebben dus geen gebeurtenissen na balansdatum plaatsgevonden die
+
+de huidige financiële positie in belangrijke mate doen afwijken van hetgeen uit de balans per 31 december 2019 blijkt of die
+een verandering of toelichting noodzakelijk maken in de jaarrekening.
+
+10.1.2 Statutaire regeling resultaatbestemming
+Artikel 20 lid 1 van de statuten bepaald dat de algemene vergedering bevoegd is tot bestemming van de winst die
+door de vaststelling van de jaarrekening is bepaald en tot vaststelling van uitkeringen, voor zover het eigen vermogen
+groter is dan de reserves die krachtens de wet of de statuten moeten worden aangehouden.
+10.1.3 Voorstel resultaatbestemming
+Aan de algemene vergadering van aandeelhouders wordt voorgesteld het resultaat 2019 toe te voegen aan
+de algemene reserve.
+Dit voorstel werd al in de jaarrekening verwerkt.
+Ondertekening van de jaarrekening
+De jaarrekening is opgemaakt en vastgesteld door het bestuur c.q. de Algemene Vergadering.
+
+Amstenrade, 2 oktober 2020
+
+Kracht in Zorg Holding B.V.
+Vertegenwoordigd door E.M.H. Nafzger
+
+Ondertekening door Raad van Commissarissen
+
+M. Meijer (voorzitter) R. Wullschleger G. Glezer
+
+If
+ENA
+Pagina 31 I Kenmerk: 20100.0/DV/02102020

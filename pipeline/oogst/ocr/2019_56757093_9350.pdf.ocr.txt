@@ -1,0 +1,1094 @@
+# whosigns-ocr v1 grootte=8833001 dpi=300 paginas=20
+Geert Spieker Beheer B.V.
+
+5.1.5 TOELICHTING OP DE GECONSOLIDEERDE BALANS
+
+ACTIVA
+
+3. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+
+Vorderingen op debiteuren 306.924 178.261
+
+Belastingen en premies 0 2.338
+
+Overige vorderingen:
+
+Rekening-courant directie 50.706 48.440
+
+Overige vorderingen 3.226 0
+
+Vooruitbetaalde bedragen:
+
+Huur 1.048 0
+
+Overig 4.876 4.876
+
+Totaal debiteuren en overige vorderingen 366.780 233.915
+
+Toelichting:
+
+De voorziening die in aftrek op de vorderingen op debiteuren is gebracht, bedraagt € 69.172 (2018: € 69.172).
+
+4. Liquide middelen
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+
+Bankrekeningen 44.538 114.792
+
+Kassen 10.212 11.672
+
+Kruisposten 902 528
+
+Totaal liquide middelen 55.652 126.992
+
+Toelichting:
+
+In de liquide middelen zijn geen deposito's. De overige liquide middelen zijn vrij beschikbaar.
+
+Pagina 16
+
+
+Geert Spieker Beheer B.V.
+
+5.1.5 TOELICHTING OP DE GECONSOLIDEERDE BALANS
+
+PASSIVA
+
+5. Groepsvermogen
+
+Het groepsvermogen bestaat uit de volgende componenten:
+
+Gestort en opgevraagd kapitaal
+Algemene en overige reserves
+
+Totaal groepsvermogen
+
+Kapitaal
+
+Het verloop is als volgt weer te geven:
+
+Gestort en opgevraagd kapitaal
+
+Totaal kapitaal
+
+Algemene en overige reserves
+
+Het verloop is als volgt weer te geven:
+
+Overige reserves:
+Overige reserve
+
+Totaal algemene en overige reserves
+
+31-dec-19 31-dec-18
+
+€ €
+
+18.000 18.000
+
+255.270 266.728
+
+273.270 284.728
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-2019 bestemming mutaties 31-dec-2019
+€ € € €
+
+18.000 0 0 18.000
+18.000 0 0 18.000
+Saldo per Resultaat- Overige Saldo per
+1-jan-2019 bestemming mutaties 31-dec-2019
+€ € € €
+
+266.728 -11.458 0 255.270
+266.728 -11.458 0 255.270
+
+Toelichting:
+
+Het aansprakelijk vermogen bestaat uit het groepsvermogen en de achtergestelde lening(en) die onder de langlopende schulden
+verwerkt zijn. Het aansprakelijk vermogen per 31 december 2019 bedraagt EUR 273.270 (2018: EUR 284.728).
+
+Overzicht van het totaalresultaat van de instelling
+
+Geconsolideerd netto-resultaat (na belastingen) toekomend aan de instelling
+
+Herwaardering materiële vaste activa
+
+Afwaardering/herwaardering financiële vaste activa
+
+Af: Gerealiseerde herwaardering ten laste van het eigen vermogen
+
+Totaal van de rechtstreekse mutaties in het eigen vermogen van de instelling als
+
+onderdeel van het groepsvermogen
+
+Totaalresultaat van de instelling
+
+Pagina 17
+
+31-dec-2019 31-dec-2018
+€ €
+
+-11.458 -48.312
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+-11.458 -48.312
+
+
+Geert Spieker Beheer B.V.
+
+5.1.5 TOELICHTING OP DE GECONSOLIDEERDE BALANS
+
+PASSIVA
+
+6. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Crediteuren
+
+Belastingen en premies sociale verzekeringen
+Schulden terzake pensioenen
+
+Nog te betalen salarissen
+Kilometervergoedingen personeel
+Overige schulden:
+
+Overige schuld
+
+Nog te betalen kosten:
+Accountantskosten
+
+Advocaatkosten
+
+Vakantiegeld
+
+Overige overlopende passiva:
+
+Te retourneren, dubbel ontvangen bedrag
+Tussenrekening posten cliënten
+
+Totaal overige kortlopende schulden
+
+7. Financiële instrumenten
+
+Algemeen
+
+De instelling maakt in de normale bedrijfsuitoefening gebruik van uiteenlopende financiële instrumenten die de instelling
+blootstellen aan markt- en/of kredietrisico's. Deze betreffen financiële instrumenten die in de balans zijn opgenomen.
+
+31-dec-19 31-dec-18
+€ €
+32.430 31.854
+43.451 14.001
+39.143 35.604
+4.953 6.309
+1.293 1.234
+681 681
+10.405 9.750
+0 2.863
+20.011 18.725
+33.643 0
+1.347 1.482
+187.357 122.503
+
+De instelling handelt niet in financiële derivaten en heeft procedures en gedragslijnen om de omvang van het kredietrisico bij elke
+tegenpartij of markt te beperken. Bij het niet nakomen door een tegenpartij van aan de instellingen verschuldigde betalingen blijven
+eventuele daaruit voortvloeiende verliezen beperkt tot de marktwaarde van de desbetreffende instrumenten.
+
+Kredietrisico
+
+De vorderingen uit hoofde van handelsdebiteuren betreffen het zorgkantoor, gemeenten en andere zorginstellingen. Het maximale
+
+bedrag aan kredietrisico bedraagt EUR 69.172.
+
+Renterisico en kasstroomrisico
+
+Er is geen sprake van een rentericiso aangezien de instelling geen opgenomen en uitgegeven leningen zijn aangegaan. De
+instelling heeft derhalve als beleid om geen afgeleide financiële instrumenten te gebruiken om (tussentijdse) rentefluctuaties te
+
+beheersen.
+Reële waarde
+
+De reële waarde van de meeste in de balans verantwoorde financiële instrumenten, waaronder vorderingen, liquide middelen en
+
+kortlopende schulden, benadert de boekwaarde ervan.
+
+Pagina 18
+
+Geert Spieker Beheer B.V.
+
+5.1.5 TOELICHTING OP DE GECONSOLIDEERDE BALANS
+
+8. Niet ín de balans opgenomen verplichtingen
+
+Toelichting:
+
+Huurverplichtingen
+
+Het jaarlijks bedrag van met derden aangegane huurverplichtingen van onroerende zaken bedraagt voor het komende jaar € 6.000,
+. De huurverplichting is voor onbepaalde tijd aangegean met een opzegtermijn van 2 maanden.
+
+Operational leaseverplichtingen
+
+Overstag Uitvoering is op 10 mei 2019 een leaseverplichting aangegaan met voor de lease van een Nissan Qashqai met kenteken
+ZD-88-8V voor een periode van 36 maanden. De maandelijkse leaseverplichting bedraagt vanaf 1 januari 2020 € 777,28 (exclusief
+brandstofvoorschot en Omzetbelasting).
+
+De onderneming is op 12 april 2016 een leaseverplichting aangegaan met voor de lease van een VW Transporter met kenteken
+ZD-88-8V voor een periode van 36 maanden. Per 12 april 2019 is dit contract met een jaar verlengd naar 12 april 2020. De
+maandelijkse leaseverplichting bedraagt vanaf 1 januari 2020 € 999,62 (exclusief brandstofvoorschot en Omzetbelasting).
+
+Huurverplichtingen
+Het jaarlijks bedrag van met derden aangegane huurverplichtingen van onroerende zaken bedraagt voor het komende jaar € 6.000,
+. De huurverplichting is voor onbepaalde tijd aangegean met een opzegtermijn van 2 maanden.
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde zorgprestaties
+kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De effecten van eventuele materiële nacontroles zijn
+vooralsnog onzeker en daarom zijn er hiervoor geen verplichtingen opgenomen in de balans.
+
+Pagina 19
+
+
+Geert Spieker Beheer B.V.
+
+5.1.6 MUTATIEOVERZICHT IMMATERIELE VASTE ACTIVA
+
+Kosten van
+goodwill die
+van derden is Totaal
+verkregen
+€ €
+Stand per 1 januari 2019
+- aanschafwaarde 62.500 62.500
+- cumulatieve afschrijvingen 31.250 31.250
+Boekwaarde per 1 januari 2019 31.250 31.250
+Mutaties in het boekjaar
+- investeringen 0 0
+- afschrijvingen 6.250 6.250
+- bijzondere waardeverminderingen 0 0
+- terugname bijz. waardeverminderingen 0 0
+- terugname geheel afgeschreven activa
+„aanschafwaarde 0 0
+„cumulatieve afschrijvingen 0 0
+- desinvesteringen
+aanschafwaarde 0 0
+cumulatieve afschrijvingen 0 0
+per saldo 0 0
+Mutaties in boekwaarde (per saldo) -6.250 -6.250
+Stand per 31 december 2019
+- aanschafwaarde 62.500 62.500
+- cumulatieve afschrijvingen 37.500 37.500
+Boekwaarde per 31 december 2019 25.000 25.000
+Afschrijvingspercentage 10,0%
+
+Pagina 20
+
+Geert Spieker Beheer B.V.
+
+5.1.7 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Stand per 1 januari 2019
+
+- aanschafwaarde
+
+- cumulatieve herwaarderingen
+- cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2019
+
+Mutaties in het boekjaar
+
+- investeringen
+
+- herwaarderingen
+
+- afschrijvingen
+
+- bijzondere waardeverminderingen
+
+- terugname bijz. waardeverminderingen
+
+- terugname geheel afgeschreven activa
+„aanschafwaarde
+„cumulatieve herwaarderingen
+„cumulatieve afschrijvingen
+
+- desinvesteringen
+aanschafwaarde
+cumulatieve herwaarderingen
+cumulatieve afschrijvingen
+per saldo
+
+Mutaties in boekwaarde (per saldo)
+
+Stand per 31 december 2019
+- aanschafwaarde
+
+- cumulatieve herwaarderingen
+- cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2019
+
+Afschrijvingspercentage
+
+Andere vaste
+bedrijfs-
+middelen,
+technische en
+
+administratieve Totaal
+uitrusting
+
+€ €
+
+33.230 33.230
+
+0 0
+
+18.156 18.156
+
+15.074 15.074
+
+3.106 3.106
+
+0 0
+
+4.985 4.985
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+-1.879 -1.879
+
+36.336 36.336
+
+0 0
+
+23.141 23.141
+
+13.195 13.195
+20,0%
+
+Pagina 21
+
+Geert Spieker Beheer B.V.
+
+5.1.8 TOELICHTING OP DE GECONSOLIDEERDE RESULTATENREKENING
+BATEN
+
+9. Opbrengsten zorgprestaties (en maatschappelijke ondersteuning)
+
+De specificatie is als volgt: 2019 2018
+€ €
+
+Opbrengsten Wlz-zorg 130.377 0
+
+Opbrengsten Jeugdwet 428.907 278.025
+
+Opbrengsten Wmo 202.676 253.113
+
+Overige zorgprestaties 110.339 361.147
+
+Totaal 872.299 892.285
+
+10. Subsidies
+
+De specificatie is als volgt: 2019 2018
+€ €
+
+Subsidies vanwege Provincies en gemeenten (exclusief Wmo en Jeugdwet) 0 12.636
+
+Totaal 0 12.636
+
+Toelichting:
+
+Betreft subsidie voor het project Oud en Nieuw, met als doel het voorkomen van overlast door jongeren in de woonwijken.
+
+Het ontvangen bedrag betreft de jaarwisseling 2018/2019 waarbij de subsidie in 2019 definitief ook toegekend is.
+
+11. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2019 2018
+€ €
+
+Overige opbrengsten (waaronder vergoeding voor uitgeleend personeel en verhuur onroerend goed):
+
+Doorberekende kosten 5.978 3.463
+
+Totaal 5.978 3.463
+
+LASTEN
+
+12. Personeelskosten
+
+De specificatie is als volgt: 2019 2018
+€ €
+
+Lonen en salarissen 432.233 473.847
+
+Sociale lasten 61.323 64.926
+
+Pensioenpremies 27.839 30.514
+
+Andere personeelskosten:
+
+Overige personeelskosten 44.209 36.317
+
+Subtotaal 565.604 605.604
+
+Personeel niet in loondienst 31.318 30.068
+
+Totaal personeelskosten 596.922 635.672
+
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 11 12
+
+Aantal personeelsleden dat buiten Nederland werkzaam is 0 0
+
+Pagina 22
+
+
+Geert Spieker Beheer B.V.
+
+5.1.8 TOELICHTING OP DE GECONSOLIDEERDE RESULTATENREKENING
+
+LASTEN
+
+13. Afschrijvingen op immateriële en materiële vaste activa
+
+De specificatie is als volgt:
+
+Afschrijvingen:
+
+- immateriële vaste activa
+
+- materiële vaste activa
+
+- boekresultaat materiële vaste activa
+Totaal afschrijvingen
+
+14. Overige bedrijfskosten
+
+De specificatie is als volgt:
+Voedingsmiddelen en hotelmatige kosten
+Algemene kosten
+
+Patiënt- en bewonersgebonden kosten
+Onderhoud en energiekosten
+
+Huur en leasing
+
+Totaal overige bedrijfskosten
+15. Financiële baten en lasten
+De specificatie is als volgt:
+Rentebaten
+
+Rente rekening-courant directie
+Subtotaal financiële baten
+Rentelasten
+
+Rente en kosten fiscus
+
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+16. Belastingen
+
+Vennootschapsbelasting
+
+17. Wet normering topinkomens (WNT)
+
+Op 1 januari 2013 is de Wet normering topinkomens (WNT in werking getreden. De WNT is van toepassing op Overstag
+
+Zorg B.V.
+
+Het bezoldigingsmaximum voor de directie is € 130.000, het WNT -maximum voor zorg en jeugdhulp klasse Il. Dit geldt
+naar rato en duur en/of omvang van het dienstverband. Geen van de leidinggevende! bestuurders hebben een beloning
+ontvangen die boven de vastgeseld norm uitkomt.
+
+De directie wordt gevoerd door G.J. Spieker.
+Op grond van artikel 2:383, eerste lid BW is de opgave van de bezoldiging van de bestuurder achterwege gelaten aangezien
+deze uit de enkelvoudige jaarrekening te herleiden is tot een enkele natuurlijke persoon.
+
+Pagina 23
+
+2019 2018
+€ €
+6.250 6.250
+4.985 4.790
+0 1.655
+11.235 12.695
+2019 2018
+€ €
+24.431 21.588
+140.921 192.635
+25.185 33.706
+17.557 7.932
+67.426 62.497
+275.520 318.358
+2019 2018
+€ €
+
+61 0
+1.944 1.846
+2.005 1.846
+-507 -628
+-1.942 -8.803
+-2.449 -9.431
+-444 -1.585
+2019 2018
+€ €
+-5.614 2.539
+
+
+Geert Spieker Beheer B.V.
+
+5.1.8 TOELICHTING OP DE GECONSOLIDEERDE RESULTATENREKENING
+
+18. Honoraria accountant
+De honoraria van de accountant over 2019 zijn als volgt:
+1 Beoordeling van de jaarrekening
+2 Overige controlewerkzaamheden (w.o. Regeling AO/IC en Nacalculatie)
+3 Fiscale advisering
+4 Niet-controlediensten
+
+Totaal honoraria accountant
+
+19, Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen en hun
+
+bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+Pagina 24
+
+2019 2018
+€ €
+
+750 0
+2.220 454
+475 456
+30.857 31.713
+34.302 32.623
+
+
+Geert Spieker Beheer B.V.
+
+5.1.9 ENKELVOUDIGE BALANS PER 31 DECEMBER 2019
+
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Financiële vaste activa
+Totaal vaste activa
+
+Vlottende activa
+
+Debiteuren en overige vorderingen
+Totaal vlottende activa
+
+Totaal activa
+
+PASSIVA
+
+Eigen vermogen
+
+Kapitaal
+
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Kortlopende schulden (ten hoogste 1 jaar)
+
+Overige kortlopende schulden
+
+Totaal kortlopende schulden (ten hoogste 1 jaar)
+
+Totaal passiva
+
+Ref. 31-dec-19 31-dec-18
+€ €
+1 67.215 96.086
+67.215 96.086
+2 236.819 208.682
+236.819 208.682
+304.034 304.768
+Ref. 31-dec-19 31-dec-18
+€ €
+
+3
+18.000 18.000
+261.796 266.728
+279.796 284.728
+4 24.238 20.040
+24.238 20.040
+304.034 304.768
+
+Pagina 25
+
+Geert Spieker Beheer B.V.
+
+5.1.10 ENKELVOUDIGE RESULTATENREKENING OVER 2019
+
+BEDRIJFSOPBRENGSTEN:
+
+Overige bedrijfsopbrengsten
+
+Som der bedrijfsopbrengsten
+
+BEDRIJFSLASTEN:
+Personeelskosten
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+BEDRIJFSRESULTAAT
+Financiële baten en lasten
+RESULTAAT UIT GEWONE BEDRIJFSUITOEFENING
+
+Belastingen
+Aandeel in het resultaat van deelnemingen
+
+RESULTAAT BOEKJAAR
+
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld:
+
+Toevoeging/(onttrekking):
+Algemene / overige reserves
+
+Ref. 2019 2018
+€ €
+
+6 103.000 103.000
+103.000 103.000
+
+7 79.300 83.549
+8 2.404 2.009
+81.704 85.558
+
+21.296 17.442
+
+9 8.257 6.139
+29.553 23.581
+
+10 -5.614 -4.833
+11 -28.871 -82.135
+-4.932 -63.387
+
+2019 2018
+
+€ €
+
+-4.932 -63.387
+
+-4.932 -63.387
+
+Pagina 26
+
+
+Geert Spieker Beheer B.V.
+
+5.1.11 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+Voor zover posten uit de enkelvoudige balans niet afwijken van de geconsolideerde balans zijn deze hierna
+niet nader toegelicht en wordt verwezen naar de toelichting op de geconsolideerde balans.
+
+ACTIVA
+
+1. Financiële vaste activa
+
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+Deelnemingen in groepsmaatschappijen 67.215 96.086
+Totaal financiële vaste activa 67.215 96.086
+Het verloop van de financiële vaste activa is als volgt: 2019 2018
+€ €
+Boekwaarde per 1 januari 96.086 178.221
+Kapitaalstortingen 0 0
+Resultaat deelnemingen -28.871 -82.135
+Ontvangen dividend 0 0
+Acquisities van deelnemingen 0 0
+Nieuwe/vervallen consolidaties 0 0
+Verstrekte leningen / verkregen effecten 0 0
+Ontvangen dividend / aflossing leningen 0 0
+(Terugname) waardeverminderingen 0 0
+Amortisatie (dis)agio 0 0
+Boekwaarde per 31 december 67.215 96.086
+Toelichting:
+Voor een nadere specificatie van het verloop van de financiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 5.1.17.
+Toelichting op belangen in andere rechtspersonen of vennootschappen:
+Naam en rechtsvorm en Verschaft Kapitaalbe- Eigen
+woonplaats rechtspersoon Kernactiviteit kapitaal lang (in %) vermogen Resultaat
+€ €
+Rechtstreekse kapitaalbelangen >= 20%:
+Overstag Zorg B.V. 1 100% -6.526 -23.058
+Overstag Uitvoering B.V. 18.000 100% 67.215 -12.339
+2. Debiteuren en overige vorderingen
+De specificatie is als volgt: 31-dec-19 31-dec-18
+€ €
+Overige vorderingen:
+Vorderingen op participanten en maatschappijen waarin wordt deelgenomen 186.113 160.242
+Rekening-courant directie 50.706 48.440
+Totaal debiteuren en overige vorderingen 236.819 208.682
+
+Pagina 27
+
+Geert Spieker Beheer B.V.
+
+5.1.11 TOELICHTING OP DE ENKELVOUDIGE BALANS
+PASSIVA
+
+3. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten:
+
+Kapitaal
+Algemene en overige reserves
+
+Totaal eigen vermogen
+Kapitaal
+
+Het verloop is als volgt weer te geven:
+
+Gestort en opgevraagd kapitaal
+Totaal kapitaal
+
+Algemene en overige reserves
+
+Het verloop is als volgt weer te geven:
+Overige reserves:
+
+Overige reserve
+
+Totaal algemene en overige reserves
+
+31-dec-19 31-dec-18
+
+€ €
+
+18.000 18.000
+
+261.796 266.728
+
+279.796 284.728
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-2019 bestemming mutaties 31-dec-2019
+€ € € €
+
+18.000 0 0 18.000
+18.000 0 0 18.000
+Saldo per Resultaat- Overige Saldo per
+1-jan-2019 bestemming mutaties 31-dec-2019
+€ € € €
+
+266.728 -4.932 0 261.796
+266.728 -4.932 0 261.796
+
+Toelichting:
+
+Het aansprakelijk vermogen bestaat uit het eigen vermogen en de achtergestelde lening(en) die onder de langlopende schulden
+verwerkt zijn. Het aansprakelijk vermogen per 31 december 2019 bedraagt EUR 279.796 (2018: EUR 284.728).
+
+Specificatie aansluiting geconsolideerd - enkelvoudig vermogen 31 december 2019
+
+en resultaat over 2019
+
+De specificatie is als volgt :
+
+Enkelvoudig eigen vermogen en resultaat:
+
+Verschil waardering deelneming met eigen vermogen deelneming
+
+Totaal geconsolideerd eigen vermogen en resultaat
+
+4. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Belastingen en premies sociale verzekeringen
+Overige schulden:
+
+Schulden aan participanten en maatschappijen waarin wordt deelgenomen
+
+Nog te betalen kosten:
+Aeccountantskosten
+Vakantiegeld
+
+Totaal overige kortlopende schulden
+
+Pagina 28
+
+Eigen
+vermogen Resultaat
+€ €
+279.797 -4.931
+-6.527 -6.527
+273.270 -11.458
+31-dec-19 31-dec-18
+€ €
+18.796 14.598
+1 1
+2.080 2.080
+3.361 3.361
+24.238 20.040
+
+
+Geert Spieker Beheer B.V.
+
+5.1.11 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+5. Niet in de balans opgenomen verplichtingen en nief ín de balans opgenomen activa
+
+Toelichting:
+Geert Spieker Beheer B.V. maakt onderdeel uit van een fiscale eenheid omzetbelasting met Overstag Uitvoering B.V. en Overstag
+Zorg B.V. en is uit dien hoofde hoofdelijk aansprakelijk voor de schulden van de fiscale eenheid. Ultimo 2019 bedragen de
+
+schulden van de fiscale eenheid € 2.533,
+
+Pagina 29
+
+Geert Spieker Beheer B.V.
+
+5.1.12 ENKELVOUDIG MUTATIEOVERZICHT FINANCIELE VASTE ACTIVA
+
+Boekwaarde per 1 januari 2019
+Kapitaalstortingen
+
+Resultaat deelnemingen
+
+Ontvangen dividend
+
+Acquisities van deelnemingen
+Nieuwe/vervallen consolidaties
+Verstrekte leningen / verkregen effecten
+Ontvangen dividend / aflossing leningen
+(Terugname) waardeverminderingen
+Amortisatie (dis)agio
+
+Boekwaarde per 31 december 2019
+
+Deelnemingen in
+groeps-
+
+maatschappijen Totaal
+€ €
+96.086 96.086
+0 0
+-28.871 -28.871
+0 0
+
+0 0
+
+0 0
+
+0
+
+0
+
+0
+
+0
+
+67.215 67.215
+
+Pagina 30
+
+Geert Spieker Beheer B.V.
+
+5.1.13 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+Voor zover posten uit de enkelvoudige resultatenrekening niet afwijken van de geconsolideerde resultatenrekening
+
+zijn deze hierna niet nader toegelicht en wordt verwezen naar de toelichting op de geconsolideerde resultatenrekening.
+
+BATEN
+
+6. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt:
+
+Overige opbrengsten (waaronder vergoeding voor uitgeleend personeel en verhuur onroerend goed):
+
+Managementvergoeding
+
+Totaal
+
+LASTEN
+
+7. Personeelskosten
+
+De specificatie is als volgt:
+Lonen en salarissen
+Andere personeelskosten:
+Onkostenvergoeding
+Subtotaal
+
+Personeel niet in loondienst
+Totaal personeelskosten
+
+Gemiddeld aantal personeelsleden op basis van full-time eenheden
+
+Aantal personeelsleden dat buiten Nederland werkzaam is
+
+8. Overige bedrijfskosten
+
+De specificatie is als volgt:
+
+Algemene kosten
+
+Totaal overige bedrijfskosten
+
+9. Financiële baten en lasten
+
+De specificatie is als volgt:
+Rentebaten
+
+Rentebaten groepsmaatschappijen
+Subtotaal financiële baten
+
+Rentelasten
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+Pagina 31
+
+2019 2018
+€ €
+103.000 103.000
+103.000 103.000
+2019 2018
+€ €
+76.800 83.549
+2.500 0
+79.300 83.549
+0 0
+79.300 53.549
+1 1
+
+0 0
+
+2019 2018
+€ €
+2.404 2.009
+2.404 2.009
+2019 2018
+€ €
+1.944 1.846
+6.701 6.296
+8.735 8.142
+-478 -2.003
+-478 -2.003
+8.257 6.139
+
+
+Geert Spieker Beheer B.V.
+
+5.1.13 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+10. Belastingen
+
+De specificatie is als volgt: 2019 2018
+
+€ €
+Vennootschapsbelasting 5.614 4.833
+Totaal belastingen 5.614 4,833
+
+11. Aandeel in resultaat van deelnemingen
+
+De specificatie is als volgt: 2019 2018
+
+€ €
+Resultaat deelneming Overstag Uitvoering B.V. -12.339 -30.617
+Resultaat deelneming Overstag Zorg B.V. „16.532 -51.518
+Totaal aandeel in resultaat deelnemingen -28.871 -82.135
+
+Pagina 32
+
+Geert Spieker Beheer B.V.
+
+5.1.14 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De directie van Geert Spieker Beheer B.V. heeft de jaarrekening 2019 opgemaakt en vastgesteld in de
+vergadering van 28 september 2020.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.1.2.
+
+Gebeurtenissen na balansdatum
+
+De uitbraak van het coronavirus gedurende de eerste maanden van 2020 heeft grote gevolgen op de wereldwijde economie.
+De gevolgen van de uitbraak van het coronavirus worden aangemerkt als gebeurtenissen na balansdatum die geen nadere
+informatie geven over de feitelijke situatie per balansdatum en zijn derhalve niet in de jaarrekening over 2019 verwerkt.
+
+Ook Geert Spieker Beheer B.V. en haar deelnemingen hebben in 2020 te kampen met de gevolgen van de uitbraak van het
+coronavisus. Deze gevolgen bestaan uit stijgende kosten als gevolg van het inzetten van beschermingsmaatregelen en
+extra vervoersmiddel. Daarnaast is er een daling in de productie binnen Overstag Zorg B.V. Door gebruik making van
+
+de continuiteitsbijdrage en de meerkostenregeling zal de impact daarvan op zowel de omzet als de kosten beperkt blijven.
+De vennootschap verwacht hierdoor dat zij haar activiteiten kan blijven voortzetten.
+
+Ondertekening door bestuurder
+
+G: 1 28-9-2020
+
+Pagina 33
+
+Geert Spieker Beheer B.V.
+
+5.2 OVERIGE GEGEVENS
+
+Pagina 34
+
+Geert Spieker Beheer B.V.
+
+5.2 OVERIGE GEGEVENS
+5.2.1 Statutaire regeling resultaatbestemming
+In de statuten is bepaald, conform artikel 20, dat het behaalde resultaat ter vrije beschikking staat van
+
+de algemene vergadering.
+
+5.2.2 Nevenvestigingen
+
+Geert Spieker Beheer B.V. heeft geen nevenvestigingen.
+
+Pagina 35

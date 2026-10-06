@@ -1,0 +1,390 @@
+"""Pensioenfondsen: jaarverslagen van de fondsen zelf -> opdrachten in de database.
+
+Elk pensioenfonds publiceert zijn jaarverslag als fondsdocument op de eigen
+site, inclusief de controleverklaring. De route is bewezen met het
+ABP-jaarverslag 2025 (docs/bestaande-databases.md, 21-8-2026): de bestaande
+extractie leest er ongewijzigd kantoor, oordeel en opdrachttype uit. Deze lader
+doet dat voor elke regel in seed/pensioenfondsen.csv.
+
+Draaien:
+    python3 pipeline/laad_pensioenfondsen.py             # alles uit de seed
+    python3 pipeline/laad_pensioenfondsen.py --droogloop # alleen het CSV-rapport
+
+Spelregels, dezelfde als overal:
+
+- **Alleen geverifieerde URL's in de seed.** Elke regel is met de hand
+  gecontroleerd (HTTP 200, application/pdf) voordat hij erin ging; de lader
+  gokt geen adressen.
+- **Nooit gokken.** Geen betrouwbare kantoormatch -> regel in het rapport en
+  op de review-queue, geen rij in de database. De tekenend accountant komt
+  alleen mee als het blokoordeel gelijk is aan het documentoordeel
+  (extractie/verklaring.py); leeg betekent "niet vastgesteld".
+- **Bestaande rijen winnen.** Een fonds dat voor dat boekjaar al een
+  wettelijke controle in de database heeft, wordt overgeslagen; herdraaien is
+  dus veilig en goedkoop.
+- Organisaties krijgen sector "pensioenfondsen" en geen KvK-nummer: het
+  jaarverslag noemt dat niet, en een register-lookup is een aparte beslissing.
+"""
+
+import argparse
+import csv
+import sys
+import urllib.parse
+import urllib.request
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
+sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
+
+from kantoor_match import bouw_index, laad_kantoren, normaliseer  # noqa: E402
+from supabase_client import Supabase, SupabaseFout  # noqa: E402
+from verklaring import analyseer, ocr_lege_paginas, pdf_naar_tekst  # noqa: E402
+
+SEED = Path(__file__).resolve().parent / "seed" / "pensioenfondsen.csv"
+CACHE = Path(__file__).resolve().parent / ".cache"
+KOPPEN = {"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"}
+
+
+def fondsen(seed: Path = SEED) -> list[dict]:
+    with seed.open(encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def haal_pdf(url: str, pad: Path) -> None:
+    """Downloadt één jaarverslag; wat er al ligt wordt niet opnieuw gehaald."""
+    if pad.exists() and pad.stat().st_size > 100_000:
+        return
+    verzoek = urllib.request.Request(url, headers=KOPPEN)
+    with urllib.request.urlopen(verzoek, timeout=300) as antwoord:
+        pad.write_bytes(antwoord.read())
+
+
+def opdracht_uit_analyse(
+    analyse: dict, organisatie_id: int, kantoor_id: int, boekjaar: int, bron_id: int
+) -> dict:
+    """Zelfde vertaalregels als laad_zorg_rapport: leeg is null, nooit een
+    lege tekst; continuïteitsonzekerheid is een echte ja/nee-bevinding."""
+    return {
+        "organisatie_id": organisatie_id,
+        "kantoor_id": kantoor_id,
+        "boekjaar": boekjaar,
+        # opdrachttype None betekent: wél een controleverklaring, maar niet
+        # vastgesteld waarover. Dan is "wettelijke_controle" een aanname; bij
+        # een jaarverslag van een pensioenfonds is de jaarrekeningcontrole
+        # echter verplicht en is de verklaring in het jaarverslag per definitie
+        # die van de jaarrekening — maar dat blijft een redenering, geen
+        # meting, dus we schrijven wat de extractie vond en anders
+        # controle_onbepaald.
+        "type_opdracht": analyse.get("opdrachttype") or "controle_onbepaald",
+        "oordeel": analyse.get("oordeel") or None,
+        "grond_beperking": analyse.get("grond_beperking") or None,
+        "continuiteitsonzekerheid": bool(analyse.get("continuiteitsonzekerheid")),
+        "tekenend_accountant": analyse.get("tekenend_accountant") or None,
+        "bron_id": bron_id,
+    }
+
+
+# Hoeveel organisatie-id's er in één opzoekverzoek passen. Een PostgREST-filter
+# met `in.(...)` staat in de URL, en die heeft een grens; blokken van honderd
+# blijven daar ruim onder en schelen honderden losse verzoeken.
+PER_OPZOEKVERZOEK = 100
+
+
+def gelezen_controles(db, organisatie_ids: list[int]) -> set[tuple[int, int]]:
+    """De (organisatie, boekjaar)-paren waar al een gelezen controle ligt.
+
+    Alleen `wettelijke_controle` en `vrijwillige_controle`: dat zijn de types
+    die uit een gelézen verklaring komen. `controle_onbepaald` telt bewust niet
+    mee — dat is de rij uit het marktonderzoek, die alleen zegt dát er een
+    accountant was. Het jaarverslag kan daar het opdrachttype, het oordeel en
+    de ondertekenaar aan toevoegen, dus zo'n rij is juist een reden om te lezen.
+    """
+    paren: set[tuple[int, int]] = set()
+    for begin in range(0, len(organisatie_ids), PER_OPZOEKVERZOEK):
+        blok = organisatie_ids[begin : begin + PER_OPZOEKVERZOEK]
+        rijen = db.selecteer_alles(
+            "opdrachten",
+            "select=organisatie_id,boekjaar"
+            "&type_opdracht=in.(wettelijke_controle,vrijwillige_controle)"
+            f"&organisatie_id=in.({','.join(str(i) for i in blok)})",
+        )
+        paren.update((rij["organisatie_id"], rij["boekjaar"]) for rij in rijen)
+    return paren
+
+
+def nog_te_lezen(
+    regels: list[dict],
+    org_per_naam: dict[str, list[dict]],
+    al_gelezen: set[tuple[int, int]],
+) -> list[dict]:
+    """De seedregels waarvan het jaarverslag nog gelezen moet worden.
+
+    Het jaarverslag ophalen en lezen kost een halve minuut per regel — met OCR
+    bij een mengvorm een paar minuten — en de seed telt er inmiddels bijna
+    driehonderd. De controle "staat dit boekjaar er al?" stond ná het lezen,
+    dus een herhaling kostte net zoveel als de eerste keer. Dezelfde
+    vergelijking, één stap eerder.
+
+    Niet overslaan bij twijfel: een organisatie die de database niet kent of
+    die er twéé keer in staat gaat door de gewone route, want die maakt hem
+    respectievelijk aan of meldt het conflict. Dat laatste is een melding die
+    iemand moet zien.
+    """
+    uit = []
+    for regel in regels:
+        naam = (regel.get("fonds") or regel.get("naam") or "").strip()
+        kandidaten = org_per_naam.get(normaliseer(naam), [])
+        if len(kandidaten) != 1:
+            uit.append(regel)
+            continue
+        if (kandidaten[0]["id"], int(regel["boekjaar"])) not in al_gelezen:
+            uit.append(regel)
+    return uit
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--droogloop", action="store_true")
+    # Dezelfde route werkt voor elke sector met openbare jaarverslagen: geef een
+    # andere seed en sectornaam mee en er verandert verder niets. De seed houdt
+    # dezelfde kolommen (fonds,boekjaar,url); "fonds" is daar gewoon "de
+    # organisatie waarvan dit het jaarverslag is".
+    parser.add_argument("--seed", type=Path, default=SEED)
+    parser.add_argument("--sector", default="pensioenfondsen")
+    argumenten = parser.parse_args()
+
+    db = None
+    kantoor_id_per_sleutel: dict[str, int] = {}
+    org_per_naam: dict[str, list[dict]] = {}
+    if not argumenten.droogloop:
+        try:
+            db = Supabase()
+        except SupabaseFout as fout:
+            print(fout)
+            return 1
+        kantoor_id_per_sleutel = {
+            rij["sleutel"]: rij["id"]
+            for rij in db.selecteer_alles("kantoren", "select=id,sleutel")
+            if rij.get("sleutel")
+        }
+        for rij in db.selecteer_alles("organisaties", "select=id,naam,kvk_nummer,sector"):
+            org_per_naam.setdefault(normaliseer(rij["naam"]), []).append(rij)
+
+    index = bouw_index(laad_kantoren())
+    CACHE.mkdir(exist_ok=True)
+    rapport_pad = CACHE / f"resultaat_{argumenten.sector}.csv"
+    rapport = rapport_pad.open("w", newline="", encoding="utf-8")
+    schrijver = csv.writer(rapport)
+    schrijver.writerow(
+        ["fonds", "boekjaar", "kantoor", "oordeel", "tekenend_accountant", "status"]
+    )
+
+    te_doen = list(fondsen(argumenten.seed))
+    voor = len(te_doen)
+    vooraf_bekend = 0
+    if db is not None:
+        # Alleen de organisaties die in déze seed voorkomen opzoeken; de
+        # database heeft er achttienduizend en die hoeven hier niet langs.
+        ids = sorted(
+            {
+                kandidaten[0]["id"]
+                for regel in te_doen
+                for kandidaten in [
+                    org_per_naam.get(
+                        normaliseer((regel.get("fonds") or regel.get("naam") or "").strip()),
+                        [],
+                    )
+                ]
+                if len(kandidaten) == 1
+            }
+        )
+        te_doen = nog_te_lezen(te_doen, org_per_naam, gelezen_controles(db, ids))
+        vooraf_bekend = voor - len(te_doen)
+    print(
+        f"{voor} verslagen in de seed, {len(te_doen)} te lezen"
+        + (f" ({vooraf_bekend} al gelezen, niet opgehaald)" if vooraf_bekend else ""),
+        flush=True,
+    )
+
+    geschreven = overgeslagen = mislukt = dubbel = 0
+    for regel in te_doen:
+        # "fonds" historisch; een seed van een andere sector mag "naam" gebruiken.
+        fonds = (regel.get("fonds") or regel.get("naam") or "").strip()
+        boekjaar = int(regel["boekjaar"])
+        naamdeel = normaliseer(fonds).replace(" ", "-")[:40]
+        pdf_pad = CACHE / f"jaarverslag_{naamdeel}_{boekjaar}.pdf"
+        try:
+            haal_pdf(regel["url"], pdf_pad)
+        except Exception as fout:  # noqa: BLE001 — bron mag falen, volgende fonds
+            print(f"{fonds} {boekjaar}: download mislukt: {fout}", flush=True)
+            schrijver.writerow([fonds, boekjaar, "", "", "", "download mislukt"])
+            mislukt += 1
+            continue
+
+        tekst = pdf_naar_tekst(str(pdf_pad))
+        analyse = analyseer(tekst, index)
+        if analyse.get("kantoor") is None:
+            # Mengvorm: een jaarverslag mét tekstlaag waarin de verklaring als
+            # scan is geplakt (VU, Tilburg University). Alleen bij een mislukte
+            # match de tekstloze pagina's alsnog lezen — OCR kost een minuut
+            # per document en dit is de uitzondering, niet de regel.
+            extra = ocr_lege_paginas(str(pdf_pad), tekst)
+            if extra.strip():
+                analyse = analyseer(tekst + "\n" + extra, index)
+        kantoor = analyse.get("kantoor")
+        status = "ok" if kantoor else (analyse.get("reden") or "geen kantoormatch")
+        print(
+            f"{fonds} {boekjaar}: "
+            f"{kantoor['naam'] if kantoor else status}"
+            f"{', ' + analyse['oordeel'] if analyse.get('oordeel') else ''}"
+            f"{', tekenaar ' + analyse['tekenend_accountant'] if analyse.get('tekenend_accountant') else ''}",
+            flush=True,
+        )
+        schrijver.writerow(
+            [
+                fonds,
+                boekjaar,
+                kantoor["naam"] if kantoor else "",
+                analyse.get("oordeel") or "",
+                analyse.get("tekenend_accountant") or "",
+                "droogloop" if db is None else status,
+            ]
+        )
+        if db is None or analyse.get("soort") != "controle":
+            continue
+
+        if kantoor is None:
+            # Zelfde afspraak als de zorgoogst: een mens kijkt ernaar, wij
+            # gokken niet. Kandidaten gaan mee als hint.
+            if not db.bestaat(
+                "review_queue",
+                "soort=eq.naam_match&status=eq.open"
+                f"&payload->>organisatie=eq.{urllib.parse.quote(fonds, safe='')}"
+                f"&payload->>boekjaar=eq.{boekjaar}",
+            ):
+                db.invoegen(
+                    "review_queue",
+                    {
+                        "soort": "naam_match",
+                        "payload": {
+                            "bron": "jaarverslag pensioenfonds",
+                            "organisatie": fonds,
+                            "boekjaar": boekjaar,
+                            "kandidaten": analyse.get("kandidaten") or [],
+                            "vindplaats": regel["url"],
+                        },
+                    },
+                )
+            continue
+
+        kantoor_id = kantoor_id_per_sleutel.get(kantoor.get("sleutel"))
+        if kantoor_id is None:
+            print(f"  LET OP: kantoor {kantoor['naam']} niet in de database")
+            continue
+
+        sleutel = normaliseer(fonds)
+        kandidaten = org_per_naam.get(sleutel, [])
+        if len(kandidaten) > 1:
+            # Er valt niet te kiezen aan welke van de twee rijen deze opdracht
+            # hoort, en gokken mag niet. Tot 22-9-2026 bleef het bij deze
+            # printregel — en een printregel in een workflowlog is geen
+            # wachtrij: het verslag is gelezen, het kost een download, en
+            # niemand ziet dat er iets te beslissen valt.
+            dubbel += 1
+            print(f"  LET OP: {fonds} staat {len(kandidaten)}x in de database")
+            schrijver.writerow([fonds, boekjaar, "", "", "", "naam dubbel"])
+            if not db.bestaat(
+                "review_queue",
+                "soort=eq.naam_match&status=eq.open"
+                f"&payload->>organisatie=eq.{urllib.parse.quote(fonds, safe='')}"
+                f"&payload->>boekjaar=eq.{boekjaar}",
+            ):
+                db.invoegen(
+                    "review_queue",
+                    {
+                        "soort": "naam_match",
+                        "payload": {
+                            "bron": f"jaarverslag {argumenten.sector}",
+                            "reden": "organisatie staat meer dan één keer in "
+                            "de database",
+                            "organisatie": fonds,
+                            "boekjaar": boekjaar,
+                            "organisatie_ids": [k["id"] for k in kandidaten],
+                            "vindplaats": regel["url"],
+                        },
+                    },
+                )
+            continue
+        if kandidaten:
+            org = kandidaten[0]
+            # Een organisatie die eerder zonder sector is aangemaakt (bijv.
+            # vanuit marktonderzoek, dat alleen KvK en naam kent) hoort wel op
+            # de sectorpagina. Naast een lége sector mogen ook "overheid" en
+            # "OOB" worden gepreciseerd: dat zijn herkomstlabels uit generieke
+            # bronnen (TenderNed noemt elke aanbestedende dienst "overheid",
+            # de AFM-lijst elke OOB "OOB") — zo stonden alle universiteiten
+            # als overheid en alle grote fondsen als OOB, en bleven de
+            # sectorpagina's onderwijs en pensioenfondsen vrijwel leeg. Deze
+            # seed noemt de organisatie bij naam en is dus preciezer. Elke
+            # andere bestaande waarde is een bewuste keuze en blijft staan;
+            # de OOB- en overheidsladers zetten hun label alleen bij aanmaak,
+            # dus een herdraai daarvan draait dit niet terug.
+            if (org.get("sector") or "") in ("", "overheid", "OOB") and org.get(
+                "sector"
+            ) != argumenten.sector:
+                # De voorwaarde ook in het filter: het voorgeladen beeld kan
+                # verouderd zijn (na een merge draaien laders tegelijk), en zo
+                # bewaakt de database zelf dat alleen een leeg of generiek
+                # label vervangen wordt.
+                db.bijwerken(
+                    "organisaties",
+                    f"id=eq.{org['id']}"
+                    "&or=(sector.is.null,sector.eq.overheid,sector.eq.OOB)",
+                    {"sector": argumenten.sector},
+                )
+                org["sector"] = argumenten.sector
+        else:
+            org = db.invoegen(
+                "organisaties",
+                {"naam": fonds, "sector": argumenten.sector, "kvk_nummer": None},
+            )
+            org_per_naam.setdefault(sleutel, []).append(org)
+
+        type_opdracht = analyse.get("opdrachttype") or "controle_onbepaald"
+        if db.bestaat(
+            "opdrachten",
+            f"organisatie_id=eq.{org['id']}&boekjaar=eq.{boekjaar}"
+            f"&type_opdracht=eq.{type_opdracht}",
+        ):
+            overgeslagen += 1
+            continue
+        bron = db.invoegen(
+            "bronnen",
+            {
+                "bron_type": "jaarverslag",
+                "url": regel["url"],
+                "betrouwbaarheid": "publiek",
+            },
+        )
+        db.upsert_met_id(
+            "opdrachten",
+            opdracht_uit_analyse(analyse, org["id"], kantoor_id, boekjaar, bron["id"]),
+            "organisatie_id,boekjaar,type_opdracht",
+        )
+        geschreven += 1
+
+    rapport.close()
+    print(
+        f"\n{geschreven} opdrachten geschreven, {overgeslagen} al bekend, "
+        + (f"{vooraf_bekend} vooraf overgeslagen, " if vooraf_bekend else "")
+        + f"{mislukt} downloads mislukt"
+        + (f", {dubbel} naar review (naam dubbel)" if dubbel else "")
+        + f"; rapport: {rapport_pad}",
+        flush=True,
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

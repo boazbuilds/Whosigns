@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  gunningenVanOrganisatie,
+  accountantSleutels,
   opdrachtenVanOrganisatie,
   organisatieOpId,
   organisatieOpKvk,
@@ -10,28 +12,54 @@ import {
   organisatiesInSubsector,
   tel,
 } from "@/lib/db";
-import { periodes, wisseljaren } from "@/lib/analyse";
+import { onbevestigdeWisseljaren, periodes, wisseljaren } from "@/lib/analyse";
 import {
+  OPDRACHT_LABEL,
+  SOORTGROEP,
   aantalJaren,
+  accountantPad,
+  euro,
+  datumNL,
+  hoofdletter,
   jarenReeks,
   kantoorPad,
-  hoofdletter,
   nummerUitSlug,
-  OPDRACHT_LABEL,
   organisatiePad,
+  PLAATS_MINIMUM,
+  plaatsPad,
   sectorPad,
+  slug as slugVan,
   subsectorPad,
 } from "@/lib/paden";
 import {
+  Aangeleverd,
   Doorklik,
-  Foutmelding,
   KantoorLink,
   Kruimels,
   Leeg,
   Oordeel,
+  Soort,
 } from "@/components/onderdelen";
 
 type Params = { params: Promise<{ slug: string }> };
+
+/**
+ * Bij het eerste bezoek opbouwen en daarna een uur uit de cache serveren (ISR),
+ * in plaats van bij elke weergave opnieuw. Een lege lijst betekent: niets
+ * vooraf bij de build — 17.653 organisaties zijn te veel om vooraf te bouwen,
+ * en de meeste worden nooit bezocht. Tot 5-10-2026 was dit een dynamische
+ * route: elke weergave een render van 200 à 300 ms met 'Cache-Control: private,
+ * no-store', dus nooit uit de CDN. Gemeten na deze wijziging: eerste bezoek
+ * MISS, het tweede HIT met 's-maxage=3600'.
+ *
+ * Een onbekend adres geeft net zo goed een uur lang een 404 uit de cache;
+ * met een wekelijkse pipeline is dat geen bezwaar.
+ */
+export const revalidate = 3600;
+
+export function generateStaticParams(): { slug: string }[] {
+  return [];
+}
 
 /** `o<id>` vooraan de slug = organisatie zonder KvK-nummer (zie paden.ts). */
 function vindOrganisatie(slugdeel: string) {
@@ -44,12 +72,16 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const org = await vindOrganisatie(slug).catch(() => null);
   if (!org) return { title: "Organisatie niet gevonden" };
+  // De KvK alleen noemen als hij er is: 3.014 organisaties hebben er geen
+  // (1.610 overheden en 1.381 OOB's daaronder), en die kregen
+  // "(KvK null)" in hun beschrijving (5-10-2026).
+  const kvk = org.kvk_nummer ? ` (KvK ${org.kvk_nummer})` : "";
   // De noordster uit docs/visie.md, letterlijk als paginatitel: wie dit googelt
   // hoort hier uit te komen.
   return {
     title: `Wie is de accountant van ${org.naam}?`,
     description:
-      `Alle accountants van ${org.naam} (KvK ${org.kvk_nummer}) per boekjaar, ` +
+      `Alle accountants van ${org.naam}${kvk} per boekjaar, ` +
       `inclusief wisselingen en het oordeel bij de jaarrekening.`,
   };
 }
@@ -65,13 +97,23 @@ export default async function Organisatiepagina({ params }: Params) {
   let sectorgenoten: typeof plaatsgenoten = [];
   let aantalZelfdeJaar = 0;
   let reeksen: ReturnType<typeof periodes> = [];
+  let aanbestedingen: Awaited<ReturnType<typeof gunningenVanOrganisatie>> = [];
   let wissels: ReturnType<typeof wisseljaren> = new Set();
+  let anderKantoor: ReturnType<typeof onbevestigdeWisseljaren> = new Set();
+  // Welke opdracht bij welke accountantspagina hoort. De sleutel komt uit
+  // v_accountant_opdracht, zodat de site geen eigen tweede definitie krijgt.
+  let sleutels = new Map<number, string>();
   try {
     org = await vindOrganisatie(slug);
     if (org) {
-      opdrachten = await opdrachtenVanOrganisatie(org.id);
+      [opdrachten, aanbestedingen, sleutels] = await Promise.all([
+        opdrachtenVanOrganisatie(org.id),
+        gunningenVanOrganisatie(org.id),
+        accountantSleutels(org.id),
+      ]);
       reeksen = periodes(opdrachten);
       wissels = wisseljaren(opdrachten);
+      anderKantoor = onbevestigdeWisseljaren(opdrachten);
 
       // Organisaties uit dezelfde subsector zijn interessanter om naar door te
       // klikken dan willekeurige zorgorganisaties: een ziekenhuis naast een
@@ -96,7 +138,11 @@ export default async function Organisatiepagina({ params }: Params) {
       ]);
     }
   } catch (fout) {
-    return <Foutmelding fout={fout} />;
+    // Doorgooien: deze pagina staat sinds 5-10-2026 een uur in de cache (zie
+    // generateStaticParams hieronder), en een gerenderde <Foutmelding> ging
+    // daar bij een mislukte verversing in mee. Een geworpen fout laat de
+    // vorige versie staan; zie error.tsx.
+    throw fout;
   }
   if (!org) notFound();
 
@@ -105,7 +151,41 @@ export default async function Organisatiepagina({ params }: Params) {
 
   const anderePlaatsgenoten = plaatsgenoten.filter((o) => o.id !== org.id);
   const andereSectorgenoten = sectorgenoten.filter((o) => o.id !== org.id);
+  // De plaats wordt een link als de plaatspagina bestaat: minstens
+  // PLAATS_MINIMUM organisaties. De plaatsgenoten hierboven zijn hoofdletter-
+  // ongevoelig gezocht, en de plaatspagina neemt daarnaast ook leestekens samen
+  // — zijn groep is dus nooit kleiner, en de link loopt nooit dood.
+  const plaatsHeeftPagina =
+    !!org.gemeente &&
+    slugVan(org.gemeente) !== "" &&
+    anderePlaatsgenoten.length + 1 >= PLAATS_MINIMUM;
+  const honorariumjaren = opdrachten.filter(
+    (o) =>
+      o.honorarium_controle_eur != null ||
+      o.honorarium_overig_eur != null ||
+      o.honorarium_fiscaal_eur != null ||
+      o.honorarium_nietcontrole_eur != null,
+  );
+
   const laatsteWisseljaar = wissels.size ? Math.max(...wissels) : null;
+  // Staan er in de relatiegeschiedenis andere kantoren dan het huidige? Dan
+  // zou "geen wisseling in deze periode" in de kop lezen als een tegenspraak
+  // met de tabel eronder.
+  const andereKantoren = reeksen.some((r) => huidige && r.kantoorId !== huidige.kantoorId);
+  // "Gewisseld in boekjaar X" naast het huidige kantoor leest als "sinds X bij
+  // dit kantoor", en dat klopt alleen als X het begin van de huidige periode
+  // is. Begon die periode met een overgang die geen wisseling is (een gat in
+  // de reeks, of "ander kantoor" uit een controle met onbekend voorwerp), dan
+  // ging de laatste vastgestelde wisseling naar een eerder kantoor. Op
+  // 5-10-2026 bij 108 organisaties, waaronder 22 waar het huidige kantoor
+  // alleen uit het marktonderzoek komt: "PwC — 1 boekjaar (2025), gewisseld
+  // in boekjaar 2015", terwijl die wisseling van Deloitte naar EY ging.
+  const beginHuidige = huidige ? Math.min(...huidige.jaren) : null;
+  const wisselNaarHuidige = laatsteWisseljaar !== null && laatsteWisseljaar === beginHuidige;
+  const naarBijLaatsteWissel =
+    laatsteWisseljaar === null
+      ? null
+      : reeksen.find((r) => r.jaren.includes(laatsteWisseljaar))?.kantoorNaam ?? null;
 
   return (
     <>
@@ -114,7 +194,10 @@ export default async function Organisatiepagina({ params }: Params) {
           { naar: "/", tekst: "Start" },
           ...(org.sector
             ? [{ naar: sectorPad(org.sector), tekst: hoofdletter(org.sector) }]
-            : [{ naar: "/organisaties", tekst: "Organisaties" }]),
+            // De organisaties-indexpagina is er niet meer (24-8-2026, verzoek
+            // van de opdrachtgever): zonder sector is de tussenstap een
+            // tekstkruimel zonder link.
+            : [{ tekst: "Organisaties" }]),
           { tekst: org.naam },
         ]}
       />
@@ -123,7 +206,15 @@ export default async function Organisatiepagina({ params }: Params) {
         <h1>{org.naam}</h1>
         <p className="metaregel">
           <span>KvK {org.kvk_nummer ?? "onbekend"}</span>
-          {org.gemeente ? <span>{org.gemeente}</span> : null}
+          {org.gemeente ? (
+            <span>
+              {plaatsHeeftPagina ? (
+                <Link href={plaatsPad(org.gemeente)}>{org.gemeente}</Link>
+              ) : (
+                org.gemeente
+              )}
+            </span>
+          ) : null}
           {org.subsector ? (
             <span>
               <Link href={subsectorPad(org.subsector)}>{org.subsector}</Link>
@@ -150,11 +241,24 @@ export default async function Organisatiepagina({ params }: Params) {
                 {huidige.kantoorNaam}
               </Link>
             </strong>{" "}
+            {huidige.aangeleverd ? (
+              <>
+                <Aangeleverd
+                  bron={huidige.aangeleverd}
+                  jaren={huidige.aangeleverdeJaren}
+                  van={huidige.jaren}
+                />{" "}
+              </>
+            ) : null}
             <span className="zacht">
               — {aantalJaren(huidige.jaren.length)} ({jarenReeks(huidige.jaren)})
-              {reeksen.length > 1 && laatsteWisseljaar
+              {wisselNaarHuidige
                 ? `, gewisseld in boekjaar ${laatsteWisseljaar}`
-                : ", geen wisseling in deze periode"}
+                : laatsteWisseljaar && naarBijLaatsteWissel
+                  ? `, laatste vastgestelde wisseling in boekjaar ${laatsteWisseljaar} (naar ${naarBijLaatsteWissel})`
+                  : andereKantoren
+                    ? ", geen vastgestelde wisseling"
+                    : ", geen wisseling in deze periode"}
             </span>
           </p>
         ) : null}
@@ -171,6 +275,7 @@ export default async function Organisatiepagina({ params }: Params) {
                 <tr>
                   <th>Boekjaar</th>
                   <th>Accountantskantoor</th>
+                  <th>Getekend door</th>
                   <th>Opdracht</th>
                   <th>Oordeel</th>
                   <th>Bron</th>
@@ -193,10 +298,36 @@ export default async function Organisatiepagina({ params }: Params) {
                       )}
                       {wissels.has(opdracht.boekjaar) ? (
                         <> <span className="label label-let-op">wisseling</span></>
+                      ) : anderKantoor.has(opdracht.boekjaar) ? (
+                        <>
+                          {" "}
+                          <span
+                            className="label label-vaag"
+                            title="Een ander kantoor dan het boekjaar ervoor, maar in een van beide jaren staat alleen een controle waarvan het voorwerp onbekend is. Daarom geen wisseling, net als op de pagina met alle wisselingen."
+                          >
+                            ander kantoor
+                          </span>
+                        </>
                       ) : null}
                     </td>
-                    <td className="zacht">
-                      {OPDRACHT_LABEL[opdracht.type_opdracht] ?? opdracht.type_opdracht}
+                    {/* De ondertekenaar. Leeg betekent "niet vastgesteld" en niet
+                        "niet getekend": bij een gescande verklaring zonder
+                        tekstlaag is er niets te lezen. */}
+                    <td className="klein">
+                      {opdracht.tekenend_accountant ? (
+                        sleutels.get(opdracht.id) ? (
+                          <Link href={accountantPad(sleutels.get(opdracht.id)!)}>
+                            {opdracht.tekenend_accountant}
+                          </Link>
+                        ) : (
+                          opdracht.tekenend_accountant
+                        )
+                      ) : (
+                        <span className="zacht">—</span>
+                      )}
+                    </td>
+                    <td>
+                      <Soort type={opdracht.type_opdracht} />
                     </td>
                     <td>
                       <Oordeel
@@ -207,19 +338,29 @@ export default async function Organisatiepagina({ params }: Params) {
                         <> <span className="label label-let-op">continuïteit</span></>
                       ) : null}
                     </td>
+                    {/* De labelplicht uit docs/concept.md: bij elk gegeven hoort
+                        zichtbaar te zijn of het uit een openbare bron komt of
+                        door iemand zelf is aangeleverd. Het soort bron staat er
+                        dus altijd; alleen de link hangt af van een url. Tot
+                        5-10-2026 hing het hele label aan de url, en het
+                        marktonderzoek heeft er geen: 35.582 opdrachten stonden
+                        hier met een streepje. */}
                     <td className="klein">
-                      {opdracht.bronnen?.url ? (
+                      {opdracht.bronnen ? (
                         <>
-                          <a
-                            href={opdracht.bronnen.url}
-                            rel="noreferrer nofollow"
-                            target="_blank"
-                          >
-                            {opdracht.bronnen.bron_type}
-                          </a>
-                          {/* De labelplicht uit docs/concept.md: bij elk gegeven
-                              hoort zichtbaar te zijn of het uit een openbare bron
-                              komt of door iemand zelf is aangeleverd. */}
+                          {opdracht.bronnen.url ? (
+                            <a
+                              href={opdracht.bronnen.url}
+                              rel="noreferrer nofollow"
+                              target="_blank"
+                            >
+                              {opdracht.bronnen.bron_type}
+                            </a>
+                          ) : (
+                            <span title="Geen vindplaats per opdracht: niet per document herleidbaar.">
+                              {opdracht.bronnen.bron_type}
+                            </span>
+                          )}
                           {opdracht.bronnen.betrouwbaarheid ? (
                             <span className="zacht klein">
                               {" "}
@@ -237,7 +378,134 @@ export default async function Organisatiepagina({ params }: Params) {
             </table>
           </div>
         )}
+        {/* Alleen tonen als er ook echt zo'n opdracht tussen staat. De
+            waarschuwing is dan geen algemene disclaimer maar een uitleg bij
+            iets dat de bezoeker op deze pagina ziet staan. */}
+        {opdrachten.some((o) => SOORTGROEP[o.type_opdracht] === "anders") ? (
+          <p className="zacht klein" style={{ margin: "0.7rem 0 0", maxWidth: "44rem" }}>
+            Let op: niet elke verklaring hierboven gaat over de jaarrekening. Een
+            controle van een WNT-opgave, een productieverantwoording of een
+            subsidieafrekening betreft één onderwerp — daaruit volgt niets over
+            de jaarrekening als geheel.
+          </p>
+        ) : null}
       </section>
+
+      {/* Honoraria: openbaar omdat art. 2:382a BW de jaarrekening verplicht ze
+          te noemen, en in de vier categorieën die dat artikel voorschrijft.
+
+          Ze worden bewust niet opgeteld tot één bedrag. Wat er staat is wat de
+          organisatie ten laste van dat boekjaar heeft verantwoord, doorgaans
+          voor het hele accountantsnetwerk — niet de prijs van deze opdracht. Eén
+          getal met "fee" erboven leest als een factuur, en dat zou dezelfde fout
+          zijn als het marktaandeel dat over alle sectoren heen werd opgeteld. */}
+      {honorariumjaren.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Honoraria van de accountant</h2>
+            <span className="klein zacht">art. 2:382a BW</span>
+          </div>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Boekjaar</th>
+                  <th className="getal">Controle jaarrekening</th>
+                  <th className="getal">Overige controle (w.o. WNT)</th>
+                  <th className="getal">Fiscale advisering</th>
+                  <th className="getal">Niet-controlediensten</th>
+                </tr>
+              </thead>
+              <tbody>
+                {honorariumjaren.map((o) => (
+                  <tr key={`honorarium-${o.boekjaar}-${o.type_opdracht}`}>
+                    <td className="jaar">{o.boekjaar}</td>
+                    {(
+                      [
+                        o.honorarium_controle_eur,
+                        o.honorarium_overig_eur,
+                        o.honorarium_fiscaal_eur,
+                        o.honorarium_nietcontrole_eur,
+                      ] as (number | null)[]
+                    ).map((bedrag, i) => (
+                      <td className="getal" key={i}>
+                        {euro(bedrag) ?? <span className="zacht">—</span>}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="klein zacht" style={{ marginBottom: 0 }}>
+            Bedragen zoals de organisatie ze in de jaarrekening verantwoordde over
+            het boekjaar, voor het accountantskantoor en zijn netwerk samen. Een
+            streepje betekent dat de bron dat bedrag niet noemt — niet dat het nul
+            was. Deze cijfers zijn er alleen voor de boekjaren waarvan de
+            jaardataset is ingelezen.
+          </p>
+        </section>
+      ) : null}
+
+      {aanbestedingen.length > 0 ? (
+        <section className="kaart">
+          <div className="kaartkop">
+            <h2>Aanbestede accountantsdiensten</h2>
+            <span className="klein zacht">bron: TED</span>
+          </div>
+          {/* Een gunning is een benoeming vooraf, geen waargenomen controle.
+              Dat onderscheid staat hier expliciet, want anders leest een
+              bezoeker het als "hier is gecontroleerd". */}
+          <p className="klein zacht" style={{ marginTop: 0 }}>
+            De opdracht is Europees aanbesteed. Een gunning zegt wie er benoemd
+            is en wanneer — niet of de controle er kwam, en met welk oordeel.
+          </p>
+          <div className="tabel-omhulsel">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gegund</th>
+                  <th>Kantoor</th>
+                  <th>Aanbesteding</th>
+                  <th>Bericht</th>
+                </tr>
+              </thead>
+              <tbody>
+                {aanbestedingen.map((gunning) => (
+                  <tr key={gunning.publicatienummer + (gunning.kantoren?.id ?? "")}>
+                    <td className="jaar">{datumNL(gunning.gunningsdatum)}</td>
+                    <td>
+                      {gunning.kantoren ? (
+                        <KantoorLink
+                          naam={gunning.kantoren.naam}
+                          naar={kantoorPad(gunning.kantoren)}
+                          voluit
+                        />
+                      ) : (
+                        <span className="zacht">onbekend</span>
+                      )}
+                    </td>
+                    <td className="klein zacht">{gunning.titel ?? "—"}</td>
+                    <td className="klein">
+                      {gunning.bronnen?.url ? (
+                        <a
+                          href={`https://ted.europa.eu/nl/notice/-/detail/${gunning.publicatienummer}`}
+                          rel="noreferrer nofollow"
+                          target="_blank"
+                        >
+                          {gunning.publicatienummer}
+                        </a>
+                      ) : (
+                        gunning.publicatienummer
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ) : null}
 
       {reeksen.length > 1 ? (
         <section className="kaart">
@@ -258,6 +526,16 @@ export default async function Organisatiepagina({ params }: Params) {
                     >
                       {reeks.kantoorNaam}
                     </Link>
+                    {reeks.aangeleverd ? (
+                      <>
+                        {" "}
+                        <Aangeleverd
+                          bron={reeks.aangeleverd}
+                          jaren={reeks.aangeleverdeJaren}
+                          van={reeks.jaren}
+                        />
+                      </>
+                    ) : null}
                   </td>
                   <td className="zacht klein">{aantalJaren(reeks.jaren.length)}</td>
                 </tr>
@@ -265,6 +543,15 @@ export default async function Organisatiepagina({ params }: Params) {
             </tbody>
           </table>
           </div>
+          {anderKantoor.size > 0 ? (
+            <p className="klein zacht" style={{ marginBottom: 0, maxWidth: "44rem" }}>
+              Een overgang naar een ander kantoor telt pas als wisseling als er in
+              beide boekjaren een wettelijke of vrijwillige jaarrekeningcontrole
+              staat — dezelfde regel als op de pagina met alle wisselingen. Staat
+              er aan één kant alleen een controle waarvan het voorwerp onbekend
+              is, dan heet het hierboven &ldquo;ander kantoor&rdquo;.
+            </p>
+          ) : null}
         </section>
       ) : null}
 
@@ -297,10 +584,12 @@ export default async function Organisatiepagina({ params }: Params) {
           ...(laatsteWisseljaar
             ? [
                 {
-                  naar: "/wisselingen",
+                  naar: `/wisselingen?jaar=${laatsteWisseljaar}`,
                   tekst: `Wie wisselde er nog meer in ${laatsteWisseljaar}?`,
                   // Min één: de telling omvat de wisseling van deze organisatie
-                  // zelf, en "nog meer" hoort over de ánderen te gaan.
+                  // zelf, en "nog meer" hoort over de ánderen te gaan. Dat klopt
+                  // sinds wisseljaren() dezelfde typen telt als v_wisselingen;
+                  // daarvoor kon de eigen "wisseling" in de view ontbreken.
                   toelichting:
                     aantalZelfdeJaar > 1
                       ? `${aantalZelfdeJaar - 1} andere in de database`
@@ -313,6 +602,9 @@ export default async function Organisatiepagina({ params }: Params) {
             tekst: buur.naam,
             toelichting: `ook in ${org.gemeente}`,
           })),
+          ...(plaatsHeeftPagina && org.gemeente
+            ? [{ naar: plaatsPad(org.gemeente), tekst: `Alle organisaties in ${org.gemeente}` }]
+            : []),
           ...andereSectorgenoten
             .filter((o) => !anderePlaatsgenoten.some((b) => b.id === o.id))
             .slice(0, 3)

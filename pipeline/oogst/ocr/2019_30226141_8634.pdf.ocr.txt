@@ -1,0 +1,959 @@
+# whosigns-ocr v1 grootte=9607831 dpi=300 paginas=20
+@ WoondroomZorg B.V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+31-12-2019 31-12-2018
+€ € € €
+
+Passief
+Eigen vermogen
+Gestort en opgevraagd kapitaal (5) 18.000 18.000
+Overige reserves (6) 496.929 369.698
+
+514.929 387.698
+Voorzieningen (7)
+Voorziening ontslag-risico 67.062 107.899
+Voorziening langdurig verzuim risico 158.750 182.959
+
+225.812 290.858
+Kortlopende schulden en overlopende
+passiva (8)
+Handelscrediteuren - 21.283
+Belastingen en sociale premies 176.268 140.190
+Overige schulden en overlopende passiva 666.637 587.432
+
+842.905 748.905
+TOTAAL 1.583.646 1.427.461
+
+Jaarrekening 2019 Pagina 13
+
+OO WoondroomZorg B. V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Winst- en verliesrekening over 2019
+
+2019 2018
+€ € € €
+
+OPBRENGSTEN
+Netto-omzet (9) 7.703.276 6.869.802
+Inkoopwaarde van de omzet (10) 94.925 82.016
+Brutomarge 7.608.351 6.787.786
+KOSTEN
+Lonen en salarissen (11) 5.174.193 4.507.507
+Sociale lasten (12) 1.342.553 1.159.246
+Afschrijvingen materiële vaste activa (13) 38.760 28.899
+Overige bedrijfskosten (14) 897.091 901.053
+Som der bedrijfslasten 7.452.597 6.596.705
+Bedrijfsresultaat 155.754 191.081
+Rentebaten en soortgelijke opbrengsten (15) - 187
+Rentelasten en soortgelijke kosten (16) 1.198 926
+Uitkomst der financiële baten en lasten -1.198 -739
+Resultaat uit gewone bedrijfs-
+
+uitoefening voor belastingen 154.556 190.342
+Vennootschapsbelasting (17) (27.325) (39.571)
+Resultaat uit gewone bedrijfs-
+
+uitoefening na belastingen 127.231 150.771
+
+Jaarrekening 2019 Pagina 14
+
+@O WoondroomZorg B.V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Kasstroomoverzicht
+
+2019 2018
+€ € € €
+Bedrijfsresultaat 155.754 191.081
+Aanpassingen voor:
+Afschrijvingen 38.760 28.899
+Mutatie voorzieningen -65.046 66.377
+mutatie operationele vorderingen -216.693 -9.262
+mutatie operationele schulden 94.000 -84.606
+-122.693 -93.868
+Kasstroom uit bedrijfsoperaties 6.775 192.489
+Ontvangen interest 187
+Betaalde interest -1.198 -926
+Betaalde winstbelasting m.b.t. operationele activiteiten -27.325 -39.571
+-28.523 -40.310
+Kasstroom uit operationele activiteiten -21.748 152.179
+Investeringen in materiële vaste activa -61.640 -1.331
+Investeringen in overige financiële vaste activa -188
+Desinvesteringen overige financiële vaste activa 20
+Kasstroom uit investeringsactiviteiten -61.828 -7.311
+Nettokasstroom -83.576 144.868
+Mutatie geldmiddelen -83.576 144.868
+Toelichting op de geldmiddelen
+Stand per 1 januari 905.671 760.803
+Mutatie geldmiddelen -83.576 144.868
+Stand per 31 december 822.095 905.671
+
+Jaarrekening 2019 Pagina 15
+
+OG WoondroomZorg B. V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Algemene toelichting balans
+
+Algemeen
+
+Activiteiten
+
+Volgens de statuten heeft WoondroomZorg B.V. ten doel:
+
+- het verlenen van thuiszorgprestaties in de zin van artikel 15 van het Besluit zorgaanspraken bijzonder
+ziektekostenverzekering (of de daarvoor in de plaats tredende regelgeving), in het bijzonder gericht op kleine
+mantelzorginitiatieven op het gebied van wonen en zorg, bedoeld voor mensen met een levenslange
+zorgbehoefte;
+
+- het oprichten en verwerven van, het deelnemen in, het samenwerken met, het besturen van, alsmede het
+(doen) financieren van andere ondernemingen, in welke rechtsvorm ook;
+
+- het verstrekken en aangaan van geldleningen, het beheren van en het beschikken over registergoederen en
+het stellen van zekerheden, ook voor schulden van anderen;
+
+- het verrichten van alle verdere handelingen, die met het vorenstaande in de ruimste zin verband houden of
+daartoe bevorderlijk kunnen zijn.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer Handelsregister
+WoondroomZorg B.V. is statutair gevestigd te Langbroek en is ingeschreven bij het handelsregister onder
+nummer 302.261.41.
+
+Groepsverhoudingen
+Aangezien WoondroomZorg B.V. geconsolideerd ook als kleine rechtspersoon valt aan te merken is
+consolidatie achterwege gelaten op grond van het bepaalde in artikel 2:407 lid 2 sub a BW.
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen, die uitgegeven zijn door de Raad voor de
+jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst- en verliesrekening zijn referenties opgenomen. Met deze referenties
+wordt verwezen naar de toelichting.
+
+Vergelijking met voorgaand jaar
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten opzichte
+van het voorgaande jaar.
+
+Functionele valuta
+De jaarrekening is opgesteld in euro's. Dit is zowel de functionele als de presentatievaluta van
+WoondroomZorg B.V.
+
+Bijzondere posten
+
+Bijzondere posten zijn baten of lasten die voortvloeien uit gebeurtenissen of transacties die behoren tot het
+resultaat uit de normale, niet-incidentele bedrijfsactiviteiten, maar die omwille van de vergelijkbaarheid apart
+toegelicht worden op grond van de aard, omvang of het incidentele karakter van de post.
+
+Jaarrekening 2019 Pagina 16
+
+O WoondroomZorg B. V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Grondslagen voor de waardering van activa en passiva
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en terreinen worden gewaardeerd tegen verkrijgingsprijs plus bijkomende kosten of
+vervaardigingsprijs onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige gebruiksduur.
+Op terreinen wordt niet afgeschreven.
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Financiële vaste activa
+
+Latente belastingvorderingen
+
+Latente belastingvorderingen worden opgenomen voor verrekenbare tijdelijke verschillen tussen de waarde van
+de activa en passiva volgens fiscale voorschriften enerzijds en de in deze jaarrekening gevolgde
+waarderingsgrondslagen anderzijds, met dien verstande dat latente belastingvorderingen alleen worden
+opgenomen voor zover het waarschijnlijk is dat er toekomstige fiscale winst zal zijn waarmee de tijdelijke
+verschillen kunnen worden verrekend.
+
+De berekening van de latente belastingvorderingen geschiedt tegen de op het einde van het verslagjaar
+geldende belastingtarieven dan wel tegen de in komende jaren geldende tarieven, voor zover deze al bij wet zijn
+vastgesteld.
+
+Latente belastingvorderingen worden gewaardeerd op nominale waarde.
+
+Vorderingen
+
+De vorderingen worden opgenomen tegen nominale waarde, onder aftrek van de noodzakelijk geachte
+voorzieningen voor het risico van oninbaarheid. Deze voorzieningen worden bepaald op basis van individuele
+beoordeling van de vorderingen.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Voorzieningen
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum
+bestaan, waarbij het waarschijnlijk is dat een uitstroom van middelen noodzakelijk is en waarvan de omvang op
+betrouwbare wijze is te schatten.
+
+De voorzieningen worden gewaardeerd tegen de beste schatting van de bedragen die noodzakelijk zijn om de
+verplichtingen per balansdatum af te wikkelen. De overige voorzieningen worden gewaardeerd tegen de
+nominale waarde van de uitgaven die naar verwachting noodzakelijk zijn om de verplichtingen af te wikkelen,
+tenzij anders vermeld. Wanneer het de verwachting is dat een derde de verplichtingen vergoedt, en wanneer
+het waarschijnlijk is dat deze vergoeding zal worden ontvangen bij de afwikkeling van de verplichting, dan wordt
+deze vergoeding als een actief in de balans opgenomen.
+
+Jaarrekening 2019 Pagina 17
+
+@O WoondroomZorg B. V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag
+rekening houdend met agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale waarde.
+
+Grondslagen voor de bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij
+zijn gerealiseerd.
+
+Opbrengstverantwoording
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde projectopbrengsten
+uit hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van over de omzet geheven
+belastingen.
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde prestaties,
+gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Kosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Personeelsbeloningen
+
+Periodiek betaalbare beloningen
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in de
+winst- en verliesrekening.
+
+Pensioenen
+
+WoondroomZorg B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord.
+
+Op de Nederlandse pensioenregelingen zijn de bepalingen van de Nederlandse Pensioenwet van toepassing en
+betaalt WoondroomZorg B.V. op verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en
+verzekeringsmaatschappijen. De premies worden verantwoord als personeelskosten zodra deze verschuldigd
+zijn. Vooruitbetaalde premies worden opgenomen als overlopende activa indien dit tot een terugstorting leidt of
+tot een vermindering van toekomstige betalingen. Nog niet betaalde premies worden als verplichting op de
+balans opgenomen.
+
+Afschrijvingen op materiële vaste activa
+
+Materiële vaste activa worden vanaf het moment dat het actief beschikbaar is voor het beoogde gebruik
+afgeschreven over de geschatte economische levensduur van het actief. Over terreinen wordt niet
+afgeschreven.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van
+de desbetreffende activa en passiva.
+
+Jaarrekening 2019 Pagina 18
+
+@ WoondroomZorg B. V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst- en
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren
+en vrijgestelde winstbestanddelen en na bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden
+met wijzigingen die optreden in de latente belastingvorderingen en latente belastingschulden uit hoofde van
+wijzigingen in het te hanteren belastingtarief.
+
+Jaarrekening 2019 Pagina 19
+
+0 WoondroomZorg B.V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Toelichting op de balans
+
+Waarderingsgrondslagen
+
+De grondslagen van de waardering van de bezittingen en schulden zijn hierna uiteengezet bij de toelichting op
+de afzonderlijke balansrubrieken. Voorzover niet anders vermeld, geschiedt de waardering tegen nominale
+waarde.
+
+1. Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen historische aanschafwaarde, verminderd met de lineaire
+
+afschrijving hierover gedurende de geschatte economische levensduur.
+
+De mutaties in de materiële vaste activa kunnen als volgt worden samengevat:
+
+Inventaris Vervoermidd Verbouwing
+
+elen Geldermalse
+n
+€ € €
+Boekwaarde per 31-12-2018 28.161 15.654 74.301
+Bij: Investeringen 15.092 46.548 -
+Afschrijvingen 13.927 15.035 9.798
+Boekwaarde per 31-12-2019 29.326 47.167 64.503
+
+Voor een specificatie verwijzen wij u naar de bijlage.
+
+31-12-2019 31-12-2018
+€ €
+
+2. Financiële vaste activa
+
+Latente belastingvorderingen
+Latente belastingvorderingen 1.432 1.244
+
+VLOTTENDE ACTIVA
+3. Vorderingen
+
+Handelsdebiteuren
+Nominale waarde 514.624 326.717
+
+Jaarrekening 2019 Pagina 20
+
+te
+
+Koningswoud
+
+ACCOUNTANCY
+
+WoondroomZorg B. V.
+
+te Geldermalsen
+
+31-12-2019 31-12-2018
+€ €
+Overige vorderingen en overlopende activa
+Fietsenplan 4,204 -
+Ziektekostenverzekeringspremie 5.660 3.180
+Bedrijfsfitnessonline 726 -
+Overlopende activa 93.909 72.533
+104.499 75.713
+4. Liquide middelen
+Rabobank - Bedrijfsspaarrekening 775.000 750.000
+Rabobank - Zakelijke rekening 32.679 152.213
+SNS Bank - Zakenrekening 14.416 3.458
+822 095 905.671
+De liquide middelen staan ter vrije beschikking van de vennootschap.
+EIGEN VERMOGEN
+5. Gestort en opgevraagd kapitaal
+Het verloop van de post geplaatst is als volgt:
+Stand per begin boekjaar 18.000 18.000
+Stand per einde boekjaar 18.000 18.000
+Het maatschappelijk kapitaal bedraagt € 90.000, verdeeld in 9.000 gewone
+aandelen van € 10. Hiervan zijn geplaatst en volgestort 1.800 aandelen van € 10.
+Tijdens het verslagjaar hebben zich geen mutaties in het geplaatst kapitaal
+voorgedaan.
+De aandelen zijn als volgt verdeeld:
+A. Rhebergen Beheer B.V., Langbroek 1.800 gewone aandelen
+6. Overige reserves
+Het verloop van de post is als volgt:
+Stand per begin boekjaar 369.698 218.927
+Resultaat boekjaar 127.231 150.771
+Stand per einde boekjaar 496.929 369 698
+7. VOORZIENINGEN
+Voorziening ontslag-risico
+Stand per 1 januari 107.899 43.884
+Uitgaven -137.375 -47.187
+Dotaties 96.538 111.202
+Stand per 31 december 67.062 107.899
+
+Aan de voorziening ontslag-risico is 1,25% (2018 : 1,25%) van de omzet gedoteerd.
+
+Jaarrekening 2019
+
+Pagina 21
+
+@ WoondroomZorg B.V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+31-12-2019 31-12-2018
+
+€ €
+Voorziening langdurig verzuim risico
+Stand per 1 januari 182.959 180.597
+Uitgaven -247.709 -243.772
+Dotaties 223.500 246.134
+Stand per 31 december 158.750 182.959
+Aan de voorziening langdurig verzuim risico is 4,5% (2018 : 4,5%)
+van de loonkosten gedoteerd.
+8. KORTLOPENDE SCHULDEN EN OVERLOPENDE PASSIVA
+Handelscrediteuren
+Volgens openstaande postenlijst - 21.283
+2018 is dit inclusief € 21.283 verschuldigd aan groepsmaatschappijen.
+Belastingen en sociale premies
+Loonheffingen 133.881 98.963
+Pensioenpremies 21.060 13.029
+Vennootschapsbelasting 21.327 28.198
+176.268 140.190
+Overige schulden en overlopende passiva
+Reservering vakantiegeld 250.298 214.369
+Reservering vakantiedagen 311.373 272.783
+Reservering eindejaarsuitkering 40.521 29.903
+Accountantskosten (raming) 14.500 10.750
+Verzekeringspremie 6.001 12.737
+Nettoloon 2.446 1.922
+Onregelmatigheidstoeslag 2012-2016 - 8.518
+Kruisposten - 1.667
+Stichting PAWW 1.287 -
+Overlopende passiva 40.211 34.783
+666.637 587.432
+
+NIET UIT DE BALANS BLIJKENDE VERPLICHTINGEN:
+
+De vennootschap heeft een huurcontract afgesloten tot 31 december 2021 voor het gebruik van een
+bedrijfsruimte. De huurverplichting bedraagt circa € 19.000 per jaar.
+
+Jaarrekening 2019 Pagina 22
+
+OO WoondroomZorg B. V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Toelichting op de winst- en verliesrekening 2019
+
+2019 2018
+€ €
+9. Omzet
+Ondersteunende begeleiding 7.701.407 6.869.802
+Omzet diversen 1.869
+
+7.703.276 6.869.802
+
+10. Inkoopwaarde van de omzet
+
+Bijdrage huishoudgeld 62.988 57.872
+Telefoonkosten 25.818 20.883
+Bijdrage kantoorkosten 5.302 2.731
+Bijdrage parkeerplaats 817 530
+94.925 82.016
+11. Lonen en salarissen
+Lonen en salarissen 5.133.177 4.463.790
+Vakantietoeslag en mutatie vakantie-uren 403.647 365.838
+Af: ontvangen ziekengelduitkeringen -362.631 -322.121
+
+5.174.193 4.507.507
+
+12. Sociale lasten
+
+Sociale lasten 905.604 788.397
+
+Pensioenlasten 436.949 370.849
+1.342.553 1.159.246
+
+Het gemiddeld aantal werknemers (uitgedrukt in FTE) gedurende het jaar 143 126
+
+13. Afschrijvingen materiële vaste activa
+
+Inventaris 13.927 11.746
+
+Vervoermiddelen 15.035 7.355
+
+Verbouwing Geldermalsen 9.798 9.798
+38.760 28.899
+
+14. Overige bedrijfskosten
+
+Specificatie:
+
+Overige personeelskosten 547.996 581.106
+Beheervergoeding 185.000 178.718
+Huisvestingskosten 18.658 18.794
+Verkoopkosten 24.355 17.004
+Autokosten 7.949 7.249
+Algemene kosten 113.133 98.182
+
+897.091 901.053
+
+Jaarrekening 2019 Pagina 23
+
+WoondroomZorg B. V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+2019 2018
+€ €
+Overige personeelskosten
+Kosten derden 24.153 8.717
+Reiskostenvergoedingen 150.664 134.701
+Geschenken personeel 16.413 17.932
+Opleidingskosten 64.422 77.490
+Wervingskosten personeel 25.955 23.861
+Kosten langdurig verzuim 223.500 198.122
+Arbodienst 20.929 17.726
+Intervisiekosten personeel 8.910 5.143
+Coördinatorendagen - 673
+Mutatie voorziening ontslag-risico 129.798 123.402
+Kosten moreel beraad 22.353 15.227
+Overige personeelskosten 20.027 33.469
+Af: doorberekende personeelskosten -159.128 -15.357
+547.996 581.106
+Beheervergoeding
+Beheervergoeding 185.000 178.718
+Huisvestingskosten
+Huur onroerende zaken 18.658 18.794
+Verkoopkosten
+Reis- en verblijfkosten management 10.697 15.716
+Overige kosten management 750 56
+Representatiekosten 1.966 977
+Ouder bijeenkomsten 10.942 255
+24.355 17.004
+Autokosten
+Autokosten 7.949 7.249
+Algemene kosten
+Telefoon- en internetkosten 3.257 2.981
+Portikosten 2.842 2.992
+Accountantskosten 3.750 3.224
+Automatiseringskosten 53.685 43.054
+Kantoorkosten 2.641 1.155
+Drukwerk 2.965 3.430
+Contributies en abonnementen 13.031 12.924
+Verzekeringen 5.643 4.035
+Onderhoud inventaris 2.743 6.402
+Kosten Raad van Commissarissen 13.187 11.171
+Overige algemene kosten 9.389 6.814
+113.133 98.182
+15. Rentebaten en soortgelijke opbrengsten
+Bankrente - 187
+
+Jaarrekening 2019 Pagina 24
+
+Koningswoud
+
+ACCOUNTANCY
+
+c. Toezichthoudende topfunctionarissen
+
+bedragen x € 1
+
+H.C.A. de Vos tot
+
+Nederveen Cappel
+
+J.H. Koningswoud-
+ten Hove
+
+J.H. Postema
+
+H.J. Dijkstra A.C. van Rhee
+
+Functiegegevens
+
+Voorzitter
+
+Voorzitter vanaf
+25-06 Lid tot 25-06
+
+Lid
+
+Lid Lid
+
+Aanvang en einde
+functievervulling in 2019
+
+01/01 — 25/06
+
+01/01 — 31/12
+
+01/01 — 31/12
+
+24/06-31/12 24/06 - 31/12
+
+wegens onverschuldigde betaling
+
+Bezoldiging
+
+Totale bezoldiging € 1.750 € 3.205 € 2.540 € 1.697 € 1.431
+(naNiadser\Shpasneljke € 9.750 € 16.250 € 13.000 € 6.500 € 6.500
+bezoldigingsmaximum
+
+“in Oi versehuldigd bataald en nag Nvt. Nvt. Nvt Nvt. Nvt.
+niet terugontvangen bedrag
+
+Reden waarom de overschrijding Nvt. Nvt. Nvt. Nvt Nvt.
+al dan niet is toegestaan
+
+Toelichting op de vordering Nvt. Nvt. N.v.t. Nvt Nvt
+
+Gegevens 2018
+
+bedragen x € 1
+
+Functiegegevens
+
+H.C.A. de Vos tot
+Nederveen Cappel
+
+Voorzitter
+
+J.H. Koningswoud-
+ten Hove
+
+Lid
+
+J.H. Postema
+
+Lid
+
+Aanvang en einde
+functievervulling in 2018
+
+01/01 — 31/12
+
+01/01 — 31/12
+
+01/01 — 31/12
+
+bezoldigingsmaximum
+
+Bezoldiging
+Totale bezoldiging € 3.500 € 2.500 € 2.500
+Individueel toepasselijke € 18.750 € 12.500 € 12.500
+
+3. Overige rapportageverplichtingen op grond van de WNT
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een
+dienstbetrekking die in 2019 een bezoldiging boven het individueel toepasselijke drempelbedrag
+
+hebben ontvangen.
+
+Jaarrekening 2019
+
+Pagina 27
+
+Ô, WoondroomZorg B.V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+
+Gebeurtenissen na balansdatum
+
+Als gevolg van het Covid-19-virus is de omzet 2020 hoger dan begroot. Daarnaast is het ziekteverzuim in het
+begin van 2020 echter ook hoger geweest. Het ziekteverzuim is inmiddels weer genormaliseerd. Verder zijn er
+extra kosten gemaakt om te kunnen werken volgens de RIVM-richtlijnen. Deze extra kosten worden geraamd
+op circa € 5.000 tot € 10.000. Wij zijn dan ook op dit moment van mening dat de gevolgen van het Covid-19-
+virus geen materieel negatief effect zal hebben op onze financiële conditie of liquiditeit.
+
+Ondertekening
+
+Ondertekening ingevolge artikel 210 lid 2 boek 2 Burgerlijk Wetboek
+
+Bestuurders:
+
+De heer A. Rhebergen Mevrouw H. Rhebergen-Tissingh
+
+Mevrouw M. van Duijn
+
+Raad van Commissarissen:
+
+Mevrouw J.H. Koningswoud-ten Hove Mevrouw J.H. Postema
+(voorzitter)
+De heer H.J. Dijkstra Mevrouw A.C. van Rhee
+
+Jaarrekening 2019 Pagina 28
+
+@O WoondroomZorg B.V.
+
+Koningswoud te Geldermalsen
+
+ACCOUNTANCY
+Statutaire regeling inzake de winstbestemming
+
+Statutaire regeling betreffende de bestemming van het resultaat
+Artikel 20 lid 1 van de statuten luidt:
+De winst staat ter vrije beschikking van de algemene vergadering.
+
+Bestemming van het resultaat over het boekjaar 2018
+
+De jaarrekening 2018 is vastgesteld in de algemene vergadering van aandeelhouders gehouden op 25 juni
+2019. De algemene vergadering van aandeelhouders heeft de bestemming van het resultaat vastgesteld
+conform het daartoe gedane voorstel.
+
+Voorstel tot bestemming van het resultaat over het boekjaar 2019
+
+De directie stelt voor het resultaat over het boekjaar 2019 ten bedrage van € 150.771 geheel ten gunste van de
+overige reserves te brengen en over 2019 geen dividend uit te keren.
+
+Vooruitlopend op een daartoe te nemen besluit van de algemene vergadering van aandeelhouders is dit
+voorstel als zodanig in de jaarrekening verwerkt.
+
+Overige gegevens Pagina 30
+
+Koningswoud
+
+ACCOUNTANCY
+
+WoondroomZorg B.V.
+Van Dam van Isseltweg 2a
+4191 KC Geldermalsen
+
+BEOORDELINGSVERKLARING
+
+Geachte directie,
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2019 van WoondroomZorg B.V. te Langbroek
+beoordeeld. Deze jaarrekening bestaat uit de balans per 31 december 2019 en de winst- en verliesrekening
+over 2019 met de toelichting, waarin zijn opgenomen een overzicht van de gehanteerde grondslagen voor
+financiële verslaggeving en andere toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het resultaat
+getrouw dient weer te geven in overeenstemming met Titel 9 Boek 2 van het in Nederland geldende Burgerlijk
+Wetboek (BW). De directie is tevens verantwoordelijk voor een zodanige interne beheersing als zij noodzakelijk
+acht om het opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als
+gevolg van fraude of fouten.
+
+Verantwoordelijkheid accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze beoordeling.
+Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder de Nederlandse
+Standaard 2400 'Opdrachten tot het beoordelen van financiële overzichten’. Dit vereist dat wij voldoen aan de
+voor ons geldende ethische voorschriften en dat wij onze beoordeling zodanig plannen en uitvoeren dat wij in
+staat zijn te concluderen dat ons niet is gebleken dat de jaarrekening afwijkingen van materieel belang bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte mate van
+zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak uit het inwinnen van
+inlichtingen bij het management en overige functionarissen van de entiteit, het uitvoeren van cijferanalyses met
+betrekking tot de financiële gegevens alsmede het evalueren van de verkregen informatie.
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter dan die
+uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de Nederlandse
+controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Conclusie
+
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten concluderen dat de
+jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling van het vermogen van
+WoondroomZorg B.V. per 31 december 2019 en van het resultaat over 2019 in overeenstemming met Titel 9
+Boek 2 van het in Nederland geldende Burgerlijk Wetboek (BW).
+
+Pagina 31
+
+Koningswoud Accountancy © Boezemweg 26 © 3247 BB Dirksland e Postbus 22 e 3247 ZG Dirksland s T 0187 602365
+E info@koningswoudaccountancy.nl © IT www.koningswoudaccountancy.nl © BTW nr NL001707944B70 e KvK 24480886 ° IBAN NL64 RABO 0156231565
+
+«
+
+Koningswoud
+
+ACCOUNTANCY
+
+Beperking in gebruik en verspreidingskring
+
+De jaarrekening is opgesteld met als doel WoondroomZorg B.V. in staat te stellen te voldoen aan de eisen
+inzake de wettelijke verplichte jaarverantwoording zorg. Hierdoor is de jaarrekening 2019 van WoondroomZorg
+B.V. te Langbroek mogelijk niet geschikt voor andere doeleinden. Onze beoordelingsverklaring is derhalve
+uitsluitend bestemd voor WoondroomZorg B.V. en jaarverantwoording zorg en dient niet te worden verspreid
+aan of te worden gebruikt door anderen. Deze situatie doet geen afbreuk aan onze conclusie.
+
+Dirksland, 18 juni 2020
+
+ga
+
+M.C. Koningswoud AA RB
+Koningswoud Accountancy
+
+Pagina 32
+
+epJeemjseH
+
+uesjeuulepje5 9}
+Ag D1OZ7wooIpuoom
+
+- 3 - EE. 3 - 3 0 3 L9ELE 3 IOEIE 3
+d 3 = > - 3 - > 69 > 69 3 OG SL0g
+- 3 3 -0 3 ELEL 3 ELEL 3 OG 70e
+3 - 3 0 3 ESO'L 3 EGO 3 OG 702
+3 3 -0 3 GZ8 3 G/8 3 OG 702
+3 3 -0 3 ZE9 > ZE9 3 OG vl0Z
+3 3 0 3 9 3 9 3 OG vlOZ
+3 - 3 0 3 99 3 99 3 OG 7L0c
+- 3 … 3 - 3 OOG 3 OOG 3 OG 70e
+- 3 7 3 5 3 COOL 3 E00'L 3 OG vlOg
+= 3 3 - 3 VOR 3 voo 3 OG EeLOT
+- 3 3 - > 667 > 667 3 OG eLOT
+3 3 s 3 OOG 3 OOG 3 OG eLOZ
+3 3 - > 6vv 3 6vv 3 OG EeLOT
+3 - 3 - > GC9 3 GC9 3 OG EeLOE
+3 - 3 s 3 OGLL 3 OSL 3 OG ANY
+3 … 3 - 3 8vy 3 Syv 3 OG rARorA
+ei 3 - 3 - 3 Evy > Evy 3 OG TLZ
+- 3 7 3 = 3 79 > vC9 3 OG TL
+- 3 3 - 3 6GEL 3 6GEL 3 OG ANY
+ei De 3 - 3 667 > 667 3 OG TL0e
+3 - 3 = 3 667 > 667 3 OG TL0c
+3 3 - 3 766 B 766 3 OG TL0z
+3 3 - 3 6EG 3 6EG 3 O4 LLOZ
+3 3 E 3 BEET 3 BEET > OZ LLOC
+3 - 3 - 3 E€E6'L 3 EZ6'L > OZ OLOE
+3 … 3 - 3 EGO 3 EGO > OZ OLOZ
+3 > = 3 O/G 3 O9/G 3 OZ OLOE
+- 3 3 - 3 LZ0L 3 LZ0'L 3 O4 OLOZ
+3 3 - 3 COE 3 TOE 3 OC OLOE
+3 = 3 SG6CY 3 S6CY > OC OL0E >
+6LOE-EL-LE 6L0E 60E 6L0E 6108-10-10 8L0E opleEM abejuaI eel
+opleemjeog uebumliuyos/y uebuwejsonuy uebuuey opleemjoog Jow Us JO) Jeyosuey -ladsbum -Jeyosuey
+-SOAUIS9G uebuInluyos)y -ÍUYISIY
+
+ueJeuodsuel) 97
+
+(SPAH) doydej onoue7
+‘je sneaang XZ
+
+JeA09 + £ JOU AxejeD Xz
+JOUOW + elIdsYy JeIY
+eAeANS + elIdsy JeIy
+eJemJOSs + dojdeT dH Xy
+(as) 1PBm 9905854 doden
+LPÔM euidsy 199V
+
+JZ jeepdwoo dode JH
+XG 9'G| SNSY
+
+(snq) <69 eqlyso |
+(HPI) LAM doyden
+(avi) auidsy Jeoy
+ueblegeuY Ad Id
+sped-|
+
+dojde1 LAOM
+
+dojdeT NAM
+
+OO0e9vz LOON 199
+(xe) e19e | EQIYSOL
+dojde1 gAM
+
+dojde1 gAM
+AvOvXS-ISEGM SNSY
+apse9-A dojde7
+enjgjoog sdorde
+S999Y SJejndwog
+Jejuiudiese
+
+dopysed HT
+usjeojsJepeblen
+jeyeuepebIen
+ue6uIlejsenul SsJeNIT
+SIe}ueAul
+
+eAIJJE 9JSeA ojglozew op UEA JUIZI9AO
+
+uesjeulleple5 9}
+A'g B1ozwoorpuoom
+
+6/8 Gl 3 GIEE 3 - 3 - 3 pGL BZ 3 69//G 3 ET6G8 3 ueJezuodsuel) o}
+BELL 3 GZ6L 3 - 3 EOL'E 3 ZVZ 3 OS6E 3 OG 8LOE-LL-GL XOL ZO O7 HOOG dH
+dee) 3 606 B 3 LLS 3 97 3 ZIEL > OG 8L0T-6-4 ad Jem Xz ‘UID UIUL dH
+OEL 3 84 3 - 3 <L6 3 zoo 3 vOCL > OG 8L0Z-Z-02 XG OOI HOOHSNIA JH
+vv > Ge B — 3 67E 3 96 3 Gey > OZ LLOZ-LL-8| (WO OEL X OTT) leJeHopebIen
+: 3 LZ9 ce 3 1/9 3 LZOL 3 ZPLL 3 OG LL0-0L-6 ofleosed Holder
+= 3 087 B - 3 087 3 69 3 6V4 3 OG L107-6-82 (LPAN) dozden
+= 3 OL B - 3 9LL 3 EEE 3 Gp7 3 OG LL08-4-4 (zez) doyden
+: 3 veT D= 3 vez > G99 > 668 > OG L108-4-G Old ped-! oyddy
+= 3 801 B - 3 801 3 69 3 LG > OG LL0Z-G-61 (ag) doyden
+Ake) > LL he B 648 3 Wy 3 GEEL 3 OZ LLOT-v-Zl A49 sle}ueruI
+- 3 LE Me > LE 3 TLG 3 €09 3 OG L10Z-4-6 (Mas) uouldsul (eq
+EEg 3 66E k -— 3 TET'L 3 GO 3 466 > OZ LL0T-T-€ ueJojuex BunyolJenpeT
+0090 3 OOEG D= 3 006'GL > 0090 3 OOG 3 OZ LLOZ-L-L (NdA e}ls-0}-a}S) |l INOA
+- B = > - 3 e > BEG 3 BEG > OG 9107-6-68 (1Z) ON OEL AV GL JH doden
++ > - > — > = 3 69 > 697 3 OG 9L07-6-E7 (ao) doyde
+slerd 3 871 D= 3 90v 3 GEE 3 EL 3 OZ 9L04-6-12 Joojuex uselzeojer
+- > - 3 = 3 : > 667 3 667 3 OG 9107-6-9 (OI) SL dH dorde
+, > - 3 3 - > 667 > 667 > OG 9L0T-L-L (joo ep) euidsy Jeoy doyde
+TLZ > 881 B E) oop 3 ey > Tv6 3 OZ 9107-9-8 zojsooye [eeuoJen
+= 3 - > - 3 - 3 667 3 667 3 OG 9L07-9-L (enaar) dorde
+OLL 3 18 > - 3 L6L 3 EIZ 3 vor 3 OZ 9LOZ-G-pl JeZolN
+à 3 - > - 3 = 3 v6G 3 v6G 3 OG 9L0Z-E-0E (1Z) SL dH doydeT
+6vL > GEL B = 3 VLT 3 6VE 3 €79 3 OZ 9L07-E-6l SIejuenul Uoxynex
+= 3 - 3 - B 5 > 687 3 687 3 OG 9L0T-E-LL (ApAxt) dozde
+LLL 3 GOL 3 - 3 Tre 3 Ley 3 Ee 3 OZ 9L0E-1-6Z neeung eol
+- > - 3 - 3 - > 645 > 6EG 3 OG 9LOE-L-LZ (45) Jejndwog
+: > - 3 - 3 5 3 Ter 3 Zev 3 OG SLOZ (Sd) €9 OSZ dH dode
+: } - > - 3 = 3 Z8 > Z78 3 OG GL0Z uouldsuj (eq
+- 3 > = 3 - 3 OOG 3 OOG 3 OG GLOZ (Sd) doyden
+vOL 3 Ly B - 3 ejke) 3 TPG 3 460 3 OZ GLOZ jefeoigO 10/09 dH JOJUIId
+- 3 3 - 3 - 3 687 3 687 3 OS SL0z (AAI) 20OgSJON 199
+= 3 = D= B - 3 0 3 LOELE 3 LELIE 3 zodsuel
+
+epJEEMJS9H 6LOE-EL-LE 6L0Z 6L0Z 6L0Z 6402-10-10 8102 epJeem abejueg Jeel
+epleemyeog uebuimnluyos;y uebumerseruy uebuuer opleemjoog Jew us JO} Jeyosuey -Jedsbum -Jeyosuey
+
+-SOAUISAT uebuinluyos;y -[UYISIY
+
+886'0vL > 094'8E > 0v9'|9 3 3 S80L'8LL > 6V9'90L > ZGLVCE 3 EAIJIE AJSEA 9|919JEU [EEJO |
+
+<og'yg > 8646 Ea. 3 > OOCL 3 849'EL > 84646 3 uesjewopjeg Buimnogsen
+025 > Z8 3 7 > L59 > OlZ > 498 > Ol 90E sjoôe|
+Ceb eg > LLZ6 3 7 3 3 EVIEL J SIE 3 LILZ6 3 Ol 90E uosjewopleg Buimnogen
+
+uesjewapjes Buimnogsen
+
+LIL Lp 3 GEO'GL 3 SVG’ J - 3 PG9GL 3 ZOEGZ 3 9807 3 uajepplwJeoA1en [eeJo]
+- 3
+GSIT 3 898'8E > 0894 3 8VG'9y 3 0z 6L0Z H-867-7X OJIN e
+WOZ 3 L9T'G 3 E8IE 3 0568 3 GOL 3 6GHOL 3 OZ SLOZ A-OLZ-MH soe USOJID
+6E0Z 3 TEO€ > TLE 3 70/9 3 E6G'EL 3 /6E0E 3 OZ GLOZ 188v-45 snjoeg USOJID
+uajepplWwleoOAleA
+6LE'6Z 3 ZE6'EL 3 E6O'GL J - 3 VGL'8E 3 69L'LG 3 E€T6G8 3 SlJeJuaAul [eeJOL
+90E y > G/9 3 L86'y 3 OS 6107-01-62 (uayjerdsiom €) LOI INOA
+Ty 3 vvz 3 OOG 3 0z 6L02-6-12 (sxnjs 9) suwBIISSH
+905 tv 3 GGy > L96'y 3 0z 6L0Z-4-0L JaJUId
+TLE > 817 > OS9 3 eye 6L0E-T-ZE (HS dojder) euidisy Jeoy
+648 GL 3 GIEEL EE. 3 -— 3 PGLBE 3 69/LG 3 E£Z668 3 godsuelj
+epJeemjseH 6LOE-EL-LE 6L0Z 6L0Z 6L0Z 6L0E-L0-10 8LOE opJeem abejuag Jeel
+epleemyeog uebumluyos}y uebuwejsenug uabuuer opleemyeog Jew ue jo) Jeyosuey -Jadsbum -JeyIsuey
+-S8AUISAT uebuinluyos)y -ÍUYISIY
+
+uesjeullepje5 e}
+Ag Biozwooipuoom

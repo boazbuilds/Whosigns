@@ -1,0 +1,1286 @@
+# whosigns-ocr v1 grootte=3637068 dpi=300 paginas=20
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1 JAARREKENING
+
+1.1.1 BALANS PER 31 DECEMBER 2020
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Immateriële vaste activa
+Materiële vaste activa
+Financiële vaste activa
+Totaal vaste activa
+
+Vlottende activa
+
+Voorraden
+
+Onderhanden zorgtrajecten
+
+Vorderingen uithoofde van financieringstekort
+Debiteuren en overige vorderingen
+
+Effecten
+
+Liquide middelen
+
+Totaal vlottende activa
+
+Totaal activa
+
+PASSIVA
+
+Eigen vermogen
+
+Kapitaal
+Bestemmingsreserves
+Bestemmingsfondsen
+Algemene en overige reserves
+Totaal eigen vermogen
+
+Kortlopende schulden (ten hoogste 1 jaar)
+Schulden uithoofde van financieringsoverschot
+Overige kortlopende schulden
+
+Totaal kortlopende schulden (ten hoogste 1 jaar)
+
+Totaal passiva
+
+Ref. 31-dec-20 31-dec-19
+€ €
+
+0 0
+
+1. 75.221 4.953
+0 0
+
+75.221 4.953
+
+0 0
+
+0 0
+
+0 0
+
+2. 311.026 193.710
+0 0
+
+3. 452.028 8.682
+763.054 202.392
+
+838.275 207.345
+
+Ref. 31-dec-19 31-dec-18
+€ €
+
+4, 744.872 149.483
+0 0
+
+0 0
+
+0 0
+
+744.872 149.483
+
+0 0
+
+5. 93.403 57.862
+93.403 57.862
+
+838.275 207.345
+
+TH | 4
+aa
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.2 RESULTATENREKENING OVER 2020
+
+BEDRIJFSOPBRENGSTEN:
+
+Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+
+Subsidies (exclusief Wmo en Jeugdwet)
+Overige bedrijfsopbrengsten
+
+Som der bedrijfsopbrengsten
+
+KOSTPRIJS VAN DE OMZET:
+
+Kostprijs van de omzet
+
+BEDRIJFSLASTEN:
+
+Personeelskosten
+
+Afschrijvingen op materiële vaste activa
+Bijzondere waardeverminderingen van vaste activa
+Overige bedrijfskosten
+
+Som der bedrijfslasten
+
+BEDRIJFSRESULTAAT
+
+Financiële baten en lasten
+RESULTAAT VOOR BELASTINGEN
+Belastingen
+
+RESULTAAT NA BELASTINGEN
+
+RESULTAATBESTEMMING
+Het resultaatis als volgt verdeeld:
+
+Toevoeging/(onttrekking):
+Bestemmingsreserve
+Bestemmingsfonds
+Kapitaal
+
+Ref. 2020 2019
+€ €
+
+7. 1.260.598 446.712
+0 0
+
+8. 472.843 520.124
+1.733.441 966.836
+
+11.059 9.205
+
+11.059 9.205
+
+9. 712.937 541.328
+10. 4.672 2.313
+0 0
+
+14. 168.461 148.444
+886.070 692.085
+
+836.311 265.546
+
+12. 1.529 1.804
+834.782 263.742
+
+0 0
+
+834.782 263.742
+
+2020 2019
+
+€ €
+
+0 0
+
+0 0
+
+834.782 263.742
+
+834.782 263.742
+
+CL
+WW
+TIC Assurance
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.3 KASSTROOMOVERZICHT OVER 2019
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+- afschrijvingen en overige waardeverminderingen
+- mutaties voorzieningen
+
+- boekresultaten afstoting vaste activa
+
+Veranderingen in werkkapitaal:
+
+= voorraden
+
+- mutatie onderhanden zorgtrajecten
+
+- vorderingen
+
+= vorderingen/schulden uithoofde van
+financieringstekort respectievelijk -overschot
+
+- kortlopende schulden (excl. schulden aan banken)
+
+Kasstroom uit bedrijfsoperaties
+
+Ontvangen interest
+Betaalde interest
+Ontvangen dividenden
+Betaalde winstbelasting
+
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa
+Desinvesteringen materiële vaste activa
+Investeringen immateriële vaste activa
+Desinvesteringen immateriële vaste activa
+Verwervingen deelnemingen en/of
+samenwerkingsverbanden
+
+Vervreemdingen deelnemingen en/of
+samenwerkingsverbanden
+
+Uitgegeven leningen u/g
+
+Aflossing leningen u/g
+
+Investeringen in overige financiële vaste activa
+Desinvesteringen overige financiële vaste activa
+
+Totaal kasstroom uit investeringsactiviteiten
+
+Kasstroom uit financieringsactiviteiten
+Vermogensmutatie (kapitaal)
+
+Aflossing langlopende schulden
+
+Mutatie kortlopend bankkrediet
+
+Totaal kasstroom uit financieringsactiviteiten
+
+Mutatie geldmiddelen
+
+Stand geldmiddelen per 1 januari
+Stand geldmiddelen per 31 december
+Mutatie geldmiddelen
+
+Ref. 2020 2019
+€ € € €
+836.311 265.546
+1 4,672 2.313
+0 0
+0 0
+4,672 2.313
+0 0
+0 0
+2. -117.316 -140.226
+0 0
+5. 35.541 52.278
+-81.775 -83.222
+759.209 179.911
+0 0
+12. _ -1.529 -1.804
+0 0
+0 0
+0 0
+757.679 178.107
+-74,941 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+-74.941
+4. -239.392 -173.140
+0 0
+0 0
+-239.392 -173.140
+_ 443.346 4,967
+8.682 3.715
+452.028 8.682
+3. 443.346 4.967
+
+CC
+
+TIC Assur:
+
+mdependench by
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+1.1.4.1 Algemeen
+
+Algemene gegevens en groepsverhoudingen
+
+Zorginstelling JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding is statutair gevestigd te Harderwijk, op het
+adres Academiestraat 14, en is geregistreerd onder KvK-nummer 08200650. Feitelijk is de onderneming gevestigd
+te Harderwijk, op het adres van laan 1940 - 1945.
+
+De belangrijkste activiteiten zijn leerlingenzorg, ouderadvies en schoolbegeleiding.
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding heeft geen groepsverhoudingen.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op hetboekjaar 2020, dat is geëindigd op balansdatum 31 december 2020.
+
+Grondslagen voor het opstellen van de jaarrekening
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi Regeling Jeugdweten
+daarmee de Richtlijn voor de Jaarverslaggeving hoofdstuk 655 Zorginstellingen.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd op
+historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Contíinuîteitsveronderstelling
+Deze jaarrekening is opgesteld uitgaande van de continuïiteitsveronderstelling.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar.
+
+Verbonden rechtspersonen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaattussen de instelling en een natuurlijk
+persoon of entiteit die verbonden is met de instelling. Dit betreffen onder meer de relaties tussen de instelling en
+haar deelnemingen, de aandeelhouders, de bestuurders en de functionarissen op sleutelposities. Onder transacties
+wordt verstaan een overdracht van middelen, diensten of verplichtingen, ongeacht of er een bedrag in rekening is
+gebracht.
+
+De volgende transacties met verbonden partijen hebben onder normale marktvoorwaarden plaatsgevonden:
+
+* Het Talent, administratieve ondersteuning voor een bedrag van 31.657 euro inclusief btw in het boekjaar 2020.
+
+* ERPE PGB administratie en beheer, ondersteuning management voor een bedrag van 23.993 euro inclusief btw in
+het boekjaar 2020.
+
+rn
+N
+TIC Assurance
+
+6 mdependench by vo
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+1.1.4.2 Grondslagen van waardering van activa en passiva
+
+Activaen passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld in de
+verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de
+jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen
+naar de instelling zullen toevloeien en het actief een kostprijs of een waarde heeftwaarvan de omvang
+betrouwbaar kan worden vastgesteld. Activa die hier nietaan voldoen worden nietin de balans verwerkt, maar
+worden aangemerkt als nietin de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerktwanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal
+gaan meteen uitstroom van middelen die economische voordelen in zich bergen en de omvang van het bedrag
+waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden vastgesteld. Onder verplichtingen
+worden mede voorzieningen begrepen. Verplichtingen die hier nietaan voldoen worden nietin de balans
+opgenomen, maar worden verantwoord als nietin de balans opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijftop de balans opgenomen als een transactie niet leidt tot
+een belangrijke verandering in de economische realiteit met betrekking tot het actief of de verplichting. Dergelijke
+transacties geven evenmin aanleiding tot het verantwoorden van resultaten. Bij de beoordeling of er sprake is van
+een belangrijke verandering in de economische realiteit wordt uitgegaan van de economische voordelen en
+risico's die zich naar waarschijnlijk in de praktijk zullen voordoen, en niet op voordelen en risico's waarvan
+redelijkerwijze niette verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of
+nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met betrekking tot het actief of
+de verplichting aan een derde zijn overgedragen. De resultaten van de transactie worden in dat geval direct in de
+resultatenrekening opgenomen, rekening houdend met eventuele voorzieningen die dienen te worden getroffen in
+samenhang metde transactie. Indien de weergave van de economische realiteit ertoe leidt dat het opnemen van
+activa waarvan de rechtspersoon niet het juridisch eigendom bezit, wordt dit feit vermeld.
+
+De jaarrekening wordt gepresenteerd in euro's, watook de functionele valuta is van zorginstelling JAM
+Leerlingenzorg, Ouderadvies en Schoolbegeleiding.
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd tegen kostprijs onder aftrek van cumulatieve afschrijvingen en
+cumulatieve bijzondere waardeverminderingen. De kostprijs van de genoemde activa bestaat uit de verkrijgings-
+of vervaardigingsprijs en overige kosten om de activa op hun plaats en in de staat te krijgen noodzakelijk voor het
+beoogde gebruik. De kostprijs van de activa die door de instelling in eigen beheer zijn vervaardigd, bestaat uitde
+aanschaffingskosten van de gebruikte grond- en hulpstoffen en de overige kosten die rechtstreeks kunnen
+worden toegerekend aan de vervaardiging. Verder omvat de vervaardigingsprijs een redelijk deel van de indirecte
+kosten en de rente op schulden over het tijdvak dat kan worden toegerekend aan de vervaardiging van de activa
+
+De afschrijvingstermijnen van de materiële vaste activa zijn gebaseerd op de verwachte economische levensduur
+van het vast actief.
+
+Materiële vaste activa met een beperkte gebruiksduur worden afzonderlijk afschreven. In het geval dat
+belangrijkste bestanddelen van een materieel vast actief van elkaar te onderscheiden zijn en verschillen in
+gebruiksduur of verwacht gebruikspatroon, worden deze bestandsdelen afzonderlijk afgeschreven.
+
+In het geval dat de betaling van de kostprijs van een materieel vast actief plaatsvindtop grond van een langere
+dan normale betalingstermijn, wordtde kostprijs van het actief gebaseerd op de contante waarde van de
+verplichting.
+
+In het geval dat materiële vaste activa worden verworven in ruil voor een niet-monetair actief, wordt de kostprijs
+van het materieel vast actief bepaald op basis van de reële waarde voor zover de ruiltransactie leidttot een
+wijziging in de economische omstandigheden en de reële waarde van het verworven actief of van het opgegeven
+actief op betrouwbare wijze kan worden vastgesteld.
+
+5
+TIC Assurance
+
+7 maependench by ferro
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs volgens de lineaire
+methode op basis van de verwachte economische levensduur. Er wordt afgeschreven vanaf hetmoment dathet actief
+klaar is voor het beoogde gebruik. Op bedrijfsterreinen en op vaste activa in ontwikkeling en vooruitbetalingen op
+materiële vaste activa wordt niet afgeschreven.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+* Bedrijfsinventaris : 20%.
+
+Vorderingen
+De eerste waardering van vorderingen is tegen reële waarde, inclusief transactiekosten. (Door toepassing van de
+effectieve rentemethode worden transactiekosten als onderdeel van de amortisatie in de resultatenrekening verwerkt).
+
+Liquide middelen
+
+Liquide middelen bestaan banktegoeden en direct opeisbare deposito's meteen looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende
+schulden. Liquide middelen worden gewaardeerd tegen de nominale waarde.
+
+Liquide middelen die naar verwachting langer dan 12 maanden nietter beschikking staan van de instelling, worden
+gerubriceerd als financiële vaste activa.
+
+Eigen vermogen
+Kapitaal
+
+In het eigen vermogen wordt onderscheid gemaakt tussen het kapitaal van beide vennoten. Het betrefteen
+vennootschap onder firma, derhalve zijn er geen reserves gepresenteerd.
+
+Leasing
+
+De instelling kan financiële en operationele leasecontracten afsluiten. Een leaseovereenkomst waarbij de voor-en
+nadelen verbonden aan het eigendom van hetleaseobject geheel of nagenoeg geheel door de lessee worden
+gedragen, wordtaangemerkt als een financiële lease. Alle andere leaseovereenkomsten classificeren als operationele
+leases. Bij de leaseclassificatie is de economische realiteit van de transactie bepalend en niet zozeer de juridische
+vorm. Classificatie van de lease vindt plaats op het tijdstip van het aangaan van de betreffende leaseovereenkomst.
+
+Operationele leases
+
+Als de instelling optreedt als lessee in een operationele lease, wordt hetleaseobjectnietgeactiveerd. Vergoedingen
+die worden ontvangen als stimulering voor het afsluiten van een overeenkomstworden verwerkt als een vermindering
+van de leasekosten over de leaseperiode. Leasebetalingen en vergoedingen inzake operationele leases worden
+lineair over de leaseperiode ten laste respectievelijk ten gunste van de resultatenrekening gebracht, tenzij een andere
+toerekeningsystematiek meer representatief is voor het patroon van de methet leaseobjectte verkrijgen voordelen.
+
+CC
+
+TIC Assur:
+
+maepangenchby
+
+Pe
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+1.1.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming
+van de hiervoor reeds vermelde waarderingsgrondslagen. Baten worden in de resultatenrekening opgenomen
+wanneer een vermeerdering van heteconomisch potentieel, samenhangend meteen vermeerdering van een actief
+of een vermindering van een verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden
+vastgesteld. Lasten worden verwerktwanneer een vermindering van heteconomisch potentieel, samenhangend met
+een vermindering van een actief of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan de
+omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking genomen in
+het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan de verslagperiode
+waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde fout in voorgaande
+boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de resultatenrekening verwerktwanneer het bedrag van de
+opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen vergoeding waarschijnlijk is,
+de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar kan worden bepaald en de reeds
+gemaakte kosten en de kosten die (mogelijk) nog moeten worden gemaaktom de dienstverlening te voltooien op
+betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdrachttot dienstverlening nietop betrouwbare wijze kan worden bepaald,
+worden de opbrengsten verwerkttot het bedrag van de kosten van de dienstverlening die worden gedekt door de
+opbrengsten. De metde opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten
+zijn verantwoord.
+
+Onder opbrengsten jeugdweten opbrengsten Wmo worden de baten verantwoord uithoofde van geleverde
+prestaties op het gebied van verleende jeugdzorg respectievelijk Wmo-prestaties. Als realisatiemoment geldt het
+moment waarop de betreffende prestaties zijn gerealiseerd en op grond van de geldende voorschriften of richtlijnen
+gedeclareerd kunnen worden bij de opdrachtgever. Totde opbrengsten jeugdwet worden tevens gerekend mutaties
+in onderhanden zorgtrajecten met betrekking tot jeugdzorg.
+
+Overige bedrijfsopbrengsten
+De overige bedrijfsopbrengsten bestaan uitopbrengsten anders dan uit zorgprestaties en maatschappelijke
+
+ondersteuning en subsidies. De overige opbrengsten bestaan uit hetleveren van diensten.
+
+Opbrengsten uit de verkoop van goederen worden verwerkt zodra alle belangrijke rechten en risico's met betrekking
+tot de eigendom van de goederen zijn overgedragen aan de koper.
+
+Opbrengsten uit het verlenen van diensten geschieden naar rato van de geleverde prestaties, gebaseerd op de
+verrichte diensten tot aan de balansdatum in verhouding totde in totaal te verrichten diensten.
+
+De belangrijkste overige bedrijfsopbrengsten hebben betrekking op hetgeven van huiswerkbegeleiding en het
+verzorgen van cursussen.
+
+5
+TIC Assurance
+
+g maependench by ferro
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Personele kosten
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de resultatenrekening
+voor zover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de resultatenrekening verantwoord in de periode waarin de
+arbeidsprestatie wordt verrichten, voor zover nog niet uitbetaald, als verplichting op de balans opgenomen. Als de
+reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordthet meerdere opgenomen als een
+overlopend actief voor zover er sprake zal zijn van terugbetaling door het personeel of van verrekening met
+toekomstige betalingen door de instelling.
+
+Voor de beloningen metopbouw van rechten (sabbatical leave, gratificaties e.d.) worden de verwachte lasten
+gedurende het dienstverband in aanmerking genomen. Een verwachte vergoeding ten gevolge van gratificaties
+worden verantwoord indien de verplichting tot betaling van die vergoeding is ontstaan op of vóór balansdatum en
+een betrouwbare schatting van de verplichtingen kan worden gemaakt. Ontvangen bijdragen voortvloeiend uit
+levensloopregelingen worden in aanmerking genomen in de periode waarover deze bijdragen zijn verschuldigd.
+Toevoegingen aan en vrijval van verplichtingen worden ten laste respectievelijk ten gunste van de
+resultatenrekening gebracht.
+
+Indien een beloning wordt betaald, waarbij geen rechten worden opgebouwd (bijvoorbeeld doorbetaling in geval van
+ziekte of arbeidsongeschiktheid) worden de verwachte lasten verantwoord in de periode waarover deze beloning is
+verschuldigd. Voor op balansdatum bestaande verplichtingen tot het in de toekomst doorbetalen van beloningen
+(inclusief ontslagvergoedingen) aan personeelsleden die op balansdatum naar verwachting blijvend geheel of
+gedeeltelijk nietin staat zijn om werkzaamheden te verrichten door ziekte of arbeidsongeschikthe id wordteen
+voorziening opgenomen. De verantwoorde verplichting betreftde beste schatting van de bedragen die noodzakelijk
+zijn om de desbetreffende verplichting op balansdatum af te wikkelen. De beste schatting is gebaseerd op
+contractuele afspraken met personeelsleden (CAO en individuele arbeidsovereenkomsten). Toevoegingen aan en
+vrijval van verplichtingen worden ten laste respectievelijk ten gunste van de resultatenrekening gebracht
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en deelnemingen ontvangen (te ontvangen) en aan derden en
+deelnemingen betaalde (te betalen) interest. Tevens is hieronder opgenomen het aandeel van de stichting in het
+resultaat van de op nettovermogenswaarde gewaardeerde deelnemingen dan wel ontvangen dividenden van
+deelnemingen waarin geen invloed van betekenis op het zakelijke en financiële beleid wordt uitgeoefend en
+waardeveranderingen van financiële vaste activa en effecten.
+
+Uitgangspunten Sociaal Domein
+
+Bij het bepalen van de Wmo-omzeten of Jeugdwet-omzetheeftde vennootschap onder firma de grondslagen voor
+waardering en resultaatbepaling gevolgd zoals hiervoor opgenomen. In de praktijk kan het lang duren voordatde
+geleverde Wmo-zorg en jeugdhulp in een kalenderjaar definitief wordt afgerekend door de gemeenten. Hierdoor is
+er onzekerheid over het vergoeden van overproductie en kunnen gemeenten geleverde zorg ter discussie stellen,
+waardoor deze mogelijk nietwordt vergoed.
+
+De vennoten van de vennootschap onder firma hebben deze mogelijke effecten naar beste weten geschaten
+verwerkt in deze jaarrekening waar mogelijk en wijst op het resterende inherente risico terzake dat kan leiden tot
+nagekomen financiële effecten in 2021 of later.
+
+1.1.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroom overzicht
+bestaan uit de liquide middelen en beleggingen die zonder beperkingen en zonder materieel risico van
+waardeverminderingen als gevolg van de transactie kunnen worden omgezet in geldmiddelen.
+
+Ontvangsten en uitgaven uit hoofde van interest zijn opgenomen onder de kasstroom uitoperationele activiteiten.
+Transacties waarbij geen ruil van kasmiddelen plaatsvindt zijn nietin het kasstroomoverzichtopgenomen.
+
+10
+
+CC
+
+TIC Assur:
+
+mdepender
+
+by
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+1.1.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken totaan de
+datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden nietin de
+
+jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de gebruikers
+van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de jaarrekening.
+
+1.1.4.6 Waarderingsgrondslagen WNT
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding is nietgebonden aan de WNT regelgeving voor WTZI-
+instellingen omdat hetgeen rechtspersoon is, maar een vennootschap onder firma betreft.
+
+11
+
+CC
+
+TIC Assur:
+
+mdependench by
+
+Pe
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+1. Materiële vaste activa
+
+De specificatie is als volgt:
+
+Bedrijfsgebouwen en terreinen
+
+Machines en installaties
+
+Andere vaste bedrijfsmiddelen, technische en
+
+administratieve uitrusting
+
+Materiële vaste bedrijfsactiva in uitvoering en vooruitbetalingen op materiële vaste
+activa
+
+Niet aan het bedrijfsproces dienstbare materiële activa
+
+Totaal materiële vaste activa
+
+Het verloop van de materiële activa in het verslagjaaris als volgt weerte geven:
+
+Boekwaarde per 1 januari
+
+Bij: investeringen
+
+Af: afschrijvingen
+
+Af: bijzondere waardeverminderingen
+
+Bij: terugname bijzondere waardeverminderingen
+Af: terugname geheel afgeschreven activa
+
+Af: desinvesteringen
+
+Boekwaarde per 31 december
+
+31-dec-20 31-dec-19
+€ €
+
+0 0
+
+0 0
+
+75.221 4.953
+
+0 0
+
+0 0
+
+75.221 4.953
+31-dec-20 31-dec-19
+€ €
+
+4.953 7.266
+74.941 0
+4,673 2.313
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+75.221 4,953
+
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+
+mutatieoverzichtonder 1.1.6.
+
+Onder de materiële vaste activa is voor een totaalbedrag van € 75.221 aan vaste activa opgenomen waarvan de
+
+vennootschap alleen heteconomisch eigendom heeft.
+
+12
+
+CC
+
+TIC Assur:
+
+mdepander
+
+by
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+2. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+€ €
+
+Vorderingen op debiteuren 186.989 116.377
+
+Vooruitbetaalde bedragen:
+
+Diversen vooruitbetaald 5.845 2.275
+
+Nogte ontvangen bedragen:
+
+Nogte factureren omzet 103.242 64.858
+
+Overige overlopende activa:
+
+Borgsommen 14.950 10.200
+
+Totaal debiteuren en overige vorderingen 311.026 193.710
+
+3. Liquide middelen
+
+De specificatie is als volgt: 31-dec-20 31-dec-19
+€ €
+
+Bankrekeningen 452.028 8.692
+
+Kassen 0 0
+
+Deposito's 0 0
+
+Totaal liquide middelen 452.028 8.692
+
+Toelichting:
+
+De liquide middelen zijn terstond opeisbaar. Er zijn geen deposito's opgenomen onder de liquide middelen.
+
+13
+
+CC
+
+TIC Assur:
+
+mdepander
+
+by
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.5 TOELICHTING OP DE BALANS
+
+PASSIVA
+
+4. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-20 31-dec-19
+
+€ €
+
+Kapitaal 744.872 149.483
+
+Totaal eigen vermogen 744.872 149.483
+Kapitaal
+
+Saldo per Resultaat Kapitaal Saldo per
+
+Het verloop over 2020 is als volgt weerte geven: 1-jan-20 mutaties 31-dec-20
+
+€ € € €
+
+Kapitaal 149.483 834.782 -239.393 744.782
+
+Totaal kapitaal 149.483 834.782 -239.393 744.782
+Kapitaal
+
+Saldo per Resultaat Kapitaal Saldo per
+
+Het verloop over 2019 is als volgt weerte geven: 1-jan-19 mutaties 31-dec-19
+
+€ € € €
+
+Kapitaal 58.881 263.742 173.140 149.483
+
+Totaal kapitaal 58.881 263.742 173.140 149.483
+
+14
+
+\v,
+TIC Assurance
+
+mdependench by o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+5. Overige kortlopende schulden
+
+De specificatie is als volgt:
+
+Schulden aan kredietinstellingen
+Crediteuren
+
+Aflossingsverplichtingen komend boekjaar langlopende leningen
+Belastingen en premies sociale verzekeringen
+
+Te betalen winstbelasting
+
+Schulden terzake pensioenen
+
+Nog te betalen salarissen
+
+Terugbetalingsverplichtingen zorgverzekeraars oude jaren
+Schulden uithoofde van transitieregeling
+
+Overige schulden:
+
+Nog te betalen kosten:
+
+Nog te betalen kosten overig
+
+Nogte betalen accountantskosten
+
+Vakantiegeld
+
+Vakantiedagen
+
+Totaal overige kortlopende schulden
+
+6. Niet in de balans opgenomen verplichtingen, activa en regelingen
+(Meerjarige) financiële verplichtingen
+
+31-dec-20 31-dec-19
+€ €
+
+0 0
+2.712 13.641
+0 0
+16.339 12.088
+0 0
+
+0) 0
+28.588 601
+0 0
+
+0 0
+10.178 4.883
+19.412 8.709
+3.690 3.139
+12.483 14.801
+93.403 57.862
+
+De vennootschap heeft de volgende meerjarige verplichtingen uithoofde van lopende leasecontracten, huur en
+
+overeenkomsten.
+betaalbaar betaalbaar betaalbaar Totaal
+binnen 1 jaar 1-5 jaar na 5 jaar €
+€ € € €
+Huur 68.022 6.804 0 74.826
+Operationele lease 21.130 0 21.130
+Totaal meerjarige
+verplichtingen 89.152 6.804 0 95.956
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde
+zorgprestaties kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De effecten van eventuele materiële
+nacontroles zijn vooralsnog onzeker en daarom zijn er hiervoor geen verplichtingen opgenomen in de balans.
+
+15
+
+CC
+
+mdepander
+
+by
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.6 MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Stand per 1 januari 2020
+
+= aanschafwaarde
+- cumulatieve
+afschrijvingen
+
+Boekwaarde per 1 januari
+2020
+
+Mutaties in het boekjaar
+= investeringen
+
+= afschrijvingen
+
+= bijzondere
+waardeverminderingen
+
+= terugname bijz.
+waardeverminderingen
+
+= terugname geheel
+afgeschreven activa
+
+„aanschafwaarde
+„cumulatieve
+afschrijvingen
+
+- desinvesteringen
+
+aanschafwaarde
+
+cumulatieve
+afschrijvingen
+
+per saldo
+
+Mutaties in boekwaarde
+(per saldo)
+
+Stand per 31 december
+2020
+
+- aanschafwaarde
+- cumulatieve
+afschrijvingen
+
+Boekwaarde per 31
+december 2020
+
+Afschrijvingspercentage
+
+Andere vaste Materiële vaste
+bedrijfs- bedrijfsactiva in
+middelen, uitvoering en Niet aan het
+Bedrijfs- technische en vooruitbetalingen bedrijfsproces
+gebouwen Machines
+
+en en administratieve op materiële dienstbare Totaal
+
+terreinen installaties uitrusting vaste activa materiële activa
+€ € € € € €
+0 0 12.196 0 0 12.196
+0 0 7.243 0 0 7.243
+0 0 4.953 0 0 4.953
+0 0 74.942 0 0 74.942
+0 0 4,673 0 0 4,673
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 -70.270 0 0 70.270
+le) 0 87.137 0 0 87.137
+0 0 11.916 0 0 11.916
+0 0 75.221 0 0 75.221
+
+0,0% 0,0% 20,0% 0,0% 0,0%
+
+16
+
+rn
+N
+TIC Assurance
+
+mdependench by vo
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.7 TOELICHTING OP DE RESULTATENREKENING
+
+BATEN
+
+7. Opbrengsten zorgprestaties en maatschappelijke ondersteuning
+De specificatie is als volgt:
+
+Opbrengsten zorgverzekeringswet (exclusief subsidies)
+
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (exclusief subsidies)
+
+Opbrengsten Jeugdwet
+
+Opbrengsten Wmo
+Opbrengsten Ministerie van Veiligheid en Justitie (forensische zorg; exclusief
+subsidies)
+
+Beschikbaarheidsbijdragen Zorg (exclusief Opleidingen)
+Overige zorgprestaties
+
+Totaal
+
+8. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt:
+
+Overige dienstverlening
+
+Totaal
+
+1.1.7 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+
+9. Personeelskosten
+
+De specificatie is als volgt:
+
+Lonen en salarissen
+Sociale lasten
+
+Pensioenpremies
+Andere personeelskosten:
+Overige personeelskosten
+
+Subtotaal
+Personeel nietin loondienst
+
+Totaal personeelskosten
+
+Gemiddeld aantal personeelsleden op basis van fulltime eenheden
+
+Aantal personeelsleden dat buiten Nederland werkzaam is
+
+17
+
+2020 2019
+
+€ €
+
+0 0
+
+0 0
+1.187.901 428.463
+72.697 18.249
+0 0
+
+0 0
+
+0 0
+1.260.598 446.712
+2020 2019
+
+€ €
+472.843 520.124
+472.843 520.124
+2020 2019
+
+€ €
+491.339 382.063
+109.892 72.610
+0 0
+33.301 18.969
+634.531 471.558
+78.405 63.884
+712.937 490.600
+27 19
+
+0 0
+
+CC
+
+TIC Assur:
+
+mdependench by
+
+Pe
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+10. Afschrijvingen op materiële vaste activa
+
+De specificatie is als volgt: 2020 2019
+€ €
+
+Afschrijvingen:
+= materiële vaste activa 4,673 2.313
+Totaal
+afschrijvingen 4,673 2.313
+Toelichting:
+Afschrijvingspercentage gehanteerd van 20% procent perjaar.
+1.1.7 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+11. Overige bedrijfskosten
+De specificatie is als volgt: 2020 2019
+
+€ €
+Algemene kosten 86.642 75.915
+Patiënt- en bewoners gebonden kosten 0 0
+Onderhoud en energiekosten 6.671 1.188
+Huuren leasing 69.934 58.439
+Voorziening dubieuze debiteuren 5.214 12.902
+Totaal overige bedrijfskosten 168.461 148.444
+Toelichting:
+Het privé gebruik omtrent de auto's is na rato (operational lease/ totale autokosten) in mindering gebrachtop de
+leasekosten in de bovenstaande specificatie.
+
+TIC Ass
+
+18
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+12. Financiële baten en lasten
+
+De specificatie is als volgt:
+
+Rentebaten
+
+Ontvangen dividenden
+
+Resultaat deelnemingen
+
+Waardeveranderingen financiële vaste activa en effecten
+Overige opbrengsten financiële vaste activa en effecten
+Subtotaal financiële baten
+
+Rentelasten (bankkosten)
+
+Resultaat deelnemingen
+
+Waardeveranderingen financiële vaste activa en effecten
+Geactiveerde rente
+
+Overige financiële lasten
+
+Subtotaal financiële lasten
+
+Totaal financiële baten en lasten
+
+13. Honoraria accountant
+De honoraria van de accountantover 2020 zijn als volgt:
+
+1 Controle van de jaarrekening
+
+2 Overige controlewerkzaamheden (w.o. Regeling AO/IC en Nacalculatie)
+
+3 Fiscale advisering
+4 Niet-controlediensten
+
+Totaal honoraria accountant
+
+14. Transacties met verbonden partijen
+
+2020 2019
+€ €
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+
+0 0
+1.529 1.804
+0 0
+
+0 0
+
+0 0
+
+0 0
+1.529 1.804
+1.529 1.804
+2020 2019
+€ €
+
+0 0
+6.581 3.875
+5.092 0
+11.795 12.757
+23.468 16.632
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen
+
+en hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+19
+
+CC
+
+TIC Assur:
+
+mdepender
+
+by
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.1.8 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+
+Het bestuur van JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding heeft de jaarrekening 20 20
+opgemaakten vastgesteld op 24 november 2021.
+
+Resultaatverdeling
+
+Het resultaatword in twee gelijke delen verdeelt over de beide vennoten.
+
+Ondertekening door bestuurders en vennoten
+
+W.G. W.G.
+
+20
+
+yv,
+
+TIC Assurance
+
+mdependench by
+
+o
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.2 OVERIGE GEGEVENS
+
+21
+
+JAM Leerlingenzorg, Ouderadvies en Schoolbegeleiding
+
+1.2 OVERIGE GEGEVENS
+
+1.2.1 Beoordelingsverklaring van de onafhankelijke accountant
+
+De beoordelingsverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina.
+
+yv,
+
+TIC Assurance
+
+22 mdependench by vo

@@ -47,7 +47,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 import transparantie  # noqa: E402
 from kantoor_match import normaliseer  # noqa: E402
 from supabase_client import Supabase, SupabaseFout  # noqa: E402
-from verklaring import pdf_naar_tekst  # noqa: E402
 
 SEED = Path(__file__).resolve().parent / "seed" / "transparantieverslagen.csv"
 CACHE = Path(__file__).resolve().parent / ".cache"
@@ -96,11 +95,19 @@ def main() -> int:
         try:
             transparantie.haal_verslag(verslag["url"], pdf_pad)
         except Exception as fout:  # noqa: BLE001 — bron mag falen, volgende verslag
-            print(f"{naam_kort} {verslag['verslagperiode']}: download mislukt: {fout}")
+            # Een annotatie en geen rode run. Rood zou eerlijker lijken, maar alle
+            # elf PwC-adressen in de seed gaven bij een meting op 5-10-2026 (buiten
+            # Actions) een 403 van Akamai, ook met een browser-User-Agent, terwijl
+            # hun cliënten al in de database staan. Blokkeert Akamai ook de
+            # runners, dan is élke run rood en kijkt niemand meer. Zo staat het wel
+            # bovenaan de run-pagina in plaats van halverwege het log.
+            print(f"::warning::{naam_kort} {verslag['verslagperiode']}: download mislukt: {fout}")
             continue
 
+        # tekst_uit_verslag en niet pdf_naar_tekst: bij PwC 2017/2018 t/m
+        # 2019/2020 zit de cliëntenlijst als ingesloten bijlage ín het pdf.
         namen, afgekeurd = transparantie.namen_uit_verslag(
-            pdf_naar_tekst(str(pdf_pad)), verslag["kop"]
+            transparantie.tekst_uit_verslag(pdf_pad), verslag["kop"]
         )
         print(
             f"{naam_kort} {verslag['verslagperiode']} -> boekjaar {boekjaar}: "

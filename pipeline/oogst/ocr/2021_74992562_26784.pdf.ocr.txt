@@ -1,0 +1,962 @@
+# whosigns-ocr v1 grootte=2800444 dpi=300 paginas=20
+INHOUDSOPGAVE
+
+Accountantsverslag
+
+1 Opdracht
+
+2 Beoordelingsverklaring van de onafhankelijke accountant
+Jaarrekening
+
+1 Balans per 31 december 2021
+
+2 Winst-en-verliesrekening over 2021
+
+3 Kasstroomoverzicht 2021
+
+4 Grondslagen voor waardering en resultaatbepaling
+
+5 Toelichting op de balans per 31 december 2021
+
+6 Toelichting op de winst-en-verliesrekening over 2021
+7 Overige toelichting
+
+Bijlagen
+
+P krest \®,
+VAN HERWIJNEN
+
+Pagina
+
+D U
+
+Woon
+
+13
+
+20
+
+(7 KRESTON
+VAN HERWIJNEN
+Accountants
+
+Aan de aandeelhouders en bestuur van
+Mondium B.V.
+
+Veerweg 3a
+
+4153AS BEESD
+
+Geachte dames en heren,
+
+Hierbij brengen wij verslag uit over boekjaar 2021 met betrekking tot uw besloten vennootschap.
+
+1 OPDRACHT
+
+Ingevolge uw opdracht hebben wij de jaarrekening 2021 van uw besloten vennootschap, waarin
+begrepen de balans met tellingen van € 1.707.775 en de winst-en-verliesrekening sluitende met een
+resultaat na belastingen van € 129.476, beoordeeld.
+
+et
+
+je à
+
+5 Kreston Van Herwijnen Accountants B.V. \
+
+Hoofdvestiging Stephensonstraat 17a / 4004 JA Tiel ae knowing you
+
+Tel: 0344 621222 / KvK 30091389 / www.krestonvh.nl
+
+AN HERWIJNEN
+Accountants
+
+URE
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+Aan: het bestuur van Mondium B.V, te Beesd
+Wij hebben de jaarrekening 2021 van Mondium B.V. te Beesd beoordeeld. Deze jaarrekening bestaat uit:
+
+e _de balans per 31 december 2021;
+
+e de winst- en verliesrekening over 2021: en
+
+e de toelichting, waarin zijn opgenomen een overzicht van de gehanteerde grondslagen voor
+financiële verslaggeving en andere toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het resultaat
+getrouw dient weer te geven in overeenstemming met Titel 9 Boek 2 BW. Het bestuur is tevens
+verantwoordelijk voor een zodanige interne beheersing als het bestuur noodzakelijk acht om het
+opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als gevolg van
+fraude of fouten,
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze
+beoordeling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder
+de Nederlandse Standaard 2400 ‘Opdrachten tot het beoordelen van financiële overzichten’. Dit vereist
+dat wij voldoen aan de voor ons geldende ethische voorschriften en dat wij onze beoordeling zodanig
+plannen en uitvoeren dat wij in staat zijn te concluderen dat ons niets is gebleken dat de jaarrekening
+afwijkingen van materieel belang bevat,
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte
+mate van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak uit het
+inwinnen van inlichtingen bij het management en overige functionarissen van de stichting, het uitvoeren
+van cijferanalyses met betrekking tot de financiële gegevens alsmede het evalueren van de verkregen
+informatie,
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter dan
+die uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de Nederlandse
+controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Conclusie
+
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten concluderen
+dat de jaarrekening niet in alle van materieel belang zijnde aspecten is opgesteld in overeenstemming
+met Titel 9 Boek 2 BW.
+
+Ter vergelijking opgenomen bedragen niet beoordeeld
+
+Op de jaarrekening 2020 is geen beoordeling toegepast. Derhalve zijn de ter vergelijking opgenomen
+bedragen in de winst- en verliesrekening en de daaraan gerelateerde toelichtingen, evenals de ter
+vergelijking opgenomen bedragen in de mutatieoverzichten niet beoordeeld,
+
+Tiel, 20 september 2022
+Kreston Van Herwijnen Accountants B.V,
+
+\/ : } \
+(Ò Ad „erst r en
+“O.LJ. (Olivier) Walravens MSc RA ‚ CS
+N
+Ns
+Ni
+
+Kreston Van Herwijnen Accountants B.V.
+
+Hoofdvestiging Stephensonstraat 17a / 4004 JA Tiel knowing you
+
+Tel: 0344 621222 / KvK 30091389 / www.krestonvh.nl
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+Tiel, 20 september 2022
+Kreston Van Herwijnen Accountants B.V.
+
+Dual _… a
+
+O.L.J. Walravens MSc RA
+
+P krest ON
+vAn HERWIJNEN
+
+Zû
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+1 BALANS PER 31 DECEMBER 2021
+(na resultaatbestemming)
+
+31 december 2021
+
+31 december 2020
+
+€ €
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa (1)
+Inventaris 47.461
+
+Financiële vaste activa (2)
+Overige vorderingen 8.250
+
+Vlottende activa
+
+Vorderingen
+
+Debiteuren 755.643
+Vorderingen op overige verbonden
+maatschappijen
+
+Overige vorderingen en overlopende
+
+activa -
+
+753.090
+
+1.508.733
+
+Liquide middelen 143.331
+
+1.707.775
+
+Beoordelingsverklaring afgegeyen
+
+€ €
+
+39.881
+
+8.250
+53.600
+700,014
+1.666
+
+755.280
+
+13,159
+
+816,570
+
+mmm
+
+A
+En
+
+PASSIVA
+
+Eigen vermogen 6)
+
+Geplaatst kapitaal
+Overige reserves
+
+Langlopende schulden
+Leningen o/g
+
+Kortlopende schulden 4)
+
+Crediteuren
+
+Schulden aan groepsmaatschappijen
+Overige belastingen en premies sociale
+verzekeringen
+
+Overige schulden en overlopende passiva
+
+Beoordelingsverklaring afgegeven
+
+31 december 2021 31 december 2020
+€ € € €
+1.000 1.000
+121.490 -7,987
+122.490 -6,987
+- 25.000
+16,857 12.243
+722,409 706.421
+26.971 54.810
+819,048 25.083
+1.585.285 798.557
+816.570
+
+1.707.775
+
+.
+
+JAA
+’ 7
+
+Rapport inzake financieel verslag 2021. van
+Mondium B.V. te Beesd
+
+2 WINST-EN-VERLIESREKENING OVER 2021
+
+2021 2020
+€ € € €
+
+Netto-omzet 6,6) 1.734.103 895.866
+Kosten
+Lonen en salarissen 833.635 509.241
+Sociale lasten 124.389 91.329
+Pensioenlasten 65.939 45.478
+Management-fee 275.000 60.000
+Overige personeelskosten () 82.650 47.099
+Afschrijvingen materiële vaste activa 8,937 4,005
+Overige bedrijfskosten (8) 192.689 123.836
+
+1.583.239 880.988
+Bedrijfsresultaat 150.864 14.878
+Financiële baten en lasten (9) -2.862 -922
+Resultaat voor belastingen 148.002 13.956
+Vennootschapsbelasting -18.526 =
+Resultaat na belastingen 129.476 13.956
+
+a
+
+A
+
+Beoordelingsverklaring woef
+Ì al
+
+Se
+
+HW
+7
+
+ns
+
+Rapport inzake financieel verslag 2021 van
+
+Mondium B.V, te Beesd
+
+3 KASSTROOMOVERZICHT 2021
+
+Ss _RAASsIN LE
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode,
+
+Kasstroom uit operationele activiteiten
+
+Bedrijfsresultaat
+Aanpassingen voor;
+Afschrijvingen
+
+Veranderingen in het werkkapitaal:
+
+Mutatie vorderingen
+
+Mutatie kortlopende schulden (exclusief kortlopend deel van de langlopende
+
+schulden)
+
+Kasstroom uit bedrijfsoperaties
+
+Ontvangen interest
+Betaalde interest
+Vennootschapsbelasting
+
+Kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+
+Investeringen in materiële vaste activa
+
+Kasstroom uit financieringsactiviteiten
+Aflossing obligatie- en onderhandse leningen
+
+Samenstelling geldmiddelen
+
+Geldmiddelen per 1 januari
+Mutatie liquide middelen
+
+Geldmiddelen per 31 december
+
+HL
+
+Beoordelingsverklaring afgegeven
+
+|
+|
+\
+
+rt
+
+2021
+€ e
+150.864
+8,937
+-753.453
+786.729
+193.077
+1.612
+-4.474
+-18.526
+-21.388
+171.689
+-16.517
+-25.000
+130.172
+En
+2021
+€ €
+13.159
+130.172
+143.331
+
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW.
+
+De jaarrekening is opgemaakt op basis van historische kostprijs. De waardering van activa en passiva
+geschiedt, voor zover niet anders is vermeld, tegen nominale waarde.
+
+Winsten worden toegerekend aan de periode waarin ze zijn gerealiseerd. Verliezen worden
+verantwoord in het jaar waarin ze voorzienbaar zijn.
+
+Activiteiten
+
+De activiteiten van Mondium B.V, statutair gevestigd te Beesd en ingeschreven bij de Kamer van
+Koophandel onder nummer 74992562 bestaan voornamelijk uit: het verlenen van psychiatrische,
+psychologische en pedagogische zorg in het kader van Basis Geestelijke Gezondheidszorg en
+specialistische Geestelijke Gezondheidszorg voor volwassenen, kinderen en jongeren.
+
+Groepsverhoudingen
+
+De vennootschap maakt deel uit van een groep, waarvan Mondium Beheer B.V, te Rumpt aan het
+hoofd staat.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding
+van Mondium B.V. zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de
+jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1 BW
+vereiste inzicht noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de bijbehorende
+veronderstellingen opgenomen bij de toelichting op de desbetreffende jaarrekeningposten.
+
+Stelselwijziging
+
+Met ingang van boekjaar 2021 wordt de jaarrekening van de vennootschap opgemaakt in
+overeenstemming met Titel 9 Boek 2 BW, in plaats van de door de wetgever geboden mogelijkheid in
+artikel 2:395a lid 7 van Titel 9 BW. De reden voor deze stelselwijziging is gelegen in het feit dat deze
+grondslag beter passend wordt geacht voor de vennootschap.
+
+De stelselwijziging heeft geen effect op het eigen vermogen en het resultaat van de vennootschap.
+Ook voorgaand boekjaar was geen sprake van een afwijking in de waardering.
+
+Beoordelingsverklaring afgegeven ri 9
+
+
+ZA
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+Financiële instrumenten
+
+De onderneming maakt in de normale bedrijfsuitoefening gebruik van financiële instrumenten, die in
+de balans als activa en passiva zijn verantwoord. De op de balans opgenomen financiële instrumenten
+bestaan voornamelijk uit financiële vaste activa, handelsdebiteuren, effecten, liquide middelen,
+(achtergesteld) lang- en kortlopende leningen en leveranciers en handelskredieten,
+
+In de balans opgenomen financiële instrumenten zijn bij de eerste verwerking gewaardeerd tegen de
+reële waarde en de vervolgwaardering tegen de geamortiseerde kostprijs. Tenzij hierna anders
+vermeld, is deze kostprijs gelijk aan de nominale waarde, verminderd met eventuele afboekingen
+wegens bijzondere waardevermindering of oninbaarheid. Gegeven de korte doorlooptijd zijn de
+boekwaarden van financiële vaste activa, vlottende activa en de kortlopende schulden nagenoeg gelijk
+aan de marktwaarden. Ook de marktwaarde van de langlopende schulden verschilt niet materieel van
+de boekwaarde.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief
+direct toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte
+toekomstige gebruiksduur en bijzondere waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie,
+inclusief de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd
+tegen de geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht
+op de boekwaarde van de vordering.
+
+Liquide middelen
+De liquide middelen staan, indien niet anders vermeld, ter vrije beschikking.
+
+Langlopende schulden
+
+De overige schulden en overlopende passiva worden bij eerste verwerking opgenomen tegen de reële
+waarde en vervolgens gewaardeerd tegen de geamortiseerde kostprijs. De reële waarde en
+geamortiseerde kostprijs zijn gelijk aan de nominale waarde,
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde, Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet
+worden afgelost.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Beoordelingsverklaring afgegeven 10
+
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+Opbrengstverantwoording
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde
+projectopbrengsten uit hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke
+en van over de omzet geheven belastingen.
+
+Brutobedrijfsresultaat
+
+Het brutobedrijfsresultaat bestaat uit de netto-omzet, de wijziging in de voorraad gereed product en
+goederen in bewerking, de geactiveerde productie ten behoeve van het eigen bedrijf, de overige
+bedrijfsopbrengsten, de kosten van grond- en hulpstoffen en de kosten van uitbesteed werk en
+andere externe kosten.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij
+betrekking hebben.
+
+Personeelsbeloningen
+
+Periodiek betaalbare beloningen
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de winst-
+en-verliesrekening.
+
+Pensioenen
+
+Mondium B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over
+het verslagjaar verschuldigde premie wordt als last verantwoord.
+
+De premies worden verantwoord als personeelskosten zodra deze verschuldigd zijn. Vooruitbetaalde
+premies worden opgenomen als overlopende activa indien dit tot een terugstorting leidt of tot een
+vermindering van toekomstige betalingen. Nog niet betaalde premies worden als verplichting op de
+balans opgenomen.
+
+Afschrijvingen vaste activa
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages van
+de aanschaffingswaarde, op basis van de verwachte economische levensduur. Boekwinsten en -
+verliezen bij verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve
+rentevoet van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt
+
+ZOM gehouden met de verantwoorde transactiekosten op de ontvangen leningen. Va
+
+A
+
+Beoordelingsverklaring afgegeven 0 11
+ee
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V, te Beesd
+
+Belastingen
+
+De belastingen worden berekend op basis van het verantwoorde resultaat, rekening houdend met
+fiscaal vrijgestelde posten en geheel of gedeeltelijk niet aftrekbare kosten.
+
+12
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2021
+
+ACTIVA
+
+VASTE ACTIVA
+
+4. Materiële vaste activa
+
+Inventaris
+€
+
+Boekwaarde per 1 januari 2021 39.881
+
+Investeringen 16.517
+
+Afschrijvingen -8.937
+
+Boekwaarde per 31 december 2021 47.461
+
+ee
+
+Aanschafwaarde 60.403
+
+Cumulatieve afschrijvingen -12.942
+
+Boekwaarde per 31 december 2021 47.461
+Afschrijvingspercentages
+
+%
+
+Inventaris 20
+
+2. Financiële vaste activa
+
+31-12-2021 31-12-2020
+€ €
+
+Overige vorderingen
+Borgsom 8.250 8.250
+
+VLOTTENDE ACTIVA
+
+Zil
+
+Beoordelingsverklaring afgegeven 13
+
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+Debiteuren
+
+Debiteuren
+Voorziening dubieuze debiteuren
+
+Vorderingen op overige verbonden maatschappijen
+R/C Mondium V.O.F.
+
+Over de vorderingen wordt 0,25% rente berekend.
+
+Beoordelingsverklaring afgegeven
+{
+
+\
+N
+
+31-12-2021 31-12-2020
+€ €
+779.643 53.600
+
+-24,000 -
+755.643 53.600
+753.090 700.014
+
+14
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+PASSIVA
+
+3. Eigen vermogen
+
+Geplaatst kapitaal
+
+Geplaatst en volgestort zijn 1.000 gewone aandelen nominaal € 1,00
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+Leningen o/g
+Krediet Qredits
+
+4. Kortlopende schulden
+
+Schulden aan groepsmaatschappijen
+R/C Mondium Beheer B.V.
+
+Over de schulden wordt 0,25% rente berekend.
+
+Overige belastingen en premies sociale verzekeringen
+
+Loonheffing
+Pensioenen
+
+Beoordelingsverklaring afgegeven
+
+31-12-2021 31-12-2020
+€ €
+1.000 1.000
+2021 2020
+€ €
+-7.986 -21.943
+129.476 13.956
+121.490 -7,987
+31-12-2021 31-12-2020
+€ €
+- 25.000
+722.409 706.421
+i 35.890
+26.971 18.920
+26.971 54,810
+
+A
+
+3
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+31-12-2021 31-12-2020
+
+€ €
+
+Overige schulden en overlopende passiva
+Nog te betalen kosten 12.362 3.000
+Reservering vakantiegeld 28.963 22.083
+Vooruitontvangen omzet 636.128 ë
+Reservering vervanging bij ziekte 130.000 5
+Uitgestelde omzet 11.595 =
+
+819.048 25.083
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+
+Fiscale eenheid
+
+De vennootschap maakt deel uit van de fiscale eenheid voor de vennootschapsbelasting en
+omzetbelasting van Mondium Beheer B.V. Op grond daarvan is de vennootschap hoofdelijk
+aansprakelijk voor de belastingschuld van de fiscale eenheid als geheel.
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+De vennootschap is meerjarige financiële verplichtingen aangegaan tot en met 31 december 2022
+respectievelijk 30 juni 2025 terzake van huur van bedrijfsruimten. Beide overeenkomsten kunnen
+worden verlengd met 5 jaar. De totale verplichting bedraagt circa € 140.000, waarvan circa € 55.000
+een looptijd van minder dan 1 jaar heeft en € nihil een looptijd langer dan 5 jaar heeft.
+
+Beoordelingsverklaring afgegeven Je 16
+
+\
+
+ze
+
+Rapport inzake financieel verslag 2021 van
+
+Mondium B.V. te Beesd
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2021
+
+5. Netto-omzet
+
+De netto-omzet is in 2021 ten opzichte van 2020 met 93,6% gestegen.
+
+6. Netto-omzet
+
+Omzet volwassenen
+Omzet Jeugdwet
+
+Niet vergoed
+Voorziening debiteuren
+
+Personeelskosten
+7. Overige personeelskosten
+
+Uitzendkrachten
+Wervingskosten personeel
+Opleidingskosten
+Reiskostenvergoedingen
+Belastingvrije uitkeringen
+Overige personeelskosten
+
+Personeelsleden
+
+Bij de vennootschap waren in 2021 gemiddeld 1.3 personeelsleden werkzaam (2020: 9).
+
+Afschrijvingen vaste activa
+
+Afschrijvingen materiële vaste activa
+
+Inventaris
+
+Beoordelingsverklaring afgegeven
+
+Sche
+
+2021 2020
+€ €
+
+1.013.927 1.003.609
+859.237 :
+-115.061 -107,743
+-24,000 >
+1.734.103 895.866
+34.960 =
+9.651 14,114
+14.711 14.490
+17.354 11.469
+2.937 3,983
+3.037 3.043
+82.650 47.099
+8.937 4,005
+
+17
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+8. Overige bedrijfskosten
+
+Huisvestingskosten
+Kantoorkosten
+Autokosten
+Verkoopkosten
+Algemene kosten
+
+Huisvestingskosten
+
+Huur onroerende zaak
+Gas, water en electra
+Onderhoud
+
+Kleine inventaris
+
+Overige huisvestingskosten
+
+Kantoorkosten
+
+Kantoorbenodigdheden
+Drukwerk
+Automatiseringskosten
+Telefoonkosten
+
+Porti
+
+Contributies en abonnementen
+Vakliteratuur
+
+Overige kantoorkosten
+
+Boetes
+
+Verkoopkosten
+
+Reclame- en advertentiekosten
+Representatiekosten
+Incassokosten
+
+Algemene kosten
+
+Accountants- en advieskosten
+Verzekeringen
+
+Psychologisch testmateriaal
+Overige algemene kosten
+Kosten RVC
+
+2
+
+Beoordelingsverklaring afgegevel
+
+2021 2020
+
+€ €
+81.303 51.862
+65.405 41.818
+1.390 -
+14.121 9,377
+30.470 20.779
+192,689 123.836
+55.363 35,156
+10.304 7.043
+8.537 2,948
+3.659 4,498
+3.440 2,217
+81.303 51,862
+2.890 2,357
+1,156 622
+28.826 17.217
+9,954 7.849
+1.741 1.664
+18.968 8,837
+658 381
+1.212 2.684
+207
+65.405 41.818
+6,128 7.575
+4,981 1.802
+3.012 -
+14.121 9.377
+10.289 9.989
+2.289 1.659
+6.531 6.960
+4,119 2.171
+7.242 5
+30.470 20.779
+
+U
+
+Jo
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+De kosten RVC verantwoord in 2021 hebben betrekking op de boekjaren 2020 en 2021,
+
+9. Financiële baten en lasten
+
+Rentebaten en soortgelijke opbrengsten
+Rentelasten en soortgelijke kosten
+
+Rentebaten en soortgelijke opbrengsten
+Rente R/C Mondium V.O.F.
+
+Rentelasten en soortgelijke kosten
+
+Bankkosten Qredit
+
+Rente R/C Mondium Beheer B.V.
+Rente en kosten bank
+Betalingsverschillen
+
+en
+
+Beoordelingsverklaring afgegeven
+
+2021 2020
+
+€ €
+1.612 1,275
+-4,474 -2,197
+-2,862 -922
+1.612 1,275
+668 493
+1.497 1,421
+827 339
+1.482 -56
+4,474 2.197
+
+19
+
+Rapport inzake financieel verslag 2021 van
+Mondium B.V. te Beesd
+
+7 OVERIGE TOELICHTING
+
+Gebeurtenissen na balansdatum
+
+Na balansdatum hebben geen gebeurtenissen plaatsgevonden die van materiële invloed zijn op het
+eigen vermogen per jaarultimo.
+
+Bestemming van de winst 2021
+
+De directie stelt voor om de winst over 2021 ad € 129.476 toe te voegen aan de overige reserves.
+Vooruitlopend op de vaststelling door de algemene vergadering is dit voorstel reeds in de
+jaarrekening verwerkt.
+
+Ondertekening van de jaarrekening
+
+Opmaak jaarrekening
+De jaarrekening is aldus opgemaakt door het bestuur.
+Beesd, 20 september 2022
+
+Mondium Beheer B.V.
+Namens deze,
+
+G.M. Bakker-Creemers
+
+Ondertekening van de jaarrekening
+Beesd, 22 september 2022
+
+onser
+Mo £
+
+L.J. van de Kieft
+
+A) Reijnvaan
+as
+
+Beoordelingsverklaring afgegeve 20

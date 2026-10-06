@@ -1,0 +1,937 @@
+# whosigns-ocr v1 grootte=1819740 dpi=300 paginas=20
+T: +31 (0)10 24 24 600 BDO Audit & Assurance B.V.
+E: rotterdam@bdo.nl K.P. van der Mandelelaan 40, 3062 MB Rotterdam
+
+mider www.bdo.nl Nederland
+
+Aan de Algemene Vergadering en directie van
+Levéo Care B.V.
+
+Stieltjesstraat 20
+
+3071 JX Rotterdam
+
+Rotterdam, 12 mei 2021
+Ref: RA-1034058
+
+Geachte directie,
+
+Ingevolge uw opdracht hebben wij de bij dit rapport opgenomen jaarrekening over het boekjaar 2020
+van uw onderneming beoordeeld. De jaarrekening is opgesteld onder verantwoordelijkheid van het
+bestuur van de entiteit. Het is onze verantwoordelijkheid een beoordelingsverklaring inzake de
+jaarrekening te verstrekken. De jaarrekening is met de overige gegevens opgenomen in de bij deze
+rapportage opgenomen jaarstukken.
+
+Tot het geven van nadere toelichtingen zijn wij gaarne bereid.
+Hoogachtend,
+
+BDO Audit & Assurance B.V.
+Namens deze,
+
+R. Karlas RA
+
+Statutair gevestigd te Eindhoven en ingeschreven in het g onder 17171186.
+
+BDO Audit & Assurance B.V. is lid van BDO Internationat Ltd, een rechtspersoon gaar Engels recht met beperkte aansprakelijkheid,
+en maakt deel uit van het wereldwijde netwerk van juridisch zelfstandige organiáaties die onder de naam “BDO” optreden.
+
+BDO is de merknaam die wordt gebruikt ter aanduiding van het BDO netwerk en van elk van de BDO Member Firms.
+
+
+T: +31 (0)10 24 24 600 BDO Audit & Assurance B.V.
+E: rotterdam@bdo.nl K.P. van der Mandelelaan 40, 3062 MB Rotterdam
+ennen www.bdo.nl Nederland
+
+Beoordelingsverklaring van de accountant
+
+RA364
+Aan: de algemene vergadering en het bestuur van Léveo Care B.V.
+
+Opdracht
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2020 van Léveo Care B.V. te Rotterdam
+beoordeeld. Deze jaarrekening bestaat uit de balans per 31 december 2020 en de
+resultatenrekening over 2020 met de toelichting, waarin zijn opgenomen een overzicht van de
+gehanteerde grondslagen voor financiële verslaggeving en andere toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en
+het resultaat getrouw dient weer te geven in overeenstemming met Titel 9 BW2, de Regeling
+verslaggeving WTZi en de bepalingen van en krachtens de Wet normering bezoldiging
+topfunctionarissen publieke en semipublieke sector (WNT).
+
+Het bestuur is tevens verantwoordelijk voor een zodanige interne beheersing als het
+noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken zonder afwijkingen
+van materieel belang als gevolg van fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van
+onze beoordeling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands
+recht, waaronder de Nederlandse Standaard 2400 ‘Opdrachten tot het beoordelen van financiële
+overzichten’. Dit vereist dat wij voldoen aan de voor ons geldende ethische voorschriften en
+dat wij onze beoordeling zodanig plannen en uitvoeren dat wij in staat zijn te concluderen dat
+ons niet is gebleken dat de jaarrekening afwijkingen van materieel belang bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een
+beperkte mate van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in
+hoofdzaak uit het inwinnen van inlichtingen bij het management en overige functionarissen van
+de entiteit, het uitvoeren van cijferanalyses met betrekking tot de financiële gegevens alsmede
+het evalueren van de verkregen informatie.
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk
+beperkter dan die uitgevoerd in het kader van een controleopdracht verricht in
+overeenstemming met de Nederlandse controlestandaarden. Derhalve brengen wij geen
+controleoordeel tot uitdrukking.
+
+Statutair gevestigd te Eindhoven en ingeschreven in het lsregi onder 17171186.
+
+BDO Audit & Assurance B.V. is lid van BDO Inter Ltd, een r: persoon naar Engels recht met beperkte aansprakelijkheid,
+en maakt deel uit van het wereldwijde netwerk van juridisch zelfstandige organisaties die onder de naam “BDO” optreden.
+
+BDO is de merknaam die wordt gebruikt ter aanduiding van het BDO netwerk en van elk van de BDO Member Firms,
+
+
+BDO
+
+Conclusie
+
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten
+concluderen dat de jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling
+van het vermogen van Léveo Care B.V. per 31 december 2020 en van het resultaat over 2020 in
+overeenstemming met Titel 9 BW2 en de Regeling verslaggeving WTZi.
+
+Rotterdam, 12 mei 2021
+
+BDO Audit & Assurance B.V.
+namens deze,
+
+Digitaal ondertekend door:
+
+Rob Karlas
+
+12 mei 2021 08:18 GMT +00:00.…
+
+R. karlas RA
+
+
+Levéo Care B.V. te Rotterdam
+
+Balans per 31 december 2020
+
+(na voorstel resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+Andere vaste bedrijfsmiddelen
+
+Vlottende activa
+
+Vorderingen
+Vorderingen op handelsdebiteuren
+
+2
+
+Vorderingen op groepsmaatschappijen 3
+
+Belastingen en premies sociale
+verzekeringen
+
+Overige vorderingen en overlopende
+activa
+
+Liquide middelen
+
+Totaal
+
+4
+
+5
+
+31-12-2020 31-12-2019
+
+€ € € €
+
+119.565 138.199
+815.643 687.952
+198.901 661.808
+18.380 12.080
+855.888 612.993
+
+1.888.812 1.974.833
+
+54.584 28.088
+
+2.141.120
+
+2.062.961
+
+PASSIVA
+Eigen vermogen 7
+Geplaatst aandelenkapitaal 8
+
+Overige reserve
+
+Voorzieningen 9
+
+Kortlopende schulden
+
+Schulden aan banken
+
+Schulden aan leveranciers en handels-
+kredieten
+
+Schulden aan groepsmaatschappijen 10
+
+Belastingen en premies sociale 11
+verzekeringen
+Overige schulden en overlopende 12
+passiva
+
+Totaal
+
+31-12-2020 31-12-2019
+
+€ € € €
+18.000 18.000
+1.102.641 624.336
+
+1.120.641 642.336
+
+146.251 234.510
+248 -
+72.358 80.707
+. 63.924
+303.685 312.483
+419.778 807.160
+
+796.069 1.264.274
+
+2.141.120
+
+2.062.961
+
+Beoordelingsverklaring afgegeven
+
+
+Levéo Care B.V. te Rotterdam
+
+Winst-en-verliesrekening over 2020
+
+2020 2019
+€ € € €
+Netto-omzet 13 8.076.161 7.633.609
+Inkoopwaarde van de omzet -549.666 -565.567
+Brutowinst 7.526.495 7.068.042
+Lonen 4.063.376 3.359.099
+Sociale lasten 768.168 629.421
+Pensioenlasten 288.513 256.737
+Afschrijvingen materiële vaste activa 14 83.593 70.770
+Overige bedrijfskosten 15 1.690.724 2.160.625
+Totaal van som der kosten 6.894.374 6.476.652
+Totaal van bedrijfsresultaat 632.121 591.390
+Rentebaten en soortgelijke
+opbrengsten 9.639 -
+Rentelasten en soortgelijke kosten -1.051 -2.666
+Financiële baten en lasten 8.588 -2.666
+Totaal van resultaat voor belastingen 640.709 588.724
+Belastingen 16 -162.404 -150.437
+Totaal van resultaat na belastingen 478.305 438.287
+
+Beoordelingsverklaring afgegeven
+
+Levéo Care B.V. te Rotterdam
+
+Kasstroomoverzicht over 2020
+
+2020 2019
+€ € € €
+Totaal van kasstroom uit operationele
+activiteiten
+Bedrijfsresultaat 632.121 591.390
+Aanpassingen voor:
+Afschrijvingen 81.869 70.770
+Toename (afname) van de voorzienin- 9
+gen -88.259 -42.753
+Verandering in werkkapitaal:
+Vorderingen -76.383 -892,658
+Toename (afname) van overige schul-
+den -468.205 311.370
+-544.588 -581.288
+
+Totaal van kasstroom uit bedrijfsope-
+raties 81.143 38.119
+Ontvangen interest 9.639 .
+Betaalde interest “1.051 -
+
+8.588 -
+Totaal van kasstroom uit operationele
+activiteiten 89.731 38.119
+Totaal van kasstroom uit investe-
+ringsactiviteiten
+Verwerving van materiële vaste activa 1 -63.235 -89.215
+Ontvangsten uit hoofde van vervreem- 1
+ding van materiële vaste activa - 3.000
+Totaal van kasstroom uit investe-
+ringsactiviteiten -63.235 -86.215
+Totaal van toename (afname) van
+geldmiddelen 26.496 -48.096
+Verloop van toename (afname) van geldmiddelen
+Geldmiddelen aan het begin van de peri-
+ode 28.088 76.184
+Toename (afname) van geldmiddelen 26.496 -48.096
+Geldmiddelen aan het einde van de peri-
+
+ode 54.584 28.088
+
+
+Levéo Care B.V. te Rotterdam
+
+Grondslagen van waardering en resultaatbepaling
+
+Informatie over de rechtspersoon
+
+Vestigingsadres en inschrijfnummer handelsregister
+
+Levéo Care B.V. is feitelijk en statutair gevestigd op Stieltjesstraat 20, 3071 JX te Rotterdam en is
+ingeschreven bij het handelsregister onder nummer 34238535.
+
+Algemene toelichting
+
+De belangrijkste activiteiten van de rechtspersoon
+
+De vennootschap houdt zich specifiek bezig met het zijn van een zorginstelling, dit in
+overeenstemming met de voorschriften van de wet toelating zorginstellingen (Wzi) en met
+inachtneming van de Zorgbrede Governance Code.
+
+Informatieverschaffing over continuïteit
+
+De Coronacrisis heeft een beperkte invloed op de tiquiditeiten/resultaten. Buiten de effecten van de
+Coronacrisis, zijn vooral de ontwikkelingen in de landelijke en lokale politiek en de aankomende
+formatie en het regeerakkoord van belangrijk.
+
+Informatieverschaffing over groepsverhoudingen
+
+Levéo Care B.V. maakt deel uit van een groep met als hoofd VanKracht Holding B.V., gevestigd te
+Rotterdam. De financiële gegevens van Levéo Care B.V. zijn opgenomen in de geconsolideerde
+jaarrekening van VanKracht Holding B.V., gevestigd te Rotterdam.
+
+Informatieverschaffing over schattingen
+
+Bij het opstellen van de jaarrekening dient de ondernemingsleiding, overeenkomstig algemeen
+geldende grondslagen, bepaalde schattingen en veronderstellingen te doen die medebepalend zijn voor
+de opgenomen bedragen. De feitelijke resultaten kunnen van deze schattingen afwijken. Bij de
+schattingen en waarderingen is geen rekening gehouden met de mogelijke effecten van het
+coronavirus.
+
+Algemene grondslagen voor verslaggeving
+
+De standaarden op basis waarvan de jaarrekening is opgesteld
+
+De jaarrekening is opgesteld ín overeenstemming met de Regeling verslaggeving WTZi, de richtlijnen
+voor de jaarverslaggeving, in het bijzonder RJ 655 inzake de jaarverslaggeving voor zorginstellingen en
+Titel 9 BW 2.
+
+De algemene grondslag voor de waardering van de activa en passiva, alsmede voor de bepaling van het
+resultaat, is de verkrijgingsprijs- of de vervaardigingsprijs. Voor zover niet anders vermeld, worden
+activa en passiva opgenomen voor de nominale waarde.
+
+
+Levéo Care B.V. te Rotterdam
+
+Pensioenregelingen
+
+De vennootschap heeft voor haar werknemers een pensioenregeling getroffen waarbij de
+pensioenuitkeringen zijn gebaseerd op het middelloon. Deze pensioenregeling is ondergebracht bij het
+pensioenfonds Zorg & Welzijn. De over het boekjaar verschuldigde premies worden als kosten
+verantwoord. Voor per balansdatum nog niet betaalde premies wordt een voorziening opgenomen.
+Voor nog met ontvangen restituties wordt een vordering opgenomen. Aangezien deze vorderingen en
+verplichtingen een kortlopend karakter hebben, worden deze gewaardeerd tegen de nominale waarde.
+
+De risico's van loonontwikkeling, prijsindexatie, beleggingsrendement op het fondsvermogen zullen
+mogelijk leiden tot toekomstige aanpassingen in de jaarlijkse bijdragen aan het pensioenfonds.
+Pensioenfonds Zorg en Welzijn past voorwaardelijke indexatie toe. De genoemde risico's komen niet
+tot uitdrukking in een in de balans opgenomen voorziening. De dekkingsgraad van Pensioenfonds Zorg
+en Welzijn bedraagt op balansdatum 92,6% (2019: 96,5%) ten opzichte van het wettelijke minimum ad
+104,34. De indexering van pensioenuitkeringen wordt jaarlijks beoordeeld. In geval van een tekort bij
+het bedrijfstakpensioenfonds heeft de vennootschap geen verplichting tot het voldoen van aanvullende
+bijdragen anders dan hogere toekomstige premies.
+
+Grondslagen
+
+Materiële vaste activa
+
+Overige vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen. De afschrijvingen worden gebaseerd op de
+geschatte economische gebruiksduur en worden berekend op basis van een vast percentage van de
+verkrijgingsprijs, rekening houdend met een eventuele restwaarde. Er wordt afgeschreven vanaf het
+moment van ingebruikneming.
+
+Het afschrijvingspercentage bedraagt 20% tot 33%.
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs. Deze is gelijk aan de nominale waarde onder aftrek
+van de noodzakelijk geachte voorzieningen voor het risico van oninbaarheid, tenzij anders vermeld.
+Deze voorzieningen worden bepaald op basis van individuele beoordeling van de vorderingen.
+
+Latente belastingvorderingen en -verplichtingen worden opgenomen voor tijdelijke verschillen tussen
+de waarde van de activa en passiva volgens fiscale voorschriften enerzijds en de gevolgde
+bedrijfseconomische grondslagen anderzijds. De berekening van de latente belastingvorderingen en -
+verplichtingen geschiedt tegen de op het einde van het verslagjaar geldende belastingtarieven of tegen
+de in komende jaren geldende tarieven, voorzover reeds bij wet vastgesteld. Latente
+belastingvorderingen worden gewaardeerd indien in redelijke mate kan worden aangenomen dat deze
+zullen worden gerealiseerd. Belastinglatentie wordt gewaardeerd op nominale waarde.
+
+Liquide middelen
+De liquide middelen staan, voor zover niet anders vermeld, ter vrije beschikking van de vennootschap.
+
+Voorzieningen
+Voorzieningen worden gevormd tegen concrete of specifieke risico's en verplichtingen die op de
+balansdatum bestaan en waarvan de omvang onzeker is doch redelijkerwijs in te schatten.
+
+Kortlopende schulden
+De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar.
+
+10
+
+
+Levéo Care B.V. te Rotterdam
+
+De bepaling van het resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de netto omzet en alle hiermee verbonden, aan het
+verslagjaar toe te rekenen kosten. De kosten worden bepaald met inachtneming van de hiervoor
+vermelde waarderingsgrondsltagen.
+
+Winsten worden verantwoord in het jaar waarin de omzet is gerealiseerd. Verliezen worden in
+aanmerking genomen in het jaar waarin deze voorzienbaar zijn.
+
+De overige baten en lasten worden toegerekend aan de verslagperiode waarop deze betrekking
+hebben.
+
+Omzetverantwoording_
+
+Opbrengsten uit het verlenen van diensten worden ín de winst-en-verliesrekening verwerkt wanneer
+het bedrag van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te
+ontvangen vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht
+betrouwbaar kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog
+moeten worden gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden
+bepaald. Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze
+kan worden bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de
+dienstverlening die worden gedekt door de opbrengsten. De met de opbrengsten samenhangende
+
+lasten worden toegerekend aan de periode waarin de baten zijn verantwoord.
+
+Opbrengsten zorgprestaties
+
+Onder opbrengsten zorgprestaties worden de baten verantwoord uit hoofde van geleverde prestaties
+op het gebied van verleende jeugdzorg respectievelijk wmo prestaties. Als realisatiemoment geldt het
+moment waarop de betreffende prestaties zijn gerealiseerd en op grond van de geldende voorschriften
+of richtlijnen gedeclareerd kunnen worden bij de opdrachtgever. Tot de opbrengsten worden tevens
+gerekend mutaties in onderhanden zorgtrajecten.
+
+Inkoopwaarde van de omzet
+
+De inkoopwaarde van de omzet betreffen de variabele kosten die cliënt- of cursistgebonden zijn en
+daarmee direct aan de omzet gerelateerd zijn. Voorbeelden hiervan kosten inzake lesmateriaal,
+lunchtherapie, begeleidingskosten, reiskosten voor cliënten etc.
+
+De indirecte kosten zijn de kosten die betrekking hebben op personeel, informatiemanagement,
+organisatie, financiën, automatisering, administratie & huisvesting. Deze kosten zijn als salariskosten
+en overige bedrijfskosten in de jaarrekening gepresenteerd.
+
+Lonen
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de winst-
+en-verliesrekening voor zover ze verschuldigd zijn aan werknemers respectievelijk de
+belastingautoriteit.
+
+De beloningen van het personeel worden als last ín de resultatenrekening verantwoord in de periode
+waarin de arbeidsprestatie wordt verricht en,‚ voor zover nog niet uitbetaald, als verplichting op de
+balans opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt
+het meerdere opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling
+door het personeel of van verrekening met toekomstige betalingen door de instelling.
+
+Voor de beloningen met opbouw van rechten (gratificaties, vitaliteitsverlof e.d. } worden de verwachte
+lasten gedurende het dienstverband in aanmerking genomen. Een verwachte vergoeding ten gevolge
+van gratificaties worden verantwoord indien de verplichting tot betaling van die vergoeding is ontstaan
+op of vóór balansdatum en een betrouwbare schatting van de verplichtingen kan worden gemaakt.
+Ontvangen bijdragen voortvloeiend uit levensloopregelingen worden in aanmerking genomen in de
+periode waarover deze bijdragen zijn verschuldigd. Toevoegingen aan en vrijval van verplichtingen
+worden ten laste respectievelijk ten gunste van de resultatenrekening gebracht.
+
+11
+
+Levéo Care B.V. te Rotterdam
+
+Indien een beloning wordt betaald, waarbij geen rechten worden opgebouwd (bijvoorbeeld
+doorbetaling in geval van ziekte of arbeidsongeschiktheid) worden de verwachte lasten verantwoord in
+de periode waarover deze beloning is verschuldigd. Voor op balansdatum bestaande verplichtingen tot
+het in de toekomst doorbetalen van beloningen (inclusief ontslagvergoedingen) aan personeelsleden
+die op batansdatum naar verwachting blijvend geheel of gedeeltelijk niet in staat zijn om
+werkzaamheden te verrichten door ziekte of arbeidsongeschiktheid wordt een voorziening opgenomen.
+De verantwoorde verplichting betreft de beste schatting van de bedragen die noodzakelijk zijn om de
+desbetreffende verplichting op balansdatum af te wikkelen. De beste schatting is gebaseerd op
+contractuele afspraken met personeelsleden (CAO en individuele arbeidsovereenkomsten).
+Toevoegingen aan en vrijval van verplichtingen worden ten laste respectievelijk ten gunste van de
+resultatenrekening gebracht.
+
+Voor de uitvoering van de WNT heeft de instelling zich gehouden aan de Beleidsregels toepassing
+WNT. De instelling heeft de Beleidsregels toepassing WNT als normenkader bij het opmaken van deze
+jaarrekening gehanteerd.
+
+Overige bedrijfskosten
+Overige bedrijfskosten worden toegerekend in het jaar waarop zij betrekking hebben.
+
+Financiële baten en lasten
+De financiële baten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen) interest.
+
+De financiële lasten betreffen aan derden en groepsmaatschappijen betaalde (te betalen) interest.
+
+Belastingen over de winst of het verlies
+
+De vennootschapsbelasting is berekend over het resultaat volgens de winst- en verliesrekening tegen
+het geldend tarief, rekening houdend met fiscale faciliteiten. Tevens wordt hieronder opgenomen de
+mutatie in de voorziening voor latente vennootschapsbelasting.
+
+Kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het
+kasstroomoverzicht bestaan uit de liquide middelen, met uitzondering van deposito's met een looptijd
+langer dan drie maanden. Kasstromen in vreemde valuta zijn omgerekend tegen een geschatte
+gemiddelde koers. Koersverschillen op geldmiddelen worden afzonderlijk in het kasstroomoverzicht
+getoond. Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen
+zijn opgenomen onder de kasstroom uit operationele activiteiten. Betaalde dividenden zijn
+opgenomen onder de kasstroom uit financieringsactiviteiten. De verkrijgingsprijs van de verworven
+groepsmaatschappij is opgenomen onder de kasstroom uit investeringsactiviteiten, voor zover betaling
+in geld heeft plaatsgevonden. De geldmiddelen die in de verworven groepsmaatschappij aanwezig
+zijn, zijn op de aankoopprijs in mindering gebracht. Transacties waarbij geen instroom of uitstroom
+van kasmiddelen plaatsvindt, waaronder financiële leasing, zijn niet in het kasstroomoverzicht
+opgenomen.
+
+12
+
+
+Levéo Care B.V. te Rotterdam
+
+Toelichting op de balans per 31 december 2020
+
+Activa
+
+Vaste activa
+
+1_Materiële vaste activa
+
+De mutaties in de materiële vaste activa worden als volgt weergegeven:
+
+Andere vaste
+
+bedrijfs-
+middelen
+€
+Stand per 1 januari 2020
+Verkrijgings- of vervaardigingsprijs 373.469
+Cumulatieve afschrijvingen -235.270
+Boekwaarde per 1 januari 2020 138.199
+Mutaties
+Investeringen 63.235
+Afschrijvingen -81.869
+Saldo mutaties -18.634
+Stand per 31 december 2020
+Verkrijgings- of vervaardigingsprijs 436.704
+Cumulatieve afschrijvingen -317.139
+
+Boekwaarde per 31 december 2020 119.565
+
+13
+
+Levéo Care B.V. te Rotterdam
+
+Vlottende activa
+
+Vorderingen
+
+2 Vorderingen op handelsdebiteuren
+Vorderingen op handelsdebiteuren
+Voorziening dubieuze vorderingen op handelsdebiteuren
+
+3 Vorderingen op groepsmaatschappijen
+Vordering op Levéo Groep B.V.
+Debiteuren groepsmaatschappijen
+
+4 Belastingen en premies sociale verzekeringen
+Latente belastingvorderingen
+
+31-12-2020 31-12-2019
+
+€ €
+851.881 696.715
+-36.238 -8.763
+815.643 687.952
+133.004 661.808
+65.897 -
+198.901 661.808
+18.380 12.080
+
+De actieve belastinglatentie betreft latent te vorderen winstbelasting als gevolg van tijdelijke
+verschillen tussen de bedrijfseconomische en fiscale waardering van de materiële vaste activa.
+
+5 Overige vorderingen en overlopende activa
+Nog te factureren zorgtrajecten
+
+Borgsommen
+
+Vooruitbetaalde kosten
+
+6 Liquide middelen
+ABN AMRO
+
+14
+
+31-12-2020 31-12-2019
+
+€ €
+782.071 563.872
+69.347 48.380
+4.470 741
+855.888 612.993
+54.584 28.088
+
+
+Levéo Care B.V. te Rotterdam
+
+Passiva
+
+7 Eigen vermogen
+In onderstaand overzicht is het verloop van het eigen vermogen weergegeven:
+
+Geplaatst Overige Totaal
+aandelenkapi reserve
+taal
+€ € €
+Stand per 1 januari 2020 18.000 624.336 642.336
+Uit resultaatverdeling - 478.305 478.305
+Stand per 31 december 2020 18.000 1.102.641 1.120.641
+
+8 Geplaatst aandelenkapitaal
+
+Het geplaatst kapitaal bedraagt € 18.000 verdeeld in 18.000 aandelen van nominaal € 1. Het geplaatst
+kapitaal is gedurende dit boekjaar niet gewijzigd.
+
+Geplaatst kapitaal
+
+2020 2019
+
+€ €
+
+Geplaatst kapitaal 18.000 18.000
+
+Totaal 18.000 18.000
+Overige reserve
+
+Stand per 1 januari 624.336 434.171
+
+Resultaatverdeling 478.305 438.287
+
+Dividenduitkering (uit. resultaatverdeling) - -248.122
+
+Stand per 31 december 1.102.641 624.336
+
+15
+
+Levéo Care B.V. te Rotterdam
+
+9 Voorzieningen
+Overige voorzieningen
+
+Voorziening langdurig zieken
+Stand per 1 januari
+Mutatie
+
+Stand per 31 december
+
+31-12-2020 31-12-2019
+€ €
+
+146.251 234.510
+140.689 106.645
+-102.685 34.044
+38.004 140.689
+
+Voor langdurig zieke medewerkers is een voorziening gevormd voor de te betalen salariskosten tot aan
+het moment waarop de arbeidsovereenkomst zal worden beëindigd. Het kortlopend deel van de
+
+voorziening bedraagt € 38.004,
+
+Overige voorzieningen
+Stand per 1 januari
+Mutatie
+
+Stand per 31 december
+
+2020 2019
+
+€ €
+93.821 170.618
+14.426 -76.797
+108.247 93.821
+
+Dit betreft een voorziening voor de geleverde zorgprestaties boven het afgesproken budgetplafond.
+
+Het kortlopend deel van de voorziening bedraagt € 108.247.
+
+Kortlopende schulden
+
+10 Schulden aan groepsmaatschappijen
+Crediteuren groepsmaatschappijen
+
+11 Belastingen en premies sociale verzekeringen
+Loonheffing
+Pensioenen
+
+16
+
+31-12-2020 31-12-2019
+€ €
+
+- 63.924
+
+285.024 245.670
+18.661 66.813
+303.685 312.483
+
+
+Levéo Care B.V. te Rotterdam
+
+31-12-2020 31-12-2019
+
+€ €
+
+12 Overige schulden en overlopende passiva
+Vakantiedagen 201.527 104.071
+Vakantiegeld 161.385 126.981
+Nog te ontvangen facturen 41.869 35.749
+Nettolonen 14.997 11.501
+Vooruitontvangen bedragen - 280.736
+Dividend - 248.122
+419.778 807.160
+
+Financiële instrumenten
+
+Algemeen
+De onderneming maakt in de normale bedrijfsuitoefening gebruik van uiteenlopende financiële
+
+instrumenten die de instelling blootstellen aan markt- en/of kredietrisico’s. Deze betreffen financiële
+instrumenten die in de balans zijn opgenomen.
+
+De onderneming handelt niet in financiële derivaten en heeft procedures en gedragslijnen om de
+omvang van het kredietrisico bij elke tegenpartij of markt te beperken. Bij het niet nakomen door een
+tegenpartij van aan de onderneming verschuldigde betalingen blijven eventuele daaruit voortvloeiende
+verliezen beperkt tot de marktwaarde van de desbetreffende instrumenten. De contractwaarde of
+fictieve hoofdsommen van de financiële instrumenten zijn slechts een indicatie van de mate waarin
+van dergelijke financiële instrumenten gebruik wordt gemaakt en niet van het bedrag van de krediet-
+of marktrisico's.
+
+Valutarisico
+De onderneming heeft alleen maar financiële instrumenten in euro en transacties in euro, derhalve
+loopt de onderneming geen valutarisico.
+
+Kredietrisico
+
+De onderneming loopt kredietrisico over handels en overige vorderingen. Op het moment dat
+onzekerheid bestaat omtrent het innen van (een gedeelte van) een vordering wordt een voorziening
+voor oninbaarheid gevormd voor het bedrag waaromtrent
+
+onzekerheid bestaat. Aanwending van de voorziening vindt plaats zodra onvoldoende uitzicht bestaat
+op het innen van de vordering.
+
+Renterisico
+De onderneming heeft als beleid om geen afgeleide financiële instrumenten te gebruiken om
+(tussentijdse) rentefluctuaties te beheersen. Er is geen sprake van opgenomen en uitgegeven leningen.
+
+Reële waarde
+
+De reële waarde van de meeste în de balans verantwoorde financiële instrumenten, waaronder
+vorderingen, liquide middeten en kortlopende schulden, benadert de boekwaarde ervan.
+
+17
+
+Levéo Care B.V. te Rotterdam
+
+Niet ín de balans opgenomen rechten en verplichtingen
+
+Niet in de balans opgenomen verplichtingen inzake aansprakelijkheidsstellingen
+
+De groep beschikt over een kredietfaciliteit in rekening courant bij ABN AMRO Bank N.V. van
+€ 750.000. Daarnaast zijn er een tweetal hypothecaire leningen afgesloten, waarvoor de volgende
+zekerheden zijn gesteld:
+
+- Een bankhypotheek, 1e ín rang, van € 750.000 plus 40% voor rente en kosten. Deze hypotheek wordt
+gevestigd op het registergoed Hoefstraat 214 te Tilburg;
+
+- Een bankhypotheek, 1e in rang, van € 430.000 plus 40% voor rente en kosten. Deze hypotheek wordt
+gevestigd op het registergoed Vrieseplein 15 te Dordrecht;
+
+- De gehele groep is hoofdelijk aansprakelijk voor de gestelde zekerheden;
+
+= Pandrecht op bedrijfsinventaris;
+
+- Pandrecht op voorraden;
+
+- Pandrecht op vorderingen door de ABN AMRO Bank N.V.
+
+De niet in de balans opgenomen verplichtingen inzake de fiscale eenheid
+
+De vennootschap maakt deel uit van een fiscale eenheid voor de vennootschapsbelasting en de
+omzetbelasting. Het hoofd van de fiscale eenheid is VanKracht Holding B.V. Op grond hiervan is de
+vennootschap aansprakelijk voor de schulden inzake vennootschapsbelasting en omzetbelasting van de
+groep als geheel.
+
+Niet in de balans opgenomen verplichtingen inzake betalingen ter verkrijging van
+(gebruiks)rechten
+
+Het jaarlijks bedrag van de aangegane huurverplichtingen van onroerende zaken is € 31.500. De totale
+verplichting bedraagt € 69.300.
+
+Het verloop kan als volgt worden weergegeven:
+<1 jaar: € 31.500
+
+1 jaar < > 5 jaar: € 37.800
+
+> 5 jaar: € 0
+
+18
+
+
+Levéo Care B.V. te Rotterdam
+
+Toelichting op de winst-en-verliesrekening over 2020
+
+13 Netto-omzet
+31-12-2020 31-12-2019
+
+€ €
+Opbrengsten uit gebudgetteerde zorgprestaties 6.987.184 6.847.373
+Overige opbrengsten 1.088.977 786.236
+
+8.076.161 7.633.609
+
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+Per 1 januari 2013 is de Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector
+(WNT) ingegaan. De WNT is van toepassing op Levéo Care B.V. Op grond van de Regeling
+bezoldigingsmaxima topfunctionarissen zorg en jeugdhulp ís het toegestaan dat, indien een instelling
+die zorg of jeugdhulp verleent organisatorisch is verbonden met een of meer andere rechtspersonen of
+instellingen die zorg of jeugdhulp verlenen, voor iedere rechtspersoon of instelling binnen de
+organisatie die zorg of jeugdhulp verleent een klasse-indeling mag worden toegepast die zou gelden
+indien alle tot die organisatie behorende, in de zorg of jeugdhulp werkzame rechtspersonen of
+instellingen, gezamenlijk als één rechtspersoon of instelling zouden worden aangemerkt. De
+zogenaamde ‘groepsklasse-indeling’. Tot de groep - waarvan Levéo Groep B.V. groepshoofd is -
+behoren Levéo Care B.V, Levéo Specialisten B.V. en De Opgroei Praktijk B.V. De op de
+groepsentiteiten toepasselijke klasse is vastgesteld op klasse IV, Het toepasselijke
+bezoldigingsmaximum bedraagt € 185.000,- Aangezien de feitelijk leidinggevende topfunctionarissen
+van Levéo Care B.V. tevens fungeren als topfunctionaris bij de andere WNT-instellingen binnen de
+groep, is omwille van de transparantie gekozen voor één verantwoording in de geconsolideerde
+jaarrekening van Levéo Groep B.V. Voor de bezoldiging van de leidinggevende topfunctionarissen van
+Levéo Care B.V. wordt derhalve verwezen naar de jaarrekening van Levéo Groep B.V.
+
+Gemiddeld aantal werknemers
+
+2020
+
+Aantal
+Gemiddeld aantal werknemers 94,00
+2019
+
+Aantal ____—
+Gemiddeld aantal werknemers 88,00
+
+19
+
+Levéo Care B.V. te Rotterdam
+
+14 Afschrijvingen materiële vaste activa
+Andere vaste bedrijfsmiddelen
+Boekverlies andere vaste bedrijfsmiddelen
+Doorberekende afschrijvingskosten
+
+15 Overige bedrijfskosten
+Overige personeelsbeloningen
+Huisvestingskosten
+Verkoopkosten
+
+Autokosten
+
+Kantoorkosten
+
+Algemene kosten
+
+16 Belastingen
+
+Belastingen uit huidig boekjaar
+Latente belastingen
+
+Totaal
+
+Effectieve belastingtarief
+Toepasselijke belastingtarief
+
+Belastinglast op basis van toepasselijke belastingtarief
+
+Beperkt en niet aftrekbare kosten
+Effectieve belastinglast
+
+20
+
+2020 2019
+€ €
+81.869 71.217
+- -447
+
+1.724 -
+83.593 70.770
+14.786 208.021
+459.173 411.903
+74.646 41.794
+278.623 278.918
+268.061 103.129
+595.435 1.116.860
+1.690.724 2.160.625
+2020 2019
+
+€ €
+168.704 156.052
+-6.300 -5.615
+162.404 150.437
+% %
+
+25,35 25,55
+25,00 25,00
+2020 2019
+
+€ €
+160.177 147.181
+2.227 3.256
+162.404 150.437
+
+
+Levéo Care B.V. te Rotterdam
+
+Voorstel resultaatbestemming
+
+Tijdens de Algemene Vergadering waarop de jaarrekening zal worden vastgesteld, zal worden
+voorgesteld het resultaat na belastingen 2020 toe te voegen aan de Overige reserves.
+Het vorenstaande is reeds verwerkt in de jaarrekening 2020 van de vennootschap.
+
+A
+
+Rotterdam, 12 mei 2021
+
+21

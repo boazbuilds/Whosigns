@@ -25,6 +25,11 @@ on:
         description: "Boekjaar waar de organisatielijst uit komt (2023 is uitgezocht)"
         required: true
         default: "2023"
+      uit_archief:
+        description: "Lijst uit het archief zelf halen in plaats van uit de jaardataset (veel completer)"
+        type: boolean
+        required: false
+        default: true
       vanaf:
         description: "Sla de eerste N organisaties over (voor opknippen)"
         required: false
@@ -38,6 +43,11 @@ on:
         type: boolean
         required: false
         default: false
+      hervat:
+        description: "Organisaties die eerder niets opleverden overslaan (nodig om in meerdere runs door een boekjaar te komen)"
+        type: boolean
+        required: false
+        default: true
 
 jobs:
   laden:
@@ -46,38 +56,78 @@ jobs:
     # Ruim binnen de zes uur die GitHub een job gunt; de rest doet een tweede run.
     timeout-minutes: 330
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
-      # tesseract met Nederlands is de terugval voor gescande pdf's. Ongeveer
-      # driekwart van de organisaties die géén opdracht opleverden, blijkt een scan
-      # zonder tekstlaag te zijn — kleine aanbieders printen, ondertekenen en scannen.
-      # Zonder deze pakketten draait alles als voorheen: geen tekstlaag, geen opdracht.
-      - name: poppler-utils, unzip en tesseract installeren
+      # Geen tesseract: OCR gebeurt bewust niet op een runner (WHOSIGNS_OCR=0
+      # hieronder). Zie docs/draaiboek-acties.md — het zware lezen draait buiten
+      # Actions om en komt via pipeline/oogst/ binnen. Zonder OCR gedraagt deze
+      # lader zich als vóór de OCR-terugval: een gescande pdf levert geen tekst en
+      # dus geen opdracht, netjes gemeld als onleesbaar.
+      - name: poppler-utils en unzip installeren
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils unzip tesseract-ocr tesseract-ocr-nld
+          sudo apt-get install -y -qq poppler-utils unzip
 
       # De dataset (~16 MB) en de afgeleide doelpopulatie hoeven maar één keer
       # opgehaald en berekend te worden; dat scheelt de bron werk en ons minuten.
       # Alleen de dataset en de daaruit afgeleide organisatielijst bewaren — niet de
       # pdf's. Eén jaargang verkeert al ~3 GB en die horen niet in een cache.
       - name: Organisatielijst uit de cache halen
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             pipeline/.cache/digimv*.ods
             pipeline/.cache/doelpopulatie_*.csv
-          # v2 in de sleutel: bij een wijziging in de kolommen van de
-          # organisatielijst moet de cache niet de oude versie terugzetten. Dat
-          # gebeurde wél, en liet een run van 2u22m sneuvelen op de laatste stap.
-          key: digimv-lijst-v2-${{ inputs.lijst_uit }}
+          # De lezer in de sleutel: bij een wijziging in de organisatielijst moet
+          # de cache niet de oude versie terugzetten. Dat gebeurde wél, en liet
+          # een run van 2u22m sneuvelen op de laatste stap. Een met de hand
+          # opgehoogde "v2" werd vergeten; de hash van de lezer niet. De
+          # restore-key haalt de gedownloade .ods-bestanden uit een oudere versie
+          # op; de csv draagt zelf de versie in zijn naam en wordt dan opnieuw
+          # bepaald.
+          key: digimv-lijst-${{ hashFiles('pipeline/adapters/digimv_dataset.py') }}-${{ inputs.lijst_uit }}
+          restore-keys: |
+            digimv-lijst-
+
+      # Welke organisaties eerder al bekeken zijn, ongeacht de uitkomst. Zonder
+      # deze lijst doet elke volgende run het halve werk opnieuw: ruwweg de helft
+      # van de organisaties levert geen kantoor op, en die staan dus ook niet in
+      # de database om op over te slaan. Eén boekjaar past niet in één run van
+      # 5,5 uur, dus dit is het verschil tussen doorlopen en op je plaats blijven.
+      #
+      # De sleutel bevat run_id omdat een cache-sleutel niet te overschrijven is;
+      # restore-keys pakt daardoor altijd de nieuwste eerdere versie op.
+      - name: Bekeken organisaties uit de cache halen
+        uses: actions/cache@v6
+        with:
+          path: pipeline/.cache/verwerkt_*.txt
+          key: zorg-verwerkt-${{ inputs.boekjaren }}-${{ github.run_id }}
+          restore-keys: |
+            zorg-verwerkt-${{ inputs.boekjaren }}-
+            zorg-verwerkt-
+
+      # Wat de oogst buiten Actions al heeft bekeken telt ook mee. Die lijst staat
+      # in de repo (pipeline/oogst/) en is vaak verder dan de cache; samenvoegen
+      # kost niets en voorkomt dubbel werk aan beide kanten.
+      - name: Bekeken organisaties samenvoegen met de oogst uit de repo
+        run: |
+          shopt -s nullglob
+          mkdir -p pipeline/.cache
+          for bestand in pipeline/oogst/verwerkt_*.txt; do
+            doel="pipeline/.cache/$(basename "$bestand")"
+            cat "$bestand" "$doel" 2>/dev/null | sort -u > "$doel.nieuw"
+            mv "$doel.nieuw" "$doel"
+            echo "$(basename "$doel"): $(wc -l < "$doel") organisaties bekeken"
+          done
 
       - name: Zorgdata laden
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           # Invoer via de omgeving: een invoerwaarde kan dan nooit als
@@ -87,6 +137,8 @@ jobs:
           VANAF: ${{ inputs.vanaf }}
           AANTAL: ${{ inputs.aantal }}
           HERLAAD: ${{ inputs.herlaad }}
+          UIT_ARCHIEF: ${{ inputs.uit_archief }}
+          HERVAT: ${{ inputs.hervat }}
         run: |
           # Boekjaar voor boekjaar, nieuwste eerst: loopt de job tegen de tijdslimiet
           # aan, dan zijn de meest actuele jaren in elk geval binnen. Elk boekjaar
@@ -96,9 +148,11 @@ jobs:
             python3 pipeline/laad_zorg.py \
               --boekjaar "$jaar" \
               --lijst-uit "$LIJST_UIT" \
+              $([ "$UIT_ARCHIEF" = "true" ] && echo --uit-archief) \
               --vanaf "$VANAF" \
               --aantal "$AANTAL" \
-              $([ "$HERLAAD" = "true" ] && echo --herlaad)
+              $([ "$HERLAAD" = "true" ] && echo --herlaad) \
+              $([ "$HERVAT" = "true" ] && echo --hervat)
             echo "::endgroup::"
             # Pdf's van het afgeronde jaar opruimen: de schijf van een runner is
             # 14 GB en zes jaargangen passen daar niet in.
@@ -112,6 +166,8 @@ jobs:
       - name: Extra velden bijvullen
         if: always()
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           LIJST_UIT: ${{ inputs.lijst_uit }}
@@ -119,7 +175,7 @@ jobs:
 
       - name: Rapporten bewaren
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: resultaten
           path: pipeline/.cache/resultaat_*.csv

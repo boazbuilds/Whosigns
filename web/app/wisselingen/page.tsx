@@ -1,18 +1,31 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { kantoorRanglijst, wisselingen } from "@/lib/db";
-import { saldoPerKantoor } from "@/lib/analyse";
+import {
+  kantoorOpAfm,
+  kantoorOpId,
+  kantoorRanglijst,
+  oordelenVoorafAanWissels,
+  sectoren,
+  wisselingen,
+  type Kantoor,
+} from "@/lib/db";
+import { saldoPerKantoor, saldoVanKantoor } from "@/lib/analyse";
 import {
   aantalJaren,
   aantalWisselingen,
   hoofdletter,
   kantoorPad,
+  OORDEEL_LABEL,
   organisatiePad,
   sectorPad,
+  sleutelUitSlug,
+  slug,
+  wisselingenPad,
 } from "@/lib/paden";
 import {
   Doorklik,
   Foutmelding,
+  Inklapbaar,
   KantoorLink,
   Kerncijfer,
   Kruimels,
@@ -26,14 +39,49 @@ export const metadata: Metadata = {
     "en van welk kantoor naar welk kantoor.",
 };
 
-export default async function Wisselingenpagina() {
+/** Zoveel wisselingen staan open binnen het gekozen boekjaar; de rest zit
+ *  achter één klik. Boekjaar 2021 telt er 173 — dat hoeft niet in één keer. */
+const OPEN = 30;
+
+type Zoek = { searchParams: Promise<{ jaar?: string; sector?: string; kantoor?: string }> };
+
+/** Het kantoor uit ?kantoor=, in dezelfde vorm als zijn eigen adres. */
+async function vindKantoor(waarde: string): Promise<Kantoor | null> {
+  const { nummer, id } = sleutelUitSlug(waarde);
+  if (id !== null) return kantoorOpId(id);
+  return nummer ? kantoorOpAfm(nummer) : null;
+}
+
+export default async function Wisselingenpagina({ searchParams }: Zoek) {
+  const { jaar, sector: sectorRuw, kantoor: kantoorRuw } = await searchParams;
+
+  // ?sector=zorg: alleen de wisselingen van die sector. Het kerncijfer
+  // "wisselingen" op een sectorpagina telde die sector, maar linkte hierheen
+  // naar alle sectoren samen (5-10-2026: 296 tegen 1.709 bij de zorg). Een
+  // onbekende sector in de URL valt terug op alles, zoals een onzinnig jaartal.
+  //
+  // ?kantoor=: alleen wat dit kantoor won en verloor. De kantoorpagina toont
+  // er de nieuwste van en linkt hierheen voor de rest; daar stonden ze tot
+  // 5-10-2026 allemaal, ingeklapt maar wel in de HTML — bij BDO 214 gewonnen
+  // en 207 verloren opdrachten.
+  let sector: string | null = null;
+  let kantoor: Kantoor | null = null;
   let rijen;
   let ranglijst;
   try {
+    [sector, kantoor] = await Promise.all([
+      sectorRuw
+        ? sectoren().then((lijst) => lijst.find((s) => slug(s.naam) === sectorRuw)?.naam ?? null)
+        : null,
+      kantoorRuw ? vindKantoor(kantoorRuw) : null,
+    ]);
     [rijen, ranglijst] = await Promise.all([
-      // Zonder limiet: deze pagina heet "alle wisselingen" en de kop noemt het
-      // aantal. Met een vaste grens van 200 stond daar "200" zodra er meer waren.
-      wisselingen(),
+      // Zonder limiet: de kerncijfers (drukste jaar, saldi) gaan over álle
+      // wisselingen, ook al staat er maar één boekjaar tegelijk open.
+      wisselingen({
+        ...(sector ? { sector } : {}),
+        ...(kantoor ? { kantoorId: kantoor.id } : {}),
+      }),
       kantoorRanglijst().catch(() => []),
     ]);
   } catch (fout) {
@@ -48,20 +96,78 @@ export default async function Wisselingenpagina() {
   const drukste = jaren.length
     ? jaren.reduce((a, b) => (perJaar.get(b)!.length > perJaar.get(a)!.length ? b : a))
     : null;
-  const saldi = saldoPerKantoor(rijen);
+  // Met ?kantoor= gaan alle rijen over dat ene kantoor. Een "beste" en
+  // "slechtste saldo" daaruit lazen als het saldo over de hele markt, maar
+  // betekenden "won het meest van" en "verloor het meest aan" dit kantoor: bij
+  // BDO stond er "+33 beste saldo: Forvis Mazars", terwijl Forvis Mazars over
+  // alle 1.709 wisselingen op +81 staat, en het saldo van BDO zelf (+7: 214
+  // gewonnen, 207 verloren) stond nergens (5-10-2026). Met een kantoor dus
+  // alleen zijn eigen saldo, zoals op de kantoorpagina. Met alleen een sector
+  // blijven winnaar en verliezer staan: dat zijn de saldi binnen die sector,
+  // dezelfde als op de sectorpagina.
+  const eigen = kantoor ? saldoVanKantoor(rijen, kantoor.id) : null;
+  const saldi = eigen ? [] : saldoPerKantoor(rijen);
   const winnaar = saldi[0];
   const verliezer = saldi[saldi.length - 1];
+
+  // Eén boekjaar tegelijk, standaard het nieuwste: alle achttien jaren onder
+  // elkaar was 1.700 rijen scrollen. Een onzinnig jaartal in de URL valt
+  // terug op het nieuwste jaar in plaats van een lege pagina.
+  const gekozen = jaren.includes(Number(jaar)) ? Number(jaar) : jaren[0] ?? null;
+  const getoond = gekozen === null ? [] : perJaar.get(gekozen)!;
+
+  // Het oordeel uit het boekjaar vóór elke getoonde wisseling: volgens de
+  // opinion-shopping-literatuur wisselen organisaties vaker na slecht
+  // nieuws, en dat is hier per wisseling gewoon opzoekbaar. Alleen voor het
+  // gekozen jaar, anders kost het tientallen verzoeken.
+  let vooraf;
+  try {
+    vooraf = await oordelenVoorafAanWissels(getoond);
+  } catch (fout) {
+    return <Foutmelding fout={fout} />;
+  }
+  const slechtNieuws = (w: { organisatie_id: number }) => {
+    const stand = vooraf.get(`${w.organisatie_id}-${gekozen}`);
+    if (!stand) return null;
+    const nietGoed = stand.oordeel !== null && stand.oordeel !== "goedkeurend";
+    if (!nietGoed && !stand.continuiteitsonzekerheid) return null;
+    return {
+      oordeel: nietGoed ? stand.oordeel : null,
+      continuiteit: stand.continuiteitsonzekerheid,
+    };
+  };
+  const naSlechtNieuws = getoond.filter((w) => slechtNieuws(w)).length;
 
   return (
     <>
       <Kruimels paden={[{ naar: "/", tekst: "Start" }, { tekst: "Wisselingen" }]} />
 
       <div className="paginakop">
-        <h1>Accountantswisselingen</h1>
+        <h1>
+          Accountantswisselingen
+          {kantoor ? ` van en naar ${kantoor.naam}` : ""}
+          {sector ? ` in de sector ${sector}` : ""}
+        </h1>
         <p className="zacht klein" style={{ margin: "0.4rem 0 0", maxWidth: "44rem" }}>
           Een wisseling is een boekjaar waarin een organisatie de controle door een
           ánder kantoor liet uitvoeren dan het boekjaar ervoor. Afgeleid uit de
           historie — niet uit een aankondiging.
+          {sector ? (
+            <>
+              {" "}
+              Alleen organisaties die nu in de sector {sector} staan;{" "}
+              <Link href={wisselingenPad({ jaar: gekozen, kantoor })}>alle sectoren</Link>.
+            </>
+          ) : null}
+          {kantoor ? (
+            <>
+              {" "}
+              Alleen wisselingen waarin{" "}
+              <Link href={kantoorPad(kantoor)}>{kantoor.naam}</Link> het oude of het
+              nieuwe kantoor was;{" "}
+              <Link href={wisselingenPad({ jaar: gekozen, sector })}>alle kantoren</Link>.
+            </>
+          ) : null}
         </p>
         <div className="kerncijfers">
           <Kerncijfer waarde={rijen.length} naam="wisselingen" />
@@ -71,6 +177,16 @@ export default async function Wisselingenpagina() {
               waarde={drukste}
               naam={`drukste jaar (${perJaar.get(drukste)!.length})`}
             />
+          ) : null}
+          {eigen ? (
+            <>
+              <Kerncijfer waarde={eigen.gewonnen} naam="gewonnen" />
+              <Kerncijfer waarde={eigen.verloren} naam="verloren" />
+              <Kerncijfer
+                waarde={eigen.saldo > 0 ? `+${eigen.saldo}` : String(eigen.saldo)}
+                naam="saldo"
+              />
+            </>
           ) : null}
           {winnaar && winnaar.saldo > 0 ? (
             <Kerncijfer waarde={`+${winnaar.saldo}`} naam={`beste saldo: ${winnaar.naam}`} />
@@ -85,83 +201,142 @@ export default async function Wisselingenpagina() {
       </div>
 
       {jaren.length > 1 ? (
-        <nav className="keuzebalk" aria-label="Spring naar een boekjaar">
-          {jaren.map((jaar) => (
-            <Link key={jaar} href={`#jaar-${jaar}`}>
-              {jaar} <span className="zacht">({perJaar.get(jaar)!.length})</span>
+        <nav className="keuzebalk" aria-label="Kies een boekjaar">
+          {jaren.map((j) => (
+            <Link
+              key={j}
+              href={wisselingenPad({ jaar: j, sector, kantoor })}
+              className={gekozen === j ? "actief" : undefined}
+              aria-current={gekozen === j ? "page" : undefined}
+            >
+              {j} <span className="zacht">({perJaar.get(j)!.length})</span>
             </Link>
           ))}
         </nav>
       ) : null}
 
-      {rijen.length === 0 ? (
+      {gekozen === null ? (
         <section className="kaart">
           <Leeg tekst="Nog geen wisselingen in de database." />
         </section>
       ) : (
-        jaren.map((jaar) => (
-          <section className="kaart" key={jaar} id={`jaar-${jaar}`}>
-            <div className="kaartkop">
-              <h2>Boekjaar {jaar}</h2>
-              <span className="klein zacht">
-                {aantalWisselingen(perJaar.get(jaar)!.length)}
-              </span>
-            </div>
-            <div className="tabel-omhulsel">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Organisatie</th>
-                    <th>Van</th>
-                    <th>Naar</th>
-                    <th>Sector</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {perJaar.get(jaar)!.map((w) => (
-                    <tr key={`${w.organisatie_id}-${jaar}`}>
-                      <td>
-                        {w.organisatie ? (
-                          <Link href={organisatiePad(w.organisatie)}>
-                            {w.organisatie.naam}
-                          </Link>
-                        ) : (
-                          "onbekend"
-                        )}
-                        {w.organisatie?.gemeente ? (
-                          <div className="klein zacht">{w.organisatie.gemeente}</div>
-                        ) : null}
-                      </td>
-                      <td>
-                        {w.van ? (
-                          <KantoorLink naam={w.van.naam} naar={kantoorPad(w.van)} />
-                        ) : (
-                          <span className="zacht">?</span>
-                        )}
-                      </td>
-                      <td>
-                        {w.naar ? (
-                          <KantoorLink naam={w.naar.naam} naar={kantoorPad(w.naar)} />
-                        ) : (
-                          <span className="zacht">?</span>
-                        )}
-                      </td>
-                      <td className="klein">
-                        {w.organisatie?.sector ? (
-                          <Link href={sectorPad(w.organisatie.sector)}>
-                            {hoofdletter(w.organisatie.sector)}
-                          </Link>
-                        ) : (
-                          <span className="zacht">—</span>
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
-        ))
+        (() => {
+          const kop = (
+            <thead>
+              <tr>
+                <th>Organisatie</th>
+                <th>Van</th>
+                <th>Naar</th>
+                <th>Sector</th>
+              </tr>
+            </thead>
+          );
+          const regels = getoond.map((w) => (
+            <tr key={`${w.organisatie_id}-${gekozen}`}>
+              <td>
+                {w.organisatie ? (
+                  <Link href={organisatiePad(w.organisatie)}>
+                    {w.organisatie.naam}
+                  </Link>
+                ) : (
+                  "onbekend"
+                )}
+                {w.organisatie?.gemeente ? (
+                  <div className="klein zacht">{w.organisatie.gemeente}</div>
+                ) : null}
+              </td>
+              <td>
+                {w.van ? (
+                  <KantoorLink naam={w.van.naam} naar={kantoorPad(w.van)} />
+                ) : (
+                  <span className="zacht">?</span>
+                )}
+                {(() => {
+                  // Het label staat in de Van-kolom: dát kantoor gaf de
+                  // verklaring waarna de organisatie vertrok.
+                  const slecht = slechtNieuws(w);
+                  if (!slecht) return null;
+                  const delen = [
+                    ...(slecht.oordeel
+                      ? [OORDEEL_LABEL[slecht.oordeel] ?? slecht.oordeel]
+                      : []),
+                    ...(slecht.continuiteit ? ["continuïteitsonzekerheid"] : []),
+                  ];
+                  return (
+                    <div className="klein">
+                      <span
+                        className="label label-let-op"
+                        title={`De verklaring over boekjaar ${gekozen - 1} was niet zonder meer goedkeurend; daarna wisselde de organisatie van kantoor.`}
+                      >
+                        na {delen.join(" + ")}
+                      </span>
+                    </div>
+                  );
+                })()}
+              </td>
+              <td>
+                {w.naar ? (
+                  <KantoorLink naam={w.naar.naam} naar={kantoorPad(w.naar)} />
+                ) : (
+                  <span className="zacht">?</span>
+                )}
+              </td>
+              <td className="klein">
+                {w.organisatie?.sector ? (
+                  <Link href={sectorPad(w.organisatie.sector)}>
+                    {hoofdletter(w.organisatie.sector)}
+                  </Link>
+                ) : (
+                  <span className="zacht">—</span>
+                )}
+              </td>
+            </tr>
+          ));
+          return (
+            <section className="kaart" id={`jaar-${gekozen}`}>
+              <div className="kaartkop">
+                <h2>Boekjaar {gekozen}</h2>
+                {/* Kort houden: het laatste kind van een kaartkop breekt niet
+                    af (globals.css), en met de zin over slecht nieuws erbij werd
+                    de pagina op een telefoon van 375 pixels 549 pixels breed.
+                    Die zin staat nu in de alinea hieronder. */}
+                <span className="klein zacht">{aantalWisselingen(getoond.length)}</span>
+              </div>
+              {naSlechtNieuws > 0 ? (
+                <p className="klein zacht" style={{ marginTop: 0 }}>
+                  {naSlechtNieuws === 1
+                    ? "Eén wisseling kwam"
+                    : `${naSlechtNieuws} wisselingen kwamen`}{" "}
+                  na een niet zonder meer goedkeurende verklaring.{" "}
+                  Het rode label markeert wisselingen waar de verklaring over het
+                  boekjaar ervóór niet zonder meer goedkeurend was (beperking,
+                  oordeelonthouding, afkeurend of continuïteitsonzekerheid) — het
+                  patroon dat de literatuur &ldquo;opinion shopping&rdquo; noemt.
+                  Een label is een gelezen verklaring, geen verklaring vóór de
+                  wisselreden.
+                </p>
+              ) : null}
+              <div className="tabel-omhulsel">
+                <table>
+                  {kop}
+                  <tbody>{regels.slice(0, OPEN)}</tbody>
+                </table>
+              </div>
+              {regels.length > OPEN ? (
+                <Inklapbaar
+                  samenvatting={`Nog ${regels.length - OPEN} wisselingen in dit boekjaar`}
+                >
+                  <div className="tabel-omhulsel">
+                    <table>
+                      {kop}
+                      <tbody>{regels.slice(OPEN)}</tbody>
+                    </table>
+                  </div>
+                </Inklapbaar>
+              ) : null}
+            </section>
+          );
+        })()
       )}
 
       <Doorklik
@@ -185,10 +360,9 @@ export default async function Wisselingenpagina() {
           ),
           {
             naar: "/kantoren",
-            tekst: "Ranglijst van kantoren met stijgers en dalers",
+            tekst: "Alle kantoren, met stijgers en dalers",
             toelichting: aantalJaren(jaren.length),
           },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>

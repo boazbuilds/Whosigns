@@ -1,0 +1,412 @@
+# whosigns-ocr v1 grootte=1137984 dpi=300 paginas=20
+Formulier
+Langdurige zorg nacalculatie 2022
+
+pagina 1 /8
+
+Algemene gegevens
+
+Kenmerk : Langdurige zorg nacalculatie 2022
+
+Datum/Tijd : 25 april 2023 13:15:27
+
+Zorgaanbieder Zorgkantoor
+
+NZa-nummer : 300-3465 NZa-nummer : 000-3010
+
+Naam : SMT Zorg & Zorgadvies B.V. Naam : Zorgkantoor Groningen
+
+(Groningen)
+
+Plaats : ENSCHEDE Plaats : ENSCHEDE
+
+SARS-CoV-2 virus
+
+EXTRA KOSTEN SARS-COV-2 VIRUS PERSONELE KOSTEN
+Artikel 4, eerste lid, onder c: Personele kosten die in elk geval voor ded
+vergoeding in aanmerking komen. ectag
+Inzet zorgpersoneel
+= Extra personeelsinzet agv hoger ziekteverzuim eo
+= Extra personeelsinzet agv vaccinatie €00
+- Kosten apothekers (inzet vaccinatieproces) €o0
+= Extra kosten personeelsinzet dagbesteding (i.v.m. 1,5 meter) €o0
+= Extra kosten personeel cohort-units € 0
+Totaal inzet zorgpersoneel €o0
+Inzet niet-zorgpersoneel
+- Extra personeelsinzet agv hoger ziekteverzuim €o0
+- Extra personeelsinzet agv vaccinatie €O0
+= Kosten apothekers (inzet vaccinatieproces) €o0
+= Extra kosten personeelsinzet dagbesteding (i.v.m. 1,5 meter) €o0
+- Extra kosten personeel cohort-units €o0
+Totaal inzet niet-zorgpersoneel €o
+Totaal personele kosten €o
+
+SMELT, 4
+
+ACCOUNTANCY
+Achterhoeksedwarsweg 15 - 7556 BX Hengelo
+
+074 - 820 02 10 / info@smelt-accountancy.nl
+29 -u- 2]
+
+EXTRA KOSTEN SARS-COV-2 VIRUS MATERIËLE KOSTEN
+
+Artikel 4, tweede lid, onder c: Materiële kosten die in elk geval voor
+vergoeding in aanmerking komen.
+
+- Preventie door gebruik extra beschermingsmiddelen
+
+- Extra vervoerskosten dagbesteding (i.v.m. 1,5 meter)
+
+= (Huur)kosten extra ruimtes dagbesteding (i.v.m. 1,5 meter)
+- Kosten van zelftesten voor zorgpersoneel en bewoners
+
+- Kosten apothekers (inzet vaccinatieproces)
+
+= Extra kosten veilig vaccineren bewoners/medewerkers
+
+= Extra diagnostiekkosten bewoners
+
+= Extra diagnostiekkosten personeel
+
+- Kosten gerelateerd aan de inzet cohort-units
+
+Totaal materiële kosten
+
+Bedrag
+
+€ 0
+€ 0
+€
+€0
+€0
+€0
+€0
+€00
+€0
+
+€o
+
+TOTALEN
+Herschikking 2022 Nacalculatie 2022
+Totaal extra kosten SARS-CoV-2 virus € € 0
+Totaal SARS-CoV-2 virus €o0
+
+SMELT,
+
+ACCOUNTANCY
+
+Achterhoeksedwarsweg 15 - 7556 BX Hengelo
+074 - 820 02 10 / into@smelt-accountancy.nl
+
+2d- u 023
+
+Formulier
+
+Langdurige zorg nacalculatie 2022
+
+300-3465 | SMT Zorg & Zorgadvies B.V. (Groningen) pagina 3 / 8
+Nacalculatie productieafspraken
+REALISATIE PRODUCTIEAFSPRAAK ALGEMEEN
+Bedrag
+Realisatie productieafspraak algemeen (exclusief innovatie) € 105.116
+Totaal € 105.116
+
+VERGOEDING EXTRA ENERGIEKOSTEN 2022
+
+Productieafspraak
+
+Compensatiefactor
+
+Compensatie
+
+budget/
+herschikking
+Regeling generieke vergoeding extra energiekosten € 124.040 0,26530% € 329
+Regeling specifieke vergoeding extra energiekosten € 0
+Totaal regeling vergoeding extra energiekosten € 329
+REALISATIE PRODUCTIEAFSPRAAK INNOVATIE
+Budget Bedrag
+Realisatie productieafspraak innovatie € 0 € 0
+Totaal €o0
+REALISATIE PRODUCTIEAFSPRAAK INRICHTINGSKOSTEN GEDWONGEN VERHUIZING
+Aantal Tarief Bedrag
+Realisatie inrichtingskosten gedwongen verhuizing 0 € 3.836,75 €o0
+eenpersoonswoning (l001)
+Realisatie inrichtingskosten gedwongen verhuizing 0 € 1.918,37 € 0
+meerpersoonswoning (lo02)
+Totaal €o
+Totaal nacalculatie productieafspraken € 105.445
+
+SMELD-4
+
+ACCOLIMTANCY
+
+Achterhoekseowarsweg 15 - 7556 BX Hengelo
+074 - 820 02 10 / info@smelt-accountancy.nl
+
+28-uy -202}
+
+Formulier
+Langdurige zorg nacalculatie 2022
+
+300-3465 | SMT Zorg & Zorgadvies B.V. (Groningen) pagina 4 / 8
+
+Overige kosten en opbrengsten
+
+REALISATIE EXTREME ZORGGEBONDEN KOSTEN
+
+Bedrag
+Aanvaardbare materiaalkosten €0
+Aanvaardbare kosten geneesmiddelen van de cliënt €00
+* Maximale vergoeding is 90% van de werkelijke kosten
+Totaal €o0
+
+BRMO
+
+Aantal
+A: het aantal dagen dat een plaats leeg is achtergelaten. Het gaat om een leegstaande plaats waar le)
+een bij de uitbraak betrokken Wiz-cliënt verbleef (art. ALF)
+
+Bedrag
+Kosten medisch-microbiologisch onderzoek bij de uitbraak betrokken Wiz-cliënten (art. 4.1.4) €o0
+Kosten medisch-microbiologisch onderzoek bij personeel (art. 41.b) €0
+Kosten medisch-microbiologisch onderzoek t.b.v. omgevingsonderzoek (art. 41.c) €0
+Kosten eindreiniging (art. 4l.d) €o0
+Kosten einddesinfectie (art. Ale) €o0
+
+Tarief Z917 Aantal A
+
+Kosten als gevolg van verplichte sluiting van een locatie of een € 105,63 0 €0
+deel van de locatie (art. 4.1.f)
+Totaal €o
+
+BIJLAGEN BRMO
+
+Bijlage melding signaleringsoverleg
+Overige bijlage bij opgave BRMO
+
+ACCHLINTANCY
+
+SMELT) £
+
+Achterhoekseawarsweg 15 - 7556 BX Hengelo
+074 - 820 02 10/ infto@smelt-accountancy.nl
+
+2d-u— oa}
+
+Formulier
+Langdurige zorg nacalculatie 2022
+
+300-3465 | SMT Zorg & Zorgadvies B.V. (Groningen) pagina 5 /8
+
+Onder- {overproductie
+
+BEREKENING
+
+Bedrag
+
+Realisatie productieafspraak algemeen (exclusief innovatie) € 105.116
+Correctie zorgkantoor op realisatie productieafspraak algemeen € 0
+Totaal gerealiseerde productieafspraak algemeen inclusief correcties € 105.116
+Basis voor nacalculatie € 124.040
+Totaal onderproductie € 18.924
+
+SMELT) 4
+
+ACCAUMTANCY
+Achterhoekseuwarsweg 15 « 7556 BX Hengelo
+
+074 - 820 02 10 / info@smett-accountancy.nl
+28-u- Loer
+
+Formulier
+Langdurige zorg nacalculatie 2022
+
+300-3465 | SMT Zorg & Zorgadvies BV. (Groningen) pagina 6 / 8
+
+Vragen en overige opmerkingen
+
+TANDHEELKUNDIGE BEHANDELING
+
+Levert u tandheelkundige behandeling waardoor u gebruik moet maken van de tarieven GO13 en/of Nee
+G201?
+
+MATERIËLE CONTROLE
+
+Is de materiële controle voor het jaar 2022 door het zorgkantoor afgerond en verwerkt in de Ja
+nacalculatie?
+
+Toelichting -—
+
+OVERIGE OPMERKINGEN
+OVERIGE OPMERKINGEN ZA OVERIGE OPMERKINGEN ZK
+
+nvt 5
+
+OVERIGE BIJLAGE(N)
+OVERIGE BIJLAGE(N) ZA OVERIGE BIJLAGE(N) ZK
+
+SMELT,
+
+ACCOUNTANCY
+Achterhoekseuwarsweg 15 - 7556 BX Hengelo
+
+074 - 820 02 10 / info@smelt-accountancy.nl
+26-u-?oej
+
+Formulier
+Langdurige zorg nacalculatie 2022
+
+300-3465 | SMT Zorg & Zorgadvies BV. (Groningen) pagina 7 / 8
+
+Vragenlijst controleprotocol
+
+ZZP-ER
+
+Bent u een ZZP-er? Nee
+
+PRESTATIES, KOSTEN OF CORRECTIES VOORGAANDE JAREN
+
+Heeft u in de nacalculatie 2022 prestaties, kosten of correcties met betrekking tot voorgaande jaren Nee
+
+opgenomen?
+
+Bijlage -
+ARTIKEL 9
+
+Voldoet uw instelling aan artikel 9 van de Declaratievoorschriften, administratievoorschriften en Ja
+
+informatieverstrekking Wiz 2022 (NR/REG-2208b)?
+
+FOUTEN NACALCULATIEOPGAVE
+
+Zijn er door de accountant fouten in de nacalculatieopgave 2022 geconstateerd? Nee
+PASSENDE ZORG
+Blijkt uit een door de zorgaanbieder aan de openbare accountant overlegde specifieke toelichting of Ja
+
+interne procedure dat door de zorgaanbieder passende zorg wordt geleverd binnen het kader van de
+Regeling Declaratievoorschriften, administratievoorschriften en informatieverstrekking Wiz 2022 — NR/
+REG-2208b?
+
+TOELICHTING OP DE VRAGENLIJST
+
+Toelichting nvt.
+Optionele bijlage toelichting vragenlijst
+
+SMELT 4
+
+ACCOUNTANCY
+
+Achterhoeksedwarsweg 15 - 7556 BX Hengelo
+074-820 02 10 / info@smett-accountancy.nl
+2u
+
+Formulier
+Langdurige zorg nacalculatie 2022
+
+300-3465 | SMT Zorg & Zorgadvies B.V. (Groningen)
+
+Overzicht
+
+Samenvatting
+
+Realisatie algemeen (exclusief innovatie)
+Correctie zorgkantoor op realisatie productieafspraak algemeen
+Correctie zorgkantoor op restant overproductie
+
+Totaal financieel gerealiseerde productie over 2022
+
+Vergoeding innovatie voor kleinschalige experimenten
+Realisatie van inrichtingskosten bij gedwongen verhuizing
+Extra kosten SARS-CoV-2 virus
+
+Vergoeding extreme kosten van zorggebonden materiaal en
+geneesmiddelen
+
+Vergoeding BRMO-uitbraak
+Totaal financiële realisatie overige onderdelen 2022
+
+Regeling generieke vergoeding extra energiekosten
+Regeling specifieke vergoeding extra energiekosten
+
+Totaal
+
+SME
+
+ACCOUMTANCY
+
+pagina8 / 8
+
+Bedrag
+
+€ 105.116
+€o0
+€ 0
+
+€ 105.116
+
+€0
+€o0
+€0
+€0
+
+€0
+€o0
+
+€ 329
+€00
+
+€ 105.445
+
+Achterhoeksedwarsweg 15 - 7556 BX Hengelo
+074-820 02 10 / info@smelt-accountancy.nl
+
+20 -U— LF
+
+Formulier
+Langdurige zorg nacalculatie 2022
+
+300-3465 | SMT Zorg &. Zorgadvies B.V. (Groningen) pagina 7 /8
+
+Vragenlijst controleprotocol
+
+ZZP-ER
+
+Bent u een ZZP-er? Nee
+
+PRESTATIES, KOSTEN OF CORRECTIES VOORGAANDE JAREN
+
+Heeft u in de nacalculatie 2022 prestaties, kosten of correcties met betrekking tot voorgaande jaren Nee
+
+opgenomen?
+
+Bijlage _
+ARTIKEL 9
+
+Voldoet uw instelling aan artikel 9 van de Declaratievoorschriften, administratievoorschriften en Ja
+
+informatieverstrekking Wiz 2022 (NR/REG-2208b)?
+
+FOUTEN NACALCULATIEOPGAVE
+
+Zijn er door de accountant fouten in de nacalculatieopgave 2022 geconstateerd? Nee
+PASSENDE ZORG
+Blijkt uit een door de zorgaanbieder aan de openbare accountant overlegde specifieke toelichting of Ja
+
+interne procedure dat door de zorgaanbieder passende zorg wordt geleverd binnen het kader van de
+Regeling Declaratievoorschriften, administratievoorschriften en informatieverstrekking Wiz 2022 — NR/
+REG-2208b?
+
+TOELICHTING OP DE VRAGENLIJST
+
+Toelichting nvt.
+Optionele bijlage toelichting vragenlijst
+
+4
+
+15 - 7556 BX Hengelo
+074-820 02 10 / info@smelt-accountancy.nl
+
+og-u-Wo23
+

@@ -1,0 +1,874 @@
+# whosigns-ocr v1 grootte=5777274 dpi=300 paginas=20
+CONTOUR
+
+ACCOUNTANTS
+
+15.
+
+A4
+
+3 KASSTROOMOVERZICHT 2020
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+Kasstroom uit operationele activiteiten
+
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+Afschrijvingen
+
+Veranderingen in het werkkapitaal:
+Mutatie voorraden
+
+Mutatie vorderingen
+
+Mutatie kortlopende schulden (exclusief
+schulden aan kredietinstellingen)
+
+Kasstroom uit bedrijfsoperaties
+
+Ontvangen interest
+Betaalde interest
+
+Kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+
+Investeringen in materiële vaste activa
+
+Samenstelling geldmiddelen
+
+Geldmiddelen per 1 januari
+
+Mutatie liquide middelen
+
+Liquide middelen per 31 december
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+2020 2019
+€ € € €
+79.175 127.063
+9.228 7.946
+52 409
+-51.920 -6.439
+126.559 20.158
+163.094 149.137
+7 58
+-253 -246
+-246 -188
+162.848 148.949
+-7.920 -8.170
+154.928 140.779
+2020 2019
+€ € € €
+443.714 302.935
+154.928 140.779
+598.642 443.714
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+16.
+
+CONTOUR
+
+ACCOUNTANTS
+
+A4
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van Stichting Thuiszorg Helpende Hand, statutair gevestigd te Venlo bestaan voornamelijk uit
+het verlenen van thuiszorg.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+Stichting Thuiszorg Helpende Hand (geregistreerd onder KvK-nummer 12038771) is feitelijk gevestigd op
+Venrayseweg 55 te Venlo-Blerick.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld volgens de in Nederland algemeen aanvaarde grondslagen voor financiële
+verslaggeving, de geldende richtlijn(en) van de Raad voor de Jaarverslaggeving waaronder richtlijn 655
+Jaarverslaggeving Zorginstellingen en de Regeling verslaggeving WTZi (RvW).
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties
+wordt verwezen naar de toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van
+de jaarrekening bekend zijn geworden.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de cumulatieve
+afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden
+gebaseerd op de geschatte economische levensduur en worden berekend op basis van een vast percentage
+van de verkrijgingsprijs, rekening houdend met een eventuele residuwaarde. Er wordt afgeschreven vanaf het
+moment van ingebruikneming.
+
+Voorraden
+
+De voorraden worden gewaardeerd tegen verkrijgingsprijs dan wel lagere marktwaarde voor zover nodig onder
+aftrek van een voorziening voor incourantheid.
+
+Stichting Thuiszorg Helpende Hand, Venlo Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+17.
+
+CONTOUR
+
+ACCOUNTANTS
+
+A4
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd
+tegen de geamortiseerde kostprijs. De reële waarde en geamortiseerde kostprijs zijn gelijk aan de nominale
+waarde. Noodzakelijk geachte voorzieningen voor het risico van oninbaarheid worden in mindering gebracht.
+Deze voorzieningen worden bepaald op basis van individuele beoordeling van de vorderingen.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij
+zijn gerealiseerd.
+
+Opbrengstverantwoording
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde
+projectopbrengsten uit hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van over
+de omzet geheven belastingen.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Personeel niet in loondienst
+
+De kosten van uitbesteed werk en andere externe kosten omvatten de kosten die door derden in rekening zijn
+gebracht in het kader van de uitbesteding of ondersteuning van de werkzaamheden. Deze kosten bestaan uit
+de inkoopprijs en eventuele bijkomende kosten.
+
+Stichting Thuiszorg Helpende Hand, Venlo Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+18.
+
+CONTOUR
+
+ACCOUNTANTS
+
+WW
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2020
+
+ACTIVA
+
+Vaste activa
+
+1. Materiële vaste activa
+
+Inventaris
+€
+Aanschaffingswaarde 43.703
+Cumulatieve afschrijvingen -18.126
+Boekwaarde per 1 januari 2020 25.577
+Mutaties
+Investeringen 7.920
+Desinvesteringen -7.200
+Afschrijving desinvesteringen 7.200
+Afschrijvingen -9.228
+-1.308
+Aanschaffingswaarde 44.423
+Cumulatieve afschrijvingen -20.154
+Boekwaarde per 31 december 2020 24.269
+Afschrijvingspercentages
+%
+Inventaris 20
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+CONTOUR
+
+ACCOUNTANTS
+
+19.
+
+A4
+
+Vlottende activa
+
+2. Voorraden
+
+Gereed product en handelsgoederen
+
+Materialen t.b.v. de zorg (cliënten)
+
+3. Vorderingen
+
+Handelsdebiteuren
+Debiteuren
+Voorziening dubieuze debiteuren
+
+Voor eventuele oninbaarheid wordt een voorziening getroffen.
+
+Over eri ananda
+
+Wet tegemoetkomingen loondomein
+Opleidingskosten
+
+Contributies en abonnementen
+
+Te ontvangen ziekengeld
+
+Waarborgsommen
+
+Afrekening en voorschotten CAK-BZ B.V. (Wiz)
+Kantoorkosten
+
+Stagefonds VWS
+
+Vooruitbetaalde verzekeringen
+
+Overige
+
+31-12-2020 31-12-2019
+€ €
+870 922
+330.694 299.902
+-12.811 -16.011
+317.883 283.891
+6.915 6.965
+2.534 2.352
+1.815 1.815
+3.334 2.276
+5.281 5.281
+26.475 20.221
+71 771
+10.532 -
+1.337 676
+- Ke)
+58.294 40.366
+
+De vordering CAK-BZ B.V. per 31 december 2020 ad € 26.475 betreft de perioden 11/2020 (€ 5.659) en
+12/2020 (€ 3.085) en de verwachte afrekening 2020 ad € 17.731 (conform interne berekening).
+
+Van de vorderingen per 31 december 2020 heeft € 5.281 een looptijd langer dan 1 jaar (31 december 2019:
+
+€ 5.281).
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+Beoordelingsverktaring afgegeven d.d. 28 mei 2021
+
+20.
+
+31-12-2020 31-12-2019
+
+€ €
+4. Liquide middelen
+ABN AMRO, bestuurrekening 298.620 182.574
+Rabobank, zakelijke rekening 99.977 -
+ABN-AMRO, spaarrekening 200.000 260.942
+Kas 45 198
+598.642 443.714
+
+Stichting Thuiszorg Helpende Hand, Venlo Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+CONTOUR
+
+ACCOUNTANTS
+
+21.
+
+WV
+
+PASSIVA
+
+5. Eigen vermogen
+
+Algemene en overige reserves
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+6. Kortlopende schulden
+
+Schuld : arisiskreief
+
+Crediteuren
+
+Overiae belasti ‚ al keri
+
+Loonheffing
+Pensioenen
+
+Loonheffing
+
+Loonheffing correctie/aanvulling aangifte laatste periode
+Bonussen
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+2020 2019
+
+€ €
+551.188 424.313
+78.929 126.875
+630.117 551.188
+
+31-12-2020 31-12-2019
+
+€ €
+39.907 24.173
+76.291 2.074
+11.201 13.728
+87.492 15.802
+2.570 2.074
+73.721 -
+76.291 2.074
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+22.
+
+WV
+31-12-2020 31-12-2019
+€ €
+Eier huld n
+Vakantiegeldverplichting 74.742 74.934
+Vakantiedagenverplichting 82.533 64.107
+Accountantskosten 18.877 10.711
+Salarisverwerkingskosten 500 3.204
+Ziekengeldverzekering 1.306 -
+Loonkosten nog te verlonen uren 31.557 34.282
+Reservering eindejaarsuitkering 12.450 11.370
+Personeelsvereniging 8.411 4.699
+Bonussen 7.829 -
+Nettolonen 4,237 -
+242.442 203.307
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+
+Leaseverplichtingen
+
+Het jaarlijks bedrag van met derden aangegane operational leaseverplichtingen van 8 personenauto's bedraagt
+€ 36.141 (inclusief brandstofvoorschot, exclusief brandstofafrekening).
+
+De leaseverplichtingen lopen t/m 13 september 2024.
+
+Huurverplichtingen onroerende zaken
+
+Het jaarlijks bedrag van met derden aangegane huurverplichtingen van onroerende zaken bedraagt in totaal
+
+€ 17.923 (exclusief servicekosten).
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+23.
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2020
+
+7. Opbrengsten zorgpresaties en maatschappelijke ondersteuning
+
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg
+Opbrengsten ZVW-zorg
+
+Opbrengsten Wmo
+
+Opbrengst overige zorgprestaties
+
+Wettelijk budget aanvaardbare kosten Wiz
+Omzetderving Wiz
+Wiz opbrengst vorig boekjaar
+
+Opbrengst Zorgverzekeringswet
+
+Opbrengst Wmo
+
+Opbrengst persoonsgebonden budget/commercieel
+Opbrengst dienstvouchers
+
+Opbrengst compensatie Peel & Maas (Corona)
+
+Opbrengst overige zorgprestaties
+
+8. Personeel niet in loondienst
+
+Personeel niet in loondienst
+
+9. Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+2020 2019
+€ €
+
+281.023 283.355
+1.405.709 1.405.494
+919.077 875.908
+105.602 74.469
+2.711.411 2.639.226
+267.512 266.080
+13.511 -
+- 17.275
+281.023 283.355
+1.405.709 1.405.494
+919.077 875.908
+6.678 25.791
+90.640 48.678
+8.284 -
+105.602 74.469
+2.711.411 2.639.226
+93.802 179.506
+1.748.331 1.598.635
+316.604 290.313
+125.971 116.171
+117.856 128.195
+2.308.762 2.133.314
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+24.
+
+Lonen en salarissen
+
+Bruto lonen
+
+Mutatie vakantiegeldverplichting
+
+Mutatie loonkosten te verlonen uren
+Bonussen
+
+Mutatie vakantiedagenverplichting
+
+Mutatie reservering eindejaarsuitkering
+Eindheffingen loonheffing
+
+Mutatie reservering onregelmatigheidstoeslag
+
+Ontvangen ziekengelduitkeringen
+Afdrachtverminderingen loonheffing (Wtl)
+
+Overige personeelskosten
+
+(Reis-)kostenvergoedingen
+Ziekteverzuimverzekering
+Kosten arbozorg
+Wervingskosten personeel
+Kantinekosten
+Opleidingskosten
+Personeelsvereniging
+Kerstpakketten/kerstborrel
+Overige
+
+Tegemoetkomingen/Subsidies opleidingen en stage
+
+Personeelsleden
+
+2020 2019
+€ €
+1.812.298 1.648.697
+-192 10.271
+-2.725 5.545
+3.600 -
+18.426 17.870
+1.080 4.817
+. 2.074
+n -5.336
+1.832.487 1.683.938
+-77.241 -78.338
+-6.915 -6.965
+1.748.331 1.598.635
+55.624 54.613
+23.481 20.187
+27.352 21.069
+. 3.861
+945 1.353
+14.694 25.559
+- 2.000
+5.734 9.885
+2.897 902
+130.727 139.429
+-12.871 11.234
+117.856 128.195
+
+Gedurende het jaar 2020 waren 53 werknemers in dienst op basis van een volledig dienstverband (2019: 52).
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+CONTOUR
+
+ACCOUNTANTS
+
+25.
+
+A4
+
+Afschrijvingen
+
+10. Afschrijvingen materiële vaste activa
+
+Inventaris
+
+11. Overige bedrijfskosten
+
+Huisvestingskosten
+Exploitatiekosten
+Kantoorkosten
+Autokosten
+Verkoopkosten
+Algemene kosten
+Bijzondere posten
+
+Huisvestingskosten
+
+Huur onroerende zaken
+Servicekosten
+Onroerendezaakbelasting
+
+Exploitatiekosten
+
+Materiaal/kosten ten behoeve van zorg
+
+Kantoorkosten
+
+Kantoorbenodigdheden
+Kopieerkosten
+Computeronderhoud door derden
+Softwarelicenties
+Communicatiekosten netwerk/data
+Communicatiekosten telefonie
+Porti
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+2020 2019
+
+€ €
+9.228 7.946
+25.819 26.103
+23.202 3.812
+83.193 75.062
+36.425 39.677
+3.417 1.993
+75.838 57.444
+-27.450 -12.694
+220.444 191.397
+18.900 18.345
+6.132 6.985
+787 773
+25.819 26.103
+23.202 3.812
+3.166 3.064
+1.863 2.659
+21.248 19.261
+41.767 31.993
+808 1.323
+12.459 15.692
+1.882 1.070
+83.193 75.062
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+26.
+
+MW
+2020 2019
+€ €
+Autokosten
+Brandstoffen 2.462 -
+Leasekosten vervoermiddelen (inclusief brandstof) 40.801 44.529
+Overige autokosten 1.806 -
+45.069 44.529
+Doorbelaste autokosten -8.644 -4.852
+36.425 39.677
+Verkoopkosten
+Reclame- en advertentiekosten 4.389 215
+Representatiekosten 2.188 2.186
+Vrijval voorziening dubieuze debiteuren -3.200 -408
+Afboeking oninbare debiteuren 40 -
+3.417 1.993
+Algemene kosten
+Accountantskosten 19.844 16.563
+Salarisadministratiekosten 14.663 13.532
+Advieskosten 19.220 678
+Juridische kosten - 520
+Verzekeringen 10.834 9.278
+Raad van Toezicht 1.200 -
+Kosten certificering 3.409 8.217
+Contributies en abonnementen 3.824 4,162
+Medewerkertevredenheidsonderzoek 2.972 2.547
+Overige 599 1.947
+76.565 57.444
+Schadevergoedingen -127 -
+75.838 57.444
+Bijzondere posten
+Baten voorgaande jaren -34.849 -21.838
+Lasten voorgaande jaren 7.399 9.144
+-27.450 -12.694
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+27.
+
+12. Financiële baten en lasten
+
+Rentebaten en soortgelijke opbrengsten
+Rentelasten en soortgelijke kosten
+
+Rentebaten en soortgelijke opbrengsten
+
+Rente spaarrekening
+
+Rentelasten en soortgelijke kosten
+
+Rente en kosten rekening-courant
+Rente Belastingdienst
+
+Resultaat
+
+Ondertekening van de jaarrekening
+
+Vaststelling jaarrekening
+
+2020 2019
+€ €
+
+7 58
+
+-253 -246
+
+-246 188
+
+7 58
+
+219 246
+
+34 -
+
+253 246
+
+78.929 126.875
+
+De jaarrekening is aldus opgemaakt door het bestuur en vastgesteld door de Raad van Toezicht.
+
+Venlo, 28 mei 202
+
+Y.GK.
+
+Stichting Thuiszorg Helpende Hand, Venlo
+
+Beoordelingsverklaring afgegeven d.d. 28 mei 2021
+
+
+Stichting Thuiszorg Helpende Hand BIJLAGE 1
+
+TOELICHTING OP DE RESULTATENREKENING
+BIJLAGE GESEGMENTEERDE RESULTATENREKENING OVER 2020
+
+SEGMENT WLZ + ZORGVERZEKERAARS
+
+2020 2019
+€ €
+BEDRIJFSOPBRENGSTEN:
+Zorgverzekeraars 1.412.329 1.431.285
+Wettelijk budget voor aanvaardbare kosten Wiz 281.023 283.355
+(exclusief subsidies)
+Overproductie Wiz 0 0
+Overige bedrijfsopbrengsten (MSVT) 0 0
+Som der bedrijfsopbrengsten 1.693.352 1.714.640
+BEDRIJFSLASTEN:
+Personeelskosten 1.525.478 1.496.366
+Afschrijvingen op immateriële en materiële vaste activa 5.763 5.162
+Bijzondere waardeverminderingen van vaste activa 0 0
+Overige bedrijfskosten 151.350 138.246
+Som der bedrijfslasten 1.682.591 1.639.774
+BEDRIJFSRESULTAAT 10.761 74.866
+Financiële baten en lasten -154 -122
+RESULTAAT UIT GEWONE BEDRIJFSUITOEFENING 10.607 74.744
+
+Buitengewone baten
+
+0 0
+Buitengewone lasten 0 0
+Buitengewoon resultaat 0 0
+
+RESULTAAT BOEKJAAR 10.607 74.744
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2020 2019
+€ €
+Toevoeging/(onttrekking):
+Algemene en overige reserves 10.607 74.744
+10.607 74.744
+
+Geen accountantscontrole toegepast Pagina 1 van 3
+
+Stichting Thuiszorg Helpende Hand
+
+BIJLAGE GESEGMENTEERDE RESULTATENREKENING OVER 2020
+
+SEGMENT WMO
+2020 2019
+€ €
+BEDRIJFSOPBRENGSTEN:
+Wettelijk budget voor aanvaardbare kosten Zvw-zorg 0 0
+Wettelijk budget voor aanvaardbare kosten AWBZ 0 0
+(exclusief subsidies)
+Omzet WMO inclusief Dienstvouchers 1.018.060 924.586
+Subsidies (exclusief Wmo-huishoudelijke hulp; 0 0
+inclusief overige Wmo-prestaties)
+Overige bedrijfsopbrengsten 0 0
+Som der bedrijfsopbrengsten 1.018.060 924.586
+BEDRIJFSLASTEN:
+Personeelskosten 877.087 816.454
+Afschrijvingen op immateriële en materiële vaste activa 3.465 2.784
+Bijzondere waardeverminderingen van vaste activa 0) 0
+Overige bedrijfskosten 69.094 53.151
+Som der bedrijfslasten 949.646 872.389
+BEDRIJFSRESULTAAT 68.414 52.197
+Financiële baten en lasten -92 -66
+RESULTAAT UIT GEWONE BEDRIJFSUITOEFENING 68.322 52.131
+Buitengewone baten 0 0
+Buitengewone lasten 0 0
+Buitengewoon resultaat 0 0
+RESULTAAT BOEKJAAR 68.322 52.131
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2020 2019
+€ €
+Toevoeging/(onttrekking):
+Algemene en overige reserves 68.322 52.131
+68.322 52.131
+
+Geen accountantscontrole toegepast Pagina 2 van 3
+
+Stichting Thuiszorg Helpende Hand
+
+AANSLUITING TOTAAL RESULTAAT MET RESULTAAT SEGMENTEN
+
+Resultaat volgens gesegmenteerde resultatenrekeningen:
+
+SEGMENT WLZ + ZORGVERZEKERAARS
+
+SEGMENT WMO
+
+Resultaat volgens resultatenrekening
+
+2020 2019
+€ €
+10.607 74.744
+68.322 52.131
+78.929 126.875
+
+Geen accountantscontrole toegepast Pagina 3 van 3
+
+Bijlage 2 WNT-verantwoording 2020 Stichting Thuiszorg Helpende Hand
+
+De WNT is van toepassing op Stichting Thuiszorg Helpende Hand.
+
+Het voor Stichting Thuiszorg Helpende Hand toepasselijke bezoldigingsmaximum is in 2020
+€ 111.000 op basis van 1 FTE. (Bezoldigingsmaximum voor zorg en jeugdhulp, klasse I).
+
+Bezoldiging topfunctionarissen
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Functiegegevens Directeur
+Aanvang en einde functievervulling in 01/01 — 31/12
+2020
+Omvang dienstverband (als 0,69
+deeltijdfactor in fte)
+Dienstbetrekking? ja
+Bezoldiging
+Beloning plus belastbare € 53.081,-
+onkostenvergoedingen
+Beloningen betaalbaar op termijn 0
+Subtotaal € 53.081,-
+Individueel toepasselijke € 76.590,-
+bezoldigingsmaximum
+-/- Onverschuldigd betaald en nog niet
+
+N.v.t.
+terugontvangen bedrag
+Bezoldiging € 53.081,-
+
+Het bedrag van de overschrijding en de
+reden waarom de overschrijding al dan N.v.t. N.v.t.
+niet is toegestaan
+
+Toelichting op de vordering wegens
+
+onverschuldigde betaling N.v.t.
+
+
+Gegevens 2019
+
+bedragen x € 1 YGK van de Staij
+
+Functiegegevens Directeur
+Aanvang en einde functievervulling in [01/01] - [31/12]
+2019
+
+Omvang dienstverband (als 0,69
+deeltijdfactor in fte)
+
+Dienstbetrekking? ja
+Bezoldiging
+
+Beloning plus belastbare 48.605
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn 0
+Subtotaal 48.605
+Individueel toepasselijke
+
+bezoldiainasrmaximum er
+Bezoldiging 48.605
+
+
+Topfunctionarissen met een totale bezoldiging van € 1.700 of minder
+
+Gegevens 2020
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+
+M.G.P.M. Vastbinder Lid Raad van Toezicht
+K.E.J. Driessen-Dohmen Lid Raad van Toezicht
+H. van Andel Lid Raad van Toezicht
+H.J.G. Janssen Lid Raad van Toezicht
+C.G.W. van der Zwaan Lid Raad van Toezicht (voorzitter)
+

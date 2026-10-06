@@ -1,0 +1,1081 @@
+# whosigns-ocr v1 grootte=11647890 dpi=300 paginas=20
+E25 zorg en welzijn, te Wateringen
+
+Staat van baten en lasten over 2024
+
+Subsidiebaten
+Geïndiceerde zorg en overige bedrijfsopbrengsten
+
+Som der exploitatiebaten
+
+Kosten uitbesteed werk en andere externe kosten
+
+Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Andere personeelskosten
+
+Afschrijvingen en waardeverminderingen
+Afschrijvingen immateriële vaste activa
+Afschrijvingen materiële vaste activa
+
+Overige bedrijfskosten
+
+Overige personeelsgerelateerde kosten
+Huisvestingskosten
+
+Verkoopkosten
+
+Auto- en transportkosten
+Kantoorkosten
+
+Algemene kosten
+
+Som der exploitatielasten
+
+Exploitatieresultaat
+
+Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten
+Rentelasten en soortgelijke kosten
+
+Resultaat
+
+Resultaatbestemming
+Continuïteitsreserve
+
+Bestemd resultaat
+
+12
+
+2024 2023
+€ €
+776.496 843.949
+27.011.726 18.191.739
+27.788.222 19.035.688
+12.845.859 9.023.012
+7.429.085 5.285.708
+1.285.490 920.234
+691.071 481.430
+398.136 391.420
+6.600 3.273
+124.723 63.665
+518.100 300.336
+1.092.450 796.025
+51.175 45.680
+33.423 37.979
+205.869 143.044
+1.732.303 631.048
+26.414.284 18.122.854
+1.373.938 912.834
+40.406 e
+-1.242 -4.714
+1.407.102 908.120
+1.407.100 908.120
+1.407.102 908.120
+Datum: US NNS
+
+Paraaf voor waarmerkings-
+
+doeleinden: \J
+
+E25 zorg en welzijn, te Wateringen
+
+Kasstroomoverzicht over 2024
+
+Indirecte methode 2024 2023
+€ €
+
+Exploitatieresultaat 1.373.938 912.834
+Aanpassing voor afschrijvingen 131.323 66.938
+Mutatie van voorzieningen 897.279 634.948
+Mutatie van handelsdebiteuren 64.391 -491.719
+Mutatie van overige vorderingen -396.995 -1.130.858
+Mutatie van handelscrediteuren 337.986 158.658
+Mutatie van overige kortlopende schulden (excl. schulden kredietinstellingen) 460.925 716.795
+Kasstroom uit bedrijfsoperaties 2.868.847 867.596
+Ontvangen interest 40.406 -
+Betaalde interest -7.242 -4,714
+Kasstroom uit operationele activiteiten 2.902.011 862.882
+Investeringen in immateriële vaste activa - -30.045
+Investeringen in materiële vaste activa -720.446 -257.074
+Kasstroom uit investeringsactiviteiten -720.446 -287.119
+Eigen vermogen overname Stichting Bizon 01-09-2023 - 26.811
+Kasstroom uit financieringsactiviteiten - 26.811
+Netto-kasstroom 2.181.565 602.574
+Omrekeningsverschillen -1 -
+Mutatie in liquide middelen 2.181.564 602.574
+
+Datum: { OS VS
+
+Paraaf voor waarmerkings-
+
+13 doeleinden: VJ
+
+.
+
+E25 zorg en welzijn, te Wateringen
+
+Algemene toelichting
+
+Naam rechtspersoon E25 zorg en welzijn
+Rechtsvorm Stichting
+
+Zetel rechtspersoon Wateringen
+Inschrijvingsnummer Kamer van Koophandel 27366381
+
+Belangrijkste activiteiten
+
+De activiteiten van E25 zorg en welzijn, statutair gevestigd te Wateringen bestaan voornamelijk uit: het
+bevorderen van het maatschappelijk en cultureel welzijn van bewoners van haar werkgebied, het
+versterken van hun vermogen om te participeren in de samenleving door het stimuleren van hun
+ontwikkeling en het bevorderen van hun zelfredzaamheid in het sociale netwerk, het totstandbrengen
+van structurele samenwerking met maatschappelijke partners en het verrichten van al hetgeen met het
+voorstaande verband houdt of daartoe bevorderlijk kan zijn.
+
+De stichting heeft geen winstoogmerk.
+
+Locatie feitelijke activiteiten
+De organisatie verricht haar activiteiten voornamelijk in de regio Randstad.
+
+Datum: LOG AGLST
+
+Paraaf voor waarmerkings-
+
+doeleinden:
+14 \ |
+
+E25 zorg en welzijn, te Wateringen
+
+Grondslagen voor financiële verslaggeving
+
+Algemeen
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld in overeenstemming met Titel 9 BW2 en de Regeling Jeugdwet en daarmee
+de Richtlijnen voor de Jaarverslaggeving, uitgegeven door de Raad voor de Verslaggeving, in het bijzonder
+Richtlijn voor de Jaarverslaggeving RJ 655, Zorginstellingen.
+
+Algemene grondslagen voor waardering activa en passiva
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld
+in de verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en
+kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar de onderneming zullen toevloeien en het actief een kostprijs of een waarde heeft
+waarvan de omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet
+in de balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan
+gepaard zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de
+omvang van het bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden
+vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet
+aan voldoen worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans
+opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet
+leidt tot een belangrijke verandering in de economische realiteit met betrekking tot het actief of de
+verplichting. Dergelijke transacties geven evenmin aanleiding tot het verantwoorden van resultaten. Bij
+de beoordeling of er sprake is van een belangrijke verandering in de economische realiteit wordt
+uitgegaan van de economische voordelen en risico’s die zich naar waarschijnlijk in de praktijk zullen
+voordoen, en niet op voordelen en risico’s waarvan redelijkerwijze niet te verwachten is dat zij zich
+voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat
+alle of nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met betrekking
+tot het actief of de verplichting aan een derde zijn overgedragen. De resultaten van de transactie worden
+in dat geval direct in de winst-en-verliesrekening opgenomen, rekening houdend met eventuele
+voorzieningen die dienen te worden getroffen in samenhang met de transactie. Indien de weergave van
+de economische realiteit ertoe leidt dat het opnemen van activa waarvan de rechtspersoon niet het
+juridisch eigendom bezit, wordt dit feit vermeld.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van Stichting Welzijn
+E25.
+
+Algemene grondslagen bepaling resultaat
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het
+economisch potentieel, samenhangend met een vermeerdering van een actief of een vermindering van
+een verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld.
+Lasten worden verwerkt wanneer een vermindering van het economisch potentieel, samenhangend
+met een vermindering van een actief of een vermeerdering van een verplichting, heeft plaatsgevonden,
+waarvan de omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+
+15 Datum: L-OS-IOSG
+Paraaf voor waarmerkings-
+
+doeleinden: \J
+
+E25 zorg en welzijn, te Wateringen
+
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend
+aan de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar
+zijn geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde fout in
+voorgaande boekjaren wordt foutherstel toegepast.
+
+Pensioenregelingen
+
+E25 zorg en welzijn heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in
+aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat
+is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft
+opgebouwd bij E25 zorg en welzijn. De verplichtingen, die voortvloeien uit deze rechten van haar
+personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn.E25 zorg en
+welzijn betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft door de
+werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad
+van het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële
+verplichtingen) dit toelaat. Voor pensioenfondsen geldt regelgeving met betrekking tot de vereiste
+dekkingsgraad. De beleidsdekkingsgraad is het gemiddelde van de laatste twaalf dekkingsgraden. In
+februari 2025 bedroeg de beleidsdekkingsgraad 109,6% en de actuele dekkingsgraad 112,1%.
+
+De beleidsdekkingsgraad
+
+Of het pensioen jaarlijks verhoogd wordt (indexatie) hangt af van de beleidsdekkingsgraad. Hij is ook het
+uitgangspunt bij het vaststellen van een tekort. Hij bepaalt dus ook of er (nominaal) gekort moet worden.
+
+De beleidsdekkingsgraad is het gemiddelde van de actuele dekkingsgraad van de laatste twaalf maanden.
+Door een gemiddelde te gebruiken, schommelt de dekkingsgraad minder sterk. En minder schommeling,
+betekent meer stabiliteit in het pensioenbeleid.
+
+Indexeren
+
+PFZW kiest voor een indexatiebeleid dat voorzichtig omgaat met het verlagen of verhogen van de
+pensioenen. De inflatie en dekkingsgraad van 30 september 2024 bepalen de verhoging per 1 januari
+2025.
+
+Bij een dekkingsgraad tussen 110% en 115% is er weinig ruimte om de pensioenen te kunnen verhogen.
+De verhoging is nooit hoger dan de prijsinflatie. Vanaf een dekkingsgraad van 115% kunnen we de
+pensioenen verhogen met 2,2%.
+
+Bij een dekkingsgraad hoger dan 115% is er sowieso ruimte om te verhogen. De verhoging van de
+pensioenen is nooit hoger dan de prijsinflatie. Bij een dekkingsgraad van 115% kunnen we de pensioenen
+verhogen met 2,2%. Bij een dekkingsgraad van bijvoorbeeld 120% kunnen we de pensioenen verhogen
+met 6,7%.
+
+E25 zorg en welzijn heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een
+tekort bij het pensioenfonds, anders dan het effect van hogere toekomstige premies. E25 zorg en
+welzijn heeft daarom alleen de verschuldigde premies tot en met het einde van het boekjaar in de
+jaarrekening verantwoord.
+
+Grondslagen voor waardering activa
+
+Immateriële vaste activa
+
+De immateriële vaste activa worden gewaardeerd op het bedrag van de bestede kosten, verminderd met
+de cumulatieve afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De
+jaarlijkse afschrijvingen bedragen een vast percentage van de bestede kosten, zoals nader in de
+toelichting op de balans is gespecificeerd.
+
+Datum: L-0S ALG
+16 Paraaf voor waarmerkings-
+
+doeleinden: RV
+6
+
+E25 zorg en welzijn, te Wateringen
+
+Materiële vaste activa
+
+Materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek van
+cumulatieve afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingstermijnen van materiële vaste activa zijn gebaseerd op de verwachte economische
+levensduur van het vast actief.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs
+volgens de lineaire methode op basis van de verwachte economische levensduur. Er wordt afgeschreven
+vanaf het moment van ingebruikneming.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+e Verbouwing 10 %.
+
+e Vervoermiddelen: 20 %.
+e Automatisering: 20 %.
+
+Vorderingen
+
+De vorderingen worden opgenomen tegen nominale waarde, onder aftrek van de noodzakelijke geachte
+voorzieningen voor het risico van oninbaarheid. Deze voorzieningen worden bepaald op basis van
+individuele beoordeling van de vorderingen.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas en banktegoeden. Liquide middelen worden gewaardeerd tegen
+nominale waarde.
+
+Grondslagen voor waardering passiva
+
+Voorzieningen
+
+Voorzieningen worden gewaardeerd tegen hetzij de nominale waarde van de uitgaven die naar
+verwachting noodzakelijk zijn om de verplichtingen en verliezen af te wikkelen, hetzij de contante waarde
+van die uitgaven.
+
+Overige voorzieningen
+Voorziening claims, geschillen en rechtsgedingen
+
+De voorziening voor claims, geschillen en rechtsgedingen betreft een inschatting van uitgaven die naar
+verwachting voortvloeien uit lopende of verwachte juridische procedures.
+
+Voorziening groot onderhoud
+
+De voorziening voor onderhoudskosten wordt gevormd voor periodiek groot onderhoud dat dient te
+worden verricht op de bedrijfsgebouwen.
+
+Voorziening langdurig zieken
+
+De voorziening langdurig zieken is een verplichting to het in de toekomst doorbetalen van beloningen
+aan personeelsleden die op balansdatum naar verwachting blijvend geheel of gedeeltelijk niet in staat
+zijn om werkzaamheden te verrichten door ziekte of arbeidsongeschiktheid. Deze wordt elk jaar per
+balansdatum opnieuw beoordeeld en samengesteld aan de hand van informatie over medewerkers die
+op dat momenten langer dan een jaar ziek zijn.
+
+Voorziening correctie van ontvangen bedragen gemeenten
+
+Voorziening correctie van ontvangen bedragen gemeenten betreft een voorziening voor toekomstige
+terugbetalingen aan gemeente. De berekening is gebaseerd op ervaringen uit het verleden.
+
+Datum: Ue IS
+
+17 Paraaf voor waarmerkings-
+
+doeleinden:
+8 | p
+
+E25 zorg en welzijn, te Wateringen
+
+Kortlopende schulden
+
+De kortlopende schulden worden opgenomen tegen nominale waarde.
+
+Grondslagen voor baten en lasten
+
+Baten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer
+het bedrag van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te
+ontvangen vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht
+betrouwbaar kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog
+moeten worden gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden
+bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan
+worden bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening
+die worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten
+zijn verantwoord.
+
+Netto-omzet
+
+Onder netto-omzet wordt verstaan de opbrengsten van de in het verslagjaar verleende diensten onder
+aftrek van eventuele kortingen.
+
+Personeelskosten
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de winst-en-verliesrekening verantwoord in de
+periode waarin de arbeidsprestatie wordt verricht en, voor zover nog niet uitbetaald, als verplichting op
+de balans opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt
+het meerdere opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling door
+het personeel of van verrekening met toekomstige betalingen door de instelling.
+
+Voor de beloningen met opbouw van rechten (sabbatical leave, gratificaties e.d. ) worden de verwachte
+lasten gedurende het dienstverband in aanmerking genomen. Een verwachte vergoeding ten gevolge van
+gratificaties worden verantwoord indien de verplichting tot betaling van die vergoeding is ontstaan op of
+vóór balansdatum en een betrouwbare schatting van de verplichtingen kan worden gemaakt. Ontvangen
+bijdragen voortvloeiend uit levensloopregelingen worden in aanmerking genomen in de periode
+waarover deze bijdragen zijn verschuldigd. Toevoegingen aan en vrijval van verplichtingen worden ten
+laste respectievelijk ten gunste van de winst-en-verliesrekening gebracht.
+
+Indien een beloning wordt betaald, waarbij geen rechten worden opgebouwd (bijvoorbeeld doorbetaling
+in geval van ziekte of arbeidsongeschiktheid) worden de verwachte lasten verantwoord in de periode
+waarover deze beloning is verschuldigd. Voor op balansdatum bestaande verplichtingen tot het in de
+toekomst doorbetalen van beloningen (inclusief ontslagvergoedingen) aan personeelsleden die op
+balansdatum naar verwachting blijvend geheel of gedeeltelijk niet in staat zijn om werkzaamheden te
+verrichten door ziekte of arbeidsongeschiktheid wordt een voorziening opgenomen. De verantwoorde
+verplichting betreft de beste schatting van de bedragen die noodzakelijk zijn om de desbetreffende
+verplichting op balansdatum af te wikkelen. De beste schatting is gebaseerd op contractuele afspraken
+met personeelsleden (CAO en individuele arbeidsovereenkomsten). Toevoegingen aan en vrijval van
+verplichtingen worden ten laste respectievelijk ten gunste van de winst-en-verliesrekening gebracht.
+
+Overige bedrijfskosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+18 Datum: (-OS AUS
+Paraaf voor waarmerkings-
+
+doeleinden: NN)
+
+E25 zorg en welzijn, te Wateringen
+
+Grondslagen voor kasstroomoverzicht
+
+Algemene grondslagen voor het opstellen van het kasstroomoverzicht
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het
+kasstroomoverzicht bestaan uit de liquide middelen.
+
+Ontvangsten en uitgaven uit hoofde van interest zijn opgenomen onder de kasstroom uit operationele
+activiteiten.
+
+Datum: ÔL OFAAG
+Paraaf voor waarmerkings-
+
+19 doeleinden: 7\)
+
+E25 zorg en welzijn, te Wateringen
+
+Toelichting op balans
+
+Immateriële vaste activa
+
+Immaterieel eigendom
+
+Totaal
+
+Materiële vaste activa
+
+Verbouwingen
+Vervoermiddelen
+Inventaris
+
+31 dec 2024 31 dec 2023
+€ €
+23.073 29.674
+23.073 29.674
+
+31 dec 2024 31 dec 2023
+€ €
+
+477.406 187.112
+133.826 24.079
+413.682 218.000
+1.024.914 429.191
+
+Onderstaand overzicht geeft het verloop van de materiële vaste activa gedurende het boekjaar weer:
+
+Boekwaarde 1 januari 2024
+Verkrijgings- of vervaardigingsprijs
+Cumulatieve afschrijvingen en
+waardeverminderingen
+
+Mutaties 2024
+Investeringen
+Afschrijvingen
+
+Boekwaarde 31 december 2024
+Verkrijgings- of vervaardigingsprijs
+Cumulatieve afschrijvingen en
+waardeverminderingen
+
+Afschrijvingspercentage (gemiddeld)
+
+Verbouwingen Vervoermiddelen Inventaris Totaal
+€ € € €
+226.443 93.014 268.574 588.031
+-39.331 -68.935 -50.574 -158.840
+187.112 24.079 218.000 429.191
+323.637 122.582 274.227 720.446
+-33.343 -12.835 -78.545 -124.723
+290.294 109.747 195.682 595.723
+550.080 207.096 540.704 1.297.880
+-72.674 -73.270 -127.022 -272.966
+477.406 133.826 413.682 1.024.914
+10,0 20,0 20,0
+Datum: ALUG ALS
+Paraaf voor waarmerkings-
+20 doeleinden:
+
+E25 zorg en welzijn, te Wateringen
+
+Vorderingen
+31 dec 2024 31 dec 2023
+€ €
+
+Vorderingen op handelsdebiteuren, bruto 1.064.328 1.128.719
+
+Overige vorderingen
+Nog te ontvangen bedragen 2.272.151 1.936.713
+Vooruitbetaalde facturen 159.363 65.292
+Waarborgsommen 104.773 88.211
+Lening u/g 1.594 62.594
+Voorschotten personeel 39 5.602
+Bankgaranties 8.861 -
+Overige vorderingen 7.396 -
+2.554.177 2.158.412
+Overlopende activa 2.009 779
+Totaal 3.620.514 3.287.910
+
+Liquide middelen
+31 dec 2024 31 dec 2023
+€ €
+
+Banktegoeden 3.119.346 937.955
+Kasmiddelen 2.469 3.197
+Kruisposten 1.015 114
+Totaal 3.122.830 941.266
+
+Datum: “LL -O5 ANS
+
+Paraaf voor waarmerkings-
+
+doeleinden:
+21 N |
+
+E25 zorg en welzijn, te Wateringen
+
+Eigen vermogen
+
+31 dec 2024 31 dec 2023
+
+€ €
+Continuïteitsreserve 2.996.634 1.589.534
+Totaal 2.996.634 1.589.534
+
+Continuïteitsreserve 2024
+
+€
+Stand 1 januari 1.589.534
+Toevoegingen via baten en lasten 1.407.100
+Stand 31 december 2.996.634
+
+E25 is een non-profitorganisatie die blijft groeien zowel qua opbrengsten maar ook qua personeel.
+
+De algemene reserve is een continuïteitsreserve ter borging van onverwachte liquiditeitsproblemen
+waarbij het voor de organisatie vooral van belang is dat zij haar activiteiten kan blijven voortzetten.
+Vanwege haar groei is er sprake van meer verplichtingen (betalingen) ongeacht de ontvangstenkant. De
+organisatie wil niet het risico lopen dat bepaalde activiteiten niet kunnen voortgaan terwijl er een
+hapering is aan de ontvangstenkant. Dit alles in het belang van de cliënten die afhankelijk van ons zijn.
+
+Voorzieningen
+31 dec 2024 31 dec 2023
+€ €
+
+Voorziening claims, geschillen en rechtsgedingen 317.250 -
+Voorziening groot onderhoud 237.000 150.000
+
+Andere voorzieningen
+Voorziening langdurig zieken 727.977 384.948
+Voorziening ontwikkeling nieuwe projecten - 100.000
+Voorziening correctie van ontvangen bedragen gemeenten 250.000 -
+977.977 484.948
+Totaal 1.532.227 634.948
+
+Toelichting
+
+Vanaf 1 januari 2023 is E25 Zorg en Welzijn niet meer verzekerd voor kosten langdurig zieken. Vanaf deze
+datum draagt E25 Zorg en Welzijn zelf de kosten voor langdurig zieken en is er derhalve een voorziening
+opgenomen voor dit risico.
+
+Voorziening claims, geschillen en rechtsgedingen 2024
+€
+
+Stand 1 januari -
+
+Toename van voorziening 317.250
+Stand 31 december 317.250
+
+Datum: lo 5 WIS
+22 Paraaf voor waarmerkings-
+doeleinden:
+
+E25 zorg en welzijn, te Wateringen
+
+Voorziening groot onderhoud 2024
+€
+Stand 1 januari 150.000
+Toename van voorziening 87.000
+Stand 31 december 237.000
+Andere voorzieningen 2024
+€
+Stand 1 januari 484.948
+Toename van voorziening 493.029
+Stand 31 december 977.977
+Kortlopende schulden
+31 dec 2024 31 dec 2023
+€ €
+Schulden aan leveranciers en handelskredieten 758.094 420.108
+
+Belastingen en premies sociale verzekeringen
+
+Omzetbelastingschulden 9.982 9.599
+Loonheffing- en premieschulden 526.694 493.599
+
+536.676 503.198
+Schulden ter zake van pensioenen 122.753 87.671
+
+Overige schulden
+
+Nog te ontvangen facturen 916.041 703.834
+Vooruitgeboekte opbrengsten 382.505 371.553
+Reservering LBB 198.383 162.389
+Vakantiedagen 291.945 181.825
+Overige schulden 29.795 22.599
+
+1.818.669 1.442.200
+
+Overlopende passiva
+Nog te betalen bedragen 26.278 10.382
+
+Totaal 3.262.470 2.463.559
+
+Datum: \L-UG ALS
+Paraaf voor waarmerkings-
+
+23 doeleinden: WU
+
+E25 zorg en welzijn, te Wateringen
+
+Toelichting op staat van baten en lasten
+
+Baten en brutomarge
+
+2024 2023
+€ €
+Subsidiebaten
+Gemeente Maassluis Jongerenwerk 324.305 317.318
+Gemeente Maassluis jongerencoaching 207.800 200.000
+Gemeente Maassluis Buurtsportcoach 232.031 245.724
+Gemeente Maassluis Streetwise Cup 5.000 -
+Gemeente Maassluis Pop-up evenement 2.732 -
+Stagefonds Zorg 4.628 -
+Gemeente Schiedam IPTA Coaching - 80.907
+776.496 843.949
+Geïndiceerde zorg en overige bedrijfsopbrengsten
+Opbrengsten Jeugdwet 13.372.503 9.271.830
+Opbrengsten Forensische zorg 10.343.293 6.573.562
+Opbrengsten WMO 1.424.721 946.288
+Opbrengsten Theater & Muziek 491.607 401.342
+Opbrengsten extra inzet buurtsport Maassluis 268.998 247.128
+Opbrengst jeugdhulp op school 549.941 241.920
+Verhuur ruimte 43.583 24.773
+Overige opbrengsten 517.080 484.896
+27.011.726 18.191.739
+Som der exploitatiebaten 27.788.222 19.035.688
+Kosten uitbesteed werk en andere externe kosten 12.845.859 9.023.012
+Brutomarge (dekkingsbijdrage) 14.942.363 10.012.676
+Personeelskosten
+2024 2023
+€ €
+Lonen en salarissen 7.429.085 5.285.708
+Sociale lasten 1.285.490 920.234
+Pensioenlasten 691.071 481.430
+Andere personeelskosten 398.136 391.420
+Totaal 9.803.782 7.078.792
+Afschrijvingen en waardeverminderingen
+2024 2023
+€ €
+Afschrijving op immateriële vaste activa 6.600 3.273
+Afschrijving op materiële vaste activa 124.723 63.665
+Totaal 131.323 66.938
+
+Datum: W\-0S UG
+Paraaf voor waarmerkings-
+doeleinden:
+
+24
+
+E25 zorg en welzijn, te Wateringen
+
+Overige bedrijfskosten
+
+2024 2023
+€ €
+Overige personeelsgerelateerde kosten
+Dotatie arbeidsongeschiktheidsvoorziening 343.029 384.948
+Opleidingen en cursussen 177.223 92.187
+Arbodienst 55.693 41.830
+Overige personeelskosten 68.186 34.627
+Ziekteverzuimverzekering - 9.821
+Uitkering ZW -7.449 -25.852
+Uitkering WaZo -98.984 -67.736
+Uitkering ziekteverzuimverzekering -19.598 -169.489
+518.100 300.336
+Huisvestingskosten
+Huurkosten 796.364 508.833
+Dotatie voorziening groot onderhoud 87.000 150.000
+Energiekosten 72.377 68.344
+Onderhoud gebouwen 48.292 35.470
+Overige huisvestingskosten 88.417 33.378
+1.092.450 796.025
+Verkoopkosten 51.175 45.680
+Auto- en transportkosten 33.423 37.979
+Kantoorkosten 205.869 143.044
+Algemene kosten
+Kosten van administratieve diensten 165.528 72.600
+Dotatie voorziening eindafrekening gemeentes 250.000 -
+Assurantiekosten 46.848 37.855
+Bezoldiging Raad van Toezicht 32.500 22.500
+Accountantskosten 35.090 20.764
+Dotatie voorziening ontwikkeling nieuwe projecten - 100.000
+Dotatie voorziening uit hoofde van claims, geschillen en rechtsgeding 217.250 -
+Algemene kosten 985.087 377.329
+1.732.303 631.048
+Totaal 3.633.320 1.954.112
+Financiële baten en lasten
+2024 2023
+€ €
+Rentebaten banken 40.406 -
+Rentelasten banken -4,465 -4,523
+Rentelasten andere partijen -2.777 -191
+Financiële baten en lasten (saldo) 33.164 -4.714
+
+zatum: YLOG ANS
+
+25 Paraaf voor waarmerkings-
+
+doeleinden: 1
+
+-
+
+E25 zorg en welzijn, te Wateringen
+
+Overige toelichtingen
+
+Winst- en verliesrekening Gemeente Maassluis 2024
+
+2024
+€
+Gemeente Maassluis Jongerenwerk 324.305
+Gemeente Maassluis jongerencoaching 207.800
+Gemeente Maassluis Buurtsportcoach 232.031
+Gemeente Maassluis Streetwise cup‚ Pop-up evenement en speelgym 19.612
+783.748
+Personeelskosten 595.306
+Interne doorbelastingen 97.115
+Overige bedrijfskosten 81.480
+773.901
+Resultaat Gemeente Maassluis 9.847
+
+Gesegmenteerde resultatenrekening 2024 gemeente Den Haag
+
+SEGMENT Wmo MWA
+
+2024
+
+€
+
+BEDRIJFSOPBRENGSTEN:
+Opbrengsten Wmo MWA gemeente Den Haag 494117
+Som der bedrijfsopbrengsten 494117
+BEDRIJFSLASTEN:
+Personeelskosten d 205.949
+Inhuur derden 152.374
+Doorbelasting overhead + overige kosten d 119.391
+Som der bedrijfslasten 477.714
+RESULTAAT Wmo MWA gemeente Den Haag 16.403
+
+Datum: UCS ANG
+
+26 Paraaf voor waarmerkings-
+
+doeleinden: ay
+
+-
+
+E25 zorg en welzijn, te Wateringen
+
+Werknemers
+Het gemiddelde aantal werknemers gedurende het boekjaar bij E25 zorg en welzijn bedroeg:
+Gemiddeld aantal werknemers over periode 2024 2023
+fte fte
+Werkzaam binnen Nederland 161,0 110,9
+
+Bezoldiging topfunctionarissen
+WNT-verantwoording 2024
+
+De WNT is van toepassing op Stichting Welzijn E25. Het voor Stichting Welzijn E25 toepasselijke
+bezoldigings-maximum is in 2024 € 190.000 (Zorg- en jeugdhulp Klasse III)
+
+Gegevens 2024
+
+bedragen x € 1 G. Reijke
+
+Eu ie ’
+
+Aanvang en einde functievervulling in 2024 01/01 -31/12
+
+Omvang dienstverband (als deeltijdfactor in fte) 1
+Dienstbetrekking?
+
+Beloning plus belastbare onkostenvergoedingen 119.791 ,-
+Beloningen betaalbaar op termijn (Pensioenbijdrage WG) 13.543 ,-
+Subtotaal hl 133.334,-
+Individueel toepasselijke bezoldigingsmaximum 190.000 ,-
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag Nvt.
+Bezoldiging 133.334,-
+Reden waarom de overschrijding al dan niet is toegestaan Nvt.
+Toelichting op de vordering wegens onverschuldigde betalin N.v.t.
+Aanvang en einde functievervulling in 2023 01/01 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1
+Dienstbetrekking? Ja
+Beloning plus belastbare onkostenvergoedingen 120.164 ,-
+Beloningen betaalbaar op termijn (Pensioenbijdrage WG) 12.129,-
+Subtotaal 132.293,-
+Individueel toepasselijke bezoldigingsmaximum 182.000 -
+Bezoldiging 132.293 ,-
+
+Datum: Y LAS ALG
+
+Paraaf voor waarmerkings-
+
+doeleinden: EN
+).
+
+27
+
+E25 zorg en welzijn, te Wateringen
+
+Toezichthoudende topfunctionarissen
+
+Gegevens 2024
+bedragen x €1 M. Koffeman „Lensse P. de Vogel M. Twilt - Mendonga
+
+Aanvang en einde functievervulling in 2024 [01/01 — 31/12} [01/01 — 31/12} [01/10 — 31/12}
+
+Bezoldiging 10.000,- 10.000,- 10.000,- 2.500,-
+
+lijke 28.500,- 19.000,- 19.000,- 19.000,-
+
+-/- Onverschuldigd betaald en nog niet terugontvangen
+
+Nvt Nvt Nvt Nvt
+[bedrag
+Bezoldiging 10.000,- 10.000,- 10.000,- 2.500,-
+Hek bedrag vand overschrijding ende reden Waarom de Nvt. Nvt. Nvt. Nvt. Nvt. Nvt. Nvt. Nvt.
+overschrijding al dan niet is toegestaan
+Toelichti de vordering wegens onverschuldigde
+En ve Ë Nvt Nvt Nvt, Nvt
+
+betaling
+
+S. Lensselink S, Lensselink
+
+TERS
+Hd or
+
+bol mT
+
+vulling in 2023 [01/01 — 31/12}
+
+Bezoldiging 7.500,- 7.500,- 7.500,-
+lijk 27.300,- 18.200,- 18.200,-
+
+Ondertekening
+Wateringen, 21 mei 2025
+
+Naam Handtekening
+Raad van Bestuur
+
+Dhr. G. Reijke
+
+Raad van Toezicht
+
+Dhr. M. Koffeman (Voorzitter)
+Dhr. S. Lensselink
+Dhr. P. de Vogel
+
+Mevr. M. Twilt-Mendonca
+
+Datum: A -OS AAG
+28 Paraaf voor waarmerkings-
+doeleinden:
+
+J C Porter ae
+
+accountant/belastingadviseur
+
+J.C. van der Plas AA/RB
+Helmlaan 51
+2015 LD Haarlem
+
+CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+Aan het bestuur/Raad van Toezicht van Stichting Welzijn E25
+
+Verklaring over de in het rapport opgenomen jaarrekening 2024
+Ons oordeel
+Wij hebben de jaarrekening 2024 van Stichting Welzijn E25 te Wateringen gecontroleerd.
+
+Naar ons oordeel geeft de in het rapport opgenomen jaarrekening een getrouw beeld van de grootte en
+de samenstelling van het vermogen van Stichting Welzijn E25 op 31 december 2024 en van het resultaat
+over 2024 in overeenstemming met de vereisten voor de jaarrekening gesteld bij of krachtens de
+Regeling openbare jaarverantwoording Wmg, Burgerlijk Wetboek Boek 2, Titel 9, Afdeling 2 t/m 6 (een
+paar artikelen zijn uitgezonderd) en RJ Richtlijn 655 ‘Zorgaanbieders, jeugdhulpaanbieders en
+gecertificeerde instellingen’.
+
+De jaarrekening bestaat uit:
+1 de balans per 31 december 2024;
+2 de staat van baten en lasten over 2024; en
+
+3 de toelichting met een overzicht van de gehanteerde grondslagen voor financiële verslaggeving en
+andere toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de Nederlandse
+controlestandaarden en het Controleprotocol Wet normering topinkomens 2024 vallen. Onze
+verantwoordelijkheden op grond hiervan zijn beschreven in de sectie ‘Onze verantwoordelijkheden voor
+de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Welzijn E25 zoals vereist in de Verordening inzake de
+onafhankelijkheid van accountants bij assurance-opdrachten (ViO) en andere voor de opdracht relevante
+onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de Verordening gedrags- en
+beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis voor ons
+oordeel.
+
+Naleving anticumulatiebepaling WNT niet gecontroleerd
+
+In overeenstemming met het Controleprotocol WNT 2024 hebben wij de anticumulatiebepaling, bedoeld
+in artikel 1.6a WNT en artikel 5, lid 1, sub j Uitvoeringsregeling WNT, niet gecontroleerd. Dit betekent dat
+wij niet hebben gecontroleerd of er wel of niet sprake is van een normoverschrijding door een
+leidinggevende topfunctionaris vanwege eventuele dienstbetrekkingen als leidinggevende topfunctionaris
+bij andere WNT-plichtige instellingen alsmede of de in dit kader vereiste toelichting juist en volledig is.
+
+Verklaring over de in het jaarverslag opgenomen andere informatie
+Naast de jaarrekening en onze controleverklaring daarbij, omvat het rapport andere informatie, die
+
+bestaat uit:
+
+» bestuursverslag;
+
+“ wnt-specificatie
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie:
+» met de jaarrekening verenigbaar is en geen materiële afwijkingen bevat;
+
+29
+
+Datum: \\.05 MS
+Bank: NL87 TRIO 0197 9068 93 t.n.v. JCPaccountant+ Paraaf voor waarmerkings- Lid NBA/RB
+
+KvK Amsterdam: 61039039 Beconnr: 645424 doeleinden: J btw-id NL001372823B41
+
+Bd
+
+" alle informatie bevat die op grond van de o.a. Regeling openbare jaarverantwoording Wmg, Burgerlijk
+Wetboek Boek 2, Titel 9, Afdeling 2 t/m 6 (een paar artikelen zijn uitgezonderd) en RJ Richtlijn 655
+‘Zorgaanbieders, jeugdhulpaanbieders en gecertificeerde instellingen’.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip, verkregen
+vanuit de jaarrekeningcontrole of anderszins, overwogen of de andere informatie materiële afwijkingen
+bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in de Regeling openbare
+jaarverantwoording Wmg en de Nederlandse Standaard 720. Deze werkzaamheden hebben niet dezelfde
+diepgang als onze controlewerkzaamheden bij de jaarrekening.
+
+Het bestuur is verantwoordelijk voor het opstellen van de andere informatie, waaronder de overige
+gegevens in overeenstemming met de Regeling openbare jaarverantwoording Wmg.
+
+Verantwoordelijkheden van het bestuur en het toezichthoudend orgaan voor de jaarrekening
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met de vereisten voor de jaarrekening gesteld bij of krachtens de o.a. de Regeling
+openbare jaarverantwoording Wmg. In dit kader is het bestuur tevens verantwoordelijk voor een
+zodanige interne beheersing die het bestuur noodzakelijk acht om het opmaken van de jaarrekening
+mogelijk te maken zonder afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de organisatie in staat is om haar
+werkzaamheden in continuïteit voort te zetten. Op grond van genoemd verslaggevingsstelsel moet het
+bestuur de jaarrekening opmaken op basis van de continuïteitsveronderstelling, tenzij het bestuur het
+voornemen heeft om de organisatie te liquideren of de activiteiten te beëindigen of als beëindiging het
+enige realistische alternatief is. Het bestuur moet gebeurtenissen en omstandigheden waardoor gerede
+twijfel zou kunnen bestaan of de organisatie haar activiteiten in continuïteit kan voortzetten, toelichten in
+de jaarrekening.
+
+Het toezichthoudend orgaan is verantwoordelijk voor het uitoefenen van toezicht op het proces van
+financiële verslaggeving van de organisatie.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat wij daarmee
+voldoende en geschikte controle-informatie verkrijgen voor het door ons af te geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid waardoor het
+mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien redelijkerwijs kan
+worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen zijn op de economische
+beslissingen die gebruikers op basis van deze jaarrekening nemen. De materialiteit beïnvloedt de aard,
+timing en omvang van onze controlewerkzaamheden en de evaluatie van het effect van onderkende
+afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar relevant
+professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse controlestandaarden,
+het Controleprotocol WNT 2024, ethische voorschriften en de onafhankelijkheidseisen. Onze controle
+bestond onder andere uit:
+het identificeren en inschatten van de risico’s dat de jaarrekening afwijkingen van materieel belang
+bevat als gevolg van fouten of fraude, het in reactie op deze risico’s bepalen en uitvoeren van
+controlewerkzaamheden en het verkrijgen van controle-informatie die voldoende en geschikt is als
+basis voor ons oordeel. Bij fraude is het risico dat een afwijking van materieel belang niet ontdekt wordt
+groter dan bij fouten. Bij fraude kan sprake zijn van samenspanning, valsheid in geschrifte, het
+opzettelijk nalaten transacties vast te leggen, het opzettelijk verkeerd voorstellen van zaken of het
+doorbreken van de interne beheersing;
+
+* het verkrijgen van inzicht in de interne beheersing die relevant is voor de controle met als doel
+controlewerkzaamheden te selecteren die passend zijn in de omstandigheden. Deze werkzaamheden
+hebben niet als doel om een oordeel uit te spreken over de effectiviteit van de interne beheersing van
+de organisatie; 30
+
+Datum: U -0G ATG
+
+Paraaf voor waarmerkings- ,
+Bank: NL87 TRIO 0197 9068 93 t.n.v. JCPaccountant+ PANGS- {id NBA/RB
+
+doeleinden: A
+KvK Amsterdam: 61039039 Beconnr: 645424 \ | btw-id NLO01372823B41
+
+" het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële verslaggeving en het
+evalueren van de redelijkheid van schattingen door de Raad van bestuur en de toelichtingen die
+daarover in de jaarrekening staan;
+
+- het vaststellen dat de door de Raad van bestuur gehanteerde continuïteitsveronderstelling
+aanvaardbaar is. Tevens het op basis van de verkregen controle-informatie vaststellen of er
+gebeurtenissen en omstandigheden zijn waardoor gerede twijfel zou kunnen bestaan of de organisatie
+haar activiteiten in continuïteit kan voortzetten. Als wij concluderen dat er een onzekerheid van
+materieel belang bestaat, zijn wij verplicht om aandacht in onze controleverklaring te vestigen op de
+relevante gerelateerde toelichtingen in de jaarrekening. Als de toelichtingen inadequaat zijn, moeten
+wij onze verklaring aanpassen. Onze conclusies zijn gebaseerd op de controle-informatie die verkregen
+is tot de datum van onze controleverklaring. Toekomstige gebeurtenissen of omstandigheden kunnen er
+echter toe leiden dat een organisatie haar continuïteit niet langer kan handhaven;
+
+* het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de daarin opgenomen
+toelichtingen; en
+
+* het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende transacties en
+gebeurtenissen.
+
+Wij communiceren met het toezichthoudend orgaan onder andere over de geplande reikwijdte en timing
+van de controle en over de significante bevindingen die uit onze controle naar voren zijn gekomen,
+waaronder eventuele significante tekortkomingen in de interne beheersing.
+
+Haarlem, 21 mei 2025
+
+J C Rore sE
+
+Datum: ULOS IG
+
+Paraaf voor waarmerkings-
+
+doeleinden: ker af
+\J -
+
+31
+
+Bank: NL87 TRIO 0197 9068 93 t.n.v. JCPaccountant+ Lid NBA/RB
+KvK Amsterdam: 61039039 Beconnr: 645424 btw-id NL0O01372823B41

@@ -1,0 +1,746 @@
+# whosigns-ocr v1 grootte=2547132 dpi=300 paginas=20
+INHOUDSOPGAVE
+
+ACCOUNTANTSRAPPORTAGE
+
+1
+2
+3
+
+Opdracht
+Samenstellingsverklaring van de accountant
+Algemeen
+
+FINANCIEEL VERSLAG
+
+1
+
+Verslag interne toezichthouder
+
+JAARREKENING
+
+NAAN ==
+
+Balans per 31 december 2024
+Winst-en-verliesrekening over 2024
+
+Grondslagen voor waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2024
+Overige toelichtingen
+
+Accountantscontrole
+
+BIJLAGEN
+
+1
+
+WNT verantwoording 2024
+
+Pagina
+
+A WW
+
+10
+11
+14
+17
+
+ACCOUNTANTSRAPPORTAGE
+
+Huizermaatweg 460
+
+€ kRESTON He
+LENTINK +31 (0)35 - 523 25 7/5
+
+ACCOUNTANTS & BELASTINGADVISEURS huizen@krestonlentink.nl
+www.krestonlentink.nl
+
+Aan het bestuur van
+ConnectedTogether B.V.
+Louis Armstrongweg 86
+1311RL Almere
+
+Huizen, 28 mei 2025
+
+Geachte Bestuur,
+Hierbij brengen wij verslag uit over boekjaar 2024 met betrekking tot uw besloten vennootschap.
+
+1 OPDRACHT
+
+Ingevolge uw opdracht hebben wij de jaarrekening 2024 van uw besloten vennootschap samengesteld,
+waarin de balans met tellingen van € 830.369 en de winst-en-verliesrekening sluitende met een negatief
+resultaat na belastingen van € 77.677, zijn opgenomen.
+
+2 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+
+De jaarrekening van Connected Together B.V. is door ons samengesteld op basis van de van u
+gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2024 en de winst-en-
+verliesrekening over 2024 met de daarbij horende toelichting. In deze toelichtingen is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor
+accountants geldende Standaard 4410, “Samenstellingsopdrachten". Op grond van deze standaard
+wordt van ons verwacht dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in
+overeenstemming met Titel 9 Boek 2 van het Nederlandse Burgerlijk Wetboek (BW). Wij hebben
+daarbij onze deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving
+toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de
+daarvoor geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze
+verantwoordelijkheid heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen van
+de jaarrekening globaal nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis
+van Connected Together B.V.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante
+ethische voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere
+gebruikers van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel,
+vakbekwaam en zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met
+de door u verstrekte gegevens.
+
+* ACCOUNTANTS « BELASTINGADVISEURS « AUDIT © CORPORATE FINANCE © SALARIS & ADVIES 4
+KRESTON
+GLOBAL
+
+KvK nummer 32119023 A global network of independent accounting firms
+
+Aangesloten bij
+
+Opdrachten worden slechts aanvaard en uitgevoerd door Kreston Lentink. Jegens een ieder zijn toepasselijk de algemene voorwaarden van Kreston Lentink, waarin een beperking
+van aansprakelijkheid is opgenomen. Deze voorwaarden zijn gedeponeerd ter kantore van de Kamer van Koophandel en te vinden op www.krestonlentink.nl.
+
+€ kRESTON
+SOLENTINK
+
+ACCOUNTANTS & BELASTINGADVISEURS
+
+3 ALGEMEEN
+
+3.1 Bestuur
+
+Per balansdatum wordt het bestuur gevoerd door mevrouw P. Stomps en de heer N. Tanha.
+
+3.2 De WNT-aspecten vallen niet onder deze opdracht
+
+Conform artikel 1.7 lid 1 van de Wet normering bezoldiging topfunctionarissen publieke en
+semipublieke sector (WNT) bestaat er een controleplicht ten aanzien van de WNT-aspecten. Met
+betrekking tot de jaarrekening van Connected Together B.V. te Almere wordt door ons een
+samenstellingsopdracht uitgevoerd. De WNT-aspecten vallen hier derhalve niet onder. Ten behoeve
+van het Ministerie van Volksgezondheid, Welzijn en Sport (VWS) wordt hiervoor door ons een separate
+controleverklaring afgegeven.
+
+3.3 Verwerking van het verlies 2023
+
+Het verlies ad € 51.231 is in mindering gebracht op de overige reserves.
+
+Wij vertrouwen erop hiermee aan uw opdracht te hebben voldaan. Tot het verstrekken van nadere
+toelichtingen zijn wij gaarne bereid.
+
+Hoogachtend,
+
+Kreston Lentink Accountants
+w.g. M. van Zwam MSc RA
+
+4
+
+voten 9 krESTON
+GLOBAL
+
+A global network of independent accounting firms
+
+* ACCOUNTANTS e BELASTINGADVISEURS e AUDIT «© CORPORATE FINANCE « SALARIS & ADVIES
+
+
+VERSLAG INTERNE TOEZICHTHOUDER
+
+Naam Functie en Jaar van Zittingstermijn | Neven functies
+Commissie toetreding
+
+Marco Meiland Lid 2021 Eerste Directeur
+Commissie: Campus Start
+Inhoudelijk Beleid/ ROC Top
+voorzitter
+
+Nataöa Kovaë Lid 2022 Eerste VP ING Bank NV
+Commissie:
+Financiën
+
+Verslag Raad van Commissarissen — 2024
+
+Na het tragische overlijden van Max zijn wij in 2024 gestart met het werven van nieuwe
+leden voor de Raad van Commissarissen (RvC). Binnen onze netwerken hebben wij actief
+gezocht naar potentiële kandidaten en geïnformeerd naar hun interesse. De noodzaak tot
+uitbreiding van de RvC werd des te urgenter toen Natasa in december aangaf haar functie als
+commissaris te zullen neerleggen.
+
+De Raad van Commissarissen dient uit minimaal twee en maximaal vier leden te bestaan en
+komt tweemaal per jaar bijeen, of vaker indien de omstandigheden dat vereisen. In 2025
+zullen wij intensiever inzetten op de werving van nieuwe leden. Tot dat moment blijft Natasa
+haar functie vervullen; zij zal terugtreden zodra geschikte opvolgers zijn gevonden.
+
+In het afgelopen jaar zijn, conform gebruik, gesprekken gevoerd met de directeur en de twee
+mede-eigenaren. Deze gesprekken richtten zich op de algemene stand van zaken binnen de
+organisatie. Onderwerpen van gesprek waren onder andere de facturatieprocessen en de
+samenwerking met de gemeentelijke overheden.
+
+Het jaar 2024 stond in het teken van de aanbesteding van de gemeente Almere. De directeur,
+de heer Matthijs den Broeder, heeft zich gericht op het verder stroomlijnen van de interne
+organisatie en heeft actief gezocht naar samenwerkingspartners ten behoeve van de
+aanbesteding. Tevens is aandacht besteed aan de contracten met verzekeraars; waar mogelijk
+zijn nieuwe overeenkomsten afgesloten.
+
+Voor het komende jaar ligt de focus op het in kaart brengen van de impact van de afgesloten
+verzekeringscontracten op zowel de productiecapaciteit als de cliëntinstroom. Daarnaast zal
+er aandacht zijn voor de afronding van opleidingen van enkele vaste medewerkers.
+
+De interne toezichthouders worden geïnformeerd via periodieke overleggen en maandelijkse
+nieuwsbrieven. Op deze wijze verkrijgen zij inzicht in de voortgang en strategische koers van
+de organisatie. De communicatie met de directeur en de aandeelhouders verloopt open en
+transparant.
+
+JAARREKENING
+
+CONNECTEDTOGETHER B.V.
+
+ALMERE
+1 BALANS PER 31 DECEMBER 2024
+(na resultaatbestemming)
+31-12-2024 31-12-2023
+€ € € €
+ACTIVA
+VASTE ACTIVA
+Immateriële vaste activa (1) 6.757 10.687
+Materiële vaste activa (2) 15.518 16.570
+Financiële vaste activa
+Vorderingen op participanten en
+maatschappijen waarin wordt
+deelgenomen 67.544 -
+Overige vorderingen 21.400 3.600
+88.944 3.600
+
+VLOTTENDE ACTIVA
+Vorderingen 341.686 402.469
+Liquide middelen (3) 377.464 404.402
+
+830.369 837.728
+PASSIVA
+EIGEN VERMOGEN (4)
+Geplaatst kapitaal 270 270
+Overige reserves 457.235 534.912
+
+457.505 535.182
+KORTLOPENDE SCHULDEN (5) 372.864 302.546
+
+830.369 837.728
+Behorende bij ons accountantsrapport van 28 mei 2025 9
+
+CONNECTEDTOGETHER B.V.
+
+2 WINST-EN-VERLIESREKENING OVER 2024
+
+Netto-omzet
+
+Kosten
+
+Kosten van uitbesteed werk en andere
+
+externe kosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+Afschrijvingen
+
+Overige bedrijfskosten
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat voor belastingen
+
+Belastingen
+
+Resultaat na belastingen
+
+Behorende bij ons accountantsrapport van 28 mei 2025
+
+ALMERE
+2024 2023
+€ € € €
+2.098.735 1.916.513
+360.667 334.955
+1.226.152 1.073.275
+175.858 128.255
+94.879 114.734
+34.224 60.172
+10.603 8.657
+292.150 259.105
+2.194.533 1.979.153
+-95.798 -62.640
+2.097 272
+-93.701 -62.368
+16.024 11.137
+-77.677 -51.231
+10
+
+CONNECTEDTOGETHER B.V.
+ALMERE
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAAT BEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van ConnectedTogether B.V., statutair gevestigd te Almere, bestaan voornamelijk uit
+
+het verzorgen van trainingen en coaching alsmede hulpverlening op het gebeid van gezins- en
+individuele problematiek, het bieden van relatietherapie en het verzorgen van diagnostiek op het gebied
+van de geestelijke gezondheidszorg. Het inschrijvingsnummer bij de Kamer van Koophandel is
+55091180.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling openbare jaarverantwoording WMG
+(RojW), de Richtlijnen voor de Jaarverslaggeving RJ 655, Titel 9 BW2,
+
+De waardering van activa en passiva geschiedt, voor zover niet anders is vermeld, tegen nominale
+waarde. Winsten worden toegerekend aan de periode waarin ze zijn gerealiseerd. Verliezen worden
+verantwoord in het jaar waarin ze voorzienbaar zijn.
+
+Financiële instrumenten
+
+Onder financiële instrumenten worden zowel primaire financiële instrumenten, zoals vorderingen en
+schulden, als financiële derivaten verstaan. Voor de grondslagen van primaire financiële instrumenten
+wordt verwezen naar de behandeling per balanspost. De vennootschap maakt geen gebruik van
+derivaten.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Immateriële vaste activa
+
+De immateriële vaste activa worden gewaardeerd op het bedrag van de bestede kosten, verminderd
+met de cumulatieve afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De
+jaarlijkse afschrijvingen bedragen een vast percentage van de bestede kosten. De economische
+levensduur en de afschrijvingsmethode worden aan het einde van elk boekjaar opnieuw beoordeeld.
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief
+direct toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte
+toekomstige gebruiksduur en bijzondere waardeverminderingen.
+
+Financiële vaste activa
+Vorderingen op deelnemingen
+
+De vorderingen op en leningen aan deelnemingen alsmede de overige vorderingen worden bij eerste
+verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs, welke gelijk zijn aan de nominale waarde, onder aftrek van noodzakelijk geachte
+voorzieningen.
+
+Behorende bij ons accountantsrapport van 28 mei 2025 |
+
+CONNECTEDTOGETHER B.V.
+ALMERE
+
+Vorderingen en overlopende activa
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie,
+inclusief de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd
+tegen de geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht
+op de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen
+onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reêle waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet
+worden afgelost.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en
+de kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar
+waarin zij zijn gerealiseerd.
+
+Opbrengstverantwoording
+Opbrengsten
+
+Verantwoording van opbrengsten uit hoofde van de Jeugdwet en Zorgverzekeringswet geschiedt naar
+rato van de geleverde prestaties op het gebied van verleende zorg. Als realisatiemoment geldt het
+moment waarop de betreffende presaties zijn gerealiseerd en op grond van de geldende voorschriften
+of richtlijnen gedeclareerd kunnen worden bij de opdrachtgever.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij
+betrekking hebben.
+
+Behorende bij ons accountantsrapport van 28 mei 2025 12
+
+CONNECTEDTOGETHER B.V.
+ALMERE
+
+Personeelskosten
+
+Bedrijfstakpensioenfonds:
+
+De voor het personeel geldende pensioenregelingen worden gefinancierd door afdrachten aan een
+bedrijfstakpensioenfonds. Deelname aan het bedrijfstakpensioenfonds is verplicht gesteld in de
+collectieve arbeidsovereenkomst waaronder Connected Together B.V. valt.
+
+De opbouw van de pensioenaanspraken wordt steeds in het betreffende kalenderjaar afgefinancierd
+door middel van (tenminste) kostendekkende premiebetalingen. De pensioenregeling is een
+middelloonregeling met - voor zowel actieve als inactieve deelnemers (slapers en gepensioneerden) -
+voorwaardelijke toeslagverlening. De toeslagverlening is afhankelijk van het beleggingsrendement. De
+hoogte van de premie wordt jaarlijks vastgesteld door het bestuur van het bedrijfstakpensioenfonds op
+basis van de dekkingsgraad en verwachte rendementen.
+
+De dekkingsgraad van het betrokken bedrijfstakpensioenfonds bedraagt ultimo boekjaar volgens
+opgave van het fonds 109,5%. Op basis van het uitvoeringsreglement heeft de groep bij een tekort in
+het fonds geen verplichting tot het voldoen van aanvullende bijdragen anders dan door hogere
+toekomstige premies.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+De financiële baten en -lasten betreffen de op de verslagperiode betrekking hebbende rente-
+opbrengsten en -kosten, alsmede valutakoersresultaten en andere gerelateerde kosten en opbrengsten.
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande
+boekjaren (voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde
+winstbestanddelen en na bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met
+wijzigingen die optreden in de latente belastingvorderingen en latente belastingschulden uit hoofde van
+wijzigingen in het te hanteren belastingtarief.
+
+Behorende bij ons accountantsrapport van 28 mei 2025 13
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2024
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Immateriële vaste activa
+Afschrijvingspercentages
+
+Concessies, vergunningen en rechten van
+intellectuele eigendom
+
+2. Materiële vaste activa
+
+Afschrijvingspercentages
+
+Inventaris
+
+VLOTTENDE ACTIVA
+
+Overige vorderingen en overlopende activa
+
+CONNECTEDTOGETHER B.V.
+ALMERE
+
+%
+
+20
+
+%
+20
+
+De resterende looptijd van de overige vorderingen en overlopende activa is korter dan 1 jaar.
+
+3. Liquide middelen
+
+De per 31 december 2024 aanwezige liquide middelen staan de onderneming ter vrije beschikking.
+
+Behorende bij ons accountantsrapport van 28 mei 2025
+
+14
+
+PASSIVA
+
+4. Eigen vermogen
+
+Geplaatst kapitaal
+
+9.000 aandelen A nominaal € 0,01
+9.000 aandelen B nominaal € 0,01
+9.000 aandelen C nominaal € 0,01
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+De overige reserves zijn als volgt verdeeld over de aandeelhouders:
+
+Aandelen A: € 192.223 + 1/3 resultaat boekjaar 2024
+Aandelen B: € 192.223 + 1/3 resultaat boekjaar 2024
+Aandelen C: € 150.466 + 1/3 resultaat boekjaar 2024
+
+5. Kortlopende schulden
+
+Overige schulden en overlopende passiva
+
+CONNECTEDTOGETHER B.V.
+
+ALMERE
+31-12-2024 _ 31-12-2023
+€ €
+90 90
+90 90
+90 90
+270 270
+2024 2023
+€ €
+534.912 586.143
+-77.677 -51.231
+457.235 534.912
+
+De resterende looptijd van de overige schulden en overlopende passiva is korter dan 1 jaar.
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+
+Leaseverplichtingen
+
+De vennootschap is operational leaseverplichtingen aangegaan tot en met 2028, waarvan de
+verplichtingen € 20.800 op jaarbasis bedragen. De totale verplichting bedraagt € 50.000, waarvan
+€ 20.800 een looptijd van minder dan 1 jaar heeft en € 0 een looptijd langer dan 5 jaar heeft.
+
+Huurverplichtingen onroerende zaken
+
+De vennootschap is meerjarige financiële verplichtingen aangegaan tot en met 2025 terzake van huur
+van verschillende bedrijfsruimten. De totale verplichting bedraagt € 51.600, waarvan het gehele bedrag
+
+een looptijd heeft van minder dan 1 jaar heeft.
+
+Behorende bij ons accountantsrapport van 28 mei 2025
+
+15
+
+CONNECTEDTOGETHER B.V.
+ALMERE
+
+Overeengekomen Lening
+
+ConnectedTogether B.V. is een leningovereenkomst aangegaan in 2024 om € 100.000 te lenen aan de
+aandeelhouders. Het genoemde bedrag zal in termijnen worden overgemaakt.
+
+Behorende bij ons accountantsrapport van 28 mei 2025 16
+
+CONNECTEDTOGETHER B.V.
+ALMERE
+
+5 OVERIGE TOELICHTINGEN
+
+Verwerking van het verlies 2024
+
+Overeenkomstig de wettelijke bepalingen is het verlies ad € 77.677 over 2024 in mindering gebracht op
+de overige reserves. Dit is reeds in de jaarrekening verwerkt.
+
+Personeelsleden
+
+Gedurende het jaar 2024 waren er geen werknemers in dienst op basis van een volledig dienstverband.
+2024 2023
+
+Onderverdeeld naar:
+
+Algemeen 16 16
+
+Ondertekening van de jaarrekening
+
+Opmaak jaarrekening
+
+De jaarrekening is aldus opgemaakt door het bestuur.
+
+Almere, 28 mei 2025
+
+w.g. P. Stomps w.g. N. Tanha
+
+Ondertekening van de jaarrekening
+
+Almere, 28 mei 2025
+
+w.g. N. Ruiter-Kova w.g. M.P.C. Meiland
+
+Behorende bij ons accountantsrapport van 28 mei 2025 17
+
+6 Accountantscontrole
+
+De besloten vennootschap heeft gebruik gemaakt van de mogelijkheid tot vrijstelling van
+deskundigenonderzoek op grond van artikel 2:396 lid 7 BW.
+
+BIJLAGEN
+
+WNT-verantwoording 2024 Connected Together
+De WNT is van toepassing op Connected Together B.V. Het voor Connected Together B.V.
+toepasselijke bezoldigingsmaximum is in 2024 € 190.000 (Klasse III).
+
+1. Bezoldiging topfunctionarissen
+la. Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen
+zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+
+Gegevens 2024
+
+bedragen x € 1 M,. den Broeder P, Stomps N. Tanha
+
+Functiegegevens?® Directeur Bestuurder Bestuurder
+Aanvang® en einde functievervulling in 01/01-31/12 01/01-31/12 01/01-31/12
+2024
+Omvang dienstverband (als 0,89 0,1 1
+deeltijdfactor in fte)’
+
+Dienstbetrekking??® ja ja ja
+Bezoldiging®
+
+Beloning plus belastbare 86.816 16.083 148.090
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn = = =
+Subtotaal 86.816 16.083 148.090
+Individueel toepasselijke 168.889 19.000 190.000
+bezoldigingsmaximum'®
+
+-/- Onverschuldigd betaald en nog niet Nvt. Nvt. Nvt.
+terugontvangen bedrag**
+
+Bezoldiging 86.816 16.083 148.090
+Het bedrag van de overschrijding en de
+
+reden waarom de overschrijding al dan N.v.t. N.v.t. N.v.t. N.v.t. N.v.t. N.v.t.
+niet is toegestaan!?
+Toelichting op de vordering wegens Nvt. Nuv.t. N.v.t.
+onverschuldigde betaling?
+
+Gegevens 2023'*
+
+bedragen x € 1 M. den Broeder P, Stomps N. Tanha
+Functiegegevens® Directeur Bestuurder Bestuurder
+Aanvang en einde functievervulling in 01/05-31/12 01/01-31/12 01/01-31/12
+2023
+
+Omvang dienstverband (als 0,72 0,1 1
+deeltijdfactor in fte)’
+
+Dienstbetrekking?® ja ja ja
+Bezoldiging®
+
+Beloning plus belastbare 40.081 14.984 143.126
+onkostenvergoedingen
+
+Beloningen betaalbaar op termijn - - -
+Subtotaal 40.081 14.984 143.126
+Tadivi E EK
+
+ndividueel toepasselijke 87.870 18.200 182.000
+bezoldigingsmaximum'?
+
+Bezoldiging 40.081 14.984 143.126
+
+1
+
+Gegevens 2023
+
+bedragen x € 1
+
+Functiegegevens?®
+
+A.J. Doeleman
+
+Bestuurder
+
+Aanvang® en einde functievervulling in
+2023
+
+01/0-31/07
+
+Omvang dienstverband (als
+deeltijdfactor in fte)”
+
+0,72
+
+Dienstbetrekking?®
+
+Ja
+
+Bezoldiging®
+
+Beloning plus belastbare
+onkostenvergoedingen
+
+60.980
+
+Beloningen betaalbaar op termijn
+
+Subtotaal
+
+60.980
+
+Individueel toepasselijke
+bezoldigingsmaximum’®
+
+87.149
+
+-/- Onverschuldigd betaald en nog niet
+terugontvangen bedrag**
+
+N.v.t.
+
+Bezoldiging
+
+60.980
+
+Het bedrag van de overschrijding en de
+reden waarom de overschrijding al dan
+niet is toegestaan!*
+
+N.v.t.
+
+N.v.t.
+
+Toelichting op de vordering wegens
+onverschuldigde betaling'®
+
+N.v.t.
+
+1d. Topfunctionarissen met een totale bezoldiging van € 2.100 (2023: € 1.900) of minder
+
+Gegevens 2024
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+M.P.C. Meiland Lid
+N. Ruiter-Kova Lid
+
+Gegevens 2023
+
+NAAM TOPFUNCTIONARIS
+
+M.Z.M, Wattimena
+
+FUNCTIE
+Lid
+
+M.P.C. Meiland
+
+Lid
+
+N. Ruiter-Kova
+
+Lid
+

@@ -33,12 +33,20 @@ Opties:
                     die opdracht. Nodig als de extractie is verbeterd: normaal
                     slaat de lader bestaande rijen over en blijft een oude
                     beoordeling staan. Kost wél opnieuw alle downloads
+    --hervat        houd in .cache/verwerkt_<boekjaar>.txt bij welke organisaties
+                    al bekeken zijn — óók die niets opleverden — en sla die bij
+                    een volgende run over. Ruimt meteen hun pdf's op
 
-Hervatten is veilig: organisatie-boekjaren die al een opdracht in de database
-hebben, worden overgeslagen. Wat niets opleverde (geen deponering, gescande pdf)
-wordt bij een herstart wél opnieuw geprobeerd — dat is bewust, want zulke
-gevallen kunnen later alsnog gevuld raken. Wordt dat te duur, dan is een
-verwerkingslog-tabel de volgende stap.
+Hervatten is standaard half veilig: organisatie-boekjaren die al een opdracht in
+de database hebben worden overgeslagen, maar wat niets opleverde (geen
+deponering, gescande pdf) wordt opnieuw geprobeerd. Dat is bewust — zulke
+gevallen kunnen later alsnog gevuld raken zodra de extractie beter is.
+
+Voor een lange oogst is dat te duur: ruwweg de helft van de organisaties levert
+geen kantoor op, en bij 2.211 organisaties à ±37 seconden kost elke herstart
+uren aan werk dat al gedaan was. Daarvoor is `--hervat`. Wil je die gevallen
+later tóch opnieuw langs de verbeterde extractie halen, verwijder dan
+.cache/verwerkt_<boekjaar>.txt (of draai met --herlaad, dat negeert de lijst).
 
 Wees vriendelijk voor de bron: er zit een pauze tussen downloads
 (digimv_archief.PAUZE_SECONDEN) en de run hoort als achtergrondtaak te draaien,
@@ -65,6 +73,30 @@ from supabase_client import Supabase, SupabaseFout  # noqa: E402
 
 CACHE = Path(__file__).resolve().parent / ".cache"
 BRON_URL = "https://digimv13.desan.nl/archive/search"
+
+# De kolommen van het oogstrapport, op één plek.
+#
+# Deze lijst stond drie keer los in de pipeline: hier, in laad_zorg_rapport.py
+# en in nakijk_ocr.py. Dat ging goed zolang niemand er iets aan veranderde.
+# Op 17-8-2026 bleek wat het kost als dat wél gebeurt: in .cache lag nog een
+# resultaat_2023.csv van 29 juli met de kolommen van tóen (zeven, zonder
+# kantoor_sleutel, type_opdracht, grond_beperking en continuïteitsonzekerheid).
+# De oogst zag een niet-leeg bestand, schreef er rijen met elf kolommen
+# achteraan, en committeerde dat mengsel. Zo'n rapport gaat regelrecht de
+# database in.
+#
+# Alles wat het rapport schrijft of leest hoort deze lijst te gebruiken, en het
+# oogstscript vraagt hem hier op om een oud bestand in .cache te herkennen.
+# Verandert de lijst, dan verandert hij overal tegelijk — dat is het punt.
+RAPPORT_KOLOMMEN = [
+    "kvk", "naam", "plaats", "boekjaar", "kantoor", "kantoor_sleutel",
+    "afm_nummer", "type_opdracht", "oordeel", "grond_beperking",
+    "continuiteitsonzekerheid",
+    # Achteraan, en dat is geen smaak: laad_zorg_rapport leest op naam, maar
+    # nakijk_ocr schrijft met een DictWriter op volgorde. Een kolom ertussen
+    # schuift oude rapporten stil op.
+    "tekenend_accountant",
+]
 
 # Woorden die in honderden zorgnamen voorkomen en dus niets onderscheiden.
 # Alleen gebruikt om een bétere zoekterm te kiezen, niet om iets weg te gooien.
@@ -173,6 +205,42 @@ def _gevuld(organisatie: dict, toewijzing: dict[str, str]) -> dict:
     return uit
 
 
+def onbekeken_blok(
+    organisaties: list[dict], gezien: set[str], vanaf: int = 0, aantal: int = 0
+) -> list[dict]:
+    """De volgende hap werk: eerst wegstrepen wat al bekeken is, dan pas snijden.
+
+    Nooit andersom, en dat is de hele reden dat deze functie bestaat.
+
+    `--vanaf` en `--aantal` zijn er zodat oogst_zorg.sh het werk in blokken kan
+    doen en na elk blok kan bewaren. Sneed je eerst op index en streepte je daarna
+    pas weg, dan betekende "vanaf 2078" stilzwijgend "de eerste 2078 zijn al
+    gedaan". Dat klopt alleen zolang de doelpopulatie precies dezelfde lijst in
+    precies dezelfde volgorde blijft.
+
+    Dat hield het niet. Toen heeft_verklaring() ook de verklaringen onder
+    locations[] ging meetellen, groeide boekjaar 2021 van 2.471 naar 2.678
+    organisaties, en die 207 nieuwe schoven ertussen — niet erachter. Gemeten op
+    13-8-2026: van de 597 nog te lezen organisaties stonden er 125 op een index
+    ónder de hervatpositie, de laagste op index 14. Een run die bij 2078 begint
+    ziet die nooit meer. Ze raken niet kwijt (ze staan niet in verwerkt_2021.txt,
+    dus ze zijn niet als "bekeken" afgeschreven), maar ze komen pas aan de beurt
+    als iemand toevallig weer vanaf nul begint — en dat is te toevallig voor een
+    lijst die stilletjes incompleet blijft.
+
+    Wegstrepen vóór het snijden haalt de aanname weg: `vanaf` telt in de lijst van
+    nog-te-doen organisaties, en die krimpt terwijl de oogst vordert. Elk blok is
+    daardoor een blok échte organisaties in plaats van een greep uit de volle
+    lijst waar meestal niets nieuws in zit. Wie in blokken werkt vraagt dus steeds
+    opnieuw `vanaf=0`; oogst_zorg.sh doet dat.
+
+    `aantal=0` betekent "alles", net als bij argparse's default — niet "niets".
+    """
+    onbekeken = [o for o in organisaties if o["kvk_nummer"] not in gezien]
+    onbekeken = onbekeken[vanaf:]
+    return onbekeken[:aantal] if aantal else onbekeken
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--boekjaar", type=int, default=2023)
@@ -182,7 +250,20 @@ def main() -> int:
     parser.add_argument("--kantoor", default="")
     parser.add_argument("--werkers", type=int, default=4)
     parser.add_argument("--lijst-uit", type=int, default=0, dest="lijst_uit")
+    parser.add_argument(
+        "--uit-archief",
+        action="store_true",
+        dest="uit_archief",
+        help="bepaal de organisatielijst uit het archief zelf in plaats van uit "
+        "de jaardataset; nodig voor 2019-2021 en 2025",
+    )
     parser.add_argument("--herlaad", action="store_true")
+    parser.add_argument(
+        "--hervat",
+        action="store_true",
+        help="houd bij welke organisaties al bekeken zijn (ook die niets "
+        "opleverden) en sla die over; ruimt hun pdf's meteen op",
+    )
     argumenten = parser.parse_args()
     boekjaar = argumenten.boekjaar
 
@@ -200,13 +281,25 @@ def main() -> int:
     # tweede jaar is er geen enkele wisseling te zien.
     lijst_boekjaar = argumenten.lijst_uit or boekjaar
 
-    organisaties = digimv_dataset.doelpopulatie_uit_cache(lijst_boekjaar, CACHE)
-
-    herkomst = (
-        "" if lijst_boekjaar == boekjaar else f" (lijst uit boekjaar {lijst_boekjaar})"
-    )
+    if argumenten.uit_archief:
+        # Het archief zelf uitkammen in plaats van de jaardataset lezen. Voor
+        # 2019 t/m 2021 en 2025 is dat de enige volledige weg: de dataset
+        # bestaat daar niet of mist de verklaringvelden, en de lijst van een
+        # ánder jaar lenen laat juist de meerderheid liggen — gemeten 2.211
+        # organisaties met een verklaring in 2019 tegen 513 opdrachten die er
+        # met de geleende lijst uit kwamen.
+        organisaties = digimv_archief.doelpopulatie(boekjaar, cache=CACHE)
+        herkomst = " (lijst uit het archief zelf)"
+        soort = "een gedeponeerde verklaring"
+    else:
+        organisaties = digimv_dataset.doelpopulatie_uit_cache(lijst_boekjaar, CACHE)
+        herkomst = (
+            "" if lijst_boekjaar == boekjaar
+            else f" (lijst uit boekjaar {lijst_boekjaar})"
+        )
+        soort = "een controleverklaring"
     print(
-        f"{len(organisaties)} organisaties met een controleverklaring{herkomst}; "
+        f"{len(organisaties)} organisaties met {soort}{herkomst}; "
         f"scan van boekjaar {boekjaar}\n",
         flush=True,
     )
@@ -256,30 +349,123 @@ def main() -> int:
         bron_id = bron["id"]
         print(f"bron {bron_id}; {len(al_geladen)} organisaties al geladen\n", flush=True)
 
-    werklijst = organisaties[argumenten.vanaf:]
-    if argumenten.aantal:
-        werklijst = werklijst[: argumenten.aantal]
+    # Wie hebben we al bekeken, ongeacht de uitkomst?
+    #
+    # `al_geladen` hierboven komt uit de database en kent alleen de treffers. Bij
+    # de oogstroute (droogloop, buiten Actions om) is dat te weinig: ruwweg de
+    # helft van de organisaties levert geen kantoor op, en zonder deze lijst doet
+    # elke herstart dat halve werk opnieuw — bij 2.211 organisaties en ±37
+    # seconden per stuk is dat uren. Deze lijst groeit per verwerkte organisatie
+    # en overleeft dus ook een afgebroken run.
+    verwerkt_pad = CACHE / f"verwerkt_{boekjaar}.txt"
+    verwerkt: set[str] = set()
+    if argumenten.hervat and not argumenten.herlaad and verwerkt_pad.exists():
+        verwerkt = {
+            regel.strip() for regel in verwerkt_pad.read_text(encoding="utf-8").splitlines()
+            if regel.strip()
+        }
+        print(f"{len(verwerkt)} organisaties al bekeken in een eerdere run", flush=True)
+
+    werklijst = onbekeken_blok(
+        organisaties, al_geladen | verwerkt, argumenten.vanaf, argumenten.aantal
+    )
 
     rapport_pad = CACHE / f"resultaat_{boekjaar}.csv"
+    # Bestaat er al een rapport, dan moet de kopregel kloppen vóór we er rijen
+    # achteraan zetten. Zonder deze controle schreef een lader met een andere
+    # kolomlijst gewoon door onder een oude kop -- dat is precies wat er op
+    # 17-8-2026 gebeurde, en het commentaar bij herstel_rapport() in
+    # oogst_zorg.sh beschrijft die dag uitvoerig terwijl de code hier vijftig
+    # regels verderop niets deed. oogst_zorg.sh vangt het geval waarin híj het
+    # rapport terugzet; dit vangt iedereen die laad_zorg.py los aanroept, en dat
+    # kan: alle vlaggen staan in de docstring bovenaan.
+    if rapport_pad.exists() and rapport_pad.stat().st_size > 0:
+        with rapport_pad.open(encoding="utf-8") as eerst:
+            kop = (eerst.readline() or "").rstrip("\r\n")
+        if kop != ",".join(RAPPORT_KOLOMMEN):
+            print(f"{rapport_pad}: de kopregel is niet die van deze laad_zorg.py.")
+            print(f"  gevonden : {kop}")
+            print(f"  verwacht : {','.join(RAPPORT_KOLOMMEN)}")
+            print("  Er wordt niets bijgeschreven; zet het bestand eerst om of "
+                  "haal het weg.")
+            return 1
     rapport = rapport_pad.open("a", newline="", encoding="utf-8")
     schrijver = csv.writer(rapport)
     if rapport.tell() == 0:
-        schrijver.writerow(["kvk", "naam", "plaats", "boekjaar", "kantoor", "afm_nummer", "oordeel"])
+        # Alle velden die de database-schrijfstap hieronder gebruikt, zodat een
+        # rapport uit een droogloop later alsnog kan worden ingeladen met
+        # laad_zorg_rapport.py — het dure werk (downloaden, lezen, OCR) hoeft dan
+        # niet opnieuw. `kantoor_sleutel` is daarbij de koppelsleutel; zie de
+        # opmerking bij kantoor_id_per_sleutel waarom dat niet het afm_nummer is.
+        schrijver.writerow(RAPPORT_KOLOMMEN)
 
     gevonden = 0
     mislukt = 0
+    bronfouten = 0
     per_kantoor: dict[str, int] = {}
     begin = time.time()
 
-    te_doen = [o for o in werklijst if o["kvk_nummer"] not in al_geladen]
+    te_doen = werklijst
+    verwerkt_log = verwerkt_pad.open("a", encoding="utf-8") if argumenten.hervat else None
+
+    def noteer_bekeken(organisatie: dict) -> None:
+        """Deze organisatie is af — pas aanroepen als de uitkomst vaststaat.
+
+        "Bekeken" betekent in dit project ook "nooit meer": staat een KvK-nummer
+        eenmaal in verwerkt_<boekjaar>.txt, dan slaat elke volgende run hem over.
+        Daarom mag die regel er pas bij als de uitkomst ergens duurzaam staat —
+        de rapportregel geflusht, en in de databasestand ook de rij weggeschreven.
+
+        Andersom ging het bijna mis. De regel stond eerst vóór de
+        uitkomst-afhandeling, met als gedachte dat ook een organisatie zonder
+        treffer bekeken is. Dat klopt, maar het opende een venster: wordt het
+        proces precies tussen de twee schrijfacties afgebroken, dan geldt de
+        organisatie als afgehandeld terwijl zijn opdracht nergens staat. Hij komt
+        dan nooit meer langs. Het venster is klein — een glob en wat unlinks —
+        maar het staat op de verkeerde plek, en het maakte tussentijds bewaren
+        tijdens een blok onmogelijk (zie oogst_zorg.sh).
+
+        Nu kan de afbreking hooguit de andere kant op vallen: de uitkomst staat er
+        wél en "bekeken" nog niet. Dan wordt de organisatie een keer overgedaan.
+        Dat kost tijd en levert hooguit een dubbele rapportregel op, die bij het
+        inladen op dezelfde sleutel terechtkomt. Werk overdoen is te overzien;
+        werk stilletjes overslaan niet.
+        """
+        if verwerkt_log is None:
+            return
+        verwerkt_log.write(f"{organisatie['kvk_nummer']}\n")
+        verwerkt_log.flush()
+        # De pdf's van deze organisatie zijn nu dood gewicht: we komen hier niet
+        # meer terug. Eén jaargang is al gauw enkele GB's en de schijf van een
+        # runner is 14 GB.
+        for pdf in CACHE.glob(f"{boekjaar}_{organisatie['kvk_nummer']}_*.pdf"):
+            pdf.unlink(missing_ok=True)
 
     def haal_op(organisatie: dict):
-        """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel."""
+        """Zoeken, downloaden en tekst lezen — het trage deel, dus parallel.
+
+        Geeft drie dingen terug, en die derde is het hele punt: een fout van de
+        bron is iets anders dan een organisatie die niets heeft gedeponeerd.
+
+        Allebei kwamen hier vroeger terug als `None`, en de lus schreef die
+        allebei weg als "bekeken". Met --hervat betekent dat "nooit meer": een
+        archief dat tien minuten 502 geeft schreef zo tientallen organisaties
+        voorgoed af, en de run eindigde netjes groen. De foutregel begint met
+        twee spaties en werd door het grep-filter van oogst_zorg.sh uit het log
+        gehouden, dus er bleef ook geen spoor van over.
+
+        Wat hier daadwerkelijk doorschiet naar de except: beide aanroepen van
+        digimv_archief.zoek(), en de bewuste harde RuntimeError van
+        pdf_naar_tekst als pdftotext ontbreekt — een fout die juist is bedoeld om
+        een run niet stilletjes leeg te laten eindigen. Een mislukte download
+        wordt al eerder afgevangen (adapters/digimv.py) en komt langs de gewone
+        weg terug als "niets gevonden", wat klopt.
+        """
         try:
-            return organisatie, zoek_met_terugval(organisatie, boekjaar, kantoor_index)
+            return organisatie, zoek_met_terugval(organisatie, boekjaar, kantoor_index), None
         except Exception as fout:  # noqa: BLE001 — bron mag falen, run gaat door
             print(f"  {organisatie['naam'][:50]}: fout {fout}", flush=True)
-            return organisatie, None
+            return organisatie, None, fout
 
     # Ophalen gebeurt parallel, wegschrijven blijft in deze ene draad: dat scheelt
     # sloten rond de csv en de database, en schrijven is toch niet de bottleneck.
@@ -287,7 +473,7 @@ def main() -> int:
     # gelden, dus meer werkers verhogen het tempo maar niet grenzeloos — met vier
     # werkers blijft het verzoektempo in de orde van een paar per seconde.
     with ThreadPoolExecutor(max_workers=argumenten.werkers) as pool:
-        for teller, (organisatie, resultaat) in enumerate(
+        for teller, (organisatie, resultaat, fout) in enumerate(
             pool.map(haal_op, te_doen), start=1
         ):
             if teller % 25 == 0:
@@ -298,17 +484,63 @@ def main() -> int:
                     flush=True,
                 )
 
+            if fout is not None:
+                # De bron gaf een fout, dus we weten niets over deze organisatie.
+                # Juist dan mag er géén aantekening komen: "bekeken" betekent hier
+                # "nooit meer", en dan zou een storing van tien minuten permanent
+                # gaten in een boekjaar slaan.
+                #
+                # Werk overdoen is te overzien, werk stilletjes overslaan niet.
+                # De organisatie blijft dus vooraan in de wachtrij staan. Blijft
+                # de bron stuk, dan groeit de bekekenlijst niet, en dan stopt
+                # oogst_zorg.sh vanzelf na drie lege blokken -- precies de rem die
+                # met de oude aanpak nooit aantrok, omdat de lijst juist wél
+                # groeide van de afgeschreven organisaties.
+                bronfouten += 1
+                continue
+
             if not resultaat:
+                # Ook een organisatie die niets opleverde is bekeken, en juist díé
+                # wil je niet nog eens doen. Er valt hier niets te bewaren, dus de
+                # aantekening kan meteen.
                 mislukt += 1
+                noteer_bekeken(organisatie)
                 continue
 
             kvk = organisatie["kvk_nummer"]
             kantoor = resultaat["kantoor"]
             gevonden += 1
             per_kantoor[kantoor["naam"]] = per_kantoor.get(kantoor["naam"], 0) + 1
+
+            # Opdrachttype vastgesteld uit de verklaring, niet aangenomen. Een
+            # controleverklaring bij een WNT- of productieverantwoording is geen
+            # wettelijke jaarrekeningcontrole en hoort dus niet mee te tellen in
+            # marktaandelen. Lukt het niet vast te stellen, dan zeggen we dat
+            # ("controle_onbepaald") in plaats van het zwaarste type te gokken.
+            type_opdracht = resultaat["opdrachttype"] or "controle_onbepaald"
+            # Sinds de kantorenlijst ook kantoren zonder Wta-vergunning kent
+            # (nodig buiten de zorg, zie docs/bronverkenning-stichtingen.md),
+            # kan hier een kantoor uitkomen dat geen wettelijke controles mág
+            # doen. Dan is het een vrijwillige controle bij een instelling
+            # zonder controleplicht — niet een wettelijke.
+            #
+            # Behalve als de vergunning er tóén wel was (`wta_ooit`): een kantoor
+            # dat sindsdien uit het AFM-register is verdwenen, tekende zijn oude
+            # verklaringen bevoegd. Zelfde regel als in laad_corporaties.py.
+            if (
+                type_opdracht == "wettelijke_controle"
+                and not kantoor.get("wta_vergunning", True)
+                and not kantoor.get("wta_ooit")
+            ):
+                type_opdracht = "vrijwillige_controle"
+
             schrijver.writerow([
                 kvk, resultaat["naam"], resultaat["plaats"], boekjaar,
-                kantoor["naam"], kantoor["afm_nummer"], resultaat["oordeel"],
+                kantoor["naam"], kantoor["sleutel"], kantoor["afm_nummer"],
+                type_opdracht, resultaat["oordeel"],
+                resultaat["grond_beperking"] or "",
+                "ja" if resultaat["continuiteitsonzekerheid"] else "",
+                resultaat.get("tekenend_accountant") or "",
             ])
             rapport.flush()
 
@@ -324,6 +556,9 @@ def main() -> int:
                         f"draai eerst de Pipeline-workflow",
                         flush=True,
                     )
+                    # De rapportregel staat er wél, dus deze organisatie is af
+                    # voor de oogstroute; alleen de databaserij ontbreekt.
+                    noteer_bekeken(organisatie)
                     continue
 
                 org_velden = {
@@ -346,21 +581,6 @@ def main() -> int:
 
                 org_rij = db.upsert_met_id("organisaties", org_velden, "kvk_nummer")
 
-                # Opdrachttype vastgesteld uit de verklaring, niet aangenomen. Een
-                # controleverklaring bij een WNT- of productieverantwoording is geen
-                # wettelijke jaarrekeningcontrole en hoort dus niet mee te tellen in
-                # marktaandelen. Lukt het niet vast te stellen, dan zeggen we dat
-                # ("controle_onbepaald") in plaats van het zwaarste type te gokken.
-                type_opdracht = resultaat["opdrachttype"] or "controle_onbepaald"
-                # Sinds de kantorenlijst ook kantoren zonder Wta-vergunning kent
-                # (nodig buiten de zorg, zie docs/bronverkenning-stichtingen.md),
-                # kan hier een kantoor uitkomen dat geen wettelijke controles mág
-                # doen. Dan is het een vrijwillige controle bij een instelling
-                # zonder controleplicht — niet een wettelijke.
-                if type_opdracht == "wettelijke_controle" and not kantoor.get(
-                    "wta_vergunning", True
-                ):
-                    type_opdracht = "vrijwillige_controle"
                 if argumenten.herlaad:
                     # Het type maakt deel uit van de unieke sleutel, dus een
                     # gecorrigeerd type zou een tweede rij opleveren naast de oude.
@@ -381,12 +601,21 @@ def main() -> int:
                     # WNT-intragroepdetachering gaat en niet om de jaarrekening.
                     "grond_beperking": resultaat["grond_beperking"],
                     "continuiteitsonzekerheid": resultaat["continuiteitsonzekerheid"],
+                    # Leeg moet null worden en geen lege tekst: de kolom is vrij
+                    # tekst, en "" zou op de site een naam met nul letters worden
+                    # in plaats van een streepje. Zelfde les als bij `oordeel`.
+                    "tekenend_accountant": resultaat.get("tekenend_accountant") or None,
                     "bron_id": bron_id,
                 }
                 # Honoraria en de zelfgerapporteerde wisselvlag zijn cijfers over
                 # één specifiek boekjaar. Ze komen uit de dataset van
-                # `lijst_boekjaar`, dus ze horen alleen bij dát boekjaar.
-                if boekjaar == lijst_boekjaar:
+                # `lijst_boekjaar`, dus ze horen alleen bij dát boekjaar. En
+                # alleen bij een controle: het honorarium en het gerapporteerde
+                # oordeel gaan over de jaarrekening, niet over een WNT- of
+                # productieverantwoording (zie vul_extra_velden.CONTROLETYPEN).
+                if boekjaar == lijst_boekjaar and type_opdracht in (
+                    "wettelijke_controle", "vrijwillige_controle", "controle_onbepaald"
+                ):
                     opdracht_velden.update(
                         _gevuld(organisatie, {
                             "honorarium_controle_eur": "honorarium_controle",
@@ -404,10 +633,15 @@ def main() -> int:
                     "organisatie_id,boekjaar,type_opdracht",
                 )
 
+            noteer_bekeken(organisatie)
+
     rapport.close()
+    if verwerkt_log is not None:
+        verwerkt_log.close()
     print(f"\n=== boekjaar {boekjaar}: {gevonden} opdrachten, "
-          f"{mislukt} zonder herleidbaar kantoor "
-          f"({(time.time()-begin)/60:.0f} min) ===\n")
+          f"{mislukt} zonder herleidbaar kantoor"
+          + (f", {bronfouten} overgeslagen na een bronfout" if bronfouten else "")
+          + f" ({(time.time()-begin)/60:.0f} min) ===\n")
 
     print("Marktaandeel in deze run:")
     for naam, aantal in sorted(per_kantoor.items(), key=lambda p: -p[1])[:25]:

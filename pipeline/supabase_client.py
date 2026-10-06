@@ -71,6 +71,38 @@ class Supabase:
             )
         return len(rijen)
 
+    def invoegen_bulk(self, tabel: str, rijen: list[dict]) -> int:
+        """Bulk-insert zonder conflictsleutel, voor tabellen zonder unieke
+        kolom (zoals de review-queue)."""
+        if not rijen:
+            return 0
+        for begin in range(0, len(rijen), 500):
+            self._verzoek(
+                "POST", tabel, rijen[begin : begin + 500],
+                {"Prefer": "return=minimal"},
+            )
+        return len(rijen)
+
+    def invoegen_zonder_overschrijven(
+        self, tabel: str, rijen: list[dict], conflict_kolom: str
+    ) -> int:
+        """Bulk-insert die bestaande rijen met rust laat (ON CONFLICT DO NOTHING).
+
+        Voor aanvullingen waar de bestaande rij beter is dan de onze — bijv.
+        organisaties die al een zorgvuldig gekozen naam hebben: een upsert met
+        merge-duplicates zou die overschrijven, dit niet.
+        """
+        if not rijen:
+            return 0
+        for begin in range(0, len(rijen), 500):
+            self._verzoek(
+                "POST",
+                f"{tabel}?on_conflict={urllib.parse.quote(conflict_kolom)}",
+                rijen[begin : begin + 500],
+                {"Prefer": "resolution=ignore-duplicates,return=minimal"},
+            )
+        return len(rijen)
+
     def invoegen(self, tabel: str, rij: dict) -> dict:
         """Voegt één rij toe en geeft hem terug, inclusief het toegekende id."""
         antwoord = self._verzoek(
@@ -142,7 +174,20 @@ class Supabase:
         Er stond ook een `telling()` die `select=id` ophaalde en de rijen télde;
         die gaf 1000 terug bij 5081 opdrachten. Wie een aantal wil, vraagt
         PostgREST om `Prefer: count=exact` — zoals `tel()` in web/lib/db.ts doet.
+
+        Een eigen `limit=` of `offset=` in de query mag niet. Deze methode plakt die
+        er zelf achter, en PostgREST neemt dan stil de láátste: gemeten op 5-10-2026
+        gaf 'bronnen?select=id&limit=1&…&limit=1000&offset=0' duizend rijen terug,
+        en 'offset=5&…&offset=0' begon gewoon bij de eerste rij. Wie één rij wil en
+        er duizend krijgt, of een eigen offset meegeeft die stil wegvalt, merkt
+        daar niets van.
         """
+        if any(
+            deel.startswith(("limit=", "offset=")) for deel in query.split("&")
+        ):
+            raise SupabaseFout(
+                f"selecteer_alles pagineert zelf; haal limit/offset uit de query ({query})"
+            )
         # Vaste volgorde, anders is de paginering een gok: zonder ORDER BY mag
         # Postgres elke pagina anders sorteren, en dan kan een rij stil dubbel
         # of juist helemaal niet binnenkomen. Elke tabel hier heeft een id.

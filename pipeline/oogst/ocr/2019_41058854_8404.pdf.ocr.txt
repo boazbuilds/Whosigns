@@ -1,0 +1,757 @@
+# whosigns-ocr v1 grootte=5739835 dpi=300 paginas=20
+GRONDSLAGEN VOOR RESULTAATBEPALING
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en
+verrichte diensten enerzijds, en anderzijds de kosten en andere lasten van het jaar, gewaardeerd tegen
+historische kostprijzen.
+
+Resultaatbepaling
+
+Het resultaat wordt bepaald als het verschil tussen de netto-omzet en de kosten en andere lasten van het
+verslagjaar met inachtneming van de hiervoor vermelde waarderingsgrondslagen.
+
+Winsten zijn verantwoord in het jaar waarin de goederen zijn geleverd c.q. de diensten zijn verricht. Verliezen
+welke hun oorsprong vinden in het boekjaar zijn in aanmerking genomen zodra deze voorzienbaar zijn.
+
+Netto-omzet
+
+Onder netto-omzet wordt verstaan de opbrengst van de in het verslagjaar geleverde goederen en verleende
+diensten onder aftrek van kortingen en de over de omzet geheven belastingen.
+
+Afschrijvingen
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages van de
+aanschaffingswaarde, op basis van de verwachte economische levensduur.
+
+Boekwinsten en -verliezen uit de incidentele verkoop van materiële vaste activa zijn begrepen onder de
+afschrijvingen.
+
+GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+Stichting Moria, Nijmegen
+
+15.
+
+CONTOUR e
+
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2019
+
+ACTIVA
+
+Vaste activa
+
+1. Materiële vaste activa
+
+Bedrijfs-
+gebouwen en Vervoer-
+terreinen Inventaris middelen Totaal
+€ € € €
+Aanschaffingswaarde 2.951.472 208.333 12.750 3.172.555
+Cumulatieve afschrijvingen -946.828 -197.937 -9.754 -1.154.519
+Boekwaarde per 1 januari 2019 2.004.644 10.396 2.996 2.018.036
+Mutaties
+Desinvesteringen -58.656 -12.750 -71.406
+Afschrijving desinvesteringen - 58.656 10.519 69.175
+Afschrijvingen -78.065 -3.325 -765 -82.155
+-78.065 -3.325 -2.996 -84.386
+Aanschaffingswaarde 2.951.472 149.677 3.101.149
+Cumulatieve afschrijvingen -1.024.893 -142.606 -1.167.499
+Boekwaarde per 31 december 2019 1.926.579 7.071 1.933.650
+
+Het pand incl. grond en de verbouwingen 2003 t/m 2005 zijn door middel van schenkingen verkregen. Het gaat
+om een totaal bedrag van € 2.664.275, waarvoor een egalisatiereserve is gevormd. De jaarlijkse afschrijvingen
+op deze items worden op de egalisatiereserve in mindering gebracht, te weten:
+
+pand 2% en verbouwingen 5%. Op grond wordt niet afgeschreven.
+
+Afschrijvingspercentages
+%
+
+Bedrijfsgebouwen en -terreinen 0, 2,5, 10
+Inventaris 20
+Vervoermiddelen 20
+
+Stichting Moria, Nijmegen
+
+CONTOUR 7
+ACCOUNTANTS
+WV
+Vlottende activa
+2. Vorderingen
+31-12-2019 31-12-2018
+€ €
+Overige vorderingen en overlopende activa
+Te ontvangen Ministerie van Justitie 94.750 106.966
+Te ontvangen gemeente Nijmegen - 6.483
+Te ontvangen Jeugdwet 14.283 25.714
+Te ontvangen giften 11.695 -
+Te ontvangen bewoners 18.780 9.669
+Overige overlopende activa 25.667 16.431
+165.175 165.263
+3. Liquide middelen
+Rabobank, betaalrekeningen 54.913 70.836
+Rabobank, spaarrekeningen 22.768 91.968
+Kas 1.334 1.736
+Gelden onderweg 3.000
+82.015 164.540
+
+De liquide middelen worden gewaardeerd tegen nominale waarde.
+liquide middelen staan de onderneming ter vrije beschikking.
+
+Stichting Moria, Nijmegen
+
+De per 31 december 2019 aanwezige
+
+CONTOUR
+
+ACCOUNTANTS
+
+18.
+
+A4
+
+PASSIVA
+
+4. Eigen vermogen
+
+Stichtingskapitaal
+
+Het stichtingskapitaal bleef ongewijzigd
+
+Bestemmingsreserves
+
+Egalisatiereserve
+
+Stand per 1 januari
+Onttrekking
+
+Stand per 31 december
+
+31-12-2019
+
+31-12-2018
+
+€
+
+45
+
+€
+
+45
+
+2019
+
+2018
+
+1.879.421
+-53.899
+
+1.933.320
+-53.899
+
+1.825.522
+
+1.879.421
+
+De egalisatiereserve is gevormd vanwege materiële vaste activa die verkregen zijn door schenkingen en
+giften. De afschrijvingen op de materiële vaste activa worden jaarlijks op de egalisatiereserve in mindering
+
+gebracht.
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+5. Voorzieningen
+
+Overige voorzieningen
+
+Groot onderhoud gebouwen
+
+Stand per 1 januari
+Onttrekking
+
+Stand per 31 december
+
+Stichting Moria, Nijmegen
+
+149.924
+12.833
+
+202.623
+-52.699
+
+162.757
+
+149.924
+
+19.600
+-19.600
+
+
+Verplichtingen voor jubileumuitkeringen
+
+Stand per 1 januari
+Dotatie
+
+Stand per 31 december
+
+6. Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Overige belastingen en premies sociale verzekeringen
+
+Loonheffing
+Overige premies
+Pensioenen
+
+Stichting Moria, Nijmegen
+
+19.
+2019 2018
+€ €
+8.548 7.223
+1.050 1.325
+9.598 8.548
+
+31-12-2019 31-12-2018
+
+€ €
+25.609 43.971
+21.879 32.288
+1.638 5
+4,247 1.534
+27.764 33.822
+
+
+CONTOUR
+
+31-12-2019 31-12-2018
+
+€ €
+Overige schulden en overlopende passiva
+Vakantiegeld 24.032 26.964
+Vakantiedagen 24.517 12.484
+Eindejaarsuitkering 4.669 4,293
+Nettoloon 8.326 11.361
+Accountantskosten 18.000 17.951
+Administratiekosten - 2.640
+Fondsenwerving Fris & Eigentijds 43.433 93.749
+Jaarbijdrage St. Vrienden van Moria - 57.666
+Overige giften/subsidies 3.450 -
+Overige nog te betalen kosten 3.118 5.000
+
+129.545 232.108
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+Pand Louiseweg
+
+In geval van vervreemding van het onroerend goed of in het geval er een andere bestemming wordt gegevens,
+zal de voor de aankoop ontvangen inbreng van de Congregatie Zusters van Julie Postel (€ 1.369.024 en
+Fraters Maristen (€ 226.890) door Stichting Moria moeten worden terugbetaald.
+
+Meerjarige financiële verplichtingen
+Leaseverplichtingen
+
+Het jaarlijks bedrag van met derden aangegane operational leaseverplichtingen van kantoorapparatuur
+bedraagt in 2019 in totaal € 2.715.
+
+De totale verplichting ultimo boekjaar 2019 bedraagt ongeveer € 14.000. De leaseverplichtingen lopen van
+2018 tot het jaar 2025.
+
+Stichting Moria, Nijmegen
+
+CONTOUR k
+ACCOUNTANTS
+WV
+6 TOELICHTING OP DE STAAT VAN BATEN EN LASTEN OVER 2019
+2019 2018
+€ €
+7. Netto-omzet
+Opbrengsten gemeente 48.353 137.220
+Opbrengsten Ministerie van Veiligheid en Justitie 814.088 670.797
+Opbrengsten Jeugwet 112.978 117.659
+Correctie opbrengsten voorgaand jaar -11.097 -7.278
+964.322 918.398
+8. Overige bedrijfsopbrengsten
+Bijdrage Stichting Vrienden van Moria 57.666 85.968
+Overige giften 123.547 177.768
+181.213 263.736
+9. Personeelskosten
+Bruto loon (incl. vakantiegeld en eindejaarsuitkering) 636.042 672.366
+Sociale lasten 118.060 148.668
+Pensioenlasten 48.845 55.816
+Overige personeelskosten 50.660 62.252
+853.607 939.102
+Bruto loon (incl. vakantiegeld en eindejaarsuitkering)
+Bruto lonen 621.345 696.910
+Mutatie reserveringen personeel 9.477 -2.776
+Mutatie verplichting jubileumuitkeringen 1.050 1.325
+Uitzendkrachten 50.567 5.270
+682.439 700.729
+Ontvangen ziekengelduitkeringen -46.397 -26.167
+Ontvangen subsidies -2.196
+636.042 672.366
+
+Stichting Moria, Nijmegen
+
+
+CONTOUR ze
+ACCOUNTANTS
+A4
+2019 2018
+
+€ €
+Sociale lasten
+Uitvoeringsinstelling Werknemersverzekeringen 101.403 110.124
+Ziekteverzuimverzekering 16.657 38.544
+
+118.060 148.668
+Pensioenlasten
+Pensioenlasten 48.845 55.816
+Overige personeelskosten
+Kosten intake 20.553 20.515
+Reiskostenvergoedingen 15.061 14.456
+Onkostenvergoedingen 232 69
+Kosten vrijwilligers 1.692 1.500
+Arbodienst en reintegratie 4.065 10.656
+Kantinekosten 11 232
+Wervingskosten 1.136 1.588
+Opleidingskosten 3.621 10.049
+Overige personeelskosten 4,289 3.187
+
+50.660 62.252
+
+Personeelsleden
+
+Gedurende het jaar 2019 waren 15 werknemers in dienst op basis van een volledig dienstverband (2018: 19).
+
+Afschrijvingen
+Afschrijvingen materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen
+Inventaris
+Vervoermiddelen
+
+Boekresultaat
+Afschrijvingen ten laste van egalisatiereserve
+
+Stichting Moria, Nijmegen
+
+78.065 80.908
+3.325 3.847
+765 2.295
+82.155 87.050
+-769 -
+-53.899 -53.899
+27.487 33.151
+
+
+CONTOUR »
+ACCOUNTANTS
+VV
+2019 2018
+€ €
+10. Overige bedrijfskosten
+Huisvestingskosten 43.446 57.173
+Patiënt- en bewonersgebonden kosten 81.909 96.674
+Kantoorkosten 59.136 60.327
+Autokosten 1.146 3.798
+Verkoopkosten 3.072 5.358
+Algemene kosten 61.757 37.871
+250.466 261.201
+Huisvestingskosten
+Gas, water, electra 34.393 34.412
+Onderhoud onroerende zaak 2.282 31.812
+Zakelijke lasten pand 8.011 8.191
+Schoonmaakkosten 7.540 5.161
+Overige huisvestingskosten 434 869
+52.660 80.445
+Teruggaaf energiebelasting boekjaar -9.214 -6.637
+Teruggaaf energiebelasting voorgaande jaren -16.635
+43.446 57.178
+Patiënt- en bewonersgebonden kosten
+Opstartkosten 5.623 8.616
+Kosten begeleiding 13.369 23.796
+Directe kosten bewoners 54.928 48.644
+Begeleid werken 6.166 15.045
+Kleine aanschaffingen 1.823 573
+81.909 96.674
+Kantoorkosten
+Kantoorbenodigdheden 1.764 1.687
+Automatiseringskosten 43.864 49.377
+Telefoon 10.485 8.728
+Contributies en abonnementen 2.872 415
+Overige kantoorkosten 151 120
+59.136 60.327
+
+Stichting Moria, Nijmegen
+
+
+Stichting Moria, Nijmegen
+
+CONTOUR e
+ACCOUNTANTS
+VV
+2019 2018
+€ €
+Autokosten
+Brandstoffen 221 1.230
+Onderhoud - 714
+Motorrijtuigenbelasting 432 1.472
+Zakelijke reizen 363 288
+Overige autokosten 130 94
+1.146 3.798
+Verkoopkosten
+Representatiekosten 1.624 2.696
+Overige verkoopkosten 1.448 2.662
+3.072 5.358
+Algemene kosten
+Salarisadministratie 3.949 7.255
+Accountantskosten 24.083 23.994
+Administratiekosten 7.745 11.753
+Advieskosten - 12.752
+Verzekeringen 18.242 20.057
+Bestuurskosten 377 438
+Keurmerkinstituut en kwaliteitskosten 1,513 3.220
+Overige algemene kosten 1.478 1.777
+Afwaarderingen c.q. verschillen balansposten voorgaande jaren 4.370 -43.375
+61.757 37.871
+11. Financiële baten en lasten
+Rentelasten en soortgelijke kosten
+Bankrente en -kosten 1.142 854
+Rente Belastingdienst 525
+1.142 1.379
+
+
+25.
+
+OVERIGE TOELICHTING
+
+Bezoldiging van (voormalige) bestuurders en commissarissen
+
+WNT
+
+De WNT verantwoording is opgenomen in de bijlage.
+
+Ondertekening van de jaarrekening
+
+Nijmegen, 17 juni 2020
+
+Stichting Moria, Nijmegen
+
+CONTOUR
+
+ACCOUNTANTS
+
+A4
+
+Directie voor akkoord Raad van Toezicht voor akkoord
+
+drs. A.T.A. Stuart (Voorzitter Raad van Bestuur)
+
+F. van Opdorp (voorzitter)
+
+J.G. Scholte (lid)
+
+E. Venderbosch (lid)
+
+A. Hillen (lid)
+
+R. Brouwer (lid)
+
+K. Swaanen (lid)
+
+G. de Haan (lid)
+
+CG. Cuppen-Blankenspoor (lid)
+
+Stichting Moria, Nijmegen
+
+OVERIGE GEGEVENS
+
+OVERIGE GEGEVENS
+
+1 CONTROLEVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan: het bestuur van Stichting Moria statutair gevestigd te Nijmegen
+
+A. Verklaring over de in het jaarverslag opgenomen jaarrekening 2019
+Ons oordeel
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2019 van Stichting Moria te Nijmegen
+gecontroleerd.
+
+Naar ons oordeel geeft de in dit jaarverslag opgenomen jaarrekening een getrouw beeld van
+de grootte en de samenstelling van het vermogen van Stichting Moria per 31 december 2019
+en van het resultaat over 2019 in overeenstemming met RJk C1 en in overeenstemming met
+wet- en regelgeving en bepalingen bij en krachtens de WNT.
+
+De jaarrekening bestaat uit:
+
+1. de balans per 31 december 2019;
+2 de staat van baten en lasten over 2019;
+3, de toelichting met een overzicht van de gehanteerde grondslagen voor
+
+financiële verslaggeving en andere toelichtingen.
+De basis voor ons oordeel
+
+Wij hebben onze controle uitgevoerd volgens het Nederlands recht, waaronder ook de
+Nederlandse controlestandaarden vallen. Onze verantwoordelijkheden op grond hiervan zijn
+beschreven in de sectie ‘Onze verantwoordelijkheden voor de controle van de jaarrekening’.
+
+Wij zijn onafhankelijk van Stichting Moria zoals vereist in de Wet toezicht
+accountantsorganisaties (Wta), de Verordening inzake de onafhankelijkheid van accountants
+bij assurance-opdrachten (ViO) en andere voor de opdracht relevante
+onafhankelijkheidsregels in Nederland. Verder hebben wij voldaan aan de Verordening
+gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen controle-informatie voldoende en geschikt is als basis
+voor ons oordeel.
+
+VEN LO VEN RAY Op al onze diensten zijn de algemene SRA voorwaarden van toepassing, welke
+
+: gedeponeerd zijn bij de KvK te Utrecht onder nr. 40481496. CONTOUR is een
+Noorderpoort 39, 5916 PJ Venlo Keizersveld 50, 5803 AN Vervag 7 maatschap van besloten (beroeps)vennootschappen. ledere aansprakelijkheid
+T +31 (0) 77 320 2900 T +31 (0) 478 851 000 is beperkt tot het bedrag dat in het desbetreffende geval onder onze beroeps-
+
+. aansprakelijkheidsverzekering wordt uitbetaald. Tenzij uitdrukkelijk anders
+Postbus 239, 5900 AE Venlo | info@contouraccountants.nl vermeld is op in dit bericht of in enige bijlage opgenomen verantwoording(en)
+
+Beconnr. 411528 | KvK nr. 14109132 door ons geen accountantscontrole toegepast.
+
+
+CONTOUR
+
+ACCOUNTANTS
+
+WW
+
+B. Beschrijving van verantwoordelijkheden met betrekking tot de jaarrekening
+Verantwoordelijkheden van het bestuur voor de jaarrekening
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de
+jaarrekening in overeenstemming met de Richtlijn voor de jaarverslaggeving voor kleine
+organisaties zonder winststreven, alsmede in overeenstemming met de bepalingen bij en
+krachtens de WNT. In dit kader is het bestuur verantwoordelijk voor een zodanige interne
+beheersing die het bestuur noodzakelijk acht om het opmaken van de jaarrekening mogelijk
+te maken zonder afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Bij het opmaken van de jaarrekening moet het bestuur afwegen of de onderneming in staat is
+om haar werkzaamheden in continuïteit voort te zetten. Op grond van genoemd
+verslaggevingsstelsel moet het bestuur de jaarrekening opmaken op basis van de
+continuïteitsveronderstelling, tenzij het bestuur het voornemen heeft om de stichting te
+liquideren of de bedrijfsactiviteiten te beëindigen of als beëindiging het enige realistische
+alternatief is.
+
+Het bestuur moet gebeurtenissen en omstandigheden waardoor gerede twijfel zou kunnen
+bestaan of de onderneming haar bedrijfsactiviteiten in continuïteit kan voortzetten, toelichten
+in de jaarrekening.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een controleopdracht dat
+wij daarmee voldoende en geschikte controle-informatie verkrijgen voor het door ons af te
+geven oordeel.
+
+Onze controle is uitgevoerd met een hoge mate maar geen absolute mate van zekerheid
+waardoor het mogelijk is dat wij tijdens onze controle niet alle materiële fouten en fraude
+ontdekken.
+
+Afwijkingen kunnen ontstaan als gevolg van fraude of fouten en zijn materieel indien
+redelijkerwijs kan worden verwacht dat deze, afzonderlijk of gezamenlijk, van invloed kunnen
+zijn op de economische beslissingen die gebruikers op basis van deze jaarrekening nemen.
+De materialiteit beïnvloedt de aard, timing en omvang van onze controlewerkzaamheden en
+de evaluatie van het effect van onderkende afwijkingen op ons oordeel.
+
+Wij hebben deze accountantscontrole professioneel kritisch uitgevoerd en hebben waar
+relevant professionele oordeelsvorming toegepast in overeenstemming met de Nederlandse
+controlestandaarden, ethische voorschriften, onafhankelijkheidseisen en de Regeling
+Controleprotocol WNT 2019. Onze controle bestond onder andere uit:
+
+VEN LO VEN RAY Op al onze diensten zijn de algemene SRA voorwaarden van toepassing, welke
+
+Keizersveld 50. 5803 AN Ven gedeponeerd zijn bij de KvK te Utrecht onder nr. 40481496. CONTOUR is een
+Noorderpoort. 33, 5916 FJ Venlo Iz ' LB maatschap van besloten (beroeps)vennootschappen. ledere aansprakelijkheid
+T +31 (0) 77 320 2900 T +31 (0) 478 851 000
+
+is beperkt tot het bedrag dat in het desbetreffende geval onder onze beroeps-
+
+, aansprakelijkheidsverzekering wordt uitbetaald. Tenzij uitdrukkelijk anders
+Postbus 239, 5900 AE Venlo | info@contouraccountants.nl vermeld is op in dit bericht of in enige bijlage opgenomen verantwoording(en)
+
+Beconnr. 411528 | KvK nr. 14109132 door ons geen accountantscontrole toegepast.
+
+
+VENLO
+
+Noorderpoort 39, 5916 PJ Venlo | Keizersveld 50, 5803 AN Venray) .
+
+het identificeren en inschatten van de risico's dat de jaarrekening afwijkingen
+van materieel belang bevat als gevolg van fouten of fraude, het in reactie op
+deze risico's bepalen en uitvoeren van controlewerkzaamheden en het
+verkrijgen van controle-informatie die voldoende en geschikt is als basis voor
+ons oordeel. Bij fraude is het risico dat een afwijking van materieel belang niet
+ontdekt wordt groter dan bij fouten. Bij fraude kan sprake zijn van
+samenspanning, valsheid in geschrifte, het opzettelijk nalaten transacties vast te
+leggen, het opzettelijk verkeerd voorstellen van zaken of het doorbreken van de
+interne beheersing;
+
+het verkrijgen van inzicht in de interne beheersing die relevant is voor de
+controle met als doel controlewerkzaamheden te selecteren die passend zijn in
+de omstandigheden. Deze werkzaamheden hebben niet als doel om een
+oordeel uit te spreken over de effectiviteit van de interne beheersing van de
+entiteit;
+
+het evalueren van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren van de redelijkheid van schattingen door het
+bestuur en de toelichtingen die daarover in de jaarrekening staan;
+
+het vaststellen dat de door het bestuur gehanteerde continuïteitsveronderstelling
+aanvaardbaar is. Tevens het op basis van de verkregen controle-informatie
+vaststellen of er gebeurtenissen en omstandigheden zijn waardoor gerede twijfel
+zou kunnen bestaan of de onderneming haar bedrijfsactiviteiten in continuïteit
+kan voortzetten. Als wij concluderen dat er een onzekerheid van materieel
+belang bestaat, zijn wij verplicht om aandacht in onze controleverklaring te
+vestigen op de relevante gerelateerde toelichtingen in de jaarrekening. Als de
+toelichtingen inadequaat zijn, moeten wij onze verklaring aanpassen. Onze
+conclusies zijn gebaseerd op de controle-informatie die verkregen is tot de
+datum van onze controleverklaring. Toekomstige gebeurtenissen of
+omstandigheden kunnen er echter toe leiden dat een onderneming haar
+continuïteit niet langer kan handhaven;
+
+het evalueren van de presentatie, structuur en inhoud van de jaarrekening en de
+daarin opgenomen toelichtingen; en
+
+het evalueren of de jaarrekening een getrouw beeld geeft van de onderliggende
+transacties en gebeurtenissen.
+
+VEN RAY Op al onze diensten zijn de algemene SRA voorwaarden van toepassing, welke
+gedeponeerd zijn bij de KvK te Utrecht onder nr. 40481496. CONTOUR is een
+maatschap van besloten (beroeps)vennootschappen. ledere aansprakelijkheid
+
+T +31 (0) 77 320 2900 T +31 (0) 478 851 000 is beperkt tot het bedrag dat in het desbetreffende geva! onder onze beroeps-
+. aansprakelijkheidsverzekering wordt uitbetaald. Tenzij uitdrukkelijk anders
+Postbus 239, 5900 AE Venlo | info@contouraccountants.nl vermeld ìs op in dit bericht of in enige bijlage opgenomen verantwoording(en)
+
+Beconnr. 411528 | KvK nr. 14109132 door ons geen accountantscontrole toegepast.
+
+Wij communiceren met de met governance belaste personen onder andere over de geplande
+reikwijdte en timing van de controle en over de significante bevindingen die uit onze controle
+naar voren zijn gekomen, waaronder eventuele significante tekortkomingen in de interne
+
+beheersing.
+
+Venray, 17 juni 2020
+CONTOUR
+
+ID ESP en
+G
+
+B.J.M. Janssen MSc
+Registeraccountant
+
+VENLO VENRAY
+Noorderpoort 39, 5916 PJ Venlo | Keizersveld 50, 5803 AN Venray
+T +31 (0) 77 320 2900 T +31 (0) 478 851 000
+
+Postbus 239, 5900 AE Venlo | info@contouraccountants.nl
+Beconnr. 411528 | KvK nr. 14109132
+
+Op al onze diensten zijn de algemene SRA voorwaarden van toepassing, welke
+gedeponeerd zijn bij de KvK te Utrecht onder nr. 40481496. CONTOUR is een
+maatschap van besloten (beroeps)vennootschappen. ledere aansprakelijkheid
+is beperkt tot het bedrag dat in het desbetreffende geval onder onze beroeps-
+aansprakelijkheidsverzekering wordt uitbetaald. Tenzij uitdrukkelijk anders
+vermeld is op in dit bericht of in enige bijlage opgenomen verantwoording{en)
+door ons geen accountantscontrole toegepast.
+
+2 BESTEMMING VAN DE WINST 2019
+
+De directie stelt voor om de winst over 2019 ad € 12.833 toe te voegen aan de overige reserves.
+Vooruitlopend op de vaststelling door de algemene vergadering is dit voorstel reeds in de jaarrekening
+verwerkt.
+
+-32-
+
+BIJLAGE: WNT-VERANTWOORDING 2019
+
+De WNT is van toepassing op Stichting Moria. Het voor Stichting Moria toepasselijke bezoldigings-
+maximum in 2019 is € 107.000 (Zorg- en Jeugdhulp Klasse I).
+
+Bezoldiging leidinggevende topfunctionarissen
+
+Functiegegevens Voorzitter RvB
+
+Aanvang en einde functievervulling in 01/01 — 31/12
+2018
+
+Omvang dienstverband (als 0,93
+deeltijdfactor in fte)
+
+Dienstbetrekking Ja
+
+Bezoldiging
+
+Beloning plus belastbare
+
+. € 72.437
+onkostenvergoedingen
+Beloningen betaalbaar op termijn € 3.680
+Subtotaal € 76.117
+Ind\vidueel toepasselijke € 99.510
+bezoldigingsmaximum
+-/- Onverschuldigd betaald en nog niet
+N.v.t.
+terugontvangen bedrag
+Totale bezoldiging € 76.117
+Reden waarom de overschrijding al dan
+mr N.v.t.
+niet is toegestaan
+Toelichting op de vordering wegens
+k À N.v.t.
+onverschuldigde betaling
+Gegevens 2018
+Det de A a B
+Functiegegevens Voorzitter RvB Lid RvB
+Aanvang en einde functievervulling in 01/01 - 31/12 01/01 — 31/05
+2017
+Omvang dienstverband (als 0,78 0,22
+deeltijdfactor in fte)
+Dienstbetrekking ja ja
+Bezoldiging
+Beloning plus LASTE € 59.371 € 7.481
+onkostenvergoedingen
+Beloningen betaalbaar op termijn £ 3.193 € 0
+Subtotaal € 62.564 € 7.481
+Individueel toepasselijke € 80.111 € 9.537
+
+bezoldigingsmaximum
+
+Totale bezoldiging € 62.564 € 7.481
+
+
+Bezoldiging toezichthoudende functionarissen
+De Raad van Toezicht verricht haar diensten onbezoldigd en bestaat uit de volgende personen:
+
+F. van Opdorp - voorzitter
+J.G. Scholte - lid
+E. Venderbosch - lid
+A. Hillen - lid
+R. Brouwer - lid
+K. Swaanen - lid
+G. de Haan - lid
+
+C. Cuppen-Blankenspoor - lid

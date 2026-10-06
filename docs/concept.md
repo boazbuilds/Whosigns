@@ -165,11 +165,53 @@ frontend op echte data → Fase 3 signalen v1 → Fase 4 verbreden (DUO + transp
 ## 9. Guardrails
 
 - **Alleen openbare data in v1**; label `publiek` vs. `zelf_aangeleverd` overal verplicht.
-- **AVG:** sla uitsluitend het kantóór op, nooit namen van tekenend accountants of andere
-  natuurlijke personen. Ook niet in ruwe extractie-output bewaren.
-- **KVK:** geëxtraheerde feiten gebruiken, maar geen volledige gedeponeerde documenten
-  publiek herpubliceren; geen de-anonimisering van open datasets; leveringsvoorwaarden
-  checken vóór livegang van KvK-gebaseerde data.
+- **AVG:** de tekenend accountant mág worden opgeslagen en getoond, mits de naam uit
+  een openbare bron komt: de gedeponeerde controleverklaring zelf, een eigen publicatie
+  van het kantoor, of een openbaar register (AFM, NBA). Besluit van de opdrachtgever,
+  20-8-2026. Hiervóór stond hier het omgekeerde ("nooit namen van tekenend accountants
+  of andere natuurlijke personen"); dat is bewust omgedraaid, want wie tekent is precies
+  wat dit naslagwerk wil laten zien.
+
+  Let op waaróm het mag, want dat is *niet* "accountants vallen buiten de AVG" — zo'n
+  uitzondering per beroepsgroep bestaat niet. De AVG geldt gewoon. De grondslag is het
+  gerechtvaardigd belang (art. 6 lid 1 sub f) van een publiek naslagwerk over wie welke
+  jaarrekening tekent, versterkt doordat de naam al openbaar ís: de organisatie is
+  wettelijk verplicht de verklaring te deponeren, en de accountant staat in het openbare
+  accountantsregister. Mogelijk valt het daarnaast onder de journalistieke uitzondering
+  (art. 43 UAVG). Wie deze regel ooit citeert: citeer de grondslag erbij, niet alleen de
+  conclusie.
+
+  Wat hiermee níét is toegestaan:
+  - **Andere natuurlijke personen.** Bestuurders, toezichthouders, medewerkers,
+    contactpersonen: niet opslaan, niet tonen, niet loggen.
+  - **Afleiden of gokken.** Alleen de naam die in het stuk als ondertekenaar staat.
+    Twijfel gaat naar `review_queue` en nooit stil de database in: een verkeerde naam
+    onder een niet-goedkeurend oordeel is geen leemte maar een beschuldiging.
+  - **Zonder vindplaats.** Dezelfde `bron`-eis als voor elk ander feit.
+
+  Wat erbij hoort vóór dit veld live gaat:
+  - een privacyalinea op de site — welk gegeven, waarvandaan, waarvoor, en hoe je
+    bezwaar maakt of een correctie vraagt;
+  - een adres waar dat naartoe kan, en correctie binnen redelijke termijn;
+  - een besluit over een eigen pagina per accountant. Die is journalistiek het meest
+    waard (partnerroulatie is bij OOB's wettelijk verplicht en dus controleerbaar), maar
+    hij maakt van een naam-bij-een-opdracht een profiel. Nog open.
+- **KVK:** mag als bron, sinds 21-8-2026 ("je mag alle bronnen gebruiken, ook kvk
+  als dat handig is en kan"). Daarmee vervalt de uitsluiting die tot dan gold; wat
+  blijft zijn de voorwaarden die nooit een kwestie van voorkeur waren:
+  geëxtraheerde feiten gebruiken maar geen volledige gedeponeerde documenten
+  publiek herpubliceren; geen de-anonimisering van open datasets;
+  leveringsvoorwaarden naleven; en de `bron`-eis onverkort. Maar óók besloten,
+  dezelfde dag: **er wordt niet betaald voor KvK-data.** Deponeringen op naam
+  kosten ±€3,65 per jaarrekening en dat is afgewezen; de gratis KvK-routes
+  leveren niets wat dit project nodig heeft (de open dataset jaarrekeningen is
+  geanonimiseerd, de zoek-API geeft alleen basisgegevens die we al uit de
+  bronnen zelf hebben). Netto blijft de KvK dus toegestaan maar ongebruikt, en
+  blijft de commerciële mid-market buiten beeld — de dekkingsdisclaimer op de
+  site dekt dat. De weigerlijst voor register-doorverkopers
+  (drimble, opencorporates e.d.) blijft bestaan, maar op een andere grond: die
+  sites bevatten geen controleverklaringen, dus als víndplaats voor "wie tekent
+  waar" bewijzen ze niets — dat is een kwaliteitseis, geen bronverbod.
 - **Datakwaliteit:** imports idempotent; onzekere AI-extracties (< hoge confidence) naar een
   review-queue, niet stil in productie; nooit fictieve/demo-data mengen met echte data
   (aparte seed-set met duidelijke vlag).

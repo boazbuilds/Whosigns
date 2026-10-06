@@ -1,0 +1,888 @@
+# whosigns-ocr v1 grootte=5567013 dpi=300 paginas=20
+„Id
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Samenstelling geldmiddelen
+
+2021 2020
+€ € € €
+Geldmiddelen per 1 januari 37.803 -
+Mutatie liquide middelen 90.963 37.803
+Geldmiddelen per 31 december 128.766 37.803
+
+Samenstellingsverklaring afgegeven
+
+
+-15-
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+Zorginstelling De Pastorie Zorg B.V. is statutair (en feitelijk) gevestigd te Aarle-Rixtel, op het adres
+Dorpsstraat 7, 5735 EA te Aarle-Rixtel. KvK nummer 65268172.
+
+De activiteiten van De Pastorie Zorg B.V. bestaan voornamelijk uit het leveren van thuiszorgdiensten
+ten boehoeve van ouderen en zieken.
+
+Continuïteit
+
+De onderneming heeft een netto verlies geleden van € 25.281 over 2021 en daarnaast per 31
+december 2021 een negatief eigen vermogen van € 164.674 verantwoord. De gehanteerde
+grondslagen voor waardering en resultaatbepaling zijn gebaseerd op de continuïteitsveronderstelling
+van de onderneming. Ondanks de magere financiële positie van de onderneming is er, naar onze beste
+inschatting en alle feiten en omstandigheden in ogenschouw nemend, geen sprake van een ernstige
+onzekerheid van de continuïteit van onze organisatie en derhalve ook niet van onontkoombare
+discontinuïteit. Reden hiervoor is dat de onderneming maatregelen heeft doorgevoerd in het kader
+van kostenbesparingen en optimalisatie van de bedrijfsprocessen. In 2022 is de bezettingsgraad weer
+voldoende om een gezonde bedrijfsvoering mogelijk te maken. Bovendien is de capaciteit uitgebreid
+waardoor de omzet structureel op een hoger niveau kan worden gesteld en zijn taken en
+verantwoordelijkheden herverdeeld waardoor de organisatiekosten structureel verlaagd worden. Op
+grond hiervan is de jaarrekening opgemaakt op basis van waarderingsgrondslagen die uitgaan van
+continuïteit van de onderneming.
+
+Groepsverhoudingen
+
+De vennootschap maakt deel uit van een groep, waarvan Born2Care B.V. te Beek en Donk aan het
+hoofd staat,
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding
+van De Pastorie Zorg B.V. zich verschillende oordelen en schattingen die essentieel kunnen zijn voor
+de in de jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1
+BW vereiste inzicht noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de
+bijbehorende veronderstellingen opgenomen bij de toelichting op de desbetreffende
+jaarrekeningposten.
+
+Samenstellingsverklaring afgegeven
+
+-10-
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Verbonden partijen
+
+Als verbonden partij worden aangemerkt alle rechtspersonen waarover overheersende zeggenschap,
+gezamenlijke zeggenschap of invloed van betekenis kan worden uitgeoefend. Ook rechtspersonen die
+overwegende zeggenschap kunnen uitoefenen. worden aangemerkt als verbonden partij. Ook de
+statutaire directieleden en nauwe verwanten zijn verbonden partijen. Van betekenis zijnde transacties
+met verbonden partijen worden toegelicht voor zover die niet onder normale marktvoorwaarden zijn
+aangegaan. Hiervan worden toegelicht de aard en de omvang van de transactie en andere informatie
+die nodig is voor het veschaffen van het inzicht.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DEJAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi, de
+Richtlijnen voor de Jaarverslaggeving RJ 655, Titel 9 BW2 en de bepalingen van en krachtens de
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT).
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs
+of de actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering
+plaats tegen de verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties
+opgenomen. Met deze referenties wordt verwezen naar de toelichting.
+
+Een actief wordt in de balans opgenomen wanneer het waarschijnlijk is dat de toekomstige
+economische voordelen naar zorginstelling De Pastorie Zorg B.V. zullen toevloeien en de waarde
+daarvan betrouwbaar kan worden vastgesteld.
+
+Een verplichting wordt in de balans opgenomen wanneer het waarschijnlijk is dat de afwikkeling
+daarvan gepaard zal gaan met een uitstroom van middelen die economische voordelen in zich bergen
+en de omvang van het bedrag daarvan betrouwbaar kan worden vastgesteld.
+
+Bijzondere posten
+
+Bijzondere posten zijn baten of lasten die voortvloeien uit gebeurtenissen of transacties die behoren
+tot het resultaat uit de normale, niet-incidentele bedrijfsactiviteiten, maar die omwille van de
+vergelijkbaarheid apart toegelicht worden op grond van de aard, omvang of het incidentele karakter
+van de post.
+
+Samenstellingsverklaring afgegeven
+
+
+-if=
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Materiële vaste activa
+De materiële vaste activa worden gewaardeerd op kostprijs, verminderd met de cumulatieve
+afschrijvingen en indien van toepassing met bijzondere waardeverminderingen.
+
+Materiële vaste activa met een beperkte gebruiksduur worden afzonderlijk afgeschreven op basis van
+de economische levensduur. De onderneming past de componentenbenadering toe voor materiële
+vaste activa indien belangrijke afzonderlijke bestanddelen van een materieel vast actief van elkaar te
+onderscheiden zijn. Rekening houdend met verschillen in gebruiksduur of verwacht gebruikspatroon,
+worden deze bestanddelen afzonderlijk afgeschreven.
+
+Financiële vaste activa
+
+Vorderingen op deelnemingen
+De vorderingen op en leningen aan deelnemingen alsmede de overige vorderingen worden bij eerste
+
+verwerking opgenomen tegen de nominale waarde, onder aftrek van noodzakelijk geachte
+voorzieningen.
+
+Latente belastingvorderingen
+
+Latente belastingvorderingen worden opgenomen voor verrekenbare fiscale verliezen en voor
+verrekenbare tijdelijke verschillen tussen de waarde van de activa en passiva volgens fiscale
+voorschriften enerzijds en de in deze jaarrekening gevolgde waarderingsgrondslagen anderzijds, met
+dien verstande dat latente belastingvorderingen alleen worden opgenomen voor zover het
+waarschijnlijk is dat er toekomstige fiscale winst zal zijn waarmee de tijdelijke verschillen kunnen
+worden verrekend en verliezen of nog niet gebruikte fiscale verrekeningsmogelijkheden kunnen
+worden gecompenseerd.
+
+De berekening van de latente belastingvorderingen geschiedt tegen de op het einde van het
+verslagjaar geldende belastingtarieven of tegen de in komende jaren geldende tarieven, voor zover
+deze al bij wet zijn vastgesteld.
+
+Latente belastingvorderingen worden gewaardeerd op nominale waarde.
+
+Vorderingen
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de nominale waarde, onder aftrek van
+
+noodzakelijk geachte voorziening voor dubieuze vorderingen.
+
+Liquide middelen
+De liquide middelen zijn gewaardeerd tegen de nominale waarde.
+
+Samenstellingsverklaring afgegeven
+
+-13-
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Langlopende schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer
+dan één jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De
+schulden worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd
+tegen de geamortiseerde kostprijs (nominale waarde). De aflossingsverplichtingen voor het komend
+jaar van de langlopende schulden worden opgenomen onder kortlopende schulden.
+
+Kortlopende schulden
+
+De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden
+bij eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de
+geamortiseerde kostprijs (nominale waarde). De aflossingsverplichtingen voor het komend jaar van
+de langlopende schulden worden opgenomen onder kortlopende schulden.
+
+Gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken
+tot aan de datum van het opmaken van de jaarrekening worden verwerkt in de
+
+jaarrekening. Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per
+balansdatum worden niet in de jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn
+voor de oordeelsvorming van de gebruikers van de jaarrekening, worden de aard en de geschatte
+financiële gevolgen ervan toegelicht in de jaarrekening.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en
+de kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het
+jaar waarin zij zijn gerealiseerd.
+
+Opbrengstverantwoording
+
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van diensten onder aftrek van kortingen en dergelijke
+en van over de omzet geheven belastingen.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde
+prestaties, gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te
+verrichten diensten.
+
+Segmentering
+
+In de jaarrekening wordt afgezien van segmentering. De resultaten van de groep worden als geheel
+gezien. Dit heeft geen invloed op de resultaatbestemming. Het resultaat wordt toegevoegd aan de
+algemene reserve.
+
+Samenstellingsverklaring afgegeven
+
+
+„ij
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Overige bedrijfsopbrengsten
+
+Onder overige bedrijfsopbrengsten worden resultaten verantwoord die niet rechtstreeks samenhangen
+met de levering van goederen of diensten in het kader van de normale, niet-incidentele
+bedrijfsactiviteiten. Deze opbrengsten worden toegerekend aan de verslagperiode in
+overeenstemming met de inhoud van de overeenkomst.
+
+Overheidssubsidies:
+
+Overheidssubsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra
+er redelijke zekerheid bestaat dat zij zullen worden ontvangen en dat de groep zal voldoen aan de
+daaraan verbonden voorwaarden. Subsidies ter compensatie van door de groep gemaakte kosten
+worden systematisch als opbrengsten in de winst-en-verliesrekening opgenomen in dezelfde periode
+als die waarin de kosten worden gemaakt. Subsidies ter compensatie van de groep voor de kosten van
+een actief worden systematisch in de winst-en-verliesrekening opgenomen gedurende de
+gebruiksduur van het actief, Subsidies met betrekking tot investeringen in materiële vaste activa
+worden in mindering gebracht op het desbetreffende actief en als onderdeel van de afschrijvingen
+verwerkt in de winst-en-verliesrekening.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij
+betrekking hebben.
+
+Samenstellingsverklaring afgegeven
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Personeelsbeloningen
+
+Periodiek betaalbare beloningen
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+winst-en-verliesrekening.
+
+Pensioenen
+
+De Pastorie Zorg B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in
+aanmerking komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen
+dat is gebaseerd op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen
+heeft opgebouwd bij De Pastorie Zorg B.V. De verplichtingen, die voortvloeien uit deze rechten van
+haar personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. De Pastorie
+Zorg B.V. betaalt hiervoor premies waarvan de helft door de werkgever wordt betaald en de helft
+door de werknemer. De pensioenrechten worden Jaarlijks geïndexeerd, indien en voor zover de
+dekkingsgraad van het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar
+financiële verplichtingen) dit toelaat. Per 1 januari 2015 gelden nieuwe regels voor pensioenfondsen.
+Daarbij behoort ook een nieuwe berekening van de dekkingsgraad. De ‘nieuwe’ dekkingsgraad is het
+gemiddelde van de laatste twaalf dekkingsgraden. Door een gemiddelde te gebruiken, zal de
+dekkingsgraad nu minder sterk schommelen. In december 2020 bedroeg de beleidsdekkingsgraad
+88,3%. Het vereiste niveau van de dekkingsgraad is 125%. Het pensioenfonds verwacht volgens het
+herstelplan binnen 10 jaar hieraan te kunnen voldoen en voorziet geen noodzaak voor de aangesloten
+instellingen om extra stortingen te verrichten of om bijzondere premieverhogingen door te voeren. De
+Pastorie Zorg B.V. heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een
+tekort bij het pensioenfonds, anders dan het effect van hogere toekomstige premies. De Pastorie Zorg
+B.V. heeft daarom alleen de verschuldi gde premies tot en met het einde van het boekjaar in de
+jaarrekening verantwoord.
+
+Wet Normering Topinkomens (WNT)
+
+Voorde uitvoering van de Wet normering bezoldiging topfunctionarissen in de (semi)publieke sector
+(WNT) heeft de vennootschap zich gehouden aan de Beleidsregel toepassing WNT en deze als
+normenkader bij het opmaken van deze jaarrekening gehanteerd.
+
+Afschrijvingen
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages van
+de aanschaffingswaarde, op basis van de verwachte economische levensduur. Boekwinsten en -
+verliezen bij verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen.
+
+Samenstellingsverklaring afgegeven
+
+
+=-Zl=
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve
+rentevoet van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt
+rekening gehouden met de verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande
+boekjaren en vrijgestelde winstbestanddelen en na bijtelling van niet-aftrekbare kosten.
+
+GRONDSLAGEN VOOR DE OPSTELLING VAN HETKASSTROOMOVERZICHT
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+Betalingen welke voortvloeien uit langlopende leningen worden voor het gedeelte dat betrekking
+
+heeft op de rente opgenomen onder de kasstroom uit operationele activiteiten en voor het gedeelte dat
+betrekking heeft op de aflossing als kasstroom uit financieringsactiviteiten.
+
+Samenstellingsverklaring afgegeven
+
+„ZZ
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Boekwaarde per 1 januari 2021
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Mutaties
+Investeringen
+Afschrijvingen
+
+Boekwaarde per 31 december 2021
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Boekwaarde per 31 december 2021
+
+Afschrijvingspercentages
+
+Inventaris
+
+Samenstellingsverklaring afgegeven
+
+Inventaris
+€
+
+25.581
+=11.755
+
+13.826
+
+1.959
+-4.819
+
+-2.860
+
+27.540
+-16.574
+
+10.966
+
+20
+
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+2 Ei il p
+2021 2020
+€ 6
+Latente belastingvorderingen
+Stand per 1 januari 28.756 19.508
+Mutatie 1.350 9.248
+Stand per 31 december 30.106 28.756
+
+Per 31 december 2021 bedraagt de omvang van de nog te verrekenen verliezen € 200.708.
+
+VLOTTENDE ACTIVA
+3. Vorderingen
+31-12-2021 31-12-2020
+€ €
+
+varderi hanpii
+Born2Care B.V. 230.121 221.270
+Over de vorderingen wordt 4% rente berekend.
+Omtrent aflossingen en zekerheden zijn geen verdere afspraken overeengekomen.
+Overlopende activa
+Nog te factureren omzet 67.423 22.535
+Subsidies 1.926 2.204
+Verzekeringen 3.478 3.638
+Contributies en abonnementen - 1.210
+
+72.827 29.587
+EK enileiifdel
+Rabobank NL48 RABO 0148 7221 13 Zakelijke rekening 128.766 37.803
+
+Per balansdatum heeft men geen beschikking over een kredietfaciliteit in rekening-courant.
+
+Samenstellingsverklaring afgegeven
+
+Ad
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+PASSTVA
+SEIGEN VERMOGEN
+31-12-2021 31-12-2020
+
+€ €
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 10 gewone aandelen nominaal € 1,00 10 10
+
+2021 2020
+
+€ €
+Overige reserve
+Stand per 1 januari -139.403 -181.119
+Resultaatbestemming boekjaar -25.281 41.716
+Stand per 31 december -164.684 -139.403
+
+6 LANGLOPENDE SCHULDEN
+
+31-12-2021 31-12-2020
+€ €
+
+Belt lee sne zekerie
+
+Loonheffing 207.188 125.210
+
+In verband met COVID-19 heeft de onderneming bijzonder uitstel van betaling ontvangen. De
+terugbetaling van de opgebouwde belastingschuld vindt plaats vanaf 1 oktober 2022. Vanaf 1 oktober
+2022 dient de belastingschuld in maximaal 60 maanden worden terugbetaald. Terugbetalen mag in 60
+maandelijkse termijnen echter vervroegd aflossen is ook mogelijk. De uiterlijke terugbetaaldatum is
+derhalve 1 oktober 2027.
+
+Het kortlopende deel zijnde de aflossingsverplichting voor 2022 bedraagt € 18.835 en is
+gepresenteerd onder de kortlopende belastingschulden.
+
+Samenstellingsverklaring afgegeven
+
+
+=ZI-
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+31-12-2021 31-12-2020
+
+€ €
+Schuld N handelskredi
+Crediteuren 10.237 2.362
+Schuld happii
+De Pastorie Facilitair B.V. 34.941 57.576
+Over de schulden wordt 4% rente berekend.
+Omtrent aflossingen en zekerheden zijn geen verdere afspraken overeengekomen.
+Overige helasti 3 al Keri
+Loonheffing 44.808 5
+Pensioenen 3.792 4,254
+
+48.600 4,254
+
+Over huid ‚
+Vakantiegeld 38.502 37.627
+Vakantiedagen 65.517 54.587
+Accountantskosten 3,127 3.127
+Nettoloon 7.429 9.766
+Eindejaarsuitkering 6.115 6.115
+Afvloeiingskosten 22.500 -
+PAWW - 144
+Eindheffing loonheffing 155773 28.414
+Diversen 59.878 15.035
+NOW-subsidie 110.456 119.221
+Terug te betalen voorschot eindheffing zorgbonus 7.197 7.197
+
+336.494 281.233
+
+Het per ultimo 2021 openstaande bedrag aan NOW-subsidie ad € 110.456 betreft de tweede tijdelijke
+noodmaatregel overbrugging voor behoud van werkgelegenheid (NOW-2). Hiervoor is een
+
+betalingsregeling aangevraagd.
+
+Samenstellingsverklaring afgegeven
+
+-Z0-
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Zekerheden Rabobank
+
+Born2Care B.V. Pastorie Zorg B.V. en Pastorie Faclitair B.V. zijn een gezamelijke lening bij de
+Rabobank aangegaan voor € 75.000 en hebben een kredietlimiet van € 50.000. Hiervoor zijn de
+onderstaande zekerheden afgegeven:
+
+- pandrecht op de huidige en toekomstige inventaris, voorraden en vorderingen van Born2Care B.V.
+Pastorie Zorg B.V. en Pastorie Facilitair B.Vi;
+
+- borgtocht van de heer en mevrouw Wissema van € 100.000;
+
+- 2 achtergestelde leningen van ieder € 50.000 door de heer W. Born en Addplast Beheer B.V.
+
+kl
+
+Borgtocht
+
+De vennootschap heeft een borgtocht afgegeven ten behoeve van derden per 31 december 2021
+€ 135.000.
+
+een niente
+
+Huurverplichtingen onroerende zaken
+
+De vennootschap is samen met Pastorie Facilitair B.V. een meerjarige financiële verplichting
+aangegaan tot en met 1 juni 2031 terzake van de huur van een pand aan de Dorpsstraat 7 te Aarle-
+Rixtel (2021: € 153.654).
+
+Samenstellingsverklaring afgegeven
+
+
+-Z/-
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+2021 2020
+€ €
+
+8. Netto-omzet
+Wettelijk budget voor aanvaardbare kosten Wlz-zorg (PGB) (exclusief
+subsidies) 1.435.748 1.212.349
+Compensatie omzetderving (PGB) - 172.000
+
+1.435.748 1.384.349
+9. Overige bedrijfsopbrengsten
+Subsidie zorgbonus (incl. eindheffing) 31.931 73.414
+
+De vennootschap heeft voor de medewerkers die hiervoor in aanmerking komen in 2021 evenals in
+
+2022 zorgbonus aangevraagd. Onder de subsidies is zowel de ontvangen zorgbonus alsmede de
+
+eindheffing die hierover afgedragen moet worden verantwoord.
+
+10. Personeelskosten
+
+Lonen en salarissen 1-41 1:295 990.611
+Sociale lasten 173.626 171.157
+Pensioenlasten 85.015 76.252
+Overige personeelskosten 67.002 126.226
+
+1.436.918 1.364.246
+
+De onderneming heeft gebruik gemaakt van de overheidssteun in het kader van COVID-19, te weten
+
+NOW-1. De in de resultatenrekening 2020 opgenomen subsidie betreft een inschatting daar de
+
+definitieve beschikking nog niet beschikbaar is. In 2021 is de definitieve beschikking afgegeven en is
+
+het verschil met de oorspronkelijke inschatting in de resultatenrekening verwerkt.
+
+Lonen en salarissen
+
+Bruto lonen 1.077.068 1.028.442
+Afvloeiingskosten 22.500 -
+Mutatie vakantiedagenverplichting 10.930 25.163
+Mutatie vakantiegeldverplichting 875 1.727
+NOW subsidies -98 -64.721
+
+1.111.275 990.611
+
+Samenstellingsverklaring afgegeven
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Overige personeelskosten
+
+Uitzendkrachten
+Reiskosten
+Onkostenvergoedingen
+Arbodiensten
+Werkkleding
+Opleidingskosten
+Overige personeelskosten
+
+Subsidie zorgbonus (incl. eindheffing)
+
+De vennootschap heeft voor de medewerkers die hiervoor in aanmerking komen in 2021 evenals in
+2020 zorgbonus aangevraagd. Onder de overige personeelskosten is zowel de uitbetaalde alsmede de
+
+2021 2020
+€ €
+
+13.055 6.502
+10.479 12.860
+312 -
+2.706 6.326
+- 200
+6.752 10.975
+1.767 15.949
+35.071 52.812
+31.931 73414
+67.002 126.226
+
+eindheffing die hierover afgedragen moet worden verantwoord.
+
+Personeelsleden
+
+Gedurende het jaar 2021 waren 27 werknemers in dienst op basis van een volledig dienstverband
+
+(2020: 28).
+
+11. Afschrijvingen
+
+Materiële vaste activa
+
+Afschrijvingen materiële vaste activa
+
+Inventaris
+
+12. Overige bedrijfskosten
+
+Kantoorkosten
+Verkoopkosten
+Algemene kosten
+
+Kantoorkosten
+
+Automatiseringskosten
+Contributies en abonnementen
+Overige kantoorkosten
+
+Samenstellingsverklaring afgegeven
+
+4,819 4,441
+4.819 4,441
+15.815 18.143
+3.329 2.751
+39.838 33.695
+58.982 54.589
+11.533 12.968
+3.948 5.175
+334 -
+15.815 18.143
+
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+Verkoopkosten
+
+Rectame- en advertentiekosten
+Representatiekosten
+Betalingskortingen
+
+Algemene kosten
+
+Accountantskosten
+Administratiekosten
+Advieskosten
+
+Juridische kosten
+Verzekeringen
+Onderhoud inventarissen
+Overige algemene kosten
+
+13. Financiële baten en lasten
+
+Rentebaten en soortgelijke opbrengsten
+Rentelasten en soortgelijke kosten
+
+Rentebaten en soortgelijke opbrengsten
+
+Rente rekening-courant Born2Care B.V.
+
+Rentelasten en soortgelijke kosten
+
+Rente belastingdienst
+Rente- en bankkosten
+
+Rente schuld De Pastorie Facilitair B.V,
+
+14. Belastingen
+
+Mutatie voorziening belastingen
+
+Samenstellingsverklaring afgegeven
+
+„-ZJ-
+
+2021 2020
+€ €
+
+2.553 2.384
+766 367
+10 -
+3,329 2.751
+5.411 5.768
+4,954 4.831
+12.332 11.880
+2.550 1.150
+1.526 1.150
+464 415
+12.601 8.501
+39.838 33.695
+8.851 556
+-2.442 -2.575
+6.409 -2.019
+8.851 556
+-104 „39
+-524 -492
+-1.814 -2.044
+-2.442 -2.575
+1.350 9.248
+
+
+„30 -
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+WNT-verantwoording 2021 De Pastorie Zorg B.V.
+
+De WNT is van toepassing op De Pastorie Zorg B.V. Het voor De Pastorie Zorg B.V. toepasselijke
+bezoldigingsmaximum is in 2021 € 116.000. Dit betreft het bezoldigingsmaximum voor zorg en jeugdhulp
+klasse 1.
+
+Bezoldiging topfunctionarissen
+
+Leidinggevende topfunctionarissen met dienstbetrekking dienstbetrekking vanaf de 13° maand van de
+
+functievervulling.
+
+Gegevens 2021
+
+bedragen x € 1 M. Wissema-Born
+Functiegegevens Directeur
+Aanvang en einde functievervulling in 2021 [01/01] — [31/12]
+Omvang dienstverband (als deeltijdfactor in fte) Li
+Dienstbetrekking? ja
+Bezoldiging
+
+Beloning plus belastbare onkostenvergoedingen 63.010
+Beloningen betaalbaar op termijn 0
+Subtotaal 63.010
+Individueel toepasselijke bezoldigingsmaximum 116.000
+
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag N.vt,
+Bezoldiging 63.010
+Reden waarom de overschrijding al dan niet is toegestaan Nvt.
+Toelichting op de vordering wegens onverschuldigde betaling Nvt.
+Gegevens 2020
+
+bedragen x € 1 M. Wissema-Born
+Functiegegevens Directeur
+
+Aanvang en einde functievervulling in 2020
+Omvang dienstverband (als deeltijdfactor in fte)
+
+[01/01] — [31/12]
+[ij
+
+Dienstbetrekking? ja
+Bezoldiging
+
+Beloning plus belastbare onkostenvergoedingen 54.764
+Beloningen betaalbaar op termijn )
+Subtotaal 54.764
+Individueel toepasselijke bezoldigingsmaximum 111.000
+Bezoidiging 54.764
+Reden waarom de overschrijding al dan niet is toegestaan N.vt.
+Toelichting op de vordering wegens onverschuldigde betaling N.v.t.
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+le. Toezichthoudende topfunctionarissen
+
+Gegevens 2021
+bedragen x € 1
+
+Functiegegevens
+Aanvang en einde functievervulling in 2021
+
+Bezoldiging
+Bezoldiging
+Individueel toepasselijke bezoldigingsmaximum
+
+-/- Onverschuldigd betaald en nog niet
+terugontvangen bedrag
+
+Bezoldiging
+
+Het bedrag van de overschrijding en de reden
+waarom de overschrijding al dan niet is toegestaan
+
+Toelichting op de vordering wegens
+onverschuldigde betaling
+
+Gegevens 2020
+
+bedragen x € Ì
+
+Functiegegevens
+Aanvang en einde functievervulling in 2020
+
+Bezoldiging
+Bezoldiging
+Individueel toepasselijke bezoldigingsmaximum
+
+2. Uitkeringen wegens beëindiging dienstverband aan topfunctionarissen met of zonder
+
+dienstbetrekking
+Niet van toepassing
+
+„31 -
+
+B.G.L. Abelen
+
+Lid RvC
+[01/01] — [31/12]
+
+P.S. van der
+Linden - van
+Egmond
+Lid RvC
+[01/01] — [31/12]
+
+H.J.M. van
+Haperen
+
+Lid RvC
+[01/01] — [31/12]
+
+3.000 3.000 3.000
+11.600 11.600 11.600
+Nvt. N.v.t. Nvt.
+3.000 3.000 3.000
+Nvt. N.v.t. Nvt.
+N.v.t. N.v.t. N.v.t.
+P.S. van der
+B.G.L. Abelen Linden - van MJM. van
+Haperen
+Egmond
+Lid RvC Lid RvC Lid RvC
+
+[01/01] — [31/12]
+
+3.000
+11.100
+
+3. Overige rapportageverplichtingen op grond van de WNT
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een dienst-
+betrekking die in 2021 een bezoldiging boven het individueel toepasselijke drempelbedrag hebben ontvangen.
+
+[01/01] [3/12]
+
+3.000
+11.100
+
+[01/01] — [31/12]
+
+3.000
+11.100
+
+-32-
+
+De Pastorie Zorg B.V. te Aarle-Rixtel
+
+OVERIGE TOELICHTING
+
+Verwerking van het verlies 2021
+
+Overeenkomstig de statutaire bepalingen stelt de directie voor het verlies ad € 25.281 over 2021 in
+mindering te brengen op de overige reserve. Vooruitlopendop goedkeuring door de algemene
+vergadering van aandeelhouders is dit reeds in de jaarrekening verwerkt.
+
+Ondertekening van de jaarrekening
+
+Aarle-Rixtel, 25 mei 2022
+
+Directie voor akkoord Raad van commissarissen voor akkoord
+
+Namens deze,
+
+M. Wisserna-Bom L. Abelen
+P.S. van der Linden-van Egmond
+
+hemel
+
+H.J.M. van Haperen
+
+Samenstellingsverklaring afgegeven
+

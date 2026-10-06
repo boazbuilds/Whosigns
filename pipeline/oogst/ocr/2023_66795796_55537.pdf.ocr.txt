@@ -1,0 +1,703 @@
+# whosigns-ocr v1 grootte=965219 dpi=300 paginas=20
+STICHTING ZORGELOOS AMBULANT
+TE AMSTERDAM
+
+Rapport inzake jaarstukken 2023
+
+
+Inhoudsopgave
+
+Pagina
+Accountantsrapport
+Opdracht 2
+2 Samenstellingsverklaring van de accountant 2
+Jaarrekening
+1 Balans per 31 december 2023 5
+2 Winst-en-verliesrekening over 2023 7
+3 Grondslagen voor waardering en resultaatbepaling 8
+4 Toelichting op de balans per 31 december 2023 10
+5 Toelichting op de winst-en-verliesrekening over 2023 13
+
+
+ACCOUNTANTSRAPPORT
+
+
+Alsberg
+Accountancy
+
+Aan het bestuur van
+
+Stichting Zorgeloos Ambulant
+De la Reijstraat 1
+
+1091NX Amsterdam
+
+Hoofddorp, 30 april 2024
+
+Geachte heren,
+Hierbij brengen wij verslag uit over boekjaar 2023 met betrekking tot uw stichting.
+
+1 OPDRACHT
+
+Ingevolge uw opdracht hebben wij de jaarrekening 2023 van de stichting samengesteld, waarin de balans met
+tellingen van € 749.962 en de winst-en-verliesrekening sluitende met een resultaat van € 119.532, zijn
+opgenomen.
+
+2 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+
+De jaarrekening van Stichting Zorgeloos Ambulant te Amsterdam is door ons samengesteld op basis van de
+van u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2023 en de winst-en-
+verliesrekening over 2023 met de daarbij horende toelichting. In deze toelichting is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor accountants
+geldende Standaard 4410, "Samenstellingsopdrachten". Op grond van deze standaard wordt van ons verwacht
+dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in overeenstemming met in
+Nederland algemeen aanvaarde grondslagen voor financiële verslaggeving. Wij hebben daarbij onze
+deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal
+nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis van Stichting Zorgeloos Ambulant.
+Wij hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een oordeel
+te geven of een conclusie te trekken met betrekking tot de getrouwheid van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers
+van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte
+gegevens.
+
+Hoofdweg 667-A IBAN: NLO3 INGB 0101 6594 58
+2131 BB Hoofddorp t.n.v. Alsberg Accountancy B.V.
+023-5658324 BTW: NL8646.27.580.B.01
+
+info@alsberg.eu KvK: 88442268
+
+
+Alsberg
+Accountancy
+
+Tot het verstrekken van een nadere toelichting zijn wij graag bereid.
+
+Met vriendelijke groet,
+
+Ca B.V.
+
+__PMR-RijnbeekRA
+
+Pagina 3
+
+
+JAARREKENING
+
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+1 BALANS PER 31 DECEMBER 2023
+
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+
+Vlottende activa
+
+Vorderingen
+Liquide middelen
+
+0
+
+@)
+6)
+
+31 december 2023
+
+31 december 2022
+
+€ €
+236.859
+
+242.491
+
+270.612
+513.103
+749.962
+
+€ €
+117.116
+129.295
+257.448
+386.743
+
+503.859
+
+Pagina 5
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+PASSIVA
+
+Reserves en fondsen
+Overige reserves
+Voorzieningen
+
+Kortlopende schulden
+
+4
+
+6)
+
+31 december 2023
+
+31 december 2022
+
+€ €
+
+501.627
+
+248.335
+
+749.962
+
+€ €
+
+382.095
+1.111
+120.653
+
+503.859
+
+Pagina 6
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+2 WINST-EN-VERLIESREKENING OVER 2023
+
+Baten
+
+Netto-omzet
+
+Lasten
+
+Kosten medewerkers
+Afschrijvingen materiële vaste activa
+Overige bedrijfskosten
+
+Saldo voor financiële baten en lasten
+Financiële baten en lasten
+
+Resultaat
+
+Saldo 2023 Saldo 2022
+
+€ €
+(6) 2.935.341 1.917.288
+4) 2.209.920 1.501.624
+®) 47.156 18.427
+(9) 558.733 298.949
+2.815.809 1.819.000
+119.532 98.288
+(10) - -1.218
+119.532 97.070
+
+Pagina 7
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De stichting heeft ten doel: het verbeteren en/of stabiliseren van de kwaliteit van leven van mensen met een
+verstandelijke beperking en/of psychische problemen. De stichting tracht dit doel onder meer te bereiken door:
+
+- het bieden van ambulante zorg aan en het begeleiden van mensen met een verstandelijke beperking en/of
+psychische problemen;
+
+- het (doen) organiseren van evenementen, activiteiten en/of bijeenkomsten;
+
+- het (doen) verstrekken van informatie, advies en/of begeleiding;
+
+- het doen of laten verrichten van alle verdere handelingen, die met het vorenstaande in de ruimste zin verband
+houden of naar het oordeel van haar bestuur daartoe bevorderlijk, nuttig en/of gewenst kunnen zijn.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DEJAARREKENING
+
+De jaarrekening is opgesteld volgens de in Nederland algemeen aanvaarde grondslagen voor financiële
+verslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties
+wordt verwezen naar de toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingenen mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van
+de jaarrekening bekend zijn geworden.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen de
+geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de
+boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Pagina 8
+
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden afgelost.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat (saldo) wordt bepaald als het verschil tussen het totaal der baten en het totaal der lasten.
+Ontvangsten en uitgaven worden in de staat van baten en lasten toegerekend aan de periode waarop ze
+betrekking hebben. Bij de toerekening wordt een bestendige gedragslijn gevolgd. Dit houdt in dat rekening
+wordt gehouden met de aan een periode toe te rekenen bedragen die in een andere periode zijn of worden
+ontvangen, dan wel betaald.
+
+Baten waarvoor een bijzondere bestemming is aangewezen, worden afzonderlijk in de (toelichting op de) staat
+van baten en lasten verwerkt onder vermelding van de aard van de bestemming; indien deze baten in het
+verslagjaar niet volledig zijn besteed, worden de nog niet bestede gelden gereserveerd in de desbetreffende
+bestemmingsreserve(s) respectievelijk Bestemmingsfonds(en). Een onttrekking aan bestemmingsreserve
+respectievelijk -fonds wordt als besteding (last) verwerkt in de staat van baten en lasten.
+
+Binnen de baten van particulieren is het gehele bedrag opgehaald door donaties en giften.
+
+Indien aan bestemmingsreserve(s) respectievelijk bestemmingsfonds(en) wordt gedoteerd dan wel daaruit
+wordt geput wordt deze mutatie op de volgende wijze verwerkt: het saldo van de staat van baten en lasten
+wordt bepaald inclusief het overschot of tekort dat is ontstaan uit hoofde van de baten en lasten met een
+bijzondere bestemming. Onder de staat van baten en lasten wordt vervolgens een specificatie opgenomen van
+de verwerking van dit saldo in de onderscheiden posten van het eigen vermogen.
+
+Bestedingen doelstellingen
+
+De bestedingen in het kader van de doelstellingen worden verantwoord in het jaar dat zij zijn toegezegd of,
+voor zover dit niet bij toezegging het geval is, in het jaar dat de omvang van de verplichting betrouwbaar kan
+worden vastgesteld. Voorwaardelijke verplichtingen worden verantwoord in het jaar waarin vast komt te staan
+dat aan de voorwaarden zal worden voldaan.
+
+Pagina 9
+
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+
+VASTE ACTIVA
+
+1. Materiële vaste activa
+
+Boekwaarde per 1 januari 2023
+Aanschaffingswaarde
+Cumulatieve afschrijvingen en
+waardeverminderingen
+
+Mutaties
+Investeringen
+
+Desinvesteringen
+Afschrijving desinvesteringen
+
+Afschrijvingen
+
+Boekwaarde per 31 december 2023
+Aanschaffingswaarde
+
+Cumulatieve afschrijvingen en
+waardeverminderingen
+
+Boekwaarde per 31 december 2023
+
+Afschrijvingspercentages
+
+Verbouwingen
+Inventaris
+
+Vervoermiddelen
+
+Vervoer-
+Verbouwinger Inventaris middelen Totaal
+€ € € €
+72.373 70.232 27.610 170.215
+- (39.311) (13.788) (53.099)
+72.373 30.921 13.822 117.116
+73.548 40.661 54.440 168.649
+- - (6.510) (6.510)
+- - 2.687 2.687
+(20.650) (17.322) (7.111) (45.083)
+52.898 23.339 43.506 119.743
+145.921 110.893 75.540 332.354
+(20.650) (56.633) (18.212) (95.495)
+125.271 54.260 57.328 236.859
+%
+20
+20
+20
+
+Pagina 10
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+VLOTTENDE ACTIVA
+
+2. Vorderingen
+
+Handelsdebiteuren
+Overige vorderingen
+Overlopende activa
+
+Overige vorderingen
+
+Verstrekte lening personeel
+
+Over de vorderingen wordt geen rente berekend.
+
+Overlopende activa
+
+Nog te ontvangen bedragen
+Betaalde waarborgsommen
+Vooruitbetaalde kosten
+Voorgeschoten voor cliënten
+
+3. Liquide middelen
+
+Triodos Bank
+Kas
+Gelden onderweg
+
+31-12-2023 31-12-2022
+€ €
+930 -
+2.658 2.231
+238.903 127.064
+242.491 129.295
+2.658 2.231
+114.026 85.525
+30.534 37.569
+91.447 2.497
+2.896 1.473
+238.903 127.064
+270.612 257.102
+- 302
+- 44
+270.612 257.448
+
+Pagina 11
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+PASSIVA
+
+4. Reserves en fondsen
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Stand per 31 december
+
+Overige voorzieningen
+
+Reservering Zorgeloos noodfonds
+
+Stand per 1 januari
+Dotatie
+Onttrekking
+
+Extra dotatie
+
+Stand per 31 december
+
+5. Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+Loonheffing
+
+Pensioenen
+
+Overlopende passiva
+
+Overlopende passiva
+
+Nog te betalen kosten
+Ontvangen voorschotten
+Vakantiegeld
+
+2023 2022
+€ €
+382.095 285.025
+119.532 97.070
+501.627 382.095
+
+LL 8.620
+29.345 19.173
+(33.610) (26.682)
+3.154 -
+
+- LL
+
+31-12-2023 31-12-2022
+
+€ €
+104.345 11.842
+183 -
+41.256 30.078
+102.551 78.733
+248.335 120.653
+42.773 38.567
+1.262 608
+58.516 39.558
+102.551 78.733
+
+Pagina 12
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2023
+
+6. Netto-omzet
+
+Ontvangsten inzake PGB
+
+Ontvangsten door middel van onderaannemerschap
+
+Ontvangsten Ministerie van Justitie
+
+Verrekeningen Ministerie van Justitie (voorgaand jaar)
+
+Ontvangsten WMO
+
+7. Kosten medewerkers
+
+Lonen en salarissen
+
+Sociale lasten
+Pensioenlasten
+
+Overige kosten medewerkers
+
+Lonen en salarissen
+
+Bruto lonen
+
+Mutatie vakantiegeldverplichting
+Inhuur medewerkers "Zorgeloos Thuis"
+Ontvangen ziekengelduitkeringen
+
+Sociale lasten
+
+Premies sociale verzekeringswetten
+Premie ziekteverzuimverzekering
+
+Overige kosten medewerkers
+
+Reiskostenvergoedingen
+Kantinekosten
+Opleidingskosten
+
+Overige kosten medewerkers
+
+Medewerkers
+
+Saldo 2023 Saldo 2022
+€ €
+421.645 552.620
+
+- 9.851
+
+43.132 54.812
+-2.464 11.939
+2.473.028 1.288.066
+2.935.341 1.917.288
+1.615.151 1.134.223
+354.338 208.383
+117.966 74.623
+122.465 84.395
+2.209.920 1.501.624
+1.431.252 979.337
+18.957 8.163
+270.288 223.527
+-105.346 -76.804
+1.615.151 1.134.223
+242.301 146.761
+112.037 61.622
+354.338 208.383
+42.319 33.725
+4.948 3.645
+30.686 13.709
+44.512 33.316
+122.465 84.395
+
+Gedurende het jaar 2023 waren 23 werknemers in dienst op basis van een volledig dienstverband (2022: 16).
+
+Pagina 13
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+Afschrijvingen
+
+8. Afschrijvingen materiële vaste activa
+
+Verbouwingen
+Inventaris
+Vervoermiddelen
+Boekresultaat
+
+9. Overige bedrijfskosten
+
+Huisvestingskosten
+
+Kantoorkosten
+
+Vervoerskosten
+
+Verkoopkosten
+
+Algemene kosten
+
+Ontvangen inzake Corona Meerkosten Regeling
+Kosten ten behoeve van "Zorgeloos Thuis”
+
+Huisvestingskosten
+
+Huur onroerende zaak
+
+Gas water licht
+
+Onderhoud onroerende zaak
+Ontwerp/inrichting/verbouwing nieuwe kantoorruimte
+Overige huisvestingskosten
+
+Doorbelaste huur
+
+Kantoorkosten
+
+Kantoorbehoeften
+
+Drukwerk
+Automatiseringskosten
+Telefoon
+
+Porti
+
+Contributies en abonnementen
+Overige kantoorkosten
+
+Verkoopkosten
+
+Representatiekosten
+Overige verkoopkosten
+
+Saldo 2023 Saldo 2022
+€ €
+20.650 -
+17.322 12.905
+7.11 5.522
+2.073 -
+47.156 18.427
+231.962 111.668
+144.817 715.296
+72.162 44.422
+5.742 5.596
+103.450 66.285
+- -9.566
+- 5.248
+558.733 298.949
+130.622 63.567
+17.619 6.098
+9.633 300
+93.084 37.426
+7.032 4.277
+-26.028 -
+231.962 111.668
+48.128 23.958
+3.214 433
+5.227 3.224
+18.379 12.170
+337 126
+69.416 35.385
+116 -
+144.817 75.296
+4.544 2.329
+1.198 3.267
+5.742 5.596
+
+Pagina 14
+
+Stichting Zorgeloos Ambulant te Amsterdam
+
+Algemene kosten
+
+Accountantskosten (inclusief loonverwerking)
+Advieskosten
+
+Juridische kosten
+
+Verzekeringen
+
+Donaties
+
+Bankkosten
+
+Vakliteratuur
+
+Reservering voorziening Zorgeloos Noodfonds
+Kosten Zorgeloos fit
+
+Kosten Zorgeloos Werken
+
+Overige algemene kosten
+
+10. Financiële baten en lasten
+
+Rentelasten en soortgelijke kosten
+
+Saldo 2023 Saldo 2022
+€ €
+12.914 11.938
+4.230 20.684
+-460 3.102
+5.847 4.330
+3.610 1.000
+993 633
+280 952
+32.500 19.173
+9.892 -
+30.313 -
+3.331 4,473
+103.450 66.285
+- -1.218
+
+Pagina 15
+

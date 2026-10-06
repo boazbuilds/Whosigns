@@ -1,0 +1,841 @@
+# whosigns-ocr v1 grootte=2623422 dpi=300 paginas=20
+Aan het bestuur van
+IN Zorg en Advies B.V.
+
+Jaarrekening 2020
+
+Relatiebeheerder:
+Datum opmaken:
+
+Incontrole Administratie
+8 februari 2022
+
+IN Zorg en Advies B.V.
+
+Rotterdam, 8 februari 2022
+
+Geacht bestuur,
+
+Hierbij brengen wij u verslag uit van onze werkzaamheden over boekjaar 2020 van uw onderneming. In dit rapport zijn de
+balans per 31 december 2020, de winst-en-verliesrekening over 2020 en de toelichting opgenomen. Tezamen vormen zij de
+jaarrekening 2020.
+
+Opdracht
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2020 van IN Zorg en Advies B.V. te samengesteld. De jaarrekening is
+opgesteld op basis van de door u verstrekte gegevens.
+
+Werkzaamheden
+
+De werkzaamheden die wij in het kader van onze samenstellingsopdracht hebben uitgevoerd bestonden voornamelijk uit het
+verzamelen, het verwerken, het rubriceren en het samenvatten van financiële gegevens. Daarnaast hebben wij de
+aanvaardbaarheid van de bij het samenstellen van de jaarrekening toegepaste grondslagen op basis van de door de
+onderneming verstrekte gegevens geëvalueerd.
+
+Bevestiging
+
+Op basis van de aan ons verstrekte gegevens hebben wij de jaarrekening samengesteld onder toepassing van de in Nederland
+algemeen aanvaarde grondslagen voor financiële verslaggeving. Wij vertrouwen erop dat wij hiermee aan uw opdracht hebben
+voldaan. Wij zijn gaarne bereid tot het geven van nadere toelichting.
+
+Hoogachtend,
+Incontrol Administratie
+
+Samenstellingsverklaring van de accountant
+
+Aan Opdrachtgever
+
+De jaarrekening van IN Zorg en advies te ROTTERDAM is door ons/mij samengesteld op basis van de van u gekregen
+informatie. De jaarrekening bestaat uit de balans per 31 december 2020 en de winst-en-verliesrekening over 2020 met de
+daarbij horende toelichting. In deze toelichting is onder andere een overzicht van de gehanteerde grondslagen voor
+financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor accountants geldende
+Standaard 4410, 'Samenstellingsopdrachten'. Op grond van deze standaard wordt van ons verwacht dat wij u ondersteunen
+bij het opstellen en presenteren van de jaarrekening in overeenstemming met Titel 9 Boek 2 van het Burgerlijk Wetboek
+
+(BW). Wij hebben daarbij onze deskundigheid op het gebied van administratieve verwerking en financiële verslaggeving
+toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle relevante
+informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor geldende regelgeving, dan
+ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid heeft voldaan. Als slotstuk van onze
+werkzaamheden zijn wij door het lezen van de Jaarrekening globaal nagegaan dat het beeld van de jaarrekening
+overeenkwam met onze kennis van IN Zorg en advies. Wij hebben geen controle- of beoordelingswerkzaamheden
+uitgevoerd die ons in staat stellen om een oordeel te geven of een conclusie te trekken met betrekking tot de getrouwheid
+van de jaarrekening.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische voorschriften in
+de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers van deze jaarrekening mogen
+dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en zorgvuldig, integer en objectief hebben
+uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte gegevens.
+
+Rotterdam, 08 februari 2022
+
+Hoogachtend,
+Incontrol Administratie
+
+Inhoudsopgave
+
+1
+
+Ll
+12
+13
+14
+
+2.1
+2.2
+2.3
+2.3.1
+2.3.2
+2:3.3
+23.4
+2.3.5
+2.4
+2.4.1
+25
+2.6
+2.6.1
+2.6.2
+2.7
+2.7.1
+2.7:2
+2.8
+2.8.1
+2.8.2
+2.8.3
+2.8.4
+2.8.5
+2.9
+
+Algemeen
+
+Kengetallen
+Grafieken
+Resultaatvergelijking
+Resultaatanalyse
+
+Jaarrekening
+
+Balans per 31-12-2020
+Winst-en-verliesrekening 2020
+Grondslagen van de jaarrekening
+Algemene grondslagen
+Grondslagen voor de balanswaardering activa
+Grondslagen voor de balanswaardering passiva
+Grondslagen voor de resultaatbepaling
+Algemene toelichtingen
+Verbonden partijen
+Specificatie aandeelhouder(s)
+Winstbestemming
+Toelichting balans activa
+Vorderingen
+Liquide middelen
+Toelichting balans passiva
+Ondernemingsvermogen
+Kortlopende schulden
+Toelichting winst-en-verliesrekening
+Opbrengsten
+Inkoopkosten en uitbesteed werk
+Personeelskosten
+Overige bedrijfskosten
+Financiële baten en lasten
+Overige toelichtingen
+
+Pagina
+
+DN OU OU
+
+\O \OQ OQ OO oo IJ A
+
+10
+10
+10
+10
+10
+11
+11
+1
+12
+12
+12
+13
+13
+13
+13
+14
+14
+15
+
+pagina: 1
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+1 Algemeen
+Deze jaarrekening is op fiscale cijfers gebaseerd.
+
+De besloten vennootschap IN Zorg en Advies B.V. heeft de volgende handelsnamen: IN Zorg en Advies B.V.
+De besloten vennootschap is gezeteld in Rotterdam.
+
+De besloten vennootschap is ingeschreven bij de Kamer van Koophandel onder dossiernummer 56909438.
+
+Datum vaststelling jaarrekening
+De jaarrekening 2020 is vastgesteld in de Algemene Vergadering gehouden op 08-02-2022.
+
+1.1 Kengetallen
+
+Solvabiliteit
+De solvabiliteit geeft de mate aan waarin de onderneming in staat is op lange termijn aan haar verplichtingen te voldoen.
+De solvabiliteitspositie geeft de situatie per einde boekjaar weer. Er is dus sprake van een momentopname.
+
+31-12-2020 31-12-2019
+Verhouding eigen vermogen / totaal vermogen 0,94 0,83
+Verhouding eigen vermogen / vreemd vermogen 15,81 5,02
+Verhouding vreemd vermogen / totaal vermogen 0,06 0,17
+
+Liquiditeit
+De liquiditeit geeft de mate aan waarin de onderneming in staat is op korte termijn aan haar verplichtingen te voldoen. De
+liquiditeitspositie geeft de situatie per einde boekjaar weer. Er is dus sprake van een momentopname.
+
+31-12-2020 31-12-2019
+Quick ratio
+Vlottende activa - voorraden / kortlopende schulden 16,81 6,02
+Current ratio
+Vlottende activa / kortlopende schulden 16,81 6,02
+
+Acid-test ratio
+Effecten + liquide middelen / kortlopende schulden 0,00 2,03
+
+pagina: 2
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+Omzet en rentabiliteit
+De rentabiliteit geeft het rendement aan dat de onderneming in het boekjaar heeft behaald.
+
+2020 2019
+Omzetontwikkeling
+Indexcijfer (2019 = 100%) 143,73 100,00
+Brutowinstmarge
+Brutomarge / netto-omzet 0,92 0,90
+Nettowinstmarge
+Resultaat / netto-omzet 0,06 0,04
+Rentabiliteit totaal vermogen
+Bedrijfsresultaat / totaal vermogen 0,45 0,34
+Rentabiliteit eigen vermogen
+Resultaat / eigen vermogen 0,48 0,41
+Rentabiliteit vreemd vermogen
+Rentelasten / vreemd vermogen 0,03 0,00
+Rentedekkingsratio
+Saldo winstberekening / rentelasten 232,85
+Personeel
+
+2020 2019
+Gemiddelde omzet per werknemer 91.301 82.578
+Loonontwikkeling
+Indexcijfer (2019 = 100) 193,79 100,00
+Gemiddelde personeelskosten per werknemer 22.170 14.872
+
+Personeelskosten per € 100,- omzet 24,28 18,01
+
+pagina: 3
+KvK-nummer: 56909438
+
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+1.2 Grafieken
+Verloop activa Verloop passiva
+€ 200.000 IN Eino 2020 € 200.000 WN Eind 2020
+Eind 2019 Eind 2019
+€ 150.000 4 € 150.000 +
+€ 100000 4 € 100000
+€ 50,000 +
+€ 50000 JI
+| eo | nn ___
+€o S
+P, P Pi ot
+Pi
+ul Rl ij
+Balanstotalen Ratio's
+€ 200.000 BN Eind 2020 20,00 TEEN Eind 2020
+Eind 2019 Eind 2019
+€ 150.000 | 1500 d—|
+€ 100.000 — 10.00
+€ 50.000
+5,00 +
+€ q
+s £ & oo
+& Á „Á & Ri se
+© IN e“ Ee x
+Kostenverdeeltabel Procentuele toe-/afname
+€ 800.000 TEEN 2020 120 % TEN 2020
+2019 |
+€ 600.000 100 %
+80 %
+pn
+pn
+€ 200000
+40 %-j
+€0-f
+20 % 4
+€ 200.000 os
+€ Cal £ &
+Ea Ea Ma Na 2 Ga Pa se
+ZZA pf A
+af 5 P Pd & & # Rl Gi
+
+Jaarrekening 2020 van IN Zorg en Advies B.V.
+
+pagina: 4
+KvK-nummer: 56909438
+Datum vastgesteld: 08-02-2022
+
+Kosten t.o.v. omzet
+
+100 % T VEEN 2020
+
+2019
+BO %
+60 %
+ne
+20 %
+
+0% 4
+Ral al S £ Pe P. Ka Ko £
+FP ú LT DE Ee
+“ Le De rr dd
+£ £ of
+Ra
+Personeelskosten als % van totaal
+
+80% BEER 2020
+
+2019
+60 % +
+40 % +
+
+ER
+0% +
+& & &
+Ed d s a
+G gt & Pi
+f pr
+len
+
+Specificatie personeelskosten
+
+EN 2020
+2019
+€ 200.000 +
+€ 150.000 +4
+€ 100.000 —
+€ 50.000 —
+€04
+Rd ei Pi d s
+2 ed ;
+£ Ed Z
+s
+o°
+Opbrengsten en winst
+€ 1.200.000 — TEEN 2020
+2019
+€ 1.000.000 +
+€ 800.000
+€ 600.000 —
+€ 400.000 —
+€ 200.000
+zö Nr ve
+# Fi
+Oi
+& ss
+
+Jaarrekening 2020 van IN Zorg en Advies B.V.
+
+pagina: 5
+
+KvK-nummer: 56009438
+Datum vastgesteld: 08-02-2022
+
+1.3 Resultaatvergelijking
+
+Opbrengsten
+Netto-omzet
+Overige opbrengsten
+
+Kosten van grond- en hulpstoffen,
+uitbesteed werk, e.d.
+
+Kosten van uitbesteed werk en andere
+externe kosten
+
+Brutomarge
+
+Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Overige bedrijfskosten
+Huisvestingskosten
+Verkoopkosten
+Niet-aftrekbare kosten
+Overige kosten
+
+Financiële baten en lasten
+
+Kosten van schulden, andere
+rentelasten en soortgelijke kosten
+
+Saldo winst voor belasting
+Verschuldigde VPB
+
+Saldo winst na belasting
+
+2020 2019
+
+€ % %
+1.164.281 98,09% 825.783 100,00%
+22.627 1,91% 0 0,00%
+1.186.908 100,00% 825.783 100,00%
+95.000 8,00% 84.645 10,25%
+-95.000 -8,00% -84.645 -10,25%
+1.091.908 92,00% 741.138 89,75%
+224.962 18,95% 116.101 14,06%
+35.767 3,01% 15.390 1,86%
+12.676 1,07% 4,611 0,56%
+14.799 1,25% 12.621 1,53%
+-288.204 -24,28% -148.723 -18,01%
+224.525 18,92% 194.434 23,55%
+1.630 0,14% 0 0,00%
+150 % 0 %
+504.672 42,52% 361.110 43,73%
+=730.977 -61,59% -555,544 -67,27%
+-311 -0,03% 0 -0,00%
+-311 =0,03% 0 %
+72.416 6,10% 36.871 4,46%
+=10.885 -0,92% =7.005 =0,85%
+61.531 5,18% 29.866 3,62%
+
+De winst-en-verliesrekening over 2020 is afgesloten met een positief resultaat na belastingen van € 61.531.
+
+pagina: 6
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+1.4 Resultaatanalyse
+
+Het resultaat over 2020 is ten opzichte van 2019 gestegen met € 35.545. De ontwikkeling van het resultaat over 2020 ten
+opzichte van 2019 kan als volgt worden weergegeven:
+
+€ €
+Het resultaat is gunstig beïnvloed door:
+Stijging van:
+Netto-omzet 338.498
+Overige opbrengsten 22.627
+361.125
+
+Het resultaat is ongunstig beïnvloed door:
+Stijging van:
+Kosten van uitbesteed werk en andere externe kosten 10.355
+Lonen en salarissen 108.861
+Sociale lasten 20.377
+Pensioenlasten 8.065
+Overige personeelskosten 2.178
+Huisvestingskosten 30.091
+Niet-aftrekbare kosten 150
+Verkoopkosten 1.630
+Overige kosten 143.562
+Kosten van schulden, andere rentelasten en soortgelijke kosten 311
+
+-325.580
+
+Stijging resultaat 35.545
+
+
+Jaarrekening 2020 van IN Zorg en Advies B.V.
+
+pagina: 7
+KvK-nummer: 56909438
+Datum vastgesteld: 08-02-2022
+
+2 Jaarrekening
+
+2.1 Balans per 31-12-2020
+
+Activa
+
+Vorderingen
+
+Vorderingen op handelsdebiteuren
+
+Overige vorderingen
+
+Liquide middelen
+
+Totaal activa
+
+Passiva
+
+Eigen vermogen
+Gestort en opgevraagd kapitaal
+Overige fiscale reserves
+
+Kortlopende schulden
+Loonheffingen
+Overige kortlopende schulden
+
+Totaal passiva
+
+na resultaatbestemming
+31-12-2020 31-12-2019
+€ € € €
+133.332 72.150
+28.547 0
+161.879 72.150
+4 36.664
+161.883 108.814
+31-12-2020 31-12-2019
+€ € € €
+10.000 10.000
+142.255 80.724
+152.255 90.724
+4.027 0
+5.601 18.090
+9.628 18.090
+161.883 108.814
+
+pagina: 8
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+2.2 Winst-en-verliesrekening 2020
+
+2020 2019
+€ € € €
+Opbrengsten
+Netto-omzet 1.164.281 825.783
+Overige opbrengsten 22.627 0
+1.186.908 825.783
+Kosten van grond- en hulpstoffen, uitbesteed
+werk, e.d.
+Kosten van uitbesteed werk en andere externe
+kosten 95.000 84.645
+-95.000 -84.645
+Brutomarge 1.091.908 741.138
+Personeelskosten
+Lonen en salarissen 224.962 116.101
+Sociale lasten 35.767 15.390
+Pensioenlasten 12.676 4.611
+Overige personeelskosten 14.799 12.621
+-288.204 -148.723
+Overige bedrijfskosten
+Huisvestingskosten 224.525 194.434
+Verkoopkosten 1.630 0
+Niet-aftrekbare kosten 150 0
+Overige kosten 504.672 361.110
+-730.977 -555.544
+Financiële baten en lasten
+Kosten van schulden, andere rentelasten en
+soortgelijke kosten -311 0
+-311 0
+Saldo winst voor belasting 72.416 36.871
+Verschuldigde VPB -10.885 -7.005
+
+Saldo winst na belasting € 61.531 € 29.866
+
+pagina: 9
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+2.3 Grondslagen van de jaarrekening
+
+2.3.1 Algemene grondslagen
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld volgens de in Nederland algemeen aanvaarde grondslagen voor financiële verslaggeving.
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de actuele waarde.
+Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de verkrijgingsprijs.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts opgenomen voor
+zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun oorsprong vinden voor het einde
+van het verslagjaar, worden in acht genomen indien zij voor het opmaken van de jaarrekening bekend zijn geworden.
+
+2.3.2 Grondslagen voor de balanswaardering activa
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde, inclusief transactiekosten, van de
+tegenprestatie. Vorderingen worden na eerste verwerking gewaardeerd tegen de geamortiseerde kostprijs. Als de ontvangst
+van de vordering is uitgesteld op grond van een verlengde overeengekomen betalingstermijn wordt de reële waarde
+bepaald aan de hand van de contante waarde van de verwachte ontvangsten en worden er op basis van de effectieve rente
+rente-inkomsten ten gunste van de winst-en-verliesrekening gebracht. Voorzieningen wegens oninbaarheid worden in
+mindering gebracht op de boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden, wissels, cheques en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende
+schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+2.3.3 Grondslagen voor de balanswaardering passiva
+
+Eigen vermogen
+
+Indien IN Zorg en advies eigen aandelen inkoopt, wordt de verkrijgingsprijs van de ingekochte aandelen in mindering
+gebracht op de overige reserves, of op andere reserves mits de statuten dit toestaan, totdat deze aandelen worden
+ingetrokken of worden verkocht. Indien ingekochte aandelen worden verkocht, komt de opbrengst uit verkoop ten gunste
+van de overige reserves of andere reserves in het eigen vermogen.
+
+De opbrengst komt ten gunste van de reserve waarop eerder de inkoop van deze aandelen in mindering is gebracht.
+
+Kosten die direct samenhangen met de inkoop, verkoop en/of uitgifte van nieuwe aandelen worden rechtstreeks ten laste
+gebracht van het eigen vermogen, onder verrekening van relevante winstbelastingeffecten.
+
+Aandelenkapitaal
+De aandelenkapitaal bedraagt € 10.000,-. 1000 aandelen van € 10,-.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden worden na
+eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden afgelost.
+
+pagina: 10
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+2.3.4 Grondslagen voor de resultaatbepaling
+
+Overige opbrengsten
+
+Onder overige bedrijfsopbrengsten worden resultaten verantwoord die niet rechtstreeks samenhangen met de levering van
+goederen of diensten in het kader van de normale, niet-incidentele bedrijfsactiviteiten. De overige bedrijfsopbrengsten
+bestaan uit royaltyopbrengsten. Deze opbrengsten worden toegerekend aan de verslagperiode in overeenstemming met de
+
+inhoud van de overeenkomst.
+Lonen, salarissen en sociale lasten
+
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in de winst- en
+verliesrekening.
+
+Overige bedrijfskosten
+Pensioenen
+
+2.3.5 Algemene toelichtingen
+
+Belangrijkste activiteiten
+
+De activiteiten van IN Zorg en advies, gevestigd te ROTTERDAM, bestaan voornamelijk uit:
+
+= Gezondheids- en welzijnszorg
+
+» Het geven van advies en het begeleiden van (met name) jong volwassenen, onder meer bij dagbesteding, persoonlijke
+verzorging, huishoudelijke zorg, sport begeleiding, begeleid wonen, kamertraining, ambulante begeleiding, extramurale
+zorg, hulp bij indicatieaanvragen of aanvragen in het kader van de Wet Maatschappelijke Ondersteuning (WMO) en alle
+voorkomende administratieve werkzaamheden, inclusief doen van belastingaangiften.
+
+Werknemers
+
+Gemiddeld werkten er 13,00 werknemers in 2020, in 2019 waren dat er 10,00.
+
+Gedurende het jaar 2020 waren 13 werknemers in dienst op basis van een volledig dienstverband (2019: 10).
+
+Bezoldiging van topfunctionarissen
+
+Voor de uitvoering van de Wet normering bezoldiging topfunctionarissen in de (semi)publieke sector (WNT) heeft de
+stichting zich gehouden aan de Beleidsregel toepassing WNT en deze als normenkader bij het opmaken van deze
+jaarrekening gehanteerd.
+
+2.4 Verbonden partijen
+
+2.4.1 Specificatie aandeelhouder(s)
+Naam aandeelhouder IN Holding B.V.
+
+IN Holding B.V. heeft geen schuld aan de vennootschap.
+
+IN Holding B.V. heeft geen vordering op de vennootschap.
+
+2.5 Winstbestemming
+
+Het bestuur stelt aan de Algemene Vergadering voor het resultaat over het boekjaar 2020 geheel ten gunste van de overige
+reserves te brengen en over 2020 geen dividend uit te keren.
+
+pagina: 11
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+2.6 Toelichting balans activa
+
+2.6.1 Vorderingen
+
+Vorderingen op handelsdebiteuren
+
+M pe 31-12-2020 31-12-2019
+Vorderingen uit hoofde van WLZ ZIN 133.332 133.332 72.150
+133.332 72.150
+
+Overige vorderingen
+31-12-2020 31-12-2019
+Overige vorderingen 28.547 0
+
+28.547 0
+Alle vorderingen hebben een resterende looptijd korter dan een jaar, tenzij anders vermeld.
+
+2.6.2 Liquide middelen
+
+31-12-2020 31-12-2019
+Bank 4 36.664
+4 36.664
+
+
+pagina: 12
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+2.7 Toelichting balans passiva
+
+2.7.1 Ondernemingsvermogen
+Gestort en opgevraagd kapitaal
+
+31-12-2020 31-12-2019
+Gestort kapitaal 10.000 10.000
+
+10.000 10.000
+
+Overige fiscale reserves
+31-12-2020 31-12-2019
+Overige fiscale reserves 142.255 80.724
+142.255 80.724
+
+2.7.2 Kortlopende schulden
+
+Loonheffingen
+Bedrag
+Ee 31-122020 31-12-2019
+zekerheid is
+gesteld
+Loonheffingen 0 4.027 0
+0 4.027 0
+Overige kortlopende schulden
+Bedrag
+EO 31-12-2020 31-12-2019
+zekerheid is
+gesteld
+Reservering vakantierechten 5.601 5.601 0
+Overige kortlopende schulden 0 0 18.090
+5.601 5.601 18.090
+
+De kortlopende schulden hebben een resterende looptijd van korter dan een jaar.
+
+pagina: 13
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+2.8 Toelichting winst-en-verliesrekening
+
+2.8.1 Opbrengsten
+
+Netto-omzet
+2020 2019
+Opbrengsten uit PGB en WLZ 862.317 825.783
+Niet-gebudgetteerde zorgprestaties (excl. DCB's /DCB-zorgproducten, incl. WLZ en
+WMO hulp) 301.964 0
+1.164.281 825.783
+Overige opbrengsten
+2020 2019
+Overige opbrengsten 22.627 0
+22.627 0
+2.8.2 Inkoopkosten en uitbesteed werk
+Kosten van uitbesteed werk en andere externe kosten
+2020 2019
+Kosten van uitbesteed werk en andere externe kosten 95.000 84.645
+95.000 84.645
+2.8.3 Personeelskosten
+Lonen en salarissen
+2020 2019
+Lonen en salarissen 224.962 116.101
+224.962 116.101
+Sociale lasten
+2020 2019
+Sociale lasten 35.767 15.390
+35.767 15.390
+Pensioenlasten
+2020 2019
+Pensioenlasten 12.676 4.611
+12.676 4,611
+Overige personeelskosten
+2020 2019
+Overige personeelskosten 14.799 12.621
+
+14.799 12.621
+
+pagina: 14
+KvK-nummer: 56909438
+Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+2.8.4 Overige bedrijfskosten
+
+Huisvestingskosten
+2020 2019
+Huisvestingskosten 224.525 194.434
+224.525 194.434
+Verkoopkosten
+2020 2019
+Verkoopkosten 1.630 0
+1.630 0
+Niet-aftrekbare kosten
+2020 2019
+Niet-aftrekbare kosten 150 0
+150 0
+Overige kosten
+2020 2019
+Voedingsmiddelen en hotelmatige kosten 292.510 228.991
+Algemene kosten 155.048 132.119
+Patiënt- en bewonersgebonden kosten 57.114 0
+504.672 361.110
+2.8.5 Financiële baten en lasten
+Kosten van schulden, andere rentelasten en soortgelijke kosten
+2020 2019
+Bankkosten 311 0
+
+311 0
+
+pagina: 15
+KvK-nummer: 56909438
+- Jaarrekening 2020 van IN Zorg en Advies B.V. Datum vastgesteld: 08-02-2022
+
+2.9 Overige toelichtingen
+
+Bezoldiging commisarissen
+De onderneming heeft 3 commissarissen. De commissarissen ontvangen voor het boekjaar 2020 per persoon een bedrag
+van € 1.500,00
+Ondertekening jaarrekening
+Rotterdam, 08 februari 2022
+
+L.J. Nambukara
+
+Bestuurder (huidig)
+
+Rotterdam, 08 februari 2022 Handtekening
+A.J. da Silva de Oliveira n == Ms
+
+Commissaris (huidig)
+
+Rotterdam, 08 februari 2022 Handtekening
+
+R. Fransen
+Commissaris (huidig)
+
+Rotterdam, 08 februari 2022 Handtekening
+
+J.M. van Dijk
+Commissaris (huidig)
+
+Rotterdam, 08 februari 2022 Handtekening
+
+C.J. Brito Silva
+
+Commissaris (huidig) CE

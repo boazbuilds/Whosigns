@@ -1,25 +1,43 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { marktaandeel, organisatiesInSector, sectoren, wisselingen } from "@/lib/db";
+import {
+  marktaandeel,
+  marktonderzoekPerSector,
+  organisatiesInSector,
+  sectoren,
+  wisselingen,
+  type MarktonderzoekJaar,
+} from "@/lib/db";
 import { saldoPerKantoor } from "@/lib/analyse";
+import {
+  controlesPerJaar,
+  LEIDER_COMPLEET,
+  LEIDER_MINIMUM,
+  nieuwsteCompleteBoekjaar,
+} from "@/lib/voorpagina";
 import {
   aantalKantoren,
   aantalOrganisaties,
   aantalWisselingen,
   hoofdletter,
   kantoorPad,
+  kortKantoor,
+  nl,
   organisatiePad,
+  procent,
   SECTOR_UITLEG,
+  sectorOrganisatiesPad,
   sectorPad,
   slug,
   subsectorPad,
   veiligGedecodeerd,
+  wisselingenPad,
 } from "@/lib/paden";
 import {
   Aandeelbalk,
+  Aangeleverd,
   Doorklik,
-  Foutmelding,
   Inklapbaar,
   KantoorLink,
   Kerncijfer,
@@ -32,8 +50,102 @@ import {
 
 type Params = { params: Promise<{ naam: string }> };
 
-/** Zoveel organisaties staan open in de zijkolom; de rest zit achter een klik. */
+/** ISR: bij het eerste bezoek opbouwen en dan een uur uit de cache, zoals de
+ *  organisatiepagina; zie de uitleg daar. Deze pagina hangt in het menu van
+ *  élke pagina, dus juist hier telt het. */
+export const revalidate = 3600;
+
+export function generateStaticParams(): { naam: string }[] {
+  return [];
+}
+
+/**
+ * Zoveel organisaties staan op deze pagina; de hele lijst staat op een eigen,
+ * gepagineerde pagina. Hier stonden ze tot 5-10-2026 állemaal in de HTML, de
+ * staart ingeklapt: bij de zorg 2.448 regels en 1,6 MB, bij de financiële
+ * dienstverlening 4.165 regels en 1,8 MB — ook voor wie alleen het podium
+ * kwam bekijken.
+ */
 const ORGANISATIES_OPEN = 15;
+
+/** Zoveel boekjaren marktonderzoek staan open; de oudste, met een handvol
+ *  organisaties per jaar, zitten achter een klik. */
+const MARKTONDERZOEK_OPEN = 8;
+
+/**
+ * Wat het aangeleverde marktonderzoek over deze sector zegt — apart van de
+ * controles, en alleen als telling van organisaties per boekjaar.
+ *
+ * Het onderzoek noemt per organisatie en boekjaar een kantoor, maar niet
+ * waarover de opdracht ging (opdrachttype "controle, voorwerp onbekend").
+ * Daarom telt het nergens mee in de controles, aandelen en wisselingen
+ * hierboven. Hier staat het toch, omdat de pagina anders "nog geen opdrachten"
+ * zei bij een sector met duizenden: op 5-10-2026 had de handel 0 controles en
+ * 4.095 opdrachten uit het marktonderzoek, de financiële dienstverlening 11
+ * tegen 12.053.
+ *
+ * Geen verdeling per kantoor, ook niet binnen één jaar: het onderzoek dekt 22
+ * kantoren en twee van de vier grootste niet, dus zo'n verdeling zou laten zien
+ * wie er in de aanlevering zit en niet wie de sector controleert.
+ */
+function Marktonderzoek({ jaren }: { jaren: MarktonderzoekJaar[] }) {
+  const regel = (rij: MarktonderzoekJaar) => (
+    <tr key={rij.boekjaar}>
+      <td className="jaar">{rij.boekjaar}</td>
+      <td className="getal">{nl(rij.aantal_organisaties)}</td>
+      <td className="getal">{nl(rij.zonder_controle)}</td>
+    </tr>
+  );
+  const kop = (
+    <thead>
+      <tr>
+        <th>Boekjaar</th>
+        <th className="getal">Organisaties met een kantoor</th>
+        <th className="getal">waarvan zonder gelezen controle</th>
+      </tr>
+    </thead>
+  );
+  return (
+    <section className="kaart">
+      <div className="kaartkop">
+        <h2>Volgens marktonderzoek</h2>
+        <span>
+          <Aangeleverd bron={{ bron_type: "marktonderzoek", betrouwbaarheid: "zelf_aangeleverd" }} />{" "}
+          <span className="klein zacht">(zelf aangeleverd)</span>
+        </span>
+      </div>
+      <p className="klein zacht" style={{ marginTop: 0, maxWidth: "46rem" }}>
+        Aangeleverd marktonderzoek noemt voor deze organisaties per boekjaar
+        een accountantskantoor, maar niet waarover de opdracht ging: een
+        wettelijke of vrijwillige controle van de jaarrekening, of iets anders.
+        Het staat daarom los van de controles hierboven en telt niet mee in een
+        aandeel of een wisseling. Welk kantoor het is, staat op de pagina van
+        de organisatie.
+      </p>
+      <div className="tabel-omhulsel">
+        <table>
+          {kop}
+          <tbody>{jaren.slice(0, MARKTONDERZOEK_OPEN).map(regel)}</tbody>
+        </table>
+      </div>
+      {jaren.length > MARKTONDERZOEK_OPEN ? (
+        <Inklapbaar samenvatting={`Nog ${jaren.length - MARKTONDERZOEK_OPEN} eerdere boekjaren`}>
+          <div className="tabel-omhulsel">
+            <table>
+              {kop}
+              <tbody>{jaren.slice(MARKTONDERZOEK_OPEN).map(regel)}</tbody>
+            </table>
+          </div>
+        </Inklapbaar>
+      ) : null}
+      <p className="klein zacht" style={{ marginBottom: 0 }}>
+        Geen verdeling over kantoren: het onderzoek dekt niet alle kantoren, dus
+        zo&rsquo;n verdeling zou laten zien wie er in het onderzoek zit, niet wie
+        deze sector controleert. Niet per document na te slaan.
+      </p>
+    </section>
+  );
+}
 
 /**
  * De echte sectorwaarde bij een slug.
@@ -56,37 +168,39 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   return {
     title: `Accountants in de sector ${sector}`,
     description:
-      `Welke accountantskantoren controleren organisaties in de sector ${sector}, ` +
-      `met marktaandelen per boekjaar en recente wisselingen.`,
+      `Welke accountantskantoren controleren organisaties in de sector ${sector}: ` +
+      `controles per boekjaar, het marktaandeel in het nieuwste complete boekjaar ` +
+      `en recente wisselingen.`,
   };
 }
 
 export default async function Sectorpagina({ params }: Params) {
   const { naam } = await params;
 
-  let sector: string | null;
-  let organisaties;
-  let aandelen;
-  try {
-    sector = await vindSector(veiligGedecodeerd(naam));
-    [organisaties, aandelen] = sector
-      ? await Promise.all([organisatiesInSector(sector), marktaandeel(sector)])
-      : [[], []];
-  } catch (fout) {
-    return <Foutmelding fout={fout} />;
-  }
-  // Buiten de try: notFound() werkt met een uitzondering die Next zelf opvangt.
-  // Binnen de try zou onze eigen catch die opslokken en kreeg de bezoeker een
-  // foutmelding met http-status 200 in plaats van een nette 404.
+  // Geen try met <Foutmelding> meer: deze pagina staat een uur in de cache, en
+  // een gerenderde foutmelding ging daar bij een mislukte verversing in mee.
+  // Een geworpen fout laat de vorige versie staan; zie error.tsx.
+  const sector = await vindSector(veiligGedecodeerd(naam));
+  const [organisaties, aandelen, sectorWisselingen, marktonderzoek] = sector
+    ? await Promise.all([
+        organisatiesInSector(sector),
+        marktaandeel(sector),
+        // Alleen de wisselingen van deze sector, zonder limiet: met een limiet
+        // vooraf vielen ze buiten beeld zodra een andere sector de nieuwste
+        // regels vulde.
+        wisselingen({ sector }),
+        // Het marktonderzoek is een los blok onderaan. Zolang de view er niet
+        // is, geeft marktonderzoekPerSector() null en blijft het blok weg; elke
+        // andere fout gooit door, zoals de rest van deze pagina, zodat de
+        // vorige versie in de cache blijft staan.
+        marktonderzoekPerSector(sector),
+      ])
+    : [[], [], [], null];
+  // notFound() werkt met een uitzondering die Next zelf opvangt; in een try
+  // met eigen catch werd dat een foutmelding met http-status 200.
   if (!sector || organisaties.length === 0) notFound();
 
-  // Alle wisselingen ophalen en hier filteren: v_wisselingen kent geen sector, en
-  // met een limiet vooraf vielen de wisselingen van deze sector buiten beeld zodra
-  // een andere sector de nieuwste regels vulde.
-  const organisatieIds = new Set(organisaties.map((o) => o.id));
-  const sectorWisselingen = (await wisselingen()).filter((w) =>
-    organisatieIds.has(w.organisatie_id),
-  );
+  const marktonderzoekJaren = (marktonderzoek ?? []).filter((j) => j.aantal_organisaties > 0);
 
   // Subsectoren uit de organisaties van déze sector. Hier stond de landelijke
   // lijst, dus de zorgpagina toonde ook de subsectoren van de goede doelen.
@@ -117,13 +231,50 @@ export default async function Sectorpagina({ params }: Params) {
     bestaand.totaal += rij.aantal_controles;
     perKantoor.set(rij.kantoor_id, bestaand);
   }
+  const totaalControles = [...perKantoor.values()].reduce((som, rij) => som + rij.totaal, 0);
+
+  // Het aandeel geldt binnen één sector én één boekjaar: het nieuwste boekjaar
+  // dat voor deze sector al compleet is, met dezelfde regel als de
+  // sectorleiders op de voorpagina. Hier stond het aandeel over alle boekjaren
+  // samen. Bij de woningcorporaties gaf dat Deloitte 27,3% (1.666 van 6.093
+  // over 2007–2024), terwijl het per jaar tussen 11 en 16% lag in 2019–2024;
+  // bij de financiële dienstverlening stond Eshuis op 54,5% — 6 van 11
+  // controles verspreid over dertien jaar (5-10-2026).
+  const perJaar = controlesPerJaar(aandelen);
+  const leiderJaar = nieuwsteCompleteBoekjaar(perJaar);
+  const inLeiderJaar = (rij: { cellen: Map<number, number> }) =>
+    leiderJaar === null ? 0 : (rij.cellen.get(leiderJaar) ?? 0);
+  const controlesLeiderJaar = leiderJaar === null ? 0 : (perJaar.get(leiderJaar) ?? 0);
+
+  // Gesorteerd op dat boekjaar, en pas daarna op het totaal: het rangnummer
+  // hoort bij hetzelfde jaar als het aandeel ernaast.
   const kantoorrijen = [...perKantoor.entries()].sort(
-    (a, b) => b[1].totaal - a[1].totaal || a[1].naam.localeCompare(b[1].naam, "nl"),
+    (a, b) =>
+      inLeiderJaar(b[1]) - inLeiderJaar(a[1]) ||
+      b[1].totaal - a[1].totaal ||
+      a[1].naam.localeCompare(b[1].naam, "nl"),
   );
-  const totaalControles = kantoorrijen.reduce((som, [, rij]) => som + rij.totaal, 0);
+  // De plek in dat boekjaar: bij gelijke aantallen dezelfde plek, in de tabel,
+  // op het podium en op de kantoorpagina (sectorposities) dezelfde regel. Het
+  // podium deelde eerst i + 1 uit in sorteervolgorde: bij de overheid in 2024
+  // (46, 30, 26, 26 controles) stond één van de twee met 26 op het podium en de
+  // ander niet, en in overig bedrijfsleven stonden BDO en Eshuis (8 en 8) op
+  // plek 2 en 3, terwijl de tabel ze allebei 2 gaf (5-10-2026).
+  const plekIn = (rij: { cellen: Map<number, number> }) =>
+    1 + kantoorrijen.filter(([, ander]) => inLeiderJaar(ander) > inLeiderJaar(rij)).length;
+  const kandidaten = kantoorrijen.filter(
+    ([, rij]) => inLeiderJaar(rij) > 0 && plekIn(rij) <= 3,
+  );
+  // Meer dan drie betekent een gelijke stand op de laagste plek. Dan gaat die
+  // hele groep van het podium, met een zin erbij, in plaats van er één uit te
+  // kiezen op naam. Hooguit één groep: wie erboven staat, telt er samen nooit
+  // meer dan twee.
+  const grensplek = kandidaten.length > 3 ? Math.max(...kandidaten.map(([, rij]) => plekIn(rij))) : null;
+  const podium = kandidaten.filter(([, rij]) => grensplek === null || plekIn(rij) < grensplek);
+  const gedeeld = kandidaten.filter(([, rij]) => grensplek !== null && plekIn(rij) === grensplek);
   const saldi = saldoPerKantoor(sectorWisselingen).filter((rij) => rij.saldo !== 0);
 
-  const organisatierijen = organisaties.map((org) => (
+  const organisatierijen = organisaties.slice(0, ORGANISATIES_OPEN).map((org) => (
     <tr key={org.id}>
       <td>
         <Link href={organisatiePad(org)}>{org.naam}</Link>
@@ -156,7 +307,7 @@ export default async function Sectorpagina({ params }: Params) {
           <Kerncijfer
             waarde={sectorWisselingen.length}
             naam="wisselingen"
-            naar="/wisselingen"
+            naar={wisselingenPad({ sector })}
           />
           <Kerncijfer
             waarde={boekjaren.length ? `${Math.min(...boekjaren)}–${Math.max(...boekjaren)}` : "—"}
@@ -165,31 +316,67 @@ export default async function Sectorpagina({ params }: Params) {
         </div>
       </div>
 
-      {kantoorrijen.length >= 3 ? (
+      {leiderJaar !== null && kandidaten.length > 0 ? (
         <section className="kaart">
-          <h2>Wie is hier de baas?</h2>
+          <h2>Wie is hier de baas in boekjaar {leiderJaar}?</h2>
           <div className="podium">
-            {kantoorrijen.slice(0, 3).map(([id, rij], i) => (
+            {podium.map(([id, rij]) => (
               <Podiumplek
                 key={id}
-                plek={i + 1}
+                plek={plekIn(rij)}
                 naar={kantoorPad({ afm_nummer: rij.afm, naam: rij.naam, id })}
                 naam={rij.naam}
-                onder={`${((rij.totaal / totaalControles) * 100).toFixed(1)}% van deze sector`}
-                groot={String(rij.totaal)}
+                onder={`${procent((inLeiderJaar(rij) / controlesLeiderJaar) * 100)} van ${nl(controlesLeiderJaar)} controles in ${leiderJaar}`}
+                groot={String(inLeiderJaar(rij))}
               />
             ))}
           </div>
+          {gedeeld.length > 0 ? (
+            <p className="klein" style={{ marginTop: "0.9rem", marginBottom: 0 }}>
+              {gedeeld.map(([id, rij], i) => (
+                <span key={id}>
+                  {i === 0 ? null : i === gedeeld.length - 1 ? " en " : ", "}
+                  <Link href={kantoorPad({ afm_nummer: rij.afm, naam: rij.naam, id })}>
+                    {kortKantoor(rij.naam)}
+                  </Link>
+                </span>
+              ))}{" "}
+              delen plek {grensplek}, met elk {inLeiderJaar(gedeeld[0][1])} controles
+              in {leiderJaar}.
+            </p>
+          ) : null}
+          <p className="klein zacht" style={{ marginTop: "0.9rem", marginBottom: 0 }}>
+            Het nieuwste boekjaar dat al vrijwel compleet in de database staat:
+            minstens {procent(100 * LEIDER_COMPLEET, 0)} van het aantal controles
+            van het jaar ervoor, en minstens {LEIDER_MINIMUM}. De andere jaren
+            staan hieronder als aantallen.
+          </p>
+        </section>
+      ) : kantoorrijen.length > 0 ? (
+        <section className="kaart">
+          <h2>Wie is hier de baas?</h2>
+          <Leeg
+            tekst={`Te weinig controles voor een aandeel: in geen enkel boekjaar staan er in deze sector minstens ${LEIDER_MINIMUM} in de database. De aantallen per boekjaar staan hieronder.`}
+          />
         </section>
       ) : null}
 
       <section className="kaart">
         <div className="kaartkop">
           <h2>Controles per kantoor per boekjaar</h2>
-          <Link href="/kantoren">Landelijke ranglijst →</Link>
+          <Link href="/kantoren">Alle kantoren →</Link>
         </div>
         {kantoorrijen.length === 0 ? (
-          <Leeg tekst="Nog geen opdrachten in deze sector." />
+          // Hier stond "Nog geen opdrachten in deze sector", ook bij de handel
+          // met 4.095 opdrachten uit het marktonderzoek (5-10-2026). Wat er
+          // ontbreekt zijn gelezen controles; het marktonderzoek staat apart.
+          <Leeg
+            tekst={
+              marktonderzoekJaren.length
+                ? "Nog geen gelezen wettelijke of vrijwillige controles in deze sector. Wel noemt aangeleverd marktonderzoek een kantoor bij een deel van de organisaties; zie hieronder."
+                : "Nog geen gelezen wettelijke of vrijwillige controles in deze sector."
+            }
+          />
         ) : (
           <div className="tabel-omhulsel">
             <table>
@@ -203,14 +390,18 @@ export default async function Sectorpagina({ params }: Params) {
                     </th>
                   ))}
                   <th className="getal">Totaal</th>
-                  <th>Aandeel</th>
+                  {leiderJaar !== null ? <th>Aandeel {leiderJaar}</th> : null}
                 </tr>
               </thead>
               <tbody>
-                {kantoorrijen.map(([id, rij], i) => (
+                {kantoorrijen.map(([id, rij]) => (
                   <tr key={id}>
                     <td className="rangcel">
-                      <Rang nummer={i + 1} />
+                      {/* Een plek alleen in het boekjaar van het aandeel; wie
+                          dat jaar niets controleerde, krijgt geen nummer. Bij
+                          gelijke aantallen dezelfde plek, zoals op de
+                          kantoorpagina (sectorposities). */}
+                      {inLeiderJaar(rij) > 0 ? <Rang nummer={plekIn(rij)} /> : null}
                     </td>
                     <td>
                       <KantoorLink
@@ -226,16 +417,34 @@ export default async function Sectorpagina({ params }: Params) {
                     <td className="getal">
                       <strong>{rij.totaal}</strong>
                     </td>
-                    <td className="balkcel">
-                      <Aandeelbalk deel={rij.totaal} geheel={totaalControles} />
-                    </td>
+                    {leiderJaar !== null ? (
+                      <td className="balkcel">
+                        {inLeiderJaar(rij) > 0 ? (
+                          <Aandeelbalk deel={inLeiderJaar(rij)} geheel={controlesLeiderJaar} />
+                        ) : (
+                          <span className="zacht">·</span>
+                        )}
+                      </td>
+                    ) : null}
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
         )}
+        {kantoorrijen.length > 0 ? (
+          <p className="klein zacht" style={{ marginBottom: 0 }}>
+            Het totaal is een optelsom van aantallen over de boekjaren, geen
+            aandeel: welke organisaties er per boekjaar in de database staan
+            verschilt.
+            {leiderJaar !== null
+              ? ` Rangnummer en aandeel gelden voor boekjaar ${leiderJaar}.`
+              : ""}
+          </p>
+        ) : null}
       </section>
+
+      {marktonderzoekJaren.length > 0 ? <Marktonderzoek jaren={marktonderzoekJaren} /> : null}
 
       {subsectorlijst.length > 0 ? (
         <section className="kaart">
@@ -271,7 +480,7 @@ export default async function Sectorpagina({ params }: Params) {
         <section className="kaart">
           <div className="kaartkop">
             <h2>Wisselingen in deze sector</h2>
-            <Link href="/wisselingen">Alle →</Link>
+            <Link href={wisselingenPad({ sector })}>Alle →</Link>
           </div>
           {sectorWisselingen.length === 0 ? (
             <Leeg tekst="Geen wisselingen gevonden." />
@@ -348,24 +557,17 @@ export default async function Sectorpagina({ params }: Params) {
       <section className="kaart">
         <div className="kaartkop">
           <h2>Organisaties in deze sector</h2>
-          <Link href="/organisaties">Alle organisaties →</Link>
+          {organisaties.length > ORGANISATIES_OPEN ? (
+            <Link href={sectorOrganisatiesPad(sector)}>
+              Alle {nl(organisaties.length)} →
+            </Link>
+          ) : null}
         </div>
         <div className="tabel-omhulsel">
           <table>
-            <tbody>{organisatierijen.slice(0, ORGANISATIES_OPEN)}</tbody>
+            <tbody>{organisatierijen}</tbody>
           </table>
         </div>
-        {organisatierijen.length > ORGANISATIES_OPEN ? (
-          <Inklapbaar
-            samenvatting={`Nog ${organisatierijen.length - ORGANISATIES_OPEN} organisaties`}
-          >
-            <div className="tabel-omhulsel">
-              <table>
-                <tbody>{organisatierijen.slice(ORGANISATIES_OPEN)}</tbody>
-              </table>
-            </div>
-          </Inklapbaar>
-        ) : null}
       </section>
 
       <Doorklik
@@ -385,16 +587,21 @@ export default async function Sectorpagina({ params }: Params) {
             tekst: org.naam,
             toelichting: org.gemeente ?? undefined,
           })),
+          {
+            naar: sectorOrganisatiesPad(sector),
+            tekst: "Alle organisaties in deze sector, alfabetisch",
+            toelichting: aantalOrganisaties(organisaties.length),
+          },
           { naar: "/sectoren", tekst: "Alle sectoren vergelijken" },
           {
             naar: "/kantoren",
-            tekst: "Landelijke ranglijst van kantoren",
+            tekst: "Alle kantoren, over alle sectoren",
             toelichting: `${aantalKantoren(kantoorrijen.length)} actief in deze sector`,
           },
           {
-            naar: "/wisselingen",
-            tekst: "Alle accountantswisselingen",
-            toelichting: `${aantalWisselingen(sectorWisselingen.length)} in deze sector`,
+            naar: wisselingenPad({ sector }),
+            tekst: `Accountantswisselingen in de sector ${sector}`,
+            toelichting: aantalWisselingen(sectorWisselingen.length),
           },
           { naar: "/bevindingen", tekst: "Waar was het oordeel niet goedkeurend?" },
         ]}

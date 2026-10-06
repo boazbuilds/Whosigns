@@ -27,9 +27,13 @@ on:
         required: true
         default: "2025,2024,2023,2022,2021,2020,2019"
       categorieen:
-        description: "CBF-omvangcategorieën (D,E = controleverklaring verplicht)"
+        description: "CBF-omvangcategorieën (D,E = controleverklaring, C = beoordeling)"
         required: true
-        default: "D,E"
+        default: "C,D,E"
+      soorten:
+        description: "Welke verklaringsoorten meetellen (C levert een beoordeling)"
+        required: true
+        default: "controle,beoordeling"
       terugval:
         description: "Ook op de eigen website zoeken als het CBF niets heeft (langzamer)"
         type: boolean
@@ -53,6 +57,41 @@ on:
         type: boolean
         required: false
         default: false
+  # Zelfde invoer met dezelfde standaarden, voor "Alles verversen".
+  workflow_call:
+    inputs:
+      boekjaren:
+        type: string
+        required: false
+        default: "2025,2024,2023,2022,2021,2020,2019"
+      categorieen:
+        type: string
+        required: false
+        default: "C,D,E"
+      soorten:
+        type: string
+        required: false
+        default: "controle,beoordeling"
+      terugval:
+        type: boolean
+        required: false
+        default: false
+      vanaf:
+        type: string
+        required: false
+        default: "0"
+      aantal:
+        type: string
+        required: false
+        default: "0"
+      herlaad:
+        type: boolean
+        required: false
+        default: false
+      droogloop:
+        type: boolean
+        required: false
+        default: false
 
 # Zelfde groep als de stichtingenlus: dit script schrijft dezelfde tabellen en
 # dezelfde review-queue. Een handmatige run wacht dus netjes tot de lusronde
@@ -68,23 +107,26 @@ jobs:
     # Ruim binnen de zes uur die GitHub een job gunt; de rest doet een tweede run.
     timeout-minutes: 330
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
-      # Zie stichtingenlus.yml: tesseract is de terugval voor gescande jaarverslagen.
-      - name: poppler-utils en tesseract installeren
+      # Geen tesseract: OCR draait niet op een runner (WHOSIGNS_OCR=0 hieronder).
+      # Zie docs/draaiboek-acties.md.
+      - name: poppler-utils installeren
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-nld
+          sudo apt-get install -y -qq poppler-utils
 
       # De kantorenlijst moet in de database staan vóór er opdrachten aan hangen —
       # inclusief de kantoren zonder Wta-vergunning uit seed/kantoren_overig.csv,
       # want anders belandt een derde van deze sector in de review-queue.
       - name: Kantorenlijsten bijwerken
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
@@ -96,6 +138,8 @@ jobs:
 
       - name: Stichtingendata laden
         env:
+          # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
+          WHOSIGNS_OCR: "0"
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           # Invoer via de omgeving: een invoerwaarde kan dan nooit als
@@ -115,6 +159,7 @@ jobs:
             echo "::group::boekjaar $jaar"
             python3 pipeline/laad_stichtingen.py \
               --boekjaar "$jaar" \
+              --soorten "${{ inputs.soorten }}" \
               --categorieen "$CATEGORIEEN" \
               --vanaf "$VANAF" \
               --aantal "$AANTAL" \
@@ -130,7 +175,7 @@ jobs:
 
       - name: Rapporten bewaren
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: resultaten-stichtingen
           path: pipeline/.cache/resultaat_stichtingen_*.csv

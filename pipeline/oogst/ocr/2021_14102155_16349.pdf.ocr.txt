@@ -1,0 +1,694 @@
+# whosigns-ocr v1 grootte=4007589 dpi=300 paginas=20
+Stichting Dr. Mulkens Kliniek
+Zandbergsweg 111
+6432 CC HOENSBROEK
+
+Jaarrekening 2021
+
+INHOUDSOPGAVE
+
+1. Rapport
+
+1.1 _Beoordelingsverklaring
+
+1.2 Algemeen
+
+1.3 _Resultaatvergelijking
+
+1.4 _ Financiële positie
+
+2. Jaarrekening
+
+2.1 Balans per 31 december 2021
+
+2.2 _Winst- en verliesrekening over 2021
+2.3 _Kasstroomoverzicht over 2021
+
+2.4 _ Toelichting op de jaarrekening
+
+2.5 Toelichting op de balans
+
+2.6 _ Toelichting op de winst- en verliesrekening
+3. Bijlagen
+
+Stichting Dr. Mulkens Kliniek
+Zandbergsweg 111
+6432 CC HOENSBROEK
+
+Jaarrekening 2021
+
+Pagina
+
+NN UI UT WW
+
+11
+12
+13
+16
+18
+
+1. RAPPORT
+
+Stichting Dr. Mulkens Kliniek
+Zandbergsweg 111
+6432 CC HOENSBROEK
+
+Referentie: MO95-2021 Heerlen, 16 mei 2022
+Betreft: Jaarrekening 2021
+
+Geacht Bestuur en Raad van Toezicht,
+
+Hiermede brengen wij u verslag uit van onze werkzaamheden omtrent de jaarrekening 2021 van uw
+onderneming.
+
+De balans per 31 december 2021, de winst- en verliesrekening over 2021 en de toelichting, welke tezamen
+de jaarrekening 2021 vormen, zijn in dit rapport opgenomen.
+
+1.1 Beoordelingsverklaring
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2021 van Stichting Dr. Mulkens Kliniek te Hoensbroek
+beoordeeld. Deze jaarrekening bestaat uit de balans per 31 december 2021 en de winst- en verliesrekening
+over 2021 met de toelichting, waarin zijn opgenomen een overzicht van de gehanteerde grondslagen voor
+financiële verslaggeving en andere toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het resultaat
+getrouw dient weer te geven in overeenstemming met de Regelgeving verslaggeving WTZi en de
+bepalingen van en krachtens de Wet normering bezoldiging topfunctionarissen publieke en semipublieke
+sector (WNT), alsmede voor het opstellen van het jaarverslag in overeenstemming met de in Nederland
+geldende RJ 655 Zorginstellingen.
+
+Het bestuur is tevens verantwoordelijk voor een zodanige interne beheersing als het noodzakelijk acht om
+het opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als gevolg
+van fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze
+beoordeling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder
+de Nederlandse Standaard 2400 ‘Opdrachten tot het beoordelen van financiële overzichten’. Dit vereist dat
+wij voldoen aan de voor ons geldende ethische voorschriften en dat wij onze beoordeling zodanig plannen
+en uitvoeren dat wij in staat zijn te concluderen dat ons niet is gebleken dat de jaarrekening afwijkingen
+van materieel belang bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte mate
+van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak uit het inwinnen van
+inlichtingen bij het management en overige functionarissen van de entiteit, het uitvoeren van cijferanalyses
+met betrekking tot de financiële gegevens alsmede het evalueren van de verkregen informatie.
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter dan
+die uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de Nederlandse
+controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+
+Conclusie
+
+Op grond van onze beoordeling is ons niets gebleken op basis waarvan wij zouden moeten concluderen dat
+de jaarrekening geen getrouw beeld geeft van de grootte en de samenstelling van het vermogen van
+Stichting Dr. Mulkens Kliniek per 31 december 2021 en van het resultaat over 2021 in overeenstemming
+met de Regeling verslaggeving WTZi.
+
+Benadrukking controle-opdracht in het kader van de WNT
+
+Conform artikel 1.7 van de WNT bestaat er een controleplicht ten aanzien van de WNT-aspecten. Met
+betrekking tot de jaarrekening van Stichting Dr. Mulkens Kliniek wordt door ons een beoordelingsopdracht
+uitgevoerd. De WNT-aspecten vallen hier derhalve niet onder.
+
+Ten behoeve van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK) wordt hiervoor door
+ons een separate controleverklaring afgegeven.
+
+Verklaring betreffende overige bij of krachtens de wet gestelde eisen
+
+Ingevolge artikel 2 Regeling verslaggeving WTZi juncto artikel 2:393 lid 5 onder e BW vermelden wij dat
+ons geen tekortkomingen zijn gebleken naar aanleiding van het onderzoek of de in artikel 2:392 lid 1 onder
+b tot en met h BW vereiste gegevens zijn toegevoegd.
+
+Wij vertrouwen hiermee aan uw opdracht te hebben voldaan. Tot het geven van nadere toelichting zijn wij
+gaarne bereid.
+
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+1.2 Algemeen
+
+Oprichting
+Blijkens de akte d.d. 29 april 2008 werd de Stichting Dr. Mulkens Kliniek per genoemde datum opgericht.
+
+De vennootschap is ingeschreven bij de Kamer van Koophandel onder dossiernummer 14102155.
+Doelstelling
+
+De doelstelling van Stichting Dr. Mulkens Kliniek wordt als volgt omschreven:
+Dermatologie, Plastische chirurgie, Vaatchirurgie, KNO, Pijnbestrijding en Huid - en Lasertherapie.
+
+1.3 Resultaatvergelijking
+
+Ter analyse van het resultaat van de onderneming verstrekken wij u de onderstaande opstelling, welke is
+gebaseerd op de winst- en verliesrekening.
+
+2021 2020
+€ % € %
+Opbrengsten zorgprestaties 4.477.408 100,0% 3.715.600 100,0%
+Inkoopwaarde van de zorgprestaties 4.440.572 99,2% 3.639.812 98,0%
+Bruto bedrijfsresultaat 36.836 0,8% 75.788 2,0%
+Bestuurdersbeloning 24.000 0,5% 62.146 1,7%
+Overige personeelskosten -2.682 -0,1% 1.797 0,1%
+Algemene kosten 11.566 0,3% 11.043 0,3%
+Som der kosten 32.884 0,7% 74.986 2,1%
+Bedrijfsresultaat 3.952 0,1% 802 -0,1%
+Rentelasten en soortgelijke kosten -3.952 -0,1% -802 0,0%
+Som der financiële baten en lasten “3.952 -0,1% -802 0,0%
+Resultaat = 0,0% - -0,1%
+
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+1.3 Resultaatvergelijking
+
+Het resultaat 2021 is ten opzichte van 2020 gelijk gebleven. De ontwikkeling van het resultaat 2021 ten
+opzichte van 2020 kan als volgt worden weergegeven:
+
+€ €
+
+Het resultaat is gunstig beïnvloed door:
+Stijging van:
+Opbrengsten zorgprestaties 761.808
+Daling van:
+Lonen en salarissen 38.146
+Overige personeelskosten 4,479
+
+804.433
+Het resultaat is ongunstig beïnvloed door:
+Stijging van;
+Inkoopwaarde van de zorgprestaties 800.760
+Algemene kosten 523
+Rentelasten en soortgelijke kosten 3.150
+
+804.433
+
+Gelijk resultaat 2
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+1.4 Financiële positie
+
+Ter analyse van de financiële positie van de onderneming verstrekken wij u de onderstaande opstelling,
+welke is gebaseerd op de gegevens uit de balans.
+
+31 december 2021 31 december 2020
+
+€ € € €
+Op korte termijn beschikbaar:
+Vorderingen 2.090.711 1.370.688
+Liquide middelen 1.264.503 1.122.641
+Totaal vlottende activa 3.355.214 2.493.329
+Af: kortlopende schulden 3.353.289 2.491.404
+Werkkapitaal 1.925 1.925
+Vastgelegd op lange termijn:
+Gefinancierd met op lange termijn
+beschikbare middelen 1.925 1.925
+Deze financiering vond plaats met:
+Eigen vermogen 1.925 1.925
+
+1.925 1.925
+
+Blijkens deze opstelling is het werkkapitaal per 31 december 2021 ten opzichte van 31 december 2020
+gelijk gebleven.
+
+2. JAARREKENING
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.1 Balans per 31 december 2021
+(Na resultaatbestemming)
+
+31 december 2021
+
+31 december 2020
+
+ACTIVA € €
+Vlottende activa
+Vorderingen
+Vorderingen inzake zorgprestaties 2.088.860
+Overlopende activa 1.851
+
+2.090.711
+Liquide middelen 1.264.503
+Totaal activazijde 3.355.214
+
+€ €
+1.370.688
+1.370.688
+1.122.641
+
+2.493.329
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.1 Balans per 31 december 2021
+(Na resultaatbestemming)
+
+31 december 2021
+
+31 december 2020
+
+PASSIVA € €
+Eigen vermogen
+Overige reserves 1.925
+1.925
+
+Kortlopende schulden
+Schuld aan gelieerde ondernemingen 3.165.397
+Belastingen 856
+Overige schulden 174.906
+Overlopende passiva 12.130
+
+3.353.289
+Totaal passivazijde 3.355.214
+
+> 10
+
+€ €
+
+1.925
+1.925
+
+2.281.581
+1.789
+194.176
+
+13.858
+
+2.491.404
+
+2.493.329
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.2 Winst- en verliesrekening over 2021
+
+2021 2020
+€ € € €
+
+Opbrengsten zorgprestaties 4.207.482 3.476.571
+Opbrengsten overige behandelingen 330.752 216.366
+Mutatie voorziening oninbare
+vorderingen -60.826 22.663
+
+4.477.408 3.715.600
+Inkoopwaarde van de zorgprestaties 4,440.572 3.639.812
+Bruto bedrijfsresultaat 36.836 75.788
+Bestuurdersbeloning 24.000 62.146
+Overige personeelskosten -2.682 1.797
+Algemene kosten 11.566 11.043
+Som der kosten 32.884 74.986
+Bedrijfsresultaat 3.952 802
+Rentelasten en soortgelijke kosten -3.952 -802
+Som der financiële baten en lasten -3.952 -802
+Resultaat a 5
+
+… iT =
+
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.3 Kasstroomoverzicht over 2021
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2021 2020
+€ € € €
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat 3.952 802
+Verandering in werkkapitaal:
+Vorderingen -720.023 127.785
+Kortlopende schulden (excl. schulden
+aan kredietinstellingen) 861.885 627.901
+
+141.862 755.686
+Kasstroom uit bedrijfsoperaties 145.814 756.488
+Rentelasten en soortgelijke kosten -3.952 -802
+
+-3.952 -802
+
+Kasstroom uit operationele activiteiten 141.862 755.686
+Mutatie geldmiddelen 141.862 755.686
+Toelichting op de geldmiddelen
+Stand per 1 januari 1.122.641 366.955
+Mutatie geldmiddelen 141.862 755.686
+Stand per 31 december 1.264.503 1.122.641
+
+„12 -
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.4 Toelichting op de jaarrekening
+
+ALGEMEEN
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi,
+
+de Richtlijnen voor de Jaarverslaggeving RJ 655, Titel 9 BW 2 en de bepalingen van en krachtens de Wet
+normering bezoldiging topfunctionarlssen.Zoals toegestaan in artikel 2:396 lid 6 BW zijn voor de
+waardering van activa en passiva en voor de bepaling van het resultaat grondslagen voor de bepaling van
+de belastbare winst, bedoeld in hoofdstuk II van de Wet op de vennootschapsbelasting 1969, in
+aanmerking genomen.
+
+Activiteiten
+De activiteiten van Stichting Dr. Mulkens Kliniek, statutair gevestigd te Hoensbroek ‚ bestaan voornamelijk
+uit: Dermatologie, Plastische chirurgie, Vaatchirurgie, KNO, Pijnbestrijding en Huid- en Lasertherapie.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+Stichting Dr. Mulkens Kliniek, statutair gevestigd te Hoensbroek is ingeschreven bij de Kamer van
+Koophandel onder dossiernummer 14102155.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van
+Stichting Dr. Mulkens Kliniek zich verschillende oordelen en schattingen die essentieel kunnen zijn voor de
+in de jaarrekening opgenomen bedragen.
+
+Verbonden partijen
+
+Als verbonden partij worden alle rechtspersonen aangemerkt waarover overheersende zeggenschap,
+gezamenlijke zeggenschap of invloed van betekenis kan worden uitgeoefend. Ook rechtspersonen die
+overwegende zeggenschap kunnen uitoefenen worden aangemerkt als verbonden partij. Ook de statutaire
+directieleden, andere sleutelfunctionarissen in het management van Stichting Dr. Mulkens Kliniek of de
+moedermaatschappij van de onderneming en nauwe verwanten zijn verbonden partijen.
+
+Transacties van betekenis met verbonden partijen worden toegelicht voor zover deze niet onder normale
+marktvoorwaarden zijn aangegaan. Hiervan wordt toegelicht de aard en de omvang van de transactie en
+andere informatie die nodig is voor het verschaffen van het inzicht.
+
+De volgende verbonden partijen zijn verbonden met de vennootschap:
+
+» Mosaderma Holding B.V. gevestigd te Hoensbroek vanaf 31 december 2020
+
+- Mosaderma B.V. gevestigd te Hoensbroek en 100% dochtermaatschappij van Mosaderma Holding B.V.
+
+De zorg wordt op grond van overeenkomst door Stichting Dr. Mulkens Kliniek ingekocht bij deze verbonden
+rechtspersoon. Over 2021 was het volume van deze transactie € 4.080.912,- (in 2020 € 3.497.306,-).
+
+= Mosaderma Huidtherapie B.V. gevestigd te Hoensbroek en 100% dochtermaatschappij van Mosaderma
+Holding B.V.
+
+De zorg wordt op grond van overeenkomst door Stichting Dr. Mulkens Kliniek ingekocht bij deze verbonden
+rechtspersoon. Over 2021 was het volume van deze transactie € 359.660. (in 2020 € 142.506).
+
+- Bestuurder Dr. P.J.M, Mulkens
+
+- Stichting Huid- en Spatadercentrum Limburg gevestigd te Hoensbroek.
+
+Toelichting op het kasstroomoverzicht
+
+Het kasstroomoverzicht wordt opgesteld volgens de indirecte methode.
+
+De geldmiddelen in het kasstroomoverzicht bestaan uit liquide middelen.
+
+Kasstromen in vreemde valuta zijn omgerekend tegen een geschatte gemiddelde koers. Koersverschillen op
+geldmiddelen worden afzonderlijk in het kasstroomoverzicht getoond.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn
+opgenomen onder de kasstroom uit operationele activiteiten. Betaalde dividenden zijn opgenomen onder de
+kasstroom uit financieringsactiviteiten.
+
+a {8=
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.4 Toelichting op de jaarrekening
+ALGEMENE GRONDSLAGEN
+
+Algemeen
+
+De waardering van activa en passiva vindt plaats op basis van historische kosten. Tenzij bij de
+desbetreffende grondslag voor de specifieke balanspost anders wordt vermeld, worden de activa en passiva
+opgenomen tegen nominale waarde.
+
+GRONDSLAGEN VOOR WAARDERING VAN ACTIVA EN PASSIVA
+
+Vorderingen inzake zorgprestaties
+
+De kortlopende vorderingen betreffen de vorderingen met een looptijd korter dan één jaar. Deze worden bij
+eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de geamortiseerde
+kostprijs. De reële waarde en geamortiseerde kostprijs zijn gelijk aan de nominale waarde. Noodzakelijk
+geachte voorzieningen voor het risico van oninbaarheid worden in mindering gebracht. Tevens wordt een
+voorziening voor plafondoverschrijding in mindering gebracht.
+
+Onderhanden zorgprestaties worden als opbrengsten en kosten verwerkt in de winst- en verliesrekening
+naar rato van de verrichte prestaties op balansdatum.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen nominale waarde. Daarbij dient
+een zakelijke rente in aanmerking te worden genomen.
+
+7
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.4 Toelichting op de jaarrekening
+GRONDSLAGEN VOOR BEPALING VAN HET RESULTAAT
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar
+waarin zij zijn gerealiseerd.
+
+Opbrengsten zorgprestaties
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde
+zorgprestaties, gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te
+verrichten diensten.
+
+Inkoopwaarde van de zorg
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben. De inkoop van de zorg vindt plaats bij gelieerde ondernemingen.
+
+Financiële baten en lasten
+
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet
+van de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden
+met de verantwoorde transactiekosten op de ontvangen leningen.
+
+= 19
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.5 Toelichting op de balans
+ACTIVA
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+Vorderingen inzake zorgprestaties
+Gedeclareerde zorgprestaties
+
+Onderhanden zorgprestaties
+
+Nog te factureren zorgprestaties
+
+Nog te ontvangen honorarium Hogeschool Utrecht
+
+Voorziening oninbare declaraties
+
+Overlopende activa
+Nog te ontvangen tegemoetkoming in meerkosten
+
+Liquide middelen
+Rabobank .075
+Rabobank .616
+ABN Amro .972
+Kas
+
+Kruisposten
+
+« 16
+
+31-12-2021 _ 31-12-2020
+€ €
+710.046 101.790
+393.640 322.246
+1.056.179 956.066
+- 765
+2.159.865 1.380.867
+-71.005 -10.179
+2.088.860 1.370.688
+31-12-2021 31-12-2020
+€ €
+1.851 -
+31-12-2021 _ 31-12-2020
+€ €
+489.802 157.059
+463.806 463.798
+299.498 499.989
+561 923
+10.836 872
+1.264.503 1.122.641
+
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.5 Toelichting op de balans
+PASSIVA
+STICHTINGSKAPITAAL
+
+Algemene en overige reserves
+Stand per 31 december
+
+KORTLOPENDE SCHULDEN
+
+Schuld aan gelieerde ondernemingen
+
+Schuld aan Mosaderma Holding B.V.
+
+Schuld aan Mosaderma B.V.
+
+Schuld aan Mosaderma Huidtherapie B.V.
+
+Schuld aan Stichting Huid- en Spatadercentrum Limburg
+
+Belastingen
+Loonheffing
+
+Te betalen overschrijdingen plafonds, achteraf controle en continuïteitsbijdrage
+
+Te betalen overschrijdingen plafonds
+Te betalen vanwege achteraf controle ZV
+Te betalen continuïteitsbijdrage
+
+Overige schulden
+
+Nog te betalen accountants- en advieskosten
+Nog te betalen vakantiegeldverplichting
+
+Nog te betalen nettoloon
+
+Nog te betalen overige
+
+Nog te betalen salarisadministratie
+
+„17 -
+
+2021 2020
+€ €
+1,925 1.925
+31-12-2021 31-12-2020
+€ €
+202.500 400.000
+2.454.950 1.737.898
+503.870 142.170
+4.077 1.513
+3.165.397 2.281.581
+31-12-2021 31-12-2020
+€ €
+856 1.789
+31-12-2021 31-12-2020
+€ €
+60.000 80.865
+10.000 12.566
+104.906 100.745
+174.906 194.176
+31-12-2021 31-12-2020
+€ €
+9.976 9.000
+= 2.682
+2 1.864
+66 146
+90 97
+12.130 13.858
+
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.6 Toelichting op de winst- en verliesrekening
+
+Opbrengsten zorgprestaties
+
+Honorarium omzet DBC zorgproducten
+Mutatie nog te factureren DBC zorgproducten
+Mutatie onderhanden DBC zorgproducten
+Continuiteitsbijdrage zorgverzekeraars
+Tegemoetkoming meerkosten
+
+2021 2020
+
+€ €
+4.086.137 3.231.007
+100.113 -23.737
+71.393 100.291
+-56.596 169.010
+6.435 el
+4.207.482 3.476.571
+
+De opbrengsten zorgprestaties over 2021 is ten opzichte van het vorige boekjaar met 21% gestegen.
+
+Opbrengsten overige behandelingen
+Opbrengsten overige behandelingen
+
+Mutatie voorziening oninbare vorderingen
+Mutatie voorziening oninbare vorderingen
+
+Inkoopwaarde van de zorgprestaties
+Inkoop van de zorgprestaties Mosaderma B.V.
+Inkoop van de zorgprestaties Mosaderma Huidtherapie B.V.
+
+Bestuurdersbeloning
+Bestuurdersbeloning
+
+Overige kosten bestuur
+Mutatie vakantiegeld
+Overige personeelskosten
+
+zige
+
+330.752 216.366
+-60.826 22.663
+4.080.912 3.497.306
+359.660 142.506
+4.440.572 3.639.812
+24.000 62.146
+-2.682 -67
+
+e 1.864
+
+-2.682 1.797
+
+
+Stichting Dr. Mulkens Kliniek te Hoensbroek
+
+2.6 Toelichting op de winst- en verliesrekening
+
+2021 2020
+
+€ €
+Algemene kosten
+Accountants-en advieskosten 11.000 10.035
+Juridische kosten 360 384
+Incassobureau IntoCash 236 653
+Overige algemene kosten -30 -29
+
+11.566 11.043
+Rentelasten en soortgelijke kosten
+Rente spaarrekening 1.437 -G
+Bankkosten 2:515 811
+
+3.952 802
+
+Hoensbroek , 16 mei 2022
+Stichting Dr. Mulkens Kliniek
+
+W.G.
+Bestuur Raad van Toezicht
+
+= 10=

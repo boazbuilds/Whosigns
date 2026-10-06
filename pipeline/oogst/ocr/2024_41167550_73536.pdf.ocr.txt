@@ -1,0 +1,1117 @@
+# whosigns-ocr v1 grootte=8078658 dpi=300 paginas=20
+Stichting GGMD voor Doven en Slechthorenden
+
+2.3 KASSTROOMOVERZICHT OVER 2024
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+- afschrijvingen en overige waardeverminderingen
+
+- mutaties voorzieningen (exclusief voorziening deelnemingen)
+- investeringen in overige financiële vaste activa
+
+Veranderingen in werkkapitaal:
+
+- mutatie onderhanden projecten DBC's
+
+- vorderingen
+
+- covid-19 gerelateerde continuiteitsbijdrage Zorgverzekeraars
+- te betalen voorfinanciering onderhanden werk GGZ
+
+- kortlopende schulden (excl. schulden aan banken)
+
+Kasstroom uit bedrijfsoperaties
+Ontvangen interest
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+Investeringen materiële vaste activa
+Investeringen immateriële vaste activa
+
+Totaal kasstroom uit investeringsactiviteiten
+
+Mutatie geldmiddelen
+
+Stand geldmiddelen per 1 januari
+Stand geldmiddelen per 31 december
+Mutatie geldmiddelen
+
+Ref. 2024 2023
+€ € € €
+-658.880 -55.985
+17 195.486 165.743
+7 70.380 172.178
+1.845 -15.860
+264.022 322.061
+4 0 0
+4 -610.811 -392.349
+-44.576 0
+0 0
+8 1.018.727 204.869
+363.341 -187.480
+-31.518 78.595
+19 399 9.404
+399 9.404
+-31.119 88.000
+2 -289.883 -187.739
+1 -7.409 0
+-297.292 -187.739
+-328.410 -99.739
+5 3.403.179 3.502.918
+5 3.074.769 3.403.179
+-328.410 -99.739
+
+Oc
+
+52
+
+oncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+2.4.1 Algemeen
+
+Statutaire naam en activiteiten
+
+De statutaire naam van GGMD is voluit Stichting GGMD voor Doven en Slechthorenden en de statutaire vestigingsplaats is Utrecht, op
+het adres Kanaalstraat 93. Stichting GGMD is geregistreerd onder KvK-nummer 41167550.
+
+De activiteiten van Stichting GGMD voor Doven en Slechthorenden bestaan hoofdzakelijk uit het bieden van professionele zorg,
+begeleiding en dienstverlening aan mensen met beperkingen van communicatief-auditieve aard.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2024, lopend van 1 januari 2024 tot en met 31 december 2024. De vergelijkende
+cijfers hebben betrekking op boekjaar 2023, lopend van 1 januari 2023 tot en met 31 december 2023.
+
+Continuïteitsveronderstelling
+
+GGMD heeft het boekjaar 2024 afgesloten met een exploitatietekort van € 407.225 tegen een tekort van € 46.581 in 2023. Deze sterke
+stijging van het tekort is het gevolg van:
+
+- een zeer hoog ziekteverzuim in 2024 (10%);
+
+- een te lage productiviteit;
+
+- en hoge projectkosten als gevolg van de implementatie van een nieuw ECD systeem.
+
+Tezamen veroorzaken deze drie zaken het grote tekort.
+
+De investeringen in het nieuwe ECD stellen GGMD in staat om de kosten van overhead fors af te bouwen. Er is door de implementatie
+minder externe ondersteuning nodig. Door deze kostendaling is een duurzame positieve exploitatie mogelijk geworden. Daarnaast biedt
+het nieuwe systeem snellere managementinformatie zodat gerichter op de productiviteit kan worden gestuurd. Voor het hoge
+ziekteverzuim start in 2025 ten slotte een traject met een externe partij.
+
+De geringe omvang in combinatie met een landelijke spreiding zijn uitdagende omstandigheden. Op basis van de ontwikkelingen van de
+prestaties in 2025 en de extra ingezette interventies kijkt de Raad van Bestuur met vertrouwen naar de toekomst. We verwachten 2025
+in de buurt van de begroting af te sluiten.
+
+Al deze maatregelen en ontwikkelingen zijn voor de Raad van Bestuur reden om te vertrouwen op duurzame voortzetting van de
+ondernemingsactiviteiten. De in de onderhavige jaarrekening gehanteerde grondslagen van waardering en resultaatbepaling zijn dan
+ook gebaseerd op de veronderstelling van continuïteit van de stichting.
+
+Grondslagen voor het opstellen van de jaarrekening
+De jaarrekening is opgesteld in overeenstemming met de Regeling openbare jaarverantwoording WMG (RojW). De jaarrekening is
+opgesteld in euro. Toelichtingen op posten in de balans, resultatenrekening en kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn gebaseerd op historische kosten,
+tenzij anders vermeld in de verdere grondslagen. Opbrengsten en kosten worden toegerekend aan de periode waarop deze betrekking
+hebben.
+
+Bij de toepassing van de grondslagen voor de waardering en de resultaatbepaling wordt voorzichtigheid betracht. Winsten worden
+slechts opgenomen voor zover zij op balansdatum zijn verwezenlijkt. Verplichtingen die hun oorsprong vinden vóór het einde van het
+boekjaar, worden in acht genomen, indien zij vóór het opmaken van de jaarrekening zijn bekend geworden. Voorzienbare verplichtingen
+en mogelijke verliezen die hun oorsprong vinden vóór het einde van het boekjaar worden in acht genomen indien zij vóór het opmaken
+van de jaarrekening bekend zijn geworden.
+
+De verdere toelichting op specifieke grondslagen voor het opstellen van de jaarrekening en voor de waardering en resultaatbepaling
+komt in het hierna volgende aan de orde.
+
+Vergelijking met voorgaand jaar
+De grondslagen van waardering en van resultaatbepaling zijn ongewijzigd ten opzichte van voorgaand jaar.
+
+Vergelijkende cijfers
+Er is over de cijfers 2024 een herrubricering toegepast in de toelichting overige bedrijfskosten om vergelijkbaarheid met 2023 mogelijk
+te maken.
+
+Verrekenen en salderen
+
+Een actief en post van het vreemd vermogen worden gesaldeerd in de jaarrekening opgenomen uitsluitend indien en voor zover
+- een deugdeijke juridisch instrument beschikbaar is om het actief en de post van het vreemd vermogen gesaldeerd en simultaan af te
+wikkelen; en
+
+- het stellig voornemen bestaat om het saldo als zodanig of beide posten simultaan af te wikkelen. 53
+
+Geoncepts
+
+voor i
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+2.4.2 Grondslagen van waardering van activa en passiva
+
+Activa en passiva
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische voordelen naar de onderneming
+zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan de omvang betrouwbaar kan worden vastgesteld. Activa die
+hier niet aan voldoen worden niet in de balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa. Activa
+waarvan het waarschijnlijk is dat de realiseerbare waarde lager is dan de boekwaarde, worden afgewaardeerd tot het niveau van de
+hoogste van de indirecte en directe realiseerbare waarde.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan gepaard zal gaan met een
+uitstroom van middelen die economische voordelen in zich bergen en de omvang van het bedrag waartegen de afwikkeling zal
+plaatsvinden op betrouwbare wijze kan worden vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen.
+Verplichtingen die hier niet aan voldoen worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans
+opgenomen verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet leidt tot een belangrijke
+verandering in de economische realiteit met betrekking tot het actief of de verplichting. Dergelijke transacties geven evenmin aanleiding
+tot het verantwoorden van resultaten. Bij de beoordeling of er sprake is van een belangrijke verandering in de economische realiteit
+wordt uitgegaan van de economische voordelen en risico’s die zich waarschijnlijk in de praktijk zullen voordoen en niet op voordelen en
+risico’s waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat alle of nagenoeg alle rechten
+op economische voordelen en alle of nagenoeg alle risico's met betrekking tot het actief of de verplichting aan een derde zijn
+overgedragen. De resultaten van de transactie worden in dat geval direct in de winst- en verliesrekening opgenomen, rekening houdend
+met eventuele voorzieningen die dienen te worden getroffen in samenhang met de transactie. Indien de weergave van de economische
+realiteit ertoe leidt dat het opnemen van activa waarvan de rechtspersoon niet het juridisch eigendom bezit, wordt dit feit vermeld.
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en veronderstellingen maakt die van
+invloed zijn op de toepassing van grondslagen en de gerapporteerde waarde van activa en verplichtingen, en van baten en lasten. De
+daadwerkelijke uitkomsten kunnen afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden
+voortdurend beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt herzien en in
+toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+Immateriële en materiële vaste activa
+De immateriële en materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs onder aftrek van cumulatieve
+afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs volgens de lineaire methode op basis
+van de verwachte economische levensduur. Er wordt afgeschreven vanaf het moment van ingebruikneming. Op vaste activa in
+ontwikkeling en vooruitbetalingen op materiële vaste activa wordt niet afgeschreven.
+
+Materiële vaste activa met een beperkte gebruiksduur worden afzonderlijk afschreven. In het geval dat belangrijkste bestanddelen van
+een materieel vast actief van elkaar te onderscheiden zijn en verschillen in gebruiksduur of verwacht gebruikspatroon, worden deze
+bestandsdelen afzonderlijk afgeschreven. De afschrijvingspercentages zijn toegelicht in de toelichting op de balans.
+
+In het geval dat de betaling van de kostprijs van een materieel vast actief plaatsvindt op grond van een langere dan normale
+betalingstermijn, wordt de kostprijs van het actief gebaseerd op de contante waarde van de verplichting.
+
+In het geval dat materiële vaste activa worden verworven in ruil voor een niet-monetair actief, wordt de kostprijs van het materieel vast
+actief bepaald op basis van de reële waarde voor zover de ruiltransactie leidt tot een wijziging in de economische omstandigheden en
+de reële waarde van het verworven actief of van het opgegeven actief op betrouwbare wijze kan worden vastgesteld.
+
+Financiële vaste activa
+De financiële vaste activa worden gewaardeerd tegen reële waarde en vervolgens tegen geamortiseerde kostprijs.
+
+54
+
+Geoncepts
+
+voor i
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Vorderingen
+Vorderingen worden gewaardeerd tegen nominale waarde. Een voorziening wordt getroffen op de vorderingen op grond van verwachte
+oninbaarheid.
+
+Een vordering uit hoofde van financieringstekorten of een schuld uit hoofde van financieringsoverschotten is het aan het einde van het
+boekjaar bestaande verschil tussen het wettelijk budget voor aanvaardbare kosten en de ontvangen voorschotten en de in rekening
+gebrachte vergoedingen voor diensten en verrichtingen ter dekking van het wettelijk budget.
+
+Liquide middelen
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter dan twaalf maanden. De liquide
+middelen worden gewaardeerd tegen de nominale waarde.
+
+Voorzieningen
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum bestaan en die het gevolg
+zijn van een gebeurtenis uit het verleden, waarbij het waarschijnlijk is dat een uitstroom van middelen noodzakelijk is en waarvan de
+omvang op betrouwbare wijze is te schatten. De voorzieningen worden gewaardeerd tegen nominale waarde van de uitgaven die naar
+verwachting noodzakelijk zijn om de verplichting en verliezen af te wikkelen. Indien het verschil tussen de nominale en contante waarde
+van de verplichtingen materieel is, worden voorzieningen gewaardeerd tegen contante waarde.
+
+Aanvullend op de hiervoor vermelde algemene grondslagen voor voorzieningen, gelden de volgende specifieke grondslagen per
+voorziening:
+
+a. Voorziening uitgestelde beloningen
+
+Deze voorziening betreft de geldwaarde van de (opgebouwde) rechten van werknemers die naar verwachting op een later moment
+uitbetaald of genoten/ opgenomen worden. Het gaat hierbij onder meer om:
+
+i. jubileumgratificaties,
+
+ij, wachtgeldregelingen,
+
+ii. doorbetaling van loon na 45 dienstjaren in de zorg- of welzijnssector, en
+
+iv. andere soorten van uitgestelde beloningen.
+
+De eerder genoemde verwachting wordt onder meer beïnvloed door de inschatting van de blijf-kans van werknemers en van het blijven
+voldoen aan de voorwaarden voor uitbetaling/ genieting. De geldwaarde betreft de opgebouwde rechten, omgerekend in het brutoloon
+op balansdatum, verhoogd met de daarover door de werkgever verschuldigde premies en heffingen en gecorrigeerd voor de inschatting
+van blijf-kans en het voldoen aan andere voorwaarden.
+
+Verlofrechten (inclusief spaarverlof) zijn tegen de nominale waarde (opgebouwde rechten, omgerekend in het brutoloon op
+balansdatum, verhoogd met de daarover door de werkgever verschuldigde premies en heffingen) verwerkt onder de kortlopende
+schulden. Met betrekking tot de grondslagen voor de verwerking van de pensioenlasten, wordt verwezen naar het onderdeel
+‘Grondslagen van resultaatbepaling’.
+
+b. Voorziening Langdurig Zieken
+De Voorziening Langdurig Zieken is gevormd ter dekking van de kosten voor medewerkers die naar verwachting niet meer zullen
+deelnemen aan het arbeidsproces.
+
+Leasing
+
+De stichting kan financiële en operationele leasecontracten afsluiten. Een leaseovereenkomst waarbij de voor- en nadelen
+
+verbonden aan het eigendom van het leaseobject geheel of nagenoeg geheel door de lessee worden gedragen, wordt aangemerkt als
+een financiële lease. Alle andere leaseovereenkomsten classificeren als operationele leases. Bij de leaseclassificatie is de economische
+realiteit van de transactie bepalend en niet zozeer de juridische vorm. Classificatie van de lease vindt plaats op het tijdstip van het
+aangaan van de betreffende leaseovereenkomst.
+
+Operationele leasing
+
+Bij de vennootschap kunnen er leasecontracten bestaan waarbij een groot deel van de voor- en nadelen die aan de eigendom
+verbonden zijn, niet bij de vennootschap ligt. Deze leasecontracten worden verantwoord als operationele leasing. Als de
+onderneming optreedt als lessee in een operationele lease, wordt het leaseobject niet geactiveerd. Leasebetalingen worden,
+rekening houdend met ontvangen vergoedingen van de lessor, op lineaire basis verwerkt in de winst-en-verliesrekening over de looptijd
+van het contract.
+
+55
+
+Geoncepts
+
+voor i
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+Schulden
+
+De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden worden bij eerste verwerking
+opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de gearmortiseerde kostprijs (de nominale waarde).
+
+Financiële instrumenten
+
+Onder financiële instrumenten worden zowel primaire financiële instrumenten (zoals vorderingen en schulden) als afgeleide
+
+financiële instrumenten (derivaten) verstaan.
+
+In de toelichting op de onderscheiden posten van de balans wordt de reële waarde van het betreffende instrument toegelicht als die
+afwijkt van de boekwaarde. Indien het financiële instrument niet in de balans is opgenomen, wordt de informatie over de reële waarde
+gegeven in de toelichting onder punt 9. De stichting maakt geen gebruik van afgeleide financiële instrumenten (derivaten).
+
+Primaire financiële instrumenten
+
+Voor de grondslagen van primaire financiële instrumenten wordt verwezen naar de behandeling per balanspost van de
+
+‘Grondslagen voor de waardering van activa en passiva’.
+
+2.4.3 Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met inachtneming van de hiervoor reeds
+vermelde grondslagen. Baten en lasten worden verwerkt in het jaar waarop zij betrekking hebben. Daarbij wordt voorzichtigheid
+betracht overeenkomstig de grondslagen die gelden voor het opnemen van activa en passiva (zoals eerder vermeld).
+
+Baten en lasten uit voorgaande jaren die in dit boekjaar zijn geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een
+geconstateerde fout in voorgaande boekjaren wordt foutherstel toegepast.
+
+Pensioenen
+
+Stichting GGMD voor Doven en Slechthorenden heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking
+komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd op het gemiddeld verdiende
+loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd bij Stichting GGMD voor Dovenden en Slechthorenden. De
+verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn ondergebracht bij het bedrijfstakpensioenfonds Zorg en
+Welzijn (PFZW). Stichting GGMD voor Dovenden en Slechthorende betaalt hiervoor premies waarvan de helft door de werkgever wordt
+betaald en de helft door de werknemer. De pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van
+het pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit toelaat. Ultimo december
+2024 was de dekkingsgraad gelijk aan 109,5%.
+
+Stichting GGMD voor Doven en Slechthorenden heeft geen verplichting tot het voldoen van aanvullende bijdragen in geval van een
+tekort bij het pensioenfonds, anders dan het effect van hogere toekomstige premies. Stichting GGMD voor Doven en Slechthorenden
+heeft daarom alleen de verschuldigde premies tot en met het einde van het boekjaar in de jaarrekening verantwoord.
+
+2.4.4 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide
+middelen en beleggingen die zonder beperkingen en zonder materieel risico van waardeverminderingen als gevolg van de transactie
+kunnen worden omgezet in geldmiddelen.
+
+2.4.5 Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de datum van het
+opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet in de jaarrekening verwerkt.
+Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de gebruikers van de jaarrekening, worden de aard en de
+geschatte financiële gevolgen ervan toegelicht in de jaarrekening.
+
+2.4.6 Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft Stichting GGMD voor Doven en Slechthorenden zich gehouden aan
+de wet- en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels. De WNT- verantwoording inzake Stichting
+GGMD voor Doven en Slechthorenden is opgenomen in de toelichting op de resultatenrekening.
+
+56
+
+Geoncepts
+
+voor i
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.5 TOELICHTING OP DE BALANS
+ACTIVA
+
+1. Immateriële vaste activa
+
+Software Totaal
+€ €
+Stand per 1 januari 2024
+- aanschafwaarde 0 0
+- cumulatieve afschrijvingen 0 0
+Boekwaarde per 1 januari 2024 0 0
+Mutaties in het boekjaar
+- investeringen 7.409 7.409
+- afschrijvingen 921 921
+- bijzondere waardeverminderingen 0 0
+- terugname bijz. waardeverminderingen 0 0
+- terugname geheel afgeschreven activa
+„aanschafwaarde 0 0
+„cumulatieve afschrijvingen 0 0
+- desinvesteringen
+aanschafwaarde 0 0
+cumulatieve afschrijvingen 0 0
+per saldo 0 0
+Mutaties in boekwaarde (per saldo) 6.488 6.488
+Stand per 31 december 2024
+- aanschafwaarde 7.409 7.409
+- cumulatieve afschrijvingen 921 921
+Boekwaarde per 31 december 2024 6.488 6.488
+Afschrijvingspercentage 33,3%
+
+De investeringen in ‘software’ van in totaal € 7.409 betreft installatie software Ominiport en subscriptions.
+
+57
+
+Geoncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.5 TOELICHTING OP DE BALANS
+
+2. Materiële vaste activa
+
+Bedrijfs- Andere vaste
+
+gebouwen en: bedrijfs-
+terreinen middelen Totaal
+€ € €
+Stand per 1 januari 2024
+- aanschafwaarde 895.683 354.304 1.249.987
+- cumulatieve herwaarderingen 0 0 0
+- cumulatieve afschrijvingen 171.240 140.594 311.834
+Boekwaarde per 1 januari 2024 724.443 213.710 938.153
+Mutaties in het boekjaar
+- investeringen 158.496 131.387 239.383
+- herwaarderingen 0 0 0)
+- afschrijvingen 98.787 95.778 194.565
+- bijzondere waardeverminderingen 0 0 0
+- terugname bijz. waardeverminderingen 0 0 0
+
+- terugname geheel afgeschreven activa
+„aanschafwaarde 0 0 0
+
+‚cumulatieve herwaarderingen 0 0 0)
+
+„cumulatieve afschrijvingen 0 0 0
+- desinvesteringen
+
+aanschafwaarde 0 0 0
+
+cumulatieve herwaarderingen 0 0 0
+
+cumulatieve afschrijvingen 0 0 0
+
+per saldo 0 0 0
+Mutaties in boekwaarde (per saldo) 59.708 35.609 95.317
+Stand per 31 december 2024
+- aanschafwaarde 1.054.179 485.691 1.539.870
+- cumulatieve herwaarderingen 0 0 0
+- cumulatieve afschrijvingen 270.027 236.372 506.399
+Boekwaarde per 31 december 2024 784.151 249.319 1.033.471
+Afschrijvingspercentage 10,0% 20%/33,3%
+
+De investeringen in ‘bedrijfsgebouwen en terreinen! van in totaal € 158.496 betreft aanschaf koelinstallatie locatie Alkmaar en verbouwingen
+locatie's Groningen / Utrecht / Veldhoven.
+De investeringen in ‘andere vaste bedrijfsmiddelen’ van in totaal € 131.387 betreft de aanschaf van meubilair en computerapparatuur.
+
+58
+
+Geoncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.5 TOELICHTING OP DE BALANS
+
+3. Financiële vaste activa
+
+Overige
+effecten en
+overige
+vorderingen Totaal
+€ €
+Boekwaarde per 1 januari 2024 62.301 62.301
+Kapitaalstortingen 1.845 1.845
+Boekwaarde per 31 december 2024 64.146 64.146
+[Het betreft hierbij de stortingen en/of uitbetalingen van waarborgsommen.
+4. Vorderingen
+De vorderingen op handelsdebiteuren kunnen als volgt worden gespecificeerd:
+31-dec-24 31-dec-23
+€ €
+Vorderingen op debiteuren 2.638.173 567.057
+Nog te factureren opbrengsten 0 1.961.722
+af: Nuanceringen/schulden inzake contractafspraken -177.096 -486.935
+-177.096 1.474.787
+2.461.077 2.041.844
+Onder de ‘Vordering op debiteuren! is een voorziening voor oninbaarheid opgenomen voor een bedrag van € 1.488.
+Per 31-12-2024 kan de post 'Nuanceringen/schulden inzake contractafspraken' als volgt worden gespecificeerd:
+31-dec-24 31-dec-23
+€ €
+- Overproductie -87.627 -273.875
+- Declaraties nog niet toegewezen -89.469 -213.060
+-177.096 -486.935
+
+59
+
+Geoncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.5 TOELICHTING OP DE BALANS
+
+De overige vorderingen kunnen als volgt worden gespecificeerd:
+
+31-dec-24 31-dec-23
+
+€ €
+
+- Nog te ontvangen subsidies 15.851 19.737
+- Vooruitbetaalde bedragen (o.a. huur) 147.318 180.945
+- Nog te factureren opbrengsten 191.241 0
+- Diversen 97.317 13.647
+Totaal overige vorderingen en overlopende activa 451.728 214.330
+
+Onder de overige vorderingen en schulden worden de bedragen opgenomen aangaande het financieringstekort dan wel -overschot Wiz.
+De opbouw hiervan is als volgt:
+
+5. Liquide middelen
+
+De liquide middelen kunnen als volgt worden gespecificeerd:
+
+31-dec-24 31-dec-23
+
+€ €
+
+Bankrekeningen 3.068.374 3.400.384
+Kassen 6.396 2.795
+Totaal liquide middelen 3.074.769 3.403.179
+
+De zekerheden betreffen verpanding van t.a.v. spaargelden. De liquide middelen staan ter vrije beschikking aan de stichting.
+
+60
+
+Geoncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.5 TOELICHTING OP DE BALANS
+
+PASSIVA
+6. Eigen vermogen
+
+Gestort en opgevraagd kapitaal
+
+Saldo per Resultaat- Overige Saldo per
+1-jan-2024 bestemming mutaties 31-dec-2024
+€ € € €
+Gestort en opgevraagd kapitaal 218.799 0) (€) 218.799
+Totaal gestort en opgevraagd kapitaal 218.799 0 0 218.799
+
+Bestemmingsfonds
+Saldo per Resultaat- Overige Saldo per
+1-jan-2024 bestemming mutaties 31-dec-2024
+€ € € €
+
+Bestemmingsfonds:
+Reserve aanvaardbare kosten 3.196.615 -603.517 0 2.593.098
+Stichting MBDS 9,144 -9,144 0 0
+Totaal bestemmingsfonds 3.205.759 -612.661 0 2.593.098
+
+Overige reserves
+Saldo per Resultaat- Overige Saldo per
+1-jan-2024 bestemming mutaties 31-dec-2024
+€ € € €
+Overige reserves:
+
+Algemene reserve 33.076 [e) [e) 33.076
+Totaal overige reserves 33.076 0 0 33.076
+
+In het bestemmingsfonds reserve aanvaardbare kosten worden de resultaten verwerkt die behaald zijn vanuit activiteiten die gefinancierd zijn
+vanuit de Wlz, Zvw, WMO, Jeugdwet en overige subsidieregelingen. Dit bestemmingsfonds heeft een beperkte doelstelling die is opgelegd door het
+Ministerie van VWS.
+
+7. Voorzieningen
+
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+
+1-jan-2024 31-dec-2024
+
+€ € € € €
+
+- uitgestelde beloningen 108.389 8.133 11.522 0 105.000
+- langdurig zieken 227.855 294.552 220.783 0 301.624
+Totaal voorzieningen 336.244 302.686 232.305 [e) 406.624
+
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+
+31-dec-2024
+Kortlopend deel van de voorzieningen (< 1 jr.) 138.872
+Langlopend deel van de voorzieningen (> 1 jr.) 267.752
+hiervan > 5 jaar 53.000
+
+Met betrekking tot de voorzieningen gelden de volgende toelichtingen:
+
+Voorziening uitgestelde beloningen
+
+De voorziening jubilea is opgenomen tegen de contante waarde van de verwachte uitkeringen gedurende het dienstverband. Bij de berekening van
+de voorziening wordt onder meer rekening gehouden met verwachte salarisstijgingen en de blijfkans van de betrokken medewerkers. Bij het
+contant maken is een disconteringsvoet van 3,5% gehanteerd.
+
+Voorziening generatieregeling
+
+In de cao GGZ is een generatieregeling opgenomen, hetgeen medewerkers recht geeft om vier jaar voor AOW-leeftijd te opteren voor een afbouw
+van werkbare uren tegen behoud van brutoloon. Overeenkomstig landelijke ervaringscijfers wordt binnen GGMD zeer beperkt gebruik gemaakt
+van de generatieregeling. Op grond hiervan schat GGMD de gebruikmakingskans van deze regeling dusdanig laag in (op 0,1%), dat het opnemen
+van een voorziening ter afdekking van deze kosten niet noodzakelijk wordt geacht.
+
+Voorziening langdurig zieken
+De voorziening langdurig zieken is gevormd ter dekking van de kosten van medewerkers die naar verwachting niet meer (volledig) zullen 61
+
+deelnemen aan het arbeidsproces. C Ì
+
+Uitslui voor i
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.5 TOELICHTING OP DE BALANS
+
+8. Kortlopende schulden
+
+Voor de specificatie van de schulden uit hoofde van financieringsoverschot verwijzen wij naar de toelichting op de post "Vorderingen".
+De overige schulden en overige passiva kunnen als volgt worden gespecificeerd:
+
+31-dec-24 31-dec-23
+
+€ €
+
+Overige schulden:
+- Nog te betalen salarissen -640 37.626
+- Covid-19 gerelateerde continuiteitsbijdrage Zorgverzekeraars (€) 44.576
+- Vooruitontvangen opbrengsten 606.956 0
+- Diversen overige schulden 219.033 571.859
+Totaal overige schulden 825.349 654.060
+Overige passiva:
+- Vakantiegeld 457.488 331.365
+- Vakantiedagen 455.227 256.377
+- Persoonlijk budget levensfase 949.007 608.299
+- Diversen 12.018 10.891
+Totaal overige passiva 1.873.740 1.206.932
+
+9. Financiële instrumenten
+
+Algemeen
+
+financiële prestaties te beperken.
+
+Kredietrisico
+
+GGMD loopt kredietrisico vorderingen opgenomen onder de financiële vaste activa, debiteuren, overige vorderingen en liquide middelen
+vorderingen uit hoofde van debiteuren en nog te factureren zijn voor circa 70% geconcentreerd bij zorgverzekeraars en circa 23% bij gem
+Met deze partijen heeft GGMD een lange relatie en zij hebben altijd aan hun betalingsverplichtingen voldaan.
+
+Liquiditeitsrisico
+
+GGMD heeft tijdig inzicht in de liquiditeitspositie door middel van liquiditeitsbegrotingen. Hiermee wordt bewaakt dat steeds voldoende
+liquiditeiten beschikbaar zijn om aan de betalingsverplichtingen te kunnen voldoen.
+
+Onzekerheden productieverantwoording
+
+Uit voorzichtigheidsoverwegingen is in de jaarrekening 2024 de toegekende productie 2024 opgenomen, zoals ten tijde van het opstellen
+
+worden verwerkt.
+
+GGMD maakt in de normale bedrijfsuitoefening gebruik van uiteenlopende financiële instrumenten die GGMD blootstellen aan kredietrisico en
+liquditeitsrisico. Dit betreft financiële instrumenten die in de balans zijn opgenomen. GGMD handelt niet in financiële derivaten. Om de genoemde
+risico's te beheersen heeft GGMD beleid om de risico's van onvoorspelbare ongunstige ontwikkelingen op de financiële markten en daarmee de
+
+. De
+
+eenten.
+
+van de
+
+jaarrekening 2024 bekend was. Indien de werkelijke toekenningen 2024 hiervan afwijken, zullen de financiële gevolgen in de jaarrekening 2025
+
+62
+
+Geoncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.5 TOELICHTING OP DE BALANS
+
+10. Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+Huurverplichtingen
+
+De met derden aangegane meerjarige huurverplichtingen van onroerende zaken betreffen:
+
+Huur
+Operationele lease
+Totaal
+
+Geschatte Omvang Omvang Totaal
+jaarhuursom verplichting verplichting
+2025 in € 2-5 jaarin€ >5 jaar in €
+676.150 1.813.096 0 2.489.247
+9.854 0 0 9.854
+686.004 1.813.096 (0) 2.499.100
+
+Verplichtingen uit hoofde van het macrobeheersinstrument
+
+Bij het opstellen van de jaarrekening bestaat nog geen inzicht in realisatie van het mbi-omzetplafond. Stichting GGMD voor Doven en
+Slechthorenden is niet in staat een betrouwbare inschatting te maken van de uit het macrobeheersinstrument voortkomende verplichting en deze
+te kwantificeren. Als gevolg daarvan is deze verplichting niet tot uitdrukking gebracht in de balans per 31 december 2024.
+
+Bankgaranties
+
+De ten behoeve van derden afgegeven bankgaranties bedragen € 102.900.
+
+Oc
+
+63
+
+oncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+BATEN
+
+11. Baten uit beroeps- of bedrijfsmatige zorgverlening
+
+Correcties voorgaande jaren
+
+In de baten uit beroeps- en bedrijfsmatige zorgverlening van EUR 13.178.858 is in totaliteit EUR 402.020 (bate) aan correcties
+voorgaande jaren verantwoord (2023: EUR 205.158). Het gaat hierbij om verschillen tussen ontvangen afrekeningen met
+Gemeenten/Zorgverzekeraars/Zorgkantoor en hiervoor opgenomen reserveringen. De genoemde EUR 402.020 betreft:
+Zorgverzekeringswet EUR 158.852, Zorgverzekeringswet Zintuiglijk Gehandicapten EUR 135.591 en Jeugdwet EUR 28.165. In 2024 zijn
+geen afspraken Wet Langdurige Zorg gemaakt.
+
+12. Baten uit andere beroeps- of bedrijfsmatige activiteiten
+
+De baten uit andere beroeps- of bedrijfsmatige activiteiten kunnen als volgt worden gespecificeerd:
+
+2024 2023
+
+€ €
+
+WMO 5.906.041 5.541.618
+Totaal 5.906.041 5.541.618
+
+In de baten uit andere beroeps- of bedrjfsmatige activiteiten van EUR 5.906.041 is EUR € 79.412 aan correctie voorgaande jaren
+verantwoord (2023: EUR 118.400).
+
+13. Overige bedrijfsopbrengsten
+
+De overige bedrijfsopbrengsten kunnen als volgt worden gespecificeerd:
+2024 2023
+€ €
+Subsidies:
+- Rijkssubsidies (niet zijnde baten uit beroeps- of bedrijfsmatige zorgverlening) 222.577 307.238
+- Opbrengsten andere dienstverlening aan cliënten 25.226 15.907
+- Opbrengsten uit activiteiten van/door cliënten 169.667 210.331
+Totaal 417.470 533.476
+Toelichting
+Rijkssubsidies (niet zijnde baten uit beroeps- of bedrijfsmatige zorgverlening)
+Beschikbaarheidsbijdrage medische vervolgopleiding 2021 0 46.000
+Beschikbaarheidsbijdrage medische vervolgopleiding 2022 0 96.800
+Beschikbaarheidsbijdrage medische vervolgopleiding 2023 7.254 101.200
+Beschikbaarheidsbijdrage medische vervolgopleiding 2024 140.968 0
+Subsidie ZonMW t/m 2023 13.623 63.238
+Subsidie ZonMW 2024 60.732 0
+222.577 307.238
+De opbrengsten uit activiteiten van/door cliënten betreffen: training & opleiding, onderaanneming, detachering, overige omzet en
+nagekomen baten/lasten.
+
+LASTEN
+
+14. Kosten uitbesteed werk en andere externe kosten
+
+De kosten uitbesteed werk en andere externe kosten kunnen als volgt worden gespecificeerd:
+
+2024 2023
+
+€ €
+
+Honorariumdeel vrijgevestigde medisch specialisten 431.107 752.954
+Kosten personeel niet in loondienst:
+
+- Kosten ingehuurd personeel/ uitzendkrachten 2.174.976 1.934.431
+
+Totaal 2.606.083 2.687.385
+
+De afname (per saldo) is grotendeels ten eerste te verklaren door minder kosten rollen inhuur psychiaters en psychologen. Ten
+tweede is er toename te zien van kosten scribes en inhuur vanwege implementatie zorgpakket ONS.
+
+Geoncepts
+
+voor i
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+15. Lonen en salarissen
+
+De lonen en salarissen kunnen als volgt worden gespecificeerd:
+2024 2023
+€ €
+Lonen en salarissen 10.584.880 9.095.058
+Totaal 10.584.380 9.095.058
+Het gemiddelde aantal personeelsleden op basis van full-time eenheden (fte's) is als volgt: 160 152
+160 152
+Toelichting
+De lonen en salarissen zijn toegenomen door CAO-ontwikkelingen en door meer inzet van personeel.
+16. Sociale lasten
+De sociale lasten zijn toegenomen door meer inzet van personeel en door CAO-ontwikkelingen.
+17. Pensioenlasten
+De pensioenlasten zijn toegenomen door meer inzet van personeel en door CAO-ontwikkelingen.
+18. Afschrijvingen op immateriële en materiële vaste activa
+De afschrijvingen op immateriële en materiële vaste activa kunnen als volgt worden gespecificeerd:
+2024 2023
+€ €
+Afschrijvingen:
+- immateriële vaste activa 921 0
+- materiële vaste activa 194.565 165.743
+Totaal afschrijvingen 195.486 165.743
+19. Overige bedrijfskosten
+De overige bedrijfskosten kunnen als volgt worden gespecificeerd:
+2024 2023
+€ €
+Patiënt- en bewonersgebonden kosten 9.332 31.073
+Overige personeelskosten:
+- Wervingskosten 38.106 16.620
+- Opleidingskosten 216.010 217.456
+- Reiskosten 478.181 498.158
+- Overige kosten met betrekking tot de werkkostenregeling 146.958 119.420
+- Overige personeelskosten 442.194 266.680
+Verkoopkosten 77.225 129.350
+Algemene kosten 1.050.408 915.509
+Huisvestingskosten 972.587 977.290
+Kantoorkosten 185.878 186.022
+Automatiseringskosten 549.506 491.884
+Totaal overige bedrijfskosten 4.166.385 3.849.463
+Toelichting
+De overige personeelskosten zijn toegenomen door o.a. hogere kosten voor arbeidsmarktcommunicatie alsmede verzuimkosten.
+De algemene kosten zijn per saldo toegenomen door o.a. implementatiekosten zorgpakket ONS alsmede lagere kosten outsourcing rol
+zorgadministratie.
+
+65
+
+Geoncepts
+
+voor i
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+20. Andere rentebaten en soortgelijke opbrengsten
+
+De rentelasten en soortgelijke kosten kunnen als volgt worden gespecificeerd:
+2024 2023
+€ €
+Rentebaten 46.219 9.404
+Totaal 46.219 9,404
+21. Honoraria accountant
+De honoraria van de accountant over 2024 zijn als volgt:
+2024 2023
+€ €
+1. Controle van de jaarrekening 55.000 55.751
+2. Overige controlewerkzaamheden (w.o. productie-verantwoordingen etc.) 25.000 25.000
+3. Fiscale advisering 0 0
+4. Niet-controlediensten 0 0
+5, Nacalculatie voorgaande jaren fe) fo)
+80.000 80.751
+Toelichting:
+De in de tabel vermelde honoraria voor de controle van de jaarrekening, hebben betrekking op het honorarium voor het onderzoek van het
+betreffende jaar. Indien extra controlewerkzaamheden in rekening gebracht worden, worden de kosten ervan vermeld onder 5. Nacalculatie
+voorgaande jaren. De honoraria accountant is verantwoord onder de algemene kosten.
+66
+
+Geoncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slech nden
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+De Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT) is van toepassing op GGMD. Het voor GGMD toepasselijke bezoldigingsmaximum is in
+2024 € 214.000 Het bezoldigingsmaximum voor de stichting is gebaseerd op klasse IV (10 punten).
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking
+
+Leidinggevende topfunctionarissen met dienstbetrekking en leidinggevende topfunctionarissen zonder dienstbetrekking vanaf de 13e maand van de functievervulling inclusief
+
+bedragen x € 1 H. van Oldeniel C.M.P.M. Jansen
+Functiegegevens’ Bestuurder Bestuurder
+Aanvang’ en einde functievervulling in 2024 01/01 — 26/10 01/01 - 31/12
+Omvang dienstverband (als deeltijdfactor in fte)’ 1,0 1,0
+Dienstbetrekking?® ja ja
+[Bezoldiging
+Beloning plus belastbare onkostenvergoedingen 91.041 178.172
+Beloningen betaalbaar op termijn 13.137 e)
+Subtotaal 104.178 178.172
+Individueel toepasselijke bezoldigingsmaximum’® 174.882 214.000
+-/- Onverschuldigd betaald en nog niet
+11 0,0 0,0
+terugontvangen bedrag
+[Bezoldiging 104.178 178.172
+Het bedrag van de overschrijding en de reden
+waarom de overschrijding al dan niet is N.v.t. Nvt. Nvt. Nvt.
+toegestaan»
+Toelichting op de vordering wegens
+8 op î ne 6 Nvt Nvt
+onverschuldigde betaling
+Gegevens 2023
+bedragen x € 1 H. van Oldeniel C.M.P.M. Jansen
+Functiegegevens’ Bestuurder Bestuurder
+Aanvang en einde functievervulling in 2023 01/01 — 31/12 01/01-31/12
+Omvang dienstverband (als deeltijdfactor in fte)’ 1,0 1,0
+Dienstbetrekking?® ja ja
+[Bezoldiging
+Beloning plus belastbare onkostenvergoedingen 144.617 182.872
+Beloningen betaalbaar op termijn 0 (o)
+Subtotaal 144.617 182.872
+Individueel toepasselijke bezoldigingsmaximum’® 205.000 205.000
+[Bezoldiging 144.617 182.872
+Toelichting:
+
+In 2024 is er geen verloop geweest in de RvB.
+
+67
+
+1b. Toezichthoudende topfunctionarissen
+Geoncepts
+ib ai p
+
+voor i
+
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+bedragen x € 1 J.G van Enk C. Laurey R.H. Pots
+
+Functiegegevens’ RvT lid RvT lid / RvT Voorzitter RvT lid
+Aanvang en einde functievervulling in 2024 01/01 — 31/12 01/04 — 31/12 01/01 — 31/12
+[Bezoldiging
+
+Bezoldiging’ 13.910 20.330 13.910
+Individueel toepasselijke bezoldigingsmaximum” 21.400 32.100 21.400
+
+-/- Onverschuldigd betaald en nog niet
+
+5 nvt nvt. nvt
+
+terugontvangen bedrag
+
+Bezoldiging 13.910 20.330 13.910
+Het bedrag van de overschrijding en de reden
+
+waarom de overschrijding al dan niet is Nvt. Nvt. Nvt. Nvt. Nvt. Nvt.
+toegestaan”
+
+Toelichting op de vordering wegens
+
+. 7 N.v.t N.v.t. N.v.t
+
+onverschuldigde betaling
+
+Gegevens 2023
+
+bedragen x € 1 J.G van Enk C. Laurey R.H. Pots
+Functiegegevens’ RvT lid RvT lid / RvT Voorzitter RvT lid
+Aanvang en einde functievervulling in 2023 01/01 — 31/12 01/04 — 31/12 01/01 — 31/12
+Bezoldiging
+
+ÍBezoldiging’ 13.824 11.531 13.325
+Individueel toepasselijke bezoldigingsmaximum” 20.500 17.938 20.500
+
+bedragen x € 1 GJJ. Prins T.E. Smits-Hoekstra W.F.A. Remkes
+Functiegegevens’” RvT lid VV RvT voorzitter RvT Lid
+Aanvang en einde functievervullig in 2024 01/01 — 31/12 13/12-31/12
+|Bezoldiging
+
+Bezoldiging” 17.120 fe) 13.910
+Individueel toepasselijke bezoldigingsmaximum” 21.400 [e) 21.400
+
+-/- Onverschuldigd betaald en nog niet
+
+5 nvt nvt
+terugontvangen bedrag
+[Bezoldiging 17.120 0 13.910
+Het bedrag van de overschrijding en de reden
+waarom de overschrijding al dan niet is N.v.t. Nvt. Nvt. Nvt. Nvt. Nvt.
+toegestaan”
+Toelichting op de vordering wegens
+Nvt Nvt. Nvt
+
+onverschuldigde betaling”
+
+Gegevens 2023
+
+bedragen x € 1 GJJ. Prins T.E. Smits-Hoekstra W.F.A. Remkes
+Functiegegevens’ RvT lid RvT voorzitter RvT Lid
+Aanvang en einde functievervulling in 2023 01/01 — 31/12 01/01 — 30/09 13/12-31/12
+[Bezoldiging
+
+Bezoldiging 16.400 15.151 681
+Individueel toepasselijke bezoldigingsmaximum’® 20.500 23.063 1.067
+
+2. Uitkeringen wegens beëindiging dienstverband aan topfunctionarissen
+
+In 2024 zijn geen uitkeringen wegens beëindiging dienstbetrekking uitbetaald aan overige functionarissen die op grond van de WNT dienen te worden vermeld, of die in eerdere
+jaren op grond van de WNT vermeld zijn of hadden moeten worden.
+
+3. Overige rapportageverplichtingen op grond van de WNT
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een dienstbetrekking die in 2024 een bezoldiging boven het individueel toepasselijke WNT-
+maximum hebben ontvangen, of waarvoor in eerdere jaren een vermelding op grond van de WNT heeft plaatsgevonden of had moeten plaatsvinden. Er zijn in 2024 geen
+ontslaguitkeringen aan overige functionarissen betaald die op grond van de WNT dienen te worden gerapporteerd.
+
+68
+
+Geoncepts
+
+voor i
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+2.7 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Stichting GGMD voor Doven en Slechthorenden heeft de jaarrekening 2024 opgemaakt en
+vastgesteld in de vergadering van 21 mei 2025, onder gelijktijdige goedkeuring daarvan door de raad van toezicht.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in de resultatenrekening.
+
+Gebeurtenissen na balansdatum
+
+Er zijn geen gebeurtenissen na balansdatum.
+
+Ondertekening door bestuurders en toezichthouders
+
+C.M.P.M. Jansen 21-mei-25 J.G. van Enk 21-mei-25
+C. Laurey 21-mei-25 R.H. Pots 21-mei-25
+GJJ. Prins 21-mei-25 W.F.A. Remkes 21-mei-25
+
+69
+
+Geoncepts
+
+voor identifi
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+3 OVERIGE GEGEVENS
+
+70
+Geoncepts
+
+
+Stichting GGMD voor Doven en Slechthorenden
+
+3 OVERIGE GEGEVENS
+
+3.1 Statutaire regeling resultaatbestemming
+
+In de statuten is geen bepaling opgenomen omtrent de resultaatbestemming.
+
+3.2 Nevenvestigingen
+
+GGMD voor Doven en Slechthorenden heeft nevenvestigingen in Alkmaar, Almere, Amsterdam, Apeldoorn, Eindhoven,
+Goes, Groningen, Nijmegen, Rotterdam, Veldhoven en Zoetermeer.
+
+3.3 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina.
+
+71
+Geoncepts
+
+voor identifi
+

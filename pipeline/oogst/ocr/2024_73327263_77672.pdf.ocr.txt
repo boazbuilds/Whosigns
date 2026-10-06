@@ -1,0 +1,803 @@
+# whosigns-ocr v1 grootte=1142038 dpi=300 paginas=20
+5.2 Resultaat over de afgelopen vijf jaren
+
+2024 2023 2022 2021 2020
+€ € € € €
+
+Netto-omzet 871.632 900.434 1.192.010 1.070.569 563.251
+Kostprijs van de
+omzet 43.273 35.237 82.064 76.050 21.484
+Bruto-
+omzetresultaat 828.359 865.197 1.109.946 994.519 541.767
+Kosten
+Personeelskosten 706.425 795.345 859.012 679.394 292.550
+Afschrijvingen 1.014 1.014 1.014 448 0)
+Overige
+bedrijfskosten 143.407 145.200 119.452 122.111 90.730
+
+850.846 941.559 979.478 801.953 383.280
+Bedrijfsresultaat (22.487) (76.362) 130.468 192.566 158.487
+Financiële baten en
+lasten (544) (536) (694) (678) (298)
+Resultaat uit
+gewone
+bedrijfsuitoefening
+voor belastingen (23.031) (76.898) 129.774 191.888 158.189
+Belastingen
+resultaat uit gewone
+bedrijfsuitoefening 0 11.295 (19.797) (29.038) (26.241)
+Resultaat na
+belastingen (23.031) (65.603) 109.977 162.850 131.948
+
+Uit de balans is de volgende financieringsstructuur af te leiden:
+
+31-12-2024 31-12-2023
+€ €
+
+Beschikbaar op lange termijn:
+
+Eigen vermogen 50.015 73.046
+Waarvan vastgelegd op lange termijn:
+
+Materiële vaste activa 1.582 2.596
+
+Werkkapitaal 48.433 70.450
+
+
+31-12-2024 31-12-2023
+€ €
+Dit bedrag is als volgt aangewend:
+Vorderingen 134.093 153.700
+Liguide middelen 19.078 11.501
+153.171 165.201
+Af: kortlopende schulden 104.738 94.751
+Werkkapitaal 48.433 70.450
+
+6 KENGETALLEN
+6.1 Omzet en rentabiliteit
+
+De rentabiliteit geeft het rendement aan dat de onderneming in het boekjaar heeft behaald.
+
+2024 2023
+Omzetontwikkeling
+Indexgetal (2023=100) 96,80 100,00
+Nettowinstmarge
+Resultaat na belastingen/netto-omzet -2,64 -7,29
+Rentabiliteit totaal vermogen
+(Bedrijfsresultaat/totale vermogen) -14,53 -45,51
+Rentabiliteit eigen vermogen
+Resultaat na belastingen/eigen vermogen -46,05 -89,81
+
+6.2 Liquiditeit
+
+De liquiditeit geeft de mate aan waarin de onderneming in staat is op korte termijn aan haar
+verplichtingen te voldoen. De liquiditeitspositie geeft de toestand op 31 december weer; er is dus
+
+sprake van een momentopname.
+
+2024
+
+2023
+
+Current ratio
+(Vlottende activa/kortlopende schulden) 1,46
+
+1,74
+
+6.3 Solvabiliteit
+
+De solvabiliteit geeft de mate aan waarin de onderneming in staat is op langere termijn aan haar
+verplichtingen (rente en aflossing) te voldoen. De solvabiliteitspositie geeft de toestand op 31
+december weer; er is dus sprake van een momentopname.
+
+2024 2023
+
+Solvabiliteit eerste niveau
+(Eigen vermogen/balanstotaal) 32,32 43,53
+
+7 FISCALE POSITIE
+
+7.1 Berekening belastbaar bedrag 2024
+
+Het belastbaar bedrag voor de vennootschapsbelasting over 2024 is als volgt berekend:
+
+2024
+€
+Resultaat voor belastingen (23.031)
+Fiscale verschillen:
+Niet aftrekbare kosten 2.154
+Belastbaar bedrag 2024 (20.877)
+
+Over het belastbare bedrag is geen vennootschapsbelasting verschuldigd.
+
+7.2 Vennootschapsbelasting
+
+Per 31 december 2024 is per saldo € 28.756 te vorderen inzake vennootschapsbelasting. De
+vennootschapsbelasting over 2024 bedraagt € -
+
+Vordering/
+schuld per
+Vordering/ Betaald/ 31
+schuld per 1 ontvangen december
+januari 2024 in 2024 2024
+€ € €
+Carry back 2022 11.295 (11.295) 0
+2023 32.278 (32.278) 0
+2024 0 28.756 28.756
+43.573 (14.817) 28.756
+
+Bij het uitbrengen van dit rapport zijn de aangiften vennootschapsbelasting tot en met 2023
+definitief geregeld.
+
+10
+
+7.3 Specificatie niet aftrekbaar deel van de kosten
+
+Niet
+aftrekbaar
+Basisbedrag deel
+% € €
+Relatiegeschenken 26,5 % 1.427 378
+Representatiekosten 26,5 % 2.742 127
+Personeelskosten 26,5 % 3.668 972
+2.077
+Boetes 100,0 % 77 77
+2.154
+7.3.1 Compensabele verliezen
+31
+1 januari Verlies in december
+2024 2024 2024
+€ € €
+2024 0) 20.877 20.877
+
+Tot het verstrekken van nadere toelichtin Zijn wij gaarne bereid.
+
+Hoogachtend,
+
+
+DWARSDOEN B.V, ROTTERDAM
+
+1 BALANS PER 31 DECEMBER 2024
+(na verwerking van het verlies)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+
+Inventaris
+Vlottende activa
+
+Vorderingen
+
+Handelsdebiteuren
+Vennootschapsbelasting
+Overige vorderingen en
+overlopende activa
+
+Liquide middelen
+Rabobank
+
+31 december 2024
+
+31 december 2023
+
+€ €
+
+1.582
+
+5/./64
+28.756
+
+47.573
+
+134.093
+
+19.078
+
+154.753
+
+€ €
+
+2.596
+
+97.102
+43.573
+
+13.025
+
+153.700
+
+11.501
+
+167.797
+
+PASSIVA
+
+Eigen vermogen
+
+Geplaatst kapitaal
+Overige reserves
+
+Kortlopende schulden
+
+Schulden aan leveranciers en
+handelskredieten
+
+Overige belastingen en premies
+sociale verzekeringen
+
+Overige schulden en overlopende
+passiva
+
+31 december 2024
+
+JAARREKENING 2024
+
+31 december 2023
+
+€
+
+120
+
+49.895
+
+562
+
+63.526
+
+40.650
+
+€
+
+50.015
+
+104.738
+
+154.753
+
+€
+
+120
+72.926
+
+49.587
+
+45.164
+
+€
+
+73.046
+
+94.751
+
+167.797
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+2 WINST-EN-VERLIESREKENING OVER 2024
+
+2024 2023
+
+Netto-omzet 871.632 900.434
+Kostprijs van de omzet 43.273 35.237
+
+Bruto-omzetresultaat 828.359 865.197
+
+Kosten
+
+Personeelskosten 706.425 795.345
+Afschrijvingen 1.014 1.014
+Overige bedrijfskosten 143.407 145.200
+
+850.846 941.559
+
+Bedrijfsresultaat (22.487) (76.362)
+Financiële baten en lasten (544) (536)
+
+Resultaat uit gewone
+
+bedrijfsuitoefening voor
+
+belastingen (23.031) (76.898)
+Belastingen resultaat uit
+
+gewone bedrijfsuitoefening 0) 11.295
+
+Resultaat na belastingen (23.031) (65.603)
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+ALGEMEEN
+
+Activiteiten
+De activiteiten van DwarsDoen B.V, statutair gevestigd te Rotterdam bestaan voornamelijk uit het
+uitvoeren van maatschappelijk werk.
+
+Bestuur
+Per balansdatum wordt het bestuur gevoerd door Verhoeff Dwarsdoen B.V. en Frankhuizen
+Dwarsdoen BV.
+
+Vestigingsadres en inschrijfnummer handelsregister
+DwarsDoen B.V. is statutair gevestigd te Rotterdam en feitelijk gevestigd op De Vriesstraat 38,
+3261 PC Oud-Beijerland en is ingeschreven bij het handelsregister onder nummer 73327263.
+
+Verbonden partijen
+
+De volgende partijen zijn verbonden met DwarsDoen B.V:
+Verhoeff DwarsDoen B.V.
+
+Frankhuizen DwarsDoen B.V.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW.
+
+De jaarrekening is opgemaakt op basis van historische kostprijs. De waardering van activa en
+passiva geschiedt, voor zover niet anders is vermeld, tegen nominale waarde.
+
+Winsten worden toegerekend aan de periode waarin ze zijn gerealiseerd. Verliezen worden
+verantwoord in het jaar waarin ze voorzienbaar zijn.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de
+cumulatieve afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De
+afschrijvingen worden gebaseerd op de geschatte economische levensduur en worden berekend
+op basis van een vast percentage van de verkrijgingsprijs, rekening houdend met een eventuele
+residuwaarde. Er wordt afgeschreven vanaf het moment van ingebruikneming. Op terreinen wordt
+niet afgeschreven.
+
+Vorderingen en overlopende activa
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs. De reële waarde en geamortiseerde kostprijs zijn
+gelijk aan de nominale waarde. Noodzakelijk geachte voorzieningen voor het risico van
+oninbaarheid worden in mindering gebracht. Deze voorzieningen worden bepaald op basis van
+individuele beoordeling van de vorderingen.
+
+Liguide middelen
+De liquide middelen zijn gewaardeerd tegen de nominale waarde. Indien middelen niet ter vrije
+beschikking staan, dan wordt hiermee bij de waardering rekening gehouden.
+
+Langlopende en kortlopende schulden
+Opgenomen leningen en schulden worden bij eerste verwerking opgenomen tegen de reële
+waarde en vervolgens gewaardeerd tegen de geamortiseerde kostprijs.
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+GRONDSLAGEN VOOR RESULTAATBEPALING
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde
+prestaties en verrichte diensten enerzijds, en anderzijds de kosten en andere lasten van het jaar,
+gewaardeerd tegen historische kostprijzen.
+
+Resultaatbepaling
+
+Het resultaat wordt bepaald als het verschil tussen de netto-omzet en de kosten en andere lasten
+van het verslagjaar met inachtneming van de hiervoor vermelde waarderingsgrondslagen.
+Winsten zijn verantwoord in het jaar waarin de goederen zijn geleverd c.q. de diensten zijn
+verricht. Verliezen welke hun oorsprong vinden in het boekjaar zijn in aanmerking genomen
+zodra deze voorzienbaar zijn.
+
+Netto-omzet
+Onder netto-omzet wordt verstaan de opbrengst van de in het verslagjaar geleverde goederen en
+verleende diensten onder aftrek van kortingen en de over de omzet geheven belastingen.
+
+Kostprijs van de omzet
+De kostprijs van de omzet omvat de kosten van inhuur van derden.
+
+Brutomarge
+De brutomarge bestaat uit het verschil tussen de netto-omzet en de kostprijs van de omzet,
+alsmede uit de overige bedrijfsopbrengsten.
+
+Wet normering topinkomens
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft DwarsDoen B.V. zich
+gehouden aan de wet- en regelgeving inzake de WNT, waaronder de sectorspecifieke regelgeving.
+De WNT-verantwoording over dit verslagjaar is opgenomen in de toelichting op de winst- en
+verliesrekening.
+
+Afschrijvingen
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages
+van de aanschaffingswaarde, op basis van de verwachte economische levensduur. Boekwinsten en
+verliezen bij verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen,
+boekwinsten echter alleen voor zover de boekwinsten niet in mindering zijn gebracht op
+vervangende investeringen.
+
+Belastingen
+
+De vennootschapsbelasting wordt berekend tegen het geldende tarief over het resultaat van het
+boekjaar, waarbij rekening wordt gehouden met permanente verschillen tussen de
+winstberekening volgens de jaarrekening en de fiscale winstberekening, en waarbij actieve
+belastinglatenties (indien van toepassing) slechts worden gewaardeerd voor zover de realisatie
+daarvan waarschijnlijk is.
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2024
+
+ACTIVA
+
+VASTE ACTIVA
+
+Materiële vaste activa
+
+2024 2023
+€ €
+
+Inventaris
+
+Aanschaffingswaarde 5.072 5.072
+Cumulatieve afschrijvingen en waardeverminderingen (2.476) (1.462)
+Boekwaarde per 1 januari 2.596 3.610
+Mutaties
+
+Afschrijvingen (1.014) (1.014)
+Aanschaffingswaarde 5.072 5.072
+Cumulatieve afschrijvingen en waardeverminderingen (3.490) (2.476)
+Boekwaarde per 31 december 1.582 2.596
+
+De inventaris wordt afgeschreven met 20% per jaar.
+
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+31-12-2024 31-12-2023
+€ €
+
+Handelsdebiteuren
+Debiteuren 57.764 97.102
+
+Een voorziening voor vermoedelijke oninbaarheid wordt niet noodzakelijk geacht.
+
+Vennootschapsbelasting
+
+Vennootschapsbelasting dit jaar 28.756 32.278
+Carry back boekjaar 2022 0 11.295
+
+28.756 43.573
+
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+31-12-2024 31-12-2023
+
+€ €
+Overige vorderingen en overlopende activa
+Nog te factureren omzet 33.729 6.215
+Huur 1.729 0
+Ziekengeld 5.440 2.836
+Automatiseringskosten 1.077 0
+Te ontvangen creditfacturen 0 1.800
+Waarborgsom huur 1.757 1.757
+Vooruitbetaald netto loon 0 417
+Kruisposten 3.841 0)
+
+47.573 13.025
+Liquide middelen
+Rabobank 19.078 11.501
+PASSIVA
+Eigen vermogen
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 120 gewone aandelen nominaal
+€ 1,00 120 120
+De aandelen zijn in handen van:
+Verhoeff DwarsDoen B.V. (60 aandelen)
+Frankhuizen DwarsDoen B.V. (60 aandelen)
+
+2024 2023
+
+€ €
+Overige reserves
+Saldo per 1 januari 72.926 138.529
+Resultaatbestemming boekjaar (23.031) (65.603)
+
+Saldo per 31 december 49.895 72.926
+
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+Kortlopende schulden
+
+31-12-2024 31-12-2023
+
+€ €
+Overige belastingen en premies sociale verzekeringen
+Loonheffing 46.211 31.391
+Pensioenen 17.315 18.196
+63.526 49.587
+Overige schulden en overlopende passiva
+Vakantiegeld 27.500 28.700
+Accountantskosten 6.500 13.310
+Commissaris vergoeding 2.073 0
+Rente- en bankkosten 47 47
+Autokosten 4.530 3.107
+40.650 45.164
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Meerjarige financiële verplichtingen
+
+Huurverplichtingen onroerende zaken
+
+Door DwarsDoen BV is een meerjarige financiele verplichting aangegaan tot en met 31 december
+2024 terzake van huur van bedrijfsruimte voor een bedrag van € 20.372 per jaar.
+
+18
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2024
+
+Netto-omzet
+De netto-omzet is in 2024 ten opzichte van 2023 met 3,2% gedaald.
+
+2024 2023
+€ €
+Netto-omzet
+Omzet Wmo Gemeente Hoeksche Waard 761.534 791.137
+Nabetaling vorig boekjaar Wmo Gemeente Hoeksche Waard 0 1.576
+Omzet Jeugdwet 9.415 37.879
+Nabetalingen vorig boekjaar Jeugdwet 0 4.149
+Omzet overige zorgverlening 100.683 65.693
+871.632 900.434
+Kostprijs van de omzet
+Werkzaamheden derden 43.273 35.237
+Personeelskosten
+Lonen en salarissen 555.264 611.246
+Sociale lasten 99.925 109.404
+Overige personeelskosten 51.236 74.695
+706.425 795.345
+Lonen en salarissen
+Bruto lonen 611.555 635.661
+Mutatie reservering vakantiegeld (1.200) 700
+610.355 636.361
+Ontvangen ziekengelduitkeringen (55.091) (25.115)
+555.264 611.246
+Sociale lasten
+Premies sociale verzekeringswetten 61.874 68.711
+Werkgevers lasten pensioenen 38.051 40.693
+
+99.925 109.404
+
+
+DWARSDOEN B.V, ROTTERDAM
+
+JAARREKENING 2024
+
+Hieronder treft u de WNT-verantwoording over het jaar 2024 aan. Er is gebruik gemaakt van het
+model dat jaarlijks wordt gepubliceerd door het ministerie van Binnenlandse Zaken en
+
+Koninkrijksrelaties (BZK).
+
+WNT-verantwoording 2024
+
+De WNT is van toepassing op DwarsDoen B.V. Het voor DwarsDoen B.V. toepasselijke
+bezoldigingsmaximum is in 2024 € 130.000. Dit betreft het bezoldigingsmaximum voor Zorg- en
+
+jeugdhulp, klasse 1.
+
+1. Bezoldiging topfunctionarissen
+
+Tabel la
+Leidinggevende topfunctionarissen met een dienstbetrekking en leidinggevende
+topfunctionarissen zonder dienstbetrekking vanaf de 13e maand van de functievervulling.
+
+Aanvang en einde dienstbetrekking in 2024 01/01-31/12 01/01-31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0 1,0
+Di betrekking? ja ja
+Beloning plus belastbare onkostenvergoedingen 116.968 115.001
+Beloningen betaalbaar op termijn 0 0
+Subtotaal 116.968 115.001
+Individueel toepasselijk bezoldigingsmaximum 130.000 130.000
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag N.v.t. Nvt.
+Bezoldiging 116.968 115.001
+Het bedrag van de overschrijding en de reden waarom de overschrijding
+
+al dan niet is toegestaan Nvt Nvt
+Toelichting op de vordering wegens onverschuldigde betaling N.v.t. Nvt.
+
+a dn an estuurder bestuurder
+Aanvang en einde dienstbetrekking in 2023 01/01-31/12 01/01-31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0 1,0
+Dienstbetrekking? Ja/nee ja ja
+‚Bezoldiging an On
+Beloning plus belastbare onkostenvergoedingen 110.255 107.451
+Beloningen betaalbaar op termijn 0 0
+Subtotaal 110.255 107,451
+Individueel toepasselijk bezoldigingsmaximum 124,000 124.000
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag N.v.t. N.v.t.
+Bezoldiging 110.255 107.451
+
+20
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+Tabel 1d
+Topfunctionarissen met een totale bezoldiging van € 2.100 of minder.
+
+D.G.P. Boelen Commissaris
+MLF, Velders Commissaris
+
+2. Uitkeringen wegens beëindiging dienstverband aan topfunctionarissen
+
+Niet van toepassing.
+
+3. Overige rapportageverplichtingen op grond van de WNT
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een
+dienstbetrekking die in 2024 een bezoldiging boven het individueel toepasselijke drempelbedrag
+hebben ontvangen.
+
+2024 2023
+
+€ €
+Overige personeelskosten
+Reiskostenvergoedingen 20.348 26.273
+Onkostenvergoedingen 3.548 2.666
+Kantinekosten 959 2.166
+Opleidingskosten 12.280 18.450
+Ziekengeldverzekering 11.304 14.053
+Overige personeelskosten 2.797 11.087
+
+51.236 74.695
+
+Personeelsleden
+
+Bij de vennootschap waren in 2024 gemiddeld 7 personeelsleden werkzaam, berekend op
+fulltimebasis (2023: 8).
+
+Afschrijvingen
+
+Afschrijvingen materiële vaste activa
+
+Inventaris 1.014 1.014
+
+Overige bedrijfskosten
+
+Huisvestingskosten 20.372 19.972
+Kantoor- en algemene kosten 66.555 69.018
+Autokosten 46.648 45.878
+Verkoopkosten 9.832 10.332
+
+143.407 145.200
+
+21
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+2024 2023
+€ €
+Huisvestingskosten
+Huur onroerende zaak 20.372 19.972
+Kantoor- en algemene kosten
+Kantoorbehoeften 1.718 1.543
+Telefoon 3.911 4.450
+Porti 316 309
+Contributies en abonnementen 7.119 6.474
+Verzekering 3.881 3.796
+Accountantskosten 39.775 48.128
+Advieskosten 7.685 4.318
+Commissaris vergoeding 2.073 0)
+Kosten fiscus 77 0)
+66.555 69.018
+Autokosten
+Autokostenvergoeding 46.648 45.878
+Verkoopkosten
+Reclame- en advertentiekosten 2.027 1.753
+Representatiekosten 2.742 2.342
+Relatiegeschenken 1.427 1.492
+Reis- en verblijfkosten 559 832
+Overige verkoopkosten 3.077 3.913
+9.832 10.332
+Financiële baten en lasten
+Rentelasten en soortgelijke kosten (544) (536)
+Rentelasten en soortgelijke kosten
+Rente en bankkosten (544) (535)
+Rente fiscus 0) (1)
+(544) (536)
+
+Belastingen resultaat uit gewone bedrijfsuitoefening
+Vennootschapsbelasting 0) 11.295
+
+22
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2024
+
+Ondertekening van de jaarrekening
+
+Rotterdam, 27 mei 2025
+
+Directie voor akkoord Raad van commissarissen voor akkoord
+
+Verhoeff DwarsDoen AA
+
+M.L.F. Velders
+
+23
+
+OVERIGE GEGEVENS
+
+1 Deskundigenonderzoek
+
+Aangezien de besloten vennootschap valt binnen de door de wet, in artikel 2:396 lid 1 BW
+gestelde grenzen, is de vennootschap vrijgesteld van accountantscontrole. Om deze reden is aan
+de jaarrekening geen controleverklaring toegevoegd.
+
+2 Statutaire regeling winstbestemming
+
+Op grond van artikel 8.3 van de statuten staat het resultaat ter beschikking van de algemene
+vergadering.
+
+3 Verwerking van het verlies 2024
+
+Overeenkomstig de wettelijke bepalingen is het verlies ad € 23.031 over 2024 ten laste gebracht
+van de overige reserves. Dit is reeds in de jaarrekening verwerkt.
+
+24
+
+DWARSDOEN B.V, ROTTERDAM
+
+OVERZICHT MATERIËLE VASTE ACTIVA
+
+Kantoorinventaris
+
+03.21:
+05.21:
+06.21:
+10.21:
+
+12.21
+
+Chromebook
+Netwerk
+
+Chromebook
+Chromebook
+
+: Bureaufiets
+12.21:
+
+Vergadertafel
+
+aanschafwaarden
+des-
+investe- investe-
+1-1-2024 ringen ringen 31-12-2024
+€ € € €
+612 612
+1.665 1.665
+747 747
+544 544
+595 595
+909 909
+5,072 - - 5,072
+
+
+afschrijvingen
+
+boekwaarde
+
+op des-
+t/m investe- t/m rest-
+
+% 1-1-2024 2024 ringen 31-12-2024 31-12-2024 31-12-2023 waarde
+
+€ € € € € €
+20,0 346 122 468 144 266
+20,0 888 333 1.221 444 717 -
+20,0 385 149 534 213 362 -
+20,0 245 109 354 190 299 -
+20,0 248 119 367 228 347 -
+20,0 364 182 546 363 545 -
+
+2.476 1.014 - 3.490 1.582 2.596 -
+

@@ -1,0 +1,892 @@
+# whosigns-ocr v1 grootte=1930178 dpi=300 paginas=20
+Pro-Cura B.V.
+
+1,4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+1,4.5 Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht ís opgesteld volgens de indirecte methode. De geldmiddelen in het kasstroomoverzicht
+bestaan uit de ligulde middelen die zonder beperkingen en zonder materieel risico van waardeverminderingen
+als gevolg van de transactie kunnen warden Omgezet In geldmiddelen.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn opgenomen
+onder de kasstroom uit operationele activiteiten,
+
+1.4,6 Grondslagen voor gebeurtenissen na batansdatum
+
+Gebeurtenissen die nadere Informatie geven over de feitelijke situatie per balansdatum en die blijken tot aan de
+datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum werden niet in de
+Jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van de gebruikers
+van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht in de Jaarrekening.
+
+1,4.7 Waarderingsgrondstagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de wet- en
+regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Faglna 14 Alleen voor identificatiedoeleinden
+
+Moore DRV Ae”
+Datum: 24 juni 2022
+
+Pro-Cura BV.
+
+1.5 TOELICHTING OP DE BALANS
+ACTIVA
+1. immateriëie vaste activa
+
+31-dec-21 31-dec-20
+De specificatie is als volgt: € €
+Kosten oprichting en uitgifte van aandelen o o
+Kosten van ontwikkeling 19.175 22,585
+Kosten van concessies, vergunningen en rechten van Intellectuele eigendom 0 0
+Kosten van goodwill die van derden is verkregen o 6
+Overige immateriële activa 0 [u
+Totaal immateriële vaste activa 19,175 22.565
+Het verloop van de inxnateriëte activa in het verslagjaar is als volgt weer te geven: 2021 2020
+
+€ €
+
+Boekwaarde per 1 januari 22565 25.574
+Bij: investeringen Le) 6
+At: afschrijvingen 3.390 3.009
+Af: bljzandere waardeverminderingen o le)
+Bij: terugname bijzondere waardeverminderingen D 0
+Af: terugname geheel afgeschreven activa Li] 0
+Af. desinvesteringen 0 0
+Boekwaarde per 31 december 19.175 22.565
+Toelichting:
+Voor een nadere specificatie van het verloop van de immateriële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 1,6.
+2. Materiële vaste activa
+
+31-dec-21 31-dec-20
+De specificatie is afs volgt: € €
+Bedrijfsgebouwen en terreinen 3.728 4.603
+Machines en Instalfaties 0 g
+Andere vaste bedrijfsmiddelen, technische en administratieve uitrusting 15.503 11.937
+Materiële vaste bedrijfsactiva in uitvoering en vooruilbetalingen op materiëte vaste activa 0 0
+Niet aan heft bedrijfsproces dienstbare materiële activa Ô 0
+Totaal materiële vaste activa 19,321 16.540
+Het verloop van de materiële activa in het verslagjaar is als valgt weer te geven; 2021 2020
+
+€ €
+
+Boskwaarde per 1 januar 16,540 22.881
+Bij: investeringen 10.113 3.421
+Af: afschrijvingen 7.332 9.762
+Af: bijzondere waardeverminderingen 0 o
+ij: terugname bijzondere waardeverminderingen ü 0
+Af: terugname geheel afgeschreven activa 0 0
+Af: desinvesteringen Lj 0
+Boekwaarde per 31 december 19.321 16.540
+Toelichting:
+Vaar een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het
+mutatieoverzicht onder 1.7,
+
+De vaste activa zijn niet als zekerheid gesteld,
+
+Pagina 15
+
+Alleen voor identificatiedoeleinden
+
+Moore DRV /
+Datum: 24 juni 2022 b
+
+Pro-Cura BV.
+
+1.5 TOELICHTING OP DE BALANS
+
+ACTIVA
+
+3. Vorderingen uit hoofde van finaneleringstekort en schutden uit hoofde van financieringsoverschot
+
+2020 2021 totaal
+€ € €
+Saldo per 4 Januari -38.405 -39,405
+Financiesingsverschil boekjaar 159.267 159.267
+Correcties voorgaanda jeren Li
+Betalingen/ontvangsten 38.405 39,405
+Sublotaal mutatie boekjaar 39.405 159.267 198.672
+Salde per 31 december le) 159,267 159.267
+Stadium van vaststelling (per erkenning): e E]
+az interne berekening
+b= overeenstemming met zorgverzekeraars
+cz definitieve vaststeliing NZa
+2021 2020
+€ €
+Waarvan gepresenteerd els:
+= vorderingen uit hoofde van financieringstekort 159.267 4]
+= schulden uil hoofde van financieringseverschol 0 -39,405
+159.267 „39.405
+Specificatie financieringsverschil In het boekjaar 2021 2020
+€ €
+Wettelijk budget voor aanvaardbare kosten 1.087.603 890.084
+Af. vergoedingen ter dekking van het wettelijk budget 928.336 829.499
+Totaal financieringsverschil 159,267 39405
+Toelichting:
+|
+4. Debiteuren en overige vorderingen
+De spacificatte is afs volgt: 31-dec-21 31-dec-20
+€ €
+Vorderingen op debiteuren 234.830 372.783
+Vennootschapsbelasting 0 Le]
+Pensloenverplichtingen Pensioenfonds Zorg en Welzijn 37.012 28.921
+Overige overlopende activa 17.455 0
+Obligatielening BTN 2,000 2.000
+Voorschotten personeel 5.387 4.024
+Waarborgsommen 15.040 8.540
+Totaal debiteuren en overige vorderingen 311.724 417.268
+5. Liquide middelen
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Bankrekeningen 252.600 416,557
+Totaal liquide middelen 252.600 416.557
+
+Toelichting:
+De liquide middelen zijn vrij beschikbaar,
+
+Pagina 16
+
+Alleen voor identificatiedoeleinden
+
+Moore DRV AP
+
+Datum: 24 juni 2022
+
+Pro-Cura BV.
+
+1.5 TOELICHTING OP DE BALANS
+PASSIVA
+6. Eigen vermogen
+Het elgen vermogen bestaat uit de valgende componenten: 31-dec-21 31-dec-20
+€ €
+Kapitaal 18.000 18.000
+Wettelijke en statutaire reserves o o
+Bestemrmingsreserves LI} 0
+Bestemmingsfondsen 0 Le
+Algemene en overige reserves 13.947 -86.109
+Totaal elgen vermogen 31.947 -68,109
+Kapitaal
+Saldo per Kapitaal Overige Saldo per
+Het verloop is als volgt weer fe geven: 1jan-21 Stortingen mutaties 31-dec-21
+€ € € €
+Kapitaal 18.000 oe 0 18.000
+Totaal kapitaal 18.000 [HJ [9] 18.000
+Algemene en overige reserves
+Saldo per Resultaat. Overige Saldo per
+Het vertoop is als volgt weer te geven: 1-jan-21 bestemming mutaties 31-dec-21
+€ € € €
+Overige reserves:
+Overige reserves 86.109 100.056 lij 13.947
+Total afgemene en overige reserves „86.108 100.056 :) 13.947
+Saldo per Kapítaal Overlge Saldo per
+Het verloop over 2020 ís als volgt weer te geven: 1-jan-20 stortingen mutaties 3i-dec-20
+€ € € €
+Kapitaal 18.000 0 0 18.000
+Totaal kapitaal 18,000 [d 0 18,000
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop over 2020 is als valgt weer te gevan: 1-jan-20 bestemming mutaties 31-dec-20
+€ € € €
+Overige reserves:
+Overige reserves -115.147 28.378 0 -85.769
+Tetaa! algemene en overige reserves -115147 29.378 [:] -85.769
+Toelichting:
+
+Pagina 17
+
+Alleen voor identificatiedoeleinden
+Moore DRV
+Datum: 24 juni 2022
+
+Pro-Cura B.V.
+
+1,5 TOELICHTING OP DE BALANS
+
+PASSIVA
+7. Langlopende schuiden (nog voor meer dan een jaar)
+
+De specificatie js als volgt: 31-dec-21 31-dec-20
+
+€ €
+Schulden gan banken [dg 0
+Overige langlopende schulden 0 (i}
+Tetaal langlopende schulden (nog voor meer dan een jaar) ] []
+
+De nadere specificatie van de langlopende leningen is als volgt:
+De heer H.J. Visser
+
+Het verfoop is als volgt weer te geven: 2021 2020
+€ €
+Stand per 4 januari 45.000 45.000
+Bij: nieuwe leningen 0 kij
+Af: aflossingen 45.000 0
+Stand per 31 decamber 0 45.000
+Af. aflossingsverplichting kamend boekjaar 0 45.000
+Stand langlopende schuiden per 31 december [] [:]
+De heer N. Vaessen
+Hef verloop is afs volgt weer te geven: 2024 2020
+€ €
+Stand per 1 Januari 30.000 30.000
+Bij: nieuwe leningen lij <]
+Af: aflossingen 30.000 o
+Stand per 31 december ) 30.000
+Af: aflossingsverplichting kornend boekjaar 0 30.000
+Stend langlopende schulden per 31 december [+] [)
+
+Toelichting in welke mate (het tolaal van) de fengtopende schuiden als langlopend moeten worden beschouwd:
+
+Kortlopend deel van de langlopende schulden (< 1 jr), aflossingsverplichtingen 0 75.000
+Langlopend deel van de langlopende schulden (> 1 jr.) (balanspost) 0 e)
+hiervan > 5 jaar 0 Li
+Toelichting:
+
+Pagina 18
+
+Alleen voor identificatiedoeleinden
+Moore DRV
+Datum: 24 juni 2022
+
+Pro-Cura B.V.
+
+1.5 TOELICHTING OP DE BALANS
+PASSIVA
+8. Overige kortlopende schulden
+De specificatie is als volgt: 31-dec-21 31-dec-20
+€ €
+Crediteuren 51.425 83.421
+Alossingsverplichtingen komend boekjaar langlopende leningen 0 75.000
+Belastingen en premies sociale verzekeringen 152,087 135.632
+Schulden terzake pensioenen 4.771 24.152
+Schulden uit hoofde van financieringsoverschol 0 38.405
+Overige schulden:
+Vakantiegeld 85.220 73.732
+Vakantiedagen 163.564 158.386
+Aeccountentskosten o 6,353
+Eindejearsuitkering 13.717 11.850
+Reservering omzetoverschrijding ZVW 102.000 0
+Vooruitgefeclureerde bedragen Lt] 5.141
+Terug te betalen bedragen gemeente Oegstgeest o 7.470
+Terug te betalen bedragen gemeente Leiderdorp LI] 1-410
+Terug is betalen bedragen overige gemeenten 28.544 26.544
+Subsidie beeldbeltechnologle 1.697 43.231
+Coronabonus 58.881 107.550
+Conflinuïteitsbijdregen 20.223 110.169
+Waarbargsommen 13.200 13.200
+Overige overlopende passiva 34.811 13.383
+Totaal overige kortlopende schulden 730.140 841.039
+Algemeen
+
+9, Niet In de balans opgenomen verplichtingen, activa en regatingen
+
+(Meerjarige) financiële verplichtingen
+De instelling heeft de volgende meerjarige verplichtingen uit hoofde van lopende leasecontracten, huur en overeenkomsten,
+
+betaalbaar betaalbaar betaalbaar Totaal
+
+binnen 4 jaar 1-5 jaar na5jaar €
+
+€ € € €
+
+Huur 38.592 Jaarlijks Jaarlijks 38.592
+Tolaal meerjarige verplichtingen 38.592 [) :) 38,592
+
+Onzekerheden opbrengstverantwaarding
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de gedeclareerde zorgpreslalies
+kunnen correcties noodzakelijk zijn op de gedeclareerde productie, De effecten van eventuele materiële nacantroles zijn vooralsnog
+onzeker en daarom zijn er hiervoor gean verplichtingen opgenomen in de balans.
+
+VPB-plicht
+
+De instelling heeft gen analyse gemaakt van de eventuele vennootschapsbelastingglicht en de directie schat in dat het onvoldoende
+zeker is dat verrekenbare verliezen gecompenseerd kunnen worden met toekomstige winsten. Om die reden is geen
+belatinglatentie gevormd.
+
+Verplichtingen uit hoofde van het macrobeheersinstrument
+
+Bij het opstellen van de jaarrekening 2021 bestaat nog geen inzicht in realisatie van het mbl-omzetplafond over 2020, Pro-Cura BV.
+is niel In staat een betrouwbare inschatting te maken van de uit het macrobeheersinstrument voortkomende verplichting en deze te
+kwanlificeren. Als gevolg daarvan is deze verplichting niet tot uitdrukking gebracht in de balans van de instelling per 31 december
+2021,
+
+Pagina 19
+
+Alleen voor identificatiedoeleinden
+
+Moore DRV
+Datum: 24 juni 2022 id
+
+ZTO0z luní pz :wmea
+
+AAH AIT S10ON
+
+ueputejeopeneoynusp! JO0A uaa
+
+oe BuBeg
+
+%0'0L
+
+S4L'6L 0 0 } S4U'6t [4
+Zas'e8 ] SL9'EL Lt] ELE'OL 1}
+EL LOL a 4914 Ls) £90'06 0
+06E €- lt) 0 [u O5E'€- 0
+) 0 0 0 0 q
+0
+o
+0
+kij
+06e’ O8E'e
+0
+SITE [:] [ û GEGE ke]
+L8L'6Z SLI LL EER L
+EZ LOL S19'L4 480'0E
+> E] E] > E] E)
+
+BANOE uebenpen Wopuebje Buyonswaguo varepueg
+eo, efgegeuwy Sj Uapsap ueA sjenzoergerur UBA UBJEOK uea eyybjjn
+
+do ueBunwmog ep [tMpooB UBA UeyYaaa UO ue Bunyan
+
+UBA Uo3 LOM uaBujuunBsen -do uezson
+‘sp|sseou0d
+UBA UZSOM
+
+eôBjueuedsbunluyesiy
+
+LZ08 Jeqwagep [c Jed epieemyeOg
+
+uabuialuyoess caangemnwno -
+SPJEEMJRYDSUBB -
+FE0z zaqwesep je Jed pueg
+
+(opies Jad) apreemjaog UI saneiny
+
+opjBs Jed
+
+uabualuyssje aneneinwns
+
+eplegmjeydsuRs
+uefiuversanussep -
+
+uaBuuopuyuwarepieem “zig eweubrugy -
+ueâupepujusenepssem ssepuoziig -
+veBuiluyosje -
+
+uabutseysenus -
+
+seefkeog zey uy senen
+
+}z0z Henuel } sad opseemysog
+uefurfuyasje sAegeinwna -
+
+SPIBBMJEUDSUEE —
+HED tienuef j sad pues
+
+WALLIV 21SVA ATIE VWN LHOIZI3AOALLYLNN 9°L
+
+NE BING-Osd
+
+ZE0z lunl pz :wnjeg
+AU AHT 200
+ueputejeopetjeoynuep! J00A uealnw
+
+lZ gubeg
+
+%0'0z %D'OL
+
+LEE 6L Ô 0 EBCG} 0 SEL
+5864 kij 0 vES’9G 0 Oee eg
+54165 le] 0 ZE ZL q BpO'42
+rd :] 0 ISG'E a S48-
+o 0 0 +} 0 L}
+0
+0
+Li}
+0
+0
+e
+zee’ L 626 t Ore
+ELL'OL Ses'e gest
+Ops'9, [: [) LEB LL [IJ €09
+EES EL 509'L6 £16'0Z
+Z90’68 Tps'Ca Oes sé
+> 3 E] El E] E]
+
+RAIE 92E BARGE ojStA Bugsnajn sanenesur ualjeney
+jeezor semsuop e1guozew do eaanensjujwpe us SeuryR uo vemnoge
+
+geaoudsslispeq uabunevegynsoon ue syaszugoar “sylupog
+
+Jeu ues zen ue Bugsoayn ‘uaeppiw
+
+UEBARDESIRPeG  -Sfupog
+@JSEA o}2HEJEN GISEA uapuY
+
+ebejuamedsBunluuyIsyy
+1802 Jeqwesep |E Jed epseemyeog
+
+uaBujluyosje saanejntuno -
+OPBMYEUISUBE -
+bEOg Jaqweasp je sed pus
+
+(apres Jed) epseemjeog us seneinn;
+
+oples Jad
+
+uabuinfuyIsje eAagEinwna
+
+OPIBEMJEYIS URE
+uebuyejsenursep -
+
+uaBujAluyosje arogeinwng:
+epleemjeyasuge:
+Bagage vereujoseBje Jeaye8 eweubnie -
+
+Uebuvepujwerepueen ‘zijg eweuBrusy -
+ueBuuepujuuorspueem srapuozig -—
+ueBujnfgyosse -
+
+ueBuuaysenu: -
+
+seejeog zou UI sepenw
+
++202 uenusf | 199 opsoemieog
+uaBurnluyosje eAeneinwna -
+
+opseeajeyosugs -
+bz02 Henuef ; sad puejs
+
+VALLOY ALSVA STANHALVIN LHOIZEZAOULVLNN £°t
+
+NA LIND-OId
+
+Ab
+
+ZT0e luní pz :wrgeg
+
+AH e1oop,
+ueputejeopeneoynguep! 400A uesjl\y
+ze euiBed
+0 0 0 00082 Jo 0002 i TERI
+voe5lo 0 0 lo ooo [0 ooo'oe —lizoeerie [me spuswepuol Pr _|ooooe _|ernouoz EEEDNEE
+usa0[0 0 0 jo ooosr Jo ooo'sy — [izoezi=ie [ms spueyepuol —p |ooosp  |6l-destz EEEN
+EN EN 3 > 3 ) % EN
+uepeysexez [zzoz Buis ie pus vaan Jeefgdano | v0EZiie| izozu |, uaBuiuos OzOE-zi-Le Beier En Buitjsoog on wospjoog| WmeP sanaBuruen
+SAND | MBV | souv Dimeen buDRSo |PIUISSo | SUISSOHY | ennen, _|PFUSSN | opu | ozon aietoL hd
+
+LZ0Z owgjn uepjnyos epuadojfiuei 3Uorz10AD e°1
+
+29\irie
+
+‘Aa BinS-0sg
+
+Pro-Cura B.V.
+
+1,9 TOELIGHTING OP DE RESULTATENREKENING
+BATEN
+
+10. Opbrengsten zorgprestaties, jeugdhuip en maatschappelijke ondersteuning
+
+De specificatie is als volgt: . 2021 2020
+
+€ €
+Opbrengsten zorgverzekeringswet 1.913.994 1.799.625
+Opbrengsten WLZ 1.072,248 690.094
+Opbrengsten Jeugdwet 0 0
+Opbrengsten Wmo 740.652 695.989
+Opbrengsten uit onderaanneming 2.412 7.707
+Overige zorgprestaties 116.381 186.853
+Continuïteitsbijdrage 39.911 141.428
+Subsidie SET-COVID 12.855 0
+Corona-compensatie Zorgkantoor 11.040 0
+Totaal 3.909.473 3.731.695
+Toelichting:
+
+In 2020 heeft Pro-Cura continuïteitsbijdragen ontvangen van zorgverzekeraars, die bestond uit 87% van het verschil tussen de
+normomzet en de gerealiseerde omzet, ter compensatie van omzetverlies i.v.m. de corona-crisis. Deze bedragen zijn per 31 december
+2020 gedeeltelijk opgevoerd als overige inkomsten en gedeettelijk in reserve geplaatst in afwachting van definitieve afrekeningen. Voor
+2021 ís het bedrag van € 39.911 opgevoerd als omzet, waarbij nog € 20.223 in reserve wordt gehouden i.v.m. mogelijke
+eindafrekeningen.
+
+11. Overige bedrijfsopbrengsten
+
+De specificatie is als volgt: 2021 2020
+
+€ €
+
+Diversen 2.191 0
+
+Totaal 2.191 0
+
+[roelichting: ]
+LASTEN
+
+12. Personeelskosten
+
+De specificatie is als volgt: 2021 2020
+€ €
+Lonen en salarissen 2.044.828 1.895.138
+Sociale lasten 328.103 335.801
+Pensioenpremies 152.685 135.930
+Dotatie / vrijval personele voorzieningen 0 0
+Overige personeelskosten 128.746 75.548
+Subtotaal 2.655.362 2.442.418
+Personeel niet In loondienst 913.111 936.673
+Totaal personeelskosten 3.568.473 3.378,09
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 65 63
+Aantal personeelsleden dat buiten Nederland werkzaam is 0 0
+Toelichting:
+Pagina 23 Alleen voor identificatiedoeleinden
+Moore DRV f
+
+Datum: 24 juni 2022
+
+Pro-Cura B.V.
+
+1.9 TOELICHTING OP DE RESULTATENREKENING
+LASTEN
+
+13. Afschrijvingen op Immateriële en materiële vaste activa
+
+De specificatie is als volgt: 2021 2020
+€ €
+Afschrijvingen:
+- Immateriële vaste activa 3.390 3.009
+- materiële vaste activa 7.332 9.762
+Totaal afschrijvingen 10.722 12.771
+14. Overige bedrijfskosten
+De specificatie is els volgt: 2021 2020
+€ €
+Algemene kosten 175.728 253.555
+Onderhoud en energiekosten 6.855 5.351
+Huur en leasing 45.912 44.823
+Totaal overige bedrijfskosten 228.495 303.729
+Toelichting:
+
+15. Financiële baten en lasten
+
+De specificatie is als volgt; 2021 2020
+
+€ €
+Rentebaten 60 60
+Subtotaal financiële baten 60 60
+Rentelasten „3.878 -7.126
+Subtotaal financiële lasten -3.97B -7126
+Totaal financiële baten en lasten 3.918 -1.066
+Toelichting:
+
+16. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen en hun
+bestuurders en leldinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+Pagina 24
+
+Alleen voor identificatiedoeleinden
+Moore DRV
+Datum: 24 juni 2022 AD
+
+Pro-Cura B.V,
+
+1.11 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+
+De directie van Pro-Cura B.V. heeft de jaarrekening opgemaakt d.d. 23 juni 2022,
+De algemene vergadering heeft de jaarrekening vastgesteld in de vergadering van 23 juni 2022.
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 1.2.
+
+Gebeurtenissen na balansdatum
+
+De besloten vennootschap Pro-Cura BV heeft ook in het boekjaar 2022 te maken met de gevolgen van het
+Goronavirus, voornamelijk in personeelsverzuim. Dit heeft voor de besloten vennootschap
+
+geresulteerd in extra kosten en organisatorische aanpassingen, maar de verwachting is dat de impact
+
+van Corona op de resultaten van de onderneming beperkt is.
+
+Ondertekening door bestuurder
+
+Directeur R Í\ ey te
+En
+
+RJ. Tuijten D= zene
+
+Alleen voor identificatiedoeleinden
+Pagina 25 Moore DRV VA
+Datum: 24 juni 2022
+
+Pro-Cura B.V.
+
+1.10 WNT VERANTWOORDING
+
+De WNT is van toepassing op Pro-Cura B.V.
+
+Het voor Pro-Cura B.V. toepasselijke bezoldigingsmaximum is in 2021
+
+€ 116.000 op basis van het bezoldigingsmaximum voor zorg- en jeugdhulp, klasse 1.
+
+1a. Leidinggevende topfunctionarissen met dienstbetrekking
+
+Bedragen x € 1 RJ. Tuijten
+Functiegegevens Directeur
+Aanvang en einde functievervulling 2021 01/01-31/12
+Omvang dienstverband (als deeltijdfactor in FTE) 0,89
+Dienstbetrekking Ja
+Bezoldiging
+Beloning plus belastbare onkostenvergoedingen 94.653
+Beloningen betaalbaar op termijn 0
+Totale bezoldiging 94,653
+Individueel toepasselijke bezoldigingsmaximum 103.240
+Gegevens 2020
+Bedragen x € 1 RJ. Tuijten
+Functiegegevens Directeur
+Aanvang en einde functievervulling 2020 01/01 - 31/12
+Omvang dienstverband (als deeltijdfactor in FTE} 0,89
+Dienstbetrekking Ja
+Bezoldiging
+
+90,003
+Beloning plus belastbare onkostenvergoedingen 009
+Beloningen betaalbaar op termijn 0
+Totale bezoldiging 90.003
+Individueel toepasselijke bezoldigingsmaximum 8.668
+
+Pagina 26
+
+Alleen voor identificatiedoeleinden
+Moore DRV /
+Datum: 24 juni 2022 AB
+
+Pro-Cura B.V.
+
+1.10 WNT VERANTWOORDING
+
+1d. Topfunctionarissen met een totale bezoldiging van € 1.700 of minder
+
+Topfunctlonarissen inclusief degenen die op grond van hun voormalige functie nog 4 jaar als
+topfunctionaris worden aangemerkt met een totale bezoldiging van € 1.700 of minder
+
+Gegevens 2021
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+Voorzitter
+Maria de Taeye Raad van
+Toezicht
+Lid Raad
+Waldo Janssen van
+Toezicht
+ild Raad
+Anna Kemman van
+Toezicht
+
+Gegevens 2020
+
+NAAM TOPFUNCTIONARIS FUNCTIE
+
+Voorzitter
+Maria de Taeye Raad van
+Toezicht
+Lid Raad
+Waldo Janssen van
+Toezicht
+Lid Raad
+Anna Kemman van
+Toezicht
+
+3. Overige rapportageverplichtingen op grond van de WNT
+
+Naast de hierboven vermelde topfunctionarissen zijn er geen overige functionarissen met een
+dienstbetrekking die in 2021 een bezoldiging boven het individueel toepasselijke drempelbedrag
+hebben ontvangen.
+
+Alleen voor identificatiedoeleinden
+Moore DRV 44
+Datum: 24 juni 2022
+
+Pro-Cura B.V.
+
+1.10 WNT VERANTWOORDING
+Pagina 27
+
+Alleen voor identificatiedoeleinden
+Moore DRV nz
+Datum: 24 juni 2022
+
+Pro-Cura B.V.
+
+2 OVERIGE GEGEVENS
+
+Alleen voor identificatiedoeleinden
+Moore DRV RE
+Datum: 24 juni 2022
+
+Pro-Cura B.V,
+
+2 OVERIGE GEGEVENS
+
+2.1 Statutaire regeling resultaatbestemming
+
+In de statuten is bepaald, conform artike! 11.1, dat het behaalde resultaat ter vrije beschikking staat van
+de algemene vergadering.
+
+2.2 Nevenvestigingen
+
+Pra-Cura B.V. heeft geen nevenvestigingen.
+
+Pagina 28
+Alleen voor identificatiedoeleinden
+
+Moore DRV
+Datum: 24 juni 2022
+
+hd Moore DRV aaf
+
+3261 PL Oud-Beijerland
+Postbus 1802
+3250 BG Oud-Beijerland
+
+T +31 186 642222
+E oud-beijerland@drv.nl
+
+www.drv.nl
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+Aan: de Raad van Toezicht en de directie van Pro-Cura B.V.
+Verklaring over de in het jaarverslag opgenomen jaarrekening
+
+Onze conclusie
+Wij hebben de jaarrekening van Pro-Cura B.V: te Leiderdorp over 2021 beoordeeld.
+
+Op grond van onze beoordeling hebben wij geen reden om te veronderstellen dat de jaarrekening geen getrouw beeld
+geeft van de grootte en de samenstelling van het vermogen van Pro-Cura B.V. per 31 december 2021 en van het
+resultaat over 2021 in overeenstemming met de Regeling verslaggeving WTZi.
+
+Deze jaarrekening bestaat uit:
+
+« _de balans per 31 december 2021;
+
+* _de resuitatenrekening over 2021; en
+
+* _de toelichting met een overzicht van de gehanteerde grondslagen voor financiële verslaggeving en andere
+toelichtingen.
+
+De basis voor onze conciusie
+
+Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder de Nederlandse Standaard
+2400 ‘Opdrachten tot het beoordelen van financiële overzichten’, Deze beoordeling is gericht op het verkrijgen van een
+beperkte mate van zekerheid. Onze verantwoordelijkheden op grond hiervan zijn beschreven in de sectie ‘Onze
+verantwoordelijkheden voor de beoordeling van de jaarrekening.’
+
+Wij zijn onafhankelijk van Pro-Cura B.V. zoals vereist in de Verordening inzake de onafhankelijkheid van accountants bij
+assurance-opdrachten (ViO) en andere relevante onafhankelijkheidsregels in Nederland. Daarnaast hebben wij voldean
+aan de Verordening gedrags- en beroepsregels accountants (VGBA).
+
+Wij vinden dat de door ons verkregen assurance-informatie voldoende en geschikt is als basis voor onze conclusie.
+
+Verklaring over de in het jaarverslag opgenomen andere informatie
+Het jaarverslag omvat andere informatie, naast de jaarrekening en onze beoordelingsverklaring daarbij.
+
+Op grond van onderstaande werkzaamheden zijn wij van mening dat de andere informatie geen materiële afwijkingen
+bevat.
+
+Wij hebben de andere informatie gelezen en hebben op basis van onze kennis en ons begrip, verkregen vanuit de
+controle of anderszins, overwagen of de andere informatie materiële afwijkingen bevat.
+
+Met onze werkzaamheden hebben wij voldaan aan de vereisten in de Nederlandse Standaard 720. Deze
+Werkzaamheden hebben niet dezelfde diepgang als onze beoordelingswerkzaamheden bij de financiële overzichten,
+
+De directie is verantwoordelijk voor het opstellen van de andere informatie, waaronder de bijlage ‘Verantwoording
+besteding Subsidieregeling bonus zorgprofessionals COVID-19 over de periode 1 maart 2020 tot 1 september 2020
+(bonus 2020)' in overeenstemming met het Verantwoordingsprotocol behorend bij de Subsidieregeling bonus
+zorgprofessionais COVID-19.
+
+An independent fier Op onze diensten zijn van dia zijn
+associated with Mooro gepubliceerd op ante webale wawt drv.nl en gedeponeerd bij de KvK
+Global Netwerk Limked Reiterdam onder nummer 24492873
+
+Md MOORE DRV
+
+Verantwoordelijkheden van de directie en de Raad van Toezicht voor de jaarrekening
+
+De directie is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in overeenstemming met
+de Regeling verslaggeving WTZi. In dit kader is de directie verantwoordelijk voor een zodanige interne beheersing die de
+directie noodzakelijk acht om het opmaken van de jaarrekening mogelijk te maken zonder afwijkingen van materieel
+belang als gevolg van fouten of fraude.
+
+De Raad van Toezicht is verantwoordelijk voor het uitoefenen van toezicht op het proces van financiële verslaggeving
+van de vennootschap.
+
+Onze verantwoordelijkheden voor de beoordeling van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een beoordelingsopdracht dat wij daarmee
+voldoende en geschikte assurance-informatie verkrijgen voor de door ons af te geven conclusie.
+
+De mate van zekerheid die wordt verkregen bij een beoordelingsopdracht is aanzienlijk lager dan de zekerheid die wordt
+verkregen bij een controleopdracht verricht in overeenstemming met de Nederlandse controlestandaarden. Derhalve
+brengen wij geen controleoordeel tot uitdrukking.
+
+Wij hebben deze beoordeling professioneel kritisch uitgevoerd en hebben waar relevant professionele oordeelsvorming
+toegepast in overeenstemming met de Nederlandse Standaard 2400.
+
+Onze beoordeling bestond onder andere uit:
+
+e _ Het verwerven van inzicht in de vennootschap en haar omgeving en in het van toepassing zijnde stelsel inzake
+financiële verslaggeving, om gebieden in de jaarrekening te kunnen identificeren waar het waarschijnlijk is dat zich
+risico's op afwijkingen van materieel belang voor zullen doen als gevolg van fouten of fraude, het in reactie hierop
+opzetten en uitvoeren van werkzaamheden om op die gebieden in te spelen en het verkrijgen van assurance-
+informatie die voldoende en geschikt is als basis voor onze conclusie;
+
+e _ Het verkrijgen van inzicht in de administratieve systemen en administratie van de vennootschap en het overwegen
+of deze gegevens opleveren die adequaat zijn voor het doel! van het uitvoeren van cijferanalyses;
+
++ _Het inwinnen van inlichtingen bij de directie en andere functionarissen van de vennootschap;
+
+Het uitvoeren van cijferanalyses met betrekking tot de informatie opgenomen in de jaarrekening;
+Het verkrijgen van assurance-informatie dat de jaarrekening overeenstemt met of aansluit op de onderliggende
+administratie van de vennootschap;
+
+» __ Het evalueren van de verkregen assurance-informatie;
+
+« _ Het overwegen van de geschiktheid van de gebruikte grondslagen voor financiële verslaggeving en het evalueren of
+de door de directie gemaakte schattingen redelijk lijken;
+
+» _ Het overwegen van de algehele presentatie, structuur en inhoud van de jaarrekening en de daarin opgenomen
+toelichtingen; en
+
+« _ Het overwegen of de jaarrekening, inclusief de gerelateerde toelichtingen, een getrouw beeld lijkt te geven van de
+onderliggende transacties en gebeurtenissen.
+
+Oud-Beijerland, 24 juni 2022
+
+Moore DRV
+
+drs. R.L.W.J.W, Fredriks RA
+
+Zi
+uepulsjeopeneoyijuep! JOOA user
+
+er
+ar
+[ET {p-2-a-e1 uigeudunsejaq bo weBupsonjn eigens; ve Sunpigsagsinjua ran Hystah
+LL __
+0G'OSE'6£ 3 OSL'EE 00’o0g'St 3 (p) sjeuogtejgorddo2 vee snuog er he op aaa Zuyyeypujs oep dpinyssson vonadaduce jo vodespadje eol
+OO OSLEE 3 'OSL'EE > z 0d 05 à “eui) Snog in UBS ep 120 eUpuje
+00 O09'Sp 3 WENDE) 8560 Jed 008 5 '<EW) snuoq opseajal OE TLS vis Gp Jens geupur opbipnuosse US, ge jo uebespa, Fl
+UuabunseIeg
+born E] Sp joo'ouo'sr 3 5p 6) ozoz snuag so0a soy Supgauuee uj Pp Lapsap [eey
+L
+190'000'8Z > En foo'oaorsc » [71 (q} ozoz snuog soon zw0x Zupjsowuee ui Jep ssautaugsaa jeiuey!
+| L
+|oo'oss'oez 2 82 OSL LSD Es OORTZLT D Er {e] Suppriyosoqsduruassn suayon OZOT snuogîsoz uadueauD jeRIO
+ong teauey | joen jeuey ang Iesuay
+jeeor 1 uapaag SISLIBUHIBM,
+
+(ozoz snuog) ozoz Jaqwezdas T 303 0Z07 veew T apoysad &p 120 6T-QIAOD Steuorssazord310z snuog Suyjoosarpisqns Zuyparseg BurpioomaueIon
+

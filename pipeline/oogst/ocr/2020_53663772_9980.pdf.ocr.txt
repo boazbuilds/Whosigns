@@ -1,0 +1,962 @@
+# whosigns-ocr v1 grootte=3463229 dpi=300 paginas=20
+GEARWURK
+
+Aan de vennoten van
+Zorgboerderij De Ruimte
+Vossersteeg 74
+
+7722 RL Dalfsen
+
+Drachten, 29 september 2021
+
+Geachte familie van der Vegt,
+1 BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Ons oordeel
+
+Wij hebben de in dit rapport opgenomen jaarrekening 2020 van Zorgboerderij De Ruimte te Dalfsen
+beoordeeld.
+
+Op grond van onze beoordeling hebben wij geen reden om te veronderstellen dat de jaarrekening
+geen getrouw beeld van de grootte en de samenstelling van het vermogen van Zorgboerderij De
+Ruimte op 31 december 2020 en van het resultaat over 2020 in overeenstemming met Titel 9 Boek 2
+BW.
+
+De jaarrekening bestaat uit:
+
+1. de balans per 31 december 2020;
+
+2. de winst-en-verliesrekening over 2020; en
+
+3. de toelichting met een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+De basis voor ons oordeel
+
+Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder de
+Nederlandse Standaard 2400 ‘Opdrachten tot het beoordelen van financiële overzichten’. Deze
+beoordeling is gericht op het verkrijgen van een beperkte mate van zekerheid. Onze
+verantwoordelijkheden op grond hiervan zijn beschreven in de sectie ‘Onze verantwoordelijkheden
+voor de beoordeling van de jaarrekening.’
+
+Wij zijn onafhankelijk van Zorgboerderij De Ruimte zoals vereist in de Verordening inzake de
+onafhankelijkheid van accountants bij assurance-opdrachten (ViO) en andere relevante
+onafhankelijkheidsregels in Nederland. Daarnaast hebben wij voldaan aan de Verordening
+gedrags- en beroepsregels accountants (VGBA)
+
+Wij vinden dat de door ons verkregen assurance-informatie voldoende en geschikt is als basis voor
+onze conclusie.
+
+Verantwoordelijkheden van het management voor de jaarrekening
+
+Het bestuur is verantwoordelijk voor het opmaken en getrouw weergeven van de jaarrekening in
+overeenstemming met Titel 9 Boek 2 BW. In dit kader is het bestuur verantwoordelijk voor een
+zodanige interne beheersing die het bestuur noodzakelijk acht om het opmaken van de jaarrekening
+mogelijk te maken zonder afwijkingen van materieel belang als gevolg van fouten of fraude.
+
+Onze verantwoordelijkheden voor de controle van de jaarrekening
+Onze verantwoordelijkheid is het zodanig plannen en uitvoeren van een beoordelingsopdracht dat wij
+
+daarmee voldoende en geschikte assurance-informatie verkrijgen voor de door ons af te geven
+conclusie
+
+De mate van zekerheid die wordt verkregen bij een beoordelingsopdracht is aanzienlijk lager dan de
+zekerheid die wordt verkregen bij een controleopdracht verricht in overeenstemming met de
+Nederlandse controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Wij hebben deze beoordeling professioneel kritisch uitgevoerd en hebben waar relevant professionele
+oordeelsvorming toegepast in overeenstemming met de Nederlandse Standaard 2400.
+
+GEARWURK BV
+Postbus 336, 9200 AH Drachten | Van Knobelsdorffptein 14, 9203 DJ Drachten | Helperpark 304, 9723 ZA Groningen www.gearwurk.nl
+T(OS12) 74 5135 | KvK 62349740 | BTW NLB547 81 420 BOI accountants - administraties — fiscalisten — juristen
+
+Onze beoordeling bestond onder andere uit:
+
+Het verwerven van inzicht in de entiteit en haar omgeving en in het van toepassing zijnde
+stelsel inzake financiële verslaggeving, om gebieden in de jaarrekening te kunnen
+identificeren waar het waarschijnlijk is dat zich risico’s op afwijkingen van materieel belang
+voor zullen doen als gevolg van fouten of fraude, het in reactie hierop opzetten en uitvoeren
+van werkzaamheden om op die gebieden in te spelen en het verkrijgen van
+assurance-informatie die voldoende en geschikt is als basis voor onze conclusie;
+
+Het verkrijgen van inzicht in de administratieve systemen en administratie van de entiteit en
+het overwegen of deze gegevens opleveren die adequaat zijn voor het doel van het uitvoeren
+van cijferanalyses;
+
+Het inwinnen van inlichtingen bij het bestuur en andere functionarissen van de entiteit;
+
+Het uitvoeren van cijferanalyses met betrekking tot de informatie opgenomen in de
+jaarrekening;
+
+Het verkrijgen van assurance-informatie dat de jaarrekening overeenstemt met of aansluit op
+de onderliggende administratie van de entiteit;
+
+Het evalueren van de verkregen assurance-informatie;
+
+Het overwegen van de geschiktheid van de gebruikte grondslagen voor financiële
+verslaggeving en het evalueren of de door het bestuur gemaakte schattingen redelijk lijken;
+Het overwegen van de algehele presentatie, structuur en inhoud van de jaarrekening en de
+daarin opgenomen toelichtingen; en
+
+Het overwegen of de jaarrekening, inclusief de gerelateerde toelichtingen, een getrouw beeld
+lijkt te geven van de onderliggende transacties en gebeurtenissen.
+
+Drachten, 29 september 2021
+
+Gearwurk BV
+
+namens deze,
+
+dr
+
+Fam :
+
+Emnes
+
+‚A. Kuibers RA
+
+2 RESULTATEN
+
+ONTWIKKELING RESULTAAT
+
+De verslagperiode is afgesloten met een resultaat van € 405.142, tegenover € 498.708 over 2019.
+Ter analyse van het resultaat dient de volgende opstelling, die is ontleend aan de winst- en
+
+verliesrekening.
+
+2020 2019
+€ % € %
+
+Netto-omzet 1.905.434 100,0 1.657.100 100,0
+Inkoopwaarde van de omzet -1.094.246 -57,4 -870.842 -52,6
+Kosten uitbesteed werk en andere externe kosten -28.798 =1,5 -4.183 -0,3
+Brutomarge (brutobedrijfsresultaat) 782.390 41,1 782.075 47,2
+Personeelskosten
+Lonen en salarissen 93.879 4,9 46.149 2,8
+Sociale lasten 16.019 0,8 7.915 0,5
+Pensioenlasten 9,648 0,5 - -
+Andere personeelskosten 28.190 1,5 23.951 1,4
+Afschrijvingen en waardeverminderingen
+Afschrijvingen immateriële vaste activa 922 0,0 922 0,1
+Afschrijvingen materiële vaste activa 57.535 3,0 59,504 3,6
+Overige bedrijfskosten
+Huisvestingskosten 91.042 4,8 75.812 4,6
+Verkoopkosten 809 0,0 = =
+Auto- en transportkosten 10.345 0,5 2.830 0,2
+Kantoorkosten 16.429 0,9 7.550 0,5
+Algemene kosten 32.058 1,7 37.730 2,3
+Som der kosten 356.876 18,7 262.363 15,8
+Bedrijfsresultaat 425.514 22,3 519.712 31,4
+Financiële baten en lasten -20.372 -1,1 -21.004 =1,3
+Resultaat 405.142 21,3 498.708 30,1
+
+
+3 FINANCIËLE POSITIE
+
+ONTWIKKELING WERKKAPITAAL
+
+Het onderstaande overzicht geeft een beeld van de ontwikkeling van de liquiditeitspositie ultimo het
+
+verslagjaar en is ontleend aan de balans:
+
+31 dec 2020 31 dec 2019
+€ €
+Beschikbaar op lange termijn
+Eigen vermogen 640.200 407.712
+Langlopende schulden 516.928 690.530
+1.157.128 1.098.242
+Vastgelegd op lange termijn
+Immateriële vaste activa 6.451 7.373
+Materiële vaste activa 986.436 937.411
+992.887 944.784
+Werkkapitaal 164,241 153.458
+
+De omvang van het werkkapitaal geeft informatie over de liquiditeitspositie van de onderneming.
+
+OPBOUW WERKKAPITAAL
+
+Onder werkkapitaal wordt verstaan het geheel van vlottende activa verminderd met de kortlopende
+schulden. Op basis van de balans kan een opstelling worden gegeven van het werkkapitaal:
+
+31 dec 2020 31 dec 2019
+€ €
+Voorraden 160.120 219.994
+Vorderingen 185.608 85.839
+Liquide middelen 54.896 85.207
+Vlottende activa 400.624 391.040
+Af: kortlopende schulden 236.383 237.582
+Werkkapitaal 164.241 153.458
+
+
+4 _WINSTVERDELING
+
+Resultaat boekjaar voor resultaatverdeling
+
+Arbeidsvergoeding
+
+Kapitaal B. van der Vegt
+
+Kapitaal C. van der Vegt-ter Velde
+Kapitaal H. van der Vegt
+
+Andere regelingen
+Kapitaal B. van der Vegt
+
+Resterend resultaat
+
+Aandeel in overwinst
+
+Kapitaal B. van der Vegt
+
+Kapitaal C. van der Vegt-ter Velde
+Kapitaal H. van der Vegt
+
+Gearwurk BV
+
+namens de
+
+drs. J.A. Kuipers RA
+
+31 dec 2020
+
+€
+405.142
+60.000
+
+40.000
+60.000
+
+160.000
+
+-922
+
+-922
+
+246.064
+
+82.022
+82.021
+82.021
+
+246,064
+
+JAARREKENING
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+5 BALANS PER 31 DECEMBER 2020
+
+ACTIVA
+31 dec 2020 31 dec 2019
+€ € € €
+Vaste activa
+Immateriële vaste activa
+Concessies, vergunningen en
+intellectuele eigendom 6,451 7.373
+6.451 7.373
+
+Materiële vaste activa
+Bedrijfsgebouwen en -terreinen 835.626 796.750
+Machines en installaties 15.350 -
+Inventaris 116.537 126.799
+Vervoermiddelen 15.263 10.202
+Levende have 3.660 3.660
+
+986.436 937.411
+Vlottende activa
+Voorraden 160.120 219.994
+Vorderingen
+Handelsdebiteuren 74.530 1.625
+Belastingvorderingen 26.539 3.438
+Overlopende activa 84.539 80.776
+
+185.608 85.839
+Liquide middelen 54.896 85.207
+Totaal 1.393.511 1.335.824
+
+Beoordelingsverklaring afgegeven 10 M
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+PASSIVA
+31 dec 2020 31 dec 2019
+€ € € €
+Eigen vermogen
+Kapitaal B. van der Vegt 193.746 148.770
+Kapitaal C. van der Vegt-ter Velde 219.091 129.471
+Kapitaal H. van der Vegt 227.363 129.471
+OO 640.200 407.712
+
+Langlopende schulden
+Andere obligaties en onderhandse
+leningen 138.000 194.526
+Schulden aan banken 378.928 496.004
+
+516.928 690.530
+Kortlopende schulden
+Schulden aan financiers 83.472 67.448
+Schulden aan leveranciers en
+handelskredieten 97.779 98,048
+Belastingen en premies sociale
+verzekeringen 5,613 4.187
+Schulden ter zake van pensioenen 4,313 -
+Overige schulden 368 936
+Overlopende passiva 47.838 66.963
+
+236.383 237.582
+Totaal 1.393.511 1.335.824
+
+Beoordelingsverklaring afgegeven 11, M
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+6 WINST- EN VERLIESREKENING OVER 2020
+
+2020 2019
+
+€ € € €
+Netto-omzet 1.905.434 1.657.100
+Inkoopwaarde van de omzet -1.094,246 -870.842
+Kosten uitbesteed werk en andere
+externe kosten -28.798 -4,183
+Brutomarge OO 782.390 782.075
+Personeelskosten 147.736 78.015
+Afschrijvingen en
+waardeverminderingen 58.457 60.426
+Overige bedrijfskosten
+Huisvestingskosten 91.042 75812
+Verkoopkosten 809 =
+Auto- en transportkosten 10.345 2.830
+Kantoorkosten 16.429 7.550
+Algemene kosten 32.058 37.730
+Som der kosten 356.876 262.363
+Bedrijfsresultaat 425.514 519.712
+Financiële baten en lasten -20.372 -21.004
+Resultaat 405.142 498.708
+
+Beoordelingsverklaring afgegeven 12 M
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+7 __GRONDSLAGEN VOOR FINANCIËLE VERSLAGGEVING
+
+ALGEMEEN
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld op basis van fiscale grondslagen. Dat betekent dat voor de waardering
+van bezittingen en schulden en voor het bepalen van het resultaat de uitgangspunten van de fiscale
+wetgeving, jurisprudentie en afspraken met de Belastingdienst worden gevolgd.
+
+De jaarrekening is opgesteld in EUR.
+
+GRONDSLAGEN VOOR WAARDERING ACTIVA
+
+Immateriële vaste activa
+
+De immateriële vaste activa worden gewaardeerd op het bedrag van de bestede kosten, verminderd
+met de cumulatieve afschrijvingen en indien van toepassing met bijzondere waardeverminderingen.
+De jaarlijkse afschrijvingen bedragen een vast percentage van de bestede kosten, zoals nader in de
+toelichting op de balans is gespecificeerd.
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de cumulatieve
+afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De afschrijvingen
+worden gebaseerd op de geschatte economische levensduur en worden berekend op basis van een
+vast percentage van de verkrijgingsprijs, rekening houdend met een eventuele restwaarde. Er wordt
+afgeschreven vanaf het moment van ingebruikneming. Op terreinen wordt niet afgeschreven.
+
+Voorraden
+
+Voorraden grond- en hulpstoffen en handelsgoederen worden gewaardeerd tegen kostprijs of lagere
+marktwaarde. Deze lagere marktwaarde wordt bepaald door individuele beoordeling van de
+voorraden.
+
+Vorderingen
+
+De vorderingen worden opgenomen tegen nominale waarde, onder aftrek van de noodzakelijk
+geachte voorzieningen voor het risico van oninbaarheid. Deze voorzieningen worden bepaald op basis
+van individuele beoordeling van de vorderingen.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan
+kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen
+nominale waarde.
+
+GRONDSLAGEN VOOR WAARDERING PASSIVA
+
+Langlopende schulden
+Rentedragende leningen en schulden worden gewaardeerd tegen de nominale waarde.
+
+GRONDSLAGEN VOOR BEPALING RESULTAAT
+
+Netto-omzet
+
+Onder netto-omzet wordt verstaan de opbrengsten van de in het verslagjaar geleverde goederen en
+verleende diensten onder aftrek van kortingen en de over de omzet geheven belastingen.
+Opbrengsten voortvloeiend uit de verkoop van goederen worden verantwoord op het moment dat alle
+belangrijke rechten op economische voordelen alsmede alle belangrijke risico’s zijn overgegaan op de
+koper. De kostprijs van deze goederen wordt aan dezelfde periode toegerekend. Opbrengsten van
+diensten worden opgenomen naar rato van de mate waarin de diensten zijn verricht, gebaseerd op de
+tot dat moment in het kader van de dienstverlening gemaakte kosten in verhouding tot de geschatte
+
+Beoordelingsverklaring afgegeven 13 M
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+kosten van de totaal te verrichten dienstverlening. De kostprijs van deze diensten wordt aan dezelfde
+periode toegerekend.
+
+Overige bedrijfskosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij
+betrekking hebben.
+
+Beoordelingsverklaring afgegeven 14
+
+8 TOELICHTING OP BALANS
+
+IMMATERIËLE VASTE ACTIVA
+
+Concessies, vergunningen en intellectuele eigendom
+
+Totaal
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+31 dec 2020 31 dec 2019
+€ €
+6.451 7,373
+6.451 7.373
+
+Onderstaand overzicht geeft het verloop van de immateriële vaste activa gedurende het boekjaar
+
+weer:
+
+Boekwaarde 1 januari 2020
+Verkrijgings- of vervaardigingsprijs
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Mutaties 2020
+Afschrijvingen
+
+Boekwaarde 31 december 2020
+Verkrijgings- of vervaardigingsprijs
+Cumulatieve afschrijvingen en waardeverminderingen
+
+MATERIËLE VASTE ACTIVA
+
+Bedrijfsgebouwen en -terreinen
+Machines en installaties
+Inventaris
+
+Vervoermiddelen
+
+Levende have
+
+Totaal
+
+31 dec 2020
+
+Concessies,
+
+vergunningen
+
+en
+intellectuele
+
+eigendom
+
+€
+
+121.521
+-114,148
+
+1,373
+
+-922
+
+922
+
+121.521
+-115.070
+
+6.451
+
+31 dec 2019
+
+€
+
+835.626
+15.350
+116.537
+15.263
+3.660
+
+€
+
+796.750
+126.799
+10.202
+3.660
+
+986.436
+
+937.411
+
+Onderstaand overzicht geeft het verloop van de materiële vaste activa gedurende het boekjaar weer:
+
+Beoordelingsverklaring afgegeven 15
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+Bedrijfs- Machines
+gebouwen en
+en -terreine installatie Inventari Vervoermiddele Levend
+
+n s s n e have Totaal
+
+€ € € € € €
+Boekwaarde 1
+januari 2020
+Verkrijgings- of
+vervaardigingsprijs 1,984,994 - 180.978 26.651 3.660 2.196.283
+Cumulatieve
+afschrijvingen en
+waardeverminderinge -1.258.87
+n -1.188.244 - -54.179 -16.449 - 2
+
+796.750 - 126.799 10.202 3.660 937.411
+
+Mutaties 2020
+Investeringen 75.281 15.350 7,779 8.150 - 106.560
+Afschrijvingen -36.405 = -18.041 -3.089 - -5B7.535
+
+38.876 15.350 -10.262 5.061 - 49.025
+Boekwaarde 31
+december 2020
+Verkrijgings- of
+vervaardigingsprijs 2.060.275 15.350 188.757 34.801 3.660 2.302.843
+Cumulatieve
+afschrijvingen en
+waardeverminderinge -1.316.40
+n -1.224.649 = -72.220 -19.538 = 7
+
+835.626 15.350 116.537 15.263 3.660 986.436
+VOORRADEN
+31 dec 2020 31 dec 2019
+€ €
+
+Gereed product en handelsgoederen
+Levende have 145.583 208.151
+Veevoer 13.123 10.499
+Houtpellets en houtsnippers 1.414 1.344
+Totaal 160.120 219.994
+Beoordelingsverklaring afgegeven 16
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+VORDERINGEN
+
+31 dec 2020 31 dec 2019
+
+€ €
+
+Vorderingen op handelsdebiteuren 74.530 1.625
+Belastingvorderingen
+Omzetbelasting 26.539 3.438
+Overlopende activa
+Nog te factureren omzet 84.539 80.776
+Totaal 185.608 85.839
+
+LIQUIDE MIDDELEN
+31 dec 2020 31 dec 2019
+
+€ €
+
+Banktegoeden
+ABN AMRO Bank, rekeningnummer 432.394.109 24.060 13.049
+ABN AMRO Bank, rekeningnummer 588.423.300 6.079 69.975
+ABN AMRO Bank, rekeningnummer 877,618.607 23.000
+Ondernemersrekening Inwonenden „394 369 936
+
+53.508 83.960
+Kas 1.388 1.247
+Totaal 54.896 85.207
+
+Beoordelingsverklaring afgegeven 17 M
+
+EIGEN VERMOGEN
+
+Kapitaal B. van der Vegt
+Kapitaal C. van der Vegt-ter Velde
+Kapitaal H. van der Vegt
+
+Totaal
+
+Kapitaal B. van der Vegt
+Stand 1 januari
+Arbeidsvergoeding
+
+Afschrijving varkensrechten
+Aandeel in overwinst
+
+Privéonttrekkingen
+
+Stand 31 december
+Kapitaal C. van der Vegt-ter Velde
+Stand 1 januari
+
+Arbeidsvergoeding
+Aandeel in overwinst
+
+Privéonttrekkingen
+
+Stand 31 december
+
+Kapitaal H. van der Vegt
+
+Stand 1 januari
+Arbeidsvergoeding
+Aandeel in overwinst
+
+Privéonttrekkingen
+
+Stand 31 december
+
+Beoordelingsverklaring afgegeven
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+31 dec 2020 31 dec 2019
+€ €
+193.746 148.770
+219.091 129.471
+227.363 129.471
+640.200 407.712
+
+2020 2019
+€ €
+148.770 71.533
+60.000 =
+-922 =
+82.022 165.623
+289.870 237.156
+-96.124 -88.386
+193.746 148.770
+2020 2019
+€ €
+129.471 -
+40.000
+82.021 166.543
+251.492 166.543
+-32.401 -37.072
+219.091 129.471
+2020 2019
+€ €
+129.471 :
+60.000 ä
+82.021 166.542
+271.492 166.542
+-44,129 -37.071
+227.363 129.471
+
+18
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+LANGLOPENDE SCHULDEN
+31 dec 2020 31 dec 2019
+
+€ €
+Andere obligaties en onderhandse leningen
+Lening o/g Gebr Fuite BV Veevoeders 138.000 161.000
+Leningen o/g CrowdFunding - 33.526
+138.000 194.526
+Schulden aan banken
+Lening o/g ABN AMRO Bank nr. 509 343.000 =
+Lening o/g ABN AMRO Bank nr. 687 35.928 62.874
+Lening o/g ABN AMRO Bank nr. 161 = 343.130
+Lening o/g ABN AMRO Bank nr. 196 = 90.000
+378.928 496.004
+Totaal 516.928 690.530
+
+Toelichting
+
+Aflossingsverplichtingen binnen 12 maanden na afloop van het boekjaar zijn niet begrepen in de
+hierboven genoemde bedragen, maar opgenomen onder de kortlopende schulden.
+
+KORTLOPENDE SCHULDEN
+31 dec 2020 31 dec 2019
+
+€ €
+
+Schulden aan banken
+Aflossingsverplichtingen langlopende leningen 83.472 67.448
+Schulden aan leveranciers en handelskredieten 97.779 98.048
+Belastingen en premies sociale verzekeringen
+Loonheffingen 5.613 4.187
+Schulden ter zake van pensioenen 1,313 =
+Overige schulden
+Beheer Ondernemers rek 394 t.b.v. inwonenden 368 936
+Overlopende passiva
+Reservering vakantiegeld 4,331 1.488
+Nettoloon = 3.414
+Overige schulden 39.007 49.061
+Accountantskosten 4.500 13.000
+
+47.838 66.963
+Totaal 236.383 237.582
+
+Beoordelingsverklaring afgegeven 19 M
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+9 TOELICHTING OP WINST- EN VERLIESREKENING
+
+OMZET EN BRUTOMARGE
+
+Netto-omzet
+
+Zorg
+Varkenshouderij
+Overige opbrengsten
+
+Som der bedrijfsopbrengsten
+
+Inkoopwaarde van de omzet
+Zorg
+
+Varkenshouderij
+
+Overig
+
+Kosten uitbesteed werk en andere externe kosten
+
+Brutomarge (brutobedrijfsresultaat)
+
+PERSONEELSKOSTEN
+
+Lonen en salarissen
+
+Brutoloon inclusief zorgbonus
+
+Reservering vakantiegeld
+
+Af: ontvangen uitkeringen t.b.v. zorgbonus
+
+Sociale lasten
+Pensioenlasten
+
+Andere personeelskosten
+
+Ziekengeld en arbeidsongeschiktheidsverzekering
+Opleidingskosten
+
+Uitzendkrachten
+
+Reiskostenvergoedingen
+
+Kantinekosten
+
+Werkkleding
+
+Overige personeelskosten
+
+Totaal
+
+Beoordelingsverklaring afgegeven
+
+2020 2019
+€ €
+
+991.975 888.446
+908.561 754.678
+4.898 13.976
+1.905.434 1.657.100
+1.905.434 1.657.100
+310.451 336.509
+780.208 534.333
+3.587 s
+1.094.246 870.842
+28.798 4,183
+782.390 782,075
+
+2020 2019
+
+€ €
+
+101.338 46.149
+6,691 e
+-14.150 4
+93.879 46.149
+16.019 7.915
+9.648 a
+7.103 929
+4,492 11.160
+3.704 3.673
+3.610 in
+2.164 e
+772
+6.345 8.189
+28.190 23.951
+147.736 78.015
+
+20
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+AFSCHRIJVINGEN EN WAARDEVERMINDERINGEN
+
+2020 2019
+
+€ €
+Afschrijving op immateriële vaste activa
+Concessies, vergunningen en intellectuele eigendommen 922 922
+Afschrijving op materiële vaste activa
+Bedrijfsgebouwen- en terreinen 36.405 39.574
+Inventaris 18.041 18.519
+Vervoermiddelen 3.089 1.411
+
+57.535 59.504
+Totaal 58.457 60.426
+OVERIGE BEDRIJFSKOSTEN
+
+2020 2019
+€ €
+
+Huisvestingskosten
+Onderhoud onroerend goed 31.808 15.680
+Gas, water en elektra 27.811 26.677
+Inrichtingskosten 16.062 26.618
+Schoonmaakkosten 10.558 3.390
+Zakelijke lasten 3.504 3.447
+Overige huisvestingskosten 1.299 =
+
+91.042 75.812
+Verkoopkosten
+Representatiekosten 177 -
+Reis- en verblijfkosten 41 -
+Huisstijl en drukwerk 43 =
+Overige verkoopkosten 548 -
+
+809 =
+
+Auto- en transportkosten
+Brandstoffen 6.302 955
+Reparatie en onderhoud 3.308 -
+Verzekeringen 3.289 5
+Motorrijtuigenbelastinge 3.142 ze
+BTW privégebruik auto's 1.141 =
+Overige autokosten 710 12.074
+Af: privégebruik auto -7.547 -10.199
+
+10.345 2.830
+
+Beoordelingsverklaring afgegeven
+
+21
+
+Kantoorkosten
+Kantoorbenodigdheden
+
+Porti
+
+Telefoonkosten
+Automatiseringskosten
+Contributies en abonnementen
+
+Algemene kosten
+Accountantskosten
+Administratiekosten
+Advieskosten
+Makelaarskosten
+Juridische kosten
+Verzekeringen
+
+Overige algemene kosten
+
+Totaal
+
+FINANCIËLE BATEN EN LASTEN
+
+Rentebaten andere partijen
+Overige vorderingen
+
+Rentelasten banken
+
+Rente leningen o/g ABN AMRO Bank
+Rente- en bankkosten
+Financieringskosten
+
+Rentelasten andere partijen
+Lening o/g Gebr. Fuite BV Veevoeders
+Leningen o/g Crowdfunding
+Belastingdienst
+
+Overige renten
+
+Financiële baten en lasten (saldo)
+
+Beoordelingsverklaring afgegeven
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+2020 2019
+
+€ €
+1.201 -
+36 -
+2.133 2.371
+10.747 5.179
+2.312 -
+16.429 7.550
+9,943 15.113
+1.187 -
+529 1.606
+1.000 -
+“ 150
+18.921 13.460
+478 7.401
+32.058 37.730
+150.683 123.922
+
+2020 2019
+
+€ €
+- 2.085
+„11.661 =
+„1:913 =1:158
+= -1.459
+-13.574 -2.617
+-3.896 =
+-1.302 =
+= -18
+-1.600 -20.454
+-6.798 -20.472
+=20:372 -21.004
+
+22
+
+Zorgboerderij De Ruimte v.o.f., te Dalfsen
+
+10 OVERIGE TOELICHTINGEN
+
+WERKNEMERS
+Het gemiddelde aantal werknemers gedurende het boekjaar bij Zorgboerderij De Ruimte bedroeg:
+Gemiddeld aantal werknemers over periode 2020
+
+fte
+Werkzaam binnen Nederland 3,3
+ONDERTEKENING
+
+Dradh en, 29 september 2021
+
+e
+
+H. van der Vegt G; der Vegt-ter Velde
+
+Beoordelingsverklaring afgegeven 23 M

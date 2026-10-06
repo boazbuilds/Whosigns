@@ -1,0 +1,21 @@
+# whosigns-ocr v1 grootte=102514 dpi=300 paginas=20
+Wallerbosch Van Wees Administraties
+
+1 JAARREKENING
+
+A Balans per 31-12
+2023 2022
+PASSIVA € €
+Eigen vermogen
+Aandelenkapitaal 100 100
+Winstreserve 358.043 269.003
+358.143 269.103
+Voorzieningen 104.441 100.424
+Langlopende schulden
+Leasemaatschappij 0 3.244
+Kortlopende schulden
+Crediteuren 6.512 8.550
+Belastingen en sociale lasten 44.667 45.117
+Overlopende passiva 28.951 35.531
+80.130 89.198
+542.714 461.969

@@ -1,0 +1,1148 @@
+# whosigns-ocr v1 grootte=7568932 dpi=300 paginas=20
+KASSTROOMOVERZICHT OVER 2019
+
+Kasstroom uit operationele activiteiten
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+- afschrijvingen en overige waardeverminderingen
+
+- vorderingen
+
+- kortlopende schulden (excl. schulden aan banken)
+- mutaties voorzieningen
+
+Kasstroom uit bedrijfsoperaties
+
+Betaalde interest
+Betaald vennootschapsbelasting
+Totaal kasstroom uit operationele activiteiten
+
+Kasstroom uit Investeringen materiële vaste activa
+Investeringen materiële vaste activa
+
+Kasstroom uit financieringsactiviteiten
+Nieuw opgenomen leningen
+
+Aflossing langlopende schulden
+
+Kortlopend bankkrediet
+
+Totaal kasstroom uit financieringsactiviteiten
+
+Mutatie geldmiddelen
+Stand geldmiddelen per 1 januari
+
+Stand geldmiddelen per 31 december
+Mutatie geldmiddelen
+
+2019 2018
+€ €
+90.601 94.711
+53.837 44.592
+151.517 -87.759
+-268.286 -23.755
+0
+
+27.670 27.790
+-41.254 -61.412
+-5.698 -1.880
+-19.282 -35.503
+-192.643 -11.661
+398.586 117.426
+-118.469 -20.004
+-25.778 -50.515
+254.339 46.906
+42.413 -257
+1.319 1.576
+43.732 1.319
+42.413 -257
+
+
+GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Algemene gegevens en groepsverhoudingen
+
+Zorginstelling PerspektieV B.V. statutair (en feitelijk) gevestigd te Kampen, op het adres Meeuwenplein 6,
+en is geregistreerd onder KvK-nummer 563 15 988
+
+De belangrijkste activiteiten zijn het leveren van zorg aan jongeren tussen de 14 en 24 jaar in diverse
+vormen.
+
+Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2019, dat is geëindigd op balansdatum 31 december
+2019.
+
+Grondslagen voor het opstellen van de jaarrekening
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling verslaggeving WTZi (RvW), Titel 9
+Boek 2 BW, Richtlijnen voor de Jaarverslaggeving hoofdstuk 655 en de bepalingen van en krachtens de
+Wet Normering Topinkomens (WNT)
+
+De grondslagen die worden toegepast voor de waardering van activa en passiva en het resultaat zijn
+gebaseerd op historische kosten, tenzij anders vermeld in de verdere grondslagen.
+
+Voor een correcte weergave van de vergelijkende cijfers heeft er een herrubricering plaatsgevonden.
+GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Gebruik van schattingen
+
+De opstelling van de jaarrekening vereist dat het management oordelen vormt en schattingen en
+veronderstellingen maakt die van invloed zijn op de toepassing van grondslagen en de gerapporteerde
+waarde van activa en verplichtingen, en van baten en lasten. De daadwerkelijke uitkomsten kunnen
+afwijken van deze schattingen. De schattingen en onderliggende veronderstellingen worden voortdurend
+beoordeeld. Herzieningen van schattingen worden opgenomen in de periode waarin de schatting wordt
+herzien en in toekomstige perioden waarvoor de herziening gevolgen heeft.
+
+GROEPSVEHOUDINGEN:
+
+PerspektieV B.V. staat aan het hoofd van een groep met de volgende rechtspersonen:
+- P@W B.V. te IJsselmuiden, aandeel in het geplaatst kapitaal is 100%
+
+Consolidatievrijstelling
+
+PerspektieV B.V. behoort tot een groep. Aangezien de groep geconsolideerd ook als klein rechtspersoon
+valt aan te merken is consolidatie achterwege gelaten op grond van het bepaalde in artikel 2:407 lid 2 sub
+a BW
+
+Verbonden rechtspersonen
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+GRONDSLAGEN VAN WAARDERING VAN ACTIVA EN PASSIVA
+
+Activa en passiva worden tegen verkrijgingsprijs of vervaardigingsprijs opgenomen, tenzij anders vermeld
+in de verdere grondslagen. Toelichtingen op posten in de balans, resultatenrekening en
+kasstroomoverzicht zijn in de jaarrekening genummerd.
+
+Een actief wordt in de balans verwerkt wanneer het waarschijnlijk is dat de toekomstige economische
+voordelen naar de onderneming zullen toevloeien en het actief een kostprijs of een waarde heeft waarvan
+de omvang betrouwbaar kan worden vastgesteld. Activa die hier niet aan voldoen worden niet in de
+balans verwerkt, maar worden aangemerkt als niet in de balans opgenomen activa.
+
+Een verplichting wordt in de balans verwerkt wanneer het waarschijnlijk is dat de afwikkeling daarvan
+gepaard zal gaan met een uitstroom van middelen die economische voordelen in zich bergen en de
+omvang van het bedrag waartegen de afwikkeling zal plaatsvinden op betrouwbare wijze kan worden
+vastgesteld. Onder verplichtingen worden mede voorzieningen begrepen. Verplichtingen die hier niet aan
+voldoen worden niet in de balans opgenomen, maar worden verantwoord als niet in de balans opgenomen
+verplichtingen.
+
+Een in de balans opgenomen actief of verplichting blijft op de balans opgenomen als een transactie niet
+leidt tot een belangrijke verandering in de economische realiteit met betrekking tot het actief of de
+verplichting. Dergelijke transacties geven evenmin aanleiding tot het verantwoorden van resultaten. Bij de
+beoordeling of er sprake is van een belangrijke verandering in de economische realiteit wordt uitgegaan
+van de economische voordelen en risico's die zich naar waarschijnlijk in de praktijk zullen voordoen, en
+niet op voordelen en risico's waarvan redelijkerwijze niet te verwachten is dat zij zich voordoen.
+
+Een actief of verplichting wordt niet langer in de balans opgenomen indien een transactie ertoe leidt dat
+alle of nagenoeg alle rechten op economische voordelen en alle of nagenoeg alle risico's met betrekking
+tot het actief of de verplichting aan een derde zijn overgedragen. De resultaten van de transactie worden
+in dat geval direct in de winst-en-verliesrekening opgenomen, rekening houdend met eventuele
+voorzieningen die dienen te worden getroffen in samenhang met de transactie. Indien de weergave van
+de economische realiteit ertoe leidt dat het opnemen van activa waarvan de rechtspersoon niet het
+juridisch eigendom bezit, wordt dit feit vermeld.
+
+De jaarrekening wordt gepresenteerd in euro's, wat ook de functionele valuta is van zorginstelling
+Perspektiev BV.
+
+Immateriële en materiële vaste activa
+
+De immateriële en materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs
+onder aftrek van cumulatieve afschrijvingen en cumulatieve bijzondere waardeverminderingen.
+
+De afschrijvingstermijnen van immateriële en materiële vaste activa zijn gebaseerd op de verwachte
+economische levensduur van het vast actief.
+
+Materiële vaste activa met een beperkte gebruiksduur worden afzonderlijk afschreven. In het geval dat
+belangrijkste bestanddelen van een materieel vast actief van elkaar te onderscheiden zijn en verschillen
+
+in gebruiksduur of verwacht gebruikspatroon, worden deze bestandsdelen afzonderlijk afgeschreven.
+In het geval dat de betaling van de kostprijs van een materieel vast actie plaatsvindt op grond van een
+
+langere dan normale betalingstermijn, wordt de kostprijs van het actief gebaseerd op de contante waarde
+van de verplichting.
+
+In het geval dat materiële vaste activa worden verworven in ruil voor een niet-monetair actief, wordt de
+kostprijs van het materieel vast actief bepaald op basis van de reële waarde voor zover de ruiltransactie
+leidt tot een wijziging in de economische omstandigheden en de reële waarde van het verworven actief of
+van het opgegeven actief op betrouwbare wijze kan worden vastgesteld.
+
+De afschrijvingen worden berekend als een percentage over de verkrijgings- of vervaardigingsprijs
+volgens de lineaire methode op basis van de verwachte economische levensduur. Er wordt afgeschreven
+vanaf het moment van ingebruikneming. Op bedrijfsterreinen en op vaste activa in ontwikkeling en
+vooruitbetalingen op materiële vaste activa wordt niet afgeschreven.
+
+De volgende afschrijvingspercentages worden hierbij gehanteerd:
+* Machines en installaties : 20 %.
+* Andere vaste bedrijfsmiddelen : 20 %.
+
+Financiële vaste activa
+
+Deelnemingen in groepsmaatschappijen en overige deelnemingen waarin invloed van betekenis kan
+worden uitgeoefend, worden gewaardeerd volgens de nettovermogenswaardemethode. Invloed van
+betekenis wordt in ieder geval verondersteld aanwezig te zijn bij het kunnen uitbrengen van 20% of meer
+van de stemrechten. De nettovermogenswaarde wordt berekend volgens de grondslagen die gelden voor
+deze jaarrekening; voor deelnemingen waarvan onvoldoende gegevens beschikbaar zijn voor aanpassing
+aan deze grondslagen, wordt uitgegaan van de waarderingsgrondslagen van de desbetreffende
+deelneming. Indien de waardering van een deelneming volgens de nettovermogenswaarde negatief is,
+waarbij ook leningen aan deze deelneming worden betrokken (netto-investering), wordt deze op nihil
+gewaardeerd. Deelnemingen waarop geen invloed van betekenis kan worden uitgeoefend, worden
+gewaardeerd tegen verkrijgingsprijs. Indien sprake is van een duurzame waardevermindering vindt
+waardering plaats tegen deze lagere waarde; afwaardering vindt plaats ten laste van de
+resultatenrekening.
+
+Vaste activa - bijzondere waardeverminderingen
+
+Vaste activa met een lange levensduur worden beoordeeld op bijzondere waardeverminderingen wanneer
+wijzigingen of omstandigheden zich voordoen die doen vermoeden dat de boekwaarde van een actief niet
+terugverdiend zal worden. Als dergelijke indicaties aanwezig zijn, wordt de realiseerbare waarde van het
+actief geschat. De realiseerbare waarde is de hoogste van de bedrijfswaarde en de opbrengstwaarde. De
+terugverdienmogelijkheid van activa die in gebruik zijn, wordt bepaald door de boekwaarde van een actief
+te vergelijken met de opbrengstwaarde of de bedrijfswaarde zijnde de geschatte contante waarde van de
+toekomstige netto kasstromen die het actief naar verwachting zal genereren.
+
+Wanneer de boekwaarde van een actief hoger is dan de geschatte contante waarde van de toekomstige
+kasstromen, worden bijzondere waardeverminderingen verantwoord voor het verschil tussen de
+boekwaarde en de realiseerbare waarde.
+
+De opbrengstwaarde is gebaseerd op de geschatte verkoopprijs minus de geschatte kosten welke nodig
+zijn om de verkoop te realiseren.
+
+GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Zorginstelling Perspektiev BV heeft geen zorgvastgoed in haar bezit.
+
+Voor verkoop beschikbare activa worden gewaardeerd tegen boekwaarde of lagere opbrengstwaarde.
+
+Indien financiële instrumenten worden gewaardeerd tegen geamortiseerde kostprijs, worden de effectieve
+rente en eventuele bijzondere waardeverminderingsverliezen direct in de winst-en-verliesrekening
+verwerkt.
+
+ed
+
+Verstrekte leningen en overige vorderingen
+
+Verstrekte leningen en overige vorderingen worden gewaardeerd tegen geamortiseerde kostprijs op basis
+van de effectieverentemethode, verminderd met bijzondere waardeverminderingsverliezen.
+Langlopende en kortlopende schulden en overige financiële verplichtingen
+
+Langlopende en kortlopende schulden en overige financiële verplichtingen worden na eerste opname
+gewaardeerd tegen geamortiseerde kostprijs op basis van de effectieverentemethode.
+
+De aflossingsverplichtingen voor het komend jaar van de langlopende schulden worden opgenomen
+onder kortlopende schulden.
+
+Onderhanden trajecten WMO/jeugdzorg
+
+Onderhanden trajecten WMO/jeugdzorg worden gewaardeerd tegen de opbrengstwaarde van de
+trajecten. Op de onderhanden trajecten worden de voorschotten die ontvangen zijn in mindering gebracht.
+
+Vorderingen
+De eerste waardering van vorderingen is tegen reële waarde, inclusief transactiekosten. Een voorziening
+wordt getroffen op de vorderingen op grond van verwachte oninbaarheid.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en direct opeisbare deposito's met een looptijd korter
+dan twaalf maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan
+kredietinstellingen onder kortlopende schulden. Liquide middelen worden gewaardeerd tegen de nominale
+waarde.
+
+Liquide middelen die naar verwachting langer dan 12 maanden niet ter beschikking staan van de
+onderneming, worden gerubriceerd als financiële vaste activa.
+
+Schulden
+
+Onder de langlopende schulden worden schulden opgenomen met een resterende looptijd van meer dan
+één jaar. De kortlopende schulden hebben een verwachte looptijd van maximaal één jaar. De schulden
+worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens gewaardeerd tegen de
+geamortiseerde kostprijs. De aflossingsverplichtingen voor het komend jaar van de langlopende schulden
+worden opgenomen onder kortlopende schulden.
+
+Grondslagen van resultaatbepaling
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de baten en de lasten over het verslagjaar, met
+inachtneming van de hiervoor reeds vermelde waarderingsgrondslagen.
+
+Baten worden in de winst- en verliesrekening opgenomen wanneer een vermeerdering van het
+economisch potentieel, samenhangend met een vermeerdering van een actief of een vermindering van
+een verlichting, heeft plaatsgevonden, waarvan de omvang betrouwbaar kan worden vastgesteld. Lasten
+worden verwerkt wanneer een vermindering van het economisch potentieel, samenhangend met een
+vermindering van een actief of een vermeerdering van een verplichting, heeft plaatsgevonden, waarvan
+de omvang betrouwbaar kan worden vastgesteld.
+
+Baten worden verantwoord in het jaar waarin de baten zijn gerealiseerd. Lasten worden in aanmerking
+genomen in het jaar waarin deze voorzienbaar zijn. De overige baten en lasten worden toegerekend aan
+de verslagperiode waarop deze betrekking hebben.
+
+Baten (waaronder nagekomen budgetaanpassingen) en lasten uit voorgaande jaren die in dit boekjaar zijn
+geconstateerd, worden aan dit boekjaar toegerekend. In het geval van een geconstateerde fout in
+voorgaande boekjaren wordt foutherstel toegepast.
+
+Opbrengsten
+
+Opbrengsten uit het verlenen van diensten worden in de winst-en-verliesrekening verwerkt wanneer het
+bedrag van de opbrengsten op betrouwbare wijze kan worden bepaald, de inning van de te ontvangen
+vergoeding waarschijnlijk is, de mate waarin de dienstverlening op balansdatum is verricht betrouwbaar
+kan worden bepaald en de reeds gemaakte kosten en de kosten die (mogelijk) nog moeten worden
+gemaakt om de dienstverlening te voltooien op betrouwbare wijze kunnen worden bepaald.
+
+Indien het resultaat van een bepaalde opdracht tot dienstverlening niet op betrouwbare wijze kan worden
+bepaald, worden de opbrengsten verwerkt tot het bedrag van de kosten van de dienstverlening die
+worden gedekt door de opbrengsten.
+
+De met de opbrengsten samenhangende lasten worden toegerekend aan de periode waarin de baten zijn
+verantwoord.
+
+Personele kosten
+
+Lonen, salarissen en sociale lasten worden op grond van de arbeidsvoorwaarden verwerkt in de
+resultatenrekening voorzover ze verschuldigd zijn aan werknemers respectievelijk de belastingautoriteit.
+
+De beloningen van het personeel worden als last in de winst-en-verliesrekening verantwoord in de periode
+waarin de arbeidsprestatie wordt verricht en, voor zover nog niet uitbetaald, als verplichting op de balans
+opgenomen. Als de reeds betaalde bedragen de verschuldigde beloningen overtreffen, wordt het
+meerdere opgenomen als een overlopend actief voor zover er sprake zal zijn van terugbetaling door het
+personeel of van verrekening met toekomstige betalingen door de instelling.
+
+Pensioenen
+
+PerspektieV B.V. heeft voor haar werknemers een toegezegde pensioenregeling. Hiervoor in aanmerking
+komende werknemers hebben op de pensioengerechtigde leeftijd recht op een pensioen dat is gebaseerd
+op het gemiddeld verdiende loon berekend over de jaren dat de werknemer pensioen heeft opgebouwd bij
+PerspektieV B.V. De verplichtingen, die voortvloeien uit deze rechten van haar personeel, zijn
+ondergebracht bij het bedrijfstakpensioenfonds Zorg en Welzijn. PerspektieV B.V. betaalt hiervoor
+premies waarvan de helft door de werkgever wordt betaald en de helft door de werknemer. De
+pensioenrechten worden jaarlijks geïndexeerd, indien en voor zover de dekkingsgraad van het
+pensioenfonds (het vermogen van het pensioenfonds gedeeld door haar financiële verplichtingen) dit
+toelaat. Per 1 januari 2015 gelden nieuwe regels voor pensioenfondsen. Daarbij behoort ook een nieuwe
+berekening van de dekkings-graad. De ‘nieuwe’ dekkingsgraad is het gemiddelde van de laatste twaalf
+dekkingsgraden. Door een gemiddelde te gebruiken, zal de dekkingsgraad nu minder sterk schommelen.
+In februari 2020 bedroeg de dekkingsgraad 90.4%. Het vereiste niveau van de dekkingsgraad is 104,3%.
+Het pensioenfonds verwacht volgens het herstelplan binnen 5 jaar hieraan te kunnen voldoen en voorziet
+geen noodzaak voor de aangesloten instellingen om extra stortingen te verrichten of om bijzondere
+premieverhogingen door te voeren. PerspektieV B.V. heeft geen verplichting tot het voldoen van
+aanvullende bijdragen in geval van een tekort bij het pensioenfonds, anders dan het effect van hogere
+toekomstige premies. PerspektieV B.V. heeft daarom alleen de verschuldigde premies tot en met het
+einde van het boekjaar in de jaarrekening verantwoord.
+
+Financiële baten en lasten
+
+De financiële baten en lasten betreffen van derden en groepsmaatschappijen ontvangen (te ontvangen)
+en aan derden en groepsmaatschappijen betaalde (te betalen) interest. Tevens is hieronder opgenomen
+het aandeel van de stichting in het resultaat van de op nettovermogenswaarde gewaardeerde
+deelnemingen danwel ontvangen dividenden van deelnemingen waarin geen invloed van betekenis op het
+zakelijke en financiële beleid wordt uitgeoefend en waardeveranderingen van financiële vaste activa en
+effecten.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de
+resultatenrekening, rekening houdend met beschikbare fiscaal compensabele verliezen uit het
+voorgaande boekjaren en vrijgestelde bestanddelen en na bijtelling van niet-aftekbare kosten. Tevens
+wordt rekening gehouden met wijzigingen die optreden in de latente belastingvorderingen en latente
+belastingschulden uit hoofde van wijzigingen in het te hanteren tarief.
+
+Aandeel in het resultaat van ondernemingen waarin wordt deelgenomen
+
+Hieronder is opgenomen het aandeel van PerspektieV B.V. in het resultaat van de op
+nettovermogenswaarde gewaardeerde deelneming.
+
+Overheidssubsidies
+
+Overheidssubsidies worden aanvankelijk in de balans opgenomen als vooruitontvangen baten zodra er
+redelijke zekerheid bestaat dat zij zullen worden ontvangen en dat de groep zal voldoen aan de daaraan
+verbonden voorwaarden. Subsidies ter compensatie van door de groep gemaakte kosten worden
+systematisch als opbrengsten in de winst-en-verliesrekening opgenomen in dezelfde periode als die
+waarin de kosten worden gemaakt.
+
+Uitgangspunten Sociaal Domein
+
+bij net bepalen van ade vvmo-omzet en or Jeugawet-omzet neert Perspektuev b.v. de de gronaslagen voor
+waardering en resultaatbepaling gevolgd zoals hiervoor opgenomen. Met ingang van 2015 is als gevolg
+van de transitie een deel van de toenmalige AWBZ en ZVW zorg overgeheveld van de zorgkantoren
+respectievelijk de zorgverzekeraars naar de gemeenten (‘decentralisatie’).
+
+Als gevolg van deze decentralisatie is er vanaf 2015 sprake van een bepaalde mate van
+omzetonzekerheden. Overeenkomstig de landelijke en gemeentelijke uitingen van de overheid heeft
+hierbij continuïteit van zorgverlening voorop gestaan. Dit heeft gevolgen die leiden tot inherente
+onzekerheden en schattingsrisico's in deze omzet van instellingen, die naar beste weten zijn geschat door
+de directie (tijdige aanwezigheid van een geldige beschikking, woonplaatsbeginsel, feitelijke zorglevering),
+retourberichten Wmo, overeengekomen social return en specifieke bevindingen uit controle van de
+verantwoordingen.
+
+Daarnaast is er gestreefd naar een finale afrekening resp. landelijke verantwoording van de zorg aan alle
+gemeenten waar de stichting een contracteringsrelatie mee heeft op basis van het landelijke ISD-
+protocol. Niet alle gemeenten hebben hiermee ingestemd. Dit kan ertoe leiden dat de verantwoorde omzet
+ter discussie kan worden gesteld.
+
+De wijze waarop de individuele gemeenten overgaan tot afwikkeling en vaststelling is op dit moment nog
+niet bekend, echter de directie heeft deze mogelijke effecten naar beste weten geschat en verwerkt in
+deze jaarrekening waar mogelijk en wijst op het resterende inherente risico terzake dat kan leiden tot
+nagekomen financiële effecten in 2020 of later.
+
+Grondslagen voor de opstelling van het kasstroomoverzicht
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode. De geldmiddelen in het
+kasstroomoverzicht bestaan uit de liquide middelen en beleggingen die zonder beperkingen en zonder
+materieel risico van waardeverminderingen als gevolg van de transactie kunnen worden omgezet in
+geldmiddelen.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn
+opgenomen onder de kasstroom uit operationele activiteiten. Betaalde dividenden zijn opgenomen onder
+de kasstroom uit financieringsactiviteiten.
+
+De verkrijgingsprijs van de verworven groepsmaatschappij is opgenomen onder de kasstroom uit
+investeringsactiviteiten, voor zover betaling in geld heeft plaatsgevonden. De in de verworven
+groepsmaatschappij aanwezige geldmiddelen zijn van de aankoopprijs in aftrek gebracht.
+
+Grondslagen voor gebeurtenissen na balansdatum
+
+Gebeurtenissen die nadere informatie geven over de feitelijke situatie per balansdatum en die blijken tot
+aan de datum van het opmaken van de jaarrekening worden verwerkt in de jaarrekening.
+Gebeurtenissen die geen nadere informatie geven over de feitelijke situatie per balansdatum worden niet
+in de jaarrekening verwerkt. Als dergelijke gebeurtenissen van belang zijn voor de oordeelsvorming van
+de gebruikers van de jaarrekening, worden de aard en de geschatte financiële gevolgen ervan toegelicht
+in de jaarrekening.
+
+Waarderingsgrondslagen WNT
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft de instelling zich gehouden aan de
+wet- en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Perspektiev BV
+
+Kampen
+
+31-dec-19 31-dec-18
+TOELICHTING OP DE BALANS € €
+ACTIVA
+1. Materiële vaste activa -
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven:
+Boekwaarde per 1 januari 46.625 79.556
+Bij: investeringen 192.643 11.661
+Af: bijzondere waardeverminderingen 0 -24.377
+Af: afschrijvingen 53.837 20.215
+Boekwaarde per 31 december 185.431 46.625
+
+Bijzondere waardeverminderingen:
+
+Bij de overname van de locatie Wapenveld in 2017 is een bedrag betaaald voor inventaris.
+
+Bij de fysieke overdracht is gebleken dat inventaris niet voldeed aan de standaard van PerspektieV en
+
+dat overige bedrijfsmiddelen niet aanwezig waren en/of onbruikbaar.
+
+Het gehanteerde afschrijvingspercentage bedraagt 20% 20%
+Voor het verloopoverzicht zie Bijlage 2
+31-dec-19 31-dec-18
+2. Financiële vaste activa € €
+Deelnemingen in P@W B.V. 4.865 3.694
+Voor het verloopoverzicht zie Bijlage 3
+3. Debiteuren en overige vorderingen 31-dec-19 31-dec-18
+€ €
+Vorderingen op debiteuren 671.292 789.538
+Voorziening dubieuze debiteuren -51.833 -41.828
+Rekening courant directie 3.000 3.000
+Vooruitbetaalde bedragen: 2.600 2.463
+Waarborgsommen 118.377 129.722
+Vooruitbetaalde huurkosten 57.032 79.315
+Leefgeld cliënten 1.753 1.594
+Overige overlopende activa 12.209 2.144
+Totaal debiteuren en overige vorderingen 814.431 965.948
+4. Liquide middelen 31-dec-19 31-dec-18
+€ €
+Bankrekeningen 42.745 0
+Kassen 987 1.319
+Liquide middelen 43.732 1.319
+
+
+Perspektiev BV
+
+Kampen
+
+5. Eigen Vermogen 31-dec-19 31-dec-18
+€ €
+
+Kapitaal 1.500 1.500
+
+Algemene reserves 142.219 92.422
+
+Totaal Eigen Vermogen 143.719 93.922
+
+Het geplaatst kapitaal van de vennootschap bedraagt €1.500, verdeeld in 1.500 gewone
+aandelen van nominaal €1.
+
+6. Langlopende schulden (nog voor meer dan een jaar)
+Schulden aan banken
+
+Stand per 1 januari 74.995 94.999
+Bij: nieuwe leningen 398.586 0
+Af: aflossingen 138.473 20.004
+Stand per 31 december 335.108 74.995
+Af: aflossingsverplichting komend boekjaar 162.754 20.004
+Stand langlopende schulden per 31 december 172.354 54.991
+
+Voor het verloopoverzicht van de langlopende schulden zie Bijlage 4
+
+7. Overige kortlopende schulden
+
+Schulden aan kredietinstellingen 0 143.204
+Aflossingsverplichtingen komend boekjaar langlopende leningen 162.754 20.004
+Crediteuren 28.876 88.578
+Rekening Courant V.O.F. PerspektieV 2.370 54.687
+Rekening Courant P@W B.V. 16.836 25.112
+Rekening Courant A. Spijker -1.248 500
+Belastingen en premies sociale verzekeringen 234.537 270.936
+Vennootschapsbelasting 18.116 23.363
+Schulden terzake pensioenen 63.735 16.277
+Afdracht St.PAWW 1.297 4.832
+Reservering vakantiegeld 132.794 128.633
+Accountantskosten 25.330 22.932
+Dubbel ontvangen bedragen 28.016 27.516
+Nog te betalen salarissen 0 -1.043
+Vooruitontvangen opbrengsten: 3.962 3.049
+Reservering EindeJaarsUitkering 0 0
+Rente en boete belastingdienst 0 29.994
+Te betalen clientgebonden kosten 10.989 10.100
+Overige nog te betalen kosten 4.023 0
+Totaal overige kortlopende schulden 732.386 868.672
+
+Over de rekening-courant verhoudingen met V.O.F. Perspektiev en P@W B.V.
+is een rente berekend van 4% over het gemiddeld openstaand saldo
+
+Toelichting:
+De kredietfaciliteit in rekening-courant bij Rabobank bedraagt per 31 december 2019 135.000 EUR (2018:
+135.000 EUR)
+
+Niet in de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+Huurverplichtingen
+Het jaarlijks bedrag van met derden aangegane huurverplichtingen van onroerende zaken bedraagt voor
+het komende jaar € 873.000.
+
+Onzekerheden opbrengstverantwoording
+
+Als gevolg van materiële nacontroles door zorgkantoren, zorgverzekeraars en gemeenten op de
+gedeclareerde zorgprestaties kunnen correcties noodzakelijk zijn op de gedeclareerde productie. De
+effecten van eventuele materiële nacontroles zijn vooralsnog onzeker en daarom zijn er hiervoor geen
+verplichtingen opgenomen in de balans.
+
+Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar
+deelnemingen en hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+De bezoldiging van de bestuurders en toezichthouders die in het kader van de WNT verantwoord worden,
+is opgenomen onder bijlage 4
+
+Het Coronavirus heeft sinds maart 2020 heel Nederland in haar greep en daarmee ook invloed op
+PerspektieV B.V.
+
+De directie heeft passende maatregelen getroffen, waaronder het doorvoeren van kostenbesparingen
+daar waar mogelijk.
+
+ak
+
+Ervan uitgaande dat de economie in de loop van 2020 weer verder op gang komt is het verwachte
+resultaat en het eigen vermogen zodanig dat de onderneming duurzaam voortgezet kan worden.
+
+TOELICHTING OP DE RESULTATENREKENING
+
+8. Opbrengsten zorgprestaties
+
+Opbrengsten Jeugdwet
+Opbrengsten Wmo
+Totaal
+
+9. Overige bedrijfsopbrengsten
+Betreft woonbijdrage cliënten
+
+10. Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenpremies
+
+Andere personeelskosten:
+Subtotaal
+
+Personeel niet in loondienst
+Totaal personeelskosten
+
+Gemiddeld aantal personeelsleden op basis van full-time eenheden
+
+11. Afschrijvingen op immateriële en materiële vaste activa
+
+- immateriële vaste activa
+- materiële vaste activa
+Totaal afschrijvingen
+
+12. Bijzondere waardeverminderingen van vaste activa
+
+- materiële vaste activa
+- immateriële vaste activa
+
+13. Overige bedrijfskosten
+
+Huisvestingskosten
+
+Exploitatie en machinekosten
+Verkoopkosten
+
+Autokosten
+
+Kantoorkosten
+
+Algemene kosten
+
+Cliënt gebonden kosten
+
+Totaal overige bedrijfskosten
+
+14. Financiële baten en lasten
+
+Rente leningen, rente belastingen en overige rentelasten
+
+15. belastingen
+
+Vennootschapbelasting
+
+2019 2018
+€ €
+4.585.586 3.642.051
+1.826.961 2.470.810
+6.412.547 6.112.861
+115.753 137.236
+2019 2018
+€ €
+3.067.109 2.882.907
+543.271 511.590
+235.359 222.430
+238.300 148.326
+4.084.039 3.765.253
+150.228 150.434
+4.234.266 3.915.686
+66,4 63,6
+2019 2018
+€ €
+0 0
+53.837 20.215
+53.837 20.215
+2019 2018
+€ €
+0 24.377
+0 0
+0 24.377
+2019 2018
+€ €
+43.999 41.418
+8.592 20.660
+7.952 9.566
+56.933 21.529
+70.150 52.971
+351.158 490.105
+1.610.810 1.558.858
+2.149.595 2.195.108
+2019 2018
+€ €
+41.254 61.412
+2019 2018
+€ €
+721 18.116
+
+
+VPB-plicht Jeugdzorg
+
+Door de invoering van de Jeugdwet met ingang van 1 januari 2015, zijn gemeenten verantwoordelijk voor
+de organisatie van jeugdzorg/-hulp aan haar minderjarige inwoners. Hiertoe sluiten gemeenten contracten
+af met de diverse aanbieders van jeugdzorg/-hulp. Voor de jeugdzorginstelling zelf kan de wijziging van
+subsidiebekostiging (tot 2015) naar bekostiging op contractsbasis (vanaf 2015) - meer dan voorheen - tot
+het risico van (gedeeltelijke) vennootschapsbelastingplicht leiden. Oorzaak van deze eventuele
+vennootschapsbelastingplicht ligt in het feit dat jeugdzorginstellingen veelal geen beroep meer kunnen
+doen op de zogenoemde ‘subsidie-vrijstelling’ in de vennootschapsbelasting, omdat niet meer wordt
+voldaan aan de bijbehorende voorwaarden. Daardoor wordt aangenomen dat de jeugdzorginstellingen
+(meestentijds stichtingen) in beginsel een onderneming in fiscale zin drijven met (gedeeltelijke)
+vennootschapsbelastingplicht tot gevolg. Eenmaal vennootschapsbelastingplichtig is voor deze
+instellingen vervolgens van belang of er nog andere mogelijkheden c.q. vrijstellingen zijn om
+(gedeeltelijke) vennootschapsbelastingplicht te voorkomen. Hierbij valt te denken aan de zogenoemde
+‘zorgvrijstelling’ in de vennootschapsbelasting.
+
+De instelling heeft een analyse gemaakt van de eventuele vennootschapsbelastingplicht en vooralsnog
+wel rekening te houden met een eventuele belastingplicht in de jaarrekening].
+
+16, Aandeel in resultaat van ondernemingen waarin wordt deelgenomen
+
+Deelneming P@W B.V. 1.171 5.198
+Honoraria accountant 2019 2018
+Deze kosten maken onderdeel uit van de algemene kosten € €
+
+13. Overige bedrijfskosten
+De honoraria van de accountant over 2019 zijn als volgt:
+
+1 Controle van de jaarrekening 36.140 51.695
+2 Overige controlewerkzaamheden (w.o. Regeling AO/IC en Ne 5.808 13.677
+3 Fiscale advisering 0 0
+4 Niet-controlediensten 18.153 40.361
+Totaal honoraria accountant 60.101 105.733
+
+Bijlage 1: mutatie overzicht Immateriële vaste activa
+Bijlage 2: mutatie overzicht Materiele vaste activa
+bijlage 3: mutatieoverzicht Financiele vaste activa
+Bijlage 4: Overzicht langlopende schulden
+
+Bijlage 5: WNT-verantwoording
+
+Vaststelling en goedkeuring
+Vaststelling en goedkeuring jaarrekening
+De directie heeft de jaarrekening 2019 opgemaakt en vastgesteld op … … oktober 2020.
+
+De raad van commissarissen heeft de jaarrekening 2019 goedgekeurd in de vergadering van … oktober 2020.
+
+Ondertekening door directie en toezichthouders:
+
+A. Spijker, directeur S. Dijkstra, directeur
+
+M. Wiegers, voorzitter RvC
+
+Bijlage 1: MUTATIEOVERZICHT IMMATERIELE VASTE ACTIVA
+
+Kosten van
+goodwill die
+van derden is
+verkregen
+€
+
+Stand per 1 januari 2019
+- aanschafwaarde 38.393
+- cumulatieve afschrijvingen 38.393
+Boekwaarde per 1 januari 2019 0
+Mutaties in het boekjaar
+- investeringen
+= afschrijvingen
+= bijzondere waardeverminderingen
+= terugname bijz. waardeverminderingen
+- terugname geheel afgeschreven activa
+
+„aanschafwaarde
+
+„cumulatieve afschrijvingen
+- desinvesteringen
+
+aanschafwaarde
+
+cumulatieve afschrijvingen
+
+per saldo 0
+Mutaties in boekwaarde (per saldo) 0
+Stand per 31 december 2019
+- aanschafwaarde 38.393
+- cumulatieve afschrijvingen 38.393
+Boekwaarde per 31 december 2019 0
+
+Afschrijvingspercentage 10,0%
+
+Perspektiev BV
+KAMPEN
+
+Bijlage 2: MUTATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Stand per 1 januari 2019
+
+- aanschafwaarde
+
+- cumulatieve herwaarderingen
+- cumulatieve afschrijvingen
+
+Boekwaarde per 1 januari 2019
+
+Mutaties in het boekjaar
+
+= investeringen
+
+- herwaarderingen
+
+- afschrijvingen
+
+- bijzondere waardeverminderingen
+
+= terugname bijz. waardeverminderingen
+
+- terugname geheel afgeschreven activa
+„aanschafwaarde
+„cumulatieve herwaarderingen
+„cumulatieve afschrijvingen
+
+- desinvesteringen
+aanschafwaarde
+cumulatieve herwaarderingen
+cumulatieve afschrijvingen
+per saldo
+
+Mutaties in boekwaarde (per saldo)
+
+Stand per 31 december 2019
+- aanschafwaarde
+
+- cumulatieve herwaarderingen
+- cumulatieve afschrijvingen
+
+Boekwaarde per 31 december 2019
+
+Afschrijvingspercentage
+
+Andere vaste
+bedrijfs-
+middelen,
+technische en
+administratieve
+
+uitrusting
+
+0
+138.807
+299.752
+
+0
+
+-114.321
+
+185.431
+
+20,0%
+
+Perspektiev BV
+KAMPEN
+
+Bijlage 3: MUTATIEOVERZICHT FINANCIELE VASTE ACTIVA
+
+Boekwaarde per 1 januari 2019
+Kapitaalstortingen
+
+Resultaat deelnemingen
+
+Ontvangen dividend
+
+Acquisities van deelnemingen
+Nieuwe/vervallen consolidaties
+Verstrekte leningen / verkregen effecten
+Ontvangen dividend / aflossing leningen
+(Terugname) waardeverminderingen
+Amortisatie (dis)agio
+
+Boekwaarde per 31 december 2019
+
+Deelnemingen in
+groeps-
+
+maatschappijen
+€
+
+3.694
+
+1.171
+
+4.865
+
+Bijlage 4: O ultimo 2019
+Restschuld Restschuld Hesteren
+Leninggever inbe Hoofdsom Totale loop-tijd Soort lenin: eaf 31 ee i st Restschuld a md Aflossing ene
+99 datum pij g J december | TMS in2019 | december | over 5 jaar | 2e id 2019
+rente in 2019 in jaren wijze en
+2018 2019 1
+eind 2019
+€ % € € € € € €
+| — of
+Rabobank 100.000 0 Financierin: 4,65% 74.995 20.004 54.991 0 2,5 Linineair 0.004,
+Douceur BV 200.000) 4 Financiering 12,50% 0 69.100 El 0 1,5 __[Linineair 0.996
+Financials Lease O-jan-00 198.586 0 Wagenpark 0,00% e) 49.369 149.217 0 4 Annuiteit 1.754)
+| of
+| 0}
+Totaal 498.586] 74.995 0| 138.473 335.108 0 162.754
+
+
+Bijlage 5: WNT-VERANTWOORDING 2019 PERSPEKTIEV B.V.
+
+Op 1 januari 2013 is de Wet normering topinkomens (WNT) in werking getreden. De WNT is van toepassing op PERSPEKTIEV B.V.
+
+Het voor PERSPEKTIEV B.V. toepasselijke bezoldigingsmaximum is in 2019 € 107.000 en sluit aan bij de indeling in klasse 1 zoals die is
+
+vastgesteld door de Raad van Comissarissen
+
+1. Bezoldiging topfunctionarissen
+
+1a. Leidinggevende topfunctionarissen, gewezen topfunctionarissen met dienstbetrekking ° en leidinggevende
+topfunctionarissen zonder dienstbetrekking vanaf de 13° maand van de functievervulling
+([TABEL ALLEEN OPNEMEN INDIEN VAN TOEPASSING) ]*
+
+bedragen x € 1
+
+Functiegegevens
+
+A. Spijker
+
+Directeur
+
+S. Dijkstra
+
+Directeur
+
+L. Altelaar
+
+Directeur
+
+Aanvang® en einde functievervulling in 2019
+
+0101-3112
+
+0101-3112
+
+[dd/mm - dd/mm]
+
+Deeltijdfactor in fteS
+
+1,0
+
+1,0
+
+0,0
+
+Gewezen topfunctionaris?7
+
+nee
+
+nee
+
+ja
+
+(Fictieve) dienstbetrekking?S
+
+nee
+
+nee
+
+nee
+
+Bezoldiging
+
+Beloning plus belastbare
+
+onkostenvergoedingen®
+
+106.819
+
+106.952
+
+Beloningen betaalbaar op termijn?
+
+Subtotaal
+
+106.819
+
+106.952
+
+Individueel toepasselijke
+jpezoldigingsmaximum*e
+
+107.000
+
+107.000
+
+nvt
+
+-/- Onverschuldigd betaald bedrag*:
+
+Totale bezoldiging
+
+106.819
+
+106.952
+
+Reden waarom de overschrijding al dan niet
+is toegestaan
+
+N.v.t.
+
+N.v.t.
+
+N.v.t.
+
+Gegevens 2018
+
+Aanvang en einde functievervulling in 2018
+
+0101-3112
+
+0101-3112
+
+0101-3005
+
+Deeltijdfactor 2018 in fte
+
+1,0
+
+1,0
+
+1,0
+
+Bezoldiging
+
+Beloning plus belastbare
+
+onkostenvergoedingen?
+
+98.020
+
+93.882
+
+39.117
+
+Beloningen betaalbaar op termijn?
+
+Subtotaal
+
+98.020
+
+93.882
+
+39,117
+
+Individueel toepasselijke
+
+[bezoldigingsmaximum*
+
+103.000
+
+103.000
+
+42.917
+
+-/- Onverschuldigd betaald bedrag**
+
+Totale bezoldiging
+
+98.020
+
+93.882
+
+39.117
+
+
+OVERIGE GEGEVENS
+
+Wettelijke vrijstelling
+
+PerspektieV B.V. maakt gebruik van de mogelijkheid tot vrijstelling van deskundigenonderzoek op grond
+van artikel 2:396 lid 7 BW
+
+Statutaire regeling betreffende de bestemming van het resultaat
+Conform artikel 30 van de statuten staat het resultaat ter beschikking van de Algemene Vergadering.
+
+Voorstel tot resultaatbestemming
+
+De directie stelt voor om het resultaat over 2019 toe te voegen aan de Algemene reserve. Vooruitlopend
+op de vaststelling door de Algemene vergadering is dit voorstel reeds verwerkt in de jaarrekening.
+
+KUIKEN
+
+BEOORDELINGSVERKLARING VAN DE ONAFHANKELIJKE ACCOUNTANT
+
+Aan: het bestuur en raad van commissarissen van PerspektieV B.V.
+
+Wij hebben de jaarrekening 2019 van PerspektieV B.V. beoordeeld.
+Deze jaarrekening bestaat uit:
+
+1. de balans per 31 december 2019 met een balanstotaal van € 1.048.459;
+
+2. de winst- en verliesrekening over 2019 met een resultaat van € 49.797; en
+
+3. de toelichting, waarin zijn opgenomen een overzicht van de gehanteerde grondslagen voor financiële
+verslaggeving en andere toelichtingen.
+
+Verantwoordelijkheid van het bestuur
+
+Het bestuur is verantwoordelijk voor het opmaken van de jaarrekening die het vermogen en het resultaat
+getrouw dient weer te geven in overeenstemming met de Regeling verslaggeving WTZi, de bepalingen van
+en krachtens de Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WMT),
+Titel 9 Boek 2 van het Burgerlijk Wetboek (BW), alsmede voor het opstellen van het bestuursverslag in
+overeenstemming met de in Nederland geldende richtlijnen RJ 655 Zorginstellingen.
+
+Het bestuur is tevens verantwoordelijk voor een zodanige interne beheersing als het bestuur noodzakelijk
+acht om het opmaken de jaarrekening mogelijk te maken zonder afwijkingen van materieel belang als
+gevolg van fraude of fouten.
+
+Verantwoordelijkheid van de accountant
+
+Onze verantwoordelijkheid is het geven van een conclusie over de jaarrekening op basis van onze
+beoordeling. Wij hebben onze beoordeling verricht in overeenstemming met Nederlands recht, waaronder
+de Nederlandse Standaard 2400, ‘Opdrachten tot het beoordelen van financiële overzichten’. Dit vereist dat
+wij voldoen aan de voor ons geldende ethische voorschriften en dat wij onze beoordeling zodanig plannen
+en uitvoeren dat wij in staat zijn te concluderen dat wij geen reden hebben om te veronderstellen dat de
+jaarrekening afwijkingen van materieel belang bevat.
+
+Een beoordeling in overeenstemming met de Nederlandse Standaard 2400 resulteert in een beperkte mate
+van zekerheid. De in dit kader uitgevoerde werkzaamheden bestonden in hoofdzaak uit het inwinnen van
+inlichtingen bij het management en overige functionarissen van-de entiteit, het uitvoeren van cijferanalyses
+met betrekking tot de financiële gegevens alsmede het evalueren van de verkregen-informatie.
+
+De werkzaamheden uitgevoerd in het kader van een beoordelingsopdracht zijn aanzienlijk beperkter dan
+die uitgevoerd in het kader van een controleopdracht verricht in overeenstemming met de. Nederlandse
+controlestandaarden. Derhalve brengen wij geen controleoordeel tot uitdrukking.
+
+Pagina 1 van 2
+
+Accountant Kuiken Accountancy B.V. tel: 038 - 37 66 210 IBAN: NL48 RABO 0159 1522 32 REGISTERE ESE
+Kleiland 14 A www.kuiken-acc.nl BTWnr: 8145.54.271.B.01 BELASTING HE
+NBA 8271 RV IJsselmuiden info@kuiken-acc.nl KvK Zwolle: 05067033 ADVISEURSE Kaes
+
+
+duiken n
+
+Conclusie
+
+Op grond van onze beoordeling hebben wij geen reden om te veronderstellen dat de jaarrekening geen
+getrouw beeld geeft van de grootte en de samenstelling van het vermogen van PerspektieV B.V. per 31
+december 2019 en van het resultaat over 2019 in overeenstemming met de Regeling verslaggeving WTZi
+en Titel 9 Boek 2 BW.
+
+Verenigbaarheid van het jaarverslag met de jaarrekening
+Wij vermelden dat het jaarverslag, voor zover wij kunnen beoordelen, verenigbaar is met de jaarrekening.
+
+Benadrukking controle-opdracht in het kader van de WNT
+
+Conform artikel 1.7 lid 1 van de WNT bestaat er een controleplicht ten aanzien van de WNT-aspecten. Met
+betrekking tot de jaarrekening van PerspektieV B.V. wordt door ons een beoordelingsopdracht uitgevoerd.
+De WNT-aspecten vallen hier derhalve niet onder. Ten behoeve van het Ministerie van Volksgezondheid,
+Welzijn en Sport (VWS) wordt hiervoor door ons een separate controleverklaring afgegeven.
+
+Benadrukking van de basis voor financiële verslaggeving en beperking in gebruik en
+verspreidingskring
+
+De jaarrekening is opgesteld voor Ministerie van Volksgezondheid, Welzijn en Sport met als doel
+PerspektieV B.V. in staat te stellen te voldoen aan de vereisten aan een zorginstelling opgelegd door het
+Ministerie van Volksgezondheid, Welzijn en Sport, waaronder de Jaarverantwoording Jeugd en Zorg 2019.
+Hierdoor is de jaarrekening mogelijk niet geschikt voor andere doeleinden. Onze beoordelingsverklaring is
+derhalve uitsluitend bestemd voor PerspektieV B.V. en als onderdeel van de Jaarverantwoording Jeugd en
+Zorg ten behoeve van het Ministerie van Volksgezondheid, Welzijn en Sport en dient niet te worden
+verspreid aan of te worden gebruikt door anderen. Onze conclusie is niet aangepast als gevolg van deze
+aangelegenheid.
+
+IJsselmuiden, 2 oktober 2020
+
+Kuiken Accountancy B.V,
+namens deze,
+
+EN |
+D UISEN
+
+Kleiland 14 A
+RV IJsselmuiden
+
+. Kuiken AA RB
+
+paraaf voor waarmerkingsdoeleinden:
+
+Pagina 2 van 2

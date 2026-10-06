@@ -1,0 +1,902 @@
+# whosigns-ocr v1 grootte=713888 dpi=300 paginas=20
+5 MEERJARENGEGEVENS
+
+5.1 Samenvatting balansen ultimo over vier jaren
+
+ACTIVA
+
+Vaste activa
+Materiële vaste activa
+Vlottende activa
+
+Vorderingen
+Liquide middelen
+
+PASSIVA
+
+Eigen vermogen
+Kortlopende schulden
+
+HA
+
+2022 2021 2020 2019
+€ € € €
+3.610 4.624 0 0
+107.231 133.240 94.318 72.964
+141.366 85.455 47.896 65.796
+248.597 218.695 142.214 138.760
+252.207 223.319 142.214 138.760
+138.649 128.672 65.822 33.874
+113.558 94.647 76.392 104.886
+252.207 223.319 142.214 138.760
+
+
+5.2 Resultaat over de afgelopen vier jaren
+
+Netto-omzet
+Kostprijs van de omzet
+
+Bruto-omzetresultaat
+Kosten
+
+Personeelskosten
+Afschrijvingen
+Overige bedrijfskosten
+
+Bedrijfsresultaat
+Financiële baten en lasten
+
+Resultaat uit gewone
+bedrijfsuitoefening voor belastingen
+
+Belastingen resultaat uit gewone
+bedrijfsuitoefening
+
+Resultaat na belastingen
+
+HA
+
+Uit de balans is de volgende financieringsstructuur af te leiden:
+
+Beschikbaar op lange termijn:
+Eigen vermogen
+Waarvan vastgelegd op lange termijn:
+
+Materiële vaste activa
+
+Werkkapitaal
+
+Dit bedrag is als volgt aangewend:
+Vorderingen
+
+Liguide middelen
+
+Af: kortlopende schulden
+
+Werkkapitaal
+
+2022 2021 2020 2019
+
+€ € € €
+1.192.010 1.070.569 563.251 259.210
+82.064 76.050 21.484 5.368
+1.109.946 994.519 541.767 253.842
+859.012 679.394 292.550 85.432
+1.014 448 0 0
+119.452 122.111 90.730 27.848
+979.478 801.953 383.280 113.280
+130.468 192.566 158.487 140.562
+(694) (678) (298) 0
+129.774 191.888 158.189 140.562
+(19.797) (29.038) (26.241) (26.808)
+109.977 162.850 131.948 113.754
+
+31-12-2022 31-12-2021
+
+€ €
+138.649 128.672
+3.610 4.624
+135.039 124.048
+107.231 133.240
+141.366 85.455
+248.597 218.695
+113.558 94647
+135.039 124.048
+
+
+A
+
+6 KENGETALLEN
+6.1 Omzet en rentabiliteit
+De rentabiliteit geeft het rendement aan dat de onderneming in het boekjaar heeft behaald.
+
+2022 2021
+Omzetontwikkeling
+Indexgetal (2021=100) 111,34 100,00
+Nettowinstmarge
+Resultaat na belastingen/netto-omzet 9,23 15,21
+Rentabiliteit totaal vermogen
+(Bedrijfsresultaat/totale vermogen) 51,73 86,23
+Rentabiliteit eigen vermogen
+Resultaat na belastingen/eigen vermogen 79,32 126,56
+
+6.2 Liquiditeit
+
+De liquiditeit geeft de mate aan waarin de onderneming in staat is op korte termijn aan haar
+verplichtingen te voldoen. De liquiditeitspositie geeft de toestand op 31 december weer; er is dus
+sprake van een momentopname.
+
+2022 2021
+Current ratio
+(Vlottende activa/kortlopende schulden) 2,19 2,31
+Quick ratio
+Vlottende activa - voorraden/kortlopende schulden) 2,19 2,31
+
+6.3 Solvabiliteit
+
+De solvabiliteit geeft de mate aan waarin de onderneming in staat is op langere termijn aan haar
+verplichtingen (rente en aflossing) te voldoen. De solvabiliteitspositie geeft de toestand op 31
+december weer; er is dus sprake van een momentopname.
+
+2022 2021
+
+Solvabiliteit eerste niveau
+(Eigen vermogen/balanstotaal) 54,97 57,62
+
+A
+
+7 FISCALE POSITIE
+
+7.1 Berekening belastbaar bedrag 2022
+Het belastbaar bedrag voor de vennootschapsbelasting over 2022 is als volgt berekend:
+
+2022
+€
+Resultaat voor belastingen 129.774
+Fiscale verschillen:
+Niet aftrekbare kosten 2.214
+Belastbaar bedrag 2022 131.988
+Berekening vennootschapsbelasting
+De hierover verschuldigde vennootschapsbelasting bedraagt:
+2022
+€
+15,0% over € 131.985 19.797
+
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+Hoogachtend,
+Hofman Accounta
+
+DWARSDOEN B.V, ROTTERDAM
+
+1 BALANS PER 31 DECEMBER 2022
+
+(na winstbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa
+
+Inventaris
+Vlottende activa
+
+Vorderingen
+
+Handelsdebiteuren
+Vorderingen op participanten
+Vennootschapsbelasting
+Overige vorderingen en
+overlopende activa
+
+Liquide middelen
+Rabobank
+
+31 december 2022
+
+A
+
+31 december 2021
+
+€ €
+3.610
+101.680
+0
+2.130
+3.421
+107.231
+141.366
+
+252.207
+
+€ €
+4.624
+120.683
+10.800
+0
+1.757
+133.240
+85.455
+223.319
+
+PASSIVA
+
+Eigen vermogen
+
+Geplaatst kapitaal
+Overige reserves
+
+Kortlopende schulden
+
+Vennootschapsbelasting
+
+Overige belastingen en premies
+sociale verzekeringen
+
+Overige schulden en overlopende
+passiva
+
+31 december 2022
+
+JAARREKENING 2022
+
+31 december 2021
+
+€
+
+120
+
+138.529
+
+74.963
+
+38.595
+
+€
+
+138.649
+
+113.558
+
+252.207
+
+€
+
+120
+
+128.552
+
+8.974
+
+43.711
+
+41.962
+
+€
+
+128.672
+
+94.647
+
+223.319
+
+DWARSDOEN B.V, ROTTERDAM
+
+2 WINST-EN-VERLIESREKENING OVER 2022
+
+JAARREKENING 2022
+
+À
+
+2022 2021
+€ € € €
+
+Netto-omzet 1.192.010 1.070.569
+Kostprijs van de omzet 82.064 76.050
+Bruto-omzetresultaat 1.109.946 994.519
+Kosten
+Personeelskosten 859.012 679.394
+Afschrijvingen 1.014 448
+Overige bedrijfskosten 119.452 122.111
+
+979.478 801.953
+Bedrijfsresultaat 130.468 192.566
+Financiële baten en lasten (694) (678)
+Resultaat uit gewone
+bedrijfsuitoefening voor
+belastingen 129.774 191.888
+Belastingen resultaat uit
+gewone bedrijfsuitoefening (19.797) (29.038)
+
+162.850
+
+Resultaat na belastingen 109.977
+
+12
+
+DWARSDOEN B.V, ROTTERDAM
+
+3 KASSTROOMOVERZICHT 2022
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+Kasstroom uit operationele
+activiteiten
+
+Bedrijfsresultaat
+
+Aanpassingen voor:
+
+Afschrijvingen
+
+Veranderingen in het werkkapitaal:
+Mutatie vorderingen
+
+Mutatie kortlopende schulden (exclusief
+kortlopend deel van de langlopende
+schulden)
+
+Kasstroom uit bedrijfsoperaties
+
+Rentelasten
+Vennootschapsbelasting
+
+Kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+
+Investeringen in materiële vaste activa
+
+Kasstroom uit
+financieringsactiviteiten
+
+Betaalbaar gesteld dividend
+
+Samenstelling geldmiddelen
+
+Liguide middelen per 1 januari
+
+Mutatie liquide middelen
+
+Geldmiddelen per 31 december
+
+JAARREKENING 2022
+
+a\
+
+2022 2021
+€ € € €
+130.468 192.566
+1.014 448
+26.009 (38.922)
+18.911 18.255
+176.402 172.347
+(694) (678)
+(19.797) (29.038)
+(20.491) (29.716)
+155.911 142.631
+0 (5.072)
+(100.000) (100.000)
+55.911 37.559
+2022 2021
+€ € € : €
+85.455 47.896
+55.911 37.559
+141.366 85.455
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2022
+
+A
+
+4 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+ALGEMEEN
+
+Activiteiten
+De activiteiten van DwarsDoen B.V. statutair gevestigd te Rotterdam bestaan voornamelijk uit het
+uitvoeren van maatschappelijk werk.
+
+Bestuur
+Per balansdatum wordt het bestuur gevoerd door Verhoeff Dwarsdoen B.V. en Frankhuizen
+Dwarsdoen B.V.
+
+Dwarsdoen B.V. is statutair gevestigd te Rotterdam en feitelijk gevestigd op De Vriesstraat 38,
+Unit 5, 3261 PC te Oud-Beijerland en is ingeschreven bij het handelsregister onder nummer
+73327263.
+
+Verbonden partijen
+
+De volgende partijen zijn verbonden met DwarsDoen BV:
+Verhoeff DwarsDoen B.V.
+
+Frankhuizen DwarsDoen B.V.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DE JAARREKENING
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW.
+
+De jaarrekening is opgemaakt op basis van historische kostprijs. De waardering van activa en
+passiva geschiedt, voor zover niet anders is vermeld, tegen nominale waarde.
+
+Winsten worden toegerekend aan de periode waarin ze zijn gerealiseerd. Verliezen worden
+verantwoord in het jaar waarin ze voorzienbaar zijn.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op verkrijgingsprijs, verminderd met de
+cumulatieve afschrijvingen en indien van toepassing met bijzondere waardeverminderingen. De
+afschrijvingen worden gebaseerd op de geschatte economische levensduur en worden berekend
+op basis van een vast percentage van de verkrijgingsprijs, rekening houdend met een eventuele
+residuwaarde. Er wordt afgeschreven vanaf het moment van ingebruikneming. Op terreinen wordt
+niet afgeschreven.
+
+Vorderingen en overlopende activa
+
+De vorderingen worden bij eerste verwerking opgenomen tegen de reële waarde en vervolgens
+gewaardeerd tegen de geamortiseerde kostprijs. De reële waarde en geamortiseerde kostprijs zijn
+gelijk aan de nominale waarde. Noodzakelijk geachte voorzieningen voor het risico van
+oninbaarheid worden in mindering gebracht. Deze voorzieningen worden bepaald op basis van
+individuele beoordeling van de vorderingen.
+
+Liquide middelen
+De liguide middelen zijn gewaardeerd tegen de nominale waarde. Indien middelen niet ter vrije
+beschikking staan, dan wordt hiermee bij de waardering rekening gehouden.
+
+Langlopende en kortlopende schulden
+Opgenomen leningen en schulden worden bij eerste verwerking opgenomen tegen de reële
+waarde en vervolgens gewaardeerd tegen de geamortiseerde kostprijs.
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2022
+
+À
+
+GRONDSLAGEN VOOR RESULTAATBEPALING
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde
+prestaties en verrichte diensten enerzijds, en anderzijds de kosten en andere lasten van het jaar,
+gewaardeerd tegen historische kostprijzen.
+
+Resultaatbepaling
+
+Het resultaat wordt bepaald als het verschil tussen de netto-omzet en de kosten en andere lasten
+van het verslagjaar met inachtneming van de hiervoor vermelde waarderingsgrondslagen.
+Winsten zijn verantwoord in het jaar waarin de goederen zijn geleverd c.q. de diensten zijn
+verricht. Verliezen welke hun oorsprong vinden in het boekjaar zijn in aanmerking genomen
+zodra deze voorzienbaar zijn.
+
+Netto-omzet
+Onder netto-omzet wordt verstaan de opbrengst van de in het verslagjaar geleverde goederen en
+verleende diensten onder aftrek van kortingen en de over de omzet geheven belastingen.
+
+Kostprijs van de omzet
+De kostprijs van de omzet omvat de kosten van inhuur van derden.
+
+Brutomarge
+De brutomarge bestaat uit het verschil tussen de netto-omzet en de kostprijs van de omzet,
+alsmede uit de overige bedrijfsopbrengsten.
+
+Afschrijvingen
+
+De afschrijvingen op de materiële vaste activa zijn berekend door middel van vaste percentages
+van de aanschaffingswaarde, op basis van de verwachte economische levensduur. Boekwinsten en
+verliezen bij verkoop van materiële vaste activa zijn begrepen onder de afschrijvingen,
+boekwinsten echter alleen voor zover de boekwinsten niet in mindering zijn gebracht op
+vervangende investeringen.
+
+Belastingen
+
+De vennootschapsbelasting wordt berekend tegen het geldende tarief over het resultaat van het
+boekjaar, waarbij rekening wordt gehouden met permanente verschillen tussen de
+winstberekening volgens de jaarrekening en de fiscale winstberekening, en waarbij actieve
+belastinglatenties (indien van toepassing) slechts worden gewaardeerd voor zover de realisatie
+daarvan waarschijnlijk is.
+
+GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+De geldmiddelen in het kasstroomoverzicht bestaan uit de liquide middelen, de kortlopende
+schulden aan kredietinstellingen en de vlottende effecten.
+De effecten kunnen worden beschouwd als zeer liquide beleggingen.
+
+Kasstromen in vreemde valuta zijn omgerekend tegen een geschatte gemiddelde koers.
+Koersverschillen inzake geldmiddelen worden afzonderlijk in het kasstroomoverzicht getoond.
+
+Ontvangsten en uitgaven uit hoofde van interest, ontvangen dividenden en winstbelastingen zijn
+opgenomen onder de kasstroom uit operationele activiteiten. Betaalde dividenden zijn
+opgenomen onder de kasstroom uit financieringsactiviteiten.
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2022
+5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2022
+ACTIVA
+
+VASTE ACTIVA
+
+Materiële vaste activa
+
+2022 2021
+
+€ €
+Inventaris
+Aanschaffingswaarde 5.072 (0)
+Cumulatieve afschrijvingen en waardeverminderingen (448) 0
+Boekwaarde per 1 januari 4.624 (0)
+Mutaties
+Investeringen 0 5.072
+Afschrijvingen (1.014) (448)
+
+(1.014) 4.624
+Aanschaffingswaarde 5.072 5.072
+Cumulatieve afschrijvingen en waardeverminderingen (1.462) (448)
+Boekwaarde per 31 december 3,610 4.624
+
+De inventaris wordt afgeschreven met 20% per jaar.
+
+VLOTTENDE ACTIVA
+
+Vorderingen
+
+31-12-2022 31-12-2021
+€ €
+
+Handelsdebiteuren
+Debiteuren 101.680 120.683
+
+Een voorziening voor vermoedelijke oninbaarheid wordt niet noodzakelijk geacht.
+
+Vorderingen op participanten
+
+Vordering op Verhoeff DwarsDoen B.V. 0 5.400
+Vordering op Frankhuizen DwarsDoen B.V. 0 5.400
+
+0 10.800
+
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2022
+
+A
+
+31-12-2022 31-12-2021
+
+€ €
+
+Vennootschapsbelasting
+Vennootschapsbelasting dit jaar 2.130 0)
+Overige vorderingen en overlopende activa
+Huur 1.664 0
+Waarborgsom huur 1.757 1.757
+
+3.421 1.757
+Liquide middelen
+Rabobank 141.366 85.455
+PASSIVA
+Eigen vermogen
+Geplaatst kapitaal
+Geplaatst en volgestort zijn 120 gewone aandelen nominaal
+€ 1,00 120 120
+De aandelen zijn in handen van:
+Verhoeff DwarsDoen B.V. (60 aandelen)
+Frankhuizen DwarsDoen B.V. (60 aandelen)
+
+2022 2021
+€ €
+
+Overige reserves
+Saldo per 1 januari 128.552 65.702
+Resultaatbestemming boekjaar 109.977 162.850
+Dividend (100.000) (100.000)
+
+Saldo per 31 december 138.529 128.552
+
+17
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2022
+
+A
+
+Kortlopende schulden
+
+31-12-2022 31-12-2021
+
+€ €
+Vennootschapsbelasting
+Vennootschapsbelasting dit jaar 0 8.974
+Overige belastingen en premies sociale verzekeringen
+Omzetbelasting 48 1.157
+Loonheffing 53.148 42.554
+Pensioenen 21.767 0
+74.963 43.711
+Overige schulden en overlopende passiva
+Vakantiegeld 28.000 22.400
+“ Accountantskosten 7.350 5.750
+Rente- en bankkosten 38 65
+Autokosten 3.207 3.638
+Werk derden 0 10.109
+38.595 41.962
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+Meerjarige financiële verplichtingen
+Huurverplichtingen onroerende zaken
+
+Door DwarsDoen BV is een meerjarige financiele verplichting aangegaan tot en met 31 december
+2023 terzake van huur van bedrijfsruimte voor een bedrag van € 19.581 per jaar.
+
+DWARSDOEN B.V, ROTTERDAM
+
+6 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2022
+
+Netto-omzet
+
+De netto-omzet is in 2022 ten opzichte van 2021 met 11,3% gestegen.
+
+Netto-omzet
+
+Omzet Wmo
+
+Omzet Jeugdwet
+Omzet overige zorg
+Omzet consultancy
+
+Kostprijs van de omzet
+Werkzaamheden derden
+
+Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Overige personeelskosten
+
+Lonen en salarissen
+
+Bruto lonen
+Mutatie reservering vakantiegeld
+
+Sociale lasten
+
+Premies sociale verzekeringswetten
+Werkgevers lasten pensioenen
+
+JAARREKENING 2022
+
+A
+
+2022 2021
+€ €
+
+1.056.240 942.972
+65.516 80.742
+60.139 22.415
+10.115 24.440
+1.192.010 1.070.569
+82.064 76.050
+670.738 548.824
+122.638 94.206
+65.636 36.364
+859.012 679.394
+665.138 534.924
+5.600 13.900
+670.738 548.824
+71.322 63.629
+45.316 30.577
+122.638 94.206
+
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2022
+
+Hieronder treft u de WNT-verantwoording over het jaar 2022 aan. Er is gebruik gemaakt van het
+model dat jaarlijks wordt gepubliceerd door het ministerie van Binnenlandse Zaken en
+Koninkrijksrelaties (BZK).
+
+WNT-verantwoording 2022
+
+De WNT is van toepassing op DwarsDoen B.V. Het voor DwarsDoen B.V. toepasselijke
+bezoldigingsmaximum is in 2022 € 120.000. Dit betreft het bezoldigingsmaximum voor Zorg- en
+jeugdhulp, klasse 1.
+
+Bezoldiging topfunctionarissen
+Ta. Leidinggevende topfunctionarissen met een dienstbetrekking en leidinggevendde
+topfunctionarissen zonder dienstbetrekking vanaf de 13e maand van de functievervulling
+
+Aanvang en einde dienstbetrekking in 2022 01/01-31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0
+
+it
+
+Beloning plus belastbare onkostenvergoedingen 119.366 116.551
+Beloningen betaalbaar op termijn 0 0
+Subtotaal 119.366 116.551
+Individueel toepasselijk bezoldigingsmaximum 120.000 120.000
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag N.v.t. Nvt.
+Bezoldiging 119.366 116.551
+Het bedrag van de overschrijding en de reden waarom de overschrijding Nvt. Nvt
+al dan niet is toegestaan '
+Toelichting op de vordering wegens onverschuldigde betaling N.v.t. Nvt.
+
+Aanvang en einde dienstbetrekking in 2021 01/01-31/12 01/01-31/12
+Omvang dienstverband (als deeltijdfactor in fte) 1,0 1,0
+Dienstbetrekking? Ja/nee ja ja
+Bezoldiging: Sine tn Zn
+Beloning plus belastbare onkostenvergoedingen 111.404 108.691
+Beloningen betaalbaar op termijn 0 0
+Subtotaal 111.404 108.691
+Individueel toepasselijk bezoldigingsmaximum 116.000 116.000
+-/- Onverschuldigd betaald en nog niet terugontvangen bedrag N.v.t. Nvt.
+Bezoldiging 111.404 108.691
+
+20
+
+DWARSDOEN B.V, ROTTERDAM JAARREKENING 2022
+
+A
+
+2022 2021
+
+€ €
+Overige personeelskosten
+Reiskostenvergoedingen 36.987 14.672
+Onkostenvergoedingen 5.429 0
+Kantinekosten 962 343
+Opleidingskosten 5.470 5.309
+Ziekengeldverzekering 12.285 4.617
+Wervingskosten 884 6.069
+Overige personeelskosten 3.619 5.354
+
+65.636 36.364
+
+Personeelsleden
+
+Bij de vennootschap waren in 2022 gemiddeld 9 personeelsleden werkzaam, berekend op
+fulltimebasis (2021: 7).
+
+Afschrijvingen
+
+Afschrijvingen materiële vaste activa
+
+Inventaris 1.014 448
+
+Overige bedrijfskosten
+
+Huisvestingskosten 19.581 11.418
+Inventariskosten 0 268
+Kantoor- en algemene kosten 28.765 27.037
+Autokosten 39.782 46.031
+Verkoopkosten 11.038 13.711
+Algemene kosten 20.286 23.646
+
+119.452 122.111
+
+Huisvestingskosten
+Huur onroerende zaak 19.581 11.418
+
+Inventariskosten
+
+Kleine aanschaffingen 0 268
+
+Kantoor- en algemene kosten
+
+Kantoorbehoeften 2.801 5.639
+Telefoon 3.877 2.613
+Porti 238 384
+Contributies en abonnementen 3.990 2.500
+Verzekering 2.921 2.651
+Accountantskosten 14.850 13.250
+Advieskosten 88 0
+
+28.765 27.037
+
+21
+
+DWARSDOEN BV, ROTTERDAM JAARREKENING 2022 HA |
+
+2022 2021
+rn ar:
+Autokosten .
+Autokostenvergoeding ’ 39,782 . 46,03)
+verkoopkosten
+Reclame- eri advertentiekosten . 693 836
+Representatlekosten : 2028 4,833.
+Relatlegeschenken ' 1247 __ 1.350
+“Reis: en verblijfkosten 1.587 - „264
+Overige verkoopkosten 4,983 6,428
+11038 13,71
+Algemene kosten . n
+Niet aftrekbare omzetbelasting 20.286 23.646
+Financiële baten en lasten
+Rentelasten en soortgelijke kostén _ (694) (678)
+Rentelásten en soortgelijke kosten. OO
+Rente en bankkosten ' (472) (450)
+Rente fiscus … (222) (228)
+| (694) _ _ (678)
+_ Belastingen resultaat ult gewone bedrijfsuitoefening ie . .
+Venngotschapsbelastiag ‘_(19,797) (29.038)
+
+Ondertekening van de Jaarrekening
+
+Oud-Beijerland, 3{ mel 2023
+
+Frankhulfe | Do
+
+B. Verhoeff
+
+22
+
+A
+
+OVERIGE GEGEVENS
+
+1 Deskundigenonderzoek
+Aangezien de besloten vennootschap valt binnen de door de wet, in artikel 2:396 lid 1 BW
+gestelde grenzen, is de vennootschap vrijgesteld van accountantscontrole. Om deze reden is aan
+
+de jaarrekening geen controleverklaring toegevoegd.
+2 Statutaire regeling winstbestemming
+
+Op grond van artikel 7.6 van de statuten staat de winst ter beschikking van de algemene
+vergadering.
+
+3 Bestemming van de winst 2022
+
+De directie stelt voor om de winst over 2022 ad € 109.977 na aftrek van een dividenduitkering ad
+
+€ 100.000 toe te voegen aan de overige reserves.
+Vooruitlopend op de vaststelling door de algemene vergadering is dit voorstel reeds in de
+
+jaarrekening verwerkt.
+
+23
+
+DWARSDOEN B.V, ROTTERDAM
+
+OVERZICHT MATERIËLE VASTE ACTIVA
+
+Kantoorinventaris
+
+03.21:
+05.21:
+: Chromebook
+10.21:
+12.21:
+12.21:
+
+06.21
+
+Chromebook
+Netwerk
+
+Chromebook
+Bureaufiets
+Vergadertafel
+
+a\
+
+aanschafwaarden
+des-
+investe- investe-
+1-1-2022 ringen ringen 31-12-2022
+€ € € €
+612 612
+1.665 1.665
+747 747
+544 544
+595 595
+909 909
+5.072 - - 5.072
+
+
+afschrijvingen boekwaarde
+
+op des-
+t/m investe- t/m rest-
+% 1-1-2021 2022 ringen 31-12-2022 31-12-2022 31-12-2021 waarde
+€ € € € € €
+20,0 102 122 224 388 510 -
+20,0 222 333 555 1.110 1.443 -
+20,0 87 149 236 511 660 -
+20,0 27 109 136 408 517
+20,0 10 119 129 466 585
+20,0 182 182 727 909
+
+448 1.014 - 1.462 3.610 4.624
+

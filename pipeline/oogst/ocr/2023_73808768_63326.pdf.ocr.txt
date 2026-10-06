@@ -1,0 +1,652 @@
+# whosigns-ocr v1 grootte=1040008 dpi=300 paginas=20
+Hut&Co *“
+
+PRAKTIJK SYSTEEMTHERAPIE
+GRONINGEN B.V.
+TE GRONINGEN
+
+Rapport inzake jaarstukken 2023
+
+Hut&Co
+
+INHOUDSOPGAVE
+
+Pagina
+ACCOUNTANTSRAPPORT
+l Samenstellingsverklaring van de accountant 2
+2 Resultaat 3
+3 Financiële positie 4
+JAARREKENING
+l Balans per 31 december 2023 7
+2 Winst-en-verliesrekening over 2023 8
+3 Grondslagen voor waardering en resultaatbepaling 9
+4 Toelichting op de balans per 31 december 2023 12
+5 Toelichting op de winst-en-verliesrekening over 2023 15
+
+
+ACCOUNTANTSRAPPORT
+
+
+Bezoekadres Telefoon e-mail
+
+Verlengde Hereweg 174 050 526 71 O1 info@hutco.nl
+Postadres
+
+0 FL Postbus 8088 Fax internet
+
+B 7 zi Lr Lr 9702 KB Groningen 050 526 87 37 www.hutco.nl
+
+Ï | u CM O
+Registeraccountants Registemaczeuntans
+
+S.Á. van der Molen RA
+1, Kempen RA
+
+Aan het bestuur van
+
+Praktijk Systeemtherapie Groningen B.V.
+Nieuwe Kerkhof 25 a
+
+97 12PW Groningen
+
+Geachte directie,
+
+Hierbij brengen wij verslag uit over boekjaar 2023 met betrekking tot uw besloten vennootschap.
+
+1 SAMENSTELLINGSVERKLARING VAN DE ACCOUNTANT
+Aan: de directie
+
+De jaarrekening van Praktijk Systeemtherapie Groningen B.V. te Groningen is door ons samengesteld op
+basis van de van u gekregen informatie. De jaarrekening bestaat uit de balans per 31 december 2023 en de
+winst-en-verliesrekening over 2023 met de daarbij horende toelichting. In deze toelichting is onder andere een
+overzicht van de gehanteerde grondslagen voor financiële verslaggeving opgenomen.
+
+Deze samenstellingsopdracht is door ons uitgevoerd volgens Nederlands recht, waaronder de voor accountants
+geldende Standaard 4410, "Samenstellingsopdrachten". Op grond van deze standaard wordt van ons verwacht
+dat wij u ondersteunen bij het opstellen en presenteren van de jaarrekening in overeenstemming met Titel 9
+Boek 2 van het Burgerlijk Wetboek (BW). Wij hebben daarbij onze deskundigheid op het gebied van
+administratieve verwerking en financiële verslaggeving toegepast.
+
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de informatie klopt en dat u ons alle
+relevante informatie aanlevert. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor
+geldende regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid
+heeft voldaan. Als slotstuk van onze werkzaamheden zijn wij door het lezen van de jaarrekening globaal
+nagegaan dat het beeld van de jaarrekening overeenkwam met onze kennis van Praktijk Systeemtherapie
+Groningen B.V.
+
+Bij het uitvoeren van deze opdracht hebben wij ons gehouden aan de voor ons geldende relevante ethische
+voorschriften in de Verordening Gedrags- en Beroepsregels Accountants (VGBA). U en andere gebruikers
+van deze jaarrekening mogen dan ook ervan uitgaan dat wij de opdracht professioneel, vakbekwaam en
+zorgvuldig, integer en objectief hebben uitgevoerd en dat wij vertrouwelijk omgaan met de door u verstrekte
+gegevens.
+
+Vooreen nadere toelichting op aard en reikwijdte van een samenstellingsopdracht en de VGBA verwijzen wij
+u naar www.nba.nl/uitleg-samenstellingsverklaring.
+
+Gronifigen, 29 mei 2
+
+gut k c Registgraccbuntants
+
+Op al onze offertes en alle aan ons verstrekte opdrachten zijn
+uitsluitend de door ons gehanteerde Algemene Voorwaarden van
+toepassing, welke zijn gedeponeerd bij de Kamer van Koophandel
+Groningen onder nummer 3650.
+
+H C mr Praktijk Systeemtherapie Groningen B.V. te Groningen
+utézCo
+
+2 RESULTAAT
+2.1 Vergelijkend overzicht
+
+Het resultaat na belastingen over 2023 bedraagt € 242.443 tegenover € 260.063 over 2022. De resultaten over
+beide jaren kunnen als volgt worden samengevat:
+
+2023 2022 Verschil
+
+€ % € % €
+Opbrengsten zorgprestaties,
+jeugdhulp en maatschappelijke
+ondersteuning 834.462 100,0 646.783 100,0 187.679
+Zorg gerelateerde kosten 317.910 38,1 246.019 38,0 71.891
+Bruto-omzetresultaat 516.552 61,9 400.764 62,0 115.788
+Kosten
+Afschrijvingen 14.629 1,8 14.292 2,2 337
+Huisvestingskosten 4.452 0,5 138 - 4.314
+Verkoopkosten 4.817 0,6 2.969 0,5 1.848
+Algemene kosten 183.503 21,9 78.140 12,1 105.363
+
+207.401 24,8 95.539 14,8 111.862
+Financiële baten en lasten -137 -0,1 533 0,1 -1.270
+Resultaat voor belastingen 308.414 37,0 305.758 47,3 2.656
+Belastingen -65.971 -1,9 -45.695 -7,1 -20.276
+Resultaat na belastingen 242.443 29,1 260.063 40,2 -17.620
+
+
+H C nn Praktijk Systeemtherapie Groningen B.V. te Groningen
+ut&zCo “”
+
+3 FINANCIËLE POSITIE
+
+Uit de balans is de volgende financieringsstructuur af te leiden:
+
+31-12-2023 31-12-2022
+
+€ €
+Beschikbaar op lange termijn:
+Eigen vermogen 202.308 9.865
+Waarvan vastgelegd op lange termijn:
+Materiële vaste activa 37.750 50.320
+Werkkapitaal 164.558 -40.455
+Dit bedrag is als volgt aangewend:
+Vorderingen 227.995 23.730
+Liquide middelen 92.798 109.745
+320.793 133.475
+Af: kortlopende schulden 156.235 173.930
+Werkkapitaal 164.558 -40.455
+
+Uit het vorenstaande blijkt dat het werkkapitaal per 31 december 2023 is toegenomen ten opzichte van de
+vorige balansdatum met € 205.013. De toename is nader gespecificeerd in onderstaand overzicht.
+
+2023
+€ €
+
+Toename
+Resultaat na belastingen 242.443
+Afschrijvingen 14.629
+Cashflow 257.072
+Afname
+Investeringen in materiële vaste activa 2.059
+Betaalbaar gesteld dividend 50.000
+
+52.059
+Mutatie werkkapitaal “205.013
+
+Tot het verstrekken van nadere toelichtingen zijn wij gaarne bereid.
+
+S_A.#an der Molen RA
+
+Hut&Co **
+
+JAARREKENING
+
+Balans per 31 december 2023
+Winst-en-verliesrekening over 2023
+
+Grondslagen voor waardering en resultaatbepaling
+Toelichting op de balans per 31 december 2023
+Toelichting op de winst-en-verliesrekening over 2023
+
+
+Hut&(Co **
+
+1 BALANS PER 31 DECEMBER 2023
+(na resultaatbestemming)
+
+ACTIVA
+
+Vaste activa
+
+Materiële vaste activa (1
+
+Bedrijfsgebouwen en -terreinen
+Inventaris
+Vervoermiddelen
+
+Vlottende activa
+
+Vorderingen 2)
+
+Handelsdebiteuren
+
+Vorderingen op groepsmaatschappijen
+Overige vorderingen en overlopende
+activa
+
+Liquide middelen 6
+
+Samenstellingsverklaring afgegeven
+
+Praktijk Systeemtherapie Groningen B.V. te Groningen
+
+31 december 2023
+
+31 december 2022
+
+€ €
+
+24.880
+11.620
+1.250
+
+37.750
+2.130
+160.000
+65.865
+
+227.995
+
+92.798
+
+358.543
+
+€ €
+
+33.620
+15.240
+1.460
+
+50.320
+1.260
+22.470
+
+23.730
+
+109.745
+
+183.795
+
+Hut&Co **
+
+PASSIVA
+
+Eigen vermogen 4)
+
+Geplaatst kapitaal
+Overige reserves
+
+Kortlopende schulden 6)
+
+Schulden aan leveranciers en
+handelskredieten
+Vennootschapsbelasting
+
+Overige schulden en overlopende passiva
+
+Samenstellingsverklaring afgegeven
+
+Praktijk Systeemtherapie Groningen B.V. te Groningen
+
+31 december 2023
+
+31 december 2022
+
+€
+
+|
+202.307
+
+21.905
+124.359
+9.971
+
+€
+
+202.308
+
+156.235
+
+358.543
+
+€ €
+|
+9.864
+9.865
+8.290
+148.147
+17.493
+173.930
+183.795
+
+H &r C An Praktijk Systeemtherapie Groningen B.V. te Groningen
+ut Oo”
+
+2 WINST-EN-VERLIESREKENING OVER 2023
+
+2023 2022
+€ € € €
+
+Opbrengsten zorgprestaties,
+jeugdhulp en maatschappelijke
+ondersteuning (6) 834.462 646.783
+Zorg gerelateerde kosten (0) 317.910 246.019
+Bruto-omzetresultaat 516.552 400.764
+Kosten
+Afschrijvingen (8) 14.629 14.292
+Huisvestingskosten (®) 4.452 138
+Verkoopkosten (10) 4.817 2.969
+Algemene kosten (LI) 183.503 78.140
+
+207.401 95.539
+Bedrijfsresultaat 309.151 305.225
+Financiële baten en lasten (12) -737 533
+Resultaat voor belastingen 308.414 305.758
+Belastingen (13) -65.971 -45.695
+Resultaat na belastingen 242.443 260.063
+
+Samenstellingsverklaring afgegeven -8-
+
+
+H C MIL Praktijk Systeemtherapie Groningen B.V. te Groningen
+utézCo “”
+
+3 GRONDSLAGEN VOOR WAARDERING EN RESULTAATBEPALING
+
+ALGEMEEN
+
+Activiteiten
+
+De activiteiten van Praktijk Systeemtherapie Groningen B.V. bestaan voornamelijk uit een praktijk van
+psychotherapeuten, psychologen en therapeuten.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+Praktijk Systeemtherapie Groningen B.V is feitelijk en statutair gevestigd op Nieuwe Kerkhof 25a te
+Groningen en is ingeschreven bij het handelsregister onder nummer 73808768.
+
+Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van
+Praktijk Systeemtherapie Groningen B.V. zich verschillende oordelen en schattingen die essentieel kunnen
+zijn voor de in de jaarrekening opgenomen bedragen. Indien het voor het geven van het in artikel 2:362 lid 1
+BW vereiste inzicht noodzakelijk is, is de aard van deze oordelen en schattingen inclusief de bijbehorende
+veronderstellingen opgenomen bij de toelichting op de desbetreffende jaarrekeningposten.
+
+ALGEMENE GRONDSLAGEN VOOR DE OPSTELLING VAN DEJAARREKENING
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW en de
+Richtlijnen voor de jaarverslaggeving voor kleine rechtspersonen die uitgegeven zijn door de Raad voor de
+Jaarverslaggeving.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze
+referenties wordt verwezen naar de toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken
+van de jaarrekening bekend zijn geworden.
+
+GRONDSLAGEN VOOR DE WAARDERING VAN ACTIVA EN PASSIVA
+
+Materiële vaste activa
+
+Bedrijfsgebouwen en terreinen worden gewaardeerd tegen verkrijgingsprijs plus bijkomende kosten of
+vervaardigingsprijs onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur. Op terretnen wordt niet afgeschreven. Er wordt rekening gehouden met de bijzondere
+waardeverminderingen die op balansdatum worden verwacht. Voorde vaststelling of voor een materieel vast
+actief sprake is van een bijzondere waardevermindering wordt verwezen naar de desbetreffende paragraaf.
+
+Samenstellingsverklaring afgegeven -9-
+
+H C MIL Praktijk Systeemtherapie Groningen B.V. te Groningen
+utézCo *”
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Financiële vaste activa
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen de
+geamortiseerde kostprijs. Voorzieningenwegens oninbaarheid worden in mindering gebracht op de
+boekwaarde van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende
+schulden worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden
+afgelost.
+
+GRONDSLAGEN VOOR DE BEPALING VAN HET RESULTAAT
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij
+zijn gerealiseerd.
+
+Opbrengstverantwoording
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde projectopbrengsten
+uit hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van over de omzet geheven
+belastingen. Hierbij worden de individuele prestatieverplichtingen geïdentificeerd. Vervolgens wordt de
+transactieprijs vastgesteld en deze wordt toegerekend aan de individuele prestatieverplichting. Hierbij wordt
+rekening gehouden met kortingen en dergelijke en van over de omzet geheven belastingen.
+
+Verlenen van diensten
+
+Verantwoording van opbrengsten uit de levering van diensten geschiedt naar rato van de geleverde prestaties,
+gebaseerd op de verrichte diensten tot aan de balansdatum in verhouding tot de in totaal te verrichten
+diensten.
+
+Samenstellingsverklaring afgegeven -10-
+
+Praktijk Systeemtherapie Groningen B.V. te Groningen
+
+Hut&Co **
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Financiële baten en lasten
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van
+de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de
+verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren
+(voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde winstbestanddelen en na
+bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met wijzigingen die optreden in de
+latente belastingvorderingen en latente belastingschulden uit hoofde van wijzigingen in het te hanteren
+belastingtarief.
+
+Samenstellingsverklaring afgegeven -Il-
+
+H C mr Praktijk Systeemtherapie Groningen B.V. te Groningen
+utézCo
+
+4 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+
+1. Materiële vaste activa
+
+Bedrijfs-
+gebouwen
+en - Vervoer-
+terreinen Inventaris middelen Totaal
+€ € € €
+
+Boekwaarde per Ì januari 2023
+Aanschaffingswaarde 55.243 27.555 2.073 84.871
+Cumulatieve afschrijvingen en waardeverminderingen -21.623 -12.315 -613 -34.551
+
+33.620 15.240 1.460 50.320
+
+Mutaties
+Investeringen - 2.059 - 2.059
+Afschrijvingen -8.740 -5.679 -210 -14.629
+
+-8.740 -3.620 -210 -12.570
+Boekwaarde per 31 december 2023
+Aanschafftngswaarde 55.243 29.614 2.073 86.930
+Cumulatieve afschrijvingen en waardeverminderingen -30.363 -17.994 -823 -49,180
+Boekwaarde per 31 december 2023 24.880 11.620 1250 37.750
+Afschrijvingspercentages
+
+%
+
+Bedrijfsgebouwen en -terreinen 10
+Inventaris 20
+Vervoermiddelen 20
+
+Samenstellingsverklaring afgegeven -12-
+
+H C mr Praktijk Systeemtherapie Groningen B.V. te Groningen
+ut&zCo “”
+
+2. Vorderingen
+
+31-12-2023 31-12-2022
+
+€ €
+
+Handelsdebiteuren
+Debiteuren 2.130 1.260
+Vorderingen op groepsmaatschappijen
+Rekening-courant Home Beheer B.V. 160.000 22.470
+Overige vorderingen en overlopende activa
+Overlopende activa
+Nog te factureren omzet 65.865 -
+3. Liquide middelen
+ABN AMRO Bank 92.401 109.348
+Kas 397 397
+
+92.798 109.745
+
+Samenstellingsverklaring afgegeven -13-
+
+H C mn Praktijk Systeemtherapie Groningen B.V. te Groningen
+uté&zCo
+
+4. Eigen vermogen
+
+31-12-2023 31-12-2022
+
+€ €
+Geplaatst kapitaal
+Aandelenkapitaal | Ì
+
+2023 2022
+
+€ €
+Overige reserves
+Stand per ! januari 9.864 14.801
+Resultaatbestemming boekjaar 242.443 260.063
+Betaalbaar gesteld dividend „50.000 -265.000
+Stand per 31 december 202.307 9.864
+
+5. Kortlopende schulden
+
+31-12-2023 31-12-2022
+
+€ €
+Schulden aan leveranciers en handelskredieten
+Crediteuren 21.905 8.290
+Vennootschapsbelasting
+Vennootschapsbelasting huidig boekjaar 32.607 36.641
+Vennootschapsbelasting vorig boekjaar 25.496 45.250
+Vennootschapsbelasting twee boekjaren geleden - 66.256
+Vennootschapsbelasting eerdere boekjaren 66.256 -
+124.359 148.147
+Overige schulden en overlopende passiva
+Overlopende passiva
+Accountantskosten 2.500 2.500
+Inkopen / werk derden 1.471 14.993
+9.971 17.493
+
+Samenstellingsverklaring afgegeven -14-
+
+H C AFL Praktijk Systeemtherapie Groningen B.V. te Groningen
+utézCo
+
+5 TOELICHTING OP DE WINST-EN-VERLIESREKENING OVER 2023
+
+2023 2022
+€ €
+6. Opbrengsten zorgprestaties, jeugdhulp en maatschappelijke
+ondersteuning
+Netto-omzet 834.462 646.783
+7. Zorg gerelateerde kosten
+Inkopen / werk derden 317.910 246.019
+
+Personeelsleden
+
+Gedurende het jaar 2023 waren er geen werknemers in dienst op basis van een volledig dienstverband.
+
+8. Afschrijvingen
+
+Afschrijvingen materiële vaste activa
+
+Bedrijfsgebouwen en -terreinen 8.740 8.740
+
+Inventaris 5.679 5.142
+
+Vervoermiddelen 210 410
+14.629 14.292
+
+Overige bedrijfskosten
+9. Huisvestingskosten
+
+Overige huisvestingskosten 4.452 138
+
+10. Verkoopkosten
+
+Representatiekosten 649 589
+Rets- en verblijfkosten 4.168 2.342
+Betalingskortingen - 38
+
+4.817 2.969
+
+Samenstellingsverklaring afgegeven -15-
+
+Praktijk Systeemtherapie Groningen B.V. te Groningen
+
+Hut&Co **
+
+2023 2022
+
+€ €
+LI. Algemene kosten
+Managementvergoeding 150.000 65.000
+Accountantskosten 10.975 2.850
+Administratiekosten 5.628 4.241
+Verzekeringen 180 98
+Kantinekosten - 425
+Kantinekosten 842 863
+Kantoorbenodigdheden 11.922 1.746
+Telefoon 1.289 1.069
+Contributies en abonnementen 2.382 1.554
+Overige algemene kosten 285 294
+
+183.503 78.140
+12. Financiële baten en lasten
+Rentebaten en soortgelijke opbrengsten
+Rente rekening-courant Home Beheer BV 1.806 1015
+Rentelasten en soortgelijke kosten
+Rente en kosten bank -252 -482
+Rente belastingdienst -2.291 -
+
+-2.543 -482
+
+13. Belastingen
+Vennootschapsbelasting -65.971 -45.695
+
+Ondertekening van de jaarrekening
+
+Vaststelling jaarrekening
+
+De jaarrekening is aldus opgemaakt en vastgesteld door het bestuur c.q. de Algemene Vergadering.
+
+Groningen, 29 mei 2024
+
+Home Beheer B.V.
+Namens deze,
+
+M.E. Meijerman
+
+Samenstellingsverklaring afgegeven
+
+-16-

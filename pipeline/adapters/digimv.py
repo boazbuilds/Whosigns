@@ -197,6 +197,11 @@ def verwerk_organisatie(
             "via_ocr": resultaat["via_ocr"],
             "continuiteitsonzekerheid": bool(resultaat["continuiteitsonzekerheid"]),
             "kantoor": resultaat["kantoor"],
+            # Mag sinds 20-8-2026 mee (docs/concept.md §9). `.get` en geen [],
+            # want nakijk_ocr.py roept analyseer() ook aan en een oudere bewaarde
+            # uitkomst kent de sleutel niet -- en de lader leest dit dict buiten
+            # elke try, precies zoals hierboven bij grond_beperking staat.
+            "tekenend_accountant": resultaat.get("tekenend_accountant"),
             "bron_bestand": doc["fileName"],
         }
 

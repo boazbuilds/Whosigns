@@ -25,6 +25,7 @@ hebben.
 """
 
 import csv
+import hashlib
 import re
 import subprocess
 import urllib.request
@@ -38,6 +39,10 @@ NS_TEXT = "{urn:oasis:names:tc:opendocument:xmlns:text:1.0}"
 
 KOPPEN = {"User-Agent": "Mozilla/5.0 (WhoSigns-pipeline)"}
 
+# De versie van deze lezer, voor de naam van het cachebestand; zie
+# doelpopulatie_uit_cache.
+LEZER_VERSIE = hashlib.sha1(Path(__file__).read_bytes()).hexdigest()[:10]
+
 _BASIS = (
     "https://www.jaarverantwoordingzorg.nl/site/binaries/site-content/"
     "collections/documents"
@@ -47,11 +52,27 @@ _BASIS = (
 # `.zip` wordt uitgepakt met het externe `unzip`, want boekjaar 2022 gebruikt
 # Deflate64 en dat kan Python's zipfile niet.
 #
-# 2019 t/m 2021 staan hier bewust NIET: die gebruiken een ouder exportformaat
-# (sheets `x9conc_total_*`, veldnamen `c_kvk`/`c_naam`) en de datadictionary van
-# 2019 bevat géén accountantsverklaring-velden. Daar is de doelpopulatie dus niet
-# uit te halen; gebruik voor die jaren `--lijst-uit`. Zie digimv.md.
+# 2020 en 2021 stonden hier lang niet, op de aanname dat "2019 t/m 2021" het
+# oudere exportformaat gebruikten (sheets `x9conc_total_*`). Die aanname was een
+# extrapolatie van alleen 2019-deel-1, en hij klopt niet: de definitieve
+# datasets van 2020 en 2021 (gepubliceerd 25-1-2023) zijn gewoon het moderne
+# formaat, mét de honoraria- (`acc_*`), oordeel- (`qAccVerklVorm`) en
+# wisselvelden (`qAccountantWissel`) — gemeten 1-9-2026, zie digimv.md.
+# Alleen 2019 zelf is het oude formaat zonder accountantsverklaring-velden;
+# daarvoor blijft `--lijst-uit` de weg.
 DATASET_URL: dict[int, list[str]] = {
+    # Voorlopig, gepubliceerd 3-8-2026. "Voorlopig" betekent hier: nog niet elke
+    # zorgaanbieder heeft gedeponeerd en er kunnen correcties volgen. De velden
+    # die wij eruit halen (honoraria, wisselvlag, gerapporteerd oordeel,
+    # verklaringsdatum) zijn per organisatie ingevuld of niet; ze veranderen niet
+    # van betekenis als er later rijen bij komen. Wat leeg is blijft leeg, en de
+    # vuller schrijft nooit een lege waarde over een gevulde heen — een latere
+    # definitieve jaargang vult dus gewoon aan.
+    2025: [
+        f"{_BASIS}/2026/08/03/voorlopige-dataset-2025-deel-{deel}/"
+        f"digimv2025-20260715-1201-part-{deel}.ods"
+        for deel in (1, 2, 3)
+    ],
     2024: [
         f"{_BASIS}/2026/03/23/dataset-2024---deel-{deel}/"
         f"digimv2024-openbaar-20260129-multipletables-part-{deel}.ods"
@@ -64,6 +85,14 @@ DATASET_URL: dict[int, list[str]] = {
     2022: [
         f"{_BASIS}/2024/05/28/definitieve-dataset-2022/"
         f"DigiMV2022_20240527_ODS_MultipleTables.zip"
+    ],
+    2021: [
+        f"{_BASIS}/2023/01/25/dataset-2021-zorg-jeugd-en-veilig-thuis/"
+        f"DigiMV2021_tot-en-met_20230121_ODS_MeerdereTabellen.zip"
+    ],
+    2020: [
+        f"{_BASIS}/2023/01/25/digimv-2020-definitieve-dataset/"
+        f"DigiMV2020_tot-en-met_20230121_ODS_MeerdereTabellen.zip"
     ],
 }
 
@@ -91,6 +120,28 @@ VELDPATRONEN: dict[str, tuple[str, ...]] = {
     "oordeel_gerapporteerd": ("bestandaccverklsoortcontroleverkl",),
     "verklaring_datum": ("bestanddatumaccountantsverklaring",),
 }
+
+# De honoraria staan er per dataset twee keer: `acc_jr_contr_acc_jr_contr_0` is
+# het boekjaar van de dataset, `..._1` het jaar ervoor ("per einde vorig
+# boekjaar", de vergelijkende cijfers uit de jaarrekening). Een startswith op het
+# patroon pakte tot 5-10-2026 de eerste kolom die paste, en dat was toevallig
+# `_0` omdat die in elke jaargang links staat (nagelopen in 2020-2025). Nu
+# expliciet: `_0` voor het lopende jaar, `_1` als apart veld met `_vorig`
+# erachter. Dat tweede veld is de enige bron voor de honoraria van boekjaar 2019:
+# de dataset 2019 is het oude formaat zonder deze kolommen, maar de dataset 2020
+# draagt ze als vergelijkend cijfer (gemeten: 700 wettelijke en vrijwillige
+# controles over 2019 krijgen zo een bedrag, waar er nu nul staan).
+#
+# Vanaf de dataset 2022 staan deze kolommen alleen nog in de Jeugdwet-sectie
+# (2023: 425 gevulde rijen tegen 1.900 in 2021). Voor 2022 en later komt er dus
+# uit de datasets weinig meer bij; dat is de bron, niet deze code.
+JAARKOLOM_VELDEN = (
+    "honorarium_controle",
+    "honorarium_overig",
+    "honorarium_fiscaal",
+    "honorarium_nietcontrole",
+)
+VORIG = "_vorig"
 
 # Hoe de bron het oordeel schrijft -> onze woordenlijst (gelijk aan de check in
 # supabase/migrations/20260727000000_init.sql).
@@ -305,7 +356,12 @@ def _bedrag(waarde: str) -> str:
         getal = float(schoon)
     except ValueError:
         return ""
-    return "" if getal == 0 else f"{getal:.0f}"
+    # Een negatief honorarium is geen honorarium maar een correctie op een
+    # eerder jaar (een vrijval). Vier stonden er in de database (-1.699 tot
+    # -42.000, gemeten 5-10-2026); die horen niet als bedrag op de site. Dit
+    # geldt ook voor de omzet, die hier langskomt: een negatieve omzet is er niet
+    # (gemeten), en kwam hij ooit, dan was het evengoed geen omzet.
+    return "" if getal <= 0 else f"{getal:.0f}"
 
 
 def _datum(waarde: str) -> str:
@@ -324,10 +380,35 @@ def _zoek_kolommen(cellen: list[str]) -> dict:
 
     Op naam, niet op positie: dezelfde velden staan per jaargang op andere plekken.
     """
-    laag = [k.strip().lower() for k in cellen]
+    # De koprij is tweeregelig: bovenaan het menselijke label, eronder de
+    # variabelenaam ("Bent u van accountant gewisseld?\nqAccountantWissel_...").
+    # De patronen in VELDPATRONEN zijn juist die variabelenamen, en een
+    # startswith op de hele cel matchte er dus geen enkele: doelpopulatie() gaf
+    # nul organisaties terug, terwijl het cachebestand van 30 juli bewees dat het
+    # ooit wel werkte. Vergelijken op de laatste regel herstelt dat.
+    #
+    # Gemeten op 20-8-2026 tegen pipeline/.cache/digimv2023.ods: deze regel
+    # reproduceert doelpopulatie_2023.csv rij voor rij -- 1.140 organisaties,
+    # alle veertien velden gelijk, inclusief de 301 expliciete False bij
+    # wissel_gerapporteerd. Zie pipeline/adapters/digimv.md.
+    laag = [k.strip().lower().split("\n")[-1].strip() for k in cellen]
     gevonden: dict = {"velden": {}, "zorgsoort": [], "verklaringsoort": []}
 
     for veld, patronen in VELDPATRONEN.items():
+        if veld in JAARKOLOM_VELDEN:
+            for achtervoegsel, doelveld in (("_0", veld), ("_1", veld + VORIG)):
+                treffer = next(
+                    (
+                        i
+                        for i, k in enumerate(laag)
+                        if any(k.startswith(p) for p in patronen)
+                        and k.endswith(achtervoegsel)
+                    ),
+                    None,
+                )
+                if treffer is not None:
+                    gevonden["velden"][doelveld] = treffer
+            continue
         for patroon in patronen:
             treffer = next(
                 (i for i, k in enumerate(laag) if k.startswith(patroon)), None
@@ -437,6 +518,8 @@ CSV_VELDEN = [
     "omzet", "wissel_gerapporteerd", "oordeel_gerapporteerd",
     "verklaring_datum", "honorarium_controle", "honorarium_overig",
     "honorarium_fiscaal", "honorarium_nietcontrole",
+    "honorarium_controle_vorig", "honorarium_overig_vorig",
+    "honorarium_fiscaal_vorig", "honorarium_nietcontrole_vorig",
 ]
 
 
@@ -469,8 +552,17 @@ def doelpopulatie_uit_cache(boekjaar: int, cache: Path) -> list[dict]:
 
     De koprij is de versiecontrole: wijkt die af van CSV_VELDEN, dan is het
     bestand van vóór een wijziging en gooien we het weg.
+
+    En de bestandsnaam draagt de versie van deze lezer (een hash van dit
+    bestand). Alleen de koprij was niet genoeg: een wijziging die de kolommen
+    laat staan maar de waarden anders leest — zoals het weglaten van negatieve
+    bedragen op 5-10-2026 — liet een oude csv gewoon geldig, en de workflow-
+    cache zette die oude csv's onder een nieuwe sleutel weer terug.
     """
-    pad = cache / f"doelpopulatie_{boekjaar}.csv"
+    pad = cache / f"doelpopulatie_{boekjaar}_{LEZER_VERSIE}.csv"
+    for oud in cache.glob(f"doelpopulatie_{boekjaar}*.csv"):
+        if oud != pad:
+            oud.unlink()
     if pad.exists():
         with pad.open(encoding="utf-8") as f:
             kop = next(csv.reader(f), [])

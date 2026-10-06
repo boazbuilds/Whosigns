@@ -1,21 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { bevindingen } from "@/lib/db";
+import { bevindingen, oordelenPerJaar, type OordelenJaar } from "@/lib/db";
 import {
   kantoorPad,
   organisatiePad,
   OPDRACHT_LABEL,
+  procent,
   sectorPad,
   subsectorPad,
 } from "@/lib/paden";
-import {
-  Doorklik,
-  Foutmelding,
-  Kerncijfer,
-  Kruimels,
-  Leeg,
-  Oordeel,
-} from "@/components/onderdelen";
+import { Doorklik, Foutmelding, Kerncijfer, Kruimels, Leeg, Oordeel, Soort } from "@/components/onderdelen";
 
 export const metadata: Metadata = {
   title: "Niet-goedkeurende oordelen en continuïteit",
@@ -24,13 +18,44 @@ export const metadata: Metadata = {
     "paragraaf over continuïteit — per boekjaar, met de grond van de beperking.",
 };
 
-export default async function Bevindingenpagina() {
+/** Deel niet-goedkeurend van de gelezen oordelen bij jaarrekeningcontroles in
+ *  één boekjaar, als percentage; null als dat jaar er niet (of leeg) is. */
+function nietGoedkeurendPct(jaren: OordelenJaar[] | null, boekjaar: number): number | null {
+  const jaar = jaren?.find((j) => j.boekjaar === boekjaar);
+  if (!jaar || !jaar.gelezen) return null;
+  return (100 * (jaar.beperking + jaar.oordeelonthouding + jaar.afkeurend)) / jaar.gelezen;
+}
+
+/**
+ * Eén boekjaar tegelijk, zoals op /wisselingen. Hier stonden alle boekjaren
+ * onder elkaar: op 5-10-2026 685 regels en 1,2 MB HTML, terwijl wie hier
+ * binnenkomt meestal één jaar zoekt. De kerncijfers gaan wel over alle jaren.
+ */
+type Zoek = { searchParams: Promise<{ jaar?: string }> };
+
+export default async function Bevindingenpagina({ searchParams }: Zoek) {
+  const { jaar: jaarRuw } = await searchParams;
   let rijen;
+  let oordelen;
   try {
-    rijen = await bevindingen();
+    // De oordelen per jaar mogen ontbreken of haperen; dan valt alleen de zin
+    // met de percentages weg, niet de hele lijst. oordelenPerJaar() geeft null
+    // bij een ontbrekende view, maar gooit bij elke andere fout (een time-out,
+    // een 5xx) — vandaar de catch, net als los() op de voorpagina.
+    [rijen, oordelen] = await Promise.all([
+      bevindingen(),
+      oordelenPerJaar().catch(() => null),
+    ]);
   } catch (fout) {
     return <Foutmelding fout={fout} />;
   }
+  // Hier stonden de percentages hard in de tekst: "in boekjaar 2022 was 0,8%".
+  // Op 5-10-2026 is dat 1,0% (11 van 1.063), want er kwamen verklaringen bij.
+  // Nu uit v_oordelen_per_jaar, dezelfde reeks als op de voorpagina — met de
+  // noemer erbij, want die telt alleen jaarrekeningcontroles en de lijst op
+  // deze pagina ook WNT- en productieverantwoordingen.
+  const voor = nietGoedkeurendPct(oordelen, 2022);
+  const na = nietGoedkeurendPct(oordelen, 2023);
 
   const perJaar = new Map<number, typeof rijen>();
   for (const rij of rijen) {
@@ -42,6 +67,9 @@ export default async function Bevindingenpagina() {
     );
   }
   const jaren = [...perJaar.keys()].sort((a, b) => b - a);
+  // Standaard het nieuwste boekjaar; een onzinnig jaartal in de URL valt daarop
+  // terug in plaats van een lege pagina te geven.
+  const gekozen = jaren.includes(Number(jaarRuw)) ? Number(jaarRuw) : (jaren[0] ?? null);
 
   const nietGoedkeurend = rijen.filter(
     (r) => r.oordeel && r.oordeel !== "goedkeurend",
@@ -85,11 +113,14 @@ export default async function Bevindingenpagina() {
           informatie die de accountant kón controleren — geen bevinding over de
           jaarrekening. Twee waren inhoudelijk, één had geen vindbare grond.
         </p>
-        <p className="klein" style={{ maxWidth: "46rem" }}>
-          Dat verklaart ook de sprong in de cijfers: in boekjaar 2022 was 0,8% van de
-          oordelen niet-goedkeurend, in 2023 was dat 10,5%. Dat is geen verslechtering
-          van de zorg maar een golf WNT-beperkingen.
-        </p>
+        {voor !== null && na !== null ? (
+          <p className="klein" style={{ maxWidth: "46rem" }}>
+            Dat verklaart ook de sprong in de cijfers: in boekjaar 2022 was{" "}
+            {procent(voor)} van de gelezen oordelen bij jaarrekeningcontroles
+            niet-goedkeurend, in 2023 was dat {procent(na)}. Dat is geen
+            verslechtering van de zorg maar een golf WNT-beperkingen.
+          </p>
+        ) : null}
         {wnt.length + inhoudelijk.length > 0 ? (
           <p className="metaregel">
             <span>{wnt.length} met WNT als grond</span>
@@ -107,12 +138,29 @@ export default async function Bevindingenpagina() {
         )}
       </section>
 
-      {rijen.length === 0 ? (
+      {jaren.length > 1 ? (
+        <nav className="keuzebalk" aria-label="Kies een boekjaar">
+          {jaren.map((j) => (
+            <Link
+              key={j}
+              href={`/bevindingen?jaar=${j}`}
+              className={gekozen === j ? "actief" : undefined}
+              aria-current={gekozen === j ? "page" : undefined}
+            >
+              {j} <span className="zacht">({perJaar.get(j)!.length})</span>
+            </Link>
+          ))}
+        </nav>
+      ) : null}
+
+      {rijen.length === 0 || gekozen === null ? (
         <section className="kaart">
           <Leeg tekst="Geen niet-goedkeurende oordelen in de database." />
         </section>
       ) : (
-        jaren.map((jaar) => (
+        // Eén boekjaar, in dezelfde opmaak als toen ze allemaal onder elkaar
+        // stonden.
+        [gekozen].map((jaar) => (
           <section className="kaart" key={jaar}>
             <h2>Boekjaar {jaar}</h2>
             <div className="tabel-omhulsel">
@@ -161,7 +209,7 @@ export default async function Bevindingenpagina() {
                         )}
                       </td>
                       <td className="zacht klein">
-                        {OPDRACHT_LABEL[rij.type_opdracht] ?? rij.type_opdracht}
+                        <Soort type={rij.type_opdracht} />
                       </td>
                       <td>
                         <Oordeel waarde={rij.oordeel} />
@@ -213,7 +261,6 @@ export default async function Bevindingenpagina() {
             }),
           ),
           { naar: "/wisselingen", tekst: "Alle accountantswisselingen" },
-          { naar: "/organisaties", tekst: "Alle organisaties op naam" },
         ]}
       />
     </>

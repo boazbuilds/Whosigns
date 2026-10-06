@@ -1,0 +1,390 @@
+# whosigns-ocr v1 grootte=1582091 dpi=300 paginas=20
+Balans
+
+Coöperatie Zorgondernemers Twente U.A.
+
+Actief
+
+Vaste activa
+
+Materiële vaste activa
+Inventaris, computer
+
+Vlottende activa
+
+Vorderingen
+Belastingen en premies sociale verzekeringen
+Overige vorderingen
+
+Liquide middelen
+
+Totaal
+
+Passief
+
+Bedrijfsvermogen
+Ledenkapitaal
+
+Voorzieningen
+Egalisatiereserve bijdrage leden
+
+Kortlopende schulden
+Vennootschapsbelasting
+
+Belastingen en premies sociale verzekeringen
+Overige schulden
+
+Totaal
+
+7,
+
+CONCEPT .09-06-2020
+
+31-12-2019 31-12-2018
+€ €
+
+449 728
+
+449 728
+
+0 4,143
+
+54.873 78.264
+54.873 82.407
+44.242 11.055
+99.564 94,190
+31-12-2019 31-12-2018
+€ €
+
+0 0
+
+73.301 31.027
+73.301 31.027
+-2.036 1.320
+3.298 3.446
+25.001 58.397
+26.263 63.163
+
+99.564 94.190
+
+|
+|
+
+
+Winst- en verliesrekening _ Coöperatie Zorgondernemers Twente U.A.
+
+CONCEPT .09-06-2020
+
+2019 2018
+€ €
+Omzet
+Verschotten
+Declaraties gemeentes 1.780.413 1.682.945
+Doorbetaalde vergoedingen aan leden -1.783.439 -1.682.945
+Mutatie verschil afdracht 3.026 0
+nd 0. ed
+Procentuele afdrachten leden 8,50% 150.617 8,00% 144.753
+Contributie leden 19.498 0
+Overige opbrengsten 9.033 0
+Bruto bedrijfsresultaat 179.148 144.753
+Lonen en salarissen 0 -581
+Overige personeelskosten 37.073 18.491
+Afschrijvingen materiële vaste activa 279 279
+Verkoopkosten 80.649 91.909
+Algemene kosten 71.426 32.154
+Som van de bedrijfskosten -195.427 -142.252
+Bedrijfsresultaat -16.279 2.501
+Rentelasten en soortgelijke kosten 1.016 781
+Som van de financiële baten en lasten -1.016 -781
+Resultaat uit gewone bedrijfsuitoefening -17.295 1.720
+Bijzondere basten en lasten
+Afdracht leden voorgaande jaar 12.342 0
+Verschil afdracht Gemeente-leden 0 3.977
+Som van de bijzondere baten en lasten 12.342 3.977
+Resultaat uit bedrijfsuitoefening -4,953 5.697
+
+
+Toelichting op de balans
+
+Coöperatie Zorgondernemers Twente U.A.
+
+Vaste activa
+
+Materiële vaste activa
+
+Inventaris, computer
+Boekwaarde 1 januari
+Mutatie
+Afschrijvingen
+Balans 31 december
+
+Vlottende activa
+
+Vorderingen
+
+Belastingen en premies sociale verzekeringen
+Omzetbelasting suppletie 2018
+
+Omzetbelasting 4e kw
+Balans 31 december
+
+Overige vorderingen
+Debiteuren
+Vorderingen op leden
+Tussenrekening
+Balans 31 december
+
+Liquide middelen
+NL1OTRIO0390126098
+NL40ABNA0584796641
+NL49INGB000829060 1
+Balans 31 december
+
+CONCEPT .09-06-2020
+
+31-12-2019
+
+€
+
+728
+
+279
+449
+
+31-12-2018
+€
+
+1.007
+
+-279
+728
+
+|
+
+7.150
+71.114
+
+78.264
+
+
+Toelichting op de balans
+
+Coöperatie Zorgondernemers Twente U.A.
+
+Passiva
+
+Bedrijfsvermogen
+
+Ledenkapitaal
+
+Balans | januari
+
+Overgang naar egalisatiereserve bijdrage leden
+Balans 31 december
+
+In 2019 gemiddeld 39 leden (2018: 38)
+Voorzieningen
+
+Egalisatiereserve bijdrage leden
+Balans 1 januari
+
+Winst/mutatie
+
+Mutatie
+
+Balans 31 december
+
+CONCEPT 09-06-2020
+
+31-12-2019 31-12-2018
+€ €
+
+0 19.985
+
+0 -19.985
+
+0 0
+
+31.027 0
+-4.953 31.027
+47.227 0
+73.301 31.027
+
+In eerdere jaren is een deel van de bijdragen door leden verantwoord als kapitaalstorting.
+Deze hadden als toevoegingen aan de egalisatiereserve bijdrage leden moeten worden verwerkt.
+In 2018 is dit gecorrigeerd en is bij het indienen van de VPB aangifte aan de Belastingdienst voorgelegd
+
+of deze handelswijze fiscaal acceptabel is.
+Kortlopende schulden
+
+Vennootschapsbelasting
+Balans 1 januari
+Reservering Vpb
+Betaling 2017
+
+Betaling 2019
+
+Balans 31 december
+
+Belastingen en premies sociale verzekeringen
+
+Omzetbelasting suppletie
+Omzetbelasting 4e kw
+Balans 31 december
+
+Overige schulden
+
+Crediteuren
+
+Administratie- en advieskosten
+Doorbetalingen aan zorgondernemers
+Diversen
+
+Balans 31 december
+
+1.320 928
+-1.320 392
+-928 0
+-1.108 0
+-2.036 1.320
+2.896 3.446
+402 0
+3.298 3.446
+21.305 0
+4.500 4.500
+0 1.320
+
+-804 52:577
+
+25.001 58.397
+
+
+Toelichting op winst- en verliesrekening
+
+Coöperatie Zorgondernemers Twente U.A.
+
+Lonen en salarissen
+Uitkering UWV gelden
+
+Gemiddeld aantal werknemers
+
+Gedurende 2019 waren gemiddeld 0 werknemers in dienst op basis van een volledig dienstverband (2018:0)).
+
+Overige personeelskosten
+Inhuur personeel
+Management assistent
+Administratieve bijstand
+Vakcursussen
+
+Afschrijvingen materiële vaste activa
+Inventaris, computer
+
+Verkoopkosten
+
+Kosten vergaderingen
+Managementvergoedingen
+Representatie, beperkt aftrekbaar
+Declaraties km vergoeding management
+Reklame, advertenties e.d.
+
+Kosten klachtenportaal
+
+Reis en verblijfkosten
+
+Vergoeding van Arendonk
+
+Algemene kosten
+
+Administratie- en advieskosten
+Overige advieskosten
+Advocaat/notaris/advies
+
+Kosten aanbesteding / certificering
+Kantoorben,drukwerk ed
+
+Kontributies Zilliz / adm ondersteuning Ziliz
+
+Kosten Zivver
+
+Kontributies/heffingen e.d.
+
+CTO tevredenheidsonderzoek
+
+Mutatie Egalisatiereserve bijdrage leden
+Overige
+
+Rentekosten
+Rente en bankkosten
+
+Voor akkoord:
+
+CONCEPT .09-06-2020
+
+2019 2018
+€ €
+
+0 -581
+
+0 -581
+5.878 7.556
+11.292 0
+19.903 10.058
+0 877
+37.073 18491
+279 29
+279 279
+1.909 3.362
+74.396 74.197
+1.348 297
+710 902
+1.625 0
+661 537
+
+0 114
+
+0 12.500
+80.649 91.909
+7.188 6.393
+1.209 0
+3.515 4.240
+4.318 8.028
+0 279
+6.266 5.563
+2.137 2.036
+2.594 1.093
+2.535 0
+47.227 5.737
+437 -1.215
+11.426 32.154
+L016 781
+L016 781
+
+Almelo, 9 juni 2020
+
+Bestuur
+
+
+Fiscaal bedrijfsresultaat
+
+Coöperatie Zorgondernemers Twente U.A.
+
+Resultaat uit gewone bedrijfsuitoefening
+Niet aftrekbare kosten
+
+Fiscaal bedrijfsresultaat
+Verliesverrekening voorgaande jaren
+Fiscaal resultaat na verliesverrekening
+
+Vennootschapsbelasting
+
+CONCEPT .09-06-2020
+
+2019 2018
+€ €
+-4.953 5.697
+270 59
+-4.683 5.756
+0 -1,073
+-4.683 4.683
+1.320 -392
+

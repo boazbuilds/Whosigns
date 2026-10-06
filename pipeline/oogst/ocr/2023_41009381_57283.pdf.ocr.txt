@@ -1,0 +1,814 @@
+# whosigns-ocr v1 grootte=19428410 dpi=300 paginas=20
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.11 ENKELVOUDIGE BALANS PER 31 DECEMBER 2023
+
+(na resultaatbestemming)
+Ref. 31-dec-2023 31-dec-2022
+
+ACTIVA € €
+
+A VASTE ACTIVA
+
+| Immateriële vaste activa 1
+2. Software 1.337.599 808.402
+4. Goodwil 0 0
+5. Immateriële vaste activa in uitvoering en vooruitbetaald op immateriële vaste activa 1.960.177 2.200.934
+Totaal immateriële vaste activa 3.297.776 3.009.336
+Ĳj Materiële vaste activa 2
+1. Bedrijfsgebouwen- en terreinen 24.319.203 25.442.481
+2. Machines en installaties 116.625 61.257
+3. Andere bedrijfsmiddelen 8.137.082 9.835.927
+4. Vaste bedrijfsmiddelen in uitvoering en vooruitbetaald op materiële vaste activa 381.396 0
+Totaal materiële vaste activa 32.954.306 35.339.665
+HI Financiële vaste activa 3
+4. Vorderingen op participanten en op maatschappijen waarin wordt deelgenomen 12.657 12.657
+Totaal financiële vaste activa 12.657 12.657
+
+B VLOTTENDE ACTIVA
+
+| Voorraden 4
+1. Medische middelen 2.484.320 2.614.070
+2. Voorraad drukwerk 485 485
+3. Voorraad kantoormateriaal 239.718 240.482
+Totaal voorraden 2.724.522 2.855.037
+
+II Vorderingen 6
+1. Op handelsdebiteuren 12.516.896 7.838.168
+2. Op groepsmaatschappijen 647.750 579.676
+7. Overlopende activa 11.130.794 13.108.789
+Totaal vorderingen 24.295.440 21.526.633
+Vv Liquide middelen 8 6.359.648 14.747.617
+C TOTAAL ACTIVA 69.644.349 77.490.944
+Ref. 31-dec-2023 31-dec-2022
+PASSIVA € €
+
+D EIGEN VERMOGEN 9
+| Gestort en opgevraagd kapitaal 107.364 107.364
+Vv Bestemmingsreserves 383.441 4.392.063
+VII Overige reserves 30.416.036 30.974.926
+Totaal eigen vermogen 30.906.842 35.474.353
+
+E VOORZIENINGEN 10
+3. Overige 12.039.735 12.432.748
+Totaal voorzieningen 12.039.735 12.432.748
+
+F LANGLOPENDE SCHULDEN (NOG VOOR MEER DAN EEN JAAR) 11
+3. Schulden aan banken 8.873.751 9.513.291
+Totaal langlopende schulden 8.873.751 9.513.291
+
+G KORTLOPENDE SCHULDEN (TEN HOOGSTE 1 JAAR) 12
+3. Schulden aan banken 639.538 629.341
+4, Vooruit ontvangen op bestellingen 0 0
+5. Schulden aan leveranciers en handelskredieten 5.243.437 4.136.193
+9. Belastingen en premies sociale verzekeringen 3.055.245 2.899.413
+10. Schulden ter zake pensioenen 1.473.316 2.362.060
+11. Overige schulden 4.320.067 5.007.356
+12. Overige passiva 3.092.417 5.036.189
+Totaal kortlopende schulden 17.824.020 20.070.553
+H TOTAAL PASSIVA 69.644.349 77.490.945
+
+Pagina 31
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.12 ENKELVOUDIGE RESULTATENREKENING OVER 2023
+
+Ref. 2023 2022
+€ €
+BEDRIJFSOPBRENGSTEN
+Baten uit beroeps- of bedrijfsmatige zorgverlening 16 109.515.640 112.038.278
+Netto omzet 109.515.640 112.038.278
+Overige bedrijfsopbrengsten 20 5.489.061 8.461.413
+Som der bedrijfsopbrengsten 115.004.701 120.499.691
+BEDRIJFSLASTEN
+Kosten van uitbesteed werk en andere externe kosten 21 5.362.181 5.501.862
+Lonen, salarissen, sociale lasten en pensioenlasten 22 71.556.723 71.749.058
+Afschrijvingen op immateriële en materiële vaste activa 23 3.931.222 3.737.765
+Overige bedrijfskosten 26 38.577.583 39.689.881
+Som der bedrijfslasten 119.427.709 120.678.566
+BEDRIJFSRESULTAAT -4.423.008 -178.875
+Andere rentebaten en soortgelijke opbrengsten 27 36.341 8.783
+Rentelasten en soortgelijke kosten 27 -180.844 -220.510
+RESULTAAT BOEKJAAR -4,567.512 -390.603
+RESULTAATBESTEMMING
+Het resultaat is als volgt verdeeld: 2023 2022
+€ €
+Toevoeging/(onttrekking):
+Bestemmingsreserve ICT, digitalisering en data -4.008.622 -3.053.723
+Algemene / overige reserves -558.890 2.663.120
+-4,567.512 -390.603
+
+Pagina 32
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.14 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+Voor zover posten uit de enkelvoudige balans niet afwijken van de geconsolideerde balans zijn deze hierna niet nader toegelicht en wordt verwezen
+naar de toelichting op de geconsolideerde balans.
+
+1. IMMATERIËLE VASTE ACTIVA
+
+Het verloop van de immateriële activa in het verslagjaar is als volgt weer te geven: 2023 2022
+
+€ €
+Boekwaarde per 1 januari 3.009.336 1.363.227
+Bij: investeringen 554.528 1.891.021
+Af: afschrijvingen 266.088 244.911
+Boekwaarde per 31 december 3.297.776 3.009.337
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de immateriële vaste activa per activagroep wordt verwezen naar het mutatieoverzicht onder 5.1.15.
+
+2. MATERIËLE VASTE ACTIVA
+
+Het verloop van de materiële activa in het verslagjaar is als volgt weer te geven: 2023 2022
+
+€ €
+Boekwaarde per 1 januari 35.339.665 38.488.538
+Bij: investeringen 1.279.775 3.969.237
+Af: afschrijvingen 3.665.134 3.492.854
+Af: desinvesteringen 0 3.625.257
+Boekwaarde per 31 december 32.954,306 35.339,664
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de materiële vaste activa per activagroep wordt verwezen naar het mutatieoverzicht onder 5.1.16.
+De vaste activa zijn als zekerheid gesteld voor de langlopende schulden. Voor een nadere toelichting wordt verwezen naar het overzicht van de langlopende
+leningen in bijlage 5.1.18.
+
+3. FINANCIËLE VASTE ACTIVA
+
+Het verloop van de financiële vaste activa is als volgt: 2023 2022
+
+€ €
+Boekwaarde per 1 januari 12.657 12.657
+Boekwaarde per 31 december 12.657 12.657
+Toelichting:
+
+Voor een nadere specificatie van het verloop van de financiële vaste activa per activagroep wordt verwezen naar het mutatieoverzicht onder 51.17.
+
+Toelichting op belangen in andere rechtspersonen of vennootschappen:
+
+Naam en rechtsvorm en woonplaats Verschaft Kapitaalbelang
+
+rechtspersoon Kernactiviteit kapitaal (in %) Eigen vermogen Resultaat
+€ €
+
+Rechtstreekse kapitaalbelangen >= 20%:
+
+KCL BioAnalysis B.V, Leeuwarden Medische trials 18.000 100% -199.506 11.347
+
+Pagina 33
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.14 TOELICHTING OP DE ENKELVOUDIGE BALANS
+ACTIVA
+
+4. VOORRADEN
+De specificatie is als volgt: 2023 2022
+€ €
+Medische middelen 2.484.319 2.614.070
+Voorraad drukwerk 485 485
+Voorraad kantoormateriaal 239.718 240.482
+Totaal voorraden 2.724.522 2.855.037
+Toelichting:
+
+Op de voorraden is geen voorziening voor incourantheid opgenomen.
+Op de voorraden is pandrecht gevestigd als zekerheid gesteld voor de langlopende schulden. Voor een nadere toelichting wordt verwezen naar het overzicht van
+de langlopende leningen in bijlage 5.1.18.
+
+ACTIVA
+
+6. VORDERINGEN
+
+De specificatie is als volgt: 31-dec-2023 31-dec-2022
+€ €
+
+Vorderingen op debiteuren 12.516.896 7.838.168
+
+Vorderingen op groepsmaatschappijen 647.750 579.676
+
+Vooruitbetaalde bedragen:
+
+- personeel 107.296 119.899
+
+- kosten 1.798.245 2.478.859
+
+Nog te ontvangen bedragen:
+
+- facturatie 8.854.120 10.179.992
+
+- creditnota's/ overige vorderingen 0 0
+
+Overige overlopende activa:
+
+- overige overlopende activa 371.131 330.039
+
+Totaal debiteuren en overige vorderingen 24.295.438 21.526.632
+
+Toelichting:
+
+De voorziening die in aftrek op de vorderingen debiteuren is gebracht, bedraagt € 64.035 (2022: € 35.931).
+
+8. LIQUIDE MIDDELEN
+
+De specificatie is als volgt: 31-dec-2023 31-dec-2022
+€ €
+
+Bankrekeningen 6.359.648 14.747.617
+
+Totaal liquide middelen 6.359.648 14.747.617
+
+Toelichting:
+De liguide middelen zijn vrij beschikbaar.
+
+Pagina 34
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.14 TOELICHTING OP DE ENKELVOUDIGE BALANS
+PASSIVA
+
+9. EIGEN VERMOGEN
+Het eigen vermogen bestaat uit de volgende componenten: 31-dec-2023 31-dec-2022
+€ €
+Kapitaal 107.364 107.364
+Bestemmingsreserves 383.441 4.392.063
+Algemene en overige reserves 30.416.036 30.974.926
+Totaal eigen vermogen 30.906.842 35.474.353
+Kapitaal
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2023 bestemming mutaties 31-dec-2023
+€ € € €
+Kapitaal 107.364 0 0 107.364
+Totaal kapitaal 107.364 0 0 107.364
+Bestemmingsreserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2023 bestemming mutaties 31-dec-2023
+€ € € €
+Bestemmingsreserves:
+ICT, digitalisering en data 4.392.063 -4.008.622 0 383.441
+Totaal bestemmingsreserves 4.392.063 -4,008.622 0 383.441
+Algemene en overige reserves
+Saldo per Resultaat- Overige Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2023 bestemming mutaties 31-dec-2023
+€ € € €
+Algemene reserves:
+- algemene reserve 30.974.926 4.008.622 0 34.983.548
+- resultaat 0 -4.567.512 0 -4.567.512
+Totaal algemene en overige reserves 30.974.926 -558.890 0 30.416.036
+
+Toelichting:
+
+Het aansprakelijk vermogen bestaat uit het groepsvermogen en de achtergestelde lening(en) die onder de langlopende schulden verwerkt zijn. Het aansprakelijk
+vermogen per 31 december 2023 bedraagt € 31,0 miljoen (2022: € 35,0 miljoen).
+
+De bestemmingsreserve ICT, digitalisering en data is ter dekking van de kosten die in de periode 2021 tot en met 2024 gemaakt moeten worden in het kader van
+de optimalisering van het applicatielandschap van Certe en voor de kosten op het gebied van datadelen, digitalisering en digitale verbindingen.
+
+Pagina 35
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.14 TOELICHTING OP DE ENKELVOUDIGE BALANS
+PASSIVA
+
+10. VOORZIENINGEN
+Saldo per Dotatie Onttrekking Vrijval Saldo per
+Het verloop is als volgt weer te geven: 1-jan-2023 31-dec-2023
+€ € € € €
+- persoonlijk levensfasebudget 9.797.807 0 189.430 63.079 9.545.298
+- jubileumverplichtingen 1.752.379 0 78.780 165.062 1.508.537
+- einde dienstverband 388.209 1.094.354 696.169 0 786.394
+- Voorziening KCL BioAnalysis 210.853 0 11.347 0 199.506
+- overige voorzieningen 283.500 0 283.500 0 0
+Totaal voorzieningen 12.432.748 1.094.354 1.259.226 228.141 12.039.735
+
+Toelichting in welke mate de jubileumvoorziening als langlopend moet worden beschouwd:
+
+31-dec-2023
+Kortlopend deel van de voorzieningen (< 1 jr.) 87.637
+Langlopend deel van de voorzieningen (> 1 jr.) 1.420.900
+hiervan > 5 jaar 996.470
+
+Toelichting per categorie voorziening:
+
+Voorziening persoonlijk levensfasebudget
+
+Met ingang van 1 januari 2010 ontvangt de werknemer een Persoonlijk levensfasebudget (PLB) voor dat kalenderjaar. De werkgever voert de administratie van het
+PLB. Het PLB wordt in beginsel aangewend voor bestedingsdoelen in de tijd. Het doel van de regeling is de werknemer de mogelijkheid te geven een gespaard
+budget te gebruiken als zijn levensfase daartoe aanleiding geeft. Met de invoering van PLB-uren is beoogd de duurzame inzetbaarheid van de werknemer te
+bevorderen. Het PLB kent geen verjaringstermijn. De gehanteerde disconteringsvoet is 0%. De dotatie is een resultante van dotaties en ontrekkingen.
+
+Voorziening jubileumverplichtingen
+
+Vanuit de cao heeft de stichting een verplichting met betrekking tot dienstjaren gratificatie. De werknemer die onafgebroken in dienst van de werkgever is
+geweest, heeft recht op een eenmalige gratificatie van:
+
+- een kwart van het salaris bij een dienstverband van 12,5 jaar;
+
+- de helft van het salaris bij een dienstverband van 25 jaar;
+
+- een volledig salaris bij een dienstverband van 40 jaar en;
+
+- de helft van het salaris bij het bereiken van de pensioengerechtigde leeftijd.
+
+Indien de contractuele arbeidsduur in de relevante dienstjaren (een) wijziging(en) heeft ondergaan, wordt het salaris naar evenredigheid verhoogd of verlaagd.
+Voor deze verplichtingen heeft de stichting een voorziening getroffen om bepaalde schommelingen op te vangen. Bij de bepaling van deze voorziening zijn de
+volgende uitgangspunten gehanteerd:
+
+- CBS sterftetabellen;
+
+-_ jaarlijkse salarisverhoging;
+
+-_blijfkans: variabel;
+
+-__disconterinesvoeten:
+
+e Looptijd vanaf 0 jaar tot 5 jaar: 0,62%
+e Looptijd vanaf 5 jaar tot 15 jaar: 1,04%
+e Looptijd vanaf 15 jaar tot 20 jaar: 1,20%
+e Looptijd vanaf 20 jaar tot 25 jaar: 1,39%
+e Looptijd vanaf 25 jaar tot 30 jaar: 1,74%
+e Looptijd vanaf 30 jaar tot 35 jaar: 2,08%
+e Looptijd vanaf 35 jaar tot 40 jaar: 2,37%
+
+Voorziening eindedienstverband uitkering
+
+De voorziening eindedienstverband uitkering betreft een voorziening uit hoofde van een cao-verplichting. Bij het beëindigen van de arbeidsovereenkomst, waarbij
+wordt voldaan aan de voorwaarden, zoals deze zijn gesteld in de cao, heeft de werknemer recht op een gratificatie. De voorziening betreft de contante waarde van
+de toekomstige uit te keren gratificaties. De berekening is gebaseerd op gedane toezeggingen, blijfkans en leeftijd.
+
+Voorziening KCL BioAnalysis
+De voorziening deelneming betreft een voorziening voor het negatieve vermogen van de 100% dochter KCL BioAnalysis B.V.
+
+Overige voorzieningen
+De overige voorziening betrof een te verwachten claim van een leverancier. Dit is in 2023 afgewikkeld.
+
+Pagina 36
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.14 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+11. LANGLOPENDE SCHULDEN (NOG VOOR MEER DAN EEN JAAR)
+
+Het verloop is als volgt weer te geven: 2023 2022
+€ €
+
+Stand per 1 januari 10.142.632 10.777.941
+
+Bij: nieuwe leningen 0 0
+
+Af: aflossingen 629.343 635.309
+
+Stand per 31 december 9.513.289 10.142.632
+
+Af: aflossingsverplichting komend boekjaar 639.538 629.341
+
+Stand langlopende schulden per 31 december 8.873.751 9.513.291
+
+Toelichting in welke mate (het totaal van) de langlopende schulden als langlopend moeten worden beschouwd:
+
+Kortlopend deel van de langlopende schulden (< 1 jr), aflossingsverplichtingen 639.538 629.341
+
+Langlopend deel van de langlopende schulden (> 1 jr.) (balanspost) 8.873.751 9.513.293
+
+hiervan > 5 jaar 6.315.598 6.995.925
+
+Voor een nadere toelichting op de langlopende schulden wordt verwezen naar de bijlage overzicht langlopende schulden.
+
+De aflossingsverplichtingen komend boekjaar zijn verantwoord onder de kortlopende schulden.
+
+Toelichting:
+
+De verstrekte zekerheden voor de opgenomen lening bij de ING luiden als volgt:
+
+e hypothecaire zekerheid op bedrijfsgebouwen en -terreinen;
+
+e pandrecht op de vorderingen;
+
+e pandrecht op de machines en installaties.
+
+De reële waarde van de leningen is € 9.513.289 (2022: € 10.142.630).
+
+12. KORTLOPENDE SCHULDEN (TEN HOOGSTE 1 JAAR)
+
+De specificatie is als volgt: 31-dec-2023 31-dec-2022
+€ €
+
+Aflossingsverplichtingen komend boekjaar langlopende leningen 639.538 629.341
+
+Vooruitontvangen opbrengsten 0 0
+
+Crediteuren 5.243.436 4.136.192
+
+Belastingen en premies sociale verzekeringen 3.055.245 2.899.413
+
+Schulden terzake pensioenen 1.473.316 2.362.060
+
+Overige schulden:
+
+- nog te betalen salarissen 50.961 -560
+
+- te ontvangen facturen 863.800 942.884
+
+- vakantiegeld 2.384.656 2.411.566
+
+- vakantiedagen 1.020.650 1.653.466
+
+Overige overlopende passiva:
+
+- overlopende passiva 3.092.417 5.036.190
+
+Totaal overige kortlopende schulden 17.824.019 20.070.553
+
+Pagina 37
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.14 TOELICHTING OP DE ENKELVOUDIGE BALANS
+
+14. NIET IN DE BALANS OPGENOMEN VERPLICHTINGEN EN ACTIVA
+
+Omzetbelasting
+
+De stichting maakt onderdeel uit van de volgende fiscale eenheid voor de omzetbelasting:
+
+e Stichting Certe Medische Diagnostiek en Advies
+
+e KCL BioAnalysis B.V, Leeuwarden (100% dochter van Stichting Certe Medische Diagnostiek en Advies)
+
+en is uit dien hoofde hoofdelijk aansprakelijk voor de schulden van de fiscale eenheid.
+
+Huurverplichtingen
+
+De stichting huurt ruimten zowel op locatie als in het werkgebied. Doorgaans is de huur mondeling overeengekomen, terwijl de schriftelijke huurovereenkomsten
+een gemiddelde looptijd van 5 jaar hebben.
+
+De jaarlijkse verplichting bedraagt voor het komende jaar € 690.000, voor de komende 5 jaar € 1.198.000 en daarna € 16.200.
+
+Licentieovereenkomsten
+De jaarlijkse verplichting bedraagt voor het komende jaar € 607.000, voor de komende 5 jaar € 1.1390.000 en daarna € 7.200.
+
+Onderhoudscontracten
+De stichting heeft diverse onderhoudscontracten met variërende looptijden en opzegtermijnen. De jaarlijkse verplichting bedraagt voor het komende jaar €
+2.388.000, voor de komende 5 jaar € 4.863.000 en daarna € 5.700.
+
+Leveringsovereenkomst
+
+De jaarlijkse verplichting bedraagt voor het komende jaar € 943.000, voor de komende 5 jaar € 2.460.000 en daarna € 229.000.
+Vergunning
+
+De jaarlijkse verplichting bedraagt voor het komende jaar € 95.000, voor de komende 5 jaar € 184.000 en daarna € 1.900.
+
+Dienstencontract
+De jaarlijkse verplichting bedraagt voor het komende jaar € 885.000, voor de komende 5 jaar € 2.072.000 en daarna € 191.000.
+
+Abonnement
+De jaarlijkse verplichting bedraagt voor het komende jaar € 870.000, voor de komende 5 jaar € 1.287.000 en daarna € 11.000.
+
+Raam- c.q. Mantelcontract
+De jaarlijkse verplichting bedraagt voor het komende jaar € 198.000 en voor de komende 5 jaar € 198.000.
+
+Samenwerkingscontract
+De jaarlijkse verplichting bedraagt voor het komende jaar € 11.000 en voor de komende 5 jaar € 20.000.
+
+Leaseverplichting
+De jaarlijkse verplichting bedraagt voor het komende jaar € 714.656, voor de komende 5 jaar € 2.529.059 en daarna € 18.622.
+
+Claim zorgverzekeraar
+Er is een claim gericht aan Certe van circa € 395.000. De claim is niet tot waardering gebracht omdat het risico in de ogen van Certe niet bij Certe ligt.
+
+Pagina 38
+
+
+Certe i i iek en Advies i d
+
+5,1.15 ENKELVOUDIG ATIEOVERZICHT IMMATERIELE VASTE ACTIVA
+
+Immateriële vaste
+
+Kosten van bedrijfsactiva in
+concessies, uitvoering en
+Kosten op- vergunningen Kosten van vooruitbe-
+richting en en rechten van goodwill die talingen op
+uitgifte van intellectuele van derden is immateriële Totaal
+del Software eigendom verkregen activa
+€ € € € € €
+STAND PER 1 JANUARI 2023
+- aanschafwaarde 2.314.991 100.000 2.200.934 4.615.925
+= cumulatieve afschrijvingen 1.506.589 100.000 0 1.606.589
+BOEKWAARDE PER 1 JANUARI 2023 0 808.402 0 0 2.200.934 3.009.336
+MUTATIES IN HET BOEKJAAR
+= investeringen 795.285 0 =240.757 554.528
+- afschrijvingen 266.088 0 0 266.088
+MUTATIES IN BOEKWAARDE (PER SALDO) Ie) 529.197 0 0 -240.757 288.440
+STAND PER 31 DECEMBER 2023
+- aanschafwaarde 3.110.276 100.000 1.960.177 5.170.453
+= cumulatieve afschrijvingen 1.772.677 100.000 0 1.872.677
+BOEKWAARDE PER 31 DECEMBER 2023 0 1.337.599 0 0 1.960.177 3.297.776
+Afschrijvingspercentage 20,0% 20,0% 20,0%
+
+De investeringen onder software betreffen voornamelijk de investering in het centraal facturatiesysteem. Hiervan is een bedrag van € 758.292 afkomstig uit de immateriële vaste bedrijfsactiva in uitvoering en vooruitbetalingen op immateriële vaste activa,
+wat resulteert in een negatief investeringsbedrag bij de immateriële vaste bedrijfsactiva in uitvoering.
+
+waarmerkifigfdoeleinden
+
+Pagina 39
+
+
+Certe i i iek en Advies i d
+
+5.1.16 ENKELVOUDIG ATIEOVERZICHT MATERIELE VASTE ACTIVA
+
+Andere vaste Materiële vaste
+bedrijfs- bedrijfsactiva in
+middelen, uitvoering en Niet aan het
+Bedrijfs- technische en vooruit ü bedrij oces
+gebouwen en Machines en administratieve op materiële dienstbare Totaal
+rreinen i i i Ï vaste activa materiële activa
+€ € € € € €
+STAND PER 1 JANUARI 2023
+- aanschafwaarde 32.532.583 3.516.266 38.446.938 0 74.495.787
+- cumulatieve herwaarderingen 0
+- cumulatieve afschrijvingen 7.090.102 3.455.009 28.611.011 0 39.156.122
+BOEKWAARDE PER 1 JANUARI 2023 25.442 481 61.257 9.835.927 0 0 35.339.665
+MUTATIES IN HET BOEKJAAR
+- investeringen 43.353 70.085 784.941 381.396 1.279.775
+- herwaarderingen 0 0 0 0 0
+- afschrijvingen 1.166.631 14.717 2.483.786 0 3.665.134
+- desinvesteringen
+aanschafwaarde 0 0 13.635 0 13.635
+cumulatieve afschrijvingen 0 0 13.635 0 13.635
+per saldo 0 0 0 0 0 0
+MUTATIES IN BOEKWAARDE (PER SALDO) -1.123.278 55.368 -1.698.845 381.396 0 -2.385.359
+STAND PER 31 DECEMBER 2023
+- aanschafwaarde 32.575.936 3.586.351 39.218.244 381.396 75.761.927
+- cumulatieve afschrijvingen 8.256.733 3.469.726 31.081.162 0 42.807.621
+BOEKWAARDE PER 31 DECEMBER 2023 24.319.203 116.625 8.137.082 381.396 0 32.954.306
+Afschrijvingspercentage 2 tot 10% 2tot 10% 10 tot 20% 0,0%
+
+waarmerkifigfdoeleinden
+
+Pagina 40
+
+
+Certe Medische Di, iek en Advies lideerd
+
+17 ENKELVOUDIG ATIEOVERZICHT FINANCIELE VASTE ACTIVA
+
+Dit betreft een deelneming van € 5.157 in en een lening van € 7.500 aan Phebe B.V.
+
+Vorderingen op
+participanten en op
+
+Deel in ingroeps- _Vorderi op groeps- maatschappijen waarin
+ije ij Andere ú wordt Overige effecten Overige vorderingen Totaal
+€ € € € € € €
+STAND PER 1 JANUARI 2023 0 0 0 12.657 0 0 12.657
+BOEKWAARDE PER 31 DECEMBER 2023 0 0 0 12657 0 0 12.657
+SOM WAARDEVERMINDERINGEN 0
+
+waarmerkifigfdoeleinden
+
+Pagina 41
+
+
+Certe i i iek en Advies i d
+
+8 Overzicht langlopende schulden ultimo 2023 (enkelvoudig)
+
+BIJLAGE
+
+ING Bank N.V. 1-apr-16 6.150.000 10 Lineair 2,65% 4.066.668 0 312.502 3.754.166 2.191.666 3 Constant 312.500 _|Hypothecaire en pandrecht
+ING Bank N.V. 1-jul-92 1.633.609 33 Lineair 2,65% 416.572 0 32.672 383.900 220.539 3 Lineair 32.672 [Hypothecaire en pandrecht
+ING Bank N.V. 1-jun-99 1.361.341 25 Annuiteir 2,75% 609.208 0 58.571 550.636 249.640 2 Annuiteit 60.199 Hypothecaire en pandrecht
+ING Bank N.V. 1-apr-11 2.000.000 22 Onderhandse 1,78% 350.184 0 25.598 324.586 153.753 11 Lineair 34.167 Hypothecaire en pandrecht
+ING Bank N.V. 1-jul-21 5.000.000 10 Lineair 0,90% 4.700.000 0 200.000 4.500.000 3.500.000 8 Lineair 200.000 [Hypothecaire en pandrecht
+[Totaal 16.144.950 10.142.632 0 629.343 9.513.289 6.315.598) 639.538
+
+Pagina 42
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.19 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+Voor zover posten uit de enkelvoudige resultatenrekening niet afwijken van de geconsolideerde resultatenrekening
+zijn deze hierna niet nader toegelicht en wordt verwezen naar de toelichting op de geconsolideerde resultatenrekening.
+
+BATEN
+
+16. BATEN UIT BEROEPS- OF BEDRIJFSMATIGE ZORGVERLENING
+
+Netto omzet 2023 2022
+
+€ €
+16.1 Zorgverzekeringswet 109.176.301 111.486.579
+16.2 Subsidie regeling als bedoeld in de Kaderwet VWS-subsidies of Wet langdurig zorg 174.064 353.369
+16.3 Beschikbaarheidbijdrage zorgfuncties 165.275 198.330
+Totaal netto omzet 109.515.640 112.038.278
+
+16.1 Zorgverzekeringswet
+
+2023 2022
+De specificatie is als volgt: € €
+Opbrengsten zorgverzekeringswet 109.176.301 111.486.579
+Totaal 109.176.301 111.486.579
+
+Toelichting:
+In deze post is een mutatie op onderhanden DBC's en DBC-zorgproducten begrepen van € 1.989.605 (2022: € 1.618.661).
+
+16.3 Subsidie op grond van een regeling als bedoeld in de Kaderwet VWS-subsidies of door het Zorginstituut op grond van de Wet langdurig zorg
+
+De baten subsidie op grond van een regeling als bedoeld in de Kaderwet VWS-subsidies of door het
+
+Zorginstituut op grond van de Wet langdurig zorg zijn als volgt samengesteld: 2023 2022
+
+€ €
+Rijkssubsidies vanwege het Ministerie van VWS 174.064 353.369
+Totaal 174.064 353.369
+
+20. OVERIGE BEDRIJFSOPBRENGSTEN
+
+De overige bedrijfsopbrengsten (niet uit andere beroeps- of bedrijfsmatige activiteiten)
+
+zijn als volgt samengesteld: 2023 2022
+
+€ €
+Overige subsidies, waaronder loonkostensubsidies en EU-subsidies 30.620 40.681
+Overige opbrengsten (waaronder vergoeding voor uitgeleend personeel en verhuur onroerend goed) 5.458.441 8.420.731
+Totaal 5.489.061 8.461.413
+
+Pagina 43
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.19 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+
+LASTEN
+
+21. KOSTEN VAN UITBESTEED WERK EN ANDERE EXTERNE KOSTEN
+
+De kosten van uitbesteed werk en andere externe kosten zijn als volgt samengesteld: 2023 2022
+€ €
+Personeel niet in loondienst 5.076.191 5.262.446
+Honorariumkosten vrijgevestigde medisch specialisten 285.990 239.416
+Totaal 5.362.181 5.501.862
+22. LONEN, SALARISSEN, SOCIALE LASTEN EN PENSIOENLASTEN
+De specificatie is als volgt: 2023 2022
+€ €
+Lonen en salarissen 58.361.483 58.553.366
+Sociale lasten 8.488.140 8.297.291
+Pensioenpremies 4.707.101 4.898.401
+Totaal personeelskosten 71.556.723 71.749.058
+Toelichting:
+Onder de lonen en salarissen is voor een bedrag van € 3.319.310 (2022: € 4.832.310) begrepen aan overige personeelskosten.
+Specificatie gemiddeld aantal personeelsleden (in FTE's) per segment:
+Direct. Informatievoorz. 55 60
+Divisie BML 203 199
+Divisie ELD 115 122
+Divisie KC 326 344
+Divisie MMB 174 180
+Raad van Bestuur en ondersteunende diensten 122 144
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 995 1.049
+Aantal personeelsleden dat buiten Nederland werkzaam is 0 0
+23. AFSCHRIJVINGEN OP IMMATERIËLE EN MATERIËLE VASTE ACTIVA
+De specificatie is als volgt: 2023 2022
+€ €
+Afschrijvingen:
+- immateriële vaste activa 266.089 244.910
+- materiële vaste activa 3.665.133 3.492.855
+Totaal afschrijvingen 3.931.222 3.737.765
+
+Pagina 44
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.19 TOELICHTING OP DE ENKELVOUDIGE RESULTATENREKENING
+LASTEN
+
+26. OVERIGE BEDRIJFSKOSTEN
+
+De specificatie is als volgt: 2023 2022
+
+€ €
+Algemene kosten 11.961.771 11.731.589
+Patiënt- en bewonersgebonden kosten 22.714.507 24.781.983
+Onderhoud en energiekosten 1.799.306 1.113.179
+Huur en leasing 2.049.793 2.049.365
+Dotaties en vrijval voorzieningen 52.207 13.765
+Totaal overige bedrijfskosten 38.577.583 39.689.881
+
+27. FINANCIËLE BATEN EN LASTEN
+
+De specificatie is als volgt: 2023 2022
+
+€ €
+Rentebaten 32.273 6.300
+Overige opbrengsten financiële vaste activa en effecten 4,067 2.483
+Subtotaal financiële baten 36.341 8.783
+Rentelasten -190.937 -220.187
+Resultaat deelnemingen 11.347 -323
+Overige financiële lasten -1.254 0
+Subtotaal financiële lasten -180.844 -220.510
+Totaal financiële baten en lasten -144.504 -211.728
+
+Pagina 45
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.1.20 VASTSTELLING EN GOEDKEURING
+
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Stichting Certe Medische Diagnostiek en Advies heeft de jaarrekening 2023 opgemaakt en vastgesteld in de
+vergadering van 23 mei 2024.
+
+De raad van toezicht van de Stichting Certe Medische Diagnostiek en Advies heeft de jaarrekening 2023 goedgekeurd in de
+vergadering van 23 mei 2024.
+
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 5.2.1.
+
+Gebeurtenissen na balansdatum
+
+Er zijn geen gebeurtenissen na balansdatum.
+
+Ondertekening door bestuurders en toezichthouders
+
+G. de Kort, bestuurder
+
+H. Bakker, voorzitter RvT A. Claassen, RvT
+A. Siezen, RvT R.F. Dijkstra, RvT
+H. Lens, RvT
+
+Pagina 46
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.2 OVERIGE GEGEVENS
+
+Geparafégrd voor
+WaarmerkiAgpdoeleinden
+Pagina 47
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+2 OVERIGE VENS
+
+5.2.1 Statutaire regeling resultaatbestemming
+In de statuten van Stichting Certe Medische Diagnostiek en Advies is geen specifieke bepaling opgenomen omtrent de bestemming van het resultaat.
+
+Voorgesteld wordt € 4.008.622 ten laste te brengen van de bestemmingsreserve 'ICT, digitalisering en data ' en € 558.890 ten laste te brengen van de algemene
+reserve.
+
+5.2.2 Nevenvestigingen
+
+Stichting Certe Medische Diagnostiek en Advies heeft geen nevenvestigingen.
+
+5.2.3 Controleverklaring van de onafhankelijke accountant
+
+De controleverklaring van de onafhankelijke accountant is opgenomen op de volgende pagina.
+
+waarmerkifgfdoeleinden
+
+Pagina 48
+
+
+Stichting Certe Medische Diagnostiek en Advies geconsolideerd
+
+5.2 OVERIGE GEGEVENS
+
+5.2.3 Controleverklaring van de onafhankelijke accountant
+
+Pagina 49
+
+
+CERTE
+
+MEDISCHE DIAGNOSTIEK & ADVIES
+
+ZEKER VOOR ZORG
+
+Postbus 909 | 9700 AX Groningen | 088 - 23 70 100 | info@certe.nl
+
+Geparafégrd voor
+WaarmerkiAgpdoeleinden
+

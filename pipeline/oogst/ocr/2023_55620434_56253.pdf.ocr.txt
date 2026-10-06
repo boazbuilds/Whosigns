@@ -1,0 +1,1131 @@
+# whosigns-ocr v1 grootte=8512268 dpi=300 paginas=20
+Pathan B.V. te Rotterdam
+Jaarrekening 2023 paf
+
+2. Jaarrekening 2023
+
+Gewaarmerkt voor identificatiedoeleinaen
+Visser & Visser Audit en Assurance B.V.
+
+02 MEI 2024
+
+Pathan B.V. te Rotterdam pathan
+
+Jaarrekening 2023
+
+2.1 BALANS PER 31 DECEMBER 2023
+(na resultaatverdeling)
+
+ACTIVA ref, 31 december 2023 31 december 2022
+(in euro's)
+VASTE ACTIVA
+Immateriële vaste activa 1
+Vooruitbetaald op immateriële vaste activa - 540.533
+Immateriële vaste activa 601.905 -
+601.905 540.533
+Materiële vaste activa 2
+Bedrijfsgebouwen en -terreinen 220.937 252.268
+Andere vaste bedrijfsmiddelen 1.218.080 1.158.438
+1.439.017 1.410.706
+Financiële vaste activa 3
+Overige deelnemingen 19.291 19.167
+TOTAAL VASTE ACTIVA 2.060.213 1.970.406
+VLOTTENDE ACTIVA
+Voorraden 4
+Gereed product en handelsgoederen 152.803 138.897
+Vorderingen 5
+Debiteuren 2.154.571 717.101
+Overige vorderingen 2.186.291 1.163.744
+Overlopende activa 116.739 129.185
+4.457.601 2.010.030
+Liquide middelen 6 1.066.061 1.913.487
+TOTAAL VLOTTENDE ACTIVA 5.676.465 4.062.414
+TOTAAL ACTIVA 7.736.678 6.032.820
+PASSIVA 31 december 2023 31 december 2022
+(in euro's)
+EIGEN VERMOGEN 7
+Gewoon aandelenkapitaal 30.713 25.596
+Agioreserve 812.781 376.612
+Overige reserves 1.789.044 1.541.320
+2.632.538 1.943.528
+VOORZIENINGEN 8
+Overige 755.843 527.287
+LANGLOPENDE SCHULDEN 9
+{voor meer dan een jaar)
+Schulden aan participanten 885.765 963.818
+KORTLOPENDE SCHULDEN 10
+{ten hoogste 1 jaar)
+Schulden aan leveranciers en handelskredieten 897.687 599.395
+Belastingen en premies sociale verzekeringen 415,548 356.202
+Schulden terzake pensioenen 220.626 179.960
+Overige schulden 1.928.673 1.462.631
+3.462.534 2.598.188
+TOTAAL PASSIVA 7.736.678 6.032.820
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+02 MEI 2024
+
+Jaarrekening 2023
+
+Pathan B.V. te Rotterdam pathan
+
+2.2 WINST- EN VERLIESREKENING OVER 2023
+(in euro's)
+
+ref. 2023 2022
+Baten uit beroeps- of bedrijfsmatige zorgverlening:
+Opbrengsten zorgverzekeringswet 12 15.492,69 12.701.498
+Subsidies 13 192.163 192.651
+NETTO OMZET 15.684.859 12894149
+Overige bedrijfsopbrengsten 14 12.253 22.205
+SOM DER BEDRIJFSOPBRENGSTEN 15.697.112 12.916.354
+Kosten van grond- en hulpstoffen 15 2.883.762 2.405.001
+Lonen en salarissen 16 7.650.302 6.468.259
+Sociale lasten 16 982.875 873.063
+Pensioenpremies 16 649.501 562.420
+Overige personeelskosten 16 785.100 894.858
+Afschrijvingen op materiële vaste activa 17 532.223 483.338
+Overige bedrijfskosten 18 1.952.010 1.543.957
+SOM DER BEDRIJFSLASTEN 15,435.773 13.230.896
+BEDRIJFSRESULTAAT 261.339 -314.542
+Rentelasten en soortgelijke kosten 19 -13.739 -20,369
+RESULTAAT BOEKJAAR 247.600 -334,911
+RESULTAATBESTEMMING
+Het resultaat wordt als volgt verdeeld: 2023 2022
+Toevoeging:
+Overige reserves 247.600 -334.911
+247.600 -334.91î
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+02 MEI 2024
+
+10
+
+Pathan B.V. te Rotterdam path
+
+Jaarrekening 2023
+
+2.3 KASSTROOMOVERZICHT OVER 2023
+
+ref. 2023 2022
+
+KASSTROOM UIT OPERATIONELE ACTIVITEITEN
+Bedrijfsresultaat 261.339 -314.542
+
+Aanpassingen voor:
+- afschrijvingen en overige waardeverminderingen 535.814 483.338
+= mutaties voorzieningen 228.556 -24,342
+764.369 458.996
+Veranderingen in werkkapitaal:
+= voorraden -13.906 -11.527
+
+- debiteuren en overige vorderingen -2,447.571 350.172
+- kortlopende schulden (excl. schulden aan banken) 837.399 175.098
+„1.624.078 513.743
+
+Kasstroom uit bedrijfsoperaties -598.369 658.197
+
+Ontvangen interest 5.551
+
+Betaalde interest -12.041 -13.120
+8.490 -13.120
+
+TOTAAL KASSTROOM UIT OPERATIONELE -604.859 645.077
+ACTIVITEITEN
+
+KASSTROOM UIT INVESTERINGSACTIVITEITEN
+
+Investeringen materiële vaste activa -329.553 -197,435
+Desinvesteringen materiële vaste activa 3.383 0
+Investeringen immateriële vaste activa „103.122 -168.706
+
+TOTAAL KASSTROOM UIT INVESTERINGS- -429,292 -366.141
+ACTIVITEITEN
+
+KASSTROOM UIT FINANCIERINGSACTIVITEITEN
+
+Uitgifte aandelen 245.081
+
+Nieuwe lening 152.436
+
+Aflossing langlopende schulden -210.790 -200.015
+
+TOTAAL KASSTROOM UIT FINANCIERINGS- 186.728 -200.015
+ACTIVITEITEN
+
+MUTATIE GELDMIDDELEN -847.426 78.921
+
+Stand geldmiddelen per 1 januari 1.913.487 1.834.566
+Stand geldmiddelen per 31 december 1.066.061 1.913.487
+Mutatie geldmiddelen 847.426 78.921
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+11
+
+02 MEI 2024
+
+Pathan B.V, te Rotterdam pathan
+
+Jaarrekening 2023
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+241 Algemeen
+
+2.4.1.1 Activiteiten
+
+De activiteiten van Pathan B.V. bestaan voornamelijk uit het voor de aangesloten instellingen en anderen werkzaam op het
+gebied van de gezondheidszorg, verrichten van onderzoek op het gebied van de klinische pathologie en verwante gebieden
+ten behoeve van de geneeskundige zorg, een en ander met inachtneming van de publiekrechtelijke voorschriften omtrent
+kwaliteit en het publieke belang van doelmatigheid, al of niet in samenwerking met derden en met inbegrip van het
+verrichten en bevorderen van alle handelingen die daarmede direct of indirect verband houden.
+
+2.4.1.2 Vestigingsadres
+Pathan B.V. is feitelijk gevestigd op Kleiweg 500 12e etage, 3045 PM te Rotterdam. Pathan B.V. is geregistreerd onder
+
+KvK-nummer 5562.0434.
+
+2.4.1,3.Verslaggevingsperiode
+Deze jaarrekening heeft betrekking op het boekjaar 2023, dat is geëindigd op 31 december 2023.
+
+2.4.1.4.Continuïteitsveronderstelling
+
+De jaarrekening 2023 is opgesteld op basis van continuiteit van de onderneming. Het positief resultaat van € 247.600,
+het verwachte toekomstig resultaat en de huidige stand van zaken van het eigen vermogen zijn de basis van deze
+veronderstelling. Ook is de verwachting dat de oncologische zorg de komende jaren zal blijven groeien, waardoor de
+vraag naar pathologie ook zal toenemen. Het bestuur heeft met deze veronderstellingen geen indicaties voor
+discontinuiteit.
+
+2.4,1.5 Schattingen
+
+Bij toepassing van de grondslagen en regels voor het opstellen van de jaarrekening vormt de leiding van Pathan B.V. zich
+verschillende oordelen en schattingen die essentieel kunnen zijn voor de in de jaarrekening opgenomen bedragen.
+
+indien het voor het geven van het in artikel 2:362 lid 1 BW vereiste inzicht noodzakelijk is, is de aard van deze oordelen
+en schattingen inclusief de bijbehorende veronderstellingen opgenomen bij de toelichting op de desbetreffende
+jaarrekeningposten.
+
+2.4.1.6 Verbonden partijen
+
+Als verbonden partij worden alle rechtspersonen aangemerkt waarover overheersende zeggenschap, gezamenlijke
+zeggenschap of invloed van betekenis kan worden uitgeoefend. Ook rechtspersonen die overwegende zeggenschap
+kunnen uitoefenen worden aangemerkt als verbonden partij. Ook de statutaire directieleden en nauwe verwanten zijn
+verbonden partijen.
+
+Transacties van betekenis met verbonden partijen worden toegelicht voor zover deze niet onder normale
+marktvoorwaarden zijn aangegaan. Hiervan wordt toegelicht de aard en de omvang van de transactie en andere informatie
+die nodig is voar het verschaffen van het inzicht.
+
+2.4.1.7 Grondslagen WNT
+
+Voor de uitvoering van de Wet normering bezoldiging topfunctianarissen in de (semi-)publieke sector (WNT) heeft de
+vennootschap zich gehouden aan de Beleidsregel toepassing WNT en deze als normenkader bij het opmaken van deze
+jaarrekening gehanteerd.
+
+2.4.2. ALGEMENE GRONDSLAGEN
+
+24,21 Algemeen
+
+De jaarrekening is opgesteld in overeenstemming met de Regeling openbare jaarverantwaording WMG,
+
+Richtlijnen voor de Jaarverslaggeving, uitgegeven door de Raad voor de Jaarverslaggeving, in het bijzonder RJ 655 inzake
+de jaarverslaggeving door zorginstellingen, en Titel 9 Boek 2 BW.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de actuele waarde.
+Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de verkrijgingsprijs. In de balans en
+de winst-en-verliesrekening zijn referenties opgenamen. Met deze referenties wordt verwezen naar de toelichting.
+
+2.4.2.2 Vergelijking met voorgaand jaar
+
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten opzichte van het
+voorgaande jaar.
+
+Gewaarmerkt voor idaentificatiedeeleinden
+Visser & Visser Audit en Assurance BV.
+
+7 02 MEI 202%
+
+Jaarrekening 2023
+
+Pathan B.V. te Rotterdam pathan
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+2,4,2.3 Leasing
+
+2.4.2.3.1 Operationele leasing
+
+Bij de vennootschap kunnen er leasecontracten bestaan waarbij een groot deel van de voor- en nadelen die aan de
+eigendom verbonden zijn, niet bij de vennootschap ligt. Deze leasecontracten worden verantwoord als operationele leasing.
+Leasebetalingen worden, rekening houdend met ontvangen vergoedingen van de lessor, op lineaire basis verwerkt in de
+winst-en-verliesrekening over de looptijd van het contract.
+
+2,4.2.3.2 Financiële leasing
+
+De vennootschap leaset een deel van het machinepark; hierbij heeft de vennootschap grotendeels de voor- en nadelen
+verbonden aan de eigendom van deze activa. Deze activa worden geactiveerd in de balans bij aanvang van het
+leasecontract tegen de reële waarde van het actief of de lagere contante waarde van de minimale leasetermijnen. De te
+betalen leasetermijnen worden op annuïtaire wijze verdeeld in een aflossings- en een rentecomponent. De
+leaseverplichtingen worden exclusief de rentecomponent opgenamen onder de langlopende schulden. De
+rentecomponent wordt gedurende de looptijd van het contract verantwoord in de winst-en-verliesrekening met een vast
+rentepercentage over de gemiddelde resterende aflossingscomponent. De relevante activa worden afgeschreven over de
+resterende gebruiksduur of, indien korter, de looptijd van het contract.
+
+2.4.3. GRONDSLAGEN VOOR WAARDERING VAN ACTIVA EN PASSIVA
+
+2.4.3.1 Immateriële en materiële vaste activa
+
+Immateriële en materiële vaste activa worden gewaardeerd tegen verkrijgingsprijs plus bijkomende kosten onder aftrek van
+lineaire afschrijvingen gedurende de geschatte toekomstige gebruiksduur. Op terreinen wordt niet afgeschreven. Er wardt
+rekening gehouden met de bijzondere waardeverminderingen die op balansdatum worden verwacht.
+
+De kosten voor het groot onderhoud worden, voor zover deze zich voordoen, geactiveerd volgens de
+componentenmethode. Dit houdt in dat deze worden geactiveerd en afgeschreven over de periode waarop het onderhoud
+betrekking heeft. Groot onderhoud is gedefinieerd in lijn met de richtlijnen voor de Jaarverslaggeving.
+
+2.4.3.2 Financiële vaste activa
+
+2.4.3.2.1 Overige deelnemingen
+
+De onder financiële vaste activa opgenomen overige deelnemingen, die bestemd zijn om de uitoefening van de
+werkzaamheid van de onderneming duurzaam te dienen, worden gewaardeerd tegen verkrijgingsprijs. Indien sprake is van
+een bijzondere waardevermindering vindt waardering plaats tegen deze lagere waarde; afwaardering vindt plaats
+
+ten laste van de winst-en-verliesrekening.
+
+2.4.3.3 Voorraden
+
+2.4.3.3.1 Voorraden voor gebruik en verkoop
+
+De voorraden worden gewaardeerd tegen kostprijs onder toepassing van de FIFO-methode (first in, first out) of lagere
+opbrengstwaarde.
+
+De opbrengstwaarde is de geschatte verkoopprijs onder aftrek van direct toerekenbare verkoopkosten. Bij de bepaling van
+de opbrengstwaarde wordt rekening gehouden met de incourantheid van de voorraden.
+
+2,4.3.4 Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief de
+transactiekosten indien materieel. Handelsvorderingen worden na eerste verwerking gewaardeerd tegen de
+geamertiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de boekwaarde van de
+
+vordering.
+
+2.4.3.5 Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden en deposito's met een looptijd korter dan twaalf maanden.
+Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder kortlopende schutden.
+Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+2,4,3.6 Eigen vermogen
+
+Indien Pathan B.V. eigen aandelen inkoopt, wordt de verkrijgingsprijs van de ingekachte aandelen in mindering gebracht op
+de overige reserves, of op andere reserves mits de statuten dit toestaan, totdat deze aandelen worden ingetrokken of
+worden verkacht. Indien ingekochte aandelen worden verkocht, komt de opbrengst uit verkoop ten gunste van de overige
+reserves of andere reserves in het eigen vermogen. De opbrengst komt ten gunste van de reserve waarop eerder de
+inkoop van deze aandelen in mindering is gebracht.
+
+Kosten die direct samenhangen met de inkoop, verkoop en/of uitgifte van nieuwe aandelen worden rechtstreeks ten laste
+gebracht van het eigen vermogen, onder verrekening van relevante winstbelastingeffecten.
+
+Gewaarmerkt voor ident|ficatledoeteinden
+Visser & Visser Audit en Assurance B.V,
+
+7 02 MEI 2024
+
+Jaarrekening 2023
+
+Pathan B.M. te Rotterdam pathan
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+2.4.3.7 Voorzieningen
+
+2.4.3.7.1 Algemeen
+
+Voorzieningen worden gevormd voor in rechte afdwingbare of feitelijke verplichtingen die op de balansdatum bestaan,
+waarbij het waarschijnlijk is dat een uitstroom van middelen noodzakelijk is en waarvan de omvang op betrouwbare wijze
+is te schatten.
+
+De voorzieningen worden gewaardeerd tegen de beste schatting van de bedragen die noodzakelijk zijn om de
+verplichtingen per balansdatum af te wikkelen. De voorzieningen worden gewaardeerd tegen de nominale waarde van de
+uitgaven die naar verwachting noodzakelijk zijn om de verplichtingen af te wikkelen, tenzij anders vermeld.
+
+Wanneer de verwachting is dat een derde de verplichtingen vergoedt, en wanneer het waarschijnlijk is dat deze
+vergoeding zal worden ontvangen bij de afwikkeling van de verplichting, dan wordt deze vergoeding als een actief in de
+balans opgenomen.
+
+2.4.3.7.2 Voorziening jubilea
+De voorziening jubilea wordt opgenomen tegen de contante waarde van de verwachte uitkeringen gedurende het
+dienstverband.
+
+2.4.3.7.3 Voorziening loondoorbetaling bij ziekte
+
+De voorziening vanwege loondoorbetaling bij ziekte wordt gevormd voor op balansdatum bestaande verplichtingen tot het
+in de toekomst doorbetalen van beloningen aan personeelsleden die op balansdatum naar verwachting blijvend of geheel
+niet in staat zijn om werkzaamheden te verrichten door ziekte of arbeidsongeschiktheid. In deze voorziening zijn tevens
+begrepen eventuele ontslagvergoedingen te betalen aan deze personeelsleden.
+
+2.4.3.7.4 Overige voorzieningen
+De overige voorzieningen worden opgenomen tegen nominate waarde van de voor de afwikkeling van de
+
+voorziening naar verwachting noodzakelijke uitgaven.
+
+Hierander is met ingang van 2011 een verplichting in de jaarrekening opgenomen voor niet opgenomen verlofuren.
+In het bijzonder zijn in deze voorziening de niet opgenomen CAO-gerelateerde Persoonlijke Levensfase Budget-uren (PLB)
+gewaardeerd waarvan de verwachting is dat deze gespaard worden voor opname op tangere termijn.
+
+2.4.3.8 Langlopende schulden
+
+Langlopende schulden worden bij de eerste verwerking gewaardeerd tegen reêle waarde. Transactiekosten die direct
+
+zijn toe te rekenen aan de verwerving van de langlopende schulden worden in de waardering bij eerste verwerking
+opgenomen. Langlopende schulden worden na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het
+ontvangen bedrag rekening houdend met agio of disagio en onder aftrek van transactiekosten. Het verschil tussen de
+bepaalde boekwaarde en de uiteindelijke aflossingswaarde wordt op basis van de effectieve rente gedurende de
+geschatte looptijd van de langlopende schulden in de winst-en-verliesrekening als interestlast verwerkt.
+
+2.4.3.9 Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden worden
+na eerste verwerking gewaardeerd tegen geamortiseerde kostprijs, zijnde het ontvangen bedrag rekening houdend met
+agio of disagio en onder aftrek van transactiekosten. Dit is meestal de nominale waarde.
+
+2.4.4. GRONDSLAGEN VOOR BEPALING VAN HET RESULTAAT
+
+2.4,4,.1 Algemeen
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de kosten en
+andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij zijn gerealiseerd.
+
+2.4.4.2 Opbrengstverantwoording
+
+2.4.4.2.1 Netto-omzet
+
+Netto-omzet omvat de opbrengsten uit levering van diensten onder aftrek van kortingen en dergelijke en van
+over de omzet geheven belastingen en na eliminatie van transacties binnen de groep.
+
+2.4.4,2.2 Verlenen van diensten
+
+Opbrengsten worden alieen verwerkt indien het waarschijnlijk is dat de economische voordelen met betrekking tot de
+onderzoeken zullen toevloeien. Indien echter onzekerheid optreedt omtrent de inbaarheid van een bedrag dat eerder als
+opbrengst is verwerkt, wordt het bedrag waarover onzekerheid is ontstaan als last verwerkt en niet als een vermindering
+van de eerder verwerkte opbrengst.
+
+De dienstverlening van Pathan B.V. is gericht op het stellen van diagnasen. Deze specifieke handeling voegt de meeste
+waarde toe aan de dienstverlening ten opzichte van andere handelingen. De doorlooptijd van de onderzoeken bedraagt
+tussen de 2-8 dagen, afhankelijk van het type onderzoek. Door de aard van de dienstverlening waarbij het stellen van de
+diagnose veel belangrijker is dan alle andere handelingen, wordt de verwerking van een opbrengst uitgesteld tot het
+moment dat diagnose is gesteld.
+
+Gewaarmerkt voor iaentificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+14
+
+02 MEI 2024
+
+Pathan B.V. te Rotterdam
+Jaarrekening 2023
+
+2.4 GRONDSLAGEN VAN WAARDERING EN RESULTAATBEPALING
+
+Door de verantwoording van de omzet bij het stellen van de diagnose is per balans datum geen onderhanden werk
+verantwoord als omzet. De korte doorlooptijd per onderzoek en het insignificante aantal openstaande onderzoeken per
+balansdatum (ong. 0.5% van aantal per jaar) maakt het verantwoorden van omzet over onderhanden onderzoeken van
+
+onbeduidend belang.
+
+2.4.4.3 Kosten
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking hebben.
+
+2.4.4.4 Personeelsbeloningen
+2.44.41 Periodiek betalbare beloningen
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvaorwaarden verwerkt in de
+
+winst-en-verliesrekening.
+
+2.4.4.4.2 Pensioenen
+Pathan B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het verslagjaar
+verschuldigde premie wordt als last verantwoord.
+
+De pensioenregeling van de medewerkers is ondergebracht bij het bedrijfstakpensioenfonds Stichting Pensioenfonds
+
+Zorg en Welzijn. Het ouderdomspensioen is een toegezegd-pensioenregeling op basis van (voorwaardelijk) geïndexeerd
+middelloon. Indexatie van de pensioenrechten is afhankelijk van de financiële positie waarin het pensioenfonds zich bevindt.
+De dekkingsgraad van Pensioenfonds PFZW is ultimo 2023; 112%.
+
+De aan de pensioenuitvoerder te betalen premie wordt als last in de winst- en verliesrekening verantwoord en, voor zover
+de aan de pensioenuitvoerder te betalen premie nog niet is voldaan, wordt deze als verplichting op de balans opgenomen.
+
+Pathan B.V. heeft geen verplichting tot het doen van aanvullende bijdragen in het geval van een tekort bij het
+bedrijfstakpensioenfonds, anders dan het voldoen van toekomstig hogere premiebijdragen. Om deze reden worden de op
+een periode betrekking hebbende premiebijdragen in die periode ten laste van het resultaat gebracht.
+
+2.4.4.5 Afschrijvingen op immateriële en materiële vaste activa
+
+Immateriële en materiële vaste activa worden vanaf het moment van ingebruikneming afgeschreven over de verwachte
+toekomstige gebruiksduur van het actief. Indien een schattingswijziging plaatsvindt van de toekomstige gebruiksduur, dan
+worden de toekomstige afschrijvingen aangepast.
+
+Boekwinsten en -verliezen bij verkoop van materiële vaste activa zijn inbegrepen onder de afschrijvingen.
+
+2.4.4.6 Overheidssubsidies
+
+Exploitatiesubsidies worden als bate verantwoord in de winst-en-verliesrekening in het jaar waarin de gesubsidieerde
+kosten zijn gemaakt of opbrengsten zijn gederfd, of wanneer een gesubsidieerd exploitatietekort zich heeft voorgedaan.
+De baten worden verantwoord als het waarschijnlijk is dat deze worden ontvangen en Pathan B.V, de condities voor
+ontvangst kan aantonen.
+
+2.4.4.7 Financiële baten en lasten
+
+2.4.4.7.1 Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van de
+desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de verantwoorde
+transactiekosten op de ontvangen leningen.
+
+2,4,4.8 Belastingen
+
+Op grond van artikel 5, lid 1, sub c Wet VPB wordt Pathan B.V. volledig vrijgesteld van vennootschapsbelastingheffing
+omdat Pathan B.V. uitsluitend werkzaamheden uitvoert die kwalificeren als zorgactiviteiten (beschikking d.d, 16 april 2013).
+Tevens heeft Pathan B.V. vrijstelling voor het voeren van omzetbelasting (beschikking d.d. 5 juli 2012).
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+° 02 MEI 2024
+
+Pathan B.V. te Rotterdam
+Jaarrekening 2023 patha /
+ik:
+
+2.4.5. GRONDSLAGEN VOOR DE OPSTELLING VAN HET KASSTROOMOVERZICHT
+
+Het kasstroomoverzicht is opgesteld op basis van de indirecte methode. De geldmiddelen in het kasstroomoverzicht bestaan
+uit de liquide middelen. Ontvangsten en uitgaven uit hoofde van interest zijn opgenomen onder de kasstroom uit operationele
+activiteiten. Transacties waarbij geen instroom of uitstroom van kasmiddelen plaats vindt zijn niet in het kasstroomoverzicht
+opgenomen.
+
+2.4.6. FINANCIËLE INSTRUMENTEN EN RISICOBEHEERSING
+
+2.4.6.1 Algemeen
+De ondermening loopt een beperkt kredietrisica over vorderingen en liquide middelen. Pathan B.V. handelt niet in financiële
+
+derivaten.
+
+2.4.6.2 Kredietrisico
+
+Pathan B.V. loopt, gezien de aard van de activiteiten, een beperkt kredietrisico. De onderneming loopt kredietrisico over
+vorderingen en liquide middelen. Het risico is met name geconcentreerd bij de ziekenhuizen en wordt gezien de relatie en
+de aard van de tegenpartij als minimaal verondersteld.
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+7 02 MEI 2024
+
+Jaarrekening 2023
+
+Pathan B.V. te Rotterdam patha n
+
+2.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+
+(in euro's)
+
+ACTIVA
+
+1. Immateriële vaste activa 31-12-2023 31-12-2022
+Vooruitbetaald op immateriële vaste activa 0 540.533
+Immateriële vaste activa 601.905 0
+Totaal immateriële vaste activa 601.905 540.533
+
+Immateriële Totaal
+vaste activa
+
+Stand per 1 januari 2023
+
+Aankoopprijs 540,533 540.533
+Cumulatieve afschrijving - -
+Boekwaarde 540.533 540.533
+Mutaties boekjaar
+
+Investeringen 103.122 103.122
+Afschrijvingen immateriële vaste activa 41.750 41.750
+Saldo 61.372 61.372
+Stand per 31 december 2023
+
+Aankoopprijs 643.655 643.655
+Cumulatieve afschrijving 41.750 41.750
+Boekwaarde 601.905 601.905
+Afschrijvingspercentages 10%
+
+De software onder de categorie 'vooruitbetaald op immateriële vaste activa’ ultimo 2022 is per 27 maart 2023 volledig in
+gebruik genomen. De investeringen gedurende het boekjaar zijn deels in gebruik genomen, het overige deel is volledig in
+gebruik genomen per 1 januari 2024,
+
+2. Materiële vaste activa
+Bedrijfsgebouwen bestaan uit geactiveerde verbouwingskosten voor het huurpand. De mutaties in de materiële
+
+vaste activa worden als volgt weergegeven:
+31-12-2023 31-12-2022
+
+Bedrijfsgebouwen en -terreinen 220.937 252.268
+Andere vaste bedrijfsmiddelen 1.218.080 1.158.438
+Totaal materiële vaste activa 1.439.017 1.410.706
+Bedrijfs- Andere vaste Totaal
+gebouwen en - bedrijfs-
+terreinen middelen
+
+Stand per 1 januari 2023
+
+Aankoopprijs 388.344 4425,413 4,813.757
+Cumulatieve afschrijving 136.076 3.266.975 3.403.051
+Boekwaarde 252.268 1.158.438 1.410.706
+Mutaties boekjaar
+
+Investeringen 3.255 480.582 483.837
+Desinvesteringen - -3.383 -3,383
+Afschrijvingen materiële vaste acliva 34.586 418.290 452.876
+Afschrijvingen desinvesteringen - -/33 -733
+Saldo -31.331 66.409 35.078
+Stand per 31 december 2023
+
+Aankoopprijs 391.599 4.902.612 5.294.211
+Cumulatieve afschrijving 170.662 3.684.532 3.855.194
+Boekwaarde 220.937 1.218.080 1.439.017
+Afschrijvingspercentages 5% - 10% 10 - 25%
+
+Gewaarmerkt voor identlfieatiedoeleinden
+Visser à Visser Audit en Assurance B.V.
+
+17
+
+02 MEI 2024
+
+Jaarrekening 2023
+
+Pathan B.V. te Rotterdam pathan
+De, -
+
+2.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+(in euro's)
+ACTIVA
+
+3, Financiële vaste activa
+
+Het verlaop van de financiële vaste activa kan als volgt worden gespecificeerd:
+
+Overige Totaal
+deelneming-
+en
+Stand per 1 januari 2023 19.167 19.167
+Resultaat in het aandeel ondernemingen waarin wordt deelgenomen 124 124
+Stand per 31 december 2023 19.291 19.291
+
+De post betreft belangen in O.W.M. voor instellingen in de Gezondheidszorg MediRisk B.A, te Utrecht en Centramed B.A.
+te Zoetermeer,
+
+4, Voorraden
+
+De specificatie is als volgt: 31-12-2023 31-12-2022
+Gereed product en handelsgoederen 152.803 138.897
+Totaal voorraden 152.803 138.897
+
+Op de voorraden is geen voorziening voor incourantheid in aftrek gebracht.
+
+5. Debiteuren en overige vorderingen
+
+De specificatie is als volgt: 31-12-2023 31-12-2022
+
+Vorderingen op debiteuren 2.154.571 717.101
+Nag te factureren omzet 2.134.620 1,119,892
+Vooruitbetaalde kosten 116.739 129.185
+Overige vorderingen 51.671 43.852
+Totaal debiteuren en overige vorderingen 4.457.601 2.019.030
+
+In de debiteuren en overige vorderingen is begrepen een bedrag van € 3.654 (2022: € 12.549) met een resterende looptijd
+
+langer dan 1 jaar.
+
+Het saldo vorderingen op verbonden partijen bedraagt ultimo 31-12-2023 € 3.482.757, waarvan € 1.355.459 onder de
+vorderingen op debiteuren is opgenomen en € 2.127.298 onder nog te factureren omzet.
+
+Een voorziening voor dubieuze debiteuren werd niet noodzakelijk geacht.
+
+6. Liquide middelen
+
+De specificatie is als volgt: 31-12-2023 31-12-2022
+Bankrekeningen Rabobank 1.066.061 1.913.487
+Totaal liquide middelen 1.066.061 1.913.487
+
+De liquide middeten staan volledig ter vrije beschikking aan de vennootschap.
+
+Gewaarmerkt voor identificatiedoeteinden
+Visser & Vlgser Audit en Assurance B.V.
+
+9 02 MEI 202%
+
+Pathan B.V. te Rotterdam
+Jaarrekening 2023
+
+2.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+(in euro's)
+PASSIVA
+
+7. Eigen vermogen
+
+Het eigen vermogen bestaat uit de volgende componenten: 31-12-2023 31-12-2022
+Gewoon aandelenkapitaal 30.713 25.596
+Agioreserve 812.781 376.612
+Overige reserves 1.789.044 1.541.320
+Totaal eigen vermogen 2.632.538 1.943 528
+Aandelen- Agio op Overige Totaal eigen
+kapitaa! aandelen- reserves vermogen
+aandelen A kapitaal A
+Saldo per 1 januari 2023 25.596 376.612 1.541.320 1.943.528
+Resultaatbestemming - - 247.600 247.600
+Overige mutaties 5.117 436.169 124 441.410
+Saldo per 31 december 2023 30.713 812.781 1.789.044 2.632.538
+
+Het kapitaal van Pathan B.V. kent 45.000 aandelen A. Het aantal geplaatste aandelen is 25.596. In 2023 is een nieuwe
+aandeelhouder toegetreden tegen de uitgifte van 5.117 aandelen A (€ 1 nominaal) tegen een uitgifteprijs van € 441.286.
+Het aantal geplaatste aandelen komt daarmee op 30.713 A. De agiostorting op deze aandelen bedraagt € 436.169.
+
+De overige mutaties in de overige reserves betreft de mutatie in de deelnemingen Medirisk en Centramed.
+
+8. Vaorzieningen 31-12-2023 31-12-2022
+Uitgestelde persoonlijke beloningen 218.169 178.655
+Persoonlijk budget levensfase personeel 473,360 335.528
+Doorbetaling bij ziekte 64,314 13.104
+Totaal voorzieningen 755.843 527.287
+Het verloop is als volgt weer te geven:
+Uitgestelde Persoonlijk Doorbetaling Totaal
+persoonlijke budget bij ziekte voorziening
+beloningen levensfase
+persanee!
+Saldo per 1 januari 2023 178.655 335.528 13.104 527.287
+Dotatie 39.514 167.499 64.314 271.327
+Onttrekking - -29.667 -13.104 42.771
+Vrijval - 0
+Saldo per 31 december 2023 218.169 473.360 64.314 755.843
+Toelichting in welke mate (het totaal van) de voorzieningen als langlopend moeten worden beschouwd:
+31-12-2023 31-12-2022
+Kortlopend deel van de voorzieningen (< 1 jr.) 82.180 16.248
+Langlopend deel van de voorzieningen (> 1 jr.) 673.663 511.039
+
+De voorziening uitgestelde personele beloningen betreft dienstjubilea en uitdienstgratificaties zoals overeengekomen in de
+CAO Ziekenhuizen.
+
+De voorziening niet opgenomen CAO-gerelateerde Persoonlijke Levensfase Budget-uren (PLB) betreft de uren waarvan
+de verwachting is dat deze gespaard worden voor opname op langere termijn.
+
+De voorziening doorbetaling bij ziekte betreft de resterende loonkosten tijdens ziekte, van medewerkers waarvan de
+verwachting is dat deze aanspraak gaan maken op een WGA- of IVA-uitkering.
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+02 MEI 202
+
+19
+
+Pathan 8.V. te Rotterdam
+Jaarrekening 2023
+
+2.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+(in euro's)
+PASSIVA
+
+9. Langlopende schulden (nog voor meer dan een jaar)
+
+De specificatie is als volgt: 31-12-2023 31-12-2022
+Schulden aan participanten 771.050 963.818
+Schulden aan banken 114.716
+
+Totaal langlopende schulden (nag voor meer dan een jaar) 885.765 963.818
+Het verloop is als volgt weer te geven: 2023 2022
+Stand per 1 januari 1.349.345 1.542.111
+Bij: nieuwe leningen 152.436 -
+Af: aflossingen -203.541 „192.766
+Stand per 31 december 1.298.239 1.349.345
+Af: aflossingsverplichting komend boekjaar 412.473 385.526
+Stand langlopende schulden per 31 december 885.765 963.818
+
+Toelichting in welke mate (het totaal van) de langlopende schulden als langlopend moeten worden beschouwd:
+
+Kortlopend deel van de langlopende schulden (< 1 jr.), aflossingsverplichtingen 412.473 385.526
+Langlopend deel van de langlopende schulden (> 1 jr.) (balanspost) 885.765 771.064
+hiervan > 5 jaar 0 192.766
+De verstrekte zekerheden voor de opgenomen lening luiden als volgt:
+* pandrecht op de huidige en toekomstige vorderingen voortvloeiend uit bestaande en toekomstige
+samenwerkingsovereenkomst(en)
+Specificatie leningen:
+
+Schulden aan Francicus Stichting Totaal
+
+banken Gasthuis & Ijsselland
+
+Leninggever Vlietland Ziekenhuis
+Afsluitdatum 9-8-2023 1-12-2019 1-12-2019
+Hoofdsom € 152,436 € 1.420.108 € 580.044 € 2,152,588
+Totale looptijd 5 jaar 10 jaar 10 jaar
+Soort lening Annuiteit Lineair Lineair
+Werkelijke rente 6,99% 0% 0%
+Restschuld 31 december 2022 € - € 952.887 € 389.209 € 1.342.096
+Nieuwe leningen in 2023 € 152436 € - € - € 152.436
+Aflossing in 2023 € 10.774 € 142.011 € 58.004 € 210.789
+Restschuld 31 december 2023 € 141.662 € 810876 € 331.204 € 1.283.743
+Restschuld over 5 jaar € - € . € - € -
+Resterende looptijd in jaren eind 2023 5 5 5
+Aflossingswijze Maandelijks Jaarlijks Jaarlijks
+Aflossing 2024 € 26.947 € 273.724 € 111.803 € 412473
+Disagio 2024 € - € 5.149 € 2,103 € 7.252
+
+In 2022 heeft de aflassing over de lening van het Franciscus Gasthuis & Vlietland en Stichting Ijsselland ziekenhuis 2021
+plaatsgevonden. De aflossing van 2022 heeft in 2023 plaatsgevonden. De aflossing van 2023 heeft niet plaatsgevonden.
+
+Gewaarmerkt voor identifisatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+02 MEI 2024
+
+20
+
+Pathan BV. te Rotterdam
+Jaarrekening 2023
+
+2.5 TOELICHTING OP DE BALANS PER 31 DECEMBER 2023
+(in euro's)
+PASSIVA
+
+10. Overige kortlopende schulden
+
+De specificatie is als volgt: 31-12-2023 31-12-2022
+
+Schulden aan leveranciers en handelskredieten 897.687 599.395
+Aflossingsverplichtingen komend boekjaar langlopende leningen 412.473 385.526
+Belastingen en premies sociale verzekeringen 415.548 356.202
+Schulden terzake pensioenen 220.626 179.360
+Nog te betalen salarissen 12.929 19.971
+Reservering vakantiegeld 350.660 296.077
+Reservering vakantiedagen 194.825 147.334
+Reservering persoonlijk budget levensfase personeel 29.667 20.791
+Vooruit gefactureerd aan Stichting Pathan 22.061 68.963
+Overige schulden 906.058 523.969
+Totaal overige kortlopende schulden 3.462.534 2.598.188
+
+Het saldo schulden aan verbonden partijen bedraagt ultimo 31-12-2023 € 258.198 waarvan € 189.936 onder
+de schulden aan leveranciers en handelskredieten is opgenomen en € 68.262 onder de overige schulden.
+
+11. Niet ìn de balans opgenomen verplichtingen en niet in de balans opgenomen activa
+
+Huurverplichtingen
+De totale huurverplichting ultimo 2023 is € 1.060.876 waarvan binnen 1 jaar € 353.625, tussen 1 —5 jaar € 707.251
+
+en langer dan 5 jaar € 0.
+
+Operationele lease
+
+De totale leaseverplichting ultimo 2023 voor de bedrijfsauto is € 11.392 waarvan binnen 1 jaar € 6.510, tussen
+1-5 jaar € 4.882 en langer dan 5 jaar € 0.
+
+De totale leaseverplichting uitimo 2023 voor de printers is € 5.582 waarvan binnen 1 jaar € 3.533, tussen
+
+1-5 jaar € 5.049 en langer dan 5 jaar € 0,
+
+De totale leaseverplichting ultimo 2023 vaor het serverpark is € 122.471 waarvan binnen 1 jaar € 81 647 , tussen
+1-5 jaar € 40.824 en langer dan 5 jaar € 0.
+
+Kredietfaciliteit
+
+Pathan B.V. is met de Rabobank een kredietfaciliteit overeengekomen. De huidige kredietfaciliteit heeft een limiet
+van € 200.000.
+
+Gewaarmerkt voor icientificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+a 02 MEI 202%
+
+Pathan BV. te Rotterdam
+Jaarrekening 2023
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+(in euro's)
+BATEN
+12. Opbrengsten zorgverzekeringswet
+
+2023 2022
+Gedeclareerde pathologie productie 15.492.696 12.701.814
+Continuïteitsbijdrage 0 -316
+Totaal 15.492,696 12.701.498
+13. Subsidies
+
+2023 2022
+Beschikbaarheidsbijdrage Assistent in Opleiding tot Medisch Specialist 192.163 192.651
+Totaal 192.163 192.651
+14. Overige bedrijfsopbrengsten
+
+2023 2022
+Overige opbrengsten 12.253 22.205
+Tataal 12.253 22.205
+LASTEN
+15. Kosten van grond- en hulpstoffen
+
+2023 2022
+Medische middelen 2.133.897 1.822.880
+Uitbesteed onderzoek 42.484 19.285
+Kosten complexe moleculaire diagnostiek 644.071 506.716
+Kosten uitbesteed werk 5.741 18.572
+Overige medische kosten 57.569 37.548
+Totaal 2,883.762 2.405.001
+Er hebben geen honorariumuitgaven aan vrijgevestigde medisch specialisten plaatsgevonden.
+16. Personeelskosten
+
+2023 2022
+Lonen en salarissen 7.650.302 6.468.259
+Sociale lasten 982.875 873.063
+Pensioenpremies 649.501 562.420
+Overige personeelskosten 497.862 437.336
+Subtotaal 9.780.540 8.341.078
+Personeel niet in loondienst 287.238 457.522
+Totaal personeelskosten 10,067.778 8.798.600
+Gemiddeld aantal personeelsleden op basis van full-time eenheden 93 89
+Aantal personeelsleden dat buiten Nederland werkzaam is 0 Û
+Per functiegroep is het gemiddeld aantal personeelsleden per functiegroep als volgt verdeeld:
+Pathologen = 20 fte, laboratoriummedewerkers = 56 en overig personeel = 17.
+17. Afschrijvingen op immateriële en materiële vaste activa
+
+2023 2022
+Immateriële vaste activa 41.750 0
+Bedrijfsgebouwen 34.586 34.342
+Andere vaste bedrijfsmiddelen 418.290 448.996
+Boekverlies verkoop materiële vaste activa 8.184 ke)
+Boekverlies buitengebruikstelling materiële vaste activa 29413 0
+Totaal afschrijvingen 532.223 483.338
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+02 MEI 2024
+
+22
+
+Pathan B.V. te Rotterdam
+Jaarrekening 2023
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+(in euro's)
+LASTEN
+18. Overige bedrijfskosten
+
+2023 2022
+Huisvestingskosten 775.993 672.159
+Autokosten 284.005 217.231
+Kantoorkasten 135.916 101.537
+Overige bedrijfskosten 756.096 553.030
+Totaal 1.952.010 1.543.957
+19. Financiële baten en lasten
+Rentebaten: 2023 2022
+Rentebaten bank 5.551 9)
+Totaal rentebaten 5.551 9)
+Rentelasten:
+Rente bouwfinanciering 7.587 7.587
+Vrijval disagio rente lening 7.249 7,249
+Rente lease 4,228 0
+Overige rentelasten 226 5.533
+Totaal rentelasten 19.290 20.369
+
+Over de lening die met het Francicus Gasthuis & Vlietland en Stichting Ijsselland is afgesloten, zal geen rente in rekening
+worden gebracht. Uitgaande van een marktconforme waarde van deze lening is rente EURIBOR plus 1% risico opslag in
+mindering gebracht op de lening. Deze is in 2019 ten gunste van het resultaat gebracht en wordt vanaf 2020 in 9 jaarlijkse
+termijnen ten laste van het resultaat gebracht onder vrijval diasagio rente lening.
+
+20. Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT)
+
+Per 1 januari 2013 is de Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector (WNT) ingegaan. Deze
+verantwoording is opgesteld op basis van de volgende op Pathan B.V. van toepassing zijnde regelgeving: het WNT-maximum voor de
+zorg, totaalscore 10 punten en klasse IV.
+
+Het bezoldigingsmaximum in 2023 voor Pathan B.V. is € 205.000, Het weergegeven toepasselijke WNT-maximum per persoon of
+functie is berekend naar rato van de omvang (en voor topfunctionarissen tevens de duur) van het dienstverband, waarbij voor de
+berekening de omvang van het dienstverband nooit groter kan zijn dan 1,0 fte. Uitzondering hierop is het WNT-maximum voor de
+leden van raad van commissarissen; dit bedraagt voor de voorzitter 15% en voor de overige leden 10% van het bezoldigingsmaximum
+behorende bij een indeling in klasse III op basis van aandeelhoudersbesluit. Pathan heeft het beleid om voor de voorzitter 12% van de
+WNT norm te hanteren en voor de overige leden 8%. Dit is lager dan het gestelde maximum vanuit de WNT
+
+Gewaarmerkt voor identificaties
+Visser & Visser Aucit en Assurance BV.
+
+02 MEI 202
+
+23
+
+Pathan B.V. te Rotterdam pathan
+
+Jaarrekening 2023
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+20.1 Bezoldiging topfunctionarissen
+Leidinggevende topfunctionarissen (bedragen in €)
+
+2023 Mevr. A.G. Bokhorst
+Functie(s) Bestuurder
+Duur dienstverband in 2023 1/1 - 31/12
+Omvang dienstverband (în fte) 0,93
+Gewezen topfunctionaris Nee
+Dienstbetrekking Ja
+Beloning 157.690
+Belastbare ankostenvergoeding 2.881
+Beloning betaalbaar op termijn 13.981
+Totaal bezoldiging 174.552
+Toepasselijk WNT-maximum 190.753
+2022
+
+Functie(s) Bestuurder
+Duur dienstverband in 2022 1/1 - 31/12
+Omvang dienstverband (in fte) 0,78
+Gewezen topfunctionaris Nee
+Dienstbetrekking Ja
+Beloning 116.216
+Belastbare onkostenvergoeding 3.868
+Beloning betaalbaar op termijn 10.422
+Totaal bezoldiging 130.506
+Toepasselijk WNT-maximum 154.778
+
+Toezichthoudende topfunctionarissen (bedragen in €)
+
+2023 H. van der Weide V.A.J. Slenter
+Functie(s) Voorzitter Commissaris
+Duur dienstverband in 2023 1/1 - 31/12 1/1 - 31/12
+Beloning 21.840 14,560
+Belastbare onkostenvergoeding - -
+Beloning betaalbaar op termijn - -
+Totaal bezoldiging 21.840 14.560
+Toep lijk WNT-maximum 30.750 20.500
+2022
+
+Functie(s) Voorzitter Commissaris
+Duur dienstverband in 2022 1/1 - 31/12 1/1 - 31/12
+Beloning 21.120 14.080
+Belastbare onkostenvergoeding - -
+Beloning betaalbaar op termijn - -
+Totaal bezoldiging 21.120 14.080
+Toepasselijk WNT-maximum 29.850 19.900
+2023 R.H. Verheesen
+
+Functie(s) Commissaris
+
+Duur dienstverband in 2023 1 - 31/12
+
+Beloning 14.560
+
+Belastbare onkostenvergoeding -
+Beloning betaalbaar op termijn -
+Totaal bezoldiging 14.560
+
+Toepasselijk WNT-maximum 20.500
+2023
+
+Functie(s) Commissaris
+Duur dienstverband in 2022 1 - 31/12
+Beloning 14.080
+
+Belastbare onkostenvergoeding =
+Beloning betaalbaar op termijn -
+Totaal bezoldiging 14.080
+
+Toepasselijk WVNT-maximum 19.900
+
+Gewaarmerkt voor iceritificatiecastenden
+Visser & Visser Audit en Assurance B.V.
+
+7 02 MEI 2024
+
+Pathan B.V. te Rotterdam
+Jaarrekening 2023
+
+2.6 TOELICHTING OP DE WINST- EN VERLIESREKENING
+
+20.2 Overige rapportageverplichtingen op grond van de WNT
+
+Naast de vermelde topfunctionarissen zijn er geen overige functionarissen met dienstbetrekking die in 2023 een
+bezoldiging boven het individuele WNT-maximum hebben ontvangen. Er zijn in 2023 geen ontslaguitkeringen betaald aan
+overige functionarissen die op grond van de WNT dienen te worden vermeld, of die in eerdere jaren op grond van de
+WOPT of de WNT vermeld zijn of hadden moeten worden.
+
+21. Honoraria accountant
+
+De honoraria van de accountant over 2023 zijn als volgt:
+
+2023 2022
+Controle van de jaarrekening 40.910 37.911
+Overige controlewerkzaamheden (w.o. Regeling AO/IC en Nacalculatie) 4.826 4489
+Fiscale advisering - -
+Niet-confrolediensten - -
+Totaal honoraria accountant 45.736 42.400
+
+Het honoraria van de accountant is gebaseerd op de totale honoraria voor het onderzoek van de jaarrekening over het
+boekjaar waarop de jaarrekening betrekking heeft.
+
+22. Transacties met verbonden partijen
+
+Van transacties met verbonden partijen is sprake wanneer een relatie bestaat tussen de instelling, haar deelnemingen en
+hun bestuurders en leidinggevende functionarissen.
+
+Er hebben zich geen transacties met verbonden partijen voorgedaan op niet-zakelijke grondslag.
+
+De bezoldiging van de bestuurders en toezichthouders die in het kader van de WNT verantwoord worden, is opgenomen
+onder punt 20.
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+5 0 2 MEI 2024
+
+Pathan B.V. te Rotterdam
+Jaarrekening 2023
+
+2.7 VASTSTELLING EN GOEDKEURING
+Vaststelling en goedkeuring jaarrekening
+
+De raad van bestuur van Pathan B.V. heeft de jaarrekening 2023 opgemaakt en vastgesteld in de vergadering van
+18-4-2024
+
+De raad van commissarissen van Pathan B.V. heeft de jaarrekening 2023 goedgekeurd in de vergadering van
+18-4-2024
+Resultaatbestemming
+
+Het resultaat wordt verdeeld volgens de resultaatverdeling in paragraaf 2.2.
+
+Gebeurtenissen na balansdatum
+
+Er hebben geen gebeurtenissen na balansdatum plaatsgevonden.
+Ondertekening door bestuurders en toezichthouders
+Rotterdam 18-4-2024
+
+Pathan B.V.
+
+Bestuurder:
+
+A.G. Bokhorst
+
+Commissarissen (huidig):
+
+F. Italianer
+
+V.A.J. Slenter
+
+RH. Verheesen
+
+Gewaarmerkt voor identificatiedoeleinden
+Visser & Visser Audit en Assurance B.V.
+
+7 02 MEI 202

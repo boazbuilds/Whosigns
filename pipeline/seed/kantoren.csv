@@ -12,7 +12,6 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000046,Vigilate Accountants B.V.,Besloten Vennootschap,Capelle aan den IJssel,nee,2008-09-29,www.vigilate.nl,Verleend
 13000053,Driebergen Accountants,Maatschap,Rijnsburg,nee,2008-09-29,https://www.driebergenaccountants.nl,Verleend
 13000054,Bol Accountants B.V.,Besloten Vennootschap,Boxmeer,nee,2008-09-29,https://www.boladviseurs.nl/,Verleend
-13000055,Maatschap Steens & Partners Accountants en Adviseurs,Maatschap,Rotterdam,nee,2008-09-29,https://www.steensenpartners.nl,Verleend
 13000063,Maatschap Adbeco Accountants,Maatschap,Emmen,nee,2008-09-29,https://www.adbeco.com,Verleend
 13000073,FACET Audit B.V.,Besloten Vennootschap,Capelle aan den IJssel,nee,2008-09-29,,Verleend
 13000084,Vermetten Audit B.V.,Besloten Vennootschap,Tilburg,nee,2008-09-29,https://www.vermetten.nl,Verleend
@@ -50,7 +49,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000263,Blömer accountants en adviseurs B.V.,Besloten Vennootschap,Nieuwegein,nee,2008-09-29,www.blomer.nl,Verleend
 13000273,BAKKER accountants & adviseurs,Maatschap,Hendrik-Ido-Ambacht,nee,2008-09-29,www.bakker-accountants.nl,Verleend
 13000274,KramerKuiper Accountants/Adviseurs,Maatschap,Purmerend,nee,2008-09-29,http://www.kramerkuiper.nl,Verleend
-13000276,BGH Accountants B.V.,Besloten Vennootschap,Nijmegen,nee,2008-09-29,https://www.bghaccountants.nl,Verleend
+13000276,BGH Audit B.V.,Besloten Vennootschap,Nijmegen,nee,2008-09-29,https://www.bghaccountants.nl,Verleend
 13000286,Maatschap Lentink de Jonge,Maatschap,Harderwijk,nee,2008-09-29,https://lentinkdejonge.com/,Verleend
 13000288,Omnyacc Heerhugowaard,Maatschap,Heerhugowaard,nee,2008-09-29,https://www.omnyacc.nl,Verleend
 13000291,PricewaterhouseCoopers Accountants N.V.,Naamloze Vennootschap,Amsterdam,ja,2007-09-27,http://www.pwc.com,Verleend
@@ -89,13 +88,13 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000458,Stolwijk Kelderman Accountants Fiscalisten,Maatschap,Doetinchem,nee,2008-09-29,http://www.stolwijkkelderman.nl,Verleend
 13000460,Scab Accountants & Adviseurs B.V.,Besloten Vennootschap,Tilburg,nee,2008-09-29,https://www.scabadvies.nl,Verleend
 13000461,VLR accountants B.V.,Besloten Vennootschap,Krimpen aan den IJssel,nee,2008-09-29,,Verleend
-13000464,KNAV audit B.V.,Besloten Vennootschap,Leusden,nee,2008-09-29,https://www.hlg.nl,Verleend
+13000464,KNAV audit B.V.,Besloten Vennootschap,Leusden,nee,2008-09-29,https://nl.knavcpa.com/,Verleend
 13000468,Wesselman Registeraccountants B.V.,Besloten Vennootschap,Helmond,nee,2008-09-29,https://www.wesselman-info.nl,Verleend
 13000470,Guidon Audit B.V.,Besloten Vennootschap,Hoofddorp,nee,2008-09-29,,Verleend
 13000471,Schuiteman Audit & Assurance B.V.,Besloten Vennootschap,Ede,nee,2008-09-29,www.schuiteman.com,Verleend
 13000474,Van Luxemborg en de Kok B.V.,Besloten Vennootschap,Tilburg,nee,2008-09-29,https://www.luxemborg.nl,Verleend
 13000479,HLB Nannen Accountants & Belastingadviseurs,Maatschap,Emmen,nee,2008-09-29,https://www.hlb-nannen.nl,Verleend
-13000483,Countus Accountants + Adviseurs B.V.,Besloten Vennootschap,Zwolle,nee,2008-09-29,https://www.countus.nl,Verleend
+13000483,Countus Audit B.V.,Besloten Vennootschap,Zwolle,nee,2008-09-29,https://www.countus.nl,Verleend
 13000490,Kreston Van Herwijnen Accountants B.V.,Besloten Vennootschap,Tiel,nee,2008-09-29,,Verleend
 13000491,Visser & Visser Audit en Assurance B.V.,Besloten Vennootschap,Dordrecht,nee,2008-09-29,https://www.visser-visser.nl,Verleend
 13000492,Bentacera Registeraccountants B.V.,Besloten Vennootschap,Drachten,nee,2008-09-29,,Verleend
@@ -114,7 +113,6 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000570,Audit Combinate B.V.,Besloten Vennootschap,Halsteren,nee,2008-09-29,https://www.auditcombinate.nl,Verleend
 13000572,De Beer Audit B.V.,Besloten Vennootschap,Tilburg,nee,2008-09-29,www.debeer.nl,Verleend
 13000574,BLM B.V.,Besloten Vennootschap,Veldhoven,nee,2008-09-29,www.blmbastion.nl,Verleend
-13000575,VBWA B.V.,Besloten Vennootschap,Scherpenzeel,nee,2008-09-29,http://www.vbwa.nl,Verleend
 13000578,Witlox VCS audit B.V.,Besloten Vennootschap,Breda,nee,2008-09-29,,Verleend
 13000585,Lansigt accountants en adviseurs B.V.,Besloten Vennootschap,Alphen aan den Rijn,nee,2008-09-29,https://www.lansigt.nl,Verleend
 13000588,Afier Auditors B.V.,Besloten Vennootschap,Tynaarlo,nee,2008-09-29,,Verleend
@@ -176,7 +174,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020100,Keystone Audit B.V.,Besloten Vennootschap,Druten,nee,2018-08-14,http://www.keystoneaccountants.nl,Verleend
 13020102,Berkenrode Audit B.V.,Besloten Vennootschap,Haarlem,nee,2018-10-04,,Verleend
 13020108,Signature Audit + Advisory B.V.,Besloten Vennootschap,Spijkenisse,nee,2019-04-16,,Verleend
-13020109,Beuk Audit B.V.,Besloten Vennootschap,Velsen-Zuid,nee,2018-12-20,,Verleend
+13020109,Beuk Audit & Assurance B.V.,Besloten Vennootschap,Velsen-Zuid,nee,2018-12-20,,Verleend
 13020112,TIC Assurance B.V.,Besloten Vennootschap,Zwolle,nee,2019-07-23,https://www.tic-assurance.nl,Verleend
 13020115,The Audit Generation B.V.,Besloten Vennootschap,Bunnik,nee,2019-07-16,https://www.theauditgeneration.nl,Verleend
 13020116,Moore DRV Audit B.V.,Besloten Vennootschap,Rotterdam,nee,2019-09-10,,Verleend
@@ -231,4 +229,6 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020225,STUDIOAMS B.V.,Besloten Vennootschap,Amsterdam,nee,2026-05-05,,Verleend
 13020227,AccountantZijn B.V.,Besloten Vennootschap,Amersfoort,nee,2026-07-16,https://www.accountantzijn.nl,Verleend
 13020228,CROP accountants & adviseurs B.V.,Besloten Vennootschap,Amersfoort,nee,2026-05-19,,Verleend
+13020230,RAAD (Inter-)national Audit B.V.,Besloten Vennootschap,Ridderkerk,nee,2026-08-06,,Verleend
 13020231,SRL Audit & Assurance B.V.,Besloten Vennootschap,Middelharnis,nee,2026-07-23,,Verleend
+13020234,Steens & Partners Accountants en Adviseurs B.V.,Besloten Vennootschap,Rotterdam,nee,2026-09-22,,Verleend

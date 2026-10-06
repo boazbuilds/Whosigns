@@ -1,0 +1,959 @@
+# whosigns-ocr v1 grootte=4329072 dpi=300 paginas=20
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+1 Balans per 31 december 2020
+(na resultaatbestemming)
+
+31 december 2020 31 december 2019
+€ € € €
+ACTIVA
+Vaste activa
+Materiële vaste activa (1)
+Kantoorinventaris 28.520 25.517
+Inventaris 41.379 63.342
+Vervoermiddelen 58.341 89.273
+Verbouwingen 3.417 17.413
+131.657 195.545
+Financiële vaste activa (2) 13.064 13.064
+Vlottende activa
+Vorderingen (3)
+Debiteuren 675.204 480.485
+Belastingen en premies sociale verzekeringen 91.132 91.132
+Overige vorderingen en overlopende activa 77.718 108.447
+844.054 680.064
+Liquide middelen (4) 541.542 1.000.840
+1.530.317 1.889.513
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -20 -
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+31 december 2020 31 december 2019
+€ € € €
+PASSIVA
+Eigen vermogen (5)
+Geplaatst kapitaal 18.000 18.000
+Overige reserves 1.012.967 983.945
+1.030.967 1.001.945
+Kortlopende schulden (6)
+Schulden aan leveranciers en handelskredieten 203.872 169.620
+Belastingen en premies sociale verzekeringen 129.320 134.078
+Overige schulden en overlopende passiva 166.158 583.870
+499.350 887.568
+1.530.317 1.889.513
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -21-
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+2 Winst-en-verliesrekening over 2020
+
+2020 2019
+€ € € €
+
+Netto-omzet (7) 5.151.900 5.263.710
+Kosten
+Kosten van uitbesteed werk en andere
+externe kosten (8) 246.604 160.777
+Personeelskosten (9) 4.498.737 4.292.631
+Afschrijvingen materiële vaste activa (10) 74.879 86.888
+Overige bedrijfskosten (11) 288.715 399.866
+
+5.108.935 4.940.162
+Bedrijfsresultaat 42.965 323.548
+Rentelasten en soortgelijke kosten (12) -7.066 2.464
+Resultaat voor belastingen 35.899 326.012
+Belastingen (13) -6.877 -10.618
+Resultaat na belastingen 29.022 255.394
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -22-
+
+Inzowijs B.V. te Leiden
+
+Jaarrekening 2020
+
+3 Kasstroomoverzicht 2020
+
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+
+2020
+
+2019
+
+Kasstroom uit operationele activiteiten
+
+Bedrijfsresultaat 42.965
+Aanpassingen voor:
+
+Afschrijvingen 74.879
+Veranderingen in het werkkapitaal:
+
+Mutatie vorderingen -163.990
+Mutatie kortlopende schulden (exclusief
+
+schulden aan kredietinstellingen) -388.218
+
+Kasstroom uit bedrijfsoperaties
+
+Betaalde interest -7.066
+Vennootschapsbelasting -6.877
+
+Kasstroom uit operationele activiteiten
+
+Kasstroom uit investeringsactiviteiten
+
+Investeringen in materiële vaste activa
+
+Kasstroom uit financieringsactiviteiten
+
+Betaalbaar gesteld dividend
+
+Mutatie geldmiddelen
+
+Samenstelling geldmiddelen
+2020
+
+-434.364
+
+-13.943
+
+-448.307
+
+-10.990
+
+-459.297
+
+323.548
+
+86.888
+
+-4.943
+
+356.417
+
+2.464
+-70.618
+
+2019
+
+761.910
+
+-68.154
+
+693.756
+
+-14.690
+
+-596.424
+
+82.642
+
+Liquide middelen per 1 januari
+
+Mutatie liquide middelen
+
+Geldmiddelen per 31 december
+
+€
+1.000.840
+-459.298
+
+541.542
+
+1.000.840
+
+1.000.840
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -23-
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+4 Grondslagen voor waardering en resultaatbepaling
+Algemeen
+
+Activiteiten
+
+Inzowijs is gespecialiseerd in het bieden van laagdrempelige begeleiding aan kinderen en jongeren met lichte tot
+matig complexe problematiek. Begeleiding is erop gericht dat zij hun talent en potentieel zo goed mogelijk
+benutten in de dagelijkse omgeving. Begeleiding vindt plaats in de thuis situatie of op school, op de groep van
+Inzowijs of bijvoorbeeld tijdens de wijsdagen voor jongeren. Er worden maatwerktrajecten geboden waarbij
+kinderen en de jongeren zoveel mogelijk zelf eigenaar zijn van hun plan. Inzowijs koppelt de best passende
+collega aan het kind/jongere. Inzowijs biedt de young professionals die bij hen werken een springplank naar een
+verdere carrière in de zorg.
+
+Vestigingsadres, rechtsvorm en inschrijfnummer handelsregister
+
+Inzowijs B.V. is feitelijk gevestigd te Leiderdorp, maar is statutair gevestigd te Leiden en is ingeschreven bij het
+handelsregister onder nummer 28111611
+
+Groepsverhoudingen
+
+De vennootschap maakt deel uit van een groep, waarvan Bij MEES B.V. te Leiden aan het hoofd staat.
+
+Consolidatie
+
+Op grond van de vrijstelling ingevolge artikel 2:407 lid 2a BW is geen geconsolideerde jaarrekening opgesteld.
+
+N sl Hi lei keni
+
+De jaarrekening is opgesteld volgens de bepalingen van Titel 9 Boek 2 BW in overeenstemming met de
+Richtlijnen voor de Jaarverslaggeving voor de kleine rechtspersoon. Tevens is de jaarrekening opgesteld in
+overeenstemming met RJ 655 voor zorginstellingen.
+
+Activa en passiva worden in het algemeen gewaardeerd tegen de verkrijgings- of vervaardigingsprijs of de
+actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld vindt waardering plaats tegen de
+verkrijgingsprijs. In de balans en de winst-en-verliesrekening zijn referenties opgenomen. Met deze referenties
+wordt verwezen naar de toelichting.
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts
+opgenomen voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun
+oorsprong vinden voor het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van
+de jaarrekening bekend zijn geworden.
+
+Vergelijking met voorgaand jaar
+
+De gehanteerde grondslagen van waardering en van resultaatbepaling zijn ongewijzigd gebleven ten opzichte
+van het voorgaande jaar.
+
+Leasing
+
+Operationele leasing
+
+Bij de vennootschap kunnen er leasecontracten bestaan waarbij een groot deel van de voor- en nadelen die aan
+de eigendom verbonden zijn, niet bij de vennootschap ligt. Deze leasecontracten worden verantwoord als
+operationele leasing. Leasebetalingen worden, rekening houdend met ontvangen vergoedingen van de lessor,
+op lineaire basis verwerkt in de winst-en-verliesrekening over de looptijd van het contract.
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -24-
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+Grondsl eri .
+
+Materiële vaste activa
+
+Overige materiële vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct
+toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige
+gebruiksduur en bijzondere waardeverminderingen.
+
+Financiële vaste activa
+Deelnemingen
+
+De onder financiële vaste activa opgenomen vorderingen worden initieel gewaardeerd tegen de reële waarde
+onder aftrek van transactiekosten. Vervolgens worden deze vorderingen gewaardeerd tegen geamortiseerde
+kostprijs, welke in het algemeen gelijk is aan de nominale waarde. Bij de waardering wordt rekening gehouden
+met eventuele waardeverminderingen.
+
+De onder de financiële vaste activa opgenomen deelneming betreft een kapitaalstorting in de Coöperatie Jeugd-
+en Gezinsteams Holland Rijnland U.A. Deze is tegen kostprijs gewaardeerd.
+
+Vorderingen
+
+Vorderingen worden bij eerste verwerking gewaardeerd tegen de reële waarde van de tegenprestatie, inclusief
+de transactiekosten indien materieel. Vorderingen worden na eerste verwerking gewaardeerd tegen de
+geamortiseerde kostprijs. Voorzieningen wegens oninbaarheid worden in mindering gebracht op de boekwaarde
+van de vordering.
+
+Liquide middelen
+
+Liquide middelen bestaan uit banktegoeden en worden gewaardeerd tegen nominale waarde.
+
+Eigen vermogen
+
+Indien Inzowijs B.V. eigen aandelen inkoopt, wordt de verkrijgingsprijs van de ingekochte aandelen in mindering
+gebracht op de overige reserves, of op andere reserves mits de statuten dit toestaan, totdat deze aandelen
+worden ingetrokken of worden verkocht. Indien ingekochte aandelen worden verkocht, komt de opbrengst uit
+verkoop ten gunste van de overige reserves of andere reserves in het eigen vermogen.
+
+De opbrengst komt ten gunste van de reserve waarop eerder de inkoop van deze aandelen in mindering is
+gebracht.
+
+Kosten die direct samenhangen met de inkoop, verkoop en/of uitgifte van nieuwe aandelen worden rechtstreeks
+ten laste gebracht van het eigen vermogen, onder verrekening van relevante winstbelastingeffecten.
+
+Overige reserves
+Overige reserves zijn alle reserves, anders dan de wettelijke reserves en de statutaire reserves. Overige
+reserves zijn vrij uitkeerbaar aan de aandeelhouders.
+
+Kortlopende schulden
+
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen reële waarde. Kortlopende schulden
+worden na eerste verwerking gewaardeerd tegen de bedragen waartegen de schuld moet worden afgelost.
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -25-
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+Grondslagen voor de bepaling van het resultaat
+
+Algemeen
+
+Het resultaat wordt bepaald als het verschil tussen de opbrengstwaarde van de geleverde prestaties en de
+kosten en andere lasten over het jaar. De opbrengsten op transacties worden verantwoord in het jaar waarin zij
+zijn gerealiseerd.
+
+Opbrengstverantwoording
+Algemeen
+
+Netto-omzet omvat de opbrengsten uit levering van goederen en diensten en gerealiseerde projectopbrengsten
+uit hoofde van onderhanden projecten onder aftrek van kortingen en dergelijke en van over de omzet geheven
+belastingen.
+
+Kosten
+
+De kosten worden bepaald op historische basis en toegerekend aan het verslagjaar waarop zij betrekking
+hebben.
+
+Kosten van uitbesteed werk en andere externe kosten
+
+De kosten van uitbesteed werk en andere externe kosten omvatten de kosten die door derden in rekening zijn
+gebracht in het kader van de uitbesteding of ondersteuning van de werkzaamheden. Deze kosten bestaan uit de
+inkoopprijs en eventuele bijkomende kosten.
+
+Personeelsbeloningen
+
+Periodiek betaalbare beloningen
+
+De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in de
+winst-en-verliesrekening.
+
+Pensioenen
+
+Inzowijs B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord.
+
+De premies worden verantwoord als personeelskosten zodra deze verschuldigd zijn. Vooruitbetaalde premies
+worden opgenomen als overlopende activa indien dit tot een terugstorting leidt of tot een vermindering van
+toekomstige betalingen. Nog niet betaalde premies worden als verplichting op de balans opgenomen.
+
+Afschrijvingen op materiële vaste activa
+
+Materiële vaste activa worden vanaf het moment dat het actief beschikbaar is voor het beoogde gebruik
+afgeschreven over de geschatte economische levensduur / verwachte toekomstige gebruiksduur van het actief.
+Over terreinen wordt niet afgeschreven.
+
+Beoordelingsverklaring afgegeven op 16-07-2021 - 26 -
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+Overheidssubsidies
+
+Exploitatiesubsidies worden als bate verantwoord in de winst- en verliesrekening in het jaar waarin de
+gesubsidieerde kosten zijn gemaakt of opbrengsten zijn gederfd, of wanneer een gesubsidieerd exploitatietekort
+zich heeft voorgedaan. De baten worden verantwoord als het waarschijnlijk is dat deze worden ontvangen.
+
+Subsidies met betrekking tot investeringen in materiële vaste activa worden in mindering gebracht op het
+desbetreffende actief en als onderdeel van de afschrijvingen verwerkt in de winst-en-verliesrekening.
+
+Bedrijfskosten
+
+Financiële baten en lasten
+Rentebaten en rentelasten
+
+Rentebaten en rentelasten worden tijdsevenredig verwerkt, rekening houdend met de effectieve rentevoet van
+de desbetreffende activa en passiva. Bij de verwerking van de rentelasten wordt rekening gehouden met de
+verantwoorde transactiekosten op de ontvangen leningen.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst- en
+verliesrekening, rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren
+(voor zover niet opgenomen in de latente belastingvorderingen) en vrijgestelde winstbestanddelen en na
+bijtelling van niet-aftrekbare kosten. Tevens wordt rekening gehouden met wijzigingen die optreden in de latente
+belastingvorderingen en latente belastingschulden uit hoofde van wijzigingen in het te hanteren belastingtarief.
+
+G Isl telli het | icht
+Het kasstroomoverzicht is opgesteld volgens de indirecte methode.
+De verkrijgingsprijs van de verworven groepsmaatschappij is opgenomen onder de kasstroom uit
+
+investeringsactiviteiten, voor zover betaling in geld heeft plaatsgevonden.
+De in de verworven groepsmaatschappij aanwezige geldmiddelen zijn op de aankoopprijs in mindering gebracht.
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -27-
+
+Inzowijs B.V. te Leiden
+
+Jaarrekening 2020
+
+5 Toelichting op de balans per 31 december 2020
+
+ACTIVA
+
+VASTE ACTIVA
+
+1. Materiële vaste activa
+
+Kantoor- Vervoer-
+inventaris Inventaris middelen Verbouwingen Totaal
+€ € € € €
+Boekwaarde per 1 januari 2020
+Aanschaffingswaarde 143.469 206.095 187.854 113.587 651.005
+Cumulatieve afschrijvingen en
+waardeverminderingen -117.952 -142.753 -98.581 -96.174 -455.460
+25.517 63.342 89.273 17.413 195.545
+Mutaties
+Investeringen 10.492 499 - - 10.991
+Afschrijvingen -/.489 -22.462 -30.932 -13.996 -14.879
+3.003 -21.963 -30.932 -13.996 -63.888
+Boekwaarde per 31 december
+2020
+Aanschaffingswaarde 153.961 206.594 187.854 113.587 661.996
+Cumulatieve afschrijvingen en
+waardeverminderingen -125,441 -165.215 -129,513 -110.170 -530.339
+Boekwaarde per 31 december
+2020 28.520 41.379 58.341 3.417 131.657
+Afschrijvingspercentages
+%
+Kantoorinventaris 20
+Inventaris 20
+Vervoermiddelen 20
+Verbouwingen 20
+Beoordelingsverklaring afgegeven op 16-07-2021 - 28 -
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+2. Financiële vaste activa
+
+31-12-2020 31-12-2019
+€ €
+
+Andere deelnemingen
+
+Kapitaalstorting in de Coöperatieve Jeugd- en Gezinsteams Holland Rijnland
+UA. 13.064 13.064
+
+De kapitaalstorting is tegen kostprijs gewaardeerd.
+VLOTTENDE ACTIVA
+3. Vorderingen
+
+Debiteuren
+Debiteuren 675.204 480.485
+
+Belastingen en premies sociale verzekeringen
+
+Vennootschapsbelasting
+Vennootschapsbelasting 2019 91.132 91.132
+
+Overige vorderingen en overlopende activa
+
+Overige vorderingen
+
+Rekening-courant Bij MEES B.V. 71.718 -
+Compensatie HR regeling - 108.447
+
+77.718 108.447
+
+Compensatie HR regeling
+
+In 2019 is de nieuwe bekostiging ingevoerd waarbij budgetneutraliteit een van de randvoorwaarden was. Na
+afloop van 2019 is geconstateerd dat de gemiddelde uuropbrengst voor de ambulante inzet lager is dan in 2018
+bij Inzowijs B.V. Door de lagere gemiddelde uuropbrengst voor de ambulante inzet in 2019 bleef de omzet
+achter ten opzichte van de ureninzet. Als de gemiddelde uuropbrengst vergelijkbaar zou zijn geweest met 2018
+dan zou in het vierde kwartaal de maximale bestedingsruimte zijn bereikt waardoor een clientstop noodzakelik
+zou zijn geweest. Die situatie was niet wenselijk vanwege de consequenties in het zorglandschap op dat
+moment.
+
+Met inzowijs is door middel van addendum AD-19-6412-63 een aanvullende afspraak gemaakt om het
+omzetverlies te compenseren.
+
+4. Liquide middelen
+
+Rabobank rekening-courant „609 517.454 200.999
+Rabobank Sparen .740 17.990 789.404
+Rabobank Sparen .860 6.098 10.437
+
+541.542 1.000.840
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -29 -
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+Beoordelingsverklaring afgegeven op 16-07-2021 - 30 -
+
+Inzowijs B.V. te Leiden
+
+Jaarrekening 2020
+
+PASSIVA
+
+5. Eigen vermogen
+
+Geplaatst kapitaal
+
+Geplaatst en volgestort zijn 18.000 gewone aandelen nominaal € 1,00
+
+Het ingehouden deel van het resultaat over 2020 bedraagt € 29.022.
+
+Overige reserves
+
+Stand per 1 januari
+Resultaatbestemming boekjaar
+
+Betaalbaar gesteld dividend
+Stand per 31 december
+
+6. Kortlopende schulden
+
+Schulden aan leveranciers en handelskredieten
+
+Crediteuren
+
+Belastingen en premies sociale verzekeringen
+
+Loonheffing
+Pensioenen
+
+Pensioenpremies
+
+Pensioenen
+
+Overige schulden en overlopende passiva
+
+Overige schulden
+Overlopende passiva
+
+31-12-2020 31-12-2019
+
+€ €
+
+18.000 18.000
+2020 2019
+
+€ €
+983.945 1.324.975
+29.022 255.394
+1.012.967 1.580.369
+- -596.424
+1.012.967 983.945
+
+31-12-2020 31-12-2019
+
+€ €
+203.872 169.620
+95.913 93.091
+33.407 40.987
+129.320 134.078
+33.407 40.987
+148.152 571.764
+18.006 12.106
+166.158 583.870
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -31-
+
+Inzowijs B.V. te Leiden
+
+Jaarrekening 2020
+
+31-12-2020 31-12-2019
+
+€ €
+Overige schulden
+R/C Van der Zijden Beheer B.V. 6.444 431.524
+Reservering vakantiegeld 42.055 42.183
+Te betalen netto loon 99.653 98.057
+
+148.152 571.764
+R/C Van der Zijden Beheer B.V.
+
+2020 2019
+
+€ €
+Stand per 1 januari 431.524 198.341
+Mutaties -430.487 237.668
+
+1.037 436.009
+
+Rente 5.407 -4.485
+Stand per 31 december 6.444 431.524
+
+Over het gemiddeld saldo wordt 2,50% rente berekend.
+
+Er zijn geen zekerheden gesteld. De intentie was aanwezig om in dit boekjaar de rekening-courant te
+
+vereffenen. Volledige afwikkeling zal in 2021 plaats vinden.
+
+31-12-2020 31-12-2019
+€ €
+Overlopende passiva
+Waarborgsommen 2.106 2.106
+Nog te betalen accountantskosten 15.900 10.000
+18.006 12.106
+
+NIET IN DE BALANS OPGENOMEN ACTIVA EN VERPLICHTINGEN
+
+Voorwaardelijke verplichtingen
+Fiscale eenheid
+
+De vennootschap maakt deel uit van de fiscale eenheid voor de vennootschapsbelasting en omzetbelasting van
+Bij MEES B.V. Op grond daarvan is de vennootschap hoofdelijk aansprakelijk voor de belastingschuld van de
+fiscale eenheid als geheel.
+
+Bankgaranties
+
+Er is een bankgarantie afgegeven voor een totaalbedrag van € 4.340 ten behoeve van de verhuurder.
+
+Meerjarige financiële verplichtingen
+Leaseverplichtingen
+
+De vennootschap is operational leaseverplichtingen aangegaan tot en met 2022. De totale verplichting bedraagt
+€ 28.780, waarvan € 23.936 een looptijd van minder dan 1 jaar heeft en € 4.844 een looptijd langer dan 1 jaar
+heeft.
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -32-
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+Huurverplichtingen onroerende zaken
+
+De vennootschap is een huurverplichting aangegaan tot en met 31 juli 2021 terzake van huur van bedrijfsruimte
+(€ 64.800 per jaar). De huurverplichting is ingegaan op 1 augustus 2019 voor een kantoorruimte te Leiderdorp.
+De huur kan telkens worden voortgezet voor 24 maanden.
+
+Vennootschap huurt een pand van gemeente Leiden aan de Gabriël Metzustraat, 2316 AJ te Leiden, waaarvan
+de huur telkens voor een jaar wordt verlengd per 31 mei. De opzegtermijn is 6 maaanden. De huur bedraagt
+€ 23.809.
+
+Ten slotte huurt de vennootschap Prof. van der Waalsstraat 3H - unit 2 te Alkmaar met een huurprijs van 9.000
+euro op jaarbasis.
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -33 -
+
+Inzowijs B.V. te Leiden
+
+Jaarrekening 2020
+
+6 Toelichting op de winst-en-verliesrekening over 2020
+
+7. Netto-omzet
+
+Netto-omzet
+
+Omzet Zorg in Natura JW
+Omzet Zorg in natura WMO
+Omzet project Haven 71
+
+Omzet scholen uit schoolbudget
+Diverse omzet, PGB en overige
+Omzet Wijkteams
+
+Omzet onderaannemerschap
+Omzet project Over de Grenzen
+Omzet project onderwijscamper
+Compensatievergoeding
+Correctie op omzet voorgaand jaar
+
+8. Kosten van uitbesteed werk en andere externe kosten
+
+Directe kosten
+
+Directe kosten
+
+Kosten Groepsopvang
+Werk derden kosten
+Kosten Onderwijscamper
+
+9, Personeelskosten
+
+Lonen en salarissen
+Sociale lasten
+Pensioenlasten
+
+Overige personeelskosten
+
+Lonen en salarissen
+
+Brutolonen en -salarissen
+
+Mutatie reservering vakantiegeld
+Uitzendkrachten kosten
+
+Wet tegemoetkoming loondomein
+Correctie loonmutaties
+
+Ontvangen zwangerschapsvergoeding UWV
+
+2020 2019
+€ €
+
+3.739.264 3.581.890
+117.183 117.899
+350.000 348.929
+327.412 435.146
+336.672 299.630
+209.879 257.186
+10.931 76.927
+52.787 18.785
+- 17.800
+- 109.518
+7.772 -
+5.151.900 5.263.710
+246.604 160.777
+16.256 19.143
+235.250 116.668
+-4,902 24.966
+246.604 160.777
+3.758.693 3.522.371
+430.266 394.389
+150.376 157.046
+159.402 218.825
+4.498.737 4.292.631
+2.249.837 2.235.601
+53.793 55.754
+1.492.677 1.274.301
+- -2.026
+-7.406 -
+3.788.901 3.563.630
+-30.208 -41.259
+3.758.693 3.522.371
+
+Beoordelingsverklaring afgegeven op 16-07-2021
+
+-34-
+
+Inzowijs B.V. te Leiden
+
+Jaarrekening 2020
+
+Overige personeelskosten
+
+Reiskosten woon-werk
+Maandelijkse onkosten
+Vakcursussen en opleidingen
+Werkkostenregeling directie
+Reiskostenvergoedingen personeel
+Zakelijke overige personeelskosten
+Kantinekosten personeel
+Intermediare kosten
+Personeelsuitgaven/uitjes
+
+Kosten WIJS opleiding en training
+Salarisadministratie
+
+Personeelsleden
+
+2020 2019
+
+€ €
+44.219 80.268
+417 2.820
+19.889 25.099
+2.140 9,384
+1.995 8.687
+4.345 7.895
+2.081 6.750
+26.632 16,964
+27.373 29.301
+99 1,735
+30.212 29.922
+159.402 218.825
+
+Gedurende het jaar 2020 waren 66 werknemers in dienst op basis van een volledig dienstverband (2019: 67).
+
+Bezoldiging topfunctionarissen
+Topfunctionarissen
+
+2020 Beloning Belastbare Motivatie Functie(s) Duur en
+kosten- overschrijding omvang
+vergoedingen norm dienstverband
+
+naam € e
+
+E.C. van der Zijden 60.000 0 n.v.t. directeur 0,65 hele jaar
+
+H. Hensen 110.996 0 n.v.t. directeur 1,00 hele jaar
+
+2019 Beloning Belastbare Motivatie Functie(s) Duur en
+kosten- overschrijding omvang
+vergoedingen op termijn norm dienstverband
+
+naam € €
+
+E.‚C. van der Zijden 60.000 0 nvt. directeur 0,65 hele jaar
+
+H. Hensen 93.369 8.931 nvt. directeur 1,00 hele jaar
+
+De Raad van Commissarissen heeft de bestuurders ingedeeld in klasse I met een bezoldigingsmaximum
+
+van € 111.000 (2019: € 107.000)
+
+De commissarissen ontvangen een vergoeding van € 5.000 per persoon.
+
+Naast de hierboven vermelde topfunctionaris zijn er geen overige functionarissen met dienstbetrekking die
+in 2020 een bezoldiging boven het individuele WNT-maximum hebben ontvangen.
+
+Toezichthoudende topfunctionarissen
+
+Beloning
+
+mr. H.P. van Baalen
+L.M.A. Schermer
+
+2020 2019
+
+€ €
+5.000 5.000
+5.000 5.000
+
+Beoordelingsverklaring afgegeven op
+
+-35-
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+Afschrijvingen op materiële vaste activa
+
+2020 2019
+
+€ €
+10. Afschrijvingen materiële vaste activa
+Kantoorinventaris 7.489 8.441
+Inventaris 22.462 25.815
+Vervoermiddelen 30.932 31.484
+Verbouwingen 13.996 21.148
+
+74.879 86.888
+
+11. Overige bedrijfskosten
+Huisvestingskosten 115.631 126.425
+Kantoorkosten 43.929 131.311
+Kosten vervoermiddelen 53.387 67.208
+Verkoopkosten 15.012 19.715
+Algemene kosten 60.756 55.207
+
+288.715 399.866
+Huisvestingskosten
+Huur 100.992 104.775
+Onroerende zakenbelasting -3.724 4.191
+Onderhoud onroerende zaken 125 2.221
+Schoonmaakkosten 18.238 15.238
+
+115.631 126.425
+
+Beoordelingsverklaring afgegeven op 16-07-2021 - 36 -
+
+Inzowijs B.V. te Leiden
+
+Jaarrekening 2020
+
+Kantoorkosten
+
+Kantoorkosten
+
+Drukwerk
+
+Vakliteratuur
+
+Software- en hardwarekosten
+Telefoon & internet kosten
+Portikosten
+Contributies/abonnementen
+Aanschaf kleine inventaris
+
+Subsidie "Inzowijs Online"
+
+Kosten vervoermiddelen
+
+Brandstoffen
+Onderhoud
+Leasekosten
+Verzekering
+Motorrijtuigenbelasting
+Parkeerkosten
+
+Verkoopkosten
+
+Reclame- en advertentiekosten
+Overige verkoopkosten
+
+Algemene kosten
+
+Accountantskosten
+Advieskosten
+
+Juridische kosten
+Notariskosten
+Verzekeringen
+Onderhoud inventarissen
+Overige algemene kosten
+
+Financiële baten en lasten
+
+12. Rentelasten en soortgelijke kosten
+
+Provisie en bankkosten bank
+Rente R/C directie
+
+2020 2019
+€ €
+1.584 3.969
+102 33
+270 758
+56.848 84.789
+30.361 32.188
+2.200 3.151
+1.959 1.482
+605 4.941
+93.929 131.311
+-50.000 -
+43.929 131.311
+11.413 18.424
+896 6.088
+35.970 34.200
+1.096 3.214
+2.806 3.124
+1.206 2.158
+53.387 67.208
+15.012 18.542
+- 1.173
+15.012 19.715
+22.085 14.294
+22.551 19.397
+4.240 14.738
+1.997 2.188
+6.788 9.757
+1.526 478
+1.569 -5.645
+60.756 55.207
+1.659 -2.020
+-5.407 4.484
+-7.066 2.464
+
+Beoordelingsverklaring afgegeven op 16-07-2021 -37 -
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+13. Belastingen
+
+De belasting over het resultaat ten bedrage van € 6.877 kan als volgt worden toegelicht:
+
+Vennootschapsbelasting -6.877 -70.618
+
+Beoordelingsverklaring afgegeven op 16-07-2021 - 38 -
+
+Inzowijs B.V. te Leiden Jaarrekening 2020
+
+Ondertekening en akkoordverklaring jaarrekening
+Opmaak jaarrekening
+
+Ondergetekende gaat akkoord met de door Countus accountants + adviseurs d.d. 16 juli 2021 opgestelde
+jaarrekening 2020 van Inzowijs B.V. te Leiderdorp en de in de jaarrekening opgenomen samenstelling en
+verdeling van vermogen en resultaat.
+
+Het eigen vermogen volgens de balans per 31 december 2020 bedraagt € 1.030.967 en het resultaat volgens
+de winst-en-verliesrekening over 2020 bedraagt € 29.022
+
+De jaarrekening is aldus opgemaakt door het bestuur.
+
+Leiderdorp, … … …
+
+Bij MEES B.V. Bij MEES B.V.
+Namens deze, Namens deze,
+E.C. van der Zijden H. Hensen
+
+Ondertekening van de jaarrekening
+
+Leiderdorp, <Vul datum in>
+
+L.M.A. Schermer mr. H.P. van Baalen
+
+Beoordelingsverklaring afgegeven op 16-07-2021 - 38 -

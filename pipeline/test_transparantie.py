@@ -183,6 +183,90 @@ GEVALLEN = [
             "STG Global Finance B.V.",
         ],
     ),
+    (
+        "KPMG/BDO: opsommingstekens horen niet bij de naam",
+        "Lijst van organisaties van openbaar belang",
+        "Lijst van organisaties van openbaar belang\n"
+        "— ING Bank N.V.\n"
+        "\uf03c Adagio CLO I B.V.\n"
+        "• Xeikon N.V.\n",
+        ["ING Bank N.V.", "Adagio CLO I B.V.", "Xeikon N.V."],
+    ),
+    (
+        "KPMG: een tussenzin die niet meer sluit hoort niet bij de naam",
+        "Lijst van organisaties van openbaar belang",
+        "Lijst van organisaties van openbaar belang\n"
+        "CZ Zorgverzekeringen N.V. (previously OHRA\n"
+        "Zorgverzekeringen N.V.)\n"
+        "Qiagen N.V.\n",
+        ["CZ Zorgverzekeringen N.V.", "Qiagen N.V."],
+    ),
+    (
+        "BDO: onderlingen afgebroken op het soortwoord worden weer heel",
+        "Lijst van organisaties van openbaar belang",
+        "Lijst van organisaties van openbaar belang\n"
+        "Onderlinge Waarborg Maatschappij\n"
+        "Achterhoek U.A.\n"
+        "Ctac N.V.\n",
+        ["Onderlinge Waarborg Maatschappij Achterhoek U.A.", "Ctac N.V."],
+    ),
+    (
+        "PwC: de inleidende zin boven de lijst is geen cliënt",
+        "List of public interest entities",
+        "List of public interest entities\n"
+        "Accountants N.V. \u200bduring the\n"
+        "Netherlands listed on an EU regulated market, credit institutions and (re)insurance\n"
+        "Akzo Nobel N.V.\n"
+        "Blue Square Re N.V. in liquidatie\n"
+        "Stichting Wooninc.\n",
+        # "in liquidatie" en "Wooninc." blijven staan: een rechtstoestand en
+        # een punt in de naam zijn geen proza.
+        [
+            "Akzo Nobel N.V.",
+            "Blue Square Re N.V. in liquidatie",
+            "Stichting Wooninc.",
+        ],
+    ),
+    (
+        "Deloitte: streepje vast aan de naam, label erboven, zachte afbreekstreep",
+        "PIEs audited",
+        "PIEs audited\n"
+        "Merger between:\n"
+        "-Onderlinge Verzekeringsmaatschappij Midden Drenthe U.A.,\n"
+        "-Onderlinge Waarborgmaatschappij Univ\u00e9 Ruinen U.A.\n"
+        "Onderlinge Waarborgmaatschappij voor Instellingen in de "
+        "Gezondheids\u00ad zorg MediRisk B.A.\n",
+        # "Merger between:" is een kopje en mag niet aan de naam eronder
+        # geplakt worden; de zachte afbreekstreep is onzichtbaar maar zou
+        # "Gezondheids zorg" een andere organisatie maken dan "Gezondheidszorg".
+        [
+            "Onderlinge Verzekeringsmaatschappij Midden Drenthe U.A.",
+            "Onderlinge Waarborgmaatschappij Univ\u00e9 Ruinen U.A.",
+            "Onderlinge Waarborgmaatschappij voor Instellingen in de "
+            "Gezondheidszorg MediRisk B.A.",
+        ],
+    ),
+    (
+        "BDO: een naam die zelf tussen haakjes doorloopt blijft heel",
+        "Lijst van organisaties van openbaar belang",
+        "Lijst van organisaties van openbaar belang\n"
+        "Mutual Insurance Association Munis (Onderlinge\n"
+        "Verzekeringsmaatschappij Munis) U.A.\n"
+        "Ctac N.V.\n",
+        ["Mutual Insurance Association Munis (Onderlinge Verzekeringsmaatschappij Munis) U.A.",
+         "Ctac N.V."],
+    ),
+    (
+        "Deloitte: is de naam vóór het haakje al af, dan is de rest toelichting",
+        "PIEs audited",
+        "PIEs audited\n"
+        "Onderlinge Verzekeringsmaatschappij Univ\u00e9 Samen U.A. (voorheen Onderlinge\n"
+        "Verzekeringsmaatschappij Univ\u00e9 Noord-Holland U.A.)\n"
+        "Ctac N.V.\n",
+        # "U.A." sluit de naam af, dus hier wordt wél geknipt -- anders dan bij
+        # Munis hierboven, waar de naam vóór het haakje nog niet af was.
+        ["Onderlinge Verzekeringsmaatschappij Univ\u00e9 Samen U.A.", "Ctac N.V."],
+    ),
 ]
 
 

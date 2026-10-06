@@ -1,0 +1,714 @@
+# whosigns-ocr v1 grootte=2426275 dpi=300 paginas=20
+SP | BZB
+
+e Het overwegen van de algehele presentatie, structuur en inhoud van de jaarrekening en de daarin
+
+opgenomen toelichtingen; en
+e Het overwegen of de jaarrekening, inclusief de gerelateerde toelichtingen, een getrouw beeld lijkt te geven
+van de onderliggende transacties en gebeurtenissen.
+
+BZB Accountancy & Advies B.V.
+namens deze,
+
+w.g. Drs. Jan ter Reehorst RA
+
+SP | BZB
+
+2 RESULTATEN
+
+ONTWIKKELING RESULTAAT
+
+De verslagperiode is afgesloten met een resultaat van € -27.060, tegenover € 192.924 over 2023. Ter analyse van het
+resultaat dient de volgende opstelling, die is ontleend aan de winst-en-verliesrekening.
+
+2024 2023
+€ % € %
+Netto-omzet 6.838.270 100,0 6.558.723 100,0
+Overige bedrijfsopbrengsten 92.368 1,4 36.501 0,6
+Inkoopwaarde van de omzet -3.165.180 -46,3 -2.571.626 -39,2
+Brutomarge (brutobedrijfsresultaat) 3.765.458 55,1 4.023.598 61,3
+Personeelskosten 1.818.096 26,6 1.794.953 27,4
+Afschrijvingen en waardeveranderingen 20.200 0,3 16.639 0,3
+Overige bedrijfskosten 1.963.767 28,7 1.970.329 30,0
+Som der kosten 3.802.063 55,6 3.781.921 57,7
+Bedrijfsresultaat -36.605 -0,5 241.677 3,7
+Financiële baten en lasten -542 -0,0 - -
+Belastingen 10.087 0,1 -48.753 -0,7
+Resultaat -27.060 -0,4 192.924 2,9
+
+VERGELIJKING RESULTAAT
+
+De ontwikkeling van het resultaat 2024 ten opzichte van 2023 kan als volgt worden verklaard:
+
+2024
+€
+
+Resultaat hoger door
+
+Daling overige bedrijfskosten 6.562
+Daling belastingen resultaat 58.840
+Resultaat lager door
+
+Daling brutomarge -258.140
+Stijging personeelskosten -23,143
+Stijging afschrijvingen en waardeverminderingen -3.561
+Daling financieel resultaat -542
+Totaal afname resultaat -219.984
+
+SP | BZB
+
+3 FINANCIËLE POSITIE
+
+ONTWIKKELING WERKKAPITAAL
+
+Het onderstaande overzicht geeft een beeld van de ontwikkeling van de liquiditeitspositie ultimo het verslagjaar en is
+ontleend aan de balans:
+
+31 dec 2024 31 dec 2023
+€ €
+Beschikbaar op lange termijn
+Eigen vermogen 281.576 808.636
+281.576 808.636
+Vastgelegd op lange termijn
+Materiële vaste activa 44.552 51.910
+Financiële vaste activa 27.480 27.480
+72.032 79.390
+Werkkapitaal 209.544 729.246
+
+De omvang van het werkkapitaal geeft informatie over de liquiditeitspositie van de onderneming.
+
+SP | BZB
+
+4 FISCALE POSITIE
+
+VERSCHULDIGDE VENNOOTSCHAPSBELASTING
+
+Het belastbaar bedrag is als volgt te berekenen:
+
+Berekening belastbaar bedrag 2024
+
+€
+Resultaat voor belastingen -37.147
+Fiscaal resultaat 87147
+Investeringsaftrek -3.595
+Belastbaar bedrag 40.742
+Verrekening met winst voorgaand jaar (carry back) 40.742
+
+Resteert voor voorwaartse verliesverrekening
+
+BELASTINGEN
+
+De belasting volgens de winst-en-verliesrekening is als volgt te specificeren:
+
+Specificatie belastinglast 2024
+
+Verschuldigde vennootschapsbelasting volgens berekening -
+Verrekening verlies boekjaar met winst vorig jaar (carry back) … -10.087
+Belastingen volgens de winst-en-verliesrekening -10.087
+
+Op grond van de terug wenteling van het verlies over 2024 naar de winst over 2023 is er een gedeeltelijke teruggave
+van over 2023 verschuldigde vennootschapsbelasting .
+
+SP | BZB
+
+JAARREKENING 2024
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+5 BALANS PER 31 DECEMBER 2024
+
+ACTIVA
+
+(Na resultaatbestemming) 31 dec 2024 31 dec 2023
+€ € € €
+
+Vaste activa
+
+Materiële vaste activa 44.552 51.910
+
+Financiële vaste activa 27.480 27.480
+
+Vlottende activa
+
+Vorderingen 1.298.717 1.367.988
+
+Liquide middelen 19.503 34.760
+
+Totaal 1.390.252 1.482.138
+
+10
+
+Wilskracht Zorg B.V. te Amsterdam
+
+PASSIVA
+
+(Na resultaatbestemming)
+
+Eigen vermogen
+Aandelenkapitaal
+
+Overige reserves
+
+Kortlopende schulden
+
+Totaal
+
+SP | BZB
+
+11
+
+31 dec 2024 31 dec 2023
+€ € €
+1.000 1.000
+280.576 807.636
+281.576 808.636
+1.108.676 673.502
+1.390.252 1.482.138
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+6 WINST-EN-VERLIESREKENING OVER 2024
+
+2024 2023
+
+€ € € €
+Baten uit beroeps- of bedrijfsmatige
+zorgverlening
+Jeugdwet 1.157.857 712.820
+Baten uit onderaanneming 5.658.933 5.823.323
+Overige baten uit beroeps- of
+bedrijfsmatige zorgverlening 21.480 22.580
+Netto-omzet 6.838.270 6.558.723
+Overige bedrijfsopbrengsten 92.368 36.501
+Som der bedrijfsopbrengsten 6.930.638 6.595.224
+Inkoopwaarde van de omzet 3.165.180 2.571.626
+Personeelskosten 1.818.096 1.794.953
+Afschrijvingen en waardeveranderingen 20.200 16.639
+Overige bedrijfskosten 1.963.767 1.970.329
+Som der bedrijfslasten 6.967.243 6.353.547
+Bedrijfsresultaat -36,605 241.677
+Financiële baten en lasten -542 -
+Resultaat voor belastingen -37.147 241.677
+Belastingen 10.087 -48.753
+Resultaat na belastingen -27.060 192.924
+
+12
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+7 ALGEMENE TOELICHTING
+
+Belangrijkste activiteiten
+De activiteiten van Wilskracht Zorg B.V, statutair gevestigd te Amsterdam, bestaan voornamelijk uit:
+
+het verlenen van 24/7 beschermd wonen en begeleid wonen aan jongeren met (of zonder) lichtverstandelijke
+beperkingen.
+
+Locatie feitelijke activiteiten
+Wilskracht Zorg B.V. is feitelijk gevestigd te Amsterdam en is ingeschreven bij het handelsregister onder nummer
+72684992.
+
+13
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+8 _GRONDSLAGEN VOOR FINANCIËLE VERSLAGGEVING
+
+ALGEMEEN
+
+Algemene grondslagen
+
+De jaarrekening is opgesteld in overeenstemming met de wettelijke bepalingen van Titel 9 Boek 2 BW met
+uitzondering van afdeling 6 ‘voorschriften omtrent de grondslagen van waardering en bepaling van het resultaat’. In
+plaats daarvan worden de grondslagen voor de bepaling van de belastbare winst als bedoeld in de Wet op de
+Vennootschapsbelasting toegepast. Verder zijn het Besluit fiscale waarderingsgrondslagen en de ‘Handreiking bij de
+toepassing van fiscale grondslagen voor kleine rechtspersonen’ van de Raad voor de Jaarverslaggeving van
+toepassing. Alle in de jaarrekening vermelde bedragen luiden in euro's. Tevens wordt rekening gehouden met de
+bepalingen van de Regeling Marktwerking in de Gezondheidszorg.
+
+Algemene grondslagen voor waardering activa en passiva
+De waardering van activa en passiva en de bepaling van het resultaat vinden plaats op basis van historische kosten,
+tenzij anders vermeld.
+
+Algemene grondslagen bepaling resultaat
+
+Baten en lasten worden toegerekend aan het jaar waarop ze betrekking hebben. Winsten worden slechts opgenomen
+voor zover zij op balansdatum zijn gerealiseerd. Verplichtingen en mogelijke verliezen die hun oorsprong vinden voor
+het einde van het verslagjaar, worden in acht genomen indien zij voor het opmaken van de jaarrekening bekend zijn
+geworden.
+
+Pensioenregelingen
+
+Wilskracht Zorg B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord. Op de pensioenregelingen zijn de bepalingen van de
+Nederlandse Pensioenwet van toepassing en betaalt Wilskracht Zorg B.V. verplichte premies af aan het
+pensioenfonds Zorg en Welzijn. De premies worden verantwoord als personeelskosten zodra deze verschuldigd zijn.
+
+GRONDSLAGEN VOOR WAARDERING ACTIVA
+
+Materiële vaste activa
+
+De materiële vaste activa worden gewaardeerd op kostprijs, verminderd met de cumulatieve afschrijvingen en indien
+van toepassing met bijzondere waardeverminderingen. De afschrijvingen worden gebaseerd op de geschatte
+economische levensduur, tenzij fiscaal een wettelijk maximum afschrijvingspercentage van 20 % wordt
+voorgeschreven, en worden berekend op basis van een vast percentage van de kostprijs, rekening houdend met een
+eventuele residuwaarde. Er wordt afgeschreven vanaf het moment van ingebruikneming. Op terreinen wordt niet
+afgeschreven. Op gebouwen in eigen gebruik wordt tot 100% van de WOZ-waarde afgeschreven.
+
+Financiële vaste activa
+Overige vorderingen worden opgenomen tegen de nominale waarde.
+
+Vorderingen
+
+Vorderingen worden opgenomen tegen nominale waarde, rekening houdend met eventuele verminderingen voor het
+risico van oninbaarheid. Deze verminderingen worden bepaald op basis van individuele beoordeling van de
+vorderingen. Voor zover niet anders is vermeld hebben de vorderingen een looptijd van korter dan 1 jaar.
+
+Liquide middelen
+
+Liquide middelen bestaan uit kas, banktegoeden, wissels, cheques en deposito's met een looptijd korter dan twaalf
+maanden. Rekening-courantschulden bij banken zijn opgenomen onder schulden aan kredietinstellingen onder
+kortlopende schulden. Liquide middelen worden gewaardeerd tegen nominale waarde.
+
+GRONDSLAGEN VOOR WAARDERING PASSIVA
+
+Kortlopende schulden
+Kortlopende schulden worden bij de eerste verwerking gewaardeerd tegen nominale waarde. Daarbij dient een
+zakelijke rente in aanmerking te worden genomen.
+
+14
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+GRONDSLAGEN VOOR BEPALING RESULTAAT
+
+Netto-omzet
+
+Opbrengsten uit de verkoop van goederen worden verwerkt zodra alle belangrijke rechten en risico's met betrekking
+tot de eigendom van de goederen zijn overgedragen aan de koper. Verantwoording van opbrengsten uit de levering
+van diensten geschiedt naar rato van de geleverde prestaties, gebaseerd op de verrichte diensten tot aan de
+balansdatum in verhouding tot de in totaal te verrichten diensten.
+
+Personeelskosten
+
+Wilskracht Zorg B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. De over het
+verslagjaar verschuldigde premie wordt als last verantwoord.
+
+Op de Nederlandse pensioenregelingen zijn de bepalingen van de Nederlandse Pensioenwet van toepassing en
+betaalt Wilskracht Zorg B.V. verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en
+verzekeringsmaatschappijen. De premies worden verantwoord als personeelskosten zodra deze verschuldigd zijn.
+Vooruitbetaalde premies worden opgenomen als overlopende activa indien dit tot een terugstorting leidt of tot een
+vermindering van toekomstige betalingen. Nog niet betaalde premies worden als verplichting op de balans
+opgenomen. De aan het personeel verschuldigde beloningen worden op grond van de arbeidsvoorwaarden verwerkt in
+de winst-en-verliesrekening.
+
+Voor de uitvoering van de Wet normering topinkomens (WNT) heeft Wilskracht Zorg B.V. zich gehouden aan de wet-
+en regelgeving inzake de WNT, waaronder de instellingsspecifieke (sectorale) regels.
+
+Belastingen
+
+De belasting over het resultaat wordt berekend over het resultaat voor belastingen in de winst-en-verliesrekening,
+rekening houdend met beschikbare, fiscaal compensabele verliezen uit voorgaande boekjaren en vrijgestelde
+winstbestanddelen en na bijtelling van niet-aftrekbare kosten. Ook is rekening gehouden met de
+verrekeningsmogelijkheden via de coronareserve.
+
+15
+
+Wilskracht Zorg B.V. te Amsterdam
+
+9 TOELICHTING OP BALANS
+
+MATERIËLE VASTE ACTIVA
+
+Andere vaste bedrijfsmiddelen
+Inventaris
+
+Automobielen en overige transportmiddelen
+
+Totaal
+
+Onderstaand overzicht geeft het verloop van de materiële vaste activa gedurende het boekjaar weer:
+
+Boekwaarde 1 januari 2024
+Verkrijgings- of vervaardigingsprijs
+
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Mutaties 2024
+Investeringen
+
+Afschrijvingen
+
+Boekwaarde 31 december 2024
+Verkrijgings- of vervaardigingsprijs
+Cumulatieve afschrijvingen en waardeverminderingen
+
+Afschrijvingspercentage (gemiddeld)
+
+FINANCIËLE VASTE ACTIVA
+
+Overige vorderingen (langlopend)
+
+Toelichting
+
+SP | BZB
+
+31 dec 2024 31 dec 2023
+€ €
+39.183 43.059
+5.369 8.851
+44.552 51.910
+
+31 dec 2024
+
+Andere vaste
+bedrijfs-
+middelen
+
+€
+
+98.297
+-46.387
+
+51.910
+
+12.842
+-20.200
+
+-1.358
+
+111.139
+-66.587
+
+44.552
+
+20,0
+
+31 dec 2023
+
+€
+
+27.480
+
+€
+
+27.480
+
+De overige vorderingen betreffen betaalde waarborgsommen aan de verhuurders van de verschillende locaties.
+
+Wilskracht Zorg B.V. te Amsterdam
+
+VORDERINGEN
+
+Vorderingen op handelsdebiteuren, bruto
+
+Voorziening dubieuze debiteuren
+
+Aandeelhouders en deelnemingen
+
+Belastingvorderingen
+
+Vennootschapsbelasting
+
+Overige vorderingen
+
+Overige vorderingen
+
+Overlopende activa
+
+Totaal
+
+LIQUIDE MIDDELEN
+
+Banktegoeden
+
+EIGEN VERMOGEN
+
+Aandelenkapitaal
+
+Overige reserves
+
+Totaal
+
+17
+
+SP | BZB
+
+31 dec 2024 31 dec 2023
+€ €
+1.239.119 1.142.664
+-29.407 -
+1.209.712 1.142.664
+- 223.324
+33.296 -
+15.000 2.000
+40.709 -
+1.298.717 1.367.988
+31 dec 2024 31 dec 2023
+€ €
+19.503 34.760
+31 dec 2024 31 dec 2023
+€ €
+1.000 1.000
+280.576 807.636
+281.576 808.636
+
+
+Wilskracht Zorg B.V. te Amsterdam
+
+Onderstaand overzicht geeft het verloop van het eigen vermogen gedurende het boekjaar weer:
+
+Stand 1 januari 2024
+Mutaties 2024
+Inkoop van eigen aandelen
+
+Resultaat boekjaar
+
+Stand 31 december 2024
+
+Aandelenkapitaal
+
+| BZB
+
+Aandelen- Overige
+kapitaal reserves Totaal
+€ € €
+1.000 807.636 808.636
+- -500.000 -500.000
+- -27.060 -27.060
+- -527.060 -527.060
+1.000 280.576 281.576
+
+Het geplaatst kapitaal van de vennootschap bedraagt € 1.000, verdeeld in 1.000 gewone aandelen van € 1
+
+Overige reserves
+
+Op 3 juli 2024 is het besluit genomen door de aandeelhouder en het bestuur van de vennootschap om de
+vennootschap 66,66% van het geplaatste kapitaal in te laten kopen voor een bedrag van € 500.000. De verschuldigde
+koopsom is in mindering gebracht op de Overige reserves van de vennootschap. De notariële akte betreffende de
+
+inkoop van de aandelen is nog niet gepasseerd.
+
+Ingehouden resultaat
+
+Het ingehouden deel van het resultaat over 2024 bedraagt € -27.060 (2023: € 192.924).
+
+KORTLOPENDE SCHULDEN
+
+Leveranciers en handelskredieten
+
+Aandeelhouders en deelnemingen
+
+Belastingen en premies sociale verzekeringen
+Vennootschapsbelasting
+
+Loonheffing- en premies
+
+Schulden ter zake van pensioenen
+
+Overige schulden
+
+Overlopende passiva
+Netto lonen
+
+Reservering vakantiegeld
+
+Totaal
+
+18
+
+31 dec 2024 31 dec 2023
+€ €
+471.454 172.840
+
+54.556 -
+
+- 24.447
+
+119.913 1.590
+119.913 26.037
+16.298 44.670
+376.482 367.031
+
+- 1.488
+
+69.973 61.436
+69.973 62.924
+1.108.676 673.502
+
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+NIET IN DE BALANS OPGENOMEN VERPLICHTINGEN
+
+Fiscale eenheid
+De rechtspersoon maakt deel uit van een fiscale eenheid voor de omzetbelasting en is uit dien hoofde hoofdelijk
+aansprakelijk voor de belastingschuld van de fiscale eenheid als geheel.
+
+Betalingen ter verkrijging van (gebruiks)rechten
+Het jaarlijks bedrag van met derden aangegane huurverplichtingen van onroerende zaken is circa € 900.000. De
+resterende looptijd van het huurcontract is voor onbepaalde tijd.
+
+Operationele leases
+De verplichtingen uit hoofde van met derden aangegane leaseovereenkomsten bedragen in totaal € 61.500 per jaar.
+
+19
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+10 TOELICHTING OP WINST-EN-VERLIESREKENING
+
+OMZET EN BRUTOMARGE
+
+2024 2023
+€ €
+Jeugdwet 1.157.857 712.820
+Baten uit onderaanneming 5.658.933 5.823.323
+Overige baten uit beroeps- of bedrijfsmatige zorgverlening 21.480 22.580
+Netto-omzet 6.838.270 6.558.723
+Overige bedrijfsopbrengsten
+Som van de geworven baten 38.976 36.501
+Huurontvangsten 53.392 -
+92.368 36.501
+
+Som der bedrijfsopbrengsten 6.930.638 6.595.224
+Inkoopwaarde van de omzet 3.165.180 2.571.626
+Brutomarge (brutobedrijfsresultaat) 3.765.458 4.023.598
+PERSONEELSKOSTEN
+
+2024 2023
+
+€ €
+
+Lonen en salarissen
+Bruto-loon 1.208.855 1.210.535
+Vakantiegeld 211.923 205.418
+
+1.420.778 1.415.953
+Sociale lasten 283.520 270.105
+Pensioenlasten 113.798 108.895
+Totaal 1.818.096 1.794.953
+
+20
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+AFSCHRIJVINGEN EN WAARDEVERANDERINGEN
+
+2024 2023
+€ €
+Afschrijving op materiële vaste activa
+Transport- en vervoermiddelen 3.482 3.482
+Bedrijfsinventaris 16.718 13.157
+Totaal 20.200 16.639
+OVERIGE BEDRIJFSKOSTEN
+2024 2023
+€ €
+Overige personeelsgerelateerde kosten
+Overige werkkosten vrije ruimte 2.063 2.292
+Managementfee 224.690 261.000
+Reiskostenvergoeding 49.801 49.669
+Ziekengeldverzekering 32.210 63.575
+Overige personeelskosten -40.989 21.378
+Opleidingskosten 3.049 -
+270.824 397.914
+Huisvestingskosten
+Betaalde huur 963.865 993.574
+Onderhoud gebouwen 75.883 133.942
+Schoonmaakkosten 52.689 25.307
+Gas, water en elektra 120.214 75.465
+Milieuheffingen en zuiveringsleges 2.766 3.382
+1.215.417 1.231.670
+Verkoopkosten
+Reis- en verblijfkosten 15.374 21.483
+Overige verkoopkosten 12.983 17.357
+Dotatie voorziening dubieuze debiteuren 29.407 -
+57.764 38.840
+
+21
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+2024 2023
+
+€ €
+Auto- en transportkosten
+Brandstofkosten auto's 26.737 26.169
+Verzekering auto's 16.098 11.051
+Motorrijtuigenbelasting 667 564
+Operational leasing auto's 65.683 64.269
+Overige autokosten 7.122 7.265
+Reparatie en onderhoud auto's 973 -
+
+117.280 109.318
+Kantoorkosten
+Kantoorbenodigdheden 3.331 8.849
+Telefoon en internet 39.812 35.911
+Contributies en abonnementen 15.129 13.473
+Kosten automatisering 32.728 28.657
+Reparatie en onderhoud kantoorinventaris 30.104 3.888
+
+121.104 90.778
+Algemene kosten
+Accountantskosten 20.669 4.220
+Bankkosten 2.536 2.338
+Betalingsverschillen -52 4
+Algemene kosten 139.050 95.247
+Overige advieskosten 9.934 -
+Naheffingen belastingdienst en instanties 9.241 -
+
+181.378 101.809
+Totaal 1.963.767 1.970.329
+FINANCIËLE BATEN EN LASTEN
+
+2024 2023
+
+€ €
+
+Rentelasten andere partijen 542 z
+
+22
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+BELASTINGEN
+2024 2023
+
+Vennootschapsbelasting huidig boekjaar -10.087 48.753
+
+23
+
+Wilskracht Zorg B.V. te Amsterdam 9 hi | BZB
+
+11 OVERIGE TOELICHTINGEN
+
+WERKNEMERS
+Het gemiddelde aantal werknemers gedurende het boekjaar bij Wilskracht Zorg B.V. bedroeg:
+Gemiddeld aantal werknemers over periode 2024 2023
+
+fte fte
+Werkzaam binnen Nederland 25,0 27,0
+RESULTAATBESTEMMING
+
+Resultaatbestemming
+De algemene vergadering heeft de bestemming van het resultaat over het boekjaar 2023 vastgesteld conform het
+daartoe gedane voorstel.
+
+Voorstel resultaatbestemming
+De directie stelt aan de algemene vergadering voor het resultaat over het boekjaar 2024 ten bedrage van € -27.060
+geheel ten laste van ten laste van de overige reserves te brengen.
+
+ONDERTEKENING
+
+Amsterdam, 19 juli 2025
+
+Naam Functie Handtekening
+E.C.M. van der Ley Bestuurder
+
+M.F. Guman Commissaris
+
+G.P.J.T. Koop Commissaris
+
+G.K. Hughes Commissaris
+
+24
