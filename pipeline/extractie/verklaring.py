@@ -270,6 +270,335 @@ def _oordeel(genormaliseerd: str) -> str | None:
     return None
 
 
+# ---------- getrouwheid en rechtmatigheid (decentrale overheden) ----------
+#
+# Een verklaring bij een gemeente, provincie, waterschap of gemeenschappelijke
+# regeling draagt tot en met boekjaar 2022 twéé oordelen: of de jaarrekening een
+# getrouw beeld geeft, en of de baten, lasten en balansmutaties rechtmatig tot
+# stand kwamen. Het tweede gaat over aanbestedingen en begrotingsoverschrijdingen,
+# niet over de cijfers. `_oordeel` hierboven ziet dat verschil niet: "Ons afkeurend
+# oordeel" boven een verklaring waarvan alleen het rechtmatigheidsdeel afkeurend
+# is (Smallingerland 2020 en 2021, gemeten 5-10-2026) wordt dan een afkeurend
+# jaarrekeningoordeel, naast een goedgekeurde jaarrekening.
+#
+# Gemeten op de 4.078 ondertekende verklaringen uit Open Raadsinformatie
+# (6-10-2026): 3.633 noemen de rechtmatigheid, en van de 262 waarbij `_oordeel`
+# niet "goedkeurend" zegt, gaan er 172 alleen over de rechtmatigheid of de WNT.
+# 78 zijn een echt niet-goedkeurend getrouwheidsoordeel (77 beperkingen, 1
+# oordeelonthouding), elk met een voorbehoud in de oordeelzin of zonder
+# getrouwheidszin; 12 blijven twijfel.
+#
+# Deze functie leest daarom alleen het getrouwheidsoordeel, op drie manieren, van
+# sterk naar zwak:
+#
+# 1. de kop zegt het zelf: "Ons goedkeurend oordeel betreffende de getrouwheid en
+#    ons oordeel met beperking betreffende de rechtmatigheid";
+# 2. de oordeelzin over het getrouw beeld draagt een voorbehoud ("uitgezonderd
+#    de mogelijke effecten van …", "vanwege het belang van … geen getrouw beeld")
+#    — dan is dát het oordeel;
+# 3. de oordeelzin over het getrouw beeld is zonder voorbehoud: dan goedkeurend,
+#    maar alleen als een niet-goedkeurende kop in de tekst aantoonbaar over de
+#    rechtmatigheid of de WNT gaat.
+#
+# Kop en oordeelzin moeten het in beide richtingen eens zijn. Een goedkeurende
+# kop boven een zin met voorbehoud is een tegenspraak, en een niet-goedkeurend
+# label boven een schone oordeelzin net zo goed — uit welke weg dat label ook
+# komt. Tot 6-10-2026 gold alleen de eerste richting, en dan kwam er een
+# onterecht oordeel uit: Stichting Begraafplaatsen en Crematorium Hilversum 2024
+# werd een oordeelonthouding op de tussenkop "De basis voor onze
+# oordeelonthouding" (een sjabloonfout; de oordeelzin zelf geeft een getrouw
+# beeld zonder voorbehoud), en Gemeente Twenterand 2022 een beperking op één
+# basiszin over "ons oordeel met beperking betreffende de getrouwheid", terwijl
+# kop en oordeelzin alleen de rechtmatigheid beperken.
+#
+# Wat daar niet uitkomt, levert None op: niet vastgesteld. Een rechtmatigheids-
+# oordeel als jaarrekeningoordeel opslaan zet een "afkeurend" naast een gemeente
+# die een goedgekeurde jaarrekening had, en dat is een beschuldiging.
+_GETROUWHEID_KOP = re.compile(
+    r"\b(?:ons|onze)\s+(goedkeurend\s+oordeel|afkeurend\s+oordeel|"
+    r"oordeel\s+met\s+beperking|oordeelonthouding)\s+(?:\w+\s+){0,4}?"
+    r"(getrouwheid|rechtmatigheid)\b"
+)
+_KOP_LABEL = {
+    "goedkeurend oordeel": "goedkeurend",
+    "afkeurend oordeel": "afkeurend",
+    "oordeel met beperking": "beperking",
+    "oordeelonthouding": "oordeelonthouding",
+}
+# "Wij geven geen oordeel over de getrouwheid en rechtmatigheid van de …
+# jaarrekening": de oordeelonthouding staat niet altijd als kop met "getrouwheid"
+# erachter.
+_ONTHOUDING_JAARREKENING = re.compile(
+    r"\b(?:wij\s+geven\s+geen|geven\s+wij\s+geen)\s+oordeel\s+over\s+de\s+"
+    r"(?:getrouwheid|(?:in\s+de\s+jaarstukken\s+opgenomen\s+)?jaarrekening)"
+    r"|\bonthouden\s+(?:wij\s+)?ons\s+van\s+een\s+oordeel\s+over\s+de\s+"
+    r"(?:getrouwheid|(?:in\s+de\s+jaarstukken\s+opgenomen\s+)?jaarrekening)"
+)
+# Een voorbehoud in de oordeelzin zelf. "uitgezonderd …" en "met uitzondering
+# van …" is de vorm van een beperking; "vanwege het belang van … geen getrouw
+# beeld" die van een afkeurend oordeel.
+_VOORBEHOUD_BEPERKING = re.compile(
+    r"\buitgezonderd\b|\bmet uitzondering van\b|\bbehoudens\b"
+)
+_VOORBEHOUD_AFKEURING = re.compile(
+    r"\bgeen getrouw beeld\b|\bniet een getrouw beeld\b|\bgeeft\s+(?:\w+\s+){0,3}?niet\b"
+)
+# De afkeurende vorm van de rechtmatigheidszin: "… niet in alle van materieel
+# belang zijnde aspecten rechtmatig tot stand gekomen", "… voldoen niet aan de
+# eisen van financiële rechtmatigheid".
+_VOORBEHOUD_RECHTMATIGHEID = re.compile(
+    r"\bniet in alle van materieel belang\b|\bvanwege het belang van\b|"
+    r"\bniet rechtmatig\b|\bvoldoen\s+(?:\w+\s+){0,3}?niet\b"
+)
+# Een niet-goedkeurende kop waarvan de tekst er direct achter zegt waar hij
+# over gaat. Rechtmatigheid en WNT zijn allebei geen oordeel over het getrouw
+# beeld van de jaarrekening (Vlist 2014: "ons afkeurend oordeel betreffende de
+# WNT", met een goedgekeurde jaarrekening ernaast).
+_NIET_GOEDKEUREND_KOP = re.compile(
+    r"\b(?:ons\s+afkeurend\s+oordeel|ons\s+oordeel\s+met\s+beperking|"
+    r"onze\s+oordeelonthouding|het\s+afkeurend\s+oordeel|het\s+oordeel\s+met\s+beperking)"
+    r"(?P<vervolg>(?:\s+\w+){0,6})"
+)
+_ANDER_VOORWERP = re.compile(r"rechtmatig|\bwnt\b|bezoldiging|normering")
+# Vanaf boekjaar 2023 is de rechtmatigheid bij gemeenten, provincies en
+# gemeenschappelijke regelingen geen eigen oordeel meer. Het college legt er in
+# de jaarrekening zelf verantwoording over af (de rechtmatigheidsverantwoording),
+# en de accountant geeft één oordeel over die jaarrekening, die verantwoording
+# inbegrepen: "… geeft een getrouw beeld van … alsmede (een getrouw beeld) van
+# de financiële rechtmatigheid over 2023", of "is de in de jaarrekening
+# opgenomen rechtmatigheidsverantwoording in overeenstemming met …". Een
+# voorbehoud dáár is dus een voorbehoud bij het jaarrekeningoordeel, en de
+# vrijstelling hieronder geldt er niet voor.
+#
+# Herkend aan de vorm van de zin en niet aan het boekjaar: een waterschap of
+# schoolbestuur gaf in 2023 en 2024 nog een apart rechtmatigheidsoordeel
+# ("zijn de … baten en lasten …, uitgezonderd …, rechtmatig tot stand gekomen";
+# Waterschap Vechtstromen 2023 en 2024, Stichting Ambion 2023), en dat blijft
+# een ander oordeel dan dat over de jaarrekening. Gemeten op de 4.078
+# ondertekende verklaringen (6-10-2026): 153 dragen de nieuwe vorm, 141 daarvan
+# over 2025 (Vechtstromen ook), en bij geen enkele staat er een voorbehoud
+# alleen in het rechtmatigheidsdeel. Dit is dus een vangnet voor wat er komt.
+_NIEUWE_VORM = re.compile(
+    r"rechtmatigheidsverantwoording|(?:beeld|alsmede)\s+van\s+de\s+financiele\s+rechtmatigheid"
+)
+# Het oordeel over de rechtmatigheidsverantwoording als eigen opsommingsteken:
+# "• is de in de jaarrekening opgenomen rechtmatigheidsverantwoording,
+# uitgezonderd …, in alle van materieel belang zijnde aspecten in
+# overeenstemming met …". Die vorm is zelf de oordeelzin; "Naar ons oordeel:"
+# staat dan een heel opsommingsteken eerder, buiten het venster van 150 tekens
+# dat een getrouwheidszin krijgt. Een benadrukkingsparagraaf ("Wij vestigen de
+# aandacht op de rechtmatigheidsverantwoording …") heeft die vorm niet.
+_RV_OORDEELZIN = re.compile(
+    r"\bis\s+de\s+(?:\w+\s+){0,6}?rechtmatigheidsverantwoording\b.*\bin\s+overeenstemming\b"
+)
+# Het soort voorbehoud in zo'n zin. Alleen vormen die het soort oordeel
+# eenduidig noemen: "uitgezonderd …" is een beperking, "niet in
+# overeenstemming" of "geen getrouw beeld" een afkeuring. "Vanwege het belang
+# van …" staat ook boven een oordeelonthouding; wat niet eenduidig is, wordt
+# twijfel.
+_NIEUWE_VORM_AFKEURING = re.compile(
+    r"\bgeen getrouw beeld\b|\bniet in overeenstemming\b|\bniet in alle van materieel belang\b"
+)
+# Zinsgrenzen in de ruwe tekst. Ook ";" en opsommingstekens: "Naar ons oordeel:
+# • geeft … een getrouw beeld …; • zijn de … baten en lasten … rechtmatig tot
+# stand gekomen" is één zin met twee oordelen, en het voorbehoud van het ene
+# mag niet aan het andere blijven plakken.
+#
+# Een punt telt alleen als zinsgrens vóór een hoofdletter: "de in de jaarstukken
+# op pagina 129. tot en met pagina 161. opgenomen jaarrekening" is één zin
+# (Leusden 2017, Baarle-Nassau 2020).
+_ZINSGRENS = re.compile(r"(?<=;)\s+|(?<=\.)\s+(?=[A-Z])|[•●▪➢]|\n\s*\n")
+# "getrouw heeld": tekstherkenning maakt van de b soms een h.
+_GETROUW_BEELD = re.compile(r"\bgetrouwe?\s+[bh]eeld\b")
+# Waar een voorbehoud in de getrouwheidszin ophoudt: de oordeelzin gaat verder
+# ("… een getrouw beeld van …", "…, in overeenstemming met het BBV") of het
+# tweede oordeel begint ("en zijn de in de jaarrekening verantwoorde baten en
+# lasten …").
+_VOORBEHOUD_EINDE = re.compile(
+    r"\bgetrouwe?\s+[bh]eeld\b|\bin\s+overeenstemming\b|\bzijn\s+de\b|"
+    r"\bverantwoorde\s+baten\b|\bbalansmutaties\b"
+)
+
+
+def _voorbehoud_in(zin: str) -> bool:
+    """Draagt dit rechtmatigheidsdeel een voorbehoud, in welke vorm ook?"""
+    return bool(
+        _VOORBEHOUD_BEPERKING.search(zin)
+        or _VOORBEHOUD_RECHTMATIGHEID.search(zin)
+        or _NIEUWE_VORM_AFKEURING.search(zin)
+    )
+
+
+def _voorbehoud_nieuwe_vorm(zin: str) -> str:
+    """Het soort voorbehoud in een rechtmatigheidsdeel van de nieuwe vorm."""
+    beperking = bool(_VOORBEHOUD_BEPERKING.search(zin))
+    afkeuring = bool(_NIEUWE_VORM_AFKEURING.search(zin))
+    if beperking != afkeuring:
+        return "beperking" if beperking else "afkeurend"
+    return "twijfel"
+
+
+def _voorbehoud_over_rechtmatigheid(zin: str, begin: int) -> bool:
+    """Verwijst het voorbehoud dat op `begin` begint alleen naar de rechtmatigheid?
+
+    "geeft de jaarrekening, uitgezonderd de gevolgen van de aangelegenheden
+    beschreven in de paragraaf 'De basis voor ons oordeel met beperking inzake
+    de rechtmatigheid', een getrouw beeld" (GGD West-Brabant 2019): het
+    voorbehoud staat in de getrouwheidszin, maar wijst naar de
+    rechtmatigheidsparagraaf. Of dat de getrouwheid raakt, zegt de tekst niet.
+    Gemeente Westvoorne 2018 heeft dezelfde clausule áchter "getrouw beeld"
+    ("… op 31 december 2018, uitgezonderd …, in overeenstemming met het BBV")
+    en kreeg tot 6-10-2026 wél een beperking, omdat de regel alleen vóór het
+    getrouw beeld keek. De clausule zelf beslist nu, waar hij ook staat: van
+    het voorbehoudswoord tot waar de oordeelzin verdergaat. Noemt die ook de
+    getrouwheid ("… inzake de getrouwheid en rechtmatigheid", Hof van Twente
+    2021), dan is het geen twijfel.
+    """
+    einde = _VOORBEHOUD_EINDE.search(zin, begin)
+    clausule = zin[begin : einde.start() if einde else len(zin)]
+    return "rechtmatig" in clausule and "getrouwheid" not in clausule
+
+
+def oordeel_getrouwheid(tekst: str) -> str | None:
+    """Het oordeel over het getrouw beeld van de jaarrekening, of None.
+
+    Voor verklaringen die naast de getrouwheid ook de rechtmatigheid
+    beoordelen (decentrale overheden). Noemt de tekst de rechtmatigheid
+    helemaal niet, dan is er niets te scheiden en geldt `_oordeel`.
+    """
+    genormaliseerd = normaliseer(tekst)
+
+    # 1. De kop zegt het zelf.
+    koppen: dict[str, set[str]] = {"getrouwheid": set(), "rechtmatigheid": set()}
+    for treffer in _GETROUWHEID_KOP.finditer(genormaliseerd):
+        koppen[treffer.group(2)].add(_KOP_LABEL[re.sub(r"\s+", " ", treffer.group(1))])
+
+    # De oordeelzinnen over het getrouw beeld, elk met hun eigen voorbehoud.
+    voorbehouden: set[str] = set()
+    getrouw_zinnen = 0
+    # Staat er een oordeelzin over de rechtmatigheid mét voorbehoud? Dan is
+    # daarmee een algemene kop "Ons oordeel met beperking" verklaard.
+    rechtmatigheid_voorbehoud = False
+    grenzen = [0] + [m.end() for m in _ZINSGRENS.finditer(tekst)] + [len(tekst)]
+    for begin, eind in zip(grenzen, grenzen[1:]):
+        zin = normaliseer(tekst[begin:eind])
+        beeld = _GETROUW_BEELD.search(zin)
+        # Niet de alinea over wat het college moet doen of wat de accountant
+        # evalueert.
+        if "verantwoordelijk" in zin or "evalueren" in zin:
+            continue
+        if not beeld:
+            if "rechtmatig" not in zin:
+                continue
+            if _RV_OORDEELZIN.search(zin):
+                # Vanaf 2023: een deel van het jaarrekeningoordeel.
+                if _voorbehoud_in(zin):
+                    voorbehouden.add(_voorbehoud_nieuwe_vorm(zin))
+            elif _VOORBEHOUD_BEPERKING.search(zin) or _VOORBEHOUD_RECHTMATIGHEID.search(zin):
+                rechtmatigheid_voorbehoud = True
+            continue
+        # Een oordeelzin. Het woord "oordeel" mag ook vlak ervóór staan: "Naar
+        # ons oordeel: • geeft de … jaarrekening een getrouw beeld …" is door de
+        # opsomming in tweeën.
+        if "oordeel" not in zin and "oordeel" not in normaliseer(
+            tekst[max(0, begin - 150) : begin]
+        ):
+            continue
+        getrouw_zinnen += 1
+        # Oudere verklaringen zetten beide oordelen in één zin: "geeft … een
+        # getrouw beeld …, en zijn de in de jaarrekening verantwoorde baten en
+        # lasten, uitgezonderd …, rechtmatig tot stand gekomen". Het voorbehoud
+        # hoort dan bij het tweede deel; alleen tot daar telt het mee. In de
+        # nieuwe vorm hoort dat tweede deel juist bij het jaarrekeningoordeel.
+        na_beeld = beeld.start()
+        zin_vol = zin
+        einden = [
+            plek for plek in (
+                zin.find(woord, na_beeld)
+                for woord in ("rechtmatig", "verantwoorde baten", "balansmutaties")
+            ) if plek != -1
+        ]
+        if einden:
+            rest = zin[min(einden) :]
+            if _NIEUWE_VORM.search(zin):
+                if _voorbehoud_in(rest):
+                    voorbehouden.add(_voorbehoud_nieuwe_vorm(rest))
+            elif _VOORBEHOUD_BEPERKING.search(rest) or _VOORBEHOUD_RECHTMATIGHEID.search(rest):
+                rechtmatigheid_voorbehoud = True
+            zin = zin[: min(einden)]
+        if _VOORBEHOUD_AFKEURING.search(zin):
+            voorbehouden.add("afkeurend")
+        if beperking := _VOORBEHOUD_BEPERKING.search(zin):
+            voorbehouden.add("beperking")
+            # Een voorbehoud dat naar de rechtmatigheidsparagraaf verwijst,
+            # vóór of ná het getrouw beeld. Op de ongeknipte zin: de knip
+            # hierboven valt bij Westvoorne 2018 precies in de aangehaalde
+            # paragraaftitel ("… inzake de | rechtmatigheid").
+            if _voorbehoud_over_rechtmatigheid(zin_vol, beperking.start()):
+                voorbehouden.add("twijfel")
+
+    def eens(label: str | None) -> str | None:
+        """Het label, tenzij de oordeelzinnen het tegenspreken.
+
+        Een niet-goedkeurend label terwijl er een oordeelzin over het getrouw
+        beeld staat en geen enkele zo'n zin een voorbehoud draagt: dan zegt de
+        tekst twee dingen, en kiezen is gokken. Zonder getrouwheidszin
+        (een echte oordeelonthouding heeft er geen) blijft het label staan.
+        """
+        if label in (None, "goedkeurend"):
+            return label
+        if getrouw_zinnen and not voorbehouden:
+            return None
+        return label
+
+    if koppen["getrouwheid"]:
+        if len(koppen["getrouwheid"]) > 1:
+            return None
+        label = next(iter(koppen["getrouwheid"]))
+        # Een goedkeurende kop boven een zin met voorbehoud is een tegenspraak,
+        # en dan kiezen we niet; de omgekeerde richting staat in eens().
+        if label == "goedkeurend" and voorbehouden:
+            return None
+        return eens(label)
+
+    if _ONTHOUDING_JAARREKENING.search(genormaliseerd):
+        return eens("oordeelonthouding")
+
+    if "rechtmatig" not in genormaliseerd:
+        label = _oordeel(genormaliseerd)
+        if label == "goedkeurend" and voorbehouden:
+            return None
+        return eens(label)
+
+    # 2. De oordeelzin draagt een voorbehoud. "twijfel" is geen oordeel maar
+    # een reden om er geen te geven.
+    if voorbehouden:
+        if "twijfel" in voorbehouden or len(voorbehouden) > 1:
+            return None
+        return next(iter(voorbehouden))
+
+    # 3. Geen voorbehoud in de oordeelzin.
+    if not getrouw_zinnen:
+        return None
+    algemeen = _oordeel(genormaliseerd)
+    if algemeen == "goedkeurend":
+        return "goedkeurend"
+    if algemeen is None:
+        return None
+    # Een niet-goedkeurende kop, en de getrouwheidszin is schoon: alleen
+    # goedkeurend als die kop aantoonbaar over iets anders gaat — een
+    # rechtmatigheidskop, een rechtmatigheidszin met voorbehoud, of een kop met
+    # rechtmatigheid of WNT direct erachter.
+    if koppen["rechtmatigheid"] and not koppen["rechtmatigheid"] <= {"goedkeurend"}:
+        return "goedkeurend"
+    if rechtmatigheid_voorbehoud:
+        return "goedkeurend"
+    for kop in _NIET_GOEDKEUREND_KOP.finditer(genormaliseerd):
+        if not _ANDER_VOORWERP.search(kop.group("vervolg")):
+            return None
+    return "goedkeurend"
+
+
 def _continuiteitsonzekerheid(genormaliseerd: str) -> bool:
     return any(
         _treffer_zonder_ontkenning(genormaliseerd, woord)

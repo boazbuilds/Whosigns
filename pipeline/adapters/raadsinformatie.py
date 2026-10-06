@@ -39,18 +39,68 @@ verkeerde organisatie.
 Het kantoor komt uit het handtekeningblok eromheen, met dezelfde matcher als de
 rest van de pijplijn. Wat daar niet uit komt gaat naar de review-queue.
 
+Twee zoekvragen
+---------------
+De eerste vraagt om de kop "controleverklaring van de onafhankelijke
+accountant". De tweede (sinds 5-10-2026) om dezelfde standaardzin zónder die
+kop: accountantsverslagen aan de raad ("Wij hebben de jaarrekening 2018 van de
+gemeente X gecontroleerd. …") en verklaringen in een oudere opmaak zonder die
+kop. Gemeten op 5-10-2026: 21.339
+documenten voor de eerste vraag, 4.283 voor de tweede, geen overlap. Wat de
+lader met die tweede soort wel en niet doet staat in laad_raadsinformatie.py.
+
 Geen dependencies buiten de standaardbibliotheek.
 """
 
+import datetime
 import json
 import re
+import time
 import urllib.request
 
 API = "https://api.openraadsinformatie.nl/v1/elastic/_search"
 ZOEKZIN = "controleverklaring van de onafhankelijke accountant"
+
+# De twee zoekvragen, op naam. `documenten()` en `totaal_documenten()` lezen
+# allebei uit deze ene tabel: de vervang-stand in de lader vergelijkt het aantal
+# gelezen documenten met het opgegeven totaal, en als die twee niet over
+# precies dezelfde vraag gaan, wist hij op een vergelijking die niets zegt.
+#
+# De tweede vraag sluit de eerste uit (must_not), zodat geen document twee keer
+# wordt gelezen en de totalen gewoon optellen. "opgenomen jaarrekening" staat
+# erbij voor de oudere gemeenteformulering "Wij hebben de in dit document
+# opgenomen jaarrekening 2011 van de gemeente X, opgesteld onder
+# verantwoordelijkheid van het college, gecontroleerd" — zonder die frase vond
+# de vraag 2.927 documenten, met 4.283 (5-10-2026).
+ZOEKVRAGEN = {
+    "controleverklaring": {"match_phrase": {"text": ZOEKZIN}},
+    "accountantsverslag": {
+        "bool": {
+            "must": [
+                {
+                    "bool": {
+                        "should": [
+                            {"match_phrase": {"text": "wij hebben de jaarrekening"}},
+                            {"match_phrase": {"text": "opgenomen jaarrekening"}},
+                        ],
+                        "minimum_should_match": 1,
+                    }
+                },
+                {"match": {"text": "gecontroleerd"}},
+            ],
+            "must_not": [{"match_phrase": {"text": ZOEKZIN}}],
+        }
+    },
+}
+
 # Bovengrens voor het boekjaar. Een jaarrekening over de toekomst bestaat niet;
 # staat er toch zo'n jaartal, dan is de regel verhaspeld.
-HUIDIG_JAAR = 2026
+#
+# Uit de kalender en niet als vast getal: hier stond 2026, en vanaf 2028 zou
+# elke jaarrekening over 2027 dan stil wegvallen als "verhaspeld". Het lopende
+# jaar zelf mag (een gebroken boekjaar of een tussentijdse jaarrekening), het
+# jaar erna niet.
+HUIDIG_JAAR = datetime.date.today().year
 KOPPEN = {
     "User-Agent": "WhoSigns/0.1 (open-data-import; contact via repo)",
     "Content-Type": "application/json",
@@ -115,6 +165,16 @@ _GECONTROLEERD = re.compile(
     re.I | re.S,
 )
 
+# De kop van een controleverklaring, en hoe ver vóór de standaardzin hij mag
+# staan om nog bij dezelfde verklaring te horen. Gemeten op een derde van de
+# bron (5-10-2026, 4.257 vermeldingen met een kop ervóór): mediaan 214 tekens,
+# 97% binnen de 800 van het kantoorvenster. De rest is vooral het sjabloon
+# waarin het hele oordeel tussen kop en standaardzin staat; 49 keer lag de
+# laatste kop verder dan 4.000 tekens terug, en dan is het meestal een
+# inhoudsopgave en niet de kop van deze verklaring.
+_KOP = re.compile(r"controleverklaring\s+van\s+de\s+onafhankelijke\s+accountant", re.I)
+KOP_AFSTAND = 4000
+
 # Wat nooit een organisatienaam is: een zin die is doorgelopen, of een verwijzing
 # naar een bijlage. Zulke treffers laten we vallen in plaats van op te slaan.
 _GEEN_ORGANISATIE = re.compile(
@@ -137,8 +197,8 @@ def _haal(lichaam: dict, timeout: int = 180) -> dict:
         return json.loads(antwoord.read().decode("utf-8"))
 
 
-def totaal_documenten(haal=None) -> int | None:
-    """Hoeveel documenten bevatten de zoekzin? `None` als de API het niet zegt.
+def totaal_documenten(haal=None, zoekvraag: str = "controleverklaring") -> int | None:
+    """Hoeveel documenten vallen onder deze zoekvraag? `None` als de API het niet zegt.
 
     Eén verzoek met `size: 0`, dus zonder de documenten zelf op te halen.
     Bestaat om te kunnen controleren of een doorloop echt de hele bron heeft
@@ -147,7 +207,7 @@ def totaal_documenten(haal=None) -> int | None:
     """
     antwoord = (haal or _haal)(
         {
-            "query": {"match_phrase": {"text": ZOEKZIN}},
+            "query": ZOEKVRAGEN[zoekvraag],
             "size": 0,
             "track_total_hits": True,
         }
@@ -157,17 +217,31 @@ def totaal_documenten(haal=None) -> int | None:
     return int(waarde) if isinstance(waarde, int) else None
 
 
-def documenten(per_pagina: int = 100, maximum: int = 25_000, haal=None):
-    """Alle documenten met de zoekzin, in stukjes.
+def documenten(
+    per_pagina: int = 100,
+    maximum: int = 25_000,
+    haal=None,
+    zoekvraag: str = "controleverklaring",
+    pauze: float = 0.0,
+):
+    """Alle documenten onder deze zoekvraag, in stukjes.
 
     Bladeren gaat met `search_after` en niet met `from`: Elasticsearch weigert
     `from` boven de tienduizend, en dat is precies waar deze bron begint.
+
+    `pauze` is de wachttijd tussen twee verzoeken. Open Raadsinformatie is een
+    publieke voorziening zonder sleutel of quotum; één lader die er een
+    halfuur lang zo snel mogelijk pagina's van honderd volle documenten uit
+    trekt, hoort daar niet. Een vijfde seconde per pagina kost over de hele
+    bron anderhalve minuut.
     """
     na = None
     opgehaald = 0
     while opgehaald < maximum:
+        if pauze and opgehaald:
+            time.sleep(pauze)
         lichaam = {
-            "query": {"match_phrase": {"text": ZOEKZIN}},
+            "query": ZOEKVRAGEN[zoekvraag],
             "size": min(per_pagina, maximum - opgehaald),
             "sort": [{"_id": "asc"}],
             "_source": VELDEN,
@@ -179,7 +253,10 @@ def documenten(per_pagina: int = 100, maximum: int = 25_000, haal=None):
         if not treffers:
             return
         for treffer in treffers:
-            yield treffer.get("_source") or {}
+            # Het documentnummer van Open Raadsinformatie gaat mee: daarmee is
+            # het stuk terug te vinden zonder de titel of de url te bewaren
+            # (zie verklaringen_uit).
+            yield {**(treffer.get("_source") or {}), "_id": treffer.get("_id")}
         opgehaald += len(treffers)
         na = treffers[-1].get("sort")
         if not na:
@@ -206,17 +283,134 @@ _DUBBELE_REGELING = re.compile(
 )
 
 
+# Staarten die de zin achter de naam hangt en die niets over de identiteit
+# zeggen: een afkorting voor de rest van de tekst, of de bijzin over wie de
+# jaarrekening opstelde.
+#
+#   Gemeente Meppel (hierna te noemen: 'gemeente')
+#   Gemeente Venlo (‘de gemeente’)
+#   Gemeenschappelijke Regeling GGD West-Brabant (verder genoemd: GGD West-Brabant)
+#   Gemeente Voorst, opgesteld onder verantwoordelijkheid van het college van
+#     burgemeester en wethouders
+#   GBLT, opgesteld ender verantwoordelijkheid van het dagelijks bestuur  (OCR)
+#
+# Zonder deze schoonmaak matcht de naam niet met de organisatie die er al staat,
+# en ontstaat er een tweede gemeente naast de eerste: op 5-10-2026 stonden er 36
+# organisatienamen met "hierna", 34 met een aanhalingsteken-alias tussen haakjes
+# en 8 met "opgesteld" in de database. In de tweede zoekvraag droeg ruim een
+# derde van de namen zo'n staart (208 van de 585, gemeten vóór deze
+# schoonmaak) — de oudere gemeenteverklaring schrijft de opsteller standaard in
+# de zin.
+#
+# Een afkorting tússen haakjes zonder aanhalingstekens blijft staan: "(AGV)" en
+# "(OLCT)" horen bij de statutaire naam.
+_STAART = re.compile(
+    r"\s*\(\s*(?:hierna|hiema|verder)\b.*$"
+    r"|,?\s+(?:hierna|hiema)\b.*$"
+    r"|,?\s+verder\s+(?:te\s+noemen|genoemd)\b.*$"
+    r"|\s*\(\s*[\"'‘’“”„][^()]{1,40}\)\s*$"
+    r"|,?\s*opgesteld\s+(?:onder|ender|door)\b.*$"
+    r"|,?\s+zoals\s+opgenomen\b.*$"
+    r"|\s*[\"'‘’“”]?\s*in\s+liquidatie\s*[\"'‘’“”]?\s*$",
+    re.I | re.S,
+)
+
+# "Uw gemeente Kapelle", "Uw gemeenschappelijke regeling WVS Groep": de
+# aanspreekvorm van een accountantsverslag aan de raad, niet het begin van een
+# naam. Alleen vóór een soortnaam, want "Uw" en "Onze" kunnen óók het begin van
+# een echte naam zijn: "Onze Huisartsen B.V.", "UW Werkmaatschappij B.V." (beide
+# met KvK-nummer) en "Uw Toekomst N.V." stonden op 6-10-2026 in de database, en
+# zonder die rem viel een lezing "Werkmaatschappij B.V." op de strenge sleutel
+# samen met die van de KvK-organisatie. Gemeten over beide zoekvragen: de
+# standaardzin zet "uw" alleen vóór organisatie (377), gemeente (189),
+# gemeenschappelijke regeling (97), onderneming (9), veiligheidsregio (4),
+# stichting (2), GGD en milieudienst; "onze" komt er niet in voor.
+_AANSPREEKVORM = re.compile(
+    r"^(?:uw|onze)\s+(?=(?:gemeente|gemeenschappelijke\s+regeling|regeling|"
+    r"organisatie|onderneming|stichting|vereniging|holding|veiligheidsregio|"
+    r"omgevingsdienst|milieudienst|ggd|provincie|waterschap)\b)",
+    re.I,
+)
+
+
+def _zonder_staart(naam: str) -> str:
+    schoon = re.sub(r"\s+", " ", naam).strip(" ,.;:-–—")
+    vorige = None
+    while vorige != schoon:
+        vorige = schoon
+        schoon = _STAART.sub("", schoon).strip(" ,.;:-–—")
+        schoon = _AANSPREEKVORM.sub("", schoon)
+    # "Gemeente Gemeente Barendrecht": de aanhef en de naam plakken aan elkaar.
+    return re.sub(r"^(\w+)\s+(?=\1\b)", "", schoon, flags=re.I)
+
+
 def _schoon_organisatie(naam: str) -> str:
     schoon = re.sub(r"\s+", " ", naam).strip(" ,.;:-–—")
     schoon = _AANHEF.sub("", schoon)
     # Een naam die met een lidwoord begint is meestal een doorgelopen zin.
     schoon = re.sub(r"^(?:de|het|een)\s+", "", schoon, flags=re.I)
     schoon = _DUBBELE_REGELING.sub("", schoon).strip()
+    schoon = _zonder_staart(schoon)
     # De zin schrijft de rechtsvorm nu eens met en dan weer zonder hoofdletter;
     # als weergavenaam is één schrijfwijze genoeg.
     if schoon[:1].islower():
         schoon = schoon[:1].upper() + schoon[1:]
     return schoon
+
+
+# Een plaats die na het afknippen van de staart achteraan de naam blijft
+# hangen: "Permar Energiek B.V. te Ede ('de vennootschap')" wordt eerst
+# "Permar Energiek B.V. te Ede", en "Ede" hoort dan in het plaatsveld, net als
+# bij de zin die direct na de plaats "gecontroleerd" zegt. De plaats moet met
+# een hoofdletter beginnen; "te gemeente De Wolden" is geen plaats.
+_PLAATS_ACHTERAAN = re.compile(
+    r"^(?P<naam>.*?\S)\s*,?\s+(?:statutair\s+)?(?:gevestigd\s+)?te\s+"
+    r"(?P<plaats>(?:'s[-\s]|’s[-\s])?[A-Z][\w'’\-]+"
+    r"(?:\s+(?:[A-Z][\w'’\-]*|aan|den|de|der|op|bij|en|in))*"
+    r"(?:\s*\([A-Za-z.]{1,5}\))?)$"
+)
+
+
+def plaats_achteraan(naam: str) -> str | None:
+    """De plaats achter een organisatienaam ("… te Hoorn"), of None.
+
+    Voor namen die al in de database staan: de lader vergelijkt er de plaats
+    van twee organisaties mee die op de strenge sleutel samenvallen.
+    """
+    treffer = _PLAATS_ACHTERAAN.match(_zonder_staart(naam or ""))
+    return treffer["plaats"] if treffer else None
+
+
+# "Wij hebben de jaarrekening 2019 van de gemeente Tilburg Tilburg
+# gecontroleerd": het woord "te" is uit de zin gevallen. Alleen bij een
+# gemeente waarvan de hele naam zich herhaalt, want "Brum Brum" is een echte
+# organisatienaam (KvK) en een herhaald woord op zich bewijst niets.
+_GEMEENTE_ZONDER_TE = re.compile(r"^(?P<naam>gemeente\s+(?P<plaats>.+?))\s+(?P=plaats)$", re.I)
+
+# Een naam die alleen uit de soort organisatie bestaat, zonder eigennaam. Komt
+# uit "Uw gemeenschappelijke regeling, opgesteld onder …" of "Gemeente (hierna
+# te noemen 'gemeente')" zodra de staart eraf is, en zou anders als organisatie
+# "Gemeente" de database in gaan. "Onderneming" en "Milieudienst" komen uit
+# "Uw onderneming" en "Uw milieudienst, opgesteld onder …" (6-10-2026: tien
+# keer, toen nog zonder ondertekening in het venster).
+_ALLEEN_SOORT = re.compile(
+    r"^(?:de\s+|het\s+)?(?:gemeente|provincie|waterschap|hoogheemraadschap|"
+    r"wetterskip|gemeenschappelijke\s+regeling|regeling|veiligheidsregio|"
+    r"omgevingsdienst|stichting|vereniging|organisatie|openbaar\s+lichaam|gr|"
+    r"bedrijfsvoeringsorganisatie|samenwerkingsverband|onderneming|milieudienst)$",
+    re.I,
+)
+
+# Een zin die is doorgelopen en daarom geen naam is. Gemeten in de tweede
+# zoekvraag (5-10-2026): "Gemeente Nieuwkoop afgerond. Bijgevoegd" uit "Wij
+# hebben de controle van de jaarrekening 2023 van de gemeente Nieuwkoop
+# afgerond", "Kredietbank Limburg is door ons" en "Gemeente Weesp voor de
+# laatste keer". En "OPOPS is" wat overblijft van "OPOPS is opgesteld door …".
+_DOORGELOPEN_ZIN = re.compile(
+    r"\b(?:afgerond|bijgevoegd|is\s+door\s+ons|voor\s+de\s+laatste\s+keer)\b"
+    r"|\s(?:is|zijn|wordt|werd)$",
+    re.I,
+)
 
 
 def matchsleutel(naam: str) -> str:
@@ -257,7 +451,11 @@ def matchsleutel(naam: str) -> str:
     precies wat EMCO-groep van Felua-groep onderscheidt — dus die blijven staan
     als aparte organisatie. Zie docs/bronverkenning-raadsinformatie.md.
     """
-    kaal = _normaliseer_kaal(naam)
+    # Eerst dezelfde staarten eraf als bij het lezen van de naam. Hier is dat
+    # geen opmaak maar herkenning: de database bevat nog namen van vóór die
+    # schoonmaak ("Gemeente Venlo (‘de gemeente’)"), en de schone naam uit een
+    # nieuwe lezing moet daar op dezelfde sleutel uitkomen.
+    kaal = _normaliseer_kaal(_zonder_staart(naam))
     # "… te Hoofddorp", "…, te Meerkerk", "… te gemeente De Wolden",
     # "…, gevestigd te Roosendaal", "… statutair gevestigd te Rotterdam"
     #
@@ -300,7 +498,13 @@ def verklaringen_uit(tekst: str, bron: dict | None = None) -> list[dict]:
             continue
         organisatie = _schoon_organisatie(treffer.group(2) or "")
         plaats = _schoon_organisatie(treffer.group(3) or "") if treffer.group(3) else ""
+        if not plaats and (achteraan := _PLAATS_ACHTERAAN.match(organisatie)):
+            organisatie, plaats = achteraan["naam"].rstrip(" ,"), achteraan["plaats"]
+        if not plaats and (zonder_te := _GEMEENTE_ZONDER_TE.match(organisatie)):
+            organisatie, plaats = zonder_te["naam"], zonder_te["plaats"]
         if len(organisatie) < 4 or _GEEN_ORGANISATIE.search(organisatie):
+            continue
+        if _ALLEEN_SOORT.match(organisatie) or _DOORGELOPEN_ZIN.search(organisatie):
             continue
         if not re.search(r"[A-Za-zÀ-ÿ]{3}", organisatie):
             continue
@@ -310,7 +514,13 @@ def verklaringen_uit(tekst: str, bron: dict | None = None) -> list[dict]:
                 "boekjaar": boekjaar,
                 "plaats": plaats,
                 "positie": treffer.start(),
-                "documentnaam": (bron or {}).get("name") or "",
+                # Het documentnummer en niet de titel: een titel noemt soms een
+                # wethouder ("Mededeling wethouder … jaarverslag 2021 …"), en
+                # een deel van de raadsinformatiesystemen zet de bestandsnaam
+                # ook in de url (bij parlaeus 278 van de 326 urls, gemeten
+                # 6-10-2026). De url blijft voor wie het stuk zelf ophaalt; in
+                # een rapport of de review-queue hoort het nummer.
+                "document_id": str((bron or {}).get("_id") or ""),
                 "url": (bron or {}).get("original_url") or "",
             }
         )
@@ -327,6 +537,24 @@ def verklaringen_uit(tekst: str, bron: dict | None = None) -> list[dict]:
     for index, verklaring in enumerate(ruw):
         volgende = ruw[index + 1]["positie"] if index + 1 < len(ruw) else len(tekst)
         verklaring["venster"] = (max(0, verklaring["positie"] - 800), volgende)
+        # Voor oordeel en ondertekenaar: vanaf de kop van déze verklaring. Een
+        # deel van de verklaringen zet de oordeelzin vóór de standaardzin ("Ons
+        # oordeel — Naar ons oordeel: • geeft … een getrouw beeld …; • zijn …
+        # rechtmatig … Wij hebben de jaarrekening 2019 van X gecontroleerd"),
+        # en dan valt die net buiten de 800 tekens van het kantoorvenster —
+        # en de kop, die de naamzoeker nodig heeft, ook. De kop moet wel ná de
+        # vorige vermelding staan, anders hoort hij bij de buurman.
+        vorige = ruw[index - 1]["positie"] if index else 0
+        koppen = [
+            kop.start()
+            for kop in _KOP.finditer(
+                tekst, max(vorige, verklaring["positie"] - KOP_AFSTAND),
+                verklaring["positie"],
+            )
+        ]
+        verklaring["oordeelvenster"] = (
+            koppen[-1] if koppen else verklaring["venster"][0], volgende
+        )
 
     # Dezelfde organisatie en hetzelfde boekjaar twee keer in één document is
     # een herhaling: een raadsbundel noemt de jaarrekening eerst in de
