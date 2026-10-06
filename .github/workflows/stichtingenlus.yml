@@ -23,15 +23,25 @@ name: Stichtingenlus
 # (De data zélf gaat naar Supabase en staat dus los van het mergen van die PR. Blijft
 # de PR een week open, dan staat de data er al; de PR is het logboek en het
 # leesmoment, niet de levering.)
+#
+# **Hoe nieuw werk de lus bereikt.** Via de code, niet via de werkvoorraad op main.
+# Bij het samenvoegen wint de werkvoorraad van de databranch (stap "Databranch
+# klaarzetten"), dus een blok dat je op main op `open` zet, komt nooit aan. Wat wél
+# aankomt is pipeline/lus.py: `plan` draait elke ronde op de databranch en voegt
+# toe wat POPULATIES en HERKANSINGEN nu zeggen en het bestand nog niet heeft. Zo
+# komt een boekjaar op 1 oktober en 1 januari vanzelf terug, en een nieuw boekjaar
+# op 1 juli. De cron blijft daarom aan, ook als alles klaar is: een ronde zonder
+# open blokken stopt na het plannen, zonder database en zonder bronregel.
 
 on:
   schedule:
     # Vier rondes per dag, op een oneven minuut zodat het niet samenvalt met de
     # piek op het uur. Eén ronde is standaard zes blokken = één jaargang D/E.
     #
-    # Dit begint te lopen zodra de workflow op main staat. Stil houden tot de
-    # zorgsector af is? Actions -> Stichtingenlus -> ... -> Disable workflow;
-    # handmatig starten blijft dan werken.
+    # Dit begint te lopen zodra de workflow op main staat. Niet uitzetten als de
+    # werkvoorraad af is: dan komen de herkansingen niet aan. Boekjaar 2025 kreeg
+    # na 24-8-2026 geen controle meer bij en stond op 5-10 op 167, tegen 253 over
+    # 2024. Een lege ronde kost ruim een minuut en schrijft niets.
     - cron: "7 5,11,17,23 * * *"
   workflow_dispatch:
     inputs:
@@ -84,17 +94,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Geen tesseract: OCR draait niet op een runner (WHOSIGNS_OCR=0 hieronder).
-      # Bij de goede doelen kost dat wel iets — gescande jaarverslagen waren de
-      # grootste restcategorie (33 van de 262 in A/B, 11 in C, 9 in D/E per
-      # jaargang). Die worden voortaan buiten Actions geoogst; zie
-      # docs/draaiboek-acties.md. Een ronde valt er niet over om: zonder tekstlaag
-      # geen opdracht, precies als vóór de OCR-terugval.
-      - name: poppler-utils installeren
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils
-
       # De databranch is het geheugen van de lus. Bestaat hij al, dan gaan we daar
       # verder en halen we main erbij; bestaat hij nog niet, dan begint hij op main.
       - name: Databranch klaarzetten
@@ -125,14 +124,33 @@ jobs:
       # Zonder dit zou een populatie die op main wordt toegevoegd nooit meelopen —
       # bij het samenvoegen hierboven wint de werkvoorraad van de databranch.
       - name: Werkvoorraad bijwerken
+        id: plan
         run: |
           python3 pipeline/lus.py plan
           python3 pipeline/lus.py stand
+
+      # Vanaf hier alleen als er iets te doen is. Van 5-8 tot 5-10-2026 was alles
+      # klaar en draaide elke ronde toch de kantorenlijsten opnieuw: vier rijen per
+      # dag in `bronnen` zonder één opdracht, en de site haalde daar zijn
+      # "Stand per …" uit.
+      #
+      # Geen tesseract: OCR draait niet op een runner (WHOSIGNS_OCR=0 hieronder).
+      # Bij de goede doelen kost dat wel iets — gescande jaarverslagen waren de
+      # grootste restcategorie (33 van de 262 in A/B, 11 in C, 9 in D/E per
+      # jaargang). Die worden voortaan buiten Actions geoogst; zie
+      # docs/draaiboek-acties.md. Een ronde valt er niet over om: zonder tekstlaag
+      # geen opdracht, precies als vóór de OCR-terugval.
+      - name: poppler-utils installeren
+        if: ${{ steps.plan.outputs.open_blokken != '0' }}
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
 
       # De kantorenlijsten moeten in de database staan vóór er opdrachten aan hangen,
       # inclusief de kantoren zonder Wta-vergunning: anders belandt bijna een derde
       # van deze sector onnodig in de review-queue.
       - name: Kantorenlijsten bijwerken
+        if: ${{ steps.plan.outputs.open_blokken != '0' }}
         env:
           # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
           WHOSIGNS_OCR: "0"
@@ -147,6 +165,7 @@ jobs:
 
       - name: Ronde draaien
         id: ronde
+        if: ${{ steps.plan.outputs.open_blokken != '0' }}
         env:
           # Geen OCR op een runner; het zware lezen gebeurt buiten Actions.
           WHOSIGNS_OCR: "0"
@@ -182,7 +201,10 @@ jobs:
 
       - name: Voortgang vastleggen en pushen
         id: push
-        if: ${{ steps.ronde.outputs.blokken != '0' }}
+        # Leeg is ook "niets gedraaid": een overgeslagen stap heeft geen outputs,
+        # en '' != '0' is waar. Zelfde voorwaarde hieronder bij de website en bij
+        # "Ronde geslaagd?".
+        if: ${{ steps.ronde.outputs.blokken != '' && steps.ronde.outputs.blokken != '0' }}
         run: |
           git add pipeline/werkvoorraad/stichtingen.json
           if git diff --cached --quiet; then
@@ -266,7 +288,7 @@ jobs:
       # zodra iets ervóór faalt, en dan staat de nieuwe data wel in Supabase maar niet
       # op de site. Precies wat er in ronde 1 gebeurde.
       - name: Website verversen
-        if: ${{ !cancelled() && steps.ronde.outputs.blokken != '0' && inputs.droogloop != true }}
+        if: ${{ !cancelled() && steps.ronde.outputs.blokken != '' && steps.ronde.outputs.blokken != '0' && inputs.droogloop != true }}
         env:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: |
@@ -295,13 +317,13 @@ jobs:
           include-hidden-files: true
 
       - name: Klaar?
-        if: ${{ steps.ronde.outputs.afgerond == 'true' }}
+        if: ${{ steps.plan.outputs.open_blokken == '0' || steps.ronde.outputs.afgerond == 'true' }}
         run: |
-          echo '::notice::De werkvoorraad is af. Zet de cron uit, of draai lus.py plan opnieuw voor een nieuwe jaargang.'
+          echo '::notice::De werkvoorraad is af. Laat de cron aan: lus.py plan zet een boekjaar op 1 oktober en 1 januari zelf terug, en een nieuw boekjaar op 1 juli.'
 
       # Pas hier rood worden: de voortgang van deze ronde staat inmiddels vast.
       - name: Ronde geslaagd?
-        if: ${{ steps.ronde.outputs.code != '0' }}
+        if: ${{ steps.ronde.outputs.code != '' && steps.ronde.outputs.code != '0' }}
         run: |
           echo "::error::Een of meer blokken zijn mislukt (lus.py gaf ${{ steps.ronde.outputs.code }}). Ze staan als 'mislukt' in de werkvoorraad en komen volgende ronde terug."
           exit 1

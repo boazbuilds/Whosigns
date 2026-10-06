@@ -29,6 +29,7 @@ Geen dependencies buiten de standaardbibliotheek.
 """
 
 import html as html_module
+import http.client
 import re
 import time
 import urllib.error
@@ -67,8 +68,54 @@ _SCRIPT = re.compile(r"<(script|style)\b.*?</\1>", re.I | re.S)
 _TAG = re.compile(r"<[^>]+>")
 
 
+# Wat er bij het ophalen van één pagina of document mis kan gaan. Niet alleen
+# netwerkfouten: een href met een spatie geeft http.client.InvalidURL, en die erft
+# niet van URLError of OSError maar van HTTPException; een letter buiten ASCII geeft
+# een UnicodeEncodeError (een ValueError). Allebei nagegaan op 5-10-2026, en
+# allebei vóór er één byte over de lijn ging. In een proef met schoolbesturen die
+# dag brak een link als "…/docs/<nummer> - <school> - Bijlage - Brief aanbieding
+# controleverklaring.pdf" zo de hele zoektocht van dat bestuur af. In de lus vangt
+# laad_stichtingen dat per organisatie op ("fout"), maar dan is de rest van die
+# site ook niet meer bekeken. Nu wordt het adres eerst gecodeerd (`veilige_url`),
+# en valt bij een fout alleen dat ene document of die ene pagina af.
+_OPHAALFOUTEN = (
+    urllib.error.URLError,
+    http.client.HTTPException,
+    TimeoutError,
+    OSError,
+    ValueError,
+)
+
+# Alles wat in een URL een betekenis heeft blijft staan, '%' ook: een adres dat al
+# gecodeerd is, mag niet nog een keer gecodeerd worden ('%20' -> '%2520').
+_URL_VEILIG = ":/?#[]@!$&'()*+,;=%~"
+
+
+def veilige_url(url: str) -> str:
+    """Een adres zoals het in een href stond, zó dat urllib het accepteert.
+
+    Spaties en tekens buiten ASCII worden %-gecodeerd, een domeinnaam met zulke
+    tekens gaat via IDNA. Wat al gecodeerd is, blijft zoals het is.
+    """
+    delen = urllib.parse.urlsplit(url.strip())
+    netloc = delen.netloc
+    if not netloc.isascii():
+        gebruiker, apenstaart, host = netloc.rpartition("@")
+        host, dubbelepunt, poort = host.partition(":")
+        netloc = f"{gebruiker}{apenstaart}{host.encode('idna').decode('ascii')}{dubbelepunt}{poort}"
+    return urllib.parse.urlunsplit(
+        (
+            delen.scheme,
+            netloc,
+            urllib.parse.quote(delen.path, safe=_URL_VEILIG),
+            urllib.parse.quote(delen.query, safe=_URL_VEILIG),
+            urllib.parse.quote(delen.fragment, safe=_URL_VEILIG),
+        )
+    )
+
+
 def _haal(url: str, maximum: int, timeout: int = 25) -> tuple[str, str, bytes]:
-    verzoek = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    verzoek = urllib.request.Request(veilige_url(url), headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(verzoek, timeout=timeout) as antwoord:
             return (
@@ -155,7 +202,7 @@ def zoek_documenten(website: str, boekjaar: int | None = None) -> list[dict]:
     verzoeken = 0
     try:
         basis_url, soort, inhoud = _haal(website, MAX_HTML_BYTES)
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError):
+    except _OPHAALFOUTEN:
         return []
     verzoeken += 1
     if "pdf" in soort:  # site verwijst direct naar een pdf
@@ -189,7 +236,7 @@ def zoek_documenten(website: str, boekjaar: int | None = None) -> list[dict]:
             break
         try:
             echte_url, soort, pagina = _haal(url, MAX_HTML_BYTES)
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError):
+        except _OPHAALFOUTEN:
             continue
         verzoeken += 1
         if "pdf" in soort:
@@ -213,7 +260,7 @@ def haal_document(document: dict) -> bytes | None:
     """Ruwe bytes van een kandidaat; None als het niets bruikbaars is."""
     try:
         _url, soort, inhoud = _haal(document["url"], MAX_DOC_BYTES, timeout=60)
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError):
+    except _OPHAALFOUTEN:
         return None
     if document["soort"] == "pdf" and not inhoud.startswith(b"%PDF"):
         return None

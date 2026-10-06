@@ -44,6 +44,7 @@ duurt langer.
 | Zorgdata laden | uren per boekjaar | liever niet — zie hieronder |
 | Zorgoogst inladen (los) | ± 2 min | als er een nieuw oogstbestand in `pipeline/oogst/` staat |
 | Pipeline / Kantoorclienten / Stichtingenlus | minuten | draaien zichzelf of op verzoek |
+| Ondertekenaar goede doelen | ± 30 min | één keer, vanzelf zodra het script op main landt |
 
 Het maandbudget van GitHub Actions op een privérepo is **2.000 minuten (Free)**
 of **3.000 (Pro)**; kijken kan op github.com → Settings → Billing → Actions.

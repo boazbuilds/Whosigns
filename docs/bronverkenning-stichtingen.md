@@ -400,8 +400,13 @@ relaties wisselt per jaar.
   feit uit het jaarverslag van de stichting zelf; het CBF is de vindplaats.
 - **ANBI-bestand:** vrij te gebruiken, bronvermelding niet verplicht (Belastingdienst
   open data). Geen enkel bezwaar.
-- **AVG onveranderd:** alleen kantoornamen, nooit de tekenend accountant. In deze sector
-  is dat extra opletten: kleine stichtingen noemen bestuurders bij naam in hetzelfde pdf.
+- **AVG:** kantoornamen, en sinds het besluit van 20-8-2026 (`docs/beslissingen.md`) ook de
+  tekenend accountant uit de verklaring zelf — nooit andere personen. In deze sector is dat
+  extra opletten: kleine stichtingen noemen bestuurders bij naam in hetzelfde pdf. Daarom
+  komt de naam alleen mee als hij op een ondertekeningsplek staat, met de volledige
+  kantoornaam vlak erboven (`stichtingen.naam_bij_kantoor`), en nooit in een review-payload
+  of logregel. De lader gaf hem tot 5-10-2026 niet door; `vul_ondertekenaar_cbf.py` vult
+  de opdrachten van daarvóór bij.
 - **Vriendelijk oogsten:** `cbf.py` pauzeert tussen requests; de bulk-run hoort in
   GitHub Actions, niet interactief.
 
@@ -585,6 +590,21 @@ terugval) uit de code — anders staat er iets in `POPULATIES` dat niet gebeurt.
 een blok dat al `klaar` is wordt niet opnieuw gedraaid. Wil je een afgeronde populatie met
 nieuwe instellingen overdoen, geef hem dan een nieuwe `sleutel`.
 
+**Herkansingen (sinds 5-10-2026).** Die grens kostte boekjaar 2025 twee maanden. De lus las
+het op 30-7-2026, midden in de publicatietermijn: bij D/E en bij C elk 132× "geen verslag".
+Op 5-10-2026 had het CBF van D/E nog 44 en van C nog 50 verslagen niet, maar de lus stond
+stil, want alle 133 blokken waren klaar: na 24-8 kwam er voor 2025 geen controle meer bij,
+en goede doelen 2025 stond op 167 tegen 253 over 2024. Een status terugzetten op `main`
+helpt niet: bij het samenvoegen wint de werkvoorraad van de databranch. Daarom plant
+`lus.py plan` het zelf (`HERKANSINGEN`):
+D/E en C komen voor een boekjaar op **1 oktober** en **1 januari** daarna terug, als nieuwe
+blokken (`de-2025-h1-01` …), maar alleen als de laatste ronde van dat boekjaar vóór dat
+moment lag. Een nieuw boekjaar komt op 1 juli in het plan. De lader slaat wat al een gelezen
+opdracht heeft over vóór de download, dus een herkansing haalt alleen op wat nog open
+stond. Leesproef op 5-10-2026: van twintig D/E-verslagen over 2025 zonder gelezen opdracht
+gaven er negen een opdracht; over 2024 (twintig, al gelezen in juli) nul — vandaar alleen
+het jongste jaar.
+
 De volgorde is niet willekeurig: eerst D/E, en daarbinnen **boekjaar 2024 en dan 2023**.
 Pas als twee opeenvolgende jaargangen binnen zijn, kan de site een accountantswisseling
 laten zien — dat is het punt van het product, dus dat wil je in ronde twee hebben en niet
@@ -597,9 +617,10 @@ Actions -> "Stichtingenlus" -> Run workflow      # of gewoon wachten op de cron
    droogloop   uit    (aan = meten zonder iets te schrijven)
 ```
 
-De cron loopt vanaf het moment dat de workflow op `main` staat. Wil je hem stil houden
-tot de zorgsector af is (dat blijft het advies uit de visie): Actions →
-*Stichtingenlus* → ⋯ → *Disable workflow*. Handmatig starten blijft dan werken.
+De cron loopt vanaf het moment dat de workflow op `main` staat. Laat hem aan, ook als de
+werkvoorraad af is: anders komen de herkansingen en nieuwe boekjaren nooit aan. Een ronde
+zonder open blokken stopt sinds 5-10-2026 na het plannen — geen kantorenlijsten, geen
+database, geen rij in `bronnen` — en kost ruim een minuut.
 
 ### Wat de eerste echte ronde leerde (30-7-2026)
 

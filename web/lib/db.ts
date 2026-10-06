@@ -921,17 +921,32 @@ export async function boekjarenMetControles(): Promise<number[]> {
 }
 
 /**
- * Wanneer er voor het laatst iets is ingelezen.
+ * Wanneer er voor het laatst een opdracht of gunning bij is gekomen.
  *
- * Voor de datumregel onder de titel ("Stand per 4 augustus 2026"). Elke
- * laadrun schrijft een rij in `bronnen` met het moment van ophalen; de
- * jongste daarvan is de leeftijd van de hele verzameling.
+ * Voor de datumregel onder de titel ("Stand per 22 september 2026").
+ *
+ * Hier stond het jongste `bronnen.opgehaald_op`, en dat beloofde versheid die
+ * er niet was. Een laadrun schrijft een bronregel ook als hij niets vindt: de
+ * kantorenlijsten doen dat bij elke workflow, en de Stichtingenlus deed het van
+ * 5-8 tot 5-10-2026 vier keer per dag zonder één blok te draaien. Op 5-10-2026
+ * stond er zo "Stand per 5 oktober 2026", terwijl de jongste opdracht van 22
+ * september was en de jongste gunning van 21 augustus.
+ *
+ * `created_at` verschuift niet als een bestaande opdracht wordt aangevuld
+ * (honoraria, een oordeel, een ondertekenaar). "Stand per" zegt dus: tot en
+ * met die dag zijn er opdrachten bijgekomen. Valt een van de twee vragen weg,
+ * dan telt de andere; vallen ze allebei weg, dan geen datum.
  */
 export async function laatstBijgewerkt(): Promise<string | null> {
-  const rij = await haalEen<{ opgehaald_op: string }>(
-    "bronnen?select=opgehaald_op&order=opgehaald_op.desc&limit=1",
-  );
-  return rij?.opgehaald_op ?? null;
+  const jongste = (tabel: string) =>
+    haalEen<{ created_at: string }>(
+      `${tabel}?select=created_at&order=created_at.desc&limit=1`,
+    ).catch(() => null);
+  const momenten = (await Promise.all([jongste("opdrachten"), jongste("gunningen")]))
+    .map((rij) => rij?.created_at)
+    .filter((moment): moment is string => Boolean(moment));
+  if (momenten.length === 0) return null;
+  return momenten.reduce((a, b) => (Date.parse(a) >= Date.parse(b) ? a : b));
 }
 
 // ---------------------------------------------------------------- gunningen

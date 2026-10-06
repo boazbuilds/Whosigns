@@ -33,8 +33,9 @@ pipeline/
     kantoren_vervallen.csv ✅ vergunninghouders die uit het AFM-register verdwenen;
                           vindbaar onder hun eigen nummer, in de database inactief
   werkvoorraad/
-    stichtingen.json   ✅ de 133 blokken van de goededoelensector en wat ze opleverden;
-                          de git-diff van dit bestand is het voortgangslog
+    stichtingen.json   ✅ de blokken van de goededoelensector en wat ze opleverden;
+                          de git-diff van dit bestand is het voortgangslog (de
+                          bijgehouden stand staat op data/stichtingenlus)
   oogst/               ✅ de zorgoogst per boekjaar (zorg_2019.csv … zorg_2025.csv) en
                           in oogst/ocr/ de gelezen tekst van elke gescande verklaring —
                           bewust in de repo: het is de herleidbaarheid van ruim
@@ -65,6 +66,8 @@ pipeline/
   vul_extra_velden.py  ✅ honoraria/omzet/subsector uit de jaardatasets 2022-2024
                           (workflow "Honoraria bijvullen")
   vul_ondertekenaar.py ✅ tekenend accountant bijvullen uit de bewaarde OCR-teksten
+  vul_ondertekenaar_cbf.py ✅ idem voor de goede doelen, uit de CBF-jaarverslagen
+                          (workflow "Ondertekenaar goede doelen")
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)
