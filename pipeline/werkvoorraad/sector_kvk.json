@@ -1,4 +1,1709 @@
 {
   "bron": "KvK Open Dataset Basis Bedrijfsgegevens (CC BY 4.0)",
-  "uitkomsten": {}
+  "uitkomsten": {
+    "31523": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "31526": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "31600": {
+      "op": "2026-10-06",
+      "sbi": "66292",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "32242": {
+      "op": "2026-10-06",
+      "sbi": "64210",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "32405": {
+      "op": "2026-10-06",
+      "sbi": "1031",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "32566": {
+      "op": "2026-10-06",
+      "sbi": "7112",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "32816": {
+      "op": "2026-10-06",
+      "sbi": "4651",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "32895": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "32937": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "32946": {
+      "op": "2026-10-06",
+      "sbi": "3832",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "33049": {
+      "op": "2026-10-06",
+      "sbi": "7112",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "33110": {
+      "op": "2026-10-06",
+      "sbi": "2442",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "33111": {
+      "op": "2026-10-06",
+      "sbi": "64303",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "33187": {
+      "op": "2026-10-06",
+      "sbi": "3811",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "33209": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "33253": {
+      "op": "2026-10-06",
+      "sbi": "2369",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "33262": {
+      "op": "2026-10-06",
+      "sbi": "6810",
+      "sector": "vastgoed",
+      "uitkomst": "gevuld"
+    },
+    "33278": {
+      "op": "2026-10-06",
+      "sbi": "45205",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "33318": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "33382": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "33507": {
+      "op": "2026-10-06",
+      "sbi": "45112",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "33515": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "33527": {
+      "op": "2026-10-06",
+      "sbi": "4110",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "33625": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "33842": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "33959": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34179": {
+      "op": "2026-10-06",
+      "sbi": "6612",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34238": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34273": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34339": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34386": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34443": {
+      "op": "2026-10-06",
+      "sbi": "4110",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "34449": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34452": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34477": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34492": {
+      "op": "2026-10-06",
+      "sbi": "4711",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "34532": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34540": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34554": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34605": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34641": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34673": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34702": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34774": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34812": {
+      "op": "2026-10-06",
+      "sbi": "7320",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "34813": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34842": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34849": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34859": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "34867": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35065": {
+      "op": "2026-10-06",
+      "sbi": "4941",
+      "sector": "transport en logistiek",
+      "uitkomst": "gevuld"
+    },
+    "35078": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35090": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "35108": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "35122": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35208": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35223": {
+      "op": "2026-10-06",
+      "sbi": "6201",
+      "sector": "ict en media",
+      "uitkomst": "gevuld"
+    },
+    "35384": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35386": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35404": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35408": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35409": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35417": {
+      "op": "2026-10-06",
+      "sbi": "46421",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "35446": {
+      "op": "2026-10-06",
+      "sbi": "6832",
+      "sector": "vastgoed",
+      "uitkomst": "gevuld"
+    },
+    "35460": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "35578": {
+      "op": "2026-10-06",
+      "sbi": "70222",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35580": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35582": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35601": {
+      "op": "2026-10-06",
+      "sbi": "45192",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "35602": {
+      "op": "2026-10-06",
+      "sbi": "46218",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "35625": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35641": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "35645": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35646": {
+      "op": "2026-10-06",
+      "sbi": "45112",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "35660": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35713": {
+      "op": "2026-10-06",
+      "sbi": "86913",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "35721": {
+      "op": "2026-10-06",
+      "sbi": "86913",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "35744": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35762": {
+      "op": "2026-10-06",
+      "sbi": "70221",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35763": {
+      "op": "2026-10-06",
+      "sbi": "70221",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35787": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35798": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35799": {
+      "op": "2026-10-06",
+      "sbi": "1624",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "35800": {
+      "op": "2026-10-06",
+      "sbi": "6832",
+      "sector": "vastgoed",
+      "uitkomst": "gevuld"
+    },
+    "35817": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35839": {
+      "op": "2026-10-06",
+      "sbi": "2120",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "35895": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35918": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "35997": {
+      "op": "2026-10-06",
+      "sbi": "4652",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "36011": {
+      "op": "2026-10-06",
+      "sbi": "47713",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "36014": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36085": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36094": {
+      "op": "2026-10-06",
+      "sbi": "8891",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "36096": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36105": {
+      "op": "2026-10-06",
+      "sbi": "70221",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36106": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36109": {
+      "op": "2026-10-06",
+      "sbi": "70101",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36135": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36152": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36198": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36199": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36204": {
+      "op": "2026-10-06",
+      "sbi": "8891",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "36316": {
+      "op": "2026-10-06",
+      "sbi": "46738",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "36379": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36381": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36400": {
+      "op": "2026-10-06",
+      "sbi": "4773",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "36467": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36470": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36503": {
+      "op": "2026-10-06",
+      "sbi": "46697",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "36520": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36527": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36544": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36568": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36580": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36607": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36612": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36613": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36638": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36641": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36642": {
+      "op": "2026-10-06",
+      "uitkomst": "niet_in_dataset"
+    },
+    "36647": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36665": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36677": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36679": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36695": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36703": {
+      "op": "2026-10-06",
+      "sbi": "70221",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36704": {
+      "op": "2026-10-06",
+      "sbi": "4639",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "36707": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36712": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36723": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36743": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36747": {
+      "op": "2026-10-06",
+      "sbi": "6202",
+      "sector": "ict en media",
+      "uitkomst": "gevuld"
+    },
+    "36751": {
+      "op": "2026-10-06",
+      "sbi": "4651",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "36774": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36811": {
+      "op": "2026-10-06",
+      "sbi": "4773",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "36817": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36903": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36904": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36915": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "36916": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36917": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36922": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36933": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "36955": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37145": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "37147": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37155": {
+      "op": "2026-10-06",
+      "sbi": "72192",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37156": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37175": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "37233": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "37241": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37252": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37255": {
+      "op": "2026-10-06",
+      "sbi": "96031",
+      "sector": "overig bedrijfsleven",
+      "uitkomst": "gevuld"
+    },
+    "37277": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37312": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37313": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37355": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37382": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37467": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "37497": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37502": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "37516": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "38081": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38094": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38095": {
+      "op": "2026-10-06",
+      "sbi": "64923",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38136": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38142": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "38159": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "38308": {
+      "op": "2026-10-06",
+      "sbi": "4652",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "38365": {
+      "op": "2026-10-06",
+      "sbi": "46696",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "38367": {
+      "op": "2026-10-06",
+      "sbi": "46696",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "38371": {
+      "op": "2026-10-06",
+      "sbi": "6190",
+      "sector": "ict en media",
+      "uitkomst": "gevuld"
+    },
+    "38524": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38592": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38613": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38710": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38715": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "38723": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38734": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38748": {
+      "op": "2026-10-06",
+      "sbi": "4651",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "38749": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38761": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "38818": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38871": {
+      "op": "2026-10-06",
+      "sbi": "2550",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "38873": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38886": {
+      "op": "2026-10-06",
+      "sbi": "6630",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "38992": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "39088": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39094": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39110": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39114": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39219": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "39220": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "39285": {
+      "op": "2026-10-06",
+      "sbi": "88101",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "39287": {
+      "op": "2026-10-06",
+      "sbi": "86221",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "39288": {
+      "op": "2026-10-06",
+      "sbi": "72193",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39340": {
+      "op": "2026-10-06",
+      "sbi": "86929",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "39346": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "39350": {
+      "op": "2026-10-06",
+      "sbi": "4618",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "39404": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39406": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39418": {
+      "op": "2026-10-06",
+      "sbi": "6630",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39425": {
+      "op": "2026-10-06",
+      "sbi": "46696",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "39426": {
+      "op": "2026-10-06",
+      "sbi": "1624",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "39533": {
+      "op": "2026-10-06",
+      "sbi": "55101",
+      "sector": "overig bedrijfsleven",
+      "uitkomst": "gevuld"
+    },
+    "39693": {
+      "op": "2026-10-06",
+      "sbi": "88101",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "39783": {
+      "op": "2026-10-06",
+      "sbi": "66191",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39827": {
+      "op": "2026-10-06",
+      "sbi": "78201",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39910": {
+      "op": "2026-10-06",
+      "sbi": "46383",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "40314": {
+      "op": "2026-10-06",
+      "sbi": "2222",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "40386": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40476": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "40484": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "40490": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40565": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "40633": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40642": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40644": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40693": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "40695": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40715": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40736": {
+      "op": "2026-10-06",
+      "sbi": "5222",
+      "sector": "transport en logistiek",
+      "uitkomst": "gevuld"
+    },
+    "40738": {
+      "op": "2026-10-06",
+      "sbi": "8130",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40802": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40803": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40804": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "40812": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40837": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40859": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "40861": {
+      "op": "2026-10-06",
+      "sbi": "72193",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40865": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "40894": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "40902": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41082": {
+      "op": "2026-10-06",
+      "sbi": "6499",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41098": {
+      "op": "2026-10-06",
+      "sbi": "4941",
+      "sector": "transport en logistiek",
+      "uitkomst": "gevuld"
+    },
+    "41106": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41205": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41209": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41218": {
+      "op": "2026-10-06",
+      "sbi": "46431",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "41258": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41261": {
+      "op": "2026-10-06",
+      "sbi": "72112",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41317": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41319": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41329": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41396": {
+      "op": "2026-10-06",
+      "sbi": "64301",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41408": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41433": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41439": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41460": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41463": {
+      "op": "2026-10-06",
+      "sbi": "6832",
+      "sector": "vastgoed",
+      "uitkomst": "gevuld"
+    },
+    "41559": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41563": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41574": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41719": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41766": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41767": {
+      "op": "2026-10-06",
+      "sbi": "46389",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "41769": {
+      "op": "2026-10-06",
+      "sbi": "64924",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41834": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41864": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41886": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41887": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41888": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41901": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "41928": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41936": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "42094": {
+      "op": "2026-10-06",
+      "sbi": "4651",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
+    "42288": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "42377": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "42429": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "42453": {
+      "op": "2026-10-06",
+      "sbi": "3324",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "42457": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "42511": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "42513": {
+      "op": "2026-10-06",
+      "sbi": "64301",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "42612": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "42776": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43006": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43023": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43027": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43048": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43050": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43051": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43139": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43149": {
+      "op": "2026-10-06",
+      "sbi": "6201",
+      "sector": "ict en media",
+      "uitkomst": "gevuld"
+    },
+    "43153": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43173": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43183": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43184": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43187": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43248": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43250": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43252": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43259": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43292": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43378": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43411": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43581": {
+      "op": "2026-10-06",
+      "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43681": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43742": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43748": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43749": {
+      "op": "2026-10-06",
+      "sbi": "17211",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "43751": {
+      "op": "2026-10-06",
+      "sbi": "3832",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "43813": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43817": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    },
+    "43822": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43839": {
+      "op": "2026-10-06",
+      "sbi": "2060",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "43846": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43849": {
+      "op": "2026-10-06",
+      "sbi": "2221",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "43862": {
+      "op": "2026-10-06",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43863": {
+      "op": "2026-10-06",
+      "uitkomst": "geen_sbi"
+    }
+  }
 }
