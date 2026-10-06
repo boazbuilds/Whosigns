@@ -177,6 +177,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 Geen advies, geen oordeel over kantoren. Een wisseling is
                 afgeleid uit de historie, niet uit een aankondiging.
               </p>
+              {/* CC BY vraagt naamsvermelding: de sectorindeling leunt op de
+                  besturenlijsten van DUO en de open dataset van de KvK. */}
+              <p className="klein">
+                Sectorindeling mede op basis van de besturenlijsten van DUO en de
+                KvK Open Dataset Basis Bedrijfsgegevens (beide CC BY 4.0).
+              </p>
               {/* Zonder deze regel las de site als een volledig marktoverzicht.
                   Dat is het niet: de vulling gaat sector voor sector en boekjaar
                   voor boekjaar, dus de dekking verschilt per jaar. */}

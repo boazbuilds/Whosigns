@@ -27,7 +27,12 @@ Drie keuzes die het gedrag bepalen:
 3.  **Opdrachtgevers zijn nieuwe organisaties.** Gemeenten en waterschappen
     staan nog nergens in deze database. Ze krijgen sector "overheid" en geen
     KvK-nummer (TED noemt dat niet), en worden op genormaliseerde naam herkend
-    zodat dezelfde gemeente niet twee keer ontstaat.
+    zodat dezelfde gemeente niet twee keer ontstaat. Uitzondering: een naam
+    die eenduidig een schoolbestuur uit de DUO-lijsten is, wordt "onderwijs"
+    (adapters/duo_besturen.py). Het KvK-nummer van DUO komt er niet bij — een
+    naam is geen harde sleutel — maar gaat als kandidaat naar de review-queue.
+    Op 5-10-2026 hadden 66 schoolbesturen, mbo-instellingen en hogescholen in
+    overheid een gunning; migratie 20261006110000 zette ze recht.
 """
 
 import argparse
@@ -40,6 +45,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "adapters"))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "extractie"))
 
+import duo_besturen  # noqa: E402
 import tenderned  # noqa: E402
 from kantoor_match import (  # noqa: E402
     bouw_index,
@@ -107,6 +113,7 @@ def main() -> int:
     db = None
     kantoor_id_per_sleutel: dict[str, int] = {}
     org_per_naam: dict[str, list[dict]] = {}
+    org_per_kvk: dict[str, dict] = {}
     bron_id = None
     if not argumenten.droogloop:
         try:
@@ -121,6 +128,8 @@ def main() -> int:
         }
         for rij in db.selecteer_alles("organisaties", "select=id,naam,kvk_nummer"):
             org_per_naam.setdefault(normaliseer(rij["naam"]), []).append(rij)
+            if rij.get("kvk_nummer"):
+                org_per_kvk[rij["kvk_nummer"]] = rij
         bron_id = db.invoegen(
             "bronnen",
             {
@@ -175,11 +184,26 @@ def main() -> int:
         if kandidaten:
             org = kandidaten[0]
         else:
+            # Een schoolbestuur dat aanbesteedt is geen overheid. Zijn
+            # KvK-nummer uit DUO hangt hier niet aan de rij — een naam is geen
+            # harde sleutel — maar gaat als kandidaat naar de review-queue, één
+            # regel per nummer; staat het nummer al op een andere rij, dan is
+            # dit misschien een dubbel en gaat die id mee.
+            keuze = duo_besturen.bij_aanmaak(opdrachtgever, SECTOR, org_per_kvk)
             org = db.invoegen(
                 "organisaties",
-                {"naam": opdrachtgever, "kvk_nummer": None, "sector": SECTOR},
+                {"naam": opdrachtgever, "kvk_nummer": None, "sector": keuze["sector"]},
             )
             org_per_naam.setdefault(sleutel, []).append(org)
+            kandidaat = keuze["kvk_kandidaat"]
+            if kandidaat and not db.bestaat("review_queue", duo_besturen.review_filter(kandidaat)):
+                ids = [org["id"]]
+                if keuze["mogelijk_dubbel"]:
+                    ids.append(org_per_kvk[kandidaat]["id"])
+                db.invoegen(
+                    "review_queue", duo_besturen.review_kandidaat("tenderned", keuze, ids)
+                )
+                telling["kvk-kandidaat naar review"] = telling.get("kvk-kandidaat naar review", 0) + 1
             telling["nieuwe organisatie"] = telling.get("nieuwe organisatie", 0) + 1
 
         db.upsert(

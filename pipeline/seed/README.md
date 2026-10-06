@@ -33,3 +33,28 @@ nieuw vergunningnummer is een nieuwe vergunninghouder.
 niet de datum waarop de vergunning eindigde. Wat nooit een accountantsorganisatie
 was (de AFM zelf, 15-8 tot 31-8-2026) komt hier niet in — zie
 `GEEN_ACCOUNTANTSORGANISATIE` in `../adapters/afm_register.py`.
+
+## duo_besturen.csv
+
+De schoolbesturen uit de vijf besturenlijsten van **DUO Open Onderwijsdata**
+(bo, so, vo, mbo, ho; licentie CC BY 4.0), met hun oudere namen uit het
+RIO-bestand `onderwijsbesturen.csv` van dezelfde bron. Gemaakt met
+`../adapters/duo_besturen.py`. Stand 6-10-2026: 1.120 besturen, 3.176 namen.
+
+- **Waarvoor:** een organisatie op naam als schoolbestuur herkennen (sector
+  onderwijs; het KvK-nummer gaat als kandidaat naar de review-queue, want een
+  naam is geen harde sleutel), en een KvK-nummer uit een aanlevering als
+  schoolbestuur herkennen. Zie de toelichting in de adapter en migratie
+  20261006110000.
+- **Alleen organisatiegegevens:** KvK-nummer, naam, bevoegd-gezagnummer, soort
+  onderwijs. Geen adressen of telefoonnummers. De vier gemeenten die bevoegd
+  gezag van hun eigen openbare scholen zijn, staan er niet in.
+- **`ook_elders`:** `ja` als de naam in RIO ook bij een KvK-nummer buiten de
+  besturenlijsten hoort; zo'n naam levert geen treffer op. `kort` als dat alleen
+  geldt voor de naam zonder plaatsstaart ("Stichting X te Testdam" is uniek,
+  "Stichting X" niet); dan telt alleen de volle naam. Die andere namen zelf
+  staan er bewust niet in: RIO kent ook niet-bekostigde aanbieders, en daar kan
+  een eenmanszaak tussen zitten.
+- **Verversen:** `python3 pipeline/adapters/duo_besturen.py` en het resultaat
+  committen. Het script weigert als de lijsten samen ineens minder dan duizend
+  besturen tellen.
