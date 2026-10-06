@@ -19,6 +19,8 @@ pipeline/
     aw_dvi.py          ✅ woningcorporaties: dVi-open data, accountant als veld
     transparantie.py   ✅ OOB-cliëntenlijsten uit transparantieverslagen (Fase 3)
     tenderned.py       ✅ Europees aanbestede accountantsdiensten (TED) → gunningen
+    duo_besturen.py    ✅ DUO-besturenlijsten → seed/duo_besturen.csv; herkent een
+                          schoolbestuur op naam (precies één KvK-nummer, anders niets)
     (onderwijs heeft geen eigen adapter: universiteiten publiceren hun
      jaarverslag zelf, en de generieke jaarverslag-route leest die — zie
      laad_pensioenfondsen.py met --seed/--sector)
@@ -32,10 +34,13 @@ pipeline/
     kantoor_alias.csv  ✅ handelsnamen en oude namen na fusie/rebranding
     kantoren_vervallen.csv ✅ vergunninghouders die uit het AFM-register verdwenen;
                           vindbaar onder hun eigen nummer, in de database inactief
+    duo_besturen.csv   ✅ 1.120 schoolbesturen met KvK-nummer en oudere namen (DUO)
   werkvoorraad/
     stichtingen.json   ✅ de blokken van de goededoelensector en wat ze opleverden;
                           de git-diff van dit bestand is het voortgangslog (de
                           bijgehouden stand staat op data/stichtingenlus)
+    sector_kvk.json    ✅ welke organisaties zonder sector de KvK-dataset al gaf
+                          (of niet kende); de workflow "Sector aanvullen" commit hem
   oogst/               ✅ de zorgoogst per boekjaar (zorg_2019.csv … zorg_2025.csv) en
                           in oogst/ocr/ de gelezen tekst van elke gescande verklaring —
                           bewust in de repo: het is de herleidbaarheid van ruim
@@ -68,6 +73,8 @@ pipeline/
   vul_ondertekenaar.py ✅ tekenend accountant bijvullen uit de bewaarde OCR-teksten
   vul_ondertekenaar_cbf.py ✅ idem voor de goede doelen, uit de CBF-jaarverslagen
                           (workflow "Ondertekenaar goede doelen")
+  vul_sector.py        ✅ ontbrekende sector uit de KvK Open Dataset (SBI-hoofdactiviteit),
+                          één verzoek per minuut, hervatbaar (workflow "Sector aanvullen")
   valideer_extractie.py ✅ meet de trefkans van de kantoorextractie (zorg)
   verken_stichtingen.py ✅ zelfde meting voor de goededoelensector (dekking, extractie,
                           oogst van onbekende kantoren, wisselingen tussen twee jaren)
