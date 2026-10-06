@@ -393,9 +393,12 @@ const MINIMUM_GELEZEN = 100;
 
 /**
  * De reeks begint bij het eerste boekjaar met een brede basis. Daarvoor lezen
- * we ruim honderd verklaringen per jaar, vooral van beursfondsen; daarna ruim
- * duizend, vooral van zorginstellingen. Eén percentage over die twee groepen
- * in één reeks zou vooral de wissel van groep laten zien.
+ * we een paar honderd verklaringen per jaar, vooral van beursfondsen en (sinds
+ * de raadsstukken een getrouwheidsoordeel leveren, 5-10-2026) van decentrale
+ * overheden; daarna ruim duizend, vooral van zorginstellingen. Eén percentage
+ * over die groepen in één reeks zou vooral de wissel van groep laten zien.
+ * Gemeten met de droogloop van die dag: 2018 komt op 442 gelezen, dus de reeks
+ * begint nog steeds bij 2019.
  */
 const BREDE_BASIS = 500;
 
@@ -443,7 +446,7 @@ export function OordelenPerJaar({ jaren }: { jaren: OordelenJaar[] }) {
         gedetacheerde functionarissen niet vaststellen. Dat is geen bevinding
         over de jaarrekening zelf.
         {ervoor.length
-          ? ` Vóór ${eerste} lazen we zo'n ${nl(gemiddeldErvoor)} verklaringen per jaar, vooral van beursfondsen; die jaren staan alleen in de tabel.`
+          ? ` Vóór ${eerste} lazen we zo'n ${nl(gemiddeldErvoor)} verklaringen per jaar, vooral van beursfondsen en decentrale overheden; die jaren staan alleen in de tabel.`
           : ""}
       </p>
       <Inklapbaar samenvatting="Als tabel">
