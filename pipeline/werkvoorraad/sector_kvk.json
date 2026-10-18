@@ -113,9 +113,19 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "33381": {
+      "op": "2026-10-18",
+      "sbi": "47721",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
     "33382": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "33424": {
+      "op": "2026-10-18",
+      "uitkomst": "niet_in_dataset"
     },
     "33507": {
       "op": "2026-10-06",
@@ -1704,6 +1714,12 @@
     "43863": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "43865": {
+      "op": "2026-10-18",
+      "sbi": "8891",
+      "sector": "zorg",
+      "uitkomst": "gevuld"
     }
   }
 }
