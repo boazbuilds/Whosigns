@@ -35,6 +35,10 @@
       "sector": "zakelijke dienstverlening",
       "uitkomst": "gevuld"
     },
+    "32641": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
     "32816": {
       "op": "2026-10-06",
       "sbi": "4651",
@@ -52,6 +56,10 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "32938": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
     },
     "32946": {
       "op": "2026-10-06",
@@ -147,15 +155,39 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "33642": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
+    "33647": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
     "33842": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "33891": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
     },
     "33959": {
       "op": "2026-10-06",
       "sbi": "70102",
       "sector": "zakelijke dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "34000": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
+    "34024": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
+    "34093": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
     },
     "34179": {
       "op": "2026-10-06",
@@ -178,6 +210,14 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "34378": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
+    "34381": {
+      "op": "2026-10-25",
+      "uitkomst": "geen_sbi"
     },
     "34386": {
       "op": "2026-10-06",
@@ -249,6 +289,10 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "34739": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
     "34774": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
@@ -280,6 +324,14 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "34982": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
+    "34994": {
+      "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
     },
     "35065": {
       "op": "2026-10-06",
