@@ -135,6 +135,10 @@
       "op": "2026-10-18",
       "uitkomst": "niet_in_dataset"
     },
+    "33429": {
+      "op": "2026-11-08",
+      "uitkomst": "niet_in_dataset"
+    },
     "33507": {
       "op": "2026-10-06",
       "sbi": "45112",
@@ -171,10 +175,20 @@
       "op": "2026-10-25",
       "uitkomst": "niet_in_dataset"
     },
+    "33893": {
+      "op": "2026-11-08",
+      "uitkomst": "niet_in_dataset"
+    },
     "33959": {
       "op": "2026-10-06",
       "sbi": "70102",
       "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "33981": {
+      "op": "2026-11-08",
+      "sbi": "0161",
+      "sector": "landbouw en visserij",
       "uitkomst": "gevuld"
     },
     "34000": {
@@ -324,6 +338,14 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "34935": {
+      "op": "2026-11-08",
+      "uitkomst": "niet_in_dataset"
+    },
+    "34965": {
+      "op": "2026-11-08",
+      "uitkomst": "niet_in_dataset"
     },
     "34982": {
       "op": "2026-10-25",
