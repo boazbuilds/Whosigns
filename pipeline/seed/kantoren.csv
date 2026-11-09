@@ -17,7 +17,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000084,Vermetten Audit B.V.,Besloten Vennootschap,Tilburg,nee,2008-09-29,https://www.vermetten.nl,Verleend
 13000090,RSM Netherlands Accountants N.V.,Naamloze Vennootschap,Hoofddorp,nee,2008-09-29,http://www.rsm.global/netherlands/nl,Verleend
 13000093,VLM Accountants & Adviseurs B.V.,Besloten Vennootschap,Sittard,nee,2008-09-29,https://www@vlmaccountants.nl,Verleend
-13000097,Crowe Peak Audit & Assurance B.V.,Besloten Vennootschap,Rotterdam,nee,2008-09-29,,Verleend
+13000097,OneLane-Peak Audit & Assurance B.V.,Besloten Vennootschap,Rotterdam,nee,2008-09-29,,Verleend
 13000098,Rubicon Registeraccountants B.V.,Besloten Vennootschap,Eindhoven,nee,2008-09-29,,Verleend
 13000104,JPA Van Noort Gassler & Co B.V.,Besloten Vennootschap,'s-Gravenhage,nee,2008-09-29,https://www.noortgassler.nl,Verleend
 13000106,HLB Den Hartog Accountants & Consultants,Maatschap,Rotterdam,nee,2008-09-29,www.hlb-denhartog.nl,Verleend
@@ -80,7 +80,7 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13000408,Forvis Mazars Accountants N.V.,Naamloze Vennootschap,Rotterdam,ja,2007-09-27,http://www.mazars.nl,Verleend
 13000413,Crowe Foederer Audit & Assurance B.V.,Besloten Vennootschap,Eindhoven,nee,2008-09-29,http://www.foederer.nl,Verleend
 13000415,Schipper Accountants B.V.,Besloten Vennootschap,Goes,nee,2008-09-29,http://www.schippergroep.nl,Verleend
-13000420,De Jong & Laan Controle B.V.,Besloten Vennootschap,Amsterdam,nee,2008-09-29,https://www.jonglaan.nl,Verleend
+13000420,OneLane Audit & Assurance B.V.,Besloten Vennootschap,Amsterdam,nee,2008-09-29,www.onelane.nl,Verleend
 13000423,Govers Accountants/Adviseurs,Maatschap,Eindhoven,nee,2008-09-29,https://www.govers.nl,Verleend
 13000446,New Vision Auditors B.V.,Besloten Vennootschap,Zaltbommel,nee,2008-09-29,https://www.newvisiongroep.nl,Verleend
 13000449,Helder Controle B.V.,Besloten Vennootschap,Pijnacker,nee,2008-09-29,http://www.heldercontrole.nl,Verleend
@@ -231,4 +231,6 @@ afm_nummer,naam,rechtsvorm,plaats,oob_vergunning,vergunning_sinds,website,status
 13020228,CROP accountants & adviseurs B.V.,Besloten Vennootschap,Amersfoort,nee,2026-05-19,,Verleend
 13020230,RAAD (Inter-)national Audit B.V.,Besloten Vennootschap,Ridderkerk,nee,2026-08-06,,Verleend
 13020231,SRL Audit & Assurance B.V.,Besloten Vennootschap,Middelharnis,nee,2026-07-23,,Verleend
+13020233,KK&V Accountants B.V.,Besloten Vennootschap,Purmerend,nee,2026-10-28,,Verleend
 13020234,Steens & Partners Accountants en Adviseurs B.V.,Besloten Vennootschap,Rotterdam,nee,2026-09-22,,Verleend
+13020235,ViaNova Audit & Assurance B.V.,Besloten Vennootschap,Amsterdam,nee,2026-10-15,,Verleend
