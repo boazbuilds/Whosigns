@@ -225,6 +225,12 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "34346": {
+      "op": "2026-11-15",
+      "sbi": "6202",
+      "sector": "ict en media",
+      "uitkomst": "gevuld"
+    },
     "34378": {
       "op": "2026-10-25",
       "uitkomst": "niet_in_dataset"
@@ -355,6 +361,10 @@
       "op": "2026-10-25",
       "uitkomst": "niet_in_dataset"
     },
+    "35002": {
+      "op": "2026-11-15",
+      "uitkomst": "niet_in_dataset"
+    },
     "35065": {
       "op": "2026-10-06",
       "sbi": "4941",
@@ -391,6 +401,12 @@
       "op": "2026-10-06",
       "sbi": "6201",
       "sector": "ict en media",
+      "uitkomst": "gevuld"
+    },
+    "35270": {
+      "op": "2026-11-15",
+      "sbi": "70221",
+      "sector": "zakelijke dienstverlening",
       "uitkomst": "gevuld"
     },
     "35384": {
@@ -439,6 +455,10 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "35495": {
+      "op": "2026-11-15",
+      "uitkomst": "niet_in_dataset"
+    },
     "35578": {
       "op": "2026-10-06",
       "sbi": "70222",
@@ -475,6 +495,10 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "35636": {
+      "op": "2026-11-15",
+      "uitkomst": "niet_in_dataset"
+    },
     "35641": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
@@ -496,6 +520,10 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "35673": {
+      "op": "2026-11-15",
+      "uitkomst": "geen_sbi"
     },
     "35713": {
       "op": "2026-10-06",
@@ -589,6 +617,10 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "36027": {
+      "op": "2026-11-15",
+      "uitkomst": "geen_sbi"
+    },
     "36085": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -648,6 +680,10 @@
       "sbi": "8891",
       "sector": "zorg",
       "uitkomst": "gevuld"
+    },
+    "36214": {
+      "op": "2026-11-15",
+      "uitkomst": "niet_in_dataset"
     },
     "36316": {
       "op": "2026-10-06",
