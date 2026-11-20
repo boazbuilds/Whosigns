@@ -65,6 +65,23 @@ def _kantoor(naam: str, index: dict) -> dict | None:
     return treffer["kantoor"] if treffer and not treffer["zwak"] else None
 
 
+def onbepaald_filter(organisatie_id: int, boekjaar: int, kantoor_id: int) -> str:
+    """Welke marktonderzoekrij mag weg nu de dVi de controle zelf geeft.
+
+    Alleen bij hetzelfde kantoor, en alleen een rij zonder eigen gegevens: wat
+    een andere lader erop schreef (honoraria, een gerapporteerd oordeel) gaat
+    niet stil verloren.
+    """
+    return (
+        f"organisatie_id=eq.{organisatie_id}&boekjaar=eq.{boekjaar}"
+        f"&type_opdracht=eq.controle_onbepaald&kantoor_id=eq.{kantoor_id}"
+        "&honorarium_controle_eur=is.null&honorarium_overig_eur=is.null"
+        "&honorarium_fiscaal_eur=is.null&honorarium_nietcontrole_eur=is.null"
+        "&oordeel=is.null&oordeel_gerapporteerd=is.null"
+        "&tekenend_accountant=is.null"
+    )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--boekjaar", type=int, default=2024)
@@ -158,8 +175,16 @@ def main() -> int:
         if not kantoor_id_per_sleutel:
             print("Geen kantoren in de database — draai eerst de Pipeline-workflow.")
             return 1
+        # Alleen een gelezen controle telt als "al geladen". Een rij uit het
+        # marktonderzoek (controle_onbepaald) zegt alleen dát er een accountant
+        # was; de dVi voegt daar het opdrachttype aan toe en is dus juist een
+        # reden om te laden. Zonder dit filter kwamen er op 8-11-2026 van
+        # dVi2025 maar 130 van de ~270 corporaties binnen: bij 137 stond alleen
+        # zo'n marktonderzoekrij (gemeten 20-11-2026).
         bestaand = db.selecteer_alles(
-            "opdrachten", f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}"
+            "opdrachten",
+            f"select=organisaties(kvk_nummer)&boekjaar=eq.{boekjaar}"
+            "&type_opdracht=neq.controle_onbepaald",
         )
         al_geladen = (
             set()
@@ -260,6 +285,11 @@ def main() -> int:
                     },
                     "organisatie_id,boekjaar,type_opdracht",
                 )
+                # De marktonderzoekrij van hetzelfde jaar is nu overbodig, mits
+                # ze hetzelfde kantoor noemt en verder niets draagt. Noemt ze een
+                # ander kantoor, dan is dat een tegenspraak die zichtbaar moet
+                # blijven (v_kantoor_afwijking) en blijft ze staan.
+                db.verwijderen("opdrachten", onbepaald_filter(org["id"], boekjaar, kantoor_id))
             else:
                 # Nooit stil gokken: de opgegeven naam past op geen enkel kantoor uit
                 # onze lijsten. Meestal een typefout of een historische naam.
