@@ -135,6 +135,10 @@
       "op": "2026-10-18",
       "uitkomst": "niet_in_dataset"
     },
+    "33425": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "33429": {
       "op": "2026-11-08",
       "uitkomst": "niet_in_dataset"
@@ -201,6 +205,10 @@
     },
     "34093": {
       "op": "2026-10-25",
+      "uitkomst": "niet_in_dataset"
+    },
+    "34113": {
+      "op": "2026-11-22",
       "uitkomst": "niet_in_dataset"
     },
     "34179": {
@@ -409,6 +417,16 @@
       "sector": "zakelijke dienstverlening",
       "uitkomst": "gevuld"
     },
+    "35369": {
+      "op": "2026-11-22",
+      "sbi": "77111",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "35380": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "35384": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -561,6 +579,12 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "35797": {
+      "op": "2026-11-22",
+      "sbi": "6622",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
     "35798": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -600,6 +624,10 @@
     "35918": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "35949": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "35997": {
       "op": "2026-10-06",
@@ -708,6 +736,10 @@
       "sbi": "4773",
       "sector": "handel",
       "uitkomst": "gevuld"
+    },
+    "36421": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "36467": {
       "op": "2026-10-06",
@@ -919,6 +951,50 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "37013": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37015": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37016": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37020": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37030": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37048": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37049": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37056": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37057": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37065": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "37067": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "37145": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
@@ -966,6 +1042,10 @@
       "sbi": "96031",
       "sector": "overig bedrijfsleven",
       "uitkomst": "gevuld"
+    },
+    "37271": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "37277": {
       "op": "2026-10-06",
@@ -1017,6 +1097,12 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "37541": {
+      "op": "2026-11-22",
+      "sbi": "74203",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
     "38081": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -1049,6 +1135,12 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "38303": {
+      "op": "2026-11-22",
+      "sbi": "0910",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
     "38308": {
       "op": "2026-10-06",
       "sbi": "4652",
@@ -1079,6 +1171,10 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "38549": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "38592": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -1090,6 +1186,10 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "38631": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "38710": {
       "op": "2026-10-06",
@@ -1129,11 +1229,21 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "38813": {
+      "op": "2026-11-22",
+      "sbi": "4662",
+      "sector": "handel",
+      "uitkomst": "gevuld"
+    },
     "38818": {
       "op": "2026-10-06",
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "38830": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "38871": {
       "op": "2026-10-06",
@@ -1156,6 +1266,12 @@
     "38992": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "39066": {
+      "op": "2026-11-22",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
     },
     "39088": {
       "op": "2026-10-06",
@@ -1181,6 +1297,30 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "39119": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39143": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39145": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39158": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39165": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39167": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "39219": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
@@ -1205,6 +1345,12 @@
       "op": "2026-10-06",
       "sbi": "72193",
       "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "39294": {
+      "op": "2026-11-22",
+      "sbi": "3314",
+      "sector": "industrie en bouw",
       "uitkomst": "gevuld"
     },
     "39340": {
@@ -1235,6 +1381,12 @@
       "sector": "zakelijke dienstverlening",
       "uitkomst": "gevuld"
     },
+    "39412": {
+      "op": "2026-11-22",
+      "sbi": "55101",
+      "sector": "overig bedrijfsleven",
+      "uitkomst": "gevuld"
+    },
     "39418": {
       "op": "2026-10-06",
       "sbi": "6630",
@@ -1253,16 +1405,92 @@
       "sector": "industrie en bouw",
       "uitkomst": "gevuld"
     },
+    "39428": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39430": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39457": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39463": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39470": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39477": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39485": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39494": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39506": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39507": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39518": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39524": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "39533": {
       "op": "2026-10-06",
       "sbi": "55101",
       "sector": "overig bedrijfsleven",
       "uitkomst": "gevuld"
     },
+    "39636": {
+      "op": "2026-11-22",
+      "sbi": "4222",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "39684": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "39693": {
       "op": "2026-10-06",
       "sbi": "88101",
       "sector": "zorg",
+      "uitkomst": "gevuld"
+    },
+    "39707": {
+      "op": "2026-11-22",
+      "uitkomst": "geen_sbi"
+    },
+    "39716": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39720": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "39762": {
+      "op": "2026-11-22",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
     "39783": {
@@ -1282,6 +1510,14 @@
       "sbi": "46383",
       "sector": "handel",
       "uitkomst": "gevuld"
+    },
+    "40211": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "40253": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "40314": {
       "op": "2026-10-06",
@@ -1309,9 +1545,19 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "40491": {
+      "op": "2026-11-22",
+      "sbi": "69202",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
     "40565": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "40631": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "40633": {
       "op": "2026-10-06",
@@ -1319,11 +1565,19 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "40641": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "40642": {
       "op": "2026-10-06",
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "40643": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "40644": {
       "op": "2026-10-06",
@@ -1334,6 +1588,10 @@
     "40693": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "40694": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "40695": {
       "op": "2026-10-06",
@@ -1359,6 +1617,10 @@
       "sector": "zakelijke dienstverlening",
       "uitkomst": "gevuld"
     },
+    "40743": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "40802": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -1375,6 +1637,10 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "40811": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "40812": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -1387,9 +1653,21 @@
       "sector": "zakelijke dienstverlening",
       "uitkomst": "gevuld"
     },
+    "40852": {
+      "op": "2026-11-22",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
     "40859": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "40860": {
+      "op": "2026-11-22",
+      "sbi": "6190",
+      "sector": "ict en media",
+      "uitkomst": "gevuld"
     },
     "40861": {
       "op": "2026-10-06",
@@ -1449,6 +1727,10 @@
       "sector": "handel",
       "uitkomst": "gevuld"
     },
+    "41251": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "41258": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
@@ -1471,6 +1753,10 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "41327": {
+      "op": "2026-11-22",
+      "uitkomst": "geen_sbi"
+    },
     "41329": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -1483,15 +1769,27 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "41402": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "41408": {
       "op": "2026-10-06",
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "41431": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "41433": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "41438": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "41439": {
       "op": "2026-10-06",
@@ -1521,6 +1819,26 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "41578": {
+      "op": "2026-11-22",
+      "sbi": "2593",
+      "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "41677": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
+    "41688": {
+      "op": "2026-11-22",
+      "sbi": "78201",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "41718": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "41719": {
       "op": "2026-10-06",
       "sbi": "70102",
@@ -1545,6 +1863,10 @@
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
     },
+    "41773": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "41834": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -1554,6 +1876,10 @@
     "41864": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "41868": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "41886": {
       "op": "2026-10-06",
@@ -1594,6 +1920,10 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "42301": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "42377": {
       "op": "2026-10-06",
@@ -1641,6 +1971,10 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "42967": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "43006": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
@@ -1654,6 +1988,12 @@
     "43027": {
       "op": "2026-10-06",
       "sbi": "70102",
+      "sector": "zakelijke dienstverlening",
+      "uitkomst": "gevuld"
+    },
+    "43028": {
+      "op": "2026-11-22",
+      "sbi": "72193",
       "sector": "zakelijke dienstverlening",
       "uitkomst": "gevuld"
     },
@@ -1673,6 +2013,10 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "43125": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
+    },
     "43139": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
@@ -1682,6 +2026,10 @@
       "sbi": "6201",
       "sector": "ict en media",
       "uitkomst": "gevuld"
+    },
+    "43151": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "43153": {
       "op": "2026-10-06",
@@ -1694,6 +2042,10 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "43174": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "43183": {
       "op": "2026-10-06",
@@ -1710,6 +2062,10 @@
       "sbi": "6420",
       "sector": "financiële dienstverlening",
       "uitkomst": "gevuld"
+    },
+    "43239": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "43248": {
       "op": "2026-10-06",
@@ -1737,6 +2093,12 @@
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
     },
+    "43330": {
+      "op": "2026-11-22",
+      "sbi": "6420",
+      "sector": "financiële dienstverlening",
+      "uitkomst": "gevuld"
+    },
     "43378": {
       "op": "2026-10-06",
       "sbi": "6420",
@@ -1746,6 +2108,10 @@
     "43411": {
       "op": "2026-10-06",
       "uitkomst": "geen_sbi"
+    },
+    "43456": {
+      "op": "2026-11-22",
+      "uitkomst": "niet_in_dataset"
     },
     "43581": {
       "op": "2026-10-06",
@@ -1779,6 +2145,12 @@
       "op": "2026-10-06",
       "sbi": "3832",
       "sector": "industrie en bouw",
+      "uitkomst": "gevuld"
+    },
+    "43785": {
+      "op": "2026-11-22",
+      "sbi": "4941",
+      "sector": "transport en logistiek",
       "uitkomst": "gevuld"
     },
     "43813": {
